@@ -1,0 +1,19 @@
+---
+import '../../web/styles.css';
+const { title = 'Dangerous Creatures', desc = 'The classic 1994 wildlife explorer, reborn for the web — so any kid can meet the planet’s most fascinating animals.' } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={desc} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

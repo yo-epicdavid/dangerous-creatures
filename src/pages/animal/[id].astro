@@ -1,0 +1,209 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Topbar from '../../components/Topbar.astro';
+import { listAnimals, asset, catSlug } from '../../lib/data.js';
+
+export function getStaticPaths() {
+  return listAnimals().map((d) => ({ params: { id: d.id }, props: { d } }));
+}
+const { d } = Astro.props;
+const facts = d.facts || [];
+const chip = (label, tab) => ({ label, href: `/browse?tab=${tab}#${catSlug(label)}` });
+const weaponChips = (d.weapons || []).map((w) => chip(w, 'weapons'));
+const habitatChips = (d.habitats || []).map((h) => chip(h, 'habitats'));
+const regionChips = (d.regions || []).map((r) => chip(r, 'regions'));
+---
+<Layout title={`${d.name} — Dangerous Creatures`} desc={d.tagline}>
+  <Topbar>
+    <div slot="center" class="modeswitch" id="modeswitch" role="group" aria-label="View mode">
+      <button data-mode="modern">Modern</button>
+      <button data-mode="classic">Classic 1994</button>
+    </div>
+    <button slot="right" id="narrate" class="btn btn--play" hidden>▶ Listen to the story</button>
+  </Topbar>
+
+  <main id="app" class="wrap">
+    <!-- MODERN (pre-rendered) -->
+    <div id="modern">
+      <section class="hero">
+        <div class="hero__media">
+          <img src={asset(d.hero.image)} alt={d.hero.alt || d.name} />
+          <hgroup class="hero__title">
+            <div class="name">{d.name}</div>
+            {d.scientificName && <div class="sci">{d.scientificName}</div>}
+          </hgroup>
+        </div>
+      </section>
+
+      <p class="tagline">{d.tagline}</p>
+
+      {(weaponChips.length || habitatChips.length || regionChips.length) && (
+        <div class="chips">
+          {weaponChips.length > 0 && <span class="chips__label">Weapons</span>}
+          {weaponChips.map((c) => <a class="chip" href={c.href}>{c.label}</a>)}
+          {habitatChips.length > 0 && <span class="chips__label">Habitat</span>}
+          {habitatChips.map((c) => <a class="chip" href={c.href}>{c.label}</a>)}
+          {regionChips.length > 0 && <span class="chips__label">Found in</span>}
+          {regionChips.map((c) => <a class="chip" href={c.href}>{c.label}</a>)}
+        </div>
+      )}
+
+      <div class="layout">
+        <div class="intro"><p class="lead">{d.intro}</p></div>
+        <aside class="factcard">
+          <h2>Field notes</h2>
+          <dl>
+            {facts.map((f) => (
+              <div class={f.danger ? 'danger' : ''}>
+                <dt>{f.label}</dt>
+                <dd>{f.value}</dd>
+              </div>
+            ))}
+          </dl>
+        </aside>
+      </div>
+
+      {d.topics?.length > 0 && (
+        <>
+          <h2 class="section-head">Get closer</h2>
+          <div class="topics">
+            {d.topics.map((t) => (
+              <article class="topic">
+                <div class="topic__media"><img src={asset(t.image)} alt={t.title} loading="lazy" /></div>
+                <div class="topic__body">
+                  <h3>{t.title}</h3>
+                  <p>{t.text}</p>
+                  {t.captions?.length > 0 && (
+                    <div class="topic__captions">
+                      {t.captions.map((c) => <div class="cap"><b>{c.label}</b>{c.text}</div>)}
+                    </div>
+                  )}
+                </div>
+              </article>
+            ))}
+          </div>
+        </>
+      )}
+
+      {d.video && (
+        <>
+          <h2 class="section-head">Watch</h2>
+          <section class="videoblock">
+            <video controls playsinline poster={asset(d.video.poster)}>
+              <source src={asset(d.video.src)} type="video/mp4" />
+            </video>
+            <p class="cap"><b>{d.video.title} — </b>{d.video.caption}</p>
+          </section>
+        </>
+      )}
+
+      {d._provenance && (
+        <p class="prov">
+          <b>Source: </b>{d._provenance.source}. {d._provenance.note}
+          {' '}<a href="/credits">Credits & Acknowledgements →</a>
+        </p>
+      )}
+    </div>
+
+    <!-- CLASSIC 1994 (interactive island, built client-side from the same data) -->
+    <div id="classic" hidden></div>
+  </main>
+
+  <audio id="narration" preload="none"></audio>
+
+  <script define:vars={{ data: d }}>
+    const params = new URLSearchParams(location.search);
+    const MODE_KEY = 'dc-mode';
+    let mode = params.get('mode') || localStorage.getItem(MODE_KEY) || 'modern';
+    const el = (t, p = {}, ...k) => { const n = Object.assign(document.createElement(t), p); for (const c of k) n.append(c); return n; };
+    const asset = (p) => (!p ? p : p.startsWith('/') ? p : '/' + p);
+    const mapUrl = (u) => {
+      if (!u) return u;
+      let m = u.match(/animal\.html\?id=([a-z0-9]+)/i);
+      if (m) return '/animal/' + m[1] + (/mode=classic/.test(u) ? '?mode=classic' : '');
+      m = u.match(/browse\.html(\?[^#]*)?(#.*)?$/);
+      if (m) return '/browse' + (m[1] || '') + (m[2] || '');
+      return u;
+    };
+    const modern = document.getElementById('modern');
+    const classicEl = document.getElementById('classic');
+    const narrateBtn = document.getElementById('narrate');
+    const audio = document.getElementById('narration');
+
+    document.querySelectorAll('#modeswitch button').forEach((b) =>
+      b.addEventListener('click', () => setMode(b.dataset.mode)));
+    function setMode(m) { mode = (m === 'classic' && data.classic) ? 'classic' : 'modern'; localStorage.setItem(MODE_KEY, mode); apply(); }
+    function apply() {
+      document.body.dataset.mode = mode;
+      document.querySelectorAll('#modeswitch button').forEach((b) => b.classList.toggle('is-active', b.dataset.mode === mode));
+      const isClassic = mode === 'classic' && !!data.classic;
+      modern.hidden = isClassic;
+      classicEl.hidden = !isClassic;
+      if (isClassic && !classicEl.dataset.rendered) { renderClassic(); classicEl.dataset.rendered = '1'; }
+      scrollTo({ top: 0 });
+    }
+
+    if (data.narration) {
+      audio.src = asset(data.narration);
+      narrateBtn.hidden = false;
+      narrateBtn.addEventListener('click', () => { audio.paused ? audio.play() : audio.pause(); });
+      const reset = () => { narrateBtn.textContent = '▶ Listen to the story'; narrateBtn.classList.remove('is-playing'); };
+      audio.addEventListener('play', () => { narrateBtn.textContent = '❚❚ Pause'; narrateBtn.classList.add('is-playing'); });
+      audio.addEventListener('pause', reset);
+      audio.addEventListener('ended', reset);
+    }
+
+    function renderClassic() {
+      const c = data.classic;
+      classicEl.innerHTML = '';
+      const root = el('div', { className: 'classic' });
+      const bar = el('div', { className: 'classic__bar' });
+      bar.append(el('div', { className: 'classic__title', textContent: `${data.name} — original 1994 screens` }));
+      const reveal = el('button', { className: 'btn', textContent: 'Show clickable spots' });
+      bar.append(reveal);
+      root.append(bar);
+      const stage = el('div', { className: 'classic__stage' });
+      root.append(stage);
+      classicEl.append(root);
+      reveal.addEventListener('click', () => { const on = stage.classList.toggle('reveal'); reveal.textContent = on ? 'Hide clickable spots' : 'Show clickable spots'; });
+      if (params.get('spots') === '1') { stage.classList.add('reveal'); reveal.textContent = 'Hide clickable spots'; }
+      const history = [];
+      function show(key) {
+        const sc = c.screens[key];
+        if (!sc) return;
+        stage.innerHTML = '';
+        if (sc.video) {
+          const v = el('video', { className: 'classic__screen', controls: true, autoplay: true, playsInline: true, poster: asset(sc.poster || '') });
+          v.append(el('source', { src: asset(sc.video), type: 'video/mp4' }));
+          stage.append(v);
+        } else {
+          const frame = el('div', { className: 'classic__frame' });
+          frame.append(el('img', { className: 'classic__screen', src: asset(sc.image), alt: `${data.name} — ${key}` }));
+          for (const h of sc.hotspots || []) {
+            const b = el('button', { className: 'hotspot', title: h.label, ariaLabel: h.label });
+            Object.assign(b.style, { left: h.x + '%', top: h.y + '%', width: h.w + '%', height: h.h + '%' });
+            if (h.disabled) b.classList.add('hotspot--disabled');
+            if (h.external || h.link) b.classList.add('hotspot--link');
+            b.append(el('span', { className: 'hotspot__tip', textContent: h.label + ((h.external || h.link) ? ' →' : '') }));
+            b.addEventListener('click', () => {
+              if (h.link) { location.href = mapUrl(h.link); return; }
+              if (h.external) { location.href = mapUrl(h.external); return; }
+              if (h.disabled) return;
+              if (h.to) { history.push(key); show(h.to); }
+            });
+            frame.append(b);
+          }
+          stage.append(frame);
+        }
+        if (key !== c.start) {
+          const back = el('button', { className: 'classic__back btn', textContent: '‹ Back' });
+          back.addEventListener('click', () => show(history.pop() || c.start));
+          stage.append(back);
+        }
+      }
+      show(c.start);
+    }
+
+    apply();
+  </script>
+</Layout>
