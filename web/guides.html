@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guided Tours — Dangerous Creatures</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .guides-head { text-align: center; padding: 26px 20px 4px; }
+    .guides-head h1 { font-family: var(--font-display); font-size: clamp(34px, 6vw, 60px); margin: 0; }
+    .guides-head p { color: var(--ink-soft); margin: 8px 0 0; font-size: 18px; }
+    .host-group { margin: 34px 0; }
+    .host-group > h2 { font-family: var(--font-display); color: var(--gold); font-size: 24px; border-bottom: 1px solid var(--line); padding-bottom: 8px; margin: 0 0 16px; }
+    .tourcard span { font-family: var(--font-display); font-weight: 700; }
+    /* player */
+    .player { max-width: 880px; margin: 8px auto 70px; }
+    .player__art { position: relative; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); box-shadow: var(--shadow); background: #0c0a08; }
+    .player__art img { width: 100%; display: block; }
+    .player h1 { font-family: var(--font-display); font-size: clamp(30px, 5vw, 48px); margin: 18px 0 2px; }
+    .host-line { color: var(--gold); font-weight: 600; margin: 0 0 4px; }
+    .narrate-bar { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; background: linear-gradient(180deg, var(--panel), var(--panel-2)); border: 1px solid var(--line); border-radius: 16px; padding: 14px 18px; margin: 18px 0; box-shadow: var(--shadow); }
+    .narrate-bar .step { color: var(--ink-soft); font-size: 14px; min-width: 92px; }
+    .narrate-bar progress { flex: 1; height: 8px; min-width: 120px; accent-color: var(--rust); }
+    .icon-btn { appearance: none; cursor: pointer; border: 1px solid #ffffff22; background: var(--panel-2); color: var(--ink); width: 42px; height: 42px; border-radius: 50%; font-size: 16px; transition: .15s; }
+    .icon-btn:hover { border-color: var(--gold); }
+    .player__intro { font-size: 19px; color: var(--ink); }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><b>Dangerous</b> Creatures</a>
+    <div class="spacer"></div>
+    <a class="btn" href="index.html">← All creatures</a>
+  </header>
+  <main id="app" class="wrap"><p class="loading">Gathering the guides…</p></main>
+  <audio id="player" preload="none"></audio>
+
+  <script>
+    const params = new URLSearchParams(location.search);
+    const tourNum = parseInt(params.get("tour") || "0", 10);
+    const el = (t, p = {}, ...k) => { const n = Object.assign(document.createElement(t), p); for (const c of k) n.append(c); return n; };
+    const HOST_GROUPS = [
+      { host: "Storyteller", label: "📖 Storyteller's Tales" },
+      { host: "Annie", label: "🎒 On Tour with Annie" },
+      { host: "Fergie", label: "🧭 Journeys with Fergie" },
+    ];
+    let GUIDES = null;
+
+    fetch("data/guides.json")
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((d) => { GUIDES = d; tourNum ? renderPlayer(tourNum) : renderMenu(); })
+      .catch(() => { document.getElementById("app").innerHTML = '<p class="loading">Couldn\'t load tours. Run a local server.</p>'; });
+
+    function renderMenu() {
+      const app = document.getElementById("app");
+      app.innerHTML = "";
+      app.append(headBlock("Guided Tours", "Twelve narrated journeys through the world of dangerous creatures, hosted by your guides."));
+      for (const grp of HOST_GROUPS) {
+        const tours = GUIDES.filter((g) => g.host === grp.host);
+        if (!tours.length) continue;
+        const sec = el("section", { className: "host-group" }, el("h2", { textContent: grp.label }));
+        const grid = el("div", { className: "grid" });
+        for (const g of tours) {
+          const card = el("a", { className: "creature tourcard", href: `guides.html?tour=${g.tour}` });
+          card.append(el("img", { src: g.art, alt: g.title, loading: "lazy" }), el("span", { textContent: g.title }));
+          grid.append(card);
+        }
+        sec.append(grid);
+        app.append(sec);
+      }
+    }
+
+    function headBlock(title, sub) {
+      const h = el("div", { className: "guides-head" });
+      h.append(el("h1", { textContent: title }), el("p", { textContent: sub }));
+      return h;
+    }
+
+    function renderPlayer(n) {
+      const g = GUIDES.find((x) => x.tour === n);
+      if (!g) return renderMenu();
+      document.title = `${g.title} — Guided Tours`;
+      const app = document.getElementById("app");
+      app.innerHTML = "";
+      const wrap = el("div", { className: "player" });
+      wrap.append(el("a", { className: "btn", href: "guides.html", textContent: "← All tours" }));
+      wrap.append(el("h1", { textContent: g.title }));
+      wrap.append(el("p", { className: "host-line", textContent: `Narrated by ${g.host}` }));
+      const art = el("div", { className: "player__art" });
+      art.append(el("img", { src: g.art, alt: g.title }));
+      wrap.append(art);
+
+      // narration player
+      const audio = document.getElementById("player");
+      audio.pause();
+      let step = 0;
+      const bar = el("div", { className: "narrate-bar" });
+      const playBtn = el("button", { className: "icon-btn", title: "Play / pause", textContent: "▶" });
+      const prevBtn = el("button", { className: "icon-btn", title: "Previous", textContent: "⏮" });
+      const nextBtn = el("button", { className: "icon-btn", title: "Next", textContent: "⏭" });
+      const stepLbl = el("span", { className: "step" });
+      const prog = el("progress", { max: g.narration.length, value: 1 });
+      bar.append(prevBtn, playBtn, nextBtn, stepLbl, prog);
+      wrap.append(bar);
+
+      const setStep = (i, autoplay) => {
+        step = Math.max(0, Math.min(i, g.narration.length - 1));
+        audio.src = g.narration[step];
+        stepLbl.textContent = `Step ${step + 1} of ${g.narration.length}`;
+        prog.value = step + 1;
+        if (autoplay) audio.play();
+      };
+      playBtn.addEventListener("click", () => { if (audio.paused) audio.play(); else audio.pause(); });
+      prevBtn.addEventListener("click", () => setStep(step - 1, true));
+      nextBtn.addEventListener("click", () => setStep(step + 1, true));
+      audio.onplay = () => (playBtn.textContent = "❚❚");
+      audio.onpause = () => (playBtn.textContent = "▶");
+      audio.onended = () => { if (step < g.narration.length - 1) setStep(step + 1, true); else playBtn.textContent = "▶"; };
+      setStep(0, false);
+
+      wrap.append(el("p", { className: "player__intro", textContent: g.intro }));
+
+      if (g.creatures?.length) {
+        wrap.append(el("h2", { className: "section-head", textContent: "Creatures on this journey" }));
+        const grid = el("div", { className: "grid" });
+        for (const a of g.creatures) {
+          const c = el("a", { className: "creature", href: `animal.html?id=${a.id}` });
+          c.append(el("img", { src: a.thumb, alt: a.name, loading: "lazy" }), el("span", { textContent: a.name }));
+          grid.append(c);
+        }
+        wrap.append(grid);
+      }
+      app.append(wrap);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,693 @@
+[
+  {
+    "tour": 1,
+    "title": "Aboriginal Dreamtime",
+    "host": "Storyteller",
+    "intro": "Once upon a time, there were no computers–like the one you're using now–no books, no pens, no paper. There was no way to hold on to history except by remembering it. There was no way to pass history down, except by telling it, over and over. The Aboriginal people of Australia began doing that thirty thousand years ago, when they first came to Australia from Asia.",
+    "art": "assets/guides/tour01/intro.png",
+    "narration": [
+      "assets/guides/tour01/step01.mp3",
+      "assets/guides/tour01/step02.mp3",
+      "assets/guides/tour01/step03.mp3",
+      "assets/guides/tour01/step04.mp3",
+      "assets/guides/tour01/step05.mp3",
+      "assets/guides/tour01/step06.mp3",
+      "assets/guides/tour01/step07.mp3",
+      "assets/guides/tour01/step08.mp3",
+      "assets/guides/tour01/step09.mp3",
+      "assets/guides/tour01/step10.mp3",
+      "assets/guides/tour01/step11.mp3",
+      "assets/guides/tour01/step12.mp3"
+    ],
+    "stepCount": 12
+  },
+  {
+    "tour": 2,
+    "title": "Tales from Asia",
+    "host": "Storyteller",
+    "intro": "Perhaps you've heard Aesop's fable about how the slow and steady tortoise won a race against the quick but flighty hare. Or maybe someone told you about the man who pulled a thorn from a lion's paw and won his eternal friendship. These tales, and many others besides, came from Asia. They've been translated into so many languages and have so many versions that it's almost impossible to say who told the story first.",
+    "art": "assets/guides/tour02/intro.png",
+    "narration": [
+      "assets/guides/tour02/step01.mp3",
+      "assets/guides/tour02/step02.mp3",
+      "assets/guides/tour02/step03.mp3",
+      "assets/guides/tour02/step04.mp3",
+      "assets/guides/tour02/step05.mp3",
+      "assets/guides/tour02/step06.mp3",
+      "assets/guides/tour02/step07.mp3",
+      "assets/guides/tour02/step08.mp3",
+      "assets/guides/tour02/step09.mp3",
+      "assets/guides/tour02/step10.mp3",
+      "assets/guides/tour02/step11.mp3",
+      "assets/guides/tour02/step12.mp3",
+      "assets/guides/tour02/step13.mp3"
+    ],
+    "stepCount": 13
+  },
+  {
+    "tour": 3,
+    "title": "Native American Stories",
+    "host": "Storyteller",
+    "intro": "When Christopher Columbus arrived in the New World, he found people there, people whom he mistakenly named \"Indians\" because he believed he had reached India. People have lived in North America for thousands of years. There are many tribes, with many different cultures. I will now share with you some of the stories that the descendants of these First Americans tell.",
+    "art": "assets/guides/tour03/intro.png",
+    "narration": [
+      "assets/guides/tour03/step01.mp3",
+      "assets/guides/tour03/step02.mp3",
+      "assets/guides/tour03/step03.mp3",
+      "assets/guides/tour03/step04.mp3",
+      "assets/guides/tour03/step05.mp3",
+      "assets/guides/tour03/step06.mp3",
+      "assets/guides/tour03/step07.mp3",
+      "assets/guides/tour03/step08.mp3",
+      "assets/guides/tour03/step09.mp3",
+      "assets/guides/tour03/step10.mp3",
+      "assets/guides/tour03/step11.mp3",
+      "assets/guides/tour03/step12.mp3"
+    ],
+    "stepCount": 12
+  },
+  {
+    "tour": 4,
+    "title": "African Stories",
+    "host": "Storyteller",
+    "intro": "In the beginning, the Sky God owned all the stories that would ever be told. So say the Ashanti people of Ghana, in West Africa. But Anansi the spider, who was the most clever of the animals, bought them for a gourd full of hornets, a python, and a leopard. Now, as I am a storyteller, I may borrow some stories from Anansi.",
+    "art": "assets/guides/tour04/intro.png",
+    "narration": [
+      "assets/guides/tour04/step01.mp3",
+      "assets/guides/tour04/step02.mp3",
+      "assets/guides/tour04/step03.mp3",
+      "assets/guides/tour04/step04.mp3",
+      "assets/guides/tour04/step05.mp3",
+      "assets/guides/tour04/step06.mp3",
+      "assets/guides/tour04/step07.mp3",
+      "assets/guides/tour04/step08.mp3",
+      "assets/guides/tour04/step09.mp3",
+      "assets/guides/tour04/step10.mp3",
+      "assets/guides/tour04/step11.mp3",
+      "assets/guides/tour04/step12.mp3"
+    ],
+    "stepCount": 12
+  },
+  {
+    "tour": 5,
+    "title": "Dumb Things People Do",
+    "host": "Annie",
+    "intro": "Did you know that when people get hurt by wild animals, it's usually because they're doing something really dumb?",
+    "art": "assets/guides/tour05/intro.png",
+    "narration": [
+      "assets/guides/tour05/step01.mp3",
+      "assets/guides/tour05/step02.mp3",
+      "assets/guides/tour05/step03.mp3",
+      "assets/guides/tour05/step04.mp3",
+      "assets/guides/tour05/step05.mp3",
+      "assets/guides/tour05/step06.mp3",
+      "assets/guides/tour05/step07.mp3",
+      "assets/guides/tour05/step08.mp3",
+      "assets/guides/tour05/step09.mp3",
+      "assets/guides/tour05/step10.mp3",
+      "assets/guides/tour05/step11.mp3",
+      "assets/guides/tour05/step12.mp3",
+      "assets/guides/tour05/step13.mp3",
+      "assets/guides/tour05/step14.mp3"
+    ],
+    "stepCount": 14
+  },
+  {
+    "tour": 6,
+    "title": "Male & Female Roles",
+    "host": "Annie",
+    "intro": "I'm glad I'm female, and I'm also glad I'm human. Now, in the human world, males and females are finally getting pretty equal treatment, but in the animal world, being male or female can make a big difference in how your life works out.",
+    "art": "assets/guides/tour06/intro.png",
+    "narration": [
+      "assets/guides/tour06/step01.mp3",
+      "assets/guides/tour06/step02.mp3",
+      "assets/guides/tour06/step03.mp3",
+      "assets/guides/tour06/step04.mp3",
+      "assets/guides/tour06/step05.mp3",
+      "assets/guides/tour06/step06.mp3",
+      "assets/guides/tour06/step07.mp3",
+      "assets/guides/tour06/step08.mp3",
+      "assets/guides/tour06/step09.mp3",
+      "assets/guides/tour06/step10.mp3",
+      "assets/guides/tour06/step11.mp3",
+      "assets/guides/tour06/step12.mp3"
+    ],
+    "stepCount": 12
+  },
+  {
+    "tour": 7,
+    "title": "Coral Reef Dive",
+    "host": "Annie",
+    "intro": "Got your SCUBA gear ready to go? Tanks filled up with air and regulators checked out? Let's go on a tour of a coral reef.",
+    "art": "assets/guides/tour07/intro.png",
+    "narration": [
+      "assets/guides/tour07/step01.mp3",
+      "assets/guides/tour07/step02.mp3",
+      "assets/guides/tour07/step03.mp3",
+      "assets/guides/tour07/step04.mp3",
+      "assets/guides/tour07/step05.mp3",
+      "assets/guides/tour07/step06.mp3",
+      "assets/guides/tour07/step07.mp3",
+      "assets/guides/tour07/step08.mp3",
+      "assets/guides/tour07/step09.mp3",
+      "assets/guides/tour07/step10.mp3",
+      "assets/guides/tour07/step11.mp3",
+      "assets/guides/tour07/step12.mp3",
+      "assets/guides/tour07/step13.mp3",
+      "assets/guides/tour07/step14.mp3",
+      "assets/guides/tour07/step15.mp3",
+      "assets/guides/tour07/step16.mp3"
+    ],
+    "stepCount": 16,
+    "creatures": [
+      {
+        "id": "swsp",
+        "name": "Australian Sea Wasp",
+        "thumb": "assets/swsp/SWSP00AA.png"
+      },
+      {
+        "id": "bara",
+        "name": "Barracuda",
+        "thumb": "assets/bara/BARA00AA.png"
+      },
+      {
+        "id": "boct",
+        "name": "Blue-ringed Octopus",
+        "thumb": "assets/boct/BOCT00AA.png"
+      },
+      {
+        "id": "crab",
+        "name": "Crab",
+        "thumb": "assets/crab/CRAB00AA.png"
+      },
+      {
+        "id": "gsqu",
+        "name": "Giant Squid",
+        "thumb": "assets/gsqu/GSQU00AA.png"
+      },
+      {
+        "id": "gwsh",
+        "name": "Great White Shark",
+        "thumb": "assets/gwsh/GWSH00AA.png"
+      },
+      {
+        "id": "hamr",
+        "name": "Hammerhead Shark",
+        "thumb": "assets/hamr/HAMR00AA.png"
+      },
+      {
+        "id": "orca",
+        "name": "Killer Whale",
+        "thumb": "assets/orca/ORCA00AA.png"
+      },
+      {
+        "id": "lfsh",
+        "name": "Lionfish",
+        "thumb": "assets/lfsh/LFSH00AA.png"
+      },
+      {
+        "id": "meel",
+        "name": "Moray Eel",
+        "thumb": "assets/meel/MEEL00AA.png"
+      },
+      {
+        "id": "porc",
+        "name": "Porcupine Fish",
+        "thumb": "assets/porc/PORC00AA.png"
+      },
+      {
+        "id": "mwar",
+        "name": "Portuguese Man-of-War",
+        "thumb": "assets/mwar/MWAR00AA.png"
+      },
+      {
+        "id": "seas",
+        "name": "Sea Snake",
+        "thumb": "assets/seas/SEAS00AA.png"
+      },
+      {
+        "id": "sray",
+        "name": "Stingray",
+        "thumb": "assets/sray/SRAY00AA.png"
+      }
+    ]
+  },
+  {
+    "tour": 8,
+    "title": "Really Tough Shots",
+    "host": "Annie",
+    "intro": "Got the itch to be a wildlife photographer? It's not for wimps–it requires a lot of patience, and sometimes it takes guts to put yourself into the situations you need for great pictures. Come along and I'll show you some of the tough shots to get.",
+    "art": "assets/guides/tour08/intro.png",
+    "narration": [
+      "assets/guides/tour08/step01.mp3",
+      "assets/guides/tour08/step02.mp3",
+      "assets/guides/tour08/step03.mp3",
+      "assets/guides/tour08/step04.mp3",
+      "assets/guides/tour08/step05.mp3",
+      "assets/guides/tour08/step06.mp3",
+      "assets/guides/tour08/step07.mp3",
+      "assets/guides/tour08/step08.mp3",
+      "assets/guides/tour08/step09.mp3",
+      "assets/guides/tour08/step10.mp3",
+      "assets/guides/tour08/step11.mp3",
+      "assets/guides/tour08/step12.mp3",
+      "assets/guides/tour08/step13.mp3",
+      "assets/guides/tour08/step14.mp3"
+    ],
+    "stepCount": 14
+  },
+  {
+    "tour": 9,
+    "title": "Amazon Adventure",
+    "host": "Fergie",
+    "intro": "Welcome, gather 'round! Our paddlers are just about ready to take us on a birdwatching trip down the river into the Amazon rain forest, where, if we're lucky, we'll see a flock of brilliant parrots on the wing.",
+    "art": "assets/guides/tour09/intro.png",
+    "narration": [
+      "assets/guides/tour09/step01.mp3",
+      "assets/guides/tour09/step02.mp3",
+      "assets/guides/tour09/step03.mp3",
+      "assets/guides/tour09/step04.mp3",
+      "assets/guides/tour09/step05.mp3",
+      "assets/guides/tour09/step06.mp3",
+      "assets/guides/tour09/step07.mp3",
+      "assets/guides/tour09/step08.mp3",
+      "assets/guides/tour09/step09.mp3",
+      "assets/guides/tour09/step10.mp3",
+      "assets/guides/tour09/step11.mp3",
+      "assets/guides/tour09/step12.mp3",
+      "assets/guides/tour09/step13.mp3",
+      "assets/guides/tour09/step14.mp3",
+      "assets/guides/tour09/step15.mp3",
+      "assets/guides/tour09/step16.mp3"
+    ],
+    "stepCount": 16,
+    "creatures": [
+      {
+        "id": "aant",
+        "name": "Army Ant",
+        "thumb": "assets/aant/AANT00AA.png"
+      },
+      {
+        "id": "bwid",
+        "name": "Black Widow Spider",
+        "thumb": "assets/bwid/BWID00AA.png"
+      },
+      {
+        "id": "boac",
+        "name": "Boa",
+        "thumb": "assets/boac/BOAC00AA.png"
+      },
+      {
+        "id": "cane",
+        "name": "Cane Toad",
+        "thumb": "assets/cane/CANE00AA.png"
+      },
+      {
+        "id": "cent",
+        "name": "Centipede",
+        "thumb": "assets/cent/CENT00AA.png"
+      },
+      {
+        "id": "coug",
+        "name": "Cougar",
+        "thumb": "assets/coug/COUG00AA.png"
+      },
+      {
+        "id": "eeel",
+        "name": "Electric Eel",
+        "thumb": "assets/eeel/EEEL00AA.png"
+      },
+      {
+        "id": "harp",
+        "name": "Harpy Eagle",
+        "thumb": "assets/harp/HARP00AA.png"
+      },
+      {
+        "id": "jagu",
+        "name": "Jaguar",
+        "thumb": "assets/jagu/JAGU00AA.png"
+      },
+      {
+        "id": "kbee",
+        "name": "Killer Bee",
+        "thumb": "assets/kbee/KBEE00AA.png"
+      },
+      {
+        "id": "post",
+        "name": "Passion-vine Caterpillar",
+        "thumb": "assets/post/POST00AA.png"
+      },
+      {
+        "id": "pira",
+        "name": "Piranha",
+        "thumb": "assets/pira/PIRA00AA.png"
+      },
+      {
+        "id": "arow",
+        "name": "Poison Arrow Frog",
+        "thumb": "assets/arow/AROW00AA.png"
+      },
+      {
+        "id": "rttl",
+        "name": "Rattlesnake",
+        "thumb": "assets/rttl/RTTL00AA.png"
+      },
+      {
+        "id": "snap",
+        "name": "Snapping Turtle",
+        "thumb": "assets/snap/SNAP00AA.png"
+      },
+      {
+        "id": "sray",
+        "name": "Stingray",
+        "thumb": "assets/sray/SRAY00AA.png"
+      },
+      {
+        "id": "vamp",
+        "name": "Vampire Bat",
+        "thumb": "assets/vamp/VAMP00AA.png"
+      }
+    ]
+  },
+  {
+    "tour": 10,
+    "title": "Australian Walkabout",
+    "host": "Fergie",
+    "intro": "Here we are in Australia, ready to go–as the Aboriginal people would say–on walkabout. That means going off into the bush. We'll see a lot of odd creatures here–monotremes and marsupials. Well, they're no more odd than we are really, except they live only in Australia and on surrounding islands. Got your hats and walking sticks ready? Hopefully we won't need more than one first aid kit...",
+    "art": "assets/guides/tour10/intro.png",
+    "narration": [
+      "assets/guides/tour10/step01.mp3",
+      "assets/guides/tour10/step02.mp3",
+      "assets/guides/tour10/step03.mp3",
+      "assets/guides/tour10/step04.mp3",
+      "assets/guides/tour10/step05.mp3",
+      "assets/guides/tour10/step06.mp3",
+      "assets/guides/tour10/step07.mp3",
+      "assets/guides/tour10/step08.mp3",
+      "assets/guides/tour10/step09.mp3",
+      "assets/guides/tour10/step10.mp3",
+      "assets/guides/tour10/step11.mp3",
+      "assets/guides/tour10/step12.mp3",
+      "assets/guides/tour10/step13.mp3",
+      "assets/guides/tour10/step14.mp3"
+    ],
+    "stepCount": 14,
+    "creatures": [
+      {
+        "id": "aant",
+        "name": "Army Ant",
+        "thumb": "assets/aant/AANT00AA.png"
+      },
+      {
+        "id": "swsp",
+        "name": "Australian Sea Wasp",
+        "thumb": "assets/swsp/SWSP00AA.png"
+      },
+      {
+        "id": "bwid",
+        "name": "Black Widow Spider",
+        "thumb": "assets/bwid/BWID00AA.png"
+      },
+      {
+        "id": "boac",
+        "name": "Boa",
+        "thumb": "assets/boac/BOAC00AA.png"
+      },
+      {
+        "id": "cane",
+        "name": "Cane Toad",
+        "thumb": "assets/cane/CANE00AA.png"
+      },
+      {
+        "id": "croc",
+        "name": "Crocodile",
+        "thumb": "assets/croc/CROC00AA.png"
+      },
+      {
+        "id": "funl",
+        "name": "Funnel-web Spider",
+        "thumb": "assets/funl/FUNL00AA.png"
+      },
+      {
+        "id": "plat",
+        "name": "Platypus",
+        "thumb": "assets/plat/PLAT00AA.png"
+      },
+      {
+        "id": "pyth",
+        "name": "Python",
+        "thumb": "assets/pyth/PYTH00AA.png"
+      },
+      {
+        "id": "tran",
+        "name": "Tarantula",
+        "thumb": "assets/tran/TRAN00AA.png"
+      },
+      {
+        "id": "tasm",
+        "name": "Tasmanian Devil",
+        "thumb": "assets/tasm/TASM00AA.png"
+      }
+    ]
+  },
+  {
+    "tour": 11,
+    "title": "African Safari",
+    "host": "Fergie",
+    "intro": "Ready to go on safari? No promises, now — when you're on safari, you just see what you see. You can't make wild animals magically appear on command. After all, we're visitors in their world. Africa does have an incredible variety of wild animals, though, so I'm sure we'll run across some exciting ones.",
+    "art": "assets/guides/tour11/intro.png",
+    "narration": [
+      "assets/guides/tour11/step01.mp3",
+      "assets/guides/tour11/step02.mp3",
+      "assets/guides/tour11/step03.mp3",
+      "assets/guides/tour11/step04.mp3",
+      "assets/guides/tour11/step05.mp3",
+      "assets/guides/tour11/step06.mp3",
+      "assets/guides/tour11/step07.mp3",
+      "assets/guides/tour11/step08.mp3",
+      "assets/guides/tour11/step09.mp3",
+      "assets/guides/tour11/step10.mp3",
+      "assets/guides/tour11/step11.mp3",
+      "assets/guides/tour11/step12.mp3",
+      "assets/guides/tour11/step13.mp3",
+      "assets/guides/tour11/step14.mp3",
+      "assets/guides/tour11/step15.mp3"
+    ],
+    "stepCount": 15,
+    "creatures": [
+      {
+        "id": "aant",
+        "name": "Army Ant",
+        "thumb": "assets/aant/AANT00AA.png"
+      },
+      {
+        "id": "babn",
+        "name": "Baboon",
+        "thumb": "assets/babn/BABN00AA.png"
+      },
+      {
+        "id": "mamb",
+        "name": "Black Mamba",
+        "thumb": "assets/mamb/MAMB00AA.png"
+      },
+      {
+        "id": "bwid",
+        "name": "Black Widow Spider",
+        "thumb": "assets/bwid/BWID00AA.png"
+      },
+      {
+        "id": "boac",
+        "name": "Boa",
+        "thumb": "assets/boac/BOAC00AA.png"
+      },
+      {
+        "id": "cbuf",
+        "name": "Cape Buffalo",
+        "thumb": "assets/cbuf/CBUF00AA.png"
+      },
+      {
+        "id": "cdog",
+        "name": "Cape Hunting Dog",
+        "thumb": "assets/cdog/CDOG00AA.png"
+      },
+      {
+        "id": "cent",
+        "name": "Centipede",
+        "thumb": "assets/cent/CENT00AA.png"
+      },
+      {
+        "id": "chee",
+        "name": "Cheetah",
+        "thumb": "assets/chee/CHEE00AA.png"
+      },
+      {
+        "id": "cobr",
+        "name": "Cobra",
+        "thumb": "assets/cobr/COBR00AA.png"
+      },
+      {
+        "id": "croc",
+        "name": "Crocodile",
+        "thumb": "assets/croc/CROC00AA.png"
+      },
+      {
+        "id": "elef",
+        "name": "Elephant",
+        "thumb": "assets/elef/ELEF00AA.png"
+      },
+      {
+        "id": "fsal",
+        "name": "Fire Salamander",
+        "thumb": "assets/fsal/FSAL00AA.png"
+      },
+      {
+        "id": "hipp",
+        "name": "Hippopotamus",
+        "thumb": "assets/hipp/HIPP00AA.png"
+      },
+      {
+        "id": "hyen",
+        "name": "Hyena",
+        "thumb": "assets/hyen/HYEN00AA.png"
+      },
+      {
+        "id": "kbee",
+        "name": "Killer Bee",
+        "thumb": "assets/kbee/KBEE00AA.png"
+      },
+      {
+        "id": "leop",
+        "name": "Leopard",
+        "thumb": "assets/leop/LEOP00AA.png"
+      },
+      {
+        "id": "lion",
+        "name": "Lion",
+        "thumb": "assets/lion/LION00AA.png"
+      },
+      {
+        "id": "pyth",
+        "name": "Python",
+        "thumb": "assets/pyth/PYTH00AA.png"
+      },
+      {
+        "id": "rhin",
+        "name": "Rhinoceros",
+        "thumb": "assets/rhin/RHIN00AA.png"
+      },
+      {
+        "id": "tran",
+        "name": "Tarantula",
+        "thumb": "assets/tran/TRAN00AA.png"
+      },
+      {
+        "id": "wart",
+        "name": "Warthog",
+        "thumb": "assets/wart/WART00AA.png"
+      }
+    ]
+  },
+  {
+    "tour": 12,
+    "title": "North American Trek",
+    "host": "Fergie",
+    "intro": "In North America, you can find almost every kind of climate and habitat you can imagine, from frozen tundra to deserts to swamps to prairies. So there's a great variety of animal life there, too. Our itinerary starts in the frigid North. Got your parka on?",
+    "art": "assets/guides/tour12/intro.png",
+    "narration": [
+      "assets/guides/tour12/step01.mp3",
+      "assets/guides/tour12/step02.mp3",
+      "assets/guides/tour12/step03.mp3",
+      "assets/guides/tour12/step04.mp3",
+      "assets/guides/tour12/step05.mp3",
+      "assets/guides/tour12/step06.mp3",
+      "assets/guides/tour12/step07.mp3",
+      "assets/guides/tour12/step08.mp3",
+      "assets/guides/tour12/step09.mp3",
+      "assets/guides/tour12/step10.mp3",
+      "assets/guides/tour12/step11.mp3",
+      "assets/guides/tour12/step12.mp3",
+      "assets/guides/tour12/step13.mp3",
+      "assets/guides/tour12/step14.mp3",
+      "assets/guides/tour12/step15.mp3",
+      "assets/guides/tour12/step16.mp3"
+    ],
+    "stepCount": 16,
+    "creatures": [
+      {
+        "id": "alig",
+        "name": "Alligator",
+        "thumb": "assets/alig/ALIG00AA.png"
+      },
+      {
+        "id": "bwid",
+        "name": "Black Widow Spider",
+        "thumb": "assets/bwid/BWID00AA.png"
+      },
+      {
+        "id": "cent",
+        "name": "Centipede",
+        "thumb": "assets/cent/CENT00AA.png"
+      },
+      {
+        "id": "coug",
+        "name": "Cougar",
+        "thumb": "assets/coug/COUG00AA.png"
+      },
+      {
+        "id": "croc",
+        "name": "Crocodile",
+        "thumb": "assets/croc/CROC00AA.png"
+      },
+      {
+        "id": "gila",
+        "name": "Gila Monster",
+        "thumb": "assets/gila/GILA00AA.png"
+      },
+      {
+        "id": "griz",
+        "name": "Grizzly Bear",
+        "thumb": "assets/griz/GRIZ00AA.png"
+      },
+      {
+        "id": "harp",
+        "name": "Harpy Eagle",
+        "thumb": "assets/harp/HARP00AA.png"
+      },
+      {
+        "id": "jagu",
+        "name": "Jaguar",
+        "thumb": "assets/jagu/JAGU00AA.png"
+      },
+      {
+        "id": "kbee",
+        "name": "Killer Bee",
+        "thumb": "assets/kbee/KBEE00AA.png"
+      },
+      {
+        "id": "pbea",
+        "name": "Polar Bear",
+        "thumb": "assets/pbea/PBEA00AA.png"
+      },
+      {
+        "id": "rttl",
+        "name": "Rattlesnake",
+        "thumb": "assets/rttl/RTTL00AA.png"
+      },
+      {
+        "id": "snap",
+        "name": "Snapping Turtle",
+        "thumb": "assets/snap/SNAP00AA.png"
+      },
+      {
+        "id": "wolf",
+        "name": "Wolf",
+        "thumb": "assets/wolf/WOLF00AA.png"
+      },
+      {
+        "id": "wlvr",
+        "name": "Wolverine",
+        "thumb": "assets/wlvr/WLVR00AA.png"
+      }
+    ]
+  }
+]
