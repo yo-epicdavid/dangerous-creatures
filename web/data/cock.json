@@ -17,7 +17,7 @@
     "Worldwide"
   ],
   "hero": {
-    "image": "assets/cock/COCK00AA.png",
+    "image": "assets/cock/COCK00AA.webp",
     "alt": "Cockroach"
   },
   "intro": "Rain forests, deserts, city sewers, kitchen cabinets–all are home to cockroaches. These insects are extremely adaptable and will eat nearly anything, from decaying garbage to oatmeal cookies to the insulation on wires inside of television sets! Because they sometimes travel from unsanitary hiding places to cooking and food-storage areas, cockroaches can spread disease as well as dirt.",
@@ -52,7 +52,7 @@
     {
       "id": "the-case-for-cockroaches",
       "title": "The case for cockroaches",
-      "image": "assets/cock/COCK01PU.png",
+      "image": "assets/cock/COCK01PU.webp",
       "text": "What are roaches good for? Well, they sometimes eat dead animals and garbage. Imagine what our world would be like if nothing did that! And cockroaches are an important source of food for many other animals.",
       "captions": [
         {
@@ -68,7 +68,7 @@
     {
       "id": "cockroach-control",
       "title": "Cockroach control",
-      "image": "assets/cock/COCK02PU.png",
+      "image": "assets/cock/COCK02PU.webp",
       "text": "Many birds, reptiles, and insects depend on cockroaches for food. If cockroaches suddenly disappeared, these creatures might go hungry. It just goes to show you that every animal on earth, even a cockroach, is a valuable creature.",
       "captions": [
         {
@@ -88,7 +88,7 @@
     {
       "id": "millions-of-years-old",
       "title": "Millions of years old",
-      "image": "assets/cock/COCK03PU.png",
+      "image": "assets/cock/COCK03PU.webp",
       "text": "Cockroaches lived on earth long before the dinosaurs. Like many prehistoric animals, ancient cockroaches were much bigger than the ones you see today. Here are some other creepy-crawlers that have also survived since dinosaur times.",
       "captions": [
         {
@@ -108,7 +108,7 @@
     {
       "id": "beetle-or-not",
       "title": "Beetle or not?",
-      "image": "assets/cock/COCK04PU.png",
+      "image": "assets/cock/COCK04PU.webp",
       "text": "Although a cockroach looks something like a beetle, it's not. Beetles are the armored tanks of the insect world. They have hard wing cases, called elytrons, that protect their wings. There are about 300,000 species of beetles!",
       "captions": [
         {
@@ -132,7 +132,7 @@
     {
       "id": "is-it-an-insect",
       "title": "Is it an insect?",
-      "image": "assets/cock/COCK05PU.png",
+      "image": "assets/cock/COCK05PU.webp",
       "text": "To be classified as an insect, a creature has to have six jointed legs and a hard exoskeleton. Cockroaches, which have been around for about 400 million years, were one of the first flying insects on earth. Are the rest of these creatures insects?",
       "captions": [
         {
@@ -160,7 +160,7 @@
     {
       "id": "cave-life",
       "title": "Cave life",
-      "image": "assets/cock/COCK06PU.png",
+      "image": "assets/cock/COCK06PU.webp",
       "text": "Cockroaches don't like bright light, and they don't like very cold temperatures. They feed on all kinds of things that we humans find disgusting, and they like lots of water. To a cockroach, a damp cave, preferably one full of bats, is an ideal place to live!",
       "captions": [
         {
@@ -180,7 +180,7 @@
     {
       "id": "the-better-to-feel-with",
       "title": "The better to feel with",
-      "image": "assets/cock/COCK07PU.png",
+      "image": "assets/cock/COCK07PU.webp",
       "text": "The long, whiskerlike \"feelers\" on the heads of many insects are called antennae. Unlike humans, cockroaches don't use antennae to receive television or radio channels. But they do use them to receive signals of one sort–tiny vibrations that tell them when another animal is near.",
       "captions": [
         {
@@ -202,7 +202,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/cock/COCK00AA.png",
+        "image": "assets/cock/COCK00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -279,40 +279,40 @@
         ]
       },
       "the-case-for-cockroaches": {
-        "image": "assets/cock/COCK01PU.png",
+        "image": "assets/cock/COCK01PU.webp",
         "back": "main"
       },
       "cockroach-control": {
-        "image": "assets/cock/COCK02PU.png",
+        "image": "assets/cock/COCK02PU.webp",
         "back": "main"
       },
       "millions-of-years-old": {
-        "image": "assets/cock/COCK03PU.png",
+        "image": "assets/cock/COCK03PU.webp",
         "back": "main"
       },
       "beetle-or-not": {
-        "image": "assets/cock/COCK04PU.png",
+        "image": "assets/cock/COCK04PU.webp",
         "back": "main"
       },
       "is-it-an-insect": {
-        "image": "assets/cock/COCK05PU.png",
+        "image": "assets/cock/COCK05PU.webp",
         "back": "main"
       },
       "cave-life": {
-        "image": "assets/cock/COCK06PU.png",
+        "image": "assets/cock/COCK06PU.webp",
         "back": "main"
       },
       "the-better-to-feel-with": {
-        "image": "assets/cock/COCK07PU.png",
+        "image": "assets/cock/COCK07PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/cock/COCK00FB.png",
+        "image": "assets/cock/COCK00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/cock/clip.mp4",
-        "poster": "assets/cock/COCK08TV.png",
+        "poster": "assets/cock/COCK08TV.webp",
         "back": "main"
       }
     }
@@ -325,7 +325,7 @@
   "video": {
     "title": "Born to eat",
     "src": "assets/cock/clip.mp4",
-    "poster": "assets/cock/COCK08TV.png",
+    "poster": "assets/cock/COCK08TV.webp",
     "caption": "It's no wonder that cockroaches have been around for so long. Not only do they reproduce at an alarming rate, but they'll eat almost anything!"
   }
 }

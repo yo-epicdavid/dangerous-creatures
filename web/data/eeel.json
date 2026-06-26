@@ -15,7 +15,7 @@
     "South America"
   ],
   "hero": {
-    "image": "assets/eeel/EEEL00AA.png",
+    "image": "assets/eeel/EEEL00AA.webp",
     "alt": "Electric Eel"
   },
   "intro": "The electric eel's powerful jolt can knock a horse unconscious from 6 meters (almost 20 ft) away. But although it's certainly \"electric,\" it's not an eel at all. It's a kind of carp, and it's the only fish capable of killing a human on contact. The electric eel's power comes from cells found in three-quarters of its body. They work sort of like a car battery, except that the eel's cells put out a lot more power.",
@@ -50,25 +50,25 @@
     {
       "id": "shocking-habits",
       "title": "Shocking habits",
-      "image": "assets/eeel/EEEL01PU.png",
+      "image": "assets/eeel/EEEL01PU.webp",
       "text": "The electric eel's body contains several types of organs that generate electricity. The creature's main electric organ can discharge a 550-volt blast, stunning its prey or leaving an enemy with unpleasant memories. Another organ works like radar—it searches the fish's muddy habitat for prey, predators, and objects the animal might bump into."
     },
     {
       "id": "electric-ray",
       "title": "Electric ray",
-      "image": "assets/eeel/EEEL02PU.png",
+      "image": "assets/eeel/EEEL02PU.webp",
       "text": "The electric ray, also called the Atlantic torpedo, can produce 200 volts of electricity. This odd-looking animal uses its voltage to stun the small fish and shellfish that it eats. Rays are related to sharks—they are cartilaginous fish, which means that they have no bones, but a skeleton made of cartilage, a tough but flexible material."
     },
     {
       "id": "high-voltage-catfish",
       "title": "High-voltage catfish",
-      "image": "assets/eeel/EEEL03PU.png",
+      "image": "assets/eeel/EEEL03PU.webp",
       "text": "This electric catfish, which lives in African rivers, is capable of stunning nearby animals with strong electric shocks. Catfish get their name from the long, whiskerlike projections on their faces, called \"barbels.\""
     },
     {
       "id": "incredible-journey",
       "title": "Incredible journey",
-      "image": "assets/eeel/EEEL04PU.png",
+      "image": "assets/eeel/EEEL04PU.webp",
       "text": "Although some North American and European eels live in fresh water, they must breed in salt water. To lay their eggs, they travel through the Atlantic to part of the ocean called the Sargasso Sea. The eggs hatch into transparent larvae that don't look like eels at all. The larvae drift in the Gulf Stream current until they reach the coasts of North America or Europe. Then they change into adult eels and set out to find fresh water, starting the cycle all over again.",
       "captions": [
         {
@@ -80,7 +80,7 @@
     {
       "id": "eel-assortment",
       "title": "Eel assortment",
-      "image": "assets/eeel/EEEL05PU.png",
+      "image": "assets/eeel/EEEL05PU.webp",
       "text": "You can find eels in the oceans and in fresh water. Eels come in all shapes, sizes, and colors, as you can see here.",
       "captions": [
         {
@@ -106,7 +106,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/eeel/EEEL00AA.png",
+        "image": "assets/eeel/EEEL00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -167,32 +167,32 @@
         ]
       },
       "shocking-habits": {
-        "image": "assets/eeel/EEEL01PU.png",
+        "image": "assets/eeel/EEEL01PU.webp",
         "back": "main"
       },
       "electric-ray": {
-        "image": "assets/eeel/EEEL02PU.png",
+        "image": "assets/eeel/EEEL02PU.webp",
         "back": "main"
       },
       "high-voltage-catfish": {
-        "image": "assets/eeel/EEEL03PU.png",
+        "image": "assets/eeel/EEEL03PU.webp",
         "back": "main"
       },
       "incredible-journey": {
-        "image": "assets/eeel/EEEL04PU.png",
+        "image": "assets/eeel/EEEL04PU.webp",
         "back": "main"
       },
       "eel-assortment": {
-        "image": "assets/eeel/EEEL05PU.png",
+        "image": "assets/eeel/EEEL05PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/eeel/EEEL00FB.png",
+        "image": "assets/eeel/EEEL00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/eeel/clip.mp4",
-        "poster": "assets/eeel/EEEL06TV.png",
+        "poster": "assets/eeel/EEEL06TV.webp",
         "back": "main"
       }
     }
@@ -205,7 +205,7 @@
   "video": {
     "title": "Weird fish",
     "src": "assets/eeel/clip.mp4",
-    "poster": "assets/eeel/EEEL06TV.png",
+    "poster": "assets/eeel/EEEL06TV.webp",
     "caption": "An electric eel is really a fish, not a true eel. It swims by waving its tail back and forth like a fish does. However, unlike a fish, it doesn't absorb oxygen through its gills, but instead comes to the surface to gulp air. It can even live out of water for quite a while! And, of course, it generates electricity. Indeed, an electric eel is a pretty weird fish!"
   }
 }

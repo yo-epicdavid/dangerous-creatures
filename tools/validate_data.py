@@ -12,10 +12,10 @@ label_counts = {}
 n = 0
 
 for fp in sorted(glob.glob(os.path.join(DATA, "*.json"))):
-    if os.path.basename(fp) in ("index.json", "browse.json", "quiz.json", "guides.json", "games_eyes.json"):
+    d = json.load(open(fp))
+    if "classic" not in d:        # skip non-animal data files (index, browse, quiz, guides, credits, ...)
         continue
     n += 1
-    d = json.load(open(fp))
     slug = d.get("id", os.path.basename(fp))
 
     def has(p):

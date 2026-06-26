@@ -84,7 +84,8 @@ python3 -m http.server 8731
 - ✅ **Mini-games** (`games.html`): **Whose Eyes Are These?** (faithful — original close-up/reveal photos, multiple choice, win/lose sounds) + **Survival Quiz** (data-driven, replayable, from `quiz.json`). `tools/extract_games.py` is extensible to the other disc puzzles (Tracks, Camouflage, Close-up, etc.).
 - ✅ Refined Classic hotspot coordinates via red-label detection (`tools/refine_hotspots.py` → `hotspots_refined.json`, applied by the build): 347/531 snapped tightly to their labels; the rest keep the vision estimate. (Needs Pillow + numpy.)
 - ✅ **Credits & Acknowledgements** (`tools/extract_credits.py` → `credits.json`, `web/credits.html`): 193 photographers, 12 agencies, 47 reference works pulled from `MSDANGER.THE`, plus the non-commercial / not-affiliated / removal-on-request notice; linked from the landing footer and every creature page.
-- ⬜ Hosting / deploy (note: `web/assets/` is gitignored, so a deploy must bundle the locally-generated media)
+- ✅ Deploy-ready: images optimized to **WebP** (`tools/convert_to_webp.py`), `web/assets/` now committed, Cloudflare Pages config (`web/_headers`) + guide (`DEPLOY.md`, output dir = `web`)
+- ⬜ Connect the repo in the Cloudflare Pages dashboard (one-time, ~1 min)
 - ⬜ More mini-games from the disc (Tracks, Camouflage, …) using the same extractor
 
 ## Legal

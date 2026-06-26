@@ -15,7 +15,7 @@
     "Worldwide"
   ],
   "hero": {
-    "image": "assets/rats/RATS00AA.png",
+    "image": "assets/rats/RATS00AA.webp",
     "alt": "Rat"
   },
   "intro": "Wherever you go in the world, the odds are that you'll encounter rats. They live on every continent except Antarctica. There are hundreds of species that have adapted to almost every climate or situation you can name: there are swamp rats, desert rats, city rats, even tree rats! Better get used to them–rats are here to stay.",
@@ -50,13 +50,13 @@
     {
       "id": "rat-tracks",
       "title": "Rat tracks",
-      "image": "assets/rats/RATS01PU.png",
+      "image": "assets/rats/RATS01PU.webp",
       "text": "If you're not sure whether or not that furry shape that just scurried by was a rat, check its tracks. A rat leaves tracks with four toe prints on the front foot and five on the back. Rats have sweat glands on the soles of their feet, and they tend to leave slimy-looking trails if they go through the same area often."
     },
     {
       "id": "pest-control",
       "title": "Pest control",
-      "image": "assets/rats/RATS02PU.png",
+      "image": "assets/rats/RATS02PU.webp",
       "text": "Many people consider rats to be pests, because they sometimes eat farmers' crops and stored food. To control the number of rats, it's important to have rodent predators–such as these–around. In some places, people have made the mistake of killing local snakes, only to find that the resulting rat population explosion was much more frightening than the serpents ever were.",
       "captions": [
         {
@@ -76,7 +76,7 @@
     {
       "id": "rapid-reproduction",
       "title": "Rapid reproduction",
-      "image": "assets/rats/RATS03PU.png",
+      "image": "assets/rats/RATS03PU.webp",
       "text": "All rodents multiply quickly. A female house mouse starts to breed when she is only five to seven weeks old. She can have up to 10 litters in a year, with three to twelve babies in each litter. In less than three weeks, the babies are grown and on their own. If all of those babies survived to create new babies, imagine how many mice there would be in the world!",
       "captions": [
         {
@@ -96,7 +96,7 @@
     {
       "id": "gnawing-question",
       "title": "Gnawing question",
-      "image": "assets/rats/RATS04PU.png",
+      "image": "assets/rats/RATS04PU.webp",
       "text": "Rodents' teeth grow constantly. If these animals don't continually wear down their teeth, they'll have tusks growing right out of their mouths! That's why rodents are always gnawing on something, whether it's food or pipes or electric cables.",
       "captions": [
         {
@@ -108,7 +108,7 @@
     {
       "id": "overachievers",
       "title": "Overachievers",
-      "image": "assets/rats/RATS05PU.png",
+      "image": "assets/rats/RATS05PU.webp",
       "text": "Did you know that rats are world travelers? Old World rats stowed away on ships and traveled to ports around the world. If they have to climb ropes or swim to reach new places, no problem–rats are experts at getting around. Now they're everywhere!",
       "captions": [
         {
@@ -120,7 +120,7 @@
     {
       "id": "dirty-rat",
       "title": "Dirty rat?",
-      "image": "assets/rats/RATS06PU.png",
+      "image": "assets/rats/RATS06PU.webp",
       "text": "Lots of people think of rats as dirty creatures. It's true that they're responsible for spreading some pretty scary diseases, such as the bubonic plague. But rats are really not to blame for that problem–the fleas that some rats carry are responsible for transmitting the illness.",
       "captions": [
         {
@@ -132,7 +132,7 @@
     {
       "id": "lab-rats",
       "title": "Lab rats",
-      "image": "assets/rats/RATS07PU.png",
+      "image": "assets/rats/RATS07PU.webp",
       "text": "Black-hooded rats such as this one are sometimes used in medical research. Scientists use these animals to study diseases and treatments to make the lives of humans better. The next time you hear of a new medicine, think about the important role rats have played in furthering our knowledge of human health."
     }
   ],
@@ -140,7 +140,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/rats/RATS00AA.png",
+        "image": "assets/rats/RATS00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -217,40 +217,40 @@
         ]
       },
       "rat-tracks": {
-        "image": "assets/rats/RATS01PU.png",
+        "image": "assets/rats/RATS01PU.webp",
         "back": "main"
       },
       "pest-control": {
-        "image": "assets/rats/RATS02PU.png",
+        "image": "assets/rats/RATS02PU.webp",
         "back": "main"
       },
       "rapid-reproduction": {
-        "image": "assets/rats/RATS03PU.png",
+        "image": "assets/rats/RATS03PU.webp",
         "back": "main"
       },
       "gnawing-question": {
-        "image": "assets/rats/RATS04PU.png",
+        "image": "assets/rats/RATS04PU.webp",
         "back": "main"
       },
       "overachievers": {
-        "image": "assets/rats/RATS05PU.png",
+        "image": "assets/rats/RATS05PU.webp",
         "back": "main"
       },
       "dirty-rat": {
-        "image": "assets/rats/RATS06PU.png",
+        "image": "assets/rats/RATS06PU.webp",
         "back": "main"
       },
       "lab-rats": {
-        "image": "assets/rats/RATS07PU.png",
+        "image": "assets/rats/RATS07PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/rats/RATS00FB.png",
+        "image": "assets/rats/RATS00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/rats/clip.mp4",
-        "poster": "assets/rats/RATS08TV.png",
+        "poster": "assets/rats/RATS08TV.webp",
         "back": "main"
       }
     }
@@ -263,7 +263,7 @@
   "video": {
     "title": "The people's friend",
     "src": "assets/rats/clip.mp4",
-    "poster": "assets/rats/RATS08TV.png",
+    "poster": "assets/rats/RATS08TV.webp",
     "caption": "You may not think of rats as your buddies, but rats certainly should think of humans as their hosts! Many rats owe their existence to ours, they live in our buildings, they eat our garbage, and they even drink water that we've piped into our homes. We often destroy their natural enemies–snakes, wild dogs and cats, and birds of prey. Without so many humans, there wouldn't be so many rats!"
   }
 }

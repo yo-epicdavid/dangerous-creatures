@@ -16,7 +16,7 @@
     "North America"
   ],
   "hero": {
-    "image": "assets/alig/ALIG00AA.png",
+    "image": "assets/alig/ALIG00AA.webp",
     "alt": "Alligator"
   },
   "intro": "The older the 'gator, the bigger its prey. Baby alligators eat mostly insects and crustaceans. As they grow, their diet changes to frogs, snakes, and fish. And big, old 'gators not only snap up all the fish they can, but will also try to grab birds, muskrats, and even a deer from time to time.",
@@ -51,7 +51,7 @@
     {
       "id": "croc-or-gator",
       "title": "Croc or 'gator?",
-      "image": "assets/alig/ALIG01PU.png",
+      "image": "assets/alig/ALIG01PU.webp",
       "text": "You're taking a walk in Florida, and you suddenly come across a large lizardlike creature. Quick—is it a crocodile or an alligator? If the beast has a pointy snout and you can see a big, sharp tooth (the fourth one back from the nose) pointing up from its bottom jaw, it's a croc. If that tooth is hidden, you're facing an alligator. In either case, don't try to make friends.",
       "captions": [
         {
@@ -67,7 +67,7 @@
     {
       "id": "caiman-cousins",
       "title": "Caiman cousins",
-      "image": "assets/alig/ALIG02PU.png",
+      "image": "assets/alig/ALIG02PU.webp",
       "text": "Alligators live in North America and in China, but they have close relatives, called caimans, in Central and South America. Some of these alligator relatives have become suburban residents, moving into water near large cities. They're not likely to attack humans, but they are fierce hunters of birds, fish, and small mammals.",
       "captions": [
         {
@@ -83,7 +83,7 @@
     {
       "id": "tender-loving-care",
       "title": "Tender loving care",
-      "image": "assets/alig/ALIG03PU.png",
+      "image": "assets/alig/ALIG03PU.webp",
       "text": "Alligators and caimans, like all crocodilians, are good parents. The female makes a nest for her eggs and stays near to guard them. When the young are ready to hatch, they grunt, and their mother gently cracks the eggs to help them break free. Then she carries them to water. If the babies yelp for help, any adult alligator will rush to the rescue. So don't touch that hatchling—a grownup's nearby!",
       "captions": [
         {
@@ -95,7 +95,7 @@
     {
       "id": "other-gators",
       "title": "Other 'gators",
-      "image": "assets/alig/ALIG04PU.png",
+      "image": "assets/alig/ALIG04PU.webp",
       "text": "All these creatures go by the name of alligator, too. Only one is really a relative of our American alligator.",
       "captions": [
         {
@@ -115,13 +115,13 @@
     {
       "id": "relatively-alike",
       "title": "Relatively alike",
-      "image": "assets/alig/ALIG05PU.png",
+      "image": "assets/alig/ALIG05PU.webp",
       "text": "What do all these animals have in common? They're all reptiles. Alligators, crocodiles, snakes, lizards, turtles, and the tuatara all have backbones, scaly skins, and blood that is the same temperature as their environment, and most of them lay eggs. Reptiles are one of the most successful types of animals on earth. They've been around since before the dinosaurs."
     },
     {
       "id": "real-or-mythical",
       "title": "Real or mythical?",
-      "image": "assets/alig/ALIG06PU.png",
+      "image": "assets/alig/ALIG06PU.webp",
       "text": "The Chinese have told stories of dragons for centuries. Did tales of gigantic lizardlike creatures originate with the discovery of enormous dinosaur bones, or were they inspired by creatures we still see today?",
       "captions": [
         {
@@ -137,7 +137,7 @@
     {
       "id": "toothy-grin",
       "title": "Toothy grin",
-      "image": "assets/alig/ALIG07PU.png",
+      "image": "assets/alig/ALIG07PU.webp",
       "text": "Inside an alligator's mouth, there are always new teeth growing under all the existing teeth. When one tooth gets knocked out, a new tooth underneath is ready for action. That's why you can see teeth of different sizes in this 'gator's mouth."
     }
   ],
@@ -145,7 +145,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/alig/ALIG00AA.png",
+        "image": "assets/alig/ALIG00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -222,40 +222,40 @@
         ]
       },
       "croc-or-gator": {
-        "image": "assets/alig/ALIG01PU.png",
+        "image": "assets/alig/ALIG01PU.webp",
         "back": "main"
       },
       "caiman-cousins": {
-        "image": "assets/alig/ALIG02PU.png",
+        "image": "assets/alig/ALIG02PU.webp",
         "back": "main"
       },
       "tender-loving-care": {
-        "image": "assets/alig/ALIG03PU.png",
+        "image": "assets/alig/ALIG03PU.webp",
         "back": "main"
       },
       "other-gators": {
-        "image": "assets/alig/ALIG04PU.png",
+        "image": "assets/alig/ALIG04PU.webp",
         "back": "main"
       },
       "relatively-alike": {
-        "image": "assets/alig/ALIG05PU.png",
+        "image": "assets/alig/ALIG05PU.webp",
         "back": "main"
       },
       "real-or-mythical": {
-        "image": "assets/alig/ALIG06PU.png",
+        "image": "assets/alig/ALIG06PU.webp",
         "back": "main"
       },
       "toothy-grin": {
-        "image": "assets/alig/ALIG07PU.png",
+        "image": "assets/alig/ALIG07PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/alig/ALIG00FB.png",
+        "image": "assets/alig/ALIG00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/alig/clip.mp4",
-        "poster": "assets/alig/ALIG08TV.png",
+        "poster": "assets/alig/ALIG08TV.webp",
         "back": "main"
       }
     }
@@ -268,7 +268,7 @@
   "video": {
     "title": "Swamp struggle",
     "src": "assets/alig/clip.mp4",
-    "poster": "assets/alig/ALIG08TV.png",
+    "poster": "assets/alig/ALIG08TV.webp",
     "caption": "When caimans and most snakes meet, the snake often becomes the caiman's dinner—snake fangs are usually no match for a crocodilian's powerful jaws. But if a small caiman meets a big, muscular anaconda, the outcome depends on who grabs whom first."
   }
 }

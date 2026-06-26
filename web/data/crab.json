@@ -16,7 +16,7 @@
     "Worldwide"
   ],
   "hero": {
-    "image": "assets/crab/CRAB00AA.png",
+    "image": "assets/crab/CRAB00AA.webp",
     "alt": "Crab"
   },
   "intro": "When most people think of crabs, they think of the seashore. But crabs live in other places, too–they scuttle across land, climb trees, and haunt the dark ocean depths. They come in all sizes, from nearly-invisible pea crabs to this giant Japanese spider crab, which can measure up to 8 meters (more than 26.5 ft) across when its legs are extended.",
@@ -51,7 +51,7 @@
     {
       "id": "life-in-a-tidepool",
       "title": "Life in a tidepool",
-      "image": "assets/crab/CRAB01PU.png",
+      "image": "assets/crab/CRAB01PU.webp",
       "text": "This piecrust crab got its name because the top of its shell looks like a piecrust. It lives in tidepools, catching small shellfish and eating any dead animals it can find. The sensitive hairs on its legs help the crab feel its way through dark and slippery spots.",
       "captions": [
         {
@@ -63,7 +63,7 @@
     {
       "id": "bullies-on-the-block",
       "title": "Bullies on the block",
-      "image": "assets/crab/CRAB02PU.png",
+      "image": "assets/crab/CRAB02PU.webp",
       "text": "Velvet crab–a soft name for a tough customer. These crabs are fierce hunters that will shred anything they can get their sharp pincers on. They're the terrors of the tidepool. This female no doubt is especially touchy, since she's carrying thousands of eggs tucked into her abdomen.",
       "captions": [
         {
@@ -75,13 +75,13 @@
     {
       "id": "freeloader",
       "title": "Freeloader",
-      "image": "assets/crab/CRAB03PU.png",
+      "image": "assets/crab/CRAB03PU.webp",
       "text": "If you live in a borrowed shell like this hermit crab does, there are always other creatures that want to move in with you or hitch a free ride. In this case, a ragworm is sharing this crab's shell and has crawled out to get a bite of the crab's fish."
     },
     {
       "id": "worms-with-legs",
       "title": "Worms with legs",
-      "image": "assets/crab/CRAB04PU.png",
+      "image": "assets/crab/CRAB04PU.webp",
       "text": "This king ragworm usually lives in the ocean sand, although it's been known to live rent-free inside the shells of hermit crabs. A ragworm not only walks on its funny-looking flat legs–called parapodia–but also breathes through them! They work something like the gills of a fish, extracting oxygen from the seawater.",
       "captions": [
         {
@@ -93,13 +93,13 @@
     {
       "id": "shell-game",
       "title": "Shell game",
-      "image": "assets/crab/CRAB05PU.png",
+      "image": "assets/crab/CRAB05PU.webp",
       "text": "Unlike other crabs, a hermit crab has a soft body, so it borrows a hard covering–usually another sea creature's discarded shell–to protect itself from predators. Ideally, the shell must be large enough for the crab to hide inside but small enough for it to carry around. It's not always easy to find just the right shell at the right time!"
     },
     {
       "id": "fiddling-or-fighting",
       "title": "Fiddling or fighting?",
-      "image": "assets/crab/CRAB06PU.png",
+      "image": "assets/crab/CRAB06PU.webp",
       "text": "Ever wonder what eats all that stuff that washes up on beaches? Here's part of the answer: fiddler crabs! They live in burrows in the mud or sand and search the surrounding area for anything edible. They'll even shovel balls of mud and sand into their mouths, sifting out tiny particles of food and spitting out the rest.",
       "captions": [
         {
@@ -111,7 +111,7 @@
     {
       "id": "only-if-its-clean",
       "title": "Only if it's clean",
-      "image": "assets/crab/CRAB07PU.png",
+      "image": "assets/crab/CRAB07PU.webp",
       "text": "Crayfish, which are related to crabs and lobsters, live in freshwater areas like rivers and lakes. Like their crab cousins, they have sharp pincers that they use to catch food and defend themselves. Crayfish can live only in clean environments, so if you're turning over rocks and end up with a crayfish pinching your finger, at least you know that the water is not terribly polluted!"
     }
   ],
@@ -119,7 +119,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/crab/CRAB00AA.png",
+        "image": "assets/crab/CRAB00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -196,40 +196,40 @@
         ]
       },
       "life-in-a-tidepool": {
-        "image": "assets/crab/CRAB01PU.png",
+        "image": "assets/crab/CRAB01PU.webp",
         "back": "main"
       },
       "bullies-on-the-block": {
-        "image": "assets/crab/CRAB02PU.png",
+        "image": "assets/crab/CRAB02PU.webp",
         "back": "main"
       },
       "freeloader": {
-        "image": "assets/crab/CRAB03PU.png",
+        "image": "assets/crab/CRAB03PU.webp",
         "back": "main"
       },
       "worms-with-legs": {
-        "image": "assets/crab/CRAB04PU.png",
+        "image": "assets/crab/CRAB04PU.webp",
         "back": "main"
       },
       "shell-game": {
-        "image": "assets/crab/CRAB05PU.png",
+        "image": "assets/crab/CRAB05PU.webp",
         "back": "main"
       },
       "fiddling-or-fighting": {
-        "image": "assets/crab/CRAB06PU.png",
+        "image": "assets/crab/CRAB06PU.webp",
         "back": "main"
       },
       "only-if-its-clean": {
-        "image": "assets/crab/CRAB07PU.png",
+        "image": "assets/crab/CRAB07PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/crab/CRAB00FB.png",
+        "image": "assets/crab/CRAB00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/crab/clip.mp4",
-        "poster": "assets/crab/CRAB08TV.png",
+        "poster": "assets/crab/CRAB08TV.webp",
         "back": "main"
       }
     }
@@ -242,7 +242,7 @@
   "video": {
     "title": "Crazy crustaceans",
     "src": "assets/crab/clip.mp4",
-    "poster": "assets/crab/CRAB08TV.png",
+    "poster": "assets/crab/CRAB08TV.webp",
     "caption": "\"Put yourself in someone else's shoes\" is a saying that means \"try to understand another person's way of thinking.\" Can we ever understand the ways of creatures like crabs? Maybe not until we can \"put ourselves in someone else's shell.\" We can only watch and wonder."
   }
 }

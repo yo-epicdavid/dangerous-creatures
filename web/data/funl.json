@@ -15,7 +15,7 @@
     "Australia & Oceania"
   ],
   "hero": {
-    "image": "assets/funl/FUNL00AA.png",
+    "image": "assets/funl/FUNL00AA.webp",
     "alt": "Funnel-web Spider"
   },
   "intro": "You could die in under two hours if an Australian funnel-web spider bit you–depending on what kind of funnel-web it was and whether it was male or female. The male Sydney funnel-web is one of the world's most venomous spiders–but the female northern funnel-web is even deadlier!",
@@ -50,13 +50,13 @@
     {
       "id": "another-trickster",
       "title": "Another trickster",
-      "image": "assets/funl/FUNL01PU.png",
+      "image": "assets/funl/FUNL01PU.webp",
       "text": "A trapdoor spider waits for an insect to walk across the silken, moss-covered lid over its silk-lined burrow. When that happens, out pops the spider–and the insect is history! Although this kind of trap-door spider looks something like a funnel-web, it's no danger to humans. It uses its venom only on the insects it eats."
     },
     {
       "id": "the-better-to-bite-you-with",
       "title": "The better to bite you with",
-      "image": "assets/funl/FUNL02PU.png",
+      "image": "assets/funl/FUNL02PU.webp",
       "text": "Australian funnel-web spiders have huge, powerful fangs. They're strong enough to puncture a mouse's skull–or a person's fingernail!",
       "captions": [
         {
@@ -72,7 +72,7 @@
     {
       "id": "the-eyes-have-it",
       "title": "The eyes have it",
-      "image": "assets/funl/FUNL03PU.png",
+      "image": "assets/funl/FUNL03PU.webp",
       "text": "Most spiders have two rows of four eyes each. Can you find the eight eyes of the spider shown below? You'd think that with all those eyes, spiders would have terrific vision. In fact, most spiders don't see well at all. Luckily for them, they are very sensitive to vibrations and sense movement with the hairs on their legs.",
       "captions": [
         {
@@ -84,7 +84,7 @@
     {
       "id": "deadliest-in-the-world",
       "title": "Deadliest in the world",
-      "image": "assets/funl/FUNL04PU.png",
+      "image": "assets/funl/FUNL04PU.webp",
       "text": "The Brazilian wandering spider holds the record as the most venomous spider in the world. This spider has been known to wander into houses and hide out in people's clothing. Fortunately, an antidote for this spider's venom is available, so a bite is not necessarily fatal."
     }
   ],
@@ -92,7 +92,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/funl/FUNL00AA.png",
+        "image": "assets/funl/FUNL00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -145,28 +145,28 @@
         ]
       },
       "another-trickster": {
-        "image": "assets/funl/FUNL01PU.png",
+        "image": "assets/funl/FUNL01PU.webp",
         "back": "main"
       },
       "the-better-to-bite-you-with": {
-        "image": "assets/funl/FUNL02PU.png",
+        "image": "assets/funl/FUNL02PU.webp",
         "back": "main"
       },
       "the-eyes-have-it": {
-        "image": "assets/funl/FUNL03PU.png",
+        "image": "assets/funl/FUNL03PU.webp",
         "back": "main"
       },
       "deadliest-in-the-world": {
-        "image": "assets/funl/FUNL04PU.png",
+        "image": "assets/funl/FUNL04PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/funl/FUNL00FB.png",
+        "image": "assets/funl/FUNL00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/funl/clip.mp4",
-        "poster": "assets/funl/FUNL05TV.png",
+        "poster": "assets/funl/FUNL05TV.webp",
         "back": "main"
       }
     }
@@ -179,7 +179,7 @@
   "video": {
     "title": "Catch and carry",
     "src": "assets/funl/clip.mp4",
-    "poster": "assets/funl/FUNL05TV.png",
+    "poster": "assets/funl/FUNL05TV.webp",
     "caption": "A spider that builds a funnel web spends most of its time waiting in its burrow in the center of its web. When the spider feels vibrations, it rushes out to see what's walking by. The spider paralyzes the intruder with venom, and then carries the body back to its burrow to eat."
   }
 }

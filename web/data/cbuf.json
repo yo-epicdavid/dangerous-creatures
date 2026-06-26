@@ -15,7 +15,7 @@
     "Africa"
   ],
   "hero": {
-    "image": "assets/cbuf/CBUF00AA.png",
+    "image": "assets/cbuf/CBUF00AA.webp",
     "alt": "Cape Buffalo"
   },
   "intro": "When two sharp horns backed by 682 kilograms (1500 lb) of angry buffalo approach you at 56 kilometers (35 mi) per hour, you'd better climb the nearest tree, and fast! The Cape buffalo is thought by many to be the most dangerous animal in Africa. It's not the biggest or fastest, but it may be the most aggressive. A buffalo that charges is not likely to stop attacking until its target is dead.",
@@ -50,7 +50,7 @@
     {
       "id": "horns-aplenty",
       "title": "Horns aplenty",
-      "image": "assets/cbuf/CBUF01PU.png",
+      "image": "assets/cbuf/CBUF01PU.webp",
       "text": "No predator would dare to take on a group of Cape buffalo—these herbivores are strong and well armed with sharp horns and hooves. So lions and hyenas pick off old, solitary males that have been cast out, or newly born calves that have wandered away from the herd.",
       "captions": [
         {
@@ -62,31 +62,31 @@
     {
       "id": "north-american-buffalo",
       "title": "North American buffalo",
-      "image": "assets/cbuf/CBUF02PU.png",
+      "image": "assets/cbuf/CBUF02PU.webp",
       "text": "When the first Europeans arrived in North America, vast herds of bison, also called buffalo, covered the plains. Riflemen shot so many bison for sport that the animal was nearly driven into extinction. By the late 1800s, there were fewer than a thousand of these large herbivores alive. Today, thanks to the preservation efforts of a few ranchers and conservationists, there are more than 50,000."
     },
     {
       "id": "water-buffalo",
       "title": "Water buffalo",
-      "image": "assets/cbuf/CBUF03PU.png",
+      "image": "assets/cbuf/CBUF03PU.webp",
       "text": "Asian buffalo are also called water buffalo because they love to bathe in water. Wild water buffalo are rare and endangered, but Asian farmers have long used tame buffalo to pull plows and wagons. The farmers geld buffalo bulls to make them less aggressive. A gelded bull is called an ox."
     },
     {
       "id": "of-hooves-and-hands",
       "title": "Of hooves and hands",
-      "image": "assets/cbuf/CBUF04PU.png",
+      "image": "assets/cbuf/CBUF04PU.webp",
       "text": "Imagine how strong your hands would need to be if you had to use them to walk. In cattle, the bones that are like those of our third and fourth fingers—the only two that they have—are fused together, and each finger is tipped with a hoof. All cattle (whether they are tame cows or oxen or wild Cape buffaloes) are classified as artiodactyls, which means \"hoofed mammals with even numbers of toes\"."
     },
     {
       "id": "who-is-the-meanest",
       "title": "Who is the meanest?",
-      "image": "assets/cbuf/CBUF05PU.png",
+      "image": "assets/cbuf/CBUF05PU.webp",
       "text": "A bull that charges is not attacking because it's mean—it's challenging you over territory and females, just as if you were another bull. That's the natural order of things in the animal world. People, on the other hand, have captured, gelded, and trained bulls as work animals and goaded them into fighting for entertainment, as in this bullfight. Who is bullying whom?"
     },
     {
       "id": "bird-lovers",
       "title": "Bird lovers",
-      "image": "assets/cbuf/CBUF06PU.png",
+      "image": "assets/cbuf/CBUF06PU.webp",
       "text": "Cape buffalo often have several birds walking around on their backs or heads. These birds, called oxpeckers or tickbirds, are not just hitching a free ride on the buffalo. They are a type of African starling that eats ticks and flies. This bird-buffalo relationship is a good one: the birds know they can find insects to eat on the skin of the buffalo, and the buffalo are rid of annoying pests."
     }
   ],
@@ -94,7 +94,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/cbuf/CBUF00AA.png",
+        "image": "assets/cbuf/CBUF00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -163,36 +163,36 @@
         ]
       },
       "horns-aplenty": {
-        "image": "assets/cbuf/CBUF01PU.png",
+        "image": "assets/cbuf/CBUF01PU.webp",
         "back": "main"
       },
       "north-american-buffalo": {
-        "image": "assets/cbuf/CBUF02PU.png",
+        "image": "assets/cbuf/CBUF02PU.webp",
         "back": "main"
       },
       "water-buffalo": {
-        "image": "assets/cbuf/CBUF03PU.png",
+        "image": "assets/cbuf/CBUF03PU.webp",
         "back": "main"
       },
       "of-hooves-and-hands": {
-        "image": "assets/cbuf/CBUF04PU.png",
+        "image": "assets/cbuf/CBUF04PU.webp",
         "back": "main"
       },
       "who-is-the-meanest": {
-        "image": "assets/cbuf/CBUF05PU.png",
+        "image": "assets/cbuf/CBUF05PU.webp",
         "back": "main"
       },
       "bird-lovers": {
-        "image": "assets/cbuf/CBUF06PU.png",
+        "image": "assets/cbuf/CBUF06PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/cbuf/CBUF00FB.png",
+        "image": "assets/cbuf/CBUF00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/cbuf/clip.mp4",
-        "poster": "assets/cbuf/CBUF07TV.png",
+        "poster": "assets/cbuf/CBUF07TV.webp",
         "back": "main"
       }
     }
@@ -205,7 +205,7 @@
   "video": {
     "title": "African herds",
     "src": "assets/cbuf/clip.mp4",
-    "poster": "assets/cbuf/CBUF07TV.png",
+    "poster": "assets/cbuf/CBUF07TV.webp",
     "caption": "Herds of wild buffalo once roamed over much of Africa, some even living in forests. Although the two types of wild buffalo look a little different, they both have two things in common: sharp horns and aggressive behavior!"
   }
 }

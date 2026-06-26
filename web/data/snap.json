@@ -17,7 +17,7 @@
     "South America"
   ],
   "hero": {
-    "image": "assets/snap/SNAP00AA.png",
+    "image": "assets/snap/SNAP00AA.webp",
     "alt": "Snapping Turtle"
   },
   "intro": "An alligator snapper's lightning-fast bite can snap a broomstick in half. It's the heaviest freshwater turtle in the world–an average adult weighs as much as a large man! Its cousin, the American snapping turtle, is less than a third its size but also has knife-sharp jaws. Still, humans injure these important scavengers far more than the other way around–in some places, snapper soup is a delicacy.",
@@ -52,7 +52,7 @@
     {
       "id": "turtle-or-tortoise",
       "title": "Turtle or tortoise?",
-      "image": "assets/snap/SNAP01PU.png",
+      "image": "assets/snap/SNAP01PU.webp",
       "text": "Scientists call all reptiles with shells \"turtles\" but non-scientists may call them by many different names. Depending on who's describing them, the creatures shown here might be called tortoises, turtles, or terrapins.",
       "captions": [
         {
@@ -72,7 +72,7 @@
     {
       "id": "common-snappers",
       "title": "Common snappers",
-      "image": "assets/snap/SNAP02PU.png",
+      "image": "assets/snap/SNAP02PU.webp",
       "text": "This baby American snapping turtle is no longer than the length of your hand, but it will grow to be six times that size during its long life. Its relative, the alligator snapper, is the heaviest freshwater turtle in the world!",
       "captions": [
         {
@@ -84,7 +84,7 @@
     {
       "id": "inside-and-out",
       "title": "Inside and out",
-      "image": "assets/snap/SNAP03PU.png",
+      "image": "assets/snap/SNAP03PU.webp",
       "text": "The outside layer of a turtle's shell is made of hard scales called scutes, which are composed of keratin–the same material that makes up your fingernails. Beneath this is a bony inner layer, formed partly by the turtle's ribs. Take a look at a turtle, inside and out.",
       "captions": [
         {
@@ -108,7 +108,7 @@
     {
       "id": "since-dinosaur-times",
       "title": "Since dinosaur times",
-      "image": "assets/snap/SNAP04PU.png",
+      "image": "assets/snap/SNAP04PU.webp",
       "text": "The turtles that were wandering around 200 million years ago were not very different from turtles today.",
       "captions": [
         {
@@ -120,7 +120,7 @@
     {
       "id": "body-armor",
       "title": "Body armor",
-      "image": "assets/snap/SNAP05PU.png",
+      "image": "assets/snap/SNAP05PU.webp",
       "text": "If you're a turtle or tortoise, what kind of shell you have has a lot to do with where and how you live. Land-dwelling tortoises need shells that are hard to bite. Swimming turtles need more streamlined coverings. When it comes to shells, one size (or style) does not fit all!",
       "captions": [
         {
@@ -144,7 +144,7 @@
     {
       "id": "swelled-head",
       "title": "Swelled head",
-      "image": "assets/snap/SNAP06PU.png",
+      "image": "assets/snap/SNAP06PU.webp",
       "text": "This turtle's head is so big that it can't be pulled into the shell–which is why the animal is called a \"big-headed turtle.\" Although this Asian turtle is small–its shell doesn't grow much longer than the length of an adult human's hand–you'd want to think twice about picking it up. Its beak, designed to crush snails, is sharp!",
       "captions": [
         {
@@ -158,7 +158,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/snap/SNAP00AA.png",
+        "image": "assets/snap/SNAP00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -227,36 +227,36 @@
         ]
       },
       "turtle-or-tortoise": {
-        "image": "assets/snap/SNAP01PU.png",
+        "image": "assets/snap/SNAP01PU.webp",
         "back": "main"
       },
       "common-snappers": {
-        "image": "assets/snap/SNAP02PU.png",
+        "image": "assets/snap/SNAP02PU.webp",
         "back": "main"
       },
       "inside-and-out": {
-        "image": "assets/snap/SNAP03PU.png",
+        "image": "assets/snap/SNAP03PU.webp",
         "back": "main"
       },
       "since-dinosaur-times": {
-        "image": "assets/snap/SNAP04PU.png",
+        "image": "assets/snap/SNAP04PU.webp",
         "back": "main"
       },
       "body-armor": {
-        "image": "assets/snap/SNAP05PU.png",
+        "image": "assets/snap/SNAP05PU.webp",
         "back": "main"
       },
       "swelled-head": {
-        "image": "assets/snap/SNAP06PU.png",
+        "image": "assets/snap/SNAP06PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/snap/SNAP00FB.png",
+        "image": "assets/snap/SNAP00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/snap/clip.mp4",
-        "poster": "assets/snap/SNAP07TV.png",
+        "poster": "assets/snap/SNAP07TV.webp",
         "back": "main"
       }
     }
@@ -269,7 +269,7 @@
   "video": {
     "title": "Endangered turtles",
     "src": "assets/snap/clip.mp4",
-    "poster": "assets/snap/SNAP07TV.png",
+    "poster": "assets/snap/SNAP07TV.webp",
     "caption": "Many turtles, especially these sea turtles, are endangered because people eat them and because they're losing their habitat. As both fresh and salt water areas become polluted and their nesting beaches become crowded with people, these creatures are in a fight for their lives."
   }
 }

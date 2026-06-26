@@ -22,7 +22,7 @@
     "Australia & Oceania"
   ],
   "hero": {
-    "image": "assets/bwid/BWID00AA.png",
+    "image": "assets/bwid/BWID00AA.webp",
     "alt": "Black Widow Spider"
   },
   "intro": "Unfortunately for us, this spider has adapted well to human environments. Black widows like to build their webs not only in the wild, but also in mailboxes, garden sheds, and people's houses. Before indoor plumbing became widespread, people got black widow bites most often in outdoor toilets! Not a pleasant situation to think about…",
@@ -57,7 +57,7 @@
     {
       "id": "careful-courtship",
       "title": "Careful courtship",
-      "image": "assets/bwid/BWID01PU.png",
+      "image": "assets/bwid/BWID01PU.webp",
       "text": "The female black widow spider is a real killer date. After mating with a male, she sometimes eats him! Black widows have poor vision, and it may be that the female mistakes the smaller male for just another insect in her web. So to distract her, the male sometimes brings a gift of a nice, juicy bug.",
       "captions": [
         {
@@ -69,7 +69,7 @@
     {
       "id": "on-guard",
       "title": "On guard",
-      "image": "assets/bwid/BWID02PU.png",
+      "image": "assets/bwid/BWID02PU.webp",
       "text": "It might not be especially cozy to have a black widow as a wife, but like many spiders, as a mom she's pretty protective.",
       "captions": [
         {
@@ -81,7 +81,7 @@
     {
       "id": "silk-secrets",
       "title": "Silk secrets",
-      "image": "assets/bwid/BWID03PU.png",
+      "image": "assets/bwid/BWID03PU.webp",
       "text": "Spiders spin webs from silk thread that they make inside their bodies. This is how an orb weaver spider goes about creating its web.",
       "captions": [
         {
@@ -105,7 +105,7 @@
     {
       "id": "powerful-poison",
       "title": "Powerful poison",
-      "image": "assets/bwid/BWID04PU.png",
+      "image": "assets/bwid/BWID04PU.webp",
       "text": "Drop for drop, the black widow's venom is 15 times more poisonous than a rattlesnake's. But luckily, the black widow doesn't inject much venom at one time. Most people who have died from the spider's bite have been very young children or elderly people.",
       "captions": [
         {
@@ -121,7 +121,7 @@
     {
       "id": "ferocious-females",
       "title": "Ferocious females",
-      "image": "assets/bwid/BWID05PU.png",
+      "image": "assets/bwid/BWID05PU.webp",
       "text": "It's not only in the world of black widows that females are the more dangerous sex...",
       "captions": [
         {
@@ -143,7 +143,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/bwid/BWID00AA.png",
+        "image": "assets/bwid/BWID00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -204,32 +204,32 @@
         ]
       },
       "careful-courtship": {
-        "image": "assets/bwid/BWID01PU.png",
+        "image": "assets/bwid/BWID01PU.webp",
         "back": "main"
       },
       "on-guard": {
-        "image": "assets/bwid/BWID02PU.png",
+        "image": "assets/bwid/BWID02PU.webp",
         "back": "main"
       },
       "silk-secrets": {
-        "image": "assets/bwid/BWID03PU.png",
+        "image": "assets/bwid/BWID03PU.webp",
         "back": "main"
       },
       "powerful-poison": {
-        "image": "assets/bwid/BWID04PU.png",
+        "image": "assets/bwid/BWID04PU.webp",
         "back": "main"
       },
       "ferocious-females": {
-        "image": "assets/bwid/BWID05PU.png",
+        "image": "assets/bwid/BWID05PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/bwid/BWID00FB.png",
+        "image": "assets/bwid/BWID00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/bwid/clip.mp4",
-        "poster": "assets/bwid/BWID06TV.png",
+        "poster": "assets/bwid/BWID06TV.webp",
         "back": "main"
       }
     }
@@ -242,7 +242,7 @@
   "video": {
     "title": "Packing lunch for later",
     "src": "assets/bwid/clip.mp4",
-    "poster": "assets/bwid/BWID06TV.png",
+    "poster": "assets/bwid/BWID06TV.webp",
     "caption": "Spiders can't always immediately eat what they catch in their webs. If they have a lot of food or if they've caught an especially big meal, they wrap it in silk thread to keep for later."
   }
 }

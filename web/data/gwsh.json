@@ -15,7 +15,7 @@
     "Oceans & Seas"
   ],
   "hero": {
-    "image": "assets/gwsh/GWSH00AA.png",
+    "image": "assets/gwsh/GWSH00AA.webp",
     "alt": "Great White Shark"
   },
   "intro": "This streamlined swimmer can grow longer than a bus and weigh as much as three cars. It's one of the ocean's top predators, with no enemies other than humans. The great white is one of the most dangerous sharks. With saw-edged, razor-sharp teeth, great whites can easily bite their prey in half.",
@@ -50,7 +50,7 @@
     {
       "id": "hunting-techniques",
       "title": "Hunting techniques",
-      "image": "assets/gwsh/GWSH01PU.png",
+      "image": "assets/gwsh/GWSH01PU.webp",
       "text": "When a great white sights something interesting, it doesn't usually rush right in and take a bite. Instead, the shark swims in a spiral, gradually drawing closer until it decides whether or not to attack. Sharks won't approach if they sense that they could be injured.",
       "captions": [
         {
@@ -62,7 +62,7 @@
     {
       "id": "jaws",
       "title": "Jaws",
-      "image": "assets/gwsh/GWSH02PU.png",
+      "image": "assets/gwsh/GWSH02PU.webp",
       "text": "A shark never needs to worry about losing its teeth. The front row of teeth has several rows of replacement teeth behind it, and new teeth slowly move into place as they're needed. A tooth lasts only 8 to 10 days before it's replaced, and a shark may grow and use over 20,000 teeth in its lifetime.",
       "captions": [
         {
@@ -78,19 +78,19 @@
     {
       "id": "putting-people-in-a-cage",
       "title": "Putting people in a cage",
-      "image": "assets/gwsh/GWSH03PU.png",
+      "image": "assets/gwsh/GWSH03PU.webp",
       "text": "It's never a good idea to swim freely with a bunch of sharks, so divers who want to learn about sharks get into metal cages. That way, the humans are protected, and both sharks and people can come close and get a good look at each other."
     },
     {
       "id": "body-armor",
       "title": "Body armor",
-      "image": "assets/gwsh/GWSH04PU.png",
+      "image": "assets/gwsh/GWSH04PU.webp",
       "text": "Scientists who dive with sharks have discovered that wearing a suit made out of lightweight chain mail can protect somewhat against shark bites. But even though the shark's teeth can't pierce the chain mail, the diver can still get nasty bruises and even broken bones. According to some tests, a shark's jaws can exert up to 300 times more pressure than a human's can!"
     },
     {
       "id": "whos-eating-whom",
       "title": "Who's eating whom?",
-      "image": "assets/gwsh/GWSH05PU.png",
+      "image": "assets/gwsh/GWSH05PU.webp",
       "text": "Although sharks rarely eat people, people eat sharks all the time. Have you ever tasted any of these products?",
       "captions": [
         {
@@ -112,7 +112,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/gwsh/GWSH00AA.png",
+        "image": "assets/gwsh/GWSH00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -173,32 +173,32 @@
         ]
       },
       "hunting-techniques": {
-        "image": "assets/gwsh/GWSH01PU.png",
+        "image": "assets/gwsh/GWSH01PU.webp",
         "back": "main"
       },
       "jaws": {
-        "image": "assets/gwsh/GWSH02PU.png",
+        "image": "assets/gwsh/GWSH02PU.webp",
         "back": "main"
       },
       "putting-people-in-a-cage": {
-        "image": "assets/gwsh/GWSH03PU.png",
+        "image": "assets/gwsh/GWSH03PU.webp",
         "back": "main"
       },
       "body-armor": {
-        "image": "assets/gwsh/GWSH04PU.png",
+        "image": "assets/gwsh/GWSH04PU.webp",
         "back": "main"
       },
       "whos-eating-whom": {
-        "image": "assets/gwsh/GWSH05PU.png",
+        "image": "assets/gwsh/GWSH05PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/gwsh/GWSH00FB.png",
+        "image": "assets/gwsh/GWSH00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/gwsh/clip.mp4",
-        "poster": "assets/gwsh/GWSH06TV.png",
+        "poster": "assets/gwsh/GWSH06TV.webp",
         "back": "main"
       }
     }
@@ -211,7 +211,7 @@
   "video": {
     "title": "From the dawn of time",
     "src": "assets/gwsh/clip.mp4",
-    "poster": "assets/gwsh/GWSH06TV.png",
+    "poster": "assets/gwsh/GWSH06TV.webp",
     "caption": "Sharks have been around for millions of years, and prehistoric sharks were even bigger than modern sharks! Based on the size of its teeth, one ancient shark called Carcharodon megalodon is estimated to have been 13.2 meters (43 ft) long!"
   }
 }

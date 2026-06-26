@@ -17,7 +17,7 @@
     "South America"
   ],
   "hero": {
-    "image": "assets/coug/COUG00AA.png",
+    "image": "assets/coug/COUG00AA.webp",
     "alt": "Cougar"
   },
   "intro": "Cougars can adapt their habits to live in almost any type of country, from forests to swamps to mountains. These beautiful cats once roamed from southern Canada to the tip of South America. People call cougars by many different names, including mountain lions, panthers, pumas, painters, and catamounts.",
@@ -52,19 +52,19 @@
     {
       "id": "spotted-babies",
       "title": "Spotted babies",
-      "image": "assets/coug/COUG01PU.png",
+      "image": "assets/coug/COUG01PU.webp",
       "text": "Cougar cubs are born with spots. These help the babies blend in better with their surroundings so that predators can't find them. The spots on this cub will fade as it grows, and the size of its body will also catch up with these ears!"
     },
     {
       "id": "snow-cat",
       "title": "Snow cat",
-      "image": "assets/coug/COUG02PU.png",
+      "image": "assets/coug/COUG02PU.webp",
       "text": "Pioneers in North America found cougars in swamps, forests, grasslands, and deserts. But people have driven them out of most places. These days, you're most likely to see a cougar only in remote locations, such as in the high country of a national park."
     },
     {
       "id": "wildcat",
       "title": "Wildcat",
-      "image": "assets/coug/COUG03PU.png",
+      "image": "assets/coug/COUG03PU.webp",
       "text": "Weighing in at less than 15 kilograms (33 lb), this bobcat, also called a wildcat, is smaller than a cougar. A bobcat's howls are bone chilling: the sound has often been compared to a woman's scream.",
       "captions": [
         {
@@ -80,7 +80,7 @@
     {
       "id": "northern-neighbor",
       "title": "Northern neighbor",
-      "image": "assets/coug/COUG04PU.png",
+      "image": "assets/coug/COUG04PU.webp",
       "text": "This lynx has fur on the bottom of its feet so that it can walk on snow and still keep its feet warm. A lynx looks a lot like a bobcat, but it's bigger and heavier, and has larger tufts of hair on its ears.",
       "captions": [
         {
@@ -96,7 +96,7 @@
     {
       "id": "southern-cousins",
       "title": "Southern cousins",
-      "image": "assets/coug/COUG05PU.png",
+      "image": "assets/coug/COUG05PU.webp",
       "text": "At one time there were wild cats all over the world. Here are two cat species that live in Central and South America.",
       "captions": [
         {
@@ -114,7 +114,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/coug/COUG00AA.png",
+        "image": "assets/coug/COUG00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -175,32 +175,32 @@
         ]
       },
       "spotted-babies": {
-        "image": "assets/coug/COUG01PU.png",
+        "image": "assets/coug/COUG01PU.webp",
         "back": "main"
       },
       "snow-cat": {
-        "image": "assets/coug/COUG02PU.png",
+        "image": "assets/coug/COUG02PU.webp",
         "back": "main"
       },
       "wildcat": {
-        "image": "assets/coug/COUG03PU.png",
+        "image": "assets/coug/COUG03PU.webp",
         "back": "main"
       },
       "northern-neighbor": {
-        "image": "assets/coug/COUG04PU.png",
+        "image": "assets/coug/COUG04PU.webp",
         "back": "main"
       },
       "southern-cousins": {
-        "image": "assets/coug/COUG05PU.png",
+        "image": "assets/coug/COUG05PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/coug/COUG00FB.png",
+        "image": "assets/coug/COUG00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/coug/clip.mp4",
-        "poster": "assets/coug/COUG06TV.png",
+        "poster": "assets/coug/COUG06TV.webp",
         "back": "main"
       }
     }
@@ -213,7 +213,7 @@
   "video": {
     "title": "Leaping for a living",
     "src": "assets/coug/clip.mp4",
-    "poster": "assets/coug/COUG06TV.png",
+    "poster": "assets/coug/COUG06TV.webp",
     "caption": "Cougars are amazingly agile cats. They've been known to jump more than seven times their own height straight up into trees, or escape down seemingly sheer cliffs. And a favorite cougar trick is to leap onto the back of its prey."
   }
 }

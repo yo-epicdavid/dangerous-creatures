@@ -15,7 +15,7 @@
     "Oceans & Seas"
   ],
   "hero": {
-    "image": "assets/hamr/HAMR00AA.png",
+    "image": "assets/hamr/HAMR00AA.webp",
     "alt": "Hammerhead Shark"
   },
   "intro": "When hammerheads gather in large schools, they don't take much notice of intruders. People who dive among them seem to be safe at those times. Scalloped hammerheads (one of the many kinds of hammerheads) especially like to gather above the peaks of underwater mountains that rise from the ocean floor.",
@@ -50,7 +50,7 @@
     {
       "id": "shark-camouflage",
       "title": "Shark camouflage",
-      "image": "assets/hamr/HAMR01PU.png",
+      "image": "assets/hamr/HAMR01PU.webp",
       "text": "Sharks have predators, too–usually other sharks! To avoid being eaten by their fellows, many small sharks use camouflage for protection. The spots on these two sharks help them blend in with the ocean floor so that predators can't see them.",
       "captions": [
         {
@@ -62,19 +62,19 @@
     {
       "id": "monstrous-relative",
       "title": "Monstrous relative",
-      "image": "assets/hamr/HAMR02PU.png",
+      "image": "assets/hamr/HAMR02PU.webp",
       "text": "Are big sharks always scary sharks? Not at all! At 13.9 meters (more than 45 ft) long, the rarely seen whale shark is truly immense, but it eats only plankton and shows no interest in larger animals. Although it may be considered a monster because of its size, this shark is really a gentle giant."
     },
     {
       "id": "carpet-or-shark",
       "title": "Carpet or shark?",
-      "image": "assets/hamr/HAMR03PU.png",
+      "image": "assets/hamr/HAMR03PU.webp",
       "text": "The hammerhead is not the only weird-looking shark. This Australian wobbegong shark is also called a \"carpet shark\" because it looks like a swimming rug. Its skin patterns and \"tassels\" of flesh make it easy for this shark to camouflage itself on the ocean floor."
     },
     {
       "id": "heads-for-all-purposes",
       "title": "Heads for all purposes",
-      "image": "assets/hamr/HAMR04PU.png",
+      "image": "assets/hamr/HAMR04PU.webp",
       "text": "Many fish not only have a mouth for eating, eyes for seeing, and nostrils for smelling, but they also have other special features on their heads.",
       "captions": [
         {
@@ -94,7 +94,7 @@
     {
       "id": "angelic-cousin",
       "title": "Angelic cousin",
-      "image": "assets/hamr/HAMR05PU.png",
+      "image": "assets/hamr/HAMR05PU.webp",
       "text": "This angel does not belong on the top of a Christmas tree! The angel shark looks a lot like a ray but is a true shark. Here's how you can tell the difference: if the pectoral fins are not attached to the head, the animal is a shark.",
       "captions": [
         {
@@ -108,7 +108,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/hamr/HAMR00AA.png",
+        "image": "assets/hamr/HAMR00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -169,32 +169,32 @@
         ]
       },
       "shark-camouflage": {
-        "image": "assets/hamr/HAMR01PU.png",
+        "image": "assets/hamr/HAMR01PU.webp",
         "back": "main"
       },
       "monstrous-relative": {
-        "image": "assets/hamr/HAMR02PU.png",
+        "image": "assets/hamr/HAMR02PU.webp",
         "back": "main"
       },
       "carpet-or-shark": {
-        "image": "assets/hamr/HAMR03PU.png",
+        "image": "assets/hamr/HAMR03PU.webp",
         "back": "main"
       },
       "heads-for-all-purposes": {
-        "image": "assets/hamr/HAMR04PU.png",
+        "image": "assets/hamr/HAMR04PU.webp",
         "back": "main"
       },
       "angelic-cousin": {
-        "image": "assets/hamr/HAMR05PU.png",
+        "image": "assets/hamr/HAMR05PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/hamr/HAMR00FB.png",
+        "image": "assets/hamr/HAMR00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/hamr/clip.mp4",
-        "poster": "assets/hamr/HAMR06TV.png",
+        "poster": "assets/hamr/HAMR06TV.webp",
         "back": "main"
       }
     }
@@ -207,7 +207,7 @@
   "video": {
     "title": "Why a hammer?",
     "src": "assets/hamr/clip.mp4",
-    "poster": "assets/hamr/HAMR06TV.png",
+    "poster": "assets/hamr/HAMR06TV.webp",
     "caption": "This fish has a \"hammer\" for a head, but no one knows why. Perhaps the shark's vision and sense of smell are improved because its eyes and nostrils are on the ends of the hammer. Maybe the extra electricity-detecting organs packed into its wide head help the shark track prey. It's pretty certain, though, that these sharks don't use their hammers to pound nails!"
   }
 }

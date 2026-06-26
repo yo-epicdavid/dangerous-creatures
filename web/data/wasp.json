@@ -17,7 +17,7 @@
     "Worldwide"
   ],
   "hero": {
-    "image": "assets/wasp/WASP00AA.png",
+    "image": "assets/wasp/WASP00AA.webp",
     "alt": "Wasp"
   },
   "intro": "There are more than 100,000 kinds of wasps! Wasps that sting, wasps that don't. Wasps in yellow and black, wasps with a rainbow shine. Wasps that lay eggs on insects, wasps that lay eggs inside trees. Social wasps, solitary wasps. Huge wasps the size of your thumb, tiny wasps you can't see without a microscope. And thousands more! Aren't wasps amazing?",
@@ -52,7 +52,7 @@
     {
       "id": "jewel-of-the-desert",
       "title": "Jewel of the desert",
-      "image": "assets/wasp/WASP01PU.png",
+      "image": "assets/wasp/WASP01PU.webp",
       "text": "Like most adult wasps, the solitary jewel wasp feeds on nectar–but her larva prefers flesh to flowers, so she kills prey for her baby to eat.",
       "captions": [
         {
@@ -68,7 +68,7 @@
     {
       "id": "wasps-in-the-woods",
       "title": "Wasps in the woods",
-      "image": "assets/wasp/WASP02PU.png",
+      "image": "assets/wasp/WASP02PU.webp",
       "text": "The fearsome-looking spike on this big insect's tail is not a stinger, but an ovipositor, or egg-laying tube. The female wood wasp uses it to drill a row of holes in a pine tree. Then she lays a fungus-coated egg in each hole. Many people think of wood wasps as pests because the fungus harms the tree.",
       "captions": [
         {
@@ -80,7 +80,7 @@
     {
       "id": "master-builders",
       "title": "Master builders",
-      "image": "assets/wasp/WASP03PU.png",
+      "image": "assets/wasp/WASP03PU.webp",
       "text": "Many wasps not only build their own houses, but even create the building materials themselves! It's a remarkable process.",
       "captions": [
         {
@@ -96,13 +96,13 @@
     {
       "id": "sweet-tooth",
       "title": "Sweet tooth",
-      "image": "assets/wasp/WASP04PU.png",
+      "image": "assets/wasp/WASP04PU.webp",
       "text": "Humans aren't the only animals that love sugar. In fact, many kinds of adult wasps feed on nothing but sweet liquids, like flower nectar or fruit juice. Some hunting wasps have more grisly diets–they eat other insects or drink their body fluids, especially in the autumn as flowers become scarce. Yellow jackets are fond of people food. Like ants, they're often present–but not welcome–at picnics!"
     },
     {
       "id": "a-galling-situation",
       "title": "A galling situation",
-      "image": "assets/wasp/WASP06PU.png",
+      "image": "assets/wasp/WASP06PU.webp",
       "text": "Have you ever seen round swellings on a grass stem or a tree branch? They're galls, which the plant forms when the eggs of gall wasps hatch into larvae inside the plant. But the tough galls don't protect the gall wasp larvae from chalcid wasps, which look for galls to lay their own eggs in. When the parasitic wasp larvae hatch, they eat the gall wasp larvae!",
       "captions": [
         {
@@ -114,7 +114,7 @@
     {
       "id": "just-bluffing",
       "title": "Just bluffing",
-      "image": "assets/wasp/WASP07PU.png",
+      "image": "assets/wasp/WASP07PU.webp",
       "text": "Would you want any of the insects on this page to land on you? They all look like they'd sting, don't they? Don't worry! These insects look more dangerous than they really are.",
       "captions": [
         {
@@ -134,7 +134,7 @@
     {
       "id": "bug-eyed-aliens",
       "title": "Bug-eyed aliens",
-      "image": "assets/wasp/WASP08PU.png",
+      "image": "assets/wasp/WASP08PU.webp",
       "text": "This is not a monster-movie mask–it's just a wasp, close up. And from the wasp's viewpoint, it's a perfectly lovely face. Beauty is, after all, in the eyes of the beholder!",
       "captions": [
         {
@@ -148,7 +148,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/wasp/WASP00AA.png",
+        "image": "assets/wasp/WASP00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -233,40 +233,40 @@
         ]
       },
       "jewel-of-the-desert": {
-        "image": "assets/wasp/WASP01PU.png",
+        "image": "assets/wasp/WASP01PU.webp",
         "back": "main"
       },
       "wasps-in-the-woods": {
-        "image": "assets/wasp/WASP02PU.png",
+        "image": "assets/wasp/WASP02PU.webp",
         "back": "main"
       },
       "master-builders": {
-        "image": "assets/wasp/WASP03PU.png",
+        "image": "assets/wasp/WASP03PU.webp",
         "back": "main"
       },
       "sweet-tooth": {
-        "image": "assets/wasp/WASP04PU.png",
+        "image": "assets/wasp/WASP04PU.webp",
         "back": "main"
       },
       "a-galling-situation": {
-        "image": "assets/wasp/WASP06PU.png",
+        "image": "assets/wasp/WASP06PU.webp",
         "back": "main"
       },
       "just-bluffing": {
-        "image": "assets/wasp/WASP07PU.png",
+        "image": "assets/wasp/WASP07PU.webp",
         "back": "main"
       },
       "bug-eyed-aliens": {
-        "image": "assets/wasp/WASP08PU.png",
+        "image": "assets/wasp/WASP08PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/wasp/WASP00FB.png",
+        "image": "assets/wasp/WASP00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/wasp/clip.mp4",
-        "poster": "assets/wasp/WASP09TV.png",
+        "poster": "assets/wasp/WASP09TV.webp",
         "back": "main"
       }
     }
@@ -279,7 +279,7 @@
   "video": {
     "title": "Pest control",
     "src": "assets/wasp/clip.mp4",
-    "poster": "assets/wasp/WASP09TV.png",
+    "poster": "assets/wasp/WASP09TV.webp",
     "caption": "All female adult wasps feed other insects to their young. Wasps that live in groups, like yellow jackets, will kill any insect they can grab. Wasps that live alone, like the ones shown here, tend to hunt for very specific prey, like a particular caterpillar or beetle. These solitary wasps are sometimes imported by farmers to control pests that are destructive to crops."
   }
 }

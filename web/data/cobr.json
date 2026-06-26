@@ -17,7 +17,7 @@
     "Asia"
   ],
   "hero": {
-    "image": "assets/cobr/COBR00AA.png",
+    "image": "assets/cobr/COBR00AA.webp",
     "alt": "Cobra"
   },
   "intro": "When a cobra bites its prey, the snake hangs on to it for several seconds, grinding as much venom as possible into the wound. Cobra venom is extremely potent. A single bite from a king cobra could kill an elephant in just a few hours. Fortunately, cobras are not aggressive snakes. Most of the time, they just want to be left alone.",
@@ -52,7 +52,7 @@
     {
       "id": "spitting-image",
       "title": "Spitting image",
-      "image": "assets/cobr/COBR02PU.png",
+      "image": "assets/cobr/COBR02PU.webp",
       "text": "Some African cobras have a very nasty habit. If they feel threatened, they spray jets of venom at their attacker, aiming for the eyes.",
       "captions": [
         {
@@ -68,7 +68,7 @@
     {
       "id": "convertible-hood",
       "title": "Convertible hood",
-      "image": "assets/cobr/COBR01PU.png",
+      "image": "assets/cobr/COBR01PU.webp",
       "text": "When cobras get angry, they raise the front of their bodies off the ground and spread out the bones in their neck, tightening the loose skin into a \"hood\" that's intended to scare off enemies. Some cobras grow twice as long as a compact car—those monsters might be able to raise their heads as high as yours!",
       "captions": [
         {
@@ -80,7 +80,7 @@
     {
       "id": "snacking-on-snakes",
       "title": "Snacking on snakes",
-      "image": "assets/cobr/COBR04PU.png",
+      "image": "assets/cobr/COBR04PU.webp",
       "text": "Like all wild animals, snakes have to look out for predators that want to eat them. Birds and other snakes are their most common enemies.",
       "captions": [
         {
@@ -96,7 +96,7 @@
     {
       "id": "dangerous-babies",
       "title": "Dangerous babies?",
-      "image": "assets/cobr/COBR03PU.png",
+      "image": "assets/cobr/COBR03PU.webp",
       "text": "A snake doesn't have to be big to be deadly. A baby cobra can be as poisonous as an adult. Like all baby snakes, a tiny cobra is a miniature replica of its parents—in this case, the baby is ready to hunt the instant it breaks out of its eggshell.",
       "captions": [
         {
@@ -112,7 +112,7 @@
     {
       "id": "milking-a-snake",
       "title": "Milking a snake",
-      "image": "assets/cobr/COBR05PU.png",
+      "image": "assets/cobr/COBR05PU.webp",
       "text": "People sometimes \"milk\" venomous snakes like this rattlesnake. They make a snake bite a membrane-covered jar and then stroke its venom glands. The collected venom is used to make various medicines, especially antivenin for counteracting snakebites. Don't try this at home!"
     }
   ],
@@ -120,7 +120,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/cobr/COBR00AA.png",
+        "image": "assets/cobr/COBR00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -181,32 +181,32 @@
         ]
       },
       "spitting-image": {
-        "image": "assets/cobr/COBR02PU.png",
+        "image": "assets/cobr/COBR02PU.webp",
         "back": "main"
       },
       "convertible-hood": {
-        "image": "assets/cobr/COBR01PU.png",
+        "image": "assets/cobr/COBR01PU.webp",
         "back": "main"
       },
       "snacking-on-snakes": {
-        "image": "assets/cobr/COBR04PU.png",
+        "image": "assets/cobr/COBR04PU.webp",
         "back": "main"
       },
       "dangerous-babies": {
-        "image": "assets/cobr/COBR03PU.png",
+        "image": "assets/cobr/COBR03PU.webp",
         "back": "main"
       },
       "milking-a-snake": {
-        "image": "assets/cobr/COBR05PU.png",
+        "image": "assets/cobr/COBR05PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/cobr/COBR00FB.png",
+        "image": "assets/cobr/COBR00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/cobr/clip.mp4",
-        "poster": "assets/cobr/COBR06TV.png",
+        "poster": "assets/cobr/COBR06TV.webp",
         "back": "main"
       }
     }
@@ -219,7 +219,7 @@
   "video": {
     "title": "Best of enemies",
     "src": "assets/cobr/clip.mp4",
-    "poster": "assets/cobr/COBR06TV.png",
+    "poster": "assets/cobr/COBR06TV.webp",
     "caption": "Not many animals will mess with a cobra, but the mongoose is a worthy opponent. Although it's not immune, this little mammal can tolerate a dose of the snake's venom, and a mongoose is very quick. These two animals usually avoid each other, but when they get into a fight, the contest usually ends with the mongoose eating a dead cobra."
   }
 }

@@ -20,7 +20,7 @@
     "North America"
   ],
   "hero": {
-    "image": "assets/wolf/WOLF00AA.png",
+    "image": "assets/wolf/WOLF00AA.webp",
     "alt": "Wolf"
   },
   "intro": "Who's afraid of the big bad wolf? Lots of people. But wolves don't deserve the bad rep. It's true that they're powerful–they're larger than any other wild dog and they can run faster than the speed limit on most city streets–and they're smart. But wolves use their strength to kill prey and their intelligence to get along in a pack. There isn't a single recorded instance of a healthy wolf killing a human.",
@@ -55,37 +55,37 @@
     {
       "id": "wild-pups",
       "title": "Wild pups",
-      "image": "assets/wolf/WOLF01PU.png",
+      "image": "assets/wolf/WOLF01PU.webp",
       "text": "Wolf pups are born blind but they're soon eager to explore the world. Like all puppies, they learn by playing–pouncing on moving objects and wrestling to see who's top dog. The pups stay with their parents and older brothers and sisters for a year or more. Then they leave to start their own packs."
     },
     {
       "id": "wolf-ways",
       "title": "Wolf ways",
-      "image": "assets/wolf/WOLF02PU.png",
+      "image": "assets/wolf/WOLF02PU.webp",
       "text": "A wolf can survive by itself (a \"lone wolf\"), but wolves normally live in packs. In each pack, there's one pair of leaders–a dominant male and female. Wolves use body language to communicate within the pack. The expression on a wolf's face and the way it holds its body–especially its tail–tells another wolf what it's saying."
     },
     {
       "id": "long-distance-call",
       "title": "Long-distance call",
-      "image": "assets/wolf/WOLF03PU.png",
+      "image": "assets/wolf/WOLF03PU.webp",
       "text": "Wolves howl to keep in touch with other pack members or to warn other packs to keep their distance–and it seems that sometimes they howl just for the fun of it. A wolf's howl can be heard for long distances."
     },
     {
       "id": "eating-hierarchy",
       "title": "Eating hierarchy",
-      "image": "assets/wolf/WOLF04PU.png",
+      "image": "assets/wolf/WOLF04PU.webp",
       "text": "Wolves stay near a kill for days until they eat all of it–even the bones and hair. The pack members don't necessarily all eat at the same time–the leaders get their fill first. If there are pups that are too young to travel with the pack to the site of the kill, the adult wolves go back to the den and regurgitate what they've eaten for the babies."
     },
     {
       "id": "wolf-country",
       "title": "Wolf country",
-      "image": "assets/wolf/WOLF05PU.png",
+      "image": "assets/wolf/WOLF05PU.webp",
       "text": "At one time, wolves lived in many parts of the world, but now most are concentrated in the northern parts of North America. People have killed wolves for centuries because they believed them to be a major threat to their livestock. In winter, wolves kill large animals such as moose, caribou, or musk oxen. In summer, much of their diet consists of small animals like mice, lemmings, and hares."
     },
     {
       "id": "predator-power",
       "title": "Predator power",
-      "image": "assets/wolf/WOLF06PU.png",
+      "image": "assets/wolf/WOLF06PU.webp",
       "text": "Just looking at a wolf's teeth might make you guess that it's a predator–and you'd be right!",
       "captions": [
         {
@@ -105,7 +105,7 @@
     {
       "id": "misunderstood",
       "title": "Misunderstood",
-      "image": "assets/wolf/WOLF07PU.png",
+      "image": "assets/wolf/WOLF07PU.webp",
       "text": "These two animals are called wolves, but neither one really is a wolf. However, like the wolves they are mistaken for, these two carnivores have also been slaughtered in great numbers.",
       "captions": [
         {
@@ -121,7 +121,7 @@
     {
       "id": "foxy-cousin",
       "title": "Foxy cousin",
-      "image": "assets/wolf/WOLF08PU.png",
+      "image": "assets/wolf/WOLF08PU.webp",
       "text": "If you lived in a snowy place and didn't want to be noticed, you'd probably wear a white winter coat–as many Arctic animals do. This Arctic fox's thick white winter coat is designed for both camouflage and warmth. It will be replaced in the spring by a thinner coat that may be gray, red, or tan."
     }
   ],
@@ -129,7 +129,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/wolf/WOLF00AA.png",
+        "image": "assets/wolf/WOLF00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -214,44 +214,44 @@
         ]
       },
       "wild-pups": {
-        "image": "assets/wolf/WOLF01PU.png",
+        "image": "assets/wolf/WOLF01PU.webp",
         "back": "main"
       },
       "wolf-ways": {
-        "image": "assets/wolf/WOLF02PU.png",
+        "image": "assets/wolf/WOLF02PU.webp",
         "back": "main"
       },
       "long-distance-call": {
-        "image": "assets/wolf/WOLF03PU.png",
+        "image": "assets/wolf/WOLF03PU.webp",
         "back": "main"
       },
       "eating-hierarchy": {
-        "image": "assets/wolf/WOLF04PU.png",
+        "image": "assets/wolf/WOLF04PU.webp",
         "back": "main"
       },
       "wolf-country": {
-        "image": "assets/wolf/WOLF05PU.png",
+        "image": "assets/wolf/WOLF05PU.webp",
         "back": "main"
       },
       "predator-power": {
-        "image": "assets/wolf/WOLF06PU.png",
+        "image": "assets/wolf/WOLF06PU.webp",
         "back": "main"
       },
       "misunderstood": {
-        "image": "assets/wolf/WOLF07PU.png",
+        "image": "assets/wolf/WOLF07PU.webp",
         "back": "main"
       },
       "foxy-cousin": {
-        "image": "assets/wolf/WOLF08PU.png",
+        "image": "assets/wolf/WOLF08PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/wolf/WOLF00FB.png",
+        "image": "assets/wolf/WOLF00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/wolf/clip.mp4",
-        "poster": "assets/wolf/WOLF09TV.png",
+        "poster": "assets/wolf/WOLF09TV.webp",
         "back": "main"
       }
     }
@@ -264,7 +264,7 @@
   "video": {
     "title": "Making tracks",
     "src": "assets/wolf/clip.mp4",
-    "poster": "assets/wolf/WOLF09TV.png",
+    "poster": "assets/wolf/WOLF09TV.webp",
     "caption": "Wolves can cover over 32 kilometers (20 mi) of territory in a single journey. That's really keeping on your toes (which is, in fact, how wolves walk)! Wolves and other dogs can't tuck their nails away like cats can, so you'll always see toenail marks in wolf prints."
   }
 }

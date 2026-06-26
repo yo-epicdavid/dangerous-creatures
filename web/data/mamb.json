@@ -15,7 +15,7 @@
     "Africa"
   ],
   "hero": {
-    "image": "assets/mamb/MAMB00AA.png",
+    "image": "assets/mamb/MAMB00AA.webp",
     "alt": "Black Mamba"
   },
   "intro": "Moving faster than most people can run, with its head raised off the ground and its mouth wide open, a black mamba performing its threat display is a terrifying sight. The wise observer freezes immediately, because this snake doesn't bluff–it won't hesitate to use its deadly venom if it feels cornered.",
@@ -50,7 +50,7 @@
     {
       "id": "dental-details",
       "title": "Dental details",
-      "image": "assets/mamb/MAMB01PU.png",
+      "image": "assets/mamb/MAMB01PU.webp",
       "text": "Mambas are venomous elapids, or \"fixed-front-fang\" snakes. This means that their fangs are in the front of their mouths and are attached to their upper jaws. Elapids can't fold their fangs out of the way when they close their mouths like vipers can, so their fangs must be fairly short. Otherwise, they'd poke through the snakes' lower jaws.",
       "captions": [
         {
@@ -70,13 +70,13 @@
     {
       "id": "hunting-on-high",
       "title": "Hunting on high",
-      "image": "assets/mamb/MAMB02PU.png",
+      "image": "assets/mamb/MAMB02PU.webp",
       "text": "If you think that the only place to search for snakes is under your feet, looking up once in a while might be a good idea. This emerald tree boa prowls through the trees of the Amazon Basin in South America."
     },
     {
       "id": "egg-sucking-neighbor",
       "title": "Egg-sucking neighbor",
-      "image": "assets/mamb/MAMB03PU.png",
+      "image": "assets/mamb/MAMB03PU.webp",
       "text": "A black mamba on the prowl might encounter this African egg-eating snake on the ground or in the trees. This nonvenomous snake specializes in eating bird eggs.",
       "captions": [
         {
@@ -92,7 +92,7 @@
     {
       "id": "african-snake-eater",
       "title": "African snake-eater",
-      "image": "assets/mamb/MAMB04PU.png",
+      "image": "assets/mamb/MAMB04PU.webp",
       "text": "Venomous snakes like the black mamba have few enemies. This is one of them. The secretary bird roams the grasslands of Africa for food, and snakes are one of its favorite menu items. It usually stomps on snakes with its taloned feet before chomping on them with its beak.",
       "captions": [
         {
@@ -106,7 +106,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/mamb/MAMB00AA.png",
+        "image": "assets/mamb/MAMB00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -159,28 +159,28 @@
         ]
       },
       "dental-details": {
-        "image": "assets/mamb/MAMB01PU.png",
+        "image": "assets/mamb/MAMB01PU.webp",
         "back": "main"
       },
       "hunting-on-high": {
-        "image": "assets/mamb/MAMB02PU.png",
+        "image": "assets/mamb/MAMB02PU.webp",
         "back": "main"
       },
       "egg-sucking-neighbor": {
-        "image": "assets/mamb/MAMB03PU.png",
+        "image": "assets/mamb/MAMB03PU.webp",
         "back": "main"
       },
       "african-snake-eater": {
-        "image": "assets/mamb/MAMB04PU.png",
+        "image": "assets/mamb/MAMB04PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/mamb/MAMB00FB.png",
+        "image": "assets/mamb/MAMB00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/mamb/clip.mp4",
-        "poster": "assets/mamb/MAMB05TV.png",
+        "poster": "assets/mamb/MAMB05TV.webp",
         "back": "main"
       }
     }
@@ -193,7 +193,7 @@
   "video": {
     "title": "Another swift hunter",
     "src": "assets/mamb/clip.mp4",
-    "poster": "assets/mamb/MAMB05TV.png",
+    "poster": "assets/mamb/MAMB05TV.webp",
     "caption": "Although they're not related, this African snake–the boomslang–behaves something like the black mamba. Both snakes are slim, quick, venomous hunters that aggressively pursue small prey like birds, lizards, and frogs. It's a good thing these snakes are not after people!"
   }
 }

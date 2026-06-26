@@ -15,7 +15,7 @@
     "Oceans & Seas"
   ],
   "hero": {
-    "image": "assets/seas/SEAS00AA.png",
+    "image": "assets/seas/SEAS00AA.webp",
     "alt": "Sea Snake"
   },
   "intro": "The most poisonous snakes on earth, some sea snakes have venom several times more powerful than a cobra's! Luckily, they seldom bite humans. There are over fifty kinds of sea snakes. Some live in swampy areas or along shorelines, some in coral reefs, and others spend their lives far out at sea. They have special features for a marine life, such as flattened bodies that help them move easily through the water. Some sea snakes can't move on land at all!",
@@ -50,13 +50,13 @@
     {
       "id": "sea-of-snakes",
       "title": "Sea of snakes",
-      "image": "assets/seas/SEAS01PU.png",
+      "image": "assets/seas/SEAS01PU.webp",
       "text": "Sea snakes are snakes, not fish, so they must come to the surface to breathe. At times, hundreds, or even thousands, have been seen in the Indian and Pacific Oceans, drifting with the currents. The usual human victims of sea snake bites are the fishermen who haul in serpents that have become entangled in fishing nets."
     },
     {
       "id": "all-colors-and-patterns",
       "title": "All colors and patterns",
-      "image": "assets/seas/SEAS02PU.png",
+      "image": "assets/seas/SEAS02PU.webp",
       "text": "If you opened a box labeled \"sea snakes,\" the animals that popped out could be solid, banded, spotted, or striped, and they could be just about any color!",
       "captions": [
         {
@@ -72,13 +72,13 @@
     {
       "id": "surprise",
       "title": "Surprise!",
-      "image": "assets/seas/SEAS03PU.png",
+      "image": "assets/seas/SEAS03PU.webp",
       "text": "Some sea snakes live among coral reefs. Their small heads and slender bodies are perfect for pursuing eels—one of their favorite foods—down holes. So if you're diving in sea snake country, don't go poking around in holes expecting to flush out a harmless eel. A sea snake may surprise you instead!"
     },
     {
       "id": "landlubber-relatives",
       "title": "Landlubber relatives",
-      "image": "assets/seas/SEAS04PU.png",
+      "image": "assets/seas/SEAS04PU.webp",
       "text": "If a sea snake had a family get-together, you wouldn't want to be invited—the other guests would be cobras, coral snakes, mambas, and kraits!",
       "captions": [
         {
@@ -94,7 +94,7 @@
     {
       "id": "snakelike-swimmers",
       "title": "Snakelike swimmers",
-      "image": "assets/seas/SEAS05PU.png",
+      "image": "assets/seas/SEAS05PU.webp",
       "text": "Sea snakes and eels both need to be able to fit through small openings, so both types of animals have developed skinny, flexible bodies with no legs to get in the way. But the similarity ends there: snakes are not related to eels at all.",
       "captions": [
         {
@@ -110,7 +110,7 @@
     {
       "id": "snake-supper",
       "title": "Snake supper",
-      "image": "assets/seas/SEAS06PU.png",
+      "image": "assets/seas/SEAS06PU.webp",
       "text": "Some sea snakes eat only fish eggs. But most sea snakes live on eels and small fish, which they poison with their powerful, fast-acting venom.",
       "captions": [
         {
@@ -126,7 +126,7 @@
     {
       "id": "specialized-tails",
       "title": "Specialized tails",
-      "image": "assets/seas/SEAS07PU.png",
+      "image": "assets/seas/SEAS07PU.webp",
       "text": "Sea snakes have flattened tails that help them swim underwater. Throughout the animal world, you'll find tails used for amazing purposes.",
       "captions": [
         {
@@ -144,7 +144,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/seas/SEAS00AA.png",
+        "image": "assets/seas/SEAS00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -221,40 +221,40 @@
         ]
       },
       "sea-of-snakes": {
-        "image": "assets/seas/SEAS01PU.png",
+        "image": "assets/seas/SEAS01PU.webp",
         "back": "main"
       },
       "all-colors-and-patterns": {
-        "image": "assets/seas/SEAS02PU.png",
+        "image": "assets/seas/SEAS02PU.webp",
         "back": "main"
       },
       "surprise": {
-        "image": "assets/seas/SEAS03PU.png",
+        "image": "assets/seas/SEAS03PU.webp",
         "back": "main"
       },
       "landlubber-relatives": {
-        "image": "assets/seas/SEAS04PU.png",
+        "image": "assets/seas/SEAS04PU.webp",
         "back": "main"
       },
       "snakelike-swimmers": {
-        "image": "assets/seas/SEAS05PU.png",
+        "image": "assets/seas/SEAS05PU.webp",
         "back": "main"
       },
       "snake-supper": {
-        "image": "assets/seas/SEAS06PU.png",
+        "image": "assets/seas/SEAS06PU.webp",
         "back": "main"
       },
       "specialized-tails": {
-        "image": "assets/seas/SEAS07PU.png",
+        "image": "assets/seas/SEAS07PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/seas/SEAS00FB.png",
+        "image": "assets/seas/SEAS00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/seas/clip.mp4",
-        "poster": "assets/seas/SEAS08TV.png",
+        "poster": "assets/seas/SEAS08TV.webp",
         "back": "main"
       }
     }
@@ -267,7 +267,7 @@
   "video": {
     "title": "Diver danger",
     "src": "assets/seas/clip.mp4",
-    "poster": "assets/seas/SEAS08TV.png",
+    "poster": "assets/seas/SEAS08TV.webp",
     "caption": "Although they can kill with their venom, most sea snakes aren't aggressive—like all wild animals, they just want to be left alone. So if you're snorkeling at the Great Barrier Reef and you see a beautifully colored snaky-looking animal slithering through the water, admire it from afar."
   }
 }

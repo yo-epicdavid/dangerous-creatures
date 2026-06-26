@@ -16,7 +16,7 @@
     "Australia & Oceania"
   ],
   "hero": {
-    "image": "assets/swsp/SWSP00AA.png",
+    "image": "assets/swsp/SWSP00AA.webp",
     "alt": "Australian Sea Wasp"
   },
   "intro": "This jellyfish can kill you with a touch. Its long, trailing tentacles are covered with millions of stinging cells. They're designed to paralyze prey–like this fish–but they'll inject potent venom into any creature that brushes against them. On still summer days, sea wasps (also called box jellyfish) swim into the shallows in search of food. If you're in Australia and you know there are sea wasps around, stay out of the water!",
@@ -51,7 +51,7 @@
     {
       "id": "whats-the-difference",
       "title": "What's the difference?",
-      "image": "assets/swsp/SWSP01PU.png",
+      "image": "assets/swsp/SWSP01PU.webp",
       "text": "If it floats around and has dangling, stinging tentacles, it's a jellyfish, right? Well, not always...",
       "captions": [
         {
@@ -67,7 +67,7 @@
     {
       "id": "ferocious-flower",
       "title": "Ferocious flower",
-      "image": "assets/swsp/SWSP02PU.png",
+      "image": "assets/swsp/SWSP02PU.webp",
       "text": "A group of sea anemones looks like an underwater garden. But each pretty petal is packed with stinging cells!",
       "captions": [
         {
@@ -79,19 +79,19 @@
     {
       "id": "what-a-big-mouth",
       "title": "What a big mouth!",
-      "image": "assets/swsp/SWSP03PU.png",
+      "image": "assets/swsp/SWSP03PU.webp",
       "text": "Anemones are related to jellyfish and coral and have similar stinging cells. Their bodies are mostly mouth, tentacles, and stomach. A disk at their base allows them to cling to rocks or crawl very slowly. If they're exposed to air, anemones withdraw their tentacles into their bodies."
     },
     {
       "id": "fatal-surprise",
       "title": "Fatal surprise",
-      "image": "assets/swsp/SWSP04PU.png",
+      "image": "assets/swsp/SWSP04PU.webp",
       "text": "You don't want to be as close to a sea wasp as this diver is, because those hard-to-see tentacles may pack enough venom to kill several humans! If you're in sea wasp territory (for instance, northern Australia), be especially careful on overcast, calm summer days–that's when the jellyfish come close to shore to catch their prey."
     },
     {
       "id": "jellyfish-parasite",
       "title": "Jellyfish parasite",
-      "image": "assets/swsp/SWSP05PU.png",
+      "image": "assets/swsp/SWSP05PU.webp",
       "text": "There aren't many kinds of fish in the icy Arctic Ocean. But if you went diving there, you'd see loads of invertebrates: jellyfish, sea slugs, snails, squids, octopuses, and tiny armored isopods. This jellyfish is carrying around a parasitic isopod in its digestive system. When the poor jellyfish eats, the isopod steals bits of its food. How rude!"
     }
   ],
@@ -99,7 +99,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/swsp/SWSP00AA.png",
+        "image": "assets/swsp/SWSP00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -160,32 +160,32 @@
         ]
       },
       "whats-the-difference": {
-        "image": "assets/swsp/SWSP01PU.png",
+        "image": "assets/swsp/SWSP01PU.webp",
         "back": "main"
       },
       "ferocious-flower": {
-        "image": "assets/swsp/SWSP02PU.png",
+        "image": "assets/swsp/SWSP02PU.webp",
         "back": "main"
       },
       "what-a-big-mouth": {
-        "image": "assets/swsp/SWSP03PU.png",
+        "image": "assets/swsp/SWSP03PU.webp",
         "back": "main"
       },
       "fatal-surprise": {
-        "image": "assets/swsp/SWSP04PU.png",
+        "image": "assets/swsp/SWSP04PU.webp",
         "back": "main"
       },
       "jellyfish-parasite": {
-        "image": "assets/swsp/SWSP05PU.png",
+        "image": "assets/swsp/SWSP05PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/swsp/SWSP00FB.png",
+        "image": "assets/swsp/SWSP00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/swsp/clip.mp4",
-        "poster": "assets/swsp/SWSP06TV.png",
+        "poster": "assets/swsp/SWSP06TV.webp",
         "back": "main"
       }
     }
@@ -198,7 +198,7 @@
   "video": {
     "title": "Mysterious world",
     "src": "assets/swsp/clip.mp4",
-    "poster": "assets/swsp/SWSP06TV.png",
+    "poster": "assets/swsp/SWSP06TV.webp",
     "caption": "In the oceans there are all kinds of creatures that seem like alien beings to us. Sea pens and anemones that look like plants; jellyfish whose bodies you can see right through; fish and plankton that glow in the dark. And there are no doubt sea creatures that we've never even seen–for humans, the ocean is mostly an unexplored frontier."
   }
 }

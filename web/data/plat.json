@@ -15,7 +15,7 @@
     "Australia & Oceania"
   ],
   "hero": {
-    "image": "assets/plat/PLAT00AA.png",
+    "image": "assets/plat/PLAT00AA.webp",
     "alt": "Platypus"
   },
   "intro": "\"Impossible—it must be a hoax!\" That's what people who had never seen a platypus said when they first heard the animal described. A furry beast with webbed feet and a bill like a duck? A mammal that lays eggs but nurses its young? It still seems an unlikely creature. The platypus remains one of the world's most unusual animals.",
@@ -50,7 +50,7 @@
     {
       "id": "inside-a-platypus",
       "title": "Inside a platypus",
-      "image": "assets/plat/PLAT01PU.png",
+      "image": "assets/plat/PLAT01PU.webp",
       "text": "Even the skeleton of a platypus looks like a combination of the bones of other animals.",
       "captions": [
         {
@@ -66,7 +66,7 @@
     {
       "id": "ducklike-feet-and-bills",
       "title": "Ducklike feet and bills",
-      "image": "assets/plat/PLAT02PU.png",
+      "image": "assets/plat/PLAT02PU.webp",
       "text": "The webbed feet and the bill of a platypus have been compared with those of a duck. But are these platypus features really ducklike?",
       "captions": [
         {
@@ -82,13 +82,13 @@
     {
       "id": "platypus-life",
       "title": "Platypus life",
-      "image": "assets/plat/PLAT03PU.png",
+      "image": "assets/plat/PLAT03PU.webp",
       "text": "On land, a platypus relies on its sight and hearing to find out about its environment. Underwater, its eyes and ears are protected under flaps of skin, so while swimming the platypus relies almost exclusively on its sense of touch. Its rubbery bill is especially sensitive, and the platypus uses it to find the crustaceans, worms, and fish it eats."
     },
     {
       "id": "prickly-relative",
       "title": "Prickly relative",
-      "image": "assets/plat/PLAT04PU.png",
+      "image": "assets/plat/PLAT04PU.webp",
       "text": "A platypus is a monotreme, a type of primitive egg-laying mammal. There's only one other type of monotreme: echidnas, or spiny anteaters. Echidnas come in short-nosed and long-nosed versions.",
       "captions": [
         {
@@ -104,7 +104,7 @@
     {
       "id": "cute-but-not-cuddly",
       "title": "Cute, but not cuddly",
-      "image": "assets/plat/PLAT05PU.png",
+      "image": "assets/plat/PLAT05PU.webp",
       "text": "You might be asking yourself what makes a platypus a \"dangerous creature.\" You should approach all wild animals with caution, but you should be especially careful with a male platypus. Males have sharp, venomous spurs on their hind feet!",
       "captions": [
         {
@@ -116,7 +116,7 @@
     {
       "id": "odd-neighbors",
       "title": "Odd neighbors",
-      "image": "assets/plat/PLAT06PU.png",
+      "image": "assets/plat/PLAT06PU.webp",
       "text": "The mainland of Australia, the Australian island of Tasmania, and New Guinea are famous for their odd animals. Here are just a few of the unusual creatures you can find in this area.",
       "captions": [
         {
@@ -138,7 +138,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/plat/PLAT00AA.png",
+        "image": "assets/plat/PLAT00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -207,36 +207,36 @@
         ]
       },
       "inside-a-platypus": {
-        "image": "assets/plat/PLAT01PU.png",
+        "image": "assets/plat/PLAT01PU.webp",
         "back": "main"
       },
       "ducklike-feet-and-bills": {
-        "image": "assets/plat/PLAT02PU.png",
+        "image": "assets/plat/PLAT02PU.webp",
         "back": "main"
       },
       "platypus-life": {
-        "image": "assets/plat/PLAT03PU.png",
+        "image": "assets/plat/PLAT03PU.webp",
         "back": "main"
       },
       "prickly-relative": {
-        "image": "assets/plat/PLAT04PU.png",
+        "image": "assets/plat/PLAT04PU.webp",
         "back": "main"
       },
       "cute-but-not-cuddly": {
-        "image": "assets/plat/PLAT05PU.png",
+        "image": "assets/plat/PLAT05PU.webp",
         "back": "main"
       },
       "odd-neighbors": {
-        "image": "assets/plat/PLAT06PU.png",
+        "image": "assets/plat/PLAT06PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/plat/PLAT00FB.png",
+        "image": "assets/plat/PLAT00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/plat/clip.mp4",
-        "poster": "assets/plat/PLAT07TV.png",
+        "poster": "assets/plat/PLAT07TV.webp",
         "back": "main"
       }
     }
@@ -249,7 +249,7 @@
   "video": {
     "title": "Not a pet",
     "src": "assets/plat/clip.mp4",
-    "poster": "assets/plat/PLAT07TV.png",
+    "poster": "assets/plat/PLAT07TV.webp",
     "caption": "Many wild mammals, like the platypus, look to us as if they might make good pets. But they're happiest in the wild, where they can live the life they're best suited for and find the food they need. A platypus eats up to 1.5 kilograms (about 3 lbs) of food per day!"
   }
 }

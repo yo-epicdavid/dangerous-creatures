@@ -16,7 +16,7 @@
     "Asia"
   ],
   "hero": {
-    "image": "assets/lion/LION00AA.png",
+    "image": "assets/lion/LION00AA.webp",
     "alt": "Lion"
   },
   "intro": "The lion has often been called \"the King of the Jungle.\" This name is misleading. Lions don't live in jungles or even in forests but instead prefer grasslands and arid areas. Also, the females–the lionesses–deserve more recognition than the males, because they not only raise and defend the cubs, but also do most of the hunting as well. However, both males and females are indeed majestic.",
@@ -51,19 +51,19 @@
     {
       "id": "the-huntress",
       "title": "The huntress",
-      "image": "assets/lion/LION01PU.png",
+      "image": "assets/lion/LION01PU.webp",
       "text": "Crouching low, a lioness stalks her prey through the tall grass of the African savanna. She takes a few rapid steps, freezes, then moves and freezes again. When she's close enough, she suddenly springs toward the intended victim. If she misses her target and the prey darts away, it may be ambushed by other lions waiting nearby."
     },
     {
       "id": "lion-life",
       "title": "Lion life",
-      "image": "assets/lion/LION02PU.png",
+      "image": "assets/lion/LION02PU.webp",
       "text": "Lions are the only social cats. Most spend their lives in prides, or family groups. Each pride has two to four males, up to 20 adult females, and cubs of various ages. All the adult females watch over the young. Female cubs are usually allowed to stay in the pride, but male cubs are driven out as soon as they're mature. With luck, young males will eventually establish prides of their own."
     },
     {
       "id": "pupil-power",
       "title": "Pupil power",
-      "image": "assets/lion/LION03PU.png",
+      "image": "assets/lion/LION03PU.webp",
       "text": "To help them see in the dark, the pupils in a cat's eyes expand to a huge size to let in more light. Cats also have an extra layer of light-reflecting cells in their eyes. This is why you sometimes see a cat's eyes shining in the dark. The cat's eyes don't glow by themselves but instead reflect the brightness of a flashlight or other light source.",
       "captions": [
         {
@@ -79,13 +79,13 @@
     {
       "id": "make-mine-meat",
       "title": "Make mine meat",
-      "image": "assets/lion/LION04PU.png",
+      "image": "assets/lion/LION04PU.webp",
       "text": "A big lion can eat more than 40 kilograms (88 lb) of meat at one meal. That's about 352 hamburgers, or a small impala. Of course, how much a lion eats depends on how well the hunting goes. One week the pride may eat so much they can't move, and the next week they may all go hungry."
     },
     {
       "id": "the-man-of-the-family",
       "title": "The man of the family",
-      "image": "assets/lion/LION05PU.png",
+      "image": "assets/lion/LION05PU.webp",
       "text": "Although females make most of the kills, adult males eat first. Male lions are tolerant of their own cubs and may even play with them. However, a male will kill cubs fathered by other lions. It's his blood relationship to his own young, not his love for babies, that makes him protective of his family."
     }
   ],
@@ -93,7 +93,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/lion/LION00AA.png",
+        "image": "assets/lion/LION00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -154,32 +154,32 @@
         ]
       },
       "the-huntress": {
-        "image": "assets/lion/LION01PU.png",
+        "image": "assets/lion/LION01PU.webp",
         "back": "main"
       },
       "lion-life": {
-        "image": "assets/lion/LION02PU.png",
+        "image": "assets/lion/LION02PU.webp",
         "back": "main"
       },
       "pupil-power": {
-        "image": "assets/lion/LION03PU.png",
+        "image": "assets/lion/LION03PU.webp",
         "back": "main"
       },
       "make-mine-meat": {
-        "image": "assets/lion/LION04PU.png",
+        "image": "assets/lion/LION04PU.webp",
         "back": "main"
       },
       "the-man-of-the-family": {
-        "image": "assets/lion/LION05PU.png",
+        "image": "assets/lion/LION05PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/lion/LION00FB.png",
+        "image": "assets/lion/LION00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/lion/clip.mp4",
-        "poster": "assets/lion/LION06TV.png",
+        "poster": "assets/lion/LION06TV.webp",
         "back": "main"
       }
     }
@@ -192,7 +192,7 @@
   "video": {
     "title": "Fixing dinner",
     "src": "assets/lion/clip.mp4",
-    "poster": "assets/lion/LION06TV.png",
+    "poster": "assets/lion/LION06TV.webp",
     "caption": "Imagine what your life would be like if you had to catch something to eat every time you were hungry. Lions, especially the females, spend a lot of time sitting around looking for a likely meal. When they spot an animal that looks like it can't protect itself, they head off to \"fix\" dinner."
   }
 }

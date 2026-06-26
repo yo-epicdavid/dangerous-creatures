@@ -16,7 +16,7 @@
     "South America"
   ],
   "hero": {
-    "image": "assets/post/POST00AA.png",
+    "image": "assets/post/POST00AA.webp",
     "alt": "Passion-vine Caterpillar"
   },
   "intro": "This walking thorn-thicket, stuffing itself on passionflower leaves, is both gathering energy and strengthening its means of defense. Passionflower leaves are poisonous to most creatures, and this diet makes the caterpillar taste horrible–as predators quickly learn. Even after the caterpillar changes into a beautiful butterfly, it still tastes awful and predators continue to avoid it.",
@@ -51,7 +51,7 @@
     {
       "id": "poisoned-passion",
       "title": "Poisoned passion",
-      "image": "assets/post/POST01PU.png",
+      "image": "assets/post/POST01PU.webp",
       "text": "Many gardeners grow passionflowers, and you can eat passionflower fruit. But don't eat the leaves! They're full of natural cyanide. But the cyanide doesn't harm passion-vine caterpillars–it just gives them a very bad taste, which lasts even after they become butterflies.",
       "captions": [
         {
@@ -71,7 +71,7 @@
     {
       "id": "bright-butterflies",
       "title": "Bright butterflies",
-      "image": "assets/post/POST02PU.png",
+      "image": "assets/post/POST02PU.webp",
       "text": "Most butterflies flit along quickly, changing direction often so that predators won't catch them. But passion-vine butterflies sail lazily along in a straight line. They don't need to worry about being pursued because their colors signal, \"Poison!\"",
       "captions": [
         {
@@ -87,7 +87,7 @@
     {
       "id": "uncuddly-cousin",
       "title": "Uncuddly cousin",
-      "image": "assets/post/POST03PU.png",
+      "image": "assets/post/POST03PU.webp",
       "text": "If you were a bird, would you pick on this creature with big black \"eyes\" and a wide red \"mouth\"? This puss moth caterpillar pulls its real head back into the middle part of its body to show off its frightening \"face\". If that doesn't scare off an attacker, the caterpillar has two more tricks–it can squirt formic acid from its throat and shoot red threads from its two tails.",
       "captions": [
         {
@@ -99,7 +99,7 @@
     {
       "id": "tropical-creepers",
       "title": "Tropical creepers",
-      "image": "assets/post/POST04PU.png",
+      "image": "assets/post/POST04PU.webp",
       "text": "A passion-vine caterpillar isn't the only unusual small animal that crawls around in tropical rain forests. Be on the lookout for these, too!",
       "captions": [
         {
@@ -115,7 +115,7 @@
     {
       "id": "variety-is-the-spice-of-life",
       "title": "Variety is the spice of life",
-      "image": "assets/post/POST05PU.png",
+      "image": "assets/post/POST05PU.webp",
       "text": "These passion-vine butterflies, or Heliconia butterflies, are from different species. Compare the three Heliconius erato butterflies at the top and the three Heliconius melpomene butterflies at the bottom, you'll see that when a species has a wide range of territory, the same species can look quite different from place to place.",
       "captions": [
         {
@@ -147,7 +147,7 @@
     {
       "id": "about-butterflies",
       "title": "About butterflies",
-      "image": "assets/post/POST06PU.png",
+      "image": "assets/post/POST06PU.webp",
       "text": "Butterflies (and moths) aren't born with wings. They all start out as eggs, then develop into caterpillars, rest as chrysalises while changing into their final forms, and then emerge in all their winged glory. What a magic act!",
       "captions": [
         {
@@ -175,7 +175,7 @@
     {
       "id": "fearsome-flowers",
       "title": "Fearsome flowers",
-      "image": "assets/post/POST07PU.png",
+      "image": "assets/post/POST07PU.webp",
       "text": "If you're a predatory insect or spider, a flower is a good place to hide and wait for prey. It's even more helpful if you look like a flower, as these creatures do. Then you can just sit still and wait for an unsuspecting butterfly or bee to happen by.",
       "captions": [
         {
@@ -191,7 +191,7 @@
     {
       "id": "spiny-advantages",
       "title": "Spiny advantages",
-      "image": "assets/post/POST08PU.png",
+      "image": "assets/post/POST08PU.webp",
       "text": "It's rather obvious why animals would want spines for self-defense. What predator would want to bite prickly creatures like these?",
       "captions": [
         {
@@ -213,7 +213,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/post/POST00AA.png",
+        "image": "assets/post/POST00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -298,44 +298,44 @@
         ]
       },
       "poisoned-passion": {
-        "image": "assets/post/POST01PU.png",
+        "image": "assets/post/POST01PU.webp",
         "back": "main"
       },
       "bright-butterflies": {
-        "image": "assets/post/POST02PU.png",
+        "image": "assets/post/POST02PU.webp",
         "back": "main"
       },
       "uncuddly-cousin": {
-        "image": "assets/post/POST03PU.png",
+        "image": "assets/post/POST03PU.webp",
         "back": "main"
       },
       "tropical-creepers": {
-        "image": "assets/post/POST04PU.png",
+        "image": "assets/post/POST04PU.webp",
         "back": "main"
       },
       "variety-is-the-spice-of-life": {
-        "image": "assets/post/POST05PU.png",
+        "image": "assets/post/POST05PU.webp",
         "back": "main"
       },
       "about-butterflies": {
-        "image": "assets/post/POST06PU.png",
+        "image": "assets/post/POST06PU.webp",
         "back": "main"
       },
       "fearsome-flowers": {
-        "image": "assets/post/POST07PU.png",
+        "image": "assets/post/POST07PU.webp",
         "back": "main"
       },
       "spiny-advantages": {
-        "image": "assets/post/POST08PU.png",
+        "image": "assets/post/POST08PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/post/POST00FB.png",
+        "image": "assets/post/POST00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/post/clip.mp4",
-        "poster": "assets/post/POST09TV.png",
+        "poster": "assets/post/POST09TV.webp",
         "back": "main"
       }
     }
@@ -348,7 +348,7 @@
   "video": {
     "title": "Caterpillar defense",
     "src": "assets/post/clip.mp4",
-    "poster": "assets/post/POST09TV.png",
+    "poster": "assets/post/POST09TV.webp",
     "caption": "From bristling with sharp spines, to blending into their surroundings, to pretending to be something else, caterpillars use all kinds of tricks to keep from being eaten."
   }
 }

@@ -16,7 +16,7 @@
     "Australia & Oceania"
   ],
   "hero": {
-    "image": "assets/tasm/TASM00AA.png",
+    "image": "assets/tasm/TASM00AA.webp",
     "alt": "Tasmanian Devil"
   },
   "intro": "It's black. It hunts at night. It eats dead animals. And it can make an unbelievable amount of noise–growling, hissing, and screeching–when it's cornered. For these reasons, early settlers to the island of Tasmania named this scrappy little carnivore the Tasmanian \"devil.\"",
@@ -51,13 +51,13 @@
     {
       "id": "extinct-relative",
       "title": "Extinct relative",
-      "image": "assets/tasm/TASM01PU.png",
+      "image": "assets/tasm/TASM01PU.webp",
       "text": "New Guinea and Australia are home to most of the few meat-eating marsupials on earth. Today, the Tasmanian devil is the largest animal in this group. But until the 1930s, this animal, called the thylacine or Tasmanian wolf, held that title. These unusual animals once roamed over mainland Australia and its island of Tasmania. Sadly, they were wiped out by settlers who considered them a threat to livestock, and nobody will ever see a living thylacine again."
     },
     {
       "id": "danger-down-under",
       "title": "Danger down under",
-      "image": "assets/tasm/TASM02PU.png",
+      "image": "assets/tasm/TASM02PU.webp",
       "text": "Australia can be a dangerous place–it has a greater percentage of venomous animals than any other place on earth, as well as wild dogs, giant monitor lizards, and saltwater crocodiles just waiting to snap up whatever they can. Even so, most of these animals are a threat only to other animals, and Australians safely walk around in the bush every day.",
       "captions": [
         {
@@ -81,7 +81,7 @@
     {
       "id": "wheres-tasmania",
       "title": "Where's Tasmania?",
-      "image": "assets/tasm/TASM03PU.png",
+      "image": "assets/tasm/TASM03PU.webp",
       "text": "The island of Tasmania belongs to Australia but is separated from the mainland by the Bass Strait. Millions of years ago, Tasmania was connected to main-land Australia–that's why many of the same kinds of animals live both in mainland Australia and on the island of Tasmania.",
       "captions": [
         {
@@ -97,7 +97,7 @@
     {
       "id": "unusual-creatures",
       "title": "Unusual creatures",
-      "image": "assets/tasm/TASM04PU.png",
+      "image": "assets/tasm/TASM04PU.webp",
       "text": "Australia and New Guinea are famous for their odd mammals. Island animals don't evolve as quickly as animals that live on larger continents, so it's not unusual to find a large percentage of primitive animals on islands. Australia and New Guinea have remarkable concentrations of marsupials—pouched mammals—and monotremes—egg-laying mammals.",
       "captions": [
         {
@@ -113,7 +113,7 @@
     {
       "id": "small-but-feisty",
       "title": "Small but feisty",
-      "image": "assets/tasm/TASM05PU.png",
+      "image": "assets/tasm/TASM05PU.webp",
       "text": "Whether they deserve it or not, Tasmanian devils have the reputation of being ferocious little fighters. Here are two other small animals that have the same claim to fame.",
       "captions": [
         {
@@ -131,7 +131,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/tasm/TASM00AA.png",
+        "image": "assets/tasm/TASM00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -192,32 +192,32 @@
         ]
       },
       "extinct-relative": {
-        "image": "assets/tasm/TASM01PU.png",
+        "image": "assets/tasm/TASM01PU.webp",
         "back": "main"
       },
       "danger-down-under": {
-        "image": "assets/tasm/TASM02PU.png",
+        "image": "assets/tasm/TASM02PU.webp",
         "back": "main"
       },
       "wheres-tasmania": {
-        "image": "assets/tasm/TASM03PU.png",
+        "image": "assets/tasm/TASM03PU.webp",
         "back": "main"
       },
       "unusual-creatures": {
-        "image": "assets/tasm/TASM04PU.png",
+        "image": "assets/tasm/TASM04PU.webp",
         "back": "main"
       },
       "small-but-feisty": {
-        "image": "assets/tasm/TASM05PU.png",
+        "image": "assets/tasm/TASM05PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/tasm/TASM00FB.png",
+        "image": "assets/tasm/TASM00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/tasm/clip.mp4",
-        "poster": "assets/tasm/TASM06TV.png",
+        "poster": "assets/tasm/TASM06TV.webp",
         "back": "main"
       }
     }
@@ -230,7 +230,7 @@
   "video": {
     "title": "Devils in the forest",
     "src": "assets/tasm/clip.mp4",
-    "poster": "assets/tasm/TASM06TV.png",
+    "poster": "assets/tasm/TASM06TV.webp",
     "caption": "Tasmanian devils are reputed to be fierce hunters that tackle animals many times their size. In reality, these shy nocturnal creatures prefer eating carrion to hunting for live prey. It is true that these feisty little marsupials can crunch through flesh, skin, hair, and even most bones. When a Tasmanian devil is through with a carcass, only the biggest bones–like the shoulderblades and skull–remain uneaten."
   }
 }

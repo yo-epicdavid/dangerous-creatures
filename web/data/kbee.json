@@ -20,7 +20,7 @@
     "South America"
   ],
   "hero": {
-    "image": "assets/kbee/KBEE00AA.png",
+    "image": "assets/kbee/KBEE00AA.webp",
     "alt": "Killer Bee"
   },
   "intro": "The killer bee story began in the 1950s when a Brazilian scientist wanted to breed honeybees for tropical climates. He knew that African honeybees were aggressive but produced honey well under hot conditions. So he decided to cross African bees with gentle European bees in hopes of producing a hybrid bee that would happily produce honey in South America. His experiment was partially successful: the hybrid bees produced more honey, but they also stung their keepers ferociously. Then these \"killer bees\" escaped into the wild and began spreading north.",
@@ -55,7 +55,7 @@
     {
       "id": "family-tree",
       "title": "Family tree",
-      "image": "assets/kbee/KBEE01PU.png",
+      "image": "assets/kbee/KBEE01PU.webp",
       "text": "Do you know that a bee is actually a kind of wasp? When flowering plants first showed up 100 million years ago, some hunting wasps decided to give up the sporting life and live on pollen and nectar. These vegetarian wasps were the first bees.",
       "captions": [
         {
@@ -71,7 +71,7 @@
     {
       "id": "swarm-harm",
       "title": "Swarm harm",
-      "image": "assets/kbee/KBEE02PU.png",
+      "image": "assets/kbee/KBEE02PU.webp",
       "text": "A killer bee's venom is no stronger than that of a regular honeybee, but killer bees are a lot more likely to sting. You can't tell killer bees from their European cousins by looking at them, so stay away from any hive, just to be sure.",
       "captions": [
         {
@@ -87,13 +87,13 @@
     {
       "id": "sweet-treat",
       "title": "Sweet treat",
-      "image": "assets/kbee/KBEE03PU.png",
+      "image": "assets/kbee/KBEE03PU.webp",
       "text": "Do you find it strange to think of a bee as a domestic animal? It is, though. The first people who kept honey-producing bees in manmade hives lived more than 3,000 years ago!"
     },
     {
       "id": "danger-in-the-flowers",
       "title": "Danger in the flowers",
-      "image": "assets/kbee/KBEE04PU.png",
+      "image": "assets/kbee/KBEE04PU.webp",
       "text": "In Africa, bees have lots of enemies—which may be why African bees are so aggressive. Birds, lizards, frogs, other insects, and even some mammals love to prey on bees! The European honeybees raised by most beekeepers have fewer enemies, so they can afford to be more mellow. Still, a foraging bee has got to keep its guard up if it wants to return safely to its nest.",
       "captions": [
         {
@@ -109,7 +109,7 @@
     {
       "id": "bee-business",
       "title": "Bee business",
-      "image": "assets/kbee/KBEE05PU.png",
+      "image": "assets/kbee/KBEE05PU.webp",
       "text": "Bees are the world's number-one pollinators. A bee gets dusted with golden pollen as it visits flowers in search of sugary, high-energy nectar. When the insect goes to another plant, some of that pollen rubs off inside the flower, fertilizing the second plant. Here are some other animals whose flower-visiting habits help pollinate plants.",
       "captions": [
         {
@@ -129,7 +129,7 @@
     {
       "id": "special-signals",
       "title": "Special signals",
-      "image": "assets/kbee/KBEE06PU.png",
+      "image": "assets/kbee/KBEE06PU.webp",
       "text": "Since plants are more or less stuck in one place, some rely on bees and other animals to carry plant reproductive materials—that is, pollen—between them. Plants have therefore evolved all sorts of ways to attract animals (mostly insects) to them.",
       "captions": [
         {
@@ -147,7 +147,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/kbee/KBEE00AA.png",
+        "image": "assets/kbee/KBEE00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -216,36 +216,36 @@
         ]
       },
       "family-tree": {
-        "image": "assets/kbee/KBEE01PU.png",
+        "image": "assets/kbee/KBEE01PU.webp",
         "back": "main"
       },
       "swarm-harm": {
-        "image": "assets/kbee/KBEE02PU.png",
+        "image": "assets/kbee/KBEE02PU.webp",
         "back": "main"
       },
       "sweet-treat": {
-        "image": "assets/kbee/KBEE03PU.png",
+        "image": "assets/kbee/KBEE03PU.webp",
         "back": "main"
       },
       "danger-in-the-flowers": {
-        "image": "assets/kbee/KBEE04PU.png",
+        "image": "assets/kbee/KBEE04PU.webp",
         "back": "main"
       },
       "bee-business": {
-        "image": "assets/kbee/KBEE05PU.png",
+        "image": "assets/kbee/KBEE05PU.webp",
         "back": "main"
       },
       "special-signals": {
-        "image": "assets/kbee/KBEE06PU.png",
+        "image": "assets/kbee/KBEE06PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/kbee/KBEE00FB.png",
+        "image": "assets/kbee/KBEE00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/kbee/clip.mp4",
-        "poster": "assets/kbee/KBEE07TV.png",
+        "poster": "assets/kbee/KBEE07TV.webp",
         "back": "main"
       }
     }
@@ -258,7 +258,7 @@
   "video": {
     "title": "Too defensive!",
     "src": "assets/kbee/clip.mp4",
-    "poster": "assets/kbee/KBEE07TV.png",
+    "poster": "assets/kbee/KBEE07TV.webp",
     "caption": "Most honeybees aren't very happy in steamy, wet weather. The African honeybees from which killer bees are descended evolved in a hot climate, and they don't mind high temperatures. That's why scientists thought they'd be good bees to have in tropical Brazil but it hasn't worked out that way. Killer bees are too quick to attack when anyone approaches their nest."
   }
 }

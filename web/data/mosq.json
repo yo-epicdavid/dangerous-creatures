@@ -16,7 +16,7 @@
     "Worldwide"
   ],
   "hero": {
-    "image": "assets/mosq/MOSQ00AA.png",
+    "image": "assets/mosq/MOSQ00AA.webp",
     "alt": "Mosquito"
   },
   "intro": "Mosquitoes spread disease among people and animals all over the world. Any body of still water can serve as a breeding ground for these insects. Most of the time, mosquitoes don't drink anything more sinister than nectar, but the females need a meal of blood in order to produce eggs. That's where the danger lies: a mosquito who's sipped infected blood transmits disease to the next creature she attacks.",
@@ -51,7 +51,7 @@
     {
       "id": "flying-dragon",
       "title": "Flying dragon",
-      "image": "assets/mosq/MOSQ01PU.png",
+      "image": "assets/mosq/MOSQ01PU.webp",
       "text": "Mosquitoes have a lifelong dread of dragonflies. While they're both still young, dragonfly nymphs hunt mosquito larvae in the water. Later, when both are grown up and able to fly, dragonflies consider a mosquito on the wing a perfect in-flight meal!",
       "captions": [
         {
@@ -63,7 +63,7 @@
     {
       "id": "mosquito-menaces",
       "title": "Mosquito menaces",
-      "image": "assets/mosq/MOSQ02PU.png",
+      "image": "assets/mosq/MOSQ02PU.webp",
       "text": "Mosquitoes may be tiny, but they have great importance in the food web. Many aquatic animals feed on mosquito larvae, which live in still water. Frogs, toads, lizards, birds, bats, and other insects eat the adults as well.",
       "captions": [
         {
@@ -75,7 +75,7 @@
     {
       "id": "in-your-blood",
       "title": "In your blood",
-      "image": "assets/mosq/MOSQ03PU.png",
+      "image": "assets/mosq/MOSQ03PU.webp",
       "text": "There are about 100 diseases that mosquitoes can spread among people and animals. Fortunately, we can prevent or treat most of these diseases, which occur mainly in the tropics.",
       "captions": [
         {
@@ -87,7 +87,7 @@
     {
       "id": "disease-spreaders",
       "title": "Disease spreaders",
-      "image": "assets/mosq/MOSQ04PU.png",
+      "image": "assets/mosq/MOSQ04PU.webp",
       "text": "Plenty of insects besides mosquitoes can be a source of disease and infection among humans and other animals. Here are a couple.",
       "captions": [
         {
@@ -103,7 +103,7 @@
     {
       "id": "pest-control",
       "title": "Pest control",
-      "image": "assets/mosq/MOSQ05PU.png",
+      "image": "assets/mosq/MOSQ05PU.webp",
       "text": "Pesticides, which humans use on plants, tend to wipe out all insects. But many insects are beneficial to humans, and we should protect them instead of kill them.",
       "captions": [
         {
@@ -119,7 +119,7 @@
     {
       "id": "strength-in-numbers",
       "title": "Strength in numbers",
-      "image": "assets/mosq/MOSQ06PU.png",
+      "image": "assets/mosq/MOSQ06PU.webp",
       "text": "One insect is a small creature. But when certain insects get together, the amount of trouble they cause is very large! It takes big money to fix the damage that these two cause every year.",
       "captions": [
         {
@@ -141,7 +141,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/mosq/MOSQ00AA.png",
+        "image": "assets/mosq/MOSQ00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -210,36 +210,36 @@
         ]
       },
       "flying-dragon": {
-        "image": "assets/mosq/MOSQ01PU.png",
+        "image": "assets/mosq/MOSQ01PU.webp",
         "back": "main"
       },
       "mosquito-menaces": {
-        "image": "assets/mosq/MOSQ02PU.png",
+        "image": "assets/mosq/MOSQ02PU.webp",
         "back": "main"
       },
       "in-your-blood": {
-        "image": "assets/mosq/MOSQ03PU.png",
+        "image": "assets/mosq/MOSQ03PU.webp",
         "back": "main"
       },
       "disease-spreaders": {
-        "image": "assets/mosq/MOSQ04PU.png",
+        "image": "assets/mosq/MOSQ04PU.webp",
         "back": "main"
       },
       "pest-control": {
-        "image": "assets/mosq/MOSQ05PU.png",
+        "image": "assets/mosq/MOSQ05PU.webp",
         "back": "main"
       },
       "strength-in-numbers": {
-        "image": "assets/mosq/MOSQ06PU.png",
+        "image": "assets/mosq/MOSQ06PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/mosq/MOSQ00FB.png",
+        "image": "assets/mosq/MOSQ00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/mosq/clip.mp4",
-        "poster": "assets/mosq/MOSQ07TV.png",
+        "poster": "assets/mosq/MOSQ07TV.webp",
         "back": "main"
       }
     }
@@ -252,7 +252,7 @@
   "video": {
     "title": "Blood for the babies",
     "src": "assets/mosq/clip.mp4",
-    "poster": "assets/mosq/MOSQ07TV.png",
+    "poster": "assets/mosq/MOSQ07TV.webp",
     "caption": "A female mosquito normally drinks plant juices, but she needs a meal of blood to produce eggs. She deposits her eggs on the surface of a pool of still water. After hatching, the mosquito larvae (shown below) are able to swim, but spend most of their time hanging upside down from the surface, breathing through tubes that extend out from their abdomens."
   }
 }

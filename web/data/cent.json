@@ -22,7 +22,7 @@
     "South America"
   ],
   "hero": {
-    "image": "assets/cent/CENT00AA.png",
+    "image": "assets/cent/CENT00AA.webp",
     "alt": "Centipede"
   },
   "intro": "A centipede is a terrifying sight to a spider or an insect. The victim would see a many-legged predator rushing toward it. It would stare at a four-eyed face on top of huge fanglike claws. The unfortunate prey might realize that the centipede's bright colors were a warning of venom—just before those claws injected it with paralyzing venom.",
@@ -57,7 +57,7 @@
     {
       "id": "fearsome-fangs",
       "title": "Fearsome fangs",
-      "image": "assets/cent/CENT01PU.png",
+      "image": "assets/cent/CENT01PU.webp",
       "text": "Centipedes have a pair of specially adapted legs next to their heads. These legs—sometimes called \"claws\" or \"fangs\"—are hollow and are connected to venom glands. Centipedes use these \"claw-fangs\" to inject venom into their prey and to hold it while they eat.",
       "captions": [
         {
@@ -69,13 +69,13 @@
     {
       "id": "lots-of-legs",
       "title": "Lots of legs",
-      "image": "assets/cent/CENT02PU.png",
+      "image": "assets/cent/CENT02PU.webp",
       "text": "Just because an animal has lots of legs doesn't mean that it's a centipede. This creature is a king ragworm, a type of segmented worm that lives in saltwater. The fringe-like appendages at its sides are not true legs—the worm paddles with them and even breathes through them!"
     },
     {
       "id": "moonlight-marauder",
       "title": "Moonlight marauder",
-      "image": "assets/cent/CENT03PU.png",
+      "image": "assets/cent/CENT03PU.webp",
       "text": "Centipedes avoid light—they dry out easily, and strong sunlight would kill them. They spend the day hidden in dark, damp places, under rocks and logs (or in your basement or bathroom). But nightfall transforms the shy animals into fierce hunters that seize spiders, snails, and insects in their venomous claws and tear them into pieces with their mouths.",
       "captions": [
         {
@@ -95,7 +95,7 @@
     {
       "id": "hands-off",
       "title": "Hands off!",
-      "image": "assets/cent/CENT04PU.png",
+      "image": "assets/cent/CENT04PU.webp",
       "text": "Centipedes are not cuddly. When disturbed, their first reaction is to bite, then they run away. Tropical centipedes tend to be large and venomous, and their painful bite could send you to the hospital. But most centipedes' bites are no worse than most bee stings. You should also leave centipedes alone because they eat household and garden pests like cockroaches.",
       "captions": [
         {
@@ -115,13 +115,13 @@
     {
       "id": "warning-stripes",
       "title": "Warning stripes",
-      "image": "assets/cent/CENT05PU.png",
+      "image": "assets/cent/CENT05PU.webp",
       "text": "In the animal world, colorful stripes usually mean \"Don't mess with me! I'm dangerous!\" The pattern on the tiger centipede is one example of this message. Here are a few more creatures that send this signal."
     },
     {
       "id": "rain-forest-creepy-crawler",
       "title": "Rain forest creepy crawler",
-      "image": "assets/cent/CENT06PU.png",
+      "image": "assets/cent/CENT06PU.webp",
       "text": "Although this creature has lots of legs, it's not a centipede. The passion-vine caterpillar, though, has one thing in common with the centipede—it's venomous. This caterpillar eats toxic passionflower leaves that fill it with poison.",
       "captions": [
         {
@@ -135,7 +135,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/cent/CENT00AA.png",
+        "image": "assets/cent/CENT00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -204,36 +204,36 @@
         ]
       },
       "fearsome-fangs": {
-        "image": "assets/cent/CENT01PU.png",
+        "image": "assets/cent/CENT01PU.webp",
         "back": "main"
       },
       "lots-of-legs": {
-        "image": "assets/cent/CENT02PU.png",
+        "image": "assets/cent/CENT02PU.webp",
         "back": "main"
       },
       "moonlight-marauder": {
-        "image": "assets/cent/CENT03PU.png",
+        "image": "assets/cent/CENT03PU.webp",
         "back": "main"
       },
       "hands-off": {
-        "image": "assets/cent/CENT04PU.png",
+        "image": "assets/cent/CENT04PU.webp",
         "back": "main"
       },
       "warning-stripes": {
-        "image": "assets/cent/CENT05PU.png",
+        "image": "assets/cent/CENT05PU.webp",
         "back": "main"
       },
       "rain-forest-creepy-crawler": {
-        "image": "assets/cent/CENT06PU.png",
+        "image": "assets/cent/CENT06PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/cent/CENT00FB.png",
+        "image": "assets/cent/CENT00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/cent/clip.mp4",
-        "poster": "assets/cent/CENT07TV.png",
+        "poster": "assets/cent/CENT07TV.webp",
         "back": "main"
       }
     }
@@ -246,7 +246,7 @@
   "video": {
     "title": "Millipede or centipede?",
     "src": "assets/cent/clip.mp4",
-    "poster": "assets/cent/CENT07TV.png",
+    "poster": "assets/cent/CENT07TV.webp",
     "caption": "How can you tell the difference between these two types of creatures? Unlike centipedes, millipedes eat plants, so they don't need venomous claws. And centipedes have one pair of legs per body segment, while millipedes have two."
   }
 }

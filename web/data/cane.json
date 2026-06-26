@@ -18,7 +18,7 @@
     "Australia & Oceania"
   ],
   "hero": {
-    "image": "assets/cane/CANE00AA.png",
+    "image": "assets/cane/CANE00AA.webp",
     "alt": "Cane Toad"
   },
   "intro": "If it moves, eat it! That's the rule that most toads live by. When cane beetles started devouring Australia's sugar cane, the people there decided to import cane toads to eat the pests. But rather than controlling the beetles, the toads moved out of the cane fields and ate local frogs, birds, snakes, lizards, and rodents. Instead of being the solution, these dinner-plate-sized toads quickly became another problem.",
@@ -53,7 +53,7 @@
     {
       "id": "oozing-venom",
       "title": "Oozing venom",
-      "image": "assets/cane/CANE01PU.png",
+      "image": "assets/cane/CANE01PU.webp",
       "text": "Not only do these toads eat everything in sight, but nothing else eats them! That's because cane toads have venom-producing glands on their heads. A small animal that bites a cane toad doesn't get a chance to learn from its mistake. The toad puffs itself up so it can't be swallowed and then oozes venom. The animal usually dies while the toad is still in its mouth.",
       "captions": [
         {
@@ -69,7 +69,7 @@
     {
       "id": "which-is-which",
       "title": "Which is which?",
-      "image": "assets/cane/CANE02PU.png",
+      "image": "assets/cane/CANE02PU.webp",
       "text": "Can you tell a frog from a toad? Even experts have trouble. Here are some clues that will help you sort out these mysterious amphibians.",
       "captions": [
         {
@@ -93,7 +93,7 @@
     {
       "id": "life-is-full-of-changes",
       "title": "Life is full of changes",
-      "image": "assets/cane/CANE03PU.png",
+      "image": "assets/cane/CANE03PU.webp",
       "text": "Like all amphibians, frogs and toads start life in the water. They then go through a lot of changes before they become adults.",
       "captions": [
         {
@@ -117,7 +117,7 @@
     {
       "id": "fast-food",
       "title": "Fast food",
-      "image": "assets/cane/CANE04PU.png",
+      "image": "assets/cane/CANE04PU.webp",
       "text": "Many amphibians are slow movers. But if they see something tasty crawling by, they can react in the blink of an eye.",
       "captions": [
         {
@@ -137,13 +137,13 @@
     {
       "id": "protected-warts",
       "title": "Protected warts",
-      "image": "assets/cane/CANE05PU.png",
+      "image": "assets/cane/CANE05PU.webp",
       "text": "This natterjack toad is in danger of disappearing, so it has been declared a protected species in Great Britain. Toads, like all amphibians, absorb oxygen and other elements through their skin as well as by breathing air through their lungs. This makes them particularly sensitive to pollution. Sadly, amphibians are rapidly disappearing all around the world."
     },
     {
       "id": "freight-on-board",
       "title": "Freight on board",
-      "image": "assets/cane/CANE06PU.png",
+      "image": "assets/cane/CANE06PU.webp",
       "text": "It's a tough world out there for tadpoles. Many are on their own from the moment they hatch, and if there's an adult frog or toad around, it's likely to eat them rather than take care of them. But a few frogs and toads are protective parents.",
       "captions": [
         {
@@ -159,7 +159,7 @@
     {
       "id": "you-dont-scare-me",
       "title": "You don't scare me!",
-      "image": "assets/cane/CANE07PU.png",
+      "image": "assets/cane/CANE07PU.webp",
       "text": "Toads taste terrible, and many are poisonous. But that can't stop animals from attacking them. So toads often try to bluff their way past a predator.",
       "captions": [
         {
@@ -175,7 +175,7 @@
     {
       "id": "steel-jaws",
       "title": "Steel jaws",
-      "image": "assets/cane/CANE08PU.png",
+      "image": "assets/cane/CANE08PU.webp",
       "text": "All amphibians have voracious appetites. Most will eat anything they can catch–including each other!",
       "captions": [
         {
@@ -193,7 +193,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/cane/CANE00AA.png",
+        "image": "assets/cane/CANE00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -278,44 +278,44 @@
         ]
       },
       "oozing-venom": {
-        "image": "assets/cane/CANE01PU.png",
+        "image": "assets/cane/CANE01PU.webp",
         "back": "main"
       },
       "which-is-which": {
-        "image": "assets/cane/CANE02PU.png",
+        "image": "assets/cane/CANE02PU.webp",
         "back": "main"
       },
       "life-is-full-of-changes": {
-        "image": "assets/cane/CANE03PU.png",
+        "image": "assets/cane/CANE03PU.webp",
         "back": "main"
       },
       "fast-food": {
-        "image": "assets/cane/CANE04PU.png",
+        "image": "assets/cane/CANE04PU.webp",
         "back": "main"
       },
       "protected-warts": {
-        "image": "assets/cane/CANE05PU.png",
+        "image": "assets/cane/CANE05PU.webp",
         "back": "main"
       },
       "freight-on-board": {
-        "image": "assets/cane/CANE06PU.png",
+        "image": "assets/cane/CANE06PU.webp",
         "back": "main"
       },
       "you-dont-scare-me": {
-        "image": "assets/cane/CANE07PU.png",
+        "image": "assets/cane/CANE07PU.webp",
         "back": "main"
       },
       "steel-jaws": {
-        "image": "assets/cane/CANE08PU.png",
+        "image": "assets/cane/CANE08PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/cane/CANE00FB.png",
+        "image": "assets/cane/CANE00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/cane/clip.mp4",
-        "poster": "assets/cane/CANE09TV.png",
+        "poster": "assets/cane/CANE09TV.webp",
         "back": "main"
       }
     }
@@ -328,7 +328,7 @@
   "video": {
     "title": "How to bluff",
     "src": "assets/cane/clip.mp4",
-    "poster": "assets/cane/CANE09TV.png",
+    "poster": "assets/cane/CANE09TV.webp",
     "caption": "If you were a small animal that needed to scare off a potential attacker, you'd make yourself look as big and mean as you could. If you had weapons like teeth or claws, you could show them to your opponent. But if you were a weaponless frog, you'd have to rely on bluffing."
   }
 }

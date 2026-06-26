@@ -46,7 +46,7 @@ def main():
             "title": title,
             "host": HOST_NAME.get(m["host"], m["host"]),
             "intro": md.get("intro", ""),
-            "art": m["art"],
+            "art": m["art"].replace(".png", ".webp"),
             "narration": m["narration"],
             "stepCount": m["stepCount"],
         }

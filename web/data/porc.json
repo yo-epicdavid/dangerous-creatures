@@ -15,7 +15,7 @@
     "Oceans & Seas"
   ],
   "hero": {
-    "image": "assets/porc/PORC00AA.png",
+    "image": "assets/porc/PORC00AA.webp",
     "alt": "Porcupine Fish"
   },
   "intro": "Is a soccer ball covered with spikes something you'd choose to bite? Porcupine fish are guessing that you'd say \"no,\" and they're betting that a big fish would also turn down the chance to make them into a meal. There are several different kinds of porcupine fish, and all of them—along with their relatives, the pufferfish—have the amazing ability to suddenly transform themselves into spiky balloons.",
@@ -50,7 +50,7 @@
     {
       "id": "impressive-inflation",
       "title": "Impressive inflation",
-      "image": "assets/porc/PORC01PU.png",
+      "image": "assets/porc/PORC01PU.webp",
       "text": "Porcupine fish suck in water to puff themselves up. It's hard for a spiky ball to move through the water, though, so these fish only perform this inflating trick when they think that something's going to eat them. The rest of the time they swim around looking much like other fish.",
       "captions": [
         {
@@ -66,7 +66,7 @@
     {
       "id": "poisonous-puffers",
       "title": "Poisonous puffers",
-      "image": "assets/porc/PORC02PU.png",
+      "image": "assets/porc/PORC02PU.webp",
       "text": "Relatives of porcupine fish, all kinds of pufferfish can also inflate themselves. Some parts of pufferfish are very poisonous to eat. In Japan, where these fish are served as an expensive delicacy called fugu, several people have died after eating pufferfish. One type of pufferfish is even known as the \"death puffer.\"",
       "captions": [
         {
@@ -82,7 +82,7 @@
     {
       "id": "life-in-a-box",
       "title": "Life in a box",
-      "image": "assets/porc/PORC03PU.png",
+      "image": "assets/porc/PORC03PU.webp",
       "text": "Porcupine fish are odd-looking fish, but the marine world is full of strange shapes and patterns. Boxfish wear body armor made of bony plates adorned with spikes. Some types are called cowfish because they have two prominent spikes on their heads, like horns. If the armor and spikes don't scare away predators, these fish can also ooze venom to make an attacker spit them out.",
       "captions": [
         {
@@ -98,7 +98,7 @@
     {
       "id": "balls-of-spines",
       "title": "Balls of spines",
-      "image": "assets/porc/PORC04PU.png",
+      "image": "assets/porc/PORC04PU.webp",
       "text": "The whole idea of wearing spikes to protect against predators started back in dinosaur times, and many animals still use it today. Here are a few prickly customers that most hunters wouldn't think of attacking.",
       "captions": [
         {
@@ -114,7 +114,7 @@
     {
       "id": "spiky-stars",
       "title": "Spiky stars",
-      "image": "assets/porc/PORC05PU.png",
+      "image": "assets/porc/PORC05PU.webp",
       "text": "These spiky starfish are skillful marine predators. They crawl over the ocean floor on their tiny tube feet, hunting for shellfish to eat. Like porcupine fish, they wear spines to discourage bigger hunters from making a mouthful out of them.",
       "captions": [
         {
@@ -136,7 +136,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/porc/PORC00AA.png",
+        "image": "assets/porc/PORC00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -197,32 +197,32 @@
         ]
       },
       "impressive-inflation": {
-        "image": "assets/porc/PORC01PU.png",
+        "image": "assets/porc/PORC01PU.webp",
         "back": "main"
       },
       "poisonous-puffers": {
-        "image": "assets/porc/PORC02PU.png",
+        "image": "assets/porc/PORC02PU.webp",
         "back": "main"
       },
       "life-in-a-box": {
-        "image": "assets/porc/PORC03PU.png",
+        "image": "assets/porc/PORC03PU.webp",
         "back": "main"
       },
       "balls-of-spines": {
-        "image": "assets/porc/PORC04PU.png",
+        "image": "assets/porc/PORC04PU.webp",
         "back": "main"
       },
       "spiky-stars": {
-        "image": "assets/porc/PORC05PU.png",
+        "image": "assets/porc/PORC05PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/porc/PORC00FB.png",
+        "image": "assets/porc/PORC00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/porc/clip.mp4",
-        "poster": "assets/porc/PORC06TV.png",
+        "poster": "assets/porc/PORC06TV.webp",
         "back": "main"
       }
     }
@@ -235,7 +235,7 @@
   "video": {
     "title": "Which end is which?",
     "src": "assets/porc/clip.mp4",
-    "poster": "assets/porc/PORC06TV.png",
+    "poster": "assets/porc/PORC06TV.webp",
     "caption": "When a pufferfish is fully inflated, it's hard to tell that it's a fish at all. Where are its mouth, its fins, or its tail? It's just a ball of spikes! Of course, that's the whole idea—a predator approaches what it thinks is a juicy fish, and poof, the pufferfish turns into a prickly balloon instead."
   }
 }

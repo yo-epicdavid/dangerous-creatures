@@ -151,7 +151,7 @@ def main():
         for h in habitats:
             habitats_map.setdefault(h, []).append(slug)
         quiz_rows.append({
-            "id": slug, "name": d["name"], "thumb": asset(slug, main_stem + ".png"),
+            "id": slug, "name": d["name"], "thumb": asset(slug, main_stem + ".webp"),
             "weapons": weapons, "habitats": habitats, "regions": regions,
             "diet": factmap.get("Favorite meals", ""), "kill": factmap.get("How it kills", ""),
         })
@@ -160,7 +160,7 @@ def main():
         for t in d.get("topics", []):
             topic = {
                 "id": t["id"], "title": t["title"],
-                "image": asset(slug, t["screen"] + ".png"),
+                "image": asset(slug, t["screen"] + ".webp"),
                 "text": t["text"],
             }
             if t.get("captions"):
@@ -172,19 +172,19 @@ def main():
             video = {
                 "title": d.get("video", {}).get("title", "Watch"),
                 "src": asset(slug, "clip.mp4"),
-                "poster": asset(slug, (tv_stem or main_stem) + ".png"),
+                "poster": asset(slug, (tv_stem or main_stem) + ".webp"),
                 "caption": d.get("video", {}).get("caption", ""),
             }
 
         # classic mode graph
-        screens = {"main": {"image": asset(slug, main_stem + ".png"), "hotspots": []}}
+        screens = {"main": {"image": asset(slug, main_stem + ".webp"), "hotspots": []}}
         for t in d.get("topics", []):
-            screens[t["id"]] = {"image": asset(slug, t["screen"] + ".png"), "back": "main"}
+            screens[t["id"]] = {"image": asset(slug, t["screen"] + ".webp"), "back": "main"}
         if fb_stem:
-            screens["facts"] = {"image": asset(slug, fb_stem + ".png"), "back": "main"}
+            screens["facts"] = {"image": asset(slug, fb_stem + ".webp"), "back": "main"}
         if has_video:
             screens["video"] = {"video": asset(slug, "clip.mp4"),
-                                "poster": asset(slug, (tv_stem or main_stem) + ".png"), "back": "main"}
+                                "poster": asset(slug, (tv_stem or main_stem) + ".webp"), "back": "main"}
 
         # resolve main-screen hotspots: local screen | cross-animal link | disabled
         local = set(screens.keys())
@@ -230,7 +230,7 @@ def main():
             "weapons": weapons,
             "habitats": habitats,
             "regions": regions,
-            "hero": {"image": asset(slug, main_stem + ".png"), "alt": d["name"]},
+            "hero": {"image": asset(slug, main_stem + ".webp"), "alt": d["name"]},
             "intro": d.get("intro", ""),
             "facts": facts,
             "topics": topics,
@@ -253,7 +253,7 @@ def main():
 
         # thumbnail = the main article portrait (00AA), which always shows the
         # actual animal. The video still (TV) often depicts prey or a rival.
-        thumb = asset(slug, main_stem + ".png")
+        thumb = asset(slug, main_stem + ".webp")
         index.append({"id": slug, "name": d["name"], "thumb": thumb})
 
     if os.environ.get("SKIP_INDEX") != "1":

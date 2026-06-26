@@ -17,7 +17,7 @@
     "South America"
   ],
   "hero": {
-    "image": "assets/jagu/JAGU00AA.png",
+    "image": "assets/jagu/JAGU00AA.webp",
     "alt": "Jaguar"
   },
   "intro": "Reports of jaguars trailing people through the jungle have been recorded for centuries. Imagine hearing a rustle of underbrush and turning to see a pair of fierce yellow eyes fixed on you! But instead of attacking the people, all these jaguars did was frighten them, and then vanish. Experts think that when the big cats act like this, they may be simply escorting the human intruders out of the jaguars' territory.",
@@ -52,7 +52,7 @@
     {
       "id": "spots-before-your-eyes",
       "title": "Spots before your eyes",
-      "image": "assets/jagu/JAGU01PU.png",
+      "image": "assets/jagu/JAGU01PU.webp",
       "text": "Can you tell these spotted cats apart? Look closely at their fur. Although they're all spotted, their spots are all different.",
       "captions": [
         {
@@ -76,19 +76,19 @@
     {
       "id": "hiding-out",
       "title": "Hiding out",
-      "image": "assets/jagu/JAGU02PU.png",
+      "image": "assets/jagu/JAGU02PU.webp",
       "text": "Ever notice the patterns of light and shade in a forest? That's why it's hard to see spotted forest cats–an alternating pattern of light and dark patches breaks up the shapes of the animals, so that they blend into the environment. This jaguar is neatly camouflaged. As long as it stays still, another animal might not even notice it."
     },
     {
       "id": "super-jock",
       "title": "Super jock",
-      "image": "assets/jagu/JAGU03PU.png",
+      "image": "assets/jagu/JAGU03PU.webp",
       "text": "Like all hunting cats, jaguars are great climbers and jumpers. They like to lie in ambush in the bushes. Another favorite jaguar hunting technique is to scale tall trees that overhang paths and then leap down onto animals passing below. Imagine seeing this cat jumping down on you!"
     },
     {
       "id": "on-the-menu",
       "title": "On the menu",
-      "image": "assets/jagu/JAGU04PU.png",
+      "image": "assets/jagu/JAGU04PU.webp",
       "text": "A jaguar needs a lot of meat to power its muscular body. It will eat many types of animals (including the ones shown here), and it's famous for its hunting techiques.",
       "captions": [
         {
@@ -108,13 +108,13 @@
     {
       "id": "another-jungle-cat",
       "title": "Another jungle cat",
-      "image": "assets/jagu/JAGU05PU.png",
+      "image": "assets/jagu/JAGU05PU.webp",
       "text": "A jaguar might meet an ocelot–they both roam through the forests and scrublands of Central America. But the ocelot would rather avoid this meeting with its cousin. An average ocelot weighs only a fraction of what a jaguar does, but it's still enough to make a good size meal for its bigger cousin!"
     },
     {
       "id": "art-object",
       "title": "Art object",
-      "image": "assets/jagu/JAGU06PU.png",
+      "image": "assets/jagu/JAGU06PU.webp",
       "text": "Cultures throughout history have honored big cats as symbols of strength and intelligence. Cats appear in paintings, statues, and carvings all over the world.",
       "captions": [
         {
@@ -128,7 +128,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/jagu/JAGU00AA.png",
+        "image": "assets/jagu/JAGU00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -197,36 +197,36 @@
         ]
       },
       "spots-before-your-eyes": {
-        "image": "assets/jagu/JAGU01PU.png",
+        "image": "assets/jagu/JAGU01PU.webp",
         "back": "main"
       },
       "hiding-out": {
-        "image": "assets/jagu/JAGU02PU.png",
+        "image": "assets/jagu/JAGU02PU.webp",
         "back": "main"
       },
       "super-jock": {
-        "image": "assets/jagu/JAGU03PU.png",
+        "image": "assets/jagu/JAGU03PU.webp",
         "back": "main"
       },
       "on-the-menu": {
-        "image": "assets/jagu/JAGU04PU.png",
+        "image": "assets/jagu/JAGU04PU.webp",
         "back": "main"
       },
       "another-jungle-cat": {
-        "image": "assets/jagu/JAGU05PU.png",
+        "image": "assets/jagu/JAGU05PU.webp",
         "back": "main"
       },
       "art-object": {
-        "image": "assets/jagu/JAGU06PU.png",
+        "image": "assets/jagu/JAGU06PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/jagu/JAGU00FB.png",
+        "image": "assets/jagu/JAGU00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/jagu/clip.mp4",
-        "poster": "assets/jagu/JAGU07TV.png",
+        "poster": "assets/jagu/JAGU07TV.webp",
         "back": "main"
       }
     }
@@ -239,7 +239,7 @@
   "video": {
     "title": "Loner",
     "src": "assets/jagu/clip.mp4",
-    "poster": "assets/jagu/JAGU07TV.png",
+    "poster": "assets/jagu/JAGU07TV.webp",
     "caption": "Jaguars spend their days alone, prowling through the forests. Felines of all sizes are exceptional hunters: that's why they can survive on their own. Except for lions, which live and hunt in groups, and for mothers accompanied by their young, most cats lead solitary lives."
   }
 }

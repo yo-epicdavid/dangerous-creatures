@@ -17,7 +17,7 @@
     "Asia"
   ],
   "hero": {
-    "image": "assets/elef/ELEF00AA.png",
+    "image": "assets/elef/ELEF00AA.webp",
     "alt": "Elephant"
   },
   "intro": "They're powerful enough to push down trees, but precise enough to pluck single blades of grass. They weigh tons, yet can move almost silently. They live nearly as long as we do, and they keep in touch with their relatives. Elephants, with their strength, grace, and intelligence, have intrigued humans ever since our species first met theirs.",
@@ -52,7 +52,7 @@
     {
       "id": "unlikely-looking-relatives",
       "title": "Unlikely-looking relatives",
-      "image": "assets/elef/ELEF01PU.png",
+      "image": "assets/elef/ELEF01PU.webp",
       "text": "Would you have guessed that these animals are related to elephants? Along with manatees and aardvarks, they have common ancestors that first appeared in the Paleocene period, about 65 million years ago. They're all more closely related to each other than to other mammals alive today.",
       "captions": [
         {
@@ -68,7 +68,7 @@
     {
       "id": "on-tiptoes",
       "title": "On tiptoes",
-      "image": "assets/elef/ELEF02PU.png",
+      "image": "assets/elef/ELEF02PU.webp",
       "text": "By looking at the outside of an elephant's feet, you'd never guess that it was standing on its toes. But if you could see inside their broad, flat feet, you'd see that elephants spend their lives on tiptoe.",
       "captions": [
         {
@@ -84,37 +84,37 @@
     {
       "id": "packing-a-trunk",
       "title": "Packing a trunk",
-      "image": "assets/elef/ELEF03PU.png",
+      "image": "assets/elef/ELEF03PU.webp",
       "text": "An elephant's trunk is filled with muscles and nerves, so it's very strong and very sensitive at the same time. African elephants have two \"lips\" at the end of their trunks, which they can close together to pick up small objects, just like you pick up things with your fingers. Asian elephants have only one \"lip,\" so instead of grasping things as African elephants would, they roll their trunks around objects they want to pick up."
     },
     {
       "id": "tusks-for-all-purposes",
       "title": "Tusks for all purposes",
-      "image": "assets/elef/ELEF04PU.png",
+      "image": "assets/elef/ELEF04PU.webp",
       "text": "Tusks are specialized teeth that grow throughout an elephant's life. They are never used for biting or chewing—an elephant uses them to dig in the dirt and occasionally to fight with other animals. Unfortunately, people also want to use elephant tusks—for jewelry and other decorations."
     },
     {
       "id": "the-ivory-trade",
       "title": "The ivory trade",
-      "image": "assets/elef/ELEF05PU.png",
+      "image": "assets/elef/ELEF05PU.webp",
       "text": "For centuries, ivory was carved into jewelry and statues, inlaid in furniture, and used for piano keys. Ivory was so valuable that it was called \"white gold.\" Hundreds of thousands of elephants were killed for the ivory in their tusks. Now it's illegal to kill an elephant unless you have a special license. Some African governments have burned large stockpiles of ivory like this to help put an end to the ivory trade."
     },
     {
       "id": "tightly-knit-group",
       "title": "Tightly knit group",
-      "image": "assets/elef/ELEF06PU.png",
+      "image": "assets/elef/ELEF06PU.webp",
       "text": "In a typical African elephant group, there are usually fewer than 15 elephants. The oldest female—the matriarch—is the leader, and the rest of the \"family\" consists of her adult female relatives and their babies. Adult males (bulls) drift from family to family to mate with females, and may form \"bachelor\" groups of their own. When threatened, the biggest elephants shield the smaller ones behind them, and all adult elephants are protective of babies."
     },
     {
       "id": "working-for-a-living",
       "title": "Working for a living",
-      "image": "assets/elef/ELEF07PU.png",
+      "image": "assets/elef/ELEF07PU.webp",
       "text": "When it comes to moving heavy logs around in rough terrain, you can't beat elephant power. People have trained elephants—especially Asian elephants, like this one—for centuries. Both Asian and African elephants have been employed as pack animals, as riding animals bearing soldiers, hunters, and tourists on their backs, and as living bulldozers to clear land and harvest trees. Most working elephants were once wild elephants that were captured and taken out of their natural habitat."
     },
     {
       "id": "family-values",
       "title": "Family values",
-      "image": "assets/elef/ELEF08PU.png",
+      "image": "assets/elef/ELEF08PU.webp",
       "text": "Elephant babies have a long, pleasant childhood, at least compared to most members of the animal world. For its first 3 to 4 years, a baby nurses from its mother's breasts. Young elephants play together—chasing, pushing, and wrestling with each other. When they reach puberty, at somewhere between 10 and 15 years old, most females stay with the group, but young males leave to lead independent lives."
     }
   ],
@@ -122,7 +122,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/elef/ELEF00AA.png",
+        "image": "assets/elef/ELEF00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -215,44 +215,44 @@
         ]
       },
       "unlikely-looking-relatives": {
-        "image": "assets/elef/ELEF01PU.png",
+        "image": "assets/elef/ELEF01PU.webp",
         "back": "main"
       },
       "on-tiptoes": {
-        "image": "assets/elef/ELEF02PU.png",
+        "image": "assets/elef/ELEF02PU.webp",
         "back": "main"
       },
       "packing-a-trunk": {
-        "image": "assets/elef/ELEF03PU.png",
+        "image": "assets/elef/ELEF03PU.webp",
         "back": "main"
       },
       "tusks-for-all-purposes": {
-        "image": "assets/elef/ELEF04PU.png",
+        "image": "assets/elef/ELEF04PU.webp",
         "back": "main"
       },
       "the-ivory-trade": {
-        "image": "assets/elef/ELEF05PU.png",
+        "image": "assets/elef/ELEF05PU.webp",
         "back": "main"
       },
       "tightly-knit-group": {
-        "image": "assets/elef/ELEF06PU.png",
+        "image": "assets/elef/ELEF06PU.webp",
         "back": "main"
       },
       "working-for-a-living": {
-        "image": "assets/elef/ELEF07PU.png",
+        "image": "assets/elef/ELEF07PU.webp",
         "back": "main"
       },
       "family-values": {
-        "image": "assets/elef/ELEF08PU.png",
+        "image": "assets/elef/ELEF08PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/elef/ELEF00FB.png",
+        "image": "assets/elef/ELEF00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/elef/clip.mp4",
-        "poster": "assets/elef/ELEF09TV.png",
+        "poster": "assets/elef/ELEF09TV.webp",
         "back": "main"
       }
     }
@@ -265,7 +265,7 @@
   "video": {
     "title": "Charge!",
     "src": "assets/elef/clip.mp4",
-    "poster": "assets/elef/ELEF09TV.png",
+    "poster": "assets/elef/ELEF09TV.webp",
     "caption": "When they feel threatened, elephants sometimes charge at an intruder. If a charging elephant makes a lot of noise, shakes its head, and waves its trunk, it's just giving you a warning—back off. If the elephant is quiet but galloping at full tilt right at you, it's serious about the attack—run for cover!"
   }
 }

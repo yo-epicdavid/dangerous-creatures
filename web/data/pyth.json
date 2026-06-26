@@ -18,7 +18,7 @@
     "Australia & Oceania"
   ],
   "hero": {
-    "image": "assets/pyth/PYTH00AA.png",
+    "image": "assets/pyth/PYTH00AA.webp",
     "alt": "Python"
   },
   "intro": "A python is probably the longest snake in the world. The biggest one found–a reticulated python–was as long as a three-story building is tall! Python sizes and habits vary–from Asian snakes ornery enough to eat deer, to African snakes that tuck themselves into a ball, to Australian snakes kept in barns to wipe out rats. This African rock python is one of the world's largest snakes.",
@@ -53,7 +53,7 @@
     {
       "id": "whats-a-constrictor",
       "title": "What's a constrictor?",
-      "image": "assets/pyth/PYTH01PU.png",
+      "image": "assets/pyth/PYTH01PU.webp",
       "text": "Snakes that kill their prey by squeezing them in their coils are called constrictors.",
       "captions": [
         {
@@ -69,7 +69,7 @@
     {
       "id": "inside-story",
       "title": "Inside story",
-      "image": "assets/pyth/PYTH02PU.png",
+      "image": "assets/pyth/PYTH02PU.webp",
       "text": "Pythons and boas have unusual skeletons: these primitive snakes have the remains of hips and tiny hind limbs. Scientists believe that the bones (which you can't see in this picture) prove the ancestors of snakes really did have legs.",
       "captions": [
         {
@@ -81,7 +81,7 @@
     {
       "id": "jaws-of-death",
       "title": "Jaws of death",
-      "image": "assets/pyth/PYTH03PU.png",
+      "image": "assets/pyth/PYTH03PU.webp",
       "text": "A constrictor swallowing a whole rat is sort of like you trying to swallow a whole watermelon. The snake can do it because its jaws and skin are designed to s-t-r-e-t-c-h. A snake can swallow objects a lot wider than its own body!",
       "captions": [
         {
@@ -93,7 +93,7 @@
     {
       "id": "egg-cetera",
       "title": "Egg cetera",
-      "image": "assets/pyth/PYTH04PU.png",
+      "image": "assets/pyth/PYTH04PU.webp",
       "text": "All mother pythons coil up around their eggs for at least part of the incubation period, and some species guard their eggs until they hatch. A few of the bigger species–like the Indian python–actually keep their eggs warm by curling up around them and shivering to create friction. After the eggs hatch, the babies are on their own.",
       "captions": [
         {
@@ -109,7 +109,7 @@
     {
       "id": "one-of-the-biggest",
       "title": "One of the biggest",
-      "image": "assets/pyth/PYTH05PU.png",
+      "image": "assets/pyth/PYTH05PU.webp",
       "text": "If all the snakes had a contest, these cousins would have to share the size prize!",
       "captions": [
         {
@@ -125,7 +125,7 @@
     {
       "id": "super-senses",
       "title": "Super senses",
-      "image": "assets/pyth/PYTH06PU.png",
+      "image": "assets/pyth/PYTH06PU.webp",
       "text": "If pythons and boas were missiles, they'd seldom miss their targets–even on a pitch-dark night! The heat-sensitive pits in the snake's head detect a mammal's body heat. Because this information is processed by the part of the snake's brain that deals with vision, the snake actually \"sees\" the heat given off by the animal!",
       "captions": [
         {
@@ -137,7 +137,7 @@
     {
       "id": "coat-of-many-colors",
       "title": "Coat of many colors",
-      "image": "assets/pyth/PYTH07PU.png",
+      "image": "assets/pyth/PYTH07PU.webp",
       "text": "You'd think that an animal as colorful as this green tree python would be hard to overlook, but it's almost invisible as it scouts among the branches for rodents, birds, and bats. The young snakes are even brighter–lemon yellow, striped with purple and brown. These pretty pythons live in the rain forests of New Guinea and northeastern Australia.",
       "captions": [
         {
@@ -151,7 +151,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/pyth/PYTH00AA.png",
+        "image": "assets/pyth/PYTH00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -228,40 +228,40 @@
         ]
       },
       "whats-a-constrictor": {
-        "image": "assets/pyth/PYTH01PU.png",
+        "image": "assets/pyth/PYTH01PU.webp",
         "back": "main"
       },
       "inside-story": {
-        "image": "assets/pyth/PYTH02PU.png",
+        "image": "assets/pyth/PYTH02PU.webp",
         "back": "main"
       },
       "jaws-of-death": {
-        "image": "assets/pyth/PYTH03PU.png",
+        "image": "assets/pyth/PYTH03PU.webp",
         "back": "main"
       },
       "egg-cetera": {
-        "image": "assets/pyth/PYTH04PU.png",
+        "image": "assets/pyth/PYTH04PU.webp",
         "back": "main"
       },
       "one-of-the-biggest": {
-        "image": "assets/pyth/PYTH05PU.png",
+        "image": "assets/pyth/PYTH05PU.webp",
         "back": "main"
       },
       "super-senses": {
-        "image": "assets/pyth/PYTH06PU.png",
+        "image": "assets/pyth/PYTH06PU.webp",
         "back": "main"
       },
       "coat-of-many-colors": {
-        "image": "assets/pyth/PYTH07PU.png",
+        "image": "assets/pyth/PYTH07PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/pyth/PYTH00FB.png",
+        "image": "assets/pyth/PYTH00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/pyth/clip.mp4",
-        "poster": "assets/pyth/PYTH08TV.png",
+        "poster": "assets/pyth/PYTH08TV.webp",
         "back": "main"
       }
     }
@@ -274,7 +274,7 @@
   "video": {
     "title": "Too full to move!",
     "src": "assets/pyth/clip.mp4",
-    "poster": "assets/pyth/PYTH08TV.png",
+    "poster": "assets/pyth/PYTH08TV.webp",
     "caption": "Pythons usually prey on small-to medium-sized animals, because the bigger the animal, the longer it takes to digest. If a python swallows a big animal like an antelope, the snake will be almost helpless for days or even weeks afterward."
   }
 }

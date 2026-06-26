@@ -17,7 +17,7 @@
     "Asia"
   ],
   "hero": {
-    "image": "assets/hyen/HYEN00AA.png",
+    "image": "assets/hyen/HYEN00AA.webp",
     "alt": "Hyena"
   },
   "intro": "There are three kinds of hyenas—spotted, striped, and brown. Spotted hyenas (shown here) are sometimes called \"laughing hyenas.\" They're the most carnivorous. They often hunt in large packs, and they kill animals much bigger than themselves. Striped and brown hyenas, which are both endangered, eat fruits and vegetables as well as carrion.",
@@ -52,19 +52,19 @@
     {
       "id": "whats-yours-is-mine",
       "title": "What's yours is mine",
-      "image": "assets/hyen/HYEN01PU.png",
+      "image": "assets/hyen/HYEN01PU.webp",
       "text": "Hunting for a living is tough. So, many predators (like the lion) will take anything they can get—even if they haven't killed it themselves. Lions scavenge more than they hunt, and they often steal hyenas' meals."
     },
     {
       "id": "sometimes-a-scavenger",
       "title": "Sometimes a scavenger",
-      "image": "assets/hyen/HYEN02PU.png",
+      "image": "assets/hyen/HYEN02PU.webp",
       "text": "Most predators won't pass up free meat, and hyenas are no exception. When an animal dies or a kill is abandoned by a hunter, hyenas and vultures often show up at the carcass for an easy meal. Hyenas have also been known to steal food and equipment from campsites."
     },
     {
       "id": "sometimes-a-hunter",
       "title": "Sometimes a hunter",
-      "image": "assets/hyen/HYEN03PU.png",
+      "image": "assets/hyen/HYEN03PU.webp",
       "text": "Spotted hyenas view almost anything that moves as dinner, especially if it's old, sick, or injured. They're always on the lookout for potential prey like antelope, wildebeests, and zebras. When they're not hunting in a pack, single hyenas snatch baby animals–including hyena cubs.",
       "captions": [
         {
@@ -84,13 +84,13 @@
     {
       "id": "life-in-the-clan",
       "title": "Life in the clan",
-      "image": "assets/hyen/HYEN04PU.png",
+      "image": "assets/hyen/HYEN04PU.webp",
       "text": "Spotted hyenas live in big groups called \"clans.\" A clan is made up of related females and their offspring, plus males from other clans. The females are the rulers of the clan. Each clan has a central den, where all the pups are born, but each hyena mother suckles her own pups."
     },
     {
       "id": "not-a-dog",
       "title": "Not a dog",
-      "image": "assets/hyen/HYEN05PU.png",
+      "image": "assets/hyen/HYEN05PU.webp",
       "text": "You could mistake a hyena for a funny-looking dog. After all, hyenas have perky ears, pointy muzzles, and bushy tails. However, they also have exceptionally powerful jaw muscles, scent glands near their tails, and manes. In fact, they're not related to dogs at all—they have the same ancestor as the mongoose.",
       "captions": [
         {
@@ -104,7 +104,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/hyen/HYEN00AA.png",
+        "image": "assets/hyen/HYEN00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -165,32 +165,32 @@
         ]
       },
       "whats-yours-is-mine": {
-        "image": "assets/hyen/HYEN01PU.png",
+        "image": "assets/hyen/HYEN01PU.webp",
         "back": "main"
       },
       "sometimes-a-scavenger": {
-        "image": "assets/hyen/HYEN02PU.png",
+        "image": "assets/hyen/HYEN02PU.webp",
         "back": "main"
       },
       "sometimes-a-hunter": {
-        "image": "assets/hyen/HYEN03PU.png",
+        "image": "assets/hyen/HYEN03PU.webp",
         "back": "main"
       },
       "life-in-the-clan": {
-        "image": "assets/hyen/HYEN04PU.png",
+        "image": "assets/hyen/HYEN04PU.webp",
         "back": "main"
       },
       "not-a-dog": {
-        "image": "assets/hyen/HYEN05PU.png",
+        "image": "assets/hyen/HYEN05PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/hyen/HYEN00FB.png",
+        "image": "assets/hyen/HYEN00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/hyen/clip.mp4",
-        "poster": "assets/hyen/HYEN06TV.png",
+        "poster": "assets/hyen/HYEN06TV.webp",
         "back": "main"
       }
     }
@@ -203,7 +203,7 @@
   "video": {
     "title": "Predatory pack",
     "src": "assets/hyen/clip.mp4",
-    "poster": "assets/hyen/HYEN06TV.png",
+    "poster": "assets/hyen/HYEN06TV.webp",
     "caption": "Fifteen minutes after a pack of hyenas catches its prey, even the bones have been devoured. Since hyenas can (and will) eat almost anything, including trash and dead flesh, for a long time people thought that they were only scavengers. In fact, spotted hyenas, working in a pack, are among the deadliest hunters in Africa."
   }
 }

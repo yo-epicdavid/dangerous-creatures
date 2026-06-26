@@ -15,7 +15,7 @@
   ],
   "regions": [],
   "hero": {
-    "image": "assets/scor/SCOR00AA.png",
+    "image": "assets/scor/SCOR00AA.webp",
     "alt": "Scorpion"
   },
   "intro": "From its sharp pincers to the venomous tip of its whiplike tail, a scorpion is well equipped for holding and stinging its prey. To insects, a scorpion is a deadly predator. A few kinds of scorpions can also be deadly to humans, but most scorpions are no more dangerous than bees.",
@@ -50,7 +50,7 @@
     {
       "id": "lethal-injection",
       "title": "Lethal injection",
-      "image": "assets/scor/SCOR01PU.png",
+      "image": "assets/scor/SCOR01PU.webp",
       "text": "All scorpions can inject venom. Although most stings are painful and would certainly kill an insect, they're not particularly dangerous to humans. The few types of scorpions whose venom has been known to kill people (mostly small children) live in the southwestern U.S., Mexico, North Africa, and Middle East.",
       "captions": [
         {
@@ -62,7 +62,7 @@
     {
       "id": "special-weapons",
       "title": "Special weapons",
-      "image": "assets/scor/SCOR02PU.png",
+      "image": "assets/scor/SCOR02PU.webp",
       "text": "Scorpions eat mostly spiders, insects, and other scorpions. They are well designed to deal with their prey.",
       "captions": [
         {
@@ -78,7 +78,7 @@
     {
       "id": "midnight-snack",
       "title": "Midnight snack",
-      "image": "assets/scor/SCOR03PU.png",
+      "image": "assets/scor/SCOR03PU.webp",
       "text": "Scorpions can tolerate only a narrow range of temperatures. They live in warm places, but generally spend the daylight hours in the cool shadows. After the sun goes down, they come out to hunt, and any insect, spider, or other scorpion is fair game.",
       "captions": [
         {
@@ -90,7 +90,7 @@
     {
       "id": "may-i-have-this-dance",
       "title": "May I have this dance?",
-      "image": "assets/scor/SCOR04PU.png",
+      "image": "assets/scor/SCOR04PU.webp",
       "text": "Before mating, male and female scorpions stand opposite each other, and the male grasps the female's pincers in his own. After walking around in this position for a while, the male deposits a packet of sperm onto the ground, which the female then takes into her body. After the female's eggs hatch, she'll carry the babies on her back until they're big enough to fend for themselves."
     }
   ],
@@ -98,7 +98,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/scor/SCOR00AA.png",
+        "image": "assets/scor/SCOR00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -159,28 +159,28 @@
         ]
       },
       "lethal-injection": {
-        "image": "assets/scor/SCOR01PU.png",
+        "image": "assets/scor/SCOR01PU.webp",
         "back": "main"
       },
       "special-weapons": {
-        "image": "assets/scor/SCOR02PU.png",
+        "image": "assets/scor/SCOR02PU.webp",
         "back": "main"
       },
       "midnight-snack": {
-        "image": "assets/scor/SCOR03PU.png",
+        "image": "assets/scor/SCOR03PU.webp",
         "back": "main"
       },
       "may-i-have-this-dance": {
-        "image": "assets/scor/SCOR04PU.png",
+        "image": "assets/scor/SCOR04PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/scor/SCOR00FB.png",
+        "image": "assets/scor/SCOR00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/scor/clip.mp4",
-        "poster": "assets/scor/SCOR05TV.png",
+        "poster": "assets/scor/SCOR05TV.webp",
         "back": "main"
       }
     }
@@ -193,7 +193,7 @@
   "video": {
     "title": "Desert duel",
     "src": "assets/scor/clip.mp4",
-    "poster": "assets/scor/SCOR05TV.png",
+    "poster": "assets/scor/SCOR05TV.webp",
     "caption": "After sundown, the two opponents confront each other on the desert floor. They're both strong and quick. The tarantula has venomous fangs. The scorpion has pincers and sharp mouthparts, and a stinging tail filled with venom. On which contestant would you place your bet?"
   }
 }

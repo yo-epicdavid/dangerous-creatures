@@ -15,7 +15,7 @@
     "Oceans & Seas"
   ],
   "hero": {
-    "image": "assets/bara/BARA00AA.png",
+    "image": "assets/bara/BARA00AA.webp",
     "alt": "Barracuda"
   },
   "intro": "More fearsome than sharks in the opinion of many divers, the great barracuda is big, aggressive, and armed with a mouthful of spearlike teeth. It's also fast–dashing in at 43 kilometers (27 mi) per hour. Most attacks on people, though, are probably a matter of mistaken identity. In cloudy water, a person looks a lot like a big fish.",
@@ -50,7 +50,7 @@
     {
       "id": "dental-daggers",
       "title": "Dental daggers",
-      "image": "assets/bara/BARA01PU.png",
+      "image": "assets/bara/BARA01PU.webp",
       "text": "A dentist would want to be very careful cleaning these teeth! It's true that the barracuda's impressive jaws could cause great harm to a person. But the teeth of all animals, including the barracuda, are designed not to attack humans but to handle the type of food the animal eats.",
       "captions": [
         {
@@ -70,7 +70,7 @@
     {
       "id": "dangerous-dish",
       "title": "Dangerous dish",
-      "image": "assets/bara/BARA02PU.png",
+      "image": "assets/bara/BARA02PU.webp",
       "text": "It's pretty obvious that it would not be a good experience if one of these animals bit you. But did you know that you could get into just as much trouble if you bit one of them? These animals sometimes feed on fish that are poisonous, and as a result they become toxic themselves.",
       "captions": [
         {
@@ -90,7 +90,7 @@
     {
       "id": "diver-danger",
       "title": "Diver danger",
-      "image": "assets/bara/BARA03PU.png",
+      "image": "assets/bara/BARA03PU.webp",
       "text": "There are many dangerous things under water besides barracudas. Here are a few critters that divers need to look out for.",
       "captions": [
         {
@@ -110,7 +110,7 @@
     {
       "id": "too-close",
       "title": "Too close!",
-      "image": "assets/bara/BARA04PU.png",
+      "image": "assets/bara/BARA04PU.webp",
       "text": "If a barracuda followed you home, you wouldn't want to keep it! These fish have been known to trail divers like curious puppies. They seem to be attracted to flopping movements, like those made by a diver's body or an injured fish. So if you meet a barracuda, hold still. You can't outswim the animal, but once it realizes you're not food, it's likely to go away."
     }
   ],
@@ -118,7 +118,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/bara/BARA00AA.png",
+        "image": "assets/bara/BARA00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -171,28 +171,28 @@
         ]
       },
       "dental-daggers": {
-        "image": "assets/bara/BARA01PU.png",
+        "image": "assets/bara/BARA01PU.webp",
         "back": "main"
       },
       "dangerous-dish": {
-        "image": "assets/bara/BARA02PU.png",
+        "image": "assets/bara/BARA02PU.webp",
         "back": "main"
       },
       "diver-danger": {
-        "image": "assets/bara/BARA03PU.png",
+        "image": "assets/bara/BARA03PU.webp",
         "back": "main"
       },
       "too-close": {
-        "image": "assets/bara/BARA04PU.png",
+        "image": "assets/bara/BARA04PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/bara/BARA00FB.png",
+        "image": "assets/bara/BARA00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/bara/clip.mp4",
-        "poster": "assets/bara/BARA05TV.png",
+        "poster": "assets/bara/BARA05TV.webp",
         "back": "main"
       }
     }
@@ -205,7 +205,7 @@
   "video": {
     "title": "Band of barracudas",
     "src": "assets/bara/clip.mp4",
-    "poster": "assets/bara/BARA05TV.png",
+    "poster": "assets/bara/BARA05TV.webp",
     "caption": "Barracudas group together into huge schools when they migrate to spawn. Imagine seeing hundreds of these fearsome-looking fish swimming toward you! You'd actually be pretty safe, though—schooling barracudas have never been known to attack a person."
   }
 }

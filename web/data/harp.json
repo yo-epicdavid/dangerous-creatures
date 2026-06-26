@@ -16,7 +16,7 @@
     "South America"
   ],
   "hero": {
-    "image": "assets/harp/HARP00AA.png",
+    "image": "assets/harp/HARP00AA.webp",
     "alt": "Harpy Eagle"
   },
   "intro": "Razor-sharp talons and a rush of beating wings—that's the first and last impression that a harpy eagle makes on its intended prey. These magnificent birds are the most powerful eagles in the world. They're also among the rarest. The few remaining harpy eagles live in dense tropical rain forests in Central and South America.",
@@ -51,7 +51,7 @@
     {
       "id": "may-be-lunch",
       "title": "May be lunch",
-      "image": "assets/harp/HARP01PU.png",
+      "image": "assets/harp/HARP01PU.webp",
       "text": "Harpy eagles can fly amazingly fast through the thick forest, swooping down on prey at speeds up to 80 kilometers (50 mi) per hour. The animals shown here must be constantly on guard, or they'll become a meal for a harpy.",
       "captions": [
         {
@@ -67,7 +67,7 @@
     {
       "id": "birds-of-prey",
       "title": "Birds of prey",
-      "image": "assets/harp/HARP02PU.png",
+      "image": "assets/harp/HARP02PU.webp",
       "text": "Eagles are raptors, or birds of prey. All these birds of prey are hunters with sharp claws and hooked beaks.",
       "captions": [
         {
@@ -91,7 +91,7 @@
     {
       "id": "winged-hunters",
       "title": "Winged hunters",
-      "image": "assets/harp/HARP03PU.png",
+      "image": "assets/harp/HARP03PU.webp",
       "text": "When people think of predators, mammals like lions or wolves usually come to mind. But birds are some of the most skillful predators around today.",
       "captions": [
         {
@@ -107,13 +107,13 @@
     {
       "id": "eagle-eye",
       "title": "Eagle eye",
-      "image": "assets/harp/HARP04PU.png",
+      "image": "assets/harp/HARP04PU.webp",
       "text": "Birds of prey have the sharpest long-distance vision in the animal world. We might not notice the bald eagle as it flies high above the trees, but it can see us—and the small animals that it preys on. Many birds can see farther and more clearly than a person."
     },
     {
       "id": "night-flights",
       "title": "Night flights",
-      "image": "assets/harp/HARP05PU.png",
+      "image": "assets/harp/HARP05PU.webp",
       "text": "Owls are birds of prey that hunt rats, mice, rabbits, and voles. In rural areas, you can often see small owls perching on fence posts at sunset.",
       "captions": [
         {
@@ -131,7 +131,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/harp/HARP00AA.png",
+        "image": "assets/harp/HARP00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -192,32 +192,32 @@
         ]
       },
       "may-be-lunch": {
-        "image": "assets/harp/HARP01PU.png",
+        "image": "assets/harp/HARP01PU.webp",
         "back": "main"
       },
       "birds-of-prey": {
-        "image": "assets/harp/HARP02PU.png",
+        "image": "assets/harp/HARP02PU.webp",
         "back": "main"
       },
       "winged-hunters": {
-        "image": "assets/harp/HARP03PU.png",
+        "image": "assets/harp/HARP03PU.webp",
         "back": "main"
       },
       "eagle-eye": {
-        "image": "assets/harp/HARP04PU.png",
+        "image": "assets/harp/HARP04PU.webp",
         "back": "main"
       },
       "night-flights": {
-        "image": "assets/harp/HARP05PU.png",
+        "image": "assets/harp/HARP05PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/harp/HARP00FB.png",
+        "image": "assets/harp/HARP00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/harp/clip.mp4",
-        "poster": "assets/harp/HARP06TV.png",
+        "poster": "assets/harp/HARP06TV.webp",
         "back": "main"
       }
     }
@@ -230,7 +230,7 @@
   "video": {
     "title": "Flying and fishing",
     "src": "assets/harp/clip.mp4",
-    "poster": "assets/harp/HARP06TV.png",
+    "poster": "assets/harp/HARP06TV.webp",
     "caption": "Many eagles around the world have mastered the art of swooping down to a river or lake and plucking a fish from beneath the surface with their sharp talons. Sometimes the size of the prey exceeds their strength, and they're forced to let go of a fish that's too heavy to lift into the air."
   }
 }

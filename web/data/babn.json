@@ -17,7 +17,7 @@
     "Africa"
   ],
   "hero": {
-    "image": "assets/babn/BABN00AA.png",
+    "image": "assets/babn/BABN00AA.webp",
     "alt": "Baboon"
   },
   "intro": "They stay close to parents and siblings, but each individual may also have special friends outside the family. They spend a lot of time gently grooming each other, and everyone has to touch a new baby. When they feel threatened, they bare their teeth and scream at intruders. Does this sound like any families you know?",
@@ -52,7 +52,7 @@
     {
       "id": "skull-story",
       "title": "Skull story",
-      "image": "assets/babn/BABN01PU.png",
+      "image": "assets/babn/BABN01PU.webp",
       "text": "Take a look at these skulls and you'll understand why scientists believe that humans are related to apes and monkeys.",
       "captions": [
         {
@@ -64,7 +64,7 @@
     {
       "id": "childs-play",
       "title": "Child's play",
-      "image": "assets/babn/BABN02PU.png",
+      "image": "assets/babn/BABN02PU.webp",
       "text": "For young animals of all kinds, play is not only for fun–it also teaches them skills they'll need as adults. Intelligent animals like monkeys, apes, and humans can find a way to play with just about anything they come across.",
       "captions": [
         {
@@ -80,25 +80,25 @@
     {
       "id": "savanna-life",
       "title": "Savanna life",
-      "image": "assets/babn/BABN03PU.png",
+      "image": "assets/babn/BABN03PU.webp",
       "text": "Baboons live on the ground, although they climb into trees to sleep and for safety. They're mostly vegetarians, but if they can easily get their hands on insects, eggs, or small mammals like a baby gazelle, baboons will eat those too. On the African savanna, baboons themselves are a favorite food of big cats, especially leopards."
     },
     {
       "id": "painted-face",
       "title": "Painted face",
-      "image": "assets/babn/BABN04PU.png",
+      "image": "assets/babn/BABN04PU.webp",
       "text": "Male mandrills look like they've been colored with the brightest crayons in the box. (Females are smaller and not so colorful.) When this baboon relative–the largest of all monkeys–is excited, its skin gets even brighter. Scientists think that all those colors have something to do with communication. But you don't have to read mandrill to understand the warning here: \"Stay away!\""
     },
     {
       "id": "backpacking-baby",
       "title": "Backpacking baby",
-      "image": "assets/babn/BABN05PU.png",
+      "image": "assets/babn/BABN05PU.webp",
       "text": "A newborn baboon clings to its mother's chest so it can nurse from her nipples whenever it wants. After a few months, the baby rides on its mother's back when the baboon troop is on the move. When babies grow up, the females usually stay in the same troop, but many males are forced to find a new group to join."
     },
     {
       "id": "social-grooming",
       "title": "Social grooming",
-      "image": "assets/babn/BABN06PU.png",
+      "image": "assets/babn/BABN06PU.webp",
       "text": "These baboons are doing more than just combing each other's fur for lice and fleas. Grooming is a way in which animals say, \"I know you and trust you. You are a friend.\" When a baboon spots a flea, the monkey pops the crunchy insect into its mouth!"
     }
   ],
@@ -106,7 +106,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/babn/BABN00AA.png",
+        "image": "assets/babn/BABN00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -183,36 +183,36 @@
         ]
       },
       "skull-story": {
-        "image": "assets/babn/BABN01PU.png",
+        "image": "assets/babn/BABN01PU.webp",
         "back": "main"
       },
       "childs-play": {
-        "image": "assets/babn/BABN02PU.png",
+        "image": "assets/babn/BABN02PU.webp",
         "back": "main"
       },
       "savanna-life": {
-        "image": "assets/babn/BABN03PU.png",
+        "image": "assets/babn/BABN03PU.webp",
         "back": "main"
       },
       "painted-face": {
-        "image": "assets/babn/BABN04PU.png",
+        "image": "assets/babn/BABN04PU.webp",
         "back": "main"
       },
       "backpacking-baby": {
-        "image": "assets/babn/BABN05PU.png",
+        "image": "assets/babn/BABN05PU.webp",
         "back": "main"
       },
       "social-grooming": {
-        "image": "assets/babn/BABN06PU.png",
+        "image": "assets/babn/BABN06PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/babn/BABN00FB.png",
+        "image": "assets/babn/BABN00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/babn/clip.mp4",
-        "poster": "assets/babn/BABN07TV.png",
+        "poster": "assets/babn/BABN07TV.webp",
         "back": "main"
       }
     }
@@ -225,7 +225,7 @@
   "video": {
     "title": "Ground dwellers",
     "src": "assets/babn/clip.mp4",
-    "poster": "assets/babn/BABN07TV.png",
+    "poster": "assets/babn/BABN07TV.webp",
     "caption": "Unlike most monkeys, baboons spend their days on the ground, and retreat to trees or cliffs only to sleep or to escape predators. In Africa, look for baboons in the grasslands, and look for other monkeys in the forests."
   }
 }

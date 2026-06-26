@@ -18,7 +18,7 @@
     "Australia & Oceania"
   ],
   "hero": {
-    "image": "assets/tran/TRAN00AA.png",
+    "image": "assets/tran/TRAN00AA.webp",
     "alt": "Tarantula"
   },
   "intro": "A dinner-plate-size tarantula scurries over the rain forest floor. Its eight tiny eyes gleam. Suddenly the spider spots a mouse and pounces, pinning the rodent down with its huge fangs. No wonder these hairy hunters give many people the creeps. But tarantula venom isn't dangerous to humans, and the spiders seldom bite anyway. Some people even keep these gentle, long-lived animals as pets.",
@@ -53,7 +53,7 @@
     {
       "id": "tarantula-eater",
       "title": "Tarantula eater",
-      "image": "assets/tran/TRAN01PU.png",
+      "image": "assets/tran/TRAN01PU.webp",
       "text": "How's this for a scary plot for a story: you're kidnapped by a winged alien. It paralyzes you with a sting, and then lays an egg on your body and buries you in the ground. When the egg hatches, the newly born creature eats you alive.... Luckily, this can only happen in the movies–unless you're a tarantula who's captured by a wasp.",
       "captions": [
         {
@@ -65,7 +65,7 @@
     {
       "id": "big-and-hairy",
       "title": "Big and hairy",
-      "image": "assets/tran/TRAN02PU.png",
+      "image": "assets/tran/TRAN02PU.webp",
       "text": "The name \"tarantula\" was originally given to a spider from Italy, but the word is now used for any big, hairy spider, like this curly-haired tarantula.",
       "captions": [
         {
@@ -77,7 +77,7 @@
     {
       "id": "better-for-biting",
       "title": "Better for biting",
-      "image": "assets/tran/TRAN03PU.png",
+      "image": "assets/tran/TRAN03PU.webp",
       "text": "Spiders can't chew. Instead, they use their fangs to inject prey with paralyzing venom, and then inject the animal with juices that dissolve its internal parts. Then they suck up all the liquids and leave the rest behind.",
       "captions": [
         {
@@ -89,13 +89,13 @@
     {
       "id": "big-spiders-big-meals",
       "title": "Big spiders, big meals",
-      "image": "assets/tran/TRAN04PU.png",
+      "image": "assets/tran/TRAN04PU.webp",
       "text": "Most spiders eat insects. Tarantulas do, too, but it takes a lot of insects to satisfy a really big spider. One South American tarantula has a leg span of nearly 25 centimeters (almost 10 in) across! Spiders that big can pounce on prey as big as baby birds, mice, lizards, and giant centipedes."
     },
     {
       "id": "hunting-spiders",
       "title": "Hunting spiders",
-      "image": "assets/tran/TRAN05PU.png",
+      "image": "assets/tran/TRAN05PU.webp",
       "text": "These spiders all have their own special techniques for pouncing on prey.",
       "captions": [
         {
@@ -113,7 +113,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/tran/TRAN00AA.png",
+        "image": "assets/tran/TRAN00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -182,32 +182,32 @@
         ]
       },
       "tarantula-eater": {
-        "image": "assets/tran/TRAN01PU.png",
+        "image": "assets/tran/TRAN01PU.webp",
         "back": "main"
       },
       "big-and-hairy": {
-        "image": "assets/tran/TRAN02PU.png",
+        "image": "assets/tran/TRAN02PU.webp",
         "back": "main"
       },
       "better-for-biting": {
-        "image": "assets/tran/TRAN03PU.png",
+        "image": "assets/tran/TRAN03PU.webp",
         "back": "main"
       },
       "big-spiders-big-meals": {
-        "image": "assets/tran/TRAN04PU.png",
+        "image": "assets/tran/TRAN04PU.webp",
         "back": "main"
       },
       "hunting-spiders": {
-        "image": "assets/tran/TRAN05PU.png",
+        "image": "assets/tran/TRAN05PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/tran/TRAN00FB.png",
+        "image": "assets/tran/TRAN00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/tran/clip.mp4",
-        "poster": "assets/tran/TRAN06TV.png",
+        "poster": "assets/tran/TRAN06TV.webp",
         "back": "main"
       }
     }
@@ -220,7 +220,7 @@
   "video": {
     "title": "Birds for breakfast",
     "src": "assets/tran/clip.mp4",
-    "poster": "assets/tran/TRAN06TV.png",
+    "poster": "assets/tran/TRAN06TV.webp",
     "caption": "Some large hairy spiders–called bird-eating spiders–hunt in the trees. They eat mainly insects, but sometimes prey on lizards, tree frogs, salamanders, young snakes, and of course, birds. So if you're hiking through a tropical rain forest and you want to see one of these big hairy hunters, don't just look down at the path. One might be sitting on the limb above you!!"
   }
 }

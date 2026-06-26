@@ -17,7 +17,7 @@
     "South America"
   ],
   "hero": {
-    "image": "assets/vamp/VAMP00AA.png",
+    "image": "assets/vamp/VAMP00AA.webp",
     "alt": "Vampire Bat"
   },
   "intro": "After dark, this little beast emerges to look for blood. With the precision of an experienced surgeon, a vampire bat slices a small wound in an animal and then laps up its blood. Most victims never even know the bat was there because they sleep right through the attack. This creepy behavior has made the vampire bat the subject of many tales of terror. Is its reputation justified?",
@@ -52,7 +52,7 @@
     {
       "id": "bouquet-of-bats",
       "title": "Bouquet of bats",
-      "image": "assets/vamp/VAMP01PU.png",
+      "image": "assets/vamp/VAMP01PU.webp",
       "text": "Bats usually sleep in unheated places like caves or empty buildings, so they frequently huddle together for warmth. Some bats hibernate through the winter, breathing so slowly that you might think they were dead. But when the weather gets warm, they wake up and separate from the others to cool off.",
       "captions": [
         {
@@ -64,7 +64,7 @@
     {
       "id": "amazing-acrobats",
       "title": "Amazing acrobats",
-      "image": "assets/vamp/VAMP02PU.png",
+      "image": "assets/vamp/VAMP02PU.webp",
       "text": "Bats that are chasing after insects can change direction faster than our eyes can follow. They use their wings not only to fly but also to scoop insects out of the air. Some bats also have leathery tails, which they use as both a rudder and a brake during flight.",
       "captions": [
         {
@@ -76,7 +76,7 @@
     {
       "id": "echolocation",
       "title": "Echolocation",
-      "image": "assets/vamp/VAMP03PU.png",
+      "image": "assets/vamp/VAMP03PU.webp",
       "text": "Insect-eating bats are nocturnal, which means they do their hunting at night. How can they find their prey in the dark? The answer is echolocation, which means just what it sounds like: locating something by listening to echoes.",
       "captions": [
         {
@@ -88,7 +88,7 @@
     {
       "id": "bat-anatomy",
       "title": "Bat anatomy",
-      "image": "assets/vamp/VAMP04PU.png",
+      "image": "assets/vamp/VAMP04PU.webp",
       "text": "In a bat's wings, a \"cape\" of leather stretches between the bat's body and the \"arm\" bones to form a lightweight flying wing. We humans have borrowed this design for our own hang gliders.",
       "captions": [
         {
@@ -104,7 +104,7 @@
     {
       "id": "hanging-out",
       "title": "Hanging out",
-      "image": "assets/vamp/VAMP05PU.png",
+      "image": "assets/vamp/VAMP05PU.webp",
       "text": "When bats are not flying, they spend the rest of their time upside down. They like to sleep in trees, caves, barns, or even houses. When the weather's cold, they huddle together to keep each other warm.",
       "captions": [
         {
@@ -116,7 +116,7 @@
     {
       "id": "fruit-juicer",
       "title": "Fruit juicer",
-      "image": "assets/vamp/VAMP06PU.png",
+      "image": "assets/vamp/VAMP06PU.webp",
       "text": "Fruit bats depend on keen eyesight and a highly developed sense of smell to find their food. Their big furry heads and dog-like faces give fruit bats the nickname of \"flying foxes\". This Franquet's bat lives in African forests and eats soft fruits like guavas, bananas, and figs."
     }
   ],
@@ -124,7 +124,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/vamp/VAMP00AA.png",
+        "image": "assets/vamp/VAMP00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -193,36 +193,36 @@
         ]
       },
       "bouquet-of-bats": {
-        "image": "assets/vamp/VAMP01PU.png",
+        "image": "assets/vamp/VAMP01PU.webp",
         "back": "main"
       },
       "amazing-acrobats": {
-        "image": "assets/vamp/VAMP02PU.png",
+        "image": "assets/vamp/VAMP02PU.webp",
         "back": "main"
       },
       "echolocation": {
-        "image": "assets/vamp/VAMP03PU.png",
+        "image": "assets/vamp/VAMP03PU.webp",
         "back": "main"
       },
       "bat-anatomy": {
-        "image": "assets/vamp/VAMP04PU.png",
+        "image": "assets/vamp/VAMP04PU.webp",
         "back": "main"
       },
       "hanging-out": {
-        "image": "assets/vamp/VAMP05PU.png",
+        "image": "assets/vamp/VAMP05PU.webp",
         "back": "main"
       },
       "fruit-juicer": {
-        "image": "assets/vamp/VAMP06PU.png",
+        "image": "assets/vamp/VAMP06PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/vamp/VAMP00FB.png",
+        "image": "assets/vamp/VAMP00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/vamp/clip.mp4",
-        "poster": "assets/vamp/VAMP07TV.png",
+        "poster": "assets/vamp/VAMP07TV.webp",
         "back": "main"
       }
     }
@@ -235,7 +235,7 @@
   "video": {
     "title": "What's for dinner?",
     "src": "assets/vamp/clip.mp4",
-    "poster": "assets/vamp/VAMP07TV.png",
+    "poster": "assets/vamp/VAMP07TV.webp",
     "caption": "The vampire bats are unique in the bat world, because all these tiny creatures crave is blood, blood, blood! Most bats crave fruit or insects instead. The two types shown here eat insects and spiders."
   }
 }

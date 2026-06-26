@@ -16,7 +16,7 @@
     "Africa"
   ],
   "hero": {
-    "image": "assets/wart/WART00AA.png",
+    "image": "assets/wart/WART00AA.webp",
     "alt": "Warthog"
   },
   "intro": "Like a ball launched from a cannon, an African warthog comes barreling out of its underground burrow. Warthogs eat plants, not other animals, so a charging warthog doesn't intend to eat you. However, these wild pigs are very protective of their homes and their babies, and they have sharp, slashing tusks. Run!",
@@ -51,7 +51,7 @@
     {
       "id": "pork-for-dinner",
       "title": "Pork for dinner",
-      "image": "assets/wart/WART01PU.png",
+      "image": "assets/wart/WART01PU.webp",
       "text": "The wild pigs of the world are on every big predator's menu. If African warthogs dream, they probably have nightmares about big cats stalking them. Many piglets don't survive to adulthood.",
       "captions": [
         {
@@ -67,7 +67,7 @@
     {
       "id": "wild-pigs",
       "title": "Wild pigs",
-      "image": "assets/wart/WART02PU.png",
+      "image": "assets/wart/WART02PU.webp",
       "text": "For centuries, people have hunted wild pigs for food, for sport, and because these animals eat farm crops. Wild pigs once existed around the world, but today many types of wild pigs no longer roam through their native habitats.",
       "captions": [
         {
@@ -83,13 +83,13 @@
     {
       "id": "terrible-teeth",
       "title": "Terrible teeth",
-      "image": "assets/wart/WART03PU.png",
+      "image": "assets/wart/WART03PU.webp",
       "text": "If you thought a warthog has dental problems, take a look at this beast! This wild pig, which lives in Indonesia and surrounding islands, is called a babirusa. Instead of growing out of the sides of its mouth, this animal's tusks grow right through the top of its snout! A male babirusa spends a lot of time sharpening his tusks on trees."
     },
     {
       "id": "tuskers",
       "title": "Tuskers",
-      "image": "assets/wart/WART04PU.png",
+      "image": "assets/wart/WART04PU.webp",
       "text": "Warthogs and other wild pigs are not the only animals that have overgrown teeth–tusks–sticking out of their faces.",
       "captions": [
         {
@@ -105,19 +105,19 @@
     {
       "id": "domestic-pigs",
       "title": "Domestic pigs",
-      "image": "assets/wart/WART05PU.png",
+      "image": "assets/wart/WART05PU.webp",
       "text": "Our pigs are the descendants of wild boars. Over the centuries, we've bred these animals to be much bigger and more colorful than their wild ancestors. Both wild boars and domestic pigs usually have large litters of young–four to eight piglets is normal, but ten or more is not uncommon."
     },
     {
       "id": "looks-like-a-pig",
       "title": "Looks like a pig",
-      "image": "assets/wart/WART06PU.png",
+      "image": "assets/wart/WART06PU.webp",
       "text": "This animal looks like a pig, but it's not. It's a collared peccary–also called a javelina. Peccaries live in the southwestern U.S. and in Central and South America. They eat mostly plants, but they've also been known to chew up grubs and snakes. Peccaries usually travel in groups of 5 to 15 animals, and if they feel threatened, the whole group attacks!"
     },
     {
       "id": "not-even-close",
       "title": "Not even close",
-      "image": "assets/wart/WART07PU.png",
+      "image": "assets/wart/WART07PU.webp",
       "text": "A tapir is sort of pig-shaped, but it's more closely related to a horse than to a pig. A tapir has a flexible nose, sort of a cross between an elephant's trunk and a horse's upper lip. The animal shown here is a Baird's tapir, which lives in Central and South America. There aren't many of these amazing creatures left–Baird's tapirs are endangered."
     }
   ],
@@ -125,7 +125,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/wart/WART00AA.png",
+        "image": "assets/wart/WART00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -202,40 +202,40 @@
         ]
       },
       "pork-for-dinner": {
-        "image": "assets/wart/WART01PU.png",
+        "image": "assets/wart/WART01PU.webp",
         "back": "main"
       },
       "wild-pigs": {
-        "image": "assets/wart/WART02PU.png",
+        "image": "assets/wart/WART02PU.webp",
         "back": "main"
       },
       "terrible-teeth": {
-        "image": "assets/wart/WART03PU.png",
+        "image": "assets/wart/WART03PU.webp",
         "back": "main"
       },
       "tuskers": {
-        "image": "assets/wart/WART04PU.png",
+        "image": "assets/wart/WART04PU.webp",
         "back": "main"
       },
       "domestic-pigs": {
-        "image": "assets/wart/WART05PU.png",
+        "image": "assets/wart/WART05PU.webp",
         "back": "main"
       },
       "looks-like-a-pig": {
-        "image": "assets/wart/WART06PU.png",
+        "image": "assets/wart/WART06PU.webp",
         "back": "main"
       },
       "not-even-close": {
-        "image": "assets/wart/WART07PU.png",
+        "image": "assets/wart/WART07PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/wart/WART00FB.png",
+        "image": "assets/wart/WART00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/wart/clip.mp4",
-        "poster": "assets/wart/WART08TV.png",
+        "poster": "assets/wart/WART08TV.webp",
         "back": "main"
       }
     }
@@ -248,7 +248,7 @@
   "video": {
     "title": "Digging in the dirt",
     "src": "assets/wart/clip.mp4",
-    "poster": "assets/wart/WART08TV.png",
+    "poster": "assets/wart/WART08TV.webp",
     "caption": "Like all pigs, warthogs \"root\"–dig with their snouts–for their food. Many wild pigs are omnivorous, which means they'll eat almost anything they come across. Warthogs eat mostly grass, and they sometimes get down on their knees to graze on the ground. As well as digging up grass roots and tubers, warthogs excavate burrows in which to raise their young."
   }
 }

@@ -17,7 +17,7 @@
     "Europe"
   ],
   "hero": {
-    "image": "assets/addr/ADDR00AA.png",
+    "image": "assets/addr/ADDR00AA.webp",
     "alt": "European Adder"
   },
   "intro": "It's one of the few venomous snakes in Europe, but fortunately it's also one of the shyest. If you're lucky, though, you may see two male European adders \"dancing\" to impress a female. In autumn or spring, you might spot one hurrying across the snow. Unlike other snakes, European adders can tolerate cold—they even live within the Arctic Circle!",
@@ -52,7 +52,7 @@
     {
       "id": "sidewinder-cousin",
       "title": "Sidewinder cousin",
-      "image": "assets/addr/ADDR01PU.png",
+      "image": "assets/addr/ADDR01PU.webp",
       "text": "African dwarf sand adders know how to avoid the desert sun. They simply sink into the sand and wait until sunset to come out and hunt. Like many snakes that live in slippery sand, these adders get around by \"sidewinding\"—looping their bodies sideways, leaving S-shaped tracks in the sand.",
       "captions": [
         {
@@ -72,7 +72,7 @@
     {
       "id": "family-resemblance",
       "title": "Family resemblance",
-      "image": "assets/addr/ADDR02PU.png",
+      "image": "assets/addr/ADDR02PU.webp",
       "text": "These African snakes are six times bigger than the European adder and far more deadly. But the Gaboon viper, the African puff adder, and the European adder are all vipers, so they have a lot in common.",
       "captions": [
         {
@@ -88,7 +88,7 @@
     {
       "id": "death-adder",
       "title": "Death adder",
-      "image": "assets/addr/ADDR03PU.png",
+      "image": "assets/addr/ADDR03PU.webp",
       "text": "There's a good reason that this Australian snake is called the \"death adder\"! Before an antivenin was developed, half of the people bitten by it died. Luckily, the death adder is not very aggressive and bites only if touched.",
       "captions": [
         {
@@ -104,7 +104,7 @@
     {
       "id": "the-pits",
       "title": "The pits",
-      "image": "assets/addr/ADDR04PU.png",
+      "image": "assets/addr/ADDR04PU.webp",
       "text": "A pit viper (another adder relative) doesn't need to see you to know that you're there—it uses a heat-sensitive pit between its eyes and nostrils to feel your body heat. Here are two pit vipers found in North America.",
       "captions": [
         {
@@ -120,7 +120,7 @@
     {
       "id": "talented-tongue",
       "title": "Talented tongue",
-      "image": "assets/addr/ADDR05PU.png",
+      "image": "assets/addr/ADDR05PU.webp",
       "text": "Some people think that snakes sting with their forked tongues. But here's what is really going on...",
       "captions": [
         {
@@ -142,7 +142,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/addr/ADDR00AA.png",
+        "image": "assets/addr/ADDR00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -203,32 +203,32 @@
         ]
       },
       "sidewinder-cousin": {
-        "image": "assets/addr/ADDR01PU.png",
+        "image": "assets/addr/ADDR01PU.webp",
         "back": "main"
       },
       "family-resemblance": {
-        "image": "assets/addr/ADDR02PU.png",
+        "image": "assets/addr/ADDR02PU.webp",
         "back": "main"
       },
       "death-adder": {
-        "image": "assets/addr/ADDR03PU.png",
+        "image": "assets/addr/ADDR03PU.webp",
         "back": "main"
       },
       "the-pits": {
-        "image": "assets/addr/ADDR04PU.png",
+        "image": "assets/addr/ADDR04PU.webp",
         "back": "main"
       },
       "talented-tongue": {
-        "image": "assets/addr/ADDR05PU.png",
+        "image": "assets/addr/ADDR05PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/addr/ADDR00FB.png",
+        "image": "assets/addr/ADDR00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/addr/clip.mp4",
-        "poster": "assets/addr/ADDR06TV.png",
+        "poster": "assets/addr/ADDR06TV.webp",
         "back": "main"
       }
     }
@@ -241,7 +241,7 @@
   "video": {
     "title": "Come a little closer...",
     "src": "assets/addr/clip.mp4",
-    "poster": "assets/addr/ADDR06TV.png",
+    "poster": "assets/addr/ADDR06TV.webp",
     "caption": "This Australian death adder is not a true adder, but it looks and behaves like one. Like many adders, this snake prefers not to actively hunt its prey, but to lie in wait until a victim comes close enough to bite. The death adder coils up in the cover of dried leaves or loose dirt, and then uses its skinny tail as a lure to attract lizards and rodents."
   }
 }

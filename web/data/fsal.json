@@ -17,7 +17,7 @@
     "Europe"
   ],
   "hero": {
-    "image": "assets/fsal/FSAL00AA.png",
+    "image": "assets/fsal/FSAL00AA.webp",
     "alt": "Fire Salamander"
   },
   "intro": "These salamanders might be a predator's last meal. The venom that oozes from the glands behind their eyes is strong enough to kill a small animal. The fact that they're colored like wasps is not a coincidence— their yellow and black pattern warns other animals that they're dangerous to eat.",
@@ -52,7 +52,7 @@
     {
       "id": "whats-a-newt",
       "title": "What's a newt?",
-      "image": "assets/fsal/FSAL01PU.png",
+      "image": "assets/fsal/FSAL01PU.webp",
       "text": "Newts are salamanders that live mostly in water. Like other salamanders, newts come in a wide variety of colors and patterns. Whether viewed from the bottom or the top, they're beautiful creatures.",
       "captions": [
         {
@@ -84,7 +84,7 @@
     {
       "id": "its-all-in-the-head",
       "title": "It's all in the head",
-      "image": "assets/fsal/FSAL02PU.png",
+      "image": "assets/fsal/FSAL02PU.webp",
       "text": "The big lumps behind the eyes of a salamander are actually glands that can ooze a milky, poisonous fluid. The venom burns if it gets into a predator's mouth or eyes. A few salamanders are so venomous that they can kill an animal that tries to eat them.",
       "captions": [
         {
@@ -96,7 +96,7 @@
     {
       "id": "growing-up",
       "title": "Growing up",
-      "image": "assets/fsal/FSAL03PU.png",
+      "image": "assets/fsal/FSAL03PU.webp",
       "text": "Although some salamanders (including the fire salamander) give birth to live young, most lay eggs in water. But whether the process takes place in the water or inside the mother's body, young salamanders go through many changes before becoming adults.",
       "captions": [
         {
@@ -112,7 +112,7 @@
     {
       "id": "feet-for-all-purposes",
       "title": "Feet for all purposes",
-      "image": "assets/fsal/FSAL04PU.png",
+      "image": "assets/fsal/FSAL04PU.webp",
       "text": "Different kinds of salamanders have different kinds of feet. Salamander feet are designed for their different ways of life. So if someone handed you a salamander and asked you where it lived, you might look at the animal's feet to get a clue.",
       "captions": [
         {
@@ -136,7 +136,7 @@
     {
       "id": "tough-guys",
       "title": "Tough guys",
-      "image": "assets/fsal/FSAL05PU.png",
+      "image": "assets/fsal/FSAL05PU.webp",
       "text": "People tend to think all salamanders are gentle creatures. But these three pack a punch in the salamander world.",
       "captions": [
         {
@@ -158,7 +158,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/fsal/FSAL00AA.png",
+        "image": "assets/fsal/FSAL00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -219,32 +219,32 @@
         ]
       },
       "whats-a-newt": {
-        "image": "assets/fsal/FSAL01PU.png",
+        "image": "assets/fsal/FSAL01PU.webp",
         "back": "main"
       },
       "its-all-in-the-head": {
-        "image": "assets/fsal/FSAL02PU.png",
+        "image": "assets/fsal/FSAL02PU.webp",
         "back": "main"
       },
       "growing-up": {
-        "image": "assets/fsal/FSAL03PU.png",
+        "image": "assets/fsal/FSAL03PU.webp",
         "back": "main"
       },
       "feet-for-all-purposes": {
-        "image": "assets/fsal/FSAL04PU.png",
+        "image": "assets/fsal/FSAL04PU.webp",
         "back": "main"
       },
       "tough-guys": {
-        "image": "assets/fsal/FSAL05PU.png",
+        "image": "assets/fsal/FSAL05PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/fsal/FSAL00FB.png",
+        "image": "assets/fsal/FSAL00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/fsal/clip.mp4",
-        "poster": "assets/fsal/FSAL06TV.png",
+        "poster": "assets/fsal/FSAL06TV.webp",
         "back": "main"
       }
     }
@@ -257,7 +257,7 @@
   "video": {
     "title": "Salamander variety",
     "src": "assets/fsal/clip.mp4",
-    "poster": "assets/fsal/FSAL06TV.png",
+    "poster": "assets/fsal/FSAL06TV.webp",
     "caption": "Salamanders come in an incredible variety of colors and patterns. This spotted salamander is about 15 centimeters (almost 6 in) long and lives in the woods of North America."
   }
 }

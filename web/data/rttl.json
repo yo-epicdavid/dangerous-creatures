@@ -18,7 +18,7 @@
     "South America"
   ],
   "hero": {
-    "image": "assets/rttl/RTTL00AA.png",
+    "image": "assets/rttl/RTTL00AA.webp",
     "alt": "Rattlesnake"
   },
   "intro": "A rattlesnake can identify and kill its prey in total darkness. If there's a mouse nearby, the rattler's infrared sensors can detect the rodent's body heat. When the snake strikes, its head and fangs are precisely guided by additional heat sensors inside its open mouth. A mouse in a rattler's path can become a midnight snack without ever seeing its attacker.",
@@ -53,7 +53,7 @@
     {
       "id": "rattlesnake-eaters",
       "title": "Rattlesnake eaters",
-      "image": "assets/rttl/RTTL01PU.png",
+      "image": "assets/rttl/RTTL01PU.webp",
       "text": "You'd think that no one would want to mess with a rattlesnake, but king snakes think a rattler makes a fine meal.",
       "captions": [
         {
@@ -69,7 +69,7 @@
     {
       "id": "copperhead-cousin",
       "title": "Copperhead cousin",
-      "image": "assets/rttl/RTTL02PU.png",
+      "image": "assets/rttl/RTTL02PU.webp",
       "text": "Unlike a rattlesnake, a copperhead gives no audible warning before it strikes. Its venomous bite is painful but it's rarely fatal to humans. Copperheads vary in color from brown to orange-red, and their skin patterns help them blend into dead leaves in their forest habitat. Copperheads and rattlesnakes are both North American pit vipers.",
       "captions": [
         {
@@ -81,7 +81,7 @@
     {
       "id": "fang-facts",
       "title": "Fang facts",
-      "image": "assets/rttl/RTTL03PU.png",
+      "image": "assets/rttl/RTTL03PU.webp",
       "text": "The rattler's jaws fit together loosely–attached by a ligament that's like a rubber band–so the snake's mouth can open really wide. That's useful both for striking and for swallowing animals whole–rattlers don't chew their food.",
       "captions": [
         {
@@ -93,7 +93,7 @@
     {
       "id": "shedding-skins",
       "title": "Shedding skins",
-      "image": "assets/rttl/RTTL04PU.png",
+      "image": "assets/rttl/RTTL04PU.webp",
       "text": "As a snake grows, its scaly skin becomes too small for its body, so it regularly sheds the old skin, which it leaves behind whole and intact. A new, larger skin is ready underneath to replace the old one.",
       "captions": [
         {
@@ -109,7 +109,7 @@
     {
       "id": "early-warning-system",
       "title": "Early warning system",
-      "image": "assets/rttl/RTTL05PU.png",
+      "image": "assets/rttl/RTTL05PU.webp",
       "text": "It's believed that rattlesnakes make noise to warn larger animals that they're there. If you're out hiking and you hear a buzzing noise, look before you step–a rattler's giving you fair warning!",
       "captions": [
         {
@@ -121,7 +121,7 @@
     {
       "id": "one-lungs-enough",
       "title": "One lung's enough",
-      "image": "assets/rttl/RTTL06PU.png",
+      "image": "assets/rttl/RTTL06PU.webp",
       "text": "Like you might expect, many of the organs in a snake's body are long and slender. Only one of its lungs actually works.",
       "captions": [
         {
@@ -133,7 +133,7 @@
     {
       "id": "snake-ball",
       "title": "Snake ball",
-      "image": "assets/rttl/RTTL07PU.png",
+      "image": "assets/rttl/RTTL07PU.webp",
       "text": "Rattlesnakes gather in underground burrows or caves to sleep through the winter. During this hibernation period, their body processes slow down so much that they don't need to eat anything. Sometimes as many as 1,000 rattlesnakes will coil up together to hibernate."
     }
   ],
@@ -141,7 +141,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/rttl/RTTL00AA.png",
+        "image": "assets/rttl/RTTL00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -218,40 +218,40 @@
         ]
       },
       "rattlesnake-eaters": {
-        "image": "assets/rttl/RTTL01PU.png",
+        "image": "assets/rttl/RTTL01PU.webp",
         "back": "main"
       },
       "copperhead-cousin": {
-        "image": "assets/rttl/RTTL02PU.png",
+        "image": "assets/rttl/RTTL02PU.webp",
         "back": "main"
       },
       "fang-facts": {
-        "image": "assets/rttl/RTTL03PU.png",
+        "image": "assets/rttl/RTTL03PU.webp",
         "back": "main"
       },
       "shedding-skins": {
-        "image": "assets/rttl/RTTL04PU.png",
+        "image": "assets/rttl/RTTL04PU.webp",
         "back": "main"
       },
       "early-warning-system": {
-        "image": "assets/rttl/RTTL05PU.png",
+        "image": "assets/rttl/RTTL05PU.webp",
         "back": "main"
       },
       "one-lungs-enough": {
-        "image": "assets/rttl/RTTL06PU.png",
+        "image": "assets/rttl/RTTL06PU.webp",
         "back": "main"
       },
       "snake-ball": {
-        "image": "assets/rttl/RTTL07PU.png",
+        "image": "assets/rttl/RTTL07PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/rttl/RTTL00FB.png",
+        "image": "assets/rttl/RTTL00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/rttl/clip.mp4",
-        "poster": "assets/rttl/RTTL08TV.png",
+        "poster": "assets/rttl/RTTL08TV.webp",
         "back": "main"
       }
     }
@@ -264,7 +264,7 @@
   "video": {
     "title": "Wrestling rattlers",
     "src": "assets/rttl/clip.mp4",
-    "poster": "assets/rttl/RTTL08TV.png",
+    "poster": "assets/rttl/RTTL08TV.webp",
     "caption": "Male rattlesnakes are territorial–they don't like to find other male rattlers in their hunting area. So when two males meet, the rattlesnakes neck-wrestle to decide who gets to stay."
   }
 }

@@ -16,7 +16,7 @@
     "Worldwide"
   ],
   "hero": {
-    "image": "assets/gsqu/GSQU00AA.png",
+    "image": "assets/gsqu/GSQU00AA.webp",
     "alt": "Giant Squid"
   },
   "intro": "Long-armed sea monsters were featured in tales of sailors for hundreds of years. Everyone thought these were \"fish stories\"–until the giant squid was discovered. It's almost as long as a six-story building is tall! But unless you go for a swim 200 meters (656 ft) below the surface of the Atlantic and get mistaken for a lobster, you're not likely to be in danger from the giant squid.",
@@ -51,25 +51,25 @@
     {
       "id": "battle-of-giants",
       "title": "Battle of giants",
-      "image": "assets/gsqu/GSQU01PU.png",
+      "image": "assets/gsqu/GSQU01PU.webp",
       "text": "Do giant squids attack whales? Male sperm whales, which are about the same length as giant squids and pursue them into the cold Atlantic depths, often carry scars from squid suckers. It's not likely, though, that the squid starts any fight–for while many squids have been found inside the bellies of whales, a whale has never been found inside the belly of a squid."
     },
     {
       "id": "quick-change-artist",
       "title": "Quick-change artist",
-      "image": "assets/gsqu/GSQU02PU.png",
+      "image": "assets/gsqu/GSQU02PU.webp",
       "text": "Of the few animals that can change their color, none can change as fast as squids and their relatives. This is because their color cells are operated by muscles directly controlled by the nervous system. The animals change color and pattern both to blend in with the environment and to communicate. For instance, when two squids meet and one turns dark, it may be saying, \"I'm a boy–are you a girl?\""
     },
     {
       "id": "jet-propelled-school",
       "title": "Jet-propelled school",
-      "image": "assets/gsqu/GSQU03PU.png",
+      "image": "assets/gsqu/GSQU03PU.webp",
       "text": "Imagine that your arms grew out of your head. Then your life would be a little like a squid's! Squids, octopuses, and cuttlefish all have tentacles growing from their heads. That's why they're called cephalopods, or \"head-foot\" animals. This school of average-sized squids has come together not to exchange ideas but rather to mate."
     },
     {
       "id": "in-delicious-demand",
       "title": "In delicious demand",
-      "image": "assets/gsqu/GSQU04PU.png",
+      "image": "assets/gsqu/GSQU04PU.webp",
       "text": "If you were a squid, you'd really be in demand–by big fish (such as tuna and halibut), whales, dolphins, sharks, seals, and sea birds–as well as by humans, who might prefer you swimming in tomato sauce to swimming in the sea.",
       "captions": [
         {
@@ -93,7 +93,7 @@
     {
       "id": "egg-bed",
       "title": "Egg bed",
-      "image": "assets/gsqu/GSQU05PU.png",
+      "image": "assets/gsqu/GSQU05PU.webp",
       "text": "When they're ready to mate, squids gather in large groups. A male squid fertilizes the eggs inside a female before she lays them on the ocean floor. The eggs are contained in a jelly that hardens in seawater to a tough, protective case. Some squid egg beds measure acres across!"
     }
   ],
@@ -101,7 +101,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/gsqu/GSQU00AA.png",
+        "image": "assets/gsqu/GSQU00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -162,32 +162,32 @@
         ]
       },
       "battle-of-giants": {
-        "image": "assets/gsqu/GSQU01PU.png",
+        "image": "assets/gsqu/GSQU01PU.webp",
         "back": "main"
       },
       "quick-change-artist": {
-        "image": "assets/gsqu/GSQU02PU.png",
+        "image": "assets/gsqu/GSQU02PU.webp",
         "back": "main"
       },
       "jet-propelled-school": {
-        "image": "assets/gsqu/GSQU03PU.png",
+        "image": "assets/gsqu/GSQU03PU.webp",
         "back": "main"
       },
       "in-delicious-demand": {
-        "image": "assets/gsqu/GSQU04PU.png",
+        "image": "assets/gsqu/GSQU04PU.webp",
         "back": "main"
       },
       "egg-bed": {
-        "image": "assets/gsqu/GSQU05PU.png",
+        "image": "assets/gsqu/GSQU05PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/gsqu/GSQU00FB.png",
+        "image": "assets/gsqu/GSQU00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/gsqu/clip.mp4",
-        "poster": "assets/gsqu/GSQU06TV.png",
+        "poster": "assets/gsqu/GSQU06TV.webp",
         "back": "main"
       }
     }
@@ -200,7 +200,7 @@
   "video": {
     "title": "Sea monsters?",
     "src": "assets/gsqu/clip.mp4",
-    "poster": "assets/gsqu/GSQU06TV.png",
+    "poster": "assets/gsqu/GSQU06TV.webp",
     "caption": "Most squids are gentle creatures that pose no threat to anything larger than a small fish. Although stories of giant squids attacking boats have been told for years, not one has ever been proved true. It's more likely that the boats were overturned by bad weather or bumped by whales, or that the tales were made up by the tellers to explain accidents at sea."
   }
 }

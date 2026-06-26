@@ -15,7 +15,7 @@
     "Oceans & Seas"
   ],
   "hero": {
-    "image": "assets/meel/MEEL00AA.png",
+    "image": "assets/meel/MEEL00AA.webp",
     "alt": "Moray Eel"
   },
   "intro": "With its powerful jaws open to reveal jagged teeth, a moray eel may look like a venomous snake. But it's a type of fish, not a reptile. And although it can deliver a painful bite, it's not venomous, either, but its flesh can be poisonous to eat. Morays may look ferocious as they open and close their jaws, but they're not trying to scare anybody—they're just breathing!",
@@ -50,7 +50,7 @@
     {
       "id": "eel-eating-habits",
       "title": "Eel eating habits",
-      "image": "assets/meel/MEEL01PU.png",
+      "image": "assets/meel/MEEL01PU.webp",
       "text": "There are more than 600 kinds of eels, and they come in all shapes and sizes. Each has its favorite food. But in general, adult eels eat mostly small fish, mollusks, and crustaceans.",
       "captions": [
         {
@@ -78,19 +78,19 @@
     {
       "id": "hiding-in-holes",
       "title": "Hiding in holes",
-      "image": "assets/meel/MEEL02PU.png",
+      "image": "assets/meel/MEEL02PU.webp",
       "text": "Moray eels don't normally cruise around reefs, stalking their prey. Instead, they hide in holes among the rocks and coral. When a small fish or crab comes close, wham!—the eel suddenly darts out and grabs it with its sharp teeth. If a diver comes too close to a moray's hiding place, the eel may mistake a hand or foot for a fish."
     },
     {
       "id": "not-so-mean",
       "title": "Not so mean",
-      "image": "assets/meel/MEEL03PU.png",
+      "image": "assets/meel/MEEL03PU.webp",
       "text": "Some divers have been known to touch moray eels and to feed them by hand. Most morays are really pretty shy creatures that aren't looking for trouble. They don't bite unless they feel threatened or unless they mistake some part of a person for food. Many cases of morays biting people have occurred after divers speared the poor eels!"
     },
     {
       "id": "what-big-mouths",
       "title": "What big mouths!",
-      "image": "assets/meel/MEEL04PU.png",
+      "image": "assets/meel/MEEL04PU.webp",
       "text": "Most eels live in shallow water, but these weird-looking eels have been found many kilometers below the surface! It's very dark at those depths, so some eels use glowing lures on their tails to attract fish. When fish come close, the eels open their gigantic mouths and gulp them down.",
       "captions": [
         {
@@ -106,7 +106,7 @@
     {
       "id": "ribbon-version",
       "title": "Ribbon version",
-      "image": "assets/meel/MEEL05PU.png",
+      "image": "assets/meel/MEEL05PU.webp",
       "text": "There are many different species of moray eels, in all kinds of colors and patterns, including stripes and spots. This beautiful ribbon eel is one type that many aquarium owners seek to keep as a pet. It's famous not only for its bright blue body and yellow fins, but also for the circular flares of skin that extend out from its snout."
     }
   ],
@@ -114,7 +114,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/meel/MEEL00AA.png",
+        "image": "assets/meel/MEEL00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -175,32 +175,32 @@
         ]
       },
       "eel-eating-habits": {
-        "image": "assets/meel/MEEL01PU.png",
+        "image": "assets/meel/MEEL01PU.webp",
         "back": "main"
       },
       "hiding-in-holes": {
-        "image": "assets/meel/MEEL02PU.png",
+        "image": "assets/meel/MEEL02PU.webp",
         "back": "main"
       },
       "not-so-mean": {
-        "image": "assets/meel/MEEL03PU.png",
+        "image": "assets/meel/MEEL03PU.webp",
         "back": "main"
       },
       "what-big-mouths": {
-        "image": "assets/meel/MEEL04PU.png",
+        "image": "assets/meel/MEEL04PU.webp",
         "back": "main"
       },
       "ribbon-version": {
-        "image": "assets/meel/MEEL05PU.png",
+        "image": "assets/meel/MEEL05PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/meel/MEEL00FB.png",
+        "image": "assets/meel/MEEL00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/meel/clip.mp4",
-        "poster": "assets/meel/MEEL06TV.png",
+        "poster": "assets/meel/MEEL06TV.webp",
         "back": "main"
       }
     }
@@ -213,7 +213,7 @@
   "video": {
     "title": "Who's chasing whom?",
     "src": "assets/meel/clip.mp4",
-    "poster": "assets/meel/MEEL06TV.png",
+    "poster": "assets/meel/MEEL06TV.webp",
     "caption": "There are many stories about vicious moray eels."
   }
 }

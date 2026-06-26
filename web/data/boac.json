@@ -18,7 +18,7 @@
     "Australia & Oceania"
   ],
   "hero": {
-    "image": "assets/boac/BOAC00AA.png",
+    "image": "assets/boac/BOAC00AA.webp",
     "alt": "Boa"
   },
   "intro": "Not all boas are big, spotty jungle snakes. Actually, the dozen or so big snakes called \"boa constrictors\" live in all kinds of environments throughout the Americas, from near-desert to rain forest. Other kinds of boas are found all over the world—even on islands. This beautiful arboreal emerald tree boa lives along the Amazon River in South America.",
@@ -53,25 +53,25 @@
     {
       "id": "putting-the-squeeze-on",
       "title": "Putting the squeeze on",
-      "image": "assets/boac/BOAC01PU.png",
+      "image": "assets/boac/BOAC01PU.webp",
       "text": "Getting a grip: To keep from being bitten, the snake grips the rat's head with its long front teeth, and then loops some of its body around the rat. Every time the rat exhales, the snake tightens its coils. Soon the rat can't inhale and it suffocates. Down the hatch: Each time the boa swallows, it grips the rat a little further up its body. The snake can stretch its jaws wide because the ligament that connects the two halves of its lower jaw is elastic, like a rubber band."
     },
     {
       "id": "parallel-lives",
       "title": "Parallel lives",
-      "image": "assets/boac/BOAC02PU.png",
+      "image": "assets/boac/BOAC02PU.webp",
       "text": "In appearance, this green tree python from Australia could be the identical twin of the South American emerald tree boa! These snakes look alike because they have the same type of life—they're tree-dwelling, camouflaged constrictors. But there are differences: for example, the emerald tree boa bears living young, and the green tree python lays eggs."
     },
     {
       "id": "giant-water-boa",
       "title": "Giant water boa",
-      "image": "assets/boac/BOAC03PU.png",
+      "image": "assets/boac/BOAC03PU.webp",
       "text": "Meet one of the world's biggest snakes! Experts disagree on how big an anaconda (water boa) can grow, but the maximum is probably more than 10 meters (32 ft). The snakes can weigh as much as 500 kilograms (1100 lb) and are as thick as a man's thigh."
     },
     {
       "id": "south-pacific-neighbors",
       "title": "South Pacific neighbors",
-      "image": "assets/boac/BOAC04PU.png",
+      "image": "assets/boac/BOAC04PU.webp",
       "text": "If you're visiting the Solomon Islands off the coast of Papua New Guinea, look up. You might see one of these reptiles overhead!",
       "captions": [
         {
@@ -87,7 +87,7 @@
     {
       "id": "life-in-the-rain-forest",
       "title": "Life in the rain forest",
-      "image": "assets/boac/BOAC05PU.png",
+      "image": "assets/boac/BOAC05PU.webp",
       "text": "If you're looking down at this emerald tree boa, it blends in with the leaves; if you're looking up at it, the snake blends in with the sky. This allows it to sneak up on prey, like this opossum, while giving it a shot at avoiding the keen vision of predators like the harpy eagle.",
       "captions": [
         {
@@ -99,7 +99,7 @@
     {
       "id": "colorful-kids",
       "title": "Colorful kids",
-      "image": "assets/boac/BOAC06PU.png",
+      "image": "assets/boac/BOAC06PU.webp",
       "text": "When is an emerald red? When it's an emerald tree boa. A juvenile emerald tree boa is reddish, to blend in with the low bushes it hunts in. As the youngster grows, it develops green spots that increase in number and size until the whole snake is emerald green—by which time it's spending most of its time among the green leaves of tall trees."
     }
   ],
@@ -107,7 +107,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/boac/BOAC00AA.png",
+        "image": "assets/boac/BOAC00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -184,36 +184,36 @@
         ]
       },
       "putting-the-squeeze-on": {
-        "image": "assets/boac/BOAC01PU.png",
+        "image": "assets/boac/BOAC01PU.webp",
         "back": "main"
       },
       "parallel-lives": {
-        "image": "assets/boac/BOAC02PU.png",
+        "image": "assets/boac/BOAC02PU.webp",
         "back": "main"
       },
       "giant-water-boa": {
-        "image": "assets/boac/BOAC03PU.png",
+        "image": "assets/boac/BOAC03PU.webp",
         "back": "main"
       },
       "south-pacific-neighbors": {
-        "image": "assets/boac/BOAC04PU.png",
+        "image": "assets/boac/BOAC04PU.webp",
         "back": "main"
       },
       "life-in-the-rain-forest": {
-        "image": "assets/boac/BOAC05PU.png",
+        "image": "assets/boac/BOAC05PU.webp",
         "back": "main"
       },
       "colorful-kids": {
-        "image": "assets/boac/BOAC06PU.png",
+        "image": "assets/boac/BOAC06PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/boac/BOAC00FB.png",
+        "image": "assets/boac/BOAC00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/boac/clip.mp4",
-        "poster": "assets/boac/BOAC07TV.png",
+        "poster": "assets/boac/BOAC07TV.webp",
         "back": "main"
       }
     }
@@ -226,7 +226,7 @@
   "video": {
     "title": "Birds for breakfast",
     "src": "assets/boac/clip.mp4",
-    "poster": "assets/boac/BOAC07TV.png",
+    "poster": "assets/boac/BOAC07TV.webp",
     "caption": "Adult emerald tree boas do most of their hunting in trees. They'll eat whatever they can catch among the branches—frogs and lizards, small mammals, and of course, birds. These snakes wrap their tails around a branch to anchor themselves while capturing or eating their prey."
   }
 }

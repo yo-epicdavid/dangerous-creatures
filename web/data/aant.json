@@ -21,7 +21,7 @@
     "Australia & Oceania"
   ],
   "hero": {
-    "image": "assets/aant/AANT00AA.png",
+    "image": "assets/aant/AANT00AA.webp",
     "alt": "Army Ant"
   },
   "intro": "Like tiny soldiers, army ants march along in a line that could include as many as 30 million ants! They'll eat any living thing that's too slow to get out of the way—swarming over the victim and devouring its flesh. Army ants eat mostly other creepy crawlers, even tarantulas and scorpions. But some African army ants have sharp, biting jaws and can pick a dead rhinoceros clean in fewer than three days.",
@@ -56,7 +56,7 @@
     {
       "id": "all-for-one-and-one-for-all",
       "title": "All for one and one for all",
-      "image": "assets/aant/AANT01PU.png",
+      "image": "assets/aant/AANT01PU.webp",
       "text": "Ants stick together in groups called colonies. Each colony is organized so that all the ants share the work that needs to get done. They also share the food. If one ant is hungry and another has a full stomach, the full ant will bring up food from its stomach for the hungry one.",
       "captions": [
         {
@@ -72,7 +72,7 @@
     {
       "id": "whats-hymenoptera",
       "title": "What's Hymenoptera?",
-      "image": "assets/aant/AANT02PU.png",
+      "image": "assets/aant/AANT02PU.webp",
       "text": "It's a word that means \"membrane-winged,\" and it's also the name of the group of insects that includes ants (male ants and queens have wings), bees, and wasps. Most Hymenoptera have thin waists, and many live in colonies. Bee and wasp stingers are really modified egg-laying organs—so if you get stung, you'll know that a female did it.",
       "captions": [
         {
@@ -92,7 +92,7 @@
     {
       "id": "communal-living",
       "title": "Communal living",
-      "image": "assets/aant/AANT03PU.png",
+      "image": "assets/aant/AANT03PU.webp",
       "text": "To say that an insect is \"social\" doesn't mean that it gets together with other insects to drink tea! Social insects—ants, termites, and some bees and wasps—form a colony and divide up the work. Most of the tasks are carried out by sterile (unable to reproduce) females; the males' main job is to fertilize the queen, who spends most of her life laying eggs.",
       "captions": [
         {
@@ -104,7 +104,7 @@
     {
       "id": "insect-architects",
       "title": "Insect architects",
-      "image": "assets/aant/AANT04PU.png",
+      "image": "assets/aant/AANT04PU.webp",
       "text": "Social insects such as ants, bees, wasps, and termites sometimes build elaborate nests like the ones shown here. Army ants are an exception: although they live in a large group, the colony has no permanent home. Army ants are always on the move.",
       "captions": [
         {
@@ -120,13 +120,13 @@
     {
       "id": "on-the-move",
       "title": "On the move",
-      "image": "assets/aant/AANT05PU.png",
+      "image": "assets/aant/AANT05PU.webp",
       "text": "Army ants don't nest below ground like other ants; they just make a nest out of their own bodies. Tens of thousands of ants will lock their legs together and form a huge ball, with the queen in a hollow space at the center. They sometimes form living bridges, with some ants crossing over the linked bodies of others."
     },
     {
       "id": "anteaters",
       "title": "Anteaters",
-      "image": "assets/aant/AANT06PU.png",
+      "image": "assets/aant/AANT06PU.webp",
       "text": "All ants fear anteaters, which use their sharp claws to dig into nests and then lick up ants with long, sticky tongues. This is an unusual egg-laying anteater called an echidna, which hunts ants, termites, and worms in Australia and nearby islands.",
       "captions": [
         {
@@ -140,7 +140,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/aant/AANT00AA.png",
+        "image": "assets/aant/AANT00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -209,36 +209,36 @@
         ]
       },
       "all-for-one-and-one-for-all": {
-        "image": "assets/aant/AANT01PU.png",
+        "image": "assets/aant/AANT01PU.webp",
         "back": "main"
       },
       "whats-hymenoptera": {
-        "image": "assets/aant/AANT02PU.png",
+        "image": "assets/aant/AANT02PU.webp",
         "back": "main"
       },
       "communal-living": {
-        "image": "assets/aant/AANT03PU.png",
+        "image": "assets/aant/AANT03PU.webp",
         "back": "main"
       },
       "insect-architects": {
-        "image": "assets/aant/AANT04PU.png",
+        "image": "assets/aant/AANT04PU.webp",
         "back": "main"
       },
       "on-the-move": {
-        "image": "assets/aant/AANT05PU.png",
+        "image": "assets/aant/AANT05PU.webp",
         "back": "main"
       },
       "anteaters": {
-        "image": "assets/aant/AANT06PU.png",
+        "image": "assets/aant/AANT06PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/aant/AANT00FB.png",
+        "image": "assets/aant/AANT00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/aant/clip.mp4",
-        "poster": "assets/aant/AANT07TV.png",
+        "poster": "assets/aant/AANT07TV.webp",
         "back": "main"
       }
     }
@@ -251,7 +251,7 @@
   "video": {
     "title": "Scary swarms",
     "src": "assets/aant/clip.mp4",
-    "poster": "assets/aant/AANT07TV.png",
+    "poster": "assets/aant/AANT07TV.webp",
     "caption": "Ants are too delicate to tackle larger animals on their own. So they attack in swarms, biting or stinging by the hundreds. African army ants (also known as \"driver\" or \"soldier\" ants) have vicious jaws that look like curved swords."
   }
 }

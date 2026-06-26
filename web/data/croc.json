@@ -18,7 +18,7 @@
     "Australia & Oceania"
   ],
   "hero": {
-    "image": "assets/croc/CROC00AA.png",
+    "image": "assets/croc/CROC00AA.webp",
     "alt": "Crocodile"
   },
   "intro": "Just out of the egg, a crocodile doesn't look very threatening. But this baby will grow up to be a master predator that will hunt animals many times bigger than itself. Crocodiles, one of nature's most fearsome reptiles, are also one of the earth's most successful animals—they've been around since dinosaur times!",
@@ -53,7 +53,7 @@
     {
       "id": "diving-equipment",
       "title": "Diving equipment",
-      "image": "assets/croc/CROC01PU.png",
+      "image": "assets/croc/CROC01PU.webp",
       "text": "Crocodiles and alligators have all kinds of unique underwater gear. They can see through a special, third eyelid when underwater, and they have a muscular flap that keeps their mouth separate from their windpipe. That way they don't gulp too much water when they're catching prey. Crocs can also close their ears so that water doesn't get in them.",
       "captions": [
         {
@@ -69,7 +69,7 @@
     {
       "id": "skinny-snouted-kin",
       "title": "Skinny-snouted kin",
-      "image": "assets/croc/CROC02PU.png",
+      "image": "assets/croc/CROC02PU.webp",
       "text": "The gavial is a crocodile relative that lives in India, Pakistan, Nepal, and Bangladesh. It's also known as the gharial, named for the knob on the male's nose that resembles a mud pot, or 'ghara' in the Hindi language. Males use the nose knob to produce a loud buzzing sound that warns off other males. Gavials don't really want to tangle—their slim jaws are not strong enough for fighting.",
       "captions": [
         {
@@ -81,7 +81,7 @@
     {
       "id": "where-in-the-world",
       "title": "Where in the world?",
-      "image": "assets/croc/CROC03PU.png",
+      "image": "assets/croc/CROC03PU.webp",
       "text": "Members of the crocodilian family are spread all over the world. Here's a directory of who lives where.",
       "captions": [
         {
@@ -105,25 +105,25 @@
     {
       "id": "under-the-skin",
       "title": "Under the skin",
-      "image": "assets/croc/CROC04PU.png",
+      "image": "assets/croc/CROC04PU.webp",
       "text": "The skin and skeletons of crocodilians reflect their watery life. Their skin is tough and waterproof. Their eye sockets and nostrils are set way up on their heads so that they can float with just their nose and eyes above the water. Their legs are short, so they don't move very fast on land. They're set up perfectly for swimming, though, powering through the water with S-shaped sweeps of the tail."
     },
     {
       "id": "titanic-terror",
       "title": "Titanic terror",
-      "image": "assets/croc/CROC05PU.png",
+      "image": "assets/croc/CROC05PU.webp",
       "text": "If you're swimming in salt water in Southeast Asia or northern Australia and see a tree floating toward you, you'd better look again. It could be an estuarine (or saltwater) crocodile. The largest living reptile, it can reach up to 7 meters (23 ft) in length! Unlike some other behemoths such as the whale shark, it's not a gentle giant. It's one of the few animals that truly is sometimes a \"man-eater.\""
     },
     {
       "id": "crocodile-ranch",
       "title": "Crocodile ranch",
-      "image": "assets/croc/CROC06PU.png",
+      "image": "assets/croc/CROC06PU.webp",
       "text": "For centuries, crocodiles and alligators were hunted for their skins and sometimes for their meat. It's now illegal in many places to kill these reptiles, so people who still want crocodilian skins are starting to raise these creatures in captivity, as on this crocodile \"ranch.\""
     },
     {
       "id": "gulp",
       "title": "Gulp!",
-      "image": "assets/croc/CROC07PU.png",
+      "image": "assets/croc/CROC07PU.webp",
       "text": "These indigestible objects have been found in the stomachs of crocodiles. Some of these things are parts of prey that the croc has eaten (such as quills and turtle shells), but some (such as the bracelets) may have been snatched up by mistake.",
       "captions": [
         {
@@ -137,7 +137,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/croc/CROC00AA.png",
+        "image": "assets/croc/CROC00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -214,40 +214,40 @@
         ]
       },
       "diving-equipment": {
-        "image": "assets/croc/CROC01PU.png",
+        "image": "assets/croc/CROC01PU.webp",
         "back": "main"
       },
       "skinny-snouted-kin": {
-        "image": "assets/croc/CROC02PU.png",
+        "image": "assets/croc/CROC02PU.webp",
         "back": "main"
       },
       "where-in-the-world": {
-        "image": "assets/croc/CROC03PU.png",
+        "image": "assets/croc/CROC03PU.webp",
         "back": "main"
       },
       "under-the-skin": {
-        "image": "assets/croc/CROC04PU.png",
+        "image": "assets/croc/CROC04PU.webp",
         "back": "main"
       },
       "titanic-terror": {
-        "image": "assets/croc/CROC05PU.png",
+        "image": "assets/croc/CROC05PU.webp",
         "back": "main"
       },
       "crocodile-ranch": {
-        "image": "assets/croc/CROC06PU.png",
+        "image": "assets/croc/CROC06PU.webp",
         "back": "main"
       },
       "gulp": {
-        "image": "assets/croc/CROC07PU.png",
+        "image": "assets/croc/CROC07PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/croc/CROC00FB.png",
+        "image": "assets/croc/CROC00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/croc/clip.mp4",
-        "poster": "assets/croc/CROC08TV.png",
+        "poster": "assets/croc/CROC08TV.webp",
         "back": "main"
       }
     }
@@ -260,7 +260,7 @@
   "video": {
     "title": "Gentle jaws?",
     "src": "assets/croc/clip.mp4",
-    "poster": "assets/croc/CROC08TV.png",
+    "poster": "assets/croc/CROC08TV.webp",
     "caption": "Crocodiles exercise great control over their powerful jaws. They can clamp down on prey with bone-crushing pressure, or gently crack an egg to help a hatchling out. And when Mom wants to carry baby crocs to safety, she just opens her mouth and they crawl right in."
   }
 }

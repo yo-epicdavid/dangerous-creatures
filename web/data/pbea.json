@@ -16,7 +16,7 @@
     "Polar Regions"
   ],
   "hero": {
-    "image": "assets/pbea/PBEA00AA.png",
+    "image": "assets/pbea/PBEA00AA.webp",
     "alt": "Polar Bear"
   },
   "intro": "Ice is nice if you're a polar bear. These giant carnivores migrate along with the arctic pack ice. They extend their territory south in the winter as the ice sheet grows, and they move north in the summer as the ice sheet shrinks. When the ice breaks up, they even ride the floes–the floating islands of ice–out to sea!",
@@ -51,7 +51,7 @@
     {
       "id": "check-the-fridge",
       "title": "Check the fridge",
-      "image": "assets/pbea/PBEA01PU.png",
+      "image": "assets/pbea/PBEA01PU.webp",
       "text": "Polar bears never have to worry about their food spoiling–they live in a natural icebox! Their favorite hunting technique is to wait on the ice beside a seal's air hole. When the seal comes to take a breath, the bear lunges to grab its dinner, and often dives right into the water in pursuit of its prey.",
       "captions": [
         {
@@ -67,13 +67,13 @@
     {
       "id": "sleeping-out",
       "title": "Sleeping out",
-      "image": "assets/pbea/PBEA02PU.png",
+      "image": "assets/pbea/PBEA02PU.webp",
       "text": "During the first few months of life, polar bear cubs stay in a den dug out of the ground or out of the snow. But by the time the cubs are around three months old and weigh about 10-15 kilograms (22-33 lbs), they're ready to travel with mom and learn about their wintery world. They stay with their mother for about 28-30 months."
     },
     {
       "id": "the-waters-fine",
       "title": "The water's fine!",
-      "image": "assets/pbea/PBEA03PU.png",
+      "image": "assets/pbea/PBEA03PU.webp",
       "text": "Imagine finding nearly a ton of bear paddling through icy seas miles from the nearest land! That's not an unusual situation for polar bears–these well-insulated beasts have been found hundreds of kilometers out to sea! Not only are they practically unsinkable, but these expert paddlers can move along at up to 9.7 kilometers (6 mi) per hour. This bear is shown in the company of two other arctic swimmers.",
       "captions": [
         {
@@ -89,19 +89,19 @@
     {
       "id": "ice-traveler",
       "title": "Ice traveler",
-      "image": "assets/pbea/PBEA04PU.png",
+      "image": "assets/pbea/PBEA04PU.webp",
       "text": "Polar bears often hunt for seals right at the edges of the pack ice. This does have its disadvantages, because ice tends to break up and move around. This mobile lifestyle poses no problem for these animals! Polar bears think nothing of leaping from floe to floe, or diving headlong into the icy water and striking out for a new locale."
     },
     {
       "id": "pesky-rival",
       "title": "Pesky rival",
-      "image": "assets/pbea/PBEA05PU.png",
+      "image": "assets/pbea/PBEA05PU.webp",
       "text": "An arctic fox is often seen trailing along behind a polar bear. These crafty little carnivores have been known to subsist mostly on lemmings in some areas, but most will eat almost anything, dead or alive. They frequently follow wolves and polar bears in hopes of getting a bite or two of the larger animal's kill."
     },
     {
       "id": "begging-for-trouble",
       "title": "Begging for trouble",
-      "image": "assets/pbea/PBEA06PU.png",
+      "image": "assets/pbea/PBEA06PU.webp",
       "text": "Some polar bears have become town pests, foraging through garbage dumps for their food. This unnatural behavior is not healthy for the bears or for the local people. A polar bear's normal diet is almost 100% meat, and that's what the bear's teeth and stomach are designed to handle. The people on this bus may think that this bear is just curious, but it's probably wondering what food they have to share!"
     }
   ],
@@ -109,7 +109,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/pbea/PBEA00AA.png",
+        "image": "assets/pbea/PBEA00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -178,36 +178,36 @@
         ]
       },
       "check-the-fridge": {
-        "image": "assets/pbea/PBEA01PU.png",
+        "image": "assets/pbea/PBEA01PU.webp",
         "back": "main"
       },
       "sleeping-out": {
-        "image": "assets/pbea/PBEA02PU.png",
+        "image": "assets/pbea/PBEA02PU.webp",
         "back": "main"
       },
       "the-waters-fine": {
-        "image": "assets/pbea/PBEA03PU.png",
+        "image": "assets/pbea/PBEA03PU.webp",
         "back": "main"
       },
       "ice-traveler": {
-        "image": "assets/pbea/PBEA04PU.png",
+        "image": "assets/pbea/PBEA04PU.webp",
         "back": "main"
       },
       "pesky-rival": {
-        "image": "assets/pbea/PBEA05PU.png",
+        "image": "assets/pbea/PBEA05PU.webp",
         "back": "main"
       },
       "begging-for-trouble": {
-        "image": "assets/pbea/PBEA06PU.png",
+        "image": "assets/pbea/PBEA06PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/pbea/PBEA00FB.png",
+        "image": "assets/pbea/PBEA00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/pbea/clip.mp4",
-        "poster": "assets/pbea/PBEA07TV.png",
+        "poster": "assets/pbea/PBEA07TV.webp",
         "back": "main"
       }
     }
@@ -220,7 +220,7 @@
   "video": {
     "title": "Polar protection",
     "src": "assets/pbea/clip.mp4",
-    "poster": "assets/pbea/PBEA07TV.png",
+    "poster": "assets/pbea/PBEA07TV.webp",
     "caption": "Polar bears are covered with fur from head to toe–only the tips of their noses and small pads on their feet are hairless. Their fur is hollow, so it traps air inside. Not only does this make them buoyant in water, but as in double-paned windows, the layer of air provides insulation between their warm bodies and the cold arctic air and water. Bears' ears are small and rounded to help conserve body warmth in sub-zero temperatures."
   }
 }

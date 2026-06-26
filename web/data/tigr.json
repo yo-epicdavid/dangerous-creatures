@@ -17,7 +17,7 @@
     "Asia"
   ],
   "hero": {
-    "image": "assets/tigr/TIGR00AA.png",
+    "image": "assets/tigr/TIGR00AA.webp",
     "alt": "Tiger"
   },
   "intro": "A restless spirit that could appear in many forms—that's how many ancient cultures saw the tiger. Sadly, these beautiful spirits have been nearly eradicated from the face of the earth. These cats have been killed for sport, out of fear, or for profit. In some Asian countries, powdered tiger bone is still valued as a potent medicine.",
@@ -52,31 +52,31 @@
     {
       "id": "stripes-and-shadows",
       "title": "Stripes and shadows",
-      "image": "assets/tigr/TIGR01PU.png",
+      "image": "assets/tigr/TIGR01PU.webp",
       "text": "Unlike savanna cats such as lions and cheetahs, a tiger never hunts in open country, but instead sneaks up on its prey under the cover of tall grass or brush. Its vertically striped coat is perfect for breaking up the cat's shape to blend in with stalks, grasses, and forest shadows. Imagine the shock of suddenly seeing this pair of yellow eyes fixed on you!"
     },
     {
       "id": "water-lovers",
       "title": "Water lovers",
-      "image": "assets/tigr/TIGR02PU.png",
+      "image": "assets/tigr/TIGR02PU.webp",
       "text": "If you're in tiger country and want to see one of the big cats, head for the nearest water. Tigers often wait for prey near a water hole. If they make a big kill they can't eat all at once, they hide the remains close to the water so they can come back later for more food and drink. In hot weather, a tiger will often lie in a stream to cool off."
     },
     {
       "id": "mother-and-mentor",
       "title": "Mother and mentor",
-      "image": "assets/tigr/TIGR03PU.png",
+      "image": "assets/tigr/TIGR03PU.webp",
       "text": "A tiger family consists of mom and the cubs–the father doesn't stick around after mating with the female. The cubs stay with their mother for about two years, learning to be skillful hunters. Then they leave to establish their own territories, and mom looks for a suitable father to sire her next litter."
     },
     {
       "id": "fierce-loners",
       "title": "Fierce loners",
-      "image": "assets/tigr/TIGR04PU.png",
+      "image": "assets/tigr/TIGR04PU.webp",
       "text": "Tigers live and hunt alone, except when a male and female briefly come together to mate, or when a female is raising her cubs. Each adult tiger controls a large territory—some males range over hundreds of square kilometers! Neighboring tigers often know each other and sometimes even share kills. But bloody fights can occur if a strange tiger suddenly shows up or if one tiger steals food from another."
     },
     {
       "id": "power-hunter",
       "title": "Power hunter",
-      "image": "assets/tigr/TIGR05PU.png",
+      "image": "assets/tigr/TIGR05PU.webp",
       "text": "The tiger is the biggest and most muscular of all cats. After stalking its prey, it leaps onto its victim's back. Sometimes the attack breaks the animal's neck. At other times the tiger kills with a bite to the back of the neck or with a stranglehold on the throat.",
       "captions": [
         {
@@ -88,7 +88,7 @@
     {
       "id": "born-blind-and-toothless",
       "title": "Born blind and toothless",
-      "image": "assets/tigr/TIGR06PU.png",
+      "image": "assets/tigr/TIGR06PU.webp",
       "text": "Just like kittens, tiger cubs are born blind and without teeth. They're tiny and helpless when they're little–but they don't stay that way for long! Cubs, also like domestic kittens, learn to hunt and fight through playing. At 11 months, they begin to accompany their mother on hunts. By the time they're two years old, they're skillful hunters and go on their own."
     }
   ],
@@ -96,7 +96,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/tigr/TIGR00AA.png",
+        "image": "assets/tigr/TIGR00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -165,36 +165,36 @@
         ]
       },
       "stripes-and-shadows": {
-        "image": "assets/tigr/TIGR01PU.png",
+        "image": "assets/tigr/TIGR01PU.webp",
         "back": "main"
       },
       "water-lovers": {
-        "image": "assets/tigr/TIGR02PU.png",
+        "image": "assets/tigr/TIGR02PU.webp",
         "back": "main"
       },
       "mother-and-mentor": {
-        "image": "assets/tigr/TIGR03PU.png",
+        "image": "assets/tigr/TIGR03PU.webp",
         "back": "main"
       },
       "fierce-loners": {
-        "image": "assets/tigr/TIGR04PU.png",
+        "image": "assets/tigr/TIGR04PU.webp",
         "back": "main"
       },
       "power-hunter": {
-        "image": "assets/tigr/TIGR05PU.png",
+        "image": "assets/tigr/TIGR05PU.webp",
         "back": "main"
       },
       "born-blind-and-toothless": {
-        "image": "assets/tigr/TIGR06PU.png",
+        "image": "assets/tigr/TIGR06PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/tigr/TIGR00FB.png",
+        "image": "assets/tigr/TIGR00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/tigr/clip.mp4",
-        "poster": "assets/tigr/TIGR07TV.png",
+        "poster": "assets/tigr/TIGR07TV.webp",
         "back": "main"
       }
     }
@@ -207,7 +207,7 @@
   "video": {
     "title": "Tiger territory",
     "src": "assets/tigr/clip.mp4",
-    "poster": "assets/tigr/TIGR07TV.png",
+    "poster": "assets/tigr/TIGR07TV.webp",
     "caption": "Tigers once roamed over much of Asia, but now there aren't many remaining in the wild. Once many people needed to be protected from tigers, now tigers need protection from people. When we set aside areas for tiger territory, we're also saving many other species that share the habitat of these big cats."
   }
 }

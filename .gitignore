@@ -1,6 +1,8 @@
-# Raw disc image + extracted original (copyrighted) media — never commit
+# Raw disc image — never commit (huge; regenerate from the ISO)
 _source/
-web/assets/
+
+# NOTE: web/assets/ (WebP/MP3/MP4) IS committed for deployment — non-commercial
+# educational preservation, fully credited (see web/credits.html).
 
 # OS / tooling
 .DS_Store

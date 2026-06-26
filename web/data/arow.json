@@ -16,7 +16,7 @@
     "South America"
   ],
   "hero": {
-    "image": "assets/arow/AROW00AA.png",
+    "image": "assets/arow/AROW00AA.webp",
     "alt": "Poison Arrow Frog"
   },
   "intro": "The most powerful known poison is produced by one kind of these tiny, jewel-like animals. An amount smaller than a grain of salt can kill a human. Some groups of forest people use the toxin of poison arrow frogs to make deadly weapons. But these social frogs of Central and South America are harmless if they're left alone.",
@@ -51,13 +51,13 @@
     {
       "id": "colorful-cousins",
       "title": "Colorful cousins",
-      "image": "assets/arow/AROW01PU.png",
+      "image": "assets/arow/AROW01PU.webp",
       "text": "Even a scientist might not know exactly which species each of these frogs belongs to! Poison arrow frogs and their Madagascan relatives, the mantellas, are polychromatic. This means that frogs of the same kind can have different colors or different patterns."
     },
     {
       "id": "babes-in-the-woods",
       "title": "Babes in the woods",
-      "image": "assets/arow/AROW02PU.png",
+      "image": "assets/arow/AROW02PU.webp",
       "text": "Poison arrow frogs are forest frogs. They don't return to water to reproduce. Instead, they lay their eggs on a leaf or on a patch of ground that they've carefully cleared, and then they guard the eggs until the tadpoles hatch.",
       "captions": [
         {
@@ -77,7 +77,7 @@
     {
       "id": "the-most-poisonous",
       "title": "The most poisonous",
-      "image": "assets/arow/AROW03PU.png",
+      "image": "assets/arow/AROW03PU.webp",
       "text": "An animal doesn't have to be big to be dangerous. Some of the world's most deadly beasts are tiny and look as harmless as flowers!",
       "captions": [
         {
@@ -93,7 +93,7 @@
     {
       "id": "forest-frogs",
       "title": "Forest frogs",
-      "image": "assets/arow/AROW04PU.png",
+      "image": "assets/arow/AROW04PU.webp",
       "text": "When most people think of frogs, they think of ponds or rivers. But many frogs have moved up in the world—they spend their entire lives in trees.",
       "captions": [
         {
@@ -109,7 +109,7 @@
     {
       "id": "hide-and-seek",
       "title": "Hide and seek",
-      "image": "assets/arow/AROW05PU.png",
+      "image": "assets/arow/AROW05PU.webp",
       "text": "Tree frogs spend their days hunting for prey while hiding out from predators. By hanging onto a leaf that's big enough to hide under, they get both a shelter and a good lookout.",
       "captions": [
         {
@@ -121,25 +121,25 @@
     {
       "id": "duckbilled-cousins",
       "title": "Duckbilled cousins",
-      "image": "assets/arow/AROW06PU.png",
+      "image": "assets/arow/AROW06PU.webp",
       "text": "These odd looking tree frogs from Belize have bony eyebrows and protruding upper lips. Maybe their ducklike bills make them look like tree bark or leaves to predators. Like all tree frogs, they have large eyes."
     },
     {
       "id": "disappearing-fast",
       "title": "Disappearing fast",
-      "image": "assets/arow/AROW07PU.png",
+      "image": "assets/arow/AROW07PU.webp",
       "text": "This photograph records a gathering that may never be seen again. Many types of amphibians, like these golden toads, have periodically gathered in large groups at mating time. But in recent years, many of these gatherings haven't taken place, and in some places all toads and frogs have completely disappeared. Scientists worry that this could be a warning sign of an impending environmental disaster."
     },
     {
       "id": "eyes-and-ears",
       "title": "Eyes and ears",
-      "image": "assets/arow/AROW08PU.png",
+      "image": "assets/arow/AROW08PU.webp",
       "text": "Obviously, frogs have eyes—in fact, different frogs have different kinds of eyes. But do they have ears? As a matter of fact, amphibians, the group that includes frogs, were the first animals to have true ears. However, their ears don't stick out like ours do. Except for a circular mark that's sometimes visible behind the eyes, a frog's ears are all on the inside."
     },
     {
       "id": "underwater-senses",
       "title": "Underwater senses",
-      "image": "assets/arow/AROW09PU.png",
+      "image": "assets/arow/AROW09PU.webp",
       "text": "Many animals that live in the water have a special system of sensors called a lateral line, which can detect changes in water pressure. This lets them know when another animal or object is close by. The individual lateral-line sensors, called plaques, are easy to see on this tadpole and on this adult aquatic toad."
     }
   ],
@@ -147,7 +147,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/arow/AROW00AA.png",
+        "image": "assets/arow/AROW00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -248,48 +248,48 @@
         ]
       },
       "colorful-cousins": {
-        "image": "assets/arow/AROW01PU.png",
+        "image": "assets/arow/AROW01PU.webp",
         "back": "main"
       },
       "babes-in-the-woods": {
-        "image": "assets/arow/AROW02PU.png",
+        "image": "assets/arow/AROW02PU.webp",
         "back": "main"
       },
       "the-most-poisonous": {
-        "image": "assets/arow/AROW03PU.png",
+        "image": "assets/arow/AROW03PU.webp",
         "back": "main"
       },
       "forest-frogs": {
-        "image": "assets/arow/AROW04PU.png",
+        "image": "assets/arow/AROW04PU.webp",
         "back": "main"
       },
       "hide-and-seek": {
-        "image": "assets/arow/AROW05PU.png",
+        "image": "assets/arow/AROW05PU.webp",
         "back": "main"
       },
       "duckbilled-cousins": {
-        "image": "assets/arow/AROW06PU.png",
+        "image": "assets/arow/AROW06PU.webp",
         "back": "main"
       },
       "disappearing-fast": {
-        "image": "assets/arow/AROW07PU.png",
+        "image": "assets/arow/AROW07PU.webp",
         "back": "main"
       },
       "eyes-and-ears": {
-        "image": "assets/arow/AROW08PU.png",
+        "image": "assets/arow/AROW08PU.webp",
         "back": "main"
       },
       "underwater-senses": {
-        "image": "assets/arow/AROW09PU.png",
+        "image": "assets/arow/AROW09PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/arow/AROW00FB.png",
+        "image": "assets/arow/AROW00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/arow/clip.mp4",
-        "poster": "assets/arow/AROW10TV.png",
+        "poster": "assets/arow/AROW10TV.webp",
         "back": "main"
       }
     }
@@ -302,7 +302,7 @@
   "video": {
     "title": "Going, going...",
     "src": "assets/arow/clip.mp4",
-    "poster": "assets/arow/AROW10TV.png",
+    "poster": "assets/arow/AROW10TV.webp",
     "caption": "According to scientists worldwide, frogs are getting harder to find each year. This may be because, like all amphibians, frogs absorb air and fluids through their skin as well as through their mouths, so they're especially vulnerable to pollution and other environmental changes."
   }
 }

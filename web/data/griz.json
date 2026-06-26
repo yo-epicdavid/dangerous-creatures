@@ -17,7 +17,7 @@
     "North America"
   ],
   "hero": {
-    "image": "assets/griz/GRIZ00AA.png",
+    "image": "assets/griz/GRIZ00AA.webp",
     "alt": "Grizzly Bear"
   },
   "intro": "The largest carnivores on land today are northern bears. Massive animals with enormous teeth that can bite through steel bolts, grizzly bears can weigh as much as eight full-grown men! They can charge at a terrifying 45 kilometers (28 mi) per hour. It's a good thing for us that grizzlies rarely run after people!",
@@ -52,13 +52,13 @@
     {
       "id": "gone-fishin",
       "title": "Gone fishin'",
-      "image": "assets/griz/GRIZ01PU.png",
+      "image": "assets/griz/GRIZ01PU.webp",
       "text": "Fresh fish is a favorite food of grizzlies. The best place to spot these huge bears is at a good fishin' hole, especially when salmon swim up streams from the ocean to spawn. Some bears slap the water with their huge paws, hoping to snag a fish. Others dive underwater to grab one in their teeth."
     },
     {
       "id": "black-or-brown",
       "title": "Black or brown?",
-      "image": "assets/griz/GRIZ02PU.png",
+      "image": "assets/griz/GRIZ02PU.webp",
       "text": "In many grizzly bear areas there are black bears as well. Black bears are mostly vegetarians, although they won't pass up meat when it's easy to grab. Many so-called black bears are mistaken for grizzlies because they are really more brown than black. To decide if a bear is a grizzly or a black, look at its back: a grizzly has a hump; a black bear does not.",
       "captions": [
         {
@@ -70,7 +70,7 @@
     {
       "id": "ancient-cave-dweller",
       "title": "Ancient cave dweller",
-      "image": "assets/griz/GRIZ03PU.png",
+      "image": "assets/griz/GRIZ03PU.webp",
       "text": "Hundreds of thousands of years ago in what is now Europe, giant bears preyed on bison and other herbivores. During the ice ages, ancient humans sometimes competed with these bears for caves in which to live. How do we know? We've found paintings of the bears on the walls of the caves where early people lived, as well as fossilized bear bones on some of the cave floors.",
       "captions": [
         {
@@ -82,7 +82,7 @@
     {
       "id": "the-cub-club",
       "title": "The cub club",
-      "image": "assets/griz/GRIZ04PU.png",
+      "image": "assets/griz/GRIZ04PU.webp",
       "text": "Although an adult grizzly is as big as a bison, a newborn cub can fit into a shoebox! Grizzlies are born with their eyes shut, without fur, and weighing only 350-680 grams (12.3-23.8 oz). Over the next 10 years or so, they've got a lot of growing to do.",
       "captions": [
         {
@@ -94,13 +94,13 @@
     {
       "id": "unpredictable",
       "title": "Unpredictable",
-      "image": "assets/griz/GRIZ05PU.png",
+      "image": "assets/griz/GRIZ05PU.webp",
       "text": "It's hard to know what a grizzly might do if you met up with one. But if the grizzly stands up like this, it's either challenging you because you're too close, or trying to figure out if you'd make a good meal. In either case, start backing away slowly. Some people have found that shouting or waving their arms can also make a big bear back down."
     },
     {
       "id": "asian-relatives",
       "title": "Asian relatives",
-      "image": "assets/griz/GRIZ06PU.png",
+      "image": "assets/griz/GRIZ06PU.webp",
       "text": "Bears once roamed all around the world, but now they're confined to only a few places. This Asiatic black bear, also known as a Tibetan or Himalayan black bear, lives in Japan, China, and Siberia. People have been killing Asiatic blacks for centuries, so now there aren't many left. A big Asiatic black bear weighs around 100 kilograms (220 lb).",
       "captions": [
         {
@@ -112,7 +112,7 @@
     {
       "id": "whos-the-biggest",
       "title": "Who's the biggest?",
-      "image": "assets/griz/GRIZ07PU.png",
+      "image": "assets/griz/GRIZ07PU.webp",
       "text": "If bears around the world got together to see who was the biggest, who would win?",
       "captions": [
         {
@@ -134,7 +134,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/griz/GRIZ00AA.png",
+        "image": "assets/griz/GRIZ00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -211,40 +211,40 @@
         ]
       },
       "gone-fishin": {
-        "image": "assets/griz/GRIZ01PU.png",
+        "image": "assets/griz/GRIZ01PU.webp",
         "back": "main"
       },
       "black-or-brown": {
-        "image": "assets/griz/GRIZ02PU.png",
+        "image": "assets/griz/GRIZ02PU.webp",
         "back": "main"
       },
       "ancient-cave-dweller": {
-        "image": "assets/griz/GRIZ03PU.png",
+        "image": "assets/griz/GRIZ03PU.webp",
         "back": "main"
       },
       "the-cub-club": {
-        "image": "assets/griz/GRIZ04PU.png",
+        "image": "assets/griz/GRIZ04PU.webp",
         "back": "main"
       },
       "unpredictable": {
-        "image": "assets/griz/GRIZ05PU.png",
+        "image": "assets/griz/GRIZ05PU.webp",
         "back": "main"
       },
       "asian-relatives": {
-        "image": "assets/griz/GRIZ06PU.png",
+        "image": "assets/griz/GRIZ06PU.webp",
         "back": "main"
       },
       "whos-the-biggest": {
-        "image": "assets/griz/GRIZ07PU.png",
+        "image": "assets/griz/GRIZ07PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/griz/GRIZ00FB.png",
+        "image": "assets/griz/GRIZ00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/griz/clip.mp4",
-        "poster": "assets/griz/GRIZ08TV.png",
+        "poster": "assets/griz/GRIZ08TV.webp",
         "back": "main"
       }
     }
@@ -257,7 +257,7 @@
   "video": {
     "title": "Territorial disputes",
     "src": "assets/griz/clip.mp4",
-    "poster": "assets/griz/GRIZ08TV.png",
+    "poster": "assets/griz/GRIZ08TV.webp",
     "caption": "Grizzly bears don't always get along with each other. A mother grizzly will try to scare away adult males, because sometimes they kill cubs. And adult male bears don't like to share their territory with other adult males, so if two meet, there's usually a shoving match to decide who gets to stay."
   }
 }

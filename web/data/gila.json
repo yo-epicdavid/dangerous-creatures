@@ -16,7 +16,7 @@
     "North America"
   ],
   "hero": {
-    "image": "assets/gila/GILA00AA.png",
+    "image": "assets/gila/GILA00AA.webp",
     "alt": "Gila Monster"
   },
   "intro": "Imagine a venomous bulldog, colored like a beadwork purse and shrunk to only a few inches tall. That'll give you an idea of what a Gila monster is like. When threatened, these lizards clamp onto their target with sharp teeth and chew venom into the wound. Despite that fact, Gila monsters are becoming hard to find in the wild because too many have been captured and kept as pets.",
@@ -51,7 +51,7 @@
     {
       "id": "yellow-and-black-stay-back",
       "title": "Yellow and black—stay back!",
-      "image": "assets/gila/GILA01PU.png",
+      "image": "assets/gila/GILA01PU.webp",
       "text": "You're not likely to run into any Gila monsters, because they spend most of their time in burrows underground. But if you did, a glance at those bright colors should be enough to warn you, \"Hands off!\"",
       "captions": [
         {
@@ -67,7 +67,7 @@
     {
       "id": "groovy-teeth",
       "title": "Groovy teeth",
-      "image": "assets/gila/GILA02PU.png",
+      "image": "assets/gila/GILA02PU.webp",
       "text": "Scientists aren't sure, but they think that a Gila monster's venom is for defense rather than hunting. Gila monsters are so slow that they eat only foods that can't run away—like eggs or baby animals.",
       "captions": [
         {
@@ -79,7 +79,7 @@
     {
       "id": "rough-neighborhood",
       "title": "Rough neighborhood",
-      "image": "assets/gila/GILA03PU.png",
+      "image": "assets/gila/GILA03PU.webp",
       "text": "Gila monsters may not be your idea of cute and cuddly, but they fit right in with their venomous neighbors—a few of which you can see here. The desert's no place for a wimp!",
       "captions": [
         {
@@ -99,7 +99,7 @@
     {
       "id": "life-in-a-frying-pan",
       "title": "Life in a frying pan",
-      "image": "assets/gila/GILA04PU.png",
+      "image": "assets/gila/GILA04PU.webp",
       "text": "Desert reptiles live in places that have little water, few spots to hide, and temperatures that can reach 55°C (131°F) in the day and below freezing at night. They've had to develop special techniques for dealing with these extremes.",
       "captions": [
         {
@@ -111,7 +111,7 @@
     {
       "id": "sand-swimmer",
       "title": "Sand swimmer",
-      "image": "assets/gila/GILA05PU.png",
+      "image": "assets/gila/GILA05PU.webp",
       "text": "This lizard gets its name from its ability to \"swim\" through loose sand. Like the Gila monster, it stores fat in its tail for nourishment during hibernation and when food is scarce.",
       "captions": [
         {
@@ -123,7 +123,7 @@
     {
       "id": "only-one-other",
       "title": "Only one other",
-      "image": "assets/gila/GILA06PU.png",
+      "image": "assets/gila/GILA06PU.webp",
       "text": "You shouldn't sit up nights worrying about meeting venomous lizards. There are only two: the Gila monster, and the beaded lizard, which you'll find in wooded areas of western Mexico. Like Gila monsters, beaded lizards are slow and prefer hiding to fighting."
     }
   ],
@@ -131,7 +131,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/gila/GILA00AA.png",
+        "image": "assets/gila/GILA00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -200,36 +200,36 @@
         ]
       },
       "yellow-and-black-stay-back": {
-        "image": "assets/gila/GILA01PU.png",
+        "image": "assets/gila/GILA01PU.webp",
         "back": "main"
       },
       "groovy-teeth": {
-        "image": "assets/gila/GILA02PU.png",
+        "image": "assets/gila/GILA02PU.webp",
         "back": "main"
       },
       "rough-neighborhood": {
-        "image": "assets/gila/GILA03PU.png",
+        "image": "assets/gila/GILA03PU.webp",
         "back": "main"
       },
       "life-in-a-frying-pan": {
-        "image": "assets/gila/GILA04PU.png",
+        "image": "assets/gila/GILA04PU.webp",
         "back": "main"
       },
       "sand-swimmer": {
-        "image": "assets/gila/GILA05PU.png",
+        "image": "assets/gila/GILA05PU.webp",
         "back": "main"
       },
       "only-one-other": {
-        "image": "assets/gila/GILA06PU.png",
+        "image": "assets/gila/GILA06PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/gila/GILA00FB.png",
+        "image": "assets/gila/GILA00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/gila/clip.mp4",
-        "poster": "assets/gila/GILA07TV.png",
+        "poster": "assets/gila/GILA07TV.webp",
         "back": "main"
       }
     }
@@ -242,7 +242,7 @@
   "video": {
     "title": "What's for dinner?",
     "src": "assets/gila/clip.mp4",
-    "poster": "assets/gila/GILA07TV.png",
+    "poster": "assets/gila/GILA07TV.webp",
     "caption": "A Gila monster is not a speedy predator. It's happiest when it comes across food that can't run away, like a bunch of eggs from a reptile or ground-nesting bird. Occasionally, it might capture a really slow mouse or lizard."
   }
 }

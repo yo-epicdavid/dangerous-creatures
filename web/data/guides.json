@@ -4,7 +4,7 @@
     "title": "Aboriginal Dreamtime",
     "host": "Storyteller",
     "intro": "Once upon a time, there were no computers–like the one you're using now–no books, no pens, no paper. There was no way to hold on to history except by remembering it. There was no way to pass history down, except by telling it, over and over. The Aboriginal people of Australia began doing that thirty thousand years ago, when they first came to Australia from Asia.",
-    "art": "assets/guides/tour01/intro.png",
+    "art": "assets/guides/tour01/intro.webp",
     "narration": [
       "assets/guides/tour01/step01.mp3",
       "assets/guides/tour01/step02.mp3",
@@ -26,7 +26,7 @@
     "title": "Tales from Asia",
     "host": "Storyteller",
     "intro": "Perhaps you've heard Aesop's fable about how the slow and steady tortoise won a race against the quick but flighty hare. Or maybe someone told you about the man who pulled a thorn from a lion's paw and won his eternal friendship. These tales, and many others besides, came from Asia. They've been translated into so many languages and have so many versions that it's almost impossible to say who told the story first.",
-    "art": "assets/guides/tour02/intro.png",
+    "art": "assets/guides/tour02/intro.webp",
     "narration": [
       "assets/guides/tour02/step01.mp3",
       "assets/guides/tour02/step02.mp3",
@@ -49,7 +49,7 @@
     "title": "Native American Stories",
     "host": "Storyteller",
     "intro": "When Christopher Columbus arrived in the New World, he found people there, people whom he mistakenly named \"Indians\" because he believed he had reached India. People have lived in North America for thousands of years. There are many tribes, with many different cultures. I will now share with you some of the stories that the descendants of these First Americans tell.",
-    "art": "assets/guides/tour03/intro.png",
+    "art": "assets/guides/tour03/intro.webp",
     "narration": [
       "assets/guides/tour03/step01.mp3",
       "assets/guides/tour03/step02.mp3",
@@ -71,7 +71,7 @@
     "title": "African Stories",
     "host": "Storyteller",
     "intro": "In the beginning, the Sky God owned all the stories that would ever be told. So say the Ashanti people of Ghana, in West Africa. But Anansi the spider, who was the most clever of the animals, bought them for a gourd full of hornets, a python, and a leopard. Now, as I am a storyteller, I may borrow some stories from Anansi.",
-    "art": "assets/guides/tour04/intro.png",
+    "art": "assets/guides/tour04/intro.webp",
     "narration": [
       "assets/guides/tour04/step01.mp3",
       "assets/guides/tour04/step02.mp3",
@@ -93,7 +93,7 @@
     "title": "Dumb Things People Do",
     "host": "Annie",
     "intro": "Did you know that when people get hurt by wild animals, it's usually because they're doing something really dumb?",
-    "art": "assets/guides/tour05/intro.png",
+    "art": "assets/guides/tour05/intro.webp",
     "narration": [
       "assets/guides/tour05/step01.mp3",
       "assets/guides/tour05/step02.mp3",
@@ -117,7 +117,7 @@
     "title": "Male & Female Roles",
     "host": "Annie",
     "intro": "I'm glad I'm female, and I'm also glad I'm human. Now, in the human world, males and females are finally getting pretty equal treatment, but in the animal world, being male or female can make a big difference in how your life works out.",
-    "art": "assets/guides/tour06/intro.png",
+    "art": "assets/guides/tour06/intro.webp",
     "narration": [
       "assets/guides/tour06/step01.mp3",
       "assets/guides/tour06/step02.mp3",
@@ -139,7 +139,7 @@
     "title": "Coral Reef Dive",
     "host": "Annie",
     "intro": "Got your SCUBA gear ready to go? Tanks filled up with air and regulators checked out? Let's go on a tour of a coral reef.",
-    "art": "assets/guides/tour07/intro.png",
+    "art": "assets/guides/tour07/intro.webp",
     "narration": [
       "assets/guides/tour07/step01.mp3",
       "assets/guides/tour07/step02.mp3",
@@ -163,72 +163,72 @@
       {
         "id": "swsp",
         "name": "Australian Sea Wasp",
-        "thumb": "assets/swsp/SWSP00AA.png"
+        "thumb": "assets/swsp/SWSP00AA.webp"
       },
       {
         "id": "bara",
         "name": "Barracuda",
-        "thumb": "assets/bara/BARA00AA.png"
+        "thumb": "assets/bara/BARA00AA.webp"
       },
       {
         "id": "boct",
         "name": "Blue-ringed Octopus",
-        "thumb": "assets/boct/BOCT00AA.png"
+        "thumb": "assets/boct/BOCT00AA.webp"
       },
       {
         "id": "crab",
         "name": "Crab",
-        "thumb": "assets/crab/CRAB00AA.png"
+        "thumb": "assets/crab/CRAB00AA.webp"
       },
       {
         "id": "gsqu",
         "name": "Giant Squid",
-        "thumb": "assets/gsqu/GSQU00AA.png"
+        "thumb": "assets/gsqu/GSQU00AA.webp"
       },
       {
         "id": "gwsh",
         "name": "Great White Shark",
-        "thumb": "assets/gwsh/GWSH00AA.png"
+        "thumb": "assets/gwsh/GWSH00AA.webp"
       },
       {
         "id": "hamr",
         "name": "Hammerhead Shark",
-        "thumb": "assets/hamr/HAMR00AA.png"
+        "thumb": "assets/hamr/HAMR00AA.webp"
       },
       {
         "id": "orca",
         "name": "Killer Whale",
-        "thumb": "assets/orca/ORCA00AA.png"
+        "thumb": "assets/orca/ORCA00AA.webp"
       },
       {
         "id": "lfsh",
         "name": "Lionfish",
-        "thumb": "assets/lfsh/LFSH00AA.png"
+        "thumb": "assets/lfsh/LFSH00AA.webp"
       },
       {
         "id": "meel",
         "name": "Moray Eel",
-        "thumb": "assets/meel/MEEL00AA.png"
+        "thumb": "assets/meel/MEEL00AA.webp"
       },
       {
         "id": "porc",
         "name": "Porcupine Fish",
-        "thumb": "assets/porc/PORC00AA.png"
+        "thumb": "assets/porc/PORC00AA.webp"
       },
       {
         "id": "mwar",
         "name": "Portuguese Man-of-War",
-        "thumb": "assets/mwar/MWAR00AA.png"
+        "thumb": "assets/mwar/MWAR00AA.webp"
       },
       {
         "id": "seas",
         "name": "Sea Snake",
-        "thumb": "assets/seas/SEAS00AA.png"
+        "thumb": "assets/seas/SEAS00AA.webp"
       },
       {
         "id": "sray",
         "name": "Stingray",
-        "thumb": "assets/sray/SRAY00AA.png"
+        "thumb": "assets/sray/SRAY00AA.webp"
       }
     ]
   },
@@ -237,7 +237,7 @@
     "title": "Really Tough Shots",
     "host": "Annie",
     "intro": "Got the itch to be a wildlife photographer? It's not for wimps–it requires a lot of patience, and sometimes it takes guts to put yourself into the situations you need for great pictures. Come along and I'll show you some of the tough shots to get.",
-    "art": "assets/guides/tour08/intro.png",
+    "art": "assets/guides/tour08/intro.webp",
     "narration": [
       "assets/guides/tour08/step01.mp3",
       "assets/guides/tour08/step02.mp3",
@@ -261,7 +261,7 @@
     "title": "Amazon Adventure",
     "host": "Fergie",
     "intro": "Welcome, gather 'round! Our paddlers are just about ready to take us on a birdwatching trip down the river into the Amazon rain forest, where, if we're lucky, we'll see a flock of brilliant parrots on the wing.",
-    "art": "assets/guides/tour09/intro.png",
+    "art": "assets/guides/tour09/intro.webp",
     "narration": [
       "assets/guides/tour09/step01.mp3",
       "assets/guides/tour09/step02.mp3",
@@ -285,87 +285,87 @@
       {
         "id": "aant",
         "name": "Army Ant",
-        "thumb": "assets/aant/AANT00AA.png"
+        "thumb": "assets/aant/AANT00AA.webp"
       },
       {
         "id": "bwid",
         "name": "Black Widow Spider",
-        "thumb": "assets/bwid/BWID00AA.png"
+        "thumb": "assets/bwid/BWID00AA.webp"
       },
       {
         "id": "boac",
         "name": "Boa",
-        "thumb": "assets/boac/BOAC00AA.png"
+        "thumb": "assets/boac/BOAC00AA.webp"
       },
       {
         "id": "cane",
         "name": "Cane Toad",
-        "thumb": "assets/cane/CANE00AA.png"
+        "thumb": "assets/cane/CANE00AA.webp"
       },
       {
         "id": "cent",
         "name": "Centipede",
-        "thumb": "assets/cent/CENT00AA.png"
+        "thumb": "assets/cent/CENT00AA.webp"
       },
       {
         "id": "coug",
         "name": "Cougar",
-        "thumb": "assets/coug/COUG00AA.png"
+        "thumb": "assets/coug/COUG00AA.webp"
       },
       {
         "id": "eeel",
         "name": "Electric Eel",
-        "thumb": "assets/eeel/EEEL00AA.png"
+        "thumb": "assets/eeel/EEEL00AA.webp"
       },
       {
         "id": "harp",
         "name": "Harpy Eagle",
-        "thumb": "assets/harp/HARP00AA.png"
+        "thumb": "assets/harp/HARP00AA.webp"
       },
       {
         "id": "jagu",
         "name": "Jaguar",
-        "thumb": "assets/jagu/JAGU00AA.png"
+        "thumb": "assets/jagu/JAGU00AA.webp"
       },
       {
         "id": "kbee",
         "name": "Killer Bee",
-        "thumb": "assets/kbee/KBEE00AA.png"
+        "thumb": "assets/kbee/KBEE00AA.webp"
       },
       {
         "id": "post",
         "name": "Passion-vine Caterpillar",
-        "thumb": "assets/post/POST00AA.png"
+        "thumb": "assets/post/POST00AA.webp"
       },
       {
         "id": "pira",
         "name": "Piranha",
-        "thumb": "assets/pira/PIRA00AA.png"
+        "thumb": "assets/pira/PIRA00AA.webp"
       },
       {
         "id": "arow",
         "name": "Poison Arrow Frog",
-        "thumb": "assets/arow/AROW00AA.png"
+        "thumb": "assets/arow/AROW00AA.webp"
       },
       {
         "id": "rttl",
         "name": "Rattlesnake",
-        "thumb": "assets/rttl/RTTL00AA.png"
+        "thumb": "assets/rttl/RTTL00AA.webp"
       },
       {
         "id": "snap",
         "name": "Snapping Turtle",
-        "thumb": "assets/snap/SNAP00AA.png"
+        "thumb": "assets/snap/SNAP00AA.webp"
       },
       {
         "id": "sray",
         "name": "Stingray",
-        "thumb": "assets/sray/SRAY00AA.png"
+        "thumb": "assets/sray/SRAY00AA.webp"
       },
       {
         "id": "vamp",
         "name": "Vampire Bat",
-        "thumb": "assets/vamp/VAMP00AA.png"
+        "thumb": "assets/vamp/VAMP00AA.webp"
       }
     ]
   },
@@ -374,7 +374,7 @@
     "title": "Australian Walkabout",
     "host": "Fergie",
     "intro": "Here we are in Australia, ready to go–as the Aboriginal people would say–on walkabout. That means going off into the bush. We'll see a lot of odd creatures here–monotremes and marsupials. Well, they're no more odd than we are really, except they live only in Australia and on surrounding islands. Got your hats and walking sticks ready? Hopefully we won't need more than one first aid kit...",
-    "art": "assets/guides/tour10/intro.png",
+    "art": "assets/guides/tour10/intro.webp",
     "narration": [
       "assets/guides/tour10/step01.mp3",
       "assets/guides/tour10/step02.mp3",
@@ -396,57 +396,57 @@
       {
         "id": "aant",
         "name": "Army Ant",
-        "thumb": "assets/aant/AANT00AA.png"
+        "thumb": "assets/aant/AANT00AA.webp"
       },
       {
         "id": "swsp",
         "name": "Australian Sea Wasp",
-        "thumb": "assets/swsp/SWSP00AA.png"
+        "thumb": "assets/swsp/SWSP00AA.webp"
       },
       {
         "id": "bwid",
         "name": "Black Widow Spider",
-        "thumb": "assets/bwid/BWID00AA.png"
+        "thumb": "assets/bwid/BWID00AA.webp"
       },
       {
         "id": "boac",
         "name": "Boa",
-        "thumb": "assets/boac/BOAC00AA.png"
+        "thumb": "assets/boac/BOAC00AA.webp"
       },
       {
         "id": "cane",
         "name": "Cane Toad",
-        "thumb": "assets/cane/CANE00AA.png"
+        "thumb": "assets/cane/CANE00AA.webp"
       },
       {
         "id": "croc",
         "name": "Crocodile",
-        "thumb": "assets/croc/CROC00AA.png"
+        "thumb": "assets/croc/CROC00AA.webp"
       },
       {
         "id": "funl",
         "name": "Funnel-web Spider",
-        "thumb": "assets/funl/FUNL00AA.png"
+        "thumb": "assets/funl/FUNL00AA.webp"
       },
       {
         "id": "plat",
         "name": "Platypus",
-        "thumb": "assets/plat/PLAT00AA.png"
+        "thumb": "assets/plat/PLAT00AA.webp"
       },
       {
         "id": "pyth",
         "name": "Python",
-        "thumb": "assets/pyth/PYTH00AA.png"
+        "thumb": "assets/pyth/PYTH00AA.webp"
       },
       {
         "id": "tran",
         "name": "Tarantula",
-        "thumb": "assets/tran/TRAN00AA.png"
+        "thumb": "assets/tran/TRAN00AA.webp"
       },
       {
         "id": "tasm",
         "name": "Tasmanian Devil",
-        "thumb": "assets/tasm/TASM00AA.png"
+        "thumb": "assets/tasm/TASM00AA.webp"
       }
     ]
   },
@@ -455,7 +455,7 @@
     "title": "African Safari",
     "host": "Fergie",
     "intro": "Ready to go on safari? No promises, now — when you're on safari, you just see what you see. You can't make wild animals magically appear on command. After all, we're visitors in their world. Africa does have an incredible variety of wild animals, though, so I'm sure we'll run across some exciting ones.",
-    "art": "assets/guides/tour11/intro.png",
+    "art": "assets/guides/tour11/intro.webp",
     "narration": [
       "assets/guides/tour11/step01.mp3",
       "assets/guides/tour11/step02.mp3",
@@ -478,112 +478,112 @@
       {
         "id": "aant",
         "name": "Army Ant",
-        "thumb": "assets/aant/AANT00AA.png"
+        "thumb": "assets/aant/AANT00AA.webp"
       },
       {
         "id": "babn",
         "name": "Baboon",
-        "thumb": "assets/babn/BABN00AA.png"
+        "thumb": "assets/babn/BABN00AA.webp"
       },
       {
         "id": "mamb",
         "name": "Black Mamba",
-        "thumb": "assets/mamb/MAMB00AA.png"
+        "thumb": "assets/mamb/MAMB00AA.webp"
       },
       {
         "id": "bwid",
         "name": "Black Widow Spider",
-        "thumb": "assets/bwid/BWID00AA.png"
+        "thumb": "assets/bwid/BWID00AA.webp"
       },
       {
         "id": "boac",
         "name": "Boa",
-        "thumb": "assets/boac/BOAC00AA.png"
+        "thumb": "assets/boac/BOAC00AA.webp"
       },
       {
         "id": "cbuf",
         "name": "Cape Buffalo",
-        "thumb": "assets/cbuf/CBUF00AA.png"
+        "thumb": "assets/cbuf/CBUF00AA.webp"
       },
       {
         "id": "cdog",
         "name": "Cape Hunting Dog",
-        "thumb": "assets/cdog/CDOG00AA.png"
+        "thumb": "assets/cdog/CDOG00AA.webp"
       },
       {
         "id": "cent",
         "name": "Centipede",
-        "thumb": "assets/cent/CENT00AA.png"
+        "thumb": "assets/cent/CENT00AA.webp"
       },
       {
         "id": "chee",
         "name": "Cheetah",
-        "thumb": "assets/chee/CHEE00AA.png"
+        "thumb": "assets/chee/CHEE00AA.webp"
       },
       {
         "id": "cobr",
         "name": "Cobra",
-        "thumb": "assets/cobr/COBR00AA.png"
+        "thumb": "assets/cobr/COBR00AA.webp"
       },
       {
         "id": "croc",
         "name": "Crocodile",
-        "thumb": "assets/croc/CROC00AA.png"
+        "thumb": "assets/croc/CROC00AA.webp"
       },
       {
         "id": "elef",
         "name": "Elephant",
-        "thumb": "assets/elef/ELEF00AA.png"
+        "thumb": "assets/elef/ELEF00AA.webp"
       },
       {
         "id": "fsal",
         "name": "Fire Salamander",
-        "thumb": "assets/fsal/FSAL00AA.png"
+        "thumb": "assets/fsal/FSAL00AA.webp"
       },
       {
         "id": "hipp",
         "name": "Hippopotamus",
-        "thumb": "assets/hipp/HIPP00AA.png"
+        "thumb": "assets/hipp/HIPP00AA.webp"
       },
       {
         "id": "hyen",
         "name": "Hyena",
-        "thumb": "assets/hyen/HYEN00AA.png"
+        "thumb": "assets/hyen/HYEN00AA.webp"
       },
       {
         "id": "kbee",
         "name": "Killer Bee",
-        "thumb": "assets/kbee/KBEE00AA.png"
+        "thumb": "assets/kbee/KBEE00AA.webp"
       },
       {
         "id": "leop",
         "name": "Leopard",
-        "thumb": "assets/leop/LEOP00AA.png"
+        "thumb": "assets/leop/LEOP00AA.webp"
       },
       {
         "id": "lion",
         "name": "Lion",
-        "thumb": "assets/lion/LION00AA.png"
+        "thumb": "assets/lion/LION00AA.webp"
       },
       {
         "id": "pyth",
         "name": "Python",
-        "thumb": "assets/pyth/PYTH00AA.png"
+        "thumb": "assets/pyth/PYTH00AA.webp"
       },
       {
         "id": "rhin",
         "name": "Rhinoceros",
-        "thumb": "assets/rhin/RHIN00AA.png"
+        "thumb": "assets/rhin/RHIN00AA.webp"
       },
       {
         "id": "tran",
         "name": "Tarantula",
-        "thumb": "assets/tran/TRAN00AA.png"
+        "thumb": "assets/tran/TRAN00AA.webp"
       },
       {
         "id": "wart",
         "name": "Warthog",
-        "thumb": "assets/wart/WART00AA.png"
+        "thumb": "assets/wart/WART00AA.webp"
       }
     ]
   },
@@ -592,7 +592,7 @@
     "title": "North American Trek",
     "host": "Fergie",
     "intro": "In North America, you can find almost every kind of climate and habitat you can imagine, from frozen tundra to deserts to swamps to prairies. So there's a great variety of animal life there, too. Our itinerary starts in the frigid North. Got your parka on?",
-    "art": "assets/guides/tour12/intro.png",
+    "art": "assets/guides/tour12/intro.webp",
     "narration": [
       "assets/guides/tour12/step01.mp3",
       "assets/guides/tour12/step02.mp3",
@@ -616,77 +616,77 @@
       {
         "id": "alig",
         "name": "Alligator",
-        "thumb": "assets/alig/ALIG00AA.png"
+        "thumb": "assets/alig/ALIG00AA.webp"
       },
       {
         "id": "bwid",
         "name": "Black Widow Spider",
-        "thumb": "assets/bwid/BWID00AA.png"
+        "thumb": "assets/bwid/BWID00AA.webp"
       },
       {
         "id": "cent",
         "name": "Centipede",
-        "thumb": "assets/cent/CENT00AA.png"
+        "thumb": "assets/cent/CENT00AA.webp"
       },
       {
         "id": "coug",
         "name": "Cougar",
-        "thumb": "assets/coug/COUG00AA.png"
+        "thumb": "assets/coug/COUG00AA.webp"
       },
       {
         "id": "croc",
         "name": "Crocodile",
-        "thumb": "assets/croc/CROC00AA.png"
+        "thumb": "assets/croc/CROC00AA.webp"
       },
       {
         "id": "gila",
         "name": "Gila Monster",
-        "thumb": "assets/gila/GILA00AA.png"
+        "thumb": "assets/gila/GILA00AA.webp"
       },
       {
         "id": "griz",
         "name": "Grizzly Bear",
-        "thumb": "assets/griz/GRIZ00AA.png"
+        "thumb": "assets/griz/GRIZ00AA.webp"
       },
       {
         "id": "harp",
         "name": "Harpy Eagle",
-        "thumb": "assets/harp/HARP00AA.png"
+        "thumb": "assets/harp/HARP00AA.webp"
       },
       {
         "id": "jagu",
         "name": "Jaguar",
-        "thumb": "assets/jagu/JAGU00AA.png"
+        "thumb": "assets/jagu/JAGU00AA.webp"
       },
       {
         "id": "kbee",
         "name": "Killer Bee",
-        "thumb": "assets/kbee/KBEE00AA.png"
+        "thumb": "assets/kbee/KBEE00AA.webp"
       },
       {
         "id": "pbea",
         "name": "Polar Bear",
-        "thumb": "assets/pbea/PBEA00AA.png"
+        "thumb": "assets/pbea/PBEA00AA.webp"
       },
       {
         "id": "rttl",
         "name": "Rattlesnake",
-        "thumb": "assets/rttl/RTTL00AA.png"
+        "thumb": "assets/rttl/RTTL00AA.webp"
       },
       {
         "id": "snap",
         "name": "Snapping Turtle",
-        "thumb": "assets/snap/SNAP00AA.png"
+        "thumb": "assets/snap/SNAP00AA.webp"
       },
       {
         "id": "wolf",
         "name": "Wolf",
-        "thumb": "assets/wolf/WOLF00AA.png"
+        "thumb": "assets/wolf/WOLF00AA.webp"
       },
       {
         "id": "wlvr",
         "name": "Wolverine",
-        "thumb": "assets/wlvr/WLVR00AA.png"
+        "thumb": "assets/wlvr/WLVR00AA.webp"
       }
     ]
   }

@@ -17,7 +17,7 @@
     "Asia"
   ],
   "hero": {
-    "image": "assets/komd/KOMD00AA.png",
+    "image": "assets/komd/KOMD00AA.webp",
     "alt": "Komodo Dragon"
   },
   "intro": "Imagine a lizard the size of an alligator. Its teeth are razor sharp, and its claws can shred flesh like you'd rip paper. It can stand on its hind legs, climb, swim, burrow–and it runs as fast as you can. However, this giant monitor lizard from Indonesia doesn't hunt humans. It'll eat just about any other animal, though.",
@@ -52,7 +52,7 @@
     {
       "id": "from-dinosaur-times",
       "title": "From dinosaur times",
-      "image": "assets/komd/KOMD01PU.png",
+      "image": "assets/komd/KOMD01PU.webp",
       "text": "Tuataras look like lizards, but they're actually the survivors (the only ones) of a group of reptiles that came into being about 220 million years ago–about the same time that the Komodo dragon's ancestors were swimming through ancient seas. Today, tuataras live only on about twenty small islands near New Zealand.",
       "captions": [
         {
@@ -68,13 +68,13 @@
     {
       "id": "food-fight",
       "title": "Food fight",
-      "image": "assets/komd/KOMD02PU.png",
+      "image": "assets/komd/KOMD02PU.webp",
       "text": "Imagine going to dinner with cannibals! Komodo dragons do it all the time. They share carrion and large kills, but they also prey on each other. So the dragons have a pecking order worked out to keep mealtimes safe. The biggest always eat first, while the smaller ones do a kind of dance that says, \"I'm no threat–don't hurt me!\""
     },
     {
       "id": "looks-like-a-lizard",
       "title": "Looks like a lizard?",
-      "image": "assets/komd/KOMD03PU.png",
+      "image": "assets/komd/KOMD03PU.webp",
       "text": "If it's got four legs, a long tail, and scurries along close to the ground, it's a lizard, right? Well, not always. Can you spot the lizard in this group?",
       "captions": [
         {
@@ -94,7 +94,7 @@
     {
       "id": "bad-bite",
       "title": "Bad bite",
-      "image": "assets/komd/KOMD04PU.png",
+      "image": "assets/komd/KOMD04PU.webp",
       "text": "Komodo dragons don't brush their teeth after eating, and they frequently eat rotten meat. So although these monitor lizards aren't venomous, animals bitten by them often become fatally ill from the bacteria in the lizards' mouths. You don't want any of the animals on the left to bite you, either! Their bites, too, can cause sickness.",
       "captions": [
         {
@@ -114,7 +114,7 @@
     {
       "id": "monster-monitors",
       "title": "Monster monitors",
-      "image": "assets/komd/KOMD05PU.png",
+      "image": "assets/komd/KOMD05PU.webp",
       "text": "The Komodo dragon–also called an ora–is a kind of monitor lizard. Many monitors are equally at home in the trees, in the water, on the ground, or in the ground, and they'll eat any animal they can handle.",
       "captions": [
         {
@@ -132,7 +132,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/komd/KOMD00AA.png",
+        "image": "assets/komd/KOMD00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -193,32 +193,32 @@
         ]
       },
       "from-dinosaur-times": {
-        "image": "assets/komd/KOMD01PU.png",
+        "image": "assets/komd/KOMD01PU.webp",
         "back": "main"
       },
       "food-fight": {
-        "image": "assets/komd/KOMD02PU.png",
+        "image": "assets/komd/KOMD02PU.webp",
         "back": "main"
       },
       "looks-like-a-lizard": {
-        "image": "assets/komd/KOMD03PU.png",
+        "image": "assets/komd/KOMD03PU.webp",
         "back": "main"
       },
       "bad-bite": {
-        "image": "assets/komd/KOMD04PU.png",
+        "image": "assets/komd/KOMD04PU.webp",
         "back": "main"
       },
       "monster-monitors": {
-        "image": "assets/komd/KOMD05PU.png",
+        "image": "assets/komd/KOMD05PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/komd/KOMD00FB.png",
+        "image": "assets/komd/KOMD00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/komd/clip.mp4",
-        "poster": "assets/komd/KOMD06TV.png",
+        "poster": "assets/komd/KOMD06TV.webp",
         "back": "main"
       }
     }
@@ -231,7 +231,7 @@
   "video": {
     "title": "Ruling reptiles",
     "src": "assets/komd/clip.mp4",
-    "poster": "assets/komd/KOMD06TV.png",
+    "poster": "assets/komd/KOMD06TV.webp",
     "caption": "Komodo dragons live only on one small group of islands in Indonesia. The dragons are the largest predators–and the largest scavengers–on these islands. They are living reminders of a time when giant reptiles ruled the earth."
   }
 }

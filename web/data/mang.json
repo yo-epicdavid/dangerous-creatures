@@ -16,7 +16,7 @@
     "Asia"
   ],
   "hero": {
-    "image": "assets/mang/MANG00AA.png",
+    "image": "assets/mang/MANG00AA.webp",
     "alt": "Mangrove Snake"
   },
   "intro": "Coiled and ready to strike, a mangrove snake opens its mouth in warning. Its threat should be heeded–like many wasp-colored animals, it's venomous. The snake lives in Southeast Asia, spending its days resting in the branches above saltwater mangrove swamps and hunting in the evening. Its venom isn't lethal to humans, but the big snake's bite could be painful.",
@@ -51,7 +51,7 @@
     {
       "id": "rear-fanged-snakes",
       "title": "Rear-fanged snakes",
-      "image": "assets/mang/MANG01PU.png",
+      "image": "assets/mang/MANG01PU.webp",
       "text": "More than two-thirds of all snakes are colubrids, or \"harmless snakes.\" Some, like the mangrove snake, are venomous, but in most cases their venom is very weak. Venomous colubrids are called \"rear-fanged snakes\" because their fangs are in the back of their mouths. A rear-fanged snake has one to three enlarged, grooved teeth. When it bites, it chews until venom flows through the grooves and into the victim's wound.",
       "captions": [
         {
@@ -67,7 +67,7 @@
     {
       "id": "salt-swamp",
       "title": "Salt swamp",
-      "image": "assets/mang/MANG02PU.png",
+      "image": "assets/mang/MANG02PU.webp",
       "text": "Most animals can't tolerate the salty waters that mangroves grow in. But for some creatures, a mangrove swamp makes a fine home!",
       "captions": [
         {
@@ -87,13 +87,13 @@
     {
       "id": "tree-snakes",
       "title": "Tree snakes",
-      "image": "assets/mang/MANG03PU.png",
+      "image": "assets/mang/MANG03PU.webp",
       "text": "Many arboreal snakes (like these) look a lot like their surroundings. Better look twice before you grab that branch or vine. It just might be ready to crawl away!"
     },
     {
       "id": "odd-neighbors",
       "title": "Odd neighbors",
-      "image": "assets/mang/MANG04PU.png",
+      "image": "assets/mang/MANG04PU.webp",
       "text": "Mangrove trees are specially adapted to thrive in salty water along flooded riverbanks and coasts in warm, wet parts of the world. Small animals live among the big roots that anchor the trees, and larger animals splash through the swamps. The unusual animals here all live in the mangrove forests of Southeast Asia.",
       "captions": [
         {
@@ -113,7 +113,7 @@
     {
       "id": "snake-or-fake",
       "title": "Snake or fake?",
-      "image": "assets/mang/MANG05PU.png",
+      "image": "assets/mang/MANG05PU.webp",
       "text": "One theory says that about 130 million years ago, the lizards who were the ancestors of snakes took to burrowing and found that they didn't need legs to live underground. The result is that a few snakes have the skeletal remains of legs, and some lizards have no legs at all. Can you spot the snake here?",
       "captions": [
         {
@@ -131,7 +131,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/mang/MANG00AA.png",
+        "image": "assets/mang/MANG00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -192,32 +192,32 @@
         ]
       },
       "rear-fanged-snakes": {
-        "image": "assets/mang/MANG01PU.png",
+        "image": "assets/mang/MANG01PU.webp",
         "back": "main"
       },
       "salt-swamp": {
-        "image": "assets/mang/MANG02PU.png",
+        "image": "assets/mang/MANG02PU.webp",
         "back": "main"
       },
       "tree-snakes": {
-        "image": "assets/mang/MANG03PU.png",
+        "image": "assets/mang/MANG03PU.webp",
         "back": "main"
       },
       "odd-neighbors": {
-        "image": "assets/mang/MANG04PU.png",
+        "image": "assets/mang/MANG04PU.webp",
         "back": "main"
       },
       "snake-or-fake": {
-        "image": "assets/mang/MANG05PU.png",
+        "image": "assets/mang/MANG05PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/mang/MANG00FB.png",
+        "image": "assets/mang/MANG00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/mang/clip.mp4",
-        "poster": "assets/mang/MANG06TV.png",
+        "poster": "assets/mang/MANG06TV.webp",
         "back": "main"
       }
     }
@@ -230,7 +230,7 @@
   "video": {
     "title": "Vicious vine",
     "src": "assets/mang/clip.mp4",
-    "poster": "assets/mang/MANG06TV.png",
+    "poster": "assets/mang/MANG06TV.webp",
     "caption": "Like a mangrove snake, this vine snake hunts in the trees. It can lie motionless for hours, blending into the background. A frog doesn't worry about approaching this harmless-looking \"vine.\" Then–surprise! The frog finds out that this vine has teeth!"
   }
 }

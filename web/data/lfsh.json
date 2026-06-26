@@ -16,7 +16,7 @@
     "Oceans & Seas"
   ],
   "hero": {
-    "image": "assets/lfsh/LFSH00AA.png",
+    "image": "assets/lfsh/LFSH00AA.webp",
     "alt": "Lionfish"
   },
   "intro": "These beautiful fish float lazily in shallow tropical waters, their fins spread like fans. And why not? Lionfish have little to fear, because those lacy fins hide spines filled with powerful venom.",
@@ -51,7 +51,7 @@
     {
       "id": "in-the-groove",
       "title": "In the groove",
-      "image": "assets/lfsh/LFSH01PU.png",
+      "image": "assets/lfsh/LFSH01PU.webp",
       "text": "Hidden within the delicate, lacy-looking fins of the lionfish is a lethal surprise: each ray that supports a fin contains a venomous spine.",
       "captions": [
         {
@@ -67,7 +67,7 @@
     {
       "id": "whatchamacallit",
       "title": "Whatchamacallit",
-      "image": "assets/lfsh/LFSH02PU.png",
+      "image": "assets/lfsh/LFSH02PU.webp",
       "text": "The lionfish is a kind of zebrafish, which is part of a bigger group of fish named Scorpaenidae—so it's sometimes called a scorpionfish. But true scorpionfish, like the one pictured, are another genus within Scorpaenidae, as are stonefish. So a lionfish is a type of zebrafish, which is a type of scorpionfish. You see?",
       "captions": [
         {
@@ -79,7 +79,7 @@
     {
       "id": "stingers-in-the-sand",
       "title": "Stingers in the sand",
-      "image": "assets/lfsh/LFSH03PU.png",
+      "image": "assets/lfsh/LFSH03PU.webp",
       "text": "Lionfish swim around in plain sight, but these weever fish, whose spines could pierce your foot, dig holes in the ocean floor and lie in wait for passing shrimp, crabs, and worms. So step carefully!",
       "captions": [
         {
@@ -95,7 +95,7 @@
     {
       "id": "spiny-swimmers",
       "title": "Spiny swimmers",
-      "image": "assets/lfsh/LFSH04PU.png",
+      "image": "assets/lfsh/LFSH04PU.webp",
       "text": "Many kinds of fish besides the lionfish carry sharp surprises that they can use for self-defense. Spines don't have to be venomous to be effective!",
       "captions": [
         {
@@ -115,13 +115,13 @@
     {
       "id": "barbed-beauty",
       "title": "Barbed beauty",
-      "image": "assets/lfsh/LFSH05PU.png",
+      "image": "assets/lfsh/LFSH05PU.webp",
       "text": "How can this gorgeous mandarin fish flaunt its beauty without being eaten? If the sharp dorsal spine of this Pacific reef fish doesn't scare off a predator, its bad taste and smell probably will. A mandarin fish secretes a nasty-tasting mucus covering for protection."
     },
     {
       "id": "the-deadliest",
       "title": "The deadliest",
-      "image": "assets/lfsh/LFSH06PU.png",
+      "image": "assets/lfsh/LFSH06PU.webp",
       "text": "You never, ever want to step on a stonefish. It's the most dangerous kind of scorpionfish, and it looks just like a lump of coral—it even has weeds growing on it. But if you touch it—zzzing! That \"lump of coral\" sprouts fat, lethally venomous spines that can jab through even the thick rubber soles of sneakers."
     }
   ],
@@ -129,7 +129,7 @@
     "start": "main",
     "screens": {
       "main": {
-        "image": "assets/lfsh/LFSH00AA.png",
+        "image": "assets/lfsh/LFSH00AA.webp",
         "hotspots": [
           {
             "label": "Facts",
@@ -198,36 +198,36 @@
         ]
       },
       "in-the-groove": {
-        "image": "assets/lfsh/LFSH01PU.png",
+        "image": "assets/lfsh/LFSH01PU.webp",
         "back": "main"
       },
       "whatchamacallit": {
-        "image": "assets/lfsh/LFSH02PU.png",
+        "image": "assets/lfsh/LFSH02PU.webp",
         "back": "main"
       },
       "stingers-in-the-sand": {
-        "image": "assets/lfsh/LFSH03PU.png",
+        "image": "assets/lfsh/LFSH03PU.webp",
         "back": "main"
       },
       "spiny-swimmers": {
-        "image": "assets/lfsh/LFSH04PU.png",
+        "image": "assets/lfsh/LFSH04PU.webp",
         "back": "main"
       },
       "barbed-beauty": {
-        "image": "assets/lfsh/LFSH05PU.png",
+        "image": "assets/lfsh/LFSH05PU.webp",
         "back": "main"
       },
       "the-deadliest": {
-        "image": "assets/lfsh/LFSH06PU.png",
+        "image": "assets/lfsh/LFSH06PU.webp",
         "back": "main"
       },
       "facts": {
-        "image": "assets/lfsh/LFSH00FB.png",
+        "image": "assets/lfsh/LFSH00FB.webp",
         "back": "main"
       },
       "video": {
         "video": "assets/lfsh/clip.mp4",
-        "poster": "assets/lfsh/LFSH07TV.png",
+        "poster": "assets/lfsh/LFSH07TV.webp",
         "back": "main"
       }
     }
@@ -240,7 +240,7 @@
   "video": {
     "title": "Pretty impressive",
     "src": "assets/lfsh/clip.mp4",
-    "poster": "assets/lfsh/LFSH07TV.png",
+    "poster": "assets/lfsh/LFSH07TV.webp",
     "caption": "Nearly everyone who has encountered a lionfish has been impressed by it. That's why it's been given so many different names: It's been called a lionfish because it's fierce; a firefish and a devilfish because it stings; and a zebrafish because it's striped. Some people call it a turkeyfish because of the way it spreads its fins out like a male turkey proudly displaying its tail feathers."
   }
 }
