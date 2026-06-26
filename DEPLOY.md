@@ -8,11 +8,13 @@ This is a plain static site — no build step. The deployable site is the **`web
 1. The repo is on GitHub: `github.com/yo-epicdavid/dangerous-creatures`.
 2. Cloudflare dashboard → **Workers & Pages** → **Create** → **Pages** → **Connect to Git**.
 3. Pick the **dangerous-creatures** repo, branch **main**.
-4. Build settings:
-   - **Framework preset:** None
-   - **Build command:** *(leave empty)*
-   - **Build output directory:** `web`
+4. Build settings (this is the **Astro** branch):
+   - **Framework preset:** Astro
+   - **Build command:** `npm run build`
+   - **Build output directory:** `dist`
 5. **Save and Deploy.** You'll get a `https://dangerous-creatures.pages.dev` URL in ~1 minute.
+
+   (On the vanilla `main` branch instead: no build command, output directory `web`.)
 
 ## Updates
 
