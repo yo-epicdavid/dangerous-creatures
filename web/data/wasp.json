@@ -216,12 +216,11 @@
           },
           {
             "label": "Tarantula eaters",
-            "to": "tarantula-eaters",
             "x": 59,
             "y": 74,
             "w": 22,
             "h": 4,
-            "disabled": true
+            "link": "animal.html?id=tran&mode=classic"
           },
           {
             "label": "A galling situation",

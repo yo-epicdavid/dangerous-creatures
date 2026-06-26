@@ -118,12 +118,11 @@
           },
           {
             "label": "Venom Producers",
-            "to": "venom-producers",
             "x": 77,
             "y": 2,
             "w": 22,
             "h": 15,
-            "disabled": true
+            "link": "browse.html?tab=weapons#venom-poison"
           },
           {
             "label": "Lethal injection",

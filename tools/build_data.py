@@ -52,6 +52,17 @@ REGION_RULES = [
 ]
 
 
+# Category/cross-links for the original main-screen hotspots that pointed at the game's
+# guide/collection screens (now served by the Browse modes).
+HOTSPOT_LINKS = {
+    "arow": {"Fighting Back": "browse.html?tab=weapons#venom-poison"},
+    "cdog": {"Packs and Partners": "browse.html?tab=weapons#pack-swarm-attacks"},
+    "chee": {"Grassland Environments": "browse.html?tab=habitats#grassland-savanna"},
+    "scor": {"Venom Producers": "browse.html?tab=weapons#venom-poison"},
+    "wasp": {"Tarantula eaters": "animal.html?id=tran&mode=classic"},
+}
+
+
 def _hit(text, kw, mode):
     if mode == "word":      # whole word, plural-tolerant (regions: India != Indian Ocean)
         return bool(re.search(r"\b" + re.escape(kw) + r"s?\b", text))
@@ -183,9 +194,15 @@ def main():
                 resolved.append(nh)
                 report["external"].append(f"{slug}:{h.get('label')}->{cand}")
             else:
-                nh = dict(h); nh["disabled"] = True
+                link = HOTSPOT_LINKS.get(slug, {}).get((h.get("label") or "").strip())
+                nh = {k: v for k, v in h.items() if k != "to"}
+                if link:
+                    nh["link"] = link
+                    report.setdefault("linked", []).append(f"{slug}:{h.get('label')}")
+                else:
+                    nh["disabled"] = True
+                    report["disabled"].append(f"{slug}:{h.get('label')}")
                 resolved.append(nh)
-                report["disabled"].append(f"{slug}:{h.get('label')}")
         screens["main"]["hotspots"] = resolved
 
         sci_raw = d.get("scientificName", "")
@@ -250,7 +267,8 @@ def main():
         json.dump(browse, open(os.path.join(DATA, "browse.json"), "w"), indent=2, ensure_ascii=False)
     print(f"wrote {len(animals)} page files{'' if os.environ.get('SKIP_INDEX')=='1' else ' + index.json'} -> {DATA}")
     print(f"cross-animal links resolved: {len(report['external'])}  ->  {', '.join(report['external'])}")
-    print(f"disabled hotspots (category jumps, not yet built): {len(report['disabled'])}  ->  {', '.join(report['disabled'])}")
+    print(f"category-link hotspots wired: {len(report.get('linked', []))}  ->  {', '.join(report.get('linked', []))}")
+    print(f"disabled hotspots remaining: {len(report['disabled'])}  ->  {', '.join(report['disabled']) or 'none'}")
 
 
 if __name__ == "__main__":

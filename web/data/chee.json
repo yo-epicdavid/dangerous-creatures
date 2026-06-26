@@ -130,12 +130,11 @@
           },
           {
             "label": "Grassland Environments",
-            "to": "grassland-environments",
             "x": 79,
             "y": 2,
             "w": 19,
             "h": 14,
-            "disabled": true
+            "link": "browse.html?tab=habitats#grassland-savanna"
           },
           {
             "label": "Lightweights",

@@ -39,7 +39,7 @@ for fp in sorted(glob.glob(os.path.join(DATA, "*.json"))):
     # hotspot targets must resolve to a classic screen
     screens = set(d.get("classic", {}).get("screens", {}))
     for h in d["classic"]["screens"].get("main", {}).get("hotspots", []):
-        if h.get("external") or h.get("disabled"):
+        if h.get("external") or h.get("link") or h.get("disabled"):
             continue
         if h.get("to") not in screens:
             problems.append(f"{slug}: hotspot '{h.get('label')}' -> '{h.get('to')}' has no screen")

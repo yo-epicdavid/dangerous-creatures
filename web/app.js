@@ -193,9 +193,10 @@ function renderClassic(app, d) {
         const b = el("button", { className: "hotspot", title: h.label, ariaLabel: h.label });
         Object.assign(b.style, { left: h.x + "%", top: h.y + "%", width: h.w + "%", height: h.h + "%" });
         if (h.disabled) b.classList.add("hotspot--disabled");
-        if (h.external) b.classList.add("hotspot--link");
-        b.append(el("span", { className: "hotspot__tip", textContent: h.label + (h.external ? " →" : "") }));
+        if (h.external || h.link) b.classList.add("hotspot--link");
+        b.append(el("span", { className: "hotspot__tip", textContent: h.label + (h.external || h.link ? " →" : "") }));
         b.addEventListener("click", () => {
+          if (h.link) { location.href = h.link; return; }
           if (h.external) { location.href = h.external + "&mode=classic"; return; }
           if (h.disabled) return;
           if (h.to) { history.push(key); show(h.to); }

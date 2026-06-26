@@ -79,7 +79,8 @@ python3 -m http.server 8731
 - ✅ **All 66 creatures live** in both modes; fact labels 100% normalized; cross-creature links wired
 - ✅ Verified all scientific names; resolved factual flags (crab, python, mosquito, orca) via `tools/corrections.json`
 - ✅ Browse modes: **Atlas** (region) + **Weapons** (attack) auto-derived from facts, + **Habitats** (9 environments, curated in `tools/habitats.json`) — 3-tab `browse.html` UI + creature-page chips
-- ⬜ Remaining browse mode: Guides (Annie/Fergie tours); wire the 5 disabled Classic hotspots to categories
+- ✅ Wired all 5 cross-link Classic hotspots to Browse categories / creatures (0 disabled remaining)
+- ⬜ Remaining browse mode: Guides (Annie/Fergie tours)
 - ⬜ Refine Classic hotspot coordinates from `MSDANGER.THE` (currently vision-estimated)
 - ⬜ Mini-games (`GAME/*.CJS`) + guided tours (Annie/Fergie)
 - ⬜ Open-licensed media swap for public release

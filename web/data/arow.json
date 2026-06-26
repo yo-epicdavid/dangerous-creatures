@@ -239,12 +239,11 @@
           },
           {
             "label": "Fighting Back",
-            "to": "fighting-back",
             "x": 79,
             "y": 1,
             "w": 16,
             "h": 12,
-            "disabled": true
+            "link": "browse.html?tab=weapons#venom-poison"
           }
         ]
       },
