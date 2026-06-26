@@ -1,0 +1,236 @@
+{
+  "id": "lfsh",
+  "code": "LFSH",
+  "name": "Lionfish",
+  "scientificName": "Pterois volitans",
+  "needsScientificVerify": false,
+  "tagline": "Beautiful and deadly, the lionfish hides lethal venom inside its gorgeous, fan-like fins.",
+  "hero": {
+    "image": "assets/lfsh/LFSH00AA.png",
+    "alt": "Lionfish"
+  },
+  "intro": "These beautiful fish float lazily in shallow tropical waters, their fins spread like fans. And why not? Lionfish have little to fear, because those lacy fins hide spines filled with powerful venom.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Defends itself with poisonous spines",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Small fish, shellfish, and shrimp",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "For some reason, lionfish like to hang upside down under rock ledges. Maybe they think the world looks better from that angle!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 20cm (8in)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Southwestern Pacific Ocean, Indian Ocean, Red Sea",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "in-the-groove",
+      "title": "In the groove",
+      "image": "assets/lfsh/LFSH01PU.png",
+      "text": "Hidden within the delicate, lacy-looking fins of the lionfish is a lethal surprise: each ray that supports a fin contains a venomous spine.",
+      "captions": [
+        {
+          "label": "Spine setup",
+          "text": "Each spine contains a venom gland, which lies in a long central channel. The whole spine is covered with a thin layer of skin."
+        },
+        {
+          "label": "Pretty poison",
+          "text": "People who are stung by lionfish experience extreme pain and they may take a long time to recover."
+        }
+      ]
+    },
+    {
+      "id": "whatchamacallit",
+      "title": "Whatchamacallit",
+      "image": "assets/lfsh/LFSH02PU.png",
+      "text": "The lionfish is a kind of zebrafish, which is part of a bigger group of fish named Scorpaenidae—so it's sometimes called a scorpionfish. But true scorpionfish, like the one pictured, are another genus within Scorpaenidae, as are stonefish. So a lionfish is a type of zebrafish, which is a type of scorpionfish. You see?",
+      "captions": [
+        {
+          "label": "Spine-tingling relation",
+          "text": "An alarmed scorpionfish raises its sharp, venomous spines."
+        }
+      ]
+    },
+    {
+      "id": "stingers-in-the-sand",
+      "title": "Stingers in the sand",
+      "image": "assets/lfsh/LFSH03PU.png",
+      "text": "Lionfish swim around in plain sight, but these weever fish, whose spines could pierce your foot, dig holes in the ocean floor and lie in wait for passing shrimp, crabs, and worms. So step carefully!",
+      "captions": [
+        {
+          "label": "No danger now",
+          "text": "This fish is calm—its spines are relaxed."
+        },
+        {
+          "label": "Fin action",
+          "text": "The needle-sharp spines in the small dorsal fin and the spines on each gill cover contain venom. When the fish feels threatened, it raises these spines in self-defense."
+        }
+      ]
+    },
+    {
+      "id": "spiny-swimmers",
+      "title": "Spiny swimmers",
+      "image": "assets/lfsh/LFSH04PU.png",
+      "text": "Many kinds of fish besides the lionfish carry sharp surprises that they can use for self-defense. Spines don't have to be venomous to be effective!",
+      "captions": [
+        {
+          "label": "Thinly disguised",
+          "text": "Head on, the John Dory almost disappears! Its prey often don't notice the fish until it's too late."
+        },
+        {
+          "label": "Harmful handful",
+          "text": "You wouldn't want to risk being stabbed by the sharp, thick spines on the back and under the belly of the John Dory."
+        },
+        {
+          "label": "Surgeon's blade",
+          "text": "The surgeonfish keeps a razor-sharp blade of bone in a pocket on either side of its tail that it can raise and use as a cutting weapon."
+        }
+      ]
+    },
+    {
+      "id": "barbed-beauty",
+      "title": "Barbed beauty",
+      "image": "assets/lfsh/LFSH05PU.png",
+      "text": "How can this gorgeous mandarin fish flaunt its beauty without being eaten? If the sharp dorsal spine of this Pacific reef fish doesn't scare off a predator, its bad taste and smell probably will. A mandarin fish secretes a nasty-tasting mucus covering for protection."
+    },
+    {
+      "id": "the-deadliest",
+      "title": "The deadliest",
+      "image": "assets/lfsh/LFSH06PU.png",
+      "text": "You never, ever want to step on a stonefish. It's the most dangerous kind of scorpionfish, and it looks just like a lump of coral—it even has weeds growing on it. But if you touch it—zzzing! That \"lump of coral\" sprouts fat, lethally venomous spines that can jab through even the thick rubber soles of sneakers."
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/lfsh/LFSH00AA.png",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 2,
+            "y": 1,
+            "w": 11,
+            "h": 13
+          },
+          {
+            "label": "Pretty impressive",
+            "to": "video",
+            "x": 35,
+            "y": 7,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Whatchamacallit?",
+            "to": "whatchamacallit",
+            "x": 43,
+            "y": 14,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "The deadliest",
+            "to": "the-deadliest",
+            "x": 8,
+            "y": 21,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Barbed beauty",
+            "to": "barbed-beauty",
+            "x": 3,
+            "y": 29,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "In the groove",
+            "to": "in-the-groove",
+            "x": 53,
+            "y": 23,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Stingers in the sand",
+            "to": "stingers-in-the-sand",
+            "x": 62,
+            "y": 41,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Spiny swimmers",
+            "to": "spiny-swimmers",
+            "x": 59,
+            "y": 49,
+            "w": 19,
+            "h": 5
+          }
+        ]
+      },
+      "in-the-groove": {
+        "image": "assets/lfsh/LFSH01PU.png",
+        "back": "main"
+      },
+      "whatchamacallit": {
+        "image": "assets/lfsh/LFSH02PU.png",
+        "back": "main"
+      },
+      "stingers-in-the-sand": {
+        "image": "assets/lfsh/LFSH03PU.png",
+        "back": "main"
+      },
+      "spiny-swimmers": {
+        "image": "assets/lfsh/LFSH04PU.png",
+        "back": "main"
+      },
+      "barbed-beauty": {
+        "image": "assets/lfsh/LFSH05PU.png",
+        "back": "main"
+      },
+      "the-deadliest": {
+        "image": "assets/lfsh/LFSH06PU.png",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/lfsh/LFSH00FB.png",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/lfsh/clip.mp4",
+        "poster": "assets/lfsh/LFSH07TV.png",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "narration": "assets/lfsh/narration.mp3",
+  "video": {
+    "title": "Pretty impressive",
+    "src": "assets/lfsh/clip.mp4",
+    "poster": "assets/lfsh/LFSH07TV.png",
+    "caption": "Nearly everyone who has encountered a lionfish has been impressed by it. That's why it's been given so many different names: It's been called a lionfish because it's fierce; a firefish and a devilfish because it stings; and a zebrafish because it's striped. Some people call it a turkeyfish because of the way it spreads its fins out like a male turkey proudly displaying its tail feathers."
+  }
+}

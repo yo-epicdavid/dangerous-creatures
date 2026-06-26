@@ -1,0 +1,210 @@
+{
+  "id": "meel",
+  "code": "MEEL",
+  "name": "Moray Eel",
+  "scientificName": "Muraena sp.",
+  "needsScientificVerify": false,
+  "tagline": "The ocean's sneaky ambush predator — all jaws and no legs!",
+  "hero": {
+    "image": "assets/meel/MEEL00AA.png",
+    "alt": "Moray Eel"
+  },
+  "intro": "With its powerful jaws open to reveal jagged teeth, a moray eel may look like a venomous snake. But it's a type of fish, not a reptile. And although it can deliver a painful bite, it's not venomous, either, but its flesh can be poisonous to eat. Morays may look ferocious as they open and close their jaws, but they're not trying to scare anybody—they're just breathing!",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by biting prey with jagged teeth",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Fish and small prey",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "The ancient Romans so admired moray eels that they kept them in special pools, dressed them in jewels, and even fed slaves to them!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 3m (10ft)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Shallow tropical and subtropical seas",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "eel-eating-habits",
+      "title": "Eel eating habits",
+      "image": "assets/meel/MEEL01PU.png",
+      "text": "There are more than 600 kinds of eels, and they come in all shapes and sizes. Each has its favorite food. But in general, adult eels eat mostly small fish, mollusks, and crustaceans.",
+      "captions": [
+        {
+          "label": "Crab",
+          "text": "Crab"
+        },
+        {
+          "label": "Octopus",
+          "text": "Octopus"
+        },
+        {
+          "label": "European lobster",
+          "text": "European lobster"
+        },
+        {
+          "label": "Conger eel",
+          "text": "Conger eel"
+        },
+        {
+          "label": "Eels for dinner?",
+          "text": "Eels are popular dinner items in some European countries. Eating some types of eels can be hazardous to your health, though. The flesh of moray eels, for example, can be highly toxic."
+        }
+      ]
+    },
+    {
+      "id": "hiding-in-holes",
+      "title": "Hiding in holes",
+      "image": "assets/meel/MEEL02PU.png",
+      "text": "Moray eels don't normally cruise around reefs, stalking their prey. Instead, they hide in holes among the rocks and coral. When a small fish or crab comes close, wham!—the eel suddenly darts out and grabs it with its sharp teeth. If a diver comes too close to a moray's hiding place, the eel may mistake a hand or foot for a fish."
+    },
+    {
+      "id": "not-so-mean",
+      "title": "Not so mean",
+      "image": "assets/meel/MEEL03PU.png",
+      "text": "Some divers have been known to touch moray eels and to feed them by hand. Most morays are really pretty shy creatures that aren't looking for trouble. They don't bite unless they feel threatened or unless they mistake some part of a person for food. Many cases of morays biting people have occurred after divers speared the poor eels!"
+    },
+    {
+      "id": "what-big-mouths",
+      "title": "What big mouths!",
+      "image": "assets/meel/MEEL04PU.png",
+      "text": "Most eels live in shallow water, but these weird-looking eels have been found many kilometers below the surface! It's very dark at those depths, so some eels use glowing lures on their tails to attract fish. When fish come close, the eels open their gigantic mouths and gulp them down.",
+      "captions": [
+        {
+          "label": "Saccopharyngid",
+          "text": "Saccopharyngid"
+        },
+        {
+          "label": "Gulper eel",
+          "text": "Gulper eel"
+        }
+      ]
+    },
+    {
+      "id": "ribbon-version",
+      "title": "Ribbon version",
+      "image": "assets/meel/MEEL05PU.png",
+      "text": "There are many different species of moray eels, in all kinds of colors and patterns, including stripes and spots. This beautiful ribbon eel is one type that many aquarium owners seek to keep as a pet. It's famous not only for its bright blue body and yellow fins, but also for the circular flares of skin that extend out from its snout."
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/meel/MEEL00AA.png",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 1,
+            "y": 1,
+            "w": 9,
+            "h": 10
+          },
+          {
+            "label": "Who's chasing whom?",
+            "to": "video",
+            "x": 27,
+            "y": 8,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Eel eating habits",
+            "to": "eel-eating-habits",
+            "x": 27,
+            "y": 16,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Hiding in holes",
+            "to": "hiding-in-holes",
+            "x": 2,
+            "y": 51,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Not so mean",
+            "to": "not-so-mean",
+            "x": 2,
+            "y": 62,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "What big mouths!",
+            "to": "what-big-mouths",
+            "x": 27,
+            "y": 86,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Ribbon version",
+            "to": "ribbon-version",
+            "x": 27,
+            "y": 92,
+            "w": 16,
+            "h": 5
+          }
+        ]
+      },
+      "eel-eating-habits": {
+        "image": "assets/meel/MEEL01PU.png",
+        "back": "main"
+      },
+      "hiding-in-holes": {
+        "image": "assets/meel/MEEL02PU.png",
+        "back": "main"
+      },
+      "not-so-mean": {
+        "image": "assets/meel/MEEL03PU.png",
+        "back": "main"
+      },
+      "what-big-mouths": {
+        "image": "assets/meel/MEEL04PU.png",
+        "back": "main"
+      },
+      "ribbon-version": {
+        "image": "assets/meel/MEEL05PU.png",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/meel/MEEL00FB.png",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/meel/clip.mp4",
+        "poster": "assets/meel/MEEL06TV.png",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "narration": "assets/meel/narration.mp3",
+  "video": {
+    "title": "Who's chasing whom?",
+    "src": "assets/meel/clip.mp4",
+    "poster": "assets/meel/MEEL06TV.png",
+    "caption": "There are many stories about vicious moray eels."
+  }
+}

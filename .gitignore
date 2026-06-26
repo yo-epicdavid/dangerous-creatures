@@ -1,0 +1,12 @@
+# Raw disc image + extracted original (copyrighted) media — never commit
+_source/
+web/assets/
+
+# OS / tooling
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+
+# workflow intermediate output
+web/wf_result.json

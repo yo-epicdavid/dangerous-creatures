@@ -1,0 +1,204 @@
+{
+  "id": "hamr",
+  "code": "HAMR",
+  "name": "Hammerhead Shark",
+  "scientificName": "Sphyrna lewini",
+  "needsScientificVerify": false,
+  "tagline": "Its bizarre hammer-shaped head makes this shark one of the ocean's most recognizable hunters.",
+  "hero": {
+    "image": "assets/hamr/HAMR00AA.png",
+    "alt": "Hammerhead Shark"
+  },
+  "intro": "When hammerheads gather in large schools, they don't take much notice of intruders. People who dive among them seem to be safe at those times. Scalloped hammerheads (one of the many kinds of hammerheads) especially like to gather above the peaks of underwater mountains that rise from the ocean floor.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by biting its prey",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Fish, squid, and smaller sharks",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "Hammerheads like to eat poisonous jellyfish and rays. Poison in the prey doesn't hurt the sharks, but it makes the hammerheads poisonous themselves.",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 5.5m (18ft)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Tropical and temperate seas",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "shark-camouflage",
+      "title": "Shark camouflage",
+      "image": "assets/hamr/HAMR01PU.png",
+      "text": "Sharks have predators, too–usually other sharks! To avoid being eaten by their fellows, many small sharks use camouflage for protection. The spots on these two sharks help them blend in with the ocean floor so that predators can't see them.",
+      "captions": [
+        {
+          "label": "Horn shark",
+          "text": "Horn sharks get their name from a spine, or horn, in front of the fin on their backs."
+        }
+      ]
+    },
+    {
+      "id": "monstrous-relative",
+      "title": "Monstrous relative",
+      "image": "assets/hamr/HAMR02PU.png",
+      "text": "Are big sharks always scary sharks? Not at all! At 13.9 meters (more than 45 ft) long, the rarely seen whale shark is truly immense, but it eats only plankton and shows no interest in larger animals. Although it may be considered a monster because of its size, this shark is really a gentle giant."
+    },
+    {
+      "id": "carpet-or-shark",
+      "title": "Carpet or shark?",
+      "image": "assets/hamr/HAMR03PU.png",
+      "text": "The hammerhead is not the only weird-looking shark. This Australian wobbegong shark is also called a \"carpet shark\" because it looks like a swimming rug. Its skin patterns and \"tassels\" of flesh make it easy for this shark to camouflage itself on the ocean floor."
+    },
+    {
+      "id": "heads-for-all-purposes",
+      "title": "Heads for all purposes",
+      "image": "assets/hamr/HAMR04PU.png",
+      "text": "Many fish not only have a mouth for eating, eyes for seeing, and nostrils for smelling, but they also have other special features on their heads.",
+      "captions": [
+        {
+          "label": "Electric head",
+          "text": "The spots on the snout of this cat shark are electricity-sensing organs, called ampullae of Lorenzani. All sharks have these special organs, which allow them to detect their prey. Fish, like all living creatures, give off electrical impulses."
+        },
+        {
+          "label": "Saw nose",
+          "text": "This sawfish is a type of ray and is related to sharks. A sawfish uses its wicked-looking nose to slash through schools of fish."
+        },
+        {
+          "label": "Paddle nose",
+          "text": "Scientists are not quite sure what a paddlefish does with its long snout. Paddlefish live in some rivers in the U.S. and China."
+        }
+      ]
+    },
+    {
+      "id": "angelic-cousin",
+      "title": "Angelic cousin",
+      "image": "assets/hamr/HAMR05PU.png",
+      "text": "This angel does not belong on the top of a Christmas tree! The angel shark looks a lot like a ray but is a true shark. Here's how you can tell the difference: if the pectoral fins are not attached to the head, the animal is a shark.",
+      "captions": [
+        {
+          "label": "Lying in wait",
+          "text": "Angel sharks hide in the sand, waiting for fish and shellfish to come within their reach."
+        }
+      ]
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/hamr/HAMR00AA.png",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 2,
+            "y": 2,
+            "w": 10,
+            "h": 12
+          },
+          {
+            "label": "Why a hammer?",
+            "to": "video",
+            "x": 13,
+            "y": 17,
+            "w": 24,
+            "h": 8
+          },
+          {
+            "label": "Monstrous relative",
+            "to": "monstrous-relative",
+            "x": 63,
+            "y": 14,
+            "w": 31,
+            "h": 7
+          },
+          {
+            "label": "Heads for all purposes",
+            "to": "heads-for-all-purposes",
+            "x": 2,
+            "y": 34,
+            "w": 31,
+            "h": 7
+          },
+          {
+            "label": "Carpet or shark?",
+            "to": "carpet-or-shark",
+            "x": 63,
+            "y": 32,
+            "w": 28,
+            "h": 7
+          },
+          {
+            "label": "Shark camouflage",
+            "to": "shark-camouflage",
+            "x": 40,
+            "y": 62,
+            "w": 27,
+            "h": 7
+          },
+          {
+            "label": "Angelic cousin",
+            "to": "angelic-cousin",
+            "x": 69,
+            "y": 69,
+            "w": 26,
+            "h": 7
+          }
+        ]
+      },
+      "shark-camouflage": {
+        "image": "assets/hamr/HAMR01PU.png",
+        "back": "main"
+      },
+      "monstrous-relative": {
+        "image": "assets/hamr/HAMR02PU.png",
+        "back": "main"
+      },
+      "carpet-or-shark": {
+        "image": "assets/hamr/HAMR03PU.png",
+        "back": "main"
+      },
+      "heads-for-all-purposes": {
+        "image": "assets/hamr/HAMR04PU.png",
+        "back": "main"
+      },
+      "angelic-cousin": {
+        "image": "assets/hamr/HAMR05PU.png",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/hamr/HAMR00FB.png",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/hamr/clip.mp4",
+        "poster": "assets/hamr/HAMR06TV.png",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "narration": "assets/hamr/narration.mp3",
+  "video": {
+    "title": "Why a hammer?",
+    "src": "assets/hamr/clip.mp4",
+    "poster": "assets/hamr/HAMR06TV.png",
+    "caption": "This fish has a \"hammer\" for a head, but no one knows why. Perhaps the shark's vision and sense of smell are improved because its eyes and nostrils are on the ends of the hammer. Maybe the extra electricity-detecting organs packed into its wide head help the shark track prey. It's pretty certain, though, that these sharks don't use their hammers to pound nails!"
+  }
+}

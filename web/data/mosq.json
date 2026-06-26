@@ -1,0 +1,248 @@
+{
+  "id": "mosq",
+  "code": "MOSQ",
+  "name": "Mosquito",
+  "scientificName": "Culex pipiens",
+  "needsScientificVerify": false,
+  "tagline": "The world's deadliest animal is smaller than your fingernail!",
+  "hero": {
+    "image": "assets/mosq/MOSQ00AA.png",
+    "alt": "Mosquito"
+  },
+  "intro": "Mosquitoes spread disease among people and animals all over the world. Any body of still water can serve as a breeding ground for these insects. Most of the time, mosquitoes don't drink anything more sinister than nectar, but the females need a meal of blood in order to produce eggs. That's where the danger lies: a mosquito who's sipped infected blood transmits disease to the next creature she attacks.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Injures by spreading disease: encephalitis, fevers, and malaria",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Females suck blood from animals",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "Throughout recorded history, mosquito born diseases have killed more people than all the wars put together!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 1cm (½in)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Almost worldwide",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "flying-dragon",
+      "title": "Flying dragon",
+      "image": "assets/mosq/MOSQ01PU.png",
+      "text": "Mosquitoes have a lifelong dread of dragonflies. While they're both still young, dragonfly nymphs hunt mosquito larvae in the water. Later, when both are grown up and able to fly, dragonflies consider a mosquito on the wing a perfect in-flight meal!",
+      "captions": [
+        {
+          "label": "Dragonfly nymph",
+          "text": "Dragonfly nymph"
+        }
+      ]
+    },
+    {
+      "id": "mosquito-menaces",
+      "title": "Mosquito menaces",
+      "image": "assets/mosq/MOSQ02PU.png",
+      "text": "Mosquitoes may be tiny, but they have great importance in the food web. Many aquatic animals feed on mosquito larvae, which live in still water. Frogs, toads, lizards, birds, bats, and other insects eat the adults as well.",
+      "captions": [
+        {
+          "label": "Daubenton's bat",
+          "text": "This little bat, which lives in Europe and Central Asia, nets mosquitoes and other insects with its tail and scoops them into its mouth. It also likes fish."
+        }
+      ]
+    },
+    {
+      "id": "in-your-blood",
+      "title": "In your blood",
+      "image": "assets/mosq/MOSQ03PU.png",
+      "text": "There are about 100 diseases that mosquitoes can spread among people and animals. Fortunately, we can prevent or treat most of these diseases, which occur mainly in the tropics.",
+      "captions": [
+        {
+          "label": "Plasmodia in human red blood cells",
+          "text": "Malaria is a tropical disease caused by a protozoan (a microscopic, single-celled animal) called Plasmodium that attacks red blood cells. When a malaria-carrying mosquito feeds on an infected person, she will transfer the infection to the next person she \"bites.\" Fortunately, only one kind of tropical mosquito—called Anopheles—carries malaria."
+        }
+      ]
+    },
+    {
+      "id": "disease-spreaders",
+      "title": "Disease spreaders",
+      "image": "assets/mosq/MOSQ04PU.png",
+      "text": "Plenty of insects besides mosquitoes can be a source of disease and infection among humans and other animals. Here are a couple.",
+      "captions": [
+        {
+          "label": "What a face!",
+          "text": "Does this magnified flesh fly scare you? Well, it's not a pleasant beast. Some flesh flies lay eggs in open wounds, which may then become infected. But most of these small flies lay their eggs in animal waste and rotting flesh, and the maggots that hatch eat the decaying material—a habit that's helpful to humans and ecological processes."
+        },
+        {
+          "label": "Wipe your feet!",
+          "text": "Cockroaches will eat anything, including garbage and dead animals, and they can track germs around. But roaches are very good at disposing of waste, and they themselves are food for many creatures. You see, there really isn't any such thing as a \"bad\" animal."
+        }
+      ]
+    },
+    {
+      "id": "pest-control",
+      "title": "Pest control",
+      "image": "assets/mosq/MOSQ05PU.png",
+      "text": "Pesticides, which humans use on plants, tend to wipe out all insects. But many insects are beneficial to humans, and we should protect them instead of kill them.",
+      "captions": [
+        {
+          "label": "Delightful dung",
+          "text": "Dung flies feed on pests like house flies, and they lay their eggs in manure, which is eaten by the maggots that hatch from the eggs. If it weren't for creatures that eat animal waste, the stuff would lie around practically forever!"
+        },
+        {
+          "label": "Natural nursery",
+          "text": "A cockroach is a jewel wasp's idea of a perfect nursery. The female stings the roach, drags it into a hole that she's dug, and lays an egg on it. When the larva emerges from the egg, it eats the paralyzed insect."
+        }
+      ]
+    },
+    {
+      "id": "strength-in-numbers",
+      "title": "Strength in numbers",
+      "image": "assets/mosq/MOSQ06PU.png",
+      "text": "One insect is a small creature. But when certain insects get together, the amount of trouble they cause is very large! It takes big money to fix the damage that these two cause every year.",
+      "captions": [
+        {
+          "label": "A plague of locusts",
+          "text": "A swarm of locusts may fly as a huge cloud for hundreds of kilometers, eating every bit of plant life in its path."
+        },
+        {
+          "label": "Termite queen's abdomen",
+          "text": "Termite queen's abdomen"
+        },
+        {
+          "label": "Terrible termites",
+          "text": "Termites can eat you out of house and home!"
+        }
+      ]
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mosq/MOSQ00AA.png",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 2,
+            "y": 2,
+            "w": 9,
+            "h": 9
+          },
+          {
+            "label": "Mosquito menaces",
+            "to": "mosquito-menaces",
+            "x": 60,
+            "y": 25,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Flying dragon",
+            "to": "flying-dragon",
+            "x": 60,
+            "y": 43,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Disease spreaders",
+            "to": "disease-spreaders",
+            "x": 58,
+            "y": 52,
+            "w": 29,
+            "h": 5
+          },
+          {
+            "label": "Pest control",
+            "to": "pest-control",
+            "x": 67,
+            "y": 71,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "In your blood",
+            "to": "in-your-blood",
+            "x": 44,
+            "y": 64,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Strength in numbers",
+            "to": "strength-in-numbers",
+            "x": 13,
+            "y": 50,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Blood for the babies",
+            "to": "video",
+            "x": 9,
+            "y": 63,
+            "w": 27,
+            "h": 5
+          }
+        ]
+      },
+      "flying-dragon": {
+        "image": "assets/mosq/MOSQ01PU.png",
+        "back": "main"
+      },
+      "mosquito-menaces": {
+        "image": "assets/mosq/MOSQ02PU.png",
+        "back": "main"
+      },
+      "in-your-blood": {
+        "image": "assets/mosq/MOSQ03PU.png",
+        "back": "main"
+      },
+      "disease-spreaders": {
+        "image": "assets/mosq/MOSQ04PU.png",
+        "back": "main"
+      },
+      "pest-control": {
+        "image": "assets/mosq/MOSQ05PU.png",
+        "back": "main"
+      },
+      "strength-in-numbers": {
+        "image": "assets/mosq/MOSQ06PU.png",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/mosq/MOSQ00FB.png",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/mosq/clip.mp4",
+        "poster": "assets/mosq/MOSQ07TV.png",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "narration": "assets/mosq/narration.mp3",
+  "video": {
+    "title": "Blood for the babies",
+    "src": "assets/mosq/clip.mp4",
+    "poster": "assets/mosq/MOSQ07TV.png",
+    "caption": "A female mosquito normally drinks plant juices, but she needs a meal of blood to produce eggs. She deposits her eggs on the surface of a pool of still water. After hatching, the mosquito larvae (shown below) are able to swim, but spend most of their time hanging upside down from the surface, breathing through tubes that extend out from their abdomens."
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "id": "cent",
+  "code": "CENT",
+  "name": "Centipede",
+  "scientificName": "Scolopendra subspinipes",
+  "needsScientificVerify": true,
+  "tagline": "All legs, no mercy — this many-legged hunter injects paralyzing venom before you can blink.",
+  "hero": {
+    "image": "assets/cent/CENT00AA.png",
+    "alt": "Centipede"
+  },
+  "intro": "A centipede is a terrifying sight to a spider or an insect. The victim would see a many-legged predator rushing toward it. It would stare at a four-eyed face on top of huge fanglike claws. The unfortunate prey might realize that the centipede's bright colors were a warning of venom—just before those claws injected it with paralyzing venom.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by injecting venom through special claws",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Insects, earthworms, and cockroaches",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "Centipedes have been around for over 400 million years— they're older than dinosaurs!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 22.5cm (9in)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "North America, Central America, South America, Europe, Asia, Africa",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "fearsome-fangs",
+      "title": "Fearsome fangs",
+      "image": "assets/cent/CENT01PU.png",
+      "text": "Centipedes have a pair of specially adapted legs next to their heads. These legs—sometimes called \"claws\" or \"fangs\"—are hollow and are connected to venom glands. Centipedes use these \"claw-fangs\" to inject venom into their prey and to hold it while they eat.",
+      "captions": [
+        {
+          "label": "Tiger centipede",
+          "text": "At over 22 centimeters (9 in) long, this Central American centipede can eat toads, tiny snakes, and mice."
+        }
+      ]
+    },
+    {
+      "id": "lots-of-legs",
+      "title": "Lots of legs",
+      "image": "assets/cent/CENT02PU.png",
+      "text": "Just because an animal has lots of legs doesn't mean that it's a centipede. This creature is a king ragworm, a type of segmented worm that lives in saltwater. The fringe-like appendages at its sides are not true legs—the worm paddles with them and even breathes through them!"
+    },
+    {
+      "id": "moonlight-marauder",
+      "title": "Moonlight marauder",
+      "image": "assets/cent/CENT03PU.png",
+      "text": "Centipedes avoid light—they dry out easily, and strong sunlight would kill them. They spend the day hidden in dark, damp places, under rocks and logs (or in your basement or bathroom). But nightfall transforms the shy animals into fierce hunters that seize spiders, snails, and insects in their venomous claws and tear them into pieces with their mouths.",
+      "captions": [
+        {
+          "label": "Tarantula",
+          "text": "Hairy spiders are also nighttime hunters."
+        },
+        {
+          "label": "Common centipede",
+          "text": "The antennae detect motion and help the centipede find food. Most centipedes are not at all dangerous to people."
+        },
+        {
+          "label": "Scorpion",
+          "text": "The scorpion is another nocturnal predator that can poison its prey."
+        }
+      ]
+    },
+    {
+      "id": "hands-off",
+      "title": "Hands off!",
+      "image": "assets/cent/CENT04PU.png",
+      "text": "Centipedes are not cuddly. When disturbed, their first reaction is to bite, then they run away. Tropical centipedes tend to be large and venomous, and their painful bite could send you to the hospital. But most centipedes' bites are no worse than most bee stings. You should also leave centipedes alone because they eat household and garden pests like cockroaches.",
+      "captions": [
+        {
+          "label": "Cockroaches for lunch",
+          "text": "To a centipede, a cockroach is a nice, crispy snack."
+        },
+        {
+          "label": "Don't do this!",
+          "text": "If you touch a centipede, you may very well be bitten."
+        },
+        {
+          "label": "Tiger centipede",
+          "text": "This creature's bite is something like a hornet's sting—painful but not deadly."
+        }
+      ]
+    },
+    {
+      "id": "warning-stripes",
+      "title": "Warning stripes",
+      "image": "assets/cent/CENT05PU.png",
+      "text": "In the animal world, colorful stripes usually mean \"Don't mess with me! I'm dangerous!\" The pattern on the tiger centipede is one example of this message. Here are a few more creatures that send this signal."
+    },
+    {
+      "id": "rain-forest-creepy-crawler",
+      "title": "Rain forest creepy crawler",
+      "image": "assets/cent/CENT06PU.png",
+      "text": "Although this creature has lots of legs, it's not a centipede. The passion-vine caterpillar, though, has one thing in common with the centipede—it's venomous. This caterpillar eats toxic passionflower leaves that fill it with poison.",
+      "captions": [
+        {
+          "label": "Passion-vine butterfly",
+          "text": "Even after the caterpillar changes into a butterfly, it's still poisonous. Many animals, like this insect, wear bright colors to warn predators that they're dangerous to eat."
+        }
+      ]
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/cent/CENT00AA.png",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 1,
+            "y": 1,
+            "w": 10,
+            "h": 9
+          },
+          {
+            "label": "Moonlight marauder",
+            "to": "moonlight-marauder",
+            "x": 52,
+            "y": 8,
+            "w": 30,
+            "h": 6
+          },
+          {
+            "label": "Rain forest creepy crawler",
+            "to": "rain-forest-creepy-crawler",
+            "x": 51,
+            "y": 16,
+            "w": 38,
+            "h": 6
+          },
+          {
+            "label": "Millipede or centipede?",
+            "to": "video",
+            "x": 45,
+            "y": 30,
+            "w": 40,
+            "h": 6
+          },
+          {
+            "label": "Warning stripes",
+            "to": "warning-stripes",
+            "x": 62,
+            "y": 41,
+            "w": 27,
+            "h": 6
+          },
+          {
+            "label": "Hands off!",
+            "to": "hands-off",
+            "x": 2,
+            "y": 57,
+            "w": 17,
+            "h": 6
+          },
+          {
+            "label": "Lots of legs?",
+            "to": "lots-of-legs",
+            "x": 27,
+            "y": 59,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Fearsome fangs",
+            "to": "fearsome-fangs",
+            "x": 51,
+            "y": 57,
+            "w": 24,
+            "h": 6
+          }
+        ]
+      },
+      "fearsome-fangs": {
+        "image": "assets/cent/CENT01PU.png",
+        "back": "main"
+      },
+      "lots-of-legs": {
+        "image": "assets/cent/CENT02PU.png",
+        "back": "main"
+      },
+      "moonlight-marauder": {
+        "image": "assets/cent/CENT03PU.png",
+        "back": "main"
+      },
+      "hands-off": {
+        "image": "assets/cent/CENT04PU.png",
+        "back": "main"
+      },
+      "warning-stripes": {
+        "image": "assets/cent/CENT05PU.png",
+        "back": "main"
+      },
+      "rain-forest-creepy-crawler": {
+        "image": "assets/cent/CENT06PU.png",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/cent/CENT00FB.png",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/cent/clip.mp4",
+        "poster": "assets/cent/CENT07TV.png",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "narration": "assets/cent/narration.mp3",
+  "video": {
+    "title": "Millipede or centipede?",
+    "src": "assets/cent/clip.mp4",
+    "poster": "assets/cent/CENT07TV.png",
+    "caption": "How can you tell the difference between these two types of creatures? Unlike centipedes, millipedes eat plants, so they don't need venomous claws. And centipedes have one pair of legs per body segment, while millipedes have two."
+  }
+}

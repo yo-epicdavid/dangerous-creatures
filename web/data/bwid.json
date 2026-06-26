@@ -1,0 +1,232 @@
+{
+  "id": "bwid",
+  "code": "BWID",
+  "name": "Black Widow Spider",
+  "scientificName": "Latrodectus mactans",
+  "needsScientificVerify": false,
+  "tagline": "The deadliest date in the animal kingdom — she might just eat you for dinner!",
+  "hero": {
+    "image": "assets/bwid/BWID00AA.png",
+    "alt": "Black Widow Spider"
+  },
+  "intro": "Unfortunately for us, this spider has adapted well to human environments. Black widows like to build their webs not only in the wild, but also in mailboxes, garden sheds, and people's houses. Before indoor plumbing became widespread, people got black widow bites most often in outdoor toilets! Not a pleasant situation to think about…",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by injecting venom through its fangs",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Small flying insects. Female also known to eat her mate.",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "A female black widow spider will frequently devour the male after mating—hence the name \"widow.\" To avoid being eaten, the male might bring a love offering of another bug.",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 1.5cm (.75in)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "North America, South America, Central America, Europe, Asia, Australia, Africa",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "careful-courtship",
+      "title": "Careful courtship",
+      "image": "assets/bwid/BWID01PU.png",
+      "text": "The female black widow spider is a real killer date. After mating with a male, she sometimes eats him! Black widows have poor vision, and it may be that the female mistakes the smaller male for just another insect in her web. So to distract her, the male sometimes brings a gift of a nice, juicy bug.",
+      "captions": [
+        {
+          "label": "Risky romance",
+          "text": "Like black widows, some female scorpions eat their partners after they mate."
+        }
+      ]
+    },
+    {
+      "id": "on-guard",
+      "title": "On guard",
+      "image": "assets/bwid/BWID02PU.png",
+      "text": "It might not be especially cozy to have a black widow as a wife, but like many spiders, as a mom she's pretty protective.",
+      "captions": [
+        {
+          "label": "Waiting game",
+          "text": "The black widow spins a cocoon, or egg sac, to lay her eggs in and glues it to a branch. Then she waits for the eggs to hatch."
+        }
+      ]
+    },
+    {
+      "id": "silk-secrets",
+      "title": "Silk secrets",
+      "image": "assets/bwid/BWID03PU.png",
+      "text": "Spiders spin webs from silk thread that they make inside their bodies. This is how an orb weaver spider goes about creating its web.",
+      "captions": [
+        {
+          "label": "Step 1",
+          "text": "Spin a support thread between two objects and then drop down to where you want the center of the web to be."
+        },
+        {
+          "label": "Step 2",
+          "text": "Attach a bunch of threads that radiate outward from the center to the sides."
+        },
+        {
+          "label": "Step 3",
+          "text": "Starting in the middle, crawl around in a spiral, attaching threads as you go."
+        },
+        {
+          "label": "Step 4",
+          "text": "When you finish your weaving, relax and wait for a big bug to stumble into your trap."
+        }
+      ]
+    },
+    {
+      "id": "powerful-poison",
+      "title": "Powerful poison",
+      "image": "assets/bwid/BWID04PU.png",
+      "text": "Drop for drop, the black widow's venom is 15 times more poisonous than a rattlesnake's. But luckily, the black widow doesn't inject much venom at one time. Most people who have died from the spider's bite have been very young children or elderly people.",
+      "captions": [
+        {
+          "label": "World's deadliest spider",
+          "text": "The Brazilian wandering spider carries the most powerful venom of any spider. Fortunately, victims of its bite can be saved with antivenin if they get help in time."
+        },
+        {
+          "label": "Rattlesnake",
+          "text": "Just like a black widow bite, a bite from a rattlesnake might be very painful, but it's not likely to kill you."
+        }
+      ]
+    },
+    {
+      "id": "ferocious-females",
+      "title": "Ferocious females",
+      "image": "assets/bwid/BWID05PU.png",
+      "text": "It's not only in the world of black widows that females are the more dangerous sex...",
+      "captions": [
+        {
+          "label": "Grocery shopping",
+          "text": "When ready to lay eggs, a female wasp often hunts for a tarantula. After paralyzing the spider, the wasp will lay her eggs inside of its body. After the eggs hatch, the larvae have plenty to eat."
+        },
+        {
+          "label": "In charge",
+          "text": "A powerful female, called the matriarch, leads each elephant herd. But she's really no more ferocious than any other elephant."
+        },
+        {
+          "label": "Blood banquet",
+          "text": "Female mosquitoes need a drink of blood before they can produce eggs."
+        }
+      ]
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/bwid/BWID00AA.png",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 1,
+            "y": 1,
+            "w": 9,
+            "h": 10
+          },
+          {
+            "label": "Careful courtship",
+            "to": "careful-courtship",
+            "x": 54,
+            "y": 9,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Powerful poison",
+            "to": "powerful-poison",
+            "x": 45,
+            "y": 28,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Ferocious females",
+            "to": "ferocious-females",
+            "x": 27,
+            "y": 50,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Packing lunch for later",
+            "to": "video",
+            "x": 7,
+            "y": 65,
+            "w": 33,
+            "h": 7
+          },
+          {
+            "label": "On guard",
+            "to": "on-guard",
+            "x": 62,
+            "y": 73,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Silk secrets",
+            "to": "silk-secrets",
+            "x": 35,
+            "y": 80,
+            "w": 19,
+            "h": 5
+          }
+        ]
+      },
+      "careful-courtship": {
+        "image": "assets/bwid/BWID01PU.png",
+        "back": "main"
+      },
+      "on-guard": {
+        "image": "assets/bwid/BWID02PU.png",
+        "back": "main"
+      },
+      "silk-secrets": {
+        "image": "assets/bwid/BWID03PU.png",
+        "back": "main"
+      },
+      "powerful-poison": {
+        "image": "assets/bwid/BWID04PU.png",
+        "back": "main"
+      },
+      "ferocious-females": {
+        "image": "assets/bwid/BWID05PU.png",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/bwid/BWID00FB.png",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/bwid/clip.mp4",
+        "poster": "assets/bwid/BWID06TV.png",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "narration": "assets/bwid/narration.mp3",
+  "video": {
+    "title": "Packing lunch for later",
+    "src": "assets/bwid/clip.mp4",
+    "poster": "assets/bwid/BWID06TV.png",
+    "caption": "Spiders can't always immediately eat what they catch in their webs. If they have a lot of food or if they've caught an especially big meal, they wrap it in silk thread to keep for later."
+  }
+}

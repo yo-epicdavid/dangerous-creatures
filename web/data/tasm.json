@@ -1,0 +1,226 @@
+{
+  "id": "tasm",
+  "code": "TASM",
+  "name": "Tasmanian Devil",
+  "scientificName": "Sarcophilus harrisii",
+  "needsScientificVerify": false,
+  "tagline": "The world's scrappiest scavenger will crunch through bones, battle snakes, and scream all night long.",
+  "hero": {
+    "image": "assets/tasm/TASM00AA.png",
+    "alt": "Tasmanian Devil"
+  },
+  "intro": "It's black. It hunts at night. It eats dead animals. And it can make an unbelievable amount of noise–growling, hissing, and screeching–when it's cornered. For these reasons, early settlers to the island of Tasmania named this scrappy little carnivore the Tasmanian \"devil.\"",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by biting and clawing prey",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Primarily dead animals; also insects, wallabies, and sheep",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "The diet of this absolutely fearless hunter includes not only animals bigger than itself, but even venomous snakes!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 92cm (36in)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Tasmania (off southern coast of Australia)",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "extinct-relative",
+      "title": "Extinct relative",
+      "image": "assets/tasm/TASM01PU.png",
+      "text": "New Guinea and Australia are home to most of the few meat-eating marsupials on earth. Today, the Tasmanian devil is the largest animal in this group. But until the 1930s, this animal, called the thylacine or Tasmanian wolf, held that title. These unusual animals once roamed over mainland Australia and its island of Tasmania. Sadly, they were wiped out by settlers who considered them a threat to livestock, and nobody will ever see a living thylacine again."
+    },
+    {
+      "id": "danger-down-under",
+      "title": "Danger down under",
+      "image": "assets/tasm/TASM02PU.png",
+      "text": "Australia can be a dangerous place–it has a greater percentage of venomous animals than any other place on earth, as well as wild dogs, giant monitor lizards, and saltwater crocodiles just waiting to snap up whatever they can. Even so, most of these animals are a threat only to other animals, and Australians safely walk around in the bush every day.",
+      "captions": [
+        {
+          "label": "Australian funnel-web spider",
+          "text": "Australian funnel-web spider–one of the deadliest spiders in the world"
+        },
+        {
+          "label": "Dingo",
+          "text": "Dingo–preys on wildlife and livestock"
+        },
+        {
+          "label": "Death adder",
+          "text": "Death adder–delivers a venomous bite"
+        },
+        {
+          "label": "Cane toad",
+          "text": "Cane toad–oozes poison from glands on its head"
+        }
+      ]
+    },
+    {
+      "id": "wheres-tasmania",
+      "title": "Where's Tasmania?",
+      "image": "assets/tasm/TASM03PU.png",
+      "text": "The island of Tasmania belongs to Australia but is separated from the mainland by the Bass Strait. Millions of years ago, Tasmania was connected to main-land Australia–that's why many of the same kinds of animals live both in mainland Australia and on the island of Tasmania.",
+      "captions": [
+        {
+          "label": "Night parrot",
+          "text": "This bird can fly, but spends most of its time on the ground."
+        },
+        {
+          "label": "Tiger cat",
+          "text": "This marsupial hunter can climb trees."
+        }
+      ]
+    },
+    {
+      "id": "unusual-creatures",
+      "title": "Unusual creatures",
+      "image": "assets/tasm/TASM04PU.png",
+      "text": "Australia and New Guinea are famous for their odd mammals. Island animals don't evolve as quickly as animals that live on larger continents, so it's not unusual to find a large percentage of primitive animals on islands. Australia and New Guinea have remarkable concentrations of marsupials—pouched mammals—and monotremes—egg-laying mammals.",
+      "captions": [
+        {
+          "label": "Marsupial baby",
+          "text": "Like all marsupials, this red-necked wallaby baby was not fully formed when it was born. It completed its development inside its mother's pouch."
+        },
+        {
+          "label": "Monotreme mother",
+          "text": "This echidna (spiny anteater) is a monotreme. A pregnant female develops a temporary pouch on her abdomen, into which she'll lay one egg. After hatching, the young echidna drinks from special milk glands (monotremes have no nipples) and develops inside the pouch until it grows spines at about eight weeks old."
+        }
+      ]
+    },
+    {
+      "id": "small-but-feisty",
+      "title": "Small but feisty",
+      "image": "assets/tasm/TASM05PU.png",
+      "text": "Whether they deserve it or not, Tasmanian devils have the reputation of being ferocious little fighters. Here are two other small animals that have the same claim to fame.",
+      "captions": [
+        {
+          "label": "Bad-tempered badger?",
+          "text": "Not this fellow–the Eurasian badger is a pussycat. The bad tempered label belongs to its cousin, the American badger, which has been known to fight with rattlesnakes!"
+        },
+        {
+          "label": "Wily weasel",
+          "text": "All members of the weasel family are hard-core hunters. They will go almost anywhere in pursuit of prey."
+        }
+      ]
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/tasm/TASM00AA.png",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 1,
+            "y": 1,
+            "w": 10,
+            "h": 13
+          },
+          {
+            "label": "Danger down under",
+            "to": "danger-down-under",
+            "x": 12,
+            "y": 36,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Unusual creatures",
+            "to": "unusual-creatures",
+            "x": 42,
+            "y": 32,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Extinct relative",
+            "to": "extinct-relative",
+            "x": 12,
+            "y": 43,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Devils in the forest",
+            "to": "video",
+            "x": 62,
+            "y": 15,
+            "w": 27,
+            "h": 6
+          },
+          {
+            "label": "Small but feisty",
+            "to": "small-but-feisty",
+            "x": 31,
+            "y": 82,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Where's Tasmania?",
+            "to": "wheres-tasmania",
+            "x": 12,
+            "y": 88,
+            "w": 21,
+            "h": 5
+          }
+        ]
+      },
+      "extinct-relative": {
+        "image": "assets/tasm/TASM01PU.png",
+        "back": "main"
+      },
+      "danger-down-under": {
+        "image": "assets/tasm/TASM02PU.png",
+        "back": "main"
+      },
+      "wheres-tasmania": {
+        "image": "assets/tasm/TASM03PU.png",
+        "back": "main"
+      },
+      "unusual-creatures": {
+        "image": "assets/tasm/TASM04PU.png",
+        "back": "main"
+      },
+      "small-but-feisty": {
+        "image": "assets/tasm/TASM05PU.png",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/tasm/TASM00FB.png",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/tasm/clip.mp4",
+        "poster": "assets/tasm/TASM06TV.png",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "narration": "assets/tasm/narration.mp3",
+  "video": {
+    "title": "Devils in the forest",
+    "src": "assets/tasm/clip.mp4",
+    "poster": "assets/tasm/TASM06TV.png",
+    "caption": "Tasmanian devils are reputed to be fierce hunters that tackle animals many times their size. In reality, these shy nocturnal creatures prefer eating carrion to hunting for live prey. It is true that these feisty little marsupials can crunch through flesh, skin, hair, and even most bones. When a Tasmanian devil is through with a carcass, only the biggest bones–like the shoulderblades and skull–remain uneaten."
+  }
+}

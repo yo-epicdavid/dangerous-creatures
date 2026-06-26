@@ -1,0 +1,264 @@
+{
+  "id": "alig",
+  "code": "ALIG",
+  "name": "Alligator",
+  "scientificName": "Alligator mississippiensis",
+  "needsScientificVerify": false,
+  "tagline": "Ancient, armored, and always hungry—the original ruler of the swamp.",
+  "hero": {
+    "image": "assets/alig/ALIG00AA.png",
+    "alt": "Alligator"
+  },
+  "intro": "The older the 'gator, the bigger its prey. Baby alligators eat mostly insects and crustaceans. As they grow, their diet changes to frogs, snakes, and fish. And big, old 'gators not only snap up all the fish they can, but will also try to grab birds, muskrats, and even a deer from time to time.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by seizing prey in jaws and then drowning it",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Anything it can catch",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "Baby alligators make chirping noises when they begin to hatch. This usually calls the mother, who takes the babies in her mouth and carries them to safety.",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 6m (19.5 ft)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "United States, China",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "croc-or-gator",
+      "title": "Croc or 'gator?",
+      "image": "assets/alig/ALIG01PU.png",
+      "text": "You're taking a walk in Florida, and you suddenly come across a large lizardlike creature. Quick—is it a crocodile or an alligator? If the beast has a pointy snout and you can see a big, sharp tooth (the fourth one back from the nose) pointing up from its bottom jaw, it's a croc. If that tooth is hidden, you're facing an alligator. In either case, don't try to make friends.",
+      "captions": [
+        {
+          "label": "Crocodile smile",
+          "text": "Because you can see the telltale bottom tooth sticking up, you know that this is a crocodile."
+        },
+        {
+          "label": "Alligator grin",
+          "text": "An alligator's snout is rounder than a crocodile's."
+        }
+      ]
+    },
+    {
+      "id": "caiman-cousins",
+      "title": "Caiman cousins",
+      "image": "assets/alig/ALIG02PU.png",
+      "text": "Alligators live in North America and in China, but they have close relatives, called caimans, in Central and South America. Some of these alligator relatives have become suburban residents, moving into water near large cities. They're not likely to attack humans, but they are fierce hunters of birds, fish, and small mammals.",
+      "captions": [
+        {
+          "label": "Caiman country",
+          "text": "Caimans cruise waterways from Mexico to Uruguay. You may also see a few in Florida—these are usually former pets that have been turned loose."
+        },
+        {
+          "label": "Adult caiman",
+          "text": "Although you may see tiny babies in pet stores, black caimans can grow up to 6 meters (19.5 ft) long!"
+        }
+      ]
+    },
+    {
+      "id": "tender-loving-care",
+      "title": "Tender loving care",
+      "image": "assets/alig/ALIG03PU.png",
+      "text": "Alligators and caimans, like all crocodilians, are good parents. The female makes a nest for her eggs and stays near to guard them. When the young are ready to hatch, they grunt, and their mother gently cracks the eggs to help them break free. Then she carries them to water. If the babies yelp for help, any adult alligator will rush to the rescue. So don't touch that hatchling—a grownup's nearby!",
+      "captions": [
+        {
+          "label": "Inside story",
+          "text": "The embryo inside the shell is cushioned by the amniotic fluid and nourished by the yolk sac."
+        }
+      ]
+    },
+    {
+      "id": "other-gators",
+      "title": "Other 'gators",
+      "image": "assets/alig/ALIG04PU.png",
+      "text": "All these creatures go by the name of alligator, too. Only one is really a relative of our American alligator.",
+      "captions": [
+        {
+          "label": "Chinese alligator",
+          "text": "Because of the destruction of their marshland habitat, only a few hundred of these timid animals are left in China's lower Yangtze River. Only half the size of its American cousin, the Chinese alligator sleeps through the cold winter."
+        },
+        {
+          "label": "\"Flying alligator\"",
+          "text": "This lantern bug gets its nickname from the odd shape of its body. Do you think it looks like a 'gator?"
+        },
+        {
+          "label": "Alligator snapper",
+          "text": "When is an alligator not an alligator? When it's an alligator snapping turtle! It has some things in common with 'gators, including its powerful jaws and its habit of lying in wait for unwary fish. You don't want to go swimming with this turtle!"
+        }
+      ]
+    },
+    {
+      "id": "relatively-alike",
+      "title": "Relatively alike",
+      "image": "assets/alig/ALIG05PU.png",
+      "text": "What do all these animals have in common? They're all reptiles. Alligators, crocodiles, snakes, lizards, turtles, and the tuatara all have backbones, scaly skins, and blood that is the same temperature as their environment, and most of them lay eggs. Reptiles are one of the most successful types of animals on earth. They've been around since before the dinosaurs."
+    },
+    {
+      "id": "real-or-mythical",
+      "title": "Real or mythical?",
+      "image": "assets/alig/ALIG06PU.png",
+      "text": "The Chinese have told stories of dragons for centuries. Did tales of gigantic lizardlike creatures originate with the discovery of enormous dinosaur bones, or were they inspired by creatures we still see today?",
+      "captions": [
+        {
+          "label": "Earthly dragon",
+          "text": "This crested water dragon, an Asian lizard, can run upright on its two back legs."
+        },
+        {
+          "label": "Dragon mosaic",
+          "text": "The Chinese believed that dragons lived in the heavens above the earth."
+        }
+      ]
+    },
+    {
+      "id": "toothy-grin",
+      "title": "Toothy grin",
+      "image": "assets/alig/ALIG07PU.png",
+      "text": "Inside an alligator's mouth, there are always new teeth growing under all the existing teeth. When one tooth gets knocked out, a new tooth underneath is ready for action. That's why you can see teeth of different sizes in this 'gator's mouth."
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/alig/ALIG00AA.png",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 1,
+            "y": 1,
+            "w": 9,
+            "h": 10
+          },
+          {
+            "label": "Relatively alike",
+            "to": "relatively-alike",
+            "x": 57,
+            "y": 13,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Other 'gators",
+            "to": "other-gators",
+            "x": 38,
+            "y": 25,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Tender loving care",
+            "to": "tender-loving-care",
+            "x": 25,
+            "y": 25,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Croc or 'gator?",
+            "to": "croc-or-gator",
+            "x": 5,
+            "y": 36,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Toothy grin",
+            "to": "toothy-grin",
+            "x": 5,
+            "y": 47,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "Real or mythical?",
+            "to": "real-or-mythical",
+            "x": 9,
+            "y": 67,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Caiman cousins",
+            "to": "caiman-cousins",
+            "x": 38,
+            "y": 75,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Swamp struggle",
+            "to": "video",
+            "x": 52,
+            "y": 75,
+            "w": 17,
+            "h": 6
+          }
+        ]
+      },
+      "croc-or-gator": {
+        "image": "assets/alig/ALIG01PU.png",
+        "back": "main"
+      },
+      "caiman-cousins": {
+        "image": "assets/alig/ALIG02PU.png",
+        "back": "main"
+      },
+      "tender-loving-care": {
+        "image": "assets/alig/ALIG03PU.png",
+        "back": "main"
+      },
+      "other-gators": {
+        "image": "assets/alig/ALIG04PU.png",
+        "back": "main"
+      },
+      "relatively-alike": {
+        "image": "assets/alig/ALIG05PU.png",
+        "back": "main"
+      },
+      "real-or-mythical": {
+        "image": "assets/alig/ALIG06PU.png",
+        "back": "main"
+      },
+      "toothy-grin": {
+        "image": "assets/alig/ALIG07PU.png",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/alig/ALIG00FB.png",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/alig/clip.mp4",
+        "poster": "assets/alig/ALIG08TV.png",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "narration": "assets/alig/narration.mp3",
+  "video": {
+    "title": "Swamp struggle",
+    "src": "assets/alig/clip.mp4",
+    "poster": "assets/alig/ALIG08TV.png",
+    "caption": "When caimans and most snakes meet, the snake often becomes the caiman's dinner—snake fangs are usually no match for a crocodilian's powerful jaws. But if a small caiman meets a big, muscular anaconda, the outcome depends on who grabs whom first."
+  }
+}

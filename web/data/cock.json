@@ -1,0 +1,320 @@
+{
+  "id": "cock",
+  "code": "COCK",
+  "name": "Cockroach",
+  "scientificName": "Periplaneta americana",
+  "needsScientificVerify": true,
+  "tagline": "The ultimate survivor that outlasted the dinosaurs—and will eat your TV wires for dessert!",
+  "hero": {
+    "image": "assets/cock/COCK00AA.png",
+    "alt": "Cockroach"
+  },
+  "intro": "Rain forests, deserts, city sewers, kitchen cabinets–all are home to cockroaches. These insects are extremely adaptable and will eat nearly anything, from decaying garbage to oatmeal cookies to the insulation on wires inside of television sets! Because they sometimes travel from unsanitary hiding places to cooking and food-storage areas, cockroaches can spread disease as well as dirt.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Injures people by spreading disease and spoiling food supplies",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Any foods, including their containers",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "Cockroaches can survive under extreme conditions. They can live for three months without food, and for 30 days without water!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 15cm (6in)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Almost everywhere",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "the-case-for-cockroaches",
+      "title": "The case for cockroaches",
+      "image": "assets/cock/COCK01PU.png",
+      "text": "What are roaches good for? Well, they sometimes eat dead animals and garbage. Imagine what our world would be like if nothing did that! And cockroaches are an important source of food for many other animals.",
+      "captions": [
+        {
+          "label": "Too young to fly",
+          "text": "You can tell that this cockroach is not an adult because it hasn't yet developed wings."
+        },
+        {
+          "label": "Cave cleanup",
+          "text": "This adult Surinam cockroach lives in dark, moist places, like caves."
+        }
+      ]
+    },
+    {
+      "id": "cockroach-control",
+      "title": "Cockroach control",
+      "image": "assets/cock/COCK02PU.png",
+      "text": "Many birds, reptiles, and insects depend on cockroaches for food. If cockroaches suddenly disappeared, these creatures might go hungry. It just goes to show you that every animal on earth, even a cockroach, is a valuable creature.",
+      "captions": [
+        {
+          "label": "Banana spider",
+          "text": "This spider lives near bananas so that it can eat cockroaches and other insects that come to feast on the fruit."
+        },
+        {
+          "label": "Wasp",
+          "text": "Did you know that wasp larvae are carnivores? This adult wasp has caught a cockroach to store for her young."
+        },
+        {
+          "label": "Centipede",
+          "text": "This many-legged hunter wouldn't pass up a juicy cockroach meal. Like cockroaches, centipedes like to hide in dark places."
+        }
+      ]
+    },
+    {
+      "id": "millions-of-years-old",
+      "title": "Millions of years old",
+      "image": "assets/cock/COCK03PU.png",
+      "text": "Cockroaches lived on earth long before the dinosaurs. Like many prehistoric animals, ancient cockroaches were much bigger than the ones you see today. Here are some other creepy-crawlers that have also survived since dinosaur times.",
+      "captions": [
+        {
+          "label": "Dragonfly",
+          "text": "These winged hunters have been around for almost 300 million years! One fossil dragonfly impression had a wingspan of 60 centimeters (24 in)!"
+        },
+        {
+          "label": "Millipede",
+          "text": "From fossils, we know that one ancient millipede was more than 2 meters (6 ft) long! Fortunately for the other animals, it was a plant-eater."
+        },
+        {
+          "label": "Scorpion",
+          "text": "Giant scorpions were some of the earth's first meat-eaters, hunting cockroaches and millipedes and other prehistoric bugs."
+        }
+      ]
+    },
+    {
+      "id": "beetle-or-not",
+      "title": "Beetle or not?",
+      "image": "assets/cock/COCK04PU.png",
+      "text": "Although a cockroach looks something like a beetle, it's not. Beetles are the armored tanks of the insect world. They have hard wing cases, called elytrons, that protect their wings. There are about 300,000 species of beetles!",
+      "captions": [
+        {
+          "label": "Not tough enough",
+          "text": "A cockroach is missing elytrons and other beetle features, so it's not a beetle."
+        },
+        {
+          "label": "Cardinal beetle",
+          "text": "This small scarlet beetle lives in Europe and bores into wood."
+        },
+        {
+          "label": "Chafer beetle",
+          "text": "The antennae of this dung beetle are fused together into a single plate that extends out from its head."
+        },
+        {
+          "label": "Atlas beetle",
+          "text": "This male beetle has raised his elytrons (wing cases) to display the fragile wings beneath."
+        }
+      ]
+    },
+    {
+      "id": "is-it-an-insect",
+      "title": "Is it an insect?",
+      "image": "assets/cock/COCK05PU.png",
+      "text": "To be classified as an insect, a creature has to have six jointed legs and a hard exoskeleton. Cockroaches, which have been around for about 400 million years, were one of the first flying insects on earth. Are the rest of these creatures insects?",
+      "captions": [
+        {
+          "label": "Jewel of the insect world",
+          "text": "Butterflies like this swallowtail are insects that people find especially attractive."
+        },
+        {
+          "label": "Sticking around",
+          "text": "This stick insect from India looks just like a twig. When unsuspecting prey walks by, zap! The \"stick\" comes alive, and the bug becomes dinner."
+        },
+        {
+          "label": "Equipped for battle",
+          "text": "This longhorn beetle from Central America uses its impressive jaws to catch prey or to battle with intruders. It's an insect, too."
+        },
+        {
+          "label": "Social insect",
+          "text": "Ants are insects that live in colonies."
+        },
+        {
+          "label": "Arachnid and proud of it",
+          "text": "Spiders have eight legs, so they're not insects. As a matter of fact, they eat insects."
+        }
+      ]
+    },
+    {
+      "id": "cave-life",
+      "title": "Cave life",
+      "image": "assets/cock/COCK06PU.png",
+      "text": "Cockroaches don't like bright light, and they don't like very cold temperatures. They feed on all kinds of things that we humans find disgusting, and they like lots of water. To a cockroach, a damp cave, preferably one full of bats, is an ideal place to live!",
+      "captions": [
+        {
+          "label": "Cockroach eater",
+          "text": "This cave spider eats mainly flies and moths, but it wouldn't pass up a nice crunchy cockroach for dinner."
+        },
+        {
+          "label": "On the lower level",
+          "text": "Cave cockroaches spend most of their time on the cave floor. This Surinam cockroach eats bat guano as well as any dead bats it finds."
+        },
+        {
+          "label": "Going out for dinner",
+          "text": "After the sun sets, the bats flap out of the cave to hunt for flying insects."
+        }
+      ]
+    },
+    {
+      "id": "the-better-to-feel-with",
+      "title": "The better to feel with",
+      "image": "assets/cock/COCK07PU.png",
+      "text": "The long, whiskerlike \"feelers\" on the heads of many insects are called antennae. Unlike humans, cockroaches don't use antennae to receive television or radio channels. But they do use them to receive signals of one sort–tiny vibrations that tell them when another animal is near.",
+      "captions": [
+        {
+          "label": "Feeling in other ways",
+          "text": "Spiders aren't insects and they don't have antennae. Instead, they use the sensitive hairs on their bodies and legs to feel the vibrations around them."
+        },
+        {
+          "label": "Cockroach antennae",
+          "text": "Because cockroaches spend most of their time in the dark, they use their antennae to find their way around to locate food."
+        },
+        {
+          "label": "Antennae or antlers?",
+          "text": "It must be quite a chore for an oak bush cricket to keep these \"feelers\" from getting bent!"
+        }
+      ]
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/cock/COCK00AA.png",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 0,
+            "y": 0,
+            "w": 10,
+            "h": 18
+          },
+          {
+            "label": "Cave life",
+            "to": "cave-life",
+            "x": 55,
+            "y": 3,
+            "w": 15,
+            "h": 8
+          },
+          {
+            "label": "Born to eat",
+            "to": "video",
+            "x": 35,
+            "y": 13,
+            "w": 18,
+            "h": 8
+          },
+          {
+            "label": "The better to feel with",
+            "to": "the-better-to-feel-with",
+            "x": 12,
+            "y": 27,
+            "w": 30,
+            "h": 8
+          },
+          {
+            "label": "Millions of years old",
+            "to": "millions-of-years-old",
+            "x": 13,
+            "y": 36,
+            "w": 26,
+            "h": 8
+          },
+          {
+            "label": "Is it an insect?",
+            "to": "is-it-an-insect",
+            "x": 11,
+            "y": 46,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "Cockroach control",
+            "to": "cockroach-control",
+            "x": 8,
+            "y": 55,
+            "w": 23,
+            "h": 8
+          },
+          {
+            "label": "Beetle or not?",
+            "to": "beetle-or-not",
+            "x": 6,
+            "y": 63,
+            "w": 18,
+            "h": 8
+          },
+          {
+            "label": "The case for cockroaches",
+            "to": "the-case-for-cockroaches",
+            "x": 54,
+            "y": 47,
+            "w": 34,
+            "h": 8
+          }
+        ]
+      },
+      "the-case-for-cockroaches": {
+        "image": "assets/cock/COCK01PU.png",
+        "back": "main"
+      },
+      "cockroach-control": {
+        "image": "assets/cock/COCK02PU.png",
+        "back": "main"
+      },
+      "millions-of-years-old": {
+        "image": "assets/cock/COCK03PU.png",
+        "back": "main"
+      },
+      "beetle-or-not": {
+        "image": "assets/cock/COCK04PU.png",
+        "back": "main"
+      },
+      "is-it-an-insect": {
+        "image": "assets/cock/COCK05PU.png",
+        "back": "main"
+      },
+      "cave-life": {
+        "image": "assets/cock/COCK06PU.png",
+        "back": "main"
+      },
+      "the-better-to-feel-with": {
+        "image": "assets/cock/COCK07PU.png",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/cock/COCK00FB.png",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/cock/clip.mp4",
+        "poster": "assets/cock/COCK08TV.png",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "narration": "assets/cock/narration.mp3",
+  "video": {
+    "title": "Born to eat",
+    "src": "assets/cock/clip.mp4",
+    "poster": "assets/cock/COCK08TV.png",
+    "caption": "It's no wonder that cockroaches have been around for so long. Not only do they reproduce at an alarming rate, but they'll eat almost anything!"
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "id": "vult",
+  "code": "VULT",
+  "name": "Vulture",
+  "scientificName": "Torgos tracheliotus",
+  "needsScientificVerify": false,
+  "tagline": "Nature's sky-high cleanup crew — soaring miles above a feast before anyone else even smells it!",
+  "hero": {
+    "image": "assets/vult/VULT00AA.png",
+    "alt": "Vulture"
+  },
+  "intro": "Disgusting, creepy creatures! That's what many people say about vultures, because they prefer to eat carrion. Most vultures don't have very strong talons and beaks–only a few species can break through the hides of large animals. Although some vultures can hunt small animals as well as scavenge, most wait for decay to soften a carcass, or for another predator to kill an animal and rip open its body.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by biting prey, tearing with talons or scavenges",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Carrion, baby livestock, turtles, bone marrow, placentas",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "With eyes that are better than many binoculars, vultures can see animals up to 1.6 kilometers (one mile) away!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 3m (10ft)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Warm climates worldwide",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "colossal-condor",
+      "title": "Colossal condor",
+      "image": "assets/vult/VULT01PU.png",
+      "text": "The two biggest vultures in the world use the name of \"condor\"–the Andean condor and the California condor. Both of these birds can have wingspans of more than 3 meters (10 ft) and casual observers have sometimes mistaken them for small planes!",
+      "captions": [
+        {
+          "label": "Andean condor",
+          "text": "The vulture shown here is the Andean condor, which lives in remote areas high in the Andes Mountains of South America. Its North American cousin, the California condor, is nearly extinct, but recently scientists have reintroduced a few to the wild."
+        }
+      ]
+    },
+    {
+      "id": "skinheads",
+      "title": "Skinheads",
+      "image": "assets/vult/VULT02PU.png",
+      "text": "Many vultures have bald faces or heads. This is a convenient feature–it allows the big birds to stick their heads into carcasses without getting their feathers all dirty. After all, it's pretty hard for a bird to wash its face!",
+      "captions": [
+        {
+          "label": "Andean condor",
+          "text": "Andean condor (South America)"
+        },
+        {
+          "label": "Egyptian vulture",
+          "text": "Egyptian vulture (Africa)"
+        },
+        {
+          "label": "King vulture",
+          "text": "King vulture (Southern Mexico to Argentina)"
+        },
+        {
+          "label": "Ruppell's vulture",
+          "text": "Ruppell's vulture"
+        },
+        {
+          "label": "Hooded vulture",
+          "text": "Hooded vulture (Africa)"
+        }
+      ]
+    },
+    {
+      "id": "the-ultimate-hang-glider",
+      "title": "The ultimate hang glider",
+      "image": "assets/vult/VULT03PU.png",
+      "text": "Most vultures don't like to flap their wings. Instead they prefer to soar, slowly circling in thermals–rising columns of warm air–while keeping a lookout for dead animals on the ground. Ruppell's griffon vulture has been spotted riding air currents at elevations of 11,274 meters (37,000 ft)!"
+    },
+    {
+      "id": "not-just-a-pretty-face",
+      "title": "Not just a pretty face",
+      "image": "assets/vult/VULT04PU.png",
+      "text": "By human standards, most vultures are pretty ugly. But among birds, vultures might be considered the most handsome of all!",
+      "captions": [
+        {
+          "label": "King vulture",
+          "text": "This gorgeous creature scavenges from southern Mexico to Argentina."
+        },
+        {
+          "label": "Turkey vulture",
+          "text": "If you live in open country in North, Central, or South America, you'll probably see a turkey vulture sooner or later."
+        }
+      ]
+    },
+    {
+      "id": "predator-or-scavenger",
+      "title": "Predator or scavenger?",
+      "image": "assets/vult/VULT05PU.png",
+      "text": "Many vultures are both predators and scavengers. They'll kill small animals like rodents and baby birds if carrion isn't available. But they'd much prefer to find their food already dead, and some types of vultures group together to drive even large predators–like hyenas–away from their kills."
+    },
+    {
+      "id": "tool-user",
+      "title": "Tool user",
+      "image": "assets/vult/VULT06PU.png",
+      "text": "People used to think that humans were the only creatures that used tools. But now we know that a few other animals–mostly monkeys and apes–also use tools. This Egyptian vulture picks up rocks in its beak and heaves them at ostrich eggs to break the tough shells. Egyptian vultures live throughout Africa and in southern Europe, the Middle East, and India.",
+      "captions": [
+        {
+          "label": "Ostrich egg",
+          "text": "Ostrich egg"
+        }
+      ]
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/vult/VULT00AA.png",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 1,
+            "y": 1,
+            "w": 11,
+            "h": 11
+          },
+          {
+            "label": "Not just a pretty face",
+            "to": "not-just-a-pretty-face",
+            "x": 43,
+            "y": 1,
+            "w": 29,
+            "h": 5
+          },
+          {
+            "label": "Skinheads",
+            "to": "skinheads",
+            "x": 43,
+            "y": 9,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Vampire Bat",
+            "x": 78,
+            "y": 1,
+            "w": 19,
+            "h": 12,
+            "external": "animal.html?id=vamp"
+          },
+          {
+            "label": "Colossal condor",
+            "to": "colossal-condor",
+            "x": 79,
+            "y": 33,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Predator or scavenger?",
+            "to": "predator-or-scavenger",
+            "x": 10,
+            "y": 43,
+            "w": 29,
+            "h": 5
+          },
+          {
+            "label": "Tool user",
+            "to": "tool-user",
+            "x": 16,
+            "y": 52,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "I saw it first!",
+            "to": "video",
+            "x": 8,
+            "y": 63,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "The ultimate hang glider",
+            "to": "the-ultimate-hang-glider",
+            "x": 1,
+            "y": 71,
+            "w": 32,
+            "h": 5
+          }
+        ]
+      },
+      "colossal-condor": {
+        "image": "assets/vult/VULT01PU.png",
+        "back": "main"
+      },
+      "skinheads": {
+        "image": "assets/vult/VULT02PU.png",
+        "back": "main"
+      },
+      "the-ultimate-hang-glider": {
+        "image": "assets/vult/VULT03PU.png",
+        "back": "main"
+      },
+      "not-just-a-pretty-face": {
+        "image": "assets/vult/VULT04PU.png",
+        "back": "main"
+      },
+      "predator-or-scavenger": {
+        "image": "assets/vult/VULT05PU.png",
+        "back": "main"
+      },
+      "tool-user": {
+        "image": "assets/vult/VULT06PU.png",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/vult/VULT00FB.png",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/vult/clip.mp4",
+        "poster": "assets/vult/VULT07TV.png",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "narration": "assets/vult/narration.mp3",
+  "video": {
+    "title": "I saw it first!",
+    "src": "assets/vult/clip.mp4",
+    "poster": "assets/vult/VULT07TV.png",
+    "caption": "Most vultures look for food by circling high overhead and scanning the ground. If one of them sees something that looks interesting, it starts circling lower and lower to get a better look. Other vultures in the area notice this behavior and move toward the target. That's how dozens of vultures suddenly descend from the sky to squabble over the same carcass."
+  }
+}

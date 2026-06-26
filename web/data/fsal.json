@@ -1,0 +1,252 @@
+{
+  "id": "fsal",
+  "code": "FSAL",
+  "name": "Fire Salamander",
+  "scientificName": "Salamandra salamandra",
+  "needsScientificVerify": false,
+  "tagline": "This boldly patterned crawler oozes deadly venom — those bright spots are a warning, not decoration!",
+  "hero": {
+    "image": "assets/fsal/FSAL00AA.png",
+    "alt": "Fire Salamander"
+  },
+  "intro": "These salamanders might be a predator's last meal. The venom that oozes from the glands behind their eyes is strong enough to kill a small animal. The fact that they're colored like wasps is not a coincidence— their yellow and black pattern warns other animals that they're dangerous to eat.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Defends by squirting venom from glands on head",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Insects and worms",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "When annoyed, the fire salamander can squirt a stream of venom up to 2.2m (7ft) away. If the venom reaches the victim's eyes, it can cause blindness for up to 20 minutes!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 30cm (12in)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Europe, Africa, Asia",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "whats-a-newt",
+      "title": "What's a newt?",
+      "image": "assets/fsal/FSAL01PU.png",
+      "text": "Newts are salamanders that live mostly in water. Like other salamanders, newts come in a wide variety of colors and patterns. Whether viewed from the bottom or the top, they're beautiful creatures.",
+      "captions": [
+        {
+          "label": "Fire-bellied newt",
+          "text": "China and Japan"
+        },
+        {
+          "label": "Palmate newt",
+          "text": "Western Europe"
+        },
+        {
+          "label": "Alpine newt",
+          "text": "Europe–Alps and other places"
+        },
+        {
+          "label": "Great crested newt",
+          "text": "Europe"
+        },
+        {
+          "label": "Italian crested newt",
+          "text": "Southern Europe"
+        },
+        {
+          "label": "Marbled newt",
+          "text": "France and Spain"
+        }
+      ]
+    },
+    {
+      "id": "its-all-in-the-head",
+      "title": "It's all in the head",
+      "image": "assets/fsal/FSAL02PU.png",
+      "text": "The big lumps behind the eyes of a salamander are actually glands that can ooze a milky, poisonous fluid. The venom burns if it gets into a predator's mouth or eyes. A few salamanders are so venomous that they can kill an animal that tries to eat them.",
+      "captions": [
+        {
+          "label": "Parotid glands",
+          "text": "Venom, or parotid, glands"
+        }
+      ]
+    },
+    {
+      "id": "growing-up",
+      "title": "Growing up",
+      "image": "assets/fsal/FSAL03PU.png",
+      "text": "Although some salamanders (including the fire salamander) give birth to live young, most lay eggs in water. But whether the process takes place in the water or inside the mother's body, young salamanders go through many changes before becoming adults.",
+      "captions": [
+        {
+          "label": "After a couple of months",
+          "text": "You can see this young newt's feathery gills, which it uses to breathe under water. The front legs have grown longer than the back ones, and the tail is beginning to take shape."
+        },
+        {
+          "label": "Still has gills",
+          "text": "This young salamander is starting to look like an adult. But it still has its gills."
+        }
+      ]
+    },
+    {
+      "id": "feet-for-all-purposes",
+      "title": "Feet for all purposes",
+      "image": "assets/fsal/FSAL04PU.png",
+      "text": "Different kinds of salamanders have different kinds of feet. Salamander feet are designed for their different ways of life. So if someone handed you a salamander and asked you where it lived, you might look at the animal's feet to get a clue.",
+      "captions": [
+        {
+          "label": "Mandarin salamander",
+          "text": "This flat foot has strong toes and no webbing. It's perfect for digging."
+        },
+        {
+          "label": "Tiger salamander",
+          "text": "Because it has long toes and no webbing, this foot is used mainly for walking and digging."
+        },
+        {
+          "label": "Palmate newt",
+          "text": "If you guessed that this newt uses its webbed feet to swim in water, you'd be right."
+        },
+        {
+          "label": "Paddle-tail newt",
+          "text": "This little foot has some webbing and short toes— that tells you that this newt both swims and climbs on slippery things."
+        }
+      ]
+    },
+    {
+      "id": "tough-guys",
+      "title": "Tough guys",
+      "image": "assets/fsal/FSAL05PU.png",
+      "text": "People tend to think all salamanders are gentle creatures. But these three pack a punch in the salamander world.",
+      "captions": [
+        {
+          "label": "Dangerous by any name",
+          "text": "This salamander is called a mandarin salamander, an orange-striped newt, an emperor newt, or a crocodile newt. No matter what it's called, it's dangerous! When upset, it can release venom from the orange bumps on its skin."
+        },
+        {
+          "label": "The biggest on land",
+          "text": "At over 37.5 centimeters (almost 15 inches) long, the tiger salamander is the largest land-dwelling salamander. Tiger salamanders will eat anything that fits into their mouths."
+        },
+        {
+          "label": "Packing powerful venom",
+          "text": "The California newt packs some of the most potent venom in the salamander world— the same type of deadly toxin found in a pufferfish in the ocean."
+        }
+      ]
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/fsal/FSAL00AA.png",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 1,
+            "y": 1,
+            "w": 10,
+            "h": 12
+          },
+          {
+            "label": "Tough guys",
+            "to": "tough-guys",
+            "x": 8,
+            "y": 23,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Growing up",
+            "to": "growing-up",
+            "x": 11,
+            "y": 33,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "It's all in the head",
+            "to": "its-all-in-the-head",
+            "x": 53,
+            "y": 21,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Feet for all purposes",
+            "to": "feet-for-all-purposes",
+            "x": 54,
+            "y": 30,
+            "w": 29,
+            "h": 5
+          },
+          {
+            "label": "What's a newt?",
+            "to": "whats-a-newt",
+            "x": 30,
+            "y": 72,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Salamander variety",
+            "to": "video",
+            "x": 13,
+            "y": 80,
+            "w": 26,
+            "h": 5
+          }
+        ]
+      },
+      "whats-a-newt": {
+        "image": "assets/fsal/FSAL01PU.png",
+        "back": "main"
+      },
+      "its-all-in-the-head": {
+        "image": "assets/fsal/FSAL02PU.png",
+        "back": "main"
+      },
+      "growing-up": {
+        "image": "assets/fsal/FSAL03PU.png",
+        "back": "main"
+      },
+      "feet-for-all-purposes": {
+        "image": "assets/fsal/FSAL04PU.png",
+        "back": "main"
+      },
+      "tough-guys": {
+        "image": "assets/fsal/FSAL05PU.png",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/fsal/FSAL00FB.png",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/fsal/clip.mp4",
+        "poster": "assets/fsal/FSAL06TV.png",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "narration": "assets/fsal/narration.mp3",
+  "video": {
+    "title": "Salamander variety",
+    "src": "assets/fsal/clip.mp4",
+    "poster": "assets/fsal/FSAL06TV.png",
+    "caption": "Salamanders come in an incredible variety of colors and patterns. This spotted salamander is about 15 centimeters (almost 6 in) long and lives in the woods of North America."
+  }
+}

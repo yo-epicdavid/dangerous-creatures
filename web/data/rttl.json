@@ -1,0 +1,258 @@
+{
+  "id": "rttl",
+  "code": "RTTL",
+  "name": "Rattlesnake",
+  "scientificName": "Crotalus atrox",
+  "needsScientificVerify": false,
+  "tagline": "It hunts in pitch darkness—and its fangs keep working even after it's dead!",
+  "hero": {
+    "image": "assets/rttl/RTTL00AA.png",
+    "alt": "Rattlesnake"
+  },
+  "intro": "A rattlesnake can identify and kill its prey in total darkness. If there's a mouse nearby, the rattler's infrared sensors can detect the rodent's body heat. When the snake strikes, its head and fangs are precisely guided by additional heat sensors inside its open mouth. A mouse in a rattler's path can become a midnight snack without ever seeing its attacker.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by injecting venom through fangs",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Rodents, lizards, and birds, and occasionally their eggs",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "It may be dead, but it's still dangerous. A rattlesnake's fangs and head muscles are capable of injecting venom even after the snake is dead!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 2.5m (8ft)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "North America, Central America, South America",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "rattlesnake-eaters",
+      "title": "Rattlesnake eaters",
+      "image": "assets/rttl/RTTL01PU.png",
+      "text": "You'd think that no one would want to mess with a rattlesnake, but king snakes think a rattler makes a fine meal.",
+      "captions": [
+        {
+          "label": "Mexican mountain king snake",
+          "text": "This snake isn't dangerous to people, but it can be mistaken for the coral snake, which is."
+        },
+        {
+          "label": "California king snake",
+          "text": "This snake, like all king snakes, is not venomous. It kills its prey–including rattlesnakes and copperheads–by constriction."
+        }
+      ]
+    },
+    {
+      "id": "copperhead-cousin",
+      "title": "Copperhead cousin",
+      "image": "assets/rttl/RTTL02PU.png",
+      "text": "Unlike a rattlesnake, a copperhead gives no audible warning before it strikes. Its venomous bite is painful but it's rarely fatal to humans. Copperheads vary in color from brown to orange-red, and their skin patterns help them blend into dead leaves in their forest habitat. Copperheads and rattlesnakes are both North American pit vipers.",
+      "captions": [
+        {
+          "label": "Not a copperhead",
+          "text": "Because it has similar coloring and lives in many of the same places, this corn snake is sometimes mistaken for a copperhead. But a corn snake is not venomous, and it is considered a friend to farmers because it eats rodents."
+        }
+      ]
+    },
+    {
+      "id": "fang-facts",
+      "title": "Fang facts",
+      "image": "assets/rttl/RTTL03PU.png",
+      "text": "The rattler's jaws fit together loosely–attached by a ligament that's like a rubber band–so the snake's mouth can open really wide. That's useful both for striking and for swallowing animals whole–rattlers don't chew their food.",
+      "captions": [
+        {
+          "label": "Say \"aaaah...\"",
+          "text": "The rattlesnake's fangs are usually folded back against the roof of its mouth. When its jaws open to strike, special muscles bring the fangs into position, and venom is pumped into its prey by glands in the snake's head."
+        }
+      ]
+    },
+    {
+      "id": "shedding-skins",
+      "title": "Shedding skins",
+      "image": "assets/rttl/RTTL04PU.png",
+      "text": "As a snake grows, its scaly skin becomes too small for its body, so it regularly sheds the old skin, which it leaves behind whole and intact. A new, larger skin is ready underneath to replace the old one.",
+      "captions": [
+        {
+          "label": "Slow worm shedding",
+          "text": "This reptile is a legless lizard (were you fooled?). Unlike snakes, lizards shed their skins in pieces."
+        },
+        {
+          "label": "Grass snake skin",
+          "text": "This skin even has the markings of its former owner."
+        }
+      ]
+    },
+    {
+      "id": "early-warning-system",
+      "title": "Early warning system",
+      "image": "assets/rttl/RTTL05PU.png",
+      "text": "It's believed that rattlesnakes make noise to warn larger animals that they're there. If you're out hiking and you hear a buzzing noise, look before you step–a rattler's giving you fair warning!",
+      "captions": [
+        {
+          "label": "Rattle, rattle",
+          "text": "When the rattlesnake shakes its tail, the separate pieces knock together, creating the rattling sound. The rattle is made of the same material as your finger- and toenails. A new \"button\" is added each time the snake sheds its skin."
+        }
+      ]
+    },
+    {
+      "id": "one-lungs-enough",
+      "title": "One lung's enough",
+      "image": "assets/rttl/RTTL06PU.png",
+      "text": "Like you might expect, many of the organs in a snake's body are long and slender. Only one of its lungs actually works.",
+      "captions": [
+        {
+          "label": "Loose bones",
+          "text": "A snake's ribs aren't connected to a breastbone, so they can swing out to make room for a big meal."
+        }
+      ]
+    },
+    {
+      "id": "snake-ball",
+      "title": "Snake ball",
+      "image": "assets/rttl/RTTL07PU.png",
+      "text": "Rattlesnakes gather in underground burrows or caves to sleep through the winter. During this hibernation period, their body processes slow down so much that they don't need to eat anything. Sometimes as many as 1,000 rattlesnakes will coil up together to hibernate."
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/rttl/RTTL00AA.png",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 1,
+            "y": 1,
+            "w": 10,
+            "h": 12
+          },
+          {
+            "label": "Snake ball",
+            "to": "snake-ball",
+            "x": 13,
+            "y": 6,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Copperhead cousin",
+            "to": "copperhead-cousin",
+            "x": 4,
+            "y": 16,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Rattlesnake eaters",
+            "to": "rattlesnake-eaters",
+            "x": 56,
+            "y": 3,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Wrestling rattlers",
+            "to": "video",
+            "x": 49,
+            "y": 9,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "One lung's enough",
+            "to": "one-lungs-enough",
+            "x": 57,
+            "y": 22,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Fang facts",
+            "to": "fang-facts",
+            "x": 62,
+            "y": 29,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Early warning system",
+            "to": "early-warning-system",
+            "x": 52,
+            "y": 72,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Shedding skins",
+            "to": "shedding-skins",
+            "x": 45,
+            "y": 82,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "rattlesnake-eaters": {
+        "image": "assets/rttl/RTTL01PU.png",
+        "back": "main"
+      },
+      "copperhead-cousin": {
+        "image": "assets/rttl/RTTL02PU.png",
+        "back": "main"
+      },
+      "fang-facts": {
+        "image": "assets/rttl/RTTL03PU.png",
+        "back": "main"
+      },
+      "shedding-skins": {
+        "image": "assets/rttl/RTTL04PU.png",
+        "back": "main"
+      },
+      "early-warning-system": {
+        "image": "assets/rttl/RTTL05PU.png",
+        "back": "main"
+      },
+      "one-lungs-enough": {
+        "image": "assets/rttl/RTTL06PU.png",
+        "back": "main"
+      },
+      "snake-ball": {
+        "image": "assets/rttl/RTTL07PU.png",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/rttl/RTTL00FB.png",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/rttl/clip.mp4",
+        "poster": "assets/rttl/RTTL08TV.png",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "narration": "assets/rttl/narration.mp3",
+  "video": {
+    "title": "Wrestling rattlers",
+    "src": "assets/rttl/clip.mp4",
+    "poster": "assets/rttl/RTTL08TV.png",
+    "caption": "Male rattlesnakes are territorial–they don't like to find other male rattlers in their hunting area. So when two males meet, the rattlesnakes neck-wrestle to decide who gets to stay."
+  }
+}

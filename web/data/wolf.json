@@ -1,0 +1,256 @@
+{
+  "id": "wolf",
+  "code": "WOLF",
+  "name": "Wolf",
+  "scientificName": "Canis lupus",
+  "needsScientificVerify": false,
+  "tagline": "Smart, swift, and always traveling in a pack — the wolf is nature's ultimate team player.",
+  "hero": {
+    "image": "assets/wolf/WOLF00AA.png",
+    "alt": "Wolf"
+  },
+  "intro": "Who's afraid of the big bad wolf? Lots of people. But wolves don't deserve the bad rep. It's true that they're powerful–they're larger than any other wild dog and they can run faster than the speed limit on most city streets–and they're smart. But wolves use their strength to kill prey and their intelligence to get along in a pack. There isn't a single recorded instance of a healthy wolf killing a human.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Hunts in packs and kills by biting prey",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Deer, elk, cattle, caribou, moose, beavers, and hares",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "Wolves can run at speeds up to 40 kilometers (25 mi) per hour and can maintain the chase for as long as 20 minutes!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 2m (6.5ft)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "North America, Eastern Europe, Asia, Mexico",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "wild-pups",
+      "title": "Wild pups",
+      "image": "assets/wolf/WOLF01PU.png",
+      "text": "Wolf pups are born blind but they're soon eager to explore the world. Like all puppies, they learn by playing–pouncing on moving objects and wrestling to see who's top dog. The pups stay with their parents and older brothers and sisters for a year or more. Then they leave to start their own packs."
+    },
+    {
+      "id": "wolf-ways",
+      "title": "Wolf ways",
+      "image": "assets/wolf/WOLF02PU.png",
+      "text": "A wolf can survive by itself (a \"lone wolf\"), but wolves normally live in packs. In each pack, there's one pair of leaders–a dominant male and female. Wolves use body language to communicate within the pack. The expression on a wolf's face and the way it holds its body–especially its tail–tells another wolf what it's saying."
+    },
+    {
+      "id": "long-distance-call",
+      "title": "Long-distance call",
+      "image": "assets/wolf/WOLF03PU.png",
+      "text": "Wolves howl to keep in touch with other pack members or to warn other packs to keep their distance–and it seems that sometimes they howl just for the fun of it. A wolf's howl can be heard for long distances."
+    },
+    {
+      "id": "eating-hierarchy",
+      "title": "Eating hierarchy",
+      "image": "assets/wolf/WOLF04PU.png",
+      "text": "Wolves stay near a kill for days until they eat all of it–even the bones and hair. The pack members don't necessarily all eat at the same time–the leaders get their fill first. If there are pups that are too young to travel with the pack to the site of the kill, the adult wolves go back to the den and regurgitate what they've eaten for the babies."
+    },
+    {
+      "id": "wolf-country",
+      "title": "Wolf country",
+      "image": "assets/wolf/WOLF05PU.png",
+      "text": "At one time, wolves lived in many parts of the world, but now most are concentrated in the northern parts of North America. People have killed wolves for centuries because they believed them to be a major threat to their livestock. In winter, wolves kill large animals such as moose, caribou, or musk oxen. In summer, much of their diet consists of small animals like mice, lemmings, and hares."
+    },
+    {
+      "id": "predator-power",
+      "title": "Predator power",
+      "image": "assets/wolf/WOLF06PU.png",
+      "text": "Just looking at a wolf's teeth might make you guess that it's a predator–and you'd be right!",
+      "captions": [
+        {
+          "label": "Human teeth",
+          "text": "Humans eat just about anything, so some of their 32 teeth must cut, and some must crush or chew."
+        },
+        {
+          "label": "Domestic dog teeth",
+          "text": "All types of canines have teeth that are designed for killing prey and eating meat. Most kinds of dogs have 42 teeth."
+        },
+        {
+          "label": "Wolf skull",
+          "text": "The big carnassial (flesh-tearing) teeth tell you that this skull belonged to a wolf, the largest of the wild dogs."
+        }
+      ]
+    },
+    {
+      "id": "misunderstood",
+      "title": "Misunderstood",
+      "image": "assets/wolf/WOLF07PU.png",
+      "text": "These two animals are called wolves, but neither one really is a wolf. However, like the wolves they are mistaken for, these two carnivores have also been slaughtered in great numbers.",
+      "captions": [
+        {
+          "label": "Completely wiped out",
+          "text": "This animal was called a Tasmanian wolf, or thylacine, but it was really a marsupial, not a member of the canine family. It was wiped out by settlers in Australia, and now it's extinct. The last time anyone saw a live Tasmanian wolf was in the 1930's."
+        },
+        {
+          "label": "Disappearing fast",
+          "text": "This maned wolf, which is a member of the dog family but not classified as a wolf, lives in the grasslands of Bolivia, Paraguay, Uruguay, Peru, and Argentina. Very few remain in the wild."
+        }
+      ]
+    },
+    {
+      "id": "foxy-cousin",
+      "title": "Foxy cousin",
+      "image": "assets/wolf/WOLF08PU.png",
+      "text": "If you lived in a snowy place and didn't want to be noticed, you'd probably wear a white winter coat–as many Arctic animals do. This Arctic fox's thick white winter coat is designed for both camouflage and warmth. It will be replaced in the spring by a thinner coat that may be gray, red, or tan."
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/wolf/WOLF00AA.png",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 1,
+            "y": 1,
+            "w": 12,
+            "h": 13
+          },
+          {
+            "label": "Wolf ways",
+            "to": "wolf-ways",
+            "x": 53,
+            "y": 3,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Predator power",
+            "to": "predator-power",
+            "x": 2,
+            "y": 14,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Long-distance call",
+            "to": "long-distance-call",
+            "x": 48,
+            "y": 22,
+            "w": 30,
+            "h": 6
+          },
+          {
+            "label": "Eating hierarchy",
+            "to": "eating-hierarchy",
+            "x": 2,
+            "y": 25,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Wild pups",
+            "to": "wild-pups",
+            "x": 52,
+            "y": 42,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Wolf country",
+            "to": "wolf-country",
+            "x": 2,
+            "y": 60,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Misunderstood",
+            "to": "misunderstood",
+            "x": 2,
+            "y": 68,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Making tracks",
+            "to": "video",
+            "x": 2,
+            "y": 76,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Foxy cousin",
+            "to": "foxy-cousin",
+            "x": 2,
+            "y": 84,
+            "w": 16,
+            "h": 6
+          }
+        ]
+      },
+      "wild-pups": {
+        "image": "assets/wolf/WOLF01PU.png",
+        "back": "main"
+      },
+      "wolf-ways": {
+        "image": "assets/wolf/WOLF02PU.png",
+        "back": "main"
+      },
+      "long-distance-call": {
+        "image": "assets/wolf/WOLF03PU.png",
+        "back": "main"
+      },
+      "eating-hierarchy": {
+        "image": "assets/wolf/WOLF04PU.png",
+        "back": "main"
+      },
+      "wolf-country": {
+        "image": "assets/wolf/WOLF05PU.png",
+        "back": "main"
+      },
+      "predator-power": {
+        "image": "assets/wolf/WOLF06PU.png",
+        "back": "main"
+      },
+      "misunderstood": {
+        "image": "assets/wolf/WOLF07PU.png",
+        "back": "main"
+      },
+      "foxy-cousin": {
+        "image": "assets/wolf/WOLF08PU.png",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/wolf/WOLF00FB.png",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/wolf/clip.mp4",
+        "poster": "assets/wolf/WOLF09TV.png",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "narration": "assets/wolf/narration.mp3",
+  "video": {
+    "title": "Making tracks",
+    "src": "assets/wolf/clip.mp4",
+    "poster": "assets/wolf/WOLF09TV.png",
+    "caption": "Wolves can cover over 32 kilometers (20 mi) of territory in a single journey. That's really keeping on your toes (which is, in fact, how wolves walk)! Wolves and other dogs can't tuck their nails away like cats can, so you'll always see toenail marks in wolf prints."
+  }
+}

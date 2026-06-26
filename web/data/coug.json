@@ -1,0 +1,208 @@
+{
+  "id": "coug",
+  "code": "COUG",
+  "name": "Cougar",
+  "scientificName": "Puma concolor",
+  "needsScientificVerify": false,
+  "tagline": "The master of the leap — this big cat can spring higher than a second-story window!",
+  "hero": {
+    "image": "assets/coug/COUG00AA.png",
+    "alt": "Cougar"
+  },
+  "intro": "Cougars can adapt their habits to live in almost any type of country, from forests to swamps to mountains. These beautiful cats once roamed from southern Canada to the tip of South America. People call cougars by many different names, including mountain lions, panthers, pumas, painters, and catamounts.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by ambush, biting its prey, and breaking its neck",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Deer, beavers, porcupines, and monkeys",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "Cougars are fantastic jumpers. From the ground they can leap more than four meters (15 feet) into the air – as high as a second-story window!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 1.9m (6.2ft)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "North America, South America",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "spotted-babies",
+      "title": "Spotted babies",
+      "image": "assets/coug/COUG01PU.png",
+      "text": "Cougar cubs are born with spots. These help the babies blend in better with their surroundings so that predators can't find them. The spots on this cub will fade as it grows, and the size of its body will also catch up with these ears!"
+    },
+    {
+      "id": "snow-cat",
+      "title": "Snow cat",
+      "image": "assets/coug/COUG02PU.png",
+      "text": "Pioneers in North America found cougars in swamps, forests, grasslands, and deserts. But people have driven them out of most places. These days, you're most likely to see a cougar only in remote locations, such as in the high country of a national park."
+    },
+    {
+      "id": "wildcat",
+      "title": "Wildcat",
+      "image": "assets/coug/COUG03PU.png",
+      "text": "Weighing in at less than 15 kilograms (33 lb), this bobcat, also called a wildcat, is smaller than a cougar. A bobcat's howls are bone chilling: the sound has often been compared to a woman's scream.",
+      "captions": [
+        {
+          "label": "Bobcat country",
+          "text": "Bobcats range across southern Canada, most of the U.S., and down into Mexico. But it's rare to see one. There aren't many left because they've been killed for their fur, and they're generally nocturnal hunters"
+        },
+        {
+          "label": "Favorite food",
+          "text": "Rabbits like this black-tailed jackrabbit are one of the bobcat's favorite foods."
+        }
+      ]
+    },
+    {
+      "id": "northern-neighbor",
+      "title": "Northern neighbor",
+      "image": "assets/coug/COUG04PU.png",
+      "text": "This lynx has fur on the bottom of its feet so that it can walk on snow and still keep its feet warm. A lynx looks a lot like a bobcat, but it's bigger and heavier, and has larger tufts of hair on its ears.",
+      "captions": [
+        {
+          "label": "Lynx locations",
+          "text": "Lynxes once ranged throughout northern Europe and Siberia as well as Canada and the northern U.S., but now they've become endangered in many parts of the world."
+        },
+        {
+          "label": "Snacking on snowshoes",
+          "text": "Like the lynx, a snowshoe hare can run on the snow. And snowshoe hares frequently need to run fast, because they are always on a lynx's menu."
+        }
+      ]
+    },
+    {
+      "id": "southern-cousins",
+      "title": "Southern cousins",
+      "image": "assets/coug/COUG05PU.png",
+      "text": "At one time there were wild cats all over the world. Here are two cat species that live in Central and South America.",
+      "captions": [
+        {
+          "label": "Ocelot",
+          "text": "These sleek hunters are sometimes sighted in scrublands and forests from Texas and New Mexico all the way south to Argentina. Some people try to capture ocelots for pets, but ocelots are much happier in the wild."
+        },
+        {
+          "label": "Geoffroy's cat",
+          "text": "This small cat lives in South America, where it spends a lot of time in the trees. Sadly, it's frequently killed for its beautiful fur."
+        }
+      ]
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/coug/COUG00AA.png",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 1,
+            "y": 1,
+            "w": 10,
+            "h": 11
+          },
+          {
+            "label": "Northern neighbor",
+            "to": "northern-neighbor",
+            "x": 42,
+            "y": 6,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "Leaping for a living",
+            "to": "video",
+            "x": 30,
+            "y": 17,
+            "w": 32,
+            "h": 6
+          },
+          {
+            "label": "Wildcat",
+            "to": "wildcat",
+            "x": 75,
+            "y": 27,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Snow cat",
+            "to": "snow-cat",
+            "x": 52,
+            "y": 56,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Spotted babies",
+            "to": "spotted-babies",
+            "x": 52,
+            "y": 67,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Southern cousins",
+            "to": "southern-cousins",
+            "x": 51,
+            "y": 78,
+            "w": 24,
+            "h": 6
+          }
+        ]
+      },
+      "spotted-babies": {
+        "image": "assets/coug/COUG01PU.png",
+        "back": "main"
+      },
+      "snow-cat": {
+        "image": "assets/coug/COUG02PU.png",
+        "back": "main"
+      },
+      "wildcat": {
+        "image": "assets/coug/COUG03PU.png",
+        "back": "main"
+      },
+      "northern-neighbor": {
+        "image": "assets/coug/COUG04PU.png",
+        "back": "main"
+      },
+      "southern-cousins": {
+        "image": "assets/coug/COUG05PU.png",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/coug/COUG00FB.png",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/coug/clip.mp4",
+        "poster": "assets/coug/COUG06TV.png",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "narration": "assets/coug/narration.mp3",
+  "video": {
+    "title": "Leaping for a living",
+    "src": "assets/coug/clip.mp4",
+    "poster": "assets/coug/COUG06TV.png",
+    "caption": "Cougars are amazingly agile cats. They've been known to jump more than seven times their own height straight up into trees, or escape down seemingly sheer cliffs. And a favorite cougar trick is to leap onto the back of its prey."
+  }
+}

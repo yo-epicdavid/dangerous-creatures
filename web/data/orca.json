@@ -1,0 +1,218 @@
+{
+  "id": "orca",
+  "code": "ORCA",
+  "name": "Killer Whale",
+  "scientificName": "Orcinus orca",
+  "needsScientificVerify": false,
+  "tagline": "The top predator of the seas hunts in packs and eats almost anything — but it has never killed a human.",
+  "hero": {
+    "image": "assets/orca/ORCA00AA.png",
+    "alt": "Killer Whale"
+  },
+  "intro": "The biggest predator on earth to prey on both warm-blooded and cold-blooded animals, this \"killer\" is at the very top of the ocean food web-but it's never been known to hunt humans. These intelligent, playful mammals (also called orcas) are often found in aquariums. Some orcas have even been movie stars. Captive orcas have helped millions of people to appreciate the grace and intelligence of these marvelous animals.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by biting its prey or swallowing it whole",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Seals, dolphins, penguins, and fish",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "Killer whales have been known to ram ice floes to dump penguins or seals into the water. They sometimes flip their catch in the air before eating it.",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 9m (31 ft)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Subarctic and subantarctic seas",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "little-cousins",
+      "title": "Little cousins",
+      "image": "assets/orca/ORCA01PU.png",
+      "text": "The orca is actually not a whale, but a kind of dolphin, but when most people think of dolphins, they picture the animal shown above. Like us, all dolphins are mammals: they're warm-blooded, they breathe air, and they nurse their young. And like us, they're noisy—communicating in whistles, clicks, and what sounds to us like songs.",
+      "captions": [
+        {
+          "label": "Slippery customers",
+          "text": "This common dolphin grasps prey in its spiky teeth and then uses its tongue to flip them down whole."
+        },
+        {
+          "label": "A dolphin's teeth",
+          "text": "A dolphin's teeth work like these tongs to hold a slippery fish."
+        }
+      ]
+    },
+    {
+      "id": "its-after-me",
+      "title": "It's after me!",
+      "image": "assets/orca/ORCA02PU.png",
+      "text": "This view could give sea lions and penguins nightmares! Orcas in South America sometimes even lunge onto the shore to grab their prey. Penguins all dive in together in hopes of confusing a predator lurking at the edge of the water. When you think about that waiting orca's grin, can you blame them?",
+      "captions": [
+        {
+          "label": "Humboldt penguin",
+          "text": "The penguin's black-and-white markings, like the orca's, break up its outline so that it's harder for predators to see."
+        }
+      ]
+    },
+    {
+      "id": "seafood-plate-please",
+      "title": "Seafood plate, please",
+      "image": "assets/orca/ORCA03PU.png",
+      "text": "An orca dining in a seafood restaurant could pretty much order anything on the menu. They feed on fish, sea turtles, squid, penguins, dolphins, sea lions, seals, and occasionally even large whales. A pod of orcas will often herd its prey with loud noises before moving in for the kill."
+    },
+    {
+      "id": "ancient-squid-snatcher",
+      "title": "Ancient squid snatcher",
+      "image": "assets/orca/ORCA04PU.png",
+      "text": "This dolphin lookalike was chasing squids 300 million years ago! Like modern dolphins, Ichthyosaurus had long jaws lined with teeth that could hold fish and pterosaurs (flying reptiles), as well as squids. Although it resembled a fish or dolphin, Ichthyosaurus was actually a reptile.",
+      "captions": [
+        {
+          "label": "Marine mother",
+          "text": "Unlike most reptiles, Ichthyosaurus gave birth to live young instead of laying eggs."
+        }
+      ]
+    },
+    {
+      "id": "life-in-a-pod",
+      "title": "Life in a pod",
+      "image": "assets/orca/ORCA05PU.png",
+      "text": "Groups of orcas are called pods. A pod may contain as many as 50 animals, and they stay together for life. The pod travels and hunts together, much like a pack of wolves. But instead of using smell or sight to find their prey in the water, orcas primarily use echolocation, bouncing sound off objects, including other animals, like a sonar detector in a submarine."
+    },
+    {
+      "id": "communicating-or-celebrating",
+      "title": "Communicating or celebrating?",
+      "image": "assets/orca/ORCA06PU.png",
+      "text": "If you're in the right place at the right time, you may be lucky enough to see a killer whale leap headfirst out of the water and come crashing down on its side. Scientists call this \"breaching.\" It may look like the orca is leaping for joy, but in fact slapping the water as hard as possible may also be the best way to communicate over a long distance."
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/orca/ORCA00AA.png",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 2,
+            "y": 2,
+            "w": 11,
+            "h": 10
+          },
+          {
+            "label": "Ancient squid snatcher",
+            "to": "ancient-squid-snatcher",
+            "x": 51,
+            "y": 5,
+            "w": 33,
+            "h": 5
+          },
+          {
+            "label": "Communicating or celebrating?",
+            "to": "communicating-or-celebrating",
+            "x": 50,
+            "y": 17,
+            "w": 38,
+            "h": 5
+          },
+          {
+            "label": "Seafood plate, please",
+            "to": "seafood-plate-please",
+            "x": 13,
+            "y": 30,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "It's after me!",
+            "to": "its-after-me",
+            "x": 10,
+            "y": 42,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Little cousins",
+            "to": "little-cousins",
+            "x": 10,
+            "y": 52,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Who's a killer?",
+            "to": "video",
+            "x": 4,
+            "y": 67,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Life in a pod",
+            "to": "life-in-a-pod",
+            "x": 56,
+            "y": 67,
+            "w": 20,
+            "h": 5
+          }
+        ]
+      },
+      "little-cousins": {
+        "image": "assets/orca/ORCA01PU.png",
+        "back": "main"
+      },
+      "its-after-me": {
+        "image": "assets/orca/ORCA02PU.png",
+        "back": "main"
+      },
+      "seafood-plate-please": {
+        "image": "assets/orca/ORCA03PU.png",
+        "back": "main"
+      },
+      "ancient-squid-snatcher": {
+        "image": "assets/orca/ORCA04PU.png",
+        "back": "main"
+      },
+      "life-in-a-pod": {
+        "image": "assets/orca/ORCA05PU.png",
+        "back": "main"
+      },
+      "communicating-or-celebrating": {
+        "image": "assets/orca/ORCA06PU.png",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/orca/ORCA00FB.png",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/orca/clip.mp4",
+        "poster": "assets/orca/ORCA07TV.png",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "narration": "assets/orca/narration.mp3",
+  "video": {
+    "title": "Who's a killer?",
+    "src": "assets/orca/clip.mp4",
+    "poster": "assets/orca/ORCA07TV.png",
+    "caption": "The orca has been known to slide up onto a beach or onto floating ice to grab a startled seal or sea lion in its jaws. But it's not really a \"killer,\" any more than is a frog that pounces on insects."
+  }
+}

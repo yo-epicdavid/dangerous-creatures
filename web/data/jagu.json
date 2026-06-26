@@ -1,0 +1,234 @@
+{
+  "id": "jagu",
+  "code": "JAGU",
+  "name": "Jaguar",
+  "scientificName": "Panthera onca",
+  "needsScientificVerify": false,
+  "tagline": "The jungle's spotted shadow — a stealthy giant that strikes from the trees.",
+  "hero": {
+    "image": "assets/jagu/JAGU00AA.png",
+    "alt": "Jaguar"
+  },
+  "intro": "Reports of jaguars trailing people through the jungle have been recorded for centuries. Imagine hearing a rustle of underbrush and turning to see a pair of fierce yellow eyes fixed on you! But instead of attacking the people, all these jaguars did was frighten them, and then vanish. Experts think that when the big cats act like this, they may be simply escorting the human intruders out of the jaguars' territory.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by biting through skull of victim",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Mostly mammals plus fish, birds, turtles, and their eggs",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "To find a jaguar, look for a tropical stream or river. This shy cat loves to swim and fish. At up to 153 kilograms (340lbs), it makes quite a splash!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 2.5m (8.2ft)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Central America, South America, Mexico",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "spots-before-your-eyes",
+      "title": "Spots before your eyes",
+      "image": "assets/jagu/JAGU01PU.png",
+      "text": "Can you tell these spotted cats apart? Look closely at their fur. Although they're all spotted, their spots are all different.",
+      "captions": [
+        {
+          "label": "Cheetah fur",
+          "text": "Close-up of the cheetah's small, solid black spots."
+        },
+        {
+          "label": "Jaguar fur",
+          "text": "Close-up of the jaguar's rosette pattern with spots inside each ring."
+        },
+        {
+          "label": "Ocelot fur",
+          "text": "Close-up of the ocelot's irregular blotched and streaked pattern."
+        },
+        {
+          "label": "Leopard fur",
+          "text": "Close-up of the leopard's open rosettes without inner spots."
+        }
+      ]
+    },
+    {
+      "id": "hiding-out",
+      "title": "Hiding out",
+      "image": "assets/jagu/JAGU02PU.png",
+      "text": "Ever notice the patterns of light and shade in a forest? That's why it's hard to see spotted forest cats–an alternating pattern of light and dark patches breaks up the shapes of the animals, so that they blend into the environment. This jaguar is neatly camouflaged. As long as it stays still, another animal might not even notice it."
+    },
+    {
+      "id": "super-jock",
+      "title": "Super jock",
+      "image": "assets/jagu/JAGU03PU.png",
+      "text": "Like all hunting cats, jaguars are great climbers and jumpers. They like to lie in ambush in the bushes. Another favorite jaguar hunting technique is to scale tall trees that overhang paths and then leap down onto animals passing below. Imagine seeing this cat jumping down on you!"
+    },
+    {
+      "id": "on-the-menu",
+      "title": "On the menu",
+      "image": "assets/jagu/JAGU04PU.png",
+      "text": "A jaguar needs a lot of meat to power its muscular body. It will eat many types of animals (including the ones shown here), and it's famous for its hunting techiques.",
+      "captions": [
+        {
+          "label": "Caiman",
+          "text": "A crocodilian reptile hunted by jaguars near tropical waterways."
+        },
+        {
+          "label": "Amazonian catfish",
+          "text": "A large freshwater fish the jaguar snatches from rivers."
+        },
+        {
+          "label": "Tapir",
+          "text": "A large hoofed mammal and one of the jaguar's biggest prey."
+        }
+      ]
+    },
+    {
+      "id": "another-jungle-cat",
+      "title": "Another jungle cat",
+      "image": "assets/jagu/JAGU05PU.png",
+      "text": "A jaguar might meet an ocelot–they both roam through the forests and scrublands of Central America. But the ocelot would rather avoid this meeting with its cousin. An average ocelot weighs only a fraction of what a jaguar does, but it's still enough to make a good size meal for its bigger cousin!"
+    },
+    {
+      "id": "art-object",
+      "title": "Art object",
+      "image": "assets/jagu/JAGU06PU.png",
+      "text": "Cultures throughout history have honored big cats as symbols of strength and intelligence. Cats appear in paintings, statues, and carvings all over the world.",
+      "captions": [
+        {
+          "label": "Jaguar worship",
+          "text": "Both the Aztecs and the Mayas, ancient rulers of Mexico and Central America, revered jaguars. This Mayan statue from Chichén Itzá is inlaid with precious jade. The bowl on its back is for offerings."
+        }
+      ]
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/jagu/JAGU00AA.png",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 2,
+            "y": 2,
+            "w": 10,
+            "h": 13
+          },
+          {
+            "label": "On the menu",
+            "to": "on-the-menu",
+            "x": 72,
+            "y": 23,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Super jock",
+            "to": "super-jock",
+            "x": 72,
+            "y": 37,
+            "w": 17,
+            "h": 6
+          },
+          {
+            "label": "Art object",
+            "to": "art-object",
+            "x": 73,
+            "y": 52,
+            "w": 17,
+            "h": 6
+          },
+          {
+            "label": "Loner",
+            "to": "video",
+            "x": 26,
+            "y": 59,
+            "w": 14,
+            "h": 6
+          },
+          {
+            "label": "Another jungle cat",
+            "to": "another-jungle-cat",
+            "x": 18,
+            "y": 67,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "Hiding out",
+            "to": "hiding-out",
+            "x": 62,
+            "y": 67,
+            "w": 17,
+            "h": 6
+          },
+          {
+            "label": "Spots before your eyes",
+            "to": "spots-before-your-eyes",
+            "x": 18,
+            "y": 75,
+            "w": 27,
+            "h": 6
+          }
+        ]
+      },
+      "spots-before-your-eyes": {
+        "image": "assets/jagu/JAGU01PU.png",
+        "back": "main"
+      },
+      "hiding-out": {
+        "image": "assets/jagu/JAGU02PU.png",
+        "back": "main"
+      },
+      "super-jock": {
+        "image": "assets/jagu/JAGU03PU.png",
+        "back": "main"
+      },
+      "on-the-menu": {
+        "image": "assets/jagu/JAGU04PU.png",
+        "back": "main"
+      },
+      "another-jungle-cat": {
+        "image": "assets/jagu/JAGU05PU.png",
+        "back": "main"
+      },
+      "art-object": {
+        "image": "assets/jagu/JAGU06PU.png",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/jagu/JAGU00FB.png",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/jagu/clip.mp4",
+        "poster": "assets/jagu/JAGU07TV.png",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "narration": "assets/jagu/narration.mp3",
+  "video": {
+    "title": "Loner",
+    "src": "assets/jagu/clip.mp4",
+    "poster": "assets/jagu/JAGU07TV.png",
+    "caption": "Jaguars spend their days alone, prowling through the forests. Felines of all sizes are exceptional hunters: that's why they can survive on their own. Except for lions, which live and hunt in groups, and for mothers accompanied by their young, most cats lead solitary lives."
+  }
+}

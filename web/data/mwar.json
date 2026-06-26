@@ -1,0 +1,206 @@
+{
+  "id": "mwar",
+  "code": "MWAR",
+  "name": "Portuguese Man-of-War",
+  "scientificName": "Physalia physalis",
+  "needsScientificVerify": false,
+  "tagline": "Half a million stinging harpoons — and it's not even one animal!",
+  "hero": {
+    "image": "assets/mwar/MWAR00AA.png",
+    "alt": "Portuguese Man-of-War"
+  },
+  "intro": "A man-of-war floats on the ocean like the Portuguese ship it's named after, rainbow balloon sail catching the wind. But beware of this beautiful jellyfish relative! Beneath the buoyant body dangle tentacles covered with half a million stinging cells, each ready to release a tiny, venomous harpoon. Even if you only brush against a piece of tentacle washed up on the beach, you'll get stung–probably not fatally, but very painfully.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by stinging with venomous cells",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "All types of fish",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "It has no brain and no heart. In fact, a man-of-war isn't a single creature–it's a collection of different animals living together!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 30m (100ft)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Tropical seas",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "what-is-this-thing",
+      "title": "What is this thing?",
+      "image": "assets/mwar/MWAR01PU.png",
+      "text": "A man-of-war is actually a community that includes hundreds of individuals! It starts as a plantlike polyp that grows into a tiny gas bag. This buds into other polyps, each with its own job. Some polyps digest food; some are reproductive; others have stinging cells. The whole group floats merrily along, hanging from the original polyp–which has grown into a huge gas bag with a ridged top that acts as a sail."
+    },
+    {
+      "id": "whats-a-jellyfish",
+      "title": "What's a jellyfish?",
+      "image": "assets/mwar/MWAR02PU.png",
+      "text": "Men-of-war are closely related to jellyfish, but they're not exactly the same. A jellyfish is a single creature that spends part of its life as a plantlike polyp, while a man-of-war is actually a colony of individuals, mostly polyps, that together behave as though they're one animal.",
+      "captions": [
+        {
+          "label": "Snake-headed",
+          "text": "Jellyfish, or medusae, are named for Medusa, a legendary Greek character who was said to have serpents in place of hair."
+        }
+      ]
+    },
+    {
+      "id": "gone-fishing",
+      "title": "Gone fishing",
+      "image": "assets/mwar/MWAR03PU.png",
+      "text": "Once a fish blunders into the man-of-war's tentacles, it's as good as dead. After stinging the fish, the tentacles contract, drawing the paralyzed victim up toward the feeding polyps. Each polyp has its own mouth!",
+      "captions": [
+        {
+          "label": "Armed and ready",
+          "text": "The stinging cells (nematocysts) of all cnidarians (jellyfish, corals, anemones, and hydroids like the man-of-war) work the same way–like tiny harpoons. When something touches a stinging cell, it springs open and the coiled thread inside shoots out into the target's skin. There may be thousands of stinging cells on each tentacle of the cnidarians, which are named after the Greek word for \"nettle\"–as in \"stinging nettle.\""
+        }
+      ]
+    },
+    {
+      "id": "partners",
+      "title": "Partners",
+      "image": "assets/mwar/MWAR04PU.png",
+      "text": "Clownfish and sea anemones have a \"symbiotic relationship,\" which means that the partnership benefits both parties. The fish's predators won't approach while it's near the anemone; in return, the anemone eats the remains of the fish's meals. There are little fish that live among the man-of-war's tentacles, too. But it's a one-way relationship–these fish eat bits of their host!",
+      "captions": [
+        {
+          "label": "Super slime",
+          "text": "Some scientists think that a clownfish produces a coat of mucus that protects it from the anemone's sting"
+        }
+      ]
+    },
+    {
+      "id": "slimy-characters",
+      "title": "Slimy characters",
+      "image": "assets/mwar/MWAR05PU.png",
+      "text": "When a person is called \"slimy,\" it's not usually meant as a compliment! But in the world of marine animals, slime is real useful stuff. The little fish that live among the man-of-war's and the anemone's tentacles, for instance, may be protected from stings by the mucus they produce.",
+      "captions": [
+        {
+          "label": "Smelly old coat",
+          "text": "The little mandarin fish really stands out as it swims around a coral reef. But it can afford to be noticed–it produces a smelly, foul-tasting layer of mucus. Predators don't even want to get near the fish!"
+        },
+        {
+          "label": "Bitter cucumber",
+          "text": "This sea cucumber produces venom that makes the cucumber taste nasty!"
+        }
+      ]
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mwar/MWAR00AA.png",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 2,
+            "y": 2,
+            "w": 10,
+            "h": 14
+          },
+          {
+            "label": "Slimy characters",
+            "to": "slimy-characters",
+            "x": 30,
+            "y": 12,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "What is this thing?",
+            "to": "what-is-this-thing",
+            "x": 27,
+            "y": 21,
+            "w": 25,
+            "h": 6
+          },
+          {
+            "label": "What's a jellyfish?",
+            "to": "whats-a-jellyfish",
+            "x": 25,
+            "y": 33,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "Gone fishing",
+            "to": "gone-fishing",
+            "x": 42,
+            "y": 46,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Partners",
+            "to": "partners",
+            "x": 72,
+            "y": 21,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Trailing tentacles",
+            "to": "video",
+            "x": 40,
+            "y": 82,
+            "w": 24,
+            "h": 8
+          }
+        ]
+      },
+      "what-is-this-thing": {
+        "image": "assets/mwar/MWAR01PU.png",
+        "back": "main"
+      },
+      "whats-a-jellyfish": {
+        "image": "assets/mwar/MWAR02PU.png",
+        "back": "main"
+      },
+      "gone-fishing": {
+        "image": "assets/mwar/MWAR03PU.png",
+        "back": "main"
+      },
+      "partners": {
+        "image": "assets/mwar/MWAR04PU.png",
+        "back": "main"
+      },
+      "slimy-characters": {
+        "image": "assets/mwar/MWAR05PU.png",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/mwar/MWAR00FB.png",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/mwar/clip.mp4",
+        "poster": "assets/mwar/MWAR06TV.png",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "narration": "assets/mwar/narration.mp3",
+  "video": {
+    "title": "Trailing tentacles",
+    "src": "assets/mwar/clip.mp4",
+    "poster": "assets/mwar/MWAR06TV.png",
+    "caption": "A floating Portuguese man-of-war looks pretty harmless from the surface. But don't swim anywhere close to this creature! A man-of-war can contract and extend its nearly invisible tentacles. Some have tentacles that can stretch 31 meters (over 100 ft) beyond their gas-filled floats!"
+  }
+}

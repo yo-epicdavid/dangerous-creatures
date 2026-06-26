@@ -1,0 +1,246 @@
+{
+  "id": "plat",
+  "code": "PLAT",
+  "name": "Platypus",
+  "scientificName": "Ornithorhynchus anatinus",
+  "needsScientificVerify": false,
+  "tagline": "The duck-billed, egg-laying mammal that packs a venomous punch!",
+  "hero": {
+    "image": "assets/plat/PLAT00AA.png",
+    "alt": "Platypus"
+  },
+  "intro": "\"Impossible—it must be a hoax!\" That's what people who had never seen a platypus said when they first heard the animal described. A furry beast with webbed feet and a bill like a duck? A mammal that lays eggs but nurses its young? It still seems an unlikely creature. The platypus remains one of the world's most unusual animals.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Defends by injecting venom from spurs on its hind legs",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Crayfish, worms, and small water animals",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "This 'eating machine' consumes more food for its size than any other mammal on earth. While feeding, it filters mud and sand through grooves on its large beak.",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 75cm (30in)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Eastern Australia Tasmania",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "inside-a-platypus",
+      "title": "Inside a platypus",
+      "image": "assets/plat/PLAT01PU.png",
+      "text": "Even the skeleton of a platypus looks like a combination of the bones of other animals.",
+      "captions": [
+        {
+          "label": "Putting heads together",
+          "text": "Do you think the skull of a duck looks like the skull of a platypus?"
+        },
+        {
+          "label": "Platypus skeleton",
+          "text": "The bones in a platypus's feet are similar to those of a seal, which makes sense–both animals use their feet for swimming, not walking."
+        }
+      ]
+    },
+    {
+      "id": "ducklike-feet-and-bills",
+      "title": "Ducklike feet and bills",
+      "image": "assets/plat/PLAT02PU.png",
+      "text": "The webbed feet and the bill of a platypus have been compared with those of a duck. But are these platypus features really ducklike?",
+      "captions": [
+        {
+          "label": "Soft bill",
+          "text": "Because they examined only dried specimens, early scientists got the idea that a platypus had a hard bill. Now we know that a platypus's bill has a soft, very sensitive leathery covering. A platypus uses its bill to dig in the mud for worms, crayfish, and other soft food."
+        },
+        {
+          "label": "Goose foot",
+          "text": "Although both geese and platypuses have webbed feet, a platypus's feet are really more similar to that of another mammal, a seal."
+        }
+      ]
+    },
+    {
+      "id": "platypus-life",
+      "title": "Platypus life",
+      "image": "assets/plat/PLAT03PU.png",
+      "text": "On land, a platypus relies on its sight and hearing to find out about its environment. Underwater, its eyes and ears are protected under flaps of skin, so while swimming the platypus relies almost exclusively on its sense of touch. Its rubbery bill is especially sensitive, and the platypus uses it to find the crustaceans, worms, and fish it eats."
+    },
+    {
+      "id": "prickly-relative",
+      "title": "Prickly relative",
+      "image": "assets/plat/PLAT04PU.png",
+      "text": "A platypus is a monotreme, a type of primitive egg-laying mammal. There's only one other type of monotreme: echidnas, or spiny anteaters. Echidnas come in short-nosed and long-nosed versions.",
+      "captions": [
+        {
+          "label": "Ball of spikes",
+          "text": "A spiny animal like an echidna or like this hedgehog can roll up into a ball. This protects its soft belly from attack and forms a prickly ball that most predators wouldn't touch."
+        },
+        {
+          "label": "Echidna",
+          "text": "These odd creatures live in Australia and New Guinea. Like a platypus, an echidna is an egg-laying mammal. A single egg is deposited into a pouch on the mother's belly. There the baby develops until it's ready to go into the outside world."
+        }
+      ]
+    },
+    {
+      "id": "cute-but-not-cuddly",
+      "title": "Cute, but not cuddly",
+      "image": "assets/plat/PLAT05PU.png",
+      "text": "You might be asking yourself what makes a platypus a \"dangerous creature.\" You should approach all wild animals with caution, but you should be especially careful with a male platypus. Males have sharp, venomous spurs on their hind feet!",
+      "captions": [
+        {
+          "label": "Venomous spurs",
+          "text": "The venom that male platypuses can inject through their spurs is strong enough to kill small animals. It can also cause temporary partial paralysis in a human."
+        }
+      ]
+    },
+    {
+      "id": "odd-neighbors",
+      "title": "Odd neighbors",
+      "image": "assets/plat/PLAT06PU.png",
+      "text": "The mainland of Australia, the Australian island of Tasmania, and New Guinea are famous for their odd animals. Here are just a few of the unusual creatures you can find in this area.",
+      "captions": [
+        {
+          "label": "Frightening frills",
+          "text": "The impressive frilled lizard, which can zoom along on its hind legs, has starred in many TV shows."
+        },
+        {
+          "label": "Diminutive devil",
+          "text": "This Tasmanian devil is small and quite shy, but it is also a fierce hunter that can kill much larger prey."
+        },
+        {
+          "label": "Successful immigrant",
+          "text": "The cane toad, also known as the giant marine toad, was imported into Australia. It's now devouring a lot of the native wildlife."
+        }
+      ]
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/plat/PLAT00AA.png",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 2,
+            "y": 2,
+            "w": 10,
+            "h": 8
+          },
+          {
+            "label": "Odd neighbors",
+            "to": "odd-neighbors",
+            "x": 67,
+            "y": 10,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Not a pet",
+            "to": "video",
+            "x": 25,
+            "y": 37,
+            "w": 14,
+            "h": 6
+          },
+          {
+            "label": "Platypus life",
+            "to": "platypus-life",
+            "x": 7,
+            "y": 50,
+            "w": 17,
+            "h": 6
+          },
+          {
+            "label": "Ducklike feet and bills",
+            "to": "ducklike-feet-and-bills",
+            "x": 6,
+            "y": 69,
+            "w": 29,
+            "h": 6
+          },
+          {
+            "label": "Inside a platypus",
+            "to": "inside-a-platypus",
+            "x": 57,
+            "y": 47,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "Cute, but not cuddly",
+            "to": "cute-but-not-cuddly",
+            "x": 57,
+            "y": 58,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Prickly relative",
+            "to": "prickly-relative",
+            "x": 57,
+            "y": 66,
+            "w": 20,
+            "h": 6
+          }
+        ]
+      },
+      "inside-a-platypus": {
+        "image": "assets/plat/PLAT01PU.png",
+        "back": "main"
+      },
+      "ducklike-feet-and-bills": {
+        "image": "assets/plat/PLAT02PU.png",
+        "back": "main"
+      },
+      "platypus-life": {
+        "image": "assets/plat/PLAT03PU.png",
+        "back": "main"
+      },
+      "prickly-relative": {
+        "image": "assets/plat/PLAT04PU.png",
+        "back": "main"
+      },
+      "cute-but-not-cuddly": {
+        "image": "assets/plat/PLAT05PU.png",
+        "back": "main"
+      },
+      "odd-neighbors": {
+        "image": "assets/plat/PLAT06PU.png",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/plat/PLAT00FB.png",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/plat/clip.mp4",
+        "poster": "assets/plat/PLAT07TV.png",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "narration": "assets/plat/narration.mp3",
+  "video": {
+    "title": "Not a pet",
+    "src": "assets/plat/clip.mp4",
+    "poster": "assets/plat/PLAT07TV.png",
+    "caption": "Many wild mammals, like the platypus, look to us as if they might make good pets. But they're happiest in the wild, where they can live the life they're best suited for and find the food they need. A platypus eats up to 1.5 kilograms (about 3 lbs) of food per day!"
+  }
+}

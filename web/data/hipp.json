@@ -1,0 +1,218 @@
+{
+  "id": "hipp",
+  "code": "HIPP",
+  "name": "Hippopotamus",
+  "scientificName": "Hippopotamus amphibius",
+  "needsScientificVerify": false,
+  "tagline": "The river giant you never want to wake up.",
+  "hero": {
+    "image": "assets/hipp/HIPP00AA.png",
+    "alt": "Hippopotamus"
+  },
+  "intro": "As the sun sets, rumbling snorts begin to come from the shallows of African lakes and rivers. If you're standing on the shore and you hear this sound, clear out! This is the first signal that the hippos are coming out of the water for their nightly grazing. And you don't want to be in their way!",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Defends by biting and trampling",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Grasses, leaves, and aquatic plants",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "Most dangerous encounters occurs in the water. Boaters don't realize they're too close to underwater hippos until they see a huge set of jaws heading their way!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 4.7m (15ft)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Region: Africa",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "open-wide",
+      "title": "Open wide",
+      "image": "assets/hipp/HIPP01PU.png",
+      "text": "A hippo doesn't look dangerous until it opens its mouth—then you can understand why hippos are some of the most dangerous animals in Africa. They're huge creatures, and they have tremendous jaw muscles and long, sharp teeth. And they're much faster than they look. Many Africans believe that hippos can bite people in half!",
+      "captions": [
+        {
+          "label": "Hippo tooth",
+          "text": "In the past, people have killed hippos for their flesh and for their teeth, which are easier to carve than elephant tusks."
+        }
+      ]
+    },
+    {
+      "id": "life-underwater",
+      "title": "Life underwater",
+      "image": "assets/hipp/HIPP02PU.png",
+      "text": "Hippos spend much of their time almost completely submerged. If necessary, they can close their nostrils and ears and stay underwater for nearly half an hour at a time. Females even give birth to and nurse their babies underwater. But hippos aren't true aquatic animals, because they emerge in the evening to graze on grasses."
+    },
+    {
+      "id": "daily-walk",
+      "title": "Daily walk",
+      "image": "assets/hipp/HIPP03PU.png",
+      "text": "Although you can occasionally see hippos on land during the day, they most often wait until dark to come out to graze. Most hippos stay within a few kilometers of their watery resting spots. Hippos, especially mothers with babies, can be very defensive in or out of the water, so don't get close or you may find out just how quickly a hippopotamus can charge!"
+    },
+    {
+      "id": "giant-vegetarians",
+      "title": "Giant vegetarians",
+      "image": "assets/hipp/HIPP04PU.png",
+      "text": "Hippos are herbivores, which means that they eat grass and other vegetable matter. Many of the earth's largest creatures are vegetarians.",
+      "captions": [
+        {
+          "label": "Gigantic, but gone",
+          "text": "Diplodocus was a plant-eating dinosaur that lived more than 150 million years ago. With a length of 26 meters (almost 86 ft) from nose to tail and a weight of 12 tons, imagine how much Diplodocus had to eat!"
+        },
+        {
+          "label": "Biggest today",
+          "text": "African elephants are the biggest herbivores on earth. If leaves and grasses are scarce, elephants may roam for many kilometers to get enough to eat."
+        }
+      ]
+    },
+    {
+      "id": "waterbed",
+      "title": "Waterbed",
+      "image": "assets/hipp/HIPP05PU.png",
+      "text": "Hippos spend most of the daylight hours sleeping or resting in water. Frequently only their nostrils and ears protrude from the water's surface. When the water level is high, more than a hundred hippos may crowd into one small water hole. If the water level goes down, a big herd may have to break up into smaller groups and scatter to new water holes."
+    },
+    {
+      "id": "at-the-water-hole",
+      "title": "At the water hole",
+      "image": "assets/hipp/HIPP06PU.png",
+      "text": "Rivers and lakes are the best places to watch for animals, since most need to drink water. But a water hole is also a dangerous place, because there's no telling what might be waiting there.",
+      "captions": [
+        {
+          "label": "Ravenous reptiles",
+          "text": "An African rock python might hide in brush or rocks near a water hole, waiting for a meal to show up. But the real reptile to fear at the water hole is a hungry Nile crocodile, which may attack its prey in or out of the water."
+        }
+      ]
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/hipp/HIPP00AA.png",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 2,
+            "y": 2,
+            "w": 10,
+            "h": 8
+          },
+          {
+            "label": "Life underwater",
+            "to": "life-underwater",
+            "x": 54,
+            "y": 8,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "At the water hole",
+            "to": "at-the-water-hole",
+            "x": 53,
+            "y": 15,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Boat biters",
+            "to": "video",
+            "x": 54,
+            "y": 27,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Open wide",
+            "to": "open-wide",
+            "x": 36,
+            "y": 41,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Giant vegetarians",
+            "to": "giant-vegetarians",
+            "x": 58,
+            "y": 50,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Waterbed",
+            "to": "waterbed",
+            "x": 61,
+            "y": 57,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Daily walk",
+            "to": "daily-walk",
+            "x": 36,
+            "y": 83,
+            "w": 14,
+            "h": 5
+          }
+        ]
+      },
+      "open-wide": {
+        "image": "assets/hipp/HIPP01PU.png",
+        "back": "main"
+      },
+      "life-underwater": {
+        "image": "assets/hipp/HIPP02PU.png",
+        "back": "main"
+      },
+      "daily-walk": {
+        "image": "assets/hipp/HIPP03PU.png",
+        "back": "main"
+      },
+      "giant-vegetarians": {
+        "image": "assets/hipp/HIPP04PU.png",
+        "back": "main"
+      },
+      "waterbed": {
+        "image": "assets/hipp/HIPP05PU.png",
+        "back": "main"
+      },
+      "at-the-water-hole": {
+        "image": "assets/hipp/HIPP06PU.png",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/hipp/HIPP00FB.png",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/hipp/clip.mp4",
+        "poster": "assets/hipp/HIPP07TV.png",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "narration": "assets/hipp/narration.mp3",
+  "video": {
+    "title": "Boat biters",
+    "src": "assets/hipp/clip.mp4",
+    "poster": "assets/hipp/HIPP07TV.png",
+    "caption": "Many boats in Africa carry scars from an encounter with a hippo. Hippos in the water can be nearly invisible, and every year some boaters suddenly find themselves in the midst of an angry herd. These huge animals have been known to upset and even to bite boats when defending their territories."
+  }
+}

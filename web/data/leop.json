@@ -1,0 +1,214 @@
+{
+  "id": "leop",
+  "code": "LEOP",
+  "name": "Leopard",
+  "scientificName": "Panthera pardus",
+  "needsScientificVerify": false,
+  "tagline": "This silent stalker strikes before its prey ever hears a sound.",
+  "hero": {
+    "image": "assets/leop/LEOP00AA.png",
+    "alt": "Leopard"
+  },
+  "intro": "Like a ghost in a dream, this cat moves so silently that most victims never see it before they feel its slashing claws and sharp teeth. European settlers in Africa and Asia lost many a dog to leopards, who saw the unwary pets as easy prey. A leopard's \"roar\" sounds nothing like a lion's: instead, it's been described as \"a rusty saw\" or a \"coughing sound.\"",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by biting its prey's throat, twisting and breaking its neck",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Antelope, zebras, birds, warthogs, rabbits, baboons and domestic dogs",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "Strong enough to carry its catch up into a tall tree, the leopard stashes its meal safely away from other predators.",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 2.4m (8ft)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Asia, Africa",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "also-available-in-black",
+      "title": "Also available in black",
+      "image": "assets/leop/LEOP01PU.png",
+      "text": "Although many people call this a black panther, it's really a leopard. When a leopard is born black like this, it's called melanistic, which means that it has more than an average amount of melanin, a dark skin pigment. But if you look closely at a black leopard, you can still see its spots."
+    },
+    {
+      "id": "solitary-hunter",
+      "title": "Solitary hunter",
+      "image": "assets/leop/LEOP02PU.png",
+      "text": "Like most big cats, the leopard is perfectly capable of making a kill all by itself. A leopard can carry up to twice its own weight for quite a distance in order to keep the meat all to itself. These cats prefer to be alone, and, except for mothers with cubs, leopards are rarely seen in the company of other leopards."
+    },
+    {
+      "id": "cold-region-cousin",
+      "title": "Cold-region cousin",
+      "image": "assets/leop/LEOP03PU.png",
+      "text": "The snowy Himalayas and other cold Asian mountains are home to this beautiful relative, the snow leopard, also called the ounce. It's rarely seen, mainly because there are very few snow leopards left in the world and they live in remote areas. These cats are endangered animals. People shoot them not only for their beautiful fur, but also because snow leopards sometimes eat livestock when there's none of their natural prey around."
+    },
+    {
+      "id": "treetop-conference",
+      "title": "Treetop conference",
+      "image": "assets/leop/LEOP04PU.png",
+      "text": "Leopards are as much at home in the trees as they are on the ground. They can climb straight up, even while carrying a heavy load. It's unusual to see two leopards together–these two are probably a mother with her nearly grown cub, or perhaps a courting couple thinking about mating."
+    },
+    {
+      "id": "old-world-new-world",
+      "title": "Old world, new world",
+      "image": "assets/leop/LEOP05PU.png",
+      "text": "If you're in Africa and you see a big spotted cat coming through the forest, it's a leopard. If you're in South America and you have the same experience, you're probably looking at a jaguar. These spotted cousins look a lot alike, but they live worlds apart.\n\nSee how there are spots within \"circles\" on the jaguar's coat, whereas the \"circles\" on a leopard are \"empty\"? Although they are around the same height and length, a leopard is slimmer than a jaguar.",
+      "captions": [
+        {
+          "label": "Jaguar",
+          "text": "See how there are spots within \"circles\" on the jaguar's coat, whereas the \"circles\" on a leopard are \"empty\"?"
+        },
+        {
+          "label": "Leopard",
+          "text": "Although they are around the same height and length, a leopard is slimmer than a jaguar."
+        }
+      ]
+    },
+    {
+      "id": "getting-high",
+      "title": "Getting high",
+      "image": "assets/leop/LEOP06PU.png",
+      "text": "If a leopard wants to hide, it doesn't look for a hole to crawl into or a bush to sleep under–it looks for a tree to climb. Leopards use trees for observation posts, for sleeping quarters, and as places to stash a meal to eat later."
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/leop/LEOP00AA.png",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 2,
+            "y": 2,
+            "w": 12,
+            "h": 12
+          },
+          {
+            "label": "Who Lives Where?",
+            "to": "facts",
+            "x": 73,
+            "y": 2,
+            "w": 22,
+            "h": 14
+          },
+          {
+            "label": "Getting high",
+            "to": "getting-high",
+            "x": 62,
+            "y": 6,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Treetop conference",
+            "to": "treetop-conference",
+            "x": 23,
+            "y": 12,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Stealth hunter",
+            "to": "video",
+            "x": 41,
+            "y": 20,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Solitary hunter",
+            "to": "solitary-hunter",
+            "x": 60,
+            "y": 30,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Cold-region cousin",
+            "to": "cold-region-cousin",
+            "x": 7,
+            "y": 35,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Also available in black",
+            "to": "also-available-in-black",
+            "x": 7,
+            "y": 43,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Old world, new world",
+            "to": "old-world-new-world",
+            "x": 7,
+            "y": 51,
+            "w": 25,
+            "h": 5
+          }
+        ]
+      },
+      "also-available-in-black": {
+        "image": "assets/leop/LEOP01PU.png",
+        "back": "main"
+      },
+      "solitary-hunter": {
+        "image": "assets/leop/LEOP02PU.png",
+        "back": "main"
+      },
+      "cold-region-cousin": {
+        "image": "assets/leop/LEOP03PU.png",
+        "back": "main"
+      },
+      "treetop-conference": {
+        "image": "assets/leop/LEOP04PU.png",
+        "back": "main"
+      },
+      "old-world-new-world": {
+        "image": "assets/leop/LEOP05PU.png",
+        "back": "main"
+      },
+      "getting-high": {
+        "image": "assets/leop/LEOP06PU.png",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/leop/LEOP00FB.png",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/leop/clip.mp4",
+        "poster": "assets/leop/LEOP07TV.png",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "narration": "assets/leop/narration.mp3",
+  "video": {
+    "title": "Stealth hunter",
+    "src": "assets/leop/clip.mp4",
+    "poster": "assets/leop/LEOP07TV.png",
+    "caption": "Leopards hunt alone, sneaking up and ambushing their prey rather than trying to outrun it. Leopards kill fairly small animals: hares, warthogs, ground birds, small antelope, and monkeys. Big prey animals—like zebras, wildebeests, and buffalo—are brought down by the pack hunters: the lions, hyenas, and Cape hunting dogs."
+  }
+}
