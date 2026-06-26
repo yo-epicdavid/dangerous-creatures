@@ -80,6 +80,10 @@ def main():
     corr_path = os.path.join(HERE, "corrections.json")
     CORR = json.load(open(corr_path)) if os.path.exists(corr_path) else {}
 
+    hab_path = os.path.join(HERE, "habitats.json")
+    HAB = json.load(open(hab_path)) if os.path.exists(hab_path) else {}
+    HABITAT_ORDER = HAB.get("_order", [])
+
     name_to_slug = {a["name"].strip().lower(): a["id"] for a in animals}
     all_slugs = {a["id"] for a in animals}
     LABEL_FIX = {"watch out!": "Watch out", "favorite food": "Favorite meals"}
@@ -97,7 +101,7 @@ def main():
     os.makedirs(DATA, exist_ok=True)
     index = []
     report = {"external": [], "disabled": []}
-    weapons_map, regions_map = {}, {}
+    weapons_map, regions_map, habitats_map = {}, {}, {}
 
     for d in animals:
         slug = d["id"]
@@ -124,10 +128,13 @@ def main():
         factmap = {f["label"]: f["value"] for f in facts}
         weapons = derive_tags(factmap.get("How it kills", ""), WEAPON_RULES, mode="stem")
         regions = derive_tags(factmap.get("Where it lives", ""), REGION_RULES, mode="word")
+        habitats = HAB.get(slug, [])
         for w in weapons:
             weapons_map.setdefault(w, []).append(slug)
         for r in regions:
             regions_map.setdefault(r, []).append(slug)
+        for h in habitats:
+            habitats_map.setdefault(h, []).append(slug)
 
         topics = []
         for t in d.get("topics", []):
@@ -191,6 +198,7 @@ def main():
             "needsScientificVerify": needs_sci,
             "tagline": d.get("tagline", ""),
             "weapons": weapons,
+            "habitats": habitats,
             "regions": regions,
             "hero": {"image": asset(slug, main_stem + ".png"), "alt": d["name"]},
             "intro": d.get("intro", ""),
@@ -237,6 +245,7 @@ def main():
         browse = {
             "regions": categories(regions_map, [l for l, _ in REGION_RULES]),
             "weapons": categories(weapons_map, [l for l, _ in WEAPON_RULES]),
+            "habitats": categories(habitats_map, HABITAT_ORDER),
         }
         json.dump(browse, open(os.path.join(DATA, "browse.json"), "w"), indent=2, ensure_ascii=False)
     print(f"wrote {len(animals)} page files{'' if os.environ.get('SKIP_INDEX')=='1' else ' + index.json'} -> {DATA}")

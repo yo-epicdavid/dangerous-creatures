@@ -28,6 +28,7 @@
     <div class="tabs">
       <div class="modeswitch" id="tabs" role="group" aria-label="Browse mode">
         <button data-tab="regions">🌍 By Region</button>
+        <button data-tab="habitats">🌿 By Habitat</button>
         <button data-tab="weapons">⚔️ By Weapon</button>
       </div>
     </div>
@@ -42,11 +43,13 @@
     const params = new URLSearchParams(location.search);
     const SUB = {
       regions: "Where in the world each creature lives",
+      habitats: "The kind of place each creature calls home",
       weapons: "How each creature attacks or defends — many have more than one",
     };
+    const TABS = ["regions", "habitats", "weapons"];
     const catSlug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
     let DATA = null;
-    let tab = params.get("tab") === "weapons" ? "weapons" : "regions";
+    let tab = TABS.includes(params.get("tab")) ? params.get("tab") : "regions";
 
     fetch("data/browse.json")
       .then((r) => (r.ok ? r.json() : Promise.reject()))
@@ -57,12 +60,13 @@
       b.addEventListener("click", () => setTab(b.dataset.tab)));
 
     function setTab(t) {
-      tab = t === "weapons" ? "weapons" : "regions";
+      tab = TABS.includes(t) ? t : "regions";
       history.replaceState(null, "", `?tab=${tab}${location.hash}`);
       document.querySelectorAll("#tabs button").forEach((b) =>
         b.classList.toggle("is-active", b.dataset.tab === tab));
       document.getElementById("sub").textContent = SUB[tab];
-      document.title = (tab === "weapons" ? "By Weapon" : "By Region") + " — Dangerous Creatures";
+      const TITLE = { regions: "By Region", habitats: "By Habitat", weapons: "By Weapon" };
+      document.title = TITLE[tab] + " — Dangerous Creatures";
       render(DATA[tab] || []);
       if (location.hash) {
         const el = document.getElementById(location.hash.slice(1));

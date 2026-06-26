@@ -12,7 +12,7 @@ label_counts = {}
 n = 0
 
 for fp in sorted(glob.glob(os.path.join(DATA, "*.json"))):
-    if fp.endswith("index.json"):
+    if os.path.basename(fp) in ("index.json", "browse.json"):
         continue
     n += 1
     d = json.load(open(fp))

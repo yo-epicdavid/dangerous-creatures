@@ -73,11 +73,15 @@ function renderModern(app, d) {
 
   app.append(el("p", { className: "tagline", textContent: d.tagline || "" }));
 
-  if (d.weapons?.length || d.regions?.length) {
+  if (d.weapons?.length || d.habitats?.length || d.regions?.length) {
     const chips = el("div", { className: "chips" });
     if (d.weapons?.length) {
       chips.append(el("span", { className: "chips__label", textContent: "Weapons" }));
       for (const w of d.weapons) chips.append(chipLink(w, "weapons"));
+    }
+    if (d.habitats?.length) {
+      chips.append(el("span", { className: "chips__label", textContent: "Habitat" }));
+      for (const h of d.habitats) chips.append(chipLink(h, "habitats"));
     }
     if (d.regions?.length) {
       chips.append(el("span", { className: "chips__label", textContent: "Found in" }));
