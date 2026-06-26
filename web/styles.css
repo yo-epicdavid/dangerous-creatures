@@ -27,6 +27,8 @@ body {
     var(--bg);
   line-height: 1.6;
   font-size: 18px;
+  overflow-x: hidden;
+  overflow-wrap: break-word;
 }
 
 a { color: var(--gold); }
@@ -185,3 +187,17 @@ img { max-width: 100%; display: block; }
 .chips .chips__label { font-size: 12px; letter-spacing: 1px; text-transform: uppercase; color: var(--ink-soft); margin-right: 2px; }
 .chip { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; color: var(--ink); background: var(--panel-2); border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px; text-decoration: none; transition: .15s; }
 .chip:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-1px); }
+
+/* ---------- mobile ---------- */
+@media (max-width: 680px) {
+  body { font-size: 17px; }
+  .topbar { flex-wrap: wrap; padding: 10px 14px; gap: 8px 10px; }
+  .topbar .spacer { display: none; }
+  .topbar .brand { font-size: 15px; line-height: 1.12; }
+  .modeswitch button { padding: 6px 12px; font-size: 13px; }
+  .topbar .btn { padding: 8px 13px; font-size: 14px; }
+  .hero__title .name { font-size: clamp(30px, 8.5vw, 52px); }
+  .tagline { font-size: 20px; }
+  .topic, .topic:nth-child(even) { grid-template-columns: 1fr; }
+  .topic:nth-child(even) .topic__media { order: 0; }
+}
