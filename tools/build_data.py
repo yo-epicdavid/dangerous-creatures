@@ -95,6 +95,9 @@ def main():
     HAB = json.load(open(hab_path)) if os.path.exists(hab_path) else {}
     HABITAT_ORDER = HAB.get("_order", [])
 
+    ref_path = os.path.join(HERE, "hotspots_refined.json")
+    REFINED = json.load(open(ref_path)) if os.path.exists(ref_path) else {}
+
     name_to_slug = {a["name"].strip().lower(): a["id"] for a in animals}
     all_slugs = {a["id"] for a in animals}
     LABEL_FIX = {"watch out!": "Watch out", "favorite food": "Favorite meals"}
@@ -209,6 +212,10 @@ def main():
                     nh["disabled"] = True
                     report["disabled"].append(f"{slug}:{h.get('label')}")
                 resolved.append(nh)
+        rf = REFINED.get(slug, {})
+        for h in resolved:
+            if h.get("label") in rf:
+                h.update(rf[h["label"]])
         screens["main"]["hotspots"] = resolved
 
         sci_raw = d.get("scientificName", "")
