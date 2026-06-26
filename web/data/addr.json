@@ -5,6 +5,13 @@
   "scientificName": "Vipera berus",
   "needsScientificVerify": false,
   "tagline": "Europe's cold-blooded survivor that dances in the snow!",
+  "weapons": [
+    "Venom & Poison"
+  ],
+  "regions": [
+    "Asia",
+    "Europe"
+  ],
   "hero": {
     "image": "assets/addr/ADDR00AA.png",
     "alt": "European Adder"

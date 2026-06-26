@@ -12,6 +12,10 @@ const el = (tag, props = {}, ...kids) => {
   return node;
 };
 
+const catSlug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const chipLink = (label, tab) =>
+  el("a", { className: `chip ${tab === "weapons" ? "weapon" : "region"}`, href: `browse.html?tab=${tab}#${catSlug(label)}`, textContent: label });
+
 async function main() {
   const app = document.getElementById("app");
   try {
@@ -68,6 +72,19 @@ function renderModern(app, d) {
   app.append(hero);
 
   app.append(el("p", { className: "tagline", textContent: d.tagline || "" }));
+
+  if (d.weapons?.length || d.regions?.length) {
+    const chips = el("div", { className: "chips" });
+    if (d.weapons?.length) {
+      chips.append(el("span", { className: "chips__label", textContent: "Weapons" }));
+      for (const w of d.weapons) chips.append(chipLink(w, "weapons"));
+    }
+    if (d.regions?.length) {
+      chips.append(el("span", { className: "chips__label", textContent: "Found in" }));
+      for (const r of d.regions) chips.append(chipLink(r, "regions"));
+    }
+    app.append(chips);
+  }
 
   const layout = el("div", { className: "layout" });
   const intro = el("div", { className: "intro" });

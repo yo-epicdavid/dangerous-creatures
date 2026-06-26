@@ -5,6 +5,14 @@
   "scientificName": "Salamandra salamandra",
   "needsScientificVerify": false,
   "tagline": "This boldly patterned crawler oozes deadly venom — those bright spots are a warning, not decoration!",
+  "weapons": [
+    "Venom & Poison"
+  ],
+  "regions": [
+    "Africa",
+    "Asia",
+    "Europe"
+  ],
   "hero": {
     "image": "assets/fsal/FSAL00AA.png",
     "alt": "Fire Salamander"

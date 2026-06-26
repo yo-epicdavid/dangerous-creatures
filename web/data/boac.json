@@ -5,6 +5,15 @@
   "scientificName": "Boa constrictor",
   "needsScientificVerify": false,
   "tagline": "The world's ultimate hugger — if it hugs you, you can't breathe!",
+  "weapons": [
+    "Constriction"
+  ],
+  "regions": [
+    "Africa",
+    "Asia",
+    "South America",
+    "Australia & Oceania"
+  ],
   "hero": {
     "image": "assets/boac/BOAC00AA.png",
     "alt": "Boa"

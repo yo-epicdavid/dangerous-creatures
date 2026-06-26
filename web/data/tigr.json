@@ -5,6 +5,13 @@
   "scientificName": "Panthera tigris",
   "needsScientificVerify": false,
   "tagline": "The world's largest cat strikes from the shadows with deadly precision.",
+  "weapons": [
+    "Teeth & Jaws",
+    "Claws & Talons"
+  ],
+  "regions": [
+    "Asia"
+  ],
   "hero": {
     "image": "assets/tigr/TIGR00AA.png",
     "alt": "Tiger"

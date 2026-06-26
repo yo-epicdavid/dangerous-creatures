@@ -5,6 +5,15 @@
   "scientificName": "Canis lupus",
   "needsScientificVerify": false,
   "tagline": "Smart, swift, and always traveling in a pack — the wolf is nature's ultimate team player.",
+  "weapons": [
+    "Teeth & Jaws",
+    "Pack & Swarm Attacks"
+  ],
+  "regions": [
+    "Asia",
+    "Europe",
+    "North America"
+  ],
   "hero": {
     "image": "assets/wolf/WOLF00AA.png",
     "alt": "Wolf"

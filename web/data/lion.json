@@ -5,6 +5,13 @@
   "scientificName": "Panthera leo",
   "needsScientificVerify": false,
   "tagline": "The King of the grasslands rules with tooth, claw, and a thunderous roar.",
+  "weapons": [
+    "Teeth & Jaws"
+  ],
+  "regions": [
+    "Africa",
+    "Asia"
+  ],
   "hero": {
     "image": "assets/lion/LION00AA.png",
     "alt": "Lion"

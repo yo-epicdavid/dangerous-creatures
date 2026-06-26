@@ -78,7 +78,8 @@ python3 -m http.server 8731
 - ✅ **Liberated text at scale** — 66-animal multi-agent workflow (`tools/gen_workflow.py` → `tools/build_data.py`), Opus consistency pass, validated (`tools/validate_data.py`)
 - ✅ **All 66 creatures live** in both modes; fact labels 100% normalized; cross-creature links wired
 - ✅ Verified all scientific names; resolved factual flags (crab, python, mosquito, orca) via `tools/corrections.json`
-- ⬜ Category browse modes — Atlas · Weapons · Habitats · Guides (5 hotspots currently disabled pending these)
+- ✅ Browse modes: **Atlas** (by region) + **Weapons** (by attack), auto-derived from facts (`browse.json`), with creature-page chips and a `browse.html` UI
+- ⬜ Remaining browse modes: Habitats + Guides (Annie/Fergie tours); wire the 5 disabled Classic hotspots to categories
 - ⬜ Refine Classic hotspot coordinates from `MSDANGER.THE` (currently vision-estimated)
 - ⬜ Mini-games (`GAME/*.CJS`) + guided tours (Annie/Fergie)
 - ⬜ Open-licensed media swap for public release

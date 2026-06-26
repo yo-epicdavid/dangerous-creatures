@@ -24,6 +24,46 @@ def asset(slug, name):
     return f"assets/{slug}/{name}"
 
 
+# --- browse taxonomies, derived from the liberated facts ---
+WEAPON_RULES = [
+    ("Venom & Poison", ["venom", "poison"]),
+    ("Teeth & Jaws", ["bit", "jaw", "teeth"]),
+    ("Claws & Talons", ["claw", "talon"]),
+    ("Constriction", ["squeez", "constrict"]),
+    ("Stings", ["sting"]),
+    ("Horns, Tusks & Charging", ["horn", "tusk", "trampl", "gor", "charg", "slash"]),
+    ("Electric Shock", ["electric"]),
+    ("Spines & Quills", ["spine", "spiny", "quill"]),
+    ("Disease Carriers", ["disease", "virus", "rabies", "plague", "infection", "infectious"]),
+    ("Pack & Swarm Attacks", ["swarm", "group attack", "pack"]),
+    ("Pincers", ["pincer"]),
+]
+REGION_RULES = [
+    ("Africa", ["africa", "african", "madagascar"]),
+    ("Asia", ["asia", "asian", "india", "china", "chinese", "indonesia", "thailand", "siberia", "siberian", "arabia", "arabian", "middle east", "southeast asia"]),
+    ("Europe", ["europe", "european"]),
+    ("North America", ["north america", "united states", "alaska", "canada", "greenland", "mexico", "florida"]),
+    ("Central America", ["central america"]),
+    ("South America", ["south america", "amazon"]),
+    ("Australia & Oceania", ["australia", "australian", "australasia", "australasian", "tasmania", "tasmanian", "pacific island", "oceania"]),
+    ("Oceans & Seas", ["sea", "ocean", "reef", "coral", "marine", "saltwater", "coastal"]),
+    ("Polar Regions", ["arctic", "antarctic", "polar", "subarctic", "subantarctic"]),
+    ("Worldwide", ["worldwide", "everywhere"]),
+]
+
+
+def _hit(text, kw, mode):
+    if mode == "word":      # whole word, plural-tolerant (regions: India != Indian Ocean)
+        return bool(re.search(r"\b" + re.escape(kw) + r"s?\b", text))
+    # "stem": word-initial stem, any suffix (weapons: venom->venomous, but twisting!=sting)
+    return bool(re.search(r"\b" + re.escape(kw), text))
+
+
+def derive_tags(text, rules, mode):
+    t = (text or "").lower()
+    return [label for label, kws in rules if any(_hit(t, kw, mode) for kw in kws)]
+
+
 def main():
     manifest = json.load(open(MANIFEST))
     result = json.load(open(WF_RESULT))
@@ -57,6 +97,7 @@ def main():
     os.makedirs(DATA, exist_ok=True)
     index = []
     report = {"external": [], "disabled": []}
+    weapons_map, regions_map = {}, {}
 
     for d in animals:
         slug = d["id"]
@@ -78,6 +119,15 @@ def main():
             f["label"] = norm_label(f["label"])
         if canon:
             facts = sorted(facts, key=lambda f: canon.index(f["label"]) if f["label"] in canon else len(canon))
+
+        # derive browse taxonomies from the structured facts
+        factmap = {f["label"]: f["value"] for f in facts}
+        weapons = derive_tags(factmap.get("How it kills", ""), WEAPON_RULES, mode="stem")
+        regions = derive_tags(factmap.get("Where it lives", ""), REGION_RULES, mode="word")
+        for w in weapons:
+            weapons_map.setdefault(w, []).append(slug)
+        for r in regions:
+            regions_map.setdefault(r, []).append(slug)
 
         topics = []
         for t in d.get("topics", []):
@@ -140,6 +190,8 @@ def main():
             "scientificName": sci,
             "needsScientificVerify": needs_sci,
             "tagline": d.get("tagline", ""),
+            "weapons": weapons,
+            "regions": regions,
             "hero": {"image": asset(slug, main_stem + ".png"), "alt": d["name"]},
             "intro": d.get("intro", ""),
             "facts": facts,
@@ -169,6 +221,24 @@ def main():
     if os.environ.get("SKIP_INDEX") != "1":
         index.sort(key=lambda x: x["name"])
         json.dump(index, open(os.path.join(DATA, "index.json"), "w"), indent=2, ensure_ascii=False)
+
+        # browse indexes (Atlas by region, Weapons by attack)
+        by_id = {e["id"]: e for e in index}
+
+        def categories(amap, order):
+            out = []
+            for label in order:
+                slugs = amap.get(label, [])
+                if slugs:
+                    animals = sorted((by_id[s] for s in slugs), key=lambda e: e["name"])
+                    out.append({"category": label, "count": len(animals), "animals": animals})
+            return out
+
+        browse = {
+            "regions": categories(regions_map, [l for l, _ in REGION_RULES]),
+            "weapons": categories(weapons_map, [l for l, _ in WEAPON_RULES]),
+        }
+        json.dump(browse, open(os.path.join(DATA, "browse.json"), "w"), indent=2, ensure_ascii=False)
     print(f"wrote {len(animals)} page files{'' if os.environ.get('SKIP_INDEX')=='1' else ' + index.json'} -> {DATA}")
     print(f"cross-animal links resolved: {len(report['external'])}  ->  {', '.join(report['external'])}")
     print(f"disabled hotspots (category jumps, not yet built): {len(report['disabled'])}  ->  {', '.join(report['disabled'])}")

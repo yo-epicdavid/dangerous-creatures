@@ -5,6 +5,12 @@
   "scientificName": "Anopheles gambiae",
   "needsScientificVerify": false,
   "tagline": "The world's deadliest animal is smaller than your fingernail!",
+  "weapons": [
+    "Disease Carriers"
+  ],
+  "regions": [
+    "Worldwide"
+  ],
   "hero": {
     "image": "assets/mosq/MOSQ00AA.png",
     "alt": "Mosquito"

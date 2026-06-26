@@ -5,6 +5,14 @@
   "scientificName": "Panthera onca",
   "needsScientificVerify": false,
   "tagline": "The jungle's spotted shadow — a stealthy giant that strikes from the trees.",
+  "weapons": [
+    "Teeth & Jaws"
+  ],
+  "regions": [
+    "North America",
+    "Central America",
+    "South America"
+  ],
   "hero": {
     "image": "assets/jagu/JAGU00AA.png",
     "alt": "Jaguar"

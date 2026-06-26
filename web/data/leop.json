@@ -5,6 +5,13 @@
   "scientificName": "Panthera pardus",
   "needsScientificVerify": false,
   "tagline": "This silent stalker strikes before its prey ever hears a sound.",
+  "weapons": [
+    "Teeth & Jaws"
+  ],
+  "regions": [
+    "Africa",
+    "Asia"
+  ],
   "hero": {
     "image": "assets/leop/LEOP00AA.png",
     "alt": "Leopard"

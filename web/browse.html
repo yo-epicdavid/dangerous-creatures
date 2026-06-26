@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Explore — Dangerous Creatures</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .browse-head { text-align: center; padding: 26px 20px 4px; }
+    .browse-head h1 { font-family: var(--font-display); font-size: clamp(32px, 6vw, 56px); margin: 0; }
+    .browse-head p#sub { color: var(--ink-soft); margin: 8px 0 0; font-size: 18px; }
+    .tabs { display: flex; justify-content: center; margin: 18px 0 10px; }
+    .catgroup { margin: 34px 0; scroll-margin-top: 74px; }
+    .cat-title { display: flex; align-items: baseline; gap: 12px; margin: 0 0 16px; border-bottom: 1px solid var(--line); padding-bottom: 8px; }
+    .cat-title h2 { font-family: var(--font-display); color: var(--gold); font-size: 26px; margin: 0; }
+    .cat-title .count { color: var(--ink-soft); font-size: 14px; }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><b>Dangerous</b> Creatures</a>
+    <div class="spacer"></div>
+    <a class="btn" href="index.html">← All creatures</a>
+  </header>
+
+  <div class="browse-head">
+    <h1>Explore</h1>
+    <div class="tabs">
+      <div class="modeswitch" id="tabs" role="group" aria-label="Browse mode">
+        <button data-tab="regions">🌍 By Region</button>
+        <button data-tab="weapons">⚔️ By Weapon</button>
+      </div>
+    </div>
+    <p id="sub">&nbsp;</p>
+  </div>
+
+  <main class="wrap">
+    <div id="cats"><p class="loading">Sorting the creatures…</p></div>
+  </main>
+
+  <script>
+    const params = new URLSearchParams(location.search);
+    const SUB = {
+      regions: "Where in the world each creature lives",
+      weapons: "How each creature attacks or defends — many have more than one",
+    };
+    const catSlug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+    let DATA = null;
+    let tab = params.get("tab") === "weapons" ? "weapons" : "regions";
+
+    fetch("data/browse.json")
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((d) => { DATA = d; setTab(tab); })
+      .catch(() => { document.getElementById("cats").innerHTML = '<p class="loading">Couldn\'t load browse data. Run a local server.</p>'; });
+
+    document.querySelectorAll("#tabs button").forEach((b) =>
+      b.addEventListener("click", () => setTab(b.dataset.tab)));
+
+    function setTab(t) {
+      tab = t === "weapons" ? "weapons" : "regions";
+      history.replaceState(null, "", `?tab=${tab}${location.hash}`);
+      document.querySelectorAll("#tabs button").forEach((b) =>
+        b.classList.toggle("is-active", b.dataset.tab === tab));
+      document.getElementById("sub").textContent = SUB[tab];
+      document.title = (tab === "weapons" ? "By Weapon" : "By Region") + " — Dangerous Creatures";
+      render(DATA[tab] || []);
+      if (location.hash) {
+        const el = document.getElementById(location.hash.slice(1));
+        if (el) el.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+
+    function render(cats) {
+      const root = document.getElementById("cats");
+      root.innerHTML = "";
+      for (const c of cats) {
+        const sec = document.createElement("section");
+        sec.className = "catgroup";
+        sec.id = catSlug(c.category);
+        const head = document.createElement("div");
+        head.className = "cat-title";
+        head.innerHTML = `<h2>${c.category}</h2><span class="count">${c.count} creature${c.count !== 1 ? "s" : ""}</span>`;
+        const grid = document.createElement("div");
+        grid.className = "grid";
+        for (const a of c.animals) {
+          const link = document.createElement("a");
+          link.className = "creature";
+          link.href = `animal.html?id=${a.id}`;
+          link.innerHTML = `<img src="${a.thumb}" alt="${a.name}" loading="lazy" /><span>${a.name}</span>`;
+          grid.append(link);
+        }
+        sec.append(head, grid);
+        root.append(sec);
+      }
+    }
+  </script>
+</body>
+</html>
