@@ -83,11 +83,18 @@ python3 -m http.server 8731
 - ✅ **Guides** — all 12 narrated tours restored (real host narration audio + intro art, `tools/extract_guides.py` → `build_guides.py` → `guides.json`); `guides.html` menu (grouped by host) + tour player; geographic tours list their creatures. **All four original nav modes done: Atlas · Habitats · Weapons · Guides.**
 - ✅ **Mini-games** (`games.html`): **Whose Eyes Are These?** (faithful — original close-up/reveal photos, multiple choice, win/lose sounds) + **Survival Quiz** (data-driven, replayable, from `quiz.json`). `tools/extract_games.py` is extensible to the other disc puzzles (Tracks, Camouflage, Close-up, etc.).
 - ✅ Refined Classic hotspot coordinates via red-label detection (`tools/refine_hotspots.py` → `hotspots_refined.json`, applied by the build): 347/531 snapped tightly to their labels; the rest keep the vision estimate. (Needs Pillow + numpy.)
+- ✅ **Credits & Acknowledgements** (`tools/extract_credits.py` → `credits.json`, `web/credits.html`): 193 photographers, 12 agencies, 47 reference works pulled from `MSDANGER.THE`, plus the non-commercial / not-affiliated / removal-on-request notice; linked from the landing footer and every creature page.
+- ⬜ Hosting / deploy (note: `web/assets/` is gitignored, so a deploy must bundle the locally-generated media)
 - ⬜ More mini-games from the disc (Tracks, Camouflage, …) using the same extractor
-- ⬜ Open-licensed media swap for public release
 
 ## Legal
 
-Original assets © 1994 Microsoft Corporation and its suppliers (photographers/filmmakers,
-e.g. Oxford Scientific Films / Animals Animals). Kept in `_source/` for development only and
-never committed. Public release will use only openly-licensed media.
+Original assets © 1994 Microsoft Corporation and its suppliers — photographers, filmmakers,
+and agencies (Photo Researchers, Animals Animals, Oxford Scientific Films, and many more;
+full list in `web/credits.html`). The raw ISO and extracted media live in `_source/` /
+`web/assets/` and are **gitignored** (never committed).
+
+This is a **non-commercial, educational fan preservation** — not affiliated with or endorsed
+by Microsoft, no ads/sales/donations, with full attribution and removal on request. That
+posture (credit + good faith) is the basis for publishing with the original media; it is not a
+copyright license. See the notice in `web/credits.html`.

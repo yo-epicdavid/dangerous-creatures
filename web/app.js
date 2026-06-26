@@ -129,7 +129,8 @@ function renderModern(app, d) {
 
   if (d._provenance) {
     const p = el("p", { className: "prov" });
-    p.append(el("b", { textContent: "Source: " }), d._provenance.source + ". ", d._provenance.note || "");
+    p.append(el("b", { textContent: "Source: " }), d._provenance.source + ". ", d._provenance.note || " ");
+    p.append(document.createTextNode(" "), el("a", { href: "credits.html", textContent: "Credits & Acknowledgements →" }));
     app.append(p);
   }
 }
