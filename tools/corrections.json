@@ -1,0 +1,19 @@
+{
+  "_comment": "Manual accuracy overrides applied by build_data.py on top of the liberation-workflow output. Verified scientific names (clears the (unverified) flag) and resolved factual flags. Keyed by animal slug.",
+
+  "aant": { "scientificName": "Eciton burchellii" },
+  "boct": { "scientificName": "Hapalochlaena lunulata" },
+  "cent": { "scientificName": "Scolopendra subspinipes" },
+  "cock": { "scientificName": "Periplaneta americana" },
+  "crab": { "scientificName": "Macrocheira kaempferi" },
+  "funl": { "scientificName": "Atrax robustus" },
+  "porc": { "scientificName": "Diodon hystrix" },
+  "scor": { "scientificName": "Androctonus australis" },
+  "seas": { "scientificName": "Laticauda colubrina" },
+  "sray": { "scientificName": "Dasyatis pastinaca" },
+  "tran": { "scientificName": "Theraphosa blondi" },
+
+  "pyth": { "scientificName": "Python reticulatus" },
+  "mosq": { "scientificName": "Anopheles gambiae" },
+  "orca": { "tagline": "The top predator of the seas hunts in packs and eats almost anything — yet it has never been known to hunt humans." }
+}

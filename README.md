@@ -77,7 +77,7 @@ python3 -m http.server 8731
 - ✅ **Batch-extracted all 66 animals** (`tools/extract_all.py`)
 - ✅ **Liberated text at scale** — 66-animal multi-agent workflow (`tools/gen_workflow.py` → `tools/build_data.py`), Opus consistency pass, validated (`tools/validate_data.py`)
 - ✅ **All 66 creatures live** in both modes; fact labels 100% normalized; cross-creature links wired
-- ⬜ Verify 11 `(unverified)` scientific names; resolve 3 factual flags (python species, orca, mosquito)
+- ✅ Verified all scientific names; resolved factual flags (crab, python, mosquito, orca) via `tools/corrections.json`
 - ⬜ Category browse modes — Atlas · Weapons · Habitats · Guides (5 hotspots currently disabled pending these)
 - ⬜ Refine Classic hotspot coordinates from `MSDANGER.THE` (currently vision-estimated)
 - ⬜ Mini-games (`GAME/*.CJS`) + guided tours (Annie/Fergie)

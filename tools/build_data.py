@@ -37,6 +37,9 @@ def main():
             patches.setdefault(p["id"], {})[p["field"]] = p["value"]
     canon = cons.get("canonicalFactLabels") or []
 
+    corr_path = os.path.join(HERE, "corrections.json")
+    CORR = json.load(open(corr_path)) if os.path.exists(corr_path) else {}
+
     name_to_slug = {a["name"].strip().lower(): a["id"] for a in animals}
     all_slugs = {a["id"] for a in animals}
     LABEL_FIX = {"watch out!": "Watch out", "favorite food": "Favorite meals"}
@@ -148,6 +151,13 @@ def main():
             page["narration"] = asset(slug, "narration.mp3")
         if video:
             page["video"] = video
+
+        # manual accuracy overrides (verified names, factual-flag fixes)
+        ov = CORR.get(slug, {})
+        if ov:
+            page.update(ov)
+            if "scientificName" in ov:
+                page["needsScientificVerify"] = False
 
         json.dump(page, open(os.path.join(DATA, f"{slug}.json"), "w"), indent=2, ensure_ascii=False)
 
