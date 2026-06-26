@@ -1,0 +1,1172 @@
+[
+  {
+    "id": "aant",
+    "name": "Army Ant",
+    "thumb": "assets/aant/AANT00AA.png",
+    "weapons": [
+      "Teeth & Jaws",
+      "Pack & Swarm Attacks"
+    ],
+    "habitats": [
+      "Rainforest & Jungle",
+      "Grassland & Savanna"
+    ],
+    "regions": [
+      "Africa",
+      "Asia",
+      "Central America",
+      "South America",
+      "Australia & Oceania"
+    ],
+    "diet": "Insects, slow-moving reptiles or mammals, and dead animals",
+    "kill": "Kills by swarming in thousands and biting off pieces of victim"
+  },
+  {
+    "id": "addr",
+    "name": "European Adder",
+    "thumb": "assets/addr/ADDR00AA.png",
+    "weapons": [
+      "Venom & Poison"
+    ],
+    "habitats": [
+      "Forest & Woodland",
+      "Grassland & Savanna"
+    ],
+    "regions": [
+      "Asia",
+      "Europe"
+    ],
+    "diet": "Lizards, voles, mice, shrews, insects, and worms",
+    "kill": "Kills by injecting venom into prey through fangs"
+  },
+  {
+    "id": "alig",
+    "name": "Alligator",
+    "thumb": "assets/alig/ALIG00AA.png",
+    "weapons": [
+      "Teeth & Jaws"
+    ],
+    "habitats": [
+      "Rivers, Lakes & Wetlands"
+    ],
+    "regions": [
+      "Asia",
+      "North America"
+    ],
+    "diet": "Anything it can catch",
+    "kill": "Kills by seizing prey in jaws and then drowning it"
+  },
+  {
+    "id": "arow",
+    "name": "Poison Arrow Frog",
+    "thumb": "assets/arow/AROW00AA.png",
+    "weapons": [
+      "Venom & Poison"
+    ],
+    "habitats": [
+      "Rainforest & Jungle"
+    ],
+    "regions": [
+      "Central America",
+      "South America"
+    ],
+    "diet": "Small insects, spiders, and crustaceans",
+    "kill": "Defends by oozing venom from skin"
+  },
+  {
+    "id": "babn",
+    "name": "Baboon",
+    "thumb": "assets/babn/BABN00AA.png",
+    "weapons": [
+      "Teeth & Jaws",
+      "Claws & Talons",
+      "Pack & Swarm Attacks"
+    ],
+    "habitats": [
+      "Grassland & Savanna"
+    ],
+    "regions": [
+      "Africa"
+    ],
+    "diet": "Any edible plants, hares, locusts, scorpions, and even small antelope",
+    "kill": "Kills and defends by group attacks, biting and clawing"
+  },
+  {
+    "id": "bara",
+    "name": "Barracuda",
+    "thumb": "assets/bara/BARA00AA.png",
+    "weapons": [
+      "Teeth & Jaws"
+    ],
+    "habitats": [
+      "Oceans & Coral Reefs"
+    ],
+    "regions": [
+      "Oceans & Seas"
+    ],
+    "diet": "Sardines and other small fish",
+    "kill": "Kills with quick, biting attacks"
+  },
+  {
+    "id": "boac",
+    "name": "Boa",
+    "thumb": "assets/boac/BOAC00AA.png",
+    "weapons": [
+      "Constriction"
+    ],
+    "habitats": [
+      "Rainforest & Jungle"
+    ],
+    "regions": [
+      "Africa",
+      "Asia",
+      "South America",
+      "Australia & Oceania"
+    ],
+    "diet": "Small to medium-sized mammals and reptiles",
+    "kill": "Kills by squeezing prey until the victim can't breathe"
+  },
+  {
+    "id": "boct",
+    "name": "Blue-ringed Octopus",
+    "thumb": "assets/boct/BOCT00AA.png",
+    "weapons": [
+      "Venom & Poison",
+      "Teeth & Jaws"
+    ],
+    "habitats": [
+      "Oceans & Coral Reefs"
+    ],
+    "regions": [
+      "Oceans & Seas"
+    ],
+    "diet": "Crabs, fish, and other small marine creatures",
+    "kill": "Defends by biting its opponent, killing it with venomous saliva"
+  },
+  {
+    "id": "bwid",
+    "name": "Black Widow Spider",
+    "thumb": "assets/bwid/BWID00AA.png",
+    "weapons": [
+      "Venom & Poison"
+    ],
+    "habitats": [
+      "Cities & Farmland",
+      "Forest & Woodland"
+    ],
+    "regions": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "North America",
+      "Central America",
+      "South America",
+      "Australia & Oceania"
+    ],
+    "diet": "Small flying insects. Female also known to eat her mate.",
+    "kill": "Kills by injecting venom through its fangs"
+  },
+  {
+    "id": "cane",
+    "name": "Cane Toad",
+    "thumb": "assets/cane/CANE00AA.png",
+    "weapons": [
+      "Venom & Poison"
+    ],
+    "habitats": [
+      "Rivers, Lakes & Wetlands",
+      "Cities & Farmland"
+    ],
+    "regions": [
+      "Central America",
+      "South America",
+      "Australia & Oceania"
+    ],
+    "diet": "Insects, beetles, rodents, other toads, pet food, and garbage",
+    "kill": "Defends by puffing up and oozing venom from poison glands on head"
+  },
+  {
+    "id": "cbuf",
+    "name": "Cape Buffalo",
+    "thumb": "assets/cbuf/CBUF00AA.png",
+    "weapons": [
+      "Horns, Tusks & Charging"
+    ],
+    "habitats": [
+      "Grassland & Savanna"
+    ],
+    "regions": [
+      "Africa"
+    ],
+    "diet": "Grasses, leaves, and twigs",
+    "kill": "Defends by goring with horns and by trampling opponent"
+  },
+  {
+    "id": "cdog",
+    "name": "Cape Hunting Dog",
+    "thumb": "assets/cdog/CDOG00AA.png",
+    "weapons": [
+      "Teeth & Jaws",
+      "Pack & Swarm Attacks"
+    ],
+    "habitats": [
+      "Grassland & Savanna"
+    ],
+    "regions": [
+      "Africa"
+    ],
+    "diet": "Antelope, buffalo, warthogs, and hares",
+    "kill": "Kills by group attack, by biting its prey"
+  },
+  {
+    "id": "cent",
+    "name": "Centipede",
+    "thumb": "assets/cent/CENT00AA.png",
+    "weapons": [
+      "Venom & Poison",
+      "Claws & Talons"
+    ],
+    "habitats": [
+      "Forest & Woodland",
+      "Rainforest & Jungle"
+    ],
+    "regions": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "North America",
+      "Central America",
+      "South America"
+    ],
+    "diet": "Insects, earthworms, and cockroaches",
+    "kill": "Kills by injecting venom through special claws"
+  },
+  {
+    "id": "chee",
+    "name": "Cheetah",
+    "thumb": "assets/chee/CHEE00AA.png",
+    "weapons": [
+      "Teeth & Jaws",
+      "Claws & Talons"
+    ],
+    "habitats": [
+      "Grassland & Savanna"
+    ],
+    "regions": [
+      "Africa",
+      "Asia"
+    ],
+    "diet": "Gazelles and antelope, as well as many small animals",
+    "kill": "Kills by biting, clawing, and strangling its prey"
+  },
+  {
+    "id": "cobr",
+    "name": "Cobra",
+    "thumb": "assets/cobr/COBR00AA.png",
+    "weapons": [
+      "Venom & Poison"
+    ],
+    "habitats": [
+      "Grassland & Savanna",
+      "Forest & Woodland"
+    ],
+    "regions": [
+      "Africa",
+      "Asia"
+    ],
+    "diet": "Rodents, insects, small reptiles, and eggs",
+    "kill": "Kills and defends by injecting or spraying venom"
+  },
+  {
+    "id": "cock",
+    "name": "Cockroach",
+    "thumb": "assets/cock/COCK00AA.png",
+    "weapons": [
+      "Disease Carriers"
+    ],
+    "habitats": [
+      "Cities & Farmland",
+      "Rainforest & Jungle",
+      "Desert"
+    ],
+    "regions": [
+      "Worldwide"
+    ],
+    "diet": "Any foods, including their containers",
+    "kill": "Injures people by spreading disease and spoiling food supplies"
+  },
+  {
+    "id": "coug",
+    "name": "Cougar",
+    "thumb": "assets/coug/COUG00AA.png",
+    "weapons": [
+      "Teeth & Jaws"
+    ],
+    "habitats": [
+      "Mountains",
+      "Forest & Woodland"
+    ],
+    "regions": [
+      "North America",
+      "South America"
+    ],
+    "diet": "Deer, beavers, porcupines, and monkeys",
+    "kill": "Kills by ambush, biting its prey, and breaking its neck"
+  },
+  {
+    "id": "crab",
+    "name": "Crab",
+    "thumb": "assets/crab/CRAB00AA.png",
+    "weapons": [
+      "Pincers"
+    ],
+    "habitats": [
+      "Oceans & Coral Reefs"
+    ],
+    "regions": [
+      "Oceans & Seas",
+      "Worldwide"
+    ],
+    "diet": "Dead plants or animals, plankton, live fish (diet varies among species)",
+    "kill": "Defends or kills by grabbing and cutting with pincers"
+  },
+  {
+    "id": "croc",
+    "name": "Crocodile",
+    "thumb": "assets/croc/CROC00AA.png",
+    "weapons": [
+      "Teeth & Jaws"
+    ],
+    "habitats": [
+      "Rivers, Lakes & Wetlands"
+    ],
+    "regions": [
+      "Africa",
+      "Asia",
+      "North America",
+      "Australia & Oceania"
+    ],
+    "diet": "Anything it can catch",
+    "kill": "Kills by seizing prey in jaws and then drowning it"
+  },
+  {
+    "id": "eeel",
+    "name": "Electric Eel",
+    "thumb": "assets/eeel/EEEL00AA.png",
+    "weapons": [
+      "Electric Shock"
+    ],
+    "habitats": [
+      "Rivers, Lakes & Wetlands"
+    ],
+    "regions": [
+      "South America"
+    ],
+    "diet": "Fish, frogs, and other small river creatures",
+    "kill": "Defends by stunning prey with an electric shock"
+  },
+  {
+    "id": "elef",
+    "name": "Elephant",
+    "thumb": "assets/elef/ELEF00AA.png",
+    "weapons": [
+      "Horns, Tusks & Charging"
+    ],
+    "habitats": [
+      "Grassland & Savanna",
+      "Forest & Woodland"
+    ],
+    "regions": [
+      "Africa",
+      "Asia"
+    ],
+    "diet": "Grasses, leaves, bark, roots, and fruit",
+    "kill": "Defends by trampling, or by hitting and pulling with trunk"
+  },
+  {
+    "id": "fsal",
+    "name": "Fire Salamander",
+    "thumb": "assets/fsal/FSAL00AA.png",
+    "weapons": [
+      "Venom & Poison"
+    ],
+    "habitats": [
+      "Forest & Woodland"
+    ],
+    "regions": [
+      "Africa",
+      "Asia",
+      "Europe"
+    ],
+    "diet": "Insects and worms",
+    "kill": "Defends by squirting venom from glands on head"
+  },
+  {
+    "id": "funl",
+    "name": "Funnel-web Spider",
+    "thumb": "assets/funl/FUNL00AA.png",
+    "weapons": [
+      "Venom & Poison"
+    ],
+    "habitats": [
+      "Forest & Woodland"
+    ],
+    "regions": [
+      "Australia & Oceania"
+    ],
+    "diet": "Insects",
+    "kill": "Kills by injecting venom through its fangs"
+  },
+  {
+    "id": "gila",
+    "name": "Gila Monster",
+    "thumb": "assets/gila/GILA00AA.png",
+    "weapons": [
+      "Venom & Poison",
+      "Teeth & Jaws"
+    ],
+    "habitats": [
+      "Desert"
+    ],
+    "regions": [
+      "North America"
+    ],
+    "diet": "Rodents, eggs, baby birds, lizards, frogs, insects",
+    "kill": "Kills by biting and chewing venom into wound"
+  },
+  {
+    "id": "griz",
+    "name": "Grizzly Bear",
+    "thumb": "assets/griz/GRIZ00AA.png",
+    "weapons": [
+      "Teeth & Jaws",
+      "Claws & Talons"
+    ],
+    "habitats": [
+      "Forest & Woodland",
+      "Mountains"
+    ],
+    "regions": [
+      "North America"
+    ],
+    "diet": "Fish, grasses, honey, rodents, insects, fruits, and nuts",
+    "kill": "Kills and defends by biting and clawing"
+  },
+  {
+    "id": "gsqu",
+    "name": "Giant Squid",
+    "thumb": "assets/gsqu/GSQU00AA.png",
+    "weapons": [
+      "Teeth & Jaws"
+    ],
+    "habitats": [
+      "Oceans & Coral Reefs"
+    ],
+    "regions": [
+      "Oceans & Seas",
+      "Worldwide"
+    ],
+    "diet": "Fish, shellfish, and other marine animals of all sizes",
+    "kill": "Kills by biting and crushing its prey"
+  },
+  {
+    "id": "gwsh",
+    "name": "Great White Shark",
+    "thumb": "assets/gwsh/GWSH00AA.png",
+    "weapons": [
+      "Teeth & Jaws"
+    ],
+    "habitats": [
+      "Oceans & Coral Reefs"
+    ],
+    "regions": [
+      "Oceans & Seas"
+    ],
+    "diet": "Seals, sea lions, and other marine life",
+    "kill": "Kills by biting off large pieces of its prey"
+  },
+  {
+    "id": "hamr",
+    "name": "Hammerhead Shark",
+    "thumb": "assets/hamr/HAMR00AA.png",
+    "weapons": [
+      "Teeth & Jaws"
+    ],
+    "habitats": [
+      "Oceans & Coral Reefs"
+    ],
+    "regions": [
+      "Oceans & Seas"
+    ],
+    "diet": "Fish, squid, and smaller sharks",
+    "kill": "Kills by biting its prey"
+  },
+  {
+    "id": "harp",
+    "name": "Harpy Eagle",
+    "thumb": "assets/harp/HARP00AA.png",
+    "weapons": [
+      "Claws & Talons"
+    ],
+    "habitats": [
+      "Rainforest & Jungle"
+    ],
+    "regions": [
+      "North America",
+      "South America"
+    ],
+    "diet": "Monkeys, birds, sloths, porcupines, and reptiles",
+    "kill": "Kills by seizing and tearing prey with its beak and talons"
+  },
+  {
+    "id": "hipp",
+    "name": "Hippopotamus",
+    "thumb": "assets/hipp/HIPP00AA.png",
+    "weapons": [
+      "Teeth & Jaws",
+      "Horns, Tusks & Charging"
+    ],
+    "habitats": [
+      "Rivers, Lakes & Wetlands"
+    ],
+    "regions": [
+      "Africa"
+    ],
+    "diet": "Grasses, leaves, and aquatic plants",
+    "kill": "Defends by biting and trampling"
+  },
+  {
+    "id": "hyen",
+    "name": "Hyena",
+    "thumb": "assets/hyen/HYEN00AA.png",
+    "weapons": [
+      "Teeth & Jaws",
+      "Pack & Swarm Attacks"
+    ],
+    "habitats": [
+      "Grassland & Savanna"
+    ],
+    "regions": [
+      "Africa",
+      "Asia"
+    ],
+    "diet": "Dead animals, zebras, wildebeests, and antelope",
+    "kill": "Kills by group attack, biting prey"
+  },
+  {
+    "id": "jagu",
+    "name": "Jaguar",
+    "thumb": "assets/jagu/JAGU00AA.png",
+    "weapons": [
+      "Teeth & Jaws"
+    ],
+    "habitats": [
+      "Rainforest & Jungle"
+    ],
+    "regions": [
+      "North America",
+      "Central America",
+      "South America"
+    ],
+    "diet": "Mostly mammals plus fish, birds, turtles, and their eggs",
+    "kill": "Kills by biting through skull of victim"
+  },
+  {
+    "id": "kbee",
+    "name": "Killer Bee",
+    "thumb": "assets/kbee/KBEE00AA.png",
+    "weapons": [
+      "Venom & Poison",
+      "Stings"
+    ],
+    "habitats": [
+      "Grassland & Savanna",
+      "Cities & Farmland"
+    ],
+    "regions": [
+      "Africa",
+      "North America",
+      "Central America",
+      "South America"
+    ],
+    "diet": "Pollen, nectar, and honey",
+    "kill": "Defends with venomous sting"
+  },
+  {
+    "id": "komd",
+    "name": "Komodo Dragon",
+    "thumb": "assets/komd/KOMD00AA.png",
+    "weapons": [
+      "Teeth & Jaws",
+      "Disease Carriers"
+    ],
+    "habitats": [
+      "Grassland & Savanna",
+      "Forest & Woodland"
+    ],
+    "regions": [
+      "Asia"
+    ],
+    "diet": "Dead animals, snakes, rodents, turtles, turtle eggs, deer, goats, and buffalo",
+    "kill": "Kills by biting and tearing its prey, and by causing infection"
+  },
+  {
+    "id": "leop",
+    "name": "Leopard",
+    "thumb": "assets/leop/LEOP00AA.png",
+    "weapons": [
+      "Teeth & Jaws"
+    ],
+    "habitats": [
+      "Grassland & Savanna",
+      "Forest & Woodland"
+    ],
+    "regions": [
+      "Africa",
+      "Asia"
+    ],
+    "diet": "Antelope, zebras, birds, warthogs, rabbits, baboons and domestic dogs",
+    "kill": "Kills by biting its prey's throat, twisting and breaking its neck"
+  },
+  {
+    "id": "lfsh",
+    "name": "Lionfish",
+    "thumb": "assets/lfsh/LFSH00AA.png",
+    "weapons": [
+      "Venom & Poison",
+      "Spines & Quills"
+    ],
+    "habitats": [
+      "Oceans & Coral Reefs"
+    ],
+    "regions": [
+      "Oceans & Seas"
+    ],
+    "diet": "Small fish, shellfish, and shrimp",
+    "kill": "Defends itself with poisonous spines"
+  },
+  {
+    "id": "lion",
+    "name": "Lion",
+    "thumb": "assets/lion/LION00AA.png",
+    "weapons": [
+      "Teeth & Jaws"
+    ],
+    "habitats": [
+      "Grassland & Savanna"
+    ],
+    "regions": [
+      "Africa",
+      "Asia"
+    ],
+    "diet": "Zebras, wildebeests, warthogs, buffalo, and giraffes",
+    "kill": "Kills by biting down on the neck, suffocating prey"
+  },
+  {
+    "id": "mamb",
+    "name": "Black Mamba",
+    "thumb": "assets/mamb/MAMB00AA.png",
+    "weapons": [
+      "Venom & Poison"
+    ],
+    "habitats": [
+      "Grassland & Savanna"
+    ],
+    "regions": [
+      "Africa"
+    ],
+    "diet": "Birds, lizards, frogs, and toads",
+    "kill": "Kills by injecting venom through its fangs"
+  },
+  {
+    "id": "mang",
+    "name": "Mangrove Snake",
+    "thumb": "assets/mang/MANG00AA.png",
+    "weapons": [
+      "Venom & Poison"
+    ],
+    "habitats": [
+      "Rainforest & Jungle",
+      "Rivers, Lakes & Wetlands"
+    ],
+    "regions": [
+      "Asia"
+    ],
+    "diet": "Birds, small mammals, frogs, lizards, and other snakes",
+    "kill": "Kills by injecting venom through its fangs"
+  },
+  {
+    "id": "meel",
+    "name": "Moray Eel",
+    "thumb": "assets/meel/MEEL00AA.png",
+    "weapons": [
+      "Teeth & Jaws"
+    ],
+    "habitats": [
+      "Oceans & Coral Reefs"
+    ],
+    "regions": [
+      "Oceans & Seas"
+    ],
+    "diet": "Fish and small prey",
+    "kill": "Kills by biting prey with jagged teeth"
+  },
+  {
+    "id": "mosq",
+    "name": "Mosquito",
+    "thumb": "assets/mosq/MOSQ00AA.png",
+    "weapons": [
+      "Disease Carriers"
+    ],
+    "habitats": [
+      "Rivers, Lakes & Wetlands",
+      "Cities & Farmland"
+    ],
+    "regions": [
+      "Worldwide"
+    ],
+    "diet": "Females suck blood from animals",
+    "kill": "Injures by spreading disease: encephalitis, fevers, and malaria"
+  },
+  {
+    "id": "mwar",
+    "name": "Portuguese Man-of-War",
+    "thumb": "assets/mwar/MWAR00AA.png",
+    "weapons": [
+      "Venom & Poison",
+      "Stings"
+    ],
+    "habitats": [
+      "Oceans & Coral Reefs"
+    ],
+    "regions": [
+      "Oceans & Seas"
+    ],
+    "diet": "All types of fish",
+    "kill": "Kills by stinging with venomous cells"
+  },
+  {
+    "id": "orca",
+    "name": "Killer Whale",
+    "thumb": "assets/orca/ORCA00AA.png",
+    "weapons": [
+      "Teeth & Jaws"
+    ],
+    "habitats": [
+      "Oceans & Coral Reefs",
+      "Polar & Tundra"
+    ],
+    "regions": [
+      "Oceans & Seas",
+      "Polar Regions"
+    ],
+    "diet": "Seals, dolphins, penguins, and fish",
+    "kill": "Kills by biting its prey or swallowing it whole"
+  },
+  {
+    "id": "pbea",
+    "name": "Polar Bear",
+    "thumb": "assets/pbea/PBEA00AA.png",
+    "weapons": [
+      "Teeth & Jaws"
+    ],
+    "habitats": [
+      "Polar & Tundra"
+    ],
+    "regions": [
+      "North America",
+      "Polar Regions"
+    ],
+    "diet": "Seals, walruses, musk oxen, reindeer, foxes, fish, and crabs",
+    "kill": "Kills by biting and crushing its prey with powerful jaws"
+  },
+  {
+    "id": "pira",
+    "name": "Piranha",
+    "thumb": "assets/pira/PIRA00AA.png",
+    "weapons": [
+      "Teeth & Jaws",
+      "Pack & Swarm Attacks"
+    ],
+    "habitats": [
+      "Rivers, Lakes & Wetlands"
+    ],
+    "regions": [
+      "South America"
+    ],
+    "diet": "Small fish, and dead or injured animals of any size",
+    "kill": "Kills by group attack: each fish darts in and bites off a mouthful"
+  },
+  {
+    "id": "plat",
+    "name": "Platypus",
+    "thumb": "assets/plat/PLAT00AA.png",
+    "weapons": [
+      "Venom & Poison"
+    ],
+    "habitats": [
+      "Rivers, Lakes & Wetlands"
+    ],
+    "regions": [
+      "Australia & Oceania"
+    ],
+    "diet": "Crayfish, worms, and small water animals",
+    "kill": "Defends by injecting venom from spurs on its hind legs"
+  },
+  {
+    "id": "porc",
+    "name": "Porcupine Fish",
+    "thumb": "assets/porc/PORC00AA.png",
+    "weapons": [
+      "Spines & Quills"
+    ],
+    "habitats": [
+      "Oceans & Coral Reefs"
+    ],
+    "regions": [
+      "Oceans & Seas"
+    ],
+    "diet": "Clams, sea urchins, and crabs",
+    "kill": "Defends by puffing up into a spiny ball"
+  },
+  {
+    "id": "post",
+    "name": "Passion-vine Caterpillar",
+    "thumb": "assets/post/POST00AA.png",
+    "weapons": [
+      "Venom & Poison"
+    ],
+    "habitats": [
+      "Rainforest & Jungle"
+    ],
+    "regions": [
+      "Central America",
+      "South America"
+    ],
+    "diet": "Plants and pollen, especially favors passion flowers",
+    "kill": "Defends by being poisonous to eat"
+  },
+  {
+    "id": "pyth",
+    "name": "Python",
+    "thumb": "assets/pyth/PYTH00AA.png",
+    "weapons": [
+      "Constriction"
+    ],
+    "habitats": [
+      "Rainforest & Jungle",
+      "Grassland & Savanna"
+    ],
+    "regions": [
+      "Africa",
+      "Asia",
+      "Australia & Oceania"
+    ],
+    "diet": "Small reptiles, birds, pigs, and deer",
+    "kill": "Kills by squeezing and suffocating its prey"
+  },
+  {
+    "id": "rats",
+    "name": "Rat",
+    "thumb": "assets/rats/RATS00AA.png",
+    "weapons": [
+      "Disease Carriers"
+    ],
+    "habitats": [
+      "Cities & Farmland"
+    ],
+    "regions": [
+      "Worldwide"
+    ],
+    "diet": "Any edible food, especially grains",
+    "kill": "Injures by spreading disease: typhus, rabies, and bubonic plague"
+  },
+  {
+    "id": "rhin",
+    "name": "Rhinoceros",
+    "thumb": "assets/rhin/RHIN00AA.png",
+    "weapons": [
+      "Horns, Tusks & Charging"
+    ],
+    "habitats": [
+      "Grassland & Savanna",
+      "Forest & Woodland"
+    ],
+    "regions": [
+      "Africa",
+      "Asia"
+    ],
+    "diet": "Twigs, leaves, reeds, and grasses",
+    "kill": "Defends by charging, and goring with its horn"
+  },
+  {
+    "id": "rttl",
+    "name": "Rattlesnake",
+    "thumb": "assets/rttl/RTTL00AA.png",
+    "weapons": [
+      "Venom & Poison"
+    ],
+    "habitats": [
+      "Desert",
+      "Grassland & Savanna"
+    ],
+    "regions": [
+      "North America",
+      "Central America",
+      "South America"
+    ],
+    "diet": "Rodents, lizards, and birds, and occasionally their eggs",
+    "kill": "Kills by injecting venom through fangs"
+  },
+  {
+    "id": "scor",
+    "name": "Scorpion",
+    "thumb": "assets/scor/SCOR00AA.png",
+    "weapons": [
+      "Venom & Poison",
+      "Stings"
+    ],
+    "habitats": [
+      "Desert",
+      "Grassland & Savanna"
+    ],
+    "regions": [],
+    "diet": "Insects, spiders, frogs, and rodents",
+    "kill": "Kills by injecting venom through tail stinger"
+  },
+  {
+    "id": "seas",
+    "name": "Sea Snake",
+    "thumb": "assets/seas/SEAS00AA.png",
+    "weapons": [
+      "Venom & Poison"
+    ],
+    "habitats": [
+      "Oceans & Coral Reefs"
+    ],
+    "regions": [
+      "Oceans & Seas"
+    ],
+    "diet": "Fish, fish eggs, and small eels",
+    "kill": "Kills by injecting venom through fangs"
+  },
+  {
+    "id": "snap",
+    "name": "Snapping Turtle",
+    "thumb": "assets/snap/SNAP00AA.png",
+    "weapons": [
+      "Teeth & Jaws"
+    ],
+    "habitats": [
+      "Rivers, Lakes & Wetlands"
+    ],
+    "regions": [
+      "North America",
+      "Central America",
+      "South America"
+    ],
+    "diet": "Invertebrates, plants, dead animals, fish, snakes, and other turtles",
+    "kill": "Kills by surprise attack, biting with powerful jaws"
+  },
+  {
+    "id": "sray",
+    "name": "Stingray",
+    "thumb": "assets/sray/SRAY00AA.png",
+    "weapons": [
+      "Venom & Poison",
+      "Spines & Quills"
+    ],
+    "habitats": [
+      "Oceans & Coral Reefs",
+      "Rivers, Lakes & Wetlands"
+    ],
+    "regions": [
+      "South America",
+      "Oceans & Seas"
+    ],
+    "diet": "Crustaceans, clams, worms, and other invertebrates",
+    "kill": "Defends with venomous spine on tail"
+  },
+  {
+    "id": "swsp",
+    "name": "Australian Sea Wasp",
+    "thumb": "assets/swsp/SWSP00AA.png",
+    "weapons": [
+      "Venom & Poison",
+      "Stings"
+    ],
+    "habitats": [
+      "Oceans & Coral Reefs"
+    ],
+    "regions": [
+      "Australia & Oceania"
+    ],
+    "diet": "Small fish",
+    "kill": "Kills by stinging with venomous cells"
+  },
+  {
+    "id": "tasm",
+    "name": "Tasmanian Devil",
+    "thumb": "assets/tasm/TASM00AA.png",
+    "weapons": [
+      "Teeth & Jaws",
+      "Claws & Talons"
+    ],
+    "habitats": [
+      "Forest & Woodland"
+    ],
+    "regions": [
+      "Australia & Oceania"
+    ],
+    "diet": "Primarily dead animals; also insects, wallabies, and sheep",
+    "kill": "Kills by biting and clawing prey"
+  },
+  {
+    "id": "tigr",
+    "name": "Tiger",
+    "thumb": "assets/tigr/TIGR00AA.png",
+    "weapons": [
+      "Teeth & Jaws",
+      "Claws & Talons"
+    ],
+    "habitats": [
+      "Rainforest & Jungle",
+      "Forest & Woodland"
+    ],
+    "regions": [
+      "Asia"
+    ],
+    "diet": "Deer, buffalo, goats, boars, antelope, and hares",
+    "kill": "Kills by surprise attack, biting and clawing prey"
+  },
+  {
+    "id": "tran",
+    "name": "Tarantula",
+    "thumb": "assets/tran/TRAN00AA.png",
+    "weapons": [
+      "Venom & Poison"
+    ],
+    "habitats": [
+      "Rainforest & Jungle",
+      "Desert"
+    ],
+    "regions": [
+      "Africa",
+      "Asia",
+      "Australia & Oceania"
+    ],
+    "diet": "Insects, small reptiles, frogs, small rodents, and other spiders",
+    "kill": "Kills by injecting venom through fangs"
+  },
+  {
+    "id": "vamp",
+    "name": "Vampire Bat",
+    "thumb": "assets/vamp/VAMP00AA.png",
+    "weapons": [
+      "Disease Carriers"
+    ],
+    "habitats": [
+      "Rainforest & Jungle",
+      "Cities & Farmland"
+    ],
+    "regions": [
+      "Central America",
+      "South America"
+    ],
+    "diet": "Blood of warm-blooded animals, mostly cattle, horses, sheep, and goats",
+    "kill": "Injures by spreading infectious viruses, especially rabies"
+  },
+  {
+    "id": "vult",
+    "name": "Vulture",
+    "thumb": "assets/vult/VULT00AA.png",
+    "weapons": [
+      "Teeth & Jaws",
+      "Claws & Talons"
+    ],
+    "habitats": [
+      "Grassland & Savanna"
+    ],
+    "regions": [
+      "Worldwide"
+    ],
+    "diet": "Carrion, baby livestock, turtles, bone marrow, placentas",
+    "kill": "Kills by biting prey, tearing with talons or scavenges"
+  },
+  {
+    "id": "wart",
+    "name": "Warthog",
+    "thumb": "assets/wart/WART00AA.png",
+    "weapons": [
+      "Horns, Tusks & Charging",
+      "Pack & Swarm Attacks"
+    ],
+    "habitats": [
+      "Grassland & Savanna"
+    ],
+    "regions": [
+      "Africa"
+    ],
+    "diet": "Grasses, herbs, roots, tubers, and sedges",
+    "kill": "Defends by slashing with tusks and group attack"
+  },
+  {
+    "id": "wasp",
+    "name": "Wasp",
+    "thumb": "assets/wasp/WASP00AA.png",
+    "weapons": [
+      "Venom & Poison",
+      "Stings"
+    ],
+    "habitats": [
+      "Forest & Woodland",
+      "Cities & Farmland"
+    ],
+    "regions": [
+      "Worldwide"
+    ],
+    "diet": "Fruit, insects, spiders, dead animals, cicadas, and other wasps",
+    "kill": "Kills with venomous stinger on tail"
+  },
+  {
+    "id": "wlvr",
+    "name": "Wolverine",
+    "thumb": "assets/wlvr/WLVR00AA.png",
+    "weapons": [
+      "Teeth & Jaws"
+    ],
+    "habitats": [
+      "Forest & Woodland",
+      "Polar & Tundra",
+      "Mountains"
+    ],
+    "regions": [
+      "Asia",
+      "Europe",
+      "North America"
+    ],
+    "diet": "Dead animals, reindeer, caribou, rodents, hares, eggs, and berries",
+    "kill": "Kills by biting neck; also surprise attacks"
+  },
+  {
+    "id": "wolf",
+    "name": "Wolf",
+    "thumb": "assets/wolf/WOLF00AA.png",
+    "weapons": [
+      "Teeth & Jaws",
+      "Pack & Swarm Attacks"
+    ],
+    "habitats": [
+      "Forest & Woodland",
+      "Grassland & Savanna",
+      "Polar & Tundra"
+    ],
+    "regions": [
+      "Asia",
+      "Europe",
+      "North America"
+    ],
+    "diet": "Deer, elk, cattle, caribou, moose, beavers, and hares",
+    "kill": "Hunts in packs and kills by biting prey"
+  }
+]

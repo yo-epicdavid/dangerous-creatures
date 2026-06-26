@@ -81,8 +81,9 @@ python3 -m http.server 8731
 - ✅ Browse modes: **Atlas** (region) + **Weapons** (attack) auto-derived from facts, + **Habitats** (9 environments, curated in `tools/habitats.json`) — 3-tab `browse.html` UI + creature-page chips
 - ✅ Wired all 5 cross-link Classic hotspots to Browse categories / creatures (0 disabled remaining)
 - ✅ **Guides** — all 12 narrated tours restored (real host narration audio + intro art, `tools/extract_guides.py` → `build_guides.py` → `guides.json`); `guides.html` menu (grouped by host) + tour player; geographic tours list their creatures. **All four original nav modes done: Atlas · Habitats · Weapons · Guides.**
+- ✅ **Mini-games** (`games.html`): **Whose Eyes Are These?** (faithful — original close-up/reveal photos, multiple choice, win/lose sounds) + **Survival Quiz** (data-driven, replayable, from `quiz.json`). `tools/extract_games.py` is extensible to the other disc puzzles (Tracks, Camouflage, Close-up, etc.).
 - ⬜ Refine Classic hotspot coordinates from `MSDANGER.THE` (currently vision-estimated)
-- ⬜ Mini-games (`GAME/*.CJS` puzzles)
+- ⬜ More mini-games from the disc (Tracks, Camouflage, …) using the same extractor
 - ⬜ Open-licensed media swap for public release
 
 ## Legal

@@ -113,6 +113,7 @@ def main():
     index = []
     report = {"external": [], "disabled": []}
     weapons_map, regions_map, habitats_map = {}, {}, {}
+    quiz_rows = []
 
     for d in animals:
         slug = d["id"]
@@ -146,6 +147,11 @@ def main():
             regions_map.setdefault(r, []).append(slug)
         for h in habitats:
             habitats_map.setdefault(h, []).append(slug)
+        quiz_rows.append({
+            "id": slug, "name": d["name"], "thumb": asset(slug, main_stem + ".png"),
+            "weapons": weapons, "habitats": habitats, "regions": regions,
+            "diet": factmap.get("Favorite meals", ""), "kill": factmap.get("How it kills", ""),
+        })
 
         topics = []
         for t in d.get("topics", []):
@@ -265,6 +271,7 @@ def main():
             "habitats": categories(habitats_map, HABITAT_ORDER),
         }
         json.dump(browse, open(os.path.join(DATA, "browse.json"), "w"), indent=2, ensure_ascii=False)
+        json.dump(quiz_rows, open(os.path.join(DATA, "quiz.json"), "w"), indent=2, ensure_ascii=False)
     print(f"wrote {len(animals)} page files{'' if os.environ.get('SKIP_INDEX')=='1' else ' + index.json'} -> {DATA}")
     print(f"cross-animal links resolved: {len(report['external'])}  ->  {', '.join(report['external'])}")
     print(f"category-link hotspots wired: {len(report.get('linked', []))}  ->  {', '.join(report.get('linked', []))}")
