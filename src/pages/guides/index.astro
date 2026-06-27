@@ -1,0 +1,49 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Topbar from '../../components/Topbar.astro';
+import { readJSON, asset } from '../../lib/data.js';
+const guides = readJSON('guides.json');
+const GROUPS = [
+  { host: 'Storyteller', label: "📖 Storyteller's Tales" },
+  { host: 'Annie', label: '🎒 On Tour with Annie' },
+  { host: 'Fergie', label: '🧭 Journeys with Fergie' },
+];
+---
+<Layout title="Guided Tours — Dangerous Creatures" desc="Twelve narrated journeys through the world of dangerous creatures.">
+  <Topbar>
+    <a slot="right" class="btn" href="/">← All creatures</a>
+  </Topbar>
+
+  <div class="guides-head">
+    <h1>Guided Tours</h1>
+    <p>Twelve narrated journeys through the world of dangerous creatures, hosted by your guides.</p>
+  </div>
+
+  <main class="wrap">
+    {GROUPS.map((g) => {
+      const tours = guides.filter((t) => t.host === g.host);
+      return tours.length === 0 ? null : (
+        <section class="host-group">
+          <h2>{g.label}</h2>
+          <div class="grid">
+            {tours.map((t) => (
+              <a class="creature tourcard" href={`/guides/${t.tour}`}>
+                <img src={asset(t.art)} alt={t.title} loading="lazy" />
+                <span>{t.title}</span>
+              </a>
+            ))}
+          </div>
+        </section>
+      );
+    })}
+  </main>
+</Layout>
+
+<style>
+  .guides-head { text-align: center; padding: 26px 20px 4px; }
+  .guides-head h1 { font-family: var(--font-display); font-size: clamp(34px, 6vw, 60px); margin: 0; }
+  .guides-head p { color: var(--ink-soft); margin: 8px 0 0; font-size: 18px; }
+  .host-group { margin: 34px 0; }
+  .host-group > h2 { font-family: var(--font-display); color: var(--gold); font-size: 24px; border-bottom: 1px solid var(--line); padding-bottom: 8px; margin: 0 0 16px; }
+  .tourcard span { font-family: var(--font-display); font-weight: 700; }
+</style>

@@ -1,44 +1,15 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>The Making Of — Dangerous Creatures</title>
-  <link rel="stylesheet" href="styles.css" />
-  <style>
-    .article { max-width: 760px; margin: 0 auto; padding: 0 22px 90px; }
-    .article .kicker { text-transform: uppercase; letter-spacing: 3px; font-size: 13px; color: var(--ink-soft); margin-top: 40px; }
-    .article h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(40px, 7vw, 76px); line-height: 1; margin: 8px 0 6px; }
-    .article h1 b { color: var(--rust); }
-    .article .dek { font-size: 21px; color: var(--gold); margin: 0 0 10px; }
-    .article h2 { font-family: var(--font-display); color: var(--gold); font-size: clamp(26px, 4vw, 34px); margin: 48px 0 6px; line-height: 1.1; }
-    .article p { font-size: 18px; }
-    .article p .first { font-size: 26px; }
-    .article a { color: var(--gold); }
-    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 14px; margin: 30px 0; }
-    .stat { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px; text-align: center; box-shadow: var(--shadow); }
-    .stat b { display: block; font-family: var(--font-display); font-size: 34px; color: var(--rust); line-height: 1; }
-    .stat span { font-size: 13px; color: var(--ink-soft); text-transform: uppercase; letter-spacing: 1px; }
-    .pull { border-left: 4px solid var(--gold); padding: 6px 0 6px 20px; margin: 30px 0; font-size: 22px; color: var(--ink); font-style: italic; }
-    .pipeline { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 22px 24px; margin: 28px 0; box-shadow: var(--shadow); }
-    .pipeline ol { margin: 0; padding-left: 22px; }
-    .pipeline li { margin: 10px 0; }
-    .pipeline code { background: #00000040; padding: 2px 7px; border-radius: 6px; font-size: 14px; color: var(--green); }
-    .legal { margin-top: 56px; padding: 18px 20px; border: 1px dashed var(--line); border-radius: 14px; color: var(--ink-soft); font-size: 14px; background: #00000020; }
-    .legal b { color: var(--ink); }
-    .backlink { display: inline-block; margin-top: 36px; }
-  </style>
-</head>
-<body>
-  <header class="topbar">
-    <a class="brand" href="index.html"><b>Dangerous</b> Creatures</a>
-    <div class="spacer"></div>
-    <a class="btn" href="index.html">Explore the creatures →</a>
-  </header>
+---
+import Layout from '../layouts/Layout.astro';
+import Topbar from '../components/Topbar.astro';
+---
+<Layout title="The Making Of — Dangerous Creatures" desc="How a 1994 CD-ROM became a modern web app: one disc, a decompressor, and a swarm of AI agents.">
+  <Topbar>
+    <a slot="right" class="btn" href="/">Explore the creatures →</a>
+  </Topbar>
 
   <main class="article">
     <p class="kicker">The Making Of</p>
-    <h1>How a 1994 CD&#8209;ROM<br><b>came back to life</b></h1>
+    <h1>How a 1994 CD&#8209;ROM<br /><b>came back to life</b></h1>
     <p class="dek">One disc, a decompressor, and a swarm of robots reading a children's encyclopedia.</p>
 
     <p><span class="first">S</span>omewhere in the 1990s, a kid sat in front of a beige computer and fell in love with animals. The window on the screen was <i>Microsoft Dangerous Creatures</i> — a 1994 multimedia encyclopedia of the planet's most fascinating, ferocious, and venomous animals. Lions, cobras, great white sharks, the blue&#8209;ringed octopus. You clicked, you read, you watched grainy little videos, and you learned.</p>
@@ -95,10 +66,38 @@
     <p>Everything here was reconstructed from that one disc: a forty&#8209;line decompressor woke the images, a video converter restored the films, and a swarm of agents liberated the words. The result is the encyclopedia a kid loved in 1994 — faithful when you want nostalgia, modern when you want to learn, and built to keep growing.</p>
 
     <div class="legal">
-      <b>About the artwork.</b> The photos, video, and original text are © 1994 Microsoft Corporation and its suppliers — wildlife photographers and filmmakers like Oxford Scientific Films / Animals Animals. They're used here during development out of love for the original. Before this goes fully public, the media will be replaced with openly&#8209;licensed photography and footage, so the experience can belong to everyone. The words have already been freed — that's the hard part done.
+      <b>About the artwork.</b> The photos, video, and original text are © 1994 Microsoft Corporation and its
+      suppliers — wildlife photographers, filmmakers, and agencies like Oxford Scientific Films / Animals Animals
+      (every one is named on the <a href="/credits">credits page</a>). This is a <b>non&#8209;commercial,
+      educational preservation</b>, made out of love for the original — not affiliated with Microsoft, with no ads
+      or sales, and with removal on request. The words have already been freed into open text; the credit goes to
+      the people who captured these creatures in the first place.
     </div>
 
-    <a class="btn backlink" href="index.html">← Back to the creatures</a>
+    <a class="btn backlink" href="/">← Back to the creatures</a>
   </main>
-</body>
-</html>
+</Layout>
+
+<style>
+  .article { max-width: 760px; margin: 0 auto; padding: 0 22px 90px; }
+  .article .kicker { text-transform: uppercase; letter-spacing: 3px; font-size: 13px; color: var(--ink-soft); margin-top: 40px; }
+  .article h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(40px, 7vw, 76px); line-height: 1; margin: 8px 0 6px; }
+  .article h1 b { color: var(--rust); }
+  .article .dek { font-size: 21px; color: var(--gold); margin: 0 0 10px; }
+  .article h2 { font-family: var(--font-display); color: var(--gold); font-size: clamp(26px, 4vw, 34px); margin: 48px 0 6px; line-height: 1.1; }
+  .article p { font-size: 18px; }
+  .article p .first { font-size: 26px; }
+  .article a { color: var(--gold); }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 14px; margin: 30px 0; }
+  .stat { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px; text-align: center; box-shadow: var(--shadow); }
+  .stat b { display: block; font-family: var(--font-display); font-size: 34px; color: var(--rust); line-height: 1; }
+  .stat span { font-size: 13px; color: var(--ink-soft); text-transform: uppercase; letter-spacing: 1px; }
+  .pull { border-left: 4px solid var(--gold); padding: 6px 0 6px 20px; margin: 30px 0; font-size: 22px; color: var(--ink); font-style: italic; }
+  .pipeline { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 22px 24px; margin: 28px 0; box-shadow: var(--shadow); }
+  .pipeline ol { margin: 0; padding-left: 22px; }
+  .pipeline li { margin: 10px 0; }
+  .pipeline code { background: #00000040; padding: 2px 7px; border-radius: 6px; font-size: 14px; color: var(--green); }
+  .legal { margin-top: 56px; padding: 18px 20px; border: 1px dashed var(--line); border-radius: 14px; color: var(--ink-soft); font-size: 14px; background: #00000020; }
+  .legal b { color: var(--ink); }
+  .backlink { display: inline-block; margin-top: 36px; }
+</style>

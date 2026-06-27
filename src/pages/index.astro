@@ -1,0 +1,50 @@
+---
+import Layout from '../layouts/Layout.astro';
+import CreatureCard from '../components/CreatureCard.astro';
+import { readJSON } from '../lib/data.js';
+const list = readJSON('index.json');
+---
+<Layout title="Dangerous Creatures — reborn">
+  <main class="wrap">
+    <div class="cover">
+      <h1><b>Dangerous</b><br />Creatures</h1>
+      <p>The classic 1994 wildlife explorer, reborn for the web — so any kid can meet the planet’s most fascinating animals.</p>
+      <nav class="explore-nav">
+        <a class="btn" href="/browse?tab=regions">🌍 By Region</a>
+        <a class="btn" href="/browse?tab=habitats">🌿 By Habitat</a>
+        <a class="btn" href="/browse?tab=weapons">⚔️ By Weapon</a>
+        <a class="btn btn--play" href="/guides">🧭 Guided Tours</a>
+        <a class="btn btn--play" href="/games">🎮 Games</a>
+      </nav>
+    </div>
+
+    <div class="grid">
+      {list.map((c) => <CreatureCard id={c.id} name={c.name} thumb={c.thumb} />)}
+    </div>
+
+    <footer class="sitefoot">
+      <p class="links">
+        <a href="/making-of">✦ The Making Of</a> &nbsp;·&nbsp;
+        <a href="/credits">Credits &amp; Acknowledgements</a>
+      </p>
+      <p class="notice">
+        A non-commercial, educational fan preservation of <i>Microsoft Dangerous Creatures</i> (1994).
+        Not affiliated with Microsoft. All original media © their respective owners —
+        <a href="/credits">see credits</a>.
+      </p>
+    </footer>
+  </main>
+</Layout>
+
+<style>
+  .cover { text-align: center; padding: 60px 20px 22px; }
+  .cover h1 { font-family: var(--font-display); font-size: clamp(44px, 8.5vw, 92px); margin: 0; line-height: .95; font-weight: 700; }
+  .cover h1 b { color: var(--rust); }
+  .cover p { color: var(--ink-soft); font-size: 20px; max-width: 620px; margin: 14px auto 18px; }
+  .grid { margin: 14px 0 60px; }
+  .sitefoot { text-align: center; padding: 6px 20px 70px; color: var(--ink-soft); }
+  .sitefoot .links { margin: 0 0 12px; font-size: 16px; }
+  .sitefoot .links a { color: var(--gold); }
+  .sitefoot .notice { margin: 0 auto; font-size: 13px; max-width: 660px; line-height: 1.5; }
+  .sitefoot .notice a { color: var(--ink-soft); text-decoration: underline; }
+</style>
