@@ -1,6 +1,7 @@
 ---
 import '../../web/styles.css';
 const { title = 'Dangerous Creatures', desc = 'The classic 1994 wildlife explorer, reborn for the web — so any kid can meet the planet’s most fascinating animals.' } = Astro.props;
+const ogImage = new URL('/og-cover.jpg', Astro.site).href;
 ---
 <!doctype html>
 <html lang="en">
@@ -9,9 +10,16 @@ const { title = 'Dangerous Creatures', desc = 'The classic 1994 wildlife explore
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={desc} />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={desc} />
     <meta property="og:type" content="website" />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content={ogImage} />
   </head>
   <body>
     <slot />
