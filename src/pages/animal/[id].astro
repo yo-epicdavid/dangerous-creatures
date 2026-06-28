@@ -152,7 +152,7 @@ const regionChips = (d.regions || []).map((r) => chip(r, 'regions'));
 
     // the habitat/ambient sound (AT) — autoplays on entry, like the original
     const ambient = data.ambient ? new Audio(asset(data.ambient)) : null;
-    if (ambient) ambient.volume = 0.7;
+    if (ambient) { ambient.volume = 0.7; ambient.preload = 'auto'; }
     function playAmbient() { if (ambient) { ambient.currentTime = 0; ambient.play().catch(() => {}); } }
     // the animal's actual call (AF) — the intentional "Hear it" button
     const sound = data.sound ? new Audio(asset(data.sound)) : null;
@@ -234,15 +234,25 @@ const regionChips = (d.regions || []).map((r) => chip(r, 'regions'));
 
     apply();
 
-    // greet you with the animal's sound on landing (modern view), within browser autoplay rules.
-    // Respect users who ask for reduced motion — unexpected audio is disruptive for them
-    // and for anyone relying on a screen reader, so we stay silent until they choose "Hear".
+    // Greet you with the habitat's ambient sound on landing (modern view).
+    // Browsers block audio that would play *before* you interact with the page, so we
+    //   (a) try immediately — this works for returning visitors the browser already trusts; and
+    //   (b) arm a fallback so the very first tap / click / keypress *anywhere* starts it.
+    // We stay silent for reduced-motion users — unexpected audio is disruptive for them
+    // and for anyone using a screen reader, so they choose "Hear" themselves.
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const UNLOCK_EVENTS = ['pointerdown', 'keydown', 'touchstart'];
+    function onUnlock() { startAmbient(); }
+    function startAmbient() {
+      if (!ambient || mode !== 'modern' || prefersReducedMotion) return;
+      ambient.currentTime = 0;
+      ambient.play().then(() => {
+        UNLOCK_EVENTS.forEach((e) => window.removeEventListener(e, onUnlock));
+      }).catch(() => {});
+    }
     if (ambient && mode === 'modern' && !prefersReducedMotion) {
-      ambient.play().catch(() => {
-        const once = () => { playAmbient(); ['pointerdown', 'keydown', 'touchstart'].forEach((e) => window.removeEventListener(e, once)); };
-        ['pointerdown', 'keydown', 'touchstart'].forEach((e) => window.addEventListener(e, once, { once: true, passive: true }));
-      });
+      UNLOCK_EVENTS.forEach((e) => window.addEventListener(e, onUnlock, { passive: true }));
+      startAmbient();
     }
   </script>
 </Layout>
