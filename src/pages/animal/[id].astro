@@ -146,12 +146,17 @@ const regionChips = (d.regions || []).map((r) => chip(r, 'regions'));
       scrollTo({ top: 0 });
     }
 
-    // the animal's sound — autoplays on entry (like the original), replayable via the button
-    const ambient = data.sound ? new Audio(asset(data.sound)) : null;
-    if (ambient) ambient.volume = 0.8;
+    // the habitat/ambient sound (AT) — autoplays on entry, like the original
+    const ambient = data.ambient ? new Audio(asset(data.ambient)) : null;
+    if (ambient) ambient.volume = 0.7;
     function playAmbient() { if (ambient) { ambient.currentTime = 0; ambient.play().catch(() => {}); } }
+    // the animal's actual call (AF) — the intentional "Hear it" button
+    const sound = data.sound ? new Audio(asset(data.sound)) : null;
     const hearBtn = document.getElementById('hear-sound');
-    if (hearBtn) hearBtn.addEventListener('click', playAmbient);
+    if (hearBtn && sound) hearBtn.addEventListener('click', () => {
+      if (ambient) ambient.pause();
+      sound.currentTime = 0; sound.play().catch(() => {});
+    });
 
     function renderClassic() {
       const c = data.classic;
@@ -213,6 +218,7 @@ const regionChips = (d.regions || []).map((r) => chip(r, 'regions'));
       b.addEventListener('click', () => {
         if (clipBtn === b && !clip.paused) { clip.pause(); clearClip(); return; }
         if (ambient) ambient.pause();                 // don't talk over the narration
+        if (sound) sound.pause();
         if (clipBtn) clipBtn.classList.remove('playing');
         clip.src = b.getAttribute('data-listen');
         clip.play().catch(() => {});

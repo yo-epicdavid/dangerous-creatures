@@ -243,8 +243,10 @@ def main():
             "classic": {"start": "main", "screens": screens},
             "_provenance": PROV,
         }
+        if os.path.exists(os.path.join(WEB, "assets", slug, "narration.mp3")):
+            page["ambient"] = asset(slug, "narration.mp3")  # AT: habitat/ambient sound — autoplays on entry
         if os.path.exists(os.path.join(WEB, "assets", slug, f"{code}00AF.mp3")):
-            page["sound"] = asset(slug, f"{code}00AF.mp3")  # the animal's call/roar (autoplays on entry)
+            page["sound"] = asset(slug, f"{code}00AF.mp3")  # AF: the animal's actual call — the "Hear it" button
         if os.path.exists(os.path.join(WEB, "assets", slug, f"{code}00FB.mp3")):
             page["factsNarration"] = asset(slug, f"{code}00FB.mp3")  # fact-box "Free Advice" narration
         if video:
