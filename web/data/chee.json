@@ -63,31 +63,36 @@
           "label": "Caracal",
           "text": "This cat weighs up to 17 kilograms (37 lb). It likes dry country. In the past, people have tamed caracals and trained them to hunt, much in the way people today train hunting dogs."
         }
-      ]
+      ],
+      "narration": "assets/chee/CHEE01NP.mp3"
     },
     {
       "id": "jaws-not-claws",
       "title": "Jaws, not claws",
       "image": "assets/chee/CHEE02PU.webp",
-      "text": "The cheetah's name means \"dog-cat.\" Like a dog, it uses its claws for traction when it runs. In fact, a cheetah cannot retract its claws like other cats, and so it cannot keep them sharp or use them as weapons. A cheetah uses a suffocating throat hold to kill its prey."
+      "text": "The cheetah's name means \"dog-cat.\" Like a dog, it uses its claws for traction when it runs. In fact, a cheetah cannot retract its claws like other cats, and so it cannot keep them sharp or use them as weapons. A cheetah uses a suffocating throat hold to kill its prey.",
+      "narration": "assets/chee/CHEE02NP.mp3"
     },
     {
       "id": "lightweights",
       "title": "Lightweights",
       "image": "assets/chee/CHEE03PU.webp",
-      "text": "Cheetahs can't drag heavy prey out of the reach of other predators, and they're lightweights when it comes to a challenge. Their bodies are made for running, not for fighting—so if a lion or hyena challenges a cheetah for a kill, the cheetah usually gives in without much of an argument"
+      "text": "Cheetahs can't drag heavy prey out of the reach of other predators, and they're lightweights when it comes to a challenge. Their bodies are made for running, not for fighting—so if a lion or hyena challenges a cheetah for a kill, the cheetah usually gives in without much of an argument",
+      "narration": "assets/chee/CHEE03NP.mp3"
     },
     {
       "id": "playing-to-hunt",
       "title": "Playing to hunt",
       "image": "assets/chee/CHEE04PU.webp",
-      "text": "Wild babies develop strength and learn their hunting skills through imitation and play. These young cheetahs practice stalking and leaping by \"hunting\" each other. As soon as they can run quickly enough, they'll be ready to take on real prey."
+      "text": "Wild babies develop strength and learn their hunting skills through imitation and play. These young cheetahs practice stalking and leaping by \"hunting\" each other. As soon as they can run quickly enough, they'll be ready to take on real prey.",
+      "narration": "assets/chee/CHEE04NP.mp3"
     },
     {
       "id": "at-home-with-the-kids",
       "title": "At home with the kids",
       "image": "assets/chee/CHEE05PU.webp",
-      "text": "After a gestation period of about three months, a female cheetah gives birth to her cubs. She usually bears four to six babies, which she'll nurse for the first three to six months. Then she'll spend almost a year teaching them to hunt. After the cubs are around a year and a half old, they're on their own, and their mother is ready to raise a new family."
+      "text": "After a gestation period of about three months, a female cheetah gives birth to her cubs. She usually bears four to six babies, which she'll nurse for the first three to six months. Then she'll spend almost a year teaching them to hunt. After the cubs are around a year and a half old, they're on their own, and their mother is ready to raise a new family.",
+      "narration": "assets/chee/CHEE05NP.mp3"
     },
     {
       "id": "african-racers",
@@ -103,7 +108,8 @@
           "label": "Fleeing instead of flying",
           "text": "Although ostriches are the biggest birds in the world, they're built for running, not flying. An adult ostrich can run up to 72 kilometers (45 mi) per hour."
         }
-      ]
+      ],
+      "narration": "assets/chee/CHEE06NP.mp3"
     }
   ],
   "classic": {
@@ -226,6 +232,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/chee/narration.mp3",
+  "sound": "assets/chee/CHEE00AF.mp3",
   "video": {
     "title": "What a workout!",
     "src": "assets/chee/clip.mp4",

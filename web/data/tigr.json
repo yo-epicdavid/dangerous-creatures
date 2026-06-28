@@ -53,25 +53,29 @@
       "id": "stripes-and-shadows",
       "title": "Stripes and shadows",
       "image": "assets/tigr/TIGR01PU.webp",
-      "text": "Unlike savanna cats such as lions and cheetahs, a tiger never hunts in open country, but instead sneaks up on its prey under the cover of tall grass or brush. Its vertically striped coat is perfect for breaking up the cat's shape to blend in with stalks, grasses, and forest shadows. Imagine the shock of suddenly seeing this pair of yellow eyes fixed on you!"
+      "text": "Unlike savanna cats such as lions and cheetahs, a tiger never hunts in open country, but instead sneaks up on its prey under the cover of tall grass or brush. Its vertically striped coat is perfect for breaking up the cat's shape to blend in with stalks, grasses, and forest shadows. Imagine the shock of suddenly seeing this pair of yellow eyes fixed on you!",
+      "narration": "assets/tigr/TIGR01NP.mp3"
     },
     {
       "id": "water-lovers",
       "title": "Water lovers",
       "image": "assets/tigr/TIGR02PU.webp",
-      "text": "If you're in tiger country and want to see one of the big cats, head for the nearest water. Tigers often wait for prey near a water hole. If they make a big kill they can't eat all at once, they hide the remains close to the water so they can come back later for more food and drink. In hot weather, a tiger will often lie in a stream to cool off."
+      "text": "If you're in tiger country and want to see one of the big cats, head for the nearest water. Tigers often wait for prey near a water hole. If they make a big kill they can't eat all at once, they hide the remains close to the water so they can come back later for more food and drink. In hot weather, a tiger will often lie in a stream to cool off.",
+      "narration": "assets/tigr/TIGR02NP.mp3"
     },
     {
       "id": "mother-and-mentor",
       "title": "Mother and mentor",
       "image": "assets/tigr/TIGR03PU.webp",
-      "text": "A tiger family consists of mom and the cubs–the father doesn't stick around after mating with the female. The cubs stay with their mother for about two years, learning to be skillful hunters. Then they leave to establish their own territories, and mom looks for a suitable father to sire her next litter."
+      "text": "A tiger family consists of mom and the cubs–the father doesn't stick around after mating with the female. The cubs stay with their mother for about two years, learning to be skillful hunters. Then they leave to establish their own territories, and mom looks for a suitable father to sire her next litter.",
+      "narration": "assets/tigr/TIGR03NP.mp3"
     },
     {
       "id": "fierce-loners",
       "title": "Fierce loners",
       "image": "assets/tigr/TIGR04PU.webp",
-      "text": "Tigers live and hunt alone, except when a male and female briefly come together to mate, or when a female is raising her cubs. Each adult tiger controls a large territory—some males range over hundreds of square kilometers! Neighboring tigers often know each other and sometimes even share kills. But bloody fights can occur if a strange tiger suddenly shows up or if one tiger steals food from another."
+      "text": "Tigers live and hunt alone, except when a male and female briefly come together to mate, or when a female is raising her cubs. Each adult tiger controls a large territory—some males range over hundreds of square kilometers! Neighboring tigers often know each other and sometimes even share kills. But bloody fights can occur if a strange tiger suddenly shows up or if one tiger steals food from another.",
+      "narration": "assets/tigr/TIGR04NP.mp3"
     },
     {
       "id": "power-hunter",
@@ -83,13 +87,15 @@
           "label": "Long-distance leaps",
           "text": "Some reports say a tiger can cover 10 meters (32.8 ft) in a single bound! That means that if you were standing on one side of an average street and a tiger was on the other side, the tiger could be on your side (or on your back) with one giant leap!"
         }
-      ]
+      ],
+      "narration": "assets/tigr/TIGR05NP.mp3"
     },
     {
       "id": "born-blind-and-toothless",
       "title": "Born blind and toothless",
       "image": "assets/tigr/TIGR06PU.webp",
-      "text": "Just like kittens, tiger cubs are born blind and without teeth. They're tiny and helpless when they're little–but they don't stay that way for long! Cubs, also like domestic kittens, learn to hunt and fight through playing. At 11 months, they begin to accompany their mother on hunts. By the time they're two years old, they're skillful hunters and go on their own."
+      "text": "Just like kittens, tiger cubs are born blind and without teeth. They're tiny and helpless when they're little–but they don't stay that way for long! Cubs, also like domestic kittens, learn to hunt and fight through playing. At 11 months, they begin to accompany their mother on hunts. By the time they're two years old, they're skillful hunters and go on their own.",
+      "narration": "assets/tigr/TIGR06NP.mp3"
     }
   ],
   "classic": {
@@ -204,6 +210,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/tigr/narration.mp3",
+  "sound": "assets/tigr/TIGR00AF.mp3",
   "video": {
     "title": "Tiger territory",
     "src": "assets/tigr/clip.mp4",

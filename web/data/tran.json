@@ -60,7 +60,8 @@
           "label": "Bringing up baby",
           "text": "The spider is food for this tarantula hawk wasp's offspring–the mother wasp lives mostly on fruit juice and nectar."
         }
-      ]
+      ],
+      "narration": "assets/tran/TRAN01NP.mp3"
     },
     {
       "id": "big-and-hairy",
@@ -72,7 +73,8 @@
           "label": "Mistaken monster",
           "text": "Tarantulas really aren't dangerous to humans. They rarely bite people, and their venom usually causes less trouble than a bee sting. In fact, it's hard to even get a tarantula interested in biting you in the first place."
         }
-      ]
+      ],
+      "narration": "assets/tran/TRAN02NP.mp3"
     },
     {
       "id": "better-for-biting",
@@ -84,13 +86,15 @@
           "label": "Getting a grip",
           "text": "When a tarantula bites, it sinks its fangs into its prey and then pumps in venom from glands in its head."
         }
-      ]
+      ],
+      "narration": "assets/tran/TRAN03NP.mp3"
     },
     {
       "id": "big-spiders-big-meals",
       "title": "Big spiders, big meals",
       "image": "assets/tran/TRAN04PU.webp",
-      "text": "Most spiders eat insects. Tarantulas do, too, but it takes a lot of insects to satisfy a really big spider. One South American tarantula has a leg span of nearly 25 centimeters (almost 10 in) across! Spiders that big can pounce on prey as big as baby birds, mice, lizards, and giant centipedes."
+      "text": "Most spiders eat insects. Tarantulas do, too, but it takes a lot of insects to satisfy a really big spider. One South American tarantula has a leg span of nearly 25 centimeters (almost 10 in) across! Spiders that big can pounce on prey as big as baby birds, mice, lizards, and giant centipedes.",
+      "narration": "assets/tran/TRAN04NP.mp3"
     },
     {
       "id": "hunting-spiders",
@@ -106,7 +110,8 @@
           "label": "Raft spider",
           "text": "This spider can walk on water! It sometimes munches on a minnow or tadpole that comes to the surface to investigate."
         }
-      ]
+      ],
+      "narration": "assets/tran/TRAN05NP.mp3"
     }
   ],
   "classic": {
@@ -217,6 +222,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/tran/narration.mp3",
+  "sound": "assets/tran/TRAN00AF.mp3",
   "video": {
     "title": "Birds for breakfast",
     "src": "assets/tran/clip.mp4",

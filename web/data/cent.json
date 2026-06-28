@@ -64,13 +64,15 @@
           "label": "Tiger centipede",
           "text": "At over 22 centimeters (9 in) long, this Central American centipede can eat toads, tiny snakes, and mice."
         }
-      ]
+      ],
+      "narration": "assets/cent/CENT01NP.mp3"
     },
     {
       "id": "lots-of-legs",
       "title": "Lots of legs",
       "image": "assets/cent/CENT02PU.webp",
-      "text": "Just because an animal has lots of legs doesn't mean that it's a centipede. This creature is a king ragworm, a type of segmented worm that lives in saltwater. The fringe-like appendages at its sides are not true legs—the worm paddles with them and even breathes through them!"
+      "text": "Just because an animal has lots of legs doesn't mean that it's a centipede. This creature is a king ragworm, a type of segmented worm that lives in saltwater. The fringe-like appendages at its sides are not true legs—the worm paddles with them and even breathes through them!",
+      "narration": "assets/cent/CENT02NP.mp3"
     },
     {
       "id": "moonlight-marauder",
@@ -90,7 +92,8 @@
           "label": "Scorpion",
           "text": "The scorpion is another nocturnal predator that can poison its prey."
         }
-      ]
+      ],
+      "narration": "assets/cent/CENT03NP.mp3"
     },
     {
       "id": "hands-off",
@@ -110,13 +113,15 @@
           "label": "Tiger centipede",
           "text": "This creature's bite is something like a hornet's sting—painful but not deadly."
         }
-      ]
+      ],
+      "narration": "assets/cent/CENT04NP.mp3"
     },
     {
       "id": "warning-stripes",
       "title": "Warning stripes",
       "image": "assets/cent/CENT05PU.webp",
-      "text": "In the animal world, colorful stripes usually mean \"Don't mess with me! I'm dangerous!\" The pattern on the tiger centipede is one example of this message. Here are a few more creatures that send this signal."
+      "text": "In the animal world, colorful stripes usually mean \"Don't mess with me! I'm dangerous!\" The pattern on the tiger centipede is one example of this message. Here are a few more creatures that send this signal.",
+      "narration": "assets/cent/CENT05NP.mp3"
     },
     {
       "id": "rain-forest-creepy-crawler",
@@ -128,7 +133,8 @@
           "label": "Passion-vine butterfly",
           "text": "Even after the caterpillar changes into a butterfly, it's still poisonous. Many animals, like this insect, wear bright colors to warn predators that they're dangerous to eat."
         }
-      ]
+      ],
+      "narration": "assets/cent/CENT06NP.mp3"
     }
   ],
   "classic": {
@@ -243,6 +249,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/cent/narration.mp3",
+  "sound": "assets/cent/CENT00AF.mp3",
   "video": {
     "title": "Millipede or centipede?",
     "src": "assets/cent/clip.mp4",

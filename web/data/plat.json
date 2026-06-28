@@ -61,7 +61,8 @@
           "label": "Platypus skeleton",
           "text": "The bones in a platypus's feet are similar to those of a seal, which makes sense–both animals use their feet for swimming, not walking."
         }
-      ]
+      ],
+      "narration": "assets/plat/PLAT01NP.mp3"
     },
     {
       "id": "ducklike-feet-and-bills",
@@ -77,13 +78,15 @@
           "label": "Goose foot",
           "text": "Although both geese and platypuses have webbed feet, a platypus's feet are really more similar to that of another mammal, a seal."
         }
-      ]
+      ],
+      "narration": "assets/plat/PLAT02NP.mp3"
     },
     {
       "id": "platypus-life",
       "title": "Platypus life",
       "image": "assets/plat/PLAT03PU.webp",
-      "text": "On land, a platypus relies on its sight and hearing to find out about its environment. Underwater, its eyes and ears are protected under flaps of skin, so while swimming the platypus relies almost exclusively on its sense of touch. Its rubbery bill is especially sensitive, and the platypus uses it to find the crustaceans, worms, and fish it eats."
+      "text": "On land, a platypus relies on its sight and hearing to find out about its environment. Underwater, its eyes and ears are protected under flaps of skin, so while swimming the platypus relies almost exclusively on its sense of touch. Its rubbery bill is especially sensitive, and the platypus uses it to find the crustaceans, worms, and fish it eats.",
+      "narration": "assets/plat/PLAT03NP.mp3"
     },
     {
       "id": "prickly-relative",
@@ -99,7 +102,8 @@
           "label": "Echidna",
           "text": "These odd creatures live in Australia and New Guinea. Like a platypus, an echidna is an egg-laying mammal. A single egg is deposited into a pouch on the mother's belly. There the baby develops until it's ready to go into the outside world."
         }
-      ]
+      ],
+      "narration": "assets/plat/PLAT04NP.mp3"
     },
     {
       "id": "cute-but-not-cuddly",
@@ -111,7 +115,8 @@
           "label": "Venomous spurs",
           "text": "The venom that male platypuses can inject through their spurs is strong enough to kill small animals. It can also cause temporary partial paralysis in a human."
         }
-      ]
+      ],
+      "narration": "assets/plat/PLAT05NP.mp3"
     },
     {
       "id": "odd-neighbors",
@@ -131,7 +136,8 @@
           "label": "Successful immigrant",
           "text": "The cane toad, also known as the giant marine toad, was imported into Australia. It's now devouring a lot of the native wildlife."
         }
-      ]
+      ],
+      "narration": "assets/plat/PLAT06NP.mp3"
     }
   ],
   "classic": {
@@ -246,6 +252,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/plat/narration.mp3",
+  "sound": "assets/plat/PLAT00AF.mp3",
   "video": {
     "title": "Not a pet",
     "src": "assets/plat/clip.mp4",

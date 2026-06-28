@@ -65,7 +65,8 @@
           "label": "Piranha",
           "text": "A piranha's razor-sharp, triangular teeth allow it to dart in and neatly clip off a mouthful of prey."
         }
-      ]
+      ],
+      "narration": "assets/bara/BARA01NP.mp3"
     },
     {
       "id": "dangerous-dish",
@@ -85,7 +86,8 @@
           "label": "Hammerhead shark",
           "text": "The liver is the most poisonous part of the hammerhead."
         }
-      ]
+      ],
+      "narration": "assets/bara/BARA02NP.mp3"
     },
     {
       "id": "diver-danger",
@@ -105,13 +107,15 @@
           "label": "Yikes!",
           "text": "The rush of a great white shark is a diver's worst nightmare. Fortunately, these sharks rarely attack people."
         }
-      ]
+      ],
+      "narration": "assets/bara/BARA03NP.mp3"
     },
     {
       "id": "too-close",
       "title": "Too close!",
       "image": "assets/bara/BARA04PU.webp",
-      "text": "If a barracuda followed you home, you wouldn't want to keep it! These fish have been known to trail divers like curious puppies. They seem to be attracted to flopping movements, like those made by a diver's body or an injured fish. So if you meet a barracuda, hold still. You can't outswim the animal, but once it realizes you're not food, it's likely to go away."
+      "text": "If a barracuda followed you home, you wouldn't want to keep it! These fish have been known to trail divers like curious puppies. They seem to be attracted to flopping movements, like those made by a diver's body or an injured fish. So if you meet a barracuda, hold still. You can't outswim the animal, but once it realizes you're not food, it's likely to go away.",
+      "narration": "assets/bara/BARA04NP.mp3"
     }
   ],
   "classic": {
@@ -202,6 +206,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/bara/narration.mp3",
+  "sound": "assets/bara/BARA00AF.mp3",
   "video": {
     "title": "Band of barracudas",
     "src": "assets/bara/clip.mp4",

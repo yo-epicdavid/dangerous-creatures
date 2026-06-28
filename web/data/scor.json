@@ -57,7 +57,8 @@
           "label": "Ready, set, sting!",
           "text": "When a scorpion contracts muscles at the end of its tail, this moves the stinger into position and forces venom into the hollow shaft."
         }
-      ]
+      ],
+      "narration": "assets/scor/SCOR01NP.mp3"
     },
     {
       "id": "special-weapons",
@@ -73,7 +74,8 @@
           "label": "Scissor jaws",
           "text": "A scorpion uses its scissorlike jaws–called chelicera–to cut up its prey. Next, the scorpion spits its salivary juices into the wounds, which partially digests the victim. Finally, it sucks the liquids through its small mouth."
         }
-      ]
+      ],
+      "narration": "assets/scor/SCOR02NP.mp3"
     },
     {
       "id": "midnight-snack",
@@ -85,13 +87,15 @@
           "label": "Arachnid vs. arachnid",
           "text": "Spiders such as this Mexican tarantula are common scorpion prey. Both tarantulas and scorpions are nighttime hunters, and both belong to the arachnida class of animals."
         }
-      ]
+      ],
+      "narration": "assets/scor/SCOR03NP.mp3"
     },
     {
       "id": "may-i-have-this-dance",
       "title": "May I have this dance?",
       "image": "assets/scor/SCOR04PU.webp",
-      "text": "Before mating, male and female scorpions stand opposite each other, and the male grasps the female's pincers in his own. After walking around in this position for a while, the male deposits a packet of sperm onto the ground, which the female then takes into her body. After the female's eggs hatch, she'll carry the babies on her back until they're big enough to fend for themselves."
+      "text": "Before mating, male and female scorpions stand opposite each other, and the male grasps the female's pincers in his own. After walking around in this position for a while, the male deposits a packet of sperm onto the ground, which the female then takes into her body. After the female's eggs hatch, she'll carry the babies on her back until they're big enough to fend for themselves.",
+      "narration": "assets/scor/SCOR04NP.mp3"
     }
   ],
   "classic": {
@@ -190,6 +194,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/scor/narration.mp3",
+  "sound": "assets/scor/SCOR00AF.mp3",
   "video": {
     "title": "Desert duel",
     "src": "assets/scor/clip.mp4",

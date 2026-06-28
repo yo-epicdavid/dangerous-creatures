@@ -51,19 +51,22 @@
       "id": "shocking-habits",
       "title": "Shocking habits",
       "image": "assets/eeel/EEEL01PU.webp",
-      "text": "The electric eel's body contains several types of organs that generate electricity. The creature's main electric organ can discharge a 550-volt blast, stunning its prey or leaving an enemy with unpleasant memories. Another organ works like radar—it searches the fish's muddy habitat for prey, predators, and objects the animal might bump into."
+      "text": "The electric eel's body contains several types of organs that generate electricity. The creature's main electric organ can discharge a 550-volt blast, stunning its prey or leaving an enemy with unpleasant memories. Another organ works like radar—it searches the fish's muddy habitat for prey, predators, and objects the animal might bump into.",
+      "narration": "assets/eeel/EEEL01NP.mp3"
     },
     {
       "id": "electric-ray",
       "title": "Electric ray",
       "image": "assets/eeel/EEEL02PU.webp",
-      "text": "The electric ray, also called the Atlantic torpedo, can produce 200 volts of electricity. This odd-looking animal uses its voltage to stun the small fish and shellfish that it eats. Rays are related to sharks—they are cartilaginous fish, which means that they have no bones, but a skeleton made of cartilage, a tough but flexible material."
+      "text": "The electric ray, also called the Atlantic torpedo, can produce 200 volts of electricity. This odd-looking animal uses its voltage to stun the small fish and shellfish that it eats. Rays are related to sharks—they are cartilaginous fish, which means that they have no bones, but a skeleton made of cartilage, a tough but flexible material.",
+      "narration": "assets/eeel/EEEL02NP.mp3"
     },
     {
       "id": "high-voltage-catfish",
       "title": "High-voltage catfish",
       "image": "assets/eeel/EEEL03PU.webp",
-      "text": "This electric catfish, which lives in African rivers, is capable of stunning nearby animals with strong electric shocks. Catfish get their name from the long, whiskerlike projections on their faces, called \"barbels.\""
+      "text": "This electric catfish, which lives in African rivers, is capable of stunning nearby animals with strong electric shocks. Catfish get their name from the long, whiskerlike projections on their faces, called \"barbels.\"",
+      "narration": "assets/eeel/EEEL03NP.mp3"
     },
     {
       "id": "incredible-journey",
@@ -75,7 +78,8 @@
           "label": "European eel",
           "text": "This eel sometimes crawls over land on its journeys between fresh water and salt water. Unlike the electric eel, which is really a strange-looking carp, this is a true eel."
         }
-      ]
+      ],
+      "narration": "assets/eeel/EEEL04NP.mp3"
     },
     {
       "id": "eel-assortment",
@@ -99,7 +103,8 @@
           "label": "Conger eel",
           "text": "This eel's sharp teeth point backward, so anything it catches has little chance of escape."
         }
-      ]
+      ],
+      "narration": "assets/eeel/EEEL05NP.mp3"
     }
   ],
   "classic": {
@@ -202,6 +207,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/eeel/narration.mp3",
+  "sound": "assets/eeel/EEEL00AF.mp3",
   "video": {
     "title": "Weird fish",
     "src": "assets/eeel/clip.mp4",

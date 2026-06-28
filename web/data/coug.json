@@ -53,13 +53,15 @@
       "id": "spotted-babies",
       "title": "Spotted babies",
       "image": "assets/coug/COUG01PU.webp",
-      "text": "Cougar cubs are born with spots. These help the babies blend in better with their surroundings so that predators can't find them. The spots on this cub will fade as it grows, and the size of its body will also catch up with these ears!"
+      "text": "Cougar cubs are born with spots. These help the babies blend in better with their surroundings so that predators can't find them. The spots on this cub will fade as it grows, and the size of its body will also catch up with these ears!",
+      "narration": "assets/coug/COUG01NP.mp3"
     },
     {
       "id": "snow-cat",
       "title": "Snow cat",
       "image": "assets/coug/COUG02PU.webp",
-      "text": "Pioneers in North America found cougars in swamps, forests, grasslands, and deserts. But people have driven them out of most places. These days, you're most likely to see a cougar only in remote locations, such as in the high country of a national park."
+      "text": "Pioneers in North America found cougars in swamps, forests, grasslands, and deserts. But people have driven them out of most places. These days, you're most likely to see a cougar only in remote locations, such as in the high country of a national park.",
+      "narration": "assets/coug/COUG02NP.mp3"
     },
     {
       "id": "wildcat",
@@ -75,7 +77,8 @@
           "label": "Favorite food",
           "text": "Rabbits like this black-tailed jackrabbit are one of the bobcat's favorite foods."
         }
-      ]
+      ],
+      "narration": "assets/coug/COUG03NP.mp3"
     },
     {
       "id": "northern-neighbor",
@@ -91,7 +94,8 @@
           "label": "Snacking on snowshoes",
           "text": "Like the lynx, a snowshoe hare can run on the snow. And snowshoe hares frequently need to run fast, because they are always on a lynx's menu."
         }
-      ]
+      ],
+      "narration": "assets/coug/COUG04NP.mp3"
     },
     {
       "id": "southern-cousins",
@@ -107,7 +111,8 @@
           "label": "Geoffroy's cat",
           "text": "This small cat lives in South America, where it spends a lot of time in the trees. Sadly, it's frequently killed for its beautiful fur."
         }
-      ]
+      ],
+      "narration": "assets/coug/COUG05NP.mp3"
     }
   ],
   "classic": {
@@ -210,6 +215,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/coug/narration.mp3",
+  "sound": "assets/coug/COUG00AF.mp3",
   "video": {
     "title": "Leaping for a living",
     "src": "assets/coug/clip.mp4",

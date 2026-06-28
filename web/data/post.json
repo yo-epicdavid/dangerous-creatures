@@ -66,7 +66,8 @@
           "label": "Passion-vine caterpillar",
           "text": "(also called Postman or Heliconia caterpillar)"
         }
-      ]
+      ],
+      "narration": "assets/post/POST01NP.mp3"
     },
     {
       "id": "bright-butterflies",
@@ -82,7 +83,8 @@
           "label": "Proboscis",
           "text": "Proboscis"
         }
-      ]
+      ],
+      "narration": "assets/post/POST02NP.mp3"
     },
     {
       "id": "uncuddly-cousin",
@@ -94,7 +96,8 @@
           "label": "The fuzz comes later",
           "text": "The caterpillar gets its name from the soft gray fur, like the fuzz on a pussy willow, that will cover its body when it becomes a moth."
         }
-      ]
+      ],
+      "narration": "assets/post/POST03NP.mp3"
     },
     {
       "id": "tropical-creepers",
@@ -110,7 +113,8 @@
           "label": "Reluctant giant",
           "text": "This big curly-haired tarantula isn't as aggressive as the centipede and prefers avoiding predators to fighting them."
         }
-      ]
+      ],
+      "narration": "assets/post/POST04NP.mp3"
     },
     {
       "id": "variety-is-the-spice-of-life",
@@ -142,7 +146,8 @@
           "label": "Heliconius melpomene, southern Brazil",
           "text": "Heliconius melpomene from southern Brazil"
         }
-      ]
+      ],
+      "narration": "assets/post/POST05NP.mp3"
     },
     {
       "id": "about-butterflies",
@@ -170,7 +175,8 @@
           "label": "Internal anatomy of a female butterfly",
           "text": "Internal anatomy of a female butterfly"
         }
-      ]
+      ],
+      "narration": "assets/post/POST06NP.mp3"
     },
     {
       "id": "fearsome-flowers",
@@ -186,7 +192,8 @@
           "label": "Praying mantis in orchids",
           "text": "Praying mantis in orchids"
         }
-      ]
+      ],
+      "narration": "assets/post/POST07NP.mp3"
     },
     {
       "id": "spiny-advantages",
@@ -206,7 +213,8 @@
           "label": "Lionfish",
           "text": "Lionfish"
         }
-      ]
+      ],
+      "narration": "assets/post/POST08NP.mp3"
     }
   ],
   "classic": {
@@ -345,6 +353,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/post/narration.mp3",
+  "sound": "assets/post/POST00AF.mp3",
   "video": {
     "title": "Caterpillar defense",
     "src": "assets/post/clip.mp4",

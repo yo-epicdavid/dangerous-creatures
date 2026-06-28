@@ -64,7 +64,8 @@
           "label": "Great big hug",
           "text": "A constrictor grabs its prey with its teeth and throws a loop of its body around it. The snake doesn't squash its prey–it applies just enough pressure to keep the animal from breathing. Every time the prey exhales, the snake tightens its coils a little. Soon the victim can't expand its ribs and lungs enough to breathe, and it suffocates."
         }
-      ]
+      ],
+      "narration": "assets/pyth/PYTH01NP.mp3"
     },
     {
       "id": "inside-story",
@@ -76,7 +77,8 @@
           "label": "Python skeleton",
           "text": "A snake is mostly backbone. Humans have only 33 vertebrae, but a big snake like this can have 400!"
         }
-      ]
+      ],
+      "narration": "assets/pyth/PYTH02NP.mp3"
     },
     {
       "id": "jaws-of-death",
@@ -88,7 +90,8 @@
           "label": "Open wide",
           "text": "A snake's lower jaw can swing way down. The two sides of the lower jaw can also be stretched sideways, because the two halves are connected by a flexible ligament like a rubber band."
         }
-      ]
+      ],
+      "narration": "assets/pyth/PYTH03NP.mp3"
     },
     {
       "id": "egg-cetera",
@@ -104,7 +107,8 @@
           "label": "...Here I come!",
           "text": "When the baby finally leaves the shell, it makes its move quickly. An amazing amount of snake was tucked into that little egg!"
         }
-      ]
+      ],
+      "narration": "assets/pyth/PYTH04NP.mp3"
     },
     {
       "id": "one-of-the-biggest",
@@ -120,7 +124,8 @@
           "label": "Reticulated python from Asia",
           "text": "This is the largest snake in the Eastern hemisphere–it can grow to be over 9 meters (30 ft) long!"
         }
-      ]
+      ],
+      "narration": "assets/pyth/PYTH05NP.mp3"
     },
     {
       "id": "super-senses",
@@ -132,7 +137,8 @@
           "label": "It's on the tip of my tongue...",
           "text": "All snakes and some lizards use their forked tongues to pick up chemical particles from their surroundings. The particles are transferred from the tongue-tip to a structure called Jacobson's organ, which partly \"smells\" and partly \"tastes\" them."
         }
-      ]
+      ],
+      "narration": "assets/pyth/PYTH06NP.mp3"
     },
     {
       "id": "coat-of-many-colors",
@@ -144,7 +150,8 @@
           "label": "Adult green tree python",
           "text": "Adult green tree pythons can measure up to 2 meters (7 ft) long."
         }
-      ]
+      ],
+      "narration": "assets/pyth/PYTH07NP.mp3"
     }
   ],
   "classic": {
@@ -271,6 +278,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/pyth/narration.mp3",
+  "sound": "assets/pyth/PYTH00AF.mp3",
   "video": {
     "title": "Too full to move!",
     "src": "assets/pyth/clip.mp4",

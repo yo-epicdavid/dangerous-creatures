@@ -64,7 +64,8 @@
           "label": "Spectacled caiman",
           "text": "The eyes of crocodilians like this caiman are high on the head so that the animal can see above the water level while the rest of its body is submerged."
         }
-      ]
+      ],
+      "narration": "assets/croc/CROC01NP.mp3"
     },
     {
       "id": "skinny-snouted-kin",
@@ -76,7 +77,8 @@
           "label": "Gavial skull",
           "text": "The gavial's interlocking teeth are perfect for grasping slippery fish."
         }
-      ]
+      ],
+      "narration": "assets/croc/CROC02NP.mp3"
     },
     {
       "id": "where-in-the-world",
@@ -100,25 +102,29 @@
           "label": "Crocodile range",
           "text": "More than ten species of crocs live throughout Africa, Asia, and Australia. American crocodiles are native to the U.S., but they're rare these days."
         }
-      ]
+      ],
+      "narration": "assets/croc/CROC03NP.mp3"
     },
     {
       "id": "under-the-skin",
       "title": "Under the skin",
       "image": "assets/croc/CROC04PU.webp",
-      "text": "The skin and skeletons of crocodilians reflect their watery life. Their skin is tough and waterproof. Their eye sockets and nostrils are set way up on their heads so that they can float with just their nose and eyes above the water. Their legs are short, so they don't move very fast on land. They're set up perfectly for swimming, though, powering through the water with S-shaped sweeps of the tail."
+      "text": "The skin and skeletons of crocodilians reflect their watery life. Their skin is tough and waterproof. Their eye sockets and nostrils are set way up on their heads so that they can float with just their nose and eyes above the water. Their legs are short, so they don't move very fast on land. They're set up perfectly for swimming, though, powering through the water with S-shaped sweeps of the tail.",
+      "narration": "assets/croc/CROC04NP.mp3"
     },
     {
       "id": "titanic-terror",
       "title": "Titanic terror",
       "image": "assets/croc/CROC05PU.webp",
-      "text": "If you're swimming in salt water in Southeast Asia or northern Australia and see a tree floating toward you, you'd better look again. It could be an estuarine (or saltwater) crocodile. The largest living reptile, it can reach up to 7 meters (23 ft) in length! Unlike some other behemoths such as the whale shark, it's not a gentle giant. It's one of the few animals that truly is sometimes a \"man-eater.\""
+      "text": "If you're swimming in salt water in Southeast Asia or northern Australia and see a tree floating toward you, you'd better look again. It could be an estuarine (or saltwater) crocodile. The largest living reptile, it can reach up to 7 meters (23 ft) in length! Unlike some other behemoths such as the whale shark, it's not a gentle giant. It's one of the few animals that truly is sometimes a \"man-eater.\"",
+      "narration": "assets/croc/CROC05NP.mp3"
     },
     {
       "id": "crocodile-ranch",
       "title": "Crocodile ranch",
       "image": "assets/croc/CROC06PU.webp",
-      "text": "For centuries, crocodiles and alligators were hunted for their skins and sometimes for their meat. It's now illegal in many places to kill these reptiles, so people who still want crocodilian skins are starting to raise these creatures in captivity, as on this crocodile \"ranch.\""
+      "text": "For centuries, crocodiles and alligators were hunted for their skins and sometimes for their meat. It's now illegal in many places to kill these reptiles, so people who still want crocodilian skins are starting to raise these creatures in captivity, as on this crocodile \"ranch.\"",
+      "narration": "assets/croc/CROC06NP.mp3"
     },
     {
       "id": "gulp",
@@ -130,7 +136,8 @@
           "label": "More common food",
           "text": "Zebras and wildebeests (also called gnus) are common meals for African crocodiles, who attack these herbivores when they come to drink."
         }
-      ]
+      ],
+      "narration": "assets/croc/CROC07NP.mp3"
     }
   ],
   "classic": {
@@ -257,6 +264,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/croc/narration.mp3",
+  "sound": "assets/croc/CROC00AF.mp3",
   "video": {
     "title": "Gentle jaws?",
     "src": "assets/croc/clip.mp4",

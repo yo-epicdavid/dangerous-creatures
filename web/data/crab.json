@@ -58,7 +58,8 @@
           "label": "Catching crabs",
           "text": "People like to eat piecrust crabs. But, if they eat too many, this crab won't be around much longer!"
         }
-      ]
+      ],
+      "narration": "assets/crab/CRAB01NP.mp3"
     },
     {
       "id": "bullies-on-the-block",
@@ -70,13 +71,15 @@
           "label": "Not a soft touch",
           "text": "Velvet crabs get their name from the velvety hair on their backs. But watch out for the sharp pincers and strong mouth-parts on their fronts!"
         }
-      ]
+      ],
+      "narration": "assets/crab/CRAB02NP.mp3"
     },
     {
       "id": "freeloader",
       "title": "Freeloader",
       "image": "assets/crab/CRAB03PU.webp",
-      "text": "If you live in a borrowed shell like this hermit crab does, there are always other creatures that want to move in with you or hitch a free ride. In this case, a ragworm is sharing this crab's shell and has crawled out to get a bite of the crab's fish."
+      "text": "If you live in a borrowed shell like this hermit crab does, there are always other creatures that want to move in with you or hitch a free ride. In this case, a ragworm is sharing this crab's shell and has crawled out to get a bite of the crab's fish.",
+      "narration": "assets/crab/CRAB03NP.mp3"
     },
     {
       "id": "worms-with-legs",
@@ -88,13 +91,15 @@
           "label": "Wonder worm",
           "text": "Some king ragworms grow up to nearly a meter (more than 3 ft) long, although they can contract to a much shorter size when threatened."
         }
-      ]
+      ],
+      "narration": "assets/crab/CRAB04NP.mp3"
     },
     {
       "id": "shell-game",
       "title": "Shell game",
       "image": "assets/crab/CRAB05PU.webp",
-      "text": "Unlike other crabs, a hermit crab has a soft body, so it borrows a hard covering–usually another sea creature's discarded shell–to protect itself from predators. Ideally, the shell must be large enough for the crab to hide inside but small enough for it to carry around. It's not always easy to find just the right shell at the right time!"
+      "text": "Unlike other crabs, a hermit crab has a soft body, so it borrows a hard covering–usually another sea creature's discarded shell–to protect itself from predators. Ideally, the shell must be large enough for the crab to hide inside but small enough for it to carry around. It's not always easy to find just the right shell at the right time!",
+      "narration": "assets/crab/CRAB05NP.mp3"
     },
     {
       "id": "fiddling-or-fighting",
@@ -106,13 +111,15 @@
           "label": "Battle for territory",
           "text": "Each male crab controls its own territory, fighting off intruding crabs with its big 'fiddling' claw when necessary."
         }
-      ]
+      ],
+      "narration": "assets/crab/CRAB06NP.mp3"
     },
     {
       "id": "only-if-its-clean",
       "title": "Only if it's clean",
       "image": "assets/crab/CRAB07PU.webp",
-      "text": "Crayfish, which are related to crabs and lobsters, live in freshwater areas like rivers and lakes. Like their crab cousins, they have sharp pincers that they use to catch food and defend themselves. Crayfish can live only in clean environments, so if you're turning over rocks and end up with a crayfish pinching your finger, at least you know that the water is not terribly polluted!"
+      "text": "Crayfish, which are related to crabs and lobsters, live in freshwater areas like rivers and lakes. Like their crab cousins, they have sharp pincers that they use to catch food and defend themselves. Crayfish can live only in clean environments, so if you're turning over rocks and end up with a crayfish pinching your finger, at least you know that the water is not terribly polluted!",
+      "narration": "assets/crab/CRAB07NP.mp3"
     }
   ],
   "classic": {
@@ -239,6 +246,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/crab/narration.mp3",
+  "sound": "assets/crab/CRAB00AF.mp3",
   "video": {
     "title": "Crazy crustaceans",
     "src": "assets/crab/clip.mp4",

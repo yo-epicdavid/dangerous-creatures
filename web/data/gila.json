@@ -62,7 +62,8 @@
           "label": "Mangrove snake",
           "text": "The venom of this wasp-colored reptile isn't strong enough to kill humans, but it's deadly to the birds that the snake hunts."
         }
-      ]
+      ],
+      "narration": "assets/gila/GILA01NP.mp3"
     },
     {
       "id": "groovy-teeth",
@@ -74,7 +75,8 @@
           "label": "Mouth wash",
           "text": "Gila monsters don't inject venom—they chew it into their victims with their notched teeth. The poisoned saliva is produced by glands in the lower jaw. It flows along a fold inside the mouth until it reaches the teeth, which have channels to collect and direct it. Drop for drop, this venom, which attacks the nervous system, is more powerful than a rattlesnake's."
         }
-      ]
+      ],
+      "narration": "assets/gila/GILA02NP.mp3"
     },
     {
       "id": "rough-neighborhood",
@@ -94,7 +96,8 @@
           "label": "Anyone want to arm wrestle?",
           "text": "Scorpions are well-equipped killing machines. They use their clawed front legs, called pedipalps, for grasping food. Then their strong, jointed jaws tear it into pieces and crush it to a pulp. If the prey struggles, the scorpion might paralyze it with a sting."
         }
-      ]
+      ],
+      "narration": "assets/gila/GILA03NP.mp3"
     },
     {
       "id": "life-in-a-frying-pan",
@@ -106,7 +109,8 @@
           "label": "Water spout",
           "text": "The spikes of the thorny devil, or moloch, are arranged so that they form grooves. When dew or rain collects on the animal, the water flows through the grooves toward its mouth—a pretty handy feature to have in a desert!"
         }
-      ]
+      ],
+      "narration": "assets/gila/GILA04NP.mp3"
     },
     {
       "id": "sand-swimmer",
@@ -118,13 +122,15 @@
           "label": "Sandfish",
           "text": "Only its underside moves in and out when the sandfish breathes. If its sides moved, sand would fill the gaps when the lizard exhaled and leave too little room for the lizard to inhale."
         }
-      ]
+      ],
+      "narration": "assets/gila/GILA05NP.mp3"
     },
     {
       "id": "only-one-other",
       "title": "Only one other",
       "image": "assets/gila/GILA06PU.webp",
-      "text": "You shouldn't sit up nights worrying about meeting venomous lizards. There are only two: the Gila monster, and the beaded lizard, which you'll find in wooded areas of western Mexico. Like Gila monsters, beaded lizards are slow and prefer hiding to fighting."
+      "text": "You shouldn't sit up nights worrying about meeting venomous lizards. There are only two: the Gila monster, and the beaded lizard, which you'll find in wooded areas of western Mexico. Like Gila monsters, beaded lizards are slow and prefer hiding to fighting.",
+      "narration": "assets/gila/GILA06NP.mp3"
     }
   ],
   "classic": {
@@ -239,6 +245,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/gila/narration.mp3",
+  "sound": "assets/gila/GILA00AF.mp3",
   "video": {
     "title": "What's for dinner?",
     "src": "assets/gila/clip.mp4",

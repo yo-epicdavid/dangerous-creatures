@@ -62,7 +62,8 @@
           "label": "Fierce fake",
           "text": "If you disturb this Madagascan hog-nosed snake, it pretends to be a cobra, flattening its neck and hissing like mad. But it almost never bites."
         }
-      ]
+      ],
+      "narration": "assets/mang/MANG01NP.mp3"
     },
     {
       "id": "salt-swamp",
@@ -82,13 +83,15 @@
           "label": "Fishy cat",
           "text": "A mangrove swamp makes a \"purrfect\" tiger home. Tigers are fine swimmers, and they don't mind living on turtles and fish when other food is scarce."
         }
-      ]
+      ],
+      "narration": "assets/mang/MANG02NP.mp3"
     },
     {
       "id": "tree-snakes",
       "title": "Tree snakes",
       "image": "assets/mang/MANG03PU.webp",
-      "text": "Many arboreal snakes (like these) look a lot like their surroundings. Better look twice before you grab that branch or vine. It just might be ready to crawl away!"
+      "text": "Many arboreal snakes (like these) look a lot like their surroundings. Better look twice before you grab that branch or vine. It just might be ready to crawl away!",
+      "narration": "assets/mang/MANG03NP.mp3"
     },
     {
       "id": "odd-neighbors",
@@ -108,7 +111,8 @@
           "label": "Malayan tapir",
           "text": "These rhino relatives use their flexible noses to pluck tasty plants."
         }
-      ]
+      ],
+      "narration": "assets/mang/MANG04NP.mp3"
     },
     {
       "id": "snake-or-fake",
@@ -124,7 +128,8 @@
           "label": "A shattering tale",
           "text": "Like a snake, this little beast has no front legs, although it does have tiny back legs. But unlike a snake, it has eyelids. It also has the special ability that many lizards have to break off its tail when it needs to–which is why it's called a glass lizard."
         }
-      ]
+      ],
+      "narration": "assets/mang/MANG05NP.mp3"
     }
   ],
   "classic": {
@@ -227,6 +232,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/mang/narration.mp3",
+  "sound": "assets/mang/MANG00AF.mp3",
   "video": {
     "title": "Vicious vine",
     "src": "assets/mang/clip.mp4",

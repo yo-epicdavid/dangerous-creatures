@@ -57,7 +57,8 @@
           "label": "Breathing underwater",
           "text": "Sharks have gills instead of lungs. To breathe, they first close their gills and open their mouths to let water in. Then they close their mouths to force water out through their gill slits. Blood vessels in the gills absorb oxygen from the passing water."
         }
-      ]
+      ],
+      "narration": "assets/gwsh/GWSH01NP.mp3"
     },
     {
       "id": "jaws",
@@ -73,19 +74,22 @@
           "label": "Tooth comparison",
           "text": "With its sharp point and jagged edges, a tiger shark's tooth is clearly intended to cut through flesh. Humans have different teeth for different purposes. A human molar, for example, is designed not to cut but to crush and chew."
         }
-      ]
+      ],
+      "narration": "assets/gwsh/GWSH02NP.mp3"
     },
     {
       "id": "putting-people-in-a-cage",
       "title": "Putting people in a cage",
       "image": "assets/gwsh/GWSH03PU.webp",
-      "text": "It's never a good idea to swim freely with a bunch of sharks, so divers who want to learn about sharks get into metal cages. That way, the humans are protected, and both sharks and people can come close and get a good look at each other."
+      "text": "It's never a good idea to swim freely with a bunch of sharks, so divers who want to learn about sharks get into metal cages. That way, the humans are protected, and both sharks and people can come close and get a good look at each other.",
+      "narration": "assets/gwsh/GWSH03NP.mp3"
     },
     {
       "id": "body-armor",
       "title": "Body armor",
       "image": "assets/gwsh/GWSH04PU.webp",
-      "text": "Scientists who dive with sharks have discovered that wearing a suit made out of lightweight chain mail can protect somewhat against shark bites. But even though the shark's teeth can't pierce the chain mail, the diver can still get nasty bruises and even broken bones. According to some tests, a shark's jaws can exert up to 300 times more pressure than a human's can!"
+      "text": "Scientists who dive with sharks have discovered that wearing a suit made out of lightweight chain mail can protect somewhat against shark bites. But even though the shark's teeth can't pierce the chain mail, the diver can still get nasty bruises and even broken bones. According to some tests, a shark's jaws can exert up to 300 times more pressure than a human's can!",
+      "narration": "assets/gwsh/GWSH04NP.mp3"
     },
     {
       "id": "whos-eating-whom",
@@ -105,7 +109,8 @@
           "label": "Shark liver oil pills",
           "text": "Some people believe that shark liver oil can cure all kinds of diseases."
         }
-      ]
+      ],
+      "narration": "assets/gwsh/GWSH05NP.mp3"
     }
   ],
   "classic": {
@@ -208,6 +213,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/gwsh/narration.mp3",
+  "sound": "assets/gwsh/GWSH00AF.mp3",
   "video": {
     "title": "From the dawn of time",
     "src": "assets/gwsh/clip.mp4",

@@ -64,7 +64,8 @@
           "label": "Underside of female",
           "text": "Five gill slits on each, Nostrils, Mouth"
         }
-      ]
+      ],
+      "narration": "assets/sray/SRAY01NP.mp3"
     },
     {
       "id": "shocking-facts",
@@ -76,7 +77,8 @@
           "label": "Electric field",
           "text": "Electric field"
         }
-      ]
+      ],
+      "narration": "assets/sray/SRAY02NP.mp3"
     },
     {
       "id": "blue-means-beware",
@@ -88,7 +90,8 @@
           "label": "Blue-spotted stingray",
           "text": "The blue-spotted stingray has a wingspan of 2 meters (6.5 ft)"
         }
-      ]
+      ],
+      "narration": "assets/sray/SRAY03NP.mp3"
     },
     {
       "id": "devilish-relative",
@@ -100,25 +103,29 @@
           "label": "Pacific manta ray",
           "text": "The biggest kind, the Pacific manta ray, can have a wingspan of over six meters (20 ft) and can weigh 1,600 kilograms (over 3,500 lbs)!"
         }
-      ]
+      ],
+      "narration": "assets/sray/SRAY04NP.mp3"
     },
     {
       "id": "up-close-and-personal",
       "title": "Up close and personal",
       "image": "assets/sray/SRAY05PU.webp",
-      "text": "Two-thirds of all skates and rays are no danger to people; they're mild creatures that eat only plankton, small fish, and shellfish. The remaining third—the stingrays—are a threat only if they're grabbed or stepped on. To prove this point, this diver is cautiously feeding stingrays."
+      "text": "Two-thirds of all skates and rays are no danger to people; they're mild creatures that eat only plankton, small fish, and shellfish. The remaining third—the stingrays—are a threat only if they're grabbed or stepped on. To prove this point, this diver is cautiously feeding stingrays.",
+      "narration": "assets/sray/SRAY05NP.mp3"
     },
     {
       "id": "unlucky-catch",
       "title": "Unlucky catch",
       "image": "assets/sray/SRAY06PU.webp",
-      "text": "Aside from sharks, a ray's biggest enemies are fishing crews. Not only do some people fish for rays, but rays also get caught and drown in nets set to catch other fish, or are killed by fishermen who then throw their bodies back into the sea. These unfortunate creatures end up as food for scavengers."
+      "text": "Aside from sharks, a ray's biggest enemies are fishing crews. Not only do some people fish for rays, but rays also get caught and drown in nets set to catch other fish, or are killed by fishermen who then throw their bodies back into the sea. These unfortunate creatures end up as food for scavengers.",
+      "narration": "assets/sray/SRAY06NP.mp3"
     },
     {
       "id": "chainsaw-cousin",
       "title": "Chainsaw cousin",
       "image": "assets/sray/SRAY07PU.webp",
-      "text": "Imagine having a nose edged with teeth like a chainsaw blade! The sawfish, a close relative of rays, has unusual ways of hunting its prey. It digs its odd snout into the sandy bottom of the ocean floor to find buried mollusks and crustaceans. If it encounters a school of fish, it may flail its head back and forth to injure nearby fish."
+      "text": "Imagine having a nose edged with teeth like a chainsaw blade! The sawfish, a close relative of rays, has unusual ways of hunting its prey. It digs its odd snout into the sandy bottom of the ocean floor to find buried mollusks and crustaceans. If it encounters a school of fish, it may flail its head back and forth to injure nearby fish.",
+      "narration": "assets/sray/SRAY07NP.mp3"
     }
   ],
   "classic": {
@@ -245,6 +252,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/sray/narration.mp3",
+  "sound": "assets/sray/SRAY00AF.mp3",
   "video": {
     "title": "Gliding like birds",
     "src": "assets/sray/clip.mp4",

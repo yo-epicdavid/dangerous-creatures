@@ -57,37 +57,43 @@
           "label": "Wrestling contest",
           "text": "Cape buffalo bulls butt heads in a contest to see who is the strongest. The heavier bull wins the right to mate with the cows."
         }
-      ]
+      ],
+      "narration": "assets/cbuf/CBUF01NP.mp3"
     },
     {
       "id": "north-american-buffalo",
       "title": "North American buffalo",
       "image": "assets/cbuf/CBUF02PU.webp",
-      "text": "When the first Europeans arrived in North America, vast herds of bison, also called buffalo, covered the plains. Riflemen shot so many bison for sport that the animal was nearly driven into extinction. By the late 1800s, there were fewer than a thousand of these large herbivores alive. Today, thanks to the preservation efforts of a few ranchers and conservationists, there are more than 50,000."
+      "text": "When the first Europeans arrived in North America, vast herds of bison, also called buffalo, covered the plains. Riflemen shot so many bison for sport that the animal was nearly driven into extinction. By the late 1800s, there were fewer than a thousand of these large herbivores alive. Today, thanks to the preservation efforts of a few ranchers and conservationists, there are more than 50,000.",
+      "narration": "assets/cbuf/CBUF02NP.mp3"
     },
     {
       "id": "water-buffalo",
       "title": "Water buffalo",
       "image": "assets/cbuf/CBUF03PU.webp",
-      "text": "Asian buffalo are also called water buffalo because they love to bathe in water. Wild water buffalo are rare and endangered, but Asian farmers have long used tame buffalo to pull plows and wagons. The farmers geld buffalo bulls to make them less aggressive. A gelded bull is called an ox."
+      "text": "Asian buffalo are also called water buffalo because they love to bathe in water. Wild water buffalo are rare and endangered, but Asian farmers have long used tame buffalo to pull plows and wagons. The farmers geld buffalo bulls to make them less aggressive. A gelded bull is called an ox.",
+      "narration": "assets/cbuf/CBUF03NP.mp3"
     },
     {
       "id": "of-hooves-and-hands",
       "title": "Of hooves and hands",
       "image": "assets/cbuf/CBUF04PU.webp",
-      "text": "Imagine how strong your hands would need to be if you had to use them to walk. In cattle, the bones that are like those of our third and fourth fingers—the only two that they have—are fused together, and each finger is tipped with a hoof. All cattle (whether they are tame cows or oxen or wild Cape buffaloes) are classified as artiodactyls, which means \"hoofed mammals with even numbers of toes\"."
+      "text": "Imagine how strong your hands would need to be if you had to use them to walk. In cattle, the bones that are like those of our third and fourth fingers—the only two that they have—are fused together, and each finger is tipped with a hoof. All cattle (whether they are tame cows or oxen or wild Cape buffaloes) are classified as artiodactyls, which means \"hoofed mammals with even numbers of toes\".",
+      "narration": "assets/cbuf/CBUF04NP.mp3"
     },
     {
       "id": "who-is-the-meanest",
       "title": "Who is the meanest?",
       "image": "assets/cbuf/CBUF05PU.webp",
-      "text": "A bull that charges is not attacking because it's mean—it's challenging you over territory and females, just as if you were another bull. That's the natural order of things in the animal world. People, on the other hand, have captured, gelded, and trained bulls as work animals and goaded them into fighting for entertainment, as in this bullfight. Who is bullying whom?"
+      "text": "A bull that charges is not attacking because it's mean—it's challenging you over territory and females, just as if you were another bull. That's the natural order of things in the animal world. People, on the other hand, have captured, gelded, and trained bulls as work animals and goaded them into fighting for entertainment, as in this bullfight. Who is bullying whom?",
+      "narration": "assets/cbuf/CBUF05NP.mp3"
     },
     {
       "id": "bird-lovers",
       "title": "Bird lovers",
       "image": "assets/cbuf/CBUF06PU.webp",
-      "text": "Cape buffalo often have several birds walking around on their backs or heads. These birds, called oxpeckers or tickbirds, are not just hitching a free ride on the buffalo. They are a type of African starling that eats ticks and flies. This bird-buffalo relationship is a good one: the birds know they can find insects to eat on the skin of the buffalo, and the buffalo are rid of annoying pests."
+      "text": "Cape buffalo often have several birds walking around on their backs or heads. These birds, called oxpeckers or tickbirds, are not just hitching a free ride on the buffalo. They are a type of African starling that eats ticks and flies. This bird-buffalo relationship is a good one: the birds know they can find insects to eat on the skin of the buffalo, and the buffalo are rid of annoying pests.",
+      "narration": "assets/cbuf/CBUF06NP.mp3"
     }
   ],
   "classic": {
@@ -202,6 +208,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/cbuf/narration.mp3",
+  "sound": "assets/cbuf/CBUF00AF.mp3",
   "video": {
     "title": "African herds",
     "src": "assets/cbuf/clip.mp4",

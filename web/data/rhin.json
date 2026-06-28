@@ -53,13 +53,15 @@
       "id": "heavyweight-duel",
       "title": "Heavyweight duel",
       "image": "assets/rhin/RHIN01PU.webp",
-      "text": "Male rhinos mark their territories with piles of dung called middens. When a male encounters another male in his territory, the two usually stare at each other for a while. If neither one backs off, a fight may start. An upward sweep of a rhino's horn can open a huge gash in an opponent's flesh."
+      "text": "Male rhinos mark their territories with piles of dung called middens. When a male encounters another male in his territory, the two usually stare at each other for a while. If neither one backs off, a fight may start. An upward sweep of a rhino's horn can open a huge gash in an opponent's flesh.",
+      "narration": "assets/rhin/RHIN01NP.mp3"
     },
     {
       "id": "white-rhinos",
       "title": "White rhinos",
       "image": "assets/rhin/RHIN02PU.webp",
-      "text": "If you expect a white rhino to be white, you'll be disappointed. The name comes from a corruption of the Afrikaans word for \"wide,\" which refers to the wide, square lips of this rhinoceros. A \"white\" or square-lipped rhino's mouth is designed for grazing, while a black rhino's pointed upper lip allows it to eat a variety of plants, or browse."
+      "text": "If you expect a white rhino to be white, you'll be disappointed. The name comes from a corruption of the Afrikaans word for \"wide,\" which refers to the wide, square lips of this rhinoceros. A \"white\" or square-lipped rhino's mouth is designed for grazing, while a black rhino's pointed upper lip allows it to eat a variety of plants, or browse.",
+      "narration": "assets/rhin/RHIN02NP.mp3"
     },
     {
       "id": "wallowing-around",
@@ -71,7 +73,8 @@
           "label": "White rhinoceros",
           "text": "White rhinoceros"
         }
-      ]
+      ],
+      "narration": "assets/rhin/RHIN03NP.mp3"
     },
     {
       "id": "more-valuable-than-gold",
@@ -83,7 +86,8 @@
           "label": "Horn cross section",
           "text": "Black rhino horn cross section"
         }
-      ]
+      ],
+      "narration": "assets/rhin/RHIN04NP.mp3"
     },
     {
       "id": "dangerous-herbivores",
@@ -99,7 +103,8 @@
           "label": "Cape buffalo",
           "text": "These big buffalos are always on the list of African animals to stay away from. They're always ready to fight, and can charge at up to 57 kilometers (more than 34 mi) per hour!"
         }
-      ]
+      ],
+      "narration": "assets/rhin/RHIN05NP.mp3"
     },
     {
       "id": "asian-rhinos",
@@ -115,7 +120,8 @@
           "label": "Greater one-horned rhinoceros",
           "text": "This rhino is about the same size as a white rhino–weighing in at 1500 to 2000 kilograms (3300 to 4400 lb). Greater one-horned rhinos are very endangered and can be seen only in protected parks in India and Nepal."
         }
-      ]
+      ],
+      "narration": "assets/rhin/RHIN06NP.mp3"
     }
   ],
   "classic": {
@@ -230,6 +236,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/rhin/narration.mp3",
+  "sound": "assets/rhin/RHIN00AF.mp3",
   "video": {
     "title": "No defense against a gun",
     "src": "assets/rhin/clip.mp4",

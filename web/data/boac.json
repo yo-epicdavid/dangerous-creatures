@@ -54,19 +54,22 @@
       "id": "putting-the-squeeze-on",
       "title": "Putting the squeeze on",
       "image": "assets/boac/BOAC01PU.webp",
-      "text": "Getting a grip: To keep from being bitten, the snake grips the rat's head with its long front teeth, and then loops some of its body around the rat. Every time the rat exhales, the snake tightens its coils. Soon the rat can't inhale and it suffocates. Down the hatch: Each time the boa swallows, it grips the rat a little further up its body. The snake can stretch its jaws wide because the ligament that connects the two halves of its lower jaw is elastic, like a rubber band."
+      "text": "Getting a grip: To keep from being bitten, the snake grips the rat's head with its long front teeth, and then loops some of its body around the rat. Every time the rat exhales, the snake tightens its coils. Soon the rat can't inhale and it suffocates. Down the hatch: Each time the boa swallows, it grips the rat a little further up its body. The snake can stretch its jaws wide because the ligament that connects the two halves of its lower jaw is elastic, like a rubber band.",
+      "narration": "assets/boac/BOAC01NP.mp3"
     },
     {
       "id": "parallel-lives",
       "title": "Parallel lives",
       "image": "assets/boac/BOAC02PU.webp",
-      "text": "In appearance, this green tree python from Australia could be the identical twin of the South American emerald tree boa! These snakes look alike because they have the same type of life—they're tree-dwelling, camouflaged constrictors. But there are differences: for example, the emerald tree boa bears living young, and the green tree python lays eggs."
+      "text": "In appearance, this green tree python from Australia could be the identical twin of the South American emerald tree boa! These snakes look alike because they have the same type of life—they're tree-dwelling, camouflaged constrictors. But there are differences: for example, the emerald tree boa bears living young, and the green tree python lays eggs.",
+      "narration": "assets/boac/BOAC02NP.mp3"
     },
     {
       "id": "giant-water-boa",
       "title": "Giant water boa",
       "image": "assets/boac/BOAC03PU.webp",
-      "text": "Meet one of the world's biggest snakes! Experts disagree on how big an anaconda (water boa) can grow, but the maximum is probably more than 10 meters (32 ft). The snakes can weigh as much as 500 kilograms (1100 lb) and are as thick as a man's thigh."
+      "text": "Meet one of the world's biggest snakes! Experts disagree on how big an anaconda (water boa) can grow, but the maximum is probably more than 10 meters (32 ft). The snakes can weigh as much as 500 kilograms (1100 lb) and are as thick as a man's thigh.",
+      "narration": "assets/boac/BOAC03NP.mp3"
     },
     {
       "id": "south-pacific-neighbors",
@@ -82,7 +85,8 @@
           "label": "Pacific boa",
           "text": "A strolling skink wouldn't want to meet this boa, because it eats lizards (also birds and bats). These snakes crawl both on the ground and through the trees on many South Pacific islands. When they're upset, they hiss and strike, pretending to be venomous snakes."
         }
-      ]
+      ],
+      "narration": "assets/boac/BOAC04NP.mp3"
     },
     {
       "id": "life-in-the-rain-forest",
@@ -94,13 +98,15 @@
           "label": "Emerald tree boa",
           "text": "Length: .9 to 2 meters (3 - 6.5 ft)"
         }
-      ]
+      ],
+      "narration": "assets/boac/BOAC05NP.mp3"
     },
     {
       "id": "colorful-kids",
       "title": "Colorful kids",
       "image": "assets/boac/BOAC06PU.webp",
-      "text": "When is an emerald red? When it's an emerald tree boa. A juvenile emerald tree boa is reddish, to blend in with the low bushes it hunts in. As the youngster grows, it develops green spots that increase in number and size until the whole snake is emerald green—by which time it's spending most of its time among the green leaves of tall trees."
+      "text": "When is an emerald red? When it's an emerald tree boa. A juvenile emerald tree boa is reddish, to blend in with the low bushes it hunts in. As the youngster grows, it develops green spots that increase in number and size until the whole snake is emerald green—by which time it's spending most of its time among the green leaves of tall trees.",
+      "narration": "assets/boac/BOAC06NP.mp3"
     }
   ],
   "classic": {
@@ -223,6 +229,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/boac/narration.mp3",
+  "sound": "assets/boac/BOAC00AF.mp3",
   "video": {
     "title": "Birds for breakfast",
     "src": "assets/boac/clip.mp4",

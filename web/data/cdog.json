@@ -62,7 +62,8 @@
           "label": "Timber wolf skeleton",
           "text": "Timber wolf skeleton"
         }
-      ]
+      ],
+      "narration": "assets/cdog/CDOG01NP.mp3"
     },
     {
       "id": "potential-prey",
@@ -82,7 +83,8 @@
           "label": "Burchell's zebra",
           "text": "Burchell's zebra"
         }
-      ]
+      ],
+      "narration": "assets/cdog/CDOG02NP.mp3"
     },
     {
       "id": "the-competition",
@@ -106,7 +108,8 @@
           "label": "Leopard",
           "text": "A leopard would be glad to get its claws on an unprotected pup."
         }
-      ]
+      ],
+      "narration": "assets/cdog/CDOG03NP.mp3"
     },
     {
       "id": "wild-canines",
@@ -126,13 +129,15 @@
           "label": "Australian dingo",
           "text": "The ancestors of dingos were partially tamed dogs brought to Australia by people. Those ancient dogs left their human friends thousands of years ago for life in the wild."
         }
-      ]
+      ],
+      "narration": "assets/cdog/CDOG04NP.mp3"
     },
     {
       "id": "greeting-ceremony",
       "title": "Greeting ceremony",
       "image": "assets/cdog/CDOG05PU.webp",
-      "text": "In hunting-dog packs, there's a strict hierarchy—that is, everyone knows who's got the power. When two dogs greet each other, each one signals that it recognizes the other's position in the pack. The leaders are the only ones who get to have pups, but any grown-up is happy to babysit."
+      "text": "In hunting-dog packs, there's a strict hierarchy—that is, everyone knows who's got the power. When two dogs greet each other, each one signals that it recognizes the other's position in the pack. The leaders are the only ones who get to have pups, but any grown-up is happy to babysit.",
+      "narration": "assets/cdog/CDOG05NP.mp3"
     }
   ],
   "classic": {
@@ -243,6 +248,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/cdog/narration.mp3",
+  "sound": "assets/cdog/CDOG00AF.mp3",
   "video": {
     "title": "One for all and all for one",
     "src": "assets/cdog/clip.mp4",

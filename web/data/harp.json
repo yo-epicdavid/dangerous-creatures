@@ -62,7 +62,8 @@
           "label": "Monkey main dish",
           "text": "Spider monkeys are on the harpy's list of preferred meals. These monkeys are incredible acrobats, though, and they can often escape from a harpy with a death-defying leap to another tree."
         }
-      ]
+      ],
+      "narration": "assets/harp/HARP01NP.mp3"
     },
     {
       "id": "birds-of-prey",
@@ -86,7 +87,8 @@
           "label": "Philippine eagle",
           "text": "This eagle is closely related to the harpy eagle. Philippine eagles are endangered, with only a few remaining in the wild."
         }
-      ]
+      ],
+      "narration": "assets/harp/HARP02NP.mp3"
     },
     {
       "id": "winged-hunters",
@@ -102,13 +104,15 @@
           "label": "Grab and go",
           "text": "This Harris's hawk spreads its wings and tail to slow down enough to grab a victim with its sharp talons. Imagine what this would look like if you were a rabbit!"
         }
-      ]
+      ],
+      "narration": "assets/harp/HARP03NP.mp3"
     },
     {
       "id": "eagle-eye",
       "title": "Eagle eye",
       "image": "assets/harp/HARP04PU.webp",
-      "text": "Birds of prey have the sharpest long-distance vision in the animal world. We might not notice the bald eagle as it flies high above the trees, but it can see us—and the small animals that it preys on. Many birds can see farther and more clearly than a person."
+      "text": "Birds of prey have the sharpest long-distance vision in the animal world. We might not notice the bald eagle as it flies high above the trees, but it can see us—and the small animals that it preys on. Many birds can see farther and more clearly than a person.",
+      "narration": "assets/harp/HARP04NP.mp3"
     },
     {
       "id": "night-flights",
@@ -124,7 +128,8 @@
           "label": "Farmer's friend",
           "text": "Barn owls are widely distributed around the world. Most farmers are happy to share their barns with a barn owl, because the birds eat rats and mice that consume valuable grain. But as farms are swallowed by cities, many barn owls are losing their habitat."
         }
-      ]
+      ],
+      "narration": "assets/harp/HARP05NP.mp3"
     }
   ],
   "classic": {
@@ -227,6 +232,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/harp/narration.mp3",
+  "sound": "assets/harp/HARP00AF.mp3",
   "video": {
     "title": "Flying and fishing",
     "src": "assets/harp/clip.mp4",

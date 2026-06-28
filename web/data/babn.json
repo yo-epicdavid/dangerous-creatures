@@ -59,7 +59,8 @@
           "label": "Baboon skull",
           "text": "The huge canine teeth are mostly for show–baboons use them to impress and threaten each other."
         }
-      ]
+      ],
+      "narration": "assets/babn/BABN01NP.mp3"
     },
     {
       "id": "childs-play",
@@ -75,31 +76,36 @@
           "label": "Give me toys!",
           "text": "A baby and a chimp don't look much like each other, but they share 99 percent of their genes."
         }
-      ]
+      ],
+      "narration": "assets/babn/BABN02NP.mp3"
     },
     {
       "id": "savanna-life",
       "title": "Savanna life",
       "image": "assets/babn/BABN03PU.webp",
-      "text": "Baboons live on the ground, although they climb into trees to sleep and for safety. They're mostly vegetarians, but if they can easily get their hands on insects, eggs, or small mammals like a baby gazelle, baboons will eat those too. On the African savanna, baboons themselves are a favorite food of big cats, especially leopards."
+      "text": "Baboons live on the ground, although they climb into trees to sleep and for safety. They're mostly vegetarians, but if they can easily get their hands on insects, eggs, or small mammals like a baby gazelle, baboons will eat those too. On the African savanna, baboons themselves are a favorite food of big cats, especially leopards.",
+      "narration": "assets/babn/BABN03NP.mp3"
     },
     {
       "id": "painted-face",
       "title": "Painted face",
       "image": "assets/babn/BABN04PU.webp",
-      "text": "Male mandrills look like they've been colored with the brightest crayons in the box. (Females are smaller and not so colorful.) When this baboon relative–the largest of all monkeys–is excited, its skin gets even brighter. Scientists think that all those colors have something to do with communication. But you don't have to read mandrill to understand the warning here: \"Stay away!\""
+      "text": "Male mandrills look like they've been colored with the brightest crayons in the box. (Females are smaller and not so colorful.) When this baboon relative–the largest of all monkeys–is excited, its skin gets even brighter. Scientists think that all those colors have something to do with communication. But you don't have to read mandrill to understand the warning here: \"Stay away!\"",
+      "narration": "assets/babn/BABN04NP.mp3"
     },
     {
       "id": "backpacking-baby",
       "title": "Backpacking baby",
       "image": "assets/babn/BABN05PU.webp",
-      "text": "A newborn baboon clings to its mother's chest so it can nurse from her nipples whenever it wants. After a few months, the baby rides on its mother's back when the baboon troop is on the move. When babies grow up, the females usually stay in the same troop, but many males are forced to find a new group to join."
+      "text": "A newborn baboon clings to its mother's chest so it can nurse from her nipples whenever it wants. After a few months, the baby rides on its mother's back when the baboon troop is on the move. When babies grow up, the females usually stay in the same troop, but many males are forced to find a new group to join.",
+      "narration": "assets/babn/BABN05NP.mp3"
     },
     {
       "id": "social-grooming",
       "title": "Social grooming",
       "image": "assets/babn/BABN06PU.webp",
-      "text": "These baboons are doing more than just combing each other's fur for lice and fleas. Grooming is a way in which animals say, \"I know you and trust you. You are a friend.\" When a baboon spots a flea, the monkey pops the crunchy insect into its mouth!"
+      "text": "These baboons are doing more than just combing each other's fur for lice and fleas. Grooming is a way in which animals say, \"I know you and trust you. You are a friend.\" When a baboon spots a flea, the monkey pops the crunchy insect into its mouth!",
+      "narration": "assets/babn/BABN06NP.mp3"
     }
   ],
   "classic": {
@@ -222,6 +228,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/babn/narration.mp3",
+  "sound": "assets/babn/BABN00AF.mp3",
   "video": {
     "title": "Ground dwellers",
     "src": "assets/babn/clip.mp4",

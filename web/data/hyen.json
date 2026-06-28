@@ -53,13 +53,15 @@
       "id": "whats-yours-is-mine",
       "title": "What's yours is mine",
       "image": "assets/hyen/HYEN01PU.webp",
-      "text": "Hunting for a living is tough. So, many predators (like the lion) will take anything they can get—even if they haven't killed it themselves. Lions scavenge more than they hunt, and they often steal hyenas' meals."
+      "text": "Hunting for a living is tough. So, many predators (like the lion) will take anything they can get—even if they haven't killed it themselves. Lions scavenge more than they hunt, and they often steal hyenas' meals.",
+      "narration": "assets/hyen/HYEN01NP.mp3"
     },
     {
       "id": "sometimes-a-scavenger",
       "title": "Sometimes a scavenger",
       "image": "assets/hyen/HYEN02PU.webp",
-      "text": "Most predators won't pass up free meat, and hyenas are no exception. When an animal dies or a kill is abandoned by a hunter, hyenas and vultures often show up at the carcass for an easy meal. Hyenas have also been known to steal food and equipment from campsites."
+      "text": "Most predators won't pass up free meat, and hyenas are no exception. When an animal dies or a kill is abandoned by a hunter, hyenas and vultures often show up at the carcass for an easy meal. Hyenas have also been known to steal food and equipment from campsites.",
+      "narration": "assets/hyen/HYEN02NP.mp3"
     },
     {
       "id": "sometimes-a-hunter",
@@ -79,13 +81,15 @@
           "label": "Thomson's gazelle",
           "text": "Thomson's gazelle"
         }
-      ]
+      ],
+      "narration": "assets/hyen/HYEN03NP.mp3"
     },
     {
       "id": "life-in-the-clan",
       "title": "Life in the clan",
       "image": "assets/hyen/HYEN04PU.webp",
-      "text": "Spotted hyenas live in big groups called \"clans.\" A clan is made up of related females and their offspring, plus males from other clans. The females are the rulers of the clan. Each clan has a central den, where all the pups are born, but each hyena mother suckles her own pups."
+      "text": "Spotted hyenas live in big groups called \"clans.\" A clan is made up of related females and their offspring, plus males from other clans. The females are the rulers of the clan. Each clan has a central den, where all the pups are born, but each hyena mother suckles her own pups.",
+      "narration": "assets/hyen/HYEN04NP.mp3"
     },
     {
       "id": "not-a-dog",
@@ -97,7 +101,8 @@
           "label": "Cape hunting dog",
           "text": "Hyenas look a lot like these African hunting dogs and in fact act a lot like them, too, but the two animals aren't related."
         }
-      ]
+      ],
+      "narration": "assets/hyen/HYEN05NP.mp3"
     }
   ],
   "classic": {
@@ -200,6 +205,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/hyen/narration.mp3",
+  "sound": "assets/hyen/HYEN00AF.mp3",
   "video": {
     "title": "Predatory pack",
     "src": "assets/hyen/clip.mp4",

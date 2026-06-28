@@ -63,7 +63,8 @@
           "label": "Spray away",
           "text": "The powerful jaw muscles of spitting cobras can spray venom quite a distance, with deadly accuracy."
         }
-      ]
+      ],
+      "narration": "assets/cobr/COBR02NP.mp3"
     },
     {
       "id": "convertible-hood",
@@ -75,7 +76,8 @@
           "label": "I can do that, too!",
           "text": "This Australian frilled lizard also expands its neck frill to look more frightening to an attacker."
         }
-      ]
+      ],
+      "narration": "assets/cobr/COBR01NP.mp3"
     },
     {
       "id": "snacking-on-snakes",
@@ -91,7 +93,8 @@
           "label": "Snake-eating secretary",
           "text": "The secretary bird walks for miles along the African savanna looking for such delicacies as cobra. Unlike other birds of prey, a secretary bird uses its feet to kill snakes."
         }
-      ]
+      ],
+      "narration": "assets/cobr/COBR04NP.mp3"
     },
     {
       "id": "dangerous-babies",
@@ -107,13 +110,15 @@
           "label": "Tiny egg, long snake",
           "text": "It's amazing how such a long snake can come out of such a tiny egg!"
         }
-      ]
+      ],
+      "narration": "assets/cobr/COBR03NP.mp3"
     },
     {
       "id": "milking-a-snake",
       "title": "Milking a snake",
       "image": "assets/cobr/COBR05PU.webp",
-      "text": "People sometimes \"milk\" venomous snakes like this rattlesnake. They make a snake bite a membrane-covered jar and then stroke its venom glands. The collected venom is used to make various medicines, especially antivenin for counteracting snakebites. Don't try this at home!"
+      "text": "People sometimes \"milk\" venomous snakes like this rattlesnake. They make a snake bite a membrane-covered jar and then stroke its venom glands. The collected venom is used to make various medicines, especially antivenin for counteracting snakebites. Don't try this at home!",
+      "narration": "assets/cobr/COBR05NP.mp3"
     }
   ],
   "classic": {
@@ -216,6 +221,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/cobr/narration.mp3",
+  "sound": "assets/cobr/COBR00AF.mp3",
   "video": {
     "title": "Best of enemies",
     "src": "assets/cobr/clip.mp4",

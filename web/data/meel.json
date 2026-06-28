@@ -73,19 +73,22 @@
           "label": "Eels for dinner?",
           "text": "Eels are popular dinner items in some European countries. Eating some types of eels can be hazardous to your health, though. The flesh of moray eels, for example, can be highly toxic."
         }
-      ]
+      ],
+      "narration": "assets/meel/MEEL01NP.mp3"
     },
     {
       "id": "hiding-in-holes",
       "title": "Hiding in holes",
       "image": "assets/meel/MEEL02PU.webp",
-      "text": "Moray eels don't normally cruise around reefs, stalking their prey. Instead, they hide in holes among the rocks and coral. When a small fish or crab comes close, wham!—the eel suddenly darts out and grabs it with its sharp teeth. If a diver comes too close to a moray's hiding place, the eel may mistake a hand or foot for a fish."
+      "text": "Moray eels don't normally cruise around reefs, stalking their prey. Instead, they hide in holes among the rocks and coral. When a small fish or crab comes close, wham!—the eel suddenly darts out and grabs it with its sharp teeth. If a diver comes too close to a moray's hiding place, the eel may mistake a hand or foot for a fish.",
+      "narration": "assets/meel/MEEL02NP.mp3"
     },
     {
       "id": "not-so-mean",
       "title": "Not so mean",
       "image": "assets/meel/MEEL03PU.webp",
-      "text": "Some divers have been known to touch moray eels and to feed them by hand. Most morays are really pretty shy creatures that aren't looking for trouble. They don't bite unless they feel threatened or unless they mistake some part of a person for food. Many cases of morays biting people have occurred after divers speared the poor eels!"
+      "text": "Some divers have been known to touch moray eels and to feed them by hand. Most morays are really pretty shy creatures that aren't looking for trouble. They don't bite unless they feel threatened or unless they mistake some part of a person for food. Many cases of morays biting people have occurred after divers speared the poor eels!",
+      "narration": "assets/meel/MEEL03NP.mp3"
     },
     {
       "id": "what-big-mouths",
@@ -101,13 +104,15 @@
           "label": "Gulper eel",
           "text": "Gulper eel"
         }
-      ]
+      ],
+      "narration": "assets/meel/MEEL04NP.mp3"
     },
     {
       "id": "ribbon-version",
       "title": "Ribbon version",
       "image": "assets/meel/MEEL05PU.webp",
-      "text": "There are many different species of moray eels, in all kinds of colors and patterns, including stripes and spots. This beautiful ribbon eel is one type that many aquarium owners seek to keep as a pet. It's famous not only for its bright blue body and yellow fins, but also for the circular flares of skin that extend out from its snout."
+      "text": "There are many different species of moray eels, in all kinds of colors and patterns, including stripes and spots. This beautiful ribbon eel is one type that many aquarium owners seek to keep as a pet. It's famous not only for its bright blue body and yellow fins, but also for the circular flares of skin that extend out from its snout.",
+      "narration": "assets/meel/MEEL05NP.mp3"
     }
   ],
   "classic": {
@@ -210,6 +215,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/meel/narration.mp3",
+  "sound": "assets/meel/MEEL00AF.mp3",
   "video": {
     "title": "Who's chasing whom?",
     "src": "assets/meel/clip.mp4",

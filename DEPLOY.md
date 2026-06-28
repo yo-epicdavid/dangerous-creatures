@@ -30,6 +30,7 @@ The pipeline (mount the ISO at `/Volumes/DANGEROUS` first):
 
 ```
 python3 tools/extract_all.py        # animals: images -> PNG, audio/video -> MP3/MP4
+python3 tools/extract_narration.py  # sub-topic (NP) narration + animal (AF) sounds -> MP3
 python3 tools/extract_guides.py     # 12 guided tours
 python3 tools/extract_games.py      # mini-game images
 <venv>/bin/python tools/convert_to_webp.py   # PNG -> WebP (needs Pillow)

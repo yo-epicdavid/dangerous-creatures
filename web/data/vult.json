@@ -58,7 +58,8 @@
           "label": "Andean condor",
           "text": "The vulture shown here is the Andean condor, which lives in remote areas high in the Andes Mountains of South America. Its North American cousin, the California condor, is nearly extinct, but recently scientists have reintroduced a few to the wild."
         }
-      ]
+      ],
+      "narration": "assets/vult/VULT01NP.mp3"
     },
     {
       "id": "skinheads",
@@ -86,13 +87,15 @@
           "label": "Hooded vulture",
           "text": "Hooded vulture (Africa)"
         }
-      ]
+      ],
+      "narration": "assets/vult/VULT02NP.mp3"
     },
     {
       "id": "the-ultimate-hang-glider",
       "title": "The ultimate hang glider",
       "image": "assets/vult/VULT03PU.webp",
-      "text": "Most vultures don't like to flap their wings. Instead they prefer to soar, slowly circling in thermals–rising columns of warm air–while keeping a lookout for dead animals on the ground. Ruppell's griffon vulture has been spotted riding air currents at elevations of 11,274 meters (37,000 ft)!"
+      "text": "Most vultures don't like to flap their wings. Instead they prefer to soar, slowly circling in thermals–rising columns of warm air–while keeping a lookout for dead animals on the ground. Ruppell's griffon vulture has been spotted riding air currents at elevations of 11,274 meters (37,000 ft)!",
+      "narration": "assets/vult/VULT03NP.mp3"
     },
     {
       "id": "not-just-a-pretty-face",
@@ -108,13 +111,15 @@
           "label": "Turkey vulture",
           "text": "If you live in open country in North, Central, or South America, you'll probably see a turkey vulture sooner or later."
         }
-      ]
+      ],
+      "narration": "assets/vult/VULT04NP.mp3"
     },
     {
       "id": "predator-or-scavenger",
       "title": "Predator or scavenger?",
       "image": "assets/vult/VULT05PU.webp",
-      "text": "Many vultures are both predators and scavengers. They'll kill small animals like rodents and baby birds if carrion isn't available. But they'd much prefer to find their food already dead, and some types of vultures group together to drive even large predators–like hyenas–away from their kills."
+      "text": "Many vultures are both predators and scavengers. They'll kill small animals like rodents and baby birds if carrion isn't available. But they'd much prefer to find their food already dead, and some types of vultures group together to drive even large predators–like hyenas–away from their kills.",
+      "narration": "assets/vult/VULT05NP.mp3"
     },
     {
       "id": "tool-user",
@@ -126,7 +131,8 @@
           "label": "Ostrich egg",
           "text": "Ostrich egg"
         }
-      ]
+      ],
+      "narration": "assets/vult/VULT06NP.mp3"
     }
   ],
   "classic": {
@@ -249,6 +255,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/vult/narration.mp3",
+  "sound": "assets/vult/VULT00AF.mp3",
   "video": {
     "title": "I saw it first!",
     "src": "assets/vult/clip.mp4",

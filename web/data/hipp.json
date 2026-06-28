@@ -58,19 +58,22 @@
           "label": "Hippo tooth",
           "text": "In the past, people have killed hippos for their flesh and for their teeth, which are easier to carve than elephant tusks."
         }
-      ]
+      ],
+      "narration": "assets/hipp/HIPP01NP.mp3"
     },
     {
       "id": "life-underwater",
       "title": "Life underwater",
       "image": "assets/hipp/HIPP02PU.webp",
-      "text": "Hippos spend much of their time almost completely submerged. If necessary, they can close their nostrils and ears and stay underwater for nearly half an hour at a time. Females even give birth to and nurse their babies underwater. But hippos aren't true aquatic animals, because they emerge in the evening to graze on grasses."
+      "text": "Hippos spend much of their time almost completely submerged. If necessary, they can close their nostrils and ears and stay underwater for nearly half an hour at a time. Females even give birth to and nurse their babies underwater. But hippos aren't true aquatic animals, because they emerge in the evening to graze on grasses.",
+      "narration": "assets/hipp/HIPP02NP.mp3"
     },
     {
       "id": "daily-walk",
       "title": "Daily walk",
       "image": "assets/hipp/HIPP03PU.webp",
-      "text": "Although you can occasionally see hippos on land during the day, they most often wait until dark to come out to graze. Most hippos stay within a few kilometers of their watery resting spots. Hippos, especially mothers with babies, can be very defensive in or out of the water, so don't get close or you may find out just how quickly a hippopotamus can charge!"
+      "text": "Although you can occasionally see hippos on land during the day, they most often wait until dark to come out to graze. Most hippos stay within a few kilometers of their watery resting spots. Hippos, especially mothers with babies, can be very defensive in or out of the water, so don't get close or you may find out just how quickly a hippopotamus can charge!",
+      "narration": "assets/hipp/HIPP03NP.mp3"
     },
     {
       "id": "giant-vegetarians",
@@ -86,13 +89,15 @@
           "label": "Biggest today",
           "text": "African elephants are the biggest herbivores on earth. If leaves and grasses are scarce, elephants may roam for many kilometers to get enough to eat."
         }
-      ]
+      ],
+      "narration": "assets/hipp/HIPP04NP.mp3"
     },
     {
       "id": "waterbed",
       "title": "Waterbed",
       "image": "assets/hipp/HIPP05PU.webp",
-      "text": "Hippos spend most of the daylight hours sleeping or resting in water. Frequently only their nostrils and ears protrude from the water's surface. When the water level is high, more than a hundred hippos may crowd into one small water hole. If the water level goes down, a big herd may have to break up into smaller groups and scatter to new water holes."
+      "text": "Hippos spend most of the daylight hours sleeping or resting in water. Frequently only their nostrils and ears protrude from the water's surface. When the water level is high, more than a hundred hippos may crowd into one small water hole. If the water level goes down, a big herd may have to break up into smaller groups and scatter to new water holes.",
+      "narration": "assets/hipp/HIPP05NP.mp3"
     },
     {
       "id": "at-the-water-hole",
@@ -104,7 +109,8 @@
           "label": "Ravenous reptiles",
           "text": "An African rock python might hide in brush or rocks near a water hole, waiting for a meal to show up. But the real reptile to fear at the water hole is a hungry Nile crocodile, which may attack its prey in or out of the water."
         }
-      ]
+      ],
+      "narration": "assets/hipp/HIPP06NP.mp3"
     }
   ],
   "classic": {
@@ -219,6 +225,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/hipp/narration.mp3",
+  "sound": "assets/hipp/HIPP00AF.mp3",
   "video": {
     "title": "Boat biters",
     "src": "assets/hipp/clip.mp4",

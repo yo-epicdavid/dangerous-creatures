@@ -57,19 +57,22 @@
           "label": "Horn shark",
           "text": "Horn sharks get their name from a spine, or horn, in front of the fin on their backs."
         }
-      ]
+      ],
+      "narration": "assets/hamr/HAMR01NP.mp3"
     },
     {
       "id": "monstrous-relative",
       "title": "Monstrous relative",
       "image": "assets/hamr/HAMR02PU.webp",
-      "text": "Are big sharks always scary sharks? Not at all! At 13.9 meters (more than 45 ft) long, the rarely seen whale shark is truly immense, but it eats only plankton and shows no interest in larger animals. Although it may be considered a monster because of its size, this shark is really a gentle giant."
+      "text": "Are big sharks always scary sharks? Not at all! At 13.9 meters (more than 45 ft) long, the rarely seen whale shark is truly immense, but it eats only plankton and shows no interest in larger animals. Although it may be considered a monster because of its size, this shark is really a gentle giant.",
+      "narration": "assets/hamr/HAMR02NP.mp3"
     },
     {
       "id": "carpet-or-shark",
       "title": "Carpet or shark?",
       "image": "assets/hamr/HAMR03PU.webp",
-      "text": "The hammerhead is not the only weird-looking shark. This Australian wobbegong shark is also called a \"carpet shark\" because it looks like a swimming rug. Its skin patterns and \"tassels\" of flesh make it easy for this shark to camouflage itself on the ocean floor."
+      "text": "The hammerhead is not the only weird-looking shark. This Australian wobbegong shark is also called a \"carpet shark\" because it looks like a swimming rug. Its skin patterns and \"tassels\" of flesh make it easy for this shark to camouflage itself on the ocean floor.",
+      "narration": "assets/hamr/HAMR03NP.mp3"
     },
     {
       "id": "heads-for-all-purposes",
@@ -89,7 +92,8 @@
           "label": "Paddle nose",
           "text": "Scientists are not quite sure what a paddlefish does with its long snout. Paddlefish live in some rivers in the U.S. and China."
         }
-      ]
+      ],
+      "narration": "assets/hamr/HAMR04NP.mp3"
     },
     {
       "id": "angelic-cousin",
@@ -101,7 +105,8 @@
           "label": "Lying in wait",
           "text": "Angel sharks hide in the sand, waiting for fish and shellfish to come within their reach."
         }
-      ]
+      ],
+      "narration": "assets/hamr/HAMR05NP.mp3"
     }
   ],
   "classic": {
@@ -204,6 +209,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/hamr/narration.mp3",
+  "sound": "assets/hamr/HAMR00AF.mp3",
   "video": {
     "title": "Why a hammer?",
     "src": "assets/hamr/clip.mp4",

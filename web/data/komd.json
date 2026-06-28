@@ -63,13 +63,15 @@
           "label": "Female tuatara",
           "text": "Scales different from a lizard's."
         }
-      ]
+      ],
+      "narration": "assets/komd/KOMD01NP.mp3"
     },
     {
       "id": "food-fight",
       "title": "Food fight",
       "image": "assets/komd/KOMD02PU.webp",
-      "text": "Imagine going to dinner with cannibals! Komodo dragons do it all the time. They share carrion and large kills, but they also prey on each other. So the dragons have a pecking order worked out to keep mealtimes safe. The biggest always eat first, while the smaller ones do a kind of dance that says, \"I'm no threat–don't hurt me!\""
+      "text": "Imagine going to dinner with cannibals! Komodo dragons do it all the time. They share carrion and large kills, but they also prey on each other. So the dragons have a pecking order worked out to keep mealtimes safe. The biggest always eat first, while the smaller ones do a kind of dance that says, \"I'm no threat–don't hurt me!\"",
+      "narration": "assets/komd/KOMD02NP.mp3"
     },
     {
       "id": "looks-like-a-lizard",
@@ -89,7 +91,8 @@
           "label": "Wise choice",
           "text": "If you guessed that this iguana was the lizard, you're right."
         }
-      ]
+      ],
+      "narration": "assets/komd/KOMD03NP.mp3"
     },
     {
       "id": "bad-bite",
@@ -109,7 +112,8 @@
           "label": "Vampire bat",
           "text": "rabies"
         }
-      ]
+      ],
+      "narration": "assets/komd/KOMD04NP.mp3"
     },
     {
       "id": "monster-monitors",
@@ -125,7 +129,8 @@
           "label": "Perentie",
           "text": "Australia is monitor heaven. Almost half of the 31 species of monitor live there. They range from this lizard–longer than a man is tall–to the world's smallest monitor, only 12.7 centimeters (5 in) long."
         }
-      ]
+      ],
+      "narration": "assets/komd/KOMD05NP.mp3"
     }
   ],
   "classic": {
@@ -228,6 +233,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/komd/narration.mp3",
+  "sound": "assets/komd/KOMD00AF.mp3",
   "video": {
     "title": "Ruling reptiles",
     "src": "assets/komd/clip.mp4",

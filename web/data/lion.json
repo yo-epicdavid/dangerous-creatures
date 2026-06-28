@@ -52,13 +52,15 @@
       "id": "the-huntress",
       "title": "The huntress",
       "image": "assets/lion/LION01PU.webp",
-      "text": "Crouching low, a lioness stalks her prey through the tall grass of the African savanna. She takes a few rapid steps, freezes, then moves and freezes again. When she's close enough, she suddenly springs toward the intended victim. If she misses her target and the prey darts away, it may be ambushed by other lions waiting nearby."
+      "text": "Crouching low, a lioness stalks her prey through the tall grass of the African savanna. She takes a few rapid steps, freezes, then moves and freezes again. When she's close enough, she suddenly springs toward the intended victim. If she misses her target and the prey darts away, it may be ambushed by other lions waiting nearby.",
+      "narration": "assets/lion/LION01NP.mp3"
     },
     {
       "id": "lion-life",
       "title": "Lion life",
       "image": "assets/lion/LION02PU.webp",
-      "text": "Lions are the only social cats. Most spend their lives in prides, or family groups. Each pride has two to four males, up to 20 adult females, and cubs of various ages. All the adult females watch over the young. Female cubs are usually allowed to stay in the pride, but male cubs are driven out as soon as they're mature. With luck, young males will eventually establish prides of their own."
+      "text": "Lions are the only social cats. Most spend their lives in prides, or family groups. Each pride has two to four males, up to 20 adult females, and cubs of various ages. All the adult females watch over the young. Female cubs are usually allowed to stay in the pride, but male cubs are driven out as soon as they're mature. With luck, young males will eventually establish prides of their own.",
+      "narration": "assets/lion/LION02NP.mp3"
     },
     {
       "id": "pupil-power",
@@ -74,19 +76,22 @@
           "label": "Big cat eyes",
           "text": "Large cats like this cougar have pupils that remain round, even in the brightest light."
         }
-      ]
+      ],
+      "narration": "assets/lion/LION03NP.mp3"
     },
     {
       "id": "make-mine-meat",
       "title": "Make mine meat",
       "image": "assets/lion/LION04PU.webp",
-      "text": "A big lion can eat more than 40 kilograms (88 lb) of meat at one meal. That's about 352 hamburgers, or a small impala. Of course, how much a lion eats depends on how well the hunting goes. One week the pride may eat so much they can't move, and the next week they may all go hungry."
+      "text": "A big lion can eat more than 40 kilograms (88 lb) of meat at one meal. That's about 352 hamburgers, or a small impala. Of course, how much a lion eats depends on how well the hunting goes. One week the pride may eat so much they can't move, and the next week they may all go hungry.",
+      "narration": "assets/lion/LION04NP.mp3"
     },
     {
       "id": "the-man-of-the-family",
       "title": "The man of the family",
       "image": "assets/lion/LION05PU.webp",
-      "text": "Although females make most of the kills, adult males eat first. Male lions are tolerant of their own cubs and may even play with them. However, a male will kill cubs fathered by other lions. It's his blood relationship to his own young, not his love for babies, that makes him protective of his family."
+      "text": "Although females make most of the kills, adult males eat first. Male lions are tolerant of their own cubs and may even play with them. However, a male will kill cubs fathered by other lions. It's his blood relationship to his own young, not his love for babies, that makes him protective of his family.",
+      "narration": "assets/lion/LION05NP.mp3"
     }
   ],
   "classic": {
@@ -189,6 +194,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/lion/narration.mp3",
+  "sound": "assets/lion/LION00AF.mp3",
   "video": {
     "title": "Fixing dinner",
     "src": "assets/lion/clip.mp4",

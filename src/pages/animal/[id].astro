@@ -37,6 +37,12 @@ const regionChips = (d.regions || []).map((r) => chip(r, 'regions'));
 
       <p class="tagline">{d.tagline}</p>
 
+      {d.sound && (
+        <p class="hear-row">
+          <button class="mini-listen sound" data-listen={asset(d.sound)} aria-label={`Hear the ${d.name}`}>🔊 Hear the {d.name}</button>
+        </p>
+      )}
+
       {(weaponChips.length || habitatChips.length || regionChips.length) && (
         <div class="chips">
           {weaponChips.length > 0 && <span class="chips__label">Weapons</span>}
@@ -72,6 +78,7 @@ const regionChips = (d.regions || []).map((r) => chip(r, 'regions'));
                 <div class="topic__media"><img src={asset(t.image)} alt={t.title} loading="lazy" /></div>
                 <div class="topic__body">
                   <h3>{t.title}</h3>
+                  {t.narration && <button class="mini-listen" data-listen={asset(t.narration)} aria-label={`Listen to ${t.title}`}>▶ Listen</button>}
                   <p>{t.text}</p>
                   {t.captions?.length > 0 && (
                     <div class="topic__captions">
@@ -203,6 +210,22 @@ const regionChips = (d.regions || []).map((r) => chip(r, 'regions'));
       }
       show(c.start);
     }
+
+    // short-clip player: sub-topic narration + the animal's sound
+    const clip = new Audio();
+    let clipBtn = null;
+    const clearClip = () => { if (clipBtn) clipBtn.classList.remove('playing'); clipBtn = null; };
+    clip.addEventListener('ended', clearClip);
+    document.querySelectorAll('[data-listen]').forEach((b) => {
+      b.addEventListener('click', () => {
+        if (clipBtn === b && !clip.paused) { clip.pause(); clearClip(); return; }
+        if (data.narration) audio.pause();            // don't talk over the article narration
+        if (clipBtn) clipBtn.classList.remove('playing');
+        clip.src = b.getAttribute('data-listen');
+        clip.play().catch(() => {});
+        clipBtn = b; b.classList.add('playing');
+      });
+    });
 
     apply();
   </script>

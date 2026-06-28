@@ -67,7 +67,8 @@
           "label": "Miniature world",
           "text": "By using a magnifying glass, you can see that there are millions of tiny animals and plants all around us."
         }
-      ]
+      ],
+      "narration": "assets/aant/AANT01NP.mp3"
     },
     {
       "id": "whats-hymenoptera",
@@ -87,7 +88,8 @@
           "label": "Bumblebee",
           "text": "If we didn't have bees, we wouldn't have as much fruit as we do, because a lot of flowers would never be pollinated."
         }
-      ]
+      ],
+      "narration": "assets/aant/AANT02NP.mp3"
     },
     {
       "id": "communal-living",
@@ -99,7 +101,8 @@
           "label": "Egg-laying machine",
           "text": "The white blob you see below is the termite queen's abdomen. The queen never leaves the nest."
         }
-      ]
+      ],
+      "narration": "assets/aant/AANT03NP.mp3"
     },
     {
       "id": "insect-architects",
@@ -115,13 +118,15 @@
           "label": "Termite tower",
           "text": "Nobody is quite sure why some African termites build umbrella-shaped nests like this."
         }
-      ]
+      ],
+      "narration": "assets/aant/AANT04NP.mp3"
     },
     {
       "id": "on-the-move",
       "title": "On the move",
       "image": "assets/aant/AANT05PU.webp",
-      "text": "Army ants don't nest below ground like other ants; they just make a nest out of their own bodies. Tens of thousands of ants will lock their legs together and form a huge ball, with the queen in a hollow space at the center. They sometimes form living bridges, with some ants crossing over the linked bodies of others."
+      "text": "Army ants don't nest below ground like other ants; they just make a nest out of their own bodies. Tens of thousands of ants will lock their legs together and form a huge ball, with the queen in a hollow space at the center. They sometimes form living bridges, with some ants crossing over the linked bodies of others.",
+      "narration": "assets/aant/AANT05NP.mp3"
     },
     {
       "id": "anteaters",
@@ -133,7 +138,8 @@
           "label": "Giant anteater",
           "text": "It takes a lot of insects—30,000 ants or termites per day—to satisfy this giant anteater, which lives in South America. From nose to tail, this animal can measure up to 2 meters (almost 7 ft) long!"
         }
-      ]
+      ],
+      "narration": "assets/aant/AANT06NP.mp3"
     }
   ],
   "classic": {
@@ -248,6 +254,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/aant/narration.mp3",
+  "sound": "assets/aant/AANT00AF.mp3",
   "video": {
     "title": "Scary swarms",
     "src": "assets/aant/clip.mp4",

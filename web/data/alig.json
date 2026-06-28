@@ -62,7 +62,8 @@
           "label": "Alligator grin",
           "text": "An alligator's snout is rounder than a crocodile's."
         }
-      ]
+      ],
+      "narration": "assets/alig/ALIG01NP.mp3"
     },
     {
       "id": "caiman-cousins",
@@ -78,7 +79,8 @@
           "label": "Adult caiman",
           "text": "Although you may see tiny babies in pet stores, black caimans can grow up to 6 meters (19.5 ft) long!"
         }
-      ]
+      ],
+      "narration": "assets/alig/ALIG02NP.mp3"
     },
     {
       "id": "tender-loving-care",
@@ -90,7 +92,8 @@
           "label": "Inside story",
           "text": "The embryo inside the shell is cushioned by the amniotic fluid and nourished by the yolk sac."
         }
-      ]
+      ],
+      "narration": "assets/alig/ALIG03NP.mp3"
     },
     {
       "id": "other-gators",
@@ -110,13 +113,15 @@
           "label": "Alligator snapper",
           "text": "When is an alligator not an alligator? When it's an alligator snapping turtle! It has some things in common with 'gators, including its powerful jaws and its habit of lying in wait for unwary fish. You don't want to go swimming with this turtle!"
         }
-      ]
+      ],
+      "narration": "assets/alig/ALIG04NP.mp3"
     },
     {
       "id": "relatively-alike",
       "title": "Relatively alike",
       "image": "assets/alig/ALIG05PU.webp",
-      "text": "What do all these animals have in common? They're all reptiles. Alligators, crocodiles, snakes, lizards, turtles, and the tuatara all have backbones, scaly skins, and blood that is the same temperature as their environment, and most of them lay eggs. Reptiles are one of the most successful types of animals on earth. They've been around since before the dinosaurs."
+      "text": "What do all these animals have in common? They're all reptiles. Alligators, crocodiles, snakes, lizards, turtles, and the tuatara all have backbones, scaly skins, and blood that is the same temperature as their environment, and most of them lay eggs. Reptiles are one of the most successful types of animals on earth. They've been around since before the dinosaurs.",
+      "narration": "assets/alig/ALIG05NP.mp3"
     },
     {
       "id": "real-or-mythical",
@@ -132,13 +137,15 @@
           "label": "Dragon mosaic",
           "text": "The Chinese believed that dragons lived in the heavens above the earth."
         }
-      ]
+      ],
+      "narration": "assets/alig/ALIG06NP.mp3"
     },
     {
       "id": "toothy-grin",
       "title": "Toothy grin",
       "image": "assets/alig/ALIG07PU.webp",
-      "text": "Inside an alligator's mouth, there are always new teeth growing under all the existing teeth. When one tooth gets knocked out, a new tooth underneath is ready for action. That's why you can see teeth of different sizes in this 'gator's mouth."
+      "text": "Inside an alligator's mouth, there are always new teeth growing under all the existing teeth. When one tooth gets knocked out, a new tooth underneath is ready for action. That's why you can see teeth of different sizes in this 'gator's mouth.",
+      "narration": "assets/alig/ALIG07NP.mp3"
     }
   ],
   "classic": {
@@ -265,6 +272,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/alig/narration.mp3",
+  "sound": "assets/alig/ALIG00AF.mp3",
   "video": {
     "title": "Swamp struggle",
     "src": "assets/alig/clip.mp4",

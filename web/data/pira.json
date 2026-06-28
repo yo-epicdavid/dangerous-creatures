@@ -58,7 +58,8 @@
           "label": "How the lateral line works",
           "text": "A lateral line is a fluid-filled canal beneath a fish's skin. Even the smallest vibrations travel through pores in the skin and shake tiny hairs in the lateral line canal. When the hairs move, the attached nerve cells send messages to the fish's brain, telling it that something's nearby."
         }
-      ]
+      ],
+      "narration": "assets/pira/PIRA01NP.mp3"
     },
     {
       "id": "teeth-like-razors",
@@ -70,19 +71,22 @@
           "label": "Barracuda teeth",
           "text": "Piranha teeth are designed for shearing off a clean bite, but the teeth of a barracuda are designed for holding slippery fish."
         }
-      ]
+      ],
+      "narration": "assets/pira/PIRA02NP.mp3"
     },
     {
       "id": "school-of-terror",
       "title": "School of terror?",
       "image": "assets/pira/PIRA03PU.webp",
-      "text": "Like piranhas, barracudas are fish with sharp teeth, so facing a whole school of them could give you nightmares. But, unlike piranhas, when barracudas come together in large groups, their minds are usually focused on mating, not on eating."
+      "text": "Like piranhas, barracudas are fish with sharp teeth, so facing a whole school of them could give you nightmares. But, unlike piranhas, when barracudas come together in large groups, their minds are usually focused on mating, not on eating.",
+      "narration": "assets/pira/PIRA03NP.mp3"
     },
     {
       "id": "daring-dip",
       "title": "Daring dip",
       "image": "assets/pira/PIRA04PU.webp",
-      "text": "Rivers and waterholes in the Amazon rain forest abound not only with piranhas, but also with electric eels, caimans grinning toothy crocodilian grins, and giant snakes that hug their prey to death. You might want to think twice about going for a swim."
+      "text": "Rivers and waterholes in the Amazon rain forest abound not only with piranhas, but also with electric eels, caimans grinning toothy crocodilian grins, and giant snakes that hug their prey to death. You might want to think twice about going for a swim.",
+      "narration": "assets/pira/PIRA04NP.mp3"
     }
   ],
   "classic": {
@@ -181,6 +185,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/pira/narration.mp3",
+  "sound": "assets/pira/PIRA00AF.mp3",
   "video": {
     "title": "Scissor fish",
     "src": "assets/pira/clip.mp4",

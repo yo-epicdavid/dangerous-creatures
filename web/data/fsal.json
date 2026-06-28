@@ -79,7 +79,8 @@
           "label": "Marbled newt",
           "text": "France and Spain"
         }
-      ]
+      ],
+      "narration": "assets/fsal/FSAL01NP.mp3"
     },
     {
       "id": "its-all-in-the-head",
@@ -91,7 +92,8 @@
           "label": "Parotid glands",
           "text": "Venom, or parotid, glands"
         }
-      ]
+      ],
+      "narration": "assets/fsal/FSAL02NP.mp3"
     },
     {
       "id": "growing-up",
@@ -107,7 +109,8 @@
           "label": "Still has gills",
           "text": "This young salamander is starting to look like an adult. But it still has its gills."
         }
-      ]
+      ],
+      "narration": "assets/fsal/FSAL03NP.mp3"
     },
     {
       "id": "feet-for-all-purposes",
@@ -131,7 +134,8 @@
           "label": "Paddle-tail newt",
           "text": "This little foot has some webbing and short toes— that tells you that this newt both swims and climbs on slippery things."
         }
-      ]
+      ],
+      "narration": "assets/fsal/FSAL04NP.mp3"
     },
     {
       "id": "tough-guys",
@@ -151,7 +155,8 @@
           "label": "Packing powerful venom",
           "text": "The California newt packs some of the most potent venom in the salamander world— the same type of deadly toxin found in a pufferfish in the ocean."
         }
-      ]
+      ],
+      "narration": "assets/fsal/FSAL05NP.mp3"
     }
   ],
   "classic": {
@@ -254,6 +259,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/fsal/narration.mp3",
+  "sound": "assets/fsal/FSAL00AF.mp3",
   "video": {
     "title": "Salamander variety",
     "src": "assets/fsal/clip.mp4",

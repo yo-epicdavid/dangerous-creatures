@@ -67,7 +67,8 @@
           "label": "Gone!",
           "text": "When nearly buried, the snake is protected from the sun. It leaves only the top of its head exposed."
         }
-      ]
+      ],
+      "narration": "assets/addr/ADDR01NP.mp3"
     },
     {
       "id": "family-resemblance",
@@ -83,7 +84,8 @@
           "label": "Gaboon viper",
           "text": "Vipers need long fangs to bite through the fur or feathers of their prey. This one has the longest fangs of any snake—as long as your little finger! A viper's big head lets it eat large prey. This is the biggest African viper—it can swallow a dwarf antelope!"
         }
-      ]
+      ],
+      "narration": "assets/addr/ADDR02NP.mp3"
     },
     {
       "id": "death-adder",
@@ -99,7 +101,8 @@
           "label": "Not really an adder",
           "text": "Death adders aren't really adders, so the name is not very accurate. The death adder's closest relatives include cobras, coral snakes, and mambas—like this black mamba."
         }
-      ]
+      ],
+      "narration": "assets/addr/ADDR03NP.mp3"
     },
     {
       "id": "the-pits",
@@ -115,7 +118,8 @@
           "label": "Risky rattle",
           "text": "Rattlesnakes and other pit vipers can detect changes in temperature of less than two-tenths of a degree centigrade—a handy skill for hunting warm-blooded animals!"
         }
-      ]
+      ],
+      "narration": "assets/addr/ADDR04NP.mp3"
     },
     {
       "id": "talented-tongue",
@@ -135,7 +139,8 @@
           "label": "Tasting the air",
           "text": "The particles picked up by the snake's tongue are transferred to a special structure in the snake's mouth, called Jacobson's organ. The cells in this structure partly smell and partly taste the particles."
         }
-      ]
+      ],
+      "narration": "assets/addr/ADDR05NP.mp3"
     }
   ],
   "classic": {
@@ -238,6 +243,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/addr/narration.mp3",
+  "sound": "assets/addr/ADDR00AF.mp3",
   "video": {
     "title": "Come a little closer...",
     "src": "assets/addr/clip.mp4",

@@ -51,7 +51,8 @@
       "id": "sea-of-snakes",
       "title": "Sea of snakes",
       "image": "assets/seas/SEAS01PU.webp",
-      "text": "Sea snakes are snakes, not fish, so they must come to the surface to breathe. At times, hundreds, or even thousands, have been seen in the Indian and Pacific Oceans, drifting with the currents. The usual human victims of sea snake bites are the fishermen who haul in serpents that have become entangled in fishing nets."
+      "text": "Sea snakes are snakes, not fish, so they must come to the surface to breathe. At times, hundreds, or even thousands, have been seen in the Indian and Pacific Oceans, drifting with the currents. The usual human victims of sea snake bites are the fishermen who haul in serpents that have become entangled in fishing nets.",
+      "narration": "assets/seas/SEAS01NP.mp3"
     },
     {
       "id": "all-colors-and-patterns",
@@ -67,13 +68,15 @@
           "label": "Yellow-lipped sea snake",
           "text": "These snakes live in shallow water, but they spend a lot of their time on land. They lay their eggs on land, too, instead of giving birth to live young in the water as other sea snakes do."
         }
-      ]
+      ],
+      "narration": "assets/seas/SEAS02NP.mp3"
     },
     {
       "id": "surprise",
       "title": "Surprise!",
       "image": "assets/seas/SEAS03PU.webp",
-      "text": "Some sea snakes live among coral reefs. Their small heads and slender bodies are perfect for pursuing eels—one of their favorite foods—down holes. So if you're diving in sea snake country, don't go poking around in holes expecting to flush out a harmless eel. A sea snake may surprise you instead!"
+      "text": "Some sea snakes live among coral reefs. Their small heads and slender bodies are perfect for pursuing eels—one of their favorite foods—down holes. So if you're diving in sea snake country, don't go poking around in holes expecting to flush out a harmless eel. A sea snake may surprise you instead!",
+      "narration": "assets/seas/SEAS03NP.mp3"
     },
     {
       "id": "landlubber-relatives",
@@ -89,7 +92,8 @@
           "label": "Heads or tails?",
           "text": "Coral snakes are not very aggressive, but they'll bite as a last resort. To confuse predators, some coral snakes hide their heads and wave their tails when they're threatened. A predator that grabs a coral snake's tail is in for a deadly surprise when the snake's head pops up!"
         }
-      ]
+      ],
+      "narration": "assets/seas/SEAS04NP.mp3"
     },
     {
       "id": "snakelike-swimmers",
@@ -105,7 +109,8 @@
           "label": "Not even a real eel",
           "text": "Although it looks like an eel and it's called an eel, this electric eel is really a type of catfish."
         }
-      ]
+      ],
+      "narration": "assets/seas/SEAS05NP.mp3"
     },
     {
       "id": "snake-supper",
@@ -121,7 +126,8 @@
           "label": "Fearsome floater",
           "text": "Small fish often gather underneath floating sticks or weeds. Sea snakes take advantage of this fishy instinct by drifting quietly on the surface of the water. When the fish come to investigate the floating object—zap!"
         }
-      ]
+      ],
+      "narration": "assets/seas/SEAS06NP.mp3"
     },
     {
       "id": "specialized-tails",
@@ -137,7 +143,8 @@
           "label": "Noisy tail",
           "text": "A rattlesnake shakes the 'rattle' on the end of its tail to warn an intruder to back off."
         }
-      ]
+      ],
+      "narration": "assets/seas/SEAS07NP.mp3"
     }
   ],
   "classic": {
@@ -264,6 +271,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/seas/narration.mp3",
+  "sound": "assets/seas/SEAS00AF.mp3",
   "video": {
     "title": "Diver danger",
     "src": "assets/seas/clip.mp4",

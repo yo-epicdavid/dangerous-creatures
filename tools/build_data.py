@@ -165,6 +165,12 @@ def main():
             }
             if t.get("captions"):
                 topic["captions"] = t["captions"]
+            # spoken narration for this sub-topic (NP{n} <-> PU{n})
+            screen = t.get("screen", "")
+            if screen.endswith("PU"):
+                np = screen[:-2] + "NP"
+                if os.path.exists(os.path.join(WEB, "assets", slug, np + ".mp3")):
+                    topic["narration"] = asset(slug, np + ".mp3")
             topics.append(topic)
 
         video = None
@@ -239,6 +245,8 @@ def main():
         }
         if has_narr:
             page["narration"] = asset(slug, "narration.mp3")
+        if os.path.exists(os.path.join(WEB, "assets", slug, f"{code}00AF.mp3")):
+            page["sound"] = asset(slug, f"{code}00AF.mp3")  # the animal's own call/roar
         if video:
             page["video"] = video
 

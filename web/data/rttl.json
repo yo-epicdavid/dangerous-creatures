@@ -64,7 +64,8 @@
           "label": "California king snake",
           "text": "This snake, like all king snakes, is not venomous. It kills its prey–including rattlesnakes and copperheads–by constriction."
         }
-      ]
+      ],
+      "narration": "assets/rttl/RTTL01NP.mp3"
     },
     {
       "id": "copperhead-cousin",
@@ -76,7 +77,8 @@
           "label": "Not a copperhead",
           "text": "Because it has similar coloring and lives in many of the same places, this corn snake is sometimes mistaken for a copperhead. But a corn snake is not venomous, and it is considered a friend to farmers because it eats rodents."
         }
-      ]
+      ],
+      "narration": "assets/rttl/RTTL02NP.mp3"
     },
     {
       "id": "fang-facts",
@@ -88,7 +90,8 @@
           "label": "Say \"aaaah...\"",
           "text": "The rattlesnake's fangs are usually folded back against the roof of its mouth. When its jaws open to strike, special muscles bring the fangs into position, and venom is pumped into its prey by glands in the snake's head."
         }
-      ]
+      ],
+      "narration": "assets/rttl/RTTL03NP.mp3"
     },
     {
       "id": "shedding-skins",
@@ -104,7 +107,8 @@
           "label": "Grass snake skin",
           "text": "This skin even has the markings of its former owner."
         }
-      ]
+      ],
+      "narration": "assets/rttl/RTTL04NP.mp3"
     },
     {
       "id": "early-warning-system",
@@ -116,7 +120,8 @@
           "label": "Rattle, rattle",
           "text": "When the rattlesnake shakes its tail, the separate pieces knock together, creating the rattling sound. The rattle is made of the same material as your finger- and toenails. A new \"button\" is added each time the snake sheds its skin."
         }
-      ]
+      ],
+      "narration": "assets/rttl/RTTL05NP.mp3"
     },
     {
       "id": "one-lungs-enough",
@@ -128,13 +133,15 @@
           "label": "Loose bones",
           "text": "A snake's ribs aren't connected to a breastbone, so they can swing out to make room for a big meal."
         }
-      ]
+      ],
+      "narration": "assets/rttl/RTTL06NP.mp3"
     },
     {
       "id": "snake-ball",
       "title": "Snake ball",
       "image": "assets/rttl/RTTL07PU.webp",
-      "text": "Rattlesnakes gather in underground burrows or caves to sleep through the winter. During this hibernation period, their body processes slow down so much that they don't need to eat anything. Sometimes as many as 1,000 rattlesnakes will coil up together to hibernate."
+      "text": "Rattlesnakes gather in underground burrows or caves to sleep through the winter. During this hibernation period, their body processes slow down so much that they don't need to eat anything. Sometimes as many as 1,000 rattlesnakes will coil up together to hibernate.",
+      "narration": "assets/rttl/RTTL07NP.mp3"
     }
   ],
   "classic": {
@@ -261,6 +268,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/rttl/narration.mp3",
+  "sound": "assets/rttl/RTTL00AF.mp3",
   "video": {
     "title": "Wrestling rattlers",
     "src": "assets/rttl/clip.mp4",

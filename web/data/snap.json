@@ -67,7 +67,8 @@
           "label": "Chinese soft-shelled turtle",
           "text": "Chinese soft-shelled turtle"
         }
-      ]
+      ],
+      "narration": "assets/snap/SNAP01NP.mp3"
     },
     {
       "id": "common-snappers",
@@ -79,7 +80,8 @@
           "label": "I bite!",
           "text": "When they're threatened, snapping turtles can't pull their big heads and long necks all the way into their shells the way other turtles can, so they attack instead."
         }
-      ]
+      ],
+      "narration": "assets/snap/SNAP02NP.mp3"
     },
     {
       "id": "inside-and-out",
@@ -103,7 +105,8 @@
           "label": "Female tortoise–internal anatomy",
           "text": "Female tortoise–internal anatomy"
         }
-      ]
+      ],
+      "narration": "assets/snap/SNAP03NP.mp3"
     },
     {
       "id": "since-dinosaur-times",
@@ -115,7 +118,8 @@
           "label": "Megaturtle",
           "text": "At four meters (more than 13 ft) long, Archelon was a huge sea turtle, four times the size of an alligator snapper. It lived during the Cretaceous period, along with the last of the dinosaurs."
         }
-      ]
+      ],
+      "narration": "assets/snap/SNAP04NP.mp3"
     },
     {
       "id": "body-armor",
@@ -139,7 +143,8 @@
           "label": "Desert tortoises",
           "text": "Desert tortoises"
         }
-      ]
+      ],
+      "narration": "assets/snap/SNAP05NP.mp3"
     },
     {
       "id": "swelled-head",
@@ -151,7 +156,8 @@
           "label": "Waterworks",
           "text": "The shell is flat and streamlined so that this turtle, found in rivers of Southeast Asia, can slip quickly through the water. The tail is almost as long as the shell and helps steer the turtle as it paddles along with its webbed feet."
         }
-      ]
+      ],
+      "narration": "assets/snap/SNAP06NP.mp3"
     }
   ],
   "classic": {
@@ -266,6 +272,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/snap/narration.mp3",
+  "sound": "assets/snap/SNAP00AF.mp3",
   "video": {
     "title": "Endangered turtles",
     "src": "assets/snap/clip.mp4",

@@ -63,7 +63,8 @@
           "label": "Female jewel wasp",
           "text": "Can you imagine how menacing this sleek hunter must look from a cockroach's point of view?"
         }
-      ]
+      ],
+      "narration": "assets/wasp/WASP01NP.mp3"
     },
     {
       "id": "wasps-in-the-woods",
@@ -75,7 +76,8 @@
           "label": "Color me dangerous",
           "text": "This harmless insect mimics the black-and-yellow pattern of venomous wasps as a form of protection. Predators would rather leave her alone than risk a painful sting!"
         }
-      ]
+      ],
+      "narration": "assets/wasp/WASP02NP.mp3"
     },
     {
       "id": "master-builders",
@@ -91,13 +93,15 @@
           "label": "The royal guard",
           "text": "The larvae hatch into workers and help build the nest. The queen continues to lay eggs. In the summer, some grubs are fed more than others, and they develop into males and queens. They fly from the nest and mate, and the fertile queens hibernate until spring–when they build their own nests."
         }
-      ]
+      ],
+      "narration": "assets/wasp/WASP03NP.mp3"
     },
     {
       "id": "sweet-tooth",
       "title": "Sweet tooth",
       "image": "assets/wasp/WASP04PU.webp",
-      "text": "Humans aren't the only animals that love sugar. In fact, many kinds of adult wasps feed on nothing but sweet liquids, like flower nectar or fruit juice. Some hunting wasps have more grisly diets–they eat other insects or drink their body fluids, especially in the autumn as flowers become scarce. Yellow jackets are fond of people food. Like ants, they're often present–but not welcome–at picnics!"
+      "text": "Humans aren't the only animals that love sugar. In fact, many kinds of adult wasps feed on nothing but sweet liquids, like flower nectar or fruit juice. Some hunting wasps have more grisly diets–they eat other insects or drink their body fluids, especially in the autumn as flowers become scarce. Yellow jackets are fond of people food. Like ants, they're often present–but not welcome–at picnics!",
+      "narration": "assets/wasp/WASP04NP.mp3"
     },
     {
       "id": "a-galling-situation",
@@ -109,7 +113,8 @@
           "label": "Alien invasion",
           "text": "These chalcid wasp larvae have eaten the marble-gall wasp larvae that were growing inside this oak-bud gall. You can see an adult chalcid wasp burrowing its way to the surface."
         }
-      ]
+      ],
+      "narration": "assets/wasp/WASP06NP.mp3"
     },
     {
       "id": "just-bluffing",
@@ -129,7 +134,8 @@
           "label": "Hoverflies",
           "text": "You'd have to look closely at these flies to see that they only have one pair of wings (a real wasp has two). But who'd want to get close enough to look?"
         }
-      ]
+      ],
+      "narration": "assets/wasp/WASP07NP.mp3"
     },
     {
       "id": "bug-eyed-aliens",
@@ -141,7 +147,8 @@
           "label": "Inside an insect's eye",
           "text": "The compound eye is made up of hundreds of facets. Each facet has a surface lens with a cone-shaped lens below it. The lenses focus the light onto a structure called the rhabdome. The rhabdome is connected to the optic nerve, which passes visual information to the brain."
         }
-      ]
+      ],
+      "narration": "assets/wasp/WASP08NP.mp3"
     }
   ],
   "classic": {
@@ -276,6 +283,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/wasp/narration.mp3",
+  "sound": "assets/wasp/WASP00AF.mp3",
   "video": {
     "title": "Pest control",
     "src": "assets/wasp/clip.mp4",

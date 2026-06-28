@@ -52,7 +52,8 @@
       "id": "colorful-cousins",
       "title": "Colorful cousins",
       "image": "assets/arow/AROW01PU.webp",
-      "text": "Even a scientist might not know exactly which species each of these frogs belongs to! Poison arrow frogs and their Madagascan relatives, the mantellas, are polychromatic. This means that frogs of the same kind can have different colors or different patterns."
+      "text": "Even a scientist might not know exactly which species each of these frogs belongs to! Poison arrow frogs and their Madagascan relatives, the mantellas, are polychromatic. This means that frogs of the same kind can have different colors or different patterns.",
+      "narration": "assets/arow/AROW01NP.mp3"
     },
     {
       "id": "babes-in-the-woods",
@@ -72,7 +73,8 @@
           "label": "On their own",
           "text": "After the young frogs lose their tails and gills and emerge from the bromeliad, they've got to catch their own food."
         }
-      ]
+      ],
+      "narration": "assets/arow/AROW02NP.mp3"
     },
     {
       "id": "the-most-poisonous",
@@ -88,7 +90,8 @@
           "label": "Phyllobates terribilis",
           "text": "Don't ever pick up a yellow frog—it could be this one, whose scientific name means \"terrible poison arrow frog.\" The toxin in the skin of just one of these tiny frogs could kill thousands of mice!"
         }
-      ]
+      ],
+      "narration": "assets/arow/AROW03NP.mp3"
     },
     {
       "id": "forest-frogs",
@@ -104,7 +107,8 @@
           "label": "Stick on tight",
           "text": "Frogs that live in ponds have webbed feet for swimming. But tree frogs, like the two juvenile White's tree frogs from Australia (shown at right), have toes with sticky pads on the ends for gripping onto leaves and twigs."
         }
-      ]
+      ],
+      "narration": "assets/arow/AROW04NP.mp3"
     },
     {
       "id": "hide-and-seek",
@@ -116,31 +120,36 @@
           "label": "Rain forest frog",
           "text": "This red-eyed tree frog lives in the rain forests of Mexico, Costa Rica, and Panama."
         }
-      ]
+      ],
+      "narration": "assets/arow/AROW05NP.mp3"
     },
     {
       "id": "duckbilled-cousins",
       "title": "Duckbilled cousins",
       "image": "assets/arow/AROW06PU.webp",
-      "text": "These odd looking tree frogs from Belize have bony eyebrows and protruding upper lips. Maybe their ducklike bills make them look like tree bark or leaves to predators. Like all tree frogs, they have large eyes."
+      "text": "These odd looking tree frogs from Belize have bony eyebrows and protruding upper lips. Maybe their ducklike bills make them look like tree bark or leaves to predators. Like all tree frogs, they have large eyes.",
+      "narration": "assets/arow/AROW06NP.mp3"
     },
     {
       "id": "disappearing-fast",
       "title": "Disappearing fast",
       "image": "assets/arow/AROW07PU.webp",
-      "text": "This photograph records a gathering that may never be seen again. Many types of amphibians, like these golden toads, have periodically gathered in large groups at mating time. But in recent years, many of these gatherings haven't taken place, and in some places all toads and frogs have completely disappeared. Scientists worry that this could be a warning sign of an impending environmental disaster."
+      "text": "This photograph records a gathering that may never be seen again. Many types of amphibians, like these golden toads, have periodically gathered in large groups at mating time. But in recent years, many of these gatherings haven't taken place, and in some places all toads and frogs have completely disappeared. Scientists worry that this could be a warning sign of an impending environmental disaster.",
+      "narration": "assets/arow/AROW07NP.mp3"
     },
     {
       "id": "eyes-and-ears",
       "title": "Eyes and ears",
       "image": "assets/arow/AROW08PU.webp",
-      "text": "Obviously, frogs have eyes—in fact, different frogs have different kinds of eyes. But do they have ears? As a matter of fact, amphibians, the group that includes frogs, were the first animals to have true ears. However, their ears don't stick out like ours do. Except for a circular mark that's sometimes visible behind the eyes, a frog's ears are all on the inside."
+      "text": "Obviously, frogs have eyes—in fact, different frogs have different kinds of eyes. But do they have ears? As a matter of fact, amphibians, the group that includes frogs, were the first animals to have true ears. However, their ears don't stick out like ours do. Except for a circular mark that's sometimes visible behind the eyes, a frog's ears are all on the inside.",
+      "narration": "assets/arow/AROW08NP.mp3"
     },
     {
       "id": "underwater-senses",
       "title": "Underwater senses",
       "image": "assets/arow/AROW09PU.webp",
-      "text": "Many animals that live in the water have a special system of sensors called a lateral line, which can detect changes in water pressure. This lets them know when another animal or object is close by. The individual lateral-line sensors, called plaques, are easy to see on this tadpole and on this adult aquatic toad."
+      "text": "Many animals that live in the water have a special system of sensors called a lateral line, which can detect changes in water pressure. This lets them know when another animal or object is close by. The individual lateral-line sensors, called plaques, are easy to see on this tadpole and on this adult aquatic toad.",
+      "narration": "assets/arow/AROW09NP.mp3"
     }
   ],
   "classic": {
@@ -299,6 +308,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/arow/narration.mp3",
+  "sound": "assets/arow/AROW00AF.mp3",
   "video": {
     "title": "Going, going...",
     "src": "assets/arow/clip.mp4",

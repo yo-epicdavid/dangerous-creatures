@@ -61,7 +61,8 @@
           "label": "Porcupine fish, deflated",
           "text": "Porcupine fish, deflated"
         }
-      ]
+      ],
+      "narration": "assets/porc/PORC01NP.mp3"
     },
     {
       "id": "poisonous-puffers",
@@ -77,7 +78,8 @@
           "label": "Spotted pufferfish",
           "text": "Spotted pufferfish"
         }
-      ]
+      ],
+      "narration": "assets/porc/PORC02NP.mp3"
     },
     {
       "id": "life-in-a-box",
@@ -93,7 +95,8 @@
           "label": "Cowfish",
           "text": "Cowfish"
         }
-      ]
+      ],
+      "narration": "assets/porc/PORC03NP.mp3"
     },
     {
       "id": "balls-of-spines",
@@ -109,7 +112,8 @@
           "label": "Sea urchin",
           "text": "Sea urchin"
         }
-      ]
+      ],
+      "narration": "assets/porc/PORC04NP.mp3"
     },
     {
       "id": "spiky-stars",
@@ -129,7 +133,8 @@
           "label": "Spiny starfish (bottom)",
           "text": "Spiny starfish (bottom)"
         }
-      ]
+      ],
+      "narration": "assets/porc/PORC05NP.mp3"
     }
   ],
   "classic": {
@@ -232,6 +237,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/porc/narration.mp3",
+  "sound": "assets/porc/PORC00AF.mp3",
   "video": {
     "title": "Which end is which?",
     "src": "assets/porc/clip.mp4",

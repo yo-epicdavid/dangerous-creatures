@@ -63,7 +63,8 @@
           "label": "A dolphin's teeth",
           "text": "A dolphin's teeth work like these tongs to hold a slippery fish."
         }
-      ]
+      ],
+      "narration": "assets/orca/ORCA01NP.mp3"
     },
     {
       "id": "its-after-me",
@@ -75,13 +76,15 @@
           "label": "Humboldt penguin",
           "text": "The penguin's black-and-white markings, like the orca's, break up its outline so that it's harder for predators to see."
         }
-      ]
+      ],
+      "narration": "assets/orca/ORCA02NP.mp3"
     },
     {
       "id": "seafood-plate-please",
       "title": "Seafood plate, please",
       "image": "assets/orca/ORCA03PU.webp",
-      "text": "An orca dining in a seafood restaurant could pretty much order anything on the menu. They feed on fish, sea turtles, squid, penguins, dolphins, sea lions, seals, and occasionally even large whales. A pod of orcas will often herd its prey with loud noises before moving in for the kill."
+      "text": "An orca dining in a seafood restaurant could pretty much order anything on the menu. They feed on fish, sea turtles, squid, penguins, dolphins, sea lions, seals, and occasionally even large whales. A pod of orcas will often herd its prey with loud noises before moving in for the kill.",
+      "narration": "assets/orca/ORCA03NP.mp3"
     },
     {
       "id": "ancient-squid-snatcher",
@@ -93,19 +96,22 @@
           "label": "Marine mother",
           "text": "Unlike most reptiles, Ichthyosaurus gave birth to live young instead of laying eggs."
         }
-      ]
+      ],
+      "narration": "assets/orca/ORCA04NP.mp3"
     },
     {
       "id": "life-in-a-pod",
       "title": "Life in a pod",
       "image": "assets/orca/ORCA05PU.webp",
-      "text": "Groups of orcas are called pods. A pod may contain as many as 50 animals, and they stay together for life. The pod travels and hunts together, much like a pack of wolves. But instead of using smell or sight to find their prey in the water, orcas primarily use echolocation, bouncing sound off objects, including other animals, like a sonar detector in a submarine."
+      "text": "Groups of orcas are called pods. A pod may contain as many as 50 animals, and they stay together for life. The pod travels and hunts together, much like a pack of wolves. But instead of using smell or sight to find their prey in the water, orcas primarily use echolocation, bouncing sound off objects, including other animals, like a sonar detector in a submarine.",
+      "narration": "assets/orca/ORCA05NP.mp3"
     },
     {
       "id": "communicating-or-celebrating",
       "title": "Communicating or celebrating?",
       "image": "assets/orca/ORCA06PU.webp",
-      "text": "If you're in the right place at the right time, you may be lucky enough to see a killer whale leap headfirst out of the water and come crashing down on its side. Scientists call this \"breaching.\" It may look like the orca is leaping for joy, but in fact slapping the water as hard as possible may also be the best way to communicate over a long distance."
+      "text": "If you're in the right place at the right time, you may be lucky enough to see a killer whale leap headfirst out of the water and come crashing down on its side. Scientists call this \"breaching.\" It may look like the orca is leaping for joy, but in fact slapping the water as hard as possible may also be the best way to communicate over a long distance.",
+      "narration": "assets/orca/ORCA06NP.mp3"
     }
   ],
   "classic": {
@@ -220,6 +226,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/orca/narration.mp3",
+  "sound": "assets/orca/ORCA00AF.mp3",
   "video": {
     "title": "Who's a killer?",
     "src": "assets/orca/clip.mp4",

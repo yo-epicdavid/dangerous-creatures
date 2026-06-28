@@ -52,7 +52,8 @@
       "id": "what-is-this-thing",
       "title": "What is this thing?",
       "image": "assets/mwar/MWAR01PU.webp",
-      "text": "A man-of-war is actually a community that includes hundreds of individuals! It starts as a plantlike polyp that grows into a tiny gas bag. This buds into other polyps, each with its own job. Some polyps digest food; some are reproductive; others have stinging cells. The whole group floats merrily along, hanging from the original polyp–which has grown into a huge gas bag with a ridged top that acts as a sail."
+      "text": "A man-of-war is actually a community that includes hundreds of individuals! It starts as a plantlike polyp that grows into a tiny gas bag. This buds into other polyps, each with its own job. Some polyps digest food; some are reproductive; others have stinging cells. The whole group floats merrily along, hanging from the original polyp–which has grown into a huge gas bag with a ridged top that acts as a sail.",
+      "narration": "assets/mwar/MWAR01NP.mp3"
     },
     {
       "id": "whats-a-jellyfish",
@@ -64,7 +65,8 @@
           "label": "Snake-headed",
           "text": "Jellyfish, or medusae, are named for Medusa, a legendary Greek character who was said to have serpents in place of hair."
         }
-      ]
+      ],
+      "narration": "assets/mwar/MWAR02NP.mp3"
     },
     {
       "id": "gone-fishing",
@@ -76,7 +78,8 @@
           "label": "Armed and ready",
           "text": "The stinging cells (nematocysts) of all cnidarians (jellyfish, corals, anemones, and hydroids like the man-of-war) work the same way–like tiny harpoons. When something touches a stinging cell, it springs open and the coiled thread inside shoots out into the target's skin. There may be thousands of stinging cells on each tentacle of the cnidarians, which are named after the Greek word for \"nettle\"–as in \"stinging nettle.\""
         }
-      ]
+      ],
+      "narration": "assets/mwar/MWAR03NP.mp3"
     },
     {
       "id": "partners",
@@ -88,7 +91,8 @@
           "label": "Super slime",
           "text": "Some scientists think that a clownfish produces a coat of mucus that protects it from the anemone's sting"
         }
-      ]
+      ],
+      "narration": "assets/mwar/MWAR04NP.mp3"
     },
     {
       "id": "slimy-characters",
@@ -104,7 +108,8 @@
           "label": "Bitter cucumber",
           "text": "This sea cucumber produces venom that makes the cucumber taste nasty!"
         }
-      ]
+      ],
+      "narration": "assets/mwar/MWAR05NP.mp3"
     }
   ],
   "classic": {
@@ -207,6 +212,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/mwar/narration.mp3",
+  "sound": "assets/mwar/MWAR00AF.mp3",
   "video": {
     "title": "Trailing tentacles",
     "src": "assets/mwar/clip.mp4",

@@ -53,25 +53,29 @@
       "id": "also-available-in-black",
       "title": "Also available in black",
       "image": "assets/leop/LEOP01PU.webp",
-      "text": "Although many people call this a black panther, it's really a leopard. When a leopard is born black like this, it's called melanistic, which means that it has more than an average amount of melanin, a dark skin pigment. But if you look closely at a black leopard, you can still see its spots."
+      "text": "Although many people call this a black panther, it's really a leopard. When a leopard is born black like this, it's called melanistic, which means that it has more than an average amount of melanin, a dark skin pigment. But if you look closely at a black leopard, you can still see its spots.",
+      "narration": "assets/leop/LEOP01NP.mp3"
     },
     {
       "id": "solitary-hunter",
       "title": "Solitary hunter",
       "image": "assets/leop/LEOP02PU.webp",
-      "text": "Like most big cats, the leopard is perfectly capable of making a kill all by itself. A leopard can carry up to twice its own weight for quite a distance in order to keep the meat all to itself. These cats prefer to be alone, and, except for mothers with cubs, leopards are rarely seen in the company of other leopards."
+      "text": "Like most big cats, the leopard is perfectly capable of making a kill all by itself. A leopard can carry up to twice its own weight for quite a distance in order to keep the meat all to itself. These cats prefer to be alone, and, except for mothers with cubs, leopards are rarely seen in the company of other leopards.",
+      "narration": "assets/leop/LEOP02NP.mp3"
     },
     {
       "id": "cold-region-cousin",
       "title": "Cold-region cousin",
       "image": "assets/leop/LEOP03PU.webp",
-      "text": "The snowy Himalayas and other cold Asian mountains are home to this beautiful relative, the snow leopard, also called the ounce. It's rarely seen, mainly because there are very few snow leopards left in the world and they live in remote areas. These cats are endangered animals. People shoot them not only for their beautiful fur, but also because snow leopards sometimes eat livestock when there's none of their natural prey around."
+      "text": "The snowy Himalayas and other cold Asian mountains are home to this beautiful relative, the snow leopard, also called the ounce. It's rarely seen, mainly because there are very few snow leopards left in the world and they live in remote areas. These cats are endangered animals. People shoot them not only for their beautiful fur, but also because snow leopards sometimes eat livestock when there's none of their natural prey around.",
+      "narration": "assets/leop/LEOP03NP.mp3"
     },
     {
       "id": "treetop-conference",
       "title": "Treetop conference",
       "image": "assets/leop/LEOP04PU.webp",
-      "text": "Leopards are as much at home in the trees as they are on the ground. They can climb straight up, even while carrying a heavy load. It's unusual to see two leopards together–these two are probably a mother with her nearly grown cub, or perhaps a courting couple thinking about mating."
+      "text": "Leopards are as much at home in the trees as they are on the ground. They can climb straight up, even while carrying a heavy load. It's unusual to see two leopards together–these two are probably a mother with her nearly grown cub, or perhaps a courting couple thinking about mating.",
+      "narration": "assets/leop/LEOP04NP.mp3"
     },
     {
       "id": "old-world-new-world",
@@ -87,13 +91,15 @@
           "label": "Leopard",
           "text": "Although they are around the same height and length, a leopard is slimmer than a jaguar."
         }
-      ]
+      ],
+      "narration": "assets/leop/LEOP05NP.mp3"
     },
     {
       "id": "getting-high",
       "title": "Getting high",
       "image": "assets/leop/LEOP06PU.webp",
-      "text": "If a leopard wants to hide, it doesn't look for a hole to crawl into or a bush to sleep under–it looks for a tree to climb. Leopards use trees for observation posts, for sleeping quarters, and as places to stash a meal to eat later."
+      "text": "If a leopard wants to hide, it doesn't look for a hole to crawl into or a bush to sleep under–it looks for a tree to climb. Leopards use trees for observation posts, for sleeping quarters, and as places to stash a meal to eat later.",
+      "narration": "assets/leop/LEOP06NP.mp3"
     }
   ],
   "classic": {
@@ -216,6 +222,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/leop/narration.mp3",
+  "sound": "assets/leop/LEOP00AF.mp3",
   "video": {
     "title": "Stealth hunter",
     "src": "assets/leop/clip.mp4",

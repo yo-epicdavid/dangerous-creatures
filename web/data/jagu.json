@@ -71,19 +71,22 @@
           "label": "Leopard fur",
           "text": "Close-up of the leopard's open rosettes without inner spots."
         }
-      ]
+      ],
+      "narration": "assets/jagu/JAGU01NP.mp3"
     },
     {
       "id": "hiding-out",
       "title": "Hiding out",
       "image": "assets/jagu/JAGU02PU.webp",
-      "text": "Ever notice the patterns of light and shade in a forest? That's why it's hard to see spotted forest cats–an alternating pattern of light and dark patches breaks up the shapes of the animals, so that they blend into the environment. This jaguar is neatly camouflaged. As long as it stays still, another animal might not even notice it."
+      "text": "Ever notice the patterns of light and shade in a forest? That's why it's hard to see spotted forest cats–an alternating pattern of light and dark patches breaks up the shapes of the animals, so that they blend into the environment. This jaguar is neatly camouflaged. As long as it stays still, another animal might not even notice it.",
+      "narration": "assets/jagu/JAGU02NP.mp3"
     },
     {
       "id": "super-jock",
       "title": "Super jock",
       "image": "assets/jagu/JAGU03PU.webp",
-      "text": "Like all hunting cats, jaguars are great climbers and jumpers. They like to lie in ambush in the bushes. Another favorite jaguar hunting technique is to scale tall trees that overhang paths and then leap down onto animals passing below. Imagine seeing this cat jumping down on you!"
+      "text": "Like all hunting cats, jaguars are great climbers and jumpers. They like to lie in ambush in the bushes. Another favorite jaguar hunting technique is to scale tall trees that overhang paths and then leap down onto animals passing below. Imagine seeing this cat jumping down on you!",
+      "narration": "assets/jagu/JAGU03NP.mp3"
     },
     {
       "id": "on-the-menu",
@@ -103,13 +106,15 @@
           "label": "Tapir",
           "text": "A large hoofed mammal and one of the jaguar's biggest prey."
         }
-      ]
+      ],
+      "narration": "assets/jagu/JAGU04NP.mp3"
     },
     {
       "id": "another-jungle-cat",
       "title": "Another jungle cat",
       "image": "assets/jagu/JAGU05PU.webp",
-      "text": "A jaguar might meet an ocelot–they both roam through the forests and scrublands of Central America. But the ocelot would rather avoid this meeting with its cousin. An average ocelot weighs only a fraction of what a jaguar does, but it's still enough to make a good size meal for its bigger cousin!"
+      "text": "A jaguar might meet an ocelot–they both roam through the forests and scrublands of Central America. But the ocelot would rather avoid this meeting with its cousin. An average ocelot weighs only a fraction of what a jaguar does, but it's still enough to make a good size meal for its bigger cousin!",
+      "narration": "assets/jagu/JAGU05NP.mp3"
     },
     {
       "id": "art-object",
@@ -121,7 +126,8 @@
           "label": "Jaguar worship",
           "text": "Both the Aztecs and the Mayas, ancient rulers of Mexico and Central America, revered jaguars. This Mayan statue from Chichén Itzá is inlaid with precious jade. The bowl on its back is for offerings."
         }
-      ]
+      ],
+      "narration": "assets/jagu/JAGU06NP.mp3"
     }
   ],
   "classic": {
@@ -236,6 +242,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/jagu/narration.mp3",
+  "sound": "assets/jagu/JAGU00AF.mp3",
   "video": {
     "title": "Loner",
     "src": "assets/jagu/clip.mp4",

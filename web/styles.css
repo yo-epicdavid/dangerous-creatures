@@ -188,6 +188,14 @@ img { max-width: 100%; display: block; }
 .chip { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; color: var(--ink); background: var(--panel-2); border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px; text-decoration: none; transition: .15s; }
 .chip:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-1px); }
 
+/* ---------- small inline audio buttons (sub-topic narration + animal sound) ---------- */
+.mini-listen { display: inline-flex; align-items: center; gap: 6px; font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; color: var(--gold); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 3px 12px; margin: 0 0 8px; transition: .12s; }
+.mini-listen:hover { border-color: var(--gold); background: #e8a33d14; }
+.mini-listen.playing { background: var(--gold); color: #1b1410; border-color: var(--gold); }
+.mini-listen.sound { color: var(--rust); border-color: #d9542b66; }
+.mini-listen.sound:hover { background: #d9542b1a; border-color: var(--rust); }
+.hear-row { margin: 10px 0 0; }
+
 /* ---------- mobile ---------- */
 @media (max-width: 680px) {
   body { font-size: 17px; }

@@ -65,13 +65,15 @@
           "label": "Pretty and poisonous",
           "text": "Coral snakes are elapids that live in North and South America."
         }
-      ]
+      ],
+      "narration": "assets/mamb/MAMB01NP.mp3"
     },
     {
       "id": "hunting-on-high",
       "title": "Hunting on high",
       "image": "assets/mamb/MAMB02PU.webp",
-      "text": "If you think that the only place to search for snakes is under your feet, looking up once in a while might be a good idea. This emerald tree boa prowls through the trees of the Amazon Basin in South America."
+      "text": "If you think that the only place to search for snakes is under your feet, looking up once in a while might be a good idea. This emerald tree boa prowls through the trees of the Amazon Basin in South America.",
+      "narration": "assets/mamb/MAMB02NP.mp3"
     },
     {
       "id": "egg-sucking-neighbor",
@@ -87,7 +89,8 @@
           "label": "Spitting out the shell",
           "text": "The snake swallows only the egg's contents. It spits out the crushed shell."
         }
-      ]
+      ],
+      "narration": "assets/mamb/MAMB03NP.mp3"
     },
     {
       "id": "african-snake-eater",
@@ -99,7 +102,8 @@
           "label": "Bird of prey",
           "text": "The sharp, hooked beak tells you that this bird eats meat, not insects or seeds."
         }
-      ]
+      ],
+      "narration": "assets/mamb/MAMB04NP.mp3"
     }
   ],
   "classic": {
@@ -190,6 +194,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/mamb/narration.mp3",
+  "sound": "assets/mamb/MAMB00AF.mp3",
   "video": {
     "title": "Another swift hunter",
     "src": "assets/mamb/clip.mp4",

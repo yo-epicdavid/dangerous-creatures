@@ -69,7 +69,8 @@
           "label": "Caribou",
           "text": "Caribou"
         }
-      ]
+      ],
+      "narration": "assets/wlvr/WLVR01NP.mp3"
     },
     {
       "id": "feisty-relatives",
@@ -85,13 +86,15 @@
           "label": "Badger tracks",
           "text": "Ever seen five-toed tracks like these? Does a badger live in your neighborhood?"
         }
-      ]
+      ],
+      "narration": "assets/wlvr/WLVR02NP.mp3"
     },
     {
       "id": "carnivore-competition",
       "title": "Carnivore competition",
       "image": "assets/wlvr/WLVR03PU.webp",
-      "text": "Wolverines don't take \"no\" for an answer. Although they are relatively small animals, these feisty beasts have been known to challenge much larger carnivores–like cougars and grizzly bears–for their kills. Once in possession of a carcass, a wolverine may tear it apart and stash the pieces in several different hiding places."
+      "text": "Wolverines don't take \"no\" for an answer. Although they are relatively small animals, these feisty beasts have been known to challenge much larger carnivores–like cougars and grizzly bears–for their kills. Once in possession of a carcass, a wolverine may tear it apart and stash the pieces in several different hiding places.",
+      "narration": "assets/wlvr/WLVR03NP.mp3"
     },
     {
       "id": "strong-for-their-size",
@@ -107,13 +110,15 @@
           "label": "Devil from down under",
           "text": "Like weasels and wolverines, Tasmanian devils have earned a reputation as fierce and aggressive hunters. Their powerful jaws can crunch right through bones! Tasmanian devils do their hunting on the island of Tasmania, off the coast of mainland Australia."
         }
-      ]
+      ],
+      "narration": "assets/wlvr/WLVR04NP.mp3"
     },
     {
       "id": "notorious-namesakes",
       "title": "Notorious namesakes",
       "image": "assets/wlvr/WLVR05PU.webp",
-      "text": "Wolves are part of the canid, or dog family, while wolverines belong to the mustelid family, a group that includes badgers, weasels, and skunks. These two very different animals are both skillful hunters and may live in the same areas. Maybe that's why people gave them common names that are so similar."
+      "text": "Wolves are part of the canid, or dog family, while wolverines belong to the mustelid family, a group that includes badgers, weasels, and skunks. These two very different animals are both skillful hunters and may live in the same areas. Maybe that's why people gave them common names that are so similar.",
+      "narration": "assets/wlvr/WLVR05NP.mp3"
     }
   ],
   "classic": {
@@ -216,6 +221,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/wlvr/narration.mp3",
+  "sound": "assets/wlvr/WLVR00AF.mp3",
   "video": {
     "title": "Petite but powerful",
     "src": "assets/wlvr/clip.mp4",

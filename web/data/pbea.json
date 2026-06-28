@@ -62,13 +62,15 @@
           "label": "Bearded seal",
           "text": "Bearded seal"
         }
-      ]
+      ],
+      "narration": "assets/pbea/PBEA01NP.mp3"
     },
     {
       "id": "sleeping-out",
       "title": "Sleeping out",
       "image": "assets/pbea/PBEA02PU.webp",
-      "text": "During the first few months of life, polar bear cubs stay in a den dug out of the ground or out of the snow. But by the time the cubs are around three months old and weigh about 10-15 kilograms (22-33 lbs), they're ready to travel with mom and learn about their wintery world. They stay with their mother for about 28-30 months."
+      "text": "During the first few months of life, polar bear cubs stay in a den dug out of the ground or out of the snow. But by the time the cubs are around three months old and weigh about 10-15 kilograms (22-33 lbs), they're ready to travel with mom and learn about their wintery world. They stay with their mother for about 28-30 months.",
+      "narration": "assets/pbea/PBEA02NP.mp3"
     },
     {
       "id": "the-waters-fine",
@@ -84,25 +86,29 @@
           "label": "Beluga whale",
           "text": "Beluga whale"
         }
-      ]
+      ],
+      "narration": "assets/pbea/PBEA03NP.mp3"
     },
     {
       "id": "ice-traveler",
       "title": "Ice traveler",
       "image": "assets/pbea/PBEA04PU.webp",
-      "text": "Polar bears often hunt for seals right at the edges of the pack ice. This does have its disadvantages, because ice tends to break up and move around. This mobile lifestyle poses no problem for these animals! Polar bears think nothing of leaping from floe to floe, or diving headlong into the icy water and striking out for a new locale."
+      "text": "Polar bears often hunt for seals right at the edges of the pack ice. This does have its disadvantages, because ice tends to break up and move around. This mobile lifestyle poses no problem for these animals! Polar bears think nothing of leaping from floe to floe, or diving headlong into the icy water and striking out for a new locale.",
+      "narration": "assets/pbea/PBEA04NP.mp3"
     },
     {
       "id": "pesky-rival",
       "title": "Pesky rival",
       "image": "assets/pbea/PBEA05PU.webp",
-      "text": "An arctic fox is often seen trailing along behind a polar bear. These crafty little carnivores have been known to subsist mostly on lemmings in some areas, but most will eat almost anything, dead or alive. They frequently follow wolves and polar bears in hopes of getting a bite or two of the larger animal's kill."
+      "text": "An arctic fox is often seen trailing along behind a polar bear. These crafty little carnivores have been known to subsist mostly on lemmings in some areas, but most will eat almost anything, dead or alive. They frequently follow wolves and polar bears in hopes of getting a bite or two of the larger animal's kill.",
+      "narration": "assets/pbea/PBEA05NP.mp3"
     },
     {
       "id": "begging-for-trouble",
       "title": "Begging for trouble",
       "image": "assets/pbea/PBEA06PU.webp",
-      "text": "Some polar bears have become town pests, foraging through garbage dumps for their food. This unnatural behavior is not healthy for the bears or for the local people. A polar bear's normal diet is almost 100% meat, and that's what the bear's teeth and stomach are designed to handle. The people on this bus may think that this bear is just curious, but it's probably wondering what food they have to share!"
+      "text": "Some polar bears have become town pests, foraging through garbage dumps for their food. This unnatural behavior is not healthy for the bears or for the local people. A polar bear's normal diet is almost 100% meat, and that's what the bear's teeth and stomach are designed to handle. The people on this bus may think that this bear is just curious, but it's probably wondering what food they have to share!",
+      "narration": "assets/pbea/PBEA06NP.mp3"
     }
   ],
   "classic": {
@@ -217,6 +223,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/pbea/narration.mp3",
+  "sound": "assets/pbea/PBEA00AF.mp3",
   "video": {
     "title": "Polar protection",
     "src": "assets/pbea/clip.mp4",

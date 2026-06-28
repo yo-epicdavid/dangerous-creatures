@@ -64,7 +64,8 @@
           "label": "Risky romance",
           "text": "Like black widows, some female scorpions eat their partners after they mate."
         }
-      ]
+      ],
+      "narration": "assets/bwid/BWID01NP.mp3"
     },
     {
       "id": "on-guard",
@@ -76,7 +77,8 @@
           "label": "Waiting game",
           "text": "The black widow spins a cocoon, or egg sac, to lay her eggs in and glues it to a branch. Then she waits for the eggs to hatch."
         }
-      ]
+      ],
+      "narration": "assets/bwid/BWID02NP.mp3"
     },
     {
       "id": "silk-secrets",
@@ -100,7 +102,8 @@
           "label": "Step 4",
           "text": "When you finish your weaving, relax and wait for a big bug to stumble into your trap."
         }
-      ]
+      ],
+      "narration": "assets/bwid/BWID03NP.mp3"
     },
     {
       "id": "powerful-poison",
@@ -116,7 +119,8 @@
           "label": "Rattlesnake",
           "text": "Just like a black widow bite, a bite from a rattlesnake might be very painful, but it's not likely to kill you."
         }
-      ]
+      ],
+      "narration": "assets/bwid/BWID04NP.mp3"
     },
     {
       "id": "ferocious-females",
@@ -136,7 +140,8 @@
           "label": "Blood banquet",
           "text": "Female mosquitoes need a drink of blood before they can produce eggs."
         }
-      ]
+      ],
+      "narration": "assets/bwid/BWID05NP.mp3"
     }
   ],
   "classic": {
@@ -239,6 +244,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/bwid/narration.mp3",
+  "sound": "assets/bwid/BWID00AF.mp3",
   "video": {
     "title": "Packing lunch for later",
     "src": "assets/bwid/clip.mp4",

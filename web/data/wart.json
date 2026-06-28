@@ -62,7 +62,8 @@
           "label": "Leopard",
           "text": "A lone leopard may snatch a baby that trails too far behind its mother."
         }
-      ]
+      ],
+      "narration": "assets/wart/WART01NP.mp3"
     },
     {
       "id": "wild-pigs",
@@ -78,13 +79,15 @@
           "label": "African bush pig",
           "text": "Like the warthog, the bush pig–sometimes called a Red River hog–can be found in many parts of Africa."
         }
-      ]
+      ],
+      "narration": "assets/wart/WART02NP.mp3"
     },
     {
       "id": "terrible-teeth",
       "title": "Terrible teeth",
       "image": "assets/wart/WART03PU.webp",
-      "text": "If you thought a warthog has dental problems, take a look at this beast! This wild pig, which lives in Indonesia and surrounding islands, is called a babirusa. Instead of growing out of the sides of its mouth, this animal's tusks grow right through the top of its snout! A male babirusa spends a lot of time sharpening his tusks on trees."
+      "text": "If you thought a warthog has dental problems, take a look at this beast! This wild pig, which lives in Indonesia and surrounding islands, is called a babirusa. Instead of growing out of the sides of its mouth, this animal's tusks grow right through the top of its snout! A male babirusa spends a lot of time sharpening his tusks on trees.",
+      "narration": "assets/wart/WART03NP.mp3"
     },
     {
       "id": "tuskers",
@@ -100,25 +103,29 @@
           "label": "Gnawing constantly",
           "text": "A rat must constantly gnaw on hard materials to wear down its continually growing teeth. Otherwise, its teeth would become tusks, growing right out of its mouth."
         }
-      ]
+      ],
+      "narration": "assets/wart/WART04NP.mp3"
     },
     {
       "id": "domestic-pigs",
       "title": "Domestic pigs",
       "image": "assets/wart/WART05PU.webp",
-      "text": "Our pigs are the descendants of wild boars. Over the centuries, we've bred these animals to be much bigger and more colorful than their wild ancestors. Both wild boars and domestic pigs usually have large litters of young–four to eight piglets is normal, but ten or more is not uncommon."
+      "text": "Our pigs are the descendants of wild boars. Over the centuries, we've bred these animals to be much bigger and more colorful than their wild ancestors. Both wild boars and domestic pigs usually have large litters of young–four to eight piglets is normal, but ten or more is not uncommon.",
+      "narration": "assets/wart/WART05NP.mp3"
     },
     {
       "id": "looks-like-a-pig",
       "title": "Looks like a pig",
       "image": "assets/wart/WART06PU.webp",
-      "text": "This animal looks like a pig, but it's not. It's a collared peccary–also called a javelina. Peccaries live in the southwestern U.S. and in Central and South America. They eat mostly plants, but they've also been known to chew up grubs and snakes. Peccaries usually travel in groups of 5 to 15 animals, and if they feel threatened, the whole group attacks!"
+      "text": "This animal looks like a pig, but it's not. It's a collared peccary–also called a javelina. Peccaries live in the southwestern U.S. and in Central and South America. They eat mostly plants, but they've also been known to chew up grubs and snakes. Peccaries usually travel in groups of 5 to 15 animals, and if they feel threatened, the whole group attacks!",
+      "narration": "assets/wart/WART06NP.mp3"
     },
     {
       "id": "not-even-close",
       "title": "Not even close",
       "image": "assets/wart/WART07PU.webp",
-      "text": "A tapir is sort of pig-shaped, but it's more closely related to a horse than to a pig. A tapir has a flexible nose, sort of a cross between an elephant's trunk and a horse's upper lip. The animal shown here is a Baird's tapir, which lives in Central and South America. There aren't many of these amazing creatures left–Baird's tapirs are endangered."
+      "text": "A tapir is sort of pig-shaped, but it's more closely related to a horse than to a pig. A tapir has a flexible nose, sort of a cross between an elephant's trunk and a horse's upper lip. The animal shown here is a Baird's tapir, which lives in Central and South America. There aren't many of these amazing creatures left–Baird's tapirs are endangered.",
+      "narration": "assets/wart/WART07NP.mp3"
     }
   ],
   "classic": {
@@ -245,6 +252,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/wart/narration.mp3",
+  "sound": "assets/wart/WART00AF.mp3",
   "video": {
     "title": "Digging in the dirt",
     "src": "assets/wart/clip.mp4",

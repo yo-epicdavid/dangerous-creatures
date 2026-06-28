@@ -56,31 +56,36 @@
       "id": "wild-pups",
       "title": "Wild pups",
       "image": "assets/wolf/WOLF01PU.webp",
-      "text": "Wolf pups are born blind but they're soon eager to explore the world. Like all puppies, they learn by playing–pouncing on moving objects and wrestling to see who's top dog. The pups stay with their parents and older brothers and sisters for a year or more. Then they leave to start their own packs."
+      "text": "Wolf pups are born blind but they're soon eager to explore the world. Like all puppies, they learn by playing–pouncing on moving objects and wrestling to see who's top dog. The pups stay with their parents and older brothers and sisters for a year or more. Then they leave to start their own packs.",
+      "narration": "assets/wolf/WOLF01NP.mp3"
     },
     {
       "id": "wolf-ways",
       "title": "Wolf ways",
       "image": "assets/wolf/WOLF02PU.webp",
-      "text": "A wolf can survive by itself (a \"lone wolf\"), but wolves normally live in packs. In each pack, there's one pair of leaders–a dominant male and female. Wolves use body language to communicate within the pack. The expression on a wolf's face and the way it holds its body–especially its tail–tells another wolf what it's saying."
+      "text": "A wolf can survive by itself (a \"lone wolf\"), but wolves normally live in packs. In each pack, there's one pair of leaders–a dominant male and female. Wolves use body language to communicate within the pack. The expression on a wolf's face and the way it holds its body–especially its tail–tells another wolf what it's saying.",
+      "narration": "assets/wolf/WOLF02NP.mp3"
     },
     {
       "id": "long-distance-call",
       "title": "Long-distance call",
       "image": "assets/wolf/WOLF03PU.webp",
-      "text": "Wolves howl to keep in touch with other pack members or to warn other packs to keep their distance–and it seems that sometimes they howl just for the fun of it. A wolf's howl can be heard for long distances."
+      "text": "Wolves howl to keep in touch with other pack members or to warn other packs to keep their distance–and it seems that sometimes they howl just for the fun of it. A wolf's howl can be heard for long distances.",
+      "narration": "assets/wolf/WOLF03NP.mp3"
     },
     {
       "id": "eating-hierarchy",
       "title": "Eating hierarchy",
       "image": "assets/wolf/WOLF04PU.webp",
-      "text": "Wolves stay near a kill for days until they eat all of it–even the bones and hair. The pack members don't necessarily all eat at the same time–the leaders get their fill first. If there are pups that are too young to travel with the pack to the site of the kill, the adult wolves go back to the den and regurgitate what they've eaten for the babies."
+      "text": "Wolves stay near a kill for days until they eat all of it–even the bones and hair. The pack members don't necessarily all eat at the same time–the leaders get their fill first. If there are pups that are too young to travel with the pack to the site of the kill, the adult wolves go back to the den and regurgitate what they've eaten for the babies.",
+      "narration": "assets/wolf/WOLF04NP.mp3"
     },
     {
       "id": "wolf-country",
       "title": "Wolf country",
       "image": "assets/wolf/WOLF05PU.webp",
-      "text": "At one time, wolves lived in many parts of the world, but now most are concentrated in the northern parts of North America. People have killed wolves for centuries because they believed them to be a major threat to their livestock. In winter, wolves kill large animals such as moose, caribou, or musk oxen. In summer, much of their diet consists of small animals like mice, lemmings, and hares."
+      "text": "At one time, wolves lived in many parts of the world, but now most are concentrated in the northern parts of North America. People have killed wolves for centuries because they believed them to be a major threat to their livestock. In winter, wolves kill large animals such as moose, caribou, or musk oxen. In summer, much of their diet consists of small animals like mice, lemmings, and hares.",
+      "narration": "assets/wolf/WOLF05NP.mp3"
     },
     {
       "id": "predator-power",
@@ -100,7 +105,8 @@
           "label": "Wolf skull",
           "text": "The big carnassial (flesh-tearing) teeth tell you that this skull belonged to a wolf, the largest of the wild dogs."
         }
-      ]
+      ],
+      "narration": "assets/wolf/WOLF06NP.mp3"
     },
     {
       "id": "misunderstood",
@@ -116,13 +122,15 @@
           "label": "Disappearing fast",
           "text": "This maned wolf, which is a member of the dog family but not classified as a wolf, lives in the grasslands of Bolivia, Paraguay, Uruguay, Peru, and Argentina. Very few remain in the wild."
         }
-      ]
+      ],
+      "narration": "assets/wolf/WOLF07NP.mp3"
     },
     {
       "id": "foxy-cousin",
       "title": "Foxy cousin",
       "image": "assets/wolf/WOLF08PU.webp",
-      "text": "If you lived in a snowy place and didn't want to be noticed, you'd probably wear a white winter coat–as many Arctic animals do. This Arctic fox's thick white winter coat is designed for both camouflage and warmth. It will be replaced in the spring by a thinner coat that may be gray, red, or tan."
+      "text": "If you lived in a snowy place and didn't want to be noticed, you'd probably wear a white winter coat–as many Arctic animals do. This Arctic fox's thick white winter coat is designed for both camouflage and warmth. It will be replaced in the spring by a thinner coat that may be gray, red, or tan.",
+      "narration": "assets/wolf/WOLF08NP.mp3"
     }
   ],
   "classic": {
@@ -261,6 +269,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/wolf/narration.mp3",
+  "sound": "assets/wolf/WOLF00AF.mp3",
   "video": {
     "title": "Making tracks",
     "src": "assets/wolf/clip.mp4",

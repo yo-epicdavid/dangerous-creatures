@@ -64,7 +64,8 @@
           "label": "Don't pat a toad!",
           "text": "This European green toad, like all true toads, has parotid glands behind its eyes. That's where a toad stores the venomous fluid that it uses as its defense against predators."
         }
-      ]
+      ],
+      "narration": "assets/cane/CANE01NP.mp3"
     },
     {
       "id": "which-is-which",
@@ -88,7 +89,8 @@
           "label": "Eurasian common toad",
           "text": "Parotid glands on its head and a bulky body identity this as a toad."
         }
-      ]
+      ],
+      "narration": "assets/cane/CANE02NP.mp3"
     },
     {
       "id": "life-is-full-of-changes",
@@ -112,7 +114,8 @@
           "label": "Nearly grown",
           "text": "A nine-week-old tadpole looks like a miniature adult with a long tail. As the tadpole grows older, the tail gets shorter and finally disappears."
         }
-      ]
+      ],
+      "narration": "assets/cane/CANE03NP.mp3"
     },
     {
       "id": "fast-food",
@@ -132,13 +135,15 @@
           "label": "Tricky tongue",
           "text": "A frog flips out its tongue to catch a wood louse."
         }
-      ]
+      ],
+      "narration": "assets/cane/CANE04NP.mp3"
     },
     {
       "id": "protected-warts",
       "title": "Protected warts",
       "image": "assets/cane/CANE05PU.webp",
-      "text": "This natterjack toad is in danger of disappearing, so it has been declared a protected species in Great Britain. Toads, like all amphibians, absorb oxygen and other elements through their skin as well as by breathing air through their lungs. This makes them particularly sensitive to pollution. Sadly, amphibians are rapidly disappearing all around the world."
+      "text": "This natterjack toad is in danger of disappearing, so it has been declared a protected species in Great Britain. Toads, like all amphibians, absorb oxygen and other elements through their skin as well as by breathing air through their lungs. This makes them particularly sensitive to pollution. Sadly, amphibians are rapidly disappearing all around the world.",
+      "narration": "assets/cane/CANE05NP.mp3"
     },
     {
       "id": "freight-on-board",
@@ -154,7 +159,8 @@
           "label": "Dad's in charge",
           "text": "This male European midwife toad carries fertilized eggs around for weeks. When the tadpoles are ready to hatch, he returns the eggs to the water."
         }
-      ]
+      ],
+      "narration": "assets/cane/CANE06NP.mp3"
     },
     {
       "id": "you-dont-scare-me",
@@ -170,7 +176,8 @@
           "label": "Surprise! More eyes!",
           "text": "If a predator creeps up behind a Chilean four-eyed frog, two big \"eyes\" suddenly pop up on the back of the frog's body. These extra \"eyes\" are markings that the frog uses to scare away other animals."
         }
-      ]
+      ],
+      "narration": "assets/cane/CANE07NP.mp3"
     },
     {
       "id": "steel-jaws",
@@ -186,7 +193,8 @@
           "label": "Gulp!",
           "text": "The frog blinks, pushing its eyeballs down to increase the pressure in its throat. A mouse is a big meal to swallow!"
         }
-      ]
+      ],
+      "narration": "assets/cane/CANE08NP.mp3"
     }
   ],
   "classic": {
@@ -325,6 +333,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/cane/narration.mp3",
+  "sound": "assets/cane/CANE00AF.mp3",
   "video": {
     "title": "How to bluff",
     "src": "assets/cane/clip.mp4",

@@ -51,7 +51,8 @@
       "id": "another-trickster",
       "title": "Another trickster",
       "image": "assets/funl/FUNL01PU.webp",
-      "text": "A trapdoor spider waits for an insect to walk across the silken, moss-covered lid over its silk-lined burrow. When that happens, out pops the spider–and the insect is history! Although this kind of trap-door spider looks something like a funnel-web, it's no danger to humans. It uses its venom only on the insects it eats."
+      "text": "A trapdoor spider waits for an insect to walk across the silken, moss-covered lid over its silk-lined burrow. When that happens, out pops the spider–and the insect is history! Although this kind of trap-door spider looks something like a funnel-web, it's no danger to humans. It uses its venom only on the insects it eats.",
+      "narration": "assets/funl/FUNL01NP.mp3"
     },
     {
       "id": "the-better-to-bite-you-with",
@@ -67,7 +68,8 @@
           "label": "Ferocious fangs",
           "text": "This tarantula from Sri Lanka is a pussycat compared with the Australian funnel-web. Tarantulas almost never use their fangs on anything but an animal that they're planning to eat. Funnel-web spiders, on the other hand, bite first and save the menu decisions for later."
         }
-      ]
+      ],
+      "narration": "assets/funl/FUNL02NP.mp3"
     },
     {
       "id": "the-eyes-have-it",
@@ -79,13 +81,15 @@
           "label": "Brazilian Wandering Spider",
           "text": "closeup of head"
         }
-      ]
+      ],
+      "narration": "assets/funl/FUNL03NP.mp3"
     },
     {
       "id": "deadliest-in-the-world",
       "title": "Deadliest in the world",
       "image": "assets/funl/FUNL04PU.webp",
-      "text": "The Brazilian wandering spider holds the record as the most venomous spider in the world. This spider has been known to wander into houses and hide out in people's clothing. Fortunately, an antidote for this spider's venom is available, so a bite is not necessarily fatal."
+      "text": "The Brazilian wandering spider holds the record as the most venomous spider in the world. This spider has been known to wander into houses and hide out in people's clothing. Fortunately, an antidote for this spider's venom is available, so a bite is not necessarily fatal.",
+      "narration": "assets/funl/FUNL04NP.mp3"
     }
   ],
   "classic": {
@@ -176,6 +180,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/funl/narration.mp3",
+  "sound": "assets/funl/FUNL00AF.mp3",
   "video": {
     "title": "Catch and carry",
     "src": "assets/funl/clip.mp4",

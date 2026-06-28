@@ -62,7 +62,8 @@
           "label": "Giant blue clam",
           "text": "These clams can grow up to 1 meter (39 in) across. They sometimes live up to 100 years!"
         }
-      ]
+      ],
+      "narration": "assets/boct/BOCT01NP.mp3"
     },
     {
       "id": "suction-cup-arms",
@@ -74,7 +75,8 @@
           "label": "Parachute arms",
           "text": "When an octopus is swimming swiftly, it keeps its arms folded together. When it wants to settle to the bottom, it may spread out its arms and sink slowly to the ocean floor like a parachute."
         }
-      ]
+      ],
+      "narration": "assets/boct/BOCT02NP.mp3"
     },
     {
       "id": "blue-means-beware",
@@ -86,13 +88,15 @@
           "label": "Blue-spotted stingray",
           "text": "This ray has a venomous spine in its tail. Hammerhead sharks love stingrays–for dinner!"
         }
-      ]
+      ],
+      "narration": "assets/boct/BOCT03NP.mp3"
     },
     {
       "id": "protective-parent",
       "title": "Protective parent",
       "image": "assets/boct/BOCT04PU.webp",
-      "text": "Female octopuses (you can say \"octopi\" or \"octopodes,\" too) closely protect their eggs. Some females even starve to death because they're not willing to leave their nests to hunt for food. After the babies hatch from their eggs, though, they're on their own and can't look to mom for help."
+      "text": "Female octopuses (you can say \"octopi\" or \"octopodes,\" too) closely protect their eggs. Some females even starve to death because they're not willing to leave their nests to hunt for food. After the babies hatch from their eggs, though, they're on their own and can't look to mom for help.",
+      "narration": "assets/boct/BOCT04NP.mp3"
     },
     {
       "id": "confusing-colors",
@@ -104,7 +108,8 @@
           "label": "It's all in the skin",
           "text": "Octopuses and squid have color cells surrounded by muscles in their skin. These animals can stretch and shrink these cells to change their skin to a darker or lighter pattern."
         }
-      ]
+      ],
+      "narration": "assets/boct/BOCT05NP.mp3"
     },
     {
       "id": "jetting-around",
@@ -116,7 +121,8 @@
           "label": "Cloud of confusion",
           "text": "To confuse an attacker, an octopus can release a cloud of ink as it jets away to safety."
         }
-      ]
+      ],
+      "narration": "assets/boct/BOCT06NP.mp3"
     }
   ],
   "classic": {
@@ -231,6 +237,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/boct/narration.mp3",
+  "sound": "assets/boct/BOCT00AF.mp3",
   "video": {
     "title": "Armed and dangerous",
     "src": "assets/boct/clip.mp4",

@@ -53,7 +53,8 @@
       "id": "gone-fishin",
       "title": "Gone fishin'",
       "image": "assets/griz/GRIZ01PU.webp",
-      "text": "Fresh fish is a favorite food of grizzlies. The best place to spot these huge bears is at a good fishin' hole, especially when salmon swim up streams from the ocean to spawn. Some bears slap the water with their huge paws, hoping to snag a fish. Others dive underwater to grab one in their teeth."
+      "text": "Fresh fish is a favorite food of grizzlies. The best place to spot these huge bears is at a good fishin' hole, especially when salmon swim up streams from the ocean to spawn. Some bears slap the water with their huge paws, hoping to snag a fish. Others dive underwater to grab one in their teeth.",
+      "narration": "assets/griz/GRIZ01NP.mp3"
     },
     {
       "id": "black-or-brown",
@@ -65,7 +66,8 @@
           "label": "Climbing cubs",
           "text": "Black bears live mainly in areas with trees. If they share their territory with grizzlies, a black bear cub may need to climb a tree in a hurry to avoid being eaten by a male griz!"
         }
-      ]
+      ],
+      "narration": "assets/griz/GRIZ02NP.mp3"
     },
     {
       "id": "ancient-cave-dweller",
@@ -77,7 +79,8 @@
           "label": "Skulls now and then",
           "text": "You can see that ancient bears were quite a bit bigger than modern bears. Also, over the years the teeth of bears changed. The teeth in the fossil skull are all sharp and pointed for eating meat, while different types of teeth in the modern bear skull show that bears today eat all kinds of food, plants as well as meat."
         }
-      ]
+      ],
+      "narration": "assets/griz/GRIZ03NP.mp3"
     },
     {
       "id": "the-cub-club",
@@ -89,13 +92,15 @@
           "label": "Cute but not cuddly",
           "text": "Don't ever approach a baby bear in the wild. Although it might seem defenseless, it can still yelp for mom, who is somewhere nearby."
         }
-      ]
+      ],
+      "narration": "assets/griz/GRIZ04NP.mp3"
     },
     {
       "id": "unpredictable",
       "title": "Unpredictable",
       "image": "assets/griz/GRIZ05PU.webp",
-      "text": "It's hard to know what a grizzly might do if you met up with one. But if the grizzly stands up like this, it's either challenging you because you're too close, or trying to figure out if you'd make a good meal. In either case, start backing away slowly. Some people have found that shouting or waving their arms can also make a big bear back down."
+      "text": "It's hard to know what a grizzly might do if you met up with one. But if the grizzly stands up like this, it's either challenging you because you're too close, or trying to figure out if you'd make a good meal. In either case, start backing away slowly. Some people have found that shouting or waving their arms can also make a big bear back down.",
+      "narration": "assets/griz/GRIZ05NP.mp3"
     },
     {
       "id": "asian-relatives",
@@ -107,7 +112,8 @@
           "label": "You'd be mean, too!",
           "text": "These bears have the reputation of being dangerous to humans. But they generally attack only when humans move into their territory. You'd be mean, too, if strangers invaded your home or ate most of your food!"
         }
-      ]
+      ],
+      "narration": "assets/griz/GRIZ06NP.mp3"
     },
     {
       "id": "whos-the-biggest",
@@ -127,7 +133,8 @@
           "label": "Lightweight division",
           "text": "American black bears weigh up to 270 kilograms (594 lb). The lightest bear is the Asian sun bear, which weighs only 27-50 kilograms (60-110 lb)."
         }
-      ]
+      ],
+      "narration": "assets/griz/GRIZ07NP.mp3"
     }
   ],
   "classic": {
@@ -254,6 +261,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/griz/narration.mp3",
+  "sound": "assets/griz/GRIZ00AF.mp3",
   "video": {
     "title": "Territorial disputes",
     "src": "assets/griz/clip.mp4",

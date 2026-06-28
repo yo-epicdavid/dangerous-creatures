@@ -51,7 +51,8 @@
       "id": "rat-tracks",
       "title": "Rat tracks",
       "image": "assets/rats/RATS01PU.webp",
-      "text": "If you're not sure whether or not that furry shape that just scurried by was a rat, check its tracks. A rat leaves tracks with four toe prints on the front foot and five on the back. Rats have sweat glands on the soles of their feet, and they tend to leave slimy-looking trails if they go through the same area often."
+      "text": "If you're not sure whether or not that furry shape that just scurried by was a rat, check its tracks. A rat leaves tracks with four toe prints on the front foot and five on the back. Rats have sweat glands on the soles of their feet, and they tend to leave slimy-looking trails if they go through the same area often.",
+      "narration": "assets/rats/RATS01NP.mp3"
     },
     {
       "id": "pest-control",
@@ -71,7 +72,8 @@
           "label": "Boa",
           "text": "Boa (Central and South America)"
         }
-      ]
+      ],
+      "narration": "assets/rats/RATS02NP.mp3"
     },
     {
       "id": "rapid-reproduction",
@@ -91,7 +93,8 @@
           "label": "Ten days",
           "text": "Ten days old"
         }
-      ]
+      ],
+      "narration": "assets/rats/RATS03NP.mp3"
     },
     {
       "id": "gnawing-question",
@@ -103,7 +106,8 @@
           "label": "Brown (Norway) rat",
           "text": "Brown (Norway) rat gnawing electric cable"
         }
-      ]
+      ],
+      "narration": "assets/rats/RATS04NP.mp3"
     },
     {
       "id": "overachievers",
@@ -115,7 +119,8 @@
           "label": "Brown (Norway) rat",
           "text": "Brown (Norway) rat"
         }
-      ]
+      ],
+      "narration": "assets/rats/RATS05NP.mp3"
     },
     {
       "id": "dirty-rat",
@@ -127,13 +132,15 @@
           "label": "Personal grooming",
           "text": "Rats groom their fur all the time. They're really very clean animals."
         }
-      ]
+      ],
+      "narration": "assets/rats/RATS06NP.mp3"
     },
     {
       "id": "lab-rats",
       "title": "Lab rats",
       "image": "assets/rats/RATS07PU.webp",
-      "text": "Black-hooded rats such as this one are sometimes used in medical research. Scientists use these animals to study diseases and treatments to make the lives of humans better. The next time you hear of a new medicine, think about the important role rats have played in furthering our knowledge of human health."
+      "text": "Black-hooded rats such as this one are sometimes used in medical research. Scientists use these animals to study diseases and treatments to make the lives of humans better. The next time you hear of a new medicine, think about the important role rats have played in furthering our knowledge of human health.",
+      "narration": "assets/rats/RATS07NP.mp3"
     }
   ],
   "classic": {
@@ -260,6 +267,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/rats/narration.mp3",
+  "sound": "assets/rats/RATS00AF.mp3",
   "video": {
     "title": "The people's friend",
     "src": "assets/rats/clip.mp4",

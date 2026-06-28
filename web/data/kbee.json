@@ -66,7 +66,8 @@
           "label": "Baby food",
           "text": "Adult wasps usually feed on nectar. But since most kinds of infant wasps are carnivores, a mother must make sure that meat is available for her young. This jewel wasp is stinging a roach, on which she'll lay her egg. The hatchling grub will eat the insect."
         }
-      ]
+      ],
+      "narration": "assets/kbee/KBEE01NP.mp3"
     },
     {
       "id": "swarm-harm",
@@ -82,13 +83,15 @@
           "label": "Starting point",
           "text": "Killer bees were brought to Brazil from Africa in the 1940s. Their range expands every year."
         }
-      ]
+      ],
+      "narration": "assets/kbee/KBEE02NP.mp3"
     },
     {
       "id": "sweet-treat",
       "title": "Sweet treat",
       "image": "assets/kbee/KBEE03PU.webp",
-      "text": "Do you find it strange to think of a bee as a domestic animal? It is, though. The first people who kept honey-producing bees in manmade hives lived more than 3,000 years ago!"
+      "text": "Do you find it strange to think of a bee as a domestic animal? It is, though. The first people who kept honey-producing bees in manmade hives lived more than 3,000 years ago!",
+      "narration": "assets/kbee/KBEE03NP.mp3"
     },
     {
       "id": "danger-in-the-flowers",
@@ -104,7 +107,8 @@
           "label": "Prickly peril",
           "text": "A bee that investigates an orchid may find itself rudely surprised by this creature's claws."
         }
-      ]
+      ],
+      "narration": "assets/kbee/KBEE04NP.mp3"
     },
     {
       "id": "bee-business",
@@ -124,7 +128,8 @@
           "label": "Wasps",
           "text": "Like bees, most wasps live on flower nectar, but some also seem to enjoy other liquids, like fruit juice."
         }
-      ]
+      ],
+      "narration": "assets/kbee/KBEE05NP.mp3"
     },
     {
       "id": "special-signals",
@@ -140,7 +145,8 @@
           "label": "Landing strip",
           "text": "Flowers have special markings called \"honeyguides\" that lead to nectar. Honeyguides are visible to humans only in ultraviolet light (as in this photograph), but bees can see them all the time."
         }
-      ]
+      ],
+      "narration": "assets/kbee/KBEE06NP.mp3"
     }
   ],
   "classic": {
@@ -255,6 +261,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/kbee/narration.mp3",
+  "sound": "assets/kbee/KBEE00AF.mp3",
   "video": {
     "title": "Too defensive!",
     "src": "assets/kbee/clip.mp4",

@@ -62,7 +62,8 @@
           "label": "Pretty poison",
           "text": "People who are stung by lionfish experience extreme pain and they may take a long time to recover."
         }
-      ]
+      ],
+      "narration": "assets/lfsh/LFSH01NP.mp3"
     },
     {
       "id": "whatchamacallit",
@@ -74,7 +75,8 @@
           "label": "Spine-tingling relation",
           "text": "An alarmed scorpionfish raises its sharp, venomous spines."
         }
-      ]
+      ],
+      "narration": "assets/lfsh/LFSH02NP.mp3"
     },
     {
       "id": "stingers-in-the-sand",
@@ -90,7 +92,8 @@
           "label": "Fin action",
           "text": "The needle-sharp spines in the small dorsal fin and the spines on each gill cover contain venom. When the fish feels threatened, it raises these spines in self-defense."
         }
-      ]
+      ],
+      "narration": "assets/lfsh/LFSH03NP.mp3"
     },
     {
       "id": "spiny-swimmers",
@@ -110,19 +113,22 @@
           "label": "Surgeon's blade",
           "text": "The surgeonfish keeps a razor-sharp blade of bone in a pocket on either side of its tail that it can raise and use as a cutting weapon."
         }
-      ]
+      ],
+      "narration": "assets/lfsh/LFSH04NP.mp3"
     },
     {
       "id": "barbed-beauty",
       "title": "Barbed beauty",
       "image": "assets/lfsh/LFSH05PU.webp",
-      "text": "How can this gorgeous mandarin fish flaunt its beauty without being eaten? If the sharp dorsal spine of this Pacific reef fish doesn't scare off a predator, its bad taste and smell probably will. A mandarin fish secretes a nasty-tasting mucus covering for protection."
+      "text": "How can this gorgeous mandarin fish flaunt its beauty without being eaten? If the sharp dorsal spine of this Pacific reef fish doesn't scare off a predator, its bad taste and smell probably will. A mandarin fish secretes a nasty-tasting mucus covering for protection.",
+      "narration": "assets/lfsh/LFSH05NP.mp3"
     },
     {
       "id": "the-deadliest",
       "title": "The deadliest",
       "image": "assets/lfsh/LFSH06PU.webp",
-      "text": "You never, ever want to step on a stonefish. It's the most dangerous kind of scorpionfish, and it looks just like a lump of coral—it even has weeds growing on it. But if you touch it—zzzing! That \"lump of coral\" sprouts fat, lethally venomous spines that can jab through even the thick rubber soles of sneakers."
+      "text": "You never, ever want to step on a stonefish. It's the most dangerous kind of scorpionfish, and it looks just like a lump of coral—it even has weeds growing on it. But if you touch it—zzzing! That \"lump of coral\" sprouts fat, lethally venomous spines that can jab through even the thick rubber soles of sneakers.",
+      "narration": "assets/lfsh/LFSH06NP.mp3"
     }
   ],
   "classic": {
@@ -237,6 +243,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/lfsh/narration.mp3",
+  "sound": "assets/lfsh/LFSH00AF.mp3",
   "video": {
     "title": "Pretty impressive",
     "src": "assets/lfsh/clip.mp4",

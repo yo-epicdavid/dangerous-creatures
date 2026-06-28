@@ -58,7 +58,8 @@
           "label": "Dragonfly nymph",
           "text": "Dragonfly nymph"
         }
-      ]
+      ],
+      "narration": "assets/mosq/MOSQ01NP.mp3"
     },
     {
       "id": "mosquito-menaces",
@@ -70,7 +71,8 @@
           "label": "Daubenton's bat",
           "text": "This little bat, which lives in Europe and Central Asia, nets mosquitoes and other insects with its tail and scoops them into its mouth. It also likes fish."
         }
-      ]
+      ],
+      "narration": "assets/mosq/MOSQ02NP.mp3"
     },
     {
       "id": "in-your-blood",
@@ -82,7 +84,8 @@
           "label": "Plasmodia in human red blood cells",
           "text": "Malaria is a tropical disease caused by a protozoan (a microscopic, single-celled animal) called Plasmodium that attacks red blood cells. When a malaria-carrying mosquito feeds on an infected person, she will transfer the infection to the next person she \"bites.\" Fortunately, only one kind of tropical mosquito—called Anopheles—carries malaria."
         }
-      ]
+      ],
+      "narration": "assets/mosq/MOSQ03NP.mp3"
     },
     {
       "id": "disease-spreaders",
@@ -98,7 +101,8 @@
           "label": "Wipe your feet!",
           "text": "Cockroaches will eat anything, including garbage and dead animals, and they can track germs around. But roaches are very good at disposing of waste, and they themselves are food for many creatures. You see, there really isn't any such thing as a \"bad\" animal."
         }
-      ]
+      ],
+      "narration": "assets/mosq/MOSQ04NP.mp3"
     },
     {
       "id": "pest-control",
@@ -114,7 +118,8 @@
           "label": "Natural nursery",
           "text": "A cockroach is a jewel wasp's idea of a perfect nursery. The female stings the roach, drags it into a hole that she's dug, and lays an egg on it. When the larva emerges from the egg, it eats the paralyzed insect."
         }
-      ]
+      ],
+      "narration": "assets/mosq/MOSQ05NP.mp3"
     },
     {
       "id": "strength-in-numbers",
@@ -134,7 +139,8 @@
           "label": "Terrible termites",
           "text": "Termites can eat you out of house and home!"
         }
-      ]
+      ],
+      "narration": "assets/mosq/MOSQ06NP.mp3"
     }
   ],
   "classic": {
@@ -249,6 +255,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/mosq/narration.mp3",
+  "sound": "assets/mosq/MOSQ00AF.mp3",
   "video": {
     "title": "Blood for the babies",
     "src": "assets/mosq/clip.mp4",

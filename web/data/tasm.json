@@ -52,7 +52,8 @@
       "id": "extinct-relative",
       "title": "Extinct relative",
       "image": "assets/tasm/TASM01PU.webp",
-      "text": "New Guinea and Australia are home to most of the few meat-eating marsupials on earth. Today, the Tasmanian devil is the largest animal in this group. But until the 1930s, this animal, called the thylacine or Tasmanian wolf, held that title. These unusual animals once roamed over mainland Australia and its island of Tasmania. Sadly, they were wiped out by settlers who considered them a threat to livestock, and nobody will ever see a living thylacine again."
+      "text": "New Guinea and Australia are home to most of the few meat-eating marsupials on earth. Today, the Tasmanian devil is the largest animal in this group. But until the 1930s, this animal, called the thylacine or Tasmanian wolf, held that title. These unusual animals once roamed over mainland Australia and its island of Tasmania. Sadly, they were wiped out by settlers who considered them a threat to livestock, and nobody will ever see a living thylacine again.",
+      "narration": "assets/tasm/TASM01NP.mp3"
     },
     {
       "id": "danger-down-under",
@@ -76,7 +77,8 @@
           "label": "Cane toad",
           "text": "Cane toad–oozes poison from glands on its head"
         }
-      ]
+      ],
+      "narration": "assets/tasm/TASM02NP.mp3"
     },
     {
       "id": "wheres-tasmania",
@@ -92,7 +94,8 @@
           "label": "Tiger cat",
           "text": "This marsupial hunter can climb trees."
         }
-      ]
+      ],
+      "narration": "assets/tasm/TASM03NP.mp3"
     },
     {
       "id": "unusual-creatures",
@@ -108,7 +111,8 @@
           "label": "Monotreme mother",
           "text": "This echidna (spiny anteater) is a monotreme. A pregnant female develops a temporary pouch on her abdomen, into which she'll lay one egg. After hatching, the young echidna drinks from special milk glands (monotremes have no nipples) and develops inside the pouch until it grows spines at about eight weeks old."
         }
-      ]
+      ],
+      "narration": "assets/tasm/TASM04NP.mp3"
     },
     {
       "id": "small-but-feisty",
@@ -124,7 +128,8 @@
           "label": "Wily weasel",
           "text": "All members of the weasel family are hard-core hunters. They will go almost anywhere in pursuit of prey."
         }
-      ]
+      ],
+      "narration": "assets/tasm/TASM05NP.mp3"
     }
   ],
   "classic": {
@@ -227,6 +232,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/tasm/narration.mp3",
+  "sound": "assets/tasm/TASM00AF.mp3",
   "video": {
     "title": "Devils in the forest",
     "src": "assets/tasm/clip.mp4",

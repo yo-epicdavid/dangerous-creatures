@@ -63,7 +63,8 @@
           "label": "Cave cleanup",
           "text": "This adult Surinam cockroach lives in dark, moist places, like caves."
         }
-      ]
+      ],
+      "narration": "assets/cock/COCK01NP.mp3"
     },
     {
       "id": "cockroach-control",
@@ -83,7 +84,8 @@
           "label": "Centipede",
           "text": "This many-legged hunter wouldn't pass up a juicy cockroach meal. Like cockroaches, centipedes like to hide in dark places."
         }
-      ]
+      ],
+      "narration": "assets/cock/COCK02NP.mp3"
     },
     {
       "id": "millions-of-years-old",
@@ -103,7 +105,8 @@
           "label": "Scorpion",
           "text": "Giant scorpions were some of the earth's first meat-eaters, hunting cockroaches and millipedes and other prehistoric bugs."
         }
-      ]
+      ],
+      "narration": "assets/cock/COCK03NP.mp3"
     },
     {
       "id": "beetle-or-not",
@@ -127,7 +130,8 @@
           "label": "Atlas beetle",
           "text": "This male beetle has raised his elytrons (wing cases) to display the fragile wings beneath."
         }
-      ]
+      ],
+      "narration": "assets/cock/COCK04NP.mp3"
     },
     {
       "id": "is-it-an-insect",
@@ -155,7 +159,8 @@
           "label": "Arachnid and proud of it",
           "text": "Spiders have eight legs, so they're not insects. As a matter of fact, they eat insects."
         }
-      ]
+      ],
+      "narration": "assets/cock/COCK05NP.mp3"
     },
     {
       "id": "cave-life",
@@ -175,7 +180,8 @@
           "label": "Going out for dinner",
           "text": "After the sun sets, the bats flap out of the cave to hunt for flying insects."
         }
-      ]
+      ],
+      "narration": "assets/cock/COCK06NP.mp3"
     },
     {
       "id": "the-better-to-feel-with",
@@ -195,7 +201,8 @@
           "label": "Antennae or antlers?",
           "text": "It must be quite a chore for an oak bush cricket to keep these \"feelers\" from getting bent!"
         }
-      ]
+      ],
+      "narration": "assets/cock/COCK07NP.mp3"
     }
   ],
   "classic": {
@@ -322,6 +329,7 @@
     "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
   },
   "narration": "assets/cock/narration.mp3",
+  "sound": "assets/cock/COCK00AF.mp3",
   "video": {
     "title": "Born to eat",
     "src": "assets/cock/clip.mp4",
