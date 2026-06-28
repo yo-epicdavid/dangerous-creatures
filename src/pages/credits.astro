@@ -6,10 +6,10 @@ const d = readJSON('credits.json');
 ---
 <Layout title="Credits & Acknowledgements — Dangerous Creatures" desc="With thanks to the photographers, filmmakers, and agencies who captured these creatures.">
   <Topbar>
-    <a slot="right" class="btn" href="/">← Home</a>
+    <a slot="right" class="btn" href="/"><span class="arrow" aria-hidden="true">←</span> Home</a>
   </Topbar>
 
-  <main class="credits">
+  <main id="main-content" class="credits" tabindex="-1">
     <p class="kicker">Credits & Acknowledgements</p>
     <h1>With thanks to the people who captured these creatures</h1>
     <p>This is a <b>non-commercial, educational preservation</b> of <i>Microsoft Dangerous Creatures</i> (1994),
@@ -41,7 +41,7 @@ const d = readJSON('credits.json');
     <h2>The recreation</h2>
     <p>Asset restoration, text liberation, and the modern rebuild were done with care as a tribute to the original.
        Title set in Papyrus, in homage to the era. 🦁</p>
-    <a class="btn" href="/" style="margin-top:20px">← Back to the creatures</a>
+    <a class="btn" href="/" style="margin-top:20px"><span class="arrow" aria-hidden="true">←</span> Back to the creatures</a>
   </main>
 </Layout>
 

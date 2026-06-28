@@ -11,7 +11,7 @@ const GROUPS = [
 ---
 <Layout title="Guided Tours — Dangerous Creatures" desc="Twelve narrated journeys through the world of dangerous creatures.">
   <Topbar>
-    <a slot="right" class="btn" href="/">← All creatures</a>
+    <a slot="right" class="btn" href="/"><span class="arrow" aria-hidden="true">←</span> All creatures</a>
   </Topbar>
 
   <div class="guides-head">
@@ -19,7 +19,7 @@ const GROUPS = [
     <p>Twelve narrated journeys through the world of dangerous creatures, hosted by your guides.</p>
   </div>
 
-  <main class="wrap">
+  <main id="main-content" class="wrap" tabindex="-1">
     {GROUPS.map((g) => {
       const tours = guides.filter((t) => t.host === g.host);
       return tours.length === 0 ? null : (

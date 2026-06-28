@@ -12,19 +12,19 @@ const TABS = [
 ---
 <Layout title="Explore — Dangerous Creatures" desc="Browse the dangerous creatures by region, habitat, or weapon.">
   <Topbar>
-    <a slot="right" class="btn" href="/">← All creatures</a>
+    <a slot="right" class="btn" href="/"><span class="arrow" aria-hidden="true">←</span> All creatures</a>
   </Topbar>
 
   <div class="browse-head">
     <h1>Explore</h1>
     <div class="tabs">
       <div class="modeswitch" id="tabs" role="group" aria-label="Browse mode">
-        {TABS.map((t) => <button data-tab={t.key}>{t.label}</button>)}
+        {TABS.map((t) => <button data-tab={t.key} aria-pressed="false">{t.label}</button>)}
       </div>
     </div>
   </div>
 
-  <main class="wrap">
+  <main id="main-content" class="wrap" tabindex="-1">
     {TABS.map((t) => (
       <section class="tabpanel" data-tab={t.key} hidden={t.key !== 'regions'}>
         <p class="sub">{t.sub}</p>
@@ -47,7 +47,11 @@ const TABS = [
     function setTab(t, scroll) {
       tab = valid.includes(t) ? t : 'regions';
       panels.forEach((p) => (p.hidden = p.dataset.tab !== tab));
-      btns.forEach((b) => b.classList.toggle('is-active', b.dataset.tab === tab));
+      btns.forEach((b) => {
+        const active = b.dataset.tab === tab;
+        b.classList.toggle('is-active', active);
+        b.setAttribute('aria-pressed', active ? 'true' : 'false');
+      });
       history.replaceState(null, '', `?tab=${tab}${location.hash}`);
       document.title = { regions: 'By Region', habitats: 'By Habitat', weapons: 'By Weapon' }[tab] + ' — Dangerous Creatures';
       if (scroll && location.hash) {

@@ -10,6 +10,10 @@ const ogImage = new URL('/og-cover.jpg', Astro.site).href;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={desc} />
+    <!-- Tint the mobile browser chrome (iOS Safari address bar / notch area,
+         Android Chrome toolbar) to match the site's dark background. -->
+    <meta name="theme-color" content="#1b1714" />
+    <meta name="color-scheme" content="dark" />
     <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta property="og:title" content={title} />
@@ -22,6 +26,7 @@ const ogImage = new URL('/og-cover.jpg', Astro.site).href;
     <meta name="twitter:image" content={ogImage} />
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <slot />
   </body>
 </html>

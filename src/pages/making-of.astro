@@ -4,10 +4,10 @@ import Topbar from '../components/Topbar.astro';
 ---
 <Layout title="The Making Of — Dangerous Creatures" desc="How a 1994 CD-ROM became a modern web app: one disc, a decompressor, and a swarm of AI agents.">
   <Topbar>
-    <a slot="right" class="btn" href="/">Explore the creatures →</a>
+    <a slot="right" class="btn" href="/">Explore the creatures <span class="arrow" aria-hidden="true">→</span></a>
   </Topbar>
 
-  <main class="article">
+  <main id="main-content" class="article" tabindex="-1">
     <p class="kicker">The Making Of</p>
     <h1>How a 1994 CD&#8209;ROM<br /><b>came back to life</b></h1>
     <p class="dek">One disc, a decompressor, and a swarm of robots reading a children's encyclopedia.</p>
@@ -74,7 +74,7 @@ import Topbar from '../components/Topbar.astro';
       the people who captured these creatures in the first place.
     </div>
 
-    <a class="btn backlink" href="/">← Back to the creatures</a>
+    <a class="btn backlink" href="/"><span class="arrow" aria-hidden="true">←</span> Back to the creatures</a>
   </main>
 </Layout>
 

@@ -14,10 +14,41 @@
   --maxw: 1080px;
   --font: "Avenir Next", "Segoe UI", system-ui, -apple-system, sans-serif;
   --font-display: "Papyrus", "Bradley Hand", "Segoe Print", fantasy;
+  /* Render native controls (scrollbars, form fields, video chrome) dark to match. */
+  color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+
+/* ---------- accessibility helpers ---------- */
+/* Skip link: hidden until focused by keyboard, then revealed at top-left. */
+.skip-link {
+  position: absolute; left: 12px; top: -60px; z-index: 100;
+  background: var(--gold); color: #1b1410; font-weight: 700;
+  padding: 10px 16px; border-radius: 10px; text-decoration: none;
+  transition: top .15s;
+}
+.skip-link:focus { top: 12px; outline: none; }
+
+/* Clear, consistent keyboard focus ring everywhere. */
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; border-radius: 6px; }
+
+/* Honour users who ask for reduced motion. */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .creature:hover img { transform: none; }
+}
+
+/* Arrow / icon glyphs sit centered with their button label rather than
+   riding high or low on the text baseline. */
+.arrow { display: inline-block; line-height: 1; vertical-align: middle; }
 body {
   margin: 0;
   font-family: var(--font);

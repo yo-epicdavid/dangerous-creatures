@@ -5,16 +5,16 @@ import { readJSON } from '../lib/data.js';
 const list = readJSON('index.json');
 ---
 <Layout title="Dangerous Creatures — reborn">
-  <main class="wrap">
+  <main id="main-content" class="wrap" tabindex="-1">
     <div class="cover">
       <h1><b>Dangerous</b><br />Creatures</h1>
       <p>The classic 1994 wildlife explorer, reborn for the web — so any kid can meet the planet’s most fascinating animals.</p>
-      <nav class="explore-nav">
-        <a class="btn" href="/browse?tab=regions">🌍 By Region</a>
-        <a class="btn" href="/browse?tab=habitats">🌿 By Habitat</a>
-        <a class="btn" href="/browse?tab=weapons">⚔️ By Weapon</a>
-        <a class="btn btn--play" href="/guides">🧭 Guided Tours</a>
-        <a class="btn btn--play" href="/games">🎮 Games</a>
+      <nav class="explore-nav" aria-label="Browse the creatures">
+        <a class="btn" href="/browse?tab=regions"><span class="arrow" aria-hidden="true">🌍</span> By Region</a>
+        <a class="btn" href="/browse?tab=habitats"><span class="arrow" aria-hidden="true">🌿</span> By Habitat</a>
+        <a class="btn" href="/browse?tab=weapons"><span class="arrow" aria-hidden="true">⚔️</span> By Weapon</a>
+        <a class="btn btn--play" href="/guides"><span class="arrow" aria-hidden="true">🧭</span> Guided Tours</a>
+        <a class="btn btn--play" href="/games"><span class="arrow" aria-hidden="true">🎮</span> Games</a>
       </nav>
     </div>
 
@@ -24,7 +24,7 @@ const list = readJSON('index.json');
 
     <footer class="sitefoot">
       <p class="links">
-        <a href="/making-of">✦ The Making Of</a> &nbsp;·&nbsp;
+        <a href="/making-of"><span aria-hidden="true">✦</span> The Making Of</a> &nbsp;·&nbsp;
         <a href="/credits">Credits &amp; Acknowledgements</a>
       </p>
       <p class="notice">

@@ -7,10 +7,10 @@ const QUIZ = readJSON('quiz.json');
 ---
 <Layout title="Games — Dangerous Creatures" desc="Test your dangerous-creature smarts.">
   <Topbar>
-    <a slot="right" class="btn" href="/">← All creatures</a>
+    <a slot="right" class="btn" href="/"><span class="arrow" aria-hidden="true">←</span> All creatures</a>
   </Topbar>
 
-  <main id="app" class="wrap"><p class="loading">Loading games…</p></main>
+  <main id="main-content" class="wrap" tabindex="-1"><p class="loading">Loading games…</p></main>
   <audio id="sfx-win" src="/assets/games/winner.mp3" preload="auto"></audio>
   <audio id="sfx-lose" src="/assets/games/loser.mp3" preload="auto"></audio>
 
@@ -19,7 +19,7 @@ const QUIZ = readJSON('quiz.json');
     const game = params.get('game');
     const ROUNDS = 10;
     const el = (t, p = {}, ...k) => { const n = Object.assign(document.createElement(t), p); for (const c of k) n.append(c); return n; };
-    const app = document.getElementById('app');
+    const app = document.getElementById('main-content');
     const win = document.getElementById('sfx-win'), lose = document.getElementById('sfx-lose');
     const asset = (p) => (!p ? p : p.startsWith('/') ? p : '/' + p);
     const shuffle = (a) => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
@@ -54,14 +54,14 @@ const QUIZ = readJSON('quiz.json');
         app.innerHTML = '';
         const root = el('div', { className: 'game' });
         app.append(root);
-        root.append(el('a', { className: 'btn', href: '/games', textContent: '← Games' }));
+        root.append(el('a', { className: 'btn', href: '/games', innerHTML: '<span class="arrow" aria-hidden="true">←</span> Games' }));
         const bar = el('div', { className: 'scorebar' });
         bar.append(el('span', { textContent: `Question ${idx + 1} of ${rounds.length}` }), el('span', { className: 'grow' }),
-          el('span', { textContent: `Score: ${score}` }), el('progress', { max: rounds.length, value: idx }));
+          el('span', { textContent: `Score: ${score}` }), el('progress', { max: rounds.length, value: idx, ariaLabel: `Question ${idx + 1} of ${rounds.length}` }));
         root.append(bar);
         const q = el('div', { className: 'q' });
         q.append(el('p', { className: 'q__prompt', innerHTML: r.prompt }));
-        if (r.image) { const m = el('div', { className: 'q__media' }); m.append(el('img', { src: r.image, alt: 'clue' })); q.append(m); }
+        if (r.image) { const m = el('div', { className: 'q__media' }); m.append(el('img', { src: r.image, alt: 'Mystery creature — visual clue' })); q.append(m); }
         const choices = el('div', { className: 'choices' });
         for (const c of r.choices) {
           const b = el('button', { className: 'choice', textContent: c.label });
@@ -77,11 +77,11 @@ const QUIZ = readJSON('quiz.json');
         if (!right) btn.classList.add('wrong');
         (right ? win : lose).play().catch(() => {});
         if (right) score++;
-        const rev = el('div', { className: 'reveal' });
+        const rev = el('div', { className: 'reveal', role: 'status' });
         rev.append(el('div', { className: `verdict ${right ? 'yes' : 'no'}`, textContent: right ? 'Correct! 🎉' : `Nope — it's the ${r.answer}.` }));
         if (r.revealImage) rev.append(el('img', { src: r.revealImage, alt: r.answer }));
         if (r.revealHTML) rev.append(el('p', { innerHTML: r.revealHTML }));
-        const next = el('button', { className: 'btn btn--play', textContent: idx + 1 < rounds.length ? 'Next →' : 'See results' });
+        const next = el('button', { className: 'btn btn--play', innerHTML: idx + 1 < rounds.length ? 'Next <span class="arrow" aria-hidden="true">→</span>' : 'See results' });
         next.style.marginTop = '16px';
         next.addEventListener('click', () => { idx++; idx < rounds.length ? render() : end(); });
         rev.append(el('div', {}, next));
@@ -108,7 +108,7 @@ const QUIZ = readJSON('quiz.json');
       const all = EYES.puzzles.map((p) => p.answer);
       const build = () => shuffle(EYES.puzzles.slice()).slice(0, ROUNDS).map((p) => {
         const opts = shuffle([p.answer, ...sample(all, 3, [p.answer])]);
-        const link = p.slug ? ` <a href="/animal/${p.slug}">Meet the ${p.answer} →</a>` : '';
+        const link = p.slug ? ` <a href="/animal/${p.slug}">Meet the ${p.answer} <span class="arrow" aria-hidden="true">→</span></a>` : '';
         return { prompt: 'Whose eyes are these?', image: asset(p.clue), answer: p.answer, choices: opts.map((o) => ({ label: o })), revealImage: asset(p.reveal), revealHTML: link };
       });
       const go = () => runGame(build(), { restart: go });
