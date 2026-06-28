@@ -195,6 +195,7 @@ img { max-width: 100%; display: block; }
 .mini-listen.sound { color: var(--rust); border-color: #d9542b66; }
 .mini-listen.sound:hover { background: #d9542b1a; border-color: var(--rust); }
 .hear-row { margin: 10px 0 0; }
+.factcard .mini-listen { margin: 12px 18px 2px; }
 
 /* ---------- mobile ---------- */
 @media (max-width: 680px) {

@@ -19,7 +19,6 @@ const regionChips = (d.regions || []).map((r) => chip(r, 'regions'));
       <button data-mode="modern">Modern</button>
       <button data-mode="classic">Classic 1994</button>
     </div>
-    <button slot="right" id="narrate" class="btn btn--play" hidden>▶ Listen to the story</button>
   </Topbar>
 
   <main id="app" class="wrap">
@@ -39,7 +38,7 @@ const regionChips = (d.regions || []).map((r) => chip(r, 'regions'));
 
       {d.sound && (
         <p class="hear-row">
-          <button class="mini-listen sound" data-listen={asset(d.sound)} aria-label={`Hear the ${d.name}`}>🔊 Hear the {d.name}</button>
+          <button class="mini-listen sound" id="hear-sound" aria-label={`Hear the ${d.name}`}>🔊 Hear the {d.name}</button>
         </p>
       )}
 
@@ -58,6 +57,7 @@ const regionChips = (d.regions || []).map((r) => chip(r, 'regions'));
         <div class="intro"><p class="lead">{d.intro}</p></div>
         <aside class="factcard">
           <h2>Field notes</h2>
+          {d.factsNarration && <button class="mini-listen fact-listen" data-listen={asset(d.factsNarration)} aria-label="Listen to the field notes">▶ Listen</button>}
           <dl>
             {facts.map((f) => (
               <div class={f.danger ? 'danger' : ''}>
@@ -116,8 +116,6 @@ const regionChips = (d.regions || []).map((r) => chip(r, 'regions'));
     <div id="classic" hidden></div>
   </main>
 
-  <audio id="narration" preload="none"></audio>
-
   <script define:vars={{ data: d }}>
     const params = new URLSearchParams(location.search);
     const MODE_KEY = 'dc-mode';
@@ -134,8 +132,6 @@ const regionChips = (d.regions || []).map((r) => chip(r, 'regions'));
     };
     const modern = document.getElementById('modern');
     const classicEl = document.getElementById('classic');
-    const narrateBtn = document.getElementById('narrate');
-    const audio = document.getElementById('narration');
 
     document.querySelectorAll('#modeswitch button').forEach((b) =>
       b.addEventListener('click', () => setMode(b.dataset.mode)));
@@ -150,15 +146,12 @@ const regionChips = (d.regions || []).map((r) => chip(r, 'regions'));
       scrollTo({ top: 0 });
     }
 
-    if (data.narration) {
-      audio.src = asset(data.narration);
-      narrateBtn.hidden = false;
-      narrateBtn.addEventListener('click', () => { audio.paused ? audio.play() : audio.pause(); });
-      const reset = () => { narrateBtn.textContent = '▶ Listen to the story'; narrateBtn.classList.remove('is-playing'); };
-      audio.addEventListener('play', () => { narrateBtn.textContent = '❚❚ Pause'; narrateBtn.classList.add('is-playing'); });
-      audio.addEventListener('pause', reset);
-      audio.addEventListener('ended', reset);
-    }
+    // the animal's sound — autoplays on entry (like the original), replayable via the button
+    const ambient = data.sound ? new Audio(asset(data.sound)) : null;
+    if (ambient) ambient.volume = 0.8;
+    function playAmbient() { if (ambient) { ambient.currentTime = 0; ambient.play().catch(() => {}); } }
+    const hearBtn = document.getElementById('hear-sound');
+    if (hearBtn) hearBtn.addEventListener('click', playAmbient);
 
     function renderClassic() {
       const c = data.classic;
@@ -211,7 +204,7 @@ const regionChips = (d.regions || []).map((r) => chip(r, 'regions'));
       show(c.start);
     }
 
-    // short-clip player: sub-topic narration + the animal's sound
+    // short-clip player: sub-topic narration + fact-box narration
     const clip = new Audio();
     let clipBtn = null;
     const clearClip = () => { if (clipBtn) clipBtn.classList.remove('playing'); clipBtn = null; };
@@ -219,7 +212,7 @@ const regionChips = (d.regions || []).map((r) => chip(r, 'regions'));
     document.querySelectorAll('[data-listen]').forEach((b) => {
       b.addEventListener('click', () => {
         if (clipBtn === b && !clip.paused) { clip.pause(); clearClip(); return; }
-        if (data.narration) audio.pause();            // don't talk over the article narration
+        if (ambient) ambient.pause();                 // don't talk over the narration
         if (clipBtn) clipBtn.classList.remove('playing');
         clip.src = b.getAttribute('data-listen');
         clip.play().catch(() => {});
@@ -228,5 +221,13 @@ const regionChips = (d.regions || []).map((r) => chip(r, 'regions'));
     });
 
     apply();
+
+    // greet you with the animal's sound on landing (modern view), within browser autoplay rules
+    if (ambient && mode === 'modern') {
+      ambient.play().catch(() => {
+        const once = () => { playAmbient(); ['pointerdown', 'keydown', 'touchstart'].forEach((e) => window.removeEventListener(e, once)); };
+        ['pointerdown', 'keydown', 'touchstart'].forEach((e) => window.addEventListener(e, once, { once: true, passive: true }));
+      });
+    }
   </script>
 </Layout>

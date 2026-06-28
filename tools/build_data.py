@@ -243,10 +243,10 @@ def main():
             "classic": {"start": "main", "screens": screens},
             "_provenance": PROV,
         }
-        if has_narr:
-            page["narration"] = asset(slug, "narration.mp3")
         if os.path.exists(os.path.join(WEB, "assets", slug, f"{code}00AF.mp3")):
-            page["sound"] = asset(slug, f"{code}00AF.mp3")  # the animal's own call/roar
+            page["sound"] = asset(slug, f"{code}00AF.mp3")  # the animal's call/roar (autoplays on entry)
+        if os.path.exists(os.path.join(WEB, "assets", slug, f"{code}00FB.mp3")):
+            page["factsNarration"] = asset(slug, f"{code}00FB.mp3")  # fact-box "Free Advice" narration
         if video:
             page["video"] = video
 

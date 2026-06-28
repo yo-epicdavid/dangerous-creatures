@@ -18,7 +18,7 @@ def to_mp3(src, dst):
 
 def main():
     manifest = json.load(open(os.path.join(WEB, "extracted-manifest.json")))
-    np_n = af_n = 0
+    np_n = af_n = fb_n = 0
     for slug, info in manifest.items():
         code = info["code"]
         out = os.path.join(WEB, "assets", slug)
@@ -33,7 +33,12 @@ def main():
         if af:
             to_mp3(af[0], os.path.join(out, f"{code}00AF.mp3"))
             af_n += 1
-    print(f"sub-topic narrations: {np_n}  |  animal sounds: {af_n}  -> web/assets/*/")
+        # fact-box "Free Advice" narration: AAFBOX/<bucket>/<CODE>00FB.WAV
+        fb = glob.glob(os.path.join(DISC, "AAFBOX", "**", f"{code}00FB.WAV"), recursive=True)
+        if fb:
+            to_mp3(fb[0], os.path.join(out, f"{code}00FB.mp3"))
+            fb_n += 1
+    print(f"sub-topic narrations: {np_n}  |  animal sounds: {af_n}  |  fact-box narrations: {fb_n}  -> web/assets/*/")
 
 
 if __name__ == "__main__":
