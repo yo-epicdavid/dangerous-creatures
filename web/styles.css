@@ -220,13 +220,24 @@ img { max-width: 100%; display: block; }
 .chip:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-1px); }
 
 /* ---------- small inline audio buttons (sub-topic narration + animal sound) ---------- */
-.mini-listen { display: inline-flex; align-items: center; gap: 6px; font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; color: var(--gold); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 3px 12px; margin: 0 0 8px; transition: .12s; }
-.mini-listen:hover { border-color: var(--gold); background: #e8a33d14; }
-.mini-listen.playing { background: var(--gold); color: #1b1410; border-color: var(--gold); }
-.mini-listen.sound { color: var(--rust); border-color: #d9542b66; }
-.mini-listen.sound:hover { background: #d9542b1a; border-color: var(--rust); }
-.hear-row { margin: 10px 0 0; }
-.factcard .mini-listen { margin: 12px 18px 2px; }
+/* Big, obviously-tappable "press me to hear it" buttons, sized for small hands.
+   Filled by default so kids can tell at a glance they make sound, and they
+   flip to green while playing for clear feedback. */
+.mini-listen {
+  display: inline-flex; align-items: center; gap: 9px;
+  font: inherit; font-size: 17px; font-weight: 700; cursor: pointer;
+  color: #1b1410; background: var(--gold);
+  border: 2px solid var(--gold); border-radius: 999px;
+  padding: 11px 22px; min-height: 48px; margin: 0 0 10px;
+  box-shadow: 0 3px 10px #0004; transition: .12s;
+}
+.mini-listen .arrow { font-size: 20px; }
+.mini-listen:hover { transform: translateY(-2px); box-shadow: 0 6px 18px #0006; }
+.mini-listen.playing { background: var(--green); border-color: var(--green); color: #0e1408; }
+.mini-listen.sound { color: #fff; background: var(--rust); border-color: var(--rust); font-size: 18px; }
+.mini-listen.sound:hover { background: #e0613a; border-color: #e0613a; }
+.hear-row { margin: 14px 0 0; }
+.factcard .mini-listen { display: inline-flex; margin: 14px 18px 4px; }
 
 /* ---------- mobile ---------- */
 @media (max-width: 680px) {
