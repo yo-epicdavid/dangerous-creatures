@@ -1,0 +1,222 @@
+{
+  "id": "myth",
+  "code": "MYTH",
+  "name": "Myths and Legends",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Sea monsters, sirens, and ghost ships — the ocean has always fired the human imagination.",
+  "zones": [
+    "Open ocean"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/myth/MYTH00AA.webp",
+    "alt": "Myths and Legends"
+  },
+  "intro": "The vastness of the sea has always stimulated the human mind and spirit. And there's plenty of time for the imagination to run wild while crossing any ocean. So for centuries the seas have been a rich source of spiritual and religious beliefs, tales and legends, superstitions, myths, accounts of mermaids and monsters, and even spine-chilling ghost stories.",
+  "facts": [
+    {
+      "label": "Sirens",
+      "value": "In Greek mythology, sirens were horrible half-woman, half-bird monsters who lured sailors to their deaths by singing irresistible songs."
+    },
+    {
+      "label": "Kraken",
+      "value": "The legendary kraken may have been inspired by giant squid, which can reach up to 18.3 m (60 ft) in length."
+    },
+    {
+      "label": "Oarfish size",
+      "value": "The crested oarfish grows to more than 12 m (40 ft) long — rare sightings may have sparked sea monster stories."
+    },
+    {
+      "label": "Ghost ship",
+      "value": "The Fannie E. Wolston was said to have covered 8,965 miles in three years, unguided, sighted 46 times before finally sailing ashore with a dog and a cat — but no crew on board."
+    },
+    {
+      "label": "Merpeople",
+      "value": "Vikings believed an entire tribe of ferocious merpeople lived beneath the waves and were responsible for many disasters at sea."
+    },
+    {
+      "label": "Did you know",
+      "value": "In 1900, the keepers of a lighthouse on an uninhabited island off the coast of Scotland completely disappeared — despite entries in their log of calm weather just the day before."
+    }
+  ],
+  "topics": [
+    {
+      "id": "siren-songs",
+      "title": "Siren songs",
+      "image": "assets/myth/MYTH01PU.webp",
+      "text": "Females have always played major roles in the mythology of the sea. In Greek mythology, sirens were horrible half-woman, half-bird monsters who lured sailors to their deaths by singing irresistible songs. In later legends, sirens lost their monstrous appearance, but kept their deadly habits.",
+      "narration": "assets/myth/MYTH01JN.mp3"
+    },
+    {
+      "id": "lively-legends",
+      "title": "Lively legends",
+      "image": "assets/myth/MYTH02PU.webp",
+      "text": "The oceans are a rich source of legends—stories that have been passed down from generation to generation. Sinbad the Sailor in Arabian Nights goes on seven voyages of adventure, encountering pirates, cannibals, monsters, and other incredible characters and creatures. The stories of Sinbad (sometimes spelled Sindbad) originated in Arab culture, but have been published in many languages throughout the world.",
+      "narration": "assets/myth/MYTH02JN.mp3"
+    },
+    {
+      "id": "mermaids-and-mermen",
+      "title": "Mermaids and mermen",
+      "image": "assets/myth/MYTH03PU.webp",
+      "text": "Sailors from many different nations reported sightings of mermaids—sea creatures that were half-women, half-fish. The Vikings believed not only in mermaids, but also in mermen. According to their legends, the merpeople—a whole tribe of ferocious beings—lived beneath the waves, and were responsible for many disasters at sea.",
+      "narration": "assets/myth/MYTH03JN.mp3"
+    },
+    {
+      "id": "unexplained-disappearances",
+      "title": "Unexplained disappearances",
+      "image": "assets/myth/MYTH04PU.webp",
+      "text": "Stories about disappearing ships and crews abound. The Fannie E. Wolston was said to have covered 8,965 miles in three years, unguided. She was sighted 46 times and finally sailed ashore in the 1750s near Newport, Rhode Island with a dog and a cat, the table laid, pots of food on the stove—but no crew on board. In 1900 the keepers of a lighthouse on an uninhabited island off the coast of Scotland completely disappeared—despite entries in their log of calm weather just the day before!",
+      "narration": "assets/myth/MYTH04JN.mp3"
+    },
+    {
+      "id": "still-out-there",
+      "title": "Still out there",
+      "image": "assets/myth/MYTH05PU.webp",
+      "text": "Many myths and legends are based on sightings of existing creatures by ancient sailors. Without much knowledge of the world beneath the water's surface, a glimpse of any large animal could be misinterpreted as a monster.",
+      "captions": [
+        {
+          "label": "Big, but not bad",
+          "text": "The sight of rare, big fish such as this crested oarfish, which can grow to more than 12 m (40 ft) long, may have accounted for a few sea monster stories."
+        },
+        {
+          "label": "Monster on the move",
+          "text": "Encounters with basking sharks have startled many sailors. These giant filter feeders often swim near the surface, where the plankton are thick. Basking sharks occasionally collide with boats."
+        }
+      ],
+      "narration": "assets/myth/MYTH05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Manatees and Dugongs",
+      "to": "mana"
+    },
+    {
+      "label": "Arts & Literature of the Sea"
+    },
+    {
+      "label": "Saltwater Crocodiles",
+      "to": "croc"
+    },
+    {
+      "label": "Disasters at Sea",
+      "to": "disa"
+    },
+    {
+      "label": "Octopuses",
+      "to": "octo"
+    },
+    {
+      "label": "Starfish",
+      "to": "star"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/myth/MYTH00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 9,
+            "h": 8
+          },
+          {
+            "label": "Still out there",
+            "to": "still-out-there",
+            "x": 28,
+            "y": 17,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Mermaids and mermen",
+            "to": "mermaids-and-mermen",
+            "x": 57,
+            "y": 11,
+            "w": 27,
+            "h": 6
+          },
+          {
+            "label": "Unexplained disappearances",
+            "to": "unexplained-disappearances",
+            "x": 54,
+            "y": 27,
+            "w": 30,
+            "h": 6
+          },
+          {
+            "label": "Many-armed monsters",
+            "to": "video",
+            "x": 57,
+            "y": 82,
+            "w": 26,
+            "h": 7
+          },
+          {
+            "label": "Lively legends",
+            "to": "lively-legends",
+            "x": 3,
+            "y": 73,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Siren songs",
+            "to": "siren-songs",
+            "x": 3,
+            "y": 82,
+            "w": 14,
+            "h": 6
+          }
+        ]
+      },
+      "siren-songs": {
+        "image": "assets/myth/MYTH01PU.webp",
+        "back": "main"
+      },
+      "lively-legends": {
+        "image": "assets/myth/MYTH02PU.webp",
+        "back": "main"
+      },
+      "mermaids-and-mermen": {
+        "image": "assets/myth/MYTH03PU.webp",
+        "back": "main"
+      },
+      "unexplained-disappearances": {
+        "image": "assets/myth/MYTH04PU.webp",
+        "back": "main"
+      },
+      "still-out-there": {
+        "image": "assets/myth/MYTH05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/myth/clip.mp4",
+        "poster": "assets/myth/MYTH06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/myth/MYTH00JN.mp3",
+  "sound": "assets/myth/MYTH00IX.mp3",
+  "video": {
+    "title": "Many-armed monsters",
+    "src": "assets/myth/clip.mp4",
+    "poster": "assets/myth/poster.webp",
+    "caption": "Many different cultures have produced tales of giant monsters with multiple arms that swim up from the depths to grab passing ships. In Greek legend, one such creature was known as a hydra. In Scandinavian legends, this monster was called the kraken. These stories may have had some basis in reality: they may be exaggerated reports of giant squid, which can reach up to 18.3 m (60 ft) in length but have never been known to attack ships.",
+    "narration": "assets/myth/MYTH06JN.mp3"
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "id": "indn",
+  "code": "INDN",
+  "name": "Indian Ocean",
+  "category": "place",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "The world's warmest ocean — where ancient fish still swim, monsoons flip the currents, and a whole new sea is slowly being born.",
+  "zones": [
+    "Coral reef",
+    "Open ocean",
+    "Deep sea",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Indian Ocean"
+  ],
+  "hero": {
+    "image": "assets/indn/INDN00AA.webp",
+    "alt": "Indian Ocean"
+  },
+  "intro": "The Indian Ocean lies in the warm latitudes of the tropics and the subtropics. Although it harbors many animals found in the Pacific, over half of its fish species are unique to this area. The islands here were formed in three basic ways. Atolls such as the Maldives are made of coral reefs. Other islands were formed by underwater volcanoes. Madagascar is neither an atoll nor a volcanic island, but a landmass that broke off from an ancient supercontinent called Gondwanaland.",
+  "facts": [
+    {
+      "label": "Unique fish",
+      "value": "Over half of the Indian Ocean's fish species are found nowhere else on Earth."
+    },
+    {
+      "label": "Longest ridge",
+      "value": "The Ninety East Ridge is the longest straight feature on earth, stretching over 2,735 km (1,700 mi)."
+    },
+    {
+      "label": "Krakatau blast",
+      "value": "The 1883 Krakatau explosion was heard almost 4,830 km (3,000 mi) away in Madagascar, and its tsunamis killed more than 36,000 people."
+    },
+    {
+      "label": "Living fossil",
+      "value": "The coelacanth — once thought extinct — was rediscovered in 1938 and can grow 1.5 to 2 m (5 to 6.5 ft) long, weighing 54 to 57 kg (120 to 126 lb)."
+    },
+    {
+      "label": "Whale sanctuary",
+      "value": "In 1979 the Indian Ocean was designated as an international sanctuary for whales, dolphins, and porpoises."
+    },
+    {
+      "label": "Growing sea",
+      "value": "The Red Sea widens about 2 cm (.8 in) every year — it is slowly becoming a full-sized ocean."
+    }
+  ],
+  "topics": [
+    {
+      "id": "underwater-scenery",
+      "title": "Underwater scenery",
+      "image": "assets/indn/INDN01PU.webp",
+      "text": "The floor of the Indian Ocean is a spectacular combination of lofty mountains and vast, featureless plains. The mighty Indus and Ganges rivers dump huge amounts of sediment off the coast of India, forming underwater deltas. Lava oozes out along the crests of underwater mountain chains called ridges, creating new ocean floor. The Ninety East Ridge, located on the 90°E line of longitude, is the longest straight feature on earth, stretching over 2,735 km (1,700 mi). Africa and the Arabian Peninsula are slowly being wrenched apart along the Gulf of Aden and the Red Sea, while farther east the Java Trench marks where the ocean floor is subducting, or sliding under, the Asian continent.",
+      "narration": "assets/indn/INDN01JN.mp3"
+    },
+    {
+      "id": "deadly-tsunamis",
+      "title": "Deadly tsunamis",
+      "image": "assets/indn/INDN02PU.webp",
+      "text": "In 1883 the island of Krakatau, located at the intersection of two giant faults east of the Java Trench, was pulverized by a volcanic eruption. Seawater and hot magma combined to form steam, which set off one of the greatest explosions in history. The blast was heard in Madagascar—almost 4,830 km (3,000 mi) away! The great hole left behind, along with cracks in the sea floor made by earthquakes, caused gigantic tsunamis. These huge waves traveled 644 km (400 mi) per hour and killed more than 36,000 people on the islands of Java and Sumatra.",
+      "narration": "assets/indn/INDN02JN.mp3"
+    },
+    {
+      "id": "not-extinct-after-all",
+      "title": "Not extinct after all",
+      "image": "assets/indn/INDN03PU.webp",
+      "text": "For many years, scientists believed that the coelacanth was extinct. But in 1938 fishermen near Madagascar caught one of these deep-water fish in their nets. Since then about a hundred others have been caught near the Comoros Islands, where natives use the fish's rough scales as sandpaper. Coelacanths are big: they're about 1.5 to 2 m (5 to 6.5 ft) long, and they can weigh 54 to 57 kg (120 to 126 lb). Unlike most fish, which lay eggs, these living fossils give birth to their young. This supports the theory that land vertebrates may have evolved from the group of primitive fish that includes this species.",
+      "captions": [
+        {
+          "label": "Coelacanth",
+          "text": "Latimeria chalumnae"
+        }
+      ],
+      "narration": "assets/indn/INDN03JN.mp3"
+    },
+    {
+      "id": "reversing-currents",
+      "title": "Reversing currents",
+      "image": "assets/indn/INDN04PU.webp",
+      "text": "Monsoon winds cause the currents of the northern Indian Ocean to change direction twice a year. In the winter months the winds flow out of the northeast, across the Asian continent. This brings cold, dry weather and forces ocean currents to move in a counterclockwise direction. In the summer the winds reverse and blow from the southwest, carrying warm, moist air from the Bay of Bengal, which brings heavy rains to India. Currents are blown clockwise, which causes colder waters to rise, bringing nutrients to the surface and providing a feast for the marine animals that live along the coasts of Somalia and Oman.",
+      "narration": "assets/indn/INDN04JN.mp3"
+    },
+    {
+      "id": "a-future-ocean",
+      "title": "A future ocean",
+      "image": "assets/indn/INDN06PU.webp",
+      "text": "The Red Sea began opening up about 50 to 70 million years ago, and it widens about 2 cm (.8 in) every year. In the middle of the Red Sea is an active spreading center which spews out hot volcanic water and covers the sea floor with metallic muds. This deep, salty sea gets its name from the abundant algae that occasionally cause red tides. Over 350 species of corals thrive in this area, and its extensive reefs make it a popular destination for divers.",
+      "captions": [
+        {
+          "label": "Soft coral",
+          "text": "Dendronephthya mucronata"
+        }
+      ],
+      "narration": "assets/indn/INDN06JN.mp3"
+    },
+    {
+      "id": "the-persian-gulf",
+      "title": "The Persian Gulf",
+      "image": "assets/indn/INDN07PU.webp",
+      "text": "A young sea, the Persian Gulf began to appear between 3 and 4 million years ago. Currents circulate slowly in these shallow waters, making them warm and salty. This lack of circulation slows recovery from petroleum spills caused by the region's many oil fields and heavy tanker traffic. Oil pollution poses particular hazards to local desalination plants and fisheries, as well as to wildlife such as birds, turtles, and dugongs.",
+      "captions": [
+        {
+          "label": "Dugong",
+          "text": "Dugong dugon"
+        }
+      ],
+      "narration": "assets/indn/INDN07JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Baleen Whales",
+      "to": "whlb"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/indn/INDN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Reversing currents",
+            "to": "reversing-currents",
+            "x": 64,
+            "y": 33,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Underwater scenery",
+            "to": "underwater-scenery",
+            "x": 58,
+            "y": 41,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "The Persian Gulf",
+            "to": "the-persian-gulf",
+            "x": 1,
+            "y": 57,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Whale sanctuary",
+            "to": "video",
+            "x": 40,
+            "y": 55,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Not extinct after all",
+            "to": "not-extinct-after-all",
+            "x": 58,
+            "y": 62,
+            "w": 31,
+            "h": 5
+          },
+          {
+            "label": "Deadly tsunamis",
+            "to": "deadly-tsunamis",
+            "x": 29,
+            "y": 69,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "A future ocean",
+            "to": "a-future-ocean",
+            "x": 48,
+            "y": 74,
+            "w": 23,
+            "h": 5
+          }
+        ]
+      },
+      "underwater-scenery": {
+        "image": "assets/indn/INDN01PU.webp",
+        "back": "main"
+      },
+      "deadly-tsunamis": {
+        "image": "assets/indn/INDN02PU.webp",
+        "back": "main"
+      },
+      "not-extinct-after-all": {
+        "image": "assets/indn/INDN03PU.webp",
+        "back": "main"
+      },
+      "reversing-currents": {
+        "image": "assets/indn/INDN04PU.webp",
+        "back": "main"
+      },
+      "a-future-ocean": {
+        "image": "assets/indn/INDN06PU.webp",
+        "back": "main"
+      },
+      "the-persian-gulf": {
+        "image": "assets/indn/INDN07PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/indn/clip.mp4",
+        "poster": "assets/indn/INDN05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/indn/INDN00JN.mp3",
+  "sound": "assets/indn/INDN00IX.mp3",
+  "video": {
+    "title": "Whale sanctuary",
+    "src": "assets/indn/clip.mp4",
+    "poster": "assets/indn/poster.webp",
+    "caption": "Humpback whale with calf — the Indian Ocean was designated an international sanctuary for whales, dolphins, and porpoises in 1979, and most baleen whales and 33 species of toothed cetaceans come here to breed.",
+    "narration": "assets/indn/INDN05JN.mp3"
+  }
+}

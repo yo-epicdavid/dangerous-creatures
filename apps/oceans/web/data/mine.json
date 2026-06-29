@@ -1,0 +1,226 @@
+{
+  "id": "mine",
+  "code": "MINE",
+  "name": "Minerals from the Sea",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "A treasure chest of gold, oil, and gems is hiding beneath the waves!",
+  "zones": [
+    "Coast & tide pools",
+    "Open ocean",
+    "Deep sea"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/mine/MINE00AA.webp",
+    "alt": "Minerals from the Sea"
+  },
+  "intro": "A treasure chest of valuable minerals lies beneath the sea. Such diverse resources as oil, gold, sand, and gravel are hidden beneath the waves, in locations ranging from beaches to the deepest parts of the ocean. But finding and recovering these deposits isn't easy, and it's often cheaper to mine similar deposits on land. In addition, special machines are needed to handle the dangerous conditions caused by waves, deep water, and pressure.",
+  "facts": [
+    {
+      "label": "Resources",
+      "value": "Oil, gold, sand, and gravel are hidden beneath the sea, in locations ranging from beaches to the deepest parts of the ocean."
+    },
+    {
+      "label": "Deep nuggets",
+      "value": "Manganese nodules on the deep ocean floor contain copper, cobalt, nickel, manganese, and other minerals, and grow slowly as chemicals in seawater build up in layers around a nucleus, such as a piece of bone."
+    },
+    {
+      "label": "Salt",
+      "value": "Roughly one third of the world's salt is harvested from the sea — it provides traction on road surfaces, preserves food, and flavors our meals."
+    },
+    {
+      "label": "Hydrothermal vents",
+      "value": "At mid-ocean ridges, seawater seeps into cracks, is heated by underground magma, and rises loaded with minerals that form tall, chimneylike stacks."
+    },
+    {
+      "label": "Gold rush",
+      "value": "During the last century, hoards of miners camped on the frigid beaches of Nome, Alaska, and panned the sands for gold."
+    },
+    {
+      "label": "Diamonds",
+      "value": "On the coast of southwestern Africa, beaches are dredged for tiny diamonds."
+    }
+  ],
+  "topics": [
+    {
+      "id": "ready-for-delivery",
+      "title": "Ready for delivery",
+      "image": "assets/mine/MINE02PU.webp",
+      "text": "Certain places on the sea floor contain useful minerals. Some of these areas can be mined now, but others are too deep—they'll be left to future explorers!",
+      "captions": [
+        {
+          "label": "Precious nuggets",
+          "text": "Manganese nodules lie in certain locations on the deep ocean floor. These metallic clumps contain copper, cobalt, nickel, manganese, and other minerals. They grow slowly as chemicals in seawater build up in layers around a nucleus, such as a piece of bone."
+        },
+        {
+          "label": "Disruptive dredging",
+          "text": "Sand and gravel on the continental shelves are scooped up for use as building materials. However, this process can destroy habitats and stir up clouds of sediment that reduce photosynthesis and kill reef organisms and other creatures. Local wave and current patterns may also be altered, which can increase coastal erosion."
+        }
+      ],
+      "narration": "assets/mine/MINE02JN.mp3"
+    },
+    {
+      "id": "the-birth-of-minerals",
+      "title": "The birth of minerals",
+      "image": "assets/mine/MINE03PU.webp",
+      "text": "At certain places on mid-ocean ridges are hydrothermal vents, where unusual creatures flourish in the icy darkness. As the sea floor is pulled apart at these ridges, seawater seeps into the resulting cracks. The water is heated by underground magma and rises up to the ocean floor, now loaded with minerals. These minerals form tall, chimneylike stacks around the vents from which this heated water is pumped back into the cold ocean water. Giant tubeworms and clams add to the eeriness of this bizarre environment.",
+      "narration": "assets/mine/MINE03JN.mp3"
+    },
+    {
+      "id": "basic-needs",
+      "title": "Basic needs",
+      "image": "assets/mine/MINE04PU.webp",
+      "text": "What's in seawater? Fresh water and salt, among other things—substances we often take for granted. However, we couldn't live more than a few days without water, and salt makes our lives easier in many different ways.",
+      "captions": [
+        {
+          "label": "Water factories",
+          "text": "Creating fresh water from seawater through desalination is usually more expensive than obtaining water from other sources. However, in some areas, the lack of other available water makes it worth the cost."
+        },
+        {
+          "label": "Please pass the salt",
+          "text": "Roughly one third of the world's salt is harvested from the sea. Salt provides traction on road surfaces, preserves food, and flavors our meals."
+        }
+      ],
+      "narration": "assets/mine/MINE04JN.mp3"
+    },
+    {
+      "id": "sifting-the-sands",
+      "title": "Sifting the sands",
+      "image": "assets/mine/MINE05PU.webp",
+      "text": "Diamonds, gold, and other minerals from land deposits are often washed into the ocean by rivers. Currents along coasts mix these minerals into beach sands, and concentrate the valuable particles in certain areas.",
+      "captions": [
+        {
+          "label": "Gold strike",
+          "text": "During the last century, hoards of miners camped on the frigid beaches of Nome, Alaska, and panned the sands for gold."
+        },
+        {
+          "label": "Diamonds in the rough",
+          "text": "On the coast of southwestern Africa, beaches are dredged for tiny diamonds. Areas that were formerly beaches but are now located above the waterline often contain diamonds as well."
+        }
+      ],
+      "narration": "assets/mine/MINE05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Sunken Treasure",
+      "to": "buri"
+    },
+    {
+      "label": "Submarines and Robots",
+      "to": "robo"
+    },
+    {
+      "label": "Islands",
+      "to": "isla"
+    },
+    {
+      "label": "The Water Cycle",
+      "to": "wcyc"
+    },
+    {
+      "label": "Pirates",
+      "to": "pira"
+    },
+    {
+      "label": "Sea Otters",
+      "to": "ottr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mine/MINE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 2,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Basic needs",
+            "to": "basic-needs",
+            "x": 57,
+            "y": 20,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Ready for delivery",
+            "to": "ready-for-delivery",
+            "x": 73,
+            "y": 12,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "The birth of minerals",
+            "to": "the-birth-of-minerals",
+            "x": 43,
+            "y": 46,
+            "w": 16,
+            "h": 8
+          },
+          {
+            "label": "Oil and water",
+            "to": "video",
+            "x": 63,
+            "y": 51,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Sifting the sands",
+            "to": "sifting-the-sands",
+            "x": 62,
+            "y": 67,
+            "w": 14,
+            "h": 8
+          }
+        ]
+      },
+      "ready-for-delivery": {
+        "image": "assets/mine/MINE02PU.webp",
+        "back": "main"
+      },
+      "the-birth-of-minerals": {
+        "image": "assets/mine/MINE03PU.webp",
+        "back": "main"
+      },
+      "basic-needs": {
+        "image": "assets/mine/MINE04PU.webp",
+        "back": "main"
+      },
+      "sifting-the-sands": {
+        "image": "assets/mine/MINE05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/mine/clip.mp4",
+        "poster": "assets/mine/MINE01PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/mine/MINE00JN.mp3",
+  "sound": "assets/mine/MINE00IX.mp3",
+  "video": {
+    "title": "Oil and water",
+    "src": "assets/mine/clip.mp4",
+    "poster": "assets/mine/poster.webp",
+    "caption": "Oil and gas are created from the remains of tiny plants and animals that lived long ago. After these organisms died, they fell to the ocean floor and were buried by sediment. Over time, pressure and heat transformed them into petroleum. The shallow continental shelves hold most of the oceans' oil and gas fields. Although we need these petroleum deposits for transportation and industry, they must be handled carefully so that they won't pollute the sea and harm its creatures.",
+    "narration": "assets/mine/MINE01JN.mp3"
+  }
+}

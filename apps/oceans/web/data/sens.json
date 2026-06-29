@@ -1,0 +1,216 @@
+{
+  "id": "sens",
+  "code": "SENS",
+  "name": "Sea Senses",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Under the sea, every sense gets a super upgrade.",
+  "zones": [
+    "Coast & tide pools",
+    "Coral reef",
+    "Open ocean",
+    "Deep sea"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/sens/SENS00AA.webp",
+    "alt": "Sea Senses"
+  },
+  "intro": "Just like land animals, sea creatures depend on their senses for survival. Many have evolved in such a way that one or more of their senses—sight, hearing, touch, or smell—have become especially sensitive. In addition, most marine creatures can detect tiny changes in water pressure. All fish, for example, have a series of sensory pores known as a lateral line, which can sense pressure waves traveling through the water.",
+  "facts": [
+    {
+      "label": "Lateral line",
+      "value": "All fish have a series of sensory pores known as a lateral line, which can sense pressure waves traveling through the water."
+    },
+    {
+      "label": "Shark smell",
+      "value": "Sharks have been known to flock to an area in which only a teaspoon of blood has been dropped into the water."
+    },
+    {
+      "label": "Echolocation",
+      "value": "Dolphins and some whales send out a sound wave and listen as it bounces back to find prey — just like sonar."
+    },
+    {
+      "label": "Electric sense",
+      "value": "Hammerhead sharks can detect the electrical pulses of prey buried under sand or mud."
+    },
+    {
+      "label": "Pheromones",
+      "value": "Some lobsters send chemical messages called pheromones to each other during mating season."
+    },
+    {
+      "label": "Primitive eyes",
+      "value": "Flatworms have primitive eyespots that allow them to distinguish between light and dark."
+    }
+  ],
+  "topics": [
+    {
+      "id": "sight",
+      "title": "Sight",
+      "image": "assets/sens/SENS01PU.webp",
+      "text": "The sense of sight is very important to many animals in the oceans.\n\nVery primitive sight\nFlatworms have primitive eyespots that allow them to distinguish between light and dark.\n\nComplex eyes\nCrustaceans have multifaceted eyes that allow them to detect light and movement.\n\nMoving eyes\nThis flatfish was born with an eye on each side of its head. But because it lies on its side on the sea floor as an adult, one eye has moved to the other side of its head so both eyes can be \"on top.\" Pretty weird, huh?",
+      "captions": [
+        {
+          "label": "Bedford's flatworm",
+          "text": "Pseudoceros bedfordi"
+        },
+        {
+          "label": "Flounder",
+          "text": "Pleuronectes flesus"
+        },
+        {
+          "label": "Caribbean arrow crab",
+          "text": "Stenorhynchus seticornis"
+        }
+      ],
+      "narration": "assets/sens/SENS01JN.mp3"
+    },
+    {
+      "id": "echolocation",
+      "title": "Echolocation",
+      "image": "assets/sens/SENS02PU.webp",
+      "text": "Dolphins and some whales depend on sound to determine their surroundings and to find their prey. It works like sonar: they send out a sound wave and listen to it as it bounces back. When they detect an irregularity in the returning wave, they know there's an animal or an obstacle in front of them. On land, bats use echolocation to find insects to eat.",
+      "captions": [
+        {
+          "label": "Dolphin with fish",
+          "text": "Tursiops truncatus"
+        }
+      ],
+      "narration": "assets/sens/SENS02JN.mp3"
+    },
+    {
+      "id": "smell",
+      "title": "Smell",
+      "image": "assets/sens/SENS04PU.webp",
+      "text": "We humans can only detect odors in the air, but many marine animals can detect even subtle scents underwater.\n\nSniffing out a mate\nScientists have discovered that some lobsters send chemical messages to each other during mating season. The chemicals used for communicating in this way are called pheromones.\n\nThe nose knows\nWhen it comes to smell, sharks have some of the sharpest \"noses\" in the sea. They've been known to flock to an area in which only a teaspoon of blood has been dropped into the water.",
+      "captions": [
+        {
+          "label": "American lobster",
+          "text": "Homarus americanus"
+        },
+        {
+          "label": "Great white shark",
+          "text": "Carcharodon carcharias"
+        }
+      ],
+      "narration": "assets/sens/SENS04JN.mp3"
+    },
+    {
+      "id": "touch",
+      "title": "Touch",
+      "image": "assets/sens/SENS05PU.webp",
+      "text": "Some marine creatures have a very acute sense of touch.\n\nDon't touch me!\nSome filter feeders like these barnacles will instantly retract their cirri if they come into contact with anything bigger than plankton.\n\nA mother's arms\nAn octopus has such a delicate sense of touch that a female can easily move individual eggs around with her many arms.",
+      "captions": [
+        {
+          "label": "Barnacles with cirri extended",
+          "text": "Barnacles with cirri extended"
+        },
+        {
+          "label": "Octopus with eggs",
+          "text": "Octopus with eggs"
+        }
+      ],
+      "narration": "assets/sens/SENS05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What Was That?"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/sens/SENS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Touch",
+            "to": "touch",
+            "x": 57,
+            "y": 50,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Electrical pulses",
+            "to": "video",
+            "x": 46,
+            "y": 57,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Echolocation",
+            "to": "echolocation",
+            "x": 59,
+            "y": 63,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Sight",
+            "to": "sight",
+            "x": 56,
+            "y": 70,
+            "w": 10,
+            "h": 5
+          },
+          {
+            "label": "Smell",
+            "to": "smell",
+            "x": 50,
+            "y": 78,
+            "w": 10,
+            "h": 5
+          }
+        ]
+      },
+      "sight": {
+        "image": "assets/sens/SENS01PU.webp",
+        "back": "main"
+      },
+      "echolocation": {
+        "image": "assets/sens/SENS02PU.webp",
+        "back": "main"
+      },
+      "smell": {
+        "image": "assets/sens/SENS04PU.webp",
+        "back": "main"
+      },
+      "touch": {
+        "image": "assets/sens/SENS05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/sens/clip.mp4",
+        "poster": "assets/sens/SENS03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/sens/SENS00JN.mp3",
+  "sound": "assets/sens/SENS00IX.mp3",
+  "video": {
+    "title": "Electrical pulses",
+    "src": "assets/sens/clip.mp4",
+    "poster": "assets/sens/poster.webp",
+    "caption": "All living creatures emit low-level electrical pulses, and some marine creatures are able to use this electricity to their advantage. Hammerhead sharks can even detect the electrical pulses of prey buried under sand or mud. Electric rays seem to create a kind of electrical \"force field\" around themselves — if they sense a disruption in the electrical field, they may send out a strong burst of electricity to stun the intruder.",
+    "narration": "assets/sens/SENS03JN.mp3"
+  }
+}

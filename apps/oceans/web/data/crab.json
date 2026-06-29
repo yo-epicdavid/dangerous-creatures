@@ -1,0 +1,215 @@
+{
+  "id": "crab",
+  "code": "CRAB",
+  "name": "Crabs",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Armored wanderers of every ocean—from polar seas to tropical beaches, crabs rule the seafloor!",
+  "zones": [
+    "Coast & tide pools",
+    "Coral reef",
+    "Open ocean",
+    "Deep sea",
+    "Polar seas"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/crab/CRAB00AA.webp",
+    "alt": "Crabs"
+  },
+  "intro": "Like other crustaceans, crabs are protected by a hard, jointed outer casing called an exoskeleton. You can find crabs deep in cold polar seas, in the balmy shallows of tropical atolls, in tidal pools, scuttling across sandy beaches—even climbing trees! Crabs also come in many sizes. Among the smallest is the pea crab, which makes its home inside the shells of mussels. The largest crabs have legs that span more than 8 m (26.5 ft)!",
+  "facts": [
+    {
+      "label": "Armor",
+      "value": "Crabs are protected by a hard, jointed outer casing called an exoskeleton."
+    },
+    {
+      "label": "Biggest",
+      "value": "The Japanese spider crab can stretch 8 m (26.5 ft) across when its legs are extended."
+    },
+    {
+      "label": "Smallest",
+      "value": "The tiny pea crab makes its home inside the shells of mussels."
+    },
+    {
+      "label": "Diet",
+      "value": "Most crabs are scavengers, and will eat almost any type of plant or animal food, no matter how rotten it may be."
+    },
+    {
+      "label": "Not a crab!",
+      "value": "Horseshoe crabs are not really crabs at all—they are more closely related to spiders, mites, and scorpions."
+    },
+    {
+      "label": "Home",
+      "value": "Hermit crabs have no hard body covering, so they live in the abandoned shells of other animals—or even glass jars."
+    }
+  ],
+  "topics": [
+    {
+      "id": "crabs-in-name-only",
+      "title": "Crabs in name only",
+      "image": "assets/crab/CRAB01PU.webp",
+      "text": "Horseshoe crabs are not really crabs at all. These strange, armored creatures are more closely related to spiders, mites, and scorpions. They spend most of their time buried in sand or mud on the ocean floor looking for worms, algae, or tiny shellfish to eat.",
+      "captions": [
+        {
+          "label": "Ancient ancestor",
+          "text": "See the resemblance between this ancient fossil and today's horseshoe crab? Trilobites swam in the earth's oceans before the dinosaurs appeared, but became extinct at the end of the Permian Period, around 245 million years ago. Because many different species of trilobites lived in different time periods, scientists use trilobite fossils to determine the age of rocks."
+        }
+      ],
+      "narration": "assets/crab/CRAB01JN.mp3"
+    },
+    {
+      "id": "colossal-crustacean",
+      "title": "Colossal crustacean",
+      "image": "assets/crab/CRAB02PU.webp",
+      "text": "If you ordered a Japanese spider crab for dinner, it could take up the whole table! According to some records, the largest of these crabs can stretch 8 m (26.5 ft) across when their legs are extended. Here one is shown with an average-sized edible crab. There's no need to worry about a spider crab grabbing you at the beach: this crustacean is a gentle giant that lives in deep, dark waters.",
+      "narration": "assets/crab/CRAB02JN.mp3"
+    },
+    {
+      "id": "anemone-lovers",
+      "title": "Anemone lovers",
+      "image": "assets/crab/CRAB03PU.webp",
+      "text": "Some crabs form special relationships with anemones, using them as places to live or as weapons.\n\nA lively place to live\nJust like fleas on a dog, these tiny crabs live on another creature: an anemone. But unlike fleas, the crabs don't bite the anemone or harm it in any way. They just use the anemone's stinging tentacles as protection against predators. The anemone may even benefit by eating scraps of the crab's food.",
+      "captions": [
+        {
+          "label": "Back off!",
+          "text": "Boxing crabs like to carry anemones in their claws, brandishing them like weapons at intruders. The anemones don't get a choice in the matter!"
+        }
+      ],
+      "narration": "assets/crab/CRAB03JN.mp3"
+    },
+    {
+      "id": "long-legged-fighter",
+      "title": "Long-legged fighter",
+      "image": "assets/crab/CRAB04PU.webp",
+      "text": "With its long legs and spindly body, this arrow crab looks a lot like a spider. Arrow crabs eat worms of all kinds, shredding them with their sharp claws before stuffing the bits into their mouths. These feisty fellows don't even get along with neighboring arrow crabs. They fight for territory, and the winner usually pulls apart and eats the loser.",
+      "captions": [
+        {
+          "label": "Crawl for your life!",
+          "text": "A bristle worm like this could quickly become lunch for an arrow crab on the prowl."
+        }
+      ],
+      "narration": "assets/crab/CRAB04JN.mp3"
+    },
+    {
+      "id": "hermit-crabs",
+      "title": "Hermit crabs",
+      "image": "assets/crab/CRAB05PU.webp",
+      "text": "There are many different types of hermit crabs, but they all have one thing in common: they have no hard protective covering on their bodies, so they live in the abandoned shells of other animals. If they can't find a shell that's the right size, they'll squeeze into glass jars, hollow pieces of coral, or anything else that's convenient.",
+      "narration": "assets/crab/CRAB05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Shrimp",
+      "to": "shri"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/crab/CRAB00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 2,
+            "w": 9,
+            "h": 7
+          },
+          {
+            "label": "Crabs in name only",
+            "to": "crabs-in-name-only",
+            "x": 54,
+            "y": 16,
+            "w": 35,
+            "h": 6
+          },
+          {
+            "label": "Garbage patrol",
+            "to": "video",
+            "x": 54,
+            "y": 24,
+            "w": 27,
+            "h": 6
+          },
+          {
+            "label": "Colossal crustacean",
+            "to": "colossal-crustacean",
+            "x": 54,
+            "y": 33,
+            "w": 32,
+            "h": 6
+          },
+          {
+            "label": "Hermit crabs",
+            "to": "hermit-crabs",
+            "x": 1,
+            "y": 60,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Anemone lovers",
+            "to": "anemone-lovers",
+            "x": 28,
+            "y": 84,
+            "w": 23,
+            "h": 7
+          },
+          {
+            "label": "Long-legged fighter",
+            "to": "long-legged-fighter",
+            "x": 51,
+            "y": 84,
+            "w": 30,
+            "h": 7
+          }
+        ]
+      },
+      "crabs-in-name-only": {
+        "image": "assets/crab/CRAB01PU.webp",
+        "back": "main"
+      },
+      "colossal-crustacean": {
+        "image": "assets/crab/CRAB02PU.webp",
+        "back": "main"
+      },
+      "anemone-lovers": {
+        "image": "assets/crab/CRAB03PU.webp",
+        "back": "main"
+      },
+      "long-legged-fighter": {
+        "image": "assets/crab/CRAB04PU.webp",
+        "back": "main"
+      },
+      "hermit-crabs": {
+        "image": "assets/crab/CRAB05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/crab/clip.mp4",
+        "poster": "assets/crab/CRAB06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/crab/CRAB00JN.mp3",
+  "sound": "assets/crab/CRAB00IX.mp3",
+  "video": {
+    "title": "Garbage patrol",
+    "src": "assets/crab/clip.mp4",
+    "poster": "assets/crab/poster.webp",
+    "caption": "Some types of crabs live out of water or right at the water's edge. Most crabs are scavengers, and will eat almost any type of plant or animal food, no matter how rotten it may be. In some places you might see hundreds of tiny soldier crabs patrolling the beach, searching for small bits of food in the sand.",
+    "narration": "assets/crab/CRAB06JN.mp3"
+  }
+}

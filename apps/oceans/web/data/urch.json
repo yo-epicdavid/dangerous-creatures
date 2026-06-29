@@ -1,0 +1,232 @@
+{
+  "id": "urch",
+  "code": "URCH",
+  "name": "Sea Urchins and Sea Cucumbers",
+  "category": "creature",
+  "scientificName": "Lytechinus variegatus",
+  "needsScientificVerify": false,
+  "tagline": "Meet the ocean's prickly pincushion — and its sausage-shaped cousin!",
+  "zones": [
+    "Coast & tide pools",
+    "Coral reef",
+    "Kelp & seagrass"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/urch/URCH00AA.webp",
+    "alt": "Sea Urchins and Sea Cucumbers"
+  },
+  "intro": "Sea urchins and sea cucumbers, like starfish, are invertebrates that are known as echinoderms, or spiny-skinned creatures. Most sea urchins are covered with protective spines that make them look something like a pincushion, or a tiny porcupine. Among the spines are soft tube feet that end in suckers, which are good for grabbing onto things. This sea urchin is using some of its tube feet to hold onto pieces of shell for camouflage.",
+  "facts": [
+    {
+      "label": "Group",
+      "value": "Echinoderms — invertebrates with spiny skin, closely related to starfish"
+    },
+    {
+      "label": "Defense",
+      "value": "Covered with sharp protective spines; soft tube feet with suckers can hold shell pieces for camouflage"
+    },
+    {
+      "label": "Shell",
+      "value": "The hard shell is called a test — it protects the animal's mouth and digestive system, with spines growing on top"
+    },
+    {
+      "label": "Sand dollars",
+      "value": "Sand dollars and sand biscuits are sea urchins too — they just don't have long spines"
+    },
+    {
+      "label": "Predator trick",
+      "value": "The queen triggerfish sucks in water, then blows it out in a sudden burst to flip the urchin over, then rushes in and crunches through the sea urchin's abdominal shell"
+    },
+    {
+      "label": "Sea cucumber",
+      "value": "Sea cucumbers have tiny spicules throughout their flesh that make their soft body more rigid"
+    }
+  ],
+  "topics": [
+    {
+      "id": "urchin-insides",
+      "title": "Urchin insides",
+      "image": "assets/urch/URCH01PU.webp",
+      "text": "Here you can see what's beneath the spines of a sea urchin.\n\nUrchin anatomy\nThe hard shell, called a test, protects the animal's mouth and digestive system, and the spines grow on top of that. The urchin \"walks\" by moving the tiny tube feet located on the bottom of its body. You can see why predators flip sea urchins over—they want to get at the vulnerable soft spot in the middle of their bodies.",
+      "captions": [
+        {
+          "label": "All that remains",
+          "text": "When a sea urchin dies its spines break off, its soft body and feet rot away, and eventually all that's left is a test like this one."
+        }
+      ],
+      "narration": "assets/urch/URCH01JN.mp3"
+    },
+    {
+      "id": "sea-cucumbers",
+      "title": "Sea cucumbers",
+      "image": "assets/urch/URCH02PU.webp",
+      "text": "At first glance, this sausage-shaped animal doesn't look much like either a starfish or a sea urchin. But if you look closely, you can see some similarities.",
+      "captions": [
+        {
+          "label": "Anatomy lesson",
+          "text": "The sea cucumber has tiny tube feet along its margins that allow it to walk. And like all echinoderms, its body has five symmetrical parts that radiate out from a central cavity."
+        },
+        {
+          "label": "Tough skin",
+          "text": "A sea cucumber doesn't have spines on the outside or a skeleton on the inside, but it does have these spicules throughout its flesh, which make its soft body more rigid."
+        }
+      ],
+      "narration": "assets/urch/URCH02JN.mp3"
+    },
+    {
+      "id": "spineless-relatives",
+      "title": "Spineless relatives",
+      "image": "assets/urch/URCH03PU.webp",
+      "text": "Although sand dollars and sand biscuits don't have long spines, they're sea urchins, too. Many people don't recognize the lumpy-looking living animals, and can only identify their tests when they find them on a beach.",
+      "captions": [
+        {
+          "label": "Dead",
+          "text": "Tests like this are all that remain after the flesh of dead sand dollars has rotted away."
+        },
+        {
+          "label": "Alive",
+          "text": "These are living sand dollars, most often found in muddy or sandy bottoms near shore."
+        }
+      ],
+      "narration": "assets/urch/URCH03JN.mp3"
+    },
+    {
+      "id": "strategic-spines",
+      "title": "Strategic spines",
+      "image": "assets/urch/URCH04PU.webp",
+      "text": "Sea urchins certainly aren't the only animals that use spines for defense. All kinds of animals, including dinosaurs, reptiles, insects, fish, and even mammals, have been adopting this strategy for millions of years.",
+      "captions": [
+        {
+          "label": "Spiny mammal",
+          "text": "Among its fur, this hedgehog has sharp spines that it erects if a predator comes near."
+        },
+        {
+          "label": "Spiky reptile",
+          "text": "You can see why this reptile is called a thorny devil or a spiky moloch. Not many predators would try to take a bite out of this character!"
+        }
+      ],
+      "narration": "assets/urch/URCH04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Starfish",
+      "to": "star"
+    },
+    {
+      "label": "Corals",
+      "to": "cora"
+    },
+    {
+      "label": "Sponges",
+      "to": "spon"
+    },
+    {
+      "label": "Sunken Treasure",
+      "to": "buri"
+    },
+    {
+      "label": "Scorpionfish",
+      "to": "scor"
+    },
+    {
+      "label": "Crabs",
+      "to": "crab"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/urch/URCH00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 9,
+            "h": 5
+          },
+          {
+            "label": "Urchin insides",
+            "to": "urchin-insides",
+            "x": 62,
+            "y": 26,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Sea cucumbers",
+            "to": "sea-cucumbers",
+            "x": 28,
+            "y": 46,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Strategic spines",
+            "to": "strategic-spines",
+            "x": 61,
+            "y": 53,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Spineless relatives",
+            "to": "spineless-relatives",
+            "x": 5,
+            "y": 74,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Urchin eaters",
+            "to": "video",
+            "x": 60,
+            "y": 83,
+            "w": 22,
+            "h": 6
+          }
+        ]
+      },
+      "urchin-insides": {
+        "image": "assets/urch/URCH01PU.webp",
+        "back": "main"
+      },
+      "sea-cucumbers": {
+        "image": "assets/urch/URCH02PU.webp",
+        "back": "main"
+      },
+      "spineless-relatives": {
+        "image": "assets/urch/URCH03PU.webp",
+        "back": "main"
+      },
+      "strategic-spines": {
+        "image": "assets/urch/URCH04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/urch/clip.mp4",
+        "poster": "assets/urch/URCH05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/urch/URCH00JN.mp3",
+  "sound": "assets/urch/URCH00IX.mp3",
+  "video": {
+    "title": "Urchin eaters",
+    "src": "assets/urch/clip.mp4",
+    "poster": "assets/urch/poster.webp",
+    "caption": "You might think that no animal would want to bite down on the spines of a sea urchin. A few animals, like wolf eels, have mouths that are tough enough to crush the spines. Others resort to tricks to get their prey without getting injured. This queen triggerfish sucks in water, then blows it out in a sudden burst to flip the urchin over. The fish then rushes in and crunches through the sea urchin's abdominal shell, and the contest is over.",
+    "narration": "assets/urch/URCH05JN.mp3"
+  }
+}

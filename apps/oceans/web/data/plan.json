@@ -1,0 +1,205 @@
+{
+  "id": "plan",
+  "code": "PLAN",
+  "name": "Plankton",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Tiny drifters that hold up the entire ocean food web!",
+  "zones": [
+    "Open ocean",
+    "Coast & tide pools",
+    "Coral reef"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/plan/PLAN00AA.webp",
+    "alt": "Plankton"
+  },
+  "intro": "The word plankton means \"drifter\" or \"wanderer,\" and refers to any organism that drifts with the currents. Plankton includes plants, called phytoplankton, and animals, called zooplankton. There are also a few types of plankton that are hard to classify. For example, dinoflagellates are considered to be phytoplankton because some, like plants, contain chlorophyll. But dinoflagellates also have flagella, taillike appendages that they use to propel themselves from place to place, which is more characteristic of animals.",
+  "facts": [
+    {
+      "label": "Name",
+      "value": "The word plankton means \"drifter\" or \"wanderer\" — it refers to any organism that drifts with the currents."
+    },
+    {
+      "label": "Two kinds",
+      "value": "Plankton includes plants (phytoplankton) and animals (zooplankton)."
+    },
+    {
+      "label": "Diatoms",
+      "value": "Diatom shells are made of silica — the principal substance found in glass. When they die and sink, their shells form diatomaceous earth used in water filters."
+    },
+    {
+      "label": "Red tide",
+      "value": "A bloom of dinoflagellates creates a neurotoxin that can kill clams, mussels, or fish, and can even paralyze people who eat contaminated seafood."
+    },
+    {
+      "label": "Glow",
+      "value": "Some plankton are bioluminescent — they glow in the dark. Stir the ocean at night and the water may sparkle with light!"
+    },
+    {
+      "label": "Big eaters",
+      "value": "Baleen whales, whale sharks, basking sharks, and manta rays all swim through the water with their mouths open to scoop up all the floating organisms they can."
+    }
+  ],
+  "topics": [
+    {
+      "id": "phytoplankton",
+      "title": "Phytoplankton",
+      "image": "assets/plan/PLAN01PU.webp",
+      "text": "Like all plants, phytoplankton use photosynthesis to generate carbohydrates from carbon dioxide and water. Because they need sunlight to fuel this process, all phytoplankton live in the upper reaches of the ocean.",
+      "captions": [
+        {
+          "label": "Pretty plants",
+          "text": "Diatoms are phytoplankton with shells made of silica, the principal substance found in glass. When diatoms die their shells fall to the bottom, forming diatomaceous earth, which is used in water filters."
+        },
+        {
+          "label": "This is a plant?",
+          "text": "If you had the opportunity to look through an electron microscope, you'd enjoy incredible sights like this! This amazing structure, which looks like some sort of hi-tech science-fiction device, is actually one tiny diatom, magnified hundreds of times."
+        }
+      ],
+      "narration": "assets/plan/PLAN01JN.mp3"
+    },
+    {
+      "id": "zooplankton",
+      "title": "Zooplankton",
+      "image": "assets/plan/PLAN02PU.webp",
+      "text": "Zooplankton feed on organic debris, on phytoplankton, and on one another. Some zooplankton are protozoans—creatures with just one cell. Others, like salps and tiny crustaceans, are larger, more complex animals. Many ocean creatures spend time as zooplankton before they mature and settle down in one place. A wide variety of marine animals of all sizes feed exclusively on plankton—especially tiny crustaceans such as these krill and water fleas.",
+      "narration": "assets/plan/PLAN02JN.mp3"
+    },
+    {
+      "id": "red-tide",
+      "title": "Red tide",
+      "image": "assets/plan/PLAN03PU.webp",
+      "text": "Red tide actually has nothing to do with tides. It's an explosive growth of dinoflagellates, a type of phytoplankton. Dinoflagellates produce a nerve-affecting poison—a neurotoxin—that in concentrated form can kill clams, mussels, or fish. People who eat seafood contaminated with this poison may become paralyzed or even die, so many countries routinely test seafood along their coasts to be sure that it's safe to eat. If you take a bite of seafood and feel tingling in your lips or fingers, stop eating! This may be a warning sign of \"red tide\" poisoning.",
+      "narration": "assets/plan/PLAN03JN.mp3"
+    },
+    {
+      "id": "night-lights",
+      "title": "Night-lights",
+      "image": "assets/plan/PLAN04PU.webp",
+      "text": "Like undersea fireflies, some plankton are bioluminescent—they glow in the dark. Animals use this feature to lure prey and attract mates. As for the plants—if you're out on the ocean at night, stir the water with your hand or a stick: if certain dinoflagellates are present, the water will sparkle with light!",
+      "narration": "assets/plan/PLAN04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Marine Plants",
+      "to": "mpln"
+    },
+    {
+      "label": "Creature Closeups"
+    },
+    {
+      "label": "Antarctic Ocean",
+      "to": "anta"
+    },
+    {
+      "label": "Currents",
+      "to": "curr"
+    },
+    {
+      "label": "Remarkable Powers",
+      "to": "powr"
+    },
+    {
+      "label": "Sea Mosses",
+      "to": "moss"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/plan/PLAN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 7,
+            "h": 9
+          },
+          {
+            "label": "Phytoplankton",
+            "to": "phytoplankton",
+            "x": 2,
+            "y": 60,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Red tide",
+            "to": "red-tide",
+            "x": 37,
+            "y": 67,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "Night-lights",
+            "to": "night-lights",
+            "x": 57,
+            "y": 52,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Plankton eaters",
+            "to": "video",
+            "x": 15,
+            "y": 79,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Zooplankton",
+            "to": "zooplankton",
+            "x": 71,
+            "y": 80,
+            "w": 15,
+            "h": 5
+          }
+        ]
+      },
+      "phytoplankton": {
+        "image": "assets/plan/PLAN01PU.webp",
+        "back": "main"
+      },
+      "zooplankton": {
+        "image": "assets/plan/PLAN02PU.webp",
+        "back": "main"
+      },
+      "red-tide": {
+        "image": "assets/plan/PLAN03PU.webp",
+        "back": "main"
+      },
+      "night-lights": {
+        "image": "assets/plan/PLAN04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/plan/clip.mp4",
+        "poster": "assets/plan/PLAN05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/plan/PLAN00JN.mp3",
+  "sound": "assets/plan/PLAN00IX.mp3",
+  "video": {
+    "title": "Plankton eaters",
+    "src": "assets/plan/clip.mp4",
+    "poster": "assets/plan/poster.webp",
+    "caption": "Plankton form a rich soup on which many marine animals depend. Some plankton eaters, such as barnacles, corals, and sea mosses, stay in one place and strain out particles of plankton from the surrounding water. Others, such as baleen whales, whale sharks, basking sharks, and manta rays, are more mobile, and swim through the water with their mouths open to scoop up all the floating organisms they can.",
+    "narration": "assets/plan/PLAN05JN.mp3"
+  }
+}

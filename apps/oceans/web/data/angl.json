@@ -1,0 +1,189 @@
+{
+  "id": "angl",
+  "code": "ANGL",
+  "name": "Angler Fish",
+  "category": "creature",
+  "scientificName": "Borophryne apogon",
+  "needsScientificVerify": false,
+  "tagline": "The deep sea's most cunning hunter dangles its own glowing lure to trick dinner into its jaws!",
+  "zones": [
+    "Open ocean",
+    "Deep sea",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/angl/ANGL00AA.webp",
+    "alt": "Angler Fish"
+  },
+  "intro": "Sometimes it takes a fish to catch a fish! Angler fish use a movable spine on their head, tail, back, or chin as a fishing rod, dangling a lure that attracts smaller fish, shrimp, squid, and worms. Some live in shallow water and are camouflaged to resemble a harmless mass of seaweed. Deep-sea anglers attract their prey with a lure that glows in the dark abyss.",
+  "facts": [
+    {
+      "label": "Fishing rod",
+      "value": "Angler fish use a movable spine on their head, tail, back, or chin as a fishing rod to dangle a lure."
+    },
+    {
+      "label": "Prey",
+      "value": "Their lure attracts smaller fish, shrimp, squid, and worms."
+    },
+    {
+      "label": "Camouflage",
+      "value": "Some shallow-water anglers are camouflaged to resemble a harmless mass of seaweed."
+    },
+    {
+      "label": "Glow",
+      "value": "Deep-sea anglers attract prey with a lure that glows in the dark abyss — an ability called bioluminescence."
+    },
+    {
+      "label": "Mating",
+      "value": "A male deep-sea angler fish may be more than 20 times smaller than the female, and his body becomes permanently fused to hers."
+    },
+    {
+      "label": "Did you know",
+      "value": "One female deep-sea angler fish can have several male \"lumps\" permanently attached to her body at the same time."
+    }
+  ],
+  "topics": [
+    {
+      "id": "master-of-disguise",
+      "title": "Master of disguise",
+      "image": "assets/angl/ANGL01PU.webp",
+      "text": "Not only do angler fish try to lure their prey with their special built-in decoys, but some also excel at blending into the scenery. Some bury themselves in sand on the ocean floor or hide among rocks. This sargassum angler fish is hard to find in its natural environment as it floats among masses of sargassum weeds near the surface of the Atlantic. An unsuspecting fish swims up to hide among the weeds, and surprise! It's swallowed by this master of disguise.",
+      "captions": [
+        {
+          "label": "Sargassum angler fish",
+          "text": "Histrio histrio"
+        }
+      ],
+      "narration": "assets/angl/ANGL01JN.mp3"
+    },
+    {
+      "id": "together-forever",
+      "title": "Together forever",
+      "image": "assets/angl/ANGL02PU.webp",
+      "text": "This deep-sea angler fish has one of the most unusual mating strategies known to science. The tiny male fish follows the scent of a female, which may be more than 20 times bigger than he is. Once he finds the female, he grabs hold of her with special teeth. His body becomes fused to hers, and from then on he's part of her. Sometimes one female has several of these male \"lumps\" attached.",
+      "captions": [
+        {
+          "label": "Female deep-sea angler fish with males attached",
+          "text": "Bonophryne apogon"
+        }
+      ],
+      "narration": "assets/angl/ANGL02JN.mp3"
+    },
+    {
+      "id": "just-a-little-closer",
+      "title": "Just a little closer...",
+      "image": "assets/angl/ANGL03PU.webp",
+      "text": "Long before people devised fishing rods and lures, many types of animals were already using them. Here are a couple of ways different animals trick their prey into coming close.\n\nTail trick\nThe adder is a venomous land snake that has a fat body and a skinny little tip on its tail. It keeps its body still and wiggles the tip of its tail in front of its head so that it looks like a writhing worm. If the trick works, a lizard will try to snap up the \"worm\" and be eaten by the snake instead.\n\nGo to the light\nYou've probably noticed that many bugs are attracted to lights in the evening. So are many creatures that live in the depths of the oceans. Some marine predators take advantage of this fact by lighting up parts of their bodies to attract a mate. This special ability to glow in the dark is called bioluminescence.",
+      "captions": [
+        {
+          "label": "Australian death adder",
+          "text": "Anacanthophis antarcticus"
+        }
+      ],
+      "narration": "assets/angl/ANGL03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Abyss",
+      "to": "abys"
+    },
+    {
+      "label": "Scorpionfish",
+      "to": "scor"
+    },
+    {
+      "label": "Sea Horses and Pipefish",
+      "to": "pipe"
+    },
+    {
+      "label": "Aquarium Game"
+    },
+    {
+      "label": "Marine Mosaic"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/angl/ANGL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 2,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "Just a little closer...",
+            "to": "just-a-little-closer",
+            "x": 63,
+            "y": 16,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Together forever",
+            "to": "together-forever",
+            "x": 54,
+            "y": 47,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Master of disguise",
+            "to": "master-of-disguise",
+            "x": 58,
+            "y": 59,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Gotcha!",
+            "to": "video",
+            "x": 3,
+            "y": 71,
+            "w": 11,
+            "h": 6
+          }
+        ]
+      },
+      "master-of-disguise": {
+        "image": "assets/angl/ANGL01PU.webp",
+        "back": "main"
+      },
+      "together-forever": {
+        "image": "assets/angl/ANGL02PU.webp",
+        "back": "main"
+      },
+      "just-a-little-closer": {
+        "image": "assets/angl/ANGL03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/angl/clip.mp4",
+        "poster": "assets/angl/ANGL04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/angl/ANGL00JN.mp3",
+  "sound": "assets/angl/ANGL00IX.mp3",
+  "video": {
+    "title": "Gotcha!",
+    "src": "assets/angl/clip.mp4",
+    "poster": "assets/angl/poster.webp",
+    "caption": "If you were a tiny fish, you'd have to stay alert. A yellow rock, a lump of sand on the ocean bottom, a glowing light in the dark, or a dancing worm in the current could all turn out to be a bigger fish that wants to eat you!",
+    "narration": "assets/angl/ANGL04JN.mp3"
+  }
+}

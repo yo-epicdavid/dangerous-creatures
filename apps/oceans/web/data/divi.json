@@ -1,0 +1,183 @@
+{
+  "id": "divi",
+  "code": "DIVI",
+  "name": "Diving",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Humans have been dreaming of breathing underwater for over 2,000 years — and finally, we can!",
+  "zones": [
+    "Coast & tide pools",
+    "Coral reef",
+    "Open ocean",
+    "Deep sea"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/divi/DIVI00AA.webp",
+    "alt": "Diving"
+  },
+  "intro": "The world beneath the waves has always fascinated people—it's an environment in which we air-breathers are alien intruders. Throughout the centuries inventors have tried to create contraptions that would allow people to breathe underwater. None of these inventions was particularly successful until this century. Not until the last few decades has technology allowed us to explore the ocean depths. Even today many undersea regions remain shrouded in mystery. The adventure has just begun!",
+  "facts": [
+    {
+      "label": "First dive",
+      "value": "Alexander the Great had himself lowered into the sea in a glass barrel as far back as 323 B.C."
+    },
+    {
+      "label": "SCUBA born",
+      "value": "In 1943, Jacques-Yves Cousteau and Emile Gagnan perfected the Aqua-Lung, giving divers a portable air supply for the first time."
+    },
+    {
+      "label": "Depth record",
+      "value": "In 1979, scientist Sylvia Earle walked on the ocean floor at a depth of 381 m (1,250 ft) wearing a Jim diving suit."
+    },
+    {
+      "label": "Tank pressure",
+      "value": "SCUBA air tanks are compressed to approximately 531 kilograms per square centimeter (3,000 pounds per square inch)."
+    },
+    {
+      "label": "The bends",
+      "value": "Surfacing too quickly causes air bubbles to form in the blood and tissues — a painful and sometimes fatal condition called 'the bends.'"
+    },
+    {
+      "label": "Jim suit",
+      "value": "Jim suits weigh nearly half a ton out of the water, but feel remarkably lightweight in the ocean depths thanks to adjustable buoyancy controls."
+    }
+  ],
+  "topics": [
+    {
+      "id": "early-attempts",
+      "title": "Early attempts",
+      "image": "assets/divi/DIVI01PU.webp",
+      "text": "People were already trying to explore the ocean depths as far back as 323 B.C. According to ancient records, that's when Alexander the Great had himself lowered into the sea in a glass barrel. The experiment was no doubt a short one, because the barrel had a limited supply of air. Centuries later people devised ways to use hoses to pump air to divers.",
+      "narration": "assets/divi/DIVI01JN.mp3"
+    },
+    {
+      "id": "sea-spacesuits",
+      "title": "Sea spacesuits",
+      "image": "assets/divi/DIVI03PU.webp",
+      "text": "In 1979 scientist Sylvia Earle walked on the ocean floor at a depth of 381 m (1,250 ft). The invention that made this feat possible was the Jim diving suit, which protects divers from the effects of water pressure.",
+      "captions": [
+        {
+          "label": "Risky business",
+          "text": "Old-fashioned diving helmets like this were awkward and divers were completely dependent on a surface compressor for their air supply. In contrast, a modern Jim suit carries its own air supply. The helmet contains a microphone and headphones, and a telephone cable links the diver with the surface."
+        },
+        {
+          "label": "Hi-tech gear",
+          "text": "Because they have adjustable buoyancy controls, Jim suits can feel remarkably lightweight in the depths. Out of the water, though, these suits weigh nearly half a ton!"
+        }
+      ],
+      "narration": "assets/divi/DIVI03JN.mp3"
+    },
+    {
+      "id": "danger-the-bends",
+      "title": "Danger: the bends!",
+      "image": "assets/divi/DIVI04PU.webp",
+      "text": "Compressed air and water pressure are a tricky mix. At sea level, the air is 21 percent oxygen and 78 percent nitrogen. The pressure in the ocean depths increases the percentage of oxygen and causes nitrogen to dissolve into the blood. Too much oxygen can bring on convulsions; too much nitrogen causes confusion known as nitrogen narcosis, or \"rapture of the deep.\" If a scuba diver surfaces too quickly from a deep dive, air bubbles form in the blood and tissues, a painful and sometimes fatal condition called \"the bends.\" So divers heading for the surface pause for several minutes at certain depths so that their bodies can adjust to the changing pressure.",
+      "narration": "assets/divi/DIVI04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Fanworms & Bristleworms"
+    },
+    {
+      "label": "Eastern Mediterranean Explorers",
+      "to": "east"
+    },
+    {
+      "label": "What is Oceanography?",
+      "to": "ocea"
+    },
+    {
+      "label": "Submarines and Robots",
+      "to": "robo"
+    },
+    {
+      "label": "Toothed Whales",
+      "to": "whlt"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/divi/DIVI00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 9,
+            "h": 6
+          },
+          {
+            "label": "Early attempts",
+            "to": "early-attempts",
+            "x": 52,
+            "y": 15,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Scuba gear",
+            "to": "video",
+            "x": 57,
+            "y": 29,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Sea spacesuits",
+            "to": "sea-spacesuits",
+            "x": 55,
+            "y": 47,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Danger: the bends!",
+            "to": "danger-the-bends",
+            "x": 35,
+            "y": 83,
+            "w": 27,
+            "h": 5
+          }
+        ]
+      },
+      "early-attempts": {
+        "image": "assets/divi/DIVI01PU.webp",
+        "back": "main"
+      },
+      "sea-spacesuits": {
+        "image": "assets/divi/DIVI03PU.webp",
+        "back": "main"
+      },
+      "danger-the-bends": {
+        "image": "assets/divi/DIVI04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/divi/clip.mp4",
+        "poster": "assets/divi/DIVI02PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/divi/DIVI00JN.mp3",
+  "sound": "assets/divi/DIVI00IX.mp3",
+  "video": {
+    "title": "Scuba gear",
+    "src": "assets/divi/clip.mp4",
+    "poster": "assets/divi/poster.webp",
+    "caption": "Scuba class, Jamaica",
+    "narration": "assets/divi/DIVI02JN.mp3"
+  }
+}

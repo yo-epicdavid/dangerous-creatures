@@ -1,0 +1,192 @@
+{
+  "id": "pipe",
+  "code": "PIPE",
+  "name": "Sea Horses and Pipefish",
+  "category": "creature",
+  "scientificName": "Hippocampus breviceps",
+  "needsScientificVerify": false,
+  "tagline": "Part horse, part fish, and totally surprising — meet the ocean's slowest-motion knights!",
+  "zones": [
+    "Coral reef",
+    "Kelp & seagrass",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/pipe/PIPE00AA.webp",
+    "alt": "Sea Horses and Pipefish"
+  },
+  "intro": "It may have a horse's head, but it's no speedy thoroughbred! The sea horse and its pipefish cousins hang lazily in warm tropical waters like miniature knights in a slow-motion chess game. Sea horses remain stationary by wrapping their grasping, prehensile tails around pieces of seaweed. When they do move, they do so by swimming slowly in a dignified, upright position, changing depths by adjusting the volume of air in tiny sacs called swim bladders. In order to move forward, they flap their back fin (known as the dorsal fin) 3½ times per second. Some experts calculate that it would take a sea horse 2½ days just to make a 1 km (6 mi) trip!",
+  "facts": [
+    {
+      "label": "Speed",
+      "value": "It would take a sea horse 2½ days just to make a 1 km (6 mi) trip!"
+    },
+    {
+      "label": "Movement",
+      "value": "Sea horses flap their dorsal fin 3½ times per second to move forward."
+    },
+    {
+      "label": "Diet",
+      "value": "Pipefish and sea horses suck tiny crustaceans through their toothless, tubular mouths."
+    },
+    {
+      "label": "Did you know",
+      "value": "In the sea horse and pipefish families, it's the dads that carry the developing babies and give birth!"
+    },
+    {
+      "label": "Babies",
+      "value": "Baby sea horses are no more than 1 cm (.4 in) long at birth but look exactly like adults."
+    },
+    {
+      "label": "Camouflage",
+      "value": "The leafy sea dragon has long, leafy skin flaps and transparent fins. It looks exactly like the seaweed in which it hides from predators."
+    }
+  ],
+  "topics": [
+    {
+      "id": "heads-up",
+      "title": "Heads up",
+      "image": "assets/pipe/PIPE01PU.webp",
+      "text": "The heads of these three animals have the same shape, but they function very differently.",
+      "captions": [
+        {
+          "label": "Marine mates",
+          "text": "Pipefish and sea horses suck their food through their toothless, tubular mouths. Their diet consists mostly of tiny crustaceans. And, unlike their counterparts on land, sea horses can move each of their eyes independently!"
+        },
+        {
+          "label": "Here's looking at you!",
+          "text": "In addition to a tongue, a horse has teeth for munching grain and hay."
+        }
+      ],
+      "narration": "assets/pipe/PIPE01JN.mp3"
+    },
+    {
+      "id": "dragons-of-the-depths",
+      "title": "Dragons of the depths",
+      "image": "assets/pipe/PIPE02PU.webp",
+      "text": "There are many species of sea horses, and some have exotic colors and patterns. Aren't these two beautiful?",
+      "captions": [
+        {
+          "label": "You call this common?",
+          "text": "This rainbow-colored creature goes by the name of \"common\" sea dragon. Makes you wonder what an \"uncommon\" sea dragon would look like!"
+        },
+        {
+          "label": "All leafed out",
+          "text": "Some animals are so good at mimicking their surroundings that it's difficult to find them! This Australian sea horse has long, leafy skin flaps and transparent fins. It looks exactly like the seaweed in which it hides from predators."
+        }
+      ],
+      "narration": "assets/pipe/PIPE02JN.mp3"
+    },
+    {
+      "id": "pregnant-daddies",
+      "title": "\"Pregnant\" daddies",
+      "image": "assets/pipe/PIPE03PU.webp",
+      "text": "Yes, it's true. In the sea horse and pipefish families, it's the dads that carry the developing babies and give birth! When males have no eggs in their brood pouches, they compete to win the attention of nearby females. The females press their bellies against the chosen males in order to transfer the eggs into their brood pouches. The females then disappear, and the males are left to carry the developing young.",
+      "narration": "assets/pipe/PIPE03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Hiding Out"
+    },
+    {
+      "label": "Sea Mosses",
+      "to": "moss"
+    },
+    {
+      "label": "Myths and Legends",
+      "to": "myth"
+    },
+    {
+      "label": "Sea Squirts",
+      "to": "sqrt"
+    },
+    {
+      "label": "Remarkable Powers",
+      "to": "powr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/pipe/PIPE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "Dragons of the depths",
+            "to": "dragons-of-the-depths",
+            "x": 5,
+            "y": 27,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Heads up",
+            "to": "heads-up",
+            "x": 5,
+            "y": 40,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "\"Pregnant\" daddies",
+            "to": "pregnant-daddies",
+            "x": 2,
+            "y": 74,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Dad gives birth",
+            "to": "video",
+            "x": 38,
+            "y": 73,
+            "w": 24,
+            "h": 6
+          }
+        ]
+      },
+      "heads-up": {
+        "image": "assets/pipe/PIPE01PU.webp",
+        "back": "main"
+      },
+      "dragons-of-the-depths": {
+        "image": "assets/pipe/PIPE02PU.webp",
+        "back": "main"
+      },
+      "pregnant-daddies": {
+        "image": "assets/pipe/PIPE03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/pipe/clip.mp4",
+        "poster": "assets/pipe/PIPE04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/pipe/PIPE00JN.mp3",
+  "sound": "assets/pipe/PIPE00IX.mp3",
+  "video": {
+    "title": "Dad gives birth",
+    "src": "assets/pipe/clip.mp4",
+    "poster": "assets/pipe/poster.webp",
+    "caption": "The male sea horse carries the eggs from 10 to 45 days, depending on the species, then gives birth to baby sea horses that look exactly like adults, but are no more than 1 cm (.4 in) long! Neither parent hangs around long after birth, so these tiny creatures have to fend for themselves. If all the marine plants were stripped from the ocean floor, baby seahorses would have nowhere to hide from predators.",
+    "narration": "assets/pipe/PIPE04JN.mp3"
+  }
+}

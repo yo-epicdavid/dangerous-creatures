@@ -1,0 +1,235 @@
+{
+  "id": "barn",
+  "code": "BARN",
+  "name": "Barnacles",
+  "category": "creature",
+  "scientificName": "Pollicipes polymerus",
+  "needsScientificVerify": false,
+  "tagline": "The stubborn hitchhikers that drive sailors crazy!",
+  "zones": [
+    "Coast & tide pools",
+    "Open ocean"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/barn/BARN00AA.webp",
+    "alt": "Barnacles"
+  },
+  "intro": "If you mention barnacles to any sailor, you'd better cover your ears, or you'll hear a lot of swearing! Barnacles latch onto anything that can't shake them off. They're responsible for slowing down boats, encrusting equipment, and making other animals miserable. But barnacles aren't trying to be annoying; like all creatures, they're just trying to survive.",
+  "facts": [
+    {
+      "label": "Attachment",
+      "value": "Barnacles can glue themselves to wood, cement, fiberglass, bricks, shells—anything that can't shake them off."
+    },
+    {
+      "label": "Feeding",
+      "value": "Barnacles stand on their heads and wave their legs, called cirri, like fine-toothed combs to strain plankton from the water."
+    },
+    {
+      "label": "Family",
+      "value": "Despite their clamlike shells, barnacles belong to the Crustacean family—cousins of shrimp and crabs, not mollusks."
+    },
+    {
+      "label": "Baby barnacles",
+      "value": "When barnacles hatch, they look like tiny shrimp or crabs with six legs and float as plankton before settling down and growing a shell."
+    },
+    {
+      "label": "Hitchhikers",
+      "value": "Barnacles attach to slow-moving animals like humpback whales and crabs, straining food from the water as they travel."
+    },
+    {
+      "label": "Tides",
+      "value": "When the tide goes out, barnacles fold up inside their shells and wait for the water to return before feeding again."
+    }
+  ],
+  "topics": [
+    {
+      "id": "bothersome-barnacles",
+      "title": "Bothersome barnacles",
+      "image": "assets/barn/BARN01PU.webp",
+      "text": "Anyone who has spent time near salt water knows that barnacles can quickly glue themselves to wood, cement, fiberglass, bricks, shells—anything! In fact, some people make their living by scraping off barnacles, or by thinking of ways to prevent barnacles from attaching in the first place.\n\nWood-boring worms\nIn addition to barnacles, owners of wooden boats and docks have to worry about marine worms that bore into wood. Over the centuries people have used tar, copper, and paints with pepper in them to keep barnacles and worms off their property.",
+      "captions": [
+        {
+          "label": "No hope for this rope",
+          "text": "These barnacles have grown over an anchor rope. Barnacles have plagued ship owners since the first seagoing vessel was built."
+        }
+      ],
+      "narration": "assets/barn/BARN01JN.mp3"
+    },
+    {
+      "id": "world-travelers",
+      "title": "World travelers",
+      "image": "assets/barn/BARN02PU.webp",
+      "text": "Barnacles attach themselves to all kinds of slow-moving animals. Although it can't be pleasant for the host animal, it's a great deal for the barnacles, who strain food from the water as they're carried along. When they're fixed in place they have to beat the water with their special legs, called cirri, to stir up their dinner.",
+      "captions": [
+        {
+          "label": "Fixed on a flipper",
+          "text": "Barnacles have attached themselves to this humpback whale's flipper. They will travel great distances with the whale, who would probably just as soon do without the company."
+        },
+        {
+          "label": "At home on a crab",
+          "text": "This poor crab has a heavy burden to carry—the barnacle on its shell may eventually become as big as the crab!"
+        }
+      ],
+      "narration": "assets/barn/BARN02JN.mp3"
+    },
+    {
+      "id": "crustacean-cousins",
+      "title": "Crustacean cousins",
+      "image": "assets/barn/BARN03PU.webp",
+      "text": "Because adult barnacles have thick, clamlike shells, you might think they're part of the Mollusk family. But a baby barnacle at times looks like a water flea, a shrimp, and a crab. In fact, all these animals belong to the Crustacean family.",
+      "captions": [
+        {
+          "label": "Shrimp",
+          "text": "Can you believe that a newly hatched barnacle looks something like this? As a barnacle grows older, it develops more legs and finally settles down somewhere and grows a shell. Then it's easy to tell the barnacles from the shrimp."
+        },
+        {
+          "label": "Crab",
+          "text": "When baby barnacles emerge from their eggs, they have six legs, just like this crab. But they never develop great big claws like this guy."
+        }
+      ],
+      "narration": "assets/barn/BARN03JN.mp3"
+    },
+    {
+      "id": "filter-feeders",
+      "title": "Filter feeders",
+      "image": "assets/barn/BARN04PU.webp",
+      "text": "Barnacles stand on their heads and wave their special legs, called cirri, in the water to stir up plankton and debris to eat. The cirri are like fine-toothed combs that strain out food particles. In the ocean, this isn't considered a weird way to eat. Many kinds of animals are filter feeders, including some of the whales that barnacles attach themselves to.",
+      "captions": [
+        {
+          "label": "Featherduster",
+          "text": "A featherduster worm can extend its feathery tentacles to feed, or retract them into its tube for protection."
+        },
+        {
+          "label": "On the menu",
+          "text": "This is what filter feeders are waiting for—plankton! Plankton isn't just one type of animal; it's a group of tiny plants and animals that float freely in the sea. When barnacles are babies, they're plankton, too."
+        },
+        {
+          "label": "Grabby anemone",
+          "text": "Anemones eat not only fine particles, but also almost any animal that stumbles into their tentacles. Anemones paralyze their prey with stinging cells."
+        }
+      ],
+      "narration": "assets/barn/BARN04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Plankton",
+      "to": "plan"
+    },
+    {
+      "label": "Anemones",
+      "to": "anem"
+    },
+    {
+      "label": "Boxfish",
+      "to": "boxy"
+    },
+    {
+      "label": "Lobsters",
+      "to": "lobs"
+    },
+    {
+      "label": "Marine Iguanas",
+      "to": "igua"
+    },
+    {
+      "label": "Waves",
+      "to": "wave"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/barn/BARN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 5,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "In and out",
+            "to": "video",
+            "x": 6,
+            "y": 39,
+            "w": 16,
+            "h": 7
+          },
+          {
+            "label": "Bothersome barnacles",
+            "to": "bothersome-barnacles",
+            "x": 26,
+            "y": 47,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "Crustacean cousins",
+            "to": "crustacean-cousins",
+            "x": 62,
+            "y": 26,
+            "w": 25,
+            "h": 6
+          },
+          {
+            "label": "World travelers",
+            "to": "world-travelers",
+            "x": 61,
+            "y": 67,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Filter feeders",
+            "to": "filter-feeders",
+            "x": 61,
+            "y": 75,
+            "w": 19,
+            "h": 6
+          }
+        ]
+      },
+      "bothersome-barnacles": {
+        "image": "assets/barn/BARN01PU.webp",
+        "back": "main"
+      },
+      "world-travelers": {
+        "image": "assets/barn/BARN02PU.webp",
+        "back": "main"
+      },
+      "crustacean-cousins": {
+        "image": "assets/barn/BARN03PU.webp",
+        "back": "main"
+      },
+      "filter-feeders": {
+        "image": "assets/barn/BARN04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/barn/clip.mp4",
+        "poster": "assets/barn/BARN05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/barn/BARN00JN.mp3",
+  "sound": "assets/barn/BARN00IX.mp3",
+  "video": {
+    "title": "In and out",
+    "src": "assets/barn/clip.mp4",
+    "poster": "assets/barn/poster.webp",
+    "caption": "Barnacles are pretty adaptable animals. Tide's out? No problem! They just fold up inside their shells and wait for the waves to roll back in. Tide's in? Great! Water overhead means dinnertime to a barnacle—time to start straining the current for food. If a predator swims by, barnacles quickly retreat into their shells and close them for protection.",
+    "narration": "assets/barn/BARN05JN.mp3"
+  }
+}

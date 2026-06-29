@@ -1,0 +1,223 @@
+{
+  "id": "lake",
+  "code": "LAKE",
+  "name": "Birds of Lakes and Coasts",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "From crashing surf to mountain lake, these birds rule every waterway.",
+  "zones": [
+    "Coast & tide pools",
+    "Rivers & estuaries"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/lake/LAKE00AA.webp",
+    "alt": "Birds of Lakes and Coasts"
+  },
+  "intro": "While some sea birds never leave ocean areas, others, like sea ducks, pelicans, and gulls, routinely travel back and forth between freshwater and marine environments. For example, in wintertime you might spot this harlequin duck along the coasts of North America and Asia. During the summer, you might see this bird gliding across an inland lake or dabbling in a swiftly flowing river.",
+  "facts": [
+    {
+      "label": "Dive depth",
+      "value": "The common loon can dive to over 60 m (200 ft) and stay submerged for more than five minutes."
+    },
+    {
+      "label": "Speed",
+      "value": "The loon's powerful wingbeats can help it reach speeds up to 96 km (60 mi) per hour."
+    },
+    {
+      "label": "Cormorant dive",
+      "value": "The cormorant can dive to depths of 37 m (120 ft) using its streamlined legs and strong webbed feet."
+    },
+    {
+      "label": "Flamingos",
+      "value": "There are an estimated 6 million flamingos in the world, and as many as a million pairs might take over one lake."
+    },
+    {
+      "label": "Gull species",
+      "value": "Scientists have identified 45 species of gulls and nearly as many species of terns."
+    },
+    {
+      "label": "Pelican hunter",
+      "value": "The brown pelican soars to enormous heights then plunges head-first into the sea; its throat pouch becomes a dip-net that scoops fish from beneath the surface."
+    }
+  ],
+  "topics": [
+    {
+      "id": "bomber-jet",
+      "title": "Bomber jet",
+      "image": "assets/lake/LAKE01PU.webp",
+      "text": "Despite its heavy bill and stout body, the brown pelican is an expert diver. This bird soars to enormous heights before plunging head-first into the sea. This is no crash landing, but an almost foolproof dive for a meal that it has spotted from the air. When the pelican hits the water its throat pouch turns into a dip-net that scoops fish from beneath the surface. Brown pelicans are making a comeback after a drastic reduction in numbers that was caused by pesticides and loss of habitat.",
+      "narration": "assets/lake/LAKE01JN.mp3"
+    },
+    {
+      "id": "fishing-for-a-living",
+      "title": "Fishing for a living",
+      "image": "assets/lake/LAKE02PU.webp",
+      "text": "Left on its own, the cormorant is a voracious fish-eater that hunts in shallow water, but can dive to depths of 37 m (120 ft). Cormorants use their streamlined legs and strong webbed feet to propel themselves underwater. In Asia people train cormorants to fish for them by fixing a ring around their necks so that they can't swallow a fish all the way. The cormorant is tied to a rope and thrown overboard. When it makes a catch, it's hauled back and forced to disgorge its prey.",
+      "narration": "assets/lake/LAKE02JN.mp3"
+    },
+    {
+      "id": "laughing-birds",
+      "title": "Laughing birds",
+      "image": "assets/lake/LAKE04PU.webp",
+      "text": "The common loon is the maestro of the late-night serenade. Although it migrates in winter to coastal salt water, it breeds on remote freshwater lakes and slow rivers. During courtship season the male gives a haunting call across the water that's part wail, part laugh. But the loon is far from crazy. It's a stunning athlete that can dive to over 60 m (200 ft) and stay submerged for more than five minutes. In the air, its powerful wingbeats can help it reach speeds up to 96 km (60 mi) per hour. And nothing can beat it as a mode of transportation for its chicks.",
+      "narration": "assets/lake/LAKE04JN.mp3"
+    },
+    {
+      "id": "gregarious-grebes",
+      "title": "Gregarious grebes",
+      "image": "assets/lake/LAKE05PU.webp",
+      "text": "Male and female grebes have dull plumage in winter and live on salt water. In summer they reside on inland freshwater ponds, and that's where the fun begins. The plumage of both sexes brightens to a rusty red, and punky tufts stick straight up on their heads. During mating season grebes get showy—preening, head-shaking, presenting weeds, wing-flashing, and performing an upright \"penguin dance\" in which they zoom around on the water like hydrofoils in heat!",
+      "narration": "assets/lake/LAKE05JN.mp3"
+    },
+    {
+      "id": "plucky-ducks",
+      "title": "Plucky ducks",
+      "image": "assets/lake/LAKE06PU.webp",
+      "text": "Ducks paint the landscape with their colorful plumage and sometimes fill the skies with sound. Their feathers—or down—have commercial uses.",
+      "captions": [
+        {
+          "label": "Whistling wings",
+          "text": "When the common goldeneye duck takes to the skies, its wings make a loud whistling sound."
+        },
+        {
+          "label": "Comforters",
+          "text": "The female eider duck plucks down from her breast to line her nest. People also use that down to line parkas and quilts. This male—off for a swim around the lake—is not so obliging about his feathers."
+        }
+      ],
+      "narration": "assets/lake/LAKE06JN.mp3"
+    },
+    {
+      "id": "the-most-familiar",
+      "title": "The most familiar",
+      "image": "assets/lake/LAKE07PU.webp",
+      "text": "Anyone who has visited an ocean beach has seen gulls and heard their haunting cries. Gulls and their relatives, terns and skuas, are familiar sights worldwide. Scientists have identified 45 species of gulls and nearly as many species of terns. Many gulls travel far inland during breeding and nesting seasons, and some species live on lakes all year round.",
+      "narration": "assets/lake/LAKE07JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Penguins",
+      "to": "peng"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/lake/LAKE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 4,
+            "w": 9,
+            "h": 6
+          },
+          {
+            "label": "Bomber jet",
+            "to": "bomber-jet",
+            "x": 60,
+            "y": 34,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Plucky ducks",
+            "to": "plucky-ducks",
+            "x": 60,
+            "y": 47,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Fishing for a living",
+            "to": "fishing-for-a-living",
+            "x": 53,
+            "y": 59,
+            "w": 38,
+            "h": 5
+          },
+          {
+            "label": "The most familiar",
+            "to": "the-most-familiar",
+            "x": 53,
+            "y": 69,
+            "w": 36,
+            "h": 5
+          },
+          {
+            "label": "Gregarious grebes",
+            "to": "gregarious-grebes",
+            "x": 5,
+            "y": 55,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Pink drinks",
+            "to": "video",
+            "x": 4,
+            "y": 64,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Laughing birds",
+            "to": "laughing-birds",
+            "x": 5,
+            "y": 75,
+            "w": 25,
+            "h": 5
+          }
+        ]
+      },
+      "bomber-jet": {
+        "image": "assets/lake/LAKE01PU.webp",
+        "back": "main"
+      },
+      "fishing-for-a-living": {
+        "image": "assets/lake/LAKE02PU.webp",
+        "back": "main"
+      },
+      "laughing-birds": {
+        "image": "assets/lake/LAKE04PU.webp",
+        "back": "main"
+      },
+      "gregarious-grebes": {
+        "image": "assets/lake/LAKE05PU.webp",
+        "back": "main"
+      },
+      "plucky-ducks": {
+        "image": "assets/lake/LAKE06PU.webp",
+        "back": "main"
+      },
+      "the-most-familiar": {
+        "image": "assets/lake/LAKE07PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/lake/clip.mp4",
+        "poster": "assets/lake/LAKE03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/lake/LAKE00JN.mp3",
+  "sound": "assets/lake/LAKE00IX.mp3",
+  "video": {
+    "title": "Pink drinks",
+    "src": "assets/lake/clip.mp4",
+    "poster": "assets/lake/poster.webp",
+    "caption": "Flamingos wade the shallows of tropical and subtropical coasts and lakes, tipping their bills upside down to sieve out shrimp and pink algae—the source of their rosy color.",
+    "narration": "assets/lake/LAKE03JN.mp3"
+  }
+}

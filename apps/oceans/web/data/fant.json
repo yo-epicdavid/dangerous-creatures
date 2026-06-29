@@ -1,0 +1,224 @@
+{
+  "id": "fant",
+  "code": "FANT",
+  "name": "Fantastic Voyages",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Brave sailors who dared to cross the world's oceans—alone.",
+  "zones": [
+    "Open ocean"
+  ],
+  "oceans": [
+    "Atlantic Ocean",
+    "Pacific Ocean"
+  ],
+  "hero": {
+    "image": "assets/fant/FANT00AA.webp",
+    "alt": "Fantastic Voyages"
+  },
+  "intro": "Men and women have made hazardous transatlantic voyages and even circumnavigations of the globe in all sorts of craft—often alone. They do it to see new places and to set new records, but most of all, they do it to test themselves. For example, Ann Davison discovered a remarkable inner strength during her solo voyage across the Atlantic. Ann was trapped in the equatorial doldrums for 23 days, going nowhere. The slow times can test a sailor's strength just as much as the exciting ones.",
+  "facts": [
+    {
+      "label": "Youngest solo",
+      "value": "Lee Graham circumnavigated the globe at age 16 in a 7.3 m (24 ft) sloop, after covering more than 32,180 km (20,000 mi) solo before he even turned 16."
+    },
+    {
+      "label": "Record row",
+      "value": "In 1896, Harbo and Samuelson rowed from New York to Great Britain in 55 days, averaging 80.5 km (50 mi) per day."
+    },
+    {
+      "label": "Survival",
+      "value": "Steven Callahan survived 76 days adrift on a 1.7 m (5.5 ft) inflatable life raft after his sloop sank in the Atlantic."
+    },
+    {
+      "label": "Clipper queen",
+      "value": "Mary Patten commanded a 1,616 ton clipper ship for 55 sleepless nights, arriving in San Francisco 134 days after Cape Horn."
+    },
+    {
+      "label": "Doldrums",
+      "value": "Ann Davison was trapped in the equatorial doldrums for 23 days during her solo Atlantic crossing—going nowhere."
+    },
+    {
+      "label": "Self-taught",
+      "value": "Tom Drake taught himself to mill planks and build schooners, then sailed solo around the world—only to be turned away from a yacht club for looking too scruffy."
+    }
+  ],
+  "topics": [
+    {
+      "id": "solo-at-16",
+      "title": "Solo at 16",
+      "image": "assets/fant/FANT01PU.webp",
+      "text": "Lee Graham started sailing when he was 10 years old and had covered more than 32,180 km (20,000 mi) of ocean solo by the time he was 16. Beginning in 1966, Graham sailed around the world in a 7.3 m (24 ft) sloop with cats along for company. He carried with him a library of maps, charts, and schoolbooks. Graham remains the youngest sailor ever to circumnavigate the globe.",
+      "narration": "assets/fant/FANT01JN.mp3"
+    },
+    {
+      "id": "record-rowing",
+      "title": "Record rowing",
+      "image": "assets/fant/FANT02PU.webp",
+      "text": "In 1896 Norwegian immigrants George Harbo and Frank Samuelson set out to be the first men ever to row across the Atlantic. They left New York City in a 5.5 m (18 ft) dory provisioned with 250 eggs, 45.4 kg (100 lb) of sea biscuits, 227 L (60 gal) of water, and plenty of oatmeal. They rowed from eight in the morning until eight at night, with one man always at the oars while the other slept. They averaged 80.5 km (50 mi) per day, reaching Great Britain after 55 exhausting days.",
+      "narration": "assets/fant/FANT02JN.mp3"
+    },
+    {
+      "id": "clipper-queen",
+      "title": "Clipper queen",
+      "image": "assets/fant/FANT03PU.webp",
+      "text": "In the days before females were accepted as members of seagoing crews, a woman sometimes had to take command of a ship in order to avert disaster. Courageous Mary Patten was one of those who found herself in a do-or-die situation. When Joshua Patten, Mary's husband and the captain of a 66 m (216 ft) clipper, became ill and died off Cape Horn in 1856, she fended off a mutiny and took command of the daunting, 1,616 ton ship. Doing without a full night's sleep for 55 nights, she braved Pacific gales and arrived in her home port of San Francisco 134 days later.",
+      "narration": "assets/fant/FANT03JN.mp3"
+    },
+    {
+      "id": "sea-survival",
+      "title": "Sea survival",
+      "image": "assets/fant/FANT04PU.webp",
+      "text": "There are times when the unthinkable happens. Your ship sinks, leaving nothing but yourself and the ocean. The battle for survival depends on the elements, the odds, and your will to live. When his sloop sank during his first attempt at crossing the Atlantic solo, Steven Callahan spent 76 days on a 1.7 m (5.5 ft) inflatable life raft. He fought off sharks, broiled in the sun, froze in the spray, ate raw fish, and endured pain, thirst, and weight loss, but he survived.",
+      "captions": [
+        {
+          "label": "Flying meals",
+          "text": "Callahan considered himself lucky if a flying fish landed on his raft and would make a meal of it."
+        }
+      ],
+      "narration": "assets/fant/FANT04JN.mp3"
+    },
+    {
+      "id": "self-reliance",
+      "title": "Self-reliance",
+      "image": "assets/fant/FANT05PU.webp",
+      "text": "Tom Drake knew nothing about boats, but his desire to go to sea was so intense that he taught himself what he needed to know. He milled planks, built schooners, and sailed around the world alone. After a rough Atlantic crossing Tom arrived in England and sailed up the Thames River to a fancy yacht club—his first landfall after weeks at sea. But he was so unshaven and grubby that the club's management refused to let him dock. Think of their embarrassment when they learned that they had just single-handedly circumnavigated the globe!",
+      "narration": "assets/fant/FANT05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Hurricanes",
+      "to": "hurr"
+    },
+    {
+      "label": "Islands",
+      "to": "isla"
+    },
+    {
+      "label": "Marine Iguanas",
+      "to": "igua"
+    },
+    {
+      "label": "Pirates",
+      "to": "pira"
+    },
+    {
+      "label": "Toothy Terrors",
+      "to": "toot"
+    },
+    {
+      "label": "Submarines and Robots",
+      "to": "robo"
+    },
+    {
+      "label": "Western European Explorers",
+      "to": "west"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/fant/FANT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "Clipper queen",
+            "to": "clipper-queen",
+            "x": 33,
+            "y": 68,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Record rowing",
+            "to": "record-rowing",
+            "x": 35,
+            "y": 75,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Self-reliance",
+            "to": "self-reliance",
+            "x": 70,
+            "y": 46,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Racing",
+            "to": "video",
+            "x": 70,
+            "y": 55,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Solo at 16",
+            "to": "solo-at-16",
+            "x": 70,
+            "y": 64,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Sea survival",
+            "to": "sea-survival",
+            "x": 70,
+            "y": 74,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "solo-at-16": {
+        "image": "assets/fant/FANT01PU.webp",
+        "back": "main"
+      },
+      "record-rowing": {
+        "image": "assets/fant/FANT02PU.webp",
+        "back": "main"
+      },
+      "clipper-queen": {
+        "image": "assets/fant/FANT03PU.webp",
+        "back": "main"
+      },
+      "sea-survival": {
+        "image": "assets/fant/FANT04PU.webp",
+        "back": "main"
+      },
+      "self-reliance": {
+        "image": "assets/fant/FANT05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/fant/clip.mp4",
+        "poster": "assets/fant/FANT06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/fant/FANT00JN.mp3",
+  "sound": "assets/fant/FANT00IX.mp3",
+  "video": {
+    "title": "Racing",
+    "src": "assets/fant/clip.mp4",
+    "poster": "assets/fant/poster.webp",
+    "caption": "Wherever there are people and water, there are boat races. Kayakers and canoeists rely on muscle power; speedboats and hydrofoils depend on the most modern engines; and sailors strive to use the wind in the most effective way.",
+    "narration": "assets/fant/FANT06JN.mp3"
+  }
+}

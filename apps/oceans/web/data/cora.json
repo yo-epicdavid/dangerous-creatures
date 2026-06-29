@@ -1,0 +1,228 @@
+{
+  "id": "cora",
+  "code": "CORA",
+  "name": "Corals",
+  "category": "creature",
+  "scientificName": "Anthozoa spp.",
+  "needsScientificVerify": false,
+  "tagline": "Ancient animals that look like plants — and build the biggest structures on Earth!",
+  "zones": [
+    "Coral reef",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/cora/CORA00AA.webp",
+    "alt": "Corals"
+  },
+  "intro": "Corals have been around for more than 500 million years. Some look like flower blossoms, some like tree branches, and some like pincushions, cacti, or even brains. Some are male, some are female, some can change sex as needed, and some reproduce simply by forming new buds. It's no wonder that these remarkable creatures weren't even recognized as animals until the early nineteenth century!",
+  "facts": [
+    {
+      "label": "Ancient life",
+      "value": "Corals have been around for more than 500 million years."
+    },
+    {
+      "label": "Did you know",
+      "value": "Corals weren't even recognized as animals until the early nineteenth century."
+    },
+    {
+      "label": "Great Barrier Reef",
+      "value": "Millions of tiny corals created Australia's Great Barrier Reef, which is so big that it can even be seen from space."
+    },
+    {
+      "label": "Fire corals",
+      "value": "Fire corals have stinging cells called nematocysts. Careless divers who touch them can end up with painful rashes."
+    },
+    {
+      "label": "Bleaching",
+      "value": "When the algae inside brain corals die, the coral turns bleached white — sometimes whole coral reefs die this way."
+    }
+  ],
+  "topics": [
+    {
+      "id": "soft-corals",
+      "title": "Soft corals",
+      "image": "assets/cora/CORA01PU.webp",
+      "text": "You'll never see jewelry made from a piece of soft coral. That's because, unlike their reef-building relatives, soft corals don't form a hard outer shell. Inside their bodies are strands of protein and spicules, structures that make them rigid enough to stand up in water, yet flexible enough to bend with the passing waves. As you can see here, soft corals come in many different shapes and colors.",
+      "captions": [
+        {
+          "label": "Gorgonian sea fan",
+          "text": "Subergorgia sp."
+        },
+        {
+          "label": "Leather coral, Red Sea",
+          "text": "Sarcophyton trocheliophorum"
+        }
+      ],
+      "narration": "assets/cora/CORA01JN.mp3"
+    },
+    {
+      "id": "bleached-brain",
+      "title": "Bleached brain",
+      "image": "assets/cora/CORA02PU.webp",
+      "text": "If you've ever seen an animal's brain, you can see right away how brain coral got its name. Healthy brain corals contain lots of algae, which can make the corals look blue, green, or other colors. This coral is becoming “bleached” white, which means the algae is dying, and so will the coral. Sometimes whole coral reefs die in this way, depriving many reef animals of food and homes.",
+      "captions": [
+        {
+          "label": "Bleaching brain coral",
+          "text": "Diploria strigosa"
+        }
+      ],
+      "narration": "assets/cora/CORA02JN.mp3"
+    },
+    {
+      "id": "fiery-sting",
+      "title": "Fiery sting",
+      "image": "assets/cora/CORA03PU.webp",
+      "text": "Anyone who has come into close contact with fire corals can tell you that these creatures are alive—and armed! Like jellyfish and sea anemones, fire corals have stinging cells, called nematocysts, which they use to kill the plankton they eat. Although they can't eat larger creatures such as humans, these corals automatically sting anything that touches them, and careless divers can end up with painful rashes. Fire corals come in several colors and shapes, so unless you're an expert who can identify corals, you're better off not touching any of them.",
+      "captions": [
+        {
+          "label": "Plate fire coral",
+          "text": "Millepora complanata"
+        }
+      ],
+      "narration": "assets/cora/CORA03JN.mp3"
+    },
+    {
+      "id": "reef-builders",
+      "title": "Reef builders",
+      "image": "assets/cora/CORA04PU.webp",
+      "text": "In tropical waters, some kinds of hard corals not only form protective skeletons for themselves, but they also build coral reefs. In fact, millions of tiny corals created Australia's Great Barrier Reef, which is so big that it can even be seen from space!",
+      "captions": [
+        {
+          "label": "A home for one coral",
+          "text": "Corals extract calcium from seawater and secrete calcium carbonate, building a protective shell around their soft bodies."
+        },
+        {
+          "label": "A home for many creatures",
+          "text": "Over many years the calcium shells secreted by corals combine with materials created by other animals to build up a coral reef. Many types of sea creatures live in and around coral reefs. Despite their sturdy appearance, these are delicate environments that must be protected in order to survive."
+        }
+      ],
+      "narration": "assets/cora/CORA04JN.mp3"
+    },
+    {
+      "id": "wanted-dead-or-alive",
+      "title": "Wanted: dead or alive",
+      "image": "assets/cora/CORA05PU.webp",
+      "text": "For centuries people have admired the beauty of corals, both live and dead. The skeletons of black and red corals are made into jewelry. The bleached remains of many hard corals are used as decorations in flower arrangements and aquarium scenes. It's ironic that many corals are killed or removed from their natural environments just to end up in home aquariums. It would be much better to use artificial corals in aquariums and protect live corals in the wild.",
+      "captions": [
+        {
+          "label": "Living coral tree",
+          "text": "Dendronephthya sp."
+        }
+      ],
+      "narration": "assets/cora/CORA05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Sea Mosses",
+      "to": "moss"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/cora/CORA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 1,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Wanted: dead or alive",
+            "to": "wanted-dead-or-alive",
+            "x": 8,
+            "y": 56,
+            "w": 41,
+            "h": 7
+          },
+          {
+            "label": "Spawning corals",
+            "to": "video",
+            "x": 8,
+            "y": 64,
+            "w": 40,
+            "h": 8
+          },
+          {
+            "label": "Fiery sting",
+            "to": "fiery-sting",
+            "x": 8,
+            "y": 73,
+            "w": 27,
+            "h": 7
+          },
+          {
+            "label": "Bleached brain",
+            "to": "bleached-brain",
+            "x": 8,
+            "y": 80,
+            "w": 34,
+            "h": 7
+          },
+          {
+            "label": "Soft corals",
+            "to": "soft-corals",
+            "x": 72,
+            "y": 41,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Reef builders",
+            "to": "reef-builders",
+            "x": 58,
+            "y": 86,
+            "w": 30,
+            "h": 6
+          }
+        ]
+      },
+      "soft-corals": {
+        "image": "assets/cora/CORA01PU.webp",
+        "back": "main"
+      },
+      "bleached-brain": {
+        "image": "assets/cora/CORA02PU.webp",
+        "back": "main"
+      },
+      "fiery-sting": {
+        "image": "assets/cora/CORA03PU.webp",
+        "back": "main"
+      },
+      "reef-builders": {
+        "image": "assets/cora/CORA04PU.webp",
+        "back": "main"
+      },
+      "wanted-dead-or-alive": {
+        "image": "assets/cora/CORA05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/cora/clip.mp4",
+        "poster": "assets/cora/CORA06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/cora/CORA00JN.mp3",
+  "sound": "assets/cora/CORA00IX.mp3",
+  "video": {
+    "title": "Spawning corals",
+    "src": "assets/cora/clip.mp4",
+    "poster": "assets/cora/poster.webp",
+    "caption": "Adult corals always stay in the same place, so you might wonder how the males and females get together to produce young. The whole idea of male and female gets a little confusing in the coral world. Many corals produce both sperm and eggs, but a coral polyp can't fertilize itself. So at certain times, a whole bunch of corals in one area release both their eggs and sperm, and then wait for the current to distribute the material to the right places.",
+    "narration": "assets/cora/CORA06JN.mp3"
+  }
+}

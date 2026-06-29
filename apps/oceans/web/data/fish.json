@@ -1,0 +1,234 @@
+{
+  "id": "fish",
+  "code": "FISH",
+  "name": "Fishing and Whaling",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Humans have become the ocean's most efficient predators — and the ocean is paying the price.",
+  "zones": [
+    "Open ocean",
+    "Coast & tide pools",
+    "Rivers & estuaries"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/fish/FISH00AA.webp",
+    "alt": "Fishing and Whaling"
+  },
+  "intro": "The world's fishing industries are in big trouble. According to the United Nations Food and Agriculture Organization, we spend more than 54 billion dollars a year on fishing—more than the industry earns. How did we get into this mess? Fishing boats catch fewer and fewer fish every year. That's because fishing nets catch everything, not just the type of fish that the crews want to haul in. The fishing industry worldwide throws away 25 percent of its total catch, which adds up to around 27 million pounds and billions of animals needlessly killed every year.",
+  "facts": [
+    {
+      "label": "Overspending",
+      "value": "We spend more than 54 billion dollars a year on fishing — more than the industry earns."
+    },
+    {
+      "label": "Bycatch",
+      "value": "The fishing industry throws away 25 percent of its total catch, which adds up to around 27 million pounds and billions of animals needlessly killed every year."
+    },
+    {
+      "label": "Bluefin price",
+      "value": "A single bluefin tuna can bring fishermen as much as 30,000 dollars, with flesh selling for up to 350 dollars per pound in Japan."
+    },
+    {
+      "label": "Walls of death",
+      "value": "Abandoned nets become floating walls of death that sometimes stretch for miles, trapping sharks, turtles, seals, and sea birds."
+    },
+    {
+      "label": "Whaling",
+      "value": "A century ago, all types of whales were slaughtered by the hundreds of thousands for their oil and whalebone."
+    },
+    {
+      "label": "Salmon threats",
+      "value": "Pacific Northwest salmon are threatened not only by overfishing but also by logging and dam-building, which destroys their spawning habitat."
+    }
+  ],
+  "topics": [
+    {
+      "id": "traditional-fishing",
+      "title": "Traditional fishing",
+      "image": "assets/fish/FISH01PU.webp",
+      "text": "When human populations were small and people fished just for their own tables or for their communities, overfishing didn't often happen. Although plenty of fish were caught in small nets or with harpoons, there were always plenty left to reproduce. Nowadays there are too many people fishing, and huge commercial ships use miles of nets to capture all the fish in an area. When only a few adult fish are left to reproduce, there's no way that the supply of fish can continually be renewed.",
+      "narration": "assets/fish/FISH01JN.mp3"
+    },
+    {
+      "id": "modern-problems",
+      "title": "Modern problems",
+      "image": "assets/fish/FISH02PU.webp",
+      "text": "By using sonar, fishing fleets can easily find fish. Hydraulic winches can quickly play out and haul in heavier nets than any human crew could lift. Huge processing boats can process fish on the spot, dumping the remains back into the ocean. People have become the ocean's most efficient predators.",
+      "captions": [
+        {
+          "label": "Walls of death",
+          "text": "Nets don't catch only the fish people want to eat. They ensnare everything they surround, including sharks, turtles, cetaceans, seals, and sea birds. Abandoned nets can become floating walls of death that sometimes stretch for miles."
+        },
+        {
+          "label": "Bye-bye, bluefins",
+          "text": "The giant bluefin tuna is a valued fish, especially in Japan, where people pay up to 350 dollars per pound for its flesh. A single bluefin tuna can bring fishermen as much as 30,000 dollars! Now you know why fishing crews have nearly wiped out this species."
+        }
+      ],
+      "narration": "assets/fish/FISH02JN.mp3"
+    },
+    {
+      "id": "types-of-nets",
+      "title": "Types of nets",
+      "image": "assets/fish/FISH03PU.webp",
+      "text": "Fishing boats use different types of nets, depending on what they're trying to catch. A heavy concentration of boats using efficient nets can remove most of the marine life from an area in only a few days.",
+      "narration": "assets/fish/FISH03JN.mp3"
+    },
+    {
+      "id": "whaling",
+      "title": "Whaling",
+      "image": "assets/fish/FISH04PU.webp",
+      "text": "A century ago, there was a huge demand for whale oil and products made from whalebone. All types of whales were slaughtered by the hundreds of thousands. Today substitutes are available for all of these products, and most nations have now agreed to stop killing whales. However, Japan, Norway, and Iceland continue to harvest whales, either commercially or for research purposes.",
+      "narration": "assets/fish/FISH04JN.mp3"
+    },
+    {
+      "id": "salmon-story",
+      "title": "Salmon story",
+      "image": "assets/fish/FISH06PU.webp",
+      "text": "Salmon in the Pacific Northwest region of the United States are now scarce, and some species are in danger of extinction. This situation is due not only to overfishing, but also to logging and damming up rivers. Even things we do on land affect life in the oceans!",
+      "captions": [
+        {
+          "label": "How forests affect fish",
+          "text": "Adult salmon leave the ocean and swim up rivers and streams to spawn. Clearcutting forests causes two problems in salmon-spawning areas: it destroys the shade that keeps the water cool, and it causes silt to wash into streams, smothering salmon eggs."
+        },
+        {
+          "label": "Stop sign",
+          "text": "How can salmon leap a dam like this? Even when adult fish go up fish ladders, the babies, or fry, are often sucked into machinery and killed on their way back to the ocean."
+        }
+      ],
+      "narration": "assets/fish/FISH06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Future of the Oceans",
+      "to": "futu"
+    },
+    {
+      "label": "The Web of Life",
+      "to": "webl"
+    },
+    {
+      "label": "Powered Ships",
+      "to": "powe"
+    },
+    {
+      "label": "Tough Choices"
+    },
+    {
+      "label": "Baleen Whales",
+      "to": "whlb"
+    },
+    {
+      "label": "The Water Cycle",
+      "to": "wcyc"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/fish/FISH00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 9,
+            "h": 7
+          },
+          {
+            "label": "Traditional fishing",
+            "to": "traditional-fishing",
+            "x": 73,
+            "y": 28,
+            "w": 27,
+            "h": 9
+          },
+          {
+            "label": "Whaling",
+            "to": "whaling",
+            "x": 73,
+            "y": 45,
+            "w": 25,
+            "h": 9
+          },
+          {
+            "label": "Modern problems",
+            "to": "modern-problems",
+            "x": 73,
+            "y": 62,
+            "w": 26,
+            "h": 9
+          },
+          {
+            "label": "What can we do?",
+            "to": "video",
+            "x": 2,
+            "y": 74,
+            "w": 24,
+            "h": 8
+          },
+          {
+            "label": "Types of nets",
+            "to": "types-of-nets",
+            "x": 2,
+            "y": 83,
+            "w": 19,
+            "h": 7
+          },
+          {
+            "label": "Salmon story",
+            "to": "salmon-story",
+            "x": 2,
+            "y": 91,
+            "w": 16,
+            "h": 7
+          }
+        ]
+      },
+      "traditional-fishing": {
+        "image": "assets/fish/FISH01PU.webp",
+        "back": "main"
+      },
+      "modern-problems": {
+        "image": "assets/fish/FISH02PU.webp",
+        "back": "main"
+      },
+      "types-of-nets": {
+        "image": "assets/fish/FISH03PU.webp",
+        "back": "main"
+      },
+      "whaling": {
+        "image": "assets/fish/FISH04PU.webp",
+        "back": "main"
+      },
+      "salmon-story": {
+        "image": "assets/fish/FISH06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/fish/clip.mp4",
+        "poster": "assets/fish/FISH05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/fish/FISH00JN.mp3",
+  "sound": "assets/fish/FISH00IX.mp3",
+  "video": {
+    "title": "What can we do?",
+    "src": "assets/fish/clip.mp4",
+    "poster": "assets/fish/poster.webp",
+    "caption": "Seining herring, Bay of Fundy, Canada",
+    "narration": "assets/fish/FISH05JN.mp3"
+  }
+}

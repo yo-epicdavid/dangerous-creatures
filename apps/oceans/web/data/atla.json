@@ -1,0 +1,226 @@
+{
+  "id": "atla",
+  "code": "ATLA",
+  "name": "Atlantic Ocean",
+  "category": "place",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "The stormy \"Dark Sea\" that launched the age of exploration",
+  "zones": [
+    "Coast & tide pools",
+    "Coral reef",
+    "Open ocean",
+    "Deep sea"
+  ],
+  "oceans": [
+    "Atlantic Ocean"
+  ],
+  "hero": {
+    "image": "assets/atla/ATLA00AA.webp",
+    "alt": "Atlantic Ocean"
+  },
+  "intro": "The Romans called the Atlantic \"the Dark Sea\" because of its many dangers. Its icy northern waters are among the most hazardous in the world, with stormy weather, fog, icebergs, and busy shipping lanes. Since the North Atlantic has been studied more than any other ocean, much of the modern science of oceanography is based on research gathered in these waters.",
+  "facts": [
+    {
+      "label": "Age",
+      "value": "The Atlantic Ocean opened about 65 million years ago and widens by 2 to 4 cm (.75 to 1.5 in) every year."
+    },
+    {
+      "label": "Mountains",
+      "value": "The Mid-Atlantic Ridge is the world's largest mountain chain, with peaks up to 3,000 m (9,843 ft) that emerge as islands including Iceland, the Azores, and Ascension Island."
+    },
+    {
+      "label": "Clearest water",
+      "value": "The Sargasso Sea has the clearest ocean water in the world, since few nutrients or sediments cloud its depths."
+    },
+    {
+      "label": "Resources",
+      "value": "The Atlantic's wide continental shelves are prime fishing and oil-drilling grounds, but overfishing by commercial fleets has dramatically reduced the numbers of some fish species."
+    },
+    {
+      "label": "Currents",
+      "value": "The warmer waters of the North Atlantic Drift allow Norway's western harbors to handle shipping all year round, while harbors on the eastern coast of Greenland are frozen over during the winter months."
+    },
+    {
+      "label": "Pollution",
+      "value": "Toxins build up in marine animals and weaken their immune systems, hinder reproduction, and cause cancerous growths and fin erosion."
+    }
+  ],
+  "topics": [
+    {
+      "id": "young-and-restless",
+      "title": "Young and restless",
+      "image": "assets/atla/ATLA01PU.webp",
+      "text": "The Atlantic is a relatively young ocean. Underwater spreading centers, which mark where new ocean floor is being created, were first discovered here.",
+      "captions": [
+        {
+          "label": "A growing gap",
+          "text": "The Atlantic Ocean opened about 65 million years ago and widens by 2 to 4 cm (.75 to 1.5 in) every year."
+        },
+        {
+          "label": "Mountains that go on forever",
+          "text": "The Mid-Atlantic Ridge, the largest mountain chain in the world, snakes down the middle of the Atlantic Basin. Peaks as high as 3,000 m (9,843 ft) emerge above sea level as Iceland, the Azores, and Ascension Island. The Atlantic has wide continental shelves and vast abyssal plains blanketed with thick sediment that has been deposited by rivers and then distributed by ocean currents."
+        }
+      ],
+      "narration": "assets/atla/ATLA01JN.mp3"
+    },
+    {
+      "id": "kissed-by-the-sun",
+      "title": "Kissed by the sun",
+      "image": "assets/atla/ATLA03PU.webp",
+      "text": "The Caribbean Sea contains many natural treasures, as well as precious cargoes from vessels sunk long ago by storms or scoundrels.",
+      "captions": [
+        {
+          "label": "Seafood gumbo",
+          "text": "The continental shelves of the Gulf of Mexico are prime fishing grounds."
+        },
+        {
+          "label": "Trouble in paradise",
+          "text": "The warm, clear, shallow waters of the Caribbean provide a perfect environment for coral reefs. The tourism industry attracts people eager to view the region's wonders, yet the fragile reefs suffer damage from ship anchors and water pollution. Mangrove and sea-grass environments are threatened by shore development and pollution."
+        }
+      ],
+      "narration": "assets/atla/ATLA03JN.mp3"
+    },
+    {
+      "id": "riches-on-the-shelf",
+      "title": "Riches on the shelf",
+      "image": "assets/atla/ATLA04PU.webp",
+      "text": "The wide, shallow continental shelves of the Atlantic Ocean provide habitats for most of its marine life, making them prime commercial fishing grounds. The remains of earlier forms of life find their final resting place on these shelves as well, now transformed by time and pressure into oil and gas deposits. These two treasures, food and energy, are harvested in areas like the North Sea, the eastern coast of Canada, and the Gulf of Mexico. However, hazardous seas present technological challenges, and overfishing by commercial fleets has dramatically reduced the numbers of some fish species.",
+      "narration": "assets/atla/ATLA04JN.mp3"
+    },
+    {
+      "id": "clogged-coasts",
+      "title": "Clogged coasts",
+      "image": "assets/atla/ATLA05PU.webp",
+      "text": "Since many people live near the coasts, the oceans suffer the consequences of the waste that humans generate. Plastics litter beaches and entangle or suffocate wildlife. Organic pollution is caused by the dumping of sewage and industrial wastes. The nutrients in some of this material encourage algal blooms and an increase in bacteria, both of which may kill wildlife by using up oxygen in the water during decomposition. Toxins build up in marine animals and weaken their immune systems, hinder reproduction, and cause cancerous growths and fin erosion.",
+      "narration": "assets/atla/ATLA05JN.mp3"
+    },
+    {
+      "id": "warmth-in-the-water",
+      "title": "Warmth in the water",
+      "image": "assets/atla/ATLA06PU.webp",
+      "text": "The North Atlantic Drift is a current in the eastern Atlantic Ocean that is warmer than the surrounding Arctic waters. The combination of different water temperatures has created an area of continual fog to the north of this current.",
+      "captions": [
+        {
+          "label": "Headed east",
+          "text": "The North Atlantic Drift is an eastern extension of another warm surface current, the Gulf Stream."
+        },
+        {
+          "label": "Open for business",
+          "text": "The warmer waters of the North Atlantic Drift allow Norway's western harbors to handle shipping all year round. The harbors on the eastern coast of Greenland, on the other hand, are frozen over during the winter months."
+        }
+      ],
+      "narration": "assets/atla/ATLA06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Lobsters",
+      "to": "lobs"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/atla/ATLA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Kissed by the sun",
+            "to": "kissed-by-the-sun",
+            "x": 58,
+            "y": 11,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Warmth in the water",
+            "to": "warmth-in-the-water",
+            "x": 53,
+            "y": 30,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Young and restless",
+            "to": "young-and-restless",
+            "x": 37,
+            "y": 46,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Sargasso Sea life",
+            "to": "video",
+            "x": 16,
+            "y": 60,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Clogged coasts",
+            "to": "clogged-coasts",
+            "x": 57,
+            "y": 57,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Riches on the shelf",
+            "to": "riches-on-the-shelf",
+            "x": 33,
+            "y": 72,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "young-and-restless": {
+        "image": "assets/atla/ATLA01PU.webp",
+        "back": "main"
+      },
+      "kissed-by-the-sun": {
+        "image": "assets/atla/ATLA03PU.webp",
+        "back": "main"
+      },
+      "riches-on-the-shelf": {
+        "image": "assets/atla/ATLA04PU.webp",
+        "back": "main"
+      },
+      "clogged-coasts": {
+        "image": "assets/atla/ATLA05PU.webp",
+        "back": "main"
+      },
+      "warmth-in-the-water": {
+        "image": "assets/atla/ATLA06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/atla/clip.mp4",
+        "poster": "assets/atla/ATLA02PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/atla/ATLA00JN.mp3",
+  "sound": "assets/atla/ATLA00IX.mp3",
+  "video": {
+    "title": "Sargasso Sea life",
+    "src": "assets/atla/clip.mp4",
+    "poster": "assets/atla/poster.webp",
+    "caption": "A sargassum fish, camouflaged by its yellow and brown coloring, lurks among floating sargassum weed in the calm, clear waters of the Sargasso Sea.",
+    "narration": "assets/atla/ATLA02JN.mp3"
+  }
+}

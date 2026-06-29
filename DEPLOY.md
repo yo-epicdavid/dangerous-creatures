@@ -1,43 +1,84 @@
-# Deploying to Cloudflare Pages
+# Deploying the monorepo to Cloudflare Pages
 
-This is a plain static site — no build step. The deployable site is the **`web/`** folder
-(HTML/CSS/JS + JSON data in `web/data/` + media in `web/assets/`, all committed).
+This repo is a **pnpm monorepo** with one Cloudflare Pages project per app:
 
-## One-time setup (Cloudflare dashboard)
+| App | Package | Lives in | Output |
+|-----|---------|----------|--------|
+| Dangerous Creatures | `dangerous-creatures` | `apps/dangerous-creatures/` | `apps/dangerous-creatures/dist` |
+| Oceans | `oceans` | `apps/oceans/` | `apps/oceans/dist` |
 
-1. The repo is on GitHub: `github.com/yo-epicdavid/dangerous-creatures`.
-2. Cloudflare dashboard → **Workers & Pages** → **Create** → **Pages** → **Connect to Git**.
-3. Pick the **dangerous-creatures** repo, branch **main**.
-4. Build settings (this is the **Astro** branch):
-   - **Framework preset:** Astro
-   - **Build command:** `npm run build`
-   - **Build output directory:** `dist`
-5. **Save and Deploy.** You'll get a `https://dangerous-creatures.pages.dev` URL in ~1 minute.
+Both are static Astro sites. Each app's `build` script runs `astro build` and copies its
+committed `web/assets` (media) + `web/data` (JSON) into `dist/`.
 
-   (On the vanilla `main` branch instead: no build command, output directory `web`.)
+---
+
+## ⚠️ Read this before merging `oceans` → `main`
+
+The live Dangerous Creatures site currently deploys from `main`, where DC sits at the **repo
+root** (build command `npm run build`, output `dist`). Merging `oceans` moves DC into
+`apps/dangerous-creatures/` and makes the root a pnpm workspace. **The existing DC Pages
+project will fail its next build until you update its settings** (below). Safe order:
+
+1. Update the **Dangerous Creatures** Pages project settings (don't deploy yet).
+2. Merge `oceans` → `main`.
+3. Let the DC project redeploy with the new settings; verify the live site.
+4. Create the **Oceans** Pages project.
+
+Cloudflare won't replace a live deployment with a failed build, so a misconfigured build is
+recoverable — but updating settings first avoids a red build entirely.
+
+---
+
+## Dangerous Creatures project (UPDATE on merge)
+
+Cloudflare dashboard → the existing **dangerous-creatures** Pages project → **Settings → Build**:
+
+- **Production branch:** `main`
+- **Framework preset:** None
+- **Build command:** `pnpm install && pnpm run dc:build`
+- **Build output directory:** `apps/dangerous-creatures/dist`
+- **Root directory:** `/` (leave at repo root — the pnpm workspace resolves from there)
+
+## Oceans project (NEW)
+
+**Workers & Pages → Create → Pages → Connect to Git** → same repo:
+
+- **Production branch:** `main` (or deploy from the `oceans` branch first to preview)
+- **Project name:** `oceans` → gives `https://oceans.pages.dev`
+- **Framework preset:** None
+- **Build command:** `pnpm install && pnpm run oceans:build`
+- **Build output directory:** `apps/oceans/dist`
+- **Root directory:** `/`
+
+---
+
+## pnpm version (important)
+
+The workspace uses pnpm 11 syntax (`allowBuilds:` in `pnpm-workspace.yaml`, which approves the
+native `esbuild`/`sharp` postinstall scripts Astro needs). The root `package.json` pins
+`"packageManager": "pnpm@11.9.0"` so Cloudflare's corepack uses a matching pnpm. If a build
+errors on an ignored/!unknown build script, set a Pages **environment variable**
+`PNPM_VERSION = 11.9.0` (and `NODE_VERSION = 20` or newer).
 
 ## Updates
 
-Every `git push` to `main` triggers an automatic redeploy. Nothing else to do.
+Every push to `main` redeploys both projects (each only rebuilds from its own output dir).
+The committed `web/assets` media is what gets served — no asset step runs in CI.
 
-## Custom domain (optional)
+---
 
-Pages → your project → **Custom domains** → add your domain and follow the DNS steps.
+## Regenerating Oceans from the ISO (only if needed)
 
-## Regenerating the media from the ISO (only if needed)
-
-The pipeline (mount the ISO at `/Volumes/DANGEROUS` first):
+Mount the disc at `/Volumes/MS_OCEANS` (`hdiutil attach _source/MSOceans.iso`), then from
+`apps/oceans/`:
 
 ```
-python3 tools/extract_all.py        # animals: images -> PNG, audio/video -> MP3/MP4
-python3 tools/extract_narration.py  # sub-topic (NP) narration + animal (AF) sounds -> MP3
-python3 tools/extract_guides.py     # 12 guided tours
-python3 tools/extract_games.py      # mini-game images
-<venv>/bin/python tools/convert_to_webp.py   # PNG -> WebP (needs Pillow)
-<venv>/bin/python tools/make_video_posters.py  # real video-frame posters from each clip
-<venv>/bin/python tools/refine_hotspots.py   # tighten Classic hotspots (needs Pillow+numpy)
-python3 tools/extract_credits.py    # credits.json from MSDANGER.THE
-python3 tools/build_data.py         # web/data/*.json + index/browse/quiz
-python3 tools/build_guides.py       # web/data/guides.json
-python3 tools/validate_data.py      # sanity check
+python3 tools/extract_all.py                     # images -> PNG, audio -> MP3, video -> MP4
+WF_OUT=tools/wf_full.js python3 tools/gen_workflow.py   # build the liberation workflow
+#   run tools/wf_full.js with the Workflow tool, save its result to web/wf_result.json
+python3 tools/build_data.py                      # web/data/*.json + index/browse
+<venv>/bin/python tools/extract_guides.py        # 6 hosts x 3 narrated tours
+python3 tools/build_guides.py                    # web/data/guides.json
+<venv>/bin/python tools/make_video_posters.py    # real video-frame posters
+<venv>/bin/python tools/convert_to_webp.py       # PNG -> WebP (deletes PNGs; run LAST)
 ```

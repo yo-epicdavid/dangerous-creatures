@@ -1,0 +1,254 @@
+{
+  "id": "weat",
+  "code": "WEAT",
+  "name": "The Weather Machine",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "The ocean doesn't just hold water — it runs the world's weather.",
+  "zones": [
+    "Open ocean",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/weat/WEAT00AA.webp",
+    "alt": "The Weather Machine"
+  },
+  "intro": "Our planet is one big weather machine, in which the ocean is the most important part. Water constantly moves between the oceans and the atmosphere, driven by the ocean's storage and release of heat energy from the sun. Currents move heat from the tropics to the poles, which explains why temperature differences in the oceans are smaller than on land. At the same time, the oceans transfer heat to the atmosphere, which moderates the weather in coastal areas. These processes are complex and intertwined: temperature differences between land and sea influence wind direction; and currents are affected by wind speeds and direction. Major changes in the oceans can alter weather patterns around the world!",
+  "facts": [
+    {
+      "label": "Speed",
+      "value": "Waterspouts can swirl at speeds up to 80 km (50 mi) per hour."
+    },
+    {
+      "label": "Height",
+      "value": "Water inside a waterspout can be swept up as high as 100 m (328 ft)."
+    },
+    {
+      "label": "Duration",
+      "value": "Waterspouts form quickly and rarely last more than 15 minutes."
+    },
+    {
+      "label": "El Niño",
+      "value": "Every 2 to 10 years, a weather disruption called El Niño occurs, causing torrential rains in some regions and droughts in others."
+    },
+    {
+      "label": "Tropical storms",
+      "value": "Tropical storms are called hurricanes, cyclones, or typhoons depending on where in the world they occur."
+    },
+    {
+      "label": "Heat transfer",
+      "value": "Ocean currents move heat from the tropics to the poles, making temperature differences in the oceans smaller than on land."
+    }
+  ],
+  "topics": [
+    {
+      "id": "waterspout",
+      "title": "Waterspout!",
+      "image": "assets/weat/WEAT01PU.webp",
+      "text": "If you see something that looks like a tornado at sea, it's a waterspout. Keep your distance Waterspouts form quickly, and rarely last more than 15 minutes. But they're dangerous—especially when they run out of steam, and all that suspended water comes crashing down. Tropical twisters Waterspouts form on hot, humid days, when cold air from a thundercloud collides with warm, rising ocean air. A swirling funnel of air comes down from the base of the cloud, and when it touches the sea, it sucks up a column of water. As winds move the cloud, the waterspout trails behind. Water can be swept up as high as 100 m (328 ft),and swirl at speeds up to 80 km (50 mi) per hour.",
+      "narration": "assets/weat/WEAT01JN.mp3"
+    },
+    {
+      "id": "messages-from-the-clouds",
+      "title": "Messages from the clouds",
+      "image": "assets/weat/WEAT02PU.webp",
+      "text": "Clouds can tell you what's going on in the atmosphere, and what kind of weather is headed your way. Once you learn how to read them, you'll be able to tell if sunny weather will continue—or if you should batten down the hatches for a storm.",
+      "captions": [
+        {
+          "label": "Stratocumulus",
+          "text": "These clouds may indicate approaching rain—but probably not for another day."
+        },
+        {
+          "label": "Cumulonimbus",
+          "text": "These towering piles of cumulus clouds with dark undersides often bring heavy rain."
+        },
+        {
+          "label": "Cirrostratus",
+          "text": "High layers of cirrus clouds soar above layered stratus and puffy cumulus clouds. These clouds may indicate an approaching storm."
+        }
+      ],
+      "narration": "assets/weat/WEAT02JN.mp3"
+    },
+    {
+      "id": "el-nino",
+      "title": "El Niño",
+      "image": "assets/weat/WEAT03PU.webp",
+      "text": "Every 2 to 10 years, a weather disruption called El Niño occurs. Normal pattern Winds blow westward from South America, allowing cold, nutrient-rich waters to rise up to the surface off the coasts of Peru and Ecuador. These winds cause the warm waters of the western Pacific to pile up, and moisture rises to bring monsoons to nearby landmasses. El Niño pattern Abnormally high air pressures over the western Pacific depress the ocean surface. Meanwhile, abnormally low pressures over the eastern Pacific raise sea levels there. Warm western waters flow east, suppressing the nutrient-bearing cold water upwelling near the western coasts of Central and South America. Phytoplankton die, wreaking havoc on the entire oceanic food chain. Trade winds weaken or reverse, causing torrential rains in Peru, Ecuador, and California, and droughts in Indonesia, India, northern Australia, and southern Africa.",
+      "narration": "assets/weat/WEAT03JN.mp3"
+    },
+    {
+      "id": "using-the-wind",
+      "title": "Using the wind",
+      "image": "assets/weat/WEAT04PU.webp",
+      "text": "Different belts of winds move warm and cold air to different parts of the earth. Free fuel Smart sailors know how to harness the power of the wind. Name that wind The doldrums lie in a zone of little to no wind located near the equator, where sailing ships were often stranded. The trade winds are located north and south of the doldrums. These areas have strong, constant winds that sailors have long relied upon. The Horse Latitudes are sunny belts of little to no wind. The name probably originated from tales of horses thrown overboard from Spanish ships becalmed in the Sargasso Sea. The westerlies are zones where winds blow from the west. The polar easterlies are cold, variable winds that blow from the east and push air from the poles toward the middle latitudes.",
+      "narration": "assets/weat/WEAT04JN.mp3"
+    },
+    {
+      "id": "coastal-weather",
+      "title": "Coastal weather",
+      "image": "assets/weat/WEAT05PU.webp",
+      "text": "Temperature differences between the oceans and the land can produce fog or winds. Cool and breezy During the day, the land heats more quickly than the sea. Warm air over the land rises and draws cool air in from the sea, creating a sea breeze that blows onshore. At night the land cools more quickly than the sea. The cooler land air pushes out under the warm air that lies over the sea, creating an offshore land breeze. Fog lights Most fog occurs where warm, moist air moves over colder water. It reduces visibility, making navigation difficult. Lighthouses were built on coasts to mark the location of the shore at night or in foggy conditions. Most lighthouses are now automated.",
+      "narration": "assets/weat/WEAT05JN.mp3"
+    },
+    {
+      "id": "the-bermuda-triangle",
+      "title": "The Bermuda Triangle",
+      "image": "assets/weat/WEAT06PU.webp",
+      "text": "The Bermuda Triangle is an area in the western Atlantic Ocean that's bordered by imaginary lines connecting Bermuda, Florida, and Puerto Rico. Theories began circulating in the 1950s suggesting that the disappearances of ships and aircraft in this area were due to UFOs, magnetic or gravitational anomalies, black holes, or even death rays from the submerged continent of Atlantis. However, much of the data that supported these ideas was inaccurate or simply made up. The disappearances are thought to have been caused by storms, hurricanes, and human error, and their number is not that unusual for such a large, much-traveled stretch of ocean.",
+      "narration": "assets/weat/WEAT06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Ocean Floor",
+      "to": "oflr"
+    },
+    {
+      "label": "Tough Choices"
+    },
+    {
+      "label": "Fishing and Whaling",
+      "to": "fish"
+    },
+    {
+      "label": "Currents",
+      "to": "curr"
+    },
+    {
+      "label": "Sailing Ships",
+      "to": "sail"
+    },
+    {
+      "label": "Antarctic Ocean",
+      "to": "anta"
+    },
+    {
+      "label": "Myths and Legends",
+      "to": "myth"
+    },
+    {
+      "label": "Sea Otters",
+      "to": "ottr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/weat/WEAT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 5,
+            "w": 7,
+            "h": 6
+          },
+          {
+            "label": "Waterspout!",
+            "to": "waterspout",
+            "x": 2,
+            "y": 55,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "The Bermuda Triangle",
+            "to": "the-bermuda-triangle",
+            "x": 57,
+            "y": 51,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Destruction!",
+            "to": "video",
+            "x": 62,
+            "y": 66,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "El Niño",
+            "to": "el-nino",
+            "x": 43,
+            "y": 67,
+            "w": 11,
+            "h": 5
+          },
+          {
+            "label": "Coastal weather",
+            "to": "coastal-weather",
+            "x": 62,
+            "y": 75,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Messages from the clouds",
+            "to": "messages-from-the-clouds",
+            "x": 2,
+            "y": 85,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Using the wind",
+            "to": "using-the-wind",
+            "x": 41,
+            "y": 85,
+            "w": 18,
+            "h": 5
+          }
+        ]
+      },
+      "waterspout": {
+        "image": "assets/weat/WEAT01PU.webp",
+        "back": "main"
+      },
+      "messages-from-the-clouds": {
+        "image": "assets/weat/WEAT02PU.webp",
+        "back": "main"
+      },
+      "el-nino": {
+        "image": "assets/weat/WEAT03PU.webp",
+        "back": "main"
+      },
+      "using-the-wind": {
+        "image": "assets/weat/WEAT04PU.webp",
+        "back": "main"
+      },
+      "coastal-weather": {
+        "image": "assets/weat/WEAT05PU.webp",
+        "back": "main"
+      },
+      "the-bermuda-triangle": {
+        "image": "assets/weat/WEAT06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/weat/clip.mp4",
+        "poster": "assets/weat/WEAT07PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/weat/WEAT00JN.mp3",
+  "sound": "assets/weat/WEAT00IX.mp3",
+  "video": {
+    "title": "Destruction!",
+    "src": "assets/weat/clip.mp4",
+    "poster": "assets/weat/poster.webp",
+    "caption": "Tropical storms are called hurricanes, cyclones, or typhoons, depending on where they are in the world. These huge, circular storms are born over warm tropical seas, then drift westward with the trade winds. They bring violent winds, heavy rains, and high seas to low-lying coastal areas, causing much destruction, especially around the Caribbean Sea, Madagascar, southern Asia, and the eastern coast of Australia. Global warming may cause these storms to form more often.",
+    "narration": "assets/weat/WEAT07JN.mp3"
+  }
+}

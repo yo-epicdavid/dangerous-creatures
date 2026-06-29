@@ -1,0 +1,210 @@
+{
+  "id": "mana",
+  "code": "MANA",
+  "name": "Manatees and Dugongs",
+  "category": "creature",
+  "scientificName": "Trichechus manatus",
+  "needsScientificVerify": false,
+  "tagline": "The gentle sea cows that ancient sailors mistook for mermaids!",
+  "zones": [
+    "Coast & tide pools",
+    "Rivers & estuaries"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/mana/MANA00AA.webp",
+    "alt": "Manatees and Dugongs"
+  },
+  "intro": "It's hard to believe that the mariners of the ancient world mistook cumbersome dugongs for lithe mermaids! Dugongs and manatees are herbivores, and graze on aquatic plants in shallow tropical waters. Although their feeding habits and great bulk have earned them the name \"sea cows,\" these docile, thick-skinned behemoths are actually most closely related to the elephant. For this reason they are sometimes referred to as \"marine pachyderms.\"",
+  "facts": [
+    {
+      "label": "Diet",
+      "value": "Herbivores that graze on aquatic plants in shallow tropical waters"
+    },
+    {
+      "label": "Relatives",
+      "value": "Most closely related to elephants and hyraxes — not whales or dolphins"
+    },
+    {
+      "label": "Energy",
+      "value": "Sirenians expend little energy — sometimes as little as one third as much as other mammals of the same weight"
+    },
+    {
+      "label": "Threats",
+      "value": "Among the most threatened of all marine animals; often show ugly scars from collisions with speedboats"
+    },
+    {
+      "label": "Extinct",
+      "value": "Steller's sea cow, the largest sirenian, was discovered in 1741 and completely exterminated by 1768 — just 27 years"
+    },
+    {
+      "label": "Behavior",
+      "value": "Faithful creatures — if one is attacked or killed, another will not abandon it, often making the second easy prey"
+    }
+  ],
+  "topics": [
+    {
+      "id": "mermaids",
+      "title": "Mermaids?",
+      "image": "assets/mana/MANA01PU.webp",
+      "text": "Manatees and dugongs both belong to the order Sirenia. They were named for the legendary sirens or mermaids who were said to lure sailors so close to the shore that their ships were smashed to pieces on the rocks.",
+      "captions": [
+        {
+          "label": "Slow dance",
+          "text": "Sirenians expend little energy—sometimes as little as one third as much as other mammals of the same weight. Their languid movements may have led sailors to think of them as mermaids."
+        },
+        {
+          "label": "What an imagination!",
+          "text": "Columbus was one of the first explorers to sight a \"mermaid.\" He described them in his journal as being less beautiful than they had been painted. And no wonder—they were probably dugongs!"
+        }
+      ],
+      "narration": "assets/mana/MANA01JN.mp3"
+    },
+    {
+      "id": "unlikely-looking-relatives",
+      "title": "Unlikely looking relatives",
+      "image": "assets/mana/MANA02PU.webp",
+      "text": "Believe it or not, manatees and dugongs are related to elephants and hyraxes.",
+      "captions": [
+        {
+          "label": "Grass guzzlers",
+          "text": "Another Sirenian cousin, the rock hyrax, also has a vegetarian diet and burns energy slowly. This landlubber looks like a tailless woodchuck and inhabits parts of Africa and the Middle East."
+        },
+        {
+          "label": "Nose jobs",
+          "text": "The elephant is an unlikely looking relative of the Sirenians. But close inspection reveals that it too has a muscular, active nose or trunk, and tusks that resemble the large incisor teeth of male dugongs. Elephants also have an herbivorous diet, slow gestation rate, and bear only one baby at a time."
+        }
+      ],
+      "narration": "assets/mana/MANA02JN.mp3"
+    },
+    {
+      "id": "threats",
+      "title": "Threats",
+      "image": "assets/mana/MANA03PU.webp",
+      "text": "Tasty flesh, a low reproductive rate, a gentle nature, and sluggish movements are not handy qualities for survival. Manatees and dugongs are easy targets for human hunters and other predators, and often show ugly scars from collisions with speedboats. They are among the most threatened of all marine animals.",
+      "captions": [
+        {
+          "label": "Toothy threats",
+          "text": "Sharks also have an appetite for these peaceable creatures."
+        }
+      ],
+      "narration": "assets/mana/MANA03JN.mp3"
+    },
+    {
+      "id": "extinct-in-a-blink",
+      "title": "Extinct in a blink",
+      "image": "assets/mana/MANA04PU.webp",
+      "text": "Steller's sea cow, the largest sirenian, was discovered in 1741, but had completely vanished by 1768. Hunters killed them for their fur, flesh, and fat; it took them only 27 years to exterminate an entire species. Today, many other species of animals are endangered throughout the world.",
+      "captions": [
+        {
+          "label": "Now or never",
+          "text": "All tigers are endangered. There are only 200 Siberian tigers left in the wild. They too will be extinct if we don't protect them."
+        },
+        {
+          "label": "Price on its head",
+          "text": "At one time the Tasmanian wolf populated Australia and New Zealand. By 1888 it inhabited only Tasmania. Hunting rewards nearly finished it off by 1909, and shortly after 1930, it became extinct."
+        }
+      ],
+      "narration": "assets/mana/MANA04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dolphins & Porpoises"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mana/MANA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "Mermaids?",
+            "to": "mermaids",
+            "x": 63,
+            "y": 27,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Threats",
+            "to": "threats",
+            "x": 63,
+            "y": 35,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Extinct in a blink",
+            "to": "extinct-in-a-blink",
+            "x": 2,
+            "y": 44,
+            "w": 18,
+            "h": 9
+          },
+          {
+            "label": "Faithful friends",
+            "to": "video",
+            "x": 28,
+            "y": 81,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Unlikely looking relatives",
+            "to": "unlikely-looking-relatives",
+            "x": 24,
+            "y": 87,
+            "w": 30,
+            "h": 5
+          }
+        ]
+      },
+      "mermaids": {
+        "image": "assets/mana/MANA01PU.webp",
+        "back": "main"
+      },
+      "unlikely-looking-relatives": {
+        "image": "assets/mana/MANA02PU.webp",
+        "back": "main"
+      },
+      "threats": {
+        "image": "assets/mana/MANA03PU.webp",
+        "back": "main"
+      },
+      "extinct-in-a-blink": {
+        "image": "assets/mana/MANA04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/mana/clip.mp4",
+        "poster": "assets/mana/MANA05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/mana/MANA00JN.mp3",
+  "sound": "assets/mana/MANA00IX.mp3",
+  "video": {
+    "title": "Faithful friends",
+    "src": "assets/mana/clip.mp4",
+    "poster": "assets/mana/poster.webp",
+    "caption": "Manatees and dugongs are faithful creatures. If one is attacked or killed, it will not be abandoned by another. Sadly, this often makes the second easy prey. When manatees venture upstream in coastal rivers their presence is often welcome because they consume underwater vegetation that might otherwise clog these waterways.",
+    "narration": "assets/mana/MANA05JN.mp3"
+  }
+}

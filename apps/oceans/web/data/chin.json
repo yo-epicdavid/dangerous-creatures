@@ -1,0 +1,187 @@
+{
+  "id": "chin",
+  "code": "CHIN",
+  "name": "Chinese Explorers",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Ancient sailors who crossed the Indian and Pacific oceans a thousand years before the European Age of Discovery.",
+  "zones": [
+    "Coast & tide pools",
+    "Open ocean"
+  ],
+  "oceans": [
+    "Indian Ocean",
+    "Pacific Ocean"
+  ],
+  "hero": {
+    "image": "assets/chin/CHIN00AA.webp",
+    "alt": "Chinese Explorers"
+  },
+  "intro": "The Chinese belong to one of the oldest civilizations on the globe, and have a lengthy seagoing history. They produced the greatest variety of sailing vessels, and the junk is one of the most seaworthy ships ever built. Chinese mariners had developed the compass long before anyone in the Western World found an alternative to navigating by the sun and the stars. Chinese explorers and traders were crossing the Indian and Pacific oceans to reach other continents a thousand years before the European Age of Discovery.",
+  "facts": [
+    {
+      "label": "Navigation",
+      "value": "Chinese mariners developed the compass long before anyone in the Western World found an alternative to navigating by the sun and the stars."
+    },
+    {
+      "label": "Early explorers",
+      "value": "Chinese explorers were crossing the Indian and Pacific oceans to reach other continents a thousand years before the European Age of Discovery."
+    },
+    {
+      "label": "Epic voyage",
+      "value": "Admiral Cheng Ho made seven expeditions between 1405 and 1433, visiting 30 countries and covering more than 75,000 miles!"
+    },
+    {
+      "label": "Porcelain",
+      "value": "Porcelain was invented by the Chinese — that's why we still call it \"china\" regardless of where it was made."
+    },
+    {
+      "label": "Floating villages",
+      "value": "Floating villages made of junks have their own schools, clinics, and stores, and are found in coastal areas throughout Asia."
+    },
+    {
+      "label": "Good luck",
+      "value": "From early times the Chinese painted fish eyes on the bows of junks as a symbol of good luck."
+    }
+  ],
+  "topics": [
+    {
+      "id": "trade-tycoons",
+      "title": "Trade tycoons",
+      "image": "assets/chin/CHIN01PU.webp",
+      "text": "The Chinese were busy as traders first, and as explorers second. They traded silk with the Roman Empire as early as 74 A.D.; exchanged spices and silver for furs and ivory in Constantinople and Baghdad from 500 to 1100; set up a brisk trade with the Venetians in 1200; and did business with the Portuguese in the 1500s.",
+      "captions": [
+        {
+          "label": "Eighteenth century Ch'ing Dynasty plate",
+          "text": "Porcelain—a translucent white type of pottery—was invented by the Chinese. That's why we often call porcelain \"china,\" regardless of where it was made."
+        },
+        {
+          "label": "Chinese trade routes",
+          "text": "The great admiral Cheng Ho made seven expeditions between 1405 and 1433 in search of trade and influence in the Indian Ocean region. Accompanied by tens of thousands of men, he visited 30 countries and covered more than 75,000 miles!"
+        }
+      ],
+      "narration": "assets/chin/CHIN01JN.mp3"
+    },
+    {
+      "id": "bringing-it-home",
+      "title": "Bringing it home",
+      "image": "assets/chin/CHIN02PU.webp",
+      "text": "Chinese merchants traded their goods to many nations for exotic treasures like these.",
+      "captions": [
+        {
+          "label": "Peacock feathers",
+          "text": "Chinese merchants returned with peacock feathers and pearls from India."
+        },
+        {
+          "label": "Rhino horn on scale",
+          "text": "Ancient Chinese traders imported rhino horns and elephant ivory from Africa. Many animal parts, such as rhino horns and tiger bones, are still used in Asian medicines, which causes problems: these animals are now endangered, and trading their body parts is illegal in most places."
+        }
+      ],
+      "narration": "assets/chin/CHIN02JN.mp3"
+    },
+    {
+      "id": "fish-eyes",
+      "title": "Fish eyes",
+      "image": "assets/chin/CHIN03PU.webp",
+      "text": "The fish is very important in Chinese culture. The Chinese believe that because it never closes its eyes, it is watchful, and can help avert disaster.",
+      "captions": [
+        {
+          "label": "A very watchful fish",
+          "text": "This fish would be a great guardian! These huge eyes belong to a deep-sea hatchetfish."
+        },
+        {
+          "label": "Eyes on boats",
+          "text": "From early times the Chinese painted fish eyes on the bows of junks as a symbol of good luck. On fishing junks the eyeballs are set low, as if on the lookout for fish."
+        }
+      ],
+      "narration": "assets/chin/CHIN03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Sailing Ships",
+      "to": "sail"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/chin/CHIN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "Trade tycoons",
+            "to": "trade-tycoons",
+            "x": 52,
+            "y": 2,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Floating villages",
+            "to": "video",
+            "x": 71,
+            "y": 26,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "Fish eyes",
+            "to": "fish-eyes",
+            "x": 2,
+            "y": 79,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Bringing it home",
+            "to": "bringing-it-home",
+            "x": 2,
+            "y": 87,
+            "w": 24,
+            "h": 6
+          }
+        ]
+      },
+      "trade-tycoons": {
+        "image": "assets/chin/CHIN01PU.webp",
+        "back": "main"
+      },
+      "bringing-it-home": {
+        "image": "assets/chin/CHIN02PU.webp",
+        "back": "main"
+      },
+      "fish-eyes": {
+        "image": "assets/chin/CHIN03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/chin/clip.mp4",
+        "poster": "assets/chin/CHIN04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/chin/CHIN00JN.mp3",
+  "sound": "assets/chin/CHIN00IX.mp3",
+  "video": {
+    "title": "Floating villages",
+    "src": "assets/chin/clip.mp4",
+    "poster": "assets/chin/poster.webp",
+    "caption": "Floating villages made of junks and other small craft bound together are found in coastal areas throughout Asia. Entire families live and work in these communities, which have their own schools, clinics, and stores. The residents are mostly fishermen and traders.",
+    "narration": "assets/chin/CHIN04JN.mp3"
+  }
+}

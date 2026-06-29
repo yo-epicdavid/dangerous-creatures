@@ -1,0 +1,238 @@
+{
+  "id": "mpln",
+  "code": "MPLN",
+  "name": "Marine Plants",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "From invisible algae to towering kelp, ocean plants keep the sea alive.",
+  "zones": [
+    "Coast & tide pools",
+    "Coral reef",
+    "Kelp & seagrass",
+    "Open ocean"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/mpln/MPLN00AA.webp",
+    "alt": "Marine Plants"
+  },
+  "intro": "Plant life in the oceans ranges from microscopic, single-celled algae to floating forests of giant kelp. Through the process of photosynthesis, plants convert carbon dioxide and water into organic carbon, which can be used as food by ocean animals. Since plants need the energy of sunlight to photosynthesize, they live in the upper reaches of the ocean, and often create essential habitats for animals.",
+  "facts": [
+    {
+      "label": "Growth",
+      "value": "Kelp is the fastest-growing plant on earth—it can grow up to 30 cm (1 ft) per day."
+    },
+    {
+      "label": "Depth",
+      "value": "Red algae can live in the deepest waters—up to 250 m (820 ft) deep."
+    },
+    {
+      "label": "Most abundant",
+      "value": "Phytoplankton are single-celled algae, the most abundant plants in the sea."
+    },
+    {
+      "label": "Did you know",
+      "value": "Some types of blue-green algae are among the earliest known forms of life."
+    },
+    {
+      "label": "Uses",
+      "value": "Seaweed is used to thicken ice cream and toothpaste, and as agar, a growth medium for bacteria."
+    },
+    {
+      "label": "Symbiosis",
+      "value": "Zooxanthella algae live inside the cells of animals like giant clams and provide nutrients through photosynthesis; without these algae, some corals probably could not build large reefs in nutrient-poor tropical waters."
+    }
+  ],
+  "topics": [
+    {
+      "id": "grasses-of-the-sea",
+      "title": "Grasses of the sea",
+      "image": "assets/mpln/MPLN01PU.webp",
+      "text": "Phytoplankton are single-celled algae, the most abundant plants in the sea, and they come in many different forms. Diatoms have intricate shapes made of silica, a glasslike substance, while dinoflagellates usually have two flagella, or tails. In northern oceans, longer days cause phytoplankton to grow rapidly during the spring, aided by nutrients stirred up by winter storms. In the tropical oceans, nutrients are continually stirred up by currents, so the algae there flourish year round.",
+      "captions": [
+        {
+          "label": "Phytoplankton and zooplankton",
+          "text": "Phytoplankton and zooplankton"
+        },
+        {
+          "label": "Satellite image",
+          "text": "Satellite image of phytoplankton distribution in western Atlantic"
+        }
+      ],
+      "narration": "assets/mpln/MPLN01JN.mp3"
+    },
+    {
+      "id": "saltwater-survivors",
+      "title": "Saltwater survivors",
+      "image": "assets/mpln/MPLN02PU.webp",
+      "text": "Mangroves are one of the few flowering plants that can live in the sea. These salt-resistant trees protect coastlines from erosion and provide a habitat for many animals. However, in many areas mangroves are being cut down for fuel, or to clear the shoreline for other purposes.",
+      "captions": [
+        {
+          "label": "Lizard Island",
+          "text": "Lizard Island, Great Barrier Reef, Australia"
+        }
+      ],
+      "narration": "assets/mpln/MPLN02JN.mp3"
+    },
+    {
+      "id": "colorful-algae",
+      "title": "Colorful algae",
+      "image": "assets/mpln/MPLN03PU.webp",
+      "text": "Seaweeds are classified by color, which depends on the photosynthetic pigments that the plant uses to trap the sun's energy. Green algae use chlorophyll. Other colors of algae also contain chlorophyll, but they have additional pigments that often mask the chlorophyll's green color. The depth at which certain seaweeds live often depends on their pigments. Red algae can live in the deepest waters—up to 250 m (820 ft) deep. Some types of blue-green algae are among the earliest known forms of life.",
+      "captions": [
+        {
+          "label": "Green algae",
+          "text": "Green algae"
+        },
+        {
+          "label": "Purple algae",
+          "text": "Purple algae"
+        }
+      ],
+      "narration": "assets/mpln/MPLN03JN.mp3"
+    },
+    {
+      "id": "you-scratch-my-back",
+      "title": "You scratch my back...",
+      "image": "assets/mpln/MPLN04PU.webp",
+      "text": "A type of phytoplankton called zooxanthella, a dinoflagellate, often lives inside the cells of animals like this giant blue clam. These algae provide nutrients to the animals through photosynthesis, and in return are protected from being snapped up by the next zooplankton that swims by. Without these algae, some corals probably could not build large reefs in the nutrient-poor tropical waters.",
+      "captions": [
+        {
+          "label": "Giant blue clam",
+          "text": "Giant blue clam, Tridacna gigas"
+        }
+      ],
+      "narration": "assets/mpln/MPLN04JN.mp3"
+    },
+    {
+      "id": "versatile-seaweed",
+      "title": "Versatile seaweed",
+      "image": "assets/mpln/MPLN06PU.webp",
+      "text": "Seaweed is a versatile plant, and its nutrients are used in many creative ways. It provides food for people and animals; it's effective as a fertilizer; and it's a source of vegetable gums that are used to thicken ice cream and toothpaste. In biological research, this algae is a source of agar, a growth medium for bacteria.",
+      "captions": [
+        {
+          "label": "Dried seaweed",
+          "text": "Dried seaweed, packaged for use in Asian dishes"
+        },
+        {
+          "label": "Bacteria growing on agar",
+          "text": "Bacteria growing on agar"
+        }
+      ],
+      "narration": "assets/mpln/MPLN06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Sea Otters",
+      "to": "ottr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mpln/MPLN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 2,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "versatile seaweed",
+            "to": "versatile-seaweed",
+            "x": 69,
+            "y": 17,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "You scratch my back...",
+            "to": "you-scratch-my-back",
+            "x": 51,
+            "y": 39,
+            "w": 32,
+            "h": 5
+          },
+          {
+            "label": "Grasses of the sea",
+            "to": "grasses-of-the-sea",
+            "x": 59,
+            "y": 70,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Saltwater survivors",
+            "to": "saltwater-survivors",
+            "x": 9,
+            "y": 52,
+            "w": 29,
+            "h": 5
+          },
+          {
+            "label": "Forests of the sea",
+            "to": "video",
+            "x": 9,
+            "y": 62,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Colorful algae",
+            "to": "colorful-algae",
+            "x": 9,
+            "y": 73,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "grasses-of-the-sea": {
+        "image": "assets/mpln/MPLN01PU.webp",
+        "back": "main"
+      },
+      "saltwater-survivors": {
+        "image": "assets/mpln/MPLN02PU.webp",
+        "back": "main"
+      },
+      "colorful-algae": {
+        "image": "assets/mpln/MPLN03PU.webp",
+        "back": "main"
+      },
+      "you-scratch-my-back": {
+        "image": "assets/mpln/MPLN04PU.webp",
+        "back": "main"
+      },
+      "versatile-seaweed": {
+        "image": "assets/mpln/MPLN06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/mpln/clip.mp4",
+        "poster": "assets/mpln/MPLN05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/mpln/MPLN00JN.mp3",
+  "sound": "assets/mpln/MPLN00IX.mp3",
+  "video": {
+    "title": "Forests of the sea",
+    "src": "assets/mpln/clip.mp4",
+    "poster": "assets/mpln/poster.webp",
+    "caption": "Just as clumps of land plants provide rich habitats for many animals, plants in the sea provide shelter and food, too. Huge beds of kelp, a type of brown seaweed, drift in the waters off the coast of California. Buoyed by air bladders, these plants create wondrous underwater forests inhabited by fish and sea otters. Kelp is the fastest-growing plant on earth—it can grow up to 30 cm (1 ft) per day.",
+    "narration": "assets/mpln/MPLN05JN.mp3"
+  }
+}

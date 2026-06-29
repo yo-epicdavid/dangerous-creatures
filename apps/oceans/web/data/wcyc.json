@@ -1,0 +1,246 @@
+{
+  "id": "wcyc",
+  "code": "WCYC",
+  "name": "The Water Cycle",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Earth's endless journey — from cloud to sea and back again.",
+  "zones": [
+    "Coast & tide pools",
+    "Open ocean",
+    "Polar seas",
+    "Rivers & estuaries"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/wcyc/WCYC00AA.webp",
+    "alt": "The Water Cycle"
+  },
+  "intro": "Water is everywhere: in raindrops, glaciers, oceans, fog banks—and in every living thing. In its various states, water is constantly circulating between the earth's surface and its atmosphere. The movement of water molecules between these two environments is something like that of snowflakes in a shaken snow globe. Water vapor held in clouds cools and condenses around dust particles and falls as precipitation in the form of rain or snow. Liquid water runs off the land's surface and into rivers that eventually return it to the oceans. Finally, water returns to the atmosphere through evaporation as the sun's heat and the wind transform it back into a vapor.",
+  "facts": [
+    {
+      "label": "Three states",
+      "value": "Earth is unique in our solar system because water can exist here in three different states—vapor, liquid, and solid."
+    },
+    {
+      "label": "Did you know",
+      "value": "The movement of water molecules between earth's surface and atmosphere is something like snowflakes in a shaken snow globe."
+    },
+    {
+      "label": "Desalination",
+      "value": "Salt can be removed from seawater by a process called desalination, producing fresh water—but the process requires a lot of energy."
+    },
+    {
+      "label": "Polar ice",
+      "value": "When polar seawater freezes into pack ice, its salt is squeezed out, making the remaining seawater saltier, colder, and heavier, so it sinks to the sea floor."
+    },
+    {
+      "label": "Sea levels",
+      "value": "If earth's climate warms unchecked, polar icecaps would melt, raising sea levels and intensifying the water cycle with more evaporation, clouds, precipitation, and hurricanes."
+    },
+    {
+      "label": "Forests",
+      "value": "Burning forests increases carbon dioxide in the air, which traps heat and contributes to the greenhouse effect, upsetting the balance of the water cycle."
+    }
+  ],
+  "topics": [
+    {
+      "id": "drinking-seawater",
+      "title": "Drinking seawater",
+      "image": "assets/wcyc/WCYC01PU.webp",
+      "text": "Salt can be removed from seawater by a process called desalination. The result is fresh water, which is used for drinking and other purposes. However, this procedure is costly because it requires a lot of energy.",
+      "captions": [
+        {
+          "label": "Thirsty regions",
+          "text": "The Middle East is an arid region surrounded by salty seas. This area receives little rainfall and has few lakes, so its supply of fresh water is limited. However, since many oil fields are found here, energy costs are relatively low, and desalination makes a lot of sense."
+        },
+        {
+          "label": "Water factories",
+          "text": "Desalination is practical in areas where water is scarce and energy costs are low, such as Saudi Arabia, where this plant is located."
+        }
+      ],
+      "narration": "assets/wcyc/WCYC01JN.mp3"
+    },
+    {
+      "id": "with-ice-please",
+      "title": "With ice, please",
+      "image": "assets/wcyc/WCYC02PU.webp",
+      "text": "When seawater freezes, it affects the chemistry and the physics of the oceans.",
+      "captions": [
+        {
+          "label": "Restless waters",
+          "text": "When polar seawater freezes into pack ice, its salt is squeezed out, since it doesn't fit into the crystal structure of ice. The remaining seawater is saltier, colder, and heavier, so it sinks down to the sea floor and flows slowly back toward the equator."
+        },
+        {
+          "label": "Drink me",
+          "text": "Since the freezing process strains the salt out of seawater, ice floes and icebergs have long provided a supply of fresh water for the native peoples of the Arctic. Someday it may be economically feasible to tow these natural containers of fresh water to arid regions such as Australia or the Middle East."
+        }
+      ],
+      "narration": "assets/wcyc/WCYC02JN.mp3"
+    },
+    {
+      "id": "only-on-earth",
+      "title": "Only on earth",
+      "image": "assets/wcyc/WCYC03PU.webp",
+      "text": "Our planet is unique in our solar system, because here water can exist in three different states—vapor, liquid, and solid.",
+      "captions": [
+        {
+          "label": "A fiery furnace",
+          "text": "This computer-generated map of Venus allows us to see through its thick clouds of carbon dioxide. These clouds trap the sun's heat, making this planet our solar system's hottest. An extreme example of the power of the greenhouse effect, Venus may have once had water, but its oceans would long since have boiled away."
+        },
+        {
+          "label": "A glistening globe",
+          "text": "The unique range of temperatures and pressures found on our planet allows water to exist in such varied forms as the solid mass of an ice cap, the liquid of a shimmering sea, and the wispy vapor of a cloud."
+        }
+      ],
+      "narration": "assets/wcyc/WCYC03JN.mp3"
+    },
+    {
+      "id": "a-chainsaw-reaction",
+      "title": "A chainsaw reaction",
+      "image": "assets/wcyc/WCYC04PU.webp",
+      "text": "When the delicate balance of a planet's climate is upset in some way, a new equilibrium eventually establishes itself. However, the planet's ecology may be greatly changed as a result.",
+      "captions": [
+        {
+          "label": "Out to sea",
+          "text": "Fewer trees means that the land is more easily eroded, so more sediment is washed into rivers and seas. In addition to smothering coral reefs, this sediment also kills fish by reducing the amount of oxygen available in the water."
+        },
+        {
+          "label": "Cutting down and drying out",
+          "text": "Plants release water vapor into the atmosphere in a process called transpiration. As more and more forests are cut down or burned, decreasing amounts of water vapor and oxygen are recycled back into the air through transpiration. The burning of forests increases the amount of carbon dioxide in the air, which traps heat and contributes to the greenhouse effect."
+        }
+      ],
+      "narration": "assets/wcyc/WCYC04JN.mp3"
+    },
+    {
+      "id": "changing-climate",
+      "title": "Changing climate",
+      "image": "assets/wcyc/WCYC05PU.webp",
+      "text": "What might happen if the earth's climate became warmer? First, the water in the oceans would expand and rise. In time the polar icecaps would melt, raising sea levels even more. If unchecked, the water cycle would intensify—there would be more evaporation, more clouds, more precipitation, and more hurricanes.",
+      "captions": [
+        {
+          "label": "Disappearing act",
+          "text": "As sea levels rose, low-lying islands such as the Maldives in the Indian Ocean would be covered with water, or eroded by the more frequent storms. The islands' fresh groundwater would probably become contaminated by seawater."
+        },
+        {
+          "label": "Perilous paddies",
+          "text": "Coastal areas would be flooded if sea levels rose. These regions contain much of the world's fertile farmland, as well as many large population centers."
+        }
+      ],
+      "narration": "assets/wcyc/WCYC05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Web of Life",
+      "to": "webl"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/wcyc/WCYC00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 4,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "A chainsaw reaction",
+            "to": "a-chainsaw-reaction",
+            "x": 57,
+            "y": 8,
+            "w": 30,
+            "h": 7
+          },
+          {
+            "label": "Changing climate",
+            "to": "changing-climate",
+            "x": 59,
+            "y": 27,
+            "w": 27,
+            "h": 7
+          },
+          {
+            "label": "Only on earth",
+            "to": "only-on-earth",
+            "x": 53,
+            "y": 46,
+            "w": 25,
+            "h": 7
+          },
+          {
+            "label": "With ice, please",
+            "to": "with-ice-please",
+            "x": 57,
+            "y": 63,
+            "w": 25,
+            "h": 7
+          },
+          {
+            "label": "Interconnections",
+            "to": "video",
+            "x": 2,
+            "y": 87,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "Drinking seawater",
+            "to": "drinking-seawater",
+            "x": 27,
+            "y": 88,
+            "w": 27,
+            "h": 7
+          }
+        ]
+      },
+      "drinking-seawater": {
+        "image": "assets/wcyc/WCYC01PU.webp",
+        "back": "main"
+      },
+      "with-ice-please": {
+        "image": "assets/wcyc/WCYC02PU.webp",
+        "back": "main"
+      },
+      "only-on-earth": {
+        "image": "assets/wcyc/WCYC03PU.webp",
+        "back": "main"
+      },
+      "a-chainsaw-reaction": {
+        "image": "assets/wcyc/WCYC04PU.webp",
+        "back": "main"
+      },
+      "changing-climate": {
+        "image": "assets/wcyc/WCYC05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/wcyc/clip.mp4",
+        "poster": "assets/wcyc/WCYC06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/wcyc/WCYC00JN.mp3",
+  "sound": "assets/wcyc/WCYC00IX.mp3",
+  "video": {
+    "title": "Interconnections",
+    "src": "assets/wcyc/clip.mp4",
+    "poster": "assets/wcyc/poster.webp",
+    "caption": "The water cycle is constantly moving water from the oceans, to the atmosphere, to land, and back to the oceans. Chemicals dumped on land and in rivers end up in the ocean. From there, some compounds that don't break down may be carried back into the atmosphere and then back to our drinking water. Although our planetary plumbing system is gigantic, it's the only one we've got. We need to make sure that there will always be clean water for creatures everywhere on earth.",
+    "narration": "assets/wcyc/WCYC06JN.mp3"
+  }
+}

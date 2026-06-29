@@ -1,0 +1,255 @@
+{
+  "id": "what",
+  "code": "WHAT",
+  "name": "What's a Fish?",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "From microscopic minnows to whale sharks, fish have been ruling the oceans since long before the dinosaurs.",
+  "zones": [
+    "Coast & tide pools",
+    "Coral reef",
+    "Kelp & seagrass",
+    "Open ocean",
+    "Deep sea",
+    "Polar seas"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/what/WHAT00AA.webp",
+    "alt": "What's a Fish?"
+  },
+  "intro": "Fish can be microscopic or gigantic. They can be round, or boxlike, or as long and slim as snakes. Some look like leaves, spines, or rocks. They can be any color of the rainbow, striped, spotted, or luminous. Fish can have horns or beaks or protruding eyes. So how do you decide what is a fish, and what isn't?",
+  "facts": [
+    {
+      "label": "Groups",
+      "value": "There are three main groups of fish: bony fish with 25,000+ species, cartilaginous fish with 600+ species, and jawless fish with fewer than 50 species."
+    },
+    {
+      "label": "Age",
+      "value": "Fish have evolved over hundreds of millions of years—long before dinosaurs ever walked the land."
+    },
+    {
+      "label": "Breathing",
+      "value": "Fish breathe through gills made up of stiff filaments that absorb oxygen from water and pass it to the fish's blood."
+    },
+    {
+      "label": "Skin",
+      "value": "Fish skin can be scaly, spiny, or covered in bony plates called scutes. Sharks have ragged bumps similar to tiny teeth on their skin; other fish are perfectly smooth."
+    },
+    {
+      "label": "Shapes",
+      "value": "Fish come in every shape: an abbreviated ocean sunfish, a very long ribbon eel, or a perfectly rectangular boxfish."
+    }
+  ],
+  "topics": [
+    {
+      "id": "groups-of-fish",
+      "title": "Groups of fish",
+      "image": "assets/what/WHAT01PU.webp",
+      "text": "There are three main groups of fish. Bony fish—fish with skeletons—are the biggest group, with more than 25,000 species. Cartilaginous fish—fish with cartilage instead of bones—come next, with more than 600 species. And then there are jawless fish—fish with suction-cup mouths instead of jaws—with fewer than 50 species.",
+      "captions": [
+        {
+          "label": "Lamprey eel",
+          "text": "a jawless fish, Lampetra tridentata"
+        },
+        {
+          "label": "Forceps butterfly fish",
+          "text": "a bony fish, Forcipiger longirostris"
+        },
+        {
+          "label": "Manta ray",
+          "text": "a cartilaginous fish"
+        }
+      ],
+      "narration": "assets/what/WHAT01JN.mp3"
+    },
+    {
+      "id": "how-to-breathe-in-water",
+      "title": "How to breathe in water",
+      "image": "assets/what/WHAT02PU.webp",
+      "text": "Like all animals, fish must continually introduce oxygen into their blood to stay alive. But how do they do that underwater? The secret is gills, which all fish have. When you look at a fish, you see only its external gill covers and gill slits. The inside gills are made up of many stiff filaments, which absorb oxygen from water and pass the oxygen along to the fish's blood. In and out: A fish opens its mouth to take in water, then closes it and forces the water out over its gills—that's how it \"breathes.\"",
+      "captions": [
+        {
+          "label": "Gill slits",
+          "text": "on the biggest fish of all—a whale shark, Rhincodon typus"
+        }
+      ],
+      "narration": "assets/what/WHAT02JN.mp3"
+    },
+    {
+      "id": "fish-skin",
+      "title": "Fish skin",
+      "image": "assets/what/WHAT03PU.webp",
+      "text": "You can't tell a fish by its skin. Some fish have scales that overlap like shingles on a roof. Others have spines or bony plates called scutes. Sharks have ragged bumps similar to tiny teeth on their skin; other fish are perfectly smooth.",
+      "captions": [
+        {
+          "label": "Porcupine fish",
+          "text": "have spikes, Diodon hystrix"
+        },
+        {
+          "label": "Goldfish",
+          "text": "have scales"
+        },
+        {
+          "label": "Eels",
+          "text": "have smooth skin"
+        }
+      ],
+      "narration": "assets/what/WHAT03JN.mp3"
+    },
+    {
+      "id": "fish-shapes",
+      "title": "Fish shapes",
+      "image": "assets/what/WHAT04PU.webp",
+      "text": "Can you tell a fish by its shape? Definitely not. All these creatures are fish.",
+      "captions": [
+        {
+          "label": "Ocean sunfish",
+          "text": "an abbreviated fish"
+        },
+        {
+          "label": "Ribbon eel",
+          "text": "a very long fish"
+        },
+        {
+          "label": "Boxfish",
+          "text": "a rectangular fish"
+        }
+      ],
+      "narration": "assets/what/WHAT04JN.mp3"
+    },
+    {
+      "id": "strategies-for-swimming",
+      "title": "Strategies for swimming",
+      "image": "assets/what/WHAT05PU.webp",
+      "text": "Can you tell which marine creatures are fish by the way they swim? Nope! Fish can move in all sorts of ways.",
+      "captions": [
+        {
+          "label": "Seahorses",
+          "text": "These fish can barely swim at all"
+        },
+        {
+          "label": "Rays",
+          "text": "fly through the water by flapping their \"wings\""
+        },
+        {
+          "label": "Dogfish",
+          "text": "undulate their tails and bodies from side to side"
+        }
+      ],
+      "narration": "assets/what/WHAT05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Water Babies"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/what/WHAT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 7,
+            "h": 4
+          },
+          {
+            "label": "Fish shapes",
+            "to": "fish-shapes",
+            "x": 67,
+            "y": 17,
+            "w": 15,
+            "h": 6
+          },
+          {
+            "label": "Groups of fish",
+            "to": "groups-of-fish",
+            "x": 52,
+            "y": 44,
+            "w": 17,
+            "h": 7
+          },
+          {
+            "label": "Fish skin",
+            "to": "fish-skin",
+            "x": 44,
+            "y": 69,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "Strategies for swimming",
+            "to": "strategies-for-swimming",
+            "x": 2,
+            "y": 61,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Older than dinosaurs",
+            "to": "video",
+            "x": 2,
+            "y": 71,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "How to breathe in water",
+            "to": "how-to-breathe-in-water",
+            "x": 2,
+            "y": 81,
+            "w": 32,
+            "h": 5
+          }
+        ]
+      },
+      "groups-of-fish": {
+        "image": "assets/what/WHAT01PU.webp",
+        "back": "main"
+      },
+      "how-to-breathe-in-water": {
+        "image": "assets/what/WHAT02PU.webp",
+        "back": "main"
+      },
+      "fish-skin": {
+        "image": "assets/what/WHAT03PU.webp",
+        "back": "main"
+      },
+      "fish-shapes": {
+        "image": "assets/what/WHAT04PU.webp",
+        "back": "main"
+      },
+      "strategies-for-swimming": {
+        "image": "assets/what/WHAT05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/what/clip.mp4",
+        "poster": "assets/what/WHAT06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/what/WHAT00JN.mp3",
+  "sound": "assets/what/WHAT00IX.mp3",
+  "video": {
+    "title": "Older than dinosaurs",
+    "src": "assets/what/clip.mp4",
+    "poster": "assets/what/poster.webp",
+    "caption": "Coelacanths, thought for many years to be extinct, were rediscovered in the 1930s",
+    "narration": "assets/what/WHAT06JN.mp3"
+  }
+}

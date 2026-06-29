@@ -1,0 +1,222 @@
+{
+  "id": "buri",
+  "code": "BURI",
+  "name": "Sunken Treasure",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Fortunes lost at sea — and the daring people who hunt them.",
+  "zones": [
+    "Open ocean",
+    "Coral reef",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Atlantic Ocean",
+    "Mediterranean Sea",
+    "Caribbean Sea"
+  ],
+  "hero": {
+    "image": "assets/buri/BURI00AA.webp",
+    "alt": "Sunken Treasure"
+  },
+  "intro": "Sunken treasure is an important part of mankind's seagoing history. Jewels, ancient coins, and other relics are strewn in shipwrecks on the ocean bottom and are sometimes even found washed ashore. Discovering treasure is exciting, but taking it out of greed is one thing—studying cultural artifacts buried at sea is another. This is a challenging field known as marine archaeology.",
+  "facts": [
+    {
+      "label": "Treasure haul",
+      "value": "Between 1500 and 1820, Spanish galleons transported some eight billion dollars in treasure from the Caribbean to Spain."
+    },
+    {
+      "label": "Famous wreck",
+      "value": "In 1715 the royal ship Vasa sank within minutes of leaving Stockholm harbor after being struck by a gust of wind."
+    },
+    {
+      "label": "Recovery",
+      "value": "In 1961 a crew successfully raised the Vasa from the ocean floor — a celebrated feat among treasure seekers."
+    },
+    {
+      "label": "Lost city",
+      "value": "The Atlantis legend may have begun with the violent volcanic eruption that destroyed the Minoan civilization on the island of Crete sometime between 1500 and 1450 B.C."
+    },
+    {
+      "label": "Time capsule",
+      "value": "The Mediterranean holds shipwrecks from Egyptian, Phoenician, Persian, Greek, and Roman cultures — with artifacts last used 2,000 years ago."
+    },
+    {
+      "label": "Did you know",
+      "value": "Many shipwreck sites remain unregulated, fueling disputes between treasure hunters, archaeologists, and environmentalists."
+    }
+  ],
+  "topics": [
+    {
+      "id": "fatal-attraction",
+      "title": "Fatal attraction",
+      "image": "assets/buri/BURI01PU.webp",
+      "text": "Bermuda and the Caribbean have been home to many shipwrecks because of heavy ship traffic, hazardous winds and currents, and coral reefs. Between 1500 and 1820, Spanish galleons cruised an ocean highway from the Caribbean to Spain, transporting some eight billion dollars in treasure. They sought haven in the ports of Caribbean colonies, often only to be shipwrecked or waylaid by pirates. Archaeologists and treasure hunters have located many wrecks in this area.",
+      "captions": [
+        {
+          "label": "Tolosa galleon",
+          "text": "Diver working the wreck of the Tolosa galleon"
+        }
+      ],
+      "narration": "assets/buri/BURI01JN.mp3"
+    },
+    {
+      "id": "legend-of-the-lost",
+      "title": "Legend of the lost",
+      "image": "assets/buri/BURI02PU.webp",
+      "text": "Divers, treasure hunters, and archaeologists alike are fascinated by legends of lost underwater civilizations. No sunken city is more famous than Atlantis. No one knows where Atlantis was originally located, or if indeed it existed at all. Experts speculate that the legend may have begun with the violent volcanic eruption that destroyed the Minoan civilization on the island of Crete sometime between 1500 and 1450 B.C.",
+      "captions": [
+        {
+          "label": "Atlantis",
+          "text": "Artist's impression of the lost city of Atlantis"
+        }
+      ],
+      "narration": "assets/buri/BURI02JN.mp3"
+    },
+    {
+      "id": "windy-wrecks",
+      "title": "Windy wrecks",
+      "image": "assets/buri/BURI03PU.webp",
+      "text": "Many ships have come to grief in high winds. In 1715 the royal ship Vasa paraded on its maiden voyage out of the harbor of Stockholm, Sweden. Many people were on board, including women and children. Suddenly the ship was struck by a gust of wind and sank within minutes. In 1961 a crew successfully raised it from the ocean floor—a feat that became celebrated among treasure seekers.",
+      "captions": [
+        {
+          "label": "The Vasa",
+          "text": "Remains of the Vasa"
+        }
+      ],
+      "narration": "assets/buri/BURI03JN.mp3"
+    },
+    {
+      "id": "big-digs",
+      "title": "Big digs",
+      "image": "assets/buri/BURI04PU.webp",
+      "text": "A shipwreck might contain commercial cargo, coins, arms, or other artifacts, and can serve as a time capsule for a historical period. Because the Mediterranean is littered with shipwrecks from many cultures—Egyptian, Phoenician, Persian, Greek, and Roman—it's a treasure trove for archaeologists. Divers report a special thrill in touching something that was last used 2,000 years ago. After mapping a site, they often use hammers and chisels to remove large limestone-encrusted pieces, which are then painstakingly restored. It's an exacting job and there can be many surprises.",
+      "captions": [
+        {
+          "label": "Excavation",
+          "text": "Archaeologist meets octopus while excavating a shipwreck"
+        }
+      ],
+      "narration": "assets/buri/BURI04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Atlantic Ocean",
+      "to": "atla"
+    },
+    {
+      "label": "Western European Explorers",
+      "to": "west"
+    },
+    {
+      "label": "The Abyss",
+      "to": "abys"
+    },
+    {
+      "label": "Navigation",
+      "to": "navi"
+    },
+    {
+      "label": "Diving",
+      "to": "divi"
+    },
+    {
+      "label": "The Future of the Oceans",
+      "to": "futu"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/buri/BURI00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 3,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Big digs",
+            "to": "big-digs",
+            "x": 63,
+            "y": 38,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "Windy wrecks",
+            "to": "windy-wrecks",
+            "x": 60,
+            "y": 52,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Fatal attraction",
+            "to": "fatal-attraction",
+            "x": 58,
+            "y": 65,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Water fight",
+            "to": "video",
+            "x": 3,
+            "y": 74,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Legend of the lost",
+            "to": "legend-of-the-lost",
+            "x": 3,
+            "y": 85,
+            "w": 20,
+            "h": 5
+          }
+        ]
+      },
+      "fatal-attraction": {
+        "image": "assets/buri/BURI01PU.webp",
+        "back": "main"
+      },
+      "legend-of-the-lost": {
+        "image": "assets/buri/BURI02PU.webp",
+        "back": "main"
+      },
+      "windy-wrecks": {
+        "image": "assets/buri/BURI03PU.webp",
+        "back": "main"
+      },
+      "big-digs": {
+        "image": "assets/buri/BURI04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/buri/clip.mp4",
+        "poster": "assets/buri/BURI05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/buri/BURI00JN.mp3",
+  "sound": "assets/buri/BURI00IX.mp3",
+  "video": {
+    "title": "Water fight",
+    "src": "assets/buri/clip.mp4",
+    "poster": "assets/buri/poster.webp",
+    "caption": "Two divers at a contested underwater wreck site — the subject of ongoing disputes between treasure hunters, marine archaeologists, and environmentalists over excavation rights and ecosystem protection.",
+    "narration": "assets/buri/BURI05JN.mp3"
+  }
+}

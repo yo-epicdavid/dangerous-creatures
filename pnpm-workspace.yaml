@@ -1,0 +1,8 @@
+packages:
+  - 'apps/*'
+  - 'packages/*'
+
+# allow the native postinstall build scripts the Astro/Vite toolchain needs
+allowBuilds:
+  esbuild: true
+  sharp: true

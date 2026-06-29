@@ -1,0 +1,234 @@
+{
+  "id": "powe",
+  "code": "POWE",
+  "name": "Powered Ships",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "From dugout canoes to supertankers — humans have been conquering the sea one vessel at a time.",
+  "zones": [
+    "Open ocean",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/powe/POWE00AA.webp",
+    "alt": "Powered Ships"
+  },
+  "intro": "Human beings haven't always known how to swim. It's a learned ability, and not one that comes automatically with being a human. In prehistoric times it was easier to hop on a floating log than to risk swimming the current. The first powered boats were logs that people maneuvered by hand or with a stick. We've come a long way from these crude canoes to the container ships, hovercraft, and jet skis of today.",
+  "facts": [
+    {
+      "label": "Size",
+      "value": "The largest ships measure more than 457 m (1,500 ft) in length and require several miles to turn or stop."
+    },
+    {
+      "label": "Engine power",
+      "value": "Container ships and supertankers have engines a thousand times more powerful than an automobile engine."
+    },
+    {
+      "label": "Speed",
+      "value": "Hydroplanes can reach speeds of up to 354 km (220 mi) per hour, though accidents are frequent and can be fatal."
+    },
+    {
+      "label": "Jet ski",
+      "value": "Jet skis can zip through the water at speeds of up to 84 km (52 mi) per hour."
+    },
+    {
+      "label": "First crossing",
+      "value": "The first paddle steamer crossed the Atlantic in 1819 — when it was sighted off Ireland, people thought it was on fire!"
+    },
+    {
+      "label": "Did you know",
+      "value": "A fully loaded container ship is taller than a five-story building."
+    }
+  ],
+  "topics": [
+    {
+      "id": "people-power",
+      "title": "People power",
+      "image": "assets/powe/POWE01PU.webp",
+      "text": "Two vessels still in use today are examples of simple, well-designed paddled boats.",
+      "captions": [
+        {
+          "label": "Easy paddling",
+          "text": "The Eskimo kayak, made from sealskins or canvas stretched over a driftwood frame, is highly maneuverable and well engineered for hunting."
+        },
+        {
+          "label": "Quiet canoe",
+          "text": "In Africa, South America, the South Pacific, and parts of Asia, dugout canoes are used for fishing, trading, and even smuggling. They vary little from the designs of the first canoes."
+        }
+      ],
+      "narration": "assets/powe/POWE01JN.mp3"
+    },
+    {
+      "id": "between-sail-and-power",
+      "title": "Between sail and power",
+      "image": "assets/powe/POWE02PU.webp",
+      "text": "The nineteenth century brought the transition from sail to steam. For a while many ships were a curious mix of both. Sails were used on early paddle wheelers because their engines weren't reliable. Funnels were angled to keep sparks away from the sails. When the first paddle steamer was sighted off the coast of Ireland after an Atlantic crossing in 1819, people thought it was on fire! Sails became smaller as engines improved, then gradually disappeared as the switch was made from paddle to propeller.",
+      "narration": "assets/powe/POWE02JN.mp3"
+    },
+    {
+      "id": "rats-or-riches",
+      "title": "Rats or riches",
+      "image": "assets/powe/POWE03PU.webp",
+      "text": "In the early days of the steam-powered ocean liners, the rich and the poor traveled under very different conditions.",
+      "captions": [
+        {
+          "label": "Lower decks",
+          "text": "Immigrants to North America in the early 1900s were packed below deck in what was known as steerage. They slept on bare bunks in lodgings filled with rats and rubbish. Cholera, yellow fever, smallpox, and dysentery were rampant. Cattle sometimes traveled in the same space as human cargo!"
+        },
+        {
+          "label": "Upper decks",
+          "text": "Conditions in first class got better and better, with the addition of palm courts, swimming pools, and luxury salons for dining. Everybody who was anybody crossed the Atlantic in the 1920s—from Charlie Chaplin to movie cowboy Tom Mix and his horse!"
+        }
+      ],
+      "narration": "assets/powe/POWE03JN.mp3"
+    },
+    {
+      "id": "sea-giants",
+      "title": "Sea giants",
+      "image": "assets/powe/POWE04PU.webp",
+      "text": "Container ships and supertankers often have engines that are a thousand times more powerful than an automobile engine. These huge vessels may measure more than 457 m (1,500 ft) in length and require several miles to turn or stop!",
+      "captions": [
+        {
+          "label": "Super-big supertankers",
+          "text": "Supertankers carry oil or liquefied gas. To remain liquid, gas is chilled to –163°C (–261°F)! The tank is insulated to keep the frigid gas from cracking the tanker's hull."
+        },
+        {
+          "label": "Stacks of stuff",
+          "text": "Container ships carry their cargo prepacked in huge sealed crates or containers that are transferred by cranes to trains or trucks in port. A fully loaded container ship is taller than a five-story building!"
+        }
+      ],
+      "narration": "assets/powe/POWE04JN.mp3"
+    },
+    {
+      "id": "built-for-speed",
+      "title": "Built for speed",
+      "image": "assets/powe/POWE05PU.webp",
+      "text": "There are many kinds of speedboats designed for cruising, skiing, and racing.",
+      "captions": [
+        {
+          "label": "Jet set",
+          "text": "Jet skiing is increasingly popular. These machines can zip through the water at speeds of up to 84 km (52 mi) per hour. You need to be aware of other skiers, boats, swimmers, and other potential hazards when you travel this fast. You should also be a very strong swimmer. But don’t worry about being stranded after a spill—the motor quits running when you fall off!"
+        },
+        {
+          "label": "Blazing boats",
+          "text": "Hydroplanes may achieve speeds of up to 354 km (220 mi) per hour, but accidents are frequent and can be fatal. Most people prefer to leave that kind of speed to the experts. If you just want to get out on the water and feel the breeze in your hair, any number of other designs will do."
+        }
+      ],
+      "narration": "assets/powe/POWE05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Military at Sea",
+      "to": "mili"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/powe/POWE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 7,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "Built for speed",
+            "to": "built-for-speed",
+            "x": 57,
+            "y": 11,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "People power",
+            "to": "people-power",
+            "x": 47,
+            "y": 27,
+            "w": 21,
+            "h": 6
+          },
+          {
+            "label": "Rats or riches",
+            "to": "rats-or-riches",
+            "x": 58,
+            "y": 35,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Cities at sea",
+            "to": "video",
+            "x": 10,
+            "y": 71,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Between sail and power",
+            "to": "between-sail-and-power",
+            "x": 7,
+            "y": 78,
+            "w": 25,
+            "h": 10
+          },
+          {
+            "label": "Sea giants",
+            "to": "sea-giants",
+            "x": 8,
+            "y": 88,
+            "w": 16,
+            "h": 6
+          }
+        ]
+      },
+      "people-power": {
+        "image": "assets/powe/POWE01PU.webp",
+        "back": "main"
+      },
+      "between-sail-and-power": {
+        "image": "assets/powe/POWE02PU.webp",
+        "back": "main"
+      },
+      "rats-or-riches": {
+        "image": "assets/powe/POWE03PU.webp",
+        "back": "main"
+      },
+      "sea-giants": {
+        "image": "assets/powe/POWE04PU.webp",
+        "back": "main"
+      },
+      "built-for-speed": {
+        "image": "assets/powe/POWE05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/powe/clip.mp4",
+        "poster": "assets/powe/POWE06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/powe/POWE00JN.mp3",
+  "sound": "assets/powe/POWE00IX.mp3",
+  "video": {
+    "title": "Cities at sea",
+    "src": "assets/powe/clip.mp4",
+    "poster": "assets/powe/poster.webp",
+    "caption": "Many ships today are so large that they contain all the amenities of a small town, including swimming pools, stores, gambling casinos, exercise facilities, and entertainment stages, as well as places for thousands of people to sleep and eat. Aircraft carriers are not only cities at sea, but also airports at sea, complete with elevators, storage hangars, and runways. The wings of the fighter aircraft fold up for easy onboard storage.",
+    "narration": "assets/powe/POWE06JN.mp3"
+  }
+}

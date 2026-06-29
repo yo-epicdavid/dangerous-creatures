@@ -1,0 +1,234 @@
+{
+  "id": "ocea",
+  "code": "OCEA",
+  "name": "What is Oceanography?",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Scientists call the ocean \"inner space\" — and they're still discovering its secrets!",
+  "zones": [
+    "Coast & tide pools",
+    "Open ocean",
+    "Deep sea",
+    "Polar seas"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/ocea/OCEA00AA.webp",
+    "alt": "What is Oceanography?"
+  },
+  "intro": "Oceanography is the exploration and scientific study of the sea. The oceans are the earth's last frontier, a remarkable world that has often been called \"inner space.\" The funding and technology necessary to seriously explore such vast regions has only been available since the nineteenth century. Even now we're only beginning to fathom how the oceans' life forms and processes are linked together. The boundaries between the different sciences are dissolving as scientists see how one area of study affects another.",
+  "facts": [
+    {
+      "label": "First expedition",
+      "value": "HMS Challenger completed the first large-scale oceanographic expedition with a 3½-year voyage starting in 1872."
+    },
+    {
+      "label": "New technology",
+      "value": "Oceanographic knowledge increased tremendously after World War II, when wartime research produced new technologies like radar and sonar."
+    },
+    {
+      "label": "Ocean floor",
+      "value": "Marine geologists have found ocean trenches deeper than Mt. Everest is high, and flat abyssal plains that seem to go on forever."
+    },
+    {
+      "label": "No mouths!",
+      "value": "Giant tubeworms on the ocean floor get food from bacteria, even though they have no mouths."
+    },
+    {
+      "label": "Glowing fish",
+      "value": "Some deep-sea fish are tiny and transparent, with cheeks that glow in the dark."
+    }
+  ],
+  "topics": [
+    {
+      "id": "pioneering-voyages",
+      "title": "Pioneering voyages",
+      "image": "assets/ocea/OCEA01PU.webp",
+      "text": "The first large-scale oceanographic expedition took place aboard the British vessel HMS Challenger. In 1872 it began a 3½-year voyage around the world, returning with startling tales of strange and previously unknown forms of life that existed at all levels of the ocean. Oceanographic knowledge has increased tremendously in the years since World War II, when wartime research produced new technologies like radar and sonar.",
+      "captions": [
+        {
+          "label": "Modern Challenger",
+          "text": "During the 1960s the Glomar Challenger, a specially designed drilling ship, collected thousands of core samples of ocean sediment, which revealed much about continental drift and the age of the sea floor."
+        },
+        {
+          "label": "Voyages into the deep",
+          "text": "With modern submersibles like Sea Link, scientists can now explore the ocean depths."
+        }
+      ],
+      "narration": "assets/ocea/OCEA01JN.mp3"
+    },
+    {
+      "id": "chemical-oceanography",
+      "title": "Chemical oceanography",
+      "image": "assets/ocea/OCEA02PU.webp",
+      "text": "If you were a chemical oceanographer, you'd be the one to figure out that fish were suffocating because a sea's oxygen levels had been reduced by the decomposition of too much algae. Or that dolphins were dying because a factory was dumping toxic chemicals. You could even tell that an underwater ridge was spewing gas-filled fluids, because of the sudden increase of certain chemicals in the waters above. You'd analyze polar ice cores and figure out what the earth's climate was like in the past. To predict rainfall around the globe, you'd map present ocean temperatures.",
+      "captions": [
+        {
+          "label": "Computer map of global ocean surface temperatures",
+          "text": "Computer map of global ocean surface temperatures"
+        }
+      ],
+      "narration": "assets/ocea/OCEA02JN.mp3"
+    },
+    {
+      "id": "physical-oceanography",
+      "title": "Physical oceanography",
+      "image": "assets/ocea/OCEA03PU.webp",
+      "text": "What would you do if you were a physical oceanographer? You'd figure out which way an oil spill might travel, or where to watch out for icebergs. You'd know why there was a drought in Australia, and why other parts of the world were getting too much rain. People would ask you where to put a power station to harness the tides, why a certain spot is so great for surfing, or why a beach is losing all of its sand.",
+      "captions": [
+        {
+          "label": "Computer-model map of area affected by El Niño",
+          "text": "Computer-model map of area affected by El Niño"
+        },
+        {
+          "label": "Striated iceberg, Antarctica",
+          "text": "Striated iceberg, Antarctica"
+        }
+      ],
+      "narration": "assets/ocea/OCEA03JN.mp3"
+    },
+    {
+      "id": "marine-geology",
+      "title": "Marine geology",
+      "image": "assets/ocea/OCEA04PU.webp",
+      "text": "As a marine geologist, you'd map the ocean floor using sonar, and see an underwater world of rugged volcanoes, trenches deeper than Mt. Everest is high, and flat abyssal plains that seem to go on forever. You'd dredge the ocean floor for rock samples that might help in solving the complex puzzle of continental drift. Should a beach house be built in a certain location? You'd be able to tell if it was a bad idea, even if the view is great.",
+      "captions": [
+        {
+          "label": "Underwater hydrothermal vent",
+          "text": "Underwater hydrothermal vent"
+        },
+        {
+          "label": "Sonograph of the Taney Seamount, off the California coast",
+          "text": "Sonograph of the Taney Seamount, off the California coast"
+        }
+      ],
+      "narration": "assets/ocea/OCEA04JN.mp3"
+    },
+    {
+      "id": "marine-biology",
+      "title": "Marine biology",
+      "image": "assets/ocea/OCEA05PU.webp",
+      "text": "If you were a biological oceanographer, you'd study the plants and animals that live in the sea. You might be the one to figure out how giant tubeworms get their food from bacteria, even though they have no mouths. Perhaps you might discover a new use for seaweed. Or figure out a better way to clean birds that are soaked with oil after a spill. Perhaps you'd get to go down to the deepest parts of the ocean in a submersible, and study tiny transparent fish with cheeks that glow in the dark.",
+      "captions": [
+        {
+          "label": "Marine biology class, Bates College, Maine",
+          "text": "Marine biology class, Bates College, Maine"
+        }
+      ],
+      "narration": "assets/ocea/OCEA05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Currents",
+      "to": "curr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/ocea/OCEA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "Chemical oceanography",
+            "to": "chemical-oceanography",
+            "x": 53,
+            "y": 18,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Physical oceanography",
+            "to": "physical-oceanography",
+            "x": 54,
+            "y": 38,
+            "w": 23,
+            "h": 7
+          },
+          {
+            "label": "Marine geology",
+            "to": "marine-geology",
+            "x": 43,
+            "y": 52,
+            "w": 17,
+            "h": 7
+          },
+          {
+            "label": "Marine biology",
+            "to": "marine-biology",
+            "x": 43,
+            "y": 63,
+            "w": 16,
+            "h": 7
+          },
+          {
+            "label": "Pioneering voyages",
+            "to": "pioneering-voyages",
+            "x": 4,
+            "y": 79,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Who studies the oceans?",
+            "to": "video",
+            "x": 4,
+            "y": 87,
+            "w": 30,
+            "h": 6
+          }
+        ]
+      },
+      "pioneering-voyages": {
+        "image": "assets/ocea/OCEA01PU.webp",
+        "back": "main"
+      },
+      "chemical-oceanography": {
+        "image": "assets/ocea/OCEA02PU.webp",
+        "back": "main"
+      },
+      "physical-oceanography": {
+        "image": "assets/ocea/OCEA03PU.webp",
+        "back": "main"
+      },
+      "marine-geology": {
+        "image": "assets/ocea/OCEA04PU.webp",
+        "back": "main"
+      },
+      "marine-biology": {
+        "image": "assets/ocea/OCEA05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/ocea/clip.mp4",
+        "poster": "assets/ocea/OCEA06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/ocea/OCEA00JN.mp3",
+  "sound": "assets/ocea/OCEA00IX.mp3",
+  "video": {
+    "title": "Who studies the oceans?",
+    "src": "assets/ocea/clip.mp4",
+    "poster": "assets/ocea/poster.webp",
+    "caption": "SA Agulhas, South African research ship, Antarctica",
+    "narration": "assets/ocea/OCEA06JN.mp3"
+  }
+}

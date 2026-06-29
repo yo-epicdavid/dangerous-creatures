@@ -1,0 +1,318 @@
+{
+  "id": "help",
+  "code": "HELP",
+  "name": "Using Microsoft Oceans",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Everything you need to dive in and explore the ocean world!",
+  "zones": [],
+  "oceans": [],
+  "hero": {
+    "image": "assets/help/HELP00AA.webp",
+    "alt": "Using Microsoft Oceans"
+  },
+  "intro": "Click different parts of the picture below to learn how a typical screen works in Microsoft Oceans.",
+  "facts": [
+    {
+      "label": "Pop-ups",
+      "value": "Click red text to pop up a window with additional pictures and information."
+    },
+    {
+      "label": "Glossary",
+      "value": "Click words with tan backgrounds to display their definitions and hear a pronunciation."
+    },
+    {
+      "label": "Quiz",
+      "value": "Click the Quiz button to display a quiz about the information contained in the main screen and in the pop-up windows."
+    },
+    {
+      "label": "Guided Tours",
+      "value": "The Guides screen lets you choose a character to lead you on one of several guided tours."
+    },
+    {
+      "label": "Index",
+      "value": "The Index lists all articles alphabetically — type the first few letters in the Find box to jump straight to any topic."
+    }
+  ],
+  "topics": [
+    {
+      "id": "back-button",
+      "title": "Back button",
+      "image": "assets/help/HELP01PU.webp",
+      "text": "Click this button to go back to the window you were viewing previously."
+    },
+    {
+      "id": "contents-button",
+      "title": "Contents button",
+      "image": "assets/help/HELP02PU.webp",
+      "text": "Click this button to display the Contents screen, where you can choose from four different ways to explore Microsoft Oceans on your own, or choose a guided tour."
+    },
+    {
+      "id": "glossary-item",
+      "title": "Glossary item",
+      "image": "assets/help/HELP03PU.webp",
+      "text": "Click words with tan backgrounds to display their definitions. Click the sound icon to hear a pronunciation."
+    },
+    {
+      "id": "guides-button",
+      "title": "Guides button",
+      "image": "assets/help/HELP04PU.webp",
+      "text": "Click this button to display the Guides screen, where you can choose a character to lead you on one of several guided tours. During a tour, a guide button replaces the normal jump button in the upper-right corner of the screen. Click the guide button to go to the next article in the tour."
+    },
+    {
+      "id": "help-button",
+      "title": "Help button",
+      "image": "assets/help/HELP05PU.webp",
+      "text": "Click this button to display the main Help window, where you can choose help on Using Microsoft Oceans (which you are using right now), Using the Options Menu, or Troubleshooting. You can also display the About Microsoft Oceans window and credits."
+    },
+    {
+      "id": "index-button",
+      "title": "Index button",
+      "image": "assets/help/HELP06PU.webp",
+      "text": "Click this button to display the Index screen, where you can choose any article by clicking its picture or title. All articles are listed alphabetically by title. You can scroll through the Index by clicking the left arrow or right arrow buttons, or go to the beginning of a particular letter by clicking that letter in the alphabet bar. To find information about a specific topic, type the first few letters in the Find: box, or click the Find box and scroll through the list. When you see the topic you want in the list box, click the topic and then click OK to go to the article that discusses that topic."
+    },
+    {
+      "id": "jump-button",
+      "title": "Jump button",
+      "image": "assets/help/HELP07PU.webp",
+      "text": "Click this button to go to a related article."
+    },
+    {
+      "id": "marine-life-button",
+      "title": "Marine Life button",
+      "image": "assets/help/HELP08PU.webp",
+      "text": "Click this button to display the Marine Life screen, where you can choose an article to explore."
+    },
+    {
+      "id": "options-button",
+      "title": "Options button",
+      "image": "assets/help/HELP09PU.webp",
+      "text": "Click this button to display the Options window, where you can choose to create wallpaper for your Windows desktop with pictures in the Picture Gallery; install screen savers; control sounds; print a screen; or automatically jump through articles in random order. You can get more information about these options by choosing Using the Options Menu from the main Help window."
+    },
+    {
+      "id": "people-the-sea-button",
+      "title": "People & the Sea button",
+      "image": "assets/help/HELP10PU.webp",
+      "text": "Click this button to display the People & the Sea screen, where you can choose an article to explore."
+    },
+    {
+      "id": "pop-up-title",
+      "title": "Pop-up title",
+      "image": "assets/help/HELP11PU.webp",
+      "text": "Click red text to pop up a window with additional pictures and information. Clicking red text next to a video icon opens a window containing a video. The video will play automatically. Click the video to play it again.\n\nTo close any pop-up window and return to the previous window, click the Close button in the upper-right corner."
+    },
+    {
+      "id": "quiz-button",
+      "title": "Quiz button",
+      "image": "assets/help/HELP12PU.webp",
+      "text": "Click this button to display a quiz about the information contained in the main screen and in the pop-up windows."
+    },
+    {
+      "id": "a-world-of-water-button",
+      "title": "A World of Water button",
+      "image": "assets/help/HELP13PU.webp",
+      "text": "Click this button to display the A World of Water screen, where you can choose an article to explore."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Squid and Cuttlefish",
+      "to": "squi"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/help/HELP00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz-button",
+            "x": 13,
+            "y": 17,
+            "w": 12,
+            "h": 8
+          },
+          {
+            "label": "Disappearing colors",
+            "to": "pop-up-title",
+            "x": 55,
+            "y": 22,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "A world of color",
+            "to": "pop-up-title",
+            "x": 57,
+            "y": 35,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Butterflies of the sea",
+            "to": "pop-up-title",
+            "x": 13,
+            "y": 56,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Quick-change artists",
+            "to": "pop-up-title",
+            "x": 13,
+            "y": 64,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Squid and Cuttlefish",
+            "to": "jump-button",
+            "x": 73,
+            "y": 15,
+            "w": 14,
+            "h": 8
+          },
+          {
+            "label": "predators",
+            "to": "glossary-item",
+            "x": 15,
+            "y": 33,
+            "w": 12,
+            "h": 4
+          },
+          {
+            "label": "Contents",
+            "to": "contents-button",
+            "x": 5,
+            "y": 84,
+            "w": 11,
+            "h": 7
+          },
+          {
+            "label": "Marine Life",
+            "to": "marine-life-button",
+            "x": 17,
+            "y": 84,
+            "w": 11,
+            "h": 7
+          },
+          {
+            "label": "A World of Water",
+            "to": "a-world-of-water-button",
+            "x": 29,
+            "y": 84,
+            "w": 13,
+            "h": 7
+          },
+          {
+            "label": "People & the Sea",
+            "to": "people-the-sea-button",
+            "x": 43,
+            "y": 84,
+            "w": 13,
+            "h": 7
+          },
+          {
+            "label": "Guides",
+            "to": "guides-button",
+            "x": 57,
+            "y": 84,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "Index",
+            "to": "index-button",
+            "x": 66,
+            "y": 84,
+            "w": 7,
+            "h": 7
+          },
+          {
+            "label": "Back",
+            "to": "back-button",
+            "x": 74,
+            "y": 84,
+            "w": 6,
+            "h": 7
+          },
+          {
+            "label": "Options",
+            "to": "options-button",
+            "x": 81,
+            "y": 84,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "Help",
+            "to": "help-button",
+            "x": 90,
+            "y": 84,
+            "w": 7,
+            "h": 7
+          }
+        ]
+      },
+      "back-button": {
+        "image": "assets/help/HELP01PU.webp",
+        "back": "main"
+      },
+      "contents-button": {
+        "image": "assets/help/HELP02PU.webp",
+        "back": "main"
+      },
+      "glossary-item": {
+        "image": "assets/help/HELP03PU.webp",
+        "back": "main"
+      },
+      "guides-button": {
+        "image": "assets/help/HELP04PU.webp",
+        "back": "main"
+      },
+      "help-button": {
+        "image": "assets/help/HELP05PU.webp",
+        "back": "main"
+      },
+      "index-button": {
+        "image": "assets/help/HELP06PU.webp",
+        "back": "main"
+      },
+      "jump-button": {
+        "image": "assets/help/HELP07PU.webp",
+        "back": "main"
+      },
+      "marine-life-button": {
+        "image": "assets/help/HELP08PU.webp",
+        "back": "main"
+      },
+      "options-button": {
+        "image": "assets/help/HELP09PU.webp",
+        "back": "main"
+      },
+      "people-the-sea-button": {
+        "image": "assets/help/HELP10PU.webp",
+        "back": "main"
+      },
+      "pop-up-title": {
+        "image": "assets/help/HELP11PU.webp",
+        "back": "main"
+      },
+      "quiz-button": {
+        "image": "assets/help/HELP12PU.webp",
+        "back": "main"
+      },
+      "a-world-of-water-button": {
+        "image": "assets/help/HELP13PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  }
+}

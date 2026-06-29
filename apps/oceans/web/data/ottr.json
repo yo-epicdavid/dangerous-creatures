@@ -1,0 +1,184 @@
+{
+  "id": "ottr",
+  "code": "OTTR",
+  "name": "Sea Otters",
+  "category": "creature",
+  "scientificName": "Enhydra lutris",
+  "needsScientificVerify": false,
+  "tagline": "The ocean's tool-using, fur-insulated, kelp-napping champion of survival.",
+  "zones": [
+    "Kelp & seagrass",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Pacific Ocean"
+  ],
+  "hero": {
+    "image": "assets/ottr/OTTR00AA.webp",
+    "alt": "Sea Otters"
+  },
+  "intro": "Shiny intelligent eyes, a furry face bristling with whiskers, agile paws: few ocean animals could be more appealing to people than sea otters. Yet these gentle mammals have been hunted nearly to extinction in many places around the world. With protection, a few otter colonies are starting to make a comeback, but they still need our help to survive.",
+  "facts": [
+    {
+      "label": "Diet",
+      "value": "Sea otters eat shellfish and other food found among kelp forest plants."
+    },
+    {
+      "label": "Tool use",
+      "value": "Otters pick up a rock along with shellfish they want to eat, and bang the shell on the rock until it breaks — one of only a few animals other than humans to use tools."
+    },
+    {
+      "label": "Insulation",
+      "value": "Unlike seals and whales, otters are not protected from the cold by a layer of fat — the air trapped in their fur is the only thing keeping them insulated from the frigid water."
+    },
+    {
+      "label": "Sleeping",
+      "value": "Otters wrap strands of kelp around their bodies to anchor themselves while sleeping; otherwise, they might float away."
+    },
+    {
+      "label": "Near extinction",
+      "value": "By 1911, when Russia, Great Britain, Japan, and the United States signed a treaty protecting sea otters, there were only a few thousand of these animals left alive."
+    },
+    {
+      "label": "Oil spills",
+      "value": "Most oiled otters die — an oil slick coats the otter's fur and keeps out the air it needs to stay warm."
+    }
+  ],
+  "topics": [
+    {
+      "id": "life-in-a-kelp-forest",
+      "title": "Life in a kelp forest",
+      "image": "assets/ottr/OTTR01PU.webp",
+      "text": "Where would a sea otter choose to live? Right on top of a kelp forest. Here otters can find shellfish and other food among the plants. Otters also wrap strands of kelp around their bodies to anchor themselves while sleeping; otherwise, they might float away.",
+      "captions": [
+        {
+          "label": "Abalone shell",
+          "text": "The shell is all that's left of an abalone after an otter gets ahold of it. People who make a living harvesting abalone and other shellfish don't like sea otters, and sometimes kill them illegally."
+        }
+      ],
+      "narration": "assets/ottr/OTTR01JN.mp3"
+    },
+    {
+      "id": "killed-for-their-coats",
+      "title": "Killed for their coats",
+      "image": "assets/ottr/OTTR02PU.webp",
+      "text": "People have been wearing animal skins almost as long as humans have existed. So when early trappers discovered the soft fur of sea otters in the 1700s, the slaughter was on. By 1911, when Russia, Great Britain, Japan, and the United States signed a treaty protecting sea otters, there were only a few thousand of these animals left alive.",
+      "captions": [
+        {
+          "label": "Also hunted",
+          "text": "Harp seals like these have also been killed in great numbers for their coats. Fortunately, this slaughter is also slowing down—it's becoming less popular for people to buy the skins of wild animals, and it's even illegal in many places."
+        }
+      ],
+      "narration": "assets/ottr/OTTR02JN.mp3"
+    },
+    {
+      "id": "wanted-clean-water",
+      "title": "Wanted: clean water",
+      "image": "assets/ottr/OTTR03PU.webp",
+      "text": "An oil spill can be a disaster for sea animals, and they're especially deadly for sea otters. Unlike seals and whales, otters are not protected from the cold by a layer of fat. The air trapped in their fur is the only thing keeping them insulated from the frigid water. An oil slick not only poisons an otter's environment and food supply, but it also coats the otter's fur and keeps out the air it needs to stay warm. Sadly, most oiled otters die.",
+      "narration": "assets/ottr/OTTR03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Clams, Oysters, and Scallops",
+      "to": "clam"
+    },
+    {
+      "label": "Manatees and Dugongs",
+      "to": "mana"
+    },
+    {
+      "label": "Baleen Whales",
+      "to": "whlb"
+    },
+    {
+      "label": "Minerals from the Sea",
+      "to": "mine"
+    },
+    {
+      "label": "Angler Fish",
+      "to": "angl"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/ottr/OTTR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Wanted: clean water",
+            "to": "wanted-clean-water",
+            "x": 55,
+            "y": 42,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Tool users",
+            "to": "video",
+            "x": 2,
+            "y": 60,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Life in a kelp forest",
+            "to": "life-in-a-kelp-forest",
+            "x": 65,
+            "y": 71,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Killed for their coats",
+            "to": "killed-for-their-coats",
+            "x": 42,
+            "y": 82,
+            "w": 24,
+            "h": 5
+          }
+        ]
+      },
+      "life-in-a-kelp-forest": {
+        "image": "assets/ottr/OTTR01PU.webp",
+        "back": "main"
+      },
+      "killed-for-their-coats": {
+        "image": "assets/ottr/OTTR02PU.webp",
+        "back": "main"
+      },
+      "wanted-clean-water": {
+        "image": "assets/ottr/OTTR03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/ottr/clip.mp4",
+        "poster": "assets/ottr/OTTR04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/ottr/OTTR00JN.mp3",
+  "sound": "assets/ottr/OTTR00IX.mp3",
+  "video": {
+    "title": "Tool users",
+    "src": "assets/ottr/clip.mp4",
+    "poster": "assets/ottr/poster.webp",
+    "caption": "Although otters have strong jaws and sharp teeth, it would be nearly impossible for them to crack open a thick abalone shell. Instead, they pick up a rock along with the shellfish they want to eat, and then bang the shell on the rock until it breaks. Only a few animals other than humans use tools, so that makes sea otters pretty smart.",
+    "narration": "assets/ottr/OTTR04JN.mp3"
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "id": "whlb",
+  "code": "WHLB",
+  "name": "Baleen Whales",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "The ocean's gentle giants filter tons of tiny prey through bristly baleen!",
+  "zones": [
+    "Open ocean",
+    "Polar seas",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/whlb/WHLB00AA.webp",
+    "alt": "Baleen Whales"
+  },
+  "intro": "There are two basic types of whales, and you can tell the difference by looking inside their mouths. Toothed whales, as you might expect, have teeth that allow them to grab onto their prey. Baleen whales have dense bristles—called baleen—through which they strain tiny organisms, like krill and plankton, from seawater. Some baleen whales can eat more than a ton of these little morsels a day!",
+  "facts": [
+    {
+      "label": "Size",
+      "value": "An adult female blue whale can grow up to 30 m (98 ft) long and weigh as much as 160 tons—about 25 times heavier than a male African elephant."
+    },
+    {
+      "label": "Diet",
+      "value": "Some baleen whales can eat more than a ton of krill and plankton a day."
+    },
+    {
+      "label": "Migration",
+      "value": "Gray whales travel up to 20,000 km (12,420 mi) each year between their summer feeding grounds in Alaska and their winter calving grounds in the Gulf of California."
+    },
+    {
+      "label": "Population",
+      "value": "More than 250,000 blue whales once roamed the oceans; due to extensive whaling, only about 500 remain alive."
+    },
+    {
+      "label": "Reproduction",
+      "value": "Whales take 5 to 20 years to become sexually mature and then more than a year to produce each baby."
+    },
+    {
+      "label": "Did you know",
+      "value": "Male humpback whales \"sing\" melodic songs during mating season, making sounds that can carry for miles underwater."
+    }
+  ],
+  "topics": [
+    {
+      "id": "biggest-on-earth",
+      "title": "Biggest on earth",
+      "image": "assets/whlb/WHLB01PU.webp",
+      "text": "The blue whale is largest animal on earth. An adult female can grow up to 30 m (98 ft) long, and weigh as much as 160 tons! That's about 25 times heavier than the largest land animal, the male African elephant.\n\nWorld travelers\nMore than 250,000 blue whales once roamed the oceans, from the Arctic to the Antarctic, all around the globe. Due to extensive whaling, only about 500 blue whales remain alive.",
+      "captions": [
+        {
+          "label": "Blue whale",
+          "text": "Balaenoptera musculus"
+        },
+        {
+          "label": "Male African elephant",
+          "text": "Loxodonta africana"
+        }
+      ],
+      "narration": "assets/whlb/WHLB01JN.mp3"
+    },
+    {
+      "id": "filter-feeders",
+      "title": "Filter feeders",
+      "image": "assets/whlb/WHLB02PU.webp",
+      "text": "Have you ever taken a big gulp of water while swimming? Baleen whales do this all the time, but on purpose. A baleen whale eats by straining enormous amounts of seawater through its huge mouth. The water is forced out through baleen plates that line their mouths, and the krill and other bits of food remain inside to be swallowed.",
+      "captions": [
+        {
+          "label": "Krill",
+          "text": "Here's what fuels a gigantic baleen whale—millions of tiny krill."
+        },
+        {
+          "label": "Baleen",
+          "text": "Baleen is composed of the same material that makes up your hair and fingernails, and it grows continuously throughout a whale's life."
+        },
+        {
+          "label": "Humpback whales feeding",
+          "text": "Humpback whales sometimes twirl in a circle near the ocean floor while expelling bubbles in order to form a rising \"net\" that concentrates krill and small fish. Then they rush to the surface with their huge mouths open, taking in as many krill as they can."
+        }
+      ],
+      "narration": "assets/whlb/WHLB02JN.mp3"
+    },
+    {
+      "id": "whaling",
+      "title": "Whaling",
+      "image": "assets/whlb/WHLB03PU.webp",
+      "text": "In past centuries, people hunted whales for their flesh, oil, bones, and baleen. Brushes of all kinds had baleen bristles, umbrellas had baleen ribs, and the corsets worn by ladies were stiffened with baleen. Now we have manmade substitutes for oil, bristles, and bone, and we have little need to eat whale meat. Most whales were not protected from slaughter until the 1980s, when only a few thousand of the original hundreds of thousands on earth remained. Some nations, however, still kill whales for their meat.",
+      "narration": "assets/whlb/WHLB03JN.mp3"
+    },
+    {
+      "id": "burrowing-barnacles",
+      "title": "Burrowing barnacles",
+      "image": "assets/whlb/WHLB05PU.webp",
+      "text": "Warm-blooded land animals have to worry about parasites like fleas, ticks, and lice. You might think that creatures that live underwater don't have such problems. But there are plenty of marine pests, too. Barnacles burrow into the skin and attach themselves to the flippers of whales, and lice make their homes on whales, too. Some scientists think that when whales leap and splash against the surface of the water, they're trying to rid themselves of these pesky hitchhikers.",
+      "narration": "assets/whlb/WHLB05JN.mp3"
+    },
+    {
+      "id": "great-migrations",
+      "title": "Great migrations",
+      "image": "assets/whlb/WHLB06PU.webp",
+      "text": "Gray whales are famous in North America for their migrations up and down the west coast, from their summer feeding grounds in Alaska to their winter calving grounds in the Gulf of California. Some whales travel up to 20,000 km (12,420 mi) each year; others winter along the coasts of British Columbia, Washington, Oregon, or California. A few gray whales also range along the east coast of Asia, from Siberia to Japan. Gray whales once swam in the Atlantic Ocean as well as in the Pacific, but the Atlantic gray whales were exterminated by whalers centuries ago.",
+      "captions": [
+        {
+          "label": "Tourists with friendly gray whale",
+          "text": "Eschrichtius robustus"
+        },
+        {
+          "label": "Gray whale migration along Pacific Coast of North America",
+          "text": "summer migration / winter migration"
+        }
+      ],
+      "narration": "assets/whlb/WHLB06JN.mp3"
+    },
+    {
+      "id": "save-the-whales",
+      "title": "Save the whales!",
+      "image": "assets/whlb/WHLB07PU.webp",
+      "text": "Whales are not fish that lay hundreds of eggs every year. Whales are air-breathing mammals like us, and they reproduce very slowly, taking 5 to 20 years to become sexually mature, and then more than a year to produce each baby. In some species there are only a few hundred whales left. If they are to survive on this planet, we need to protect all whales from slaughter, and make sure that they have unpolluted water to live in.",
+      "captions": [
+        {
+          "label": "Right whale",
+          "text": "Eubalaena species"
+        }
+      ],
+      "narration": "assets/whlb/WHLB07JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Myths and Legends",
+      "to": "myth"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/whlb/WHLB00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 7,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Great migrations",
+            "to": "great-migrations",
+            "x": 58,
+            "y": 26,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Biggest on earth",
+            "to": "biggest-on-earth",
+            "x": 56,
+            "y": 37,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Whale songs",
+            "to": "video",
+            "x": 56,
+            "y": 49,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Filter feeders",
+            "to": "filter-feeders",
+            "x": 57,
+            "y": 61,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Save the whales!",
+            "to": "save-the-whales",
+            "x": 4,
+            "y": 62,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Burrowing barnacles",
+            "to": "burrowing-barnacles",
+            "x": 27,
+            "y": 72,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Whaling",
+            "to": "whaling",
+            "x": 37,
+            "y": 82,
+            "w": 13,
+            "h": 5
+          }
+        ]
+      },
+      "biggest-on-earth": {
+        "image": "assets/whlb/WHLB01PU.webp",
+        "back": "main"
+      },
+      "filter-feeders": {
+        "image": "assets/whlb/WHLB02PU.webp",
+        "back": "main"
+      },
+      "whaling": {
+        "image": "assets/whlb/WHLB03PU.webp",
+        "back": "main"
+      },
+      "burrowing-barnacles": {
+        "image": "assets/whlb/WHLB05PU.webp",
+        "back": "main"
+      },
+      "great-migrations": {
+        "image": "assets/whlb/WHLB06PU.webp",
+        "back": "main"
+      },
+      "save-the-whales": {
+        "image": "assets/whlb/WHLB07PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/whlb/clip.mp4",
+        "poster": "assets/whlb/WHLB04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/whlb/WHLB00JN.mp3",
+  "sound": "assets/whlb/WHLB00IX.mp3",
+  "video": {
+    "title": "Whale songs",
+    "src": "assets/whlb/clip.mp4",
+    "poster": "assets/whlb/poster.webp",
+    "caption": "Humpback whales hang head down in the water to \"sing\"",
+    "narration": "assets/whlb/WHLB04JN.mp3"
+  }
+}

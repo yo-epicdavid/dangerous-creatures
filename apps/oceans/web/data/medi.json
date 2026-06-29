@@ -1,0 +1,222 @@
+{
+  "id": "medi",
+  "code": "MEDI",
+  "name": "Mediterranean Sea",
+  "category": "place",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "The sea at the center of the ancient world — sailed, fished, and fought over for thousands of years.",
+  "zones": [
+    "Coast & tide pools",
+    "Open ocean",
+    "Rivers & estuaries"
+  ],
+  "oceans": [
+    "Mediterranean Sea",
+    "Black Sea"
+  ],
+  "hero": {
+    "image": "assets/medi/MEDI00AA.webp",
+    "alt": "Mediterranean Sea"
+  },
+  "intro": "The Romans dubbed the Mediterranean \"the middle of the earth,\" an appropriate name for a body of water that occupied the center of their world. Surrounded by three of the seven continents, this busy sea has been navigated and fished for thousands of years. Because the Mediterranean is enclosed almost entirely by land, it takes a long time for currents to bring in cleaner seawater from the Atlantic Ocean. This aggravates a pollution problem that threatens the Mediterranean's animal life.",
+  "facts": [
+    {
+      "label": "Continents",
+      "value": "The Mediterranean is surrounded by three of the seven continents"
+    },
+    {
+      "label": "Currents",
+      "value": "Surface water from the Atlantic flows east through the narrow Straits of Gibraltar, while saltier, denser outgoing water flows west underneath"
+    },
+    {
+      "label": "Atlantis legend",
+      "value": "A volcanic eruption on the island of Santorin (Thira) around 1450 B.C. may have sparked the legend of Atlantis, a city lost beneath the sea"
+    },
+    {
+      "label": "Black Sea",
+      "value": "The Black Sea has become so low in oxygen that much of its life has died out; decaying organisms react with minerals to form black deposits"
+    },
+    {
+      "label": "Pollution",
+      "value": "The Mediterranean and Black Seas contain some of the most polluted waters in the world"
+    },
+    {
+      "label": "Wildlife refuge",
+      "value": "Around 3 billion birds rest and feed in the wetlands that fringe the Mediterranean"
+    }
+  ],
+  "topics": [
+    {
+      "id": "go-with-the-flow",
+      "title": "Go with the flow",
+      "image": "assets/medi/MEDI01PU.webp",
+      "text": "Chemistry drives the Mediterranean's currents. Surface waters from the Atlantic Ocean flow east through the narrow Straits of Gibraltar. As the water evaporates in this warm sea, it becomes saltier and more dense, and sinks to form a current that flows west underneath the fresher incoming waters.",
+      "captions": [
+        {
+          "label": "Sneaking out",
+          "text": "Sailing ships usually had to wait for a strong wind to pass out into the Atlantic against the constant surface current. The Phoenicians supposedly plunged their sails several fathoms into the water and harnessed the outgoing current. Submarines have used the salty outgoing currents to slip out of the Mediterranean without using their engines."
+        }
+      ],
+      "narration": "assets/medi/MEDI01JN.mp3"
+    },
+    {
+      "id": "the-lost-city-of-atlantis",
+      "title": "The lost city of Atlantis",
+      "image": "assets/medi/MEDI02PU.webp",
+      "text": "The collapse of the Minoan civilization of ancient Crete was probably hastened by a huge tsunami that occurred in the Mediterranean around 1450 B.C. Caused by the eruption and collapse of a volcano on the nearby island of Santorin (now known as Thira), this catastrophe may have sparked the legend of Atlantis, a city lost beneath the sea.",
+      "narration": "assets/medi/MEDI02JN.mp3"
+    },
+    {
+      "id": "the-black-sea",
+      "title": "The Black Sea",
+      "image": "assets/medi/MEDI03PU.webp",
+      "text": "The Black Sea gets its color from mineral deposits found in its waters. This sea has become so low in oxygen, especially in its deep middle waters, that much of its life has died out. As the dead organisms decay, they give off chemicals that react with minerals in the water to form these black deposits.",
+      "narration": "assets/medi/MEDI03JN.mp3"
+    },
+    {
+      "id": "pollution-problems",
+      "title": "Pollution problems",
+      "image": "assets/medi/MEDI04PU.webp",
+      "text": "The Mediterranean and Black Seas contain some of the most polluted waters in the world, but the surrounding countries have formed a group to study and monitor the pollution.",
+      "captions": [
+        {
+          "label": "Deadly waters",
+          "text": "Even in very low concentrations, industrial wastes are extremely toxic to marine life. Polluted waters can also cause outbreaks of hepatitis, cholera, and dysentery in humans."
+        },
+        {
+          "label": "Too much algae",
+          "text": "Sewage and fertilizer runoff causes the rapid growth of algae, called algal blooms. At first, this leads to an increase in the amount of fish in the area. However, when the algae dies, its decay removes a lot of oxygen from the water, eventually causing the death of many organisms."
+        }
+      ],
+      "narration": "assets/medi/MEDI04JN.mp3"
+    },
+    {
+      "id": "valuable-preserves",
+      "title": "Valuable preserves",
+      "image": "assets/medi/MEDI06PU.webp",
+      "text": "Wetlands such as salt marshes, deltas, and marsh grass areas provide increasingly rare habitats for sea birds and other marine life. Marsh grasses help to stabilize the shoreline by capturing sediment.",
+      "captions": [
+        {
+          "label": "Rest stop",
+          "text": "The Camargue wetlands sprawl across the delta of the Rhône River in France. This coastal preserve shelters many species of migratory birds, as well as other forms of wildlife."
+        },
+        {
+          "label": "Silty sanctuaries",
+          "text": "Around 3 billion birds rest and feed in the wetlands that fringe the Mediterranean. This delta area lies at the mouth of the Nile River in Egypt."
+        }
+      ],
+      "narration": "assets/medi/MEDI06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Eastern Mediterranean Explorers",
+      "to": "east"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/medi/MEDI00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 7,
+            "h": 6
+          },
+          {
+            "label": "Go with the flow",
+            "to": "go-with-the-flow",
+            "x": 61,
+            "y": 25,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "The lost city of Atlantis",
+            "to": "the-lost-city-of-atlantis",
+            "x": 50,
+            "y": 33,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "The Black Sea",
+            "to": "the-black-sea",
+            "x": 35,
+            "y": 43,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Pollution problems",
+            "to": "pollution-problems",
+            "x": 9,
+            "y": 49,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Sea of antiquity",
+            "to": "video",
+            "x": 20,
+            "y": 56,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Valuable preserves",
+            "to": "valuable-preserves",
+            "x": 25,
+            "y": 70,
+            "w": 20,
+            "h": 5
+          }
+        ]
+      },
+      "go-with-the-flow": {
+        "image": "assets/medi/MEDI01PU.webp",
+        "back": "main"
+      },
+      "the-lost-city-of-atlantis": {
+        "image": "assets/medi/MEDI02PU.webp",
+        "back": "main"
+      },
+      "the-black-sea": {
+        "image": "assets/medi/MEDI03PU.webp",
+        "back": "main"
+      },
+      "pollution-problems": {
+        "image": "assets/medi/MEDI04PU.webp",
+        "back": "main"
+      },
+      "valuable-preserves": {
+        "image": "assets/medi/MEDI06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/medi/clip.mp4",
+        "poster": "assets/medi/MEDI05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/medi/MEDI00JN.mp3",
+  "sound": "assets/medi/MEDI00IX.mp3",
+  "video": {
+    "title": "Sea of antiquity",
+    "src": "assets/medi/clip.mp4",
+    "poster": "assets/medi/poster.webp",
+    "caption": "Weather and wars have claimed many a vessel in the Mediterranean Sea. The ships and cargoes of ancient Greek, Phoenician, Roman, Etruscan, Byzantine, and Arabic civilizations lie buried in the silt of the sea floor.",
+    "narration": "assets/medi/MEDI05JN.mp3"
+  }
+}

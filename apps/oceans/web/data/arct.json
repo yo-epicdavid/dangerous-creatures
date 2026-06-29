@@ -1,0 +1,239 @@
+{
+  "id": "arct",
+  "code": "ARCT",
+  "name": "Arctic Ocean",
+  "category": "place",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "A frozen ocean at the top of the world, where polar bears hunt seals on drifting ice.",
+  "zones": [
+    "Polar seas"
+  ],
+  "oceans": [
+    "Arctic Ocean"
+  ],
+  "hero": {
+    "image": "assets/arct/ARCT00AA.webp",
+    "alt": "Arctic Ocean"
+  },
+  "intro": "The Arctic Ocean is the world's smallest, and is almost completely surrounded by the continents of North America, Europe, and Asia. Most of its waters are covered in pack ice, a frozen crust that supports communities of animals and influences the global climate. The Arctic summer attracts migrating animals like whales, which feed on the seasonal bounty of plankton.",
+  "facts": [
+    {
+      "label": "Size",
+      "value": "The Arctic Ocean is the world's smallest ocean, roughly the size of the continent of Antarctica."
+    },
+    {
+      "label": "Ice Cover",
+      "value": "Two thirds of the Arctic Ocean is permanently covered in ice."
+    },
+    {
+      "label": "Deepest Point",
+      "value": "The Arctic Ocean's deepest point is around 5,182 m (17,000 ft)."
+    },
+    {
+      "label": "Icebergs",
+      "value": "Only about an eighth of an iceberg is visible above water; the rest is hidden below the surface."
+    },
+    {
+      "label": "Continental Shelves",
+      "value": "Wide continental shelves extend into nearly one third of the Arctic Ocean's total area, containing large schools of fish and buried oil and gas deposits."
+    },
+    {
+      "label": "Did you know",
+      "value": "Europeans searched in vain for 400 years for the Northwest Passage; Norwegian explorer Roald Amundsen finally traversed it in 1906, taking three years to complete the arduous journey."
+    }
+  ],
+  "topics": [
+    {
+      "id": "a-sea-encircled-by-land",
+      "title": "A sea encircled by land",
+      "image": "assets/arct/ARCT01PU.webp",
+      "text": "Far below the Arctic ice lies a hidden world of vast plains and rugged undersea ridges. This ocean features very wide continental shelves that extend into nearly one third of its total area. These shallow regions contain large schools of fish and buried oil and gas deposits. The Arctic Ocean is roughly the size of the continent of Antarctica, its polar counterpart at the opposite end of the globe. It's a strange coincidence that the Arctic Ocean's deepest point, around 5,182 m (17,000 ft), almost matches the height of the highest mountain on Antarctica.",
+      "narration": "assets/arct/ARCT01JN.mp3"
+    },
+    {
+      "id": "the-bottom-at-the-top-of-the-world",
+      "title": "The bottom at the top of the world",
+      "image": "assets/arct/ARCT02PU.webp",
+      "text": "A wide variety of bacteria and marine invertebrates make the Arctic their home, with some species, such as sea spiders and sponges, growing to enormous size. The few species of fish that live here lay their eggs on the ocean floor to avoid the ice. The hatched larvae are large and well-developed, which helps them survive in the severe climate. There are many animals in the Arctic Ocean, but not many different types, probably because there are few ecological niches in this harsh environment. This means that the destruction of one species greatly affects the others.",
+      "captions": [
+        {
+          "label": "Arctic jellyfish",
+          "text": "Arctic jellyfish"
+        },
+        {
+          "label": "Arctic brittle star",
+          "text": "Arctic brittle star"
+        }
+      ],
+      "narration": "assets/arct/ARCT02JN.mp3"
+    },
+    {
+      "id": "trapped-in-the-ice",
+      "title": "Trapped in the ice",
+      "image": "assets/arct/ARCT03PU.webp",
+      "text": "Two thirds of the Arctic Ocean is permanently covered in ice.\n\nFloating fortresses\nOnly about an eighth of an iceberg is visible above water. Icebergs break off, or calve, from glaciers that have formed on land, so they're made of fresh water. Most Arctic icebergs have calved from glaciers in Greenland. They're irregularly shaped, and often contain dirt and rock. Unlike pack ice, which is driven by the wind, icebergs drift with surface currents.\n\nCaptured!\nPack ice can form quickly and trap animals or ships. It starts as slushy ice crystals that freeze into thin sheets. Winds and currents break the ice into thousands of plates, which are called pancake ice because their shapes are rounded by constant bumping. This pancake ice then freezes together into floes.",
+      "captions": [
+        {
+          "label": "Gray whales trapped in ice",
+          "text": "Eschrichtius robustus"
+        }
+      ],
+      "narration": "assets/arct/ARCT03JN.mp3"
+    },
+    {
+      "id": "human-impact",
+      "title": "Human impact",
+      "image": "assets/arct/ARCT04PU.webp",
+      "text": "In contrast with the limited numbers taken by the native peoples of the Arctic, commercial whalers and sealers have wiped out huge numbers of animals over the past few centuries. Today many whale and seal species are protected. However, other human influences threaten the area. Air pollution drifts northward to collect at the pole, and toxic chemicals such as DDT and PCB have been found in fish and in the marine mammals that feed on them.\n\nA traditional life\nNative peoples are still allowed by law to hunt marine mammals.",
+      "captions": [
+        {
+          "label": "Dutch whalers, seventeenth century",
+          "text": "Dutch whalers, seventeenth century"
+        }
+      ],
+      "narration": "assets/arct/ARCT04JN.mp3"
+    },
+    {
+      "id": "the-northwest-passage",
+      "title": "The Northwest Passage",
+      "image": "assets/arct/ARCT06PU.webp",
+      "text": "For centuries explorers searched for a northern route around the North American continent. Eager to find a shorter trade route from Europe to Asia, Europeans searched in vain for 400 years.\n\nMiscalculation\nThe waters along the northern coast of North America are ice-free for only about three months out of the year, and ships are often trapped by pack ice. This ice, which results from a complex combination of temperature, wind, and currents, can form quickly.\n\nFinally found\nThe Northwest Passage was finally traversed in 1906. It took the Norwegian explorer Roald Amundsen three years to complete the arduous journey.",
+      "narration": "assets/arct/ARCT06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Seals and Sea Lions",
+      "to": "seal"
+    },
+    {
+      "label": "Squid and Cuttlefish",
+      "to": "squi"
+    },
+    {
+      "label": "Sponges",
+      "to": "spon"
+    },
+    {
+      "label": "The Water Cycle",
+      "to": "wcyc"
+    },
+    {
+      "label": "Atlantic Ocean",
+      "to": "atla"
+    },
+    {
+      "label": "Pirates",
+      "to": "pira"
+    },
+    {
+      "label": "Starfish",
+      "to": "star"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/arct/ARCT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "A sea encircled by land",
+            "to": "a-sea-encircled-by-land",
+            "x": 57,
+            "y": 36,
+            "w": 32,
+            "h": 6
+          },
+          {
+            "label": "Human impact",
+            "to": "human-impact",
+            "x": 54,
+            "y": 49,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "The bottom at the top of the world",
+            "to": "the-bottom-at-the-top-of-the-world",
+            "x": 2,
+            "y": 57,
+            "w": 38,
+            "h": 6
+          },
+          {
+            "label": "Trapped in the ice",
+            "to": "trapped-in-the-ice",
+            "x": 54,
+            "y": 63,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "The Northwest Passage",
+            "to": "the-northwest-passage",
+            "x": 22,
+            "y": 69,
+            "w": 28,
+            "h": 6
+          },
+          {
+            "label": "Predator and prey",
+            "to": "video",
+            "x": 2,
+            "y": 82,
+            "w": 27,
+            "h": 6
+          }
+        ]
+      },
+      "a-sea-encircled-by-land": {
+        "image": "assets/arct/ARCT01PU.webp",
+        "back": "main"
+      },
+      "the-bottom-at-the-top-of-the-world": {
+        "image": "assets/arct/ARCT02PU.webp",
+        "back": "main"
+      },
+      "trapped-in-the-ice": {
+        "image": "assets/arct/ARCT03PU.webp",
+        "back": "main"
+      },
+      "human-impact": {
+        "image": "assets/arct/ARCT04PU.webp",
+        "back": "main"
+      },
+      "the-northwest-passage": {
+        "image": "assets/arct/ARCT06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/arct/clip.mp4",
+        "poster": "assets/arct/ARCT05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/arct/ARCT00JN.mp3",
+  "sound": "assets/arct/ARCT00IX.mp3",
+  "video": {
+    "title": "Predator and prey",
+    "src": "assets/arct/clip.mp4",
+    "poster": "assets/arct/poster.webp",
+    "caption": "Polar bears are clever hunters. Sometimes they'll swim underneath an ice floe that's carrying a dozing seal, then surface underneath it, knocking the seal off. Once in the water, it's killed by a single blow from the bear's mighty paw. Polar bears will also stake out a spot by a seal's breathing hole in the ice. When a swimming seal surfaces for air, the bear is ready to strike.",
+    "narration": "assets/arct/ARCT05JN.mp3"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "id": "reef",
+  "code": "REEF",
+  "name": "Coral Reefs",
+  "category": "habitat",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "The ocean's greatest neighborhoods, built by tiny creatures one shell at a time!",
+  "zones": [
+    "Coral reef"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/reef/REEF00AA.webp",
+    "alt": "Coral Reefs"
+  },
+  "intro": "What makes a coral reef? As you might guess, coral animals are the founders of the neighborhood. To survive, they need sunlight so that the algae inside them can photosynthesize, and reasonably warm, clean water from which they can filter plankton to eat. Over time, healthy corals can build large reefs that provide shelter and food for a multitude of different animals. If we lost all the reefs on earth, thousands of species of animals would disappear forever.",
+  "facts": [
+    {
+      "label": "Builders",
+      "value": "Coral animals take calcium from seawater to build hard shells around themselves; millions of these skeletons pile up to form reefs and even islands."
+    },
+    {
+      "label": "Biggest reef",
+      "value": "Corals built the Great Barrier Reef, which is so big that astronauts can see it from space."
+    },
+    {
+      "label": "Time to form",
+      "value": "Natural coral reefs can take hundreds or even thousands of years to form."
+    },
+    {
+      "label": "Enemy",
+      "value": "The crown-of-thorns starfish eats soft coral polyps and has killed whole coral reefs by devouring all of the living corals, leaving only the skeletons behind."
+    },
+    {
+      "label": "Biggest threat",
+      "value": "Siltation and other land-based sources of pollution are the primary cause of reef destruction worldwide."
+    },
+    {
+      "label": "Why it matters",
+      "value": "If we lost all the reefs on earth, thousands of species of animals would disappear forever."
+    }
+  ],
+  "topics": [
+    {
+      "id": "home-for-many",
+      "title": "Home for many",
+      "image": "assets/reef/REEF01PU.webp",
+      "text": "A coral reef is a very special environment, packed with many more plants and animals than anyone can see at first glance. Scientists can tell you that it takes years of study to understand all the relationships among creatures on a reef.",
+      "captions": [
+        {
+          "label": "A haven for fish",
+          "text": "Many different species of tropical fish and other creatures live only around coral reefs. If the reefs disappear, they will, too."
+        },
+        {
+          "label": "Hiding places for eels",
+          "text": "Holes and caves in reefs are favorite lairs of moray eels. If you're exploring a coral reef, don't poke fingers or anything else inside a hole, or you may have a surprise encounter with an angry moray!"
+        }
+      ],
+      "narration": "assets/reef/REEF01JN.mp3"
+    },
+    {
+      "id": "biggest-on-earth",
+      "title": "Biggest on Earth",
+      "image": "assets/reef/REEF02PU.webp",
+      "text": "You would need scuba gear and an underwater earth-moving machine to build an island in the ocean, but tiny corals can do it all by themselves! In fact, corals built the Great Barrier Reef, which is so big that astronauts can see it from space. How do tiny coral animals do it? They take calcium from seawater and use it to build hard shells around themselves. Eventually, millions of these hard coral skeletons build up to form reefs and even islands. Of course, building reefs and islands takes many, many years.",
+      "narration": "assets/reef/REEF02JN.mp3"
+    },
+    {
+      "id": "manmade-reefs",
+      "title": "Manmade reefs",
+      "image": "assets/reef/REEF03PU.webp",
+      "text": "Holes and overhangs in coral reefs provide shelter and protection for many types of animals. But natural coral reefs can take hundreds or even thousands of years to form. In some places, artificial reefs are created when fish and other animals collect around a shipwreck or some other manmade object on the ocean bottom. This doesn't create the same type of reef as those made by living corals, but it does provide stable surfaces for plants, anemones, and barnacles to anchor themselves, and places for fish to hide from predators.",
+      "narration": "assets/reef/REEF03JN.mp3"
+    },
+    {
+      "id": "coral-eater",
+      "title": "Coral eater",
+      "image": "assets/reef/REEF04PU.webp",
+      "text": "Like all animals, corals have to worry about predators that want to eat them. One of a coral's worst enemies is the crown-of-thorns starfish, which eats the soft coral polyps. In some places these bristling starfish have killed whole coral reefs by devouring all of the living corals, leaving only the skeletons behind. Scientists aren't sure whether this is a natural cycle from which the coral will eventually recover, or a sign of ecological disaster.",
+      "narration": "assets/reef/REEF04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Eels",
+      "to": "eels"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/reef/REEF00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 2,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "Reefs under attack",
+            "to": "video",
+            "x": 63,
+            "y": 22,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Home for many",
+            "to": "home-for-many",
+            "x": 50,
+            "y": 40,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Biggest on earth",
+            "to": "biggest-on-earth",
+            "x": 61,
+            "y": 57,
+            "w": 25,
+            "h": 6
+          },
+          {
+            "label": "Coral eater",
+            "to": "coral-eater",
+            "x": 20,
+            "y": 62,
+            "w": 17,
+            "h": 6
+          },
+          {
+            "label": "Manmade reefs",
+            "to": "manmade-reefs",
+            "x": 29,
+            "y": 74,
+            "w": 19,
+            "h": 6
+          }
+        ]
+      },
+      "home-for-many": {
+        "image": "assets/reef/REEF01PU.webp",
+        "back": "main"
+      },
+      "biggest-on-earth": {
+        "image": "assets/reef/REEF02PU.webp",
+        "back": "main"
+      },
+      "manmade-reefs": {
+        "image": "assets/reef/REEF03PU.webp",
+        "back": "main"
+      },
+      "coral-eater": {
+        "image": "assets/reef/REEF04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/reef/clip.mp4",
+        "poster": "assets/reef/REEF05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/reef/REEF00JN.mp3",
+  "sound": "assets/reef/REEF00IX.mp3",
+  "video": {
+    "title": "Reefs under attack",
+    "src": "assets/reef/clip.mp4",
+    "poster": "assets/reef/poster.webp",
+    "caption": "Scientists are alarmed at how fast coral reefs are dying around the world. Many things can kill coral reefs, but a reef's greatest enemies are people. Oil spills and other pollution problems can kill corals. Sometimes divers break off coral to sell or to use as building material. Fishermen have been known to use poison and even dynamite to kill fish around reefs, which kills everything in the area and completely destroys the reef. Even cutting down trees on land can endanger reefs, because it may cause silt to wash downstream and out to sea to smother corals. In fact, siltation and other land-based sources of pollution are the primary cause of reef destruction worldwide.",
+    "narration": "assets/reef/REEF05JN.mp3"
+  }
+}
