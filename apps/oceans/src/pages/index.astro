@@ -1,0 +1,45 @@
+---
+import Layout from '../layouts/Layout.astro';
+import EntryCard from '../components/EntryCard.astro';
+import { readJSON } from '../lib/data.js';
+const browse = readJSON('browse.json');
+const categories = browse.categories || [];
+const total = readJSON('index.json').length;
+---
+<Layout title="Microsoft Oceans — reborn">
+  <main id="main-content" class="wrap" tabindex="-1">
+    <div class="cover">
+      <h1><b>Microsoft</b><br />Oceans</h1>
+      <p>The 1995 ocean explorer, reborn for the web — dive in and meet {total} sea
+        creatures, habitats, and wonders of the deep.</p>
+    </div>
+
+    {categories.map((cat) => (
+      <section class="catsection">
+        <h2 class="section-head" id={cat.key}>{cat.label} <span class="count">{cat.count}</span></h2>
+        <div class="grid">
+          {cat.items.map((c) => <EntryCard id={c.id} name={c.name} thumb={c.thumb} />)}
+        </div>
+      </section>
+    ))}
+
+    <footer class="sitefoot">
+      <p class="notice">
+        A non-commercial, educational fan preservation of <i>Microsoft Oceans</i> (1995).
+        Not affiliated with Microsoft. All original media © their respective owners.
+      </p>
+    </footer>
+  </main>
+</Layout>
+
+<style>
+  .cover { text-align: center; padding: 56px 20px 14px; }
+  .cover h1 { font-family: var(--font-display); font-size: clamp(44px, 8.5vw, 92px); margin: 0; line-height: .95; font-weight: 700; }
+  .cover h1 b { color: var(--rust); }
+  .cover p { color: var(--ink-soft); font-size: 20px; max-width: 640px; margin: 14px auto 18px; }
+  .catsection { margin: 6px 0 38px; }
+  .section-head .count { color: var(--ink-soft); font-size: .6em; font-weight: 600; vertical-align: middle; }
+  .grid { margin: 10px 0 0; }
+  .sitefoot { text-align: center; padding: 6px 20px 70px; color: var(--ink-soft); }
+  .sitefoot .notice { margin: 0 auto; font-size: 13px; max-width: 660px; line-height: 1.5; }
+</style>

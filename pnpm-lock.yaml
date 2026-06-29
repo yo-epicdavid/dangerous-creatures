@@ -14,6 +14,12 @@ importers:
         specifier: ^4.16.0
         version: 4.16.19(rollup@4.62.2)(typescript@5.9.3)
 
+  apps/oceans:
+    dependencies:
+      astro:
+        specifier: ^4.16.0
+        version: 4.16.19(rollup@4.62.2)(typescript@5.9.3)
+
 packages:
 
   '@astrojs/compiler@2.13.1':
