@@ -1,0 +1,197 @@
+{
+  "id": "pten",
+  "code": "PTEN",
+  "name": "Pteranodon",
+  "category": "creature",
+  "scientificName": "Pteranodon",
+  "needsScientificVerify": false,
+  "pronunciation": "teh-RAN-oh-don",
+  "meaning": "Winged without teeth",
+  "period": "Late Cretaceous",
+  "diet": "Carnivore",
+  "tagline": "A toothless giant of prehistoric skies, with wings wider than a school bus!",
+  "hero": {
+    "image": "assets/pten/PTEN00AA.webp",
+    "alt": "Pteranodon"
+  },
+  "intro": "Casting a giant shadow with its wingspan of more than twenty feet, Pteranodon must have been a terror in the sky. This winged reptile, or pterosaur, glided long distances over the prehistoric seas, scooping up fish with its long, toothless beak.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Europe, N. America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Winged without teeth"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Pterosaur"
+    },
+    {
+      "label": "Wingspan",
+      "value": "7m(23ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "33 lbs."
+    }
+  ],
+  "topics": [
+    {
+      "id": "fingered-wings",
+      "title": "Fingered Wings",
+      "image": "assets/pten/PTEN01PU.webp",
+      "text": "Pteranodon, like other flying reptiles, used its hand and finger bones to support its leathery wings. The first three fingers ended in claws and stuck out from the front of the wing, but the fourth finger bone stretched out to the very tip of the wing. In the case of Pteranodon, this made for a very long finger!"
+    },
+    {
+      "id": "flying-fish-catcher",
+      "title": "Flying Fish-Catcher",
+      "image": "assets/pten/PTEN02PU.webp",
+      "text": "Scientists think that Pteranodon favored fish for its meals. It could have swept them up in its long beak, and may also have had a throat pouch like a pelican for storing its catch. Since Pteranodon had no teeth, it must have swallowed the fish whole."
+    },
+    {
+      "id": "ancient-albatross",
+      "title": "Ancient Albatross?",
+      "image": "assets/pten/PTEN03PU.webp",
+      "text": "With its giant size and its ability to glide for long distances over the ocean, Pteranodon resembled the modern albatross.",
+      "captions": [
+        {
+          "label": "Largest flier around today",
+          "text": "A large albatross can have a wingspan of ten to twelve feet, which is the largest wingspan of any bird on Earth today. The albatross can glide on air currents for long periods without flapping its wings."
+        }
+      ]
+    },
+    {
+      "id": "fur-feathers-or-scales",
+      "title": "Fur, Feathers, or Scales?",
+      "image": "assets/pten/PTEN04PU.webp",
+      "text": "Some fossil pterosaurs discovered in Kazakhstan had hair-like impressions around their bodies, leading paleontologists to think they may have had fur. If they had fur, this may indicate that they were warm-blooded, using the fur for insulation. We don't know for sure what type of skin Pteranodon had.",
+      "captions": [
+        {
+          "label": "Fur in modern skies",
+          "text": "It is easy to see the similarity between the bat and Pteranodon. Both have long, leathery wings and furry bodies. Bats date back to the Eocene period, about 55 million years ago."
+        }
+      ]
+    },
+    {
+      "id": "a-well-balanced-flyer",
+      "title": "A Well-Balanced Flyer",
+      "image": "assets/pten/PTEN05PU.webp",
+      "text": "The bony crest on Pteranodon's head counterbalanced its long toothless beak. The crest may also have been used as a rudder to guide and balance the reptile in flight."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What is a Dinosaur?",
+      "to": "what"
+    },
+    {
+      "label": "Reptiles of the Air",
+      "to": "rair"
+    },
+    {
+      "label": "Baryonyx",
+      "to": "bary"
+    },
+    {
+      "label": "Birds and Dinosaurs",
+      "to": "bird"
+    },
+    {
+      "label": "Warm-blooded or Cold-blooded?",
+      "to": "warm"
+    },
+    {
+      "label": "Quetzalcoatlus",
+      "to": "quet"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/pten/PTEN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Fur, feathers, or scales?",
+            "to": "fur-feathers-or-scales",
+            "x": 65,
+            "y": 10,
+            "w": 25,
+            "h": 7
+          },
+          {
+            "label": "Fingered wings",
+            "to": "fingered-wings",
+            "x": 33,
+            "y": 33,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "A well-balanced flyer",
+            "to": "a-well-balanced-flyer",
+            "x": 61,
+            "y": 41,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "Ancient albatross?",
+            "to": "ancient-albatross",
+            "x": 4,
+            "y": 49,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Flying fish-catcher",
+            "to": "flying-fish-catcher",
+            "x": 32,
+            "y": 67,
+            "w": 21,
+            "h": 6
+          }
+        ]
+      },
+      "fingered-wings": {
+        "image": "assets/pten/PTEN01PU.webp",
+        "back": "main"
+      },
+      "flying-fish-catcher": {
+        "image": "assets/pten/PTEN02PU.webp",
+        "back": "main"
+      },
+      "ancient-albatross": {
+        "image": "assets/pten/PTEN03PU.webp",
+        "back": "main"
+      },
+      "fur-feathers-or-scales": {
+        "image": "assets/pten/PTEN04PU.webp",
+        "back": "main"
+      },
+      "a-well-balanced-flyer": {
+        "image": "assets/pten/PTEN05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/pten/PTEN50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/pten/PTEN00AP.mp3"
+}

@@ -1,0 +1,288 @@
+{
+  "id": "site",
+  "code": "SITE",
+  "name": "Important Dinosaur Sites",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Dinosaurs have been found on every continent — explore the greatest dig sites on Earth!",
+  "hero": {
+    "image": "assets/site/SITE00AA.webp",
+    "alt": "Important Dinosaur Sites"
+  },
+  "intro": "Dinosaur fossils have been found on every continent in the world, but only some regions contain a wealth of their remains. The most productive dinosaur hunting grounds are in North and South America, central and eastern Asia, and Africa. These areas share the same type of geology: their rocks were formed by sediments of sand, mud, or lime, laid down by wind or water to cover dinosaur corpses before the bones could decay. These sediments turned into rock about 235 to 65 million years ago, within the Mesozoic era. Then movements in the Earth's crust thrust this sedimentary rock to the surface, where erosion from wind and water have exposed some of the bones.",
+  "facts": [
+    {
+      "label": "Found on",
+      "value": "Every continent"
+    },
+    {
+      "label": "Era",
+      "value": "Mesozoic"
+    },
+    {
+      "label": "Rock formed",
+      "value": "235 to 65 million years ago"
+    }
+  ],
+  "topics": [
+    {
+      "id": "north-american-dinosaur-sites",
+      "title": "North American Dinosaur Sites",
+      "image": "assets/site/SITE01PU.webp",
+      "text": "Much of our knowledge about dinosaurs comes from North America. In fact, looking for dinosaurs has been popular here since the 1880s, when a \"dinosaur rush,\" similar to the gold rushes in California and Alaska, took place. For more than a century, American and Canadian paleontologists have tried to outdo each other in finding and identifying dinosaurs.",
+      "captions": [
+        {
+          "label": "Dinosaur Provincial Park",
+          "text": "Almost 350 dinosaur skeletons have been collected here, including hadrosaurs, ceratopsians, ankylosaurs, and carnosaurs."
+        },
+        {
+          "label": "Dinosaur National Monument, Utah and Colorado",
+          "text": "More than 5,000 bones, belonging to sauropods, stegosaurs, and carnosaurs, have been discovered in this rugged area."
+        },
+        {
+          "label": "Hell Creek, Montana",
+          "text": "Fossil dinosaur eggs have been found here."
+        },
+        {
+          "label": "Como Bluff and Sheep Creek, Wyoming",
+          "text": "Sauropod bones have been found here since the 1870s."
+        },
+        {
+          "label": "Ghost Ranch, New Mexico",
+          "text": "Many Coelophysis skeletons have been unearthed here."
+        }
+      ]
+    },
+    {
+      "id": "european-dinosaur-sites",
+      "title": "European Dinosaur Sites",
+      "image": "assets/site/SITE02PU.webp",
+      "text": "The fascination with prehistoric creatures began in Europe, where a few intrepid pioneers were the first to identify fossils as belonging to giant reptiles from the past.",
+      "captions": [
+        {
+          "label": "Lyme Regis, England",
+          "text": "Plesiosaurs and ichthyosaurs have surfaced in this location."
+        },
+        {
+          "label": "Sussex, England",
+          "text": "Dr. Gideon Mantell found the first Iguanodon here."
+        },
+        {
+          "label": "Nice, France",
+          "text": "Compsognathus scampered across this region."
+        },
+        {
+          "label": "Bernissart, Belgium",
+          "text": "Here, thirty-nine specimens of Iguanodon were unearthed in a coal mine."
+        },
+        {
+          "label": "Solnhofen, Germany",
+          "text": "This area yielded one of the world's most amazing fossils, Archaeopteryx."
+        },
+        {
+          "label": "Trossingen, Germany",
+          "text": "Plateosaurus has been found here, as well as in numerous locations in Germany, France, and Switzerland."
+        }
+      ]
+    },
+    {
+      "id": "south-american-dinosaur-sites",
+      "title": "South American Dinosaur Sites",
+      "image": "assets/site/SITE03PU.webp",
+      "text": "Some of the world's most important dinosaurs have come from South America, including one of the most recent—Eoraptor, a tiny dinosaur found by paleontologist Paul Sereno. Eoraptor is thought to be one of the most primitive saurischians found to date.",
+      "captions": [
+        {
+          "label": "El Breté, Argentina",
+          "text": "Saltasaurus, one of the few sauropods known to have had armor, lived here."
+        },
+        {
+          "label": "Ischigualasto, Argentina",
+          "text": "This area was home to Riojasaurus, Herrerasaurus, and newcomer Eoraptor."
+        },
+        {
+          "label": "Santa Maria, Brazil",
+          "text": "Staurikosaurus, a primitive hunter, stalked its prey here."
+        },
+        {
+          "label": "Santa Cruz, Argentina",
+          "text": "In this region, paleontologists have found fossils of Piatnitzkysaurus and Mussaurus."
+        }
+      ]
+    },
+    {
+      "id": "asian-dinosaur-sites",
+      "title": "Asian Dinosaur Sites",
+      "image": "assets/site/SITE04PU.webp",
+      "text": "The Orient has yielded some spectacular dinosaur finds, including fossil dinosaur eggs and nests. Dinosaurs have been discovered in nearly all the provinces of China. India, which was separate from Asia during the Age of Dinosaurs, was also home to a few prehistoric giants.",
+      "captions": [
+        {
+          "label": "Gobi Desert, Mongolia",
+          "text": "This rugged area contained the remains of Velociraptor, Protoceratops, Oviraptor, and Pinacosaurus, just to name a few."
+        },
+        {
+          "label": "Tiruchirapalli, India",
+          "text": "A stegosaur named Dravidosaurus warmed itself here."
+        },
+        {
+          "label": "Meileyingzi, China",
+          "text": "Psittacosaurus, a dinosaur with a parrot-like beak, was discovered in this spot."
+        },
+        {
+          "label": "Taihezhen, China",
+          "text": "This region was home to Tuojiangosaurus, a stegosaur."
+        },
+        {
+          "label": "Wujiabai, China",
+          "text": "Here paleontologists found the longest-necked dinosaur, Mamenchisaurus."
+        }
+      ]
+    },
+    {
+      "id": "african-dinosaur-sites",
+      "title": "African Dinosaur Sites",
+      "image": "assets/site/SITE05PU.webp",
+      "text": "Long before the first human ever appeared there, the continent of Africa was home to dinosaurs of all shapes and sizes. This map shows some of the major dinosaur discoveries.",
+      "captions": [
+        {
+          "label": "Atlas Mountains, Morocco",
+          "text": "The sail-backed dinosaur, Spinosaurus, and Cetiosaurus, a large sauropod, were unearthed here."
+        },
+        {
+          "label": "Zimbabwe",
+          "text": "Several large sauropods, including Barosaurus, lived in this area."
+        },
+        {
+          "label": "South Africa",
+          "text": "Heterodontosaurus and several interesting prosauropods have turned up near the tip of the continent."
+        },
+        {
+          "label": "Bahariya, Egypt",
+          "text": "Spinosaurus roamed this area long before it became a desert."
+        },
+        {
+          "label": "Tendaguru, Tanzania",
+          "text": "This area was the site of one of the world's most famous dinosaur digs, where more than 250 tons of bones were collected."
+        },
+        {
+          "label": "Lesotho",
+          "text": "This country gives its name to a little plant-eater, Lesothosaurus."
+        }
+      ]
+    },
+    {
+      "id": "australian-dinosaur-sites",
+      "title": "Australian Dinosaur Sites",
+      "image": "assets/site/SITE06PU.webp",
+      "text": "Australia was once connected to Antarctica and located within the Antarctic Circle. Only a few dinosaur fossils have been found in Australia.",
+      "captions": [
+        {
+          "label": "Queensland",
+          "text": "This region has yielded the remains of Muttaburrasaurus, Rhoetosaurus, and Minmi."
+        },
+        {
+          "label": "Melbourne, Victoria",
+          "text": "Tiny Leaellynasaura, fierce Allosaurus, and a mystery dinosaur, Atlascopcoasaurus, have surfaced in this area."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What You Need to Find a Fossil",
+      "to": "find"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/site/SITE00AA.webp",
+        "hotspots": [
+          {
+            "label": "North American dinosaur sites",
+            "to": "north-american-dinosaur-sites",
+            "x": 4,
+            "y": 52,
+            "w": 23,
+            "h": 7
+          },
+          {
+            "label": "South American dinosaur sites",
+            "to": "south-american-dinosaur-sites",
+            "x": 12,
+            "y": 70,
+            "w": 24,
+            "h": 4
+          },
+          {
+            "label": "European dinosaur sites",
+            "to": "european-dinosaur-sites",
+            "x": 63,
+            "y": 38,
+            "w": 22,
+            "h": 4
+          },
+          {
+            "label": "Asian dinosaur sites",
+            "to": "asian-dinosaur-sites",
+            "x": 63,
+            "y": 46,
+            "w": 18,
+            "h": 4
+          },
+          {
+            "label": "African dinosaur sites",
+            "to": "african-dinosaur-sites",
+            "x": 62,
+            "y": 56,
+            "w": 21,
+            "h": 4
+          },
+          {
+            "label": "Australian dinosaur sites",
+            "to": "australian-dinosaur-sites",
+            "x": 65,
+            "y": 66,
+            "w": 22,
+            "h": 4
+          }
+        ]
+      },
+      "north-american-dinosaur-sites": {
+        "image": "assets/site/SITE01PU.webp",
+        "back": "main"
+      },
+      "european-dinosaur-sites": {
+        "image": "assets/site/SITE02PU.webp",
+        "back": "main"
+      },
+      "south-american-dinosaur-sites": {
+        "image": "assets/site/SITE03PU.webp",
+        "back": "main"
+      },
+      "asian-dinosaur-sites": {
+        "image": "assets/site/SITE04PU.webp",
+        "back": "main"
+      },
+      "african-dinosaur-sites": {
+        "image": "assets/site/SITE05PU.webp",
+        "back": "main"
+      },
+      "australian-dinosaur-sites": {
+        "image": "assets/site/SITE06PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/site/SITE00AP.mp3",
+  "narration": "assets/site/SITE00SA.mp3"
+}

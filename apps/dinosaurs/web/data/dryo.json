@@ -1,0 +1,103 @@
+{
+  "id": "dryo",
+  "code": "DRYO",
+  "name": "Dryosaurus",
+  "category": "dinosaur",
+  "scientificName": "Dryosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "DRY-oh-SOR-us",
+  "meaning": "Oak lizard",
+  "period": "Late Jurassic",
+  "diet": "Herbivore",
+  "tagline": "Built for speed, this pint-sized plant-eater could dash away from danger on powerful bird-like legs!",
+  "hero": {
+    "image": "assets/dryo/DRYO00AA.webp",
+    "alt": "Dryosaurus"
+  },
+  "intro": "When attacked by a predator or threatened by a larger plant-eating dinosaur, Dryosaurus could use its long legs to quickly run away. This ornithopod had a long, stiff tail, five fingers on its small hands, and three toes on each of its bird-like feet. At around ten to thirteen feet long, Dryosaurus was one of the smaller dinosaurs that lived during the Jurassic period.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Africa, Europe, N America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Oak lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ornithopod"
+    },
+    {
+      "label": "Length",
+      "value": "4m (13ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "fossilized-femur",
+      "title": "Fossilized Femur",
+      "image": "assets/dryo/DRYO01PU.webp",
+      "text": "The remains of several Dryosaurus specimens have been found in North America and in Tanzania. A fossil femur (thigh bone) like this one can tell experts a lot about the dinosaur it came from, such as approximately how big it was, whether or not it was a fast runner, and so forth.",
+      "captions": [
+        {
+          "label": "Dryosaurus femur",
+          "text": "A fossil femur (thigh bone) like this one can tell experts a lot about the dinosaur it came from, such as approximately how big it was, whether or not it was a fast runner, and so forth."
+        },
+        {
+          "label": "Handle with care",
+          "text": "It's very important for workers to be careful when separating dinosaur fossils from rock. Tiny markings on bones can tell scientists where muscles were attached, so it's vital not to scratch or damage the fossil."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "How to Recognize Ornithopods",
+      "to": "htro"
+    },
+    {
+      "label": "Digging up Dinosaurs",
+      "to": "digg"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/dryo/DRYO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Fossilized femur",
+            "to": "fossilized-femur",
+            "x": 62,
+            "y": 82,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "fossilized-femur": {
+        "image": "assets/dryo/DRYO01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/dryo/DRYO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/dryo/DRYO00AP.mp3"
+}

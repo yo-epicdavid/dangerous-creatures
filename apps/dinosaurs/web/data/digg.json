@@ -1,0 +1,193 @@
+{
+  "id": "digg",
+  "code": "DIGG",
+  "name": "Digging Up Dinosaurs",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "DIG-ing up DY-nuh-sorz",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Uncovering the ancient giants buried in stone — one careful dig at a time.",
+  "hero": {
+    "image": "assets/digg/DIGG00AA.webp",
+    "alt": "Digging Up Dinosaurs"
+  },
+  "intro": "When the remains of dinosaurs were buried and gradually turned into rock, they became fossils.  Because dinosaurs were so big, they left many fossils in the rocks.  The problem is how to find these fossils and dig them out so we can learn about the past.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "rock-removal",
+      "title": "Rock Removal",
+      "image": "assets/digg/DIGG01PU.webp",
+      "text": "Large chunks of soil and rock can be moved by digging machines, but as the fossils are uncovered, the work is done more carefully, using shovels, drills, hammers, and chisels.  Any separate piece that looks as though it might be part of the find is labeled and kept for study in the laboratory.",
+      "captions": [
+        {
+          "label": "Hazardous duty",
+          "text": "Like modern-day construction workers, excavation crews wear safety helmets and use power drilling devices to blast through the rock.  Gas masks are required if the air gets full of rock dust."
+        }
+      ]
+    },
+    {
+      "id": "keeping-records",
+      "title": "Keeping Records",
+      "image": "assets/digg/DIGG02PU.webp",
+      "text": "Before the fossils are removed, they are measured and mapped.  The excavation team takes notes and photographs, and sketches all the pieces as they were found.  It's essential to keep accurate records—this helps scientists correctly assemble the pieces later in the laboratory."
+    },
+    {
+      "id": "preparing-the-fossils-for-transport",
+      "title": "Preparing the Fossils for Transport",
+      "image": "assets/digg/DIGG03PU.webp",
+      "text": "Small fossil sections can be placed in padded boxes or bags.  Larger fossils may be very fragile, and paleontologists frequently spray them with a hard-setting foam or encase them in plaster bandages before removing them from the site.",
+      "captions": [
+        {
+          "label": "Plaster protection",
+          "text": "Using plaster jackets to protect fossils during transport ensures a more complete model when the creature is reconstructed in the lab."
+        }
+      ]
+    },
+    {
+      "id": "transport-to-the-laboratory",
+      "title": "Transport to the Laboratory",
+      "image": "assets/digg/DIGG04PU.webp",
+      "text": "Fossils are often found in remote and difficult locations, and special methods may be required to move them from the site to the laboratory.",
+      "captions": [
+        {
+          "label": "People power",
+          "text": "Members of the excavation team may have to use a sled, cart, or wheelbarrow to move smaller fossils to a waiting truck."
+        },
+        {
+          "label": "The power of pulleys",
+          "text": "Large fossils may be very heavy and awkward to handle.  Pulleys and other special equipment may be required to lift them from their resting place."
+        }
+      ]
+    },
+    {
+      "id": "tools-of-the-trade",
+      "title": "Tools of the Trade",
+      "image": "assets/digg/DIGG05PU.webp",
+      "text": "Paleontologists use a lot of special tools when excavating fossils.",
+      "captions": [
+        {
+          "label": "Chisels",
+          "text": "Along with hammers, paleontologists use different types of chisels to chip off lumps of rock and to get into awkward areas that cannot be reached with a hammer alone."
+        },
+        {
+          "label": "Geological hammers",
+          "text": "Scientists use a variety of hammers in the field.  The straight-headed hammer is good for splitting hard rock, and the curved-headed hammer can be used to break up softer rocks such as clay.  The lump hammer is used to drive chisels into the rock."
+        },
+        {
+          "label": "Brushes, glue, and plaster",
+          "text": "The excavation team may use brushes to clear away dust from fossils.  As a fossil is exposed, it is often painted with a hardener, like glue, to secure any loose fragments.  Before transporting the fossil, it may be encased in plaster for protection."
+        },
+        {
+          "label": "Bags and clipboards",
+          "text": "Broken fragments and rock samples are collected in plastic or cloth bags for later analysis in the laboratory.  Scientists always need a clipboard, paper, and pencil or pen to record all the details of a find, and to draw a map of the site."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Extinction",
+      "to": "exti"
+    },
+    {
+      "label": "What is a Fossil?",
+      "to": "foss"
+    },
+    {
+      "label": "The Making of a Fossil",
+      "to": "makf"
+    },
+    {
+      "label": "Reconstructing Dinosaurs",
+      "to": "reco"
+    },
+    {
+      "label": "Antarctica Expedition",
+      "to": "anta"
+    },
+    {
+      "label": "Modern Dinosaur Detectives",
+      "to": "mdet"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/digg/DIGG00AA.webp",
+        "hotspots": [
+          {
+            "label": "Rock removal",
+            "to": "rock-removal",
+            "x": 2,
+            "y": 40,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Keeping records",
+            "to": "keeping-records",
+            "x": 2,
+            "y": 62,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Transport to the laboratory",
+            "to": "transport-to-the-laboratory",
+            "x": 47,
+            "y": 28,
+            "w": 29,
+            "h": 5
+          },
+          {
+            "label": "Preparing the fossils for transport",
+            "to": "preparing-the-fossils-for-transport",
+            "x": 27,
+            "y": 76,
+            "w": 36,
+            "h": 5
+          },
+          {
+            "label": "Tools of the trade",
+            "to": "tools-of-the-trade",
+            "x": 73,
+            "y": 62,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "rock-removal": {
+        "image": "assets/digg/DIGG01PU.webp",
+        "back": "main"
+      },
+      "keeping-records": {
+        "image": "assets/digg/DIGG02PU.webp",
+        "back": "main"
+      },
+      "preparing-the-fossils-for-transport": {
+        "image": "assets/digg/DIGG03PU.webp",
+        "back": "main"
+      },
+      "transport-to-the-laboratory": {
+        "image": "assets/digg/DIGG04PU.webp",
+        "back": "main"
+      },
+      "tools-of-the-trade": {
+        "image": "assets/digg/DIGG05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/digg/DIGG00AP.mp3",
+  "narration": "assets/digg/DIGG00SA.mp3"
+}

@@ -1,0 +1,249 @@
+{
+  "id": "coel",
+  "code": "COEL",
+  "name": "Coelophysis",
+  "category": "dinosaur",
+  "scientificName": "Coelophysis",
+  "needsScientificVerify": false,
+  "pronunciation": "SEE-lo-FY-sis",
+  "meaning": "Hollow form",
+  "period": "Late Triassic",
+  "diet": "Carnivore",
+  "tagline": "This small two-legged hunter may have gobbled up its own young!",
+  "hero": {
+    "image": "assets/coel/COEL00AA.webp",
+    "alt": "Coelophysis"
+  },
+  "intro": "Not all meat-eating dinosaurs were giants. Fast-running, lightly built dinosaurs like Coelophysis were well designed to catch other, smaller dinosaurs as well as lizards and insects. Although Coelophysis measured only ten feet long from nose to tail and weighed only about sixty pounds, it had sharp claws and teeth and was an agile hunter.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Triassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Hollow form"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Theropod"
+    },
+    {
+      "label": "Length",
+      "value": "3m (10ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "60 lbs"
+    }
+  ],
+  "topics": [
+    {
+      "id": "skeleton-story",
+      "title": "Skeleton Story",
+      "image": "assets/coel/COEL01PU.webp",
+      "text": "Coelophysis means \"hollow form,\" a name given to this dinosaur because it had a light skeleton with hollow bones and a skull that was lightened by several \"windows.\" As you can see, Coelophysis had long, slender legs and a delicate tail. This structure enabled it to run fast.",
+      "captions": [
+        {
+          "label": "Old bones",
+          "text": "Fossils of this dinosaur date back to the Triassic period, over 200 million years ago, making Coelophysis one of the older meat-eating dinosaurs."
+        }
+      ]
+    },
+    {
+      "id": "the-carnivore-club",
+      "title": "The Carnivore Club",
+      "image": "assets/coel/COEL02PU.webp",
+      "text": "Here you can compare Allosaurus, one of the biggest meat-eaters, to Coelophysis, one of the smaller ones. Although vastly different in size and weight, they both ran on two legs, and had small but strong, clawed hands."
+    },
+    {
+      "id": "one-of-the-smallest-meat-eaters",
+      "title": "One of the Smallest Meat-Eaters",
+      "image": "assets/coel/COEL03PU.webp",
+      "text": "Although these meat-eaters differ in size, they are similar in many ways. They all have sharp teeth and claws to rip and cut through tough, scaly skin. Their jaws are strong and they have backward-pointing teeth to force large chunks of flesh into their mouths.",
+      "captions": [
+        {
+          "label": "Coelophysis",
+          "text": "Although small in comparison with most other carnivorous dinosaurs, Coelophysis was no less of a threat to the animals it preyed upon."
+        },
+        {
+          "label": "Deinonychus",
+          "text": "One of the deadliest hunters, it preyed on dinosaurs much larger than itself and may have hunted in packs."
+        },
+        {
+          "label": "Dilophosaurus",
+          "text": "One of the first large meat-eaters, this dinosaur lived 50 million years before its carnosaur cousin, Allosaurus."
+        },
+        {
+          "label": "Troodon",
+          "text": "This three-fingered smarty had a very big brain and large eyes, making it a good hunter day or night."
+        }
+      ]
+    },
+    {
+      "id": "cannibals",
+      "title": "Cannibals?",
+      "image": "assets/coel/COEL04PU.webp",
+      "text": "This Coelophysis skeleton was found at Ghost Ranch in New Mexico along with many others. In its belly, you can see bones that are actually the remains of young of the same species. These were too large to be unborn babies, so it seems that adults sometimes ate their own offspring.",
+      "captions": [
+        {
+          "label": "Baby bones",
+          "text": "Visible under the rib cage are the bones of a baby Coelophysis, apparently eaten by an adult for reasons unknown."
+        }
+      ]
+    },
+    {
+      "id": "two-legged-racer",
+      "title": "Two-Legged Racer",
+      "image": "assets/coel/COEL05PU.webp",
+      "text": "Coelophysis had long legs and feet, a slim body, a long counterbalancing tail, and light, hollow bones. These all point to it being a swift-running creature. It ran on its hind legs, on three of its four toes, reserving its arms and hands for catching the lizards and other small animals it ate.",
+      "captions": [
+        {
+          "label": "In the theropod group",
+          "text": "All meat-eating dinosaurs were theropods, walked on two legs, and had jaws lined with sharp, slicing teeth."
+        }
+      ]
+    },
+    {
+      "id": "relatives-of-birds",
+      "title": "Relatives of Birds?",
+      "image": "assets/coel/COEL06PU.webp",
+      "text": "Coelophysis had many features in common with Archaeopteryx, thought by many to be the earliest known bird. Both were lightly built and had small teeth, a thin flexible neck, long legs, clawed fingers, and a short body.",
+      "captions": [
+        {
+          "label": "Feathered dinosaur?",
+          "text": "Both Coelophysis and Archaeopteryx were theropods, but Archaeopteryx was covered with feathers. Was it the only feathered dinosaur, or did Coelophysis share this characteristic? Scientists can't be sure."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Compsognathus",
+      "to": "comp"
+    },
+    {
+      "label": "Speedy Dinosaurs",
+      "to": "spee"
+    },
+    {
+      "label": "Allosaurus",
+      "to": "allo"
+    },
+    {
+      "label": "The Smallest Dinosaurs",
+      "to": "smal"
+    },
+    {
+      "label": "Meat-eaters",
+      "to": "meat"
+    },
+    {
+      "label": "Warm-blooded or Cold-blooded?",
+      "to": "warm"
+    },
+    {
+      "label": "Archaeopteryx",
+      "to": "arch"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/coel/COEL00AA.webp",
+        "hotspots": [
+          {
+            "label": "The carnivore club",
+            "to": "the-carnivore-club",
+            "x": 60,
+            "y": 36,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Skeleton story",
+            "to": "skeleton-story",
+            "x": 28,
+            "y": 52,
+            "w": 18,
+            "h": 7
+          },
+          {
+            "label": "Cannibals?",
+            "to": "cannibals",
+            "x": 65,
+            "y": 54,
+            "w": 14,
+            "h": 7
+          },
+          {
+            "label": "Relatives of birds?",
+            "to": "relatives-of-birds",
+            "x": 12,
+            "y": 63,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "One of the smallest meat-eaters",
+            "to": "one-of-the-smallest-meat-eaters",
+            "x": 5,
+            "y": 75,
+            "w": 30,
+            "h": 7
+          },
+          {
+            "label": "Two-legged racer",
+            "to": "two-legged-racer",
+            "x": 59,
+            "y": 74,
+            "w": 20,
+            "h": 7
+          }
+        ]
+      },
+      "skeleton-story": {
+        "image": "assets/coel/COEL01PU.webp",
+        "back": "main"
+      },
+      "the-carnivore-club": {
+        "image": "assets/coel/COEL02PU.webp",
+        "back": "main"
+      },
+      "one-of-the-smallest-meat-eaters": {
+        "image": "assets/coel/COEL03PU.webp",
+        "back": "main"
+      },
+      "cannibals": {
+        "image": "assets/coel/COEL04PU.webp",
+        "back": "main"
+      },
+      "two-legged-racer": {
+        "image": "assets/coel/COEL05PU.webp",
+        "back": "main"
+      },
+      "relatives-of-birds": {
+        "image": "assets/coel/COEL06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/coel/COEL50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/coel/COEL00AP.mp3"
+}

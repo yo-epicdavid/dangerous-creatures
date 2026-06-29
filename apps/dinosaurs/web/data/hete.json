@@ -1,0 +1,171 @@
+{
+  "id": "hete",
+  "code": "HETE",
+  "name": "Heterodontosaurus",
+  "category": "dinosaur",
+  "scientificName": "Heterodontosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "heh-TAIR-oh-DON-toh-SOR-us",
+  "meaning": "Different teeth lizard",
+  "period": "Early Jurassic",
+  "diet": "Herbivore",
+  "tagline": "Three kinds of teeth in one tiny dinosaur — including fangs!",
+  "hero": {
+    "image": "assets/hete/HETE00AA.webp",
+    "alt": "Heterodontosaurus"
+  },
+  "intro": "While most dinosaurs are famous for their size or for their spikes or armor, Heterodontosaurus is famous for its teeth. This dinosaur's back teeth were tall, grinding molars. Further forward were long, curved canine teeth, like a wolf's. And in the front, Heterodontosaurus had small pointed teeth on top, and a bony beak on the bottom!",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Africa"
+    },
+    {
+      "label": "Time Period",
+      "value": "Early Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Different teeth lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ornithopod"
+    },
+    {
+      "label": "Length",
+      "value": "1.2m (4ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "telltale-teeth",
+      "title": "Telltale Teeth",
+      "image": "assets/hete/HETE01PU.webp",
+      "text": "Scientists can learn a lot from the teeth found in fossil skulls. The size and shape of the teeth indicate what the animal ate.",
+      "captions": [
+        {
+          "label": "All kinds of teeth",
+          "text": "You can see Heterodontosaurus's different kinds of teeth in this fossil skull. The dinosaur's bottom canine teeth (the long, curved \"fangs\" near the front of the mouth) fit into a special pocket in the top part of the jaw."
+        },
+        {
+          "label": "Canine teeth",
+          "text": "Smilodon, a saber-toothed cat that lived long after the dinosaurs had died out, had spectacular canine teeth. The long, curved top canines extended beyond the cat's lower jaw."
+        }
+      ]
+    },
+    {
+      "id": "tiny-herbivores",
+      "title": "Tiny Herbivores",
+      "image": "assets/hete/HETE02PU.webp",
+      "text": "Heterodontosaurus was less than four feet long and built for running. Small, speedy plant-eaters like the ones shown here may have evolved in response to meat-eating dinosaurs becoming faster and faster.",
+      "captions": [
+        {
+          "label": "Hypsilophodon",
+          "text": "When Hypsilophodon was first discovered, some scientists thought it lived in trees. Now paleontologists believe it was a ground-dweller that could sprint away from danger."
+        },
+        {
+          "label": "Lesothosaurus",
+          "text": "Experts think that this three-foot-long African dinosaur may have lived in harsh desert conditions."
+        }
+      ]
+    },
+    {
+      "id": "what-did-its-skin-look-like",
+      "title": "What Did Its Skin Look Like?",
+      "image": "assets/hete/HETE03PU.webp",
+      "text": "Although we know something about the texture of dinosaurs' skin from fossil impressions preserved in rock, we have no way of knowing what color dinosaurs were, or whether they were all one color, striped, or spotted. When drawing dinosaurs, we assume that they may have had colors and patterns like those found in reptiles today.",
+      "captions": [
+        {
+          "label": "Blending in",
+          "text": "The color and markings of this Gaboon viper allow it to blend in with its surroundings. Lying on dead leaves, the snake is nearly invisible in the dappled light of the tropical African forests. When removed from its natural background, the viper's geometrical skin patterns stand out vividly."
+        },
+        {
+          "label": "Standing out",
+          "text": "An iguana's skin color and patterns usually make this lizard stand out from its surroundings. Many lizards have skin colors and patterns that are designed to get attention from potential mates, or intended to warn enemies to stay away."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Cynognathus",
+      "to": "cyno"
+    },
+    {
+      "label": "The Smallest Dinosaurs",
+      "to": "smal"
+    },
+    {
+      "label": "Reconstructing Dinosaurs",
+      "to": "reco"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/hete/HETE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Telltale teeth",
+            "to": "telltale-teeth",
+            "x": 54,
+            "y": 19,
+            "w": 21,
+            "h": 6
+          },
+          {
+            "label": "Tiny herbivores",
+            "to": "tiny-herbivores",
+            "x": 70,
+            "y": 46,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "What did its skin look like?",
+            "to": "what-did-its-skin-look-like",
+            "x": 51,
+            "y": 70,
+            "w": 41,
+            "h": 6
+          },
+          {
+            "label": "Teeth",
+            "to": "telltale-teeth",
+            "x": 82,
+            "y": 2,
+            "w": 16,
+            "h": 19
+          }
+        ]
+      },
+      "telltale-teeth": {
+        "image": "assets/hete/HETE01PU.webp",
+        "back": "main"
+      },
+      "tiny-herbivores": {
+        "image": "assets/hete/HETE02PU.webp",
+        "back": "main"
+      },
+      "what-did-its-skin-look-like": {
+        "image": "assets/hete/HETE03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/hete/HETE50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/hete/HETE00AP.mp3"
+}

@@ -1,0 +1,282 @@
+{
+  "id": "rair",
+  "code": "RAIR",
+  "name": "Reptiles of the Air",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "REP-tilz of thuh AIR",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Before birds ruled the skies, pterosaurs soared on wings built from a single giant finger!",
+  "hero": {
+    "image": "assets/rair/RAIR00AA.webp",
+    "alt": "Reptiles of the Air"
+  },
+  "intro": "While dinosaurs took over the land, pterosaurs dominated the air. Pterosaurs did not have feathers, but had wings of flexible skin that stretched out from their bodies to the tips of their elongated fourth fingers— their wing fingers. Launching themselves from high ground, such as cliffs overlooking the sea, pterosaurs could glide on updrafts of air, but their strong muscles and gull-like wings also allowed them to flap their wings and fly like modern birds.",
+  "facts": [
+    {
+      "label": "Largest wingspan",
+      "value": "forty feet tip to tip (Quetzalcoatlus)"
+    },
+    {
+      "label": "Largest weight",
+      "value": "around 190 pounds (Quetzalcoatlus)"
+    },
+    {
+      "label": "Pteranodon wingspan",
+      "value": "twenty-three feet"
+    },
+    {
+      "label": "Pteranodon weight",
+      "value": "just over forty pounds"
+    },
+    {
+      "label": "Dimorphodon wingspan",
+      "value": "about four feet"
+    },
+    {
+      "label": "Pterodaustro wingspan",
+      "value": "about four feet"
+    }
+  ],
+  "topics": [
+    {
+      "id": "no-tail",
+      "title": "No Tail",
+      "image": "assets/rair/RAIR01PU.webp",
+      "text": "Pterodactylus was a small pterosaur. Some were only the size of a sparrow while others grew as large as a rooster. Pterodactylus had no tail, but had a long flexible neck and a long head. On land, this creature may have walked about on its sharp-toed feet, folding its wings close to its body."
+    },
+    {
+      "id": "largest-and-heaviest",
+      "title": "Largest and Heaviest",
+      "image": "assets/rair/RAIR02PU.webp",
+      "text": "Quetzalcoatlus was the largest known pterosaur, its outstretched wings measuring forty feet from tip to tip! The bones of pterosaurs were remarkably delicate with hollow spaces full of air to make them light. Although this creature was as large as a small airplane, it weighed only around 190 pounds!"
+    },
+    {
+      "id": "eating-was-a-strain",
+      "title": "Eating was a Strain",
+      "image": "assets/rair/RAIR03PU.webp",
+      "text": "Pterodaustro had many comb-like teeth in its long, turned-up jaws. It probably skimmed the surface of the seas, straining the water through its teeth hoping to filter a few small creatures for its meal. Pterodaustro had a wingspan of about four feet."
+    },
+    {
+      "id": "hairy-pterosaur",
+      "title": "Hairy Pterosaur",
+      "image": "assets/rair/RAIR04PU.webp",
+      "text": "Fossils indicate that Sordes had a thick, hairy coat to keep it warm during long flights. Reptiles are normally covered with scales, but new evidence shows that some pterosaurs developed some amount of fur for insulation."
+    },
+    {
+      "id": "tail-rudders",
+      "title": "Tail Rudders",
+      "image": "assets/rair/RAIR05PU.webp",
+      "text": "Rhamphorhynchus and Eudimorphodon had long tails with kite-shaped ends that may have acted like rudders for steering in flight. Scientists first thought these airborne reptiles could only glide, jumping from cliff tops and using rising currents of air to gain height, like hang gliders. Now they believe these creatures were active flyers. Long-tailed and short-necked, these early pterosaurs also had teeth designed for scooping and sieving small animals from sea water.",
+      "captions": [
+        {
+          "label": "Rhamphorhynchus",
+          "text": "Rhamphorhynchus"
+        },
+        {
+          "label": "Eudimorphodon",
+          "text": "Eudimorphodon"
+        }
+      ]
+    },
+    {
+      "id": "flying-fisher",
+      "title": "Flying Fisher",
+      "image": "assets/rair/RAIR06PU.webp",
+      "text": "Pteranodon probably flew over the seas, using its long, toothless beak to catch fish. Weighing just over forty pounds, and with a wingspan of twenty-three feet, it could easily glide through prehistoric skies. Pteranodon's head had a long, bony crest that may have acted as a rudder in flight."
+    },
+    {
+      "id": "dimorphodon",
+      "title": "Dimorphodon",
+      "image": "assets/rair/RAIR07PU.webp",
+      "text": "Dimorphodon probably had a large multi-colored bill that resembled that of a modern puffin. Its long, rod-shaped tail may have balanced its large head as it walked or ran along the ground. It also may have clung like a bat to cliff tops or branches with its clawed fingers and toes. But Dimorphodon also flew. As it soared above the cliffs, its wingspan measured about four feet."
+    },
+    {
+      "id": "fingers-to-fly-with",
+      "title": "Fingers to Fly With",
+      "image": "assets/rair/RAIR08PU.webp",
+      "text": "The wings of pterosaurs were supported by arm and hand bones. Each hand had four fingers, three of which ended with sharp claws on the front of the wings. The fourth finger developed into an enormously long wing support, extending the wings into a long, tapered, graceful shape similar to the wings of a modern gull.",
+      "captions": [
+        {
+          "label": "Pteranodon",
+          "text": "Pteranodon"
+        }
+      ]
+    },
+    {
+      "id": "first-bird",
+      "title": "First Bird?",
+      "image": "assets/rair/RAIR09PU.webp",
+      "text": "Pterosaurs were flying reptiles, not birds. But birds and reptiles are closely related, and one small feathered animal called Archaeopteryx is thought to have been the link between small meat-eating dinosaurs and birds. Fossils of Archaeopteryx show this amazing creature had feathers and may have been able to fly. Yet Archaeopteryx also had teeth, claws, and a long tail like other early reptiles. All six known fossils of Archaeopteryx were found in the same limestone quarrying area in Germany."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Archaeopteryx",
+      "to": "arch"
+    },
+    {
+      "label": "Pterodactylus",
+      "to": "pter"
+    },
+    {
+      "label": "Quetzalcoatlus",
+      "to": "quet"
+    },
+    {
+      "label": "Dinosaur Diets",
+      "to": "diet"
+    },
+    {
+      "label": "Sordes",
+      "to": "sord"
+    },
+    {
+      "label": "Rhamphorhynchus",
+      "to": "rham"
+    },
+    {
+      "label": "Pteranodon",
+      "to": "pten"
+    },
+    {
+      "label": "Dinosaur Descendants",
+      "to": "desc"
+    },
+    {
+      "label": "Claws",
+      "to": "claw"
+    },
+    {
+      "label": "Birds and Dinosaurs",
+      "to": "bird"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/rair/RAIR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Eating was a strain",
+            "to": "eating-was-a-strain",
+            "x": 34,
+            "y": 23,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Largest and heaviest",
+            "to": "largest-and-heaviest",
+            "x": 65,
+            "y": 21,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Tail rudders",
+            "to": "tail-rudders",
+            "x": 70,
+            "y": 36,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "No tail",
+            "to": "no-tail",
+            "x": 52,
+            "y": 47,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "Hairy pterosaur",
+            "to": "hairy-pterosaur",
+            "x": 8,
+            "y": 56,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Fingers to fly with",
+            "to": "fingers-to-fly-with",
+            "x": 8,
+            "y": 64,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "First bird?",
+            "to": "first-bird",
+            "x": 8,
+            "y": 72,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Flying fisher",
+            "to": "flying-fisher",
+            "x": 36,
+            "y": 78,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Dimorphodon",
+            "to": "dimorphodon",
+            "x": 71,
+            "y": 65,
+            "w": 17,
+            "h": 5
+          }
+        ]
+      },
+      "no-tail": {
+        "image": "assets/rair/RAIR01PU.webp",
+        "back": "main"
+      },
+      "largest-and-heaviest": {
+        "image": "assets/rair/RAIR02PU.webp",
+        "back": "main"
+      },
+      "eating-was-a-strain": {
+        "image": "assets/rair/RAIR03PU.webp",
+        "back": "main"
+      },
+      "hairy-pterosaur": {
+        "image": "assets/rair/RAIR04PU.webp",
+        "back": "main"
+      },
+      "tail-rudders": {
+        "image": "assets/rair/RAIR05PU.webp",
+        "back": "main"
+      },
+      "flying-fisher": {
+        "image": "assets/rair/RAIR06PU.webp",
+        "back": "main"
+      },
+      "dimorphodon": {
+        "image": "assets/rair/RAIR07PU.webp",
+        "back": "main"
+      },
+      "fingers-to-fly-with": {
+        "image": "assets/rair/RAIR08PU.webp",
+        "back": "main"
+      },
+      "first-bird": {
+        "image": "assets/rair/RAIR09PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/rair/RAIR00AP.mp3",
+  "narration": "assets/rair/RAIR00SA.mp3"
+}

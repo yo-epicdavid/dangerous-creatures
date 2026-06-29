@@ -1,0 +1,143 @@
+{
+  "id": "foot",
+  "code": "FOOT",
+  "name": "Footprints",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "FOOT-prints",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Dinosaur tracks tell the story of how these giants lived, moved, and hunted millions of years ago.",
+  "hero": {
+    "image": "assets/foot/FOOT00AA.webp",
+    "alt": "Footprints"
+  },
+  "intro": "Bones are not the only things to become fossils. The signs of where animals have been—their footprints and the furrows where their tails drag—are also often fossilized. Many dinosaur tracks have been found around the world. At first, people thought the tracks had been made by giants, gods, or \"Noah's ravens.\" But after scientists realized that dinosaurs had existed, the prints could be explained.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "from-footprints-to-fossils",
+      "title": "From Footprints to Fossils",
+      "image": "assets/foot/FOOT01PU.webp",
+      "text": "The dinosaurs made the original footprints by stepping in soft mud or sand, probably on their way to a river or other water hole to drink. Later, the sun dried the surface to a hard finish, setting the prints. As time passed, the prints were buried in sand or another layer of mud, and eventually turned to stone.",
+      "captions": [
+        {
+          "label": "Leaving a deep impression",
+          "text": "Shown here is a good fossil impression of a footprint from a large three-toed dinosaur named Iguanodon. The foot of Iguanodon had to be very strong to support its weight. Iguanodon may have walked on its toes like cats and dogs do today."
+        }
+      ]
+    },
+    {
+      "id": "the-story-in-a-print",
+      "title": "The Story in a Print",
+      "image": "assets/foot/FOOT02PU.webp",
+      "text": "It's very hard to know what creature made which footprint. From footprints we can learn not only the approximate size and weight of an animal, but whether it was walking or running when it made the print, whether it traveled in groups or alone, and the length of its stride. Based on that measurement and an idea of its size, we can calculate an animal's speed in a specific time period."
+    },
+    {
+      "id": "a-lonely-hunter",
+      "title": "A Lonely Hunter",
+      "image": "assets/foot/FOOT03PU.webp",
+      "text": "Tyrannosaurus rex-type footprints have been discovered in several places. Unlike the prints of smaller meat-eaters, there are only one or two sets at a time, so big carnivores may have travelled either on their own or in pairs."
+    },
+    {
+      "id": "wheres-the-tail",
+      "title": "Where's the Tail?",
+      "image": "assets/foot/FOOT04PU.webp",
+      "text": "Although the dinosaurs that made these prints had long tails, dinosaur findings rarely show signs of tail furrows. That is because most dinosaurs walked with their tails held off the ground.",
+      "captions": [
+        {
+          "label": "Grouping together",
+          "text": "Many sets of similar footprints made at the same time suggest that dinosaurs sometimes traveled in herds. In Texas, twenty-three sets of prints, 120 million years old, were probably made by large herbivores like Apatosaurus. Also often found with footprints of herbivores are prints from meat-eating dinosaurs, which may have been hunting the plant-eaters in packs."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What is a Fossil?",
+      "to": "foss"
+    },
+    {
+      "label": "What You Need to Find a Fossil",
+      "to": "find"
+    },
+    {
+      "label": "The Story in a Skull",
+      "to": "stor"
+    },
+    {
+      "label": "Tyrannosaurus rex",
+      "to": "tyra"
+    },
+    {
+      "label": "Apatosaurus",
+      "to": "apat"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/foot/FOOT00AA.webp",
+        "hotspots": [
+          {
+            "label": "The story in a print",
+            "to": "the-story-in-a-print",
+            "x": 46,
+            "y": 8,
+            "w": 28,
+            "h": 6
+          },
+          {
+            "label": "Where's the tail?",
+            "to": "wheres-the-tail",
+            "x": 8,
+            "y": 70,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "From footprints to fossils",
+            "to": "from-footprints-to-fossils",
+            "x": 24,
+            "y": 79,
+            "w": 27,
+            "h": 6
+          },
+          {
+            "label": "A lonely hunter",
+            "to": "a-lonely-hunter",
+            "x": 57,
+            "y": 82,
+            "w": 20,
+            "h": 6
+          }
+        ]
+      },
+      "from-footprints-to-fossils": {
+        "image": "assets/foot/FOOT01PU.webp",
+        "back": "main"
+      },
+      "the-story-in-a-print": {
+        "image": "assets/foot/FOOT02PU.webp",
+        "back": "main"
+      },
+      "a-lonely-hunter": {
+        "image": "assets/foot/FOOT03PU.webp",
+        "back": "main"
+      },
+      "wheres-the-tail": {
+        "image": "assets/foot/FOOT04PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/foot/FOOT00AP.mp3",
+  "narration": "assets/foot/FOOT00SA.mp3"
+}

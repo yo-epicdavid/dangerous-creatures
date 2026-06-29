@@ -1,0 +1,103 @@
+{
+  "id": "hank",
+  "code": "HANK",
+  "name": "How to Recognize Ankylosaurs",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Like medieval knights in bony armor, ankylosaurs were built to take a hit — and dish one back.",
+  "hero": {
+    "image": "assets/hank/HANK00AA.webp",
+    "alt": "How to Recognize Ankylosaurs"
+  },
+  "intro": "Like medieval knights, ankylosaurids carried impressive coats of armor and packed spikes and tail clubs as weapons. Their cousins, the nodosaurids, had bony skin but no tail clubs. Like ancient armadillos, these armored dinosaurs must have presented a jaw-breaking challenge to would-be attackers.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "lumps-bumps-and-spikes",
+      "title": "Lumps, Bumps, and Spikes",
+      "image": "assets/hank/HANK01PU.webp",
+      "text": "Ankylosaurids and nodosaurids all had some form of body armor. In some specimens such as Euoplocephalus, this took the form of spikes all over its back and shoulders; in smoother types such as Nodosaurus, the armor consisted of bony lumps embedded in thick skin.",
+      "captions": [
+        {
+          "label": "Some helmet heads",
+          "text": "Some ankylosaurs like Euoplocephalus had bony helmets for head coverings. This plated protection even extended to the eyes, which had bony \"awnings\" above them."
+        },
+        {
+          "label": "Some tail weapons",
+          "text": "Not all ankylosaurs had clubs on the ends of their tails, but many packed heavy weapons. The massive bony club on the end of Euoplocephalus's tail would have made a lasting impression on an attacker who approached from the rear."
+        }
+      ]
+    },
+    {
+      "id": "high-hips-and-short-front-legs",
+      "title": "High Hips and Short Front Legs",
+      "image": "assets/hank/HANK02PU.webp",
+      "text": "Like their relatives, the stegosaurs, ankylosaurs are ornithischian (bird-hipped) dinosaurs with back legs that are longer than their front legs. They walked with their hips higher than their shoulders and their heads close to the ground.",
+      "captions": [
+        {
+          "label": "Bird bones inside?",
+          "text": "It's hard to picture any similarity between armored dinosaurs and birds by looking at the outside of the animal. However, by studying their skeletons, scientists know that both birds and ankylosaurs have the same type of hip structure. Ornithischians, or \"bird-hipped\" dinosaurs, have a structure in which the two lower pelvic bones pointed backward and down. The saurischians or \"lizard-hipped\" dinosaurs, on the other hand, have a hip structure in which one of the lower pelvic bones pointed forward and one pointed backward."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Museums of North America",
+      "to": "muse"
+    },
+    {
+      "label": "Euoplocephalus",
+      "to": "euop"
+    },
+    {
+      "label": "Birds and Dinosaurs",
+      "to": "bird"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/hank/HANK00AA.webp",
+        "hotspots": [
+          {
+            "label": "Lumps, bumps, and spikes",
+            "to": "lumps-bumps-and-spikes",
+            "x": 3,
+            "y": 53,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "High hips and short front legs",
+            "to": "high-hips-and-short-front-legs",
+            "x": 3,
+            "y": 68,
+            "w": 22,
+            "h": 8
+          }
+        ]
+      },
+      "lumps-bumps-and-spikes": {
+        "image": "assets/hank/HANK01PU.webp",
+        "back": "main"
+      },
+      "high-hips-and-short-front-legs": {
+        "image": "assets/hank/HANK02PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/hank/HANK00AP.mp3",
+  "narration": "assets/hank/HANK00SA.mp3"
+}

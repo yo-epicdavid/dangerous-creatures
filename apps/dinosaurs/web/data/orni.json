@@ -1,0 +1,93 @@
+{
+  "id": "orni",
+  "code": "ORNI",
+  "name": "Ornitholestes",
+  "category": "dinosaur",
+  "scientificName": "Ornitholestes",
+  "needsScientificVerify": false,
+  "pronunciation": "or-NITH-oh-LES-teez",
+  "meaning": "Bird robber",
+  "period": "Late Jurassic",
+  "diet": "Carnivore",
+  "tagline": "The Jurassic's nimble little hunter — quick enough to chase a bird!",
+  "hero": {
+    "image": "assets/orni/ORNI00AA.webp",
+    "alt": "Ornitholestes"
+  },
+  "intro": "At less than seven feet long, Ornitholestes was the smallest meat-eating dinosaur that prowled through the vegetation of the Jurassic period. Like other small, agile predators, Ornitholestes probably ate anything it could catch in its three-fingered hands—insects, frogs, lizards, reptile and bird eggs, and even baby dinosaurs!",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Bird robber"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Theropod"
+    },
+    {
+      "label": "Length",
+      "value": "1.8m (6ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "whats-in-a-name",
+      "title": "What's in a Name?",
+      "image": "assets/orni/ORNI01PU.webp",
+      "text": "Ornitholestes means \"bird robber.\" This speedy little meat-eater is often depicted in pursuit of Archaeopteryx, thought by many to be the first bird. But Ornitholestes is known from western North America, Archaeopteryx from Europe. That's a long chase!"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Jurassic Period",
+      "to": "jurr"
+    },
+    {
+      "label": "Archaeopteryx",
+      "to": "arch"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/orni/ORNI00AA.webp",
+        "hotspots": [
+          {
+            "label": "What's in a name?",
+            "to": "whats-in-a-name",
+            "x": 77,
+            "y": 40,
+            "w": 21,
+            "h": 5
+          }
+        ]
+      },
+      "whats-in-a-name": {
+        "image": "assets/orni/ORNI01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/orni/ORNI50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/orni/ORNI00AP.mp3"
+}

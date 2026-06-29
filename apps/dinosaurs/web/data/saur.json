@@ -1,0 +1,197 @@
+{
+  "id": "saur",
+  "code": "SAUR",
+  "name": "Saurolophus",
+  "category": "dinosaur",
+  "scientificName": "Saurolophus",
+  "needsScientificVerify": false,
+  "pronunciation": "saw-ROL-oh-fus",
+  "meaning": "Ridged lizard",
+  "period": "Late Cretaceous",
+  "diet": "Herbivore",
+  "tagline": "The duckbilled dinosaur that may have trumpeted loud calls through a giant skin balloon!",
+  "hero": {
+    "image": "assets/saur/SAUR00AA.webp",
+    "alt": "Saurolophus"
+  },
+  "intro": "Saurolophus was a dinosaur with a \"balloon\" on its head. Experts think that this duckbilled dinosaur may have blown up the balloon of skin to make a loud noise, much like some modern frogs inflate their throat pouches. This means that the dinosaurs might have \"talked\" to each other.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Asia, N America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Ridged lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ornithopod"
+    },
+    {
+      "label": "Length",
+      "value": "9m(30ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "strange-heads",
+      "title": "Strange Heads",
+      "image": "assets/saur/SAUR01PU.webp",
+      "text": "Duckbilled dinosaurs like Saurolophus are known not only for their duck-like beaks, but also for their strangely shaped heads. As you can see here, the hadrosaurs Tsintaosaurus, Parasaurolophus, and Corythosaurus also had spectacular crests on their heads.",
+      "captions": [
+        {
+          "label": "Tsintaosaurus",
+          "text": "This hadrosaur had a hollow horn on its forehead. Like Saurolophus, it may have had a balloon-like flap of skin over its nose."
+        },
+        {
+          "label": "Saurolophus",
+          "text": "This dinosaur's head doesn't look so strange when seen with its hadrosaur cousins."
+        },
+        {
+          "label": "Parasaurolophus",
+          "text": "The crest of this dinosaur was sometimes as long as an adult human!"
+        },
+        {
+          "label": "Corythosaurus",
+          "text": "Experts think the crest of this dinosaur was a different shape and size on females of the species."
+        }
+      ]
+    },
+    {
+      "id": "dinosaur-disease",
+      "title": "Dinosaur Disease",
+      "image": "assets/saur/SAUR02PU.webp",
+      "text": "Dinosaurs were not immune from accidents or disease. In fact, dinosaurs could even get cancer. This section of hadrosaur backbone shows a swollen area that was a cancerous bone tumor.",
+      "captions": [
+        {
+          "label": "Swollen area of tumor growth",
+          "text": "Swollen area of tumor growth"
+        }
+      ]
+    },
+    {
+      "id": "a-great-grinder",
+      "title": "A Great Grinder",
+      "image": "assets/saur/SAUR03PU.webp",
+      "text": "Saurolophus, like other hadrosaurs, had a beak at the front of its mouth, but it was not toothless. Hadrosaurs had an astounding array of diamond-shaped teeth that acted like a self-sharpening grater to crush tough plants such as cycads and conifers.",
+      "captions": [
+        {
+          "label": "The better to grind with",
+          "text": "These rows of overlapping teeth were packed into great plant-grinding surfaces, as you can see in this hadrosaur jawbone."
+        },
+        {
+          "label": "Cycad frond",
+          "text": "Cycad frond"
+        },
+        {
+          "label": "Conifer branch",
+          "text": "Conifer branch"
+        }
+      ]
+    },
+    {
+      "id": "can-you-hear-me",
+      "title": "Can You Hear Me?",
+      "image": "assets/saur/SAUR04PU.webp",
+      "text": "Between its duck-like beak and its spiky crest, Saurolophus's skull was flattened on both sides. This is where its skin flap rested like an empty balloon when Saurolophus was quiet. The skin flap was connected to the dinosaur's nostrils. When Saurolophus wanted to make a loud noise, it inflated the balloon of skin like this."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Bactrosaurus",
+      "to": "bact"
+    },
+    {
+      "label": "Corythosaurus",
+      "to": "cory"
+    },
+    {
+      "label": "Extinction",
+      "to": "exti"
+    },
+    {
+      "label": "Teeth",
+      "to": "teet"
+    },
+    {
+      "label": "Face to Face",
+      "to": "ftfa"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/saur/SAUR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Strange heads",
+            "to": "strange-heads",
+            "x": 62,
+            "y": 25,
+            "w": 20,
+            "h": 7
+          },
+          {
+            "label": "A great grinder",
+            "to": "a-great-grinder",
+            "x": 74,
+            "y": 44,
+            "w": 20,
+            "h": 7
+          },
+          {
+            "label": "Can you hear me?",
+            "to": "can-you-hear-me",
+            "x": 67,
+            "y": 59,
+            "w": 23,
+            "h": 7
+          },
+          {
+            "label": "Dinosaur disease",
+            "to": "dinosaur-disease",
+            "x": 5,
+            "y": 71,
+            "w": 21,
+            "h": 7
+          }
+        ]
+      },
+      "strange-heads": {
+        "image": "assets/saur/SAUR01PU.webp",
+        "back": "main"
+      },
+      "dinosaur-disease": {
+        "image": "assets/saur/SAUR02PU.webp",
+        "back": "main"
+      },
+      "a-great-grinder": {
+        "image": "assets/saur/SAUR03PU.webp",
+        "back": "main"
+      },
+      "can-you-hear-me": {
+        "image": "assets/saur/SAUR04PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/saur/SAUR50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/saur/SAUR00AP.mp3"
+}

@@ -1,0 +1,152 @@
+{
+  "id": "spee",
+  "code": "SPEE",
+  "name": "Speedy Dinosaurs",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "SPEE-dee DY-nuh-SORS",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "More than half of all dinosaurs were built to run fast—sprinting on two legs to chase prey or escape danger!",
+  "hero": {
+    "image": "assets/spee/SPEE00AA.webp",
+    "alt": "Speedy Dinosaurs"
+  },
+  "intro": "People tend to think of dinosaurs as gigantic, slow, lumbering creatures. But in reality, more than half of all dinosaurs were small animals, and many were built to run fast, either to flee attackers or to pursue prey. Unlike the fastest animals of today, which are four-footed, the speediest dinosaurs all ran on two legs, and tended to look quite similar.",
+  "facts": [
+    {
+      "label": "Legs made for running",
+      "value": "These leg bones, which belonged to a little dinosaur called Hypsilophodon, show us special features of fast-moving dinosaurs. The main leg bones are slender, yet strong, and have special bony attachment areas for powerful leg muscles. The feet are quite narrow."
+    }
+  ],
+  "topics": [
+    {
+      "id": "dinosaur-derby",
+      "title": "Dinosaur Derby",
+      "image": "assets/spee/SPEE01PU.webp",
+      "text": "By measuring their footprints, their strides, their legs, and comparing their shapes to those of modern animals, experts can guess the speeds at which dinosaurs ran.",
+      "captions": [
+        {
+          "label": "Racy reptiles",
+          "text": "Some scientists have estimated that speedy dinosaurs such as Gallimimus may have reached speeds up to thirty-five miles per hour—almost as fast as a racehorse!"
+        },
+        {
+          "label": "To the finish line",
+          "text": "These Thoroughbred racehorses are some of the fastest animals around today. If a race were held between Gallimimus and a racehorse, who do you think would win?"
+        }
+      ]
+    },
+    {
+      "id": "ostrich-dinosaurs",
+      "title": "Ostrich Dinosaurs",
+      "image": "assets/spee/SPEE02PU.webp",
+      "text": "One group of fairly small, fast-running dinosaurs are known as the \"ostrich dinosaurs,\" because of their obvious similarities to the modern bird. All ostrich dinosaurs were two-legged meat-eaters.",
+      "captions": [
+        {
+          "label": "First past the post",
+          "text": "The name of Struthiomimus means \"ostrich mimic.\" With its long legs, long neck, small head, and toothless, beak-like jaws, this six-and-a-half foot tall dinosaur did look remarkably similar in size and shape, and could probably run just as fast as an ostrich—more than thirty miles per hour."
+        }
+      ]
+    },
+    {
+      "id": "nimble-hunters",
+      "title": "Nimble Hunters",
+      "image": "assets/spee/SPEE03PU.webp",
+      "text": "Ornitholestes, whose name means \"bird robber,\" was typical of the small, agile dinosaurs that ate anything they could catch: insects, frogs, lizards, even a baby dinosaur! Ornitholestes is often shown in pursuit of Archaeopteryx, which is thought to be the earliest known bird and probably could not fly well."
+    },
+    {
+      "id": "running-from-danger",
+      "title": "Running from Danger",
+      "image": "assets/spee/SPEE04PU.webp",
+      "text": "If two-legged predators could run fast, then little herbivores needed to run even faster to escape being eaten. Hypsilophodon, a small plant-eater, had nothing but its speed to defend itself. Its build suggests that it simply ran away from danger. Its slender skeleton and stiff tail are characteristics of sprinting dinosaurs."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Deinonychus",
+      "to": "dein"
+    },
+    {
+      "label": "Gallimimus",
+      "to": "gall"
+    },
+    {
+      "label": "Dromiceiomimus",
+      "to": "drom"
+    },
+    {
+      "label": "Velociraptor",
+      "to": "velo"
+    },
+    {
+      "label": "Lesothosaurus",
+      "to": "leso"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/spee/SPEE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Nimble hunters",
+            "to": "nimble-hunters",
+            "x": 65,
+            "y": 32,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Running from danger",
+            "to": "running-from-danger",
+            "x": 60,
+            "y": 44,
+            "w": 25,
+            "h": 7
+          },
+          {
+            "label": "Ostrich dinosaurs",
+            "to": "ostrich-dinosaurs",
+            "x": 10,
+            "y": 72,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Dinosaur derby",
+            "to": "dinosaur-derby",
+            "x": 42,
+            "y": 72,
+            "w": 18,
+            "h": 6
+          }
+        ]
+      },
+      "dinosaur-derby": {
+        "image": "assets/spee/SPEE01PU.webp",
+        "back": "main"
+      },
+      "ostrich-dinosaurs": {
+        "image": "assets/spee/SPEE02PU.webp",
+        "back": "main"
+      },
+      "nimble-hunters": {
+        "image": "assets/spee/SPEE03PU.webp",
+        "back": "main"
+      },
+      "running-from-danger": {
+        "image": "assets/spee/SPEE04PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/spee/SPEE00AP.mp3",
+  "narration": "assets/spee/SPEE00SA.mp3"
+}

@@ -1,0 +1,197 @@
+{
+  "id": "para",
+  "code": "PARA",
+  "name": "Parasaurolophus",
+  "category": "dinosaur",
+  "scientificName": "Parasaurolophus",
+  "needsScientificVerify": false,
+  "pronunciation": "par-uh-SOR-oh-LOH-fus",
+  "meaning": "Beside Saurolophus",
+  "period": "Late Cretaceous",
+  "diet": "Herbivore",
+  "tagline": "Its hollow crest was a built-in musical instrument — it could bellow and hoot!",
+  "hero": {
+    "image": "assets/para/PARA00AA.webp",
+    "alt": "Parasaurolophus"
+  },
+  "intro": "Parasaurolophus is famous for its unusual crest, which was long and thin. In some cases, its crest was as long as an adult human! This dinosaur is a member of the hadrosaurs, or duckbilled dinosaurs, which were known not only for their toothless duck-like bills, but also for their strangely shaped heads.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Beside Saurolophus"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ornithopod"
+    },
+    {
+      "label": "Length",
+      "value": "10m (33ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "duckbill-dinner-habits",
+      "title": "Duckbill Dinner Habits",
+      "image": "assets/para/PARA01PU.webp",
+      "text": "Because hadrosaurs had toothless beaks, they were often pictured wading in swamps, and feeding on soft water plants. But in reality they were mainly land feeders and could tackle tough vegetation from trees, grinding it up with their powerful jaws.",
+      "captions": [
+        {
+          "label": "Cycad frond",
+          "text": "Cycads were abundant during most of the dinosaur reign and are still around today, though not as easily found."
+        },
+        {
+          "label": "Fir feast",
+          "text": "Herbivorous (plant-eating) dinosaurs had lots of vegetation to choose from. Duckbilled dinosaurs such as Parasaurolophus could cope with tough plants because their jaws and teeth were so powerful. Even fir needles were no problem for them to eat."
+        }
+      ]
+    },
+    {
+      "id": "inside-its-head",
+      "title": "Inside Its Head",
+      "image": "assets/para/PARA02PU.webp",
+      "text": "On this Parasaurolophus skull, notice the duck-like beak which preceded the battery of many small teeth. These are characteristic of hadrosaur skulls. The long crest was hollow inside.",
+      "captions": [
+        {
+          "label": "Fancy frill?",
+          "text": "The long crest of Parasaurolophus may have anchored a brightly colored skin frill that was loosely attached to the dinosaur's back."
+        },
+        {
+          "label": "Grinding teeth",
+          "text": "Its teeth start far back in the jaw and may number in the hundreds. These rows of teeth formed rough surfaces for grinding tough plants. When a hadrosaur lost a tooth, a new one would grow in its place."
+        }
+      ]
+    },
+    {
+      "id": "giving-a-hoot",
+      "title": "Giving a Hoot",
+      "image": "assets/para/PARA03PU.webp",
+      "text": "The long, hollow crest on the skull of Parasaurolophus has puzzled experts for years. At first it was thought to be a \"snorkel,\" or a reserve air tank used when the animal was feeding under water. Or perhaps it was an extension of the nostrils, enhancing the creature's sense of smell. Now we know that the hollow tube was probably a \"resonator,\" through which the dinosaur could bellow or hoot in a distinctive way. Female dinosaurs of this species had smaller, less spectacular crests than did the males."
+    },
+    {
+      "id": "curious-crests",
+      "title": "Curious Crests",
+      "image": "assets/para/PARA04PU.webp",
+      "text": "Parasaurolophus is shown here in the middle of a group of dinosaurs with strange heads. Like Parasaurolophus, the hadrosaurs Tsintaosaurus, Saurolophus, and Corythosaurus also sported crests on their heads.",
+      "captions": [
+        {
+          "label": "Tsintaosaurus",
+          "text": "This \"unicorn\" dinosaur may have had a balloon-like flap of skin over its nose."
+        },
+        {
+          "label": "Saurolophus",
+          "text": "This creature, like other hadrosaurs, had large eyes for a dinosaur. Its crest was not hollow like those of other hadrosaurs."
+        },
+        {
+          "label": "Parasaurolophus",
+          "text": "A scientist named David Weishampel has created a recording of what this dinosaur might have sounded like."
+        },
+        {
+          "label": "Corythosaurus",
+          "text": "This hadrosaur had a crest shaped like a dinner plate."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Tsintaosaurus",
+      "to": "tsin"
+    },
+    {
+      "label": "Dinosaur Landscape",
+      "to": "dlan"
+    },
+    {
+      "label": "Teeth of Plant-eaters",
+      "to": "ptee"
+    },
+    {
+      "label": "Saurolophus",
+      "to": "saur"
+    },
+    {
+      "label": "Corythosaurus",
+      "to": "cory"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/para/PARA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Duckbill dinner habits",
+            "to": "duckbill-dinner-habits",
+            "x": 9,
+            "y": 69,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Inside its head",
+            "to": "inside-its-head",
+            "x": 54,
+            "y": 23,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Giving a hoot",
+            "to": "giving-a-hoot",
+            "x": 66,
+            "y": 56,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Curious crests",
+            "to": "curious-crests",
+            "x": 73,
+            "y": 23,
+            "w": 18,
+            "h": 6
+          }
+        ]
+      },
+      "duckbill-dinner-habits": {
+        "image": "assets/para/PARA01PU.webp",
+        "back": "main"
+      },
+      "inside-its-head": {
+        "image": "assets/para/PARA02PU.webp",
+        "back": "main"
+      },
+      "giving-a-hoot": {
+        "image": "assets/para/PARA03PU.webp",
+        "back": "main"
+      },
+      "curious-crests": {
+        "image": "assets/para/PARA04PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/para/PARA50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/para/PARA00AP.mp3"
+}

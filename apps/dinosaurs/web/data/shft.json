@@ -1,0 +1,135 @@
+{
+  "id": "shft",
+  "code": "SHFT",
+  "name": "The Shifting Earth",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "the SHIF-ting URTH",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Our planet's continents have been drifting and crashing for billions of years — and they're still moving today!",
+  "hero": {
+    "image": "assets/shft/SHFT00AA.webp",
+    "alt": "The Shifting Earth"
+  },
+  "intro": "The Earth that was home to the dinosaurs is far different from the one we know today.  Since our planet was formed, about 4500 million years ago, it has been constantly changing.  Huge landmasses, called plates, have shifted and moved against each other, forming new continents with mountain ranges, lakes, plains, and deserts.  Most of the time these movements occurred very gradually, but sudden plate shifting caused earthquakes, volcanic eruptions, even floods.  Today our continents are still moving, but only at the rate of a few inches per year.",
+  "facts": [
+    {
+      "label": "Scattered sauropods",
+      "value": "Sauropod dinosaurs like the Australian Rhoetosaurus have been found in North America, Asia, South America, Africa, and Australia, which indicates that these dinosaurs traversed the globe before the continents were completely separated."
+    }
+  ],
+  "topics": [
+    {
+      "id": "triassic-continents",
+      "title": "Triassic Continents",
+      "image": "assets/shft/SHFT01PU.webp",
+      "text": "Dinosaurs first appeared during the Triassic period—about 235 million years ago. Then, the continents were joined together into one \"supercontinent\" called Pangaea.  Dinosaurs could travel across the land without being blocked by seas. But by the end of the Triassic period, Pangaea was breaking into two landmasses—Laurasia and Gondwanaland—and the worldwide territories of dinosaurs began to be divided into smaller areas."
+    },
+    {
+      "id": "jurassic-continents",
+      "title": "Jurassic Continents",
+      "image": "assets/shft/SHFT02PU.webp",
+      "text": "About 145 million years ago, near the end of the Jurassic period, the continents of the north began drifting away from those of the south. India may have begun to move northward. Shallow seas began to appear between Africa and the still-connected North America and Europe, and between North America and Asia."
+    },
+    {
+      "id": "cretaceous-continents",
+      "title": "Cretaceous Continents",
+      "image": "assets/shft/SHFT03PU.webp",
+      "text": "In the early part of the Cretaceous period, the gaps between the new continents were widening.  Many of the seas were shallow and did not last long as the continents continued to shift.  Water levels rose to record highs at the end of the Early Cretaceous, 100 million years ago.  The Atlantic Ocean began to widen from the south. Antarctica and Australia were now moving away from South America and Africa."
+    },
+    {
+      "id": "modern-world",
+      "title": "Modern World",
+      "image": "assets/shft/SHFT04PU.webp",
+      "text": "Since the Age of Dinosaurs ended 65 million years ago, the continents of the world have moved into their present positions. India \"collided\" with Asia, pushing up the Himalayan Mountains, and the shallow African sea dried up to form the Sahara Desert. Even today, the face of the Earth continues to change. Every time a seismograph registers an earthquake, every time a volcano erupts, we see evidence that millions of years in the future, this planet may be very different from the Earth we know today."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Rhoetosaurus",
+      "to": "rhoe"
+    },
+    {
+      "label": "Life Before Dinosaurs",
+      "to": "befr"
+    },
+    {
+      "label": "The Jurassic Period",
+      "to": "jurr"
+    },
+    {
+      "label": "The Cretaceous Period",
+      "to": "cret"
+    },
+    {
+      "label": "Important Dinosaur Sites",
+      "to": "site"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/shft/SHFT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Triassic continents",
+            "to": "triassic-continents",
+            "x": 57,
+            "y": 20,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Jurassic continents",
+            "to": "jurassic-continents",
+            "x": 54,
+            "y": 31,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Cretaceous continents",
+            "to": "cretaceous-continents",
+            "x": 51,
+            "y": 42,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Modern world",
+            "to": "modern-world",
+            "x": 19,
+            "y": 72,
+            "w": 16,
+            "h": 5
+          }
+        ]
+      },
+      "triassic-continents": {
+        "image": "assets/shft/SHFT01PU.webp",
+        "back": "main"
+      },
+      "jurassic-continents": {
+        "image": "assets/shft/SHFT02PU.webp",
+        "back": "main"
+      },
+      "cretaceous-continents": {
+        "image": "assets/shft/SHFT03PU.webp",
+        "back": "main"
+      },
+      "modern-world": {
+        "image": "assets/shft/SHFT04PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/shft/SHFT00AP.mp3"
+}

@@ -1,0 +1,173 @@
+{
+  "id": "nodo",
+  "code": "NODO",
+  "name": "Nodosaurus",
+  "category": "dinosaur",
+  "scientificName": "Nodosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "noh-doh-SOR-us",
+  "meaning": "Node lizard",
+  "period": "Late Cretaceous",
+  "diet": "Herbivore",
+  "tagline": "The lumpy lizard that wore bony armor from head to tail!",
+  "hero": {
+    "image": "assets/nodo/NODO00AA.webp",
+    "alt": "Nodosaurus"
+  },
+  "intro": "This dinosaur is called \"lumpy lizard\" for obvious reasons—it had lumps all over its body!  Nodosaurus is one of the nodosaurids, a group of armored dinosaurs without tail clubs, that were slow and lumbering, with small jaws and weak teeth for eating soft plants.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Node lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ankylosaur"
+    }
+  ],
+  "topics": [
+    {
+      "id": "lumps-and-bumps",
+      "title": "Lumps and Bumps",
+      "image": "assets/nodo/NODO01PU.webp",
+      "text": "The armor of Nodosaurus was in the form of bony bumps in neat rows, large bumps alternating with small ones. This gave good protection yet also allowed the skin to bend easily as the creature moved about.",
+      "captions": [
+        {
+          "label": "Ankylosaur nodule",
+          "text": "Many ankylosaur bumps were formed by bony nodules like this one. In life, this bump was covered by a horny scale like a fingernail."
+        }
+      ]
+    },
+    {
+      "id": "long-in-back-short-in-front",
+      "title": "Long in Back, Short in Front",
+      "image": "assets/nodo/NODO02PU.webp",
+      "text": "Nodosaurus's back legs were longer than the front ones, which caused its head to tip down near the ground. The long back legs show that ankylosaurs were probably descendants of the early bird-hipped dinosaurs, which walked on two legs.",
+      "captions": [
+        {
+          "label": "Ground-hugger",
+          "text": "Study of the joints and muscle attachments of Nodosaurus reveals that it could probably \"sit down\" to protect its soft underbelly, leaving only its armor exposed. An attacker would find it difficult to tip Nodosaurus over because of its great weight."
+        }
+      ]
+    },
+    {
+      "id": "armadillo-dinosaur",
+      "title": "Armadillo Dinosaur?",
+      "image": "assets/nodo/NODO04PU.webp",
+      "text": "Both in its general body shape and in its body armor, Nodosaurus resembles the modern armadillo. Like Nodosaurus, armadillos hunch down on the ground when threatened. Few attackers are able to get a grip on their tough bodies."
+    },
+    {
+      "id": "families-of-ankylosaurs",
+      "title": "Families of Ankylosaurs",
+      "image": "assets/nodo/NODO05PU.webp",
+      "text": "The large group, or suborder, of ankylosaurs is commonly divided into two families, nodosaurids and ankylosaurids, which are represented here by the dinosaurs Nodosaurus and Euoplocephalus. Both families had the same bone structure and overall shape, and both were protected by some type of body armor, but the two families had different tails.",
+      "captions": [
+        {
+          "label": "Typed by their tails",
+          "text": "Nodosaurus is representative of the family that had no weapons on the ends of their tail—these are called nodosaurids. Euoplocephalus is an example of the other family, which had spikes on their bodies and bony clubs on the end of their tails—they are members of the ankylosaurid family."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Minmi",
+      "to": "minm"
+    },
+    {
+      "label": "Dinosaurs in Armor",
+      "to": "armr"
+    },
+    {
+      "label": "How to Recognize Ankylosaurs",
+      "to": "hank"
+    },
+    {
+      "label": "Dinosaur Descendants",
+      "to": "desc"
+    },
+    {
+      "label": "Pinacosaurus",
+      "to": "pina"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/nodo/NODO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Armadillo dinosaur?",
+            "to": "armadillo-dinosaur",
+            "x": 57,
+            "y": 32,
+            "w": 26,
+            "h": 7
+          },
+          {
+            "label": "Lumps and bumps",
+            "to": "lumps-and-bumps",
+            "x": 61,
+            "y": 42,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Long in back, short in front",
+            "to": "long-in-back-short-in-front",
+            "x": 50,
+            "y": 55,
+            "w": 33,
+            "h": 7
+          },
+          {
+            "label": "Families of ankylosaurs",
+            "to": "families-of-ankylosaurs",
+            "x": 4,
+            "y": 75,
+            "w": 28,
+            "h": 7
+          }
+        ]
+      },
+      "lumps-and-bumps": {
+        "image": "assets/nodo/NODO01PU.webp",
+        "back": "main"
+      },
+      "long-in-back-short-in-front": {
+        "image": "assets/nodo/NODO02PU.webp",
+        "back": "main"
+      },
+      "armadillo-dinosaur": {
+        "image": "assets/nodo/NODO04PU.webp",
+        "back": "main"
+      },
+      "families-of-ankylosaurs": {
+        "image": "assets/nodo/NODO05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/nodo/NODO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/nodo/NODO00AP.mp3"
+}

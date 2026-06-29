@@ -1,0 +1,178 @@
+{
+  "id": "reco",
+  "code": "RECO",
+  "name": "Reconstructing Dinosaurs",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "From rock-hard fossils to a life-sized dinosaur — follow the painstaking journey scientists take to bring ancient bones back to life.",
+  "hero": {
+    "image": "assets/reco/RECO00AA.webp",
+    "alt": "Reconstructing Dinosaurs"
+  },
+  "intro": "After the hard work of excavation, the fossils are taken back to the laboratory for preparation, study, and display. This whole process may take years of painstaking work.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "freeing-the-fossils",
+      "title": "Freeing the Fossils",
+      "image": "assets/reco/RECO01PU.webp",
+      "text": "The researchers carefully separate the fossils from packing materials used to protect them during transport. Next, they remove any rock that still surrounds the fossils, using special tools such as knives, chisels, needles, miniature pneumatic hammers, and high-speed cutting discs like those used by surgeons. It's important not to damage the fossil's surface because nicks and scratches can be confused with the natural ridges where muscles and ligaments were attached.",
+      "captions": [
+        {
+          "label": "Bone baths",
+          "text": "Sometimes acid baths are used to dissolve certain types of surrounding rock without damaging the enclosed fossils."
+        }
+      ]
+    },
+    {
+      "id": "recording-the-fossils",
+      "title": "Recording the Fossils",
+      "image": "assets/reco/RECO02PU.webp",
+      "text": "After a fossil is extracted and repaired, a scientific illustrator draws the piece from various angles. A good line drawing can emphasize details that a camera may miss, and it will also print more clearly in books and scientific journals."
+    },
+    {
+      "id": "identification-of-fossils",
+      "title": "Identification of Fossils",
+      "image": "assets/reco/RECO03PU.webp",
+      "text": "Identifying a fossil can take a lot of study. However, careful analysis of fossils, especially bones, can tell us a lot. To a trained eye, this foot bone from Iguanodon provides many clues. At the upper left end, its surface is roughened where the cartilage of the ankle joint was attached. Along its length are the scars of ligaments that were attached to other bones. The rough area at the bottom of the bone is a cartilage joint surface for the middle toe."
+    },
+    {
+      "id": "reassembly-of-bones",
+      "title": "Reassembly of Bones",
+      "image": "assets/reco/RECO04PU.webp",
+      "text": "A paleontologist takes the fossil bones and places them in position according to notes and sketches. Missing pieces are sculpted from plaster or plastic, modeled on another bone from the same animal, or copied from a similar dinosaur. Sometimes all the fossil bones are replaced with plastic or plaster models, since fossils are rock and thus very heavy and awkward to work with.",
+      "captions": [
+        {
+          "label": "Natural gap or missing bone?",
+          "text": "Dinosaur skulls are made of many separate bones, which sometimes have spaces between them. It's hard to know whether there was really a space, or whether a bone is missing."
+        },
+        {
+          "label": "Holding it all together",
+          "text": "Plastic or metal rods are used to hold heavy bones in position. Scaffolds and wires from the ceiling support the highest parts."
+        }
+      ]
+    },
+    {
+      "id": "adding-the-flesh",
+      "title": "Adding the Flesh",
+      "image": "assets/reco/RECO05PU.webp",
+      "text": "After a skeleton is put together, scientists can attempt a reconstruction of the dinosaur's body. This effort usually involves the collaboration of a scientific artist and an expert model maker. Here you can see the skeletal models of the Tyrannosaurus rex. The American Museum of Natural History in New York uses these models to help them reconstruct new T-rex specimens.",
+      "captions": [
+        {
+          "label": "Sketching muscles and skin",
+          "text": "To build a model, the work begins with a drawing of the completed skeleton. By studying the \"muscle scars\" on the bones, scientists determine where to attach muscles, and the artist adds them to the drawing. After the dinosaur has been \"fleshed out,\" the artist adds the skin."
+        },
+        {
+          "label": "Finishing touch",
+          "text": "The finished Tyrannosaurus rex model shown here is located at the Utah Fieldhouse of Natural History State Park. This life-sized model is the result of many hours of field and laboratory work by scientists and artists."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The American Dinosaur Rush",
+      "to": "amer"
+    },
+    {
+      "label": "What is a Fossil?",
+      "to": "foss"
+    },
+    {
+      "label": "What You Need to Find a Fossil",
+      "to": "find"
+    },
+    {
+      "label": "Bernissart Dinosaur Mine",
+      "to": "mine"
+    },
+    {
+      "label": "The Brontosaurus Mix-up",
+      "to": "bron"
+    },
+    {
+      "label": "Museums of North America",
+      "to": "muse"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/reco/RECO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Freeing the fossils",
+            "to": "freeing-the-fossils",
+            "x": 5,
+            "y": 30,
+            "w": 20,
+            "h": 8
+          },
+          {
+            "label": "Recording the fossils",
+            "to": "recording-the-fossils",
+            "x": 20,
+            "y": 68,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "Identification of fossils",
+            "to": "identification-of-fossils",
+            "x": 52,
+            "y": 30,
+            "w": 25,
+            "h": 8
+          },
+          {
+            "label": "Reassembly of bones",
+            "to": "reassembly-of-bones",
+            "x": 55,
+            "y": 42,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "Adding the flesh",
+            "to": "adding-the-flesh",
+            "x": 42,
+            "y": 62,
+            "w": 20,
+            "h": 8
+          }
+        ]
+      },
+      "freeing-the-fossils": {
+        "image": "assets/reco/RECO01PU.webp",
+        "back": "main"
+      },
+      "recording-the-fossils": {
+        "image": "assets/reco/RECO02PU.webp",
+        "back": "main"
+      },
+      "identification-of-fossils": {
+        "image": "assets/reco/RECO03PU.webp",
+        "back": "main"
+      },
+      "reassembly-of-bones": {
+        "image": "assets/reco/RECO04PU.webp",
+        "back": "main"
+      },
+      "adding-the-flesh": {
+        "image": "assets/reco/RECO05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/reco/RECO00AP.mp3"
+}

@@ -1,0 +1,65 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Topbar from '../components/Topbar.astro';
+---
+<Layout title="The Making Of — Microsoft Dinosaurs" desc="How a 1993 CD-ROM became a modern web app: one disc and a swarm of AI agents reading a children's encyclopedia.">
+  <Topbar>
+    <a slot="right" class="btn" href="/">Explore the dinosaurs <span class="arrow" aria-hidden="true">→</span></a>
+  </Topbar>
+
+  <main id="main-content" class="article" tabindex="-1">
+    <p class="kicker">The Making Of</p>
+    <h1>How a 1993 CD&#8209;ROM<br /><b>came back to life</b></h1>
+    <p class="dek">One disc, and a swarm of robots reading a children's dinosaur encyclopedia.</p>
+
+    <p><span class="first">L</span>ong before every kid had the internet in their pocket, there was a beige computer, a whirring CD&#8209;ROM drive, and a window full of dinosaurs. <i>Microsoft Dinosaurs</i> (1993) was a multimedia encyclopedia of the prehistoric world — Tyrannosaurus and Triceratops, ammonites and pterosaurs, all narrated, illustrated, and clickable. You learned how to say <i>Albertosaurus</i> out loud, what "Saurischia" meant, and why the dinosaurs disappeared.</p>
+
+    <p>This is that disc, brought back modern and open, so <b>any kid with a browser</b> can wander the Mesozoic again. Here's how a three&#8209;decade&#8209;old CD&#8209;ROM became the website you're using now.</p>
+
+    <div class="stats">
+      <div class="stat"><b>166</b><span>dinosaurs &amp; topics</span></div>
+      <div class="stat"><b>1,050+</b><span>screens</span></div>
+      <div class="stat"><b>166</b><span>name pronunciations</span></div>
+      <div class="stat"><b>16</b><span>guided tours</span></div>
+      <div class="stat"><b>333</b><span>AI agents</span></div>
+      <div class="stat"><b>33</b><span>years asleep</span></div>
+    </div>
+
+    <h2>A time capsule on a disc</h2>
+    <p>It started with a single file: the original CD&#8209;ROM image, preserved on the <a href="https://archive.org/details/microsoft-dinosaurs">Internet Archive</a> — 388 megabytes of 1993, frozen exactly as it shipped. Mounting it revealed a tidy little world: 166 folders, one per dinosaur or topic, named by four&#8209;letter codes like <code>TYRA</code>, <code>APAT</code> (Apatosaurus), and <code>ARCH</code> (Archaeopteryx). Inside were thousands of images, a per&#8209;name pronunciation clip for every entry, and a master database that knew what linked to what.</p>
+
+    <p>Each "screen" was a single picture with the words baked right into it — title, paragraphs, and clickable orange labels, all fused into one bitmap. Lovely to look at; useless to a search engine. To turn it back into a real website, the text had to be set free.</p>
+
+    <h2>Reading an encyclopedia, by robot</h2>
+    <p>So we pointed a swarm of AI agents at it. For every entry, one agent <i>looked</i> at the screens — the main page, the sub&#8209;topics, the fast&#8209;facts box — and transcribed the words exactly, sorting them into a clean data model: name, meaning, pronunciation, period, diet, hip type, the works. A second agent re&#8209;read the same screens and corrected the first. Finally an editor agent swept across all 166 entries at once, making the categories and labels consistent.</p>
+
+    <p>The robots were careful — and occasionally smarter than the disc. When one entry listed the ammonite as living in the Cambrian, the reviewer flagged it: ammonites didn't appear until the Devonian. It fixed the date and left a note explaining why. Three hundred and thirty&#8209;three agents, in all, reading a children's encyclopedia so no one had to retype it.</p>
+
+    <h2>Putting it back together</h2>
+    <p>With the words freed, the rest is a modern, accessible website built around the original art: every dinosaur with its picture, its story, its fast facts, and a button to <b>hear its name said out loud</b>. There's a <b>Classic 1993</b> switch on every page that rebuilds the original clickable screens, hotspots and all. You can browse by period or diet, take one of sixteen narrated <a href="/guides">guided tours</a>, or test yourself with <a href="/games">Dino Riddles</a>.</p>
+
+    <h2>What's real, and what's reborn</h2>
+    <p>Every word, image, and voice here comes from the 1993 disc — faithfully restored, not regenerated. This is a non&#8209;commercial labor of love, built to keep a wonderful old thing alive and put it in front of a new generation of kids. It is not affiliated with Microsoft, and all the original media belongs to its creators — the museums, studios, and artists named in the <a href="/credits">credits</a>.</p>
+
+    <p class="signoff">Now go meet a dinosaur. <a href="/">Start exploring <span class="arrow" aria-hidden="true">→</span></a></p>
+  </main>
+</Layout>
+
+<style>
+  .article { max-width: 720px; margin: 0 auto; padding: 30px 20px 90px; font-size: 19px; line-height: 1.7; }
+  .kicker { text-transform: uppercase; letter-spacing: .18em; font-size: 13px; color: var(--gold); font-weight: 700; margin: 8px 0 6px; }
+  .article h1 { font-family: var(--font-display); font-size: clamp(36px, 7vw, 64px); line-height: 1.02; margin: 0 0 10px; font-weight: 700; }
+  .article h1 b { color: var(--rust); }
+  .dek { font-size: 22px; color: var(--ink-soft); margin: 0 0 26px; }
+  .article h2 { font-family: var(--font-display); color: var(--gold); font-size: 27px; margin: 38px 0 8px; }
+  .article p { margin: 0 0 16px; }
+  .article a { color: var(--gold); }
+  .first { float: left; font-family: var(--font-display); font-size: 64px; line-height: .8; padding: 6px 10px 0 0; color: var(--rust); }
+  code { background: var(--panel-2); border: 1px solid var(--line); border-radius: 5px; padding: 1px 6px; font-size: .85em; }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 28px 0 8px; }
+  .stat { background: linear-gradient(180deg, var(--panel), var(--panel-2)); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; text-align: center; }
+  .stat b { display: block; font-family: var(--font-display); font-size: 30px; color: var(--ink); }
+  .stat span { color: var(--ink-soft); font-size: 13px; }
+  .signoff { margin-top: 34px; font-size: 21px; font-weight: 600; }
+  @media (max-width: 520px) { .stats { grid-template-columns: repeat(2, 1fr); } }
+</style>

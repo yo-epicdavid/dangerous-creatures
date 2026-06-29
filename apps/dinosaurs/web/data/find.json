@@ -1,0 +1,196 @@
+{
+  "id": "find",
+  "code": "FIND",
+  "name": "What You Need to Find a Fossil",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Discover the tools and tricks paleontologists use to dig up dinosaur bones without breaking them!",
+  "hero": {
+    "image": "assets/find/FIND00AA.webp",
+    "alt": "What You Need to Find a Fossil"
+  },
+  "intro": "If you're going out to hunt for fossils, you need to know what you're looking for, and you need to take along the right tools. Dinosaur hunters are careful not to damage these precious clues to the past.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "hammer-time",
+      "title": "Hammer Time",
+      "image": "assets/find/FIND01PU.webp",
+      "text": "Paleontologists use dynamite, crowbars, and a variety of hammers to split fossil-bearing rock. Hammers vary from huge, heavy sledge hammers that need a lot of muscles to swing them to tiny, precision instruments. Straight-edged hammers are good for splitting hard rock. Curved-headed hammers work well for breaking up rock into small chunks and clearing away softer materials such as clay. Flat-sided lump hammers are used to drive chisels into the rock."
+    },
+    {
+      "id": "protective-gear",
+      "title": "Protective Gear",
+      "image": "assets/find/FIND02PU.webp",
+      "text": "Fossils are frequently found in very rugged locations, such as windblown deserts or steep mountain slopes. Not only do fossil detectives have to contend with the weather and difficult locations, but also, digging out fossils can be dangerous work, so it pays to wear the proper protective gear. Workers wear gloves to protect their hands as they hammer and chisel away rock. Goggles protect their eyes from flying rock splinters. And it's always a good idea to wear a hard hat, especially if the work takes place in a cliff face, where rocks might unexpectedly tumble down on the diggers."
+    },
+    {
+      "id": "uncovering-the-find",
+      "title": "Uncovering the Find",
+      "image": "assets/find/FIND03PU.webp",
+      "text": "After signs of a fossil are detected on the ground surface, paleontologists analyze the surrounding rock material and determine what tools are needed. If the surrounding sediment is not too hard, workers use shovels to dig slowly and carefully around a fossil, removing plants, loose pebbles, and rock fragments. If the area surrounding the fossil is solid rock, it's time to bring out the rock hammers and hack away. In really tough situations, explosives such as dynamite are used to blast free a block of stone over a fossil. Workers map the location of each bone they find to learn the circumstances of a dinosaur's death and burial. They then photograph any piece that looks as though it might be a fossil, preparing their discoveries for later study in the laboratory."
+    },
+    {
+      "id": "wrapping-up-the-bones",
+      "title": "Wrapping Up the Bones",
+      "image": "assets/find/FIND04PU.webp",
+      "text": "Dinosaur fossils are millions of years old. It would be a shame to damage these precious pieces while transporting them to the lab, so workers take great care to protect them. All fossils may be hardened with special glues in the field. Small fossil sections are placed in padded boxes or bags. Larger sections, although they may appear hard, are just as delicate, so these are wrapped in plaster \"jackets.\" When one side of the plastered fossil is dry, they turn over the fossil and wrap the other side. After the plaster dries all around, the fossil can be safely moved."
+    },
+    {
+      "id": "getting-the-brush-off",
+      "title": "Getting the Brush-Off",
+      "image": "assets/find/FIND05PU.webp",
+      "text": "In the field or in the lab, most paleontologists have brushes in their pockets. It's important to preserve the tiniest details of every fossil, so paleontologists use brushes instead of sharp tools to clear away the final layers of dust and rock chips from the fossil. After the fossil is fully exposed, glue or some other penetrating hardener is often painted over it to secure any loose fragments and strengthen the bone."
+    },
+    {
+      "id": "taking-note-of-the-situation",
+      "title": "Taking Note of the Situation",
+      "image": "assets/find/FIND06PU.webp",
+      "text": "Working on a dinosaur dig is like being a detective at the scene of a crime. Not only do the workers need to collect all the evidence, they also have to draw a complete picture of the location. With a clipboard and a measuring tape in hand, they take notes and sketch the position and appearance of the fossil, and draw a detailed map of the site. This information is vital when trying to assemble a skeleton later in the laboratory. Without these records, it would frequently be impossible to determine important details such as whether a bone fragment was part of a rib, or whether a toe bone belonged to a front or back foot."
+    },
+    {
+      "id": "back-in-the-laboratory",
+      "title": "Back in the Laboratory",
+      "image": "assets/find/FIND07PU.webp",
+      "text": "After fossil pieces are extracted and repaired, they must be cleaned and studied. The preparation process is time consuming: it can take two years to clean a single bone! Pieces of a find are usually photographed for a catalog. Sometimes they are also illustrated from various angles by an expert scientific illustrator—a good line drawing can better emphasize the details that a camera might miss and may also reproduce more clearly in books and scientific journals. Using wire and sometimes even steel rods and welding torches, the fossils are then reassembled as they would be in life. Years of fossil preparation and study can lead to a skeleton, ready for display. For a more lifelike representation, scientific sculptors enter into the process at this point, adding muscles and skin to recreate a dinosaur."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Footprints",
+      "to": "foot"
+    },
+    {
+      "label": "The Making of a Fossil",
+      "to": "makf"
+    },
+    {
+      "label": "Digging up Dinosaurs",
+      "to": "digg"
+    },
+    {
+      "label": "Dinosaur Provincial Park",
+      "to": "park"
+    },
+    {
+      "label": "What is a Fossil?",
+      "to": "foss"
+    },
+    {
+      "label": "Reconstructing Dinosaurs",
+      "to": "reco"
+    },
+    {
+      "label": "What is Paleontology?",
+      "to": "pale"
+    },
+    {
+      "label": "Museums of North America",
+      "to": "muse"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/find/FIND00AA.webp",
+        "hotspots": [
+          {
+            "label": "Protective gear",
+            "to": "protective-gear",
+            "x": 9,
+            "y": 35,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Hammer time",
+            "to": "hammer-time",
+            "x": 41,
+            "y": 28,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Uncovering the find",
+            "to": "uncovering-the-find",
+            "x": 72,
+            "y": 28,
+            "w": 20,
+            "h": 8
+          },
+          {
+            "label": "Getting the brush-off",
+            "to": "getting-the-brush-off",
+            "x": 73,
+            "y": 45,
+            "w": 17,
+            "h": 8
+          },
+          {
+            "label": "Taking note of the situation",
+            "to": "taking-note-of-the-situation",
+            "x": 3,
+            "y": 56,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Wrapping up the bones",
+            "to": "wrapping-up-the-bones",
+            "x": 47,
+            "y": 55,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Back in the laboratory",
+            "to": "back-in-the-laboratory",
+            "x": 49,
+            "y": 65,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "hammer-time": {
+        "image": "assets/find/FIND01PU.webp",
+        "back": "main"
+      },
+      "protective-gear": {
+        "image": "assets/find/FIND02PU.webp",
+        "back": "main"
+      },
+      "uncovering-the-find": {
+        "image": "assets/find/FIND03PU.webp",
+        "back": "main"
+      },
+      "wrapping-up-the-bones": {
+        "image": "assets/find/FIND04PU.webp",
+        "back": "main"
+      },
+      "getting-the-brush-off": {
+        "image": "assets/find/FIND05PU.webp",
+        "back": "main"
+      },
+      "taking-note-of-the-situation": {
+        "image": "assets/find/FIND06PU.webp",
+        "back": "main"
+      },
+      "back-in-the-laboratory": {
+        "image": "assets/find/FIND07PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/find/FIND00AP.mp3"
+}

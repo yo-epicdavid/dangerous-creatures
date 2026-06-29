@@ -1,0 +1,127 @@
+{
+  "id": "eryo",
+  "code": "ERYO",
+  "name": "Eryops",
+  "category": "creature",
+  "scientificName": "Eryops",
+  "needsScientificVerify": false,
+  "pronunciation": "EE-ree-ops",
+  "meaning": "Drawn-out face",
+  "period": "Early Permian",
+  "diet": "Carnivore",
+  "tagline": "Half on land, half in water — this ancient giant ruled the swamps long before the dinosaurs arrived.",
+  "hero": {
+    "image": "assets/eryo/ERYO00AA.webp",
+    "alt": "Eryops"
+  },
+  "intro": "Eryops was a prehistoric amphibian that probably hunted both in the water and on land. It prowled through the swamps during the Early Permian period in the areas of the United States that are now known as Texas, Oklahoma, and New Mexico.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Permian"
+    },
+    {
+      "label": "Name Means",
+      "value": "Drawn-out face"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Prehistoric amphibian"
+    },
+    {
+      "label": "Length",
+      "value": "1.5m (5ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "strong-skeleton",
+      "title": "Strong Skeleton",
+      "image": "assets/eryo/ERYO01PU.webp",
+      "text": "This magnificent Eryops skeleton shows that the amphibian was heavily built, with very strong bones, a massive, heavy head, and the sharp teeth of a meat-eater.",
+      "captions": [
+        {
+          "label": "Eryops at home",
+          "text": "Eryops grew up to six and a half feet in length. It is believed to have had a lifestyle similar to that of modern crocodiles and alligators, dividing its time between the water and the land."
+        }
+      ]
+    },
+    {
+      "id": "the-age-of-amphibians",
+      "title": "The Age of Amphibians",
+      "image": "assets/eryo/ERYO02PU.webp",
+      "text": "300 million years ago, before the Age of Dinosaurs, amphibians such as Eryops dominated the swamps. They were stronger than early amphibians and became more independent of the water. However, they still had to return to water to lay their eggs, as amphibians do today.",
+      "captions": [
+        {
+          "label": "Modern relatives?",
+          "text": "The remains of Eryops were found in the southern United States. The alligator, present-day inhabitant of the swamps in that same area, looks remarkably similar, don't you think?"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Life Before Dinosaurs",
+      "to": "befr"
+    },
+    {
+      "label": "Dimetrodon",
+      "to": "dime"
+    },
+    {
+      "label": "Dinosaur Descendants",
+      "to": "desc"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/eryo/ERYO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Strong skeleton",
+            "to": "strong-skeleton",
+            "x": 67,
+            "y": 38,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "The Age of Amphibians",
+            "to": "the-age-of-amphibians",
+            "x": 7,
+            "y": 72,
+            "w": 28,
+            "h": 5
+          }
+        ]
+      },
+      "strong-skeleton": {
+        "image": "assets/eryo/ERYO01PU.webp",
+        "back": "main"
+      },
+      "the-age-of-amphibians": {
+        "image": "assets/eryo/ERYO02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/eryo/ERYO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/eryo/ERYO00AP.mp3"
+}

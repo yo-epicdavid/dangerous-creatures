@@ -1,0 +1,121 @@
+{
+  "id": "tarb",
+  "code": "TARB",
+  "name": "Tarbosaurus",
+  "category": "dinosaur",
+  "scientificName": "Tarbosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "tar-BOH-sor-us",
+  "meaning": "Alarming lizard",
+  "period": "Late Cretaceous",
+  "diet": "Carnivore",
+  "tagline": "T. rex's terrifying twin from Asia!",
+  "hero": {
+    "image": "assets/tarb/TARB00AA.webp",
+    "alt": "Tarbosaurus"
+  },
+  "intro": "Reaching lengths up to thirty feet long, Tarbosaurus was nearly as gigantic as its terrifying cousin, Tyrannosaurus rex. They were both ferocious meat-eating dinosaurs with powerful legs and tails, huge heads with sharp teeth, and tiny arms ending in two-fingered hands. In fact, the two large carnosaurs are so similar that some scientists believe they are sister species of the same kind of dinosaur.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Asia"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Alarming lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Theropod"
+    },
+    {
+      "label": "Length",
+      "value": "12.3 m. (40ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "discovered-in-mongolia",
+      "title": "Discovered in Mongolia",
+      "image": "assets/tarb/TARB01PU.webp",
+      "text": "At least thirteen Tarbosaurus skeletons have been unearthed in the Gobi Desert in Mongolia, China. An almost-complete, nearly perfect skeleton of a young Tarbosaurus was uncovered, preserved exactly as it had died 80 million years ago. Because the bones were going to be removed from the rock, an exact plaster replica of the find was made for display.",
+      "captions": [
+        {
+          "label": "A big job",
+          "text": "A fossil find like this can take weeks to excavate, but the job isn't done yet. Bones are then taken to a lab where it may take years of work to restore and reconstruct the skeleton."
+        }
+      ]
+    },
+    {
+      "id": "linked-by-an-ancient-land-bridge",
+      "title": "Linked by an Ancient Land Bridge",
+      "image": "assets/tarb/TARB02PU.webp",
+      "text": "There are many similarities between the North American Tyrannosaurus rex skeletons and the Mongolian Tarbosaurus finds. There are also similarities between other dinosaurs from the same areas, such as Euoplocephalus from North America and Pinacosaurus from Asia. This evidence suggests that the two continents may once have been linked as shown here in Late Cretaceous times."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Tyrannosaurus rex",
+      "to": "tyra"
+    },
+    {
+      "label": "Gobi Desert Expeditions",
+      "to": "gobi"
+    },
+    {
+      "label": "The Shifting Earth",
+      "to": "shft"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/tarb/TARB00AA.webp",
+        "hotspots": [
+          {
+            "label": "Linked by an ancient land bridge",
+            "to": "linked-by-an-ancient-land-bridge",
+            "x": 5,
+            "y": 76,
+            "w": 33,
+            "h": 5
+          },
+          {
+            "label": "Discovered in Mongolia",
+            "to": "discovered-in-mongolia",
+            "x": 53,
+            "y": 81,
+            "w": 36,
+            "h": 5
+          }
+        ]
+      },
+      "discovered-in-mongolia": {
+        "image": "assets/tarb/TARB01PU.webp",
+        "back": "main"
+      },
+      "linked-by-an-ancient-land-bridge": {
+        "image": "assets/tarb/TARB02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/tarb/TARB50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/tarb/TARB00AP.mp3"
+}

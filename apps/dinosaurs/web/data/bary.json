@@ -1,0 +1,305 @@
+{
+  "id": "bary",
+  "code": "BARY",
+  "name": "Baryonyx",
+  "category": "dinosaur",
+  "scientificName": "Baryonyx walkeri",
+  "needsScientificVerify": false,
+  "pronunciation": "BARE-ee-ON-iks",
+  "meaning": "Heavy claw",
+  "period": "Early Cretaceous",
+  "diet": "Carnivore",
+  "tagline": "Nicknamed \"Claws\" for its massive 12-inch hand spikes, Baryonyx was one of the few dinosaurs that ate fish.",
+  "hero": {
+    "image": "assets/bary/BARY00AA.webp",
+    "alt": "Baryonyx"
+  },
+  "intro": "\"Claws\" is the nickname given to Baryonyx, one of the \"newest\" dinosaurs. Unearthed in the early 1980s in England, Baryonyx was the most complete example of a theropod dinosaur found in Great Britain in the 20th Century. Scientists speculate that this unusual-looking dinosaur may have used its powerful arms, heavy claws, and crocodile jaws to snag fish for dinner.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Europe"
+    },
+    {
+      "label": "Time Period",
+      "value": "Early Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Heavy claw"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Theropod"
+    },
+    {
+      "label": "Length",
+      "value": "10m (33ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "2 tons"
+    }
+  ],
+  "topics": [
+    {
+      "id": "two-legs-or-four",
+      "title": "Two Legs or Four?",
+      "image": "assets/bary/BARY01PU.webp",
+      "text": "Two stout legs were strong enough to carry Baryonyx's weight, but its arms were more robust than those usually found on meat-eaters.  Perhaps it used both its legs and arms when standing still or walking slowly, and used only two legs when moving quickly."
+    },
+    {
+      "id": "unusual-head",
+      "title": "Unusual Head",
+      "image": "assets/bary/BARY02PU.webp",
+      "text": "While dinosaurs like Allosaurus and Tyrannosaurus rex had short, deep heads, Baryonyx's head was quite different.  It was long and flat with a small lump on top.  A long, very fragile-looking lower jaw gave it an unusual, puzzling shape."
+    },
+    {
+      "id": "magnificent-claws",
+      "title": "Magnificent Claws",
+      "image": "assets/bary/BARY03PU.webp",
+      "text": "As its nickname suggests, Baryonyx is most famous for its bizarre clawed hands.",
+      "captions": [
+        {
+          "label": "Two claws are better than one",
+          "text": "Scientists think Baryonyx had at least two claws, with the biggest claws on the inside \"finger\" of each hand."
+        },
+        {
+          "label": "Fishing tackle?",
+          "text": "The remarkable size and shape of its claws gave Baryonyx the nickname of \"Claws.\" This huge claw bone measures twelve inches and would have been an effective harpoon for Baryonyx when fishing for its dinner."
+        }
+      ]
+    },
+    {
+      "id": "skeleton",
+      "title": "Skeleton",
+      "image": "assets/bary/BARY04PU.webp",
+      "text": "This shows scientists' best guess as to what the complete skeleton of Baryonyx looked like."
+    },
+    {
+      "id": "jigsaw-puzzle",
+      "title": "Jigsaw Puzzle",
+      "image": "assets/bary/BARY05PU.webp",
+      "text": "Putting a dinosaur together from fossil bones is a lot like putting together a jigsaw puzzle in which some of the pieces are missing.",
+      "captions": [
+        {
+          "label": "Skeleton jigsaw",
+          "text": "Less than half of Baryonyx's skeleton was found, as shown here.  Some of its bones may not have been fossilized, while others have been destroyed.  What remains is a jigsaw puzzle of pieces."
+        },
+        {
+          "label": "Clues and guesswork",
+          "text": "Because the bones on one side of a skeleton should match those on the other, a copy or model of existing bones can be made.  Only a few of Baryonyx's tail bones exist, but these are enough for scientists to build a replica."
+        }
+      ]
+    },
+    {
+      "id": "tail-to-nose",
+      "title": "Tail to Nose",
+      "image": "assets/bary/BARY06PU.webp",
+      "text": "From its nose to the tip of its tail, Baryonyx was more than thirty feet long.  That's about as long as two automobiles parked end-to-end.  Its curved neck and muscular body were similar to other large meat-eaters.  A few vertebrae and lower spines from the tail are all we have to show that the tail was used to balance the body."
+    },
+    {
+      "id": "crocodile-smile",
+      "title": "Crocodile Smile",
+      "image": "assets/bary/BARY07PU.webp",
+      "text": "Thirty-two sharp, saw-edged teeth lined each side of Baryonyx's lower jaw, and there were possibly as many in the upper jaw.  The number of teeth and the curiously curved line of Baryonyx's mouth are very similar to those of a crocodile, another reptile well designed for fishing.",
+      "captions": [
+        {
+          "label": "Crocodile teeth",
+          "text": "Crocodiles have long jaws lined with many teeth ending at the snout in a wide, toothy fan.  Crocodile teeth are sharply pointed, but have no cutting edge.  Instead of biting, crocodiles use their teeth to clamp on to slippery prey.  After the prey is subdued, the crocodiles then twist off large chunks of flesh or gulp their victims down whole."
+        }
+      ]
+    },
+    {
+      "id": "pillar-legs",
+      "title": "Pillar Legs",
+      "image": "assets/bary/BARY08PU.webp",
+      "text": "Baryonyx's legs were built like pillars to support its weight.  Walking on two legs, Baryonyx would have stood almost thirteen and a half feet tall.  Like other meat-eating dinosaurs, it was probably able to break into a run over short distances."
+    },
+    {
+      "id": "in-death-throes",
+      "title": "In Death Throes",
+      "image": "assets/bary/BARY09PU.webp",
+      "text": "Baryonyx is shown here as it looked after it died.  It sank to the bottom of a lake, where it gradually became fossilized.  Such a realistic model shows how the skills of the scientist and model-makers can be brought together to great effect.  The way that the dinosaur was lying was worked out from the position in which the bones were found."
+    },
+    {
+      "id": "bones-bones-bones",
+      "title": "Bones, Bones, Bones",
+      "image": "assets/bary/BARY10PU.webp",
+      "text": "The claw bone was the first fossil of Baryonyx to be found.  It was discovered by an amateur collector named Bill Walker, and although the dinosaur is popularly known as \"Claws,\" its full name is Baryonyx walkeri in honor of its discoverer.",
+      "captions": [
+        {
+          "label": "Neck bone",
+          "text": "This neck bone also belonged to Baryonyx.  Because it has a complicated shape and was encased in very hard rock, it took a long time to extract from its burial site.  The faint scratches that can be seen show where rock remains to be cleared."
+        }
+      ]
+    },
+    {
+      "id": "fish-eater",
+      "title": "Fish-Eater",
+      "image": "assets/bary/BARY11PU.webp",
+      "text": "Baryonyx was unusual among dinosaurs—it was a fish-eater!  Experts believe this because Baryonyx had a head like a fish-eating crocodile, and scales of the fish Lepidotes were found in its rib cage.  Baryonyx may have fished, as shown here, watching for telltale ripples and bubbles, ready to harpoon a passing fish with its long, curved claws."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Rhamphorhynchus",
+      "to": "rham"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/bary/BARY00AA.webp",
+        "hotspots": [
+          {
+            "label": "Bones, bones, bones",
+            "to": "bones-bones-bones",
+            "x": 14,
+            "y": 42,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Skeleton",
+            "to": "skeleton",
+            "x": 6,
+            "y": 52,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "In death throes",
+            "to": "in-death-throes",
+            "x": 6,
+            "y": 62,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Tail to nose",
+            "to": "tail-to-nose",
+            "x": 4,
+            "y": 72,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Two legs or four?",
+            "to": "two-legs-or-four",
+            "x": 28,
+            "y": 77,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Pillar legs",
+            "to": "pillar-legs",
+            "x": 23,
+            "y": 84,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Jigsaw puzzle",
+            "to": "jigsaw-puzzle",
+            "x": 55,
+            "y": 77,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Unusual head",
+            "to": "unusual-head",
+            "x": 82,
+            "y": 25,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Crocodile smile",
+            "to": "crocodile-smile",
+            "x": 82,
+            "y": 42,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Fish-eater",
+            "to": "fish-eater",
+            "x": 77,
+            "y": 55,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Magnificent claws",
+            "to": "magnificent-claws",
+            "x": 72,
+            "y": 80,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "two-legs-or-four": {
+        "image": "assets/bary/BARY01PU.webp",
+        "back": "main"
+      },
+      "unusual-head": {
+        "image": "assets/bary/BARY02PU.webp",
+        "back": "main"
+      },
+      "magnificent-claws": {
+        "image": "assets/bary/BARY03PU.webp",
+        "back": "main"
+      },
+      "skeleton": {
+        "image": "assets/bary/BARY04PU.webp",
+        "back": "main"
+      },
+      "jigsaw-puzzle": {
+        "image": "assets/bary/BARY05PU.webp",
+        "back": "main"
+      },
+      "tail-to-nose": {
+        "image": "assets/bary/BARY06PU.webp",
+        "back": "main"
+      },
+      "crocodile-smile": {
+        "image": "assets/bary/BARY07PU.webp",
+        "back": "main"
+      },
+      "pillar-legs": {
+        "image": "assets/bary/BARY08PU.webp",
+        "back": "main"
+      },
+      "in-death-throes": {
+        "image": "assets/bary/BARY09PU.webp",
+        "back": "main"
+      },
+      "bones-bones-bones": {
+        "image": "assets/bary/BARY10PU.webp",
+        "back": "main"
+      },
+      "fish-eater": {
+        "image": "assets/bary/BARY11PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/bary/BARY50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/bary/BARY00AP.mp3"
+}

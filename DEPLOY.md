@@ -6,6 +6,7 @@ This repo is a **pnpm monorepo** with one Cloudflare Pages project per app:
 |-----|---------|----------|--------|
 | Dangerous Creatures | `dangerous-creatures` | `apps/dangerous-creatures/` | `apps/dangerous-creatures/dist` |
 | Oceans | `oceans` | `apps/oceans/` | `apps/oceans/dist` |
+| Dinosaurs | `dinosaurs` | `apps/dinosaurs/` | `apps/dinosaurs/dist` |
 
 Both are static Astro sites. Each app's `build` script runs `astro build` and copies its
 committed `web/assets` (media) + `web/data` (JSON) into `dist/`.
@@ -48,6 +49,17 @@ Cloudflare dashboard → the existing **dangerous-creatures** Pages project → 
 - **Framework preset:** None
 - **Build command:** `pnpm install && pnpm run oceans:build`
 - **Build output directory:** `apps/oceans/dist`
+- **Root directory:** `/`
+
+## Dinosaurs project (NEW)
+
+**Workers & Pages → Create → Pages → Connect to Git** → same repo:
+
+- **Production branch:** `main` (or deploy from the `dinosaurs` branch first to preview)
+- **Project name:** `dinosaurs` → gives `https://dinosaurs.pages.dev`
+- **Framework preset:** None
+- **Build command:** `pnpm install && pnpm run dino:build`
+- **Build output directory:** `apps/dinosaurs/dist`
 - **Root directory:** `/`
 
 ---

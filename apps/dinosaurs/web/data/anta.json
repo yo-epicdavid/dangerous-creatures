@@ -1,0 +1,119 @@
+{
+  "id": "anta",
+  "code": "ANTA",
+  "name": "Antarctica Expedition",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "ant-ARK-tih-kuh ex-peh-DIH-shun",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Dinosaurs on ice — Antarctica holds prehistoric secrets frozen beneath glaciers and snow.",
+  "hero": {
+    "image": "assets/anta/ANTA00AA.webp",
+    "alt": "Antarctica Expedition"
+  },
+  "intro": "Imagine digging for dinosaurs among the glaciers and ice sheets of Antarctica!  Only a handful of dinosaurs have been found so far in the few exposed rock formations on this frigid continent.  There are probably many more remains of prehistoric creatures hidden beneath the ice and snow.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "anonymous-ankylosaur",
+      "title": "Anonymous Ankylosaur",
+      "image": "assets/anta/ANTA01PU.webp",
+      "text": "In 1988, scientists found the first Antarctic dinosaur in the area of James Ross Island.  The dinosaur has not yet been given a name, but it is known to be an ankylosaur, or armored dinosaur."
+    },
+    {
+      "id": "connected-continents",
+      "title": "Connected Continents",
+      "image": "assets/anta/ANTA02PU.webp",
+      "text": "The dinosaurs found on Antarctica are similar to some of the dinosaur groups found in Australia.  These two continents were originally joined together, and did not separate until about 40 million years ago.",
+      "captions": [
+        {
+          "label": "Outline of modern-day Antarctica",
+          "text": "Outline of modern-day Antarctica"
+        },
+        {
+          "label": "Outline of modern-day Australia",
+          "text": "Outline of modern-day Australia"
+        }
+      ]
+    },
+    {
+      "id": "nameless-neighbor",
+      "title": "Nameless Neighbor",
+      "image": "assets/anta/ANTA03PU.webp",
+      "text": "A second dinosaur was found near James Ross Island in 1989.  Scientists at London's Natural History Museum have been separating the dinosaur bones from the surrounding rock, and they have determined that the skeleton belongs to a relative of Hypsilophodon, a small, swift dinosaur."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What is Paleontology?",
+      "to": "pale"
+    },
+    {
+      "label": "How to Recognize Ankylosaurs",
+      "to": "hank"
+    },
+    {
+      "label": "The Shifting Earth",
+      "to": "shft"
+    },
+    {
+      "label": "Dryosaurus",
+      "to": "dryo"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/anta/ANTA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Anonymous ankylosaur",
+            "to": "anonymous-ankylosaur",
+            "x": 2,
+            "y": 50,
+            "w": 43,
+            "h": 43
+          },
+          {
+            "label": "Connected continents",
+            "to": "connected-continents",
+            "x": 40,
+            "y": 12,
+            "w": 52,
+            "h": 44
+          },
+          {
+            "label": "Nameless neighbor",
+            "to": "nameless-neighbor",
+            "x": 52,
+            "y": 50,
+            "w": 42,
+            "h": 38
+          }
+        ]
+      },
+      "anonymous-ankylosaur": {
+        "image": "assets/anta/ANTA01PU.webp",
+        "back": "main"
+      },
+      "connected-continents": {
+        "image": "assets/anta/ANTA02PU.webp",
+        "back": "main"
+      },
+      "nameless-neighbor": {
+        "image": "assets/anta/ANTA03PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/anta/ANTA00AP.mp3",
+  "narration": "assets/anta/ANTA00SA.mp3"
+}

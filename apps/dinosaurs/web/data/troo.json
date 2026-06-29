@@ -1,0 +1,131 @@
+{
+  "id": "troo",
+  "code": "TROO",
+  "name": "Troodon",
+  "category": "dinosaur",
+  "scientificName": "Troodon",
+  "needsScientificVerify": false,
+  "pronunciation": "TROH-oh-don",
+  "meaning": "Wounding tooth",
+  "period": "Late Cretaceous",
+  "diet": "Carnivore",
+  "tagline": "One of the smartest dinosaurs to ever stalk the night.",
+  "hero": {
+    "image": "assets/troo/TROO00AA.webp",
+    "alt": "Troodon"
+  },
+  "intro": "Troodon was one of the smartest dinosaurs, based on the size of its brain in comparison to its body. Sharp sickle-shaped claws on each foot as well as three clawed fingers on each hand helped this small carnivorous dinosaur capture and hold its victims. Troodon's large eyes made it a good hunter by day or by night.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Wounding tooth"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Theropod"
+    },
+    {
+      "label": "Length",
+      "value": "1.8m (6ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "120 lbs."
+    }
+  ],
+  "topics": [
+    {
+      "id": "petite-among-predators",
+      "title": "Petite Among Predators",
+      "image": "assets/troo/TROO01PU.webp",
+      "text": "Troodon was among the smaller of the meat-eating dinosaurs—under six feet long from its nose to the tip of its tail. Look how small it is compared to a human! Many of the small theropod dinosaurs may have hunted in packs.",
+      "captions": [
+        {
+          "label": "Large carnivores",
+          "text": "Allosaurus and Tyrannosaurus rex were among the largest of the meat-eating dinosaurs and they may have preyed on creatures even larger than themselves. Skeletons of Camarasaurus, a giant sauropod, have been found alongside remains of Allosaurus, suggesting the massive herbivore may have been Allosaurus's last meal."
+        }
+      ]
+    },
+    {
+      "id": "sharp-eyes-sharp-mind-sharp-teeth",
+      "title": "Sharp Eyes, Sharp Mind, Sharp Teeth",
+      "image": "assets/troo/TROO02PU.webp",
+      "text": "Troodon's fossil skulls show that the little dinosaur had expansive eye sockets for large eyes and space for a big brain. This probably means Troodon was quick to spot both prey and predators.",
+      "captions": [
+        {
+          "label": "Named for a tooth",
+          "text": "For many years, Troodon was known by its sharp, serrated teeth, which is why this little dinosaur carries the name of \"wounding tooth.\" Troodon had an unusual variety of teeth besides its \"wound tooth,\" teeth that were long mistaken for those of other dinosaurs."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Smallest Dinosaurs",
+      "to": "smal"
+    },
+    {
+      "label": "Allosaurus",
+      "to": "allo"
+    },
+    {
+      "label": "Teeth of Meat-eaters",
+      "to": "mete"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/troo/TROO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Sharp eyes, sharp mind, sharp teeth",
+            "to": "sharp-eyes-sharp-mind-sharp-teeth",
+            "x": 5,
+            "y": 53,
+            "w": 22,
+            "h": 12
+          },
+          {
+            "label": "Petite among predators",
+            "to": "petite-among-predators",
+            "x": 55,
+            "y": 63,
+            "w": 23,
+            "h": 7
+          }
+        ]
+      },
+      "petite-among-predators": {
+        "image": "assets/troo/TROO01PU.webp",
+        "back": "main"
+      },
+      "sharp-eyes-sharp-mind-sharp-teeth": {
+        "image": "assets/troo/TROO02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/troo/TROO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/troo/TROO00AP.mp3"
+}

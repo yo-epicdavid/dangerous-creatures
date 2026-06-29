@@ -1,0 +1,99 @@
+{
+  "id": "dimo",
+  "code": "DIMO",
+  "name": "Dimorphodon",
+  "category": "creature",
+  "scientificName": "Dimorphodon",
+  "needsScientificVerify": false,
+  "pronunciation": "die-MOR-fuh-don",
+  "meaning": "Two-form teeth",
+  "period": "Early Jurassic",
+  "diet": "Carnivore",
+  "tagline": "Was this ancient flier more at home waddling on the ground than soaring through the sky?",
+  "hero": {
+    "image": "assets/dimo/DIMO00AA.webp",
+    "alt": "Dimorphodon"
+  },
+  "intro": "Paleontologists disagree about whether Dimorphodon spent much time in the air. This pterosaur had a large head and a sturdy body that may have been better suited for waddling along the ground or for clinging like a bat to cliff tops and branches.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Europe"
+    },
+    {
+      "label": "Time Period",
+      "value": "Early Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Two-form teeth"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Pterosaur"
+    },
+    {
+      "label": "Length",
+      "value": "1.2m (4ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "prehistoric-puffin",
+      "title": "Prehistoric Puffin?",
+      "image": "assets/dimo/DIMO01PU.webp",
+      "text": "Dimorphodon's head looked rather like that of a modern sea-bird, the puffin. Some scientists guess that Dimorphodon may have led an ocean-fishing life similar to that of the puffin.",
+      "captions": [
+        {
+          "label": "Puffin life",
+          "text": "The large heads of puffins make them somewhat awkward on land and in the air, but they are graceful swimmers."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Reptiles of the Air",
+      "to": "rair"
+    },
+    {
+      "label": "Sordes",
+      "to": "sord"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/dimo/DIMO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Prehistoric puffin?",
+            "to": "prehistoric-puffin",
+            "x": 9,
+            "y": 55,
+            "w": 17,
+            "h": 3
+          }
+        ]
+      },
+      "prehistoric-puffin": {
+        "image": "assets/dimo/DIMO01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/dimo/DIMO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/dimo/DIMO00AP.mp3"
+}

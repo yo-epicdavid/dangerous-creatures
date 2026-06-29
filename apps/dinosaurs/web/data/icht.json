@@ -1,0 +1,265 @@
+{
+  "id": "icht",
+  "code": "ICHT",
+  "name": "Ichthyosaurus",
+  "category": "creature",
+  "scientificName": "Ichthyosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "ICK-thee-oh-SOR-us",
+  "meaning": "Fish lizard",
+  "period": "Jurassic",
+  "diet": "Carnivore",
+  "tagline": "This ancient sea reptile looked so much like a dolphin you would never guess it was a prehistoric giant — and it lived before most dinosaurs even existed!",
+  "hero": {
+    "image": "assets/icht/ICHT00AA.webp",
+    "alt": "Ichthyosaurus"
+  },
+  "intro": "Ichthyosaurus was not a dinosaur, but a swimming reptile that lived in the sea. Like other reptiles, Ichthyosaurus was an air-breather, so it had to surface frequently to catch its breath. Because many fossils of it have been found, Ichthyosaurus is one of the best-known marine reptiles from the Age of Dinosaurs.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Europe, N. America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Fish lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Ichthyosaur"
+    },
+    {
+      "label": "Length",
+      "value": "9m (30ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "dolphin-double",
+      "title": "Dolphin Double",
+      "image": "assets/icht/ICHT01PU.webp",
+      "text": "With its streamlined body shape, flippers, and tail, Ichthyosaurus was admirably suited to life in the water—just like today's dolphin. However, the dolphins you see today are mammals, while Ichthyosaurus was a reptile. Today's dolphins would be dwarfed by this prehistoric sea giant. Some ichthyosaurs grew up to thirty feet in length!"
+    },
+    {
+      "id": "acrobats-of-the-sea",
+      "title": "Acrobats of the Sea",
+      "image": "assets/icht/ICHT02PU.webp",
+      "text": "With their dolphin-like bodies and flippers, the ichthyosaurs were the acrobats of the ancient seas. They could speed through waves, diving after their prey while using their \"paddles\" as rudders for steering.",
+      "captions": [
+        {
+          "label": "Preserved paddle",
+          "text": "Here's a fine fossil of an ichthyosaur's flipper. Ichthyosaurus used its flippers like paddles to propel itself through the water."
+        }
+      ]
+    },
+    {
+      "id": "older-than-dinosaurs",
+      "title": "Older than Dinosaurs",
+      "image": "assets/icht/ICHT03PU.webp",
+      "text": "Ichthyosaurs existed from the Triassic period, before most dinosaurs. These swimming reptiles were especially common in the Jurassic period and finally died out in the Late Cretaceous, just before the end of the Age of Dinosaurs.",
+      "captions": [
+        {
+          "label": "Ichthyosaurus",
+          "text": "appeared approximately 300 million years ago, during the Paleozoic era."
+        },
+        {
+          "label": "Staurikosaurus",
+          "text": "was one of the first dinosaurs, living approximately 225 million years ago."
+        },
+        {
+          "label": "Sauropods",
+          "text": "were common in the Jurassic period."
+        },
+        {
+          "label": "Ceratopsians",
+          "text": "died out with the last of the dinosaurs, about 65 million years ago."
+        }
+      ]
+    },
+    {
+      "id": "life-in-the-seas",
+      "title": "Life in the Seas",
+      "image": "assets/icht/ICHT04PU.webp",
+      "text": "In prehistoric times, a wide variety of marine reptiles—speedy ichthyosaurs, long-necked plesiosaurs and pliosaurs, fierce mosasaurs, and giant turtles—shared the seas.",
+      "captions": [
+        {
+          "label": "Macroplata",
+          "text": "This pliosaur used its four powerful paddles to propel it underwater. These marine reptiles flew through the sea like penguins."
+        },
+        {
+          "label": "Archelon",
+          "text": "Today's turtles are much like their prehistoric ancestors, which lived more than 220 million years ago."
+        },
+        {
+          "label": "Mosasaurus",
+          "text": "This marine lizard grew to almost thirty feet in length, making it the longest lizard known on Earth."
+        }
+      ]
+    },
+    {
+      "id": "live-babies",
+      "title": "Live Babies",
+      "image": "assets/icht/ICHT05PU.webp",
+      "text": "As a rule, reptiles and dinosaurs laid eggs. These dinosaur eggs were laid by Protoceratops. Ichthyosaurs were an exception to this rule.",
+      "captions": [
+        {
+          "label": "Birth at sea",
+          "text": "Although ichthyosaurs were reptiles, they did not lay eggs like a reptile or a dinosaur, but instead gave birth to live young at sea. Fossil ichthyosaurs have been found with the skeletons of young inside them or just outside the back end of the body, suggesting that they gave birth like dolphins and whales do today."
+        }
+      ]
+    },
+    {
+      "id": "fine-fossils",
+      "title": "Fine Fossils",
+      "image": "assets/icht/ICHT06PU.webp",
+      "text": "Many fine fossils of ichthyosaurs have been found. This fine Jurassic specimen shows an outline of the soft tissues as well as all the bones of the skeleton. The neck vertebrae were close together so that the head ran smoothly into the body. This skeletal structure is typical of fast-swimming predators and is also seen in modern dolphins.",
+      "captions": [
+        {
+          "label": "Unusual tails",
+          "text": "Ichthyosaurs swam by moving their powerful tails. When scientists first discovered ichthyosaur skeletons, they thought that the skeletons had broken tails, but after further study, it was determined that ichthyosaur backbones naturally curved downward into the lower part of the tail fin. Like many modern aquatic animals, ichthyosaurs used their dorsal fins and paddles for steering and stability."
+        }
+      ]
+    },
+    {
+      "id": "jaws-packed-with-teeth",
+      "title": "Jaws Packed with Teeth",
+      "image": "assets/icht/ICHT07PU.webp",
+      "text": "The long jaws of Ichthyosaurus were crammed with short, sharp teeth. Ichthyosaurs had large eyes, and paleontologists think that the ring of bones around the eye sockets improved their focusing ability. Their nostrils were far back on the top of the skull, a characteristic shared with modern dolphins and whales."
+    },
+    {
+      "id": "famous-female-fossil-hunter",
+      "title": "Famous Female Fossil Hunter",
+      "image": "assets/icht/ICHT08PU.webp",
+      "text": "Mary Anning (1799-1847) is famous for the fossils she collected close to her home in Lyme Regis on the south coast of England. The cliffs there contain abundant fossils of animals that lived in the sea in Jurassic times. Between 1810 and 1812 Mary and her brother excavated a complete ichthyosaur (at the time thought to be a crocodile) which they sold for £23, a large sum of money in those days."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Reptiles of the Sea",
+      "to": "rsea"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/icht/ICHT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Dolphin double",
+            "to": "dolphin-double",
+            "x": 19,
+            "y": 42,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Famous female fossil hunter",
+            "to": "famous-female-fossil-hunter",
+            "x": 10,
+            "y": 52,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Acrobats of the sea",
+            "to": "acrobats-of-the-sea",
+            "x": 8,
+            "y": 61,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Fine fossils",
+            "to": "fine-fossils",
+            "x": 9,
+            "y": 74,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Live babies",
+            "to": "live-babies",
+            "x": 73,
+            "y": 42,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Life in the seas",
+            "to": "life-in-the-seas",
+            "x": 71,
+            "y": 52,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Older than dinosaurs",
+            "to": "older-than-dinosaurs",
+            "x": 68,
+            "y": 61,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Jaws packed with teeth",
+            "to": "jaws-packed-with-teeth",
+            "x": 64,
+            "y": 74,
+            "w": 25,
+            "h": 5
+          }
+        ]
+      },
+      "dolphin-double": {
+        "image": "assets/icht/ICHT01PU.webp",
+        "back": "main"
+      },
+      "acrobats-of-the-sea": {
+        "image": "assets/icht/ICHT02PU.webp",
+        "back": "main"
+      },
+      "older-than-dinosaurs": {
+        "image": "assets/icht/ICHT03PU.webp",
+        "back": "main"
+      },
+      "life-in-the-seas": {
+        "image": "assets/icht/ICHT04PU.webp",
+        "back": "main"
+      },
+      "live-babies": {
+        "image": "assets/icht/ICHT05PU.webp",
+        "back": "main"
+      },
+      "fine-fossils": {
+        "image": "assets/icht/ICHT06PU.webp",
+        "back": "main"
+      },
+      "jaws-packed-with-teeth": {
+        "image": "assets/icht/ICHT07PU.webp",
+        "back": "main"
+      },
+      "famous-female-fossil-hunter": {
+        "image": "assets/icht/ICHT08PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/icht/ICHT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/icht/ICHT00AP.mp3"
+}

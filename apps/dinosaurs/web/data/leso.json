@@ -1,0 +1,131 @@
+{
+  "id": "leso",
+  "code": "LESO",
+  "name": "Lesothosaurus",
+  "category": "dinosaur",
+  "scientificName": "Lesothosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "le-SO-tho-SOR-us",
+  "meaning": "Lesotho lizard",
+  "period": "Early Jurassic",
+  "diet": "Herbivore",
+  "tagline": "Tiny but lightning-fast, this little plant-eater was one of the smallest dinosaurs ever discovered.",
+  "hero": {
+    "image": "assets/leso/LESO00AA.webp",
+    "alt": "Lesothosaurus"
+  },
+  "intro": "Lesothosaurus was a tiny, agile plant-eater that ran on two legs. The red color of the rocks where Lesothosaurus was found may mean that the climate was hot and dry during the time it lived—200 million years ago. Some scientists think that this dinosaur may have rested during dry seasons, when food was scarce.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Africa"
+    },
+    {
+      "label": "Time Period",
+      "value": "Early Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Lesotho lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ornithopod"
+    },
+    {
+      "label": "Length",
+      "value": "90cm(3ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "one-of-the-smallest-dinosaurs",
+      "title": "One of the Smallest Dinosaurs",
+      "image": "assets/leso/LESO01PU.webp",
+      "text": "The dinosaurs shown here lived at different times and in different places, but they have one thing in common: they are among the smallest dinosaurs discovered so far.",
+      "captions": [
+        {
+          "label": "Saltopus",
+          "text": "This dinosaur's name means \"leaping foot\" and it was only about two feet long."
+        },
+        {
+          "label": "Lesothosaurus",
+          "text": "At three feet long, this dinosaur is the giant of the group."
+        },
+        {
+          "label": "Compsognathus",
+          "text": "This fleet-footed dinosaur was often no larger than a chicken."
+        },
+        {
+          "label": "Twin Terrors",
+          "text": "Saltopus and Compsognathus were both meat-eaters. Lesothosaurus probably fed on plants."
+        }
+      ]
+    },
+    {
+      "id": "leaf-hunter",
+      "title": "Leaf Hunter?",
+      "image": "assets/leso/LESO02PU.webp",
+      "text": "Lesothosaurus had flat, leaf-shaped teeth and a beak at the front of its mouth. Such a mouth and teeth are built for chewing vegetation, not for shredding meat.",
+      "captions": [
+        {
+          "label": "Running from trouble",
+          "text": "Lesothosaurus surely relied on its size and speed for defense. A little dinosaur like this must have looked like a tasty meal to a large carnivore."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Heterodontosaurus",
+      "to": "hete"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/leso/LESO00AA.webp",
+        "hotspots": [
+          {
+            "label": "One of the smallest dinosaurs",
+            "to": "one-of-the-smallest-dinosaurs",
+            "x": 12,
+            "y": 56,
+            "w": 35,
+            "h": 5
+          },
+          {
+            "label": "Leaf hunter?",
+            "to": "leaf-hunter",
+            "x": 80,
+            "y": 67,
+            "w": 17,
+            "h": 4
+          }
+        ]
+      },
+      "one-of-the-smallest-dinosaurs": {
+        "image": "assets/leso/LESO01PU.webp",
+        "back": "main"
+      },
+      "leaf-hunter": {
+        "image": "assets/leso/LESO02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/leso/LESO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/leso/LESO00AP.mp3"
+}

@@ -1,0 +1,135 @@
+{
+  "id": "macr",
+  "code": "MACR",
+  "name": "Macroplata",
+  "category": "creature",
+  "scientificName": "Macroplata",
+  "needsScientificVerify": false,
+  "pronunciation": "mak-roh-PLAH-tah",
+  "meaning": "Large plates",
+  "period": "Early Jurassic",
+  "diet": "Carnivore",
+  "tagline": "Like an underwater penguin, this sea-going carnivore used its flippers to fly through the water.",
+  "hero": {
+    "image": "assets/macr/MACR00AA.webp",
+    "alt": "Macroplata"
+  },
+  "intro": "Macroplata flew through the water like a penguin. A carnivorous pliosaur that lived during the Early Jurassic period, Macroplata had four powerful paddle-like fins that moved up and down, speeding its sleek body through the waves. Pliosaurs and other sea-dwelling reptiles were plentiful during the Age of Dinosaurs, but they all became extinct along with the dinosaurs at the end of the Cretaceous period, around 65 million years ago.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Europe"
+    },
+    {
+      "label": "Time Period",
+      "value": "Early Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Large plates"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Pliosaur"
+    },
+    {
+      "label": "Length",
+      "value": "4.5m (15ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "pliosaur-penguin",
+      "title": "Pliosaur Penguin",
+      "image": "assets/macr/MACR01PU.webp",
+      "text": "Macroplata had four powerful paddles which it could move up and down. Instead of rowing through the water, this marine reptile flew through the seas like a penguin.",
+      "captions": [
+        {
+          "label": "Shellfish seeker",
+          "text": "Experts have found fossil ammonite shells with holes punched in them by sharp teeth such as those of pliosaurus. Based on this information, we now believe that ammonites were a favorite food of pliosaurs like Macroplata."
+        }
+      ]
+    },
+    {
+      "id": "marine-relatives",
+      "title": "Marine Relatives",
+      "image": "assets/macr/MACR02PU.webp",
+      "text": "Macroplata is shown here with several of the other creatures that shared its watery world. Pliosaurs, like Macroplata, have longer heads and shorter necks than plesiosaurs, another type of marine reptile that lived at the same time.",
+      "captions": [
+        {
+          "label": "Peloneustes",
+          "text": "This pliosaur must have looked like a shrimp compared to its aquatic cousins. Peloneustes measured only ten feet from its nose to the tip of its tail."
+        },
+        {
+          "label": "Kronosaurus",
+          "text": "At up to fifty-six feet long, this pliosaur was truly a marine giant."
+        },
+        {
+          "label": "A plesiosaur",
+          "text": "Muraenosaurus is a plesiosaur. Notice that it has a much longer neck and smaller head than either Kronosaurus or Peloneustes."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Ichthyosaurus",
+      "to": "icht"
+    },
+    {
+      "label": "Ammonite",
+      "to": "ammo"
+    },
+    {
+      "label": "Plesiosaurus",
+      "to": "ples"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/macr/MACR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Pliosaur penguin",
+            "to": "pliosaur-penguin",
+            "x": 60,
+            "y": 54,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Marine relatives",
+            "to": "marine-relatives",
+            "x": 59,
+            "y": 76,
+            "w": 20,
+            "h": 5
+          }
+        ]
+      },
+      "pliosaur-penguin": {
+        "image": "assets/macr/MACR01PU.webp",
+        "back": "main"
+      },
+      "marine-relatives": {
+        "image": "assets/macr/MACR02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/macr/MACR50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/macr/MACR00AP.mp3"
+}

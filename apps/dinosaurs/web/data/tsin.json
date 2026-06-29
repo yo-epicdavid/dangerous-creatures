@@ -1,0 +1,115 @@
+{
+  "id": "tsin",
+  "code": "TSIN",
+  "name": "Tsintaosaurus",
+  "category": "dinosaur",
+  "scientificName": "Tsintaosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "sin-TAO-sor-us",
+  "meaning": "Tsintao lizard",
+  "period": "Late Cretaceous",
+  "diet": "Herbivore",
+  "tagline": "The dinosaur unicorn with a hollow horn that may have made it louder — or more colorful.",
+  "hero": {
+    "image": "assets/tsin/TSIN00AA.webp",
+    "alt": "Tsintaosaurus"
+  },
+  "intro": "With a long narrow crest that stuck up right between its eyes, Tsintaosaurus looked like a dinosaur unicorn! The tubular crest was hollow and may have been a device to make the dinosaur's calls louder, or maybe it supported a flap of skin that Tsintaosaurus could inflate. Whatever its purpose, this unusual crest made it easy to distinguish this dinosaur from others.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Asia"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Tsintao lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ornithopod"
+    }
+  ],
+  "topics": [
+    {
+      "id": "conspicuous-crests",
+      "title": "Conspicuous Crests",
+      "image": "assets/tsin/TSIN01PU.webp",
+      "text": "Several dinosaurs other than Tsintaosaurus had unusual crests or horns on their heads. Scientists have developed multiple theories about the use of these devices. Probably the most common theories are that the crests served to amplify sounds; another is that the crests were simply an attention-getting device to attract mates.",
+      "captions": [
+        {
+          "label": "Can you hear me?",
+          "text": "Lambeosaurus was one of the largest helmeted hadrosaurs, about forty-nine feet long! Like Tsintaosaurus, it had a strange crest atop its head. The forward-pointing part of the crest enclosed hollow tubes which passed down to the dinosaur's nostrils, and presumably served to make its voice louder."
+        }
+      ]
+    },
+    {
+      "id": "hadrosaur-eating-habits",
+      "title": "Hadrosaur Eating Habits",
+      "image": "assets/tsin/TSIN02PU.webp",
+      "text": "One fossil specimen of a hadrosaur had pine needles and twigs preserved in its stomach area, so it is presumed that these woody plants were at least part of a hadrosaur's diet. Tsintaosaurus may also have browsed on magnolias and other flowering plants.",
+      "captions": [
+        {
+          "label": "Survivors",
+          "text": "Although dinosaurs are extinct, some prehistoric plants–ferns, pine trees, magnolias, and horsetails–have survived the centuries."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Shantungosaurus",
+      "to": "shan"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/tsin/TSIN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Conspicuous crests",
+            "to": "conspicuous-crests",
+            "x": 63,
+            "y": 40,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Hadrosaur eating habits",
+            "to": "hadrosaur-eating-habits",
+            "x": 60,
+            "y": 52,
+            "w": 30,
+            "h": 6
+          }
+        ]
+      },
+      "conspicuous-crests": {
+        "image": "assets/tsin/TSIN01PU.webp",
+        "back": "main"
+      },
+      "hadrosaur-eating-habits": {
+        "image": "assets/tsin/TSIN02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/tsin/TSIN50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/tsin/TSIN00AP.mp3"
+}

@@ -1,0 +1,201 @@
+{
+  "id": "jurr",
+  "code": "JURR",
+  "name": "The Jurassic Period",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "joo-RAS-ik PEER-ee-ud",
+  "meaning": "",
+  "period": "Jurassic",
+  "diet": "",
+  "tagline": "The age when dinosaurs ruled a lush, thriving Earth.",
+  "hero": {
+    "image": "assets/jurr/JURR00AA.webp",
+    "alt": "The Jurassic Period"
+  },
+  "intro": "During the Jurassic period, the huge landmasses broke into smaller continents, and the invasion of shallow seas brought rain to areas that had formerly been deserts. In some areas the climate was warm and damp, and vegetation grew lush. In this environment of abundance, dinosaurs thrived, branching out into many new species. Dinosaurs became the ruling animals on land.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "lush-landscape",
+      "title": "Lush Landscape",
+      "image": "assets/jurr/JURR01PU.webp",
+      "text": "Just as in the preceding Triassic period, ferns and horsetails served as common ground cover during the Jurassic period, and as food for many of the smaller dinosaurs. Huge forests of conifers and groves of cycads flourished, and long-necked plant-eaters such as the sauropods evolved to take advantage of this treetop forage."
+    },
+    {
+      "id": "wings-and-flippers",
+      "title": "Wings and Flippers",
+      "image": "assets/jurr/JURR02PU.webp",
+      "text": "Although dinosaurs took over the land during the Jurassic period, other types of reptiles existed as well. A variety of swimming reptiles ruled the shallow seas, and flying reptiles called pterosaurs flapped through the skies on their leathery wings.",
+      "captions": [
+        {
+          "label": "Muraeonosaurus",
+          "text": "Because this plesiosaur had a hard time diving with its air-filled lungs, it swallowed pebbles to increase its weight."
+        },
+        {
+          "label": "Cearadactylus",
+          "text": "This long-headed flier probably fished for a living, using its long teeth to snatch its prey from the surface of the sea."
+        }
+      ]
+    },
+    {
+      "id": "tiny-thief",
+      "title": "Tiny Thief",
+      "image": "assets/jurr/JURR03PU.webp",
+      "text": "Dinosaurs took on many different forms during the Jurassic period. Not all were huge monsters. Some, like Compsognathus, were no bigger than a rooster! Although this dinosaur was petite, it was still a cunning hunter, catching and devouring insects, frogs, and lizards.",
+      "captions": [
+        {
+          "label": "Reptile-eat-reptile world",
+          "text": "Remains of this Bavisaurus lizard have been found inside those of Compsognathus. This suggests that Compsognathus may have eaten this small reptile!"
+        }
+      ]
+    },
+    {
+      "id": "quiet-neighbors",
+      "title": "Quiet Neighbors",
+      "image": "assets/jurr/JURR04PU.webp",
+      "text": "Plants and animals evolve together and nature has a way of \"inventing\" a creature to eat almost every type of vegetation. Thick forests of tall trees flourished in the Jurassic period, so it seems dinosaurs evolved to take advantage of this high-altitude food. The sauropods, a group of giant, long-necked plant-eaters, could even balance on their hind legs and tails to reach the uppermost leaves. Although they were so big that their footsteps must have shaken the ground when they walked, sauropods probably were gentle and non-aggressive."
+    },
+    {
+      "id": "bullies-on-the-block",
+      "title": "Bullies on the Block",
+      "image": "assets/jurr/JURR05PU.webp",
+      "text": "As the numbers and varieties of plant-eating dinosaurs expanded, so did the kinds and numbers of meat-eaters. Giant predators such as Allosaurus and Ceratosaurus could take on even giant sauropods and well-armored stegosaurs or ornithopods.",
+      "captions": [
+        {
+          "label": "Ceratosaurus",
+          "text": "Although this meat-eater was only about half as big as Allosaurus, it still terrorized the plant-eaters in its domain. Like other meat-eaters, Ceratosaurus used its hooked claws to grasp its prey while tearing into the unfortunate victim with its sharp, serrated teeth."
+        },
+        {
+          "label": "Allosaurus",
+          "text": "One of the best known carnivorous dinosaurs found in North America, Allosaurus measured up to forty feet from nose to tail—as long as three cars placed end to end!"
+        }
+      ]
+    },
+    {
+      "id": "survival-of-the-fittest",
+      "title": "Survival of the Fittest",
+      "image": "assets/jurr/JURR06PU.webp",
+      "text": "During this period, plant-eating dinosaurs branched out into many different groups. Not only were there long-necked giants that browsed among the treetops, but also dinosaurs with armor, horns, and plates on their backs. The plated dinosaurs—called stegosaurs—may have been early experiments in solar power. Experts believe that stegosaurs may have used the plates on their backs to absorb heat and warm themselves quickly."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What is a Dinosaur?",
+      "to": "what"
+    },
+    {
+      "label": "Dinosaur Landscape",
+      "to": "dlan"
+    },
+    {
+      "label": "Reptiles of the Air",
+      "to": "rair"
+    },
+    {
+      "label": "Compsognathus",
+      "to": "comp"
+    },
+    {
+      "label": "The Biggest Dinosaurs",
+      "to": "tall"
+    },
+    {
+      "label": "Meat-eaters",
+      "to": "meat"
+    },
+    {
+      "label": "How to Recognize Stegosaurs",
+      "to": "hstg"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/jurr/JURR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Lush landscape",
+            "to": "lush-landscape",
+            "x": 3,
+            "y": 44,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "Quiet neighbors",
+            "to": "quiet-neighbors",
+            "x": 38,
+            "y": 35,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Survival of the fittest",
+            "to": "survival-of-the-fittest",
+            "x": 37,
+            "y": 53,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "Wings and flippers",
+            "to": "wings-and-flippers",
+            "x": 63,
+            "y": 42,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Tiny thief",
+            "to": "tiny-thief",
+            "x": 73,
+            "y": 55,
+            "w": 13,
+            "h": 6
+          },
+          {
+            "label": "Bullies on the block",
+            "to": "bullies-on-the-block",
+            "x": 22,
+            "y": 71,
+            "w": 22,
+            "h": 6
+          }
+        ]
+      },
+      "lush-landscape": {
+        "image": "assets/jurr/JURR01PU.webp",
+        "back": "main"
+      },
+      "wings-and-flippers": {
+        "image": "assets/jurr/JURR02PU.webp",
+        "back": "main"
+      },
+      "tiny-thief": {
+        "image": "assets/jurr/JURR03PU.webp",
+        "back": "main"
+      },
+      "quiet-neighbors": {
+        "image": "assets/jurr/JURR04PU.webp",
+        "back": "main"
+      },
+      "bullies-on-the-block": {
+        "image": "assets/jurr/JURR05PU.webp",
+        "back": "main"
+      },
+      "survival-of-the-fittest": {
+        "image": "assets/jurr/JURR06PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/jurr/JURR00AP.mp3",
+  "narration": "assets/jurr/JURR00SA.mp3"
+}

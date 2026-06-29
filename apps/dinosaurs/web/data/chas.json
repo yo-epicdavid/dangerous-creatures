@@ -1,0 +1,143 @@
+{
+  "id": "chas",
+  "code": "CHAS",
+  "name": "Chasmosaurus",
+  "category": "dinosaur",
+  "scientificName": "Chasmosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "KAZ-moh-SOR-us",
+  "meaning": "Cleft lizard",
+  "period": "Late Cretaceous",
+  "diet": "Herbivore",
+  "tagline": "Its giant neck frill was half the length of its body — and mostly thin air!",
+  "hero": {
+    "image": "assets/chas/CHAS00AA.webp",
+    "alt": "Chasmosaurus"
+  },
+  "intro": "When Chasmosaurus lowered its head, the other dinosaurs must have been intimidated by its spectacular neck frill. Forming a shield up to eight feet long, the frill stretched nearly half the length of the dinosaur! The neck frill had a long bony structure down the middle, with two \"windows\" or open spaces on each side under the skin. This ridged appearance gave Chasmosaurus the name of \"cleft lizard.\"",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Cleft lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ceratopsian"
+    },
+    {
+      "label": "Length",
+      "value": "5m (17ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "2.5 tons"
+    },
+    {
+      "label": "Diet",
+      "value": "In spite of its ferocious appearance, this dinosaur ate only plants."
+    }
+  ],
+  "topics": [
+    {
+      "id": "window-frames-in-the-frill",
+      "title": "Window Frames in the Frill",
+      "image": "assets/chas/CHAS01PU.webp",
+      "text": "The neck frill of Chasmosaurus is more space than bone. The two \"windows\" made the frill lighter so that the dinosaur could move more easily. The frills of ceratopsian dinosaurs served as impressive displays, as protection against predators, and as anchors for their powerful jaw muscles.",
+      "captions": [
+        {
+          "label": "Light-headed?",
+          "text": "The hollows in Chasmosaurus's skull were skin-covered \"windows.\" Often ceratopsian frills were huge, even taller than an adult human. Imagine how heavy Chasmosaurus's head would be if its skull were solid bone!"
+        }
+      ]
+    },
+    {
+      "id": "horns-and-frills-for-defense",
+      "title": "Horns and Frills for Defense",
+      "image": "assets/chas/CHAS02PU.webp",
+      "text": "Horned dinosaurs like Chasmosaurus looked menacing but were plant-eaters, not hunters of other dinosaurs. When threatened, ceratopsians may have grouped together like this, with horns thrust outward as protection, as musk oxen do today.",
+      "captions": [
+        {
+          "label": "Centrosaurus",
+          "text": "This dinosaur was one of a group of horned dinosaurs with short frills, which lived earlier than the long-frilled types. Hundreds of Centrosaurus fossils have been found in Canada."
+        },
+        {
+          "label": "Protoceratops",
+          "text": "This little dinosaur, only about six and a half feet long, is called \"first horned face\" because it was once thought to be the ancestor of the horned dinosaurs shown here."
+        },
+        {
+          "label": "Styracosaurus",
+          "text": "The long, wicked-looking neck spikes of this dinosaur might have frightened off most predators. From the tip of its horned nose to the end of its tail, Styracosaurus measured about eighteen feet long."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Weirdest Dinosaurs",
+      "to": "weir"
+    },
+    {
+      "label": "Face to Face",
+      "to": "ftfa"
+    },
+    {
+      "label": "Horns",
+      "to": "horn"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/chas/CHAS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Window frames in the frill",
+            "to": "window-frames-in-the-frill",
+            "x": 54,
+            "y": 6,
+            "w": 32,
+            "h": 6
+          },
+          {
+            "label": "Horns and frills for defense",
+            "to": "horns-and-frills-for-defense",
+            "x": 62,
+            "y": 52,
+            "w": 30,
+            "h": 7
+          }
+        ]
+      },
+      "window-frames-in-the-frill": {
+        "image": "assets/chas/CHAS01PU.webp",
+        "back": "main"
+      },
+      "horns-and-frills-for-defense": {
+        "image": "assets/chas/CHAS02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/chas/CHAS50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/chas/CHAS00AP.mp3"
+}

@@ -1,0 +1,143 @@
+{
+  "id": "mosa",
+  "code": "MOSA",
+  "name": "Mosasaurus",
+  "category": "creature",
+  "scientificName": "Mosasaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "MOH-zah-SOR-us",
+  "meaning": "Meuse lizard",
+  "period": "Late Cretaceous",
+  "diet": "Carnivore",
+  "tagline": "Moving swiftly through the water, this reptile caught prey in its huge, gaping jaws.",
+  "hero": {
+    "image": "assets/mosa/MOSA00AA.webp",
+    "alt": "Mosasaurus"
+  },
+  "intro": "Thought by early discoverers to be a type of sea monster, Mosasaurus reached a length of more than twenty-nine feet and had an alligator-like mouth full of vicious teeth. Mosasaurus was not a dinosaur, but a type of lizard that was perfectly adapted for swimming in the sea, with paddle-like flippers in place of legs. Like other lizards, Mosasaurus had to return to the land to lay its eggs.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Oceans"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Meuse lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Mosasaur"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ammonite-eater",
+      "title": "Ammonite Eater",
+      "image": "assets/mosa/MOSA01PU.webp",
+      "text": "Fossils of ancient ammonites have been found with holes punched in them, probably by the teeth of a mosasaur.",
+      "captions": [
+        {
+          "label": "Mosasaur teeth",
+          "text": "This giant marine lizard had sharp, pointed teeth that were well suited for cracking the shells of mollusks like ammonites."
+        },
+        {
+          "label": "Shells and more shells",
+          "text": "Fossils of ammonites are plentiful and varied. Some ammonites reached gigantic sizes. Although this specimen is only about twelve inches across, some measured more than six feet in diameter."
+        }
+      ]
+    },
+    {
+      "id": "fossil-jaws",
+      "title": "Fossil Jaws",
+      "image": "assets/mosa/MOSA02PU.webp",
+      "text": "Three pointed teeth are visible in this fragment of a mosasaur jaw. This sea lizard was probably a slow moving predator. Mosasaurs were alive for a relatively short period of time in geological history, existing only in the Late Cretaceous period."
+    },
+    {
+      "id": "lizard-relations",
+      "title": "Lizard Relations",
+      "image": "assets/mosa/MOSA03PU.webp",
+      "text": "Although they lived in the sea, mosasaurs were closely related to monitor lizards of today. Monitor lizards are land-dwelling lizards that live in the Eastern Hemisphere. The largest monitor lizard is the Komodo dragon from Indonesia, which grows to approximately ten feet in length."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Ichthyosaurus",
+      "to": "icht"
+    },
+    {
+      "label": "Ammonite",
+      "to": "ammo"
+    },
+    {
+      "label": "Trilobite",
+      "to": "tril"
+    },
+    {
+      "label": "Tuatara",
+      "to": "tuat"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mosa/MOSA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Lizard relations",
+            "to": "lizard-relations",
+            "x": 72,
+            "y": 34,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Fossil jaws",
+            "to": "fossil-jaws",
+            "x": 46,
+            "y": 63,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Ammonite eater",
+            "to": "ammonite-eater",
+            "x": 57,
+            "y": 74,
+            "w": 18,
+            "h": 6
+          }
+        ]
+      },
+      "ammonite-eater": {
+        "image": "assets/mosa/MOSA01PU.webp",
+        "back": "main"
+      },
+      "fossil-jaws": {
+        "image": "assets/mosa/MOSA02PU.webp",
+        "back": "main"
+      },
+      "lizard-relations": {
+        "image": "assets/mosa/MOSA03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/mosa/MOSA50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/mosa/MOSA00AP.mp3"
+}

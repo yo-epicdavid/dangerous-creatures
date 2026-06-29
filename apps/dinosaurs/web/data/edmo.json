@@ -1,0 +1,235 @@
+{
+  "id": "edmo",
+  "code": "EDMO",
+  "name": "Edmontosaurus",
+  "category": "dinosaur",
+  "scientificName": "Edmontosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "ed-MON-toh-SOR-us",
+  "meaning": "Edmonton lizard",
+  "period": "Late Cretaceous",
+  "diet": "Herbivore",
+  "tagline": "This gentle giant could pack hundreds of teeth in its jaws — all at the same time!",
+  "hero": {
+    "image": "assets/edmo/EDMO00AA.webp",
+    "alt": "Edmontosaurus"
+  },
+  "intro": "One of the largest duckbilled dinosaurs, Edmontosaurus is famous for having several hundred diamond-shaped teeth forming large chewing surfaces in its mouth.  Duckbilled dinosaurs, or hadrosaurs, also had cheeks, much like horses and cows.  Edmontosaurus was one of the last dinosaurs, roaming North America during the Late Cretaceous period.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Edmonton lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ornithopod"
+    },
+    {
+      "label": "Length",
+      "value": "13m (42ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "3.5 tons"
+    }
+  ],
+  "topics": [
+    {
+      "id": "plant-eaters-versus-meat-eaters",
+      "title": "Plant-Eaters Versus Meat-Eaters",
+      "image": "assets/edmo/EDMO01PU.webp",
+      "text": "Characteristics of fossil skulls and teeth can tell paleontologists a lot about a dinosaur.  Compare the shape of the Edmontosaurus skull shown on the left with the Tyrannosaurus rex skull on the right.  The teeth of Edmontosaurus are made for grinding tough plant material, while Tyrannosaurus rex's teeth are sharp and pointed, for slicing through the flesh of its victims.",
+      "captions": [
+        {
+          "label": "Wide-eyed look",
+          "text": "The large eye sockets in this skull suggest that Edmontosaurus had eyes perhaps as large as four inches across.  A large opening in the skull for the optic nerve is also evidence of good eyesight."
+        },
+        {
+          "label": "A crying dinosaur?",
+          "text": "Some plants contain a lot of salt.  Many modern reptiles and birds have \"salt glands\" near their eyes that get rid of the extra salt as salty \"teardrops.\"  Edmontosaurus had hollows in the bones in front of its eyes, where salt glands may have been."
+        },
+        {
+          "label": "Fierce teeth",
+          "text": "Tyrannosaurus rex had knife-sharp teeth up to seven inches long.  The heavy jaws anchored strong muscles for gripping and tearing, all signs of a meat-eater."
+        }
+      ]
+    },
+    {
+      "id": "the-shape-of-the-brain",
+      "title": "The Shape of the Brain",
+      "image": "assets/edmo/EDMO02PU.webp",
+      "text": "In some Edmontosaurus fossils, mud filled the space inside the skull and then turned to rock, giving us a ready-made case of the brain shape.  The parts dealing with sight, hearing, and smell were well developed, indicating sharp senses."
+    },
+    {
+      "id": "rasp-like-jaws",
+      "title": "Rasp-Like Jaws",
+      "image": "assets/edmo/EDMO03PU.webp",
+      "text": "Duckbilled dinosaurs had impressive batteries of teeth.  Both sides of upper and lower jaws were lined with hundreds of sharp, diamond-shaped teeth, forming grinding surfaces much like the rasps that workers use to shape wood or metal.  New teeth constantly grew up to replace the worn ones, as can be seen here, pushing up the top layer of teeth in this Edmontosaurus jaw."
+    },
+    {
+      "id": "one-of-the-last-dinosaurs",
+      "title": "One of the Last Dinosaurs",
+      "image": "assets/edmo/EDMO04PU.webp",
+      "text": "Edmontosaurus was one of the last giants to roam the Earth as the Age of Dinosaurs came to a close.  As its name suggests, Edmontosaurus was named for Edmonton, Alberta, located in southwest Canada.  It has since been found throughout western North America.",
+      "captions": [
+        {
+          "label": "Staurikosaurus",
+          "text": "One of the most primitive dinosaurs of the Triassic period."
+        },
+        {
+          "label": "Apatosaurus",
+          "text": "One of the most common dinosaurs in the Jurassic period."
+        },
+        {
+          "label": "Edmontosaurus",
+          "text": "Survived to the end of the dinosaur era, about 65 million years ago."
+        }
+      ]
+    },
+    {
+      "id": "blowing-and-bellowing",
+      "title": "Blowing and Bellowing",
+      "image": "assets/edmo/EDMO05PU.webp",
+      "text": "The shape of its skull suggests that Edmontosaurus had loose skin on its nose,  which it might have blown up like a balloon, perhaps to make a loud bellowing call.  If the skin was brightly colored, it might also have been used to communicate visually with other dinosaurs in the herd or to attract a mate."
+    },
+    {
+      "id": "leaves-for-lunch",
+      "title": "Leaves for Lunch",
+      "image": "assets/edmo/EDMO06PU.webp",
+      "text": "Hadrosaurs were once thought to feed on water plants, but land-plant fossils have been found with some skeletons, which suggest that a diet of trees and shrubs was more likely.  Some of the plants that the hadrosaurs (duckbilled dinosaurs) ate still grow today.  These include horsetails, ferns, and pine trees."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Faces from the Past",
+      "to": "ftfb"
+    },
+    {
+      "label": "Tyrannosaurus rex",
+      "to": "tyra"
+    },
+    {
+      "label": "Skulls of Plant-eaters",
+      "to": "vega"
+    },
+    {
+      "label": "Teeth of Plant-eaters",
+      "to": "ptee"
+    },
+    {
+      "label": "Marching to Extinction",
+      "to": "extt"
+    },
+    {
+      "label": "Saurolophus",
+      "to": "saur"
+    },
+    {
+      "label": "Plant-eaters",
+      "to": "plan"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/edmo/EDMO00AA.webp",
+        "hotspots": [
+          {
+            "label": "The shape of the brain",
+            "to": "the-shape-of-the-brain",
+            "x": 53,
+            "y": 18,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Rasp-like jaws",
+            "to": "rasp-like-jaws",
+            "x": 69,
+            "y": 33,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Blowing and bellowing",
+            "to": "blowing-and-bellowing",
+            "x": 62,
+            "y": 50,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "One of the last dinosaurs",
+            "to": "one-of-the-last-dinosaurs",
+            "x": 50,
+            "y": 75,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Leaves for lunch",
+            "to": "leaves-for-lunch",
+            "x": 9,
+            "y": 43,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Plant-eaters versus meat-eaters",
+            "to": "plant-eaters-versus-meat-eaters",
+            "x": 2,
+            "y": 64,
+            "w": 30,
+            "h": 5
+          }
+        ]
+      },
+      "plant-eaters-versus-meat-eaters": {
+        "image": "assets/edmo/EDMO01PU.webp",
+        "back": "main"
+      },
+      "the-shape-of-the-brain": {
+        "image": "assets/edmo/EDMO02PU.webp",
+        "back": "main"
+      },
+      "rasp-like-jaws": {
+        "image": "assets/edmo/EDMO03PU.webp",
+        "back": "main"
+      },
+      "one-of-the-last-dinosaurs": {
+        "image": "assets/edmo/EDMO04PU.webp",
+        "back": "main"
+      },
+      "blowing-and-bellowing": {
+        "image": "assets/edmo/EDMO05PU.webp",
+        "back": "main"
+      },
+      "leaves-for-lunch": {
+        "image": "assets/edmo/EDMO06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/edmo/EDMO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/edmo/EDMO00AP.mp3"
+}
