@@ -171,6 +171,12 @@ img { max-width: 100%; display: block; }
 .modeswitch button:hover { color: var(--ink); }
 .modeswitch button.is-active { background: var(--gold); color: #1b1410; }
 
+/* EN · ES language switcher (topbar + home cover) */
+.langswitch { display: inline-flex; background: var(--panel-2); border: 1px solid var(--line); border-radius: 999px; padding: 3px; }
+.langswitch .lang { appearance: none; border: none; background: transparent; color: var(--ink-soft); font: inherit; font-weight: 700; letter-spacing: .3px; padding: 6px 14px; border-radius: 999px; cursor: pointer; text-decoration: none; transition: .15s; }
+.langswitch .lang:hover { color: var(--ink); }
+.langswitch .lang.is-active { background: var(--gold); color: #1b1410; }
+
 /* ---------- classic 1994 mode ---------- */
 .classic { max-width: var(--maxw); margin: 16px auto 70px; padding: 0 20px; }
 .classic__bar { display: flex; align-items: center; gap: 14px; margin-bottom: 14px; }

@@ -1,0 +1,10 @@
+---
+import AnimalView from '../../../components/AnimalView.astro';
+import { listAnimals } from '../../../lib/data.js';
+
+export function getStaticPaths() {
+  return listAnimals('es').map((d) => ({ params: { id: d.id }, props: { d } }));
+}
+const { d } = Astro.props;
+---
+<AnimalView d={d} locale="es" />

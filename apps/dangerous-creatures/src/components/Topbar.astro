@@ -1,9 +1,22 @@
 ---
-const { brandHref = '/' } = Astro.props;
+// `locale` + `altHref` (the same page in the other language) render the EN · ES switcher.
+// Omit altHref on English-only pages (guides/games/credits/making-of) — no switcher shown.
+const { brandHref = '/', locale = 'en', altHref = null } = Astro.props;
+const here = Astro.url.pathname;
+const enHref = locale === 'en' ? here : altHref;
+const esHref = locale === 'es' ? here : altHref;
 ---
 <header class="topbar">
   <a class="brand" href={brandHref}><b>Dangerous</b> Creatures</a>
   <slot name="center" />
   <div class="spacer"></div>
+  {altHref && (
+    <div class="langswitch" role="group" aria-label="Language · Idioma">
+      <a class:list={['lang', locale === 'en' && 'is-active']} href={enHref} hreflang="en" lang="en"
+         aria-current={locale === 'en' ? 'true' : undefined}>EN</a>
+      <a class:list={['lang', locale === 'es' && 'is-active']} href={esHref} hreflang="es" lang="es"
+         aria-current={locale === 'es' ? 'true' : undefined}>ES</a>
+    </div>
+  )}
   <slot name="right" />
 </header>

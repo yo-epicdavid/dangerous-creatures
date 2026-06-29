@@ -34,6 +34,7 @@ REGIONS_ES = {
     "Oceans & Seas": "Océanos y mares", "Polar Regions": "Regiones polares",
     "South America": "Sudamérica", "Worldwide": "En todo el mundo",
 }
+LABELMAP = {"regions": REGIONS_ES, "habitats": HABITATS_ES, "weapons": WEAPONS_ES}
 PROV_ES = {
     "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
     "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados "
@@ -55,6 +56,30 @@ def reloc(obj, slug):
 
 def screen_of(image):
     return os.path.splitext(os.path.basename(image))[0]   # assets/es/lion/LION01PU.webp -> LION01PU
+
+
+def build_browse(es_index):
+    """Spanish browse.json: reuse the English grouping (language-neutral), translate the
+    category labels, and swap in Spanish names + es thumbs, re-sorted in Spanish."""
+    src = os.path.join(DATA_EN, "browse.json")
+    if not os.path.exists(src):
+        print("  !! no English browse.json; skip browse-es")
+        return
+    by_id = {a["id"]: a for a in es_index}
+    out = {}
+    for tab, groups in json.load(open(src)).items():
+        labelmap = LABELMAP.get(tab, {})
+        newgroups = []
+        for g in groups:
+            animals = [{"id": a["id"], "name": by_id[a["id"]]["name"], "thumb": by_id[a["id"]]["thumb"]}
+                       for a in g["animals"] if a["id"] in by_id]
+            animals.sort(key=lambda a: a["name"].lower())
+            newgroups.append({"category": labelmap.get(g["category"], g["category"]),
+                              "count": len(animals), "animals": animals})
+        newgroups.sort(key=lambda x: x["category"].lower())
+        out[tab] = newgroups
+    json.dump(out, open(os.path.join(DATA_ES, "browse.json"), "w"), indent=2, ensure_ascii=False)
+    print(f"wrote browse.json ({sum(len(v) for v in out.values())} groups across {len(out)} axes) -> {DATA_ES}")
 
 
 def main():
@@ -122,6 +147,7 @@ def main():
     index.sort(key=lambda x: x["name"])
     json.dump(index, open(os.path.join(DATA_ES, "index.json"), "w"), indent=2, ensure_ascii=False)
     print(f"wrote {len(index)} Spanish page files + index.json -> {DATA_ES}")
+    build_browse(index)
 
 
 if __name__ == "__main__":
