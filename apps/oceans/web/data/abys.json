@@ -1,0 +1,193 @@
+{
+  "id": "abys",
+  "code": "ABYS",
+  "name": "The Abyss",
+  "category": "habitat",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "A pitch-black world where creatures too strange to imagine are still waiting to be found.",
+  "zones": [
+    "Deep sea"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/abys/ABYS00AA.webp",
+    "alt": "The Abyss"
+  },
+  "intro": "The middle and lower parts of the ocean make up the largest natural habitat on earth. In this dark world, animals that we cannot even begin to imagine remain to be discovered. Scientists estimate that one fourth to one half of the animals in the sea are still unknown. Many of these animals would seem very strange to us, but just think: to these creatures, the ocean surface that we're familiar with would seem like an awfully scary place. To them it would be a terrifying world of blinding light and suffocating temperatures, with violent waves and currents.",
+  "facts": [
+    {
+      "label": "Unknown life",
+      "value": "Scientists estimate that one fourth to one half of all animals in the sea are still unknown."
+    },
+    {
+      "label": "Light organs",
+      "value": "Many deep-sea fish have photophores — special multicolored light organs used for defense or to attract prey and mates."
+    },
+    {
+      "label": "Size",
+      "value": "Gulper eels are about 1 m (3 ft) long and can swallow prey larger than themselves."
+    },
+    {
+      "label": "Depth",
+      "value": "Gulper eels are found as deep as 8,000 m (26,240 ft)."
+    },
+    {
+      "label": "No organs",
+      "value": "Beardworms on the ocean floor do without eyes, mouths, and digestive tracts."
+    },
+    {
+      "label": "Discovery",
+      "value": "Hydrothermal vents were discovered in 1977; their bacteria live on hydrogen sulfide through chemosynthesis and may represent the first form of life on Earth."
+    }
+  ],
+  "topics": [
+    {
+      "id": "binocular-eyes",
+      "title": "Binocular eyes",
+      "image": "assets/abys/ABYS01PU.webp",
+      "text": "In the upper parts of the abyss a tiny amount of light does penetrate down through the water. Many fish that live in this zone have special light organs, or photophores, on their bodies. These multicolored lights are used for defense, or to attract prey or mates. Some species of hatchet fish have huge eyes that focus upward to watch for the shadows of prey overhead. On the other hand, the fish that live in deeper, darker zones usually have smaller eyes and fewer photophores, since those organs aren't as useful at those depths.",
+      "captions": [
+        {
+          "label": "Deep-sea hatchet fish",
+          "text": "Argyropelecus species"
+        }
+      ],
+      "narration": "assets/abys/ABYS01JN.mp3"
+    },
+    {
+      "id": "big-mouths",
+      "title": "Big mouths",
+      "image": "assets/abys/ABYS02PU.webp",
+      "text": "Some deep-sea fish may have adapted to the scarcity of food in the deep ocean by developing oversized jaws. With feeding times few and far between, it helps to be able to make a meal of almost anything that swims by! Gulper eels have huge jaws attached to snakelike bodies that allow them to swallow prey larger than themselves. This particular species is about 1 m (3 ft) long, and is seen at depths of 8,000 m (26,240 ft). Very little is known about its diet, but it's thought to consist mostly of plankton and small fish.",
+      "captions": [
+        {
+          "label": "Gulper eel",
+          "text": "Eurypharynx pelecanoides"
+        }
+      ],
+      "narration": "assets/abys/ABYS02JN.mp3"
+    },
+    {
+      "id": "inner-space",
+      "title": "Inner space",
+      "image": "assets/abys/ABYS04PU.webp",
+      "text": "On the very bottom of the ocean, animals live in soft mud or on rough volcanic rock. You'll see mostly invertebrates here, such as the adaptable anemone, which is found at all depths. Animal anatomy and behavior are often simplified in the abyss. Beardworms do without eyes, mouths, and digestive tracts. Corals grow as individuals rather than as complex colonies, though below a certain depth their calcium skeletons can't even form. Sea cucumbers flourish in the deep. Some fish live on the bottom, such as tripodfish, which use their stiffened fins as stilts to raise themselves above the mud.",
+      "captions": [
+        {
+          "label": "Jellyfish",
+          "text": "Atolla species"
+        },
+        {
+          "label": "Deep-sea toadfish",
+          "text": "Chaunax pictus"
+        }
+      ],
+      "narration": "assets/abys/ABYS04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Submarines and Robots",
+      "to": "robo"
+    },
+    {
+      "label": "Clams, Oysters, and Scallops",
+      "to": "clam"
+    },
+    {
+      "label": "Fascinating Sharks",
+      "to": "fasc"
+    },
+    {
+      "label": "Starfish",
+      "to": "star"
+    },
+    {
+      "label": "Fearsome Faces",
+      "to": "fear"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/abys/ABYS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 3,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Binocular eyes",
+            "to": "binocular-eyes",
+            "x": 61,
+            "y": 17,
+            "w": 33,
+            "h": 6
+          },
+          {
+            "label": "Big mouths",
+            "to": "big-mouths",
+            "x": 53,
+            "y": 61,
+            "w": 28,
+            "h": 7
+          },
+          {
+            "label": "Inner space",
+            "to": "inner-space",
+            "x": 49,
+            "y": 73,
+            "w": 28,
+            "h": 7
+          },
+          {
+            "label": "Hotbeds of activity",
+            "to": "video",
+            "x": 7,
+            "y": 85,
+            "w": 38,
+            "h": 8
+          }
+        ]
+      },
+      "binocular-eyes": {
+        "image": "assets/abys/ABYS01PU.webp",
+        "back": "main"
+      },
+      "big-mouths": {
+        "image": "assets/abys/ABYS02PU.webp",
+        "back": "main"
+      },
+      "inner-space": {
+        "image": "assets/abys/ABYS04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/abys/clip.mp4",
+        "poster": "assets/abys/ABYS03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/abys/ABYS00JN.mp3",
+  "sound": "assets/abys/ABYS00IX.mp3",
+  "video": {
+    "title": "Hotbeds of activity",
+    "src": "assets/abys/clip.mp4",
+    "poster": "assets/abys/poster.webp",
+    "caption": "Hydrothermal vents on mid-ocean ridges host giant tubeworms, huge clams, and white crabs — all supported by bacteria that use chemosynthesis to survive on hydrogen sulfide.",
+    "narration": "assets/abys/ABYS03JN.mp3"
+  }
+}

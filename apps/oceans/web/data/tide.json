@@ -1,0 +1,185 @@
+{
+  "id": "tide",
+  "code": "TIDE",
+  "name": "Tides",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "The ocean breathes in and out — twice a day, every day, forever.",
+  "zones": [
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/tide/TIDE00AA.webp",
+    "alt": "Tides"
+  },
+  "intro": "Tides are the rhythmic rise and fall of the ocean's surface with respect to its shorelines. Caused by the complex movements of the moon around the earth and of the earth around the sun, tides are also affected by the shapes of the coasts and the sea floors. Tides mix ocean waters, flushing out pollution and bringing oxygen and nutrients to marine life. Most coastal areas have two low tides and two high tides per day. However, some regions have only one set, and enclosed seas like the Mediterranean have almost no tides at all.",
+  "facts": [
+    {
+      "label": "Cause",
+      "value": "Tides are caused by the gravitational attraction of the moon and, to some extent, the sun."
+    },
+    {
+      "label": "Per day",
+      "value": "Most coastal areas have two low tides and two high tides per day."
+    },
+    {
+      "label": "Spring tides",
+      "value": "The highest tides, known as spring tides, happen when the moon and the sun line up with the earth and their gravitational forces are combined."
+    },
+    {
+      "label": "World record",
+      "value": "The Bay of Fundy, in eastern Canada, boasts the world's largest tidal range—over 15 m (49 ft)."
+    },
+    {
+      "label": "Tidal bores",
+      "value": "Bores in the Fuch'un River of eastern China used to reach as high as 8 m (26 ft) and claimed many lives."
+    },
+    {
+      "label": "No tides",
+      "value": "Enclosed seas like the Mediterranean have almost no tides at all."
+    }
+  ],
+  "topics": [
+    {
+      "id": "how-tides-work",
+      "title": "How tides work",
+      "image": "assets/tide/TIDE01PU.webp",
+      "text": "Tides are caused by the gravitational attraction of the moon and, to some extent, the sun. Gravity pulls up on the ocean's surface directly below the moon, while on the other side of the earth an equal bulge occurs. This second bulge results from the opposite, centrifugal force that keeps the earth and the moon from crashing together. The highest tides, known as spring tides (from the German springen, meaning “to jump”), happen when the moon and the sun line up with the earth and their gravitational forces are combined. The lowest tides, or neap tides, occur when the sun's position is at a right angle to that of the moon.",
+      "narration": "assets/tide/TIDE01JN.mp3"
+    },
+    {
+      "id": "high-and-low",
+      "title": "High and low",
+      "image": "assets/tide/TIDE02PU.webp",
+      "text": "Why do dramatic tidal changes occur only in some parts of the world? The largest difference in tides, or tidal range, takes place where seawater is forced up into the ends of narrow bays.\n\nThe world champion\nThe Bay of Fundy, in eastern Canada, boasts the world's largest tidal range—over 15 m (49 ft).",
+      "captions": [
+        {
+          "label": "Low tide",
+          "text": "Five Islands, Bay of Fundy, Nova Scotia"
+        },
+        {
+          "label": "High tide",
+          "text": "Five Islands, Bay of Fundy, Nova Scotia"
+        }
+      ],
+      "narration": "assets/tide/TIDE02JN.mp3"
+    },
+    {
+      "id": "how-boring",
+      "title": "How boring!",
+      "image": "assets/tide/TIDE03PU.webp",
+      "text": "On the contrary—tidal bores are pretty amazing! A bore, which can only occur in areas of large tidal range, is a turbulent wall of water that is forced up a narrow river channel or a bay by a strong incoming tide. Bores in the Fuch'un River of eastern China used to reach as high as 8 m (26 ft) and claimed many lives. However, clever river captains would protect their boats behind barriers as a bore approached, then move their boats out to follow it and let the suction of the mighty wave carry their craft far upriver.",
+      "captions": [
+        {
+          "label": "Tidal bore",
+          "text": "Minas Basin, Nova Scotia, Canada"
+        }
+      ],
+      "narration": "assets/tide/TIDE03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Tough Choices"
+    },
+    {
+      "label": "Currents",
+      "to": "curr"
+    },
+    {
+      "label": "The Shoreline",
+      "to": "shor"
+    },
+    {
+      "label": "The Water Cycle",
+      "to": "wcyc"
+    },
+    {
+      "label": "Jellyfish & Men of War"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/tide/TIDE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Life at the tideline",
+            "to": "video",
+            "x": 27,
+            "y": 43,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "How tides work",
+            "to": "how-tides-work",
+            "x": 55,
+            "y": 51,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "High and low",
+            "to": "high-and-low",
+            "x": 2,
+            "y": 76,
+            "w": 17,
+            "h": 6
+          },
+          {
+            "label": "How boring!",
+            "to": "how-boring",
+            "x": 55,
+            "y": 76,
+            "w": 18,
+            "h": 6
+          }
+        ]
+      },
+      "how-tides-work": {
+        "image": "assets/tide/TIDE01PU.webp",
+        "back": "main"
+      },
+      "high-and-low": {
+        "image": "assets/tide/TIDE02PU.webp",
+        "back": "main"
+      },
+      "how-boring": {
+        "image": "assets/tide/TIDE03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/tide/clip.mp4",
+        "poster": "assets/tide/TIDE04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/tide/TIDE00JN.mp3",
+  "sound": "assets/tide/TIDE00IX.mp3",
+  "video": {
+    "title": "Life at the tide line",
+    "src": "assets/tide/clip.mp4",
+    "poster": "assets/tide/poster.webp",
+    "caption": "Sea urchins in tidal pool",
+    "narration": "assets/tide/TIDE04JN.mp3"
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "id": "snak",
+  "code": "SNAK",
+  "name": "Sea Snakes",
+  "category": "creature",
+  "scientificName": "Pelamis platurus",
+  "needsScientificVerify": false,
+  "tagline": "All of them are venomous — and all of them just want to be left alone.",
+  "zones": [
+    "Coral reef",
+    "Coast & tide pools",
+    "Open ocean"
+  ],
+  "oceans": [
+    "Indian Ocean",
+    "Pacific Ocean"
+  ],
+  "hero": {
+    "image": "assets/snak/SNAK00AA.webp",
+    "alt": "Sea Snakes"
+  },
+  "intro": "There are more than fifty species of snakes that live in the oceans, and all of them are venomous. With flattened tails that they use as rudders, sea snakes are good swimmers, but like all reptiles, they breathe air and must surface often to survive. Most sea snakes live in the Indian and western Pacific oceans, north of Australia. However, this snake has the largest range of all sea snakes: it's been found from the east coast of Africa to the Panama Canal. Fortunately, most sea snakes are timid creatures that just want to be left alone.",
+  "facts": [
+    {
+      "label": "Diversity",
+      "value": "There are more than fifty species of sea snakes, and all of them are venomous."
+    },
+    {
+      "label": "Swimming",
+      "value": "Sea snakes use flattened tails as rudders to steer through the ocean."
+    },
+    {
+      "label": "Breathing",
+      "value": "Sea snakes breathe air and must surface often to survive, just like all reptiles."
+    },
+    {
+      "label": "Venom",
+      "value": "Some sea snakes have venom 50 times more powerful than a cobra's!"
+    },
+    {
+      "label": "Diet",
+      "value": "Sea snakes eat fish and small eels, following prey right into their holes in coral reefs."
+    },
+    {
+      "label": "Range",
+      "value": "The yellow-bellied sea snake has the largest range of all sea snakes — from the east coast of Africa to the Panama Canal."
+    }
+  ],
+  "topics": [
+    {
+      "id": "landlubber-cousins",
+      "title": "Landlubber cousins",
+      "image": "assets/snak/SNAK01PU.webp",
+      "text": "At one time all snakes lived on land, but for some reason a few decided to take to the sea. Here are a couple of land snakes that are in the same family of venomous snakes as the seagoing kind.",
+      "captions": [
+        {
+          "label": "Pretty deadly",
+          "text": "Coral snakes are small terrestrial snakes with small fangs, so it would be difficult for one to bite a human anywhere other than on a finger. Still, it's never a good idea to disturb any snake, whether it's in the ocean or on land!"
+        },
+        {
+          "label": "Cobra kin",
+          "text": "Everyone knows that cobras can be dangerous because they have powerful venom. But some sea snakes have venom that is 50 times more powerful than a cobra's! Even so, neither of these reptiles are a danger to humans if they're left in peace."
+        }
+      ],
+      "narration": "assets/snak/SNAK01JN.mp3"
+    },
+    {
+      "id": "slithering-snacks",
+      "title": "Slithering snacks",
+      "image": "assets/snak/SNAK02PU.webp",
+      "text": "All sea snakes eat fish, and many eat the small eels that live around coral reefs. With their long, slender bodies, these snakes can follow eels right into their holes. One quick bite, and the eel is paralyzed by the snake's venom. There's no safe place for an eel when a hungry sea snake is around!",
+      "narration": "assets/snak/SNAK02JN.mp3"
+    },
+    {
+      "id": "snakelike-swimmers",
+      "title": "Snakelike swimmers",
+      "image": "assets/snak/SNAK03PU.webp",
+      "text": "At first glance it can be hard to tell the difference between a snake, an eel, and even a pipefish. If there's any doubt in your mind about which is which, you'd better do your swimming a long way away from these animals!",
+      "captions": [
+        {
+          "label": "Banded sea snake",
+          "text": "Like all reptiles, sea snakes have scales for skin. But just look, don't touch!"
+        },
+        {
+          "label": "Banded snake eel",
+          "text": "Eels have gills and smooth, scaleless skin. They also have sharp teeth, so you may not want to get close enough to check out these features."
+        }
+      ],
+      "narration": "assets/snak/SNAK03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Scorpionfish",
+      "to": "scor"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/snak/SNAK00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 8,
+            "h": 10
+          },
+          {
+            "label": "In and out of water",
+            "to": "video",
+            "x": 32,
+            "y": 50,
+            "w": 24,
+            "h": 7
+          },
+          {
+            "label": "Snakelike swimmers",
+            "to": "snakelike-swimmers",
+            "x": 64,
+            "y": 43,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "Landlubber cousins",
+            "to": "landlubber-cousins",
+            "x": 13,
+            "y": 69,
+            "w": 19,
+            "h": 8
+          },
+          {
+            "label": "Slithering snacks",
+            "to": "slithering-snacks",
+            "x": 44,
+            "y": 69,
+            "w": 18,
+            "h": 8
+          }
+        ]
+      },
+      "landlubber-cousins": {
+        "image": "assets/snak/SNAK01PU.webp",
+        "back": "main"
+      },
+      "slithering-snacks": {
+        "image": "assets/snak/SNAK02PU.webp",
+        "back": "main"
+      },
+      "snakelike-swimmers": {
+        "image": "assets/snak/SNAK03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/snak/clip.mp4",
+        "poster": "assets/snak/SNAK04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/snak/SNAK00JN.mp3",
+  "sound": "assets/snak/SNAK00IX.mp3",
+  "video": {
+    "title": "In and out of water",
+    "src": "assets/snak/clip.mp4",
+    "poster": "assets/snak/poster.webp",
+    "caption": "A female sea krait in Asia, where some sea snakes spend most of their time on shore — going into the water only for food — and are hunted for their beautiful skins and tasty flesh.",
+    "narration": "assets/snak/SNAK04JN.mp3"
+  }
+}

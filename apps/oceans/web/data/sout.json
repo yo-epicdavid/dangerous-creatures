@@ -1,0 +1,226 @@
+{
+  "id": "sout",
+  "code": "SOUT",
+  "name": "South Pacific Explorers",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Stars were their compass — Polynesian sailors crossed the mighty Pacific thousands of years ago without any maps.",
+  "zones": [
+    "Open ocean"
+  ],
+  "oceans": [
+    "Pacific Ocean"
+  ],
+  "hero": {
+    "image": "assets/sout/SOUT00AA.webp",
+    "alt": "South Pacific Explorers"
+  },
+  "intro": "Four thousand years ago people from Asia's southeast coast set sail for the far horizon. Over the course of centuries they covered vast distances in the South Pacific and became some of the world's best sailors. They built the world's first seagoing canoes and developed the ability to navigate by the stars.",
+  "facts": [
+    {
+      "label": "Origins",
+      "value": "Four thousand years ago, people from Asia's southeast coast set sail across the South Pacific."
+    },
+    {
+      "label": "Navigation",
+      "value": "They memorized star positions and found ocean currents by testing the temperature of the water by hand."
+    },
+    {
+      "label": "Expansion",
+      "value": "They reached the Hawaiian Islands around 100 A.D., explored all Polynesian islands by 650 A.D., and reached New Zealand a century after that."
+    },
+    {
+      "label": "Sacred canoes",
+      "value": "The seagoing canoe was a sacred vessel — canoe builders fasted and prayed while they worked."
+    },
+    {
+      "label": "Easter Island",
+      "value": "Rapa Nui (Easter Island) was settled around 400 A.D.; its famous statues were carved from soft volcanic rock."
+    },
+    {
+      "label": "Tattooing",
+      "value": "Polynesians believed tattooing was a gift from the gods; a complete body tattoo began in youth and took years to finish."
+    }
+  ],
+  "topics": [
+    {
+      "id": "life-on-board",
+      "title": "Life on board",
+      "image": "assets/sout/SOUT01PU.webp",
+      "text": "South Pacific explorers fared well in their ocean travels, while later European explorers suffered from scurvy brought on by poor diets.\n\nBarbecue in back\nPolynesians stored water in bamboo joints and drank refreshing coconut milk. They ate sweet potatoes, taro, and bananas for the first few days of their journeys, then turned to yams, dried fruits, and fish. Chickens and a sow expecting piglets were brought along to provide a supply of fresh meat that was cooked in a small oven located in the stern.",
+      "captions": [
+        {
+          "label": "Homing birds",
+          "text": "The last live cargo was a frigate bird, carried on board in a cage to be released at the right moment to lead the way to land."
+        }
+      ],
+      "narration": "assets/sout/SOUT01JN.mp3"
+    },
+    {
+      "id": "exquisite-artwork",
+      "title": "Exquisite artwork",
+      "image": "assets/sout/SOUT02PU.webp",
+      "text": "Art was a way of life for South Sea Islanders. Each group of islands developed its own traditions.\n\nBody work\nPolynesians believed that the art of tattooing was a gift from the gods. A complete body tattoo began in youth and took years to finish. The design was first displayed on wood, then etched into the skin with a sharp tool and a small hammer.\n\nBeautiful boats\nCarvings on the bow of a canoe provided strong protection against storms and shipwreck.",
+      "captions": [
+        {
+          "label": "Intricate carvings",
+          "text": "Intricate carvings on bow of New Zealand war canoe"
+        }
+      ],
+      "narration": "assets/sout/SOUT02JN.mp3"
+    },
+    {
+      "id": "steering-by-the-stars",
+      "title": "Steering by the stars",
+      "image": "assets/sout/SOUT03PU.webp",
+      "text": "South Pacific Islanders had highly developed skills and senses that they used to help steer their course. They memorized the positions of the stars and found currents by testing the temperature of the water by hand.\n\nMaps made of sticks\nSouth Pacific navigators recorded sea movements on stick charts. The cowrie shells represent islands.",
+      "captions": [
+        {
+          "label": "Night watch",
+          "text": "Constellations are more visible in the tropics than in other parts of the world. This chart shows some of the main stars used in navigation."
+        }
+      ],
+      "narration": "assets/sout/SOUT03JN.mp3"
+    },
+    {
+      "id": "jewels-of-the-sea",
+      "title": "Jewels of the sea",
+      "image": "assets/sout/SOUT04PU.webp",
+      "text": "While many European explorers were motivated by greed, South Pacific explorers were inspired by the quest itself.\n\nIsland-hopping\nThey must have been inspired by the beautiful variety of islands—some lush, green, and mountainous, others windswept atolls of white coral sand. Only a tiny percentage of this vast Pacific area is land. Some islands, like Palau, are much like they were when the first settlers arrived.",
+      "captions": [
+        {
+          "label": "Eastward ho!",
+          "text": "They sailed east, reaching the Hawaiian Islands around 100 A.D., and Tahiti about 200 years later. They had explored all of the Polynesian islands by 650 A.D., and reached New Zealand a century after that."
+        }
+      ],
+      "narration": "assets/sout/SOUT04JN.mp3"
+    },
+    {
+      "id": "distinctive-statues",
+      "title": "Distinctive statues",
+      "image": "assets/sout/SOUT05PU.webp",
+      "text": "The ancient Polynesians left statues representing gods on many of the islands they visited. Even today, the natives of these islands consider these statues to be the homes of strong spirits.",
+      "captions": [
+        {
+          "label": "Tiki",
+          "text": "This small stone statue is called a tiki. Depending on which island they come from, tikis may represent gods or ancestors. Some tikis are very small and are worn as necklaces."
+        },
+        {
+          "label": "Heads of all sizes",
+          "text": "Rapa Nui, also known as Easter Island, was settled by Polynesians in about 400 A.D. Since there was little wood on the island, they carved these magnificent statues from soft volcanic rock."
+        }
+      ],
+      "narration": "assets/sout/SOUT05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Arts & Literature of the Sea"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/sout/SOUT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 9,
+            "h": 6
+          },
+          {
+            "label": "Steering by the stars",
+            "to": "steering-by-the-stars",
+            "x": 27,
+            "y": 41,
+            "w": 32,
+            "h": 5
+          },
+          {
+            "label": "Sacred canoes",
+            "to": "video",
+            "x": 14,
+            "y": 52,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Jewels of the sea",
+            "to": "jewels-of-the-sea",
+            "x": 3,
+            "y": 62,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Exquisite artwork",
+            "to": "exquisite-artwork",
+            "x": 72,
+            "y": 36,
+            "w": 25,
+            "h": 6
+          },
+          {
+            "label": "Life on board",
+            "to": "life-on-board",
+            "x": 72,
+            "y": 50,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Distinctive statues",
+            "to": "distinctive-statues",
+            "x": 67,
+            "y": 62,
+            "w": 28,
+            "h": 8
+          }
+        ]
+      },
+      "life-on-board": {
+        "image": "assets/sout/SOUT01PU.webp",
+        "back": "main"
+      },
+      "exquisite-artwork": {
+        "image": "assets/sout/SOUT02PU.webp",
+        "back": "main"
+      },
+      "steering-by-the-stars": {
+        "image": "assets/sout/SOUT03PU.webp",
+        "back": "main"
+      },
+      "jewels-of-the-sea": {
+        "image": "assets/sout/SOUT04PU.webp",
+        "back": "main"
+      },
+      "distinctive-statues": {
+        "image": "assets/sout/SOUT05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/sout/clip.mp4",
+        "poster": "assets/sout/SOUT06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/sout/SOUT00JN.mp3",
+  "sound": "assets/sout/SOUT00IX.mp3",
+  "video": {
+    "title": "Sacred canoes",
+    "src": "assets/sout/clip.mp4",
+    "poster": "assets/sout/poster.webp",
+    "caption": "The seagoing canoe was more than a means of transportation to ancient Polynesians—it was a sacred vessel. Canoe builders fasted and prayed while they worked. Islanders believed that certain fish were sent by the gods, and the bows of fishing canoes were carved to resemble bonitos (a relative of the tuna). Today the art of building traditional canoes is carried on by a small number of Polynesians.",
+    "narration": "assets/sout/SOUT06JN.mp3"
+  }
+}

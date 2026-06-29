@@ -1,0 +1,279 @@
+{
+  "id": "shal",
+  "code": "SHAL",
+  "name": "The Shallows",
+  "category": "habitat",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Where sunlight meets the sea — the ocean's most crowded neighborhood.",
+  "zones": [
+    "Coast & tide pools",
+    "Coral reef",
+    "Kelp & seagrass",
+    "Rivers & estuaries"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/shal/SHAL00AA.webp",
+    "alt": "The Shallows"
+  },
+  "intro": "All marine plants and most marine animals live in the upper levels of the ocean, where sunlight can penetrate. A diver doesn't have to venture far from shore nor dive very deep to find an astounding variety of life. The shallows are the most abundant habitats in the oceans, but because they're also the most accessible areas, they're the most likely to be damaged by people.",
+  "facts": [
+    {
+      "label": "Most abundant",
+      "value": "The shallows are the most abundant habitats in the oceans."
+    },
+    {
+      "label": "Nurseries",
+      "value": "Salt marshes and mangrove swamps are some of the richest shoreline ecosystems in the world, serving as vital nurseries for birds, fish, and sea turtles."
+    },
+    {
+      "label": "Coral bleaching",
+      "value": "If the algae that live with corals die, the corals lose all their color and then die too — a process known as coral \"bleaching,\" caused by changes in water temperature or chemistry."
+    },
+    {
+      "label": "Sand dollars",
+      "value": "Sand dollars spend their lives partially buried in the shallows, using small tube feet and spines to move and filtering particles from the water to eat."
+    },
+    {
+      "label": "Salmon",
+      "value": "Salmon spend their youth in rivers and their adulthood in the ocean, then return to their freshwater birthplaces to spawn before dying."
+    },
+    {
+      "label": "Law of the Sea",
+      "value": "According to the 1982 Law of the Sea Convention, each coastal nation has authority over the area of ocean extending 200 nautical miles from the low-tide line on the shore."
+    }
+  ],
+  "topics": [
+    {
+      "id": "seaside-nurseries",
+      "title": "Seaside nurseries",
+      "image": "assets/shal/SHAL01PU.webp",
+      "text": "Salt marshes and mangrove swamps are some of the richest shoreline ecosystems in the world. These areas serve as vital nurseries for many marine creatures, such as birds, fish, and sea turtles, providing the young with food and a sheltered place to grow up. They also provide food and shelter for a host of coastal species that are adapted to life in these wetlands.",
+      "captions": [
+        {
+          "label": "Saltwater prairie",
+          "text": "Swamps are mostly trees; marshes are mostly grass. Saltwater marshes like this one serve as rest stops for migrating birds, and as permanent homes for a multitude of other creatures."
+        },
+        {
+          "label": "Saltwater forest",
+          "text": "While birds, insects, and reptiles rest in the branches of mangroves, fish and turtles thrive among their roots. Unfortunately, these habitats are rapidly disappearing as people increasingly occupy the shorelines."
+        }
+      ],
+      "narration": "assets/shal/SHAL01JN.mp3"
+    },
+    {
+      "id": "hidden-in-mud-and-sand",
+      "title": "Hidden in mud and sand",
+      "image": "assets/shal/SHAL02PU.webp",
+      "text": "Soft sea floors are good homes for burrowing animals. Many find both shelter and food in the sand or mud.",
+      "captions": [
+        {
+          "label": "Buried money",
+          "text": "Most people have seen only the tests, or remains, of sand dollars. These sea-urchin cousins spend their lives partially buried in the shallows. They use small tube feet and spines on their undersides to move about, and they eat by filtering particles from the surrounding water."
+        },
+        {
+          "label": "A home for worms",
+          "text": "Ragworms devour tiny particles of organic debris as they tunnel their way through the mud. In turn, many fish and crustaceans devour ragworms every chance they get."
+        }
+      ],
+      "narration": "assets/shal/SHAL02JN.mp3"
+    },
+    {
+      "id": "watery-greenhouses",
+      "title": "Watery greenhouses",
+      "image": "assets/shal/SHAL03PU.webp",
+      "text": "Plants can live only in the upper parts of the ocean, because they need sunlight as fuel for photosynthesis—the process of changing carbon dioxide and water into nourishing carbohydrates. Plant-eating animals live here as well, of course, and so do the carnivores that feed on the plant-eaters.",
+      "captions": [
+        {
+          "label": "Underwater forests",
+          "text": "In a kelp forest like this, it's fish, and not birds, that shelter among the branches."
+        },
+        {
+          "label": "The most important of all",
+          "text": "These phytoplankton may be microscopic, but they are the basis of the food web. These tiniest of all plants serve as food for the tiniest animals, which are themselves food for larger animals."
+        }
+      ],
+      "narration": "assets/shal/SHAL03JN.mp3"
+    },
+    {
+      "id": "tropical-paradises",
+      "title": "Tropical paradises",
+      "image": "assets/shal/SHAL04PU.webp",
+      "text": "Coral reefs grow only in warm, shallow waters. Many types of coral live with algae and depend on that algae to photosynthesize. If the algae dies, the corals lose all their color, and then they die as well. This process is known as coral \"bleaching,\" and may result from a change in water temperature or chemistry.",
+      "narration": "assets/shal/SHAL04JN.mp3"
+    },
+    {
+      "id": "a-river-runs-to-it",
+      "title": "A river runs to it",
+      "image": "assets/shal/SHAL05PU.webp",
+      "text": "Estuaries are places where the fresh water of a river mixes with the salt water of the sea. Animals that live in these brackish zones have to adapt to the changing salt content of the water as river flows vary according to rainfall, and as the tide surges in and out. Some species of fish are adept at coping with both fresh and salt water: salmon, for example, spend their youth in rivers and their adulthood in the ocean, then return to their freshwater birthplaces to spawn before dying.",
+      "narration": "assets/shal/SHAL05JN.mp3"
+    },
+    {
+      "id": "how-wide-are-the-shelves",
+      "title": "How wide are the shelves?",
+      "image": "assets/shal/SHAL06PU.webp",
+      "text": "Some coasts have wide continental shelves, where the water is shallow. Other coasts have narrow shelves, and the ocean floor plunges to the depths not far from shore.",
+      "captions": [
+        {
+          "label": "Wide shelves",
+          "text": "The North Atlantic has broad continental shelves that have traditionally teemed with fish. Sadly, many areas have been overharvested, and the fishing industry is now in decline throughout the Atlantic."
+        },
+        {
+          "label": "Posted: Keep Out!",
+          "text": "According to the 1982 Law of the Sea Convention, each coastal nation has authority over the area of ocean that extends 200 nautical miles from the low-tide line on the shore. Lack of understanding or agreement about where these boundaries lie has led to many international fishing disputes."
+        }
+      ],
+      "narration": "assets/shal/SHAL06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Corals",
+      "to": "cora"
+    },
+    {
+      "label": "Water Babies"
+    },
+    {
+      "label": "Fanworms & Bristleworms"
+    },
+    {
+      "label": "The Web of Life",
+      "to": "webl"
+    },
+    {
+      "label": "Ocean Match"
+    },
+    {
+      "label": "Marine Plants",
+      "to": "mpln"
+    },
+    {
+      "label": "Sea Urchins & Sea Cucumbers"
+    },
+    {
+      "label": "Tides",
+      "to": "tide"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/shal/SHAL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Tropical paradises",
+            "to": "tropical-paradises",
+            "x": 52,
+            "y": 13,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Living on the edge",
+            "to": "video",
+            "x": 62,
+            "y": 19,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "How wide are the shelves?",
+            "to": "how-wide-are-the-shelves",
+            "x": 51,
+            "y": 44,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Seaside nurseries",
+            "to": "seaside-nurseries",
+            "x": 24,
+            "y": 62,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "A river runs to it",
+            "to": "a-river-runs-to-it",
+            "x": 54,
+            "y": 67,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Watery greenhouses",
+            "to": "watery-greenhouses",
+            "x": 2,
+            "y": 77,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Hidden in mud and sand",
+            "to": "hidden-in-mud-and-sand",
+            "x": 2,
+            "y": 85,
+            "w": 25,
+            "h": 5
+          }
+        ]
+      },
+      "seaside-nurseries": {
+        "image": "assets/shal/SHAL01PU.webp",
+        "back": "main"
+      },
+      "hidden-in-mud-and-sand": {
+        "image": "assets/shal/SHAL02PU.webp",
+        "back": "main"
+      },
+      "watery-greenhouses": {
+        "image": "assets/shal/SHAL03PU.webp",
+        "back": "main"
+      },
+      "tropical-paradises": {
+        "image": "assets/shal/SHAL04PU.webp",
+        "back": "main"
+      },
+      "a-river-runs-to-it": {
+        "image": "assets/shal/SHAL05PU.webp",
+        "back": "main"
+      },
+      "how-wide-are-the-shelves": {
+        "image": "assets/shal/SHAL06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/shal/clip.mp4",
+        "poster": "assets/shal/SHAL07PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/shal/SHAL00JN.mp3",
+  "sound": "assets/shal/SHAL00IX.mp3",
+  "video": {
+    "title": "Living on the edge",
+    "src": "assets/shal/clip.mp4",
+    "poster": "assets/shal/poster.webp",
+    "caption": "Tidal pools are found in rocky areas at the water's edge or just offshore. Creatures that live in these areas are tough and adaptable. They must cope with constantly changing conditions, surviving out of water during the lowest tides and clinging to rocks during wild storm surges.",
+    "narration": "assets/shal/SHAL07JN.mp3"
+  }
+}

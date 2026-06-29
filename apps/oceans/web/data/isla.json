@@ -1,0 +1,252 @@
+{
+  "id": "isla",
+  "code": "ISLA",
+  "name": "Islands",
+  "category": "habitat",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Over half a million islands dot the world's oceans — each a unique, fragile world of its own.",
+  "zones": [
+    "Coast & tide pools",
+    "Coral reef"
+  ],
+  "oceans": [
+    "Pacific Ocean",
+    "Atlantic Ocean"
+  ],
+  "hero": {
+    "image": "assets/isla/ISLA00AA.webp",
+    "alt": "Islands"
+  },
+  "intro": "There are more than half a million islands sprinkled across the oceans of the world. Each one is a unique, extremely fragile ecosystem—no two islands have exactly the same plants and animals. Some islands are tranquil paradises made of coral fragments, while others still show signs of their violent volcanic beginnings.",
+  "facts": [
+    {
+      "label": "Count",
+      "value": "There are more than half a million islands sprinkled across the oceans of the world."
+    },
+    {
+      "label": "Uniqueness",
+      "value": "No two islands have exactly the same plants and animals — each is its own fragile ecosystem."
+    },
+    {
+      "label": "Atolls",
+      "value": "When the volcano disappears below the surface, the center area fills with seawater and becomes a lagoon; the remaining circle of reefs is called an atoll. Most of these kinds of islands are located in the western and central Pacific Ocean."
+    },
+    {
+      "label": "Evolution",
+      "value": "Charles Darwin gathered lots of data for his theories on evolution by viewing Galápagos animals. He spent time there as a naturalist in the 1830s."
+    },
+    {
+      "label": "Black sand",
+      "value": "Volcanic island beaches can have black sand, made up of tiny pieces of black and green minerals."
+    },
+    {
+      "label": "Did you know",
+      "value": "Not until the 1970s, when scientists studied fossils of island animals, did they realize how much these fragile worlds had been altered—only fragments of the original species usually remain."
+    }
+  ],
+  "topics": [
+    {
+      "id": "mainland-orphans",
+      "title": "Mainland orphans",
+      "image": "assets/isla/ISLA01PU.webp",
+      "text": "Some islands' rocks reveal that they were once part of a continent. Madagascar is a fragment of land that was left behind when the other continents drifted apart. Many offshore islands, such as the British Isles, formed after the last Ice Age. As the climate grew warmer and glaciers melted, sea levels rose. Low-lying areas along Europe's coast were flooded, and the higher elevations remained above water as islands. Then there are barrier islands, which are created as currents steal coastal sand and deposit it offshore in long sandbars. The Atlantic coast of the United States has many islands like these.",
+      "narration": "assets/isla/ISLA01JN.mp3"
+    },
+    {
+      "id": "born-of-fire",
+      "title": "Born of fire",
+      "image": "assets/isla/ISLA02PU.webp",
+      "text": "Many islands are created by volcanoes.",
+      "captions": [
+        {
+          "label": "Hot spot",
+          "text": "A stationary \"hot spot\" of magma in the earth's mantle occasionally injects lava into the middle of a crustal plate. Because the plates are always moving, an eruption will appear in a different spot on the surface each time the plume is active."
+        },
+        {
+          "label": "Spreading center",
+          "text": "Oceanic plates spread apart at mid-ocean ridges. New crust oozes up through the gap, is grafted onto the edges of the moving plates, and moves away from the spreading center."
+        },
+        {
+          "label": "Island arcs",
+          "text": "Island arcs, like Japan, form where an oceanic plate is forced under a continental plate. As the subducted plate melts, magma rises and forms volcanoes at the surface."
+        }
+      ],
+      "narration": "assets/isla/ISLA02JN.mp3"
+    },
+    {
+      "id": "coral-jewels",
+      "title": "Coral jewels",
+      "image": "assets/isla/ISLA03PU.webp",
+      "text": "Reefs thrive in warm shallow waters on the flanks of volcanic islands. The volcano may eventually sink under its own weight, or sea levels may rise, but the growing reef can usually keep pace with the water level. When the volcano disappears below the surface, the center area fills with seawater and becomes a lagoon; the remaining circle of reefs is called an atoll. Most of these kinds of islands are located in the western and central Pacific Ocean.",
+      "narration": "assets/isla/ISLA03JN.mp3"
+    },
+    {
+      "id": "unique-isolated-worlds",
+      "title": "Unique isolated worlds",
+      "image": "assets/isla/ISLA04PU.webp",
+      "text": "The isolation of islands causes them to develop their own unique plants and animals. Islands that were once connected to continents have species that are descended from the mainland flora and fauna. The first animals to arrive on volcanic islands often had to make long, dangerous journeys, swimming, floating, or flying to their new homes. Once there, they had to adjust to new conditions.",
+      "captions": [
+        {
+          "label": "Keen eye",
+          "text": "Charles Darwin gathered lots of data for his theories on evolution by viewing Galápagos animals. He spent time there as a naturalist in the 1830s."
+        },
+        {
+          "label": "Landlubber",
+          "text": "The flightless cormorant lives only in the Galápagos Islands. Since it has no native predators here, this species has lost its need to fly."
+        }
+      ],
+      "narration": "assets/isla/ISLA04JN.mp3"
+    },
+    {
+      "id": "fierce-invaders",
+      "title": "Fierce invaders",
+      "image": "assets/isla/ISLA05PU.webp",
+      "text": "When people arrive on islands, native species are always lost, even when the impact isn't intentional. Native vegetation is destroyed when land is cleared for farming, grazing, or fuel. New plants and animals brought by settlers can quickly replace native species. Not until the 1970s, when scientists studied fossils of island animals, did they realize how much these fragile worlds had been altered—only fragments of the original species usually remain.",
+      "captions": [
+        {
+          "label": "Signs of change",
+          "text": "When humans come to an island, their influence always alters the natural environment, with sometimes disastrous results."
+        },
+        {
+          "label": "Hoof-and-mouth problems",
+          "text": "Goats and other domesticated animals were introduced by settlers as a source of food. These animals trample and eat native plants, leaving little for the island's original animal inhabitants."
+        }
+      ],
+      "narration": "assets/isla/ISLA05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Marine Iguanas",
+      "to": "igua"
+    },
+    {
+      "label": "Waves",
+      "to": "wave"
+    },
+    {
+      "label": "South Pacific Explorers",
+      "to": "sout"
+    },
+    {
+      "label": "Coral Reefs",
+      "to": "reef"
+    },
+    {
+      "label": "Saltwater Crocodiles",
+      "to": "croc"
+    },
+    {
+      "label": "World Wildlife Fund",
+      "to": "wwfd"
+    },
+    {
+      "label": "Tough Choices"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/isla/ISLA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 7,
+            "h": 4
+          },
+          {
+            "label": "Mainland orphans",
+            "to": "mainland-orphans",
+            "x": 22,
+            "y": 47,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Born of fire",
+            "to": "born-of-fire",
+            "x": 11,
+            "y": 55,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Coral jewels",
+            "to": "coral-jewels",
+            "x": 49,
+            "y": 42,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Fierce invaders",
+            "to": "fierce-invaders",
+            "x": 63,
+            "y": 57,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Birth of a beach",
+            "to": "video",
+            "x": 16,
+            "y": 77,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Unique isolated worlds",
+            "to": "unique-isolated-worlds",
+            "x": 56,
+            "y": 77,
+            "w": 23,
+            "h": 5
+          }
+        ]
+      },
+      "mainland-orphans": {
+        "image": "assets/isla/ISLA01PU.webp",
+        "back": "main"
+      },
+      "born-of-fire": {
+        "image": "assets/isla/ISLA02PU.webp",
+        "back": "main"
+      },
+      "coral-jewels": {
+        "image": "assets/isla/ISLA03PU.webp",
+        "back": "main"
+      },
+      "unique-isolated-worlds": {
+        "image": "assets/isla/ISLA04PU.webp",
+        "back": "main"
+      },
+      "fierce-invaders": {
+        "image": "assets/isla/ISLA05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/isla/clip.mp4",
+        "poster": "assets/isla/ISLA06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/isla/ISLA00JN.mp3",
+  "sound": "assets/isla/ISLA00IX.mp3",
+  "video": {
+    "title": "Birth of a beach",
+    "src": "assets/isla/clip.mp4",
+    "poster": "assets/isla/poster.webp",
+    "caption": "As lava erupts from an island volcano, gravity draws it down to the sea. The hot material cools and hardens into rock, and the island grows. Over time, waves pound the lava flow, eroding it into rock fragments, and eventually to sand grains. This black sand is made up of tiny pieces of black and green minerals.",
+    "narration": "assets/isla/ISLA06JN.mp3"
+  }
+}

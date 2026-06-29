@@ -1,0 +1,216 @@
+{
+  "id": "paci",
+  "code": "PACI",
+  "name": "Pacific Ocean",
+  "category": "place",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "The mightiest ocean on Earth — and it's still shaking the ground beneath it.",
+  "zones": [
+    "Coast & tide pools",
+    "Coral reef",
+    "Open ocean",
+    "Deep sea"
+  ],
+  "oceans": [
+    "Pacific Ocean"
+  ],
+  "hero": {
+    "image": "assets/paci/PACI00AA.webp",
+    "alt": "Pacific Ocean"
+  },
+  "intro": "The Pacific Ocean is huge, covering over one third of the globe and containing more than half of the planet's seawater. The Portuguese explorer Ferdinand Magellan named this ocean for the Latin word pacificus, meaning \"peaceful ocean,\" after he had finally emerged from the treacherous straits at the southern tip of South America. Its name is rather ironic, considering not only that Magellan was killed on a Pacific island several months later, but also that this beautiful ocean is famous for its devastating earthquakes, volcanoes, and tsunamis.",
+  "facts": [
+    {
+      "label": "Size",
+      "value": "Covers over one third of the globe and contains more than half of the planet's seawater"
+    },
+    {
+      "label": "Deepest point",
+      "value": "The Challenger Deep in the Marianas Trench is 11,034 m (36,203 ft) below sea level — almost six times the depth of the Grand Canyon"
+    },
+    {
+      "label": "Tallest mountain",
+      "value": "Mauna Kea measures 10,200 m (33,450 ft) from its sea-floor base to its peak — taller than Mt. Everest"
+    },
+    {
+      "label": "Great Barrier Reef",
+      "value": "Has at least 350 species of corals — and that's only 10 percent of all the animals that live there"
+    },
+    {
+      "label": "Fishing",
+      "value": "The Pacific Ocean supplies half the world's catch of fish"
+    },
+    {
+      "label": "Name",
+      "value": "Named by Ferdinand Magellan for the Latin word pacificus, meaning \"peaceful ocean\""
+    }
+  ],
+  "topics": [
+    {
+      "id": "ring-of-fire",
+      "title": "Ring of Fire",
+      "image": "assets/paci/PACI01PU.webp",
+      "text": "The Pacific is the world's largest ocean, but someday it may lose its title—it's shrinking! The tectonic plates that make up its sea floor are being pushed beneath the bordering continents. The areas where one plate slides under another are called subduction zones.",
+      "captions": [
+        {
+          "label": "Blowing off steam",
+          "text": "Volcanic islands that lie above subduction zones are called island arcs. These volcanoes often explode violently because of steam pressure—the magma contains seawater from the original ocean-floor sediments."
+        },
+        {
+          "label": "When push comes to shove",
+          "text": "As the oceanic plates are thrust under the continental plates, the edges of the oceanic plates melt, then rise up as magma to erupt on the landward side of the subduction zone. These volcanoes form either offshore islands or mountain ranges on the edges of continents, and are what give the Pacific region its nickname, \"the Ring of Fire.\" Earthquakes are another side effect of subduction."
+        }
+      ],
+      "narration": "assets/paci/PACI01JN.mp3"
+    },
+    {
+      "id": "the-highest-and-the-lowest",
+      "title": "The highest and the lowest",
+      "image": "assets/paci/PACI02PU.webp",
+      "text": "The Pacific Ocean has both the highest mountain and the deepest trench in the world, as well as many islands and submerged volcanoes.",
+      "captions": [
+        {
+          "label": "Underwater records",
+          "text": "Mauna Kea volcano, on the island of Hawaii, measures 10,200m (33,450 ft) from its sea-floor base to its peak. This makes it higher than Mt. Everest! The deepest region on earth is off the island of Guam in the Challenger Deep, the deepest part of the Marianas Trench. This canyon is 11,034 m (36,203 ft) below sea level, almost six times the depth of the Grand Canyon."
+        },
+        {
+          "label": "Tormented topography",
+          "text": "A crazy pattern of underwater trenches, seamounts, and islands dot the Pacific sea floor."
+        }
+      ],
+      "narration": "assets/paci/PACI02JN.mp3"
+    },
+    {
+      "id": "rising-from-the-sea-floor",
+      "title": "Rising from the sea floor",
+      "image": "assets/paci/PACI03PU.webp",
+      "text": "The Pacific has many thousands of islands, seamounts, guyots, and atolls. A seamount is a volcanic mountain, probably formed by a hot spot, that never reached the surface. A guyot is a seamount with a flat top, which shows erosion by waves. Atolls form when coral reefs grow on the flanks of volcanic islands. When the island later sinks below sea level, its reefs remain as an atoll.",
+      "narration": "assets/paci/PACI03JN.mp3"
+    },
+    {
+      "id": "seen-from-the-moon",
+      "title": "Seen from the moon",
+      "image": "assets/paci/PACI05PU.webp",
+      "text": "The Great Barrier Reef, located off the northeastern coast of Australia, is the largest reef system on earth. Built by colonies of tiny animals, it can even be seen from the moon. In fact, it wasn't even fully mapped until being photographed by the Apollo VII astronauts! This remarkable reef system has flourished for thousands of years, and is hundreds of feet thick. The area has a warm climate, and a large tidal range that brings in lots of nutrients, perfect conditions for growing coral. The reef has at least 350 species of corals—and that's only 10 percent of all the animals that live there!",
+      "narration": "assets/paci/PACI05JN.mp3"
+    },
+    {
+      "id": "no-nukes",
+      "title": "No nukes",
+      "image": "assets/paci/PACI06PU.webp",
+      "text": "During the 1940s and 1950s, the United States government detonated nuclear bombs off the coasts of several isolated atolls in the Pacific. (In the summer of 1946, when testing first began off Bikini, its name was adopted for a style of two-piece bathing suit.) Unfortunately, the people of Bikini, an atoll in the Marshall Islands, were forced to leave their homes, and could not return until 1969. Underwater and atmospheric nuclear testing are now banned, but some atolls are being eyed as places for depositing nuclear and non-nuclear waste.",
+      "narration": "assets/paci/PACI06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "South Pacific Explorers",
+      "to": "sout"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/paci/PACI00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "Ring of Fire",
+            "to": "ring-of-fire",
+            "x": 3,
+            "y": 52,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Seen from the moon",
+            "to": "seen-from-the-moon",
+            "x": 34,
+            "y": 43,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "The highest and the lowest",
+            "to": "the-highest-and-the-lowest",
+            "x": 60,
+            "y": 52,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Seafood platter",
+            "to": "video",
+            "x": 10,
+            "y": 67,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "No nukes",
+            "to": "no-nukes",
+            "x": 27,
+            "y": 72,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "Rising from the sea floor",
+            "to": "rising-from-the-sea-floor",
+            "x": 27,
+            "y": 78,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "ring-of-fire": {
+        "image": "assets/paci/PACI01PU.webp",
+        "back": "main"
+      },
+      "the-highest-and-the-lowest": {
+        "image": "assets/paci/PACI02PU.webp",
+        "back": "main"
+      },
+      "rising-from-the-sea-floor": {
+        "image": "assets/paci/PACI03PU.webp",
+        "back": "main"
+      },
+      "seen-from-the-moon": {
+        "image": "assets/paci/PACI05PU.webp",
+        "back": "main"
+      },
+      "no-nukes": {
+        "image": "assets/paci/PACI06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/paci/clip.mp4",
+        "poster": "assets/paci/PACI04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/paci/PACI00JN.mp3",
+  "sound": "assets/paci/PACI00IX.mp3",
+  "video": {
+    "title": "Seafood platter",
+    "src": "assets/paci/clip.mp4",
+    "poster": "assets/paci/poster.webp",
+    "caption": "The Pacific Ocean supplies half the world's catch of fish, but drift nets and overharvesting threaten stocks. One of the biggest problems is bycatch, the commercially worthless fish that are caught, killed, and simply thrown away.",
+    "narration": "assets/paci/PACI04JN.mp3"
+  }
+}

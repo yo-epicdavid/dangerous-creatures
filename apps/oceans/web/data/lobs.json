@@ -1,0 +1,208 @@
+{
+  "id": "lobs",
+  "code": "LOBS",
+  "name": "Lobsters",
+  "category": "creature",
+  "scientificName": "Homarus americanus",
+  "needsScientificVerify": false,
+  "tagline": "Armored ocean scavengers that can walk miles and live to 100!",
+  "zones": [
+    "Coast & tide pools",
+    "Coral reef",
+    "Deep sea"
+  ],
+  "oceans": [
+    "Atlantic Ocean",
+    "Pacific Ocean",
+    "Indian Ocean"
+  ],
+  "hero": {
+    "image": "assets/lobs/LOBS00AA.webp",
+    "alt": "Lobsters"
+  },
+  "intro": "Lobsters belong to a large group of marine invertebrates called Crustaceans, of which there are over 30,000 different kinds throughout the world. Crustaceans are tough creatures with strong outer skeletons, segmented bodies, and paired limbs. Lobsters, or decapods—so named, along with crabs and shrimps, because they have 10 legs—scavenge the ocean bottom for carrion or live fish. Lobsters have been known to take long walks of up to 15 km (9.3 mi), and some have lived to be about 50 years old. In fact, one lobster even made it to 100. Something about their lifestyle must suit them!",
+  "facts": [
+    {
+      "label": "Legs",
+      "value": "Lobsters are decapods—they have 10 legs, along with crabs and shrimps."
+    },
+    {
+      "label": "Lifespan",
+      "value": "Some lobsters live to about 50 years old, and one even reached 100!"
+    },
+    {
+      "label": "Walks",
+      "value": "Lobsters have been known to take long walks of up to 15 km (9.3 mi) across the ocean floor."
+    },
+    {
+      "label": "Marches",
+      "value": "As many as 60 spiny lobsters will sometimes set off on migratory marches, head-to-tail along the ocean bottom!"
+    },
+    {
+      "label": "Eyes",
+      "value": "The lobster has the largest compound eye of any marine invertebrate."
+    },
+    {
+      "label": "Did you know",
+      "value": "Copepods—tiny crustacean relatives of lobsters—are the most plentiful animals in the world."
+    }
+  ],
+  "topics": [
+    {
+      "id": "lovely-lobsters",
+      "title": "Lovely lobsters",
+      "image": "assets/lobs/LOBS01PU.webp",
+      "text": "At least six kinds of lobsters roam the sea bottom, but only one—the species of the family Homaridae—has a large pair of claws.\n\nHeads to tails\nSpiny lobsters like this one dwell in tropical Atlantic waters from Bermuda to Brazil, around South Africa, and along the California coast. As many as 60 spiny lobsters will sometimes set off on migratory marches, head-to-tail along the ocean bottom!\n\nNo antennae\nInstead of having antennae on their heads like other lobsters, shovel-nosed lobsters have two rounded plates. These lobsters like to hide out in the crevices and caves of deep-sea volcanic reefs.",
+      "captions": [
+        {
+          "label": "Heads to tails",
+          "text": "Spiny lobsters like this one dwell in tropical Atlantic waters from Bermuda to Brazil, around South Africa, and along the California coast. As many as 60 spiny lobsters will sometimes set off on migratory marches, head-to-tail along the ocean bottom!"
+        },
+        {
+          "label": "No antennae",
+          "text": "Instead of having antennae on their heads like other lobsters, shovel-nosed lobsters have two rounded plates. These lobsters like to hide out in the crevices and caves of deep-sea volcanic reefs."
+        }
+      ],
+      "narration": "assets/lobs/LOBS01JN.mp3"
+    },
+    {
+      "id": "tiny-but-important",
+      "title": "Tiny but important",
+      "image": "assets/lobs/LOBS02PU.webp",
+      "text": "Copepods—often called the \"insects of the sea\"—include over 180 families of tiny crustaceans that provide food for a variety of marine animals.\n\nFood web\nIn the oceans, as on land, the food web consists of an interlocking series of relationships in which animals and plants depend upon and compete with one another for survival. A whale shark is much larger and much more powerful than the tiny copepods it eats, but it is also dependent upon them for its survival. Without the nourishment provided by these smaller creatures, this shark would die.\n\nSmall bites\nCopepods are the most abundant crustaceans in the plankton—masses of microscopic animals and plants that drift on the oceans' currents. They filter-feed by waving their feathery legs (maxillae) to sieve the waters for smaller plankton. Copepods are the most plentiful animals in the world.",
+      "captions": [
+        {
+          "label": "Food web",
+          "text": "In the oceans, as on land, the food web consists of an interlocking series of relationships in which animals and plants depend upon and compete with one another for survival. A whale shark is much larger and much more powerful than the tiny copepods it eats, but it is also dependent upon them for its survival. Without the nourishment provided by these smaller creatures, this shark would die."
+        },
+        {
+          "label": "Small bites",
+          "text": "Copepods are the most abundant crustaceans in the plankton—masses of microscopic animals and plants that drift on the oceans' currents. They filter-feed by waving their feathery legs (maxillae) to sieve the waters for smaller plankton. Copepods are the most plentiful animals in the world."
+        }
+      ],
+      "narration": "assets/lobs/LOBS02JN.mp3"
+    },
+    {
+      "id": "eyes-on-stalks",
+      "title": "Eyes on stalks",
+      "image": "assets/lobs/LOBS03PU.webp",
+      "text": "Most crustaceans' eyes pop out on stalks and have a lot in common with insects' eyes.\n\nMany facets\nCrustaceans have compound eyes that focus light from many facets down a central path to the optic nerve and the brain. The lobster has the largest compound eye of any marine invertebrate.\n\nSide eyes\nThis hammerhead shark has an unusual perspective. Located on the sides of its head, this shark's eyes give it a wide range of vision, but it cannot see dead ahead.\n\nPrivate eyes\nThese creatures can retract their eyes into their carapaces—or shells—when they feel threatened, or raise them like periscopes to see over tall objects.",
+      "captions": [
+        {
+          "label": "Many facets",
+          "text": "Crustaceans have compound eyes that focus light from many facets down a central path to the optic nerve and the brain. The lobster has the largest compound eye of any marine invertebrate."
+        },
+        {
+          "label": "Side eyes",
+          "text": "This hammerhead shark has an unusual perspective. Located on the sides of its head, this shark's eyes give it a wide range of vision, but it cannot see dead ahead."
+        },
+        {
+          "label": "Private eyes",
+          "text": "These creatures can retract their eyes into their carapaces—or shells—when they feel threatened, or raise them like periscopes to see over tall objects."
+        }
+      ],
+      "narration": "assets/lobs/LOBS03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Shallows",
+      "to": "shal"
+    },
+    {
+      "label": "Crabs",
+      "to": "crab"
+    },
+    {
+      "label": "Plankton",
+      "to": "plan"
+    },
+    {
+      "label": "Shrimp",
+      "to": "shri"
+    },
+    {
+      "label": "Aquarium Game"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/lobs/LOBS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Eyes on stalks",
+            "to": "eyes-on-stalks",
+            "x": 65,
+            "y": 40,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Tiny but important",
+            "to": "tiny-but-important",
+            "x": 57,
+            "y": 55,
+            "w": 25,
+            "h": 6
+          },
+          {
+            "label": "Lovely lobsters",
+            "to": "lovely-lobsters",
+            "x": 46,
+            "y": 76,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "A dwindling supply",
+            "to": "video",
+            "x": 10,
+            "y": 77,
+            "w": 22,
+            "h": 6
+          }
+        ]
+      },
+      "lovely-lobsters": {
+        "image": "assets/lobs/LOBS01PU.webp",
+        "back": "main"
+      },
+      "tiny-but-important": {
+        "image": "assets/lobs/LOBS02PU.webp",
+        "back": "main"
+      },
+      "eyes-on-stalks": {
+        "image": "assets/lobs/LOBS03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/lobs/clip.mp4",
+        "poster": "assets/lobs/LOBS04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/lobs/LOBS00JN.mp3",
+  "sound": "assets/lobs/LOBS00IX.mp3",
+  "video": {
+    "title": "A dwindling supply",
+    "src": "assets/lobs/clip.mp4",
+    "poster": "assets/lobs/poster.webp",
+    "caption": "Lobsters have become such a popular treat that we are literally eating our way through the ocean's supply. American lobsters are often caught just off the coast in lobster pots—traps set by a tunnel of netting into which the lobster enters but can't escape. Fishing boats also trawl for lobsters that live in deeper waters. Some people are trying to raise lobsters in pens, but it's not yet known whether farming them will be successful.",
+    "narration": "assets/lobs/LOBS04JN.mp3"
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "id": "colr",
+  "code": "COLR",
+  "name": "Colors",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Ocean animals wear colors to hide, to warn, and to dazzle.",
+  "zones": [
+    "Coral reef",
+    "Open ocean",
+    "Deep sea"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/colr/COLR00AA.webp",
+    "alt": "Colors"
+  },
+  "intro": "Why do animals come in different colors? Some are trying to stand out in hopes of attracting mates. Others are trying to hide from predators or prey. And then there are those who are warning others to stay away. Just like creatures on land, ocean animals wear different colors for different reasons.",
+  "facts": [
+    {
+      "label": "Deepest color",
+      "value": "Bright blue is the most visible color in the ocean depths — not yellow or orange as on land."
+    },
+    {
+      "label": "Warning",
+      "value": "Blue-ringed octopuses display bright blue rings as a warning. Their venomous bite can kill within minutes."
+    },
+    {
+      "label": "Camouflage",
+      "value": "Reef sharks have dark backs (hard to see from above) and light bellies (hard to see from below) — built-in two-tone camouflage."
+    },
+    {
+      "label": "Quick-change",
+      "value": "Octopuses and cuttlefish change color by expanding or contracting tiny bags of pigment in their skin."
+    },
+    {
+      "label": "Transparency",
+      "value": "Some creatures, like the ciliated comb jelly, are completely transparent — the ultimate camouflage in open water."
+    },
+    {
+      "label": "False eyes",
+      "value": "Some fish have false eyespots near their tails to trick predators into attacking the wrong end."
+    }
+  ],
+  "topics": [
+    {
+      "id": "disappearing-colors",
+      "title": "Disappearing colors",
+      "image": "assets/colr/COLR01PU.webp",
+      "text": "In sunlight, colors such as bright yellow and brilliant orange are the most visible. However, different rules apply below the surface of the ocean, because light is not reflected in the same way that it is on land. Would you have predicted that bright blue is the most visible color in the depths?",
+      "captions": [
+        {
+          "label": "Blue means back off!",
+          "text": "The bright blue rings on this octopus are a warning. This tiny creature can deliver a venomous bite that kills within minutes. Many brightly colored marine creatures produce venom that stuns or kills their prey."
+        }
+      ],
+      "narration": "assets/colr/COLR01JN.mp3"
+    },
+    {
+      "id": "quick-change-artist",
+      "title": "Quick-change artist",
+      "image": "assets/colr/COLR02PU.webp",
+      "text": "Quite a few marine creatures can change colors to show their moods or to hide from predators or prey. Octopuses and cuttlefish are two of the true masters: they change colors by expanding or contracting tiny bags of pigment in their skin. Pretty neat trick!",
+      "captions": [
+        {
+          "label": "Ready to be red",
+          "text": "Blending into a background of bright red corals is no problem for this master of disguise!"
+        },
+        {
+          "label": "Gray and white looks right",
+          "text": "Many predators won't see this cuttlefish against the mottled sand."
+        }
+      ],
+      "narration": "assets/colr/COLR02JN.mp3"
+    },
+    {
+      "id": "butterflies-of-the-sea",
+      "title": "Butterflies of the sea",
+      "image": "assets/colr/COLR03PU.webp",
+      "text": "Would you expect an underwater scene to be just blue or green? If so, take a closer look at what lives beneath the ocean waves.",
+      "captions": [
+        {
+          "label": "Fabulous flatworm",
+          "text": "You'll have a whole new appreciation for worms when you see the many colorful creatures like this one that are crawling around on the ocean floor!"
+        },
+        {
+          "label": "This is a slug?",
+          "text": "Yes, sea slugs—also called nudibranchs or sea hares—don't wear dull colors like the slugs we see on land. Do you see why some divers call these pretty mollusks \"the butterflies of the sea\"?"
+        }
+      ],
+      "narration": "assets/colr/COLR03JN.mp3"
+    },
+    {
+      "id": "color-tricks",
+      "title": "Color tricks",
+      "image": "assets/colr/COLR04PU.webp",
+      "text": "Just like animals on land, many sea animals have evolved colors and patterns that confuse their predators or their prey.",
+      "captions": [
+        {
+          "label": "Stripes everywhere",
+          "text": "Like zebras in Africa, these striped fish hope that a predator will have a hard time telling where one fish ends and another begins. Stripes help camouflage animals that travel in large groups or hide out in long grass."
+        },
+        {
+          "label": "Two-toned camouflage",
+          "text": "This shark's dark back blends in with the ocean depths when viewed from above. When viewed from below, the shark's light underside is hard to see against the sunlit surface. This coloring helps the shark sneak up on prey or sneak away from bigger sharks."
+        }
+      ],
+      "narration": "assets/colr/COLR04JN.mp3"
+    },
+    {
+      "id": "nearly-invisible",
+      "title": "Nearly invisible",
+      "image": "assets/colr/COLR05PU.webp",
+      "text": "The coloring of some sea animals is designed to blend in with the surrounding water. A hunter with poor eyesight could go hungry looking for these two creatures.",
+      "captions": [
+        {
+          "label": "Sliver of silver",
+          "text": "You have to look hard to see the fish in this scene. Their silver skins and slender bodies help them blend in with the sun-dappled waters."
+        },
+        {
+          "label": "Totally transparent",
+          "text": "If you really want to blend into your surroundings, being transparent might be the key. You can see right through this jellyfish!"
+        }
+      ],
+      "narration": "assets/colr/COLR05JN.mp3"
+    },
+    {
+      "id": "which-end-is-which",
+      "title": "Which end is which?",
+      "image": "assets/colr/COLR06PU.webp",
+      "text": "When you live in a world in which you're likely to be bitten, it's a good strategy to attract predators to your tail, and not to your head. The markings on these fish are designed to confuse.",
+      "captions": [
+        {
+          "label": "One fish or more?",
+          "text": "Clown triggerfish have multiple colors, stripes, and spots. This may make it harder for a predator to see the fish's outline and recognize it as a potential meal."
+        },
+        {
+          "label": "Find the eye",
+          "text": "This fish's real eye is hidden by a black stripe. Its false eyespot might cause it to lose part of its tail, but the fish is more likely to survive an attack from the rear than a head-on assault."
+        }
+      ],
+      "narration": "assets/colr/COLR06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Squid and Cuttlefish",
+      "to": "squi"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/colr/COLR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 2,
+            "w": 9,
+            "h": 8
+          },
+          {
+            "label": "Disappearing colors",
+            "to": "disappearing-colors",
+            "x": 47,
+            "y": 4,
+            "w": 30,
+            "h": 8
+          },
+          {
+            "label": "A world of color",
+            "to": "video",
+            "x": 59,
+            "y": 27,
+            "w": 25,
+            "h": 8
+          },
+          {
+            "label": "Nearly invisible",
+            "to": "nearly-invisible",
+            "x": 57,
+            "y": 39,
+            "w": 27,
+            "h": 8
+          },
+          {
+            "label": "Color tricks",
+            "to": "color-tricks",
+            "x": 57,
+            "y": 64,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "Butterflies of the sea",
+            "to": "butterflies-of-the-sea",
+            "x": 5,
+            "y": 67,
+            "w": 34,
+            "h": 7
+          },
+          {
+            "label": "Which end is which?",
+            "to": "which-end-is-which",
+            "x": 5,
+            "y": 76,
+            "w": 32,
+            "h": 7
+          },
+          {
+            "label": "Quick-change artist",
+            "to": "quick-change-artist",
+            "x": 5,
+            "y": 87,
+            "w": 30,
+            "h": 7
+          }
+        ]
+      },
+      "disappearing-colors": {
+        "image": "assets/colr/COLR01PU.webp",
+        "back": "main"
+      },
+      "quick-change-artist": {
+        "image": "assets/colr/COLR02PU.webp",
+        "back": "main"
+      },
+      "butterflies-of-the-sea": {
+        "image": "assets/colr/COLR03PU.webp",
+        "back": "main"
+      },
+      "color-tricks": {
+        "image": "assets/colr/COLR04PU.webp",
+        "back": "main"
+      },
+      "nearly-invisible": {
+        "image": "assets/colr/COLR05PU.webp",
+        "back": "main"
+      },
+      "which-end-is-which": {
+        "image": "assets/colr/COLR06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/colr/clip.mp4",
+        "poster": "assets/colr/COLR07PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/colr/COLR00JN.mp3",
+  "sound": "assets/colr/COLR00IX.mp3",
+  "video": {
+    "title": "A world of color",
+    "src": "assets/colr/clip.mp4",
+    "poster": "assets/colr/poster.webp",
+    "caption": "At the surface, the ocean usually looks a uniform gray, green, or blue. That's because the water is reflecting the sky, and the sky changes to bright colors only at sunrise or sunset. But just as bright birds and colorful animals inhabit the land beneath the sky, brilliantly colored creatures also grace the world beneath the waves.",
+    "narration": "assets/colr/COLR07JN.mp3"
+  }
+}

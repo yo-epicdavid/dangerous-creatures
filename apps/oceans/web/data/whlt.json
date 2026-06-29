@@ -1,0 +1,192 @@
+{
+  "id": "whlt",
+  "code": "WHLT",
+  "name": "Toothed Whales",
+  "category": "creature",
+  "scientificName": "Odontoceti",
+  "needsScientificVerify": false,
+  "tagline": "From spiraling narwhal tusks to the mighty sperm whale, toothed whales are the ocean's most jaw-dropping hunters.",
+  "zones": [
+    "Open ocean",
+    "Polar seas",
+    "Rivers & estuaries",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/whlt/WHLT00AA.webp",
+    "alt": "Toothed Whales"
+  },
+  "intro": "What is a whale? Whales belong to a group of animals called Cetaceans, which are mammals that spend all of their time in the water. Dolphins and porpoises are also cetaceans. Generally speaking, the word \"whale\" is used to describe any cetacean that's longer than 3m (9.8 ft). And there are two categories of whales, too—those that strain their food with baleen, called baleen whales, and those that grip their prey with teeth, called toothed whales. As you can see, this orca is a toothy type of whale!",
+  "facts": [
+    {
+      "label": "Size",
+      "value": "The largest toothed whale, the male sperm whale, can reach 20 m (65 ft) in length."
+    },
+    {
+      "label": "Tusk",
+      "value": "A male narwhal's spiraling tusk can be up to 3 m (9.8 ft) long."
+    },
+    {
+      "label": "Definition",
+      "value": "The word \"whale\" is used to describe any cetacean longer than 3 m (9.8 ft)."
+    },
+    {
+      "label": "Did you know",
+      "value": "Belugas chirp, whistle, squeal, and squeak almost continuously—so much so that some people call them \"the canaries of the sea.\""
+    },
+    {
+      "label": "Hunting",
+      "value": "Orcas often hunt in packs, encircling the seals or fish on which they prey."
+    },
+    {
+      "label": "Ambergris",
+      "value": "Sperm whales produce ambergris—a waxy substance used in perfumes—to protect against indigestible beaks of octopuses and squid."
+    }
+  ],
+  "topics": [
+    {
+      "id": "underwater-unicorns",
+      "title": "Underwater unicorns",
+      "image": "assets/whlt/WHLT01PU.webp",
+      "text": "One of the most famous of the toothed whales is the narwhal, which lives in icy Arctic waters. All narwhals are born with the buds of several teeth in their mouths. In females, these tooth buds don't develop at all, but in male narwhals, the left uppermost bud grows into a long, spiraling tusk, which can be up to 3m (9.8 ft) long. The males sometimes do battle with their tusks, but most of the time they seem to use them only to scare up fish from the ocean bottom.",
+      "captions": [
+        {
+          "label": "Narwhals",
+          "text": "Monodon monoceros"
+        }
+      ],
+      "narration": "assets/whlt/WHLT01JN.mp3"
+    },
+    {
+      "id": "not-really-a-killer",
+      "title": "Not really a killer",
+      "image": "assets/whlt/WHLT03PU.webp",
+      "text": "Why are orcas called \"killer whales\"? After all, many other whales—belugas, sperm whales, and pilot whales, just to name a few—hunt and kill other marine animals for food. Maybe it's because the sight of an orca's fin slicing through the water reminds us of an attacking shark, or because orcas often hunt in packs, encircling the seals or fish on which they prey. In any case, these beautiful, social mammals are no more \"killers\" than are starfish or pelicans.",
+      "captions": [
+        {
+          "label": "Orca breaching",
+          "text": "Orcinus orca"
+        }
+      ],
+      "narration": "assets/whlt/WHLT03JN.mp3"
+    },
+    {
+      "id": "the-biggest",
+      "title": "The biggest",
+      "image": "assets/whlt/WHLT04PU.webp",
+      "text": "The largest toothed whale is the male sperm whale, which can reach 20 m (65 ft) in length! Whalers nearly wiped out this species by slaughtering hundreds of thousands of them from the early 1700s through the 1980s. Sperm whales were killed for their blubber, for the spermaceti \"wax\" in their rectangular heads, and for ambergris, a waxy substance used in perfumes. Ambergris is produced by the sperm whale's digestive system to help protect it from the indigestible beaks of the octopuses and squid on which it feeds.",
+      "captions": [
+        {
+          "label": "Sperm whale",
+          "text": "Physeter macrocephalus or Physeter catodon"
+        }
+      ],
+      "narration": "assets/whlt/WHLT04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Manatees and Dugongs",
+      "to": "mana"
+    },
+    {
+      "label": "Walruses",
+      "to": "walr"
+    },
+    {
+      "label": "Octopuses",
+      "to": "octo"
+    },
+    {
+      "label": "Scary Sharks",
+      "to": "shar"
+    },
+    {
+      "label": "Sea Turtles",
+      "to": "turt"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/whlt/WHLT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 3,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Underwater unicorns",
+            "to": "underwater-unicorns",
+            "x": 60,
+            "y": 27,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "White whales",
+            "to": "video",
+            "x": 60,
+            "y": 43,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "Not really a killer",
+            "to": "not-really-a-killer",
+            "x": 8,
+            "y": 62,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "The biggest",
+            "to": "the-biggest",
+            "x": 60,
+            "y": 83,
+            "w": 17,
+            "h": 6
+          }
+        ]
+      },
+      "underwater-unicorns": {
+        "image": "assets/whlt/WHLT01PU.webp",
+        "back": "main"
+      },
+      "not-really-a-killer": {
+        "image": "assets/whlt/WHLT03PU.webp",
+        "back": "main"
+      },
+      "the-biggest": {
+        "image": "assets/whlt/WHLT04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/whlt/clip.mp4",
+        "poster": "assets/whlt/WHLT02PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/whlt/WHLT00JN.mp3",
+  "sound": "assets/whlt/WHLT00IX.mp3",
+  "video": {
+    "title": "White whales",
+    "src": "assets/whlt/clip.mp4",
+    "poster": "assets/whlt/poster.webp",
+    "caption": "Belugas chirp, whistle, squeal, and squeak almost continuously—so much so that some people call them \"the canaries of the sea.\" Because they congregate at river mouths and in bays, they are especially vulnerable to manmade pollution.",
+    "narration": "assets/whlt/WHLT02JN.mp3"
+  }
+}

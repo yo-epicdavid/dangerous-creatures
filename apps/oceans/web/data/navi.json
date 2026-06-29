@@ -1,0 +1,287 @@
+{
+  "id": "navi",
+  "code": "NAVI",
+  "name": "Navigation",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Lost at sea? Sailors have found clever ways to know exactly where they are—from the stars overhead to satellites in space!",
+  "zones": [
+    "Coast & tide pools",
+    "Open ocean"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/navi/NAVI00AA.webp",
+    "alt": "Navigation"
+  },
+  "intro": "Lighthouses flash brilliant beams of light that can be seen for many miles. Located on especially prominent or hazardous islands or coasts, they let seamen know where they are in relation to the land. But sailors who cross entire oceans have to find their way through a large expanse of water, out of sight of any coastline. At first seafarers used the stars to fix a direction. Then they invented navigational aids like the sextant and the compass. Over time, navigation has evolved to the point where satellites, radar, and sonar can now be used to locate ships anywhere in the world, and even to map the depths of the oceans.",
+  "facts": [
+    {
+      "label": "Sextant",
+      "value": "The sextant calculates latitude by measuring the angle between a star and the horizon, or between two landmarks whose positions are known."
+    },
+    {
+      "label": "GPS",
+      "value": "The Global Positioning System uses satellites orbiting the earth so a user can determine the exact position of a vessel anywhere in the world."
+    },
+    {
+      "label": "Suez Canal",
+      "value": "The Suez Canal is 170 km (100.6 mi) long. Built in 1869, it connects the Red Sea with the Mediterranean Sea."
+    },
+    {
+      "label": "Panama Canal",
+      "value": "Ships using the Panama Canal pass through six locks, which raise them 26 m (85 ft) to cope with the difference in altitude between the oceans and the canal."
+    },
+    {
+      "label": "SONAR",
+      "value": "SONAR stands for SOund NAvigation and Ranging and can reveal underwater terrain and hazards by recording sound wave echoes."
+    },
+    {
+      "label": "Chronometer",
+      "value": "The chronometer kept time in all temperatures and was used to determine longitude."
+    }
+  ],
+  "topics": [
+    {
+      "id": "traditional-tools",
+      "title": "Traditional tools",
+      "image": "assets/navi/NAVI01PU.webp",
+      "text": "Early seafarers devised ingenious ways to pinpoint their positions on the open seas. Many of their devices are still in use today.",
+      "captions": [
+        {
+          "label": "Sextant",
+          "text": "The sextant, which is still employed by sailors today, replaced the astrolabe in the eighteenth century. It calculates latitude by measuring the angle between a star and the horizon, or between two landmarks whose positions are known."
+        },
+        {
+          "label": "Compass",
+          "text": "The compass—developed early on by the Chinese—uses the earth's magnetic force to determine direction. Medieval European explorers devised the astrolabe, which helped them chart the positions of the stars."
+        },
+        {
+          "label": "Chronometer",
+          "text": "The chronometer kept time in all temperatures and was used to determine longitude."
+        }
+      ],
+      "narration": "assets/navi/NAVI01JN.mp3"
+    },
+    {
+      "id": "marking-the-coasts",
+      "title": "Marking the coasts",
+      "image": "assets/navi/NAVI02PU.webp",
+      "text": "A precise system of lights and buoys now helps ships find their way around coastal hazards and in and out of bays and harbors.",
+      "captions": [
+        {
+          "label": "Buoyed up",
+          "text": "Buoys are steel markers anchored by a long chain to the bottom of the sea, bay, or river. They warn of sandbars and mark shipping channels. Many buoys have lights and bells so that they can be seen at night and heard through fog. Different colors tell sailors whether to pass them on the left (port), or on the right (starboard). Buoys also serve as handy resting places for birds and sea lions."
+        },
+        {
+          "label": "Way off the mark",
+          "text": "As you can see by this 1572 map, medieval explorers weren't very accurate when mapping either coastlines or ocean expanses. And look at the monsters that awaited the seafarers! It's a wonder that any medieval sailor dared to board a ship."
+        }
+      ],
+      "narration": "assets/navi/NAVI02JN.mp3"
+    },
+    {
+      "id": "space-age-sightings",
+      "title": "Space-age sightings",
+      "image": "assets/navi/NAVI03PU.webp",
+      "text": "Today sophisticated systems using satellites and radio beams calculate ships' positions, even in the roughest seas. The Global Positioning System (GPS)—also used in aviation and by the military—involves a number of satellites orbiting the earth. By transmitting and receiving signals, a user can determine the exact position of a vessel anywhere in the world. The Loran (long-range navigation) system, developed by the Allies for use in the Atlantic during World War II, has since expanded into a global network of transmitters. By monitoring Loran's precisely synchronized radio signals, ships and aircraft are able to determine their positions at sea.",
+      "captions": [
+        {
+          "label": "Communications satellite in orbit",
+          "text": "Communications satellite in orbit"
+        }
+      ],
+      "narration": "assets/navi/NAVI03JN.mp3"
+    },
+    {
+      "id": "slicing-through-land",
+      "title": "Slicing through land",
+      "image": "assets/navi/NAVI04PU.webp",
+      "text": "Major canals created by humans cut thousands of miles from ships' journeys by eliminating longer routes around entire continents.",
+      "captions": [
+        {
+          "label": "Route east or west",
+          "text": "The Suez Canal, shown here as viewed from the space shuttle, is 170 km (100.6 mi) long. Built in 1869, it connects the Red Sea with the Mediterranean Sea. It's heavily used by ships traveling between Europe and the Far East."
+        },
+        {
+          "label": "Locked in or out",
+          "text": "The Panama Canal, built in 1914, provides an opening between the Atlantic and Pacific oceans, and saves ships from having to round the southern tip of South America at Cape Horn—one of the most dangerous passages in the ocean. Ships using the Panama Canal have to pass through six locks, which raise them 26 m (85 ft) to cope with the difference in altitude between the oceans and the canal."
+        }
+      ],
+      "narration": "assets/navi/NAVI04JN.mp3"
+    },
+    {
+      "id": "traffic-jams",
+      "title": "Traffic jams",
+      "image": "assets/navi/NAVI05PU.webp",
+      "text": "The oceans are becoming crowded with freighters, tankers, and container ships, all transporting goods and people from one part of the world to another. Radar enables these ships to keep track of one another's positions. Transmitters send out powerful energy pulses that reflect off objects, echo back, and form a picture on a screen. But it's still important to have someone on deck keeping watch!",
+      "narration": "assets/navi/NAVI05JN.mp3"
+    },
+    {
+      "id": "can-you-hear-the-bottom",
+      "title": "Can you hear the bottom?",
+      "image": "assets/navi/NAVI06PU.webp",
+      "text": "Sound waves—or SONAR (SOund NAvigation and Ranging)—can reveal underwater terrain and hazards. Sonar can be heard in little blips as it records visual data on a screen or on paper. Ships' captains can locate channels and avoid running aground by becoming familiar with the slopes of the ocean bottom. Avoiding a disaster at sea is especially important nowadays, since commercial ships often carry toxic cargoes that can foul beaches and kill marine life!",
+      "captions": [
+        {
+          "label": "Sonar scan of wrecked schooner on ocean floor",
+          "text": "Sonar scan of wrecked schooner on ocean floor"
+        }
+      ],
+      "narration": "assets/navi/NAVI06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Powered Ships",
+      "to": "powe"
+    },
+    {
+      "label": "The Shallows",
+      "to": "shal"
+    },
+    {
+      "label": "What is Oceanography?",
+      "to": "ocea"
+    },
+    {
+      "label": "Submarines and Robots",
+      "to": "robo"
+    },
+    {
+      "label": "Mediterranean Sea",
+      "to": "medi"
+    },
+    {
+      "label": "Fantastic Voyages",
+      "to": "fant"
+    },
+    {
+      "label": "Sea Senses",
+      "to": "sens"
+    },
+    {
+      "label": "Pacific Ocean",
+      "to": "paci"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/navi/NAVI00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 7,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Slicing through land",
+            "to": "slicing-through-land",
+            "x": 52,
+            "y": 5,
+            "w": 29,
+            "h": 5
+          },
+          {
+            "label": "Traffic jams",
+            "to": "traffic-jams",
+            "x": 58,
+            "y": 37,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Marking the coasts",
+            "to": "marking-the-coasts",
+            "x": 12,
+            "y": 72,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Space-age sightings",
+            "to": "space-age-sightings",
+            "x": 12,
+            "y": 79,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Can you hear the bottom?",
+            "to": "can-you-hear-the-bottom",
+            "x": 37,
+            "y": 72,
+            "w": 28,
+            "h": 9
+          },
+          {
+            "label": "Traditional tools",
+            "to": "traditional-tools",
+            "x": 60,
+            "y": 84,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Where are we?",
+            "to": "video",
+            "x": 2,
+            "y": 89,
+            "w": 22,
+            "h": 6
+          }
+        ]
+      },
+      "traditional-tools": {
+        "image": "assets/navi/NAVI01PU.webp",
+        "back": "main"
+      },
+      "marking-the-coasts": {
+        "image": "assets/navi/NAVI02PU.webp",
+        "back": "main"
+      },
+      "space-age-sightings": {
+        "image": "assets/navi/NAVI03PU.webp",
+        "back": "main"
+      },
+      "slicing-through-land": {
+        "image": "assets/navi/NAVI04PU.webp",
+        "back": "main"
+      },
+      "traffic-jams": {
+        "image": "assets/navi/NAVI05PU.webp",
+        "back": "main"
+      },
+      "can-you-hear-the-bottom": {
+        "image": "assets/navi/NAVI06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/navi/clip.mp4",
+        "poster": "assets/navi/NAVI07PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/navi/NAVI00JN.mp3",
+  "sound": "assets/navi/NAVI00IX.mp3",
+  "video": {
+    "title": "Where are we?",
+    "src": "assets/navi/clip.mp4",
+    "poster": "assets/navi/poster.webp",
+    "caption": "The oceans are vast, and it's easy to get lost when you're out of sight of land. So every sailor needs to know the basics of how to find and keep track of a boat's position. Otherwise, you could end up almost anywhere, like on the beach of an uninhabited island like this.",
+    "narration": "assets/navi/NAVI07JN.mp3"
+  }
+}

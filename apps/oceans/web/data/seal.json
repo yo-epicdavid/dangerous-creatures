@@ -1,0 +1,274 @@
+{
+  "id": "seal",
+  "code": "SEAL",
+  "name": "Seals and Sea Lions",
+  "category": "creature",
+  "scientificName": "Pinnipedia",
+  "needsScientificVerify": false,
+  "tagline": "Graceful torpedoes of the sea, clumsy clowns on land—meet the pinnipeds!",
+  "zones": [
+    "Coast & tide pools",
+    "Open ocean",
+    "Polar seas"
+  ],
+  "oceans": [
+    "Arctic Ocean",
+    "Antarctic Ocean",
+    "Pacific Ocean",
+    "Atlantic Ocean"
+  ],
+  "hero": {
+    "image": "assets/seal/SEAL00AA.webp",
+    "alt": "Seals and Sea Lions"
+  },
+  "intro": "On land, these animals move awkwardly. But in the water, seals and sea lions are the most graceful of creatures. Their torpedo-shaped bodies are so flexible that they can make a U-turn in the tightest of spaces. They can also glide for great distances, propelled by just a few strokes of their powerful flippers. Inside these flippers are bones similar to those in our own hands and feet. Scientists call seals, walruses, and sea lions Pinnipeds, which means \"feather feet.\"",
+  "facts": [
+    {
+      "label": "Size",
+      "value": "Northern elephant seal males can weigh as much as 2,700 kg (5,940 lb)."
+    },
+    {
+      "label": "Name",
+      "value": "Scientists call seals, walruses, and sea lions Pinnipeds, which means \"feather feet.\""
+    },
+    {
+      "label": "Diet",
+      "value": "Leopard seals eat birds, fish, and smaller seals—and have even been known to bump ice floes to knock penguins into the water."
+    },
+    {
+      "label": "Did you know",
+      "value": "Male hooded seals can inflate their heads by filling special stretchy nose cavities with air to frighten rivals."
+    },
+    {
+      "label": "Threat",
+      "value": "The Caribbean monk seal is now extinct because people killed hundreds of thousands of them for their skins."
+    },
+    {
+      "label": "Predators",
+      "value": "Arctic seals must watch out for sharks, killer whales, and polar bears that wait at breathing holes in the ice."
+    }
+  ],
+  "topics": [
+    {
+      "id": "whats-the-difference",
+      "title": "What's the difference?",
+      "image": "assets/seal/SEAL01PU.webp",
+      "text": "Can you tell a true seal from a sea lion? The differences are subtle, but here are a few clues.",
+      "captions": [
+        {
+          "label": "Sea lion",
+          "text": "See the tiny ear flaps on this sea lion's head? Also, check out its hind flippers. A sea lion can swivel them forward for \"walking\" and sitting, and can also propel itself through the water with these powerful \"back feet.\""
+        },
+        {
+          "label": "Seal",
+          "text": "Most seals have only holes where their ears are, with no ear flaps on the outside. Also, seals don't have flexible hind flippers like sea lions do. On land, seals use only their front flippers to drag the rest of their bodies along. Seals rely on the strength of these front flippers to propel themselves through the water."
+        }
+      ],
+      "narration": "assets/seal/SEAL01JN.mp3"
+    },
+    {
+      "id": "predators-of-penguins",
+      "title": "Predators of penguins",
+      "image": "assets/seal/SEAL02PU.webp",
+      "text": "If penguins have nightmares, they're probably about leopard seals. On land, leopard seals are pretty harmless; sometimes penguins stand right next to them! But in the water, no penguin wants to get close to this fierce hunter. Leopard seals live in the Antarctic Ocean, and it's easy to see how they got their name. Like the stealthy leopard on land, these seals are experts at sneaking up on and grabbing their prey. They eat birds, fish, and smaller seals, and they've even been known to bump ice floes to knock penguins into the water.",
+      "narration": "assets/seal/SEAL02JN.mp3"
+    },
+    {
+      "id": "arctic-drama",
+      "title": "Arctic drama",
+      "image": "assets/seal/SEAL03PU.webp",
+      "text": "Although seals are predators, they're also the prey of sharks and killer whales. As if there weren't enough to worry about in the water, Arctic seals like this ringed seal also have to watch out for polar bears when they surface. Like all mammals, seals breathe air. Polar bears know this, so they wait beside seal holes in the ice. When the seal pops up its head to take a breath, the bear makes a quick grab; if the seal isn't quick, he becomes the bear's dinner!",
+      "narration": "assets/seal/SEAL03JN.mp3"
+    },
+    {
+      "id": "fatal-fur",
+      "title": "Fatal fur",
+      "image": "assets/seal/SEAL04PU.webp",
+      "text": "In addition to having a thick layer of fat under their skin, fur seals and harp seals also have silky fur to keep them warm. Unfortunately, some people also want seal fur to keep themselves warm, so these seals have been hunted for centuries for their skins. When just a few native people killed seals to make coats for themselves, this wasn't a problem. But when modern hunters kill seals by the thousands, the seals run the risk of becoming extinct. Want to help these beautiful animals stay alive? Then don't buy anything made of harp seal fur.",
+      "narration": "assets/seal/SEAL04JN.mp3"
+    },
+    {
+      "id": "elephants-on-the-beach",
+      "title": "Elephants on the beach",
+      "image": "assets/seal/SEAL05PU.webp",
+      "text": "Do you know the two reasons that these animals are called elephant seals? You probably guessed that they can get really big: northern elephant seal males can weigh as much as 2,700 kg (5,940 lb)! And during breeding season, it's easy to see the males' trunklike noses, which they inflate like balloons to impress the females.",
+      "captions": [
+        {
+          "label": "Packing a trunk",
+          "text": "An adult male's long nose is called a proboscis, and is mainly for show. The seal can't use it to grasp objects, as an elephant would use its trunk."
+        }
+      ],
+      "narration": "assets/seal/SEAL05JN.mp3"
+    },
+    {
+      "id": "balloon-heads",
+      "title": "Balloon heads",
+      "image": "assets/seal/SEAL06PU.webp",
+      "text": "Within the animal world, the goal is not only to survive, but also to produce as many babies as possible, so many male animals have special techniques to scare off other males and to attract females. To frighten away rivals, male hooded seals do a surprising thing: they inflate their heads! These Arctic mammals have special stretchy nose cavities that they fill with air. They close their nostrils (one at a time) to perform this trick.",
+      "narration": "assets/seal/SEAL06JN.mp3"
+    },
+    {
+      "id": "rare-seals",
+      "title": "Rare seals",
+      "image": "assets/seal/SEAL07PU.webp",
+      "text": "Some species of seals are in danger of disappearing forever. Here are two that need our protection.",
+      "captions": [
+        {
+          "label": "Tropical seal",
+          "text": "At one time monk seals lived throughout the Pacific, Caribbean, and Mediterranean regions. But people killed hundreds of thousands of them for their skins. Now the Caribbean monk seal is extinct, and there are only a few Hawaiian and Mediterranean monk seals left in the world."
+        },
+        {
+          "label": "Freshwater seal",
+          "text": "Baikal seals live in Russia's Lake Baikal. They are the only seals that live in fresh water, which carries its own special hazards. Living in a lake makes these seals especially susceptible to pollution, and it also makes it easy for people to hunt and kill them for their meat or fur."
+        }
+      ],
+      "narration": "assets/seal/SEAL07JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Toothed Whales",
+      "to": "whlt"
+    },
+    {
+      "label": "Saltwater Crocodiles",
+      "to": "croc"
+    },
+    {
+      "label": "Walruses",
+      "to": "walr"
+    },
+    {
+      "label": "Flying Sea Birds",
+      "to": "bird"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/seal/SEAL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 1,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "Rare seals",
+            "to": "rare-seals",
+            "x": 2,
+            "y": 42,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Whose beach is this?",
+            "to": "video",
+            "x": 25,
+            "y": 48,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Fatal fur",
+            "to": "fatal-fur",
+            "x": 25,
+            "y": 55,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Balloon heads",
+            "to": "balloon-heads",
+            "x": 70,
+            "y": 37,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "What's the difference?",
+            "to": "whats-the-difference",
+            "x": 63,
+            "y": 44,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Arctic drama",
+            "to": "arctic-drama",
+            "x": 70,
+            "y": 78,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Predators of penguins",
+            "to": "predators-of-penguins",
+            "x": 56,
+            "y": 84,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Elephants on the beach",
+            "to": "elephants-on-the-beach",
+            "x": 2,
+            "y": 83,
+            "w": 27,
+            "h": 5
+          }
+        ]
+      },
+      "whats-the-difference": {
+        "image": "assets/seal/SEAL01PU.webp",
+        "back": "main"
+      },
+      "predators-of-penguins": {
+        "image": "assets/seal/SEAL02PU.webp",
+        "back": "main"
+      },
+      "arctic-drama": {
+        "image": "assets/seal/SEAL03PU.webp",
+        "back": "main"
+      },
+      "fatal-fur": {
+        "image": "assets/seal/SEAL04PU.webp",
+        "back": "main"
+      },
+      "elephants-on-the-beach": {
+        "image": "assets/seal/SEAL05PU.webp",
+        "back": "main"
+      },
+      "balloon-heads": {
+        "image": "assets/seal/SEAL06PU.webp",
+        "back": "main"
+      },
+      "rare-seals": {
+        "image": "assets/seal/SEAL07PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/seal/clip.mp4",
+        "poster": "assets/seal/SEAL08PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/seal/SEAL00JN.mp3",
+  "sound": "assets/seal/SEAL00IX.mp3",
+  "video": {
+    "title": "Whose beach is this?",
+    "src": "assets/seal/clip.mp4",
+    "poster": "assets/seal/poster.webp",
+    "caption": "Seals and sea lions sometimes gather by the hundreds, which can cause problems. Fishermen think these animals eat too many fish, and they've been known to take over boat docks and beaches. Males can be very territorial—but the earth is big enough for both pinnipeds and people.",
+    "narration": "assets/seal/SEAL08JN.mp3"
+  }
+}

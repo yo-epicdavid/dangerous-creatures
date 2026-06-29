@@ -1,0 +1,251 @@
+{
+  "id": "jell",
+  "code": "JELL",
+  "name": "Jellyfish and Men-of-War",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "98% water and 100% sting — these beautiful, drifting blobs rule the ocean!",
+  "zones": [
+    "Coast & tide pools",
+    "Open ocean",
+    "Coral reef"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/jell/JELL00AA.webp",
+    "alt": "Jellyfish and Men-of-War"
+  },
+  "intro": "It may be 98 percent water, but it can sting! Jellyfish belong to the vast family of Cnidarians, which encompasses 10,000 species, including sea anemones and corals. Cnidarians have a central body with a digestive system, and tentacles armed with stinging cells. Unlike their more stationary relatives, most jellyfish are highly mobile. Some use their jellied crests as a sail. Others swim by undulating their umbrella-shaped bodies. Any brush with their tentacles can be painful, or in rare cases, even deadly!",
+  "facts": [
+    {
+      "label": "Body",
+      "value": "Jellyfish are 98 percent water"
+    },
+    {
+      "label": "Family",
+      "value": "Belong to Cnidarians, a family of 10,000 species including sea anemones and corals"
+    },
+    {
+      "label": "Tentacles",
+      "value": "A man-of-war's tentacles can stretch to 50 m (165 ft) or shrink to 152 mm (6 in)"
+    },
+    {
+      "label": "Danger",
+      "value": "Sea wasp venom can stop the human heart in three minutes"
+    },
+    {
+      "label": "Bioluminescence",
+      "value": "Several jellyfish species are bioluminescent and can make waterways sparkle at night"
+    },
+    {
+      "label": "Life cycle",
+      "value": "Baby jellyfish start as plankton larvae, then become polyps, then break away as free-floating medusae"
+    }
+  ],
+  "topics": [
+    {
+      "id": "similar-but-not-the-same",
+      "title": "Similar but not the same",
+      "image": "assets/jell/JELL01PU.webp",
+      "text": "An inhabitant of warm seas throughout the world, the Portuguese man-of-war might look like a jellyfish, but it's not. It's not even just one animal—it's a floating colony!",
+      "captions": [
+        {
+          "label": "Multiple animals",
+          "text": "Beneath the gas-filled float of a man-of-war dangle hundreds of little animals with specialized duties. Some catch prey, some digest food, and some reproduce. The colony ensnares prey with tentacles that can stretch to 50 m (165 ft) or shrink to 152 mm (6 in). Once a fish is caught there's no way out: it's injected with a venom that causes paralysis."
+        },
+        {
+          "label": "Single animal",
+          "text": "Unlike the man-of-war, the golden jellyfish is a single animal. It swims by contracting and expanding its body in a wavelike motion, and its sting, while painful, is nowhere near as poisonous as that of the man-of-war."
+        }
+      ],
+      "narration": "assets/jell/JELL01JN.mp3"
+    },
+    {
+      "id": "multiple-forms",
+      "title": "Multiple forms",
+      "image": "assets/jell/JELL02PU.webp",
+      "text": "During their brief life cycles (a few weeks to a year or more), different species of jellyfish go through a dizzying series of changes. Baby jellyfish (larvae) are tiny swimming plankton that look nothing like their parents. The larvae eventually attach themselves to a surface and become polyps. As the polyps grow, layers break away from them and become medusae—the free-floating animals we normally envision when we think of jellyfish.",
+      "narration": "assets/jell/JELL02JN.mp3"
+    },
+    {
+      "id": "stinging-cells",
+      "title": "Stinging cells",
+      "image": "assets/jell/JELL03PU.webp",
+      "text": "All cnidarians have hundreds of stinging cells called nematocysts. When something brushes the tiny trigger on the outside of the cell, the cell \"fires\" the coiled harpoonlike stinger into the target and injects venom on contact.",
+      "captions": [
+        {
+          "label": "Another stinger",
+          "text": "The \"branches\" on this sea fern, another cnidarian, can deliver a painful sting. If a swimmer touches a sea fern by accident, the wounds can take a month to heal!"
+        }
+      ],
+      "narration": "assets/jell/JELL03JN.mp3"
+    },
+    {
+      "id": "wasps-in-the-sea",
+      "title": "Wasps in the sea",
+      "image": "assets/jell/JELL04PU.webp",
+      "text": "Australian sea wasps—also called box jellies—are almost transparent and become especially dangerous on calm, overcast days, when they tend to venture close to shore in search of prey. Any person lucky enough to survive contact with them will bear hideous scars. Sea wasp venom can stop the human heart in three minutes!",
+      "captions": [
+        {
+          "label": "Tropical terrors",
+          "text": "Australian sea wasps frequent the northern coast of Australia."
+        }
+      ],
+      "narration": "assets/jell/JELL04JN.mp3"
+    },
+    {
+      "id": "jelly-for-lunch",
+      "title": "Jelly for lunch",
+      "image": "assets/jell/JELL05PU.webp",
+      "text": "You might think that nothing would eat an animal armed with stinging cells. But leatherback turtles think jellyfish and men-of-war are great snacks, and so do the two creatures shown here.",
+      "captions": [
+        {
+          "label": "Tough slug",
+          "text": "This sea slug fills parts of its body with air so that it can float on the water's surface. Not only does it eat jellyfish and men-of-war, but it also absorbs its prey's stinging cells and uses them for its own defense!"
+        },
+        {
+          "label": "Floating snails",
+          "text": "Another man-of-war muncher is the bubble-raft snail, also called the Janthina snail. This creature blows bubbles to form a raft from which it hangs upside down as it drifts toward its meal!"
+        }
+      ],
+      "narration": "assets/jell/JELL05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Sea Turtles",
+      "to": "turt"
+    },
+    {
+      "label": "Squid and Cuttlefish",
+      "to": "squi"
+    },
+    {
+      "label": "Anemones",
+      "to": "anem"
+    },
+    {
+      "label": "Corals",
+      "to": "cora"
+    },
+    {
+      "label": "Scary Sharks",
+      "to": "shar"
+    },
+    {
+      "label": "Seals and Sea Lions",
+      "to": "seal"
+    },
+    {
+      "label": "Angler Fish",
+      "to": "angl"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/jell/JELL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Multiple forms",
+            "to": "multiple-forms",
+            "x": 73,
+            "y": 9,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "Similar but not the same",
+            "to": "similar-but-not-the-same",
+            "x": 64,
+            "y": 43,
+            "w": 32,
+            "h": 8
+          },
+          {
+            "label": "Wasps in the sea",
+            "to": "wasps-in-the-sea",
+            "x": 66,
+            "y": 61,
+            "w": 27,
+            "h": 6
+          },
+          {
+            "label": "Jelly for lunch",
+            "to": "jelly-for-lunch",
+            "x": 4,
+            "y": 71,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Stinging cells",
+            "to": "stinging-cells",
+            "x": 4,
+            "y": 79,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Jellyfish or not?",
+            "to": "video",
+            "x": 3,
+            "y": 86,
+            "w": 23,
+            "h": 6
+          }
+        ]
+      },
+      "similar-but-not-the-same": {
+        "image": "assets/jell/JELL01PU.webp",
+        "back": "main"
+      },
+      "multiple-forms": {
+        "image": "assets/jell/JELL02PU.webp",
+        "back": "main"
+      },
+      "stinging-cells": {
+        "image": "assets/jell/JELL03PU.webp",
+        "back": "main"
+      },
+      "wasps-in-the-sea": {
+        "image": "assets/jell/JELL04PU.webp",
+        "back": "main"
+      },
+      "jelly-for-lunch": {
+        "image": "assets/jell/JELL05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/jell/clip.mp4",
+        "poster": "assets/jell/JELL06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/jell/JELL00JN.mp3",
+  "sound": "assets/jell/JELL00IX.mp3",
+  "video": {
+    "title": "Jellyfish or not?",
+    "src": "assets/jell/clip.mp4",
+    "poster": "assets/jell/poster.webp",
+    "caption": "Many jellyfish are beautiful, with transparent bodies tinged with red, green, pink, or even violet. Several species are bioluminescent, and can make waterways sparkle at night. But not all glowing transparent sea creatures are jellyfish. The diver on the right is studying a chain of salps, which reproduce by budding.",
+    "narration": "assets/jell/JELL06JN.mp3"
+  }
+}

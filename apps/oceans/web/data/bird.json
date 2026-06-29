@@ -1,0 +1,176 @@
+{
+  "id": "bird",
+  "code": "BIRD",
+  "name": "Flying Sea Birds",
+  "category": "creature",
+  "scientificName": "Fratercula arctica",
+  "needsScientificVerify": false,
+  "tagline": "These feathered ocean wanderers can fly thousands of miles without ever getting lost!",
+  "zones": [
+    "Coast & tide pools",
+    "Open ocean",
+    "Polar seas"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/bird/BIRD00AA.webp",
+    "alt": "Flying Sea Birds"
+  },
+  "intro": "Sea birds like puffins, auks, guillemots, and auklets may resemble penguins, but there's one major difference: unlike penguins, most of these birds can fly. In fact, albatrosses, shearwaters, and many other flying sea birds are expert navigators, roaming thousands of miles of open sea, yet always finding their way back to their breeding grounds. The mating season is the only time many adult sea birds spend much time on dry land.",
+  "facts": [
+    {
+      "label": "Wingspan",
+      "value": "The albatross has the greatest wingspan of any living bird—nearly 3.7 m (12 ft)."
+    },
+    {
+      "label": "Daily range",
+      "value": "An albatross can cover up to 500 km (270 mi) per day."
+    },
+    {
+      "label": "Speed",
+      "value": "Albatrosses cruise at 50 to 90 km (30 to 55 mi) per hour and can cover 56,350 km (35,000 mi) every three months."
+    },
+    {
+      "label": "Gliding",
+      "value": "The albatross can remain airborne for hours in windy weather without ever flapping its wings."
+    },
+    {
+      "label": "Mating display",
+      "value": "The male frigate bird's scarlet bare-skinned throat pouch swells up to the size of a man's head during courtship."
+    },
+    {
+      "label": "Sneaky hunter",
+      "value": "Skuas (also called jaegers) steal eggs and chicks from penguins during nesting season."
+    }
+  ],
+  "topics": [
+    {
+      "id": "flying-aces",
+      "title": "Flying aces",
+      "image": "assets/bird/BIRD01PU.webp",
+      "text": "The magnificent albatross is capable of unsurpassed levels of flight!",
+      "captions": [
+        {
+          "label": "Jumbo jets",
+          "text": "If it stood on a wingtip, the largest albatross would be roughly twice as tall as a man. With a wingspan of nearly 3.7 m (12ft)—the greatest of any living bird—the albatross regularly circumnavigates the world, and can cover up to 500 km (270 mi) per day. At normal cruising speeds of 50 to 90 km (30 to 55 mi) per hour, it can cover 56,350 km (35,000 mi) every three months!"
+        },
+        {
+          "label": "Spectacular glides",
+          "text": "The albatross can remain airborne for hours in windy weather without ever flapping its wings, and it can ride the gales around Cape Horn with ease. Sailors used to regard this bird with awe, and believed that killing it would bring bad luck."
+        }
+      ],
+      "narration": "assets/bird/BIRD01JN.mp3"
+    },
+    {
+      "id": "colorful-characters",
+      "title": "Colorful characters",
+      "image": "assets/bird/BIRD02PU.webp",
+      "text": "Many male sea birds use bright colors to attract females during mating season.",
+      "captions": [
+        {
+          "label": "Be my valentine",
+          "text": "The male frigate bird is a flying valentine when courtship time arrives. His scarlet bare-skinned throat pouch swells up to the size of a man's head!"
+        },
+        {
+          "label": "Hot tufts",
+          "text": "The male tufted puffin, also called the sea parrot, grows straw-colored tufts and has a bill that enlarges during mating season."
+        },
+        {
+          "label": "Blue-foot shuffle",
+          "text": "The blue-footed booby has electric-blue feet all year long. In breeding season the male kicks up these feet in a special mating dance."
+        }
+      ],
+      "narration": "assets/bird/BIRD02JN.mp3"
+    },
+    {
+      "id": "birds-that-eat-birds",
+      "title": "Birds that eat birds",
+      "image": "assets/bird/BIRD03PU.webp",
+      "text": "Some types of birds specialize in eating other birds. Skuas, also called jaegers, are relatives of gulls and terns. Skuas live in Arctic and Antarctic regions, where they eat many different animals, including fish and krill. But during nesting season, skuas become predators of fellow birds! Many a penguin parent has lost an egg or a chick to a sneaky skua.",
+      "narration": "assets/bird/BIRD03JN.mp3"
+    }
+  ],
+  "crosslinks": [],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/bird/BIRD00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 8,
+            "h": 8
+          },
+          {
+            "label": "Birds that eat birds",
+            "to": "birds-that-eat-birds",
+            "x": 64,
+            "y": 12,
+            "w": 30,
+            "h": 9
+          },
+          {
+            "label": "Flying aces",
+            "to": "flying-aces",
+            "x": 59,
+            "y": 43,
+            "w": 22,
+            "h": 9
+          },
+          {
+            "label": "Dating dances",
+            "to": "video",
+            "x": 18,
+            "y": 53,
+            "w": 22,
+            "h": 9
+          },
+          {
+            "label": "Colorful characters",
+            "to": "colorful-characters",
+            "x": 20,
+            "y": 63,
+            "w": 24,
+            "h": 9
+          }
+        ]
+      },
+      "flying-aces": {
+        "image": "assets/bird/BIRD01PU.webp",
+        "back": "main"
+      },
+      "colorful-characters": {
+        "image": "assets/bird/BIRD02PU.webp",
+        "back": "main"
+      },
+      "birds-that-eat-birds": {
+        "image": "assets/bird/BIRD03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/bird/clip.mp4",
+        "poster": "assets/bird/BIRD04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/bird/BIRD00JN.mp3",
+  "sound": "assets/bird/BIRD00IX.mp3",
+  "video": {
+    "title": "Dating dances",
+    "src": "assets/bird/clip.mp4",
+    "poster": "assets/bird/poster.webp",
+    "caption": "Blue-footed boobies perform their elaborate mating dance, lifting their vivid electric-blue feet in a courtship ritual.",
+    "narration": "assets/bird/BIRD04JN.mp3"
+  }
+}

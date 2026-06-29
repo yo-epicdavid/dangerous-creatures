@@ -1,0 +1,267 @@
+{
+  "id": "anta",
+  "code": "ANTA",
+  "name": "Antarctic Ocean",
+  "category": "place",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "At the bottom of the world, tiny creatures keep our whole planet alive!",
+  "zones": [
+    "Polar seas",
+    "Open ocean",
+    "Deep sea"
+  ],
+  "oceans": [
+    "Antarctic Ocean"
+  ],
+  "hero": {
+    "image": "assets/anta/ANTA00AA.webp",
+    "alt": "Antarctic Ocean"
+  },
+  "intro": "Processes that impact this isolated ocean also affect the daily lives of everyone on our planet, in ways that we're just beginning to understand. The tiny krill and phytoplankton that swarm here are key ingredients in the oceanic food web. The region's stockpile of ice helps set worldwide sea levels and regulate the earth's climate. Cold currents flow northward to balance the heat of the tropics. We must take care to protect this vast region of icy beauty from the ravages of commercial exploitation and pollution.",
+  "facts": [
+    {
+      "label": "Convergence Zone",
+      "value": "The Antarctic Convergence Zone lies about 4,000 km (2,450 mi) north of the South Pole and is about 40 km (25 mi) wide."
+    },
+    {
+      "label": "Giant icebergs",
+      "value": "In 1956 an iceberg the size of Belgium was seen!"
+    },
+    {
+      "label": "Food chain",
+      "value": "Krill are the most important link in the Antarctic food chain, providing nourishment for whales, seals, squid, birds, and fish."
+    },
+    {
+      "label": "Wildlife record",
+      "value": "Antarctic seas are home to the greatest variety of sponge species that has ever lived in any ocean at any one time."
+    },
+    {
+      "label": "Wildest weather",
+      "value": "Cold air and high winds make the Antarctic climate the most severe in the world; the mixing of warm and cold waters in the Antarctic Convergence Zone creates cold, wet, and windy weather."
+    },
+    {
+      "label": "Ozone threat",
+      "value": "Manmade CFCs (chlorofluorocarbons) are destroying the ozone layer, threatening phytoplankton and krill that form the basis of the oceanic food web."
+    }
+  ],
+  "topics": [
+    {
+      "id": "circling-the-globe",
+      "title": "Circling the globe",
+      "image": "assets/anta/ANTA01PU.webp",
+      "text": "Two major currents sweep in opposite directions around the bottom of the world. As the cold waters of the Antarctic Ocean flow northward, they encounter warmer waters flowing southward from the tropics. This area, about 4,000 km (2,450 mi) north of the South Pole and about 40 km (25 mi) wide, marks the Antarctic Convergence Zone. This is the northern limit of the prolific waters of the Antarctic Ocean. It's here that the cold Antarctic waters slowly sink below the warmer waters, and the plants, animals, air and water temperatures, and water chemistry change dramatically.",
+      "narration": "assets/anta/ANTA01JN.mp3"
+    },
+    {
+      "id": "an-encircling-ocean",
+      "title": "An encircling ocean",
+      "image": "assets/anta/ANTA03PU.webp",
+      "text": "The floor of the Antarctic Ocean features three major abyssal plains. Its continental shelves are the oceans' narrowest and lie at the greatest depths, perhaps due to the weight of the continental ice sheet. The Kerguelen Plateau rises up south of the Indian Ocean, supporting lonely Kerguelen Island. Most of the islands in the Antarctic Ocean are of volcanic origin, and lie close to the Antarctic Convergence Zone. These isolated sites are ideal breeding areas for a wide variety of sea birds and marine mammals.",
+      "narration": "assets/anta/ANTA03JN.mp3"
+    },
+    {
+      "id": "breaking-away",
+      "title": "Breaking away",
+      "image": "assets/anta/ANTA04PU.webp",
+      "text": "Distinctive, flat-topped Antarctic icebergs break off of the massive continental ice sheets that overlap the Antarctic landmass. There has been talk about someday towing Antarctic icebergs to Australia or the Middle East as a source of fresh water.",
+      "captions": [
+        {
+          "label": "Ice on the go",
+          "text": "Although icebergs usually melt once they've floated north of the Antarctic Convergence Zone, they've occasionally been sighted as far north as southern Brazil. These frozen layers of ice are often huge: in 1956 an iceberg the size of Belgium was seen!"
+        },
+        {
+          "label": "Look out below!",
+          "text": "Tens of thousands of icebergs calve from the Antarctic ice sheet every year. In early 1987 Soviet researchers returned to their Antarctic base to find it gone. They located it a few weeks later, floating on an iceberg and buried in snow."
+        }
+      ],
+      "narration": "assets/anta/ANTA04JN.mp3"
+    },
+    {
+      "id": "some-like-it-cold",
+      "title": "Some like it cold",
+      "image": "assets/anta/ANTA05PU.webp",
+      "text": "Many types of animals flourish in the cold Antarctic seas, which are rich in oxygen. These frigid waters are home to the greatest variety of sponge species that has ever lived in any ocean at any one time. These other animals thrive there, too.",
+      "captions": [
+        {
+          "label": "Amblin' with algae",
+          "text": "Many small crustaceans called amphipods roam the algae that lies below the ice."
+        },
+        {
+          "label": "See-through cephalopod",
+          "text": "This small, translucent octopus keeps an eye out for a tasty tidbit."
+        },
+        {
+          "label": "Not a vampire's favorite",
+          "text": "Icefish are as pale as corpses because they don't have red blood cells. This cold-water adaptation allows these fish to use less energy and absorb oxygen directly into their tissues through their gills."
+        }
+      ],
+      "narration": "assets/anta/ANTA05JN.mp3"
+    },
+    {
+      "id": "a-fragile-food-web",
+      "title": "A fragile food web",
+      "image": "assets/anta/ANTA06PU.webp",
+      "text": "Marine life flourishes in the cold, fertile waters surrounding Antarctica. Krill are the most important link in the Antarctic food chain, providing nourishment for marine animals like whales, seals, squid, birds, and fish. It's very unusual for so many predators to depend on one animal, but they maintain the supply of krill by feeding in different areas and at different times of the year. In addition, animals differ in the depths at which they feed, and in the age of the krill they prefer to eat.",
+      "captions": [
+        {
+          "label": "An important critter",
+          "text": "Krill, a shrimplike zooplankton, feed on phytoplankton."
+        },
+        {
+          "label": "Frigid fodder",
+          "text": "Phytoplankton are abundant in these cold waters throughout the year, but they explode in numbers as sunlight increases during the Antarctic spring."
+        }
+      ],
+      "narration": "assets/anta/ANTA06JN.mp3"
+    },
+    {
+      "id": "the-ozone-layer",
+      "title": "The ozone layer",
+      "image": "assets/anta/ANTA07PU.webp",
+      "text": "As sunlight reacts with oxygen in the earth's upper atmosphere, it forms a layer of ozone gas molecules. These molecules shelter life on earth by filtering out most of the sun's dangerous ultraviolet rays. Each spring the increased sunlight starts a natural reaction that breaks down the ozone layer. Manmade chemicals called CFCs (chlorofluorocarbons), used in making refrigerants and aerosols, increase this destruction. Scientists fear that this condition is harming phytoplankton and krill, which form the basis of the oceanic food web, and that this could have a huge impact on the rest of the earth's animals.",
+      "narration": "assets/anta/ANTA07JN.mp3"
+    },
+    {
+      "id": "exploring-the-southern-ocean",
+      "title": "Exploring the Southern Ocean",
+      "image": "assets/anta/ANTA08PU.webp",
+      "text": "For years, Europeans thought that a great southern continent, which they called Terra Australis, must exist in order to balance all the land in the Northern Hemisphere. Captain James Cook first sailed across the Antarctic Circle in 1773, and although he never found Antarctica, he was convinced that there must be a land source for all the floating ice that he saw. Scientific explorers are the modern counterparts of geographical adventurers like Cook; many nations currently operate research stations in Antarctica.",
+      "narration": "assets/anta/ANTA08JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Arctic Ocean",
+      "to": "arct"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/anta/ANTA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Circling the globe",
+            "to": "circling-the-globe",
+            "x": 13,
+            "y": 39,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Exploring the Southern Ocean",
+            "to": "exploring-the-southern-ocean",
+            "x": 29,
+            "y": 50,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Stormy weather",
+            "to": "video",
+            "x": 37,
+            "y": 62,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "A fragile food web",
+            "to": "a-fragile-food-web",
+            "x": 11,
+            "y": 73,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Breaking away",
+            "to": "breaking-away",
+            "x": 73,
+            "y": 31,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "An encircling ocean",
+            "to": "an-encircling-ocean",
+            "x": 62,
+            "y": 43,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Some like it cold",
+            "to": "some-like-it-cold",
+            "x": 62,
+            "y": 53,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "The ozone layer",
+            "to": "the-ozone-layer",
+            "x": 65,
+            "y": 73,
+            "w": 18,
+            "h": 5
+          }
+        ]
+      },
+      "circling-the-globe": {
+        "image": "assets/anta/ANTA01PU.webp",
+        "back": "main"
+      },
+      "an-encircling-ocean": {
+        "image": "assets/anta/ANTA03PU.webp",
+        "back": "main"
+      },
+      "breaking-away": {
+        "image": "assets/anta/ANTA04PU.webp",
+        "back": "main"
+      },
+      "some-like-it-cold": {
+        "image": "assets/anta/ANTA05PU.webp",
+        "back": "main"
+      },
+      "a-fragile-food-web": {
+        "image": "assets/anta/ANTA06PU.webp",
+        "back": "main"
+      },
+      "the-ozone-layer": {
+        "image": "assets/anta/ANTA07PU.webp",
+        "back": "main"
+      },
+      "exploring-the-southern-ocean": {
+        "image": "assets/anta/ANTA08PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/anta/clip.mp4",
+        "poster": "assets/anta/ANTA02PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/anta/ANTA00JN.mp3",
+  "sound": "assets/anta/ANTA00IX.mp3",
+  "video": {
+    "title": "Stormy weather",
+    "src": "assets/anta/clip.mp4",
+    "poster": "assets/anta/poster.webp",
+    "caption": "A research vessel navigates ice-choked Antarctic seas as fierce blizzard conditions and severe storms close in along the coast.",
+    "narration": "assets/anta/ANTA02JN.mp3"
+  }
+}

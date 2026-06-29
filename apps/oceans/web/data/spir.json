@@ -1,0 +1,242 @@
+{
+  "id": "spir",
+  "code": "SPIR",
+  "name": "Spiral Shells",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Built from seawater, guided by instinct — these shell-makers need no lessons.",
+  "zones": [
+    "Coral reef",
+    "Open ocean",
+    "Deep sea"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/spir/SPIR00AA.webp",
+    "alt": "Spiral Shells"
+  },
+  "intro": "If someone told you to manufacture a shell from nothing but seawater, you wouldn't know where to start, would you? Yet many of the simplest sea creatures do just that. They don't even have to learn how, because they are guided by instinct. The two handsome spiral-shelled creatures shown here must admire each other's handiwork—they're in the process of mating!",
+  "facts": [
+    {
+      "label": "Venom",
+      "value": "Cone shells are armed with darts that can pierce the skin and inject a powerful venom — powerful enough to injure or even kill a person."
+    },
+    {
+      "label": "Size",
+      "value": "The giant triton averages 45.5 cm (18 in) in length."
+    },
+    {
+      "label": "Size",
+      "value": "Conchs average about 30 cm (12 in) in length."
+    },
+    {
+      "label": "Diet",
+      "value": "The giant triton is one of the few creatures known to eat the crown-of-thorns starfish, a major coral killer."
+    },
+    {
+      "label": "Did you know",
+      "value": "A nautilus is not a snail, but a cephalopod related to the octopus, squid, and cuttlefish — descended from ancient ammonites that lived before the dinosaurs."
+    },
+    {
+      "label": "Hidden shell",
+      "value": "A living cowrie's fleshy mantle may have a colorful pattern and completely hide the shell beneath."
+    }
+  ],
+  "topics": [
+    {
+      "id": "pretty-deadly",
+      "title": "Pretty deadly",
+      "image": "assets/spir/SPIR01PU.webp",
+      "text": "Who would believe that a tiny shelled creature like this could injure or even kill a person? But it's true! Cone shells are armed with darts that can pierce the skin and inject a powerful venom. Cone shells normally use their weapons to grab onto and paralyze their prey. But if a diver picks up one of these pretty creatures, the cone shell will use its weapons for defense, and the results can be deadly.",
+      "captions": [
+        {
+          "label": "Collector's items",
+          "text": "The beautiful shells that remain after these animals die are always in demand."
+        }
+      ],
+      "narration": "assets/spir/SPIR01JN.mp3"
+    },
+    {
+      "id": "underwater-architect",
+      "title": "Underwater architect",
+      "image": "assets/spir/SPIR02PU.webp",
+      "text": "How do you start to grow a spiral shell? If you were a nautilus, you wouldn't even have to think about it—you'd just do it.\n\nShell story\nWhen a nautilus is small, it creates one chamber. When it outgrows its space, it adds on a bigger \"room\" and moves into it, sealing off the older chamber. Instead of using the rectangular floor plan favored by most human architects, the nautilus does its remodeling in a spiral pattern. You can see why some people call this animal a \"chambered\" nautilus.",
+      "captions": [
+        {
+          "label": "Don't call me a snail!",
+          "text": "A nautilus is not a snail, but a cephalopod that's related to the octopus, squid, and cuttlefish. Modern nautiluses are descendants of ancient animals called ammonites, which were abundant in the seas even before the dinosaurs appeared."
+        }
+      ],
+      "narration": "assets/spir/SPIR02JN.mp3"
+    },
+    {
+      "id": "looks-like-a-shell",
+      "title": "Looks like a shell...",
+      "image": "assets/spir/SPIR03PU.webp",
+      "text": "These objects, which look like snail shells and are even called ram's horn shells, will never be seen on the outside of any living animal. The only place you'll find one is inside the body of a deep-water squid. These are unique types of \"internal\" shells.",
+      "captions": [
+        {
+          "label": "Namesake",
+          "text": "You can see the similarity between these shells and this ram's horns."
+        }
+      ],
+      "narration": "assets/spir/SPIR03JN.mp3"
+    },
+    {
+      "id": "spectacular-spirals",
+      "title": "Spectacular spirals",
+      "image": "assets/spir/SPIR04PU.webp",
+      "text": "Some spiral-shelled creatures get pretty big. Here are a couple of impressive characters.\n\nStarfish eater\nThe giant triton is one of the few creatures known to eat the crown-of-thorns starfish, a major coral killer. The giant triton averages 45.5 cm (18 in) in length.",
+      "captions": [
+        {
+          "label": "What are you looking at?",
+          "text": "If you stare at a conch (pronounced \"conk\"), the odds are that it will stare right back at you from inside its shell. That's right: even mollusks have eyes! Conchs average about 30 cm (12 in) in length, and they're in great demand. Many people eat conch steak and conch chowder; the shells are collected for their beauty and are also sometimes used as natural trumpets."
+        }
+      ],
+      "narration": "assets/spir/SPIR04JN.mp3"
+    },
+    {
+      "id": "colorful-cowries",
+      "title": "Colorful cowries",
+      "image": "assets/spir/SPIR05PU.webp",
+      "text": "If you know cowries only by their shells, you might be surprised to see how different the living animals can look. The fleshy part of the animal, called the mantle, may have a colorful pattern and completely hide the shell beneath. Cowrie shells are among those most valued by people, but the living cowries must value them even more.",
+      "narration": "assets/spir/SPIR05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Sea Slugs",
+      "to": "slug"
+    },
+    {
+      "label": "Saltwater Crocodiles",
+      "to": "croc"
+    },
+    {
+      "label": "Fanworms & Bristleworms"
+    },
+    {
+      "label": "Pretenders",
+      "to": "pret"
+    },
+    {
+      "label": "Clams, Oysters, and Scallops",
+      "to": "clam"
+    },
+    {
+      "label": "Minerals from the Sea",
+      "to": "mine"
+    },
+    {
+      "label": "Octopuses",
+      "to": "octo"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/spir/SPIR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 14,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "Spectacular spirals",
+            "to": "spectacular-spirals",
+            "x": 62,
+            "y": 13,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Pretty deadly",
+            "to": "pretty-deadly",
+            "x": 29,
+            "y": 42,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Looks like a shell...",
+            "to": "looks-like-a-shell",
+            "x": 58,
+            "y": 65,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Underwater architect",
+            "to": "underwater-architect",
+            "x": 56,
+            "y": 72,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Shell collecting",
+            "to": "video",
+            "x": 3,
+            "y": 85,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Colorful cowries",
+            "to": "colorful-cowries",
+            "x": 31,
+            "y": 85,
+            "w": 18,
+            "h": 6
+          }
+        ]
+      },
+      "pretty-deadly": {
+        "image": "assets/spir/SPIR01PU.webp",
+        "back": "main"
+      },
+      "underwater-architect": {
+        "image": "assets/spir/SPIR02PU.webp",
+        "back": "main"
+      },
+      "looks-like-a-shell": {
+        "image": "assets/spir/SPIR03PU.webp",
+        "back": "main"
+      },
+      "spectacular-spirals": {
+        "image": "assets/spir/SPIR04PU.webp",
+        "back": "main"
+      },
+      "colorful-cowries": {
+        "image": "assets/spir/SPIR05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/spir/clip.mp4",
+        "poster": "assets/spir/SPIR06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/spir/SPIR00JN.mp3",
+  "sound": "assets/spir/SPIR00IX.mp3",
+  "video": {
+    "title": "Shell collecting",
+    "src": "assets/spir/clip.mp4",
+    "poster": "assets/spir/poster.webp",
+    "caption": "Why gathering your own shells on the beach is the only way to be sure you're not promoting the killing of living animals.",
+    "narration": "assets/spir/SPIR06JN.mp3"
+  }
+}

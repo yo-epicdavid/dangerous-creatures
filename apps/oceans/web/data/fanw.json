@@ -1,0 +1,178 @@
+{
+  "id": "fanw",
+  "code": "FANW",
+  "name": "Fanworms and Bristleworms",
+  "category": "creature",
+  "scientificName": "Sabella melanostigma",
+  "needsScientificVerify": false,
+  "tagline": "These soft-bodied worms wear tube armor and fan food right into their mouths!",
+  "zones": [
+    "Coral reef",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/fanw/FANW00AA.webp",
+    "alt": "Fanworms and Bristleworms"
+  },
+  "intro": "If you're a soft-bodied creature like a worm, you'd better think of a way to protect yourself. Marine worms have come up with some interesting defenses. Take fanworms, for instance: the delicate \"feathers\" you see here are actually the worms' feeding tentacles. Their soft bodies are securely encased in calcareous tubes that are buried in a bed of coral. Pretty clever worms!",
+  "facts": [
+    {
+      "label": "Diet",
+      "value": "Fanworms eat plankton and organic debris, gathered with their feathery feeding tentacles."
+    },
+    {
+      "label": "Defense",
+      "value": "Their soft bodies are encased in calcareous tubes buried in coral — a built-in shelter."
+    },
+    {
+      "label": "Fire worms",
+      "value": "Some bristleworms are called \"fire worms\" because their sharp bristles are attached to venom glands, causing a burning sensation when touched."
+    },
+    {
+      "label": "Reef builders",
+      "value": "Featherduster worms extract calcium from seawater to build protective tubes that contribute to reef structures."
+    },
+    {
+      "label": "Parasite",
+      "value": "Tapeworms live inside other animals and eat their host's food; people risk getting them from raw meat or seafood."
+    }
+  ],
+  "topics": [
+    {
+      "id": "bristling-relatives",
+      "title": "Bristling relatives",
+      "image": "assets/fanw/FANW01PU.webp",
+      "text": "Fanworms are annelids—worms with segmented bodies. These bristleworms are annelids, too, but with a different lifestyle. Most bristleworms hide in sandy or muddy ocean floors, coming out only when they smell food. Some bristleworms are called \"fire worms\" because their sharp bristles are attached to venom glands, and any brush with them causes a burning sensation. This protects the worms from some predators, but most fish gobble them right up, bristles and all.",
+      "captions": [
+        {
+          "label": "Sea mouse, Scotland",
+          "text": "Aphrodite aculeata"
+        },
+        {
+          "label": "Orange bristleworm or fireworm, Caribbean",
+          "text": "Hermodice carunculata"
+        }
+      ],
+      "narration": "assets/fanw/FANW01JN.mp3"
+    },
+    {
+      "id": "feathery-feeders",
+      "title": "Feathery feeders",
+      "image": "assets/fanw/FANW02PU.webp",
+      "text": "What does a fanworm eat? Plankton and organic debris, which it gathers with its feathery feeding tentacles. Whenever you see a fanworm waving its tentacles in the current, the water is full of food, whether you can see it with the naked eye or not. Fanworms earned their name not only because their tentacles are often fan-shaped, but also because they \"fan\" their food toward their mouth, which is located at the center of the tentacles.",
+      "captions": [
+        {
+          "label": "Featherduster worms, Caribbean",
+          "text": "Spirobranch giganteus"
+        }
+      ],
+      "narration": "assets/fanw/FANW02JN.mp3"
+    },
+    {
+      "id": "oh-yuck",
+      "title": "Oh, yuck!",
+      "image": "assets/fanw/FANW03PU.webp",
+      "text": "Among the worms are many that some might describe as disgusting. Here are two that many people wouldn't want to touch.",
+      "captions": [
+        {
+          "label": "Parasite",
+          "text": "Tapeworms live inside other animals, including fish. Instead of working for their food, they simply eat that of their host. An animal with one tapeworm may not even notice, but a small animal with many of them could starve to death, even though it eats a lot. People who eat raw meat or seafood run the risk of getting tapeworms."
+        },
+        {
+          "label": "Not a picky eater",
+          "text": "This ragworm, an annelid worm, eats the debris it finds as it burrows through sand and mud. Some ragworms also live inside the shells of other animals so that they can steal part of the shell owners' food."
+        }
+      ],
+      "narration": "assets/fanw/FANW03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Flatworms",
+      "to": "flat"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/fanw/FANW00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 2,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "Oh, yuck!",
+            "to": "oh-yuck",
+            "x": 72,
+            "y": 27,
+            "w": 14,
+            "h": 6
+          },
+          {
+            "label": "Bristling relatives",
+            "to": "bristling-relatives",
+            "x": 20,
+            "y": 51,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Life in a tube",
+            "to": "video",
+            "x": 12,
+            "y": 60,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Feathery feeders",
+            "to": "feathery-feeders",
+            "x": 20,
+            "y": 69,
+            "w": 26,
+            "h": 5
+          }
+        ]
+      },
+      "bristling-relatives": {
+        "image": "assets/fanw/FANW01PU.webp",
+        "back": "main"
+      },
+      "feathery-feeders": {
+        "image": "assets/fanw/FANW02PU.webp",
+        "back": "main"
+      },
+      "oh-yuck": {
+        "image": "assets/fanw/FANW03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/fanw/clip.mp4",
+        "poster": "assets/fanw/FANW04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/fanw/FANW00JN.mp3",
+  "sound": "assets/fanw/FANW00IX.mp3",
+  "video": {
+    "title": "Life in a tube",
+    "src": "assets/fanw/clip.mp4",
+    "poster": "assets/fanw/poster.webp",
+    "caption": "Featherduster worms extract calcium from seawater and use the mineral to build their protective tubes. They rely on their delicate tentacles for feeding and for breathing, so they withdraw them into their tubes at the least sign of danger. These worms usually live among other filter feeders, such as corals, barnacles, and anemones. And although corals usually get all the credit for building reefs, these worms do their part by contributing their shell-like tubes to these structures.",
+    "narration": "assets/fanw/FANW04JN.mp3"
+  }
+}

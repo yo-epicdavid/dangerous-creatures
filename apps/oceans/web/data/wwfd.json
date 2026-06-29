@@ -1,0 +1,187 @@
+{
+  "id": "wwfd",
+  "code": "WWFD",
+  "name": "World Wildlife Fund",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Racing to save sharks, whales, tuna, and reefs — WWF is the ocean's best friend.",
+  "zones": [
+    "Coral reef",
+    "Open ocean",
+    "Polar seas",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/wwfd/WWFD00AA.webp",
+    "alt": "World Wildlife Fund"
+  },
+  "intro": "For more than three decades World Wildlife Fund has been supporting efforts around the world to protect endangered wildlife and to safeguard the natural resources on which all life depends. The projects represented here are only a few of the many efforts sponsored by WWF to preserve our oceans and other aquatic habitats.",
+  "facts": [
+    {
+      "label": "Shark species",
+      "value": "There are more than 370 different species of sharks worldwide."
+    },
+    {
+      "label": "Tuna speed",
+      "value": "The bluefin tuna can swim up to 88.5 km (55 mi) per hour and migrates thousands of miles in a year."
+    },
+    {
+      "label": "Tuna decline",
+      "value": "Overfishing has caused the Western Atlantic bluefin tuna population to drop by 80 percent over the last 20 years."
+    },
+    {
+      "label": "Whale species",
+      "value": "There are over 40 different species of whales that roam all of the world's oceans."
+    },
+    {
+      "label": "Whale sanctuary",
+      "value": "The Antarctic Whale Sanctuary, created in 1994 and supported by WWF, protects the main feeding grounds of many of the world's whale species."
+    },
+    {
+      "label": "Overfishing",
+      "value": "Approximately one out of every three fisheries is overfished and producing far below its potential."
+    }
+  ],
+  "topics": [
+    {
+      "id": "sharks",
+      "title": "Sharks",
+      "image": "assets/wwfd/WWFD01PU.webp",
+      "text": "There are more than 370 different species of sharks worldwide. WWF helps conserve the declining shark populations in the Atlantic and Pacific oceans by studying their ecological needs, and by working to curb the growing international trade in shark fins and other shark products.",
+      "captions": [
+        {
+          "label": "Zebra bullhead shark",
+          "text": "Heterodontus zebra"
+        }
+      ],
+      "narration": "assets/wwfd/WWFD01JN.mp3"
+    },
+    {
+      "id": "atlantic-bluefin-tuna",
+      "title": "Atlantic bluefin tuna",
+      "image": "assets/wwfd/WWFD02PU.webp",
+      "text": "The bluefin tuna can swim up to 88.5 km (55 mi) per hour, and migrates thousands of miles in a year. Overfishing to supply international luxury food markets has caused the Western Atlantic population of this species to drop by 80 percent over the last 20 years. WWF is concerned about the declining population of bluefin tuna and is working on new conservation measures to protect this endangered animal.",
+      "captions": [
+        {
+          "label": "Fishermen hauling in bluefin tuna",
+          "text": "Fishermen hauling in bluefin tuna"
+        }
+      ],
+      "narration": "assets/wwfd/WWFD02JN.mp3"
+    },
+    {
+      "id": "whales",
+      "title": "Whales",
+      "image": "assets/wwfd/WWFD04PU.webp",
+      "text": "There are over 40 different species of whales that roam all of the world's oceans. World Wildlife Fund is studying the accumulation of toxic substances in many whale species to gauge the effects of pollution on entire marine ecosystems. In addition, WWF sponsors ecological research and individual identification of humpback whales in the South Atlantic Ocean in order to garner more information about these intriguing creatures. The Antarctic Whale Sanctuary, created in 1994 and supported by WWF, protects the main feeding grounds of many of the world's whale species.",
+      "captions": [
+        {
+          "label": "Humpback whale, breaching",
+          "text": "Humpback whale, breaching"
+        }
+      ],
+      "narration": "assets/wwfd/WWFD04JN.mp3"
+    },
+    {
+      "id": "fisheries",
+      "title": "Fisheries",
+      "image": "assets/wwfd/WWFD05PU.webp",
+      "text": "Marine fish are a precious natural resource with tremendous ecological value. Well-managed fisheries contribute significantly to the world economy. However, approximately one out of every three fisheries is overfished and producing far below its potential, a situation that's unhealthy both ecologically and economically. WWF is developing reforms that will improve the management of many marine fisheries and promote their long-term sustainability.",
+      "narration": "assets/wwfd/WWFD05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Mysterious Relationships",
+      "to": "myst"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/wwfd/WWFD00AA.webp",
+        "hotspots": [
+          {
+            "label": "Coral reefs",
+            "to": "video",
+            "x": 3,
+            "y": 40,
+            "w": 12,
+            "h": 6
+          },
+          {
+            "label": "Atlantic bluefin tuna",
+            "to": "atlantic-bluefin-tuna",
+            "x": 46,
+            "y": 21,
+            "w": 21,
+            "h": 6
+          },
+          {
+            "label": "Fisheries",
+            "to": "fisheries",
+            "x": 79,
+            "y": 23,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "Whales",
+            "to": "whales",
+            "x": 37,
+            "y": 57,
+            "w": 10,
+            "h": 5
+          },
+          {
+            "label": "Sharks",
+            "to": "sharks",
+            "x": 68,
+            "y": 53,
+            "w": 9,
+            "h": 5
+          }
+        ]
+      },
+      "sharks": {
+        "image": "assets/wwfd/WWFD01PU.webp",
+        "back": "main"
+      },
+      "atlantic-bluefin-tuna": {
+        "image": "assets/wwfd/WWFD02PU.webp",
+        "back": "main"
+      },
+      "whales": {
+        "image": "assets/wwfd/WWFD04PU.webp",
+        "back": "main"
+      },
+      "fisheries": {
+        "image": "assets/wwfd/WWFD05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/wwfd/clip.mp4",
+        "poster": "assets/wwfd/WWFD03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/wwfd/WWFD00JN.mp3",
+  "sound": "assets/wwfd/WWFD00IX.mp3",
+  "video": {
+    "title": "Coral reefs",
+    "src": "assets/wwfd/clip.mp4",
+    "poster": "assets/wwfd/poster.webp",
+    "caption": "Soft coral reef, Indo-Pacific",
+    "narration": "assets/wwfd/WWFD03JN.mp3"
+  }
+}

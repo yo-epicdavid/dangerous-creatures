@@ -1,0 +1,208 @@
+{
+  "id": "oflr",
+  "code": "OFLR",
+  "name": "The Ocean Floor",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Beneath the waves hides a world of towering mountains, blazing volcanoes, and trenches so deep they could swallow Mount Everest.",
+  "zones": [
+    "Coast & tide pools",
+    "Open ocean",
+    "Deep sea"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/oflr/OFLR00AA.webp",
+    "alt": "The Ocean Floor"
+  },
+  "intro": "We see our planet as two different worlds of land and sea. But if you could take away all the ocean water, you'd see that the earth's most dramatic mountain ranges, volcanoes, and canyons are located on the ocean floor. Scientists generally agree that the sea floor is always shrinking or expanding, because the earth's crust is made up of plates that are always moving in relation to one another. This theory, called plate tectonics, helps us understand how the features of the sea floor are formed.",
+  "facts": [
+    {
+      "label": "Longest range",
+      "value": "The mid-ocean ridge system is 56,315 km (35,000 mi) long—the longest mountain range on Earth."
+    },
+    {
+      "label": "New island",
+      "value": "The underwater volcano Loihi will emerge above the Pacific anywhere from 10,000 to 100,000 years from now—a future Hawaiian island already has a name."
+    },
+    {
+      "label": "Continental shelf",
+      "value": "Continental shelves extend anywhere from a few miles to several hundred miles from shore."
+    },
+    {
+      "label": "Plate tectonics",
+      "value": "Earth's crust is made of plates always moving in relation to one another, causing the sea floor to constantly shrink or expand."
+    },
+    {
+      "label": "Trenches",
+      "value": "Where oceanic plates dive under continental plates (subduction zones), they carve the ocean's deepest canyons, called trenches."
+    },
+    {
+      "label": "Deep life",
+      "value": "Life exists even in the cold, dark depths and in the superheated waters around hydrothermal vents."
+    }
+  ],
+  "topics": [
+    {
+      "id": "down-down-down",
+      "title": "Down, down, down!",
+      "image": "assets/oflr/OFLR01PU.webp",
+      "text": "The shallowest parts of the oceans are the continental shelves, which are actually the outer edges of the continents. Most shelves are broad, gently sloping plains, sometimes cut by canyons, that extend anywhere from a few miles to several hundred miles. These areas make up only a small part of the ocean floor, but most marine plants and many animals live here because there's plenty of sunlight and food. The continental slope is the steep drop-off that connects the shallow continental shelf with the deeper abyssal plains.",
+      "narration": "assets/oflr/OFLR01JN.mp3"
+    },
+    {
+      "id": "hot-spot",
+      "title": "Hot spot",
+      "image": "assets/oflr/OFLR02PU.webp",
+      "text": "A hot spot gave birth to the Hawaiian Islands. In fact, a future addition already has a name: the underwater volcano of Loihi will emerge above the waters of the Pacific anywhere from 10,000 to 100,000 years from now.",
+      "captions": [
+        {
+          "label": "Assembly line",
+          "text": "Magma sources deep in the earth's mantle occasionally inject lava upward into a plate to form volcanic islands. These magma plumes, called hot spots, always stay in the same place. However, since plates are always moving, a volcano formed by a hot spot will eventually travel away from its source. The next time the hot spot is active, a different part of the plate will be above it, so a new volcano will result. This process creates a string of volcanoes—from the oldest to the youngest."
+        }
+      ],
+      "narration": "assets/oflr/OFLR02JN.mp3"
+    },
+    {
+      "id": "birth-of-the-ocean-floor",
+      "title": "Birth of the ocean floor",
+      "image": "assets/oflr/OFLR03PU.webp",
+      "text": "What's the longest mountain range on earth? Try the mid-ocean ridge system—it's 56,315 km (35,000 mi) long! This huge chain of mountains snakes up and down the middle of the world's oceans like the curving seams of a baseball, and is the birthplace of new ocean floor. Along this ridge, giant currents of magma in the earth's mantle force the edges of oceanic plates apart, allowing the magma to ooze up into the crust and graft itself onto the edges of the plates. As the plates move away from the ridge, the new crust is carried along as if on a giant conveyor belt.",
+      "captions": [
+        {
+          "label": "Brand new",
+          "text": "The Icelandic island of Surtsey is located directly over the spreading center of the Mid-Atlantic Ridge."
+        }
+      ],
+      "narration": "assets/oflr/OFLR03JN.mp3"
+    },
+    {
+      "id": "disappearing-act",
+      "title": "Disappearing act",
+      "image": "assets/oflr/OFLR04PU.webp",
+      "text": "With all those crustal plates moving around on the earth's surface, they're bound to run into one another! When a plate made up of denser, heavier oceanic rock rams one composed of lighter continental rock, the oceanic plate will get shoved underneath it and be subducted down into the mantle. These areas, known as subduction zones, are marked by very deep canyons called trenches. When the subducted plate gets deep enough, it melts, and some of this magma goes straight back up into the crust again. It erupts explosively onto the surface, forming a curved chain of volcanoes called an island arc.",
+      "narration": "assets/oflr/OFLR04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Minerals from the Sea",
+      "to": "mine"
+    },
+    {
+      "label": "Mediterranean Sea",
+      "to": "medi"
+    },
+    {
+      "label": "South Pacific Explorers",
+      "to": "sout"
+    },
+    {
+      "label": "Submarines and Robots",
+      "to": "robo"
+    },
+    {
+      "label": "What is Oceanography?",
+      "to": "ocea"
+    },
+    {
+      "label": "Toothy Terrors",
+      "to": "toot"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/oflr/OFLR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Disappearing act",
+            "to": "disappearing-act",
+            "x": 24,
+            "y": 39,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "All kinds of habitats",
+            "to": "video",
+            "x": 56,
+            "y": 39,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Down, down, down!",
+            "to": "down-down-down",
+            "x": 2,
+            "y": 47,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Hot spot",
+            "to": "hot-spot",
+            "x": 24,
+            "y": 71,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "Birth of the ocean floor",
+            "to": "birth-of-the-ocean-floor",
+            "x": 57,
+            "y": 71,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 6
+          }
+        ]
+      },
+      "down-down-down": {
+        "image": "assets/oflr/OFLR01PU.webp",
+        "back": "main"
+      },
+      "hot-spot": {
+        "image": "assets/oflr/OFLR02PU.webp",
+        "back": "main"
+      },
+      "birth-of-the-ocean-floor": {
+        "image": "assets/oflr/OFLR03PU.webp",
+        "back": "main"
+      },
+      "disappearing-act": {
+        "image": "assets/oflr/OFLR04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/oflr/clip.mp4",
+        "poster": "assets/oflr/OFLR05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/oflr/OFLR00JN.mp3",
+  "sound": "assets/oflr/OFLR00IX.mp3",
+  "video": {
+    "title": "All kinds of habitats",
+    "src": "assets/oflr/clip.mp4",
+    "poster": "assets/oflr/poster.webp",
+    "caption": "The ocean floor offers habitats for all kinds of creatures. The types of bottom-dwelling animals that live in an area depend on the water depth and the nature of the ocean floor. Some animals eat plants or require plenty of light and warm temperatures, and so must live only in shallow waters. Others may need to burrow into sand or mud, or to hide in caves. Scientists have discovered that there's life everywhere in the ocean—even in the cold, dark depths and the superheated waters around hydrothermal vents.",
+    "narration": "assets/oflr/OFLR05JN.mp3"
+  }
+}

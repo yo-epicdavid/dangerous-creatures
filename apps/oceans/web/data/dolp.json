@@ -1,0 +1,256 @@
+{
+  "id": "dolp",
+  "code": "DOLP",
+  "name": "Dolphins and Porpoises",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "These smiling sea mammals can surf ship waves, talk to each other, and were once called sea monsters!",
+  "zones": [
+    "Open ocean",
+    "Coast & tide pools",
+    "Polar seas"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/dolp/DOLP00AA.webp",
+    "alt": "Dolphins and Porpoises"
+  },
+  "intro": "Did you know that Cetacean—the name given to the family of marine mammals that includes whales, dolphins, and porpoises—comes from Greek and Latin words that mean \"sea monster\"? Far from being \"monstrous,\" dolphins and porpoises are actually beautiful, intelligent, and social animals that people the world over have admired for centuries.",
+  "facts": [
+    {
+      "label": "Name",
+      "value": "\"Cetacean\" comes from Greek and Latin words meaning \"sea monster\""
+    },
+    {
+      "label": "Did you know",
+      "value": "Killer whales (orcas) are actually the largest of the dolphins, not small whales"
+    },
+    {
+      "label": "Speed",
+      "value": "The dolphin fish (dorado) can swim in sudden bursts of up to 60 km (40 mi) per hour"
+    },
+    {
+      "label": "Behavior",
+      "value": "Dolphins race to the bow of ships to ride the bow wave, letting it push them along without having to swim"
+    },
+    {
+      "label": "Threats",
+      "value": "Dolphins often drown when caught in fishing nets designed to catch tuna or other fish"
+    },
+    {
+      "label": "Distribution",
+      "value": "Harbor porpoises have largely disappeared from the Mediterranean, Baltic, and Black Seas due to pollution and overfishing"
+    }
+  ],
+  "topics": [
+    {
+      "id": "billed-as-killers",
+      "title": "Billed as killers",
+      "image": "assets/dolp/DOLP01PU.webp",
+      "text": "Killer whales—or orcas—are billed as killers, but they're actually no more deadly than any other predator. Some scientists classify them not as small whales, but as the largest of the dolphins. Orcas hunt in family groups, or pods, preying on birds, smaller dolphins, fish, and seals. In Antarctica, they've been known to bump ice floes to tip seals into the water! However, orcas never hunt humans. There is one recorded instance of an orca attacking a surfer, but it realized its mistake and spit him out—alive!",
+      "captions": [
+        {
+          "label": "Killer whales",
+          "text": "Orcinus orca"
+        }
+      ],
+      "narration": "assets/dolp/DOLP01JN.mp3"
+    },
+    {
+      "id": "fish-or-mammal",
+      "title": "Fish or mammal?",
+      "image": "assets/dolp/DOLP02PU.webp",
+      "text": "What has a blunt nose, is an extremely strong swimmer, and makes impressive leaps out of the water? The dolphin fish, which may sometimes act like a dolphin, but is really a fish, not a mammal.",
+      "captions": [
+        {
+          "label": "El dorado",
+          "text": "The dolphin fish—or dorado—can swim in sudden bursts of up to 60 km (40 mi) per hour! The dorado inhabits the open seas, where it chases flying fish or hides under floating debris. Sport fishermen love this fish because it puts up such a fight, and because its flesh is very tasty."
+        },
+        {
+          "label": "Dolphin with a difference",
+          "text": "Dolphins are mammals. They breathe air through a blowhole and don't lay eggs, but instead give birth to their young, which they then nurture and care for."
+        }
+      ],
+      "narration": "assets/dolp/DOLP02JN.mp3"
+    },
+    {
+      "id": "surfers",
+      "title": "Surfers",
+      "image": "assets/dolp/DOLP03PU.webp",
+      "text": "You may not realize it, but there's a real similarity between these two surfers!",
+      "captions": [
+        {
+          "label": "Wave's up!",
+          "text": "One of the greatest joys in a dolphin's life is to race to the bow of a big ship and ride its bow wave. It finds that special spot in the wave where it doesn't have to swim, but is instead pushed along. If there were no engine noise, you'd hear their squeals of delight."
+        },
+        {
+          "label": "Surf's up!",
+          "text": "Surfers also have to find just the right spot on the wave. Otherwise it's a wipeout!"
+        }
+      ],
+      "narration": "assets/dolp/DOLP03JN.mp3"
+    },
+    {
+      "id": "funny-or-fatal",
+      "title": "Funny or fatal",
+      "image": "assets/dolp/DOLP04PU.webp",
+      "text": "Because dolphins are among the most intelligent creatures in the sea, they're routinely captured, trained, and put to work entertaining us at marine parks. But there are some harsh realities behind these shows.",
+      "captions": [
+        {
+          "label": "Stardom—at a price",
+          "text": "Dolphins can be taught to play ball, jump through hoops, and many other tricks. While these dolphins give us a chance to appreciate their talents, in mimicking human \"play\" they are often discouraged from behaving naturally. Keeping them in captivity is a subject that is more and more open to debate. Dolphins seem to fare well in marine parks, but they often die during the trip from the wild."
+        }
+      ],
+      "narration": "assets/dolp/DOLP04JN.mp3"
+    },
+    {
+      "id": "how-smart-are-they",
+      "title": "How smart are they?",
+      "image": "assets/dolp/DOLP05PU.webp",
+      "text": "It's difficult to measure dolphins' intelligence, or that of any other animal species, by human standards. Nonetheless, scientists have devised some ingenious means to learn what they can. Battery transmitters attached to some dolphins beam signals up to satellites in space, which track their movements in the open ocean. Other dolphins have been fitted with nametags and badges to identify them by their species. Recorders attached to their fins measure the depth of their dives. In captivity as well as in the wild, waterproof microphones record the calls they make to each other underwater so that scientists can study their communication.",
+      "narration": "assets/dolp/DOLP05JN.mp3"
+    },
+    {
+      "id": "porpoise-or-dolphin",
+      "title": "Porpoise or dolphin?",
+      "image": "assets/dolp/DOLP06PU.webp",
+      "text": "How can you tell dolphins and porpoises apart? One way is to look for a pronounced beak, or snout, which is primarily a dolphin trait. Size is another clue: dolphins are often larger than porpoises. Behavior offers a last tip. Dolphins are generally more playful and trainable than porpoises. But watch out! There are many exceptions to these rules.",
+      "captions": [
+        {
+          "label": "Jumping jacks",
+          "text": "The spotted dolphin is a big performer. Giant leaps, flips, and twists—it can do them all. Notice that its body is more streamlined than that of a porpoise."
+        },
+        {
+          "label": "Once a common porpoise",
+          "text": "Harbor porpoises, also called common porpoises, were once common along most coastlines in the Northern Hemisphere. They have now largely disappeared from the Mediterranean, Baltic, and Black Seas, and are endangered in many other places due to pollution and overfishing."
+        }
+      ],
+      "narration": "assets/dolp/DOLP06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What's a Fish?",
+      "to": "what"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/dolp/DOLP00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 4,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "Porpoise or dolphin?",
+            "to": "porpoise-or-dolphin",
+            "x": 56,
+            "y": 25,
+            "w": 34,
+            "h": 6
+          },
+          {
+            "label": "How smart are they?",
+            "to": "how-smart-are-they",
+            "x": 56,
+            "y": 38,
+            "w": 34,
+            "h": 6
+          },
+          {
+            "label": "Survival",
+            "to": "video",
+            "x": 57,
+            "y": 51,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Surfers",
+            "to": "surfers",
+            "x": 8,
+            "y": 56,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Billed as killers",
+            "to": "billed-as-killers",
+            "x": 8,
+            "y": 66,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Fish or mammal?",
+            "to": "fish-or-mammal",
+            "x": 19,
+            "y": 77,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Funny or fatal",
+            "to": "funny-or-fatal",
+            "x": 20,
+            "y": 87,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "billed-as-killers": {
+        "image": "assets/dolp/DOLP01PU.webp",
+        "back": "main"
+      },
+      "fish-or-mammal": {
+        "image": "assets/dolp/DOLP02PU.webp",
+        "back": "main"
+      },
+      "surfers": {
+        "image": "assets/dolp/DOLP03PU.webp",
+        "back": "main"
+      },
+      "funny-or-fatal": {
+        "image": "assets/dolp/DOLP04PU.webp",
+        "back": "main"
+      },
+      "how-smart-are-they": {
+        "image": "assets/dolp/DOLP05PU.webp",
+        "back": "main"
+      },
+      "porpoise-or-dolphin": {
+        "image": "assets/dolp/DOLP06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/dolp/clip.mp4",
+        "poster": "assets/dolp/DOLP07PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/dolp/DOLP00JN.mp3",
+  "sound": "assets/dolp/DOLP00IX.mp3",
+  "video": {
+    "title": "Survival",
+    "src": "assets/dolp/clip.mp4",
+    "poster": "assets/dolp/poster.webp",
+    "caption": "It may look as if dolphins are smiling, but they're not. The expression remains the same regardless of what they're experiencing. One of the biggest threats to this gentle species is man. Dolphins often swim with tuna in the open ocean, and when they get caught in nets designed to catch tuna or other fish, they drown. Dolphins also get serious diseases that are caused by ocean pollution. Many nations catch great numbers of dolphins for food.",
+    "narration": "assets/dolp/DOLP07JN.mp3"
+  }
+}

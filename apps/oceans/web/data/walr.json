@@ -1,0 +1,162 @@
+{
+  "id": "walr",
+  "code": "WALR",
+  "name": "Walruses",
+  "category": "creature",
+  "scientificName": "Odobenus rosmarus",
+  "needsScientificVerify": false,
+  "tagline": "Tusked titans of the Arctic ice, at home on land and in the freezing sea!",
+  "zones": [
+    "Polar seas",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Arctic Ocean",
+    "North Pacific Ocean"
+  ],
+  "hero": {
+    "image": "assets/walr/WALR00AA.webp",
+    "alt": "Walruses"
+  },
+  "intro": "They may not be as sleek as other seals, but walruses belong to the same family—Pinnipedia, or wing-footed animals, so named because all four of their limbs have evolved into wing-shaped flippers. While other aquatic mammals like whales and manatees have given up all ties to land, walruses do come ashore to mate and to bear and raise their young. While on land, the walrus walks on its flippers. These flippers also make the walrus a powerful swimmer, and its layer of insulating fat and specially adapted circulation help conserve heat during long dives in extremely cold water. The walrus manages to be comfortable in two environments with ease!",
+  "facts": [
+    {
+      "label": "Family",
+      "value": "Walruses belong to Pinnipedia, or \"wing-footed animals,\" named because all four limbs evolved into wing-shaped flippers."
+    },
+    {
+      "label": "Tusks",
+      "value": "Tusks are really canine teeth that have grown very long. Walruses use their tusks to pull themselves along the ice."
+    },
+    {
+      "label": "Name meaning",
+      "value": "The Latin name Odobenus rosmarus means \"tooth-walking sea horse.\""
+    },
+    {
+      "label": "Tusk growth",
+      "value": "Tusks appear when a walrus is about 1½ years old. The biggest walrus with the largest tusks becomes leader of the herd."
+    },
+    {
+      "label": "Conservation",
+      "value": "Walrus populations throughout the world have been decimated by hunting. Governments of many countries have made it illegal to import ivory."
+    },
+    {
+      "label": "Did you know",
+      "value": "Walruses can recognize sizes of tusks, and males have even been known to pose in order to show them off."
+    }
+  ],
+  "topics": [
+    {
+      "id": "tuskers",
+      "title": "Tuskers",
+      "image": "assets/walr/WALR01PU.webp",
+      "text": "Tusks are really canine teeth that have grown very long. Walruses use their tusks to pull themselves along the ice. The Latin name for walrus—Odobenus rosmarus—means \"tooth-walking sea horse.\" These lumbering beasts also spar playfully with one another, tusk to tusk. These contests get more serious, and dangerous, during mating season.",
+      "captions": [
+        {
+          "label": "Another tuskbuster",
+          "text": "Elephants like to charge each other in play, locking head-to-head in wrestling matches. As with walruses, the battle can turn deadly if a tusk penetrates a vital body part."
+        },
+        {
+          "label": "Screwy tooth",
+          "text": "The narwhal is an unusual whale whose spiral, unicornlike tusk is actually a tooth that grows out of its nose! This tusk can be as long as 3 m (10 ft). That's three fifths as long as the narwhal's body!"
+        }
+      ],
+      "narration": "assets/walr/WALR01JN.mp3"
+    },
+    {
+      "id": "vanishing-art",
+      "title": "Vanishing art",
+      "image": "assets/walr/WALR02PU.webp",
+      "text": "Elephants, whales, and walruses have all been hunted for their tusks and bones, meat, and oil. Elephants and whales are severely threatened as a result, and walrus populations throughout the world have been decimated. In an effort to save these animals, the governments of many countries have made it illegal to import ivory.",
+      "captions": [
+        {
+          "label": "Whalers' art",
+          "text": "Whalers indulged in the art of scrimshaw, or carving decorative objects from whale or walrus ivory, to while away the hours on long ocean trips. Scrimshaw was especially popular in the nineteenth century."
+        },
+        {
+          "label": "Intricate job",
+          "text": "The sailor worked with a jackknife and an awl made from a sail needle or nail. Somewhere in the middle of the ocean he might come up with a game board, a clock case, or a fancy corset stay!"
+        }
+      ],
+      "narration": "assets/walr/WALR02JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Seals and Sea Lions",
+      "to": "seal"
+    },
+    {
+      "label": "Sailing Ships",
+      "to": "sail"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/walr/WALR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 14,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "Tuskers",
+            "to": "tuskers",
+            "x": 63,
+            "y": 9,
+            "w": 17,
+            "h": 6
+          },
+          {
+            "label": "Vanishing art",
+            "to": "vanishing-art",
+            "x": 56,
+            "y": 46,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "A ton of triumph",
+            "to": "video",
+            "x": 50,
+            "y": 63,
+            "w": 28,
+            "h": 6
+          }
+        ]
+      },
+      "tuskers": {
+        "image": "assets/walr/WALR01PU.webp",
+        "back": "main"
+      },
+      "vanishing-art": {
+        "image": "assets/walr/WALR02PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/walr/clip.mp4",
+        "poster": "assets/walr/WALR03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/walr/WALR00JN.mp3",
+  "sound": "assets/walr/WALR00IX.mp3",
+  "video": {
+    "title": "A ton of triumph",
+    "src": "assets/walr/clip.mp4",
+    "poster": "assets/walr/poster.webp",
+    "caption": "Both male and female walruses have tusks, but it's the males—or bulls—who do the fighting come mating season. Tusks appear when the walrus is about 1½ years old. The biggest walrus with the largest tusks becomes the leader of the herd. Walruses can recognize sizes of tusks, and males have even been known to pose in order to show them off. In the heat of battle two bulls stab each other until the loser concedes defeat by withdrawing.",
+    "narration": "assets/walr/WALR03JN.mp3"
+  }
+}

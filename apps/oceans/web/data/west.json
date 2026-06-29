@@ -1,0 +1,241 @@
+{
+  "id": "west",
+  "code": "WEST",
+  "name": "Western European Explorers",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Daring sailors who crossed impossible oceans and changed the world forever.",
+  "zones": [
+    "Open ocean"
+  ],
+  "oceans": [
+    "Atlantic Ocean",
+    "Pacific Ocean",
+    "Arctic Ocean"
+  ],
+  "hero": {
+    "image": "assets/west/WEST00AA.webp",
+    "alt": "Western European Explorers"
+  },
+  "intro": "From the eighth through the eighteenth centuries Western Europeans set out on incredible voyages across vast distances. They braved disease, deprivation, and severe weather. Some sought knowledge and adventure, while others were motivated solely by greed. Whether soldiers, seekers, scientists, or slavers, they had one trait in common: daring. The Atlantic Ocean can be very inhospitable, and in those days the Pacific was almost impossible for Europeans to reach. But they made it—by accident or intention—and discovered new worlds.",
+  "facts": [
+    {
+      "label": "Era",
+      "value": "Western Europeans made remarkable ocean voyages from the 8th through the 18th centuries, driven by curiosity, greed, and daring."
+    },
+    {
+      "label": "First colony",
+      "value": "Vikings established the first known European colony in North America, traveling as far as Greenland and eastern Canada from the 8th through the 12th centuries."
+    },
+    {
+      "label": "Columbus's ships",
+      "value": "Columbus sailed west in three ships—the Niña, Pinta, and Santa Maria—hoping to reach the Indies, but landed in the Caribbean instead."
+    },
+    {
+      "label": "Magellan's crew",
+      "value": "In 1520, Magellan's crew sailed over a hundred days without taking on food or water, even eating leather to survive, and became the first to circumnavigate the globe."
+    },
+    {
+      "label": "Scurvy",
+      "value": "Lack of fresh fruit and vegetables often caused scurvy among sailors, making them lose teeth and suffer deformed arms and legs."
+    },
+    {
+      "label": "Captain Cook",
+      "value": "James Cook sailed farther south than anyone before him and charted New Zealand and Australia; his voyages ended when he was killed by Hawaiian islanders in 1779."
+    }
+  ],
+  "topics": [
+    {
+      "id": "indies-or-america",
+      "title": "Indies or America?",
+      "image": "assets/west/WEST02PU.webp",
+      "text": "After Prince Henry of Portugal had paved the way for the great voyages of discovery by setting up a school of navigation and encouraging exploration in the first half of the fifteenth century, Columbus received financial backing from Spain and sailed west to find a sea route to the Indies. The prevailing winds blew Columbus westward in his famous ships: the Niña, Pinta, and Santa Maria. Upon making landfall in the Caribbean, he concluded that he had reached the Orient. He brought back many exotic treasures and even a few of the people that he had found in the New World.",
+      "captions": [
+        {
+          "label": "\"Columbus at the Royal Court of Spain in Barcelona\"",
+          "text": "by Victor A. Searles"
+        }
+      ],
+      "narration": "assets/west/WEST02JN.mp3"
+    },
+    {
+      "id": "slave-trade",
+      "title": "Slave trade",
+      "image": "assets/west/WEST03PU.webp",
+      "text": "European explorers brought disease and war to the New World, and many of its native peoples died. The Spanish shipped Africans to South America to work on sugar plantations. The English, French, and Portuguese joined in the slave trade and expanded it to North America.",
+      "captions": [
+        {
+          "label": "Ships of misery",
+          "text": "Slave ships were foul, disease-ridden crates in which human beings were branded and stacked like cordwood. Africans often jumped overboard to their deaths to avoid this awful fate."
+        },
+        {
+          "label": "A cross to bear",
+          "text": "Many slavetraders justified their activities by saying that they were converting heathens to Christianity and therefore saving their souls."
+        }
+      ],
+      "narration": "assets/west/WEST03JN.mp3"
+    },
+    {
+      "id": "miserable-conditions",
+      "title": "Miserable conditions",
+      "image": "assets/west/WEST04PU.webp",
+      "text": "Sailing the long distance from Europe was not a luxury trip for anyone during the Age of Discovery.",
+      "captions": [
+        {
+          "label": "Oh, rats!",
+          "text": "Rats were unwelcome stowaways on every voyage."
+        },
+        {
+          "label": "Scurvy",
+          "text": "The lack of fresh fruit and vegetables often led to scurvy among the crew. This vitamin deficiency caused sailors to lose teeth and often resulted in deformed arms and legs as well."
+        }
+      ],
+      "narration": "assets/west/WEST04JN.mp3"
+    },
+    {
+      "id": "wild-experiences",
+      "title": "Wild experiences",
+      "image": "assets/west/WEST05PU.webp",
+      "text": "In 1520 Magellan ventured out of the straits which are now named after him and into the Pacific Ocean. His crew sailed for over a hundred days without taking on food or water. They even had to eat leather! But by enduring these hardships, they became the first to circumnavigate the globe.",
+      "captions": [
+        {
+          "label": "Great balls of fire!",
+          "text": "Along the way they saw St. Elmo's fire—flaming static electricity—at the top of their ship's mast. They thought it was the end of the world!"
+        },
+        {
+          "label": "Fish in the air?",
+          "text": "Magellan's sailors were frightened by flying fish skimming over the decks. They attributed such oddities to demons in the sea."
+        }
+      ],
+      "narration": "assets/west/WEST05JN.mp3"
+    },
+    {
+      "id": "mission-venus",
+      "title": "Mission: Venus",
+      "image": "assets/west/WEST06PU.webp",
+      "text": "Captain James Cook's quest was for knowledge, not for gold. In 1768 England's King George III sent him to the central Pacific to track Venus as it crossed the Sun.",
+      "captions": [
+        {
+          "label": "Odd animals",
+          "text": "During three epic voyages, Cook's crew collected insect and plant samples and sent back what was to become the first published drawing of a kangaroo!"
+        },
+        {
+          "label": "Farther south than ever before",
+          "text": "Cook sailed to Tahiti, charted the coasts of New Zealand and Australia, skirted the Antarctic ice, and sailed farther south than anyone had before him. His simple and informative accounts of his voyages became best-selling books. Cook's travels ended in tragedy: he was killed by Hawaiian islanders in 1779."
+        }
+      ],
+      "narration": "assets/west/WEST06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Pirates",
+      "to": "pira"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/west/WEST00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 6,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Mission: Venus",
+            "to": "mission-venus",
+            "x": 73,
+            "y": 20,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Miserable conditions",
+            "to": "miserable-conditions",
+            "x": 70,
+            "y": 33,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Indies or America?",
+            "to": "indies-or-america",
+            "x": 2,
+            "y": 56,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Slave trade",
+            "to": "slave-trade",
+            "x": 38,
+            "y": 61,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Raiders of the North",
+            "to": "video",
+            "x": 2,
+            "y": 68,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Wild experiences",
+            "to": "wild-experiences",
+            "x": 2,
+            "y": 78,
+            "w": 19,
+            "h": 6
+          }
+        ]
+      },
+      "indies-or-america": {
+        "image": "assets/west/WEST02PU.webp",
+        "back": "main"
+      },
+      "slave-trade": {
+        "image": "assets/west/WEST03PU.webp",
+        "back": "main"
+      },
+      "miserable-conditions": {
+        "image": "assets/west/WEST04PU.webp",
+        "back": "main"
+      },
+      "wild-experiences": {
+        "image": "assets/west/WEST05PU.webp",
+        "back": "main"
+      },
+      "mission-venus": {
+        "image": "assets/west/WEST06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/west/clip.mp4",
+        "poster": "assets/west/WEST01PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/west/WEST00JN.mp3",
+  "sound": "assets/west/WEST00IX.mp3",
+  "video": {
+    "title": "Raiders of the North",
+    "src": "assets/west/clip.mp4",
+    "poster": "assets/west/poster.webp",
+    "caption": "Viking longships brave icy northern seas, ranging from Scandinavia to Greenland and eastern Canada, leaving hundreds of carved memorial stones as evidence of their journeys.",
+    "narration": "assets/west/WEST01JN.mp3"
+  }
+}

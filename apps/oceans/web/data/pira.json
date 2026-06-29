@@ -1,0 +1,226 @@
+{
+  "id": "pira",
+  "code": "PIRA",
+  "name": "Pirates",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Scoundrels of the high seas who made royalty nervous — and rich!",
+  "zones": [
+    "Open ocean",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Atlantic Ocean",
+    "Caribbean Sea",
+    "Indian Ocean"
+  ],
+  "hero": {
+    "image": "assets/pira/PIRA00AA.webp",
+    "alt": "Pirates"
+  },
+  "intro": "From the twelfth through the nineteenth centuries, pirates, freebooters, and corsairs wreaked havoc on the high seas. These scoundrels terrorized the Caribbean, the Atlantic seaboard, and the coasts of Northern Europe, Africa, and India. They went in and out of favor with governments and royalty, who sometimes appreciated the chance to dip into pirate treasure!",
+  "facts": [
+    {
+      "label": "Era",
+      "value": "Pirates terrorized the seas from the twelfth through the nineteenth centuries."
+    },
+    {
+      "label": "Henry Morgan",
+      "value": "In 1670, Henry Morgan attacked Panama with 36 ships and 2,000 buccaneers — then got knighted and made deputy governor of Jamaica!"
+    },
+    {
+      "label": "Captain Kidd",
+      "value": "Hired as a privateer by the English in 1695, Captain Kidd mistakenly attacked the wrong ships, buried his treasure, and was captured and hung after an unfair trial."
+    },
+    {
+      "label": "Women pirates",
+      "value": "Women like Grace O'Malley and Hsi Kai commanded pirate fleets and terrified their enemies."
+    },
+    {
+      "label": "Privateers",
+      "value": "Sir Francis Drake sacked many a Spanish ship — Queen Elizabeth of England knighted him for his exploits."
+    },
+    {
+      "label": "Fate",
+      "value": "When pirates were caught, they were usually hung."
+    }
+  ],
+  "topics": [
+    {
+      "id": "fierce-females",
+      "title": "Fierce females",
+      "image": "assets/pira/PIRA01PU.webp",
+      "text": "Some of the fiercest pirates were women.",
+      "captions": [
+        {
+          "label": "Fickle Alvilda",
+          "text": "Rather than marrying the man her father had chosen for her, Gothic princess Alvilda elected to become a pirate. Her all-woman crew fought hand-to-hand with knives, often forcing their male captives to join in. Alvilda once lost a sea battle to Prince Alf, who then proposed marriage. Turns out he was the guy Dad had picked for her in the first place!"
+        },
+        {
+          "label": "Gruesome Grace",
+          "text": "Irish pirate Grace O'Malley bore many children and cut off the hand of one disobedient son. When she was over 60, she appeared on deck in her nightgown, pistol and sword in hand, and so alarmed the Spanish that they fled in a panic."
+        }
+      ],
+      "narration": "assets/pira/PIRA01JN.mp3"
+    },
+    {
+      "id": "why-be-a-pirate",
+      "title": "Why be a pirate?",
+      "image": "assets/pira/PIRA02PU.webp",
+      "text": "People became pirates out of greed or vengeance, or to escape from terrible poverty. Life in eighteenth-century England was so dreadful that people often left home for a life at sea. Pawnbrokers, drunks, murderers, and worse carouse in William Hogarth's famous engraving, \"Gin Lane.\"",
+      "narration": "assets/pira/PIRA02JN.mp3"
+    },
+    {
+      "id": "women-or-men",
+      "title": "Women or men?",
+      "image": "assets/pira/PIRA03PU.webp",
+      "text": "Both men and women sought riches and booty on the high seas. Women often dressed as men in order to escape from home or impress a ship's crew with their \"strength,\" so it was often difficult to tell them apart from their male counterparts.",
+      "captions": [
+        {
+          "label": "Beauty and the beast",
+          "text": "In nineteenth-century China, Hsi Kai was captured by the pirate captain Ching Yih. When she tried to claw his eyes out he married her on the spot. After his death she ran a successful pirate empire of her own, wiping out entire villages on a whim."
+        },
+        {
+          "label": "Dress-up",
+          "text": "Eighteenth-century pirates Anne Bonney and Mary Read wore men's clothing but married fellow pirates. Mary's husband left the fighting to her, while Anne dismissed her husband as a coward as he was fitted with the hangman's noose."
+        }
+      ],
+      "narration": "assets/pira/PIRA03JN.mp3"
+    },
+    {
+      "id": "queens-favorite-pirate",
+      "title": "Queen's favorite pirate",
+      "image": "assets/pira/PIRA04PU.webp",
+      "text": "The Caribbean was a hotbed of privateers and buccaneers, pirates who offered their services to nations at war. Stolen goods were divided up between the various parties, and plundering became a legitimate pursuit. Unfortunately, many early explorers set the standard for this kind of behavior. The swashbuckling Sir Francis Drake sacked many a Spanish ship and was, among other things, a master thief. Queen Elizabeth of England knighted him for his exploits.",
+      "narration": "assets/pira/PIRA04JN.mp3"
+    },
+    {
+      "id": "famous-ransackers",
+      "title": "Famous ransackers",
+      "image": "assets/pira/PIRA05PU.webp",
+      "text": "Piracy was a profession that sometimes brought surprising results!",
+      "captions": [
+        {
+          "label": "Unlucky looter",
+          "text": "The famous Captain Kidd didn't fare so well. Hired as a privateer by the English in 1695, he mistakenly attacked the wrong ships, buried his treasure, and was captured and hung after an unfair trial."
+        },
+        {
+          "label": "Quick turnaround",
+          "text": "In 1670 Henry Morgan set out with 36 ships and 2,000 buccaneers to raid Panama. The city burned to the ground. Because the raid took place after a peace treaty between England and Spain had been concluded, Morgan was arrested. But when relations between the two countries improved, he was knighted and appointed deputy governor of Jamaica!"
+        }
+      ],
+      "narration": "assets/pira/PIRA05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Indian Ocean",
+      "to": "indn"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/pira/PIRA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 4,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "Famous ransackers",
+            "to": "famous-ransackers",
+            "x": 36,
+            "y": 4,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "A brutal life",
+            "to": "video",
+            "x": 55,
+            "y": 37,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Queen's favorite pirate",
+            "to": "queens-favorite-pirate",
+            "x": 52,
+            "y": 46,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Why be a pirate?",
+            "to": "why-be-a-pirate",
+            "x": 32,
+            "y": 62,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Women or men?",
+            "to": "women-or-men",
+            "x": 22,
+            "y": 73,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Fierce females",
+            "to": "fierce-females",
+            "x": 22,
+            "y": 83,
+            "w": 15,
+            "h": 5
+          }
+        ]
+      },
+      "fierce-females": {
+        "image": "assets/pira/PIRA01PU.webp",
+        "back": "main"
+      },
+      "why-be-a-pirate": {
+        "image": "assets/pira/PIRA02PU.webp",
+        "back": "main"
+      },
+      "women-or-men": {
+        "image": "assets/pira/PIRA03PU.webp",
+        "back": "main"
+      },
+      "queens-favorite-pirate": {
+        "image": "assets/pira/PIRA04PU.webp",
+        "back": "main"
+      },
+      "famous-ransackers": {
+        "image": "assets/pira/PIRA05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/pira/clip.mp4",
+        "poster": "assets/pira/PIRA06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/pira/PIRA00JN.mp3",
+  "sound": "assets/pira/PIRA00IX.mp3",
+  "video": {
+    "title": "A brutal life",
+    "src": "assets/pira/clip.mp4",
+    "poster": "assets/pira/poster.webp",
+    "caption": "Movies usually portray pirates as romantic adventurers. In reality, most pirates were brutal, uncouth thugs. The punishments they dealt to their victims were barbarous. On board ship, they drank and gambled, brawled among themselves, and sometimes tortured or killed each other. When pirates were caught, they were usually hung.",
+    "narration": "assets/pira/PIRA06JN.mp3"
+  }
+}

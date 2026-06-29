@@ -1,0 +1,271 @@
+{
+  "id": "webl",
+  "code": "WEBL",
+  "name": "The Web of Life",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Every ocean creature is part of a bigger story — and nothing goes to waste.",
+  "zones": [
+    "Coast & tide pools",
+    "Coral reef",
+    "Kelp & seagrass",
+    "Open ocean",
+    "Deep sea"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/webl/WEBL00AA.webp",
+    "alt": "The Web of Life"
+  },
+  "intro": "All life on earth must take in food in order to survive. Plants create nutrients from minerals, water, and light. Some animals eat plants, while others eat the flesh or the waste products of their fellow animals. People often think of nature as being cruel or disgusting, but that's only because our own predatory habits and waste recycling are hidden from view most of the time. A natural, balanced ecosystem is really a marvelous scheme in which nothing goes to waste.",
+  "facts": [
+    {
+      "label": "Producers",
+      "value": "Phytoplankton are the tiniest plants in the ocean, getting their energy from water and sunlight and providing food for all kinds of animals, from tiny zooplankton to giant clams."
+    },
+    {
+      "label": "Plant eaters",
+      "value": "Even reptiles can be plant eaters — the marine iguana of the Galápagos Islands has developed a rare habit for a reptile: grazing on seaweed beneath the waves."
+    },
+    {
+      "label": "Plankton eaters",
+      "value": "Baleen whales and certain types of sharks live mostly on plankton."
+    },
+    {
+      "label": "Scavengers",
+      "value": "Crabs and prawns are important marine scavengers — without them, bodies of dead animals would pile up until there was no room left for the living creatures."
+    },
+    {
+      "label": "Decomposers",
+      "value": "In the oceans as on land, the final job of cleaning up waste materials belongs to bacteria."
+    },
+    {
+      "label": "Did you know",
+      "value": "Every plant and every animal plays an important role in the intricate web of life — if that extinct species had provided the sole source of food or shelter for some other species, then the second species would be doomed by the first one's death."
+    }
+  ],
+  "topics": [
+    {
+      "id": "plants",
+      "title": "Plants",
+      "image": "assets/webl/WEBL01PU.webp",
+      "text": "At the base of the ocean food web are phytoplankton, the tiniest plants in the ocean. They get their energy from water and sunlight, and provide food for all kinds of animals, from tiny zooplankton to giant clams. Larger plants like sea grasses and kelp serve as food and shelter for many types of marine creatures.",
+      "captions": [
+        {
+          "label": "Sea grass in tidepool",
+          "text": "Sea grass in tidepool"
+        },
+        {
+          "label": "Phytoplankton",
+          "text": "Phytoplankton"
+        }
+      ],
+      "narration": "assets/webl/WEBL01JN.mp3"
+    },
+    {
+      "id": "plant-eaters",
+      "title": "Plant eaters",
+      "image": "assets/webl/WEBL02PU.webp",
+      "text": "Many types of ocean animals eat only plants. Here are a couple you might be familiar with.\n\nOcean bunny\nThis nudibranch scours algae from the ocean floor. It's also called a sea hare because of its long, earlike antennae.\n\nVegetarian lizard\nThis iguana lives in the Galápagos Islands, where food is scarce. It's developed a rare habit for a reptile: grazing on seaweed beneath the waves.",
+      "captions": [
+        {
+          "label": "Marine iguana",
+          "text": "Amblyrhynchus cristatus"
+        },
+        {
+          "label": "Pelagio sea hare",
+          "text": "Aplysia species"
+        }
+      ],
+      "narration": "assets/webl/WEBL02JN.mp3"
+    },
+    {
+      "id": "plankton-eaters",
+      "title": "Plankton eaters",
+      "image": "assets/webl/WEBL03PU.webp",
+      "text": "Animals that are fixed in place get their food by filtering plankton and debris from the water around them. They eat both plant and animal plankton, and help to keep the water clean. Some larger animals, like baleen whales and certain types of sharks, live mostly on plankton, too.",
+      "captions": [
+        {
+          "label": "Basking shark",
+          "text": "Cetorhinius maximus"
+        },
+        {
+          "label": "Coraline sponge, Great Barrier Reef",
+          "text": "Sclerospongiae"
+        }
+      ],
+      "narration": "assets/webl/WEBL03JN.mp3"
+    },
+    {
+      "id": "meat-eaters",
+      "title": "Meat eaters",
+      "image": "assets/webl/WEBL04PU.webp",
+      "text": "Many ocean animals are both predators and prey—they eat smaller animals, and bigger animals eat them. If you had to name an ocean predator, you'd probably think of the shark or the killer whale. But the animals shown here are some of the most successful predators in the sea.",
+      "captions": [
+        {
+          "label": "Day octopus",
+          "text": "Octopus cyanea"
+        },
+        {
+          "label": "Red-knobbed starfish",
+          "text": "Protoreaster Nooki"
+        }
+      ],
+      "narration": "assets/webl/WEBL04JN.mp3"
+    },
+    {
+      "id": "eaters-of-the-dead",
+      "title": "Eaters of the dead",
+      "image": "assets/webl/WEBL05PU.webp",
+      "text": "Scavengers—animals that eat the remains of other animals—have gotten a bad rap. It's not a pleasant thought, but imagine what the oceans would be like without them. Bodies would pile up until there was no room left for the living creatures! Crabs and prawns are important marine scavengers.",
+      "captions": [
+        {
+          "label": "Arrow crab",
+          "text": "Stenothynochus seticornis"
+        },
+        {
+          "label": "Harlequin prawn",
+          "text": "Hymenocea picta"
+        }
+      ],
+      "narration": "assets/webl/WEBL05JN.mp3"
+    },
+    {
+      "id": "waste-treatment-experts",
+      "title": "Waste-treatment experts",
+      "image": "assets/webl/WEBL06PU.webp",
+      "text": "All animals expel waste materials from their bodies. If the environment is going to stay healthy, something has to process those waste materials. In the oceans as on land, the final job of cleaning up waste materials belongs to bacteria. But animals like those shown here also consume pounds of waste every year.",
+      "captions": [
+        {
+          "label": "Zebra flatworm",
+          "text": "Pseudoceros zebra"
+        },
+        {
+          "label": "Sea cucumber",
+          "text": "Sea cucumber"
+        }
+      ],
+      "narration": "assets/webl/WEBL06JN.mp3"
+    }
+  ],
+  "crosslinks": [],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/webl/WEBL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "Eaters of the dead",
+            "to": "eaters-of-the-dead",
+            "x": 54,
+            "y": 22,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Meat eaters",
+            "to": "meat-eaters",
+            "x": 52,
+            "y": 39,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Plankton eaters",
+            "to": "plankton-eaters",
+            "x": 52,
+            "y": 47,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "We're all connected",
+            "to": "video",
+            "x": 55,
+            "y": 62,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Plant eaters",
+            "to": "plant-eaters",
+            "x": 25,
+            "y": 65,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Plants",
+            "to": "plants",
+            "x": 27,
+            "y": 72,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Waste treatment experts",
+            "to": "waste-treatment-experts",
+            "x": 50,
+            "y": 85,
+            "w": 24,
+            "h": 5
+          }
+        ]
+      },
+      "plants": {
+        "image": "assets/webl/WEBL01PU.webp",
+        "back": "main"
+      },
+      "plant-eaters": {
+        "image": "assets/webl/WEBL02PU.webp",
+        "back": "main"
+      },
+      "plankton-eaters": {
+        "image": "assets/webl/WEBL03PU.webp",
+        "back": "main"
+      },
+      "meat-eaters": {
+        "image": "assets/webl/WEBL04PU.webp",
+        "back": "main"
+      },
+      "eaters-of-the-dead": {
+        "image": "assets/webl/WEBL05PU.webp",
+        "back": "main"
+      },
+      "waste-treatment-experts": {
+        "image": "assets/webl/WEBL06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/webl/clip.mp4",
+        "poster": "assets/webl/WEBL07PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/webl/WEBL00JN.mp3",
+  "sound": "assets/webl/WEBL00IX.mp3",
+  "video": {
+    "title": "We're all connected",
+    "src": "assets/webl/clip.mp4",
+    "poster": "assets/webl/poster.webp",
+    "caption": "Diver feeding sea urchin to wolf eel",
+    "narration": "assets/webl/WEBL07JN.mp3"
+  }
+}

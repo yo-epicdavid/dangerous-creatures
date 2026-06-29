@@ -1,0 +1,243 @@
+{
+  "id": "east",
+  "code": "EAST",
+  "name": "Eastern Mediterranean Explorers",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Thousands of years before GPS, ancient sailors from Egypt, Arabia, Greece, and Rome conquered the seas by starlight!",
+  "zones": [
+    "Open ocean",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Mediterranean Sea",
+    "Red Sea",
+    "Indian Ocean",
+    "Atlantic Ocean"
+  ],
+  "hero": {
+    "image": "assets/east/EAST00AA.webp",
+    "alt": "Eastern Mediterranean Explorers"
+  },
+  "intro": "The Mediterranean is often called \"the cradle of civilization.\" It is a warm, gentle inland sea that is virtually free of tides and fog and is easy to navigate. Some of the world's first cities flourished on its coasts, as ancient explorers—Egyptian, Phoenician, Arabian, Greek, and Roman—plied Mediterranean waters in search of knowledge, power, and trade.",
+  "facts": [
+    {
+      "label": "First sailors",
+      "value": "Around 3000 B.C. the Egyptians began to sail the Red Sea and the Mediterranean in search of trade."
+    },
+    {
+      "label": "Star navigation",
+      "value": "The Phoenicians were the first people known to have navigated by the pole star, which enabled them to sail by night."
+    },
+    {
+      "label": "Globe math",
+      "value": "In 200 B.C. a Greek named Eratosthenes calculated the circumference of the globe and was accurate to within four percent."
+    },
+    {
+      "label": "Roman empire",
+      "value": "The Roman empire lasted from about the third century B.C. to the fifth century A.D."
+    },
+    {
+      "label": "Reed boats",
+      "value": "In 1969 and 1970, Thor Heyerdahl and crew crossed the Atlantic on boats made of papyrus reeds."
+    },
+    {
+      "label": "Dhow design",
+      "value": "The Arabian dhow's lateen (triangular) sail was the model for modern sailboats."
+    }
+  ],
+  "topics": [
+    {
+      "id": "exotic-egyptians",
+      "title": "Exotic Egyptians",
+      "image": "assets/east/EAST01PU.webp",
+      "text": "The Egyptians may well have established the world's first civilization. They created a solar calendar, studied the stars, improved upon the square sail, and developed the first keel in order to strengthen their boats. Around 3000 B.C. they began to sail the Red Sea and the Mediterranean in search of trade.",
+      "captions": [
+        {
+          "label": "Great pyramids",
+          "text": "Huge Egyptian tombs called pyramids were stocked with art, food, and other goods, including boats, so that the nobles or pharaohs could continue their lives' journeys in first class after they died."
+        },
+        {
+          "label": "First clues",
+          "text": "We find evidence of the first boats from models, pottery, and paintings in tombs."
+        }
+      ],
+      "narration": "assets/east/EAST01JN.mp3"
+    },
+    {
+      "id": "arab-adventurers",
+      "title": "Arab adventurers",
+      "image": "assets/east/EAST02PU.webp",
+      "text": "The Arabs were avid mariners and traders who traveled throughout the Mediterranean Sea and the Indian Ocean.",
+      "captions": [
+        {
+          "label": "Slave traders",
+          "text": "Some Arabs participated in the slave trade, delivering captives from Africa to the ships of European dealers."
+        },
+        {
+          "label": "Captain and chauffeur",
+          "text": "The Arabian ship—the dhow—had a lateen, or triangular sail, and could sail in the same direction as the wind better than square-sailed rigs could. It was the model for modern sailboats. In the fifteenth century the Arabian sailor Ibn Majid wrote handbooks on navigation, and gave the Portuguese complete charts of routes from Africa to India. Once he even gave them a personal tour!"
+        }
+      ],
+      "narration": "assets/east/EAST02JN.mp3"
+    },
+    {
+      "id": "fantastic-phoenicians",
+      "title": "Fantastic Phoenicians",
+      "image": "assets/east/EAST03PU.webp",
+      "text": "The Phoenicians were superb navigators, venturing into distant, unexplored waters as early as 900 B.C. They were the first people known to have navigated by the pole star, which enabled them to sail by night.",
+      "captions": [
+        {
+          "label": "Exploration routes",
+          "text": "The Phoenicians cruised the Red Sea and the Indian Ocean, circled Africa, crossed the open sea to Great Britain, and may have been the first people to probe the ice near the Arctic Circle."
+        }
+      ],
+      "narration": "assets/east/EAST03JN.mp3"
+    },
+    {
+      "id": "amazing-greeks",
+      "title": "Amazing Greeks",
+      "image": "assets/east/EAST04PU.webp",
+      "text": "Despite the fact that the Greeks never liked the sea, they became important merchants, traders, and warriors throughout the Mediterranean. In 200 B.C. a Greek named Eratosthenes calculated the circumference of the globe and was accurate to within four percent.",
+      "captions": [
+        {
+          "label": "Jason's job",
+          "text": "Greek traders established settlements around the Black Sea, an area known for its wheat, and for the gold that could be scooped from its rivers with sheepskins. From this grew the legend of Jason and the Argonauts and their search for the golden fleece."
+        },
+        {
+          "label": "Greek galleys",
+          "text": "The Greeks built strong, oared warships called triremes, and were early masters of shipbuilding."
+        }
+      ],
+      "narration": "assets/east/EAST04JN.mp3"
+    },
+    {
+      "id": "powerful-romans",
+      "title": "Powerful Romans",
+      "image": "assets/east/EAST05PU.webp",
+      "text": "Roman explorers were essentially warriors who founded a powerful empire that lasted from about the third century B.C. to the fifth century A.D.",
+      "captions": [
+        {
+          "label": "All together now",
+          "text": "The Romans named eight wind directions which, combined with the position of the sun and stars, allowed them to navigate. Their triremes had three banks of oars on each side of the boat."
+        },
+        {
+          "label": "Sail and conquer",
+          "text": "The Romans dominated the Mediterranean from Asia to Africa. They even crossed the stormy North Atlantic to establish outposts in the British Isles."
+        }
+      ],
+      "narration": "assets/east/EAST05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Western European Explorers",
+      "to": "west"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/east/EAST00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "Arab adventurers",
+            "to": "arab-adventurers",
+            "x": 52,
+            "y": 8,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Fantastic Phoenicians",
+            "to": "fantastic-phoenicians",
+            "x": 49,
+            "y": 31,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Exotic Egyptians",
+            "to": "exotic-egyptians",
+            "x": 52,
+            "y": 41,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Powerful Romans",
+            "to": "powerful-romans",
+            "x": 65,
+            "y": 56,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Amazing Greeks",
+            "to": "amazing-greeks",
+            "x": 46,
+            "y": 67,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Continuing the traditions",
+            "to": "video",
+            "x": 4,
+            "y": 77,
+            "w": 27,
+            "h": 6
+          }
+        ]
+      },
+      "exotic-egyptians": {
+        "image": "assets/east/EAST01PU.webp",
+        "back": "main"
+      },
+      "arab-adventurers": {
+        "image": "assets/east/EAST02PU.webp",
+        "back": "main"
+      },
+      "fantastic-phoenicians": {
+        "image": "assets/east/EAST03PU.webp",
+        "back": "main"
+      },
+      "amazing-greeks": {
+        "image": "assets/east/EAST04PU.webp",
+        "back": "main"
+      },
+      "powerful-romans": {
+        "image": "assets/east/EAST05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/east/clip.mp4",
+        "poster": "assets/east/EAST06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/east/EAST00JN.mp3",
+  "sound": "assets/east/EAST00IX.mp3",
+  "video": {
+    "title": "Continuing the traditions",
+    "src": "assets/east/clip.mp4",
+    "poster": "assets/east/poster.webp",
+    "caption": "Launching Ra I, the first of Heyerdahl's reed boats",
+    "narration": "assets/east/EAST06JN.mp3"
+  }
+}

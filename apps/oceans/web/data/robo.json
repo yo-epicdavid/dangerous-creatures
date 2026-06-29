@@ -1,0 +1,281 @@
+{
+  "id": "robo",
+  "code": "ROBO",
+  "name": "Submarines and Robots",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Dive four miles deep in machines built to survive the impossible",
+  "zones": [
+    "Deep sea",
+    "Open ocean"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/robo/ROBO00AA.webp",
+    "alt": "Submarines and Robots"
+  },
+  "intro": "Can you imagine being four miles below the surface of the sea, in a dark, cold world, and under tremendous pressures? Vehicles have been designed to cope with these harsh elements, allowing fragile human beings to explore wonders of the deep never before known. It's now possible to view deep-sea life, venture near underwater volcanoes, or even learn where tsunamis begin. The submarines, submersibles, and remote-operated vehicles that are probing this mysterious space are on the crest of a new wave of exploration.",
+  "facts": [
+    {
+      "label": "Depth record",
+      "value": "The US bathyscaph Trieste descended 10,912 m (35,800 ft) into the Marianas Trench—the deepest known part of the Pacific Ocean."
+    },
+    {
+      "label": "Robot depth",
+      "value": "Japan's ROV Kaiko can dive to 11,000 m (36,091 ft)—the deepest of any robot."
+    },
+    {
+      "label": "Endurance",
+      "value": "Submarines can stay underwater for a long time—the record is 111 days!"
+    },
+    {
+      "label": "Early dive",
+      "value": "In 1934, William Beebe and Otis Barton descended to 904 m (2,965 ft) in a bathysphere suspended from a boat by a cable."
+    },
+    {
+      "label": "Undersea living",
+      "value": "Five men lived and worked on the sea floor for a month aboard Jacques Cousteau's Conshelf II in 1963."
+    }
+  ],
+  "topics": [
+    {
+      "id": "spheres-and-scaphs",
+      "title": "Spheres and scaphs",
+      "image": "assets/robo/ROBO01PU.webp",
+      "text": "There have been many attempts to explore the underwater world, dating from Alexander the Great and his glass diving bell. But only in the twentieth century have efforts been truly successful.",
+      "captions": [
+        {
+          "label": "Deepest dive",
+          "text": "In the late 1940s Auguste Piccard designed the bathyscaph, a vehicle whose name is derived from the Greek words for \"deep\" and \"boat.\" This motorized vessel could raise and lower itself by the use of ballast, like a hot-air balloon. In 1960 the United States bathyscaph Trieste descended into the Marianas Trench, the deepest known part of the Pacific Ocean. Its diving record of 10,912 m (35,800 ft) has yet to be broken. Bathyscaphs have now been replaced with more maneuverable submersibles."
+        },
+        {
+          "label": "Bubble bath",
+          "text": "In 1934 William Beebe and Otis Barton descended to 904 m (2,965 ft) in their bathysphere, a protective steel sphere suspended from a boat by a cable."
+        }
+      ],
+      "narration": "assets/robo/ROBO01JN.mp3"
+    },
+    {
+      "id": "submersibles",
+      "title": "Submersibles",
+      "image": "assets/robo/ROBO02PU.webp",
+      "text": "Designed to stay underwater for only about eight hours, a submersible must be taken to the site of a dive by a mother ship.",
+      "captions": [
+        {
+          "label": "The famous Alvin",
+          "text": "Working hard since the 1960s, this plucky vessel is perhaps the world's best-known submersible. Alvin has made numerous trips to mid-ocean ridges and hydrothermal vent sites."
+        },
+        {
+          "label": "Revisiting the past",
+          "text": "The French submersible Nautile visited the wreck of the Titanic. It's capable of diving to 6,000 m (19,620 ft)."
+        }
+      ],
+      "narration": "assets/robo/ROBO02JN.mp3"
+    },
+    {
+      "id": "robots-on-leashes",
+      "title": "Robots on leashes",
+      "image": "assets/robo/ROBO03PU.webp",
+      "text": "Remotely Operated Vehicles, or ROVs, are small unmanned robots tethered to a surface ship by a fiber-optic cable that allows it to be remote-controlled. These machines are now the workhorses of underwater research—they collect samples, take photographs, and send back television pictures. Once they're in the water they can stay there, 24 hours a day, for days or weeks at a time. The Japanese ROV Kaiko can dive to 11,000 m (36,091 ft)—the deepest of any robot. Jason Jr., owned by Woods Hole Oceanographic Institute in the United States, may be the most well known, because it explored the Titanic.",
+      "captions": [
+        {
+          "label": "Jason Jr.",
+          "text": "explores the wreck of the Titanic"
+        }
+      ],
+      "narration": "assets/robo/ROBO03JN.mp3"
+    },
+    {
+      "id": "military-submarines",
+      "title": "Military submarines",
+      "image": "assets/robo/ROBO04PU.webp",
+      "text": "Developed for wartime, submarines can carry a large number of people to great depths. They can also stay underwater for a long time—the record is 111 days!",
+      "captions": [
+        {
+          "label": "Long-life batteries",
+          "text": "Regular diesel submarines must surface to recharge batteries and replenish life-support systems. Nuclear-powered subs require no oxygen to run their steam turbines, and can handle longer cruises underwater without surfacing."
+        },
+        {
+          "label": "Easier than you think",
+          "text": "In order to dive, valves are opened on board a submarine, allowing water to fill ballast tanks. Winglike extensions control the angle of the dive. When it's time to surface, a compressor blows air into the tanks, displacing the water."
+        }
+      ],
+      "narration": "assets/robo/ROBO04JN.mp3"
+    },
+    {
+      "id": "underwater-motels",
+      "title": "Underwater motels",
+      "image": "assets/robo/ROBO05PU.webp",
+      "text": "Ingenious designs help people adapt to life at sea.",
+      "captions": [
+        {
+          "label": "Not a sinking ship?",
+          "text": "This unusual vessel, known as the Floating Instrument Platform (FLIP), was designed to conduct acoustical soundings in the open ocean. The laboratories and living quarters stay high and dry, while the stern is flooded to conduct experiments."
+        },
+        {
+          "label": "Inner spaceship",
+          "text": "Jacques Cousteau used the Conshelf II to conduct studies of underwater living in the Red Sea in 1963. Five men lived and worked on the sea floor for a month. These underwater habitats may be used more and more in the future as research labs for scientists."
+        }
+      ],
+      "narration": "assets/robo/ROBO05JN.mp3"
+    },
+    {
+      "id": "tour-boats",
+      "title": "Tour boats",
+      "image": "assets/robo/ROBO06PU.webp",
+      "text": "Submarines are no longer strictly for scientists and military personnel. Some coastal resorts offer submarine tours of underwater attractions. What a great way for people of all ages and physical conditions to explore beneath the waves!",
+      "narration": "assets/robo/ROBO06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What is Oceanography?",
+      "to": "ocea"
+    },
+    {
+      "label": "Timeline of Evolution"
+    },
+    {
+      "label": "Powered Ships",
+      "to": "powe"
+    },
+    {
+      "label": "The Ocean Floor",
+      "to": "oflr"
+    },
+    {
+      "label": "Atlantic Ocean",
+      "to": "atla"
+    },
+    {
+      "label": "The Future of the Oceans",
+      "to": "futu"
+    },
+    {
+      "label": "Dolphins & Porpoises"
+    },
+    {
+      "label": "Sea Snakes",
+      "to": "snak"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/robo/ROBO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 1,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "Spheres and scaphs",
+            "to": "spheres-and-scaphs",
+            "x": 54,
+            "y": 2,
+            "w": 27,
+            "h": 6
+          },
+          {
+            "label": "Robots on leashes",
+            "to": "robots-on-leashes",
+            "x": 29,
+            "y": 29,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Underwater motels",
+            "to": "underwater-motels",
+            "x": 58,
+            "y": 18,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Military submarines",
+            "to": "military-submarines",
+            "x": 57,
+            "y": 27,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Challenging work",
+            "to": "video",
+            "x": 57,
+            "y": 64,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Submersibles",
+            "to": "submersibles",
+            "x": 46,
+            "y": 80,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Tour boats",
+            "to": "tour-boats",
+            "x": 19,
+            "y": 87,
+            "w": 15,
+            "h": 5
+          }
+        ]
+      },
+      "spheres-and-scaphs": {
+        "image": "assets/robo/ROBO01PU.webp",
+        "back": "main"
+      },
+      "submersibles": {
+        "image": "assets/robo/ROBO02PU.webp",
+        "back": "main"
+      },
+      "robots-on-leashes": {
+        "image": "assets/robo/ROBO03PU.webp",
+        "back": "main"
+      },
+      "military-submarines": {
+        "image": "assets/robo/ROBO04PU.webp",
+        "back": "main"
+      },
+      "underwater-motels": {
+        "image": "assets/robo/ROBO05PU.webp",
+        "back": "main"
+      },
+      "tour-boats": {
+        "image": "assets/robo/ROBO06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/robo/clip.mp4",
+        "poster": "assets/robo/ROBO07PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/robo/ROBO00JN.mp3",
+  "sound": "assets/robo/ROBO00IX.mp3",
+  "video": {
+    "title": "Challenging work",
+    "src": "assets/robo/clip.mp4",
+    "poster": "assets/robo/poster.webp",
+    "caption": "The extreme challenges of working inside submarines and submersibles, featuring Japan's Shinkai 6500, designed to dive to depths of 6,500 m (21,327 ft).",
+    "narration": "assets/robo/ROBO07JN.mp3"
+  }
+}

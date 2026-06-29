@@ -1,0 +1,206 @@
+{
+  "id": "powr",
+  "code": "POWR",
+  "name": "Remarkable Powers",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Ocean animals have superpowers that put our best machines to shame!",
+  "zones": [
+    "Coast & tide pools",
+    "Open ocean",
+    "Deep sea"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/powr/POWR00AA.webp",
+    "alt": "Remarkable Powers"
+  },
+  "intro": "Many marine animals can do amazing things that we humans have to rely on the aid of machines to accomplish. They can generate electricity, create light in the darkness, perform tricks to escape from predators, and make their own shelters. All they need is food and seawater to perform these remarkable feats. The creatures shown here possess special light-producing cells, called photophores, that allow them to convert energy to light.",
+  "facts": [
+    {
+      "label": "Electricity",
+      "value": "Electric rays can generate up to 220 volts—enough to stun a large human."
+    },
+    {
+      "label": "Deep dive",
+      "value": "Sperm whales can dive to more than 1,067 m (3,500 ft) and stay underwater for 75 minutes."
+    },
+    {
+      "label": "Defense",
+      "value": "An octopus shoots a cloud of dark fluid at attackers to buy time to escape."
+    },
+    {
+      "label": "Suction",
+      "value": "Starfish use thousands of tiny tube feet to cling to rocks and to pry open clams, scallops, and oysters."
+    },
+    {
+      "label": "Home building",
+      "value": "Shell animals extract calcium from seawater and transform it into intricate shells of calcium carbonate."
+    },
+    {
+      "label": "Bioluminescence",
+      "value": "Some marine animals have special light-producing cells called photophores that convert energy to light."
+    }
+  ],
+  "topics": [
+    {
+      "id": "masters-of-electricity",
+      "title": "Masters of electricity",
+      "image": "assets/powr/POWR01PU.webp",
+      "text": "Electric rays, also called torpedo rays, send out jolts of electricity to zap prey and intruders. Some can generate up to 220 volts of electricity—enough to stun a large human. After releasing several big shocks, it may take an electric ray several days to store up enough energy in the \"battery cells\" under its skin to perform the act again. Rays may also use low-voltage signals to locate prey.",
+      "narration": "assets/powr/POWR01JN.mp3"
+    },
+    {
+      "id": "deep-sea-diver",
+      "title": "Deep-sea diver",
+      "image": "assets/powr/POWR02PU.webp",
+      "text": "The human record for diving without a breathing apparatus is about 80 m (262 ft) deep; the diver stayed under for about 3½ minutes. Sperm whales—air-breathing mammals like us—have been known to dive to more than 1,067 m (3,500 ft), and to stay down for 75 minutes! And they never get the bends like people do. Scientists think that sperm whales may be able to shut off the blood supply to many parts of their bodies during deep dives, reserving oxygen for their brains, hearts, and livers.",
+      "narration": "assets/powr/POWR02JN.mp3"
+    },
+    {
+      "id": "super-suction",
+      "title": "Super suction",
+      "image": "assets/powr/POWR03PU.webp",
+      "text": "Have you ever tried to pry a starfish off a rock? Or to get an octopus to let go of something? It's nearly impossible to win a tug-of-war with these animals if your bare hands are all you've got to work with. Both of these creatures can create incredible suction by controlling the clinging power of the multitude of individual suckers on their arms.",
+      "captions": [
+        {
+          "label": "Star power",
+          "text": "Starfish use thousands of tiny tube feet to cling to rocks and to pry open clams, scallops, and oysters."
+        },
+        {
+          "label": "Muscular mollusk",
+          "text": "An octopus can hold onto most anything with the hundreds of suckers that line its eight arms."
+        }
+      ],
+      "narration": "assets/powr/POWR03JN.mp3"
+    },
+    {
+      "id": "home-builders",
+      "title": "Home builders",
+      "image": "assets/powr/POWR05PU.webp",
+      "text": "How does a sluglike animal create a shell? These creatures have an amazing mastery of chemistry. They extract calcium from seawater and transform it into intricate shells of calcium carbonate. They know how to do this from birth, and they don't even have to think about it. If we could match this feat, there'd never be a housing shortage for humans.",
+      "narration": "assets/powr/POWR05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Angler Fish",
+      "to": "angl"
+    },
+    {
+      "label": "Shrimp",
+      "to": "shri"
+    },
+    {
+      "label": "Penguins",
+      "to": "peng"
+    },
+    {
+      "label": "Anemones",
+      "to": "anem"
+    },
+    {
+      "label": "Inflatable Fish",
+      "to": "infl"
+    },
+    {
+      "label": "Spiral Shells",
+      "to": "spir"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/powr/POWR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Masters of electricity",
+            "to": "masters-of-electricity",
+            "x": 4,
+            "y": 55,
+            "w": 27,
+            "h": 8
+          },
+          {
+            "label": "Super suction",
+            "to": "super-suction",
+            "x": 10,
+            "y": 69,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Deep-sea diver",
+            "to": "deep-sea-diver",
+            "x": 36,
+            "y": 74,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Home builders",
+            "to": "home-builders",
+            "x": 65,
+            "y": 40,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "Take that!",
+            "to": "video",
+            "x": 61,
+            "y": 68,
+            "w": 20,
+            "h": 6
+          }
+        ]
+      },
+      "masters-of-electricity": {
+        "image": "assets/powr/POWR01PU.webp",
+        "back": "main"
+      },
+      "deep-sea-diver": {
+        "image": "assets/powr/POWR02PU.webp",
+        "back": "main"
+      },
+      "super-suction": {
+        "image": "assets/powr/POWR03PU.webp",
+        "back": "main"
+      },
+      "home-builders": {
+        "image": "assets/powr/POWR05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/powr/clip.mp4",
+        "poster": "assets/powr/POWR04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/powr/POWR00JN.mp3",
+  "sound": "assets/powr/POWR00IX.mp3",
+  "video": {
+    "title": "Take that!",
+    "src": "assets/powr/clip.mp4",
+    "poster": "assets/powr/poster.webp",
+    "caption": "Pacific octopus with diver",
+    "narration": "assets/powr/POWR04JN.mp3"
+  }
+}

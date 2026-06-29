@@ -1,0 +1,266 @@
+{
+  "id": "fasc",
+  "code": "FASC",
+  "name": "Fascinating Sharks",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "More fascinating than frightful — sharks are the ocean's most misunderstood hunters!",
+  "zones": [
+    "Coast & tide pools",
+    "Open ocean",
+    "Coral reef",
+    "Deep sea"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/fasc/FASC00AA.webp",
+    "alt": "Fascinating Sharks"
+  },
+  "intro": "If you hear the cry of \"Shark!\" at any ocean beach, you'll see people shoot out of the water as fast as penguins. Movies and books portray sharks as voracious predators that often seek people as prey. And there's no denying it: each year, a few people around the world do get bitten by sharks. But you're in much greater danger of getting in a car accident than of being attacked by a shark, even if you spend a lot of time swimming in the ocean. Sharks come in all sizes, shapes, and colors, and most are more fascinating than frightful.",
+  "facts": [
+    {
+      "label": "Biggest fish",
+      "value": "The whale shark may grow to more than 18 m (59 ft) in length — it's the biggest fish on earth."
+    },
+    {
+      "label": "Diet",
+      "value": "Despite its enormous size, the whale shark eats only plankton, shrimp, and tiny fish."
+    },
+    {
+      "label": "Ancient",
+      "value": "Sharks have prowled the oceans for millions of years, since long before the dinosaurs appeared on earth."
+    },
+    {
+      "label": "Camouflage",
+      "value": "Wobbegong sharks camouflage themselves against the ocean floor, lying in wait for a meal-sized fish to swim by."
+    },
+    {
+      "label": "Eggs",
+      "value": "A swell shark pup will hatch from its egg case in 7 to 10 months, depending on how warm the water is."
+    },
+    {
+      "label": "Did you know",
+      "value": "You're in much greater danger of getting in a car accident than of being attacked by a shark."
+    }
+  ],
+  "topics": [
+    {
+      "id": "a-whale-of-a-shark",
+      "title": "A whale of a shark",
+      "image": "assets/fasc/FASC01PU.webp",
+      "text": "The biggest fish on earth is a shark—a whale shark, to be exact. Scientists aren't sure how big whale sharks get, because so few have been measured. These giants simply won't hold still while a diver swims from one end to the other with a tape measure! Experts estimate that these sharks may grow to be more than 18 m (59 ft) in length. You might think that a shark this big would devour a large animal like a seal or a dolphin in a single gulp, but this immense animal eats only plankton, shrimp, and tiny fish.",
+      "narration": "assets/fasc/FASC01JN.mp3"
+    },
+    {
+      "id": "shark-or-ray",
+      "title": "Shark or ray?",
+      "image": "assets/fasc/FASC02PU.webp",
+      "text": "Rays are flat fish with large pectoral fins that extend out from their bodies like wings. Some sharks, like angel sharks and sawsharks, are also flat and “winged.” So how can you tell a ray from these sharks? First, look for the gills: sharks have gills on the sides of their heads, while rays have gills on the undersides of their bodies. Then check out the pectoral fins on their sides: the fins of sharks are attached behind their gills, while the fins of rays are attached to the sides of their heads.",
+      "captions": [
+        {
+          "label": "Angel shark",
+          "text": "Squatina australis"
+        },
+        {
+          "label": "Southern stingray",
+          "text": "Grand Cayman, British West Indies — Dasyatis americana"
+        }
+      ],
+      "narration": "assets/fasc/FASC02JN.mp3"
+    },
+    {
+      "id": "dont-step-on-this-rug",
+      "title": "Don’t step on this rug!",
+      "image": "assets/fasc/FASC03PU.webp",
+      "text": "Wobbegong sharks have intricate patterns and tassels and fringes of skin on their bodies that make them look like exotic oriental rugs. These decorative touches help break up the outline of their bodies, allowing them to camouflage themselves against the ocean floor, where they lie in wait for a meal-sized fish to swim by. Wobbegongs are normally gentle, but they have been known to attack when teased or injured by divers.",
+      "narration": "assets/fasc/FASC03JN.mp3"
+    },
+    {
+      "id": "eggs-and-babies",
+      "title": "Eggs and babies",
+      "image": "assets/fasc/FASC04PU.webp",
+      "text": "Some shark embryos are sealed inside elaborate egg cases and hidden among weeds or rocks until they're ready to hatch. Other shark embryos develop inside the mother. Often one baby will eat another for nourishment. Now that's taking sibling rivalry a little too far!",
+      "captions": [
+        {
+          "label": "Baby in a bag",
+          "text": "While inside its egg case, this swell shark pup feeds on the egg's yolk. If a predator doesn't find the egg case, the baby shark will hatch in 7 to 10 months, depending on how warm the water is. Swell sharks get their name from their habit of wedging themselves between rocks by swelling their stomachs with water."
+        },
+        {
+          "label": "Corkscrew cases",
+          "text": "Mother horn sharks carry these amazing egg cases in their mouths while looking for suitable hiding places."
+        }
+      ],
+      "narration": "assets/fasc/FASC04JN.mp3"
+    },
+    {
+      "id": "open-wide",
+      "title": "Open wide!",
+      "image": "assets/fasc/FASC05PU.webp",
+      "text": "Rather than tracking and attacking fish, some sharks simply swim with their mouths wide open, filtering krill and tiny fish from the water. This sight could certainly startle a diver, but these animals are no threat to people.",
+      "captions": [
+        {
+          "label": "Second biggest",
+          "text": "The basking shark is the second-largest fish in the world, right behind the whale shark. This behemoth can measure more than 15 m (50 ft) in length, and likes to swim near the surface of the water. Many sightings of “sea monsters” have turned out to be basking sharks."
+        },
+        {
+          "label": "Rare shark",
+          "text": "Only two individuals of this species have ever been positively identified: one south of Hawaii, and another off the coast of California. Scientists believe that the megamouth shark normally lives in deep waters."
+        }
+      ],
+      "narration": "assets/fasc/FASC05JN.mp3"
+    },
+    {
+      "id": "protection-for-sharks",
+      "title": "Protection for sharks",
+      "image": "assets/fasc/FASC06PU.webp",
+      "text": "Sharks have prowled the oceans for millions of years, since long before the dinosaurs appeared on earth. But now some sharks are threatened with extinction because people are eating them faster than the sharks can reproduce.",
+      "captions": [
+        {
+          "label": "Finless sharks",
+          "text": "These shark fins are probably destined to be sold in Asia. Some fishermen catch sharks, slice off their fins, and then throw the sharks back into the water alive. But without its fins, a shark can't swim well enough to catch prey and will starve to death."
+        },
+        {
+          "label": "Shark and chips",
+          "text": "Dogfish, a type of shark, is often sold as fish and chips. Shark fins appear in Asian soups as well."
+        },
+        {
+          "label": "Shark in a tube",
+          "text": "Shark oil was once used to make lipstick and vitamin pills, but nowadays manmade substitutes can be used instead."
+        }
+      ],
+      "narration": "assets/fasc/FASC06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Timeline of Evolution"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/fasc/FASC00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 7,
+            "h": 8
+          },
+          {
+            "label": "Timeline of Evolution",
+            "x": 84,
+            "y": 1,
+            "w": 14,
+            "h": 11,
+            "disabled": true
+          },
+          {
+            "label": "A whale of a shark",
+            "to": "a-whale-of-a-shark",
+            "x": 53,
+            "y": 28,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Shark or ray?",
+            "to": "shark-or-ray",
+            "x": 52,
+            "y": 50,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Open wide!",
+            "to": "open-wide",
+            "x": 7,
+            "y": 54,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Beautiful sharks",
+            "to": "video",
+            "x": 2,
+            "y": 72,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Eggs and babies",
+            "to": "eggs-and-babies",
+            "x": 57,
+            "y": 62,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Don’t step on this rug!",
+            "to": "dont-step-on-this-rug",
+            "x": 47,
+            "y": 68,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Protection for sharks",
+            "to": "protection-for-sharks",
+            "x": 26,
+            "y": 74,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "a-whale-of-a-shark": {
+        "image": "assets/fasc/FASC01PU.webp",
+        "back": "main"
+      },
+      "shark-or-ray": {
+        "image": "assets/fasc/FASC02PU.webp",
+        "back": "main"
+      },
+      "dont-step-on-this-rug": {
+        "image": "assets/fasc/FASC03PU.webp",
+        "back": "main"
+      },
+      "eggs-and-babies": {
+        "image": "assets/fasc/FASC04PU.webp",
+        "back": "main"
+      },
+      "open-wide": {
+        "image": "assets/fasc/FASC05PU.webp",
+        "back": "main"
+      },
+      "protection-for-sharks": {
+        "image": "assets/fasc/FASC06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/fasc/clip.mp4",
+        "poster": "assets/fasc/FASC07PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/fasc/FASC00JN.mp3",
+  "sound": "assets/fasc/FASC00IX.mp3",
+  "video": {
+    "title": "Beautiful sharks",
+    "src": "assets/fasc/clip.mp4",
+    "poster": "assets/fasc/poster.webp",
+    "caption": "With their sleek, streamlined bodies, sharks are some of the most graceful fish in the oceans. In terms of evolution, it seems that Nature got it right the first time: the basic design of sharks has changed little since before the dinosaurs, although many different species have developed over time. Many sharks today have eye-pleasing skin patterns and colors as well as beautiful shapes.",
+    "narration": "assets/fasc/FASC07JN.mp3"
+  }
+}

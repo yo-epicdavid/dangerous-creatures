@@ -1,0 +1,279 @@
+{
+  "id": "eels",
+  "code": "EELS",
+  "name": "Eels",
+  "category": "creature",
+  "scientificName": "Gymnothorax moringa",
+  "needsScientificVerify": false,
+  "tagline": "Sinuous, sharp-toothed, and full of surprises — eels are the ocean's most misunderstood shape-shifters.",
+  "zones": [
+    "Coral reef",
+    "Deep sea",
+    "Rivers & estuaries",
+    "Kelp & seagrass"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/eels/EELS00AA.webp",
+    "alt": "Eels"
+  },
+  "intro": "With their sinuous bodies and gaping, toothy jaws, eels are the stuff of late-night creature features. However, even the menacing-looking moray eel is rarely a threat to people. Unless provoked, the moray is usually indifferent to the presence of divers, and sometimes even shows a catlike curiosity toward human visitors to its underwater territory.",
+  "facts": [
+    {
+      "label": "Migration",
+      "value": "Freshwater eels travel thousands of miles from Europe and the United States to the Sargasso Sea to spawn, then their baby eels, called elvers, ride currents back to their homelands."
+    },
+    {
+      "label": "Jaws",
+      "value": "The deep-sea gulper eel has expandable jaws that can accommodate a huge fish, but most of the time it just gulps huge amounts of water hoping to swallow tiny organisms."
+    },
+    {
+      "label": "Did you know",
+      "value": "Electric eels aren't really eels — they're long-bodied fish closely related to carp, and they live in South American rivers, not in saltwater seas."
+    },
+    {
+      "label": "Defense",
+      "value": "When the shadow of a ray passes over a garden eel colony, all the eels instantly withdraw into their burrows to hide."
+    },
+    {
+      "label": "Strength",
+      "value": "Wolf eels have sharp teeth and jaws strong enough to crush a sea urchin with a single bite."
+    },
+    {
+      "label": "Breathing",
+      "value": "Morays open and close their mouths constantly not to be menacing, but simply to pump water over their gills — the way all fish breathe."
+    }
+  ],
+  "topics": [
+    {
+      "id": "incredible-journey",
+      "title": "Incredible journey",
+      "image": "assets/eels/EELS01PU.webp",
+      "text": "Adult freshwater eels are great travelers. When they get the urge to reproduce, they swim downstream or even crawl across land to reach the sea. Then they ride currents for thousands of miles from Europe and the United States to the Sargasso Sea to spawn. The baby eels, called elvers, then ride currents back to their homelands, and eventually return to fresh water.",
+      "captions": [
+        {
+          "label": "European eel",
+          "text": "Anguilla anguilla"
+        },
+        {
+          "label": "Elvers (baby eels)",
+          "text": "Anguilla anguilla"
+        }
+      ],
+      "narration": "assets/eels/EELS01JN.mp3"
+    },
+    {
+      "id": "gardens-of-eels",
+      "title": "Gardens of eels",
+      "image": "assets/eels/EELS02PU.webp",
+      "text": "After garden eels have excavated their burrows in the ocean floor, they rarely come completely out of these protective homes. They simply raise their heads to eat. They'll stretch a little further to fight with neighboring eels or to mate, but they always try to keep at least their tails inside their burrows. Rays regularly eat garden eels, so when the shadow of a ray passes over an eel colony, all the eels withdraw into their holes to hide.",
+      "captions": [
+        {
+          "label": "Garden eels",
+          "text": "Taeniconger hassi"
+        }
+      ],
+      "narration": "assets/eels/EELS02JN.mp3"
+    },
+    {
+      "id": "multitudes-of-morays",
+      "title": "Multitudes of morays",
+      "image": "assets/eels/EELS03PU.webp",
+      "text": "As you can see here, moray eels and their relatives come in an astounding variety of sizes, colors, and patterns. These amazing tropical fish have been favorites of divers for centuries; the ancient Romans kept them as pets, and they are still favorites of many visitors to large aquariums. Have you seen any of these eel species?",
+      "captions": [
+        {
+          "label": "Blue ribbon eels",
+          "text": "Rhinomuraena ambionensis"
+        },
+        {
+          "label": "Dragon eel",
+          "text": "Enchelycore pardalis"
+        },
+        {
+          "label": "Mottled moray",
+          "text": "Gymnothorax undulatus"
+        }
+      ],
+      "narration": "assets/eels/EELS03JN.mp3"
+    },
+    {
+      "id": "sea-wolves",
+      "title": "Sea wolves",
+      "image": "assets/eels/EELS04PU.webp",
+      "text": "Now why would anyone call this creature a wolf eel? It's not really wolfish in behavior; in fact, it's quite shy and gentle. And it's not really an eel at all—it's more closely related to fishes called gunnels and blennies. But it does have a long body like an eel, and it looks fearsome. Its sharp teeth and jaws are strong enough to crush a sea urchin with a single bite!",
+      "captions": [
+        {
+          "label": "Timber wolf",
+          "text": "Canis lupus"
+        },
+        {
+          "label": "Wolf eel",
+          "text": "Anarrhichthys ocellatus"
+        },
+        {
+          "label": "Look-alike?",
+          "text": "This timber wolf doesn't look much like a wolf eel, does it? But they're both powerful predators."
+        }
+      ],
+      "narration": "assets/eels/EELS04JN.mp3"
+    },
+    {
+      "id": "electric-eels",
+      "title": "Electric eels",
+      "image": "assets/eels/EELS05PU.webp",
+      "text": "One eel you don't have to worry about coming across in any ocean is the electric eel. These amazing creatures zap their prey in South American rivers, not in saltwater seas. And by the way, they're not eels, either, but long-bodied fish that are closely related to carp.",
+      "captions": [
+        {
+          "label": "Electric eel",
+          "text": "Electrophorus electricus"
+        },
+        {
+          "label": "Lesser electric ray, Atlantic",
+          "text": "Narcine brasiliensis"
+        },
+        {
+          "label": "Marine electrician",
+          "text": "There may be no electric eels in the ocean, but there are electric rays. Several different kinds of rays can generate electricity—not enough to kill you, but enough to give you a strong jolt! They use this amazing power to stun their prey before eating it."
+        }
+      ],
+      "narration": "assets/eels/EELS05JN.mp3"
+    },
+    {
+      "id": "what-a-mouth",
+      "title": "What a mouth!",
+      "image": "assets/eels/EELS06PU.webp",
+      "text": "The odd-looking gulper eel searches for prey in the dark depths of the ocean. There's not a lot to eat down there, but this eel can be sure that nearly anything that does appear will fit into its mouth. It has expandable jaws that can accommodate a huge fish, but most of the time the eel only takes in huge gulps of water, hoping to swallow a few tiny organisms along with the fluid.",
+      "captions": [
+        {
+          "label": "Deep-sea gulper eel",
+          "text": "Saccopharyngid sp."
+        }
+      ],
+      "narration": "assets/eels/EELS06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Boxfish",
+      "to": "boxy"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/eels/EELS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 9,
+            "h": 6
+          },
+          {
+            "label": "Multitudes of morays",
+            "to": "multitudes-of-morays",
+            "x": 57,
+            "y": 16,
+            "w": 28,
+            "h": 6
+          },
+          {
+            "label": "What a mouth!",
+            "to": "what-a-mouth",
+            "x": 62,
+            "y": 31,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "What big teeth you have!",
+            "to": "video",
+            "x": 2,
+            "y": 48,
+            "w": 27,
+            "h": 9
+          },
+          {
+            "label": "Incredible journey",
+            "to": "incredible-journey",
+            "x": 2,
+            "y": 61,
+            "w": 21,
+            "h": 8
+          },
+          {
+            "label": "Sea wolves",
+            "to": "sea-wolves",
+            "x": 2,
+            "y": 73,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Electric eels",
+            "to": "electric-eels",
+            "x": 57,
+            "y": 72,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "Gardens of eels",
+            "to": "gardens-of-eels",
+            "x": 57,
+            "y": 82,
+            "w": 21,
+            "h": 6
+          }
+        ]
+      },
+      "incredible-journey": {
+        "image": "assets/eels/EELS01PU.webp",
+        "back": "main"
+      },
+      "gardens-of-eels": {
+        "image": "assets/eels/EELS02PU.webp",
+        "back": "main"
+      },
+      "multitudes-of-morays": {
+        "image": "assets/eels/EELS03PU.webp",
+        "back": "main"
+      },
+      "sea-wolves": {
+        "image": "assets/eels/EELS04PU.webp",
+        "back": "main"
+      },
+      "electric-eels": {
+        "image": "assets/eels/EELS05PU.webp",
+        "back": "main"
+      },
+      "what-a-mouth": {
+        "image": "assets/eels/EELS06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/eels/clip.mp4",
+        "poster": "assets/eels/EELS07PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/eels/EELS00JN.mp3",
+  "sound": "assets/eels/EELS00IX.mp3",
+  "video": {
+    "title": "What big teeth you have!",
+    "src": "assets/eels/clip.mp4",
+    "poster": "assets/eels/poster.webp",
+    "caption": "The toothy grin of a moray has frightened many a diver, and some divers can tell you that these eels do bite if provoked. They look threatening as they open and close their powerful jaws, but they're not showing off their sharp, spiky teeth. They're just breathing—pumping water into their mouths and past their gills, the way all fish do. Some divers feed them by hand, but sometimes morays have a hard time telling the fingers from the food, so it's not really a good idea.",
+    "narration": "assets/eels/EELS07JN.mp3"
+  }
+}
