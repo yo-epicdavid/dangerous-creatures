@@ -1,0 +1,227 @@
+{
+  "id": "arts",
+  "code": "ARTS",
+  "name": "Arts and Literature of the Sea",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "From ancient Egyptian boat models to Moby Dick, the ocean has fired the imaginations of artists and writers for thousands of years.",
+  "zones": [
+    "Coast & tide pools",
+    "Open ocean"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/arts/ARTS00AA.webp",
+    "alt": "Arts and Literature of the Sea"
+  },
+  "intro": "The sea is not only a source of recreation, transportation, and scientific knowledge, but also a great inspiration for artists and writers around the world. The vast power of oceans unites mankind across cultures and time. This famous painting, \"The Great Wave off Kanagawa\" by Hokusai (1760–1849), shows small fishing boats close to disaster with a giant wave.",
+  "facts": [
+    {
+      "label": "Oldest ships",
+      "value": "Fragments of pottery painted with ships from ancient Egypt have been dated to 3200 B.C."
+    },
+    {
+      "label": "Real whale",
+      "value": "Herman Melville's fictional Moby Dick was based on a real sperm whale named Mocha Dick that wrecked many whaling boats off the coast of New England."
+    },
+    {
+      "label": "Patient painter",
+      "value": "American painter Winslow Homer (1836–1910) sometimes waited a full year for just the right light before executing a painting."
+    },
+    {
+      "label": "Pompeii mosaic",
+      "value": "A Roman mosaic showing detailed sea creatures was created sometime before 79 A.D., when Pompeii was buried under the volcanic ash ejected by nearby Mount Vesuvius."
+    },
+    {
+      "label": "Great Wave",
+      "value": "Hokusai's 'The Great Wave off Kanagawa' shows small fishing boats close to disaster with a giant wave."
+    }
+  ],
+  "topics": [
+    {
+      "id": "transportation-to-the-world-beyond",
+      "title": "Transportation to the world beyond",
+      "image": "assets/arts/ARTS01PU.webp",
+      "text": "The Egyptians were among the first people to have boats, and fragments of pottery painted with ships have been dated to 3200 B.C. Nobles also stored ship models in their tombs so they could continue their lives' journeys after death. Note the miniature mummy—no doubt representing the deceased person—under the canopy on this model, which is estimated to have been created between 716 and 332 B.C.",
+      "narration": "assets/arts/ARTS01JN.mp3"
+    },
+    {
+      "id": "no-strangers-to-the-sea",
+      "title": "No strangers to the sea",
+      "image": "assets/arts/ARTS02PU.webp",
+      "text": "As you can see by the realistic details in this mosaic from Pompeii, the ancient Romans were well acquainted with many marine creatures. Scientists estimate that this fragment was created sometime before 79 A.D., when the city of Pompeii was buried under the volcanic ash ejected by nearby Mount Vesuvius.",
+      "narration": "assets/arts/ARTS02JN.mp3"
+    },
+    {
+      "id": "dutch-traditions",
+      "title": "Dutch traditions",
+      "image": "assets/arts/ARTS03PU.webp",
+      "text": "The Dutch school of marine painting was a special group of ship painters. They influenced later marine painters in England and America. Willem van de Velde the Elder (1611–1693) was one of Holland's great painters of ships and the sea.",
+      "captions": [
+        {
+          "label": "Charles II of England in the Harbor of Dordrecht",
+          "text": "Charles II of England in the Harbor of Dordrecht"
+        }
+      ],
+      "narration": "assets/arts/ARTS03JN.mp3"
+    },
+    {
+      "id": "waiting-for-the-light",
+      "title": "Waiting for the light",
+      "image": "assets/arts/ARTS04PU.webp",
+      "text": "One famous American painter, Winslow Homer (1836–1910), lived alone by the sea and painted seascapes that depicted heroic confrontations between man and nature. He would sometimes wait a full year for the just the right light before executing a painting.",
+      "captions": [
+        {
+          "label": "The Herring Net",
+          "text": "The Herring Net"
+        }
+      ],
+      "narration": "assets/arts/ARTS04JN.mp3"
+    },
+    {
+      "id": "power-and-poetry",
+      "title": "Power and poetry",
+      "image": "assets/arts/ARTS05PU.webp",
+      "text": "From ancient times to the present, man has transformed his wonder at the ocean's power and majesty into poetry. A modern Nobel Prize winner, Chilean poet Pablo Neruda, has written many verses inspired by the sea. Samuel Taylor Coleridge (1772–1834), one of England's finest poets, penned The Rime of the Ancient Mariner, a powerful poem of murder, torment, and love written in the style of a sea ballad.",
+      "captions": [
+        {
+          "label": "The Ancient Mariner Prays",
+          "text": "The Ancient Mariner Prays"
+        }
+      ],
+      "narration": "assets/arts/ARTS05JN.mp3"
+    },
+    {
+      "id": "adventure-in-print",
+      "title": "Adventure in print",
+      "image": "assets/arts/ARTS06PU.webp",
+      "text": "Ocean winds blow through great literature all over the world. Some writers actually went to sea before they wrote about it; others wrote purely from inspiration and imagination. American writer Herman Melville worked as a bank clerk, farmer, teacher, cabin boy, and seaman before he wrote his greatest novel, Moby Dick, which details the obsessed Captain Ahab's quest for a legendary white whale. Melville based his fictional beast on a real sperm whale named Mocha Dick, which wrecked many whaling boats off the coast of New England.",
+      "narration": "assets/arts/ARTS06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Fantastic Voyages",
+      "to": "fant"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/arts/ARTS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 3,
+            "y": 8,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Inspiration",
+            "to": "video",
+            "x": 3,
+            "y": 36,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Waiting for the light",
+            "to": "waiting-for-the-light",
+            "x": 1,
+            "y": 50,
+            "w": 17,
+            "h": 8
+          },
+          {
+            "label": "Power and poetry",
+            "to": "power-and-poetry",
+            "x": 52,
+            "y": 40,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Dutch traditions",
+            "to": "dutch-traditions",
+            "x": 67,
+            "y": 49,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Transportation to the world beyond",
+            "to": "transportation-to-the-world-beyond",
+            "x": 29,
+            "y": 63,
+            "w": 33,
+            "h": 5
+          },
+          {
+            "label": "No strangers to the sea",
+            "to": "no-strangers-to-the-sea",
+            "x": 52,
+            "y": 72,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Adventure in print",
+            "to": "adventure-in-print",
+            "x": 28,
+            "y": 80,
+            "w": 18,
+            "h": 5
+          }
+        ]
+      },
+      "transportation-to-the-world-beyond": {
+        "image": "assets/arts/ARTS01PU.webp",
+        "back": "main"
+      },
+      "no-strangers-to-the-sea": {
+        "image": "assets/arts/ARTS02PU.webp",
+        "back": "main"
+      },
+      "dutch-traditions": {
+        "image": "assets/arts/ARTS03PU.webp",
+        "back": "main"
+      },
+      "waiting-for-the-light": {
+        "image": "assets/arts/ARTS04PU.webp",
+        "back": "main"
+      },
+      "power-and-poetry": {
+        "image": "assets/arts/ARTS05PU.webp",
+        "back": "main"
+      },
+      "adventure-in-print": {
+        "image": "assets/arts/ARTS06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/arts/clip.mp4",
+        "poster": "assets/arts/ARTS07PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/arts/ARTS00JN.mp3",
+  "sound": "assets/arts/ARTS00IX.mp3",
+  "video": {
+    "title": "Inspiration",
+    "src": "assets/arts/clip.mp4",
+    "poster": "assets/arts/poster.webp",
+    "caption": "The oceans have always stimulated man's imagination. Ancient peoples speculated that the depths were filled with monsters and magical kingdoms. We now know that's not true, but the reality is just as awe-inspiring: there are undersea volcanoes, canyons grander than any on land, and creatures of every conceivable size, color, and shape. Even the waves of the shore inspire wonder, with their incredible power and beauty. Our ocean planet is an amazing place to live!",
+    "narration": "assets/arts/ARTS07JN.mp3"
+  }
+}

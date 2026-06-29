@@ -1,0 +1,243 @@
+{
+  "id": "chee",
+  "code": "CHEE",
+  "name": "Cheetah",
+  "scientificName": "Acinonyx jubatus",
+  "needsScientificVerify": false,
+  "tagline": "The fastest land animal on Earth can go from zero to 70 mph in just three seconds!",
+  "weapons": [
+    "Teeth & Jaws",
+    "Claws & Talons"
+  ],
+  "habitats": [
+    "Grassland & Savanna"
+  ],
+  "regions": [
+    "Africa",
+    "Asia"
+  ],
+  "hero": {
+    "image": "assets/chee/CHEE00AA.webp",
+    "alt": "Cheetah"
+  },
+  "intro": "All cats like to climb to high places to survey the surrounding territory. In the African savanna, termite mounds make good perches for cheetahs. If you see several cheetahs together like this, they're probably mother and babies or perhaps a group of young adult males, which sometimes share territory.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by biting, clawing, and strangling its prey",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Gazelles and antelope, as well as many small animals",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "When in hot pursuit of a speedy antelope, sprinting cheetahs have been clocked at more than 113 kilometers (70 miles) per hour!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 1.8m (6ft)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Africa, Middle East",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "savanna-cats",
+      "title": "Savanna cats",
+      "image": "assets/chee/CHEE01PU.webp",
+      "text": "Cheetahs live in the African grasslands, also called the savanna. Here are two other savanna cats. Have you heard of them?",
+      "captions": [
+        {
+          "label": "Serval",
+          "text": "Servals are much smaller than cheetahs and eat smaller animals such as birds. If there's a poultry farm nearby, a hungry serval might help itself to a chicken or two. This behavior does not make it popular with farmers."
+        },
+        {
+          "label": "Caracal",
+          "text": "This cat weighs up to 17 kilograms (37 lb). It likes dry country. In the past, people have tamed caracals and trained them to hunt, much in the way people today train hunting dogs."
+        }
+      ],
+      "narration": "assets/chee/CHEE01NP.mp3"
+    },
+    {
+      "id": "jaws-not-claws",
+      "title": "Jaws, not claws",
+      "image": "assets/chee/CHEE02PU.webp",
+      "text": "The cheetah's name means \"dog-cat.\" Like a dog, it uses its claws for traction when it runs. In fact, a cheetah cannot retract its claws like other cats, and so it cannot keep them sharp or use them as weapons. A cheetah uses a suffocating throat hold to kill its prey.",
+      "narration": "assets/chee/CHEE02NP.mp3"
+    },
+    {
+      "id": "lightweights",
+      "title": "Lightweights",
+      "image": "assets/chee/CHEE03PU.webp",
+      "text": "Cheetahs can't drag heavy prey out of the reach of other predators, and they're lightweights when it comes to a challenge. Their bodies are made for running, not for fighting—so if a lion or hyena challenges a cheetah for a kill, the cheetah usually gives in without much of an argument",
+      "narration": "assets/chee/CHEE03NP.mp3"
+    },
+    {
+      "id": "playing-to-hunt",
+      "title": "Playing to hunt",
+      "image": "assets/chee/CHEE04PU.webp",
+      "text": "Wild babies develop strength and learn their hunting skills through imitation and play. These young cheetahs practice stalking and leaping by \"hunting\" each other. As soon as they can run quickly enough, they'll be ready to take on real prey.",
+      "narration": "assets/chee/CHEE04NP.mp3"
+    },
+    {
+      "id": "at-home-with-the-kids",
+      "title": "At home with the kids",
+      "image": "assets/chee/CHEE05PU.webp",
+      "text": "After a gestation period of about three months, a female cheetah gives birth to her cubs. She usually bears four to six babies, which she'll nurse for the first three to six months. Then she'll spend almost a year teaching them to hunt. After the cubs are around a year and a half old, they're on their own, and their mother is ready to raise a new family.",
+      "narration": "assets/chee/CHEE05NP.mp3"
+    },
+    {
+      "id": "african-racers",
+      "title": "African racers",
+      "image": "assets/chee/CHEE06PU.webp",
+      "text": "Cheetahs can zoom up to 97 kilometers (60 mi) per hour in three seconds, and they've been clocked at a top speed of 115 km (71 mi) per hour! Cheetahs have to catch their prey quickly: they're powerful sprinters, not long-distance runners. Here are two other animals that are also fast sprinters.",
+      "captions": [
+        {
+          "label": "Step lively",
+          "text": "You might think that a rhino is slow and lumbering. Don't bet on it! A charging rhino can reach 50 kilometers (31 mi) per hour—faster than most humans can run!"
+        },
+        {
+          "label": "Fleeing instead of flying",
+          "text": "Although ostriches are the biggest birds in the world, they're built for running, not flying. An adult ostrich can run up to 72 kilometers (45 mi) per hour."
+        }
+      ],
+      "narration": "assets/chee/CHEE06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/chee/CHEE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 5.02,
+            "y": 8.11,
+            "w": 4.95,
+            "h": 3.92
+          },
+          {
+            "label": "At home with the kids",
+            "to": "at-home-with-the-kids",
+            "x": 49.71,
+            "y": 7.89,
+            "w": 18.39,
+            "h": 4.13
+          },
+          {
+            "label": "Grassland Environments",
+            "x": 77.21,
+            "y": 10.92,
+            "w": 22.45,
+            "h": 9.98,
+            "link": "browse.html?tab=habitats#grassland-savanna"
+          },
+          {
+            "label": "Lightweights",
+            "to": "lightweights",
+            "x": 53.93,
+            "y": 22.18,
+            "w": 17.29,
+            "h": 4.56
+          },
+          {
+            "label": "Jaws, not claws",
+            "to": "jaws-not-claws",
+            "x": 55,
+            "y": 33,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Playing to hunt",
+            "to": "playing-to-hunt",
+            "x": 20.34,
+            "y": 46.2,
+            "w": 17.14,
+            "h": 10.63
+          },
+          {
+            "label": "Savanna cats",
+            "to": "savanna-cats",
+            "x": 20.34,
+            "y": 47.72,
+            "w": 22.29,
+            "h": 9.11
+          },
+          {
+            "label": "What a workout!",
+            "to": "video",
+            "x": 7.99,
+            "y": 61.79,
+            "w": 14.64,
+            "h": 4.13
+          },
+          {
+            "label": "African racers",
+            "to": "african-racers",
+            "x": 3.31,
+            "y": 71.96,
+            "w": 19.79,
+            "h": 3.7
+          }
+        ]
+      },
+      "savanna-cats": {
+        "image": "assets/chee/CHEE01PU.webp",
+        "back": "main"
+      },
+      "jaws-not-claws": {
+        "image": "assets/chee/CHEE02PU.webp",
+        "back": "main"
+      },
+      "lightweights": {
+        "image": "assets/chee/CHEE03PU.webp",
+        "back": "main"
+      },
+      "playing-to-hunt": {
+        "image": "assets/chee/CHEE04PU.webp",
+        "back": "main"
+      },
+      "at-home-with-the-kids": {
+        "image": "assets/chee/CHEE05PU.webp",
+        "back": "main"
+      },
+      "african-racers": {
+        "image": "assets/chee/CHEE06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/chee/CHEE00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/chee/clip.mp4",
+        "poster": "assets/chee/CHEE07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "ambient": "assets/chee/narration.mp3",
+  "sound": "assets/chee/CHEE00AF.mp3",
+  "factsNarration": "assets/chee/CHEE00FB.mp3",
+  "video": {
+    "title": "What a workout!",
+    "src": "assets/chee/clip.mp4",
+    "poster": "assets/chee/poster.webp",
+    "caption": "Cheetahs work hard for their food, just as most cats do. Each attempt to run down prey costs a lot of energy, and about one-half of their attempts end with the cheetah going hungry."
+  }
+}

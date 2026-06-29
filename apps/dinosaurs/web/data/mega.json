@@ -1,0 +1,162 @@
+{
+  "id": "mega",
+  "code": "MEGA",
+  "name": "Megalosaurus",
+  "category": "dinosaur",
+  "scientificName": "Megalosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "MEG-ah-lo-SOR-us",
+  "meaning": "Great lizard",
+  "period": "Jurassic",
+  "diet": "Carnivore",
+  "tagline": "The first dinosaur ever to be scientifically described — and it was once mistaken for a giant man!",
+  "hero": {
+    "image": "assets/mega/MEGA00AA.webp",
+    "alt": "Megalosaurus"
+  },
+  "intro": "Megalosaurus has a very confusing history.  Not only have its remains been mistaken for other dinosaurs, but a piece of its thigh bone was once thought to be part of a giant man!  These errors are understandable because Megalosaurus was described in 1824, before scientists knew that dinosaurs had once existed.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Asia, Europe, S. America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Great lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Theropod"
+    },
+    {
+      "label": "Length",
+      "value": "9m (30ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "1 ton"
+    }
+  ],
+  "topics": [
+    {
+      "id": "gnashing-teeth",
+      "title": "Gnashing Teeth",
+      "image": "assets/mega/MEGA01PU.webp",
+      "text": "The teeth shown here belonged to Megalosaurus.  The teeth curve backward to allow the dinosaur to hold onto its prey more easily, and the sharp, serrated edges are designed to cut through meat.  The cracks on the big tooth occurred during fossilization.",
+      "captions": [
+        {
+          "label": "Jurassic jawbone",
+          "text": "This jawbone belonged to Megalosaurus.  Although Megalosaurus was one of the first dinosaurs to be discovered, it lived during the Jurassic period and so is not one of the oldest dinosaurs we know about."
+        },
+        {
+          "label": "Replacement teeth",
+          "text": "The teeth of a meat-eating dinosaur kept growing, and were constantly replaced throughout the dinosaur's life.  The smaller tooth is a \"new\" one."
+        }
+      ]
+    },
+    {
+      "id": "early-dinosaur-discoveries",
+      "title": "Early Dinosaur Discoveries",
+      "image": "assets/mega/MEGA02PU.webp",
+      "text": "The remains of Megalosaurus were unearthed in 1824 by William Buckland in Stonesfield in Oxfordshire, England, and this creature became the first dinosaur to be scientifically described.  Buckland was a teacher of geology at the University of Oxford.  The word \"dinosaur,\" meaning \"terrible lizard,\" was not coined until 1842, by Sir Richard Owen."
+    },
+    {
+      "id": "dinosaur-countryside",
+      "title": "Dinosaur Countryside",
+      "image": "assets/mega/MEGA03PU.webp",
+      "text": "During the lifetime of Megalosaurus, the land that now forms southeastern England, northern France, and northern Belgium was a low flat plain.  Marsh plants grew thickly in the swampy ground and animals lived among them.",
+      "captions": [
+        {
+          "label": "Running from danger",
+          "text": "Hypsilophodon would have been a tasty meal for the giant Megalosaurus.  Fortunately, these little dinosaurs were fast and could easily outrun the large predator."
+        },
+        {
+          "label": "Tiny hands, powerful legs",
+          "text": "Like many large meat-eaters, Megalosaurus had tiny hands, which looked out of proportion to its thick, powerful legs."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Meat-eaters",
+      "to": "meat"
+    },
+    {
+      "label": "Skulls of Meat-eaters",
+      "to": "carn"
+    },
+    {
+      "label": "Important Dinosaur Sites",
+      "to": "site"
+    },
+    {
+      "label": "The Jurassic Period",
+      "to": "jurr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mega/MEGA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Gnashing teeth",
+            "to": "gnashing-teeth",
+            "x": 68,
+            "y": 50,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Early dinosaur discoveries",
+            "to": "early-dinosaur-discoveries",
+            "x": 3,
+            "y": 63,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Dinosaur countryside",
+            "to": "dinosaur-countryside",
+            "x": 55,
+            "y": 79,
+            "w": 20,
+            "h": 5
+          }
+        ]
+      },
+      "gnashing-teeth": {
+        "image": "assets/mega/MEGA01PU.webp",
+        "back": "main"
+      },
+      "early-dinosaur-discoveries": {
+        "image": "assets/mega/MEGA02PU.webp",
+        "back": "main"
+      },
+      "dinosaur-countryside": {
+        "image": "assets/mega/MEGA03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/mega/MEGA50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/mega/MEGA00AP.mp3",
+  "narration": "assets/mega/MEGA00AJ.mp3"
+}

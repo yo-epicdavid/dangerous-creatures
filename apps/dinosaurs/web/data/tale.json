@@ -1,0 +1,165 @@
+{
+  "id": "tale",
+  "code": "TALE",
+  "name": "A Tale of Tails",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Dinosaur tails were tools for reaching food, steering at speed, and fighting off attackers!",
+  "hero": {
+    "image": "assets/tale/TALE00AA.webp",
+    "alt": "A Tale of Tails"
+  },
+  "intro": "Tails can have a surprising number of uses. Sauropod dinosaurs like Diplodocus often balanced on their tails when feeding. Fast-moving two-legged dinosaurs used their tails for balance and steering while sprinting from place to place. Still other dinosaurs used their tails for defense against attackers.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "balancing-act",
+      "title": "Balancing Act",
+      "image": "assets/tale/TALE01PU.webp",
+      "text": "Large plant-eaters such as Diplodocus sometimes balanced on their tails and back legs so that they could stretch their necks high into the treetops and pluck the choicest leaves. This technique could greatly extend their reach."
+    },
+    {
+      "id": "threatening-tails",
+      "title": "Threatening Tails",
+      "image": "assets/tale/TALE02PU.webp",
+      "text": "Some dinosaurs packed menacing weapons on their muscular tails. A hungry predator that approached from the rear could receive a painful surprise when attacking one of these well-armed dinosaurs.",
+      "captions": [
+        {
+          "label": "Clubs",
+          "text": "Some armored dinosaurs such as Euoplocephalus had tails that ended in huge chunks of bone. A tail club like this could be as big as three feet across—a formidable weapon indeed!"
+        },
+        {
+          "label": "Spikes",
+          "text": "What dinosaur would want to confront the tail of Stegosaurus, which ended in four long spikes? When the dinosaur swung its tail, the spiky tip became the fastest moving part, and could thus inflict a lot of damage on an attacker."
+        }
+      ]
+    },
+    {
+      "id": "steering-mechanisms",
+      "title": "Steering Mechanisms",
+      "image": "assets/tale/TALE03PU.webp",
+      "text": "Two-legged dinosaurs and other swift prehistoric reptiles used their tails for steering and balance.",
+      "captions": [
+        {
+          "label": "Steering in the sky",
+          "text": "Rhamphorynchus, a flying reptile that lived at the same time as the dinosaurs, had a long tail with a diamond-shaped flap of skin at the end. This tail served as a rudder to keep the pterosaur on course, much like the rudder of a plane or a boat steers those machines."
+        },
+        {
+          "label": "Steering on land",
+          "text": "Struthiomimus, one of the \"ostrich dinosaurs,\" had a stiff tail made up of lightweight bones. When running, Struthiomimus held its tail up in the air."
+        }
+      ]
+    },
+    {
+      "id": "the-inside-story",
+      "title": "The Inside Story",
+      "image": "assets/tale/TALE04PU.webp",
+      "text": "From the shape and size of tail bones, scientists can learn where muscles were attached, providing a more complete picture of what living dinosaurs looked like and how they lived.",
+      "captions": [
+        {
+          "label": "Forked vertebra",
+          "text": "This chevron bone belonged to a sauropod named Camarasaurus. Chevron bones were placed at the lower side of the tail, near the dinosaur's hips. Muscles were attached to the long narrow spine at the bottom of the chevron bone, and a large blood vessel ran between the two forks at the top."
+        },
+        {
+          "label": "Tail vertebra",
+          "text": "This tail bone belonged to a horned dinosaur. The two projections were anchor points for strong muscles and tendons that ran down the sides of the dinosaur's tail."
+        },
+        {
+          "label": "Flattened chevron",
+          "text": "Toward the middle of the tail, a dinosaur like Diplodocus had flattened chevron bones, which may have protected the underside of the tail."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Digging up Dinosaurs",
+      "to": "digg"
+    },
+    {
+      "label": "Diplodocus",
+      "to": "dipl"
+    },
+    {
+      "label": "Euoplocephalus",
+      "to": "euop"
+    },
+    {
+      "label": "Struthiomimus",
+      "to": "stru"
+    },
+    {
+      "label": "Reconstructing Dinosaurs",
+      "to": "reco"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/tale/TALE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Steering mechanisms",
+            "to": "steering-mechanisms",
+            "x": 40,
+            "y": 29,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Balancing act",
+            "to": "balancing-act",
+            "x": 62,
+            "y": 38,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Threatening tails",
+            "to": "threatening-tails",
+            "x": 36,
+            "y": 72,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "The inside story",
+            "to": "the-inside-story",
+            "x": 2,
+            "y": 77,
+            "w": 18,
+            "h": 5
+          }
+        ]
+      },
+      "balancing-act": {
+        "image": "assets/tale/TALE01PU.webp",
+        "back": "main"
+      },
+      "threatening-tails": {
+        "image": "assets/tale/TALE02PU.webp",
+        "back": "main"
+      },
+      "steering-mechanisms": {
+        "image": "assets/tale/TALE03PU.webp",
+        "back": "main"
+      },
+      "the-inside-story": {
+        "image": "assets/tale/TALE04PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/tale/TALE00AP.mp3",
+  "narration": "assets/tale/TALE00AJ.mp3"
+}

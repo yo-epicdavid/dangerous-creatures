@@ -1,0 +1,214 @@
+{
+  "id": "quet",
+  "code": "QUET",
+  "name": "Quetzalcoatlus",
+  "category": "creature",
+  "scientificName": "Quetzalcoatlus",
+  "needsScientificVerify": false,
+  "pronunciation": "kwet-ZAL-koh-AT-lus",
+  "meaning": "Feathered serpent",
+  "period": "Late Cretaceous",
+  "diet": "Carnivore",
+  "tagline": "The largest flying creature ever discovered — with wings as wide as a small plane!",
+  "hero": {
+    "image": "assets/quet/QUET00AA.webp",
+    "alt": "Quetzalcoatlus"
+  },
+  "intro": "Quetzalcoatlus, with a wingspan of up to forty feet, was as big as a small plane!  This pterosaur is the largest flying creature ever discovered.  Like a gigantic vulture, Quetzalcoatlus sailed the ancient skies looking for its next meal.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Feathered serpent"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Pterosaur"
+    },
+    {
+      "label": "Wingspan",
+      "value": "12m(40ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "190 lbs."
+    }
+  ],
+  "topics": [
+    {
+      "id": "crowded-skies",
+      "title": "Crowded Skies",
+      "image": "assets/quet/QUET01PU.webp",
+      "text": "Quetzalcoatlus shared the skies with other flying reptiles such as the ones shown here.  Pterosaurs became extinct at the same time as the dinosaurs, so modern skies are not home to any reptiles, but only to birds, bats, and insects.",
+      "captions": [
+        {
+          "label": "Sordes",
+          "text": "This pterosaur seems to have been covered with a thick, hairy coat that would have helped keep Sordes warm on long flights."
+        },
+        {
+          "label": "Pteranodon",
+          "text": "This flier had a long bony crest which may have acted as a rudder during flight."
+        }
+      ]
+    },
+    {
+      "id": "wing-supports",
+      "title": "Wing Supports",
+      "image": "assets/quet/QUET02PU.webp",
+      "text": "The wings of flying reptiles like Quetzalcoatlus were supported by the bones that made up the hands and fingers in dinosaur skeletons.  The fourth \"finger\" bone supported most of the wing, stretching out to the very tip.  The first three \"fingers\" ended in claws that stuck out from the middle of the wing.  In modern birds and bats, the wings are supported by all the \"finger\" bones.",
+      "captions": [
+        {
+          "label": "Wings of fingers",
+          "text": "A modern bat's wing is supported mainly by long, thin finger bones.  Flaps of skin spread between these to make an airtight flying surface."
+        }
+      ]
+    },
+    {
+      "id": "truly-a-giant",
+      "title": "Truly a Giant",
+      "image": "assets/quet/QUET04PU.webp",
+      "text": "Here you can see just how big Quetzalcoatlus was.  Although it was much bigger than a human, Quetzalcoatlus weighed only around 190 pounds, the same as a large man.  Just like birds, pterosaurs had lightweight bones—otherwise, they couldn't have gotten off the ground!"
+    },
+    {
+      "id": "what-did-it-eat",
+      "title": "What Did It Eat?",
+      "image": "assets/quet/QUET05PU.webp",
+      "text": "Some pterosaurs had teeth arranged for scooping and sieving small creatures from sea water, like this spiky-toothed Rhamphorhynchus.",
+      "captions": [
+        {
+          "label": "Toothless diner",
+          "text": "Quetzalcoatlus had no teeth, so experts speculate that it may have swallowed fish whole or scavenged for the soft flesh of dead animals."
+        }
+      ]
+    },
+    {
+      "id": "bird-bones",
+      "title": "Bird Bones",
+      "image": "assets/quet/QUET06PU.webp",
+      "text": "Pterosaurs, like Quetzalcoatlus, had lightweight bones just like birds—otherwise, these flying reptiles couldn't have gotten off the ground.",
+      "captions": [
+        {
+          "label": "Gliding heron",
+          "text": "The tall, stately heron is a master of gliding flight.  Many bird bones are hollow for lightness, with strength coming from the tubular or case-like design.  The tubular bones have thin supports running crosswise inside, to brace them against twists and bends."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Birds and Dinosaurs",
+      "to": "bird"
+    },
+    {
+      "label": "Sordes",
+      "to": "sord"
+    },
+    {
+      "label": "Pterodactylus",
+      "to": "pter"
+    },
+    {
+      "label": "The Biggest Dinosaurs",
+      "to": "tall"
+    },
+    {
+      "label": "The Cretaceous Period",
+      "to": "cret"
+    },
+    {
+      "label": "What is a Fossil?",
+      "to": "foss"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/quet/QUET00AA.webp",
+        "hotspots": [
+          {
+            "label": "Wing supports",
+            "to": "wing-supports",
+            "x": 52,
+            "y": 33,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Crowded skies",
+            "to": "crowded-skies",
+            "x": 12,
+            "y": 42,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "What did it eat?",
+            "to": "what-did-it-eat",
+            "x": 69,
+            "y": 47,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Truly a giant",
+            "to": "truly-a-giant",
+            "x": 22,
+            "y": 56,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Bird bones",
+            "to": "bird-bones",
+            "x": 63,
+            "y": 63,
+            "w": 13,
+            "h": 5
+          }
+        ]
+      },
+      "crowded-skies": {
+        "image": "assets/quet/QUET01PU.webp",
+        "back": "main"
+      },
+      "wing-supports": {
+        "image": "assets/quet/QUET02PU.webp",
+        "back": "main"
+      },
+      "truly-a-giant": {
+        "image": "assets/quet/QUET04PU.webp",
+        "back": "main"
+      },
+      "what-did-it-eat": {
+        "image": "assets/quet/QUET05PU.webp",
+        "back": "main"
+      },
+      "bird-bones": {
+        "image": "assets/quet/QUET06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/quet/QUET50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/quet/QUET00AP.mp3",
+  "narration": "assets/quet/QUET00AJ.mp3"
+}

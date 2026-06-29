@@ -1,0 +1,191 @@
+{
+  "id": "croc",
+  "code": "CROC",
+  "name": "Saltwater Crocodiles",
+  "category": "creature",
+  "scientificName": "Crocodylus porosus",
+  "needsScientificVerify": false,
+  "tagline": "The world's largest reptile lurks in the mangroves — and it eats almost anything!",
+  "zones": [
+    "Coast & tide pools",
+    "Rivers & estuaries"
+  ],
+  "oceans": [
+    "Indian Ocean",
+    "Pacific Ocean"
+  ],
+  "hero": {
+    "image": "assets/croc/CROC00AA.webp",
+    "alt": "Saltwater Crocodiles"
+  },
+  "intro": "Saltwater (or estuarine) crocodiles, the largest in length of all reptiles, live in the brackish coastal waters of Southeast Asia, several South Pacific islands, and northern Australia. What does a crocodile that's 6 m (19.7 ft) in length eat? Just about anything it wants—crustaceans, fish, turtles, snakes, birds, smaller crocodiles, and all sorts of mammals, including the occasional human!",
+  "facts": [
+    {
+      "label": "Size",
+      "value": "Up to 6 m (19.7 ft) long — the largest reptile on Earth"
+    },
+    {
+      "label": "Diet",
+      "value": "Eats crustaceans, fish, turtles, snakes, birds, smaller crocodiles, and mammals — including the occasional human"
+    },
+    {
+      "label": "Salt trick",
+      "value": "Has special salt glands on its tongue to secrete excess salt — alligators and caimans don't have these and can't survive long in ocean environments"
+    },
+    {
+      "label": "Habitat",
+      "value": "Lives in coastal mangrove swamps in Southeast Asia, northern Australia, and a few South Pacific islands"
+    },
+    {
+      "label": "Ancient roots",
+      "value": "Crocodile ancestors like Ichthyosaurus roamed the seas during the Age of Reptiles, about 100 million years ago"
+    }
+  ],
+  "topics": [
+    {
+      "id": "very-old-friends",
+      "title": "Very old friends",
+      "image": "assets/croc/CROC01PU.webp",
+      "text": "The Mesozoic Era, which took place about 100 million years ago, is also known as the Age of Reptiles. Dinosaurs ruled the land, and many reptiles roamed the air and seas.",
+      "captions": [
+        {
+          "label": "Power paddle",
+          "text": "Ichthyosaurus flashed through the water in pursuit of fish with the aid of its powerful tail. This ancestor of the crocodile became extinct about 65 million years ago."
+        },
+        {
+          "label": "So many teeth!",
+          "text": "Ichthyosaurs devoured squid, fish, and birdlike pterosaurs. It would take a lot of dental floss to clean all these closely packed teeth!"
+        }
+      ],
+      "narration": "assets/croc/CROC01JN.mp3"
+    },
+    {
+      "id": "swamp-lovers",
+      "title": "Swamp lovers",
+      "image": "assets/croc/CROC02PU.webp",
+      "text": "Would you like to live in a muddy root system washed by a salty sea? It may not be your idea of a cozy home, but saltwater crocodiles are contented residents of coastal mangrove swamps in Southeast Asia, northern Australia, and a few South Pacific islands.",
+      "captions": [
+        {
+          "label": "Crocodile life",
+          "text": "Like other crocodiles and alligators, saltwater crocs bask or bathe to regulate their body temperature, roar to each other in conversation, and swallow their food without chewing. But what makes them different from their inland relatives is the fact that they may be sharing a beach with you!!"
+        },
+        {
+          "label": "Sea forest",
+          "text": "Mangroves are the only flowering plants besides seaweeds and sea grasses that live in salt water. These trees have a maze of raised roots that provide homes for many insects, birds, and marine animals."
+        }
+      ],
+      "narration": "assets/croc/CROC02JN.mp3"
+    },
+    {
+      "id": "freshwater-friends",
+      "title": "Freshwater friends",
+      "image": "assets/croc/CROC03PU.webp",
+      "text": "American alligators live in swamps in the coastal lowlands of the southeastern United States, from North Carolina to Texas. Small alligators are found in China. Caimans, which are also smaller cousins of alligators, live in Mexico and in Central and South America. Gharials, odd-looking relatives of crocodiles, inhabit rivers in India, Pakistan, Burma, Nepal, and Bangladesh.",
+      "captions": [
+        {
+          "label": "Smile for the camera!",
+          "text": "Alligators have wider heads than crocodiles, and they lack the two prominent lower teeth that crocodiles have. You may not want to get close enough to check this out, however."
+        },
+        {
+          "label": "Nosy, aren't they!",
+          "text": "Gharials, also called gavials, have long, thin snouts for gobbling fish, and small, even teeth. They have weak legs, and prefer cruising in fast-flowing rivers to walking on land."
+        }
+      ],
+      "narration": "assets/croc/CROC03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Scary Sharks",
+      "to": "shar"
+    },
+    {
+      "label": "Sea Turtles",
+      "to": "turt"
+    },
+    {
+      "label": "Sea Snakes",
+      "to": "snak"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/croc/CROC00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Salty tongues",
+            "to": "video",
+            "x": 18,
+            "y": 56,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Freshwater friends",
+            "to": "freshwater-friends",
+            "x": 63,
+            "y": 21,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Swamp lovers",
+            "to": "swamp-lovers",
+            "x": 28,
+            "y": 80,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Very old friends",
+            "to": "very-old-friends",
+            "x": 52,
+            "y": 80,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "very-old-friends": {
+        "image": "assets/croc/CROC01PU.webp",
+        "back": "main"
+      },
+      "swamp-lovers": {
+        "image": "assets/croc/CROC02PU.webp",
+        "back": "main"
+      },
+      "freshwater-friends": {
+        "image": "assets/croc/CROC03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/croc/clip.mp4",
+        "poster": "assets/croc/CROC04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/croc/CROC00JN.mp3",
+  "sound": "assets/croc/CROC00IX.mp3",
+  "video": {
+    "title": "Salty tongues",
+    "src": "assets/croc/clip.mp4",
+    "poster": "assets/croc/poster.webp",
+    "caption": "All reptiles that live in salt water have the same problem: how to get rid of excess salt. Marine iguanas sneeze it out; sea turtles cry it out in their tears. Crocodiles secrete the salt through special glands on their tongues. Alligators and caimans don't have these special salt glands, so they can't survive for long in ocean environments.",
+    "narration": "assets/croc/CROC04JN.mp3"
+  }
+}

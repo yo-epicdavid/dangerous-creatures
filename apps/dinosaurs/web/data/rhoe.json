@@ -1,0 +1,168 @@
+{
+  "id": "rhoe",
+  "code": "RHOE",
+  "name": "Rhoetosaurus",
+  "category": "dinosaur",
+  "scientificName": "Rhoetosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "ree-EE-toh-SOR-us",
+  "meaning": "Rhoetos lizard",
+  "period": "Jurassic",
+  "diet": "Herbivore",
+  "tagline": "One of Earth's earliest giants, this Australian sauropod roamed the land before the continents pulled apart!",
+  "hero": {
+    "image": "assets/rhoe/RHOE00AA.webp",
+    "alt": "Rhoetosaurus"
+  },
+  "intro": "For a sauropod, Rhoetosaurus was small.  Still, this Australian dinosaur was three times taller than a human being and around fifty-six feet long!  Sauropod fossils have been found in the United States and in Africa, so experts think that these dinosaurs existed before the land masses separated into the continents we know today.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Australia"
+    },
+    {
+      "label": "Time Period",
+      "value": "Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Rhoetos lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Sauropod"
+    },
+    {
+      "label": "Length",
+      "value": "18m(56ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "one-of-the-first-sauropods",
+      "title": "One of the First Sauropods",
+      "image": "assets/rhoe/RHOE01PU.webp",
+      "text": "Rhoetosaurus lived about 180 million years ago, making it one of the first sauropod dinosaurs to walk the Earth.",
+      "captions": [
+        {
+          "label": "Herrerasaurus",
+          "text": "A two-legged meat-eater, it has been classified as a primitive dinosaur."
+        },
+        {
+          "label": "Rhoetosaurus",
+          "text": "Small for a sauropod, this was one of the earliest sauropods in the Jurassic period."
+        },
+        {
+          "label": "Tyrannosaurus rex",
+          "text": "This carnosaur may have been the most fierce of the Late Cretaceous dinosaurs."
+        },
+        {
+          "label": "One of the last?",
+          "text": "Brachiosaurus, on the other hand, lived well into the Cretaceous period, dying out about 128 million years ago."
+        }
+      ]
+    },
+    {
+      "id": "from-a-big-family",
+      "title": "From a Big Family",
+      "image": "assets/rhoe/RHOE02PU.webp",
+      "text": "The sauropod family of dinosaurs was a group of very big animals.  As you can see, Rhoetosaurus was petite in comparison to its relatives.",
+      "captions": [
+        {
+          "label": "Family resemblance",
+          "text": "Rhoetosaurus had a lot in common with its more famous sauropod cousins, like Apatosaurus. Both had powerful, whip-like tails, barrel-shaped bodies, and long necks topped by tiny heads."
+        }
+      ]
+    },
+    {
+      "id": "peaceful-plant-eater",
+      "title": "Peaceful Plant-Eater",
+      "image": "assets/rhoe/RHOE03PU.webp",
+      "text": "Although sauropods such as Rhoetosaurus were huge creatures, they were gentle herbivores, or plant-eaters. They had blunt, rounded teeth instead of the sharp teeth needed to eat meat.",
+      "captions": [
+        {
+          "label": "Constant chompers",
+          "text": "Sauropods, like Diplodocus, probably spent most of the day browsing for food. They ate bushels of food each day just to maintain their enormous bodies."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "How to Recognize Sauropods",
+      "to": "hsau"
+    },
+    {
+      "label": "The Jurassic Period",
+      "to": "jurr"
+    },
+    {
+      "label": "The Biggest Dinosaurs",
+      "to": "tall"
+    },
+    {
+      "label": "Barosaurus",
+      "to": "baro"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/rhoe/RHOE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Peaceful plant-eater",
+            "to": "peaceful-plant-eater",
+            "x": 72,
+            "y": 20,
+            "w": 24,
+            "h": 8
+          },
+          {
+            "label": "From a big family",
+            "to": "from-a-big-family",
+            "x": 2,
+            "y": 47,
+            "w": 18,
+            "h": 9
+          },
+          {
+            "label": "One of the first sauropods",
+            "to": "one-of-the-first-sauropods",
+            "x": 55,
+            "y": 73,
+            "w": 28,
+            "h": 8
+          }
+        ]
+      },
+      "one-of-the-first-sauropods": {
+        "image": "assets/rhoe/RHOE01PU.webp",
+        "back": "main"
+      },
+      "from-a-big-family": {
+        "image": "assets/rhoe/RHOE02PU.webp",
+        "back": "main"
+      },
+      "peaceful-plant-eater": {
+        "image": "assets/rhoe/RHOE03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/rhoe/RHOE50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/rhoe/RHOE00AP.mp3",
+  "narration": "assets/rhoe/RHOE00AJ.mp3"
+}

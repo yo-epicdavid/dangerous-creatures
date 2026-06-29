@@ -1,0 +1,112 @@
+{
+  "id": "spin",
+  "code": "SPIN",
+  "name": "Spinosaurus",
+  "category": "dinosaur",
+  "scientificName": "Spinosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "SPY-nuh-SOR-us",
+  "meaning": "Thorn lizard",
+  "period": "Late Cretaceous",
+  "diet": "Carnivore",
+  "tagline": "This reptile's spinal sail was taller than a man!",
+  "hero": {
+    "image": "assets/spin/SPIN00AA.webp",
+    "alt": "Spinosaurus"
+  },
+  "intro": "A row of tall spines grew out of Spinosaurus's back, with skin stretched tightly between them like a huge sail. The large sail—as high as eight feet—may have been a way for this Egyptian meat-eater to absorb the sun's rays to warm up, or to shed body heat and cool down.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Africa"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Thorn lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Theropod"
+    },
+    {
+      "label": "Length",
+      "value": "12m(40ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "7 tons"
+    }
+  ],
+  "topics": [
+    {
+      "id": "radiating-reptiles",
+      "title": "Radiating Reptiles",
+      "image": "assets/spin/SPIN01PU.webp",
+      "text": "Having a sail, plate, or fin on the back to control body temperature is not unique to Spinosaurus. Dimetrodon, a reptile that lived long before Spinosaurus, stegosaurs, and Ouranosaurus, an African plant-eating dinosaur, all had structures designed to radiate heat.",
+      "captions": [
+        {
+          "label": "Why such a large sail?",
+          "text": "Nobody knows for sure what Spinosaurus's eight-foot sail was used for. Heat regulation is only one idea that scientists have had."
+        },
+        {
+          "label": "Dimetrodon",
+          "text": "The sails on the backs of Dimetrodon and Spinosaurus might not have been for heat regulation at all. Scientists speculate that the sails may have served as a display to look impressive for mates or rivals."
+        },
+        {
+          "label": "Stegosaur plates",
+          "text": "These large plates were honeycombed with holes, and while the dinosaur was alive, they were probably filled with tiny blood vessels. The stegosaur could have used these plates like a central heating system. Standing in a breeze would have cooled the blood, while basking in the sun would have warmed it up."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Two Feet or Four?",
+      "to": "twof"
+    },
+    {
+      "label": "Dravidosaurus",
+      "to": "davi"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/spin/SPIN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Radiating reptiles",
+            "to": "radiating-reptiles",
+            "x": 57,
+            "y": 22,
+            "w": 26,
+            "h": 5
+          }
+        ]
+      },
+      "radiating-reptiles": {
+        "image": "assets/spin/SPIN01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/spin/SPIN50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/spin/SPIN00AP.mp3",
+  "narration": "assets/spin/SPIN00AJ.mp3"
+}

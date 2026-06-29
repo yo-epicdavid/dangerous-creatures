@@ -1,0 +1,126 @@
+{
+  "id": "stru",
+  "code": "STRU",
+  "name": "Struthiomimus",
+  "category": "dinosaur",
+  "scientificName": "Struthiomimus",
+  "needsScientificVerify": false,
+  "pronunciation": "stroo-thee-oh-MY-mus",
+  "meaning": "Ostrich mimic",
+  "period": "Late Cretaceous",
+  "diet": "Omnivore",
+  "tagline": "Built like an ostrich and fast as the wind, this toothless dinosaur was one of the speediest creatures of its age.",
+  "hero": {
+    "image": "assets/stru/STRU00AA.webp",
+    "alt": "Struthiomimus"
+  },
+  "intro": "This little dinosaur is named \"ostrich mimic\" for obvious reasons—it looks very bird-like. Struthiomimus, just like its namesake, had a small head, long neck, strong legs, and a toothless beak. It was probably able to run very swiftly after the small lizards and other prey it ate.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Ostrich mimic"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Theropod"
+    },
+    {
+      "label": "Length",
+      "value": "3.5m (12ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "compare-for-yourself",
+      "title": "Compare for Yourself",
+      "image": "assets/stru/STRU01PU.webp",
+      "text": "This drawing illustrates how similar Struthiomimus looks compared to a modern ostrich. Struthiomimus was about six and a half feet tall, around the same size as an ostrich. The main differences are that Struthiomimus had no feathers, had a long bony tail, and had clawed hands instead of wings. Maybe you can see why some experts think that birds evolved from dinosaurs."
+    },
+    {
+      "id": "bird-like-faces",
+      "title": "Bird-Like Faces",
+      "image": "assets/stru/STRU02PU.webp",
+      "text": "Dinosaurs had very different faces. Although these animals lived in different parts of the world at different times, they all lived during the Mesozoic era, the Age of Dinosaurs.",
+      "captions": [
+        {
+          "label": "Flyer face",
+          "text": "Although their faces resemble that of Struthiomimus, Eudimorphodon and Archaeopteryx were both winged reptiles. Many believe Archaeopteryx was the earliest known bird."
+        },
+        {
+          "label": "Carnivore cousins",
+          "text": "Struthiomimus and Troodon had many similarities. Not only do their faces look alike, but they were both small, swift meat-eaters."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Gallimimus",
+      "to": "gall"
+    },
+    {
+      "label": "Coelophysis",
+      "to": "coel"
+    },
+    {
+      "label": "Troodon",
+      "to": "troo"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/stru/STRU00AA.webp",
+        "hotspots": [
+          {
+            "label": "Bird-like faces",
+            "to": "bird-like-faces",
+            "x": 63,
+            "y": 23,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Compare for yourself",
+            "to": "compare-for-yourself",
+            "x": 5,
+            "y": 70,
+            "w": 22,
+            "h": 6
+          }
+        ]
+      },
+      "compare-for-yourself": {
+        "image": "assets/stru/STRU01PU.webp",
+        "back": "main"
+      },
+      "bird-like-faces": {
+        "image": "assets/stru/STRU02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/stru/STRU50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/stru/STRU00AP.mp3",
+  "narration": "assets/stru/STRU00AJ.mp3"
+}

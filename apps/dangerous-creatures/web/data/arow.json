@@ -1,0 +1,319 @@
+{
+  "id": "arow",
+  "code": "AROW",
+  "name": "Poison Arrow Frog",
+  "scientificName": "Phyllobates terribilis",
+  "needsScientificVerify": false,
+  "tagline": "A frog so tiny its poison could kill 100 people — but only if you bother it first.",
+  "weapons": [
+    "Venom & Poison"
+  ],
+  "habitats": [
+    "Rainforest & Jungle"
+  ],
+  "regions": [
+    "Central America",
+    "South America"
+  ],
+  "hero": {
+    "image": "assets/arow/AROW00AA.webp",
+    "alt": "Poison Arrow Frog"
+  },
+  "intro": "The most powerful known poison is produced by one kind of these tiny, jewel-like animals. An amount smaller than a grain of salt can kill a human. Some groups of forest people use the toxin of poison arrow frogs to make deadly weapons. But these social frogs of Central and South America are harmless if they're left alone.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Defends by oozing venom from skin",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Small insects, spiders, and crustaceans",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "This tiny colorful frog gets its name because South American Indians dip their arrow tips in its poison. A small frog packs enough poison to kill close to 100 people.",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 5cm (2in)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Central America South America",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "colorful-cousins",
+      "title": "Colorful cousins",
+      "image": "assets/arow/AROW01PU.webp",
+      "text": "Even a scientist might not know exactly which species each of these frogs belongs to! Poison arrow frogs and their Madagascan relatives, the mantellas, are polychromatic. This means that frogs of the same kind can have different colors or different patterns.",
+      "narration": "assets/arow/AROW01NP.mp3"
+    },
+    {
+      "id": "babes-in-the-woods",
+      "title": "Babes in the woods",
+      "image": "assets/arow/AROW02PU.webp",
+      "text": "Poison arrow frogs are forest frogs. They don't return to water to reproduce. Instead, they lay their eggs on a leaf or on a patch of ground that they've carefully cleared, and then they guard the eggs until the tadpoles hatch.",
+      "captions": [
+        {
+          "label": "Tadpoles to go",
+          "text": "When the eggs hatch, the tadpoles wiggle onto one of their parents' backs. The adult carefully carries them, sometimes one at a time, to a tiny pool of water that collects in the leaves of plants called bromeliads."
+        },
+        {
+          "label": "Bromeliad babies",
+          "text": "There's not much food in a bromeliad pool. So the mother frog comes to her tadpoles each day and lays infertile eggs for them to eat as they grow."
+        },
+        {
+          "label": "On their own",
+          "text": "After the young frogs lose their tails and gills and emerge from the bromeliad, they've got to catch their own food."
+        }
+      ],
+      "narration": "assets/arow/AROW02NP.mp3"
+    },
+    {
+      "id": "the-most-poisonous",
+      "title": "The most poisonous",
+      "image": "assets/arow/AROW03PU.webp",
+      "text": "An animal doesn't have to be big to be dangerous. Some of the world's most deadly beasts are tiny and look as harmless as flowers!",
+      "captions": [
+        {
+          "label": "Do not disturb",
+          "text": "An Australian blue-ringed octopus is so small that it can hide inside a seashell—yet one bite from a \"blue ring\" can kill a human in under two hours."
+        },
+        {
+          "label": "Phyllobates terribilis",
+          "text": "Don't ever pick up a yellow frog—it could be this one, whose scientific name means \"terrible poison arrow frog.\" The toxin in the skin of just one of these tiny frogs could kill thousands of mice!"
+        }
+      ],
+      "narration": "assets/arow/AROW03NP.mp3"
+    },
+    {
+      "id": "forest-frogs",
+      "title": "Forest frogs",
+      "image": "assets/arow/AROW04PU.webp",
+      "text": "When most people think of frogs, they think of ponds or rivers. But many frogs have moved up in the world—they spend their entire lives in trees.",
+      "captions": [
+        {
+          "label": "Blending in",
+          "text": "These North American tree frogs are colored to look like sun-dappled leaves."
+        },
+        {
+          "label": "Stick on tight",
+          "text": "Frogs that live in ponds have webbed feet for swimming. But tree frogs, like the two juvenile White's tree frogs from Australia (shown at right), have toes with sticky pads on the ends for gripping onto leaves and twigs."
+        }
+      ],
+      "narration": "assets/arow/AROW04NP.mp3"
+    },
+    {
+      "id": "hide-and-seek",
+      "title": "Hide and seek",
+      "image": "assets/arow/AROW05PU.webp",
+      "text": "Tree frogs spend their days hunting for prey while hiding out from predators. By hanging onto a leaf that's big enough to hide under, they get both a shelter and a good lookout.",
+      "captions": [
+        {
+          "label": "Rain forest frog",
+          "text": "This red-eyed tree frog lives in the rain forests of Mexico, Costa Rica, and Panama."
+        }
+      ],
+      "narration": "assets/arow/AROW05NP.mp3"
+    },
+    {
+      "id": "duckbilled-cousins",
+      "title": "Duckbilled cousins",
+      "image": "assets/arow/AROW06PU.webp",
+      "text": "These odd looking tree frogs from Belize have bony eyebrows and protruding upper lips. Maybe their ducklike bills make them look like tree bark or leaves to predators. Like all tree frogs, they have large eyes.",
+      "narration": "assets/arow/AROW06NP.mp3"
+    },
+    {
+      "id": "disappearing-fast",
+      "title": "Disappearing fast",
+      "image": "assets/arow/AROW07PU.webp",
+      "text": "This photograph records a gathering that may never be seen again. Many types of amphibians, like these golden toads, have periodically gathered in large groups at mating time. But in recent years, many of these gatherings haven't taken place, and in some places all toads and frogs have completely disappeared. Scientists worry that this could be a warning sign of an impending environmental disaster.",
+      "narration": "assets/arow/AROW07NP.mp3"
+    },
+    {
+      "id": "eyes-and-ears",
+      "title": "Eyes and ears",
+      "image": "assets/arow/AROW08PU.webp",
+      "text": "Obviously, frogs have eyes—in fact, different frogs have different kinds of eyes. But do they have ears? As a matter of fact, amphibians, the group that includes frogs, were the first animals to have true ears. However, their ears don't stick out like ours do. Except for a circular mark that's sometimes visible behind the eyes, a frog's ears are all on the inside.",
+      "narration": "assets/arow/AROW08NP.mp3"
+    },
+    {
+      "id": "underwater-senses",
+      "title": "Underwater senses",
+      "image": "assets/arow/AROW09PU.webp",
+      "text": "Many animals that live in the water have a special system of sensors called a lateral line, which can detect changes in water pressure. This lets them know when another animal or object is close by. The individual lateral-line sensors, called plaques, are easy to see on this tadpole and on this adult aquatic toad.",
+      "narration": "assets/arow/AROW09NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/arow/AROW00AA.webp",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 1,
+            "y": 1,
+            "w": 9,
+            "h": 12
+          },
+          {
+            "label": "Eyes and ears",
+            "to": "eyes-and-ears",
+            "x": 7.37,
+            "y": 5.94,
+            "w": 19.64,
+            "h": 8.46
+          },
+          {
+            "label": "Colorful cousins",
+            "to": "colorful-cousins",
+            "x": 50.34,
+            "y": 10.49,
+            "w": 5.26,
+            "h": 3.48
+          },
+          {
+            "label": "Underwater senses",
+            "to": "underwater-senses",
+            "x": 50.34,
+            "y": 10.49,
+            "w": 7.61,
+            "h": 8.03
+          },
+          {
+            "label": "Forest frogs",
+            "to": "forest-frogs",
+            "x": 11.43,
+            "y": 21.31,
+            "w": 10.26,
+            "h": 10.63
+          },
+          {
+            "label": "Hide and seek",
+            "to": "hide-and-seek",
+            "x": 3.62,
+            "y": 22.61,
+            "w": 17.92,
+            "h": 11.06
+          },
+          {
+            "label": "Duckbilled cousins",
+            "to": "duckbilled-cousins",
+            "x": 61.59,
+            "y": 52.48,
+            "w": 20.42,
+            "h": 10.63
+          },
+          {
+            "label": "Babes in the woods",
+            "to": "babes-in-the-woods",
+            "x": 61.9,
+            "y": 58.97,
+            "w": 20.11,
+            "h": 10.84
+          },
+          {
+            "label": "Going, going...",
+            "to": "video",
+            "x": 55,
+            "y": 69,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Disappearing fast",
+            "to": "disappearing-fast",
+            "x": 62.99,
+            "y": 75.21,
+            "w": 18.39,
+            "h": 9.33
+          },
+          {
+            "label": "The most poisonous",
+            "to": "the-most-poisonous",
+            "x": 63.31,
+            "y": 76.72,
+            "w": 18.08,
+            "h": 7.81
+          },
+          {
+            "label": "Fighting Back",
+            "x": 89.09,
+            "y": 10.92,
+            "w": 10.26,
+            "h": 4.35,
+            "link": "browse.html?tab=weapons#venom-poison"
+          }
+        ]
+      },
+      "colorful-cousins": {
+        "image": "assets/arow/AROW01PU.webp",
+        "back": "main"
+      },
+      "babes-in-the-woods": {
+        "image": "assets/arow/AROW02PU.webp",
+        "back": "main"
+      },
+      "the-most-poisonous": {
+        "image": "assets/arow/AROW03PU.webp",
+        "back": "main"
+      },
+      "forest-frogs": {
+        "image": "assets/arow/AROW04PU.webp",
+        "back": "main"
+      },
+      "hide-and-seek": {
+        "image": "assets/arow/AROW05PU.webp",
+        "back": "main"
+      },
+      "duckbilled-cousins": {
+        "image": "assets/arow/AROW06PU.webp",
+        "back": "main"
+      },
+      "disappearing-fast": {
+        "image": "assets/arow/AROW07PU.webp",
+        "back": "main"
+      },
+      "eyes-and-ears": {
+        "image": "assets/arow/AROW08PU.webp",
+        "back": "main"
+      },
+      "underwater-senses": {
+        "image": "assets/arow/AROW09PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/arow/AROW00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/arow/clip.mp4",
+        "poster": "assets/arow/AROW10TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "ambient": "assets/arow/narration.mp3",
+  "sound": "assets/arow/AROW00AF.mp3",
+  "factsNarration": "assets/arow/AROW00FB.mp3",
+  "video": {
+    "title": "Going, going...",
+    "src": "assets/arow/clip.mp4",
+    "poster": "assets/arow/poster.webp",
+    "caption": "According to scientists worldwide, frogs are getting harder to find each year. This may be because, like all amphibians, frogs absorb air and fluids through their skin as well as through their mouths, so they're especially vulnerable to pollution and other environmental changes."
+  }
+}

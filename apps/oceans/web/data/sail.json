@@ -1,0 +1,209 @@
+{
+  "id": "sail",
+  "code": "SAIL",
+  "name": "Sailing Ships",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "From a hollowed log to a high-tech yacht — humans have been chasing the wind for thousands of years!",
+  "zones": [
+    "Open ocean",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/sail/SAIL00AA.webp",
+    "alt": "Sailing Ships"
+  },
+  "intro": "The first boat, invented sometime before the beginning of recorded history, was probably a simple basket. Then came a log. Then a log hollowed out, then logs lashed together. At some time man began paddling with his hand or a stick, which led to the development of the oar. While sheltering behind a shield or a piece of hide, he accidentally invented the first sail. Over time, sailing vessels have become bigger, faster, and more complex—from the dhow, to the square-rigger, to the modern racing yacht.",
+  "facts": [
+    {
+      "label": "Speed",
+      "value": "Expert windsurfers have been clocked at over 80 km (50 mi) per hour!"
+    },
+    {
+      "label": "Sails",
+      "value": "Some clippers carried as many as 39 sails and could travel 18 to 20 knots."
+    },
+    {
+      "label": "First race",
+      "value": "The first recorded yacht race took place in 1661 between Charles II and the Duke of York."
+    },
+    {
+      "label": "Ancient ships",
+      "value": "The dhow is an Arabian ship used in the Indian Ocean since about the ninth century."
+    },
+    {
+      "label": "America's Cup",
+      "value": "Yachts that race for the America's Cup are investments that cost millions of dollars!"
+    },
+    {
+      "label": "Did you know",
+      "value": "Early humans accidentally invented the first sail while sheltering behind a shield or a piece of hide."
+    }
+  ],
+  "topics": [
+    {
+      "id": "not-junk",
+      "title": "Not junk",
+      "image": "assets/sail/SAIL01PU.webp",
+      "text": "Two ships from ancient times remain reliable and seaworthy today.",
+      "captions": [
+        {
+          "label": "Tack-ties",
+          "text": "This seagoing junk is very sophisticated. Its sail—called a lugsail—is stiffened by a series of wooden slats, or battens. It can be pulled flat to sail the boat in nearly the same direction as the wind is blowing; this sailing position is called \"close on the wind.\" Junks are common in China."
+        },
+        {
+          "label": "Close-hauled",
+          "text": "The dhow is an Arabian ship used in the Indian Ocean since about the ninth century. With a lateen (triangular) sail rigged fore and aft (bow to stern) and a deep keel, it too can sail close on the wind."
+        }
+      ],
+      "narration": "assets/sail/SAIL01JN.mp3"
+    },
+    {
+      "id": "square-rigged-sails",
+      "title": "Square-rigged sails",
+      "image": "assets/sail/SAIL02PU.webp",
+      "text": "Square-rigged ships are beautiful—and tricky to sail! Many voyages of exploration were made in square-riggers. But they sail best when the wind comes from behind. Most European explorers had it easier going to the New World, with the prevailing winds behind them, than returning home, when they had to sail into them. It's also hard to change course in a square-rigger. If a crew member fell overboard, chances were he was a goner. No one could go back to get him!",
+      "narration": "assets/sail/SAIL02JN.mp3"
+    },
+    {
+      "id": "clippers",
+      "title": "Clippers",
+      "image": "assets/sail/SAIL04PU.webp",
+      "text": "Nineteenth-century clipper ships were big square-sailed vessels that were built for speed.",
+      "captions": [
+        {
+          "label": "Roller derby",
+          "text": "Some clippers carried as many as 39 sails and could travel 18 to 20 knots. In a gale, crew members would clamber to the top of the masts to trim the sails and stay there until the storm ceased! During long trips one captain roller-skated below decks."
+        },
+        {
+          "label": "Wool on the waves",
+          "text": "Clipper ships made many trips around stormy Cape Horn, carrying wool from Australia and tea from China to Europe, and European goods to Asia and Australia."
+        }
+      ],
+      "narration": "assets/sail/SAIL04JN.mp3"
+    },
+    {
+      "id": "racing-yachts",
+      "title": "Racing yachts",
+      "image": "assets/sail/SAIL05PU.webp",
+      "text": "The first recorded yacht race took place in 1661 between Charles II and the Duke of York in boats that resembled barges. Racing yachts today are sleek, high-tech machines constructed from fiberglass, resin, carbon fiber, and titanium. Proper design is essential for speed, light weight, and quick handling. Yachts that race for the America's Cup are investments that cost millions of dollars! Many of today's pleasure boats are made of wood, but building a serious racing yacht requires space-age materials.",
+      "narration": "assets/sail/SAIL05JN.mp3"
+    },
+    {
+      "id": "windsurfing",
+      "title": "Windsurfing",
+      "image": "assets/sail/SAIL06PU.webp",
+      "text": "The windsurfing craft is the most recent version of the ancient raft, but it's in a league of its own! Windsurfers often go out on blustery days when other sailors stay home. It takes a lot of muscle to hold on to that sail when the wind hits it. It's fun, but you'd better be a strong swimmer and know a lot about boating safety before you try it. Expert windsurfers have been clocked at over 80 km (50 mi) per hour!",
+      "narration": "assets/sail/SAIL06JN.mp3"
+    }
+  ],
+  "crosslinks": [],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/sail/SAIL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 2,
+            "w": 9,
+            "h": 7
+          },
+          {
+            "label": "Not junk",
+            "to": "not-junk",
+            "x": 37,
+            "y": 41,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Windsurfing",
+            "to": "windsurfing",
+            "x": 59,
+            "y": 22,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Clippers",
+            "to": "clippers",
+            "x": 74,
+            "y": 53,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "Racing yachts",
+            "to": "racing-yachts",
+            "x": 72,
+            "y": 64,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Square-rigged sails",
+            "to": "square-rigged-sails",
+            "x": 3,
+            "y": 81,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "All hands on deck",
+            "to": "video",
+            "x": 3,
+            "y": 88,
+            "w": 23,
+            "h": 5
+          }
+        ]
+      },
+      "not-junk": {
+        "image": "assets/sail/SAIL01PU.webp",
+        "back": "main"
+      },
+      "square-rigged-sails": {
+        "image": "assets/sail/SAIL02PU.webp",
+        "back": "main"
+      },
+      "clippers": {
+        "image": "assets/sail/SAIL04PU.webp",
+        "back": "main"
+      },
+      "racing-yachts": {
+        "image": "assets/sail/SAIL05PU.webp",
+        "back": "main"
+      },
+      "windsurfing": {
+        "image": "assets/sail/SAIL06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/sail/clip.mp4",
+        "poster": "assets/sail/SAIL03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/sail/SAIL00JN.mp3",
+  "sound": "assets/sail/SAIL00IX.mp3",
+  "video": {
+    "title": "All hands on deck",
+    "src": "assets/sail/clip.mp4",
+    "poster": "assets/sail/poster.webp",
+    "caption": "Today there are training ships in many countries that look and sail like square-riggers. The trainees on these ships must have muscle power and can't be afraid of heights. It takes a lot of people and a lot of work to handle all those sails!",
+    "narration": "assets/sail/SAIL03JN.mp3"
+  }
+}

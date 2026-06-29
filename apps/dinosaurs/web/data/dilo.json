@@ -1,0 +1,108 @@
+{
+  "id": "dilo",
+  "code": "DILO",
+  "name": "Dilophosaurus",
+  "category": "dinosaur",
+  "scientificName": "Dilophosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "dye-LOF-oh-SOR-us",
+  "meaning": "Two-ridged lizard",
+  "period": "Early Jurassic",
+  "diet": "Carnivore",
+  "tagline": "One of Earth's first giant predators, this two-crested hunter prowled the land 200 million years ago.",
+  "hero": {
+    "image": "assets/dilo/DILO00AA.webp",
+    "alt": "Dilophosaurus"
+  },
+  "intro": "One of the first large meat-eaters, Dilophosaurus appeared about 200 million years ago.  Twenty feet long with strong legs and a long tail, Dilophosaurus had more delicate jaws than most of its other theropod relatives, which suggests that this dinosaur may have been a scavenger rather than a predator.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Early Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Two-ridged lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Theropod"
+    },
+    {
+      "label": "Length",
+      "value": "6m(20ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "1/2 ton"
+    }
+  ],
+  "topics": [
+    {
+      "id": "family-of-flesh-eaters",
+      "title": "Family of Flesh-Eaters",
+      "image": "assets/dilo/DILO01PU.webp",
+      "text": "Here Dilophosaurus is shown with two of its theropod relatives.  Smaller meat-eaters like Deinonychus may have hunted in packs.",
+      "captions": [
+        {
+          "label": "Allosaurus",
+          "text": "This common predator, which appeared 40 million years after Dilophosaurus, rarely went hungry. Fossil remains of Allosaurus have been found with the skeletons of Stegosaurus, Camptosaurus, and the gigantic Camarasaurus, suggesting that Allosaurus may have preyed on or scavenged very large dinosaurs."
+        },
+        {
+          "label": "Deinonychus",
+          "text": "This was one of the deadliest dinosaurs, with all the features of an efficient hunter. Deinonychus used its powerful jaws lined with jagged teeth and the curved claws on both feet to inflict mortal wounds on its prey."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Meat-eaters",
+      "to": "meat"
+    },
+    {
+      "label": "Deinonychus",
+      "to": "dein"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/dilo/DILO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Family of flesh-eaters",
+            "to": "family-of-flesh-eaters",
+            "x": 13,
+            "y": 67,
+            "w": 25,
+            "h": 5
+          }
+        ]
+      },
+      "family-of-flesh-eaters": {
+        "image": "assets/dilo/DILO01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/dilo/DILO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/dilo/DILO00AP.mp3",
+  "narration": "assets/dilo/DILO00AJ.mp3"
+}

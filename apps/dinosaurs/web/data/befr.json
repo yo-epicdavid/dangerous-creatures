@@ -1,0 +1,140 @@
+{
+  "id": "befr",
+  "code": "BEFR",
+  "name": "Life Before Dinosaurs",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Long before dinosaurs ruled the Earth, a wild parade of ancient creatures filled the seas, crept onto land, and set the stage for everything that followed.",
+  "hero": {
+    "image": "assets/befr/BEFR00AA.webp",
+    "alt": "Life Before Dinosaurs"
+  },
+  "intro": "Before dinosaurs came onto the scene, a wide variety of animal life inhabited the Earth.  Fish and shellfish lived in ancient oceans and swamps, giant insects buzzed through the steamy air or crawled underfoot, and amphibians and primitive reptiles wandered through the lush vegetation that dominated the Paleozoic era.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "early-life-in-the-seas",
+      "title": "Early Life in the Seas",
+      "image": "assets/befr/BEFR01PU.webp",
+      "text": "Between 570 million years ago and 430 million years ago, the ocean floor was crawling with shellfish, shrimp, sea worms, and giant sea scorpions.  Corals built their reefs in the sunlit shallows.  Jellyfish pulsed through the warm water, and crinoids and sponges waved their arms, feeding on small creatures passing in the underwater currents."
+    },
+    {
+      "id": "the-age-of-fishes",
+      "title": "The Age of Fishes",
+      "image": "assets/befr/BEFR02PU.webp",
+      "text": "The first fish began to appear more than 430 million years ago.  By 345 million years ago, many species had spread throughout the seas.\n\nSharks\nThe remains of prehistoric sharks such as Cladoselache tell us that sharks have changed little since they first appeared on Earth.\n\nDunkleosteus\nA marine hunter nearly twelve feet long, Dunkleosteus was one of the first fish to have jaws and pairs of fins.",
+      "captions": [
+        {
+          "label": "Coelacanth",
+          "text": "One of the oldest surviving species, this fish has inhabited our oceans since before dinosaurs appeared on Earth."
+        }
+      ]
+    },
+    {
+      "id": "new-life-on-land",
+      "title": "New Life on Land",
+      "image": "assets/befr/BEFR03PU.webp",
+      "text": "For millions of years, Earth's landscape was rocky and barren, because at first an atmosphere did not exist to support air-breathing animals and to protect them from the sun's radiation.  Later, after the blue-green algae in the oceans produced oxygen and radiation-filtering gases, plants and primitive animals began to invade the land.\n\nCooksonia\nThe earliest plant we know of was Cooksonia, which was only two inches tall, and had ball-shaped spore sacs, but no leaves or roots.  Clubmosses, horsetails, ferns, and seed-ferns gradually evolved.\n\nEarly insect giants\nMillipedes, like the one pictured here, and scorpions were some of the first carnivores on land.  Some species grew to more than six feet long!\n\nCockroaches\nOne of the most successful animals ever to come along, cockroaches have been crawling over the Earth since prehistoric times."
+    },
+    {
+      "id": "amphibian-beginnings",
+      "title": "Amphibian Beginnings",
+      "image": "assets/befr/BEFR04PU.webp",
+      "text": "At the same time as the land was being colonized by plants and insects, some marine animals switched from fins to feet and crawled out of the water onto dry land.\n\nIchthyostega\nThis is the oldest known four-legged animal.  Ichthyostega still had fish-like scales and a fishy tail.\n\nSeymouria\nThe holes behind each eye in the skull of this amphibian show that ears and hearing evolved very early in land animals.\n\nEryops\nThis amphibian had stronger legs and a heavier skeleton than other primitive types.\n\nDiadectes\nWith teeth designed for cutting and crushing, Diadectes was one of the first plant-eating animals."
+    },
+    {
+      "id": "reptile-rulers",
+      "title": "Reptile Rulers",
+      "image": "assets/befr/BEFR05PU.webp",
+      "text": "Dinosaurs are the most famous prehistoric reptiles, but not the only ones.  A wide variety of archosaurs quickly developed soon after amphibians appeared.\n\nDimetrodon\nThis early reptile probably used its large sail to control its body temperature.\n\nMoschops\nAt nearly seventeen feet long, this therapsid was one of the largest that preceded the dinosaurs.\n\nHylonomus\nThis active predator looked like a lizard, but in fact belonged to a different group of reptiles."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Triassic Period",
+      "to": "tria"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/befr/BEFR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Early life in the seas",
+            "to": "early-life-in-the-seas",
+            "x": 5,
+            "y": 75,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "The Age of Fishes",
+            "to": "the-age-of-fishes",
+            "x": 23,
+            "y": 35,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "New life on land",
+            "to": "new-life-on-land",
+            "x": 40,
+            "y": 62,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Amphibian beginnings",
+            "to": "amphibian-beginnings",
+            "x": 57,
+            "y": 73,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Reptile rulers",
+            "to": "reptile-rulers",
+            "x": 68,
+            "y": 28,
+            "w": 16,
+            "h": 5
+          }
+        ]
+      },
+      "early-life-in-the-seas": {
+        "image": "assets/befr/BEFR01PU.webp",
+        "back": "main"
+      },
+      "the-age-of-fishes": {
+        "image": "assets/befr/BEFR02PU.webp",
+        "back": "main"
+      },
+      "new-life-on-land": {
+        "image": "assets/befr/BEFR03PU.webp",
+        "back": "main"
+      },
+      "amphibian-beginnings": {
+        "image": "assets/befr/BEFR04PU.webp",
+        "back": "main"
+      },
+      "reptile-rulers": {
+        "image": "assets/befr/BEFR05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/befr/BEFR00AP.mp3",
+  "narration": "assets/befr/BEFR00AJ.mp3",
+  "sound": "assets/befr/BEFR00SA.mp3"
+}

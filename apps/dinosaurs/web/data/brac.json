@@ -1,0 +1,251 @@
+{
+  "id": "brac",
+  "code": "BRAC",
+  "name": "Brachiosaurus",
+  "category": "dinosaur",
+  "scientificName": "Brachiosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "BRACK-ee-oh-SOR-us",
+  "meaning": "Arm lizard",
+  "period": "Late Jurassic",
+  "diet": "Herbivore",
+  "tagline": "The four-story giant whose neck reached treetops no other dinosaur could touch.",
+  "hero": {
+    "image": "assets/brac/BRAC00AA.webp",
+    "alt": "Brachiosaurus"
+  },
+  "intro": "Brachiosaurus was truly a giant among sauropods, standing as tall as a four-story building and weighing in at well over fifty tons. Given its size, Brachiosaurus must have been safe from even the hungriest of meat-eaters. With tall front legs and a long neck, Brachiosaurus was built to browse on the highest leaves of trees, much like a giraffe. An average human standing next to Brachiosaurus would hardly reach its knee.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Africa, N. America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Arm lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Sauropod"
+    },
+    {
+      "label": "Height",
+      "value": "23m (75ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "89 tons"
+    }
+  ],
+  "topics": [
+    {
+      "id": "the-sauropods",
+      "title": "The Sauropods",
+      "image": "assets/brac/BRAC01PU.webp",
+      "text": "The biggest creatures ever to walk the Earth were the sauropods, all of which were plant-eaters. They had relatively short, heavy, barrel shaped bodies,long necks, small heads, and they walked on all four legs.",
+      "captions": [
+        {
+          "label": "A group of giants",
+          "text": "For many years, Brachiosaurus was the heaviest dinosaur known to paleontologists. Now, excavators have unearthed the bones of three other giants nicknamed Supersaurus, Ultrasaurus, and Seismosaurus. More complete skeletons are needed for assembly and classification, but the size of the bones found so far indicate that these dinosaurs may have been even larger than Brachiosaurus. Although all the sauropods were slow and small-brained, predators would not be inclined to attack such enormous creatures."
+        },
+        {
+          "label": "Leaf-eating machines",
+          "text": "Their long necks allowed sauropods to pluck leaves from high branches that other dinosaurs couldn't reach. Their teeth were not made for chewing; most scientists believe they digested the bushels of food they ate each day by swallowing rocks to help grind up the food in their stomachs."
+        }
+      ]
+    },
+    {
+      "id": "connected-continents",
+      "title": "Connected Continents",
+      "image": "assets/brac/BRAC02PU.webp",
+      "text": "Among the Late Jurassic dinosaur finds of the western USA, the giant sauropods Barosaurus and Brachiosaurus are well known. These dinosaurs have also been found on the other side of the world, in Tanzania, Africa. Since dinosaurs could not have crossed the oceans, they must have followed a land route before the continents separated.",
+      "captions": [
+        {
+          "label": "Tanzania dig",
+          "text": "This photo shows members of the crew hauling dinosaur bones out from the dig site. Although bones like these may take hours or even days to remove from the surrounding rock, that is only the beginning. Reconstructing a dinosaur may take years."
+        }
+      ]
+    },
+    {
+      "id": "giant-dinosaur-excavation",
+      "title": "Giant Dinosaur Excavation",
+      "image": "assets/brac/BRAC03PU.webp",
+      "text": "One of the biggest dinosaur excavations took place at Tendaguru in Tanzania between 1909 and 1912, when more than 224 tons of dinosaur bones were collected under the supervision of German scientists. The dinosaurs discovered included the giant sauropods Brachiosaurus, Barosaurus, and the stegosaur Kentrosaurus. A single dinosaur shoulder blade could take up to 160 hours to excavate. The workers had to make more than 5,000 trips to the nearest port; from there the bones were shipped to Germany."
+    },
+    {
+      "id": "giraffe-like-skeleton",
+      "title": "Giraffe-Like Skeleton",
+      "image": "assets/brac/BRAC04PU.webp",
+      "text": "Brachiosaurus's front legs were longer than its back legs, and the whole body sloped down from the shoulders, much like the modern giraffe. The long neck, which made up more than half its height, operated much like a mechanical crane."
+    },
+    {
+      "id": "a-sea-monster",
+      "title": "A Sea Monster?",
+      "image": "assets/brac/BRAC05PU.webp",
+      "text": "Scientists once thought that Brachiosaurus was too large and heavy to have lived on land. Because its nostrils were high on its head and it had a long neck, they believed it spent its days under water, holding its head at the water's surface. However, with tall front legs and an appetite for lots of leaves, Brachiosaurus was a land-loving browser.",
+      "captions": [
+        {
+          "label": "Stretch for air",
+          "text": "Although scientists' original hypothesis of an aquatic habitat was wrong in the case of Brachiosaurus, giant sea creatures did exist in dinosaur times. For example, the prehistoric marine reptile, Elasmosaurus, lived in the water, reaching up for air with its long neck."
+        }
+      ]
+    },
+    {
+      "id": "heaviest-dinosaur",
+      "title": "Heaviest Dinosaur",
+      "image": "assets/brac/BRAC06PU.webp",
+      "text": "Brachiosaurus was the heaviest dinosaur scientists have recorded so far. This creature weighed more than fourteen elephants! Imagine how deep its footprints would have been. Apatosaurus was a smaller sauropod than Brachiosaurus, but scientists have found that its footprints were deep enough to hold as much water as a bathtub."
+    },
+    {
+      "id": "biggest-ever",
+      "title": "Biggest Ever?",
+      "image": "assets/brac/BRAC07PU.webp",
+      "text": "Although Brachiosaurus was the largest animal ever to walk on land, the largest animal ever to live on Earth is still around today. The blue whale measures up to 100 feet in length and weighs more than twenty elephants, or 225 tons."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Record Breakers",
+      "to": "recb"
+    },
+    {
+      "label": "Mamenchisaurus",
+      "to": "mame"
+    },
+    {
+      "label": "The Shifting Earth",
+      "to": "shft"
+    },
+    {
+      "label": "Tendaguru Expedition"
+    },
+    {
+      "label": "Rhoetosaurus",
+      "to": "rhoe"
+    },
+    {
+      "label": "Elasmosaurus",
+      "to": "elas"
+    },
+    {
+      "label": "Apatosaurus",
+      "to": "apat"
+    },
+    {
+      "label": "Life After Dinosaurs",
+      "to": "aftr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/brac/BRAC00AA.webp",
+        "hotspots": [
+          {
+            "label": "Giraffe-like skeleton",
+            "to": "giraffe-like-skeleton",
+            "x": 61,
+            "y": 18,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "The sauropods",
+            "to": "the-sauropods",
+            "x": 62,
+            "y": 29,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Biggest ever?",
+            "to": "biggest-ever",
+            "x": 59,
+            "y": 41,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Giant dinosaur excavation",
+            "to": "giant-dinosaur-excavation",
+            "x": 56,
+            "y": 52,
+            "w": 36,
+            "h": 5
+          },
+          {
+            "label": "Connected continents",
+            "to": "connected-continents",
+            "x": 59,
+            "y": 63,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Heaviest dinosaur",
+            "to": "heaviest-dinosaur",
+            "x": 1,
+            "y": 81,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "A sea monster?",
+            "to": "a-sea-monster",
+            "x": 26,
+            "y": 81,
+            "w": 21,
+            "h": 6
+          }
+        ]
+      },
+      "the-sauropods": {
+        "image": "assets/brac/BRAC01PU.webp",
+        "back": "main"
+      },
+      "connected-continents": {
+        "image": "assets/brac/BRAC02PU.webp",
+        "back": "main"
+      },
+      "giant-dinosaur-excavation": {
+        "image": "assets/brac/BRAC03PU.webp",
+        "back": "main"
+      },
+      "giraffe-like-skeleton": {
+        "image": "assets/brac/BRAC04PU.webp",
+        "back": "main"
+      },
+      "a-sea-monster": {
+        "image": "assets/brac/BRAC05PU.webp",
+        "back": "main"
+      },
+      "heaviest-dinosaur": {
+        "image": "assets/brac/BRAC06PU.webp",
+        "back": "main"
+      },
+      "biggest-ever": {
+        "image": "assets/brac/BRAC07PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/brac/BRAC50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/brac/BRAC00AP.mp3",
+  "narration": "assets/brac/BRAC00AJ.mp3"
+}

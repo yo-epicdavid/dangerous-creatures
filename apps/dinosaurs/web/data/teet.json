@@ -1,0 +1,140 @@
+{
+  "id": "teet",
+  "code": "TEET",
+  "name": "Teeth",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Serrated slicers and diamond grinders—dinosaur teeth were perfectly built for the job.",
+  "hero": {
+    "image": "assets/teet/TEET00AA.webp",
+    "alt": "Teeth"
+  },
+  "intro": "Fossilized dinosaur remains can tell us much about what dinosaurs ate when they were alive. Flesh-eating dinosaurs like Albertosaurus or Megalosaurus had huge, sharply pointed teeth that curved backward to give them a better grip on their victims. A close look at the teeth of meat-eaters shows that the edges are serrated like steak knives. These serrations helped to slice deeply into the flesh of the predator's victims. On the other hand, plant-eating dinosaurs had many different types of teeth. Some, like Diplodocus, had thin, blunt, pencil-like teeth which would be used simply to rake in leaves and conifer needles. Camarasaurus had jaws lined with sharp, snipping teeth which it used to shear off leaves and stems.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "famous-tooth",
+      "title": "Famous Tooth",
+      "image": "assets/teet/TEET01PU.webp",
+      "text": "One of the first discoverers of dinosaur fossils was English doctor Gideon Mantell. It is said that in 1820, Mantell's wife, Mary Ann, brought Dr. Mantell some large fossilized teeth. Workers from a nearby quarry found more bones which spurred Dr. Mantell to research the find. Because the fossilized tooth was so similar to the tooth of the modern iguana, Dr. Mantell concluded that the fossils belonged to some giant, ancient reptile. He dubbed it Iguanodon, which means \"iguana tooth.\"",
+      "captions": [
+        {
+          "label": "Iguanodon teeth discovered by Gideon Mantell",
+          "text": "Iguanodon teeth discovered by Gideon Mantell"
+        }
+      ]
+    },
+    {
+      "id": "killers",
+      "title": "Killers",
+      "image": "assets/teet/TEET02PU.webp",
+      "text": "The sharp, pointed teeth of Tyrannosaurus rex are a clear indication it was a meat-eater. Its fierce, knife-like teeth measured up to seven inches long! The bite of Tyrannosaurus rex could tear huge chunks of meat from its kill. This ancient carnivore was one of the largest meat-eating animals ever to live on land.",
+      "captions": [
+        {
+          "label": "Tyrannosaurus rex skull",
+          "text": "Tyrannosaurus rex skull"
+        },
+        {
+          "label": "Meat cutter",
+          "text": "This large, curved Megalosaurus tooth shows the serrated edges that acted like a saw when it sliced into the flesh of its prey. The teeth always pointed backward to help prevent the victim's escape. The cracks in this tooth occurred during fossilization."
+        }
+      ]
+    },
+    {
+      "id": "gnashers",
+      "title": "Gnashers",
+      "image": "assets/teet/TEET03PU.webp",
+      "text": "Plant-eating dinosaurs coped with their diets in a variety of ways. Duckbilled dinosaurs had a spectacular array of teeth—hundreds of sharp, diamond-shaped teeth lined both sides of the upper and lower jaws. These batteries of teeth acted like a wood rasp grinding plant matter. Other plant-eaters had spoon-shaped teeth that were good for nipping off plants. Larger, four-footed plant-eaters could not chop their food. They raked it in with peg-like teeth. Their food was crushed and processed as it passed through their gizzards.",
+      "captions": [
+        {
+          "label": "Sauropod spoon-like tooth",
+          "text": "Sauropod spoon-like tooth"
+        },
+        {
+          "label": "Sauropod peg-like tooth",
+          "text": "Sauropod peg-like tooth"
+        },
+        {
+          "label": "Duckbilled dinosaur teeth",
+          "text": "Duckbilled dinosaur teeth"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaur Diets",
+      "to": "diet"
+    },
+    {
+      "label": "Bernissart Dinosaur Mine",
+      "to": "mine"
+    },
+    {
+      "label": "Teeth of Meat-eaters",
+      "to": "mete"
+    },
+    {
+      "label": "Teeth of Plant-eaters",
+      "to": "ptee"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/teet/TEET00AA.webp",
+        "hotspots": [
+          {
+            "label": "Famous tooth",
+            "to": "famous-tooth",
+            "x": 2,
+            "y": 74,
+            "w": 22,
+            "h": 10
+          },
+          {
+            "label": "Killers",
+            "to": "killers",
+            "x": 28,
+            "y": 62,
+            "w": 17,
+            "h": 9
+          },
+          {
+            "label": "Gnashers",
+            "to": "gnashers",
+            "x": 65,
+            "y": 38,
+            "w": 22,
+            "h": 9
+          }
+        ]
+      },
+      "famous-tooth": {
+        "image": "assets/teet/TEET01PU.webp",
+        "back": "main"
+      },
+      "killers": {
+        "image": "assets/teet/TEET02PU.webp",
+        "back": "main"
+      },
+      "gnashers": {
+        "image": "assets/teet/TEET03PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/teet/TEET00AP.mp3",
+  "narration": "assets/teet/TEET00AJ.mp3",
+  "sound": "assets/teet/TEET00SA.mp3"
+}

@@ -1,0 +1,221 @@
+{
+  "id": "tigr",
+  "code": "TIGR",
+  "name": "Tiger",
+  "scientificName": "Panthera tigris",
+  "needsScientificVerify": false,
+  "tagline": "The world's largest cat strikes from the shadows with deadly precision.",
+  "weapons": [
+    "Teeth & Jaws",
+    "Claws & Talons"
+  ],
+  "habitats": [
+    "Rainforest & Jungle",
+    "Forest & Woodland"
+  ],
+  "regions": [
+    "Asia"
+  ],
+  "hero": {
+    "image": "assets/tigr/TIGR00AA.webp",
+    "alt": "Tiger"
+  },
+  "intro": "A restless spirit that could appear in many forms—that's how many ancient cultures saw the tiger. Sadly, these beautiful spirits have been nearly eradicated from the face of the earth. These cats have been killed for sport, out of fear, or for profit. In some Asian countries, powdered tiger bone is still valued as a potent medicine.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by surprise attack, biting and clawing prey",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Deer, buffalo, goats, boars, antelope, and hares",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "After eating its fill, a tiger will cover the remains of a carcass with dirt and leaves to hide it from other meat-eaters. The tiger will return to its meal later.",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 3.9m (13ft)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "India, Thailand, Indonesia, China, Siberia",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "stripes-and-shadows",
+      "title": "Stripes and shadows",
+      "image": "assets/tigr/TIGR01PU.webp",
+      "text": "Unlike savanna cats such as lions and cheetahs, a tiger never hunts in open country, but instead sneaks up on its prey under the cover of tall grass or brush. Its vertically striped coat is perfect for breaking up the cat's shape to blend in with stalks, grasses, and forest shadows. Imagine the shock of suddenly seeing this pair of yellow eyes fixed on you!",
+      "narration": "assets/tigr/TIGR01NP.mp3"
+    },
+    {
+      "id": "water-lovers",
+      "title": "Water lovers",
+      "image": "assets/tigr/TIGR02PU.webp",
+      "text": "If you're in tiger country and want to see one of the big cats, head for the nearest water. Tigers often wait for prey near a water hole. If they make a big kill they can't eat all at once, they hide the remains close to the water so they can come back later for more food and drink. In hot weather, a tiger will often lie in a stream to cool off.",
+      "narration": "assets/tigr/TIGR02NP.mp3"
+    },
+    {
+      "id": "mother-and-mentor",
+      "title": "Mother and mentor",
+      "image": "assets/tigr/TIGR03PU.webp",
+      "text": "A tiger family consists of mom and the cubs–the father doesn't stick around after mating with the female. The cubs stay with their mother for about two years, learning to be skillful hunters. Then they leave to establish their own territories, and mom looks for a suitable father to sire her next litter.",
+      "narration": "assets/tigr/TIGR03NP.mp3"
+    },
+    {
+      "id": "fierce-loners",
+      "title": "Fierce loners",
+      "image": "assets/tigr/TIGR04PU.webp",
+      "text": "Tigers live and hunt alone, except when a male and female briefly come together to mate, or when a female is raising her cubs. Each adult tiger controls a large territory—some males range over hundreds of square kilometers! Neighboring tigers often know each other and sometimes even share kills. But bloody fights can occur if a strange tiger suddenly shows up or if one tiger steals food from another.",
+      "narration": "assets/tigr/TIGR04NP.mp3"
+    },
+    {
+      "id": "power-hunter",
+      "title": "Power hunter",
+      "image": "assets/tigr/TIGR05PU.webp",
+      "text": "The tiger is the biggest and most muscular of all cats. After stalking its prey, it leaps onto its victim's back. Sometimes the attack breaks the animal's neck. At other times the tiger kills with a bite to the back of the neck or with a stranglehold on the throat.",
+      "captions": [
+        {
+          "label": "Long-distance leaps",
+          "text": "Some reports say a tiger can cover 10 meters (32.8 ft) in a single bound! That means that if you were standing on one side of an average street and a tiger was on the other side, the tiger could be on your side (or on your back) with one giant leap!"
+        }
+      ],
+      "narration": "assets/tigr/TIGR05NP.mp3"
+    },
+    {
+      "id": "born-blind-and-toothless",
+      "title": "Born blind and toothless",
+      "image": "assets/tigr/TIGR06PU.webp",
+      "text": "Just like kittens, tiger cubs are born blind and without teeth. They're tiny and helpless when they're little–but they don't stay that way for long! Cubs, also like domestic kittens, learn to hunt and fight through playing. At 11 months, they begin to accompany their mother on hunts. By the time they're two years old, they're skillful hunters and go on their own.",
+      "narration": "assets/tigr/TIGR06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/tigr/TIGR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 1.75,
+            "y": 2.06,
+            "w": 9.96,
+            "h": 9.79
+          },
+          {
+            "label": "Stripes and shadows",
+            "to": "stripes-and-shadows",
+            "x": 36.96,
+            "y": 5.32,
+            "w": 31.09,
+            "h": 8.92
+          },
+          {
+            "label": "Water lovers",
+            "to": "water-lovers",
+            "x": 36.96,
+            "y": 10.1,
+            "w": 6.21,
+            "h": 4.14
+          },
+          {
+            "label": "Fierce loners",
+            "to": "fierce-loners",
+            "x": 57,
+            "y": 7,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Born blind and toothless",
+            "to": "born-blind-and-toothless",
+            "x": 51,
+            "y": 16,
+            "w": 33,
+            "h": 6
+          },
+          {
+            "label": "Mother and mentor",
+            "to": "mother-and-mentor",
+            "x": 55,
+            "y": 24,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Tiger territory",
+            "to": "video",
+            "x": 56,
+            "y": 31,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Power hunter",
+            "to": "power-hunter",
+            "x": 63,
+            "y": 40,
+            "w": 18,
+            "h": 6
+          }
+        ]
+      },
+      "stripes-and-shadows": {
+        "image": "assets/tigr/TIGR01PU.webp",
+        "back": "main"
+      },
+      "water-lovers": {
+        "image": "assets/tigr/TIGR02PU.webp",
+        "back": "main"
+      },
+      "mother-and-mentor": {
+        "image": "assets/tigr/TIGR03PU.webp",
+        "back": "main"
+      },
+      "fierce-loners": {
+        "image": "assets/tigr/TIGR04PU.webp",
+        "back": "main"
+      },
+      "power-hunter": {
+        "image": "assets/tigr/TIGR05PU.webp",
+        "back": "main"
+      },
+      "born-blind-and-toothless": {
+        "image": "assets/tigr/TIGR06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/tigr/TIGR00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/tigr/clip.mp4",
+        "poster": "assets/tigr/TIGR07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "ambient": "assets/tigr/narration.mp3",
+  "sound": "assets/tigr/TIGR00AF.mp3",
+  "factsNarration": "assets/tigr/TIGR00FB.mp3",
+  "video": {
+    "title": "Tiger territory",
+    "src": "assets/tigr/clip.mp4",
+    "poster": "assets/tigr/poster.webp",
+    "caption": "Tigers once roamed over much of Asia, but now there aren't many remaining in the wild. Once many people needed to be protected from tigers, now tigers need protection from people. When we set aside areas for tiger territory, we're also saving many other species that share the habitat of these big cats."
+  }
+}

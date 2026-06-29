@@ -1,0 +1,560 @@
+[
+  {
+    "id": "anem",
+    "name": "Anemones",
+    "category": "creature",
+    "thumb": "assets/anem/ANEM00AA.webp"
+  },
+  {
+    "id": "angl",
+    "name": "Angler Fish",
+    "category": "creature",
+    "thumb": "assets/angl/ANGL00AA.webp"
+  },
+  {
+    "id": "anta",
+    "name": "Antarctic Ocean",
+    "category": "place",
+    "thumb": "assets/anta/ANTA00AA.webp"
+  },
+  {
+    "id": "arct",
+    "name": "Arctic Ocean",
+    "category": "place",
+    "thumb": "assets/arct/ARCT00AA.webp"
+  },
+  {
+    "id": "arts",
+    "name": "Arts and Literature of the Sea",
+    "category": "human",
+    "thumb": "assets/arts/ARTS00AA.webp"
+  },
+  {
+    "id": "atla",
+    "name": "Atlantic Ocean",
+    "category": "place",
+    "thumb": "assets/atla/ATLA00AA.webp"
+  },
+  {
+    "id": "whlb",
+    "name": "Baleen Whales",
+    "category": "creature",
+    "thumb": "assets/whlb/WHLB00AA.webp"
+  },
+  {
+    "id": "barn",
+    "name": "Barnacles",
+    "category": "creature",
+    "thumb": "assets/barn/BARN00AA.webp"
+  },
+  {
+    "id": "lake",
+    "name": "Birds of Lakes and Coasts",
+    "category": "creature",
+    "thumb": "assets/lake/LAKE00AA.webp"
+  },
+  {
+    "id": "boxy",
+    "name": "Boxfish",
+    "category": "creature",
+    "thumb": "assets/boxy/BOXY00AA.webp"
+  },
+  {
+    "id": "chin",
+    "name": "Chinese Explorers",
+    "category": "human",
+    "thumb": "assets/chin/CHIN00AA.webp"
+  },
+  {
+    "id": "clam",
+    "name": "Clams, Oysters, and Scallops",
+    "category": "creature",
+    "thumb": "assets/clam/CLAM00AA.webp"
+  },
+  {
+    "id": "colr",
+    "name": "Colors",
+    "category": "concept",
+    "thumb": "assets/colr/COLR00AA.webp"
+  },
+  {
+    "id": "reef",
+    "name": "Coral Reefs",
+    "category": "habitat",
+    "thumb": "assets/reef/REEF00AA.webp"
+  },
+  {
+    "id": "cora",
+    "name": "Corals",
+    "category": "creature",
+    "thumb": "assets/cora/CORA00AA.webp"
+  },
+  {
+    "id": "crab",
+    "name": "Crabs",
+    "category": "creature",
+    "thumb": "assets/crab/CRAB00AA.webp"
+  },
+  {
+    "id": "curr",
+    "name": "Currents",
+    "category": "concept",
+    "thumb": "assets/curr/CURR00AA.webp"
+  },
+  {
+    "id": "disa",
+    "name": "Disasters at Sea",
+    "category": "concept",
+    "thumb": "assets/disa/DISA00AA.webp"
+  },
+  {
+    "id": "divi",
+    "name": "Diving",
+    "category": "human",
+    "thumb": "assets/divi/DIVI00AA.webp"
+  },
+  {
+    "id": "dolp",
+    "name": "Dolphins and Porpoises",
+    "category": "creature",
+    "thumb": "assets/dolp/DOLP00AA.webp"
+  },
+  {
+    "id": "east",
+    "name": "Eastern Mediterranean Explorers",
+    "category": "human",
+    "thumb": "assets/east/EAST00AA.webp"
+  },
+  {
+    "id": "eels",
+    "name": "Eels",
+    "category": "creature",
+    "thumb": "assets/eels/EELS00AA.webp"
+  },
+  {
+    "id": "fant",
+    "name": "Fantastic Voyages",
+    "category": "human",
+    "thumb": "assets/fant/FANT00AA.webp"
+  },
+  {
+    "id": "fanw",
+    "name": "Fanworms and Bristleworms",
+    "category": "creature",
+    "thumb": "assets/fanw/FANW00AA.webp"
+  },
+  {
+    "id": "fasc",
+    "name": "Fascinating Sharks",
+    "category": "creature",
+    "thumb": "assets/fasc/FASC00AA.webp"
+  },
+  {
+    "id": "fear",
+    "name": "Fearsome Faces",
+    "category": "concept",
+    "thumb": "assets/fear/FEAR00AA.webp"
+  },
+  {
+    "id": "fish",
+    "name": "Fishing and Whaling",
+    "category": "human",
+    "thumb": "assets/fish/FISH00AA.webp"
+  },
+  {
+    "id": "flat",
+    "name": "Flatworms",
+    "category": "creature",
+    "thumb": "assets/flat/FLAT00AA.webp"
+  },
+  {
+    "id": "bird",
+    "name": "Flying Sea Birds",
+    "category": "creature",
+    "thumb": "assets/bird/BIRD00AA.webp"
+  },
+  {
+    "id": "hurr",
+    "name": "Hurricanes",
+    "category": "concept",
+    "thumb": "assets/hurr/HURR00AA.webp"
+  },
+  {
+    "id": "indn",
+    "name": "Indian Ocean",
+    "category": "place",
+    "thumb": "assets/indn/INDN00AA.webp"
+  },
+  {
+    "id": "infl",
+    "name": "Inflatable Fish",
+    "category": "creature",
+    "thumb": "assets/infl/INFL00AA.webp"
+  },
+  {
+    "id": "isla",
+    "name": "Islands",
+    "category": "habitat",
+    "thumb": "assets/isla/ISLA00AA.webp"
+  },
+  {
+    "id": "jell",
+    "name": "Jellyfish and Men-of-War",
+    "category": "creature",
+    "thumb": "assets/jell/JELL00AA.webp"
+  },
+  {
+    "id": "lobs",
+    "name": "Lobsters",
+    "category": "creature",
+    "thumb": "assets/lobs/LOBS00AA.webp"
+  },
+  {
+    "id": "mana",
+    "name": "Manatees and Dugongs",
+    "category": "creature",
+    "thumb": "assets/mana/MANA00AA.webp"
+  },
+  {
+    "id": "igua",
+    "name": "Marine Iguanas",
+    "category": "creature",
+    "thumb": "assets/igua/IGUA00AA.webp"
+  },
+  {
+    "id": "mpln",
+    "name": "Marine Plants",
+    "category": "concept",
+    "thumb": "assets/mpln/MPLN00AA.webp"
+  },
+  {
+    "id": "medi",
+    "name": "Mediterranean Sea",
+    "category": "place",
+    "thumb": "assets/medi/MEDI00AA.webp"
+  },
+  {
+    "id": "mine",
+    "name": "Minerals from the Sea",
+    "category": "concept",
+    "thumb": "assets/mine/MINE00AA.webp"
+  },
+  {
+    "id": "myst",
+    "name": "Mysterious Relationships",
+    "category": "concept",
+    "thumb": "assets/myst/MYST00AA.webp"
+  },
+  {
+    "id": "myth",
+    "name": "Myths and Legends",
+    "category": "concept",
+    "thumb": "assets/myth/MYTH00AA.webp"
+  },
+  {
+    "id": "navi",
+    "name": "Navigation",
+    "category": "concept",
+    "thumb": "assets/navi/NAVI00AA.webp"
+  },
+  {
+    "id": "octo",
+    "name": "Octopuses",
+    "category": "creature",
+    "thumb": "assets/octo/OCTO00AA.webp"
+  },
+  {
+    "id": "paci",
+    "name": "Pacific Ocean",
+    "category": "place",
+    "thumb": "assets/paci/PACI00AA.webp"
+  },
+  {
+    "id": "peng",
+    "name": "Penguins",
+    "category": "creature",
+    "thumb": "assets/peng/PENG00AA.webp"
+  },
+  {
+    "id": "pira",
+    "name": "Pirates",
+    "category": "human",
+    "thumb": "assets/pira/PIRA00AA.webp"
+  },
+  {
+    "id": "plan",
+    "name": "Plankton",
+    "category": "concept",
+    "thumb": "assets/plan/PLAN00AA.webp"
+  },
+  {
+    "id": "powe",
+    "name": "Powered Ships",
+    "category": "human",
+    "thumb": "assets/powe/POWE00AA.webp"
+  },
+  {
+    "id": "pret",
+    "name": "Pretenders",
+    "category": "concept",
+    "thumb": "assets/pret/PRET00AA.webp"
+  },
+  {
+    "id": "rays",
+    "name": "Rays",
+    "category": "creature",
+    "thumb": "assets/rays/RAYS00AA.webp"
+  },
+  {
+    "id": "powr",
+    "name": "Remarkable Powers",
+    "category": "concept",
+    "thumb": "assets/powr/POWR00AA.webp"
+  },
+  {
+    "id": "sail",
+    "name": "Sailing Ships",
+    "category": "human",
+    "thumb": "assets/sail/SAIL00AA.webp"
+  },
+  {
+    "id": "croc",
+    "name": "Saltwater Crocodiles",
+    "category": "creature",
+    "thumb": "assets/croc/CROC00AA.webp"
+  },
+  {
+    "id": "shar",
+    "name": "Scary Sharks",
+    "category": "creature",
+    "thumb": "assets/shar/SHAR00AA.webp"
+  },
+  {
+    "id": "scor",
+    "name": "Scorpionfish",
+    "category": "creature",
+    "thumb": "assets/scor/SCOR00AA.webp"
+  },
+  {
+    "id": "pipe",
+    "name": "Sea Horses and Pipefish",
+    "category": "creature",
+    "thumb": "assets/pipe/PIPE00AA.webp"
+  },
+  {
+    "id": "moss",
+    "name": "Sea Mosses",
+    "category": "creature",
+    "thumb": "assets/moss/MOSS00AA.webp"
+  },
+  {
+    "id": "ottr",
+    "name": "Sea Otters",
+    "category": "creature",
+    "thumb": "assets/ottr/OTTR00AA.webp"
+  },
+  {
+    "id": "sens",
+    "name": "Sea Senses",
+    "category": "concept",
+    "thumb": "assets/sens/SENS00AA.webp"
+  },
+  {
+    "id": "slug",
+    "name": "Sea Slugs",
+    "category": "creature",
+    "thumb": "assets/slug/SLUG00AA.webp"
+  },
+  {
+    "id": "snak",
+    "name": "Sea Snakes",
+    "category": "creature",
+    "thumb": "assets/snak/SNAK00AA.webp"
+  },
+  {
+    "id": "sqrt",
+    "name": "Sea Squirts",
+    "category": "creature",
+    "thumb": "assets/sqrt/SQRT00AA.webp"
+  },
+  {
+    "id": "turt",
+    "name": "Sea Turtles",
+    "category": "creature",
+    "thumb": "assets/turt/TURT00AA.webp"
+  },
+  {
+    "id": "urch",
+    "name": "Sea Urchins and Sea Cucumbers",
+    "category": "creature",
+    "thumb": "assets/urch/URCH00AA.webp"
+  },
+  {
+    "id": "seal",
+    "name": "Seals and Sea Lions",
+    "category": "creature",
+    "thumb": "assets/seal/SEAL00AA.webp"
+  },
+  {
+    "id": "shri",
+    "name": "Shrimp",
+    "category": "creature",
+    "thumb": "assets/shri/SHRI00AA.webp"
+  },
+  {
+    "id": "sout",
+    "name": "South Pacific Explorers",
+    "category": "human",
+    "thumb": "assets/sout/SOUT00AA.webp"
+  },
+  {
+    "id": "spir",
+    "name": "Spiral Shells",
+    "category": "concept",
+    "thumb": "assets/spir/SPIR00AA.webp"
+  },
+  {
+    "id": "spon",
+    "name": "Sponges",
+    "category": "creature",
+    "thumb": "assets/spon/SPON00AA.webp"
+  },
+  {
+    "id": "squi",
+    "name": "Squid and Cuttlefish",
+    "category": "creature",
+    "thumb": "assets/squi/SQUI00AA.webp"
+  },
+  {
+    "id": "star",
+    "name": "Starfish",
+    "category": "creature",
+    "thumb": "assets/star/STAR00AA.webp"
+  },
+  {
+    "id": "robo",
+    "name": "Submarines and Robots",
+    "category": "human",
+    "thumb": "assets/robo/ROBO00AA.webp"
+  },
+  {
+    "id": "buri",
+    "name": "Sunken Treasure",
+    "category": "concept",
+    "thumb": "assets/buri/BURI00AA.webp"
+  },
+  {
+    "id": "abys",
+    "name": "The Abyss",
+    "category": "habitat",
+    "thumb": "assets/abys/ABYS00AA.webp"
+  },
+  {
+    "id": "futu",
+    "name": "The Future of the Oceans",
+    "category": "concept",
+    "thumb": "assets/futu/FUTU00AA.webp"
+  },
+  {
+    "id": "mili",
+    "name": "The Military at Sea",
+    "category": "human",
+    "thumb": "assets/mili/MILI00AA.webp"
+  },
+  {
+    "id": "oflr",
+    "name": "The Ocean Floor",
+    "category": "concept",
+    "thumb": "assets/oflr/OFLR00AA.webp"
+  },
+  {
+    "id": "shal",
+    "name": "The Shallows",
+    "category": "habitat",
+    "thumb": "assets/shal/SHAL00AA.webp"
+  },
+  {
+    "id": "shor",
+    "name": "The Shoreline",
+    "category": "habitat",
+    "thumb": "assets/shor/SHOR00AA.webp"
+  },
+  {
+    "id": "wcyc",
+    "name": "The Water Cycle",
+    "category": "concept",
+    "thumb": "assets/wcyc/WCYC00AA.webp"
+  },
+  {
+    "id": "weat",
+    "name": "The Weather Machine",
+    "category": "concept",
+    "thumb": "assets/weat/WEAT00AA.webp"
+  },
+  {
+    "id": "webl",
+    "name": "The Web of Life",
+    "category": "concept",
+    "thumb": "assets/webl/WEBL00AA.webp"
+  },
+  {
+    "id": "tide",
+    "name": "Tides",
+    "category": "concept",
+    "thumb": "assets/tide/TIDE00AA.webp"
+  },
+  {
+    "id": "whlt",
+    "name": "Toothed Whales",
+    "category": "creature",
+    "thumb": "assets/whlt/WHLT00AA.webp"
+  },
+  {
+    "id": "toot",
+    "name": "Toothy Terrors",
+    "category": "concept",
+    "thumb": "assets/toot/TOOT00AA.webp"
+  },
+  {
+    "id": "help",
+    "name": "Using Microsoft Oceans",
+    "category": "concept",
+    "thumb": "assets/help/HELP00AA.webp"
+  },
+  {
+    "id": "walr",
+    "name": "Walruses",
+    "category": "creature",
+    "thumb": "assets/walr/WALR00AA.webp"
+  },
+  {
+    "id": "wave",
+    "name": "Waves",
+    "category": "concept",
+    "thumb": "assets/wave/WAVE00AA.webp"
+  },
+  {
+    "id": "west",
+    "name": "Western European Explorers",
+    "category": "human",
+    "thumb": "assets/west/WEST00AA.webp"
+  },
+  {
+    "id": "ocea",
+    "name": "What is Oceanography?",
+    "category": "concept",
+    "thumb": "assets/ocea/OCEA00AA.webp"
+  },
+  {
+    "id": "what",
+    "name": "What's a Fish?",
+    "category": "concept",
+    "thumb": "assets/what/WHAT00AA.webp"
+  },
+  {
+    "id": "wwfd",
+    "name": "World Wildlife Fund",
+    "category": "human",
+    "thumb": "assets/wwfd/WWFD00AA.webp"
+  }
+]

@@ -1,0 +1,132 @@
+{
+  "id": "drom",
+  "code": "DROM",
+  "name": "Dromiceiomimus",
+  "category": "dinosaur",
+  "scientificName": "Dromiceiomimus",
+  "needsScientificVerify": false,
+  "pronunciation": "droh-MIS-ee-oh-MY-mus",
+  "meaning": "Emu mimic",
+  "period": "Late Cretaceous",
+  "diet": "Omnivore",
+  "tagline": "The speedster of the Cretaceous — this emu look-alike could outrun almost any dinosaur alive.",
+  "hero": {
+    "image": "assets/drom/DROM00AA.webp",
+    "alt": "Dromiceiomimus"
+  },
+  "intro": "Dromiceiomimus is thought to have been one of the quickest dinosaurs. It may have raced around on its back legs, alert and wide-eyed, using its speed to escape from bigger dinosaurs and to chase down the insects and small lizards it ate. Because of its small size and high level of activity, some experts think that Dromiceiomimus may have been warm-blooded.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Emu mimic"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Theropod"
+    },
+    {
+      "label": "Length",
+      "value": "3m (10ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "175 lbs."
+    }
+  ],
+  "topics": [
+    {
+      "id": "emu-mimic",
+      "title": "Emu Mimic",
+      "image": "assets/drom/DROM01PU.webp",
+      "text": "Dromiceiomimus means \"emu mimic.\" This little dinosaur was named because of its obvious similarity to an emu, a flightless bird from Australia.",
+      "captions": [
+        {
+          "label": "Emu",
+          "text": "The emu grows five to six feet tall and is a swift runner."
+        }
+      ]
+    },
+    {
+      "id": "ostrich-dinosaurs",
+      "title": "Ostrich Dinosaurs",
+      "image": "assets/drom/DROM02PU.webp",
+      "text": "Dromiceiomimus is a member of a group of small, fast-running dinosaurs that look surprisingly like a modern ostrich. This similarity in structure is what leads scientists to conclude that these small dinosaurs might have run as fast as an ostrich, over thirty miles per hour.",
+      "captions": [
+        {
+          "label": "Struthiomimus",
+          "text": "This small, fast dinosaur is a cousin of Dromiceiomimus. Both were small theropods that must have used their speed as their primary defense to escape danger."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Velociraptor",
+      "to": "velo"
+    },
+    {
+      "label": "Gallimimus",
+      "to": "gall"
+    },
+    {
+      "label": "Birds and Dinosaurs",
+      "to": "bird"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/drom/DROM00AA.webp",
+        "hotspots": [
+          {
+            "label": "Emu mimic",
+            "to": "emu-mimic",
+            "x": 74,
+            "y": 55,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Ostrich dinosaurs",
+            "to": "ostrich-dinosaurs",
+            "x": 22,
+            "y": 77,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "emu-mimic": {
+        "image": "assets/drom/DROM01PU.webp",
+        "back": "main"
+      },
+      "ostrich-dinosaurs": {
+        "image": "assets/drom/DROM02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/drom/DROM50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/drom/DROM00AP.mp3",
+  "narration": "assets/drom/DROM00AJ.mp3"
+}

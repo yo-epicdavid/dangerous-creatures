@@ -1,0 +1,205 @@
+{
+  "id": "ftfa",
+  "code": "FTFA",
+  "name": "Face to Face",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "FACE to FACE",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "No one has ever looked a dinosaur in the eye — but fossil faces are the next best thing!",
+  "hero": {
+    "image": "assets/ftfa/FTFA00AA.webp",
+    "alt": "Face to Face"
+  },
+  "intro": "No one has ever seen a live dinosaur. Dinosaurs became extinct 65 million years ago. However, their bones, teeth, footprints, and even skin impressions have been preserved in rock as fossils. Paleontologists have studied the dinosaurs' fossil remains and built up a picture of these strange animals that ruled our world for more than 150 million years. Here are some artists' renditions of faces from the distant past.",
+  "facts": [
+    {
+      "label": "Extinct",
+      "value": "65 million years ago"
+    },
+    {
+      "label": "Ruled Earth for",
+      "value": "more than 150 million years"
+    },
+    {
+      "label": "Preserved as",
+      "value": "bones, teeth, footprints, and even skin impressions in rock as fossils"
+    },
+    {
+      "label": "Studied by",
+      "value": "Paleontologists"
+    }
+  ],
+  "topics": [
+    {
+      "id": "corythosaurus",
+      "title": "Corythosaurus",
+      "image": "assets/ftfa/FTFA01PU.webp",
+      "text": "This duckbilled dinosaur had a regal-looking crest. Many different theories have been developed to try to explain the unusual headgear of hadrosaurs like Corythosaurus."
+    },
+    {
+      "id": "chasmosaurus",
+      "title": "Chasmosaurus",
+      "image": "assets/ftfa/FTFA02PU.webp",
+      "text": "A long neck frill made this horned dinosaur stand out from the crowd. It may have looked threatening, but like other ceratopsians, Chasmosaurus made its meals from plants."
+    },
+    {
+      "id": "parasaurolophus",
+      "title": "Parasaurolophus",
+      "image": "assets/ftfa/FTFA03PU.webp",
+      "text": "This hadrosaur was adorned with a distinctive long, hollow crest. Fossil evidence tells us that hadrosaurs (duckbilled dinosaurs) may have lived in herds for protection from predators."
+    },
+    {
+      "id": "styracosaurus",
+      "title": "Styracosaurus",
+      "image": "assets/ftfa/FTFA04PU.webp",
+      "text": "A collar of spikes was the most noticeable feature of this horned dinosaur. Ceratopsians like Styracosaurus were some of the last dinosaurs to roam the Earth, living in the Late Cretaceous period."
+    },
+    {
+      "id": "struthiomimus",
+      "title": "Struthiomimus",
+      "image": "assets/ftfa/FTFA05PU.webp",
+      "text": "This swift dinosaur was built much like an ostrich, and probably raced across the landscape just as ostriches do today. It had exceptionally large eyes and a relatively big brain, which helped to make it an efficient hunter."
+    },
+    {
+      "id": "iguanodon",
+      "title": "Iguanodon",
+      "image": "assets/ftfa/FTFA06PU.webp",
+      "text": "A large plant-eater, this dinosaur lived in many parts of the world. As one of the first dinosaurs ever identified, it quickly became one of the most famous, although many of our early images of dinosaurs as horned, elephant-like beasts were far from correct."
+    },
+    {
+      "id": "hypsilophodon",
+      "title": "Hypsilophodon",
+      "image": "assets/ftfa/FTFA07PU.webp",
+      "text": "A sprinter that ran on two legs, this dinosaur was small but quick. Hypsilophodon belongs to one of the two groups of dinosaurs—the plant-eating ornithischians—which existed from the Late Jurassic period to the end of the Cretaceous, surviving for more than 100 million years."
+    },
+    {
+      "id": "apatosaurus",
+      "title": "Apatosaurus",
+      "image": "assets/ftfa/FTFA08PU.webp",
+      "text": "This long-necked giant pulled leaves from the treetops. Apatosaurus, or \"deceptive lizard,\" was given a second name that is no longer used, but may in fact be more appropriate—\"thunder lizard,\" or Brontosaurus."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Story in a Skull",
+      "to": "stor"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/ftfa/FTFA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Struthiomimus",
+            "to": "struthiomimus",
+            "x": 2,
+            "y": 66,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Corythosaurus",
+            "to": "corythosaurus",
+            "x": 19,
+            "y": 42,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "Hypsilophodon",
+            "to": "hypsilophodon",
+            "x": 19,
+            "y": 62,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Iguanodon",
+            "to": "iguanodon",
+            "x": 8,
+            "y": 76,
+            "w": 15,
+            "h": 6
+          },
+          {
+            "label": "Parasaurolophus",
+            "to": "parasaurolophus",
+            "x": 61,
+            "y": 30,
+            "w": 21,
+            "h": 6
+          },
+          {
+            "label": "Styracosaurus",
+            "to": "styracosaurus",
+            "x": 43,
+            "y": 79,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Apatosaurus",
+            "to": "apatosaurus",
+            "x": 60,
+            "y": 58,
+            "w": 17,
+            "h": 6
+          },
+          {
+            "label": "Chasmosaurus",
+            "to": "chasmosaurus",
+            "x": 72,
+            "y": 47,
+            "w": 18,
+            "h": 6
+          }
+        ]
+      },
+      "corythosaurus": {
+        "image": "assets/ftfa/FTFA01PU.webp",
+        "back": "main"
+      },
+      "chasmosaurus": {
+        "image": "assets/ftfa/FTFA02PU.webp",
+        "back": "main"
+      },
+      "parasaurolophus": {
+        "image": "assets/ftfa/FTFA03PU.webp",
+        "back": "main"
+      },
+      "styracosaurus": {
+        "image": "assets/ftfa/FTFA04PU.webp",
+        "back": "main"
+      },
+      "struthiomimus": {
+        "image": "assets/ftfa/FTFA05PU.webp",
+        "back": "main"
+      },
+      "iguanodon": {
+        "image": "assets/ftfa/FTFA06PU.webp",
+        "back": "main"
+      },
+      "hypsilophodon": {
+        "image": "assets/ftfa/FTFA07PU.webp",
+        "back": "main"
+      },
+      "apatosaurus": {
+        "image": "assets/ftfa/FTFA08PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/ftfa/FTFA00AP.mp3",
+  "narration": "assets/ftfa/FTFA00AJ.mp3",
+  "sound": "assets/ftfa/FTFA00SA.mp3"
+}

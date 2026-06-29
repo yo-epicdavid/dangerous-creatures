@@ -1,0 +1,170 @@
+{
+  "id": "shri",
+  "code": "SHRI",
+  "name": "Shrimp",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Tiny ocean cleaners that come in 2,000 wild shapes and sizes!",
+  "zones": [
+    "Coast & tide pools",
+    "Coral reef",
+    "Open ocean",
+    "Rivers & estuaries"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/shri/SHRI00AA.webp",
+    "alt": "Shrimp"
+  },
+  "intro": "When you think of shrimp, you may think only of deep-fried shrimp or shrimp cocktail. But these little crustaceans come in an astounding variety of sizes and colors, and live in many different environments. These two enterprising shrimp have set up a \"cleaning station,\" where fish can stop by and let them eat parasites from their skin. The fish appreciate this cleaning service so much, they courteously refrain from eating the shrimp.",
+  "facts": [
+    {
+      "label": "Species",
+      "value": "Members of at least 2,000 species of shrimp are found throughout the world's oceans."
+    },
+    {
+      "label": "Cleaning station",
+      "value": "Some shrimp set up \"cleaning stations\" where fish let them eat parasites from their skin — and politely don't eat the shrimp in return."
+    },
+    {
+      "label": "Top harvesters",
+      "value": "China leads the world in shrimp harvesting, followed by the United States, Thailand, and Indonesia."
+    },
+    {
+      "label": "Pistol shrimp",
+      "value": "Pistol shrimp use sound to stun their prey: when one snaps its large claw shut, it produces a powerful underwater shock wave that causes some aquarium owners to think the glass has shattered."
+    },
+    {
+      "label": "Fishing method",
+      "value": "Boats drag pouch-shaped nets called trawls to harvest tons of shrimp from the open seas or from river mouths."
+    },
+    {
+      "label": "Did you know",
+      "value": "Wild shrimp populations are declining in many parts of the world."
+    }
+  ],
+  "topics": [
+    {
+      "id": "scrumptious-shrimp",
+      "title": "Scrumptious shrimp",
+      "image": "assets/shri/SHRI01PU.webp",
+      "text": "Many animals find shrimp to be delicious, including humans!\n\nBiggest eater\nOf all animals, humans are perhaps the greatest consumers of shrimp. By dragging pouch-shaped nets called trawls, boats can harvest tons of shrimp from the open seas or from river mouths. The shrimp catch is frozen or canned quickly to prevent spoilage. China leads the world in shrimp harvesting, followed by the United States, Thailand, and Indonesia, but wild shrimp populations are declining in many parts of the world.",
+      "captions": [
+        {
+          "label": "Shrimpfest",
+          "text": "Few marine animals would say no to a tasty mouthful of shrimp. A moray eel definitely finds them \"d'eel-icious\"!"
+        }
+      ],
+      "narration": "assets/shri/SHRI01JN.mp3"
+    },
+    {
+      "id": "shrimp-of-all-kinds",
+      "title": "Shrimp of all kinds",
+      "image": "assets/shri/SHRI02PU.webp",
+      "text": "Members of at least 2,000 species of shrimp are found throughout the world's oceans. Some have adopted unique lifestyles in order to stay alive.\n\nLife with anemones\nAnemone shrimp choose to live among the stinging tentacles of sea anemones. It's an odd lifestyle, but one that offers the shrimp protection from predators.\n\nDon't call me a shrimp!\nThis beautiful crustacean is not actually a shrimp, but a prawn, which is a very close, but slightly bigger, relative.\n\nCamouflage expert\nSome shrimp are experts at hiding in plain sight!",
+      "captions": [
+        {
+          "label": "Camouflage expert",
+          "text": "Some shrimp are experts at hiding in plain sight!"
+        }
+      ],
+      "narration": "assets/shri/SHRI02JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Barnacles",
+      "to": "barn"
+    },
+    {
+      "label": "Octopuses",
+      "to": "octo"
+    },
+    {
+      "label": "Sea Slugs",
+      "to": "slug"
+    },
+    {
+      "label": "Fascinating Facts"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/shri/SHRI00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 9,
+            "h": 7
+          },
+          {
+            "label": "Can you hear me?",
+            "to": "video",
+            "x": 46,
+            "y": 2,
+            "w": 27,
+            "h": 7
+          },
+          {
+            "label": "Barnacles",
+            "x": 83,
+            "y": 1,
+            "w": 15,
+            "h": 14,
+            "external": "barn"
+          },
+          {
+            "label": "Shrimp of all kinds",
+            "to": "shrimp-of-all-kinds",
+            "x": 56,
+            "y": 38,
+            "w": 32,
+            "h": 6
+          },
+          {
+            "label": "Scrumptious shrimp",
+            "to": "scrumptious-shrimp",
+            "x": 56,
+            "y": 51,
+            "w": 28,
+            "h": 6
+          }
+        ]
+      },
+      "scrumptious-shrimp": {
+        "image": "assets/shri/SHRI01PU.webp",
+        "back": "main"
+      },
+      "shrimp-of-all-kinds": {
+        "image": "assets/shri/SHRI02PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/shri/clip.mp4",
+        "poster": "assets/shri/SHRI03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/shri/SHRI00JN.mp3",
+  "sound": "assets/shri/SHRI00IX.mp3",
+  "video": {
+    "title": "Can you hear me?",
+    "src": "assets/shri/clip.mp4",
+    "poster": "assets/shri/poster.webp",
+    "caption": "Pistol shrimp use sound to stun their prey. When one of these shrimp snap their one large claw shut, it produces a powerful underwater shock wave that causes some aquarium owners to think that the glass has shattered! But most shrimp live less noisy lives, and just pounce on their prey when they find it.",
+    "narration": "assets/shri/SHRI03JN.mp3"
+  }
+}

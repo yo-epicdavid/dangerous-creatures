@@ -1,0 +1,153 @@
+{
+  "id": "sqrt",
+  "code": "SQRT",
+  "name": "Sea Squirts",
+  "category": "creature",
+  "scientificName": "Ascidiacea",
+  "needsScientificVerify": false,
+  "tagline": "They look like colorful blobs — but squirt them and they'll shoot back!",
+  "zones": [
+    "Coast & tide pools",
+    "Coral reef"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/sqrt/SQRT00AA.webp",
+    "alt": "Sea Squirts"
+  },
+  "intro": "They may look like colored sacks filled with water, but sea squirts have hearts, circulatory systems, intestines, and two openings: one for taking in nutrients, and another for expelling waste materials. In terms of evolution, sea squirts (also called ascidians or tunicates) are actually highly sophisticated animals. Their common name comes from their habit of squirting water when poked.",
+  "facts": [
+    {
+      "label": "Body plan",
+      "value": "Sea squirts have hearts, circulatory systems, intestines, and two openings — one for taking in nutrients and one for expelling waste."
+    },
+    {
+      "label": "Name",
+      "value": "Their common name comes from their habit of squirting water when poked."
+    },
+    {
+      "label": "Reproduction",
+      "value": "Most species produce both eggs and sperm, so they don't need to go in search of a mate to produce young."
+    },
+    {
+      "label": "Larvae",
+      "value": "Sea squirt larvae are free-swimming, tadpolelike creatures, but adults anchor permanently to one spot."
+    },
+    {
+      "label": "Fast grower",
+      "value": "Development from embryo to adult can sometimes take only a few days."
+    },
+    {
+      "label": "Shapes",
+      "value": "Solitary ascidians may look like a delicate vase, a fat bulb, or even a brain. Some even grow on the hulls of boats and on docks, like barnacles."
+    }
+  ],
+  "topics": [
+    {
+      "id": "sea-squirt-life",
+      "title": "Sea squirt life",
+      "image": "assets/sqrt/SQRT01PU.webp",
+      "text": "Adult sea squirts spend their lives anchored in one place, feeding on plankton and debris that they filter from the water around them. Most species produce both eggs and sperm, so they don't need to go in search of a mate to produce young. Sea squirts that live by themselves are called solitary; those that live in groups are called colonial sea squirts. Because they're fixed in place, sea squirts are in danger from animals that like to \"graze\" on them, such as sea slugs.",
+      "narration": "assets/sqrt/SQRT01JN.mp3"
+    },
+    {
+      "id": "simple-creatures",
+      "title": "Simple creatures",
+      "image": "assets/sqrt/SQRT02PU.webp",
+      "text": "Animals with single nerve cords and cylindrical or globular bodies like a sea squirt's are called urochordates. Sea squirt larvae are free-swimming, tadpolelike creatures with a single nerve cord running the length of their bodies. This cord is inside a notochord, or primitive backbone. When they become adults and settle down in one spot, the notochord disappears. Scientists are fascinated by the rapid development of ascidians from embryos to adults, a process which sometimes takes only a few days. Now that's growing up fast!",
+      "captions": [
+        {
+          "label": "Strange-looking salp",
+          "text": "The weird-looking salp is related to sea squirts and has similar features. The salp spends its entire life swimming from one place to another looking for food."
+        }
+      ],
+      "narration": "assets/sqrt/SQRT02JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Aquarium Game"
+    },
+    {
+      "label": "Coral Reefs",
+      "to": "reef"
+    },
+    {
+      "label": "Related or Not?"
+    },
+    {
+      "label": "Sponges",
+      "to": "spon"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/sqrt/SQRT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "All colors, all places",
+            "to": "video",
+            "x": 54,
+            "y": 23,
+            "w": 32,
+            "h": 5
+          },
+          {
+            "label": "Sea squirt life",
+            "to": "sea-squirt-life",
+            "x": 3,
+            "y": 69,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Simple creatures",
+            "to": "simple-creatures",
+            "x": 24,
+            "y": 85,
+            "w": 23,
+            "h": 6
+          }
+        ]
+      },
+      "sea-squirt-life": {
+        "image": "assets/sqrt/SQRT01PU.webp",
+        "back": "main"
+      },
+      "simple-creatures": {
+        "image": "assets/sqrt/SQRT02PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/sqrt/clip.mp4",
+        "poster": "assets/sqrt/SQRT03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/sqrt/SQRT00JN.mp3",
+  "sound": "assets/sqrt/SQRT00IX.mp3",
+  "video": {
+    "title": "All colors, all places",
+    "src": "assets/sqrt/clip.mp4",
+    "poster": "assets/sqrt/poster.webp",
+    "caption": "Colorful ascidians grow in many different places and in many different forms. Some colonies spread out in a thin layer like encrusting sponges; others grow in clusters that resemble bright flowers. Solitary ascidians may look like a delicate vase, a fat bulb, or even a brain. Some ascidians even grow on the hulls of boats and on docks, like barnacles.",
+    "narration": "assets/sqrt/SQRT03JN.mp3"
+  }
+}

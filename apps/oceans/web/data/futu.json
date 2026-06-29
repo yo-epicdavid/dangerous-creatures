@@ -1,0 +1,234 @@
+{
+  "id": "futu",
+  "code": "FUTU",
+  "name": "The Future of the Oceans",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "The planet is in our hands—and so are the oceans.",
+  "zones": [
+    "Coast & tide pools",
+    "Open ocean"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/futu/FUTU00AA.webp",
+    "alt": "The Future of the Oceans"
+  },
+  "intro": "The oceans cover 71 percent of our planet's surface. We depend on them to renew our supply of fresh water, to moderate our weather, and to provide us with food, transportation, and recreation. Today all of the world's oceans have problems with pollution and overfishing. What is the future of our oceans? It's up to us—the planet is in our hands.",
+  "facts": [
+    {
+      "label": "Coverage",
+      "value": "The oceans cover 71 percent of our planet's surface."
+    },
+    {
+      "label": "Fishing waste",
+      "value": "The fishing industry throws as much as 25 percent of its catch away—an unbelievable waste of marine life."
+    },
+    {
+      "label": "Population",
+      "value": "Every day there are 250,000 more people on Earth than the day before, which means that every year there are 90 million more people who need food, water, and living space."
+    },
+    {
+      "label": "Marine law",
+      "value": "The UN Convention on Law of the Sea (UNCLOS) gives coastal nations rights over all of the marine resources within 200 miles of their shores."
+    },
+    {
+      "label": "Pollution",
+      "value": "For decades we've used the oceans as dumping grounds for sewage, trash, chemicals, and even radioactive waste."
+    },
+    {
+      "label": "Mariculture",
+      "value": "Mariculture can't take the place of natural ecosystems—cultivated plants and animals are weaker and more susceptible to disease than their natural counterparts."
+    }
+  ],
+  "topics": [
+    {
+      "id": "pristine-or-polluted",
+      "title": "Pristine or polluted?",
+      "image": "assets/futu/FUTU01PU.webp",
+      "text": "Because the oceans are so vast, people once believed that it was virtually impossible to contaminate such large bodies of water. For decades we've used the oceans as dumping grounds for sewage, trash, chemicals, and even radioactive waste. Because we also use the oceans for transportation, many shipping mishaps have resulted in pollution as well. To protect marine life and our planet's health, we must find solutions to these problems.",
+      "captions": [
+        {
+          "label": "Oil spill victim",
+          "text": "This oil-covered cormorant probably won't survive"
+        },
+        {
+          "label": "Beach trash",
+          "text": "Trash destroys beach environments in many places"
+        }
+      ],
+      "narration": "assets/futu/FUTU01JN.mp3"
+    },
+    {
+      "id": "bountiful-or-barren",
+      "title": "Bountiful or barren?",
+      "image": "assets/futu/FUTU02PU.webp",
+      "text": "We once thought that the oceans held an endless supply of food, water, and minerals. We now know that with modern technology, people have the power to strip the oceans of much of their life. Today the fishing industry throws as much as 25 percent of its catch away—an unbelievable waste of marine life! We must learn to live in harmony with nature the way other animals do, taking only what we need and using all that we take.",
+      "narration": "assets/futu/FUTU02JN.mp3"
+    },
+    {
+      "id": "wild-or-cultivated",
+      "title": "Wild or cultivated?",
+      "image": "assets/futu/FUTU03PU.webp",
+      "text": "Some people believe that the solution to the overharvesting of the oceans is to farm marine animals and plants. But this practice—called mariculture—has its problems, too. Cultivated plants and animals are weaker and more susceptible to disease than their natural counterparts. And it's never a good idea to set aside many species in favor of just one: if that species is wiped out by disease, there's nothing left! Marine farms also create organic pollution; it's like having too many cows in a small pasture. Mariculture on a small scale may be good business, but it can't take the place of natural ecosystems.",
+      "narration": "assets/futu/FUTU03JN.mp3"
+    },
+    {
+      "id": "room-for-whom",
+      "title": "Room for whom?",
+      "image": "assets/futu/FUTU04PU.webp",
+      "text": "There are approximately 5.3 billion people on this planet. Every day there are 250,000 more people than there were the day before, which means that every year there are 90 million more people who need food, water, and living space. But other animals and plants need all these resources, too, both on land and in the oceans. Shoreline environments are particularly at risk, as people occupy the beaches that are needed by seals, birds, sea turtles, and other creatures, and pollute the shallows in which much of the ocean's life exists.",
+      "captions": [
+        {
+          "label": "Mangroves",
+          "text": "Many mangrove swamp habitats are destroyed every year"
+        },
+        {
+          "label": "Shoreline",
+          "text": "Boat docks and buildings increasingly occupy shorelines"
+        }
+      ],
+      "narration": "assets/futu/FUTU04JN.mp3"
+    },
+    {
+      "id": "who-gets-to-decide",
+      "title": "Who gets to decide?",
+      "image": "assets/futu/FUTU05PU.webp",
+      "text": "The oceans connect all of the earth's land masses, so every ocean problem is an international issue. The United Nations Convention on Law of the Sea (UNCLOS) is the backbone of maritime law. Signed by approximately 60 countries, it gives coastal nations rights over all of the marine resources within 200 miles of their shores. The London Dumping Convention (LDC), signed by the same countries, restricts the dumping of some toxic substances into the oceans, and prohibits entirely the dumping of others. These are important steps toward protecting our oceans, but much work remains to be done.",
+      "narration": "assets/futu/FUTU05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Shoreline",
+      "to": "shor"
+    },
+    {
+      "label": "Pacific Ocean",
+      "to": "paci"
+    },
+    {
+      "label": "The Web of Life",
+      "to": "webl"
+    },
+    {
+      "label": "Islands",
+      "to": "isla"
+    },
+    {
+      "label": "The Military at Sea",
+      "to": "mili"
+    },
+    {
+      "label": "Mysterious Relationships",
+      "to": "myst"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/futu/FUTU00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 7,
+            "h": 6
+          },
+          {
+            "label": "Who gets to decide?",
+            "to": "who-gets-to-decide",
+            "x": 55,
+            "y": 8,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "Room for whom?",
+            "to": "room-for-whom",
+            "x": 81,
+            "y": 17,
+            "w": 17,
+            "h": 7
+          },
+          {
+            "label": "Life-or-death decisions",
+            "to": "video",
+            "x": 8,
+            "y": 65,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Wild or cultivated?",
+            "to": "wild-or-cultivated",
+            "x": 10,
+            "y": 72,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Bountiful or barren?",
+            "to": "bountiful-or-barren",
+            "x": 10,
+            "y": 79,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Pristine or polluted?",
+            "to": "pristine-or-polluted",
+            "x": 10,
+            "y": 86,
+            "w": 24,
+            "h": 5
+          }
+        ]
+      },
+      "pristine-or-polluted": {
+        "image": "assets/futu/FUTU01PU.webp",
+        "back": "main"
+      },
+      "bountiful-or-barren": {
+        "image": "assets/futu/FUTU02PU.webp",
+        "back": "main"
+      },
+      "wild-or-cultivated": {
+        "image": "assets/futu/FUTU03PU.webp",
+        "back": "main"
+      },
+      "room-for-whom": {
+        "image": "assets/futu/FUTU04PU.webp",
+        "back": "main"
+      },
+      "who-gets-to-decide": {
+        "image": "assets/futu/FUTU05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/futu/clip.mp4",
+        "poster": "assets/futu/FUTU06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/futu/FUTU00JN.mp3",
+  "sound": "assets/futu/FUTU00IX.mp3",
+  "video": {
+    "title": "Life-or-death decisions",
+    "src": "assets/futu/clip.mp4",
+    "poster": "assets/futu/poster.webp",
+    "caption": "Bottlenose dolphin (Tursiops truncatus)",
+    "narration": "assets/futu/FUTU06JN.mp3"
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "id": "aftr",
+  "code": "AFTR",
+  "name": "Life After Dinosaurs",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "When the dinosaurs vanished, life on Earth exploded into the world we know today.",
+  "hero": {
+    "image": "assets/aftr/AFTR00AA.webp",
+    "alt": "Life After Dinosaurs"
+  },
+  "intro": "Although the reign of the dinosaurs came to an end with their extinction around 65 million years ago, life on Earth continued in a variety of forms. In the oceans, the development of fish, shellfish, and other marine animals continued. On land, flowering plants extended their dominance over more primitive types of vegetation. Amphibians such as salamanders and frogs continued to exist in swampy areas. Reptiles also lived on, branching out into many forms of snakes, lizards, and crocodiles. The most remarkable developments were the diversification of birds and the rapid evolution of mammals into the great number of species we know today.",
+  "facts": [
+    {
+      "label": "Dinosaur extinction",
+      "value": "65 million years ago"
+    },
+    {
+      "label": "Flowering plants first appeared",
+      "value": "almost 100 million years ago"
+    },
+    {
+      "label": "Mammoths first appeared",
+      "value": "almost 2 million years ago"
+    },
+    {
+      "label": "Mammoth tusk length",
+      "value": "more than fourteen feet long"
+    },
+    {
+      "label": "Saber-toothed cats existed",
+      "value": "35 million years ago to just 10,000 years ago"
+    }
+  ],
+  "topics": [
+    {
+      "id": "flowering-plants",
+      "title": "Flowering Plants",
+      "image": "assets/aftr/AFTR01PU.webp",
+      "text": "Our world today is dominated by flowering plants—the angiosperms, or \"enclosed seed\" plants, whose seeds are contained in fruits, nuts, or other protective coverings. In ancient times, the flowers and fruits supported a variety of insect and animal life, including butterflies, moths, mammals, and birds, just as they do today. Flowering plants began to appear on Earth almost 100 million years ago. Today, four out of five plants belong to this plant group."
+    },
+    {
+      "id": "winged-wonders",
+      "title": "Winged Wonders",
+      "image": "assets/aftr/AFTR02PU.webp",
+      "text": "Pterosaurs, the winged reptiles, died out at the same time as the dinosaurs. True birds with feathers evolved into thousands of species, and one type of flying mammal evolved and has survived for millions of years: the bat.",
+      "captions": [
+        {
+          "label": "Ichthyornis",
+          "text": "A strong flyer, Ichthyornis probably dived for fish like a seagull or tern. This was one of the first birds known to have a breastbone that anchored the wing-flapping muscles, which is a characteristic of all modern birds."
+        },
+        {
+          "label": "Icaronycteris",
+          "text": "Much like bats today, Icaronycteris, the earliest known bat, roosted upside down and caught insects during flight. Its wings were shorter than those of modern bats, it had a long tail, and it lacked the web of skin attaching the tail to the legs."
+        },
+        {
+          "label": "Diatryma",
+          "text": "This giant bird could not fly, but it could run down animals on its muscular legs and then tear them to pieces with its enormous parrot-type beak. A few large flightless birds still exist today, such as the ostrich in Africa, the emu in Australia, and the rhea in South America."
+        }
+      ]
+    },
+    {
+      "id": "large-hoofed-herbivores",
+      "title": "Large Hoofed Herbivores",
+      "image": "assets/aftr/AFTR03PU.webp",
+      "text": "About 30 million years after the disappearance of the dinosaurs, the Earth's climate began to change, gradually becoming drier. Swamp and woodland plants were replaced with grasses, which could cope with drought. As the plants evolved, so did the animals that ate them.",
+      "captions": [
+        {
+          "label": "Ancient horses",
+          "text": "The first primitive horses appeared more than 30 million years ago. Early horses such as tiny Hyracotherium (fifteen inches tall) and its larger relative, Hipparion, had three toes. Overtime, the three toes evolved into the single toe, or hoof, that we see in modern horses."
+        },
+        {
+          "label": "Giant bison",
+          "text": "The horns of the giant bison measured more than six feet, six inches across. This animal roamed throughout North America, and no doubt was the ancestor of the buffalo we know today."
+        }
+      ]
+    },
+    {
+      "id": "large-predators",
+      "title": "Large Predators",
+      "image": "assets/aftr/AFTR04PU.webp",
+      "text": "Nature has a way of balancing things out. As the number of large herbivores grew, so did the number of predatory animals that ate them. Shown here a few of those predatory animals, all of which have relatives that are alive today.",
+      "captions": [
+        {
+          "label": "Saber-toothed cats",
+          "text": "Saber-toothed cats existed from 35 million years ago up to just 10,000 years ago."
+        },
+        {
+          "label": "Cave bears",
+          "text": "Many bones of cave bears have been found in Europe."
+        },
+        {
+          "label": "Dire wolves",
+          "text": "Packs of dire wolves preyed on plant-eaters and scavenged the kills of others."
+        }
+      ]
+    },
+    {
+      "id": "mammoths",
+      "title": "Mammoths",
+      "image": "assets/aftr/AFTR05PU.webp",
+      "text": "These gigantic mammals appeared almost 2 million years ago, and were common during the last Ice Age. It's no wonder that the word \"mammoth\" has come to mean \"gigantic.\" A single tusk can be more than fourteen feet long!",
+      "captions": [
+        {
+          "label": "Long hair for protection",
+          "text": "Because scientists have found frozen mammoth bodies, we know about their hair and coloring. The fur that covered their bodies was reddish-brown and had a scattering of long, thick, darker \"guard hairs.\""
+        },
+        {
+          "label": "Stuck in time",
+          "text": "For more than 20,000 years, tar has been oozing naturally to the surface at the La Brea tar pits in Los Angeles, California. Excavations of the older layers of tar have revealed the bones of mammoths and saber-toothed cats."
+        }
+      ]
+    },
+    {
+      "id": "small-mammals",
+      "title": "Small Mammals",
+      "image": "assets/aftr/AFTR06PU.webp",
+      "text": "Small mammals appeared near the beginning of the Age of Dinosaurs but did not flourish until long after the dinosaurs died out. We can easily find their descendants all around us today: mice, rats, hamsters, squirrels, gerbils, monkeys, and so forth.",
+      "captions": [
+        {
+          "label": "One of the first primates",
+          "text": "This tiny mammal from the end of dinosaur times is known only from its fossil teeth, which indicate that it was one of the first primates—the group that includes monkeys, apes, and humans."
+        },
+        {
+          "label": "Fast runners",
+          "text": "The fossil bones of Leptictidium indicate that it was a fast, two-legged runner."
+        }
+      ]
+    },
+    {
+      "id": "humans",
+      "title": "Humans",
+      "image": "assets/aftr/AFTR07PU.webp",
+      "text": "Biologists classify humans with the apes in a group called the hominids. From fossil evidence, we know that various types of hominids evolved and became extinct in the past few million years. We call our own surviving branch Homo sapiens, or \"wise man.\"",
+      "captions": [
+        {
+          "label": "Homo habilis",
+          "text": "(3 million years ago to 1.5 million years ago) These African hominids created primitive tools. The name means \"handy man.\""
+        },
+        {
+          "label": "Australopithecus",
+          "text": "(4 million years ago to 1 million years ago) The brain of Australopithecus, who lived in Africa, was quite small."
+        },
+        {
+          "label": "Homo erectus",
+          "text": "(1.5 million years ago to 300,000 years ago) The fossilized remains and tools of \"upright man\" have been found across Europe, Asia, and Africa."
+        },
+        {
+          "label": "Homo sapiens",
+          "text": "(500,000 years ago to today) Our own group made better and better tools and artwork, and developed from a primitive culture into the modern world we now live in."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Extinction",
+      "to": "exti"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/aftr/AFTR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Large hoofed herbivores",
+            "to": "large-hoofed-herbivores",
+            "x": 16,
+            "y": 57,
+            "w": 25,
+            "h": 4
+          },
+          {
+            "label": "Winged wonders",
+            "to": "winged-wonders",
+            "x": 56,
+            "y": 57,
+            "w": 18,
+            "h": 4
+          },
+          {
+            "label": "Flowering plants",
+            "to": "flowering-plants",
+            "x": 7,
+            "y": 62,
+            "w": 18,
+            "h": 4
+          },
+          {
+            "label": "Mammoths",
+            "to": "mammoths",
+            "x": 73,
+            "y": 62,
+            "w": 13,
+            "h": 4
+          },
+          {
+            "label": "Small mammals",
+            "to": "small-mammals",
+            "x": 16,
+            "y": 68,
+            "w": 17,
+            "h": 4
+          },
+          {
+            "label": "Large predators",
+            "to": "large-predators",
+            "x": 7,
+            "y": 73,
+            "w": 17,
+            "h": 4
+          },
+          {
+            "label": "Humans",
+            "to": "humans",
+            "x": 59,
+            "y": 72,
+            "w": 11,
+            "h": 4
+          }
+        ]
+      },
+      "flowering-plants": {
+        "image": "assets/aftr/AFTR01PU.webp",
+        "back": "main"
+      },
+      "winged-wonders": {
+        "image": "assets/aftr/AFTR02PU.webp",
+        "back": "main"
+      },
+      "large-hoofed-herbivores": {
+        "image": "assets/aftr/AFTR03PU.webp",
+        "back": "main"
+      },
+      "large-predators": {
+        "image": "assets/aftr/AFTR04PU.webp",
+        "back": "main"
+      },
+      "mammoths": {
+        "image": "assets/aftr/AFTR05PU.webp",
+        "back": "main"
+      },
+      "small-mammals": {
+        "image": "assets/aftr/AFTR06PU.webp",
+        "back": "main"
+      },
+      "humans": {
+        "image": "assets/aftr/AFTR07PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/aftr/AFTR00AP.mp3",
+  "narration": "assets/aftr/AFTR00AJ.mp3",
+  "sound": "assets/aftr/AFTR00SA.mp3"
+}

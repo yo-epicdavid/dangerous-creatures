@@ -1,0 +1,464 @@
+{
+  "id": "extt",
+  "code": "EXTT",
+  "name": "Marching to Extinction",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "MAR-ching to ex-TINK-shun",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "For 160 million years dinosaurs ruled the Earth — then, 65 million years ago, they were all gone.",
+  "hero": {
+    "image": "assets/extt/EXTT00AA.webp",
+    "alt": "Marching to Extinction"
+  },
+  "intro": "During the 160-million-year history of dinosaurs, new types of dinosaurs constantly evolved to take the place of the older types. Then, about 65 million years ago, all dinosaurs suddenly died out, along with flying reptiles and many marine reptiles. This timeline shows when many dinosaurs ceased to exist.",
+  "facts": [
+    {
+      "label": "Dinosaur Reign",
+      "value": "160 million years"
+    },
+    {
+      "label": "Mass Extinction",
+      "value": "65 million years ago"
+    },
+    {
+      "label": "Triassic Period",
+      "value": "245-208 million years ago"
+    },
+    {
+      "label": "Jurassic Period",
+      "value": "208-145 million years ago"
+    }
+  ],
+  "topics": [
+    {
+      "id": "coelophysis",
+      "title": "Coelophysis",
+      "image": "assets/extt/EXTT04PU.webp",
+      "text": "This meat-eater lived in the Late Triassic period and became extinct before most dinosaurs ever came into existence. As a smaller theropod, it made meals of lizards, insects, and maybe even baby dinosaurs!"
+    },
+    {
+      "id": "plateosaurus",
+      "title": "Plateosaurus",
+      "image": "assets/extt/EXTT05PU.webp",
+      "text": "This very early dinosaur belongs to the prosauropod group of dinosaurs, which were large, four-legged plant-eaters. Although it spent much time on all fours, it may have stood on its back legs to reach into the treetops to feed."
+    },
+    {
+      "id": "heterodontosaurus",
+      "title": "Heterodontosaurus",
+      "image": "assets/extt/EXTT06PU.webp",
+      "text": "This ornithopod lived during the Early Jurassic period around 200 million years ago. It was quite small, only three feet long, and walked through prehistoric lands on two legs. The skeletal structure of this dinosaur tells us it was a swift runner, but had no other real defense against danger."
+    },
+    {
+      "id": "massospondylus",
+      "title": "Massospondylus",
+      "image": "assets/extt/EXTT07PU.webp",
+      "text": "This dinosaur was discovered by Sir Richard Owen, the same person who invented the word \"dinosaurs,\" which means \"terrible lizards.\" Known for its unusual teeth, which were neither sharply pointed nor broad and flat, Massospondylus had to swallow stones to help digest food in its huge stomach."
+    },
+    {
+      "id": "lesothosaurus",
+      "title": "Lesothosaurus",
+      "image": "assets/extt/EXTT08PU.webp",
+      "text": "This small dinosaur lived in the Early Jurassic period, eating plants and running quickly from danger. Although the word \"dinosaur\" conjures up huge beasts in our minds, this animal was only three feet long, about the size of a cocker spaniel. It was named for the country in Africa in which it was discovered."
+    },
+    {
+      "id": "anchisaurus",
+      "title": "Anchisaurus",
+      "image": "assets/extt/EXTT09PU.webp",
+      "text": "This early herbivore was a smaller member of the prosauropod family, about seven feet long. Anchisaurus was a plant-eater and as such, had a long body to accommodate its digestive system. Its large mid-section would have unbalanced a two-legged animal, so it is believed that Anchisaurus usually walked on all fours."
+    },
+    {
+      "id": "tuojiangosaurus",
+      "title": "Tuojiangosaurus",
+      "image": "assets/extt/EXTT10PU.webp",
+      "text": "This sizable stegosaur lived during the Late Jurassic period along with its relatives, Stegosaurus and Kentrosaurus. Walking on all fours to support its huge body, it browsed on low-growing plants while roaming the countryside of what is now China."
+    },
+    {
+      "id": "apatosaurus",
+      "title": "Apatosaurus",
+      "image": "assets/extt/EXTT11PU.webp",
+      "text": "At thirty-three tons, this huge dinosaur must have shaken the ground a bit as it ambled through Jurassic country feeding from the treetops and bushes. Although it had no apparent defenses, Apatosaurus's huge, bulky body and strong whipping tail provided effective weapons against an attacker."
+    },
+    {
+      "id": "allosaurus",
+      "title": "Allosaurus",
+      "image": "assets/extt/EXTT12PU.webp",
+      "text": "This carnosaur had all the features of Late Jurassic predators including huge, toothy jaws housed in its oversized skull, a strong neck, small arms ending in two-fingered claws, and heavy, upright legs. Some scientists argue, however, that Allosaurus may have been too bulky to run after its own prey and was probably only a scavenger."
+    },
+    {
+      "id": "compsognathus",
+      "title": "Compsognathus",
+      "image": "assets/extt/EXTT13PU.webp",
+      "text": "This toothy little dinosaur was given the unlikely name \"pretty jaw.\" One of the smallest dinosaurs, Compsognathus was also a meat-eater who hunted even smaller lizards and insects. The skeleton of this dinosaur resembles that of Archaeopteryx, causing scientists to think that birds and dinosaurs might be related."
+    },
+    {
+      "id": "megalosaurus",
+      "title": "Megalosaurus",
+      "image": "assets/extt/EXTT14PU.webp",
+      "text": "One of the first dinosaurs recognized, this Jurassic carnivore lived in the areas we know as England, France and northern Africa. Footprints found in southern England show that herds of Megalosaurus walked upright on two legs, perhaps swinging their long tails behind them for balance."
+    },
+    {
+      "id": "ceratosaurus",
+      "title": "Ceratosaurus",
+      "image": "assets/extt/EXTT15PU.webp",
+      "text": "This North American \"horned lizard\" was a predator of the Late Jurassic period and may have hunted Camarasaurus or Brachiosaurus for its food. Since it might have had to compete with the larger Allosaurus that lived in the same area, maybe Ceratosaurus hunted in packs."
+    },
+    {
+      "id": "stegosaurus",
+      "title": "Stegosaurus",
+      "image": "assets/extt/EXTT16PU.webp",
+      "text": "This stegosaur is the most famous member of its family and is readily recognizable by the upright plates along its back and long, sturdy spines at the tip of its tail. An unusual hollow in its hip vertebrae has caused some interesting speculations, including one idea that it may have housed a second \"brain\" that controlled the hindquarters of the animal."
+    },
+    {
+      "id": "diplodocus",
+      "title": "Diplodocus",
+      "image": "assets/extt/EXTT17PU.webp",
+      "text": "This well-known sauropod was for many years known as the longest dinosaur on record, growing to eighty-five feet in length. Recently, even larger fossil bones were discovered that may have belonged to a creature almost twice the size of Diplodocus."
+    },
+    {
+      "id": "camarasaurus",
+      "title": "Camarasaurus",
+      "image": "assets/extt/EXTT18PU.webp",
+      "text": "This dinosaur lived in North America during the Late Jurassic period, browsing the tropical plains, eating ferns and horsetails. Camarasaurus was smaller than other sauropods of its time, with a shorter neck and tail, a skull that was round with a blunt snout, and long, spoon-shaped teeth."
+    },
+    {
+      "id": "brachiosaurus",
+      "title": "Brachiosaurus",
+      "image": "assets/extt/EXTT19PU.webp",
+      "text": "The largest dinosaur on record for some time, it has recently been knocked from its pedestal due to the discovery of even larger bones in western North America. At forty feet tall, however, Brachiosaurus still remains awesome and impressive."
+    },
+    {
+      "id": "baryonyx",
+      "title": "Baryonyx",
+      "image": "assets/extt/EXTT20PU.webp",
+      "text": "Fossil evidence from the Early Cretaceous period suggests Baryonyx stalked the riverbanks, hunting for fish. Each of its front \"hands\" had a huge, curved claw that measured about one foot long. Perhaps it used these claws to snag passing fish in prehistoric streams."
+    },
+    {
+      "id": "archaeopteryx",
+      "title": "Archaeopteryx",
+      "image": "assets/extt/EXTT21PU.webp",
+      "text": "This feathered dinosaur died out in the Late Jurassic period around 120 million years ago. Unlike birds of today, Archaeopteryx had a beak lined with small, sharp teeth, and was not capable of sustained flight."
+    },
+    {
+      "id": "protoceratops",
+      "title": "Protoceratops",
+      "image": "assets/extt/EXTT22PU.webp",
+      "text": "This early Asian ceratopsian was significantly smaller than later horned dinosaurs. The average adult reached a length of six to eight feet. Some experts believe they evolved from the parrot dinosaurs of the Early Cretaceous period, and survived until around 75 million years ago."
+    },
+    {
+      "id": "hypsilophodon",
+      "title": "Hypsilophodon",
+      "image": "assets/extt/EXTT23PU.webp",
+      "text": "Hypsilophodon became extinct with the rest of the dinosaurs around 65 million years ago, but had flourished for about 100 million years before. These creatures may have lived in social herds, like deer do today, staying close together and keeping an alert eye out for dangerous predators on the prowl."
+    },
+    {
+      "id": "deinonychus",
+      "title": "Deinonychus",
+      "image": "assets/extt/EXTT24PU.webp",
+      "text": "A pack of Deinonychus may have been a most feared sight in Early Cretaceous times. Every feature of this reptile indicates it was built to hunt and kill. It would seem only a powerful disaster could possibly have wiped out this survivalist."
+    },
+    {
+      "id": "oviraptor",
+      "title": "Oviraptor",
+      "image": "assets/extt/EXTT25PU.webp",
+      "text": "This unusual carnivore had no teeth in its blunt beak, but had two pointed spikes in the roof of its mouth, like a snake's fangs. Its beak was strong enough to crush objects as hard as bones."
+    },
+    {
+      "id": "iguanodon",
+      "title": "Iguanodon",
+      "image": "assets/extt/EXTT26PU.webp",
+      "text": "This dinosaur's fossils are the world's most widely found. Iguanodon lived in almost every country in the world before the continents became separated. Whether Iguanodon walked on two feet or four has often been debated among scientists."
+    },
+    {
+      "id": "triceratops",
+      "title": "Triceratops",
+      "image": "assets/extt/EXTT27PU.webp",
+      "text": "This famous ceratopsian lived in the Cretaceous period and died out during the great extinction 65 million years ago. No one really knows why the dinosaurs died, or how suddenly extinction may have occurred, but Triceratops was one of the last species to survive."
+    },
+    {
+      "id": "ankylosaurus",
+      "title": "Ankylosaurus",
+      "image": "assets/extt/EXTT28PU.webp",
+      "text": "The largest in its family of ankylosaurs, this immense tank of a dinosaur survived until the end of the Cretaceous period, becoming extinct with the rest of the dinosaurs. With such tremendous armor, spikes, and bony shields for protection, it is hard to imagine anything could destroy this powerful beast."
+    },
+    {
+      "id": "tyrannosaurus-rex",
+      "title": "Tyrannosaurus Rex",
+      "image": "assets/extt/EXTT29PU.webp",
+      "text": "\"Terrifying,\" \"a savage predator,\" or \"a killing machine\" are all typical descriptions of this monstrous dinosaur, which lived until the end of the Age of Dinosaurs. The utter terror associated with the name Tyrannosaurus rex has been the greatest attraction for dinosaur fans, young and old."
+    },
+    {
+      "id": "gallimimus",
+      "title": "Gallimimus",
+      "image": "assets/extt/EXTT31PU.webp",
+      "text": "This member of the \"ostrich dinosaurs\" survived until the end of the Age of Dinosaurs, 65 million years ago. These meat-eating dinosaurs had features more like today's birds, such as toothless beaks, large eyes, and big brains. Such characteristics would have made them well-coordinated and intelligent hunters."
+    },
+    {
+      "id": "dravidosaurus",
+      "title": "Dravidosaurus",
+      "image": "assets/extt/EXTT32PU.webp",
+      "text": "Living long after other stegosaurs had become extinct, this dinosaur survived late into the Cretaceous period near the end of the Age of Dinosaurs. Its remains have been found only in India. Perhaps it lived there when India was still an island continent."
+    },
+    {
+      "id": "saltasaurus",
+      "title": "Saltasaurus",
+      "image": "assets/extt/EXTT33PU.webp",
+      "text": "Because fossils of this Late Cretaceous sauropod have been found only in Argentina, South America, this may indicate the continents were already beginning to separate. The dinosaurs would have been unable to cross large bodies of water."
+    },
+    {
+      "id": "parasaurolophus",
+      "title": "Parasaurolophus",
+      "image": "assets/extt/EXTT34PU.webp",
+      "text": "This unique dinosaur is recognized by the long, backward-pointing horn that grew from the front of its snout and stretched back over its head as far as six feet. By the time of its extinction 65 million years ago, Parasaurolophus and other members of its hadrosaur family had migrated to nearly every country in the northern hemisphere."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Extinction",
+      "to": "exti"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/extt/EXTT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Plateosaurus",
+            "to": "plateosaurus",
+            "x": 2,
+            "y": 43,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Coelophysis",
+            "to": "coelophysis",
+            "x": 2,
+            "y": 50,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Massospondylus",
+            "to": "massospondylus",
+            "x": 2,
+            "y": 57,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Lesothosaurus",
+            "to": "lesothosaurus",
+            "x": 2,
+            "y": 63,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Heterodontosaurus",
+            "to": "heterodontosaurus",
+            "x": 2,
+            "y": 68,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Anchisaurus",
+            "to": "anchisaurus",
+            "x": 2,
+            "y": 74,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Allosaurus",
+            "to": "allosaurus",
+            "x": 2,
+            "y": 80,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Tuojiangosaurus",
+            "to": "tuojiangosaurus",
+            "x": 43,
+            "y": 32,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Apatosaurus",
+            "to": "apatosaurus",
+            "x": 64,
+            "y": 7,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Megalosaurus",
+            "to": "megalosaurus",
+            "x": 60,
+            "y": 12,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Ceratosaurus",
+            "to": "ceratosaurus",
+            "x": 65,
+            "y": 50,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Stegosaurus",
+            "to": "stegosaurus",
+            "x": 65,
+            "y": 56,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Compsognathus",
+            "to": "compsognathus",
+            "x": 45,
+            "y": 80,
+            "w": 23,
+            "h": 5
+          }
+        ]
+      },
+      "coelophysis": {
+        "image": "assets/extt/EXTT04PU.webp",
+        "back": "main"
+      },
+      "plateosaurus": {
+        "image": "assets/extt/EXTT05PU.webp",
+        "back": "main"
+      },
+      "heterodontosaurus": {
+        "image": "assets/extt/EXTT06PU.webp",
+        "back": "main"
+      },
+      "massospondylus": {
+        "image": "assets/extt/EXTT07PU.webp",
+        "back": "main"
+      },
+      "lesothosaurus": {
+        "image": "assets/extt/EXTT08PU.webp",
+        "back": "main"
+      },
+      "anchisaurus": {
+        "image": "assets/extt/EXTT09PU.webp",
+        "back": "main"
+      },
+      "tuojiangosaurus": {
+        "image": "assets/extt/EXTT10PU.webp",
+        "back": "main"
+      },
+      "apatosaurus": {
+        "image": "assets/extt/EXTT11PU.webp",
+        "back": "main"
+      },
+      "allosaurus": {
+        "image": "assets/extt/EXTT12PU.webp",
+        "back": "main"
+      },
+      "compsognathus": {
+        "image": "assets/extt/EXTT13PU.webp",
+        "back": "main"
+      },
+      "megalosaurus": {
+        "image": "assets/extt/EXTT14PU.webp",
+        "back": "main"
+      },
+      "ceratosaurus": {
+        "image": "assets/extt/EXTT15PU.webp",
+        "back": "main"
+      },
+      "stegosaurus": {
+        "image": "assets/extt/EXTT16PU.webp",
+        "back": "main"
+      },
+      "diplodocus": {
+        "image": "assets/extt/EXTT17PU.webp",
+        "back": "main"
+      },
+      "camarasaurus": {
+        "image": "assets/extt/EXTT18PU.webp",
+        "back": "main"
+      },
+      "brachiosaurus": {
+        "image": "assets/extt/EXTT19PU.webp",
+        "back": "main"
+      },
+      "baryonyx": {
+        "image": "assets/extt/EXTT20PU.webp",
+        "back": "main"
+      },
+      "archaeopteryx": {
+        "image": "assets/extt/EXTT21PU.webp",
+        "back": "main"
+      },
+      "protoceratops": {
+        "image": "assets/extt/EXTT22PU.webp",
+        "back": "main"
+      },
+      "hypsilophodon": {
+        "image": "assets/extt/EXTT23PU.webp",
+        "back": "main"
+      },
+      "deinonychus": {
+        "image": "assets/extt/EXTT24PU.webp",
+        "back": "main"
+      },
+      "oviraptor": {
+        "image": "assets/extt/EXTT25PU.webp",
+        "back": "main"
+      },
+      "iguanodon": {
+        "image": "assets/extt/EXTT26PU.webp",
+        "back": "main"
+      },
+      "triceratops": {
+        "image": "assets/extt/EXTT27PU.webp",
+        "back": "main"
+      },
+      "ankylosaurus": {
+        "image": "assets/extt/EXTT28PU.webp",
+        "back": "main"
+      },
+      "tyrannosaurus-rex": {
+        "image": "assets/extt/EXTT29PU.webp",
+        "back": "main"
+      },
+      "gallimimus": {
+        "image": "assets/extt/EXTT31PU.webp",
+        "back": "main"
+      },
+      "dravidosaurus": {
+        "image": "assets/extt/EXTT32PU.webp",
+        "back": "main"
+      },
+      "saltasaurus": {
+        "image": "assets/extt/EXTT33PU.webp",
+        "back": "main"
+      },
+      "parasaurolophus": {
+        "image": "assets/extt/EXTT34PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/extt/EXTT00AP.mp3",
+  "narration": "assets/extt/EXTT00AJ.mp3"
+}

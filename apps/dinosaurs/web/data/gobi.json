@@ -1,0 +1,243 @@
+{
+  "id": "gobi",
+  "code": "GOBI",
+  "name": "Gobi Desert Expeditions",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "GO-bee DEH-zert ex-peh-DIH-shunz",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "A vast, scorching desert where brave explorers uncovered the world's first dinosaur eggs!",
+  "hero": {
+    "image": "assets/gobi/GOBI00AA.webp",
+    "alt": "Gobi Desert Expeditions"
+  },
+  "intro": "The Gobi Desert in Mongolia is a vast area of rock and sand, where winds and sandstorms sweep across the mountain slopes and valley floors. In winter the temperature can drop to -104ºF, and in summer it might reach more than 133ºF! In the 1920s, several expeditions sponsored by the American Museum of Natural History ventured into this forbidding area. The first expedition was looking for the origin of the human race. Instead of human remains, they found the first dinosaur eggs! Since 1963, many other dinosaur-hunting expeditions have criss-crossed the area, making more spectacular finds. Each expedition has been a unique adventure.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Mongolia"
+    },
+    {
+      "label": "Winter Temperature",
+      "value": "as low as -104ºF"
+    },
+    {
+      "label": "Summer Temperature",
+      "value": "more than 133ºF"
+    },
+    {
+      "label": "First Expeditions",
+      "value": "1920s, sponsored by the American Museum of Natural History"
+    },
+    {
+      "label": "Notable Discovery",
+      "value": "First dinosaur eggs ever found"
+    },
+    {
+      "label": "Modern Expeditions",
+      "value": "Since 1963"
+    }
+  ],
+  "topics": [
+    {
+      "id": "a-perfect-find",
+      "title": "A Perfect Find",
+      "image": "assets/gobi/GOBI01PU.webp",
+      "text": "One amazing find was an almost-complete skeleton of Tarbosaurus, nearly perfectly preserved after its death 80 million years ago. Early Chinese people thought that dinosaur bones belonged to dragons that had flown down from the heavens.",
+      "captions": [
+        {
+          "label": "Plaster cast",
+          "text": "Because the bones were going to be removed from the rock, an exact plaster replica of the find was made for display purposes."
+        },
+        {
+          "label": "Tarbosaurus or Tyrannosaurus rex?",
+          "text": "Tarbosaurus is so similar to Tyrannosaurus rex that experts think they may be the same kind of dinosaur that ranged from Asia to North America. So far, at least thirteen Tarbosaurus skeletons have been found in the Nemegt Basin in Mongolia. The largest was nearly forty feet long!"
+        }
+      ]
+    },
+    {
+      "id": "arms-only",
+      "title": "Arms Only",
+      "image": "assets/gobi/GOBI02PU.webp",
+      "text": "All we know about a dinosaur named Deinocheirus is that it had eight-foot-long arms! Maybe it was as big as Tyrannosaurus rex, but had long arms? None of the rest of the skeleton has been found, so nobody knows for sure.",
+      "captions": [
+        {
+          "label": "Spotted in the sand",
+          "text": "On a rainy day, workers spotted the Deinocheirus bones sticking out of the loose sand on top of a small hill. They found shoulder bones, arms, and claws, and a few scraps of ribs and vertebrae. It pays to keep a sharp look out for dinosaur bones at all times!"
+        }
+      ]
+    },
+    {
+      "id": "ancient-eggs",
+      "title": "Ancient Eggs",
+      "image": "assets/gobi/GOBI03PU.webp",
+      "text": "Among the amazing discoveries in the 1920s were fifty Protoceratops eggs in fossilized nests, and Protoceratops skeletons of all sizes, ranging from newly hatched babies to adults. This was some of the first solid evidence that dinosaurs laid eggs.",
+      "captions": [
+        {
+          "label": "Asian eggs",
+          "text": "Here R.C. Andrews is shown examining the Protoceratops eggs discovered in the Gobi Desert."
+        },
+        {
+          "label": "American dinosaur eggs",
+          "text": "In Montana, paleontologist Jack Horner has discovered many nests and dinosaur eggs belonging to a duckbilled dinosaur named Maiasaura. The site was appropriately dubbed Egg Mountain."
+        }
+      ]
+    },
+    {
+      "id": "egg-headed-dinosaur",
+      "title": "Egg-Headed Dinosaur",
+      "image": "assets/gobi/GOBI04PU.webp",
+      "text": "If you didn't look closely, you might mistake this Prenocephale skull for a giant fossil egg! This fossil skull of a bone-headed dinosaur was found in soft sandstone in the Gobi Desert. The inside of the skull was so well preserved that the fine bones of the brain case, with openings for nerves and blood vessels, can be seen perfectly.",
+      "captions": [
+        {
+          "label": "Bonehead bashing",
+          "text": "Prenocephale had an egg-shaped dome on its head that was nearly a foot thick. Like a crash helmet, this thick skull may have protected Prenocephale as the dinosaur participated in head-bashing contests with rival males."
+        }
+      ]
+    },
+    {
+      "id": "andrews-and-crew",
+      "title": "Andrews and Crew",
+      "image": "assets/gobi/GOBI05PU.webp",
+      "text": "Roy Chapman (R. C.) Andrews led some of the 1920s expeditions. Andrews is considered by many paleontologists to have been more of an adventurer than a serious scientist.",
+      "captions": [
+        {
+          "label": "Traditional transportation",
+          "text": "More than 100 camels carried camp supplies and gasoline for the cars. The animals also served as transportation around the camp. Here expedition leader R.C. Andrews is shown returning to camp after a hunt."
+        },
+        {
+          "label": "Motorized caravan",
+          "text": "The expeditions used a fleet of cars to transport their crew to and from their base in Beijing. The desert heat made it necessary to stop frequently to cool the engines."
+        }
+      ]
+    },
+    {
+      "id": "monstrous-mammals-too",
+      "title": "Monstrous Mammals, Too",
+      "image": "assets/gobi/GOBI06PU.webp",
+      "text": "This photo, taken in 1928, shows a team excavating the bones of a prehistoric animal they called \"The Monster.\" This animal was a primitive rhinoceros-like mammal, nearly thirty feet high at the shoulders, that lived 10 to 15 million years ago. The remains of many different types of prehistoric animals have been discovered in the Gobi Desert."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What is Paleontology?",
+      "to": "pale"
+    },
+    {
+      "label": "Tarbosaurus",
+      "to": "tarb"
+    },
+    {
+      "label": "The Making of a Fossil",
+      "to": "makf"
+    },
+    {
+      "label": "Nests and Eggs",
+      "to": "nest"
+    },
+    {
+      "label": "The Story in a Skull",
+      "to": "stor"
+    },
+    {
+      "label": "Early Dinosaur Detectives",
+      "to": "edet"
+    },
+    {
+      "label": "Cynognathus",
+      "to": "cyno"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/gobi/GOBI00AA.webp",
+        "hotspots": [
+          {
+            "label": "A perfect find",
+            "to": "a-perfect-find",
+            "x": 2,
+            "y": 72,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Andrews and crew",
+            "to": "andrews-and-crew",
+            "x": 14,
+            "y": 82,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Monstrous mammals, too",
+            "to": "monstrous-mammals-too",
+            "x": 60,
+            "y": 51,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Egg-headed dinosaur",
+            "to": "egg-headed-dinosaur",
+            "x": 66,
+            "y": 60,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Ancient eggs",
+            "to": "ancient-eggs",
+            "x": 66,
+            "y": 68,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Arms only",
+            "to": "arms-only",
+            "x": 63,
+            "y": 82,
+            "w": 15,
+            "h": 5
+          }
+        ]
+      },
+      "a-perfect-find": {
+        "image": "assets/gobi/GOBI01PU.webp",
+        "back": "main"
+      },
+      "arms-only": {
+        "image": "assets/gobi/GOBI02PU.webp",
+        "back": "main"
+      },
+      "ancient-eggs": {
+        "image": "assets/gobi/GOBI03PU.webp",
+        "back": "main"
+      },
+      "egg-headed-dinosaur": {
+        "image": "assets/gobi/GOBI04PU.webp",
+        "back": "main"
+      },
+      "andrews-and-crew": {
+        "image": "assets/gobi/GOBI05PU.webp",
+        "back": "main"
+      },
+      "monstrous-mammals-too": {
+        "image": "assets/gobi/GOBI06PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/gobi/GOBI00AP.mp3",
+  "narration": "assets/gobi/GOBI00AJ.mp3",
+  "sound": "assets/gobi/GOBI00SA.mp3"
+}

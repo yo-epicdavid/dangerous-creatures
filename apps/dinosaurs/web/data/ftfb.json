@@ -1,0 +1,228 @@
+{
+  "id": "ftfb",
+  "code": "FTFB",
+  "name": "Faces From the Past",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Bones, teeth, and fossil clues helped scientists rebuild the real faces of creatures that ruled Earth for 150 million years.",
+  "hero": {
+    "image": "assets/ftfb/FTFB00AA.webp",
+    "alt": "Faces From the Past"
+  },
+  "intro": "Dinosaurs died out at the end of the Cretaceous period, around 65 million years ago.  So how do we know what dinosaurs looked like?  Their bones, teeth, footprints, and even skin impressions have been preserved as fossils.  By studying dinosaurs' fossil remains and combining the information gained with current knowledge of modern reptiles, scientists have built up images of these unique animals that ruled the Earth for more than 150 million years.  Here are some artists' ideas of what a few prehistoric faces looked like.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "edmontosaurus",
+      "title": "Edmontosaurus",
+      "image": "assets/ftfb/FTFB01PU.webp",
+      "text": "This duckbilled dinosaur came from North America.  Like other hadrosaurs, Edmontosaurus was constantly growing new teeth to replace old ones that had been worn out from chewing woody plants."
+    },
+    {
+      "id": "eudimorphodon",
+      "title": "Eudimorphodon",
+      "image": "assets/ftfb/FTFB02PU.webp",
+      "text": "This creature was not a dinosaur at all, but a flying reptile, or pterosaur.  Although Hollywood has produced films showing pterosaurs carrying off humans, these airborne reptiles died out long before humans appeared on Earth, as did dinosaurs."
+    },
+    {
+      "id": "archaeopteryx",
+      "title": "Archaeopteryx",
+      "image": "assets/ftfb/FTFB03PU.webp",
+      "text": "Thought by many to be the earliest known bird, this animal also shares many similarities with dinosaurs.  The discovery of feathered Archaeopteryx caused scientists to look at dinosaurs in a whole new way."
+    },
+    {
+      "id": "protoceratops",
+      "title": "Protoceratops",
+      "image": "assets/ftfb/FTFB04PU.webp",
+      "text": "This dog-sized dinosaur was a primitive and early cousin of the giant horned dinosaurs.  Expeditions to the Gobi Desert in Mongolia uncovered startling evidence of likely nests and eggs of this ceratopsian dinosaur."
+    },
+    {
+      "id": "ankylosaurus",
+      "title": "Ankylosaurus",
+      "image": "assets/ftfb/FTFB05PU.webp",
+      "text": "The body armor worn by this plant-eater protected it from predators.  More than thirty feet long and weighing four tons, Ankylosaurus is the heaviest armored dinosaur identified so far."
+    },
+    {
+      "id": "stegosaurus",
+      "title": "Stegosaurus",
+      "image": "assets/ftfb/FTFB06PU.webp",
+      "text": "The plates on this dinosaur's back may have regulated its temperature.  Because the plates were embedded in the skin and not connected to the skeleton, scientists are not sure of their exact position in life, so Stegosaurus specimens have appeared with a variety of plate patterns."
+    },
+    {
+      "id": "euoplocephalus",
+      "title": "Euoplocephalus",
+      "image": "assets/ftfb/FTFB07PU.webp",
+      "text": "This ankylosaur was built like an armored tank.  Only a large and desperately hungry predator would risk breaking its teeth and claws on such well-protected prey."
+    },
+    {
+      "id": "centrosaurus",
+      "title": "Centrosaurus",
+      "image": "assets/ftfb/FTFB08PU.webp",
+      "text": "Neck spikes and a nose horn gave this ceratopsian a menacing look.  Horned dinosaurs were plant-eaters whose tough beaks allowed them to slice through stringy plants that other dinosaurs couldn't eat."
+    },
+    {
+      "id": "troodon",
+      "title": "Troodon",
+      "image": "assets/ftfb/FTFB09PU.webp",
+      "text": "The smartest of all known dinosaurs, Troodon had a larger brain compared to its body size than any animal of its time.  The discovery of many small, speedy dinosaurs like this one has led paleontologists to speculate that some dinosaurs may have been warm-blooded."
+    },
+    {
+      "id": "triceratops",
+      "title": "Triceratops",
+      "image": "assets/ftfb/FTFB10PU.webp",
+      "text": "The three horns on its face gave this heavyweight its name.  Triceratops was one of the last and most famous of the horned dinosaurs (ceratopsians) and often appears in illustrations and cartoons, and on store shelves in the form of models and toys."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Face to Face",
+      "to": "ftfa"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/ftfb/FTFB00AA.webp",
+        "hotspots": [
+          {
+            "label": "Troodon",
+            "to": "troodon",
+            "x": 82,
+            "y": 11,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Archaeopteryx",
+            "to": "archaeopteryx",
+            "x": 76,
+            "y": 30,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Eudimorphodon",
+            "to": "eudimorphodon",
+            "x": 50,
+            "y": 25,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Triceratops",
+            "to": "triceratops",
+            "x": 77,
+            "y": 54,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Edmontosaurus",
+            "to": "edmontosaurus",
+            "x": 75,
+            "y": 82,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Centrosaurus",
+            "to": "centrosaurus",
+            "x": 13,
+            "y": 74,
+            "w": 15,
+            "h": 6
+          },
+          {
+            "label": "Euoplocephalus",
+            "to": "euoplocephalus",
+            "x": 21,
+            "y": 47,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Protoceratops",
+            "to": "protoceratops",
+            "x": 3,
+            "y": 85,
+            "w": 15,
+            "h": 6
+          },
+          {
+            "label": "Stegosaurus",
+            "to": "stegosaurus",
+            "x": 32,
+            "y": 87,
+            "w": 14,
+            "h": 6
+          },
+          {
+            "label": "Ankylosaurus",
+            "to": "ankylosaurus",
+            "x": 53,
+            "y": 87,
+            "w": 15,
+            "h": 6
+          }
+        ]
+      },
+      "edmontosaurus": {
+        "image": "assets/ftfb/FTFB01PU.webp",
+        "back": "main"
+      },
+      "eudimorphodon": {
+        "image": "assets/ftfb/FTFB02PU.webp",
+        "back": "main"
+      },
+      "archaeopteryx": {
+        "image": "assets/ftfb/FTFB03PU.webp",
+        "back": "main"
+      },
+      "protoceratops": {
+        "image": "assets/ftfb/FTFB04PU.webp",
+        "back": "main"
+      },
+      "ankylosaurus": {
+        "image": "assets/ftfb/FTFB05PU.webp",
+        "back": "main"
+      },
+      "stegosaurus": {
+        "image": "assets/ftfb/FTFB06PU.webp",
+        "back": "main"
+      },
+      "euoplocephalus": {
+        "image": "assets/ftfb/FTFB07PU.webp",
+        "back": "main"
+      },
+      "centrosaurus": {
+        "image": "assets/ftfb/FTFB08PU.webp",
+        "back": "main"
+      },
+      "troodon": {
+        "image": "assets/ftfb/FTFB09PU.webp",
+        "back": "main"
+      },
+      "triceratops": {
+        "image": "assets/ftfb/FTFB10PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/ftfb/FTFB00AA.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/ftfb/FTFB00AP.mp3",
+  "narration": "assets/ftfb/FTFB00AJ.mp3",
+  "sound": "assets/ftfb/FTFB00SA.mp3"
+}

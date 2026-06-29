@@ -1,0 +1,261 @@
+{
+  "id": "turt",
+  "code": "TURT",
+  "name": "Sea Turtles",
+  "category": "creature",
+  "scientificName": "Eretmochelys imbricata",
+  "needsScientificVerify": false,
+  "tagline": "Ancient ocean travelers that outlasted the dinosaurs — but can they survive us?",
+  "zones": [
+    "Coast & tide pools",
+    "Coral reef",
+    "Open ocean"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/turt/TURT00AA.webp",
+    "alt": "Sea Turtles"
+  },
+  "intro": "Turtles have been gliding through the oceans for millions and millions of years. They come ashore only to breed and lay eggs, so most of their lives remains a mystery to us. These gentle creatures have outlived the dinosaurs, but their numbers are shrinking every year. Can they survive sharing this planet with humans?",
+  "facts": [
+    {
+      "label": "Species",
+      "value": "There are eight species of sea turtles, and every one of them seems to be dwindling."
+    },
+    {
+      "label": "Diet",
+      "value": "The green turtle eats mostly plants; other types of turtles eat jellyfish, crustaceans, and small fish."
+    },
+    {
+      "label": "Migration",
+      "value": "Leatherback turtles venture as far north as Greenland and Iceland in search of jellyfish, then migrate back to tropical beaches."
+    },
+    {
+      "label": "Ancient",
+      "value": "Sea turtles have been gliding through the oceans for millions and millions of years — they outlived the dinosaurs."
+    },
+    {
+      "label": "Did you know",
+      "value": "Baby turtles naturally head toward moonlight reflecting off the water, and can be led astray by manmade lights."
+    },
+    {
+      "label": "Danger",
+      "value": "Sea turtles die from swallowing plastic bags, which look just like jellyfish underwater."
+    }
+  ],
+  "topics": [
+    {
+      "id": "types-of-turtles",
+      "title": "Types of turtles",
+      "image": "assets/turt/TURT01PU.webp",
+      "text": "There are eight species of sea turtles, and every one of them seems to be dwindling. A few species, like the gravely endangered Kemp's Ridley turtle, are rarely seen today. Sea turtles, especially the green turtle, are valued for their flesh, oil, and eggs. The hawksbill turtle is also killed for its beautiful shell, which is sold in many places as \"tortoiseshell.\" But even turtles that are not hunted by humans are endangered by the loss of shoreline habitats such as mangrove swamps, which provide them with shelter and food, and by the loss of their wild nesting beaches to development.",
+      "captions": [
+        {
+          "label": "Green turtle",
+          "text": "Chelonia mydas"
+        },
+        {
+          "label": "Loggerhead turtle",
+          "text": "Caretta caretta"
+        },
+        {
+          "label": "Tortoiseshell",
+          "text": "Hawksbill shell sold in many places as \"tortoiseshell\""
+        }
+      ],
+      "narration": "assets/turt/TURT01JN.mp3"
+    },
+    {
+      "id": "turtle-food",
+      "title": "Turtle food",
+      "image": "assets/turt/TURT03PU.webp",
+      "text": "Different turtles like different kinds of food. The green turtle—named for the color of its body fat, and not for that of its skin—eats mostly plants. Other types of turtles eat jellyfish, crustaceans, and small fish. Sadly, many turtles die each year from swallowing manmade items they can't digest.",
+      "captions": [
+        {
+          "label": "Baby loggerhead turtle",
+          "text": "Caretta caretta"
+        },
+        {
+          "label": "Treacherous trash",
+          "text": "The combination of plastic bags and seawater is a deadly one for many kinds of marine animals, including turtles. Underwater, a plastic bag looks a lot like a jellyfish, a natural food item for many creatures. Swallowing plastic is usually a fatal error for any animal. Sea turtles also die from swallowing tar balls, which result from oil spills in the ocean."
+        },
+        {
+          "label": "Turtle delicacy",
+          "text": "Most sea turtles would gladly gulp down a jellyfish."
+        },
+        {
+          "label": "Plastic bags and trash on ocean beach",
+          "text": "Plastic bags and trash on ocean beach"
+        }
+      ],
+      "narration": "assets/turt/TURT03JN.mp3"
+    },
+    {
+      "id": "reptiles-of-the-sea",
+      "title": "Reptiles of the sea",
+      "image": "assets/turt/TURT04PU.webp",
+      "text": "About 200 million years ago reptiles ruled the land, skies, and seas. Besides turtles, only a few reptiles can now be found in the oceans. Here are three to keep an eye out for.",
+      "captions": [
+        {
+          "label": "Marine iguanas",
+          "text": "Amblyrhynchus cristatus"
+        },
+        {
+          "label": "Yellow-lipped sea snake",
+          "text": "Laticauda colubrina"
+        },
+        {
+          "label": "Saltwater crocodile",
+          "text": "Crocodylus porosus"
+        }
+      ],
+      "narration": "assets/turt/TURT04JN.mp3"
+    },
+    {
+      "id": "the-amazing-leatherback",
+      "title": "The amazing leatherback",
+      "image": "assets/turt/TURT05PU.webp",
+      "text": "Leatherback turtles, so named because they have soft, leathery shells, are amazing travelers. They venture as far north as Greenland and Iceland in search of the jellyfish they crave, then migrate back to tropical beaches to mate and lay their eggs. Imagine swimming thousands of miles every year!",
+      "captions": [
+        {
+          "label": "Leatherback turtle",
+          "text": "Dermochelys coriacea"
+        },
+        {
+          "label": "Migration route of leatherback turtles",
+          "text": "Winter migration and Summer migration"
+        }
+      ],
+      "narration": "assets/turt/TURT05JN.mp3"
+    },
+    {
+      "id": "nesting-beaches",
+      "title": "Nesting beaches",
+      "image": "assets/turt/TURT06PU.webp",
+      "text": "Sea turtles nest on pristine tropical coasts. They need quiet beaches with gentle slopes so they can climb out of the water; warm, clean sand in which to lay their eggs; and freedom from predators that might kill them or eat their eggs. And when hatching time arrives, it's best if it's dark out: baby turtles naturally head toward moonlight reflecting off the water, and they can be led astray by manmade lights.",
+      "captions": [
+        {
+          "label": "Crab eating hatchling turtle",
+          "text": "Crab eating hatchling turtle"
+        },
+        {
+          "label": "Sea turtle nesting sites",
+          "text": "Sea turtle nesting sites"
+        }
+      ],
+      "narration": "assets/turt/TURT06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Shoreline",
+      "to": "shor"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/turt/TURT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 3,
+            "w": 9,
+            "h": 7
+          },
+          {
+            "label": "Types of turtles",
+            "to": "types-of-turtles",
+            "x": 52,
+            "y": 20,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Turtle food",
+            "to": "turtle-food",
+            "x": 54,
+            "y": 62,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "The amazing leatherback",
+            "to": "the-amazing-leatherback",
+            "x": 5,
+            "y": 62,
+            "w": 30,
+            "h": 6
+          },
+          {
+            "label": "Reptiles of the sea",
+            "to": "reptiles-of-the-sea",
+            "x": 5,
+            "y": 70,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Nesting beaches",
+            "to": "nesting-beaches",
+            "x": 28,
+            "y": 77,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Endangered eggs",
+            "to": "video",
+            "x": 5,
+            "y": 83,
+            "w": 25,
+            "h": 6
+          }
+        ]
+      },
+      "types-of-turtles": {
+        "image": "assets/turt/TURT01PU.webp",
+        "back": "main"
+      },
+      "turtle-food": {
+        "image": "assets/turt/TURT03PU.webp",
+        "back": "main"
+      },
+      "reptiles-of-the-sea": {
+        "image": "assets/turt/TURT04PU.webp",
+        "back": "main"
+      },
+      "the-amazing-leatherback": {
+        "image": "assets/turt/TURT05PU.webp",
+        "back": "main"
+      },
+      "nesting-beaches": {
+        "image": "assets/turt/TURT06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/turt/clip.mp4",
+        "poster": "assets/turt/TURT02PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/turt/TURT00JN.mp3",
+  "sound": "assets/turt/TURT00IX.mp3",
+  "video": {
+    "title": "Endangered eggs",
+    "src": "assets/turt/clip.mp4",
+    "poster": "assets/turt/poster.webp",
+    "caption": "Loggerhead sea turtle nesting, Caretta caretta",
+    "narration": "assets/turt/TURT02JN.mp3"
+  }
+}

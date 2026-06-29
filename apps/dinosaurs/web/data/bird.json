@@ -1,0 +1,245 @@
+{
+  "id": "bird",
+  "code": "BIRD",
+  "name": "Birds and Dinosaurs",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "berdz and DY-no-SORZ",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Could birds really be living dinosaurs? The clues are hiding in their bones!",
+  "hero": {
+    "image": "assets/bird/BIRD00AA.webp",
+    "alt": "Birds and Dinosaurs"
+  },
+  "intro": "Are birds the descendants of dinosaurs? Most scientists believe that birds evolved from small, carnivorous dinosaurs that could run upright on two long, hind legs. The skeletons of these dinosaurs are very bird-like, with lower pelvic bones that pointed back and down as do those of birds. They had long, slender legs, bird-like feet, long, bony necks and tails, clawed fingers, and sharp pointed teeth. Archaeopteryx—a theropod which was about the size of a crow—had feathers that covered its wings and tail. It lived in trees and may have been capable of powered flight. But Archaeopteryx may not have been the only dinosaur covered with feathers, and it certainly wasn't alone in its bird-like behavior.",
+  "facts": [
+    {
+      "label": "Archaeopteryx size",
+      "value": "about the size of a crow"
+    },
+    {
+      "label": "Pteranodon wingspan",
+      "value": "around twenty-three feet"
+    },
+    {
+      "label": "Gallimimus speed",
+      "value": "up to thirty-five miles per hour"
+    }
+  ],
+  "topics": [
+    {
+      "id": "not-well-suited-for-flight",
+      "title": "Not Well Suited for Flight",
+      "image": "assets/bird/BIRD01PU.webp",
+      "text": "The bones of modern birds are light. They also have large, keeled breastbones and stiff backbones, which make their skeletons stronger where the powerful wing-flapping muscles are anchored to it. Archaeopteryx's bones did not have those features, but it did have feathers attached to its wings and tail. Scientists now believe it may have been capable of powered flight, although it was slow and clumsy. It may also have flapped its wings and glided as it ran fast along the ground after food."
+    },
+    {
+      "id": "sharp-teeth",
+      "title": "Sharp Teeth",
+      "image": "assets/bird/BIRD02PU.webp",
+      "text": "While Archaeopteryx had a large brain and eyes more bird-like than reptilian, it had sharp teeth in its beak, unlike beaks of modern birds.",
+      "captions": [
+        {
+          "label": "Sordes",
+          "text": "This pterosaur also had a sharp-toothed beak, which was useful for snatching fish from the sea. A relative to the dinosaur, Sordes had gull-shaped wings made of skin. Its body was covered with a thick layer of fur."
+        }
+      ]
+    },
+    {
+      "id": "read-their-hips",
+      "title": "Read Their Hips",
+      "image": "assets/bird/BIRD03PU.webp",
+      "text": "Depending on the shape and position of their hipbones, dinosaurs are classified into one of two groups: \"bird-hipped\" or ornithischian dinosaurs had two lower pelvic bones pointing backward and down, similar to the hipbone arrangement in birds; \"lizard-hipped\" or saurischian dinosaurs had two hipbones that were forked beneath the hip socket—one pointed forward, the other pointed back—which is the normal arrangement for reptiles."
+    },
+    {
+      "id": "featherless-wings",
+      "title": "Featherless Wings",
+      "image": "assets/bird/BIRD04PU.webp",
+      "text": "Pterosaurs were closely related to dinosaurs. Their leathery wings were supported by greatly elongated fourth fingers, to which elastic, fleshy membranes containing thin sheets of muscle were attached. Pteranodon had claws and a toothless beak. Unlike Archaeopteryx, it had no feathers, but instead was covered by a layer of fine fur. Pteranodon, one of the largest flying animals ever, had a wingspan of around twenty-three feet.",
+      "captions": [
+        {
+          "label": "Flying mammal",
+          "text": "A bat's wing is supported by a \"thumb\" and four long fingers. The thin, elastic skin between the fingers makes an excellent flying surface. The thumb has a claw that allows the bat to hold food or crawl about."
+        }
+      ]
+    },
+    {
+      "id": "bones-of-contention",
+      "title": "Bones of Contention",
+      "image": "assets/bird/BIRD05PU.webp",
+      "text": "The skeleton of Archaeopteryx is so similar to that of Compsognathus that when fossils of the feathered creature were first discovered, some scientists thought it either to be the remains of the small, two-legged dinosaur or those of a pterosaur.",
+      "captions": [
+        {
+          "label": "Are dinosaurs still alive today?",
+          "text": "The similarities of all these skeleton types provide good evidence that birds and dinosaurs shared common ancestors. Modern birds, however, have developed large breastbones."
+        }
+      ]
+    },
+    {
+      "id": "reptiles-that-soared",
+      "title": "Reptiles That Soared",
+      "image": "assets/bird/BIRD06PU.webp",
+      "text": "While often called \"flying dinosaurs,\" pterosaurs were not really dinosaurs, but a closely related reptile. Their leathery wings were long and shaped like those of a gull. Scientists first thought pterosaurs were gliders with broad, bat-like wings. But recent evidence shows that these creatures had strong muscles and could flap their wings like a bird. One pterosaur, Cearadactylus, somewhat resembled a modern seabird with its smooth, rounded head and long beak.",
+      "captions": [
+        {
+          "label": "Fly or glide?",
+          "text": "Archaeopteryx did not have a breastbone, nor the strong flying muscles that would attach to it, as do modern birds. But its wing feathers were asymmetrical, like those of modern birds, which give the wing lift. So while the first known bird was able to indulge in powered flight, it probably used its wings more for gliding than flying."
+        }
+      ]
+    },
+    {
+      "id": "bird-face",
+      "title": "Bird Face",
+      "image": "assets/bird/BIRD07PU.webp",
+      "text": "Beaks and bird-like eyes were not uncommon among the dinosaurs. Because its beaked face resembled that of a parrot, this dinosaur was named Psittacosaurus, which means \"parrot lizard.\"",
+      "captions": [
+        {
+          "label": "Struthiomimus",
+          "text": "This dinosaur looked very much like an ostrich except that it lacked feathers."
+        },
+        {
+          "label": "Gallimimus",
+          "text": "One of the fastest dinosaurs, this \"ostrich dinosaur\" could run up to thirty-five miles per hour—nearly as fast as a modern racehorse. Both Gallimimus and Struthiomimus were classified as ornithomimosaurs, which means \"bird-imitating lizards.\""
+        },
+        {
+          "label": "Archaeopteryx",
+          "text": "This creature is the earliest known bird. While its head was shaped much like those of modern birds, its beak had sharp teeth like those of many dinosaurs."
+        }
+      ]
+    },
+    {
+      "id": "ostrich-dinosaurs",
+      "title": "Ostrich Dinosaurs",
+      "image": "assets/bird/BIRD08PU.webp",
+      "text": "Like the ostrich, Gallimimus moved on two long, hind legs. It was built for speed and could outrun most other dinosaurs.",
+      "captions": [
+        {
+          "label": "Modern ostrich",
+          "text": "The modern ostrich is very much like its dinosaur cousin, Gallimimus. Both are built to run swiftly on long, slender hind legs. Like Gallimimus, the ostrich has narrow feet built for speed. The only parts of the feet that touch the ground are the toes, so that a predator (or prey) could never catch them \"flat-footed.\""
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "How to Recognize Theropods",
+      "to": "hthr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/bird/BIRD00AA.webp",
+        "hotspots": [
+          {
+            "label": "Not well suited for flight",
+            "to": "not-well-suited-for-flight",
+            "x": 66,
+            "y": 17,
+            "w": 28,
+            "h": 8
+          },
+          {
+            "label": "Sharp teeth",
+            "to": "sharp-teeth",
+            "x": 42,
+            "y": 30,
+            "w": 20,
+            "h": 7
+          },
+          {
+            "label": "Reptiles that soared",
+            "to": "reptiles-that-soared",
+            "x": 66,
+            "y": 38,
+            "w": 26,
+            "h": 7
+          },
+          {
+            "label": "Bones of contention",
+            "to": "bones-of-contention",
+            "x": 66,
+            "y": 49,
+            "w": 26,
+            "h": 7
+          },
+          {
+            "label": "Bird face",
+            "to": "bird-face",
+            "x": 28,
+            "y": 46,
+            "w": 16,
+            "h": 7
+          },
+          {
+            "label": "Read their hips",
+            "to": "read-their-hips",
+            "x": 66,
+            "y": 60,
+            "w": 24,
+            "h": 7
+          },
+          {
+            "label": "Featherless wings",
+            "to": "featherless-wings",
+            "x": 14,
+            "y": 72,
+            "w": 24,
+            "h": 7
+          },
+          {
+            "label": "Ostrich dinosaurs",
+            "to": "ostrich-dinosaurs",
+            "x": 37,
+            "y": 81,
+            "w": 24,
+            "h": 7
+          }
+        ]
+      },
+      "not-well-suited-for-flight": {
+        "image": "assets/bird/BIRD01PU.webp",
+        "back": "main"
+      },
+      "sharp-teeth": {
+        "image": "assets/bird/BIRD02PU.webp",
+        "back": "main"
+      },
+      "read-their-hips": {
+        "image": "assets/bird/BIRD03PU.webp",
+        "back": "main"
+      },
+      "featherless-wings": {
+        "image": "assets/bird/BIRD04PU.webp",
+        "back": "main"
+      },
+      "bones-of-contention": {
+        "image": "assets/bird/BIRD05PU.webp",
+        "back": "main"
+      },
+      "reptiles-that-soared": {
+        "image": "assets/bird/BIRD06PU.webp",
+        "back": "main"
+      },
+      "bird-face": {
+        "image": "assets/bird/BIRD07PU.webp",
+        "back": "main"
+      },
+      "ostrich-dinosaurs": {
+        "image": "assets/bird/BIRD08PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/bird/BIRD00AP.mp3",
+  "narration": "assets/bird/BIRD00AJ.mp3",
+  "sound": "assets/bird/BIRD00SA.mp3"
+}

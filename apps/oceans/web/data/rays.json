@@ -1,0 +1,211 @@
+{
+  "id": "rays",
+  "code": "RAYS",
+  "name": "Rays",
+  "category": "creature",
+  "scientificName": "Batoidea",
+  "needsScientificVerify": false,
+  "tagline": "Flat, wide, and armed with venom—rays are sharks in disguise!",
+  "zones": [
+    "Coast & tide pools",
+    "Coral reef",
+    "Open ocean"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/rays/RAYS00AA.webp",
+    "alt": "Rays"
+  },
+  "intro": "Rays are bottom-dwelling fish that have broad, winglike pectoral fins. They are descendants of sharks and, like them, have cartilaginous skeletons. Also, with the exception of skates, rays give birth to live young, just as most sharks do. Rays spend the majority of their time lying camouflaged in the sand, but a few of these aerodynamic fish can swim rapidly to the surface, then take off into the air like a jet!",
+  "facts": [
+    {
+      "label": "Size",
+      "value": "Manta rays can measure as much as 7 m (23 ft) across, and can weigh up to 1½ tons."
+    },
+    {
+      "label": "Electric power",
+      "value": "Electric rays can deliver up to 300 volts—enough to stun a human!"
+    },
+    {
+      "label": "Diversity",
+      "value": "There are over 450 kinds of rays and skates."
+    },
+    {
+      "label": "Sawfish length",
+      "value": "The sawfish can grow to the impressive length of 7 m (23 ft), including its saw."
+    },
+    {
+      "label": "Defense",
+      "value": "The venom from the spine on a stingray's tail is very powerful and can cause extreme pain, swelling, and on rare occasions, even death to man or beast."
+    },
+    {
+      "label": "Did you know",
+      "value": "Female manta rays have been known to give birth in midair after leaping from the water's surface!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "shocking-behavior",
+      "title": "Shocking behavior",
+      "image": "assets/rays/RAYS01PU.webp",
+      "text": "Electric rays generate electricity through a series of muscular prisms arranged vertically on the side of their fins, like the plates of a battery. These rays can deliver up to 300 volts—enough to stun a human! It's a relief to know that they are lazy swimmers and generally stay close to the ocean bed, waiting for the fish on which they prey. These animals were responsible for one of the first scientific descriptions of electricity: Aristotle wrote of the shock an electric ray produced when it was poked with a metal rod.",
+      "narration": "assets/rays/RAYS01JN.mp3"
+    },
+    {
+      "id": "spaceship",
+      "title": "Spaceship?",
+      "image": "assets/rays/RAYS02PU.webp",
+      "text": "Mantas are the largest of all rays. It's possible that many accounts of sea monsters are based on sightings of these highly mobile, majestic creatures. Manta rays can measure as much as 7 m (23 ft) across, and can weigh up to 1½ tons. These graceful giants occasionally venture to the surface to perform spectacular leaps. Believe it or not, females have been known to give birth in midair!",
+      "narration": "assets/rays/RAYS02JN.mp3"
+    },
+    {
+      "id": "nosy-rays",
+      "title": "Nosy rays",
+      "image": "assets/rays/RAYS03PU.webp",
+      "text": "You wouldn't want to be nose-to-nose with these members of the ray family!",
+      "captions": [
+        {
+          "label": "Sharp nose",
+          "text": "It's easy to see why this fish is called a shovel-nosed ray. Perhaps its pointed nose makes it easier for it to dig into the sand to hide, or to locate fish."
+        },
+        {
+          "label": "Chainsaw slasher",
+          "text": "The sawfish, actually a ray, uses its saw-nose to slash through schools of fish and maim or stun its victims. Although the saw is really just an elongated nose made of cartilage, the 12 to 30 pairs of teeth along its edge are razor-sharp, and the saw is as hard as bone! The sawfish can grow to the impressive length of 7 m (23 ft), including its saw."
+        }
+      ],
+      "narration": "assets/rays/RAYS03JN.mp3"
+    },
+    {
+      "id": "beauty-spots",
+      "title": "Beauty spots",
+      "image": "assets/rays/RAYS04PU.webp",
+      "text": "There are over 450 kinds of rays and skates. Many are beautifully colored, or have unusual fin shapes. The blue-spotted stingray, an inhabitant of shallow waters in the Pacific and Indian oceans, is as graceful as a swan, but it's armed with a tail spike and venom.",
+      "narration": "assets/rays/RAYS04JN.mp3"
+    },
+    {
+      "id": "dangerous-defense",
+      "title": "Dangerous defense",
+      "image": "assets/rays/RAYS05PU.webp",
+      "text": "The stingray is as sleek as a sports car and—if left alone—as gentle as a kitten. It even \"sleeps\" buried in the mud. But if you step on it—watch out! If provoked, it will lash its tail up, down, and sideways. The venom from the spine on its tail is very powerful and can cause extreme pain, swelling, and on rare occasions, even death to man or beast.",
+      "captions": [
+        {
+          "label": "Sharp barb",
+          "text": "A stingray uses the pointed barb on its tail only in self-defense."
+        }
+      ],
+      "narration": "assets/rays/RAYS05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Remarkable Powers",
+      "to": "powr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/rays/RAYS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Beauty spots",
+            "to": "beauty-spots",
+            "x": 62,
+            "y": 29,
+            "w": 17,
+            "h": 6
+          },
+          {
+            "label": "Dangerous defense",
+            "to": "dangerous-defense",
+            "x": 16,
+            "y": 43,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Roles for rays",
+            "to": "video",
+            "x": 17,
+            "y": 57,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Shocking behavior",
+            "to": "shocking-behavior",
+            "x": 59,
+            "y": 52,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Spaceship?",
+            "to": "spaceship",
+            "x": 58,
+            "y": 66,
+            "w": 14,
+            "h": 6
+          },
+          {
+            "label": "Nosy rays",
+            "to": "nosy-rays",
+            "x": 16,
+            "y": 69,
+            "w": 14,
+            "h": 6
+          }
+        ]
+      },
+      "shocking-behavior": {
+        "image": "assets/rays/RAYS01PU.webp",
+        "back": "main"
+      },
+      "spaceship": {
+        "image": "assets/rays/RAYS02PU.webp",
+        "back": "main"
+      },
+      "nosy-rays": {
+        "image": "assets/rays/RAYS03PU.webp",
+        "back": "main"
+      },
+      "beauty-spots": {
+        "image": "assets/rays/RAYS04PU.webp",
+        "back": "main"
+      },
+      "dangerous-defense": {
+        "image": "assets/rays/RAYS05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/rays/clip.mp4",
+        "poster": "assets/rays/RAYS06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/rays/RAYS00JN.mp3",
+  "sound": "assets/rays/RAYS00IX.mp3",
+  "video": {
+    "title": "Roles for rays",
+    "src": "assets/rays/clip.mp4",
+    "poster": "assets/rays/poster.webp",
+    "caption": "Rays prefer tropical or subtropical waters. This lucky ray is swimming in the beautiful turquoise waters off Grand Cayman Island in the Caribbean Sea. They're generally shy creatures that spend most of their time scavenging, keeping the ocean floor clean and helping to maintain a balance in the populations of various marine animals in the food chain.",
+    "narration": "assets/rays/RAYS06JN.mp3"
+  }
+}

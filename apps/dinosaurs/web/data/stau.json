@@ -1,0 +1,116 @@
+{
+  "id": "stau",
+  "code": "STAU",
+  "name": "Staurikosaurus",
+  "category": "dinosaur",
+  "scientificName": "Staurikosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "staw-RIK-oh-SOR-us",
+  "meaning": "Southern Cross lizard",
+  "period": "Late Triassic",
+  "diet": "Carnivore",
+  "tagline": "One of the very first dinosaurs — a nimble, sharp-toothed sprinter from the dawn of the dinosaur age.",
+  "hero": {
+    "image": "assets/stau/STAU00AA.webp",
+    "alt": "Staurikosaurus"
+  },
+  "intro": "Dating from the Late Triassic period, Staurikosaurus was one of the very first dinosaurs, and one of the most primitive. It was a small, lightly built meat-eater with strong jaws and sharp teeth. Staurikosaurus's ability to run on two legs gave it an advantage over other reptiles of the period.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "South America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Triassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Southern Cross lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Theropod"
+    },
+    {
+      "label": "Length",
+      "value": "1.8m (6ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "66 lbs"
+    }
+  ],
+  "topics": [
+    {
+      "id": "triassic-terrors",
+      "title": "Triassic Terrors",
+      "image": "assets/stau/STAU01PU.webp",
+      "text": "Predators came in all shapes and sizes in prehistoric times, and not all were dinosaurs. All these hunters lived during the Triassic period, more than 200 million years ago.",
+      "captions": [
+        {
+          "label": "Two-legged predator",
+          "text": "Coelophysis had all the characteristics of a swift hunter. This ten-foot-long theropod dinosaur probably ate insects, lizards, and whatever else it could catch."
+        },
+        {
+          "label": "Terror in the sky",
+          "text": "Eudimorphodon swooped down and snagged unsuspecting fish from the water below."
+        },
+        {
+          "label": "Fish hunter",
+          "text": "Shonisaurus, an ichthyosaur, searched for fish in ancient seas."
+        },
+        {
+          "label": "Mammal-like hunter",
+          "text": "Cynognathus was a member of the therapsids—a special group of reptiles thought to be precursors of mammals."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Triassic Period",
+      "to": "tria"
+    },
+    {
+      "label": "Cynognathus",
+      "to": "cyno"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/stau/STAU00AA.webp",
+        "hotspots": [
+          {
+            "label": "Triassic terrors",
+            "to": "triassic-terrors",
+            "x": 76,
+            "y": 49,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "triassic-terrors": {
+        "image": "assets/stau/STAU01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/stau/STAU50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/stau/STAU00AP.mp3",
+  "narration": "assets/stau/STAU00AJ.mp3"
+}

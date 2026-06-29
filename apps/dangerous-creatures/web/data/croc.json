@@ -1,0 +1,275 @@
+{
+  "id": "croc",
+  "code": "CROC",
+  "name": "Crocodile",
+  "scientificName": "Crocodylus porosus",
+  "needsScientificVerify": false,
+  "tagline": "Out of the egg and into the jaws of a living dinosaur.",
+  "weapons": [
+    "Teeth & Jaws"
+  ],
+  "habitats": [
+    "Rivers, Lakes & Wetlands"
+  ],
+  "regions": [
+    "Africa",
+    "Asia",
+    "North America",
+    "Australia & Oceania"
+  ],
+  "hero": {
+    "image": "assets/croc/CROC00AA.webp",
+    "alt": "Crocodile"
+  },
+  "intro": "Just out of the egg, a crocodile doesn't look very threatening. But this baby will grow up to be a master predator that will hunt animals many times bigger than itself. Crocodiles, one of nature's most fearsome reptiles, are also one of the earth's most successful animals—they've been around since dinosaur times!",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by seizing prey in jaws and then drowning it",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Anything it can catch",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "Crocodiles frequently weep. They're not sad, though--they \"cry\" tears to remove excess salt from their bodies.",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Saltwater crocodile Up to 6.9m (23ft)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Florida (US) Africa, Asia, Australia",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "diving-equipment",
+      "title": "Diving equipment",
+      "image": "assets/croc/CROC01PU.webp",
+      "text": "Crocodiles and alligators have all kinds of unique underwater gear. They can see through a special, third eyelid when underwater, and they have a muscular flap that keeps their mouth separate from their windpipe. That way they don't gulp too much water when they're catching prey. Crocs can also close their ears so that water doesn't get in them.",
+      "captions": [
+        {
+          "label": "Swimming goggles",
+          "text": "A transparent eyelid covers the reptile's eye when it's underwater."
+        },
+        {
+          "label": "Spectacled caiman",
+          "text": "The eyes of crocodilians like this caiman are high on the head so that the animal can see above the water level while the rest of its body is submerged."
+        }
+      ],
+      "narration": "assets/croc/CROC01NP.mp3"
+    },
+    {
+      "id": "skinny-snouted-kin",
+      "title": "Skinny-snouted kin",
+      "image": "assets/croc/CROC02PU.webp",
+      "text": "The gavial is a crocodile relative that lives in India, Pakistan, Nepal, and Bangladesh. It's also known as the gharial, named for the knob on the male's nose that resembles a mud pot, or 'ghara' in the Hindi language. Males use the nose knob to produce a loud buzzing sound that warns off other males. Gavials don't really want to tangle—their slim jaws are not strong enough for fighting.",
+      "captions": [
+        {
+          "label": "Gavial skull",
+          "text": "The gavial's interlocking teeth are perfect for grasping slippery fish."
+        }
+      ],
+      "narration": "assets/croc/CROC02NP.mp3"
+    },
+    {
+      "id": "where-in-the-world",
+      "title": "Where in the world?",
+      "image": "assets/croc/CROC03PU.webp",
+      "text": "Members of the crocodilian family are spread all over the world. Here's a directory of who lives where.",
+      "captions": [
+        {
+          "label": "Alligator area",
+          "text": "With the exception of their Chinese cousins, alligators live only in the southeastern U.S."
+        },
+        {
+          "label": "Caiman country",
+          "text": "These alligator relatives are native to Central and South America. A few have escaped from pet cages into U.S. swamps."
+        },
+        {
+          "label": "Gavial territory",
+          "text": "These unusual-looking croc relatives inhabit rivers in India, Pakistan, Nepal, and Bangladesh."
+        },
+        {
+          "label": "Crocodile range",
+          "text": "More than ten species of crocs live throughout Africa, Asia, and Australia. American crocodiles are native to the U.S., but they're rare these days."
+        }
+      ],
+      "narration": "assets/croc/CROC03NP.mp3"
+    },
+    {
+      "id": "under-the-skin",
+      "title": "Under the skin",
+      "image": "assets/croc/CROC04PU.webp",
+      "text": "The skin and skeletons of crocodilians reflect their watery life. Their skin is tough and waterproof. Their eye sockets and nostrils are set way up on their heads so that they can float with just their nose and eyes above the water. Their legs are short, so they don't move very fast on land. They're set up perfectly for swimming, though, powering through the water with S-shaped sweeps of the tail.",
+      "narration": "assets/croc/CROC04NP.mp3"
+    },
+    {
+      "id": "titanic-terror",
+      "title": "Titanic terror",
+      "image": "assets/croc/CROC05PU.webp",
+      "text": "If you're swimming in salt water in Southeast Asia or northern Australia and see a tree floating toward you, you'd better look again. It could be an estuarine (or saltwater) crocodile. The largest living reptile, it can reach up to 7 meters (23 ft) in length! Unlike some other behemoths such as the whale shark, it's not a gentle giant. It's one of the few animals that truly is sometimes a \"man-eater.\"",
+      "narration": "assets/croc/CROC05NP.mp3"
+    },
+    {
+      "id": "crocodile-ranch",
+      "title": "Crocodile ranch",
+      "image": "assets/croc/CROC06PU.webp",
+      "text": "For centuries, crocodiles and alligators were hunted for their skins and sometimes for their meat. It's now illegal in many places to kill these reptiles, so people who still want crocodilian skins are starting to raise these creatures in captivity, as on this crocodile \"ranch.\"",
+      "narration": "assets/croc/CROC06NP.mp3"
+    },
+    {
+      "id": "gulp",
+      "title": "Gulp!",
+      "image": "assets/croc/CROC07PU.webp",
+      "text": "These indigestible objects have been found in the stomachs of crocodiles. Some of these things are parts of prey that the croc has eaten (such as quills and turtle shells), but some (such as the bracelets) may have been snatched up by mistake.",
+      "captions": [
+        {
+          "label": "More common food",
+          "text": "Zebras and wildebeests (also called gnus) are common meals for African crocodiles, who attack these herbivores when they come to drink."
+        }
+      ],
+      "narration": "assets/croc/CROC07NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/croc/CROC00AA.webp",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 2.22,
+            "y": 7.71,
+            "w": 6.52,
+            "h": 3.92
+          },
+          {
+            "label": "Titanic terror",
+            "to": "titanic-terror",
+            "x": 28,
+            "y": 15,
+            "w": 22,
+            "h": 4
+          },
+          {
+            "label": "Under the skin",
+            "to": "under-the-skin",
+            "x": 20.06,
+            "y": 21.63,
+            "w": 27.18,
+            "h": 9.36
+          },
+          {
+            "label": "Diving equipment",
+            "to": "diving-equipment",
+            "x": 22,
+            "y": 31,
+            "w": 22,
+            "h": 4
+          },
+          {
+            "label": "Gentle jaws?",
+            "to": "video",
+            "x": 16.14,
+            "y": 36.41,
+            "w": 19.67,
+            "h": 10.88
+          },
+          {
+            "label": "Skinny-snouted kin",
+            "to": "skinny-snouted-kin",
+            "x": 16.14,
+            "y": 43.8,
+            "w": 21.07,
+            "h": 3.49
+          },
+          {
+            "label": "Gulp!",
+            "to": "gulp",
+            "x": 57,
+            "y": 46,
+            "w": 12,
+            "h": 4
+          },
+          {
+            "label": "Crocodile ranch",
+            "to": "crocodile-ranch",
+            "x": 69.35,
+            "y": 59.67,
+            "w": 10.9,
+            "h": 4.14
+          },
+          {
+            "label": "Where in the world?",
+            "to": "where-in-the-world",
+            "x": 49.48,
+            "y": 81.19,
+            "w": 17.32,
+            "h": 4.14
+          }
+        ]
+      },
+      "diving-equipment": {
+        "image": "assets/croc/CROC01PU.webp",
+        "back": "main"
+      },
+      "skinny-snouted-kin": {
+        "image": "assets/croc/CROC02PU.webp",
+        "back": "main"
+      },
+      "where-in-the-world": {
+        "image": "assets/croc/CROC03PU.webp",
+        "back": "main"
+      },
+      "under-the-skin": {
+        "image": "assets/croc/CROC04PU.webp",
+        "back": "main"
+      },
+      "titanic-terror": {
+        "image": "assets/croc/CROC05PU.webp",
+        "back": "main"
+      },
+      "crocodile-ranch": {
+        "image": "assets/croc/CROC06PU.webp",
+        "back": "main"
+      },
+      "gulp": {
+        "image": "assets/croc/CROC07PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/croc/CROC00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/croc/clip.mp4",
+        "poster": "assets/croc/CROC08TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "ambient": "assets/croc/narration.mp3",
+  "sound": "assets/croc/CROC00AF.mp3",
+  "factsNarration": "assets/croc/CROC00FB.mp3",
+  "video": {
+    "title": "Gentle jaws?",
+    "src": "assets/croc/clip.mp4",
+    "poster": "assets/croc/poster.webp",
+    "caption": "Crocodiles exercise great control over their powerful jaws. They can clamp down on prey with bone-crushing pressure, or gently crack an egg to help a hatchling out. And when Mom wants to carry baby crocs to safety, she just opens her mouth and they crawl right in."
+  }
+}

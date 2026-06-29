@@ -1,0 +1,159 @@
+{
+  "id": "squi",
+  "code": "SQUI",
+  "name": "Squid and Cuttlefish",
+  "category": "creature",
+  "scientificName": "Cephalopoda decapoda",
+  "needsScientificVerify": false,
+  "tagline": "Head-footed masters of disguise that can jet through the ocean and change color in an instant!",
+  "zones": [
+    "Open ocean",
+    "Coral reef"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/squi/SQUI00AA.webp",
+    "alt": "Squid and Cuttlefish"
+  },
+  "intro": "How would you like to be \"head-footed\"? That's what the Cephalopod family name means. The \"feet\" of squid, cuttlefish, and octopuses are really arms or tentacles that are attached to their heads. Squid and cuttlefish have elongated bodies with a head and ten arms: eight short ones and two long ones. Both of these animals have tiny internal shells. In fact, you may have seen the internal shell of a cuttlefish inside a bird cage—it's a flat white structure called a cuttlebone.",
+  "facts": [
+    {
+      "label": "Arms",
+      "value": "Squid and cuttlefish have ten arms: eight short ones and two long ones."
+    },
+    {
+      "label": "Speed",
+      "value": "Squid can swim faster than any other invertebrate, using jet propulsion through their mantle."
+    },
+    {
+      "label": "Giant squid",
+      "value": "Giant squid can measure up to 18 m (60 ft) long."
+    },
+    {
+      "label": "Diet",
+      "value": "Squid and cuttlefish prey on crustaceans such as crabs, lobsters, and shrimp."
+    },
+    {
+      "label": "Camouflage",
+      "value": "Cuttlefish can change color instantly using small sacs of yellow, orange, brown, red, and black pigments inside their bodies."
+    },
+    {
+      "label": "Shell",
+      "value": "The internal shell of a cuttlefish is a flat white structure called a cuttlebone, sometimes found in bird cages."
+    }
+  ],
+  "topics": [
+    {
+      "id": "hungry-athletes",
+      "title": "Hungry athletes",
+      "image": "assets/squi/SQUI01PU.webp",
+      "text": "Squid can swim faster than any other invertebrate. They force a stream of water through their mantle, or body, creating jet propulsion, and rely on their triangular back fins to steer. They can jet forward to seize prey, or backward to escape a predator. They rely heavily on their keen eyesight. When a squid locates a fish or other prey, its long, sucker-equipped tentacles shoot out and grasp it tightly. Then the squid bites the head off the unlucky fish and crunches it in its powerful jaws.",
+      "narration": "assets/squi/SQUI01JN.mp3"
+    },
+    {
+      "id": "predator-and-prey",
+      "title": "Predator and prey",
+      "image": "assets/squi/SQUI02PU.webp",
+      "text": "Squid are powerful predators, but they have to be careful, too. They're in the middle of the food web, which means that there are plenty of other creatures that want to have them for lunch.",
+      "captions": [
+        {
+          "label": "Make mine shellfish",
+          "text": "Squid and cuttlefish prey on crustaceans such as crabs, lobsters, and shrimp."
+        },
+        {
+          "label": "Giant attack",
+          "text": "Sperm whales eat tremendous numbers of squid. There are stories of sperm whales doing battle with giant squid, which can measure up to 18 m (60 ft) long. But there have never been any whale remains found inside the stomachs of squid, while there have been many squid found inside whales, so there's little doubt about who wins these contests!"
+        }
+      ],
+      "narration": "assets/squi/SQUI02JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Crabs",
+      "to": "crab"
+    },
+    {
+      "label": "Inflatable Fish",
+      "to": "infl"
+    },
+    {
+      "label": "Chinese Explorers",
+      "to": "chin"
+    },
+    {
+      "label": "Angler Fish",
+      "to": "angl"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/squi/SQUI00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 2,
+            "w": 10,
+            "h": 8
+          },
+          {
+            "label": "Creators of camouflage",
+            "to": "video",
+            "x": 56,
+            "y": 16,
+            "w": 38,
+            "h": 7
+          },
+          {
+            "label": "Hungry athletes",
+            "to": "hungry-athletes",
+            "x": 60,
+            "y": 34,
+            "w": 30,
+            "h": 7
+          },
+          {
+            "label": "Predator and prey",
+            "to": "predator-and-prey",
+            "x": 5,
+            "y": 70,
+            "w": 27,
+            "h": 7
+          }
+        ]
+      },
+      "hungry-athletes": {
+        "image": "assets/squi/SQUI01PU.webp",
+        "back": "main"
+      },
+      "predator-and-prey": {
+        "image": "assets/squi/SQUI02PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/squi/clip.mp4",
+        "poster": "assets/squi/SQUI03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/squi/SQUI00JN.mp3",
+  "sound": "assets/squi/SQUI00IX.mp3",
+  "video": {
+    "title": "Creators of camouflage",
+    "src": "assets/squi/clip.mp4",
+    "poster": "assets/squi/poster.webp",
+    "caption": "Special muscles contract or expand to expose or hide small sacs of yellow, orange, brown, red, and black pigment inside their bodies, letting cuttlefish instantly match their surroundings and hide from attackers.",
+    "narration": "assets/squi/SQUI03JN.mp3"
+  }
+}

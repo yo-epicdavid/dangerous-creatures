@@ -1,0 +1,282 @@
+{
+  "id": "arch",
+  "code": "ARCH",
+  "name": "Archaeopteryx",
+  "category": "dinosaur",
+  "scientificName": "Archaeopteryx",
+  "needsScientificVerify": false,
+  "pronunciation": "ar-kee-OP-ter-iks",
+  "meaning": "Ancient wing",
+  "period": "Late Jurassic",
+  "diet": "Carnivore",
+  "tagline": "Half dinosaur, half bird — Archaeopteryx was nature's most amazing experiment!",
+  "hero": {
+    "image": "assets/arch/ARCH00AA.webp",
+    "alt": "Archaeopteryx"
+  },
+  "intro": "The discovery of Archaeopteryx raised many questions. Unlike other animals of its time, Archaeopteryx had feathers. Does this mean that it was the first bird? Some experts say yes. Others, citing striking similarities between Archaeopteryx and small meat-eating dinosaurs like Coelophysis, claim Archaeopteryx was a feathered dinosaur. Most believe Archaeopteryx is the evolutionary link between dinosaurs and birds. We know for sure that Archaeopteryx was the size of a crow, with a large brain, big eyes, feathers, and a wishbone like today's birds.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Europe"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Ancient wing"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Theropod"
+    }
+  ],
+  "topics": [
+    {
+      "id": "treasured-find",
+      "title": "Treasured Find",
+      "image": "assets/arch/ARCH01PU.webp",
+      "text": "Fossils of Archaeopteryx, all found in Germany embedded in limestone, are generally regarded as the most precious fossils in the world. The fossil shown here is kept in the Humboldt Museum of Natural History in Berlin.",
+      "captions": [
+        {
+          "label": "Mistaken identity",
+          "text": "Only six fossils of Archaeopteryx have ever been found, and although this one was dug up in 1855, it was originally thought to be a pterosaur. It wasn't until 1973 that it was recognized as Archaeopteryx."
+        },
+        {
+          "label": "Fine detail",
+          "text": "Unlike other fossils, this one clearly shows Archaeopteryx's head and neck. The fine grain of the limestone preserved the tiniest details, even impressions of the animal's feathers."
+        }
+      ]
+    },
+    {
+      "id": "the-skeleton-of-a-bird-or-dinosaur",
+      "title": "The Skeleton of a Bird or Dinosaur?",
+      "image": "assets/arch/ARCH02PU.webp",
+      "text": "An American professor who studied Archaeopteryx found that it shared over twenty skeletal features with small meat-eaters like Compsognathus and Coelophysis.",
+      "captions": [
+        {
+          "label": "Close cousins",
+          "text": "Like Archaeopteryx, Coelophysis was light, agile, and had three clawed fingers on each hand."
+        },
+        {
+          "label": "Similar build",
+          "text": "Archaeopteryx's skeleton is similar to that of Compsognathus. Notice the long back legs for running and the slender, flexible neck and tail. This is good evidence that birds and dinosaurs shared common ancestors."
+        }
+      ]
+    },
+    {
+      "id": "clawed-wings",
+      "title": "Clawed Wings",
+      "image": "assets/arch/ARCH03PU.webp",
+      "text": "Archaeopteryx's wing had three separate fingers with claws on the end. Only one bird today has wing claws: the young of the hoatzin from South America. Perhaps Archaeopteryx, like the baby hoatzin, used its claws for climbing in trees. Aside from the claws, Archaeopteryx's wings were very similar to those of today's birds, with large feathers that gave a broad, airtight surface for effective flight."
+    },
+    {
+      "id": "toothed-beak",
+      "title": "Toothed Beak",
+      "image": "assets/arch/ARCH04PU.webp",
+      "text": "Unlike any bird now alive, Archaeopteryx had small, spiky teeth in its beak. These were probably a leftover from its dinosaur ancestry. However, the teeth would also have been useful for keeping a tight grip on struggling prey."
+    },
+    {
+      "id": "bird-feet",
+      "title": "Bird Feet",
+      "image": "assets/arch/ARCH05PU.webp",
+      "text": "The legs and feet of Archaeopteryx were long and strong, similar to the legs of modern birds that spend much of their time on the ground. And like these birds, Archaeopteryx could probably run and jump well.",
+      "captions": [
+        {
+          "label": "Reptilian scales",
+          "text": "The scales on the legs and feet of modern birds suggest a link with reptiles in the past. Archaeopteryx had scales here, too. The first of its four toes pointed backward suggesting that Archaeopteryx might have gripped a branch and perched exactly like birds do today."
+        }
+      ]
+    },
+    {
+      "id": "dragonfly-dinner",
+      "title": "Dragonfly Dinner",
+      "image": "assets/arch/ARCH06PU.webp",
+      "text": "Archaeopteryx may have perched among scattered tree-like plants from which it could swoop after insects and other small creatures. It could probably flap its wings, but not fly powerfully like a modern bird. It would have caught most of the insects it ate during flight."
+    },
+    {
+      "id": "could-archaeopteryx-fly",
+      "title": "Could Archaeopteryx Fly?",
+      "image": "assets/arch/ARCH07PU.webp",
+      "text": "Modern birds have light bones, a stiff backbone, and a strong wishbone. Archaeopteryx had a tiny wishbone, a flexible backbone, and a fairly heavy skeletal structure. This may mean that Archaeopteryx was a better glider than a flier. It may have climbed into trees and then glided to the ground. Or perhaps it ran fast along the ground after food, flapping its wings.",
+      "captions": [
+        {
+          "label": "Flying to escape",
+          "text": "Any number of dinosaurs were ready to pounce on Archaeopteryx. The need to escape predators may have led to the evolution of bird flight."
+        }
+      ]
+    },
+    {
+      "id": "bird-face",
+      "title": "Bird Face",
+      "image": "assets/arch/ARCH08PU.webp",
+      "text": "With its toothy beak and big eyes, Archaeopteryx looks like a cross between a dinosaur and a bird. But Archaeopteryx was not the only creature that shared both dinosaur characteristics and bird-like features. For example, notice the similarities in appearance between Archaeopteryx and Struthiomimus, another small dinosaur.",
+      "captions": [
+        {
+          "label": "Ostrich dinosaur",
+          "text": "Struthiomimus, although definitely a dinosaur, in many ways resembles another creature—the modern ostrich!"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Birds and Dinosaurs",
+      "to": "bird"
+    },
+    {
+      "label": "Museums of North America",
+      "to": "muse"
+    },
+    {
+      "label": "Compsognathus",
+      "to": "comp"
+    },
+    {
+      "label": "Pteranodon",
+      "to": "pten"
+    },
+    {
+      "label": "Faces from the Past",
+      "to": "ftfb"
+    },
+    {
+      "label": "Reptiles of the Air",
+      "to": "rair"
+    },
+    {
+      "label": "Dinosaur Diets",
+      "to": "diet"
+    },
+    {
+      "label": "Ornitholestes",
+      "to": "orni"
+    },
+    {
+      "label": "Struthiomimus",
+      "to": "stru"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/arch/ARCH00AA.webp",
+        "hotspots": [
+          {
+            "label": "Bird face",
+            "to": "bird-face",
+            "x": 46,
+            "y": 26,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "Toothed beak",
+            "to": "toothed-beak",
+            "x": 36,
+            "y": 46,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Dragonfly dinner",
+            "to": "dragonfly-dinner",
+            "x": 26,
+            "y": 65,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "The skeleton of a bird or dinosaur?",
+            "to": "the-skeleton-of-a-bird-or-dinosaur",
+            "x": 57,
+            "y": 22,
+            "w": 34,
+            "h": 8
+          },
+          {
+            "label": "Treasured find",
+            "to": "treasured-find",
+            "x": 62,
+            "y": 36,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Could Archaeopteryx fly?",
+            "to": "could-archaeopteryx-fly",
+            "x": 57,
+            "y": 50,
+            "w": 32,
+            "h": 7
+          },
+          {
+            "label": "Clawed wings",
+            "to": "clawed-wings",
+            "x": 55,
+            "y": 64,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Bird feet",
+            "to": "bird-feet",
+            "x": 60,
+            "y": 74,
+            "w": 13,
+            "h": 5
+          }
+        ]
+      },
+      "treasured-find": {
+        "image": "assets/arch/ARCH01PU.webp",
+        "back": "main"
+      },
+      "the-skeleton-of-a-bird-or-dinosaur": {
+        "image": "assets/arch/ARCH02PU.webp",
+        "back": "main"
+      },
+      "clawed-wings": {
+        "image": "assets/arch/ARCH03PU.webp",
+        "back": "main"
+      },
+      "toothed-beak": {
+        "image": "assets/arch/ARCH04PU.webp",
+        "back": "main"
+      },
+      "bird-feet": {
+        "image": "assets/arch/ARCH05PU.webp",
+        "back": "main"
+      },
+      "dragonfly-dinner": {
+        "image": "assets/arch/ARCH06PU.webp",
+        "back": "main"
+      },
+      "could-archaeopteryx-fly": {
+        "image": "assets/arch/ARCH07PU.webp",
+        "back": "main"
+      },
+      "bird-face": {
+        "image": "assets/arch/ARCH08PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/arch/ARCH50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/arch/ARCH00AP.mp3",
+  "narration": "assets/arch/ARCH00AJ.mp3"
+}

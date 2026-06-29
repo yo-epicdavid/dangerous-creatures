@@ -1,0 +1,216 @@
+{
+  "id": "tall",
+  "code": "TALL",
+  "name": "The Biggest Dinosaurs",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Earth's mightiest giants were gentle plant-eaters — not the fearsome beasts you might expect!",
+  "hero": {
+    "image": "assets/tall/TALL00AA.webp",
+    "alt": "The Biggest Dinosaurs"
+  },
+  "intro": "Dinosaurs were the largest land creatures to ever inhabit our planet. Often, we think the biggest dinosaurs were the fiercest. Not true! Sauropods, an earth-shaking group of plant-eaters with long necks and tails and huge bodies, were the biggest, but also the most gentle. Several of the sauropods weighed more than fifty tons! Of the meat-eaters, the largest and most famous dinosaur of all is Tyrannosaurus rex, the \"king\" of carnivores.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "big-bones",
+      "title": "Big Bones",
+      "image": "assets/tall/TALL01PU.webp",
+      "text": "Giant animals like dinosaurs have massive bones. When fossilized into rock, these bones can weigh thousands of pounds, and have to be excavated and transported using heavy equipment.",
+      "captions": [
+        {
+          "label": "Fantastic femur",
+          "text": "If you stood next to Brachiosaurus, one of the largest sauropods, you wouldn't even reach its knee! Brachiosaurus was as tall as a four-story building, and weighed up to seventy tons."
+        },
+        {
+          "label": "From massive to minuscule",
+          "text": "Dinosaurs came in a variety of sizes. See for yourself how the four-inch femur of a small dinosaur, Hypsilophodon, compares to the six-foot, six-inch femur of Apatosaurus, a large sauropod dinosaur."
+        },
+        {
+          "label": "Shoulder to shoulder",
+          "text": "The scapula (shoulder blade) on the right, as big as an adult human, belonged to Camarasaurus, one of the smaller sauropods. The one on the left is nine feet tall and belonged to a dinosaur unearthed in the 1970s and nicknamed Ultrasaurs, which may be one of the largest dinosaurs ever discovered."
+        }
+      ]
+    },
+    {
+      "id": "gigantic-but-gentle",
+      "title": "Gigantic But Gentle",
+      "image": "assets/tall/TALL02PU.webp",
+      "text": "The sauropod group of dinosaurs would dwarf an African elephant, the largest land animal alive today. Sauropods were impressive in their bulk, but these giants were gentle herbivores that probably led relatively quiet lives.",
+      "captions": [
+        {
+          "label": "Modern giants",
+          "text": "As gigantic as they were, dinosaurs were not the largest animals ever to exist. The record-holder is the blue whale, which is swimming in the oceans today. Blue whales may grow to over 100 feet long and weigh nearly 200 tons."
+        }
+      ]
+    },
+    {
+      "id": "diplodocus",
+      "title": "Diplodocus",
+      "image": "assets/tall/TALL03PU.webp",
+      "text": "After studying the size and strength of their legs and the structure of their tails, some paleontologists now think that sauropods like Diplodocus may have reared up on their hind legs to feed. This balancing act allowed them to reach even higher into the treetops than they could when standing on all fours."
+    },
+    {
+      "id": "longest-neck-in-the-world",
+      "title": "Longest Neck in the World?",
+      "image": "assets/tall/TALL04PU.webp",
+      "text": "Although it wasn't the longest dinosaur, Mamenchisaurus wins the prize for having the longest neck of any dinosaur. This sauropod's neck was a staggering thirty-three feet long!",
+      "captions": [
+        {
+          "label": "Balancing the neck",
+          "text": "Just like the heavy base of a commercial crane keeps the machine from toppling over, Mamenchisaurus's lengthy neck is anchored to the ground by its heavy, barrel-shaped body."
+        },
+        {
+          "label": "Long-necked sea monster?",
+          "text": "Elasmosaurus was a marine reptile that lived at the same time as the dinosaurs. Its snake-like neck allowed it to swim with its head above water. Some people think that a few long-necked swimming giants have survived to this day, and may be living in remote lakes such as Loch Ness in Scotland."
+        }
+      ]
+    },
+    {
+      "id": "impressive-impressions",
+      "title": "Impressive Impressions",
+      "image": "assets/tall/TALL05PU.webp",
+      "text": "Huge creatures leave huge footprints. By measuring and studying the footprints, scientists can learn not only the approximate weight of an animal, but also how fast it could travel and whether it was walking or running at the time it made the prints.",
+      "captions": [
+        {
+          "label": "Iguanodon prints",
+          "text": "The three-toed hind feet of Iguanodon left clover-leaf shaped prints. The footprints of an adult Iguanodon measure up to thirty-six inches long. This dinosaur weighed up to two tons, and could walk on either two or four feet. Paleontologists have found similar three-toed prints left by large predatory dinosaurs in parts of the U.S. and Canada."
+        },
+        {
+          "label": "Fossils of passing feet",
+          "text": "Fossil footprints are rare, though not so rare as skeletons. For a footprint to be saved in stone, the ground must be soft at the time the creature is passing. Then, the prints must be dried until the impressions are hard, and later buried or otherwise sheltered to protect them from being worn away by wind and rain. In some places such as the Peace River Canyon in Canada, footprints of whole herds of dinosaurs have been preserved."
+        }
+      ]
+    },
+    {
+      "id": "the-most-massive-meat-eater",
+      "title": "The Most Massive Meat-Eater",
+      "image": "assets/tall/TALL06PU.webp",
+      "text": "Tyrannosaurus rex is one of the largest known carnivores, with some specimens measuring up to forty feet long. With its clawed feet and serrated, slicing teeth, Tyrannosaurus rex could tear apart the largest plant-eaters. But this giant wasn't slow, it had powerful legs and could sprint faster than the heavy plant-eaters. What a terrifying sight it must have been to see this monster appear on the horizon!"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Smallest Dinosaurs",
+      "to": "smal"
+    },
+    {
+      "label": "Hypsilophodon",
+      "to": "hyps"
+    },
+    {
+      "label": "Plateosaurus",
+      "to": "plat"
+    },
+    {
+      "label": "Plant-eaters",
+      "to": "plan"
+    },
+    {
+      "label": "Elasmosaurus",
+      "to": "elas"
+    },
+    {
+      "label": "Footprints",
+      "to": "foot"
+    },
+    {
+      "label": "Tyrannosaurus rex",
+      "to": "tyra"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/tall/TALL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Diplodocus",
+            "to": "diplodocus",
+            "x": 4,
+            "y": 44,
+            "w": 18,
+            "h": 8
+          },
+          {
+            "label": "Gigantic but gentle",
+            "to": "gigantic-but-gentle",
+            "x": 4,
+            "y": 56,
+            "w": 24,
+            "h": 8
+          },
+          {
+            "label": "Big bones",
+            "to": "big-bones",
+            "x": 4,
+            "y": 70,
+            "w": 15,
+            "h": 8
+          },
+          {
+            "label": "The most massive meat-eater",
+            "to": "the-most-massive-meat-eater",
+            "x": 27,
+            "y": 70,
+            "w": 30,
+            "h": 8
+          },
+          {
+            "label": "Longest neck in the world?",
+            "to": "longest-neck-in-the-world",
+            "x": 67,
+            "y": 23,
+            "w": 29,
+            "h": 10
+          },
+          {
+            "label": "Impressive impressions",
+            "to": "impressive-impressions",
+            "x": 67,
+            "y": 67,
+            "w": 26,
+            "h": 8
+          }
+        ]
+      },
+      "big-bones": {
+        "image": "assets/tall/TALL01PU.webp",
+        "back": "main"
+      },
+      "gigantic-but-gentle": {
+        "image": "assets/tall/TALL02PU.webp",
+        "back": "main"
+      },
+      "diplodocus": {
+        "image": "assets/tall/TALL03PU.webp",
+        "back": "main"
+      },
+      "longest-neck-in-the-world": {
+        "image": "assets/tall/TALL04PU.webp",
+        "back": "main"
+      },
+      "impressive-impressions": {
+        "image": "assets/tall/TALL05PU.webp",
+        "back": "main"
+      },
+      "the-most-massive-meat-eater": {
+        "image": "assets/tall/TALL06PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/tall/TALL00AP.mp3",
+  "narration": "assets/tall/TALL00AJ.mp3",
+  "sound": "assets/tall/TALL00SA.mp3"
+}

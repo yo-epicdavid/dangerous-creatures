@@ -1,0 +1,254 @@
+{
+  "id": "addr",
+  "code": "ADDR",
+  "name": "European Adder",
+  "scientificName": "Vipera berus",
+  "needsScientificVerify": false,
+  "tagline": "Europe's cold-blooded survivor that dances in the snow!",
+  "weapons": [
+    "Venom & Poison"
+  ],
+  "habitats": [
+    "Forest & Woodland",
+    "Grassland & Savanna"
+  ],
+  "regions": [
+    "Asia",
+    "Europe"
+  ],
+  "hero": {
+    "image": "assets/addr/ADDR00AA.webp",
+    "alt": "European Adder"
+  },
+  "intro": "It's one of the few venomous snakes in Europe, but fortunately it's also one of the shyest. If you're lucky, though, you may see two male European adders \"dancing\" to impress a female. In autumn or spring, you might spot one hurrying across the snow. Unlike other snakes, European adders can tolerate cold—they even live within the Arctic Circle!",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by injecting venom into prey through fangs",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Lizards, voles, mice, shrews, insects, and worms",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "When male adders fight, they raise up and wrap around each other, then each tries to wrestle the other to the ground.",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 90cm (35in)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Europe Asia",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "sidewinder-cousin",
+      "title": "Sidewinder cousin",
+      "image": "assets/addr/ADDR01PU.webp",
+      "text": "African dwarf sand adders know how to avoid the desert sun. They simply sink into the sand and wait until sunset to come out and hunt. Like many snakes that live in slippery sand, these adders get around by \"sidewinding\"—looping their bodies sideways, leaving S-shaped tracks in the sand.",
+      "captions": [
+        {
+          "label": "Going...",
+          "text": "A dwarf sand adder retreats into the sand, tail first, wriggling as it goes."
+        },
+        {
+          "label": "Going...",
+          "text": "It sinks further, shoveling sand over its back. The snake's rough scales help to push the grains of sand along its body."
+        },
+        {
+          "label": "Gone!",
+          "text": "When nearly buried, the snake is protected from the sun. It leaves only the top of its head exposed."
+        }
+      ],
+      "narration": "assets/addr/ADDR01NP.mp3"
+    },
+    {
+      "id": "family-resemblance",
+      "title": "Family resemblance",
+      "image": "assets/addr/ADDR02PU.webp",
+      "text": "These African snakes are six times bigger than the European adder and far more deadly. But the Gaboon viper, the African puff adder, and the European adder are all vipers, so they have a lot in common.",
+      "captions": [
+        {
+          "label": "African puff adder",
+          "text": "Most vipers lie in wait to ambush passing prey, so they don't have to be fast and streamlined. They do need to be strong—and all that muscle makes them look fat. This deadly viper can make itself look even fatter by puffing up with air. The eyes of many vipers have vertical pupils like those of cats."
+        },
+        {
+          "label": "Gaboon viper",
+          "text": "Vipers need long fangs to bite through the fur or feathers of their prey. This one has the longest fangs of any snake—as long as your little finger! A viper's big head lets it eat large prey. This is the biggest African viper—it can swallow a dwarf antelope!"
+        }
+      ],
+      "narration": "assets/addr/ADDR02NP.mp3"
+    },
+    {
+      "id": "death-adder",
+      "title": "Death adder",
+      "image": "assets/addr/ADDR03PU.webp",
+      "text": "There's a good reason that this Australian snake is called the \"death adder\"! Before an antivenin was developed, half of the people bitten by it died. Luckily, the death adder is not very aggressive and bites only if touched.",
+      "captions": [
+        {
+          "label": "Hidden danger",
+          "text": "Most snakes flee when they sense footsteps. But death adders act like they don't notice them—that's why they're also called \"deaf adders\"! These snakes lie motionless under leaves, so it's easy to step on them. That's how most people get bitten."
+        },
+        {
+          "label": "Not really an adder",
+          "text": "Death adders aren't really adders, so the name is not very accurate. The death adder's closest relatives include cobras, coral snakes, and mambas—like this black mamba."
+        }
+      ],
+      "narration": "assets/addr/ADDR03NP.mp3"
+    },
+    {
+      "id": "the-pits",
+      "title": "The pits",
+      "image": "assets/addr/ADDR04PU.webp",
+      "text": "A pit viper (another adder relative) doesn't need to see you to know that you're there—it uses a heat-sensitive pit between its eyes and nostrils to feel your body heat. Here are two pit vipers found in North America.",
+      "captions": [
+        {
+          "label": "Concealed copper",
+          "text": "Copperheads live in the U.S., but they belong to a group of pit vipers that are also found in Asia. A copperhead curled in the leaves is almost invisible, so be careful when you're hiking. Copperhead bites aren't fatal, but they do hurt a lot!"
+        },
+        {
+          "label": "Risky rattle",
+          "text": "Rattlesnakes and other pit vipers can detect changes in temperature of less than two-tenths of a degree centigrade—a handy skill for hunting warm-blooded animals!"
+        }
+      ],
+      "narration": "assets/addr/ADDR04NP.mp3"
+    },
+    {
+      "id": "talented-tongue",
+      "title": "Talented tongue",
+      "image": "assets/addr/ADDR05PU.webp",
+      "text": "Some people think that snakes sting with their forked tongues. But here's what is really going on...",
+      "captions": [
+        {
+          "label": "Collecting samples",
+          "text": "When snakes (and one group of lizards—the monitors) flick their forked tongues in and out, chemical particles in the air and on the ground collect on the tongue."
+        },
+        {
+          "label": "Tracking prey",
+          "text": "Snakes use Jacobson's organ to trail prey (like this mouse), taste food, find mates, and detect enemies."
+        },
+        {
+          "label": "Tasting the air",
+          "text": "The particles picked up by the snake's tongue are transferred to a special structure in the snake's mouth, called Jacobson's organ. The cells in this structure partly smell and partly taste the particles."
+        }
+      ],
+      "narration": "assets/addr/ADDR05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/addr/ADDR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 5.34,
+            "y": 8.54,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Come a little closer...",
+            "to": "video",
+            "x": 37.37,
+            "y": 30.19,
+            "w": 29.64,
+            "h": 11.27
+          },
+          {
+            "label": "The pits",
+            "to": "the-pits",
+            "x": 53.62,
+            "y": 30.19,
+            "w": 19.01,
+            "h": 11.27
+          },
+          {
+            "label": "Talented tongue",
+            "to": "talented-tongue",
+            "x": 12,
+            "y": 54,
+            "w": 21,
+            "h": 7
+          },
+          {
+            "label": "Sidewinder cousin",
+            "to": "sidewinder-cousin",
+            "x": 7,
+            "y": 62,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Death adder",
+            "to": "death-adder",
+            "x": 33,
+            "y": 48,
+            "w": 15,
+            "h": 7
+          },
+          {
+            "label": "Family resemblance",
+            "to": "family-resemblance",
+            "x": 59,
+            "y": 59,
+            "w": 23,
+            "h": 7
+          }
+        ]
+      },
+      "sidewinder-cousin": {
+        "image": "assets/addr/ADDR01PU.webp",
+        "back": "main"
+      },
+      "family-resemblance": {
+        "image": "assets/addr/ADDR02PU.webp",
+        "back": "main"
+      },
+      "death-adder": {
+        "image": "assets/addr/ADDR03PU.webp",
+        "back": "main"
+      },
+      "the-pits": {
+        "image": "assets/addr/ADDR04PU.webp",
+        "back": "main"
+      },
+      "talented-tongue": {
+        "image": "assets/addr/ADDR05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/addr/ADDR00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/addr/clip.mp4",
+        "poster": "assets/addr/ADDR06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "ambient": "assets/addr/narration.mp3",
+  "sound": "assets/addr/ADDR00AF.mp3",
+  "factsNarration": "assets/addr/ADDR00FB.mp3",
+  "video": {
+    "title": "Come a little closer...",
+    "src": "assets/addr/clip.mp4",
+    "poster": "assets/addr/poster.webp",
+    "caption": "This Australian death adder is not a true adder, but it looks and behaves like one. Like many adders, this snake prefers not to actively hunt its prey, but to lie in wait until a victim comes close enough to bite. The death adder coils up in the cover of dried leaves or loose dirt, and then uses its skinny tail as a lure to attract lizards and rodents."
+  }
+}

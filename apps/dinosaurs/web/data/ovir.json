@@ -1,0 +1,146 @@
+{
+  "id": "ovir",
+  "code": "OVIR",
+  "name": "Oviraptor",
+  "category": "dinosaur",
+  "scientificName": "Oviraptor",
+  "needsScientificVerify": false,
+  "pronunciation": "oh-vih-RAP-tor",
+  "meaning": "Egg thief",
+  "period": "Late Cretaceous",
+  "diet": "Carnivore",
+  "tagline": "No dinosaur nest was safe from this swift-footed egg thief.",
+  "hero": {
+    "image": "assets/ovir/OVIR00AA.webp",
+    "alt": "Oviraptor"
+  },
+  "intro": "Mother dinosaurs might have kept guard when Oviraptor was around. This dinosaur's name means \"egg thief,\" and it has been accused of stealing and eating eggs from the nests of other dinosaurs. With its nimble, clawed fingers and sharp beak, Oviraptor could have easily broken the shells of eggs and sucked out their contents.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Asia"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Egg thief"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Theropod"
+    }
+  ],
+  "topics": [
+    {
+      "id": "a-small-but-dangerous-predator",
+      "title": "A Small But Dangerous Predator",
+      "image": "assets/ovir/OVIR01PU.webp",
+      "text": "Oviraptor was a small dinosaur, only around ten feet long, but it had a sharp beak, two snake-like spikes in its upper jaw, clawed fingers, and legs that were made for running. Like other small meat-eating dinosaurs, Oviraptor was probably a quick, fearsome hunter.",
+      "captions": [
+        {
+          "label": "Dog-sized dinosaurs",
+          "text": "Here you can see how large Oviraptor and Protoceratops would be standing next to a human. They're almost small enough to be pets!"
+        }
+      ]
+    },
+    {
+      "id": "toothless-danger",
+      "title": "Toothless Danger",
+      "image": "assets/ovir/OVIR02PU.webp",
+      "text": "Although Oviraptor had no teeth in its tough beak, it had strong jaws and two sharp spikes in the roof of its mouth. This would have allowed it to easily crack or pierce the eggs of other dinosaurs, draining their contents for a tasty meal. However, Oviraptor's jaws were strong enough to crush bones and mollusk shells, so this dinosaur may well have hunted more than just eggs."
+    },
+    {
+      "id": "why-is-it-accused-of-eating-eggs",
+      "title": "Why Is It Accused of Eating Eggs?",
+      "image": "assets/ovir/OVIR03PU.webp",
+      "text": "The first skeleton of Oviraptor was found with a nest of Protoceratops eggs, leading scientists to speculate that Oviraptor was raiding the nest when it was suddenly buried by a sandstorm.",
+      "captions": [
+        {
+          "label": "Baby Protoceratops",
+          "text": "Young Protoceratops must have been less than eight inches long when they hatched. But a full-grown Protoceratops measured a full six feet long!"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dilophosaurus",
+      "to": "dilo"
+    },
+    {
+      "label": "Deinonychus",
+      "to": "dein"
+    },
+    {
+      "label": "Face to Face",
+      "to": "ftfa"
+    },
+    {
+      "label": "Protoceratops",
+      "to": "prot"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/ovir/OVIR00AA.webp",
+        "hotspots": [
+          {
+            "label": "A small but dangerous predator",
+            "to": "a-small-but-dangerous-predator",
+            "x": 10,
+            "y": 62,
+            "w": 35,
+            "h": 6
+          },
+          {
+            "label": "Toothless danger",
+            "to": "toothless-danger",
+            "x": 72,
+            "y": 44,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "Why is it accused of eating eggs?",
+            "to": "why-is-it-accused-of-eating-eggs",
+            "x": 60,
+            "y": 72,
+            "w": 35,
+            "h": 10
+          }
+        ]
+      },
+      "a-small-but-dangerous-predator": {
+        "image": "assets/ovir/OVIR01PU.webp",
+        "back": "main"
+      },
+      "toothless-danger": {
+        "image": "assets/ovir/OVIR02PU.webp",
+        "back": "main"
+      },
+      "why-is-it-accused-of-eating-eggs": {
+        "image": "assets/ovir/OVIR03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/ovir/OVIR50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/ovir/OVIR00AP.mp3",
+  "narration": "assets/ovir/OVIR00AJ.mp3"
+}

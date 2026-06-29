@@ -1,0 +1,202 @@
+{
+  "id": "armr",
+  "code": "ARMR",
+  "name": "Dinosaurs in Armor",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "When dinosaurs couldn't run from danger, they grew their own battle armor.",
+  "hero": {
+    "image": "assets/armr/ARMR00AA.webp",
+    "alt": "Dinosaurs in Armor"
+  },
+  "intro": "In the prehistoric world, dinosaurs competed for food, for territory, and for mates.  Plant-eating dinosaurs also needed to protect themselves from predators that wanted to eat them.  Over millions of years, dinosaurs developed a variety of defenses against the harsh world in which they lived.  One of the most successful of these defenses was body armor.  Armored dinosaurs were covered with leathery skin, tough bony plates, jaw-breaking lumps, and pointed spikes that protected them from the teeth and claws of meat-eaters.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "knights-in-armor",
+      "title": "Knights in Armor",
+      "image": "assets/armr/ARMR00AA.webp",
+      "text": "In medieval times, knights wore suits of chain mail and metal plates to protect their bodies from attackers.  These armored champions also carried heavy shields, clubs, and spiked weapons.  While knights could take off their armor and lay down their weapons, dinosaurs wore their protective suits at all times."
+    },
+    {
+      "id": "tough-meal-to-tackle",
+      "title": "Tough Meal to Tackle",
+      "image": "assets/armr/ARMR01PU.webp",
+      "text": "Although armored dinosaurs were tough to attack, meat-eaters such as Tyrannosaurus rex must have succeeded sometimes.  Just like a dog or coyote would attack a hard-shelled turtle today, Tyrannosaurus rex probably tried to flip armored plant-eaters to get at their soft undersides."
+    },
+    {
+      "id": "prickly-pair",
+      "title": "Prickly Pair",
+      "image": "assets/armr/ARMR02PU.webp",
+      "text": "These two spiny customers are ankylosaurs that lived in the Late Cretaceous period.  Because these spines were not fused to their skeletons, but embedded in their tough skins, scientists can only guess the position of the spines along the dinosaurs' backs when they were alive.",
+      "captions": [
+        {
+          "label": "Pinacosaurus",
+          "text": "This so-called \"plank lizard\" was found in China.  Although it looked fierce and also packed a huge bone \"club\" at the end of its tail, Pinacosaurus was a gentle plant-eater."
+        },
+        {
+          "label": "Euoplocephalus",
+          "text": "This ankylosaur had not only spines and a tail club, but also a \"helmet\" of hard plates.  Even its eyelids had bony coverings!  So remarkable is this dinosaur's hard head that paleontologists gave it a name that means \"true plated head.\""
+        }
+      ]
+    },
+    {
+      "id": "modern-armored-animals",
+      "title": "Modern Armored Animals",
+      "image": "assets/armr/ARMR03PU.webp",
+      "text": "Although the dinosaurs are gone, some animals still depend on body armor or prickly spines for protection against their enemies.",
+      "captions": [
+        {
+          "label": "Spiny lizard",
+          "text": "Not many predators would want to bite into a mouthful of spines such as the those that cover some lizards from head to toe."
+        },
+        {
+          "label": "Armadillo",
+          "text": "The leathery armor that encases this nocturnal mammal makes it look like a tiny tank."
+        },
+        {
+          "label": "Rhinoceros",
+          "text": "A rhino isn't really covered in bony plates, but its skin is so thick and tough that it's virtually impossible to penetrate."
+        },
+        {
+          "label": "Hard-shelled turtle",
+          "text": "Some of the most successful armored animals around today are the turtles.  By pulling their heads and legs inside their shells, they leave attackers nothing to bite into."
+        }
+      ]
+    },
+    {
+      "id": "armored-sauropod",
+      "title": "Armored Sauropod?",
+      "image": "assets/armr/ARMR04PU.webp",
+      "text": "Saltasaurus, a South American dinosaur, is a sauropod that had armor on its body.  This dinosaur's armor consisted of large round plates of bone and patches of tiny bony lumps embedded in the skin on its back.  Most sauropods had rather smooth, leathery skin."
+    },
+    {
+      "id": "how-do-we-know-about-armor",
+      "title": "How Do We Know About Armor?",
+      "image": "assets/armr/ARMR05PU.webp",
+      "text": "We know that some dinosaurs had bony lumps and plates because we have fossils of the bony nodules, and a few impressions of armored dinosaur skin.",
+      "captions": [
+        {
+          "label": "Skin impression",
+          "text": "Dinosaur skin impressions are quite rare, because usually the skin rots away before it can be preserved as a fossil.  The few dinosaurs that left skin impressions must have died in a dry area so that their skin became dried out before their bodies were buried.  This lumpy impression came from an armored dinosaur called Polacanthus.  Not only did this ankylosaur have all these lumps and bumps in its skin, but it also was covered with spikes to discourage attackers."
+        },
+        {
+          "label": "Ankylosaur nodule",
+          "text": "Because nodules and plates are made of bone, they have been preserved as fossils even though the soft parts of the dinosaur have disappeared.  The flattened base of this bony nodule was attached to the dinosaur's tough skin.  When the dinosaur was alive, the nodules were covered by horny scales, like fingernails."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Polacanthus",
+      "to": "pola"
+    },
+    {
+      "label": "Meat-eaters",
+      "to": "meat"
+    },
+    {
+      "label": "Pinacosaurus",
+      "to": "pina"
+    },
+    {
+      "label": "Dinosaur Descendants",
+      "to": "desc"
+    },
+    {
+      "label": "The Weirdest Dinosaurs",
+      "to": "weir"
+    },
+    {
+      "label": "The Making of a Fossil",
+      "to": "makf"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/armr/ARMR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Armored sauropod?",
+            "to": "armored-sauropod",
+            "x": 17,
+            "y": 52,
+            "w": 15,
+            "h": 4
+          },
+          {
+            "label": "How do we know about armor?",
+            "to": "how-do-we-know-about-armor",
+            "x": 34,
+            "y": 43,
+            "w": 22,
+            "h": 4
+          },
+          {
+            "label": "Modern armored animals",
+            "to": "modern-armored-animals",
+            "x": 35,
+            "y": 51,
+            "w": 17,
+            "h": 4
+          },
+          {
+            "label": "Tough meal to tackle",
+            "to": "tough-meal-to-tackle",
+            "x": 36,
+            "y": 58,
+            "w": 14,
+            "h": 4
+          },
+          {
+            "label": "Prickly pair",
+            "to": "prickly-pair",
+            "x": 3,
+            "y": 68,
+            "w": 10,
+            "h": 4
+          }
+        ]
+      },
+      "knights-in-armor": {
+        "image": "assets/armr/ARMR00AA.webp",
+        "back": "main"
+      },
+      "tough-meal-to-tackle": {
+        "image": "assets/armr/ARMR01PU.webp",
+        "back": "main"
+      },
+      "prickly-pair": {
+        "image": "assets/armr/ARMR02PU.webp",
+        "back": "main"
+      },
+      "modern-armored-animals": {
+        "image": "assets/armr/ARMR03PU.webp",
+        "back": "main"
+      },
+      "armored-sauropod": {
+        "image": "assets/armr/ARMR04PU.webp",
+        "back": "main"
+      },
+      "how-do-we-know-about-armor": {
+        "image": "assets/armr/ARMR05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/armr/ARMR00AP.mp3",
+  "narration": "assets/armr/ARMR00AJ.mp3",
+  "sound": "assets/armr/ARMR00SA.mp3"
+}

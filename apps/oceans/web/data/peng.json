@@ -1,0 +1,223 @@
+{
+  "id": "peng",
+  "code": "PENG",
+  "name": "Penguins",
+  "category": "creature",
+  "scientificName": "Aptenodytes forsteri",
+  "needsScientificVerify": false,
+  "tagline": "Tuxedoed birds that fly through the sea—no air required!",
+  "zones": [
+    "Polar seas",
+    "Open ocean"
+  ],
+  "oceans": [
+    "Southern Ocean"
+  ],
+  "hero": {
+    "image": "assets/peng/PENG00AA.webp",
+    "alt": "Penguins"
+  },
+  "intro": "They slide over ice like sleek seals, and flap their wings to propel themselves underwater like graceful rays. Some penguin species spend most of their lives at sea, coming ashore only to molt and to raise their young. Their tightly packed feathers overlap like a fish's scales, and serve exactly the same purpose—to keep water out. Yet penguins are neither mammals nor fish—they're birds that have adapted perfectly to life at sea.",
+  "facts": [
+    {
+      "label": "Speed",
+      "value": "Penguins can dart through the water at 24 km (15 mi) per hour."
+    },
+    {
+      "label": "Dive depth",
+      "value": "They can dive to depths of nearly 274 m (900 ft)."
+    },
+    {
+      "label": "Emperor size",
+      "value": "Emperor penguins can grow to be over 1 m (3.3 ft) tall and can weigh around 30 kg (66 lb)."
+    },
+    {
+      "label": "Smallest Antarctic",
+      "value": "Rockhoppers average 55 cm (21.6 in) tall and 2.5 kg (5.5 lb)—the smallest of the Antarctic penguins."
+    },
+    {
+      "label": "Did you know",
+      "value": "Penguins are so well insulated they can overheat in the sun and must ruffle their feathers to let body heat escape."
+    }
+  ],
+  "topics": [
+    {
+      "id": "flying-through-water",
+      "title": "Flying through water",
+      "image": "assets/peng/PENG01PU.webp",
+      "text": "While most birds glide through the air, penguins do their flying underwater. Instead of having hollow bones like flying birds, penguins have dense bones that hold up under the pressures of diving. Their wings don't fold in the middle like those of other birds, but move only at the shoulder, like flippers. Penguins can dart through the water at 24 km (15 mi) per hour, and they can dive to depths of nearly 274 m (900 ft)!",
+      "narration": "assets/peng/PENG01JN.mp3"
+    },
+    {
+      "id": "look-out-below",
+      "title": "Look out below!",
+      "image": "assets/peng/PENG03PU.webp",
+      "text": "All too often, lurking at the water's edge is a penguin's worst nightmare—a leopard seal. Traveling in a group is the best protection against this seal's fearsome jaws. Hundreds of penguins dive in the water all at once, hoping to confuse the seal with a great flurry of motion.",
+      "narration": "assets/peng/PENG03JN.mp3"
+    },
+    {
+      "id": "danger-from-above",
+      "title": "Danger from above",
+      "image": "assets/peng/PENG04PU.webp",
+      "text": "Adult penguins are usually safe on land. But for penguin babies it's a dangerous world when their parents aren't around. Skuas and other large flying birds prey on unprotected eggs and chicks.",
+      "narration": "assets/peng/PENG04JN.mp3"
+    },
+    {
+      "id": "growing-up",
+      "title": "Growing up",
+      "image": "assets/peng/PENG05PU.webp",
+      "text": "Baby penguins have hard lives. The two shown here have to cope with the ice and winds of Antarctica. Until they get their adult feathers, they can't swim and fish for themselves, so they're totally dependent on their parents' ability to catch food and return to feed them. Although most penguins are good parents, more than half the chicks hatched every year don't survive.",
+      "captions": [
+        {
+          "label": "Big baby",
+          "text": "Emperors can grow to be over 1 m (3.3 ft) tall, and can weigh around 30 kg (66 lb)."
+        },
+        {
+          "label": "Soon a swimmer",
+          "text": "This chick is molting, exchanging its baby down for adult feathers. Rockhoppers are the smallest of the Antarctic penguins, with an average height of 55 cm (21.6 in), and an average weight of 2.5 kg (5.5 lb)."
+        }
+      ],
+      "narration": "assets/peng/PENG05JN.mp3"
+    },
+    {
+      "id": "at-home-in-a-refrigerator",
+      "title": "At home in a refrigerator",
+      "image": "assets/peng/PENG06PU.webp",
+      "text": "Emperor penguins are well insulated against the cold. Their overlapping feathers are waterproof and are designed to trap air next to their skin. Under the outside layer of feathers is a thick undercoat of down. And under their skin, they have a layer of fat. As a matter of fact, these birds are so well insulated that they can quickly become overheated in the sun. If this happens, they ruffle up their feathers to let body heat escape.",
+      "narration": "assets/peng/PENG06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Islands",
+      "to": "isla"
+    },
+    {
+      "label": "Rays",
+      "to": "rays"
+    },
+    {
+      "label": "Arctic Ocean",
+      "to": "arct"
+    },
+    {
+      "label": "Scary Sharks",
+      "to": "shar"
+    },
+    {
+      "label": "Water Babies"
+    },
+    {
+      "label": "Seals and Sea Lions",
+      "to": "seal"
+    },
+    {
+      "label": "The Abyss",
+      "to": "abys"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/peng/PENG00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 2,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Rough life",
+            "to": "video",
+            "x": 72,
+            "y": 35,
+            "w": 26,
+            "h": 8
+          },
+          {
+            "label": "Growing up",
+            "to": "growing-up",
+            "x": 74,
+            "y": 61,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Look out below!",
+            "to": "look-out-below",
+            "x": 67,
+            "y": 70,
+            "w": 28,
+            "h": 9
+          },
+          {
+            "label": "Flying through water",
+            "to": "flying-through-water",
+            "x": 3,
+            "y": 73,
+            "w": 32,
+            "h": 5
+          },
+          {
+            "label": "At home in a refrigerator",
+            "to": "at-home-in-a-refrigerator",
+            "x": 3,
+            "y": 79,
+            "w": 40,
+            "h": 5
+          },
+          {
+            "label": "Danger from above",
+            "to": "danger-from-above",
+            "x": 3,
+            "y": 85,
+            "w": 30,
+            "h": 5
+          }
+        ]
+      },
+      "flying-through-water": {
+        "image": "assets/peng/PENG01PU.webp",
+        "back": "main"
+      },
+      "look-out-below": {
+        "image": "assets/peng/PENG03PU.webp",
+        "back": "main"
+      },
+      "danger-from-above": {
+        "image": "assets/peng/PENG04PU.webp",
+        "back": "main"
+      },
+      "growing-up": {
+        "image": "assets/peng/PENG05PU.webp",
+        "back": "main"
+      },
+      "at-home-in-a-refrigerator": {
+        "image": "assets/peng/PENG06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/peng/clip.mp4",
+        "poster": "assets/peng/PENG02PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/peng/PENG00JN.mp3",
+  "sound": "assets/peng/PENG00IX.mp3",
+  "video": {
+    "title": "Rough life",
+    "src": "assets/peng/clip.mp4",
+    "poster": "assets/peng/poster.webp",
+    "caption": "Imagine having to incubate an egg and raise a chick in an environment that can include gale-force winds and subfreezing temperatures! Adult penguins endure great hardships to raise their babies. One adult cradles the egg on its feet to keep it warm, going without food for weeks or even months while its mate is away, feeding. After the egg hatches, both adults spend most of their time hunting at sea in order to keep their growing baby full of fish.",
+    "narration": "assets/peng/PENG02JN.mp3"
+  }
+}

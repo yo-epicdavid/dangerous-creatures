@@ -1,0 +1,372 @@
+{
+  "id": "dipl",
+  "code": "DIPL",
+  "name": "Diplodocus",
+  "category": "dinosaur",
+  "scientificName": "Diplodocus",
+  "needsScientificVerify": false,
+  "pronunciation": "dih-PLOD-uh-kus",
+  "meaning": "Double beam",
+  "period": "Late Jurassic",
+  "diet": "Herbivore",
+  "tagline": "Longer than three basketball courts, this gentle giant could crack its whip-like tail like a thunderclap!",
+  "hero": {
+    "image": "assets/dipl/DIPL00AA.webp",
+    "alt": "Diplodocus"
+  },
+  "intro": "With a snake-like neck up to twenty-seven feet long, a body up to sixteen feet long, and a tail up to forty-six feet long, Diplodocus took up a lot of space in the Jurassic forests. The average length of a Diplodocus skeleton is around eighty-six feet long, with a few specimens measuring nearly 90 feet from nose to tail. Imagine a group of dinosaurs longer than basketball courts!",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Double beam"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Sauropod"
+    },
+    {
+      "label": "Length",
+      "value": "26m (85ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "12 tons"
+    }
+  ],
+  "topics": [
+    {
+      "id": "well-known-bones",
+      "title": "Well-Known Bones",
+      "image": "assets/dipl/DIPL01PU.webp",
+      "text": "With its long neck and tail, and a head that was tiny in proportion to the rest of its body, this dinosaur looked extraordinary. Diplodocus is one of the world's best known dinosaurs. Copies of its skeleton are on display in museums in many countries around the globe."
+    },
+    {
+      "id": "peaceful-plant-eaters",
+      "title": "Peaceful Plant-Eaters",
+      "image": "assets/dipl/DIPL02PU.webp",
+      "text": "Diplodocus is one of many dinosaurs in the sauropod family. If attacked by a meat-eater, a sauropod's only defense was its impressive bulk and long, whip-like tail.",
+      "captions": [
+        {
+          "label": "Mamenchisaurus",
+          "text": "This dinosaur had the longest neck of all the sauropods."
+        },
+        {
+          "label": "Apatosaurus",
+          "text": "For many years, paleontologists used the skull of Camarasaurus to complete the skeleton of this dinosaur. In 1979, experts agreed that Apatosaurus had a longer skull, more like that of Diplodocus."
+        },
+        {
+          "label": "Camarasaurus",
+          "text": "Compared to other sauropods, this dinosaur had a short neck and a round skull."
+        },
+        {
+          "label": "African elephant",
+          "text": "This is the largest land animal alive today, but it is small compared to a giant sauropod."
+        }
+      ]
+    },
+    {
+      "id": "long-but-light",
+      "title": "Long But Light",
+      "image": "assets/dipl/DIPL03PU.webp",
+      "text": "Although Diplodocus is one of the longest dinosaurs on record so far, much of its length was in its tail. At forty-five feet, its tail was as long as three cars!",
+      "captions": [
+        {
+          "label": "Lightweight",
+          "text": "Diplodocus was a lightweight compared to some sauropods. It weighed in at only twelve tons. That's a quarter of the weight of the giant Brachiosaurus. Although Brachiosaurus was the heaviest animal ever to walk on land, the record for the biggest animal ever to live anywhere is held by a creature that's still around today—the blue whale."
+        }
+      ]
+    },
+    {
+      "id": "sauropod-skin",
+      "title": "Sauropod Skin",
+      "image": "assets/dipl/DIPL04PU.webp",
+      "text": "This scaly skin impression came from a sauropod dinosaur like Diplodocus. The skin was not bony and would have given little protection against attack. Although packed tightly together, the scales had flexible edges where they touched, acting like \"hinges\" to allow easy movement. You can see from this impression that the scales varied in size, the smaller ones occurring where the skin had to bend a lot.",
+      "captions": [
+        {
+          "label": "Lizard skin",
+          "text": "This lizard also has scales that vary in size. The scales around the eyes are quite small because the skin here has to bend a lot. Like this lizard, dinosaurs may have been brightly colored."
+        }
+      ]
+    },
+    {
+      "id": "whats-in-a-skull",
+      "title": "What's in a Skull?",
+      "image": "assets/dipl/DIPL05PU.webp",
+      "text": "A skull can tell us a lot about its original owner, like what kind of eyes and ears the creature had for tracking its surroundings, or what kind of teeth and jaws it had for taking in food. These skulls are from very different kinds of animals. Allosaurus was a vicious carnosaur and much smaller than Diplodocus, a peaceful plant-eater.",
+      "captions": [
+        {
+          "label": "Allosaurus",
+          "text": "Sharp, backward-pointing teeth like these indicate this dinosaur ate the flesh of other animals. Although adult sauropods were too large to tackle, Allosaurus may have fed on the young of plant-eating dinosaurs like Diplodocus."
+        },
+        {
+          "label": "Diplodocus",
+          "text": "This huge herbivore could not have chewed with these thin, pencil-like teeth, but instead would have used them like a rake to draw in pine needles and leaves."
+        }
+      ]
+    },
+    {
+      "id": "diplodocus-dinner",
+      "title": "Diplodocus Dinner",
+      "image": "assets/dipl/DIPL06PU.webp",
+      "text": "Diplodocus may have raked in its dinner. Because it did little chewing, the dinosaur probably swallowed stones called gastroliths which ground up the plant matter, enabling the sauropod to digest the food in its stomach.",
+      "captions": [
+        {
+          "label": "Favorite food",
+          "text": "Ferns were a common meal for plant-eating dinosaurs like Diplodocus."
+        }
+      ]
+    },
+    {
+      "id": "the-longest-neck",
+      "title": "The Longest Neck",
+      "image": "assets/dipl/DIPL07PU.webp",
+      "text": "The prize for the longest neck belongs not to Diplodocus, but to Mamenchisaurus. This Chinese dinosaur had a neck measuring a staggering thirty-three feet! Unlike Diplodocus, Mamenchisaurus's neck was not balanced by a long tail."
+    },
+    {
+      "id": "balancing-act",
+      "title": "Balancing Act",
+      "image": "assets/dipl/DIPL08PU.webp",
+      "text": "Many scientists have thought that sauropods could only stand on all fours. But some experts who have studied the size and strength of the legs as well as the tail structure think that sauropods may have reared up on their hind legs to feed.",
+      "captions": [
+        {
+          "label": "Giraffe dinner",
+          "text": "Reaching up with its long neck to feed in the treetops, Diplodocus was a lot like a modern giraffe. Unlike the dinosaur, however, a giraffe can chew its food, so it does not need such a large belly."
+        }
+      ]
+    },
+    {
+      "id": "tail-bones",
+      "title": "Tail Bones",
+      "image": "assets/dipl/DIPL09PU.webp",
+      "text": "Diplodocus's thin whip of a tail, with its seventy-three vertebrae in all, was often carried off the ground. If their size and bulk did not frighten away attackers, sauropods used their long whiplash tails to defend themselves against predators. Imagine how big a space Diplodocus could have cleared with its forty-six feet of tail!",
+      "captions": [
+        {
+          "label": "Camarasaurus",
+          "text": "This dinosaur had one of the shortest tails of any giant sauropod. It was made up of only fifty-three vertebrae."
+        },
+        {
+          "label": "Apatosaurus",
+          "text": "The tail of this dinosaur was shorter than that of Diplodocus, but it had more vertebrae, numbering eighty-two in all."
+        }
+      ]
+    },
+    {
+      "id": "chevron-comparison",
+      "title": "Chevron Comparison",
+      "image": "assets/dipl/DIPL10PU.webp",
+      "text": "All dinosaurs had chevron bones in their tails, just as modern reptiles do. The chevrons were elongated close to the hips to support the muscles. They became more flattened along the length of the tail, and toward the tip the chevron bones disappeared altogether as the tail became thin and whip-like. These types of chevron bones may have acted as skids to protect the underside of the tail.",
+      "captions": [
+        {
+          "label": "Growing flatter and smaller",
+          "text": "Toward the middle of the tail, the chevrons became more flattened, like this one."
+        },
+        {
+          "label": "Protecting the blood supply",
+          "text": "The forked part of the bone enclosed a large blood vessel that ran just beneath the backbone."
+        },
+        {
+          "label": "End of the tail",
+          "text": "Because they didn't have to support much muscle, the bones at the tip of Diplodocus's tail were narrow cylinders. This made the tail into an effective whip with which the dinosaur could deliver a stinging blow."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Record Breakers",
+      "to": "recb"
+    },
+    {
+      "label": "Museums of North America",
+      "to": "muse"
+    },
+    {
+      "label": "Dinosaur Landscape",
+      "to": "dlan"
+    },
+    {
+      "label": "Brachiosaurus",
+      "to": "brac"
+    },
+    {
+      "label": "Iguana",
+      "to": "igna"
+    },
+    {
+      "label": "Skulls of Plant-eaters",
+      "to": "vega"
+    },
+    {
+      "label": "Dinosaur Diets",
+      "to": "diet"
+    },
+    {
+      "label": "Mamenchisaurus",
+      "to": "mame"
+    },
+    {
+      "label": "Two Feet or Four?",
+      "to": "twof"
+    },
+    {
+      "label": "A Tale of Tails",
+      "to": "tale"
+    },
+    {
+      "label": "What You Need to Find a Fossil",
+      "to": "find"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/dipl/DIPL00AA.webp",
+        "hotspots": [
+          {
+            "label": "What's in a skull?",
+            "to": "whats-in-a-skull",
+            "x": 62,
+            "y": 11,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Diplodocus dinner",
+            "to": "diplodocus-dinner",
+            "x": 54,
+            "y": 20,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Well-known bones",
+            "to": "well-known-bones",
+            "x": 40,
+            "y": 28,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Long but light",
+            "to": "long-but-light",
+            "x": 68,
+            "y": 33,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "The longest neck",
+            "to": "the-longest-neck",
+            "x": 78,
+            "y": 38,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "Sauropod skin",
+            "to": "sauropod-skin",
+            "x": 11,
+            "y": 37,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Chevron comparison",
+            "to": "chevron-comparison",
+            "x": 5,
+            "y": 52,
+            "w": 21,
+            "h": 6
+          },
+          {
+            "label": "Tail bones",
+            "to": "tail-bones",
+            "x": 5,
+            "y": 63,
+            "w": 13,
+            "h": 6
+          },
+          {
+            "label": "Balancing act",
+            "to": "balancing-act",
+            "x": 7,
+            "y": 72,
+            "w": 15,
+            "h": 6
+          },
+          {
+            "label": "Peaceful plant-eaters",
+            "to": "peaceful-plant-eaters",
+            "x": 55,
+            "y": 70,
+            "w": 22,
+            "h": 6
+          }
+        ]
+      },
+      "well-known-bones": {
+        "image": "assets/dipl/DIPL01PU.webp",
+        "back": "main"
+      },
+      "peaceful-plant-eaters": {
+        "image": "assets/dipl/DIPL02PU.webp",
+        "back": "main"
+      },
+      "long-but-light": {
+        "image": "assets/dipl/DIPL03PU.webp",
+        "back": "main"
+      },
+      "sauropod-skin": {
+        "image": "assets/dipl/DIPL04PU.webp",
+        "back": "main"
+      },
+      "whats-in-a-skull": {
+        "image": "assets/dipl/DIPL05PU.webp",
+        "back": "main"
+      },
+      "diplodocus-dinner": {
+        "image": "assets/dipl/DIPL06PU.webp",
+        "back": "main"
+      },
+      "the-longest-neck": {
+        "image": "assets/dipl/DIPL07PU.webp",
+        "back": "main"
+      },
+      "balancing-act": {
+        "image": "assets/dipl/DIPL08PU.webp",
+        "back": "main"
+      },
+      "tail-bones": {
+        "image": "assets/dipl/DIPL09PU.webp",
+        "back": "main"
+      },
+      "chevron-comparison": {
+        "image": "assets/dipl/DIPL10PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/dipl/DIPL50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/dipl/DIPL00AP.mp3",
+  "narration": "assets/dipl/DIPL00AJ.mp3"
+}

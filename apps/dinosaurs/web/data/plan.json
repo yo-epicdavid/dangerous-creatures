@@ -1,0 +1,178 @@
+{
+  "id": "plan",
+  "code": "PLAN",
+  "name": "Plant-Eaters",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "PLANT-EE-terz",
+  "meaning": "",
+  "period": "",
+  "diet": "Herbivore",
+  "tagline": "From stone-swallowing sauropods to beak-wielding ceratopsians, plant-eating dinosaurs invented every trick to tackle the toughest greens!",
+  "hero": {
+    "image": "assets/plan/PLAN00AA.webp",
+    "alt": "Plant-Eaters"
+  },
+  "intro": "Many plant-eating dinosaurs evolved into gigantic creatures with long necks and barrel-shaped bodies. A huge gut helped digest enormous quantities of food. A sauropod, for example, may have eaten tons of foliage each day and needed a massive belly to ferment and grind its food. A long neck was also an advantage in the dinosaur world, allowing its owner to feed from the tops of very tall trees like conifers. Plant-eaters like Diplodocus had small, blunt, comb-like teeth to draw in conifer needles and leaves. Unable to chew, they simply swallowed what they raked in.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "stone-swallowers",
+      "title": "Stone Swallowers",
+      "image": "assets/plan/PLAN01PU.webp",
+      "text": "Most plant-eaters, such as Massospondylus, did not have grinding teeth to pulverize the food they ate, so they swallowed small stones that lodged in their gizzards. These gizzard stones, or gastroliths, ground the leaves and twigs they ate into a pulp that could be digested in the gut. Over time, the stones became smoothed and polished."
+    },
+    {
+      "id": "great-grinder",
+      "title": "Great Grinder",
+      "image": "assets/plan/PLAN02PU.webp",
+      "text": "One of the last surviving dinosaurs, Edmontosaurus was a duckbill with hundreds of diamond-shaped teeth in its upper and lower jaws—teeth it used for grinding its diet of trees and shrubs. A member of the duckbilled hadrosaur family, Edmontosaurus did not need a gizzard to pulverize its food as did many other plant-eaters.",
+      "captions": [
+        {
+          "label": "Self-sharpening",
+          "text": "The grinding surface formed by Edmontosaurus's battery of teeth acted like a self-sharpening vegetable grater. As the creature's teeth became worn down from chewing tough vegetation, new teeth grew to replace them."
+        },
+        {
+          "label": "Horse jaw",
+          "text": "This is the jawbone of a modern grinder, the horse. While its front teeth are effective nippers, pulling grass from the ground, its back teeth are grinders, good for pulverizing the plant material."
+        }
+      ]
+    },
+    {
+      "id": "tough-and-stringy",
+      "title": "Tough and Stringy",
+      "image": "assets/plan/PLAN03PU.webp",
+      "text": "Many early plants such as the palm-like cycad were tough and fibrous and needed to be broken down before plant-eating dinosaurs could digest them. Triceratops may have evolved specially to eat these tough plants. They may have even consumed pine cones!",
+      "captions": [
+        {
+          "label": "Born to chew",
+          "text": "Ceratopsian dinosaurs had powerful jaws and sharp teeth to help them consume tough plants. Triceratops used its large, parrot-like beak to snip off plants, which it then sliced up with sharp, scissor-like teeth. Its jaw was powered by huge muscles that attached to the frill behind its head."
+        }
+      ]
+    },
+    {
+      "id": "cropping-beaks",
+      "title": "Cropping Beaks",
+      "image": "assets/plan/PLAN04PU.webp",
+      "text": "Beaks like those on ceratopsian dinosaurs were ideal for cropping tough plants. The rough grooves and pits mark the places where the horny keratin covering was attached. The lower, wider part of the bone (called the predentary) fitted tightly against the lower jaw.",
+      "captions": [
+        {
+          "label": "Parrot beak",
+          "text": "Psittacosaurus had a sharp, down-turned beak like that of a parrot. While it did not have many teeth, its beak could slice through tough leaves and woody stems."
+        },
+        {
+          "label": "Triceratops skull",
+          "text": "The skull of Triceratops shows how well-suited it was at cropping and devouring the tough, fibrous plants that made up its diet. The parrot-like beak hooked the plants, which were sheared off with the movement of the animal's powerful lower jaw. The plants were then chopped into fine pieces by sharp teeth in the rear of the jaw."
+        }
+      ]
+    },
+    {
+      "id": "food-for-thought",
+      "title": "Food for Thought",
+      "image": "assets/plan/PLAN05PU.webp",
+      "text": "As plant-eaters devoured the cycads, herbs, and coniferous forests during the last part of the dinosaur reign, a new kind of vegetation evolved: flowering plants, which can reproduce much faster than other types of plants. These late-bloomers, also known as angiosperms, eventually dominated plant communities worldwide, dramatically changing the diets of dinosaurs."
+    },
+    {
+      "id": "changing-landscape",
+      "title": "Changing Landscape",
+      "image": "assets/plan/PLAN06PU.webp",
+      "text": "Plant life changed substantially over the 160 million year reign of the dinosaurs. But when Earth's one great landmass began to break up, climate changes influenced the types of plants that grew. Over millions of years plants evolved from the low, fern-like shrubs that initially dominated the landscape to huge coniferous forests and flourishing groves of cycads."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Teeth",
+      "to": "teet"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/plan/PLAN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Food for thought",
+            "to": "food-for-thought",
+            "x": 63,
+            "y": 28,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Changing landscape",
+            "to": "changing-landscape",
+            "x": 14,
+            "y": 59,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Tough and stringy",
+            "to": "tough-and-stringy",
+            "x": 13,
+            "y": 72,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Stone swallowers",
+            "to": "stone-swallowers",
+            "x": 57,
+            "y": 58,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Great grinder",
+            "to": "great-grinder",
+            "x": 59,
+            "y": 70,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Cropping beaks",
+            "to": "cropping-beaks",
+            "x": 44,
+            "y": 84,
+            "w": 17,
+            "h": 5
+          }
+        ]
+      },
+      "stone-swallowers": {
+        "image": "assets/plan/PLAN01PU.webp",
+        "back": "main"
+      },
+      "great-grinder": {
+        "image": "assets/plan/PLAN02PU.webp",
+        "back": "main"
+      },
+      "tough-and-stringy": {
+        "image": "assets/plan/PLAN03PU.webp",
+        "back": "main"
+      },
+      "cropping-beaks": {
+        "image": "assets/plan/PLAN04PU.webp",
+        "back": "main"
+      },
+      "food-for-thought": {
+        "image": "assets/plan/PLAN05PU.webp",
+        "back": "main"
+      },
+      "changing-landscape": {
+        "image": "assets/plan/PLAN06PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/plan/PLAN00AP.mp3",
+  "narration": "assets/plan/PLAN00AJ.mp3",
+  "sound": "assets/plan/PLAN00SA.mp3"
+}

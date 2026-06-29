@@ -1,0 +1,114 @@
+{
+  "id": "ples",
+  "code": "PLES",
+  "name": "Plesiosaurus",
+  "category": "creature",
+  "scientificName": "Plesiosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "PLEE-zee-oh-SOR-us",
+  "meaning": "Near lizard",
+  "period": "Early Jurassic",
+  "diet": "Carnivore",
+  "tagline": "A snake-necked sea hunter that struck from above the waves!",
+  "hero": {
+    "image": "assets/ples/PLES00AA.webp",
+    "alt": "Plesiosaurus"
+  },
+  "intro": "With its long snake-like neck, Plesiosaurus probably swam with its head above water. After spotting a fish beneath the surface, this marine reptile would suddenly dart its head down into the water and snap up the startled prey with its sharp teeth.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Europe"
+    },
+    {
+      "label": "Time Period",
+      "value": "Early Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Near lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Plesiosaur"
+    },
+    {
+      "label": "Length",
+      "value": "2.3m (7.5ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "fossil-clues",
+      "title": "Fossil Clues",
+      "image": "assets/ples/PLES01PU.webp",
+      "text": "This sharp fossil tooth belonged to a plesiosaur that lived during the Jurassic period. Teeth as long and sharp as these could easily crush the shell of a mollusk, providing a tasty meal for a plesiosaur.",
+      "captions": [
+        {
+          "label": "Likely survivors",
+          "text": "The teeth and bones are the hardest part of an animal, so they are the remains most often preserved as fossils."
+        }
+      ]
+    },
+    {
+      "id": "fish-for-food",
+      "title": "Fish for Food",
+      "image": "assets/ples/PLES02PU.webp",
+      "text": "Many types of bony fish, like the fossil Gryodus shown here, provided meals for the plesiosaurs and other marine reptiles."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Reptiles of the Sea",
+      "to": "rsea"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/ples/PLES00AA.webp",
+        "hotspots": [
+          {
+            "label": "Fish for food",
+            "to": "fish-for-food",
+            "x": 61,
+            "y": 32,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Fossil clues",
+            "to": "fossil-clues",
+            "x": 24,
+            "y": 50,
+            "w": 14,
+            "h": 5
+          }
+        ]
+      },
+      "fossil-clues": {
+        "image": "assets/ples/PLES01PU.webp",
+        "back": "main"
+      },
+      "fish-for-food": {
+        "image": "assets/ples/PLES02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/ples/PLES50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/ples/PLES00AP.mp3",
+  "narration": "assets/ples/PLES00AJ.mp3"
+}

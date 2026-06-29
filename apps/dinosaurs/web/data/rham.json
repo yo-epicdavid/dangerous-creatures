@@ -1,0 +1,132 @@
+{
+  "id": "rham",
+  "code": "RHAM",
+  "name": "Rhamphorhynchus",
+  "category": "creature",
+  "scientificName": "Rhamphorhynchus",
+  "needsScientificVerify": false,
+  "pronunciation": "ram-fo-RINK-us",
+  "meaning": "Prow beak",
+  "period": "Late Jurassic",
+  "diet": "Carnivore",
+  "tagline": "This sharp-toothed flying reptile snatched fish right out of prehistoric seas with its jagged beak.",
+  "hero": {
+    "image": "assets/rham/RHAM00AA.webp",
+    "alt": "Rhamphorhynchus"
+  },
+  "intro": "Many well preserved fossils of Rhamphorhynchus were found in Germany. This winged reptile soared over the prehistoric seas, surveying the water below for prey. When it spied a fish near the surface, Rhamphorhynchus could swoop down and snag its victim in its beak, which was filled with jagged, outward-pointing teeth.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Africa, Europe"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Prow beak"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Pterosaur"
+    },
+    {
+      "label": "Length",
+      "value": "1m (3ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "staying-on-course",
+      "title": "Staying on Course",
+      "image": "assets/rham/RHAM01PU.webp",
+      "text": "Just like the rudder on the tail of a plane, some pterosaurs used the diamond-shaped flap on the end of their tails to help them steer through the air in a straight line.",
+      "captions": [
+        {
+          "label": "Leather-winged lookalike",
+          "text": "From its narrow toothy beak to its long ruddered tail, Rhamphorhynchus looked very similar to another pterosaur, Eudimorphodon, that lived in the same time period."
+        },
+        {
+          "label": "Fish feeders",
+          "text": "Flyers like these pterosaurs could swoop down, feeding on fish and other small animals. Coelacanths may have been popular meals for the winged giants."
+        }
+      ]
+    },
+    {
+      "id": "of-claws-and-wings",
+      "title": "Of Claws and Wings",
+      "image": "assets/rham/RHAM02PU.webp",
+      "text": "Unlike most modern birds, Rhamphorhynchus had claws on its wings. It seems probable that birds lost their wing claws as they evolved over millions of years. Archaeopteryx, thought by many experts to be the earliest known bird, had three clawed fingers on each wing. One modern bird, the South American hoatzin, has claws like those of Archaeopteryx.",
+      "captions": [
+        {
+          "label": "Fingered wings",
+          "text": "As you can see here, modern bats have fingers, but these support the bat's leathery wings."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Pteranodon",
+      "to": "pten"
+    },
+    {
+      "label": "Eudimorphodon",
+      "to": "eudi"
+    },
+    {
+      "label": "Living Fossils",
+      "to": "ddec"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/rham/RHAM00AA.webp",
+        "hotspots": [
+          {
+            "label": "Staying on course",
+            "to": "staying-on-course",
+            "x": 10,
+            "y": 50,
+            "w": 22,
+            "h": 4
+          },
+          {
+            "label": "Of claws and wings",
+            "to": "of-claws-and-wings",
+            "x": 63,
+            "y": 57,
+            "w": 25,
+            "h": 4
+          }
+        ]
+      },
+      "staying-on-course": {
+        "image": "assets/rham/RHAM01PU.webp",
+        "back": "main"
+      },
+      "of-claws-and-wings": {
+        "image": "assets/rham/RHAM02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/rham/RHAM50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/rham/RHAM00AP.mp3",
+  "narration": "assets/rham/RHAM00AJ.mp3"
+}

@@ -1,0 +1,308 @@
+{
+  "id": "allo",
+  "code": "ALLO",
+  "name": "Allosaurus",
+  "category": "dinosaur",
+  "scientificName": "Allosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "AL-oh-SOR-us",
+  "meaning": "Different lizard",
+  "period": "Late Jurassic",
+  "diet": "Carnivore",
+  "tagline": "The most feared predator of the Jurassic — before T. rex was even born.",
+  "hero": {
+    "image": "assets/allo/ALLO00AA.webp",
+    "alt": "Allosaurus"
+  },
+  "intro": "With massive jaws and serrated, knife-like teeth, Allosaurus was one of the largest and most feared meat-eaters. This huge carnosaur used the strong claws on its three-fingered hands to hold down and tear at its prey. Allosaurus was the most common predatory dinosaur during the Late Jurassic period in what is now known as North America.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Africa, N.America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Different lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Theropod"
+    },
+    {
+      "label": "Length",
+      "value": "11m (36ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "1.5 tons"
+    }
+  ],
+  "topics": [
+    {
+      "id": "a-mighty-predator",
+      "title": "A Mighty Predator",
+      "image": "assets/allo/ALLO01PU.webp",
+      "text": "The vertebrae of Apatosaurus have been found with Allosaurus teeth marks on them. Scientists are unsure whether the giant sauropod was killed by Allosaurus, or whether it died naturally and was simply found by the hungry carnosaur.",
+      "captions": [
+        {
+          "label": "Giant defense",
+          "text": "If size alone didn't scare off a hungry Allosaurus, the giant sauropods had only one weapon left, a powerful, whip-like tail."
+        }
+      ]
+    },
+    {
+      "id": "skull-story",
+      "title": "Skull Story",
+      "image": "assets/allo/ALLO02PU.webp",
+      "text": "Skulls can tell us a lot about what a dinosaur ate when it was alive. Studying the jaws and teeth give the most important clues.",
+      "captions": [
+        {
+          "label": "Carnivore skull",
+          "text": "The powerful lower jaw and fearsome rows of curved, serrated teeth in this Allosaurus skull are typical of meat-eaters. Wide-mouthed eaters like Allosaurus had large muscles for closing their jaws."
+        },
+        {
+          "label": "Vegetarian skull",
+          "text": "This skull belonged to a huge plant-eater, or herbivore, called Diplodocus. Notice that all of its thin, pencil-like teeth are at the front of the mouth, which indicates that the dinosaur was unable to chew and would have merely used its teeth like a rake to draw in conifer needles and leaves."
+        }
+      ]
+    },
+    {
+      "id": "a-massive-skull",
+      "title": "A Massive Skull",
+      "image": "assets/allo/ALLO03PU.webp",
+      "text": "The skull of Allosaurus was over three feet long. This huge skull had large spaces, or \"windows,\" between the bones, which made it light but strong.",
+      "captions": [
+        {
+          "label": "Sharp-eyed hunter",
+          "text": "Big eye sockets indicate that Allosaurus may have had large eyes, perhaps larger than those of the bigger meat-eater Tyrannosaurus rex."
+        },
+        {
+          "label": "Strange bumps",
+          "text": "Allosaurus had a rough, bony bump over each eye. These may have shaded its eyes from the sun or helped one Allosaurus recognize another."
+        },
+        {
+          "label": "The teeth of a killer",
+          "text": "More than seventy teeth lined Allosaurus's jaws. They were up to four inches long with serrated edges like steak knives for slicing through flesh. The teeth curved toward the back of the mouth to prevent the food from slipping out. As teeth wore out or broke, new teeth grew in their place."
+        },
+        {
+          "label": "An eating machine",
+          "text": "With the exception of the jaws, skull bones are joined very firmly in most animals. Several joints in the skull of Allosaurus were loose and floppy, allowing this hunter to open its mouth extra wide to gulp down huge chunks of meat."
+        }
+      ]
+    },
+    {
+      "id": "meat-eating-dinosaurs",
+      "title": "Meat-Eating Dinosaurs",
+      "image": "assets/allo/ALLO04PU.webp",
+      "text": "Allosaurus was one of the large meat-eating, or carnivorous, dinosaurs. Allosaurus grew to an enormous size, sometimes as large as the king of the carnivores, Tyrannosaurus rex.",
+      "captions": [
+        {
+          "label": "Big eater",
+          "text": "Fossil remains of several plant-eating dinosaurs have been found with the skeletons of Allosaurus, including those of Camptosaurus and of huge Camarasaurus. This means Allosaurus probably fed on animals even larger than itself."
+        },
+        {
+          "label": "One of the first carnosaurs",
+          "text": "Dilophosaurus, with its distinctive crest, was one of the earliest known large carnivores."
+        }
+      ]
+    },
+    {
+      "id": "thick-legs-and-bird-like-hands",
+      "title": "Thick Legs and Bird-Like Hands",
+      "image": "assets/allo/ALLO05PU.webp",
+      "text": "The leg bones of Allosaurus were thick and strong. Its leg sometimes measured as much as four feet from hip to ankle. Allosaurus may not have been the fastest dinosaur, but as a predator, it was quick enough to snatch plant-eaters in its powerful jaws.",
+      "captions": [
+        {
+          "label": "Bird hands",
+          "text": "Small but sturdy arms and hands helped Allosaurus grasp its prey. Its three-fingered hands had sharp claws that could tear into flesh. Meat-eaters like Allosaurus needed to be well armed for hunting."
+        }
+      ]
+    },
+    {
+      "id": "useless-toe",
+      "title": "Useless Toe",
+      "image": "assets/allo/ALLO07PU.webp",
+      "text": "Three forward-pointing toes on each of Allosaurus's large feet carried the weight of this giant carnivore. A fourth toe pointed to the rear and may have touched the ground at times. Each toe had a sharp claw. A fifth toe that dangled beneath the ankle joint was short and useless in walking or running."
+    },
+    {
+      "id": "the-tale-of-the-tail",
+      "title": "The Tale of the Tail",
+      "image": "assets/allo/ALLO08PU.webp",
+      "text": "The long tail of Allosaurus, consisting of approximately fifty vertebrae, may have helped counterbalance the dinosaur's huge body when it rushed forward. The vertical and horizontal spines carried muscles to move the skeleton. Y-shaped chevrons underneath the tail vertebrae enclosed the main blood vessels of the tail."
+    },
+    {
+      "id": "allosaurus-skeleton",
+      "title": "Allosaurus Skeleton",
+      "image": "assets/allo/ALLO09PU.webp",
+      "text": "Allosaurus was one of the most common types of carnosaurs, the big carnivores of the dinosaur world. The bones of more than sixty allosaurus have been found in one quarry in Utah.",
+      "captions": [
+        {
+          "label": "Powerful head",
+          "text": "Allosaurus's curved neck had to be strong and flexible to carry its heavy head. Nine vertebrae made the neck short and muscular. Rough surfaces on the spine show scientists where muscles were attached."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Meat-eaters",
+      "to": "meat"
+    },
+    {
+      "label": "Apatosaurus",
+      "to": "apat"
+    },
+    {
+      "label": "The Story in a Skull",
+      "to": "stor"
+    },
+    {
+      "label": "Teeth",
+      "to": "teet"
+    },
+    {
+      "label": "Dilophosaurus",
+      "to": "dilo"
+    },
+    {
+      "label": "Claws",
+      "to": "claw"
+    },
+    {
+      "label": "What is a Fossil?",
+      "to": "foss"
+    },
+    {
+      "label": "Reconstructing Dinosaurs",
+      "to": "reco"
+    },
+    {
+      "label": "Piatnitzkysaurus",
+      "to": "piat"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/allo/ALLO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Skull story",
+            "to": "skull-story",
+            "x": 72,
+            "y": 17,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "A massive skull",
+            "to": "a-massive-skull",
+            "x": 72,
+            "y": 29,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Meat-eating dinosaurs",
+            "to": "meat-eating-dinosaurs",
+            "x": 63,
+            "y": 42,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Thick legs and bird-like hands",
+            "to": "thick-legs-and-bird-like-hands",
+            "x": 55,
+            "y": 56,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Allosaurus skeleton",
+            "to": "allosaurus-skeleton",
+            "x": 2,
+            "y": 50,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "A mighty predator",
+            "to": "a-mighty-predator",
+            "x": 2,
+            "y": 65,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "The tale of the tail",
+            "to": "the-tale-of-the-tail",
+            "x": 13,
+            "y": 79,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Useless toe",
+            "to": "useless-toe",
+            "x": 60,
+            "y": 79,
+            "w": 12,
+            "h": 5
+          }
+        ]
+      },
+      "a-mighty-predator": {
+        "image": "assets/allo/ALLO01PU.webp",
+        "back": "main"
+      },
+      "skull-story": {
+        "image": "assets/allo/ALLO02PU.webp",
+        "back": "main"
+      },
+      "a-massive-skull": {
+        "image": "assets/allo/ALLO03PU.webp",
+        "back": "main"
+      },
+      "meat-eating-dinosaurs": {
+        "image": "assets/allo/ALLO04PU.webp",
+        "back": "main"
+      },
+      "thick-legs-and-bird-like-hands": {
+        "image": "assets/allo/ALLO05PU.webp",
+        "back": "main"
+      },
+      "useless-toe": {
+        "image": "assets/allo/ALLO07PU.webp",
+        "back": "main"
+      },
+      "the-tale-of-the-tail": {
+        "image": "assets/allo/ALLO08PU.webp",
+        "back": "main"
+      },
+      "allosaurus-skeleton": {
+        "image": "assets/allo/ALLO09PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/allo/ALLO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/allo/ALLO00AP.mp3",
+  "narration": "assets/allo/ALLO00AJ.mp3"
+}

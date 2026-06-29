@@ -1,0 +1,158 @@
+{
+  "id": "tuat",
+  "code": "TUAT",
+  "name": "Tuatara",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "TOO-uh-TAH-rah",
+  "meaning": "Spiny-back",
+  "period": "Present",
+  "diet": "",
+  "tagline": "The sole survivor from the age of dinosaurs — a spiny-backed reptile that can live more than 120 years!",
+  "hero": {
+    "image": "assets/tuat/TUAT00AA.webp",
+    "alt": "Tuatara"
+  },
+  "intro": "The tuatara is the sole survivor of a group of reptiles that appeared alongside the dinosaurs about 200 million years ago. Tuataras are found only on a few small islands off the coast of New Zealand. The structure of its skull and the crest of small spines that run down the length of its back make the tuatara more closely related to dinosaurs than to present-day lizards.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "New Zealand"
+    },
+    {
+      "label": "Time Period",
+      "value": "Present"
+    },
+    {
+      "label": "Name Means",
+      "value": "Spiny-back"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Modern lizard"
+    },
+    {
+      "label": "Length",
+      "value": "60cm (2ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "skull-structure",
+      "title": "Skull Structure",
+      "image": "assets/tuat/TUAT01PU.webp",
+      "text": "The structure of the tuatara's skull is what separates it from modern lizards. The tuatara has two bony arches at the back of the skull, similar to a crocodile. In most modern lizards, one or both arches are missing.",
+      "captions": [
+        {
+          "label": "Tuatara skull",
+          "text": "Tuatara skull"
+        },
+        {
+          "label": "Tuatara",
+          "text": "Tuatara"
+        }
+      ]
+    },
+    {
+      "id": "a-long-slow-lifestyle",
+      "title": "A Long, Slow Lifestyle",
+      "image": "assets/tuat/TUAT02PU.webp",
+      "text": "Male tuataras grow to a length of around two feet; females are slightly shorter. They have an extremely slow growth rate, and are sometimes still growing at fifty to sixty years of age. Tuataras reach sexual maturity at around twenty years of age. They can live to be more than 120 years old!\n\nExtended incubation\nAfter mating, the female stores the sperm for ten to twelve months, and then lays five to fifteen eggs in a shallow burrow. The eggs do not hatch for another fifteen months, which is the longest known incubation period of any reptile.",
+      "captions": [
+        {
+          "label": "Male tuatara",
+          "text": "Male tuatara"
+        },
+        {
+          "label": "Female tuatara",
+          "text": "Female tuatara"
+        }
+      ]
+    },
+    {
+      "id": "other-differences-from-lizards",
+      "title": "Other Differences from Lizards",
+      "image": "assets/tuat/TUAT03PU.webp",
+      "text": "Tuataras are born with a special organ on top of their heads that looks like a third \"eye.\" This organ is sensitive to light and may serve as a thermostat to control the body temperature or as a biological clock to control various processes throughout the life of the animal. As the tuatara grows, the skin thickens over this organ, hiding it from view."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Iguana",
+      "to": "igna"
+    },
+    {
+      "label": "Dimetrodon",
+      "to": "dime"
+    },
+    {
+      "label": "Birth and Growth",
+      "to": "birt"
+    },
+    {
+      "label": "Living Fossils",
+      "to": "ddec"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/tuat/TUAT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Skull structure",
+            "to": "skull-structure",
+            "x": 5,
+            "y": 55,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Other differences from lizards",
+            "to": "other-differences-from-lizards",
+            "x": 28,
+            "y": 38,
+            "w": 33,
+            "h": 5
+          },
+          {
+            "label": "A long, slow lifestyle",
+            "to": "a-long-slow-lifestyle",
+            "x": 22,
+            "y": 74,
+            "w": 27,
+            "h": 5
+          }
+        ]
+      },
+      "skull-structure": {
+        "image": "assets/tuat/TUAT01PU.webp",
+        "back": "main"
+      },
+      "a-long-slow-lifestyle": {
+        "image": "assets/tuat/TUAT02PU.webp",
+        "back": "main"
+      },
+      "other-differences-from-lizards": {
+        "image": "assets/tuat/TUAT03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/tuat/TUAT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/tuat/TUAT00AP.mp3",
+  "narration": "assets/tuat/TUAT00AJ.mp3"
+}

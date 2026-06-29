@@ -1,0 +1,191 @@
+{
+  "id": "funl",
+  "code": "FUNL",
+  "name": "Funnel-web Spider",
+  "scientificName": "Atrax robustus",
+  "needsScientificVerify": false,
+  "tagline": "One bite from this eight-legged Aussie could drop you in under two hours!",
+  "weapons": [
+    "Venom & Poison"
+  ],
+  "habitats": [
+    "Forest & Woodland"
+  ],
+  "regions": [
+    "Australia & Oceania"
+  ],
+  "hero": {
+    "image": "assets/funl/FUNL00AA.webp",
+    "alt": "Funnel-web Spider"
+  },
+  "intro": "You could die in under two hours if an Australian funnel-web spider bit you–depending on what kind of funnel-web it was and whether it was male or female. The male Sydney funnel-web is one of the world's most venomous spiders–but the female northern funnel-web is even deadlier!",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by injecting venom through its fangs",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Insects",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "The fangs of the funnel web spider are very strong. Some researchers report that they can even pierce bones!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 5cm (2in)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Australia",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "another-trickster",
+      "title": "Another trickster",
+      "image": "assets/funl/FUNL01PU.webp",
+      "text": "A trapdoor spider waits for an insect to walk across the silken, moss-covered lid over its silk-lined burrow. When that happens, out pops the spider–and the insect is history! Although this kind of trap-door spider looks something like a funnel-web, it's no danger to humans. It uses its venom only on the insects it eats.",
+      "narration": "assets/funl/FUNL01NP.mp3"
+    },
+    {
+      "id": "the-better-to-bite-you-with",
+      "title": "The better to bite you with",
+      "image": "assets/funl/FUNL02PU.webp",
+      "text": "Australian funnel-web spiders have huge, powerful fangs. They're strong enough to puncture a mouse's skull–or a person's fingernail!",
+      "captions": [
+        {
+          "label": "Moving parts",
+          "text": "Many spiders' fangs swing together so that prey is held in the fangs like a splinter in a pair of tweezers. But the fangs of funnel-web spiders are more like the fangs of tarantulas, which point downward so that the spider can pin down its dinner."
+        },
+        {
+          "label": "Ferocious fangs",
+          "text": "This tarantula from Sri Lanka is a pussycat compared with the Australian funnel-web. Tarantulas almost never use their fangs on anything but an animal that they're planning to eat. Funnel-web spiders, on the other hand, bite first and save the menu decisions for later."
+        }
+      ],
+      "narration": "assets/funl/FUNL02NP.mp3"
+    },
+    {
+      "id": "the-eyes-have-it",
+      "title": "The eyes have it",
+      "image": "assets/funl/FUNL03PU.webp",
+      "text": "Most spiders have two rows of four eyes each. Can you find the eight eyes of the spider shown below? You'd think that with all those eyes, spiders would have terrific vision. In fact, most spiders don't see well at all. Luckily for them, they are very sensitive to vibrations and sense movement with the hairs on their legs.",
+      "captions": [
+        {
+          "label": "Brazilian Wandering Spider",
+          "text": "closeup of head"
+        }
+      ],
+      "narration": "assets/funl/FUNL03NP.mp3"
+    },
+    {
+      "id": "deadliest-in-the-world",
+      "title": "Deadliest in the world",
+      "image": "assets/funl/FUNL04PU.webp",
+      "text": "The Brazilian wandering spider holds the record as the most venomous spider in the world. This spider has been known to wander into houses and hide out in people's clothing. Fortunately, an antidote for this spider's venom is available, so a bite is not necessarily fatal.",
+      "narration": "assets/funl/FUNL04NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/funl/FUNL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 5.18,
+            "y": 9.19,
+            "w": 4.33,
+            "h": 3.92
+          },
+          {
+            "label": "Deadliest in the world",
+            "to": "deadliest-in-the-world",
+            "x": 52.84,
+            "y": 12.44,
+            "w": 26.36,
+            "h": 9.33
+          },
+          {
+            "label": "The better to bite you with",
+            "to": "the-better-to-bite-you-with",
+            "x": 28,
+            "y": 24,
+            "w": 44,
+            "h": 7
+          },
+          {
+            "label": "The eyes have it",
+            "to": "the-eyes-have-it",
+            "x": 37,
+            "y": 40,
+            "w": 28,
+            "h": 7
+          },
+          {
+            "label": "Another trickster",
+            "to": "another-trickster",
+            "x": 77.06,
+            "y": 45.55,
+            "w": 8.08,
+            "h": 3.92
+          },
+          {
+            "label": "Catch and carry",
+            "to": "video",
+            "x": 8,
+            "y": 82,
+            "w": 28,
+            "h": 8
+          }
+        ]
+      },
+      "another-trickster": {
+        "image": "assets/funl/FUNL01PU.webp",
+        "back": "main"
+      },
+      "the-better-to-bite-you-with": {
+        "image": "assets/funl/FUNL02PU.webp",
+        "back": "main"
+      },
+      "the-eyes-have-it": {
+        "image": "assets/funl/FUNL03PU.webp",
+        "back": "main"
+      },
+      "deadliest-in-the-world": {
+        "image": "assets/funl/FUNL04PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/funl/FUNL00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/funl/clip.mp4",
+        "poster": "assets/funl/FUNL05TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "ambient": "assets/funl/narration.mp3",
+  "sound": "assets/funl/FUNL00AF.mp3",
+  "factsNarration": "assets/funl/FUNL00FB.mp3",
+  "video": {
+    "title": "Catch and carry",
+    "src": "assets/funl/clip.mp4",
+    "poster": "assets/funl/poster.webp",
+    "caption": "A spider that builds a funnel web spends most of its time waiting in its burrow in the center of its web. When the spider feels vibrations, it rushes out to see what's walking by. The spider paralyzes the intruder with venom, and then carries the body back to its burrow to eat."
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "id": "shar",
+  "code": "SHAR",
+  "name": "Scary Sharks",
+  "category": "creature",
+  "scientificName": "Carcharodon carcharias",
+  "needsScientificVerify": false,
+  "tagline": "These ocean hunters are scary — but you are far deadlier to them than they are to you!",
+  "zones": [
+    "Open ocean",
+    "Coast & tide pools",
+    "Coral reef"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/shar/SHAR00AA.webp",
+    "alt": "Scary Sharks"
+  },
+  "intro": "Few sights are more frightful to divers than that of a large shark swimming in their direction. And for good reason: some sharks are powerful predators that can slice through huge chunks of flesh in a single bite. But fewer than 40 of the more than 250 species of sharks have ever attacked people, and those do so very rarely. Sharks are really no more ferocious than other carnivores. In fact, the most voracious predators on earth are humans.",
+  "facts": [
+    {
+      "label": "Species",
+      "value": "Fewer than 40 of the more than 250 species of sharks have ever attacked people."
+    },
+    {
+      "label": "Size",
+      "value": "Great white sharks can grow to more than 6.1 m (20 ft) long."
+    },
+    {
+      "label": "Anatomy",
+      "value": "Shark skeletons are made of cartilage instead of bones, so they're very flexible."
+    },
+    {
+      "label": "Teeth",
+      "value": "Shark teeth are arranged in rows and grow continuously throughout their lives."
+    },
+    {
+      "label": "Diet",
+      "value": "Hammerhead sharks hunt stingrays; tiger sharks seem to eat anything that will fit into their mouths."
+    },
+    {
+      "label": "Did you know",
+      "value": "People kill great white sharks more than 20 times as often as great whites kill them."
+    }
+  ],
+  "topics": [
+    {
+      "id": "the-most-feared",
+      "title": "The most feared",
+      "image": "assets/shar/SHAR01PU.webp",
+      "text": "Even before horror films about sharks became popular, the great white shark was the most feared by divers. They can grow to more than 6.1 m (20 ft) long, and they often use their rows of razor-sharp teeth on large animals like dolphins and seals. Great whites don't seek out humans to attack, but it's an unfortunate coincidence that people in wet suits and on surfboards look a lot like seals to these giants. Still, people kill great white sharks more than 20 times as often as great whites kill them.",
+      "narration": "assets/shar/SHAR01JN.mp3"
+    },
+    {
+      "id": "hammerheads",
+      "title": "Hammerheads",
+      "image": "assets/shar/SHAR02PU.webp",
+      "text": "Any shark with a hammer-shaped head is pretty scary looking, and this shark's habit of waving its head from side to side may look threatening to us, too. When a hammerhead shark sweeps over the ocean bottom like a living metal detector, it's not trying to frighten away divers; it's just hunting for its favorite food—stingrays. There are several species of hammerheads, and only a few have ever attacked people.",
+      "narration": "assets/shar/SHAR02JN.mp3"
+    },
+    {
+      "id": "fierce-tigers",
+      "title": "Fierce tigers",
+      "image": "assets/shar/SHAR03PU.webp",
+      "text": "The tiger shark is considered the most dangerous of the tropical sharks. There are several reasons for this: it's the most common large shark in many areas; it seems to eat anything that will fit into its mouth; and it often hunts in shallow waters at night. This shark gets its name from the spots and stripes it sports when it's young. Many people eat tiger sharks, tan their skins for leather, or use their teeth in necklaces.",
+      "narration": "assets/shar/SHAR03JN.mp3"
+    },
+    {
+      "id": "the-better-to-bite-with",
+      "title": "The better to bite with",
+      "image": "assets/shar/SHAR04PU.webp",
+      "text": "Sharks have been cruising the oceans for millions of years, and in that time they've changed very little. They also have some amazing features. For instance, their skeletons are made of cartilage instead of bones, so they're very flexible. Plus, their bodies are streamlined, which makes them very fast. But probably the most amazing feature of sharks is their teeth, which are arranged in rows and grow continuously throughout their lives. Different species of sharks have different types of teeth, but all sharks have teeth to spare.",
+      "captions": [
+        {
+          "label": "Great white's teeth",
+          "text": "A great white's teeth are large and triangular."
+        },
+        {
+          "label": "Sand tiger shark",
+          "text": "A sand tiger shark has sharp, spiky teeth."
+        }
+      ],
+      "narration": "assets/shar/SHAR04JN.mp3"
+    },
+    {
+      "id": "shark-protection",
+      "title": "Shark protection",
+      "image": "assets/shar/SHAR05PU.webp",
+      "text": "Both humans and sharks are predators. If you were in a boat, you could catch and eat a shark. But if you were swimming in the ocean, a shark could catch and eat you. So if you want to observe the fascinating world of sharks, you'd be wise to be wary and take precautions.",
+      "captions": [
+        {
+          "label": "People in cages",
+          "text": "A strong cage is the best protection for people who study sharks."
+        },
+        {
+          "label": "Underwater armor",
+          "text": "A chain-mail suit can keep a shark's teeth from slicing into flesh, but it won't prevent bruises or broken bones."
+        }
+      ],
+      "narration": "assets/shar/SHAR05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Fascinating Sharks",
+      "to": "fasc"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/shar/SHAR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 3,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Hammerheads",
+            "to": "hammerheads",
+            "x": 59,
+            "y": 17,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "The most feared",
+            "to": "the-most-feared",
+            "x": 60,
+            "y": 28,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "I'm warning you!",
+            "to": "video",
+            "x": 17,
+            "y": 61,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Fierce tigers",
+            "to": "fierce-tigers",
+            "x": 38,
+            "y": 72,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Shark protection",
+            "to": "shark-protection",
+            "x": 22,
+            "y": 79,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "The better to bite with",
+            "to": "the-better-to-bite-with",
+            "x": 50,
+            "y": 72,
+            "w": 23,
+            "h": 5
+          }
+        ]
+      },
+      "the-most-feared": {
+        "image": "assets/shar/SHAR01PU.webp",
+        "back": "main"
+      },
+      "hammerheads": {
+        "image": "assets/shar/SHAR02PU.webp",
+        "back": "main"
+      },
+      "fierce-tigers": {
+        "image": "assets/shar/SHAR03PU.webp",
+        "back": "main"
+      },
+      "the-better-to-bite-with": {
+        "image": "assets/shar/SHAR04PU.webp",
+        "back": "main"
+      },
+      "shark-protection": {
+        "image": "assets/shar/SHAR05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/shar/clip.mp4",
+        "poster": "assets/shar/SHAR06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/shar/SHAR00JN.mp3",
+  "sound": "assets/shar/SHAR00IX.mp3",
+  "video": {
+    "title": "I'm warning you!",
+    "src": "assets/shar/clip.mp4",
+    "poster": "assets/shar/poster.webp",
+    "caption": "Just as a dog might bark and growl at an intruder, sharks often give off warning signals that they want you to stay away. If a shark starts swimming in zigzags or otherwise behaving oddly, that's your signal to get out of its territory! If more people learned the ways of sharks, we'd get into scrapes with them much less often.",
+    "narration": "assets/shar/SHAR06JN.mp3"
+  }
+}

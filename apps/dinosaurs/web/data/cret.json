@@ -1,0 +1,257 @@
+{
+  "id": "cret",
+  "code": "CRET",
+  "name": "The Cretaceous Period",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "kreh-TAY-shus",
+  "meaning": "",
+  "period": "Cretaceous",
+  "diet": "",
+  "tagline": "Flowers bloomed, horned giants roamed in herds, and then 65 million years ago it all went dark.",
+  "hero": {
+    "image": "assets/cret/CRET00AA.webp",
+    "alt": "The Cretaceous Period"
+  },
+  "intro": "At the beginning of the Cretaceous period, the climate began to dry out a bit. In the northern areas, forests of tough conifers, cycads, and ginkgoes were common, and in the equatorial regions there were treeless savannas covered with ferns and horsetails. The giant plant-eating dinosaurs of the Jurassic were replaced by new forms of herbivores. Flowering plants appeared and soon dominated the scenery.",
+  "facts": [
+    {
+      "label": "Ended",
+      "value": "About 65 million years ago"
+    },
+    {
+      "label": "Angiosperms appeared",
+      "value": "Around 90 million years ago"
+    },
+    {
+      "label": "Flowering plants today",
+      "value": "More than four-fifths of living plant species"
+    },
+    {
+      "label": "Deinosuchus length",
+      "value": "As long as forty-nine feet"
+    },
+    {
+      "label": "Hesperornis height",
+      "value": "About three feet tall"
+    },
+    {
+      "label": "Purgatorius length",
+      "value": "Ten inches"
+    },
+    {
+      "label": "Alphadon length",
+      "value": "About one foot long"
+    }
+  ],
+  "topics": [
+    {
+      "id": "bunches-of-beasts",
+      "title": "Bunches of Beasts",
+      "image": "assets/cret/CRET01PU.webp",
+      "text": "Many different types of dinosaurs were abundant during this time period. Fossil footprints have shown us that some dinosaurs lived in herds or gathered into groups for protection from predators."
+    },
+    {
+      "id": "flower-power",
+      "title": "Flower Power",
+      "image": "assets/cret/CRET02PU.webp",
+      "text": "Here is a collection of plants that would have existed in the middle of the Cretaceous period. At the beginning of the period, there were no flowering plants. The main vegetation consisted of gymnosperms (\"naked seed\" plants) such as conifer trees and cycads, as well as seed ferns and mosses. Around 90 million years ago, flowering plants—known as angiosperms (\"enclosed seed\" plants)—began to appear. Our world today is dominated by angiosperms. Flowering plants now make up more than four-fifths of living plant species.",
+      "captions": [
+        {
+          "label": "A new partnership",
+          "text": "Flowers gave insects opportunities to evolve. Flies, bees, and butterflies carried pollen from one flower to another, fertilizing the blooming plants. Some flowers developed sugary nectar to entice insects to their pollen."
+        }
+      ]
+    },
+    {
+      "id": "the-emergence-of-mammals",
+      "title": "The Emergence of Mammals",
+      "image": "assets/cret/CRET03PU.webp",
+      "text": "Many mammals had appeared by the Late Cretaceous period. Most were small and timid, making their diets a variety of flowers, fruit, insects, and worms.",
+      "captions": [
+        {
+          "label": "Precursor of mammals",
+          "text": "Cynognathus, a mammal-like reptile, existed during the Triassic period."
+        },
+        {
+          "label": "Alphadon",
+          "text": "An opossum-like creature about one foot long, Alphadon had a long tail and gripping toes that allowed it to live in trees."
+        },
+        {
+          "label": "Purgatorius",
+          "text": "This ten-inch-long mammal is known only from its fossil teeth, which indicate that it was one of the first primates—the mammal group that includes monkeys, apes, and humans."
+        }
+      ]
+    },
+    {
+      "id": "troops-of-triceratops",
+      "title": "Troops of Triceratops",
+      "image": "assets/cret/CRET04PU.webp",
+      "text": "The ceratopsians, or horned dinosaurs, were some of the last dinosaurs on Earth. The closeness of fossil nests tells us that ceratopsians such as Triceratops probably raised their young in family groups and traveled in herds. They may have gathered into a defensive circle when threatened."
+    },
+    {
+      "id": "giant-crocodiles",
+      "title": "Giant Crocodiles",
+      "image": "assets/cret/CRET05PU.webp",
+      "text": "Deinosuchus, a prehistoric crocodile that may have been as long as forty-nine feet, haunted the shallows of lakes and rivers, waiting to ambush dinosaurs that came for a drink. Crocodiles were very successful reptiles—they survived after the dinosaurs died out, and although they are smaller today than their prehistoric cousins, they still exist in many parts of the world."
+    },
+    {
+      "id": "early-birds",
+      "title": "Early Birds",
+      "image": "assets/cret/CRET06PU.webp",
+      "text": "By the Late Cretaceous, many birds shared the sky with the pterosaurs, or flying lizards. Birds survived after the Cretaceous period, but pterosaurs did not.",
+      "captions": [
+        {
+          "label": "Strong flyer",
+          "text": "Ichthyornis probably dived for fish like a modern tern. It is the first bird known to have a strong breastbone with a flange or keel, which anchored the wing-flapping muscles."
+        },
+        {
+          "label": "Strong swimmer",
+          "text": "Hesperornis was a fish-eating bird about three feet tall, with a beak full of teeth to hold its slippery prey."
+        }
+      ]
+    },
+    {
+      "id": "end-of-the-line",
+      "title": "End of the Line",
+      "image": "assets/cret/CRET07PU.webp",
+      "text": "At the end of the Cretaceous period, about 65 million years ago, the dinosaurs all died out. Along with the dinosaurs, the marine reptiles and the flying reptiles became extinct. Many creatures in the sea, such as the ammonites, also disappeared forever. What kind of catastrophe could have caused so many animals to die? Although we have many theories, we don't know for sure."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Life After Dinosaurs",
+      "to": "aftr"
+    },
+    {
+      "label": "Footprints",
+      "to": "foot"
+    },
+    {
+      "label": "Plant-eaters",
+      "to": "plan"
+    },
+    {
+      "label": "Warm-blooded or Cold-blooded?",
+      "to": "warm"
+    },
+    {
+      "label": "Nests and Eggs",
+      "to": "nest"
+    },
+    {
+      "label": "Deinosuchus",
+      "to": "dhus"
+    },
+    {
+      "label": "Reptiles of the Air",
+      "to": "rair"
+    },
+    {
+      "label": "Marching to Extinction",
+      "to": "extt"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/cret/CRET00AA.webp",
+        "hotspots": [
+          {
+            "label": "Bunches of beasts",
+            "to": "bunches-of-beasts",
+            "x": 6,
+            "y": 23,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Giant crocodiles",
+            "to": "giant-crocodiles",
+            "x": 4,
+            "y": 41,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Early birds",
+            "to": "early-birds",
+            "x": 4,
+            "y": 63,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "The emergence of mammals",
+            "to": "the-emergence-of-mammals",
+            "x": 6,
+            "y": 71,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "End of the line",
+            "to": "end-of-the-line",
+            "x": 66,
+            "y": 24,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Troops of Triceratops",
+            "to": "troops-of-triceratops",
+            "x": 57,
+            "y": 57,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Flower power",
+            "to": "flower-power",
+            "x": 71,
+            "y": 67,
+            "w": 18,
+            "h": 5
+          }
+        ]
+      },
+      "bunches-of-beasts": {
+        "image": "assets/cret/CRET01PU.webp",
+        "back": "main"
+      },
+      "flower-power": {
+        "image": "assets/cret/CRET02PU.webp",
+        "back": "main"
+      },
+      "the-emergence-of-mammals": {
+        "image": "assets/cret/CRET03PU.webp",
+        "back": "main"
+      },
+      "troops-of-triceratops": {
+        "image": "assets/cret/CRET04PU.webp",
+        "back": "main"
+      },
+      "giant-crocodiles": {
+        "image": "assets/cret/CRET05PU.webp",
+        "back": "main"
+      },
+      "early-birds": {
+        "image": "assets/cret/CRET06PU.webp",
+        "back": "main"
+      },
+      "end-of-the-line": {
+        "image": "assets/cret/CRET07PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/cret/CRET00AP.mp3",
+  "narration": "assets/cret/CRET00AJ.mp3",
+  "sound": "assets/cret/CRET00SA.mp3"
+}

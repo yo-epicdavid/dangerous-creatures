@@ -1,0 +1,272 @@
+{
+  "id": "griz",
+  "code": "GRIZ",
+  "name": "Grizzly Bear",
+  "scientificName": "Ursus arctos horribilis",
+  "needsScientificVerify": false,
+  "tagline": "Massive enough to weigh eight grown men — and fast enough to leave them all behind!",
+  "weapons": [
+    "Teeth & Jaws",
+    "Claws & Talons"
+  ],
+  "habitats": [
+    "Forest & Woodland",
+    "Mountains"
+  ],
+  "regions": [
+    "North America"
+  ],
+  "hero": {
+    "image": "assets/griz/GRIZ00AA.webp",
+    "alt": "Grizzly Bear"
+  },
+  "intro": "The largest carnivores on land today are northern bears. Massive animals with enormous teeth that can bite through steel bolts, grizzly bears can weigh as much as eight full-grown men! They can charge at a terrifying 45 kilometers (28 mi) per hour. It's a good thing for us that grizzlies rarely run after people!",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills and defends by biting and clawing",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Fish, grasses, honey, rodents, insects, fruits, and nuts",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "These bears will chase anything that runs. They can eat 9 kilograms (20 lbs) of meat at one time — equal to 80 hamburgers!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 2.4m (8ft)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "North America",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "gone-fishin",
+      "title": "Gone fishin'",
+      "image": "assets/griz/GRIZ01PU.webp",
+      "text": "Fresh fish is a favorite food of grizzlies. The best place to spot these huge bears is at a good fishin' hole, especially when salmon swim up streams from the ocean to spawn. Some bears slap the water with their huge paws, hoping to snag a fish. Others dive underwater to grab one in their teeth.",
+      "narration": "assets/griz/GRIZ01NP.mp3"
+    },
+    {
+      "id": "black-or-brown",
+      "title": "Black or brown?",
+      "image": "assets/griz/GRIZ02PU.webp",
+      "text": "In many grizzly bear areas there are black bears as well. Black bears are mostly vegetarians, although they won't pass up meat when it's easy to grab. Many so-called black bears are mistaken for grizzlies because they are really more brown than black. To decide if a bear is a grizzly or a black, look at its back: a grizzly has a hump; a black bear does not.",
+      "captions": [
+        {
+          "label": "Climbing cubs",
+          "text": "Black bears live mainly in areas with trees. If they share their territory with grizzlies, a black bear cub may need to climb a tree in a hurry to avoid being eaten by a male griz!"
+        }
+      ],
+      "narration": "assets/griz/GRIZ02NP.mp3"
+    },
+    {
+      "id": "ancient-cave-dweller",
+      "title": "Ancient cave dweller",
+      "image": "assets/griz/GRIZ03PU.webp",
+      "text": "Hundreds of thousands of years ago in what is now Europe, giant bears preyed on bison and other herbivores. During the ice ages, ancient humans sometimes competed with these bears for caves in which to live. How do we know? We've found paintings of the bears on the walls of the caves where early people lived, as well as fossilized bear bones on some of the cave floors.",
+      "captions": [
+        {
+          "label": "Skulls now and then",
+          "text": "You can see that ancient bears were quite a bit bigger than modern bears. Also, over the years the teeth of bears changed. The teeth in the fossil skull are all sharp and pointed for eating meat, while different types of teeth in the modern bear skull show that bears today eat all kinds of food, plants as well as meat."
+        }
+      ],
+      "narration": "assets/griz/GRIZ03NP.mp3"
+    },
+    {
+      "id": "the-cub-club",
+      "title": "The cub club",
+      "image": "assets/griz/GRIZ04PU.webp",
+      "text": "Although an adult grizzly is as big as a bison, a newborn cub can fit into a shoebox! Grizzlies are born with their eyes shut, without fur, and weighing only 350-680 grams (12.3-23.8 oz). Over the next 10 years or so, they've got a lot of growing to do.",
+      "captions": [
+        {
+          "label": "Cute but not cuddly",
+          "text": "Don't ever approach a baby bear in the wild. Although it might seem defenseless, it can still yelp for mom, who is somewhere nearby."
+        }
+      ],
+      "narration": "assets/griz/GRIZ04NP.mp3"
+    },
+    {
+      "id": "unpredictable",
+      "title": "Unpredictable",
+      "image": "assets/griz/GRIZ05PU.webp",
+      "text": "It's hard to know what a grizzly might do if you met up with one. But if the grizzly stands up like this, it's either challenging you because you're too close, or trying to figure out if you'd make a good meal. In either case, start backing away slowly. Some people have found that shouting or waving their arms can also make a big bear back down.",
+      "narration": "assets/griz/GRIZ05NP.mp3"
+    },
+    {
+      "id": "asian-relatives",
+      "title": "Asian relatives",
+      "image": "assets/griz/GRIZ06PU.webp",
+      "text": "Bears once roamed all around the world, but now they're confined to only a few places. This Asiatic black bear, also known as a Tibetan or Himalayan black bear, lives in Japan, China, and Siberia. People have been killing Asiatic blacks for centuries, so now there aren't many left. A big Asiatic black bear weighs around 100 kilograms (220 lb).",
+      "captions": [
+        {
+          "label": "You'd be mean, too!",
+          "text": "These bears have the reputation of being dangerous to humans. But they generally attack only when humans move into their territory. You'd be mean, too, if strangers invaded your home or ate most of your food!"
+        }
+      ],
+      "narration": "assets/griz/GRIZ06NP.mp3"
+    },
+    {
+      "id": "whos-the-biggest",
+      "title": "Who's the biggest?",
+      "image": "assets/griz/GRIZ07PU.webp",
+      "text": "If bears around the world got together to see who was the biggest, who would win?",
+      "captions": [
+        {
+          "label": "Also a heavyweight",
+          "text": "Polar bears, which live in the Arctic, sometimes weigh more than 682 kilograms (1,500 lb)."
+        },
+        {
+          "label": "Heavyweight division",
+          "text": "Although all grizzlies are not giants, a big male can weigh as much as 780 kilograms (1,716 lb). A Kodiak bear—another type of brown bear—grows even bigger!"
+        },
+        {
+          "label": "Lightweight division",
+          "text": "American black bears weigh up to 270 kilograms (594 lb). The lightest bear is the Asian sun bear, which weighs only 27-50 kilograms (60-110 lb)."
+        }
+      ],
+      "narration": "assets/griz/GRIZ07NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/griz/GRIZ00AA.webp",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 4.56,
+            "y": 9.02,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "The cub club",
+            "to": "the-cub-club",
+            "x": 38.05,
+            "y": 10.1,
+            "w": 11.22,
+            "h": 4.14
+          },
+          {
+            "label": "Black or brown?",
+            "to": "black-or-brown",
+            "x": 69.04,
+            "y": 2.71,
+            "w": 24.67,
+            "h": 4.14
+          },
+          {
+            "label": "Gone fishin'",
+            "to": "gone-fishin",
+            "x": 36,
+            "y": 15,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Unpredictable",
+            "to": "unpredictable",
+            "x": 17.24,
+            "y": 52.28,
+            "w": 12.94,
+            "h": 4.14
+          },
+          {
+            "label": "Territorial disputes",
+            "to": "video",
+            "x": 10.98,
+            "y": 60.76,
+            "w": 14.82,
+            "h": 4.14
+          },
+          {
+            "label": "Asian relatives",
+            "to": "asian-relatives",
+            "x": 12,
+            "y": 70,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Who's the biggest?",
+            "to": "whos-the-biggest",
+            "x": 7.07,
+            "y": 78.58,
+            "w": 16.22,
+            "h": 4.57
+          },
+          {
+            "label": "Ancient cave dweller",
+            "to": "ancient-cave-dweller",
+            "x": 36.18,
+            "y": 81.63,
+            "w": 17.79,
+            "h": 3.7
+          }
+        ]
+      },
+      "gone-fishin": {
+        "image": "assets/griz/GRIZ01PU.webp",
+        "back": "main"
+      },
+      "black-or-brown": {
+        "image": "assets/griz/GRIZ02PU.webp",
+        "back": "main"
+      },
+      "ancient-cave-dweller": {
+        "image": "assets/griz/GRIZ03PU.webp",
+        "back": "main"
+      },
+      "the-cub-club": {
+        "image": "assets/griz/GRIZ04PU.webp",
+        "back": "main"
+      },
+      "unpredictable": {
+        "image": "assets/griz/GRIZ05PU.webp",
+        "back": "main"
+      },
+      "asian-relatives": {
+        "image": "assets/griz/GRIZ06PU.webp",
+        "back": "main"
+      },
+      "whos-the-biggest": {
+        "image": "assets/griz/GRIZ07PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/griz/GRIZ00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/griz/clip.mp4",
+        "poster": "assets/griz/GRIZ08TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "ambient": "assets/griz/narration.mp3",
+  "sound": "assets/griz/GRIZ00AF.mp3",
+  "factsNarration": "assets/griz/GRIZ00FB.mp3",
+  "video": {
+    "title": "Territorial disputes",
+    "src": "assets/griz/clip.mp4",
+    "poster": "assets/griz/poster.webp",
+    "caption": "Grizzly bears don't always get along with each other. A mother grizzly will try to scare away adult males, because sometimes they kill cubs. And adult male bears don't like to share their territory with other adult males, so if two meet, there's usually a shoving match to decide who gets to stay."
+  }
+}

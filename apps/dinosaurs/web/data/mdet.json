@@ -1,0 +1,207 @@
+{
+  "id": "mdet",
+  "code": "MDET",
+  "name": "Modern Dinosaur Detectives",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "The scientists cracking open dinosaur secrets one fossil at a time.",
+  "hero": {
+    "image": "assets/mdet/MDET00AA.webp",
+    "alt": "Modern Dinosaur Detectives"
+  },
+  "intro": "Nearly half of all the dinosaurs we know about have been discovered within the last two decades. With these new discoveries come radical new ways of viewing the development, behavior, and intelligence of these prehistoric creatures. Today's dinosaur detectives are better educated and better trained by far than their predecessors, and their theories about the origins, lives, and extinction of dinosaurs are sometimes controversial.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "unorthodox-thinkers",
+      "title": "Unorthodox Thinkers",
+      "image": "assets/mdet/MDET01PU.webp",
+      "text": "Thanks to new theories, ideas about how dinosaurs looked and how they lived are constantly changing.",
+      "captions": [
+        {
+          "label": "Robert Bakker",
+          "text": "Robert Bakker shook the conventions of paleontology in 1968 when he claimed that dinosaurs were fast, agile, active creatures like modern, warm-blooded mammals. He contends that dinosaurs live today—in the form of birds!"
+        },
+        {
+          "label": "Sankar Chatterjee",
+          "text": "Indian paleontologist Sankar Chatterjee is with Texas Tech University in Lubbock. In 1986, Chatterjee found evidence of what may be the world's earliest known bird, Protoavis, which he believes existed at least eighty-five million years before Archaeopteryx. Other scientists are not so sure."
+        }
+      ]
+    },
+    {
+      "id": "chinese-studies",
+      "title": "Chinese Studies",
+      "image": "assets/mdet/MDET02PU.webp",
+      "text": "Throughout the last century, the arid regions of China have yielded many exciting dinosaur discoveries.",
+      "captions": [
+        {
+          "label": "Philip J. Currie",
+          "text": "Canadian paleontologist Philip J. Currie is considered an expert in carnivorous dinosaurs. In the late 1980s, he and paleontologist Dale Russell led a joint Canadian-Chinese research expedition. Wonderful fossils were discovered, including rare baby dinosaurs, and the largest dinosaur ever found in Asia."
+        },
+        {
+          "label": "Dong Zhiming",
+          "text": "Chinese paleontologist Dong Zhiming is the world's most prolific dinosaur detective. Dong named nineteen Chinese dinosaurs in the 1970s and 1980s!"
+        }
+      ]
+    },
+    {
+      "id": "defining-duckbilled-dinosaurs",
+      "title": "Defining Duckbilled Dinosaurs",
+      "image": "assets/mdet/MDET03PU.webp",
+      "text": "Hadrosaurs, with their strangely shaped heads and duck-like bills, have long fascinated paleontologists.",
+      "captions": [
+        {
+          "label": "David Weishampel",
+          "text": "An American paleontologist, David Weishampel has done innovative research on duckbill dinosaur anatomy and behavior that spawned the conclusion that duckbill crests could have trumpeted low-frequency messages for miles, much as elephants communicate today."
+        },
+        {
+          "label": "Jack Horner",
+          "text": "Museum of the Rockies paleontologist Jack Horner identified the first dinosaur nests in North America. Horner and friend Robert Makela excavated the nests of the duckbill Maiasaura in western Montana in 1978. Evidence in the well-trampled nests suggested these dinosaurs cared for their young long after birth."
+        },
+        {
+          "label": "Peter Dodson",
+          "text": "Peter Dodson is a professor of anatomy at the University of Pennsylvania. Dodson showed in 1975 that the many species of crested duckbilled dinosaurs were really the males, females and young of just a few species. He reduced thirteen species to two: Lambeosaurus and Parasaurolophus."
+        }
+      ]
+    },
+    {
+      "id": "sauropod-specialists",
+      "title": "Sauropod Specialists",
+      "image": "assets/mdet/MDET04PU.webp",
+      "text": "The biggest dinosaur bones ever excavated come from the giant family of plant-eaters—the sauropods.",
+      "captions": [
+        {
+          "label": "Jim Jensen",
+          "text": "Former Brigham Young University prospector Jim Jensen dug up thousands of dinosaur bones during his career. Jensen, \"Dinosaur Jim,\" unearthed the bones of the largest dinosaurs yet discovered, Ultrasauros and Supersaurus, in the badlands of Utah and Colorado during the 1970s."
+        },
+        {
+          "label": "David Gillette",
+          "text": "Utah State paleontologist David Gillette began excavation of Seismosaurus in New Mexico in 1985. While this dinosaur is reportedly the longest discovered to date, the entire skeleton may never be unearthed. Gillette estimates the earth-shaker lizard to have been about 120 feet long!"
+        },
+        {
+          "label": "John McIntosh",
+          "text": "American physicist and paleontologist John McIntosh helped define the family of giant plant-eaters called diplodocids in the late 1970s. In the process, McIntosh and colleague David Berman discovered that a Camarasaurus head had been stuck onto an Apatosaurus body. The dinosaur had previously been labeled \"Brontosaurus\" by nineteenth-century paleontologist O. C. Marsh."
+        }
+      ]
+    },
+    {
+      "id": "expert-on-early-dinosaurs",
+      "title": "Expert on Early Dinosaurs",
+      "image": "assets/mdet/MDET05PU.webp",
+      "text": "American paleontologist Paul Sereno has had great success finding fossils all over the world. In 1988, he discovered a skull of Herrerasaurus, one of the earliest primitive dinosaurs from Argentina.",
+      "captions": [
+        {
+          "label": "The earliest yet",
+          "text": "In 1991, Sereno led an Argentine-American expedition that discovered the most primitive dinosaur known, Eoraptor. The creature is a 228-million-year-old carnivore about the size of a sheep dog."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaur Society"
+    },
+    {
+      "label": "Warm-blooded or Cold-blooded?",
+      "to": "warm"
+    },
+    {
+      "label": "How to Recognize Theropods",
+      "to": "hthr"
+    },
+    {
+      "label": "Shantungosaurus",
+      "to": "shan"
+    },
+    {
+      "label": "The Brontosaurus Mix-up",
+      "to": "bron"
+    },
+    {
+      "label": "Staurikosaurus",
+      "to": "stau"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mdet/MDET00AA.webp",
+        "hotspots": [
+          {
+            "label": "Unorthodox thinkers",
+            "to": "unorthodox-thinkers",
+            "x": 13,
+            "y": 62,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Defining duckbilled dinosaurs",
+            "to": "defining-duckbilled-dinosaurs",
+            "x": 36,
+            "y": 44,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Sauropod specialists",
+            "to": "sauropod-specialists",
+            "x": 68,
+            "y": 34,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Chinese studies",
+            "to": "chinese-studies",
+            "x": 55,
+            "y": 69,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Expert on early dinosaurs",
+            "to": "expert-on-early-dinosaurs",
+            "x": 13,
+            "y": 78,
+            "w": 24,
+            "h": 6
+          }
+        ]
+      },
+      "unorthodox-thinkers": {
+        "image": "assets/mdet/MDET01PU.webp",
+        "back": "main"
+      },
+      "chinese-studies": {
+        "image": "assets/mdet/MDET02PU.webp",
+        "back": "main"
+      },
+      "defining-duckbilled-dinosaurs": {
+        "image": "assets/mdet/MDET03PU.webp",
+        "back": "main"
+      },
+      "sauropod-specialists": {
+        "image": "assets/mdet/MDET04PU.webp",
+        "back": "main"
+      },
+      "expert-on-early-dinosaurs": {
+        "image": "assets/mdet/MDET05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/mdet/MDET00AP.mp3",
+  "narration": "assets/mdet/MDET00AJ.mp3",
+  "sound": "assets/mdet/MDET00SA.mp3"
+}

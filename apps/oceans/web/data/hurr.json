@@ -1,0 +1,153 @@
+{
+  "id": "hurr",
+  "code": "HURR",
+  "name": "Hurricanes",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Nature's most powerful storms pack the punch of hundreds of atomic bombs!",
+  "zones": [
+    "Open ocean",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/hurr/HURR00AA.webp",
+    "alt": "Hurricanes"
+  },
+  "intro": "With their violent winds and storm surges, hurricanes are among the most destructive natural forces on the planet. In the Pacific Ocean they're called typhoons; in the Indian Ocean, cyclones; and in northern Australia, willie-willies. A single hurricane can release energy equivalent to that of several hundred atomic bombs.",
+  "facts": [
+    {
+      "label": "Wind speed",
+      "value": "Winds must reach 121 km (75 mi) per hour for a storm to be classified as a hurricane."
+    },
+    {
+      "label": "Power",
+      "value": "A single hurricane can release energy equivalent to that of several hundred atomic bombs."
+    },
+    {
+      "label": "Other names",
+      "value": "In the Pacific they're called typhoons, in the Indian Ocean cyclones, and in northern Australia willie-willies."
+    },
+    {
+      "label": "Deadliest",
+      "value": "In 1970 more than half a million people died in a storm surge caused by a typhoon in Bangladesh."
+    },
+    {
+      "label": "Costliest",
+      "value": "In 1992 Hurricane Andrew resulted in more than 30 billion dollars in damage in Florida—the costliest natural disaster in United States history."
+    },
+    {
+      "label": "Eye size",
+      "value": "A hurricane's eye can be several hundred miles wide and 10 to 16 miles high."
+    }
+  ],
+  "topics": [
+    {
+      "id": "how-they-form",
+      "title": "How they form",
+      "image": "assets/hurr/HURR01PU.webp",
+      "text": "Hurricanes are born over warm, tropical ocean water. With the sun's heat, warm water vapor rises, forming moisture-heavy cumulonimbus clouds. These clouds combine to form low pressure spiraling cloud formations, or tropical depressions, that gain energy from warm water as they travel over it and eventually become a tropical storm. When winds reach 121 km (75 mi) per hour the storm is classified as a hurricane.",
+      "captions": [
+        {
+          "label": "Eye in the sky",
+          "text": "As water vapor rises, atmospheric pressure continues to drop, and the hurricane's center—or eye—forms. It can be several hundred miles wide and 10 to 16 miles high."
+        },
+        {
+          "label": "Breeding grounds",
+          "text": "Most United States and Caribbean hurricanes are born off the coast of Africa and sweep across the Atlantic. Here you can see the swirling clouds of Hurricane Allen over the Gulf of Mexico."
+        }
+      ],
+      "narration": "assets/hurr/HURR01JN.mp3"
+    },
+    {
+      "id": "tracking-and-predicting",
+      "title": "Tracking and predicting",
+      "image": "assets/hurr/HURR02PU.webp",
+      "text": "Hurricane tracking is a difficult and complicated task. Weather satellites first spot a tropical depression. Observation planes fly to the storm to gather data on pressure, temperature, wind speed and direction, and rainfall. Land radar then picks up the storm and predicts path and landfall. Tracking storms can save lives and reduce property damage by providing advance warning for coastal residents.",
+      "captions": [
+        {
+          "label": "Bizarre break",
+          "text": "In 1840 a huge wave from a violent storm hit England's Eddystone Lighthouse. Its heavily bolted door was smashed from within—not by the force of the wave crashing against it, but by its withdrawal. Scientists call this sudden release of pressure pneumatic action."
+        }
+      ],
+      "narration": "assets/hurr/HURR02JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Waves",
+      "to": "wave"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/hurr/HURR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 9,
+            "h": 8
+          },
+          {
+            "label": "Destruction around the world",
+            "to": "video",
+            "x": 56,
+            "y": 25,
+            "w": 34,
+            "h": 10
+          },
+          {
+            "label": "Tracking and predicting",
+            "to": "tracking-and-predicting",
+            "x": 50,
+            "y": 57,
+            "w": 32,
+            "h": 8
+          },
+          {
+            "label": "How they form",
+            "to": "how-they-form",
+            "x": 4,
+            "y": 82,
+            "w": 24,
+            "h": 7
+          }
+        ]
+      },
+      "how-they-form": {
+        "image": "assets/hurr/HURR01PU.webp",
+        "back": "main"
+      },
+      "tracking-and-predicting": {
+        "image": "assets/hurr/HURR02PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/hurr/clip.mp4",
+        "poster": "assets/hurr/HURR03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/hurr/HURR00JN.mp3",
+  "sound": "assets/hurr/HURR00IX.mp3",
+  "video": {
+    "title": "Destruction around the world",
+    "src": "assets/hurr/clip.mp4",
+    "poster": "assets/hurr/poster.webp",
+    "caption": "Aftermath of Typhoon Nina, Philippine Islands",
+    "narration": "assets/hurr/HURR03JN.mp3"
+  }
+}

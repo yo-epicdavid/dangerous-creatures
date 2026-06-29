@@ -1,0 +1,205 @@
+{
+  "id": "mamb",
+  "code": "MAMB",
+  "name": "Black Mamba",
+  "scientificName": "Dendroaspis polylepis",
+  "needsScientificVerify": false,
+  "tagline": "Faster than you can run, and its venom never bluffs.",
+  "weapons": [
+    "Venom & Poison"
+  ],
+  "habitats": [
+    "Grassland & Savanna"
+  ],
+  "regions": [
+    "Africa"
+  ],
+  "hero": {
+    "image": "assets/mamb/MAMB00AA.webp",
+    "alt": "Black Mamba"
+  },
+  "intro": "Moving faster than most people can run, with its head raised off the ground and its mouth wide open, a black mamba performing its threat display is a terrifying sight. The wise observer freezes immediately, because this snake doesn't bluff–it won't hesitate to use its deadly venom if it feels cornered.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by injecting venom through its fangs",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Birds, lizards, frogs, and toads",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "This aggressive reptile has been called the fastest snake on the planet. It has been clocked at 24 kilometers (15 miles) per hour for short distances. Don't mess with a mamba!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 4.3m (14ft)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Africa",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "dental-details",
+      "title": "Dental details",
+      "image": "assets/mamb/MAMB01PU.webp",
+      "text": "Mambas are venomous elapids, or \"fixed-front-fang\" snakes. This means that their fangs are in the front of their mouths and are attached to their upper jaws. Elapids can't fold their fangs out of the way when they close their mouths like vipers can, so their fangs must be fairly short. Otherwise, they'd poke through the snakes' lower jaws.",
+      "captions": [
+        {
+          "label": "Upstanding snakes",
+          "text": "Cobras, like their close relatives the mambas, can move forward while keeping their heads and a portion of their bodies raised above the ground."
+        },
+        {
+          "label": "Sea serpent",
+          "text": "Hardwicke's sea snake is an elapid that can kill a person with one bite. Fishermen are the most frequent bite victims, because these snakes often get caught in fishing nets."
+        },
+        {
+          "label": "Pretty and poisonous",
+          "text": "Coral snakes are elapids that live in North and South America."
+        }
+      ],
+      "narration": "assets/mamb/MAMB01NP.mp3"
+    },
+    {
+      "id": "hunting-on-high",
+      "title": "Hunting on high",
+      "image": "assets/mamb/MAMB02PU.webp",
+      "text": "If you think that the only place to search for snakes is under your feet, looking up once in a while might be a good idea. This emerald tree boa prowls through the trees of the Amazon Basin in South America.",
+      "narration": "assets/mamb/MAMB02NP.mp3"
+    },
+    {
+      "id": "egg-sucking-neighbor",
+      "title": "Egg-sucking neighbor",
+      "image": "assets/mamb/MAMB03PU.webp",
+      "text": "A black mamba on the prowl might encounter this African egg-eating snake on the ground or in the trees. This nonvenomous snake specializes in eating bird eggs.",
+      "captions": [
+        {
+          "label": "Breaking the shell",
+          "text": "After swallowing the egg, the snake uses special bones in its throat to break the shell."
+        },
+        {
+          "label": "Spitting out the shell",
+          "text": "The snake swallows only the egg's contents. It spits out the crushed shell."
+        }
+      ],
+      "narration": "assets/mamb/MAMB03NP.mp3"
+    },
+    {
+      "id": "african-snake-eater",
+      "title": "African snake-eater",
+      "image": "assets/mamb/MAMB04PU.webp",
+      "text": "Venomous snakes like the black mamba have few enemies. This is one of them. The secretary bird roams the grasslands of Africa for food, and snakes are one of its favorite menu items. It usually stomps on snakes with its taloned feet before chomping on them with its beak.",
+      "captions": [
+        {
+          "label": "Bird of prey",
+          "text": "The sharp, hooked beak tells you that this bird eats meat, not insects or seeds."
+        }
+      ],
+      "narration": "assets/mamb/MAMB04NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mamb/MAMB00AA.webp",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 4.24,
+            "y": 6.59,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Dental details",
+            "to": "dental-details",
+            "x": 16.74,
+            "y": 17.85,
+            "w": 12.29,
+            "h": 4.13
+          },
+          {
+            "label": "Hunting on high",
+            "to": "hunting-on-high",
+            "x": 10.18,
+            "y": 30.83,
+            "w": 14.64,
+            "h": 4.56
+          },
+          {
+            "label": "African snake-eater",
+            "to": "african-snake-eater",
+            "x": 40.65,
+            "y": 40.79,
+            "w": 14.64,
+            "h": 3.7
+          },
+          {
+            "label": "Another swift hunter",
+            "to": "video",
+            "x": 68.93,
+            "y": 20.23,
+            "w": 7.14,
+            "h": 3.92
+          },
+          {
+            "label": "Egg-sucking neighbor",
+            "to": "egg-sucking-neighbor",
+            "x": 52.52,
+            "y": 72.18,
+            "w": 17.76,
+            "h": 4.56
+          }
+        ]
+      },
+      "dental-details": {
+        "image": "assets/mamb/MAMB01PU.webp",
+        "back": "main"
+      },
+      "hunting-on-high": {
+        "image": "assets/mamb/MAMB02PU.webp",
+        "back": "main"
+      },
+      "egg-sucking-neighbor": {
+        "image": "assets/mamb/MAMB03PU.webp",
+        "back": "main"
+      },
+      "african-snake-eater": {
+        "image": "assets/mamb/MAMB04PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/mamb/MAMB00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/mamb/clip.mp4",
+        "poster": "assets/mamb/MAMB05TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "ambient": "assets/mamb/narration.mp3",
+  "sound": "assets/mamb/MAMB00AF.mp3",
+  "factsNarration": "assets/mamb/MAMB00FB.mp3",
+  "video": {
+    "title": "Another swift hunter",
+    "src": "assets/mamb/clip.mp4",
+    "poster": "assets/mamb/poster.webp",
+    "caption": "Although they're not related, this African snake–the boomslang–behaves something like the black mamba. Both snakes are slim, quick, venomous hunters that aggressively pursue small prey like birds, lizards, and frogs. It's a good thing these snakes are not after people!"
+  }
+}

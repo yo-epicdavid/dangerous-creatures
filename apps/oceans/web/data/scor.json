@@ -1,0 +1,191 @@
+{
+  "id": "scor",
+  "code": "SCOR",
+  "name": "Scorpionfish",
+  "category": "creature",
+  "scientificName": "Scorpaenodes kelloggi",
+  "needsScientificVerify": false,
+  "tagline": "Beautiful, deadly, and hiding in plain sight — don't touch!",
+  "zones": [
+    "Coral reef",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/scor/SCOR00AA.webp",
+    "alt": "Scorpionfish"
+  },
+  "intro": "Beautiful and dangerous, the family of scorpionfish includes the exotic lionfish and the stonefish—perhaps the most deadly fish in the sea. It's no wonder this family bears the name Scorpaeniformes: their venom is as toxic as that of the scorpions of the desert. Scorpionfish have large heads, poisonous spiky fins, and mouths so large that they can literally \"vacuum\" up their prey whole as it swims by.",
+  "facts": [
+    {
+      "label": "Family",
+      "value": "Scorpionfish belong to the order Scorpaeniformes, which includes the lionfish and the stonefish — perhaps the most deadly fish in the sea."
+    },
+    {
+      "label": "Venom",
+      "value": "Their venom is as toxic as that of the scorpions of the desert."
+    },
+    {
+      "label": "Feeding",
+      "value": "Their mouths are so large that they can literally \"vacuum\" up their prey whole as it swims by."
+    },
+    {
+      "label": "Camouflage",
+      "value": "Stonefish hang motionless in the water or lie quietly on the ocean floor, and can camouflage themselves to match their surroundings."
+    },
+    {
+      "label": "Danger",
+      "value": "A stonefish sting can cause your limbs to swell to elephantine proportions, or even cause death."
+    },
+    {
+      "label": "Lionfish",
+      "value": "The lionfish's mouth is so big that it can swallow its prey whole — even a fish its own size."
+    }
+  ],
+  "topics": [
+    {
+      "id": "venom-for-defense",
+      "title": "Venom for defense",
+      "image": "assets/scor/SCOR01PU.webp",
+      "text": "The lionfish—also called the zebrafish, turkey fish, and red fire fish—is armed with venomous spikes, but it uses these weapons only for defense. Its mouth is so big that it can swallow its prey whole—even a fish its own size. If an attacker comes in contact with those spines, the fish releases a venom that can induce instant, shooting pain!",
+      "narration": "assets/scor/SCOR01JN.mp3"
+    },
+    {
+      "id": "hidden-dangers",
+      "title": "Hidden dangers",
+      "image": "assets/scor/SCOR02PU.webp",
+      "text": "Stonefish are some of the most dangerous fish in the oceans. They are well armed with a potentially deadly venom, and they have a nasty habit of lying motionless on the bottom.",
+      "captions": [
+        {
+          "label": "Don't disturb!",
+          "text": "Scorpions are nocturnal creatures that hunt at night and hide in dark places during the day. Although most scorpions would rather retreat than fight, a scorpion on the defensive will strike quickly with that stinging spike at the end of its tail!"
+        },
+        {
+          "label": "Don't touch!",
+          "text": "Stonefish hang motionless in the water or lie quietly on the ocean floor, and can camouflage themselves to match their surroundings. For every stonefish that a diver sees, there are often many more that remain hidden."
+        }
+      ],
+      "narration": "assets/scor/SCOR02JN.mp3"
+    },
+    {
+      "id": "yikes-spikes",
+      "title": "Yikes! Spikes!",
+      "image": "assets/scor/SCOR03PU.webp",
+      "text": "It's better just to look at some fish than to touch them!",
+      "captions": [
+        {
+          "label": "Concealed weapons",
+          "text": "A clown surgeonfish has razor-sharp fins on either side of its tail that it can instantly raise to inflict a wound. They're used primarily for defense. It's not known whether these fish produce venom or not. If you're sliced by a clown surgeonfish, you may not need a surgeon to repair the wound, but it certainly wouldn't be a funny feeling!"
+        },
+        {
+          "label": "Spiky",
+          "text": "The spines on a John Dory fish don't contain venom, but they are sharp!"
+        }
+      ],
+      "narration": "assets/scor/SCOR03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Spiral Shells",
+      "to": "spir"
+    },
+    {
+      "label": "Inflatable Fish",
+      "to": "infl"
+    },
+    {
+      "label": "Indian Ocean",
+      "to": "indn"
+    },
+    {
+      "label": "What Was That?"
+    },
+    {
+      "label": "Diving",
+      "to": "divi"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/scor/SCOR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Playing with danger",
+            "to": "video",
+            "x": 54,
+            "y": 51,
+            "w": 34,
+            "h": 8
+          },
+          {
+            "label": "Venom for defense",
+            "to": "venom-for-defense",
+            "x": 57,
+            "y": 62,
+            "w": 28,
+            "h": 7
+          },
+          {
+            "label": "Hidden dangers",
+            "to": "hidden-dangers",
+            "x": 35,
+            "y": 73,
+            "w": 23,
+            "h": 7
+          },
+          {
+            "label": "Yikes! Spikes!",
+            "to": "yikes-spikes",
+            "x": 17,
+            "y": 63,
+            "w": 18,
+            "h": 7
+          }
+        ]
+      },
+      "venom-for-defense": {
+        "image": "assets/scor/SCOR01PU.webp",
+        "back": "main"
+      },
+      "hidden-dangers": {
+        "image": "assets/scor/SCOR02PU.webp",
+        "back": "main"
+      },
+      "yikes-spikes": {
+        "image": "assets/scor/SCOR03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/scor/clip.mp4",
+        "poster": "assets/scor/SCOR04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/scor/SCOR00JN.mp3",
+  "sound": "assets/scor/SCOR00IX.mp3",
+  "video": {
+    "title": "Playing with danger",
+    "src": "assets/scor/clip.mp4",
+    "poster": "assets/scor/poster.webp",
+    "caption": "When exploring a reef, divers would be wise to remain a safe distance from all types of scorpionfish. None of these fish are likely to attack, but you don't want to accidentally brush up against one. Stonefish, which often lie camouflaged on the bottom, are especially dangerous. Who wants to risk a sting that can cause your limbs to swell to elephantine proportions, or even cause death?",
+    "narration": "assets/scor/SCOR04JN.mp3"
+  }
+}

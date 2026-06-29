@@ -1,0 +1,167 @@
+{
+  "id": "toot",
+  "code": "TOOT",
+  "name": "Toothy Terrors",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Beware the bite — some ocean jaws are deadlier than they look!",
+  "zones": [
+    "Open ocean",
+    "Deep sea",
+    "Coral reef",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/toot/TOOT00AA.webp",
+    "alt": "Toothy Terrors"
+  },
+  "intro": "Fish like the barracuda and the great white shark have huge teeth, and they can be terrifyingly ferocious predators. But other fish with enormous jaws have reputations for viciousness that are completely undeserved. Whatever the case may be, you certainly don't want to provoke any of these tough customers!",
+  "facts": [
+    {
+      "label": "Speed",
+      "value": "The barracuda has been clocked at more than 43.2 km (27 mi) per hour — people swim at only about 8 km (5 mi) per hour."
+    },
+    {
+      "label": "Shark teeth",
+      "value": "Sharks have new teeth continually growing in behind the old. When the front row is worn out, the next row takes over."
+    },
+    {
+      "label": "Deep jaws",
+      "value": "Many deep-sea fish have huge jaws and large teeth to scoop up prey without seeing it — but most are only a few centimeters long."
+    },
+    {
+      "label": "Crocodiles",
+      "value": "Saltwater crocodiles may share a beach with you in Southeast Asia, northern Australia, and some South Pacific islands."
+    },
+    {
+      "label": "Barracuda",
+      "value": "The barracuda's sharp teeth are designed for cutting and shredding. Flashes of color attract them — remain still if you see one."
+    },
+    {
+      "label": "Did you know",
+      "value": "Most sharks are harmless — but the great white and sand tiger shark have been known to occasionally attack humans."
+    }
+  ],
+  "topics": [
+    {
+      "id": "tigers-of-the-sea",
+      "title": "Tigers of the sea",
+      "image": "assets/toot/TOOT01PU.webp",
+      "text": "Some divers consider barracudas more dangerous than sharks.\n\nHandsome but lethal\nHere's one character that's passed the fitness test. The barracuda is slender, muscular, and fast. Its sharp teeth are designed for cutting and shredding. If you see one, don't try to escape, for flashes of color will only attract them. People swim at about 8 km (5 mi) per hour; the barracuda has been clocked at more than 43.2 km (27 mi) per hour! Hard as it may be, it's best to remain still around these fellows.",
+      "captions": [
+        {
+          "label": "Deep jaws",
+          "text": "Because there's so little light in deep water, many deep-sea fish have huge jaws and large teeth that allow them to scoop up their prey without having to see it. Fortunately, most of these scary-looking fish are only a few centimeters long."
+        }
+      ],
+      "narration": "assets/toot/TOOT01JN.mp3"
+    },
+    {
+      "id": "emergency",
+      "title": "Emergency!",
+      "image": "assets/toot/TOOT02PU.webp",
+      "text": "Sharks are found in warm and temperate oceans throughout the world, and most are harmless. However, these two characters have been known to occasionally attack humans.",
+      "captions": [
+        {
+          "label": "Horrible or harmless?",
+          "text": "In some parts of the world, the sand tiger shark is considered to be a serious threat to swimmers. In other areas, it's considered a perfectly harmless shark."
+        },
+        {
+          "label": "Great white bite",
+          "text": "Most sharks' teeth are sharp as razors and serrated—or jagged—like steak knives. Sharks generally use their front row of teeth, but they have new teeth continually growing in behind the old. When the front row is worn out, the next row takes over."
+        }
+      ],
+      "narration": "assets/toot/TOOT02JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Fearsome Faces",
+      "to": "fear"
+    },
+    {
+      "label": "Eels",
+      "to": "eels"
+    },
+    {
+      "label": "Toothed Whales",
+      "to": "whlt"
+    },
+    {
+      "label": "Rays",
+      "to": "rays"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/toot/TOOT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Chomp!",
+            "to": "video",
+            "x": 65,
+            "y": 19,
+            "w": 18,
+            "h": 7
+          },
+          {
+            "label": "Tigers of the sea",
+            "to": "tigers-of-the-sea",
+            "x": 24,
+            "y": 66,
+            "w": 28,
+            "h": 7
+          },
+          {
+            "label": "Emergency!",
+            "to": "emergency",
+            "x": 64,
+            "y": 70,
+            "w": 20,
+            "h": 7
+          }
+        ]
+      },
+      "tigers-of-the-sea": {
+        "image": "assets/toot/TOOT01PU.webp",
+        "back": "main"
+      },
+      "emergency": {
+        "image": "assets/toot/TOOT02PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/toot/clip.mp4",
+        "poster": "assets/toot/TOOT03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/toot/TOOT00JN.mp3",
+  "sound": "assets/toot/TOOT00IX.mp3",
+  "video": {
+    "title": "Chomp!",
+    "src": "assets/toot/clip.mp4",
+    "poster": "assets/toot/poster.webp",
+    "caption": "Fish aren't the only marine creatures with terrifying teeth. Saltwater crocodiles may share a beach with you in Southeast Asia, northern Australia, and some South Pacific islands. If you see what looks like a log floating in the surf near the shore, make sure it's not really a crocodile before you enter the water.",
+    "narration": "assets/toot/TOOT03JN.mp3"
+  }
+}

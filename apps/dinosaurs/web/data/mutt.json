@@ -1,0 +1,150 @@
+{
+  "id": "mutt",
+  "code": "MUTT",
+  "name": "Muttaburrasaurus",
+  "category": "dinosaur",
+  "scientificName": "Muttaburrasaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "MUT-ah-BUR-ah-SOR-us",
+  "meaning": "Muttaburra lizard",
+  "period": "Cretaceous",
+  "diet": "Herbivore",
+  "tagline": "Australia's strangest dinosaur packed a bumpy nose and a deadly thumb spike!",
+  "hero": {
+    "image": "assets/mutt/MUTT00AA.webp",
+    "alt": "Muttaburrasaurus"
+  },
+  "intro": "A beak and a strange, bulging nose made Muttaburrasaurus an odd-looking dinosaur. Muttaburrasaurus is the most complete dinosaur fossil found so far in Australia, and belonged to the same group as Iguanodon, another famous dinosaur.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Australia"
+    },
+    {
+      "label": "Time Period",
+      "value": "Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Muttaburra lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ornithopod"
+    },
+    {
+      "label": "Length",
+      "value": "7m (23ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "iguanodon-look-alike",
+      "title": "Iguanodon Look-Alike",
+      "image": "assets/mutt/MUTT01PU.webp",
+      "text": "In structure, Muttaburrasaurus is very similar to Iguanodon. They probably come from the same group of dinosaurs, the iguanodonts. But unlike Muttaburrasaurus, which has only been found in Australia, Iguanodon is a common dinosaur. Its remains have been found all around the world.",
+      "captions": [
+        {
+          "label": "Thumb spike",
+          "text": "Both Muttaburrasaurus and Iguanodon had large thumb spikes. These spikes were probably effective weapons, as well as efficient tools for digging."
+        }
+      ]
+    },
+    {
+      "id": "dinosaur-from-down-under",
+      "title": "Dinosaur from Down Under",
+      "image": "assets/mutt/MUTT02PU.webp",
+      "text": "Muttaburrasaurus was named for the place it was first discovered—Muttaburra in Queensland, Australia. Although Australia is almost as large as the United States, very few dinosaurs have been found there."
+    },
+    {
+      "id": "other-bumpy-nosed-beasts",
+      "title": "Other Bumpy-Nosed Beasts",
+      "image": "assets/mutt/MUTT03PU.webp",
+      "text": "The bony ridge on Muttaburrasaurus's nose looks very similar to the bumpy noses of the hadrosaurs Kritosaurus and Maiasaura.",
+      "captions": [
+        {
+          "label": "Nose for fighting?",
+          "text": "It has been speculated that Muttaburrasaurus may have used its bony snout in head-bashing contests much like Prenocephale. These contests presumably established male dominance in the effort to win mates."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaur Cove",
+      "to": "cove"
+    },
+    {
+      "label": "Iguanodon",
+      "to": "igua"
+    },
+    {
+      "label": "Important Dinosaur Sites",
+      "to": "site"
+    },
+    {
+      "label": "Pachycephalosaurus",
+      "to": "pach"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mutt/MUTT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Dinosaur from down under",
+            "to": "dinosaur-from-down-under",
+            "x": 20,
+            "y": 50,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Iguanodon look-alike",
+            "to": "iguanodon-look-alike",
+            "x": 3,
+            "y": 72,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Other bumpy-nosed beasts",
+            "to": "other-bumpy-nosed-beasts",
+            "x": 67,
+            "y": 27,
+            "w": 24,
+            "h": 5
+          }
+        ]
+      },
+      "iguanodon-look-alike": {
+        "image": "assets/mutt/MUTT01PU.webp",
+        "back": "main"
+      },
+      "dinosaur-from-down-under": {
+        "image": "assets/mutt/MUTT02PU.webp",
+        "back": "main"
+      },
+      "other-bumpy-nosed-beasts": {
+        "image": "assets/mutt/MUTT03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/mutt/MUTT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/mutt/MUTT00AP.mp3",
+  "narration": "assets/mutt/MUTT00AJ.mp3"
+}

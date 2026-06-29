@@ -1,0 +1,182 @@
+{
+  "id": "gall",
+  "code": "GALL",
+  "name": "Gallimimus",
+  "category": "dinosaur",
+  "scientificName": "Gallimimus",
+  "needsScientificVerify": false,
+  "pronunciation": "GAL-ih-MY-mus",
+  "meaning": "Fowl mimic",
+  "period": "Late Cretaceous",
+  "diet": "Omnivore",
+  "tagline": "This bird-like speedster could outrun a racehorse!",
+  "hero": {
+    "image": "assets/gall/GALL00AA.webp",
+    "alt": "Gallimimus"
+  },
+  "intro": "Not all dinosaurs were big and slow. Gallimimus is one of the largest \"ostrich dinosaurs,\" or ornithomimids. This creature looked more like a flightless bird than like a reptile. Gallimimus was built for speed, with long legs, a light body, and a balanced neck and tail.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Asia"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Fowl mimic"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Theropod"
+    },
+    {
+      "label": "Length",
+      "value": "4m (13ft)"
+    },
+    {
+      "label": "Top Speed",
+      "value": "30 miles per hour"
+    }
+  ],
+  "topics": [
+    {
+      "id": "the-beak-of-a-bird",
+      "title": "The Beak of a Bird",
+      "image": "assets/gall/GALL01PU.webp",
+      "text": "Gallimimus had a toothless beak, much like modern birds. It probably ate plants, supplemented by insects and lizards. Some scientists speculate that Gallimimus may have dug up and eaten the eggs of other dinosaurs.",
+      "captions": [
+        {
+          "label": "Are dinosaurs alive today?",
+          "text": "Some experts say yes, our skies are filled with their descendants–birds!"
+        }
+      ]
+    },
+    {
+      "id": "an-ostrich-dinosaur",
+      "title": "An Ostrich Dinosaur",
+      "image": "assets/gall/GALL02PU.webp",
+      "text": "Although it had scaly skin, clawed hands, arms, and a long tail, Gallimimus was similar to an ostrich in its overall look. Just like Gallimimus, modern ostriches cannot fly, but instead run from their predators.",
+      "captions": [
+        {
+          "label": "Close relative",
+          "text": "All ostrich dinosaurs are similar. Struthiomimus, a cousin of Gallimimus, is shown here."
+        }
+      ]
+    },
+    {
+      "id": "fatal-feet",
+      "title": "Fatal Feet?",
+      "image": "assets/gall/GALL03PU.webp",
+      "text": "Like a modern ostrich, the legs and narrow feet of Gallimimus were strong and muscular. Although Gallimimus could probably have delivered a fatal kick to a small attacker, it used its speed as its primary defense.",
+      "captions": [
+        {
+          "label": "A poor grip",
+          "text": "Gallimimus's three-fingered hands were not designed for grasping prey or for tearing meat."
+        }
+      ]
+    },
+    {
+      "id": "fast-as-a-racehorse",
+      "title": "Fast as a Racehorse",
+      "image": "assets/gall/GALL04PU.webp",
+      "text": "Gallimimus could sprint away from its pursuers, out-running most other dinosaurs. Experts estimate that some of these nimble dinosaurs could run as fast as a racehorse, reaching speeds in excess of thirty miles per hour."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Hypsilophodon",
+      "to": "hyps"
+    },
+    {
+      "label": "Face to Face",
+      "to": "ftfa"
+    },
+    {
+      "label": "Dromiceiomimus",
+      "to": "drom"
+    },
+    {
+      "label": "Dinosaur Defense",
+      "to": "ddef"
+    },
+    {
+      "label": "Warm-blooded or Cold-blooded?",
+      "to": "warm"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/gall/GALL00AA.webp",
+        "hotspots": [
+          {
+            "label": "The beak of a bird",
+            "to": "the-beak-of-a-bird",
+            "x": 65,
+            "y": 17,
+            "w": 21,
+            "h": 6
+          },
+          {
+            "label": "An ostrich dinosaur",
+            "to": "an-ostrich-dinosaur",
+            "x": 63,
+            "y": 42,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Fatal feet?",
+            "to": "fatal-feet",
+            "x": 63,
+            "y": 67,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Fast as a racehorse",
+            "to": "fast-as-a-racehorse",
+            "x": 1,
+            "y": 58,
+            "w": 23,
+            "h": 6
+          }
+        ]
+      },
+      "the-beak-of-a-bird": {
+        "image": "assets/gall/GALL01PU.webp",
+        "back": "main"
+      },
+      "an-ostrich-dinosaur": {
+        "image": "assets/gall/GALL02PU.webp",
+        "back": "main"
+      },
+      "fatal-feet": {
+        "image": "assets/gall/GALL03PU.webp",
+        "back": "main"
+      },
+      "fast-as-a-racehorse": {
+        "image": "assets/gall/GALL04PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/gall/GALL50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/gall/GALL00AP.mp3",
+  "narration": "assets/gall/GALL00AJ.mp3"
+}

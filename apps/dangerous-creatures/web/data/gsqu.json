@@ -1,0 +1,213 @@
+{
+  "id": "gsqu",
+  "code": "GSQU",
+  "name": "Giant Squid",
+  "scientificName": "Architeuthis dux",
+  "needsScientificVerify": false,
+  "tagline": "The real sea monster lurking in the deep!",
+  "weapons": [
+    "Teeth & Jaws"
+  ],
+  "habitats": [
+    "Oceans & Coral Reefs"
+  ],
+  "regions": [
+    "Oceans & Seas",
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/gsqu/GSQU00AA.webp",
+    "alt": "Giant Squid"
+  },
+  "intro": "Long-armed sea monsters were featured in tales of sailors for hundreds of years. Everyone thought these were \"fish stories\"–until the giant squid was discovered. It's almost as long as a six-story building is tall! But unless you go for a swim 200 meters (656 ft) below the surface of the Atlantic and get mistaken for a lobster, you're not likely to be in danger from the giant squid.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by biting and crushing its prey",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Fish, shellfish, and other marine animals of all sizes",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "Judging from the size of sucker scars on sperm whales, a few experts speculate that some giant squids may reach nearly 61.5 meters (200 ft) long!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 18.5m (60ft)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Ocean depths worldwide",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "battle-of-giants",
+      "title": "Battle of giants",
+      "image": "assets/gsqu/GSQU01PU.webp",
+      "text": "Do giant squids attack whales? Male sperm whales, which are about the same length as giant squids and pursue them into the cold Atlantic depths, often carry scars from squid suckers. It's not likely, though, that the squid starts any fight–for while many squids have been found inside the bellies of whales, a whale has never been found inside the belly of a squid.",
+      "narration": "assets/gsqu/GSQU01NP.mp3"
+    },
+    {
+      "id": "quick-change-artist",
+      "title": "Quick-change artist",
+      "image": "assets/gsqu/GSQU02PU.webp",
+      "text": "Of the few animals that can change their color, none can change as fast as squids and their relatives. This is because their color cells are operated by muscles directly controlled by the nervous system. The animals change color and pattern both to blend in with the environment and to communicate. For instance, when two squids meet and one turns dark, it may be saying, \"I'm a boy–are you a girl?\"",
+      "narration": "assets/gsqu/GSQU02NP.mp3"
+    },
+    {
+      "id": "jet-propelled-school",
+      "title": "Jet-propelled school",
+      "image": "assets/gsqu/GSQU03PU.webp",
+      "text": "Imagine that your arms grew out of your head. Then your life would be a little like a squid's! Squids, octopuses, and cuttlefish all have tentacles growing from their heads. That's why they're called cephalopods, or \"head-foot\" animals. This school of average-sized squids has come together not to exchange ideas but rather to mate.",
+      "narration": "assets/gsqu/GSQU03NP.mp3"
+    },
+    {
+      "id": "in-delicious-demand",
+      "title": "In delicious demand",
+      "image": "assets/gsqu/GSQU04PU.webp",
+      "text": "If you were a squid, you'd really be in demand–by big fish (such as tuna and halibut), whales, dolphins, sharks, seals, and sea birds–as well as by humans, who might prefer you swimming in tomato sauce to swimming in the sea.",
+      "captions": [
+        {
+          "label": "Sea lion",
+          "text": "Although it would probably prefer fish, a sea lion is not above lunching on a squid or two."
+        },
+        {
+          "label": "Squid",
+          "text": "Life is hard as a squid. It spends most of its time just trying to survive."
+        },
+        {
+          "label": "Dolphin",
+          "text": "The dolphin uses its rows of sharp teeth to grip the squid before swallowing it whole."
+        },
+        {
+          "label": "Orca",
+          "text": "Some orcas, also known as \"killer whales,\" eat squid, although most prefer salmon or seals."
+        }
+      ],
+      "narration": "assets/gsqu/GSQU04NP.mp3"
+    },
+    {
+      "id": "egg-bed",
+      "title": "Egg bed",
+      "image": "assets/gsqu/GSQU05PU.webp",
+      "text": "When they're ready to mate, squids gather in large groups. A male squid fertilizes the eggs inside a female before she lays them on the ocean floor. The eggs are contained in a jelly that hardens in seawater to a tough, protective case. Some squid egg beds measure acres across!",
+      "narration": "assets/gsqu/GSQU05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/gsqu/GSQU00AA.webp",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 2,
+            "y": 2,
+            "w": 10,
+            "h": 12
+          },
+          {
+            "label": "Battle of giants",
+            "to": "battle-of-giants",
+            "x": 5,
+            "y": 16,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Quick-change artist",
+            "to": "quick-change-artist",
+            "x": 5,
+            "y": 26,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Jet-propelled school",
+            "to": "jet-propelled-school",
+            "x": 13.62,
+            "y": 33.65,
+            "w": 16.98,
+            "h": 4.13
+          },
+          {
+            "label": "Egg bed",
+            "to": "egg-bed",
+            "x": 71.28,
+            "y": 12.44,
+            "w": 8.54,
+            "h": 4.56
+          },
+          {
+            "label": "Sea monsters?",
+            "to": "video",
+            "x": 35,
+            "y": 64,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "In delicious demand",
+            "to": "in-delicious-demand",
+            "x": 55,
+            "y": 77,
+            "w": 27,
+            "h": 5
+          }
+        ]
+      },
+      "battle-of-giants": {
+        "image": "assets/gsqu/GSQU01PU.webp",
+        "back": "main"
+      },
+      "quick-change-artist": {
+        "image": "assets/gsqu/GSQU02PU.webp",
+        "back": "main"
+      },
+      "jet-propelled-school": {
+        "image": "assets/gsqu/GSQU03PU.webp",
+        "back": "main"
+      },
+      "in-delicious-demand": {
+        "image": "assets/gsqu/GSQU04PU.webp",
+        "back": "main"
+      },
+      "egg-bed": {
+        "image": "assets/gsqu/GSQU05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/gsqu/GSQU00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/gsqu/clip.mp4",
+        "poster": "assets/gsqu/GSQU06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "ambient": "assets/gsqu/narration.mp3",
+  "sound": "assets/gsqu/GSQU00AF.mp3",
+  "factsNarration": "assets/gsqu/GSQU00FB.mp3",
+  "video": {
+    "title": "Sea monsters?",
+    "src": "assets/gsqu/clip.mp4",
+    "poster": "assets/gsqu/poster.webp",
+    "caption": "Most squids are gentle creatures that pose no threat to anything larger than a small fish. Although stories of giant squids attacking boats have been told for years, not one has ever been proved true. It's more likely that the boats were overturned by bad weather or bumped by whales, or that the tales were made up by the tellers to explain accidents at sea."
+  }
+}

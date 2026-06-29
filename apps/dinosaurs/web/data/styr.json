@@ -1,0 +1,198 @@
+{
+  "id": "styr",
+  "code": "STYR",
+  "name": "Styracosaurus",
+  "category": "dinosaur",
+  "scientificName": "Styracosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "sty-RAK-uh-SOR-us",
+  "meaning": "Spiked lizard",
+  "period": "Late Cretaceous",
+  "diet": "Herbivore",
+  "tagline": "Six spikes, one massive horn, and absolutely zero interest in being messed with.",
+  "hero": {
+    "image": "assets/styr/STYR00AA.webp",
+    "alt": "Styracosaurus"
+  },
+  "intro": "Styracosaurus was named \"spiked lizard\" for good reason. This dinosaur had an impressive natural collar of spikes around its neck: six long spikes on top, bordered by shorter spikes around the edges of its frill. To complete its prickly aspect, Styracosaurus also had a huge horn on its nose.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Spiked lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ceratopsian"
+    },
+    {
+      "label": "Length",
+      "value": "5.5m (18ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "portrait-of-a-frilled-family",
+      "title": "Portrait of a Frilled Family",
+      "image": "assets/styr/STYR01PU.webp",
+      "text": "Styracosaurus comes from a family of dinosaurs with frills: the ceratopsians, or horned dinosaurs. As you can see, horns and spikes were not unique to Styracosaurus, but were a trait of the ceratopsians.",
+      "captions": [
+        {
+          "label": "Pentaceratops",
+          "text": "Like all ceratopsians, this dinosaur had a beak like a bird, good for nipping at vegetation."
+        },
+        {
+          "label": "Centrosaurus",
+          "text": "Two forward-curving horns protected the \"windows\" in Centrosaurus's huge skull."
+        },
+        {
+          "label": "Torosaurus",
+          "text": "This ceratopsian had the largest frill of all. It measured up to eight feet, about the length of a small car!"
+        }
+      ]
+    },
+    {
+      "id": "modern-frills-spikes-and-horns",
+      "title": "Modern Frills, Spikes, and Horns",
+      "image": "assets/styr/STYR02PU.webp",
+      "text": "The characteristics of neck frills, spikes, and horns did not die out with the dinosaurs. Many modern creatures, such as the ones shown here, have kept these successful defense mechanisms.",
+      "captions": [
+        {
+          "label": "On guard",
+          "text": "This Australian frilled lizard normally keeps its neck frill flat. When startled by a predator, it erects this ruff-like collar which measures more than four times the width of its body."
+        },
+        {
+          "label": "Rhino charge",
+          "text": "This rhinoceros has horns similar to those of the ceratopsian dinosaurs. An herbivore, the rhino uses its horns for defense against predatory meat-eaters."
+        },
+        {
+          "label": "Tuatara",
+          "text": "This spiky lizard is considered to be a living fossil."
+        }
+      ]
+    },
+    {
+      "id": "dont-mess-with-us",
+      "title": "Don't Mess With Us!",
+      "image": "assets/styr/STYR03PU.webp",
+      "text": "Since ceratopsians such as Styracosaurus were plant-eaters, their spikes and horns may have been used for defense against predatory dinosaurs. A herd of ceratopsians may have formed a circle when attacked, presenting a meat-eater with a bristling facade of horns. They may also have charged their enemies or wrestled with rival members of their own group, threatening opponents with lowered horns, much as horned animals do today."
+    },
+    {
+      "id": "the-horned-dinosaurs",
+      "title": "The Horned Dinosaurs",
+      "image": "assets/styr/STYR04PU.webp",
+      "text": "Ceratopsians were one of the last great groups of dinosaurs. One of the earliest and smallest members was Protoceratops, found in the Gobi Desert of Mongolia.",
+      "captions": [
+        {
+          "label": "Amazing find",
+          "text": "In 1922, a Protoceratops nest was discovered. The fossilized remains indicate that baby Protoceratops were less than eight inches in length, although their bodies grew to be more than six feet long in adulthood."
+        },
+        {
+          "label": "Fierce faces",
+          "text": "Later additions to the group, like Chasmosaurus, were much larger. Although ceratopsians looked very fierce, they were gentle plant-eaters. Their horns and spikes were mostly for show or for defense, and their elaborate frills probably developed to anchor the powerful jaw muscles needed to tackle the tough plants that made up their diet."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "How to Recognize Ceratopsians",
+      "to": "hcer"
+    },
+    {
+      "label": "Centrosaurus",
+      "to": "cent"
+    },
+    {
+      "label": "Tuatara",
+      "to": "tuat"
+    },
+    {
+      "label": "Horns",
+      "to": "horn"
+    },
+    {
+      "label": "Gobi Desert Expeditions",
+      "to": "gobi"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/styr/STYR00AA.webp",
+        "hotspots": [
+          {
+            "label": "The horned dinosaurs",
+            "to": "the-horned-dinosaurs",
+            "x": 65,
+            "y": 13,
+            "w": 28,
+            "h": 6
+          },
+          {
+            "label": "Portrait of a frilled family",
+            "to": "portrait-of-a-frilled-family",
+            "x": 63,
+            "y": 40,
+            "w": 30,
+            "h": 6
+          },
+          {
+            "label": "Modern frills, spikes, and horns",
+            "to": "modern-frills-spikes-and-horns",
+            "x": 3,
+            "y": 64,
+            "w": 37,
+            "h": 6
+          },
+          {
+            "label": "Don't mess with us!",
+            "to": "dont-mess-with-us",
+            "x": 3,
+            "y": 74,
+            "w": 25,
+            "h": 6
+          }
+        ]
+      },
+      "portrait-of-a-frilled-family": {
+        "image": "assets/styr/STYR01PU.webp",
+        "back": "main"
+      },
+      "modern-frills-spikes-and-horns": {
+        "image": "assets/styr/STYR02PU.webp",
+        "back": "main"
+      },
+      "dont-mess-with-us": {
+        "image": "assets/styr/STYR03PU.webp",
+        "back": "main"
+      },
+      "the-horned-dinosaurs": {
+        "image": "assets/styr/STYR04PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/styr/STYR50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/styr/STYR00AP.mp3",
+  "narration": "assets/styr/STYR00AJ.mp3"
+}

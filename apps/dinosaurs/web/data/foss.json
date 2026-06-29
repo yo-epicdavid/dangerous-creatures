@@ -1,0 +1,217 @@
+{
+  "id": "foss",
+  "code": "FOSS",
+  "name": "What Is a Fossil?",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "FOZ-ul",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Life locked in stone — ancient remains that let us reach back millions of years.",
+  "hero": {
+    "image": "assets/foss/FOSS00AA.webp",
+    "alt": "What Is a Fossil?"
+  },
+  "intro": "A fossil is the remains of a plant or animal that lived millions of years ago. After death, the soft tissue rotted away or was eaten by other animals. The hard parts, such as bones, teeth, and shells of animals, or the wood of plants, were washed over by water and buried in layers of sand or mud before they could decompose. Over time, the water receded and the sediment turned into rock. The hard remains of the animal sometimes changed chemically and became stone. Other times, they were preserved essentially unchanged. The rock layer then folded and became exposed to wind and water at the earth's surface. After many millions of years, the rock eroded away, exposing the fossils.",
+  "facts": [
+    {
+      "label": "Folklore duration",
+      "value": "For 10,000 years, folklore ascribed special powers to fossils"
+    },
+    {
+      "label": "Coelacanth rediscovered",
+      "value": "1938, off the South African coast"
+    },
+    {
+      "label": "Trilobite species",
+      "value": "Over 10,000"
+    },
+    {
+      "label": "Archaeopteryx fossils known",
+      "value": "One of only six found"
+    }
+  ],
+  "topics": [
+    {
+      "id": "fossil-folklore",
+      "title": "Fossil Folklore",
+      "image": "assets/foss/FOSS01PU.webp",
+      "text": "Many fossils were once thought to have magical or divine origins. For 10,000 years, folklore ascribed special powers to them. Ammonites found in England were believed to be the remains of coiled snakes turned to stone by the 7th-Century abbess, St. Hilda. Craftsmen sometimes carved snake heads on the fossils to promote this belief.",
+      "captions": [
+        {
+          "label": "Magic stones",
+          "text": "Fossilized sea urchins were once thought to be \"thunder stones\" that fell from the sky during thunderstorms. It was believed they could prevent milk from going sour."
+        },
+        {
+          "label": "Unicorn tusk",
+          "text": "For many years, the tusk of a small whale called a narwhal was identified as the horn of a unicorn until about 1600 fossilized mammoth tusks were discovered. The numerous tusks were then thought to be the only true horns of the mythical animal. Thus, they were given the name, Unicornum verum."
+        }
+      ]
+    },
+    {
+      "id": "fossil-discovery",
+      "title": "Fossil Discovery",
+      "image": "assets/foss/FOSS02PU.webp",
+      "text": "Dinosaur discoveries are rare. Fossils often lie buried within layers of rock until they are exposed by excavation or erosion.",
+      "captions": [
+        {
+          "label": "First signs",
+          "text": "The first signs of a fossilized dinosaur skeleton may be only a few pieces of broken bones sticking out of rock, while the rest of the skeleton remains buried within the rock. To remove the bones intact requires slow and careful work. It may not be possible to remove every bone. Some may need to be collected while still encased in rock."
+        },
+        {
+          "label": "Recording every detail",
+          "text": "Scientists record the position of each bone discovered with photographs, maps, and diagrams. Each detail is important. Then each bone is wrapped in plaster and taken to a laboratory where they can be better examined. There, scientists can attempt to identify what the bones are and where they belong in the skeleton. It may even be possible to determine how the dinosaur died, and how it became a fossil."
+        }
+      ]
+    },
+    {
+      "id": "turned-to-stone",
+      "title": "Turned to Stone",
+      "image": "assets/foss/FOSS03PU.webp",
+      "text": "When fossils of Archaeopteryx were first discovered, scientists thought it was the remains of the small dinosaur Compsognathus. When similar fossils of higher quality were discovered, they clearly revealed feather impressions. This fossil of Archaeopteryx, a creature intermediate between small meat-eating dinosaurs and birds, is rare. One of only six found of the ancient bird, it is one of the most precious fossils in the world."
+    },
+    {
+      "id": "trilobites",
+      "title": "Trilobites",
+      "image": "assets/foss/FOSS04PU.webp",
+      "text": "The trilobite got its name because its hard exoskeleton is divided into three distinct parts, or lobes. Because the outer bodies of trilobites were composed of the mineral calcite, they were resistant to decay. There were many different types of trilobites that lived only during specific periods of time, so trilobite fossils are often used to determine the age of rocks."
+    },
+    {
+      "id": "presumed-dead",
+      "title": "Presumed Dead",
+      "image": "assets/foss/FOSS05PU.webp",
+      "text": "The coelacanth, an ancient three-lobed fish thought extinct for millions of years, was found alive in 1938 by a fisherman off the South African coast. The catch caused a major stir in scientific circles. A few other coelacanths have since been caught, and some have been photographed alive in water 200 to 1310 feet deep off the Comoro Islands near the island of Madagascar."
+    },
+    {
+      "id": "hard-shell",
+      "title": "Hard Shell",
+      "image": "assets/foss/FOSS06PU.webp",
+      "text": "Because trilobite exoskeletons contained the mineral calcite, they were resistant to decay. The legs and soft parts on the underside of the animals were rarely preserved, but the hard, shell-like outer-skeletons of these ancient sea animals fossilized in abundance. These remains helped paleontologists determine that there were over 10,000 species of this extinct creature.",
+      "captions": [
+        {
+          "label": "Pearly ammonite",
+          "text": "Now extinct, ammonites had shells made of a hard, chalky material called aragonite. The outer layer was of mother-of-pearl, which gave the shell a colorful, translucent quality. This ammonite was preserved almost in its original state."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Bernissart Dinosaur Mine",
+      "to": "mine"
+    },
+    {
+      "label": "Myths and Legends",
+      "to": "myth"
+    },
+    {
+      "label": "Dinosaur Society"
+    },
+    {
+      "label": "Archaeopteryx",
+      "to": "arch"
+    },
+    {
+      "label": "Trilobite",
+      "to": "tril"
+    },
+    {
+      "label": "Living Fossils",
+      "to": "ddec"
+    },
+    {
+      "label": "Extinction",
+      "to": "exti"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/foss/FOSS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Fossil discovery",
+            "to": "fossil-discovery",
+            "x": 22,
+            "y": 38,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Fossil folklore",
+            "to": "fossil-folklore",
+            "x": 31,
+            "y": 52,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Presumed dead",
+            "to": "presumed-dead",
+            "x": 57,
+            "y": 38,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Hard shell",
+            "to": "hard-shell",
+            "x": 72,
+            "y": 50,
+            "w": 11,
+            "h": 5
+          },
+          {
+            "label": "Turned to stone",
+            "to": "turned-to-stone",
+            "x": 5,
+            "y": 64,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Trilobites",
+            "to": "trilobites",
+            "x": 54,
+            "y": 63,
+            "w": 10,
+            "h": 5
+          }
+        ]
+      },
+      "fossil-folklore": {
+        "image": "assets/foss/FOSS01PU.webp",
+        "back": "main"
+      },
+      "fossil-discovery": {
+        "image": "assets/foss/FOSS02PU.webp",
+        "back": "main"
+      },
+      "turned-to-stone": {
+        "image": "assets/foss/FOSS03PU.webp",
+        "back": "main"
+      },
+      "trilobites": {
+        "image": "assets/foss/FOSS04PU.webp",
+        "back": "main"
+      },
+      "presumed-dead": {
+        "image": "assets/foss/FOSS05PU.webp",
+        "back": "main"
+      },
+      "hard-shell": {
+        "image": "assets/foss/FOSS06PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/foss/FOSS00AP.mp3",
+  "narration": "assets/foss/FOSS00AJ.mp3"
+}

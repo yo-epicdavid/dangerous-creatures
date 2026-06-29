@@ -1,0 +1,156 @@
+{
+  "id": "mame",
+  "code": "MAME",
+  "name": "Mamenchisaurus",
+  "category": "dinosaur",
+  "scientificName": "Mamenchisaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "mah-MEN-chee-SOR-us",
+  "meaning": "Mamenchi lizard",
+  "period": "Late Jurassic",
+  "diet": "Herbivore",
+  "tagline": "Over thirty feet of its seventy-two-foot body was pure neck!",
+  "hero": {
+    "image": "assets/mame/MAME00AA.webp",
+    "alt": "Mamenchisaurus"
+  },
+  "intro": "Imagine a dinosaur that could look in the uppermost window of a five-story building! That wouldn't be so difficult for Mamenchisaurus. This dinosaur measured over seventy-two feet in length and more than thirty feet of that was neck! Like all sauropods, Mamenchisaurus was slow and bulky. With little to defend itself other than its sheer size, this dinosaur might have looked like a mountain of meat to a hungry carnivore.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Asia"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Mamenchi lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Sauropod"
+    },
+    {
+      "label": "Length",
+      "value": "22m (72ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "sauropod-society",
+      "title": "Sauropod Society",
+      "image": "assets/mame/MAME01PU.webp",
+      "text": "The sauropods were the largest animals ever to walk on land. These dinosaurs must have spent most of their time eating large amounts of plants to fuel their gigantic bodies.",
+      "captions": [
+        {
+          "label": "Apatosaurus",
+          "text": "Giant sauropods like Apatosaurus left behind footprints that were more than three feet in length."
+        },
+        {
+          "label": "Mamenchisaurus",
+          "text": "In a neck-comparison contest, Mamenchisaurus wins easily over other long-necked sauropods."
+        },
+        {
+          "label": "Camarasaurus",
+          "text": "This dinosaur was one of the smaller sauropods, but it still looks massive when compared to the largest land animal alive today, the African elephant."
+        },
+        {
+          "label": "Diplodocus",
+          "text": "This dinosaur was one of the longest in the sauropod group."
+        }
+      ]
+    },
+    {
+      "id": "sticking-out-its-neck",
+      "title": "Sticking Out Its Neck",
+      "image": "assets/mame/MAME02PU.webp",
+      "text": "When it came to necks, Mamenchisaurus stretched well beyond that of any other known animal. This dinosaur's neck was nearly three times as long as a giraffe's neck. It could lift its head more than fifty-one feet above the ground. Such a long neck needed strong muscles and bony rods along its length to help support it.",
+      "captions": [
+        {
+          "label": "Long but not supple",
+          "text": "Mamenchisaurus had nineteen vertebrae in its powerful neck. Although it looks flexible, this neck could bend only a little, swinging from side to side as the dinosaur raked in plant food."
+        }
+      ]
+    },
+    {
+      "id": "a-giraffes-life",
+      "title": "A Giraffe's Life",
+      "image": "assets/mame/MAME03PU.webp",
+      "text": "Like a modern-day giraffe, Mamenchisaurus's thirty-foot-long neck gave it an advantage over dinosaurs with shorter necks, allowing it to reach far and wide for food. Sauropods like Mamenchisaurus and Diplodocus shown here needed gigantic digestive systems. They would need to digest bushels of greens every day, just to maintain their low energy levels.",
+      "captions": [
+        {
+          "label": "Shortie",
+          "text": "The neck of a modern giraffe measures only about seventeen feet."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Weirdest Dinosaurs",
+      "to": "weir"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mame/MAME00AA.webp",
+        "hotspots": [
+          {
+            "label": "Sauropod society",
+            "to": "sauropod-society",
+            "x": 6,
+            "y": 63,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Sticking out its neck",
+            "to": "sticking-out-its-neck",
+            "x": 58,
+            "y": 52,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "A giraffe's life",
+            "to": "a-giraffes-life",
+            "x": 40,
+            "y": 81,
+            "w": 16,
+            "h": 5
+          }
+        ]
+      },
+      "sauropod-society": {
+        "image": "assets/mame/MAME01PU.webp",
+        "back": "main"
+      },
+      "sticking-out-its-neck": {
+        "image": "assets/mame/MAME02PU.webp",
+        "back": "main"
+      },
+      "a-giraffes-life": {
+        "image": "assets/mame/MAME03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/mame/MAME50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/mame/MAME00AP.mp3",
+  "narration": "assets/mame/MAME00AJ.mp3"
+}

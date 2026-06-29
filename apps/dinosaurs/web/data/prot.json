@@ -1,0 +1,216 @@
+{
+  "id": "prot",
+  "code": "PROT",
+  "name": "Protoceratops",
+  "category": "dinosaur",
+  "scientificName": "Protoceratops",
+  "needsScientificVerify": false,
+  "pronunciation": "pro-toe-SER-a-tops",
+  "meaning": "First-horned face",
+  "period": "Late Cretaceous",
+  "diet": "Herbivore",
+  "tagline": "The first horned face — a pint-sized dinosaur that hatched in family nests and proved that dinosaurs laid eggs.",
+  "hero": {
+    "image": "assets/prot/PROT00AA.webp",
+    "alt": "Protoceratops"
+  },
+  "intro": "Although it did not have true horns, this dinosaur was named Protoceratops, or \"first horned face,\" because it is thought to be one of the first horned dinosaurs, called ceratopsians. Fossils of baby, juvenile, and adult Protoceratops have been found close together, which suggests they may have lived in family groups. This family scene shows baby Protoceratops at various stages—some hatching, some taking their first steps, and some struggling to get out of the sand.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Asia"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "First-horned face"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ceratopsian"
+    },
+    {
+      "label": "Length",
+      "value": "1.8m(6ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "400 lbs"
+    }
+  ],
+  "topics": [
+    {
+      "id": "nest-building-dinosaurs",
+      "title": "Nest-Building Dinosaurs",
+      "image": "assets/prot/PROT01PU.webp",
+      "text": "The eggs in this sandy nest came from Protoceratops. Several mothers may have laid their eggs in a circle in the same nest. They would then have covered the eggs with earth or sand to protect them until they hatched.",
+      "captions": [
+        {
+          "label": "Egg assortment",
+          "text": "Fossilized dinosaur eggs have been found in many sizes. The largest dinosaur egg was about twelve inches long. The eggs of Protoceratops were only about eight inches long."
+        }
+      ]
+    },
+    {
+      "id": "the-smallest-horned-dinosaur",
+      "title": "The Smallest Horned Dinosaur",
+      "image": "assets/prot/PROT02PU.webp",
+      "text": "Here is Protoceratops with some of its horned relatives. As you can see, not all ceratopsians were as small as Protoceratops. All ceratopsians lived during the Late Cretaceous period, however, Protoceratops is thought of as more primitive than its later relatives you see here.",
+      "captions": [
+        {
+          "label": "Centrosaurus",
+          "text": "This dinosaur had two spikes that curved forward to protect the \"windows\" in the dinosaur's skull."
+        },
+        {
+          "label": "Protoceratops",
+          "text": "This adult Protoceratops looks like a baby compared to its horned cousins!"
+        },
+        {
+          "label": "Chasmosaurus",
+          "text": "The frill of this dinosaur stretched halfway along its back. When the animal lowered its head, the tall frill would have made an impressive display."
+        },
+        {
+          "label": "Styracosaurus",
+          "text": "This dinosaur's name means \"spiked lizard.\" It had six long spikes pointing from its neck frill."
+        }
+      ]
+    },
+    {
+      "id": "different-frills-for-different-ages",
+      "title": "Different Frills for Different Ages",
+      "image": "assets/prot/PROT03PU.webp",
+      "text": "Ceratopsians had hooked beaks, thin sharp teeth, and massive jaw muscles that enabled them to tackle very tough plants. As Protoceratops dinosaurs grew, the shape of their skulls changed.",
+      "captions": [
+        {
+          "label": "Skulls through the ages",
+          "text": "As shown here, adults had higher nose ridges and larger frills than younger Protoceratops. The frills served as anchor points for the dinosaurs' powerful jaw muscles, as well as for protection."
+        }
+      ]
+    },
+    {
+      "id": "a-frilly-face",
+      "title": "A Frilly Face",
+      "image": "assets/prot/PROT04PU.webp",
+      "text": "Dinosaurs have very different faces. When you look at Protoceratops face to face with other dinosaurs, you see the predominance of its frill and beak.",
+      "captions": [
+        {
+          "label": "Stegosaurus",
+          "text": "Although this dinosaur's body was large, it had a small head."
+        },
+        {
+          "label": "Eudimorphodon",
+          "text": "This toothy mouth belonged to a flying reptile, not a dinosaur."
+        },
+        {
+          "label": "Euoplocephalus",
+          "text": "This dinosaur's face looks as if it was chiseled out of stone."
+        }
+      ]
+    },
+    {
+      "id": "a-hard-egg-to-crack",
+      "title": "A Hard Egg to Crack",
+      "image": "assets/prot/PROT05PU.webp",
+      "text": "Eggs laid by Protoceratops were more elongated than those of birds. Found in Mongolia in the 1920s, Protoceratops eggs were the first evidence that dinosaurs laid eggs in nests. The tough shells, with their coarse pimply surfaces, protected a liquid interior in which the baby developed. The shells had tiny tubes leading from inside the eggs to the outside air, allowing the dinosaur embryos to breathe.",
+      "captions": [
+        {
+          "label": "Quail egg",
+          "text": "This quail egg contains a baby that would become a tiny bird, while the Protoceratops egg contained a creature that grew as big as a car. Dinosaur eggs couldn't be as massive as you might expect—a gigantic egg would require a shell so thick that air couldn't get in and the baby couldn't get out."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Faces from the Past",
+      "to": "ftfb"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/prot/PROT00AA.webp",
+        "hotspots": [
+          {
+            "label": "A frilly face",
+            "to": "a-frilly-face",
+            "x": 64,
+            "y": 8,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Different frills for different ages",
+            "to": "different-frills-for-different-ages",
+            "x": 60,
+            "y": 32,
+            "w": 30,
+            "h": 7
+          },
+          {
+            "label": "The smallest horned dinosaur",
+            "to": "the-smallest-horned-dinosaur",
+            "x": 64,
+            "y": 48,
+            "w": 25,
+            "h": 7
+          },
+          {
+            "label": "Nest-building dinosaurs",
+            "to": "nest-building-dinosaurs",
+            "x": 64,
+            "y": 62,
+            "w": 24,
+            "h": 7
+          },
+          {
+            "label": "A hard egg to crack",
+            "to": "a-hard-egg-to-crack",
+            "x": 28,
+            "y": 83,
+            "w": 20,
+            "h": 7
+          }
+        ]
+      },
+      "nest-building-dinosaurs": {
+        "image": "assets/prot/PROT01PU.webp",
+        "back": "main"
+      },
+      "the-smallest-horned-dinosaur": {
+        "image": "assets/prot/PROT02PU.webp",
+        "back": "main"
+      },
+      "different-frills-for-different-ages": {
+        "image": "assets/prot/PROT03PU.webp",
+        "back": "main"
+      },
+      "a-frilly-face": {
+        "image": "assets/prot/PROT04PU.webp",
+        "back": "main"
+      },
+      "a-hard-egg-to-crack": {
+        "image": "assets/prot/PROT05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/prot/PROT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/prot/PROT00AP.mp3",
+  "narration": "assets/prot/PROT00AJ.mp3"
+}

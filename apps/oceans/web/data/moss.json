@@ -1,0 +1,187 @@
+{
+  "id": "moss",
+  "code": "MOSS",
+  "name": "Sea Mosses",
+  "category": "creature",
+  "scientificName": "Bryozoa spp.",
+  "needsScientificVerify": false,
+  "tagline": "They look like plants, but sea mosses are tiny animals that build colonies and work together as a team!",
+  "zones": [
+    "Coast & tide pools",
+    "Coral reef",
+    "Kelp & seagrass"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/moss/MOSS00AA.webp",
+    "alt": "Sea Mosses"
+  },
+  "intro": "Although sea mosses (also called moss animals, sea mats, and bryozoans) may look like plants, they are actually animals that form colonies on rocks, wood, kelp, boat hulls—just about any hard surface that's underwater. The members of some colonies take on specialized roles. Some beat the water with the tiny hairlike structures (cilia) on their tentacles, trapping plankton and other microscopic organisms for the colony to eat. Others take charge of tasks like protection, cleaning, and looking after developing embryos. Now that's teamwork!",
+  "facts": [
+    {
+      "label": "Also called",
+      "value": "Moss animals, sea mats, and bryozoans"
+    },
+    {
+      "label": "Size",
+      "value": "Sometimes so small that you need a microscope to see them"
+    },
+    {
+      "label": "Diet",
+      "value": "Plankton and other microscopic organisms, trapped with cilia on their tentacles"
+    },
+    {
+      "label": "Did you know",
+      "value": "Sea mosses breathe through their tentacles—gasses pass in and out through the soft surface of the tentacles to keep the animal alive"
+    },
+    {
+      "label": "Defense",
+      "value": "Can retract tentacles into a protective case when a predator comes near"
+    },
+    {
+      "label": "Reef builder",
+      "value": "Over time, the calcium skeletons of some sea mosses can create a reef, in the same way that corals do"
+    }
+  ],
+  "topics": [
+    {
+      "id": "animal-or-plant",
+      "title": "Animal or plant?",
+      "image": "assets/moss/MOSS01PU.webp",
+      "text": "Some sea mosses look remarkably like some terrestrial mosses and fungi. They can be lacy or platelike, grow into fan shapes, or even look like cabbages!",
+      "captions": [
+        {
+          "label": "The animal",
+          "text": "Hidden among the leaflike structures of this bryozoan are its tentacles, which it uses to filter food from the water. To reproduce, most bryozoans produce both eggs and sperm. They breed by releasing both into the water."
+        },
+        {
+          "label": "The plant",
+          "text": "This landlubber is a fungus, which must absorb its nutrients through its hairlike roots. It reproduces by shooting out spores, which grow into new plants."
+        }
+      ],
+      "narration": "assets/moss/MOSS01JN.mp3"
+    },
+    {
+      "id": "nibble-nibble",
+      "title": "Nibble, nibble...",
+      "image": "assets/moss/MOSS02PU.webp",
+      "text": "Animals that are fixed in place can't easily escape from predators that want to nibble on them. Bryozoans can retract their tentacles, but the rest of their bodies are still vulnerable to attack.",
+      "captions": [
+        {
+          "label": "A scouring tongue",
+          "text": "Like land slugs and snails, the sea slug (nudibranch) has a rasping tongue that it uses to scrape living tissue from sponges, corals, and bryozoans."
+        },
+        {
+          "label": "A biting beak",
+          "text": "Parrotfish munch on corals and bryozoans with their hard, birdlike beaks. Parrotfish often sleep in mucus bags that they create. Scientists aren't sure why these fish do this. Maybe it's to hide their smell from predators, or maybe the bag serves as an early warning system if something comes too near."
+        }
+      ],
+      "narration": "assets/moss/MOSS02JN.mp3"
+    },
+    {
+      "id": "on-closer-inspection",
+      "title": "On closer inspection",
+      "image": "assets/moss/MOSS03PU.webp",
+      "text": "If you could watch a bryozoan colony at feeding time, you'd see the individual animals waving their tentacles in the current. The moss animals themselves are very tiny—sometimes so small that you need a microscope to see them. But together they build a communal home out of either calcium carbonate or another gelatinous material, with each animal having its own protective case inside the structure. Over time, the calcium skeletons of some sea mosses can create a reef, in the same way that corals do.",
+      "narration": "assets/moss/MOSS03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Anemones",
+      "to": "anem"
+    },
+    {
+      "label": "Mysterious Relationships",
+      "to": "myst"
+    },
+    {
+      "label": "Creature Closeups"
+    },
+    {
+      "label": "Sea Urchins & Sea Cucumbers"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/moss/MOSS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 12,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "On closer inspection",
+            "to": "on-closer-inspection",
+            "x": 54,
+            "y": 6,
+            "w": 36,
+            "h": 7
+          },
+          {
+            "label": "All-purpose tentacles",
+            "to": "video",
+            "x": 3,
+            "y": 75,
+            "w": 38,
+            "h": 7
+          },
+          {
+            "label": "Animal or plant?",
+            "to": "animal-or-plant",
+            "x": 3,
+            "y": 83,
+            "w": 30,
+            "h": 7
+          },
+          {
+            "label": "Nibble, nibble...",
+            "to": "nibble-nibble",
+            "x": 63,
+            "y": 74,
+            "w": 30,
+            "h": 7
+          }
+        ]
+      },
+      "animal-or-plant": {
+        "image": "assets/moss/MOSS01PU.webp",
+        "back": "main"
+      },
+      "nibble-nibble": {
+        "image": "assets/moss/MOSS02PU.webp",
+        "back": "main"
+      },
+      "on-closer-inspection": {
+        "image": "assets/moss/MOSS03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/moss/clip.mp4",
+        "poster": "assets/moss/MOSS04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/moss/MOSS00JN.mp3",
+  "sound": "assets/moss/MOSS00IX.mp3",
+  "video": {
+    "title": "All-purpose tentacles",
+    "src": "assets/moss/clip.mp4",
+    "poster": "assets/moss/poster.webp",
+    "caption": "Sea mosses have no heads and no lungs, but they're still animals. So how do they see and breathe? They don't need to see, because they can feel with their feeding tentacles, retracting them into their protective case if a predator comes near. And believe it or not, they breathe with their tentacles, too—gasses pass in and out through the soft surface of the tentacles to keep the animal alive.",
+    "narration": "assets/moss/MOSS04JN.mp3"
+  }
+}

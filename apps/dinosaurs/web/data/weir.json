@@ -1,0 +1,186 @@
+{
+  "id": "weir",
+  "code": "WEIR",
+  "name": "The Weirdest Dinosaurs",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "From horn-nosed unicorns to snake-necked sea beasts — the Mesozoic era was nature's wildest experiment.",
+  "hero": {
+    "image": "assets/weir/WEIR00AA.webp",
+    "alt": "The Weirdest Dinosaurs"
+  },
+  "intro": "Dinosaurs look very strange to us. After all, they were giant reptiles, and we're living in an age in which mammals are the largest creatures on Earth. Dinosaurs were experiments of nature, constantly evolving into new forms and developing new features to cope with the changing environment of the Mesozoic era. Some of the weirdest-looking adaptations, at least to our eyes, were unicorn-like horns and disk-shaped crests, inflatable balloons of skin, bird-like bills and beaks, snaky necks, and plates of body armor. Will humans eventually develop such a variety of features?",
+  "facts": [],
+  "topics": [
+    {
+      "id": "the-big-frill",
+      "title": "The Big Frill",
+      "image": "assets/weir/WEIR01PU.webp",
+      "text": "Chasmosaurus was the horned plant-eater with the largest frill. This heart-shaped frill had large openings in the bone of the frill in which its powerful jaw muscles were attached. The frill was lined on the perimeter with short horns. The powerful creature also had a nasal horn and two brow horns.",
+      "captions": [
+        {
+          "label": "Brain or brawn?",
+          "text": "The skull of Triceratops is many times longer than a human skull. Most of the human skull is filled with the brain, however, while Triceratops's skull was filled with lots of muscles and a very small brain."
+        },
+        {
+          "label": "Triceratops",
+          "text": "Long-frilled Triceratops had a sturdy skeleton to handle its great weight. The four-legged plant-eater carried an enormous head armed with a nose horn and two large eyebrow horns. The weight of the head was supported by three neck bones joined together into one strong, solid bone. Eight vertebrae, rather than the usual five, were joined to the pelvis to better carry its substantial body weight."
+        }
+      ]
+    },
+    {
+      "id": "sounding-off",
+      "title": "Sounding Off",
+      "image": "assets/weir/WEIR02PU.webp",
+      "text": "The spiky crest on the head of Saurolophus may have supported an inflatable flap of skin on its head. The skull of this creature was flattened on both sides. At the top of the area lay skin flaps that laid like an empty balloon. When inflated, this skin pouch would have amplified noises made by Saurolophus. Some frogs do the same thing when they inflate their throats. This means that Saurolophus may have been able to communicate with others of its kind.",
+      "captions": [
+        {
+          "label": "Strange head bellow",
+          "text": "Duckbilled dinosaur Parasaurolophus had a long hollow crest at the top of his head from which it could make loud, hooting or bellowing sounds to communicate. This crest was up to six feet long."
+        }
+      ]
+    },
+    {
+      "id": "dinosaur-unicorn",
+      "title": "Dinosaur Unicorn?",
+      "image": "assets/weir/WEIR03PU.webp",
+      "text": "Tsintaosaurus had a hollow, forward-pointing horn on its forehead. This duckbill from China may have had a balloon-like flap of skin over its nose, which could have been blown up to act either as a signal or to make its call even louder."
+    },
+    {
+      "id": "hard-headed",
+      "title": "Hard-Headed",
+      "image": "assets/weir/WEIR04PU.webp",
+      "text": "Prenocephale had large, hard, helmet-like bones at the top of its skull. Rival male Prenocephales engaged in head-bashing contests to win mates. The thick-boned skulls acted as crash helmets to protect the brain during these contests.",
+      "captions": [
+        {
+          "label": "Ankylosaurus",
+          "text": "Armored dinosaur Ankylosaurus was a four-footed plant-eater with armored head plates and body spikes for protection from predators. It also had a club-like tail that could deliver a punishing blow to the body of a meat-eater that ventured too close."
+        },
+        {
+          "label": "Euoplocephalus",
+          "text": "A relative of Ankylosaurus, Euoplocephalus was the most common armored dinosaur. Both had spikes and great coats of bony armor along their backs. Unlike Ankylosaurus, Euoplocephalus had two large spikes on each side of its head for additional protection from predators."
+        }
+      ]
+    },
+    {
+      "id": "snake-necks",
+      "title": "Snake Necks",
+      "image": "assets/weir/WEIR05PU.webp",
+      "text": "Elasmosaurus, a sea-dwelling reptile, had a long neck that measured more than half of its forty-three foot length. Swimming near the surface, it darted its head after fish in a snake-like fashion, catching them with its sharp teeth. Elasmosaurus resembles descriptions of both ancient sea monsters and creatures like the modern-day \"Loch Ness monster.\"",
+      "captions": [
+        {
+          "label": "Mamenchisaurus",
+          "text": "Giant plant-eater Mamenchisaurus had the longest neck ever, measuring thirty-three feet long. It could eat leaves from the tops of the tallest trees. If Mamenchisaurus were alive today, it might peer into the windows of a four-story building!"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Parasaurolophus",
+      "to": "para"
+    },
+    {
+      "label": "How to Recognize Ceratopsians",
+      "to": "hcer"
+    },
+    {
+      "label": "Saurolophus",
+      "to": "saur"
+    },
+    {
+      "label": "Tsintaosaurus",
+      "to": "tsin"
+    },
+    {
+      "label": "Dinosaurs in Armor",
+      "to": "armr"
+    },
+    {
+      "label": "Reptiles of the Sea",
+      "to": "rsea"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/weir/WEIR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Sounding off",
+            "to": "sounding-off",
+            "x": 70,
+            "y": 13,
+            "w": 23,
+            "h": 7
+          },
+          {
+            "label": "The big frill",
+            "to": "the-big-frill",
+            "x": 72,
+            "y": 33,
+            "w": 21,
+            "h": 7
+          },
+          {
+            "label": "Hard-headed",
+            "to": "hard-headed",
+            "x": 72,
+            "y": 43,
+            "w": 20,
+            "h": 7
+          },
+          {
+            "label": "Dinosaur unicorn?",
+            "to": "dinosaur-unicorn",
+            "x": 4,
+            "y": 72,
+            "w": 28,
+            "h": 7
+          },
+          {
+            "label": "Snake necks",
+            "to": "snake-necks",
+            "x": 33,
+            "y": 76,
+            "w": 18,
+            "h": 7
+          }
+        ]
+      },
+      "the-big-frill": {
+        "image": "assets/weir/WEIR01PU.webp",
+        "back": "main"
+      },
+      "sounding-off": {
+        "image": "assets/weir/WEIR02PU.webp",
+        "back": "main"
+      },
+      "dinosaur-unicorn": {
+        "image": "assets/weir/WEIR03PU.webp",
+        "back": "main"
+      },
+      "hard-headed": {
+        "image": "assets/weir/WEIR04PU.webp",
+        "back": "main"
+      },
+      "snake-necks": {
+        "image": "assets/weir/WEIR05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/weir/WEIR00AP.mp3",
+  "narration": "assets/weir/WEIR00AJ.mp3",
+  "sound": "assets/weir/WEIR00SA.mp3"
+}

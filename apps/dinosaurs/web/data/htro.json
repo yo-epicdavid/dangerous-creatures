@@ -1,0 +1,147 @@
+{
+  "id": "htro",
+  "code": "HTRO",
+  "name": "How to Recognize Ornithopods",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "or-NITH-oh-pods",
+  "meaning": "bird-foot",
+  "period": "",
+  "diet": "",
+  "tagline": "Bird-hipped plant-eaters that stood on two legs — or sometimes dropped down to four!",
+  "hero": {
+    "image": "assets/htro/HTRO00AA.webp",
+    "alt": "How to Recognize Ornithopods"
+  },
+  "intro": "The ornithopod group is large and contains a variety of plant-eating dinosaurs. All ornithopods, or \"bird-foot\" dinosaurs, had skeletal structures that allowed them to stand on two legs. However, some families of ornithopods, such as the hadrosaurs, had different \"hands\" and feet, and may have spent most of their time on all fours.",
+  "facts": [
+    {
+      "label": "Group",
+      "value": "Ornithopods"
+    },
+    {
+      "label": "Meaning",
+      "value": "bird-foot"
+    },
+    {
+      "label": "Diet",
+      "value": "Plant-eaters"
+    },
+    {
+      "label": "Order",
+      "value": "Ornithischia (bird-hipped)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "skulls-of-plant-eaters",
+      "title": "Skulls of Plant-Eaters",
+      "image": "assets/htro/HTRO01PU.webp",
+      "text": "Although the skulls of ornithopods looked very different, they were all similar in one respect: their jaws and teeth were designed to eat plants. Depressions at the side of the jaws indicate that these dinosaurs may have been the first to have fleshy cheeks to help hold the food in their mouths.",
+      "captions": [
+        {
+          "label": "Hadrosaur heads",
+          "text": "All hadrosaurs had duck-like bills in front and impressive arrays of grinding teeth at the back of their mouths. Many of these duckbilled dinosaurs also had spectacular bony crests on their heads."
+        },
+        {
+          "label": "Hypsilophodont head",
+          "text": "This head belonged to a speedy little plant-eater."
+        }
+      ]
+    },
+    {
+      "id": "bird-like-feet-and-legs",
+      "title": "Bird-Like Feet and Legs",
+      "image": "assets/htro/HTRO02PU.webp",
+      "text": "All ornithopods have hip structures very much like birds, and thus belong to the ornithischian ('bird-hipped') order of dinosaurs.",
+      "captions": [
+        {
+          "label": "Fleet of foot",
+          "text": "As indicated by their name, which means 'bird foot,' ornithopods had feet much like modern birds. Paleontologists speculate that most ornithopods could walk on two feet, and some were swift runners."
+        },
+        {
+          "label": "High hips",
+          "text": "The skeletons of ornithischians, or 'bird-hipped' dinosaurs, have two lower pelvic bones that point backward and down. Ornithischians all have back legs that are longer than the front legs, whether or not the dinosaur walked on two or four feet."
+        }
+      ]
+    },
+    {
+      "id": "five-fingered-hands",
+      "title": "Five-Fingered Hands",
+      "image": "assets/htro/HTRO03PU.webp",
+      "text": "Nearly all ornithopods had five-fingered hands, although some used them primarily for walking and some used them primarily for grasping. A few ornithopods, like Iguanodon, also had thumb spikes which might have been used for self-defense."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Two Feet or Four?",
+      "to": "twof"
+    },
+    {
+      "label": "The Story in a Skull",
+      "to": "stor"
+    },
+    {
+      "label": "Dinosaur Descendants",
+      "to": "desc"
+    },
+    {
+      "label": "Dinosaur Defense",
+      "to": "ddef"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/htro/HTRO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Skulls of plant-eaters",
+            "to": "skulls-of-plant-eaters",
+            "x": 58,
+            "y": 20,
+            "w": 28,
+            "h": 6
+          },
+          {
+            "label": "Five-fingered hands",
+            "to": "five-fingered-hands",
+            "x": 5,
+            "y": 63,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Bird-like feet and legs",
+            "to": "bird-like-feet-and-legs",
+            "x": 18,
+            "y": 72,
+            "w": 25,
+            "h": 6
+          }
+        ]
+      },
+      "skulls-of-plant-eaters": {
+        "image": "assets/htro/HTRO01PU.webp",
+        "back": "main"
+      },
+      "bird-like-feet-and-legs": {
+        "image": "assets/htro/HTRO02PU.webp",
+        "back": "main"
+      },
+      "five-fingered-hands": {
+        "image": "assets/htro/HTRO03PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/htro/HTRO00AP.mp3",
+  "narration": "assets/htro/HTRO00AJ.mp3",
+  "sound": "assets/htro/HTRO00SA.mp3"
+}

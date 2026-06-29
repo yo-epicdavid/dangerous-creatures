@@ -1,0 +1,96 @@
+{
+  "id": "leae",
+  "code": "LEAE",
+  "name": "Leaellynasaura",
+  "category": "dinosaur",
+  "scientificName": "Leaellynasaura",
+  "needsScientificVerify": false,
+  "pronunciation": "lee-EL-in-uh-SOR-uh",
+  "meaning": "Leaellyn's lizard",
+  "period": "Early Cretaceous",
+  "diet": "Herbivore",
+  "tagline": "A tiny dinosaur with giant eyes built for surviving in the dark!",
+  "hero": {
+    "image": "assets/leae/LEAE00AA.webp",
+    "alt": "Leaellynasaura"
+  },
+  "intro": "Pat Vickers-Rich and Tom Rich, who discovered this dinosaur's bones in Australia named it \"Leaellyn's lizard,\" after their daughter. Leaellynasaura was a small plant-eater with huge eyes to cope with winter darkness, because in its time, 110 million years ago, Australia was within the Antarctic Circle.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Australia"
+    },
+    {
+      "label": "Time Period",
+      "value": "Early Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Leaellyn's lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ornithopod"
+    }
+  ],
+  "topics": [
+    {
+      "id": "what-color-was-its-skin",
+      "title": "What Color Was Its Skin?",
+      "image": "assets/leae/LEAE01PU.webp",
+      "text": "Although we know something about the texture of dinosaurs' skin from fossil impressions preserved in rock, we have no way of knowing what color dinosaurs were, or whether they were all one color, striped, or spotted. When drawing dinosaurs, we assume that they may have had colors and patterns similar to those found in reptiles today.",
+      "captions": [
+        {
+          "label": "Look at me!",
+          "text": "An iguana's skin color and patterns usually make this lizard stand out from its surroundings. Many lizards have skin colors and patterns that are designed to get attention from potential mates, or intended to warn enemies to stay away."
+        },
+        {
+          "label": "Colored for camouflage",
+          "text": "The color and markings of this Gaboon viper allow it to blend in with its surroundings. Lying on dead leaves, the snake is nearly invisible in the dappled light of the tropical African forests. When removed from its natural background, the viper's geometrical skin patterns stand out vividly."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaur Cove",
+      "to": "cove"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/leae/LEAE00AA.webp",
+        "hotspots": [
+          {
+            "label": "What color was its skin?",
+            "to": "what-color-was-its-skin",
+            "x": 9,
+            "y": 52,
+            "w": 29,
+            "h": 4
+          }
+        ]
+      },
+      "what-color-was-its-skin": {
+        "image": "assets/leae/LEAE01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/leae/LEAE50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/leae/LEAE00AP.mp3",
+  "narration": "assets/leae/LEAE00AJ.mp3"
+}

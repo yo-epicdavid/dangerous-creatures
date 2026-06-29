@@ -1,0 +1,104 @@
+{
+  "id": "scel",
+  "code": "SCEL",
+  "name": "Scelidosaurus",
+  "category": "dinosaur",
+  "scientificName": "Scelidosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "ske-LID-oh-SOR-us",
+  "meaning": "Limb lizard",
+  "period": "Early Jurassic",
+  "diet": "Herbivore",
+  "tagline": "Well-armored with a whiplike tail, Scelidosaurus was one of the first ankylosaurs.",
+  "hero": {
+    "image": "assets/scel/SCEL00AA.webp",
+    "alt": "Scelidosaurus"
+  },
+  "intro": "A jaw-breaking suit of bony armor protected Scelidosaurus from most of its predators.  However, if a meat-eating dinosaur persisted in threatening this small ornithischian, Scelidosaurus may also have lashed its long muscular tail like a whip to scare away the attacker.  Scientists debate about whether Scelidosaurus is a stegosaur or an ankylosaur.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Europe"
+    },
+    {
+      "label": "Time Period",
+      "value": "Early Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Limb lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ankylosaur"
+    },
+    {
+      "label": "Length",
+      "value": "4m (13ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "something-afoot",
+      "title": "Something Afoot?",
+      "image": "assets/scel/SCEL01PU.webp",
+      "text": "This is the complete hind foot of Scelidosaurus.  It's strong and broad, with three powerful toes that supported the heavy body.  The first small toe would barely have reached the ground when the dinosaur was standing.",
+      "captions": [
+        {
+          "label": "First toe",
+          "text": "First toe"
+        },
+        {
+          "label": "Ankle bones",
+          "text": "Ankle bones"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaurs in Armor",
+      "to": "armr"
+    },
+    {
+      "label": "Footprints",
+      "to": "foot"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/scel/SCEL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Something afoot?",
+            "to": "something-afoot",
+            "x": 13,
+            "y": 68,
+            "w": 22,
+            "h": 6
+          }
+        ]
+      },
+      "something-afoot": {
+        "image": "assets/scel/SCEL01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/scel/SCEL50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/scel/SCEL00AP.mp3",
+  "narration": "assets/scel/SCEL00AJ.mp3"
+}

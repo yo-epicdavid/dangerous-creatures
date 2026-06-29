@@ -1,0 +1,96 @@
+{
+  "id": "sord",
+  "code": "SORD",
+  "name": "Sordes",
+  "category": "creature",
+  "scientificName": "Sordes",
+  "needsScientificVerify": false,
+  "pronunciation": "SOR-deez",
+  "meaning": "shabby or filthy",
+  "period": "Late Jurassic",
+  "diet": "Carnivore",
+  "tagline": "The fuzzy flier that sparked the great warm-blooded debate",
+  "hero": {
+    "image": "assets/sord/SORD00AA.webp",
+    "alt": "Sordes"
+  },
+  "intro": "The name of Sordes is always brought up when scientists debate whether pterosaurs were warm-blooded or cold-blooded. One fossil specimen of Sordes discovered in 1971 included impressions that looked like a thick, furry coat over its body. Such a covering of hair would have helped Sordes keep warm during long flights. Even the name Sordes means \"shabby\" or \"filthy,\" referring to its hairy body. A coat of hair does not necessarily mean that this pterosaur was warm-blooded, though. It's possible that some prehistoric reptiles used fur to maintain body temperature, just like mammals do today.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Asia"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Shabby (shaggy coat of fur)"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Pterosaur"
+    }
+  ],
+  "topics": [
+    {
+      "id": "pterosaur-descendants",
+      "title": "Pterosaur Descendants?",
+      "image": "assets/sord/SORD01PU.webp",
+      "text": "Flying through our skies today are modern creatures that bear obvious similarities to the pterosaurs. Today's bats are mammals with leathery, clawed wings and mouths full of sharp teeth.",
+      "captions": [
+        {
+          "label": "Fingers within the wings",
+          "text": "Pterosaurs had leathery wings that were supported by arm and hand bones, and by an enormously long fourth finger bone. In the wings of modern birds and bats, all the \"finger\" bones support the wing."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Warm-blooded or Cold-blooded?",
+      "to": "warm"
+    },
+    {
+      "label": "Life After Dinosaurs",
+      "to": "aftr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/sord/SORD00AA.webp",
+        "hotspots": [
+          {
+            "label": "Pterosaur descendants?",
+            "to": "pterosaur-descendants",
+            "x": 62,
+            "y": 30,
+            "w": 28,
+            "h": 6
+          }
+        ]
+      },
+      "pterosaur-descendants": {
+        "image": "assets/sord/SORD01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/sord/SORD50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/sord/SORD00AP.mp3",
+  "narration": "assets/sord/SORD00AJ.mp3"
+}

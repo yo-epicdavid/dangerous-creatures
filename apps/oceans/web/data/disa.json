@@ -1,0 +1,200 @@
+{
+  "id": "disa",
+  "code": "DISA",
+  "name": "Disasters at Sea",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "From the Titanic to oil spills, disasters at sea have shaped history and inspired acts of extraordinary heroism.",
+  "zones": [
+    "Open ocean",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/disa/DISA00AA.webp",
+    "alt": "Disasters at Sea"
+  },
+  "intro": "For as long as people have been building boats there have been disasters at sea. Some are preventable, but others are not. They happen for a variety of reasons—war, collision, faulty design, navigational error, fire, and natural causes like storms, fog, and icebergs. Loss of life and damage to the environment can be horrific. Yet these tragedies have also inspired acts of great heroism.",
+  "facts": [
+    {
+      "label": "Titanic",
+      "value": "On April 14, 1912, the Titanic struck an iceberg in the North Atlantic and sank, killing approximately 1,500 people."
+    },
+    {
+      "label": "Lusitania",
+      "value": "In 1915 the British liner Lusitania was sunk by two torpedoes fired from a German U-boat, killing 1,198 men, women, and children — all civilians."
+    },
+    {
+      "label": "Oil spill",
+      "value": "In 1978 the Amoco Cadiz ran aground off France, spilling 223,000 tons of oil — one of the worst environmental disasters at sea."
+    },
+    {
+      "label": "Ferry disaster",
+      "value": "In 1987 more than 1,500 passengers were lost near the Philippines when the overcrowded ferry Doña Paz collided with a tanker."
+    },
+    {
+      "label": "Rig fire",
+      "value": "In 1988 fire on the Piper Alpha oil rig sent flames 122 m (400 ft) into the air, trapping more than 100 oil workers."
+    },
+    {
+      "label": "Gulf War spill",
+      "value": "During the 1991 Persian Gulf War, about six million barrels of crude oil were dumped into the Gulf, while millions more polluted the air from burning oil rigs."
+    }
+  ],
+  "topics": [
+    {
+      "id": "iceberg",
+      "title": "Iceberg!",
+      "image": "assets/disa/DISA02PU.webp",
+      "text": "On April 14, 1912, the Titanic plied its course through the North Atlantic at full speed despite warnings of icebergs. That night it struck an iceberg and sank. This \"unsinkable\" liner carried lifeboats for only half of its passengers, and approximately 1,500 people died.",
+      "narration": "assets/disa/DISA02JN.mp3"
+    },
+    {
+      "id": "torpedo",
+      "title": "Torpedo!",
+      "image": "assets/disa/DISA03PU.webp",
+      "text": "In 1915 the British liner Lusitania was sunk off the coast of Ireland by two torpedoes fired from a German U-boat. A total of 1,198 men, women, and children—all civilians—were lost. Outraged by this incident (in which 124 United States citizens died), the U. S. entered World War I against Germany.",
+      "narration": "assets/disa/DISA03JN.mp3"
+    },
+    {
+      "id": "slick-killers",
+      "title": "Slick killers",
+      "image": "assets/disa/DISA04PU.webp",
+      "text": "Oil spills may be the worst of all possible disasters at sea, at least for the ocean environment. There have been many devastating spills: in 1978 the Amoco Cadiz ran aground off the coast of France, spilling 223,000 tons of oil. When the Torrey Canyon struck the rocks off the English coast in 1967, it split in two, releasing all of its 119,000 tons of oil into the sea. In 1989 the Exxon Valdez hit rocks and spilled 34,286 tons of crude into Alaska's Prince William Sound.",
+      "narration": "assets/disa/DISA04JN.mp3"
+    },
+    {
+      "id": "fatal-ferries",
+      "title": "Fatal ferries",
+      "image": "assets/disa/DISA05PU.webp",
+      "text": "Vessels of public transportation have on occasion become death traps, often due to designs that placed more emphasis on loading cars easily than on seaworthiness. In 1987 more than 1,500 passengers were lost near the Philippines after the overcrowded ferry Doña Paz and the tanker Victor collided south of Manila. In 1994 the ferry Estonia capsized in the Baltic Sea. Experts believe that seals on the ship's front loading doors were defective. Despite heroic rescue operations, approximately 800 lives were lost.",
+      "captions": [
+        {
+          "label": "Doors of death",
+          "text": "In 1987 the British ferry Herald of Free Enterprise capsized and sank quickly off Zeebrugge, Belgium, killing 188 people. Water poured in through loading doors in the stern that hadn't closed properly."
+        }
+      ],
+      "narration": "assets/disa/DISA05JN.mp3"
+    },
+    {
+      "id": "fire",
+      "title": "Fire!",
+      "image": "assets/disa/DISA06PU.webp",
+      "text": "Working on an oil rig is a very dangerous job. In 1988 fire broke out on the Piper Alpha oil rig in the North Sea. Flames leapt 122 m (400 ft) into the air. More than 100 oil workers were trapped in the inferno while metal girders melted into the sea. Firefighters were airlifted from around the world to extinguish the blaze. During the 1991 Persian Gulf War, another oily disaster occurred: about six million barrels of crude oil were dumped into the Gulf, while millions more polluted the air from burning oil rigs.",
+      "narration": "assets/disa/DISA06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Weather Machine",
+      "to": "weat"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/disa/DISA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "Torpedo!",
+            "to": "torpedo",
+            "x": 3,
+            "y": 40,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Collision!",
+            "to": "video",
+            "x": 26,
+            "y": 52,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Slick killers",
+            "to": "slick-killers",
+            "x": 2,
+            "y": 60,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Fire!",
+            "to": "fire",
+            "x": 2,
+            "y": 68,
+            "w": 10,
+            "h": 5
+          },
+          {
+            "label": "Fatal ferries",
+            "to": "fatal-ferries",
+            "x": 63,
+            "y": 64,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Iceberg!",
+            "to": "iceberg",
+            "x": 40,
+            "y": 74,
+            "w": 16,
+            "h": 5
+          }
+        ]
+      },
+      "iceberg": {
+        "image": "assets/disa/DISA02PU.webp",
+        "back": "main"
+      },
+      "torpedo": {
+        "image": "assets/disa/DISA03PU.webp",
+        "back": "main"
+      },
+      "slick-killers": {
+        "image": "assets/disa/DISA04PU.webp",
+        "back": "main"
+      },
+      "fatal-ferries": {
+        "image": "assets/disa/DISA05PU.webp",
+        "back": "main"
+      },
+      "fire": {
+        "image": "assets/disa/DISA06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/disa/clip.mp4",
+        "poster": "assets/disa/DISA01PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/disa/DISA00JN.mp3",
+  "sound": "assets/disa/DISA00IX.mp3",
+  "video": {
+    "title": "Collision!",
+    "src": "assets/disa/clip.mp4",
+    "poster": "assets/disa/poster.webp",
+    "caption": "In 1956 the Italian liner Andrea Doria sank off the eastern coast of the United States after colliding with the Swedish ship Stockholm. The captain of another ship, the Ile de France, came to the rescue and turned on every light on his ship to give hope to the doomed vessel's passengers. Fifty-two of the Andrea Doria's passengers were lost, but 1,652 were rescued.",
+    "narration": "assets/disa/DISA01JN.mp3"
+  }
+}

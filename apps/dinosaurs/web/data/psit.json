@@ -1,0 +1,128 @@
+{
+  "id": "psit",
+  "code": "PSIT",
+  "name": "Psittacosaurus",
+  "category": "dinosaur",
+  "scientificName": "Psittacosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "sit-AK-oh-SOR-us",
+  "meaning": "Parrot lizard",
+  "period": "Early Cretaceous",
+  "diet": "Herbivore",
+  "tagline": "This parrot-beaked plant-eater was one of the earliest horned dinosaurs!",
+  "hero": {
+    "image": "assets/psit/PSIT00AA.webp",
+    "alt": "Psittacosaurus"
+  },
+  "intro": "Psittacosaurus had a beak just like a parrot! This dinosaur was an early relative of the horned dinosaurs, and lived during the Early Cretaceous period. The primitive horned dinosaurs had only small, bony cheek horns whereas their later relatives, such as Centrosaurus, had well developed horns and large neck frills. Paleontologists believe that unlike later horned dinosaurs, Psittacosaurus spent most of its time on its two rear legs, perhaps using its front limbs to grasp the plants it ate. Fossils of this dinosaur, like those of many other early ceratopsians, have been found in Asia.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Asia"
+    },
+    {
+      "label": "Time Period",
+      "value": "Early Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Parrot lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ceratopsian"
+    },
+    {
+      "label": "Length",
+      "value": "1.2m (6ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "prehistoric-polly",
+      "title": "Prehistoric Polly?",
+      "image": "assets/psit/PSIT01PU.webp",
+      "text": "Psittacosaurus's name means \"parrot lizard,\" so named because its beak reminded its discoverer of a parrot. Although some dinosaurs and birds have many similarities, in the case of Psittacosaurus the beak is where the similarities ended.",
+      "captions": [
+        {
+          "label": "Strangely shaped skull",
+          "text": "This oddly shaped skull belonged to Psittacosaurus Although the dinosaur did not have many teeth, its sharp, deep beak could slice through tough leaves and woody stems."
+        }
+      ]
+    },
+    {
+      "id": "more-beaked-beasts",
+      "title": "More Beaked Beasts",
+      "image": "assets/psit/PSIT02PU.webp",
+      "text": "A bone under Psittacosaurus's upper beak was found only in the horned dinosaurs, leading experts to believe that Psittacosaurus was one of the most primitive ceratopsians. By looking at the faces of a few ceratopsians shown here, you can see that a beak was not uncommon in this dinosaur family.",
+      "captions": [
+        {
+          "label": "Fossil ceratopsian beak",
+          "text": "A beak like this one was ideal for cropping tough plants."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Weirdest Dinosaurs",
+      "to": "weir"
+    },
+    {
+      "label": "Birds and Dinosaurs",
+      "to": "bird"
+    },
+    {
+      "label": "Centrosaurus",
+      "to": "cent"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/psit/PSIT00AA.webp",
+        "hotspots": [
+          {
+            "label": "More Beaked Beasts",
+            "to": "more-beaked-beasts",
+            "x": 57,
+            "y": 3,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "Prehistoric Polly?",
+            "to": "prehistoric-polly",
+            "x": 60,
+            "y": 47,
+            "w": 22,
+            "h": 6
+          }
+        ]
+      },
+      "prehistoric-polly": {
+        "image": "assets/psit/PSIT01PU.webp",
+        "back": "main"
+      },
+      "more-beaked-beasts": {
+        "image": "assets/psit/PSIT02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/psit/PSIT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/psit/PSIT00AP.mp3",
+  "narration": "assets/psit/PSIT00AJ.mp3"
+}

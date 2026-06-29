@@ -1,0 +1,136 @@
+{
+  "id": "davi",
+  "code": "DAVI",
+  "name": "Dravidosaurus",
+  "category": "dinosaur",
+  "scientificName": "Dravidosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "dra-VID-oh-SOR-us",
+  "meaning": "Dravidanadu lizard",
+  "period": "Late Cretaceous",
+  "diet": "Herbivore",
+  "tagline": "The last stegosaur on Earth — it outlived its cousins by millions of years!",
+  "hero": {
+    "image": "assets/davi/DAVI00AA.webp",
+    "alt": "Dravidosaurus"
+  },
+  "intro": "Dravidosaurus is a member of the stegosaur group along with Kentrosaurus and Stegosaurus. But unlike its armored cousins, this \"roofed lizard\" lived in India long after the other stegosaurs had become extinct. When stegosaurs were first discovered, experts thought their plates should be placed flat against their backs like the shingles on a roof. It is now believed that these plates stood up along the dinosaurs' backs and may have acted as miniature \"radiators,\" helping to regulate the stegosaurs' body temperature.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Asia"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Dravidanadu lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Stegosaur"
+    },
+    {
+      "label": "Length",
+      "value": "3m(10ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "solar-powered-dinosaurs",
+      "title": "Solar-Powered Dinosaurs?",
+      "image": "assets/davi/DAVI01PU.webp",
+      "text": "Why did Dravidosaurus have such odd plates along its back? They were not sharply pointed for defense. They were not even fixed to the skeleton, but simply stuck into the skin.",
+      "captions": [
+        {
+          "label": "Central heating",
+          "text": "The back plates probably helped to control the body temperature of a stegosaur like Tuojiangosaurus shown here. The bony plates were honeycombed with holes, perhaps for blood vessels. When facing the sun, the plates absorbed heat—like solar panels—and warmed the blood. When facing the breeze or in the shade, the plates may have helped cool the dinosaur."
+        }
+      ]
+    },
+    {
+      "id": "the-time-of-the-stegosaurs",
+      "title": "The Time of the Stegosaurs",
+      "image": "assets/davi/DAVI02PU.webp",
+      "text": "Some other stegosaurs, such as Tuojiangosaurus, Kentrosaurus, and Stegosaurus, lived in the Late Jurassic period, about 145 million years ago. Dravidosaurus lived long after the others had become extinct. It was one of the last dinosaurs on Earth, becoming extinct at the end of the Cretaceous period, about 88 million years ago.",
+      "captions": [
+        {
+          "label": "Staurikosaurus",
+          "text": "One of the first known dinosaurs that lived more than 200 million years ago"
+        },
+        {
+          "label": "Tuojiangosaurus",
+          "text": "These stegosaurs lived during the Jurassic period, and became extinct about 140-150 million years ago."
+        },
+        {
+          "label": "Dravidosaurus",
+          "text": "This dinosaur was the last known stegosaur to have existed on Earth."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Gobi Desert Expeditions",
+      "to": "gobi"
+    },
+    {
+      "label": "How to Recognize Stegosaurs",
+      "to": "hstg"
+    },
+    {
+      "label": "Herrerasaurus",
+      "to": "herr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/davi/DAVI00AA.webp",
+        "hotspots": [
+          {
+            "label": "Solar-powered dinosaurs?",
+            "to": "solar-powered-dinosaurs",
+            "x": 64,
+            "y": 24,
+            "w": 28,
+            "h": 6
+          },
+          {
+            "label": "The time of the stegosaurs",
+            "to": "the-time-of-the-stegosaurs",
+            "x": 57,
+            "y": 65,
+            "w": 34,
+            "h": 6
+          }
+        ]
+      },
+      "solar-powered-dinosaurs": {
+        "image": "assets/davi/DAVI01PU.webp",
+        "back": "main"
+      },
+      "the-time-of-the-stegosaurs": {
+        "image": "assets/davi/DAVI02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/davi/DAVI50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/davi/DAVI00AP.mp3",
+  "narration": "assets/davi/DAVI00AJ.mp3"
+}

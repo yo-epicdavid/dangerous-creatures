@@ -1,0 +1,233 @@
+{
+  "id": "tran",
+  "code": "TRAN",
+  "name": "Tarantula",
+  "scientificName": "Theraphosa blondi",
+  "needsScientificVerify": false,
+  "tagline": "Eight eyes, eight legs, and fangs big enough to pin a mouse — meet the world's hairiest hunter.",
+  "weapons": [
+    "Venom & Poison"
+  ],
+  "habitats": [
+    "Rainforest & Jungle",
+    "Desert"
+  ],
+  "regions": [
+    "Africa",
+    "Asia",
+    "Australia & Oceania"
+  ],
+  "hero": {
+    "image": "assets/tran/TRAN00AA.webp",
+    "alt": "Tarantula"
+  },
+  "intro": "A dinner-plate-size tarantula scurries over the rain forest floor. Its eight tiny eyes gleam. Suddenly the spider spots a mouse and pounces, pinning the rodent down with its huge fangs. No wonder these hairy hunters give many people the creeps. But tarantula venom isn't dangerous to humans, and the spiders seldom bite anyway. Some people even keep these gentle, long-lived animals as pets.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by injecting venom through fangs",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Insects, small reptiles, frogs, small rodents, and other spiders",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "When they're upset, some tarantulas pull hair from their abdomens and throw it at an attacker. Tarantula hair is extremely irritating!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 25cm (10in)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "The Americas, Africa, Asia, Australasia",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "tarantula-eater",
+      "title": "Tarantula eater",
+      "image": "assets/tran/TRAN01PU.webp",
+      "text": "How's this for a scary plot for a story: you're kidnapped by a winged alien. It paralyzes you with a sting, and then lays an egg on your body and buries you in the ground. When the egg hatches, the newly born creature eats you alive.... Luckily, this can only happen in the movies–unless you're a tarantula who's captured by a wasp.",
+      "captions": [
+        {
+          "label": "Bringing up baby",
+          "text": "The spider is food for this tarantula hawk wasp's offspring–the mother wasp lives mostly on fruit juice and nectar."
+        }
+      ],
+      "narration": "assets/tran/TRAN01NP.mp3"
+    },
+    {
+      "id": "big-and-hairy",
+      "title": "Big and hairy",
+      "image": "assets/tran/TRAN02PU.webp",
+      "text": "The name \"tarantula\" was originally given to a spider from Italy, but the word is now used for any big, hairy spider, like this curly-haired tarantula.",
+      "captions": [
+        {
+          "label": "Mistaken monster",
+          "text": "Tarantulas really aren't dangerous to humans. They rarely bite people, and their venom usually causes less trouble than a bee sting. In fact, it's hard to even get a tarantula interested in biting you in the first place."
+        }
+      ],
+      "narration": "assets/tran/TRAN02NP.mp3"
+    },
+    {
+      "id": "better-for-biting",
+      "title": "Better for biting",
+      "image": "assets/tran/TRAN03PU.webp",
+      "text": "Spiders can't chew. Instead, they use their fangs to inject prey with paralyzing venom, and then inject the animal with juices that dissolve its internal parts. Then they suck up all the liquids and leave the rest behind.",
+      "captions": [
+        {
+          "label": "Getting a grip",
+          "text": "When a tarantula bites, it sinks its fangs into its prey and then pumps in venom from glands in its head."
+        }
+      ],
+      "narration": "assets/tran/TRAN03NP.mp3"
+    },
+    {
+      "id": "big-spiders-big-meals",
+      "title": "Big spiders, big meals",
+      "image": "assets/tran/TRAN04PU.webp",
+      "text": "Most spiders eat insects. Tarantulas do, too, but it takes a lot of insects to satisfy a really big spider. One South American tarantula has a leg span of nearly 25 centimeters (almost 10 in) across! Spiders that big can pounce on prey as big as baby birds, mice, lizards, and giant centipedes.",
+      "narration": "assets/tran/TRAN04NP.mp3"
+    },
+    {
+      "id": "hunting-spiders",
+      "title": "Hunting spiders",
+      "image": "assets/tran/TRAN05PU.webp",
+      "text": "These spiders all have their own special techniques for pouncing on prey.",
+      "captions": [
+        {
+          "label": "Crab spider",
+          "text": "Have you ever seen crabs scurrying sideways across a beach? This spider, which usually hides out pretending to be a flower petal, moves the same way as it crosses a flower to grab a bee."
+        },
+        {
+          "label": "Raft spider",
+          "text": "This spider can walk on water! It sometimes munches on a minnow or tadpole that comes to the surface to investigate."
+        }
+      ],
+      "narration": "assets/tran/TRAN05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/tran/TRAN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 7.06,
+            "y": 8.97,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Big spiders, big meals",
+            "to": "big-spiders-big-meals",
+            "x": 13,
+            "y": 10,
+            "w": 32,
+            "h": 7
+          },
+          {
+            "label": "Hunting spiders",
+            "to": "hunting-spiders",
+            "x": 13,
+            "y": 18,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Better for biting",
+            "to": "better-for-biting",
+            "x": 8.31,
+            "y": 22.61,
+            "w": 13.08,
+            "h": 4.13
+          },
+          {
+            "label": "Big and hairy",
+            "to": "big-and-hairy",
+            "x": 25.49,
+            "y": 55.29,
+            "w": 5.42,
+            "h": 9.76
+          },
+          {
+            "label": "Birds for breakfast",
+            "to": "video",
+            "x": 36.9,
+            "y": 6.81,
+            "w": 39.32,
+            "h": 8.89
+          },
+          {
+            "label": "Tarantula eater",
+            "to": "tarantula-eater",
+            "x": 55.18,
+            "y": 6.81,
+            "w": 30.42,
+            "h": 9.33
+          },
+          {
+            "label": "Harpy Eagle",
+            "x": 73.46,
+            "y": 10.92,
+            "w": 25.11,
+            "h": 5.21,
+            "external": "animal.html?id=harp"
+          }
+        ]
+      },
+      "tarantula-eater": {
+        "image": "assets/tran/TRAN01PU.webp",
+        "back": "main"
+      },
+      "big-and-hairy": {
+        "image": "assets/tran/TRAN02PU.webp",
+        "back": "main"
+      },
+      "better-for-biting": {
+        "image": "assets/tran/TRAN03PU.webp",
+        "back": "main"
+      },
+      "big-spiders-big-meals": {
+        "image": "assets/tran/TRAN04PU.webp",
+        "back": "main"
+      },
+      "hunting-spiders": {
+        "image": "assets/tran/TRAN05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/tran/TRAN00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/tran/clip.mp4",
+        "poster": "assets/tran/TRAN06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "ambient": "assets/tran/narration.mp3",
+  "sound": "assets/tran/TRAN00AF.mp3",
+  "factsNarration": "assets/tran/TRAN00FB.mp3",
+  "video": {
+    "title": "Birds for breakfast",
+    "src": "assets/tran/clip.mp4",
+    "poster": "assets/tran/poster.webp",
+    "caption": "Some large hairy spiders–called bird-eating spiders–hunt in the trees. They eat mainly insects, but sometimes prey on lizards, tree frogs, salamanders, young snakes, and of course, birds. So if you're hiking through a tropical rain forest and you want to see one of these big hairy hunters, don't just look down at the path. One might be sitting on the limb above you!!"
+  }
+}

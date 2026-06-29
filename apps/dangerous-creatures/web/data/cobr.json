@@ -1,0 +1,232 @@
+{
+  "id": "cobr",
+  "code": "COBR",
+  "name": "Cobra",
+  "scientificName": "Naja naja",
+  "needsScientificVerify": false,
+  "tagline": "One bite from this hooded hunter can drop an elephant—and it doesn't even want to fight you.",
+  "weapons": [
+    "Venom & Poison"
+  ],
+  "habitats": [
+    "Grassland & Savanna",
+    "Forest & Woodland"
+  ],
+  "regions": [
+    "Africa",
+    "Asia"
+  ],
+  "hero": {
+    "image": "assets/cobr/COBR00AA.webp",
+    "alt": "Cobra"
+  },
+  "intro": "When a cobra bites its prey, the snake hangs on to it for several seconds, grinding as much venom as possible into the wound. Cobra venom is extremely potent. A single bite from a king cobra could kill an elephant in just a few hours. Fortunately, cobras are not aggressive snakes. Most of the time, they just want to be left alone.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills and defends by injecting or spraying venom",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Rodents, insects, small reptiles, and eggs",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "When threatened, the cobra rises up, expands its hood, and shoots venom as far as 2.2 meters (7 ft) away!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 5.4m (18ft)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Africa, Arabia, India, Southeast Asia",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "spitting-image",
+      "title": "Spitting image",
+      "image": "assets/cobr/COBR02PU.webp",
+      "text": "Some African cobras have a very nasty habit. If they feel threatened, they spray jets of venom at their attacker, aiming for the eyes.",
+      "captions": [
+        {
+          "label": "Another squirter",
+          "text": "When frightened, the cane toad may squirt venom from the glands on its head. This toad has become a pest in Australia."
+        },
+        {
+          "label": "Spray away",
+          "text": "The powerful jaw muscles of spitting cobras can spray venom quite a distance, with deadly accuracy."
+        }
+      ],
+      "narration": "assets/cobr/COBR02NP.mp3"
+    },
+    {
+      "id": "convertible-hood",
+      "title": "Convertible hood",
+      "image": "assets/cobr/COBR01PU.webp",
+      "text": "When cobras get angry, they raise the front of their bodies off the ground and spread out the bones in their neck, tightening the loose skin into a \"hood\" that's intended to scare off enemies. Some cobras grow twice as long as a compact car—those monsters might be able to raise their heads as high as yours!",
+      "captions": [
+        {
+          "label": "I can do that, too!",
+          "text": "This Australian frilled lizard also expands its neck frill to look more frightening to an attacker."
+        }
+      ],
+      "narration": "assets/cobr/COBR01NP.mp3"
+    },
+    {
+      "id": "snacking-on-snakes",
+      "title": "Snacking on snakes",
+      "image": "assets/cobr/COBR04PU.webp",
+      "text": "Like all wild animals, snakes have to look out for predators that want to eat them. Birds and other snakes are their most common enemies.",
+      "captions": [
+        {
+          "label": "Snake-eating snake",
+          "text": "Farmers love king snakes, because they eat pests such as rats and mice. But they eat other snakes as well—rattlesnakes are one of the king snake's favorite meals."
+        },
+        {
+          "label": "Snake-eating secretary",
+          "text": "The secretary bird walks for miles along the African savanna looking for such delicacies as cobra. Unlike other birds of prey, a secretary bird uses its feet to kill snakes."
+        }
+      ],
+      "narration": "assets/cobr/COBR04NP.mp3"
+    },
+    {
+      "id": "dangerous-babies",
+      "title": "Dangerous babies?",
+      "image": "assets/cobr/COBR03PU.webp",
+      "text": "A snake doesn't have to be big to be deadly. A baby cobra can be as poisonous as an adult. Like all baby snakes, a tiny cobra is a miniature replica of its parents—in this case, the baby is ready to hunt the instant it breaks out of its eggshell.",
+      "captions": [
+        {
+          "label": "Testing the air",
+          "text": "A baby rat snake tests the air before emerging."
+        },
+        {
+          "label": "Tiny egg, long snake",
+          "text": "It's amazing how such a long snake can come out of such a tiny egg!"
+        }
+      ],
+      "narration": "assets/cobr/COBR03NP.mp3"
+    },
+    {
+      "id": "milking-a-snake",
+      "title": "Milking a snake",
+      "image": "assets/cobr/COBR05PU.webp",
+      "text": "People sometimes \"milk\" venomous snakes like this rattlesnake. They make a snake bite a membrane-covered jar and then stroke its venom glands. The collected venom is used to make various medicines, especially antivenin for counteracting snakebites. Don't try this at home!",
+      "narration": "assets/cobr/COBR05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/cobr/COBR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 5.81,
+            "y": 7.46,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Spitting image",
+            "to": "spitting-image",
+            "x": 77.68,
+            "y": 20.23,
+            "w": 6.51,
+            "h": 10.19
+          },
+          {
+            "label": "Convertible hood",
+            "to": "convertible-hood",
+            "x": 75.34,
+            "y": 38.63,
+            "w": 8.86,
+            "h": 4.13
+          },
+          {
+            "label": "Snacking on snakes",
+            "to": "snacking-on-snakes",
+            "x": 57,
+            "y": 52,
+            "w": 23,
+            "h": 4
+          },
+          {
+            "label": "Best of enemies",
+            "to": "video",
+            "x": 33,
+            "y": 62,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Dangerous babies?",
+            "to": "dangerous-babies",
+            "x": 10,
+            "y": 72,
+            "w": 22,
+            "h": 4
+          },
+          {
+            "label": "Milking a snake",
+            "to": "milking-a-snake",
+            "x": 10,
+            "y": 81,
+            "w": 18,
+            "h": 4
+          }
+        ]
+      },
+      "spitting-image": {
+        "image": "assets/cobr/COBR02PU.webp",
+        "back": "main"
+      },
+      "convertible-hood": {
+        "image": "assets/cobr/COBR01PU.webp",
+        "back": "main"
+      },
+      "snacking-on-snakes": {
+        "image": "assets/cobr/COBR04PU.webp",
+        "back": "main"
+      },
+      "dangerous-babies": {
+        "image": "assets/cobr/COBR03PU.webp",
+        "back": "main"
+      },
+      "milking-a-snake": {
+        "image": "assets/cobr/COBR05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/cobr/COBR00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/cobr/clip.mp4",
+        "poster": "assets/cobr/COBR06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "ambient": "assets/cobr/narration.mp3",
+  "sound": "assets/cobr/COBR00AF.mp3",
+  "factsNarration": "assets/cobr/COBR00FB.mp3",
+  "video": {
+    "title": "Best of enemies",
+    "src": "assets/cobr/clip.mp4",
+    "poster": "assets/cobr/poster.webp",
+    "caption": "Not many animals will mess with a cobra, but the mongoose is a worthy opponent. Although it's not immune, this little mammal can tolerate a dose of the snake's venom, and a mongoose is very quick. These two animals usually avoid each other, but when they get into a fight, the contest usually ends with the mongoose eating a dead cobra."
+  }
+}

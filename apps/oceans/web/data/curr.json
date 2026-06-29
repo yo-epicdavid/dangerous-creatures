@@ -1,0 +1,275 @@
+{
+  "id": "curr",
+  "code": "CURR",
+  "name": "Currents",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Hidden rivers in the sea carry heat, wildlife, and even lost rubber ducks all the way around the world.",
+  "zones": [
+    "Open ocean",
+    "Coast & tide pools",
+    "Polar seas"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/curr/CURR00AA.webp",
+    "alt": "Currents"
+  },
+  "intro": "The different levels of ocean water are continually rising, falling, and mixing together. This circulation carries oxygen to the depths and life-giving nutrients to the surface. Heat in the tropical oceans is redistributed by currents to other parts of the globe, moderating the earth's weather and climate. In turn, the winds help drive the currents, continuing the complex interaction between the oceans and the atmosphere.",
+  "facts": [
+    {
+      "label": "Speed",
+      "value": "Antarctic icebergs drift westward on circumpolar currents at about 13 km (8 mi) per day."
+    },
+    {
+      "label": "Did you know",
+      "value": "In January 1992, about 29,000 rubber ducks and bathtub toys spilled from a cargo ship in the North Pacific — about 400 washed ashore in Alaska, helping researchers trace ocean currents."
+    },
+    {
+      "label": "Safety tip",
+      "value": "If caught in a rip tide, don't swim against it — swim across the current along the shore, then swim back in."
+    },
+    {
+      "label": "Deep currents",
+      "value": "Deep-water currents move more slowly than surface currents and often flow in the opposite direction, driven by differences in water temperature and salinity."
+    },
+    {
+      "label": "Gulf Stream",
+      "value": "Benjamin Franklin and his cousin, a whaling captain, mapped the Gulf Stream to help cut sailing time between America and England."
+    },
+    {
+      "label": "Upwellings",
+      "value": "Cold upwellings bring nutrients like phosphates and nitrates to the ocean surface, nourishing phytoplankton and creating rich fishing grounds."
+    }
+  ],
+  "topics": [
+    {
+      "id": "oceans-in-motion",
+      "title": "Oceans in motion",
+      "image": "assets/curr/CURR01PU.webp",
+      "text": "There are many surface currents in the oceans, some warm and some cold, which transport heat, oxygen, and marine life.",
+      "captions": [
+        {
+          "label": "Worldwide surface ocean currents",
+          "text": "Cold and warm surface currents on a world map, including the Labrador, Gulf Stream, North Atlantic Drift, Antarctic Circumpolar, Peru, Japan, California, and Alaska currents, among 20 named flows."
+        }
+      ],
+      "narration": "assets/curr/CURR01JN.mp3"
+    },
+    {
+      "id": "a-sinking-feeling",
+      "title": "A sinking feeling",
+      "image": "assets/curr/CURR03PU.webp",
+      "text": "Deep-water and surface currents mix the oceans' waters together.\n\nCurrents of the deep: Beneath the surface currents lies a system of deep currents that move more slowly than those above them, and often in the opposite direction. These deeper currents are driven by differences in water temperature and salinity.\n\nThe rise and fall: As surface currents near the poles, some of their water freezes. The leftover water is now colder, saltier, and heavier, so it sinks to the bottom. Now this water's a deep-ocean current, creeping along the seafloor to return to the equator. Back in the tropics, it slowly warms and rises, and flows toward the poles as a surface current once again.",
+      "captions": [
+        {
+          "label": "Major deep-water currents",
+          "text": "A world map illustrating the paths of major deep-water ocean currents."
+        }
+      ],
+      "narration": "assets/curr/CURR03JN.mp3"
+    },
+    {
+      "id": "dangerous-drifters",
+      "title": "Dangerous drifters",
+      "image": "assets/curr/CURR04PU.webp",
+      "text": "Icebergs are affected more by currents than by winds, because most of their bulk lies below the water's surface.\n\nDizzying currents: After they break off from the continental ice sheet, Antarctic icebergs drift westward on the circumpolar currents at a rate of about 13 km (8 mi) per day. If they don't get stranded in some bay, they reach the Antarctic Convergence Zone, the northern limit of most southern icebergs. Here the currents reverse the paths of the half-melted icebergs, and push them from west to east.\n\nSome cross the line: Most northern icebergs break off from glaciers in Greenland. They're then carried south into lower latitudes by currents, where they become hazards to North Atlantic shipping.",
+      "captions": [
+        {
+          "label": "Southern extent of northern icebergs",
+          "text": "A map of the Arctic Ocean and North Atlantic showing Greenland and the southward paths icebergs travel into the Atlantic Ocean."
+        }
+      ],
+      "narration": "assets/curr/CURR04JN.mp3"
+    },
+    {
+      "id": "flotsam-and-jetsam",
+      "title": "Flotsam and jetsam",
+      "image": "assets/curr/CURR05PU.webp",
+      "text": "What happens to something when it falls overboard? It depends on the direction of the winds and the surface currents.\n\nDeadly distribution: Westward currents distributed the oil from the 1989 Exxon Valdez spill throughout Prince William Sound in Alaska.\n\nFrisky floaters: In January 1992 about 29,000 rubber ducks, turtles, and other bathtub toys spilled overboard from a cargo ship during a storm in the North Pacific. About 400 of the toys were found along the coast of Alaska, helping delighted researchers trace wind and ocean currents for future spills.",
+      "captions": [
+        {
+          "label": "Current victim",
+          "text": "This oil-covered bird was a casualty when the steering gear failed on the tanker Amoco Cadiz, causing it to run aground off the coast of France in 1978."
+        },
+        {
+          "label": "Distribution of Exxon Valdez oil spill, Prince William Sound, Alaska",
+          "text": "A map showing how westward currents spread the 1989 Exxon Valdez oil spill throughout Prince William Sound."
+        },
+        {
+          "label": "Track of rubber ducks from January 1992 spill",
+          "text": "A map tracing the path of rubber ducks and toys from their spill site in the North Pacific to the Alaskan coastline."
+        }
+      ],
+      "narration": "assets/curr/CURR05JN.mp3"
+    },
+    {
+      "id": "take-the-expressway",
+      "title": "Take the expressway",
+      "image": "assets/curr/CURR06PU.webp",
+      "text": "The American statesman Benjamin Franklin and his cousin, a whaling captain from Nantucket, drew up a map of the Gulf Stream to cut down on sailing time to and from England. The published chart urged captains to sail within the strong surface current while on the way to Europe, but to avoid it on the return voyage to America, when they would be traveling against its flow. Migrating eels and turtles have long taken advantage of this speedy current.",
+      "captions": [
+        {
+          "label": "Loggerhead turtle",
+          "text": "Caretta caretta"
+        },
+        {
+          "label": "Gulf Stream",
+          "text": "A map of the North Atlantic showing the Gulf Stream current flowing from North America toward Europe."
+        }
+      ],
+      "narration": "assets/curr/CURR06JN.mp3"
+    },
+    {
+      "id": "a-complex-system",
+      "title": "A complex system",
+      "image": "assets/curr/CURR07PU.webp",
+      "text": "All of the great current systems are initially caused by winds. In the Pacific Ocean, the winds pull the surface currents along, although the water currents' direction is bent by the earth's rotation. This phenomenon, called the Coriolis effect, causes currents in the Northern Hemisphere to swing to the right of the wind direction and spiral clockwise, while currents in the Southern Hemisphere swing to the left and spiral counterclockwise.",
+      "narration": "assets/curr/CURR07JN.mp3"
+    },
+    {
+      "id": "rip-tides",
+      "title": "Rip tides",
+      "image": "assets/curr/CURR08PU.webp",
+      "text": "Rip tides aren't tides at all—they're very fast, narrow surface currents that can develop quickly and flow from the shore out to sea. They form when water that's carried by longshore currents, which run parallel to the shore, combine and cause a current to carry the extra water back out to sea. If you get caught in a rip tide, don't try swimming back to shore against its flow! Instead, swim across the current, along the shore. Once you've broken free, swim back towards the shore.",
+      "narration": "assets/curr/CURR08JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Mediterranean Sea",
+      "to": "medi"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/curr/CURR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 14,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "A complex system",
+            "to": "a-complex-system",
+            "x": 11,
+            "y": 52,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "A sinking feeling",
+            "to": "a-sinking-feeling",
+            "x": 63,
+            "y": 52,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Dangerous drifters",
+            "to": "dangerous-drifters",
+            "x": 3,
+            "y": 63,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Oceans in motion",
+            "to": "oceans-in-motion",
+            "x": 62,
+            "y": 63,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Flotsam and jetsam",
+            "to": "flotsam-and-jetsam",
+            "x": 3,
+            "y": 74,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Rich rivers in the sea",
+            "to": "video",
+            "x": 53,
+            "y": 74,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Take the expressway",
+            "to": "take-the-expressway",
+            "x": 17,
+            "y": 86,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Rip tides",
+            "to": "rip-tides",
+            "x": 52,
+            "y": 87,
+            "w": 12,
+            "h": 5
+          }
+        ]
+      },
+      "oceans-in-motion": {
+        "image": "assets/curr/CURR01PU.webp",
+        "back": "main"
+      },
+      "a-sinking-feeling": {
+        "image": "assets/curr/CURR03PU.webp",
+        "back": "main"
+      },
+      "dangerous-drifters": {
+        "image": "assets/curr/CURR04PU.webp",
+        "back": "main"
+      },
+      "flotsam-and-jetsam": {
+        "image": "assets/curr/CURR05PU.webp",
+        "back": "main"
+      },
+      "take-the-expressway": {
+        "image": "assets/curr/CURR06PU.webp",
+        "back": "main"
+      },
+      "a-complex-system": {
+        "image": "assets/curr/CURR07PU.webp",
+        "back": "main"
+      },
+      "rip-tides": {
+        "image": "assets/curr/CURR08PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/curr/clip.mp4",
+        "poster": "assets/curr/CURR02PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/curr/CURR00JN.mp3",
+  "sound": "assets/curr/CURR00IX.mp3",
+  "video": {
+    "title": "Rich rivers in the sea",
+    "src": "assets/curr/clip.mp4",
+    "poster": "assets/curr/poster.webp",
+    "caption": "Brown pelican and jumping fish",
+    "narration": "assets/curr/CURR02JN.mp3"
+  }
+}

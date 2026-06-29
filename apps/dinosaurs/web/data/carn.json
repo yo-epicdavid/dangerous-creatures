@@ -1,0 +1,164 @@
+{
+  "id": "carn",
+  "code": "CARN",
+  "name": "Skulls of Meat-Eaters",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Heavy jaws, serrated teeth, and bone-crushing power — the skulls of carnosaurs reveal deadly predators.",
+  "hero": {
+    "image": "assets/carn/CARN00AA.webp",
+    "alt": "Skulls of Meat-Eaters"
+  },
+  "intro": "When you know what to look for, you can easily recognize the skull of a carnivorous animal. These skulls, which belonged to large meat-eating dinosaurs called carnosaurs, have heavy lower jaws and sharp pointed teeth, indicating that these dinosaurs ripped and tore flesh.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "tyrannosaurus-rex-the-king",
+      "title": "Tyrannosaurus Rex, the King",
+      "image": "assets/carn/CARN01PU.webp",
+      "text": "Perhaps the most famous of all dinosaurs, and one of the last, was Tyrannosaurus, also called Tyrannosaurus rex. This was the largest meat-eating animal ever to live on land. Very few specimens of Tyrannosaurus rex have ever been found, and there is some doubt about the exact structure of the powerful tail and function of the tiny forelimbs.",
+      "captions": [
+        {
+          "label": "Make mine meat",
+          "text": "There's no doubt about the diet of this dinosaur. There are clear indications that this is a meat-eater. This skull has a powerful jaw structure, and sharp, pointed teeth—up to seven inches long!"
+        }
+      ]
+    },
+    {
+      "id": "allosaurus",
+      "title": "Allosaurus",
+      "image": "assets/carn/CARN02PU.webp",
+      "text": "This carnosaur was almost as big as Tyrannosaurus rex, and just as fierce. The jagged rows of curved, serrated teeth in this skull are typical of carnivores. The \"windows\" in the massive skull helped to reduce its weight.",
+      "captions": [
+        {
+          "label": "Large cavity in front of eye for jaw muscles",
+          "text": "Large cavity in front of eye for jaw muscles"
+        },
+        {
+          "label": "Eye socket",
+          "text": "Eye socket"
+        },
+        {
+          "label": "Large serrated teeth",
+          "text": "Large serrated teeth"
+        },
+        {
+          "label": "Powerful lower jaw",
+          "text": "Powerful lower jaw"
+        }
+      ]
+    },
+    {
+      "id": "killers-by-land-and-by-sea",
+      "title": "Killers by Land and by Sea",
+      "image": "assets/carn/CARN03PU.webp",
+      "text": "Not all prehistoric carnivores were on land. Compare the jaw and teeth of Albertosaurus, a carnosaur, with that of a mosasaur, a marine reptile that lived during the Age of Dinosaurs.",
+      "captions": [
+        {
+          "label": "Mosasaur jaw",
+          "text": "Many of the teeth have been lost from this fossil mosasaur jaw. But you can see that the ones that have been preserved are sharply pointed for grasping and holding prey."
+        },
+        {
+          "label": "Mosasaurus",
+          "text": "This sea-going lizard grew up to thirty feet long—the length of a truck! With its crocodile-like mouth, it could snap up all kinds of sea creatures, including hard-shelled ammonites."
+        },
+        {
+          "label": "Carnosaur jaw",
+          "text": "This jawbone came from a dinosaur named Albertosaurus, and shows all the classic features of a meat-eater. The jawbone is heavy, and the teeth are pointed, have serrated edges, and curve slightly backward to help hold on to food."
+        }
+      ]
+    },
+    {
+      "id": "dual-diets",
+      "title": "Dual Diets",
+      "image": "assets/carn/CARN04PU.webp",
+      "text": "A few dinosaurs do not fall neatly into the category of meat-eater or plant-eater, but instead fall somewhere in between. Animals who can eat a variety of foods are called omnivores.",
+      "captions": [
+        {
+          "label": "Massospondylus skull",
+          "text": "This skull belonged to a dinosaur named Massospondylus. Its teeth were small and coarse-edged, not sharp and serrated like those of a meat-eater nor rake-like or grinding like those of more modern plant-eaters."
+        },
+        {
+          "label": "Massospondylus",
+          "text": "Although this dinosaur had teeth for eating either plants or meat, its body is barrel-shaped like a plant-eater, so its diet probably consisted mostly of plants."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Skulls of Plant-eaters",
+      "to": "vega"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/carn/CARN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Tyrannosaurus rex, the king",
+            "to": "tyrannosaurus-rex-the-king",
+            "x": 38,
+            "y": 17,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Killers by land and by sea",
+            "to": "killers-by-land-and-by-sea",
+            "x": 22,
+            "y": 32,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Dual diets",
+            "to": "dual-diets",
+            "x": 3,
+            "y": 42,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Allosaurus",
+            "to": "allosaurus",
+            "x": 22,
+            "y": 79,
+            "w": 15,
+            "h": 5
+          }
+        ]
+      },
+      "tyrannosaurus-rex-the-king": {
+        "image": "assets/carn/CARN01PU.webp",
+        "back": "main"
+      },
+      "allosaurus": {
+        "image": "assets/carn/CARN02PU.webp",
+        "back": "main"
+      },
+      "killers-by-land-and-by-sea": {
+        "image": "assets/carn/CARN03PU.webp",
+        "back": "main"
+      },
+      "dual-diets": {
+        "image": "assets/carn/CARN04PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/carn/CARN00AP.mp3",
+  "narration": "assets/carn/CARN00AJ.mp3",
+  "sound": "assets/carn/CARN00SA.mp3"
+}

@@ -1,0 +1,256 @@
+{
+  "id": "gila",
+  "code": "GILA",
+  "name": "Gila Monster",
+  "scientificName": "Heloderma suspectum",
+  "needsScientificVerify": false,
+  "tagline": "The only venomous lizard in the U.S.—and it chews its poison in!",
+  "weapons": [
+    "Venom & Poison",
+    "Teeth & Jaws"
+  ],
+  "habitats": [
+    "Desert"
+  ],
+  "regions": [
+    "North America"
+  ],
+  "hero": {
+    "image": "assets/gila/GILA00AA.webp",
+    "alt": "Gila Monster"
+  },
+  "intro": "Imagine a venomous bulldog, colored like a beadwork purse and shrunk to only a few inches tall. That'll give you an idea of what a Gila monster is like. When threatened, these lizards clamp onto their target with sharp teeth and chew venom into the wound. Despite that fact, Gila monsters are becoming hard to find in the wild because too many have been captured and kept as pets.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by biting and chewing venom into wound",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Rodents, eggs, baby birds, lizards, frogs, insects",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "This venomous lizard is basically peaceful and is even kept by some people as a pet!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 56cm (22in)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "United States, Mexico",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "yellow-and-black-stay-back",
+      "title": "Yellow and black—stay back!",
+      "image": "assets/gila/GILA01PU.webp",
+      "text": "You're not likely to run into any Gila monsters, because they spend most of their time in burrows underground. But if you did, a glance at those bright colors should be enough to warn you, \"Hands off!\"",
+      "captions": [
+        {
+          "label": "Spotted salamander",
+          "text": "There are venom glands in this amphibian's skin. If predators leave the salamander alone, it might live for more than twenty years!"
+        },
+        {
+          "label": "Mangrove snake",
+          "text": "The venom of this wasp-colored reptile isn't strong enough to kill humans, but it's deadly to the birds that the snake hunts."
+        }
+      ],
+      "narration": "assets/gila/GILA01NP.mp3"
+    },
+    {
+      "id": "groovy-teeth",
+      "title": "Groovy teeth",
+      "image": "assets/gila/GILA02PU.webp",
+      "text": "Scientists aren't sure, but they think that a Gila monster's venom is for defense rather than hunting. Gila monsters are so slow that they eat only foods that can't run away—like eggs or baby animals.",
+      "captions": [
+        {
+          "label": "Mouth wash",
+          "text": "Gila monsters don't inject venom—they chew it into their victims with their notched teeth. The poisoned saliva is produced by glands in the lower jaw. It flows along a fold inside the mouth until it reaches the teeth, which have channels to collect and direct it. Drop for drop, this venom, which attacks the nervous system, is more powerful than a rattlesnake's."
+        }
+      ],
+      "narration": "assets/gila/GILA02NP.mp3"
+    },
+    {
+      "id": "rough-neighborhood",
+      "title": "Rough neighborhood",
+      "image": "assets/gila/GILA03PU.webp",
+      "text": "Gila monsters may not be your idea of cute and cuddly, but they fit right in with their venomous neighbors—a few of which you can see here. The desert's no place for a wimp!",
+      "captions": [
+        {
+          "label": "Strike or spare?",
+          "text": "Rattlesnakes have up to six replacement fangs behind their working fangs in each side of their jaw, so they never have to go hungry if they break a tooth."
+        },
+        {
+          "label": "Hole in one",
+          "text": "A female jewel wasp stings and paralyzes a cockroach, drops it into a pit she's dug, and lays an egg on it. When the larva hatches, it eats the roach."
+        },
+        {
+          "label": "Anyone want to arm wrestle?",
+          "text": "Scorpions are well-equipped killing machines. They use their clawed front legs, called pedipalps, for grasping food. Then their strong, jointed jaws tear it into pieces and crush it to a pulp. If the prey struggles, the scorpion might paralyze it with a sting."
+        }
+      ],
+      "narration": "assets/gila/GILA03NP.mp3"
+    },
+    {
+      "id": "life-in-a-frying-pan",
+      "title": "Life in a frying pan",
+      "image": "assets/gila/GILA04PU.webp",
+      "text": "Desert reptiles live in places that have little water, few spots to hide, and temperatures that can reach 55°C (131°F) in the day and below freezing at night. They've had to develop special techniques for dealing with these extremes.",
+      "captions": [
+        {
+          "label": "Water spout",
+          "text": "The spikes of the thorny devil, or moloch, are arranged so that they form grooves. When dew or rain collects on the animal, the water flows through the grooves toward its mouth—a pretty handy feature to have in a desert!"
+        }
+      ],
+      "narration": "assets/gila/GILA04NP.mp3"
+    },
+    {
+      "id": "sand-swimmer",
+      "title": "Sand swimmer",
+      "image": "assets/gila/GILA05PU.webp",
+      "text": "This lizard gets its name from its ability to \"swim\" through loose sand. Like the Gila monster, it stores fat in its tail for nourishment during hibernation and when food is scarce.",
+      "captions": [
+        {
+          "label": "Sandfish",
+          "text": "Only its underside moves in and out when the sandfish breathes. If its sides moved, sand would fill the gaps when the lizard exhaled and leave too little room for the lizard to inhale."
+        }
+      ],
+      "narration": "assets/gila/GILA05NP.mp3"
+    },
+    {
+      "id": "only-one-other",
+      "title": "Only one other",
+      "image": "assets/gila/GILA06PU.webp",
+      "text": "You shouldn't sit up nights worrying about meeting venomous lizards. There are only two: the Gila monster, and the beaded lizard, which you'll find in wooded areas of western Mexico. Like Gila monsters, beaded lizards are slow and prefer hiding to fighting.",
+      "narration": "assets/gila/GILA06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/gila/GILA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 4.09,
+            "y": 8.32,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Life in a frying pan",
+            "to": "life-in-a-frying-pan",
+            "x": 31.59,
+            "y": 12.44,
+            "w": 11.51,
+            "h": 4.13
+          },
+          {
+            "label": "Rough neighborhood",
+            "to": "rough-neighborhood",
+            "x": 8.77,
+            "y": 60.06,
+            "w": 20.89,
+            "h": 4.56
+          },
+          {
+            "label": "Sand swimmer",
+            "to": "sand-swimmer",
+            "x": 8.77,
+            "y": 60.06,
+            "w": 27.14,
+            "h": 10.41
+          },
+          {
+            "label": "Yellow and black—stay back",
+            "to": "yellow-and-black-stay-back",
+            "x": 27.99,
+            "y": 66.33,
+            "w": 19.32,
+            "h": 11.27
+          },
+          {
+            "label": "Only one other",
+            "to": "only-one-other",
+            "x": 65,
+            "y": 57,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Groovy teeth",
+            "to": "groovy-teeth",
+            "x": 65,
+            "y": 64,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "What's for dinner?",
+            "to": "video",
+            "x": 52.37,
+            "y": 74.56,
+            "w": 34.17,
+            "h": 10.19
+          }
+        ]
+      },
+      "yellow-and-black-stay-back": {
+        "image": "assets/gila/GILA01PU.webp",
+        "back": "main"
+      },
+      "groovy-teeth": {
+        "image": "assets/gila/GILA02PU.webp",
+        "back": "main"
+      },
+      "rough-neighborhood": {
+        "image": "assets/gila/GILA03PU.webp",
+        "back": "main"
+      },
+      "life-in-a-frying-pan": {
+        "image": "assets/gila/GILA04PU.webp",
+        "back": "main"
+      },
+      "sand-swimmer": {
+        "image": "assets/gila/GILA05PU.webp",
+        "back": "main"
+      },
+      "only-one-other": {
+        "image": "assets/gila/GILA06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/gila/GILA00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/gila/clip.mp4",
+        "poster": "assets/gila/GILA07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "ambient": "assets/gila/narration.mp3",
+  "sound": "assets/gila/GILA00AF.mp3",
+  "factsNarration": "assets/gila/GILA00FB.mp3",
+  "video": {
+    "title": "What's for dinner?",
+    "src": "assets/gila/clip.mp4",
+    "poster": "assets/gila/poster.webp",
+    "caption": "A Gila monster is not a speedy predator. It's happiest when it comes across food that can't run away, like a bunch of eggs from a reptile or ground-nesting bird. Occasionally, it might capture a really slow mouse or lizard."
+  }
+}

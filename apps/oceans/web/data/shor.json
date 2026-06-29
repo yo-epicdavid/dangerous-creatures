@@ -1,0 +1,210 @@
+{
+  "id": "shor",
+  "code": "SHOR",
+  "name": "The Shoreline",
+  "category": "habitat",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Where the ocean crashes into the land, tough creatures hang on for dear life.",
+  "zones": [
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/shor/SHOR00AA.webp",
+    "alt": "The Shoreline"
+  },
+  "intro": "The shore is where the ocean meets the land. A transition area that straddles two worlds, this dynamic environment is subject both to the whims of tides, waves, and currents, and to extremes in wind, sun, and temperatures. The plants and animals that live here must either carve out a niche within a certain area of the tidal zone, or be able to survive frequent exposure to air. These creatures have a tough life—don't make it any harder by stepping on them or disturbing them!",
+  "facts": [
+    {
+      "label": "Did you know",
+      "value": "Fjords are glacial valleys that flooded when sea levels rose at the end of the Ice Ages, leaving steep, rocky U-shaped inlets."
+    },
+    {
+      "label": "Seasons",
+      "value": "Winter storm waves erode beaches and stockpile sand in offshore sandbars; gentle summer swells return the sand to the beach."
+    },
+    {
+      "label": "Longshore drift",
+      "value": "Waves hit the coast at a slight angle, setting up a zigzag pattern that creates a longshore current moving sand farther along the shore."
+    },
+    {
+      "label": "Mangroves",
+      "value": "Mangroves grow in shallow, muddy tropical and subtropical waters and provide cover for the young of fish and crustaceans that migrate from offshore reefs and the open ocean."
+    },
+    {
+      "label": "Watch out!",
+      "value": "Seawalls and jetties built to protect one beach can disrupt longshore current patterns and starve nearby beaches of their regular supply of sand."
+    },
+    {
+      "label": "Dunes",
+      "value": "Beach grass stabilizes dunes—walking on dunes kills these plants and makes it easier for beaches to be eroded, so use established paths or boardwalks!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ancient-shores",
+      "title": "Ancient shores",
+      "image": "assets/shor/SHOR01PU.webp",
+      "text": "The location of the shorelines is constantly changing. Over time, sea levels have risen and fallen, and coastal land has either sunk or been uplifted by geological forces.",
+      "captions": [
+        {
+          "label": "Drowned valleys",
+          "text": "A fjord is an inlet of the sea that was once a glacial valley. During the Ice Ages, there were more glaciers. When the climate became warmer, the glaciers retreated and sea levels rose, flooding the mouths of the valleys. If you could magically remove the seawater, you'd see a typical, U-shaped glacial valley with very steep, rocky walls."
+        },
+        {
+          "label": "High and dry",
+          "text": "Terraces are flat, raised areas along the coast. These plains were once beaches, coastal floodplains, or shallow continental shelves. As sea levels fell, or as the land was uplifted, they were raised above the shoreline."
+        }
+      ],
+      "narration": "assets/shor/SHOR01JN.mp3"
+    },
+    {
+      "id": "beach-or-cliff",
+      "title": "Beach or cliff?",
+      "image": "assets/shor/SHOR02PU.webp",
+      "text": "Some coasts erode into rocky cliffs, while others form sandy beaches or muddy wetlands. It depends a lot on whether rock material is being eroded from, or deposited on, the coast.",
+      "captions": [
+        {
+          "label": "Bewitching beaches",
+          "text": "Beaches appear where rocks erode more easily and waves and currents bring in sediment. Next time you're at the beach, take a close look at a handful of sand. Are the grains made of cloudy pieces of quartz which have been transported from distant mountains by currents? Black fragments eroded from a nearby lava flow? Or the white remains of coral washed up from an offshore reef?"
+        },
+        {
+          "label": "Dramatic cliffs",
+          "text": "Steep cliffs form where the coast is actively eroded by wave action and the rocks resist weathering."
+        }
+      ],
+      "narration": "assets/shor/SHOR02JN.mp3"
+    },
+    {
+      "id": "now-you-see-it-now-you-dont",
+      "title": "Now you see it, now you don't",
+      "image": "assets/shor/SHOR03PU.webp",
+      "text": "Propelled by the constant motion of waves and currents, sand is continually moving along the coast. The steep, short waves of winter storms tend to erode beaches as they carry sand away from the shore. This material is usually stockpiled offshore in sandbars. During the summer, gentle, long swells return this sand to the beach.",
+      "captions": [
+        {
+          "label": "Shifting sands",
+          "text": "Waves usually hit the coast at a slight angle to the shoreline. This motion drives sand diagonally onto the beach, while the backwash drags the sand directly downslope. This zigzag pattern sets up a current in the surf zone called a longshore current. These currents move sand farther along the shore."
+        }
+      ],
+      "narration": "assets/shor/SHOR03JN.mp3"
+    },
+    {
+      "id": "saviors-or-destroyers",
+      "title": "Saviors or destroyers?",
+      "image": "assets/shor/SHOR04PU.webp",
+      "text": "Beach processes are complex. Hasty engineering solutions and careless practices often create more problems than they solve.",
+      "captions": [
+        {
+          "label": "Temporary housing",
+          "text": "Artificial barriers such as seawalls, jetties, and breakwaters are constructed to preserve beaches or protect harbors. However, these efforts often cause problems farther down the coast. By disrupting longshore current patterns, some beach areas are starved of their regular supply of sand. Building codes must take into account the untamable power of natural processes."
+        },
+        {
+          "label": "Keep off the grass",
+          "text": "Dunes are often stabilized by plants like beach grass. Walking on dunes kills these plants and makes it easier for beaches to be eroded. So don't cut across dunes—use established paths or boardwalks!"
+        }
+      ],
+      "narration": "assets/shor/SHOR04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Anemones",
+      "to": "anem"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/shor/SHOR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 7,
+            "h": 4
+          },
+          {
+            "label": "Ancient shores",
+            "to": "ancient-shores",
+            "x": 48,
+            "y": 22,
+            "w": 19,
+            "h": 4
+          },
+          {
+            "label": "Now you see it, now you don't",
+            "to": "now-you-see-it-now-you-dont",
+            "x": 18,
+            "y": 43,
+            "w": 30,
+            "h": 4
+          },
+          {
+            "label": "Beach or cliff?",
+            "to": "beach-or-cliff",
+            "x": 59,
+            "y": 54,
+            "w": 18,
+            "h": 4
+          },
+          {
+            "label": "Saviors or destroyers?",
+            "to": "saviors-or-destroyers",
+            "x": 50,
+            "y": 67,
+            "w": 24,
+            "h": 4
+          },
+          {
+            "label": "Muddy playgrounds",
+            "to": "video",
+            "x": 3,
+            "y": 82,
+            "w": 22,
+            "h": 4
+          }
+        ]
+      },
+      "ancient-shores": {
+        "image": "assets/shor/SHOR01PU.webp",
+        "back": "main"
+      },
+      "beach-or-cliff": {
+        "image": "assets/shor/SHOR02PU.webp",
+        "back": "main"
+      },
+      "now-you-see-it-now-you-dont": {
+        "image": "assets/shor/SHOR03PU.webp",
+        "back": "main"
+      },
+      "saviors-or-destroyers": {
+        "image": "assets/shor/SHOR04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/shor/clip.mp4",
+        "poster": "assets/shor/SHOR05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/shor/SHOR00JN.mp3",
+  "sound": "assets/shor/SHOR00IX.mp3",
+  "video": {
+    "title": "Muddy playgrounds",
+    "src": "assets/shor/clip.mp4",
+    "poster": "assets/shor/poster.webp",
+    "caption": "Fish and crustaceans shelter and raise their young among the tangled roots of mangroves in tropical and subtropical coastal waters.",
+    "narration": "assets/shor/SHOR05JN.mp3"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "id": "long",
+  "code": "LONG",
+  "name": "Long Necks",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Some dinosaurs had necks so long they could reach the tops of trees — find out how they pulled it off!",
+  "hero": {
+    "image": "assets/long/LONG00AA.webp",
+    "alt": "Long Necks"
+  },
+  "intro": "One of the larger plant-eating dinosaurs, Diplodocus's extraordinarily long neck may have enabled the creature to feed at the tops of tall conifers and cycads.  The vertebrae (Diplodocus had fifteen of them), were hollow in places, which made the neck strong but light so the dinosaur could move it about easily.  These vertebrae were connected by powerful joints, allowing the neck flexibility as well as strength.  To counterbalance such a neck, Diplodocus had a long whip tail, and a large, powerful body with heavy leg bones to support the creature's fifteen-ton weight.  These, along with the stout bones of the shoulders and hips, provided a heavy framework that supported the backbone, much like the buttresses of a modern-day suspension bridge.",
+  "facts": [
+    {
+      "label": "Diplodocus neck vertebrae",
+      "value": "15"
+    },
+    {
+      "label": "Diplodocus weight",
+      "value": "15 tons"
+    },
+    {
+      "label": "Mamenchisaurus neck vertebrae",
+      "value": "19"
+    },
+    {
+      "label": "Mamenchisaurus neck length",
+      "value": "33 feet"
+    },
+    {
+      "label": "Elasmosaurus total length",
+      "value": "43 feet"
+    }
+  ],
+  "topics": [
+    {
+      "id": "longest-neck",
+      "title": "Longest Neck",
+      "image": "assets/long/LONG01PU.webp",
+      "text": "With nineteen vertebrae, Mamenchisaurus had a neck thirty-three feet long—the longest neck ever.  But unlike Diplodocus, its neck was stiff, not flexible, nor was it balanced by a long tail."
+    },
+    {
+      "id": "advantages-of-a-long-neck",
+      "title": "Advantages of a Long Neck",
+      "image": "assets/long/LONG02PU.webp",
+      "text": "Most dinosaurs were plant-eaters, and there must have been a lot of competition for food.  Sauropods like Diplodocus had an advantage over other plant-eating dinosaurs.  With a long neck and small head, they could browse among the tallest trees that grew at the time.  To extend its reach even higher, Diplodocus may have reared up on its hind legs.",
+      "captions": [
+        {
+          "label": "Giraffe",
+          "text": "A modern-day giraffe can feed on leaves at treetops other plant-eating animals cannot reach, just like Diplodocus.  A giraffe, however, cannot reach nearly as high as the dinosaur could."
+        }
+      ]
+    },
+    {
+      "id": "hollow-places",
+      "title": "Hollow Places",
+      "image": "assets/long/LONG03PU.webp",
+      "text": "Neck bones of Diplodocus had hollowed-out areas to make them lighter, yet they were very strong.",
+      "captions": [
+        {
+          "label": "Chambered lizard",
+          "text": "Camarasaurus also had hollow chambers inside its vertebrae to reduce its weight.  Camarasaurus means \"chambered lizard.\"  Even with this weight reduction, this dinosaur probably tipped the scales at twenty tons!"
+        }
+      ]
+    },
+    {
+      "id": "not-only-land-dwellers",
+      "title": "Not Only Land Dwellers",
+      "image": "assets/long/LONG04PU.webp",
+      "text": "Like Diplodocus, the sea creature Elasmosaurus had a long neck and small head.  Over half of Elasmosaurus's forty-three-foot length was neck.  This plesiosaur probably darted after fish near the water's surface, snatching them with its sharp teeth.  Like its land-bound reptile cousins, Elasmosaurus breathed air, which meant it had to come to the surface to fill its lungs."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Diplodocus",
+      "to": "dipl"
+    },
+    {
+      "label": "Mamenchisaurus",
+      "to": "mame"
+    },
+    {
+      "label": "Plant-eaters",
+      "to": "plan"
+    },
+    {
+      "label": "Camarasaurus",
+      "to": "cama"
+    },
+    {
+      "label": "Elasmosaurus",
+      "to": "elas"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/long/LONG00AA.webp",
+        "hotspots": [
+          {
+            "label": "Advantages of a long neck",
+            "to": "advantages-of-a-long-neck",
+            "x": 22,
+            "y": 70,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Hollow places",
+            "to": "hollow-places",
+            "x": 57,
+            "y": 54,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Longest neck",
+            "to": "longest-neck",
+            "x": 60,
+            "y": 68,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Not only land dwellers",
+            "to": "not-only-land-dwellers",
+            "x": 10,
+            "y": 80,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "longest-neck": {
+        "image": "assets/long/LONG01PU.webp",
+        "back": "main"
+      },
+      "advantages-of-a-long-neck": {
+        "image": "assets/long/LONG02PU.webp",
+        "back": "main"
+      },
+      "hollow-places": {
+        "image": "assets/long/LONG03PU.webp",
+        "back": "main"
+      },
+      "not-only-land-dwellers": {
+        "image": "assets/long/LONG04PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/long/LONG00AP.mp3",
+  "narration": "assets/long/LONG00AJ.mp3"
+}

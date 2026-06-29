@@ -1,0 +1,215 @@
+{
+  "id": "fear",
+  "code": "FEAR",
+  "name": "Fearsome Faces",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Ugly, scary, or just misunderstood? Meet the wildest faces in the ocean!",
+  "zones": [
+    "Coral reef",
+    "Open ocean",
+    "Deep sea",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/fear/FEAR00AA.webp",
+    "alt": "Fearsome Faces"
+  },
+  "intro": "Fish have an amazing variety of faces—and expressions—that we sometimes interpret as ugly, beautiful, scary, happy, or sad. Check out the face of this deep-sea hatchet fish, a creature that is no doubt considered very handsome by others of its kind.",
+  "facts": [
+    {
+      "label": "Ray trick",
+      "value": "A ray's 'face' on its underside is actually its nostrils and mouth—its real eyes are on top of its body, so it only sees the world above it."
+    },
+    {
+      "label": "Camouflage",
+      "value": "The stonefish is almost the same color as its surroundings, letting it wait motionless for a shrimp or smaller fish to swim close before attacking in a flurry of motion."
+    },
+    {
+      "label": "Sawfish",
+      "value": "The sawfish slashes through schools of fish with its sharp saw, then swims back to devour the wounded victims."
+    },
+    {
+      "label": "Did you know",
+      "value": "Mantis shrimp are so fierce they've earned the nickname \"thumbsplitters\"!"
+    },
+    {
+      "label": "Unique fish",
+      "value": "The elephant fish is truly unique—there are no other members of its fish family. Its skin is scaleless and has a velvety texture."
+    },
+    {
+      "label": "Bug eyes",
+      "value": "A mantis shrimp's eyes sit on moveable stalks, and it can retract them when threatened."
+    }
+  ],
+  "topics": [
+    {
+      "id": "happy-or-sad",
+      "title": "Happy or sad?",
+      "image": "assets/fear/FEAR01PU.webp",
+      "text": "The underside of this ray looks like a face, but the “eyes” are really part of its nostrils. The ray doesn’t breathe air, but it does hunt by scent, and its snout is sensitive. The ray’s real eyes are on top of its flat body, so it only sees the world above it. Here you’re seeing its mouth, which is horny and adapted to crunching shellfish. The openings under the mouth are gills, not a fancy necklace!",
+      "narration": "assets/fear/FEAR01JN.mp3"
+    },
+    {
+      "id": "faces-on-the-floor",
+      "title": "Faces on the floor",
+      "image": "assets/fear/FEAR02PU.webp",
+      "text": "Some fish hide out on the ocean floor, and you can just barely see their faces!",
+      "captions": [
+        {
+          "label": "Snap!",
+          "text": "Crocodile or fish? Hard to tell! The crocodile fish may look lethargic, but it can strike like lightning if prey is near."
+        },
+        {
+          "label": "Boo!",
+          "text": "There you see it, and there you don’t. This stonefish is almost the same color as its surroundings, allowing it to camouflage itself. This predator isn’t just resting, it’s waiting motionless for a shrimp or smaller fish to swim close. Then this “face” will come alive and attack in a flurry of motion."
+        }
+      ],
+      "narration": "assets/fear/FEAR02JN.mp3"
+    },
+    {
+      "id": "head-weapons",
+      "title": "Head weapons",
+      "image": "assets/fear/FEAR03PU.webp",
+      "text": "Some fish have real weapons on their heads. Other fish only appear to!",
+      "captions": [
+        {
+          "label": "En garde!",
+          "text": "You could take fencing lessons from this fellow! The sawfish—a member of the ray family—has a sharp saw that it uses to slash through schools of fish. Then it swims back and devours the wounded victims."
+        },
+        {
+          "label": "Some horn!",
+          "text": "The unicornfish, on the other hand, doesn’t use its horn for anything other than impressing other unicornfish!"
+        }
+      ],
+      "narration": "assets/fear/FEAR03JN.mp3"
+    },
+    {
+      "id": "bug-eyes",
+      "title": "Bug eyes",
+      "image": "assets/fear/FEAR04PU.webp",
+      "text": "This is no praying mantis eyeing you—it’s a mantis shrimp. Its eyes are on moveable stalks, and it can retract them when threatened. The mantis shrimp is an excellent hunter. It burrows in the sand, waits for its prey, then quickly nabs worms and other small marine creatures with a large pincer that unfolds like a jackknife. These shrimp are so fierce that they’ve earned the nickname “thumpsplitters”!",
+      "narration": "assets/fear/FEAR04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Creature Closeups"
+    },
+    {
+      "label": "Timeline of Evolution"
+    },
+    {
+      "label": "The Ocean Floor",
+      "to": "oflr"
+    },
+    {
+      "label": "Angler Fish",
+      "to": "angl"
+    },
+    {
+      "label": "Clams, Oysters, and Scallops",
+      "to": "clam"
+    },
+    {
+      "label": "Sea Squirts",
+      "to": "sqrt"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/fear/FEAR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Happy or sad?",
+            "to": "happy-or-sad",
+            "x": 5,
+            "y": 50,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Strange face",
+            "to": "video",
+            "x": 5,
+            "y": 80,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "Head weapons",
+            "to": "head-weapons",
+            "x": 66,
+            "y": 27,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Faces on the floor",
+            "to": "faces-on-the-floor",
+            "x": 63,
+            "y": 54,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Bug eyes",
+            "to": "bug-eyes",
+            "x": 67,
+            "y": 76,
+            "w": 17,
+            "h": 6
+          }
+        ]
+      },
+      "happy-or-sad": {
+        "image": "assets/fear/FEAR01PU.webp",
+        "back": "main"
+      },
+      "faces-on-the-floor": {
+        "image": "assets/fear/FEAR02PU.webp",
+        "back": "main"
+      },
+      "head-weapons": {
+        "image": "assets/fear/FEAR03PU.webp",
+        "back": "main"
+      },
+      "bug-eyes": {
+        "image": "assets/fear/FEAR04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/fear/clip.mp4",
+        "poster": "assets/fear/FEAR05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/fear/FEAR00JN.mp3",
+  "sound": "assets/fear/FEAR00IX.mp3",
+  "video": {
+    "title": "Strange face",
+    "src": "assets/fear/clip.mp4",
+    "poster": "assets/fear/poster.webp",
+    "caption": "When you see the trunk-snout on this fish, it isn’t too difficult to imagine where the elephant fish got its name. The elephant fish is truly unique—there are no other members of this fish family. Its skin is scaleless and has a velvety texture. Despite its exotic appearance, the elephant fish frequents some pretty unremarkable places, like sandy or muddy areas of the ocean floor throughout the Southern Hemisphere.",
+    "narration": "assets/fear/FEAR05JN.mp3"
+  }
+}

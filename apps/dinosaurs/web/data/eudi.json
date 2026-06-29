@@ -1,0 +1,150 @@
+{
+  "id": "eudi",
+  "code": "EUDI",
+  "name": "Eudimorphodon",
+  "category": "creature",
+  "scientificName": "Eudimorphodon",
+  "needsScientificVerify": false,
+  "pronunciation": "you-die-MOR-fuh-don",
+  "meaning": "True two-shaped teeth",
+  "period": "Triassic",
+  "diet": "Carnivore",
+  "tagline": "This airborne reptile used its diamond-shaped tail to guide its flight.",
+  "hero": {
+    "image": "assets/eudi/EUDI00AA.webp",
+    "alt": "Eudimorphodon"
+  },
+  "intro": "When flying, Eudimorphodon held its long tail out stiffly behind it. This helped to counterbalance the reptile's body in the air. The diamond-shaped flap on the end of the tail worked like a rudder, helping Eudimorphodon stay on course during flight. This pterosaur, or flying reptile, had a short neck and hind legs similar to those of dinosaurs.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Europe"
+    },
+    {
+      "label": "Time Period",
+      "value": "Triassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "True two-shaped teeth"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Pterosaur"
+    }
+  ],
+  "topics": [
+    {
+      "id": "rudders-in-flight",
+      "title": "Rudders in Flight",
+      "image": "assets/eudi/EUDI01PU.webp",
+      "text": "The rudder on the tail of a plane helps to keep the aircraft flying in a straight line, just like the diamond-shaped rudder on the tail of Eudimorphodon. When pilots want to turn, they turn the rudder by operating controls in the cockpit. Eudimorphodon used strong tail muscles to do the same thing."
+    },
+    {
+      "id": "long-tailed-flyers",
+      "title": "Long-Tailed Flyers",
+      "image": "assets/eudi/EUDI02PU.webp",
+      "text": "As you can see here, Eudimorphodon was not the only pterosaur with a long tail.\n\nNeither bird nor dinosaur\n\nThese flyers had light bones and wings like a bird, as well as teeth and claws like many dinosaurs. However, pterosaurs were neither birds nor dinosaurs, but a unique group of reptiles that flew the skies during the Age of Dinosaurs.",
+      "captions": [
+        {
+          "label": "Sordes",
+          "text": "This pterosaur seems to have had a thick, furry coat to keep it warm during flight."
+        },
+        {
+          "label": "Rhamphorhynchus",
+          "text": "Many fine fossils of this pterosaur have been found in Germany. Its name means \"narrow beak.\""
+        }
+      ]
+    },
+    {
+      "id": "fish-feeders",
+      "title": "Fish Feeders",
+      "image": "assets/eudi/EUDI03PU.webp",
+      "text": "Pterosaurs like Eudimorphodon and Pteranodon pictured here could soar through the sky and swoop down for fish. Some pterosaurs had jagged teeth in their beaks, which made it easier for them to hold on to their slippery prey.",
+      "captions": [
+        {
+          "label": "Famous fish",
+          "text": "One prehistoric fish, the coelacanth, was presumed to be extinct until 1938 when one was caught off the coast of South Africa. Coelacanths have since been found in deep water near the Comoro Islands."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Quetzalcoatlus",
+      "to": "quet"
+    },
+    {
+      "label": "Reptiles of the Air",
+      "to": "rair"
+    },
+    {
+      "label": "Rhamphorhynchus",
+      "to": "rham"
+    },
+    {
+      "label": "Coelacanth",
+      "to": "coth"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/eudi/EUDI00AA.webp",
+        "hotspots": [
+          {
+            "label": "Rudders in flight",
+            "to": "rudders-in-flight",
+            "x": 3,
+            "y": 70,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "Long-tailed flyers",
+            "to": "long-tailed-flyers",
+            "x": 3,
+            "y": 77,
+            "w": 17,
+            "h": 6
+          },
+          {
+            "label": "Fish feeders",
+            "to": "fish-feeders",
+            "x": 78,
+            "y": 34,
+            "w": 18,
+            "h": 6
+          }
+        ]
+      },
+      "rudders-in-flight": {
+        "image": "assets/eudi/EUDI01PU.webp",
+        "back": "main"
+      },
+      "long-tailed-flyers": {
+        "image": "assets/eudi/EUDI02PU.webp",
+        "back": "main"
+      },
+      "fish-feeders": {
+        "image": "assets/eudi/EUDI03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/eudi/EUDI50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/eudi/EUDI00AP.mp3",
+  "narration": "assets/eudi/EUDI00AJ.mp3"
+}

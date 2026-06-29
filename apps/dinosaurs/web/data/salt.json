@@ -1,0 +1,168 @@
+{
+  "id": "salt",
+  "code": "SALT",
+  "name": "Saltasaurus",
+  "category": "dinosaur",
+  "scientificName": "Saltasaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "sal-tah-SOR-us",
+  "meaning": "Salta lizard",
+  "period": "Late Cretaceous",
+  "diet": "Herbivore",
+  "tagline": "The only giant sauropod tough enough to wear armor.",
+  "hero": {
+    "image": "assets/salt/SALT00AA.webp",
+    "alt": "Saltasaurus"
+  },
+  "intro": "Saltasaurus was the first known sauropod dinosaur with any kind of armor. Saltasaurus was around forty feet long and was shaped like other giant sauropods, with a heavy body and long neck topped by a tiny head. The sauropods, as a family, had the smallest brain-to-body size ratio of all the dinosaurs. This may mean they weren't very bright.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "South America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Salta lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Sauropod"
+    },
+    {
+      "label": "Length",
+      "value": "12m (40ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "big-hearted-reptile",
+      "title": "Big-Hearted Reptile",
+      "image": "assets/salt/SALT01PU.webp",
+      "text": "A big dinosaur like Saltasaurus must have had a very strong heart to pump blood many feet up to its head. But what if its heart was the same design as today's reptiles, pumping the same blood to the head, body, and lungs? The power of the heart pumping blood up the neck would make the blood pressure so high that it would damage the delicate blood vessels in the lungs. But since hearts and other soft body parts seldom become fossils, we may never know the answer.",
+      "captions": [
+        {
+          "label": "A heart like a mammal?",
+          "text": "Perhaps its heart was more like a mammal's or bird's, divided into two parts, one for the lungs and the other for the head, body and legs. This could mean Saltasaurus was warm-blooded."
+        },
+        {
+          "label": "Active and warm-blooded?",
+          "text": "Many scientists believe quick, active dinosaurs, like Dromiceiomimus, must have been warm-blooded."
+        }
+      ]
+    },
+    {
+      "id": "well-armored",
+      "title": "Well Armored",
+      "image": "assets/salt/SALT02PU.webp",
+      "text": "Until Saltasaurus was discovered, only ankylosaurs like Minmi were thought to have armor. Although a sauropod dinosaur, Saltasaurus also had bony plates on its thick-skinned back.",
+      "captions": [
+        {
+          "label": "Down-under dinosaur",
+          "text": "Minmi is one of the few dinosaurs discovered in Australia. Like other armored ankylosaurs, Minmi would have been a tough meal for a hungry predator."
+        },
+        {
+          "label": "Plate view",
+          "text": "The armor was made of large, round plates of bone, and patches of tiny, bony lumps. Together, these plates probably provided protection against predators."
+        }
+      ]
+    },
+    {
+      "id": "tail-for-defense",
+      "title": "Tail for Defense",
+      "image": "assets/salt/SALT03PU.webp",
+      "text": "Tails were a very useful means of defense for many plant-eating dinosaurs. In fact, Saltasaurus had nothing other than its tail and its sheer size with which to defend itself.",
+      "captions": [
+        {
+          "label": "A multipurpose tail",
+          "text": "With their whip-like tails, sauropods such as Saltasaurus could inflict stinging blows on their attackers. They also may have used their tails to balance on their hind legs so they could reach the highest treetops."
+        },
+        {
+          "label": "Clubbed tail",
+          "text": "This is the tail of another plant-eater, an ankylosaur. This ankylosaur tail ended in a huge bony club. These tail clubs sometimes measured three feet across!"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Rhoetosaurus",
+      "to": "rhoe"
+    },
+    {
+      "label": "Dromiceiomimus",
+      "to": "drom"
+    },
+    {
+      "label": "Minmi",
+      "to": "minm"
+    },
+    {
+      "label": "Ankylosaurus",
+      "to": "ankl"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/salt/SALT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Well armored",
+            "to": "well-armored",
+            "x": 67,
+            "y": 20,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Big-hearted reptile",
+            "to": "big-hearted-reptile",
+            "x": 67,
+            "y": 36,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Tail for defense",
+            "to": "tail-for-defense",
+            "x": 3,
+            "y": 69,
+            "w": 20,
+            "h": 6
+          }
+        ]
+      },
+      "big-hearted-reptile": {
+        "image": "assets/salt/SALT01PU.webp",
+        "back": "main"
+      },
+      "well-armored": {
+        "image": "assets/salt/SALT02PU.webp",
+        "back": "main"
+      },
+      "tail-for-defense": {
+        "image": "assets/salt/SALT03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/salt/SALT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/salt/SALT00AP.mp3",
+  "narration": "assets/salt/SALT00AJ.mp3"
+}

@@ -1,0 +1,264 @@
+{
+  "id": "ddec",
+  "code": "DDEC",
+  "name": "Living Fossils",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "LIV-ing FOS-ilz",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Meet the animals that have barely changed since dinosaurs roamed the Earth — the ultimate survivors!",
+  "hero": {
+    "image": "assets/ddec/DDEC00AA.webp",
+    "alt": "Living Fossils"
+  },
+  "intro": "Some kinds of animals and plants did not survive on Earth for long. They either died out soon after they appeared, or they evolved into new forms. But a few kinds of animals have been around for millions of years, since the Age of Dinosaurs.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "tuatara-lizard",
+      "title": "Tuatara Lizard",
+      "image": "assets/ddec/DDEC01PU.webp",
+      "text": "The tuatara, which lives in New Zealand, shares many similarities with reptiles that lived alongside the dinosaur. No one knows why this little reptile has survived since all of its relatives became extinct millions of years ago. Distinctive openings in its skull cause scientists to classify it as one of the most primitive reptiles around today."
+    },
+    {
+      "id": "turtles",
+      "title": "Turtles",
+      "image": "assets/ddec/DDEC02PU.webp",
+      "text": "These water-dwellers swam in the seas at the same time that dinosaurs roamed the land. The basic design of modern turtles hasn't changed much since that of Archelon, a giant sea turtle that lived as long ago as the Late Triassic period."
+    },
+    {
+      "id": "hoatzin",
+      "title": "Hoatzin",
+      "image": "assets/ddec/DDEC03PU.webp",
+      "text": "The chicks of this South American bird are born with three claws on their wings. These claws are similar to those of a feathered reptile called Archaeopteryx, which lived during the Jurassic period, 145 million years ago."
+    },
+    {
+      "id": "coelacanth",
+      "title": "Coelacanth",
+      "image": "assets/ddec/DDEC04PU.webp",
+      "text": "This remarkable fish, unchanged for 350,000 years, has been caught in recent years off the coast of Africa.",
+      "captions": [
+        {
+          "label": "Fossil impression",
+          "text": "Fossils give us a small peek at the past. Here you can see that the coelacanth has changed little over thousands of centuries."
+        }
+      ]
+    },
+    {
+      "id": "elephants-and-rhinos",
+      "title": "Elephants and Rhinos",
+      "image": "assets/ddec/DDEC05PU.webp",
+      "text": "Both these creatures have been on Earth for around 40 million years. There were many species: some were gigantic, and some were as small as sheep or pigs. Today, only two species of elephants and five species of rhinos remain in isolated parts of the world.",
+      "captions": [
+        {
+          "label": "Headed for extinction?",
+          "text": "Both the rhinoceros and the elephant are considered endangered species today. It's up to humans to save these creatures from extinction."
+        }
+      ]
+    },
+    {
+      "id": "sharks",
+      "title": "Sharks",
+      "image": "assets/ddec/DDEC06PU.webp",
+      "text": "These sleek predators have been cruising the oceans since the Devonian period, long before dinosaurs. They are one of the most efficient and successful hunters ever to exist on Earth."
+    },
+    {
+      "id": "ginkgo-and-magnolia-trees",
+      "title": "Ginkgo and Magnolia Trees",
+      "image": "assets/ddec/DDEC07PU.webp",
+      "text": "A few prehistoric plants have survived through the centuries and can be found in our suburbs today.",
+      "captions": [
+        {
+          "label": "Ginkgoes",
+          "text": "The Ginkgoes or maidenhair trees were common and widespread 150 million years ago. Today the one remaining species, Ginkgo biloba, is strikingly similar to the first fossil forms. Ginkgoes grow naturally in China, but can be seen in gardens around the world."
+        },
+        {
+          "label": "Magnolias",
+          "text": "Magnolias were one of the earliest flowering trees, appearing almost 100 million years ago. We still enjoy their scent and flowers today."
+        }
+      ]
+    },
+    {
+      "id": "crocodile",
+      "title": "Crocodile",
+      "image": "assets/ddec/DDEC08PU.webp",
+      "text": "These reptiles have been on Earth since the Age of Dinosaurs. Although today's crocodiles are much smaller than the giant species that lived during the Cretaceous period, their basic form has changed very little over millions of years."
+    },
+    {
+      "id": "nautilus",
+      "title": "Nautilus",
+      "image": "assets/ddec/DDEC09PU.webp",
+      "text": "These sea creatures are relatives of those that existed in prehistoric times. Ammonites, cousins of this modern nautilus, flourished in many sizes and shapes more than 500 million years ago."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaur Descendants",
+      "to": "desc"
+    },
+    {
+      "label": "Tuatara",
+      "to": "tuat"
+    },
+    {
+      "label": "Archelon",
+      "to": "arcn"
+    },
+    {
+      "label": "Archaeopteryx",
+      "to": "arch"
+    },
+    {
+      "label": "Life After Dinosaurs",
+      "to": "aftr"
+    },
+    {
+      "label": "Coelacanth",
+      "to": "coth"
+    },
+    {
+      "label": "Reptiles of the Sea",
+      "to": "rsea"
+    },
+    {
+      "label": "The Cretaceous Period",
+      "to": "cret"
+    },
+    {
+      "label": "Deinosuchus",
+      "to": "dhus"
+    },
+    {
+      "label": "Ammonite",
+      "to": "ammo"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/ddec/DDEC00AA.webp",
+        "hotspots": [
+          {
+            "label": "Tuatara lizard",
+            "to": "tuatara-lizard",
+            "x": 10,
+            "y": 33,
+            "w": 18,
+            "h": 8
+          },
+          {
+            "label": "Crocodile",
+            "to": "crocodile",
+            "x": 2,
+            "y": 52,
+            "w": 12,
+            "h": 8
+          },
+          {
+            "label": "Elephants and rhinos",
+            "to": "elephants-and-rhinos",
+            "x": 17,
+            "y": 67,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "Nautilus",
+            "to": "nautilus",
+            "x": 2,
+            "y": 76,
+            "w": 12,
+            "h": 8
+          },
+          {
+            "label": "Turtles",
+            "to": "turtles",
+            "x": 38,
+            "y": 77,
+            "w": 10,
+            "h": 8
+          },
+          {
+            "label": "Ginkgo and magnolia trees",
+            "to": "ginkgo-and-magnolia-trees",
+            "x": 52,
+            "y": 40,
+            "w": 25,
+            "h": 8
+          },
+          {
+            "label": "Hoatzin",
+            "to": "hoatzin",
+            "x": 64,
+            "y": 52,
+            "w": 12,
+            "h": 8
+          },
+          {
+            "label": "Coelacanth",
+            "to": "coelacanth",
+            "x": 62,
+            "y": 73,
+            "w": 15,
+            "h": 8
+          },
+          {
+            "label": "Sharks",
+            "to": "sharks",
+            "x": 82,
+            "y": 33,
+            "w": 10,
+            "h": 8
+          }
+        ]
+      },
+      "tuatara-lizard": {
+        "image": "assets/ddec/DDEC01PU.webp",
+        "back": "main"
+      },
+      "turtles": {
+        "image": "assets/ddec/DDEC02PU.webp",
+        "back": "main"
+      },
+      "hoatzin": {
+        "image": "assets/ddec/DDEC03PU.webp",
+        "back": "main"
+      },
+      "coelacanth": {
+        "image": "assets/ddec/DDEC04PU.webp",
+        "back": "main"
+      },
+      "elephants-and-rhinos": {
+        "image": "assets/ddec/DDEC05PU.webp",
+        "back": "main"
+      },
+      "sharks": {
+        "image": "assets/ddec/DDEC06PU.webp",
+        "back": "main"
+      },
+      "ginkgo-and-magnolia-trees": {
+        "image": "assets/ddec/DDEC07PU.webp",
+        "back": "main"
+      },
+      "crocodile": {
+        "image": "assets/ddec/DDEC08PU.webp",
+        "back": "main"
+      },
+      "nautilus": {
+        "image": "assets/ddec/DDEC09PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/ddec/DDEC00AP.mp3",
+  "narration": "assets/ddec/DDEC00AJ.mp3",
+  "sound": "assets/ddec/DDEC00SA.mp3"
+}

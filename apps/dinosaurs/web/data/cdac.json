@@ -1,0 +1,104 @@
+{
+  "id": "cdac",
+  "code": "CDAC",
+  "name": "Cearadactylus",
+  "category": "creature",
+  "scientificName": "Cearadactylus",
+  "needsScientificVerify": false,
+  "pronunciation": "see-AR-ah-DAK-til-us",
+  "meaning": "Ceará-finger",
+  "period": "Early Cretaceous",
+  "diet": "Carnivore",
+  "tagline": "A jagged-toothed sky hunter that could outspan two bald eagles wing-tip to wing-tip.",
+  "hero": {
+    "image": "assets/cdac/CDAC00AA.webp",
+    "alt": "Cearadactylus"
+  },
+  "intro": "Cearadactylus had a wingspan of almost thirteen and a half feet—twice as big as a bald eagle!  Its compact body and well-balanced wings enabled it to dive through the air and snag unsuspecting fish in its toothy beak.  The long, pointed beak of Cearadactylus was packed with curved, jagged teeth, which prevented its jaws from closing completely.  Perhaps this allowed the pterosaur to securely hold its prey while letting water and silt strain out.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "South America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Ceará-finger"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Pterosaur"
+    },
+    {
+      "label": "Length",
+      "value": "4.1m (13.5 ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "shrinking-wingspans",
+      "title": "Shrinking Wingspans",
+      "image": "assets/cdac/CDAC01PU.webp",
+      "text": "Most modern flying creatures are relatively small. The largest known flyer today is the albatross, with a wingspan of up to eleven feet, six inches.",
+      "captions": [
+        {
+          "label": "Modern albatross",
+          "text": "Modern albatross"
+        },
+        {
+          "label": "Ancient giants",
+          "text": "In prehistoric times, many pterosaurs with giant wingspreads soared through the skies.  Quetzalcoatlus, for example, had a wingspan as large as a small plane!"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dimorphodon",
+      "to": "dimo"
+    },
+    {
+      "label": "Quetzalcoatlus",
+      "to": "quet"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/cdac/CDAC00AA.webp",
+        "hotspots": [
+          {
+            "label": "Shrinking wingspans",
+            "to": "shrinking-wingspans",
+            "x": 49,
+            "y": 84,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "shrinking-wingspans": {
+        "image": "assets/cdac/CDAC01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/cdac/CDAC50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/cdac/CDAC00AP.mp3",
+  "narration": "assets/cdac/CDAC00AJ.mp3"
+}

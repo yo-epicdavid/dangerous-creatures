@@ -1,0 +1,191 @@
+{
+  "id": "myst",
+  "code": "MYST",
+  "name": "Mysterious Relationships",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Tiny cleaner fish dare to floss a moray eel's teeth — and live to tell the tale!",
+  "zones": [
+    "Coral reef",
+    "Open ocean"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/myst/MYST00AA.webp",
+    "alt": "Mysterious Relationships"
+  },
+  "intro": "Different species of animals and plants often depend heavily on one another for survival. We call this symbiosis. Some symbiotic relationships benefit all parties; in others, one party takes advantage of the other. Here a tiny cleaner wrasse eats parasites from the skin of a coral trout. This arrangement is a good deal for both parties: big fish get rid of annoying pests, and the cleaners get a continuous supply of food delivered right to their homes. This type of symbiosis is known as mutualism.",
+  "facts": [
+    {
+      "label": "Symbiosis",
+      "value": "When different species depend heavily on one another for survival, scientists call it symbiosis."
+    },
+    {
+      "label": "Mutualism",
+      "value": "When both animals benefit — like cleaner wrasses eating parasites off coral trout — it's called mutualism."
+    },
+    {
+      "label": "Commensalism",
+      "value": "When only one party benefits but the other isn't harmed — like a tiny shrimp hiding in a sea urchin's spines — it's called commensalism."
+    },
+    {
+      "label": "Parasitism",
+      "value": "Lamprey eels latch onto fish with suction-cup mouths, scrape a hole in their skin, and suck out body fluids until the victim is dead — a ghastly parasitic relationship."
+    },
+    {
+      "label": "Free ride",
+      "value": "Remoras hitch free rides on sharks and manta rays to save energy, and also feed on scraps from their companion's meals."
+    },
+    {
+      "label": "Cleaning stations",
+      "value": "Tiny fish and shrimp set up \"cleaning stations\" where even ferocious moray eels come regularly to have parasites removed from their skin, gills, and mouths."
+    }
+  ],
+  "topics": [
+    {
+      "id": "along-for-the-ride",
+      "title": "Along for the ride",
+      "image": "assets/myst/MYST01PU.webp",
+      "text": "By human standards, remoras are lazy fish. Although they're able to swim perfectly well on their own, they often hitch a free ride by clinging to larger animals like sharks and manta rays. This way remoras not only save energy, but they're also able to feed on scraps from their companion's meals.",
+      "captions": [
+        {
+          "label": "Suction-cup heads",
+          "text": "Remoras attach the suction cups on the tops of their heads to the smooth skin of sharks and rays. This doesn't hurt the larger fish at all, although it probably slows down their swimming somewhat."
+        }
+      ],
+      "narration": "assets/myst/MYST01JN.mp3"
+    },
+    {
+      "id": "natural-barricade",
+      "title": "Natural barricade",
+      "image": "assets/myst/MYST02PU.webp",
+      "text": "If you're a teeny-tiny shrimp that many creatures want to eat, what better place to rest than among the spines of a sea urchin? Few predators would risk a face full of spines to come after you. This is definitely a good arrangement for the shrimp, and it doesn't hurt the urchin. This type of relationship, in which only one party benefits but doesn't harm the other, is called commensalism.",
+      "narration": "assets/myst/MYST02JN.mp3"
+    },
+    {
+      "id": "squatters-rights",
+      "title": "Squatter's rights",
+      "image": "assets/myst/MYST04PU.webp",
+      "text": "Soft-bodied animals need to rest in protected places. Any place that's big enough will do, including debris such as jars and cans, reef crevices and caves, and structures created by other animals.",
+      "captions": [
+        {
+          "label": "Mobile home",
+          "text": "Unlike most crabs, hermit crabs have soft bodies. They squeeze their tails into shells, cans, and even hollow bits of coral, carrying their borrowed homes on their backs as they prowl the ocean floor. When they outgrow one shell, they discard it and look for another."
+        },
+        {
+          "label": "Snail-nest home",
+          "text": "This tiny octopus is peeking out of an egg mass laid by a moon snail. The female snail has glued eggs and sand together with mucus. The structure, which looks like a partially buried pottery jar, hardens to the consistency of leather in the seawater."
+        }
+      ],
+      "narration": "assets/myst/MYST04JN.mp3"
+    },
+    {
+      "id": "just-one-bite",
+      "title": "Just one bite...",
+      "image": "assets/myst/MYST05PU.webp",
+      "text": "Lamprey eels are the vampires of the oceans. They latch onto fish with their suction-cup mouths, then scrape a hole in the fish's skin with their teeth and rasping tongue. Once attached, they suck out their victim's body fluids and don't let go until the victim is dead. This is a ghastly example of a parasitic relationship, in which some creatures—called parasites—live at the expense of others.",
+      "narration": "assets/myst/MYST05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Pretenders",
+      "to": "pret"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/myst/MYST00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 3,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Natural barricade",
+            "to": "natural-barricade",
+            "x": 52,
+            "y": 12,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Just one bite...",
+            "to": "just-one-bite",
+            "x": 71,
+            "y": 29,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Squatter's rights",
+            "to": "squatters-rights",
+            "x": 61,
+            "y": 53,
+            "w": 19,
+            "h": 7
+          },
+          {
+            "label": "Along for the ride",
+            "to": "along-for-the-ride",
+            "x": 54,
+            "y": 77,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Open for business",
+            "to": "video",
+            "x": 5,
+            "y": 77,
+            "w": 22,
+            "h": 6
+          }
+        ]
+      },
+      "along-for-the-ride": {
+        "image": "assets/myst/MYST01PU.webp",
+        "back": "main"
+      },
+      "natural-barricade": {
+        "image": "assets/myst/MYST02PU.webp",
+        "back": "main"
+      },
+      "squatters-rights": {
+        "image": "assets/myst/MYST04PU.webp",
+        "back": "main"
+      },
+      "just-one-bite": {
+        "image": "assets/myst/MYST05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/myst/clip.mp4",
+        "poster": "assets/myst/MYST03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/myst/MYST00JN.mp3",
+  "sound": "assets/myst/MYST00IX.mp3",
+  "video": {
+    "title": "Open for business",
+    "src": "assets/myst/clip.mp4",
+    "poster": "assets/myst/poster.webp",
+    "caption": "Some tiny fish and shrimp specialize in the cleaning business. They establish \"cleaning stations\" in their communities and sometimes do elaborate dances to advertise. Big fish and even snaggle-toothed moray eels come to these locations regularly to have parasites and even debris removed from their skin, and even from their gills and mouths. Even the most ferocious-looking predators realize the value of this service and somehow curb the urge to swallow the cleaning crew.",
+    "narration": "assets/myst/MYST03JN.mp3"
+  }
+}

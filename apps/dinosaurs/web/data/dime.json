@@ -1,0 +1,126 @@
+{
+  "id": "dime",
+  "code": "DIME",
+  "name": "Dimetrodon",
+  "category": "creature",
+  "scientificName": "Dimetrodon",
+  "needsScientificVerify": false,
+  "pronunciation": "die-MET-roh-don",
+  "meaning": "Two measure teeth",
+  "period": "Permian",
+  "diet": "Carnivore",
+  "tagline": "The sail-backed predator that ruled long before the first dinosaur ever walked the Earth.",
+  "hero": {
+    "image": "assets/dime/DIME00AA.webp",
+    "alt": "Dimetrodon"
+  },
+  "intro": "Dimetrodon was an early reptile that lived long before the dinosaurs. It was a carnivore with sharp teeth and a heavy skull. Like some plated dinosaurs, Dimetrodon probably used the large sail on its back to control the temperature of its cold-blooded body.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Permian"
+    },
+    {
+      "label": "Name Means",
+      "value": "Two measure teeth"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Reptile (synapsid)"
+    },
+    {
+      "label": "Length",
+      "value": "3m (10ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "440 lbs"
+    }
+  ],
+  "topics": [
+    {
+      "id": "reptile-radiator",
+      "title": "Reptile Radiator",
+      "image": "assets/dime/DIME01PU.webp",
+      "text": "Dimetrodon, like all reptiles, did not have a constant body temperature. Its body no doubt cooled off overnight. In the morning, Dimetrodon could stand sideways to the sun, absorbing heat through its sail, which enabled it to quickly become active. If the reptile got too hot, it could stand in the shade and radiate heat out through its sail to cool off its body. The ability to adjust its body temperature may have given it an advantage over its prey, which could not adapt so quickly.",
+      "captions": [
+        {
+          "label": "Sailed kin",
+          "text": "Many dinosaurs had similar \"radiators,\" but those dinosaurs might not have been cold-blooded. Spinosaurus had a sail that measured as much as eight feet in height."
+        }
+      ]
+    },
+    {
+      "id": "inside-dimetrodon",
+      "title": "Inside Dimetrodon",
+      "image": "assets/dime/DIME02PU.webp",
+      "text": "Many fossils of Dimetrodon have been found in rocks of the early Permian period in North America. Its skull was quite large compared to its body, and its jaws contained both the canine and shearing teeth like those of a predator. The name Dimetrodon means \"two kinds of teeth.\""
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Warm-blooded or Cold-blooded?",
+      "to": "warm"
+    },
+    {
+      "label": "Spinosaurus",
+      "to": "spin"
+    },
+    {
+      "label": "Reconstructing Dinosaurs",
+      "to": "reco"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/dime/DIME00AA.webp",
+        "hotspots": [
+          {
+            "label": "Reptile radiator",
+            "to": "reptile-radiator",
+            "x": 22,
+            "y": 42,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Inside Dimetrodon",
+            "to": "inside-dimetrodon",
+            "x": 12,
+            "y": 60,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "reptile-radiator": {
+        "image": "assets/dime/DIME01PU.webp",
+        "back": "main"
+      },
+      "inside-dimetrodon": {
+        "image": "assets/dime/DIME02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/dime/DIME50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/dime/DIME00AP.mp3",
+  "narration": "assets/dime/DIME00AJ.mp3"
+}

@@ -1,0 +1,9 @@
+---
+const { brandHref = '/' } = Astro.props;
+---
+<header class="topbar">
+  <a class="brand" href={brandHref}><b>Microsoft</b> Dinosaurs</a>
+  <slot name="center" />
+  <div class="spacer"></div>
+  <slot name="right" />
+</header>

@@ -1,0 +1,187 @@
+{
+  "id": "slug",
+  "code": "SLUG",
+  "name": "Sea Slugs",
+  "category": "creature",
+  "scientificName": "Hermissenda crassicornis",
+  "needsScientificVerify": false,
+  "tagline": "Forget what you know about slugs — these ocean gems are some of the most dazzling creatures alive!",
+  "zones": [
+    "Coast & tide pools",
+    "Coral reef",
+    "Kelp & seagrass",
+    "Open ocean"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/slug/SLUG00AA.webp",
+    "alt": "Sea Slugs"
+  },
+  "intro": "Mention slugs to most people, and they'll probably respond with a \"Yuck!\" But sea slugs are very different from the dull-colored, slimy garden pests that we know as land slugs. Sea slugs—also called nudibranchs or sea hares—are only a few inches long, and come in a wide variety of brilliant colors, with contrasting ruffles, ridges, and bumps. Once you've met these spectacular creatures, you'll never think about slugs in the same way again.",
+  "facts": [
+    {
+      "label": "Size",
+      "value": "Only a few inches long"
+    },
+    {
+      "label": "Group",
+      "value": "Sea slugs belong to a group of mollusks called gastropods, which have soft bodies, one pair of eyes, and at least one pair of antennae"
+    },
+    {
+      "label": "Diet",
+      "value": "Most crawl on the ocean bottom eating sea squirts and other sedentary animals; some graze on algae; one type hunts jellyfish at the ocean's surface"
+    },
+    {
+      "label": "Defense",
+      "value": "Their slimy coating of mucus smells bad to humans and probably tastes just as bad to marine predators"
+    },
+    {
+      "label": "Super power",
+      "value": "The glaucus sea slug absorbs jellyfish stinging cells and uses them to defend itself against predators"
+    },
+    {
+      "label": "Reproduction",
+      "value": "Sea slugs are hermaphroditic — each animal carries both eggs and sperm in its body"
+    }
+  ],
+  "topics": [
+    {
+      "id": "call-me-a-gastropod",
+      "title": "Call me a gastropod",
+      "image": "assets/slug/SLUG01PU.webp",
+      "text": "Sea slugs belong to a group of mollusks called gastropods. Gastropods, which are found on land and in both fresh water and salt water, have soft bodies, one pair of eyes, and at least one pair of antennae. They may have a single coiled shell, or no shell at all. This snail and this cowrie are gastropods that live in the ocean.",
+      "captions": [
+        {
+          "label": "Tiny bubbles",
+          "text": "The Janthina snail creates a raft of bubbles so that it can float and feed on surface creatures like this Portuguese man-of-war."
+        },
+        {
+          "label": "Collector's item",
+          "text": "The mantle of this Red Sea cowrie covers a beautiful shell that is sought after by collectors."
+        }
+      ],
+      "narration": "assets/slug/SLUG01JN.mp3"
+    },
+    {
+      "id": "jellyfish-eater",
+      "title": "Jellyfish eater",
+      "image": "assets/slug/SLUG02PU.webp",
+      "text": "Most sea slugs crawl on the ocean bottom, eating sea squirts and other sedentary animals. But the glaucus sea slug has developed special techniques that allow it to hunt at the ocean's surface. This creature has several bladders that it fills with air to keep it afloat while preying on jellyfish. Although the stinging cells of jellyfish would kill many animals, they don't seem to hurt this nudibranch at all. In fact, the glaucus sea slug absorbs the stinging cells and uses them to defend itself against predators.",
+      "narration": "assets/slug/SLUG02JN.mp3"
+    },
+    {
+      "id": "algae-eaters",
+      "title": "Algae eaters",
+      "image": "assets/slug/SLUG03PU.webp",
+      "text": "Some sea slugs specialize in eating other animals, like sponges or sea fans, but this one is strictly vegetarian: it grazes on algae like an undersea rabbit. This diet, plus the long earlike projections on its head, inspired its common name, \"sea hare.\" Sea hares rarely have the contrasting colors and patterns of other sea slugs; instead, their colors match the algae they eat.",
+      "narration": "assets/slug/SLUG03JN.mp3"
+    },
+    {
+      "id": "beautiful-slime",
+      "title": "Beautiful slime",
+      "image": "assets/slug/SLUG04PU.webp",
+      "text": "With no protective shell and no venom to deter attackers, how can nudibranchs get away with wearing such bright colors? Their secret seems to lie in their slimy coating of mucus: this smells bad to humans and probably tastes just as bad to marine predators. Nudibranchs don't worry much about being eaten. Only other nudibranchs and some marine worms are dangers to them.",
+      "narration": "assets/slug/SLUG04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Pacific Ocean",
+      "to": "paci"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/slug/SLUG00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Call me a gastropod",
+            "to": "call-me-a-gastropod",
+            "x": 62,
+            "y": 28,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Sea slug life",
+            "to": "video",
+            "x": 27,
+            "y": 57,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Jellyfish eater",
+            "to": "jellyfish-eater",
+            "x": 67,
+            "y": 61,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Beautiful slime",
+            "to": "beautiful-slime",
+            "x": 20,
+            "y": 73,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Algae eaters",
+            "to": "algae-eaters",
+            "x": 44,
+            "y": 76,
+            "w": 15,
+            "h": 5
+          }
+        ]
+      },
+      "call-me-a-gastropod": {
+        "image": "assets/slug/SLUG01PU.webp",
+        "back": "main"
+      },
+      "jellyfish-eater": {
+        "image": "assets/slug/SLUG02PU.webp",
+        "back": "main"
+      },
+      "algae-eaters": {
+        "image": "assets/slug/SLUG03PU.webp",
+        "back": "main"
+      },
+      "beautiful-slime": {
+        "image": "assets/slug/SLUG04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/slug/clip.mp4",
+        "poster": "assets/slug/SLUG05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/slug/SLUG00JN.mp3",
+  "sound": "assets/slug/SLUG00IX.mp3",
+  "video": {
+    "title": "Sea slug life",
+    "src": "assets/slug/clip.mp4",
+    "poster": "assets/slug/poster.webp",
+    "caption": "A look at the daily life of sea slugs — grazing on algae, swimming to munch sponges, hunting jellyfish, and reproducing as hermaphrodites that can fertilize their own eggs.",
+    "narration": "assets/slug/SLUG05JN.mp3"
+  }
+}

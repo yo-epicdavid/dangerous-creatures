@@ -1,0 +1,330 @@
+{
+  "id": "steg",
+  "code": "STEG",
+  "name": "Stegosaurus",
+  "category": "dinosaur",
+  "scientificName": "Stegosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "STEG-oh-SOR-us",
+  "meaning": "Roofed lizard",
+  "period": "Late Jurassic",
+  "diet": "Herbivore",
+  "tagline": "The spiky-backed giant with a brain the size of a walnut!",
+  "hero": {
+    "image": "assets/steg/STEG00AA.webp",
+    "alt": "Stegosaurus"
+  },
+  "intro": "When fossils of Stegosaurus were first found, experts thought that its large bony plates lay flat on its back, like tiles on a roof.  This is why its name means \"roofed lizard.\"  Then someone suggested that the plates stood on edge in two rows, side by side.  Now more evidence shows that there may have been only one row of plates.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Roofed lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Stegosaur"
+    },
+    {
+      "label": "Length",
+      "value": "9m (30ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "2 tons"
+    }
+  ],
+  "topics": [
+    {
+      "id": "purpose-of-the-plates",
+      "title": "Purpose of the Plates",
+      "image": "assets/steg/STEG01PU.webp",
+      "text": "Why did Stegosaurus have such odd plates along its back?  They were not sharply pointed for defense.  They were not even fixed to the skeleton, but simply stuck in the skin.  Scientists now believe that the back plates helped Stegosaurus to regulate its body temperature.  The plates were honeycombed with holes, perhaps for blood vessels.  When facing the sun, the plates would absorb heat, like solar panels, and warm the blood.  When facing the breeze or in shade, the plates would help cool the dinosaur."
+    },
+    {
+      "id": "the-bones-beneath-the-plates",
+      "title": "The Bones Beneath the Plates",
+      "image": "assets/steg/STEG02PU.webp",
+      "text": "Here's what a stegosaur looked like without its flesh and skin.  The bony plates on its back were not attached to its skeleton, but just embedded in the dinosaur's thick skin."
+    },
+    {
+      "id": "rebuilding-a-dinosaur",
+      "title": "Rebuilding a Dinosaur",
+      "image": "assets/steg/STEG03PU.webp",
+      "text": "Imagine rebuilding a dinosaur from scratch.  It would be like doing a giant jigsaw puzzle, with some pieces missing and others broken.  Here, a team of workers appears miniature as they fit bones together to rebuild a Stegosaurus skeleton.",
+      "captions": [
+        {
+          "label": "Supporting the skeleton",
+          "text": "The fossil bones are solid rock and very heavy, so the workers use plastic or metal rods to hold them in position.  Scaffolds and wires from the ceiling brace and support the highest parts of the skeleton."
+        }
+      ]
+    },
+    {
+      "id": "lethal-weapon",
+      "title": "Lethal Weapon",
+      "image": "assets/steg/STEG04PU.webp",
+      "text": "Many plant-eating dinosaurs relied on their tails for defense.  This is what the tail spikes of Stegosaurus would have looked like.  The tail was so muscle-bound and powerful that it was not very flexible, except for the fast-moving tip where the spikes where attached.",
+      "captions": [
+        {
+          "label": "Club tail",
+          "text": "Many ankylosaurs had bony clubs at the end of their tails.  Measuring up to three feet across, these clubs could surely deal a painful blow."
+        },
+        {
+          "label": "Fossil spike",
+          "text": "This Stegosaurus tail spike would have been covered by a tough layer of horn when the dinosaur was alive, and was sharply pointed at the end.  Swung against the soft underbelly of a meat-eater, it would have inflicted a terrible, crippling wound.  The tail spikes grew up to three feet long."
+        }
+      ]
+    },
+    {
+      "id": "early-error",
+      "title": "Early Error",
+      "image": "assets/steg/STEG05PU.webp",
+      "text": "This etching shows an early attempt to reconstruct a plated dinosaur—with porcupine-like quills instead of bony plates!  It's unlikely that stegosaurs could have walked on two legs—their front feet were not made to do anything except walk.",
+      "captions": [
+        {
+          "label": "Sauropod swimmers?",
+          "text": "The history of dinosaur discovery is littered with misconceptions.  Once sauropods like this one were believed to be water dwellers.  While sauropods were probably excellent swimmers, they lived primarily on land."
+        }
+      ]
+    },
+    {
+      "id": "the-largest-plated-dinosaur",
+      "title": "The Largest Plated Dinosaur",
+      "image": "assets/steg/STEG06PU.webp",
+      "text": "Stegosaurus, twenty-five feet long and weighing as much as two tons, is the largest and most well known of all the plated dinosaurs.  Its bony back plates grew up to two and a half feet tall.",
+      "captions": [
+        {
+          "label": "Smaller stegosaur",
+          "text": "Kentrosaurus was tiny compared to Stegosaurus, and its plates were spikier than many other stegosaurs."
+        }
+      ]
+    },
+    {
+      "id": "large-body-tiny-brain",
+      "title": "Large Body, Tiny Brain",
+      "image": "assets/steg/STEG07PU.webp",
+      "text": "Stegosaurus's brain was less than two inches long, only the size of a walnut or an egg, so the dinosaur was probably none too clever.  However, Stegosaurus survived for millions of years, so it was apparently smart enough for the times in which it lived.",
+      "captions": [
+        {
+          "label": "A weak beak",
+          "text": "Stegosaurus had leaf-shaped teeth at the back of its mouth, but only a toothless \"beak\" at the front.  It also had weak jaw muscles, so it could probably chomp only soft plants for food."
+        }
+      ]
+    },
+    {
+      "id": "feeding-on-ferns",
+      "title": "Feeding on Ferns",
+      "image": "assets/steg/STEG08PU.webp",
+      "text": "Walking on all fours, Stegosaurus used its beak to feed on low-growing vegetation like ferns.  With its distinctive back plates, Stegosaurus must have been easily recognized by other dinosaurs out on the flood plain.",
+      "captions": [
+        {
+          "label": "Common frond",
+          "text": "Ferns like this one were common throughout the Age of Dinosaurs."
+        }
+      ]
+    },
+    {
+      "id": "straight-or-bent",
+      "title": "Straight or Bent?",
+      "image": "assets/steg/STEG09PU.webp",
+      "text": "Stegosaurus's front legs were shorter than its back legs, causing its backbone to slant down toward the front, bringing its head near the ground for grazing.  But were the legs straight or bent?  Experts are not sure."
+    },
+    {
+      "id": "feet-like-an-elephant",
+      "title": "Feet Like an Elephant",
+      "image": "assets/steg/STEG10PU.webp",
+      "text": "Stegosaurus had strong back legs, which were nearly twice as long as its front legs.  Its flat feet had three big toes and one tiny one, designed for carrying weight, not for speed.",
+      "captions": [
+        {
+          "label": "Modern Bigfoot",
+          "text": "Like Stegosaurus, this African elephant has broad, thickly padded feet."
+        }
+      ]
+    },
+    {
+      "id": "solar-powered-animals",
+      "title": "Solar-Powered Animals",
+      "image": "assets/steg/STEG11PU.webp",
+      "text": "Creatures other than stegosaurs have been known to use plates and sails to soak up the rays of the sun.",
+      "captions": [
+        {
+          "label": "Sailed sister",
+          "text": "Spinosaurus had a sail that measured up to eight feet in height.  It lived about 100 million years ago."
+        },
+        {
+          "label": "Dimetrodon",
+          "text": "A prehistoric reptile called Dimetrodon lived before the dinosaurs.  It probably used the large sail on its back to absorb the heat of the sun on cool days, warming its body."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Reconstructing Dinosaurs",
+      "to": "reco"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/steg/STEG00AA.webp",
+        "hotspots": [
+          {
+            "label": "The largest plated dinosaur",
+            "to": "the-largest-plated-dinosaur",
+            "x": 55,
+            "y": 17,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Purpose of the plates",
+            "to": "purpose-of-the-plates",
+            "x": 57,
+            "y": 24,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Solar-powered animals",
+            "to": "solar-powered-animals",
+            "x": 56,
+            "y": 31,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "The bones\nbeneath the plates",
+            "to": "the-bones-beneath-the-plates",
+            "x": 58,
+            "y": 40,
+            "w": 28,
+            "h": 8
+          },
+          {
+            "label": "Early error",
+            "to": "early-error",
+            "x": 66,
+            "y": 51,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Lethal weapon",
+            "to": "lethal-weapon",
+            "x": 65,
+            "y": 59,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Rebuilding a dinosaur",
+            "to": "rebuilding-a-dinosaur",
+            "x": 2,
+            "y": 38,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Large body, tiny brain",
+            "to": "large-body-tiny-brain",
+            "x": 2,
+            "y": 46,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Straight or bent?",
+            "to": "straight-or-bent",
+            "x": 2,
+            "y": 54,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Feet like an elephant",
+            "to": "feet-like-an-elephant",
+            "x": 2,
+            "y": 61,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Feeding on ferns",
+            "to": "feeding-on-ferns",
+            "x": 35,
+            "y": 70,
+            "w": 21,
+            "h": 5
+          }
+        ]
+      },
+      "purpose-of-the-plates": {
+        "image": "assets/steg/STEG01PU.webp",
+        "back": "main"
+      },
+      "the-bones-beneath-the-plates": {
+        "image": "assets/steg/STEG02PU.webp",
+        "back": "main"
+      },
+      "rebuilding-a-dinosaur": {
+        "image": "assets/steg/STEG03PU.webp",
+        "back": "main"
+      },
+      "lethal-weapon": {
+        "image": "assets/steg/STEG04PU.webp",
+        "back": "main"
+      },
+      "early-error": {
+        "image": "assets/steg/STEG05PU.webp",
+        "back": "main"
+      },
+      "the-largest-plated-dinosaur": {
+        "image": "assets/steg/STEG06PU.webp",
+        "back": "main"
+      },
+      "large-body-tiny-brain": {
+        "image": "assets/steg/STEG07PU.webp",
+        "back": "main"
+      },
+      "feeding-on-ferns": {
+        "image": "assets/steg/STEG08PU.webp",
+        "back": "main"
+      },
+      "straight-or-bent": {
+        "image": "assets/steg/STEG09PU.webp",
+        "back": "main"
+      },
+      "feet-like-an-elephant": {
+        "image": "assets/steg/STEG10PU.webp",
+        "back": "main"
+      },
+      "solar-powered-animals": {
+        "image": "assets/steg/STEG11PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/steg/STEG50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/steg/STEG00AP.mp3",
+  "narration": "assets/steg/STEG00AJ.mp3"
+}

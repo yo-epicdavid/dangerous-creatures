@@ -1,0 +1,122 @@
+{
+  "id": "igna",
+  "code": "IGNA",
+  "name": "Iguana",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "ih-GWAH-nuh",
+  "meaning": "Unknown",
+  "period": "Present",
+  "diet": "",
+  "tagline": "Today's iguana is the living clue that cracked the dinosaur mystery!",
+  "hero": {
+    "image": "assets/igna/IGNA00AA.webp",
+    "alt": "Iguana"
+  },
+  "intro": "Although dinosaurs died out long ago, many of their relatives are still with us in the form of lizards. The iguana, for example, looks like it has much in common with ancient dinosaurs, including scaly skin, claws on its feet, and spines down its back. In fact, when the first dinosaur fossils were unearthed in 1820, their discoverer, Gideon Mantell, thought he'd found the remains of a giant iguana.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "S.America, N.America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Present"
+    },
+    {
+      "label": "Name Means",
+      "value": "Unknown"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Modern lizard"
+    },
+    {
+      "label": "Length",
+      "value": "1.2m (4ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "dinosaur-differences",
+      "title": "Dinosaur Differences",
+      "image": "assets/igna/IGNA01PU.webp",
+      "text": "The legs of an iguana, like all lizards, are splayed out to the side. The legs of dinosaurs were positioned under their bodies to support their great weight. This made dinosaurs more agile than their lizard cousins.\n\nThe iguana, like many dinosaurs, has scaly skin and spines along its back. While we can see that the iguana skin is green, nobody knows for sure what color dinosaurs were. We have fossil impressions of the skin texture, but no dinosaur skin has ever been preserved."
+    },
+    {
+      "id": "a-giant-discovery",
+      "title": "A Giant Discovery",
+      "image": "assets/igna/IGNA02PU.webp",
+      "text": "Gideon Mantell pictured his find like this, a giant lizard much like an iguana. His drawing shows the reptile perched on a tree branch, much like its smaller namesake. He named the dinosaur that he'd discovered \"Iguanodon,\" meaning \"iguana tooth.\"",
+      "captions": [
+        {
+          "label": "Claws in common",
+          "text": "Like dinosaurs, the iguana has claws on its toes. The iguana's claws are used not to clutch prey, but to help it climb trees and bushes."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What is a Dinosaur?",
+      "to": "what"
+    },
+    {
+      "label": "Tuatara",
+      "to": "tuat"
+    },
+    {
+      "label": "Iguanodon",
+      "to": "igua"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/igna/IGNA00AA.webp",
+        "hotspots": [
+          {
+            "label": "A giant discovery",
+            "to": "a-giant-discovery",
+            "x": 26,
+            "y": 54,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Dinosaur differences",
+            "to": "dinosaur-differences",
+            "x": 35,
+            "y": 64,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "dinosaur-differences": {
+        "image": "assets/igna/IGNA01PU.webp",
+        "back": "main"
+      },
+      "a-giant-discovery": {
+        "image": "assets/igna/IGNA02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/igna/IGNA50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/igna/IGNA00AP.mp3",
+  "narration": "assets/igna/IGNA00AJ.mp3"
+}

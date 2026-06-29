@@ -1,0 +1,171 @@
+{
+  "id": "infl",
+  "code": "INFL",
+  "name": "Inflatable Fish",
+  "category": "creature",
+  "scientificName": "Diodon hystrix",
+  "needsScientificVerify": false,
+  "tagline": "Puff up like a beach ball and let your spines do the talking!",
+  "zones": [
+    "Coral reef",
+    "Open ocean"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/infl/INFL00AA.webp",
+    "alt": "Inflatable Fish"
+  },
+  "intro": "Imagine defending yourself against your enemies by swallowing water and blowing yourself up like a beach ball! Some pufferfish can swell up to four times their normal size by swallowing water and filling an expandable sac in their bellies. Some, like this porcupine fish, are covered with spikes that make them even less appetizing to predators. There are about 90 species of puffer \"balloons\" in warm waters throughout the world.",
+  "facts": [
+    {
+      "label": "Inflation",
+      "value": "Some pufferfish can swell up to four times their normal size by filling an expandable sac in their bellies."
+    },
+    {
+      "label": "Species",
+      "value": "There are about 90 species of puffer \"balloons\" in warm waters throughout the world."
+    },
+    {
+      "label": "Venom",
+      "value": "The pufferfish's venom is 500 times more toxic than cyanide."
+    },
+    {
+      "label": "Defense",
+      "value": "When inflated and spiky, a pufferfish is so round that attackers simply can't swallow it."
+    },
+    {
+      "label": "Did you know",
+      "value": "Victims of puffer poisoning sometimes remain conscious even though their paralysis makes them appear to be dead."
+    }
+  ],
+  "topics": [
+    {
+      "id": "puffy-and-poisonous",
+      "title": "Puffy and poisonous",
+      "image": "assets/infl/INFL01PU.webp",
+      "text": "Some types of pufferfish are extremely dangerous to eat, yet their flesh is considered a delicacy in some countries. The fish's venom is 500 times more toxic than cyanide, and any part of the fish that has come into contact with the venom-producing organs also becomes toxic. In Japan, fugu, a pufferfish specialty, is prepared by chefs who have obtained a license from a special school. Nonetheless, many people are poisoned every year! Victims of puffer poisoning sometimes remain conscious even though their paralysis makes them appear to be dead. One man is reported to have been nailed into his coffin before suddenly regaining his strength and yelling to get out!",
+      "narration": "assets/infl/INFL01JN.mp3"
+    },
+    {
+      "id": "bigger-bullies",
+      "title": "Bigger bullies",
+      "image": "assets/infl/INFL02PU.webp",
+      "text": "For some animals, trying to look bigger is a defense mechanism. An ordinary alley cat and a frilled lizard can both fool an attacker into thinking they're much larger than they really are!",
+      "captions": [
+        {
+          "label": "Fearsome fluff!",
+          "text": "When it's alarmed, this cat can \"change its size\" by arching its back and making its fur stand on end."
+        },
+        {
+          "label": "Watch out for frills!",
+          "text": "Under tranquil conditions this lizard doesn't look intimidating. But when it's threatened, it hisses, lashes its tail, and raises its leathery neck frill to frighten predators."
+        }
+      ],
+      "narration": "assets/infl/INFL02JN.mp3"
+    },
+    {
+      "id": "spiny-defenses",
+      "title": "Spiny defenses",
+      "image": "assets/infl/INFL03PU.webp",
+      "text": "Using spines as defenses is not a new idea. Many creatures have been depending on them since the Age of Dinosaurs.",
+      "captions": [
+        {
+          "label": "Dinosaur defense",
+          "text": "The plates and spines on Styracosaurus protected it as it grazed among ferns and low-lying shrubs."
+        },
+        {
+          "label": "Super spiny",
+          "text": "A sea urchin's spines are no joke. They're sharp enough to pierce flesh, and stepping on one can be like treading on a burning coal, because the spines of some urchins are armed with a powerful venom."
+        }
+      ],
+      "narration": "assets/infl/INFL03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Sea Urchins & Sea Cucumbers"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/infl/INFL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 7,
+            "h": 6
+          },
+          {
+            "label": "Spiny defenses",
+            "to": "spiny-defenses",
+            "x": 51,
+            "y": 30,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Bigger bullies",
+            "to": "bigger-bullies",
+            "x": 50,
+            "y": 43,
+            "w": 19,
+            "h": 7
+          },
+          {
+            "label": "Puffy and poisonous",
+            "to": "puffy-and-poisonous",
+            "x": 3,
+            "y": 77,
+            "w": 25,
+            "h": 6
+          },
+          {
+            "label": "Underwater porcupines",
+            "to": "video",
+            "x": 3,
+            "y": 86,
+            "w": 28,
+            "h": 6
+          }
+        ]
+      },
+      "puffy-and-poisonous": {
+        "image": "assets/infl/INFL01PU.webp",
+        "back": "main"
+      },
+      "bigger-bullies": {
+        "image": "assets/infl/INFL02PU.webp",
+        "back": "main"
+      },
+      "spiny-defenses": {
+        "image": "assets/infl/INFL03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/infl/clip.mp4",
+        "poster": "assets/infl/INFL04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/infl/INFL00JN.mp3",
+  "sound": "assets/infl/INFL00IX.mp3",
+  "video": {
+    "title": "Underwater porcupines",
+    "src": "assets/infl/clip.mp4",
+    "poster": "assets/infl/poster.webp",
+    "caption": "When a spiny pufferfish inflates, its spines stick out like a porcupine's. Because it's so round and spiky, attackers can't swallow it. Needless to say, it's very hard for a spiky ball to swim away, so these fish must remain inflated until the coast is clear.",
+    "narration": "assets/infl/INFL04JN.mp3"
+  }
+}

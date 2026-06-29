@@ -1,0 +1,211 @@
+{
+  "id": "clam",
+  "code": "CLAM",
+  "name": "Clams, Oysters, and Scallops",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "One foot, no head, and a shell that can snap shut — meet the bivalves!",
+  "zones": [
+    "Coast & tide pools",
+    "Coral reef",
+    "Kelp & seagrass"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/clam/CLAM00AA.webp",
+    "alt": "Clams, Oysters, and Scallops"
+  },
+  "intro": "What has one foot, no head, and rarely comes unhinged? Clams, mussels, scallops, and oysters! Collectively, they're known as bivalves, because they're encased in two valves, or shells, that are connected by a hinge. Oysters, mussels, and many other bivalves remain fixed in one place for all or most of their lives; others, including clams, use a muscular \"foot\" to burrow into sand or mud. Scallops are the gadabouts of this group, propelling themselves from place to place by flapping their hinged shells.",
+  "facts": [
+    {
+      "label": "Size",
+      "value": "The giant clam reaches more than 1 m (3.3 ft) wide and can weigh more than 250 kg (550 lb)."
+    },
+    {
+      "label": "Filter feeding",
+      "value": "Bivalves use large gills to siphon and expel water, extracting food and oxygen."
+    },
+    {
+      "label": "Pearls",
+      "value": "A pearl forms when an oyster secretes calcium carbonate around a grain of sand or other irritant lodged inside its shell."
+    },
+    {
+      "label": "Species",
+      "value": "Over 400 species of scallops exist worldwide, from the ocean depths to shallow coastal waters."
+    },
+    {
+      "label": "Vision",
+      "value": "Scallop eyes can detect motion, while clam eyes can pick up light changes — both snap shut when a predator is near."
+    },
+    {
+      "label": "Did you know",
+      "value": "A single dark (or \"black\") pearl from the South Pacific can cost as much as forty thousand dollars."
+    }
+  ],
+  "topics": [
+    {
+      "id": "clam-up",
+      "title": "Clam up!",
+      "image": "assets/clam/CLAM01PU.webp",
+      "text": "Bivalves have two symmetrical shells, which they open and close with powerful muscles. Large gills inside these shells siphon and expel water, extracting food and oxygen. Stories abound of pearl divers who have drowned when a giant clam's shell has snapped shut on one of their legs, but there have been no documented fatalities. The giant clam reaches more than 1 m (3.3 ft) wide and can weigh more than 250 kg (550 lb).",
+      "narration": "assets/clam/CLAM01JN.mp3"
+    },
+    {
+      "id": "moody-pearls",
+      "title": "Moody pearls",
+      "image": "assets/clam/CLAM02PU.webp",
+      "text": "It may be hard to believe, but pearls are actually made by irritated oysters! A pearl forms when an oyster secretes calcium carbonate around a grain of sand or some other irritant that has become lodged inside the animal's shell. Although all bivalves can produce pearls, the finest come from inedible oysters. Some people grow (or \"culture\") pearls by implanting a substance into oysters.",
+      "captions": [
+        {
+          "label": "Mere trinkets",
+          "text": "The finest pearls used to come from the Persian Gulf, but the oysters that produced them are nearly extinct. A single dark (or \"black\") pearl from the South Pacific can cost as much as forty thousand dollars. Imagine the cost of a whole necklace!"
+        }
+      ],
+      "narration": "assets/clam/CLAM02JN.mp3"
+    },
+    {
+      "id": "eye-see-you",
+      "title": "Eye see you!",
+      "image": "assets/clam/CLAM04PU.webp",
+      "text": "Because so many larger creatures feed on them, mollusks need to use all the tricks they can to avoid being devoured. The eyes of scallops can detect motion, while clam eyes are able to pick up light changes. Both close their shells like the shutter on a camera lens when they sense the presence of a predator. Look at the dozens of blue eyes this scallop has around the edges of its shell!",
+      "narration": "assets/clam/CLAM04JN.mp3"
+    },
+    {
+      "id": "harvesting-shellfish",
+      "title": "Harvesting shellfish",
+      "image": "assets/clam/CLAM05PU.webp",
+      "text": "The farming of fish, shellfish, and seaweed, known as mariculture, probably began centuries ago in China. Today Southeast Asia still produces the most aquatically-farmed products, but with dwindling supplies of marine life everywhere, mariculture is becoming popular throughout the world.",
+      "captions": [
+        {
+          "label": "Oyster farms",
+          "text": "Oysters are cultivated both for food and for their pearls. Empty oyster shells are suspended in the water to attract oyster larvae. Once they've become full-grown oysters, they're harvested."
+        },
+        {
+          "label": "Beachcombing",
+          "text": "If you're willing to do a lot of digging, you might find a good meal at the water's edge during clamming season. Clam chowder is a favorite dish on the northern coasts of the United States."
+        }
+      ],
+      "narration": "assets/clam/CLAM05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Chinese Explorers",
+      "to": "chin"
+    },
+    {
+      "label": "How Big Does it Get?"
+    },
+    {
+      "label": "Corals",
+      "to": "cora"
+    },
+    {
+      "label": "Fearsome Faces",
+      "to": "fear"
+    },
+    {
+      "label": "The Shallows",
+      "to": "shal"
+    },
+    {
+      "label": "Anemones",
+      "to": "anem"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/clam/CLAM00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 4,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "Eye see you!",
+            "to": "eye-see-you",
+            "x": 52,
+            "y": 14,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Moody pearls",
+            "to": "moody-pearls",
+            "x": 52,
+            "y": 26,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "Clam up!",
+            "to": "clam-up",
+            "x": 55,
+            "y": 38,
+            "w": 14,
+            "h": 6
+          },
+          {
+            "label": "Harvesting shellfish",
+            "to": "harvesting-shellfish",
+            "x": 36,
+            "y": 74,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Swimming scallops",
+            "to": "video",
+            "x": 36,
+            "y": 83,
+            "w": 26,
+            "h": 6
+          }
+        ]
+      },
+      "clam-up": {
+        "image": "assets/clam/CLAM01PU.webp",
+        "back": "main"
+      },
+      "moody-pearls": {
+        "image": "assets/clam/CLAM02PU.webp",
+        "back": "main"
+      },
+      "eye-see-you": {
+        "image": "assets/clam/CLAM04PU.webp",
+        "back": "main"
+      },
+      "harvesting-shellfish": {
+        "image": "assets/clam/CLAM05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/clam/clip.mp4",
+        "poster": "assets/clam/CLAM03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/clam/CLAM00JN.mp3",
+  "sound": "assets/clam/CLAM00IX.mp3",
+  "video": {
+    "title": "Swimming scallops",
+    "src": "assets/clam/clip.mp4",
+    "poster": "assets/clam/poster.webp",
+    "caption": "A flame scallop (Lima scabra) extends its vivid red tentacles, showing how these bivalves jet-propel themselves through the water.",
+    "narration": "assets/clam/CLAM03JN.mp3"
+  }
+}

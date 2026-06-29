@@ -1,0 +1,187 @@
+{
+  "id": "myth",
+  "code": "MYTH",
+  "name": "Myths and Legends",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Dinosaur bones sparked dragon legends and sea-monster sightings—but the real animals were even more extraordinary.",
+  "hero": {
+    "image": "assets/myth/MYTH00AA.webp",
+    "alt": "Myths and Legends"
+  },
+  "intro": "From the time dinosaur bones were first discovered, people linked the giant creatures with the terrifying monsters of myths and legends. Little was known about dinosaurs, and many mistakes were made about how they looked. Bones were put together the wrong way or mixed up with the bones of other dinosaurs. Today, misconceptions still abound. Some visitors to museums think that dinosaurs walked around as living skeletons! Although once thought to be lumbering, dull, and stupid, those notions have nothing to do with the facts. Dinosaurs were among the most awesome, sophisticated animals the Earth has ever seen. They survived for nearly 160 million years—75 times longer than humans have lived on Earth.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "loch-ness-monster",
+      "title": "Loch Ness Monster",
+      "image": "assets/myth/MYTH01PU.webp",
+      "text": "For centuries, many of those who dwelled near Scotland's Loch Ness claimed to have seen a monster in the lake. Descriptions, illustrations, even photographs of the alleged monster show an aquatic animal that looks much like the ancient reptile Plesiosaurus. Scientists believe it is highly unlikely such a creature could still exist. But it was also once thought the ancient fish coelacanth was long extinct until living coelacanths were caught off the southern coast of Africa in 1938 and 1952."
+    },
+    {
+      "id": "brontosaurus",
+      "title": "Brontosaurus",
+      "image": "assets/myth/MYTH02PU.webp",
+      "text": "During the feverish dinosaur rush of the 1850's, two paleontologists engaged in a fierce competition to see who would be known as the world's dinosaur expert. In his haste for fame, O. C. Marsh described Apatosaurus in 1877, and Brontosaurus in 1879. It was later discovered that these were actually the same dinosaur! It is now called Apatosaurus, since that had been the first name it was given."
+    },
+    {
+      "id": "dragons",
+      "title": "Dragons",
+      "image": "assets/myth/MYTH03PU.webp",
+      "text": "When dinosaur fossils were first discovered about 2,000 years ago, they were thought to be the remains of dragons. Some depictions of mythological dragons actually look a bit like dinosaurs. In China, fossilized dinosaur teeth are called \"dragon teeth,\" and are thought to have healing properties when ground into powders and used as medicines."
+    },
+    {
+      "id": "of-cave-men-and-dinosaurs",
+      "title": "Of Cave Men and Dinosaurs",
+      "image": "assets/myth/MYTH04PU.webp",
+      "text": "Even though dinosaurs became extinct up to 65 million years ago—about 61 million years before humans first appeared—some films and cartoons give the impression that the ancient creatures shared the land with early cave dwellers. Scientists are certain, however, that no human has ever seen a living dinosaur."
+    },
+    {
+      "id": "tree-dinosaur",
+      "title": "Tree Dinosaur?",
+      "image": "assets/myth/MYTH05PU.webp",
+      "text": "Hypsilophodon, a small agile plant-eater, was thought to live in trees when it was first discovered. Scientists thought the creature used its long tail to help it cling to branches. This theory has since been proven false. Hypsilophodon actually was a ground-dwelling dinosaur that used its long, stiff tail for balance while running.",
+      "captions": [
+        {
+          "label": "Tree dweller",
+          "text": "In the early 1820's, English doctor Gideon Mantell discovered several fossilized dinosaur bones and teeth. Mantell pictured the creature to which they belonged as a gigantic iguana-like lizard. He drew a picture of the creature perched on a tree branch, with a spike on its nose. The spike turned out to be Iguanodon's thumb, which illustrates that as more knowledge is gathered about dinosaurs, ideas about them tend to be modified."
+        }
+      ]
+    },
+    {
+      "id": "snake-stones",
+      "title": "Snake Stones",
+      "image": "assets/myth/MYTH06PU.webp",
+      "text": "Fossils of ammonites, which are the remains of ancient shellfish, were once thought to be the remains of ancient snakes turned to stone by the 7th century abbess, St. Hilda. Craftsmen carved heads on some ammonites to help foster this belief.",
+      "captions": [
+        {
+          "label": "Ammonite kin?",
+          "text": "This modern nautilus is much like the ancient ammonite. Other creatures living in the sea today, such as starfish and some species of crabs, resemble ancient fossils."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The American Dinosaur Rush",
+      "to": "amer"
+    },
+    {
+      "label": "Living Fossils",
+      "to": "ddec"
+    },
+    {
+      "label": "Reconstructing Dinosaurs",
+      "to": "reco"
+    },
+    {
+      "label": "Teeth",
+      "to": "teet"
+    },
+    {
+      "label": "The Triassic Period",
+      "to": "tria"
+    },
+    {
+      "label": "Dinosaur Society"
+    },
+    {
+      "label": "Ammonite",
+      "to": "ammo"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/myth/MYTH00AA.webp",
+        "hotspots": [
+          {
+            "label": "Snake stones",
+            "to": "snake-stones",
+            "x": 72,
+            "y": 17,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Loch Ness monster",
+            "to": "loch-ness-monster",
+            "x": 66,
+            "y": 24,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Dragons",
+            "to": "dragons",
+            "x": 3,
+            "y": 63,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "Tree dinosaur?",
+            "to": "tree-dinosaur",
+            "x": 3,
+            "y": 70,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Brontosaurus",
+            "to": "brontosaurus",
+            "x": 42,
+            "y": 60,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Of cave men and dinosaurs",
+            "to": "of-cave-men-and-dinosaurs",
+            "x": 36,
+            "y": 67,
+            "w": 26,
+            "h": 5
+          }
+        ]
+      },
+      "loch-ness-monster": {
+        "image": "assets/myth/MYTH01PU.webp",
+        "back": "main"
+      },
+      "brontosaurus": {
+        "image": "assets/myth/MYTH02PU.webp",
+        "back": "main"
+      },
+      "dragons": {
+        "image": "assets/myth/MYTH03PU.webp",
+        "back": "main"
+      },
+      "of-cave-men-and-dinosaurs": {
+        "image": "assets/myth/MYTH04PU.webp",
+        "back": "main"
+      },
+      "tree-dinosaur": {
+        "image": "assets/myth/MYTH05PU.webp",
+        "back": "main"
+      },
+      "snake-stones": {
+        "image": "assets/myth/MYTH06PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/myth/MYTH00AP.mp3",
+  "narration": "assets/myth/MYTH00AJ.mp3",
+  "sound": "assets/myth/MYTH00SA.mp3"
+}

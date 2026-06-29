@@ -1,0 +1,190 @@
+{
+  "id": "birt",
+  "code": "BIRT",
+  "name": "Birth and Growth",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "From tiny eggs hatched the creatures that ruled the earth!",
+  "hero": {
+    "image": "assets/birt/BIRT00AA.webp",
+    "alt": "Birth and Growth"
+  },
+  "intro": "Archosaurs, the \"ruling reptiles\" including dinosaurs and crocodiles, were the first creatures to lay their eggs on dry land. The amphibians before them could live on land, but had to return to ponds and lakes to lay their jelly-coated eggs, which hatched into tadpoles. A reptile egg, however, has a tough, waterproof shell. Inside, the baby has its own watery \"pond\" in which to develop and grow. The development of this shell meant that reptiles could spend all their time on land.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "a-dinosaur-is-born",
+      "title": "A Dinosaur Is Born",
+      "image": "assets/birt/BIRT01PU.webp",
+      "text": "The remains of this Maiasaura dinosaur hatchling emerging from its egg give us an idea of how baby dinosaurs began life. Several nests were found in Montana in 1978 containing fossilized skeletons of hatchlings. Their teeth are worn, indicating that the mother dinosaur probably brought food back to the nest."
+    },
+    {
+      "id": "communal-nest",
+      "title": "Communal Nest",
+      "image": "assets/birt/BIRT02PU.webp",
+      "text": "The eggs in this fossilized nest may have come from Protoceratops. Several mothers may have laid their eggs in this single sandy nest, which contained up to thirty eggs, suggesting that these dinosaurs lived in family groups. The eggs were covered with earth or sand to protect them until they hatched. These eggs were discovered in Mongolia in 1924."
+    },
+    {
+      "id": "dinosaur-orphans",
+      "title": "Dinosaur Orphans",
+      "image": "assets/birt/BIRT03PU.webp",
+      "text": "The fossil evidence leads us to believe that Protoceratops mothers left the nest after their eggs had been laid. Only about eight inches long when hatched, the baby Protoceratops had to feed and protect itself as soon as it emerged from its shell. Other baby dinosaurs may have been cared for until they were older."
+    },
+    {
+      "id": "a-beast-emerges",
+      "title": "A Beast Emerges",
+      "image": "assets/birt/BIRT04PU.webp",
+      "text": "When most reptiles are ready to hatch, they break the shell from the inside and emerge from it slowly. Like the young rat snake, many modern and ancient reptiles emerge from their shells as smaller, but identical, versions of their parents. They are not weak or immature and can begin to look after themselves from the moment they leave the shell. But the baby dinosaurs we know looked very different from their parents, with big eyes and foreheads."
+    },
+    {
+      "id": "growing-up",
+      "title": "Growing Up",
+      "image": "assets/birt/BIRT05PU.webp",
+      "text": "The skull of a juvenile Protoceratops had a short frill at the rear and a flattened nose ridge. As it grew into an adult, the frill grew much larger. The nose ridge grew higher as well, in order to butt opponents. While only about eight inches long at birth, Protoceratops grew to six feet long, and about the height of a large dog.",
+      "captions": [
+        {
+          "label": "Juvenile Protoceratops skull",
+          "text": "Juvenile Protoceratops skull"
+        },
+        {
+          "label": "Adult Protoceratops skull",
+          "text": "Adult Protoceratops skull"
+        },
+        {
+          "label": "Protoceratops",
+          "text": "Protoceratops"
+        }
+      ]
+    },
+    {
+      "id": "hard-egg",
+      "title": "Hard Egg",
+      "image": "assets/birt/BIRT06PU.webp",
+      "text": "The hard shell of Protoceratops eggs protected embryos until hatching time. The outer shell kept the liquids inside from drying out, which meant dinosaurs did not have to return to water to lay eggs, like amphibians, and so could spend all their lives on land."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Life Before Dinosaurs",
+      "to": "befr"
+    },
+    {
+      "label": "Maiasaura",
+      "to": "maia"
+    },
+    {
+      "label": "Gobi Desert Expeditions",
+      "to": "gobi"
+    },
+    {
+      "label": "Mussaurus",
+      "to": "muss"
+    },
+    {
+      "label": "Nests and Eggs",
+      "to": "nest"
+    },
+    {
+      "label": "Protoceratops",
+      "to": "prot"
+    },
+    {
+      "label": "Reptiles of the Sea",
+      "to": "rsea"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/birt/BIRT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Dinosaur orphans?",
+            "to": "dinosaur-orphans",
+            "x": 31,
+            "y": 28,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "A beast emerges",
+            "to": "a-beast-emerges",
+            "x": 27,
+            "y": 37,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "A dinosaur is born",
+            "to": "a-dinosaur-is-born",
+            "x": 13,
+            "y": 44,
+            "w": 20,
+            "h": 8
+          },
+          {
+            "label": "Hard egg",
+            "to": "hard-egg",
+            "x": 5,
+            "y": 57,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "Growing up",
+            "to": "growing-up",
+            "x": 5,
+            "y": 63,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Communal nest",
+            "to": "communal-nest",
+            "x": 5,
+            "y": 69,
+            "w": 18,
+            "h": 5
+          }
+        ]
+      },
+      "a-dinosaur-is-born": {
+        "image": "assets/birt/BIRT01PU.webp",
+        "back": "main"
+      },
+      "communal-nest": {
+        "image": "assets/birt/BIRT02PU.webp",
+        "back": "main"
+      },
+      "dinosaur-orphans": {
+        "image": "assets/birt/BIRT03PU.webp",
+        "back": "main"
+      },
+      "a-beast-emerges": {
+        "image": "assets/birt/BIRT04PU.webp",
+        "back": "main"
+      },
+      "growing-up": {
+        "image": "assets/birt/BIRT05PU.webp",
+        "back": "main"
+      },
+      "hard-egg": {
+        "image": "assets/birt/BIRT06PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/birt/BIRT00AP.mp3",
+  "narration": "assets/birt/BIRT00AJ.mp3",
+  "sound": "assets/birt/BIRT00SA.mp3"
+}

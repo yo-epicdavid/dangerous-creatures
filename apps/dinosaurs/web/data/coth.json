@@ -1,0 +1,132 @@
+{
+  "id": "coth",
+  "code": "COTH",
+  "name": "Coelacanth",
+  "category": "creature",
+  "scientificName": "Latimeria",
+  "needsScientificVerify": false,
+  "pronunciation": "SEE-luh-kanth",
+  "meaning": "Hollow-spined",
+  "period": "Devonian-Present",
+  "diet": "",
+  "tagline": "A living fossil fish that swam with the dinosaurs — and still swims today!",
+  "hero": {
+    "image": "assets/coth/COTH00AA.webp",
+    "alt": "Coelacanth"
+  },
+  "intro": "The most famous of all living fossils is the coelacanth.  Coelacanth fossils have been dated as far back as the Devonian period, 345 million years ago, and coelacanths lived throughout the Age of Dinosaurs.  Experts thought that they had died out along with the dinosaurs in the Cretaceous period, until a living coelacanth was caught off the coast of South Africa in 1938.  Since then, several more living specimens have been photographed or captured.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Africa"
+    },
+    {
+      "label": "Time Period",
+      "value": "Devonian-Present"
+    },
+    {
+      "label": "Name Means",
+      "value": "Hollow-spined"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Prehistoric fish"
+    },
+    {
+      "label": "Length",
+      "value": "1.8m (6ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "out-of-the-past",
+      "title": "Out of the Past",
+      "image": "assets/coth/COTH01PU.webp",
+      "text": "Coelacanths have a distinctive three-lobed tail and fins with arm-like bones at the base.  We know from the fossil record that coelacanths have survived relatively unchanged from the ancient past to the present.",
+      "captions": [
+        {
+          "label": "Fossilized coelacanth",
+          "text": "Fossilized coelacanth"
+        }
+      ]
+    },
+    {
+      "id": "historic-discovery",
+      "title": "Historic Discovery",
+      "image": "assets/coth/COTH02PU.webp",
+      "text": "Several coelacanths have been caught and others have been photographed alive off the Comoro Islands, which are northeast of the island of Madagascar.  The discovery of the home of this \"living fossil\" has been commemorated on a Wedgwood plate and on postal stamps.",
+      "captions": [
+        {
+          "label": "Devonian dish",
+          "text": "This is a Wedgwood plate commemorating the catching of a live coelacanth."
+        },
+        {
+          "label": "Prehistoric postage",
+          "text": "These are examples of commemorative stamps from the Comoro Islands."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What is Paleontology?",
+      "to": "pale"
+    },
+    {
+      "label": "Life Before Dinosaurs",
+      "to": "befr"
+    },
+    {
+      "label": "Living Fossils",
+      "to": "ddec"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/coth/COTH00AA.webp",
+        "hotspots": [
+          {
+            "label": "Out of the past",
+            "to": "out-of-the-past",
+            "x": 72,
+            "y": 42,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Historic discovery",
+            "to": "historic-discovery",
+            "x": 64,
+            "y": 69,
+            "w": 26,
+            "h": 5
+          }
+        ]
+      },
+      "out-of-the-past": {
+        "image": "assets/coth/COTH01PU.webp",
+        "back": "main"
+      },
+      "historic-discovery": {
+        "image": "assets/coth/COTH02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/coth/COTH50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/coth/COTH00AP.mp3",
+  "narration": "assets/coth/COTH00AJ.mp3"
+}

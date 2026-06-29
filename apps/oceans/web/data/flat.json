@@ -1,0 +1,159 @@
+{
+  "id": "flat",
+  "code": "FLAT",
+  "name": "Flatworms",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "As colorful as butterflies and flatter than a pancake, these tiny ocean hunters glide through the reef in search of their next meal!",
+  "zones": [
+    "Coral reef",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/flat/FLAT00AA.webp",
+    "alt": "Flatworms"
+  },
+  "intro": "Some flatworms are parasites that attach themselves to other living creatures and feed on their tissues. But the oceans are also home to turbellarian flatworms, tiny creatures as colorful as butterflies. Most turbellarians are hunters that glide gracefully over reefs, rocks, and sandy sea floors in search of sea squirts, sea mosses, and other sedentary animals to feast upon.",
+  "facts": [
+    {
+      "label": "Size",
+      "value": "Most turbellarian flatworms are less than 5 cm (2 in) long"
+    },
+    {
+      "label": "Diet",
+      "value": "Sea squirts, sea mosses, and other sedentary animals"
+    },
+    {
+      "label": "Movement",
+      "value": "Glide on tiny cilia on the underside of their bodies; can also swim by rippling their sides"
+    },
+    {
+      "label": "Did you know",
+      "value": "Flatworms are so thin that if you viewed one sideways, it would be nearly invisible"
+    },
+    {
+      "label": "Hiding spot",
+      "value": "Often found clinging to the undersides of rock shelves and corals"
+    },
+    {
+      "label": "Reproduction",
+      "value": "Turbellarians are hermaphrodites — they exchange sperm and eggs with another flatworm of their species to produce young"
+    }
+  ],
+  "topics": [
+    {
+      "id": "butterflies-of-the-sea",
+      "title": "Butterflies of the sea",
+      "image": "assets/flat/FLAT01PU.webp",
+      "text": "In spite of their brilliant colors and patterns, most divers never see flatworms like these. Why? To begin with, most turbellarian flatworms are less than 5 cm (2 in) long, and they live among many other colorful animals. They can also cling to any surface, so they're often found on the undersides of rock shelves and corals.",
+      "narration": "assets/flat/FLAT01JN.mp3"
+    },
+    {
+      "id": "a-flat-life",
+      "title": "A flat life",
+      "image": "assets/flat/FLAT02PU.webp",
+      "text": "Flatworms are so thin that if you viewed one sideways, it would be nearly invisible. These other marine creatures also find value in being flat.",
+      "captions": [
+        {
+          "label": "Flat fish",
+          "text": "Some fish, such as sole and plaice, lie flat on the ocean floor to hide. As hatchlings, these fish swim freely and have an eye on each side of their heads. As they grow, one eye migrates until both eyes are on the same side of the head. This allows the adult fish to see with both eyes while lying on the bottom."
+        },
+        {
+          "label": "Skinny slug",
+          "text": "This tiny gastropod, called a sea slug or nudibranch, is only a few centimeters longer than most flatworms, and has only a slightly thicker body."
+        }
+      ],
+      "narration": "assets/flat/FLAT02JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Sea Squirts",
+      "to": "sqrt"
+    },
+    {
+      "label": "Lobsters",
+      "to": "lobs"
+    },
+    {
+      "label": "Rays",
+      "to": "rays"
+    },
+    {
+      "label": "Sea Slugs",
+      "to": "slug"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/flat/FLAT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 6,
+            "w": 7,
+            "h": 4
+          },
+          {
+            "label": "A flat life",
+            "to": "a-flat-life",
+            "x": 26,
+            "y": 43,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Wonderful worms",
+            "to": "video",
+            "x": 63,
+            "y": 36,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Butterflies of the sea",
+            "to": "butterflies-of-the-sea",
+            "x": 34,
+            "y": 67,
+            "w": 26,
+            "h": 5
+          }
+        ]
+      },
+      "butterflies-of-the-sea": {
+        "image": "assets/flat/FLAT01PU.webp",
+        "back": "main"
+      },
+      "a-flat-life": {
+        "image": "assets/flat/FLAT02PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/flat/clip.mp4",
+        "poster": "assets/flat/FLAT03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/flat/FLAT00JN.mp3",
+  "sound": "assets/flat/FLAT00IX.mp3",
+  "video": {
+    "title": "Wonderful worms",
+    "src": "assets/flat/clip.mp4",
+    "poster": "assets/flat/poster.webp",
+    "caption": "Turbellarian flatworms glide around by \"walking\" on tiny cilia located on the underside of their bodies. They can also swim by launching themselves into the water and rippling the sides of their bodies to move along. Turbellarians are hermaphrodites, animals with both male and female sex organs. They can't create babies all by themselves, however— to produce young, they exchange sperm and eggs with another flatworm of their species.",
+    "narration": "assets/flat/FLAT03JN.mp3"
+  }
+}

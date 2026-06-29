@@ -1,0 +1,185 @@
+{
+  "id": "mine",
+  "code": "MINE",
+  "name": "Bernissart Dinosaur Mine",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "BUR-nih-sar DYE-nuh-sor MYN",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Coal miners went underground looking for fuel—and found a treasure trove of dinosaur bones instead!",
+  "hero": {
+    "image": "assets/mine/MINE00AA.webp",
+    "alt": "Bernissart Dinosaur Mine"
+  },
+  "intro": "Over 110 years ago, in the village of Bernissart in Belgium, coal miners discovered strange objects hidden deep underground. At first the miners thought they had found pieces of fossilized wood, but scientists soon recognized that these were the bones of ancient animals. Within a few years, teams had collected more than thirty-nine skeletons of the dinosaur, Iguanodon!",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Bernissart, Belgium"
+    },
+    {
+      "label": "Discovered",
+      "value": "Over 110 years ago"
+    },
+    {
+      "label": "Dinosaur",
+      "value": "Iguanodon"
+    },
+    {
+      "label": "Skeletons Found",
+      "value": "More than thirty-nine"
+    }
+  ],
+  "topics": [
+    {
+      "id": "from-deep-in-the-earth",
+      "title": "From Deep in the Earth",
+      "image": "assets/mine/MINE01PU.webp",
+      "text": "The Iguanodon skeletons were buried more than 1000 feet below the surface. The mine's tunnels were narrow, and the lives of the workers were endangered by earthquakes and underground floods. As fossil bones were freed from the surrounding rock, they were brought to the surface in the mine's elevators.",
+      "captions": [
+        {
+          "label": "Layer 1",
+          "text": "Most of the Iguanodon skeletons were found in a layer 1,056 feet down, along with fossil crocodiles, fish, and turtles."
+        },
+        {
+          "label": "Layer 2",
+          "text": "More skeletons were found a few years later in rock 1,164 feet below the surface. These were the last dinosaurs to be found in the Bernissart mine before the excavation had to be shut down due to flooding."
+        },
+        {
+          "label": "Layers of rock",
+          "text": "The skeletons were found in sandstone and mudstone, which had collapsed among the layers of limestone and coal."
+        }
+      ]
+    },
+    {
+      "id": "buried-in-mud",
+      "title": "Buried in Mud",
+      "image": "assets/mine/MINE02PU.webp",
+      "text": "The Iguanodon skeletons of Bernissart are famous because so many complete skeletons were found together. But the dinosaurs did not all die at the same time—there appear to be four different groups. When the dinosaurs were alive, the area was covered by a marsh or lake, and the bodies must have been buried by sediment soon after the animals died."
+    },
+    {
+      "id": "two-types",
+      "title": "Two Types",
+      "image": "assets/mine/MINE03PU.webp",
+      "text": "Not all the Iguanodon skeletons from Bernissart are the same. Most are from the same species—Iguanodon bernissartensis—but two are of smaller, slimmer Iguanodon atherfieldensis. Scientists originally thought that Iguanodon walked upright on two legs, but now most experts agree that this dinosaur walked on all fours most of the time."
+    },
+    {
+      "id": "studying-the-bones",
+      "title": "Studying the Bones",
+      "image": "assets/mine/MINE04PU.webp",
+      "text": "Louis Dollo, a scientist working for the Royal Institute of Natural Sciences in Belgium, spent years studying the fossils and assembling Iguanodon skeletons from the puzzle of bones discovered in the mines. Because Iguanodon's front legs were shorter than its hind legs, Dollo theorized that the dinosaur walked on two legs, not four. This later turned out to be an incorrect assumption. However, Dollo did correct a past error. When sketching Iguanodon for the first time many years earlier, English doctor Gideon Mantell had drawn the spike on the dinosaur's nose, like a rhinoceros. Dollo correctly guessed that the spikes belonged on the dinosaur's hands."
+    },
+    {
+      "id": "mining-dinosaurs-instead-of-coal",
+      "title": "Mining Dinosaurs Instead of Coal",
+      "image": "assets/mine/MINE05PU.webp",
+      "text": "As more and more dinosaur fossils were discovered at various levels, the mine workers ceased to dig out coal and concentrated on excavating dinosaurs instead. This scene shows the teams of workers at the mine site who catalogued and studied the bones."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The American Dinosaur Rush",
+      "to": "amer"
+    },
+    {
+      "label": "What You Need to Find a Fossil",
+      "to": "find"
+    },
+    {
+      "label": "Marching to Extinction",
+      "to": "extt"
+    },
+    {
+      "label": "Iguanodon",
+      "to": "igua"
+    },
+    {
+      "label": "Myths and Legends",
+      "to": "myth"
+    },
+    {
+      "label": "What is a Fossil?",
+      "to": "foss"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mine/MINE00AA.webp",
+        "hotspots": [
+          {
+            "label": "From deep in the Earth",
+            "to": "from-deep-in-the-earth",
+            "x": 68,
+            "y": 35,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "Two types",
+            "to": "two-types",
+            "x": 70,
+            "y": 47,
+            "w": 14,
+            "h": 6
+          },
+          {
+            "label": "Mining dinosaurs instead of coal",
+            "to": "mining-dinosaurs-instead-of-coal",
+            "x": 18,
+            "y": 55,
+            "w": 30,
+            "h": 8
+          },
+          {
+            "label": "Studying the bones",
+            "to": "studying-the-bones",
+            "x": 55,
+            "y": 65,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Buried in mud",
+            "to": "buried-in-mud",
+            "x": 36,
+            "y": 80,
+            "w": 18,
+            "h": 6
+          }
+        ]
+      },
+      "from-deep-in-the-earth": {
+        "image": "assets/mine/MINE01PU.webp",
+        "back": "main"
+      },
+      "buried-in-mud": {
+        "image": "assets/mine/MINE02PU.webp",
+        "back": "main"
+      },
+      "two-types": {
+        "image": "assets/mine/MINE03PU.webp",
+        "back": "main"
+      },
+      "studying-the-bones": {
+        "image": "assets/mine/MINE04PU.webp",
+        "back": "main"
+      },
+      "mining-dinosaurs-instead-of-coal": {
+        "image": "assets/mine/MINE05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/mine/MINE00AP.mp3",
+  "narration": "assets/mine/MINE00AJ.mp3",
+  "sound": "assets/mine/MINE00SA.mp3"
+}

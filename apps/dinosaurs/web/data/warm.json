@@ -1,0 +1,205 @@
+{
+  "id": "warm",
+  "code": "WARM",
+  "name": "Warm-Blooded or Cold-Blooded?",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "WARM-blud-ed or KOLD-blud-ed",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Were dinosaurs hot or cool? Scientists are still debating the answer!",
+  "hero": {
+    "image": "assets/warm/WARM00AA.webp",
+    "alt": "Warm-Blooded or Cold-Blooded?"
+  },
+  "intro": "Were dinosaurs warm-blooded, like mammals and birds, or cold-blooded, like lizards and snakes? Experts are still debating this issue. Warm-blooded creatures keep their body temperature high (around 95°-100°F or 35°-40°C) by \"burning\" food to generate heat. A warm-blooded creature can move quickly and stay active whether the environment is hot or cold. But in order to do this, a warm-blooded creature needs a lot of food.",
+  "facts": [
+    {
+      "label": "Temperature sensitive",
+      "value": "Cold-blooded creatures, like lizards and snakes, need much less food, but they are more at the mercy of their surroundings. For a cold-blooded creature to be active, it must soak up heat from the sun or warm rocks to raise its temperature. When the environment is cold, a cold-blooded creature is very slow or completely inactive."
+    }
+  ],
+  "topics": [
+    {
+      "id": "the-lives-of-cold-blooded-creatures",
+      "title": "The Lives of Cold-Blooded Creatures",
+      "image": "assets/warm/WARM01PU.webp",
+      "text": "The temperature of cold-blooded animals changes with that of their surroundings. They must protect themselves from extreme heat and cold.",
+      "captions": [
+        {
+          "label": "Cooling down",
+          "text": "Cold-blooded creatures cannot perspire to cool themselves off. When the air becomes too hot, they seek the shade to lower their temperatures."
+        },
+        {
+          "label": "Warming up",
+          "text": "Animals must be warm to be active and to digest food. To warm themselves when the air is cool, cold-blooded creatures like this lizard often bask in the sun."
+        }
+      ]
+    },
+    {
+      "id": "bones-under-the-microscope",
+      "title": "Bones Under the Microscope",
+      "image": "assets/warm/WARM02PU.webp",
+      "text": "The bones of warm-blooded creatures such as mammals and birds are honeycombed with channels for blood vessels. Some experts have found that dinosaur bones contain similar holes, suggesting that dinosaurs, especially young ones, were warm-blooded."
+    },
+    {
+      "id": "big-hearted-reptiles",
+      "title": "Big-Hearted Reptiles",
+      "image": "assets/warm/WARM03PU.webp",
+      "text": "All hearts pump blood through two circuits: one to the lungs and one to the rest of the body. The circuit that passes though the lungs must have reasonably low blood pressure: too much pressure would burst capillaries in the lungs. Each circuit passes through a separate chamber in the heart, and it is within the heart that the difference between cold-blooded and warm-blooded animals becomes apparent.",
+      "captions": [
+        {
+          "label": "Cold-blooded semi-divided heart",
+          "text": "The hearts of modern reptiles allow blood to leak between the two heart chambers. This causes no problem to reptiles, because both blood circuits have the same blood pressure."
+        },
+        {
+          "label": "Warm-blooded fully-divided heart",
+          "text": "In large dinosaurs, the circuit to the lungs needed to be at fairly low pressure so as not to injure their lungs, but the pressure of the circuit that distributed blood throughout the body needed to be very high to move blood to all parts of their gigantic bodies. Because of this difference in pressure between the two blood circuits, dinosaurs needed a fully divided heart like those of warm-blooded animals."
+        }
+      ]
+    },
+    {
+      "id": "keeping-the-brain-warm",
+      "title": "Keeping the Brain Warm",
+      "image": "assets/warm/WARM04PU.webp",
+      "text": "Some dinosaurs such as Allosaurus had quite large brains. A large brain is very delicate and needs a constant temperature plus a plentiful blood supply in order to work efficiently. Being warm-blooded would satisfy these needs better than being cold-blooded."
+    },
+    {
+      "id": "bigger-means-warmer",
+      "title": "Bigger Means Warmer",
+      "image": "assets/warm/WARM05PU.webp",
+      "text": "Large animals lose heat more slowly than small ones. If dinosaurs were cold-blooded, perhaps this is why some came to be so big. Big dinosaurs would soak up heat during the day, then cool down slowly at night."
+    },
+    {
+      "id": "solar-panels",
+      "title": "Solar Panels",
+      "image": "assets/warm/WARM06PU.webp",
+      "text": "Some dinosaurs and other reptiles had back plates and sails that they may have used to soak up the heat of the sun. Blood vessels ran through these “solar panels” and distributed the warmth to the rest of the body, allowing them to warm up more quickly than other reptiles.",
+      "captions": [
+        {
+          "label": "Dimetrodon",
+          "text": "This reptile had a huge sail to absorb or release heat."
+        },
+        {
+          "label": "Tuojiangosaurus",
+          "text": "The plates on this stegosaur's back were honeycombed with blood vessels."
+        }
+      ]
+    },
+    {
+      "id": "advantages-of-being-warm-blooded",
+      "title": "Advantages of Being Warm-Blooded",
+      "image": "assets/warm/WARM07PU.webp",
+      "text": "Warm-blooded animals can stay active whether the air is warm or cold, and whether it is day or night. Warm-blooded animals are quick—hunters can easily capture cold-blooded prey when the environment is cool and the victim is slow. The disadvantage of being warm-blooded is that animals need to eat often to keep themselves warm. If dinosaurs were fully warm-blooded, they were probably agile animals that consumed a lot of food."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Speedy Dinosaurs",
+      "to": "spee"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/warm/WARM00AA.webp",
+        "hotspots": [
+          {
+            "label": "Advantages of being warm-blooded",
+            "to": "advantages-of-being-warm-blooded",
+            "x": 2,
+            "y": 28,
+            "w": 32,
+            "h": 5
+          },
+          {
+            "label": "The lives of cold-blooded creatures",
+            "to": "the-lives-of-cold-blooded-creatures",
+            "x": 2,
+            "y": 36,
+            "w": 26,
+            "h": 8
+          },
+          {
+            "label": "Bones under the microscope",
+            "to": "bones-under-the-microscope",
+            "x": 2,
+            "y": 51,
+            "w": 29,
+            "h": 5
+          },
+          {
+            "label": "Bigger means warmer",
+            "to": "bigger-means-warmer",
+            "x": 2,
+            "y": 65,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Big-hearted reptiles",
+            "to": "big-hearted-reptiles",
+            "x": 35,
+            "y": 78,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Keeping the brain warm",
+            "to": "keeping-the-brain-warm",
+            "x": 60,
+            "y": 27,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Solar panels",
+            "to": "solar-panels",
+            "x": 65,
+            "y": 33,
+            "w": 18,
+            "h": 5
+          }
+        ]
+      },
+      "the-lives-of-cold-blooded-creatures": {
+        "image": "assets/warm/WARM01PU.webp",
+        "back": "main"
+      },
+      "bones-under-the-microscope": {
+        "image": "assets/warm/WARM02PU.webp",
+        "back": "main"
+      },
+      "big-hearted-reptiles": {
+        "image": "assets/warm/WARM03PU.webp",
+        "back": "main"
+      },
+      "keeping-the-brain-warm": {
+        "image": "assets/warm/WARM04PU.webp",
+        "back": "main"
+      },
+      "bigger-means-warmer": {
+        "image": "assets/warm/WARM05PU.webp",
+        "back": "main"
+      },
+      "solar-panels": {
+        "image": "assets/warm/WARM06PU.webp",
+        "back": "main"
+      },
+      "advantages-of-being-warm-blooded": {
+        "image": "assets/warm/WARM07PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/warm/WARM00AP.mp3",
+  "narration": "assets/warm/WARM00AJ.mp3",
+  "sound": "assets/warm/WARM00SA.mp3"
+}

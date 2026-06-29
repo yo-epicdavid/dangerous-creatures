@@ -1,0 +1,112 @@
+{
+  "id": "hthr",
+  "code": "HTHR",
+  "name": "How to Recognize Theropods",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Sharp teeth, slashing claws, and two legs to chase you down — that's a theropod!",
+  "hero": {
+    "image": "assets/hthr/HTHR00AA.webp",
+    "alt": "How to Recognize Theropods"
+  },
+  "intro": "All meat-eating dinosaurs were theropods.  Some, like Tyrannosaurus rex, were giants up to fifty feet long.  Others, like Saltopus, measured as little as two feet long from nose to tip of tail.  Although theropod dinosaurs came in a variety of sizes, they all had sharp teeth, menacing claws, and a taste for flesh.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "two-legged-runners-with-lizard-hips",
+      "title": "Two-Legged Runners with Lizard Hips",
+      "image": "assets/hthr/HTHR01PU.webp",
+      "text": "Dinosaurs are divided into two large main groups by the shape and position of their hip bones.  All theropods were saurischians, or \"lizard-hipped\" dinosaurs, and moved about on two legs.",
+      "captions": [
+        {
+          "label": "Upright, two-legged runners",
+          "text": "Theropods all walked upright on two long legs, reserving their small \"hands\" for grasping prey.  Experts think many of the theropods may have been fast on their feet."
+        },
+        {
+          "label": "Bird hips vs. lizard hips",
+          "text": "In bird-hipped dinosaurs, the two lower pelvic bones pointed backward and down, just like the bone structure found in birds today.  In dinosaurs with lizard hips, one of the two lower pelvic bones pointed forward and one pointed backward, a structure characteristic of modern lizards."
+        }
+      ]
+    },
+    {
+      "id": "teeth-and-claws",
+      "title": "Teeth and Claws",
+      "image": "assets/hthr/HTHR02PU.webp",
+      "text": "Theropods were all carnivorous dinosaurs that ate other creatures.  Meat-eaters, unless they are scavengers, need to capture, kill, and rip apart their prey, and most are well equipped for this purpose.",
+      "captions": [
+        {
+          "label": "Slashing claws",
+          "text": "Most theropods had claws on both hands and feet that could injure their victims.  Deinonychus had sickle-shaped claws on its feet that could slash open lethal gashes.  Claws on the hands were mostly for grasping and holding on to the unfortunate prey."
+        },
+        {
+          "label": "Hunters with no teeth",
+          "text": "Some of the smaller theropods had no teeth, but were still meat-eaters that snatched up lizards, insects, and other small prey, much like many birds do today.  Gallimimus, shown here, was a swift bird-like hunter with a toothless beak."
+        },
+        {
+          "label": "Hunters with lethal teeth",
+          "text": "All of the larger theropods, called carnosaurs, had mouths full of razor-sharp teeth specially designed for shredding flesh."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Baryonyx",
+      "to": "bary"
+    },
+    {
+      "label": "Speedy Dinosaurs",
+      "to": "spee"
+    },
+    {
+      "label": "Deinonychus",
+      "to": "dein"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/hthr/HTHR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Teeth and claws",
+            "to": "teeth-and-claws",
+            "x": 12,
+            "y": 43,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Two-legged runners with lizard hips",
+            "to": "two-legged-runners-with-lizard-hips",
+            "x": 5,
+            "y": 55,
+            "w": 33,
+            "h": 5
+          }
+        ]
+      },
+      "two-legged-runners-with-lizard-hips": {
+        "image": "assets/hthr/HTHR01PU.webp",
+        "back": "main"
+      },
+      "teeth-and-claws": {
+        "image": "assets/hthr/HTHR02PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/hthr/HTHR00AP.mp3",
+  "narration": "assets/hthr/HTHR00AJ.mp3",
+  "sound": "assets/hthr/HTHR00SA.mp3"
+}

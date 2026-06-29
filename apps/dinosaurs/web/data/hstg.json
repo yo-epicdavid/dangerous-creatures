@@ -1,0 +1,132 @@
+{
+  "id": "hstg",
+  "code": "HSTG",
+  "name": "How to Recognize Stegosaurs",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "roofed lizard",
+  "period": "",
+  "diet": "",
+  "tagline": "Their famous back plates were a built-in heating and cooling system — and those spiked tails were serious weapons!",
+  "hero": {
+    "image": "assets/hstg/HSTG00AA.webp",
+    "alt": "How to Recognize Stegosaurs"
+  },
+  "intro": "If you look at stegosaurs in profile, you'll immediately recognize the most prominent feature of this group of plant-eating dinosaurs: the rows of plates or spines that ran down their necks, backs, and tails, and the pairs of spikes on the end of their tails. Although their back legs were longer than their front legs, stegosaurs probably spent their days on all four feet, unable to rise up on two legs and run like some of their ornithischian relatives.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "impressive-plates-and-spikes",
+      "title": "Impressive Plates and Spikes",
+      "image": "assets/hstg/HSTG01PU.webp",
+      "text": "When stegosaurs were first discovered, scientists thought that the plates lay flat on the dinosaurs' bodies, like the tiles on a roof. Consequently, the name, stegosaur, means \"roofed lizard.\" Now experts believe that the plates stood up on the stegosaurs' backs.",
+      "captions": [
+        {
+          "label": "Central heating system",
+          "text": "The bony plates were not solid, but contained spaces and grooves that were filled with blood vessels. The dinosaur probably used these plates to maintain its body temperature. In the sun, the plates would help warm the rest of the body; in the shade or the breeze, the plates would have cooled the dinosaur's blood."
+        },
+        {
+          "label": "Terrible tail",
+          "text": "Stegosaurs were equipped with long spikes on the ends of their muscular tails. These would have been intimidating weapons to an attacker sneaking up from the rear."
+        }
+      ]
+    },
+    {
+      "id": "small-skulls-and-weak-jaws",
+      "title": "Small Skulls and Weak Jaws",
+      "image": "assets/hstg/HSTG02PU.webp",
+      "text": "Stegosaurs had small, narrow skulls that didn't leave much room for brains. Did this mean that they weren't particularly bright animals? They survived for millions of years, so whatever brainpower they had was sufficient for the world in which they lived.",
+      "captions": [
+        {
+          "label": "Beaks and tiny teeth",
+          "text": "The plated dinosaurs wouldn't have been able to eat tough vegetation: they had only toothless beaks at the front of their jaws and small teeth at the back. Stegosaurs probably ate only soft plants and swallowed stones to help crush the plant matter inside their stomachs."
+        }
+      ]
+    },
+    {
+      "id": "long-back-legs-and-bird-like-hips",
+      "title": "Long Back Legs and Bird-Like Hips",
+      "image": "assets/hstg/HSTG03PU.webp",
+      "text": "Stegosaurs are ornithischian (bird-hipped) dinosaurs with long back legs. Unlike many other ornithischians, which walked on two legs, the plated dinosaurs walked on all fours, and their long back legs made their hips higher than their shoulders.",
+      "captions": [
+        {
+          "label": "A dinosaur like a bird?",
+          "text": "It's hard to imagine a connection between stegosaurs and birds. However, in hip structure these two types of animals were very similar, and hip structure is a primary way to classify dinosaurs. In bird-hipped dinosaurs, the two lower pelvic bones pointed backward and down. In the saurischians or \"lizard-hipped\" dinosaurs, one of the two lower pelvic bones pointed forward and one pointed backward."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Stegosaurus",
+      "to": "steg"
+    },
+    {
+      "label": "Kentrosaurus",
+      "to": "kent"
+    },
+    {
+      "label": "Teeth of Plant-eaters",
+      "to": "ptee"
+    },
+    {
+      "label": "Two Feet or Four?",
+      "to": "twof"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/hstg/HSTG00AA.webp",
+        "hotspots": [
+          {
+            "label": "Impressive plates and spikes",
+            "to": "impressive-plates-and-spikes",
+            "x": 54,
+            "y": 26,
+            "w": 40,
+            "h": 5
+          },
+          {
+            "label": "Small skulls and weak jaws",
+            "to": "small-skulls-and-weak-jaws",
+            "x": 9,
+            "y": 48,
+            "w": 36,
+            "h": 5
+          },
+          {
+            "label": "Long back legs and bird-like hips",
+            "to": "long-back-legs-and-bird-like-hips",
+            "x": 43,
+            "y": 80,
+            "w": 47,
+            "h": 5
+          }
+        ]
+      },
+      "impressive-plates-and-spikes": {
+        "image": "assets/hstg/HSTG01PU.webp",
+        "back": "main"
+      },
+      "small-skulls-and-weak-jaws": {
+        "image": "assets/hstg/HSTG02PU.webp",
+        "back": "main"
+      },
+      "long-back-legs-and-bird-like-hips": {
+        "image": "assets/hstg/HSTG03PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/hstg/HSTG00AP.mp3",
+  "narration": "assets/hstg/HSTG00AJ.mp3",
+  "sound": "assets/hstg/HSTG00SA.mp3"
+}

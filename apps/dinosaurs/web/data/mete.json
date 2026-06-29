@@ -1,0 +1,239 @@
+{
+  "id": "mete",
+  "code": "METE",
+  "name": "Teeth of Meat-Eaters",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Sharp, stabbing, and as big as bananas — meat-eater teeth were nature's most terrifying weapons.",
+  "hero": {
+    "image": "assets/mete/METE00AA.webp",
+    "alt": "Teeth of Meat-Eaters"
+  },
+  "intro": "The most frightening weapons of meat-eaters like Tyrannosaurus rex were their teeth. Their huge, powerful jaws were filled with as many as sixty of them, which were about the size and shape of bananas. These were sharp, stabbing, tearing teeth with notched edges like a steak knife. Millions of years after the extinction of the last dinosaur, saber-toothed predators like Smilodon evolved having two large front teeth even longer than Tyrannosaurus rex's. The early cat was as big as a modern leopard. It would leap up, then lunge downward with its saber-teeth, attempting to stab its prey. Smilodon may have used its teeth to cut the neck arteries of its victims, causing the prey to bleed to death.",
+  "facts": [
+    {
+      "label": "Teeth per jaw",
+      "value": "Up to sixty"
+    },
+    {
+      "label": "Tooth size",
+      "value": "About the size and shape of bananas"
+    },
+    {
+      "label": "Saber-tooth length",
+      "value": "About eight inches"
+    }
+  ],
+  "topics": [
+    {
+      "id": "wounding-tooth",
+      "title": "\"Wounding Tooth\"",
+      "image": "assets/mete/METE01PU.webp",
+      "text": "Although it was smaller than the human cutting tooth, or incisor, the tooth of Troodon shows that the relatively small dinosaur could still be vicious. The name Troodon means \"wounding tooth.\"\n\nSmall but smart\nTroodon, about the size of a large dog, had a relatively small head for a meat-eater. But a large brain, large eyes, and a sharp sickle-shaped claw on each foot, suggest Troodon was a good hunter by day or night.",
+      "captions": [
+        {
+          "label": "Troodon tooth",
+          "text": "Troodon tooth"
+        },
+        {
+          "label": "Human molar",
+          "text": "Human molar"
+        }
+      ]
+    },
+    {
+      "id": "tyrannosaurus-rex",
+      "title": "Tyrannosaurus Rex",
+      "image": "assets/mete/METE02PU.webp",
+      "text": "The view from the side shows just how terrifying the jaws of Tyrannosaurus rex were. The predator's dagger-like teeth lined both upper and lower jaws, front to back. With such teeth, Tyrannosaurus rex could rip away huge chunks of flesh from its victims. Not all of its teeth were the same size, however. Shown next to a modern lion's slicing tooth, it suggests that even a meat-eater's smaller teeth were fearsome weapons.",
+      "captions": [
+        {
+          "label": "Lion slicing tooth",
+          "text": "Lion slicing tooth"
+        },
+        {
+          "label": "Tyrannosaurus rex tooth",
+          "text": "Tyrannosaurus rex tooth"
+        }
+      ]
+    },
+    {
+      "id": "megalosaurus",
+      "title": "Megalosaurus",
+      "image": "assets/mete/METE03PU.webp",
+      "text": "A distant, bulky ancestor of Tyrannosaurus rex, Megalosaurus was one of the first two-legged dinosaurs to be named by scientists. Its jaws looked very much like those of Tyrannosaurus rex. Megalosaurus's huge, sharply pointed teeth curved backward to give the dinosaur a better grip on its victims. A close look at one of these teeth shows that the edges are saw-like, which helped the teeth slice deeply into the flesh of prey.",
+      "captions": [
+        {
+          "label": "Megalosaurus jaw",
+          "text": "Megalosaurus jaw"
+        },
+        {
+          "label": "Megalosaurus tooth",
+          "text": "Megalosaurus tooth"
+        }
+      ]
+    },
+    {
+      "id": "sea-dragons",
+      "title": "Sea Dragons",
+      "image": "assets/mete/METE04PU.webp",
+      "text": "Sea-going reptiles like mosasaurs and ichthyosaurs had teeth very much like those of land-bound predators. Mosasaurs, which grew up to thirty feet long, had jaws lined with sharp, pointed teeth that curved backward. These sea lizards used their teeth to crack open the shells of ammonites. Ichthyosaurs had long jaws packed with short, sharp teeth that pointed backward. Ichthyosaurs were early reptiles that resembled modern-day dolphins.",
+      "captions": [
+        {
+          "label": "Ichthyosaur teeth",
+          "text": "Ichthyosaur teeth"
+        },
+        {
+          "label": "Mosasaur jaw",
+          "text": "Mosasaur jaw"
+        },
+        {
+          "label": "Ichthyosaur skull",
+          "text": "Ichthyosaur skull"
+        }
+      ]
+    },
+    {
+      "id": "saber-tooth",
+      "title": "Saber-Tooth",
+      "image": "assets/mete/METE05PU.webp",
+      "text": "The saber-teeth of Smilodon were about eight inches long! Roots of those large teeth probably were not strong enough to anchor them to the jawbone. So, instead of using their teeth to hold on to their victim, the teeth were probably used only for stabbing.",
+      "captions": [
+        {
+          "label": "Smilodon skull",
+          "text": "Smilodon skull"
+        }
+      ]
+    },
+    {
+      "id": "egg-spikes",
+      "title": "Egg Spikes",
+      "image": "assets/mete/METE06PU.webp",
+      "text": "Although they were not really teeth, Oviraptor had two sharp tooth-like spikes in the roof of its mouth. The spikes, in addition to its strong jaws, allowed this egg thief to crack or pierce the eggs of other dinosaurs. Oviraptor then drained and consumed their contents."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaur Defense",
+      "to": "ddef"
+    },
+    {
+      "label": "The Smallest Dinosaurs",
+      "to": "smal"
+    },
+    {
+      "label": "Meat-eaters",
+      "to": "meat"
+    },
+    {
+      "label": "Megalosaurus",
+      "to": "mega"
+    },
+    {
+      "label": "Ichthyosaurus",
+      "to": "icht"
+    },
+    {
+      "label": "Teeth",
+      "to": "teet"
+    },
+    {
+      "label": "Oviraptor",
+      "to": "ovir"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mete/METE00AA.webp",
+        "hotspots": [
+          {
+            "label": "\"Wounding tooth\"",
+            "to": "wounding-tooth",
+            "x": 53,
+            "y": 35,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Tyrannosaurus rex",
+            "to": "tyrannosaurus-rex",
+            "x": 53,
+            "y": 46,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Megalosaurus",
+            "to": "megalosaurus",
+            "x": 53,
+            "y": 55,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Egg spikes",
+            "to": "egg-spikes",
+            "x": 53,
+            "y": 63,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "Saber-tooth",
+            "to": "saber-tooth",
+            "x": 12,
+            "y": 73,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Sea dragons",
+            "to": "sea-dragons",
+            "x": 12,
+            "y": 80,
+            "w": 14,
+            "h": 5
+          }
+        ]
+      },
+      "wounding-tooth": {
+        "image": "assets/mete/METE01PU.webp",
+        "back": "main"
+      },
+      "tyrannosaurus-rex": {
+        "image": "assets/mete/METE02PU.webp",
+        "back": "main"
+      },
+      "megalosaurus": {
+        "image": "assets/mete/METE03PU.webp",
+        "back": "main"
+      },
+      "sea-dragons": {
+        "image": "assets/mete/METE04PU.webp",
+        "back": "main"
+      },
+      "saber-tooth": {
+        "image": "assets/mete/METE05PU.webp",
+        "back": "main"
+      },
+      "egg-spikes": {
+        "image": "assets/mete/METE06PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/mete/METE00AP.mp3",
+  "narration": "assets/mete/METE00AJ.mp3",
+  "sound": "assets/mete/METE00SA.mp3"
+}

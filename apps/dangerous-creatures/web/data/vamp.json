@@ -1,0 +1,249 @@
+{
+  "id": "vamp",
+  "code": "VAMP",
+  "name": "Vampire Bat",
+  "scientificName": "Desmodus rotundus",
+  "needsScientificVerify": false,
+  "tagline": "This tiny night-stalker drinks your blood while you sleep — and you won't feel a thing.",
+  "weapons": [
+    "Disease Carriers"
+  ],
+  "habitats": [
+    "Rainforest & Jungle",
+    "Cities & Farmland"
+  ],
+  "regions": [
+    "Central America",
+    "South America"
+  ],
+  "hero": {
+    "image": "assets/vamp/VAMP00AA.webp",
+    "alt": "Vampire Bat"
+  },
+  "intro": "After dark, this little beast emerges to look for blood. With the precision of an experienced surgeon, a vampire bat slices a small wound in an animal and then laps up its blood. Most victims never even know the bat was there because they sleep right through the attack. This creepy behavior has made the vampire bat the subject of many tales of terror. Is its reputation justified?",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Injures by spreading infectious viruses, especially rabies",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Blood of warm-blooded animals, mostly cattle, horses, sheep, and goats",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "Quick and painless! The razor-sharp bite of the vampire bat usually goes unnoticed by its sleeping victim, although the bat stays to lap up its meal of blood!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 17.5cm (7in)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Region: Central America South America",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "bouquet-of-bats",
+      "title": "Bouquet of bats",
+      "image": "assets/vamp/VAMP01PU.webp",
+      "text": "Bats usually sleep in unheated places like caves or empty buildings, so they frequently huddle together for warmth. Some bats hibernate through the winter, breathing so slowly that you might think they were dead. But when the weather gets warm, they wake up and separate from the others to cool off.",
+      "captions": [
+        {
+          "label": "Pip-squeak pipistrelles",
+          "text": "The bodies of these tiny pipistrelle bats are only four centimeters (1.6 in) long. This size isn't unusual in the bat world. In fact, you could hold many types of bats in your hand!"
+        }
+      ],
+      "narration": "assets/vamp/VAMP01NP.mp3"
+    },
+    {
+      "id": "amazing-acrobats",
+      "title": "Amazing acrobats",
+      "image": "assets/vamp/VAMP02PU.webp",
+      "text": "Bats that are chasing after insects can change direction faster than our eyes can follow. They use their wings not only to fly but also to scoop insects out of the air. Some bats also have leathery tails, which they use as both a rudder and a brake during flight.",
+      "captions": [
+        {
+          "label": "Hunting on the wing",
+          "text": "By positioning its wings forward, this Daubenton's bat can form a \"net\" to trap a juicy moth in the air. It usually hunts by flying over a river or lake, and may use its feet to pluck a fat bug from the water's surface, just like a fishing bird."
+        }
+      ],
+      "narration": "assets/vamp/VAMP02NP.mp3"
+    },
+    {
+      "id": "echolocation",
+      "title": "Echolocation",
+      "image": "assets/vamp/VAMP03PU.webp",
+      "text": "Insect-eating bats are nocturnal, which means they do their hunting at night. How can they find their prey in the dark? The answer is echolocation, which means just what it sounds like: locating something by listening to echoes.",
+      "captions": [
+        {
+          "label": "Bouncing sound around",
+          "text": "Bats make very high-pitched squeals that humans can't hear. These sounds bounce off nearby objects and return to the bat's sensitive ears and nose as echoes. By \"reading\" these echoes, bats can zoom in on their prey, even in total darkness."
+        }
+      ],
+      "narration": "assets/vamp/VAMP03NP.mp3"
+    },
+    {
+      "id": "bat-anatomy",
+      "title": "Bat anatomy",
+      "image": "assets/vamp/VAMP04PU.webp",
+      "text": "In a bat's wings, a \"cape\" of leather stretches between the bat's body and the \"arm\" bones to form a lightweight flying wing. We humans have borrowed this design for our own hang gliders.",
+      "captions": [
+        {
+          "label": "Long arms",
+          "text": "You can see that a bat's wings are similar to our arms. Their \"hands\" have only one short, clawed finger that sticks out of the skin. Bats use this finger to hook onto things and to crawl around on the ground. Their other \"finger\" bones support the wings."
+        },
+        {
+          "label": "Bat skull",
+          "text": "Who would have imagined that an animal would need such sharp teeth to eat fruit?"
+        }
+      ],
+      "narration": "assets/vamp/VAMP04NP.mp3"
+    },
+    {
+      "id": "hanging-out",
+      "title": "Hanging out",
+      "image": "assets/vamp/VAMP05PU.webp",
+      "text": "When bats are not flying, they spend the rest of their time upside down. They like to sleep in trees, caves, barns, or even houses. When the weather's cold, they huddle together to keep each other warm.",
+      "captions": [
+        {
+          "label": "Claws for crawling",
+          "text": "With wings folded, bats can crawl right side up on the ground or upside down along a branch. They use the one clawed finger on each wing, together with their back feet, which have many clawed toes, for a secure grip."
+        }
+      ],
+      "narration": "assets/vamp/VAMP05NP.mp3"
+    },
+    {
+      "id": "fruit-juicer",
+      "title": "Fruit juicer",
+      "image": "assets/vamp/VAMP06PU.webp",
+      "text": "Fruit bats depend on keen eyesight and a highly developed sense of smell to find their food. Their big furry heads and dog-like faces give fruit bats the nickname of \"flying foxes\". This Franquet's bat lives in African forests and eats soft fruits like guavas, bananas, and figs.",
+      "narration": "assets/vamp/VAMP06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/vamp/VAMP00AA.webp",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 4.87,
+            "y": 8.32,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Bouquet of bats",
+            "to": "bouquet-of-bats",
+            "x": 69.24,
+            "y": 17.41,
+            "w": 14.01,
+            "h": 4.13
+          },
+          {
+            "label": "Amazing acrobats",
+            "to": "amazing-acrobats",
+            "x": 56,
+            "y": 20,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "What's for dinner?",
+            "to": "video",
+            "x": 53,
+            "y": 29,
+            "w": 25,
+            "h": 6
+          },
+          {
+            "label": "Hanging out",
+            "to": "hanging-out",
+            "x": 7.68,
+            "y": 46.64,
+            "w": 13.08,
+            "h": 9.98
+          },
+          {
+            "label": "Bat anatomy",
+            "to": "bat-anatomy",
+            "x": 7.68,
+            "y": 53.78,
+            "w": 11.36,
+            "h": 2.83
+          },
+          {
+            "label": "Fruit juicer",
+            "to": "fruit-juicer",
+            "x": 47.37,
+            "y": 61.57,
+            "w": 21.51,
+            "h": 7.38
+          },
+          {
+            "label": "Echolocation",
+            "to": "echolocation",
+            "x": 46,
+            "y": 75,
+            "w": 16,
+            "h": 6
+          }
+        ]
+      },
+      "bouquet-of-bats": {
+        "image": "assets/vamp/VAMP01PU.webp",
+        "back": "main"
+      },
+      "amazing-acrobats": {
+        "image": "assets/vamp/VAMP02PU.webp",
+        "back": "main"
+      },
+      "echolocation": {
+        "image": "assets/vamp/VAMP03PU.webp",
+        "back": "main"
+      },
+      "bat-anatomy": {
+        "image": "assets/vamp/VAMP04PU.webp",
+        "back": "main"
+      },
+      "hanging-out": {
+        "image": "assets/vamp/VAMP05PU.webp",
+        "back": "main"
+      },
+      "fruit-juicer": {
+        "image": "assets/vamp/VAMP06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/vamp/VAMP00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/vamp/clip.mp4",
+        "poster": "assets/vamp/VAMP07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "ambient": "assets/vamp/narration.mp3",
+  "sound": "assets/vamp/VAMP00AF.mp3",
+  "factsNarration": "assets/vamp/VAMP00FB.mp3",
+  "video": {
+    "title": "What's for dinner?",
+    "src": "assets/vamp/clip.mp4",
+    "poster": "assets/vamp/poster.webp",
+    "caption": "The vampire bats are unique in the bat world, because all these tiny creatures crave is blood, blood, blood! Most bats crave fruit or insects instead. The two types shown here eat insects and spiders."
+  }
+}

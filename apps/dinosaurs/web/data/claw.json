@@ -1,0 +1,147 @@
+{
+  "id": "claw",
+  "code": "CLAW",
+  "name": "Claws",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "CLAWZ",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Every fossil claw bone tells a story about the dinosaur it belonged to.",
+  "hero": {
+    "image": "assets/claw/CLAW00AA.webp",
+    "alt": "Claws"
+  },
+  "intro": "If you look closely at the animals around us today, you'll notice that most have claws that they use for defense, or for grasping, climbing, or digging. Dinosaurs, too, had all kinds of claws, and because their claws were thick and heavy, many dinosaur claw bones have been preserved as fossils. Every fossil claw bone can tell us a lot about the lifestyle of the dinosaur it belonged to.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "hook-line-or-claw",
+      "title": "Hook, Line, or Claw?",
+      "image": "assets/claw/CLAW01PU.webp",
+      "text": "Fossil scales of the prehistoric fish Lepidotes have been found with the remains of Baryonyx, causing paleontologists to speculate that this dinosaur may have fished with its enormous, hooked claws. Only one twelve-inch claw bone has been found, but the dinosaur probably had at least two on each \"hand.\" These large curved claws give Baryonyx the nickname \"Claws.\""
+    },
+    {
+      "id": "egg-stealing-claws",
+      "title": "Egg-Stealing Claws",
+      "image": "assets/claw/CLAW02PU.webp",
+      "text": "Atop one nest belonging to Protoceratops, the remains of Oviraptor were found. Did this fast-running dinosaur use its clawed fingers to break open the eggs of other dinosaurs? It seems probable. Oviraptor, whose name means \"egg thief,\" had strong jaws and two sharp spikes in the roof of its mouth that would have been perfect for piercing eggs."
+    },
+    {
+      "id": "thumb-spikes",
+      "title": "Thumb Spikes",
+      "image": "assets/claw/CLAW03PU.webp",
+      "text": "Iguanodon had unusual sharp spikes on its \"hands\" instead of claws. Although this dinosaur could stand on two feet, paleontologists think that it probably walked on all fours most of the time, because Iguanodon's \"hands\" included three toes that ended in hooves and couldn't have been used to grasp food. The spikes may have been used for digging, or for defense."
+    },
+    {
+      "id": "claws-of-a-killer",
+      "title": "Claws of a Killer",
+      "image": "assets/claw/CLAW04PU.webp",
+      "text": "The main claw bones on the feet of Deinonychus were razor-sharp, five inches long, and curved like sickles. When this dinosaur was in hot pursuit of prey, these claws were held up off the ground. After Deinonychus caught up to its unfortunate victim, this predator would have leaped up and kicked out with its back legs. When attacking, Deinonychus would rotate the sickle-shaped claws downward in slashing motions that could open mortal wounds. It's no wonder that this dinosaur was named \"terrible claw.\""
+    },
+    {
+      "id": "collection-of-claws",
+      "title": "Collection of Claws",
+      "image": "assets/claw/CLAW05PU.webp",
+      "text": "Every fossil claw bone has a story to tell about its owner. Meat-eating dinosaurs had sharp, talon-like claws that could be used to hold or kill other dinosaurs; plant-eaters had broader, more flattened hoof-like claws that could be used for defense or for digging up food.",
+      "captions": [
+        {
+          "label": "Ornithomimus claw",
+          "text": "Although Ornithomimus was a meat-eater descendant, its claws were quite flattened, and would not have been much use for attack. It's more likely they were used only for hanging on to food, or for probing."
+        },
+        {
+          "label": "Apatosaurus claw",
+          "text": "This huge claw came from a sauropod named Apatosaurus. The other claws of this plant-eater were short and hoof-like. Apatosaurus may have used this spiky claw from the inside of its front foot for digging up food or for defending itself from an attacker."
+        },
+        {
+          "label": "Massospondylus claw",
+          "text": "This claw came from an unusual prosauropod dinosaur that had five-fingered \"hands\" and several types of teeth. Since Massospondylus seems to have been a plant-eater, these claws were probably used only for defense or for scratching around for food."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Two Feet or Four?",
+      "to": "twof"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/claw/CLAW00AA.webp",
+        "hotspots": [
+          {
+            "label": "Claws of a killer",
+            "to": "claws-of-a-killer",
+            "x": 7,
+            "y": 82,
+            "w": 19,
+            "h": 7
+          },
+          {
+            "label": "Thumb spikes",
+            "to": "thumb-spikes",
+            "x": 32,
+            "y": 82,
+            "w": 14,
+            "h": 7
+          },
+          {
+            "label": "Egg-stealing claws",
+            "to": "egg-stealing-claws",
+            "x": 54,
+            "y": 53,
+            "w": 17,
+            "h": 7
+          },
+          {
+            "label": "Hook, line, or claw?",
+            "to": "hook-line-or-claw",
+            "x": 60,
+            "y": 62,
+            "w": 21,
+            "h": 7
+          },
+          {
+            "label": "Collection of claws",
+            "to": "collection-of-claws",
+            "x": 73,
+            "y": 76,
+            "w": 17,
+            "h": 8
+          }
+        ]
+      },
+      "hook-line-or-claw": {
+        "image": "assets/claw/CLAW01PU.webp",
+        "back": "main"
+      },
+      "egg-stealing-claws": {
+        "image": "assets/claw/CLAW02PU.webp",
+        "back": "main"
+      },
+      "thumb-spikes": {
+        "image": "assets/claw/CLAW03PU.webp",
+        "back": "main"
+      },
+      "claws-of-a-killer": {
+        "image": "assets/claw/CLAW04PU.webp",
+        "back": "main"
+      },
+      "collection-of-claws": {
+        "image": "assets/claw/CLAW05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/claw/CLAW00AP.mp3",
+  "narration": "assets/claw/CLAW00AJ.mp3"
+}

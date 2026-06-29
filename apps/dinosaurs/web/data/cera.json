@@ -1,0 +1,100 @@
+{
+  "id": "cera",
+  "code": "CERA",
+  "name": "Ceratosaurus",
+  "category": "dinosaur",
+  "scientificName": "Ceratosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "seh-RAT-oh-SOR-us",
+  "meaning": "Horned lizard",
+  "period": "Late Jurassic",
+  "diet": "Carnivore",
+  "tagline": "Built to bite — this four-fingered predator had jaws that could swing open and slam shut like a trap.",
+  "hero": {
+    "image": "assets/cera/CERA00AA.webp",
+    "alt": "Ceratosaurus"
+  },
+  "intro": "Ceratosaurus, or \"horned lizard,\" was a theropod dinosaur similar to Allosaurus, but only about half as big.  It may have been a vicious predator and was named for the bump on its snout, which was probably not really a horn but instead a small crest covered with skin.  Unlike later theropods, which had three fingers with a long second finger, or just two fingers, Ceratosaurus had four fingers on each \"hand.\"",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Africa, North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Horned lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Theropod"
+    },
+    {
+      "label": "Length",
+      "value": "8m(20ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "1 ton"
+    }
+  ],
+  "topics": [
+    {
+      "id": "the-better-to-bite-with",
+      "title": "The Better to Bite With",
+      "image": "assets/cera/CERA01PU.webp",
+      "text": "This dinosaur was built to bite.  Ceratosaurus's lower jaw stretched almost the full length of the dinosaur's skull.  Powerful jaw muscles stretched up behind the eye from the area in back of its teeth.  Ceratosaurus's strong neck was flexible for lunging at its prey while forcefully attacking with its gnashing jaws.",
+      "captions": [
+        {
+          "label": "Huge head",
+          "text": "The skull was almost three and a half feet long.  Hinged at the rear, the jaws could swing open, closing down in a ferocious bite."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaur National Monument",
+      "to": "dnmu"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/cera/CERA00AA.webp",
+        "hotspots": [
+          {
+            "label": "The better to bite with",
+            "to": "the-better-to-bite-with",
+            "x": 72,
+            "y": 52,
+            "w": 24,
+            "h": 11
+          }
+        ]
+      },
+      "the-better-to-bite-with": {
+        "image": "assets/cera/CERA01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/cera/CERA50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/cera/CERA00AP.mp3",
+  "narration": "assets/cera/CERA00AJ.mp3"
+}

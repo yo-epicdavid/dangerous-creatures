@@ -1,0 +1,148 @@
+{
+  "id": "desc",
+  "code": "DESC",
+  "name": "Dinosaur Descendants",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "die-NO-sor de-SEN-dants",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "The dinosaurs disappeared — but did they leave any living relatives behind?",
+  "hero": {
+    "image": "assets/desc/DESC00AA.webp",
+    "alt": "Dinosaur Descendants"
+  },
+  "intro": "Do the dinosaurs \"live on\" in some form?  Did they leave any descendants?  Are any of today's creatures their \"great-great-great-grandchildren\"?  See if you can guess which groups of modern backboned animals are the closest living relatives of the dinosaurs.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "fish",
+      "title": "Fish",
+      "image": "assets/desc/DESC01PU.webp",
+      "text": "Millions of years before dinosaurs appeared on Earth, primitive fish were swimming in the seas.  Because fish appeared long before dinosaurs, they cannot be the descendants of dinosaurs.  However, we know that several fish alive today, including the coelacanth, were living at the same time as the dinosaurs."
+    },
+    {
+      "id": "amphibians",
+      "title": "Amphibians",
+      "image": "assets/desc/DESC02PU.webp",
+      "text": "Amphibians appeared during the Devonian period, long before dinosaurs.  So amphibians cannot be the descendants of dinosaurs.",
+      "captions": [
+        {
+          "label": "Seymouria",
+          "text": "The holes behind each eye in the skull of this amphibian show that ears and hearing evolved very early in land animals."
+        },
+        {
+          "label": "Ichthyostega",
+          "text": "This is the oldest known four-legged animal, and still had fish-like scales and a fishy tail."
+        },
+        {
+          "label": "Diadectes",
+          "text": "With teeth designed for cutting and crushing, Diadectes was one of the first plant-eating animals."
+        }
+      ]
+    },
+    {
+      "id": "mammals",
+      "title": "Mammals",
+      "image": "assets/desc/DESC03PU.webp",
+      "text": "Some mammals are big, and some have horns like dinosaurs, but there are several reasons that mammals can't be descended from dinosaurs.  Mammals have fur or hair, give birth to babies, and feed their young on milk.  Dinosaurs had scaly skin, and hatched their young from eggs.  But most importantly, mammals originated at the same time as dinosaurs, so they cannot be the descendants of dinosaurs."
+    },
+    {
+      "id": "birds",
+      "title": "Birds",
+      "image": "assets/desc/DESC04PU.webp",
+      "text": "Did certain dinosaurs evolve into birds?  Possibly.  The skeletons of birds are very like those of some small dinosaurs such as Compsognathus.  Their skulls are also alike: they both have a hole, or nostril cavity, in front of the eye socket.  Large birds alive today, such as ostriches and emus, bear a striking resemblance to the \"ostrich dinosaurs\" such as Struthiomimus.  So yes, indeed, birds may well be the descendants of small meat-eating dinosaurs."
+    },
+    {
+      "id": "reptiles",
+      "title": "Reptiles",
+      "image": "assets/desc/DESC05PU.webp",
+      "text": "The dinosaurs were reptiles, so aren't their closest living relatives reptiles?  Not necessarily!  Reptiles like Moschops were evolving nearly 300 million years ago, before dinosaurs, and they split into many different groups.  One group of reptiles, the crocodiles, are very similar to dinosaurs.  So crocodiles may be living relatives of dinosaurs, but are not their descendants."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Life After Dinosaurs",
+      "to": "aftr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/desc/DESC00AA.webp",
+        "hotspots": [
+          {
+            "label": "Reptiles",
+            "to": "reptiles",
+            "x": 3,
+            "y": 68,
+            "w": 13,
+            "h": 7
+          },
+          {
+            "label": "Birds",
+            "to": "birds",
+            "x": 25,
+            "y": 47,
+            "w": 10,
+            "h": 6
+          },
+          {
+            "label": "Fish",
+            "to": "fish",
+            "x": 43,
+            "y": 70,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Mammals",
+            "to": "mammals",
+            "x": 76,
+            "y": 54,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Amphibians",
+            "to": "amphibians",
+            "x": 62,
+            "y": 73,
+            "w": 18,
+            "h": 7
+          }
+        ]
+      },
+      "fish": {
+        "image": "assets/desc/DESC01PU.webp",
+        "back": "main"
+      },
+      "amphibians": {
+        "image": "assets/desc/DESC02PU.webp",
+        "back": "main"
+      },
+      "mammals": {
+        "image": "assets/desc/DESC03PU.webp",
+        "back": "main"
+      },
+      "birds": {
+        "image": "assets/desc/DESC04PU.webp",
+        "back": "main"
+      },
+      "reptiles": {
+        "image": "assets/desc/DESC05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/desc/DESC00AP.mp3",
+  "narration": "assets/desc/DESC00AJ.mp3",
+  "sound": "assets/desc/DESC00SA.mp3"
+}

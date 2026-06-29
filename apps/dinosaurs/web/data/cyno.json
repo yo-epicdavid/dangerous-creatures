@@ -1,0 +1,124 @@
+{
+  "id": "cyno",
+  "code": "CYNO",
+  "name": "Cynognathus",
+  "category": "creature",
+  "scientificName": "Cynognathus",
+  "needsScientificVerify": false,
+  "pronunciation": "sy-NOG-nah-thus",
+  "meaning": "Dog Jaw",
+  "period": "Early Triassic",
+  "diet": "Carnivore",
+  "tagline": "Part reptile, part mammal — this wolf-sized ancient predator blurred the line between two worlds.",
+  "hero": {
+    "image": "assets/cyno/CYNO00AA.webp",
+    "alt": "Cynognathus"
+  },
+  "intro": "Cynognathus, a wolf-sized reptile from 250 million years ago, may have had fur and been warm-blooded, like a mammal. It had mammal-like teeth, as well as limbs tucked under its body. Only the arrangement of its jaw and ear bones keeps it classified as a reptile.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Africa, South America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Early Triassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Dog Jaw"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Therapsid"
+    },
+    {
+      "label": "Length",
+      "value": "1.5m (5ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "jaws-like-a-dog",
+      "title": "Jaws Like a Dog",
+      "image": "assets/cyno/CYNO01PU.webp",
+      "text": "This fossil Cynognathus skull bears some similarities to the skulls of dogs. Cynognathus is classified as a reptile, however. Mammal-like reptiles called therapsids dominated the land animals throughout much of the Permian and Triassic periods. It was from this group of reptiles that mammals evolved more than 200 million years ago.",
+      "captions": [
+        {
+          "label": "Dog-like teeth",
+          "text": "Dog-like teeth"
+        }
+      ]
+    },
+    {
+      "id": "unlikely-looking-relative",
+      "title": "Unlikely-Looking Relative",
+      "image": "assets/cyno/CYNO02PU.webp",
+      "text": "Moschops lived at the same time as Cynognathus. Both are classified as therapsids. Paleontologists think that mammals evolved from the therapsid group of reptiles. Moschops was one of the biggest animals of its age, with an appetite to match. Its huge body must have contained an enormous stomach to ferment the tough plants it ate.",
+      "captions": [
+        {
+          "label": "Moschops",
+          "text": "Moschops"
+        },
+        {
+          "label": "Cynognathus",
+          "text": "Cynognathus"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Warm-blooded or Cold-blooded?",
+      "to": "warm"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/cyno/CYNO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Jaws like a dog",
+            "to": "jaws-like-a-dog",
+            "x": 8,
+            "y": 70,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Unlikely-looking relative",
+            "to": "unlikely-looking-relative",
+            "x": 64,
+            "y": 46,
+            "w": 26,
+            "h": 5
+          }
+        ]
+      },
+      "jaws-like-a-dog": {
+        "image": "assets/cyno/CYNO01PU.webp",
+        "back": "main"
+      },
+      "unlikely-looking-relative": {
+        "image": "assets/cyno/CYNO02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/cyno/CYNO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/cyno/CYNO00AP.mp3",
+  "narration": "assets/cyno/CYNO00AJ.mp3"
+}

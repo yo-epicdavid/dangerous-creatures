@@ -1,0 +1,274 @@
+{
+  "id": "star",
+  "code": "STAR",
+  "name": "Starfish",
+  "category": "creature",
+  "scientificName": "Asteroidea",
+  "needsScientificVerify": false,
+  "tagline": "Deadly hunters hiding behind beautiful colors — meet the ocean's most successful star.",
+  "zones": [
+    "Coast & tide pools",
+    "Coral reef",
+    "Deep sea"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/star/STAR00AA.webp",
+    "alt": "Starfish"
+  },
+  "intro": "It's obvious why these creatures are called stars, but why they bear the name of fish is more of a mystery. They're not fish at all, but members of the tough-skinned group of marine invertebrates called Echinoderms. Starfish, or sea stars, may look like colorful toys or beautiful pieces of art to people, but to a clam, scallop, or oyster, starfish are deadly hunters. These peaceful-looking animals are some of the most abundant and successful predators in the ocean.",
+  "facts": [
+    {
+      "label": "Diet",
+      "value": "Starfish push their stomach outside their body to digest clams, scallops, and oysters — even while the prey is still alive."
+    },
+    {
+      "label": "Tube feet",
+      "value": "Starfish propel themselves on hundreds of tiny tube feet that operate like a hydraulic system, using water pressure to extend, contract, or create suction."
+    },
+    {
+      "label": "Size",
+      "value": "The red-knobbed starfish can measure up to 30 cm (12 in) in diameter."
+    },
+    {
+      "label": "Arms",
+      "value": "Some sunstars may have more than 20 arms, all lined with tube feet."
+    },
+    {
+      "label": "Habitat",
+      "value": "Starfish live at all depths in the oceans, from shorelines exposed at low tide to the bottom of the deepest trenches."
+    },
+    {
+      "label": "Relatives",
+      "value": "Starfish belong to the Echinoderm family, which also includes sea urchins, sea lilies, sea cucumbers, and brittle stars."
+    }
+  ],
+  "topics": [
+    {
+      "id": "pretty-predators",
+      "title": "Pretty predators",
+      "image": "assets/star/STAR01PU.webp",
+      "text": "Imagine being a clam and having a headless monster wrap its multiple arms around you and then pull your shell apart with its hundreds of tiny suction-cup feet! Next, the starfish pushes its stomach out over your soft body and begins to digest you while you're still alive! If you're a mollusk, a hungry starfish like this is a dreadful sight indeed.",
+      "narration": "assets/star/STAR01JN.mp3"
+    },
+    {
+      "id": "spine-skins",
+      "title": "Spine skins",
+      "image": "assets/star/STAR02PU.webp",
+      "text": "Echinoderms include not only starfish, but also sea urchins, sea lilies, sea cucumbers, and brittle stars. Most members of this family have defensive spines, and their bodies are arranged symmetrically around their mouths.",
+      "captions": [
+        {
+          "label": "Waterworks",
+          "text": "Sea urchins, sea cucumbers, and starfish take in seawater through a series of valves in their feet that works like a hydraulic system. It controls the amount of suction they can exert for movement or feeding. No shortage of running water here!"
+        },
+        {
+          "label": "Spine-tingling action",
+          "text": "The sea urchin moves by \"walking\" on its spines, which are equipped with tubelike feet. A sea urchin is symmetrical, with its mouth on its underside. It even has hard teeth!"
+        }
+      ],
+      "narration": "assets/star/STAR02JN.mp3"
+    },
+    {
+      "id": "beautiful-but-brittle",
+      "title": "Beautiful but brittle",
+      "image": "assets/star/STAR03PU.webp",
+      "text": "Brittle stars and basket stars are fragile members of the Echinoderm family that have unique styles of moving and feeding.",
+      "captions": [
+        {
+          "label": "Basket cases",
+          "text": "Basket stars are geniuses at capturing prey. Their five main arms are subdivided into smaller arms, making a kind of net that they can drape over their food. They rest during the day, then spread their nets or baskets at night to trap their prey."
+        },
+        {
+          "label": "Food snatchers",
+          "text": "Brittle stars can move fast. Their arms propel them along in a lateral, snakelike motion. They also wave their arms around at feeding time and either collect small food particles from the current or yank off morsels of dead fish, sponge, or seaweed."
+        }
+      ],
+      "narration": "assets/star/STAR03JN.mp3"
+    },
+    {
+      "id": "rainbow-colors",
+      "title": "Rainbow colors",
+      "image": "assets/star/STAR04PU.webp",
+      "text": "Starfish come in every color of the rainbow. Some are the most vividly hued of all marine invertebrates.",
+      "captions": [
+        {
+          "label": "Multicolored",
+          "text": "The red-knobbed starfish is very common in the Indian and Pacific oceans. It can measure up to 30 cm (12 in) in diameter."
+        },
+        {
+          "label": "Brilliant blue",
+          "text": "The blue starfish is so dazzling that it almost looks fake. This starfish inhabits the waters around Australia, Singapore, Sri Lanka, the Philippines, and Fiji."
+        }
+      ],
+      "narration": "assets/star/STAR04JN.mp3"
+    },
+    {
+      "id": "the-better-to-grab-with",
+      "title": "The better to grab with",
+      "image": "assets/star/STAR05PU.webp",
+      "text": "Scientists call the limbs of starfish arms, not legs. Starfish don't actually walk on their arms, but instead propel themselves on tiny appendages located on the arms' undersides. These appendages are called tube feet. So if you think about it, starfish have feet on their arms!",
+      "captions": [
+        {
+          "label": "Water feat",
+          "text": "Tube feet operate by water pressure. Water flows through canals inside the starfish and collects in a reservoir in the foot. The starfish can force this water into and out of its tube feet to extend or contract them or to create suction."
+        },
+        {
+          "label": "Many arms means many feet",
+          "text": "One tube foot acting alone wouldn't have much power, but acting together with all the feet aligned on the starfish's five or more arms, the force exerted is considerable. Sunstars like this one may have more than 20 arms, all lined with tube feet."
+        }
+      ],
+      "narration": "assets/star/STAR05JN.mp3"
+    },
+    {
+      "id": "get-a-grip",
+      "title": "Get a grip",
+      "image": "assets/star/STAR06PU.webp",
+      "text": "Feather stars—which are members of a group called Crinoids—are beautiful but grabby creatures. They only feed at night, extending and waving their arms to trap food particles. They look flexible, but these creatures are actually very brittle, and their arms break easily when they're attacked. Fortunately, they can just as easily regrow them. Crinoids lived in prehistoric seas at the time of the dinosaurs. In fact, the little round rocks that some native peoples used as beads are really fossils, pieces of ancient crinoids.",
+      "narration": "assets/star/STAR06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Octopuses",
+      "to": "octo"
+    },
+    {
+      "label": "Sea Otters",
+      "to": "ottr"
+    },
+    {
+      "label": "Lobsters",
+      "to": "lobs"
+    },
+    {
+      "label": "Flatworms",
+      "to": "flat"
+    },
+    {
+      "label": "Plankton",
+      "to": "plan"
+    },
+    {
+      "label": "Anemones",
+      "to": "anem"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/star/STAR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 3,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Pretty predators",
+            "to": "pretty-predators",
+            "x": 55,
+            "y": 17,
+            "w": 22,
+            "h": 4
+          },
+          {
+            "label": "The better to grab with",
+            "to": "the-better-to-grab-with",
+            "x": 44,
+            "y": 29,
+            "w": 29,
+            "h": 4
+          },
+          {
+            "label": "They're everywhere",
+            "to": "video",
+            "x": 55,
+            "y": 38,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Rainbow colors",
+            "to": "rainbow-colors",
+            "x": 3,
+            "y": 46,
+            "w": 18,
+            "h": 4
+          },
+          {
+            "label": "Beautiful but brittle",
+            "to": "beautiful-but-brittle",
+            "x": 3,
+            "y": 69,
+            "w": 23,
+            "h": 4
+          },
+          {
+            "label": "Spine skins",
+            "to": "spine-skins",
+            "x": 36,
+            "y": 68,
+            "w": 14,
+            "h": 4
+          },
+          {
+            "label": "Get a grip",
+            "to": "get-a-grip",
+            "x": 28,
+            "y": 78,
+            "w": 13,
+            "h": 4
+          }
+        ]
+      },
+      "pretty-predators": {
+        "image": "assets/star/STAR01PU.webp",
+        "back": "main"
+      },
+      "spine-skins": {
+        "image": "assets/star/STAR02PU.webp",
+        "back": "main"
+      },
+      "beautiful-but-brittle": {
+        "image": "assets/star/STAR03PU.webp",
+        "back": "main"
+      },
+      "rainbow-colors": {
+        "image": "assets/star/STAR04PU.webp",
+        "back": "main"
+      },
+      "the-better-to-grab-with": {
+        "image": "assets/star/STAR05PU.webp",
+        "back": "main"
+      },
+      "get-a-grip": {
+        "image": "assets/star/STAR06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/star/clip.mp4",
+        "poster": "assets/star/STAR07PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/star/STAR00JN.mp3",
+  "sound": "assets/star/STAR00IX.mp3",
+  "video": {
+    "title": "They're everywhere",
+    "src": "assets/star/clip.mp4",
+    "poster": "assets/star/poster.webp",
+    "caption": "Starfish are adaptable creatures that live at all depths in the oceans. Some species live along the shore, where they are regularly exposed to the air during low tides. Other species live on muddy or sandy sea floors. And even at the bottom of the deepest trenches, you'll find starfish that have adapted to a cold, lightless environment.",
+    "narration": "assets/star/STAR07JN.mp3"
+  }
+}

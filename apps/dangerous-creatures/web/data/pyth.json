@@ -1,0 +1,289 @@
+{
+  "id": "pyth",
+  "code": "PYTH",
+  "name": "Python",
+  "scientificName": "Python reticulatus",
+  "needsScientificVerify": false,
+  "tagline": "The world's longest snake can squeeze the life out of animals far bigger than itself!",
+  "weapons": [
+    "Constriction"
+  ],
+  "habitats": [
+    "Rainforest & Jungle",
+    "Grassland & Savanna"
+  ],
+  "regions": [
+    "Africa",
+    "Asia",
+    "Australia & Oceania"
+  ],
+  "hero": {
+    "image": "assets/pyth/PYTH00AA.webp",
+    "alt": "Python"
+  },
+  "intro": "A python is probably the longest snake in the world. The biggest one found–a reticulated python–was as long as a three-story building is tall! Python sizes and habits vary–from Asian snakes ornery enough to eat deer, to African snakes that tuck themselves into a ball, to Australian snakes kept in barns to wipe out rats. This African rock python is one of the world's largest snakes.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by squeezing and suffocating its prey",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Small reptiles, birds, pigs, and deer",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "According to some African legends, a python leaves behind a giant jewel when it dies.",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 10m (33ft)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Africa, Asia, Australasia, India",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "whats-a-constrictor",
+      "title": "What's a constrictor?",
+      "image": "assets/pyth/PYTH01PU.webp",
+      "text": "Snakes that kill their prey by squeezing them in their coils are called constrictors.",
+      "captions": [
+        {
+          "label": "Just a little squeeze",
+          "text": "You'd have to place six Mexican milk snakes end-to-end to equal the length of one large boa constrictor, but the small striped snake squeezes its prey in exactly the same way as its giant distant relative."
+        },
+        {
+          "label": "Great big hug",
+          "text": "A constrictor grabs its prey with its teeth and throws a loop of its body around it. The snake doesn't squash its prey–it applies just enough pressure to keep the animal from breathing. Every time the prey exhales, the snake tightens its coils a little. Soon the victim can't expand its ribs and lungs enough to breathe, and it suffocates."
+        }
+      ],
+      "narration": "assets/pyth/PYTH01NP.mp3"
+    },
+    {
+      "id": "inside-story",
+      "title": "Inside story",
+      "image": "assets/pyth/PYTH02PU.webp",
+      "text": "Pythons and boas have unusual skeletons: these primitive snakes have the remains of hips and tiny hind limbs. Scientists believe that the bones (which you can't see in this picture) prove the ancestors of snakes really did have legs.",
+      "captions": [
+        {
+          "label": "Python skeleton",
+          "text": "A snake is mostly backbone. Humans have only 33 vertebrae, but a big snake like this can have 400!"
+        }
+      ],
+      "narration": "assets/pyth/PYTH02NP.mp3"
+    },
+    {
+      "id": "jaws-of-death",
+      "title": "Jaws of death",
+      "image": "assets/pyth/PYTH03PU.webp",
+      "text": "A constrictor swallowing a whole rat is sort of like you trying to swallow a whole watermelon. The snake can do it because its jaws and skin are designed to s-t-r-e-t-c-h. A snake can swallow objects a lot wider than its own body!",
+      "captions": [
+        {
+          "label": "Open wide",
+          "text": "A snake's lower jaw can swing way down. The two sides of the lower jaw can also be stretched sideways, because the two halves are connected by a flexible ligament like a rubber band."
+        }
+      ],
+      "narration": "assets/pyth/PYTH03NP.mp3"
+    },
+    {
+      "id": "egg-cetera",
+      "title": "Egg cetera",
+      "image": "assets/pyth/PYTH04PU.webp",
+      "text": "All mother pythons coil up around their eggs for at least part of the incubation period, and some species guard their eggs until they hatch. A few of the bigger species–like the Indian python–actually keep their eggs warm by curling up around them and shivering to create friction. After the eggs hatch, the babies are on their own.",
+      "captions": [
+        {
+          "label": "Ready or not...",
+          "text": "This little rat snake checks out its surroundings before it leaves the egg. It may stay in the egg for days before it slithers out into the wide world."
+        },
+        {
+          "label": "...Here I come!",
+          "text": "When the baby finally leaves the shell, it makes its move quickly. An amazing amount of snake was tucked into that little egg!"
+        }
+      ],
+      "narration": "assets/pyth/PYTH04NP.mp3"
+    },
+    {
+      "id": "one-of-the-biggest",
+      "title": "One of the biggest",
+      "image": "assets/pyth/PYTH05PU.webp",
+      "text": "If all the snakes had a contest, these cousins would have to share the size prize!",
+      "captions": [
+        {
+          "label": "Anaconda from South America",
+          "text": "The python might be the longest snake, but the anaconda, or water boa, is probably the heaviest. A large one can grow to more than 8 meters (26 ft) long and can weigh more than three adult men!"
+        },
+        {
+          "label": "Reticulated python from Asia",
+          "text": "This is the largest snake in the Eastern hemisphere–it can grow to be over 9 meters (30 ft) long!"
+        }
+      ],
+      "narration": "assets/pyth/PYTH05NP.mp3"
+    },
+    {
+      "id": "super-senses",
+      "title": "Super senses",
+      "image": "assets/pyth/PYTH06PU.webp",
+      "text": "If pythons and boas were missiles, they'd seldom miss their targets–even on a pitch-dark night! The heat-sensitive pits in the snake's head detect a mammal's body heat. Because this information is processed by the part of the snake's brain that deals with vision, the snake actually \"sees\" the heat given off by the animal!",
+      "captions": [
+        {
+          "label": "It's on the tip of my tongue...",
+          "text": "All snakes and some lizards use their forked tongues to pick up chemical particles from their surroundings. The particles are transferred from the tongue-tip to a structure called Jacobson's organ, which partly \"smells\" and partly \"tastes\" them."
+        }
+      ],
+      "narration": "assets/pyth/PYTH06NP.mp3"
+    },
+    {
+      "id": "coat-of-many-colors",
+      "title": "Coat of many colors",
+      "image": "assets/pyth/PYTH07PU.webp",
+      "text": "You'd think that an animal as colorful as this green tree python would be hard to overlook, but it's almost invisible as it scouts among the branches for rodents, birds, and bats. The young snakes are even brighter–lemon yellow, striped with purple and brown. These pretty pythons live in the rain forests of New Guinea and northeastern Australia.",
+      "captions": [
+        {
+          "label": "Adult green tree python",
+          "text": "Adult green tree pythons can measure up to 2 meters (7 ft) long."
+        }
+      ],
+      "narration": "assets/pyth/PYTH07NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/pyth/PYTH00AA.webp",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 5.81,
+            "y": 8.97,
+            "w": 4.64,
+            "h": 3.92
+          },
+          {
+            "label": "What's a constrictor?",
+            "to": "whats-a-constrictor",
+            "x": 2.84,
+            "y": 40.79,
+            "w": 17.61,
+            "h": 4.13
+          },
+          {
+            "label": "Too full to move!",
+            "to": "video",
+            "x": 63.46,
+            "y": 31.48,
+            "w": 24.79,
+            "h": 9.98
+          },
+          {
+            "label": "Jaws of death",
+            "to": "jaws-of-death",
+            "x": 76.28,
+            "y": 37.33,
+            "w": 14.95,
+            "h": 8.24
+          },
+          {
+            "label": "One of the biggest",
+            "to": "one-of-the-biggest",
+            "x": 64,
+            "y": 50,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Inside story",
+            "to": "inside-story",
+            "x": 18.31,
+            "y": 74.99,
+            "w": 17.92,
+            "h": 9.33
+          },
+          {
+            "label": "Egg cetera",
+            "to": "egg-cetera",
+            "x": 18.31,
+            "y": 74.99,
+            "w": 17.92,
+            "h": 9.33
+          },
+          {
+            "label": "Super senses",
+            "to": "super-senses",
+            "x": 83.62,
+            "y": 72.39,
+            "w": 10.73,
+            "h": 3.48
+          },
+          {
+            "label": "Coat of many colors",
+            "to": "coat-of-many-colors",
+            "x": 2.84,
+            "y": 34.73,
+            "w": 24.33,
+            "h": 10.19
+          }
+        ]
+      },
+      "whats-a-constrictor": {
+        "image": "assets/pyth/PYTH01PU.webp",
+        "back": "main"
+      },
+      "inside-story": {
+        "image": "assets/pyth/PYTH02PU.webp",
+        "back": "main"
+      },
+      "jaws-of-death": {
+        "image": "assets/pyth/PYTH03PU.webp",
+        "back": "main"
+      },
+      "egg-cetera": {
+        "image": "assets/pyth/PYTH04PU.webp",
+        "back": "main"
+      },
+      "one-of-the-biggest": {
+        "image": "assets/pyth/PYTH05PU.webp",
+        "back": "main"
+      },
+      "super-senses": {
+        "image": "assets/pyth/PYTH06PU.webp",
+        "back": "main"
+      },
+      "coat-of-many-colors": {
+        "image": "assets/pyth/PYTH07PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/pyth/PYTH00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/pyth/clip.mp4",
+        "poster": "assets/pyth/PYTH08TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "ambient": "assets/pyth/narration.mp3",
+  "sound": "assets/pyth/PYTH00AF.mp3",
+  "factsNarration": "assets/pyth/PYTH00FB.mp3",
+  "video": {
+    "title": "Too full to move!",
+    "src": "assets/pyth/clip.mp4",
+    "poster": "assets/pyth/poster.webp",
+    "caption": "Pythons usually prey on small-to medium-sized animals, because the bigger the animal, the longer it takes to digest. If a python swallows a big animal like an antelope, the snake will be almost helpless for days or even weeks afterward."
+  }
+}

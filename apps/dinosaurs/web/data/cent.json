@@ -1,0 +1,278 @@
+{
+  "id": "cent",
+  "code": "CENT",
+  "name": "Centrosaurus",
+  "category": "dinosaur",
+  "scientificName": "Centrosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "sen-troh-SOR-us",
+  "meaning": "Sharp-point lizard",
+  "period": "Late Cretaceous",
+  "diet": "Herbivore",
+  "tagline": "The spike-frilled dinosaur that stampeded in Canadian herds!",
+  "hero": {
+    "image": "assets/cent/CENT00AA.webp",
+    "alt": "Centrosaurus"
+  },
+  "intro": "Centrosaurus, or \"sharp-point lizard,\" was named for the many short spikes around the edge of its neck frill. Two larger spikes curved forward over \"windows,\" which were holes in the frill bone covered by skin. These \"windows\" helped to make the dinosaur's head lighter. This dinosaur has also been known by the names Monoclonius and Eucentrosaurus.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Sharp-point lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ceratopsian"
+    },
+    {
+      "label": "Length",
+      "value": "6m (20ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "canadian-stampede",
+      "title": "Canadian Stampede",
+      "image": "assets/cent/CENT01PU.webp",
+      "text": "Fossil skeletons of a whole herd of Centrosaurus have been preserved in one bed of bones in Alberta, Canada. The bones found belonged to young and old animals, and some are broken and trampled as if they had been in a stampede. They seem to have died when the herd was trying to cross a raging river; some were swept away or trampled by the other Centrosaurus around them."
+    },
+    {
+      "id": "ceratopsian-family-portrait",
+      "title": "Ceratopsian Family Portrait",
+      "image": "assets/cent/CENT02PU.webp",
+      "text": "The horned dinosaurs, or ceratopsians, were one of the last groups of dinosaurs to evolve. Here is Centrosaurus with a few of its horned relatives. Their frills helped to anchor powerful jaw muscles, which they needed to chew up their tough food. Their skulls and frills were so strong that many of these fossils have survived the millenia in good condition.",
+      "captions": [
+        {
+          "label": "Chasmosaurus",
+          "text": "The frill of this dinosaur was long and broad. The enormous \"windows\" under the skin made this dinosaur's skull appear as if split in half."
+        },
+        {
+          "label": "Protoceratops",
+          "text": "This Asian member of the ceratopsian group is significantly smaller than its horned North American cousins. Entire Protoceratops nests have been found in Mongolia."
+        },
+        {
+          "label": "Styracosaurus",
+          "text": "This \"spiked lizard\" had six long spikes pointing from its neck frill. Its nose horn may have been used as a weapon."
+        }
+      ]
+    },
+    {
+      "id": "a-tough-beak-for-tough-plants",
+      "title": "A Tough Beak for Tough Plants",
+      "image": "assets/cent/CENT03PU.webp",
+      "text": "Some experts believe that ceratopsian dinosaurs such as Centrosaurus evolved the special ability to eat tough plants. With their powerful jaws, hard beaks, and sharp teeth, they might have eaten the leaves of cycads and maybe even tackled pine cones."
+    },
+    {
+      "id": "frilled-faces",
+      "title": "Frilled Faces",
+      "image": "assets/cent/CENT04PU.webp",
+      "text": "The horned dinosaurs' bony frills came in different shapes and sizes. The frills anchored huge muscles which ran down through spaces in the skull, behind the eyebrow horns to the jaws. These bony frills also protected the neck when the head was raised. When their heads were lowered, the frills stood high above the ground. Other dinosaurs would have seen them and kept their distance.",
+      "captions": [
+        {
+          "label": "Pentaceratops",
+          "text": "This dinosaur's name means \"five-horned face.\""
+        },
+        {
+          "label": "Torosaurus",
+          "text": "This dinosaur had the longest skull of all. It measured nearly eight and a half feet. That's as long as a small car!"
+        },
+        {
+          "label": "Styracosaurus",
+          "text": "The nose spike of this dinosaur was surely a weapon, but the purpose of its neck spikes is less clear. They could have been used to frighten an enemy or to impress a potential mate."
+        },
+        {
+          "label": "Centrosaurus",
+          "text": "This dinosaur had two spikes that curved forward, presumably protecting the two \"windows\" in its skull."
+        }
+      ]
+    },
+    {
+      "id": "horned-heads",
+      "title": "Horned Heads",
+      "image": "assets/cent/CENT05PU.webp",
+      "text": "Besides being useful for defense, Centrosaurus may have used its nose horn to battle with members of its own kind. Many horned creatures do this today, such as bighorned sheep. These \"fights\" establish who is the leader of the herd, or who has the right to mate with the females."
+    },
+    {
+      "id": "built-for-strength",
+      "title": "Built for Strength",
+      "image": "assets/cent/CENT06PU.webp",
+      "text": "The skeletons of the ceratopsians, or horned dinosaurs, were specially adapted to carry their great weight. The first three neck bones behind the skull were joined together into one solid, strong bone. Eight of the vertebrae were joined to the pelvis, rather than the usual five. Ceratopsians were bird-hipped dinosaurs; most walked on four sturdy legs.",
+      "captions": [
+        {
+          "label": "Thick heads",
+          "text": "A human skull looks tiny compared to that of Triceratops. Ceratopsian skulls and frills were so massive and solid that these fossils are often found in nearly perfect condition. Imagine the neck muscles it took to move a skull this big!"
+        }
+      ]
+    },
+    {
+      "id": "not-so-weird",
+      "title": "Not So Weird",
+      "image": "assets/cent/CENT07PU.webp",
+      "text": "The dinosaurs may look strange with all their frills and spikes, but many of these features can also be found in modern animals.",
+      "captions": [
+        {
+          "label": "Fancy frills",
+          "text": "Some modern reptiles have quite fancy horns and frills. This regal horned lizard uses its horns to intimidate its enemies."
+        },
+        {
+          "label": "Fighting mad",
+          "text": "This Australian frilled lizard can erect its ruff-like collar when startled by a predator. Its frill is more than four times the width of its body."
+        },
+        {
+          "label": "Rhino or dino?",
+          "text": "A rhinoceros has the same general shape and nose horn as a ceratopsian dinosaur. Like Centrosaurus, the fierce looking rhinoceros is also a plant eater."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Horns",
+      "to": "horn"
+    },
+    {
+      "label": "Dinosaur Provincial Park",
+      "to": "park"
+    },
+    {
+      "label": "Styracosaurus",
+      "to": "styr"
+    },
+    {
+      "label": "Teeth of Plant-eaters",
+      "to": "ptee"
+    },
+    {
+      "label": "Faces from the Past",
+      "to": "ftfb"
+    },
+    {
+      "label": "Pachycephalosaurus",
+      "to": "pach"
+    },
+    {
+      "label": "Triceratops",
+      "to": "tric"
+    },
+    {
+      "label": "Iguana",
+      "to": "igna"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/cent/CENT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Horned heads",
+            "to": "horned-heads",
+            "x": 68,
+            "y": 22,
+            "w": 26,
+            "h": 7
+          },
+          {
+            "label": "Frilled faces",
+            "to": "frilled-faces",
+            "x": 70,
+            "y": 33,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Ceratopsian family portrait",
+            "to": "ceratopsian-family-portrait",
+            "x": 65,
+            "y": 44,
+            "w": 30,
+            "h": 7
+          },
+          {
+            "label": "A tough beak for tough plants",
+            "to": "a-tough-beak-for-tough-plants",
+            "x": 60,
+            "y": 55,
+            "w": 35,
+            "h": 7
+          },
+          {
+            "label": "Built for strength",
+            "to": "built-for-strength",
+            "x": 68,
+            "y": 66,
+            "w": 28,
+            "h": 7
+          },
+          {
+            "label": "Canadian stampede",
+            "to": "canadian-stampede",
+            "x": 2,
+            "y": 62,
+            "w": 26,
+            "h": 7
+          },
+          {
+            "label": "Not so weird",
+            "to": "not-so-weird",
+            "x": 2,
+            "y": 78,
+            "w": 18,
+            "h": 7
+          }
+        ]
+      },
+      "canadian-stampede": {
+        "image": "assets/cent/CENT01PU.webp",
+        "back": "main"
+      },
+      "ceratopsian-family-portrait": {
+        "image": "assets/cent/CENT02PU.webp",
+        "back": "main"
+      },
+      "a-tough-beak-for-tough-plants": {
+        "image": "assets/cent/CENT03PU.webp",
+        "back": "main"
+      },
+      "frilled-faces": {
+        "image": "assets/cent/CENT04PU.webp",
+        "back": "main"
+      },
+      "horned-heads": {
+        "image": "assets/cent/CENT05PU.webp",
+        "back": "main"
+      },
+      "built-for-strength": {
+        "image": "assets/cent/CENT06PU.webp",
+        "back": "main"
+      },
+      "not-so-weird": {
+        "image": "assets/cent/CENT07PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/cent/CENT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/cent/CENT00AP.mp3",
+  "narration": "assets/cent/CENT00AJ.mp3"
+}

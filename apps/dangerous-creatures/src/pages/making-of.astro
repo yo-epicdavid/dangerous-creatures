@@ -1,0 +1,103 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Topbar from '../components/Topbar.astro';
+---
+<Layout title="The Making Of — Dangerous Creatures" desc="How a 1994 CD-ROM became a modern web app: one disc, a decompressor, and a swarm of AI agents.">
+  <Topbar>
+    <a slot="right" class="btn" href="/">Explore the creatures <span class="arrow" aria-hidden="true">→</span></a>
+  </Topbar>
+
+  <main id="main-content" class="article" tabindex="-1">
+    <p class="kicker">The Making Of</p>
+    <h1>How a 1994 CD&#8209;ROM<br /><b>came back to life</b></h1>
+    <p class="dek">One disc, a decompressor, and a swarm of robots reading a children's encyclopedia.</p>
+
+    <p><span class="first">S</span>omewhere in the 1990s, a kid sat in front of a beige computer and fell in love with animals. The window on the screen was <i>Microsoft Dangerous Creatures</i> — a 1994 multimedia encyclopedia of the planet's most fascinating, ferocious, and venomous animals. Lions, cobras, great white sharks, the blue&#8209;ringed octopus. You clicked, you read, you watched grainy little videos, and you learned.</p>
+
+    <p>That game was the dream behind this project: to bring it back, modern and open, so <b>any kid with a browser</b> could meet those creatures again. Here's the story of how a three&#8209;decade&#8209;old disc became the website you're using right now.</p>
+
+    <div class="stats">
+      <div class="stat"><b>66</b><span>creatures</span></div>
+      <div class="stat"><b>654</b><span>screens</span></div>
+      <div class="stat"><b>2,183</b><span>sounds</span></div>
+      <div class="stat"><b>109</b><span>film clips</span></div>
+      <div class="stat"><b>31</b><span>years asleep</span></div>
+    </div>
+
+    <h2>A time capsule on a disc</h2>
+    <p>It started with a single file: the original CD&#8209;ROM image, preserved on the <a href="https://archive.org/details/cdrom_Microsoft_Dangerous_Creatures_-_For_Windows_3.1_Eng">Internet Archive</a> — 607 megabytes of 1994, frozen exactly as it shipped. Mounting it revealed a tidy little world: 66 folders, one per animal, named by four&#8209;letter codes like <code>LION</code>, <code>COBR</code>, and <code>GWSH</code> (great white shark). Inside were thousands of images, sounds, and video clips, all tied together by a master database the original program used to know what linked to what.</p>
+
+    <h2>Cracking it open</h2>
+    <p>The videos were easy — an ancient codec called Microsoft Video 1 that modern tools convert in a blink. The narration was plain audio, still crisp after all these years. But the images refused to open. Their files didn't start with the usual picture header; they started with the letters <code>SZDD</code>.</p>
+    <p>That was a clue. <code>SZDD</code> is Microsoft's own compression format from the early '90s — a way of squeezing files onto disks back when every megabyte counted. Nothing on a modern Mac could read it. So the fix was to write a tiny decompressor, about forty lines long, that understood the old format and unpacked each image back into a real picture.</p>
+
+    <p class="pull">The first one we unpacked was the lion. A photo of a male lion mid&#8209;stride across golden grass — pixel&#8209;perfect, exactly as it looked in 1994. Thirty&#8209;one years asleep, and it woke up flawless.</p>
+
+    <h2>The twist: text made of pixels</h2>
+    <p>Unpacking that lion screen revealed the project's central puzzle. It wasn't just a photo — it was the <i>whole page</i>: the title, the article, the little red labels you click. All of it had been <b>painted into a single image</b>. The words weren't stored as words anywhere. They were pixels.</p>
+    <p>That meant a faithful copy would be frozen forever — fixed in size, impossible to translate, invisible to screen readers, unsearchable. Not exactly "for any kid." So the project took a different path.</p>
+
+    <h2>One game, two faces</h2>
+    <p>Instead of choosing between old and new, this rebuild offers both — from the same restored material:</p>
+    <div class="pipeline">
+      <ol>
+        <li><b>Classic 1994</b> — the original screens, shown exactly as they were, with the clickable hotspots faithfully recreated. The treasure&#8209;hunt feel, intact.</li>
+        <li><b>Modern</b> — the same content rebuilt as responsive, accessible web pages: real selectable text, narration you can play, video that fills the screen on any device.</li>
+      </ol>
+    </div>
+    <p>A toggle at the top of every creature flips between the two. But making the Modern version meant doing something to all 66 animals that sounded almost impossible: reading the text back <i>out</i> of those flattened images, word for word, and turning it into structured data.</p>
+
+    <h2>133 robots read a children's encyclopedia</h2>
+    <p>Six hundred screens of text, transcribed by hand, would have taken weeks. So instead, the work was handed to a small army of AI agents working in parallel.</p>
+    <p>Each animal got its own agent. That agent looked at the creature's nine&#8209;or&#8209;so screens the way a person would — actually <i>seeing</i> the images — and transcribed every word: the intro, the fun facts, the sub&#8209;topics, the photo captions. It even estimated where each clickable hotspot sat on the screen, so the Classic mode would still work. Then a <b>second</b> agent re&#8209;read the same screens to catch any slip the first one made. Sixty&#8209;six animals, checked twice.</p>
+
+    <div class="stats">
+      <div class="stat"><b>133</b><span>AI agents</span></div>
+      <div class="stat"><b>~52</b><span>minutes</span></div>
+      <div class="stat"><b>2×</b><span>checked each</span></div>
+      <div class="stat"><b>0</b><span>typing by hand</span></div>
+    </div>
+
+    <h2>Keeping it honest</h2>
+    <p>When all 66 were done, one final agent read the <i>entire</i> collection at once, acting as an editor — making sure every animal used the same labels, the same voice, no duplicates. It tidied up small inconsistencies automatically. And, satisfyingly, it caught things a tired human would miss:</p>
+    <p>The leopard had accidentally borrowed the jaguar's tagline. The python was called "the world's longest snake," though its species is actually the African rock python (the reticulated python is the real record&#8209;holder). The orca's "never killed a human" is only true in the wild. Each of these got flagged for a human to decide — because faithfulness to the facts matters as much as faithfulness to the original.</p>
+
+    <h2>What you're looking at</h2>
+    <p>Everything here was reconstructed from that one disc: a forty&#8209;line decompressor woke the images, a video converter restored the films, and a swarm of agents liberated the words. The result is the encyclopedia a kid loved in 1994 — faithful when you want nostalgia, modern when you want to learn, and built to keep growing.</p>
+
+    <div class="legal">
+      <b>About the artwork.</b> The photos, video, and original text are © 1994 Microsoft Corporation and its
+      suppliers — wildlife photographers, filmmakers, and agencies like Oxford Scientific Films / Animals Animals
+      (every one is named on the <a href="/credits">credits page</a>). This is a <b>non&#8209;commercial,
+      educational preservation</b>, made out of love for the original — not affiliated with Microsoft, with no ads
+      or sales, and with removal on request. The words have already been freed into open text; the credit goes to
+      the people who captured these creatures in the first place.
+    </div>
+
+    <a class="btn backlink" href="/"><span class="arrow" aria-hidden="true">←</span> Back to the creatures</a>
+  </main>
+</Layout>
+
+<style>
+  .article { max-width: 760px; margin: 0 auto; padding: 0 22px 90px; }
+  .article .kicker { text-transform: uppercase; letter-spacing: 3px; font-size: 13px; color: var(--ink-soft); margin-top: 40px; }
+  .article h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(40px, 7vw, 76px); line-height: 1; margin: 8px 0 6px; }
+  .article h1 b { color: var(--rust); }
+  .article .dek { font-size: 21px; color: var(--gold); margin: 0 0 10px; }
+  .article h2 { font-family: var(--font-display); color: var(--gold); font-size: clamp(26px, 4vw, 34px); margin: 48px 0 6px; line-height: 1.1; }
+  .article p { font-size: 18px; }
+  .article p .first { font-size: 26px; }
+  .article a { color: var(--gold); }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 14px; margin: 30px 0; }
+  .stat { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px; text-align: center; box-shadow: var(--shadow); }
+  .stat b { display: block; font-family: var(--font-display); font-size: 34px; color: var(--rust); line-height: 1; }
+  .stat span { font-size: 13px; color: var(--ink-soft); text-transform: uppercase; letter-spacing: 1px; }
+  .pull { border-left: 4px solid var(--gold); padding: 6px 0 6px 20px; margin: 30px 0; font-size: 22px; color: var(--ink); font-style: italic; }
+  .pipeline { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 22px 24px; margin: 28px 0; box-shadow: var(--shadow); }
+  .pipeline ol { margin: 0; padding-left: 22px; }
+  .pipeline li { margin: 10px 0; }
+  .pipeline code { background: #00000040; padding: 2px 7px; border-radius: 6px; font-size: 14px; color: var(--green); }
+  .legal { margin-top: 56px; padding: 18px 20px; border: 1px dashed var(--line); border-radius: 14px; color: var(--ink-soft); font-size: 14px; background: #00000020; }
+  .legal b { color: var(--ink); }
+  .backlink { display: inline-block; margin-top: 36px; }
+</style>

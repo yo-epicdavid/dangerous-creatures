@@ -1,0 +1,131 @@
+{
+  "id": "igua",
+  "code": "IGUA",
+  "name": "Marine Iguanas",
+  "category": "creature",
+  "scientificName": "Amblyrhynchus cristatus",
+  "needsScientificVerify": false,
+  "tagline": "The only lizard on Earth brave enough to dive into the sea!",
+  "zones": [
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Pacific Ocean"
+  ],
+  "hero": {
+    "image": "assets/igua/IGUA00AA.webp",
+    "alt": "Marine Iguanas"
+  },
+  "intro": "You've heard of people being stranded on desert islands, but how about shipwrecked reptiles? Scientists believe that marine iguanas were accidentally carried by drifting \"rafts\" of vegetation from South America to the remote, volcanic Galápagos Islands. Because food was scarce in the dry, rocky islands, iguanas turned to the sea, diving into the chilly waters to graze on algae. Marine iguanas are the only lizards that depend entirely on the sea for their survival.",
+  "facts": [
+    {
+      "label": "Unique trait",
+      "value": "Marine iguanas are the only lizards that depend entirely on the sea for their survival."
+    },
+    {
+      "label": "Diet",
+      "value": "Seaweed and other types of algae grazed from underwater reefs or clawed from rocks at the waterline."
+    },
+    {
+      "label": "Salt trick",
+      "value": "Specialized salt glands in their nose eliminate excess salt — after a swim, they sneeze out the salty brine."
+    },
+    {
+      "label": "Color",
+      "value": "Mostly black to absorb heat quickly; displays bright breeding colors during mating season."
+    },
+    {
+      "label": "Sunbathing",
+      "value": "They bask on volcanic rocks absorbing tropical sun before diving into cold water — reptiles do not have the ability to regulate their body temperature."
+    },
+    {
+      "label": "Homeland",
+      "value": "Found only on the remote, volcanic Galápagos Islands, located off the coast of Ecuador in the Pacific Ocean."
+    }
+  ],
+  "topics": [
+    {
+      "id": "grazing-underwater",
+      "title": "Grazing underwater",
+      "image": "assets/igua/IGUA01PU.webp",
+      "text": "Marine iguanas eat seaweed and other types of algae from underwater reefs, or claw it from the rocks at the waterline. However, like other reptiles, their kidneys can't handle the high salt content of a sea diet. No problem! Specialized salt glands in the marine iguana's nose help eliminate salt from its body. After a swim, these lizards climb up on the rocks and sneeze out the salty brine.",
+      "captions": [
+        {
+          "label": "Island recluses",
+          "text": "Located off the coast of Ecuador, the Galápagos Islands have a dry climate that slows the breakdown of rock to soil. This limits the number of life forms that can live there. Most of the inhabitants are reptiles and birds."
+        }
+      ],
+      "narration": "assets/igua/IGUA01JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Saltwater Crocodiles",
+      "to": "croc"
+    },
+    {
+      "label": "Flatworms",
+      "to": "flat"
+    },
+    {
+      "label": "Sea Turtles",
+      "to": "turt"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/igua/IGUA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Sun, swimming, and survival",
+            "to": "video",
+            "x": 51,
+            "y": 17,
+            "w": 41,
+            "h": 6
+          },
+          {
+            "label": "Grazing underwater",
+            "to": "grazing-underwater",
+            "x": 22,
+            "y": 62,
+            "w": 31,
+            "h": 6
+          }
+        ]
+      },
+      "grazing-underwater": {
+        "image": "assets/igua/IGUA01PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/igua/clip.mp4",
+        "poster": "assets/igua/IGUA02PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/igua/IGUA00JN.mp3",
+  "sound": "assets/igua/IGUA00IX.mp3",
+  "video": {
+    "title": "Sun, swimming, and survival",
+    "src": "assets/igua/clip.mp4",
+    "poster": "assets/igua/poster.webp",
+    "caption": "Except for when it dons full breeding dress, the marine iguana is mostly black, which enables it to absorb heat quickly. Marine iguanas spend a lot of time basking on the rocks, absorbing the heat of the tropical sun before diving underwater to feed. This habit enables them to survive repeated plunges into the cold waters, since reptiles do not have the ability to regulate their body temperature. Sunbathing may be bad for people, but it's a lifesaver for these guys!",
+    "narration": "assets/igua/IGUA02JN.mp3"
+  }
+}

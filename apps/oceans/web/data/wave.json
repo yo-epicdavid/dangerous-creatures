@@ -1,0 +1,168 @@
+{
+  "id": "wave",
+  "code": "WAVE",
+  "name": "Waves",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "The ocean is never still—waves carry the wind's energy across entire oceans!",
+  "zones": [
+    "Coast & tide pools",
+    "Open ocean"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/wave/WAVE00AA.webp",
+    "alt": "Waves"
+  },
+  "intro": "The water in the ocean is never still—it's constantly being coaxed into waves by the movements of the wind or the sea floor. Waves are often beneficial, as their constant movement brings nutrients and oxygen to sea life anchored to the shoreline or the ocean floor. However, they can be deadly as well: enormous waves called tsunamis are capable of capsizing ships and shattering coastal towns. Waves will always fascinate us with their rhythmic and powerful motion that can never be predicted.",
+  "facts": [
+    {
+      "label": "Record height",
+      "value": "In 1991 storm waves in the Atlantic Ocean measured a record 46 m (150 ft) high."
+    },
+    {
+      "label": "Tsunami height",
+      "value": "Tsunami waves can reach 30 m (100 ft) in height and can wipe out coastal communities."
+    },
+    {
+      "label": "Frequency",
+      "value": "Giant tsunami waves strike somewhere in the world about once a year."
+    },
+    {
+      "label": "How they work",
+      "value": "As a wave travels, its energy moves forward, but the water particles themselves do not—they move up and down in a circular motion."
+    },
+    {
+      "label": "Rogue waves",
+      "value": "When crests and troughs of several waves combine, they can create abnormally high “rogue waves” thought to be responsible for mysterious disappearances of large ships at sea."
+    },
+    {
+      "label": "Warning sign",
+      "value": "The first sign of a tsunami’s approach may be seawater receding quickly from a harbor."
+    }
+  ],
+  "topics": [
+    {
+      "id": "how-waves-work",
+      "title": "How waves work",
+      "image": "assets/wave/WAVE01PU.webp",
+      "text": "Waves are born as winds blow over a stretch of water. As a wave travels, its energy moves forward, but the water particles themselves do not. Although the particles stay in the same place, they do move up and down in a circular motion. It’s like the energy that’s transmitted when you wave a towel or when the wind ripples a field of wheat. As waves reach the shallower water at the shore, the bottom of one of these invisible circles of movement catches on the seabed, while the top keeps moving forward, causing the wave to break.",
+      "captions": [
+        {
+          "label": "Anatomy of a wave",
+          "text": "Diagram showing wave length, wave height, crest, and trough."
+        }
+      ],
+      "narration": "assets/wave/WAVE01JN.mp3"
+    },
+    {
+      "id": "tsunami",
+      "title": "Tsunami!",
+      "image": "assets/wave/WAVE03PU.webp",
+      "text": "Tsunamis, also called tidal waves, actually have nothing to do with tides. They’re caused by an abrupt movement of the ocean floor such as an earthquake. Most tsunami-generating earthquakes occur in areas called subduction zones. Many of these zones fringe the Pacific Ocean, so areas like Japan, Indonesia, Alaska, and Chile are susceptible to tsunamis. These giant waves strike somewhere in the world about once a year. They’re difficult to predict and often strike coastlines before they can be detected by scientists. The first sign of a tsunami’s approach may be seawater receding quickly from a harbor. The waves that follow can reach 30 m (100 ft) in height, and can wipe out coastal communities.",
+      "captions": [
+        {
+          "label": "Tsunami damage, 1964 Alaska earthquake",
+          "text": "A boat thrown ashore by tsunami waves following the 1964 Alaska earthquake."
+        }
+      ],
+      "narration": "assets/wave/WAVE03JN.mp3"
+    },
+    {
+      "id": "what-causes-tsunamis",
+      "title": "What causes tsunamis?",
+      "image": "assets/wave/WAVE04PU.webp",
+      "text": "Tsunamis traveling out at sea are usually hidden by regular wave movement. It’s only when the giant wave approaches shore that the water’s surface rises to great heights. Tsunamis are set off by natural events like earthquakes, landslides, or volcanic eruptions. Most tsunamis start when the sea floor slips during certain types of earthquakes. As the sea floor moves, it also shifts the huge amount of water above it, setting it in deadly motion.",
+      "narration": "assets/wave/WAVE04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Tides",
+      "to": "tide"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/wave/WAVE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 8,
+            "w": 9,
+            "h": 5
+          },
+          {
+            "label": "How waves work",
+            "to": "how-waves-work",
+            "x": 56,
+            "y": 16,
+            "w": 28,
+            "h": 7
+          },
+          {
+            "label": "Immense power",
+            "to": "video",
+            "x": 57,
+            "y": 28,
+            "w": 24,
+            "h": 7
+          },
+          {
+            "label": "Tsunami!",
+            "to": "tsunami",
+            "x": 54,
+            "y": 61,
+            "w": 17,
+            "h": 7
+          },
+          {
+            "label": "What causes tsunamis?",
+            "to": "what-causes-tsunamis",
+            "x": 46,
+            "y": 72,
+            "w": 33,
+            "h": 7
+          }
+        ]
+      },
+      "how-waves-work": {
+        "image": "assets/wave/WAVE01PU.webp",
+        "back": "main"
+      },
+      "tsunami": {
+        "image": "assets/wave/WAVE03PU.webp",
+        "back": "main"
+      },
+      "what-causes-tsunamis": {
+        "image": "assets/wave/WAVE04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/wave/clip.mp4",
+        "poster": "assets/wave/WAVE02PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/wave/WAVE00JN.mp3",
+  "sound": "assets/wave/WAVE00IX.mp3",
+  "video": {
+    "title": "Immense power",
+    "src": "assets/wave/clip.mp4",
+    "poster": "assets/wave/poster.webp",
+    "caption": "Oregon coast, United States",
+    "narration": "assets/wave/WAVE02JN.mp3"
+  }
+}

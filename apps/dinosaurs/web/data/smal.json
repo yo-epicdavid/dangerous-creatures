@@ -1,0 +1,187 @@
+{
+  "id": "smal",
+  "code": "SMAL",
+  "name": "The Smallest Dinosaurs",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Some dinosaurs were no bigger than a chicken — and they could run as fast as a racehorse!",
+  "hero": {
+    "image": "assets/smal/SMAL00AA.webp",
+    "alt": "The Smallest Dinosaurs"
+  },
+  "intro": "Dinosaurs came in all shapes and sizes. They ranged from giants taller than a house, to scurrying creatures no bigger than modern-day chickens. Troodon, shown here, was around six feet long from nose to tail. The average dinosaur was no bigger than a car. Being small had advantages in the dinosaur world. Little dinosaurs could hide among the plants or in cracks in rocks. But small dinosaurs are at a distinct disadvantage when it comes to fossilization. Tiny bones are hard to preserve and even harder to find as fossils, so there may have been many more small dinosaurs than the ones we've discovered so far.",
+  "facts": [
+    {
+      "label": "Featured dinosaur",
+      "value": "Troodon"
+    },
+    {
+      "label": "Troodon length",
+      "value": "around six feet long from nose to tail"
+    },
+    {
+      "label": "Smallest known skeleton",
+      "value": "Mussaurus — only eight inches long"
+    },
+    {
+      "label": "Top speed",
+      "value": "in excess of thirty miles per hour (Velociraptor)"
+    },
+    {
+      "label": "Saltopus length",
+      "value": "two feet long"
+    },
+    {
+      "label": "Saltopus weight",
+      "value": "around two pounds"
+    },
+    {
+      "label": "Lesothosaurus length",
+      "value": "around three feet long"
+    },
+    {
+      "label": "Compsognathus length",
+      "value": "slightly over two feet long from nose to tip of tail"
+    }
+  ],
+  "topics": [
+    {
+      "id": "mouse-sized-plant-eater",
+      "title": "Mouse-Sized Plant-Eater",
+      "image": "assets/smal/SMAL01PU.webp",
+      "text": "The skeleton of Mussaurus, which means \"mouse reptile,\" was only eight inches long! This mini-dinosaur's fossil remains were found in a nest with eggs, so experts speculate that this Mussaurus was probably a baby prosauropod."
+    },
+    {
+      "id": "chicken-sized-carnivore",
+      "title": "Chicken-Sized Carnivore",
+      "image": "assets/smal/SMAL02PU.webp",
+      "text": "Compsognathus, a theropod dinosaur, was about the size of a large rooster. And like a free-ranging chicken, this speedy little predator probably ate anything it could catch—insects, lizards, and frogs."
+    },
+    {
+      "id": "fast-as-a-racehorse",
+      "title": "Fast as a Racehorse",
+      "image": "assets/smal/SMAL03PU.webp",
+      "text": "Velociraptor's name means \"quick thief.\" This two-legged carnivore was built for speed, with long muscular legs, a light body, and a balanced neck and tail. Some paleontologists estimate that some nimble dinosaurs could run as fast as a racehorse, reaching speeds in excess of thirty miles per hour."
+    },
+    {
+      "id": "tiny-and-toothy",
+      "title": "Tiny and Toothy",
+      "image": "assets/smal/SMAL04PU.webp",
+      "text": "Heterodontosaurus, a three-foot-long herbivore, was famous for having three different kinds of teeth. Its back teeth were tall, grinding molars; further forward came long, curved canine teeth, like a wolf; and in the front, Heterodontosaurus had small pointed teeth on top, and a bony beak on the bottom.",
+      "captions": [
+        {
+          "label": "Pint-sized predator",
+          "text": "Saltopus, no bigger than a large cat, was another energetic dinosaur that may have hunted insects and small lizards for food. The fossils of this little known dinosaur have only been found in Scotland."
+        }
+      ]
+    },
+    {
+      "id": "how-small-were-they",
+      "title": "How Small Were They?",
+      "image": "assets/smal/SMAL05PU.webp",
+      "text": "If they were alive today, many tiny dinosaurs would not reach your knees. You'd have to be careful not to step on them!",
+      "captions": [
+        {
+          "label": "Saltopus",
+          "text": "This two-foot-long dinosaur was a lightweight, weighing only around two pounds."
+        },
+        {
+          "label": "Lesothosaurus",
+          "text": "The giant of pee-wee dinosaurs, Lesothosaurus was around three feet long. Its fossils were found in Africa, where experts think it may have lived in desert conditions."
+        },
+        {
+          "label": "Compsognathus",
+          "text": "This little sprinter was slightly over two feet long from its nose to the tip of its tail."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Record Breakers",
+      "to": "recb"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/smal/SMAL00AA.webp",
+        "hotspots": [
+          {
+            "label": "How small were they?",
+            "to": "how-small-were-they",
+            "x": 18,
+            "y": 54,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Tiny and toothy",
+            "to": "tiny-and-toothy",
+            "x": 2,
+            "y": 63,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Fast as a racehorse",
+            "to": "fast-as-a-racehorse",
+            "x": 2,
+            "y": 73,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Chicken-sized carnivore",
+            "to": "chicken-sized-carnivore",
+            "x": 47,
+            "y": 59,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Mouse-sized plant-eater",
+            "to": "mouse-sized-plant-eater",
+            "x": 47,
+            "y": 73,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "mouse-sized-plant-eater": {
+        "image": "assets/smal/SMAL01PU.webp",
+        "back": "main"
+      },
+      "chicken-sized-carnivore": {
+        "image": "assets/smal/SMAL02PU.webp",
+        "back": "main"
+      },
+      "fast-as-a-racehorse": {
+        "image": "assets/smal/SMAL03PU.webp",
+        "back": "main"
+      },
+      "tiny-and-toothy": {
+        "image": "assets/smal/SMAL04PU.webp",
+        "back": "main"
+      },
+      "how-small-were-they": {
+        "image": "assets/smal/SMAL05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/smal/SMAL00AP.mp3",
+  "narration": "assets/smal/SMAL00AJ.mp3",
+  "sound": "assets/smal/SMAL00SA.mp3"
+}

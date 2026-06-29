@@ -1,0 +1,196 @@
+{
+  "id": "pira",
+  "code": "PIRA",
+  "name": "Piranha",
+  "scientificName": "Pygocentrus nattereri",
+  "needsScientificVerify": false,
+  "tagline": "Tiny teeth, terrifying reputation — and a bite sharper than any scissors.",
+  "weapons": [
+    "Teeth & Jaws",
+    "Pack & Swarm Attacks"
+  ],
+  "habitats": [
+    "Rivers, Lakes & Wetlands"
+  ],
+  "regions": [
+    "South America"
+  ],
+  "hero": {
+    "image": "assets/pira/PIRA00AA.webp",
+    "alt": "Piranha"
+  },
+  "intro": "The piranha's razor-sharp teeth can clip a mouthful of flesh as neatly as you'd take a bite from an apple. Still, the fish's vicious reputation is exaggerated. Of the many kinds of piranhas, only a few–including this red-bellied piranha–are considered dangerous, especially when the water is low and the fish are hungry and crowded.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Kills by group attack: each fish darts in and bites off a mouthful",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Small fish, and dead or injured animals of any size",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "Better than a pocketknife? South American Indians carry the jaws of piranha with them on hunting trips as a cutting tool!",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 60cm (25in)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "South America",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "fish-sense",
+      "title": "Fish sense",
+      "image": "assets/pira/PIRA01PU.webp",
+      "text": "Just because a piranha's not looking at you doesn't mean that it doesn't know you're there. All fish have a special sensory system, called a lateral line, which they use to feel movements in the water.",
+      "captions": [
+        {
+          "label": "How the lateral line works",
+          "text": "A lateral line is a fluid-filled canal beneath a fish's skin. Even the smallest vibrations travel through pores in the skin and shake tiny hairs in the lateral line canal. When the hairs move, the attached nerve cells send messages to the fish's brain, telling it that something's nearby."
+        }
+      ],
+      "narration": "assets/pira/PIRA01NP.mp3"
+    },
+    {
+      "id": "teeth-like-razors",
+      "title": "Teeth like razors",
+      "image": "assets/pira/PIRA02PU.webp",
+      "text": "Piranhas have razor-sharp, triangular teeth that lock together like the teeth on the gears of a clock when the fish bites. The piranha can rush up to its prey (usually another fish), neatly slice off a mouthful of flesh or fin, and then dash away before its victim knows what's happened!",
+      "captions": [
+        {
+          "label": "Barracuda teeth",
+          "text": "Piranha teeth are designed for shearing off a clean bite, but the teeth of a barracuda are designed for holding slippery fish."
+        }
+      ],
+      "narration": "assets/pira/PIRA02NP.mp3"
+    },
+    {
+      "id": "school-of-terror",
+      "title": "School of terror?",
+      "image": "assets/pira/PIRA03PU.webp",
+      "text": "Like piranhas, barracudas are fish with sharp teeth, so facing a whole school of them could give you nightmares. But, unlike piranhas, when barracudas come together in large groups, their minds are usually focused on mating, not on eating.",
+      "narration": "assets/pira/PIRA03NP.mp3"
+    },
+    {
+      "id": "daring-dip",
+      "title": "Daring dip",
+      "image": "assets/pira/PIRA04PU.webp",
+      "text": "Rivers and waterholes in the Amazon rain forest abound not only with piranhas, but also with electric eels, caimans grinning toothy crocodilian grins, and giant snakes that hug their prey to death. You might want to think twice about going for a swim.",
+      "narration": "assets/pira/PIRA04NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/pira/PIRA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 5.02,
+            "y": 5.73,
+            "w": 4.79,
+            "h": 6.3
+          },
+          {
+            "label": "School of terror?",
+            "to": "school-of-terror",
+            "x": 48.31,
+            "y": 5.29,
+            "w": 14.32,
+            "h": 4.13
+          },
+          {
+            "label": "Barracuda",
+            "x": 89.87,
+            "y": 10.92,
+            "w": 8.08,
+            "h": 3.92,
+            "external": "animal.html?id=bara"
+          },
+          {
+            "label": "Teeth like razors",
+            "to": "teeth-like-razors",
+            "x": 2,
+            "y": 22,
+            "w": 28,
+            "h": 8
+          },
+          {
+            "label": "Scissor fish",
+            "to": "video",
+            "x": 5,
+            "y": 32,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "Fish sense",
+            "to": "fish-sense",
+            "x": 2,
+            "y": 47,
+            "w": 18,
+            "h": 7
+          },
+          {
+            "label": "Daring dip",
+            "to": "daring-dip",
+            "x": 7.06,
+            "y": 55.51,
+            "w": 10.26,
+            "h": 4.56
+          }
+        ]
+      },
+      "fish-sense": {
+        "image": "assets/pira/PIRA01PU.webp",
+        "back": "main"
+      },
+      "teeth-like-razors": {
+        "image": "assets/pira/PIRA02PU.webp",
+        "back": "main"
+      },
+      "school-of-terror": {
+        "image": "assets/pira/PIRA03PU.webp",
+        "back": "main"
+      },
+      "daring-dip": {
+        "image": "assets/pira/PIRA04PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/pira/PIRA00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/pira/clip.mp4",
+        "poster": "assets/pira/PIRA05TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "ambient": "assets/pira/narration.mp3",
+  "sound": "assets/pira/PIRA00AF.mp3",
+  "factsNarration": "assets/pira/PIRA00FB.mp3",
+  "video": {
+    "title": "Scissor fish",
+    "src": "assets/pira/clip.mp4",
+    "poster": "assets/pira/poster.webp",
+    "caption": "Along the Amazon River, the word for \"scissors\" is \"piranha.\" People in that area were using piranha jaws as cutting tools and their teeth as razors long before scissors were invented. Piranhas have another important use–as food. It's more likely that a piranha will be bitten by a human than the other way around!"
+  }
+}

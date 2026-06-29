@@ -1,0 +1,186 @@
+{
+  "id": "albe",
+  "code": "ALBE",
+  "name": "Albertosaurus",
+  "category": "dinosaur",
+  "scientificName": "Albertosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "al-BER-toe-SOR-us",
+  "meaning": "Alberta lizard",
+  "period": "Late Cretaceous",
+  "diet": "Carnivore",
+  "tagline": "T. rex's smaller but speedier cousin — a fierce hunter of ancient Canada!",
+  "hero": {
+    "image": "assets/albe/ALBE00AA.webp",
+    "alt": "Albertosaurus"
+  },
+  "intro": "Albertosaurus was named for Alberta, Canada, where it once roamed the deltas in the area now dominated by the Red Deer River. This dinosaur belonged to the same family as Tyrannosaurus rex, and like its bigger cousin, Albertosaurus was a fearsome, meat-eating predator. Like all tyrannosaurs, Albertosaurus had extra ribs along its belly. The additional set of ribs may have served to protect the dinosaur's internal organs.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Alberta lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Theropod"
+    },
+    {
+      "label": "Length",
+      "value": "8m (26ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "2 tons"
+    }
+  ],
+  "topics": [
+    {
+      "id": "carnivore-cousins",
+      "title": "Carnivore Cousins",
+      "image": "assets/albe/ALBE01PU.webp",
+      "text": "Albertosaurus and Tyrannosaurus rex had a lot in common. Both were fearsome meat-eaters that walked on their hind legs and had tiny arms and hands.\n\nSmaller but faster?\nAlbertosaurus was petite in comparison, growing up to an average length of twenty-six feet. Although smaller than Tyrannosaurus rex, this dinosaur was faster, and may well have terrorized less aggressive plant-eaters.\n\nThe biggest\nTyrannosaurus rex was the largest well-known carnivorous dinosaur, reaching a length of more than forty-five feet!"
+    },
+    {
+      "id": "a-park-resident",
+      "title": "A Park Resident",
+      "image": "assets/albe/ALBE02PU.webp",
+      "text": "Almost 350 dinosaur skeletons have been found in this stretch of badlands in Alberta, Canada. More species of dinosaurs have been found in Dinosaur Provincial Park than at any dinosaur graveyard in the world.",
+      "captions": [
+        {
+          "label": "Preparing the find",
+          "text": "This picture shows a person working with a fossilized Albertosaurus found in Dinosaur Provincial Park. Here the fossils are being removed from the rock that encases them. Notice how big the dinosaur's head was, and how well preserved its teeth are. Because the heads of these animals were so thick and large, several skulls have survived the centuries intact."
+        }
+      ]
+    },
+    {
+      "id": "not-so-peaceful-neighborhood",
+      "title": "Not-So-Peaceful Neighborhood",
+      "image": "assets/albe/ALBE03PU.webp",
+      "text": "Albertosaurus wasn't the only dinosaur discovered at Dinosaur Provincial Park. Paleontologists have also found remains of Euoplocephalus, Centrosaurus, and Lambeosaurus, just to name a few. This means that these dinosaurs must have shared the same territory. There was probably little peace, however, for these less fearsome giants. They were all plant-eaters and no doubt were tasty meals for the fierce Albertosaurus.",
+      "captions": [
+        {
+          "label": "Euoplocephalus",
+          "text": "This armored dinosaur may have looked tough, but its weapons were all defensive. Euoplocephalus was a gentle plant-eater, not a predatory dinosaur."
+        },
+        {
+          "label": "Lambeosaurus",
+          "text": "This was one of the largest hadrosaurs, the family of duckbilled dinosaurs. Like many hadrosaurs, Lambeosaurus had an unusual head. The large crest, with a long backwards-pointing spike, enclosed hollow tubes which passed down to its nostrils. Lambeosaurus could use its crest to make loud noises to signal other dinosaurs."
+        }
+      ]
+    },
+    {
+      "id": "dangerous-hands-and-feet",
+      "title": "Dangerous Hands and Feet",
+      "image": "assets/albe/ALBE04PU.webp",
+      "text": "Like many other meat-eaters, not only did Albertosaurus have wicked teeth, it also had menacing claws on both hands and feet.",
+      "captions": [
+        {
+          "label": "Sharp claws",
+          "text": "Its small two-fingered hands ended in long claws that were well suited for catching and holding prey."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaur Provincial Park",
+      "to": "park"
+    },
+    {
+      "label": "Tyrannosaurus rex",
+      "to": "tyra"
+    },
+    {
+      "label": "Digging up Dinosaurs",
+      "to": "digg"
+    },
+    {
+      "label": "Euoplocephalus",
+      "to": "euop"
+    },
+    {
+      "label": "Deinonychus",
+      "to": "dein"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/albe/ALBE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Carnivore cousins",
+            "to": "carnivore-cousins",
+            "x": 68,
+            "y": 17,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "Dangerous hands and feet",
+            "to": "dangerous-hands-and-feet",
+            "x": 39,
+            "y": 43,
+            "w": 30,
+            "h": 6
+          },
+          {
+            "label": "A park resident",
+            "to": "a-park-resident",
+            "x": 35,
+            "y": 52,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Not-so-peaceful neighborhood",
+            "to": "not-so-peaceful-neighborhood",
+            "x": 28,
+            "y": 64,
+            "w": 36,
+            "h": 5
+          }
+        ]
+      },
+      "carnivore-cousins": {
+        "image": "assets/albe/ALBE01PU.webp",
+        "back": "main"
+      },
+      "a-park-resident": {
+        "image": "assets/albe/ALBE02PU.webp",
+        "back": "main"
+      },
+      "not-so-peaceful-neighborhood": {
+        "image": "assets/albe/ALBE03PU.webp",
+        "back": "main"
+      },
+      "dangerous-hands-and-feet": {
+        "image": "assets/albe/ALBE04PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/albe/ALBE50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/albe/ALBE00AP.mp3",
+  "narration": "assets/albe/ALBE00AJ.mp3"
+}

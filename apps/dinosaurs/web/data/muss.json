@@ -1,0 +1,136 @@
+{
+  "id": "muss",
+  "code": "MUSS",
+  "name": "Mussaurus",
+  "category": "dinosaur",
+  "scientificName": "Mussaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "moo-SOR-us",
+  "meaning": "Mouse lizard",
+  "period": "Late Triassic",
+  "diet": "Herbivore",
+  "tagline": "The tiniest dinosaur on record — and experts think it's only a baby!",
+  "hero": {
+    "image": "assets/muss/MUSS00AA.webp",
+    "alt": "Mussaurus"
+  },
+  "intro": "Many people think of dinosaurs as giants, but they came in all shapes and sizes. Mussaurus was so tiny that it was named \"mouse lizard.\" This dinosaur, less than ten inches long from its nose to the tip of its tail, was found in a nest with dinosaur eggs, so scientists believe that it's probably a baby prosauropod, an early plant-eater that grew to be several feet long.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "South America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Triassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Mouse lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Prosauropod"
+    },
+    {
+      "label": "Length",
+      "value": "2m (6.5ft)"
+    },
+    {
+      "label": "Note",
+      "value": "This is the tiniest dinosaur on record— experts think it's only a baby."
+    }
+  ],
+  "topics": [
+    {
+      "id": "why-so-small",
+      "title": "Why So Small?",
+      "image": "assets/muss/MUSS01PU.webp",
+      "text": "There are advantages to being small. Small dinosaurs were fast and could easily hide from predators. They also needed to eat less to keep their bodies going, and could warm up or cool off more quickly than a large dinosaur.",
+      "captions": [
+        {
+          "label": "Smallfry",
+          "text": "Like Mussaurus, Hypsilophodon was a small dinosaur and had little defense against predators except for speed. These little dinosaurs may have traveled in groups for protection, quick to alert each other, and quick to run from danger."
+        },
+        {
+          "label": "Megalosaurus",
+          "text": "This large two-legged meat-eater was the first dinosaur to be scientifically described, by William Buckland in 1824."
+        }
+      ]
+    },
+    {
+      "id": "dinosaur-nests",
+      "title": "Dinosaur Nests",
+      "image": "assets/muss/MUSS02PU.webp",
+      "text": "Some remains of Mussaurus have been found in a nest. Dinosaurs laid their eggs in hollowed-out nests in the ground. The sandy nest shown here belonged to Protoceratops. Paleontologists believe that several Protoceratops mothers had laid eggs in a circle in the same nest.",
+      "captions": [
+        {
+          "label": "A beast emerges",
+          "text": "This fossilized eggshell contains a duckbilled dinosaur called Maiasaura. Although they often grew to be large, baby dinosaurs were tiny when they hatched."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Birth and Growth",
+      "to": "birt"
+    },
+    {
+      "label": "Megalosaurus",
+      "to": "mega"
+    },
+    {
+      "label": "Maiasaura",
+      "to": "maia"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/muss/MUSS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Why so small?",
+            "to": "why-so-small",
+            "x": 5,
+            "y": 70,
+            "w": 21,
+            "h": 6
+          },
+          {
+            "label": "Dinosaur nests",
+            "to": "dinosaur-nests",
+            "x": 67,
+            "y": 73,
+            "w": 25,
+            "h": 6
+          }
+        ]
+      },
+      "why-so-small": {
+        "image": "assets/muss/MUSS01PU.webp",
+        "back": "main"
+      },
+      "dinosaur-nests": {
+        "image": "assets/muss/MUSS02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/muss/MUSS50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/muss/MUSS00AP.mp3",
+  "narration": "assets/muss/MUSS00AJ.mp3"
+}

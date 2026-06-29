@@ -1,14 +1,16 @@
 {
-  "name": "dangerous-creatures-web",
-  "type": "module",
-  "version": "2.0.0",
+  "name": "ms-exploration-archive",
   "private": true,
+  "version": "1.0.0",
+  "packageManager": "pnpm@11.9.0",
+  "description": "Modern, museum-style web rebuilds of Microsoft Home's Exploration Series CD-ROMs (Dangerous Creatures, Oceans, Dinosaurs).",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build && cp -r web/assets dist/assets && cp -r web/data dist/data && cp web/_headers dist/_headers",
-    "preview": "astro preview"
-  },
-  "dependencies": {
-    "astro": "^4.16.0"
+    "build": "pnpm -r build",
+    "dc:dev": "pnpm --filter dangerous-creatures dev",
+    "dc:build": "pnpm --filter dangerous-creatures build",
+    "oceans:dev": "pnpm --filter oceans dev",
+    "oceans:build": "pnpm --filter oceans build",
+    "dino:dev": "pnpm --filter dinosaurs dev",
+    "dino:build": "pnpm --filter dinosaurs build"
   }
 }

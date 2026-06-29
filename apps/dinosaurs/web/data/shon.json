@@ -1,0 +1,180 @@
+{
+  "id": "shon",
+  "code": "SHON",
+  "name": "Shonisaurus",
+  "category": "creature",
+  "scientificName": "Shonisaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "show-nih-SOR-us",
+  "meaning": "Hidden lizard",
+  "period": "Triassic",
+  "diet": "Carnivore",
+  "tagline": "A giant sea reptile that looked like a dolphin but was far more ancient and deadly.",
+  "hero": {
+    "image": "assets/shon/SHON00AA.webp",
+    "alt": "Shonisaurus"
+  },
+  "intro": "Picture a dolphin longer than eight men, with a narrow, pointed mouth full of sharp teeth, and you'll know what Shonisaurus looked like. Much like a giant prehistoric porpoise, Shonisaurus streaked through the oceans in search of fish and other prey.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Triassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Hidden lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Ichthyosaur"
+    },
+    {
+      "label": "Length",
+      "value": "15m (50ft)"
+    },
+    {
+      "label": "Note",
+      "value": "The largest ichthyosaur on record, Shonisaurus was a superb swimmer."
+    }
+  ],
+  "topics": [
+    {
+      "id": "streamlined-swimmer",
+      "title": "Streamlined Swimmer",
+      "image": "assets/shon/SHON01PU.webp",
+      "text": "Just like today's dolphins and porpoises, Shonisaurus, with its streamlined body shape, flippers, and tail, was perfectly suited to life in the water. However, Shonisaurus was a marine reptile, an ichthyosaur, while the dolphins you see today are mammals.",
+      "captions": [
+        {
+          "label": "Scaly paddlers",
+          "text": "Shonisaurus used its flippers to propel itself through the seas, just as dolphins do today. Its flippers were stiff paddles covered with scales, as this impression shows."
+        }
+      ]
+    },
+    {
+      "id": "preserved-for-posterity",
+      "title": "Preserved for Posterity",
+      "image": "assets/shon/SHON02PU.webp",
+      "text": "This wonderfully detailed Jurassic ichthyosaur specimen shows an outline of the reptile's soft tissues, as well as all the bones of the skeleton."
+    },
+    {
+      "id": "what-a-lot-of-teeth",
+      "title": "What a Lot of Teeth!",
+      "image": "assets/shon/SHON03PU.webp",
+      "text": "Ichthyosaurs like Shonisaurus had jaws full of small, spiky teeth. Their strong jaw muscles could quickly snap shut on a fish or mollusk, and the pointed teeth held the prey in place.",
+      "captions": [
+        {
+          "label": "Toothy terror",
+          "text": "This fossilized ichthyosaur skull clearly shows the dazzling display of teeth the marine animal used to puncture its prey."
+        },
+        {
+          "label": "Fossil find",
+          "text": "These are the fossilized teeth of an ichthyosaur like Shonisaurus. These piercing teeth would have no trouble crushing the hard shell of an ammonite. Often, teeth and bones are the only remains found of prehistoric animals."
+        }
+      ]
+    },
+    {
+      "id": "uncovering-an-ichthyosaur",
+      "title": "Uncovering an Ichthyosaur",
+      "image": "assets/shon/SHON04PU.webp",
+      "text": "The cliffs on the south coast of England contain abundant fossils of animals that lived in the sea in Jurassic times. Between 1810 and 1812, fossil hunter Mary Anning (1799-1847) and her brother excavated a complete ichthyosaur near the town of Lyme Regis. At the time they thought the skeleton belonged to an ancient crocodile."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Triassic Period",
+      "to": "tria"
+    },
+    {
+      "label": "Life After Dinosaurs",
+      "to": "aftr"
+    },
+    {
+      "label": "What is a Fossil?",
+      "to": "foss"
+    },
+    {
+      "label": "Eryops",
+      "to": "eryo"
+    },
+    {
+      "label": "Early Dinosaur Detectives",
+      "to": "edet"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/shon/SHON00AA.webp",
+        "hotspots": [
+          {
+            "label": "Streamlined swimmer",
+            "to": "streamlined-swimmer",
+            "x": 5,
+            "y": 57,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "What a lot of teeth!",
+            "to": "what-a-lot-of-teeth",
+            "x": 67,
+            "y": 38,
+            "w": 27,
+            "h": 6
+          },
+          {
+            "label": "Preserved for posterity",
+            "to": "preserved-for-posterity",
+            "x": 63,
+            "y": 56,
+            "w": 30,
+            "h": 6
+          },
+          {
+            "label": "Uncovering an ichthyosaur",
+            "to": "uncovering-an-ichthyosaur",
+            "x": 58,
+            "y": 72,
+            "w": 34,
+            "h": 6
+          }
+        ]
+      },
+      "streamlined-swimmer": {
+        "image": "assets/shon/SHON01PU.webp",
+        "back": "main"
+      },
+      "preserved-for-posterity": {
+        "image": "assets/shon/SHON02PU.webp",
+        "back": "main"
+      },
+      "what-a-lot-of-teeth": {
+        "image": "assets/shon/SHON03PU.webp",
+        "back": "main"
+      },
+      "uncovering-an-ichthyosaur": {
+        "image": "assets/shon/SHON04PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/shon/SHON50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/shon/SHON00AP.mp3",
+  "narration": "assets/shon/SHON00AJ.mp3"
+}

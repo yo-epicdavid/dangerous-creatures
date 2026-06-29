@@ -1,0 +1,183 @@
+{
+  "id": "octo",
+  "code": "OCTO",
+  "name": "Octopuses",
+  "category": "creature",
+  "scientificName": "Octopus vulgaris",
+  "needsScientificVerify": false,
+  "tagline": "Eight arms, a genius brain, and a bag of tricks that will blow your mind!",
+  "zones": [
+    "Coral reef",
+    "Coast & tide pools",
+    "Open ocean"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/octo/OCTO00AA.webp",
+    "alt": "Octopuses"
+  },
+  "intro": "The octopus is a voracious predator. It seizes its prey with its eight long arms, which feature rows of suction cups that make its grasp virtually inescapable. After capturing its prey—usually a crustacean—the octopus bites the victim, introducing a paralyzing venom and a digestive enzyme into the wound. The octopus then sucks the flesh from the crustacean and discards the empty shell.",
+  "facts": [
+    {
+      "label": "Arms",
+      "value": "Octopuses seize prey with eight long arms lined with suction cups that make their grasp virtually inescapable."
+    },
+    {
+      "label": "Eggs",
+      "value": "A female octopus lays up to 150,000 eggs and guards them without eating until they hatch four to six weeks later."
+    },
+    {
+      "label": "Size",
+      "value": "Giant Pacific octopuses can reach more than 9 m (30 ft) across."
+    },
+    {
+      "label": "Blue blood",
+      "value": "The blue-ringed octopus's venom can be fatal to humans within minutes — and its blood is blue instead of red!"
+    },
+    {
+      "label": "Intelligence",
+      "value": "In the lab, octopuses can navigate mazes, open jars, distinguish shapes, and even learn tricks just by watching other octopuses."
+    }
+  ],
+  "topics": [
+    {
+      "id": "blue-poison",
+      "title": "Blue poison",
+      "image": "assets/octo/OCTO02PU.webp",
+      "text": "You may think blue is a peaceful color, but on marine animals it's a hazard warning! The blue-ringed octopus and the blue-spotted stingray get top marks for poison. Don't mess around with the blues!",
+      "captions": [
+        {
+          "label": "Bad barbs",
+          "text": "When stepped on or grabbed, this blue-spotted stingray may drive its barbed tail into a human limb and inject a strong venom that produces pain, coma, or even death."
+        },
+        {
+          "label": "Blue bites",
+          "text": "When the blue-ringed octopus bites, it makes deep puncture wounds and secretes a poison that stuns or kills its prey. This venom can be fatal to humans within minutes. Maybe it's no mistake that the octopus turns blue when it's angry, and that its blood is blue instead of red!"
+        }
+      ],
+      "narration": "assets/octo/OCTO02JN.mp3"
+    },
+    {
+      "id": "of-arms-and-eggs",
+      "title": "Of arms and eggs",
+      "image": "assets/octo/OCTO03PU.webp",
+      "text": "When octopuses mate, the male uses a special arm to deposit a packet of sperm inside the female. The female lays up to 150,000 eggs. Since she doesn't eat until after they've hatched four to six weeks later, she literally guards them with her life! Octopus moms often die of starvation.",
+      "captions": [
+        {
+          "label": "Octopus anatomy",
+          "text": "Although the octopus is completely deaf and can never hear the burblings of its mate, its eyesight is exceptionally keen. In fact, its large brain is the most like our own of any of the invertebrates."
+        }
+      ],
+      "narration": "assets/octo/OCTO03JN.mp3"
+    },
+    {
+      "id": "octo-tricks",
+      "title": "Octo-tricks",
+      "image": "assets/octo/OCTO04PU.webp",
+      "text": "You may not believe it, but octopuses are A+ students! In the lab they can navigate mazes, open jars, distinguish shapes, and even learn tricks just by watching other octopuses. They respond to other situations in equally complex ways: they'll come to be fed, run away if they're afraid, squirt ink if they're not pleased, and even climb out of their tanks when a person approaches. We still have a great deal to discover about these odd-looking creatures, who may turn out to be the Ph.D.s of the seas!",
+      "narration": "assets/octo/OCTO04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Diving",
+      "to": "divi"
+    },
+    {
+      "label": "Saltwater Crocodiles",
+      "to": "croc"
+    },
+    {
+      "label": "Water Babies"
+    },
+    {
+      "label": "Remarkable Powers",
+      "to": "powr"
+    },
+    {
+      "label": "How Big Does it Get?"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/octo/OCTO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 9,
+            "h": 7
+          },
+          {
+            "label": "Octo-tricks",
+            "to": "octo-tricks",
+            "x": 57,
+            "y": 17,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Nightstalker",
+            "to": "video",
+            "x": 26,
+            "y": 58,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Of arms and eggs",
+            "to": "of-arms-and-eggs",
+            "x": 36,
+            "y": 85,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Blue poison",
+            "to": "blue-poison",
+            "x": 64,
+            "y": 77,
+            "w": 17,
+            "h": 5
+          }
+        ]
+      },
+      "blue-poison": {
+        "image": "assets/octo/OCTO02PU.webp",
+        "back": "main"
+      },
+      "of-arms-and-eggs": {
+        "image": "assets/octo/OCTO03PU.webp",
+        "back": "main"
+      },
+      "octo-tricks": {
+        "image": "assets/octo/OCTO04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/octo/clip.mp4",
+        "poster": "assets/octo/OCTO01PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/octo/OCTO00JN.mp3",
+  "sound": "assets/octo/OCTO00IX.mp3",
+  "video": {
+    "title": "Nightstalker",
+    "src": "assets/octo/clip.mp4",
+    "poster": "assets/octo/poster.webp",
+    "caption": "A shy creature, the octopus likes to make a cozy lair in a rock crevice. When it leaves to hunt (mostly at night), it can squeeze through the tiniest hole, amble around on its arms, or scoot backwards rapidly by shooting a jet of water through its body. While waiting for a tasty lobster or shrimp to wander by, it can even camouflage itself by changing its skin color or texture to match its surroundings. Most amazing of all, octopuses can disorient attackers by squirting a \"smoke screen\" of black ink. While most octopuses are small, giant Pacific octopuses can reach more than 9 m (30 ft) across!",
+    "narration": "assets/octo/OCTO01JN.mp3"
+  }
+}

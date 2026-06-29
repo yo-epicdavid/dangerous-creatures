@@ -1,0 +1,189 @@
+{
+  "id": "boxy",
+  "code": "BOXY",
+  "name": "Boxfish",
+  "category": "creature",
+  "scientificName": "Ostracion meleagris",
+  "needsScientificVerify": false,
+  "tagline": "Part fish, part hovercraft — this box-shaped beauty wears its armor on the outside!",
+  "zones": [
+    "Coral reef"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/boxy/BOXY00AA.webp",
+    "alt": "Boxfish"
+  },
+  "intro": "Boxfish are some of the most colorful fish in the ocean and favorites in aquariums as well. They really are box-shaped, and they come in a variety of colors, like bright yellow, black and white, or violet with yellow polka dots. Because their bodies are covered with inflexible, protective plates, these little fish have a unique swimming style that has added to their popularity and has also earned them yet another name: hovercraft fish!",
+  "facts": [
+    {
+      "label": "Other name",
+      "value": "hovercraft fish"
+    },
+    {
+      "label": "Diet",
+      "value": "algae, worms, and snails"
+    },
+    {
+      "label": "Defense",
+      "value": "secretes a poisonous substance that makes it distasteful to some of its predators"
+    },
+    {
+      "label": "Swimming",
+      "value": "can't flex its body at all; relies on fin power and ripples its tail to steer"
+    },
+    {
+      "label": "Mating",
+      "value": "the male darts around the female to charm her; some scientists believe he then swims to the surface, where he hums to her while fertilizing the eggs — a ritual you could call the boxtrot!"
+    },
+    {
+      "label": "Did you know",
+      "value": "some species of boxfish blow jets of water around reefs to stir up clouds of organisms to feed on"
+    }
+  ],
+  "topics": [
+    {
+      "id": "always-kissing",
+      "title": "Always kissing",
+      "image": "assets/boxy/BOXY01PU.webp",
+      "text": "Boxfish have a tough beak for a mouth, which is permanently puckered. It almost looks as if the fish were swimming around “kissing” its ocean world! In reality, boxfish use these beaks to suck in their diet of algae, worms, and snails.",
+      "captions": [
+        {
+          "label": "Parrot compatriot",
+          "text": "The parrot, parrotfish, and boxfish all have similarly shaped beaks."
+        },
+        {
+          "label": "Coral consumer",
+          "text": "Another colorful character, the parrotfish, has such a tough beak that it can consume coral!"
+        }
+      ],
+      "narration": "assets/boxy/BOXY01JN.mp3"
+    },
+    {
+      "id": "you-call-this-swimming",
+      "title": "You call this swimming?",
+      "image": "assets/boxy/BOXY02PU.webp",
+      "text": "The cowfish—so named because of the horny projections over its eyes and for its cowlike face—is an awkward, plodding swimmer like the other members of the boxfish family.",
+      "captions": [
+        {
+          "label": "This way?",
+          "text": "Hard, fused scales make the cowfish’s body so rigid that it can’t move it at all."
+        },
+        {
+          "label": "Which way?",
+          "text": "The seahorse also has an armored body, and forward motion is painstaking!"
+        },
+        {
+          "label": "Or that way?",
+          "text": "Because it can’t flex its body, this cowfish has to rely on fin power. It flaps its fins and adds extra steering by rippling its tail."
+        }
+      ],
+      "narration": "assets/boxy/BOXY02JN.mp3"
+    },
+    {
+      "id": "uptight-and-protected",
+      "title": "Uptight and protected",
+      "image": "assets/boxy/BOXY03PU.webp",
+      "text": "Some animals have very tight coverings or shells to protect them from attackers.",
+      "captions": [
+        {
+          "label": "Safe and sound",
+          "text": "The armadillo—or “little armored one” in Spanish—is covered with hard, bony plates. It has flexible bands in the middle of its body that allow it to move."
+        },
+        {
+          "label": "In a box",
+          "text": "A boxfish is completely encased in fused scales, and can’t move its body. It also secretes a poisonous substance as an added defense mechanism. This substance makes the boxfish distasteful to some of its predators."
+        }
+      ],
+      "narration": "assets/boxy/BOXY03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Colors",
+      "to": "colr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/boxy/BOXY00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Always kissing",
+            "to": "always-kissing",
+            "x": 3,
+            "y": 70,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "You call this swimming?",
+            "to": "you-call-this-swimming",
+            "x": 27,
+            "y": 85,
+            "w": 32,
+            "h": 5
+          },
+          {
+            "label": "Uptight and protected",
+            "to": "uptight-and-protected",
+            "x": 56,
+            "y": 40,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Boxfish song",
+            "to": "video",
+            "x": 56,
+            "y": 73,
+            "w": 25,
+            "h": 5
+          }
+        ]
+      },
+      "always-kissing": {
+        "image": "assets/boxy/BOXY01PU.webp",
+        "back": "main"
+      },
+      "you-call-this-swimming": {
+        "image": "assets/boxy/BOXY02PU.webp",
+        "back": "main"
+      },
+      "uptight-and-protected": {
+        "image": "assets/boxy/BOXY03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/boxy/clip.mp4",
+        "poster": "assets/boxy/BOXY04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/boxy/BOXY00JN.mp3",
+  "sound": "assets/boxy/BOXY00IX.mp3",
+  "video": {
+    "title": "Boxfish song",
+    "src": "assets/boxy/clip.mp4",
+    "poster": "assets/boxy/poster.webp",
+    "caption": "Shaw’s cowfish and a spotted boxfish up close, illustrating the boxfish’s hovercraft swimming style and courtship behaviors around the reef.",
+    "narration": "assets/boxy/BOXY04JN.mp3"
+  }
+}

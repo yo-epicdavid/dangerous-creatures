@@ -1,0 +1,150 @@
+{
+  "id": "dhus",
+  "code": "DHUS",
+  "name": "Deinosuchus",
+  "category": "creature",
+  "scientificName": "Deinosuchus",
+  "needsScientificVerify": false,
+  "pronunciation": "dy-no-SOO-kus",
+  "meaning": "Terror Crocodile",
+  "period": "Late Cretaceous",
+  "diet": "Carnivore",
+  "tagline": "The giant croc that lurked in swamps to ambush dinosaurs!",
+  "hero": {
+    "image": "assets/dhus/DHUS00AA.webp",
+    "alt": "Deinosuchus"
+  },
+  "intro": "Probably the biggest relative of the modern crocodile that ever lived, Deinosuchus prowled through fresh-water swamps, lying in wait to ambush dinosaurs and other prehistoric creatures. Experts estimate its length at almost fifty feet—as large as a semi truck and trailer! However, this length is only a guess, because so far we have found only its skull, which by itself measured six feet, six inches long!",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Terror Crocodile"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Prehistoric crocodile"
+    },
+    {
+      "label": "Length",
+      "value": "~15m (48ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "terror-croc",
+      "title": "Terror Croc",
+      "image": "assets/dhus/DHUS01PU.webp",
+      "text": "Deinosuchus's name means \"terror crocodile.\" If this giant crocodile behaved like modern crocodiles, it probably hid near the water's edge, waiting for dinosaurs or other creatures to come and drink, then attacked and dragged its prey under the water. A terror indeed!"
+    },
+    {
+      "id": "guessing-its-size",
+      "title": "Guessing Its Size",
+      "image": "assets/dhus/DHUS02PU.webp",
+      "text": "To date, only the skull of Deinosuchus has been found. Based on the skull's length of six and a half feet, and assuming that this prehistoric crocodile had the same body proportions found in modern crocodiles, Deinosuchus is estimated to have been between forty and forty-nine feet long.",
+      "captions": [
+        {
+          "label": "Modern crocodiles",
+          "text": "Crocodiles today are much smaller than their prehistoric cousins. Modern freshwater crocodiles commonly reach a length of twelve feet, while saltwater crocodiles may grow up to fourteen feet long."
+        }
+      ]
+    },
+    {
+      "id": "remains-the-same",
+      "title": "Remains the Same?",
+      "image": "assets/dhus/DHUS03PU.webp",
+      "text": "Crocodiles have changed little in appearance since the Jurassic period. Like their ancestors they are stealthy predators that hunt by creeping up on their prey and then suddenly attacking.",
+      "captions": [
+        {
+          "label": "Fossil crocodile remains",
+          "text": "Crocodile remains are often found in the same rocks that yield dinosaur remains. Here you can see a skull, a scute (bony armor plate), and some teeth that came from a Cretaceous crocodile."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Cretaceous Period",
+      "to": "cret"
+    },
+    {
+      "label": "Living Fossils",
+      "to": "ddec"
+    },
+    {
+      "label": "The Story in a Skull",
+      "to": "stor"
+    },
+    {
+      "label": "Life After Dinosaurs",
+      "to": "aftr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/dhus/DHUS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Terror croc",
+            "to": "terror-croc",
+            "x": 36,
+            "y": 54,
+            "w": 13,
+            "h": 4
+          },
+          {
+            "label": "Remains the same?",
+            "to": "remains-the-same",
+            "x": 16,
+            "y": 63,
+            "w": 17,
+            "h": 4
+          },
+          {
+            "label": "Guessing its size",
+            "to": "guessing-its-size",
+            "x": 75,
+            "y": 77,
+            "w": 17,
+            "h": 4
+          }
+        ]
+      },
+      "terror-croc": {
+        "image": "assets/dhus/DHUS01PU.webp",
+        "back": "main"
+      },
+      "guessing-its-size": {
+        "image": "assets/dhus/DHUS02PU.webp",
+        "back": "main"
+      },
+      "remains-the-same": {
+        "image": "assets/dhus/DHUS03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/dhus/DHUS50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/dhus/DHUS00AP.mp3",
+  "narration": "assets/dhus/DHUS00AJ.mp3"
+}

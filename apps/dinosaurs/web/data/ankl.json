@@ -1,0 +1,120 @@
+{
+  "id": "ankl",
+  "code": "ANKL",
+  "name": "Ankylosaurus",
+  "category": "dinosaur",
+  "scientificName": "Ankylosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "ang-KY-loh-SOR-us",
+  "meaning": "Fused lizard",
+  "period": "Late Cretaceous",
+  "diet": "Herbivore",
+  "tagline": "This armored tank packed a bone club tail powerful enough to cripple a T. rex!",
+  "hero": {
+    "image": "assets/ankl/ANKL00AA.webp",
+    "alt": "Ankylosaurus"
+  },
+  "intro": "When Ankylosaurus swung its heavy tail club, other dinosaurs got out of the way. The \"club\" was an impressive weapon, made of two large balls of fused bone that were embedded in the dinosaur's thick skin and attached to the rest of the tail bones. Ankylosaurus also had thick armor plates and spikes all over its body to protect it from attack.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Fused lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ankylosaur"
+    },
+    {
+      "label": "Length",
+      "value": "10.7m (35ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "4 tons"
+    }
+  ],
+  "topics": [
+    {
+      "id": "anonymous-ankylosaur",
+      "title": "Anonymous Ankylosaur?",
+      "image": "assets/ankl/ANKL01PU.webp",
+      "text": "In 1988 scientists found the first Antarctic dinosaur in the area of James Ross Island. The specimen unearthed by the exploration teams was identified as an armored dinosaur."
+    },
+    {
+      "id": "watch-out-for-that-tail",
+      "title": "Watch Out for That Tail!",
+      "image": "assets/ankl/ANKL02PU.webp",
+      "text": "Ankylosaurus's tail club measured more than three feet across. The base of the dinosaur's tail must have been very flexible and muscular to swing such a weapon. Although Ankylosaurus may have been no match in size for a giant carnivore like Tyrannosaurus rex, one well-aimed blow could have disabled a big meat-eater."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaur Defense",
+      "to": "ddef"
+    },
+    {
+      "label": "Antarctica Expedition",
+      "to": "anta"
+    },
+    {
+      "label": "A Tale of Tails",
+      "to": "tale"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/ankl/ANKL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Watch out for that tail!",
+            "to": "watch-out-for-that-tail",
+            "x": 57,
+            "y": 34,
+            "w": 28,
+            "h": 6
+          },
+          {
+            "label": "Anonymous ankylosaur?",
+            "to": "anonymous-ankylosaur",
+            "x": 5,
+            "y": 74,
+            "w": 23,
+            "h": 6
+          }
+        ]
+      },
+      "anonymous-ankylosaur": {
+        "image": "assets/ankl/ANKL01PU.webp",
+        "back": "main"
+      },
+      "watch-out-for-that-tail": {
+        "image": "assets/ankl/ANKL02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/ankl/ANKL50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/ankl/ANKL00AP.mp3",
+  "narration": "assets/ankl/ANKL00AJ.mp3"
+}

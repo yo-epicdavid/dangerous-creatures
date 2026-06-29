@@ -1,0 +1,188 @@
+{
+  "id": "twof",
+  "code": "TWOF",
+  "name": "Two Feet or Four?",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "two FEET or FOUR",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Did dinosaurs walk on two legs or four — and could some do both?",
+  "hero": {
+    "image": "assets/twof/TWOF00AA.webp",
+    "alt": "Two Feet or Four?"
+  },
+  "intro": "When dinosaurs were first discovered, little was known about the giant reptiles, so illustrations and models of them were based on how people imagined dinosaurs behaved. Sometimes the same dinosaur appeared on two legs in one place and on four legs in another. Nowadays, we've learned enough about dinosaurs that we can base our ideas on scientific evidence.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "two-legs-and-four",
+      "title": "Two Legs and Four",
+      "image": "assets/twof/TWOF01PU.webp",
+      "text": "Corythosaurus, like other ornithopod dinosaurs, usually walked on four legs as it browsed through vegetation. Its front legs were shorter than its hind legs, and it may have balanced on two legs to reach the choice leaves on high branches. When threatened by a predator, Corythosaurus might have reared up on its powerful hind legs and run away, using its long tail to balance the weight of its head and neck."
+    },
+    {
+      "id": "telltale-toes",
+      "title": "Telltale Toes",
+      "image": "assets/twof/TWOF02PU.webp",
+      "text": "Duckbilled dinosaurs like Corythosaurus or Parasaurolophus may have had the option of walking either on four legs or two. The \"toe\" bones on the front feet of these animals are flattened and hoof-like.",
+      "captions": [
+        {
+          "label": "Four-legged toes",
+          "text": "Plant-eaters like Triceratops always walked on four legs, so the toe bones of its front and back feet were identical. Their toe bones were flatter, broader and more hoof-like than those of duckbilled dinosaurs."
+        }
+      ]
+    },
+    {
+      "id": "fleet-of-foot",
+      "title": "Fleet of Foot",
+      "image": "assets/twof/TWOF03PU.webp",
+      "text": "The hind foot of Scelidosaurus, one of the earliest dinosaurs, was broad and powerful with hoof-like claws. It had four strong toes to support the dinosaur's heavy body. The smaller first toe would have barely reached the ground.",
+      "captions": [
+        {
+          "label": "Swifter on two",
+          "text": "Scelidosaurus always walked on four legs, but may have reared up on its hind legs to run away from a pursuing predator. Its long, muscular tail was covered with bony studs that also covered the length of its back. The tail would have helped the plant-eater balance as it ran."
+        }
+      ]
+    },
+    {
+      "id": "is-it-a-hand-or-a-foot",
+      "title": "Is It a Hand or a Foot?",
+      "image": "assets/twof/TWOF04PU.webp",
+      "text": "Because of the sharp, narrow claws used for grasping, tearing, or holding, we know that this is a hand. This hand came from Plateosaurus, a plant-eater that stood on all fours as it fed on plants at ground level. It could also rear up on its hind legs to tear leaves from the treetops. The joints between the bones allowed the hand to be bent back when the dinosaur walked on all fours. Plateosaurus was one of the first big four-footed plant-eaters."
+    },
+    {
+      "id": "multipurpose-hand",
+      "title": "Multipurpose Hand",
+      "image": "assets/twof/TWOF05PU.webp",
+      "text": "The hand of Iguanodon is remarkable because it shows clearly the different ways a hand can be used. The large thumb spike may have been used as a defensive weapon. The three middle fingers ended in hoof-like bones and were used only for walking. The fifth finger was flexible, and could have been used for holding food or for steadying a branch the dinosaur was chewing."
+    },
+    {
+      "id": "feeble-hands-of-a-fearsome-predator",
+      "title": "Feeble Hands of a Fearsome Predator",
+      "image": "assets/twof/TWOF06PU.webp",
+      "text": "Tyrannosaurus rex was the largest and most ferocious of the meat-eating dinosaurs, but its arms and hands looked delicate in comparison to its huge body. Scientists now believe Tyrannosaurus rex's arms were powerfully muscular, and were used to hold on to the dinosaur's struggling prey."
+    },
+    {
+      "id": "muscle-power",
+      "title": "Muscle Power",
+      "image": "assets/twof/TWOF07PU.webp",
+      "text": "Tyrannosaurus rex had powerful leg muscles that enabled it to run fast. Scientists can judge the size and shape of muscles from marks on fossilized bone where the muscles were attached. They then compare their findings with muscle arrangements of modern animals to determine size and power. This model, made for museum use, shows the bones and muscles of Albertosaurus, a close relative of Tyrannosaurus rex.",
+      "captions": [
+        {
+          "label": "Albertosaurus",
+          "text": "This carnosaur was a smaller relative of Tyrannosaurus rex and was also a fierce carnivore with large, powerful legs. Both dinosaurs had a similar muscle structure."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Myths and Legends",
+      "to": "myth"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/twof/TWOF00AA.webp",
+        "hotspots": [
+          {
+            "label": "Is it a hand or a foot?",
+            "to": "is-it-a-hand-or-a-foot",
+            "x": 2,
+            "y": 40,
+            "w": 18,
+            "h": 12
+          },
+          {
+            "label": "Two legs and four",
+            "to": "two-legs-and-four",
+            "x": 37,
+            "y": 42,
+            "w": 19,
+            "h": 8
+          },
+          {
+            "label": "Feeble hands of a fearsome predator",
+            "to": "feeble-hands-of-a-fearsome-predator",
+            "x": 2,
+            "y": 72,
+            "w": 22,
+            "h": 14
+          },
+          {
+            "label": "Telltale toes",
+            "to": "telltale-toes",
+            "x": 28,
+            "y": 80,
+            "w": 16,
+            "h": 8
+          },
+          {
+            "label": "Fleet of foot",
+            "to": "fleet-of-foot",
+            "x": 44,
+            "y": 74,
+            "w": 15,
+            "h": 8
+          },
+          {
+            "label": "Multipurpose hand",
+            "to": "multipurpose-hand",
+            "x": 62,
+            "y": 80,
+            "w": 21,
+            "h": 8
+          },
+          {
+            "label": "Muscle power",
+            "to": "muscle-power",
+            "x": 60,
+            "y": 34,
+            "w": 16,
+            "h": 8
+          }
+        ]
+      },
+      "two-legs-and-four": {
+        "image": "assets/twof/TWOF01PU.webp",
+        "back": "main"
+      },
+      "telltale-toes": {
+        "image": "assets/twof/TWOF02PU.webp",
+        "back": "main"
+      },
+      "fleet-of-foot": {
+        "image": "assets/twof/TWOF03PU.webp",
+        "back": "main"
+      },
+      "is-it-a-hand-or-a-foot": {
+        "image": "assets/twof/TWOF04PU.webp",
+        "back": "main"
+      },
+      "multipurpose-hand": {
+        "image": "assets/twof/TWOF05PU.webp",
+        "back": "main"
+      },
+      "feeble-hands-of-a-fearsome-predator": {
+        "image": "assets/twof/TWOF06PU.webp",
+        "back": "main"
+      },
+      "muscle-power": {
+        "image": "assets/twof/TWOF07PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/twof/TWOF00AP.mp3",
+  "narration": "assets/twof/TWOF00AJ.mp3",
+  "sound": "assets/twof/TWOF00SA.mp3"
+}

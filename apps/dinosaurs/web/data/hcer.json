@@ -1,0 +1,108 @@
+{
+  "id": "hcer",
+  "code": "HCER",
+  "name": "How to Recognize Ceratopsians",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "ser-uh-TOP-see-unz",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Horns, frills, and beak — ceratopsians were the armored plant-crushers of the dinosaur world.",
+  "hero": {
+    "image": "assets/hcer/HCER00AA.webp",
+    "alt": "How to Recognize Ceratopsians"
+  },
+  "intro": "Ceratopsians were the giant rhinos of the dinosaur world, with huge, heavy skulls, massive neck frills edged with sharp spikes, and impressive horns on their noses and foreheads. Despite their threatening appearances, ceratopsians were gentle herbivores that consumed only tough plants, not other animals. Paleontologists believe that some ceratopsian dinosaurs roamed in herds to protect themselves from meat-eaters.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "horns-beaks-and-frills",
+      "title": "Horns, Beaks, and Frills",
+      "image": "assets/hcer/HCER01PU.webp",
+      "text": "Ceratopsian dinosaurs may have evolved their extremely strong skulls and beaks to eat especially tough plant materials that other dinosaurs couldn't handle. The horns were for show or for defense.",
+      "captions": [
+        {
+          "label": "Threatening horns",
+          "text": "Ceratopsians had horns, or at least bony bumps on their noses. Many also had horns above their eyebrows and around their neck frills. By forming a circle with their heads facing outward, a herd of ceratopsians would have presented a spiky facade that few predators would dare to challenge."
+        },
+        {
+          "label": "Neck frills",
+          "text": "Although the neck frills of ceratopsians were impressive as displays and served as shields for the dinosaurs' necks, the bony collars probably evolved as anchors for the massive muscles needed to manage the horned dinosaurs' powerful jaws."
+        },
+        {
+          "label": "Bony beaks",
+          "text": "The beaks of the horned dinosaurs were tough and bony, and covered with a horny sheath like a fingernail. Unlike the beak of a bird, a ceratopsian's beak could cut through very tough stems and twigs. Behind the beak were sharp teeth that could crush the food into small, digestible bits."
+        }
+      ]
+    },
+    {
+      "id": "bird-hips-and-elephant-feet",
+      "title": "Bird Hips and Elephant Feet",
+      "image": "assets/hcer/HCER02PU.webp",
+      "text": "Although ceratopsian dinosaurs looked nothing like birds, they are part of the ornithischian, or bird-hipped group of dinosaurs. The structure of their hips, legs, and feet were well designed to carry their massive bodies.",
+      "captions": [
+        {
+          "label": "Spreading the load",
+          "text": "Like an elephant, the legs of ceratopsian dinosaurs were built to carry tons of weight. The front legs had to be especially strong to support the heavy skull and neck frill as well as the dinosaur's shoulders. The feet needed to be broad and well-padded. Such heavy dinosaurs probably could not run very fast."
+        },
+        {
+          "label": "Two types of hips",
+          "text": "Paleontologists have long used hip structures to help classify dinosaurs. Lizard-hipped dinosaurs had a hip structure in which one of the two lower pelvic bones pointed forward and one pointed backward, like those in modern lizards. Bird-hipped dinosaurs, on the other hand, had a hip structure like that found in birds today: two lower pelvic bones that pointed backward and down."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Triceratops",
+      "to": "tric"
+    },
+    {
+      "label": "What is a Dinosaur?",
+      "to": "what"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/hcer/HCER00AA.webp",
+        "hotspots": [
+          {
+            "label": "Horns, beaks, and frills",
+            "to": "horns-beaks-and-frills",
+            "x": 3,
+            "y": 52,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Bird hips and elephant feet",
+            "to": "bird-hips-and-elephant-feet",
+            "x": 2,
+            "y": 70,
+            "w": 30,
+            "h": 5
+          }
+        ]
+      },
+      "horns-beaks-and-frills": {
+        "image": "assets/hcer/HCER01PU.webp",
+        "back": "main"
+      },
+      "bird-hips-and-elephant-feet": {
+        "image": "assets/hcer/HCER02PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/hcer/HCER00AP.mp3",
+  "narration": "assets/hcer/HCER00AJ.mp3",
+  "sound": "assets/hcer/HCER00SA.mp3"
+}

@@ -1,0 +1,344 @@
+{
+  "id": "cane",
+  "code": "CANE",
+  "name": "Cane Toad",
+  "scientificName": "Rhinella marina",
+  "needsScientificVerify": false,
+  "tagline": "The toad that was imported to eat pests — and became the biggest pest of all!",
+  "weapons": [
+    "Venom & Poison"
+  ],
+  "habitats": [
+    "Rivers, Lakes & Wetlands",
+    "Cities & Farmland"
+  ],
+  "regions": [
+    "Central America",
+    "South America",
+    "Australia & Oceania"
+  ],
+  "hero": {
+    "image": "assets/cane/CANE00AA.webp",
+    "alt": "Cane Toad"
+  },
+  "intro": "If it moves, eat it! That's the rule that most toads live by. When cane beetles started devouring Australia's sugar cane, the people there decided to import cane toads to eat the pests. But rather than controlling the beetles, the toads moved out of the cane fields and ate local frogs, birds, snakes, lizards, and rodents. Instead of being the solution, these dinner-plate-sized toads quickly became another problem.",
+  "facts": [
+    {
+      "label": "How it kills",
+      "value": "Defends by puffing up and oozing venom from poison glands on head",
+      "danger": false
+    },
+    {
+      "label": "Favorite meals",
+      "value": "Insects, beetles, rodents, other toads, pet food, and garbage",
+      "danger": false
+    },
+    {
+      "label": "Watch out",
+      "value": "If a hungry predator tries to swallow this amphibian, the cane toad puffs up and oozes out venom. The tables are turned and the attacker becomes the victim.",
+      "danger": true
+    },
+    {
+      "label": "Size",
+      "value": "Up to 25cm (10in)",
+      "danger": false
+    },
+    {
+      "label": "Where it lives",
+      "value": "Region: Central America South America Australia",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "oozing-venom",
+      "title": "Oozing venom",
+      "image": "assets/cane/CANE01PU.webp",
+      "text": "Not only do these toads eat everything in sight, but nothing else eats them! That's because cane toads have venom-producing glands on their heads. A small animal that bites a cane toad doesn't get a chance to learn from its mistake. The toad puffs itself up so it can't be swallowed and then oozes venom. The animal usually dies while the toad is still in its mouth.",
+      "captions": [
+        {
+          "label": "Don't squeeze a salamander!",
+          "text": "Salamanders, like toads, have parotid glands. Brightly colored animals, like this fire salamander, are often venomous."
+        },
+        {
+          "label": "Don't pat a toad!",
+          "text": "This European green toad, like all true toads, has parotid glands behind its eyes. That's where a toad stores the venomous fluid that it uses as its defense against predators."
+        }
+      ],
+      "narration": "assets/cane/CANE01NP.mp3"
+    },
+    {
+      "id": "which-is-which",
+      "title": "Which is which?",
+      "image": "assets/cane/CANE02PU.webp",
+      "text": "Can you tell a frog from a toad? Even experts have trouble. Here are some clues that will help you sort out these mysterious amphibians.",
+      "captions": [
+        {
+          "label": "Frog",
+          "text": "A frog has smooth, damp skin and extra-long back legs for jumping."
+        },
+        {
+          "label": "Toad",
+          "text": "A toad has dry, bumpy skin and relatively short legs for walking and hopping."
+        },
+        {
+          "label": "European common frog",
+          "text": "A slim body and webbed feet are both good indications of a frog. But these aren't hard and fast clues–a few frogs have thick bodies, and frogs that live in trees have sticky toes instead of webbed feet."
+        },
+        {
+          "label": "Eurasian common toad",
+          "text": "Parotid glands on its head and a bulky body identity this as a toad."
+        }
+      ],
+      "narration": "assets/cane/CANE02NP.mp3"
+    },
+    {
+      "id": "life-is-full-of-changes",
+      "title": "Life is full of changes",
+      "image": "assets/cane/CANE03PU.webp",
+      "text": "Like all amphibians, frogs and toads start life in the water. They then go through a lot of changes before they become adults.",
+      "captions": [
+        {
+          "label": "In the egg",
+          "text": "Embryos develop inside the eggs."
+        },
+        {
+          "label": "Starting to change",
+          "text": "A month-old tadpole has skin over its gills and tiny teeth."
+        },
+        {
+          "label": "Half tadpole, half frog",
+          "text": "After six weeks, a tadpole begins to grow hind legs, and its head becomes more defined."
+        },
+        {
+          "label": "Nearly grown",
+          "text": "A nine-week-old tadpole looks like a miniature adult with a long tail. As the tadpole grows older, the tail gets shorter and finally disappears."
+        }
+      ],
+      "narration": "assets/cane/CANE03NP.mp3"
+    },
+    {
+      "id": "fast-food",
+      "title": "Fast food",
+      "image": "assets/cane/CANE04PU.webp",
+      "text": "Many amphibians are slow movers. But if they see something tasty crawling by, they can react in the blink of an eye.",
+      "captions": [
+        {
+          "label": "Gotcha!",
+          "text": "This orange-striped newt likes soft prey, like this earthworm."
+        },
+        {
+          "label": "Yep, it's edible",
+          "text": "After deciding that a mealworm would be good to eat, a toad leans forward to grab it."
+        },
+        {
+          "label": "Tricky tongue",
+          "text": "A frog flips out its tongue to catch a wood louse."
+        }
+      ],
+      "narration": "assets/cane/CANE04NP.mp3"
+    },
+    {
+      "id": "protected-warts",
+      "title": "Protected warts",
+      "image": "assets/cane/CANE05PU.webp",
+      "text": "This natterjack toad is in danger of disappearing, so it has been declared a protected species in Great Britain. Toads, like all amphibians, absorb oxygen and other elements through their skin as well as by breathing air through their lungs. This makes them particularly sensitive to pollution. Sadly, amphibians are rapidly disappearing all around the world.",
+      "narration": "assets/cane/CANE05NP.mp3"
+    },
+    {
+      "id": "freight-on-board",
+      "title": "Freight on board",
+      "image": "assets/cane/CANE06PU.webp",
+      "text": "It's a tough world out there for tadpoles. Many are on their own from the moment they hatch, and if there's an adult frog or toad around, it's likely to eat them rather than take care of them. But a few frogs and toads are protective parents.",
+      "captions": [
+        {
+          "label": "Another protective parent",
+          "text": "Mother octopuses [or octopi] are so protective of their eggs that some mothers starve to death while guarding them. This blue-ringed octopus may be moving its eggs from one place to another."
+        },
+        {
+          "label": "Dad's in charge",
+          "text": "This male European midwife toad carries fertilized eggs around for weeks. When the tadpoles are ready to hatch, he returns the eggs to the water."
+        }
+      ],
+      "narration": "assets/cane/CANE06NP.mp3"
+    },
+    {
+      "id": "you-dont-scare-me",
+      "title": "You don't scare me!",
+      "image": "assets/cane/CANE07PU.webp",
+      "text": "Toads taste terrible, and many are poisonous. But that can't stop animals from attacking them. So toads often try to bluff their way past a predator.",
+      "captions": [
+        {
+          "label": "Bigger than you think!",
+          "text": "Toads puff up their bodies and stand on tiptoe to look as big and dangerous as they can."
+        },
+        {
+          "label": "Surprise! More eyes!",
+          "text": "If a predator creeps up behind a Chilean four-eyed frog, two big \"eyes\" suddenly pop up on the back of the frog's body. These extra \"eyes\" are markings that the frog uses to scare away other animals."
+        }
+      ],
+      "narration": "assets/cane/CANE07NP.mp3"
+    },
+    {
+      "id": "steel-jaws",
+      "title": "Steel jaws",
+      "image": "assets/cane/CANE08PU.webp",
+      "text": "All amphibians have voracious appetites. Most will eat anything they can catch–including each other!",
+      "captions": [
+        {
+          "label": "Chomp!",
+          "text": "A mouse fits easily into the frog's huge mouth."
+        },
+        {
+          "label": "Gulp!",
+          "text": "The frog blinks, pushing its eyeballs down to increase the pressure in its throat. A mouse is a big meal to swallow!"
+        }
+      ],
+      "narration": "assets/cane/CANE08NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/cane/CANE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Facts",
+            "to": "facts",
+            "x": 4.87,
+            "y": 8.54,
+            "w": 4.17,
+            "h": 5.0
+          },
+          {
+            "label": "Oozing venom",
+            "to": "oozing-venom",
+            "x": 53.46,
+            "y": 4.43,
+            "w": 31.04,
+            "h": 10.19
+          },
+          {
+            "label": "Steel jaws",
+            "to": "steel-jaws",
+            "x": 61,
+            "y": 19,
+            "w": 17,
+            "h": 7
+          },
+          {
+            "label": "Protected warts",
+            "to": "protected-warts",
+            "x": 56,
+            "y": 31,
+            "w": 24,
+            "h": 7
+          },
+          {
+            "label": "Fast food",
+            "to": "fast-food",
+            "x": 68,
+            "y": 43,
+            "w": 14,
+            "h": 7
+          },
+          {
+            "label": "Freight on board",
+            "to": "freight-on-board",
+            "x": 22,
+            "y": 57,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "How to bluff",
+            "to": "video",
+            "x": 17,
+            "y": 65,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Which is which?",
+            "to": "which-is-which",
+            "x": 20,
+            "y": 73,
+            "w": 21,
+            "h": 6
+          },
+          {
+            "label": "You don't scare me!",
+            "to": "you-dont-scare-me",
+            "x": 14.24,
+            "y": 75.86,
+            "w": 20.42,
+            "h": 9.54
+          },
+          {
+            "label": "Life is full of changes",
+            "to": "life-is-full-of-changes",
+            "x": 16.9,
+            "y": 81.27,
+            "w": 17.76,
+            "h": 4.13
+          }
+        ]
+      },
+      "oozing-venom": {
+        "image": "assets/cane/CANE01PU.webp",
+        "back": "main"
+      },
+      "which-is-which": {
+        "image": "assets/cane/CANE02PU.webp",
+        "back": "main"
+      },
+      "life-is-full-of-changes": {
+        "image": "assets/cane/CANE03PU.webp",
+        "back": "main"
+      },
+      "fast-food": {
+        "image": "assets/cane/CANE04PU.webp",
+        "back": "main"
+      },
+      "protected-warts": {
+        "image": "assets/cane/CANE05PU.webp",
+        "back": "main"
+      },
+      "freight-on-board": {
+        "image": "assets/cane/CANE06PU.webp",
+        "back": "main"
+      },
+      "you-dont-scare-me": {
+        "image": "assets/cane/CANE07PU.webp",
+        "back": "main"
+      },
+      "steel-jaws": {
+        "image": "assets/cane/CANE08PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/cane/CANE00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/cane/clip.mp4",
+        "poster": "assets/cane/CANE09TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dangerous Creatures (1994) CD-ROM",
+    "note": "Text liberated from original screen art; images & clip restored from disc. Original media is Microsoft/supplier copyright — placeholder pending swap to open-licensed assets."
+  },
+  "ambient": "assets/cane/narration.mp3",
+  "sound": "assets/cane/CANE00AF.mp3",
+  "factsNarration": "assets/cane/CANE00FB.mp3",
+  "video": {
+    "title": "How to bluff",
+    "src": "assets/cane/clip.mp4",
+    "poster": "assets/cane/poster.webp",
+    "caption": "If you were a small animal that needed to scare off a potential attacker, you'd make yourself look as big and mean as you could. If you had weapons like teeth or claws, you could show them to your opponent. But if you were a weaponless frog, you'd have to rely on bluffing."
+  }
+}

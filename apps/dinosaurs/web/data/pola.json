@@ -1,0 +1,160 @@
+{
+  "id": "pola",
+  "code": "POLA",
+  "name": "Polacanthus",
+  "category": "dinosaur",
+  "scientificName": "Polacanthus",
+  "needsScientificVerify": false,
+  "pronunciation": "po-la-KAN-thus",
+  "meaning": "Many spines",
+  "period": "Early Cretaceous",
+  "diet": "Herbivore",
+  "tagline": "This spiky armored tank is one of dinosaur history's greatest mysteries — no one knows exactly where all its spines go!",
+  "hero": {
+    "image": "assets/pola/POLA00AA.webp",
+    "alt": "Polacanthus"
+  },
+  "intro": "What Polacanthus really looked like is a mystery. We know that this dinosaur had armor-plated skin and many sharp protective spines, but experts can only guess where the spines belong on its body. Because of this puzzle, you may see drawings of Polacanthus that look very different from this one.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Europe"
+    },
+    {
+      "label": "Time Period",
+      "value": "Early Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Many spines"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ankylosaur"
+    },
+    {
+      "label": "Length",
+      "value": "4.1m (14ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "bony-skin",
+      "title": "Bony Skin",
+      "image": "assets/pola/POLA01PU.webp",
+      "text": "This skin impression and bony nodule came from Polacanthus. The bony nodules \"floated\" in the skin beneath the dinosaur's scales, just like they do in modern reptiles. This armored skin, in combination with its sharp spines, would have discouraged hungry meat-eaters from attacking Polacanthus.",
+      "captions": [
+        {
+          "label": "Crocodile hide?",
+          "text": "Polacanthus had skin similar to that of modern crocodiles. Both Polacanthus and the crocodile are reptiles adapted to conditions on dry land."
+        },
+        {
+          "label": "Solitary nodule",
+          "text": "Bony nodes like this one were mixed in with the overlapping plates on Polacanthus's skin."
+        }
+      ]
+    },
+    {
+      "id": "packing-a-weapon",
+      "title": "Packing a Weapon",
+      "image": "assets/pola/POLA02PU.webp",
+      "text": "Unlike some ankylosaurs such as Euoplocephalus, Polacanthus's tail was spiked and whip-like, but did not end in a bony club. The spikes, however, were probably a powerful defense against attack.",
+      "captions": [
+        {
+          "label": "Armed and dangerous",
+          "text": "The bony club on Euoplocephalus's tail may have been an effective weapon against predators that viewed this armored dinosaur as a tasty meal."
+        }
+      ]
+    },
+    {
+      "id": "fern-feeder",
+      "title": "Fern Feeder",
+      "image": "assets/pola/POLA03PU.webp",
+      "text": "Although they looked intimidating, ankylosaurs were not hunters. They had small rounded teeth that were only good for eating soft plants.",
+      "captions": [
+        {
+          "label": "Ancient landscape",
+          "text": "Ferns like these were common while Polacanthus was alive. They would have been an important part of this dinosaur's diet."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Kentrosaurus",
+      "to": "kent"
+    },
+    {
+      "label": "Saltasaurus",
+      "to": "salt"
+    },
+    {
+      "label": "Euoplocephalus",
+      "to": "euop"
+    },
+    {
+      "label": "Plant-eaters",
+      "to": "plan"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/pola/POLA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Fern feeder",
+            "to": "fern-feeder",
+            "x": 22,
+            "y": 75,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Packing a weapon",
+            "to": "packing-a-weapon",
+            "x": 63,
+            "y": 25,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Bony skin",
+            "to": "bony-skin",
+            "x": 63,
+            "y": 35,
+            "w": 12,
+            "h": 5
+          }
+        ]
+      },
+      "bony-skin": {
+        "image": "assets/pola/POLA01PU.webp",
+        "back": "main"
+      },
+      "packing-a-weapon": {
+        "image": "assets/pola/POLA02PU.webp",
+        "back": "main"
+      },
+      "fern-feeder": {
+        "image": "assets/pola/POLA03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/pola/POLA50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/pola/POLA00AP.mp3",
+  "narration": "assets/pola/POLA00AJ.mp3"
+}

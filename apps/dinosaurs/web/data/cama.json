@@ -1,0 +1,370 @@
+{
+  "id": "cama",
+  "code": "CAMA",
+  "name": "Camarasaurus",
+  "category": "dinosaur",
+  "scientificName": "Camarasaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "cam-AH-rah-SOR-us",
+  "meaning": "chambered lizard",
+  "period": "Late Jurassic",
+  "diet": "Herbivore",
+  "tagline": "One of the most common giants of the Jurassic, whose hollow backbone bones helped carry a body heavier than three elephants!",
+  "hero": {
+    "image": "assets/cama/CAMA00AA.webp",
+    "alt": "Camarasaurus"
+  },
+  "intro": "Camarasaurus was one of the most common sauropods in North America. The name Camarasaurus means \"chambered lizard,\" referring to the hollow chambers within its back vertebrae bones. These hollows helped to reduce the weight of the bones. Although Camarasaurus was one of the smaller sauropod dinosaurs, it still weighed more than three elephants!",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Chambered lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Sauropod"
+    },
+    {
+      "label": "Length",
+      "value": "15m (50ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "20 tons"
+    }
+  ],
+  "topics": [
+    {
+      "id": "from-a-big-family",
+      "title": "From a Big Family",
+      "image": "assets/cama/CAMA01PU.webp",
+      "text": "The sauropod dinosaurs were the longest, tallest, and heaviest of all dinosaurs. In fact, they were the largest land animals ever to inhabit the Earth.",
+      "captions": [
+        {
+          "label": "Apatosaurus",
+          "text": "When the bones of Apatosaurus were unearthed, no skull was found. For many years, scientists used a rounded skull like that of Camarasaurus to complete the skeleton. In 1979, it was determined that Apatosaurus had a longer skull, similar to that of Diplodocus."
+        },
+        {
+          "label": "Mamenchisaurus",
+          "text": "This dinosaur holds the record for the longest dinosaur neck."
+        },
+        {
+          "label": "Camarasaurus",
+          "text": "This dinosaur may look small compared to its giant relatives, but look how large it was compared to an elephant!"
+        },
+        {
+          "label": "African elephant",
+          "text": "Although it's the largest land animal alive today, this elephant is tiny compared to a sauropod."
+        }
+      ]
+    },
+    {
+      "id": "blunt-teeth",
+      "title": "Blunt Teeth",
+      "image": "assets/cama/CAMA02PU.webp",
+      "text": "The difference between plant-eating sauropods like Camarasaurus and meat-eaters like Megalosaurus was enormous. For instance, the sharply pointed and serrated Megalosaurus teeth were like steak knives, but the teeth of Camarasaurus were thick and blunt."
+    },
+    {
+      "id": "bones-as-big-as-a-man",
+      "title": "Bones as Big as a Man",
+      "image": "assets/cama/CAMA03PU.webp",
+      "text": "The shoulder blades joined the front legs to the body and had to support a lot of a dinosaur's weight. In Camarasaurus these massive bones were as tall as an adult human.",
+      "captions": [
+        {
+          "label": "The biggest of them all",
+          "text": "The shoulder blades of Ultrasauros, which lived at the same time as Camarasaurus, were even larger than an adult human. They were up to nine feet in height, making Ultrasauros the tallest dinosaur discovered to date."
+        }
+      ]
+    },
+    {
+      "id": "hollow-backbone",
+      "title": "Hollow Backbone",
+      "image": "assets/cama/CAMA04PU.webp",
+      "text": "Camarasaurus had hollow chambers inside its vertebrae to reduce its weight as much as possible. Projections from the sides of the vertebrae helped to support the ribs and muscles of the dinosaur."
+    },
+    {
+      "id": "a-short-neck",
+      "title": "A Short Neck?",
+      "image": "assets/cama/CAMA05PU.webp",
+      "text": "Camarasaurus had rather a short neck for a sauropod, with twelve neck vertebrae in all. Mamenchisaurus, with nineteen vertebrae, stretched its neck well beyond that of Camarasaurus. In fact, Mamenchisaurus had a neck that was about two-thirds the total length of Camarasaurus."
+    },
+    {
+      "id": "strong-skeleton",
+      "title": "Strong Skeleton",
+      "image": "assets/cama/CAMA06PU.webp",
+      "text": "Camarasaurus had neck vertebrae that were each as long as two feet. Muscles and ligaments, like cables supporting a bridge, ran from bone to bone, and long ribs overlapped the bones behind.",
+      "captions": [
+        {
+          "label": "Barrel body",
+          "text": "The ribs were six and a half feet long and as thick as a human arm. They formed a huge frame around the dinosaur's heart, lungs, stomach, and other internal organs. Attached at the top to the backbone, and joined together by sheets of muscle, the ribs created the huge body associated with a sauropod."
+        }
+      ]
+    },
+    {
+      "id": "brontosaurus-mix-up",
+      "title": "Brontosaurus Mix-Up",
+      "image": "assets/cama/CAMA07PU.webp",
+      "text": "For many years, the skeleton of a dinosaur called Brontosaurus appeared in museums around the world. Today, Brontosaurus no longer exists. This dinosaur is now known by the first name given to it: Apatosaurus. Not only was Apatosaurus named twice, but to add to the confusion, the original headless skeleton of Apatosaurus was completed by adding the rounded head of another dinosaur, Camarasaurus. The correct skull for Apatosaurus was not identified until the 1970s."
+    },
+    {
+      "id": "a-comparison-of-tails",
+      "title": "A Comparison of Tails",
+      "image": "assets/cama/CAMA08PU.webp",
+      "text": "All of the sauropods had long, strong tails. A lash from a muscular sauropod tail could send even the fiercest predator running for cover.",
+      "captions": [
+        {
+          "label": "Apatosaurus",
+          "text": "The tail of Apatosaurus had eighty-two bones. Experts believe Apatosaurus held its tail off the ground."
+        },
+        {
+          "label": "Camarasaurus",
+          "text": "About fifty-three vertebrae make up Camarasaurus's short tail, which gets smaller and smaller toward the end. Bones called chevrons on the bottom of the tail vertebrae protected blood vessels in the animal's tail."
+        },
+        {
+          "label": "Diplodocus",
+          "text": "In comparison, Diplodocus's tail was a long, thin whip. This sauropod had a tail made up of seventy-three vertebrae, which was often carried off the ground."
+        }
+      ]
+    },
+    {
+      "id": "chevron-tail-bones",
+      "title": "Chevron Tail Bones",
+      "image": "assets/cama/CAMA09PU.webp",
+      "text": "Chevron bones hung down beneath the tail bones, quite close to the hips. At the bottom of the chevron is a long narrow spine, to which muscles were attached. The forked part of the bone at the top enclosed a large blood vessel which ran just beneath the backbone."
+    },
+    {
+      "id": "high-feeders",
+      "title": "High Feeders",
+      "image": "assets/cama/CAMA10PU.webp",
+      "text": "Head and shoulders above other dinosaurs, sauropods were able to reach high into trees to feed. Some may have used their long, strong tails to help them reach even further, propping themselves up on their rear legs to balance their huge bodies in the air.",
+      "captions": [
+        {
+          "label": "Two feet or four?",
+          "text": "Sauropods normally walked on four feet. Meat-eaters, on the other hand, spent their lives on two feet, reserving their hands for grasping their prey."
+        }
+      ]
+    },
+    {
+      "id": "elephant-legs",
+      "title": "Elephant Legs",
+      "image": "assets/cama/CAMA11PU.webp",
+      "text": "Dinosaurs had one big advantage over other reptiles: their legs were positioned beneath their bodies, rather than sticking out to the sides. Like pillars holding up a building, the legs of Camarasaurus carried the weight of the dinosaur's body above. Elephants' legs are built to do the same job, and, like elephants, sauropods had broad and thickly padded feet.",
+      "captions": [
+        {
+          "label": "Bigger than an elephant",
+          "text": "This drawing shows you the similarity of leg bones. In reality, Camarasaurus was much bigger than an elephant."
+        }
+      ]
+    },
+    {
+      "id": "skull-comparison",
+      "title": "Skull Comparison",
+      "image": "assets/cama/CAMA12PU.webp",
+      "text": "Although both Diplodocus and Camarasaurus were sauropods, their skulls were different shapes.",
+      "captions": [
+        {
+          "label": "Sharp smeller",
+          "text": "Few odors would have escaped Camarasaurus; it had huge nostril cavities near the front of its skull."
+        },
+        {
+          "label": "Head muscles",
+          "text": "Large open spaces between the skull bones left room for the muscles of the head. This must have lightened the weight of the skull, which the long neck had to support."
+        },
+        {
+          "label": "Predator watch",
+          "text": "Like other sauropods, Camarasaurus also had large eye sockets in the sides of the skull. But the eyes inside the sockets were not particularly large."
+        },
+        {
+          "label": "Diplodocus skull",
+          "text": "The large eye sockets are near the back of the skull. The nostrils are high up on top of the head."
+        },
+        {
+          "label": "A leaf puller",
+          "text": "Diplodocus had thin, peg-like teeth at the front of its mouth. It may have used these like a comb to pull leaves off twigs."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Jurassic Period",
+      "to": "jurr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/cama/CAMA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Skull comparison",
+            "to": "skull-comparison",
+            "x": 52,
+            "y": 22,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Blunt teeth",
+            "to": "blunt-teeth",
+            "x": 73,
+            "y": 16,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Strong skeleton",
+            "to": "strong-skeleton",
+            "x": 54,
+            "y": 32,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Hollow backbone",
+            "to": "hollow-backbone",
+            "x": 27,
+            "y": 37,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "From a big family",
+            "to": "from-a-big-family",
+            "x": 20,
+            "y": 46,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "A short neck?",
+            "to": "a-short-neck",
+            "x": 71,
+            "y": 43,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "A comparison of tails",
+            "to": "a-comparison-of-tails",
+            "x": 16,
+            "y": 55,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "High feeders",
+            "to": "high-feeders",
+            "x": 69,
+            "y": 57,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Chevron tail bones",
+            "to": "chevron-tail-bones",
+            "x": 2,
+            "y": 67,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Elephant legs",
+            "to": "elephant-legs",
+            "x": 22,
+            "y": 75,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Bones as big as a man",
+            "to": "bones-as-big-as-a-man",
+            "x": 44,
+            "y": 76,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Brontosaurus mix-up",
+            "to": "brontosaurus-mix-up",
+            "x": 63,
+            "y": 66,
+            "w": 20,
+            "h": 5
+          }
+        ]
+      },
+      "from-a-big-family": {
+        "image": "assets/cama/CAMA01PU.webp",
+        "back": "main"
+      },
+      "blunt-teeth": {
+        "image": "assets/cama/CAMA02PU.webp",
+        "back": "main"
+      },
+      "bones-as-big-as-a-man": {
+        "image": "assets/cama/CAMA03PU.webp",
+        "back": "main"
+      },
+      "hollow-backbone": {
+        "image": "assets/cama/CAMA04PU.webp",
+        "back": "main"
+      },
+      "a-short-neck": {
+        "image": "assets/cama/CAMA05PU.webp",
+        "back": "main"
+      },
+      "strong-skeleton": {
+        "image": "assets/cama/CAMA06PU.webp",
+        "back": "main"
+      },
+      "brontosaurus-mix-up": {
+        "image": "assets/cama/CAMA07PU.webp",
+        "back": "main"
+      },
+      "a-comparison-of-tails": {
+        "image": "assets/cama/CAMA08PU.webp",
+        "back": "main"
+      },
+      "chevron-tail-bones": {
+        "image": "assets/cama/CAMA09PU.webp",
+        "back": "main"
+      },
+      "high-feeders": {
+        "image": "assets/cama/CAMA10PU.webp",
+        "back": "main"
+      },
+      "elephant-legs": {
+        "image": "assets/cama/CAMA11PU.webp",
+        "back": "main"
+      },
+      "skull-comparison": {
+        "image": "assets/cama/CAMA12PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/cama/CAMA50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/cama/CAMA00AP.mp3",
+  "narration": "assets/cama/CAMA00AJ.mp3"
+}

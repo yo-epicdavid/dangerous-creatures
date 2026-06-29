@@ -1,0 +1,187 @@
+{
+  "id": "exti",
+  "code": "EXTI",
+  "name": "Extinction",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "ex-TINK-shun",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "65 million years ago, the dinosaurs vanished — but nobody knows exactly why.",
+  "hero": {
+    "image": "assets/exti/EXTI00AA.webp",
+    "alt": "Extinction"
+  },
+  "intro": "Dinosaurs are extinct. The last dinosaurs vanished from the Earth about 65 million years ago. Not only did dinosaurs disappear, but with them went many marine reptiles and other sea creatures like the ammonites, and flying reptiles—the pterosaurs—also suffered the same fate. This mass extinction is made more difficult to explain by the fact that other animals like birds, turtles, frogs, freshwater crocodiles, and mammals survived the mysterious catastrophe.",
+  "facts": [
+    {
+      "label": "Event",
+      "value": "Mass extinction"
+    },
+    {
+      "label": "Time",
+      "value": "65 million years ago"
+    },
+    {
+      "label": "Also extinct",
+      "value": "Ammonites, mosasaurs, plesiosaurs, ichthyosaurs, pterosaurs"
+    },
+    {
+      "label": "Survivors",
+      "value": "Birds, turtles, frogs, freshwater crocodiles, mammals"
+    }
+  ],
+  "topics": [
+    {
+      "id": "mass-extinction",
+      "title": "Mass Extinction",
+      "image": "assets/exti/EXTI01PU.webp",
+      "text": "Many other creatures died out at the same time as the dinosaurs. Whatever happened seemed to affect some creatures, while leaving others unscathed. Ammonites became extinct, as did the mosasaurs, plesiosaurs, and ichthyosaurs, all groups of meat-eating marine reptiles. Sea crocodiles died out but the river crocodiles continued. The flying reptiles, pterosaurs, disappeared, but birds were unaffected."
+    },
+    {
+      "id": "death-from-the-sky",
+      "title": "Death from the Sky?",
+      "image": "assets/exti/EXTI02PU.webp",
+      "text": "According to one theory, the Earth might have been hit by a giant meteorite or asteroid. 1 The meteorite strikes Scientists have discovered a layer of rock 65 million years old that contains iridium—a substance rare on our planet but common in meteorites. A meteorite as large as six miles across may have crashed into the Earth. 2 Dust blots out the sun Dust thrown into the air by the impact of the meteorite would have blotted out the sun for years. Plants would have died, and many animals would have starved or frozen to death. 3 The climate changes from cold to hot As the dust settled over the course of years, water vapor would have trapped heat as the sun broke through. Animals that survived the cold might now have died from the heat.",
+      "captions": [
+        {
+          "label": "Iron meteorite fragment",
+          "text": "Iron meteorite fragment"
+        },
+        {
+          "label": "Stony meteorite fragment",
+          "text": "Stony meteorite fragment"
+        }
+      ]
+    },
+    {
+      "id": "a-change-in-the-weather",
+      "title": "A Change in the Weather?",
+      "image": "assets/exti/EXTI03PU.webp",
+      "text": "Some experts suggest that near the end of the dinosaur era, the world's climate was changing due to shifting continents. Hotter summers and cooler winters might have killed off dinosaurs unable to cope with these variations.",
+      "captions": [
+        {
+          "label": "Changing habitats and new diseases",
+          "text": "Near the end of the Cretaceous period, the shallow seas that had covered vast areas of most of the continents dried up. Creatures that had lived around these watery areas, such as the dinosaurs, lost their habitats. The appearance of dry land allowed animals to cross over to new areas, bringing diseases as migrant species do today."
+        }
+      ]
+    },
+    {
+      "id": "poisoned-by-plants",
+      "title": "Poisoned by Plants?",
+      "image": "assets/exti/EXTI04PU.webp",
+      "text": "Many dinosaurs were plant-eaters. Possibly new kinds of flowering plants that appeared were poisonous to the dinosaurs. As the plant-eating dinosaurs died, the meat-eating dinosaurs would also have slowly starved to death. But we have no evidence for such claims."
+    },
+    {
+      "id": "did-the-egg-stealers-win",
+      "title": "Did the Egg Stealers Win?",
+      "image": "assets/exti/EXTI05PU.webp",
+      "text": "Many creatures of today, such as mammals and birds, eat the eggs of reptiles. Could it be that the small mammals of 65 million years ago became too good at stealing and eating dinosaur eggs? They would have been active at night, when any dinosaur \"parents\" would have been too cold and slow to stop them."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Museums of North America",
+      "to": "muse"
+    },
+    {
+      "label": "Marching to Extinction",
+      "to": "extt"
+    },
+    {
+      "label": "Dinosaur Landscape",
+      "to": "dlan"
+    },
+    {
+      "label": "The Cretaceous Period",
+      "to": "cret"
+    },
+    {
+      "label": "Dinosaur Diets",
+      "to": "diet"
+    },
+    {
+      "label": "Oviraptor",
+      "to": "ovir"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/exti/EXTI00AA.webp",
+        "hotspots": [
+          {
+            "label": "Death from the sky?",
+            "to": "death-from-the-sky",
+            "x": 46,
+            "y": 3,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "A change in the weather?",
+            "to": "a-change-in-the-weather",
+            "x": 36,
+            "y": 9,
+            "w": 29,
+            "h": 5
+          },
+          {
+            "label": "Poisoned by plants?",
+            "to": "poisoned-by-plants",
+            "x": 71,
+            "y": 54,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Did the egg stealers win?",
+            "to": "did-the-egg-stealers-win",
+            "x": 3,
+            "y": 80,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "Mass extinction",
+            "to": "mass-extinction",
+            "x": 70,
+            "y": 88,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "mass-extinction": {
+        "image": "assets/exti/EXTI01PU.webp",
+        "back": "main"
+      },
+      "death-from-the-sky": {
+        "image": "assets/exti/EXTI02PU.webp",
+        "back": "main"
+      },
+      "a-change-in-the-weather": {
+        "image": "assets/exti/EXTI03PU.webp",
+        "back": "main"
+      },
+      "poisoned-by-plants": {
+        "image": "assets/exti/EXTI04PU.webp",
+        "back": "main"
+      },
+      "did-the-egg-stealers-win": {
+        "image": "assets/exti/EXTI05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/exti/EXTI00AP.mp3",
+  "narration": "assets/exti/EXTI00AJ.mp3",
+  "sound": "assets/exti/EXTI00SA.mp3"
+}

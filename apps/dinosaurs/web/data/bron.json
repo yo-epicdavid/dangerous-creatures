@@ -1,0 +1,147 @@
+{
+  "id": "bron",
+  "code": "BRON",
+  "name": "The Brontosaurus Mix-Up",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "BRON-tuh-SOR-us MIX-up",
+  "meaning": "thunder lizard (Brontosaurus); deceptive lizard (Apatosaurus)",
+  "period": "",
+  "diet": "",
+  "tagline": "The most famous dinosaur that never really existed",
+  "hero": {
+    "image": "assets/bron/BRON00AA.webp",
+    "alt": "The Brontosaurus Mix-Up"
+  },
+  "intro": "Although Brontosaurus skeletons were on display in museums and illustrations of Brontosaurus appeared in books for nearly a century, this dinosaur never really existed. In the nineteenth century rush to find American dinosaurs, a professor named Othniel Charles Marsh described a dinosaur called Apatosaurus (\"deceptive lizard\") in 1877 and a dinosaur he thought was different that he called Brontosaurus (\"thunder lizard\") in 1879. Later it was discovered that Apatosaurus and Brontosaurus were the same dinosaur, and according to the rules of scientific naming, the dinosaur should be called by its first name, Apatosaurus.",
+  "facts": [
+    {
+      "label": "Named by",
+      "value": "Othniel Charles Marsh"
+    },
+    {
+      "label": "Apatosaurus named",
+      "value": "1877"
+    },
+    {
+      "label": "Brontosaurus named",
+      "value": "1879"
+    },
+    {
+      "label": "Apatosaurus means",
+      "value": "deceptive lizard"
+    },
+    {
+      "label": "Brontosaurus means",
+      "value": "thunder lizard"
+    },
+    {
+      "label": "Skull corrected",
+      "value": "1979"
+    }
+  ],
+  "topics": [
+    {
+      "id": "headed-the-wrong-way",
+      "title": "Headed the Wrong Way",
+      "image": "assets/bron/BRON01PU.webp",
+      "text": "Somehow, the rounded skull of a dinosaur called Camarasaurus was combined with the body of Apatosaurus. Presto! A new dinosaur was created. Unfortunately, this dinosaur lived only in the minds of humans.",
+      "captions": [
+        {
+          "label": "Camarasaurus",
+          "text": "Both Camarasaurus and Apatosaurus are members of the sauropod group of dinosaurs. Camarasaurus, considered petite for a sauropod, reached around fifty feet in length, while Apatosaurus grew up to seventy feet long."
+        }
+      ]
+    },
+    {
+      "id": "correct-for-the-most-part",
+      "title": "Correct for the Most Part",
+      "image": "assets/bron/BRON02PU.webp",
+      "text": "In the completed skeleton of \"Brontosaurus,\" most of the bones belonged to Apatosaurus. Only the rounded head belonged to another dinosaur, Camarasaurus. In 1979, scientists agreed that Apatosaurus had a skull more like that of Diplodocus.",
+      "captions": [
+        {
+          "label": "Diplodocus skull",
+          "text": "A relative of Apatosaurus, Diplodocus had a skull somewhat like a horse, with rake-like teeth in front for pulling leaves off trees."
+        }
+      ]
+    },
+    {
+      "id": "confusing-science",
+      "title": "Confusing Science",
+      "image": "assets/bron/BRON03PU.webp",
+      "text": "When you understand that dinosaurs emerge from the ground as incomplete fossils, you can see how scientists can make mistakes. Often the bones of a skeleton are scattered by predators, and many pieces simply do not survive the centuries of burial. After excavation, paleontologists have to sort through a bewildering array of fossils, methodically studying and piecing together a jigsaw puzzle of remains. The dinosaur skeletons you see in museums are usually the result of years of work."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The American Dinosaur Rush",
+      "to": "amer"
+    },
+    {
+      "label": "Digging up Dinosaurs",
+      "to": "digg"
+    },
+    {
+      "label": "Diplodocus",
+      "to": "dipl"
+    },
+    {
+      "label": "Reconstructing Dinosaurs",
+      "to": "reco"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/bron/BRON00AA.webp",
+        "hotspots": [
+          {
+            "label": "Headed the wrong way",
+            "to": "headed-the-wrong-way",
+            "x": 63,
+            "y": 30,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "Correct for the most part",
+            "to": "correct-for-the-most-part",
+            "x": 5,
+            "y": 70,
+            "w": 28,
+            "h": 8
+          },
+          {
+            "label": "Confusing science",
+            "to": "confusing-science",
+            "x": 28,
+            "y": 80,
+            "w": 22,
+            "h": 8
+          }
+        ]
+      },
+      "headed-the-wrong-way": {
+        "image": "assets/bron/BRON01PU.webp",
+        "back": "main"
+      },
+      "correct-for-the-most-part": {
+        "image": "assets/bron/BRON02PU.webp",
+        "back": "main"
+      },
+      "confusing-science": {
+        "image": "assets/bron/BRON03PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/bron/BRON00AP.mp3",
+  "narration": "assets/bron/BRON00AJ.mp3",
+  "sound": "assets/bron/BRON00SA.mp3"
+}

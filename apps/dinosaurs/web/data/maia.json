@@ -1,0 +1,144 @@
+{
+  "id": "maia",
+  "code": "MAIA",
+  "name": "Maiasaura",
+  "category": "dinosaur",
+  "scientificName": "Maiasaura",
+  "needsScientificVerify": false,
+  "pronunciation": "my-ah-SOR-ah",
+  "meaning": "good mother lizard",
+  "period": "Late Cretaceous",
+  "diet": "Herbivore",
+  "tagline": "The dinosaur that built nests and stayed to raise its babies!",
+  "hero": {
+    "image": "assets/maia/MAIA00AA.webp",
+    "alt": "Maiasaura"
+  },
+  "intro": "Some dinosaurs may have abandoned their eggs, however, experts believe that a mother Maiasaura looked after her babies even after they hatched. A Maiasaura nursery was discovered in Montana in which several nests, each with nineteen or more eggs, were uncovered. These nests were found in groups about twenty-three feet apart—the length of an adult Maiasaura. This indicates that Maiasaura dinosaurs probably nested in colonies to protect their young, in keeping with their name, which means \"good mother lizard.\"",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Good mother lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ornithopod"
+    },
+    {
+      "label": "Length",
+      "value": "9m (30ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "the-hadrosaur-heritage",
+      "title": "The Hadrosaur Heritage",
+      "image": "assets/maia/MAIA01PU.webp",
+      "text": "Maiasaura was from the family of dinosaurs known as hadrosaurs, or duckbilled dinosaurs. The hadrosaurine duckbills, like Maiasaura, had no crests on their heads. Lambeosaurine duckbills had strange hollow crests in addition to their duck-like bills.",
+      "captions": [
+        {
+          "label": "Nothing extraordinary",
+          "text": "Without a crest to show off, Shantungosaurus had quite a plain face compared to many of its hadrosaur relatives."
+        },
+        {
+          "label": "Majestic crown",
+          "text": "The rounded crest sported by Corythosaurus made this hadrosaur look like it was wearing a crown."
+        },
+        {
+          "label": "A horn for hooting",
+          "text": "The horn-like crest of lambeosaurine Parasaurolophus was possibly a device that amplified the dinosaur's calls."
+        },
+        {
+          "label": "Balloon nose",
+          "text": "Saurolophus had a flap of skin on its nose that it may have blown up like a balloon."
+        }
+      ]
+    },
+    {
+      "id": "born-in-a-bowl",
+      "title": "Born in a Bowl",
+      "image": "assets/maia/MAIA02PU.webp",
+      "text": "In Montana, paleontologist Jack Horner found fifteen fossilized baby Maiasaura in and around a mound about six feet across. Probably the mother scraped sand into a pile with her legs and then scooped out the middle to lay her eggs.",
+      "captions": [
+        {
+          "label": "Dinosaur detective",
+          "text": "Jack Horner, shown here on Egg Mountain in Montana, has done a lot to change our ideas about how adult dinosaurs may have cared for their young."
+        },
+        {
+          "label": "Preserved as it emerged",
+          "text": "This fossilized eggshell contains an embryonic Maiasaura dinosaur. The egg is small enough to fit into an adult human's hand."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Nests and Eggs",
+      "to": "nest"
+    },
+    {
+      "label": "Shantungosaurus",
+      "to": "shan"
+    },
+    {
+      "label": "Modern Dinosaur Detectives",
+      "to": "mdet"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/maia/MAIA00AA.webp",
+        "hotspots": [
+          {
+            "label": "The hadrosaur heritage",
+            "to": "the-hadrosaur-heritage",
+            "x": 5,
+            "y": 66,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Born in a bowl",
+            "to": "born-in-a-bowl",
+            "x": 71,
+            "y": 76,
+            "w": 20,
+            "h": 5
+          }
+        ]
+      },
+      "the-hadrosaur-heritage": {
+        "image": "assets/maia/MAIA01PU.webp",
+        "back": "main"
+      },
+      "born-in-a-bowl": {
+        "image": "assets/maia/MAIA02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/maia/MAIA50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/maia/MAIA00AP.mp3",
+  "narration": "assets/maia/MAIA00AJ.mp3"
+}

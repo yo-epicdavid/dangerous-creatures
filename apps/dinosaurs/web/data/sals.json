@@ -1,0 +1,120 @@
+{
+  "id": "sals",
+  "code": "SALS",
+  "name": "Saltopus",
+  "category": "dinosaur",
+  "scientificName": "Saltopus",
+  "needsScientificVerify": false,
+  "pronunciation": "sal-TOH-pus",
+  "meaning": "Leaping foot",
+  "period": "Late Triassic",
+  "diet": "Carnivore",
+  "tagline": "This speedy little hunter was only as big as a domestic cat!",
+  "hero": {
+    "image": "assets/sals/SALS00AA.webp",
+    "alt": "Saltopus"
+  },
+  "intro": "Dinosaurs came in all shapes and sizes. Saltopus was a slim, agile dinosaur that was only as big as a cat! And like a cat, this little dinosaur preyed upon creatures smaller than itself, such as prehistoric lizards and insects. The fossils of Saltopus have been found only in Scotland.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Europe"
+    },
+    {
+      "label": "Time Period",
+      "value": "Early Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Leaping foot"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Theropod"
+    },
+    {
+      "label": "Length",
+      "value": "60cm (2ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "2 lbs."
+    }
+  ],
+  "topics": [
+    {
+      "id": "tiny-dinosaurs",
+      "title": "Tiny Dinosaurs",
+      "image": "assets/sals/SALS01PU.webp",
+      "text": "When most people think of dinosaurs, they imagine giant, slow-moving reptiles. But dinosaurs came in many sizes, and some, like these tiny ones, were lightning fast.",
+      "captions": [
+        {
+          "label": "Pet-sized dinosaur",
+          "text": "Saltopus was so small that if it were alive today, some people might even keep one as a pet!"
+        },
+        {
+          "label": "Lesothosaurus",
+          "text": "This little dinosaur measured only three feet in length. Its flat, leaf-shaped teeth and beak suggest it probably fed on plants."
+        },
+        {
+          "label": "Compsognathus",
+          "text": "This dinosaur's name means \"pretty jaw.\" But its toothy grin wouldn't have looked so pretty to the small animals it hunted."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Speedy Dinosaurs",
+      "to": "spee"
+    },
+    {
+      "label": "Mussaurus",
+      "to": "muss"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/sals/SALS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Tiny dinosaurs",
+            "to": "tiny-dinosaurs",
+            "x": 17,
+            "y": 68,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Pronunciation",
+            "to": "facts",
+            "x": 28,
+            "y": 3,
+            "w": 4,
+            "h": 7
+          }
+        ]
+      },
+      "tiny-dinosaurs": {
+        "image": "assets/sals/SALS01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/sals/SALS50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/sals/SALS00AP.mp3",
+  "narration": "assets/sals/SALS00AJ.mp3"
+}

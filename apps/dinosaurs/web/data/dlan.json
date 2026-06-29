@@ -1,0 +1,170 @@
+{
+  "id": "dlan",
+  "code": "DLAN",
+  "name": "Dinosaur Landscape",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "DY-nuh-sor LAND-skayp",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "The world of dinosaurs was green and growing — and some of those ancient plants are still alive today!",
+  "hero": {
+    "image": "assets/dlan/DLAN00AA.webp",
+    "alt": "Dinosaur Landscape"
+  },
+  "intro": "During the 160 million years of the dinosaurs' reign, the world's landscape changed substantially. At first, there was one great landmass, with low, fern-like plants dominating the terrain. Over millions of years, pieces of this landmass drifted apart and gradually formed the continents we are familiar with. The climate also changed. Both of these factors greatly influenced the types of plants that grew. Shrub-like plants gave way to huge coniferous forests and flourishing groves of cycads. Then flowering plants began to appear. Although the dinosaurs are gone, many plants that the dinosaurs may have eaten can still be seen today.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "fir-feast",
+      "title": "Fir Feast",
+      "image": "assets/dlan/DLAN01PU.webp",
+      "text": "Plant-eating dinosaurs could find ample vegetation to satisfy their appetites. Different dinosaurs specialized in feeding on different plants. Duckbilled dinosaurs like Parasaurolophus could cope with the toughest trees and shrubs because their jaw muscles were powerful and they had hundreds of replaceable teeth. Pine needles were no problem for these champion chewers.",
+      "captions": [
+        {
+          "label": "Conifer fossil",
+          "text": "Conifers, or cone-bearing trees, were living at the time of the dinosaurs. This petrified section of wood shows the annual growth rings of the tree. The monkey puzzle tree, still around today, is a primitive type of conifer."
+        },
+        {
+          "label": "Giant conifer",
+          "text": "Giant redwoods are one type of conifer that can only be found in North America today."
+        }
+      ]
+    },
+    {
+      "id": "fern-feeders",
+      "title": "Fern Feeders",
+      "image": "assets/dlan/DLAN02PU.webp",
+      "text": "Protected from predators by their bony plates and protruding spines, armored dinosaurs like Polacanthus and Hylaeosaurus browsed among low-growing ferns. Food was plentiful; carpets of ferns grew in the swampy flood plains of the time.",
+      "captions": [
+        {
+          "label": "Two types of ferns",
+          "text": "About 10,000 species of ferns are alive today. Instead of seeds, modern ferns have spore cases on the underside of their leaves. Many of the ancient tree ferns from the Jurassic period were seed ferns, prehistoric relatives of today's seed-bearing plants."
+        },
+        {
+          "label": "Rock record",
+          "text": "How do we know that ferns abounded during the Age of Dinosaurs? Fossils of plants like this fern preserved in rock can tell us about the landscape of the Mesozoic era."
+        }
+      ]
+    },
+    {
+      "id": "the-flowering",
+      "title": "The Flowering",
+      "image": "assets/dlan/DLAN03PU.webp",
+      "text": "About 100 million years ago, the first flowering plants began to appear and rapidly dominated the scenery. What makes flowering plants different from other types? Flowering plants are angiosperms, or \"enclosed seed\" plants, in which protective coverings such as nuts or fruits enclose the seed for protection. Nuts and fruits also encourage animals to eat and distribute seeds, which gives flowering plants an advantage by allowing them to spread further distances. Today we can see a tremendous range of angiosperms, from roses and clover to oak and apple trees."
+    },
+    {
+      "id": "enduring-through-the-eras",
+      "title": "Enduring Through the Eras",
+      "image": "assets/dlan/DLAN04PU.webp",
+      "text": "Are plants more hardy than animals? Although the dinosaurs are gone, some plants that lived alongside them have survived to this day.",
+      "captions": [
+        {
+          "label": "Magnolia",
+          "text": "The next time you enjoy the sight of a magnolia blossom or delight in its fragrance, you can also appreciate the endurance of this plant. Magnolias have been around millions of years! Maybe dinosaurs ate magnolia flowers for dessert, after meals of tougher vegetation."
+        },
+        {
+          "label": "Ginkgo",
+          "text": "This tree is a native of China today, although its ancient ancestors were much more widespread. You can also see ginkgos in gardens throughout the world. Their fan-shaped leaves are easy to recognize. They may have been a favorite snack of plant-eating dinosaurs."
+        },
+        {
+          "label": "Monkey puzzle",
+          "text": "The modern monkey puzzle tree is much like its ancient relative, which first appeared in the Triassic period. The tightly packed leathery leaves may live for fifteen years before falling off the branch."
+        },
+        {
+          "label": "Horsetails",
+          "text": "Horsetails date from the Devonian period, when the first amphibians crawled out onto the land. At that time, some reached heights of sixty feet! Today, they grow to about five feet tall."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Triassic Period",
+      "to": "tria"
+    },
+    {
+      "label": "Dinosaur Diets",
+      "to": "diet"
+    },
+    {
+      "label": "Polacanthus",
+      "to": "pola"
+    },
+    {
+      "label": "The Cretaceous Period",
+      "to": "cret"
+    },
+    {
+      "label": "Living Fossils",
+      "to": "ddec"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/dlan/DLAN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Fir feast",
+            "to": "fir-feast",
+            "x": 57,
+            "y": 33,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Enduring through the eras",
+            "to": "enduring-through-the-eras",
+            "x": 27,
+            "y": 51,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "The flowering",
+            "to": "the-flowering",
+            "x": 10,
+            "y": 76,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Fern feeder",
+            "to": "fern-feeders",
+            "x": 57,
+            "y": 76,
+            "w": 15,
+            "h": 6
+          }
+        ]
+      },
+      "fir-feast": {
+        "image": "assets/dlan/DLAN01PU.webp",
+        "back": "main"
+      },
+      "fern-feeders": {
+        "image": "assets/dlan/DLAN02PU.webp",
+        "back": "main"
+      },
+      "the-flowering": {
+        "image": "assets/dlan/DLAN03PU.webp",
+        "back": "main"
+      },
+      "enduring-through-the-eras": {
+        "image": "assets/dlan/DLAN04PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/dlan/DLAN00AP.mp3",
+  "narration": "assets/dlan/DLAN00AJ.mp3",
+  "sound": "assets/dlan/DLAN00SA.mp3"
+}

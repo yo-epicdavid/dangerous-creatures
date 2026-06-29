@@ -1,0 +1,177 @@
+{
+  "id": "horn",
+  "code": "HORN",
+  "name": "Horns",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Sharp, spectacular, and surprisingly useful — horns were one of nature's most powerful tools.",
+  "hero": {
+    "image": "assets/horn/HORN00AA.webp",
+    "alt": "Horns"
+  },
+  "intro": "Dinosaurs used a variety of methods to frighten away enemies. Some roared loudly, reared up, or inflated flaps of skin to startle attackers. Others relied on their looks to intimidate predators—some had heavy body armor, and some, like the ceratopsian dinosaurs, had sharp horns. Horns came in handy in the dinosaur world, not only for protection, but also for battling with other members of a herd for leadership or for mates.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "modern-frills",
+      "title": "Modern Frills",
+      "image": "assets/horn/HORN01PU.webp",
+      "text": "Spectacular displays of horns and frills did not vanish when the dinosaurs became extinct. Here you can see a few modern animals that still retain these features.",
+      "captions": [
+        {
+          "label": "Don't bite me!",
+          "text": "Like the ceratopsian dinosaurs, this regal horned lizard is protected by its frill and sharp horns."
+        },
+        {
+          "label": "Get away from me!",
+          "text": "One of the most spectacular displays of any reptile is that of the Australian frilled lizard. The \"frill\" is a large flap of loose skin that is normally folded flat around the neck. When startled by a predator, the lizard erects the ruff-like collar, which is often more than four times the width of the lizard's body."
+        }
+      ]
+    },
+    {
+      "id": "locking-horns",
+      "title": "Locking Horns",
+      "image": "assets/horn/HORN02PU.webp",
+      "text": "Many horned animals today use their headgear in butting or wrestling contests. Such duels serve to establish which male is the leader of the herd, or which has the right to mate with the females. Horned dinosaurs may have acted much the same."
+    },
+    {
+      "id": "horns-aplenty",
+      "title": "Horns Aplenty",
+      "image": "assets/horn/HORN03PU.webp",
+      "text": "Many plant-eating dinosaurs lived in groups. By banding together with their horns turned outward, ceratopsian dinosaurs could present an intimidating wall of spikes to a predator like Tyrannosaurus rex. At times, ceratopsians may have formed a circle around their young, showing only a ring of sharp spiked heads to an attacker."
+    },
+    {
+      "id": "modern-horns",
+      "title": "Modern Horns",
+      "image": "assets/horn/HORN04PU.webp",
+      "text": "Many kinds of horns are still visible in the modern animal world, especially among cattle, sheep, goats, and antelope. People as well as animals see horns as symbols of power—many a human hunter has saved and displayed trophy horns or antlers from a successful hunt.",
+      "captions": [
+        {
+          "label": "Horns of all shapes",
+          "text": "Antelopes live in many places around the world. These goat-like creatures have a wide variety of spectacular horns, with all kinds of spirals, spikes, and curves."
+        },
+        {
+          "label": "Common horns",
+          "text": "Many breeds of cattle have horns. For the safety and convenience of the ranchers, some types have been bred to be hornless. Also, many cattle owners trim the horns of their livestock so that the cattle won't injure each other or the humans who tend them."
+        },
+        {
+          "label": "Coveted horn",
+          "text": "Instead of serving as protection, the rhinoceros's horn has endangered its life. Many African rhinos have been killed for their horns, which are prized in some Oriental cultures for their supposed \"medicinal\" powers."
+        }
+      ]
+    },
+    {
+      "id": "mistaken-horn",
+      "title": "Mistaken Horn",
+      "image": "assets/horn/HORN05PU.webp",
+      "text": "When Dr. Gideon Mantell began assembling a dinosaur called Iguanodon, he mistakenly placed a large horn on the dinosaur's nose. Paleontologists now know that this \"horn\" was really a thumb spike that belonged on one of Iguanodon's hands."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Triceratops",
+      "to": "tric"
+    },
+    {
+      "label": "Tuatara",
+      "to": "tuat"
+    },
+    {
+      "label": "Pachycephalosaurus",
+      "to": "pach"
+    },
+    {
+      "label": "Dinosaur Defense",
+      "to": "ddef"
+    },
+    {
+      "label": "Life After Dinosaurs",
+      "to": "aftr"
+    },
+    {
+      "label": "Myths and Legends",
+      "to": "myth"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/horn/HORN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Mistaken horn",
+            "to": "mistaken-horn",
+            "x": 24,
+            "y": 44,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Horns aplenty",
+            "to": "horns-aplenty",
+            "x": 49,
+            "y": 43,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Locking horns",
+            "to": "locking-horns",
+            "x": 53,
+            "y": 62,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Modern frills",
+            "to": "modern-frills",
+            "x": 13,
+            "y": 69,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Modern horns",
+            "to": "modern-horns",
+            "x": 59,
+            "y": 78,
+            "w": 13,
+            "h": 5
+          }
+        ]
+      },
+      "modern-frills": {
+        "image": "assets/horn/HORN01PU.webp",
+        "back": "main"
+      },
+      "locking-horns": {
+        "image": "assets/horn/HORN02PU.webp",
+        "back": "main"
+      },
+      "horns-aplenty": {
+        "image": "assets/horn/HORN03PU.webp",
+        "back": "main"
+      },
+      "modern-horns": {
+        "image": "assets/horn/HORN04PU.webp",
+        "back": "main"
+      },
+      "mistaken-horn": {
+        "image": "assets/horn/HORN05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/horn/HORN00AP.mp3",
+  "narration": "assets/horn/HORN00AJ.mp3"
+}

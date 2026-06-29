@@ -1,0 +1,112 @@
+{
+  "id": "herr",
+  "code": "HERR",
+  "name": "Herrerasaurus",
+  "category": "dinosaur",
+  "scientificName": "Herrerasaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "heh-RARE-ah-SOR-us",
+  "meaning": "Herrera lizard",
+  "period": "Late Triassic",
+  "diet": "Carnivore",
+  "tagline": "This old-timer was possibly one of the first meat-eating dinosaurs on Earth!",
+  "hero": {
+    "image": "assets/herr/HERR00AA.webp",
+    "alt": "Herrerasaurus"
+  },
+  "intro": "One of the first dinosaurs of the Age of Dinosaurs, Herrerasaurus lived during the Late Triassic period, more than 200 million years ago. This small South American dinosaur was a very primitive, two-legged meat-eater about ten feet long. Herrerasaurus is classified as a lizard-hipped dinosaur, but shares only a few features with others in that group.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "South America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Triassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Herrera lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Theropod"
+    },
+    {
+      "label": "Length",
+      "value": "3m (10ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "at-the-dawn-of-dinosaurs",
+      "title": "At the Dawn of Dinosaurs",
+      "image": "assets/herr/HERR01PU.webp",
+      "text": "Here are some of the dinosaurs that lived during the early periods of the Age of Dinosaurs.",
+      "captions": [
+        {
+          "label": "Plateosaurus",
+          "text": "This dinosaur is one of the most commonly found fossils. Plateosaurus was a plant-eater that grew up to twenty-three feet long."
+        },
+        {
+          "label": "Staurikosaurus",
+          "text": "One of the oldest known dinosaurs, this little Brazilian predator lived during the Late Triassic period, 225 million years ago."
+        },
+        {
+          "label": "Coelophysis",
+          "text": "Coelophysis dates from the Late Triassic period and has all the characteristics of a swift predator."
+        },
+        {
+          "label": "Massospondylus",
+          "text": "This bulky plant-eater had a small head and a long neck and tail. It measured sixteen feet in length."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Life Before Dinosaurs",
+      "to": "befr"
+    },
+    {
+      "label": "Staurikosaurus",
+      "to": "stau"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/herr/HERR00AA.webp",
+        "hotspots": [
+          {
+            "label": "At the dawn of dinosaurs",
+            "to": "at-the-dawn-of-dinosaurs",
+            "x": 52,
+            "y": 72,
+            "w": 37,
+            "h": 6
+          }
+        ]
+      },
+      "at-the-dawn-of-dinosaurs": {
+        "image": "assets/herr/HERR01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/herr/HERR50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/herr/HERR00AP.mp3",
+  "narration": "assets/herr/HERR00AJ.mp3"
+}

@@ -1,0 +1,196 @@
+{
+  "id": "pret",
+  "code": "PRET",
+  "name": "Pretenders",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "In the ocean, nothing is ever quite what it seems.",
+  "zones": [
+    "Coral reef",
+    "Kelp & seagrass",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/pret/PRET00AA.webp",
+    "alt": "Pretenders"
+  },
+  "intro": "In the undersea environment, it pays to examine the landscape carefully. Those rocks on the bottom or those plants waving in the current could turn out to be something completely different. Make sure that familiar-looking fish is really the one you think it is, and not an impostor. Down here, things are not always as they appear to be.",
+  "facts": [
+    {
+      "label": "Sneaky blenny",
+      "value": "The saber-toothed blenny looks identical to the cleaner wrasse, even copies its wrasselike dance — then bites off a chunk of the customer's flesh instead of cleaning it."
+    },
+    {
+      "label": "Upside-down fish",
+      "value": "Shrimpfish hang upside-down among a sea urchin's spines or plants at night and even swim vertically with their heads down to fool predators."
+    },
+    {
+      "label": "See-through bodies",
+      "value": "Shrimpfish have striped, skinny bodies and long, toothless snouts that are partly transparent, helping them blend in."
+    },
+    {
+      "label": "Pregnant dad",
+      "value": "The male pipefish carries eggs in a brood pouch and hatches them — he's the one who gets 'pregnant'!"
+    },
+    {
+      "label": "Lethal rock",
+      "value": "The stonefish has lethal venom and camouflage so convincing that often only its eyes are visible above the seabed."
+    },
+    {
+      "label": "Built-in fishing rod",
+      "value": "The frogfish's dorsal fin works like a fishing rod that can 'reel in' or 'cast out' using special muscles, luring fish straight into its mouth."
+    }
+  ],
+  "topics": [
+    {
+      "id": "little-villains",
+      "title": "Little villains",
+      "image": "assets/pret/PRET01PU.webp",
+      "text": "Are you familiar with the cleaner wrasse? This useful fish eats the parasites off of other fish, which become regular customers at the wrasse's \"cleaning station.\" Enter the saber-toothed blenny: it looks identical to the wrasse, right down to the stripe. The blenny posts itself at the station and lures customers by wriggling in a wrasselike dance. But instead of helping out, the saber-toothed blenny first fools the fish into thinking it's going to be cleaned, then bites off a chunk of its flesh!",
+      "narration": "assets/pret/PRET01JN.mp3"
+    },
+    {
+      "id": "animal-or-vegetable",
+      "title": "Animal or vegetable?",
+      "image": "assets/pret/PRET02PU.webp",
+      "text": "Shrimpfish have devised an ingenious way of hiding from predators at night: they hang upside-down among a sea urchin's spines or among plants. Their striped, skinny bodies and long, toothless snouts are partly transparent, helping them to blend in. Shrimpfish even swim in a vertical position with their heads down. \"Hey, we're not fish at all,\" they seem to be saying!",
+      "narration": "assets/pret/PRET02JN.mp3"
+    },
+    {
+      "id": "fish-or-flower",
+      "title": "Fish or flower?",
+      "image": "assets/pret/PRET03PU.webp",
+      "text": "Pipefish may be small, but they're capable of all kinds of astounding feats. The male actually manages to get \"pregnant\" with eggs in a brood pouch and hatches them. The ghost pipefish includes a vanishing act in its bag of tricks!",
+      "captions": [
+        {
+          "label": "Green ghost",
+          "text": "This fish looks exactly like the algae it likes to live in!"
+        },
+        {
+          "label": "Colorful specter",
+          "text": "This ghost pipefish can camouflage itself among marine plants. Can you see it?"
+        }
+      ],
+      "narration": "assets/pret/PRET03JN.mp3"
+    },
+    {
+      "id": "fake-rocks",
+      "title": "Fake rocks",
+      "image": "assets/pret/PRET04PU.webp",
+      "text": "Some fish have all the nerve! Imagine passing yourself off as a rock—one that's poisonous, no less!",
+      "captions": [
+        {
+          "label": "Frog and coral",
+          "text": "This brightly colored frogfish camouflages itself to look exactly like the coral or floating gulfweed in which it lives. It even has branchlike growths along its nose and body. It spends most of its life motionless, waiting for opportunities to eat passing fish."
+        },
+        {
+          "label": "Stone and venom",
+          "text": "Its appearance is grotesque, and its venom is lethal. What if your life depended on spotting it? The stonefish resembles the rocks of the seabed so much that often only its eyes are visible. Its wonderful camouflage is a hunting trick: the stonefish snaps up unsuspecting fish in its large, powerful mouth."
+        }
+      ],
+      "narration": "assets/pret/PRET04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What's a Fish?",
+      "to": "what"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/pret/PRET00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 12,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Fish or fisherman?",
+            "to": "video",
+            "x": 6,
+            "y": 42,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Animal or vegetable?",
+            "to": "animal-or-vegetable",
+            "x": 11,
+            "y": 54,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Fish or flower?",
+            "to": "fish-or-flower",
+            "x": 9,
+            "y": 66,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Little villains",
+            "to": "little-villains",
+            "x": 56,
+            "y": 27,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Fake rocks",
+            "to": "fake-rocks",
+            "x": 61,
+            "y": 57,
+            "w": 13,
+            "h": 5
+          }
+        ]
+      },
+      "little-villains": {
+        "image": "assets/pret/PRET01PU.webp",
+        "back": "main"
+      },
+      "animal-or-vegetable": {
+        "image": "assets/pret/PRET02PU.webp",
+        "back": "main"
+      },
+      "fish-or-flower": {
+        "image": "assets/pret/PRET03PU.webp",
+        "back": "main"
+      },
+      "fake-rocks": {
+        "image": "assets/pret/PRET04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/pret/clip.mp4",
+        "poster": "assets/pret/PRET05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/pret/PRET00JN.mp3",
+  "sound": "assets/pret/PRET00IX.mp3",
+  "video": {
+    "title": "Fish or fisherman?",
+    "src": "assets/pret/clip.mp4",
+    "poster": "assets/pret/poster.webp",
+    "caption": "How's the fishing today? Probably pretty good if you're a frogfish with a long lure. How's that again? A fish with a lure? Yes, the frogfish's dorsal fin is like a fishing rod that can \"reel in\" or \"cast out\" using special muscles. It fools little fish into falling for the bait, and when they bite, they're pulled straight into the frogfish's mouth!",
+    "narration": "assets/pret/PRET05JN.mp3"
+  }
+}

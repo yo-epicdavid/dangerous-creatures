@@ -1,0 +1,202 @@
+{
+  "id": "anem",
+  "code": "ANEM",
+  "name": "Anemones",
+  "category": "creature",
+  "scientificName": "Radianthus ritteri",
+  "needsScientificVerify": false,
+  "tagline": "They look like flowers, but these underwater animals sting!",
+  "zones": [
+    "Coast & tide pools",
+    "Coral reef"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/anem/ANEM00AA.webp",
+    "alt": "Anemones"
+  },
+  "intro": "Although they look like blossoms shimmering underwater, they're covered with stinging tentacles instead of soft petals. In the center of their \"blossoms\" are huge mouths. These are not alien flowers from another planet—they're animals that live right here on earth. They're sea anemones!",
+  "facts": [
+    {
+      "label": "Diet",
+      "value": "Many anemones eat small fish and crustaceans."
+    },
+    {
+      "label": "Stinging cells",
+      "value": "Anemones have stinging cells called nematocysts that they use to kill their prey."
+    },
+    {
+      "label": "Relatives",
+      "value": "Anemones are cnidarians, related to jellyfish, corals, and sea fans."
+    },
+    {
+      "label": "Odd couple",
+      "value": "Clownfish live safely among anemone tentacles, protected from predators while stealing food from the anemone."
+    },
+    {
+      "label": "Tidal trick",
+      "value": "Tidal anemones withdraw their tentacles into velvety little \"buttons\" when exposed to air, then extend them to feed when the tide returns."
+    },
+    {
+      "label": "Body plan",
+      "value": "Cnidarian bodies are mostly water, with tentacles arranged around a central mouth."
+    }
+  ],
+  "topics": [
+    {
+      "id": "the-cnidarian-group",
+      "title": "The Cnidarian group",
+      "image": "assets/anem/ANEM01PU.webp",
+      "text": "Anemones belong to a group of animals that scientists call Cnidarians. This group includes jellyfish, corals, and sea fans. What do all of these creatures have in common? Their simple bodies are mostly water, and they all have stinging cells—called nematocysts—that they use to kill their prey. Cnidarians come in two forms: a medusa form, and a polyp form.",
+      "captions": [
+        {
+          "label": "Polyp form",
+          "text": "Anemones are tube-shaped polyps. They attach themselves to rocks or shells with their suction-cup bottoms. But not all polyps are rooted in place—some can creep or even swim away from danger!"
+        },
+        {
+          "label": "Medusa form",
+          "text": "This mature jellyfish is a medusa, a free-floating form of cnidarian. But jellyfish spend part of their lives as sedentary polyps while they're growing up."
+        },
+        {
+          "label": "The basic arrangement",
+          "text": "All cnidarians have simple, symmetrical bodies, with tentacles arranged around a central mouth."
+        }
+      ],
+      "narration": "assets/anem/ANEM01JN.mp3"
+    },
+    {
+      "id": "odd-couples",
+      "title": "Odd couples",
+      "image": "assets/anem/ANEM02PU.webp",
+      "text": "Many anemones eat small fish. So how do these clownfish get away with living among the anemone's stinging tentacles? Some scientists believe that the clownfish is protected by a covering of mucus; others think that the fish gives off a chemical that tells the anemone not to attack. In either case, it's a good deal for the clownfish, which is protected from predators and gets a chance to steal food from the anemone. It's not yet clear what benefits the anemone gets out of the relationship.",
+      "narration": "assets/anem/ANEM02JN.mp3"
+    },
+    {
+      "id": "colorful-cousins",
+      "title": "Colorful cousins",
+      "image": "assets/anem/ANEM03PU.webp",
+      "text": "Look at these anemone cousins. It's easy to see why some scientists call these creatures \"flower animals.\"",
+      "captions": [
+        {
+          "label": "Sea pen",
+          "text": "A sea pen isn't really just one creature—it's a whole colony of polyps that live and work together! Each polyp has its own job to do, whether it's keeping a grip on the ocean floor or catching food for the colony."
+        },
+        {
+          "label": "Coral",
+          "text": "Corals are animals that have a lot in common with sea anemones, but they live in large colonies."
+        },
+        {
+          "label": "Not really related",
+          "text": "These flowering plants are also called anemones, but they're not related to sea anemones. People probably named the colorful sea creatures after these flowers, which they resemble."
+        }
+      ],
+      "narration": "assets/anem/ANEM03JN.mp3"
+    },
+    {
+      "id": "life-on-an-anemone",
+      "title": "Life on an anemone",
+      "image": "assets/anem/ANEM04PU.webp",
+      "text": "Although anemones sometimes kill and eat crustaceans, this tiny crab makes its home among an anemone's stinging tentacles. Spotted porcellanid crabs feed on plankton, straining it from the water with special fringed \"arms\" called maxillipeds.",
+      "narration": "assets/anem/ANEM04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Beach Walk"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/anem/ANEM00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 9,
+            "h": 6
+          },
+          {
+            "label": "Life on an anemone",
+            "to": "life-on-an-anemone",
+            "x": 52,
+            "y": 11,
+            "w": 29,
+            "h": 6
+          },
+          {
+            "label": "Odd couples",
+            "to": "odd-couples",
+            "x": 59,
+            "y": 41,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "The Cnidarian group",
+            "to": "the-cnidarian-group",
+            "x": 24,
+            "y": 53,
+            "w": 30,
+            "h": 6
+          },
+          {
+            "label": "Changing conditions",
+            "to": "video",
+            "x": 4,
+            "y": 61,
+            "w": 29,
+            "h": 6
+          },
+          {
+            "label": "Colorful cousins",
+            "to": "colorful-cousins",
+            "x": 44,
+            "y": 66,
+            "w": 22,
+            "h": 6
+          }
+        ]
+      },
+      "the-cnidarian-group": {
+        "image": "assets/anem/ANEM01PU.webp",
+        "back": "main"
+      },
+      "odd-couples": {
+        "image": "assets/anem/ANEM02PU.webp",
+        "back": "main"
+      },
+      "colorful-cousins": {
+        "image": "assets/anem/ANEM03PU.webp",
+        "back": "main"
+      },
+      "life-on-an-anemone": {
+        "image": "assets/anem/ANEM04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/anem/clip.mp4",
+        "poster": "assets/anem/ANEM05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/anem/ANEM00JN.mp3",
+  "sound": "assets/anem/ANEM00IX.mp3",
+  "video": {
+    "title": "Changing conditions",
+    "src": "assets/anem/clip.mp4",
+    "poster": "assets/anem/poster.webp",
+    "caption": "Anemones that live along the shoreline have to survive both in and out of water. To protect themselves when they're exposed to air, anemones withdraw their tentacles, collapsing themselves into velvety little \"buttons\" on the rocks. When the tide comes in, they extend their tentacles to filter food particles from the seawater. They're amazing, adaptable creatures!",
+    "narration": "assets/anem/ANEM05JN.mp3"
+  }
+}

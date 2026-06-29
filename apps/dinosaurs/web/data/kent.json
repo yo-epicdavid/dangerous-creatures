@@ -1,0 +1,217 @@
+{
+  "id": "kent",
+  "code": "KENT",
+  "name": "Kentrosaurus",
+  "category": "dinosaur",
+  "scientificName": "Kentrosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "KEN-troh-SOR-us",
+  "meaning": "Spiky lizard",
+  "period": "Late Jurassic",
+  "diet": "Herbivore",
+  "tagline": "Double the spikes, double the danger — this small stegosaur was no pushover!",
+  "hero": {
+    "image": "assets/kent/KENT00AA.webp",
+    "alt": "Kentrosaurus"
+  },
+  "intro": "A relative of the famous Stegosaurus, Kentrosaurus has only been found at Tendaguru in Tanzania. Kentrosaurus's plates are much spikier than those of other stegosaurs. If all the spines on its back weren't enough to scare away predators, this dinosaur even had an extra pair of spines above its rear legs!",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Africa"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Spiky lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Stegosaur"
+    },
+    {
+      "label": "Length",
+      "value": "5m (17ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "a-dumb-dinosaur",
+      "title": "A Dumb Dinosaur?",
+      "image": "assets/kent/KENT01PU.webp",
+      "text": "Like most stegosaurs, Kentrosaurus had a very small brain for its body size. Yet brainpower couldn't have been everything, because stegosaurs were a successful species, common for more than 70 million years."
+    },
+    {
+      "id": "one-of-the-smaller-stegosaurs",
+      "title": "One of the Smaller Stegosaurs",
+      "image": "assets/kent/KENT02PU.webp",
+      "text": "At around sixteen feet long, Kentrosaurus is one of the smaller stegosaurs, considerably smaller than Tuojiangosaurus, and only about half the size of the famous Stegosaurus. Although small for a dinosaur, Kentrosaurus was still as long as a big automobile."
+    },
+    {
+      "id": "watch-that-tail",
+      "title": "Watch That Tail!",
+      "image": "assets/kent/KENT03PU.webp",
+      "text": "A dinosaur's tail was often its best defense against a predatory meat-eater. Like most other stegosaurs, Kentrosaurus used its tail spikes to keep its predators at bay.",
+      "captions": [
+        {
+          "label": "Spike story",
+          "text": "This stegosaur spike would have been covered by a tough layer of horn, somewhat like a fingernail, when the dinosaur was alive."
+        },
+        {
+          "label": "A spiky tail",
+          "text": "A stegosaur tail, when swished from side to side, could cause a lot of damage. The tip, where the spikes were attached, could move the fastest, so a quick snap could severely injure an attacker."
+        },
+        {
+          "label": "A lash of the whip",
+          "text": "Not all tails had to look scary to be effective. This sauropod tail was specifically designed to lash out sharply, inflicting stinging blows. And because sauropods were so large, their tails covered a lot of area!"
+        }
+      ]
+    },
+    {
+      "id": "discovered-in-a-big-dig",
+      "title": "Discovered in a Big Dig",
+      "image": "assets/kent/KENT04PU.webp",
+      "text": "Kentrosaurus was discovered in one of the biggest dinosaur excavations ever, which took place at Tendaguru in Tanzania between 1909 and 1912. Workers collected as much as 250 tons of dinosaur bones. The fossil finds belonged not only to Kentrosaurus, but also to the giant sauropods Brachiosaurus and Barosaurus, among others. The bones had to be carried to the nearest port. The workers made more than 5,000 trips from the site to the port. From there the bones were shipped to Germany."
+    },
+    {
+      "id": "thermodynamic-plates",
+      "title": "Thermodynamic Plates",
+      "image": "assets/kent/KENT05PU.webp",
+      "text": "Kentrosaurus's back plates may have helped the dinosaur to regulate its body temperature. When Kentrosaurus faced the sun, the plates absorbed heat (like solar panels) and warmed the blood; when facing the breeze or standing in the shade, the plates gave off heat and cooled its body."
+    },
+    {
+      "id": "side-spikes",
+      "title": "Side Spikes",
+      "image": "assets/kent/KENT06PU.webp",
+      "text": "Kentrosaurus was unique among stegosaurs in that it had not only spikes running down its back and on its tail, but also a pair of extra spikes above its back legs. These hip spikes may have been used to ward off attackers from the side."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Tendaguru Expedition"
+    },
+    {
+      "label": "Dravidosaurus",
+      "to": "davi"
+    },
+    {
+      "label": "Tuojiangosaurus",
+      "to": "tuoj"
+    },
+    {
+      "label": "Camarasaurus",
+      "to": "cama"
+    },
+    {
+      "label": "Digging up Dinosaurs",
+      "to": "digg"
+    },
+    {
+      "label": "Spinosaurus",
+      "to": "spin"
+    },
+    {
+      "label": "Polacanthus",
+      "to": "pola"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/kent/KENT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Watch that tail!",
+            "to": "watch-that-tail",
+            "x": 2,
+            "y": 38,
+            "w": 16,
+            "h": 8
+          },
+          {
+            "label": "Side spikes",
+            "to": "side-spikes",
+            "x": 20,
+            "y": 27,
+            "w": 14,
+            "h": 7
+          },
+          {
+            "label": "Thermodynamic plates",
+            "to": "thermodynamic-plates",
+            "x": 62,
+            "y": 18,
+            "w": 24,
+            "h": 7
+          },
+          {
+            "label": "A dumb dinosaur?",
+            "to": "a-dumb-dinosaur",
+            "x": 76,
+            "y": 38,
+            "w": 18,
+            "h": 9
+          },
+          {
+            "label": "Discovered in a big dig",
+            "to": "discovered-in-a-big-dig",
+            "x": 9,
+            "y": 68,
+            "w": 24,
+            "h": 8
+          },
+          {
+            "label": "One of the smaller stegosaurs",
+            "to": "one-of-the-smaller-stegosaurs",
+            "x": 62,
+            "y": 62,
+            "w": 28,
+            "h": 10
+          }
+        ]
+      },
+      "a-dumb-dinosaur": {
+        "image": "assets/kent/KENT01PU.webp",
+        "back": "main"
+      },
+      "one-of-the-smaller-stegosaurs": {
+        "image": "assets/kent/KENT02PU.webp",
+        "back": "main"
+      },
+      "watch-that-tail": {
+        "image": "assets/kent/KENT03PU.webp",
+        "back": "main"
+      },
+      "discovered-in-a-big-dig": {
+        "image": "assets/kent/KENT04PU.webp",
+        "back": "main"
+      },
+      "thermodynamic-plates": {
+        "image": "assets/kent/KENT05PU.webp",
+        "back": "main"
+      },
+      "side-spikes": {
+        "image": "assets/kent/KENT06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/kent/KENT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/kent/KENT00AP.mp3",
+  "narration": "assets/kent/KENT00AJ.mp3"
+}

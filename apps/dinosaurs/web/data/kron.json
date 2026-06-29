@@ -1,0 +1,96 @@
+{
+  "id": "kron",
+  "code": "KRON",
+  "name": "Kronosaurus",
+  "category": "creature",
+  "scientificName": "Kronosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "kro-no-SOR-us",
+  "meaning": "Saturn's lizard",
+  "period": "Early Cretaceous",
+  "diet": "Carnivore",
+  "tagline": "A sea monster bigger than a school bus, with jaws packed with massive, sharp teeth!",
+  "hero": {
+    "image": "assets/kron/KRON00AA.webp",
+    "alt": "Kronosaurus"
+  },
+  "intro": "Kronosaurus was a giant pliosaur found in Australia. At fifty-six feet long, if this enormous marine reptile could have stood on its tail, it would have been able to peer into the fifth floor of a building! Its huge, gaping mouth was lined with massive, sharp teeth, so it would have been able to tackle most other marine animals with ease. Kronosaurus used its giant paddle-like fins to propel itself through the water.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Australia"
+    },
+    {
+      "label": "Time Period",
+      "value": "Early Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Saturn's lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Pliosaur"
+    },
+    {
+      "label": "Length",
+      "value": "12.8m(42ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "of-pliosaurs-and-plesiosaurs",
+      "title": "Of Pliosaurs and Plesiosaurs",
+      "image": "assets/kron/KRON01PU.webp",
+      "text": "Kronosaurus was a pliosaur like Peloneustes below. Both have large heads and short necks.",
+      "captions": [
+        {
+          "label": "Snake necks",
+          "text": "Elasmosaurus was a plesiosaur. Its neck made up more than half of its forty-three foot length."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Reptiles of the Sea",
+      "to": "rsea"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/kron/KRON00AA.webp",
+        "hotspots": [
+          {
+            "label": "Of pliosaurs and plesiosaurs",
+            "to": "of-pliosaurs-and-plesiosaurs",
+            "x": 53,
+            "y": 77,
+            "w": 36,
+            "h": 5
+          }
+        ]
+      },
+      "of-pliosaurs-and-plesiosaurs": {
+        "image": "assets/kron/KRON01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/kron/KRON50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/kron/KRON00AP.mp3",
+  "narration": "assets/kron/KRON00AJ.mp3"
+}

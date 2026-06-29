@@ -1,0 +1,216 @@
+{
+  "id": "ammo",
+  "code": "AMMO",
+  "name": "Ammonite",
+  "category": "creature",
+  "scientificName": "Ammonoidea",
+  "needsScientificVerify": false,
+  "pronunciation": "AM-uh-nyte",
+  "meaning": "Horn of Ammon",
+  "period": "Devonian - Cretaceous",
+  "diet": "Carnivore",
+  "tagline": "Jet-propelled shell masters that hunted prehistoric seas — and ended up hunted themselves!",
+  "hero": {
+    "image": "assets/ammo/AMMO00AA.webp",
+    "alt": "Ammonite"
+  },
+  "intro": "Ammonites developed elaborate coiled shells to protect their soft squid-like bodies. Active predators, ammonites floated in the sea, expelling water in a form of jet propulsion when they wanted to move quickly. Although the shape of an ammonite's shell may look like a modern snail, ammonites weren't necessarily small—some were giants that grew to be more than six feet in diameter!",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Prehistoric seas"
+    },
+    {
+      "label": "Time Period",
+      "value": "Cambrian"
+    },
+    {
+      "label": "Name Means",
+      "value": "Horn of Ammon"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Cephalopod"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ammonite-legacy",
+      "title": "Ammonite Legacy",
+      "image": "assets/ammo/AMMO01PU.webp",
+      "text": "Although ammonites have been extinct for millions of years, these prehistoric creatures have definitely left their impression on human society.",
+      "captions": [
+        {
+          "label": "Snakestones",
+          "text": "In England, ammonites were once believed to be the remains of coiled snakes turned to stone in the 7th Century by Saint Hilda. Heads were even carved onto some ammonites to further the belief."
+        }
+      ]
+    },
+    {
+      "id": "shells-of-all-sizes",
+      "title": "Shells of All Sizes",
+      "image": "assets/ammo/AMMO02PU.webp",
+      "text": "Ammonites ranged in size from just a few inches across to more than six feet—bigger across than most men are tall.",
+      "captions": [
+        {
+          "label": "Packed in tight",
+          "text": "Judging from the number of fossils found, these animals were probably plentiful in prehistoric seas."
+        }
+      ]
+    },
+    {
+      "id": "ocean-jewels",
+      "title": "Ocean Jewels",
+      "image": "assets/ammo/AMMO03PU.webp",
+      "text": "The hard shell of the ammonite was made of a chalky mineral called aragonite, with a colorful outer layer of mother of pearl. This ammonite has been preserved in almost its original state.",
+      "captions": [
+        {
+          "label": "Golden treasures",
+          "text": "These ammonites became golden when the mineral aragonite in their shells was replaced by iron pyrite during fossilization. Iron pyrite is also called \"fool's gold,\" because amateur miners have frequently mistaken the worthless mineral for real gold."
+        }
+      ]
+    },
+    {
+      "id": "inside-the-shell",
+      "title": "Inside the Shell",
+      "image": "assets/ammo/AMMO04PU.webp",
+      "text": "Ammonites grew intricate shells that were divided into a series of chambers. The live ammonite occupied only the chamber next to the opening. As the ammonite grew and needed more room, it moved forward and formed a new dividing wall, called a septum, at the rear of the new chamber. The creature used a tube, called a siphuncle, to fill the older chambers in the spiral with either liquid or gas. When it wanted to rise or sink in the water, the ammonite changed the proportion of liquid and gas inside its shell to make it lighter or heavier.",
+      "captions": [
+        {
+          "label": "Coiled cousin",
+          "text": "Nautilus, a living relative of the ammonites, makes a shell that is very similar to those of the ancient ammonites. Notice the similar chambers in these fossilized nautiloid shells."
+        },
+        {
+          "label": "Night stalker",
+          "text": "The nautilus is a nocturnal animal, active only at night. It lives in the Pacific Ocean at depths ranging from 16 to 1800 feet. Its prey consists of fish and crustaceans, which it eats with its hard beak."
+        }
+      ]
+    },
+    {
+      "id": "unlikely-couples",
+      "title": "Unlikely Couples",
+      "image": "assets/ammo/AMMO05PU.webp",
+      "text": "Unlike most mollusks, male and female ammonites were not the same shape and size. Female ammonites were larger than the males. Also, the shape of the shell around the opening, or aperture, was different in male ammonites than in females.",
+      "captions": [
+        {
+          "label": "Irregular coils",
+          "text": "The shells of most ammonites are coiled tightly in one plane with one whorl touching the next. Some, however, look like snail shells, others are partly uncoiled. In some unusual shells, the coils go in different directions."
+        }
+      ]
+    },
+    {
+      "id": "both-predator-and-prey",
+      "title": "Both Predator and Prey",
+      "image": "assets/ammo/AMMO06PU.webp",
+      "text": "As predators, ammonites hunted for fish and shellfish to eat. But each ammonite had to look out for larger hunters, such as the marine reptile Mosasaurus, which viewed ammonites as potential meals.",
+      "captions": [
+        {
+          "label": "Crocodile smile",
+          "text": "Mosasaurs had crocodile-like jaws and flat tails and grew up to thirty feet long. With mouths full of jagged teeth, they were some of the most fearsome hunters among the reptiles of the sea."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Life Before Dinosaurs",
+      "to": "befr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/ammo/AMMO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Ocean jewels",
+            "to": "ocean-jewels",
+            "x": 63,
+            "y": 18,
+            "w": 18,
+            "h": 7
+          },
+          {
+            "label": "Unlikely couples",
+            "to": "unlikely-couples",
+            "x": 38,
+            "y": 33,
+            "w": 18,
+            "h": 7
+          },
+          {
+            "label": "Inside the shell",
+            "to": "inside-the-shell",
+            "x": 63,
+            "y": 42,
+            "w": 18,
+            "h": 7
+          },
+          {
+            "label": "Shells of all sizes",
+            "to": "shells-of-all-sizes",
+            "x": 20,
+            "y": 42,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Both predator and prey",
+            "to": "both-predator-and-prey",
+            "x": 55,
+            "y": 70,
+            "w": 26,
+            "h": 7
+          },
+          {
+            "label": "Ammonite legacy",
+            "to": "ammonite-legacy",
+            "x": 14,
+            "y": 70,
+            "w": 22,
+            "h": 7
+          }
+        ]
+      },
+      "ammonite-legacy": {
+        "image": "assets/ammo/AMMO01PU.webp",
+        "back": "main"
+      },
+      "shells-of-all-sizes": {
+        "image": "assets/ammo/AMMO02PU.webp",
+        "back": "main"
+      },
+      "ocean-jewels": {
+        "image": "assets/ammo/AMMO03PU.webp",
+        "back": "main"
+      },
+      "inside-the-shell": {
+        "image": "assets/ammo/AMMO04PU.webp",
+        "back": "main"
+      },
+      "unlikely-couples": {
+        "image": "assets/ammo/AMMO05PU.webp",
+        "back": "main"
+      },
+      "both-predator-and-prey": {
+        "image": "assets/ammo/AMMO06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/ammo/AMMO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/ammo/AMMO00AP.mp3",
+  "narration": "assets/ammo/AMMO00AJ.mp3"
+}

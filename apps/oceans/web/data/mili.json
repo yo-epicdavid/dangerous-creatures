@@ -1,0 +1,218 @@
+{
+  "id": "mili",
+  "code": "MILI",
+  "name": "The Military at Sea",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "From ancient oars to nuclear submarines, humans have been building—and battling—on the seas for 4,000 years!",
+  "zones": [
+    "Open ocean",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/mili/MILI00AA.webp",
+    "alt": "The Military at Sea"
+  },
+  "intro": "Whether on land or at sea, war brings terrible suffering and loss of life. But it has also spurred remarkable advances in shipbuilding and marine technology. Naval forces have seen tremendous change—from the small oared boats used by the Minoans of Crete from 2200 to 1450 B.C., to the destroyers, missile cruisers, aircraft carriers, and nuclear submarines of today.",
+  "facts": [
+    {
+      "label": "Origins",
+      "value": "Naval warfare dates back to the Minoans of Crete, who used small oared boats from 2200 to 1450 B.C."
+    },
+    {
+      "label": "Greek trireme",
+      "value": "The Greek trireme was 130 feet long, with a long ram at its bow and 170 rowers."
+    },
+    {
+      "label": "Guns at sea",
+      "value": "The 1571 Battle of Lepanto was the last great sea battle involving oared ships and the first in which guns played a major role."
+    },
+    {
+      "label": "Wooden warship",
+      "value": "Admiral Nelson's ship, the Agamemnon, was a typical fighting ship, carrying 64 guns and a crew of about 600."
+    },
+    {
+      "label": "Ironclads",
+      "value": "In 1862 the U.S. Civil War brought the emergence of ironclads—iron-plated warships that marked the transition to modern battleships."
+    },
+    {
+      "label": "Depth charge",
+      "value": "Not until the depth charge was introduced in 1916 did British warships have any chance of sinking U-boats."
+    }
+  ],
+  "topics": [
+    {
+      "id": "war-of-oars",
+      "title": "War of oars",
+      "image": "assets/mili/MILI01PU.webp",
+      "text": "The Greeks and Romans fostered the development of the oared fighting ship.",
+      "captions": [
+        {
+          "label": "Model of Greek trireme Argonaut",
+          "text": "Showdown at Salamis: The Greek trireme was the greatest ship of its day—130 feet long, with a long ram at its bow and 170 rowers. When the Greeks defeated the Persians at the Battle of Salamis in 480 B.C., they established naval supremacy in the Mediterranean."
+        },
+        {
+          "label": "Cleopatra's barge",
+          "text": "Action at Actium: The Romans developed the quinquereme, a large warship designed to ram enemy vessels. But at the battle of Actium in 31 B.C. the Roman commander Agrippa used the smaller, more mobile liburnian to run alongside enemy ships and crush their oars. Agrippa's victory over Marc Antony and Cleopatra marked the beginning of the end of the large, oared fighting ship."
+        }
+      ],
+      "narration": "assets/mili/MILI01JN.mp3"
+    },
+    {
+      "id": "famous-firepower",
+      "title": "Famous firepower",
+      "image": "assets/mili/MILI02PU.webp",
+      "text": "Major shifts in ship design, battle tactics, and firepower occurred in the 1500s. In 1571 a combined Christian fleet of heavily armed warships defeated the Turks at the Battle of Lepanto. It marked the last great sea battle involving oared fighting ships, and the first in which guns played a major role. In 1588 the English defeated the Spanish Armada, even though the Spaniards were armed with heavy demicannons. The English fleet used guns to cripple their opponents' vessels and released fireships—ships set on fire and cast loose—to break the Spanish ranks.",
+      "narration": "assets/mili/MILI02JN.mp3"
+    },
+    {
+      "id": "wooden-warships",
+      "title": "Wooden warships",
+      "image": "assets/mili/MILI03PU.webp",
+      "text": "Wooden warships reached their zenith at the Battle of Trafalgar in 1805, where British Admiral Horatio Nelson dashed Napoleon Bonaparte's hopes for French control of the seas. Nelson's vessel, the Agamemnon, was a typical fighting ship, carrying 64 guns and a crew of about 600. In 1853 a Russian squadron hoping to gain access to the Mediterranean opened fire on the Turkish fleet, using spherical explosive shells to set fire to wooden hulls. This Crimean War encounter, known as the Battle of Sinope, marked the end of the wooden sailing warship.",
+      "narration": "assets/mili/MILI03JN.mp3"
+    },
+    {
+      "id": "armored-and-dangerous",
+      "title": "Armored and dangerous",
+      "image": "assets/mili/MILI04PU.webp",
+      "text": "In 1862 the United States Civil War brought the emergence of ironclads, or monitors—iron-plated warships that marked the transition to modern battleships. The Merrimack and the Monitor confronted each other in Hampton Roads, the confluence of three rivers in Virginia's Chesapeake Bay, on March 9, 1862. Union forces first mistook the Merrimack for a water tank, and then for a cheesebox on a raft!",
+      "narration": "assets/mili/MILI04JN.mp3"
+    },
+    {
+      "id": "subs-and-carriers",
+      "title": "Subs and carriers",
+      "image": "assets/mili/MILI05PU.webp",
+      "text": "World War I brought the development of submarines with the German U-boat. World War II saw the emergence of the aircraft carrier.",
+      "captions": [
+        {
+          "label": "WWI German U-boats",
+          "text": "Sink on sight: In World War I German U-boats switched to an unrestricted policy of sinking ships without warning. Not until the depth charge was introduced in 1916 did British warships have any chance of sinking U-boats."
+        },
+        {
+          "label": "Aircraft carrier USS Carl Vinson",
+          "text": "Clear for takeoff: When U-boats engaged in \"wolfpack\" tactics in World War I—attacking supply and troop convoys under cover of darkness—the Allies' answer was the development of sonar, radio direction finders, and aircraft. The British pioneered the use of the aircraft carrier in World War II. Large carriers are at the heart of modern navies."
+        }
+      ],
+      "narration": "assets/mili/MILI05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Disasters at Sea",
+      "to": "disa"
+    },
+    {
+      "label": "Pirates",
+      "to": "pira"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mili/MILI00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 1,
+            "y": 6,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "Subs and carriers",
+            "to": "subs-and-carriers",
+            "x": 3,
+            "y": 46,
+            "w": 22,
+            "h": 4
+          },
+          {
+            "label": "War of oars",
+            "to": "war-of-oars",
+            "x": 3,
+            "y": 55,
+            "w": 16,
+            "h": 4
+          },
+          {
+            "label": "Famous firepower",
+            "to": "famous-firepower",
+            "x": 63,
+            "y": 37,
+            "w": 23,
+            "h": 4
+          },
+          {
+            "label": "Guarding modern coasts",
+            "to": "video",
+            "x": 53,
+            "y": 49,
+            "w": 30,
+            "h": 4
+          },
+          {
+            "label": "Wooden warships",
+            "to": "wooden-warships",
+            "x": 64,
+            "y": 57,
+            "w": 20,
+            "h": 4
+          },
+          {
+            "label": "Armored and dangerous",
+            "to": "armored-and-dangerous",
+            "x": 34,
+            "y": 70,
+            "w": 26,
+            "h": 4
+          }
+        ]
+      },
+      "war-of-oars": {
+        "image": "assets/mili/MILI01PU.webp",
+        "back": "main"
+      },
+      "famous-firepower": {
+        "image": "assets/mili/MILI02PU.webp",
+        "back": "main"
+      },
+      "wooden-warships": {
+        "image": "assets/mili/MILI03PU.webp",
+        "back": "main"
+      },
+      "armored-and-dangerous": {
+        "image": "assets/mili/MILI04PU.webp",
+        "back": "main"
+      },
+      "subs-and-carriers": {
+        "image": "assets/mili/MILI05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/mili/clip.mp4",
+        "poster": "assets/mili/MILI06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/mili/MILI00JN.mp3",
+  "sound": "assets/mili/MILI00IX.mp3",
+  "video": {
+    "title": "Guarding modern coasts",
+    "src": "assets/mili/clip.mp4",
+    "poster": "assets/mili/poster.webp",
+    "caption": "U.S. Coast Guard rescue effort",
+    "narration": "assets/mili/MILI06JN.mp3"
+  }
+}

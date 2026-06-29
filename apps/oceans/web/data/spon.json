@@ -1,0 +1,204 @@
+{
+  "id": "spon",
+  "code": "SPON",
+  "name": "Sponges",
+  "category": "creature",
+  "scientificName": "Aplysina verongis longissima",
+  "needsScientificVerify": false,
+  "tagline": "No mouth, no bones, no problem — sponges have been filtering the seas for millions of years!",
+  "zones": [
+    "Coral reef",
+    "Coast & tide pools"
+  ],
+  "oceans": [
+    "Worldwide"
+  ],
+  "hero": {
+    "image": "assets/spon/SPON00AA.webp",
+    "alt": "Sponges"
+  },
+  "intro": "Some sponges spread out and grow like moss; some look like mushrooms or cactuses; others are tube-shaped or fan-shaped. A single species of sponge may grow in several different shapes and in several different colors. Even a specialist would have a hard time identifying all the different types of sponges. These animals can vary in size from microscopic to more than 2 m (6.5 ft) tall, and there are more than 5,000 species on earth!",
+  "facts": [
+    {
+      "label": "Size",
+      "value": "Sponges can grow from microscopic to more than 2 m (6.5 ft) tall"
+    },
+    {
+      "label": "Species",
+      "value": "There are more than 5,000 species of sponges on Earth"
+    },
+    {
+      "label": "Diet",
+      "value": "Sponges filter water through their pores to capture bacteria, phytoplankton, and zooplankton — with no mouth at all"
+    },
+    {
+      "label": "Skeleton",
+      "value": "Tiny structures called spicules, made of calcium or silica, keep a sponge's body stiff"
+    },
+    {
+      "label": "History",
+      "value": "Sponges were mistakenly classified as plants until the early nineteenth century"
+    },
+    {
+      "label": "Did you know",
+      "value": "Some sponges have no spicules — their soft remains have been used by people as bath sponges for centuries"
+    }
+  ],
+  "topics": [
+    {
+      "id": "bath-sponges",
+      "title": "Bath sponges",
+      "image": "assets/spon/SPON01PU.webp",
+      "text": "When most sponges die, they leave behind only the tough spicules that stiffen their bodies. But a few sponges have no spicules, relying instead on a network of protein fibers called spongin. The skeletal remains of these softer sponges have been used by people as bath sponges for centuries. You can still buy natural bath sponges in a few places, but most sponges that people have at home are manmade and not the remains of living sponge animals.",
+      "narration": "assets/spon/SPON01JN.mp3"
+    },
+    {
+      "id": "inside-sponges",
+      "title": "Inside sponges",
+      "image": "assets/spon/SPON02PU.webp",
+      "text": "Sponges are animals, but they have no skeleton, and no tough external casing. So how do they stay upright? The secret is spicules—tiny, hard structures made of calcium or silica that are scattered throughout a sponge's body to make it stiff. When most sponges die, all that remains after a few days are the spicules. A few other animals, like sea cucumbers, have spicules, too.",
+      "captions": [
+        {
+          "label": "Mixed spicules from sponges and sea cucumbers",
+          "text": "Mixed spicules from sponges and sea cucumbers"
+        },
+        {
+          "label": "Spicules of glass rope sponge",
+          "text": "Hexactinella species"
+        }
+      ],
+      "narration": "assets/spon/SPON02JN.mp3"
+    },
+    {
+      "id": "all-shapes-and-sizes",
+      "title": "All shapes and sizes",
+      "image": "assets/spon/SPON03PU.webp",
+      "text": "Like flowers in a garden, sponges come in a wide variety of shapes, sizes, and colors. It's no wonder that these sedentary creatures were classified as plants until the early nineteenth century!",
+      "captions": [
+        {
+          "label": "Coraline sponge on the Great Barrier Reef",
+          "text": "Sclerospongiae species"
+        },
+        {
+          "label": "Orange ball sponge, Cozumel, Mexico",
+          "text": "Orange ball sponge, Cozumel, Mexico"
+        }
+      ],
+      "narration": "assets/spon/SPON03JN.mp3"
+    },
+    {
+      "id": "eat-and-be-eaten",
+      "title": "Eat and be eaten",
+      "image": "assets/spon/SPON04PU.webp",
+      "text": "Sponges stay in one place. They have no mouths. But they do eat—by filtering water through their pores and capturing whatever food drifts in. They consume bacteria that's drifting with the currents and debris that falls from creatures and plants above.",
+      "captions": [
+        {
+          "label": "Sponge food",
+          "text": "Sponges eat a mixture of phytoplankton and zooplankton. The tiniest plankton and bacteria can serve as food for sponges."
+        },
+        {
+          "label": "Sponge eater",
+          "text": "This beautiful creature is a sponge's worst nightmare! It's a nudibranch, and it munches on sponges."
+        }
+      ],
+      "narration": "assets/spon/SPON04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Related or Not?"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/spon/SPON00AA.webp",
+        "hotspots": [
+          {
+            "label": "Quiz",
+            "to": "quiz",
+            "x": 2,
+            "y": 1,
+            "w": 9,
+            "h": 9
+          },
+          {
+            "label": "Bath sponges",
+            "to": "bath-sponges",
+            "x": 57,
+            "y": 11,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "All shapes and sizes",
+            "to": "all-shapes-and-sizes",
+            "x": 44,
+            "y": 29,
+            "w": 29,
+            "h": 5
+          },
+          {
+            "label": "Inside sponges",
+            "to": "inside-sponges",
+            "x": 44,
+            "y": 70,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Eat and be eaten",
+            "to": "eat-and-be-eaten",
+            "x": 1,
+            "y": 80,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Sponge lovers",
+            "to": "video",
+            "x": 1,
+            "y": 88,
+            "w": 18,
+            "h": 5
+          }
+        ]
+      },
+      "bath-sponges": {
+        "image": "assets/spon/SPON01PU.webp",
+        "back": "main"
+      },
+      "inside-sponges": {
+        "image": "assets/spon/SPON02PU.webp",
+        "back": "main"
+      },
+      "all-shapes-and-sizes": {
+        "image": "assets/spon/SPON03PU.webp",
+        "back": "main"
+      },
+      "eat-and-be-eaten": {
+        "image": "assets/spon/SPON04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/spon/clip.mp4",
+        "poster": "assets/spon/SPON05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Oceans (1995) CD-ROM",
+    "note": "Text liberated from original screen art; images, audio & clips restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "narration": "assets/spon/SPON00JN.mp3",
+  "sound": "assets/spon/SPON00IX.mp3",
+  "video": {
+    "title": "Sponge lovers",
+    "src": "assets/spon/clip.mp4",
+    "poster": "assets/spon/poster.webp",
+    "caption": "Many marine animals have special relationships with sponges. This moray eel has discovered that the cavity inside a tube sponge is conveniently eel-shaped. It makes a good place to hide out and wait for a fat fish to swim by. The sponge might even get a few fish scraps to eat, too.",
+    "narration": "assets/spon/SPON05JN.mp3"
+  }
+}
