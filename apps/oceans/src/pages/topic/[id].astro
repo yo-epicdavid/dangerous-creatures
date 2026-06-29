@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Topbar from '../../components/Topbar.astro';
-import { listEntries, asset } from '../../lib/data.js';
+import { listEntries, asset, catSlug } from '../../lib/data.js';
 
 export function getStaticPaths() {
   return listEntries().map((d) => ({ params: { id: d.id }, props: { d } }));
@@ -49,11 +49,11 @@ const crosslinks = (d.crosslinks || []).filter((c) => c.to);
       )}
 
       <div class="chips">
-        <span class="chips__label">Kind</span><span class="chip">{catLabel}</span>
+        <span class="chips__label">Kind</span><a class="chip" href={`/browse?tab=categories#${d.category}`}>{catLabel}</a>
         {zones.length > 0 && <span class="chips__label">Zone</span>}
-        {zones.map((z) => <span class="chip">{z}</span>)}
+        {zones.map((z) => <a class="chip" href={`/browse?tab=zones#${catSlug(z)}`}>{z}</a>)}
         {oceans.length > 0 && <span class="chips__label">Found in</span>}
-        {oceans.map((o) => <span class="chip">{o}</span>)}
+        {oceans.map((o) => <a class="chip" href={`/browse?tab=oceans#${catSlug(o)}`}>{o}</a>)}
       </div>
 
       <div class="layout">

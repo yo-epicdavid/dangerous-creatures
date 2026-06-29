@@ -1,0 +1,49 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Topbar from '../../components/Topbar.astro';
+import { readJSON, asset } from '../../lib/data.js';
+const guides = readJSON('guides.json');
+const totalTours = guides.reduce((n, g) => n + g.tours.length, 0);
+---
+<Layout title="Guided Tours — Microsoft Oceans" desc="Six ocean characters, eighteen narrated tours of the sea.">
+  <Topbar>
+    <a slot="right" class="btn" href="/"><span class="arrow" aria-hidden="true">←</span> All topics</a>
+  </Topbar>
+
+  <div class="guides-head">
+    <h1>Guided Tours</h1>
+    <p>Meet six ocean characters — a lone voyager, an old-time sailor, a sea rescuer, a scuba
+      diver, an oceanographer, and a visitor from another world. Each has three narrated tours
+      to share — {totalTours} in all.</p>
+  </div>
+
+  <main id="main-content" class="wrap" tabindex="-1">
+    <div class="guide-grid">
+      {guides.map((g) => (
+        <a class="guidecard" href={`/guides/${g.id}`}>
+          <div class="guidecard__art"><img src={asset(g.art)} alt={`${g.name}, ${g.role}`} loading="lazy" /></div>
+          <div class="guidecard__body">
+            <span class="gname">{g.name}</span>
+            <span class="grole">{g.role}</span>
+            <span class="gtours">{g.tours.map((t) => t.title).join(' · ')}</span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </main>
+</Layout>
+
+<style>
+  .guides-head { text-align: center; padding: 26px 20px 4px; }
+  .guides-head h1 { font-family: var(--font-display); font-size: clamp(34px, 6vw, 60px); margin: 0; }
+  .guides-head p { color: var(--ink-soft); margin: 10px auto 0; font-size: 18px; max-width: 680px; }
+  .guide-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; margin: 28px 0 70px; }
+  .guidecard { display: flex; flex-direction: column; background: linear-gradient(180deg, var(--panel), var(--panel-2)); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; text-decoration: none; color: var(--ink); box-shadow: var(--shadow); transition: transform .15s, border-color .15s; }
+  .guidecard:hover { transform: translateY(-3px); border-color: var(--gold); }
+  .guidecard__art { background: #0b1d2e; }
+  .guidecard__art img { width: 100%; display: block; }
+  .guidecard__body { padding: 14px 16px 18px; display: flex; flex-direction: column; gap: 3px; }
+  .gname { font-family: var(--font-display); font-weight: 700; font-size: 24px; }
+  .grole { color: var(--gold); font-weight: 600; font-size: 14px; }
+  .gtours { color: var(--ink-soft); font-size: 13px; margin-top: 6px; line-height: 1.4; }
+</style>

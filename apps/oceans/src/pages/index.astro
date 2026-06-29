@@ -12,6 +12,11 @@ const total = readJSON('index.json').length;
       <h1><b>Microsoft</b><br />Oceans</h1>
       <p>The 1995 ocean explorer, reborn for the web — dive in and meet {total} sea
         creatures, habitats, and wonders of the deep.</p>
+      <nav class="explore-nav" aria-label="Explore Oceans">
+        <a class="btn" href="/browse?tab=zones"><span class="arrow" aria-hidden="true">🌊</span> By Ocean Zone</a>
+        <a class="btn" href="/browse?tab=oceans"><span class="arrow" aria-hidden="true">🗺️</span> By Sea</a>
+        <a class="btn btn--play" href="/guides"><span class="arrow" aria-hidden="true">🧭</span> Guided Tours</a>
+      </nav>
     </div>
 
     {categories.map((cat) => (

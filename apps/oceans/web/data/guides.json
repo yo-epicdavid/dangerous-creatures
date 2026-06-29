@@ -1,0 +1,331 @@
+[
+  {
+    "id": "kim",
+    "name": "Kim",
+    "role": "Solo Sailor",
+    "intro": "Hi, I'm Kim. Ever since I was a little girl, I've dreamed of sailing around the world alone. Now I'm actually going to try it, on my 30-foot sloop, the Serafina. Come share some of the highlights of my voyage.",
+    "art": "assets/guides/kim/portrait.webp",
+    "introAudio": "assets/guides/kim/intro.mp3",
+    "tours": [
+      {
+        "id": "01",
+        "title": "Seattle to Hawaii",
+        "narration": [
+          "assets/guides/kim/01/step01.mp3",
+          "assets/guides/kim/01/step02.mp3",
+          "assets/guides/kim/01/step03.mp3",
+          "assets/guides/kim/01/step04.mp3",
+          "assets/guides/kim/01/step05.mp3",
+          "assets/guides/kim/01/step06.mp3",
+          "assets/guides/kim/01/step07.mp3",
+          "assets/guides/kim/01/step08.mp3"
+        ],
+        "stepCount": 8
+      },
+      {
+        "id": "02",
+        "title": "Hawaii to Australia",
+        "narration": [
+          "assets/guides/kim/02/step01.mp3",
+          "assets/guides/kim/02/step02.mp3",
+          "assets/guides/kim/02/step03.mp3",
+          "assets/guides/kim/02/step04.mp3",
+          "assets/guides/kim/02/step05.mp3",
+          "assets/guides/kim/02/step06.mp3",
+          "assets/guides/kim/02/step07.mp3",
+          "assets/guides/kim/02/step08.mp3"
+        ],
+        "stepCount": 8
+      },
+      {
+        "id": "03",
+        "title": "Australia to Seattle",
+        "narration": [
+          "assets/guides/kim/03/step01.mp3",
+          "assets/guides/kim/03/step02.mp3",
+          "assets/guides/kim/03/step03.mp3",
+          "assets/guides/kim/03/step04.mp3",
+          "assets/guides/kim/03/step05.mp3",
+          "assets/guides/kim/03/step06.mp3",
+          "assets/guides/kim/03/step07.mp3",
+          "assets/guides/kim/03/step08.mp3",
+          "assets/guides/kim/03/step09.mp3"
+        ],
+        "stepCount": 9
+      }
+    ]
+  },
+  {
+    "id": "eli",
+    "name": "Eli",
+    "role": "18th-Century Seaman",
+    "intro": "Hello, mates! The name's Eli. Come along with me and I'll show you the sea the way a sailor knew it two hundred years ago — I'm not sailing alone, not me!",
+    "art": "assets/guides/eli/portrait.webp",
+    "introAudio": "assets/guides/eli/intro.mp3",
+    "tours": [
+      {
+        "id": "04",
+        "title": "Shipping Out",
+        "narration": [
+          "assets/guides/eli/04/step01.mp3",
+          "assets/guides/eli/04/step02.mp3",
+          "assets/guides/eli/04/step03.mp3",
+          "assets/guides/eli/04/step04.mp3",
+          "assets/guides/eli/04/step05.mp3",
+          "assets/guides/eli/04/step06.mp3",
+          "assets/guides/eli/04/step07.mp3",
+          "assets/guides/eli/04/step08.mp3",
+          "assets/guides/eli/04/step09.mp3"
+        ],
+        "stepCount": 9
+      },
+      {
+        "id": "05",
+        "title": "Life at Sea",
+        "narration": [
+          "assets/guides/eli/05/step01.mp3",
+          "assets/guides/eli/05/step02.mp3",
+          "assets/guides/eli/05/step03.mp3",
+          "assets/guides/eli/05/step04.mp3",
+          "assets/guides/eli/05/step05.mp3",
+          "assets/guides/eli/05/step06.mp3",
+          "assets/guides/eli/05/step07.mp3"
+        ],
+        "stepCount": 7
+      },
+      {
+        "id": "06",
+        "title": "Sailing Home",
+        "narration": [
+          "assets/guides/eli/06/step01.mp3",
+          "assets/guides/eli/06/step02.mp3",
+          "assets/guides/eli/06/step03.mp3",
+          "assets/guides/eli/06/step04.mp3",
+          "assets/guides/eli/06/step05.mp3",
+          "assets/guides/eli/06/step06.mp3",
+          "assets/guides/eli/06/step07.mp3"
+        ],
+        "stepCount": 7
+      }
+    ]
+  },
+  {
+    "id": "curtis",
+    "name": "Curtis",
+    "role": "International Rescue Worker",
+    "intro": "My name's Curtis, and I rescue people for a living. When people think about dangers at sea, they think about hurricanes and shipwrecks and sharks — all the spectacular stuff. But it's usually the little things that get people in big trouble. Come along, and I'll show you what I mean.",
+    "art": "assets/guides/curtis/portrait.webp",
+    "introAudio": "assets/guides/curtis/intro.mp3",
+    "tours": [
+      {
+        "id": "07",
+        "title": "Poison!",
+        "narration": [
+          "assets/guides/curtis/07/step01.mp3",
+          "assets/guides/curtis/07/step02.mp3",
+          "assets/guides/curtis/07/step03.mp3",
+          "assets/guides/curtis/07/step04.mp3",
+          "assets/guides/curtis/07/step05.mp3",
+          "assets/guides/curtis/07/step06.mp3",
+          "assets/guides/curtis/07/step07.mp3",
+          "assets/guides/curtis/07/step08.mp3",
+          "assets/guides/curtis/07/step09.mp3"
+        ],
+        "stepCount": 9
+      },
+      {
+        "id": "08",
+        "title": "Overboard!",
+        "narration": [
+          "assets/guides/curtis/08/step01.mp3",
+          "assets/guides/curtis/08/step02.mp3",
+          "assets/guides/curtis/08/step03.mp3",
+          "assets/guides/curtis/08/step04.mp3",
+          "assets/guides/curtis/08/step05.mp3",
+          "assets/guides/curtis/08/step06.mp3",
+          "assets/guides/curtis/08/step07.mp3",
+          "assets/guides/curtis/08/step08.mp3"
+        ],
+        "stepCount": 8
+      },
+      {
+        "id": "09",
+        "title": "Dangers of Diving",
+        "narration": [
+          "assets/guides/curtis/09/step01.mp3",
+          "assets/guides/curtis/09/step02.mp3",
+          "assets/guides/curtis/09/step03.mp3",
+          "assets/guides/curtis/09/step04.mp3",
+          "assets/guides/curtis/09/step05.mp3",
+          "assets/guides/curtis/09/step06.mp3",
+          "assets/guides/curtis/09/step07.mp3"
+        ],
+        "stepCount": 7
+      }
+    ]
+  },
+  {
+    "id": "frank",
+    "name": "Frank",
+    "role": "Beginning Scuba Diver",
+    "intro": "After I retired, I spent too much time around the house. \"Get a hobby,\" my wife Elsie said. So I went looking for something new to do — and I picked scuba diving. You wouldn't believe what's down there. Come along, and I'll show you.",
+    "art": "assets/guides/frank/portrait.webp",
+    "introAudio": "assets/guides/frank/intro.mp3",
+    "tours": [
+      {
+        "id": "10",
+        "title": "A Whole New World",
+        "narration": [
+          "assets/guides/frank/10/step01.mp3",
+          "assets/guides/frank/10/step02.mp3",
+          "assets/guides/frank/10/step03.mp3",
+          "assets/guides/frank/10/step04.mp3",
+          "assets/guides/frank/10/step05.mp3",
+          "assets/guides/frank/10/step06.mp3",
+          "assets/guides/frank/10/step07.mp3"
+        ],
+        "stepCount": 7
+      },
+      {
+        "id": "11",
+        "title": "A Deep Dive",
+        "narration": [
+          "assets/guides/frank/11/step01.mp3",
+          "assets/guides/frank/11/step02.mp3",
+          "assets/guides/frank/11/step03.mp3",
+          "assets/guides/frank/11/step04.mp3",
+          "assets/guides/frank/11/step05.mp3",
+          "assets/guides/frank/11/step06.mp3",
+          "assets/guides/frank/11/step07.mp3",
+          "assets/guides/frank/11/step08.mp3",
+          "assets/guides/frank/11/step09.mp3"
+        ],
+        "stepCount": 9
+      },
+      {
+        "id": "12",
+        "title": "Night Dive",
+        "narration": [
+          "assets/guides/frank/12/step01.mp3",
+          "assets/guides/frank/12/step02.mp3",
+          "assets/guides/frank/12/step03.mp3",
+          "assets/guides/frank/12/step04.mp3",
+          "assets/guides/frank/12/step05.mp3",
+          "assets/guides/frank/12/step06.mp3",
+          "assets/guides/frank/12/step07.mp3",
+          "assets/guides/frank/12/step08.mp3"
+        ],
+        "stepCount": 8
+      }
+    ]
+  },
+  {
+    "id": "zarka",
+    "name": "Zarka",
+    "role": "Alien Visitor",
+    "intro": "Greetings. I am Zarka, a citizen of the planet Maris — a world where intelligent life lives in liquid oceans. My team is studying the water planets of your galaxy. Please accompany me, and assist in our study of your remarkable sea.",
+    "art": "assets/guides/zarka/portrait.webp",
+    "introAudio": "assets/guides/zarka/intro.mp3",
+    "tours": [
+      {
+        "id": "13",
+        "title": "Postcards from Earth",
+        "narration": [
+          "assets/guides/zarka/13/step01.mp3",
+          "assets/guides/zarka/13/step02.mp3",
+          "assets/guides/zarka/13/step03.mp3",
+          "assets/guides/zarka/13/step04.mp3",
+          "assets/guides/zarka/13/step05.mp3",
+          "assets/guides/zarka/13/step06.mp3",
+          "assets/guides/zarka/13/step07.mp3",
+          "assets/guides/zarka/13/step08.mp3",
+          "assets/guides/zarka/13/step09.mp3"
+        ],
+        "stepCount": 9
+      },
+      {
+        "id": "14",
+        "title": "Letters Home",
+        "narration": [
+          "assets/guides/zarka/14/step01.mp3",
+          "assets/guides/zarka/14/step02.mp3",
+          "assets/guides/zarka/14/step03.mp3",
+          "assets/guides/zarka/14/step04.mp3",
+          "assets/guides/zarka/14/step05.mp3",
+          "assets/guides/zarka/14/step06.mp3",
+          "assets/guides/zarka/14/step07.mp3",
+          "assets/guides/zarka/14/step08.mp3",
+          "assets/guides/zarka/14/step09.mp3"
+        ],
+        "stepCount": 9
+      },
+      {
+        "id": "15",
+        "title": "A Perplexing Planet",
+        "narration": [
+          "assets/guides/zarka/15/step01.mp3",
+          "assets/guides/zarka/15/step02.mp3",
+          "assets/guides/zarka/15/step03.mp3",
+          "assets/guides/zarka/15/step04.mp3",
+          "assets/guides/zarka/15/step05.mp3",
+          "assets/guides/zarka/15/step06.mp3",
+          "assets/guides/zarka/15/step07.mp3"
+        ],
+        "stepCount": 7
+      }
+    ]
+  },
+  {
+    "id": "rebecca",
+    "name": "Rebecca",
+    "role": "Oceanographer",
+    "intro": "Hi, my name is Rebecca, and I'm an oceanographer. Come along, and let me share with you some of the amazing things I've learned about the sea.",
+    "art": "assets/guides/rebecca/portrait.webp",
+    "introAudio": "assets/guides/rebecca/intro.mp3",
+    "tours": [
+      {
+        "id": "16",
+        "title": "Outer Space and Inner Space",
+        "narration": [
+          "assets/guides/rebecca/16/step01.mp3",
+          "assets/guides/rebecca/16/step02.mp3",
+          "assets/guides/rebecca/16/step03.mp3",
+          "assets/guides/rebecca/16/step04.mp3",
+          "assets/guides/rebecca/16/step05.mp3",
+          "assets/guides/rebecca/16/step06.mp3",
+          "assets/guides/rebecca/16/step07.mp3",
+          "assets/guides/rebecca/16/step08.mp3"
+        ],
+        "stepCount": 8
+      },
+      {
+        "id": "17",
+        "title": "Currents, Tides, and Animals",
+        "narration": [
+          "assets/guides/rebecca/17/step01.mp3",
+          "assets/guides/rebecca/17/step02.mp3",
+          "assets/guides/rebecca/17/step03.mp3",
+          "assets/guides/rebecca/17/step04.mp3",
+          "assets/guides/rebecca/17/step05.mp3",
+          "assets/guides/rebecca/17/step06.mp3",
+          "assets/guides/rebecca/17/step07.mp3"
+        ],
+        "stepCount": 7
+      },
+      {
+        "id": "18",
+        "title": "Career Paths",
+        "narration": [
+          "assets/guides/rebecca/18/step01.mp3",
+          "assets/guides/rebecca/18/step02.mp3",
+          "assets/guides/rebecca/18/step03.mp3",
+          "assets/guides/rebecca/18/step04.mp3",
+          "assets/guides/rebecca/18/step05.mp3",
+          "assets/guides/rebecca/18/step06.mp3",
+          "assets/guides/rebecca/18/step07.mp3"
+        ],
+        "stepCount": 7
+      }
+    ]
+  }
+]
