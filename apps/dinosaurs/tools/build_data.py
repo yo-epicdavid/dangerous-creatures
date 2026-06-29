@@ -147,9 +147,11 @@ def main():
             "_provenance": PROV,
         }
         if audio.get("pron") and os.path.exists(os.path.join(WEB, "assets", slug, f"{code}00AP.mp3")):
-            page["sayIt"] = asset(slug, f"{code}00AP.mp3")     # name pronunciation -> "Say it"
+            page["sayIt"] = asset(slug, f"{code}00AP.mp3")      # name pronunciation -> "Say it"
+        if audio.get("jump") and os.path.exists(os.path.join(WEB, "assets", slug, f"{code}00AJ.mp3")):
+            page["narration"] = asset(slug, f"{code}00AJ.mp3")  # spoken entry summary -> "Listen" (all 166)
         if audio.get("scene") and os.path.exists(os.path.join(WEB, "assets", slug, f"{code}00SA.mp3")):
-            page["narration"] = asset(slug, f"{code}00SA.mp3")  # scene narration -> "Listen"
+            page["sound"] = asset(slug, f"{code}00SA.mp3")      # dramatic scene sound effect -> "Hear it" (52)
 
         page = clean(page)
         json.dump(page, open(os.path.join(DATA, f"{slug}.json"), "w"), indent=2, ensure_ascii=False)

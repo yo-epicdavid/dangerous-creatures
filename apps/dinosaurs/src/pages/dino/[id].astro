@@ -45,9 +45,10 @@ const crosslinks = (d.crosslinks || []).filter((c) => c.to);
 
       <p class="tagline">{d.tagline}</p>
 
-      {d.narration && (
+      {(d.narration || d.sound) && (
         <p class="hear-row">
-          <button class="mini-listen" data-listen={asset(d.narration)} aria-label="Listen to the introduction"><span class="arrow" aria-hidden="true">▶</span> Listen</button>
+          {d.narration && <button class="mini-listen" data-listen={asset(d.narration)} aria-label={`Listen to the ${d.name} summary`}><span class="arrow" aria-hidden="true">▶</span> Listen</button>}
+          {d.sound && <button class="mini-listen sound" id="hear-sound" aria-label="Hear the scene sound">🔊 Hear it</button>}
         </p>
       )}
 
@@ -150,7 +151,17 @@ const crosslinks = (d.crosslinks || []).filter((c) => c.to);
     const sayBtn = document.getElementById('say-it');
     if (sayBtn && sayIt) sayBtn.addEventListener('click', () => {
       if (clipBtn && !clip.paused) { clip.pause(); clearClip(); }
+      if (sound) sound.pause();
       sayIt.currentTime = 0; sayIt.play().catch(() => {});
+    });
+
+    // dramatic scene sound (AUDSCENE) — the "Hear it" button
+    const sound = data.sound ? new Audio(asset(data.sound)) : null;
+    const hearBtn = document.getElementById('hear-sound');
+    if (hearBtn && sound) hearBtn.addEventListener('click', () => {
+      if (clipBtn && !clip.paused) { clip.pause(); clearClip(); }
+      if (sayIt) sayIt.pause();
+      sound.currentTime = 0; sound.play().catch(() => {});
     });
 
     function renderClassic() {
@@ -208,6 +219,7 @@ const crosslinks = (d.crosslinks || []).filter((c) => c.to);
       b.addEventListener('click', () => {
         if (clipBtn === b && !clip.paused) { clip.pause(); clearClip(); return; }
         if (sayIt) sayIt.pause();
+        if (sound) sound.pause();
         if (clipBtn) clipBtn.classList.remove('playing');
         clip.src = b.getAttribute('data-listen');
         clip.play().catch(() => {});
@@ -223,5 +235,5 @@ const crosslinks = (d.crosslinks || []).filter((c) => c.to);
   .dino-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin: 16px 0 2px; }
   .dino-meta .pron { font-size: 18px; color: var(--gold); font-weight: 600; letter-spacing: .3px; }
   .dino-meta .meaning { color: var(--ink-soft); font-style: italic; }
-  .mini-listen.say { background: var(--panel-2); }
+  .mini-listen.say { background: var(--green); border-color: var(--green); color: #0e1408; }
 </style>

@@ -108,9 +108,9 @@ const pool = listEntries()
   .game .sub { color: var(--ink-soft); margin: 0 0 16px; }
   .scorebar { display: flex; justify-content: center; gap: 26px; font-weight: 700; color: var(--gold); margin: 0 0 18px; }
   .riddle { font-size: clamp(20px, 3.4vw, 28px); line-height: 1.4; background: linear-gradient(180deg, var(--panel), var(--panel-2)); border: 1px solid var(--line); border-radius: var(--radius); padding: 26px 22px; box-shadow: var(--shadow); min-height: 96px; display: flex; align-items: center; justify-content: center; }
-  .options { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 20px 0; }
-  .opt { appearance: none; cursor: pointer; border: 2px solid var(--line); background: var(--panel-2); color: var(--ink); padding: 24px 20px; border-radius: 16px; font-size: clamp(19px, 2.4vw, 24px); font-weight: 700; min-height: 84px; line-height: 1.25; transition: .12s; }
-  .opt:hover:not(:disabled) { border-color: var(--gold); transform: translateY(-2px); }
+  .options { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 22px 0; }
+  .opt { appearance: none; cursor: pointer; border: 2px solid var(--line); background: linear-gradient(180deg, var(--panel), var(--panel-2)); color: var(--ink); padding: 28px 22px; border-radius: 22px; font-size: clamp(20px, 2.6vw, 26px); font-weight: 700; min-height: 96px; line-height: 1.25; box-shadow: 0 4px 14px #0003; transition: transform .12s ease, border-color .12s ease, box-shadow .12s ease, background .12s ease; }
+  .opt:hover:not(:disabled) { border-color: var(--gold); background: linear-gradient(180deg, var(--panel-2), var(--panel)); transform: translateY(-3px); box-shadow: 0 10px 26px -8px var(--gold); }
   .opt:disabled { cursor: default; opacity: .85; }
   .opt.correct { background: var(--green); color: #06251c; border-color: transparent; }
   .opt.wrong { background: var(--rust); color: #fff; border-color: transparent; }
