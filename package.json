@@ -9,6 +9,8 @@
     "dc:dev": "pnpm --filter dangerous-creatures dev",
     "dc:build": "pnpm --filter dangerous-creatures build",
     "oceans:dev": "pnpm --filter oceans dev",
-    "oceans:build": "pnpm --filter oceans build"
+    "oceans:build": "pnpm --filter oceans build",
+    "dino:dev": "pnpm --filter dinosaurs dev",
+    "dino:build": "pnpm --filter dinosaurs build"
   }
 }

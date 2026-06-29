@@ -20,3 +20,6 @@ dist/
 
 # generated liberation workflow scripts (regenerate via gen_workflow.py)
 apps/*/tools/wf_*.js
+
+# Dinosaurs raw extracted media — intermediate; optimized webp committed later
+apps/dinosaurs/web/assets/

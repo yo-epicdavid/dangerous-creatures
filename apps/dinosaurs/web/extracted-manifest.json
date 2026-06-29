@@ -1,0 +1,2766 @@
+{
+  "aftr": {
+    "code": "AFTR",
+    "screens": [
+      "AFTR00AA",
+      "AFTR01PU",
+      "AFTR02PU",
+      "AFTR03PU",
+      "AFTR04PU",
+      "AFTR05PU",
+      "AFTR06PU",
+      "AFTR07PU"
+    ],
+    "audio": {
+      "pron": "AFTR00AP",
+      "scene": "AFTR00SA",
+      "jump": "AFTR00AJ"
+    },
+    "video": null
+  },
+  "albe": {
+    "code": "ALBE",
+    "screens": [
+      "ALBE00AA",
+      "ALBE01PU",
+      "ALBE02PU",
+      "ALBE03PU",
+      "ALBE04PU",
+      "ALBE50FB"
+    ],
+    "audio": {
+      "pron": "ALBE00AP",
+      "jump": "ALBE00AJ"
+    },
+    "video": null
+  },
+  "allo": {
+    "code": "ALLO",
+    "screens": [
+      "ALLO00AA",
+      "ALLO01PU",
+      "ALLO02PU",
+      "ALLO03PU",
+      "ALLO04PU",
+      "ALLO05PU",
+      "ALLO07PU",
+      "ALLO08PU",
+      "ALLO09PU",
+      "ALLO50FB"
+    ],
+    "audio": {
+      "pron": "ALLO00AP",
+      "jump": "ALLO00AJ"
+    },
+    "video": null
+  },
+  "amer": {
+    "code": "AMER",
+    "screens": [
+      "AMER00AA",
+      "AMER01PU",
+      "AMER02PU",
+      "AMER03PU",
+      "AMER05PU",
+      "AMER06PU",
+      "AMER07PU",
+      "AMER08PU"
+    ],
+    "audio": {
+      "pron": "AMER00AP",
+      "jump": "AMER00AJ"
+    },
+    "video": null
+  },
+  "ammo": {
+    "code": "AMMO",
+    "screens": [
+      "AMMO00AA",
+      "AMMO01PU",
+      "AMMO02PU",
+      "AMMO03PU",
+      "AMMO04PU",
+      "AMMO05PU",
+      "AMMO06PU",
+      "AMMO50FB"
+    ],
+    "audio": {
+      "pron": "AMMO00AP",
+      "jump": "AMMO00AJ"
+    },
+    "video": null
+  },
+  "anch": {
+    "code": "ANCH",
+    "screens": [
+      "ANCH00AA",
+      "ANCH01PU",
+      "ANCH02PU",
+      "ANCH50FB"
+    ],
+    "audio": {
+      "pron": "ANCH00AP",
+      "jump": "ANCH00AJ"
+    },
+    "video": null
+  },
+  "ankl": {
+    "code": "ANKL",
+    "screens": [
+      "ANKL00AA",
+      "ANKL01PU",
+      "ANKL02PU",
+      "ANKL50FB"
+    ],
+    "audio": {
+      "pron": "ANKL00AP",
+      "jump": "ANKL00AJ"
+    },
+    "video": null
+  },
+  "anta": {
+    "code": "ANTA",
+    "screens": [
+      "ANTA00AA",
+      "ANTA01PU",
+      "ANTA02PU",
+      "ANTA03PU"
+    ],
+    "audio": {
+      "pron": "ANTA00AP",
+      "scene": "ANTA00SA",
+      "jump": "ANTA00AJ"
+    },
+    "video": null
+  },
+  "apat": {
+    "code": "APAT",
+    "screens": [
+      "APAT00AA",
+      "APAT01PU",
+      "APAT02PU",
+      "APAT03PU",
+      "APAT04PU",
+      "APAT05PU",
+      "APAT06PU",
+      "APAT07PU",
+      "APAT08PU",
+      "APAT09PU",
+      "APAT10PU",
+      "APAT11PU",
+      "APAT50FB"
+    ],
+    "audio": {
+      "pron": "APAT00AP",
+      "jump": "APAT00AJ"
+    },
+    "video": null
+  },
+  "arch": {
+    "code": "ARCH",
+    "screens": [
+      "ARCH00AA",
+      "ARCH01PU",
+      "ARCH02PU",
+      "ARCH03PU",
+      "ARCH04PU",
+      "ARCH05PU",
+      "ARCH06PU",
+      "ARCH07PU",
+      "ARCH08PU",
+      "ARCH50FB"
+    ],
+    "audio": {
+      "pron": "ARCH00AP",
+      "jump": "ARCH00AJ"
+    },
+    "video": null
+  },
+  "arcn": {
+    "code": "ARCN",
+    "screens": [
+      "ARCN00AA",
+      "ARCN01PU",
+      "ARCN02PU",
+      "ARCN03PU",
+      "ARCN04P1",
+      "ARCN04P2",
+      "ARCN04P3",
+      "ARCN04P4",
+      "ARCN04P5",
+      "ARCN04P6",
+      "ARCN04P7",
+      "ARCN04P8",
+      "ARCN05PU",
+      "ARCN50FB"
+    ],
+    "audio": {
+      "pron": "ARCN00AP",
+      "jump": "ARCN00AJ"
+    },
+    "video": null
+  },
+  "armr": {
+    "code": "ARMR",
+    "screens": [
+      "ARMR00AA",
+      "ARMR01PU",
+      "ARMR02PU",
+      "ARMR03PU",
+      "ARMR04PU",
+      "ARMR05PU"
+    ],
+    "audio": {
+      "pron": "ARMR00AP",
+      "scene": "ARMR00SA",
+      "jump": "ARMR00AJ"
+    },
+    "video": null
+  },
+  "bact": {
+    "code": "BACT",
+    "screens": [
+      "BACT00AA",
+      "BACT01PU",
+      "BACT50FB"
+    ],
+    "audio": {
+      "pron": "BACT00AP",
+      "jump": "BACT00AJ"
+    },
+    "video": null
+  },
+  "baro": {
+    "code": "BARO",
+    "screens": [
+      "BARO00AA",
+      "BARO01PU",
+      "BARO02PU",
+      "BARO50FB"
+    ],
+    "audio": {
+      "pron": "BARO00AP",
+      "jump": "BARO00AJ"
+    },
+    "video": null
+  },
+  "bary": {
+    "code": "BARY",
+    "screens": [
+      "BARY00AA",
+      "BARY01PU",
+      "BARY02PU",
+      "BARY03PU",
+      "BARY04PU",
+      "BARY05PU",
+      "BARY06PU",
+      "BARY07PU",
+      "BARY08PU",
+      "BARY09PU",
+      "BARY10PU",
+      "BARY11PU",
+      "BARY50FB"
+    ],
+    "audio": {
+      "pron": "BARY00AP",
+      "jump": "BARY00AJ"
+    },
+    "video": null
+  },
+  "befr": {
+    "code": "BEFR",
+    "screens": [
+      "BEFR00AA",
+      "BEFR01PU",
+      "BEFR02PU",
+      "BEFR03PU",
+      "BEFR04PU",
+      "BEFR05PU"
+    ],
+    "audio": {
+      "pron": "BEFR00AP",
+      "scene": "BEFR00SA",
+      "jump": "BEFR00AJ"
+    },
+    "video": null
+  },
+  "bird": {
+    "code": "BIRD",
+    "screens": [
+      "BIRD00AA",
+      "BIRD01PU",
+      "BIRD02PU",
+      "BIRD03PU",
+      "BIRD04PU",
+      "BIRD05PU",
+      "BIRD06PU",
+      "BIRD07PU",
+      "BIRD08PU"
+    ],
+    "audio": {
+      "pron": "BIRD00AP",
+      "scene": "BIRD00SA",
+      "jump": "BIRD00AJ"
+    },
+    "video": null
+  },
+  "birt": {
+    "code": "BIRT",
+    "screens": [
+      "BIRT00AA",
+      "BIRT01PU",
+      "BIRT02PU",
+      "BIRT03PU",
+      "BIRT04PU",
+      "BIRT05PU",
+      "BIRT06PU"
+    ],
+    "audio": {
+      "pron": "BIRT00AP",
+      "scene": "BIRT00SA",
+      "jump": "BIRT00AJ"
+    },
+    "video": null
+  },
+  "brac": {
+    "code": "BRAC",
+    "screens": [
+      "BRAC00AA",
+      "BRAC01PU",
+      "BRAC02PU",
+      "BRAC03PU",
+      "BRAC04PU",
+      "BRAC05PU",
+      "BRAC06PU",
+      "BRAC07PU",
+      "BRAC50FB"
+    ],
+    "audio": {
+      "pron": "BRAC00AP",
+      "jump": "BRAC00AJ"
+    },
+    "video": null
+  },
+  "bron": {
+    "code": "BRON",
+    "screens": [
+      "BRON00AA",
+      "BRON01PU",
+      "BRON02PU",
+      "BRON03PU"
+    ],
+    "audio": {
+      "pron": "BRON00AP",
+      "scene": "BRON00SA",
+      "jump": "BRON00AJ"
+    },
+    "video": null
+  },
+  "cama": {
+    "code": "CAMA",
+    "screens": [
+      "CAMA00AA",
+      "CAMA01PU",
+      "CAMA02PU",
+      "CAMA03PU",
+      "CAMA04PU",
+      "CAMA05PU",
+      "CAMA06PU",
+      "CAMA07PU",
+      "CAMA08PU",
+      "CAMA09PU",
+      "CAMA10PU",
+      "CAMA11PU",
+      "CAMA12PU",
+      "CAMA50FB"
+    ],
+    "audio": {
+      "pron": "CAMA00AP",
+      "jump": "CAMA00AJ"
+    },
+    "video": null
+  },
+  "carn": {
+    "code": "CARN",
+    "screens": [
+      "CARN00AA",
+      "CARN01PU",
+      "CARN02PU",
+      "CARN03PU",
+      "CARN04PU"
+    ],
+    "audio": {
+      "pron": "CARN00AP",
+      "scene": "CARN00SA",
+      "jump": "CARN00AJ"
+    },
+    "video": null
+  },
+  "cdac": {
+    "code": "CDAC",
+    "screens": [
+      "CDAC00AA",
+      "CDAC01PU",
+      "CDAC50FB"
+    ],
+    "audio": {
+      "pron": "CDAC00AP",
+      "jump": "CDAC00AJ"
+    },
+    "video": null
+  },
+  "cent": {
+    "code": "CENT",
+    "screens": [
+      "CENT00AA",
+      "CENT01PU",
+      "CENT02PU",
+      "CENT03PU",
+      "CENT04PU",
+      "CENT05PU",
+      "CENT06PU",
+      "CENT07PU",
+      "CENT50FB"
+    ],
+    "audio": {
+      "pron": "CENT00AP",
+      "jump": "CENT00AJ"
+    },
+    "video": null
+  },
+  "cera": {
+    "code": "CERA",
+    "screens": [
+      "CERA00AA",
+      "CERA01PU",
+      "CERA50FB"
+    ],
+    "audio": {
+      "pron": "CERA00AP",
+      "jump": "CERA00AJ"
+    },
+    "video": null
+  },
+  "chas": {
+    "code": "CHAS",
+    "screens": [
+      "CHAS00AA",
+      "CHAS01PU",
+      "CHAS02PU",
+      "CHAS50FB"
+    ],
+    "audio": {
+      "pron": "CHAS00AP",
+      "jump": "CHAS00AJ"
+    },
+    "video": null
+  },
+  "claw": {
+    "code": "CLAW",
+    "screens": [
+      "CLAW00AA",
+      "CLAW01PU",
+      "CLAW02PU",
+      "CLAW03PU",
+      "CLAW04PU",
+      "CLAW05PU"
+    ],
+    "audio": {
+      "pron": "CLAW00AP",
+      "jump": "CLAW00AJ"
+    },
+    "video": null
+  },
+  "coel": {
+    "code": "COEL",
+    "screens": [
+      "COEL00AA",
+      "COEL01PU",
+      "COEL02PU",
+      "COEL03PU",
+      "COEL04PU",
+      "COEL05PU",
+      "COEL06PU",
+      "COEL50FB"
+    ],
+    "audio": {
+      "pron": "COEL00AP",
+      "jump": "COEL00AJ"
+    },
+    "video": null
+  },
+  "comp": {
+    "code": "COMP",
+    "screens": [
+      "COMP00AA",
+      "COMP01PU",
+      "COMP02PU",
+      "COMP03PU",
+      "COMP04PU",
+      "COMP05PU",
+      "COMP06PU",
+      "COMP07PU",
+      "COMP08PU",
+      "COMP09PU",
+      "COMP50FB"
+    ],
+    "audio": {
+      "pron": "COMP00AP",
+      "jump": "COMP00AJ"
+    },
+    "video": null
+  },
+  "cory": {
+    "code": "CORY",
+    "screens": [
+      "CORY00AA",
+      "CORY01PU",
+      "CORY02PU",
+      "CORY03PU",
+      "CORY04PU",
+      "CORY05PU",
+      "CORY06PU",
+      "CORY07PU",
+      "CORY50FB"
+    ],
+    "audio": {
+      "pron": "CORY00AP",
+      "scene": "CORY00SA",
+      "jump": "CORY00AJ"
+    },
+    "video": null
+  },
+  "coth": {
+    "code": "COTH",
+    "screens": [
+      "COTH00AA",
+      "COTH01PU",
+      "COTH02PU",
+      "COTH50FB"
+    ],
+    "audio": {
+      "pron": "COTH00AP",
+      "jump": "COTH00AJ"
+    },
+    "video": null
+  },
+  "cove": {
+    "code": "COVE",
+    "screens": [
+      "COVE00AA",
+      "COVE01PU",
+      "COVE02PU",
+      "COVE03PU"
+    ],
+    "audio": {
+      "pron": "COVE00AP",
+      "scene": "COVE00SA",
+      "jump": "COVE00AJ"
+    },
+    "video": null
+  },
+  "cret": {
+    "code": "CRET",
+    "screens": [
+      "CRET00AA",
+      "CRET01PU",
+      "CRET02PU",
+      "CRET03PU",
+      "CRET04PU",
+      "CRET05PU",
+      "CRET06PU",
+      "CRET07PU"
+    ],
+    "audio": {
+      "pron": "CRET00AP",
+      "scene": "CRET00SA",
+      "jump": "CRET00AJ"
+    },
+    "video": null
+  },
+  "cyno": {
+    "code": "CYNO",
+    "screens": [
+      "CYNO00AA",
+      "CYNO01PU",
+      "CYNO02PU",
+      "CYNO50FB"
+    ],
+    "audio": {
+      "pron": "CYNO00AP",
+      "jump": "CYNO00AJ"
+    },
+    "video": null
+  },
+  "davi": {
+    "code": "DAVI",
+    "screens": [
+      "DAVI00AA",
+      "DAVI01PU",
+      "DAVI02PU",
+      "DAVI50FB"
+    ],
+    "audio": {
+      "pron": "DAVI00AP",
+      "jump": "DAVI00AJ"
+    },
+    "video": null
+  },
+  "ddec": {
+    "code": "DDEC",
+    "screens": [
+      "DDEC00AA",
+      "DDEC01PU",
+      "DDEC02PU",
+      "DDEC03PU",
+      "DDEC04PU",
+      "DDEC05PU",
+      "DDEC06PU",
+      "DDEC07PU",
+      "DDEC08PU",
+      "DDEC09PU"
+    ],
+    "audio": {
+      "pron": "DDEC00AP",
+      "scene": "DDEC00SA",
+      "jump": "DDEC00AJ"
+    },
+    "video": null
+  },
+  "ddef": {
+    "code": "DDEF",
+    "screens": [
+      "DDEF00AA",
+      "DDEF01PU",
+      "DDEF02PU",
+      "DDEF03PU",
+      "DDEF04PU",
+      "DDEF05PU"
+    ],
+    "audio": {
+      "pron": "DDEF00AP",
+      "scene": "DDEF00SA",
+      "jump": "DDEF00AJ"
+    },
+    "video": null
+  },
+  "dein": {
+    "code": "DEIN",
+    "screens": [
+      "DEIN00AA",
+      "DEIN01PU",
+      "DEIN02PU",
+      "DEIN03PU",
+      "DEIN04PU",
+      "DEIN05PU",
+      "DEIN06PU",
+      "DEIN07PU",
+      "DEIN08PU",
+      "DEIN50FB"
+    ],
+    "audio": {
+      "pron": "DEIN00AP",
+      "jump": "DEIN00AJ"
+    },
+    "video": null
+  },
+  "desc": {
+    "code": "DESC",
+    "screens": [
+      "DESC00AA",
+      "DESC01PU",
+      "DESC02PU",
+      "DESC03PU",
+      "DESC04PU",
+      "DESC05PU"
+    ],
+    "audio": {
+      "pron": "DESC00AP",
+      "scene": "DESC00SA",
+      "jump": "DESC00AJ"
+    },
+    "video": null
+  },
+  "dhus": {
+    "code": "DHUS",
+    "screens": [
+      "DHUS00AA",
+      "DHUS01PU",
+      "DHUS02PU",
+      "DHUS03PU",
+      "DHUS50FB"
+    ],
+    "audio": {
+      "pron": "DHUS00AP",
+      "jump": "DHUS00AJ"
+    },
+    "video": null
+  },
+  "diet": {
+    "code": "DIET",
+    "screens": [
+      "DIET00AA",
+      "DIET01PU",
+      "DIET02PU",
+      "DIET03PU",
+      "DIET04PU",
+      "DIET05PU",
+      "DIET06PU"
+    ],
+    "audio": {
+      "pron": "DIET00AP",
+      "scene": "DIET00SA",
+      "jump": "DIET00AJ"
+    },
+    "video": null
+  },
+  "digg": {
+    "code": "DIGG",
+    "screens": [
+      "DIGG00AA",
+      "DIGG01PU",
+      "DIGG02PU",
+      "DIGG03PU",
+      "DIGG04PU",
+      "DIGG05PU"
+    ],
+    "audio": {
+      "pron": "DIGG00AP",
+      "scene": "DIGG00SA",
+      "jump": "DIGG00AJ"
+    },
+    "video": null
+  },
+  "dilo": {
+    "code": "DILO",
+    "screens": [
+      "DILO00AA",
+      "DILO01PU",
+      "DILO50FB"
+    ],
+    "audio": {
+      "pron": "DILO00AP",
+      "jump": "DILO00AJ"
+    },
+    "video": null
+  },
+  "dime": {
+    "code": "DIME",
+    "screens": [
+      "DIME00AA",
+      "DIME01PU",
+      "DIME02PU",
+      "DIME50FB"
+    ],
+    "audio": {
+      "pron": "DIME00AP",
+      "jump": "DIME00AJ"
+    },
+    "video": null
+  },
+  "dimo": {
+    "code": "DIMO",
+    "screens": [
+      "DIMO00AA",
+      "DIMO01PU",
+      "DIMO50FB"
+    ],
+    "audio": {
+      "pron": "DIMO00AP",
+      "jump": "DIMO00AJ"
+    },
+    "video": null
+  },
+  "dipl": {
+    "code": "DIPL",
+    "screens": [
+      "DIPL00AA",
+      "DIPL01PU",
+      "DIPL02PU",
+      "DIPL03PU",
+      "DIPL04PU",
+      "DIPL05PU",
+      "DIPL06PU",
+      "DIPL07PU",
+      "DIPL08PU",
+      "DIPL09PU",
+      "DIPL10PU",
+      "DIPL50FB"
+    ],
+    "audio": {
+      "pron": "DIPL00AP",
+      "jump": "DIPL00AJ"
+    },
+    "video": null
+  },
+  "dlan": {
+    "code": "DLAN",
+    "screens": [
+      "DLAN00AA",
+      "DLAN01PU",
+      "DLAN02PU",
+      "DLAN03PU",
+      "DLAN04PU"
+    ],
+    "audio": {
+      "pron": "DLAN00AP",
+      "scene": "DLAN00SA",
+      "jump": "DLAN00AJ"
+    },
+    "video": null
+  },
+  "dnmu": {
+    "code": "DNMU",
+    "screens": [
+      "DNMU00AA",
+      "DNMU01PU",
+      "DNMU02PU",
+      "DNMU03PU",
+      "DNMU04PU"
+    ],
+    "audio": {
+      "pron": "DNMU00AP",
+      "jump": "DNMU00AJ"
+    },
+    "video": null
+  },
+  "drom": {
+    "code": "DROM",
+    "screens": [
+      "DROM00AA",
+      "DROM01PU",
+      "DROM02PU",
+      "DROM50FB"
+    ],
+    "audio": {
+      "pron": "DROM00AP",
+      "jump": "DROM00AJ"
+    },
+    "video": null
+  },
+  "dryo": {
+    "code": "DRYO",
+    "screens": [
+      "DRYO00AA",
+      "DRYO01PU",
+      "DRYO50FB"
+    ],
+    "audio": {
+      "pron": "DRYO00AP",
+      "jump": "DRYO00AJ"
+    },
+    "video": null
+  },
+  "dsoc": {
+    "code": "DSOC",
+    "screens": [
+      "DSOC00AA",
+      "DSOC01PU",
+      "DSOC02PU",
+      "DSOC03PU",
+      "DSOC04PU",
+      "DSOC05PU"
+    ],
+    "audio": {
+      "pron": "DSOC00AP",
+      "jump": "DSOC00AJ"
+    },
+    "video": null
+  },
+  "edet": {
+    "code": "EDET",
+    "screens": [
+      "EDET00AA",
+      "EDET01PU",
+      "EDET02PU",
+      "EDET03PU",
+      "EDET04PU",
+      "EDET05PU",
+      "EDET06PU",
+      "EDET07PU",
+      "EDET08PU",
+      "EDET09PU"
+    ],
+    "audio": {
+      "pron": "EDET00AP",
+      "scene": "EDET00SA",
+      "jump": "EDET00AJ"
+    },
+    "video": null
+  },
+  "edmo": {
+    "code": "EDMO",
+    "screens": [
+      "EDMO00AA",
+      "EDMO01PU",
+      "EDMO02PU",
+      "EDMO03PU",
+      "EDMO04PU",
+      "EDMO05PU",
+      "EDMO06PU",
+      "EDMO50FB"
+    ],
+    "audio": {
+      "pron": "EDMO00AP",
+      "jump": "EDMO00AJ"
+    },
+    "video": null
+  },
+  "elas": {
+    "code": "ELAS",
+    "screens": [
+      "ELAS00AA",
+      "ELAS01PU",
+      "ELAS02PU",
+      "ELAS03PU",
+      "ELAS50FB"
+    ],
+    "audio": {
+      "pron": "ELAS00AP",
+      "jump": "ELAS00AJ"
+    },
+    "video": null
+  },
+  "eryo": {
+    "code": "ERYO",
+    "screens": [
+      "ERYO00AA",
+      "ERYO01PU",
+      "ERYO02PU",
+      "ERYO50FB"
+    ],
+    "audio": {
+      "pron": "ERYO00AP",
+      "jump": "ERYO00AJ"
+    },
+    "video": null
+  },
+  "eudi": {
+    "code": "EUDI",
+    "screens": [
+      "EUDI00AA",
+      "EUDI01PU",
+      "EUDI02PU",
+      "EUDI03PU",
+      "EUDI50FB"
+    ],
+    "audio": {
+      "pron": "EUDI00AP",
+      "jump": "EUDI00AJ"
+    },
+    "video": null
+  },
+  "euop": {
+    "code": "EUOP",
+    "screens": [
+      "EUOP00AA",
+      "EUOP01PU",
+      "EUOP02PU",
+      "EUOP03PU",
+      "EUOP04PU",
+      "EUOP05PU",
+      "EUOP06PU",
+      "EUOP07PU",
+      "EUOP50FB"
+    ],
+    "audio": {
+      "pron": "EUOP00AP",
+      "jump": "EUOP00AJ"
+    },
+    "video": null
+  },
+  "exti": {
+    "code": "EXTI",
+    "screens": [
+      "EXTI00AA",
+      "EXTI01PU",
+      "EXTI02PU",
+      "EXTI03PU",
+      "EXTI04PU",
+      "EXTI05PU"
+    ],
+    "audio": {
+      "pron": "EXTI00AP",
+      "scene": "EXTI00SA",
+      "jump": "EXTI00AJ"
+    },
+    "video": null
+  },
+  "extt": {
+    "code": "EXTT",
+    "screens": [
+      "EXTT00AA",
+      "EXTT01AA",
+      "EXTT04PU",
+      "EXTT05PU",
+      "EXTT06PU",
+      "EXTT07PU",
+      "EXTT08PU",
+      "EXTT09PU",
+      "EXTT10PU",
+      "EXTT11PU",
+      "EXTT12PU",
+      "EXTT13PU",
+      "EXTT14PU",
+      "EXTT15PU",
+      "EXTT16PU",
+      "EXTT17PU",
+      "EXTT18PU",
+      "EXTT19PU",
+      "EXTT20PU",
+      "EXTT21PU",
+      "EXTT22PU",
+      "EXTT23PU",
+      "EXTT24PU",
+      "EXTT25PU",
+      "EXTT26PU",
+      "EXTT27PU",
+      "EXTT28PU",
+      "EXTT29PU",
+      "EXTT31PU",
+      "EXTT32PU",
+      "EXTT33PU",
+      "EXTT34PU"
+    ],
+    "audio": {
+      "pron": "EXTT00AP",
+      "jump": "EXTT00AJ"
+    },
+    "video": null
+  },
+  "find": {
+    "code": "FIND",
+    "screens": [
+      "FIND00AA",
+      "FIND01PU",
+      "FIND02PU",
+      "FIND03PU",
+      "FIND04PU",
+      "FIND05PU",
+      "FIND06PU",
+      "FIND07PU"
+    ],
+    "audio": {
+      "pron": "FIND00AP",
+      "jump": "FIND00AJ"
+    },
+    "video": null
+  },
+  "foot": {
+    "code": "FOOT",
+    "screens": [
+      "FOOT00AA",
+      "FOOT01PU",
+      "FOOT02PU",
+      "FOOT03PU",
+      "FOOT04PU"
+    ],
+    "audio": {
+      "pron": "FOOT00AP",
+      "scene": "FOOT00SA",
+      "jump": "FOOT00AJ"
+    },
+    "video": null
+  },
+  "foss": {
+    "code": "FOSS",
+    "screens": [
+      "FOSS00AA",
+      "FOSS01PU",
+      "FOSS02PU",
+      "FOSS03PU",
+      "FOSS04PU",
+      "FOSS05PU",
+      "FOSS06PU"
+    ],
+    "audio": {
+      "pron": "FOSS00AP",
+      "jump": "FOSS00AJ"
+    },
+    "video": null
+  },
+  "ftfa": {
+    "code": "FTFA",
+    "screens": [
+      "FTFA00AA",
+      "FTFA01PU",
+      "FTFA02PU",
+      "FTFA03PU",
+      "FTFA04PU",
+      "FTFA05PU",
+      "FTFA06PU",
+      "FTFA07PU",
+      "FTFA08PU"
+    ],
+    "audio": {
+      "pron": "FTFA00AP",
+      "scene": "FTFA00SA",
+      "jump": "FTFA00AJ"
+    },
+    "video": null
+  },
+  "ftfb": {
+    "code": "FTFB",
+    "screens": [
+      "FTFB00AA",
+      "FTFB01PU",
+      "FTFB02PU",
+      "FTFB03PU",
+      "FTFB04PU",
+      "FTFB05PU",
+      "FTFB06PU",
+      "FTFB07PU",
+      "FTFB08PU",
+      "FTFB09PU",
+      "FTFB10PU"
+    ],
+    "audio": {
+      "pron": "FTFB00AP",
+      "scene": "FTFB00SA",
+      "jump": "FTFB00AJ"
+    },
+    "video": null
+  },
+  "gall": {
+    "code": "GALL",
+    "screens": [
+      "GALL00AA",
+      "GALL01PU",
+      "GALL02PU",
+      "GALL03PU",
+      "GALL04PU",
+      "GALL50FB"
+    ],
+    "audio": {
+      "pron": "GALL00AP",
+      "jump": "GALL00AJ"
+    },
+    "video": null
+  },
+  "gobi": {
+    "code": "GOBI",
+    "screens": [
+      "GOBI00AA",
+      "GOBI01PU",
+      "GOBI02PU",
+      "GOBI03PU",
+      "GOBI04PU",
+      "GOBI05PU",
+      "GOBI06PU"
+    ],
+    "audio": {
+      "pron": "GOBI00AP",
+      "scene": "GOBI00SA",
+      "jump": "GOBI00AJ"
+    },
+    "video": null
+  },
+  "hank": {
+    "code": "HANK",
+    "screens": [
+      "HANK00AA",
+      "HANK01PU",
+      "HANK02PU"
+    ],
+    "audio": {
+      "pron": "HANK00AP",
+      "scene": "HANK00SA",
+      "jump": "HANK00AJ"
+    },
+    "video": null
+  },
+  "hcer": {
+    "code": "HCER",
+    "screens": [
+      "HCER00AA",
+      "HCER01PU",
+      "HCER02PU"
+    ],
+    "audio": {
+      "pron": "HCER00AP",
+      "scene": "HCER00SA",
+      "jump": "HCER00AJ"
+    },
+    "video": null
+  },
+  "herr": {
+    "code": "HERR",
+    "screens": [
+      "HERR00AA",
+      "HERR01PU",
+      "HERR50FB"
+    ],
+    "audio": {
+      "pron": "HERR00AP",
+      "jump": "HERR00AJ"
+    },
+    "video": null
+  },
+  "hete": {
+    "code": "HETE",
+    "screens": [
+      "HETE00AA",
+      "HETE01PU",
+      "HETE02PU",
+      "HETE03PU",
+      "HETE50FB"
+    ],
+    "audio": {
+      "pron": "HETE00AP",
+      "jump": "HETE00AJ"
+    },
+    "video": null
+  },
+  "horn": {
+    "code": "HORN",
+    "screens": [
+      "HORN00AA",
+      "HORN01PU",
+      "HORN02PU",
+      "HORN03PU",
+      "HORN04PU",
+      "HORN05PU"
+    ],
+    "audio": {
+      "pron": "HORN00AP",
+      "jump": "HORN00AJ"
+    },
+    "video": null
+  },
+  "hsau": {
+    "code": "HSAU",
+    "screens": [
+      "HSAU00AA",
+      "HSAU01PU",
+      "HSAU02PU",
+      "HSAU03PU",
+      "HSAU04PU"
+    ],
+    "audio": {
+      "pron": "HSAU00AP",
+      "scene": "HSAU00SA",
+      "jump": "HSAU00AJ"
+    },
+    "video": null
+  },
+  "hstg": {
+    "code": "HSTG",
+    "screens": [
+      "HSTG00AA",
+      "HSTG01PU",
+      "HSTG02PU",
+      "HSTG03PU"
+    ],
+    "audio": {
+      "pron": "HSTG00AP",
+      "scene": "HSTG00SA",
+      "jump": "HSTG00AJ"
+    },
+    "video": null
+  },
+  "hthr": {
+    "code": "HTHR",
+    "screens": [
+      "HTHR00AA",
+      "HTHR01PU",
+      "HTHR02PU"
+    ],
+    "audio": {
+      "pron": "HTHR00AP",
+      "scene": "HTHR00SA",
+      "jump": "HTHR00AJ"
+    },
+    "video": null
+  },
+  "htro": {
+    "code": "HTRO",
+    "screens": [
+      "HTRO00AA",
+      "HTRO01PU",
+      "HTRO02PU",
+      "HTRO03PU"
+    ],
+    "audio": {
+      "pron": "HTRO00AP",
+      "scene": "HTRO00SA",
+      "jump": "HTRO00AJ"
+    },
+    "video": null
+  },
+  "hyps": {
+    "code": "HYPS",
+    "screens": [
+      "HYPS00AA",
+      "HYPS01PU",
+      "HYPS02PU",
+      "HYPS03PU",
+      "HYPS04PU",
+      "HYPS05PU",
+      "HYPS06PU",
+      "HYPS07PU",
+      "HYPS08PU",
+      "HYPS09PU",
+      "HYPS50FB"
+    ],
+    "audio": {
+      "pron": "HYPS00AP",
+      "jump": "HYPS00AJ"
+    },
+    "video": null
+  },
+  "icht": {
+    "code": "ICHT",
+    "screens": [
+      "ICHT00AA",
+      "ICHT01PU",
+      "ICHT02PU",
+      "ICHT03PU",
+      "ICHT04PU",
+      "ICHT05PU",
+      "ICHT06PU",
+      "ICHT07PU",
+      "ICHT08PU",
+      "ICHT50FB"
+    ],
+    "audio": {
+      "pron": "ICHT00AP",
+      "jump": "ICHT00AJ"
+    },
+    "video": null
+  },
+  "igna": {
+    "code": "IGNA",
+    "screens": [
+      "IGNA00AA",
+      "IGNA01PU",
+      "IGNA02PU",
+      "IGNA50FB"
+    ],
+    "audio": {
+      "pron": "IGNA00AP",
+      "jump": "IGNA00AJ"
+    },
+    "video": null
+  },
+  "igua": {
+    "code": "IGUA",
+    "screens": [
+      "IGUA00AA",
+      "IGUA01PU",
+      "IGUA02PU",
+      "IGUA03PU",
+      "IGUA04PU",
+      "IGUA05PU",
+      "IGUA06PU",
+      "IGUA07PU",
+      "IGUA08PU",
+      "IGUA50FB"
+    ],
+    "audio": {
+      "pron": "IGUA00AP",
+      "jump": "IGUA00AJ"
+    },
+    "video": null
+  },
+  "jurr": {
+    "code": "JURR",
+    "screens": [
+      "JURR00AA",
+      "JURR01PU",
+      "JURR02PU",
+      "JURR03PU",
+      "JURR04PU",
+      "JURR05PU",
+      "JURR06PU"
+    ],
+    "audio": {
+      "pron": "JURR00AP",
+      "scene": "JURR00SA",
+      "jump": "JURR00AJ"
+    },
+    "video": null
+  },
+  "kent": {
+    "code": "KENT",
+    "screens": [
+      "KENT00AA",
+      "KENT01PU",
+      "KENT02PU",
+      "KENT03PU",
+      "KENT04PU",
+      "KENT05PU",
+      "KENT06PU",
+      "KENT50FB"
+    ],
+    "audio": {
+      "pron": "KENT00AP",
+      "jump": "KENT00AJ"
+    },
+    "video": null
+  },
+  "kron": {
+    "code": "KRON",
+    "screens": [
+      "KRON00AA",
+      "KRON01PU",
+      "KRON50FB"
+    ],
+    "audio": {
+      "pron": "KRON00AP",
+      "jump": "KRON00AJ"
+    },
+    "video": null
+  },
+  "leae": {
+    "code": "LEAE",
+    "screens": [
+      "LEAE00AA",
+      "LEAE01PU",
+      "LEAE50FB"
+    ],
+    "audio": {
+      "pron": "LEAE00AP",
+      "jump": "LEAE00AJ"
+    },
+    "video": null
+  },
+  "leso": {
+    "code": "LESO",
+    "screens": [
+      "LESO00AA",
+      "LESO01PU",
+      "LESO02PU",
+      "LESO50FB"
+    ],
+    "audio": {
+      "pron": "LESO00AP",
+      "jump": "LESO00AJ"
+    },
+    "video": null
+  },
+  "long": {
+    "code": "LONG",
+    "screens": [
+      "LONG00AA",
+      "LONG01PU",
+      "LONG02PU",
+      "LONG03PU",
+      "LONG04PU"
+    ],
+    "audio": {
+      "pron": "LONG00AP",
+      "jump": "LONG00AJ"
+    },
+    "video": null
+  },
+  "macr": {
+    "code": "MACR",
+    "screens": [
+      "MACR00AA",
+      "MACR01PU",
+      "MACR02PU",
+      "MACR50FB"
+    ],
+    "audio": {
+      "pron": "MACR00AP",
+      "jump": "MACR00AJ"
+    },
+    "video": null
+  },
+  "maia": {
+    "code": "MAIA",
+    "screens": [
+      "MAIA00AA",
+      "MAIA01PU",
+      "MAIA02PU",
+      "MAIA50FB"
+    ],
+    "audio": {
+      "pron": "MAIA00AP",
+      "jump": "MAIA00AJ"
+    },
+    "video": null
+  },
+  "makf": {
+    "code": "MAKF",
+    "screens": [
+      "MAKF00AA",
+      "MAKF01PU",
+      "MAKF02PU",
+      "MAKF03PU"
+    ],
+    "audio": {
+      "pron": "MAKF00AP",
+      "jump": "MAKF00AJ"
+    },
+    "video": null
+  },
+  "mame": {
+    "code": "MAME",
+    "screens": [
+      "MAME00AA",
+      "MAME01PU",
+      "MAME02PU",
+      "MAME03PU",
+      "MAME50FB"
+    ],
+    "audio": {
+      "pron": "MAME00AP",
+      "jump": "MAME00AJ"
+    },
+    "video": null
+  },
+  "mass": {
+    "code": "MASS",
+    "screens": [
+      "MASS00AA",
+      "MASS01PU",
+      "MASS02PU",
+      "MASS03PU",
+      "MASS04PU",
+      "MASS05PU",
+      "MASS06PU",
+      "MASS50FB"
+    ],
+    "audio": {
+      "pron": "MASS00AP",
+      "jump": "MASS00AJ"
+    },
+    "video": null
+  },
+  "mdet": {
+    "code": "MDET",
+    "screens": [
+      "MDET00AA",
+      "MDET01PU",
+      "MDET02PU",
+      "MDET03PU",
+      "MDET04PU",
+      "MDET05PU"
+    ],
+    "audio": {
+      "pron": "MDET00AP",
+      "scene": "MDET00SA",
+      "jump": "MDET00AJ"
+    },
+    "video": null
+  },
+  "meat": {
+    "code": "MEAT",
+    "screens": [
+      "MEAT00AA",
+      "MEAT01PU",
+      "MEAT02PU",
+      "MEAT03PU",
+      "MEAT04PU",
+      "MEAT05PU",
+      "MEAT06PU",
+      "MEAT07PU",
+      "MEAT08PU"
+    ],
+    "audio": {
+      "pron": "MEAT00AP",
+      "scene": "MEAT00SA",
+      "jump": "MEAT00AJ"
+    },
+    "video": null
+  },
+  "mega": {
+    "code": "MEGA",
+    "screens": [
+      "MEGA00AA",
+      "MEGA01PU",
+      "MEGA02PU",
+      "MEGA03PU",
+      "MEGA50FB"
+    ],
+    "audio": {
+      "pron": "MEGA00AP",
+      "jump": "MEGA00AJ"
+    },
+    "video": null
+  },
+  "mete": {
+    "code": "METE",
+    "screens": [
+      "METE00AA",
+      "METE01PU",
+      "METE02PU",
+      "METE03PU",
+      "METE04PU",
+      "METE05PU",
+      "METE06PU"
+    ],
+    "audio": {
+      "pron": "METE00AP",
+      "scene": "METE00SA",
+      "jump": "METE00AJ"
+    },
+    "video": null
+  },
+  "mine": {
+    "code": "MINE",
+    "screens": [
+      "MINE00AA",
+      "MINE01PU",
+      "MINE02PU",
+      "MINE03PU",
+      "MINE04PU",
+      "MINE05PU"
+    ],
+    "audio": {
+      "pron": "MINE00AP",
+      "scene": "MINE00SA",
+      "jump": "MINE00AJ"
+    },
+    "video": null
+  },
+  "minm": {
+    "code": "MINM",
+    "screens": [
+      "MINM00AA",
+      "MINM01PU",
+      "MINM02PU",
+      "MINM03PU",
+      "MINM50FB"
+    ],
+    "audio": {
+      "pron": "MINM00AP",
+      "jump": "MINM00AJ"
+    },
+    "video": null
+  },
+  "mosa": {
+    "code": "MOSA",
+    "screens": [
+      "MOSA00AA",
+      "MOSA01PU",
+      "MOSA02PU",
+      "MOSA03PU",
+      "MOSA50FB"
+    ],
+    "audio": {
+      "pron": "MOSA00AP",
+      "jump": "MOSA00AJ"
+    },
+    "video": null
+  },
+  "mosc": {
+    "code": "MOSC",
+    "screens": [
+      "MOSA50FB",
+      "MOSC00AA",
+      "MOSC01PU",
+      "MOSC50FB"
+    ],
+    "audio": {
+      "pron": "MOSC00AP",
+      "jump": "MOSC00AJ"
+    },
+    "video": null
+  },
+  "mura": {
+    "code": "MURA",
+    "screens": [
+      "MURA00AA",
+      "MURA01PU",
+      "MURA02PU",
+      "MURA50FB"
+    ],
+    "audio": {
+      "pron": "MURA00AP",
+      "jump": "MURA00AJ"
+    },
+    "video": null
+  },
+  "muse": {
+    "code": "MUSE",
+    "screens": [
+      "MUSE00AA",
+      "MUSE01PU",
+      "MUSE02PU",
+      "MUSE03PU",
+      "MUSE04PU",
+      "MUSE05PU",
+      "MUSE06PU",
+      "MUSE07PU",
+      "MUSE08PU",
+      "MUSE09PU",
+      "MUSE10PU",
+      "MUSE11PU",
+      "MUSE12PU",
+      "MUSE13PU",
+      "MUSE14PU"
+    ],
+    "audio": {
+      "pron": "MUSE00AP",
+      "jump": "MUSE00AJ"
+    },
+    "video": null
+  },
+  "muss": {
+    "code": "MUSS",
+    "screens": [
+      "MUSS00AA",
+      "MUSS01PU",
+      "MUSS02PU",
+      "MUSS50FB"
+    ],
+    "audio": {
+      "pron": "MUSS00AP",
+      "jump": "MUSS00AJ"
+    },
+    "video": null
+  },
+  "mutt": {
+    "code": "MUTT",
+    "screens": [
+      "MUTT00AA",
+      "MUTT01PU",
+      "MUTT02PU",
+      "MUTT03PU",
+      "MUTT50FB"
+    ],
+    "audio": {
+      "pron": "MUTT00AP",
+      "jump": "MUTT00AJ"
+    },
+    "video": null
+  },
+  "myth": {
+    "code": "MYTH",
+    "screens": [
+      "MYTH00AA",
+      "MYTH01PU",
+      "MYTH02PU",
+      "MYTH03PU",
+      "MYTH04PU",
+      "MYTH05PU",
+      "MYTH06PU"
+    ],
+    "audio": {
+      "pron": "MYTH00AP",
+      "scene": "MYTH00SA",
+      "jump": "MYTH00AJ"
+    },
+    "video": null
+  },
+  "nest": {
+    "code": "NEST",
+    "screens": [
+      "NEST00AA",
+      "NEST01PU",
+      "NEST02PU",
+      "NEST03PU",
+      "NEST04PU"
+    ],
+    "audio": {
+      "pron": "NEST00AP",
+      "jump": "NEST00AJ"
+    },
+    "video": null
+  },
+  "nodo": {
+    "code": "NODO",
+    "screens": [
+      "NODO00AA",
+      "NODO01PU",
+      "NODO02PU",
+      "NODO04PU",
+      "NODO05PU",
+      "NODO50FB"
+    ],
+    "audio": {
+      "pron": "NODO00AP",
+      "jump": "NODO00AJ"
+    },
+    "video": null
+  },
+  "orni": {
+    "code": "ORNI",
+    "screens": [
+      "ORNI00AA",
+      "ORNI01PU",
+      "ORNI50FB"
+    ],
+    "audio": {
+      "pron": "ORNI00AP",
+      "jump": "ORNI00AJ"
+    },
+    "video": null
+  },
+  "ovir": {
+    "code": "OVIR",
+    "screens": [
+      "OVIR00AA",
+      "OVIR01PU",
+      "OVIR02PU",
+      "OVIR03PU",
+      "OVIR50FB"
+    ],
+    "audio": {
+      "pron": "OVIR00AP",
+      "jump": "OVIR00AJ"
+    },
+    "video": null
+  },
+  "pach": {
+    "code": "PACH",
+    "screens": [
+      "PACH00AA",
+      "PACH01PU",
+      "PACH02PU",
+      "PACH03PU",
+      "PACH50FB"
+    ],
+    "audio": {
+      "pron": "PACH00AP",
+      "jump": "PACH00AJ"
+    },
+    "video": null
+  },
+  "pale": {
+    "code": "PALE",
+    "screens": [
+      "PALE00AA",
+      "PALE01PU",
+      "PALE02PU",
+      "PALE03PU"
+    ],
+    "audio": {
+      "pron": "PALE00AP",
+      "scene": "PALE00SA",
+      "jump": "PALE00AJ"
+    },
+    "video": null
+  },
+  "para": {
+    "code": "PARA",
+    "screens": [
+      "PARA00AA",
+      "PARA01PU",
+      "PARA02PU",
+      "PARA03PU",
+      "PARA04PU",
+      "PARA50FB"
+    ],
+    "audio": {
+      "pron": "PARA00AP",
+      "jump": "PARA00AJ"
+    },
+    "video": null
+  },
+  "park": {
+    "code": "PARK",
+    "screens": [
+      "PARK00AA",
+      "PARK01PU",
+      "PARK02PU",
+      "PARK03PU",
+      "PARK04PU",
+      "PARK05PU"
+    ],
+    "audio": {
+      "pron": "PARK00AP",
+      "jump": "PARK00AJ"
+    },
+    "video": null
+  },
+  "pelo": {
+    "code": "PELO",
+    "screens": [
+      "PELO00AA",
+      "PELO01PU",
+      "PELO02PU",
+      "PELO50FB"
+    ],
+    "audio": {
+      "pron": "PELO00AP",
+      "jump": "PELO00AJ"
+    },
+    "video": null
+  },
+  "piat": {
+    "code": "PIAT",
+    "screens": [
+      "PIAT00AA",
+      "PIAT01PU",
+      "PIAT02PU",
+      "PIAT50FB"
+    ],
+    "audio": {
+      "pron": "PIAT00AP",
+      "jump": "PIAT00AJ"
+    },
+    "video": null
+  },
+  "pina": {
+    "code": "PINA",
+    "screens": [
+      "PINA00AA",
+      "PINA01PU",
+      "PINA02PU",
+      "PINA03PU",
+      "PINA04PU",
+      "PINA05PU",
+      "PINA50FB"
+    ],
+    "audio": {
+      "pron": "PINA00AP",
+      "jump": "PINA00AJ"
+    },
+    "video": null
+  },
+  "plan": {
+    "code": "PLAN",
+    "screens": [
+      "PLAN00AA",
+      "PLAN01PU",
+      "PLAN02PU",
+      "PLAN03PU",
+      "PLAN04PU",
+      "PLAN05PU",
+      "PLAN06PU"
+    ],
+    "audio": {
+      "pron": "PLAN00AP",
+      "scene": "PLAN00SA",
+      "jump": "PLAN00AJ"
+    },
+    "video": null
+  },
+  "plat": {
+    "code": "PLAT",
+    "screens": [
+      "PLAT00AA",
+      "PLAT01PU",
+      "PLAT02PU",
+      "PLAT03PU",
+      "PLAT04PU",
+      "PLAT50FB"
+    ],
+    "audio": {
+      "pron": "PLAT00AP",
+      "jump": "PLAT00AJ"
+    },
+    "video": null
+  },
+  "ples": {
+    "code": "PLES",
+    "screens": [
+      "PLES00AA",
+      "PLES01PU",
+      "PLES02PU",
+      "PLES50FB"
+    ],
+    "audio": {
+      "pron": "PLES00AP",
+      "jump": "PLES00AJ"
+    },
+    "video": null
+  },
+  "pola": {
+    "code": "POLA",
+    "screens": [
+      "POLA00AA",
+      "POLA01PU",
+      "POLA02PU",
+      "POLA03PU",
+      "POLA50FB"
+    ],
+    "audio": {
+      "pron": "POLA00AP",
+      "jump": "POLA00AJ"
+    },
+    "video": null
+  },
+  "prot": {
+    "code": "PROT",
+    "screens": [
+      "PROT00AA",
+      "PROT01PU",
+      "PROT02PU",
+      "PROT03PU",
+      "PROT04PU",
+      "PROT05PU",
+      "PROT50FB"
+    ],
+    "audio": {
+      "pron": "PROT00AP",
+      "jump": "PROT00AJ"
+    },
+    "video": null
+  },
+  "psit": {
+    "code": "PSIT",
+    "screens": [
+      "PSIT00AA",
+      "PSIT01PU",
+      "PSIT02PU",
+      "PSIT50FB"
+    ],
+    "audio": {
+      "pron": "PSIT00AP",
+      "jump": "PSIT00AJ"
+    },
+    "video": null
+  },
+  "ptee": {
+    "code": "PTEE",
+    "screens": [
+      "PTEE00AA",
+      "PTEE01PU",
+      "PTEE02PU",
+      "PTEE03PU",
+      "PTEE04PU",
+      "PTEE05PU",
+      "PTEE06PU"
+    ],
+    "audio": {
+      "pron": "PTEE00AP",
+      "scene": "PTEE00SA",
+      "jump": "PTEE00AJ"
+    },
+    "video": null
+  },
+  "pten": {
+    "code": "PTEN",
+    "screens": [
+      "PTEN00AA",
+      "PTEN01PU",
+      "PTEN02PU",
+      "PTEN03PU",
+      "PTEN04PU",
+      "PTEN05PU",
+      "PTEN50FB"
+    ],
+    "audio": {
+      "pron": "PTEN00AP",
+      "jump": "PTEN00AJ"
+    },
+    "video": null
+  },
+  "pter": {
+    "code": "PTER",
+    "screens": [
+      "PTER00AA",
+      "PTER01PU",
+      "PTER02PU",
+      "PTER03PU",
+      "PTER04PU",
+      "PTER05PU",
+      "PTER50FB"
+    ],
+    "audio": {
+      "pron": "PTER00AP",
+      "jump": "PTER00AJ"
+    },
+    "video": null
+  },
+  "quet": {
+    "code": "QUET",
+    "screens": [
+      "QUET00AA",
+      "QUET01PU",
+      "QUET02PU",
+      "QUET04PU",
+      "QUET05PU",
+      "QUET06PU",
+      "QUET50FB"
+    ],
+    "audio": {
+      "pron": "QUET00AP",
+      "jump": "QUET00AJ"
+    },
+    "video": null
+  },
+  "rair": {
+    "code": "RAIR",
+    "screens": [
+      "RAIR00AA",
+      "RAIR01PU",
+      "RAIR02PU",
+      "RAIR03PU",
+      "RAIR04PU",
+      "RAIR05PU",
+      "RAIR06PU",
+      "RAIR07PU",
+      "RAIR08PU",
+      "RAIR09PU"
+    ],
+    "audio": {
+      "pron": "RAIR00AP",
+      "scene": "RAIR00SA",
+      "jump": "RAIR00AJ"
+    },
+    "video": null
+  },
+  "recb": {
+    "code": "RECB",
+    "screens": [
+      "RECB00AA",
+      "RECB01PU",
+      "RECB02PU",
+      "RECB03PU",
+      "RECB04PU",
+      "RECB05PU",
+      "RECB07PU",
+      "RECB08PU",
+      "RECB09PU"
+    ],
+    "audio": {
+      "pron": "RECB00AP",
+      "scene": "RECB00SA",
+      "jump": "RECB00AJ"
+    },
+    "video": null
+  },
+  "reco": {
+    "code": "RECO",
+    "screens": [
+      "RECO00AA",
+      "RECO01PU",
+      "RECO02PU",
+      "RECO03PU",
+      "RECO04PU",
+      "RECO05PU"
+    ],
+    "audio": {
+      "pron": "RECO00AP",
+      "jump": "RECO00AJ"
+    },
+    "video": null
+  },
+  "rham": {
+    "code": "RHAM",
+    "screens": [
+      "RHAM00AA",
+      "RHAM01PU",
+      "RHAM02PU",
+      "RHAM50FB"
+    ],
+    "audio": {
+      "pron": "RHAM00AP",
+      "jump": "RHAM00AJ"
+    },
+    "video": null
+  },
+  "rhoe": {
+    "code": "RHOE",
+    "screens": [
+      "RHOE00AA",
+      "RHOE01PU",
+      "RHOE02PU",
+      "RHOE03PU",
+      "RHOE50FB"
+    ],
+    "audio": {
+      "pron": "RHOE00AP",
+      "jump": "RHOE00AJ"
+    },
+    "video": null
+  },
+  "rsea": {
+    "code": "RSEA",
+    "screens": [
+      "RSEA00AA",
+      "RSEA01PU",
+      "RSEA02PU",
+      "RSEA03PU",
+      "RSEA04PU",
+      "RSEA05PU",
+      "RSEA07PU",
+      "RSEA08PU"
+    ],
+    "audio": {
+      "pron": "RSEA00AP",
+      "scene": "RSEA00SA",
+      "jump": "RSEA00AJ"
+    },
+    "video": null
+  },
+  "sals": {
+    "code": "SALS",
+    "screens": [
+      "SALS00AA",
+      "SALS01PU",
+      "SALS50FB"
+    ],
+    "audio": {
+      "pron": "SALS00AP",
+      "jump": "SALS00AJ"
+    },
+    "video": null
+  },
+  "salt": {
+    "code": "SALT",
+    "screens": [
+      "SALT00AA",
+      "SALT01PU",
+      "SALT02PU",
+      "SALT03PU",
+      "SALT50FB"
+    ],
+    "audio": {
+      "pron": "SALT00AP",
+      "jump": "SALT00AJ"
+    },
+    "video": null
+  },
+  "saur": {
+    "code": "SAUR",
+    "screens": [
+      "SAUR00AA",
+      "SAUR01PU",
+      "SAUR02PU",
+      "SAUR03PU",
+      "SAUR04PU",
+      "SAUR50FB"
+    ],
+    "audio": {
+      "pron": "SAUR00AP",
+      "jump": "SAUR00AJ"
+    },
+    "video": null
+  },
+  "scel": {
+    "code": "SCEL",
+    "screens": [
+      "SCEL00AA",
+      "SCEL01PU",
+      "SCEL50FB"
+    ],
+    "audio": {
+      "pron": "SCEL00AP",
+      "jump": "SCEL00AJ"
+    },
+    "video": null
+  },
+  "shan": {
+    "code": "SHAN",
+    "screens": [
+      "SHAN00AA",
+      "SHAN01PU",
+      "SHAN02PU",
+      "SHAN50FB"
+    ],
+    "audio": {
+      "pron": "SHAN00AP",
+      "jump": "SHAN00AJ"
+    },
+    "video": null
+  },
+  "shft": {
+    "code": "SHFT",
+    "screens": [
+      "SHFT00AA",
+      "SHFT01PU",
+      "SHFT02PU",
+      "SHFT03PU",
+      "SHFT04PU"
+    ],
+    "audio": {
+      "pron": "SHFT00AP",
+      "jump": "SHFT00AJ"
+    },
+    "video": null
+  },
+  "shon": {
+    "code": "SHON",
+    "screens": [
+      "SHON00AA",
+      "SHON01PU",
+      "SHON02PU",
+      "SHON03PU",
+      "SHON04PU",
+      "SHON50FB"
+    ],
+    "audio": {
+      "pron": "SHON00AP",
+      "jump": "SHON00AJ"
+    },
+    "video": null
+  },
+  "site": {
+    "code": "SITE",
+    "screens": [
+      "SITE00AA",
+      "SITE01PU",
+      "SITE02PU",
+      "SITE03PU",
+      "SITE04PU",
+      "SITE05PU",
+      "SITE06PU"
+    ],
+    "audio": {
+      "pron": "SITE00AP",
+      "scene": "SITE00SA",
+      "jump": "SITE00AJ"
+    },
+    "video": null
+  },
+  "smal": {
+    "code": "SMAL",
+    "screens": [
+      "SMAL00AA",
+      "SMAL01PU",
+      "SMAL02PU",
+      "SMAL03PU",
+      "SMAL04PU",
+      "SMAL05PU"
+    ],
+    "audio": {
+      "pron": "SMAL00AP",
+      "scene": "SMAL00SA",
+      "jump": "SMAL00AJ"
+    },
+    "video": null
+  },
+  "sord": {
+    "code": "SORD",
+    "screens": [
+      "SORD00AA",
+      "SORD01PU",
+      "SORD50FB"
+    ],
+    "audio": {
+      "pron": "SORD00AP",
+      "jump": "SORD00AJ"
+    },
+    "video": null
+  },
+  "spee": {
+    "code": "SPEE",
+    "screens": [
+      "SPEE00AA",
+      "SPEE01PU",
+      "SPEE02PU",
+      "SPEE03PU",
+      "SPEE04PU"
+    ],
+    "audio": {
+      "pron": "SPEE00AP",
+      "scene": "SPEE00SA",
+      "jump": "SPEE00AJ"
+    },
+    "video": null
+  },
+  "spin": {
+    "code": "SPIN",
+    "screens": [
+      "SPIN00AA",
+      "SPIN01PU",
+      "SPIN50FB"
+    ],
+    "audio": {
+      "pron": "SPIN00AP",
+      "jump": "SPIN00AJ"
+    },
+    "video": null
+  },
+  "stau": {
+    "code": "STAU",
+    "screens": [
+      "STAU00AA",
+      "STAU01PU",
+      "STAU50FB"
+    ],
+    "audio": {
+      "pron": "STAU00AP",
+      "jump": "STAU00AJ"
+    },
+    "video": null
+  },
+  "steg": {
+    "code": "STEG",
+    "screens": [
+      "STEG00AA",
+      "STEG01PU",
+      "STEG02PU",
+      "STEG03PU",
+      "STEG04PU",
+      "STEG05PU",
+      "STEG06PU",
+      "STEG07PU",
+      "STEG08PU",
+      "STEG09PU",
+      "STEG10PU",
+      "STEG11PU",
+      "STEG50FB"
+    ],
+    "audio": {
+      "pron": "STEG00AP",
+      "jump": "STEG00AJ"
+    },
+    "video": null
+  },
+  "stor": {
+    "code": "STOR",
+    "screens": [
+      "STOR00AA",
+      "STOR01PU",
+      "STOR02PU",
+      "STOR03PU",
+      "STOR04PU",
+      "STOR05PU",
+      "STOR06PU",
+      "STOR07PU",
+      "STOR08PU",
+      "STOR09PU"
+    ],
+    "audio": {
+      "pron": "STOR00AP",
+      "jump": "STOR00AJ"
+    },
+    "video": null
+  },
+  "stru": {
+    "code": "STRU",
+    "screens": [
+      "STRU00AA",
+      "STRU01PU",
+      "STRU02PU",
+      "STRU50FB"
+    ],
+    "audio": {
+      "pron": "STRU00AP",
+      "jump": "STRU00AJ"
+    },
+    "video": null
+  },
+  "styr": {
+    "code": "STYR",
+    "screens": [
+      "STYR00AA",
+      "STYR01PU",
+      "STYR02PU",
+      "STYR03PU",
+      "STYR04PU",
+      "STYR50FB"
+    ],
+    "audio": {
+      "pron": "STYR00AP",
+      "jump": "STYR00AJ"
+    },
+    "video": null
+  },
+  "tale": {
+    "code": "TALE",
+    "screens": [
+      "TALE00AA",
+      "TALE01PU",
+      "TALE02PU",
+      "TALE03PU",
+      "TALE04PU"
+    ],
+    "audio": {
+      "pron": "TALE00AP",
+      "jump": "TALE00AJ"
+    },
+    "video": null
+  },
+  "tall": {
+    "code": "TALL",
+    "screens": [
+      "TALL00AA",
+      "TALL01PU",
+      "TALL02PU",
+      "TALL03PU",
+      "TALL04PU",
+      "TALL05PU",
+      "TALL06PU"
+    ],
+    "audio": {
+      "pron": "TALL00AP",
+      "scene": "TALL00SA",
+      "jump": "TALL00AJ"
+    },
+    "video": null
+  },
+  "tarb": {
+    "code": "TARB",
+    "screens": [
+      "TARB00AA",
+      "TARB01PU",
+      "TARB02PU",
+      "TARB50FB"
+    ],
+    "audio": {
+      "pron": "TARB00AP",
+      "jump": "TARB00AJ"
+    },
+    "video": null
+  },
+  "teet": {
+    "code": "TEET",
+    "screens": [
+      "TEET00AA",
+      "TEET01PU",
+      "TEET02PU",
+      "TEET03PU"
+    ],
+    "audio": {
+      "pron": "TEET00AP",
+      "scene": "TEET00SA",
+      "jump": "TEET00AJ"
+    },
+    "video": null
+  },
+  "tend": {
+    "code": "TEND",
+    "screens": [
+      "TEND00AA",
+      "TEND01PU",
+      "TEND02PU",
+      "TEND03PU"
+    ],
+    "audio": {
+      "pron": "TEND00AP",
+      "jump": "TEND00AJ"
+    },
+    "video": null
+  },
+  "tria": {
+    "code": "TRIA",
+    "screens": [
+      "TRIA00AA",
+      "TRIA01PU",
+      "TRIA02PU",
+      "TRIA03PU",
+      "TRIA04PU"
+    ],
+    "audio": {
+      "pron": "TRIA00AP",
+      "scene": "TRIA00SA",
+      "jump": "TRIA00AJ"
+    },
+    "video": null
+  },
+  "tric": {
+    "code": "TRIC",
+    "screens": [
+      "TRIC00AA",
+      "TRIC01PU",
+      "TRIC02PU",
+      "TRIC03PU",
+      "TRIC04PU",
+      "TRIC05PU",
+      "TRIC06PU",
+      "TRIC07PU",
+      "TRIC08PU",
+      "TRIC50FB"
+    ],
+    "audio": {
+      "pron": "TRIC00AP",
+      "jump": "TRIC00AJ"
+    },
+    "video": null
+  },
+  "tril": {
+    "code": "TRIL",
+    "screens": [
+      "TRIL00AA",
+      "TRIL01PU",
+      "TRIL02PU",
+      "TRIL03PU",
+      "TRIL04PU",
+      "TRIL05PU",
+      "TRIL50FB"
+    ],
+    "audio": {
+      "pron": "TRIL00AP",
+      "jump": "TRIL00AJ"
+    },
+    "video": null
+  },
+  "troo": {
+    "code": "TROO",
+    "screens": [
+      "TROO00AA",
+      "TROO01PU",
+      "TROO02PU",
+      "TROO50FB"
+    ],
+    "audio": {
+      "pron": "TROO00AP",
+      "jump": "TROO00AJ"
+    },
+    "video": null
+  },
+  "tsin": {
+    "code": "TSIN",
+    "screens": [
+      "TSIN00AA",
+      "TSIN01PU",
+      "TSIN02PU",
+      "TSIN50FB"
+    ],
+    "audio": {
+      "pron": "TSIN00AP",
+      "jump": "TSIN00AJ"
+    },
+    "video": null
+  },
+  "tuat": {
+    "code": "TUAT",
+    "screens": [
+      "TUAT00AA",
+      "TUAT01PU",
+      "TUAT02PU",
+      "TUAT03PU",
+      "TUAT50FB"
+    ],
+    "audio": {
+      "pron": "TUAT00AP",
+      "jump": "TUAT00AJ"
+    },
+    "video": null
+  },
+  "tuoj": {
+    "code": "TUOJ",
+    "screens": [
+      "TUOJ00AA",
+      "TUOJ01PU",
+      "TUOJ02PU",
+      "TUOJ03PU",
+      "TUOJ04PU",
+      "TUOJ05PU",
+      "TUOJ06PU",
+      "TUOJ07PU",
+      "TUOJ08PU",
+      "TUOJ50FB"
+    ],
+    "audio": {
+      "pron": "TUOJ00AP",
+      "jump": "TUOJ00AJ"
+    },
+    "video": null
+  },
+  "twof": {
+    "code": "TWOF",
+    "screens": [
+      "TWOF00AA",
+      "TWOF01PU",
+      "TWOF02PU",
+      "TWOF03PU",
+      "TWOF04PU",
+      "TWOF05PU",
+      "TWOF06PU",
+      "TWOF07PU"
+    ],
+    "audio": {
+      "pron": "TWOF00AP",
+      "scene": "TWOF00SA",
+      "jump": "TWOF00AJ"
+    },
+    "video": null
+  },
+  "tyra": {
+    "code": "TYRA",
+    "screens": [
+      "TYRA00AA",
+      "TYRA01PU",
+      "TYRA03PU",
+      "TYRA04PU",
+      "TYRA05PU",
+      "TYRA06PU",
+      "TYRA07PU",
+      "TYRA08PU",
+      "TYRA10PU",
+      "TYRA11PU",
+      "TYRA50FB"
+    ],
+    "audio": {
+      "pron": "TYRA00AP",
+      "jump": "TYRA00AJ"
+    },
+    "video": null
+  },
+  "vega": {
+    "code": "VEGA",
+    "screens": [
+      "VEGA00AA",
+      "VEGA01PU",
+      "VEGA02PU",
+      "VEGA03PU",
+      "VEGA04PU",
+      "VEGA05PU"
+    ],
+    "audio": {
+      "pron": "VEGA00AP",
+      "scene": "VEGA00SA",
+      "jump": "VEGA00AJ"
+    },
+    "video": null
+  },
+  "velo": {
+    "code": "VELO",
+    "screens": [
+      "VELO00AA",
+      "VELO01PU",
+      "VELO02PU",
+      "VELO50FB"
+    ],
+    "audio": {
+      "pron": "VELO00AP",
+      "jump": "VELO00AJ"
+    },
+    "video": null
+  },
+  "warm": {
+    "code": "WARM",
+    "screens": [
+      "WARM00AA",
+      "WARM01PU",
+      "WARM02PU",
+      "WARM03PU",
+      "WARM04PU",
+      "WARM05PU",
+      "WARM06PU",
+      "WARM07PU"
+    ],
+    "audio": {
+      "pron": "WARM00AP",
+      "scene": "WARM00SA",
+      "jump": "WARM00AJ"
+    },
+    "video": null
+  },
+  "weir": {
+    "code": "WEIR",
+    "screens": [
+      "WEIR00AA",
+      "WEIR01PU",
+      "WEIR02PU",
+      "WEIR03PU",
+      "WEIR04PU",
+      "WEIR05PU"
+    ],
+    "audio": {
+      "pron": "WEIR00AP",
+      "scene": "WEIR00SA",
+      "jump": "WEIR00AJ"
+    },
+    "video": null
+  },
+  "what": {
+    "code": "WHAT",
+    "screens": [
+      "WHAT00AA",
+      "WHAT01PU",
+      "WHAT02PU",
+      "WHAT03PU",
+      "WHAT04PU",
+      "WHAT05PU",
+      "WHAT06PU",
+      "WHAT07PU",
+      "WHAT08PU"
+    ],
+    "audio": {
+      "pron": "WHAT00AP",
+      "scene": "WHAT00SA",
+      "jump": "WHAT00AJ"
+    },
+    "video": null
+  }
+}
