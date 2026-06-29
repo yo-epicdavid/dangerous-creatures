@@ -175,10 +175,13 @@ def main():
 
         video = None
         if has_video:
+            # poster = a real frame from the clip (poster.webp); the original 'TV' screens are
+            # inconsistent content composites. Fall back to the main screen if missing.
+            poster_stem = "poster.webp" if os.path.exists(os.path.join(WEB, "assets", slug, "poster.webp")) else (tv_stem or main_stem) + ".webp"
             video = {
                 "title": d.get("video", {}).get("title", "Watch"),
                 "src": asset(slug, "clip.mp4"),
-                "poster": asset(slug, (tv_stem or main_stem) + ".webp"),
+                "poster": asset(slug, poster_stem),
                 "caption": d.get("video", {}).get("caption", ""),
             }
 

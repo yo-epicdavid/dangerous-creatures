@@ -34,6 +34,7 @@ python3 tools/extract_narration.py  # sub-topic (NP) narration + animal (AF) sou
 python3 tools/extract_guides.py     # 12 guided tours
 python3 tools/extract_games.py      # mini-game images
 <venv>/bin/python tools/convert_to_webp.py   # PNG -> WebP (needs Pillow)
+<venv>/bin/python tools/make_video_posters.py  # real video-frame posters from each clip
 <venv>/bin/python tools/refine_hotspots.py   # tighten Classic hotspots (needs Pillow+numpy)
 python3 tools/extract_credits.py    # credits.json from MSDANGER.THE
 python3 tools/build_data.py         # web/data/*.json + index/browse/quiz
