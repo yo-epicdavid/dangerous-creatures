@@ -118,7 +118,8 @@ const crosslinks = (d.crosslinks || []).filter((c) => c.to);
       )}
 
       {d._provenance && (
-        <p class="prov"><b>Source: </b>{d._provenance.source}. {d._provenance.note}</p>
+        <p class="prov"><b>Source: </b>{d._provenance.source}. {d._provenance.note}
+          {' '}<a href="/credits">Credits &amp; Acknowledgements <span class="arrow" aria-hidden="true">→</span></a></p>
       )}
     </div>
 
@@ -149,16 +150,33 @@ const crosslinks = (d.crosslinks || []).filter((c) => c.to);
       modern.hidden = isClassic;
       classicEl.hidden = !isClassic;
       if (isClassic && !classicEl.dataset.rendered) { renderClassic(); classicEl.dataset.rendered = '1'; }
+      if (isClassic && typeof ambient !== 'undefined') ambient.pause();
       scrollTo({ top: 0 });
     }
+
+    // shared ocean ambient — gently autoplays on entry (modern view), like the title screen
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const UNLOCK_EVENTS = ['pointerdown', 'keydown', 'touchstart'];
+    const ambient = new Audio('/assets/_ambient/ocean.mp3');
+    ambient.loop = true; ambient.volume = 0.3; ambient.preload = 'auto';
+    function startAmbient() {
+      if (mode !== 'modern' || prefersReducedMotion) return;
+      ambient.play().then(() => UNLOCK_EVENTS.forEach((e) => window.removeEventListener(e, onUnlock))).catch(() => {});
+    }
+    function onUnlock() { startAmbient(); }
+    function resumeAmbient() { if (mode === 'modern' && !prefersReducedMotion) ambient.play().catch(() => {}); }
 
     // the entry's signature sound (IX) — the intentional "Hear it" button
     const sound = data.sound ? new Audio(asset(data.sound)) : null;
     const hearBtn = document.getElementById('hear-sound');
-    if (hearBtn && sound) hearBtn.addEventListener('click', () => {
-      if (clipBtn && !clip.paused) { clip.pause(); clearClip(); }
-      sound.currentTime = 0; sound.play().catch(() => {});
-    });
+    if (hearBtn && sound) {
+      hearBtn.addEventListener('click', () => {
+        if (clipBtn && !clip.paused) { clip.pause(); clearClip(); }
+        ambient.pause();
+        sound.currentTime = 0; sound.play().catch(() => {});
+      });
+      sound.addEventListener('ended', resumeAmbient);
+    }
 
     function renderClassic() {
       const c = data.classic;
@@ -215,12 +233,13 @@ const crosslinks = (d.crosslinks || []).filter((c) => c.to);
     // short-clip player: the main intro narration + each sub-topic's narration
     const clip = new Audio();
     let clipBtn = null;
-    const clearClip = () => { if (clipBtn) clipBtn.classList.remove('playing'); clipBtn = null; };
+    const clearClip = () => { if (clipBtn) clipBtn.classList.remove('playing'); clipBtn = null; resumeAmbient(); };
     clip.addEventListener('ended', clearClip);
     document.querySelectorAll('[data-listen]').forEach((b) => {
       b.addEventListener('click', () => {
         if (clipBtn === b && !clip.paused) { clip.pause(); clearClip(); return; }
         if (sound) sound.pause();                 // don't talk over the narration
+        ambient.pause();
         if (clipBtn) clipBtn.classList.remove('playing');
         clip.src = b.getAttribute('data-listen');
         clip.play().catch(() => {});
@@ -229,5 +248,9 @@ const crosslinks = (d.crosslinks || []).filter((c) => c.to);
     });
 
     apply();
+    if (mode === 'modern' && !prefersReducedMotion) {
+      UNLOCK_EVENTS.forEach((e) => window.addEventListener(e, onUnlock, { passive: true }));
+      startAmbient();
+    }
   </script>
 </Layout>

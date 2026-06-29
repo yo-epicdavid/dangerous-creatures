@@ -2,6 +2,7 @@
   "name": "ms-exploration-archive",
   "private": true,
   "version": "1.0.0",
+  "packageManager": "pnpm@11.9.0",
   "description": "Modern, museum-style web rebuilds of Microsoft Home's Exploration Series CD-ROMs (Dangerous Creatures, Oceans, Dinosaurs).",
   "scripts": {
     "build": "pnpm -r build",

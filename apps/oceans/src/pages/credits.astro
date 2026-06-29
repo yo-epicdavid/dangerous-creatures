@@ -1,0 +1,64 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Topbar from '../components/Topbar.astro';
+import { readJSON } from '../lib/data.js';
+const c = readJSON('credits.json');
+---
+<Layout title="Credits & Acknowledgements — Microsoft Oceans" desc="The organizations whose footage, images, and music made Microsoft Oceans (1995).">
+  <Topbar>
+    <a slot="right" class="btn" href="/"><span class="arrow" aria-hidden="true">←</span> All topics</a>
+  </Topbar>
+
+  <main id="main-content" class="wrap" tabindex="-1">
+    <div class="credits">
+      <h1>Credits &amp; Acknowledgements</h1>
+      <p class="note">{c.note}</p>
+
+      <h2 class="section-head">Footage &amp; images, courtesy of</h2>
+      <ul class="orglist">
+        {c.sources.map((s) => <li>{s}</li>)}
+      </ul>
+
+      {c.audio?.length > 0 && (
+        <>
+          <h2 class="section-head">Music &amp; audio</h2>
+          <ul class="orglist audio">
+            {c.audio.map((a) => <li class={a.endsWith(':') ? 'lbl' : ''}>{a}</li>)}
+          </ul>
+        </>
+      )}
+
+      {c.special?.length > 0 && (
+        <p class="special"><b>Special mention:</b> {c.special.join(', ')} — for their donation of video and images.</p>
+      )}
+
+      <h2 class="section-head">Video credits by topic</h2>
+      <details class="vid">
+        <summary>{c.video.length} clips — show the full list</summary>
+        <ul class="vidlist">
+          {c.video.map((v) => <li><b>{v.item}</b> — {v.source}</li>)}
+        </ul>
+      </details>
+
+      <p class="back"><a href="/"><span class="arrow" aria-hidden="true">←</span> Back to all topics</a></p>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  .credits { max-width: 820px; margin: 18px auto 80px; }
+  .credits h1 { font-family: var(--font-display); font-size: clamp(32px, 6vw, 52px); margin: 6px 0 14px; }
+  .note { color: var(--ink-soft); font-size: 16px; line-height: 1.6; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; }
+  .orglist { list-style: none; padding: 0; margin: 8px 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px 22px; }
+  .orglist li { padding: 6px 0; border-bottom: 1px solid var(--line); font-size: 17px; }
+  .orglist.audio li { font-size: 16px; color: var(--ink-soft); }
+  .orglist.audio li.lbl { color: var(--gold); font-weight: 700; border-bottom: none; padding-bottom: 0; margin-top: 6px; }
+  .special { color: var(--ink-soft); margin: 16px 0 0; }
+  .vid summary { cursor: pointer; color: var(--gold); font-weight: 600; padding: 8px 0; }
+  .vidlist { columns: 2; column-gap: 28px; padding: 0; margin: 10px 0 0; list-style: none; }
+  .vidlist li { break-inside: avoid; font-size: 14px; color: var(--ink-soft); padding: 3px 0; }
+  .vidlist li b { color: var(--ink); font-weight: 600; }
+  .back { margin-top: 28px; }
+  .back a { color: var(--gold); }
+  @media (max-width: 560px) { .vidlist { columns: 1; } }
+</style>
