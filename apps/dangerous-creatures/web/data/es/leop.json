@@ -1,0 +1,233 @@
+{
+  "id": "leop",
+  "code": "LEOP",
+  "name": "Leopardo",
+  "scientificName": "Panthera pardus",
+  "needsScientificVerify": false,
+  "tagline": "¡El fantasma de la selva: nadie lo ve venir hasta que ya es demasiado tarde!",
+  "weapons": [
+    "Dientes y mandíbulas"
+  ],
+  "habitats": [
+    "Praderas y sabanas",
+    "Bosques"
+  ],
+  "regions": [
+    "África",
+    "Asia"
+  ],
+  "hero": {
+    "image": "assets/es/leop/LEOP00AA.webp",
+    "alt": "Leopardo"
+  },
+  "intro": "Como si fuera un fantasma surgido de un sueño, este felino se mueve tan silenciosamente que sus víctimas no suelen verlo hasta que sienten sus garras y dientes cortantes. Los colonos europeos de África y Asia perdieron por ellos muchos perros, pues los leopardos se dieron cuenta de que eran una presa fácil. El \"rugido\" del leopardo no se parece en nada al de un león: de él se ha dicho que se parece a una \"tos\" o al ruido que hace una \"sierra oxidada\".",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Mata a su presa en la garganta y mediante un giro le rompe el cuello.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Antílopes, cebras, facóqueros, conejos, babuinos y perros domésticos.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "El leopardo es tan fuerte que puede subir su presa a un árbol para ponerla a salvo de otros predadores.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 2,4 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Asia y África",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "also-available-in-black",
+      "title": "También lo tenemos en negro",
+      "image": "assets/es/leop/LEOP01PU.webp",
+      "text": "Aunque mucha gente lo llama pantera negra, en realidad es un leopardo. Cuando un leopardo nace negro como éste decimos que es melánico, lo que significa que tiene más melanina (un pigmento oscuro de la piel) de lo que es habitual. Pero sigue teniendo manchas y las verás si te fijas bien en él.",
+      "narration": "assets/es/leop/LEOP01NP.mp3"
+    },
+    {
+      "id": "solitary-hunter",
+      "title": "Cazador solitario",
+      "image": "assets/es/leop/LEOP02PU.webp",
+      "text": "Como casi todos los felinos grandes, el leopardo caza en solitario perfectamente. Para tener carne abundante para él solo puede recorrer distancias muy largas acarreando un peso hasta del doble del suyo. Estos felinos prefieren estar solos y, salvo en el caso de una madre con sus cachorros, es muy difícil ver varios leopardos juntos.",
+      "narration": "assets/es/leop/LEOP02NP.mp3"
+    },
+    {
+      "id": "cold-region-cousin",
+      "title": "Un primo de las zonas frías",
+      "image": "assets/es/leop/LEOP03PU.webp",
+      "text": "Los nevados Himalayas y otras frías montañas asiáticas son el hogar de este hermoso pariente, el leopardo de las nieves, también llamado irbis. Es muy raro verlo, pues quedan muy pocos y además viven en zonas muy alejadas. Estos felinos están en peligro de extinción. No sólo los matan por su hermosa piel, sino también porque cuando no encuentran sus presas habituales a veces comen animales de granja.",
+      "narration": "assets/es/leop/LEOP03NP.mp3"
+    },
+    {
+      "id": "treetop-conference",
+      "title": "Reunión en la copa de un árbol",
+      "image": "assets/es/leop/LEOP04PU.webp",
+      "text": "Los leopardos se encuentran tan a gusto en el suelo como en los árboles, a los que pueden trepar incluso cuando acarrean una carga pesada. No es frecuente ver dos leopardos juntos: estos dos deben ser una madre con su cachorro crecido o una pareja que va a aparearse.",
+      "narration": "assets/es/leop/LEOP04NP.mp3"
+    },
+    {
+      "id": "old-world-new-world",
+      "title": "Viejo mundo, nuevo mundo",
+      "image": "assets/es/leop/LEOP05PU.webp",
+      "text": "Si estás en África y ves que cruza el bosque un felino grande y con manchas, es un leopardo. Pero si tienes la misma experiencia estando en Sudamérica, probablemente has visto un jaguar o tigre americano. Estos parientes manchados se parecen mucho a pesar de que viven en mundos separados. ¿Te das cuenta de que dentro de los \"círculos\" de la piel de un jaguar hay manchas, mientras que los de un leopardo están \"vacíos\"? Aunque su peso y longitud son similares, el leopardo es más esbelto que el jaguar o tigre americano.",
+      "captions": [
+        {
+          "label": "Jaguar o tigre americano",
+          "text": "Jaguar o tigre americano"
+        },
+        {
+          "label": "Leopardo",
+          "text": "Leopardo"
+        }
+      ],
+      "narration": "assets/es/leop/LEOP05NP.mp3"
+    },
+    {
+      "id": "getting-high",
+      "title": "En las alturas",
+      "image": "assets/es/leop/LEOP06PU.webp",
+      "text": "Un leopardo que quiere esconderse no se arrastra dentro de un agujero ni se mete a dormir entre unos arbustos: trepa a un árbol. Los leopardos utilizan los árboles como puesto de observación, para dormir y para esconder la carne que van a comer más tarde.",
+      "narration": "assets/es/leop/LEOP06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/leop/LEOP00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 2.37,
+            "y": 8.11,
+            "w": 9.48,
+            "h": 3.92
+          },
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 73,
+            "y": 2,
+            "w": 22,
+            "h": 14
+          },
+          {
+            "label": "En las alturas",
+            "to": "getting-high",
+            "x": 71.9,
+            "y": 5.29,
+            "w": 11.36,
+            "h": 4.56
+          },
+          {
+            "label": "Reunión en la copa de un árbol",
+            "to": "treetop-conference",
+            "x": 31.27,
+            "y": 12.87,
+            "w": 15.89,
+            "h": 4.13
+          },
+          {
+            "label": "Un cazador sigiloso",
+            "to": "video",
+            "x": 41,
+            "y": 20,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Cazador solitario",
+            "to": "solitary-hunter",
+            "x": 60,
+            "y": 30,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Un primo de las zonas frías",
+            "to": "cold-region-cousin",
+            "x": 10.34,
+            "y": 33.22,
+            "w": 24.01,
+            "h": 11.06
+          },
+          {
+            "label": "También lo tenemos en negro",
+            "to": "also-available-in-black",
+            "x": 7,
+            "y": 43,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Viejo mundo, nuevo mundo",
+            "to": "old-world-new-world",
+            "x": 10.02,
+            "y": 49.23,
+            "w": 17.14,
+            "h": 4.13
+          }
+        ]
+      },
+      "also-available-in-black": {
+        "image": "assets/es/leop/LEOP01PU.webp",
+        "back": "main"
+      },
+      "solitary-hunter": {
+        "image": "assets/es/leop/LEOP02PU.webp",
+        "back": "main"
+      },
+      "cold-region-cousin": {
+        "image": "assets/es/leop/LEOP03PU.webp",
+        "back": "main"
+      },
+      "treetop-conference": {
+        "image": "assets/es/leop/LEOP04PU.webp",
+        "back": "main"
+      },
+      "old-world-new-world": {
+        "image": "assets/es/leop/LEOP05PU.webp",
+        "back": "main"
+      },
+      "getting-high": {
+        "image": "assets/es/leop/LEOP06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/leop/LEOP00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/leop/clip.mp4",
+        "poster": "assets/es/leop/LEOP07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/leop/narration.mp3",
+  "sound": "assets/es/leop/LEOP00AF.mp3",
+  "factsNarration": "assets/es/leop/LEOP00FB.mp3",
+  "video": {
+    "title": "Un cazador sigiloso",
+    "src": "assets/es/leop/clip.mp4",
+    "poster": "assets/es/leop/poster.webp",
+    "caption": "Los leopardos son cazadores solitarios y furtivos que se esconden para emboscar a sus presas, en lugar de perseguirlas. Matan animales bastante pequeños, como liebres, facóqueros o jabalíes verrucosos, aves terrestres, antílopes pequeños y monos. Las presas grandes (como cebras, ñues y búfalos) son abatidas por los que cazan en manada: leones, hienas y licaones (lobos pintados africanos)."
+  }
+}

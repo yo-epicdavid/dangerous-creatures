@@ -8,7 +8,10 @@ import os, glob, json, subprocess
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 WEB = os.path.abspath(os.path.join(HERE, "..", "web"))
-DISC = "/Volumes/DANGEROUS"
+DISC = os.environ.get("DISC", "/Volumes/DANGEROUS")
+LOCALE = os.environ.get("LOCALE", "")   # "" = English, "es" = Castilian Spanish (web/assets/es/)
+ASSETS = os.path.join(WEB, "assets", LOCALE) if LOCALE else os.path.join(WEB, "assets")
+MANIFEST = os.path.join(WEB, f"extracted-manifest-{LOCALE}.json" if LOCALE else "extracted-manifest.json")
 FF = "/opt/homebrew/bin/ffmpeg"
 
 
@@ -17,11 +20,11 @@ def to_mp3(src, dst):
 
 
 def main():
-    manifest = json.load(open(os.path.join(WEB, "extracted-manifest.json")))
+    manifest = json.load(open(MANIFEST))
     np_n = af_n = fb_n = 0
     for slug, info in manifest.items():
         code = info["code"]
-        out = os.path.join(WEB, "assets", slug)
+        out = os.path.join(ASSETS, slug)
         os.makedirs(out, exist_ok=True)
         # sub-topic narration: AANPOP/<bucket>/<CODE>{n}NP.WAV
         for wav in sorted(glob.glob(os.path.join(DISC, "AANPOP", "**", f"{code}*NP.WAV"), recursive=True)):

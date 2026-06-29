@@ -1,0 +1,253 @@
+{
+  "id": "jagu",
+  "code": "JAGU",
+  "name": "Jaguar o tigre americano",
+  "scientificName": "Panthera onca",
+  "needsScientificVerify": false,
+  "tagline": "El rey manchado de la selva que te mira fijamente con sus ojos amarillos... ¡y luego desaparece entre las sombras!",
+  "weapons": [
+    "Dientes y mandíbulas"
+  ],
+  "habitats": [
+    "Selva tropical"
+  ],
+  "regions": [
+    "Norteamérica",
+    "Centroamérica",
+    "Sudamérica"
+  ],
+  "hero": {
+    "image": "assets/es/jagu/JAGU00AA.webp",
+    "alt": "Jaguar o tigre americano"
+  },
+  "intro": "Desde hace siglos se han contado historias sobre jaguares o tigres americanos que han seguido el rastro del hombre en la selva. Imagina que oyes crujir las ramas, te das la vuelta y... ¡ves que te miran fijamente unos ojos fieros y amarillos! Pero la verdad es que el jaguar no ataca al hombre: lo asusta y luego desaparece. Los expertos creen que, cuando actúan de esa manera, lo único que pretenden los felinos grandes es expulsar de su territorio a los humanos intrusos.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Atraviesa de un bocado el cráneo de la víctima.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Principalmente mamíferos, pero también peces, aves, tortugas y sus huevos.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Para encontrar un jaguar, busca un río o arroyo tropical. A este tímido felino le gusta nadar y pescar. ¡Como llega a pesar más de 150 kilos, produce buenas salpicaduras!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 2,5 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: México, Centroamérica y Sudamérica",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "spots-before-your-eyes",
+      "title": "Manchas ante los ojos",
+      "image": "assets/es/jagu/JAGU01PU.webp",
+      "text": "¿Eres capaz de diferenciar a estos felinos moteados? Examina atentamente su pelaje. Todos tienen manchas, pero las de cada uno son diferentes.",
+      "captions": [
+        {
+          "label": "Piel de guepardo",
+          "text": "Piel de guepardo"
+        },
+        {
+          "label": "Piel de jaguar o tigre americano",
+          "text": "Piel de jaguar o tigre americano"
+        },
+        {
+          "label": "Piel de ocelote o tigrillo",
+          "text": "Piel de ocelote o tigrillo"
+        },
+        {
+          "label": "Piel de leopardo",
+          "text": "Piel de leopardo"
+        }
+      ],
+      "narration": "assets/es/jagu/JAGU01NP.mp3"
+    },
+    {
+      "id": "hiding-out",
+      "title": "Ocultamiento",
+      "image": "assets/es/jagu/JAGU02PU.webp",
+      "text": "¿Alguna vez has observado en un bosque el juego de luces y sombras? Por su causa es tan difícil ver allí a los felinos moteados: la alternancia de zonas de luz y de sombra interrumpe el perfil del animal, que así se funde con el medio ambiente. Este jaguar, o tigre americano, está perfectamente camuflado. Mientras permanezca inmóvil, los otros animales no se darán cuenta de su presencia.",
+      "narration": "assets/es/jagu/JAGU02NP.mp3"
+    },
+    {
+      "id": "super-jock",
+      "title": "Un saltimbanqui de primera",
+      "image": "assets/es/jagu/JAGU03PU.webp",
+      "text": "Como todos los felinos cazadores, los jaguares o tigres americanos son grandes trepadores y saltadores. Les gusta acechar ocultos en los arbustos. Otra de sus técnicas de caza favoritas es subir a los árboles para dominar los senderos y saltar sobre los animales que pasan por debajo. ¡Imagínate a este felino saltando sobre ti!",
+      "narration": "assets/es/jagu/JAGU03NP.mp3"
+    },
+    {
+      "id": "on-the-menu",
+      "title": "En el menú",
+      "image": "assets/es/jagu/JAGU04PU.webp",
+      "text": "El jaguar o tigre americano necesita mucha carne para mantener en forma su cuerpo musculoso. Puede comer animales de muchas clases (incluidos los que ves aquí) y es famoso por sus técnicas de caza.",
+      "captions": [
+        {
+          "label": "Caimán o Yacaré",
+          "text": "Caimán o Yacaré"
+        },
+        {
+          "label": "Pez gato amazónico",
+          "text": "Pez gato amazónico"
+        },
+        {
+          "label": "Tapiro danta",
+          "text": "Tapiro danta"
+        }
+      ],
+      "narration": "assets/es/jagu/JAGU04NP.mp3"
+    },
+    {
+      "id": "another-jungle-cat",
+      "title": "Otro felino de la jungla",
+      "image": "assets/es/jagu/JAGU05PU.webp",
+      "text": "Un jaguar puede encontrarse con un ocelote o tigrillo pues los dos recorren los bosques y montes bajos de Centroamérica. Pero el ocelote debería evitar ese encuentro con su primo. Un ocelote pesa poco en comparación con un jaguar o tigre americano... ¡Pero para éste es una comida aceptable!",
+      "narration": "assets/es/jagu/JAGU05NP.mp3"
+    },
+    {
+      "id": "art-object",
+      "title": "Objeto artístico",
+      "image": "assets/es/jagu/JAGU06PU.webp",
+      "text": "A lo largo de la historia, diversas culturas han considerado a los grandes felinos como símbolos de fuerza e inteligencia. Encontramos felinos en pinturas, estatuas y relieves de todo el mundo.",
+      "captions": [
+        {
+          "label": "El culto al jaguar o tigre americano",
+          "text": "Los mayas y los aztecas, antiguos gobernantes de México y Centroamérica, rendían culto a los jaguares. Esta estatua maya de Chichén Itzá está engastada con jade. El cuenco que lleva a la espalda es para las ofrendas."
+        }
+      ],
+      "narration": "assets/es/jagu/JAGU06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/jagu/JAGU00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 4.4,
+            "y": 9.41,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "En el menú",
+            "to": "on-the-menu",
+            "x": 85.81,
+            "y": 23.26,
+            "w": 11.83,
+            "h": 4.13
+          },
+          {
+            "label": "Un saltimbanqui de primera",
+            "to": "super-jock",
+            "x": 86.27,
+            "y": 37.76,
+            "w": 8.86,
+            "h": 4.13
+          },
+          {
+            "label": "Objeto artístico",
+            "to": "art-object",
+            "x": 87.99,
+            "y": 51.83,
+            "w": 8.23,
+            "h": 4.13
+          },
+          {
+            "label": "Solitarios",
+            "to": "video",
+            "x": 26,
+            "y": 59,
+            "w": 14,
+            "h": 6
+          },
+          {
+            "label": "Otro felino de la jungla",
+            "to": "another-jungle-cat",
+            "x": 18,
+            "y": 67,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "Ocultamiento",
+            "to": "hiding-out",
+            "x": 71.9,
+            "y": 65.03,
+            "w": 9.64,
+            "h": 4.56
+          },
+          {
+            "label": "Manchas ante los ojos",
+            "to": "spots-before-your-eyes",
+            "x": 24.71,
+            "y": 72.39,
+            "w": 18.86,
+            "h": 3.48
+          }
+        ]
+      },
+      "spots-before-your-eyes": {
+        "image": "assets/es/jagu/JAGU01PU.webp",
+        "back": "main"
+      },
+      "hiding-out": {
+        "image": "assets/es/jagu/JAGU02PU.webp",
+        "back": "main"
+      },
+      "super-jock": {
+        "image": "assets/es/jagu/JAGU03PU.webp",
+        "back": "main"
+      },
+      "on-the-menu": {
+        "image": "assets/es/jagu/JAGU04PU.webp",
+        "back": "main"
+      },
+      "another-jungle-cat": {
+        "image": "assets/es/jagu/JAGU05PU.webp",
+        "back": "main"
+      },
+      "art-object": {
+        "image": "assets/es/jagu/JAGU06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/jagu/JAGU00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/jagu/clip.mp4",
+        "poster": "assets/es/jagu/JAGU07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/jagu/narration.mp3",
+  "sound": "assets/es/jagu/JAGU00AF.mp3",
+  "factsNarration": "assets/es/jagu/JAGU00FB.mp3",
+  "video": {
+    "title": "Solitarios",
+    "src": "assets/es/jagu/clip.mp4",
+    "poster": "assets/es/jagu/poster.webp",
+    "caption": "Los jaguares o tigres americanos merodean solos por los bosques. Todos los felinos, con independencia de su tamaño, son excepcionales cazadores, por lo que pueden sobrevivir por sí solos. A excepción de los leones, que viven y cazan en grupos, y de las madres acompañadas de sus cachorros, la mayoría de los felinos lleva una vida solitaria."
+  }
+}

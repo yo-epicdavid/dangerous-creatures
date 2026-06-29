@@ -1,0 +1,319 @@
+{
+  "id": "arow",
+  "code": "AROW",
+  "name": "Ranita venenosa",
+  "scientificName": "Phyllobates terribilis",
+  "needsScientificVerify": false,
+  "tagline": "Tan pequeña como un pulgar y tan letal como un rayo: ¡una sola rana tiene veneno suficiente para matar a 100 personas!",
+  "weapons": [
+    "Veneno y ponzoña"
+  ],
+  "habitats": [
+    "Selva tropical"
+  ],
+  "regions": [
+    "Centroamérica",
+    "Sudamérica"
+  ],
+  "hero": {
+    "image": "assets/es/arow/AROW00AA.webp",
+    "alt": "Ranita venenosa"
+  },
+  "intro": "El veneno más poderoso que se conoce lo produce uno de estos diminutos animales en forma de alhaja. Una cantidad menor que un grano de sal puede matar a un hombre. Algunos pueblos de la selva utilizan la toxina de la ranita venenosa para fabricar armas mortíferas. Sin embargo, estas ranas sociales del centro y el sur de América son inofensivas si no se las molesta.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Como defensa rezuma veneno por la piel.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Insectos pequeños, arañas y crustáceos.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Este colorido animal recibe en América el nombre de \"rana de flecha envenenada\" porque los indios sudamericanos untaban con su veneno la punta de las flechas. Una rana pequeña tiene suficiente veneno para matar a 100 personas.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 5 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: Centroamérica y Sudamérica",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "colorful-cousins",
+      "title": "Parientes coloristas",
+      "image": "assets/es/arow/AROW01PU.webp",
+      "text": "¡Ni siquiera un científico podría saber con exactitud a qué especie pertenece cada una de estas ranas! Las ranitas venenosas y sus parientes de Madagascar, las ranitas doradas, son policromáticas, lo que significa que ranas pertenecientes al mismo grupo pueden tener colores o dibujos diferentes.",
+      "narration": "assets/es/arow/AROW01NP.mp3"
+    },
+    {
+      "id": "babes-in-the-woods",
+      "title": "Crías en el bosque",
+      "image": "assets/es/arow/AROW02PU.webp",
+      "text": "Las ranitas venenosas son ranas de bosque. En vez de volver al agua para reproducirse, ponen los huevos en una hoja o un trozo de tierra, que han despejado cuidadosamente, y después vigilan los huevos hasta que salen los renacuajos.",
+      "captions": [
+        {
+          "label": "Transporte de renacuajos",
+          "text": "Cuando los huevos eclosionan, los renacuajos se suben a la espalda de uno de sus padres. El adulto los transporta cuidadosamente, a veces de uno en uno, hasta un diminuto charco de agua que se forma en las hojas de unas plantas llamadas bromeliáceas."
+        },
+        {
+          "label": "Las crías de las bromeliáceas",
+          "text": "No hay mucho alimento en el charco de una bromeliácea. Así que la madre rana va a ver todos los días a sus renacuajos y pone huevos sin fertilizar para que se alimenten hasta que crezcan."
+        },
+        {
+          "label": "Por su cuenta",
+          "text": "Cuando pierden la cola y las branquias, las ranas jóvenes salen de la bromeliácea, pues tienen que buscar comida."
+        }
+      ],
+      "narration": "assets/es/arow/AROW02NP.mp3"
+    },
+    {
+      "id": "the-most-poisonous",
+      "title": "La más venenosa",
+      "image": "assets/es/arow/AROW03PU.webp",
+      "text": "Un animal no tiene porqué ser grande para resultar peligroso. ¡Algunas de las criaturas más mortíferas del mundo son diminutas y parecen tan inofensivas como las flores!",
+      "captions": [
+        {
+          "label": "No molestar",
+          "text": "Un pulpo anillado azul australiano es tan pequeño que puede esconderse dentro de una concha. Pero su mordisco puede matar a un ser humano en menos de dos horas."
+        },
+        {
+          "label": "Ranita terrible",
+          "text": "No cojas nunca una rana amarilla, no vaya a ser ésta cuyo nombre latino científico significa \"ranita venenosa terrible\". ¡La toxina que hay en la piel de una sola de estas diminutas ranas podría matar a miles de ratones!"
+        }
+      ],
+      "narration": "assets/es/arow/AROW03NP.mp3"
+    },
+    {
+      "id": "forest-frogs",
+      "title": "Ranas del bosque",
+      "image": "assets/es/arow/AROW04PU.webp",
+      "text": "Cuando pensamos en ranas las solemos imaginar en lagos y ríos. Pero muchas ranas ocupan en el mundo una posición más elevada: pasan toda la vida en los árboles.",
+      "captions": [
+        {
+          "label": "Camufladas",
+          "text": "El colorido de estas ranas arbóreas norteamericanas permite confundirse con las hojas moteadas por los rayos del sol."
+        },
+        {
+          "label": "Firmemente pegadas",
+          "text": "Las ranas que viven en el agua tienen patas palmeadas para nadar mejor. Pero las de los árboles, como las dos jóvenes ranas arborícolas de White que ves a la derecha, tienen almohadillas adhesivas al extremo de los dedos, para sujetarse a las hojas y las ramas."
+        }
+      ],
+      "narration": "assets/es/arow/AROW04NP.mp3"
+    },
+    {
+      "id": "hide-and-seek",
+      "title": "Jugando al escondite",
+      "image": "assets/es/arow/AROW05PU.webp",
+      "text": "Las ranas arborícolas pasan el tiempo cazando presas y escondiéndose de los predadores. Al colgarse de una hoja grande y ocultarse debajo, consiguen al mismo tiempo un refugio y un buen puesto de observación.",
+      "captions": [
+        {
+          "label": "Rana de la selva tropical",
+          "text": "Esta rana arbórea de ojos rojos vive en las selvas tropicales de México, Costa Rica y Panamá."
+        }
+      ],
+      "narration": "assets/es/arow/AROW05NP.mp3"
+    },
+    {
+      "id": "duckbilled-cousins",
+      "title": "Los parientes de pico de pato",
+      "image": "assets/es/arow/AROW06PU.webp",
+      "text": "Estas extrañas ranas arborícolas de Belice tienen las cejas huesudas y el labio superior protuberante. A lo mejor gracias a ese pico de pato los predadores las confunden con hojas o con una corteza de árbol. Como todas las ranas arborícolas, tienen los ojos grandes.",
+      "narration": "assets/es/arow/AROW06NP.mp3"
+    },
+    {
+      "id": "disappearing-fast",
+      "title": "Desapareciendo rápidamente",
+      "image": "assets/es/arow/AROW07PU.webp",
+      "text": "Quizás no vuelva a verse una reunión como la que observas en esta fotografía. En la época de apareamiento, muchos anfibios se reúnen en grandes grupos, como estos sapos dorados. Pero recientemente han dejado de producirse muchos de estos agrupamientos e incluso hay lugares en los que han desaparecido las ranas y los sapos. A los científicos les preocupa que sea una señal de advertencia de la inminencia de un desastre medioambiental.",
+      "narration": "assets/es/arow/AROW07NP.mp3"
+    },
+    {
+      "id": "eyes-and-ears",
+      "title": "Ojos y oídos",
+      "image": "assets/es/arow/AROW08PU.webp",
+      "text": "Es evidente que las ranas tienen ojos; de hecho, diferentes ranas tienen distintos ojos. ¿Pero tienen oídos? En realidad, los anfibios, grupo en el que se incluyen las ranas, fueron los primeros animales en tener oídos auténticos. Sin embargo, sus oídos no sobresalen como los nuestros. Excepto por una marca circular que a veces es visible detrás de los ojos, los oídos de una rana son internos.",
+      "narration": "assets/es/arow/AROW08NP.mp3"
+    },
+    {
+      "id": "underwater-senses",
+      "title": "Sentidos subacuáticos",
+      "image": "assets/es/arow/AROW09PU.webp",
+      "text": "Muchos de los animales que viven en el agua tienen un sistema especial de sensores, llamado línea lateral, capaces de detectar cambios en la presión del agua. Les permite saber que hay un objeto o animal cerca. Puedes ver fácilmente los sensores de la línea lateral, llamados placas, en este renacuajo y en este sapo acuático adulto.",
+      "narration": "assets/es/arow/AROW09NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/arow/AROW00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 1,
+            "y": 1,
+            "w": 9,
+            "h": 12
+          },
+          {
+            "label": "Ojos y oídos",
+            "to": "eyes-and-ears",
+            "x": 7.37,
+            "y": 5.94,
+            "w": 19.64,
+            "h": 8.46
+          },
+          {
+            "label": "Parientes coloristas",
+            "to": "colorful-cousins",
+            "x": 50.34,
+            "y": 10.49,
+            "w": 5.26,
+            "h": 3.48
+          },
+          {
+            "label": "Sentidos subacuáticos",
+            "to": "underwater-senses",
+            "x": 50.34,
+            "y": 10.49,
+            "w": 7.61,
+            "h": 8.03
+          },
+          {
+            "label": "Ranas del bosque",
+            "to": "forest-frogs",
+            "x": 11.43,
+            "y": 21.31,
+            "w": 10.26,
+            "h": 10.63
+          },
+          {
+            "label": "Jugando al escondite",
+            "to": "hide-and-seek",
+            "x": 3.62,
+            "y": 22.61,
+            "w": 17.92,
+            "h": 11.06
+          },
+          {
+            "label": "Los parientes de pico de pato",
+            "to": "duckbilled-cousins",
+            "x": 61.59,
+            "y": 52.48,
+            "w": 20.42,
+            "h": 10.63
+          },
+          {
+            "label": "Crías en el bosque",
+            "to": "babes-in-the-woods",
+            "x": 61.9,
+            "y": 58.97,
+            "w": 20.11,
+            "h": 10.84
+          },
+          {
+            "label": "Cada vez menos...",
+            "to": "video",
+            "x": 55,
+            "y": 69,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Desapareciendo rápidamente",
+            "to": "disappearing-fast",
+            "x": 62.99,
+            "y": 75.21,
+            "w": 18.39,
+            "h": 9.33
+          },
+          {
+            "label": "La más venenosa",
+            "to": "the-most-poisonous",
+            "x": 63.31,
+            "y": 76.72,
+            "w": 18.08,
+            "h": 7.81
+          },
+          {
+            "label": "Fighting Back",
+            "x": 89.09,
+            "y": 10.92,
+            "w": 10.26,
+            "h": 4.35,
+            "link": "browse.html?tab=weapons#venom-poison"
+          }
+        ]
+      },
+      "colorful-cousins": {
+        "image": "assets/es/arow/AROW01PU.webp",
+        "back": "main"
+      },
+      "babes-in-the-woods": {
+        "image": "assets/es/arow/AROW02PU.webp",
+        "back": "main"
+      },
+      "the-most-poisonous": {
+        "image": "assets/es/arow/AROW03PU.webp",
+        "back": "main"
+      },
+      "forest-frogs": {
+        "image": "assets/es/arow/AROW04PU.webp",
+        "back": "main"
+      },
+      "hide-and-seek": {
+        "image": "assets/es/arow/AROW05PU.webp",
+        "back": "main"
+      },
+      "duckbilled-cousins": {
+        "image": "assets/es/arow/AROW06PU.webp",
+        "back": "main"
+      },
+      "disappearing-fast": {
+        "image": "assets/es/arow/AROW07PU.webp",
+        "back": "main"
+      },
+      "eyes-and-ears": {
+        "image": "assets/es/arow/AROW08PU.webp",
+        "back": "main"
+      },
+      "underwater-senses": {
+        "image": "assets/es/arow/AROW09PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/arow/AROW00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/arow/clip.mp4",
+        "poster": "assets/es/arow/AROW10TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/arow/narration.mp3",
+  "sound": "assets/es/arow/AROW00AF.mp3",
+  "factsNarration": "assets/es/arow/AROW00FB.mp3",
+  "video": {
+    "title": "Cada vez menos...",
+    "src": "assets/es/arow/clip.mp4",
+    "poster": "assets/es/arow/poster.webp",
+    "caption": "Según los científicos de todo el mundo, las ranas son más difíciles de encontrar cada año. Esto podría deberse al hecho de que, como todos los anfibios, las ranas absorben aire y líquidos a través de la piel y de la boca, por lo que son especialmente vulnerables a la contaminación y a otros cambios medioambientales."
+  }
+}

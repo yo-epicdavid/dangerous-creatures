@@ -1,0 +1,265 @@
+{
+  "id": "aant",
+  "code": "AANT",
+  "name": "Hormiga guerrera",
+  "scientificName": "Eciton burchellii",
+  "needsScientificVerify": false,
+  "tagline": "¡Un ejército de millones de bocas hambrientas que no deja nada en pie a su paso!",
+  "weapons": [
+    "Dientes y mandíbulas",
+    "Ataques en grupo"
+  ],
+  "habitats": [
+    "Selva tropical",
+    "Praderas y sabanas"
+  ],
+  "regions": [
+    "África",
+    "Asia",
+    "Centroamérica",
+    "Sudamérica",
+    "Australia y Oceanía"
+  ],
+  "hero": {
+    "image": "assets/es/aant/AANT00AA.webp",
+    "alt": "Hormiga guerrera"
+  },
+  "intro": "Las hormigas guerreras marchan, como soldados diminutos, en una fila... ¡de hasta 30 millones de hormigas! Comerán cualquier ser vivo que no se aparte rápidamente, cubriéndolo por completo y devorándolo. Sobre todo comen invertebrados, incluso tarántulas y escorpiones. Pero algunas hormigas guerreras africanas tienen unas mandíbulas afiladas y cortantes con las que en menos de tres días pueden dejar en los huesos a un rinoceronte muerto.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Se lanzan por miles y a pequeños bocados acaban con la víctima.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Insectos, mamíferos o reptiles de movimientos lentos y animales muertos.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Algunas hormigas guerreras forman con su propio cuerpo un «puente vivo» por el que las demás pueden cruzar un río, aunque son capaces de permanecer bajo el agua hasta 18 horas.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 2,5 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Centroamérica y Sudamérica, África, India, Australia, Asia Tropical",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "all-for-one-and-one-for-all",
+      "title": "Todos para uno y uno para todos",
+      "image": "assets/es/aant/AANT01PU.webp",
+      "text": "Las hormigas se unen en grupos llamados colonias. Cada colonia se organiza de forma que todas las hormigas compartan el trabajo que hay que hacer, como comparten también el alimento. Si una está hambrienta y otra tiene el estómago lleno, ésta vomitará una parte para que coma la primera.",
+      "captions": [
+        {
+          "label": "Ganaderos de pulgones",
+          "text": "Algunas hormigas cuidan de los áfidos y a cambio se beben el líquido dulce que producen éstos."
+        },
+        {
+          "label": "Un mundo en miniatura",
+          "text": "Con una lupa podrás ver que nos rodean millones de plantas y animales diminutos."
+        }
+      ],
+      "narration": "assets/es/aant/AANT01NP.mp3"
+    },
+    {
+      "id": "whats-hymenoptera",
+      "title": "¿Qué son los himenópteros?",
+      "image": "assets/es/aant/AANT02PU.webp",
+      "text": "Esta palabra significa «membranoso y alado» y es el nombre del grupo de insectos que incluye a las hormigas (los machos y las reinas tienen alas), abejas y avispas. Casi todos los himenópteros tienen la cintura delgada y suelen vivir en colonias. Los aguijones de las abejas y avispas son en realidad órganos ovoposítores modificados: por eso si te han picado sabrás que fue una hembra.",
+      "captions": [
+        {
+          "label": "Hormigas de la madera",
+          "text": "Las hormigas no pican, pero muerden con fuertes mandíbulas. Y por si fuera poco, algunas lanzan ácido en la herida."
+        },
+        {
+          "label": "Avispas",
+          "text": "A muchas abejas y avispas les encanta la fruta dulce. Si no quieres atraer a estos insectos, no uses perfumes ni lociones, ¡pues podrían tomarte por un bocado delicioso!"
+        },
+        {
+          "label": "Abejorro",
+          "text": "Si no tuviéramos abejas tampoco tendríamos tanta fruta, pues muchas flores quedarían sin polinizar."
+        }
+      ],
+      "narration": "assets/es/aant/AANT02NP.mp3"
+    },
+    {
+      "id": "communal-living",
+      "title": "Vida comunal",
+      "image": "assets/es/aant/AANT03PU.webp",
+      "text": "¡Que un insecto sea social no significa que se reúna con los demás para tomar el té! Los insectos sociales (como las hormigas, termitas y algunas abejas y avispas) forman una colonia y se dividen el trabajo. La mayoría de las tareas las realizan las hembras estériles (que no pueden reproducirse); el trabajo principal de los machos es el de fertilizar a la reina, que pasa la mayor parte de su vida poniendo huevos.",
+      "captions": [
+        {
+          "label": "La máquina ponedora",
+          "text": "La mancha blanca que ves debajo es el abdomen de la termita reina. La reina no sale nunca."
+        }
+      ],
+      "narration": "assets/es/aant/AANT03NP.mp3"
+    },
+    {
+      "id": "insect-architects",
+      "title": "Insectos arquitectos",
+      "image": "assets/es/aant/AANT04PU.webp",
+      "text": "Los insectos sociales, como las hormigas, abejas, avispas y termitas, a veces construyen complicados nidos, como los que ves aquí. Las hormigas guerreras son una excepción: la colonia no tiene un hogar permanente, aunque la forma un grupo numeroso. Las hormigas guerreras están siempre en movimiento.",
+      "captions": [
+        {
+          "label": "El apartamento de la avispa",
+          "text": "La avispa del papel [Polistes dorsalis] construye el nido con fibra de papel que fabrica ella misma masticando madera. Dentro del nido están las celdas para los huevos y las larvas. Otras especies de avispas hacen el nido bajo tierra, cavando en el suelo tantos agujeros como vayan necesitando. ¡Pero tanto si están sobre el suelo o debajo de él, los nidos de las avispas constituyen una arquitectura de insecto sorprendente!"
+        },
+        {
+          "label": "La torre de termitas",
+          "text": "Nadie sabe con certeza la razón de que algunas termitas africanas construyan nidos como éste, en forma de paraguas."
+        }
+      ],
+      "narration": "assets/es/aant/AANT04NP.mp3"
+    },
+    {
+      "id": "on-the-move",
+      "title": "En marcha",
+      "image": "assets/es/aant/AANT05PU.webp",
+      "text": "Las hormigas guerreras no anidan bajo tierra como las otras, sino que forman el nido con sus propios cuerpos. Decenas de miles de ellas entrelazan las patas formando una bola enorme, en cuyo centro hay un espacio hueco que ocupa la reina. A veces algunas entrelazan sus cuerpos formando puentes vivientes que cruzan las otras hormigas.",
+      "narration": "assets/es/aant/AANT05NP.mp3"
+    },
+    {
+      "id": "anteaters",
+      "title": "Osos hormigueros",
+      "image": "assets/es/aant/AANT06PU.webp",
+      "text": "Todas las hormigas temen a los osos hormigueros, que abren agujeros en los nidos con sus garras afiladas para introducir la lengua, larga y pegajosa, y atrapar hormigas. Este peculiar oso hormiguero ovíparo, llamado equidna, caza hormigas, termitas y gusanos, y vive en Australia y en las islas cercanas.",
+      "captions": [
+        {
+          "label": "Gran oso hormiguero",
+          "text": "Hacen falta muchos insectos (piensa en unas 30.000 hormigas o termitas al día) para satisfacer el apetito de este gran oso hormiguero, que vive en Sudamérica. ¡Del hocico a la cola, puede alcanzar los 2 metros!"
+        }
+      ],
+      "narration": "assets/es/aant/AANT06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/aant/AANT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.81,
+            "y": 8.76,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Todos para uno y uno para todos",
+            "to": "all-for-one-and-one-for-all",
+            "x": 8,
+            "y": 52,
+            "w": 42,
+            "h": 6
+          },
+          {
+            "label": "¿Qué son los himenópteros?",
+            "to": "whats-hymenoptera",
+            "x": 59.4,
+            "y": 29.32,
+            "w": 18.7,
+            "h": 3.48
+          },
+          {
+            "label": "Osos hormigueros",
+            "to": "anteaters",
+            "x": 71,
+            "y": 50,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "En marcha",
+            "to": "on-the-move",
+            "x": 71,
+            "y": 60,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Vida comunal",
+            "to": "communal-living",
+            "x": 71,
+            "y": 69,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Insectos arquitectos",
+            "to": "insect-architects",
+            "x": 71,
+            "y": 79,
+            "w": 25,
+            "h": 6
+          },
+          {
+            "label": "Enjambres temibles",
+            "to": "video",
+            "x": 2,
+            "y": 89,
+            "w": 22,
+            "h": 7
+          }
+        ]
+      },
+      "all-for-one-and-one-for-all": {
+        "image": "assets/es/aant/AANT01PU.webp",
+        "back": "main"
+      },
+      "whats-hymenoptera": {
+        "image": "assets/es/aant/AANT02PU.webp",
+        "back": "main"
+      },
+      "communal-living": {
+        "image": "assets/es/aant/AANT03PU.webp",
+        "back": "main"
+      },
+      "insect-architects": {
+        "image": "assets/es/aant/AANT04PU.webp",
+        "back": "main"
+      },
+      "on-the-move": {
+        "image": "assets/es/aant/AANT05PU.webp",
+        "back": "main"
+      },
+      "anteaters": {
+        "image": "assets/es/aant/AANT06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/aant/AANT00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/aant/clip.mp4",
+        "poster": "assets/es/aant/AANT07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/aant/narration.mp3",
+  "sound": "assets/es/aant/AANT00AF.mp3",
+  "factsNarration": "assets/es/aant/AANT00FB.mp3",
+  "video": {
+    "title": "Enjambres temibles",
+    "src": "assets/es/aant/clip.mp4",
+    "poster": "assets/es/aant/poster.webp",
+    "caption": "Las hormigas son demasiado débiles para enfrentarse solas a animales más grandes. Por eso los atacan en enjambres de varios cientos, mordiendo todas a la vez. Las hormigas guerreras africanas (también conocidas como hormigas «conductoras» o «soldados») tienen fuertes mandíbulas que parecen espadas curvas."
+  }
+}

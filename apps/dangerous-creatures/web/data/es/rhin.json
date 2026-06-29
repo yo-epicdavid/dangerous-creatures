@@ -1,0 +1,235 @@
+{
+  "id": "rhin",
+  "code": "RHIN",
+  "name": "Rinoceronte",
+  "scientificName": "Diceros bicornis",
+  "needsScientificVerify": false,
+  "tagline": "¡Dos toneladas de cuerno y mal genio que embisten sin avisar!",
+  "weapons": [
+    "Cuernos, colmillos y embestidas"
+  ],
+  "habitats": [
+    "Praderas y sabanas",
+    "Bosques"
+  ],
+  "regions": [
+    "África",
+    "Asia"
+  ],
+  "hero": {
+    "image": "assets/es/rhin/RHIN00AA.webp",
+    "alt": "Rinoceronte"
+  },
+  "intro": "Si tiene dudas, ¡embiste! Es la regla que sigue un rinoceronte enfadado. Estos tanques armados vivientes tienen buen oído y un olfato muy desarrollado, pero muy mala vista. A veces cargan a ciegas, furiosos y resoplando, antes de ver dónde está el intruso e incluso sin saber si es un enemigo.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Se defiende embistiendo con el cuerno.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Ramas, hojas, juncos y hierbas.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Un rinoceronte de 900 kg parece lento, pero éste \"tanque viviente\" corre tan rápido como un caballo, ¡hasta 56 km por hora!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 3,8 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "África, India, Sudeste Asiático",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "heavyweight-duel",
+      "title": "Duelo de pesos pesados",
+      "image": "assets/es/rhin/RHIN01PU.webp",
+      "text": "Los rinocerontes machos marcan su territorio con montones de excremento, llamados muladares. Cuando un macho encuentra a otro dentro de su territorio, se suelen mirar fijamente el uno al otro durante un rato. Si ninguno retrocede, comienza la lucha. Un golpe ascendente del cuerno de un rinoceronte puede abrir un gran boquete en el cuerpo del oponente.",
+      "narration": "assets/es/rhin/RHIN01NP.mp3"
+    },
+    {
+      "id": "white-rhinos",
+      "title": "Rinocerontes blancos",
+      "image": "assets/es/rhin/RHIN02PU.webp",
+      "text": "Si esperas que un rinoceronte blanco sea de ese color, te llevarás una decepción. El término proviene de una mala interpretación de la palabra en afrikáan que significa \"ancho\", y se refiere a los labios anchos y cuadrados de este rinoceronte. La boca de un rinoceronte \"blanco\" o de labios cuadrados está hecha para pastar, mientras que a un rinoceronte negro su labio superior puntiagudo le permite comer diversas plantas e incluso ramonear.",
+      "narration": "assets/es/rhin/RHIN02NP.mp3"
+    },
+    {
+      "id": "wallowing-around",
+      "title": "Revolcándose",
+      "image": "assets/es/rhin/RHIN03PU.webp",
+      "text": "A todos los rinocerontes les gusta un buen revolcón en el lodo o el polvo. Lo hacen para quitarse los ácaros de la piel, o simplemente para encontrarse bien. Los rinocerontes no pueden dar una vuelta completa sobre la espalda por su columna vertebral alta e irregular, pero siempre que pueden frotan contra el suelo el vientre, los costados y la cabeza.",
+      "narration": "assets/es/rhin/RHIN03NP.mp3"
+    },
+    {
+      "id": "more-valuable-than-gold",
+      "title": "¡Valen más que el oro!",
+      "image": "assets/es/rhin/RHIN04PU.webp",
+      "text": "Tanto los rinocerontes blancos como los negros han sido masacrados por su cuerno. Algunos cuernos se venden en Asia, ya que algunas culturas asiáticas creen que el polvo de cuerno de rinoceronte puede curar todo tipo de enfermedades. Muchos cuernos acaban en Yemen, donde se utilizan para hacer mangos de cuchillo. A veces un gramo de cuerno vale más que uno de oro. Hoy en día, la mayoría de los gobiernos africanos están tratando de impedir la matanza de rinocerontes.",
+      "narration": "assets/es/rhin/RHIN04NP.mp3"
+    },
+    {
+      "id": "dangerous-herbivores",
+      "title": "Herbívoros peligrosos",
+      "image": "assets/es/rhin/RHIN05PU.webp",
+      "text": "Quizá pienses que un herbívoro no es un animal peligroso. Pero, lo mismo que los rinocerontes, estos herbívoros africanos pueden ser una auténtica amenaza cuando están enfadados.",
+      "captions": [
+        {
+          "label": "Elefantes africanos",
+          "text": "Un elefante africano puede pesar 6.000 kilogramos y posee colmillos afilados y una trompa fuerte. Las hembras son más pequeñas, pero pueden ser igual de agresivas si te acercas demasiado al rebaño."
+        },
+        {
+          "label": "Búfalo cafre o africano",
+          "text": "Estos grandes búfalos están en la lista de animales africanos a los que no hay que acercarse. Siempre están dispuestos a luchar y pueden embestir a más de 57 kilómetros por hora."
+        }
+      ],
+      "narration": "assets/es/rhin/RHIN05NP.mp3"
+    },
+    {
+      "id": "asian-rhinos",
+      "title": "Rinocerontes asiáticos",
+      "image": "assets/es/rhin/RHIN06PU.webp",
+      "text": "Hace tiempo hubo en Asia tres tipos diferentes de rinoceronte: el de Java, el de Sumatra y el unicornio de la India. En la actualidad casi se han extinguido.",
+      "captions": [
+        {
+          "label": "Rinoceronte de Java",
+          "text": "Este rinoceronte es más pequeño que el unicornio y pesa unos 1.600 kilos. Se encuentra al borde de la extinción y sólo quedan algunos en la isla de Java, en Indonesia, y muy pocos ejemplares en Laos, Vietnam, Tailandia y Camboya."
+        },
+        {
+          "label": "Rinoceronte unicornio de la India",
+          "text": "Tiene aproximadamente el mismo tamaño que un rinoceronte blanco y pesa de 1.500 a 2.000 kilos. Se encuentran en peligro de extinción y sólo pueden verse en algunos parques protegidos de la India y Nepal."
+        }
+      ],
+      "narration": "assets/es/rhin/RHIN06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/rhin/RHIN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 4.56,
+            "y": 8.54,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "¡Valen más que el oro!",
+            "to": "more-valuable-than-gold",
+            "x": 51,
+            "y": 7,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "No hay defensa frente a un fusil",
+            "to": "video",
+            "x": 45,
+            "y": 14,
+            "w": 36,
+            "h": 5
+          },
+          {
+            "label": "Duelo de pesos pesados",
+            "to": "heavyweight-duel",
+            "x": 51,
+            "y": 30,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Rinocerontes blancos",
+            "to": "white-rhinos",
+            "x": 52,
+            "y": 37,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Herbívoros peligrosos",
+            "to": "dangerous-herbivores",
+            "x": 2,
+            "y": 46,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Rinocerontes asiáticos",
+            "to": "asian-rhinos",
+            "x": 54,
+            "y": 55,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Revolcándose",
+            "to": "wallowing-around",
+            "x": 2,
+            "y": 82,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "heavyweight-duel": {
+        "image": "assets/es/rhin/RHIN01PU.webp",
+        "back": "main"
+      },
+      "white-rhinos": {
+        "image": "assets/es/rhin/RHIN02PU.webp",
+        "back": "main"
+      },
+      "wallowing-around": {
+        "image": "assets/es/rhin/RHIN03PU.webp",
+        "back": "main"
+      },
+      "more-valuable-than-gold": {
+        "image": "assets/es/rhin/RHIN04PU.webp",
+        "back": "main"
+      },
+      "dangerous-herbivores": {
+        "image": "assets/es/rhin/RHIN05PU.webp",
+        "back": "main"
+      },
+      "asian-rhinos": {
+        "image": "assets/es/rhin/RHIN06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/rhin/RHIN00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/rhin/clip.mp4",
+        "poster": "assets/es/rhin/RHIN07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/rhin/narration.mp3",
+  "sound": "assets/es/rhin/RHIN00AF.mp3",
+  "factsNarration": "assets/es/rhin/RHIN00FB.mp3",
+  "video": {
+    "title": "No hay defensa frente a un fusil",
+    "src": "assets/es/rhin/clip.mp4",
+    "poster": "assets/es/rhin/poster.webp",
+    "caption": "Los rinocerontes pueden pesar dos o tres toneladas, embisten a 50 kilómetros por hora y, a veces, han embestido con el cuerno a camiones o vagones de tren. Sin embargo, toda esa fuerza no sirve de nada contra los fusiles de los furtivos, que los matan por su cuerno."
+  }
+}

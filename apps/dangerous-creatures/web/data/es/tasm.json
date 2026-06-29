@@ -1,0 +1,247 @@
+{
+  "id": "tasm",
+  "code": "TASM",
+  "name": "Diablo de Tasmania",
+  "scientificName": "Sarcophilus harrisii",
+  "needsScientificVerify": false,
+  "tagline": "¡El marsupial más feroz del mundo llena la noche con sus alaridos!",
+  "weapons": [
+    "Dientes y mandíbulas",
+    "Garras y zarpas"
+  ],
+  "habitats": [
+    "Bosques"
+  ],
+  "regions": [
+    "Australia y Oceanía"
+  ],
+  "hero": {
+    "image": "assets/es/tasm/TASM00AA.webp",
+    "alt": "Diablo de Tasmania"
+  },
+  "intro": "Es negro. Caza por la noche. Come animales muertos. Y si se le acorrala puede armar un alboroto terrible: gruñendo, silbando y gritando. Por eso los primeros colonos de la isla de Tasmania dieron el nombre de \"diablo\" a este pobre y pequeño carnívoro.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Mata mordiendo y desgarrando a la presa.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Principalmente animales muertos; también insectos, uallabis y ovejas.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "La dieta de este temerario cazador no sólo incluye animales mayores que él, ¡sino incluso serpientes venenosas!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 92 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Tasmania (frente a la costa sur de Australia)",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "extinct-relative",
+      "title": "El pariente extinto",
+      "image": "assets/es/tasm/TASM01PU.webp",
+      "text": "Nueva Guinea y Australia son el hogar de la mayoría de los pocos marsupiales carnívoros de la tierra. Hoy el diablo de Tasmania es el animal más grande de este grupo. Pero hasta los años 30 el título lo tenía este animal, llamado tilacino o lobo marsupial. Estos peculiares animales vagaron en otro tiempo por todo el continente de Australia y la isla de Tasmania. Por desgracia fueron destruidos por los colonos, que los consideraban una amenaza para el ganado por lo que nadie volverá a ver nunca un tilacino vivo.",
+      "narration": "assets/es/tasm/TASM01NP.mp3"
+    },
+    {
+      "id": "danger-down-under",
+      "title": "¿Es peligroso aquello?",
+      "image": "assets/es/tasm/TASM02PU.webp",
+      "text": "Australia puede ser un lugar peligroso, pues tiene el mayor porcentaje de la Tierra de animales venenosos, perros salvajes, lagartos monitores gigantes y cocodrilos de agua salada, todos esperando tragarse lo que puedan. Pero, en su mayoría, sólo son peligrosos para otros animales, por lo que los australianos pasean tranquilamente por las tierras de matorrales.",
+      "captions": [
+        {
+          "label": "Araña de tela de embudo australiana",
+          "text": "una de las arañas más mortíferas del mundo"
+        },
+        {
+          "label": "Dingo",
+          "text": "se alimenta de animales salvajes y de cabezas de ganado"
+        },
+        {
+          "label": "Víbora de la muerte",
+          "text": "su mordedura es venenosa"
+        },
+        {
+          "label": "Sapo bastón",
+          "text": "rezuma veneno por las glándulas de la cabeza"
+        }
+      ],
+      "narration": "assets/es/tasm/TASM02NP.mp3"
+    },
+    {
+      "id": "wheres-tasmania",
+      "title": "¿Dónde está Tasmania?",
+      "image": "assets/es/tasm/TASM03PU.webp",
+      "text": "La isla de Tasmania pertenece a Australia pero está separada del continente por el estrecho de Bass. Hace millones de años, estaba unida al continente: por eso en la isla viven los mismos animales que en el continente.",
+      "captions": [
+        {
+          "label": "Loro nocturno",
+          "text": "Este pájaro puede volar, pero pasa la mayor parte del tiempo en el suelo."
+        },
+        {
+          "label": "Margay o tigrillo",
+          "text": "Este cazador marsupial puede trepar a los árboles."
+        },
+        {
+          "label": "Tasmania",
+          "text": "Tasmania es una isla situada a unos 320 kilómetros al sur de Australia."
+        }
+      ],
+      "narration": "assets/es/tasm/TASM03NP.mp3"
+    },
+    {
+      "id": "unusual-creatures",
+      "title": "Criaturas peculiares",
+      "image": "assets/es/tasm/TASM04PU.webp",
+      "text": "Australia y Nueva Guinea son famosas por sus raros mamíferos. Los animales de las islas no evolucionan tan rápidamente como los que viven en continentes más grandes, por lo que no resulta extraño encontrar en ellas un gran porcentaje de animales primitivos. Australia y Nueva Guinea tienen una notable concentración de marsupiales, mamíferos con bolsa, y monotremas, mamíferos ovíparos.",
+      "captions": [
+        {
+          "label": "Cría de marsupial",
+          "text": "Como todos los marsupiales, esta cría de ualabí (o wallaby) no estaba completamente formada cuando nació. Completó su desarrollo dentro de la bolsa de la madre."
+        },
+        {
+          "label": "Madre monotrema",
+          "text": "Este equidna es un monotrema. Cuando queda preñada, a la hembra le crece temporalmente una bolsa en el abdomen, dentro de la cual pondrá un huevo. Después de la eclosión, la cría de equidna bebe leche de unas glándulas especiales (los monotremas no tienen pezones) y se desarrolla dentro de la bolsa hasta que le crecen las púas cuando tiene unas ocho semanas de edad."
+        }
+      ],
+      "narration": "assets/es/tasm/TASM04NP.mp3"
+    },
+    {
+      "id": "small-but-feisty",
+      "title": "Pequeño pero matón",
+      "image": "assets/es/tasm/TASM05PU.webp",
+      "text": "Tanto si se lo merecen como si no, los diablos de Tasmania tienen fama de ser luchadores pequeños y feroces. Aquí tienes otros dos pequeños animales que se han ganado a pulso esa fama.",
+      "captions": [
+        {
+          "label": "¿Malhumorado el tejón?",
+          "text": "Éste no: el tejón eurasiático es un gatito. La etiqueta de malhumorado pertenece a su primo, el tejón americano: sabemos que lucha hasta con serpientes de cascabel."
+        },
+        {
+          "label": "La astuta comadreja",
+          "text": "Todos los miembros de la familia de los mustélidos (o comadrejas) son cazadores empedernidos. Puede perseguir a su presa prácticamente hasta cualquier lugar."
+        }
+      ],
+      "narration": "assets/es/tasm/TASM05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/tasm/TASM00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.65,
+            "y": 8.97,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "¿Es peligroso aquello?",
+            "to": "danger-down-under",
+            "x": 5.34,
+            "y": 33.65,
+            "w": 22.92,
+            "h": 8.03
+          },
+          {
+            "label": "Criaturas peculiares",
+            "to": "unusual-creatures",
+            "x": 40.03,
+            "y": 31.7,
+            "w": 15.26,
+            "h": 3.7
+          },
+          {
+            "label": "El pariente extinto",
+            "to": "extinct-relative",
+            "x": 5.34,
+            "y": 37.76,
+            "w": 11.67,
+            "h": 3.92
+          },
+          {
+            "label": "Los diablos del bosque",
+            "to": "video",
+            "x": 62,
+            "y": 15,
+            "w": 27,
+            "h": 6
+          },
+          {
+            "label": "Pequeño pero matón",
+            "to": "small-but-feisty",
+            "x": 33.15,
+            "y": 75.64,
+            "w": 21.98,
+            "h": 8.03
+          },
+          {
+            "label": "¿Dónde está Tasmania?",
+            "to": "wheres-tasmania",
+            "x": 12,
+            "y": 88,
+            "w": 21,
+            "h": 5
+          }
+        ]
+      },
+      "extinct-relative": {
+        "image": "assets/es/tasm/TASM01PU.webp",
+        "back": "main"
+      },
+      "danger-down-under": {
+        "image": "assets/es/tasm/TASM02PU.webp",
+        "back": "main"
+      },
+      "wheres-tasmania": {
+        "image": "assets/es/tasm/TASM03PU.webp",
+        "back": "main"
+      },
+      "unusual-creatures": {
+        "image": "assets/es/tasm/TASM04PU.webp",
+        "back": "main"
+      },
+      "small-but-feisty": {
+        "image": "assets/es/tasm/TASM05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/tasm/TASM00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/tasm/clip.mp4",
+        "poster": "assets/es/tasm/TASM06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/tasm/narration.mp3",
+  "sound": "assets/es/tasm/TASM00AF.mp3",
+  "factsNarration": "assets/es/tasm/TASM00FB.mp3",
+  "video": {
+    "title": "Los diablos del bosque",
+    "src": "assets/es/tasm/clip.mp4",
+    "poster": "assets/es/tasm/poster.webp",
+    "caption": "Los diablos de Tasmania tienen fama de ser fieros cazadores que se enfrentan a animales mucho mayores que ellos. En realidad, estas tímidas criaturas nocturnas prefieren comer carroña a cazar presas vivas. Aunque no deja de ser cierto que estos marsupiales pequeños y pendencieros pueden triturar carne, piel, pelo e incluso la mayoría de los huesos. Cuando un diablo de Tasmania ha terminado de comer, solamente quedan los huesos más grandes, como las paletillas y el cráneo."
+  }
+}

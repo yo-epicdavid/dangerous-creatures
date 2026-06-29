@@ -1,0 +1,240 @@
+{
+  "id": "gwsh",
+  "code": "GWSH",
+  "name": "Gran tiburón blanco",
+  "scientificName": "Carcharodon carcharias",
+  "needsScientificVerify": false,
+  "tagline": "Aerodinámico y letal: ¡el gran tiburón blanco es el rey indiscutible del océano!",
+  "weapons": [
+    "Dientes y mandíbulas"
+  ],
+  "habitats": [
+    "Océanos y arrecifes de coral"
+  ],
+  "regions": [
+    "Océanos y mares"
+  ],
+  "hero": {
+    "image": "assets/es/gwsh/GWSH00AA.webp",
+    "alt": "Gran tiburón blanco"
+  },
+  "intro": "Este aerodinámico nadador puede llegar a ser más largo que un autobús y pesar más que tres automóviles. Es uno de los principales predadores oceánicos, sin más enemigo que el hombre. El gran tiburón blanco es uno de los tiburones más peligrosos. Con sus afilados dientes en forma de sierra, puede partir en dos a su presa de un mordisco.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Su mordedura arranca un gran trozo del cuerpo de la víctima.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Focas, leones marinos y animales del mar.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Estos depredadores de dientes afilados son un éxito de la evolución, pues los tiburones han sobrevivido desde hace 300 millones de años.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 7,5 m.",
+      "danger": false
+    },
+    {
+      "label": "Región",
+      "value": "de los mares tropicales a los templados",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "hunting-techniques",
+      "title": "Técnicas de caza",
+      "image": "assets/es/gwsh/GWSH01PU.webp",
+      "text": "Cuando un gran tiburón blanco ve algo interesante, no suele lanzarse a morder directamente. Empieza a acercarse poco a poco, nadando en espiral, hasta que decide si ataca o no. Si cree que puede ser herido, abandonará la caza. Respirar bajo el agua: Los tiburones tienen branquias en vez de pulmones. Para respirar primero las cierran y abren la boca, para que entre el agua. Luego cierran la boca y el agua pasa a través de las ranuras branquiales. Los vasos sanguíneos de las branquias absorben el oxígeno del agua.",
+      "captions": [
+        {
+          "label": "Ranuras branquiales abiertas",
+          "text": "Ranuras branquiales abiertas"
+        },
+        {
+          "label": "Ranuras branquiales cerradas",
+          "text": "Ranuras branquiales cerradas"
+        }
+      ],
+      "narration": "assets/es/gwsh/GWSH01NP.mp3"
+    },
+    {
+      "id": "jaws",
+      "title": "Mandíbulas",
+      "image": "assets/es/gwsh/GWSH02PU.webp",
+      "text": "Un tiburón no tiene que preocuparse por perder un diente. La fila delantera de dientes tiene detrás varias filas de dientes de repuesto, y en cuanto necesita uno se desplaza lentamente hacia adelante. El tiempo de sustitución es de sólo 8 ó 10 días y a lo largo de su vida a un tiburón le salen más de 20.000 dientes.",
+      "captions": [
+        {
+          "label": "Molar humano",
+          "text": "Molar humano"
+        },
+        {
+          "label": "Mandíbulas humanas",
+          "text": "A diferencia de los tiburones, los humanos sólo tenemos dos denticiones en nuestra vida. Si perdemos un diente adulto, debemos ir al dentista para que nos ponga otro."
+        },
+        {
+          "label": "Mandíbulas de tiburón tigre",
+          "text": "Mandíbulas de tiburón tigre"
+        },
+        {
+          "label": "Una comparación dental",
+          "text": "Los dientes de un tiburón, de punta afilada y bordes serrados, están claramente destinados a cortar carne. El ser humano tiene dientes diferentes para fines distintos. Un molar humano, por ejemplo, no está hecho para cortar, sino para triturar y masticar."
+        },
+        {
+          "label": "Diente del tiburón tigre",
+          "text": "Diente del tiburón tigre"
+        }
+      ],
+      "narration": "assets/es/gwsh/GWSH02NP.mp3"
+    },
+    {
+      "id": "putting-people-in-a-cage",
+      "title": "Dentro de una jaula",
+      "image": "assets/es/gwsh/GWSH03PU.webp",
+      "text": "No es una buena idea nadar sin protección entre un grupo de tiburones, por lo que los buceadores que quieren aprender sobre ellos se meten en jaulas de metal. Así están protegidos; y tanto ellos como los tiburones se pueden ver de cerca unos a otros.",
+      "narration": "assets/es/gwsh/GWSH03NP.mp3"
+    },
+    {
+      "id": "body-armor",
+      "title": "Armadura",
+      "image": "assets/es/gwsh/GWSH04PU.webp",
+      "text": "Los científicos que bucean con los tiburones han descubierto que un traje de cota de malla ligera proporciona cierta protección contra los mordiscos de los tiburones. Pero, aunque los dientes de los tiburones no puedan romper la malla, el buceador puede acabar con cardenales; e incluso con algún hueso roto. Según algunos estudios, las mandíbulas de un tiburón pueden ejercer una presión 300 veces mayor que una humana.",
+      "narration": "assets/es/gwsh/GWSH04NP.mp3"
+    },
+    {
+      "id": "whos-eating-whom",
+      "title": "¿Quién se come a quién?",
+      "image": "assets/es/gwsh/GWSH05PU.webp",
+      "text": "Aunque los tiburones raramente se comen a las personas, nosotros comemos tiburones continuamente. ¿Has probado alguna vez estos productos?",
+      "captions": [
+        {
+          "label": "Tiburón con patatas",
+          "text": "El típico pescado con patatas que en Inglaterra se vende hasta en puestos callejeros es a veces chinchorro o tiburón galludo."
+        },
+        {
+          "label": "Sopa de aleta de tiburón",
+          "text": "En algunos lugares de Asia, la sopa de aleta de tiburón es muy popular. Para satisfacer esta demanda, algunos pescadores cortan la aleta caudal de los tiburones y los arrojan de nuevo al océano. Pero un tiburón no puede nadar bien sin esta aleta y no sobrevive demasiado tiempo."
+        },
+        {
+          "label": "Píldoras de aceite de hígado de tiburón",
+          "text": "Algunas personas creen que el aceite de hígado de tiburón cura todo tipo de enfermedades."
+        }
+      ],
+      "narration": "assets/es/gwsh/GWSH05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/gwsh/GWSH00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.02,
+            "y": 7.67,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Técnicas de caza",
+            "to": "hunting-techniques",
+            "x": 18.31,
+            "y": 13.09,
+            "w": 28.39,
+            "h": 8.89
+          },
+          {
+            "label": "¿Quién se come a quién?",
+            "to": "whos-eating-whom",
+            "x": 68.15,
+            "y": 8.11,
+            "w": 18.08,
+            "h": 4.13
+          },
+          {
+            "label": "Armadura",
+            "to": "body-armor",
+            "x": 18.31,
+            "y": 13.74,
+            "w": 15.73,
+            "h": 8.24
+          },
+          {
+            "label": "Desde el alba de los tiempos",
+            "to": "video",
+            "x": 46,
+            "y": 24,
+            "w": 38,
+            "h": 6
+          },
+          {
+            "label": "Mandíbulas",
+            "to": "jaws",
+            "x": 5.49,
+            "y": 31.48,
+            "w": 6.04,
+            "h": 3.7
+          },
+          {
+            "label": "Dentro de una jaula",
+            "to": "putting-people-in-a-cage",
+            "x": 69.24,
+            "y": 31.7,
+            "w": 19.01,
+            "h": 4.56
+          }
+        ]
+      },
+      "hunting-techniques": {
+        "image": "assets/es/gwsh/GWSH01PU.webp",
+        "back": "main"
+      },
+      "jaws": {
+        "image": "assets/es/gwsh/GWSH02PU.webp",
+        "back": "main"
+      },
+      "putting-people-in-a-cage": {
+        "image": "assets/es/gwsh/GWSH03PU.webp",
+        "back": "main"
+      },
+      "body-armor": {
+        "image": "assets/es/gwsh/GWSH04PU.webp",
+        "back": "main"
+      },
+      "whos-eating-whom": {
+        "image": "assets/es/gwsh/GWSH05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/gwsh/GWSH00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/gwsh/clip.mp4",
+        "poster": "assets/es/gwsh/GWSH06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/gwsh/narration.mp3",
+  "sound": "assets/es/gwsh/GWSH00AF.mp3",
+  "factsNarration": "assets/es/gwsh/GWSH00FB.mp3",
+  "video": {
+    "title": "Desde el alba de los tiempos",
+    "src": "assets/es/gwsh/clip.mp4",
+    "poster": "assets/es/gwsh/poster.webp",
+    "caption": "Los tiburones han existido desde hace millones de años. ¡Hasta se han encontrado tiburones prehistóricos más grandes que los actuales! Por el tamaño de sus dientes, se ha calculado que un tiburón prehistórico denominado Carcharodon megalodon medía 13,2 metros de largo."
+  }
+}

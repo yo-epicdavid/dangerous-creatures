@@ -1,8 +1,8 @@
 ---
-import { asset } from '../lib/data.js';
-const { id, name, thumb } = Astro.props;
+import { asset, lp } from '../lib/data.js';
+const { id, name, thumb, locale = 'en' } = Astro.props;
 ---
-<a class="creature" href={`/animal/${id}`}>
+<a class="creature" href={lp(locale, `/animal/${id}`)}>
   <img src={asset(thumb)} alt={name} loading="lazy" />
   <span>{name}</span>
 </a>

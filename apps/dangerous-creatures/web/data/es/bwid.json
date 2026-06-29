@@ -1,0 +1,255 @@
+{
+  "id": "bwid",
+  "code": "BWID",
+  "name": "Araña viuda negra",
+  "scientificName": "Latrodectus mactans",
+  "needsScientificVerify": false,
+  "tagline": "¡La hembra más peligrosa del mundo teje su trampa en tu jardín!",
+  "weapons": [
+    "Veneno y ponzoña"
+  ],
+  "habitats": [
+    "Ciudades y campos",
+    "Bosques"
+  ],
+  "regions": [
+    "África",
+    "Asia",
+    "Europa",
+    "Norteamérica",
+    "Centroamérica",
+    "Sudamérica",
+    "Australia y Oceanía"
+  ],
+  "hero": {
+    "image": "assets/es/bwid/BWID00AA.webp",
+    "alt": "Araña viuda negra"
+  },
+  "intro": "Desafortunadamente para nosotros, esta araña se ha adaptado bien al medio ambiente humano. A la viuda negra le gusta construir su telaraña no sólo en la naturaleza, sino también en buzones, cobertizos de jardín y en las casas. Antes de que se extendiesen los aparatos sanitarios de interior, ¡eran frecuentes las picaduras de araña negra en los servicios del exterior! No parece una situación muy agradable...",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Inyecta veneno por los colmillos.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Insectos voladores pequeños. Se sabe que la hembra se come también al macho.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "La viuda negra hembra suele devorar al macho después del apareamiento; de ahí el nombre de \"viuda\". Para evitar que se lo coma, el macho le lleva otro bicho como ofrenda amorosa.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 1,5 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: América, Europa, Asia, Australia, África",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "careful-courtship",
+      "title": "Cortejo cuidadoso",
+      "image": "assets/es/bwid/BWID01PU.webp",
+      "text": "La hembra de la viuda negra tiene unas citas verdaderamente criminales. ¡A veces se come al macho tras el apareamiento! Como tiene mala vista, y el macho es más pequeño, es posible que lo confunda con un insecto que ha caído en su telaraña. Por eso el macho, para distraerla, le lleva a veces como regalo un bicho sabroso.",
+      "captions": [
+        {
+          "label": "Un romance arriesgado",
+          "text": "Como ocurre con las viudas negras, algunas hembras del escorpión se comen al compañero tras el apareamiento."
+        }
+      ],
+      "narration": "assets/es/bwid/BWID01NP.mp3"
+    },
+    {
+      "id": "on-guard",
+      "title": "En guardia",
+      "image": "assets/es/bwid/BWID02PU.webp",
+      "text": "No debe ser muy agradable tener como esposa a una viuda negra, pero al igual que la mayoría de las arañas, es una mamá muy protectora.",
+      "captions": [
+        {
+          "label": "Dejando que pase el tiempo",
+          "text": "La viuda negra teje un capullo o saco en donde pone los huevos. Lo pega a una rama y espera a que eclosionen."
+        }
+      ],
+      "narration": "assets/es/bwid/BWID02NP.mp3"
+    },
+    {
+      "id": "silk-secrets",
+      "title": "Secretos de seda",
+      "image": "assets/es/bwid/BWID03PU.webp",
+      "text": "Las arañas tejen su tela con un hilo de seda que fabrican en su interior. Aquí puedes ver cómo una araña va tejiendo su tela.",
+      "captions": [
+        {
+          "label": "Paso 1",
+          "text": "Teje un hilo de soporte entre dos objetos y luego déjalo caer donde quieras que esté el centro de la telaraña."
+        },
+        {
+          "label": "Paso 2",
+          "text": "Une un grupo de hilos que irradian desde el centro a los lados."
+        },
+        {
+          "label": "Paso 3",
+          "text": "Empezando por el medio, avanza alrededor en espiral, juntando los hilos a medida que te desplazas."
+        },
+        {
+          "label": "Paso 4",
+          "text": "Cuando hayas terminado de tejer relájate y espera a que caiga un bicho grandote en tu trampa."
+        }
+      ],
+      "narration": "assets/es/bwid/BWID03NP.mp3"
+    },
+    {
+      "id": "powerful-poison",
+      "title": "Veneno potente",
+      "image": "assets/es/bwid/BWID04PU.webp",
+      "text": "Comparando una gota con otra, el veneno de la viuda negra es 15 veces más potente que el de la serpiente de cascabel. Es una suerte que la cantidad que inyecta sea menor. Los que han muerto por la picadura de esta araña eran casi siempre niños muy pequeños o ancianos.",
+      "captions": [
+        {
+          "label": "La araña más mortífera del mundo",
+          "text": "La araña que tiene el veneno más potente es la vagabunda brasileña. Por fortuna las víctimas pueden salvarse si se les administra a tiempo un antiveneno."
+        },
+        {
+          "label": "La serpiente de cascabel",
+          "text": "La mordedura de una serpiente de cascabel es como la de la viuda negra: aunque muy dolorosa, no es probable que mate."
+        }
+      ],
+      "narration": "assets/es/bwid/BWID04NP.mp3"
+    },
+    {
+      "id": "ferocious-females",
+      "title": "Hembras feroces",
+      "image": "assets/es/bwid/BWID05PU.webp",
+      "text": "No es sólo en el mundo de las viudas negras donde las hembras son el sexo más peligroso...",
+      "captions": [
+        {
+          "label": "Comprando comestibles",
+          "text": "Cuando está lista para poner los huevos, la hembra de avispa suele cazar una tarántula. Tras haberla paralizado, pone los huevos dentro de su cuerpo, para que las larvas tengan mucha comida cuando nazcan."
+        },
+        {
+          "label": "La que manda",
+          "text": "La manada de elefantes la dirige una hembra fuerte, a la que llamamos matriarca. Pero la verdad es que no es más feroz que los otros elefantes."
+        },
+        {
+          "label": "Un banquete sangriento",
+          "text": "Las hembras de mosquito necesitan beber sangre para poder producir huevos."
+        }
+      ],
+      "narration": "assets/es/bwid/BWID05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/bwid/BWID00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.35,
+            "y": 9.65,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Cortejo cuidadoso",
+            "to": "careful-courtship",
+            "x": 47.44,
+            "y": 9.86,
+            "w": 23.11,
+            "h": 8.47
+          },
+          {
+            "label": "Veneno potente",
+            "to": "powerful-poison",
+            "x": 71.39,
+            "y": 30.04,
+            "w": 3.08,
+            "h": 8.91
+          },
+          {
+            "label": "Hembras feroces",
+            "to": "ferocious-females",
+            "x": 25.53,
+            "y": 47.61,
+            "w": 32.34,
+            "h": 4.14
+          },
+          {
+            "label": "Envolviendo las sobras para después",
+            "to": "video",
+            "x": 8.16,
+            "y": 65.18,
+            "w": 18.73,
+            "h": 4.14
+          },
+          {
+            "label": "En guardia",
+            "to": "on-guard",
+            "x": 66.22,
+            "y": 76.02,
+            "w": 8.71,
+            "h": 4.57
+          },
+          {
+            "label": "Secretos de seda",
+            "to": "silk-secrets",
+            "x": 39.93,
+            "y": 81.01,
+            "w": 10.43,
+            "h": 4.14
+          }
+        ]
+      },
+      "careful-courtship": {
+        "image": "assets/es/bwid/BWID01PU.webp",
+        "back": "main"
+      },
+      "on-guard": {
+        "image": "assets/es/bwid/BWID02PU.webp",
+        "back": "main"
+      },
+      "silk-secrets": {
+        "image": "assets/es/bwid/BWID03PU.webp",
+        "back": "main"
+      },
+      "powerful-poison": {
+        "image": "assets/es/bwid/BWID04PU.webp",
+        "back": "main"
+      },
+      "ferocious-females": {
+        "image": "assets/es/bwid/BWID05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/bwid/BWID00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/bwid/clip.mp4",
+        "poster": "assets/es/bwid/BWID06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/bwid/narration.mp3",
+  "sound": "assets/es/bwid/BWID00AF.mp3",
+  "factsNarration": "assets/es/bwid/BWID00FB.mp3",
+  "video": {
+    "title": "Envolviendo las sobras para después",
+    "src": "assets/es/bwid/clip.mp4",
+    "poster": "assets/es/bwid/poster.webp",
+    "caption": "Las arañas no pueden comer siempre inmediatamente lo que atrapan en la telaraña. Cuando tienen mucha comida o la presa es especialmente grande, la envuelven en hilo de seda y la guardan para más tarde."
+  }
+}

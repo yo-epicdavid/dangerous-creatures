@@ -1,0 +1,205 @@
+{
+  "id": "mamb",
+  "code": "MAMB",
+  "name": "Serpiente mamba negra",
+  "scientificName": "Dendroaspis polylepis",
+  "needsScientificVerify": false,
+  "tagline": "¡La serpiente más rápida de África levanta la cabeza y abre la boca: más vale que no te encuentres en su camino!",
+  "weapons": [
+    "Veneno y ponzoña"
+  ],
+  "habitats": [
+    "Praderas y sabanas"
+  ],
+  "regions": [
+    "África"
+  ],
+  "hero": {
+    "image": "assets/es/mamb/MAMB00AA.webp",
+    "alt": "Serpiente mamba negra"
+  },
+  "intro": "Una mamba negra realizando su exhibición de amenaza, – más veloz que la mayoría de la gente, con la cabeza levantada y la boca totalmente abierta – es una visión aterradora. Si el que la ve es prudente se quedará inmóvil, pues esta serpiente no bromea: no vacilará en utilizar su veneno mortal si se siente amenazada.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Inyecta veneno por los colmillos.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Pájaros, lagartos, ranas y sapos.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Este agresivo reptil es la serpiente más rápida. Puede moverse hasta a 24km por hora en las distancias cortas. ¡Será mejor que no te encuentres con una mamba!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 4,3 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "África",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "dental-details",
+      "title": "Detalles de los dientes",
+      "image": "assets/es/mamb/MAMB01PU.webp",
+      "text": "Las mambas son elápidos, o serpientes «con los colmillos frontales y fijos» venenosos. Esto significa que los colmillos están en la parte delantera de la boca y unidos a la mandíbula superior. Los elápidos no pueden plegar los colmillos cuando cierran la boca, como hacen las víboras, y por eso tienen que ser cortos. De no ser así, traspasarían la mandíbula inferior.",
+      "captions": [
+        {
+          "label": "Serpientes erguidas",
+          "text": "Las cobras, como sus parientes cercanas las mambas, pueden avanzar con la cabeza y la parte anterior del cuerpo erguidas."
+        },
+        {
+          "label": "Serpiente de mar",
+          "text": "La serpiente marina de Hardwicke es un elápido capaz de matar a una persona de un mordisco. Los pescadores son sus víctimas más frecuentes, pues a menudo quedan atrapadas en sus redes."
+        },
+        {
+          "label": "Bellas y venenosas",
+          "text": "Las serpientes de coral o coralillos son elápidos que viven en Norteamérica y Sudamérica."
+        }
+      ],
+      "narration": "assets/es/mamb/MAMB01NP.mp3"
+    },
+    {
+      "id": "hunting-on-high",
+      "title": "De caza por las alturas",
+      "image": "assets/es/mamb/MAMB02PU.webp",
+      "text": "Si crees que sólo puedes buscar serpientes bajo tus pies, no estaría mal que mirases de vez en cuando hacia arriba. Esta boa arbórea esmeralda merodea por los árboles de la cuenca amazónica de Sudamérica.",
+      "narration": "assets/es/mamb/MAMB02NP.mp3"
+    },
+    {
+      "id": "egg-sucking-neighbor",
+      "title": "Vecinas devoradoras de huevos",
+      "image": "assets/es/mamb/MAMB03PU.webp",
+      "text": "Una serpiente mamba negra podría encontrarse con esta serpiente africana devoradora de huevos tanto en el suelo como en los árboles. Esta inofensiva serpiente está especializada en comer huevos de pájaros.",
+      "captions": [
+        {
+          "label": "El contenido del huevo",
+          "text": "La serpiente se traga sólo el contenido del huevo. Luego escupe las cáscaras trituradas."
+        },
+        {
+          "label": "Romper la cáscara",
+          "text": "Después de tragarse el huevo, la serpiente utiliza unos huesos especiales de la garganta para romper la cáscara."
+        }
+      ],
+      "narration": "assets/es/mamb/MAMB03NP.mp3"
+    },
+    {
+      "id": "african-snake-eater",
+      "title": "El enemigo de las serpientes africanas",
+      "image": "assets/es/mamb/MAMB04PU.webp",
+      "text": "Las serpientes venenosas, como la mamba negra, tienen pocos enemigos. Este es uno de ellos. El secretario serpentario recorre las praderas de África en busca de alimento; y las serpientes son uno de sus platos favoritos. Normalmente las pisotea con las garras de las patas antes de desgarrarlas con el pico.",
+      "captions": [
+        {
+          "label": "Ave rapaz",
+          "text": "El afilado y ganchudo pico nos indica que este pájaro come carne en vez de insectos y semillas."
+        }
+      ],
+      "narration": "assets/es/mamb/MAMB04NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/mamb/MAMB00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 4.24,
+            "y": 6.59,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Detalles de los dientes",
+            "to": "dental-details",
+            "x": 16.74,
+            "y": 17.85,
+            "w": 12.29,
+            "h": 4.13
+          },
+          {
+            "label": "De caza por las alturas",
+            "to": "hunting-on-high",
+            "x": 10.18,
+            "y": 30.83,
+            "w": 14.64,
+            "h": 4.56
+          },
+          {
+            "label": "El enemigo de las serpientes africanas",
+            "to": "african-snake-eater",
+            "x": 40.65,
+            "y": 40.79,
+            "w": 14.64,
+            "h": 3.7
+          },
+          {
+            "label": "Otro rápido cazador",
+            "to": "video",
+            "x": 68.93,
+            "y": 20.23,
+            "w": 7.14,
+            "h": 3.92
+          },
+          {
+            "label": "Vecinas devoradoras de huevos",
+            "to": "egg-sucking-neighbor",
+            "x": 52.52,
+            "y": 72.18,
+            "w": 17.76,
+            "h": 4.56
+          }
+        ]
+      },
+      "dental-details": {
+        "image": "assets/es/mamb/MAMB01PU.webp",
+        "back": "main"
+      },
+      "hunting-on-high": {
+        "image": "assets/es/mamb/MAMB02PU.webp",
+        "back": "main"
+      },
+      "egg-sucking-neighbor": {
+        "image": "assets/es/mamb/MAMB03PU.webp",
+        "back": "main"
+      },
+      "african-snake-eater": {
+        "image": "assets/es/mamb/MAMB04PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/mamb/MAMB00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/mamb/clip.mp4",
+        "poster": "assets/es/mamb/MAMB05TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/mamb/narration.mp3",
+  "sound": "assets/es/mamb/MAMB00AF.mp3",
+  "factsNarration": "assets/es/mamb/MAMB00FB.mp3",
+  "video": {
+    "title": "Otro rápido cazador",
+    "src": "assets/es/mamb/clip.mp4",
+    "poster": "assets/es/mamb/poster.webp",
+    "caption": "Aunque no están emparentadas, esta serpiente africana, la boomslang o culebra arborícola de El Cabo, se comporta de forma parecida a la mamba negra. Las dos son cazadoras delgadas, rápidas y venenosas que persiguen agresivamente a las presas pequeñas, como pájaros, lagartos y ranas. ¡Menos mal que las boomslangs y las mambas negras no persiguen a la gente!"
+  }
+}

@@ -1,0 +1,82 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Topbar from './Topbar.astro';
+import CreatureCard from './CreatureCard.astro';
+import { readJSON, catSlug, lp } from '../lib/data.js';
+import { t } from '../i18n/ui.js';
+
+const { locale = 'en' } = Astro.props;
+const ui = t(locale);
+const browse = readJSON('browse.json', locale);
+const TABS = [
+  { key: 'regions', label: ui.tabs.regions.label, sub: ui.tabs.regions.sub },
+  { key: 'habitats', label: ui.tabs.habitats.label, sub: ui.tabs.habitats.sub },
+  { key: 'weapons', label: ui.tabs.weapons.label, sub: ui.tabs.weapons.sub },
+];
+const altHref = locale === 'es' ? '/browse' : '/es/browse';
+const STR = { docTitle: ui.docTitle, suffix: locale === 'es' ? 'Animales Peligrosos' : 'Dangerous Creatures' };
+---
+<Layout title={ui.browseTitle} desc={ui.siteTagline} lang={locale} bilingual={true}>
+  <Topbar brandHref={lp(locale, '/')} locale={locale} altHref={altHref}>
+    <a slot="right" class="btn" href={lp(locale, '/')}><span class="arrow" aria-hidden="true">←</span> {ui.allCreatures}</a>
+  </Topbar>
+
+  <div class="browse-head">
+    <h1>{ui.explore}</h1>
+    <div class="tabs">
+      <div class="modeswitch" id="tabs" role="group" aria-label="Browse mode">
+        {TABS.map((tb) => <button data-tab={tb.key} aria-pressed="false">{tb.label}</button>)}
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content" class="wrap" tabindex="-1">
+    {TABS.map((tb) => (
+      <section class="tabpanel" data-tab={tb.key} hidden={tb.key !== 'regions'}>
+        <p class="sub">{tb.sub}</p>
+        {browse[tb.key].map((c) => (
+          <section class="catgroup" id={catSlug(c.category)}>
+            <div class="cat-title"><h2>{c.category}</h2><span class="count">{ui.creatureCount(c.count)}</span></div>
+            <div class="grid">{c.animals.map((a) => <CreatureCard id={a.id} name={a.name} thumb={a.thumb} locale={locale} />)}</div>
+          </section>
+        ))}
+      </section>
+    ))}
+  </main>
+
+  <script define:vars={{ STR }}>
+    const params = new URLSearchParams(location.search);
+    const valid = ['regions', 'habitats', 'weapons'];
+    let tab = valid.includes(params.get('tab')) ? params.get('tab') : 'regions';
+    const panels = document.querySelectorAll('.tabpanel');
+    const btns = document.querySelectorAll('#tabs button');
+    function setTab(t, scroll) {
+      tab = valid.includes(t) ? t : 'regions';
+      panels.forEach((p) => (p.hidden = p.dataset.tab !== tab));
+      btns.forEach((b) => {
+        const active = b.dataset.tab === tab;
+        b.classList.toggle('is-active', active);
+        b.setAttribute('aria-pressed', active ? 'true' : 'false');
+      });
+      history.replaceState(null, '', `?tab=${tab}${location.hash}`);
+      document.title = STR.docTitle[tab] + ' — ' + STR.suffix;
+      if (scroll && location.hash) {
+        const el = document.getElementById(location.hash.slice(1));
+        if (el) el.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    btns.forEach((b) => b.addEventListener('click', () => setTab(b.dataset.tab, false)));
+    setTab(tab, true);
+  </script>
+</Layout>
+
+<style>
+  .browse-head { text-align: center; padding: 26px 20px 4px; }
+  .browse-head h1 { font-family: var(--font-display); font-size: clamp(32px, 6vw, 56px); margin: 0; }
+  .tabs { display: flex; justify-content: center; margin: 18px 0 10px; }
+  .sub { text-align: center; color: var(--ink-soft); font-size: 18px; margin: 0 0 10px; }
+  .catgroup { margin: 34px 0; scroll-margin-top: 74px; }
+  .cat-title { display: flex; align-items: baseline; gap: 12px; margin: 0 0 16px; border-bottom: 1px solid var(--line); padding-bottom: 8px; }
+  .cat-title h2 { font-family: var(--font-display); color: var(--gold); font-size: 26px; margin: 0; }
+  .cat-title .count { color: var(--ink-soft); font-size: 14px; }
+</style>

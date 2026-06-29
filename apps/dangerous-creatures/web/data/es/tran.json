@@ -1,0 +1,227 @@
+{
+  "id": "tran",
+  "code": "TRAN",
+  "name": "Tarántula",
+  "scientificName": "Theraphosa blondi",
+  "needsScientificVerify": false,
+  "tagline": "¡La araña más grande del mundo caza con colmillos venenosos y pelos que pican!",
+  "weapons": [
+    "Veneno y ponzoña"
+  ],
+  "habitats": [
+    "Selva tropical",
+    "Desierto"
+  ],
+  "regions": [
+    "África",
+    "Asia",
+    "Australia y Oceanía"
+  ],
+  "hero": {
+    "image": "assets/es/tran/TRAN00AA.webp",
+    "alt": "Tarántula"
+  },
+  "intro": "Una tarántula del tamaño de un plato recorre velozmente el suelo de la pluviselva. Sus ocho diminutos ojos brillan. De repente, la araña ve un ratón y se abalanza sobre él, sujetando con fuerza al roedor con sus enormes colmillos. No es extraño que estos peludos cazadores pongan a muchos la piel de gallina. Pero además de que pica raras veces, su veneno no es peligroso para el hombre. Algunas personas incluso tienen a estos tranquilos y longevos animales como mascotas.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Mata inyectando veneno con los colmillos.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Insectos, pequeños reptiles, ranas, pequeños roedores y otras arañas.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Si se las molesta, algunas tarántulas se arrancan pelos del abdomen y los arrojan al atacante. ¡El pelo de la tarántula produce una fuerte irritación!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 26 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: Europa, América, Africa, Asia, Australasia",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "tarantula-eater",
+      "title": "Devorador de tarántulas",
+      "image": "assets/es/tran/TRAN01PU.webp",
+      "text": "¿Qué te parece como argumento de una historia de miedo?: has sido secuestrado por un extraterrestre alado. Te paraliza con un aguijón, pone un huevo en tu cuerpo y te entierra. Cuando el huevo eclosiona, el recién nacido te come vivo... Por suerte, esto sólo ocurre en las películas... a menos que seas una tarántula capturada por una avispa.",
+      "captions": [
+        {
+          "label": "Criando a los pequeños",
+          "text": "La araña es el alimento de las crías de esta avispa tarántula halcón; la madre avispa vive principalmente de néctar y jugo de frutas."
+        }
+      ],
+      "narration": "assets/es/tran/TRAN01NP.mp3"
+    },
+    {
+      "id": "big-and-hairy",
+      "title": "Grande y peluda",
+      "image": "assets/es/tran/TRAN02PU.webp",
+      "text": "Un monstruo falso\nEn realidad las tarántulas no son peligrosas para las personas: es raro que les piquen y, aunque lo hagan, su veneno no suele producir más problemas que la picadura de una abeja. Pero para empezar es difícil conseguir que una tarántula se interese en picarte.\n\nOriginalmente, «tarántula» era el nombre de una araña de Italia, pero hoy se utiliza para cualquier araña grande y peluda, como esta tarántula de pelo rizado.",
+      "narration": "assets/es/tran/TRAN02NP.mp3"
+    },
+    {
+      "id": "better-for-biting",
+      "title": "Sobre todo para morder",
+      "image": "assets/es/tran/TRAN03PU.webp",
+      "text": "Las arañas no pueden masticar. Utilizan los colmillos para inyectar a su presa un veneno paralizante, introduciéndole después unos jugos que disuelven sus partes internas. Más tarde succionan el líquido y dejan el resto.",
+      "captions": [
+        {
+          "label": "Buena sujeción",
+          "text": "Cuando una tarántula muerde, hunde los colmillos en la presa y luego bombea el veneno desde las glándulas de la cabeza."
+        }
+      ],
+      "narration": "assets/es/tran/TRAN03NP.mp3"
+    },
+    {
+      "id": "big-spiders-big-meals",
+      "title": "Arañas grandes, grandes comidas",
+      "image": "assets/es/tran/TRAN04PU.webp",
+      "text": "La mayoría de las arañas comen insectos. Las tarántulas también, pero hacen falta muchos insectos para satisfacer a una araña grandota. ¡Una tarántula sudamericana tiene de pata a pata una anchura de 25 centímetros! Las arañas grandes pueden atacar a presas tan grandes como crías de pájaros, ratones, lagartos y ciempiés gigantes.",
+      "narration": "assets/es/tran/TRAN04NP.mp3"
+    },
+    {
+      "id": "hunting-spiders",
+      "title": "Arañas cazando",
+      "image": "assets/es/tran/TRAN05PU.webp",
+      "text": "Todas estas arañas tienen su propia técnica para abalanzarse sobre las presas.",
+      "captions": [
+        {
+          "label": "La araña cangrejo",
+          "text": "¿Has visto alguna vez cangrejos corriendo de lado por la playa? Esta araña, que suele esconderse fingiendo que es un pétalo de flor, se mueve igual cuando cruza la flor para atrapar una abeja."
+        },
+        {
+          "label": "La araña balsa",
+          "text": "¡Esta araña puede caminar sobre el agua! Algunas veces se come un pececillo o renacuajo que hayan subido a la superficie para investigar."
+        }
+      ],
+      "narration": "assets/es/tran/TRAN05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/tran/TRAN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 7.06,
+            "y": 8.97,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Arañas grandes, grandes comidas",
+            "to": "big-spiders-big-meals",
+            "x": 13,
+            "y": 10,
+            "w": 32,
+            "h": 7
+          },
+          {
+            "label": "Arañas cazando",
+            "to": "hunting-spiders",
+            "x": 13,
+            "y": 18,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Sobre todo para morder",
+            "to": "better-for-biting",
+            "x": 8.31,
+            "y": 22.61,
+            "w": 13.08,
+            "h": 4.13
+          },
+          {
+            "label": "Grande y peluda",
+            "to": "big-and-hairy",
+            "x": 25.49,
+            "y": 55.29,
+            "w": 5.42,
+            "h": 9.76
+          },
+          {
+            "label": "Pájaros para desayunar",
+            "to": "video",
+            "x": 36.9,
+            "y": 6.81,
+            "w": 39.32,
+            "h": 8.89
+          },
+          {
+            "label": "Devorador de tarántulas",
+            "to": "tarantula-eater",
+            "x": 55.18,
+            "y": 6.81,
+            "w": 30.42,
+            "h": 9.33
+          },
+          {
+            "label": "Harpy Eagle",
+            "x": 73.46,
+            "y": 10.92,
+            "w": 25.11,
+            "h": 5.21,
+            "external": "animal.html?id=harp"
+          }
+        ]
+      },
+      "tarantula-eater": {
+        "image": "assets/es/tran/TRAN01PU.webp",
+        "back": "main"
+      },
+      "big-and-hairy": {
+        "image": "assets/es/tran/TRAN02PU.webp",
+        "back": "main"
+      },
+      "better-for-biting": {
+        "image": "assets/es/tran/TRAN03PU.webp",
+        "back": "main"
+      },
+      "big-spiders-big-meals": {
+        "image": "assets/es/tran/TRAN04PU.webp",
+        "back": "main"
+      },
+      "hunting-spiders": {
+        "image": "assets/es/tran/TRAN05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/tran/TRAN00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/tran/clip.mp4",
+        "poster": "assets/es/tran/TRAN06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/tran/narration.mp3",
+  "sound": "assets/es/tran/TRAN00AF.mp3",
+  "factsNarration": "assets/es/tran/TRAN00FB.mp3",
+  "video": {
+    "title": "Pájaros para desayunar",
+    "src": "assets/es/tran/clip.mp4",
+    "poster": "assets/es/tran/poster.webp",
+    "caption": "Unas arañas peludas grandes, llamadas arañas comedoras de pájaros, cazan en los árboles. Comen principalmente insectos, pero a veces apresan lagartos, ranas arbóreas, salamandras, serpientes jóvenes y, por supuesto, pájaros. Si vas de excursión por la selva tropical y quieres ver una de estas grandes cazadoras peludas, no mires sólo hacia abajo. ¡Podría haber una sobre una rama, encima de ti!"
+  }
+}

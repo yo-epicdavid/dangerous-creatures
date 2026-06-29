@@ -1,0 +1,201 @@
+{
+  "id": "swsp",
+  "code": "SWSP",
+  "name": "Avispa de mar australiana",
+  "scientificName": "Chironex fleckeri",
+  "needsScientificVerify": false,
+  "tagline": "¡Un simple roce puede matarte: sus tentáculos invisibles ocultan uno de los venenos más letales del océano!",
+  "weapons": [
+    "Veneno y ponzoña",
+    "Aguijones"
+  ],
+  "habitats": [
+    "Océanos y arrecifes de coral"
+  ],
+  "regions": [
+    "Australia y Oceanía"
+  ],
+  "hero": {
+    "image": "assets/es/swsp/SWSP00AA.webp",
+    "alt": "Avispa de mar australiana"
+  },
+  "intro": "Esta medusa te puede matar sólo con rozarte. Sus largos tentáculos colgantes están cubiertos de millones de células urticantes. Paralizan a la presa, como este pez, pero además inyectarán un veneno potente en cualquier animal que las roce. En los sosegados días de verano, las avispas de mar (llamadas también medusas cofre) nadan en aguas poco profundas en busca de alimento. Si alguna vez estás dándote un baño en Australia y oyes que hay avispas de mar por allí: ¡sal del agua!",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Mata picando con células venenosas.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Peces pequeños.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "La picadura de una avispa marina es tan dolorosa que algunas víctimas humanas han rogado que las maten para dejar de sufrir.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 20 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: aguas del norte de Australia",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "whats-the-difference",
+      "title": "¿Cuál es la diferencia?",
+      "image": "assets/es/swsp/SWSP01PU.webp",
+      "text": "Si flota y cuelgan de ella tentáculos urticantes, es una medusa, ¿verdad que sí? Bueno, no siempre... Sandwich de gelatina: En estado adulto, una medusa es básicamente una campana formada por dos capas de células, con una gruesa capa de gelatina en medio. Los tentáculos recubiertos de células urticantes cuelgan de la campana. La mayoría de las medusas nadan expulsando el agua que se había introducido en su campana en forma de paraguas.",
+      "captions": [
+        {
+          "label": "Veleros flotantes",
+          "text": "Una fragata portuguesa es en realidad una comunidad de pólipos en la que cada uno desempeña una tarea especial, de forma que todo el grupo actúa como un animal único. La fragata portuguesa no nada, sino que utiliza una cámara llena de gas como vela para que la mueva el viento."
+        }
+      ],
+      "narration": "assets/es/swsp/SWSP01NP.mp3"
+    },
+    {
+      "id": "ferocious-flower",
+      "title": "Flores feroces",
+      "image": "assets/es/swsp/SWSP02PU.webp",
+      "text": "Un grupo de anémonas marinas es como un jardín subacuático. ¡Pero esos bonitos pétalos están llenos de células urticantes! Las células urticantes: En el interior de las células urticantes de una anémona hay un hilo hueco – con veneno en las puntas, en el interior o en la superficie – enrollado dentro de una cámara. Al tocar el disparador de la célula urticante, se abre una trampilla. El filamento se dispara y atraviesa la piel del atacante. Las medusas, anémonas, corales e hidroideos, como la fragata portuguesa, tienen células urticantes similares.",
+      "narration": "assets/es/swsp/SWSP02NP.mp3"
+    },
+    {
+      "id": "what-a-big-mouth",
+      "title": "¡Qué boca tan grande!",
+      "image": "assets/es/swsp/SWSP03PU.webp",
+      "text": "Las anémonas están emparentadas con las medusas y los corales y tienen células urticantes semejantes. Sus cuerpos son principalmente boca, estómago y tentáculos. Un disco de la base les permite sujetarse a las rocas o reptar muy lentamente. Si están expuestas al aire, las anémonas recogen los tentáculos dentro del cuerpo.",
+      "narration": "assets/es/swsp/SWSP03NP.mp3"
+    },
+    {
+      "id": "fatal-surprise",
+      "title": "Sorpresa fatal",
+      "image": "assets/es/swsp/SWSP04PU.webp",
+      "text": "Supongo que no te gustaría estar tan cerca de una avispa de mar como este buzo, ¡pues esos tentáculos casi invisibles pueden tener veneno suficiente para matar a varias personas! Si estás en una zona de avispas de mar (por ejemplo, en el norte de Australia), debes tener un cuidado especial en los días de verano nublados y tranquilos, pues es cuando la medusa se acerca a la orilla para atrapar a sus presas.",
+      "narration": "assets/es/swsp/SWSP04NP.mp3"
+    },
+    {
+      "id": "jellyfish-parasite",
+      "title": "El parásito de la medusa",
+      "image": "assets/es/swsp/SWSP05PU.webp",
+      "text": "No hay muchas clases de peces en el helado Océano Ártico. Pero si fueses a bucear allí, verías muchísimos invertebrados: medusas, babosas de mar, caracoles, calamares, pulpos y diminutos isópodos con armadura. Esta medusa tiene un isópodo parasitario en el sistema digestivo. de lo que come la pobre medusa, el isópodo le roba trozos de su comida. ¡Qué pillín!",
+      "narration": "assets/es/swsp/SWSP05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/swsp/SWSP00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 4.09,
+            "y": 8.32,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "¿Cuál es la diferencia?",
+            "to": "whats-the-difference",
+            "x": 78.31,
+            "y": 25.86,
+            "w": 14.95,
+            "h": 3.92
+          },
+          {
+            "label": "Sorpresa fatal",
+            "to": "fatal-surprise",
+            "x": 17,
+            "y": 47,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "¡Qué boca tan grande!",
+            "to": "what-a-big-mouth",
+            "x": 30.34,
+            "y": 55.94,
+            "w": 11.51,
+            "h": 4.13
+          },
+          {
+            "label": "Flores feroces",
+            "to": "ferocious-flower",
+            "x": 40.34,
+            "y": 67.63,
+            "w": 7.92,
+            "h": 9.98
+          },
+          {
+            "label": "El parásito de la medusa",
+            "to": "jellyfish-parasite",
+            "x": 62,
+            "y": 60,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Mundo misterioso",
+            "to": "video",
+            "x": 46.12,
+            "y": 75.64,
+            "w": 29.01,
+            "h": 7.16
+          }
+        ]
+      },
+      "whats-the-difference": {
+        "image": "assets/es/swsp/SWSP01PU.webp",
+        "back": "main"
+      },
+      "ferocious-flower": {
+        "image": "assets/es/swsp/SWSP02PU.webp",
+        "back": "main"
+      },
+      "what-a-big-mouth": {
+        "image": "assets/es/swsp/SWSP03PU.webp",
+        "back": "main"
+      },
+      "fatal-surprise": {
+        "image": "assets/es/swsp/SWSP04PU.webp",
+        "back": "main"
+      },
+      "jellyfish-parasite": {
+        "image": "assets/es/swsp/SWSP05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/swsp/SWSP00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/swsp/clip.mp4",
+        "poster": "assets/es/swsp/SWSP06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/swsp/narration.mp3",
+  "sound": "assets/es/swsp/SWSP00AF.mp3",
+  "factsNarration": "assets/es/swsp/SWSP00FB.mp3",
+  "video": {
+    "title": "Mundo misterioso",
+    "src": "assets/es/swsp/clip.mp4",
+    "poster": "assets/es/swsp/poster.webp",
+    "caption": "En los océanos hay animales de todo tipo que parecen seres extraterrestres. Los pennatuláceos y anémonas que parecen plantas; medusas transparentes; peces y plancton que brillan en la oscuridad. Y no hay duda de que existen criaturas de mar que nunca hemos visto. Para el hombre, el océano es en su gran mayoría una frontera inexplorada."
+  }
+}

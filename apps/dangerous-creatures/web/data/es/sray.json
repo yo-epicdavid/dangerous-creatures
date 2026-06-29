@@ -1,0 +1,263 @@
+{
+  "id": "sray",
+  "code": "SRAY",
+  "name": "Raya",
+  "scientificName": "Dasyatis pastinaca",
+  "needsScientificVerify": false,
+  "tagline": "¡Cuidado dónde pisas: este pez aplastado esconde una daga venenosa en la cola!",
+  "weapons": [
+    "Veneno y ponzoña",
+    "Púas y espinas"
+  ],
+  "habitats": [
+    "Océanos y arrecifes de coral",
+    "Ríos, lagos y humedales"
+  ],
+  "regions": [
+    "Sudamérica",
+    "Océanos y mares"
+  ],
+  "hero": {
+    "image": "assets/es/sray/SRAY00AA.webp",
+    "alt": "Raya"
+  },
+  "intro": "¡Este pez lleva una daga envenenada! La cola de la raya está equipada con una o varias púas venenosas. Cuando una raya golpea con la cola a un atacante, las largas púas abren heridas envenenadas. Todos los años son numerosas las personas heridas por una raya, conocida también con el nombre de pastinaca. Pero no creas que ataca al hombre porque sí. Sólo lo hace si la pisa o amenaza.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Se defiende con la espina venenosa de la cola.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Crustáceos, almejas, gusanos y otros invertebrados.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "¡La espina de la cola de una raya puede atravesar una pierna humana! Esta espina no se puede sacar porque tiene unas púas que se alojan en la carne.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 4,6 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: mares tropicales y templados, cuenca del Río Amazonas",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "prickly-customer",
+      "title": "Un tipo espinoso",
+      "image": "assets/es/sray/SRAY01PU.webp",
+      "text": "Las rayas de lomo espinoso tienen características típicas de muchas rayas. El color del lomo les permite confundirse con el fondo oceánico y por la parte inferior tienen una curiosa «cara» que en realidad son los orificios nasales y la boca. No son rayas auténticas, pero tampoco deberías pisar una: ¡no les llaman «de lomo espinoso» por gusto!",
+      "captions": [
+        {
+          "label": "Vista del lomo de una hembra",
+          "text": "Púas afiladas de la columna vertebral. Grandes ojos móviles. Espiráculo: entrada del agua en las branquias. Morro sensible."
+        },
+        {
+          "label": "Parte inferior de una hembra",
+          "text": "Orificios nasales. Cinco aberturas branquiales en cada lado. Boca."
+        }
+      ],
+      "narration": "assets/es/sray/SRAY01NP.mp3"
+    },
+    {
+      "id": "shocking-facts",
+      "title": "Hechos conmocionantes",
+      "image": "assets/es/sray/SRAY02PU.webp",
+      "text": "La raya torpedo, una de las más de treinta clases de rayas eléctricas, pasa mucho tiempo acostada sobre el lecho marino del Atlántico, pero se pone en acción en cuanto ve un crustáceo o un pez pequeño. Aturde a su presa con más de 300 voltios de electricidad, producidos por unos órganos cercanos a la base de las aletas pectorales. Esta descarga produciría un cortocircuito en un aparato de televisión.",
+      "captions": [
+        {
+          "label": "Campo eléctrico",
+          "text": "Campo eléctrico"
+        }
+      ],
+      "narration": "assets/es/sray/SRAY02NP.mp3"
+    },
+    {
+      "id": "blue-means-beware",
+      "title": "¡El azul significa precaución!",
+      "image": "assets/es/sray/SRAY03PU.webp",
+      "text": "En el sistema de señales oceánico, los anillos o las bandas de color azul vivo suelen significar: «¡No te metas con este animal, es venenoso!». Si estás buceando en el océano Pacífico y ves esta bonita raya moteada azul, haz caso de la advertencia y mantente alejado.",
+      "captions": [
+        {
+          "label": "Raya moteada azul",
+          "text": "La raya o pastinaca moteada azul, tiene una envergadura de 2 metros."
+        }
+      ],
+      "narration": "assets/es/sray/SRAY03NP.mp3"
+    },
+    {
+      "id": "devilish-relative",
+      "title": "El pariente diabólico",
+      "image": "assets/es/sray/SRAY04PU.webp",
+      "text": "La manta raya usa las aletas que tiene a cada lado de la cabeza para conducir el alimento hasta la boca. A veces enrolla las aletas en forma de anillos. Por estos «cuernos» retorcidos se le da el apodo de pez-diablo.",
+      "captions": [
+        {
+          "label": "Manta raya del Pacífico",
+          "text": "La manta raya del Pacífico, que es la más grande, puede alcanzar una envergadura de más de 6 metros y un peso de 1.600 kilos."
+        }
+      ],
+      "narration": "assets/es/sray/SRAY04NP.mp3"
+    },
+    {
+      "id": "up-close-and-personal",
+      "title": "Un contacto cercano y personal",
+      "image": "assets/es/sray/SRAY05PU.webp",
+      "text": "Dos terceras partes de las rayas no son peligrosas para el hombre: son animales pacíficos que sólo se alimentan de plancton, peces pequeños y crustáceos. Las demás sólo son una amenaza si las pisamos o tocamos. Para demostrarlo, este buceador da de comer precavidamente a las rayas.",
+      "narration": "assets/es/sray/SRAY05NP.mp3"
+    },
+    {
+      "id": "unlucky-catch",
+      "title": "Una captura infortunada",
+      "image": "assets/es/sray/SRAY06PU.webp",
+      "text": "Aparte de los tiburones, los mayores enemigos de la raya son los barcos de pesca. Además de las ocasiones en las que los pescadores las buscan a ellas directamente, quedan atrapadas en redes destinadas a otros peces, y se asfixian o los propios pescadores las matan antes de devolverlas al mar. Las pobres terminan como comida para los carroñeros.",
+      "narration": "assets/es/sray/SRAY06NP.mp3"
+    },
+    {
+      "id": "chainsaw-cousin",
+      "title": "Un primo con una sierra en la cabeza",
+      "image": "assets/es/sray/SRAY07PU.webp",
+      "text": "¿Te imaginas si en la punta de la nariz tuvieras dientes parecidos a los de una sierra? El pez sierra, un pariente cercano de la raya, tiene una forma peculiar de cazar. Mete ese morro tan extraño en el fondo arenoso del océano para encontrar los moluscos y crustáceos enterrados allí. Si encuentra un banco de peces, agita la cabeza hacia delante y hacia atrás para herir a los más cercanos.",
+      "narration": "assets/es/sray/SRAY07NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/sray/SRAY00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 6.12,
+            "y": 8.11,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Un tipo espinoso",
+            "to": "prickly-customer",
+            "x": 59,
+            "y": 4,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Planeando como los pájaros",
+            "to": "video",
+            "x": 53.62,
+            "y": 3.78,
+            "w": 17.61,
+            "h": 9.76
+          },
+          {
+            "label": "El pariente diabólico",
+            "to": "devilish-relative",
+            "x": 53.62,
+            "y": 10.7,
+            "w": 31.67,
+            "h": 6.08
+          },
+          {
+            "label": "Hechos conmocionantes",
+            "to": "shocking-facts",
+            "x": 1.74,
+            "y": 20.01,
+            "w": 22.45,
+            "h": 9.54
+          },
+          {
+            "label": "Una captura infortunada",
+            "to": "unlucky-catch",
+            "x": 4,
+            "y": 34,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Un primo con una sierra en la cabeza",
+            "to": "chainsaw-cousin",
+            "x": 60.96,
+            "y": 34.73,
+            "w": 18.39,
+            "h": 9.11
+          },
+          {
+            "label": "Un contacto cercano y personal",
+            "to": "up-close-and-personal",
+            "x": 60.96,
+            "y": 40.36,
+            "w": 18.39,
+            "h": 3.48
+          },
+          {
+            "label": "¡El azul significa precaución!",
+            "to": "blue-means-beware",
+            "x": 25.96,
+            "y": 71.96,
+            "w": 11.04,
+            "h": 4.13
+          }
+        ]
+      },
+      "prickly-customer": {
+        "image": "assets/es/sray/SRAY01PU.webp",
+        "back": "main"
+      },
+      "shocking-facts": {
+        "image": "assets/es/sray/SRAY02PU.webp",
+        "back": "main"
+      },
+      "blue-means-beware": {
+        "image": "assets/es/sray/SRAY03PU.webp",
+        "back": "main"
+      },
+      "devilish-relative": {
+        "image": "assets/es/sray/SRAY04PU.webp",
+        "back": "main"
+      },
+      "up-close-and-personal": {
+        "image": "assets/es/sray/SRAY05PU.webp",
+        "back": "main"
+      },
+      "unlucky-catch": {
+        "image": "assets/es/sray/SRAY06PU.webp",
+        "back": "main"
+      },
+      "chainsaw-cousin": {
+        "image": "assets/es/sray/SRAY07PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/sray/SRAY00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/sray/clip.mp4",
+        "poster": "assets/es/sray/SRAY08TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/sray/narration.mp3",
+  "sound": "assets/es/sray/SRAY00AF.mp3",
+  "factsNarration": "assets/es/sray/SRAY00FB.mp3",
+  "video": {
+    "title": "Planeando como los pájaros",
+    "src": "assets/es/sray/clip.mp4",
+    "poster": "assets/es/sray/poster.webp",
+    "caption": "Las rayas suelen aletear cerca del fondo del mar, buscando crustáceos para comer."
+  }
+}

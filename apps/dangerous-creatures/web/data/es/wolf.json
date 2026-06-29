@@ -1,0 +1,280 @@
+{
+  "id": "wolf",
+  "code": "WOLF",
+  "name": "Lobo",
+  "scientificName": "Canis lupus",
+  "needsScientificVerify": false,
+  "tagline": "Feroz, inteligente y leal a su manada: el lobo es mucho más que el villano de los cuentos.",
+  "weapons": [
+    "Dientes y mandíbulas",
+    "Ataques en grupo"
+  ],
+  "habitats": [
+    "Bosques",
+    "Praderas y sabanas",
+    "Zonas polares y tundra"
+  ],
+  "regions": [
+    "Asia",
+    "Europa",
+    "Norteamérica"
+  ],
+  "hero": {
+    "image": "assets/es/wolf/WOLF00AA.webp",
+    "alt": "Lobo"
+  },
+  "intro": "¿Quién tiene miedo del lobo malo y grande? Mucha gente. Pero los lobos no se merecen tan mala reputación. Es verdad que son fuertes: más grandes que cualquier perro salvaje, más rápidos que lo que permite el límite de velocidad en muchas ciudades... y además son listos. Pero utilizan la fuerza para matar a sus presas y la inteligencia para acomodarse a la manada. No hay constancia de ningún caso en el que un lobo sano haya matado a una persona.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Caza en manada y mata a su presa a mordiscos.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Ciervos, alces, ganado vacuno, caribúes, castores y liebres.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "¡Los lobos pueden correr hasta a 40 kilómetros por hora durante 20 minutos!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 2 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Norteamérica, México, Europa meridional, Asia",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "wild-pups",
+      "title": "Cachorros salvajes",
+      "image": "assets/es/wolf/WOLF01PU.webp",
+      "text": "Los lobeznos nacen ciegos pero enseguida desean explorar el mundo. Como todos los cachorros, aprenden mediante el juego, saltando sobre todo lo que se mueva y luchando para ver quién es el mejor. Los lobeznos se quedan con sus padres y hermanos mayores durante un año o más. Después los abandonan para iniciar su propia manada.",
+      "narration": "assets/es/wolf/WOLF01NP.mp3"
+    },
+    {
+      "id": "wolf-ways",
+      "title": "Comportamientos del lobo",
+      "image": "assets/es/wolf/WOLF02PU.webp",
+      "text": "El lobo puede sobrevivir solo (un \"lobo solitario\"), pero normalmente vive en una manada. En ésta hay dos jefes: un macho y una hembra dominantes. Los lobos usan un lenguaje corporal para comunicarse dentro de la manada. La expresión de la cara del lobo y la posición del cuerpo, sobre todo la cola, indican a los otros lobos lo que está diciendo.",
+      "narration": "assets/es/wolf/WOLF02NP.mp3"
+    },
+    {
+      "id": "long-distance-call",
+      "title": "Llamada a larga distancia",
+      "image": "assets/es/wolf/WOLF03PU.webp",
+      "text": "Los lobos aúllan para mantenerse en contacto con los demás miembros de la manada o para advertir a otras manadas que se mantengan lejos... aunque a veces parece que lo hacen por divertirse. Su aullido se puede oír desde muy lejos.",
+      "narration": "assets/es/wolf/WOLF03NP.mp3"
+    },
+    {
+      "id": "eating-hierarchy",
+      "title": "Una comida jerarquizada",
+      "image": "assets/es/wolf/WOLF04PU.webp",
+      "text": "Los lobos se quedan varios días junto a la presa que han cazado: hasta que se la comen entera (huesos y pelo incluidos). Los miembros de la manada no comen todos al mismo tiempo: primero se hartan los jefes. Si en la manada hay cachorros tan pequeños que no pueden ir hasta la presa, los adultos regresan a la guarida y regurgitan comida para ellos.",
+      "narration": "assets/es/wolf/WOLF04NP.mp3"
+    },
+    {
+      "id": "wolf-country",
+      "title": "El país de los lobos",
+      "image": "assets/es/wolf/WOLF05PU.webp",
+      "text": "Antiguamente los lobos vivían en muchas partes del mundo, pero ahora se han concentrado mayoritariamente en las regiones septentrionales de Norteamérica. El hombre ha matado lobos durante siglos porque los consideraba una gran amenaza para sus animales de granja. En invierno, los lobos matan animales grandes, como el alce, el caribú o el buey almizclero. En verano su dieta se compone en gran parte de animales pequeños, como ratones, lemmings y liebres.",
+      "narration": "assets/es/wolf/WOLF05NP.mp3"
+    },
+    {
+      "id": "predator-power",
+      "title": "El poder del predador",
+      "image": "assets/es/wolf/WOLF06PU.webp",
+      "text": "Sólo con verle los dientes imaginarías que el lobo es un predador... ¡y tendrías razón!",
+      "captions": [
+        {
+          "label": "Dientes humanos",
+          "text": "El hombre come prácticamente de todo, por lo que algunos de sus 32 dientes sirven para cortar y otros para triturar o masticar."
+        },
+        {
+          "label": "Los dientes del perro doméstico",
+          "text": "Los dientes de todos los cánidos son apropiados para matar a las presas y comer carne. En su mayoría, los perros tienen 42 dientes."
+        },
+        {
+          "label": "El cráneo del lobo",
+          "text": "Los grandes dientes carniceros (que desgarran la carne) te indican que este cráneo pertenece a un lobo, el más grande de los perros salvajes."
+        }
+      ],
+      "narration": "assets/es/wolf/WOLF06NP.mp3"
+    },
+    {
+      "id": "misunderstood",
+      "title": "Un malentendido",
+      "image": "assets/es/wolf/WOLF07PU.webp",
+      "text": "Estos dos animales se denominan lobos, pero ninguno lo es en realidad. Pero como los lobos, con los que se les confunde, estos dos carnívoros han sido sacrificados en gran número por el hombre.",
+      "captions": [
+        {
+          "label": "Completamente aniquilado",
+          "text": "Este animal se llamaba lobo marsupial, o tilacino; y aunque ciertamente era un marsupial, no era un miembro de la familia de los cánidos. Fue aniquilado por los colonos de Australia y ahora está extinto. La última vez que alguien vió vivo un lobo marsupial fue en la década de 1930."
+        },
+        {
+          "label": "Está desapareciendo rápidamente",
+          "text": "Este lobo de crin, que pertenece a la familia de los perros pero no está clasificado como lobo, vive en las praderas de Bolivia, Paraguay, Uruguay, Perú y Argentina. Quedan muy pocos en estado salvaje."
+        }
+      ],
+      "narration": "assets/es/wolf/WOLF07NP.mp3"
+    },
+    {
+      "id": "foxy-cousin",
+      "title": "Un pariente del zorro",
+      "image": "assets/es/wolf/WOLF08PU.webp",
+      "text": "Si vivieses en un lugar nevado y quisieras pasar inadvertido, probablemente te pondrías un abrigo blanco, como hacen muchos animales árticos. Al zorro ártico el grueso pelaje blanco invernal le sirve como camuflaje y para conservar el calor. En primavera lo cambiará por otro más delgado que puede ser gris, rojo o castaño.",
+      "narration": "assets/es/wolf/WOLF08NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/wolf/WOLF00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 6.12,
+            "y": 8.97,
+            "w": 13.08,
+            "h": 8.46
+          },
+          {
+            "label": "Comportamientos del lobo",
+            "to": "wolf-ways",
+            "x": 50.34,
+            "y": 4.86,
+            "w": 9.48,
+            "h": 4.13
+          },
+          {
+            "label": "El poder del predador",
+            "to": "predator-power",
+            "x": 2,
+            "y": 14,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Llamada a larga distancia",
+            "to": "long-distance-call",
+            "x": 50.96,
+            "y": 16.77,
+            "w": 16.04,
+            "h": 3.7
+          },
+          {
+            "label": "Una comida jerarquizada",
+            "to": "eating-hierarchy",
+            "x": 10.18,
+            "y": 20.23,
+            "w": 14.79,
+            "h": 4.56
+          },
+          {
+            "label": "Cachorros salvajes",
+            "to": "wild-pups",
+            "x": 49.24,
+            "y": 44.69,
+            "w": 9.32,
+            "h": 4.13
+          },
+          {
+            "label": "El país de los lobos",
+            "to": "wolf-country",
+            "x": 11.12,
+            "y": 54.86,
+            "w": 13.39,
+            "h": 9.76
+          },
+          {
+            "label": "Un malentendido",
+            "to": "misunderstood",
+            "x": 2,
+            "y": 68,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Haciendo camino",
+            "to": "video",
+            "x": 2,
+            "y": 76,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Un pariente del zorro",
+            "to": "foxy-cousin",
+            "x": 9.56,
+            "y": 78.24,
+            "w": 11.04,
+            "h": 3.48
+          }
+        ]
+      },
+      "wild-pups": {
+        "image": "assets/es/wolf/WOLF01PU.webp",
+        "back": "main"
+      },
+      "wolf-ways": {
+        "image": "assets/es/wolf/WOLF02PU.webp",
+        "back": "main"
+      },
+      "long-distance-call": {
+        "image": "assets/es/wolf/WOLF03PU.webp",
+        "back": "main"
+      },
+      "eating-hierarchy": {
+        "image": "assets/es/wolf/WOLF04PU.webp",
+        "back": "main"
+      },
+      "wolf-country": {
+        "image": "assets/es/wolf/WOLF05PU.webp",
+        "back": "main"
+      },
+      "predator-power": {
+        "image": "assets/es/wolf/WOLF06PU.webp",
+        "back": "main"
+      },
+      "misunderstood": {
+        "image": "assets/es/wolf/WOLF07PU.webp",
+        "back": "main"
+      },
+      "foxy-cousin": {
+        "image": "assets/es/wolf/WOLF08PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/wolf/WOLF00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/wolf/clip.mp4",
+        "poster": "assets/es/wolf/WOLF09TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/wolf/narration.mp3",
+  "sound": "assets/es/wolf/WOLF00AF.mp3",
+  "factsNarration": "assets/es/wolf/WOLF00FB.mp3",
+  "video": {
+    "title": "Haciendo camino",
+    "src": "assets/es/wolf/clip.mp4",
+    "poster": "assets/es/wolf/poster.webp",
+    "caption": "Los lobos pueden recorrer más de 32 kilómetros en una sola jornada. Y todo de puntillas (que es como caminan los lobos). Los lobos, como el resto de los perros, no pueden hacer como los gatos y esconder las uñas, por lo que siempre verás las marcas de éstas en una huella de lobo."
+  }
+}

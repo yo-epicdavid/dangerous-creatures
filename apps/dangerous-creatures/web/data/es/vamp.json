@@ -1,0 +1,249 @@
+{
+  "id": "vamp",
+  "code": "VAMP",
+  "name": "Vampiro vulgar o vampiro de Azara",
+  "scientificName": "Desmodus rotundus",
+  "needsScientificVerify": false,
+  "tagline": "¡Sale de noche a beber sangre... y sus víctimas ni se enteran!",
+  "weapons": [
+    "Transmisores de enfermedades"
+  ],
+  "habitats": [
+    "Selva tropical",
+    "Ciudades y campos"
+  ],
+  "regions": [
+    "Centroamérica",
+    "Sudamérica"
+  ],
+  "hero": {
+    "image": "assets/es/vamp/VAMP00AA.webp",
+    "alt": "Vampiro vulgar o vampiro de Azara"
+  },
+  "intro": "Cuando oscurece, este pequeño animal sale a buscar sangre. Con la precisión de un experto cirujano, el vampiro vulgar hace una pequeña incisión en un animal y luego le chupa la sangre. La mayoría de las víctimas ni siquiera saben que el vampiro ha estado allí, porque no se despiertan durante el ataque. Este espeluznante comportamiento lo ha convertido en el protagonista de muchas historias de terror. ¿Está justificada su reputación?",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Propaga enfermedades infecciosas, especialmente la rabia.",
+      "danger": true
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Sangre de animales de sangre caliente, principalmente ganado vacuno, caballos, ovejas y cabras.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "¡Rápido y sin dolor! Generalmente, la víctima de un vampiro está dormida y no nota el mordisco afilado, ¡aunque aquél se queda a lamer la sangre!",
+      "danger": false
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 17,5 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Centroamérica y Sudamérica",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "bouquet-of-bats",
+      "title": "Un ramo de murciélagos",
+      "image": "assets/es/vamp/VAMP01PU.webp",
+      "text": "Los murciélagos duermen a menudo en lugares fríos, como cuevas o edificios vacíos, por lo que suelen apiñarse para calentarse. Algunos hibernan durante el invierno y respiran tan lentamente que pensarías que están muertos. Pero cuando el tiempo es más cálido, despiertan y se separan para no pasar calor.",
+      "captions": [
+        {
+          "label": "La insignificancia de los murciélagos",
+          "text": "Los cuerpos de estos diminutos murciélagos comunes miden sólo cuatro centímetros de longitud. Este tamaño no es inusual en el mundo de los murciélagos. ¡De hecho te cabrían en la mano muchos murciélagos de distintos tipos!"
+        }
+      ],
+      "narration": "assets/es/vamp/VAMP01NP.mp3"
+    },
+    {
+      "id": "amazing-acrobats",
+      "title": "Acróbatas asombrosos",
+      "image": "assets/es/vamp/VAMP02PU.webp",
+      "text": "Cuando los murciélagos persiguen insectos pueden cambiar de dirección tan rápido que nuestros ojos no son capaces de seguirlos. Usan las alas no sólo para volar sino también para atrapar insectos del aire. Algunos murciélagos tienen una cola correosa que utilizan durante el vuelo como timón y como freno.",
+      "captions": [
+        {
+          "label": "Ala de caza",
+          "text": "Adelantando las alas, este murciélago de Daubenton forma una \"red\" con la que atrapa en el aire una jugosa polilla. Cuando va de caza suele sobrevolar ríos y lagos, utilizando las patas para atrapar insectos grandes en la superficie, como hacen los pájaros pescadores."
+        }
+      ],
+      "narration": "assets/es/vamp/VAMP02NP.mp3"
+    },
+    {
+      "id": "echolocation",
+      "title": "Ecolocación",
+      "image": "assets/es/vamp/VAMP03PU.webp",
+      "text": "Los murciélagos insectívoros son nocturnos, lo que significa que cazan por la noche. ¿Cómo encuentran a su presa en la oscuridad? Por ecolocación, que significa localizar por medio del eco.",
+      "captions": [
+        {
+          "label": "Sonidos rebotados",
+          "text": "Los vampiros emiten chillidos de frecuencia muy alta que los humanos no podemos oír. Éstos rebotan en los objetos cercanos y vuelven como eco al hocico y las orejas sensibles del murciélago. \"Leyendo\" esos ecos, los murciélagos pueden lanzarse sobre la presa aunque la oscuridad sea total."
+        }
+      ],
+      "narration": "assets/es/vamp/VAMP03NP.mp3"
+    },
+    {
+      "id": "bat-anatomy",
+      "title": "Anatomía del murciélago",
+      "image": "assets/es/vamp/VAMP04PU.webp",
+      "text": "Un murciélago tiene una \"capa\" de piel que se extiende entre el cuerpo y los huesos del \"brazo\" formando un ala ligera para volar. Le hemos copiado el diseño para nuestras alas delta.",
+      "captions": [
+        {
+          "label": "Brazos largos",
+          "text": "Te darás cuenta de que las alas de un murciélago son similares a nuestros brazos. Sus \"manos\" sólo tienen un dedo corto y con uña que sobresalga de la piel. Los murciélagos lo utilizan para sujetarse sobre algo y arrastrarse por el suelo. Los huesos de los otros \"dedos\" sirven de apoyo a las alas."
+        },
+        {
+          "label": "El cráneo del murciélago",
+          "text": "¿Quién habría imaginado que un animal necesitaría dientes tan afilados para comer fruta?"
+        }
+      ],
+      "narration": "assets/es/vamp/VAMP04NP.mp3"
+    },
+    {
+      "id": "hanging-out",
+      "title": "Colgados",
+      "image": "assets/es/vamp/VAMP05PU.webp",
+      "text": "Los murciélagos pasan el tiempo volando o colgados boca abajo. Les gusta dormir en árboles, cuevas, cobertizos e incluso en casas. Cuando hace frío se amontonan para darse calor unos a otros.",
+      "captions": [
+        {
+          "label": "Andar de uñas",
+          "text": "Si pliegan las alas, los murciélagos pueden andar erguidos sobre el suelo o colgarse boca abajo de una rama. Para sujetarse utilizan el único dedo con uña de cada ala, junto con las patas traseras, que tienen muchos dedos ungulados."
+        }
+      ],
+      "narration": "assets/es/vamp/VAMP05NP.mp3"
+    },
+    {
+      "id": "fruit-juicer",
+      "title": "Le gusta el zumo de fruta",
+      "image": "assets/es/vamp/VAMP06PU.webp",
+      "text": "El murciélago frugívoro o zorro volador depende de su vista aguda y de su olfato muy desarrollado para encontrar su alimento. Se le ha dado el apodo de \"zorro volador\" por la cabeza peluda y grande, así como por la cara, que parece de perro. El murciélago de Franquet también se llama murciélago charretera porque el pelo blanco de los hombros se parece a las charreteras de un uniforme. Vive en los bosques africanos y se alimenta de frutas blandas, como guayabas, bananas e higos.",
+      "narration": "assets/es/vamp/VAMP06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/vamp/VAMP00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 4.87,
+            "y": 8.32,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Un ramo de murciélagos",
+            "to": "bouquet-of-bats",
+            "x": 69.24,
+            "y": 17.41,
+            "w": 14.01,
+            "h": 4.13
+          },
+          {
+            "label": "Acróbatas asombrosos",
+            "to": "amazing-acrobats",
+            "x": 56,
+            "y": 20,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "¿Qué hay para cenar?",
+            "to": "video",
+            "x": 53,
+            "y": 29,
+            "w": 25,
+            "h": 6
+          },
+          {
+            "label": "Colgados",
+            "to": "hanging-out",
+            "x": 7.68,
+            "y": 46.64,
+            "w": 13.08,
+            "h": 9.98
+          },
+          {
+            "label": "Anatomía del murciélago",
+            "to": "bat-anatomy",
+            "x": 7.68,
+            "y": 53.78,
+            "w": 11.36,
+            "h": 2.83
+          },
+          {
+            "label": "Le gusta el zumo de fruta",
+            "to": "fruit-juicer",
+            "x": 47.37,
+            "y": 61.57,
+            "w": 21.51,
+            "h": 7.38
+          },
+          {
+            "label": "Ecolocación",
+            "to": "echolocation",
+            "x": 46,
+            "y": 75,
+            "w": 16,
+            "h": 6
+          }
+        ]
+      },
+      "bouquet-of-bats": {
+        "image": "assets/es/vamp/VAMP01PU.webp",
+        "back": "main"
+      },
+      "amazing-acrobats": {
+        "image": "assets/es/vamp/VAMP02PU.webp",
+        "back": "main"
+      },
+      "echolocation": {
+        "image": "assets/es/vamp/VAMP03PU.webp",
+        "back": "main"
+      },
+      "bat-anatomy": {
+        "image": "assets/es/vamp/VAMP04PU.webp",
+        "back": "main"
+      },
+      "hanging-out": {
+        "image": "assets/es/vamp/VAMP05PU.webp",
+        "back": "main"
+      },
+      "fruit-juicer": {
+        "image": "assets/es/vamp/VAMP06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/vamp/VAMP00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/vamp/clip.mp4",
+        "poster": "assets/es/vamp/VAMP07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/vamp/narration.mp3",
+  "sound": "assets/es/vamp/VAMP00AF.mp3",
+  "factsNarration": "assets/es/vamp/VAMP00FB.mp3",
+  "video": {
+    "title": "¿Qué hay para cenar?",
+    "src": "assets/es/vamp/clip.mp4",
+    "poster": "assets/es/vamp/poster.webp",
+    "caption": "¡Los vampiros vulgares o de Azara son únicos en el mundo de los murciélagos, porque lo único que ansían estas diminutas criaturas es sangre, sangre y más sangre! La mayoría de los murciélagos prefieren fruta o insectos. Los dos que ves aquí comen insectos y arañas."
+  }
+}

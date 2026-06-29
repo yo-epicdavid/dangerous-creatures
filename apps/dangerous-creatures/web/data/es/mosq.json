@@ -1,0 +1,260 @@
+{
+  "id": "mosq",
+  "code": "MOSQ",
+  "name": "Mosquito",
+  "scientificName": "Anopheles gambiae",
+  "needsScientificVerify": false,
+  "tagline": "¡El animal más letal del mundo cabe en la palma de tu mano!",
+  "weapons": [
+    "Transmisores de enfermedades"
+  ],
+  "habitats": [
+    "Ríos, lagos y humedales",
+    "Ciudades y campos"
+  ],
+  "regions": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/mosq/MOSQ00AA.webp",
+    "alt": "Mosquito"
+  },
+  "intro": "Los mosquitos propagan por todo el mundo enfermedades de los seres humanos y los animales. Cualquier extensión de agua estancada les sirve de zona de cría. Lo más siniestro que beben los machos es néctar, pero las hembras necesitan ingerir sangre para producir los huevos. Ahí está, precisamente, el peligro: al sorber sangre infectada, una hembra de mosquito transmitirá la enfermedad al siguiente animal al que pique.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Propaga enfermedades como la encefalitis, fiebres y la malaria.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "La hembra chupa la sangre de los animales.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "A lo largo de la historia las enfermedades transmitidas por los mosquitos han matado a más personas que todas las guerras juntas.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 1 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: casi todo el mundo",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "flying-dragon",
+      "title": "Como dragones voladores",
+      "image": "assets/es/mosq/MOSQ01PU.webp",
+      "text": "Las libélulas les producen un terror constante a los mosquitos. Cuando ambos son jóvenes, la ninfa de libélula caza larvas de mosquito en el agua. Cuando ambos son adultos y vuelan, ¡para las libélulas un mosquito es una comida perfecta para atrapar al vuelo!",
+      "narration": "assets/es/mosq/MOSQ01NP.mp3"
+    },
+    {
+      "id": "mosquito-menaces",
+      "title": "¿Quiénes amenazan a un mosquito?",
+      "image": "assets/es/mosq/MOSQ02PU.webp",
+      "text": "A pesar de ser tan pequeños, los mosquitos tienen una gran importancia en la red alimentaria. Numerosos animales acuáticos se alimentan de las larvas de mosquito, que viven en aguas estancadas. Cuando se convierten en adultos, entran en el menú de las ranas, sapos, lagartos, aves, murciélagos y también de otros insectos.",
+      "captions": [
+        {
+          "label": "El murciélago de Daubenton",
+          "text": "Este pequeño murciélago, que habita en Europa y Asia Central, atrapa con la cola a los mosquitos y otros insectos y se los lleva a la boca. También le gusta el pescado."
+        }
+      ],
+      "narration": "assets/es/mosq/MOSQ02NP.mp3"
+    },
+    {
+      "id": "in-your-blood",
+      "title": "En tu sangre",
+      "image": "assets/es/mosq/MOSQ03PU.webp",
+      "text": "Los mosquitos pueden propagar alrededor de 100 enfermedades entre las personas y los animales. Por fortuna la mayor parte de ellas, que son principalmente tropicales, las sabemos prevenir o tratar.",
+      "captions": [
+        {
+          "label": "Plasmadios en los glóbulos rojos humanos",
+          "text": "La malaria es una enfermedad tropical causada por un protozoo (un animal unicelular microscópico) llamado plasmadio que ataca a los glóbulos rojos. Cuando una hembra de mosquito se alimenta de la sangre de una persona infectada, se convierte en portadora y transmite la infección a la siguiente persona que pique. Es una suerte que sólo una especie de mosquito tropical, llamado anófeles, pueda transmitir la malaria."
+        }
+      ],
+      "narration": "assets/es/mosq/MOSQ03NP.mp3"
+    },
+    {
+      "id": "disease-spreaders",
+      "title": "Propagadores de la enfermedad",
+      "image": "assets/es/mosq/MOSQ04PU.webp",
+      "text": "Numerosos insectos, aparte de los mosquitos, pueden extender la enfermedad y la infección entre los seres humanos y otros animales. Aquí tienes un par de ellos.",
+      "captions": [
+        {
+          "label": "¡Vaya cara!",
+          "text": "¿Te da miedo esta ampliación de la mosca de la carne? Hay que reconocer que no tiene un aspecto muy agradable. A veces las moscas de la carne ponen los huevos en heridas abiertas, infectándolas. Pero lo normal es que estas moscas pequeñas los pongan en desperdicios de animales y sobre carne putrefacta, para que al salir del huevo las ninfas se coman la materia en decadencia: esta costumbre sirve de ayuda a los procesos humanos y ecológicos."
+        },
+        {
+          "label": "¡Limpiate los pies!",
+          "text": "Las cucarachas comen de todo, incluyendo basura y animales muertos, por lo que recogen gérmenes. Pero son útiles porque se hacen cargo de los desperdicios y porque ellas mismas son el alimento de otros animales. Te darás cuenta de que no existen animales «realmente malos»."
+        }
+      ],
+      "narration": "assets/es/mosq/MOSQ04NP.mp3"
+    },
+    {
+      "id": "pest-control",
+      "title": "Control de plagas",
+      "image": "assets/es/mosq/MOSQ05PU.webp",
+      "text": "Los plaguicidas que utilizamos en las plantas tienden a acabar con todos los insectos. Pero muchos de éstos son beneficiosos para el ser humano, por lo que en lugar de matarlos deberíamos protegerlos.",
+      "captions": [
+        {
+          "label": "¡Qué estiércol tan delicioso!",
+          "text": "Las moscas del estiércol se alimentan de insectos a los que consideramos como plagas, por ejemplo la mosca doméstica, y ponen los huevos sobre estiércol, que comen las ninfas al salir del huevo. ¡Si no fuera por los que se comen los desperdicios de los animales, éstos se conservarían prácticamente para siempre!"
+        },
+        {
+          "label": "Jardín de infancia natural",
+          "text": "Una cucaracha se ajusta a la idea que tiene una avispa joya de lo que es una guardería infantil perfecta. La hembra pica a la cucaracha, la arrastra a un agujero que había cavado y pone los huevos sobre aquélla. Cuando salen del huevo, las larvas se comen al insecto paralizado."
+        }
+      ],
+      "narration": "assets/es/mosq/MOSQ05NP.mp3"
+    },
+    {
+      "id": "strength-in-numbers",
+      "title": "La fuerza está en el número",
+      "image": "assets/es/mosq/MOSQ06PU.webp",
+      "text": "Un insecto es un animal pequeño. ¡Pero cuando los de algunas especies se reúnen pueden causar problemas muy grandes! Hace falta mucho dinero para reparar los daños que provocan estos dos todos los años.",
+      "captions": [
+        {
+          "label": "Una plaga de langostas",
+          "text": "Las langostas pueden reunirse en un enjambre formando una nube de cientos de kilómetros y comiéndose toda la vida vegetal que encuentran en su camino."
+        },
+        {
+          "label": "Larga vida a la reina",
+          "text": "Esta reina con forma de salchicha es el centro de la compleja sociedad de las termitas. Su trabajo consiste en poner huevos: ¡hasta treinta mil al día!"
+        },
+        {
+          "label": "Las terribles termitas",
+          "text": "¡Las termitas te pueden comer la casa entera!"
+        }
+      ],
+      "narration": "assets/es/mosq/MOSQ06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/mosq/MOSQ00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.81,
+            "y": 9.19,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "¿Quiénes amenazan a un mosquito?",
+            "to": "mosquito-menaces",
+            "x": 73.93,
+            "y": 32.57,
+            "w": 20.42,
+            "h": 3.27
+          },
+          {
+            "label": "Como dragones voladores",
+            "to": "flying-dragon",
+            "x": 60,
+            "y": 43,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Propagadores de la enfermedad",
+            "to": "disease-spreaders",
+            "x": 76.12,
+            "y": 54.43,
+            "w": 12.14,
+            "h": 4.56
+          },
+          {
+            "label": "Control de plagas",
+            "to": "pest-control",
+            "x": 60.34,
+            "y": 69.36,
+            "w": 35.42,
+            "h": 8.46
+          },
+          {
+            "label": "En tu sangre",
+            "to": "in-your-blood",
+            "x": 56.43,
+            "y": 68.71,
+            "w": 11.51,
+            "h": 4.13
+          },
+          {
+            "label": "La fuerza está en el número",
+            "to": "strength-in-numbers",
+            "x": 24.09,
+            "y": 50.75,
+            "w": 16.82,
+            "h": 4.13
+          },
+          {
+            "label": "Sangre para las crías",
+            "to": "video",
+            "x": 20.96,
+            "y": 63.52,
+            "w": 16.67,
+            "h": 4.13
+          }
+        ]
+      },
+      "flying-dragon": {
+        "image": "assets/es/mosq/MOSQ01PU.webp",
+        "back": "main"
+      },
+      "mosquito-menaces": {
+        "image": "assets/es/mosq/MOSQ02PU.webp",
+        "back": "main"
+      },
+      "in-your-blood": {
+        "image": "assets/es/mosq/MOSQ03PU.webp",
+        "back": "main"
+      },
+      "disease-spreaders": {
+        "image": "assets/es/mosq/MOSQ04PU.webp",
+        "back": "main"
+      },
+      "pest-control": {
+        "image": "assets/es/mosq/MOSQ05PU.webp",
+        "back": "main"
+      },
+      "strength-in-numbers": {
+        "image": "assets/es/mosq/MOSQ06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/mosq/MOSQ00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/mosq/clip.mp4",
+        "poster": "assets/es/mosq/MOSQ07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/mosq/narration.mp3",
+  "sound": "assets/es/mosq/MOSQ00AF.mp3",
+  "factsNarration": "assets/es/mosq/MOSQ00FB.mp3",
+  "video": {
+    "title": "Sangre para las crías",
+    "src": "assets/es/mosq/clip.mp4",
+    "poster": "assets/es/mosq/poster.webp",
+    "caption": "La hembra del mosquito suele beber jugo de las plantas, pero para producir los huevos necesita ingerir sangre. Después deposita los huevos sobre la superficie de una extensión de agua estancada. Al salir de los huevos, las larvas de los mosquitos (ver abajo) pueden nadar, pero pasan casi todo el tiempo colgadas boca abajo de la superficie, respirando a través de unos tubos que salen del abdomen."
+  }
+}

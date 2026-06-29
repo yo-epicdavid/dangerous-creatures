@@ -1,0 +1,255 @@
+{
+  "id": "pyth",
+  "code": "PYTH",
+  "name": "Serpiente pitón",
+  "scientificName": "Python reticulatus",
+  "needsScientificVerify": false,
+  "tagline": "¡La serpiente más larga del mundo te abraza tan fuerte que no te deja respirar!",
+  "weapons": [
+    "Constricción"
+  ],
+  "habitats": [
+    "Selva tropical",
+    "Praderas y sabanas"
+  ],
+  "regions": [
+    "África",
+    "Asia",
+    "Australia y Oceanía"
+  ],
+  "hero": {
+    "image": "assets/es/pyth/PYTH00AA.webp",
+    "alt": "Serpiente pitón"
+  },
+  "intro": "Probablemente es la serpiente más larga del mundo. La más grande que se ha encontrado (una pitón reticulada) era tan larga como la altura de una casa de tres plantas. Los hábitos y el tamaño de la pitón varían: desde las asiáticas, que pueden comer un ciervo, pasando por las africanas, que se recogen formando una bola, hasta llegar a las australianas, que se dejan en los graneros para que se coman las ratas. Esta pitón de Seba es una de las serpientes más grandes del mundo.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Aprieta su presa hasta ahogarla.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Pequeños reptiles, pájaros, cerdos y ciervos.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Según algunas leyendas africanas, cuando una pitón muere se transforma en una joya gigantesca.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 10 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "África, Asia, Australasia, India",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "whats-a-constrictor",
+      "title": "¿Qué es una constríctor?",
+      "image": "assets/es/pyth/PYTH01PU.webp",
+      "text": "Las serpientes que matan a sus presas apretándolas entre sus anillos se llaman constríctor. ¡Sólo un pequeño apretón! Tendrías que poner una tras otra seis serpientes de la leche de México para igualar la longitud de una gran boa constríctor, pero esta pequeña serpiente rayada oprime a su presa igual que su gigantesca pariente lejana. Un fuerte abrazo: Una constríctor atrapa a su presa con los dientes y la rodea con el cuerpo. La serpiente no la aplasta: se limita a aplicarle la presión suficiente para que no pueda respirar. En cuanto la presa exhala, la serpiente la aprieta un poco más con los colmillos; hasta que la víctima ya no puede expandir las costillas y los pulmones, y al no respirar se ahoga.",
+      "narration": "assets/es/pyth/PYTH01NP.mp3"
+    },
+    {
+      "id": "inside-story",
+      "title": "En el interior",
+      "image": "assets/es/pyth/PYTH02PU.webp",
+      "text": "Una serpiente es sobre todo columna vertebral. Los hombres sólo tenemos 33 vértebras, ¡pero una serpiente grande como ésta puede tener 400! Las pitones y las boas tienen un esqueleto poco habitual: estas serpientes primitivas tienen vestigios de caderas y de diminutas patas traseras. Los científicos creen que los huesos (que no aparecen en este dibujo) prueban que los antepasados de las serpientes tenían patas.",
+      "narration": "assets/es/pyth/PYTH02NP.mp3"
+    },
+    {
+      "id": "jaws-of-death",
+      "title": "Mandíbulas mortales",
+      "image": "assets/es/pyth/PYTH03PU.webp",
+      "text": "Para ti, el equivalente a una constríctor que se traga entera una rata sería tragarte de una vez una sandía. La serpiente puede hacerlo porque sus mandíbulas y piel se e-s-t-i-r-a-n. ¡Incluso son capaces de tragarse objetos más grandes que su propio cuerpo! ¡De par en par! La mandíbula inferior de una serpiente puede moverse hacia abajo. Los dos lados de la mandíbula inferior pueden estirarse también lateralmente, pues las dos mitades están unidas mediante un ligamento tan flexible como una goma elástica.",
+      "narration": "assets/es/pyth/PYTH03NP.mp3"
+    },
+    {
+      "id": "egg-cetera",
+      "title": "Incubando los huevos",
+      "image": "assets/es/pyth/PYTH04PU.webp",
+      "text": "Todas las madres pitón se enrollan sobre los huevos al menos durante una parte del período de incubación, y algunas especies vigilan los huevos hasta que eclosionan. Algunas de las especies más grandes – como la pitón india – mantienen calientes los huevos enrollándose sobre ellos y estremeciéndose para crear fricción. En cuanto salen del huevo, las crías han de vivir por su cuenta.",
+      "captions": [
+        {
+          "label": "¿Preparada?...",
+          "text": "Esta pequeña serpiente de las ratas echa un vistazo a su alrededor antes de salir del huevo. Puede quedarse ahí varios días antes de deslizarse al mundo exterior."
+        },
+        {
+          "label": "...¡Allá voy!",
+          "text": "Cuando sale finalmente del cascarón, lo hace velozmente. ¡Qué gran cantidad de serpientes había metidas en ese pequeño huevo!"
+        }
+      ],
+      "narration": "assets/es/pyth/PYTH04NP.mp3"
+    },
+    {
+      "id": "one-of-the-biggest",
+      "title": "Una de las más grandes",
+      "image": "assets/es/pyth/PYTH05PU.webp",
+      "text": "Si todas las serpientes se presentan a un concurso, ¡el premio al mayor tamaño lo compartirían estas primas!",
+      "captions": [
+        {
+          "label": "Anaconda de Sudamérica",
+          "text": "Quizás la pitón sea la más larga, pero la anaconda, o boa acuática, es posiblemente la más pesada. Un ejemplar grande puede superar los 8 metros y pesar más que tres hombres adultos."
+        },
+        {
+          "label": "Pitón reticulada de Asia",
+          "text": "Es la serpiente más grande del hemisferio oriental: puede superar los 9 metros de largo."
+        }
+      ],
+      "narration": "assets/es/pyth/PYTH05NP.mp3"
+    },
+    {
+      "id": "super-senses",
+      "title": "Finos sentidos",
+      "image": "assets/es/pyth/PYTH06PU.webp",
+      "text": "Si las pitones y sus parientes, las boas, fueran misiles, rara vez fallarían su objetivo: ¡aunque fuera noche cerrada! Los orificios sensibles al calor que tienen en la cabeza detectan el calor del mamífero. Como esta información la procesa la parte del cerebro relacionada con la vista, ¡la serpiente 've' realmente el calor que desprende el animal! Lo tengo en la punta de la lengua... Todas las serpientes y algunos lagartos usan su lengua bífida para recoger partículas químicas de su entorno. Las partículas pasan de la punta de la lengua hasta el órgano de Jacobson, que en parte las 'huele' y en parte las 'saborea'.",
+      "narration": "assets/es/pyth/PYTH06NP.mp3"
+    },
+    {
+      "id": "coat-of-many-colors",
+      "title": "Piel de muchos colores",
+      "image": "assets/es/pyth/PYTH07PU.webp",
+      "text": "Quizás creas que sería difícil no fijarse en un animal con el colorido de esta pitón arbórea verde, pero es casi invisible cuando busca roedores, pájaros y murciélagos entre las ramas. El color de las serpientes jóvenes es todavía más vivo: amarillo limón con franjas púrpuras y marrones. Estas bellas pitones viven en las pluviselvas de Nueva Guinea y del nordeste de Australia. Las pitones arbóreas verdes adultas pueden medir más de dos metros de largo.",
+      "narration": "assets/es/pyth/PYTH07NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/pyth/PYTH00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.81,
+            "y": 8.97,
+            "w": 4.64,
+            "h": 3.92
+          },
+          {
+            "label": "¿Qué es una constríctor?",
+            "to": "whats-a-constrictor",
+            "x": 2.84,
+            "y": 40.79,
+            "w": 17.61,
+            "h": 4.13
+          },
+          {
+            "label": "¡Demasiado llenas para moverse!",
+            "to": "video",
+            "x": 63.46,
+            "y": 31.48,
+            "w": 24.79,
+            "h": 9.98
+          },
+          {
+            "label": "Mandíbulas mortales",
+            "to": "jaws-of-death",
+            "x": 76.28,
+            "y": 37.33,
+            "w": 14.95,
+            "h": 8.24
+          },
+          {
+            "label": "Una de las más grandes",
+            "to": "one-of-the-biggest",
+            "x": 64,
+            "y": 50,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "En el interior",
+            "to": "inside-story",
+            "x": 18.31,
+            "y": 74.99,
+            "w": 17.92,
+            "h": 9.33
+          },
+          {
+            "label": "Incubando los huevos",
+            "to": "egg-cetera",
+            "x": 18.31,
+            "y": 74.99,
+            "w": 17.92,
+            "h": 9.33
+          },
+          {
+            "label": "Finos sentidos",
+            "to": "super-senses",
+            "x": 83.62,
+            "y": 72.39,
+            "w": 10.73,
+            "h": 3.48
+          },
+          {
+            "label": "Piel de muchos colores",
+            "to": "coat-of-many-colors",
+            "x": 2.84,
+            "y": 34.73,
+            "w": 24.33,
+            "h": 10.19
+          }
+        ]
+      },
+      "whats-a-constrictor": {
+        "image": "assets/es/pyth/PYTH01PU.webp",
+        "back": "main"
+      },
+      "inside-story": {
+        "image": "assets/es/pyth/PYTH02PU.webp",
+        "back": "main"
+      },
+      "jaws-of-death": {
+        "image": "assets/es/pyth/PYTH03PU.webp",
+        "back": "main"
+      },
+      "egg-cetera": {
+        "image": "assets/es/pyth/PYTH04PU.webp",
+        "back": "main"
+      },
+      "one-of-the-biggest": {
+        "image": "assets/es/pyth/PYTH05PU.webp",
+        "back": "main"
+      },
+      "super-senses": {
+        "image": "assets/es/pyth/PYTH06PU.webp",
+        "back": "main"
+      },
+      "coat-of-many-colors": {
+        "image": "assets/es/pyth/PYTH07PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/pyth/PYTH00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/pyth/clip.mp4",
+        "poster": "assets/es/pyth/PYTH08TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/pyth/narration.mp3",
+  "sound": "assets/es/pyth/PYTH00AF.mp3",
+  "factsNarration": "assets/es/pyth/PYTH00FB.mp3",
+  "video": {
+    "title": "¡Demasiado llenas para moverse!",
+    "src": "assets/es/pyth/clip.mp4",
+    "poster": "assets/es/pyth/poster.webp",
+    "caption": "Las pitones suelen capturar presas pequeñas y medianas, pues cuanto más grande es el animal más tarda en digerirlo. Si una pitón engulle un animal grande, como un antílope, estará indefensa durante varios días o incluso semanas."
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "id": "gila",
+  "code": "GILA",
+  "name": "Monstruo de Gila",
+  "scientificName": "Heloderma suspectum",
+  "needsScientificVerify": false,
+  "tagline": "¡El único lagarto venenoso de Norteamérica que muerde fuerte... y no suelta!",
+  "weapons": [
+    "Veneno y ponzoña",
+    "Dientes y mandíbulas"
+  ],
+  "habitats": [
+    "Desierto"
+  ],
+  "regions": [
+    "Norteamérica"
+  ],
+  "hero": {
+    "image": "assets/es/gila/GILA00AA.webp",
+    "alt": "Monstruo de Gila"
+  },
+  "intro": "Imagínate un bulldog venenoso, con el colorido de una bolsa de pedrería y que sólo mide unos cuantos centímetros: así te harás una idea del aspecto de un monstruo de Gila. Cuando este animal se siente amenazado, sujeta a su enemigo con los afilados dientes y luego inyecta veneno en la herida. Pero cada vez hay menos monstruos de Gila en estado libre porque se han cazado muchos para venderlos como mascotas.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Al morder deja veneno en la herida.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Roedores, huevos, crías de aves, lagartos, ranas e insectos.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Este lagarto venenoso es generalmente pacífico, ¡por lo que algunas personas lo tienen incluso de mascota!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 56 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: Estados Unidos, México",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "yellow-and-black-stay-back",
+      "title": "Amarillo y negro: ¡atrás!",
+      "image": "assets/es/gila/GILA01PU.webp",
+      "text": "No es probable que te lo encuentres, porque pasan la mayor parte del tiempo en madrigueras subterráneas. Pero si ves uno, una mirada a esos colores brillantes basta para advertirte: ¡manos fuera!",
+      "captions": [
+        {
+          "label": "Ajolote o axolote punteado",
+          "text": "Este anfibio tiene glándulas venenosas en la piel. Si los predadores no se meten con ella, la salamandra vivirá más de 20 años."
+        },
+        {
+          "label": "Serpiente de los manglares",
+          "text": "El veneno de este reptil del color de la avispa no tiene fuerza para matar a una persona, pero sí a los pájaros que caza esta serpiente."
+        }
+      ],
+      "narration": "assets/es/gila/GILA01NP.mp3"
+    },
+    {
+      "id": "groovy-teeth",
+      "title": "Dientes acanalados",
+      "image": "assets/es/gila/GILA02PU.webp",
+      "text": "Los científicos no están seguros, pero creen que el monstruo de Gila utiliza el veneno para defenderse, no para cazar. Como es tan lento sólo come alimentos que no puedan escapar, como huevos o crías de animales.",
+      "captions": [
+        {
+          "label": "Lavado bucal",
+          "text": "Los monstruos de Gila no inyectan veneno, sino que lo introducen en la víctima al morder, mediante los dientes acanalados. Las glándulas de la mandíbula inferior producen la saliva venenosa, que fluye por el lado interior de la boca hasta llegar a los dientes, cuyos canales lo recogen y dirigen. Una gota de este veneno, que ataca al sistema nervioso, es más potente que la de una serpiente de cascabel."
+        }
+      ],
+      "narration": "assets/es/gila/GILA02NP.mp3"
+    },
+    {
+      "id": "rough-neighborhood",
+      "title": "Un vecindario duro",
+      "image": "assets/es/gila/GILA03PU.webp",
+      "text": "Quizá los monstruos de Gila no se ajusten a tu idea de lo bonito, pero son perfectos para vivir entre estos vecinos venenosos: aquí ves varios de ellos. ¡El desierto no es un buen lugar para los enclenques!",
+      "captions": [
+        {
+          "label": "¡Piezas de repuesto!",
+          "text": "En cada lado de la mandíbula la serpiente de cascabel tiene hasta seis colmillos de repuesto, situados detrás de los que está utilizando. Así, aunque se le rompa alguno, no pasará hambre."
+        },
+        {
+          "label": "¡Todo en el agujero!",
+          "text": "Una avispa alhaja hembra pica y paraliza a una cucaracha, la mete en el agujero que ha excavado y pone un huevo encima. Cuando la larva sale del huevo, se come a la cucaracha."
+        },
+        {
+          "label": "¿Alguien quiere pelea?",
+          "text": "El escorpión es una máquina de matar bien equipada. Utiliza las patas frontales en forma de garra, llamadas pedipalpos, para sujetar la presa. Después la despedaza y machaca con sus fuertes mandíbulas articuladas. Si la presa se debate, puede paralizarla con una picadura."
+        }
+      ],
+      "narration": "assets/es/gila/GILA03NP.mp3"
+    },
+    {
+      "id": "life-in-a-frying-pan",
+      "title": "Vivir en una sartén",
+      "image": "assets/es/gila/GILA04PU.webp",
+      "text": "Los reptiles del desierto viven en lugares donde escasea el agua, hay pocos escondrijos y las temperaturas pueden alcanzar los 55ºC por el día y helar por la noche. Para enfrentarse a esas condiciones extremas, han de desarrollar técnicas especializadas.",
+      "captions": [
+        {
+          "label": "Canalización del agua",
+          "text": "Las púas del diablo espinoso forman canales por los que el agua de la lluvia o el rocío fluye hacia la boca: ¡un sistema muy práctico para los habitantes del desierto!"
+        }
+      ],
+      "narration": "assets/es/gila/GILA04NP.mp3"
+    },
+    {
+      "id": "sand-swimmer",
+      "title": "Nadador de arena",
+      "image": "assets/es/gila/GILA05PU.webp",
+      "text": "Este lagarto se llama así por su habilidad para 'nadar' en la arena. Como el monstruo de Gila, almacena grasa en la cola para nutrirse durante la hibernación o cuando la comida escasea.",
+      "captions": [
+        {
+          "label": "Pez de arena",
+          "text": "Para respirar, el pez de arena sólo mueve la parte inferior del cuerpo. Si moviera los lados, los huecos que se forman al respirar se llenarían de arena, dejando menos espacio para el aire que ha de inspirar después."
+        }
+      ],
+      "narration": "assets/es/gila/GILA05NP.mp3"
+    },
+    {
+      "id": "only-one-other",
+      "title": "Solamente dos",
+      "image": "assets/es/gila/GILA06PU.webp",
+      "text": "No deberías perder el sueño por la preocupación de encontrarte con un lagarto venenoso. Sólo hay dos: el monstruo de Gila y el lagarto de collar, que habita en los bosques del oeste de México, y que lo mismo que el monstruo de Gila es lento y en lugar de luchar prefiere ocultarse.",
+      "narration": "assets/es/gila/GILA06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/gila/GILA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 4.09,
+            "y": 8.32,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Vivir en una sartén",
+            "to": "life-in-a-frying-pan",
+            "x": 31.59,
+            "y": 12.44,
+            "w": 11.51,
+            "h": 4.13
+          },
+          {
+            "label": "Un vecindario duro",
+            "to": "rough-neighborhood",
+            "x": 8.77,
+            "y": 60.06,
+            "w": 20.89,
+            "h": 4.56
+          },
+          {
+            "label": "Nadador de arena",
+            "to": "sand-swimmer",
+            "x": 8.77,
+            "y": 60.06,
+            "w": 27.14,
+            "h": 10.41
+          },
+          {
+            "label": "Amarillo y negro: ¡atrás!",
+            "to": "yellow-and-black-stay-back",
+            "x": 27.99,
+            "y": 66.33,
+            "w": 19.32,
+            "h": 11.27
+          },
+          {
+            "label": "Solamente dos",
+            "to": "only-one-other",
+            "x": 65,
+            "y": 57,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Dientes acanalados",
+            "to": "groovy-teeth",
+            "x": 65,
+            "y": 64,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "¿Qué hay para cenar?",
+            "to": "video",
+            "x": 52.37,
+            "y": 74.56,
+            "w": 34.17,
+            "h": 10.19
+          }
+        ]
+      },
+      "yellow-and-black-stay-back": {
+        "image": "assets/es/gila/GILA01PU.webp",
+        "back": "main"
+      },
+      "groovy-teeth": {
+        "image": "assets/es/gila/GILA02PU.webp",
+        "back": "main"
+      },
+      "rough-neighborhood": {
+        "image": "assets/es/gila/GILA03PU.webp",
+        "back": "main"
+      },
+      "life-in-a-frying-pan": {
+        "image": "assets/es/gila/GILA04PU.webp",
+        "back": "main"
+      },
+      "sand-swimmer": {
+        "image": "assets/es/gila/GILA05PU.webp",
+        "back": "main"
+      },
+      "only-one-other": {
+        "image": "assets/es/gila/GILA06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/gila/GILA00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/gila/clip.mp4",
+        "poster": "assets/es/gila/GILA07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/gila/narration.mp3",
+  "sound": "assets/es/gila/GILA00AF.mp3",
+  "factsNarration": "assets/es/gila/GILA00FB.mp3",
+  "video": {
+    "title": "¿Qué hay para cenar?",
+    "src": "assets/es/gila/clip.mp4",
+    "poster": "assets/es/gila/poster.webp",
+    "caption": "El monstruo de Gila no es un predador rápido. Es feliz cuando encuentra comida que no pueda escapar, como huevos de reptil o un nido de pájaros en el suelo. Ocasionalmente puede capturar un lagarto o ratón que sean muy lentos."
+  }
+}

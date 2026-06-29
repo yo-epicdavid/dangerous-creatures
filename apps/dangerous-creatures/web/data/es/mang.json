@@ -1,0 +1,243 @@
+{
+  "id": "mang",
+  "code": "MANG",
+  "name": "Serpiente de los manglares",
+  "scientificName": "Boiga dendrophila",
+  "needsScientificVerify": false,
+  "tagline": "¡Enroscada entre las ramas y lista para sorprender: la reina venenosa del mangle!",
+  "weapons": [
+    "Veneno y ponzoña"
+  ],
+  "habitats": [
+    "Selva tropical",
+    "Ríos, lagos y humedales"
+  ],
+  "regions": [
+    "Asia"
+  ],
+  "hero": {
+    "image": "assets/es/mang/MANG00AA.webp",
+    "alt": "Serpiente de los manglares"
+  },
+  "intro": "Enroscada y preparada para atacar, la serpiente de los manglares abre la boca como advertencia. Es mejor hacer caso de ese aviso: como la mayoría de los animales con los colores de las avispas, es venenosa. Vive en el Sudeste Asiático, pasa el día descansando en las ramas que hay en el mangle, sobre el agua salada, y caza durante la noche. Su veneno no es letal para el hombre, pero la mordedura es dolorosa.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Mata inyectando veneno con los colmillos.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Aves, mamíferos pequeños, ranas, lagartos y otras serpientes.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "¡Vigila tu cabeza! Estas serpientes pasan tanto tiempo deslizándose por los árboles como cazando en el suelo.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 2,5 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Sudeste asiático",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "rear-fanged-snakes",
+      "title": "Serpientes con colmillos posteriores",
+      "image": "assets/es/mang/MANG01PU.webp",
+      "text": "Más de dos tercios de las serpientes son colúbridos o \"serpientes inofensivas\". Algunas, como la serpiente de los manglares, son venenosas, pero en la mayoría de los casos el veneno es bastante débil. Los colúbridos venenosos se denominan \"serpientes con colmillos posteriores\", porque tienen los colmillos en la parte posterior de la boca. Una serpiente de colmillos posteriores tiene de uno a tres dientes anchos y acanalados. Cuando muerde, el veneno fluye a través del surco y entra en la herida de la víctima.",
+      "captions": [
+        {
+          "label": "Devoradora de huevos africana",
+          "text": "A esta serpiente le encanta comer huevos. Se los traga enteros, los rompe con un hueso especial de la garganta y escupe luego los fragmentos de cáscara."
+        },
+        {
+          "label": "Fiero impostor",
+          "text": "Si molestas a una serpiente de hocico de cerdo de Madagascar, intentará hacerse pasar por una cobra, aplanando el cuello y silbando. Esta serpiente casi nunca muerde."
+        }
+      ],
+      "narration": "assets/es/mang/MANG01NP.mp3"
+    },
+    {
+      "id": "salt-swamp",
+      "title": "Marismas saladas",
+      "image": "assets/es/mang/MANG02PU.webp",
+      "text": "La mayoría de los animales no tolera las aguas saladas del mangle. Pero para algunos las marismas saladas son un hogar excelente.",
+      "captions": [
+        {
+          "label": "¡Cocodrilo a la vista!",
+          "text": "El mayor de los cocodriles, el de los estuarios o de aguas saladas, prefiere el agua de mar y se le ve a menudo lejos de la costa."
+        },
+        {
+          "label": "Araña cangrejo",
+          "text": "Este arácnido de vivos colores es fácil de ver cuando huye entre las hojas y flores de los árboles del mangle."
+        },
+        {
+          "label": "Un felino pescador",
+          "text": "Un mangle es un hogar perfecto para los tigres. Son buenos nadadores y no les importa vivir a base de tortugas y peces cuando el resto de la comida escasea."
+        }
+      ],
+      "narration": "assets/es/mang/MANG02NP.mp3"
+    },
+    {
+      "id": "tree-snakes",
+      "title": "Serpientes arbóreas",
+      "image": "assets/es/mang/MANG03PU.webp",
+      "text": "Muchas serpientes arbóreas (como éstas) se parecen mucho a su entorno. Será mejor que mires dos veces antes de agarrarte a una rama o una enredadera. ¡Podría empezar a reptar!",
+      "narration": "assets/es/mang/MANG03NP.mp3"
+    },
+    {
+      "id": "odd-neighbors",
+      "title": "Extraños vecinos",
+      "image": "assets/es/mang/MANG04PU.webp",
+      "text": "Los árboles del mangle están especialmente adaptados para crecer en aguas saladas, en riberas inundadas y en costas de zonas cálidas y húmedas. Los animales pequeños viven entre las grandes raíces que sujetan los árboles, mientras que los animales más grandes chapotean en las marismas. Todos estos extraños animales viven en el mangle del sudeste asiático.",
+      "captions": [
+        {
+          "label": "Mono narigudo macho",
+          "text": "Estos monos probablemente utilizan su nariz grande para amplificar los gruñidos y atraer a las hembras."
+        },
+        {
+          "label": "Saltarín del fango",
+          "text": "Este pececillo se abre camino entre el fango con las aletas anteriores. No tiene problemas para estar fuera del agua, pues puede respirar el aire."
+        },
+        {
+          "label": "Tapir malayo",
+          "text": "Este pariente del rinoceronte utiliza su hocico flexible para alcanzar sabrosas plantas."
+        }
+      ],
+      "narration": "assets/es/mang/MANG04NP.mp3"
+    },
+    {
+      "id": "snake-or-fake",
+      "title": "¿Cuál es la serpiente?",
+      "image": "assets/es/mang/MANG05PU.webp",
+      "text": "Según una teoría, hace unos 130 millones de años los lagartos que fueron los antepasados de las serpientes empezaron a vivir en madrigueras y vieron que bajo tierra no necesitaban patas. Como consecuencia algunas serpientes todavía conservan vestigios esqueléticos de las patas, mientras que algunos lagartos no las tienen. ¿Sabes cuál de estos animales es la serpiente?",
+      "captions": [
+        {
+          "label": "Una vida sorprendente",
+          "text": "Al igual que las serpientes, esta pequeña criatura no tiene patas delanteras, pero sí unas diminutas patas posteriores. Sin embargo, a diferencia de las serpientes tiene párpados. También pueden desprenderse de la cola cuando es necesario, igual que los lagartos, por lo que se les llama lagartos de cristal."
+        },
+        {
+          "label": "Una historia soleada",
+          "text": "Aunque conserva restos de las patas posteriores – que parecen pequeños espolones por la parte inferior – este primitivo animal que vive en madrigueras es una serpiente. Se le llama serpiente rayo de sol porque tiene los colores del arco iris en las escamas."
+        }
+      ],
+      "narration": "assets/es/mang/MANG05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/mang/MANG00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.18,
+            "y": 8.97,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Extraños vecinos",
+            "to": "odd-neighbors",
+            "x": 62.37,
+            "y": 10.27,
+            "w": 18.86,
+            "h": 9.76
+          },
+          {
+            "label": "¿Cuál es la serpiente?",
+            "to": "snake-or-fake",
+            "x": 57,
+            "y": 21,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Enredadera mortal",
+            "to": "video",
+            "x": 57,
+            "y": 32,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Serpientes con colmillos posteriores",
+            "to": "rear-fanged-snakes",
+            "x": 57,
+            "y": 43,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Serpientes arbóreas",
+            "to": "tree-snakes",
+            "x": 43,
+            "y": 74,
+            "w": 17,
+            "h": 6
+          },
+          {
+            "label": "Marismas saladas",
+            "to": "salt-swamp",
+            "x": 8,
+            "y": 80,
+            "w": 15,
+            "h": 6
+          }
+        ]
+      },
+      "rear-fanged-snakes": {
+        "image": "assets/es/mang/MANG01PU.webp",
+        "back": "main"
+      },
+      "salt-swamp": {
+        "image": "assets/es/mang/MANG02PU.webp",
+        "back": "main"
+      },
+      "tree-snakes": {
+        "image": "assets/es/mang/MANG03PU.webp",
+        "back": "main"
+      },
+      "odd-neighbors": {
+        "image": "assets/es/mang/MANG04PU.webp",
+        "back": "main"
+      },
+      "snake-or-fake": {
+        "image": "assets/es/mang/MANG05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/mang/MANG00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/mang/clip.mp4",
+        "poster": "assets/es/mang/MANG06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/mang/narration.mp3",
+  "sound": "assets/es/mang/MANG00AF.mp3",
+  "factsNarration": "assets/es/mang/MANG00FB.mp3",
+  "video": {
+    "title": "Enredadera mortal",
+    "src": "assets/es/mang/clip.mp4",
+    "poster": "assets/es/mang/poster.webp",
+    "caption": "Como la serpiente de los manglares, esta serpiente de enredadera caza en los árboles. Puede permanecer inmóvil durante horas, confundiéndose con el entorno. Una rana se acerca tranquilamente a esa «enredadera» de aspecto inofensivo y... sorpresa: ¡la enredadera tenía dientes!"
+  }
+}
