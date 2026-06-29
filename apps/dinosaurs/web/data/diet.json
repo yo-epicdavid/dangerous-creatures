@@ -1,0 +1,167 @@
+{
+  "id": "diet",
+  "code": "DIET",
+  "name": "Dinosaur Diets",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "From giant leaf-munchers to terrifying predators, dinosaurs ate in every way imaginable.",
+  "hero": {
+    "image": "assets/diet/DIET00AA.webp",
+    "alt": "Dinosaur Diets"
+  },
+  "intro": "There were two main types of dinosaurs: herbivores, or those who ate various types of vegetation, and carnivores, who ate other animals and insects. The plant-eating dinosaurs were far more common than the dinosaurs that ate them. Some dinosaurs called omnivores, could feed on either meat or plants. While some carnivores were able to attack and kill their prey, moving quickly alone or in packs, others fed on the remains of a carcass left behind. There is even evidence that some dinosaurs ate the young of their own species.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "fish-hook",
+      "title": "Fish Hook",
+      "image": "assets/diet/DIET01PU.webp",
+      "text": "The fish-eating dinosaur, Baryonyx, may have lurked near the edge of a river, watching for telltale ripples. Baryonyx then used its large claws to hook into a passing fish."
+    },
+    {
+      "id": "tree-toppers",
+      "title": "Tree Toppers",
+      "image": "assets/diet/DIET02PU.webp",
+      "text": "Giant plant-eating dinosaurs called sauropods were common in many dinosaur environments. Some could reach up to feed at the tops of tall trees. This type of feeding required a special type of neck—one that was strong, light, and flexible in order to be raised and lowered easily. Sauropods often browsed in herds, mulching leaves with their peg-like or spoon-shaped teeth. Their heads were small compared to the rest of their bodies."
+    },
+    {
+      "id": "meat-eater",
+      "title": "Meat-Eater",
+      "image": "assets/diet/DIET03PU.webp",
+      "text": "Tyrannosaurus rex was the largest, most frightening carnivore to walk the Earth. This killing machine fed on other dinosaurs. It stood eighteen feet high and was forty feet long. Tyrannosaurus rex's five-foot-long head had sharp teeth that were up to seven inches long. It may have been a fierce hunter but it also may have fed on carrion (animals already dead)."
+    },
+    {
+      "id": "egg-beaters",
+      "title": "Egg Beaters",
+      "image": "assets/diet/DIET04PU.webp",
+      "text": "Some dinosaurs, such as Oviraptor, may have specialized as egg predators. Their short, beaked jaws would have been well adapted for cracking open the large, thick-shelled eggs of other dinosaurs.",
+      "captions": [
+        {
+          "label": "Constant threat",
+          "text": "While only the size of a large dog, Oviraptor posed a constant danger to all dinosaurs. With strong jaws and two sharp spikes on the roof of its mouth, Oviraptor pierced or crushed the eggs of other dinosaurs, devouring the contents for a tasty meal."
+        },
+        {
+          "label": "Egg-eating snake",
+          "text": "An African egg-eater snake is a modern-day reptile specialized at eating nothing but eggs. It can swallow a whole egg twice the width of its own body. Inside the snake, tooth-like spines crush the shell. The egg's liquids pass further into the snake's digestive tract, while pieces of the shell are compacted and regurgitated."
+        }
+      ]
+    },
+    {
+      "id": "cannibals",
+      "title": "Cannibals",
+      "image": "assets/diet/DIET05PU.webp",
+      "text": "Coelophysis fossils found in New Mexico contained the skeletons of their young. These skeletons were too large to be unborn babies, so it seems Coelophysis ate their offspring."
+    },
+    {
+      "id": "meat-or-vegetables",
+      "title": "Meat or Vegetables?",
+      "image": "assets/diet/DIET06PU.webp",
+      "text": "This skull belonged to Massospondylus, which may have eaten both plants and animals. Its teeth were multipurpose: they were neither serrated nor rake-like and grinding. Rather, they were small and coarse-edged, so they might have been used to chew either flesh or plants. Animals that eat a wide variety of foods are called omnivores.",
+      "captions": [
+        {
+          "label": "Modern-day omnivores",
+          "text": "Humans today often eat meals that contain elements that come from both plants and animals. A typical sandwich, for example, can contain meat, which comes from animals, and vegetables and bread, which are produced from plants."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Jurassic Period",
+      "to": "jurr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/diet/DIET00AA.webp",
+        "hotspots": [
+          {
+            "label": "Tree toppers",
+            "to": "tree-toppers",
+            "x": 72,
+            "y": 23,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Fish hook",
+            "to": "fish-hook",
+            "x": 9,
+            "y": 49,
+            "w": 11,
+            "h": 5
+          },
+          {
+            "label": "Meat or vegetables?",
+            "to": "meat-or-vegetables",
+            "x": 20,
+            "y": 58,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Egg beaters",
+            "to": "egg-beaters",
+            "x": 40,
+            "y": 65,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Cannibals",
+            "to": "cannibals",
+            "x": 10,
+            "y": 77,
+            "w": 11,
+            "h": 5
+          },
+          {
+            "label": "Meat-eater",
+            "to": "meat-eater",
+            "x": 51,
+            "y": 82,
+            "w": 12,
+            "h": 5
+          }
+        ]
+      },
+      "fish-hook": {
+        "image": "assets/diet/DIET01PU.webp",
+        "back": "main"
+      },
+      "tree-toppers": {
+        "image": "assets/diet/DIET02PU.webp",
+        "back": "main"
+      },
+      "meat-eater": {
+        "image": "assets/diet/DIET03PU.webp",
+        "back": "main"
+      },
+      "egg-beaters": {
+        "image": "assets/diet/DIET04PU.webp",
+        "back": "main"
+      },
+      "cannibals": {
+        "image": "assets/diet/DIET05PU.webp",
+        "back": "main"
+      },
+      "meat-or-vegetables": {
+        "image": "assets/diet/DIET06PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/diet/DIET00AP.mp3",
+  "narration": "assets/diet/DIET00SA.mp3"
+}

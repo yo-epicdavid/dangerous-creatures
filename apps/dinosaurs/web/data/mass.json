@@ -1,0 +1,215 @@
+{
+  "id": "mass",
+  "code": "MASS",
+  "name": "Massospondylus",
+  "category": "dinosaur",
+  "scientificName": "Massospondylus",
+  "needsScientificVerify": false,
+  "pronunciation": "MAS-oh-SPON-dih-lus",
+  "meaning": "Massive vertebrae",
+  "period": "Early Jurassic",
+  "diet": "Herbivore",
+  "tagline": "This barrel-bodied giant swallowed stones to digest its dinner!",
+  "hero": {
+    "image": "assets/mass/MASS00AA.webp",
+    "alt": "Massospondylus"
+  },
+  "intro": "In its day, this prosauropod was a giant among dinosaurs. Although this five-fingered reptile lived some 50 million years before its relatives, the sauropods, it shares many similarities with the giant herbivores. Massospondylus had a long neck topped by a tiny head, a long powerful tail, and a barrel-shaped, bulky body. Like most heavy plant-eaters, Massospondylus spent most of its time walking on all fours, raising up on its back legs only occasionally to feed.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Africa, North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Early Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Massive vertebrae"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Prosauropod"
+    },
+    {
+      "label": "Length",
+      "value": "4.9m (16ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "dual-diet-dinosaur",
+      "title": "Dual-Diet Dinosaur",
+      "image": "assets/mass/MASS01PU.webp",
+      "text": "This skull belonged to Massospondylus. Its teeth are neither serrated and knife-like, which are characteristics of carnivores, nor rake-like or grinding, which are characteristics of herbivores. These teeth are small and coarse-edged—a type of \"multipurpose\" teeth which could chew either meat or plants. Animals that can eat both plants and meat are called omnivores.",
+      "captions": [
+        {
+          "label": "Human molar",
+          "text": "Like Massospondylus, humans are omnivores. Our teeth are well suited for grinding plant material and for eating meat."
+        }
+      ]
+    },
+    {
+      "id": "gravel-guts",
+      "title": "Gravel Guts",
+      "image": "assets/mass/MASS02PU.webp",
+      "text": "Digesting plants was not a simple task for all dinosaurs. For example, Massospondylus did not have well-designed jaws and teeth for grinding plants. Instead it swallowed stones—called gastroliths—and depended on these to break up the tough but nutritious parts of plants in its stomach. When these stones became too smooth to be effective, the dinosaur would probably regurgitate them, and swallow new, rougher stones."
+    },
+    {
+      "id": "bare-bones",
+      "title": "Bare Bones",
+      "image": "assets/mass/MASS03PU.webp",
+      "text": "This illustration of a Massospondylus skeleton shows how the dinosaur may have stood on its back legs to browse for food in trees. Some experts maintain that prosauropods like Massospondylus evolved with this long neck to do just that, to feed where other dinosaurs could not, among the treetops.",
+      "captions": [
+        {
+          "label": "I prefer acacias",
+          "text": "Like Massospondylus, the giraffe has a neck up on other plant-eaters. It can graze among the tops of tall trees, where there is very little competition for food."
+        }
+      ]
+    },
+    {
+      "id": "proof-of-continental-drift",
+      "title": "Proof of Continental Drift",
+      "image": "assets/mass/MASS04PU.webp",
+      "text": "Until 1975 the fossil remains of Massospondylus had been discovered only in southern Africa. But the discovery of Massospondylus bones in Arizona proves that the continents of North America and Africa must have been linked at one time. Otherwise, there'd be no way for the African dinosaur to have lived in both Africa and North America. Here's how the Earth may have looked during the Early Jurassic period in which Massospondylus lived."
+    },
+    {
+      "id": "claws-for-thumbs",
+      "title": "Claws for Thumbs",
+      "image": "assets/mass/MASS05PU.webp",
+      "text": "Massospondylus was a five-fingered dinosaur. It had a claw like this on each hand. Perhaps it used these thumb claws for defense against larger predators, or merely to dig up food."
+    },
+    {
+      "id": "discovered-by-sir-richard-owen",
+      "title": "Discovered by Sir Richard Owen",
+      "image": "assets/mass/MASS06PU.webp",
+      "text": "Massospondylus was named by Sir Richard Owen, one of the most famous dinosaur paleontologists. It was Sir Richard Owen who, in the 1840s, coined the name \"dinosaurs,\" meaning \"terrible lizards,\" for the entire group of giant reptiles. Owen also supervised the construction of life-sized models of dinosaurs and other prehistoric creatures. These models were created by the sculptor Benjamin Waterhouse Hawkins, and became a celebrated exhibit in Crystal Palace Park in England."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Plateosaurus",
+      "to": "plat"
+    },
+    {
+      "label": "The Story in a Skull",
+      "to": "stor"
+    },
+    {
+      "label": "Dinosaur Diets",
+      "to": "diet"
+    },
+    {
+      "label": "Anchisaurus",
+      "to": "anch"
+    },
+    {
+      "label": "The Shifting Earth",
+      "to": "shft"
+    },
+    {
+      "label": "Iguanodon",
+      "to": "igua"
+    },
+    {
+      "label": "Early Dinosaur Detectives",
+      "to": "edet"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mass/MASS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Gravel guts",
+            "to": "gravel-guts",
+            "x": 38,
+            "y": 33,
+            "w": 14,
+            "h": 6
+          },
+          {
+            "label": "Bare bones",
+            "to": "bare-bones",
+            "x": 63,
+            "y": 29,
+            "w": 13,
+            "h": 6
+          },
+          {
+            "label": "Dual-diet dinosaur",
+            "to": "dual-diet-dinosaur",
+            "x": 22,
+            "y": 41,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Discovered by Sir Richard Owen",
+            "to": "discovered-by-sir-richard-owen",
+            "x": 2,
+            "y": 52,
+            "w": 27,
+            "h": 6
+          },
+          {
+            "label": "Claws for thumbs",
+            "to": "claws-for-thumbs",
+            "x": 68,
+            "y": 60,
+            "w": 17,
+            "h": 6
+          },
+          {
+            "label": "Proof of continental drift",
+            "to": "proof-of-continental-drift",
+            "x": 10,
+            "y": 70,
+            "w": 23,
+            "h": 6
+          }
+        ]
+      },
+      "dual-diet-dinosaur": {
+        "image": "assets/mass/MASS01PU.webp",
+        "back": "main"
+      },
+      "gravel-guts": {
+        "image": "assets/mass/MASS02PU.webp",
+        "back": "main"
+      },
+      "bare-bones": {
+        "image": "assets/mass/MASS03PU.webp",
+        "back": "main"
+      },
+      "proof-of-continental-drift": {
+        "image": "assets/mass/MASS04PU.webp",
+        "back": "main"
+      },
+      "claws-for-thumbs": {
+        "image": "assets/mass/MASS05PU.webp",
+        "back": "main"
+      },
+      "discovered-by-sir-richard-owen": {
+        "image": "assets/mass/MASS06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/mass/MASS50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/mass/MASS00AP.mp3"
+}

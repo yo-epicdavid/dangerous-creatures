@@ -1,0 +1,173 @@
+{
+  "id": "dnmu",
+  "code": "DNMU",
+  "name": "Dinosaur National Monument",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "DIE-nuh-sor NASH-uh-nul MON-yuh-ment",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "More than 5,000 dinosaur bones buried in the rugged badlands of Utah and Colorado — waiting to be found.",
+  "hero": {
+    "image": "assets/dnmu/DNMU00AA.webp",
+    "alt": "Dinosaur National Monument"
+  },
+  "intro": "The badlands of the American West have been proven to be a rich source of dinosaur bones. The rugged Green River Canyon, which winds through northern Utah and Colorado, is one of the richest areas. This is the site of Dinosaur National Monument, where more than 5,000 dinosaur bones have been discovered among the steep hills.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Utah/Colorado"
+    },
+    {
+      "label": "Bones discovered",
+      "value": "More than 5,000"
+    },
+    {
+      "label": "Key excavator",
+      "value": "Earl Douglass"
+    },
+    {
+      "label": "Institution",
+      "value": "Carnegie Museum of Natural History, Pittsburgh"
+    },
+    {
+      "label": "Excavation period",
+      "value": "Fifteen years"
+    },
+    {
+      "label": "Dinosaurs unearthed",
+      "value": "Apatosaurus, Stegosaurus, Allosaurus, Diplodocus, Camarasaurus, Barosaurus, and Camptosaurus"
+    }
+  ],
+  "topics": [
+    {
+      "id": "the-discoverer",
+      "title": "The Discoverer",
+      "image": "assets/dnmu/DNMU01PU.webp",
+      "text": "In 1908, American fossil collector Earl Douglass went to the rocky, barren mountains of Utah in search of dinosaur bones. Douglass, on staff at the Carnegie Museum of Natural History in Pittsburgh, was sent west in search of fossils for the museum. What he found was one of the richest dinosaur fossil beds in the world. Douglass excavated the site in the Uinta Mountains for the next fifteen years, unearthing the bones of Apatosaurus, Stegosaurus, Allosaurus, Diplodocus, Camarasaurus, Barosaurus, and Camptosaurus. Douglass worked to preserve the site as a national monument.",
+      "captions": [
+        {
+          "label": "Earl Douglass with Apatosaurus skeleton",
+          "text": "Earl Douglass with Apatosaurus skeleton"
+        }
+      ]
+    },
+    {
+      "id": "sauropod-herds",
+      "title": "Sauropod Herds",
+      "image": "assets/dnmu/DNMU02PU.webp",
+      "text": "In the Late Jurassic period, herds of Apatosaurus, Diplodocus, Camarasaurus, and Barosaurus roamed across what is now the western United States, drinking along the muddy riverbanks like elephants at a watering hole.",
+      "captions": [
+        {
+          "label": "Famous footprints",
+          "text": "These sauropod footprints, found near Glen Rose, Texas, helped to prove that dinosaurs walked on two hind legs, not sprawling like a lizard. Other fossilized footprints have shown that sauropods traveled together in herds for safety."
+        }
+      ]
+    },
+    {
+      "id": "terrible-tyrant",
+      "title": "Terrible Tyrant",
+      "image": "assets/dnmu/DNMU03PU.webp",
+      "text": "All the plant-eaters had one common enemy: Allosaurus. During Jurassic times, this meat-eater was the largest and most abundant predator living on this plain. Even the huge, lumbering sauropods were not safe."
+    },
+    {
+      "id": "difficult-but-rewarding-work",
+      "title": "Difficult but Rewarding Work",
+      "image": "assets/dnmu/DNMU04PU.webp",
+      "text": "Earl Douglass and his team recovered many nearly complete skeletons from the hillsides in the area. Many had to be carried out on horse-drawn wagons.",
+      "captions": [
+        {
+          "label": "Vertical excavations",
+          "text": "Above the Green River on a rock face that tilted up 215 feet, dinosaur hunter Earl Douglass and his team uncovered the remains of dinosaurs, bone by bone."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Making of a Fossil",
+      "to": "makf"
+    },
+    {
+      "label": "The American Dinosaur Rush",
+      "to": "amer"
+    },
+    {
+      "label": "Footprints",
+      "to": "foot"
+    },
+    {
+      "label": "Allosaurus",
+      "to": "allo"
+    },
+    {
+      "label": "Digging up Dinosaurs",
+      "to": "digg"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/dnmu/DNMU00AA.webp",
+        "hotspots": [
+          {
+            "label": "Sauropod herds",
+            "to": "sauropod-herds",
+            "x": 8,
+            "y": 52,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Terrible tyrant",
+            "to": "terrible-tyrant",
+            "x": 7,
+            "y": 62,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Difficult but rewarding work",
+            "to": "difficult-but-rewarding-work",
+            "x": 56,
+            "y": 45,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "The discoverer",
+            "to": "the-discoverer",
+            "x": 55,
+            "y": 56,
+            "w": 18,
+            "h": 5
+          }
+        ]
+      },
+      "the-discoverer": {
+        "image": "assets/dnmu/DNMU01PU.webp",
+        "back": "main"
+      },
+      "sauropod-herds": {
+        "image": "assets/dnmu/DNMU02PU.webp",
+        "back": "main"
+      },
+      "terrible-tyrant": {
+        "image": "assets/dnmu/DNMU03PU.webp",
+        "back": "main"
+      },
+      "difficult-but-rewarding-work": {
+        "image": "assets/dnmu/DNMU04PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/dnmu/DNMU00AP.mp3"
+}

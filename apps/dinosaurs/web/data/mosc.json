@@ -1,0 +1,111 @@
+{
+  "id": "mosc",
+  "code": "MOSC",
+  "name": "Moschops",
+  "category": "creature",
+  "scientificName": "Moschops",
+  "needsScientificVerify": false,
+  "pronunciation": "MOS-kops",
+  "meaning": "Calf face",
+  "period": "Permian",
+  "diet": "Herbivore",
+  "tagline": "A barrel-bodied plant-muncher that head-butted its way through ancient South Africa.",
+  "hero": {
+    "image": "assets/mosc/MOSC00AA.webp",
+    "alt": "Moschops"
+  },
+  "intro": "About 250 million years ago, before the Age of Dinosaurs, the huge plant-eating reptile Moschops munched its way through the vegetation of what we now call South Africa. This reptile was one of the biggest animals of its time, with an appetite to match. Its teeth were chisel-shaped for cutting tough plants. Its massive barrel-like body contained a huge stomach, in which the tough plant food was fermented by bacteria so the reptile could absorb the nutrients. Moschops had a very thick skull with a bony bump on top, which the males may have used in head-butting contests. Moschops belongs to a group of reptiles called therapsids that are thought to be precursors of mammals.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Africa"
+    },
+    {
+      "label": "Time Period",
+      "value": "Permian"
+    },
+    {
+      "label": "Name Means",
+      "value": "Calf face"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Therapsid"
+    },
+    {
+      "label": "Length",
+      "value": "2.5m (8ft)"
+    },
+    {
+      "label": "Note",
+      "value": "This reptile had the front legs of a lizard and the back legs of a dinosaur."
+    }
+  ],
+  "topics": [
+    {
+      "id": "its-all-in-the-legs",
+      "title": "It's All in the Legs",
+      "image": "assets/mosc/MOSC01PU.webp",
+      "text": "One of the main differences between prehistoric reptiles and dinosaurs is the position of the legs. Moschops's front legs were splayed out to its sides, like a reptile. Its back legs were placed under the creature's hips, more like a dinosaur.",
+      "captions": [
+        {
+          "label": "Semi-erect legs",
+          "text": "Later reptiles like this archosaur had legs more directly under the body, which could support more weight than those of its predecessor."
+        },
+        {
+          "label": "Lizard legs",
+          "text": "Moschops had bent, sprawling front legs like this lizard."
+        },
+        {
+          "label": "Dinosaur legs",
+          "text": "The legs of this dinosaur were tucked under the body, fully supporting its enormous weight. The back legs of Moschops were well under the creature's hips, much like this dinosaur."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dimetrodon",
+      "to": "dime"
+    },
+    {
+      "label": "Eryops",
+      "to": "eryo"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mosc/MOSC00AA.webp",
+        "hotspots": [
+          {
+            "label": "It's all in the legs",
+            "to": "its-all-in-the-legs",
+            "x": 63,
+            "y": 42,
+            "w": 20,
+            "h": 5
+          }
+        ]
+      },
+      "its-all-in-the-legs": {
+        "image": "assets/mosc/MOSC01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/mosc/MOSA50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/mosc/MOSC00AP.mp3"
+}

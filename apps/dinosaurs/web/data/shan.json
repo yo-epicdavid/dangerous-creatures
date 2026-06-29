@@ -1,0 +1,139 @@
+{
+  "id": "shan",
+  "code": "SHAN",
+  "name": "Shantungosaurus",
+  "category": "dinosaur",
+  "scientificName": "Shantungosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "shan-TUNG-oh-SOR-us",
+  "meaning": "Reptile from Shandong",
+  "period": "Late Cretaceous",
+  "diet": "Herbivore",
+  "tagline": "The biggest duck-billed dinosaur ever — so tall it could peek over a three-story building!",
+  "hero": {
+    "image": "assets/shan/SHAN00AA.webp",
+    "alt": "Shantungosaurus"
+  },
+  "intro": "At around fifty feet long, Shantungosaurus is the largest known duckbilled dinosaur. When it stood on its hind legs, it could have peered over a three-story building! Shantungosaurus weighed as much as five tons. Its tail, which it held out stiffly as it walked, accounted for almost half of its length and was probably used to counterbalance the dinosaur's heavy body.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Asia"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Reptile from Shandong"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ornithopod"
+    },
+    {
+      "label": "Length",
+      "value": "18m (52ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "from-a-big-family",
+      "title": "From a Big Family",
+      "image": "assets/shan/SHAN01PU.webp",
+      "text": "Shantungosaurus is a Chinese member of the hadrosaur family of giant herbivore dinosaurs. Hadrosaurs were known not only for their duck-like bills and their many teeth, but also for the unusual head crests that many of them sported.",
+      "captions": [
+        {
+          "label": "Corythosaurus",
+          "text": "This hadrosaur had a fan-shaped crest atop its head. It traveled in herds and was a common sight in North America during the Cretaceous period."
+        },
+        {
+          "label": "Saurolophus",
+          "text": "This dinosaur probably had a flap of skin over its head that it could blow up like a balloon."
+        },
+        {
+          "label": "Shantungosaurus",
+          "text": "This dinosaur looks quite common compared to its hadrosaur cousins."
+        },
+        {
+          "label": "Parasaurolophus",
+          "text": "This dinosaur had a long, hollow skull crest. It probably used this crest as a resonator to amplify its voice."
+        }
+      ]
+    },
+    {
+      "id": "born-to-chew",
+      "title": "Born to Chew",
+      "image": "assets/shan/SHAN02PU.webp",
+      "text": "Duckbilled dinosaurs had jaws made for grinding and crushing plants, just as cows and horses do today. Shantungosaurus, like other hadrosaurs, had rows of diamond-shaped overlapping teeth that allowed it to crush tough vegetation. A duckbilled dinosaur did not chew by moving its jaws from side to side like a cow. Instead, when it closed its jaws, the lower jaw forced both sides of the upper jaw outward, grinding the rows of teeth against each other and crushing whatever material was in the hadrosaur's mouth.",
+      "captions": [
+        {
+          "label": "Replaceable teeth",
+          "text": "Here you can see the rows of overlapping teeth. Hadrosaurs had hundreds of teeth in their mouths. When one tooth dulled or fell out, the dinosaur would simply grow a new one in its place."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "A Tale of Tails",
+      "to": "tale"
+    },
+    {
+      "label": "Parasaurolophus",
+      "to": "para"
+    },
+    {
+      "label": "Plant-eaters",
+      "to": "plan"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/shan/SHAN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Born to chew",
+            "to": "born-to-chew",
+            "x": 76,
+            "y": 40,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "From a big family",
+            "to": "from-a-big-family",
+            "x": 8,
+            "y": 82,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "from-a-big-family": {
+        "image": "assets/shan/SHAN01PU.webp",
+        "back": "main"
+      },
+      "born-to-chew": {
+        "image": "assets/shan/SHAN02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/shan/SHAN50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/shan/SHAN00AP.mp3"
+}

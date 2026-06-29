@@ -1,0 +1,123 @@
+{
+  "id": "velo",
+  "code": "VELO",
+  "name": "Velociraptor",
+  "category": "dinosaur",
+  "scientificName": "Velociraptor",
+  "needsScientificVerify": false,
+  "pronunciation": "veh-LOS-ih-RAP-tor",
+  "meaning": "Quick plunderer",
+  "period": "Late Cretaceous",
+  "diet": "Carnivore",
+  "tagline": "A sickle-clawed speed hunter that could kick like a nightmare.",
+  "hero": {
+    "image": "assets/velo/VELO00AA.webp",
+    "alt": "Velociraptor"
+  },
+  "intro": "In Mongolia, scientists made a remarkable find when they uncovered two dinosaur skeletons that had been fossilized during combat. The fossils clearly showed Velociraptor grasping the head of Protoceratops in its hands. Velociraptor also had its hind feet drawn up into an attack position as if to kick its unfortunate victim.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Asia"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Quick plunderer"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Theropod"
+    },
+    {
+      "label": "Length",
+      "value": "1.8m (6ft)"
+    },
+    {
+      "label": "Note",
+      "value": "This dinosaur was built for speed - some experts think it may have been warm-blooded."
+    }
+  ],
+  "topics": [
+    {
+      "id": "wicked-claws",
+      "title": "Wicked Claws",
+      "image": "assets/velo/VELO01PU.webp",
+      "text": "Velociraptor had sickle-shaped claws on its hind feet, very like those of a relative, Deinonychus. Evidence suggests that these dinosaurs kicked with their hind feet, raking their victims with the sharp claws.",
+      "captions": [
+        {
+          "label": "Claws",
+          "text": "Claws"
+        }
+      ]
+    },
+    {
+      "id": "raptor-relative",
+      "title": "Raptor Relative",
+      "image": "assets/velo/VELO02PU.webp",
+      "text": "Velociraptor means \"speedy thief.\" Another dinosaur that was similar to Velociraptor in many ways and was also a speedy predator was Oviraptor, whose name means \"egg thief.\"",
+      "captions": [
+        {
+          "label": "Oviraptor",
+          "text": "Oviraptor"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Teeth of Meat-eaters",
+      "to": "mete"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/velo/VELO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Raptor relative",
+            "to": "raptor-relative",
+            "x": 12,
+            "y": 72,
+            "w": 19,
+            "h": 4
+          },
+          {
+            "label": "Wicked claws",
+            "to": "wicked-claws",
+            "x": 68,
+            "y": 63,
+            "w": 16,
+            "h": 4
+          }
+        ]
+      },
+      "wicked-claws": {
+        "image": "assets/velo/VELO01PU.webp",
+        "back": "main"
+      },
+      "raptor-relative": {
+        "image": "assets/velo/VELO02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/velo/VELO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/velo/VELO00AP.mp3"
+}

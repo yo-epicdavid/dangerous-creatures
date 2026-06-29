@@ -1,0 +1,199 @@
+{
+  "id": "pter",
+  "code": "PTER",
+  "name": "Pterodactylus",
+  "category": "creature",
+  "scientificName": "Pterodactylus",
+  "needsScientificVerify": false,
+  "pronunciation": "teh-roh-DAK-til-us",
+  "meaning": "Wing-finger",
+  "period": "Late Jurassic",
+  "diet": "Carnivore",
+  "tagline": "The winged reptile that soared through Jurassic skies alongside the dinosaurs",
+  "hero": {
+    "image": "assets/pter/PTER00AA.webp",
+    "alt": "Pterodactylus"
+  },
+  "intro": "Soaring through the sky like a giant bat, the flying reptile Pterodactylus lived at the same time as the dinosaurs, and shared many characteristics with those giants. This pterosaur, or winged reptile, had a beak full of teeth, a stubby tail, a wingspan of around twenty inches, and, perhaps, a furry body.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Africa, Europe"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Wing-finger"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Pterosaur"
+    },
+    {
+      "label": "Size",
+      "value": "~75cm (2.5ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "dragonfly-diet",
+      "title": "Dragonfly Diet",
+      "image": "assets/pter/PTER01PU.webp",
+      "text": "A major component of Pterodactylus's diet was probably giant dragonflies, which flourished in prehistoric times.",
+      "captions": [
+        {
+          "label": "Dated insect",
+          "text": "This dragonfly fossil dates back 140 million years. In fact, dragonflies can be called \"living fossils\" since they were flying in the skies 320 million years ago, and they have survived the centuries relatively unchanged."
+        }
+      ]
+    },
+    {
+      "id": "preserved-in-time",
+      "title": "Preserved in Time",
+      "image": "assets/pter/PTER02PU.webp",
+      "text": "In this beautifully preserved Pterodactylus fossil skeleton, you can clearly see teeth in the beak, the three clawed fingers at the top of the wings, and the long fourth \"finger\" bone that supported its leathery wings."
+    },
+    {
+      "id": "of-pterosaurs-and-tails",
+      "title": "Of Pterosaurs and Tails",
+      "image": "assets/pter/PTER03PU.webp",
+      "text": "Pterosaurs flew the skies during the same time that the dinosaurs ruled the land. Some pterosaurs were the size of sparrows, while others were the size of small planes.",
+      "captions": [
+        {
+          "label": "Two families",
+          "text": "Pterosaurs are divided into two main groups. One group, the rhamphorhynchoids, had long tails, like this Rhamphorhynchus. Pterodactylus's group, the pterodactyloids, had either very short tails or no tails at all."
+        }
+      ]
+    },
+    {
+      "id": "fingers-on-the-wings",
+      "title": "Fingers on the Wings",
+      "image": "assets/pter/PTER04PU.webp",
+      "text": "Pterosaurs had leathery wings that were supported by arm and hand bones, and by an enormously long fourth finger bone. This arrangement left the first three, sharp-clawed fingers halfway along the front of the wings.",
+      "captions": [
+        {
+          "label": "Wing support",
+          "text": "This long finger bone belonged to Pteranodon, a relative of Pterodactylus."
+        }
+      ]
+    },
+    {
+      "id": "furry-flyer",
+      "title": "Furry Flyer?",
+      "image": "assets/pter/PTER05PU.webp",
+      "text": "Reptiles are normally covered with scales, mammals with hair, and birds with feathers. Several pterosaur skeletons with hair-like impressions have been discovered in Kazakhstan. This may indicate that pterosaurs were warm-blooded and used fur as insulation, much like a modern relative, the bat."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Reptiles of the Air",
+      "to": "rair"
+    },
+    {
+      "label": "Living Fossils",
+      "to": "ddec"
+    },
+    {
+      "label": "The Making of a Fossil",
+      "to": "makf"
+    },
+    {
+      "label": "Rhamphorhynchus",
+      "to": "rham"
+    },
+    {
+      "label": "Archaeopteryx",
+      "to": "arch"
+    },
+    {
+      "label": "Warm-blooded or Cold-blooded?",
+      "to": "warm"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/pter/PTER00AA.webp",
+        "hotspots": [
+          {
+            "label": "Fingers on the wings",
+            "to": "fingers-on-the-wings",
+            "x": 14,
+            "y": 43,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Furry flyer?",
+            "to": "furry-flyer",
+            "x": 65,
+            "y": 33,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Preserved in time",
+            "to": "preserved-in-time",
+            "x": 63,
+            "y": 43,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Of pterosaurs and tails",
+            "to": "of-pterosaurs-and-tails",
+            "x": 59,
+            "y": 53,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Dragonfly diet",
+            "to": "dragonfly-diet",
+            "x": 28,
+            "y": 76,
+            "w": 19,
+            "h": 5
+          }
+        ]
+      },
+      "dragonfly-diet": {
+        "image": "assets/pter/PTER01PU.webp",
+        "back": "main"
+      },
+      "preserved-in-time": {
+        "image": "assets/pter/PTER02PU.webp",
+        "back": "main"
+      },
+      "of-pterosaurs-and-tails": {
+        "image": "assets/pter/PTER03PU.webp",
+        "back": "main"
+      },
+      "fingers-on-the-wings": {
+        "image": "assets/pter/PTER04PU.webp",
+        "back": "main"
+      },
+      "furry-flyer": {
+        "image": "assets/pter/PTER05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/pter/PTER50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/pter/PTER00AP.mp3"
+}

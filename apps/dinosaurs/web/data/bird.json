@@ -5,17 +5,30 @@
   "category": "concept",
   "scientificName": "",
   "needsScientificVerify": false,
-  "pronunciation": "",
+  "pronunciation": "berdz and DY-no-SORZ",
   "meaning": "",
   "period": "",
   "diet": "",
-  "tagline": "Did birds descend from dinosaurs? The clues are all in the bones.",
+  "tagline": "Could birds really be living dinosaurs? The clues are hiding in their bones!",
   "hero": {
     "image": "assets/bird/BIRD00AA.webp",
     "alt": "Birds and Dinosaurs"
   },
   "intro": "Are birds the descendants of dinosaurs? Most scientists believe that birds evolved from small, carnivorous dinosaurs that could run upright on two long, hind legs. The skeletons of these dinosaurs are very bird-like, with lower pelvic bones that pointed back and down as do those of birds. They had long, slender legs, bird-like feet, long, bony necks and tails, clawed fingers, and sharp pointed teeth. Archaeopteryx—a theropod which was about the size of a crow—had feathers that covered its wings and tail. It lived in trees and may have been capable of powered flight. But Archaeopteryx may not have been the only dinosaur covered with feathers, and it certainly wasn't alone in its bird-like behavior.",
-  "facts": [],
+  "facts": [
+    {
+      "label": "Archaeopteryx size",
+      "value": "about the size of a crow"
+    },
+    {
+      "label": "Pteranodon wingspan",
+      "value": "around twenty-three feet"
+    },
+    {
+      "label": "Gallimimus speed",
+      "value": "up to thirty-five miles per hour"
+    }
+  ],
   "topics": [
     {
       "id": "not-well-suited-for-flight",
@@ -112,32 +125,8 @@
   ],
   "crosslinks": [
     {
-      "label": "How to Recognize Theropods"
-    },
-    {
-      "label": "Archaeopteryx",
-      "to": "arch"
-    },
-    {
-      "label": "Sordes"
-    },
-    {
-      "label": "What is a Dinosaur?"
-    },
-    {
-      "label": "Pteranodon"
-    },
-    {
-      "label": "Compsognathus"
-    },
-    {
-      "label": "Cearadactylus"
-    },
-    {
-      "label": "Struthiomimus"
-    },
-    {
-      "label": "Speedy Dinosaurs"
+      "label": "How to Recognize Theropods",
+      "to": "hthr"
     }
   ],
   "classic": {
@@ -147,68 +136,68 @@
         "image": "assets/bird/BIRD00AA.webp",
         "hotspots": [
           {
-            "label": "Sharp teeth",
-            "to": "sharp-teeth",
-            "x": 37,
-            "y": 22,
-            "w": 14,
-            "h": 5
-          },
-          {
             "label": "Not well suited for flight",
             "to": "not-well-suited-for-flight",
-            "x": 62,
-            "y": 14,
+            "x": 66,
+            "y": 17,
             "w": 28,
-            "h": 5
+            "h": 8
+          },
+          {
+            "label": "Sharp teeth",
+            "to": "sharp-teeth",
+            "x": 42,
+            "y": 30,
+            "w": 20,
+            "h": 7
           },
           {
             "label": "Reptiles that soared",
             "to": "reptiles-that-soared",
-            "x": 62,
-            "y": 29,
-            "w": 22,
-            "h": 5
+            "x": 66,
+            "y": 38,
+            "w": 26,
+            "h": 7
           },
           {
             "label": "Bones of contention",
             "to": "bones-of-contention",
-            "x": 62,
-            "y": 39,
-            "w": 20,
-            "h": 5
-          },
-          {
-            "label": "Read their hips",
-            "to": "read-their-hips",
-            "x": 65,
-            "y": 50,
-            "w": 17,
-            "h": 5
+            "x": 66,
+            "y": 49,
+            "w": 26,
+            "h": 7
           },
           {
             "label": "Bird face",
             "to": "bird-face",
-            "x": 22,
-            "y": 52,
-            "w": 12,
-            "h": 5
+            "x": 28,
+            "y": 46,
+            "w": 16,
+            "h": 7
+          },
+          {
+            "label": "Read their hips",
+            "to": "read-their-hips",
+            "x": 66,
+            "y": 60,
+            "w": 24,
+            "h": 7
           },
           {
             "label": "Featherless wings",
             "to": "featherless-wings",
-            "x": 4,
-            "y": 77,
-            "w": 18,
-            "h": 5
+            "x": 14,
+            "y": 72,
+            "w": 24,
+            "h": 7
           },
           {
             "label": "Ostrich dinosaurs",
             "to": "ostrich-dinosaurs",
-            "x": 29,
-            "y": 87,
-            "w": 18,
-            "h": 5
+            "x": 37,
+            "y": 81,
+            "w": 24,
+            "h": 7
           }
         ]
       },

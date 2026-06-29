@@ -1,0 +1,151 @@
+{
+  "id": "cove",
+  "code": "COVE",
+  "name": "Dinosaur Cove",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "A cliffside quarry on the Australian coast where scientists blasted solid rock — and found a dinosaur nursery inside!",
+  "hero": {
+    "image": "assets/cove/COVE00AA.webp",
+    "alt": "Dinosaur Cove"
+  },
+  "intro": "Dinosaur Cove, situated along the seacoast near Melbourne, Victoria, is one of the few sites in Australia that has yielded abundant dinosaur bones. With its steep cliffs and hard sandstone, the cove was a difficult place to excavate, but the back-breaking work paid off. The excavation team discovered the remains of many small dinosaurs. Dinosaur Cove may have been a dinosaur nursery!",
+  "facts": [],
+  "topics": [
+    {
+      "id": "hard-rock-mining",
+      "title": "Hard-Rock Mining",
+      "image": "assets/cove/COVE01PU.webp",
+      "text": "The Dinosaur Cove team was frequently forced to blast with dynamite and employ heavy drilling equipment to burrow into the hard sandstone cliffs. Hardhats were an essential part of the dress code at this dinosaur dig!",
+      "captions": [
+        {
+          "label": "Atlascopcosaurus",
+          "text": "One find, Atlascopcosaurus, was named in honor of Atlas Copco Drilling Company, who participated in the Dinosaur Cove project. So far only a piece of jaw has been found from this animal. Its teeth show that it was a plant-eater."
+        }
+      ]
+    },
+    {
+      "id": "dinosaurs-no-bigger-than-kangaroos",
+      "title": "Dinosaurs No Bigger Than Kangaroos",
+      "image": "assets/cove/COVE02PU.webp",
+      "text": "At Dinosaur Cove, paleontologists Tom Rich and Pat Vickers-Rich identified the bones of a small dinosaur. They named the new little dinosaur Leaellynasaura in honor of their daughter, Leaellyn. More than half of the bones found belonged to juveniles, so the Riches believe the area may have been a dinosaur nursery.",
+      "captions": [
+        {
+          "label": "Leaellynasaura",
+          "text": "One remarkable feature of Leaellynasaura is the little herbivore's large eyes, which were probably an adaptation to dark winter days. At the time that this dinosaur existed, the landmass that is now called Australia was joined with Antarctica within the Antarctic Circle. During winter, when the sun was close to the equator, animals in the Antarctic would have experienced long days of almost total darkness."
+        },
+        {
+          "label": "Hard work",
+          "text": "Paleontology in the field is hard, sweaty work, and Dinosaur Cove was an especially difficult site. Here Tom Rich labors in close quarters within one of the tunnels."
+        }
+      ]
+    },
+    {
+      "id": "other-dinos-from-down-under",
+      "title": "Other Dinos From Down Under",
+      "image": "assets/cove/COVE03PU.webp",
+      "text": "Besides Leaellynasaura, only a few other dinosaurs have been unearthed in Australia. Although paleontologists have identified only a few individuals, these dinosaurs represent a wide variety of types.",
+      "captions": [
+        {
+          "label": "Allosaurus",
+          "text": "This giant meat-eater is related to Tyrannosaurus rex. Allosaurus was discovered near Melbourne, Victoria."
+        },
+        {
+          "label": "Rhoetosaurus",
+          "text": "This fifty-six-foot-long sauropod was discovered in 1924 in Queensland."
+        },
+        {
+          "label": "Minmi",
+          "text": "This small ankylosaur, discovered in Queensland, had small armor plates all over its body."
+        },
+        {
+          "label": "Muttaburrasaurus",
+          "text": "A cousin of Iguanodon, Muttaburrasaurus had a duck-like beak and a bulging nose. The dinosaur gets its strange name from the place it was found, near Muttaburra in Queensland."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Modern Dinosaur Detectives",
+      "to": "mdet"
+    },
+    {
+      "label": "What You Need to Find a Fossil",
+      "to": "find"
+    },
+    {
+      "label": "The Shifting Earth",
+      "to": "shft"
+    },
+    {
+      "label": "Muttaburrasaurus",
+      "to": "mutt"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/cove/COVE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hard-rock mining",
+            "to": "hard-rock-mining",
+            "x": 63,
+            "y": 18,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Other dinos from down under",
+            "to": "other-dinos-from-down-under",
+            "x": 33,
+            "y": 46,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Dinosaur Cove",
+            "x": 12,
+            "y": 68,
+            "w": 16,
+            "h": 5,
+            "disabled": true
+          },
+          {
+            "label": "Dinosaurs no bigger than kangaroos",
+            "to": "dinosaurs-no-bigger-than-kangaroos",
+            "x": 3,
+            "y": 82,
+            "w": 36,
+            "h": 5
+          }
+        ]
+      },
+      "hard-rock-mining": {
+        "image": "assets/cove/COVE01PU.webp",
+        "back": "main"
+      },
+      "dinosaurs-no-bigger-than-kangaroos": {
+        "image": "assets/cove/COVE02PU.webp",
+        "back": "main"
+      },
+      "other-dinos-from-down-under": {
+        "image": "assets/cove/COVE03PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/cove/COVE00AP.mp3",
+  "narration": "assets/cove/COVE00SA.mp3"
+}

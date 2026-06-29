@@ -3,8 +3,32 @@
     {
       "key": "dinosaur",
       "label": "Dinosaurs",
-      "count": 3,
+      "count": 69,
       "items": [
+        {
+          "id": "albe",
+          "name": "Albertosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/albe/ALBE00AA.webp"
+        },
+        {
+          "id": "allo",
+          "name": "Allosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/allo/ALLO00AA.webp"
+        },
+        {
+          "id": "anch",
+          "name": "Anchisaurus",
+          "category": "dinosaur",
+          "thumb": "assets/anch/ANCH00AA.webp"
+        },
+        {
+          "id": "ankl",
+          "name": "Ankylosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/ankl/ANKL00AA.webp"
+        },
         {
           "id": "apat",
           "name": "Apatosaurus",
@@ -18,46 +42,1067 @@
           "thumb": "assets/arch/ARCH00AA.webp"
         },
         {
+          "id": "bact",
+          "name": "Bactrosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/bact/BACT00AA.webp"
+        },
+        {
+          "id": "baro",
+          "name": "Barosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/baro/BARO00AA.webp"
+        },
+        {
+          "id": "bary",
+          "name": "Baryonyx",
+          "category": "dinosaur",
+          "thumb": "assets/bary/BARY00AA.webp"
+        },
+        {
+          "id": "brac",
+          "name": "Brachiosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/brac/BRAC00AA.webp"
+        },
+        {
+          "id": "cama",
+          "name": "Camarasaurus",
+          "category": "dinosaur",
+          "thumb": "assets/cama/CAMA00AA.webp"
+        },
+        {
+          "id": "cent",
+          "name": "Centrosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/cent/CENT00AA.webp"
+        },
+        {
+          "id": "cera",
+          "name": "Ceratosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/cera/CERA00AA.webp"
+        },
+        {
+          "id": "chas",
+          "name": "Chasmosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/chas/CHAS00AA.webp"
+        },
+        {
+          "id": "coel",
+          "name": "Coelophysis",
+          "category": "dinosaur",
+          "thumb": "assets/coel/COEL00AA.webp"
+        },
+        {
+          "id": "comp",
+          "name": "Compsognathus",
+          "category": "dinosaur",
+          "thumb": "assets/comp/COMP00AA.webp"
+        },
+        {
+          "id": "cory",
+          "name": "Corythosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/cory/CORY00AA.webp"
+        },
+        {
+          "id": "dein",
+          "name": "Deinonychus",
+          "category": "dinosaur",
+          "thumb": "assets/dein/DEIN00AA.webp"
+        },
+        {
+          "id": "dilo",
+          "name": "Dilophosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/dilo/DILO00AA.webp"
+        },
+        {
+          "id": "dipl",
+          "name": "Diplodocus",
+          "category": "dinosaur",
+          "thumb": "assets/dipl/DIPL00AA.webp"
+        },
+        {
+          "id": "davi",
+          "name": "Dravidosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/davi/DAVI00AA.webp"
+        },
+        {
+          "id": "drom",
+          "name": "Dromiceiomimus",
+          "category": "dinosaur",
+          "thumb": "assets/drom/DROM00AA.webp"
+        },
+        {
+          "id": "dryo",
+          "name": "Dryosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/dryo/DRYO00AA.webp"
+        },
+        {
+          "id": "edmo",
+          "name": "Edmontosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/edmo/EDMO00AA.webp"
+        },
+        {
+          "id": "euop",
+          "name": "Euoplocephalus",
+          "category": "dinosaur",
+          "thumb": "assets/euop/EUOP00AA.webp"
+        },
+        {
+          "id": "gall",
+          "name": "Gallimimus",
+          "category": "dinosaur",
+          "thumb": "assets/gall/GALL00AA.webp"
+        },
+        {
+          "id": "herr",
+          "name": "Herrerasaurus",
+          "category": "dinosaur",
+          "thumb": "assets/herr/HERR00AA.webp"
+        },
+        {
+          "id": "hete",
+          "name": "Heterodontosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/hete/HETE00AA.webp"
+        },
+        {
+          "id": "hyps",
+          "name": "Hypsilophodon",
+          "category": "dinosaur",
+          "thumb": "assets/hyps/HYPS00AA.webp"
+        },
+        {
+          "id": "igua",
+          "name": "Iguanodon",
+          "category": "dinosaur",
+          "thumb": "assets/igua/IGUA00AA.webp"
+        },
+        {
+          "id": "kent",
+          "name": "Kentrosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/kent/KENT00AA.webp"
+        },
+        {
+          "id": "leae",
+          "name": "Leaellynasaura",
+          "category": "dinosaur",
+          "thumb": "assets/leae/LEAE00AA.webp"
+        },
+        {
+          "id": "leso",
+          "name": "Lesothosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/leso/LESO00AA.webp"
+        },
+        {
+          "id": "maia",
+          "name": "Maiasaura",
+          "category": "dinosaur",
+          "thumb": "assets/maia/MAIA00AA.webp"
+        },
+        {
+          "id": "mame",
+          "name": "Mamenchisaurus",
+          "category": "dinosaur",
+          "thumb": "assets/mame/MAME00AA.webp"
+        },
+        {
+          "id": "mass",
+          "name": "Massospondylus",
+          "category": "dinosaur",
+          "thumb": "assets/mass/MASS00AA.webp"
+        },
+        {
+          "id": "mega",
+          "name": "Megalosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/mega/MEGA00AA.webp"
+        },
+        {
+          "id": "minm",
+          "name": "Minmi",
+          "category": "dinosaur",
+          "thumb": "assets/minm/MINM00AA.webp"
+        },
+        {
+          "id": "muss",
+          "name": "Mussaurus",
+          "category": "dinosaur",
+          "thumb": "assets/muss/MUSS00AA.webp"
+        },
+        {
+          "id": "mutt",
+          "name": "Muttaburrasaurus",
+          "category": "dinosaur",
+          "thumb": "assets/mutt/MUTT00AA.webp"
+        },
+        {
+          "id": "nodo",
+          "name": "Nodosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/nodo/NODO00AA.webp"
+        },
+        {
+          "id": "orni",
+          "name": "Ornitholestes",
+          "category": "dinosaur",
+          "thumb": "assets/orni/ORNI00AA.webp"
+        },
+        {
+          "id": "ovir",
+          "name": "Oviraptor",
+          "category": "dinosaur",
+          "thumb": "assets/ovir/OVIR00AA.webp"
+        },
+        {
+          "id": "pach",
+          "name": "Pachycephalosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/pach/PACH00AA.webp"
+        },
+        {
+          "id": "para",
+          "name": "Parasaurolophus",
+          "category": "dinosaur",
+          "thumb": "assets/para/PARA00AA.webp"
+        },
+        {
+          "id": "piat",
+          "name": "Piatnitzkysaurus",
+          "category": "dinosaur",
+          "thumb": "assets/piat/PIAT00AA.webp"
+        },
+        {
+          "id": "pina",
+          "name": "Pinacosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/pina/PINA00AA.webp"
+        },
+        {
+          "id": "plat",
+          "name": "Plateosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/plat/PLAT00AA.webp"
+        },
+        {
+          "id": "pola",
+          "name": "Polacanthus",
+          "category": "dinosaur",
+          "thumb": "assets/pola/POLA00AA.webp"
+        },
+        {
+          "id": "prot",
+          "name": "Protoceratops",
+          "category": "dinosaur",
+          "thumb": "assets/prot/PROT00AA.webp"
+        },
+        {
+          "id": "psit",
+          "name": "Psittacosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/psit/PSIT00AA.webp"
+        },
+        {
+          "id": "rhoe",
+          "name": "Rhoetosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/rhoe/RHOE00AA.webp"
+        },
+        {
+          "id": "salt",
+          "name": "Saltasaurus",
+          "category": "dinosaur",
+          "thumb": "assets/salt/SALT00AA.webp"
+        },
+        {
+          "id": "sals",
+          "name": "Saltopus",
+          "category": "dinosaur",
+          "thumb": "assets/sals/SALS00AA.webp"
+        },
+        {
+          "id": "saur",
+          "name": "Saurolophus",
+          "category": "dinosaur",
+          "thumb": "assets/saur/SAUR00AA.webp"
+        },
+        {
+          "id": "scel",
+          "name": "Scelidosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/scel/SCEL00AA.webp"
+        },
+        {
+          "id": "shan",
+          "name": "Shantungosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/shan/SHAN00AA.webp"
+        },
+        {
+          "id": "spin",
+          "name": "Spinosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/spin/SPIN00AA.webp"
+        },
+        {
+          "id": "stau",
+          "name": "Staurikosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/stau/STAU00AA.webp"
+        },
+        {
+          "id": "steg",
+          "name": "Stegosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/steg/STEG00AA.webp"
+        },
+        {
+          "id": "stru",
+          "name": "Struthiomimus",
+          "category": "dinosaur",
+          "thumb": "assets/stru/STRU00AA.webp"
+        },
+        {
+          "id": "styr",
+          "name": "Styracosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/styr/STYR00AA.webp"
+        },
+        {
+          "id": "tarb",
+          "name": "Tarbosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/tarb/TARB00AA.webp"
+        },
+        {
+          "id": "tric",
+          "name": "Triceratops",
+          "category": "dinosaur",
+          "thumb": "assets/tric/TRIC00AA.webp"
+        },
+        {
+          "id": "troo",
+          "name": "Troodon",
+          "category": "dinosaur",
+          "thumb": "assets/troo/TROO00AA.webp"
+        },
+        {
+          "id": "tsin",
+          "name": "Tsintaosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/tsin/TSIN00AA.webp"
+        },
+        {
+          "id": "tuoj",
+          "name": "Tuojiangosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/tuoj/TUOJ00AA.webp"
+        },
+        {
           "id": "tyra",
           "name": "Tyrannosaurus Rex",
           "category": "dinosaur",
           "thumb": "assets/tyra/TYRA00AA.webp"
+        },
+        {
+          "id": "velo",
+          "name": "Velociraptor",
+          "category": "dinosaur",
+          "thumb": "assets/velo/VELO00AA.webp"
         }
       ]
     },
     {
       "key": "creature",
       "label": "Other Prehistoric Life",
-      "count": 1,
+      "count": 28,
       "items": [
         {
           "id": "ammo",
           "name": "Ammonite",
           "category": "creature",
           "thumb": "assets/ammo/AMMO00AA.webp"
+        },
+        {
+          "id": "arcn",
+          "name": "Archelon",
+          "category": "creature",
+          "thumb": "assets/arcn/ARCN00AA.webp"
+        },
+        {
+          "id": "cdac",
+          "name": "Cearadactylus",
+          "category": "creature",
+          "thumb": "assets/cdac/CDAC00AA.webp"
+        },
+        {
+          "id": "coth",
+          "name": "Coelacanth",
+          "category": "creature",
+          "thumb": "assets/coth/COTH00AA.webp"
+        },
+        {
+          "id": "cyno",
+          "name": "Cynognathus",
+          "category": "creature",
+          "thumb": "assets/cyno/CYNO00AA.webp"
+        },
+        {
+          "id": "dhus",
+          "name": "Deinosuchus",
+          "category": "creature",
+          "thumb": "assets/dhus/DHUS00AA.webp"
+        },
+        {
+          "id": "dime",
+          "name": "Dimetrodon",
+          "category": "creature",
+          "thumb": "assets/dime/DIME00AA.webp"
+        },
+        {
+          "id": "dimo",
+          "name": "Dimorphodon",
+          "category": "creature",
+          "thumb": "assets/dimo/DIMO00AA.webp"
+        },
+        {
+          "id": "elas",
+          "name": "Elasmosaurus",
+          "category": "creature",
+          "thumb": "assets/elas/ELAS00AA.webp"
+        },
+        {
+          "id": "eryo",
+          "name": "Eryops",
+          "category": "creature",
+          "thumb": "assets/eryo/ERYO00AA.webp"
+        },
+        {
+          "id": "eudi",
+          "name": "Eudimorphodon",
+          "category": "creature",
+          "thumb": "assets/eudi/EUDI00AA.webp"
+        },
+        {
+          "id": "icht",
+          "name": "Ichthyosaurus",
+          "category": "creature",
+          "thumb": "assets/icht/ICHT00AA.webp"
+        },
+        {
+          "id": "igna",
+          "name": "Iguana",
+          "category": "creature",
+          "thumb": "assets/igna/IGNA00AA.webp"
+        },
+        {
+          "id": "kron",
+          "name": "Kronosaurus",
+          "category": "creature",
+          "thumb": "assets/kron/KRON00AA.webp"
+        },
+        {
+          "id": "macr",
+          "name": "Macroplata",
+          "category": "creature",
+          "thumb": "assets/macr/MACR00AA.webp"
+        },
+        {
+          "id": "mosa",
+          "name": "Mosasaurus",
+          "category": "creature",
+          "thumb": "assets/mosa/MOSA00AA.webp"
+        },
+        {
+          "id": "mosc",
+          "name": "Moschops",
+          "category": "creature",
+          "thumb": "assets/mosc/MOSC00AA.webp"
+        },
+        {
+          "id": "mura",
+          "name": "Muraenosaurus",
+          "category": "creature",
+          "thumb": "assets/mura/MURA00AA.webp"
+        },
+        {
+          "id": "pelo",
+          "name": "Peloneustes",
+          "category": "creature",
+          "thumb": "assets/pelo/PELO00AA.webp"
+        },
+        {
+          "id": "ples",
+          "name": "Plesiosaurus",
+          "category": "creature",
+          "thumb": "assets/ples/PLES00AA.webp"
+        },
+        {
+          "id": "pten",
+          "name": "Pteranodon",
+          "category": "creature",
+          "thumb": "assets/pten/PTEN00AA.webp"
+        },
+        {
+          "id": "pter",
+          "name": "Pterodactylus",
+          "category": "creature",
+          "thumb": "assets/pter/PTER00AA.webp"
+        },
+        {
+          "id": "quet",
+          "name": "Quetzalcoatlus",
+          "category": "creature",
+          "thumb": "assets/quet/QUET00AA.webp"
+        },
+        {
+          "id": "rham",
+          "name": "Rhamphorhynchus",
+          "category": "creature",
+          "thumb": "assets/rham/RHAM00AA.webp"
+        },
+        {
+          "id": "shon",
+          "name": "Shonisaurus",
+          "category": "creature",
+          "thumb": "assets/shon/SHON00AA.webp"
+        },
+        {
+          "id": "sord",
+          "name": "Sordes",
+          "category": "creature",
+          "thumb": "assets/sord/SORD00AA.webp"
+        },
+        {
+          "id": "tril",
+          "name": "Trilobite",
+          "category": "creature",
+          "thumb": "assets/tril/TRIL00AA.webp"
+        },
+        {
+          "id": "tuat",
+          "name": "Tuatara",
+          "category": "creature",
+          "thumb": "assets/tuat/TUAT00AA.webp"
         }
       ]
     },
     {
       "key": "concept",
       "label": "The Dinosaur World",
-      "count": 1,
+      "count": 69,
       "items": [
+        {
+          "id": "tale",
+          "name": "A Tale of Tails",
+          "category": "concept",
+          "thumb": "assets/tale/TALE00AA.webp"
+        },
+        {
+          "id": "anta",
+          "name": "Antarctica Expedition",
+          "category": "concept",
+          "thumb": "assets/anta/ANTA00AA.webp"
+        },
+        {
+          "id": "mine",
+          "name": "Bernissart Dinosaur Mine",
+          "category": "concept",
+          "thumb": "assets/mine/MINE00AA.webp"
+        },
         {
           "id": "bird",
           "name": "Birds and Dinosaurs",
           "category": "concept",
           "thumb": "assets/bird/BIRD00AA.webp"
+        },
+        {
+          "id": "birt",
+          "name": "Birth and Growth",
+          "category": "concept",
+          "thumb": "assets/birt/BIRT00AA.webp"
+        },
+        {
+          "id": "claw",
+          "name": "Claws",
+          "category": "concept",
+          "thumb": "assets/claw/CLAW00AA.webp"
+        },
+        {
+          "id": "digg",
+          "name": "Digging Up Dinosaurs",
+          "category": "concept",
+          "thumb": "assets/digg/DIGG00AA.webp"
+        },
+        {
+          "id": "cove",
+          "name": "Dinosaur Cove",
+          "category": "concept",
+          "thumb": "assets/cove/COVE00AA.webp"
+        },
+        {
+          "id": "ddef",
+          "name": "Dinosaur Defense",
+          "category": "concept",
+          "thumb": "assets/ddef/DDEF00AA.webp"
+        },
+        {
+          "id": "desc",
+          "name": "Dinosaur Descendants",
+          "category": "concept",
+          "thumb": "assets/desc/DESC00AA.webp"
+        },
+        {
+          "id": "diet",
+          "name": "Dinosaur Diets",
+          "category": "concept",
+          "thumb": "assets/diet/DIET00AA.webp"
+        },
+        {
+          "id": "dlan",
+          "name": "Dinosaur Landscape",
+          "category": "concept",
+          "thumb": "assets/dlan/DLAN00AA.webp"
+        },
+        {
+          "id": "dnmu",
+          "name": "Dinosaur National Monument",
+          "category": "concept",
+          "thumb": "assets/dnmu/DNMU00AA.webp"
+        },
+        {
+          "id": "park",
+          "name": "Dinosaur Provincial Park",
+          "category": "concept",
+          "thumb": "assets/park/PARK00AA.webp"
+        },
+        {
+          "id": "armr",
+          "name": "Dinosaurs in Armor",
+          "category": "concept",
+          "thumb": "assets/armr/ARMR00AA.webp"
+        },
+        {
+          "id": "edet",
+          "name": "Early Dinosaur Detectives",
+          "category": "concept",
+          "thumb": "assets/edet/EDET00AA.webp"
+        },
+        {
+          "id": "exti",
+          "name": "Extinction",
+          "category": "concept",
+          "thumb": "assets/exti/EXTI00AA.webp"
+        },
+        {
+          "id": "ftfa",
+          "name": "Face to Face",
+          "category": "concept",
+          "thumb": "assets/ftfa/FTFA00AA.webp"
+        },
+        {
+          "id": "ftfb",
+          "name": "Faces From the Past",
+          "category": "concept",
+          "thumb": "assets/ftfb/FTFB00AA.webp"
+        },
+        {
+          "id": "foot",
+          "name": "Footprints",
+          "category": "concept",
+          "thumb": "assets/foot/FOOT00AA.webp"
+        },
+        {
+          "id": "gobi",
+          "name": "Gobi Desert Expeditions",
+          "category": "concept",
+          "thumb": "assets/gobi/GOBI00AA.webp"
+        },
+        {
+          "id": "horn",
+          "name": "Horns",
+          "category": "concept",
+          "thumb": "assets/horn/HORN00AA.webp"
+        },
+        {
+          "id": "hank",
+          "name": "How to Recognize Ankylosaurs",
+          "category": "concept",
+          "thumb": "assets/hank/HANK00AA.webp"
+        },
+        {
+          "id": "hcer",
+          "name": "How to Recognize Ceratopsians",
+          "category": "concept",
+          "thumb": "assets/hcer/HCER00AA.webp"
+        },
+        {
+          "id": "htro",
+          "name": "How to Recognize Ornithopods",
+          "category": "concept",
+          "thumb": "assets/htro/HTRO00AA.webp"
+        },
+        {
+          "id": "hsau",
+          "name": "How to Recognize Sauropods",
+          "category": "concept",
+          "thumb": "assets/hsau/HSAU00AA.webp"
+        },
+        {
+          "id": "hstg",
+          "name": "How to Recognize Stegosaurs",
+          "category": "concept",
+          "thumb": "assets/hstg/HSTG00AA.webp"
+        },
+        {
+          "id": "hthr",
+          "name": "How to Recognize Theropods",
+          "category": "concept",
+          "thumb": "assets/hthr/HTHR00AA.webp"
+        },
+        {
+          "id": "site",
+          "name": "Important Dinosaur Sites",
+          "category": "concept",
+          "thumb": "assets/site/SITE00AA.webp"
+        },
+        {
+          "id": "aftr",
+          "name": "Life After Dinosaurs",
+          "category": "concept",
+          "thumb": "assets/aftr/AFTR00AA.webp"
+        },
+        {
+          "id": "befr",
+          "name": "Life Before Dinosaurs",
+          "category": "concept",
+          "thumb": "assets/befr/BEFR00AA.webp"
+        },
+        {
+          "id": "ddec",
+          "name": "Living Fossils",
+          "category": "concept",
+          "thumb": "assets/ddec/DDEC00AA.webp"
+        },
+        {
+          "id": "long",
+          "name": "Long Necks",
+          "category": "concept",
+          "thumb": "assets/long/LONG00AA.webp"
+        },
+        {
+          "id": "extt",
+          "name": "Marching to Extinction",
+          "category": "concept",
+          "thumb": "assets/extt/EXTT00AA.webp"
+        },
+        {
+          "id": "meat",
+          "name": "Meat-Eaters",
+          "category": "concept",
+          "thumb": "assets/meat/MEAT00AA.webp"
+        },
+        {
+          "id": "mdet",
+          "name": "Modern Dinosaur Detectives",
+          "category": "concept",
+          "thumb": "assets/mdet/MDET00AA.webp"
+        },
+        {
+          "id": "muse",
+          "name": "Museums of North America",
+          "category": "concept",
+          "thumb": "assets/muse/MUSE00AA.webp"
+        },
+        {
+          "id": "myth",
+          "name": "Myths and Legends",
+          "category": "concept",
+          "thumb": "assets/myth/MYTH00AA.webp"
+        },
+        {
+          "id": "nest",
+          "name": "Nests and Eggs",
+          "category": "concept",
+          "thumb": "assets/nest/NEST00AA.webp"
+        },
+        {
+          "id": "plan",
+          "name": "Plant-Eaters",
+          "category": "concept",
+          "thumb": "assets/plan/PLAN00AA.webp"
+        },
+        {
+          "id": "reco",
+          "name": "Reconstructing Dinosaurs",
+          "category": "concept",
+          "thumb": "assets/reco/RECO00AA.webp"
+        },
+        {
+          "id": "recb",
+          "name": "Record Breakers",
+          "category": "concept",
+          "thumb": "assets/recb/RECB00AA.webp"
+        },
+        {
+          "id": "rair",
+          "name": "Reptiles of the Air",
+          "category": "concept",
+          "thumb": "assets/rair/RAIR00AA.webp"
+        },
+        {
+          "id": "rsea",
+          "name": "Reptiles of the Sea",
+          "category": "concept",
+          "thumb": "assets/rsea/RSEA00AA.webp"
+        },
+        {
+          "id": "carn",
+          "name": "Skulls of Meat-Eaters",
+          "category": "concept",
+          "thumb": "assets/carn/CARN00AA.webp"
+        },
+        {
+          "id": "vega",
+          "name": "Skulls of Plant-Eaters",
+          "category": "concept",
+          "thumb": "assets/vega/VEGA00AA.webp"
+        },
+        {
+          "id": "spee",
+          "name": "Speedy Dinosaurs",
+          "category": "concept",
+          "thumb": "assets/spee/SPEE00AA.webp"
+        },
+        {
+          "id": "teet",
+          "name": "Teeth",
+          "category": "concept",
+          "thumb": "assets/teet/TEET00AA.webp"
+        },
+        {
+          "id": "mete",
+          "name": "Teeth of Meat-Eaters",
+          "category": "concept",
+          "thumb": "assets/mete/METE00AA.webp"
+        },
+        {
+          "id": "ptee",
+          "name": "Teeth of Plant-Eaters",
+          "category": "concept",
+          "thumb": "assets/ptee/PTEE00AA.webp"
+        },
+        {
+          "id": "amer",
+          "name": "The American Dinosaur Rush",
+          "category": "concept",
+          "thumb": "assets/amer/AMER00AA.webp"
+        },
+        {
+          "id": "tall",
+          "name": "The Biggest Dinosaurs",
+          "category": "concept",
+          "thumb": "assets/tall/TALL00AA.webp"
+        },
+        {
+          "id": "bron",
+          "name": "The Brontosaurus Mix-Up",
+          "category": "concept",
+          "thumb": "assets/bron/BRON00AA.webp"
+        },
+        {
+          "id": "cret",
+          "name": "The Cretaceous Period",
+          "category": "concept",
+          "thumb": "assets/cret/CRET00AA.webp"
+        },
+        {
+          "id": "dsoc",
+          "name": "The Dinosaur Society",
+          "category": "concept",
+          "thumb": "assets/dsoc/DSOC00AA.webp"
+        },
+        {
+          "id": "jurr",
+          "name": "The Jurassic Period",
+          "category": "concept",
+          "thumb": "assets/jurr/JURR00AA.webp"
+        },
+        {
+          "id": "makf",
+          "name": "The Making of a Fossil",
+          "category": "concept",
+          "thumb": "assets/makf/MAKF00AA.webp"
+        },
+        {
+          "id": "shft",
+          "name": "The Shifting Earth",
+          "category": "concept",
+          "thumb": "assets/shft/SHFT00AA.webp"
+        },
+        {
+          "id": "smal",
+          "name": "The Smallest Dinosaurs",
+          "category": "concept",
+          "thumb": "assets/smal/SMAL00AA.webp"
+        },
+        {
+          "id": "stor",
+          "name": "The Story in a Skull",
+          "category": "concept",
+          "thumb": "assets/stor/STOR00AA.webp"
+        },
+        {
+          "id": "tend",
+          "name": "The Tendaguru Expedition",
+          "category": "concept",
+          "thumb": "assets/tend/TEND00AA.webp"
+        },
+        {
+          "id": "tria",
+          "name": "The Triassic Period",
+          "category": "concept",
+          "thumb": "assets/tria/TRIA00AA.webp"
+        },
+        {
+          "id": "weir",
+          "name": "The Weirdest Dinosaurs",
+          "category": "concept",
+          "thumb": "assets/weir/WEIR00AA.webp"
+        },
+        {
+          "id": "twof",
+          "name": "Two Feet or Four?",
+          "category": "concept",
+          "thumb": "assets/twof/TWOF00AA.webp"
+        },
+        {
+          "id": "warm",
+          "name": "Warm-Blooded or Cold-Blooded?",
+          "category": "concept",
+          "thumb": "assets/warm/WARM00AA.webp"
+        },
+        {
+          "id": "pale",
+          "name": "What Is Paleontology?",
+          "category": "concept",
+          "thumb": "assets/pale/PALE00AA.webp"
+        },
+        {
+          "id": "what",
+          "name": "What Is a Dinosaur?",
+          "category": "concept",
+          "thumb": "assets/what/WHAT00AA.webp"
+        },
+        {
+          "id": "foss",
+          "name": "What Is a Fossil?",
+          "category": "concept",
+          "thumb": "assets/foss/FOSS00AA.webp"
+        },
+        {
+          "id": "find",
+          "name": "What You Need to Find a Fossil",
+          "category": "concept",
+          "thumb": "assets/find/FIND00AA.webp"
         }
       ]
     }
   ],
   "periods": [
     {
+      "key": "Triassic",
+      "label": "Triassic",
+      "count": 10,
+      "items": [
+        {
+          "id": "coel",
+          "name": "Coelophysis",
+          "category": "dinosaur",
+          "thumb": "assets/coel/COEL00AA.webp"
+        },
+        {
+          "id": "cyno",
+          "name": "Cynognathus",
+          "category": "creature",
+          "thumb": "assets/cyno/CYNO00AA.webp"
+        },
+        {
+          "id": "eudi",
+          "name": "Eudimorphodon",
+          "category": "creature",
+          "thumb": "assets/eudi/EUDI00AA.webp"
+        },
+        {
+          "id": "herr",
+          "name": "Herrerasaurus",
+          "category": "dinosaur",
+          "thumb": "assets/herr/HERR00AA.webp"
+        },
+        {
+          "id": "muss",
+          "name": "Mussaurus",
+          "category": "dinosaur",
+          "thumb": "assets/muss/MUSS00AA.webp"
+        },
+        {
+          "id": "plat",
+          "name": "Plateosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/plat/PLAT00AA.webp"
+        },
+        {
+          "id": "sals",
+          "name": "Saltopus",
+          "category": "dinosaur",
+          "thumb": "assets/sals/SALS00AA.webp"
+        },
+        {
+          "id": "shon",
+          "name": "Shonisaurus",
+          "category": "creature",
+          "thumb": "assets/shon/SHON00AA.webp"
+        },
+        {
+          "id": "stau",
+          "name": "Staurikosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/stau/STAU00AA.webp"
+        },
+        {
+          "id": "tria",
+          "name": "The Triassic Period",
+          "category": "concept",
+          "thumb": "assets/tria/TRIA00AA.webp"
+        }
+      ]
+    },
+    {
       "key": "Jurassic",
       "label": "Jurassic",
-      "count": 2,
+      "count": 34,
       "items": [
+        {
+          "id": "allo",
+          "name": "Allosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/allo/ALLO00AA.webp"
+        },
+        {
+          "id": "anch",
+          "name": "Anchisaurus",
+          "category": "dinosaur",
+          "thumb": "assets/anch/ANCH00AA.webp"
+        },
         {
           "id": "apat",
           "name": "Apatosaurus",
@@ -69,19 +1114,487 @@
           "name": "Archaeopteryx",
           "category": "dinosaur",
           "thumb": "assets/arch/ARCH00AA.webp"
+        },
+        {
+          "id": "baro",
+          "name": "Barosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/baro/BARO00AA.webp"
+        },
+        {
+          "id": "brac",
+          "name": "Brachiosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/brac/BRAC00AA.webp"
+        },
+        {
+          "id": "cama",
+          "name": "Camarasaurus",
+          "category": "dinosaur",
+          "thumb": "assets/cama/CAMA00AA.webp"
+        },
+        {
+          "id": "cera",
+          "name": "Ceratosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/cera/CERA00AA.webp"
+        },
+        {
+          "id": "comp",
+          "name": "Compsognathus",
+          "category": "dinosaur",
+          "thumb": "assets/comp/COMP00AA.webp"
+        },
+        {
+          "id": "dilo",
+          "name": "Dilophosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/dilo/DILO00AA.webp"
+        },
+        {
+          "id": "dimo",
+          "name": "Dimorphodon",
+          "category": "creature",
+          "thumb": "assets/dimo/DIMO00AA.webp"
+        },
+        {
+          "id": "dipl",
+          "name": "Diplodocus",
+          "category": "dinosaur",
+          "thumb": "assets/dipl/DIPL00AA.webp"
+        },
+        {
+          "id": "dryo",
+          "name": "Dryosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/dryo/DRYO00AA.webp"
+        },
+        {
+          "id": "hete",
+          "name": "Heterodontosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/hete/HETE00AA.webp"
+        },
+        {
+          "id": "icht",
+          "name": "Ichthyosaurus",
+          "category": "creature",
+          "thumb": "assets/icht/ICHT00AA.webp"
+        },
+        {
+          "id": "kent",
+          "name": "Kentrosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/kent/KENT00AA.webp"
+        },
+        {
+          "id": "leso",
+          "name": "Lesothosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/leso/LESO00AA.webp"
+        },
+        {
+          "id": "macr",
+          "name": "Macroplata",
+          "category": "creature",
+          "thumb": "assets/macr/MACR00AA.webp"
+        },
+        {
+          "id": "mame",
+          "name": "Mamenchisaurus",
+          "category": "dinosaur",
+          "thumb": "assets/mame/MAME00AA.webp"
+        },
+        {
+          "id": "mass",
+          "name": "Massospondylus",
+          "category": "dinosaur",
+          "thumb": "assets/mass/MASS00AA.webp"
+        },
+        {
+          "id": "mega",
+          "name": "Megalosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/mega/MEGA00AA.webp"
+        },
+        {
+          "id": "mura",
+          "name": "Muraenosaurus",
+          "category": "creature",
+          "thumb": "assets/mura/MURA00AA.webp"
+        },
+        {
+          "id": "orni",
+          "name": "Ornitholestes",
+          "category": "dinosaur",
+          "thumb": "assets/orni/ORNI00AA.webp"
+        },
+        {
+          "id": "pelo",
+          "name": "Peloneustes",
+          "category": "creature",
+          "thumb": "assets/pelo/PELO00AA.webp"
+        },
+        {
+          "id": "piat",
+          "name": "Piatnitzkysaurus",
+          "category": "dinosaur",
+          "thumb": "assets/piat/PIAT00AA.webp"
+        },
+        {
+          "id": "ples",
+          "name": "Plesiosaurus",
+          "category": "creature",
+          "thumb": "assets/ples/PLES00AA.webp"
+        },
+        {
+          "id": "pter",
+          "name": "Pterodactylus",
+          "category": "creature",
+          "thumb": "assets/pter/PTER00AA.webp"
+        },
+        {
+          "id": "rham",
+          "name": "Rhamphorhynchus",
+          "category": "creature",
+          "thumb": "assets/rham/RHAM00AA.webp"
+        },
+        {
+          "id": "rhoe",
+          "name": "Rhoetosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/rhoe/RHOE00AA.webp"
+        },
+        {
+          "id": "scel",
+          "name": "Scelidosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/scel/SCEL00AA.webp"
+        },
+        {
+          "id": "sord",
+          "name": "Sordes",
+          "category": "creature",
+          "thumb": "assets/sord/SORD00AA.webp"
+        },
+        {
+          "id": "steg",
+          "name": "Stegosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/steg/STEG00AA.webp"
+        },
+        {
+          "id": "jurr",
+          "name": "The Jurassic Period",
+          "category": "concept",
+          "thumb": "assets/jurr/JURR00AA.webp"
+        },
+        {
+          "id": "tuoj",
+          "name": "Tuojiangosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/tuoj/TUOJ00AA.webp"
         }
       ]
     },
     {
       "key": "Cretaceous",
       "label": "Cretaceous",
-      "count": 1,
+      "count": 49,
       "items": [
+        {
+          "id": "albe",
+          "name": "Albertosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/albe/ALBE00AA.webp"
+        },
+        {
+          "id": "ammo",
+          "name": "Ammonite",
+          "category": "creature",
+          "thumb": "assets/ammo/AMMO00AA.webp"
+        },
+        {
+          "id": "ankl",
+          "name": "Ankylosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/ankl/ANKL00AA.webp"
+        },
+        {
+          "id": "arcn",
+          "name": "Archelon",
+          "category": "creature",
+          "thumb": "assets/arcn/ARCN00AA.webp"
+        },
+        {
+          "id": "bact",
+          "name": "Bactrosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/bact/BACT00AA.webp"
+        },
+        {
+          "id": "bary",
+          "name": "Baryonyx",
+          "category": "dinosaur",
+          "thumb": "assets/bary/BARY00AA.webp"
+        },
+        {
+          "id": "cdac",
+          "name": "Cearadactylus",
+          "category": "creature",
+          "thumb": "assets/cdac/CDAC00AA.webp"
+        },
+        {
+          "id": "cent",
+          "name": "Centrosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/cent/CENT00AA.webp"
+        },
+        {
+          "id": "chas",
+          "name": "Chasmosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/chas/CHAS00AA.webp"
+        },
+        {
+          "id": "cory",
+          "name": "Corythosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/cory/CORY00AA.webp"
+        },
+        {
+          "id": "dein",
+          "name": "Deinonychus",
+          "category": "dinosaur",
+          "thumb": "assets/dein/DEIN00AA.webp"
+        },
+        {
+          "id": "dhus",
+          "name": "Deinosuchus",
+          "category": "creature",
+          "thumb": "assets/dhus/DHUS00AA.webp"
+        },
+        {
+          "id": "davi",
+          "name": "Dravidosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/davi/DAVI00AA.webp"
+        },
+        {
+          "id": "drom",
+          "name": "Dromiceiomimus",
+          "category": "dinosaur",
+          "thumb": "assets/drom/DROM00AA.webp"
+        },
+        {
+          "id": "edmo",
+          "name": "Edmontosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/edmo/EDMO00AA.webp"
+        },
+        {
+          "id": "elas",
+          "name": "Elasmosaurus",
+          "category": "creature",
+          "thumb": "assets/elas/ELAS00AA.webp"
+        },
+        {
+          "id": "euop",
+          "name": "Euoplocephalus",
+          "category": "dinosaur",
+          "thumb": "assets/euop/EUOP00AA.webp"
+        },
+        {
+          "id": "gall",
+          "name": "Gallimimus",
+          "category": "dinosaur",
+          "thumb": "assets/gall/GALL00AA.webp"
+        },
+        {
+          "id": "hyps",
+          "name": "Hypsilophodon",
+          "category": "dinosaur",
+          "thumb": "assets/hyps/HYPS00AA.webp"
+        },
+        {
+          "id": "igua",
+          "name": "Iguanodon",
+          "category": "dinosaur",
+          "thumb": "assets/igua/IGUA00AA.webp"
+        },
+        {
+          "id": "kron",
+          "name": "Kronosaurus",
+          "category": "creature",
+          "thumb": "assets/kron/KRON00AA.webp"
+        },
+        {
+          "id": "leae",
+          "name": "Leaellynasaura",
+          "category": "dinosaur",
+          "thumb": "assets/leae/LEAE00AA.webp"
+        },
+        {
+          "id": "maia",
+          "name": "Maiasaura",
+          "category": "dinosaur",
+          "thumb": "assets/maia/MAIA00AA.webp"
+        },
+        {
+          "id": "minm",
+          "name": "Minmi",
+          "category": "dinosaur",
+          "thumb": "assets/minm/MINM00AA.webp"
+        },
+        {
+          "id": "mosa",
+          "name": "Mosasaurus",
+          "category": "creature",
+          "thumb": "assets/mosa/MOSA00AA.webp"
+        },
+        {
+          "id": "mutt",
+          "name": "Muttaburrasaurus",
+          "category": "dinosaur",
+          "thumb": "assets/mutt/MUTT00AA.webp"
+        },
+        {
+          "id": "nodo",
+          "name": "Nodosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/nodo/NODO00AA.webp"
+        },
+        {
+          "id": "ovir",
+          "name": "Oviraptor",
+          "category": "dinosaur",
+          "thumb": "assets/ovir/OVIR00AA.webp"
+        },
+        {
+          "id": "pach",
+          "name": "Pachycephalosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/pach/PACH00AA.webp"
+        },
+        {
+          "id": "para",
+          "name": "Parasaurolophus",
+          "category": "dinosaur",
+          "thumb": "assets/para/PARA00AA.webp"
+        },
+        {
+          "id": "pina",
+          "name": "Pinacosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/pina/PINA00AA.webp"
+        },
+        {
+          "id": "pola",
+          "name": "Polacanthus",
+          "category": "dinosaur",
+          "thumb": "assets/pola/POLA00AA.webp"
+        },
+        {
+          "id": "prot",
+          "name": "Protoceratops",
+          "category": "dinosaur",
+          "thumb": "assets/prot/PROT00AA.webp"
+        },
+        {
+          "id": "psit",
+          "name": "Psittacosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/psit/PSIT00AA.webp"
+        },
+        {
+          "id": "pten",
+          "name": "Pteranodon",
+          "category": "creature",
+          "thumb": "assets/pten/PTEN00AA.webp"
+        },
+        {
+          "id": "quet",
+          "name": "Quetzalcoatlus",
+          "category": "creature",
+          "thumb": "assets/quet/QUET00AA.webp"
+        },
+        {
+          "id": "salt",
+          "name": "Saltasaurus",
+          "category": "dinosaur",
+          "thumb": "assets/salt/SALT00AA.webp"
+        },
+        {
+          "id": "saur",
+          "name": "Saurolophus",
+          "category": "dinosaur",
+          "thumb": "assets/saur/SAUR00AA.webp"
+        },
+        {
+          "id": "shan",
+          "name": "Shantungosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/shan/SHAN00AA.webp"
+        },
+        {
+          "id": "spin",
+          "name": "Spinosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/spin/SPIN00AA.webp"
+        },
+        {
+          "id": "stru",
+          "name": "Struthiomimus",
+          "category": "dinosaur",
+          "thumb": "assets/stru/STRU00AA.webp"
+        },
+        {
+          "id": "styr",
+          "name": "Styracosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/styr/STYR00AA.webp"
+        },
+        {
+          "id": "tarb",
+          "name": "Tarbosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/tarb/TARB00AA.webp"
+        },
+        {
+          "id": "cret",
+          "name": "The Cretaceous Period",
+          "category": "concept",
+          "thumb": "assets/cret/CRET00AA.webp"
+        },
+        {
+          "id": "tric",
+          "name": "Triceratops",
+          "category": "dinosaur",
+          "thumb": "assets/tric/TRIC00AA.webp"
+        },
+        {
+          "id": "troo",
+          "name": "Troodon",
+          "category": "dinosaur",
+          "thumb": "assets/troo/TROO00AA.webp"
+        },
+        {
+          "id": "tsin",
+          "name": "Tsintaosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/tsin/TSIN00AA.webp"
+        },
         {
           "id": "tyra",
           "name": "Tyrannosaurus Rex",
           "category": "dinosaur",
           "thumb": "assets/tyra/TYRA00AA.webp"
+        },
+        {
+          "id": "velo",
+          "name": "Velociraptor",
+          "category": "dinosaur",
+          "thumb": "assets/velo/VELO00AA.webp"
         }
       ]
     }
@@ -90,8 +1603,20 @@
     {
       "key": "Carnivore",
       "label": "Carnivore",
-      "count": 3,
+      "count": 45,
       "items": [
+        {
+          "id": "albe",
+          "name": "Albertosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/albe/ALBE00AA.webp"
+        },
+        {
+          "id": "allo",
+          "name": "Allosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/allo/ALLO00AA.webp"
+        },
         {
           "id": "ammo",
           "name": "Ammonite",
@@ -105,23 +1630,564 @@
           "thumb": "assets/arch/ARCH00AA.webp"
         },
         {
+          "id": "arcn",
+          "name": "Archelon",
+          "category": "creature",
+          "thumb": "assets/arcn/ARCN00AA.webp"
+        },
+        {
+          "id": "bary",
+          "name": "Baryonyx",
+          "category": "dinosaur",
+          "thumb": "assets/bary/BARY00AA.webp"
+        },
+        {
+          "id": "cdac",
+          "name": "Cearadactylus",
+          "category": "creature",
+          "thumb": "assets/cdac/CDAC00AA.webp"
+        },
+        {
+          "id": "cera",
+          "name": "Ceratosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/cera/CERA00AA.webp"
+        },
+        {
+          "id": "coel",
+          "name": "Coelophysis",
+          "category": "dinosaur",
+          "thumb": "assets/coel/COEL00AA.webp"
+        },
+        {
+          "id": "comp",
+          "name": "Compsognathus",
+          "category": "dinosaur",
+          "thumb": "assets/comp/COMP00AA.webp"
+        },
+        {
+          "id": "cyno",
+          "name": "Cynognathus",
+          "category": "creature",
+          "thumb": "assets/cyno/CYNO00AA.webp"
+        },
+        {
+          "id": "dein",
+          "name": "Deinonychus",
+          "category": "dinosaur",
+          "thumb": "assets/dein/DEIN00AA.webp"
+        },
+        {
+          "id": "dhus",
+          "name": "Deinosuchus",
+          "category": "creature",
+          "thumb": "assets/dhus/DHUS00AA.webp"
+        },
+        {
+          "id": "dilo",
+          "name": "Dilophosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/dilo/DILO00AA.webp"
+        },
+        {
+          "id": "dime",
+          "name": "Dimetrodon",
+          "category": "creature",
+          "thumb": "assets/dime/DIME00AA.webp"
+        },
+        {
+          "id": "dimo",
+          "name": "Dimorphodon",
+          "category": "creature",
+          "thumb": "assets/dimo/DIMO00AA.webp"
+        },
+        {
+          "id": "elas",
+          "name": "Elasmosaurus",
+          "category": "creature",
+          "thumb": "assets/elas/ELAS00AA.webp"
+        },
+        {
+          "id": "eryo",
+          "name": "Eryops",
+          "category": "creature",
+          "thumb": "assets/eryo/ERYO00AA.webp"
+        },
+        {
+          "id": "eudi",
+          "name": "Eudimorphodon",
+          "category": "creature",
+          "thumb": "assets/eudi/EUDI00AA.webp"
+        },
+        {
+          "id": "herr",
+          "name": "Herrerasaurus",
+          "category": "dinosaur",
+          "thumb": "assets/herr/HERR00AA.webp"
+        },
+        {
+          "id": "icht",
+          "name": "Ichthyosaurus",
+          "category": "creature",
+          "thumb": "assets/icht/ICHT00AA.webp"
+        },
+        {
+          "id": "kron",
+          "name": "Kronosaurus",
+          "category": "creature",
+          "thumb": "assets/kron/KRON00AA.webp"
+        },
+        {
+          "id": "macr",
+          "name": "Macroplata",
+          "category": "creature",
+          "thumb": "assets/macr/MACR00AA.webp"
+        },
+        {
+          "id": "meat",
+          "name": "Meat-Eaters",
+          "category": "concept",
+          "thumb": "assets/meat/MEAT00AA.webp"
+        },
+        {
+          "id": "mega",
+          "name": "Megalosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/mega/MEGA00AA.webp"
+        },
+        {
+          "id": "mosa",
+          "name": "Mosasaurus",
+          "category": "creature",
+          "thumb": "assets/mosa/MOSA00AA.webp"
+        },
+        {
+          "id": "mura",
+          "name": "Muraenosaurus",
+          "category": "creature",
+          "thumb": "assets/mura/MURA00AA.webp"
+        },
+        {
+          "id": "orni",
+          "name": "Ornitholestes",
+          "category": "dinosaur",
+          "thumb": "assets/orni/ORNI00AA.webp"
+        },
+        {
+          "id": "ovir",
+          "name": "Oviraptor",
+          "category": "dinosaur",
+          "thumb": "assets/ovir/OVIR00AA.webp"
+        },
+        {
+          "id": "pelo",
+          "name": "Peloneustes",
+          "category": "creature",
+          "thumb": "assets/pelo/PELO00AA.webp"
+        },
+        {
+          "id": "piat",
+          "name": "Piatnitzkysaurus",
+          "category": "dinosaur",
+          "thumb": "assets/piat/PIAT00AA.webp"
+        },
+        {
+          "id": "ples",
+          "name": "Plesiosaurus",
+          "category": "creature",
+          "thumb": "assets/ples/PLES00AA.webp"
+        },
+        {
+          "id": "pten",
+          "name": "Pteranodon",
+          "category": "creature",
+          "thumb": "assets/pten/PTEN00AA.webp"
+        },
+        {
+          "id": "pter",
+          "name": "Pterodactylus",
+          "category": "creature",
+          "thumb": "assets/pter/PTER00AA.webp"
+        },
+        {
+          "id": "quet",
+          "name": "Quetzalcoatlus",
+          "category": "creature",
+          "thumb": "assets/quet/QUET00AA.webp"
+        },
+        {
+          "id": "rham",
+          "name": "Rhamphorhynchus",
+          "category": "creature",
+          "thumb": "assets/rham/RHAM00AA.webp"
+        },
+        {
+          "id": "sals",
+          "name": "Saltopus",
+          "category": "dinosaur",
+          "thumb": "assets/sals/SALS00AA.webp"
+        },
+        {
+          "id": "shon",
+          "name": "Shonisaurus",
+          "category": "creature",
+          "thumb": "assets/shon/SHON00AA.webp"
+        },
+        {
+          "id": "sord",
+          "name": "Sordes",
+          "category": "creature",
+          "thumb": "assets/sord/SORD00AA.webp"
+        },
+        {
+          "id": "spin",
+          "name": "Spinosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/spin/SPIN00AA.webp"
+        },
+        {
+          "id": "stau",
+          "name": "Staurikosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/stau/STAU00AA.webp"
+        },
+        {
+          "id": "tarb",
+          "name": "Tarbosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/tarb/TARB00AA.webp"
+        },
+        {
+          "id": "troo",
+          "name": "Troodon",
+          "category": "dinosaur",
+          "thumb": "assets/troo/TROO00AA.webp"
+        },
+        {
           "id": "tyra",
           "name": "Tyrannosaurus Rex",
           "category": "dinosaur",
           "thumb": "assets/tyra/TYRA00AA.webp"
+        },
+        {
+          "id": "velo",
+          "name": "Velociraptor",
+          "category": "dinosaur",
+          "thumb": "assets/velo/VELO00AA.webp"
         }
       ]
     },
     {
       "key": "Herbivore",
       "label": "Herbivore",
-      "count": 1,
+      "count": 47,
       "items": [
+        {
+          "id": "anch",
+          "name": "Anchisaurus",
+          "category": "dinosaur",
+          "thumb": "assets/anch/ANCH00AA.webp"
+        },
+        {
+          "id": "ankl",
+          "name": "Ankylosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/ankl/ANKL00AA.webp"
+        },
         {
           "id": "apat",
           "name": "Apatosaurus",
           "category": "dinosaur",
           "thumb": "assets/apat/APAT00AA.webp"
+        },
+        {
+          "id": "bact",
+          "name": "Bactrosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/bact/BACT00AA.webp"
+        },
+        {
+          "id": "baro",
+          "name": "Barosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/baro/BARO00AA.webp"
+        },
+        {
+          "id": "brac",
+          "name": "Brachiosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/brac/BRAC00AA.webp"
+        },
+        {
+          "id": "cama",
+          "name": "Camarasaurus",
+          "category": "dinosaur",
+          "thumb": "assets/cama/CAMA00AA.webp"
+        },
+        {
+          "id": "cent",
+          "name": "Centrosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/cent/CENT00AA.webp"
+        },
+        {
+          "id": "chas",
+          "name": "Chasmosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/chas/CHAS00AA.webp"
+        },
+        {
+          "id": "cory",
+          "name": "Corythosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/cory/CORY00AA.webp"
+        },
+        {
+          "id": "dipl",
+          "name": "Diplodocus",
+          "category": "dinosaur",
+          "thumb": "assets/dipl/DIPL00AA.webp"
+        },
+        {
+          "id": "davi",
+          "name": "Dravidosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/davi/DAVI00AA.webp"
+        },
+        {
+          "id": "dryo",
+          "name": "Dryosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/dryo/DRYO00AA.webp"
+        },
+        {
+          "id": "edmo",
+          "name": "Edmontosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/edmo/EDMO00AA.webp"
+        },
+        {
+          "id": "euop",
+          "name": "Euoplocephalus",
+          "category": "dinosaur",
+          "thumb": "assets/euop/EUOP00AA.webp"
+        },
+        {
+          "id": "hete",
+          "name": "Heterodontosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/hete/HETE00AA.webp"
+        },
+        {
+          "id": "hyps",
+          "name": "Hypsilophodon",
+          "category": "dinosaur",
+          "thumb": "assets/hyps/HYPS00AA.webp"
+        },
+        {
+          "id": "igua",
+          "name": "Iguanodon",
+          "category": "dinosaur",
+          "thumb": "assets/igua/IGUA00AA.webp"
+        },
+        {
+          "id": "kent",
+          "name": "Kentrosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/kent/KENT00AA.webp"
+        },
+        {
+          "id": "leae",
+          "name": "Leaellynasaura",
+          "category": "dinosaur",
+          "thumb": "assets/leae/LEAE00AA.webp"
+        },
+        {
+          "id": "leso",
+          "name": "Lesothosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/leso/LESO00AA.webp"
+        },
+        {
+          "id": "maia",
+          "name": "Maiasaura",
+          "category": "dinosaur",
+          "thumb": "assets/maia/MAIA00AA.webp"
+        },
+        {
+          "id": "mame",
+          "name": "Mamenchisaurus",
+          "category": "dinosaur",
+          "thumb": "assets/mame/MAME00AA.webp"
+        },
+        {
+          "id": "mass",
+          "name": "Massospondylus",
+          "category": "dinosaur",
+          "thumb": "assets/mass/MASS00AA.webp"
+        },
+        {
+          "id": "minm",
+          "name": "Minmi",
+          "category": "dinosaur",
+          "thumb": "assets/minm/MINM00AA.webp"
+        },
+        {
+          "id": "mosc",
+          "name": "Moschops",
+          "category": "creature",
+          "thumb": "assets/mosc/MOSC00AA.webp"
+        },
+        {
+          "id": "muss",
+          "name": "Mussaurus",
+          "category": "dinosaur",
+          "thumb": "assets/muss/MUSS00AA.webp"
+        },
+        {
+          "id": "mutt",
+          "name": "Muttaburrasaurus",
+          "category": "dinosaur",
+          "thumb": "assets/mutt/MUTT00AA.webp"
+        },
+        {
+          "id": "nodo",
+          "name": "Nodosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/nodo/NODO00AA.webp"
+        },
+        {
+          "id": "pach",
+          "name": "Pachycephalosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/pach/PACH00AA.webp"
+        },
+        {
+          "id": "para",
+          "name": "Parasaurolophus",
+          "category": "dinosaur",
+          "thumb": "assets/para/PARA00AA.webp"
+        },
+        {
+          "id": "pina",
+          "name": "Pinacosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/pina/PINA00AA.webp"
+        },
+        {
+          "id": "plan",
+          "name": "Plant-Eaters",
+          "category": "concept",
+          "thumb": "assets/plan/PLAN00AA.webp"
+        },
+        {
+          "id": "plat",
+          "name": "Plateosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/plat/PLAT00AA.webp"
+        },
+        {
+          "id": "pola",
+          "name": "Polacanthus",
+          "category": "dinosaur",
+          "thumb": "assets/pola/POLA00AA.webp"
+        },
+        {
+          "id": "prot",
+          "name": "Protoceratops",
+          "category": "dinosaur",
+          "thumb": "assets/prot/PROT00AA.webp"
+        },
+        {
+          "id": "psit",
+          "name": "Psittacosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/psit/PSIT00AA.webp"
+        },
+        {
+          "id": "rhoe",
+          "name": "Rhoetosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/rhoe/RHOE00AA.webp"
+        },
+        {
+          "id": "salt",
+          "name": "Saltasaurus",
+          "category": "dinosaur",
+          "thumb": "assets/salt/SALT00AA.webp"
+        },
+        {
+          "id": "saur",
+          "name": "Saurolophus",
+          "category": "dinosaur",
+          "thumb": "assets/saur/SAUR00AA.webp"
+        },
+        {
+          "id": "scel",
+          "name": "Scelidosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/scel/SCEL00AA.webp"
+        },
+        {
+          "id": "shan",
+          "name": "Shantungosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/shan/SHAN00AA.webp"
+        },
+        {
+          "id": "steg",
+          "name": "Stegosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/steg/STEG00AA.webp"
+        },
+        {
+          "id": "styr",
+          "name": "Styracosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/styr/STYR00AA.webp"
+        },
+        {
+          "id": "tric",
+          "name": "Triceratops",
+          "category": "dinosaur",
+          "thumb": "assets/tric/TRIC00AA.webp"
+        },
+        {
+          "id": "tsin",
+          "name": "Tsintaosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/tsin/TSIN00AA.webp"
+        },
+        {
+          "id": "tuoj",
+          "name": "Tuojiangosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/tuoj/TUOJ00AA.webp"
+        }
+      ]
+    },
+    {
+      "key": "Omnivore",
+      "label": "Omnivore",
+      "count": 3,
+      "items": [
+        {
+          "id": "drom",
+          "name": "Dromiceiomimus",
+          "category": "dinosaur",
+          "thumb": "assets/drom/DROM00AA.webp"
+        },
+        {
+          "id": "gall",
+          "name": "Gallimimus",
+          "category": "dinosaur",
+          "thumb": "assets/gall/GALL00AA.webp"
+        },
+        {
+          "id": "stru",
+          "name": "Struthiomimus",
+          "category": "dinosaur",
+          "thumb": "assets/stru/STRU00AA.webp"
         }
       ]
     }

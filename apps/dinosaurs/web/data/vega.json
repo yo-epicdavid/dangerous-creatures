@@ -1,0 +1,197 @@
+{
+  "id": "vega",
+  "code": "VEGA",
+  "name": "Skulls of Plant-Eaters",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "From pencil-like teeth to parrot beaks — plant-eaters found every trick in the book to munch prehistoric plants.",
+  "hero": {
+    "image": "assets/vega/VEGA00AA.webp",
+    "alt": "Skulls of Plant-Eaters"
+  },
+  "intro": "Many dinosaurs were peaceful plant-eaters that browsed among the treetops or cropped plants near to the ground. How can we tell if a dinosaur ate plants? A barrel-shaped body is one clue—it takes a large stomach to digest plants. A long neck for browsing among the trees is another, although not all plant-eaters had long necks. But most of the clues about what and how a dinosaur ate can be found in its skull and teeth.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "diplodocus",
+      "title": "Diplodocus",
+      "image": "assets/vega/VEGA01PU.webp",
+      "text": "Although Diplodocus's skull looks similar to that of a horse and both animals were plant-eaters, they had different ways of eating and digesting plants.",
+      "captions": [
+        {
+          "label": "Plant plucker",
+          "text": "At the front of Diplodocus's mouth are all of its thin, pencil-like teeth. This dinosaur could not have chewed with these teeth, but instead used them like a rake to draw in pine needles and leaves. To break up the tough plant matter, the dinosaur swallowed stones to grind up the food in its stomach."
+        },
+        {
+          "label": "Plant chewer",
+          "text": "The different types of teeth in this horse jaw tell us how the animal eats. Using the incisors at the front of its mouth, a horse pulls off mouthfuls of grass, then, using the broad molars in the back, pulverizes the plant matter before swallowing. We humans eat in much the same way: biting off pieces of food, then chewing it into tiny bits before swallowing."
+        }
+      ]
+    },
+    {
+      "id": "edmontosaurus",
+      "title": "Edmontosaurus",
+      "image": "assets/vega/VEGA02PU.webp",
+      "text": "Like all hadrosaurs, Edmontosaurus had a duck-like bill in the front of its mouth instead of teeth. In the back of its mouth, the dinosaur had hundreds of teeth arranged in rows. As old teeth wore out, new ones grew in to replace them. A battery of fresh, sharp teeth were always available, which allowed the dinosaur to grind up the toughest of plants. This arrangement gave hadrosaurs an advantage over other plant-eaters and may help to explain why they were among the last dinosaurs to die out."
+    },
+    {
+      "id": "strange-shapes",
+      "title": "Strange Shapes",
+      "image": "assets/vega/VEGA03PU.webp",
+      "text": "Not all plant-eating dinosaurs looked like Edmontosaurus or Diplodocus. Herbivorous dinosaurs came in many sizes and shapes, with many different types of skulls.",
+      "captions": [
+        {
+          "label": "Parasaurolophus",
+          "text": "What this dinosaur did with its unique head crest is still in question. Maybe the hollow bone structure allowed the dinosaur to hoot or bellow in a distinctive way, or maybe it simply supported a flap of skin."
+        },
+        {
+          "label": "Pachycephalosaurus",
+          "text": "This \"bonehead\" dinosaur had a thick skull shaped like a football helmet! It may have used this thick head in butting contests with its own kind."
+        },
+        {
+          "label": "Camarasaurus",
+          "text": "Although this dinosaur was a sauropod like Edmontosaurus and Diplodocus, it had a round skull and a mouth full of snipping teeth."
+        }
+      ]
+    },
+    {
+      "id": "bird-like-beaks",
+      "title": "Bird-like Beaks",
+      "image": "assets/vega/VEGA04PU.webp",
+      "text": "Not only did some dinosaurs have duck-like bills like Edmontosaurus, but a few had sharp, curved beaks like parrots!",
+      "captions": [
+        {
+          "label": "Psittacosaurus",
+          "text": "It's easy to see why paleontologists chose the name \"parrot lizard,\" for this dinosaur. Psittacosaurus used its sharp beak to slice through woody stems. Unlike a parrot, however, the dinosaur also had teeth to chew its food. Found in Asia, it was the ancestor of the large horned dinosaurs of North America."
+        },
+        {
+          "label": "Triceratops",
+          "text": "Experts believe that ceratopsian dinosaurs like Triceratops may have evolved to eat the tough plants that grew in their environment. Triceratops snipped off tough plant leaves and stems with its hooked beak, then used its scissor-like teeth to grind up the vegetation."
+        }
+      ]
+    },
+    {
+      "id": "dumbbells",
+      "title": "Dumbbells?",
+      "image": "assets/vega/VEGA05PU.webp",
+      "text": "To estimate intelligence, paleontologists measure the size of the brain cavity in a skull, and then compare the brain size to the total size of the animal. According to the results of this test, some dinosaurs may have been less than bright but others were as smart as some birds today. Maybe these giants were none too clever, but they obviously had the intelligence they needed to deal with their environment. They survived for millions of years, much longer than human beings have existed on Earth.",
+      "captions": [
+        {
+          "label": "Stupid stegosaurs?",
+          "text": "Plated dinosaurs, such as Stegosaurus and Tuojiangosaurus, had brains the size of walnuts!"
+        },
+        {
+          "label": "Was Diplodocus the dumbest?",
+          "text": "According to some experts, this sauropod had the smallest brain-to-body ratio of all the dinosaurs. Does this mean it was the dumbest of the dinosaurs? Even so, it was still smarter than reptiles today."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Heterodontosaurus",
+      "to": "hete"
+    },
+    {
+      "label": "How to Recognize Sauropods",
+      "to": "hsau"
+    },
+    {
+      "label": "Edmontosaurus",
+      "to": "edmo"
+    },
+    {
+      "label": "Face to Face",
+      "to": "ftfa"
+    },
+    {
+      "label": "Psittacosaurus",
+      "to": "psit"
+    },
+    {
+      "label": "How to Recognize Stegosaurs",
+      "to": "hstg"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/vega/VEGA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Diplodocus",
+            "to": "diplodocus",
+            "x": 33,
+            "y": 36,
+            "w": 12,
+            "h": 4
+          },
+          {
+            "label": "Edmontosaurus",
+            "to": "edmontosaurus",
+            "x": 15,
+            "y": 73,
+            "w": 14,
+            "h": 4
+          },
+          {
+            "label": "Strange shapes",
+            "to": "strange-shapes",
+            "x": 57,
+            "y": 59,
+            "w": 13,
+            "h": 4
+          },
+          {
+            "label": "Bird-like beaks",
+            "to": "bird-like-beaks",
+            "x": 40,
+            "y": 70,
+            "w": 13,
+            "h": 4
+          },
+          {
+            "label": "Dumbbells?",
+            "to": "dumbbells",
+            "x": 72,
+            "y": 57,
+            "w": 10,
+            "h": 4
+          }
+        ]
+      },
+      "diplodocus": {
+        "image": "assets/vega/VEGA01PU.webp",
+        "back": "main"
+      },
+      "edmontosaurus": {
+        "image": "assets/vega/VEGA02PU.webp",
+        "back": "main"
+      },
+      "strange-shapes": {
+        "image": "assets/vega/VEGA03PU.webp",
+        "back": "main"
+      },
+      "bird-like-beaks": {
+        "image": "assets/vega/VEGA04PU.webp",
+        "back": "main"
+      },
+      "dumbbells": {
+        "image": "assets/vega/VEGA05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/vega/VEGA00AP.mp3",
+  "narration": "assets/vega/VEGA00SA.mp3"
+}

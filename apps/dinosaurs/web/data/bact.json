@@ -1,0 +1,95 @@
+{
+  "id": "bact",
+  "code": "BACT",
+  "name": "Bactrosaurus",
+  "category": "dinosaur",
+  "scientificName": "Bactrosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "bak-troh-SOR-us",
+  "meaning": "Bactrian lizard",
+  "period": "Cretaceous",
+  "diet": "Herbivore",
+  "tagline": "One of the earliest duckbills, with hundreds of crushing teeth packed into powerful jaws.",
+  "hero": {
+    "image": "assets/bact/BACT00AA.webp",
+    "alt": "Bactrosaurus"
+  },
+  "intro": "Bactrosaurus was one of the first hadrosaurs or \"duckbilled dinosaurs.\" This family of dinosaurs gets its \"duckbill\" name from its wide, toothless beak. Bactrosaurus's beak had a horny covering and was used to bite off twigs and leaves. Measuring only about twenty feet in length, Bactrosaurus was small for a hadrosaur.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Asia"
+    },
+    {
+      "label": "Time Period",
+      "value": "Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Bactrian lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ornithopod"
+    }
+  ],
+  "topics": [
+    {
+      "id": "grinding-and-grating",
+      "title": "Grinding and Grating",
+      "image": "assets/bact/BACT01PU.webp",
+      "text": "Duckbilled dinosaurs had jaws made for grinding and crushing plants just as cows and horses do today. Unlike cows and horses, however, duckbilled dinosaurs did not chew by moving their jaws from one side to the other. Instead, when hadrosaurs closed their jaws, both sides of the upper jaw pushed outward so that the upper teeth ground against the lower teeth, crushing the food in between.",
+      "captions": [
+        {
+          "label": "A multitude of teeth",
+          "text": "Rows of overlapping teeth packed into great plant-grinding surfaces easily reduced twigs, fruits, and seeds to a soft pulp."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Cretaceous Period",
+      "to": "cret"
+    },
+    {
+      "label": "Teeth of Plant-eaters",
+      "to": "ptee"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/bact/BACT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Grinding and grating",
+            "to": "grinding-and-grating",
+            "x": 73,
+            "y": 42,
+            "w": 22,
+            "h": 10
+          }
+        ]
+      },
+      "grinding-and-grating": {
+        "image": "assets/bact/BACT01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/bact/BACT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/bact/BACT00AP.mp3"
+}

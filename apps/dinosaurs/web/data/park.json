@@ -1,0 +1,199 @@
+{
+  "id": "park",
+  "code": "PARK",
+  "name": "Dinosaur Provincial Park",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "dy-NOH-sor pruh-VIN-shul PARK",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "One of the world's greatest dinosaur graveyards, buried in the badlands of Alberta.",
+  "hero": {
+    "image": "assets/park/PARK00AA.webp",
+    "alt": "Dinosaur Provincial Park"
+  },
+  "intro": "Along the banks of the Red Deer River in Alberta, Canada, is one of the greatest dinosaur sites in the world. The river cuts through ancient sediments, exposing rock formations and fossils that are millions of years old. Prehistoric animals have been collected in this area since the turn of the century. Almost 350 dinosaur skeletons have been collected here, and new remains are discovered every year. Enthusiasts have unearthed dinosaurs of all types, including hadrosaurs, stegosaurs, ankylosaurs, as well as the terrifying carnosaur, Albertosaurus.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Alberta, Canada"
+    },
+    {
+      "label": "River",
+      "value": "Red Deer River"
+    },
+    {
+      "label": "Skeletons Collected",
+      "value": "Almost 350"
+    }
+  ],
+  "topics": [
+    {
+      "id": "the-canadian-dinosaur-rush",
+      "title": "The Canadian Dinosaur Rush",
+      "image": "assets/park/PARK01PU.webp",
+      "text": "In the early 1900s, dinosaur collectors from both the United States and Canada rushed to the land along the Red Deer River.",
+      "captions": [
+        {
+          "label": "By horse and by raft",
+          "text": "The fossil treasures of hadrosaurs, ankylosaurs, and horned dinosaurs were brought out of the badlands on horse-drawn wagons or on river rafts. American collector Barnum Brown was the first to transport fossils by floating them down the river."
+        },
+        {
+          "label": "Pioneer paleontologist",
+          "text": "Field techniques haven't changed much over the course of a century. In this 1917 photo, paleontologist Charles Hazelius Sternberg prepares to plaster a dinosaur bone. Sternberg and his sons were responsible for the collection of many dinosaur fossils from the area."
+        }
+      ]
+    },
+    {
+      "id": "bully-on-the-block",
+      "title": "Bully on the Block",
+      "image": "assets/park/PARK02PU.webp",
+      "text": "Albertosaurus was one of the most common meat-eating dinosaurs in Dinosaur Provincial Park. This relative of Tyrannosaurus rex terrorized the plant-eaters in the area, preying upon those that lagged behind the herd.",
+      "captions": [
+        {
+          "label": "Extracting the evidence",
+          "text": "How do we know about Albertosaurus? From fossils, of course, like the fine Albertosaurus skull shown here. In the laboratory, workers painstakingly separate the bones from the surrounding rock."
+        }
+      ]
+    },
+    {
+      "id": "dinosaur-tunes",
+      "title": "Dinosaur Tunes",
+      "image": "assets/park/PARK03PU.webp",
+      "text": "At forty-nine feet long, Lambeosaurus was one of the largest of the hadrosaurs in the area. Its large crest and backward-pointing spike enclosed hollow tubes that passed down to its nostrils. Perhaps the dinosaur used this unique headgear to make loud noises or calls to fellow hadrosaurs.",
+      "captions": [
+        {
+          "label": "Named for its finder",
+          "text": "Lambeosaurus was named in honor of dinosaur hunter L. M. Lambe, shown here collecting fossils at Dinosaur Provincial Park with C. H. Sternberg. This photo was taken in 1913."
+        }
+      ]
+    },
+    {
+      "id": "not-an-easy-job",
+      "title": "Not an Easy Job",
+      "image": "assets/park/PARK04PU.webp",
+      "text": "Excavating dinosaurs in Dinosaur Provincial Park was hard work, and transporting the heavy fossils was even more difficult. A large dinosaur bone can weigh a ton! In this 1914 photograph, C. H. and G. F. Sternberg are preparing to transport a Chasmosaurus skull by horse-drawn wagon.",
+      "captions": [
+        {
+          "label": "Armored treasure",
+          "text": "Euoplocephalus is the most common armored dinosaur found in this region. Ankylosaurs had great coats of bony armor and bony spikes along their backs. Euoplocephalus weighed more than two tons! It also had a huge bone club at the end of its tail that it could swing at other dinosaurs."
+        }
+      ]
+    },
+    {
+      "id": "ceratopsian-stampedes",
+      "title": "Ceratopsian Stampedes",
+      "image": "assets/park/PARK05PU.webp",
+      "text": "The skeletons from a whole herd of Centrosaurus (also called Eucentrosaurus) have been preserved. The bones are from both young and old animals, and some are broken and trampled as if they had been in a stampede.",
+      "captions": [
+        {
+          "label": "The expert",
+          "text": "Canadian paleontologist Philip Currie has studied the fossils at Dinosaur Provincial Park. He speculates that these dinosaurs died when the herd was trying to cross a raging river; some were swept away and trampled on by the others. Currie, who works for the Royal Tyrrell Museum of Paleontology in Drumheller, Alberta, has also done extensive research in the Gobi Desert in Mongolia."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Important Dinosaur Sites",
+      "to": "site"
+    },
+    {
+      "label": "The American Dinosaur Rush",
+      "to": "amer"
+    },
+    {
+      "label": "Albertosaurus",
+      "to": "albe"
+    },
+    {
+      "label": "Saurolophus",
+      "to": "saur"
+    },
+    {
+      "label": "Euoplocephalus",
+      "to": "euop"
+    },
+    {
+      "label": "Digging up Dinosaurs",
+      "to": "digg"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/park/PARK00AA.webp",
+        "hotspots": [
+          {
+            "label": "The Canadian Dinosaur Rush",
+            "to": "the-canadian-dinosaur-rush",
+            "x": 5,
+            "y": 66,
+            "w": 30,
+            "h": 6
+          },
+          {
+            "label": "Ceratopsian stampedes",
+            "to": "ceratopsian-stampedes",
+            "x": 46,
+            "y": 52,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Dinosaur tunes",
+            "to": "dinosaur-tunes",
+            "x": 42,
+            "y": 61,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Not an easy job",
+            "to": "not-an-easy-job",
+            "x": 66,
+            "y": 41,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Bully on the block",
+            "to": "bully-on-the-block",
+            "x": 57,
+            "y": 77,
+            "w": 24,
+            "h": 6
+          }
+        ]
+      },
+      "the-canadian-dinosaur-rush": {
+        "image": "assets/park/PARK01PU.webp",
+        "back": "main"
+      },
+      "bully-on-the-block": {
+        "image": "assets/park/PARK02PU.webp",
+        "back": "main"
+      },
+      "dinosaur-tunes": {
+        "image": "assets/park/PARK03PU.webp",
+        "back": "main"
+      },
+      "not-an-easy-job": {
+        "image": "assets/park/PARK04PU.webp",
+        "back": "main"
+      },
+      "ceratopsian-stampedes": {
+        "image": "assets/park/PARK05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/park/PARK00AP.mp3"
+}

@@ -1,0 +1,109 @@
+{
+  "id": "pale",
+  "code": "PALE",
+  "name": "What Is Paleontology?",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "pay-lee-on-TOL-uh-jee",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "",
+  "hero": {
+    "image": "assets/pale/PALE00AA.webp",
+    "alt": "What Is Paleontology?"
+  },
+  "intro": "Paleontology is the scientific study of fossils, and the scientists who study these fossils are called paleontologists. These scientists are also historians who chart the record of life on Earth, from the appearance of the first simple cellular organisms to the 160 million-year period of the dinosaurs and beyond. While searching odd corners of the Earth for dinosaur bones is exciting, it takes hard work, patience and dedication. Even after many years of study and graduation, jobs can be hard to find. Some paleontologists work for oil companies, but their first priority is to search for oil, not dinosaurs. A few lucky graduates are employed by universities and museums, where they can teach the art and science of studying dinosaurs.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "in-the-classroom",
+      "title": "In the Classroom",
+      "image": "assets/pale/PALE01PU.webp",
+      "text": "To become a paleontologist, a student must study geology, the scientific study of the Earth's origin, history and structure, and zoology, the biological study of animals. Students must earn four-year degrees in one of those fields while gaining an extensive background of study in the other. Eventually, they must continue their studies to earn a Ph.D. in paleontology, which often takes eight or nine years of laboratory, museum, and field work. You need a lot of knowledge to know how to find and identify dinosaur bones."
+    },
+    {
+      "id": "in-the-field",
+      "title": "In the Field",
+      "image": "assets/pale/PALE02PU.webp",
+      "text": "Finding a fossil is exciting, but it is only the beginning of the work. Paleontologists and their students must work at the site where fossilized bones were discovered, even if it is the side of a mountain! Wielding pick axes and shovels, excavators clear away the large amounts of rock. The work is done outside, often unprotected from the blistering heat or freezing cold. Conditions also are often insect-infested and dirty. Nonetheless, the workers must proceed slowly and carefully, documenting and labeling each fossil piece they find. Bones must be wrapped in wet tissue paper and plaster-soaked bandages so they can be transported to the laboratory, where more detailed research is performed."
+    },
+    {
+      "id": "in-the-laboratory",
+      "title": "In the Laboratory",
+      "image": "assets/pale/PALE03PU.webp",
+      "text": "Student paleontologists spend many hours learning to identify fossils under the microscope. In the laboratory, they learn to carefully remove the rock that is still stuck to the fossil by using dental drills, engraving pens, and soft brushes. They view the smallest details through high-powered microscopes. Sometimes, even acids are applied to dissolve bits of rock. After each piece is extracted and identified, the fossils are strengthened with liquid plastics and glued together."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What is a Fossil?",
+      "to": "foss"
+    },
+    {
+      "label": "Modern Dinosaur Detectives",
+      "to": "mdet"
+    },
+    {
+      "label": "Digging up Dinosaurs",
+      "to": "digg"
+    },
+    {
+      "label": "Reconstructing Dinosaurs",
+      "to": "reco"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/pale/PALE00AA.webp",
+        "hotspots": [
+          {
+            "label": "In the classroom",
+            "to": "in-the-classroom",
+            "x": 66,
+            "y": 61,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "In the laboratory",
+            "to": "in-the-laboratory",
+            "x": 36,
+            "y": 71,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "In the field",
+            "to": "in-the-field",
+            "x": 21,
+            "y": 79,
+            "w": 13,
+            "h": 6
+          }
+        ]
+      },
+      "in-the-classroom": {
+        "image": "assets/pale/PALE01PU.webp",
+        "back": "main"
+      },
+      "in-the-field": {
+        "image": "assets/pale/PALE02PU.webp",
+        "back": "main"
+      },
+      "in-the-laboratory": {
+        "image": "assets/pale/PALE03PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/pale/PALE00AP.mp3",
+  "narration": "assets/pale/PALE00SA.mp3"
+}

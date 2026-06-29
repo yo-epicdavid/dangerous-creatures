@@ -1,0 +1,179 @@
+{
+  "id": "ddef",
+  "code": "DDEF",
+  "name": "Dinosaur Defense",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "die-NO-sor dee-FENSE",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "From armored tanks to speed demons, dinosaurs had clever tricks for staying alive.",
+  "hero": {
+    "image": "assets/ddef/DDEF00AA.webp",
+    "alt": "Dinosaur Defense"
+  },
+  "intro": "Like all animals, dinosaurs needed to defend themselves against their enemies, and even against larger members of their own families who might want to fight them for food or for mates. Many dinosaurs had pointed teeth and sharp claws they could use to injure an enemy. Some relied on their large size alone to scare away predators. Some developed armored plates, spikes, or horns to protect themselves. Others used their tails as weapons to fend off attackers. And a few relied solely on their speed to run away from a threat.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "threatening-tails",
+      "title": "Threatening Tails",
+      "image": "assets/ddef/DDEF01PU.webp",
+      "text": "A number of dinosaurs had spiked, clubbed, or whip-like tails that could be used as weapons in an emergency.",
+      "captions": [
+        {
+          "label": "Whiplash",
+          "text": "This sauropod had little to defend itself other than its sheer size. It did, however, have one powerful weapon: a whip-like tail that could inflict a stinging blow to an attacker."
+        },
+        {
+          "label": "A spiky tail",
+          "text": "The muscular tail of Stegosaurus ended in several sharp spikes. In life, these spikes would have had a horny covering."
+        },
+        {
+          "label": "A severe blow",
+          "text": "This armored dinosaur had a bony club at the end of its tail. Although no match for this meat-eater in size, a well aimed blow from its tail could topple the giant Tyrannosaurus rex."
+        }
+      ]
+    },
+    {
+      "id": "runaways",
+      "title": "Runaways",
+      "image": "assets/ddef/DDEF02PU.webp",
+      "text": "Some of the smaller dinosaurs were built for speed, and could simply outrun their attackers.",
+      "captions": [
+        {
+          "label": "Running scared",
+          "text": "Hypsilophodon was a plant-eater. Small and fast, it had powerful legs built to outrun even the swiftest predator. Some small dinosaurs like Hypsilophodon could run as fast as a racehorse!"
+        }
+      ]
+    },
+    {
+      "id": "encased-in-armor",
+      "title": "Encased in Armor",
+      "image": "assets/ddef/DDEF03PU.webp",
+      "text": "Like medieval knights, some dinosaurs sported heavy armor to protect their bodies.",
+      "captions": [
+        {
+          "label": "Knight dinosaur",
+          "text": "Nodosaurus was a well protected beast. Its backside was completely covered in a bony shield. When attacked, this dinosaur may have sat down like an armadillo to protect its soft underbelly."
+        },
+        {
+          "label": "Helmet head",
+          "text": "Even the head of this Euoplocephalus was protected from attack. It was covered with bony plates just like a crash helmet!"
+        }
+      ]
+    },
+    {
+      "id": "devilish-horns",
+      "title": "Devilish Horns",
+      "image": "assets/ddef/DDEF04PU.webp",
+      "text": "Like modern animals such as deer and cattle, some dinosaurs used their horns to intimidate their enemies. These dinosaurs may look fierce, but none of them were predators. Their horns were purely defensive.",
+      "captions": [
+        {
+          "label": "Ceratopsians",
+          "text": "Because the skulls of these horned dinosaurs were solid and heavy, many of them have survived the centuries."
+        },
+        {
+          "label": "Modern ceratopsian",
+          "text": "The rhinoceros, like these ancient reptiles, is a plant-eater and uses its fearsome nose spike only for defense and to establish dominance within the herd."
+        }
+      ]
+    },
+    {
+      "id": "too-big-to-tangle-with",
+      "title": "Too Big to Tangle With",
+      "image": "assets/ddef/DDEF05PU.webp",
+      "text": "Some dinosaurs were simply so much bigger than others that few predators dared to attack them. Being long or tall was an advantage—a dinosaur with a long neck could see predators from a distance.",
+      "captions": [
+        {
+          "label": "Allosaurus dinner",
+          "text": "But size didn't always triumph. The vertebrae of Apatosaurus has been found with Allosaurus teeth marks on them! Allosaurus was small compared to the sauropod giant."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Claws",
+      "to": "claw"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/ddef/DDEF00AA.webp",
+        "hotspots": [
+          {
+            "label": "Encased in armor",
+            "to": "encased-in-armor",
+            "x": 5,
+            "y": 42,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Threatening tails",
+            "to": "threatening-tails",
+            "x": 5,
+            "y": 52,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Too big to tangle with",
+            "to": "too-big-to-tangle-with",
+            "x": 55,
+            "y": 33,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Devilish horns",
+            "to": "devilish-horns",
+            "x": 32,
+            "y": 71,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Runaways",
+            "to": "runaways",
+            "x": 62,
+            "y": 71,
+            "w": 13,
+            "h": 5
+          }
+        ]
+      },
+      "threatening-tails": {
+        "image": "assets/ddef/DDEF01PU.webp",
+        "back": "main"
+      },
+      "runaways": {
+        "image": "assets/ddef/DDEF02PU.webp",
+        "back": "main"
+      },
+      "encased-in-armor": {
+        "image": "assets/ddef/DDEF03PU.webp",
+        "back": "main"
+      },
+      "devilish-horns": {
+        "image": "assets/ddef/DDEF04PU.webp",
+        "back": "main"
+      },
+      "too-big-to-tangle-with": {
+        "image": "assets/ddef/DDEF05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/ddef/DDEF00AP.mp3",
+  "narration": "assets/ddef/DDEF00SA.mp3"
+}

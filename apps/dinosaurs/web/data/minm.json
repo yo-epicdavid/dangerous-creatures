@@ -1,0 +1,153 @@
+{
+  "id": "minm",
+  "code": "MINM",
+  "name": "Minmi",
+  "category": "dinosaur",
+  "scientificName": "Minmi",
+  "needsScientificVerify": false,
+  "pronunciation": "MIN-mee",
+  "meaning": "Named after rock formation",
+  "period": "Early Cretaceous",
+  "diet": "Herbivore",
+  "tagline": "Australia's armored ankylosaur — even its belly had bony plates!",
+  "hero": {
+    "image": "assets/minm/MINM00AA.webp",
+    "alt": "Minmi"
+  },
+  "intro": "When Minmi was unearthed in 1964, it was the first ankylosaur to be found anywhere in Australia. Minmi was a small dinosaur, only seven feet long. Paleontologists were intrigued to discover that this little ankylosaur had small, bony plates on its underside as well as on its back.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Australia"
+    },
+    {
+      "label": "Time Period",
+      "value": "Early Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Named after rock formation"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ankylosaur"
+    },
+    {
+      "label": "Length",
+      "value": "2m (7ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "dinosaur-from-down-under",
+      "title": "Dinosaur from Down Under",
+      "image": "assets/minm/MINM01PU.webp",
+      "text": "The ankylosaur Minmi was named for the place it was found—Minmi Crossing in Queensland, Australia. Two dinosaur skeletons similar to Australian dinosaurs have been excavated in Antarctica. It is not surprising that two dinosaurs found so far apart would be so similar. The continents of Australia and Antarctica were joined for most of dinosaur time.",
+      "captions": [
+        {
+          "label": "Antarctic ankylosaur cousin",
+          "text": "This unnamed ankylosaur was discovered in the icy Antarctic. Many more dinosaurs may lie under the ice caps, but hunting for dinosaurs there is difficult."
+        }
+      ]
+    },
+    {
+      "id": "ankylosaur-features",
+      "title": "Ankylosaur Features",
+      "image": "assets/minm/MINM02PU.webp",
+      "text": "Ankylosaurs were all well-armored plant-eaters, with skin that was perfectly suited to life on land. Dinosaur skin was waterproof, thick, and horny. Tough, scaly skin protects an animal whether it is wading through swampy vegetation, or moving about on land, dragging its body over rough stones. Armored dinosaurs such as Minmi had skins with small embedded bony plates or nodules for protection against predators.",
+      "captions": [
+        {
+          "label": "Plant-eating teeth",
+          "text": "Ankylosaurs had small teeth that were only good for eating soft plants. Sauropods, on the other hand, had long peg-like teeth, good for nipping tougher plants. No dinosaur had flat teeth like human molars."
+        },
+        {
+          "label": "Preserved for posterity",
+          "text": "This impression came from an armored dinosaur called Polacanthus."
+        }
+      ]
+    },
+    {
+      "id": "dinosaurs-in-armor",
+      "title": "Dinosaurs in Armor",
+      "image": "assets/minm/MINM03PU.webp",
+      "text": "Ankylosaurs, including Minmi, were some of the best protected animals in the dinosaur kingdom. Their suits of armor would have been tough for any predator to penetrate. Some ankylosaurs even had two \"skulls,\" the real one, and an outer one like the helmet in a suit of armor. Many ankylosaurs, like the two shown here, had spikes in addition to protective plates, and some, like Euoplocephalus, had spiked or clubbed tails they could use to defend themselves."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaur Cove",
+      "to": "cove"
+    },
+    {
+      "label": "Antarctica Expedition",
+      "to": "anta"
+    },
+    {
+      "label": "Polacanthus",
+      "to": "pola"
+    },
+    {
+      "label": "Scelidosaurus",
+      "to": "scel"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/minm/MINM00AA.webp",
+        "hotspots": [
+          {
+            "label": "Dinosaur from down under",
+            "to": "dinosaur-from-down-under",
+            "x": 54,
+            "y": 37,
+            "w": 32,
+            "h": 6
+          },
+          {
+            "label": "Dinosaurs in armor",
+            "to": "dinosaurs-in-armor",
+            "x": 57,
+            "y": 52,
+            "w": 27,
+            "h": 6
+          },
+          {
+            "label": "Ankylosaur features",
+            "to": "ankylosaur-features",
+            "x": 1,
+            "y": 83,
+            "w": 24,
+            "h": 6
+          }
+        ]
+      },
+      "dinosaur-from-down-under": {
+        "image": "assets/minm/MINM01PU.webp",
+        "back": "main"
+      },
+      "ankylosaur-features": {
+        "image": "assets/minm/MINM02PU.webp",
+        "back": "main"
+      },
+      "dinosaurs-in-armor": {
+        "image": "assets/minm/MINM03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/minm/MINM50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/minm/MINM00AP.mp3"
+}

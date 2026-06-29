@@ -1,0 +1,168 @@
+{
+  "id": "nest",
+  "code": "NEST",
+  "name": "Nests and Eggs",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "From tiny cracked shells to communal nurseries, dinosaur eggs reveal the surprising family lives of ancient giants.",
+  "hero": {
+    "image": "assets/nest/NEST00AA.webp",
+    "alt": "Nests and Eggs"
+  },
+  "intro": "Dinosaurs, like reptiles and birds today, laid hard-shelled eggs. Fossil dinosaur nests and eggs have been found in many parts of the world. Some fossil eggs even have embryos of baby dinosaurs inside of them. Nests found complete with fossilized young and the remains of parents nearby tell us that some baby dinosaurs, like baby birds, would have stayed in their nests while waiting for their parents to return with food. Some dinosaurs may have shared nests and built communal nurseries in which to raise their young.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "the-shells-the-secret",
+      "title": "The Shell's the Secret",
+      "image": "assets/nest/NEST01PU.webp",
+      "text": "Dinosaurs, like reptiles and birds, reproduced by laying eggs on land. This gave reptiles an advantage over amphibians, which could exist on land but had to return to the water to lay their eggs.",
+      "captions": [
+        {
+          "label": "Egg story",
+          "text": "Like birds' eggs, reptilian eggs have a shell that protects the developing young, but also allows it to breathe. The shell is made up of a brittle outer layer on top of a flexible inner layer. Under this is the amniotic membrane filled with fluid, a protected environment for the growing embryo."
+        },
+        {
+          "label": "Disproportionate shell size",
+          "text": "The largest dinosaur egg ever found was only about twelve inches long. Compare the size of this quail egg to this dinosaur egg. Dinosaur eggs were not as large as you might expect: had they been in proportion to the size of some adult dinosaurs, their shells would have been far too thick to allow oxygen to get in and to allow the babies to get out."
+        }
+      ]
+    },
+    {
+      "id": "fossil-find",
+      "title": "Fossil Find",
+      "image": "assets/nest/NEST02PU.webp",
+      "text": "The eggs in this fossilized, sandy nest came from a hadrosaur. Evidence shows that several mothers may have laid their eggs in a circle in the same nest, which might contain up to thirty eggs. They would then have covered them with earth or sand to protect the eggs until they hatched. Some dinosaur nests had raised rims, and these mothers might have sat on their eggs, just like brooding hens."
+    },
+    {
+      "id": "tough-eggs",
+      "title": "Tough Eggs",
+      "image": "assets/nest/NEST03PU.webp",
+      "text": "Many fossil fragments of dinosaur eggs have been unearthed. The pieces pictured here show the textures of the tough outer shells that protected the eggs from drying out. Many modern reptiles have quite unusual eggs. The eggs pictured on the right are all from modern creatures.",
+      "captions": [
+        {
+          "label": "Sauropod shells",
+          "text": "These fragments come from large round eggs that were laid by huge sauropod dinosaurs."
+        },
+        {
+          "label": "Protoceratops shells",
+          "text": "The coarse, pimply surface of these Protoceratops shell fragments is typical of many dinosaur eggs."
+        },
+        {
+          "label": "Monitor lizard",
+          "text": "This Nile monitor lizard egg incubates in the nest for nine to ten months before hatching."
+        },
+        {
+          "label": "Python",
+          "text": "This python's egg hardly looks like an egg at all. Like most snake eggs, it has a parchment-like shell."
+        },
+        {
+          "label": "Matamata",
+          "text": "This South American turtle lays eggs that look like ping-pong balls."
+        }
+      ]
+    },
+    {
+      "id": "egg-raider",
+      "title": "Egg Raider",
+      "image": "assets/nest/NEST04PU.webp",
+      "text": "Dinosaur eggs would make a nutritious meal, provided a nest raider could find them, dig them up, and sneak past the guarding adults. In one fossil dinosaur nest, the remains of Oviraptor were found. Experts think this small speedy carnivore may have preyed on the eggs of other dinosaurs.",
+      "captions": [
+        {
+          "label": "Modern egg eaters",
+          "text": "Egg eating is a common practice among modern reptiles. This African snake is about to swallow an egg that is twice the width of its own body."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Birth and Growth",
+      "to": "birt"
+    },
+    {
+      "label": "Protoceratops",
+      "to": "prot"
+    },
+    {
+      "label": "Maiasaura",
+      "to": "maia"
+    },
+    {
+      "label": "Eryops",
+      "to": "eryo"
+    },
+    {
+      "label": "Oviraptor",
+      "to": "ovir"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/nest/NEST00AA.webp",
+        "hotspots": [
+          {
+            "label": "Fossil find",
+            "to": "fossil-find",
+            "x": 5,
+            "y": 53,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Egg raider",
+            "to": "egg-raider",
+            "x": 5,
+            "y": 79,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "The shell's the secret",
+            "to": "the-shells-the-secret",
+            "x": 37,
+            "y": 80,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Tough eggs",
+            "to": "tough-eggs",
+            "x": 72,
+            "y": 57,
+            "w": 18,
+            "h": 5
+          }
+        ]
+      },
+      "the-shells-the-secret": {
+        "image": "assets/nest/NEST01PU.webp",
+        "back": "main"
+      },
+      "fossil-find": {
+        "image": "assets/nest/NEST02PU.webp",
+        "back": "main"
+      },
+      "tough-eggs": {
+        "image": "assets/nest/NEST03PU.webp",
+        "back": "main"
+      },
+      "egg-raider": {
+        "image": "assets/nest/NEST04PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/nest/NEST00AP.mp3"
+}

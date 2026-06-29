@@ -1,0 +1,183 @@
+{
+  "id": "dsoc",
+  "code": "DSOC",
+  "name": "The Dinosaur Society",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "dy-nuh-SOR suh-SY-uh-tee",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "The club that keeps up with every new dinosaur discovery — one every seven weeks!",
+  "hero": {
+    "image": "assets/dsoc/DSOC00AA.webp",
+    "alt": "The Dinosaur Society"
+  },
+  "intro": "Did you know that a new kind of dinosaur is discovered every seven weeks?  How can a dinosaur enthusiast possibly keep up?  Sharing information about the latest discoveries is a problem for professional paleontologists as well as for amateur dinosaur hunters.  To serve the needs of both groups, The Dinosaur Society was formed.",
+  "facts": [
+    {
+      "label": "Founded by",
+      "value": "Dino Don Lessem"
+    },
+    {
+      "label": "Type",
+      "value": "Non-profit organization for dinosaur science and education"
+    },
+    {
+      "label": "Kids' publication",
+      "value": "DINO TIMES — a monthly newspaper filled with new dinosaur discoveries, games and contests"
+    },
+    {
+      "label": "Adult publication",
+      "value": "THE DINOSAUR REPORT — a quarterly newsletter"
+    },
+    {
+      "label": "Phone",
+      "value": "1-800-DINO-DON"
+    },
+    {
+      "label": "Address",
+      "value": "200 Carleton Ave, East Islip, NY 11730"
+    }
+  ],
+  "topics": [
+    {
+      "id": "updating-and-educating",
+      "title": "Updating and Educating",
+      "image": "assets/dsoc/DSOC01PU.webp",
+      "text": "The Dinosaur Society publishes all the latest news of interest to dinosaur fans, from the many differing views of dinosaur experts to descriptions of the most recent fossils excavated in the field.  The Dinosaur Society funds research projects, helping paleontologists to continue their explorations for dinosaurs around the world.  Support for dinosaur artists and educational projects is also a priority of the group.  For experts and novices alike, The Dinosaur Society brings dinosaurs to life!"
+    },
+    {
+      "id": "whos-leading-this-group",
+      "title": "Who's Leading This Group?",
+      "image": "assets/dsoc/DSOC02PU.webp",
+      "text": "The organizers of The Dinosaur Society include leading dinosaur paleontologists from around the world, some of whom are shown here.  Dino Don Lessem, our tour guide, is the founder."
+    },
+    {
+      "id": "dinosaur-news-for-readers-of-all-ages",
+      "title": "Dinosaur News for Readers of All Ages",
+      "image": "assets/dsoc/DSOC03PU.webp",
+      "text": "For kids, The Dinosaur Society publishes DINO TIMES, a monthly newspaper filled with new dinosaur discoveries, games and contests.  For adults, THE DINOSAUR REPORT, the Society's quarterly newsletter, delivers all the latest developments in a fast-changing science.",
+      "captions": [
+        {
+          "label": "Dinosaur approved!",
+          "text": "There are hundreds of books, computer games, and toys on dinosaurs, but most are outdated.  How can you find the accurate ones?  Look for The Dinosaur Society seal of approval on scientifically accurate products.  The Dinosaur Society will give you the scoop on what's fact and what's fiction."
+        }
+      ]
+    },
+    {
+      "id": "dig-your-own-dinosaur",
+      "title": "Dig Your Own Dinosaur",
+      "image": "assets/dsoc/DSOC04PU.webp",
+      "text": "Have you ever wanted to excavate eggs, search for sauropods, or bring a Brachiosaurus to light?  Become a dinosaur detective!  The Dinosaur Society sponsors digs for children and adults in the American West and around the world."
+    },
+    {
+      "id": "join-in-the-fun",
+      "title": "Join in the Fun",
+      "image": "assets/dsoc/DSOC05PU.webp",
+      "text": "The Dinosaur Society is the only non-profit organization for dinosaur science and education.  Joining is easy.  For more information, just call 1-800-DINO-DON, or write to:"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Myths and Legends",
+      "to": "myth"
+    },
+    {
+      "label": "Dinosaur Provincial Park",
+      "to": "park"
+    },
+    {
+      "label": "Modern Dinosaur Detectives",
+      "to": "mdet"
+    },
+    {
+      "label": "What is Paleontology?",
+      "to": "pale"
+    },
+    {
+      "label": "What You Need to Find a Fossil",
+      "to": "find"
+    },
+    {
+      "label": "Museums of North America",
+      "to": "muse"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/dsoc/DSOC00AA.webp",
+        "hotspots": [
+          {
+            "label": "Join in the fun",
+            "to": "join-in-the-fun",
+            "x": 70,
+            "y": 9,
+            "w": 25,
+            "h": 7
+          },
+          {
+            "label": "Updating and educating",
+            "to": "updating-and-educating",
+            "x": 3,
+            "y": 41,
+            "w": 28,
+            "h": 6
+          },
+          {
+            "label": "Dinosaur news for readers of all ages",
+            "to": "dinosaur-news-for-readers-of-all-ages",
+            "x": 3,
+            "y": 50,
+            "w": 28,
+            "h": 10
+          },
+          {
+            "label": "Dig your own dinosaur",
+            "to": "dig-your-own-dinosaur",
+            "x": 3,
+            "y": 62,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "Who's leading this group?",
+            "to": "whos-leading-this-group",
+            "x": 3,
+            "y": 71,
+            "w": 26,
+            "h": 6
+          }
+        ]
+      },
+      "updating-and-educating": {
+        "image": "assets/dsoc/DSOC01PU.webp",
+        "back": "main"
+      },
+      "whos-leading-this-group": {
+        "image": "assets/dsoc/DSOC02PU.webp",
+        "back": "main"
+      },
+      "dinosaur-news-for-readers-of-all-ages": {
+        "image": "assets/dsoc/DSOC03PU.webp",
+        "back": "main"
+      },
+      "dig-your-own-dinosaur": {
+        "image": "assets/dsoc/DSOC04PU.webp",
+        "back": "main"
+      },
+      "join-in-the-fun": {
+        "image": "assets/dsoc/DSOC05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/dsoc/DSOC00AP.mp3"
+}

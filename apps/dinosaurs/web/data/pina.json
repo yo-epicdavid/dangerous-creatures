@@ -1,0 +1,207 @@
+{
+  "id": "pina",
+  "code": "PINA",
+  "name": "Pinacosaurus",
+  "category": "dinosaur",
+  "scientificName": "Pinacosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "pin-AK-oh-SOR-us",
+  "meaning": "Plank lizard",
+  "period": "Late Cretaceous",
+  "diet": "Herbivore",
+  "tagline": "A medieval knight of the dinosaur world — armored in bony bumps and swinging a bone club tail.",
+  "hero": {
+    "image": "assets/pina/PINA00AA.webp",
+    "alt": "Pinacosaurus"
+  },
+  "intro": "Like a medieval knight, Pinacosaurus wore armor and carried a club for protection. For armor, Pinacosaurus had bony bumps all over its body, like all of its ankylosaur relatives. Its club consisted of two heavy lumps of bone attached to the end of the dinosaur's powerful tail.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Asia"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Plank lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ankylosaur"
+    },
+    {
+      "label": "Length",
+      "value": "5.3m (14ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "time-for-dinner",
+      "title": "Time for dinner?",
+      "image": "assets/pina/PINA01PU.webp",
+      "text": "This was probably a common scene during the Cretaceous period. It shows a meat-eating dinosaur rearing over its prey, a well-armored ankylosaur. Ankylosaurs crouched on the ground to protect their soft bellies, and depended on their skin armor and spines for defense."
+    },
+    {
+      "id": "terrifying-tails",
+      "title": "Terrifying tails",
+      "image": "assets/pina/PINA02PU.webp",
+      "text": "Many dinosaurs used their tails in battle. Pinacosaurus's tail was a powerful weapon that it could swing at its attackers.",
+      "captions": [
+        {
+          "label": "A spiky threat",
+          "text": "Other dinosaurs carried spikes on their tails to protect themselves against predators that wanted to eat them. A single blow from this stegosaur tail would have inflicted terrible wounds."
+        }
+      ]
+    },
+    {
+      "id": "more-bumpy-beasts",
+      "title": "More bumpy beasts",
+      "image": "assets/pina/PINA03PU.webp",
+      "text": "Pinacosaurus was not the only dinosaur with body armor. All ankylosaurs had bony plates embedded in their skins, forming lumps and bumps. Polacanthus, shown here, is another typical ankylosaur.",
+      "captions": [
+        {
+          "label": "Skin with armor",
+          "text": "This ankylosaur nodule was flattened at the base and attached to the creature's back."
+        },
+        {
+          "label": "Skin without armor",
+          "text": "This skin impression of Diplodocus, a sauropod, is quite smooth compared to the skin of the ankylosaurs. Most sauropod skin would have given little protection against a predator's teeth and claws."
+        }
+      ]
+    },
+    {
+      "id": "proof-of-a-land-bridge",
+      "title": "Proof of a land bridge",
+      "image": "assets/pina/PINA04PU.webp",
+      "text": "Armored dinosaurs that lived in the late Cretaceous period, like Pinacosaurus and Euoplocephalus, are found only in eastern Asia, western North America and Australia. This suggests that in the late Cretaceous period dinosaurs could cross from western North America to eastern Asia and Australia by a land \"bridge,\" but could not move into other parts of the world because of the spreading seas."
+    },
+    {
+      "id": "tooth-tale",
+      "title": "Tooth tale",
+      "image": "assets/pina/PINA05PU.webp",
+      "text": "Ankylosaurs like Pinacosaurus had small, triangular teeth like the tooth shown here. Teeth that look like this are made for chewing soft plants like ferns.",
+      "captions": [
+        {
+          "label": "Monster teeth",
+          "text": "This sharp tooth belonged to the meat-eating Megalosaurus. Its edges are serrated like a knife for ripping through flesh."
+        },
+        {
+          "label": "Peg teeth",
+          "text": "These peg-like teeth belonged to a giant sauropod. They were effective for nipping at tough plants."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaurs in Armor",
+      "to": "armr"
+    },
+    {
+      "label": "The Jurassic Period",
+      "to": "jurr"
+    },
+    {
+      "label": "Stegosaurus",
+      "to": "steg"
+    },
+    {
+      "label": "Saltasaurus",
+      "to": "salt"
+    },
+    {
+      "label": "Life After Dinosaurs",
+      "to": "aftr"
+    },
+    {
+      "label": "Megalosaurus",
+      "to": "mega"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/pina/PINA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Time for dinner?",
+            "to": "time-for-dinner",
+            "x": 5,
+            "y": 42,
+            "w": 20,
+            "h": 7
+          },
+          {
+            "label": "More bumpy beasts",
+            "to": "more-bumpy-beasts",
+            "x": 57,
+            "y": 27,
+            "w": 25,
+            "h": 7
+          },
+          {
+            "label": "Terrifying tails",
+            "to": "terrifying-tails",
+            "x": 69,
+            "y": 48,
+            "w": 20,
+            "h": 7
+          },
+          {
+            "label": "Tooth tale",
+            "to": "tooth-tale",
+            "x": 4,
+            "y": 77,
+            "w": 14,
+            "h": 7
+          },
+          {
+            "label": "Proof of a land bridge",
+            "to": "proof-of-a-land-bridge",
+            "x": 42,
+            "y": 77,
+            "w": 26,
+            "h": 7
+          }
+        ]
+      },
+      "time-for-dinner": {
+        "image": "assets/pina/PINA01PU.webp",
+        "back": "main"
+      },
+      "terrifying-tails": {
+        "image": "assets/pina/PINA02PU.webp",
+        "back": "main"
+      },
+      "more-bumpy-beasts": {
+        "image": "assets/pina/PINA03PU.webp",
+        "back": "main"
+      },
+      "proof-of-a-land-bridge": {
+        "image": "assets/pina/PINA04PU.webp",
+        "back": "main"
+      },
+      "tooth-tale": {
+        "image": "assets/pina/PINA05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/pina/PINA50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/pina/PINA00AP.mp3"
+}

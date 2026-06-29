@@ -1,0 +1,211 @@
+{
+  "id": "meat",
+  "code": "MEAT",
+  "name": "Meat-Eaters",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "Carnivore",
+  "tagline": "Sharp claws, fearsome jaws — the ultimate prehistoric predators.",
+  "hero": {
+    "image": "assets/meat/MEAT00AA.webp",
+    "alt": "Meat-Eaters"
+  },
+  "intro": "Different dinosaurs ate different kinds of food.  Plant-eaters, or herbivores, lived on leaves and shoots.  Meat-eating dinosaurs, or carnivores, fed on other animals.  Some carnivores preyed on other dinosaurs, some ate small insects, and some—the scavengers—ate the remains of carcasses left by other hunters.  Some carnivores were as big as a house, some were as tiny as a dog.  All had in common a taste for meat, along with strong jaws and sharp teeth designed to rip and chew flesh.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "all-in-the-family",
+      "title": "All in the Family",
+      "image": "assets/meat/MEAT01PU.webp",
+      "text": "All two-legged, meat-eating dinosaurs belonged to a group called theropods, which means \"beast footed.\"  Big meat-eating dinosaurs are traditionally called carnosaurs, or \"flesh lizards.\"  Although large, carnosaurs were probably slow animals.  They had big heads, powerful legs, and relatively tiny hands like Tyrannosaurus rex.",
+      "captions": [
+        {
+          "label": "Carnivore cousins",
+          "text": "Smaller meat-eaters were known as coelurosaurs, or \"hollow-tailed lizards.\"  They were lightly built, nimble runners with narrow grasping arms and long narrow jaws like this Deinonychus."
+        }
+      ]
+    },
+    {
+      "id": "king-of-the-carnosaurs",
+      "title": "King of the Carnosaurs",
+      "image": "assets/meat/MEAT02PU.webp",
+      "text": "Tyrannosaurus rex must have been the most fearsome hunter in the prehistoric world.  Its sharp teeth were the size of bananas!  At forty feet long, Tyrannosaurus rex may have been the largest flesh-eating animal to ever walk the Earth."
+    },
+    {
+      "id": "tiny-terror",
+      "title": "Tiny Terror",
+      "image": "assets/meat/MEAT03PU.webp",
+      "text": "Not all carnivores were giants.  Though no bigger than a man, the wicked claws on their feet in combination with their speed made Troodon, Deinonychus, and Velociraptor predators to be feared.",
+      "captions": [
+        {
+          "label": "Flyers beware",
+          "text": "Ornitholestes, or \"bird robber,\" was typical of the small, agile dinosaurs.  It may have eaten any kind of tidbit it could catch: insects, frogs, lizards, even baby dinosaurs!"
+        }
+      ]
+    },
+    {
+      "id": "slashing-claws",
+      "title": "Slashing Claws",
+      "image": "assets/meat/MEAT04PU.webp",
+      "text": "Deinonychus may have been small, but it was well armed with sharp claws.  The dinosaur probably held on to its prey with its three clawed fingers while raking the unfortunate victim with the sickle-shaped claws on its feet.",
+      "captions": [
+        {
+          "label": "Killer claws",
+          "text": "The main claw bone on each foot was almost five inches long and curved like a sickle.  When Deinonychus was not using these claws, they were probably held up out of the way to keep them razor-sharp.  When attacking, the claw could be swung downward to slice up the dinosaur's prey."
+        }
+      ]
+    },
+    {
+      "id": "eating-their-own-young",
+      "title": "Eating Their Own Young?",
+      "image": "assets/meat/MEAT05PU.webp",
+      "text": "Some dinosaurs may have fed on their own babies.  This fossilized Coelophysis has the remains of its young partially digested in its belly.  Hence, experts believe it must have been a cannibal."
+    },
+    {
+      "id": "meat-eating-teeth",
+      "title": "Meat-Eating Teeth",
+      "image": "assets/meat/MEAT06PU.webp",
+      "text": "One aspect that all meat-eaters had in common was sharp teeth that angle toward the back of the mouth.  This type of teeth allowed a carnivore to hold a victim more securely in its jaws.  Many carnivores also had serrated teeth which made it easier to rip and tear meat."
+    },
+    {
+      "id": "egg-thieves",
+      "title": "Egg Thieves",
+      "image": "assets/meat/MEAT07PU.webp",
+      "text": "Some small dinosaurs, such as Oviraptor, may have stolen and eaten eggs from the nests of other dinosaurs.  During an expedition in the 1920s, fossil hunters discovered the remains of Oviraptor near a nest belonging to Protoceratops.  Because Oviraptor was a meat-eater, it is a good possibility it was after the eggs or the baby dinosaurs."
+    },
+    {
+      "id": "relentless-hunters",
+      "title": "Relentless Hunters",
+      "image": "assets/meat/MEAT08PU.webp",
+      "text": "Like a pack of wolves, a group of Deinonychus could tackle dinosaurs much larger than themselves.  Their sickle-shaped claws and gripping bite wore down the victim, providing a meal for all.  We know from footprints that small carnivorous dinosaurs may have hunted like this.",
+      "captions": [
+        {
+          "label": "Lone wolf",
+          "text": "Carnosaurs like Tyrannosaurus rex seem to have traveled by themselves.  After making a kill or finding a corpse to scavenge, these large meat-eaters needed to eat quickly or fight off competition.  The scent of fresh meat would have attracted other carnivores from miles around."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Plant-eaters",
+      "to": "plan"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/meat/MEAT00AA.webp",
+        "hotspots": [
+          {
+            "label": "All in the family",
+            "to": "all-in-the-family",
+            "x": 57,
+            "y": 29,
+            "w": 36,
+            "h": 5
+          },
+          {
+            "label": "Relentless hunters",
+            "to": "relentless-hunters",
+            "x": 57,
+            "y": 37,
+            "w": 36,
+            "h": 5
+          },
+          {
+            "label": "King of the carnosaurs",
+            "to": "king-of-the-carnosaurs",
+            "x": 55,
+            "y": 45,
+            "w": 39,
+            "h": 5
+          },
+          {
+            "label": "Meat-eating teeth",
+            "to": "meat-eating-teeth",
+            "x": 55,
+            "y": 56,
+            "w": 38,
+            "h": 5
+          },
+          {
+            "label": "Eating their own young?",
+            "to": "eating-their-own-young",
+            "x": 50,
+            "y": 65,
+            "w": 43,
+            "h": 5
+          },
+          {
+            "label": "Slashing claws",
+            "to": "slashing-claws",
+            "x": 12,
+            "y": 51,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Tiny terror",
+            "to": "tiny-terror",
+            "x": 8,
+            "y": 62,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Egg thieves",
+            "to": "egg-thieves",
+            "x": 8,
+            "y": 73,
+            "w": 25,
+            "h": 5
+          }
+        ]
+      },
+      "all-in-the-family": {
+        "image": "assets/meat/MEAT01PU.webp",
+        "back": "main"
+      },
+      "king-of-the-carnosaurs": {
+        "image": "assets/meat/MEAT02PU.webp",
+        "back": "main"
+      },
+      "tiny-terror": {
+        "image": "assets/meat/MEAT03PU.webp",
+        "back": "main"
+      },
+      "slashing-claws": {
+        "image": "assets/meat/MEAT04PU.webp",
+        "back": "main"
+      },
+      "eating-their-own-young": {
+        "image": "assets/meat/MEAT05PU.webp",
+        "back": "main"
+      },
+      "meat-eating-teeth": {
+        "image": "assets/meat/MEAT06PU.webp",
+        "back": "main"
+      },
+      "egg-thieves": {
+        "image": "assets/meat/MEAT07PU.webp",
+        "back": "main"
+      },
+      "relentless-hunters": {
+        "image": "assets/meat/MEAT08PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/meat/MEAT00AP.mp3",
+  "narration": "assets/meat/MEAT00SA.mp3"
+}

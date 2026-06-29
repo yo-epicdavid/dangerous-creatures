@@ -1,0 +1,161 @@
+{
+  "id": "hsau",
+  "code": "HSAU",
+  "name": "How to Recognize Sauropods",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "SOR-uh-podz",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Earth-shakers: the largest animals ever to walk on land.",
+  "hero": {
+    "image": "assets/hsau/HSAU00AA.webp",
+    "alt": "How to Recognize Sauropods"
+  },
+  "intro": "With massive bodies, legs like tree trunks, and lengthy necks and tails, sauropods were the ponderous giants of the dinosaur world. Like king-sized giraffes, these dinosaurs browsed in the treetops, eating bushels of leaves each day to maintain their huge bodies. Sauropods were Earth-shakers—the largest animals ever to walk on land.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "tails-for-balance-and-protection",
+      "title": "Tails for Balance and Protection",
+      "image": "assets/hsau/HSAU01PU.webp",
+      "text": "The long tails of sauropods served as counterbalances for the dinosaurs' long necks. The bases of these tails were thick and muscular, and the tips were often thin and whip-like.",
+      "captions": [
+        {
+          "label": "Tripod dinosaurs",
+          "text": "Although they spent most of their time on all fours, experts think that some sauropods sometimes balanced on their hind legs and tails so that they could extend their reach higher into the treetops."
+        },
+        {
+          "label": "Lashing out",
+          "text": "The tails of sauropods covered a lot of territory at the rear of the animal. Some dinosaurs may have used them as powerful whips with which to lash out at an attacker."
+        }
+      ]
+    },
+    {
+      "id": "crane-like-necks-and-barrel-bellies",
+      "title": "Crane-like Necks and Barrel Bellies",
+      "image": "assets/hsau/HSAU02PU.webp",
+      "text": "If all dinosaurs competed for the same food, many would have gone hungry. Instead, different types of dinosaurs evolved to eat different types of food.",
+      "captions": [
+        {
+          "label": "The longest necks",
+          "text": "The sauropods had the longest necks of the dinosaur world, which allowed them to feed on leaves higher than other dinosaurs could reach. Mamenchisaurus had the longest neck of any dinosaur known to date."
+        },
+        {
+          "label": "Digesting without chewing",
+          "text": "Sauropods did not have teeth designed for chewing leaves; instead, they raked or nipped off leaves, pine needles, and even pine cones. Such large masses of tough vegetation would have required a long time to digest, so these dinosaurs needed huge bellies in which to store their food. Some sauropod fossils have been found with gastroliths (stomach stones), which they swallowed to help grind up the food in their stomachs, much like some birds do today."
+        }
+      ]
+    },
+    {
+      "id": "vegetarian-teeth",
+      "title": "Vegetarian Teeth",
+      "image": "assets/hsau/HSAU03PU.webp",
+      "text": "Sauropods had either peg-like teeth, which acted like a rake to pull leaves off trees, or sharp, spoon-shaped teeth, which were used to snip off leaves and twigs."
+    },
+    {
+      "id": "lizard-like-hips-and-elephant-feet",
+      "title": "Lizard-like Hips and Elephant Feet",
+      "image": "assets/hsau/HSAU04PU.webp",
+      "text": "All sauropods are saurischians, or lizard-hipped dinosaurs, with strong bones and pillar-like legs and feet to support their great weight.",
+      "captions": [
+        {
+          "label": "Distributing the weight",
+          "text": "Like pillars of a building, the legs of sauropods had to support their massive bodies. Elephants' legs are built to do the same job, and like elephants, sauropods had broad and thickly-padded feet."
+        },
+        {
+          "label": "It's all in the hips",
+          "text": "In lizard-hipped dinosaurs, one of the two lower pelvic bones pointed forward and one pointed backward, a structure characteristic of modern lizards. In the ornithischian group, the bird-hipped dinosaurs, the two lower pelvic bones pointed backward and down, just like the bone structure found in birds today."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Biggest Dinosaurs",
+      "to": "tall"
+    },
+    {
+      "label": "A Tale of Tails",
+      "to": "tale"
+    },
+    {
+      "label": "Long Necks",
+      "to": "long"
+    },
+    {
+      "label": "Teeth of Plant-eaters",
+      "to": "ptee"
+    },
+    {
+      "label": "Camarasaurus",
+      "to": "cama"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/hsau/HSAU00AA.webp",
+        "hotspots": [
+          {
+            "label": "Vegetarian teeth",
+            "to": "vegetarian-teeth",
+            "x": 5,
+            "y": 37,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Crane-like necks and barrel bellies",
+            "to": "crane-like-necks-and-barrel-bellies",
+            "x": 8,
+            "y": 46,
+            "w": 31,
+            "h": 5
+          },
+          {
+            "label": "Lizard-like hips and elephant feet",
+            "to": "lizard-like-hips-and-elephant-feet",
+            "x": 4,
+            "y": 57,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Tails for balance and protection",
+            "to": "tails-for-balance-and-protection",
+            "x": 3,
+            "y": 67,
+            "w": 23,
+            "h": 9
+          }
+        ]
+      },
+      "tails-for-balance-and-protection": {
+        "image": "assets/hsau/HSAU01PU.webp",
+        "back": "main"
+      },
+      "crane-like-necks-and-barrel-bellies": {
+        "image": "assets/hsau/HSAU02PU.webp",
+        "back": "main"
+      },
+      "vegetarian-teeth": {
+        "image": "assets/hsau/HSAU03PU.webp",
+        "back": "main"
+      },
+      "lizard-like-hips-and-elephant-feet": {
+        "image": "assets/hsau/HSAU04PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/hsau/HSAU00AP.mp3",
+  "narration": "assets/hsau/HSAU00SA.mp3"
+}

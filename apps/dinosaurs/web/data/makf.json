@@ -1,0 +1,125 @@
+{
+  "id": "makf",
+  "code": "MAKF",
+  "name": "The Making of a Fossil",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Dead bones don't disappear — they slowly turn to stone!",
+  "hero": {
+    "image": "assets/makf/MAKF00AA.webp",
+    "alt": "The Making of a Fossil"
+  },
+  "intro": "How are fossils made? Millions of years ago, when dinosaurs inhabited the Earth, many animals died near rivers or other bodies of water. Currents or tides often buried the carcasses under mud and sand before they could fully decompose. Over time, this blanket of mud and sand became rock. Sometimes the hard, scaly skin of some dinosaurs lasted long enough to leave its impression in the fine mud. Even the fragile shells of dinosaur eggs were occasionally turned into fossils. But flesh and other soft tissues usually rotted away, leaving only teeth, bones, or shells to be turned into stony fossils.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "death-bed",
+      "title": "Death Bed",
+      "image": "assets/makf/MAKF01PU.webp",
+      "text": "In life, Allosaurus fed on the bank of a river where ferns and horsetails grew, and where there was plenty of water to drink. When death came, either by disease, attack, or drowning, it often occurred near the water. Currents quickly covered the body with layers of sand and mud.",
+      "captions": [
+        {
+          "label": "Decaying mussel",
+          "text": "After a mussel dies, the shells open into a \"butterfly\" position and the animal's flesh is either devoured by scavenging animals or rots away, leaving only its hard shell."
+        }
+      ]
+    },
+    {
+      "id": "bone-to-stone",
+      "title": "Bone to Stone",
+      "image": "assets/makf/MAKF02PU.webp",
+      "text": "After thousands of years of burial in the mud and sand, the flesh of Allosaurus has long since rotted away. All that remains is the skeleton. Millions more years pass, and all of the dinosaurs are gone. A sea now covers the land where they lived. The muddy, sandy grave of Allosaurus has become rock. Chemicals in the rock harden the creature's bones into fossils.",
+      "captions": [
+        {
+          "label": "Hard mussels",
+          "text": "These mussel shells have become embedded in rock, cemented together by a natural chemical that binds the sediment to the fossils, making it difficult to separate them. The color of the shells is usually lost during fossilization, turning the color of the rock in which they were fossilized."
+        }
+      ]
+    },
+    {
+      "id": "rising-to-the-surface",
+      "title": "Rising to the Surface",
+      "image": "assets/makf/MAKF03PU.webp",
+      "text": "After 60 million years, the sea is gone. Movements deep within the Earth's crust have pushed up mountains and tilted the ancient river bed. Centuries of wind and rain carve away the rock where just below the surface lie the bones of Allosaurus. Weathering finally exposes parts of the fragile, fossilized skeleton.",
+      "captions": [
+        {
+          "label": "Uncovering the past",
+          "text": "Scientists trace the exposed pieces of fossil bone back into the rock by carefully chiseling and brushing away the rock. As each bone is uncovered, broken pieces may need to be glued back into place. The rock dust may be sieved to find smaller fragments of fossil."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What You Need to Find a Fossil",
+      "to": "find"
+    },
+    {
+      "label": "Tendaguru Expedition"
+    },
+    {
+      "label": "Extinction",
+      "to": "exti"
+    },
+    {
+      "label": "What is Paleontology?",
+      "to": "pale"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/makf/MAKF00AA.webp",
+        "hotspots": [
+          {
+            "label": "Bone to stone",
+            "to": "bone-to-stone",
+            "x": 5,
+            "y": 72,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Rising to the surface",
+            "to": "rising-to-the-surface",
+            "x": 38,
+            "y": 82,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Death bed",
+            "to": "death-bed",
+            "x": 68,
+            "y": 72,
+            "w": 14,
+            "h": 5
+          }
+        ]
+      },
+      "death-bed": {
+        "image": "assets/makf/MAKF01PU.webp",
+        "back": "main"
+      },
+      "bone-to-stone": {
+        "image": "assets/makf/MAKF02PU.webp",
+        "back": "main"
+      },
+      "rising-to-the-surface": {
+        "image": "assets/makf/MAKF03PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/makf/MAKF00AP.mp3"
+}

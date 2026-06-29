@@ -1,0 +1,194 @@
+{
+  "id": "tria",
+  "code": "TRIA",
+  "name": "The Triassic Period",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "try-ASS-ik",
+  "meaning": "",
+  "period": "Triassic",
+  "diet": "",
+  "tagline": "The dawn of the Age of Dinosaurs, when all of Earth was just one giant continent.",
+  "hero": {
+    "image": "assets/tria/TRIA00AA.webp",
+    "alt": "The Triassic Period"
+  },
+  "intro": "When the Triassic period began more than 240 million years ago, the weather was warm and Earth had only one continent. Surrounding pools of water were ferns, cycads, and horsetails, and in the interior of the land, forests of ginkgos and conifer trees grew in desert-like conditions. This was the scene at the dawn of the Age of Dinosaurs. The first dinosaurs appeared late in the Triassic period, evolving from more primitive archosaurs, a group of reptiles that also gave rise to crocodiles and pterosaurs.",
+  "facts": [
+    {
+      "label": "Started",
+      "value": "more than 240 million years ago"
+    },
+    {
+      "label": "Supercontinent",
+      "value": "Pangaea"
+    },
+    {
+      "label": "Climate",
+      "value": "warm and desert-like in the interior"
+    },
+    {
+      "label": "Preceded by",
+      "value": "Permian period"
+    },
+    {
+      "label": "First dinosaurs",
+      "value": "appeared late in the Triassic period"
+    }
+  ],
+  "topics": [
+    {
+      "id": "a-different-world",
+      "title": "A Different World",
+      "image": "assets/tria/TRIA01PU.webp",
+      "text": "At the beginning of the Triassic period, all the continents were joined together into one \"super-continent\" called Pangaea. Without wide seas to block their path, dinosaurs and other prehistoric creatures could travel across the land. By the end of the Triassic period, Pangaea was breaking into two landmasses—Laurasia and Gondwanaland."
+    },
+    {
+      "id": "earlier-reptile-rulers",
+      "title": "Earlier Reptile Rulers",
+      "image": "assets/tria/TRIA02PU.webp",
+      "text": "The dinosaurs were the last group of \"ruling\" reptiles to dominate the Earth. Here you can see representatives of other reptile groups that lived during the Permian period, which preceded the Age of Dinosaurs.",
+      "captions": [
+        {
+          "label": "Eryops",
+          "text": "This amphibian grew more than six feet long. Its descendants, our modern toads and frogs, take up much less space."
+        },
+        {
+          "label": "Dimetrodon",
+          "text": "The tall \"fin\" on its back may have helped to control this ten-foot-long reptile's body temperature. Two dinosaurs with similar sail-like structures on their backs have been identified so far. Perhaps these spiny innovations allowed these creatures to cool themselves as well."
+        },
+        {
+          "label": "Moschops",
+          "text": "Although it wasn't very cuddly looking and was still classified as a reptile, Moschops is a direct ancestor of our present-day mammals. Your pet dog or cat has this distant relative in its family tree!"
+        }
+      ]
+    },
+    {
+      "id": "plant-life",
+      "title": "Plant Life",
+      "image": "assets/tria/TRIA03PU.webp",
+      "text": "Plants preceded animals in adapting from life in the sea to life on land, and, like animals, plants have used a variety of methods to evolve under changing conditions. Prehistoric plants have been more successful than the dinosaurs—many primitive plant species still survive today.",
+      "captions": [
+        {
+          "label": "Monkey puzzle tree",
+          "text": "Some of the tallest trees during the Triassic were primitive conifers like the monkey puzzle tree, which can still be seen today. It would take a tough dinosaur to chew one of these branches!"
+        },
+        {
+          "label": "Ginkgo",
+          "text": "These trees were much more widespread in Triassic times than they are today. You can easily recognize ginkgos, both as fossils and as living plants, from their fan-shaped leaves. Today, ginkgos are also known as maidenhair trees."
+        },
+        {
+          "label": "Horsetail",
+          "text": "Wherever there was water, horsetails abounded, providing soft vegetation for reptiles to eat. We know from fossil records that some prehistoric horsetails reached heights of sixty feet. Modern horsetails grow no taller than five feet."
+        }
+      ]
+    },
+    {
+      "id": "early-dinosaurs",
+      "title": "Early Dinosaurs",
+      "image": "assets/tria/TRIA04PU.webp",
+      "text": "Although large by current standards, the first dinosaurs were not the giants we see in movies and museums today. Small, primitive dinosaurs are being excavated and identified every year, especially in South America.",
+      "captions": [
+        {
+          "label": "Staurikosaurus",
+          "text": "Dating from the Late Triassic period, six-foot-long Staurikosaurus is one of earliest dinosaurs we know of. Its ability to run on two legs gave it an advantage over other reptiles of the period."
+        },
+        {
+          "label": "Herrerasaurus",
+          "text": "This small South American dinosaur was a very primitive, two-legged meat-eater about ten feet long."
+        },
+        {
+          "label": "Massospondylus",
+          "text": "The teeth of this dinosaur were neither serrated and knife-like, like those of carnivores, nor rake-like or grinding, like those of herbivores. Massospondylus's teeth were \"multipurpose\" teeth which could chew either meat or plants."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Jurassic Period",
+      "to": "jurr"
+    },
+    {
+      "label": "The Shifting Earth",
+      "to": "shft"
+    },
+    {
+      "label": "Life Before Dinosaurs",
+      "to": "befr"
+    },
+    {
+      "label": "Dinosaur Diets",
+      "to": "diet"
+    },
+    {
+      "label": "Herrerasaurus",
+      "to": "herr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/tria/TRIA00AA.webp",
+        "hotspots": [
+          {
+            "label": "A different world",
+            "to": "a-different-world",
+            "x": 3,
+            "y": 51,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Earlier reptile rulers",
+            "to": "earlier-reptile-rulers",
+            "x": 3,
+            "y": 66,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Plant life",
+            "to": "plant-life",
+            "x": 52,
+            "y": 37,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Early dinosaurs",
+            "to": "early-dinosaurs",
+            "x": 47,
+            "y": 81,
+            "w": 19,
+            "h": 5
+          }
+        ]
+      },
+      "a-different-world": {
+        "image": "assets/tria/TRIA01PU.webp",
+        "back": "main"
+      },
+      "earlier-reptile-rulers": {
+        "image": "assets/tria/TRIA02PU.webp",
+        "back": "main"
+      },
+      "plant-life": {
+        "image": "assets/tria/TRIA03PU.webp",
+        "back": "main"
+      },
+      "early-dinosaurs": {
+        "image": "assets/tria/TRIA04PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/tria/TRIA00AP.mp3",
+  "narration": "assets/tria/TRIA00SA.mp3"
+}

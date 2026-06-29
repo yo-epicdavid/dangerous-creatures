@@ -1,0 +1,189 @@
+{
+  "id": "plat",
+  "code": "PLAT",
+  "name": "Plateosaurus",
+  "category": "dinosaur",
+  "scientificName": "Plateosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "plat-ee-oh-SOR-us",
+  "meaning": "Flat lizard",
+  "period": "Triassic",
+  "diet": "Herbivore",
+  "tagline": "Earth's first giant plant-eater — Plateosaurus ruled Europe long before most dinosaurs existed!",
+  "hero": {
+    "image": "assets/plat/PLAT00AA.webp",
+    "alt": "Plateosaurus"
+  },
+  "intro": "Plateosaurus roamed the Earth long before many of its cousins and was among the first of the larger dinosaurs to be discovered. A prosauropod, Plateosaurus is a relative of the giant sauropods, like Diplodocus. This dinosaur lived in Europe about 200 million years ago, when the climate there was hot and arid, like a desert.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Europe"
+    },
+    {
+      "label": "Time Period",
+      "value": "Triassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Flat lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Prosauropod"
+    },
+    {
+      "label": "Length",
+      "value": "8m (26ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "one-of-the-first",
+      "title": "One of the First",
+      "image": "assets/plat/PLAT01PU.webp",
+      "text": "Plateosaurus lived during the Late Triassic period, before most other dinosaurs. This large plant-eater was about twenty-six feet long and could stand on its hind legs to reach leaves high in trees.",
+      "captions": [
+        {
+          "label": "Plateosaurus",
+          "text": "One of the first large plant-eating dinosaurs of the Triassic period."
+        },
+        {
+          "label": "Apatosaurus",
+          "text": "One of the most common dinosaurs in the Jurassic period."
+        },
+        {
+          "label": "Dravidosaurus",
+          "text": "The last known stegosaur to have survived into the Late Cretaceous period."
+        },
+        {
+          "label": "One of the last",
+          "text": "Dravidosaurus, a plate-backed dinosaur from India, became extinct during the Late Cretaceous period, about 88 million years ago."
+        }
+      ]
+    },
+    {
+      "id": "hand-or-foot",
+      "title": "Hand or Foot?",
+      "image": "assets/plat/PLAT02PU.webp",
+      "text": "We know this Plateosaurus fossil is a \"hand\" because of the sharp, narrow claws used for holding things, or for tearing leaves off trees. Plateosaurus fed on plants at ground level on all fours, and then reared up on its hind legs to reach the treetops. The joints between the bones allowed the hand to be bent back at the \"wrist\" when Plateosaurus walked on all fours.",
+      "captions": [
+        {
+          "label": "Gimme a hand",
+          "text": "Here you can see the claws on the hand of Plateosaurus. Notice how his wrist can bend easily."
+        }
+      ]
+    },
+    {
+      "id": "leaves-for-lunch",
+      "title": "Leaves for Lunch",
+      "image": "assets/plat/PLAT03PU.webp",
+      "text": "Plateosaurus probably ate leaves, shredding some of them with its rows of small teeth, and others with stomach stones in its gizzard. Maybe it used its sharply-clawed front legs to gather food or to defend itself.",
+      "captions": [
+        {
+          "label": "Ancient puzzle",
+          "text": "Living monkey puzzle trees like this one are relatives of the ones that flourished long before the dinosaurs ever walked the Earth."
+        }
+      ]
+    },
+    {
+      "id": "death-by-drowning",
+      "title": "Death by Drowning?",
+      "image": "assets/plat/PLAT04PU.webp",
+      "text": "The skeletons of many Plateosaurus dinosaurs have been found at Trossingen, Germany. Many of these fossils are found in groups, which may suggest that they traveled in herds. Perhaps they were caught in a flash flood, or they may have died after getting stuck in a muddy bog."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Marching to Extinction",
+      "to": "extt"
+    },
+    {
+      "label": "Dravidosaurus",
+      "to": "davi"
+    },
+    {
+      "label": "Rhoetosaurus",
+      "to": "rhoe"
+    },
+    {
+      "label": "Dinosaur Landscape",
+      "to": "dlan"
+    },
+    {
+      "label": "Extinction",
+      "to": "exti"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/plat/PLAT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Leaves for lunch",
+            "to": "leaves-for-lunch",
+            "x": 60,
+            "y": 12,
+            "w": 25,
+            "h": 7
+          },
+          {
+            "label": "Hand or foot?",
+            "to": "hand-or-foot",
+            "x": 63,
+            "y": 34,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "One of the first",
+            "to": "one-of-the-first",
+            "x": 5,
+            "y": 53,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Death by drowning?",
+            "to": "death-by-drowning",
+            "x": 43,
+            "y": 73,
+            "w": 27,
+            "h": 7
+          }
+        ]
+      },
+      "one-of-the-first": {
+        "image": "assets/plat/PLAT01PU.webp",
+        "back": "main"
+      },
+      "hand-or-foot": {
+        "image": "assets/plat/PLAT02PU.webp",
+        "back": "main"
+      },
+      "leaves-for-lunch": {
+        "image": "assets/plat/PLAT03PU.webp",
+        "back": "main"
+      },
+      "death-by-drowning": {
+        "image": "assets/plat/PLAT04PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/plat/PLAT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/plat/PLAT00AP.mp3"
+}

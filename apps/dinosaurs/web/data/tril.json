@@ -1,0 +1,211 @@
+{
+  "id": "tril",
+  "code": "TRIL",
+  "name": "Trilobite",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "TRY-loh-byt",
+  "meaning": "Three-lobed",
+  "period": "Cambrian - Permian",
+  "diet": "",
+  "tagline": "This crab-like sea creature had multi-faceted eyes, like a dragonfly.",
+  "hero": {
+    "image": "assets/tril/TRIL00AA.webp",
+    "alt": "Trilobite"
+  },
+  "intro": "During prehistoric times, there were more than 10,000 species of trilobites! Trilobites were sea creatures related to the crabs you see today. Because we know that certain kinds of trilobites lived during certain time periods, trilobite fossils are an important clue that scientists look for when determining the age of rocks.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Prehistoric seas"
+    },
+    {
+      "label": "Time Period",
+      "value": "Cambrian - Permian"
+    },
+    {
+      "label": "Name Means",
+      "value": "Three-lobed"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Arthropod"
+    },
+    {
+      "label": "Size",
+      "value": "3-10cm (1-4in)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "to-see-or-not-to-see",
+      "title": "To See or Not to See",
+      "image": "assets/tril/TRIL01PU.webp",
+      "text": "Some species of trilobites crawled along the sea bed, while others floated or swam through the water. Most species had two eyes and could probably see very well, but some species had no eyes. These blind trilobites lived deep in the ocean where sunlight could not penetrate.",
+      "captions": [
+        {
+          "label": "Incredible eyes",
+          "text": "Trilobite eyes are the most ancient visual systems known. They consisted of many separate lenses packed together. Each lens produced its own image. These lenses are sometimes preserved in trilobite fossils because they were made of the resistant mineral calcite."
+        }
+      ]
+    },
+    {
+      "id": "whats-in-a-name",
+      "title": "What's in a Name?",
+      "image": "assets/tril/TRIL02PU.webp",
+      "text": "These creatures were named trilobite, or \"three-lobed,\" because their exoskeletons (outer shells) were divided into three distinct parts, or lobes. Their legs, which extended from the underside of the exoskeleton, and other soft parts of their bodies were rarely fossilized.",
+      "captions": [
+        {
+          "label": "Burrowing in the sand",
+          "text": "Fossilized sections of the sea bed show that trilobites and other animals burrowed through the sand and mud. They may have been taking shelter there, or they may have eaten bits of matter found in the sediments, just like earthworms do today."
+        }
+      ]
+    },
+    {
+      "id": "plentiful-fossils",
+      "title": "Plentiful Fossils",
+      "image": "assets/tril/TRIL03PU.webp",
+      "text": "Millions of trilobite fossils have been found in a variety of places around the world. Trilobites have been found in rocks that date from the Cambrian period, about 570 million years ago, to end of the Permian period, about 245 million years ago."
+    },
+    {
+      "id": "wide-variety",
+      "title": "Wide Variety",
+      "image": "assets/tril/TRIL04PU.webp",
+      "text": "More than 10,000 species of trilobites have been identified, varying in size from less than an inch to around two feet long.",
+      "captions": [
+        {
+          "label": "Roll up",
+          "text": "Some trilobites were able to roll up like wood lice, probably for protection against predators."
+        },
+        {
+          "label": "Granddaddy trilobite",
+          "text": "This is one of the biggest trilobites. Paradoxides dates from the Cambrian period and grew to one foot, seven inches in length."
+        },
+        {
+          "label": "Tiny bites",
+          "text": "These trilobites are examples of Elrathia. They were usually between one and four inches long."
+        },
+        {
+          "label": "Prickly customers",
+          "text": "This trilobite, Dicranurus, was notable for its long spines, which are well preserved in this specimen."
+        }
+      ]
+    },
+    {
+      "id": "wiped-out-forever",
+      "title": "Wiped Out Forever",
+      "image": "assets/tril/TRIL05PU.webp",
+      "text": "At the end of the Permian period, about 245 million years ago, the greatest mass extinction of all time occurred. Ninety percent of all the species in the seas, including the trilobites, disappeared forever."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Triassic Period",
+      "to": "tria"
+    },
+    {
+      "label": "Ammonite",
+      "to": "ammo"
+    },
+    {
+      "label": "What is a Fossil?",
+      "to": "foss"
+    },
+    {
+      "label": "Important Dinosaur Sites",
+      "to": "site"
+    },
+    {
+      "label": "Life Before Dinosaurs",
+      "to": "befr"
+    },
+    {
+      "label": "Extinction",
+      "to": "exti"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/tril/TRIL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Wiped out forever",
+            "to": "wiped-out-forever",
+            "x": 4,
+            "y": 45,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "What's in a name?",
+            "to": "whats-in-a-name",
+            "x": 4,
+            "y": 58,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Wide variety",
+            "to": "wide-variety",
+            "x": 24,
+            "y": 70,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Plentiful fossils",
+            "to": "plentiful-fossils",
+            "x": 68,
+            "y": 42,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "To see or not to see",
+            "to": "to-see-or-not-to-see",
+            "x": 57,
+            "y": 59,
+            "w": 26,
+            "h": 5
+          }
+        ]
+      },
+      "to-see-or-not-to-see": {
+        "image": "assets/tril/TRIL01PU.webp",
+        "back": "main"
+      },
+      "whats-in-a-name": {
+        "image": "assets/tril/TRIL02PU.webp",
+        "back": "main"
+      },
+      "plentiful-fossils": {
+        "image": "assets/tril/TRIL03PU.webp",
+        "back": "main"
+      },
+      "wide-variety": {
+        "image": "assets/tril/TRIL04PU.webp",
+        "back": "main"
+      },
+      "wiped-out-forever": {
+        "image": "assets/tril/TRIL05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/tril/TRIL50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/tril/TRIL00AP.mp3"
+}

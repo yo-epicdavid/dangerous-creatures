@@ -1,0 +1,129 @@
+{
+  "id": "anch",
+  "code": "ANCH",
+  "name": "Anchisaurus",
+  "category": "dinosaur",
+  "scientificName": "Anchisaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "ANG-kih-SOR-us",
+  "meaning": "Near lizard",
+  "period": "Early Jurassic",
+  "diet": "Herbivore",
+  "tagline": "One of the very first dinosaurs — small enough to hold, but built like the giants to come.",
+  "hero": {
+    "image": "assets/anch/ANCH00AA.webp",
+    "alt": "Anchisaurus"
+  },
+  "intro": "Anchisaurus was a member of a very early group of dinosaurs, the prosauropods. These dinosaurs were relatives of the giant plant-eating sauropods. Indeed, many of the sauropod features can be seen in Anchisaurus, such as a long muscular tail, a large, barrel-shaped body, a long neck, and a relatively small head. The five-fingered Anchisaurus and its prosauropod cousins were the first tall dinosaurs able to feed from tall trees, in addition to eating small plants and shrubs.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Africa, North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Early Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Near lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Prosauropod"
+    },
+    {
+      "label": "Length",
+      "value": "2m (7ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "60 lbs"
+    }
+  ],
+  "topics": [
+    {
+      "id": "small-head-huge-body",
+      "title": "Small Head, Huge Body",
+      "image": "assets/anch/ANCH01PU.webp",
+      "text": "Anchisaurus had a rather small, lightweight skull. It had coarsely serrated teeth that it used to saw through stems and leaves. Like other members of the prosauropod family, Anchisaurus had a very small head in proportion to the rest of its body."
+    },
+    {
+      "id": "prosauropod-relatives",
+      "title": "Prosauropod Relatives",
+      "image": "assets/anch/ANCH02PU.webp",
+      "text": "Anchisaurus is shown here with a few of its larger prosauropod relatives. Prosauropods were among the first big plant-eating dinosaurs. Some experts say that these herbivores grew so big because plant-eaters needed larger digestive systems than the meat-eaters of the same period.",
+      "captions": [
+        {
+          "label": "Massospondylus",
+          "text": "This dinosaur may have a build similar to one of the giant sauropods, but it measured only sixteen feet long. The tail of Diplodocus, one of the biggest sauropods, measured forty-five feet—about three times as long as one Massospondylus!"
+        },
+        {
+          "label": "Plateosaurus",
+          "text": "This was one of the earliest dinosaurs, living about 200 million years ago."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Plant-eaters",
+      "to": "plan"
+    },
+    {
+      "label": "Dinosaur Diets",
+      "to": "diet"
+    },
+    {
+      "label": "Massospondylus",
+      "to": "mass"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/anch/ANCH00AA.webp",
+        "hotspots": [
+          {
+            "label": "Small head, huge body",
+            "to": "small-head-huge-body",
+            "x": 72,
+            "y": 35,
+            "w": 25,
+            "h": 10
+          },
+          {
+            "label": "Prosauropod relatives",
+            "to": "prosauropod-relatives",
+            "x": 28,
+            "y": 78,
+            "w": 28,
+            "h": 8
+          }
+        ]
+      },
+      "small-head-huge-body": {
+        "image": "assets/anch/ANCH01PU.webp",
+        "back": "main"
+      },
+      "prosauropod-relatives": {
+        "image": "assets/anch/ANCH02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/anch/ANCH50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/anch/ANCH00AP.mp3"
+}

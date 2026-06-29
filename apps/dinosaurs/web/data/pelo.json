@@ -1,0 +1,127 @@
+{
+  "id": "pelo",
+  "code": "PELO",
+  "name": "Peloneustes",
+  "category": "creature",
+  "scientificName": "Peloneustes",
+  "needsScientificVerify": false,
+  "pronunciation": "pel-oh-NYOO-steez",
+  "meaning": "Clay swimmer",
+  "period": "Late Jurassic",
+  "diet": "Carnivore",
+  "tagline": "A pint-sized ocean ambush predator with jagged teeth and a taste for coiled mollusks",
+  "hero": {
+    "image": "assets/pelo/PELO00AA.webp",
+    "alt": "Peloneustes"
+  },
+  "intro": "This marine reptile probably hunted by hiding and waiting for its prey to swim by, and then pouncing quickly and snagging the victim with its jagged teeth. Peloneustes was a small pliosaur—only about ten feet long—with four powerful flippers and a short neck.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Europe"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Clay swimmer"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Plesiosaur"
+    },
+    {
+      "label": "Length",
+      "value": "3m (10ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ammonite-eater",
+      "title": "Ammonite Eater",
+      "image": "assets/pelo/PELO01PU.webp",
+      "text": "Ammonites, or coiled mollusks, were a favorite food of pliosaurs like Peloneustes. Scientists have deduced this from studying fossil shells with holes punched in them by the sharp teeth of pliosaurs.",
+      "captions": [
+        {
+          "label": "Crowded conditions",
+          "text": "Ammonites were plentiful during the Age of Dinosaurs. They once lived in great numbers, which explains why they are packed so tightly here."
+        }
+      ]
+    },
+    {
+      "id": "long-heads-short-necks",
+      "title": "Long Heads, Short Necks",
+      "image": "assets/pelo/PELO02PU.webp",
+      "text": "Shown here are two other members of the pliosaur family, Kronosaurus and Macroplata. Like Peloneustes, they had powerful paddle-like flippers which they use to propel themselves through the water.",
+      "captions": [
+        {
+          "label": "Pliosaurs vs plesiosaurs",
+          "text": "Pliosaurs have longer heads and shorter necks than plesiosaurs, another type of marine reptile. Muraeonosaurus, a plesiosaur, found it easy to float in the sea because of its air-filled lungs. As opposed to pliosaurs, plesiosaurs had a long neck topped by a tiny head."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Shonisaurus",
+      "to": "shon"
+    },
+    {
+      "label": "Mosasaurus",
+      "to": "mosa"
+    },
+    {
+      "label": "Macroplata",
+      "to": "macr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/pelo/PELO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Ammonite eater",
+            "to": "ammonite-eater",
+            "x": 57,
+            "y": 29,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Long heads, short necks",
+            "to": "long-heads-short-necks",
+            "x": 35,
+            "y": 51,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "ammonite-eater": {
+        "image": "assets/pelo/PELO01PU.webp",
+        "back": "main"
+      },
+      "long-heads-short-necks": {
+        "image": "assets/pelo/PELO02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/pelo/PELO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/pelo/PELO00AP.mp3"
+}

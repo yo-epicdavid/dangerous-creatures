@@ -5,11 +5,11 @@
   "category": "dinosaur",
   "scientificName": "Tyrannosaurus rex",
   "needsScientificVerify": false,
-  "pronunciation": "tie-RAN-uh-SOR-us REX",
+  "pronunciation": "tie-RAN-oh-SOR-us rex",
   "meaning": "tyrant lizard king",
   "period": "Late Cretaceous",
   "diet": "Carnivore",
-  "tagline": "The most fearsome meat-eater that ever walked the Earth.",
+  "tagline": "Seven-inch teeth, a skull five feet long, and an appetite to match — meet the tyrant lizard king.",
   "hero": {
     "image": "assets/tyra/TYRA00AA.webp",
     "alt": "Tyrannosaurus Rex"
@@ -18,7 +18,7 @@
   "facts": [
     {
       "label": "Place",
-      "value": "Asia, N.America"
+      "value": "Asia, N. America"
     },
     {
       "label": "Time Period",
@@ -167,34 +167,44 @@
   ],
   "crosslinks": [
     {
-      "label": "Record Breakers"
+      "label": "Record Breakers",
+      "to": "recb"
     },
     {
-      "label": "The American Dinosaur Rush"
+      "label": "The American Dinosaur Rush",
+      "to": "amer"
     },
     {
-      "label": "Museums of North America"
+      "label": "Museums of North America",
+      "to": "muse"
     },
     {
-      "label": "Reconstructing Dinosaurs"
+      "label": "Reconstructing Dinosaurs",
+      "to": "reco"
     },
     {
-      "label": "How to Recognize Theropods"
+      "label": "How to Recognize Theropods",
+      "to": "hthr"
     },
     {
-      "label": "Meat-eaters"
+      "label": "Meat-eaters",
+      "to": "meat"
     },
     {
-      "label": "Dinosaur Diets"
+      "label": "Dinosaur Diets",
+      "to": "diet"
     },
     {
-      "label": "The Cretaceous Period"
+      "label": "The Cretaceous Period",
+      "to": "cret"
     },
     {
-      "label": "Digging up Dinosaurs"
+      "label": "Digging up Dinosaurs",
+      "to": "digg"
     },
     {
-      "label": "Piatnitzkysaurus"
+      "label": "Piatnitzkysaurus",
+      "to": "piat"
     }
   ],
   "classic": {
@@ -206,73 +216,73 @@
           {
             "label": "Cretaceous hunting ground",
             "to": "cretaceous-hunting-ground",
-            "x": 61,
-            "y": 16,
-            "w": 28,
+            "x": 67,
+            "y": 30,
+            "w": 30,
             "h": 5
           },
           {
             "label": "Killer instinct",
             "to": "killer-instinct",
-            "x": 72,
-            "y": 31,
-            "w": 18,
+            "x": 74,
+            "y": 42,
+            "w": 22,
             "h": 5
           },
           {
             "label": "Tyrannosaurus rex relatives",
             "to": "tyrannosaurus-rex-relatives",
-            "x": 6,
-            "y": 38,
-            "w": 33,
+            "x": 5,
+            "y": 43,
+            "w": 35,
             "h": 5
           },
           {
             "label": "Museum displays",
             "to": "museum-displays",
-            "x": 6,
-            "y": 46,
-            "w": 22,
+            "x": 5,
+            "y": 50,
+            "w": 23,
             "h": 5
           },
           {
             "label": "Spectacular skeleton",
             "to": "spectacular-skeleton",
-            "x": 6,
-            "y": 55,
-            "w": 26,
+            "x": 5,
+            "y": 57,
+            "w": 27,
             "h": 5
           },
           {
             "label": "The discoverer",
             "to": "the-discoverer",
-            "x": 22,
-            "y": 68,
-            "w": 20,
-            "h": 5
-          },
-          {
-            "label": "Models of the monster",
-            "to": "models-of-the-monster",
-            "x": 7,
-            "y": 74,
-            "w": 26,
+            "x": 27,
+            "y": 67,
+            "w": 21,
             "h": 5
           },
           {
             "label": "Tiny arms",
             "to": "tiny-arms",
-            "x": 55,
-            "y": 71,
-            "w": 14,
+            "x": 57,
+            "y": 67,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Models of the monster",
+            "to": "models-of-the-monster",
+            "x": 5,
+            "y": 73,
+            "w": 29,
             "h": 5
           },
           {
             "label": "Giant jaws",
             "to": "giant-jaws",
-            "x": 70,
-            "y": 82,
-            "w": 15,
+            "x": 68,
+            "y": 73,
+            "w": 18,
             "h": 5
           }
         ]

@@ -1,0 +1,127 @@
+{
+  "id": "piat",
+  "code": "PIAT",
+  "name": "Piatnitzkysaurus",
+  "category": "dinosaur",
+  "scientificName": "Piatnitzkysaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "pyat-NITS-kee-SOR-us",
+  "meaning": "Piatnitzky's lizard",
+  "period": "Late Jurassic",
+  "diet": "Carnivore",
+  "tagline": "Half the size of Allosaurus but just as deadly — this Argentine hunter had knife-like teeth and killer claws!",
+  "hero": {
+    "image": "assets/piat/PIAT00AA.webp",
+    "alt": "Piatnitzkysaurus"
+  },
+  "intro": "Like its larger cousin Allosaurus, Piatnitzkysaurus was a fearsome meat-eater.  During the Middle and Late Jurassic periods, this primitive dinosaur stalked the plains of what is now Argentina, looking for plant-eaters to munch.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "South America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Piatnitzky's lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Theropod"
+    },
+    {
+      "label": "Length",
+      "value": "4.3m (14ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "predator-and-prey",
+      "title": "Predator and Prey",
+      "image": "assets/piat/PIAT01PU.webp",
+      "text": "Near Cerro Condor in Argentina, paleontologists discovered both Piatnitzkysaurus and another dinosaur, Patagosaurus.  Because Piatnitzkysaurus is a meat-eater and Patagosaurus is a plant-eater, the experts naturally speculate that Piatnitzkysaurus preyed upon the slower Patagosaurus.",
+      "captions": [
+        {
+          "label": "Slow but sure",
+          "text": "Sauropods like Patagosaurus may have been slow, but they had a few defensive tricks of their own. If size alone didn't scare off a hungry predator, this dinosaur might have lashed out with its whip-like tail, delivering a stinging blow to an attacker."
+        }
+      ]
+    },
+    {
+      "id": "carnivore-cousins",
+      "title": "Carnivore Cousins",
+      "image": "assets/piat/PIAT02PU.webp",
+      "text": "Although Piatnitzkysaurus was only around half the size of its North American relative, Allosaurus, the two meat-eating dinosaurs had a lot in common.",
+      "captions": [
+        {
+          "label": "Terrible twosome",
+          "text": "Both of these dinosaurs had large mouths, full of knife-like teeth for ripping apart prey, as well as menacing claws on both hands and feet."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Allosaurus",
+      "to": "allo"
+    },
+    {
+      "label": "Skulls of Meat-eaters",
+      "to": "carn"
+    },
+    {
+      "label": "Tarbosaurus",
+      "to": "tarb"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/piat/PIAT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Carnivore cousins",
+            "to": "carnivore-cousins",
+            "x": 71,
+            "y": 14,
+            "w": 27,
+            "h": 7
+          },
+          {
+            "label": "Predator and prey",
+            "to": "predator-and-prey",
+            "x": 68,
+            "y": 46,
+            "w": 26,
+            "h": 7
+          }
+        ]
+      },
+      "predator-and-prey": {
+        "image": "assets/piat/PIAT01PU.webp",
+        "back": "main"
+      },
+      "carnivore-cousins": {
+        "image": "assets/piat/PIAT02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/piat/PIAT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/piat/PIAT00AP.mp3"
+}

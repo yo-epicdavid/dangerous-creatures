@@ -5,11 +5,11 @@
   "category": "dinosaur",
   "scientificName": "Archaeopteryx",
   "needsScientificVerify": false,
-  "pronunciation": "ar-kee-OP-ter-ix",
+  "pronunciation": "ar-kee-OP-ter-iks",
   "meaning": "Ancient wing",
   "period": "Late Jurassic",
   "diet": "Carnivore",
-  "tagline": "Half dinosaur, half bird — the feathered creature that changed everything.",
+  "tagline": "Half dinosaur, half bird — Archaeopteryx was nature's most amazing experiment!",
   "hero": {
     "image": "assets/arch/ARCH00AA.webp",
     "alt": "Archaeopteryx"
@@ -35,10 +35,6 @@
     {
       "label": "Family",
       "value": "Theropod"
-    },
-    {
-      "label": "Length",
-      "value": "35cm (14in.)"
     }
   ],
   "topics": [
@@ -135,28 +131,36 @@
       "to": "bird"
     },
     {
-      "label": "Museums of North America"
+      "label": "Museums of North America",
+      "to": "muse"
     },
     {
-      "label": "Compsognathus"
+      "label": "Compsognathus",
+      "to": "comp"
     },
     {
-      "label": "Pteranodon"
+      "label": "Pteranodon",
+      "to": "pten"
     },
     {
-      "label": "Faces from the Past"
+      "label": "Faces from the Past",
+      "to": "ftfb"
     },
     {
-      "label": "Reptiles of the Air"
+      "label": "Reptiles of the Air",
+      "to": "rair"
     },
     {
-      "label": "Dinosaur Diets"
+      "label": "Dinosaur Diets",
+      "to": "diet"
     },
     {
-      "label": "Ornitholestes"
+      "label": "Ornitholestes",
+      "to": "orni"
     },
     {
-      "label": "Struthiomimus"
+      "label": "Struthiomimus",
+      "to": "stru"
     }
   ],
   "classic": {
@@ -168,66 +172,66 @@
           {
             "label": "Bird face",
             "to": "bird-face",
-            "x": 43,
-            "y": 24,
-            "w": 14,
-            "h": 7
+            "x": 46,
+            "y": 26,
+            "w": 12,
+            "h": 5
           },
           {
             "label": "Toothed beak",
             "to": "toothed-beak",
-            "x": 35,
-            "y": 43,
-            "w": 16,
-            "h": 7
+            "x": 36,
+            "y": 46,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Dragonfly dinner",
+            "to": "dragonfly-dinner",
+            "x": 26,
+            "y": 65,
+            "w": 20,
+            "h": 5
           },
           {
             "label": "The skeleton of a bird or dinosaur?",
             "to": "the-skeleton-of-a-bird-or-dinosaur",
-            "x": 62,
-            "y": 17,
-            "w": 32,
+            "x": 57,
+            "y": 22,
+            "w": 34,
             "h": 8
           },
           {
             "label": "Treasured find",
             "to": "treasured-find",
-            "x": 66,
-            "y": 28,
-            "w": 20,
-            "h": 7
+            "x": 62,
+            "y": 36,
+            "w": 18,
+            "h": 5
           },
           {
             "label": "Could Archaeopteryx fly?",
             "to": "could-archaeopteryx-fly",
-            "x": 60,
-            "y": 40,
-            "w": 29,
-            "h": 8
-          },
-          {
-            "label": "Dragonfly dinner",
-            "to": "dragonfly-dinner",
-            "x": 27,
-            "y": 65,
-            "w": 22,
+            "x": 57,
+            "y": 50,
+            "w": 32,
             "h": 7
           },
           {
             "label": "Clawed wings",
             "to": "clawed-wings",
-            "x": 62,
-            "y": 60,
-            "w": 20,
-            "h": 7
+            "x": 55,
+            "y": 64,
+            "w": 16,
+            "h": 5
           },
           {
             "label": "Bird feet",
             "to": "bird-feet",
-            "x": 62,
-            "y": 70,
+            "x": 60,
+            "y": 74,
             "w": 13,
-            "h": 7
+            "h": 5
           }
         ]
       },

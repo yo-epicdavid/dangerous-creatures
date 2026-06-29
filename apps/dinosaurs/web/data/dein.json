@@ -1,0 +1,273 @@
+{
+  "id": "dein",
+  "code": "DEIN",
+  "name": "Deinonychus",
+  "category": "dinosaur",
+  "scientificName": "Deinonychus",
+  "needsScientificVerify": false,
+  "pronunciation": "dye-NON-ih-kus",
+  "meaning": "Terrible claw",
+  "period": "Early Cretaceous",
+  "diet": "Carnivore",
+  "tagline": "This pack-hunting predator had a sickle-shaped killing claw on each foot that could slash through almost anything!",
+  "hero": {
+    "image": "assets/dein/DEIN00AA.webp",
+    "alt": "Deinonychus"
+  },
+  "intro": "\"Terrible claw\" is the nickname given to Deinonychus, because of its deadly curved claws on the second toe of each foot. The discovery of Deinonychus set the experts thinking. At the time, most people looked upon dinosaurs as slow, clumsy, stupid creatures. But the fossils of Deinonychus show that it was probably just the opposite— a quick, agile, and clever hunter.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Early Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Terrible claw"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Theropod"
+    },
+    {
+      "label": "Length",
+      "value": "3m (10ft)"
+    },
+    {
+      "label": "Weight",
+      "value": "150 lbs"
+    }
+  ],
+  "topics": [
+    {
+      "id": "in-pursuit-of-prey",
+      "title": "In Pursuit of Prey",
+      "image": "assets/dein/DEIN01PU.webp",
+      "text": "With its powerful jaws and wicked claws, Deinonychus was one of the deadliest meat-eating dinosaurs. Although some meat-eating dinosaurs were giants, like Tyrannosaurus rex, many predators were small.",
+      "captions": [
+        {
+          "label": "Troodon",
+          "text": "This man-sized dinosaur had a large brain and big eyes. It was a good hunter, even at night."
+        },
+        {
+          "label": "Coelophysis",
+          "text": "This small dinosaur was lightly built and lightning fast. It could catch smaller dinosaurs as well as insects and lizards."
+        }
+      ]
+    },
+    {
+      "id": "a-stiff-tail-for-steering",
+      "title": "A Stiff Tail for Steering",
+      "image": "assets/dein/DEIN02PU.webp",
+      "text": "The tail was flexible at the base where it joined the body. But along most of its length the bones were stiffened by long, bony rods that could lock the tail straight. The tail acted as a counterbalance when running, and might have been swung to the side to help Deinonychus maneuver when running at high speed."
+    },
+    {
+      "id": "claws-that-could-kill",
+      "title": "Claws That Could Kill",
+      "image": "assets/dein/DEIN03PU.webp",
+      "text": "The main claw bone on each foot of Deinonychus was almost five inches long, thin, and curved like a sickle. It would have been covered by a horny sheath. When not being used it was probably held up out of the way to keep it razor-sharp.",
+      "captions": [
+        {
+          "label": "Impressive weapon",
+          "text": "To make Deinonychus's feet even more dangerous, the curved claws could be pivoted downward to inflict gash wounds in the dinosaur's prey."
+        }
+      ]
+    },
+    {
+      "id": "giant-killers",
+      "title": "Giant-Killers",
+      "image": "assets/dein/DEIN04PU.webp",
+      "text": "A pack of fast-moving Deinonychus could tackle dinosaurs much larger than themselves, such as the slow-moving Tenontosaurus shown here. Slashing claws and a gripping bite would soon do in the victim.",
+      "captions": [
+        {
+          "label": "How do we know?",
+          "text": "How can we say Deinonychus roamed in packs, hunting larger dinosaurs? As usual, fossils are the basis for the guesswork. Bones from several Deinonychus bodies have been found together, so we assume they were in a group when they died. In several places bones of Tenontosaurus were found with, or very near to, a group of fossilized Deinonychus."
+        }
+      ]
+    },
+    {
+      "id": "deadly-embrace",
+      "title": "Deadly Embrace",
+      "image": "assets/dein/DEIN05PU.webp",
+      "text": "The arm bones are long and strong and suggest that the arms and wrists could be twisted. Perhaps Deinonychus threw its arms around its prey and then held on as it stabbed with its feet. The three sharp, curved claws on each hand are more evidence for this idea."
+    },
+    {
+      "id": "jaws-that-snap-shut-and-hang-on",
+      "title": "Jaws That Snap Shut and Hang On",
+      "image": "assets/dein/DEIN06PU.webp",
+      "text": "Deinonychus had more than seventy long, sharp, backward-pointing teeth. The muscles that held the jaws shut were especially large. After this dinosaur had disabled its prey with its toe claws, it may have snapped its jaws shut, then hung on until it tore away a mouthful of flesh."
+    },
+    {
+      "id": "high-kicking-back-legs",
+      "title": "High-Kicking Back Legs",
+      "image": "assets/dein/DEIN07PU.webp",
+      "text": "The leg bones and joints, and the scars on the bones where the muscles were attached, show that Deinonychus could kick out strongly as it slashed with the claws on its feet. It probably kicked with one leg, balancing on the other leg with the help of its tail. No modern reptile is so agile."
+    },
+    {
+      "id": "quick-thinking-fast-moving",
+      "title": "Quick-Thinking, Fast-Moving",
+      "image": "assets/dein/DEIN08PU.webp",
+      "text": "The remains of Deinonychus, discovered in the 1960s in the badlands of Montana, show that this dinosaur was built for speed and quick, attacking movements. Some scientists believe that Deinonychus must have been warm-blooded to keep up its high level of activity."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Tarbosaurus",
+      "to": "tarb"
+    },
+    {
+      "label": "Troodon",
+      "to": "troo"
+    },
+    {
+      "label": "A Tale of Tails",
+      "to": "tale"
+    },
+    {
+      "label": "Dinosaur Defense",
+      "to": "ddef"
+    },
+    {
+      "label": "Important Dinosaur Sites",
+      "to": "site"
+    },
+    {
+      "label": "How to Recognize Theropods",
+      "to": "hthr"
+    },
+    {
+      "label": "Teeth of Meat-eaters",
+      "to": "mete"
+    },
+    {
+      "label": "Claws",
+      "to": "claw"
+    },
+    {
+      "label": "Coelophysis",
+      "to": "coel"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/dein/DEIN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Jaws that snap shut and hang on",
+            "to": "jaws-that-snap-shut-and-hang-on",
+            "x": 63,
+            "y": 24,
+            "w": 28,
+            "h": 9
+          },
+          {
+            "label": "In pursuit of prey",
+            "to": "in-pursuit-of-prey",
+            "x": 62,
+            "y": 36,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "A stiff tail for steering",
+            "to": "a-stiff-tail-for-steering",
+            "x": 1,
+            "y": 45,
+            "w": 29,
+            "h": 5
+          },
+          {
+            "label": "Giant-killers",
+            "to": "giant-killers",
+            "x": 1,
+            "y": 55,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "High-kicking back legs",
+            "to": "high-kicking-back-legs",
+            "x": 1,
+            "y": 66,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Deadly embrace",
+            "to": "deadly-embrace",
+            "x": 58,
+            "y": 55,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Claws that could kill",
+            "to": "claws-that-could-kill",
+            "x": 53,
+            "y": 65,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Quick-thinking, fast-moving",
+            "to": "quick-thinking-fast-moving",
+            "x": 24,
+            "y": 76,
+            "w": 37,
+            "h": 5
+          }
+        ]
+      },
+      "in-pursuit-of-prey": {
+        "image": "assets/dein/DEIN01PU.webp",
+        "back": "main"
+      },
+      "a-stiff-tail-for-steering": {
+        "image": "assets/dein/DEIN02PU.webp",
+        "back": "main"
+      },
+      "claws-that-could-kill": {
+        "image": "assets/dein/DEIN03PU.webp",
+        "back": "main"
+      },
+      "giant-killers": {
+        "image": "assets/dein/DEIN04PU.webp",
+        "back": "main"
+      },
+      "deadly-embrace": {
+        "image": "assets/dein/DEIN05PU.webp",
+        "back": "main"
+      },
+      "jaws-that-snap-shut-and-hang-on": {
+        "image": "assets/dein/DEIN06PU.webp",
+        "back": "main"
+      },
+      "high-kicking-back-legs": {
+        "image": "assets/dein/DEIN07PU.webp",
+        "back": "main"
+      },
+      "quick-thinking-fast-moving": {
+        "image": "assets/dein/DEIN08PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/dein/DEIN50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/dein/DEIN00AP.mp3"
+}

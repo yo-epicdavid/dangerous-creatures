@@ -1,0 +1,236 @@
+{
+  "id": "rsea",
+  "code": "RSEA",
+  "name": "Reptiles of the Sea",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Ancient sea reptiles ruled the oceans while dinosaurs ruled the land.",
+  "hero": {
+    "image": "assets/rsea/RSEA00AA.webp",
+    "alt": "Reptiles of the Sea"
+  },
+  "intro": "During the Age of Dinosaurs, many large reptiles chose life at sea. Marine reptiles like ichthyosaurs, plesiosaurs, pliosaurs, and sea turtles were some of the largest and fiercest animals of the seas. Like land-dwelling dinosaurs, these creatures breathed air, which meant they had to come to the surface to fill their lungs. Then they would dive down into the water to feed on fish and other sea animals. Nearly all of these sea creatures mysteriously became extinct 65 million years ago along with their land-dwelling relatives, the dinosaurs.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "in-the-depths",
+      "title": "In the Depths",
+      "image": "assets/rsea/RSEA01PU.webp",
+      "text": "Liopleurodon had a short neck and probably lived in deeper water than its long-necked relatives. This creature had dagger-like teeth four inches long and fed on turtles and shellfish. Liopleurodon measured up to forty feet long.",
+      "captions": [
+        {
+          "label": "Presumed dead",
+          "text": "Reports of the coelacanth's extinction were apparently greatly exaggerated! Scientists thought the sea animal vanished during the Cretaceous period, but in 1938 and again in 1952, specimens of the fish were caught off the coast of South Africa. Other coelacanths have since been photographed in the deep waters off the coast of Madagascar."
+        }
+      ]
+    },
+    {
+      "id": "mollusks",
+      "title": "Mollusks",
+      "image": "assets/rsea/RSEA02PU.webp",
+      "text": "Ancient mollusks like ammonites were plentiful in ancient times. Some ammonites grew more than six feet in diameter! Like a modern chambered nautilus, ammonites had coiled shells that were divided into a series of chambers. Only the chamber near the opening was occupied by the animal. Other chambers were filled with liquid and gas, which could be moved through a canal. By changing the proportions of liquid and gas, the animal could control whether it floated higher or sank lower in the water."
+    },
+    {
+      "id": "dolphin-look-alike",
+      "title": "Dolphin Look-Alike",
+      "image": "assets/rsea/RSEA03PU.webp",
+      "text": "Although Ichthyosaurus is classified as a reptile, it shares many similarities with a modern-day mammal, the dolphin. Like the dolphin, Ichthyosaurus had a sleek body, paddle-like flippers, a dorsal fin, and had to surface to breathe air. Instead of laying eggs like its reptile cousins, Ichthyosaurus may have given birth to live young, just as mammals do today.",
+      "captions": [
+        {
+          "label": "Dolphin task force",
+          "text": "Today's dolphins have been found to be very intelligent. With training, they can perform difficult tasks and even \"speak\" to their trainers. Do you think Ichthyosaurus sent messages to its underwater friends?"
+        }
+      ]
+    },
+    {
+      "id": "the-longest-lizard",
+      "title": "The Longest Lizard",
+      "image": "assets/rsea/RSEA04PU.webp",
+      "text": "At thirty feet in length, Mosasaurus was the longest lizard ever! With its huge mouth it could devour almost anything it could catch. Fossils of punctured ammonite shells show that the mollusk was probably a staple of Mosasaurus's diet.",
+      "captions": [
+        {
+          "label": "Short-lived but successful",
+          "text": "Mosasaurs, the group of lizards that take their name from Mosasaurus, are considered to be an offshoot of the group to which today's monitor lizards belong. Mosasaurs lived only during the Late Cretaceous period, dying out at the same time as the dinosaurs. Several mosasaur remains have been found in Kansas."
+        }
+      ]
+    },
+    {
+      "id": "pebbles-for-breakfast",
+      "title": "Pebbles for Breakfast",
+      "image": "assets/rsea/RSEA05PU.webp",
+      "text": "Plesiosaurs like Muraenosaurus floated easily in the sea because of their air-filled lungs. But diving was not so easy. They needed more weight to stay under water, so they swallowed pebbles, just as crocodiles do today.",
+      "captions": [
+        {
+          "label": "Laying eggs on land",
+          "text": "Although swimming reptiles spent most of their lives at sea, they probably had to return to land to lay their eggs. Most reptiles hatch from eggs."
+        }
+      ]
+    },
+    {
+      "id": "paddle-power",
+      "title": "Paddle Power",
+      "image": "assets/rsea/RSEA07PU.webp",
+      "text": "Plesiosaurs and pliosaurs had four powerful paddles that they used in combination with their tails to propel themselves swiftly through the water.",
+      "captions": [
+        {
+          "label": "Holding its breath",
+          "text": "Like all of the swimming reptiles, the pliosaur Macroplata breathed air, which meant that it had to come to the surface whenever it needed to take a breath."
+        },
+        {
+          "label": "Snake neck",
+          "text": "Elasmosaurus was the longest plesiosaur in the sea, with its neck that accounted for half of its forty-three-foot length. With its small, snake-like head, it darted after fish near the surface, catching them in its sharp teeth."
+        }
+      ]
+    },
+    {
+      "id": "the-oldest-reptiles",
+      "title": "The Oldest Reptiles",
+      "image": "assets/rsea/RSEA08PU.webp",
+      "text": "Turtles are the oldest surviving reptiles. They appeared about 220 million years ago. Archelon was a gigantic ancient turtle, measuring almost fourteen feet long, that lived near the end of the reign of dinosaurs. It may have used its hooked beak to snag jellyfish and crush shellfish.",
+      "captions": [
+        {
+          "label": "Modern giants",
+          "text": "The leatherback turtle is the biggest turtle alive today. A single leatherback can weigh a ton! Like Archelon, leatherback turtles feed on jellyfish."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Reptiles of the Air",
+      "to": "rair"
+    },
+    {
+      "label": "Living Fossils",
+      "to": "ddec"
+    },
+    {
+      "label": "Ammonite",
+      "to": "ammo"
+    },
+    {
+      "label": "Macroplata",
+      "to": "macr"
+    },
+    {
+      "label": "Mosasaurus",
+      "to": "mosa"
+    },
+    {
+      "label": "Muraenosaurus"
+    },
+    {
+      "label": "Long Necks",
+      "to": "long"
+    },
+    {
+      "label": "Archelon",
+      "to": "arcn"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/rsea/RSEA00AA.webp",
+        "hotspots": [
+          {
+            "label": "The oldest reptiles",
+            "to": "the-oldest-reptiles",
+            "x": 55,
+            "y": 14,
+            "w": 28,
+            "h": 7
+          },
+          {
+            "label": "The longest lizard",
+            "to": "the-longest-lizard",
+            "x": 57,
+            "y": 26,
+            "w": 27,
+            "h": 7
+          },
+          {
+            "label": "Dolphin look-alike",
+            "to": "dolphin-look-alike",
+            "x": 47,
+            "y": 54,
+            "w": 27,
+            "h": 7
+          },
+          {
+            "label": "In the depths",
+            "to": "in-the-depths",
+            "x": 36,
+            "y": 67,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Pebbles for breakfast",
+            "to": "pebbles-for-breakfast",
+            "x": 3,
+            "y": 52,
+            "w": 27,
+            "h": 7
+          },
+          {
+            "label": "Paddle power",
+            "to": "paddle-power",
+            "x": 3,
+            "y": 65,
+            "w": 20,
+            "h": 7
+          },
+          {
+            "label": "Mollusks",
+            "to": "mollusks",
+            "x": 3,
+            "y": 78,
+            "w": 15,
+            "h": 7
+          }
+        ]
+      },
+      "in-the-depths": {
+        "image": "assets/rsea/RSEA01PU.webp",
+        "back": "main"
+      },
+      "mollusks": {
+        "image": "assets/rsea/RSEA02PU.webp",
+        "back": "main"
+      },
+      "dolphin-look-alike": {
+        "image": "assets/rsea/RSEA03PU.webp",
+        "back": "main"
+      },
+      "the-longest-lizard": {
+        "image": "assets/rsea/RSEA04PU.webp",
+        "back": "main"
+      },
+      "pebbles-for-breakfast": {
+        "image": "assets/rsea/RSEA05PU.webp",
+        "back": "main"
+      },
+      "paddle-power": {
+        "image": "assets/rsea/RSEA07PU.webp",
+        "back": "main"
+      },
+      "the-oldest-reptiles": {
+        "image": "assets/rsea/RSEA08PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/rsea/RSEA00AP.mp3",
+  "narration": "assets/rsea/RSEA00SA.mp3"
+}

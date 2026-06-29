@@ -1,0 +1,135 @@
+{
+  "id": "baro",
+  "code": "BARO",
+  "name": "Barosaurus",
+  "category": "dinosaur",
+  "scientificName": "Barosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "bar-oh-SOR-us",
+  "meaning": "Heavy lizard",
+  "period": "Late Jurassic",
+  "diet": "Herbivore",
+  "tagline": "A gentle giant with a 30-foot neck that could reach the very tops of the tallest trees!",
+  "hero": {
+    "image": "assets/baro/BARO00AA.webp",
+    "alt": "Barosaurus"
+  },
+  "intro": "Imagine having a neck thirty feet long!  Barosaurus could stretch its neck to eat leaves from the tops of trees, giving it an advantage over shorter dinosaurs.  To reach even higher, this giant sauropod may have stood up on its hind legs, using its long whip-like tail for additional support and balance.  Barosaurus weighed more than eight elephants, and needed to eat tremendous amounts of greenery every day to satisfy its huge appetite.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Africa, North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Heavy lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Lizard-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Sauropod"
+    },
+    {
+      "label": "Length",
+      "value": "27m (90ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "on-display",
+      "title": "On Display",
+      "image": "assets/baro/BARO01PU.webp",
+      "text": "The American Museum of Natural History in New York has this spectacular display, which shows a mother Barosaurus rearing up to defend her baby from an attacking Allosaurus.",
+      "captions": [
+        {
+          "label": "Looking for lunch",
+          "text": "Allosaurus was a large meat-eating dinosaur that preyed or scavenged on plant-eaters such as Barosaurus."
+        },
+        {
+          "label": "Protecting the baby",
+          "text": "The young Barosaurus might have hid between its mother's legs and her sweeping, whip-like tail."
+        }
+      ]
+    },
+    {
+      "id": "two-types-of-dinos",
+      "title": "Two Types of Dinos",
+      "image": "assets/baro/BARO02PU.webp",
+      "text": "Dinosaurs are divided into two large groups by the shape and position of their hip bones.  This is the most important criteria for classifying dinosaurs.  Barosaurus is a lizard-hipped dinosaur.",
+      "captions": [
+        {
+          "label": "Bird-hipped",
+          "text": "Ornithischians or \"bird-hipped\" dinosaurs had two lower pelvic bones that pointed backward and down, just like the bone structure found in birds today.  All bird-hipped dinosaurs were plant-eaters."
+        },
+        {
+          "label": "Lizard-hipped",
+          "text": "Saurischians or \"lizard-hipped\" dinosaurs had one of the two lower pelvic bones pointing forward and one pointing backward, a structure characteristic of modern lizards.  The lizard-hipped group includes both plant-eating and meat-eating dinosaurs."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Long Necks",
+      "to": "long"
+    },
+    {
+      "label": "Museums of North America",
+      "to": "muse"
+    },
+    {
+      "label": "How to Recognize Sauropods",
+      "to": "hsau"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/baro/BARO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Two types of dinos",
+            "to": "two-types-of-dinos",
+            "x": 63,
+            "y": 51,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "On display",
+            "to": "on-display",
+            "x": 18,
+            "y": 63,
+            "w": 13,
+            "h": 5
+          }
+        ]
+      },
+      "on-display": {
+        "image": "assets/baro/BARO01PU.webp",
+        "back": "main"
+      },
+      "two-types-of-dinos": {
+        "image": "assets/baro/BARO02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/baro/BARO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/baro/BARO00AP.mp3"
+}

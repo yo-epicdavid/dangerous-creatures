@@ -5,11 +5,11 @@
   "category": "creature",
   "scientificName": "Ammonoidea",
   "needsScientificVerify": false,
-  "pronunciation": "AM-uh-nite",
+  "pronunciation": "AM-uh-nyte",
   "meaning": "Horn of Ammon",
-  "period": "Devonian",
+  "period": "Devonian - Cretaceous",
   "diet": "Carnivore",
-  "tagline": "Ammonites came in all sizes -- some were as big as oars!",
+  "tagline": "Jet-propelled shell masters that hunted prehistoric seas — and ended up hunted themselves!",
   "hero": {
     "image": "assets/ammo/AMMO00AA.webp",
     "alt": "Ammonite"
@@ -117,25 +117,8 @@
   ],
   "crosslinks": [
     {
-      "label": "Life Before Dinosaurs"
-    },
-    {
-      "label": "The Making of a Fossil"
-    },
-    {
-      "label": "Trilobite"
-    },
-    {
-      "label": "What You Need to Find a Fossil"
-    },
-    {
-      "label": "Dinosaur Descendants"
-    },
-    {
-      "label": "Birth and Growth"
-    },
-    {
-      "label": "Reptiles of the Sea"
+      "label": "Life Before Dinosaurs",
+      "to": "befr"
     }
   ],
   "classic": {
@@ -148,49 +131,49 @@
             "label": "Ocean jewels",
             "to": "ocean-jewels",
             "x": 63,
-            "y": 20,
-            "w": 19,
-            "h": 6
+            "y": 18,
+            "w": 18,
+            "h": 7
           },
           {
             "label": "Unlikely couples",
             "to": "unlikely-couples",
-            "x": 30,
-            "y": 48,
-            "w": 20,
-            "h": 6
+            "x": 38,
+            "y": 33,
+            "w": 18,
+            "h": 7
           },
           {
             "label": "Inside the shell",
             "to": "inside-the-shell",
-            "x": 61,
-            "y": 54,
+            "x": 63,
+            "y": 42,
             "w": 18,
-            "h": 6
+            "h": 7
           },
           {
             "label": "Shells of all sizes",
             "to": "shells-of-all-sizes",
-            "x": 17,
-            "y": 55,
-            "w": 21,
-            "h": 6
-          },
-          {
-            "label": "Ammonite legacy",
-            "to": "ammonite-legacy",
-            "x": 9,
-            "y": 80,
-            "w": 19,
-            "h": 6
+            "x": 20,
+            "y": 42,
+            "w": 22,
+            "h": 7
           },
           {
             "label": "Both predator and prey",
             "to": "both-predator-and-prey",
-            "x": 54,
-            "y": 77,
-            "w": 24,
-            "h": 6
+            "x": 55,
+            "y": 70,
+            "w": 26,
+            "h": 7
+          },
+          {
+            "label": "Ammonite legacy",
+            "to": "ammonite-legacy",
+            "x": 14,
+            "y": 70,
+            "w": 22,
+            "h": 7
           }
         ]
       },

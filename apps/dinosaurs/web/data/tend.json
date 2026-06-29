@@ -1,0 +1,167 @@
+{
+  "id": "tend",
+  "code": "TEND",
+  "name": "The Tendaguru Expedition",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "ten-duh-GOO-roo",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "One of history's greatest dinosaur digs uncovered giants that shook the prehistoric world.",
+  "hero": {
+    "image": "assets/tend/TEND00AA.webp",
+    "alt": "The Tendaguru Expedition"
+  },
+  "intro": "One of the biggest dinosaur excavations took place in Africa between 1909 and 1912. In Tendaguru, Tanzania, more than 250 tons of dinosaur bones were collected. Getting the bones out of the remote location was a difficult challenge: all the bones had to be carried by the workers nearly forty miles to the nearest port, from which they were shipped to Germany. More than 5,000 trips were made from the site to the port, but the time and expense was worth it. The expedition unearthed many new dinosaurs, including Barosaurus, Kentrosaurus, and the giant Brachiosaurus.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Tendaguru, Tanzania"
+    },
+    {
+      "label": "Years",
+      "value": "1909–1912"
+    },
+    {
+      "label": "Bones collected",
+      "value": "More than 250 tons"
+    },
+    {
+      "label": "Trips to port",
+      "value": "More than 5,000"
+    },
+    {
+      "label": "Distance to port",
+      "value": "Nearly forty miles"
+    },
+    {
+      "label": "Dinosaurs found",
+      "value": "Barosaurus, Kentrosaurus, Brachiosaurus"
+    }
+  ],
+  "topics": [
+    {
+      "id": "dinosaur-variety-pack",
+      "title": "Dinosaur Variety Pack",
+      "image": "assets/tend/TEND01PU.webp",
+      "text": "The Tanzanian expedition unearthed a wide variety of dinosaurs, adding to the excitement of the dinosaur rush around the world.",
+      "captions": [
+        {
+          "label": "Brachiosaurus",
+          "text": "The most spectacular find of the Tendaguru expedition was Brachiosaurus, which proved to be the largest reasonably complete dinosaur found to date."
+        },
+        {
+          "label": "Kentrosaurus",
+          "text": "This stegosaur has been found only at Tendaguru. It is unique among stegosaurs for having spikes above its hind legs and running down its back."
+        },
+        {
+          "label": "Barosaurus",
+          "text": "Like Brachiosaurus, this smaller sauropod was excavated in the Tanzanian dig. Although it was not as tall or heavy as Brachiosaurus, Barosaurus measured more than seventy-five feet long!"
+        }
+      ]
+    },
+    {
+      "id": "difficult-discoveries",
+      "title": "Difficult Discoveries",
+      "image": "assets/tend/TEND02PU.webp",
+      "text": "Digging for dinosaurs at Tendaguru was hard work. The site was in the remote jungle, far from civilization and machinery.",
+      "captions": [
+        {
+          "label": "Primitive paleontology",
+          "text": "This photograph of the site shows the primitive conditions under which the crew worked. This particular area yielded a Brachiosaurus skeleton."
+        },
+        {
+          "label": "Spectacular skeleton",
+          "text": "When this Brachiosaurus skeleton was assembled from the bones unearthed at Tendaguru, it proved to be even larger than the North American Diplodocus, which up to then held the world record for the biggest dinosaur."
+        }
+      ]
+    },
+    {
+      "id": "assembling-the-crew",
+      "title": "Assembling the Crew",
+      "image": "assets/tend/TEND03PU.webp",
+      "text": "The Tendaguru expedition was initiated and managed by German paleontologists, but Africans were hired to do all the heavy work.",
+      "captions": [
+        {
+          "label": "Crew photograph",
+          "text": "Shown here behind a giant dinosaur thigh bone is the leader of the expedition, Werner Janensch, and part of the work crew."
+        },
+        {
+          "label": "Bearing the bones",
+          "text": "A fossil dinosaur bone is very heavy—after all, it's solid rock! Each large bone required several African bearers to carry it."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Important Dinosaur Sites",
+      "to": "site"
+    },
+    {
+      "label": "Barosaurus",
+      "to": "baro"
+    },
+    {
+      "label": "The Biggest Dinosaurs",
+      "to": "tall"
+    },
+    {
+      "label": "Digging up Dinosaurs",
+      "to": "digg"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/tend/TEND00AA.webp",
+        "hotspots": [
+          {
+            "label": "Assembling the crew",
+            "to": "assembling-the-crew",
+            "x": 59,
+            "y": 67,
+            "w": 31,
+            "h": 6
+          },
+          {
+            "label": "Dinosaur variety pack",
+            "to": "dinosaur-variety-pack",
+            "x": 57,
+            "y": 76,
+            "w": 33,
+            "h": 6
+          },
+          {
+            "label": "Difficult discoveries",
+            "to": "difficult-discoveries",
+            "x": 59,
+            "y": 85,
+            "w": 31,
+            "h": 6
+          }
+        ]
+      },
+      "dinosaur-variety-pack": {
+        "image": "assets/tend/TEND01PU.webp",
+        "back": "main"
+      },
+      "difficult-discoveries": {
+        "image": "assets/tend/TEND02PU.webp",
+        "back": "main"
+      },
+      "assembling-the-crew": {
+        "image": "assets/tend/TEND03PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/tend/TEND00AP.mp3"
+}

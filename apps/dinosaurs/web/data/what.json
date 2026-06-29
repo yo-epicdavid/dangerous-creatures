@@ -1,0 +1,304 @@
+{
+  "id": "what",
+  "code": "WHAT",
+  "name": "What Is a Dinosaur?",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "terrible lizards",
+  "period": "",
+  "diet": "",
+  "tagline": "Not every prehistoric reptile was a dinosaur — find out what truly sets them apart.",
+  "hero": {
+    "image": "assets/what/WHAT00AA.webp",
+    "alt": "What Is a Dinosaur?"
+  },
+  "intro": "Dinosaurs were amazing creatures that lived during the Mesozoic era, from the Early Triassic period (235 million years ago) to the end of the Cretaceous period (65 million years ago). But many other prehistoric animals walked the Earth at the same time as dinosaurs. What makes a dinosaur different from a pterosaur, an ancient lizard, or a prehistoric mammal? Several characteristics separate dinosaurs from other ancient animals. Dinosaurs have long been grouped with reptiles, like the iguana pictured here. But unlike reptiles, dinosaurs' legs were tucked under their bodies to support their weight. They walked upright, not in a sprawling manner like this lizard. Also, dinosaurs lived on land, and did not soar through the sky or swim through the depths of the oceans.",
+  "facts": [
+    {
+      "label": "Era",
+      "value": "Mesozoic"
+    },
+    {
+      "label": "Span",
+      "value": "235 to 65 million years ago"
+    },
+    {
+      "label": "Name meaning",
+      "value": "terrible lizards"
+    },
+    {
+      "label": "Survived",
+      "value": "more than 160 million years"
+    }
+  ],
+  "topics": [
+    {
+      "id": "terrible-lizards",
+      "title": "Terrible Lizards",
+      "image": "assets/what/WHAT01PU.webp",
+      "text": "Dinosaurs were first identified as a group in the early 1800s.  In 1820 in England, Gideon and Mary Ann Mantell found some large teeth.  They speculated that the teeth once belonged to an enormous reptile, which they called Iguanodon.  At this time, no one had ever imagined the earth was once ruled by these giant beasts.",
+      "captions": [
+        {
+          "label": "Finally named",
+          "text": "Several more remains of giant reptiles were discovered soon afterward, and in 1842, an eminent scientist named Sir Richard Owen declared that the giant reptiles should be called \"dinosaurs,\" which means \"terrible lizards.\""
+        }
+      ]
+    },
+    {
+      "id": "not-necessarily-giants",
+      "title": "Not Necessarily Giants",
+      "image": "assets/what/WHAT02PU.webp",
+      "text": "Although many of the dinosaurs were giants, huge size is not necessarily a characteristic of dinosaurs.  Dinosaurs ranged in size from tiny Mussaurus, only about ten inches long from its nose to the tip of its tail, to gigantic Diplodocus, which was eighty-seven feet long.",
+      "captions": [
+        {
+          "label": "Longest dinosaur",
+          "text": "Although Diplodocus was the longest of the dinosaurs, it was only one-fourth the weight of the giant Brachiosaurus."
+        },
+        {
+          "label": "A speedy runner",
+          "text": "Compsognathus may have been small, but it was swift.  It would chase down insects and lizards for dinner."
+        }
+      ]
+    },
+    {
+      "id": "two-hip-groups",
+      "title": "Two Hip Groups",
+      "image": "assets/what/WHAT03PU.webp",
+      "text": "Dinosaurs fall into two main groups, according to the structure of their hip bones.  The saurischian, or \"lizard-hipped\" dinosaurs, had hips in which the two lower bones pointed in opposite directions, like those in lizards.  The meat-eating theropod dinosaurs like Tyrannosaurus rex and the giant plant-eaters like Brachiosaurus are \"lizard-hipped.\"  The ornithischian, or \"bird-hipped\" dinosaurs, had two lower hip bones lying together behind the back legs, like those in birds.  Duckbilled dinosaurs and iguanodonts are two of the kinds of \"bird-hipped\" dinosaurs."
+    },
+    {
+      "id": "living-dinosaur",
+      "title": "Living Dinosaur?",
+      "image": "assets/what/WHAT04PU.webp",
+      "text": "The tuatara, a rare reptile from New Zealand, is not a dinosaur, but is the only living member of a group of reptiles that lived during the Age of Dinosaurs.  No one really knows why this lizard has survived.  Its closest relatives died out millions of years ago."
+    },
+    {
+      "id": "from-a-sprawl-to-walking-tall",
+      "title": "From a Sprawl to Walking Tall",
+      "image": "assets/what/WHAT05PU.webp",
+      "text": "One way in which dinosaurs differed from other reptiles was that their legs were held straight under their bodies instead of sprawling out sideways.  This change probably took place very slowly, in stages.",
+      "captions": [
+        {
+          "label": "Lizards",
+          "text": "Then, as now, lizards waddled along on bent, sprawling legs."
+        },
+        {
+          "label": "Primitive archosaurs",
+          "text": "These dinosaur forerunners had legs that were less bent and held more under the body."
+        },
+        {
+          "label": "Dinosaurs",
+          "text": "All dinosaurs, whether they walked on two legs or four, had legs that were tucked well under the body."
+        }
+      ]
+    },
+    {
+      "id": "not-of-the-air-nor-of-the-sea",
+      "title": "Not of the Air nor of the Sea",
+      "image": "assets/what/WHAT06PU.webp",
+      "text": "Dinosaurs were land-dwellers.  Pterosaurs—the flying lizards—and pliosaurs, plesiosaurs, mosasaurs, and ichthyosaurs—marine lizards—were all groups of prehistoric reptiles, but they were not dinosaurs.",
+      "captions": [
+        {
+          "label": "Pteranodon",
+          "text": "While the dinosaurs ruled the land, Pteranodon and other pterosaurs were the reptile guardians of the skies.  This Pteranodon probably flew over the seas, using its long toothless beak to catch fish for dinner."
+        },
+        {
+          "label": "Survivor",
+          "text": "This long-necked plesiosaur, Elasmosaurus, fits the description of the famed sea creature, the Loch Ness monster.  Some think Elasmosaurus has survived the centuries and still swims the modern seas."
+        }
+      ]
+    },
+    {
+      "id": "the-age-of-dinosaurs",
+      "title": "The Age of Dinosaurs",
+      "image": "assets/what/WHAT07PU.webp",
+      "text": "Dinosaurs lived only during the Mesozoic era—the Triassic, Jurassic, and Cretaceous time periods.  But don't be misled into thinking they existed only briefly on Earth.  Dinosaurs lived for more than 160 million years.  Humans, on the other hand, have been around for only one to two million years.  Will our kind survive as long as the dinosaurs did?",
+      "captions": [
+        {
+          "label": "Triassic Period",
+          "text": "245 to 208 million years ago"
+        },
+        {
+          "label": "Jurassic Period",
+          "text": "208 to 145 million years ago"
+        },
+        {
+          "label": "Cretaceous Period",
+          "text": "145 to 65 million years ago"
+        }
+      ]
+    },
+    {
+      "id": "scales-and-claws-in-common",
+      "title": "Scales and Claws in Common",
+      "image": "assets/what/WHAT08PU.webp",
+      "text": "One of the earliest dinosaurs to be discovered was named after an iguana.  Indeed, the lizards of today have several characteristics similar to those of the dinosaurs, such as skin texture, spines and ridges on their backs, and sharp claws.",
+      "captions": [
+        {
+          "label": "Flashy character",
+          "text": "Like this iguana, the dinosaurs may have been brightly colored."
+        },
+        {
+          "label": "Fishing tackle",
+          "text": "This sharp claw once belonged to Baryonyx.  Because we know that Baryonyx fed on fish, this claw may have been used like a harpoon to spear its dinner."
+        },
+        {
+          "label": "Diplodocus scales",
+          "text": "This fossil shows that Diplodocus had scales packed tightly together.  Like modern reptiles, these scales had flexible edges where they touched, acting like hinges to allow easy movement."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Warm-blooded or Cold-blooded?",
+      "to": "warm"
+    },
+    {
+      "label": "Early Dinosaur Detectives",
+      "to": "edet"
+    },
+    {
+      "label": "Diplodocus",
+      "to": "dipl"
+    },
+    {
+      "label": "Birds and Dinosaurs",
+      "to": "bird"
+    },
+    {
+      "label": "Living Fossils",
+      "to": "ddec"
+    },
+    {
+      "label": "Moschops",
+      "to": "mosc"
+    },
+    {
+      "label": "Cearadactylus",
+      "to": "cdac"
+    },
+    {
+      "label": "Marching to Extinction",
+      "to": "extt"
+    },
+    {
+      "label": "Claws",
+      "to": "claw"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/what/WHAT00AA.webp",
+        "hotspots": [
+          {
+            "label": "From a sprawl to walking tall",
+            "to": "from-a-sprawl-to-walking-tall",
+            "x": 2,
+            "y": 43,
+            "w": 31,
+            "h": 4
+          },
+          {
+            "label": "Not necessarily giants",
+            "to": "not-necessarily-giants",
+            "x": 2,
+            "y": 49,
+            "w": 26,
+            "h": 4
+          },
+          {
+            "label": "Scales and claws in common",
+            "to": "scales-and-claws-in-common",
+            "x": 2,
+            "y": 55,
+            "w": 29,
+            "h": 4
+          },
+          {
+            "label": "The Age of Dinosaurs",
+            "to": "the-age-of-dinosaurs",
+            "x": 2,
+            "y": 64,
+            "w": 25,
+            "h": 4
+          },
+          {
+            "label": "Terrible lizards",
+            "to": "terrible-lizards",
+            "x": 43,
+            "y": 52,
+            "w": 18,
+            "h": 4
+          },
+          {
+            "label": "Living dinosaur?",
+            "to": "living-dinosaur",
+            "x": 39,
+            "y": 65,
+            "w": 19,
+            "h": 4
+          },
+          {
+            "label": "Not of the air nor of the sea",
+            "to": "not-of-the-air-nor-of-the-sea",
+            "x": 67,
+            "y": 37,
+            "w": 31,
+            "h": 4
+          },
+          {
+            "label": "Two hip groups",
+            "to": "two-hip-groups",
+            "x": 68,
+            "y": 49,
+            "w": 18,
+            "h": 4
+          }
+        ]
+      },
+      "terrible-lizards": {
+        "image": "assets/what/WHAT01PU.webp",
+        "back": "main"
+      },
+      "not-necessarily-giants": {
+        "image": "assets/what/WHAT02PU.webp",
+        "back": "main"
+      },
+      "two-hip-groups": {
+        "image": "assets/what/WHAT03PU.webp",
+        "back": "main"
+      },
+      "living-dinosaur": {
+        "image": "assets/what/WHAT04PU.webp",
+        "back": "main"
+      },
+      "from-a-sprawl-to-walking-tall": {
+        "image": "assets/what/WHAT05PU.webp",
+        "back": "main"
+      },
+      "not-of-the-air-nor-of-the-sea": {
+        "image": "assets/what/WHAT06PU.webp",
+        "back": "main"
+      },
+      "the-age-of-dinosaurs": {
+        "image": "assets/what/WHAT07PU.webp",
+        "back": "main"
+      },
+      "scales-and-claws-in-common": {
+        "image": "assets/what/WHAT08PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/what/WHAT00AP.mp3",
+  "narration": "assets/what/WHAT00SA.mp3"
+}

@@ -1,0 +1,149 @@
+{
+  "id": "pach",
+  "code": "PACH",
+  "name": "Pachycephalosaurus",
+  "category": "dinosaur",
+  "scientificName": "Pachycephalosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "pak-ee-SEF-ah-low-SOR-us",
+  "meaning": "Thick-headed lizard",
+  "period": "Late Cretaceous",
+  "diet": "Herbivore",
+  "tagline": "The bone-domed dinosaur that used its skull like a battering ram!",
+  "hero": {
+    "image": "assets/pach/PACH00AA.webp",
+    "alt": "Pachycephalosaurus"
+  },
+  "intro": "“Boneheads” is the nickname for the family to which this dinosaur belongs. The dome on the top of Pachycephalosaurus’s skull was nearly a foot thick of solid bone, and may have been used in head-butting contests with other dinosaurs.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Thick-headed lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "Bird-hipped"
+    },
+    {
+      "label": "Family",
+      "value": "Ornithopod"
+    },
+    {
+      "label": "Length",
+      "value": "4.8m (15ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "hitting-their-heads-together",
+      "title": "Hitting Their Heads Together",
+      "image": "assets/pach/PACH01PU.webp",
+      "text": "Just as these bighorn sheep use their horns when they bang their heads, Pachycephalosaurus may have used the dome on the top of its head to butt against a rival. These butting contests may have established rights to territory or to a mate.",
+      "captions": [
+        {
+          "label": "Bonehead cousins",
+          "text": "Another dinosaur that engaged in head-banging behavior was Prenocephale. Like a crash helmet, its bony skull protected the animal’s brain from shock during head-banging competition."
+        }
+      ]
+    },
+    {
+      "id": "other-peculiar-heads",
+      "title": "Other Peculiar Heads",
+      "image": "assets/pach/PACH02PU.webp",
+      "text": "Many dinosaurs had heads that look very odd to us today. Pachycephalosaurus is shown here with four hadrosaurs, duckbilled dinosaurs famous for their strangely-shaped heads. Although similar in this respect, Pachycephalosaurus was not a hadrosaur, but instead belongs to a family named in its honor, the pachycephalosaurids."
+    },
+    {
+      "id": "a-head-like-a-helmet",
+      "title": "A Head Like a Helmet",
+      "image": "assets/pach/PACH03PU.webp",
+      "text": "Pachycephalosaurus means “thick-headed reptile.” The skull of this dinosaur was three feet long, and its crown was made of solid bone. If this thick skull wasn’t enough protection, Pachycephalosaurus also had bony spikes on its nose to ward off rivals and predators.",
+      "captions": [
+        {
+          "label": "Cretaceous crashing",
+          "text": "The noise made when pachycephalosaurs butted heads may have sounded like baseball bats being struck against each other!"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaur Provincial Park",
+      "to": "park"
+    },
+    {
+      "label": "Gobi Desert Expeditions",
+      "to": "gobi"
+    },
+    {
+      "label": "Parasaurolophus",
+      "to": "para"
+    },
+    {
+      "label": "Faces from the Past",
+      "to": "ftfb"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/pach/PACH00AA.webp",
+        "hotspots": [
+          {
+            "label": "A head like a helmet",
+            "to": "a-head-like-a-helmet",
+            "x": 88,
+            "y": 29,
+            "w": 12,
+            "h": 8
+          },
+          {
+            "label": "Hitting their heads together",
+            "to": "hitting-their-heads-together",
+            "x": 70,
+            "y": 41,
+            "w": 29,
+            "h": 5
+          },
+          {
+            "label": "Other peculiar heads",
+            "to": "other-peculiar-heads",
+            "x": 51,
+            "y": 63,
+            "w": 23,
+            "h": 5
+          }
+        ]
+      },
+      "hitting-their-heads-together": {
+        "image": "assets/pach/PACH01PU.webp",
+        "back": "main"
+      },
+      "other-peculiar-heads": {
+        "image": "assets/pach/PACH02PU.webp",
+        "back": "main"
+      },
+      "a-head-like-a-helmet": {
+        "image": "assets/pach/PACH03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/pach/PACH50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/pach/PACH00AP.mp3"
+}

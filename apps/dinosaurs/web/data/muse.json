@@ -1,0 +1,412 @@
+{
+  "id": "muse",
+  "code": "MUSE",
+  "name": "Museums of North America",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "myoo-ZEE-umz of NORTH uh-MER-ih-kuh",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Discover where to find real dinosaur bones near you!",
+  "hero": {
+    "image": "assets/muse/MUSE00AA.webp",
+    "alt": "Museums of North America"
+  },
+  "intro": "The dinosaurs are all gone, but you can still see dinosaur fossils and models in museum exhibits around the world. This map shows the museums in Canada and the U.S. that have large collections of dinosaur fossils. However, many museum collections include a few dinosaur displays—be sure to check museums in your area for prehistoric bones or footprints.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "academy-of-natural-sciences",
+      "title": "Academy of Natural Sciences",
+      "image": "assets/muse/MUSE01PU.webp",
+      "text": "Located in Philadelphia, Pennsylvania. On display are Deinonychus, Supersaurus, Avaceratops, Brachyceratops, Tenontosaurus, Corythosaurus and Hadrosaurus.",
+      "captions": [
+        {
+          "label": "Academy expert",
+          "text": "Dr. Joseph Leidy, shown here with a leg bone from Hadrosaurus, was the museum's paleontologist in the mid 1800s. Dr. Leidy was one of the first to propose that some dinosaurs may have walked on two legs."
+        },
+        {
+          "label": "Famous dinosaur artist",
+          "text": "In this illustration, British sculptor Benjamin Waterhouse Hawkins appears in front of the Hadrosaurus skeleton he created for the Academy of Natural Sciences in 1868. This was the world's first free-standing mount of a dinosaur. Hawkins first became known to dinosaur enthusiasts when he collaborated with Sir Richard Owen to create a display of prehistoric creatures for the Crystal Palace in London, England."
+        }
+      ]
+    },
+    {
+      "id": "american-museum-of-natural-history",
+      "title": "American Museum of Natural History",
+      "image": "assets/muse/MUSE02PU.webp",
+      "text": "Located in New York City. This is the world's largest collection of dinosaur fossils, including eggs, tracks, and skin impressions. Its collection includes skeletons of Albertosaurus, Allosaurus, Coelophysis, Ornitholestes, Struthiomimus, Tyrannosaurus rex, Plateosaurus, Apatosaurus, Corythosaurus, Edmontosaurus, Lambeosaurus, Saurolophus and many more.",
+      "captions": [
+        {
+          "label": "Tyrant lizards on display",
+          "text": "Tyrannosaurus rex means \"tyrant lizard king.\" As you can see from this exhibit, the dominant feature of this dinosaur was its massive head and sharp teeth. Any plant-eater would have run when it saw this monster approaching!"
+        },
+        {
+          "label": "Exotic expeditions",
+          "text": "Through the years, the museum has sponsored many expeditions, including those to the Gobi Desert in Mongolia in the 1920s. The explorers found a number of unique dinosaur skeletons, as well as fossilized nests and eggs. Here you can see the expedition's camel caravan."
+        }
+      ]
+    },
+    {
+      "id": "carnegie-museum-of-natural-history",
+      "title": "Carnegie Museum of Natural History",
+      "image": "assets/muse/MUSE03PU.webp",
+      "text": "Located in Pittsburgh, Pennsylvania. Featured are meat-eaters Allosaurus and Tyrannosaurus rex; giant plant-eaters Apatosaurus, Camarasaurus, and Diplodocus; ornithopods Camptosaurus, Corythosaurus and Dryosaurus; plated Stegosaurus, and horned Protoceratops.",
+      "captions": [
+        {
+          "label": "Spectacular skeletons",
+          "text": "There are so many dinosaur skeletons in this hall that it looks like they could reach out and grab you. Watch your step in this place—dinosaurs are everywhere!"
+        },
+        {
+          "label": "Famous fossil hunter",
+          "text": "Many of the exhibits in this museum were excavated by Earl Douglass, shown here with Apatosaurus fossils in the field. Douglass, funded by the museum in the early 1900s, found numerous dinosaur bones in the area now known as Dinosaur National Monument."
+        }
+      ]
+    },
+    {
+      "id": "denver-museum-of-natural-history",
+      "title": "Denver Museum of Natural History",
+      "image": "assets/muse/MUSE04PU.webp",
+      "text": "Located in Denver, Colorado. The collection includes displays of Diplodocus, Stegosaurus, Edmontosaurus, Denversaurus, and Tyrannosaurus rex.",
+      "captions": [
+        {
+          "label": "Model monster",
+          "text": "Even the skeleton of Tyrannosaurus rex looks intimidating. For a view of what the complete dinosaur looked like, you can check the painting on the wall behind."
+        },
+        {
+          "label": "Field work",
+          "text": "Before any dinosaur appears in a museum, its fossils must be excavated in the field. Here is a photograph of a famous discovery in 1916. The bones in the foreground belonged to Diplodocus, one of the largest sauropods. You can see that dinosaur skeletons don't come neatly put together!"
+        }
+      ]
+    },
+    {
+      "id": "dinosaur-national-monument",
+      "title": "Dinosaur National Monument",
+      "image": "assets/muse/MUSE05PU.webp",
+      "text": "Located in Jensen, Utah. Inside the park is a covered Quarry Visitors Center where viewers can see dinosaur bones embedded in layers of Upper Jurassic rock. This site produced skeletons of meat-eaters Allosaurus and Ceratosaurus; sauropods Apatosaurus, Camarasaurus, and Diplodocus; ornithopods Camptosaurus and Dryosaurus; and plated Stegosaurus.",
+      "captions": [
+        {
+          "label": "Tough territory",
+          "text": "Many fossils in Dinosaur National Monument were embedded in hillsides and had to be carried out by horse-drawn wagons."
+        },
+        {
+          "label": "Famous collector and climber",
+          "text": "Earl Douglass, shown here scaling a cliff in the park, found his first dinosaur here in 1909, and spent the next fifteen years digging up dinosaurs in the area."
+        }
+      ]
+    },
+    {
+      "id": "dinosaur-valley-state-park",
+      "title": "Dinosaur Valley State Park",
+      "image": "assets/muse/MUSE06PU.webp",
+      "text": "Located in Glen Rose, Texas. An observant resident noticed huge footprints in the local riverbed. Workers dammed part of the river and removed some prints; others remain where they were found. The footprints belonged to a sauropod dinosaur and a following theropod. The closeness of the right and left tracks serves as proof that dinosaurs walked on upright legs, not sprawled out like lizards."
+    },
+    {
+      "id": "field-museum-of-natural-history",
+      "title": "Field Museum of Natural History",
+      "image": "assets/muse/MUSE07PU.webp",
+      "text": "Located in Chicago, Illinois. Here you can view Albertosaurus, Apatosaurus, Lambeosaurus, Protoceratops, and horned dinosaur skulls.",
+      "captions": [
+        {
+          "label": "In the field",
+          "text": "No dinosaur skeleton ever walked on its own into a museum. All the bones start out all mixed up and buried in rock formations. This worker is shown next to a Brachiosaurus thigh bone. Imagine lifting a fossil this big!"
+        },
+        {
+          "label": "\"Illinois Jones\"",
+          "text": "Paul Sereno has been in the spotlight several times for his incredible discoveries of dinosaurs. Most recently, Sereno made the front pages of newspapers around the world for his discovery of one of the most primitive dinosaurs known, Eoraptor. Sereno is a paleontologist at the University of Chicago."
+        }
+      ]
+    },
+    {
+      "id": "earth-sciences-museum",
+      "title": "Earth Sciences Museum",
+      "image": "assets/muse/MUSE08PU.webp",
+      "text": "Located in Brigham Young University, Provo, Utah. On display are remains of Supersaurus and Ultrasauros, plus complete skeletons of Allosaurus and Camptosaurus.",
+      "captions": [
+        {
+          "label": "One of the biggest yet",
+          "text": "Here Dr. James Jensen is shown with the leg bones of Ultrasauros, a sauropod whose fossils Jensen discovered. Imagine how huge the complete dinosaur was!"
+        },
+        {
+          "label": "Upper shoulder bone",
+          "text": "This is only a shoulder bone from a giant sauropod named Supersaurus. Paleontologist James Jensen, who found the fossils of the dinosaur, appears beside it."
+        }
+      ]
+    },
+    {
+      "id": "museum-of-the-rockies",
+      "title": "Museum of the Rockies",
+      "image": "assets/muse/MUSE09PU.webp",
+      "text": "Located in Bozeman, Montana. Displays include nest-building Maiasaura and meat-eater Tyrannosaurus rex.",
+      "captions": [
+        {
+          "label": "Resident expert",
+          "text": "Paleontologist Jack Horner, renown for his studies of dinosaur eggs and nests, is the paleontology curator of the museum."
+        },
+        {
+          "label": "Eggy evidence",
+          "text": "Dinosaur eggs found in Montana actually contained fossilized dinosaur embryos! This model shows what they looked like."
+        },
+        {
+          "label": "Mother and baby Maiasaura",
+          "text": "This dinosaur was named \"good mother lizard\" because fossils indicate that the adults may have cared for the babies instead of abandoning them."
+        },
+        {
+          "label": "Building the beasts",
+          "text": "Here, a worker reconstructs a dinosaur while an audience looks on."
+        }
+      ]
+    },
+    {
+      "id": "national-museum-of-natural-history",
+      "title": "National Museum of Natural History",
+      "image": "assets/muse/MUSE10PU.webp",
+      "text": "Located in the Smithsonian Institution in Washington, D.C. The museum houses a significant collection of the theropods Albertosaurus, Allosaurus, Ceratosaurus, and the skull of Tyrannosaurus rex. Also on display are sauropods Camarasaurus and Diplodocus; ornithopods Camptosaurus, Corythosaurus, Edmontosaurus, Heterodontosaurus, Maiasaura, and Thescelosaurus; horned Brachyceratops, Monoclonius, and Triceratops; and plated Stegosaurus."
+    },
+    {
+      "id": "peabody-museum-of-natural-history",
+      "title": "Peabody Museum of Natural History",
+      "image": "assets/muse/MUSE11PU.webp",
+      "text": "Located at Yale University in New Haven, Connecticut. Many of the first North American dinosaur skeletons found are featured, including Deinonychus, Apatosaurus, Carnarasaurus, Tenontosaurus, Camptosaurus, Claosaurus, Edmontosaurus, Monoclonius, and Stegosaurus.",
+      "captions": [
+        {
+          "label": "Famous contributor",
+          "text": "In the mid to late 1800s, Othniel Charles Marsh raced to beat rival American dinosaur hunter Edward Drinker Cope in finding the most dinosaurs. Although Marsh made some embarrassing mistakes along the way, at the end of the \"dinosaur rush\" he had described a greater number of dinosaurs than Cope. Marsh's work was funded by the Peabody Museum."
+        }
+      ]
+    },
+    {
+      "id": "utah-field-house-of-natural-history-state-park",
+      "title": "Utah Field House of Natural History State Park",
+      "image": "assets/muse/MUSE12PU.webp",
+      "text": "Located in Vernal, Utah, near Dinosaur National Monument. Here you can wander among life-sized models of prehistoric animals.",
+      "captions": [
+        {
+          "label": "Diplodocus and Rhamphorhynchus",
+          "text": "While sauropods like Diplodocus grazed below, pterosaurs like Rhamphorhynchus soared overhead."
+        },
+        {
+          "label": "Utah State paleontologist",
+          "text": "Dr. David Gillette, shown here plastering a stegosaur fossil, oversees dinosaur research projects for the state of Utah. One of Gillette's most exciting discoveries is Seismosaurus, whose fossils have not yet been fully excavated. Seismosaurus may prove to be the largest dinosaur ever found!"
+        }
+      ]
+    },
+    {
+      "id": "page-museum-and-la-brea-tar-pits",
+      "title": "Page Museum and La Brea Tar Pits",
+      "image": "assets/muse/MUSE13PU.webp",
+      "text": "Located in Los Angeles, California. The La Brea tar pits have been trapping animals for 20,000 years. The dinosaurs all died out millions of years before that time, but the displays here include many prehistoric animals such as mammals and saber-toothed cats."
+    },
+    {
+      "id": "royal-tyrrell-museum-of-paleontology",
+      "title": "Royal Tyrrell Museum of Paleontology",
+      "image": "assets/muse/MUSE14PU.webp",
+      "text": "Located in Drumheller, Alberta. Displays include mounted skeletons of meat-eaters Allosaurus, Albertosaurus, Tyrannosaurus rex, Coelophysis, Dromaeosaurus, Ornitholestes, Struthiomimus; giant plant-eater Camarasaurus; duckbills Corythosaurus, Hadrosaurus, Hypacrosaurus, Lambeosaurus, and Maiasaura; plated Stegosaurus; horned Triceratops, Centrosaurus, and Chasmosaurus.",
+      "captions": [
+        {
+          "label": "Rugged territory",
+          "text": "The dinosaurs in the museum were excavated from Dinosaur Provincial Park, where the badlands are amazingly rich in dinosaur fossils."
+        },
+        {
+          "label": "Triceratops",
+          "text": "Imagine coming face to face with this huge, horned dinosaur! The Earth was a very different place when the dinosaurs ruled it than it is now."
+        },
+        {
+          "label": "A leader in his field",
+          "text": "A curator of the museum, Dr. Philip Currie, is well known for his studies of meat-eating dinosaurs, as well as his discoveries in Canada and in China."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Modern Dinosaur Detectives",
+      "to": "mdet"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/muse/MUSE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Royal Tyrrell Museum of Paleontology",
+            "to": "royal-tyrrell-museum-of-paleontology",
+            "x": 2,
+            "y": 28,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Museum of the Rockies",
+            "to": "museum-of-the-rockies",
+            "x": 2,
+            "y": 37,
+            "w": 18,
+            "h": 4
+          },
+          {
+            "label": "Utah Field House of Natural History State Park and Dinosaur Gardens",
+            "to": "utah-field-house-of-natural-history-state-park",
+            "x": 2,
+            "y": 44,
+            "w": 28,
+            "h": 8
+          },
+          {
+            "label": "Earth Sciences Museum",
+            "to": "earth-sciences-museum",
+            "x": 2,
+            "y": 54,
+            "w": 18,
+            "h": 4
+          },
+          {
+            "label": "Dinosaur National Monument",
+            "to": "dinosaur-national-monument",
+            "x": 2,
+            "y": 60,
+            "w": 21,
+            "h": 4
+          },
+          {
+            "label": "Page Museum and La Brea tar pits",
+            "to": "page-museum-and-la-brea-tar-pits",
+            "x": 2,
+            "y": 66,
+            "w": 21,
+            "h": 6
+          },
+          {
+            "label": "Denver Museum of Natural History",
+            "to": "denver-museum-of-natural-history",
+            "x": 2,
+            "y": 75,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Field Museum of Natural History",
+            "to": "field-museum-of-natural-history",
+            "x": 67,
+            "y": 24,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Peabody Museum of Natural History",
+            "to": "peabody-museum-of-natural-history",
+            "x": 70,
+            "y": 32,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "American Museum of Natural History",
+            "to": "american-museum-of-natural-history",
+            "x": 70,
+            "y": 40,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Carnegie Museum of Natural History",
+            "to": "carnegie-museum-of-natural-history",
+            "x": 68,
+            "y": 48,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Academy of Natural Sciences",
+            "to": "academy-of-natural-sciences",
+            "x": 68,
+            "y": 55,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "National Museum of Natural History",
+            "to": "national-museum-of-natural-history",
+            "x": 66,
+            "y": 62,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Dinosaur Valley State Park",
+            "to": "dinosaur-valley-state-park",
+            "x": 66,
+            "y": 73,
+            "w": 21,
+            "h": 4
+          }
+        ]
+      },
+      "academy-of-natural-sciences": {
+        "image": "assets/muse/MUSE01PU.webp",
+        "back": "main"
+      },
+      "american-museum-of-natural-history": {
+        "image": "assets/muse/MUSE02PU.webp",
+        "back": "main"
+      },
+      "carnegie-museum-of-natural-history": {
+        "image": "assets/muse/MUSE03PU.webp",
+        "back": "main"
+      },
+      "denver-museum-of-natural-history": {
+        "image": "assets/muse/MUSE04PU.webp",
+        "back": "main"
+      },
+      "dinosaur-national-monument": {
+        "image": "assets/muse/MUSE05PU.webp",
+        "back": "main"
+      },
+      "dinosaur-valley-state-park": {
+        "image": "assets/muse/MUSE06PU.webp",
+        "back": "main"
+      },
+      "field-museum-of-natural-history": {
+        "image": "assets/muse/MUSE07PU.webp",
+        "back": "main"
+      },
+      "earth-sciences-museum": {
+        "image": "assets/muse/MUSE08PU.webp",
+        "back": "main"
+      },
+      "museum-of-the-rockies": {
+        "image": "assets/muse/MUSE09PU.webp",
+        "back": "main"
+      },
+      "national-museum-of-natural-history": {
+        "image": "assets/muse/MUSE10PU.webp",
+        "back": "main"
+      },
+      "peabody-museum-of-natural-history": {
+        "image": "assets/muse/MUSE11PU.webp",
+        "back": "main"
+      },
+      "utah-field-house-of-natural-history-state-park": {
+        "image": "assets/muse/MUSE12PU.webp",
+        "back": "main"
+      },
+      "page-museum-and-la-brea-tar-pits": {
+        "image": "assets/muse/MUSE13PU.webp",
+        "back": "main"
+      },
+      "royal-tyrrell-museum-of-paleontology": {
+        "image": "assets/muse/MUSE14PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/muse/MUSE00AP.mp3"
+}

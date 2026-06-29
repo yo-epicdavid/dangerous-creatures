@@ -1,0 +1,142 @@
+{
+  "id": "elas",
+  "code": "ELAS",
+  "name": "Elasmosaurus",
+  "category": "creature",
+  "scientificName": "Elasmosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "eh-LAZ-moh-SOR-us",
+  "meaning": "Thin-plated lizard",
+  "period": "Late Cretaceous",
+  "diet": "Carnivore",
+  "tagline": "The long-necked sea giant that may have inspired the Loch Ness Monster legend!",
+  "hero": {
+    "image": "assets/elas/ELAS00AA.webp",
+    "alt": "Elasmosaurus"
+  },
+  "intro": "Some dinosaurs waded through swamps, some may have paddled through lakes and rivers, but no dinosaurs, as far as we know, lived in the sea. Yet at the same time that dinosaurs ruled the land, large marine reptiles like Elasmosaurus ruled the waves. Elasmosaurus was a long-necked type of plesiosaur, or swimming reptile. It had a small head and very sharp teeth, and may have fed by darting its neck to and fro, snatching fish from near the surface of the sea.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Asia, North America"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Cretaceous"
+    },
+    {
+      "label": "Name Means",
+      "value": "Thin-plated lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Plesiosaur"
+    },
+    {
+      "label": "Length",
+      "value": "13m (43ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "loch-ness-monster",
+      "title": "Loch Ness Monster?",
+      "image": "assets/elas/ELAS01PU.webp",
+      "text": "Is Elasmosaurus alive today? Some people claim to have seen an animal very similar to Elasmosaurus haunting the waters of Loch Ness in Scotland. The Loch Ness monster is described as a long-necked giant that sometimes comes up to the surface for a look around. Long-necked plesiosaurs like Elasmosaurus fit the description of both ancient sea monsters as well that of the modern day \"Nessie.\""
+    },
+    {
+      "id": "striking-like-a-snake",
+      "title": "Striking Like a Snake",
+      "image": "assets/elas/ELAS02PU.webp",
+      "text": "Elasmosaurus was the longest of the plesiosaurs, and over half of its forty-three foot length was neck! It may have used this long neck like a snake to strike at fish. Surely, it would have been able to blaze a wide, watery path, swinging its neck slowly from side to side, as it continued its underwater grazing. Imagine encountering this huge, graceful swimmer as it moved silently and swiftly through the seas, searching for fish or ammonites to snack on."
+    },
+    {
+      "id": "powerful-paddler",
+      "title": "Powerful Paddler",
+      "image": "assets/elas/ELAS03PU.webp",
+      "text": "Plesiosaurs such as Elasmosaurus had large paddle-like limbs, as illustrated here in this fossilized plesiosaur flipper. Like a turtle or penguin, a plesiosaur probably flapped these up and down when swimming.",
+      "captions": [
+        {
+          "label": "Close cousins",
+          "text": "Long, muscular necks and small heads were characteristics of plesiosaurs like Elasmosaurus. Shown here are two plesiosaurs using their paddles to power their huge bodies through the water."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Reptiles of the Sea",
+      "to": "rsea"
+    },
+    {
+      "label": "Myths and Legends",
+      "to": "myth"
+    },
+    {
+      "label": "Muraenosaurus"
+    },
+    {
+      "label": "Archelon",
+      "to": "arcn"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/elas/ELAS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Powerful paddler",
+            "to": "powerful-paddler",
+            "x": 45,
+            "y": 33,
+            "w": 27,
+            "h": 7
+          },
+          {
+            "label": "Striking like a snake",
+            "to": "striking-like-a-snake",
+            "x": 3,
+            "y": 54,
+            "w": 27,
+            "h": 7
+          },
+          {
+            "label": "Loch Ness monster?",
+            "to": "loch-ness-monster",
+            "x": 28,
+            "y": 71,
+            "w": 24,
+            "h": 7
+          }
+        ]
+      },
+      "loch-ness-monster": {
+        "image": "assets/elas/ELAS01PU.webp",
+        "back": "main"
+      },
+      "striking-like-a-snake": {
+        "image": "assets/elas/ELAS02PU.webp",
+        "back": "main"
+      },
+      "powerful-paddler": {
+        "image": "assets/elas/ELAS03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/elas/ELAS50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/elas/ELAS00AP.mp3"
+}

@@ -1,0 +1,131 @@
+{
+  "id": "mura",
+  "code": "MURA",
+  "name": "Muraenosaurus",
+  "category": "creature",
+  "scientificName": "Muraeonosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "myoo-REE-oh-no-SOR-us",
+  "meaning": "Eel lizard",
+  "period": "Late Jurassic",
+  "diet": "Carnivore",
+  "tagline": "This long-necked sea reptile swallowed pebbles to help it dive beneath the waves!",
+  "hero": {
+    "image": "assets/mura/MURA00AA.webp",
+    "alt": "Muraenosaurus"
+  },
+  "intro": "Because they had air-filled lungs, plesiosaurs like Muraeonosaurus found it easy to float on top of the water, but it was not so easy for them to dive beneath the surface of the sea. Like deep-sea divers, they needed weight to help them stay underwater, so they swallowed pebbles, just like crocodiles do today.",
+  "facts": [
+    {
+      "label": "Place",
+      "value": "Europe"
+    },
+    {
+      "label": "Time Period",
+      "value": "Late Jurassic"
+    },
+    {
+      "label": "Name Means",
+      "value": "Eel lizard"
+    },
+    {
+      "label": "Hips",
+      "value": "N/A"
+    },
+    {
+      "label": "Family",
+      "value": "Plesiosaur"
+    },
+    {
+      "label": "Length",
+      "value": "6m (20ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "paddle-power",
+      "title": "Paddle Power",
+      "image": "assets/mura/MURA01PU.webp",
+      "text": "Plesiosaurs such as Muraeonosaurus had large paddle-like limbs, as illustrated here in this fossilized plesiosaur flipper. Like a turtle, a plesiosaur flapped its flippers up and down to propel itself through the water.",
+      "captions": [
+        {
+          "label": "Aquatic adaptation",
+          "text": "The bones in a flipper look a little like the bones in our own hands, don't they? We humans share skeletal similarities with many other animals."
+        }
+      ]
+    },
+    {
+      "id": "fossil-finds",
+      "title": "Fossil Finds",
+      "image": "assets/mura/MURA02PU.webp",
+      "text": "Fossils are the remains or evidence of animals or plants which have been preserved naturally. Because they are hard and easily fossilized, bones and teeth are often the only remains of an animal.",
+      "captions": [
+        {
+          "label": "Piercing tooth of a predator",
+          "text": "This sharp tooth, dating from the Jurassic period, belonged to a plesiosaur."
+        },
+        {
+          "label": "Fossilized food",
+          "text": "Plesiosaurs and other marine reptiles made meals out of the many types of bony fish that swam in prehistoric seas. A fossil specimen of Gryodus, a fish that lived at the same time as Muraeonosaurus, is shown here."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Elasmosaurus",
+      "to": "elas"
+    },
+    {
+      "label": "Archelon",
+      "to": "arcn"
+    },
+    {
+      "label": "Plesiosaurus",
+      "to": "ples"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mura/MURA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Paddle power",
+            "to": "paddle-power",
+            "x": 63,
+            "y": 40,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Fossil finds",
+            "to": "fossil-finds",
+            "x": 61,
+            "y": 65,
+            "w": 20,
+            "h": 5
+          }
+        ]
+      },
+      "paddle-power": {
+        "image": "assets/mura/MURA01PU.webp",
+        "back": "main"
+      },
+      "fossil-finds": {
+        "image": "assets/mura/MURA02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/mura/MURA50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "Microsoft Dinosaurs (1993) CD-ROM",
+    "note": "Text liberated from original screen art; images & audio restored from disc. Original media is Microsoft/supplier copyright — non-commercial educational preservation."
+  },
+  "sayIt": "assets/mura/MURA00AP.mp3"
+}

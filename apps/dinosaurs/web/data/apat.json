@@ -9,7 +9,7 @@
   "meaning": "Deceptive lizard",
   "period": "Late Jurassic",
   "diet": "Herbivore",
-  "tagline": "One of the largest creatures ever to walk the Earth, this gentle giant needed tons of leaves every day just to keep going.",
+  "tagline": "A gentle giant that could whip predators away with its mighty eighty-two-bone tail!",
   "hero": {
     "image": "assets/apat/APAT00AA.webp",
     "alt": "Apatosaurus"
@@ -68,9 +68,9 @@
     },
     {
       "id": "brontosaurus-mix-up",
-      "title": "Brontosaurus Mix-up",
+      "title": "Brontosaurus Mix-Up",
       "image": "assets/apat/APAT02PU.webp",
-      "text": "Apatosaurus has a confusing history. For nearly a century, two similar sauropods were documented: Apatosaurus and Brontosaurus. In the late 1970s, a paleontologist showed that these two animals were the same dinosaur. Because Brontosaurus was the second name given to the dinosaur, today this animal is known only by its original name, Apatosaurus. Adding to the confusion, museum exhibits had featured Apatosaurus with the skull of another sauropod, Camarasaurus, whose remains had been found nearby. So, for decades, Apatosaurus appeared in museums with Camarasaurus's short, round skull instead of its proper head, which was narrow and had large eye sockets."
+      "text": "Apatosaurus has a confusing history. For nearly a century, two similar sauropods were documented: Apatosaurus and Brontosaurus. In the late 1970s, a paleontologist showed that these two animals were the same dinosaur. Because Brontosaurus was the second name given to the dinosaur, today this animal is known only by its original name, Apatosaurus.\n\nAdding to the confusion, museum exhibits had featured Apatosaurus with the skull of another sauropod, Camarasaurus, whose remains had been found nearby. So, for decades, Apatosaurus appeared in museums with Camarasaurus's short, round skull instead of its proper head, which was narrow and had large eye sockets."
     },
     {
       "id": "clawed-feet",
@@ -175,40 +175,8 @@
   ],
   "crosslinks": [
     {
-      "label": "The Brontosaurus Mix-up"
-    },
-    {
-      "label": "Important Dinosaur Sites"
-    },
-    {
-      "label": "Myths and Legends"
-    },
-    {
-      "label": "Footprints"
-    },
-    {
-      "label": "Brachiosaurus"
-    },
-    {
-      "label": "Corythosaurus"
-    },
-    {
-      "label": "Stegosaurus"
-    },
-    {
-      "label": "The Biggest Dinosaurs"
-    },
-    {
-      "label": "Face to Face"
-    },
-    {
-      "label": "Dinosaur Landscape"
-    },
-    {
-      "label": "Hypsilophodon"
-    },
-    {
-      "label": "Reconstructing Dinosaurs"
+      "label": "The Brontosaurus Mix-up",
+      "to": "bron"
     }
   ],
   "classic": {
@@ -218,92 +186,92 @@
         "image": "assets/apat/APAT00AA.webp",
         "hotspots": [
           {
-            "label": "Brontosaurus mix-up",
-            "to": "brontosaurus-mix-up",
-            "x": 47,
-            "y": 27,
-            "w": 20,
-            "h": 5
-          },
-          {
             "label": "The face of a sauropod",
             "to": "the-face-of-a-sauropod",
-            "x": 57,
-            "y": 34,
-            "w": 23,
-            "h": 5
+            "x": 56,
+            "y": 19,
+            "w": 19,
+            "h": 4
           },
           {
-            "label": "Fantastic femur",
-            "to": "fantastic-femur",
-            "x": 22,
-            "y": 43,
+            "label": "Brontosaurus mix-up",
+            "to": "brontosaurus-mix-up",
+            "x": 41,
+            "y": 22,
             "w": 17,
-            "h": 5
+            "h": 4
           },
           {
             "label": "Mixed-up head",
             "to": "mixed-up-head",
-            "x": 75,
-            "y": 42,
+            "x": 78,
+            "y": 27,
             "w": 14,
-            "h": 5
+            "h": 4
+          },
+          {
+            "label": "Fantastic femur",
+            "to": "fantastic-femur",
+            "x": 11,
+            "y": 32,
+            "w": 15,
+            "h": 4
           },
           {
             "label": "Defensive tactics",
             "to": "defensive-tactics",
-            "x": 13,
-            "y": 53,
-            "w": 18,
-            "h": 5
+            "x": 9,
+            "y": 42,
+            "w": 15,
+            "h": 4
           },
           {
             "label": "Plant-eaters",
             "to": "plant-eaters",
-            "x": 67,
-            "y": 54,
+            "x": 74,
+            "y": 45,
             "w": 13,
-            "h": 5
+            "h": 4
           },
           {
             "label": "Useful tails",
             "to": "useful-tails",
-            "x": 8,
-            "y": 63,
+            "x": 3,
+            "y": 52,
             "w": 13,
-            "h": 5
+            "h": 4
           },
           {
             "label": "Gentle giants",
             "to": "gentle-giants",
-            "x": 66,
-            "y": 63,
-            "w": 14,
-            "h": 5
+            "x": 74,
+            "y": 55,
+            "w": 13,
+            "h": 4
           },
           {
             "label": "Traveling in herds",
             "to": "traveling-in-herds",
-            "x": 63,
-            "y": 72,
-            "w": 20,
-            "h": 5
+            "x": 72,
+            "y": 63,
+            "w": 18,
+            "h": 4
           },
           {
             "label": "Clawed feet",
             "to": "clawed-feet",
-            "x": 21,
-            "y": 78,
+            "x": 16,
+            "y": 73,
             "w": 13,
-            "h": 5
+            "h": 4
           },
           {
             "label": "Footprints",
             "to": "footprints",
-            "x": 69,
-            "y": 80,
-            "w": 12,
-            "h": 5
+            "x": 77,
+            "y": 73,
+            "w": 11,
+            "h": 4
           }
         ]
       },

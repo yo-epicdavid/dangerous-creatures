@@ -1,0 +1,121 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Topbar from '../components/Topbar.astro';
+import { listEntries, asset } from '../lib/data.js';
+
+function redact(name, clue) {
+  let out = clue;
+  for (let w of name.split(/\s+/)) {
+    w = w.replace(/[^A-Za-z]/g, '');
+    for (const s of [w, w.replace(/es$/, ''), w.replace(/s$/, '')]) {
+      if (s.length >= 4) out = out.replace(new RegExp(s, 'ig'), '•••');
+    }
+  }
+  return out;
+}
+const pool = listEntries()
+  .filter((d) => (d.category === 'dinosaur' || d.category === 'creature') && d.tagline && d.hero?.image)
+  .map((d) => ({ id: d.id, name: d.name, thumb: asset(d.hero.image), clue: redact(d.name, d.tagline) }));
+---
+<Layout title="Dino Riddles — Microsoft Dinosaurs" desc="Guess the dinosaur from its riddle.">
+  <Topbar>
+    <a slot="right" class="btn" href="/"><span class="arrow" aria-hidden="true">←</span> All dinosaurs</a>
+  </Topbar>
+
+  <main id="main-content" class="wrap" tabindex="-1">
+    <div class="game">
+      <h1>Dino Riddles</h1>
+      <p class="sub">Read the clue and guess the prehistoric creature. How long a streak can you make?</p>
+      <div class="scorebar"><span id="score">Score: 0</span><span id="streak">🔥 Streak: 0</span></div>
+
+      <div class="riddle" id="riddle"></div>
+      <div class="options" id="options"></div>
+
+      <div class="reveal" id="reveal" hidden>
+        <img id="revealImg" alt="" />
+        <p id="revealName"></p>
+        <button class="btn btn--play" id="next">Next riddle <span class="arrow" aria-hidden="true">→</span></button>
+      </div>
+    </div>
+  </main>
+
+  <script define:vars={{ pool }}>
+    const POOL = pool;
+    const $ = (id) => document.getElementById(id);
+    let score = 0, streak = 0, answered = false, cur = null, actx = null;
+    const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+
+    function beep(ok) {
+      try {
+        actx = actx || new (window.AudioContext || window.webkitAudioContext)();
+        const t = actx.currentTime;
+        const tone = (freq, start, dur) => {
+          const o = actx.createOscillator(), g = actx.createGain();
+          o.connect(g); g.connect(actx.destination); o.type = 'sine'; o.frequency.value = freq;
+          g.gain.setValueAtTime(0.0001, t + start);
+          g.gain.exponentialRampToValueAtTime(0.2, t + start + 0.01);
+          g.gain.exponentialRampToValueAtTime(0.0001, t + start + dur);
+          o.start(t + start); o.stop(t + start + dur + 0.02);
+        };
+        if (ok) { tone(660, 0, 0.16); tone(880, 0.12, 0.2); }
+        else { tone(180, 0, 0.32); }
+      } catch (e) {}
+    }
+
+    function newRound() {
+      answered = false;
+      $('reveal').hidden = true;
+      cur = POOL[Math.floor(Math.random() * POOL.length)];
+      $('riddle').textContent = '“' + cur.clue + '”';
+      const others = shuffle(POOL.filter((p) => p.id !== cur.id)).slice(0, 3);
+      const opts = shuffle([cur, ...others]);
+      const box = $('options');
+      box.innerHTML = '';
+      for (const o of opts) {
+        const b = document.createElement('button');
+        b.className = 'opt';
+        b.textContent = o.name;
+        b.addEventListener('click', () => choose(o, opts));
+        box.append(b);
+      }
+    }
+    function choose(o, opts) {
+      if (answered) return;
+      answered = true;
+      const correct = o.id === cur.id;
+      document.querySelectorAll('.opt').forEach((b, i) => {
+        if (opts[i].id === cur.id) b.classList.add('correct');
+        else if (opts[i].id === o.id) b.classList.add('wrong');
+        b.disabled = true;
+      });
+      beep(correct);
+      if (correct) { score++; streak++; } else { streak = 0; }
+      $('score').textContent = 'Score: ' + score;
+      $('streak').textContent = '🔥 Streak: ' + streak;
+      $('revealImg').src = cur.thumb;
+      $('revealImg').alt = cur.name;
+      $('revealName').innerHTML = correct ? ('✓ Yes — <b>' + cur.name + '</b>!') : ('✗ It was <b>' + cur.name + '</b>');
+      $('reveal').hidden = false;
+    }
+    $('next').addEventListener('click', newRound);
+    newRound();
+  </script>
+</Layout>
+
+<style>
+  .game { max-width: 720px; margin: 14px auto 80px; text-align: center; }
+  .game h1 { font-family: var(--font-display); font-size: clamp(34px, 6vw, 58px); margin: 6px 0 4px; }
+  .game .sub { color: var(--ink-soft); margin: 0 0 16px; }
+  .scorebar { display: flex; justify-content: center; gap: 26px; font-weight: 700; color: var(--gold); margin: 0 0 18px; }
+  .riddle { font-size: clamp(20px, 3.4vw, 28px); line-height: 1.4; background: linear-gradient(180deg, var(--panel), var(--panel-2)); border: 1px solid var(--line); border-radius: var(--radius); padding: 26px 22px; box-shadow: var(--shadow); min-height: 96px; display: flex; align-items: center; justify-content: center; }
+  .options { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 20px 0; }
+  .opt { appearance: none; cursor: pointer; border: 2px solid var(--line); background: var(--panel-2); color: var(--ink); padding: 24px 20px; border-radius: 16px; font-size: clamp(19px, 2.4vw, 24px); font-weight: 700; min-height: 84px; line-height: 1.25; transition: .12s; }
+  .opt:hover:not(:disabled) { border-color: var(--gold); transform: translateY(-2px); }
+  .opt:disabled { cursor: default; opacity: .85; }
+  .opt.correct { background: var(--green); color: #06251c; border-color: transparent; }
+  .opt.wrong { background: var(--rust); color: #fff; border-color: transparent; }
+  .reveal { margin: 8px 0; }
+  .reveal img { width: 100%; max-width: 460px; border-radius: var(--radius); border: 1px solid var(--line); box-shadow: var(--shadow); margin: 0 auto; }
+  .reveal p { font-size: 22px; margin: 12px 0 14px; }
+  @media (max-width: 460px) { .options { grid-template-columns: 1fr; } }
+</style>
