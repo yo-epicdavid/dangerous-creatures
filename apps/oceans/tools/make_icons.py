@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-"""Make favicon / Apple-touch / OG images from the Oceans title screen, and extract the
-title's ocean ambient. Source: DATA/ART_TTOV/TITL/{TITL01KK.DIB (clean octopus title),
-TITL00IX.WAV (ambient)}. Outputs public/{favicon.png, apple-touch-icon.png, og-cover.jpg}
-and web/assets/_ambient/ocean.mp3. Run with the venv Python (needs Pillow).
+"""Make favicon / Apple-touch / OG images from the Oceans title screen.
+Source: DATA/ART_TTOV/TITL/TITL01KK.DIB (the clean octopus title). Outputs
+public/{favicon.png, apple-touch-icon.png, og-cover.jpg}. Run with the venv Python (Pillow).
 """
 import os, sys, tempfile, subprocess
 from PIL import Image
@@ -14,8 +13,6 @@ from szdd import expand
 TITL = "/Volumes/MS_OCEANS/DATA/ART_TTOV/TITL"
 APP = os.path.abspath(os.path.join(HERE, ".."))
 PUB = os.path.join(APP, "public")
-WEB = os.path.join(APP, "web")
-FF = "/opt/homebrew/bin/ffmpeg"
 DN = subprocess.DEVNULL
 
 
@@ -48,15 +45,6 @@ def main():
     top = max(0, (og.height - 630) // 2)
     og.crop((0, top, 1200, top + 630)).save(os.path.join(PUB, "og-cover.jpg"), "JPEG", quality=88)
     print("wrote", sorted(os.listdir(PUB)))
-
-    # title ocean ambient -> shared loopable clip
-    amb = os.path.join(WEB, "assets", "_ambient")
-    os.makedirs(amb, exist_ok=True)
-    subprocess.run([FF, "-y", "-loglevel", "error", "-i", os.path.join(TITL, "TITL00IX.WAV"),
-                    "-codec:a", "libmp3lame", "-q:a", "5", os.path.join(amb, "ocean.mp3")], check=False)
-    info = subprocess.run(["afinfo", os.path.join(TITL, "TITL00IX.WAV")], capture_output=True, text=True).stdout
-    dur = next((l.strip() for l in info.splitlines() if "duration" in l.lower()), "?")
-    print("wrote web/assets/_ambient/ocean.mp3 —", dur)
 
 
 if __name__ == "__main__":
