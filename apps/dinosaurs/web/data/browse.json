@@ -1,0 +1,129 @@
+{
+  "categories": [
+    {
+      "key": "dinosaur",
+      "label": "Dinosaurs",
+      "count": 3,
+      "items": [
+        {
+          "id": "apat",
+          "name": "Apatosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/apat/APAT00AA.webp"
+        },
+        {
+          "id": "arch",
+          "name": "Archaeopteryx",
+          "category": "dinosaur",
+          "thumb": "assets/arch/ARCH00AA.webp"
+        },
+        {
+          "id": "tyra",
+          "name": "Tyrannosaurus Rex",
+          "category": "dinosaur",
+          "thumb": "assets/tyra/TYRA00AA.webp"
+        }
+      ]
+    },
+    {
+      "key": "creature",
+      "label": "Other Prehistoric Life",
+      "count": 1,
+      "items": [
+        {
+          "id": "ammo",
+          "name": "Ammonite",
+          "category": "creature",
+          "thumb": "assets/ammo/AMMO00AA.webp"
+        }
+      ]
+    },
+    {
+      "key": "concept",
+      "label": "The Dinosaur World",
+      "count": 1,
+      "items": [
+        {
+          "id": "bird",
+          "name": "Birds and Dinosaurs",
+          "category": "concept",
+          "thumb": "assets/bird/BIRD00AA.webp"
+        }
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "key": "Jurassic",
+      "label": "Jurassic",
+      "count": 2,
+      "items": [
+        {
+          "id": "apat",
+          "name": "Apatosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/apat/APAT00AA.webp"
+        },
+        {
+          "id": "arch",
+          "name": "Archaeopteryx",
+          "category": "dinosaur",
+          "thumb": "assets/arch/ARCH00AA.webp"
+        }
+      ]
+    },
+    {
+      "key": "Cretaceous",
+      "label": "Cretaceous",
+      "count": 1,
+      "items": [
+        {
+          "id": "tyra",
+          "name": "Tyrannosaurus Rex",
+          "category": "dinosaur",
+          "thumb": "assets/tyra/TYRA00AA.webp"
+        }
+      ]
+    }
+  ],
+  "diets": [
+    {
+      "key": "Carnivore",
+      "label": "Carnivore",
+      "count": 3,
+      "items": [
+        {
+          "id": "ammo",
+          "name": "Ammonite",
+          "category": "creature",
+          "thumb": "assets/ammo/AMMO00AA.webp"
+        },
+        {
+          "id": "arch",
+          "name": "Archaeopteryx",
+          "category": "dinosaur",
+          "thumb": "assets/arch/ARCH00AA.webp"
+        },
+        {
+          "id": "tyra",
+          "name": "Tyrannosaurus Rex",
+          "category": "dinosaur",
+          "thumb": "assets/tyra/TYRA00AA.webp"
+        }
+      ]
+    },
+    {
+      "key": "Herbivore",
+      "label": "Herbivore",
+      "count": 1,
+      "items": [
+        {
+          "id": "apat",
+          "name": "Apatosaurus",
+          "category": "dinosaur",
+          "thumb": "assets/apat/APAT00AA.webp"
+        }
+      ]
+    }
+  ]
+}
