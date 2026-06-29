@@ -1,0 +1,205 @@
+{
+  "id": "lion",
+  "code": "LION",
+  "name": "León",
+  "scientificName": "Panthera leo",
+  "needsScientificVerify": false,
+  "tagline": "El rey de la sabana: majestuoso, veloz y temiblemente poderoso.",
+  "weapons": [
+    "Dientes y mandíbulas"
+  ],
+  "habitats": [
+    "Praderas y sabanas"
+  ],
+  "regions": [
+    "África",
+    "Asia"
+  ],
+  "hero": {
+    "image": "assets/es/lion/LION00AA.webp",
+    "alt": "León"
+  },
+  "intro": "Siempre se ha dicho que el león es «el rey de la selva». Este nombre puede confundirte, ya que los leones no viven en la selva, ni siquiera en el bosque, pues prefieren las sabanas y las zonas secas. Además ese nombre lo merecerían más las hembras, las leonas, pues ellas son las que crían y defienden a los cachorros, además de encargarse de la mayor parte de la caza. Pero hay que reconocer que tanto los machos como las hembras resultan majestuosos.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Mordiendo en el cuello y ahogando a la presa.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Cebras, ñúes, facóqueros, búfalos y jirafas.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "¡El rey tiene muy malos hábitos! Los leones son caníbales, se comen a sus propios muertos y a los cachorros de otras manadas.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 3 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: África, India",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "the-huntress",
+      "title": "La cazadora",
+      "image": "assets/es/lion/LION01PU.webp",
+      "text": "Oculta entre las hierbas altas de la sabana africana, la leona acecha a sus presas. Avanza con pasos rápidos, se queda inmóvil, vuelve a avanzar y otra vez se detiene. Cuando está lo bastante cerca, salta de pronto sobre la víctima elegida. Si falla y la presa escapa, ésta puede ser emboscada por los leones que estaban a la espera.",
+      "narration": "assets/es/lion/LION01NP.mp3"
+    },
+    {
+      "id": "lion-life",
+      "title": "La vida del león",
+      "image": "assets/es/lion/LION02PU.webp",
+      "text": "Los leones son los únicos felinos sociales. La mayoría vive en manadas o grupos familiares. Cada clan tiene de dos a cuatro machos, hasta 20 hembras adultas y cachorros de varias edades. Todas las hembras adultas se ocupan de los jóvenes. Cuando un cachorro hembra crece se le suele permitir quedarse en el grupo, pero los machos salen de él en cuanto llegan a la madurez. Si son afortunados, los machos jóvenes acabarán por fundar su manada.",
+      "narration": "assets/es/lion/LION02NP.mp3"
+    },
+    {
+      "id": "pupil-power",
+      "title": "Unas pupilas poderosas",
+      "image": "assets/es/lion/LION03PU.webp",
+      "text": "Para poder ver mejor en la oscuridad, las pupilas de los felinos pueden expandirse mucho y así captar más luz. Además, los ojos de los felinos tienen una capa adicional de células reflectantes de la luz. Por eso brillan en la oscuridad, no porque tengan brillo propio, sino porque reflejan el de cualquier fuente de luz.",
+      "captions": [
+        {
+          "label": "Los ojos de los gatos",
+          "text": "Cuando la luz es brillante, las pupilas de los gatos se estrechan hasta convertirse en rendijas, como le ha pasado a este gato atigrado."
+        },
+        {
+          "label": "Los ojos de los felinos grandes",
+          "text": "Las pupilas de los grandes felinos siguen siendo redondas aunque la luz sea intensa, como la de este puma o león de la montaña."
+        }
+      ],
+      "narration": "assets/es/lion/LION03NP.mp3"
+    },
+    {
+      "id": "make-mine-meat",
+      "title": "Comer carne",
+      "image": "assets/es/lion/LION04PU.webp",
+      "text": "Un león grande puede comer más de 40 kilos de carne de una sola vez, lo que equivale a unas 350 hamburguesas, o un impala pequeño. Por supuesto, lo que coma dependerá de cómo le haya ido en la caza. Una semana la manada puede comer hasta reventar y pasar hambre a la siguiente.",
+      "narration": "assets/es/lion/LION04NP.mp3"
+    },
+    {
+      "id": "the-man-of-the-family",
+      "title": "El hombre de la casa",
+      "image": "assets/es/lion/LION05PU.webp",
+      "text": "Aunque las hembras se hayan encargado casi totalmente de capturar la pieza, son los machos adultos los que comen primero. Los machos son tolerantes con sus propios cachorros e incluso pueden jugar con ellos. Pero un macho puede matar un cachorro que no sea el suyo, pues protege la familia por la relación sanguínea, no porque los cachorros le gusten especialmente.",
+      "narration": "assets/es/lion/LION05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/lion/LION00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 3.93,
+            "y": 8.97,
+            "w": 6.04,
+            "h": 4.35
+          },
+          {
+            "label": "La vida del león",
+            "to": "lion-life",
+            "x": 37.06,
+            "y": 10.49,
+            "w": 7.76,
+            "h": 4.13
+          },
+          {
+            "label": "Unas pupilas poderosas",
+            "to": "pupil-power",
+            "x": 56.9,
+            "y": 16.55,
+            "w": 26.51,
+            "h": 4.13
+          },
+          {
+            "label": "El hombre de la casa",
+            "to": "the-man-of-the-family",
+            "x": 54,
+            "y": 36,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Comer carne",
+            "to": "make-mine-meat",
+            "x": 57,
+            "y": 50,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Preparando la cena",
+            "to": "video",
+            "x": 49.4,
+            "y": 61.14,
+            "w": 34.79,
+            "h": 4.56
+          },
+          {
+            "label": "La cazadora",
+            "to": "the-huntress",
+            "x": 38.62,
+            "y": 72.61,
+            "w": 11.82,
+            "h": 2.62
+          }
+        ]
+      },
+      "the-huntress": {
+        "image": "assets/es/lion/LION01PU.webp",
+        "back": "main"
+      },
+      "lion-life": {
+        "image": "assets/es/lion/LION02PU.webp",
+        "back": "main"
+      },
+      "pupil-power": {
+        "image": "assets/es/lion/LION03PU.webp",
+        "back": "main"
+      },
+      "make-mine-meat": {
+        "image": "assets/es/lion/LION04PU.webp",
+        "back": "main"
+      },
+      "the-man-of-the-family": {
+        "image": "assets/es/lion/LION05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/lion/LION00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/lion/clip.mp4",
+        "poster": "assets/es/lion/LION06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/lion/narration.mp3",
+  "sound": "assets/es/lion/LION00AF.mp3",
+  "factsNarration": "assets/es/lion/LION00FB.mp3",
+  "video": {
+    "title": "Preparando la cena",
+    "src": "assets/es/lion/clip.mp4",
+    "poster": "assets/es/lion/poster.webp",
+    "caption": "¿Qué te parecería si cada vez que tienes hambre tuvieras que salir a cazar tu comida? Pues los leones, especialmente las hembras, pasan mucho tiempo sentadas a la espera de posibles presas. Cuando avistan un animal que parece indefenso se lanzan veloces a «preparar» la cena."
+  }
+}

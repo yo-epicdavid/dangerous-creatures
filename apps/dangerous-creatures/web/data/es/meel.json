@@ -1,0 +1,226 @@
+{
+  "id": "meel",
+  "code": "MEEL",
+  "name": "Morena",
+  "scientificName": "Muraena sp.",
+  "needsScientificVerify": false,
+  "tagline": "¡Mandíbulas afiladas al acecho entre las rocas del arrecife!",
+  "weapons": [
+    "Dientes y mandíbulas"
+  ],
+  "habitats": [
+    "Océanos y arrecifes de coral"
+  ],
+  "regions": [
+    "Océanos y mares"
+  ],
+  "hero": {
+    "image": "assets/es/meel/MEEL00AA.webp",
+    "alt": "Morena"
+  },
+  "intro": "Con sus fuertes mandíbulas abiertas, que revelan unos dientes desiguales, una morena podría parecer una serpiente venenosa. Pero es un tipo de pez, no un reptil. Y aunque puede darte un doloroso mordisco, no es venenosa. Aunque sí puede serlo su carne si te la comes. Las morenas parecen muy feroces cuando abren y cierran la mandíbula, pero no intentan asustar a nadie: ¡sólo están respirando!",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Mordiendo a su presa con los dientes de sierra.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Peces y presas pequeñas.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Los antiguos romanos admiraban tanto a las morenas que las criaban en estanques especiales, las adornaban con joyas... ¡y hasta las alimentaban con esclavos!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "3 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "aguas tropicales y subtropicales poco profundas",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "eel-eating-habits",
+      "title": "Hábitos alimenticios",
+      "image": "assets/es/meel/MEEL01PU.webp",
+      "text": "Hay más de 600 tipos de anguila, de todas las formas y tamaños. Cada una tiene sus alimentos preferidos, pero en general los adultos comen principalmente pequeños peces, moluscos y crustáceos.",
+      "captions": [
+        {
+          "label": "Pulpo",
+          "text": "Pulpo"
+        },
+        {
+          "label": "Cangrejo",
+          "text": "Cangrejo"
+        },
+        {
+          "label": "Langosta europea",
+          "text": "Langosta europea"
+        },
+        {
+          "label": "Congrio",
+          "text": "Congrio"
+        },
+        {
+          "label": "¿Anguilas para cenar?",
+          "text": "Las anguilas son un plato muy popular en algunos países europeos. Sin embargo, comer ciertas anguilas puede ser peligroso para la salud. La carne de las morenas, por ejemplo, puede ser muy tóxica."
+        }
+      ],
+      "narration": "assets/es/meel/MEEL01NP.mp3"
+    },
+    {
+      "id": "hiding-in-holes",
+      "title": "Ocultas en los agujeros",
+      "image": "assets/es/meel/MEEL02PU.webp",
+      "text": "Las morenas no acostumbran a recorrer los arrecifes, acechando a su presa, sino que se esconden en un agujero entre las rocas y el coral. Cuando se acerca un pececillo o un cangrejo, ¡zas!: la morena se lanza y lo atrapa con sus afilados dientes. Si un buceador se acerca demasiado al escondite de una morena, ésta puede confundir su mano o pie con un pececillo.",
+      "narration": "assets/es/meel/MEEL02NP.mp3"
+    },
+    {
+      "id": "not-so-mean",
+      "title": "¡No son tan malas!",
+      "image": "assets/es/meel/MEEL03PU.webp",
+      "text": "Algunos buceadores tocan las morenas y les dan de comer con la mano. En general las morenas son bastante tímidas y no buscan problemas. No muerden a menos que se sientan amenazadas o confundan con comida una parte del cuerpo de una persona. ¡Muchas de las mordeduras se han producido después de que el buceador hubiera arponeado a la pobre anguila!",
+      "narration": "assets/es/meel/MEEL03NP.mp3"
+    },
+    {
+      "id": "what-big-mouths",
+      "title": "¡Qué boca tan grande!",
+      "image": "assets/es/meel/MEEL04PU.webp",
+      "text": "Las anguilas suelen vivir en aguas poco profundas, ¡pero ésta de aspecto tan extraño ha sido vista a varios kilómetros de profundidad! Ahí está muy oscuro, por lo que para atraer a los peces utilizan señuelos luminosos que tienen en la cola. Cuando el pez se acerca, abren su boca gigante y se lo tragan.",
+      "captions": [
+        {
+          "label": "Sacofaríngido",
+          "text": "Sacofaríngido"
+        },
+        {
+          "label": "Anguila devoradora",
+          "text": "Anguila devoradora"
+        }
+      ],
+      "narration": "assets/es/meel/MEEL04NP.mp3"
+    },
+    {
+      "id": "ribbon-version",
+      "title": "Versión cintada",
+      "image": "assets/es/meel/MEEL05PU.webp",
+      "text": "Existen muchas especies diferentes de morenas, de todas las formas y colores, incluso con rayas y puntos. Esta bella anguila cintada es una de las especies más apreciadas para un acuario. No sólo es famosa por el cuerpo azul brillante y las aletas amarillas, sino por las extensiones circulares de la piel que le salen del morro.",
+      "narration": "assets/es/meel/MEEL05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/meel/MEEL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 3.46,
+            "y": 2.05,
+            "w": 6.51,
+            "h": 10.84
+          },
+          {
+            "label": "¿Quién persigue a quién?",
+            "to": "video",
+            "x": 34.09,
+            "y": 15.03,
+            "w": 18.86,
+            "h": 4.13
+          },
+          {
+            "label": "Hábitos alimenticios",
+            "to": "eel-eating-habits",
+            "x": 34.09,
+            "y": 15.03,
+            "w": 18.86,
+            "h": 9.76
+          },
+          {
+            "label": "Ocultas en los agujeros",
+            "to": "hiding-in-holes",
+            "x": 1.43,
+            "y": 55.94,
+            "w": 13.23,
+            "h": 4.56
+          },
+          {
+            "label": "¡No son tan malas!",
+            "to": "not-so-mean",
+            "x": 2,
+            "y": 62,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "¡Qué boca tan grande!",
+            "to": "what-big-mouths",
+            "x": 20.81,
+            "y": 79.75,
+            "w": 27.29,
+            "h": 3.48
+          },
+          {
+            "label": "Versión cintada",
+            "to": "ribbon-version",
+            "x": 27,
+            "y": 92,
+            "w": 16,
+            "h": 5
+          }
+        ]
+      },
+      "eel-eating-habits": {
+        "image": "assets/es/meel/MEEL01PU.webp",
+        "back": "main"
+      },
+      "hiding-in-holes": {
+        "image": "assets/es/meel/MEEL02PU.webp",
+        "back": "main"
+      },
+      "not-so-mean": {
+        "image": "assets/es/meel/MEEL03PU.webp",
+        "back": "main"
+      },
+      "what-big-mouths": {
+        "image": "assets/es/meel/MEEL04PU.webp",
+        "back": "main"
+      },
+      "ribbon-version": {
+        "image": "assets/es/meel/MEEL05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/meel/MEEL00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/meel/clip.mp4",
+        "poster": "assets/es/meel/MEEL06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/meel/narration.mp3",
+  "sound": "assets/es/meel/MEEL00AF.mp3",
+  "factsNarration": "assets/es/meel/MEEL00FB.mp3",
+  "video": {
+    "title": "¿Quién persigue a quién?",
+    "src": "assets/es/meel/clip.mp4",
+    "poster": "assets/es/meel/poster.webp",
+    "caption": "Existen numerosas historias acerca de la crueldad de las morenas. Según la leyenda, en la antigua Roma los esclavos eran arrojados a un estanque lleno de morenas para que los devoraran. Ahora sabemos que son animales muy tímidos, por lo que los romanos debían tenerlas muertas de hambre o sin ningún sitio donde esconderse. Si te fijas en la mayoría de las historias sobre morenas amenazantes, comprobarás que normalmente las personas las atormentaban antes de que éstas decidieran atacar."
+  }
+}

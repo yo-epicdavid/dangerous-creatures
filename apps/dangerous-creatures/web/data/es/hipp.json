@@ -1,0 +1,236 @@
+{
+  "id": "hipp",
+  "code": "HIPP",
+  "name": "Hipopótamo",
+  "scientificName": "Hippopotamus amphibius",
+  "needsScientificVerify": false,
+  "tagline": "El gigante del río que puede partir una barca de un mordisco.",
+  "weapons": [
+    "Dientes y mandíbulas",
+    "Cuernos, colmillos y embestidas"
+  ],
+  "habitats": [
+    "Ríos, lagos y humedales"
+  ],
+  "regions": [
+    "África"
+  ],
+  "hero": {
+    "image": "assets/es/hipp/HIPP00AA.webp",
+    "alt": "Hipopótamo"
+  },
+  "intro": "En los bajíos de los lagos y ríos africanos al ponerse el sol empiezan a oírse unos bufidos sordos. Si estás en la orilla y los oyes: ¡huye! Es la señal de que los hipopótamos están saliendo del agua para pastar por la noche... ¡Y no querrás cruzarte en su camino!",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Como defensa muerde y pisotea.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Hierba, hojas y plantas acuáticas.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Casi todos los encuentros peligrosos se producen en el agua. ¡Los remeros no se dan cuenta de lo cerca que están de un hipopótamo sumergido hasta que ven unas mandíbulas enormes que se abalanzan sobre ellos!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 4,7 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: África",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "open-wide",
+      "title": "Abierta de par en par",
+      "image": "assets/es/hipp/HIPP01PU.webp",
+      "text": "Un hipopótamo no parece peligroso hasta que abre la boca: en ese momento entenderás porqué se le considera uno de los animales más peligrosos de África. Es enorme, los músculos de las mandíbulas son grandes, los dientes los tiene largos y afilados... y además es mucho más rápido de lo que te parece. ¡Muchos africanos creen que puede partir en dos a una persona de un mordisco!",
+      "captions": [
+        {
+          "label": "Diente de hipopótamo",
+          "text": "Antes se cazaban hipopótamos para aprovechar su carne y sus dientes, pues éstos son más fáciles de tallar que los colmillos de elefante."
+        }
+      ],
+      "narration": "assets/es/hipp/HIPP01NP.mp3"
+    },
+    {
+      "id": "life-underwater",
+      "title": "Vida subacuática",
+      "image": "assets/es/hipp/HIPP02PU.webp",
+      "text": "Los hipopótamos pasan una gran parte del tiempo casi totalmente sumergidos. Si es necesario, pueden cerrar las fosas nasales y las orejas, para poder quedarse bajo el agua alrededor de media hora. Las hembras incluso paren y amamantan a sus crías bajo el agua. Pero los hipopótamos no son auténticos animales acuáticos, ya que por la noche salen a pastar en la pradera.",
+      "narration": "assets/es/hipp/HIPP02NP.mp3"
+    },
+    {
+      "id": "daily-walk",
+      "title": "El paseo diario",
+      "image": "assets/es/hipp/HIPP03PU.webp",
+      "text": "Aunque es posible ver de vez en cuando hipopótamos en tierra firme durante el día, casi siempre esperan a que oscurezca para salir a pastar. La mayoría de los hipopótamos no suele alejarse más que unos cuantos kilómetros de su lugar acuático de descanso. Los hipopótamos, en particular las madres con crías, pueden ser muy agresivos al salir o entrar del agua, por lo que conviene que no te acerques a ellos si no quieres comprobar con qué rapidez atacan.",
+      "narration": "assets/es/hipp/HIPP03NP.mp3"
+    },
+    {
+      "id": "giant-vegetarians",
+      "title": "Un vegetariano gigante",
+      "image": "assets/es/hipp/HIPP04PU.webp",
+      "text": "Los hipopótamos son herbívoros, lo que significa que se alimentan de hierba y otras materias vegetales. Muchos de los animales terrestres más grandes son vegetarianos.",
+      "captions": [
+        {
+          "label": "Un gigante desaparecido",
+          "text": "El diplodocus fue un dinosaurio vegetariano que vivió hace más de 150 millones de años. Como llegaba a medir 26 metros y a pesar 12 toneladas... ¡Imagina todo lo que podía comer!"
+        },
+        {
+          "label": "El más grande en la actualidad",
+          "text": "Los elefantes africanos son los herbívoros más grandes de la tierra. Cuando escasean las hojas y la hierba, los elefantes pueden recorrer muchos kilómetros para encontrar la comida necesaria."
+        }
+      ],
+      "narration": "assets/es/hipp/HIPP04NP.mp3"
+    },
+    {
+      "id": "waterbed",
+      "title": "El agua en su cama",
+      "image": "assets/es/hipp/HIPP05PU.webp",
+      "text": "Los hipopótamos pasan la mayor parte del día en el agua durmiendo o descansando, y normalmente sólo sacan a la superficie las ventanas de la nariz y las orejas. Cuando el nivel de agua de la poza es alto, aunque no sea muy grande pueden amontonarse en ella más de cien hipopótamos. Si el nivel de agua desciende, un grupo grande se puede dividir en varios más pequeños, que buscarán pozas nuevas.",
+      "narration": "assets/es/hipp/HIPP05NP.mp3"
+    },
+    {
+      "id": "at-the-water-hole",
+      "title": "En la poza",
+      "image": "assets/es/hipp/HIPP06PU.webp",
+      "text": "El mejor lugar para ver animales son los ríos y los lagos, pues casi todos necesitan beber agua. Pero también es un lugar peligroso, pues no se sabe quién puede estar al acecho.",
+      "captions": [
+        {
+          "label": "Reptiles voraces",
+          "text": "Una pitón de Seba acecha en los matorrales o rocas cercanos a la poza esperando a que aparezca su comida. Pero el reptil verdaderamente temible en una poza es un cocodrilo del Nilo hambriento, pues puede atacar a su presa dentro o fuera del agua."
+        }
+      ],
+      "narration": "assets/es/hipp/HIPP06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/hipp/HIPP00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 2.84,
+            "y": 9.45,
+            "w": 7.93,
+            "h": 3.92
+          },
+          {
+            "label": "Vida subacuática",
+            "to": "life-underwater",
+            "x": 59.02,
+            "y": 8.37,
+            "w": 21.7,
+            "h": 7.62
+          },
+          {
+            "label": "En la poza",
+            "to": "at-the-water-hole",
+            "x": 53,
+            "y": 15,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "A dentelladas con las barcas",
+            "to": "video",
+            "x": 47.6,
+            "y": 28.15,
+            "w": 7.62,
+            "h": 3.49
+          },
+          {
+            "label": "Abierta de par en par",
+            "to": "open-wide",
+            "x": 36,
+            "y": 41,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Un vegetariano gigante",
+            "to": "giant-vegetarians",
+            "x": 58,
+            "y": 50,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "El agua en su cama",
+            "to": "waterbed",
+            "x": 61,
+            "y": 57,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "El paseo diario",
+            "to": "daily-walk",
+            "x": 46.5,
+            "y": 81.84,
+            "w": 9.65,
+            "h": 4.14
+          }
+        ]
+      },
+      "open-wide": {
+        "image": "assets/es/hipp/HIPP01PU.webp",
+        "back": "main"
+      },
+      "life-underwater": {
+        "image": "assets/es/hipp/HIPP02PU.webp",
+        "back": "main"
+      },
+      "daily-walk": {
+        "image": "assets/es/hipp/HIPP03PU.webp",
+        "back": "main"
+      },
+      "giant-vegetarians": {
+        "image": "assets/es/hipp/HIPP04PU.webp",
+        "back": "main"
+      },
+      "waterbed": {
+        "image": "assets/es/hipp/HIPP05PU.webp",
+        "back": "main"
+      },
+      "at-the-water-hole": {
+        "image": "assets/es/hipp/HIPP06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/hipp/HIPP00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/hipp/clip.mp4",
+        "poster": "assets/es/hipp/HIPP07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/hipp/narration.mp3",
+  "sound": "assets/es/hipp/HIPP00AF.mp3",
+  "factsNarration": "assets/es/hipp/HIPP00FB.mp3",
+  "video": {
+    "title": "A dentelladas con las barcas",
+    "src": "assets/es/hipp/clip.mp4",
+    "poster": "assets/es/hipp/poster.webp",
+    "caption": "En África muchos barcos conservan el recuerdo del encuentro con un hipopótamo. En el agua este animal puede ser casi invisible y todos los años sucede que un barquero se encuentra rodeado por un grupo de hipopótamos furiosos. Para defender su territorio, estos enormes animales derriban una barca, o incluso la emprenden a mordiscos con ella."
+  }
+}

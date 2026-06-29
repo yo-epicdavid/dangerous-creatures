@@ -1,0 +1,271 @@
+{
+  "id": "snap",
+  "code": "SNAP",
+  "name": "Tortuga de presa, o mordedora, americana",
+  "scientificName": "Macrochelys temminckii",
+  "needsScientificVerify": false,
+  "tagline": "¡Con la mordedura más rápida del río, esta tortuga puede partirte un palo de escoba de un solo bocado!",
+  "weapons": [
+    "Dientes y mandíbulas"
+  ],
+  "habitats": [
+    "Ríos, lagos y humedales"
+  ],
+  "regions": [
+    "Norteamérica",
+    "Centroamérica",
+    "Sudamérica"
+  ],
+  "hero": {
+    "image": "assets/es/snap/SNAP00AA.webp",
+    "alt": "Tortuga de presa, o mordedora, americana"
+  },
+  "intro": "La rapidísima mordedura de la tortuga aligátor puede partir un palo de escoba por la mitad. Es la tortuga de agua dulce más pesada de todo el mundo: ¡un ejemplar adulto pesa tanto como un hombre! Su prima, la tortuga de presa americana, mide la tercera parte, pero también posee mandíbulas de afilados dientes. De cualquier forma, los hombres hacen más daño a estas carroñeras que al contrario: en algunos sitios la sopa de tortuga es un manjar.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Ataca por sorpresa y muerde con sus poderosas mandíbulas.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Invertebrados, plantas, animales muertos, peces, serpientes y otras tortugas.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Algunas tortugas pasan el invierno bajo el agua. El agua fría disminuye su metabolismo, por lo que pueden pasar varias semanas sin subir a la superficie para respirar.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 72 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: toda América",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "turtle-or-tortoise",
+      "title": "Tipos de tortugas",
+      "image": "assets/es/snap/SNAP01PU.webp",
+      "text": "Los científicos llaman tortugas a todos los reptiles con caparazón, aunque en el lenguaje vulgar adoptan diferentes nombres. Pueden ser tortugas terrestres, marinas o de agua dulce.",
+      "captions": [
+        {
+          "label": "Tortuga mora o de Hermann",
+          "text": "Tortuga mora o de Hermann"
+        },
+        {
+          "label": "Tortuga caimán o tortuga aligátor",
+          "text": "Tortuga caimán o tortuga aligátor"
+        },
+        {
+          "label": "Tortuga china de caparazón blando",
+          "text": "Tortuga china de caparazón blando"
+        }
+      ],
+      "narration": "assets/es/snap/SNAP01NP.mp3"
+    },
+    {
+      "id": "common-snappers",
+      "title": "Tortugas mordedoras comunes",
+      "image": "assets/es/snap/SNAP02PU.webp",
+      "text": "Esta cría de tortuga de presa americana no mide más que tu mano, pero multiplicará por seis el tamaño durante su larga vida. Su pariente, la tortuga aligátor, es la tortuga de agua dulce más grande del mundo.\n\n¡Yo sí muerdo!\nCuando se sienten amenazadas, las tortugas mordedoras no pueden esconder en el caparazón su cabeza grande y el largo cuello, como hace el resto de las tortugas, por lo que no tienen más remedio que atacar.",
+      "narration": "assets/es/snap/SNAP02NP.mp3"
+    },
+    {
+      "id": "inside-and-out",
+      "title": "Dentro y fuera",
+      "image": "assets/es/snap/SNAP03PU.webp",
+      "text": "La capa externa de un caparazón de tortuga está formada por unas escamas duras compuestas de queratina: el mismo material de tus uñas. Debajo de ésta hay una capa interior ósea, formada en parte por las costillas de la tortuga. Echa un vistazo a esta tortuga, por dentro y por fuera.",
+      "captions": [
+        {
+          "label": "Esqueleto de la tortuga estrellada de Madagascar o tortuga rayada: corte transversal",
+          "text": "Esqueleto de la tortuga estrellada de Madagascar o tortuga rayada: corte transversal"
+        },
+        {
+          "label": "Tortuga de agua de orejas rojas",
+          "text": "Tortuga de agua de orejas rojas"
+        },
+        {
+          "label": "Esqueleto de tortuga: vista inferior",
+          "text": "Esqueleto de tortuga: vista inferior"
+        },
+        {
+          "label": "Tortuga hembra: anatomía interna",
+          "text": "Tortuga hembra: anatomía interna"
+        }
+      ],
+      "narration": "assets/es/snap/SNAP03NP.mp3"
+    },
+    {
+      "id": "since-dinosaur-times",
+      "title": "Desde la época de los dinosaurios",
+      "image": "assets/es/snap/SNAP04PU.webp",
+      "text": "Las tortugas de hace 200 millones de años no eran muy distintas de las de hoy.",
+      "captions": [
+        {
+          "label": "Megatortuga",
+          "text": "Con sus cuatro metros de longitud, el archelon era una enorme tortuga marina, cuatro veces más grande que una tortuga aligátor. Vivió durante el cretácico, junto con los últimos dinosaurios."
+        }
+      ],
+      "narration": "assets/es/snap/SNAP04NP.mp3"
+    },
+    {
+      "id": "body-armor",
+      "title": "Un cuerpo blindado",
+      "image": "assets/es/snap/SNAP05PU.webp",
+      "text": "Si eres una tortuga, tu tipo de caparazón dependerá mucho de cómo y de dónde vivas. Las tortugas de tierra necesitan caparazones duros que son difíciles de morder. Las nadadoras necesitan caparazones aerodinámicos; y hablando de caparazones, ¡un sólo tamaño o estilo no sirve para todas!",
+      "captions": [
+        {
+          "label": "Caparazón de tortuga carey",
+          "text": "Caparazón de tortuga carey"
+        },
+        {
+          "label": "Caparazón de tortuga estrellada de Madagascar o tortuga rayada",
+          "text": "Caparazón de tortuga estrellada de Madagascar o tortuga rayada"
+        },
+        {
+          "label": "Caparazón de tortuga estrellada",
+          "text": "Caparazón de tortuga estrellada"
+        },
+        {
+          "label": "Tortugas del desierto",
+          "text": "Tortugas del desierto"
+        }
+      ],
+      "narration": "assets/es/snap/SNAP05NP.mp3"
+    },
+    {
+      "id": "swelled-head",
+      "title": "Cabeza inflada",
+      "image": "assets/es/snap/SNAP06PU.webp",
+      "text": "La cabeza de esta tortuga es tan grande que no puede meterla en el caparazón; por eso se le llama \"tortuga de cabeza grande\". Aunque esta tortuga asiática es pequeña – su caparazón no es mucho más grande que una mano –, piénsatelo dos veces antes de tocarla. Su pico, habituado a triturar caracoles, es muy afilado.\n\n¡Para el agua!\nEl caparazón de esta tortuga, que vive en los ríos del Sudeste Asiático, es plano y aerodinámico, para deslizarse rápidamente por el agua. La cola es casi tan larga como la concha y le ayuda a mantener la dirección mientras rema con sus patas palmeadas.",
+      "narration": "assets/es/snap/SNAP06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/snap/SNAP00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 4.71,
+            "y": 8.11,
+            "w": 4.33,
+            "h": 3.92
+          },
+          {
+            "label": "Tortugas en peligro de extinción",
+            "to": "video",
+            "x": 64.71,
+            "y": 5.73,
+            "w": 16.36,
+            "h": 4.13
+          },
+          {
+            "label": "Un cuerpo blindado",
+            "to": "body-armor",
+            "x": 35.96,
+            "y": 12.44,
+            "w": 9.95,
+            "h": 4.13
+          },
+          {
+            "label": "Cabeza inflada",
+            "to": "swelled-head",
+            "x": 12,
+            "y": 22,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Desde la época de los dinosaurios",
+            "to": "since-dinosaur-times",
+            "x": 2.06,
+            "y": 29.75,
+            "w": 24.33,
+            "h": 9.98
+          },
+          {
+            "label": "Tipos de tortugas",
+            "to": "turtle-or-tortoise",
+            "x": 15.18,
+            "y": 51.83,
+            "w": 12.45,
+            "h": 4.13
+          },
+          {
+            "label": "Dentro y fuera",
+            "to": "inside-and-out",
+            "x": 7,
+            "y": 61,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Tortugas mordedoras comunes",
+            "to": "common-snappers",
+            "x": 65,
+            "y": 72,
+            "w": 20,
+            "h": 5
+          }
+        ]
+      },
+      "turtle-or-tortoise": {
+        "image": "assets/es/snap/SNAP01PU.webp",
+        "back": "main"
+      },
+      "common-snappers": {
+        "image": "assets/es/snap/SNAP02PU.webp",
+        "back": "main"
+      },
+      "inside-and-out": {
+        "image": "assets/es/snap/SNAP03PU.webp",
+        "back": "main"
+      },
+      "since-dinosaur-times": {
+        "image": "assets/es/snap/SNAP04PU.webp",
+        "back": "main"
+      },
+      "body-armor": {
+        "image": "assets/es/snap/SNAP05PU.webp",
+        "back": "main"
+      },
+      "swelled-head": {
+        "image": "assets/es/snap/SNAP06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/snap/SNAP00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/snap/clip.mp4",
+        "poster": "assets/es/snap/SNAP07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/snap/narration.mp3",
+  "sound": "assets/es/snap/SNAP00AF.mp3",
+  "factsNarration": "assets/es/snap/SNAP00FB.mp3",
+  "video": {
+    "title": "Tortugas en peligro de extinción",
+    "src": "assets/es/snap/clip.mp4",
+    "poster": "assets/es/snap/poster.webp",
+    "caption": "Muchas tortugas, sobre todo las marinas, están en peligro de extinción porque nos las comemos y porque están perdiendo su hábitat. Como tanto el agua salada como la dulce se están contaminando y las playas donde anidaban se han llenado de gente, estos animales están luchando por sobrevivir."
+  }
+}

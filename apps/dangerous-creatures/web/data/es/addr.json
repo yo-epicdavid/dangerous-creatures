@@ -1,0 +1,254 @@
+{
+  "id": "addr",
+  "code": "ADDR",
+  "name": "Víbora europea",
+  "scientificName": "Vipera berus",
+  "needsScientificVerify": false,
+  "tagline": "¡La serpiente venenosa que sobrevive incluso en el Círculo Polar Ártico!",
+  "weapons": [
+    "Veneno y ponzoña"
+  ],
+  "habitats": [
+    "Bosques",
+    "Praderas y sabanas"
+  ],
+  "regions": [
+    "Asia",
+    "Europa"
+  ],
+  "hero": {
+    "image": "assets/es/addr/ADDR00AA.webp",
+    "alt": "Víbora europea"
+  },
+  "intro": "Es una de las pocas serpientes venenosas de Europa, pero por suerte es también una de las más tímidas. Si eres afortunado podrás ver a dos machos de esta víbora \"bailando\" para impresionar a una hembra. En otoño o primavera es posible ver una de ellas avanzando velozmente sobre la nieve. A diferencia de otras serpientes, la víbora europea tolera el frío: ¡vive incluso en el Círculo Polar Ártico!",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Mata inyectando veneno en la presa con los colmillos.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Lagartos, campañoles, ratones, musarañas insectos y lombrices.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Cuando luchan, los machos se yerguen y entrelazan; después cada uno trata de derribar al otro.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 90 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: Europa, Asia",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "sidewinder-cousin",
+      "title": "El pariente que avanza lateralmente",
+      "image": "assets/es/addr/ADDR01PU.webp",
+      "text": "La víbora enana africana de las arenas sabe cómo evitar el sol del desierto: se hunde en la arena y espera el anochecer para salir de caza. Como otras muchas serpientes que viven en la arena resbaladiza, estas víboras se mueven hacia los lados, formando con el cuerpo un semicírculo lateral y dejando una huella en forma de S.",
+      "captions": [
+        {
+          "label": "¡Nada por aquí...!",
+          "text": "Mediante sacudidas del cuerpo, la víbora enana se va metiendo en la arena, empezando por la cola."
+        },
+        {
+          "label": "¡Nada por allí...!",
+          "text": "La víbora se hunde más echándose arena sobre la espalda. Las escamas ásperas le permiten empujar los granos de arena por encima del cuerpo."
+        },
+        {
+          "label": "¡Ya no está!",
+          "text": "Cuando está casi enterrada, la serpiente queda protegida del sol. Solamente deja al descubierto el extremo de la cabeza y de la cola."
+        }
+      ],
+      "narration": "assets/es/addr/ADDR01NP.mp3"
+    },
+    {
+      "id": "family-resemblance",
+      "title": "Un parecido de familia",
+      "image": "assets/es/addr/ADDR02PU.webp",
+      "text": "Estas serpientes africanas son seis veces más grandes que la víbora europea; y mucho más mortíferas. Pero la víbora del Gabón, la ariete (bufadora o sopladora) africana y la europea son todas víboras, por lo que tienen muchas cosas en común.",
+      "captions": [
+        {
+          "label": "Víbora ariete (bufadora o sopladora) africana",
+          "text": "Casi todas las víboras aguardan al acecho a que pase una presa, por lo que no necesitan ser rápidas y aerodinámicas. Pero sí tienen que ser fuertes y musculosas, lo que hace que parezcan gordas. Esta víbora mortífera puede hincharse de aire para aparentar que es más gruesa. Los ojos de muchas víboras tienen las pupilas verticales, como las de los gatos."
+        },
+        {
+          "label": "Víbora del Gabón",
+          "text": "Los colmillos de la víbora han de ser largos, porque tienen que atravesar la piel o las plumas de sus presas. De todas las serpientes, ésta es la que tiene los colmillos más largos: ¡tanto como tu dedo meñique! La cabeza grande de la víbora le permite comer presas voluminosas: Ésta es la víbora más grande de África: ¡puede engullir a un antílope enano!"
+        }
+      ],
+      "narration": "assets/es/addr/ADDR02NP.mp3"
+    },
+    {
+      "id": "death-adder",
+      "title": "Víbora de la muerte",
+      "image": "assets/es/addr/ADDR03PU.webp",
+      "text": "¡Hay un buen motivo para llamar \"víbora de la muerte\" a esta serpiente australiana! Antes de que se creara el antiveneno morían la mitad de las personas a las que mordían. Por suerte no es muy agresiva y sólo ataca cuando la tocan.",
+      "captions": [
+        {
+          "label": "Peligro oculto",
+          "text": "El ruido de las pisadas suele hacer huir a las serpientes, pero las víboras de la muerte actúan como si no las oyeran: por eso se les llama también \"víboras sordas\". Como se quedan inmóviles bajo las hojas, es fácil pisarlas: ésa es la causa de la mayoría de las mordeduras."
+        },
+        {
+          "label": "En realidad no es una víbora",
+          "text": "El nombre de esta serpiente no es muy acertado, porque en realidad no es una víbora. Sus parientes más cercanos son la cobra, la serpiente coral o coralillo y la mamba; como mamba negra."
+        }
+      ],
+      "narration": "assets/es/addr/ADDR03NP.mp3"
+    },
+    {
+      "id": "the-pits",
+      "title": "Los orificios",
+      "image": "assets/es/addr/ADDR04PU.webp",
+      "text": "Los crótalos o víboras con orificios no necesitan verte para saber que estás cerca. Sienten el calor de tu cuerpo gracias a un orificio situado entre los ojos y las fosas nasales. Estas dos víboras con orificios viven en Norteamérica.",
+      "captions": [
+        {
+          "label": "La oculta cobriza",
+          "text": "Las serpientes de cabeza cobriza viven en EE.UU., pero pertenecen a un grupo de víboras con orificios (crótalos) que también se encuentran en Asia. Una cabeza cobriza enroscada entre las hojas resulta casi invisible, así que ten cuidado cuando vayas de excursión. Su mordedura no es mortal, ¡pero sí muy dolorosa!"
+        },
+        {
+          "label": "La peligrosa serpiente de cascabel",
+          "text": "Las serpientes de cascabel y otras víboras con orificios o crótalos pueden detectar cambios de temperatura inferiores a dos décimas de grado: ¡una cualidad útil para cazar animales de sangre caliente!"
+        }
+      ],
+      "narration": "assets/es/addr/ADDR04NP.mp3"
+    },
+    {
+      "id": "talented-tongue",
+      "title": "Una lengua sabia",
+      "image": "assets/es/addr/ADDR05PU.webp",
+      "text": "Algunos creen que las serpientes pican con su lengua bífida, pero la utilizan en realidad para...",
+      "captions": [
+        {
+          "label": "Recoger muestras",
+          "text": "Cuando las serpientes (y también un grupo de lagartos, los monitores) sacan y meten su lengua bífida, recogen con ella partículas químicas del aire y del suelo."
+        },
+        {
+          "label": "Rastrean la presa",
+          "text": "Las serpientes usan el órgano de Jacobson para seguir el rastro de sus presas (como este ratón), saborear el alimento, encontrar pareja y detectar enemigos."
+        },
+        {
+          "label": "Saborean el aire",
+          "text": "Las partículas recogidas por la lengua de la serpiente pasan a una estructura especial de la boca de la serpiente, llamada órgano de Jacobson. Las células de esta estructura en parte huelen y en parte saborean las partículas."
+        }
+      ],
+      "narration": "assets/es/addr/ADDR05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/addr/ADDR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.34,
+            "y": 8.54,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Acércate un poco más...",
+            "to": "video",
+            "x": 37.37,
+            "y": 30.19,
+            "w": 29.64,
+            "h": 11.27
+          },
+          {
+            "label": "Los orificios",
+            "to": "the-pits",
+            "x": 53.62,
+            "y": 30.19,
+            "w": 19.01,
+            "h": 11.27
+          },
+          {
+            "label": "Una lengua sabia",
+            "to": "talented-tongue",
+            "x": 12,
+            "y": 54,
+            "w": 21,
+            "h": 7
+          },
+          {
+            "label": "El pariente que avanza lateralmente",
+            "to": "sidewinder-cousin",
+            "x": 7,
+            "y": 62,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Víbora de la muerte",
+            "to": "death-adder",
+            "x": 33,
+            "y": 48,
+            "w": 15,
+            "h": 7
+          },
+          {
+            "label": "Un parecido de familia",
+            "to": "family-resemblance",
+            "x": 59,
+            "y": 59,
+            "w": 23,
+            "h": 7
+          }
+        ]
+      },
+      "sidewinder-cousin": {
+        "image": "assets/es/addr/ADDR01PU.webp",
+        "back": "main"
+      },
+      "family-resemblance": {
+        "image": "assets/es/addr/ADDR02PU.webp",
+        "back": "main"
+      },
+      "death-adder": {
+        "image": "assets/es/addr/ADDR03PU.webp",
+        "back": "main"
+      },
+      "the-pits": {
+        "image": "assets/es/addr/ADDR04PU.webp",
+        "back": "main"
+      },
+      "talented-tongue": {
+        "image": "assets/es/addr/ADDR05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/addr/ADDR00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/addr/clip.mp4",
+        "poster": "assets/es/addr/ADDR06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/addr/narration.mp3",
+  "sound": "assets/es/addr/ADDR00AF.mp3",
+  "factsNarration": "assets/es/addr/ADDR00FB.mp3",
+  "video": {
+    "title": "Acércate un poco más...",
+    "src": "assets/es/addr/clip.mp4",
+    "poster": "assets/es/addr/poster.webp",
+    "caption": "Esta víbora de la muerte australiana no es una víbora auténtica, pero lo parece y se comporta como tal. Como una víbora, en lugar de cazar activamente su presa prefiere ocultarse hasta que una víctima se ponga a su alcance. La víbora de la muerte se enrosca bajo las hojas secas o la tierra suelta y utiliza su cola delgada como cebo para atraer a los lagartos y roedores."
+  }
+}

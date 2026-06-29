@@ -1,0 +1,205 @@
+{
+  "id": "scor",
+  "code": "SCOR",
+  "name": "Escorpión",
+  "scientificName": "Androctonus australis",
+  "needsScientificVerify": false,
+  "tagline": "Cola de látigo, aguijón letal: el señor de la noche desértica.",
+  "weapons": [
+    "Veneno y ponzoña",
+    "Aguijones"
+  ],
+  "habitats": [
+    "Desierto",
+    "Praderas y sabanas"
+  ],
+  "regions": [],
+  "hero": {
+    "image": "assets/es/scor/SCOR00AA.webp",
+    "alt": "Escorpión"
+  },
+  "intro": "Desde sus pinzas afiladas hasta la punta venenosa de la cola en forma de látigo, un escorpión está bien equipado para sujetar y picar a su presa. Para los insectos, un escorpión es un predador mortal. Los escorpiones de algunas especies pueden ser también mortales para los humanos, pero en su mayoría no son más peligrosos que las abejas.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Mata inyectando veneno con el aguijón de la cola.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Insectos, ranas, roedores y otros escorpiones.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Por la noche, los escorpiones atraen a su presa con una fluorescencia rosada y verde. Puedes verlo con un proyector de luz ultravioleta.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 18 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: desiertos, sabanas y regiones tropicales y subtropicales",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "lethal-injection",
+      "title": "Inyección mortal",
+      "image": "assets/es/scor/SCOR01PU.webp",
+      "text": "Todos los escorpiones pueden inyectar veneno. Aunque casi todas las picaduras son dolorosas y pueden matar a un insecto, no son particularmente peligrosas para los seres humanos. Las escasas especies de escorpión cuyo veneno puede matar al hombre (sobre todo a los niños pequeños) viven en el sudoeste de EE.UU., México, África del Norte y Oriente Medio.",
+      "captions": [
+        {
+          "label": "¡Preparados, listos, a picar!",
+          "text": "Cuando un escorpión contrae los músculos del extremo de la cola el aguijón se coloca en posición y el veneno llena el conducto hueco."
+        }
+      ],
+      "narration": "assets/es/scor/SCOR01NP.mp3"
+    },
+    {
+      "id": "special-weapons",
+      "title": "Armas especiales",
+      "image": "assets/es/scor/SCOR02PU.webp",
+      "text": "Sobre todo, los escorpiones comen arañas, insectos y otros escorpiones. Su cuerpo es perfecto para enfrentarse a sus presas.",
+      "captions": [
+        {
+          "label": "Patas en forma de garras",
+          "text": "Los escorpiones tienen dos brazos especiales, llamados pedipalpos. En lugar de patas anteriores tienen pinzas, que utilizan para sujetar el alimento... y a la compañera durante la danza de cortejo."
+        },
+        {
+          "label": "Mandíbulas de tijera",
+          "text": "Un escorpión utiliza sus mandíbulas en forma de tijera, llamadas quelíceros, para cortar a su presa. Después lanza en la herida sus jugos salivares, digiriendo parcialmente a la víctima. Finalmente succiona los líquidos a través de su pequeña boca."
+        }
+      ],
+      "narration": "assets/es/scor/SCOR02NP.mp3"
+    },
+    {
+      "id": "midnight-snack",
+      "title": "Un bocado de medianoche",
+      "image": "assets/es/scor/SCOR03PU.webp",
+      "text": "Los escorpiones sólo pueden tolerar una estrecha gama de temperaturas. Viven en lugares cálidos, pero suelen pasar las horas de luz diurna en las sombras frescas. Cuando se pone el sol, salen a cazar; les parece bien cualquier insecto, una araña u otro escorpión.",
+      "captions": [
+        {
+          "label": "Arácnido contra arácnido",
+          "text": "Las arañas, como esta tarántula mexicana, son la presa común del escorpión. Tanto las tarántulas como los escorpiones son cazadores nocturnos y ambos pertenecen a una clase de animales llamada arácnidos."
+        }
+      ],
+      "narration": "assets/es/scor/SCOR03NP.mp3"
+    },
+    {
+      "id": "may-i-have-this-dance",
+      "title": "¿Me concede este baile?",
+      "image": "assets/es/scor/SCOR04PU.webp",
+      "text": "Antes de aparearse, la hembra y el macho se sitúan uno frente a otro y el escorpión macho utiliza sus pinzas para sujetar las de la hembra. Tras caminar así abrazados durante un rato, el macho deposita una bolsa de esperma en el suelo, que la hembra introduce en su cuerpo. Cuando los huevos de la hembra eclosionan, lleva las crías sobre la espalda hasta que son lo bastante grandes para arreglárselas por sí solas.",
+      "narration": "assets/es/scor/SCOR04NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/scor/SCOR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 3.93,
+            "y": 8.76,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "¿Me concede este baile?",
+            "to": "may-i-have-this-dance",
+            "x": 45.96,
+            "y": 6.16,
+            "w": 25.11,
+            "h": 4.13
+          },
+          {
+            "label": "Venom Producers",
+            "x": 77,
+            "y": 2,
+            "w": 22,
+            "h": 15,
+            "link": "browse.html?tab=weapons#venom-poison"
+          },
+          {
+            "label": "Inyección mortal",
+            "to": "lethal-injection",
+            "x": 61,
+            "y": 33,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Duelo en el desierto",
+            "to": "video",
+            "x": 62.37,
+            "y": 34.73,
+            "w": 28.86,
+            "h": 9.98
+          },
+          {
+            "label": "Armas especiales",
+            "to": "special-weapons",
+            "x": 62.37,
+            "y": 51.61,
+            "w": 30.89,
+            "h": 4.13
+          },
+          {
+            "label": "Un bocado de medianoche",
+            "to": "midnight-snack",
+            "x": 61,
+            "y": 57,
+            "w": 24,
+            "h": 5
+          }
+        ]
+      },
+      "lethal-injection": {
+        "image": "assets/es/scor/SCOR01PU.webp",
+        "back": "main"
+      },
+      "special-weapons": {
+        "image": "assets/es/scor/SCOR02PU.webp",
+        "back": "main"
+      },
+      "midnight-snack": {
+        "image": "assets/es/scor/SCOR03PU.webp",
+        "back": "main"
+      },
+      "may-i-have-this-dance": {
+        "image": "assets/es/scor/SCOR04PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/scor/SCOR00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/scor/clip.mp4",
+        "poster": "assets/es/scor/SCOR05TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/scor/narration.mp3",
+  "sound": "assets/es/scor/SCOR00AF.mp3",
+  "factsNarration": "assets/es/scor/SCOR00FB.mp3",
+  "video": {
+    "title": "Duelo en el desierto",
+    "src": "assets/es/scor/clip.mp4",
+    "poster": "assets/es/scor/poster.webp",
+    "caption": "Al caer el sol, los dos oponentes se colocan uno frente a otro sobre el desierto. Los dos son fuertes y rápidos. La tarántula tiene colmillos venenosos. El escorpión cuenta con sus pinzas, unas piezas bucales afiladas y el aguijón de cola lleno de veneno. ¿Por qué contendiente apostarías?"
+  }
+}

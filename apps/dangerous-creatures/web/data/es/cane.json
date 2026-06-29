@@ -1,0 +1,336 @@
+{
+  "id": "cane",
+  "code": "CANE",
+  "name": "Sapo bastón",
+  "scientificName": "Rhinella marina",
+  "needsScientificVerify": false,
+  "tagline": "¡El sapo invasor que se convirtió en el mayor problema de Australia!",
+  "weapons": [
+    "Veneno y ponzoña"
+  ],
+  "habitats": [
+    "Ríos, lagos y humedales",
+    "Ciudades y campos"
+  ],
+  "regions": [
+    "Centroamérica",
+    "Sudamérica",
+    "Australia y Oceanía"
+  ],
+  "hero": {
+    "image": "assets/es/cane/CANE00AA.webp",
+    "alt": "Sapo bastón"
+  },
+  "intro": "Si se mueve, ¡cómetelo! Ésta es la regla por la que se rigen la mayoría de los sapos. Cuando los escarabajos de la caña empezaron a devorar la caña de azúcar de Australia, decidieron importar sapos bastón para acabar con la plaga. Pero en vez de acabar con los escarabajos, los sapos se alejaron de los campos de caña y se alimentaron de ranas, pájaros, serpientes, lagartos y roedores. En lugar de una solución, estos sapos, tan grandes como un plato, se convirtieron en otro problema.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Se defiende hinchándose y segregando veneno de unas glándulas de la cabeza.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Insectos, escarabajos, roedores, otros sapos, comida para animales domésticos y basura.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Si un depredador hambriento trata de comerse a este anfibio, el sapo bastón se hincha y segrega veneno. Se invierte la situación y el atacante se convierte en víctima.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 25 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Centroamérica y Sudamérica, Australia",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "oozing-venom",
+      "title": "Rezumando veneno",
+      "image": "assets/es/cane/CANE01PU.webp",
+      "text": "Estos sapos no sólo se comen todo lo que encuentran, sino que además ninguno se los come a ellos, pues el sapo bastón tiene en la cabeza unas glándulas que producen veneno. El pequeño animal que lo muerda no tendrá oportunidad de aprender de su error: el sapo se hincha, para que el otro no lo pueda tragar, y después rezuma veneno, por lo que el animal muere llevando todavía al sapo en la boca.",
+      "captions": [
+        {
+          "label": "¡No estrujes una salamandra!",
+          "text": "Las salamandras, como los sapos, tienen glándulas parótidas. Los animales de colorido brillante, como esta salamandra común, a menudo son venenosos."
+        },
+        {
+          "label": "¡No acaricies a un sapo!",
+          "text": "Como todos los sapos auténticos, este sapo retiforme europeo tiene glándulas parótidas detrás de los ojos. En ellas almacena el líquido venenoso que usa como defensa contra los predadores."
+        }
+      ],
+      "narration": "assets/es/cane/CANE01NP.mp3"
+    },
+    {
+      "id": "which-is-which",
+      "title": "¿Cuál es cuál?",
+      "image": "assets/es/cane/CANE02PU.webp",
+      "text": "¿Puedes distinguir una rana de un sapo? Eso es difícil hasta para los expertos, pero estas pistas te ayudarán a clasificar estos misteriosos anfibios.",
+      "captions": [
+        {
+          "label": "La rana bermeja europea",
+          "text": "Un cuerpo pequeño y unas patas palmeadas son indicativos fiables de que se trata de una rana, pero tampoco son pistas absolutamente seguras: hay ranas que tienen el cuerpo grueso y las que viven en los árboles tienen dedos adherentes en lugar de patas palmeadas."
+        },
+        {
+          "label": "El sapo común europeo",
+          "text": "Lo identificamos como sapo por las glándulas parótidas de la cabeza y cuerpo voluminoso."
+        }
+      ],
+      "narration": "assets/es/cane/CANE02NP.mp3"
+    },
+    {
+      "id": "life-is-full-of-changes",
+      "title": "La vida está llena de cambios",
+      "image": "assets/es/cane/CANE03PU.webp",
+      "text": "Como todos los anfibios, las ranas y los sapos comienzan su vida en el agua. Luego experimentan muchos cambios antes de convertirse en adultos.",
+      "captions": [
+        {
+          "label": "En el huevo",
+          "text": "Los embriones se desarrollan dentro de los huevos."
+        },
+        {
+          "label": "Empieza el cambio",
+          "text": "Un renacuajo de un mes tiene dientes diminutos y las branquias recubiertas de piel."
+        },
+        {
+          "label": "Mitad renacuajo, mitad rana",
+          "text": "Después de seis semanas, al renacuajo se le va definiendo la cabeza y le empiezan a crecer las patas traseras."
+        },
+        {
+          "label": "Casi desarrollado",
+          "text": "Un renacuajo de nueve semanas parece un adulto en miniatura pero con cola larga. Conforme va creciendo la cola se reduce, hasta que termina por desaparecer."
+        }
+      ],
+      "narration": "assets/es/cane/CANE03NP.mp3"
+    },
+    {
+      "id": "fast-food",
+      "title": "Comida rápida",
+      "image": "assets/es/cane/CANE04PU.webp",
+      "text": "Muchos anfibios se desplazan lentamente. Pero si ven arrastrarse algo apetitoso pueden reaccionar en un abrir y cerrar de ojos.",
+      "captions": [
+        {
+          "label": "¡Ya te tengo!",
+          "text": "A este tritón rayado naranja le gustan las presas blandas, como esta lombriz."
+        },
+        {
+          "label": "Sí, es comestible",
+          "text": "Tras decidir que un gusano de la harina es un buen bocado, un sapo se inclina para atraparlo."
+        },
+        {
+          "label": "Habilidad lingüística",
+          "text": "Con un movimiento rapidísimo de la lengua, una rana captura un piojo de la madera."
+        }
+      ],
+      "narration": "assets/es/cane/CANE04NP.mp3"
+    },
+    {
+      "id": "protected-warts",
+      "title": "Verrugas protegidas",
+      "image": "assets/es/cane/CANE05PU.webp",
+      "text": "Este sapo corredor está en peligro de extinción, por lo que en Gran Bretaña ha sido declarado especie protegida. Los sapos, como todos los anfibios, absorben oxígeno y otros elementos a través de la piel, aunque también respiran aire por medio de los pulmones. Por eso los anfibios son tan sensibles a la contaminación y están desapareciendo rápidamente, por desgracia, en todo el mundo.",
+      "narration": "assets/es/cane/CANE05NP.mp3"
+    },
+    {
+      "id": "freight-on-board",
+      "title": "Mercancías a bordo",
+      "image": "assets/es/cane/CANE06PU.webp",
+      "text": "Éste es un mundo duro para los renacuajos. Muchos se las han de arreglar por su cuenta desde que salen del huevo y si hay cerca una rana o un sapo adultos se los pueden comer, en lugar de cuidarlos. Aunque también hay ranas y sapos que como padres son sus protectores.",
+      "captions": [
+        {
+          "label": "A cargo de papá",
+          "text": "Este macho de sapo partero común europeo lleva encima los huevos fertilizados durante semanas. Cuando los renacuajos están preparados para salir, devuelve los huevos al agua."
+        },
+        {
+          "label": "Otro padre protector",
+          "text": "Las madres pulpo protegen tanto sus huevos que por vigilarlos algunas llegan a morir de hambre. Este pulpo anillado azul debe estar transportando sus huevos de un lugar a otro."
+        }
+      ],
+      "narration": "assets/es/cane/CANE06NP.mp3"
+    },
+    {
+      "id": "you-dont-scare-me",
+      "title": "¡No me asustas!",
+      "image": "assets/es/cane/CANE07PU.webp",
+      "text": "Los sapos tienen un sabor muy malo y muchos son venenosos. Pero esto no impide que los animales les ataquen. Por eso a menudo, cuando pasan junto a un predador, intentan simular que son más fuertes.",
+      "captions": [
+        {
+          "label": "¡Más grande de lo que piensas!",
+          "text": "Los sapos inflan el cuerpo y se ponen de puntillas para parecer más grandes y peligrosos."
+        },
+        {
+          "label": "¡Sorpresa! ¡Más ojos!",
+          "text": "Si un predador se acerca sigilosamente por detrás a una rana de cuatro ojos de Chile, en la espalda de ésta aparecen de pronto dos «ojos» grandes. Estos «ojos» de más son sólo manchas que utiliza la rana para asustar a otros animales."
+        }
+      ],
+      "narration": "assets/es/cane/CANE07NP.mp3"
+    },
+    {
+      "id": "steel-jaws",
+      "title": "Mandíbulas de acero",
+      "image": "assets/es/cane/CANE08PU.webp",
+      "text": "Todos los anfibios tienen un apetito voraz. La mayoría come todo lo que atrapa... ¡incluyendo a sus semejantes!",
+      "captions": [
+        {
+          "label": "¡De un bocado!",
+          "text": "Un ratón cabe fácilmente en la enorme boca de una rana."
+        },
+        {
+          "label": "¡Tragado!",
+          "text": "La rana parpadea y mueve hacia abajo los globos oculares para aumentar la presión en su garganta. ¡Un ratón es una comilona que cuesta tragar!"
+        }
+      ],
+      "narration": "assets/es/cane/CANE08NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/cane/CANE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 4.87,
+            "y": 8.54,
+            "w": 4.17,
+            "h": 5.0
+          },
+          {
+            "label": "Rezumando veneno",
+            "to": "oozing-venom",
+            "x": 53.46,
+            "y": 4.43,
+            "w": 31.04,
+            "h": 10.19
+          },
+          {
+            "label": "Mandíbulas de acero",
+            "to": "steel-jaws",
+            "x": 61,
+            "y": 19,
+            "w": 17,
+            "h": 7
+          },
+          {
+            "label": "Verrugas protegidas",
+            "to": "protected-warts",
+            "x": 56,
+            "y": 31,
+            "w": 24,
+            "h": 7
+          },
+          {
+            "label": "Comida rápida",
+            "to": "fast-food",
+            "x": 68,
+            "y": 43,
+            "w": 14,
+            "h": 7
+          },
+          {
+            "label": "Mercancías a bordo",
+            "to": "freight-on-board",
+            "x": 22,
+            "y": 57,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Las apariencias engañan",
+            "to": "video",
+            "x": 17,
+            "y": 65,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "¿Cuál es cuál?",
+            "to": "which-is-which",
+            "x": 20,
+            "y": 73,
+            "w": 21,
+            "h": 6
+          },
+          {
+            "label": "¡No me asustas!",
+            "to": "you-dont-scare-me",
+            "x": 14.24,
+            "y": 75.86,
+            "w": 20.42,
+            "h": 9.54
+          },
+          {
+            "label": "La vida está llena de cambios",
+            "to": "life-is-full-of-changes",
+            "x": 16.9,
+            "y": 81.27,
+            "w": 17.76,
+            "h": 4.13
+          }
+        ]
+      },
+      "oozing-venom": {
+        "image": "assets/es/cane/CANE01PU.webp",
+        "back": "main"
+      },
+      "which-is-which": {
+        "image": "assets/es/cane/CANE02PU.webp",
+        "back": "main"
+      },
+      "life-is-full-of-changes": {
+        "image": "assets/es/cane/CANE03PU.webp",
+        "back": "main"
+      },
+      "fast-food": {
+        "image": "assets/es/cane/CANE04PU.webp",
+        "back": "main"
+      },
+      "protected-warts": {
+        "image": "assets/es/cane/CANE05PU.webp",
+        "back": "main"
+      },
+      "freight-on-board": {
+        "image": "assets/es/cane/CANE06PU.webp",
+        "back": "main"
+      },
+      "you-dont-scare-me": {
+        "image": "assets/es/cane/CANE07PU.webp",
+        "back": "main"
+      },
+      "steel-jaws": {
+        "image": "assets/es/cane/CANE08PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/cane/CANE00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/cane/clip.mp4",
+        "poster": "assets/es/cane/CANE09TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/cane/narration.mp3",
+  "sound": "assets/es/cane/CANE00AF.mp3",
+  "factsNarration": "assets/es/cane/CANE00FB.mp3",
+  "video": {
+    "title": "Las apariencias engañan",
+    "src": "assets/es/cane/clip.mp4",
+    "poster": "assets/es/cane/poster.webp",
+    "caption": "Si fueras un animal pequeño que necesitase asustar a un posible atacante, intentarías parecer más grande y peligroso. Si tuvieras armas, como dientes o garras, podrías enseñárselas a tu oponente. Pero si fueras una rana sin ningún arma, tu única posibilidad sería simular que la tienes."
+  }
+}

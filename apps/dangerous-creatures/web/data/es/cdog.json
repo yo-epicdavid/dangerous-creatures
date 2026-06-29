@@ -1,0 +1,259 @@
+{
+  "id": "cdog",
+  "code": "CDOG",
+  "name": "Licaón o lobo pintado africano",
+  "scientificName": "Lycaon pictus",
+  "needsScientificVerify": false,
+  "tagline": "¡En equipo, estos perros salvajes cazan animales mucho más grandes que ellos!",
+  "weapons": [
+    "Dientes y mandíbulas",
+    "Ataques en grupo"
+  ],
+  "habitats": [
+    "Praderas y sabanas"
+  ],
+  "regions": [
+    "África"
+  ],
+  "hero": {
+    "image": "assets/es/cdog/CDOG00AA.webp",
+    "alt": "Licaón o lobo pintado africano"
+  },
+  "intro": "Una manada de licaones te podría comer vivo... si por ejemplo fueras un antílope. Mediante un trabajo de equipo espectacular, estos licaones o lobos pintados africanos matan animales que son mucho más grandes que ellos. Durante la larga persecución que suelen necesitar para derribar a su presa, se hacen señales unos a otros con la punta blanca de la cola. Al final uno sujeta al agotado animal por el hocico, otro por la cola, mientras los demás le muerden el cuerpo. Es una suerte que estos perros salvajes no ataquen nunca al hombre.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Atacan en grupo y muerden a la presa.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Antílopes, búfalos, facoqueros y liebres.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Los licaones han sido vistos a altitudes superiores a los 5.600 m en las pendientes nevadas del Kilimanjaro.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "1,4 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "África",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "skeleton-story",
+      "title": "Lo que nos cuenta el esqueleto",
+      "image": "assets/es/cdog/CDOG01PU.webp",
+      "text": "La forma de un esqueleto te puede dar pistas sobre cómo vivía su dueño. Las mandíbulas fuertes y afiladas y los dientes puntiagudos de estos esqueletos te indican que esos animales mataban y comían a otros. Por las patas largas sabes que podían cubrir grandes distancias. Si crees que estos esqueletos pertenecieron a fuertes cánidos cazadores, has acertado.",
+      "captions": [
+        {
+          "label": "Licaón o lobo pintado africano",
+          "text": "Esqueleto del licaón o lobo pintado africano"
+        },
+        {
+          "label": "Lobo del bosque",
+          "text": "Esqueleto de un lobo del bosque"
+        }
+      ],
+      "narration": "assets/es/cdog/CDOG01NP.mp3"
+    },
+    {
+      "id": "potential-prey",
+      "title": "Posibles presas",
+      "image": "assets/es/cdog/CDOG02PU.webp",
+      "text": "Cuando los licaones rondan por la sabana africana, los animales que pastan tienen que estar alerta constantemente.",
+      "captions": [
+        {
+          "label": "Gacela de Thompson",
+          "text": "Gacela de Thompson"
+        },
+        {
+          "label": "Ñu",
+          "text": "Ñu"
+        },
+        {
+          "label": "Cebra de Burchell",
+          "text": "Cebra de Burchell"
+        }
+      ],
+      "narration": "assets/es/cdog/CDOG02NP.mp3"
+    },
+    {
+      "id": "the-competition",
+      "title": "La competencia",
+      "image": "assets/es/cdog/CDOG03PU.webp",
+      "text": "¿Cuál de estos carnívoros africanos crees tú que podría amargarle el día a un licaón?",
+      "captions": [
+        {
+          "label": "El guepardo",
+          "text": "El guepardo es más veloz que un licaón, pero éste le ganaría si la distancia a recorrer fuera larga."
+        },
+        {
+          "label": "El león",
+          "text": "A veces los leones hambrientos les roban a los licaones lo que han cazado."
+        },
+        {
+          "label": "La hiena manchada",
+          "text": "Éste es el peor rival de un licaón. Es frecuente que las hienas les roben las piezas que han cazado. A menudo las hienas roban la caza de los licaones."
+        },
+        {
+          "label": "El leopardo",
+          "text": "A un leopardo le gustaría ponerle las garras encima a un cachorro sin protección."
+        }
+      ],
+      "narration": "assets/es/cdog/CDOG03NP.mp3"
+    },
+    {
+      "id": "wild-canines",
+      "title": "Cánidos salvajes",
+      "image": "assets/es/cdog/CDOG04PU.webp",
+      "text": "En casi todos los países hay miembros de los cánidos (la familia de los perros). Los que ves aquí no son «el mejor amigo del hombre», sino animales salvajes.",
+      "captions": [
+        {
+          "label": "El lobo de crín",
+          "text": "Sólo en las llanuras de Sudamérica podrás ver a este cánido."
+        },
+        {
+          "label": "El feneco o fenec",
+          "text": "Este habitante del desierto africano utiliza sus grandes orejas para desprenderse del calor del cuerpo y localizar a su presa por la noche."
+        },
+        {
+          "label": "El dingo o perro dingo",
+          "text": "Los antepasados de los dingos fueron perros parcialmente domesticados llevados a Australia por el hombre. Hace miles de años abandonaron a sus amigos humanos y pasaron a vivir en estado salvaje."
+        }
+      ],
+      "narration": "assets/es/cdog/CDOG04NP.mp3"
+    },
+    {
+      "id": "greeting-ceremony",
+      "title": "La ceremonia del saludo",
+      "image": "assets/es/cdog/CDOG05PU.webp",
+      "text": "En las manadas de licaones hay una jerarquía estricta: es decir, cada uno sabe quién es el que manda. Cuando dos licaones se saludan, cada uno de ellos indica que ha reconocido la posición del otro en la manada. Sólo los jefes pueden ser padres, pero cualquier adulto se siente feliz cuidando de un cachorro.",
+      "narration": "assets/es/cdog/CDOG05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/cdog/CDOG00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 4.09,
+            "y": 2.91,
+            "w": 5.11,
+            "h": 10.41
+          },
+          {
+            "label": "Packs and Partners",
+            "x": 90.03,
+            "y": 10.92,
+            "w": 7.76,
+            "h": 6.08,
+            "link": "browse.html?tab=weapons#pack-swarm-attacks"
+          },
+          {
+            "label": "Uno para todos y todos para uno",
+            "to": "video",
+            "x": 1,
+            "y": 67,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Posibles presas",
+            "to": "potential-prey",
+            "x": 10,
+            "y": 73,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Lo que nos cuenta el esqueleto",
+            "to": "skeleton-story",
+            "x": 29,
+            "y": 73,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Cánidos salvajes",
+            "to": "wild-canines",
+            "x": 44,
+            "y": 62,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "La ceremonia del saludo",
+            "to": "greeting-ceremony",
+            "x": 58.46,
+            "y": 60.06,
+            "w": 10.89,
+            "h": 10.84
+          },
+          {
+            "label": "La competencia",
+            "to": "the-competition",
+            "x": 65,
+            "y": 71,
+            "w": 17,
+            "h": 5
+          }
+        ]
+      },
+      "skeleton-story": {
+        "image": "assets/es/cdog/CDOG01PU.webp",
+        "back": "main"
+      },
+      "potential-prey": {
+        "image": "assets/es/cdog/CDOG02PU.webp",
+        "back": "main"
+      },
+      "the-competition": {
+        "image": "assets/es/cdog/CDOG03PU.webp",
+        "back": "main"
+      },
+      "wild-canines": {
+        "image": "assets/es/cdog/CDOG04PU.webp",
+        "back": "main"
+      },
+      "greeting-ceremony": {
+        "image": "assets/es/cdog/CDOG05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/cdog/CDOG00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/cdog/clip.mp4",
+        "poster": "assets/es/cdog/CDOG06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/cdog/narration.mp3",
+  "sound": "assets/es/cdog/CDOG00AF.mp3",
+  "factsNarration": "assets/es/cdog/CDOG00FB.mp3",
+  "video": {
+    "title": "Uno para todos y todos para uno",
+    "src": "assets/es/cdog/clip.mp4",
+    "poster": "assets/es/cdog/poster.webp",
+    "caption": "El licaón o lobo pintado africano no es un animal muy grande. Y no tiene garras ni veneno con los que herir a sus presas. Para ser unos carnívoros bien alimentados de la sabana africana, los licaones han de vivir y cazar en manada."
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "id": "cbuf",
+  "code": "CBUF",
+  "name": "Búfalo africano o búfalo cafre",
+  "scientificName": "Syncerus caffer",
+  "needsScientificVerify": false,
+  "tagline": "¡700 kilos de cuernos afilados que cargan a 60 km/h... y ni las balas los detienen!",
+  "weapons": [
+    "Cuernos, colmillos y embestidas"
+  ],
+  "habitats": [
+    "Praderas y sabanas"
+  ],
+  "regions": [
+    "África"
+  ],
+  "hero": {
+    "image": "assets/es/cbuf/CBUF00AA.webp",
+    "alt": "Búfalo africano o búfalo cafre"
+  },
+  "intro": "Cuando dos cuernos afilados de un búfalo enfurecido de 700 kilos se te acercan a casi 60 kilómetros por hora, lo mejor es que te subas al árbol más cercano, ¡y sin pérdida de tiempo! Son muchos los que piensan que el búfalo africano o cafre es el animal más peligroso de África. No es el más grande ni el más rápido, pero puede ser el más agresivo. Un búfalo que embiste no acostumbra a abandonar hasta haber matado a su enemigo.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Derriba a cornadas al oponente y después lo pisotea.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Hierbas, hojas y ramas pequeñas.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "¡Los cuernos del búfalo africano son tan duros y gruesos que las balas rebotan en ellos!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 3,4 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "África",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "horns-aplenty",
+      "title": "Cuernos en abundancia",
+      "image": "assets/es/cbuf/CBUF01PU.webp",
+      "text": "Ningún predador se atrevería a atacar a un grupo de búfalos africanos o cafres, pues estos herbívoros son fuertes y están bien armados con sus cuernos afilados y pezuñas. Por eso los leones y las hienas eligen a los machos viejos y solitarios que han sido expulsados del rebaño o a las crías recién nacidas que se han alejado.",
+      "captions": [
+        {
+          "label": "El combate",
+          "text": "Los búfalos africanos o cafres machos combaten dándose topetazos para saber quién es el más fuerte. El que gana adquiere el derecho de aparearse con las hembras."
+        }
+      ],
+      "narration": "assets/es/cbuf/CBUF01NP.mp3"
+    },
+    {
+      "id": "north-american-buffalo",
+      "title": "El búfalo norteamericano",
+      "image": "assets/es/cbuf/CBUF02PU.webp",
+      "text": "Cuando los primeros europeos llegaron a Norteamérica, poblaban las llanuras enormes manadas de bisontes, también llamados búfalos. Los hombres cazaron por deporte tantos bisontes que casi los hicieron desaparecer. A finales del siglo XIX, de estos grandes herbívoros no quedaban vivos ni un millar. Hoy, gracias a los esfuerzos de conservación de unos cuantos rancheros y conservacionistas, hay más de 50.000.",
+      "narration": "assets/es/cbuf/CBUF02NP.mp3"
+    },
+    {
+      "id": "water-buffalo",
+      "title": "El búfalo asiático o acuático",
+      "image": "assets/es/cbuf/CBUF03PU.webp",
+      "text": "Al búfalo asiático también se le llama búfalo acuático porque le encanta bañarse en el agua. Los búfalos acuáticos salvajes son escasos y están en peligro de extinción, pero los campesinos asiáticos los han utilizado desde hace mucho tiempo para tirar del arado y de los carros. Los granjeros castran a los búfalos machos para que sean menos agresivos. A un macho castrado se le llama buey.",
+      "narration": "assets/es/cbuf/CBUF03NP.mp3"
+    },
+    {
+      "id": "of-hooves-and-hands",
+      "title": "De pezuñas y manos",
+      "image": "assets/es/cbuf/CBUF04PU.webp",
+      "text": "Imagina lo fuertes que serían tus manos y muñecas si las usaras para caminar. En el ganado, los huesos que equivalen a los de nuestros dedos corazón y anular (los dos únicos que tienen) están fusionados, y cada dedo termina en una pezuña. Todas las cabezas de ganado (tanto si son vacas o bueyes domésticos como si son búfalos africanos o cafres salvajes) se clasifican como artiodáctilos, que significa \"mamíferos ungulados con número par de dedos\".",
+      "narration": "assets/es/cbuf/CBUF04NP.mp3",
+      "captions": [
+        {
+          "label": "La mano y la muñeca humanas",
+          "text": "Huesos de la pata del buey"
+        }
+      ]
+    },
+    {
+      "id": "who-is-the-meanest",
+      "title": "¿Quién es el más vil?",
+      "image": "assets/es/cbuf/CBUF05PU.webp",
+      "text": "Un toro no ataca porque sea un malvado: se enfrenta a tí para defender el territorio y a las hembras, igual que si tú fueras otro macho. Este es el orden natural de las cosas en el mundo animal. En cambio los seres humanos han capturado, castrado y entrenado a los machos como animales de trabajo además de incitarles a luchar por diversión, como en esta pelea. ¿Quién tiraniza a quién?",
+      "narration": "assets/es/cbuf/CBUF05NP.mp3"
+    },
+    {
+      "id": "bird-lovers",
+      "title": "Amantes de los pájaros",
+      "image": "assets/es/cbuf/CBUF06PU.webp",
+      "text": "Es frecuente ver pájaros paseando sobre la cabeza o el lomo de los búfalos africanos. Estos pájaros, que son un tipo de estornino africano y reciben el nombre de picabueyes o espulgabueyes, no viajan gratis sobre el búfalo: comen sus garrapatas y moscas. La relación es buena para el pájaro y para el búfalo: el primero sabe que sobre la piel de éste encontrará insectos que comer; el segundo se ve libre de esos molestos parásitos.",
+      "narration": "assets/es/cbuf/CBUF06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/cbuf/CBUF00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 4.56,
+            "y": 9.02,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Cuernos en abundancia",
+            "to": "horns-aplenty",
+            "x": 38.05,
+            "y": 10.1,
+            "w": 19.2,
+            "h": 5.23
+          },
+          {
+            "label": "El búfalo norteamericano",
+            "to": "north-american-buffalo",
+            "x": 54.64,
+            "y": 10.76,
+            "w": 22.33,
+            "h": 8.27
+          },
+          {
+            "label": "¿Quién es el más vil?",
+            "to": "who-is-the-meanest",
+            "x": 50,
+            "y": 33,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "El búfalo asiático o acuático",
+            "to": "water-buffalo",
+            "x": 4.56,
+            "y": 37.71,
+            "w": 12.15,
+            "h": 10.23
+          },
+          {
+            "label": "Amantes de los pájaros",
+            "to": "bird-lovers",
+            "x": 4.56,
+            "y": 43.8,
+            "w": 12.0,
+            "h": 4.14
+          },
+          {
+            "label": "Rebaños africanos",
+            "to": "video",
+            "x": 1.59,
+            "y": 57.71,
+            "w": 18.1,
+            "h": 4.14
+          },
+          {
+            "label": "De pezuñas y manos",
+            "to": "of-hooves-and-hands",
+            "x": 1.59,
+            "y": 57.71,
+            "w": 18.1,
+            "h": 4.14
+          }
+        ]
+      },
+      "horns-aplenty": {
+        "image": "assets/es/cbuf/CBUF01PU.webp",
+        "back": "main"
+      },
+      "north-american-buffalo": {
+        "image": "assets/es/cbuf/CBUF02PU.webp",
+        "back": "main"
+      },
+      "water-buffalo": {
+        "image": "assets/es/cbuf/CBUF03PU.webp",
+        "back": "main"
+      },
+      "of-hooves-and-hands": {
+        "image": "assets/es/cbuf/CBUF04PU.webp",
+        "back": "main"
+      },
+      "who-is-the-meanest": {
+        "image": "assets/es/cbuf/CBUF05PU.webp",
+        "back": "main"
+      },
+      "bird-lovers": {
+        "image": "assets/es/cbuf/CBUF06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/cbuf/CBUF00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/cbuf/clip.mp4",
+        "poster": "assets/es/cbuf/CBUF07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/cbuf/narration.mp3",
+  "sound": "assets/es/cbuf/CBUF00AF.mp3",
+  "factsNarration": "assets/es/cbuf/CBUF00FB.mp3",
+  "video": {
+    "title": "Rebaños africanos",
+    "src": "assets/es/cbuf/clip.mp4",
+    "poster": "assets/es/cbuf/poster.webp",
+    "caption": "Hubo un tiempo en el que los rebaños de búfalos salvajes vagaban por gran parte de África; algunos vivían incluso en los bosques. Aunque estos dos tipos de búfalo salvaje parecen un poco diferentes tienen dos cosas en común: ¡los cuernos afilados y la conducta agresiva!"
+  }
+}

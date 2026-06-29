@@ -1,0 +1,217 @@
+{
+  "id": "bara",
+  "code": "BARA",
+  "name": "Barracuda",
+  "scientificName": "Sphyraena barracuda",
+  "needsScientificVerify": false,
+  "tagline": "¡Dientes como dagas y más rápida que un destello: la barracuda es la reina de los mares tropicales!",
+  "weapons": [
+    "Dientes y mandíbulas"
+  ],
+  "habitats": [
+    "Océanos y arrecifes de coral"
+  ],
+  "regions": [
+    "Océanos y mares"
+  ],
+  "hero": {
+    "image": "assets/es/bara/BARA00AA.webp",
+    "alt": "Barracuda"
+  },
+  "intro": "Más temible que los tiburones, según la opinión de muchos buceadores, la barracuda es grande y agresiva y su boca está llena de dientes en forma de lanza. También es rápida: puede alcanzar una velocidad de 43 kilómetros por hora. Probablemente, la mayoría de los ataques a personas son consecuencia de una confusión: cuando el agua está turbia una persona se parece mucho a un pez grande.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Ataca rápidamente y muerde.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Sardinas y otros peces pequeños.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "La barracuda es un animal curioso que a veces ha seguido a los buceadores durante largo tiempo.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 3 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Mares tropicales",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "dental-daggers",
+      "title": "Dagas dentales",
+      "image": "assets/es/bara/BARA01PU.webp",
+      "text": "¡No todos los dentistas se atreverían a limpiar estos dientes! Es cierto que las impresionantes mandíbulas de la barracuda podrían hacer mucho daño a una persona. Pero los dientes de los animales, incluyendo la barracuda, no están hechos para atacar al hombre, sino a los animales que comen habitualmente.",
+      "captions": [
+        {
+          "label": "La orca o ballena asesina",
+          "text": "La orca, también llamada \"ballena asesina\", utiliza los dientes en forma de cono para atrapar presas escurridizas."
+        },
+        {
+          "label": "La barracuda",
+          "text": "Una barracuda puede cortar de un tajo un banco de peces con sus dientes como cuchillos."
+        },
+        {
+          "label": "La piraña",
+          "text": "Los dientes triangulares y afilados de la piraña le permiten lanzarse sobre la presa y arrancarle limpiamente un trozo de carne."
+        }
+      ],
+      "narration": "assets/es/bara/BARA01NP.mp3"
+    },
+    {
+      "id": "dangerous-dish",
+      "title": "Un plato peligroso",
+      "image": "assets/es/bara/BARA02PU.webp",
+      "text": "Es evidente que no te resultaría muy agradable que te mordiera uno de estos animales. ¿Pero sabías que sería igual de malo que mordieras tú a uno de ellos? Estos animales algunas veces se alimentan de peces venenosos, por lo que se convierten en tóxicos.",
+      "captions": [
+        {
+          "label": "La barracuda",
+          "text": "Las barracudas a veces comen pez globo o balón, cuyo veneno es 500 veces más fuerte que el cianuro."
+        },
+        {
+          "label": "La morena",
+          "text": "La morena es uno de los peces más venenosos. ¡Ni se te ocurra pensar en comerte a una!"
+        },
+        {
+          "label": "El tiburón martillo",
+          "text": "El hígado es la parte más venenosa de este animal."
+        }
+      ],
+      "narration": "assets/es/bara/BARA02NP.mp3"
+    },
+    {
+      "id": "diver-danger",
+      "title": "Los peligros de un buceador",
+      "image": "assets/es/bara/BARA03PU.webp",
+      "text": "Hay muchos peligros en el agua, además de las barracudas. Éstos son algunos de los animales temibles que un buceador habrá de vigilar.",
+      "captions": [
+        {
+          "label": "Los corales",
+          "text": "Aunque pueden parecer una hermosa planta, todos los corales pueden picar. Resulta especialmente doloroso el contacto con el coral tubular anaranjado."
+        },
+        {
+          "label": "La serpiente de mar",
+          "text": "Ten cuidado con las serpientes de mar si buceas en Australia o en el Pacífico Sur, pues son extremadamente venenosas. Por suerte son también bastante tímidas."
+        },
+        {
+          "label": "¡Socorro!",
+          "text": "El ataque de un gran tiburón blanco es una de las peores pesadillas de un buceador. Por suerte es raro que ataquen al hombre."
+        }
+      ],
+      "narration": "assets/es/bara/BARA03NP.mp3"
+    },
+    {
+      "id": "too-close",
+      "title": "¡Demasiado cerca!",
+      "image": "assets/es/bara/BARA04PU.webp",
+      "text": "¡Aunque una barracuda te siguiese hasta tu casa, no ibas a quedártela! Se conocen casos en los que, como animalitos curiosos, han seguido a los buceadores. Por lo visto se sienten atraídos por el movimiento oscilante del buceador, parecido al de un pez herido. Por tanto, si te encuentras con una barracuda quédate quieto: no ibas a nadar más rápido que ella y así es probable que se dé cuenta de que no eres comida y se vaya.",
+      "narration": "assets/es/bara/BARA04NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/bara/BARA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 4.25,
+            "y": 6.83,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Un plato peligroso",
+            "to": "dangerous-dish",
+            "x": 38.68,
+            "y": 13.12,
+            "w": 13.25,
+            "h": 4.14
+          },
+          {
+            "label": "Los peligros de un buceador",
+            "to": "diver-danger",
+            "x": 10.98,
+            "y": 63.23,
+            "w": 10.28,
+            "h": 4.57
+          },
+          {
+            "label": "¡Demasiado cerca!",
+            "to": "too-close",
+            "x": 25,
+            "y": 72,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Dagas dentales",
+            "to": "dental-daggers",
+            "x": 77.33,
+            "y": 64.31,
+            "w": 2.92,
+            "h": 4.14
+          },
+          {
+            "label": "Bandas de barracudas",
+            "to": "video",
+            "x": 51.83,
+            "y": 72.77,
+            "w": 18.88,
+            "h": 6.52
+          }
+        ]
+      },
+      "dental-daggers": {
+        "image": "assets/es/bara/BARA01PU.webp",
+        "back": "main"
+      },
+      "dangerous-dish": {
+        "image": "assets/es/bara/BARA02PU.webp",
+        "back": "main"
+      },
+      "diver-danger": {
+        "image": "assets/es/bara/BARA03PU.webp",
+        "back": "main"
+      },
+      "too-close": {
+        "image": "assets/es/bara/BARA04PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/bara/BARA00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/bara/clip.mp4",
+        "poster": "assets/es/bara/BARA05TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/bara/narration.mp3",
+  "sound": "assets/es/bara/BARA00AF.mp3",
+  "factsNarration": "assets/es/bara/BARA00FB.mp3",
+  "video": {
+    "title": "Bandas de barracudas",
+    "src": "assets/es/bara/clip.mp4",
+    "poster": "assets/es/bara/poster.webp",
+    "caption": "Las barracudas se agrupan en enormes bancos cuando emigran para desovar. ¡Imagínate ver nadar hacia ti a cientos de estos peces de aspecto temible! Pero estarías totalmente seguro, pues no se conoce ningún caso de ataque a personas cuando forman un banco."
+  }
+}

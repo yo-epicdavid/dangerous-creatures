@@ -1,0 +1,303 @@
+{
+  "id": "elef",
+  "code": "ELEF",
+  "name": "Elefante",
+  "scientificName": "Loxodonta africana",
+  "needsScientificVerify": false,
+  "tagline": "Toneladas de fuerza, inteligencia y ternura: el gigante que nunca olvida.",
+  "weapons": [
+    "Cuernos, colmillos y embestidas"
+  ],
+  "habitats": [
+    "Praderas y sabanas",
+    "Bosques"
+  ],
+  "regions": [
+    "África",
+    "Asia"
+  ],
+  "hero": {
+    "image": "assets/es/elef/ELEF00AA.webp",
+    "alt": "Elefante"
+  },
+  "intro": "Combinan la fuerza para derribar un árbol y la precisión para elegir y coger una hoja de hierba. Pesan toneladas, pero se mueven casi en silencio. Viven casi tanto como nosotros y mantienen el contacto con sus familiares. Por su fuerza, gracia e inteligencia, han interesado al hombre desde que nuestra especie se encontró con la suya.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Pisotea o utiliza la trompa para golpear al oponente o tirar de él.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Hierbas, hojas, cortezas, raíces y frutas.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Los elefantes se comunican a distancia con sonidos de frecuencia tan baja que el oído humano no puede percibirlos.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 7,5 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "África, India, Asia.",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "unlikely-looking-relatives",
+      "title": "Parientes, aunque no lo parecen",
+      "image": "assets/es/elef/ELEF01PU.webp",
+      "text": "¿Habrías imaginado que estos animales están emparentados con los elefantes? Con los manatíes y los cerdos hormigueros tienen unos antepasados comunes que aparecieron en el período paleoceno, hace 65 millones de años. El parentesco entre ellos es mayor que el que mantienen con los demás mamíferos de la actualidad.",
+      "captions": [
+        {
+          "label": "Los hiracoideos",
+          "text": "Estos pequeños herbívoros viven en áreas rocosas del este y el sur de África, así como en algunas zonas de Oriente Medio. Como los elefantes, en las patas tienen \"uñas\" en vez de pezuñas."
+        },
+        {
+          "label": "El dugón, dugongo o vaca marina",
+          "text": "Este mamífero marino vive en las costas de África, Asia y Australia. Los machos adultos tienen \"colmillos\": dos dientes largos que sobresalen de su boca."
+        }
+      ],
+      "narration": "assets/es/elef/ELEF01NP.mp3"
+    },
+    {
+      "id": "on-tiptoes",
+      "title": "De puntillas",
+      "image": "assets/es/elef/ELEF02PU.webp",
+      "text": "Mirando la parte externa de la pata de un elefante, nunca imaginarías que está de puntillas. Pero si pudieras ver el interior de su pata ancha y plana, te darías cuenta de que los elefantes pasan la mayor parte de su vida de puntillas.",
+      "captions": [
+        {
+          "label": "Vista exterior",
+          "text": "Las patas anchas y de planta plana de un elefante resultan perfectas para distribuir el peso de este animal enorme. Toda esa carne convierte cada pata, de cuatro o cinco uñas, en un gran amortiguador."
+        },
+        {
+          "label": "Vista interior",
+          "text": "Si pusieras un esqueleto humano de puntillas, los huesos de los pies se parecerían mucho a éstos. El hueso del talón se levanta del suelo, mientras que los de los dedos apuntan hacia abajo."
+        }
+      ],
+      "narration": "assets/es/elef/ELEF02NP.mp3"
+    },
+    {
+      "id": "packing-a-trunk",
+      "title": "La trompa",
+      "image": "assets/es/elef/ELEF03PU.webp",
+      "text": "La trompa de un elefante está llena de músculos y nervios, por lo que es muy fuerte y sensible al mismo tiempo. Los elefantes africanos tienen dos \"labios\" al final de la trompa, que pueden cerrar para sujetar objetos pequeños, como haces tú con los dedos. Los elefantes asiáticos sólo tienen un \"labio\", por lo que en lugar de sujetar un objeto con la punta, como harían los africanos, lo envuelven con la trompa.",
+      "narration": "assets/es/elef/ELEF03NP.mp3"
+    },
+    {
+      "id": "tusks-for-all-purposes",
+      "title": "Colmillos para todo",
+      "image": "assets/es/elef/ELEF04PU.webp",
+      "text": "Los colmillos son dientes especializados que siguen creciendo durante la vida entera del elefante. No los utiliza para morder o masticar, sino para excavar en el suelo y, ocasionalmente, para luchar con otros animales. Por desgracia, el ser humano ha encontrado otros usos a los colmillos de elefante: como objetos decorativos y para su uso en joyería.",
+      "narration": "assets/es/elef/ELEF04NP.mp3",
+      "captions": [
+        {
+          "label": "Cráneo de un elefante asiático",
+          "text": "Cráneo de un elefante asiático."
+        },
+        {
+          "label": "Colmillo de elefante asiático macho",
+          "text": "Colmillo de elefante asiático macho."
+        },
+        {
+          "label": "Colmillo de elefante africano hembra",
+          "text": "Colmillo de elefante africano hembra."
+        },
+        {
+          "label": "Colmillo de mamut (antepasado del elefante)",
+          "text": "Colmillo de mamut, antepasado del elefante."
+        },
+        {
+          "label": "Colmillo de elefante africano macho",
+          "text": "Colmillo de elefante africano macho."
+        }
+      ]
+    },
+    {
+      "id": "the-ivory-trade",
+      "title": "El comercio del marfil",
+      "image": "assets/es/elef/ELEF05PU.webp",
+      "text": "Durante siglos, el marfil se ha tallado para hacer joyas y estatuas, se ha incrustado en muebles y se ha usado para hacer teclas de piano. El marfil fue tan valioso que se le llamó \"oro blanco\". Cientos de miles de elefantes fueron sacrificados por el marfil de sus colmillos. Ahora es ilegal matar a un elefante a menos que tengas una licencia especial. Algunos gobiernos africanos han quemado grandes montones de marfil, como éste, para ayudar a poner fin a este comercio.",
+      "narration": "assets/es/elef/ELEF05NP.mp3"
+    },
+    {
+      "id": "tightly-knit-group",
+      "title": "Un grupo muy unido",
+      "image": "assets/es/elef/ELEF06PU.webp",
+      "text": "Un grupo típico de elefantes africanos suele tener menos de 15 miembros. La hembra de mayor edad, la matriarca, es la que manda, y el resto de la familia lo componen sus parientes hembras adultas con la crías. Los machos adultos pasan de una familia a otra para aparearse con las hembras, y pueden formar grupos de \"solteros\". Cuando son amenazados, los elefantes más grandes escudan a los más pequeños detrás de ellos y todos los elefantes adultos protegen a la crías.",
+      "narration": "assets/es/elef/ELEF06NP.mp3"
+    },
+    {
+      "id": "working-for-a-living",
+      "title": "Hay que trabajar para vivir",
+      "image": "assets/es/elef/ELEF07PU.webp",
+      "text": "A la hora de mover troncos pesados por terrenos accidentados, no hay quien compita con la fuerza de un elefante. El hombre ha entrenado a los elefantes, especialmente a los elefantes asiáticos como éste, durante siglos. Tanto en Asia como en África han sido utilizados como animales de carga, para transportar soldados, cazadores y turistas, y como excavadoras vivientes, para limpiar la tierra y arrancar árboles. La mayoría de los elefantes de trabajo vivieron en estado salvaje hasta que fueron capturados y sacados de su hábitat natural.",
+      "narration": "assets/es/elef/ELEF07NP.mp3"
+    },
+    {
+      "id": "family-values",
+      "title": "Valores familiares",
+      "image": "assets/es/elef/ELEF08PU.webp",
+      "text": "Las crías del elefante tienen una infancia larga y agradable, al menos en comparación con la mayoría de los miembros del mundo animal. Durante los 3 ó 4 primeros años, se alimentan de la leche materna. Los elefantes pequeños juegan juntos: persiguiéndose, empujándose y luchando unos con otros. Cuando alcanzan la pubertad, entre los 10 y 15 años de edad, las hembras permanecen casi todas con el grupo, pero los machos jóvenes lo abandonan para llevar una vida independiente.",
+      "narration": "assets/es/elef/ELEF08NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/elef/ELEF00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.02,
+            "y": 9.19,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "¡A la carga!",
+            "to": "video",
+            "x": 37.68,
+            "y": 5.08,
+            "w": 21.98,
+            "h": 8.03
+          },
+          {
+            "label": "Un grupo muy unido",
+            "to": "tightly-knit-group",
+            "x": 37.68,
+            "y": 5.08,
+            "w": 19.48,
+            "h": 8.03
+          },
+          {
+            "label": "Parientes, aunque no lo parecen",
+            "to": "unlikely-looking-relatives",
+            "x": 50.34,
+            "y": 5.73,
+            "w": 42.76,
+            "h": 6.08
+          },
+          {
+            "label": "Hay que trabajar para vivir",
+            "to": "working-for-a-living",
+            "x": 93.31,
+            "y": 32.13,
+            "w": 6.2,
+            "h": 3.48
+          },
+          {
+            "label": "Valores familiares",
+            "to": "family-values",
+            "x": 72,
+            "y": 47,
+            "w": 20,
+            "h": 7
+          },
+          {
+            "label": "La trompa",
+            "to": "packing-a-trunk",
+            "x": 40.96,
+            "y": 45.55,
+            "w": 9.79,
+            "h": 3.7
+          },
+          {
+            "label": "El comercio del marfil",
+            "to": "the-ivory-trade",
+            "x": 35.96,
+            "y": 54.43,
+            "w": 12.45,
+            "h": 4.13
+          },
+          {
+            "label": "Colmillos para todo",
+            "to": "tusks-for-all-purposes",
+            "x": 27.06,
+            "y": 64.38,
+            "w": 18.07,
+            "h": 9.76
+          },
+          {
+            "label": "La trompa",
+            "to": "packing-a-trunk",
+            "x": 27.06,
+            "y": 64.38,
+            "w": 18.07,
+            "h": 9.76
+          },
+          {
+            "label": "De puntillas",
+            "to": "on-tiptoes",
+            "x": 24,
+            "y": 78,
+            "w": 15,
+            "h": 6
+          }
+        ]
+      },
+      "unlikely-looking-relatives": {
+        "image": "assets/es/elef/ELEF01PU.webp",
+        "back": "main"
+      },
+      "on-tiptoes": {
+        "image": "assets/es/elef/ELEF02PU.webp",
+        "back": "main"
+      },
+      "packing-a-trunk": {
+        "image": "assets/es/elef/ELEF03PU.webp",
+        "back": "main"
+      },
+      "tusks-for-all-purposes": {
+        "image": "assets/es/elef/ELEF04PU.webp",
+        "back": "main"
+      },
+      "the-ivory-trade": {
+        "image": "assets/es/elef/ELEF05PU.webp",
+        "back": "main"
+      },
+      "tightly-knit-group": {
+        "image": "assets/es/elef/ELEF06PU.webp",
+        "back": "main"
+      },
+      "working-for-a-living": {
+        "image": "assets/es/elef/ELEF07PU.webp",
+        "back": "main"
+      },
+      "family-values": {
+        "image": "assets/es/elef/ELEF08PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/elef/ELEF00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/elef/clip.mp4",
+        "poster": "assets/es/elef/ELEF09TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/elef/narration.mp3",
+  "sound": "assets/es/elef/ELEF00AF.mp3",
+  "factsNarration": "assets/es/elef/ELEF00FB.mp3",
+  "video": {
+    "title": "¡A la carga!",
+    "src": "assets/es/elef/clip.mp4",
+    "poster": "assets/es/elef/poster.webp",
+    "caption": "Cuando se sienten amenazados, los elefantes embisten algunas veces contra los intrusos. Cuando un elefante que está embistiendo hace mucho ruido, mueve la cabeza y agita la trompa, es que te está avisando: retírate. Si el elefante no hace ruido, sino que galopa a toda velocidad hacia ti, el ataque va en serio: ¡corre a buscar refugio!"
+  }
+}

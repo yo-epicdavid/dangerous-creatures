@@ -1,0 +1,221 @@
+{
+  "id": "tigr",
+  "code": "TIGR",
+  "name": "Tigre",
+  "scientificName": "Panthera tigris",
+  "needsScientificVerify": false,
+  "tagline": "¡El rey de las selvas asiáticas acecha en silencio y ataca por sorpresa!",
+  "weapons": [
+    "Dientes y mandíbulas",
+    "Garras y zarpas"
+  ],
+  "habitats": [
+    "Selva tropical",
+    "Bosques"
+  ],
+  "regions": [
+    "Asia"
+  ],
+  "hero": {
+    "image": "assets/es/tigr/TIGR00AA.webp",
+    "alt": "Tigre"
+  },
+  "intro": "Un espíritu intranquilo que podía aparecerse de muchas formas: así es como muchas culturas antiguas describían al tigre. Por desgracia, estos hermosos espíritus han sido casi erradicados de la faz de la tierra. Estos felinos han sido sacrificados por deporte, por miedo o por afán de lucro. En algunos países asiáticos, los huesos de tigre en polvo se siguen considerando como una potente medicina.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Ataca por sorpresa, mordiendo y desgarrando a su víctima.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Ciervos, búfalos, cabras, jabalíes, antílopes y liebres.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Cuando se ha saciado, el tigre cubre lo que queda con hojas y tierra para esconderlo de los otros carnívoros. Más tarde regresa para seguir comiendo.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 3,9 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "India, Tailandia, Indonesia, China, Siberia",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "stripes-and-shadows",
+      "title": "Rayas y sombras",
+      "image": "assets/es/tigr/TIGR01PU.webp",
+      "text": "A diferencia de los felinos de la sabana, como los leones y guepardos, el tigre no caza nunca en espacios abiertos, sino que se lanza de improviso sobre la presa desde su escondite tras la maleza o la hierba alta. Las rayas verticales de su pelaje son perfectas para interrumpir su perfil y confundirse con los tallos, las hierbas y las sombras del bosque. ¡Imagina la conmoción al ver de repente este par de ojos amarillos fijos en ti!",
+      "narration": "assets/es/tigr/TIGR01NP.mp3"
+    },
+    {
+      "id": "water-lovers",
+      "title": "Amantes del agua",
+      "image": "assets/es/tigr/TIGR02PU.webp",
+      "text": "Si estás en zona de tigres y quieres ver a uno de estos grandes felinos, dirígete a la zona de agua más cercana. Los tigres esperan con frecuencia a sus presas cerca de una poza. Si la pieza que han cazado es grande y no pueden comérsela entera, esconden los restos cerca del agua para volver después a comer y beber. Cuando hace calor, suele tumbarse en una corriente para refrescarse.",
+      "narration": "assets/es/tigr/TIGR02NP.mp3"
+    },
+    {
+      "id": "mother-and-mentor",
+      "title": "Madre y maestra",
+      "image": "assets/es/tigr/TIGR03PU.webp",
+      "text": "Una familia de tigres está compuesta por la madre y los cachorros; el padre se va una vez que se ha apareado con la hembra. Los cachorros se quedan con la madre durante unos dos años, aprendiendo a ser cazadores hábiles. Después abandonan el grupo para establecerse en su propio territorio y la madre busca un padre adecuado para engendrar su siguiente camada.",
+      "narration": "assets/es/tigr/TIGR03NP.mp3"
+    },
+    {
+      "id": "fierce-loners",
+      "title": "Solitarios feroces",
+      "image": "assets/es/tigr/TIGR04PU.webp",
+      "text": "Los tigres viven y cazan solos, excepto cuando un macho y una hembra se juntan brevemente para aparearse; o cuando una hembra está criando a sus cachorros. Cada tigre adulto controla un gran territorio: varios cientos de kilómetros en el caso de algunos machos. Los tigres vecinos con frecuencia se conocen y, algunas veces, incluso comparten la pieza cazada; pero pueden producirse peleas sangrientas si aparece de pronto un tigre extraño, o si uno le roba la comida al otro.",
+      "narration": "assets/es/tigr/TIGR04NP.mp3"
+    },
+    {
+      "id": "power-hunter",
+      "title": "Poderoso cazador",
+      "image": "assets/es/tigr/TIGR05PU.webp",
+      "text": "El tigre es el más grande y musculoso de todos los felinos. Después de acechar a la presa, salta sobre su lomo. A veces el tigre le rompe el cuello al caer sobre ella, otras la mata de un bocado en la nuca, o la estrangula.",
+      "captions": [
+        {
+          "label": "Saltos de larga distancia",
+          "text": "¡Algunos informes dicen que un tigre puede dar un salto de hasta 10 metros de longitud!, lo que significa que si estuvieras en un lado de una calle de mediana anchura y hubiera un tigre en el otro, ¡de un solo salto se podría poner a tu lado (o a tu espalda)!"
+        }
+      ],
+      "narration": "assets/es/tigr/TIGR05NP.mp3"
+    },
+    {
+      "id": "born-blind-and-toothless",
+      "title": "Nacen ciegos y sin dientes",
+      "image": "assets/es/tigr/TIGR06PU.webp",
+      "text": "Al igual que los gatitos, los cachorros de tigre nacen ciegos y desdentados. Son diminutos e indefensos de pequeños, ¡pero no se quedan así mucho tiempo! Los cachorros, al igual que los gatitos domésticos, aprenden a cazar y a luchar mediante el juego. A los 11 meses, comienzan a acompañar a la madre en las cacerías. Poco antes de los dos años son diestros cazadores y se van a vivir solos.",
+      "narration": "assets/es/tigr/TIGR06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/tigr/TIGR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 1.75,
+            "y": 2.06,
+            "w": 9.96,
+            "h": 9.79
+          },
+          {
+            "label": "Rayas y sombras",
+            "to": "stripes-and-shadows",
+            "x": 36.96,
+            "y": 5.32,
+            "w": 31.09,
+            "h": 8.92
+          },
+          {
+            "label": "Amantes del agua",
+            "to": "water-lovers",
+            "x": 36.96,
+            "y": 10.1,
+            "w": 6.21,
+            "h": 4.14
+          },
+          {
+            "label": "Solitarios feroces",
+            "to": "fierce-loners",
+            "x": 57,
+            "y": 7,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Nacen ciegos y sin dientes",
+            "to": "born-blind-and-toothless",
+            "x": 51,
+            "y": 16,
+            "w": 33,
+            "h": 6
+          },
+          {
+            "label": "Madre y maestra",
+            "to": "mother-and-mentor",
+            "x": 55,
+            "y": 24,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "El territorio del tigre",
+            "to": "video",
+            "x": 56,
+            "y": 31,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Poderoso cazador",
+            "to": "power-hunter",
+            "x": 63,
+            "y": 40,
+            "w": 18,
+            "h": 6
+          }
+        ]
+      },
+      "stripes-and-shadows": {
+        "image": "assets/es/tigr/TIGR01PU.webp",
+        "back": "main"
+      },
+      "water-lovers": {
+        "image": "assets/es/tigr/TIGR02PU.webp",
+        "back": "main"
+      },
+      "mother-and-mentor": {
+        "image": "assets/es/tigr/TIGR03PU.webp",
+        "back": "main"
+      },
+      "fierce-loners": {
+        "image": "assets/es/tigr/TIGR04PU.webp",
+        "back": "main"
+      },
+      "power-hunter": {
+        "image": "assets/es/tigr/TIGR05PU.webp",
+        "back": "main"
+      },
+      "born-blind-and-toothless": {
+        "image": "assets/es/tigr/TIGR06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/tigr/TIGR00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/tigr/clip.mp4",
+        "poster": "assets/es/tigr/TIGR07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/tigr/narration.mp3",
+  "sound": "assets/es/tigr/TIGR00AF.mp3",
+  "factsNarration": "assets/es/tigr/TIGR00FB.mp3",
+  "video": {
+    "title": "El territorio del tigre",
+    "src": "assets/es/tigr/clip.mp4",
+    "poster": "assets/es/tigr/poster.webp",
+    "caption": "En otro tiempo los tigres se extendían por una gran parte de Asia, pero ahora no quedan muchos en estado salvaje. Entonces los hombres necesitaban protegerse de los tigres, pero ahora son éstos los que necesitan la protección del hombre. Cuando acotamos zonas como territorios para los tigres, estamos salvando también a muchas otras especies que comparten el hábitat de estos felinos gigantes."
+  }
+}

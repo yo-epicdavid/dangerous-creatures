@@ -1,0 +1,220 @@
+{
+  "id": "hamr",
+  "code": "HAMR",
+  "name": "Tiburón martillo",
+  "scientificName": "Sphyrna lewini",
+  "needsScientificVerify": false,
+  "tagline": "Con la cabeza más extraña del océano, el tiburón martillo es el cazador que nunca olvida lo que huele.",
+  "weapons": [
+    "Dientes y mandíbulas"
+  ],
+  "habitats": [
+    "Océanos y arrecifes de coral"
+  ],
+  "regions": [
+    "Océanos y mares"
+  ],
+  "hero": {
+    "image": "assets/es/hamr/HAMR00AA.webp",
+    "alt": "Tiburón martillo"
+  },
+  "intro": "Los tiburones martillo no prestan atención a los intrusos cuando se han reunido en grandes bancos, por eso se puede bucear entre ellos, en esos momentos con toda seguridad. El tiburón martillo festoneado (una de las muchas clases en las que se subdivide este animal) tiende a reunirse sobre las cumbres de las montañas submarinas.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Mata mordiendo a su presa.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Peces, calamares y tiburones pequeños.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Estos peces comen rayas y medusas venenosas, pues el veneno de la presa no les hace daño, sino que los vuelve venenosos.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 5,5 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: mares tropicales y templados",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "shark-camouflage",
+      "title": "Camuflaje de tiburón",
+      "image": "assets/es/hamr/HAMR01PU.webp",
+      "text": "Los tiburones también son atacados por predadores: habitualmente otros predadores. Muchos tiburones pequeños utilizan el camuflaje para evitar que los devoren sus parientes. Las manchas de estos dos tiburones les ayudan a confundirse con el fondo del océano, evitando ser vistos por sus predadores.",
+      "captions": [
+        {
+          "label": "Tiburón cabeza de toro",
+          "text": "Los tiburones cabeza de toro se denominan así por la espina o cuerno que tienen delante de su aleta dorsal."
+        }
+      ],
+      "narration": "assets/es/hamr/HAMR01NP.mp3"
+    },
+    {
+      "id": "monstrous-relative",
+      "title": "Relativamente monstruosos",
+      "image": "assets/es/hamr/HAMR02PU.webp",
+      "text": "¿Crees que los tiburones grandes son tan temibles como dicen? ¡En absoluto! El tiburón ballena, que es muy difícil encontrar, es enorme (llega a medir 14 metros), pero se alimenta exclusivamente de plancton y no muestra interés por los animales más grandes. Aunque por su tamaño se le puede considerar un monstruo, en realidad es un gigante encantador.",
+      "narration": "assets/es/hamr/HAMR02NP.mp3"
+    },
+    {
+      "id": "carpet-or-shark",
+      "title": "¿Alfombra o tiburón?",
+      "image": "assets/es/hamr/HAMR03PU.webp",
+      "text": "El tiburón martillo no es el único de aspecto extraño. Este tiburón wobbewong australiano se parece a una alfombra, por lo que también se le da el nombre de \"tiburón alfombra\". Los dibujos y las \"borlas\" carnosas le ayudan a camuflarse en el fondo del océano.",
+      "narration": "assets/es/hamr/HAMR03NP.mp3"
+    },
+    {
+      "id": "heads-for-all-purposes",
+      "title": "Cabezas de múltiples usos",
+      "image": "assets/es/hamr/HAMR04PU.webp",
+      "text": "Muchos peces, además de boca para comer, ojos para ver y fosas nasales para olfatear, en la cabeza tienen otros órganos especiales.",
+      "captions": [
+        {
+          "label": "Cabeza eléctrica",
+          "text": "Las manchas del morro de este gato de mar o tiburón gato son unos órganos electrosensibles llamados cápsulas de Lorenzini. Todos los tiburones tienen estos órganos especiales, que les permiten detectar las presas. Los peces, igual que todas las criaturas vivientes, descargan impulsos eléctricos."
+        },
+        {
+          "label": "Morro de sierra",
+          "text": "Este pez sierra es un tipo de raya y está emparentado con los tiburones. El pez sierra usa ese morro de aspecto maligno para abrirse paso entre los bancos de peces."
+        },
+        {
+          "label": "Morro de espátula",
+          "text": "Los científicos todavía no están muy seguros de lo que hace el pez espátula con largo morro. Este pez vive en algunos ríos de EE.UU. y China."
+        }
+      ],
+      "narration": "assets/es/hamr/HAMR04NP.mp3"
+    },
+    {
+      "id": "angelic-cousin",
+      "title": "Primo angelical",
+      "image": "assets/es/hamr/HAMR05PU.webp",
+      "text": "¡Este ángel no sirve para decorar la punta del árbol de Navidad! El angelote o tiburón ángel se asemeja mucho a la raya, pero es un tiburón. Si quieres diferenciarlos, fíjate en las aletas pectorales: cuando no están unidas a la cabeza, es un tiburón.",
+      "captions": [
+        {
+          "label": "Al acecho",
+          "text": "El angelote o tiburón ángel se esconde en la arena esperando a que se pongan a su alcance peces y crustáceos."
+        }
+      ],
+      "narration": "assets/es/hamr/HAMR05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/hamr/HAMR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.34,
+            "y": 9.62,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "¿Por qué un martillo?",
+            "to": "video",
+            "x": 13,
+            "y": 17,
+            "w": 24,
+            "h": 8
+          },
+          {
+            "label": "Relativamente monstruosos",
+            "to": "monstrous-relative",
+            "x": 63,
+            "y": 14,
+            "w": 31,
+            "h": 7
+          },
+          {
+            "label": "Cabezas de múltiples usos",
+            "to": "heads-for-all-purposes",
+            "x": 2.68,
+            "y": 31.7,
+            "w": 18.39,
+            "h": 4.13
+          },
+          {
+            "label": "¿Alfombra o tiburón?",
+            "to": "carpet-or-shark",
+            "x": 82.37,
+            "y": 29.32,
+            "w": 13.86,
+            "h": 4.13
+          },
+          {
+            "label": "Camuflaje de tiburón",
+            "to": "shark-camouflage",
+            "x": 59.09,
+            "y": 63.74,
+            "w": 14.17,
+            "h": 4.13
+          },
+          {
+            "label": "Primo angelical",
+            "to": "angelic-cousin",
+            "x": 62.37,
+            "y": 64.38,
+            "w": 33.07,
+            "h": 6.73
+          }
+        ]
+      },
+      "shark-camouflage": {
+        "image": "assets/es/hamr/HAMR01PU.webp",
+        "back": "main"
+      },
+      "monstrous-relative": {
+        "image": "assets/es/hamr/HAMR02PU.webp",
+        "back": "main"
+      },
+      "carpet-or-shark": {
+        "image": "assets/es/hamr/HAMR03PU.webp",
+        "back": "main"
+      },
+      "heads-for-all-purposes": {
+        "image": "assets/es/hamr/HAMR04PU.webp",
+        "back": "main"
+      },
+      "angelic-cousin": {
+        "image": "assets/es/hamr/HAMR05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/hamr/HAMR00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/hamr/clip.mp4",
+        "poster": "assets/es/hamr/HAMR06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/hamr/narration.mp3",
+  "sound": "assets/es/hamr/HAMR00AF.mp3",
+  "factsNarration": "assets/es/hamr/HAMR00FB.mp3",
+  "video": {
+    "title": "¿Por qué un martillo?",
+    "src": "assets/es/hamr/clip.mp4",
+    "poster": "assets/es/hamr/poster.webp",
+    "caption": "Este pez tiene un «martillo» como cabeza, pero no se sabe el porqué. Quizá la visión y el olfato de los tiburones mejoran cuando los ojos y las fosas nasales están situados a más distancia unos de otros, en los extremos del martillo. Puede que al estar situados en esa cabeza tan ancha, los órganos detectores de la electricidad ayuden al tiburón a rastrear su presa. ¡De lo que sí estamos bastante seguros es de que no utilizan el martillo para poner clavos!"
+  }
+}

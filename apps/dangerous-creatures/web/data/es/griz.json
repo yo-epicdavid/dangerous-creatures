@@ -1,0 +1,272 @@
+{
+  "id": "griz",
+  "code": "GRIZ",
+  "name": "Oso grizzly u oso pardo grizzly",
+  "scientificName": "Ursus arctos horribilis",
+  "needsScientificVerify": false,
+  "tagline": "¡El gigante del norte que puede pesar tanto como ocho hombres adultos!",
+  "weapons": [
+    "Dientes y mandíbulas",
+    "Garras y zarpas"
+  ],
+  "habitats": [
+    "Bosques",
+    "Montañas"
+  ],
+  "regions": [
+    "Norteamérica"
+  ],
+  "hero": {
+    "image": "assets/es/griz/GRIZ00AA.webp",
+    "alt": "Oso grizzly u oso pardo grizzly"
+  },
+  "intro": "Los omnívoros más grandes que viven hoy en tierra firme son los osos del norte. ¡Los impresionantes osos grizzly, de dientes enormes capaces de morder tornillos de acero, pueden llegar a pesar como ocho hombres adultos! Además alcanzan una velocidad de 45 kilómetros por hora. ¡Menos mal que no acostumbran a perseguir al hombre!",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Mata y se defiende a bocados y zarpazos.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Peces, hierba, miel, roedores, insectos, frutas y frutos secos.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Estos osos perseguirán todo lo que se mueva. Pueden comer 9 kilos de carne de una sentada: el equivalente de 80 hamburguesas.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 2,4 m",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Norteamérica",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "gone-fishin",
+      "title": "¡Vamos de pesca!",
+      "image": "assets/es/griz/GRIZ01PU.webp",
+      "text": "El pescado fresco es la comida favorita de los osos grizzly. El mejor lugar para ver a estos enormes osos es una poza de río con abundantes peces, sobre todo cuando el salmón sube el río contra corriente desde el océano, para desovar. Algunos osos golpean el agua con sus grandes zarpas, con la esperanza de conseguir algún pez. Otros bucean para capturarlo con los dientes.",
+      "narration": "assets/es/griz/GRIZ01NP.mp3"
+    },
+    {
+      "id": "black-or-brown",
+      "title": "¿Negro o pardo?",
+      "image": "assets/es/griz/GRIZ02PU.webp",
+      "text": "En muchas zonas de osos grizzly también habitan osos negros. Éstos son principalmente vegetarianos, aunque no rechazan la carne cuando es fácil obtenerla. Algunos osos negros se confunden con los grizzly u osos pardos porque en realidad son más marrones que negros. Si quieres saber si es negro o grizzly sólo tienes que mirarle la espalda: el grizzly tiene joroba y el negro no.",
+      "captions": [
+        {
+          "label": "Oseznos trepadores",
+          "text": "Los osos negros viven principalmente en zonas arboladas. Si comparten su territorio con los grizzly, las crías de oso negro a veces tienen que trepar a un árbol rápidamente para no servir de comida a un macho de oso pardo."
+        }
+      ],
+      "narration": "assets/es/griz/GRIZ02NP.mp3"
+    },
+    {
+      "id": "ancient-cave-dweller",
+      "title": "Antiguos moradores de las cavernas",
+      "image": "assets/es/griz/GRIZ03PU.webp",
+      "text": "Hace cientos de miles de años, en lo que hoy es Europa los osos gigantes se alimentaban de bisontes y otros herbívoros. Durante los períodos glaciales, nuestros antepasados solían competir con estos osos por las cuevas. ¿Que cómo lo sabemos? Porque hemos encontrado osos pintados en las paredes de las cuevas en las que vivían los hombres prehistóricos, así como huesos de oso fosilizados en el suelo de algunas de ellas.",
+      "captions": [
+        {
+          "label": "Cráneos de entonces y de ahora",
+          "text": "Te darás cuenta de que los osos antiguos eran algo más grandes que los actuales, así como de que con el tiempo los dientes de estos osos han cambiado: los del cráneo fósil son puntiagudos y afilados, para comer carne, mientras que los diferentes tipos de dientes del cráneo del oso moderno demuestran que hoy en día los osos comen todo tipo de alimentos, tanto plantas como carne."
+        }
+      ],
+      "narration": "assets/es/griz/GRIZ03NP.mp3"
+    },
+    {
+      "id": "the-cub-club",
+      "title": "Reunión de oseznos",
+      "image": "assets/es/griz/GRIZ04PU.webp",
+      "text": "Aunque un oso grizzly adulto es tan grande como un bisonte, ¡un osezno recién nacido cabe en una caja de zapatos! Los osos grizzly o pardos nacen con los ojos cerrados, sin piel y pesan entre 350 y 680 gramos. En los diez años siguientes tienen que crecer mucho.",
+      "captions": [
+        {
+          "label": "Bonito, pero no indefenso",
+          "text": "Nunca te acerques a un osezno en estado salvaje. Aunque te parezca indefenso, puede pedir ayuda a su madre, que estará muy cerca."
+        }
+      ],
+      "narration": "assets/es/griz/GRIZ04NP.mp3"
+    },
+    {
+      "id": "unpredictable",
+      "title": "Impredecible",
+      "image": "assets/es/griz/GRIZ05PU.webp",
+      "text": "Es difícil saber lo que haría un oso grizzly u oso pardo si se topase contigo. Si el grizzly se pone de pie como éste, o bien te ha desafiado porque te acercaste demasiado, o bien trata de descubrir si serías una buena comida. En cualquier caso, empieza a retroceder lentamente. Algunos han descubierto que un oso grande puede huir si se grita o agitan los brazos.",
+      "narration": "assets/es/griz/GRIZ05NP.mp3"
+    },
+    {
+      "id": "asian-relatives",
+      "title": "Parientes asiáticos",
+      "image": "assets/es/griz/GRIZ06PU.webp",
+      "text": "Los osos recorrieron en otro tiempo el mundo entero, pero ahora viven en muy pocos lugares. Este oso negro asiático, también conocido como oso negro tibetano o del Himalaya, vive en Japón, China y Siberia. El hombre ha matado osos negros asiáticos desde hace siglos, por lo que quedan muy pocos. Un oso asiático negro grande pesa 100 kilos.",
+      "captions": [
+        {
+          "label": "¡También tú serías malo!",
+          "text": "Estos osos tienen fama de ser peligrosos para el hombre. Pero sólo le atacan cuando invade su territorio. ¡Tú también cambiarías tu comportamiento habitual si algún extraño invadiera tu hogar o se comiera la mayor parte de tu alimento!"
+        }
+      ],
+      "narration": "assets/es/griz/GRIZ06NP.mp3"
+    },
+    {
+      "id": "whos-the-biggest",
+      "title": "¿Quién es el más grande?",
+      "image": "assets/es/griz/GRIZ07PU.webp",
+      "text": "Si los osos de todo el mundo se reunieran para ver quién es el más grande, ¿quién ganaría?",
+      "captions": [
+        {
+          "label": "Otro peso pesado",
+          "text": "Los osos polares, que viven en el Ártico, a veces alcanzan los 700 kilos."
+        },
+        {
+          "label": "Pesos pesados",
+          "text": "Aunque no todos los osos grizzly o pardos son gigantes, un macho grande puede pesar casi 800 kilos. ¡Y todavía puede ser mayor el oso kodiak —otro tipo de oso pardo—!"
+        },
+        {
+          "label": "Pesos ligeros",
+          "text": "Los osos negros americanos han llegado a pesar 270 kilos. El más ligero de todos es el oso malayo, que pesa entre 25 y 50 kilos."
+        }
+      ],
+      "narration": "assets/es/griz/GRIZ07NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/griz/GRIZ00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 4.56,
+            "y": 9.02,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Reunión de oseznos",
+            "to": "the-cub-club",
+            "x": 38.05,
+            "y": 10.1,
+            "w": 11.22,
+            "h": 4.14
+          },
+          {
+            "label": "¿Negro o pardo?",
+            "to": "black-or-brown",
+            "x": 69.04,
+            "y": 2.71,
+            "w": 24.67,
+            "h": 4.14
+          },
+          {
+            "label": "¡Vamos de pesca!",
+            "to": "gone-fishin",
+            "x": 36,
+            "y": 15,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Impredecible",
+            "to": "unpredictable",
+            "x": 17.24,
+            "y": 52.28,
+            "w": 12.94,
+            "h": 4.14
+          },
+          {
+            "label": "Disputas territoriales",
+            "to": "video",
+            "x": 10.98,
+            "y": 60.76,
+            "w": 14.82,
+            "h": 4.14
+          },
+          {
+            "label": "Parientes asiáticos",
+            "to": "asian-relatives",
+            "x": 12,
+            "y": 70,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "¿Quién es el más grande?",
+            "to": "whos-the-biggest",
+            "x": 7.07,
+            "y": 78.58,
+            "w": 16.22,
+            "h": 4.57
+          },
+          {
+            "label": "Antiguos moradores de las cavernas",
+            "to": "ancient-cave-dweller",
+            "x": 36.18,
+            "y": 81.63,
+            "w": 17.79,
+            "h": 3.7
+          }
+        ]
+      },
+      "gone-fishin": {
+        "image": "assets/es/griz/GRIZ01PU.webp",
+        "back": "main"
+      },
+      "black-or-brown": {
+        "image": "assets/es/griz/GRIZ02PU.webp",
+        "back": "main"
+      },
+      "ancient-cave-dweller": {
+        "image": "assets/es/griz/GRIZ03PU.webp",
+        "back": "main"
+      },
+      "the-cub-club": {
+        "image": "assets/es/griz/GRIZ04PU.webp",
+        "back": "main"
+      },
+      "unpredictable": {
+        "image": "assets/es/griz/GRIZ05PU.webp",
+        "back": "main"
+      },
+      "asian-relatives": {
+        "image": "assets/es/griz/GRIZ06PU.webp",
+        "back": "main"
+      },
+      "whos-the-biggest": {
+        "image": "assets/es/griz/GRIZ07PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/griz/GRIZ00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/griz/clip.mp4",
+        "poster": "assets/es/griz/GRIZ08TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/griz/narration.mp3",
+  "sound": "assets/es/griz/GRIZ00AF.mp3",
+  "factsNarration": "assets/es/griz/GRIZ00FB.mp3",
+  "video": {
+    "title": "Disputas territoriales",
+    "src": "assets/es/griz/clip.mp4",
+    "poster": "assets/es/griz/poster.webp",
+    "caption": "Los osos grizzly o pardos no siempre se llevan bien entre ellos. Una madre intentará alejar a los machos adultos, porque a veces se comen a los oseznos. A los machos adultos no les gusta compartir su territorio con otros machos y cuando dos de ellos se encuentran suelen pelear a empujones para decidir quién se queda."
+  }
+}

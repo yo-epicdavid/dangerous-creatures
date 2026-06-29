@@ -1,0 +1,226 @@
+{
+  "id": "coug",
+  "code": "COUG",
+  "name": "Puma o león de la montaña",
+  "scientificName": "Puma concolor",
+  "needsScientificVerify": false,
+  "tagline": "¡El rey silencioso de América puede saltar hasta la ventana de un primer piso!",
+  "weapons": [
+    "Dientes y mandíbulas"
+  ],
+  "habitats": [
+    "Montañas",
+    "Bosques"
+  ],
+  "regions": [
+    "Norteamérica",
+    "Sudamérica"
+  ],
+  "hero": {
+    "image": "assets/es/coug/COUG00AA.webp",
+    "alt": "Puma o león de la montaña"
+  },
+  "intro": "Los pumas pueden adaptar sus hábitos para vivir casi en cualquier región, desde bosques a pantanos o montañas. En otro tiempo, estos hermosos felinos se extendían desde el sur de Canadá al extremo inferior de Sudamérica. Se le suele dar también el nombre de león de la montaña.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Aguarda escondido a su presa, a la que rompe el cuello de un mordisco.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Ciervos, castores, puercoespines y monos.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "¡Los pumas pueden dar unos saltos fantásticos, de hasta 4 metros de altura! ¡llegarían a la ventana de un primer piso!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 1,9 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Norteamérica y Sudamérica",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "spotted-babies",
+      "title": "Cachorros manchados",
+      "image": "assets/es/coug/COUG01PU.webp",
+      "text": "Los cachorros de puma nacen con manchas. Esto ayuda a las crías a confundirse mejor con el entorno, para que los predadores no les encuentren. Según vaya creciendo, a este cachorro le irán desapareciendo las manchas... ¡y el tamaño del cuerpo será más proporcionado con esas orejas!",
+      "narration": "assets/es/coug/COUG01NP.mp3"
+    },
+    {
+      "id": "snow-cat",
+      "title": "El felino de las nieves",
+      "image": "assets/es/coug/COUG02PU.webp",
+      "text": "Los colonizadores de Norteamérica encontraron pumas en los pantanos, bosques, praderas y desiertos. Pero el hombre los ha expulsado de casi todas partes. Donde hay más probabilidades de verlo hoy es en lugares remotos, como en las zonas altas de un parque nacional.",
+      "narration": "assets/es/coug/COUG02NP.mp3"
+    },
+    {
+      "id": "wildcat",
+      "title": "El gato montés",
+      "image": "assets/es/coug/COUG03PU.webp",
+      "text": "Este bobcat o lince rojo, llamado también gato montés, pesa menos de 15 kilos y es más pequeño que un puma. Su aullido produce escalofríos y se ha comparado a menudo con el llanto de una mujer.",
+      "captions": [
+        {
+          "label": "El área del lince rojo",
+          "text": "Los linces rojos habitan en el sur de Canadá, en la mayor parte de Estados Unidos y en México. Pero es raro verlos, en parte porque no quedan muchos, pues se les ha cazado por su piel, y en parte porque suelen ser cazadores nocturnos."
+        },
+        {
+          "label": "Comida favorita",
+          "text": "Uno de los alimentos favoritos del lince rojo son los conejos, como esta liebre orejuda o californiana."
+        }
+      ],
+      "narration": "assets/es/coug/COUG03NP.mp3"
+    },
+    {
+      "id": "northern-neighbor",
+      "title": "Vecinos del norte",
+      "image": "assets/es/coug/COUG04PU.webp",
+      "text": "Este lince tiene las plantas de las patas recubiertas de pelo, para que no se le enfríen al caminar por la nieve. El lince se parece mucho al bobcat o lince rojo, pero es más grande y más pesado, y tiene más largo el pelo de las orejas.",
+      "captions": [
+        {
+          "label": "Las áreas del lince",
+          "text": "En otro tiempo vivía en todo el norte de Europa, Siberia, Canadá y la zona septentrional de Estados Unidos, pero ahora está en peligro de extinción en muchas partes del mundo."
+        },
+        {
+          "label": "Un aperitivo sobre raquetas de nieve",
+          "text": "La liebre americana, también llamada de patas de raqueta de nieve, vive sobre la nieve lo mismo que el lince. A menudo tiene que correr mucho, pues el lince la tiene siempre en su menú."
+        }
+      ],
+      "narration": "assets/es/coug/COUG04NP.mp3"
+    },
+    {
+      "id": "southern-cousins",
+      "title": "Parientes del sur",
+      "image": "assets/es/coug/COUG05PU.webp",
+      "text": "Antes había felinos salvajes en todo el mundo. Estas dos especies de felino viven en Centroamérica y Sudamérica.",
+      "captions": [
+        {
+          "label": "El ocelote o tigrillo",
+          "text": "Estos hermosos cazadores se extienden desde los bosques y zonas de monte bajo de Texas y Nuevo México hasta Argentina. Algunos intentan capturarlos y tenerlos como animal doméstico, pero el ocelote es mucho más feliz viviendo en libertad."
+        },
+        {
+          "label": "El baracayá o gato de la pampa",
+          "text": "Este pequeño felino vive en Sudamérica, y pasa gran parte del tiempo en los árboles. Por desgracia, su caza es frecuente por el valor de su piel."
+        }
+      ],
+      "narration": "assets/es/coug/COUG05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/coug/COUG00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.18,
+            "y": 8.54,
+            "w": 5.58,
+            "h": 3.92
+          },
+          {
+            "label": "Vecinos del norte",
+            "to": "northern-neighbor",
+            "x": 42.84,
+            "y": 7.67,
+            "w": 14.95,
+            "h": 4.13
+          },
+          {
+            "label": "Ganarse la vida a saltos",
+            "to": "video",
+            "x": 39.09,
+            "y": 17.63,
+            "w": 16.51,
+            "h": 4.56
+          },
+          {
+            "label": "El gato montés",
+            "to": "wildcat",
+            "x": 85.02,
+            "y": 26.72,
+            "w": 7.61,
+            "h": 4.13
+          },
+          {
+            "label": "El felino de las nieves",
+            "to": "snow-cat",
+            "x": 49.56,
+            "y": 57.89,
+            "w": 13.7,
+            "h": 9.76
+          },
+          {
+            "label": "Cachorros manchados",
+            "to": "spotted-babies",
+            "x": 52,
+            "y": 67,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Parientes del sur",
+            "to": "southern-cousins",
+            "x": 48.46,
+            "y": 76.29,
+            "w": 14.79,
+            "h": 4.13
+          }
+        ]
+      },
+      "spotted-babies": {
+        "image": "assets/es/coug/COUG01PU.webp",
+        "back": "main"
+      },
+      "snow-cat": {
+        "image": "assets/es/coug/COUG02PU.webp",
+        "back": "main"
+      },
+      "wildcat": {
+        "image": "assets/es/coug/COUG03PU.webp",
+        "back": "main"
+      },
+      "northern-neighbor": {
+        "image": "assets/es/coug/COUG04PU.webp",
+        "back": "main"
+      },
+      "southern-cousins": {
+        "image": "assets/es/coug/COUG05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/coug/COUG00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/coug/clip.mp4",
+        "poster": "assets/es/coug/COUG06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/coug/narration.mp3",
+  "sound": "assets/es/coug/COUG00AF.mp3",
+  "factsNarration": "assets/es/coug/COUG00FB.mp3",
+  "video": {
+    "title": "Ganarse la vida a saltos",
+    "src": "assets/es/coug/clip.mp4",
+    "poster": "assets/es/coug/poster.webp",
+    "caption": "El puma es un felino de agilidad asombrosa. Se le ha visto saltar a un árbol con una carga siete veces superior a su propio peso, o bajar por acantilados cortados a pico. Su truco favorito es saltar sobre el lomo de la presa."
+  }
+}

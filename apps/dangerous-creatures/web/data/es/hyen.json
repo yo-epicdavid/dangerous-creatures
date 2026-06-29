@@ -1,0 +1,216 @@
+{
+  "id": "hyen",
+  "code": "HYEN",
+  "name": "Hiena",
+  "scientificName": "Crocuta crocuta",
+  "needsScientificVerify": false,
+  "tagline": "En manada, las hienas son algunos de los cazadores más temibles y voraces de toda África.",
+  "weapons": [
+    "Dientes y mandíbulas",
+    "Ataques en grupo"
+  ],
+  "habitats": [
+    "Praderas y sabanas"
+  ],
+  "regions": [
+    "África",
+    "Asia"
+  ],
+  "hero": {
+    "image": "assets/es/hyen/HYEN00AA.webp",
+    "alt": "Hiena"
+  },
+  "intro": "Hay tres tipos de hienas: la manchada, la rayada y la parda. A las hienas manchadas (que aparecen aquí) se les llama a veces «hienas reidoras». Son principalmente carnívoras. Cazan a menudo en grandes manadas y matan animales mucho más grandes que ellas. La rayada y la parda, ambas en peligro de extinción, se alimentan de frutas, plantas y carroña.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Atacan en grupo y muerden a la presa.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Animales muertos, cebras, ñúes y antílopes.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Las hienas comen de todo. Pueden digerir el pelo, cuernos y pezuñas de un animal. ¡Hasta se han comido platos de aluminio robados en un campamento!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta algo más de 2 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "África, India, Oriente Medio, Asia",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "whats-yours-is-mine",
+      "title": "Lo tuyo es mío",
+      "image": "assets/es/hyen/HYEN01PU.webp",
+      "text": "Vivir de la caza es duro, por eso muchos predadores (como el león) se apropian de todo lo que encuentran, aunque no lo hayan cazado ellos. Los leones prefieren carroñear a cazar y a menudo les roban la comida a las hienas.",
+      "narration": "assets/es/hyen/HYEN01NP.mp3"
+    },
+    {
+      "id": "sometimes-a-scavenger",
+      "title": "Carroñera unas veces",
+      "image": "assets/es/hyen/HYEN02PU.webp",
+      "text": "La mayoría de los predadores no desprecian la carne «gratis»; y las hienas no son una excepción. Cuando un animal muere, o es cobrado y abandonado por el cazador, las hienas y los buitres acuden siempre junto al cadáver para obtener carne fácil. Se conocen casos en los que las hienas han robado comida y pertrechos en los campamentos.",
+      "narration": "assets/es/hyen/HYEN02NP.mp3"
+    },
+    {
+      "id": "sometimes-a-hunter",
+      "title": "Cazador otras",
+      "image": "assets/es/hyen/HYEN03PU.webp",
+      "text": "Para las hienas manchadas todo lo que se mueve es comida, sobre todo si es viejo o está enfermo o herido. Siempre están vigilando a sus posibles presas como antílopes, ñúes y cebras. Cuando no cazan en grupo, roban en solitario las crías de otros animales, incluidos cachorros de su misma especie.",
+      "captions": [
+        {
+          "label": "Cebra de Burchell",
+          "text": "Cebra de Burchell"
+        },
+        {
+          "label": "Ñu",
+          "text": "Ñu"
+        },
+        {
+          "label": "Gacela de Thompson",
+          "text": "Gacela de Thompson"
+        }
+      ],
+      "narration": "assets/es/hyen/HYEN03NP.mp3"
+    },
+    {
+      "id": "life-in-the-clan",
+      "title": "La vida en el clan",
+      "image": "assets/es/hyen/HYEN04PU.webp",
+      "text": "Las hienas manchadas viven en grandes grupos, llamados «clanes». El clan se compone de hembras emparentadas, con sus cachorros y con machos de otros clanes. Las hembras son las dueñas del clan. Cada clan tiene una guarida común donde nacen todos los cachorros, pero cada madre amamanta a los suyos.",
+      "narration": "assets/es/hyen/HYEN04NP.mp3"
+    },
+    {
+      "id": "not-a-dog",
+      "title": "No es un perro",
+      "image": "assets/es/hyen/HYEN05PU.webp",
+      "text": "Podrás confundir una hiena con un perro de aspecto curioso. Después de todo, las hienas tienen erguidas orejas, hocico afilado y colas peludas. No obstante, tienen unos poderosísimos músculos mandibulares, glándulas odoríferas cerca de la cola y melena. En realidad no tienen relación con los perros, salvo que comparten con ellos, la mangosta, un antepasado común.",
+      "captions": [
+        {
+          "label": "El licaón o lobo pintado africano",
+          "text": "Las hienas se parecen mucho a los licaones, o lobos pintados africanos. De hecho actúan de forma muy parecida, aunque no son parientes cercanos."
+        }
+      ],
+      "narration": "assets/es/hyen/HYEN05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/hyen/HYEN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 1,
+            "y": 2,
+            "w": 10,
+            "h": 12
+          },
+          {
+            "label": "Cazador otras",
+            "to": "sometimes-a-hunter",
+            "x": 2.99,
+            "y": 34.95,
+            "w": 21.82,
+            "h": 8.89
+          },
+          {
+            "label": "La vida en el clan",
+            "to": "life-in-the-clan",
+            "x": 41.12,
+            "y": 33.65,
+            "w": 14.17,
+            "h": 10.19
+          },
+          {
+            "label": "Lo tuyo es mío",
+            "to": "whats-yours-is-mine",
+            "x": 66.9,
+            "y": 37.54,
+            "w": 17.14,
+            "h": 4.13
+          },
+          {
+            "label": "No es un perro",
+            "to": "not-a-dog",
+            "x": 2.99,
+            "y": 40.57,
+            "w": 9.17,
+            "h": 4.56
+          },
+          {
+            "label": "Manada predadora",
+            "to": "video",
+            "x": 41.12,
+            "y": 40.36,
+            "w": 13.07,
+            "h": 4.13
+          },
+          {
+            "label": "Carroñera unas veces",
+            "to": "sometimes-a-scavenger",
+            "x": 77.37,
+            "y": 46.2,
+            "w": 17.92,
+            "h": 3.48
+          }
+        ]
+      },
+      "whats-yours-is-mine": {
+        "image": "assets/es/hyen/HYEN01PU.webp",
+        "back": "main"
+      },
+      "sometimes-a-scavenger": {
+        "image": "assets/es/hyen/HYEN02PU.webp",
+        "back": "main"
+      },
+      "sometimes-a-hunter": {
+        "image": "assets/es/hyen/HYEN03PU.webp",
+        "back": "main"
+      },
+      "life-in-the-clan": {
+        "image": "assets/es/hyen/HYEN04PU.webp",
+        "back": "main"
+      },
+      "not-a-dog": {
+        "image": "assets/es/hyen/HYEN05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/hyen/HYEN00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/hyen/clip.mp4",
+        "poster": "assets/es/hyen/HYEN06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/hyen/narration.mp3",
+  "sound": "assets/es/hyen/HYEN00AF.mp3",
+  "factsNarration": "assets/es/hyen/HYEN00FB.mp3",
+  "video": {
+    "title": "Manada predadora",
+    "src": "assets/es/hyen/clip.mp4",
+    "poster": "assets/es/hyen/poster.webp",
+    "caption": "Quince minutos después de que la manada de hienas capturara esta presa, habían desaparecido hasta los huesos. Como las hienas pueden comer casi cualquier cosa, incluyendo desperdicios y carne muerta, durante mucho tiempo se creyó que eran sólo carroñeras. Pero lo cierto es que cuando cazan en manada se incluyen entre los predadores más mortíferos de África."
+  }
+}

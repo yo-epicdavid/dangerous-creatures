@@ -1,0 +1,340 @@
+{
+  "id": "cock",
+  "code": "COCK",
+  "name": "Cucaracha",
+  "scientificName": "Periplaneta americana",
+  "needsScientificVerify": false,
+  "tagline": "¡Lleva 400 millones de años en la Tierra y no hay quien la eche de la cocina!",
+  "weapons": [
+    "Transmisores de enfermedades"
+  ],
+  "habitats": [
+    "Ciudades y campos",
+    "Selva tropical",
+    "Desierto"
+  ],
+  "regions": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/cock/COCK00AA.webp",
+    "alt": "Cucaracha"
+  },
+  "intro": "Las selvas tropicales, los desiertos, las alcantarillas de las ciudades, los armarios de las cocinas: las cucarachas se encuentran como en su casa en todas partes. Estos insectos son extremadamente adaptables y comen prácticamente de todo: desde basura descompuesta, pasando por galletas... ¡hasta el aislante de los cables de los aparatos de televisión! Como se desplazan a veces desde los lugares insalubres en que se encuentran hasta la cocina y la despensa, propagan la suciedad y la enfermedad.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Es nocivo para el hombre porque propaga enfermedades y estropea alimentos.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Cualquier alimento, incluyendo los recipientes.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Las cucarachas pueden sobrevivir bajo condiciones extremas y llegan a resistir 3 meses sin comida y 1 mes sin agua.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 15 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "casi todo el mundo",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "the-case-for-cockroaches",
+      "title": "La defensa de la cucaracha",
+      "image": "assets/es/cock/COCK01PU.webp",
+      "text": "¿Sirven para algo bueno? A veces comen basura y animales muertos. ¡Imagina lo que pasaría si nadie lo hiciera! Además, las cucarachas son una importante fuente de alimento para muchos otros animales.",
+      "captions": [
+        {
+          "label": "Demasiado joven para volar",
+          "text": "Puedes deducir que esta cucaracha no es adulta porque todavía no ha desarrollado las alas."
+        },
+        {
+          "label": "La limpieza de la cueva",
+          "text": "Esta cucaracha de Surinam adulta vive en lugares oscuros y húmedos, como las cuevas."
+        }
+      ],
+      "narration": "assets/es/cock/COCK01NP.mp3"
+    },
+    {
+      "id": "cockroach-control",
+      "title": "El control de las cucarachas",
+      "image": "assets/es/cock/COCK02PU.webp",
+      "text": "Muchas aves, reptiles e insectos dependen de las cucarachas para subsistir. Si éstas desaparecieran de pronto, esos animales pasarían hambre. Esto te demuestra que todo animal, incluida la cucaracha, es valioso.",
+      "captions": [
+        {
+          "label": "La araña plátano o banana",
+          "text": "Esta araña vive cerca de las bananas para poder cazar las cucarachas e insectos que vienen a deleitarse con la fruta."
+        },
+        {
+          "label": "El ciempiés",
+          "text": "Este cazador de tantísimas patas no renunciaría a comerse una jugosa cucaracha. Como a ella, a los ciempiés les gusta esconderse en lugares oscuros."
+        },
+        {
+          "label": "La avispa",
+          "text": "¿Sabías que las larvas de avispa son carnívoras? Esta avispa adulta ha cazado una cucaracha como provisión para su prole."
+        }
+      ],
+      "narration": "assets/es/cock/COCK02NP.mp3"
+    },
+    {
+      "id": "millions-of-years-old",
+      "title": "Desde hace millones de años",
+      "image": "assets/es/cock/COCK03PU.webp",
+      "text": "Las cucarachas vivían en la Tierra desde mucho antes que los dinosaurios. Como la mayoría de los animales prehistóricos, las cucarachas antiguas eran mucho más grandes que las de hoy. Estos animales también han sobrevivido desde los tiempos de los dinosaurios.",
+      "captions": [
+        {
+          "label": "La libélula",
+          "text": "Estos cazadores alados existen desde hace casi 300 millones de años. ¡La envergadura de una huella fósil de libélula alcanzaba los 60 centímetros!"
+        },
+        {
+          "label": "El milpiés",
+          "text": "Sabemos por los fósiles que antiguamente un milpiés medía más de 2 metros. Por suerte para los demás animales, era vegetariano."
+        },
+        {
+          "label": "El escorpión",
+          "text": "Los escorpiones gigantes fueron uno de los primeros carnívoros de la Tierra. Cazaban cucarachas, milpiés y otros bichos prehistóricos."
+        }
+      ],
+      "narration": "assets/es/cock/COCK03NP.mp3"
+    },
+    {
+      "id": "beetle-or-not",
+      "title": "¿Es o no un escarabajo?",
+      "image": "assets/es/cock/COCK04PU.webp",
+      "text": "Aunque una cucaracha se parece un poco a un escarabajo, no lo es. Los escarabajos son los tanques acorazados del mundo de los insectos. Tienen unas envolturas duras, llamadas élitros, que protegen sus alas. ¡Hay unas 300.000 especies de escarabajos!",
+      "captions": [
+        {
+          "label": "El escarabajo cardenal",
+          "text": "Este pequeño escarabajo escarlata que vive en Europa perfora la madera."
+        },
+        {
+          "label": "El escarabajo abejorro",
+          "text": "Las antenas de este escarabajo pelotero o del estiércol están unidas en una sola lámina que se extiende hacia fuera desde la cabeza."
+        },
+        {
+          "label": "No lo bastante dura",
+          "text": "Una cucaracha no tiene élitros ni otras características del escarabajo, por tanto no lo es."
+        },
+        {
+          "label": "El escarabajo del Atlas",
+          "text": "Este escarabajo macho ha levantado los élitros (envolturas), dejando al descubierto las frágiles alas que se ocultaban debajo."
+        }
+      ],
+      "narration": "assets/es/cock/COCK04NP.mp3"
+    },
+    {
+      "id": "is-it-an-insect",
+      "title": "¿Es un insecto?",
+      "image": "assets/es/cock/COCK05PU.webp",
+      "text": "Para que sea clasificado como insecto, un animal ha de tener seis patas unidas y un exoesqueleto duro. Las cucarachas, que han existido desde hace unos 400 millones de años, fueron uno de los primeros insectos voladores de la Tierra. ¿Crees que el resto de estos animales son insectos?",
+      "captions": [
+        {
+          "label": "¡Quieto como un palo!",
+          "text": "Este insecto palo de la India se parece a una ramita. Cuando una presa pasa confiadamente junto a él... ¡zas! El «palo» cobra vida y el bicho se convierte en su cena."
+        },
+        {
+          "label": "La joya del mundo de los insectos",
+          "text": "De los insectos, a los seres humanos nos resultan especialmente atractivas las mariposas, como esta cola de golondrina o macaón."
+        },
+        {
+          "label": "Equipado para la batalla",
+          "text": "Este escarabajo cornudo de Centroamérica utiliza sus impresionantes mandíbulas para la caza y para combatir a los intrusos. También es un insecto."
+        },
+        {
+          "label": "Insecto social",
+          "text": "Las hormigas son insectos que viven en colonias."
+        },
+        {
+          "label": "Soy un arácnido y estoy orgulloso de ello",
+          "text": "Las arañas tienen ocho patas, de manera que no son insectos. De hecho los insectos son su comida."
+        }
+      ],
+      "narration": "assets/es/cock/COCK05NP.mp3"
+    },
+    {
+      "id": "cave-life",
+      "title": "Vida en la cueva",
+      "image": "assets/es/cock/COCK06PU.webp",
+      "text": "A las cucarachas no les gusta la luz ni las temperaturas muy frías. Comen todo tipo de cosas que a nosotros nos repugnan y les gusta mucho el agua. Para una cucaracha la vivienda ideal es una cueva húmeda... ¡a ser posible llena de murciélagos!",
+      "captions": [
+        {
+          "label": "Devorador de cucarachas",
+          "text": "Esta araña cavernícola se alimenta sobre todo de moscas y polillas, pero aceptaría una crujiente cucaracha para cenar."
+        },
+        {
+          "label": "Cuanto más abajo, mejor",
+          "text": "Las cucarachas que habitan en cuevas pasan la mayor parte del tiempo en el suelo de la misma. Esta cucaracha de Surinam come guano de murciélago y cualquier murciélago muerto que encuentre."
+        },
+        {
+          "label": "Salen a cenar",
+          "text": "Cuando se pone el sol, los murciélagos salen de la cueva para cazar insectos voladores."
+        }
+      ],
+      "narration": "assets/es/cock/COCK06NP.mp3"
+    },
+    {
+      "id": "the-better-to-feel-with",
+      "title": "El mejor detector",
+      "image": "assets/es/cock/COCK07PU.webp",
+      "text": "Muchos insectos tienen en la cabeza unos «sensores», parecidos a unos bigotes, llamados antenas. Las cucarachas no utilizan las antenas para recibir programas de radio y televisión, como hacemos nosotros. Las usan para detectar diminutas vibraciones que les indican que otro animal está cerca.",
+      "captions": [
+        {
+          "label": "Otra forma de sentir",
+          "text": "Las arañas no son insectos y no tienen antenas. En su lugar, utilizan los pelos sensibles del cuerpo y de las patas para captar las vibraciones de su alrededor."
+        },
+        {
+          "label": "Las antenas de la cucaracha",
+          "text": "Como las cucarachas pasan gran parte del tiempo en la oscuridad, utilizan las antenas para orientarse y localizar la comida."
+        },
+        {
+          "label": "¿Antenas o cornamenta?",
+          "text": "Para un grillo de matorral de los robles debe ser bastante fastidioso impedir que se le doblen estos «sensores»."
+        }
+      ],
+      "narration": "assets/es/cock/COCK07NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/cock/COCK00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.65,
+            "y": 9.62,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Vida en la cueva",
+            "to": "cave-life",
+            "x": 63.15,
+            "y": 6.81,
+            "w": 13.23,
+            "h": 9.54
+          },
+          {
+            "label": "Nacido para comer",
+            "to": "video",
+            "x": 28.46,
+            "y": 13.09,
+            "w": 15.57,
+            "h": 10.63
+          },
+          {
+            "label": "El mejor detector",
+            "to": "the-better-to-feel-with",
+            "x": 12,
+            "y": 27,
+            "w": 30,
+            "h": 8
+          },
+          {
+            "label": "Desde hace millones de años",
+            "to": "millions-of-years-old",
+            "x": 6.43,
+            "y": 32.13,
+            "w": 14.79,
+            "h": 9.76
+          },
+          {
+            "label": "¿Es un insecto?",
+            "to": "is-it-an-insect",
+            "x": 11,
+            "y": 46,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "El control de las cucarachas",
+            "to": "cockroach-control",
+            "x": 8,
+            "y": 55,
+            "w": 23,
+            "h": 8
+          },
+          {
+            "label": "¿Es o no un escarabajo?",
+            "to": "beetle-or-not",
+            "x": 6,
+            "y": 63,
+            "w": 18,
+            "h": 8
+          },
+          {
+            "label": "La defensa de la cucaracha",
+            "to": "the-case-for-cockroaches",
+            "x": 54,
+            "y": 47,
+            "w": 34,
+            "h": 8
+          }
+        ]
+      },
+      "the-case-for-cockroaches": {
+        "image": "assets/es/cock/COCK01PU.webp",
+        "back": "main"
+      },
+      "cockroach-control": {
+        "image": "assets/es/cock/COCK02PU.webp",
+        "back": "main"
+      },
+      "millions-of-years-old": {
+        "image": "assets/es/cock/COCK03PU.webp",
+        "back": "main"
+      },
+      "beetle-or-not": {
+        "image": "assets/es/cock/COCK04PU.webp",
+        "back": "main"
+      },
+      "is-it-an-insect": {
+        "image": "assets/es/cock/COCK05PU.webp",
+        "back": "main"
+      },
+      "cave-life": {
+        "image": "assets/es/cock/COCK06PU.webp",
+        "back": "main"
+      },
+      "the-better-to-feel-with": {
+        "image": "assets/es/cock/COCK07PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/cock/COCK00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/cock/clip.mp4",
+        "poster": "assets/es/cock/COCK08TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/cock/narration.mp3",
+  "sound": "assets/es/cock/COCK00AF.mp3",
+  "factsNarration": "assets/es/cock/COCK00FB.mp3",
+  "video": {
+    "title": "Nacido para comer",
+    "src": "assets/es/cock/clip.mp4",
+    "poster": "assets/es/cock/poster.webp",
+    "caption": "No es un milagro que las cucarachas existan desde hace tanto tiempo. ¡No sólo se reproducen en una proporción alarmante, sino que además comen prácticamente de todo!"
+  }
+}

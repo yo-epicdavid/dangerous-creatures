@@ -1,0 +1,223 @@
+{
+  "id": "mwar",
+  "code": "MWAR",
+  "name": "Fragata portuguesa",
+  "scientificName": "Physalia physalis",
+  "needsScientificVerify": false,
+  "tagline": "¡Flota como un velero, pero sus tentáculos ocultan medio millón de arpones venenosos!",
+  "weapons": [
+    "Veneno y ponzoña",
+    "Aguijones"
+  ],
+  "habitats": [
+    "Océanos y arrecifes de coral"
+  ],
+  "regions": [
+    "Océanos y mares"
+  ],
+  "hero": {
+    "image": "assets/es/mwar/MWAR00AA.webp",
+    "alt": "Fragata portuguesa"
+  },
+  "intro": "La fragata portuguesa flota en el océano como el barco portugués del que recibe el nombre, con la vela toque balón hinchada al viento. ¡Pero ten cuidado con este hermoso pariente de la medusa! Bajo el cuerpo flotante le cuelgan unos tentáculos cubiertos por medio millón de células urticantes, todas dispuestas a dejar al descubierto un diminuto arpón venenoso. Sólo rozar un trozo de tentáculo arrojado a la playa por el mar te provocará una irritación que, aunque probablemente no sea mortal, sí puede resultar muy dolorosa.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Pica con células venenosas.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Todo tipo de peces.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "No tiene cerebro ni corazón. ¡En realidad no es un animal, sino un grupo de animales que viven juntos!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 30 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: mares tropicales",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "what-is-this-thing",
+      "title": "¿Qué es eso?",
+      "image": "assets/es/mwar/MWAR01PU.webp",
+      "text": "¡Una fragata portuguesa es en realidad una comunidad formada por cientos de individuos! Comienza como un pólipo parecido a una planta que al crecer se convierte en una bolsita gaseosa, a la que se le unen otros pólipos, cada uno de los cuales realiza una tarea diferenciada: unos digieren el alimento, otros son reproductivos, otros tienen células urticantes. El conjunto flota tranquilamente colgando del pólipo original, que ha crecido hasta convertirse en una gran bolsa de gas con una parte superior en forma de cresta, que actúa como vela.",
+      "narration": "assets/es/mwar/MWAR01NP.mp3"
+    },
+    {
+      "id": "whats-a-jellyfish",
+      "title": "¿Qué es una medusa?",
+      "image": "assets/es/mwar/MWAR02PU.webp",
+      "text": "Las fragatas portuguesas son parientes cercanas de la medusa, pero no son lo mismo exactamente. Una medusa es un único animal que pasa la mayor parte de su vida como pólipo, mientras que una fragata portuguesa es una colonia de individuos, en su mayoría pólipos, que se comportan como si fueran un solo animal.",
+      "captions": [
+        {
+          "label": "Cabeza de serpientes",
+          "text": "La medusa se llama así por un personaje griego legendario, del mismo nombre, que en la cabeza tenía serpientes en lugar de pelo."
+        }
+      ],
+      "narration": "assets/es/mwar/MWAR02NP.mp3"
+    },
+    {
+      "id": "gone-fishing",
+      "title": "De pesca",
+      "image": "assets/es/mwar/MWAR03PU.webp",
+      "text": "En cuanto un pez comete el error de meterse entre los tentáculos de una frágata portuguesa, se puede dar por muerto. Tras picarle, contrae los tentáculos y atrae a la víctima paralizada hacia los pólipos encargados de la alimentación. ¡Cada pólipo tiene su propia boca!",
+      "captions": [
+        {
+          "label": "Armada y preparada",
+          "text": "Las células urticantes (nematocistos) de todos los cnidarios (medusas, corales, anémonas e hidriozoos como la fragata portuguesa) funcionan como diminutos arpones. Cuando algo roza una célula urticante, ésta se abre y el filamento enroscado del interior se dispara hacia la piel del blanco. En cada tentáculo de los cnidarios, llamados así por la palabra griega que significa \"ortiga\", puede haber miles de células urticantes."
+        }
+      ],
+      "narration": "assets/es/mwar/MWAR03NP.mp3"
+    },
+    {
+      "id": "partners",
+      "title": "Socios",
+      "image": "assets/es/mwar/MWAR04PU.webp",
+      "text": "El pez payaso y las anémonas de mar mantienen una \"relación simbiótica\", lo que significa que la sociedad beneficia a las dos partes. Los predadores del pez no se acercarán mientras esté cerca la anémona; a cambio, la anémona se comerá los restos de las presas del pez. También hay pececillos que viven entre los tentáculos de una fragata portuguesa, pero es una relación en la que sólo se beneficia uno: ¡el pez se come trocitos de su anfitrión!",
+      "captions": [
+        {
+          "label": "Cubierto de babas",
+          "text": "Algunos científicos creen que el pez payaso produce una capa de mucus que lo protege de las células urticantes de las anémonas."
+        }
+      ],
+      "narration": "assets/es/mwar/MWAR04NP.mp3"
+    },
+    {
+      "id": "slimy-characters",
+      "title": "Babosos",
+      "image": "assets/es/mwar/MWAR05PU.webp",
+      "text": "¡Cuando a alguien le llaman \"baboso\", no suele ser un cumplido! Pero en el mundo de los animales marinos, la baba es un material realmente útil. Por ejemplo, el pececillo que vive entre los tentáculos de la fragata portuguesa y los de la anémona está protegido de las picaduras por el mucus que produce.",
+      "captions": [
+        {
+          "label": "Una capa vieja y maloliente",
+          "text": "El pequeño pez mandarín destaca realmente cuando nada junto a un arrecife de coral. Pero puede permitirse que le vean, pues produce una capa de mucus maloliente y de sabor insoportable. ¡Los predadores no quieren ni acercarse!"
+        },
+        {
+          "label": "Pepino amargo",
+          "text": "¡La holoturía o pepino de mar produce un veneno que le da mal sabor!"
+        }
+      ],
+      "narration": "assets/es/mwar/MWAR05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/mwar/MWAR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 6.59,
+            "y": 9.62,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Babosos",
+            "to": "slimy-characters",
+            "x": 27.84,
+            "y": 12.44,
+            "w": 17.29,
+            "h": 9.54
+          },
+          {
+            "label": "¿Qué es eso?",
+            "to": "what-is-this-thing",
+            "x": 27,
+            "y": 21,
+            "w": 25,
+            "h": 6
+          },
+          {
+            "label": "¿Qué es una medusa?",
+            "to": "whats-a-jellyfish",
+            "x": 25,
+            "y": 33,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "De pesca",
+            "to": "gone-fishing",
+            "x": 45.96,
+            "y": 39.71,
+            "w": 11.04,
+            "h": 3.05
+          },
+          {
+            "label": "Socios",
+            "to": "partners",
+            "x": 77.99,
+            "y": 17.41,
+            "w": 14.33,
+            "h": 4.13
+          },
+          {
+            "label": "Un rostro de tentáculos",
+            "to": "video",
+            "x": 43.62,
+            "y": 78.45,
+            "w": 14.48,
+            "h": 4.13
+          }
+        ]
+      },
+      "what-is-this-thing": {
+        "image": "assets/es/mwar/MWAR01PU.webp",
+        "back": "main"
+      },
+      "whats-a-jellyfish": {
+        "image": "assets/es/mwar/MWAR02PU.webp",
+        "back": "main"
+      },
+      "gone-fishing": {
+        "image": "assets/es/mwar/MWAR03PU.webp",
+        "back": "main"
+      },
+      "partners": {
+        "image": "assets/es/mwar/MWAR04PU.webp",
+        "back": "main"
+      },
+      "slimy-characters": {
+        "image": "assets/es/mwar/MWAR05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/mwar/MWAR00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/mwar/clip.mp4",
+        "poster": "assets/es/mwar/MWAR06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/mwar/narration.mp3",
+  "sound": "assets/es/mwar/MWAR00AF.mp3",
+  "factsNarration": "assets/es/mwar/MWAR00FB.mp3",
+  "video": {
+    "title": "Un rostro de tentáculos",
+    "src": "assets/es/mwar/clip.mp4",
+    "poster": "assets/es/mwar/poster.webp",
+    "caption": "Una fragata portuguesa parece bastante inofensiva desde la superficie. ¡Pero no nades cerca de ella! Puede contraer y extender sus tentáculos casi invisibles. ¡A veces sus tentáculos se extienden por debajo del agua hasta más de 30 metros de su flotador lleno de gas!"
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "id": "harp",
+  "code": "HARP",
+  "name": "Águila harpía",
+  "scientificName": "Harpia harpyja",
+  "needsScientificVerify": false,
+  "tagline": "¡El ave más poderosa y temida de las junglas americanas!",
+  "weapons": [
+    "Garras y zarpas"
+  ],
+  "habitats": [
+    "Selva tropical"
+  ],
+  "regions": [
+    "Norteamérica",
+    "Sudamérica"
+  ],
+  "hero": {
+    "image": "assets/es/harp/HARP00AA.webp",
+    "alt": "Águila harpía"
+  },
+  "intro": "El corte de unas garras afiladas y un batir de alas: ésta es la primera y última impresión que el águila harpía produce en su presa. Estas aves magníficas son las águilas más potentes del mundo; también son de las más raras. Quedan muy pocos ejemplares, que viven en las densas junglas tropicales del Centro y el Sur de América.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Con el pico y las garras sujeta y despedaza a su presa.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Monos, aves, perezosos, puercoespines y reptiles.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Estas águilas se llaman así en recuerdo de las harpías, crueles personajes de la mitología griega con cuerpo de mujer pero con alas y garras de ave.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 2,5 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Desde el sur de México a Sudamérica.",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "may-be-lunch",
+      "title": "Puede ser el almuerzo",
+      "image": "assets/es/harp/HARP01PU.webp",
+      "text": "El águila harpía puede volar con asombrosa rapidez a través del bosque denso y precipitarse sobre la presa a una velocidad superior a los 80 kilómetros por hora. Los animales que vemos aquí han de estar siempre alerta, si no quieren ser presa de la harpía.",
+      "captions": [
+        {
+          "label": "Aperitivo de perezoso o perico ligero",
+          "text": "Si un perezoso o perico ligero se aventura por las ramas más altas, se puede convertir en una presa fácil para la harpía. El perezoso se mueve muy d-e-s-p-a-c-i-o."
+        },
+        {
+          "label": "De plato fuerte, mono",
+          "text": "El mono araña está en la lista de alimentos favoritos del águila harpía, pero como es un acróbata fantástico, capaz de cambiar de un árbol a otro mediante saltos mortales, a menudo escapa de ella."
+        }
+      ],
+      "narration": "assets/es/harp/HARP01NP.mp3"
+    },
+    {
+      "id": "birds-of-prey",
+      "title": "Aves de rapiña",
+      "image": "assets/es/harp/HARP02PU.webp",
+      "text": "Las águilas son aves rapaces o de rapiña. Todas ellas son cazadoras de garras afiladas y picos ganchudos.",
+      "captions": [
+        {
+          "label": "Águila pescadora",
+          "text": "Estas aves viven junto a los ríos y lagos de Norteamérica y Europa. Son expertas en capturar peces lanzándose en picado sobre el agua. Las águilas pescadoras europeas pasan el invierno en África. Envergadura: hasta 1,9 metros."
+        },
+        {
+          "label": "Águila de las estepas",
+          "text": "A diferencia de otras águilas, la de las estepas construye el nido en el suelo pues hay muy pocos árboles en las estepas asiáticas en las que habita."
+        },
+        {
+          "label": "Águila filipina o monera",
+          "text": "Está muy relacionada con el águila harpía. Las águilas filipinas se encuentran en peligro de extinción y quedan muy pocos ejemplares en estado salvaje."
+        }
+      ],
+      "narration": "assets/es/harp/HARP02NP.mp3"
+    },
+    {
+      "id": "winged-hunters",
+      "title": "Cazadores alados",
+      "image": "assets/es/harp/HARP03PU.webp",
+      "text": "Cuando pensamos en predadores lo que nos suele venir a la mente son mamíferos, como leones o lobos, pero las aves son unos de los predadores más diestros de la actualidad.",
+      "captions": [
+        {
+          "label": "Busardo mixto o halcón de Harris",
+          "text": "Envergadura: hasta 1 metro."
+        },
+        {
+          "label": "Atrapar y marcharse",
+          "text": "Extendiendo las alas y la cola, el busardo mixto o halcón de Harris reduce su velocidad para atrapar la presa con sus garras afiladas. ¡Imagina qué impresión te causaría si fueses un conejo!"
+        }
+      ],
+      "narration": "assets/es/harp/HARP03NP.mp3"
+    },
+    {
+      "id": "eagle-eye",
+      "title": "Vista de águila",
+      "image": "assets/es/harp/HARP04PU.webp",
+      "text": "En el mundo animal son las aves de presa las que pueden ver nítidamente desde más lejos. Quizá nosotros no veamos al pigargo de cabeza blanca o águila calva cuando vuela muy alto, pero él sí puede vernos; lo mismo que a los pequeños animales que son sus víctimas. Muchas aves pueden ver más lejos que nosotros, y con mayor nitidez.",
+      "narration": "assets/es/harp/HARP04NP.mp3"
+    },
+    {
+      "id": "night-flights",
+      "title": "Vuelos nocturnos",
+      "image": "assets/es/harp/HARP05PU.webp",
+      "text": "Los búhos o lechuzas son aves rapaces que cazan ratas, ratones, conejos y topillos. En las zonas rurales podemos ver a menudo mochuelos posados al atardecer en los postes de las vallas.",
+      "captions": [
+        {
+          "label": "Cazador de zonas frías",
+          "text": "Este búho nival, con su plumaje de invierno que le confunde con la nieve, vive principalmente en las llanuras de América del Norte y Eurasia."
+        },
+        {
+          "label": "La amiga del granjero",
+          "text": "La lechuza común está extendida por todo el mundo. A los granjeros normalmente les gusta tener una lechuza en su granero, pues estas aves se alimentan de ratas y ratones que se comen el valioso grano. Pero como las ciudades, al extenderse, están haciendo desaparecer las granjas, muchas lechuzas están perdiendo su hábitat."
+        }
+      ],
+      "narration": "assets/es/harp/HARP05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/harp/HARP00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 6.59,
+            "y": 9.19,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Vista de águila",
+            "to": "eagle-eye",
+            "x": 72.99,
+            "y": 9.19,
+            "w": 8.86,
+            "h": 4.56
+          },
+          {
+            "label": "Vuelos nocturnos",
+            "to": "night-flights",
+            "x": 42.37,
+            "y": 16.12,
+            "w": 11.36,
+            "h": 4.56
+          },
+          {
+            "label": "Puede ser el almuerzo",
+            "to": "may-be-lunch",
+            "x": 62,
+            "y": 30,
+            "w": 17,
+            "h": 6
+          },
+          {
+            "label": "Aves de rapiña",
+            "to": "birds-of-prey",
+            "x": 82.99,
+            "y": 36.25,
+            "w": 2.14,
+            "h": 4.13
+          },
+          {
+            "label": "Cazadores alados",
+            "to": "winged-hunters",
+            "x": 24.09,
+            "y": 66.33,
+            "w": 14.17,
+            "h": 4.13
+          },
+          {
+            "label": "Pescar al vuelo",
+            "to": "video",
+            "x": 8,
+            "y": 72,
+            "w": 22,
+            "h": 8
+          }
+        ]
+      },
+      "may-be-lunch": {
+        "image": "assets/es/harp/HARP01PU.webp",
+        "back": "main"
+      },
+      "birds-of-prey": {
+        "image": "assets/es/harp/HARP02PU.webp",
+        "back": "main"
+      },
+      "winged-hunters": {
+        "image": "assets/es/harp/HARP03PU.webp",
+        "back": "main"
+      },
+      "eagle-eye": {
+        "image": "assets/es/harp/HARP04PU.webp",
+        "back": "main"
+      },
+      "night-flights": {
+        "image": "assets/es/harp/HARP05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/harp/HARP00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/harp/clip.mp4",
+        "poster": "assets/es/harp/HARP06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/harp/narration.mp3",
+  "sound": "assets/es/harp/HARP00AF.mp3",
+  "factsNarration": "assets/es/harp/HARP00FB.mp3",
+  "video": {
+    "title": "Pescar al vuelo",
+    "src": "assets/es/harp/clip.mp4",
+    "poster": "assets/es/harp/poster.webp",
+    "caption": "Muchas águilas han llegado a dominar el arte de lanzarse sobre un río o lago para capturar con sus garras un pez que estaba bajo la superficie. Pero a veces el tamaño de la presa es mayor que la fuerza del águila, que no puede con ella y tiene que soltarla."
+  }
+}

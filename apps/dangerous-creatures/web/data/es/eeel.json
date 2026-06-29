@@ -1,0 +1,218 @@
+{
+  "id": "eeel",
+  "code": "EEEL",
+  "name": "Anguila eléctrica",
+  "scientificName": "Electrophorus electricus",
+  "needsScientificVerify": false,
+  "tagline": "¡Una descarga de 550 voltios capaz de tumbar a un caballo... y ni siquiera es una anguila!",
+  "weapons": [
+    "Descarga eléctrica"
+  ],
+  "habitats": [
+    "Ríos, lagos y humedales"
+  ],
+  "regions": [
+    "Sudamérica"
+  ],
+  "hero": {
+    "image": "assets/es/eeel/EEEL00AA.webp",
+    "alt": "Anguila eléctrica"
+  },
+  "intro": "La potente sacudida de una anguila eléctrica puede dejar inconsciente a un caballo desde una distancia de 6 metros. Pero aunque ciertamente es \"eléctrica\", en cambio no es una anguila. Es una clase de carpa y el único pez capaz de matar a un hombre por contacto. La energía de la anguila eléctrica procede de unas células esparcidas por tres cuartas partes de su cuerpo. Funcionan como la batería de un automóvil, pero la descarga de esas células es más potente.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Se defiende aturdiendo a su presa con una descarga eléctrica.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Peces, ranas y otros animales de río pequeños.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "¡Este pez ondulante es peligroso incluso muerto, pues puede soltar una descarga eléctrica hasta nueve horas después de su muerte!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 3 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Sudamérica",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "shocking-habits",
+      "title": "Hábitos sorprendentes",
+      "image": "assets/es/eeel/EEEL01PU.webp",
+      "text": "El cuerpo de una anguila eléctrica tiene varios órganos que generan electricidad. El principal de ellos puede producir una descarga de 550 voltios que aturde a su presa o deja un mal recuerdo en su enemigo. Otro órgano funciona como un radar: en el hábitat fangoso de los peces detecta presas, predadores y los objetos con los que podría tropezar.",
+      "narration": "assets/es/eeel/EEEL01NP.mp3"
+    },
+    {
+      "id": "electric-ray",
+      "title": "La raya eléctrica o tembladera",
+      "image": "assets/es/eeel/EEEL02PU.webp",
+      "text": "La raya eléctrica, también llamada torpedo atlántico, puede producir 200 voltios de electricidad. Este singular animal utiliza su voltaje para aturdir a los pequeños peces y crustáceos que come. Las rayas están emparentadas con los tiburones; son peces cartilaginosos, lo que significa que no tienen huesos sino un esqueleto hecho de cartílago, un material duro pero flexible.",
+      "narration": "assets/es/eeel/EEEL02NP.mp3"
+    },
+    {
+      "id": "high-voltage-catfish",
+      "title": "El pez gato de alto voltaje",
+      "image": "assets/es/eeel/EEEL03PU.webp",
+      "text": "Este pez gato eléctrico, que vive en los ríos africanos, puede aturdir a los animales cercanos con sus fuertes sacudidas eléctricas. Se le da ese nombre por las proyecciones de la parte frontal en forma de bigotes.",
+      "narration": "assets/es/eeel/EEEL03NP.mp3"
+    },
+    {
+      "id": "incredible-journey",
+      "title": "Un viaje increíble",
+      "image": "assets/es/eeel/EEEL04PU.webp",
+      "text": "Algunas anguilas norteamericanas y europeas viven en agua dulce pero crían en el mar. Para poner los huevos cruzan el Atlántico hasta la zona llamada Mar de los Sargazos. De los huevos salen unas larvas transparentes que no se parecen en nada a las anguilas. Son arrastradas por la Corriente del Golfo hasta las costas de Norteamérica o Europa. Después se convierten en anguilas adultas, parten en busca de agua dulce y vuelve a comenzar todo el ciclo.",
+      "captions": [
+        {
+          "label": "La anguila europea",
+          "text": "En sus viajes entre el agua dulce y la marina, a veces esta anguila se arrastra sobre tierra firme. A diferencia de la anguila eléctrica, que es en realidad una carpa de aspecto extraño, ésta es una anguila auténtica."
+        }
+      ],
+      "narration": "assets/es/eeel/EEEL04NP.mp3"
+    },
+    {
+      "id": "eel-assortment",
+      "title": "Variedades de anguilas",
+      "image": "assets/es/eeel/EEEL05PU.webp",
+      "text": "Las encontrarás de agua dulce y salada y, como puedes ver aquí, de todos los tamaños, formas y colores.",
+      "captions": [
+        {
+          "label": "La anguila cintada",
+          "text": "Esas cosas raras que tiene en la cara esta pequeña anguila son sus orificios nasales."
+        },
+        {
+          "label": "La morena",
+          "text": "Algunos romanos de la antigüedad tenían estas anguilas en la piscina y las alimentaban con los esclavos desobedientes."
+        },
+        {
+          "label": "La anguila europea",
+          "text": "A muchos europeos les encanta esta anguila: ¡servida en un plato!"
+        },
+        {
+          "label": "El congrio",
+          "text": "Sus afilados dientes están inclinados hacia atrás, de modo que lo que atrapa tiene pocas posibilidades de escapar."
+        }
+      ],
+      "narration": "assets/es/eeel/EEEL05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/eeel/EEEL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.34,
+            "y": 8.76,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "El pez gato de alto voltaje",
+            "to": "high-voltage-catfish",
+            "x": 79.24,
+            "y": 11.79,
+            "w": 18.39,
+            "h": 10.19
+          },
+          {
+            "label": "Un pez raro",
+            "to": "video",
+            "x": 7.37,
+            "y": 56.16,
+            "w": 9.48,
+            "h": 4.13
+          },
+          {
+            "label": "La raya eléctrica o tembladera",
+            "to": "electric-ray",
+            "x": 4,
+            "y": 62,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Un viaje increíble",
+            "to": "incredible-journey",
+            "x": 4,
+            "y": 72,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Variedades de anguilas",
+            "to": "eel-assortment",
+            "x": 83.46,
+            "y": 66.55,
+            "w": 5.73,
+            "h": 4.13
+          },
+          {
+            "label": "Hábitos sorprendentes",
+            "to": "shocking-habits",
+            "x": 72.53,
+            "y": 80.62,
+            "w": 14.48,
+            "h": 4.13
+          }
+        ]
+      },
+      "shocking-habits": {
+        "image": "assets/es/eeel/EEEL01PU.webp",
+        "back": "main"
+      },
+      "electric-ray": {
+        "image": "assets/es/eeel/EEEL02PU.webp",
+        "back": "main"
+      },
+      "high-voltage-catfish": {
+        "image": "assets/es/eeel/EEEL03PU.webp",
+        "back": "main"
+      },
+      "incredible-journey": {
+        "image": "assets/es/eeel/EEEL04PU.webp",
+        "back": "main"
+      },
+      "eel-assortment": {
+        "image": "assets/es/eeel/EEEL05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/eeel/EEEL00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/eeel/clip.mp4",
+        "poster": "assets/es/eeel/EEEL06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/eeel/narration.mp3",
+  "sound": "assets/es/eeel/EEEL00AF.mp3",
+  "factsNarration": "assets/es/eeel/EEEL00FB.mp3",
+  "video": {
+    "title": "Un pez raro",
+    "src": "assets/es/eeel/clip.mp4",
+    "poster": "assets/es/eeel/poster.webp",
+    "caption": "La anguila eléctrica no es una verdadera anguila, sino un pez; y lo mismo que éste nada moviendo la cola. Se diferencia de él, sin embargo, en que no absorbe oxígeno a través de las branquias, sino que sube a la superficie para tomar aire. ¡Incluso puede vivir fuera del agua bastante tiempo! Y, naturalmente, genera electricidad. ¿Verdad que es un pez bastante raro?"
+  }
+}

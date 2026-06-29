@@ -1,0 +1,282 @@
+{
+  "id": "seas",
+  "code": "SEAS",
+  "name": "Serpiente de mar",
+  "scientificName": "Laticauda colubrina",
+  "needsScientificVerify": false,
+  "tagline": "¡Tienen veneno más potente que una cobra, pero casi nunca muerden!",
+  "weapons": [
+    "Veneno y ponzoña"
+  ],
+  "habitats": [
+    "Océanos y arrecifes de coral"
+  ],
+  "regions": [
+    "Océanos y mares"
+  ],
+  "hero": {
+    "image": "assets/es/seas/SEAS00AA.webp",
+    "alt": "Serpiente de mar"
+  },
+  "intro": "Son las serpientes más venenosas del mundo, pues algunas tienen un veneno varias veces más potente que el de una cobra. Por fortuna, rara vez muerden a las personas. Hay más de cincuenta tipos de serpiente de mar. Algunas viven en zonas pantanosas o a lo largo de la costa, otras en arrecifes de coral y otras mar adentro. Poseen unas características especiales para adaptarse a la vida marina, como un cuerpo plano que les ayuda a moverse en el agua. ¡Algunas serpientes marinas ni siquiera son capaces de moverse en tierra firme!",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Mata inyectando veneno con los colmillos.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Peces, huevos de peces y pequeñas anguilas.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Aunque son serpientes auténticas y tienen que salir a la superficie para respirar, la mayoría de ellas pasa toda la vida en el mar.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 3 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "todos los mares tropicales excepto el Océano Atlántico",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "sea-of-snakes",
+      "title": "Mar de serpientes",
+      "image": "assets/es/seas/SEAS01PU.webp",
+      "text": "Las serpientes de mar son serpientes, no peces, por lo que tienen que subir a la superficie para respirar. En ocasiones se las ha visto seguir las corrientes de los océanos Índico y Pacífico en grupos de varios cientos, o incluso miles. Las víctimas humanas habituales de la mordedura de estas serpientes son los pescadores, al tocar las que han quedado atrapadas en las redes.",
+      "narration": "assets/es/seas/SEAS01NP.mp3"
+    },
+    {
+      "id": "all-colors-and-patterns",
+      "title": "De todos los colores y modelos",
+      "image": "assets/es/seas/SEAS02PU.webp",
+      "text": "Si abrieses una caja con la etiqueta de «serpientes de mar», los animales que verías podrían ser a franjas, manchas, rayas o de un solo color... que podría ser cualquiera.",
+      "captions": [
+        {
+          "label": "Serpiente marina pelágica",
+          "text": "El remo de una barca está diseñado para impulsarla en el agua. La cola plana de esta serpiente de mar funciona exactamente igual."
+        },
+        {
+          "label": "Serpiente marina de labios amarillos",
+          "text": "Viven en aguas superficiales, aunque pasan la mayor parte del tiempo en tierra, donde ponen los huevos, en lugar de tener crías en el agua, como hace la mayoría de las serpientes marinas."
+        }
+      ],
+      "narration": "assets/es/seas/SEAS02NP.mp3"
+    },
+    {
+      "id": "surprise",
+      "title": "¡Sorpresa!",
+      "image": "assets/es/seas/SEAS03PU.webp",
+      "text": "Algunas serpientes de mar viven entre los arrecifes de coral. Sus cabezas pequeñas y cuerpos alargados son perfectos para perseguir a las anguilas – una de sus comidas favoritas – en el interior de los agujeros. Si buceas en una zona de serpientes marinas, no te pongas a buscar anguilas inofensivas en los agujeros. ¡Una serpiente de mar te podría dar una sorpresa!",
+      "narration": "assets/es/seas/SEAS03NP.mp3"
+    },
+    {
+      "id": "landlubber-relatives",
+      "title": "Parientes del contramaestre",
+      "image": "assets/es/seas/SEAS04PU.webp",
+      "text": "Si una serpiente marina reuniera a toda su familia, no te gustaría que te invitaran: los demás serían cobras, coralillos, mambas y búngaros o kraits.",
+      "captions": [
+        {
+          "label": "¡Vaya bocado!",
+          "text": "Las cobras y los otros parientes de las serpientes marinas son elápidos: serpientes venenosas cuyos colmillos están situados en la parte anterior de la boca. Los elápidos no pueden doblar los colmillos hacia atrás, como hacen las serpientes de cascabel y otras víboras, por lo que son muy cortos."
+        },
+        {
+          "label": "¿Cabeza o cola?",
+          "text": "La serpiente coral no es muy agresiva, pero muerde como último recurso. Para confundir a los predadores, algunos coralillos esconden la cabeza y mueven la cola cuando se sienten amenazados. Un predador que atrape la cola de un coralillo se llevará una sorpresa mortal cuando vea aparecer la cabeza auténtica de la serpiente."
+        }
+      ],
+      "narration": "assets/es/seas/SEAS04NP.mp3"
+    },
+    {
+      "id": "snakelike-swimmers",
+      "title": "Nadadores con aspecto de serpientes",
+      "image": "assets/es/seas/SEAS05PU.webp",
+      "text": "Tanto las serpientes de mar como las anguilas necesitan meterse en pequeños orificios, para lo que han desarrollado cuerpos delgados y flexibles, sin patas que les estorben. Sin embargo, la semejanza acaba aquí: las serpientes no tienen nada que ver con las anguilas.",
+      "captions": [
+        {
+          "label": "Morena",
+          "text": "A diferencia de las serpientes de mar, esta morena posee branquias y puede absorber oxígeno en el agua. Una serpiente de mar puede permanecer mucho tiempo debajo del agua; pero, como el resto de los reptiles, se ahogaría si no saliera al aire."
+        },
+        {
+          "label": "Ni siquiera es una anguila",
+          "text": "Aunque parece una anguila, y se le llama así, en realidad la anguila eléctrica es un tipo de pez gato."
+        }
+      ],
+      "narration": "assets/es/seas/SEAS05NP.mp3"
+    },
+    {
+      "id": "snake-supper",
+      "title": "La cena de la serpiente",
+      "image": "assets/es/seas/SEAS06PU.webp",
+      "text": "Algunas serpientes de mar sólo comen huevos de peces. Pero la mayoría viven de anguilas y peces pequeños, a los que envenenan con su potente veneno de acción rápida.",
+      "captions": [
+        {
+          "label": "Comida rápida",
+          "text": "El veneno de una serpiente puede matar a una resbaladiza anguila en cuestión de segundos, para que no pueda ocultarse en el coral."
+        },
+        {
+          "label": "Un flotador temible",
+          "text": "Los peces pequeños se agrupan con frecuencia bajo palos o hierbas flotantes. Las serpientes de mar se aprovechan de este instinto quedándose quietas en la superficie del agua. Cuando el pez se acerca a investigar el objeto flotante, ¡adiós, pez!"
+        }
+      ],
+      "narration": "assets/es/seas/SEAS06NP.mp3"
+    },
+    {
+      "id": "specialized-tails",
+      "title": "Colas especializadas",
+      "image": "assets/es/seas/SEAS07PU.webp",
+      "text": "Las serpientes de mar poseen una cola plana que les ayuda a nadar bajo el agua. En el mundo animal encontrarás colas que se utilizan para los fines más increíbles.",
+      "captions": [
+        {
+          "label": "Cola seductora",
+          "text": "La víbora de la muerte australiana mueve su cola en forma de gusano para atraer a la presa."
+        },
+        {
+          "label": "Cola ruidosa",
+          "text": "La serpiente de cascabel sacude la «sonaja» situada en el extremo de la cola para advertir al intruso que debe retroceder."
+        }
+      ],
+      "narration": "assets/es/seas/SEAS07NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/seas/SEAS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 7.37,
+            "y": 3.56,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Nadadores con aspecto de serpientes",
+            "to": "snakelike-swimmers",
+            "x": 52,
+            "y": 16,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "La cena de la serpiente",
+            "to": "snake-supper",
+            "x": 48,
+            "y": 22,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "¡Sorpresa!",
+            "to": "surprise",
+            "x": 67,
+            "y": 25,
+            "w": 10,
+            "h": 5
+          },
+          {
+            "label": "Peligro para el buceador",
+            "to": "video",
+            "x": 28,
+            "y": 26,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Colas especializadas",
+            "to": "specialized-tails",
+            "x": 10.34,
+            "y": 31.27,
+            "w": 19.01,
+            "h": 11.06
+          },
+          {
+            "label": "De todos los colores y modelos",
+            "to": "all-colors-and-patterns",
+            "x": 10.02,
+            "y": 38.19,
+            "w": 12.45,
+            "h": 4.13
+          },
+          {
+            "label": "Parientes del contramaestre",
+            "to": "landlubber-relatives",
+            "x": 5,
+            "y": 52,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Mar de serpientes",
+            "to": "sea-of-snakes",
+            "x": 5,
+            "y": 64,
+            "w": 15,
+            "h": 5
+          }
+        ]
+      },
+      "sea-of-snakes": {
+        "image": "assets/es/seas/SEAS01PU.webp",
+        "back": "main"
+      },
+      "all-colors-and-patterns": {
+        "image": "assets/es/seas/SEAS02PU.webp",
+        "back": "main"
+      },
+      "surprise": {
+        "image": "assets/es/seas/SEAS03PU.webp",
+        "back": "main"
+      },
+      "landlubber-relatives": {
+        "image": "assets/es/seas/SEAS04PU.webp",
+        "back": "main"
+      },
+      "snakelike-swimmers": {
+        "image": "assets/es/seas/SEAS05PU.webp",
+        "back": "main"
+      },
+      "snake-supper": {
+        "image": "assets/es/seas/SEAS06PU.webp",
+        "back": "main"
+      },
+      "specialized-tails": {
+        "image": "assets/es/seas/SEAS07PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/seas/SEAS00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/seas/clip.mp4",
+        "poster": "assets/es/seas/SEAS08TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/seas/narration.mp3",
+  "sound": "assets/es/seas/SEAS00AF.mp3",
+  "factsNarration": "assets/es/seas/SEAS00FB.mp3",
+  "video": {
+    "title": "Peligro para el buceador",
+    "src": "assets/es/seas/clip.mp4",
+    "poster": "assets/es/seas/poster.webp",
+    "caption": "Aunque su veneno es mortal, las serpientes de mar no suelen ser agresivas: como todos los animales salvajes sólo quieren que las dejes en paz. Por eso, si cuando estás buceando en la Gran Barrera de Coral ves un precioso animal de vivos colores con aspecto de serpiente, lo mejor es que lo admires desde lejos."
+  }
+}

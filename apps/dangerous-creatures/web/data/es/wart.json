@@ -1,0 +1,263 @@
+{
+  "id": "wart",
+  "code": "WART",
+  "name": "Facóquero o jabalí verrucoso",
+  "scientificName": "Phacochoerus africanus",
+  "needsScientificVerify": false,
+  "tagline": "¡El cerdo más feroz de África corre con la cola al viento!",
+  "weapons": [
+    "Cuernos, colmillos y embestidas",
+    "Ataques en grupo"
+  ],
+  "habitats": [
+    "Praderas y sabanas"
+  ],
+  "regions": [
+    "África"
+  ],
+  "hero": {
+    "image": "assets/es/wart/WART00AA.webp",
+    "alt": "Facóquero o jabalí verrucoso"
+  },
+  "intro": "Un facóquero africano sale de su madriguera subterránea como una bala de un cañón. Los facóqueros no comen a otros animales, sólo plantas, por lo que si te embiste uno de ellos no tiene la intención de comerte. Sin embargo, estos cerdos salvajes, que protegen mucho su casa y sus crías, tienen unos colmillos afilados y cortantes. Por tanto, ¡escapa!",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Se defiende con los colmillos y ataca en grupo.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Hierba, raíces, tubérculos y juncos.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Los facóqueros corren con la cola erguida. Algunos les dan el sobrenombre de «Aero-Africa», porque parecen aviones corriendo por la pista de despegue.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 2 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: África",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "pork-for-dinner",
+      "title": "Cerdo para cenar",
+      "image": "assets/es/wart/WART01PU.webp",
+      "text": "En el mundo entero, los cerdos salvajes están en el menú de todos los predadores grandes. Si los facóqueros africanos sueñan, los felinos grandes aparecerán en sus pesadillas acechándoles. No son muchos los cochinillos que llegan a la edad adulta.",
+      "captions": [
+        {
+          "label": "Leona",
+          "text": "Los leones pueden derribar facóqueros de todos los tamaños."
+        },
+        {
+          "label": "Leopardo",
+          "text": "Un leopardo solitario puede atacar a una cría que se haya alejado mucho de su madre."
+        }
+      ],
+      "narration": "assets/es/wart/WART01NP.mp3"
+    },
+    {
+      "id": "wild-pigs",
+      "title": "Cerdos salvajes",
+      "image": "assets/es/wart/WART02PU.webp",
+      "text": "Durante siglos, el hombre ha cazado cerdos salvajes para comer, por deporte, y porque estos animales se comen los cultivos. Hubo un tiempo en que los cerdos salvajes vivían en todo el mundo, pero hoy han desaparecido de muchos sitios.",
+      "captions": [
+        {
+          "label": "El jabalí",
+          "text": "Este es el antepasado (o ancestor) de nuestro cerdo doméstico. Originalmente, los jabalíes se encontraban por toda Asia, Oriente Medio y Europa. Ahora son muy escasos en la mayoría de estos sitios."
+        },
+        {
+          "label": "El jabalí de río o cerdo acuático africano",
+          "text": "Al igual que el facóquero, el cerdo acuático africano, a veces llamado jabalí de río, habita en muchas partes de África."
+        }
+      ],
+      "narration": "assets/es/wart/WART02NP.mp3"
+    },
+    {
+      "id": "terrible-teeth",
+      "title": "Dientes terribles",
+      "image": "assets/es/wart/WART03PU.webp",
+      "text": "Si pensabas que un facóquero o jabalí verrucoso tiene problemas dentales, ¡echa un vistazo a éste! Es un cerdo salvaje que vive en Indonesia y las islas adyacentes y se llaman babirusa. En lugar de sobresalirse por los lados de la boca, ¡a este animal los colmillos le salen directamente por encima del hocico, atravesándole la piel! El babirusa macho pasa mucho tiempo afilando los colmillos en los árboles.",
+      "narration": "assets/es/wart/WART03NP.mp3"
+    },
+    {
+      "id": "tuskers",
+      "title": "Animales de grandes colmillos",
+      "image": "assets/es/wart/WART04PU.webp",
+      "text": "El facóquero y otros cerdos salvajes no son los únicos animales que tienen los dientes y colmillos tan desarrollados que les sobresalen de la boca.",
+      "captions": [
+        {
+          "label": "Colmillos asesinos",
+          "text": "En un concurso para encontrar el colmillo más grande del mundo animal, los elefantes serían claramente los ganadores. Desafortunadamente, a estos pacíficos gigantes los matan muchas veces precisamente por sus colmillos."
+        },
+        {
+          "label": "Sin parar de roer",
+          "text": "Una rata tiene que roer constantemente materiales duros para desgastar los dientes, pues le crecen continuamente. De otro modo, sus dientes se convertirían en colmillos y le sobresaldrían de la boca."
+        }
+      ],
+      "narration": "assets/es/wart/WART04NP.mp3"
+    },
+    {
+      "id": "domestic-pigs",
+      "title": "Cerdos domésticos",
+      "image": "assets/es/wart/WART05PU.webp",
+      "text": "Nuestros cerdos son los descendientes de los jabalíes. Durante siglos, los hemos criado para que sean más grandes y de mejor color que sus antepasados salvajes. Tanto los jabalíes como los cerdos domésticos tienen camadas numerosas, de cuatro a ocho cochinillos normalmente, aunque tampoco es raro que nazcan diez o más.",
+      "narration": "assets/es/wart/WART05NP.mp3"
+    },
+    {
+      "id": "looks-like-a-pig",
+      "title": "Parecido a un cerdo",
+      "image": "assets/es/wart/WART06PU.webp",
+      "text": "Este animal parece un cerdo, pero no lo es. Es un pecarí de collar. Los pecaríes viven en el sudoeste de Estados Unidos y en América Central y del Sur. Se alimentan principalmente de plantas, aunque algunas veces comen también gusanos y serpientes. Suelen viajar en grupos de 5 a 15 animales, ¡y si se sienten amenazados ataca el grupo entero!",
+      "narration": "assets/es/wart/WART06NP.mp3"
+    },
+    {
+      "id": "not-even-close",
+      "title": "Ni siquiera cercano",
+      "image": "assets/es/wart/WART07PU.webp",
+      "text": "El tapir tiene forma de cerdo, pero está más emparentado con el caballo. Su hocico flexible es una especie de cruce entre la trompa de un elefante y el labio superior de un caballo. El animal que ves aquí es un tapir de Baird, que vive en las regiones del centro y el sur de América. Quedan muy pocas de estas criaturas sorprendentes: los tapires de Baird están en peligro de extinción.",
+      "narration": "assets/es/wart/WART07NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/wart/WART00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.49,
+            "y": 9.62,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Escarbando en la suciedad",
+            "to": "video",
+            "x": 31.12,
+            "y": 11.57,
+            "w": 16.04,
+            "h": 4.56
+          },
+          {
+            "label": "Parecido a un cerdo",
+            "to": "looks-like-a-pig",
+            "x": 50.49,
+            "y": 9.19,
+            "w": 29.79,
+            "h": 8.68
+          },
+          {
+            "label": "Cerdos domésticos",
+            "to": "domestic-pigs",
+            "x": 53.93,
+            "y": 9.19,
+            "w": 28.23,
+            "h": 9.11
+          },
+          {
+            "label": "Dientes terribles",
+            "to": "terrible-teeth",
+            "x": 31.43,
+            "y": 10.7,
+            "w": 28.54,
+            "h": 7.59
+          },
+          {
+            "label": "Ni siquiera cercano",
+            "to": "not-even-close",
+            "x": 12.37,
+            "y": 22.61,
+            "w": 13.08,
+            "h": 4.13
+          },
+          {
+            "label": "Cerdo para cenar",
+            "to": "pork-for-dinner",
+            "x": 6,
+            "y": 35,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Animales de grandes colmillos",
+            "to": "tuskers",
+            "x": 68,
+            "y": 40,
+            "w": 11,
+            "h": 5
+          },
+          {
+            "label": "Cerdos salvajes",
+            "to": "wild-pigs",
+            "x": 69,
+            "y": 49,
+            "w": 10,
+            "h": 5
+          }
+        ]
+      },
+      "pork-for-dinner": {
+        "image": "assets/es/wart/WART01PU.webp",
+        "back": "main"
+      },
+      "wild-pigs": {
+        "image": "assets/es/wart/WART02PU.webp",
+        "back": "main"
+      },
+      "terrible-teeth": {
+        "image": "assets/es/wart/WART03PU.webp",
+        "back": "main"
+      },
+      "tuskers": {
+        "image": "assets/es/wart/WART04PU.webp",
+        "back": "main"
+      },
+      "domestic-pigs": {
+        "image": "assets/es/wart/WART05PU.webp",
+        "back": "main"
+      },
+      "looks-like-a-pig": {
+        "image": "assets/es/wart/WART06PU.webp",
+        "back": "main"
+      },
+      "not-even-close": {
+        "image": "assets/es/wart/WART07PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/wart/WART00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/wart/clip.mp4",
+        "poster": "assets/es/wart/WART08TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/wart/narration.mp3",
+  "sound": "assets/es/wart/WART00AF.mp3",
+  "factsNarration": "assets/es/wart/WART00FB.mp3",
+  "video": {
+    "title": "Escarbando en la suciedad",
+    "src": "assets/es/wart/clip.mp4",
+    "poster": "assets/es/wart/poster.webp",
+    "caption": "Como todos los cerdos, los facóqueros o jabalíes verrucosos «hozan» – escarban la tierra con el hocico – para buscar comida. Muchos cerdos salvajes son omnívoros, lo que significa que se alimentan de casi todo lo que encuentran. Los jabalíes verrucosos comen sobre todo hierba y a veces se arrodillan para pacer. Además de hozar en busca de raíces y tubérculos, los facóqueros cavan madrigueras para criar a los cochinillos."
+  }
+}

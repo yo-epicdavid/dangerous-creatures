@@ -1,0 +1,210 @@
+{
+  "id": "pira",
+  "code": "PIRA",
+  "name": "Piraña",
+  "scientificName": "Pygocentrus nattereri",
+  "needsScientificVerify": false,
+  "tagline": "¡Dientes de acero en las aguas del Amazonas!",
+  "weapons": [
+    "Dientes y mandíbulas",
+    "Ataques en grupo"
+  ],
+  "habitats": [
+    "Ríos, lagos y humedales"
+  ],
+  "regions": [
+    "Sudamérica"
+  ],
+  "hero": {
+    "image": "assets/es/pira/PIRA00AA.webp",
+    "alt": "Piraña"
+  },
+  "intro": "Los afiladísimos dientes de la piraña pueden cortar un trozo de carne con la misma facilidad con la que tú le das un bocado a una manzana. Sin embargo, la mala fama de este pez es exagerada. De los numerosos tipos de pirañas, sólo algunas, como ésta de vientre rojo, se consideran peligrosas, sobre todo cuando ha bajado el nivel del agua y los peces son numerosos y están hambrientos.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Atacan en grupo y cada pez arranca con su mordisco un trozo de la víctima.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Peces pequeños y animales muertos o heridos de cualquier tamaño.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "¿Mejor que una navaja de bolsillo? ¡En sus cacerías, los indios llevan mandíbulas de piraña, que utilizan como herramientas cortantes!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 60 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Sudamérica",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "fish-sense",
+      "title": "El otro sentido de los peces",
+      "image": "assets/es/pira/PIRA01PU.webp",
+      "text": "Que la piraña no te esté mirando no significa que no sepa que estás ahí. Todos los peces poseen un sistema sensorial especial, denominado línea lateral, que les sirve para detectar los movimientos en el agua.\n\nCómo funciona la línea lateral: La línea lateral es un canal lleno de líquido que se encuentra bajo la piel del pez. Hasta las vibraciones más pequeñas traspasan los poros de la piel y agitan unos diminutos pelos del canal de la línea lateral. Cuando estos pelos se mueven, las células nerviosas adjuntas envían mensajes al cerebro del pez, indicándole que hay algo cerca.",
+      "captions": [
+        {
+          "label": "Línea lateral",
+          "text": "Línea lateral"
+        }
+      ],
+      "narration": "assets/es/pira/PIRA01NP.mp3"
+    },
+    {
+      "id": "teeth-like-razors",
+      "title": "Dientes como cuchillas",
+      "image": "assets/es/pira/PIRA02PU.webp",
+      "text": "Las pirañas tienen unos afiladísimos dientes triangulares que cuando muerde encajan perfectamente unos en otros, como los dientes del engranaje de un reloj. La piraña se precipita sobre su presa (normalmente otro pez), le arranca limpiamente un bocado de carne del cuerpo o la aleta, ¡y se retira antes de que la víctima se de cuenta de lo que ha sucedido!",
+      "captions": [
+        {
+          "label": "Dientes de barracuda",
+          "text": "Los dientes de las pirañas están hechos para arrancar limpiamente un bocado; y los de la barracuda para sujetar a los peces resbaladizos."
+        },
+        {
+          "label": "Cráneo de barracuda",
+          "text": "Cráneo de barracuda"
+        }
+      ],
+      "narration": "assets/es/pira/PIRA02NP.mp3"
+    },
+    {
+      "id": "school-of-terror",
+      "title": "Bancos del terror",
+      "image": "assets/es/pira/PIRA03PU.webp",
+      "text": "Las barracudas son peces grandes con muchos y afilados dientes, por lo que encontrarse con un banco entero de ellas sería una pesadilla. Pero cuando las barracudas se reúnen en grandes grupos están pensando en aparearse, no en atacar a los peces o buceadores cercanos.",
+      "narration": "assets/es/pira/PIRA03NP.mp3"
+    },
+    {
+      "id": "daring-dip",
+      "title": "Un chapuzón valiente",
+      "image": "assets/es/pira/PIRA04PU.webp",
+      "text": "Los ríos y las pozas de la selva amazónica no sólo están llenos de pirañas, sino también de anguilas eléctricas, caimanes que enseñan su sonrisa dentona de cocodrilianos y serpientes gigantes que abrazan a su presa hasta la muerte. Piénsatelo dos veces antes de darte un baño.",
+      "narration": "assets/es/pira/PIRA04NP.mp3",
+      "captions": [
+        {
+          "label": "Caimán",
+          "text": "Caimán"
+        },
+        {
+          "label": "Anaconda",
+          "text": "Anaconda"
+        }
+      ]
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/pira/PIRA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.02,
+            "y": 5.73,
+            "w": 4.79,
+            "h": 6.3
+          },
+          {
+            "label": "Bancos del terror",
+            "to": "school-of-terror",
+            "x": 48.31,
+            "y": 5.29,
+            "w": 14.32,
+            "h": 4.13
+          },
+          {
+            "label": "Barracuda",
+            "x": 89.87,
+            "y": 10.92,
+            "w": 8.08,
+            "h": 3.92,
+            "external": "animal.html?id=bara"
+          },
+          {
+            "label": "Dientes como cuchillas",
+            "to": "teeth-like-razors",
+            "x": 2,
+            "y": 22,
+            "w": 28,
+            "h": 8
+          },
+          {
+            "label": "Pez tijera",
+            "to": "video",
+            "x": 5,
+            "y": 32,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "El otro sentido de los peces",
+            "to": "fish-sense",
+            "x": 2,
+            "y": 47,
+            "w": 18,
+            "h": 7
+          },
+          {
+            "label": "Un chapuzón valiente",
+            "to": "daring-dip",
+            "x": 7.06,
+            "y": 55.51,
+            "w": 10.26,
+            "h": 4.56
+          }
+        ]
+      },
+      "fish-sense": {
+        "image": "assets/es/pira/PIRA01PU.webp",
+        "back": "main"
+      },
+      "teeth-like-razors": {
+        "image": "assets/es/pira/PIRA02PU.webp",
+        "back": "main"
+      },
+      "school-of-terror": {
+        "image": "assets/es/pira/PIRA03PU.webp",
+        "back": "main"
+      },
+      "daring-dip": {
+        "image": "assets/es/pira/PIRA04PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/pira/PIRA00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/pira/clip.mp4",
+        "poster": "assets/es/pira/PIRA05TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/pira/narration.mp3",
+  "sound": "assets/es/pira/PIRA00AF.mp3",
+  "factsNarration": "assets/es/pira/PIRA00FB.mp3",
+  "video": {
+    "title": "Pez tijera",
+    "src": "assets/es/pira/clip.mp4",
+    "poster": "assets/es/pira/poster.webp",
+    "caption": "A lo largo del río Amazonas, la palabra que significa «tijeras» es «piraña». Mucho antes de que se inventaran las tijeras, las personas de esta zona utilizaban las mandíbulas de las pirañas como herramienta cortante y sus dientes como navajas. Las pirañas tienen además otra importante utilidad: como alimento. ¡Hay más probabilidades de que el hombre se coma a la piraña que de que la piraña se coma al hombre!"
+  }
+}

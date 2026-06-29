@@ -1,0 +1,275 @@
+{
+  "id": "croc",
+  "code": "CROC",
+  "name": "Cocodrilo",
+  "scientificName": "Crocodylus porosus",
+  "needsScientificVerify": false,
+  "tagline": "¡Sobrevivió a los dinosaurios... y a ti también podría comerte!",
+  "weapons": [
+    "Dientes y mandíbulas"
+  ],
+  "habitats": [
+    "Ríos, lagos y humedales"
+  ],
+  "regions": [
+    "África",
+    "Asia",
+    "Norteamérica",
+    "Australia y Oceanía"
+  ],
+  "hero": {
+    "image": "assets/es/croc/CROC00AA.webp",
+    "alt": "Cocodrilo"
+  },
+  "intro": "Recién salido del huevo, un cocodrilo no parece muy amenazador. Pero esta cría crecerá hasta convertirse en un experto predador que cazará muchas veces animales mayores que él. El cocodrilo es uno de los reptiles más temibles de la naturaleza; y también uno de los que ha sobrevivido con más éxito: ¡ha existido desde los tiempos de los dinosaurios!",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Sujeta la presa con las mandíbulas y la sumerge hasta ahogarla.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Todo lo que pueda capturar.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Los cocodrilos lloran a menudo... pero no es porque están tristes. Con las lágrimas eliminan el exceso de sal del cuerpo.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 6,9 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Florida (Estados Unidos), África, Asia, Australia",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "diving-equipment",
+      "title": "Equipo de buceador",
+      "image": "assets/es/croc/CROC01PU.webp",
+      "text": "Los cocodrilos y los aligátores tienen todas las ventajas de un incomparable equipo subacuático. Cuando están bajo el agua pueden ver a través de un tercer párpado especializado y tienen una aleta muscular que mantiene separada la boca de la tráquea. De ese modo no tragan demasiada agua cuando están atacando a su presa. También pueden cerrar los oídos para que no les entre agua.",
+      "captions": [
+        {
+          "label": "Gafas de bucear",
+          "text": "Un párpado transparente cubre el ojo del reptil cuando está debajo del agua."
+        },
+        {
+          "label": "Caimán o yacaré común de anteojos",
+          "text": "Los ojos de los cocodrilianos, como los de este caimán, están en lo alto de la cabeza para que el animal pueda ver por encima del agua mientras mantiene sumergido el resto del cuerpo."
+        }
+      ],
+      "narration": "assets/es/croc/CROC01NP.mp3"
+    },
+    {
+      "id": "skinny-snouted-kin",
+      "title": "Un pariente de hocico delgado",
+      "image": "assets/es/croc/CROC02PU.webp",
+      "text": "El gavial es un pariente del cocodrilo que vive en India, Pakistán, Nepal y Bangladesh. Se le da también el nombre de gharial porque el bulto que tiene el macho en el hocico se parece a una cazuela de barro, que en la lengua hindi se dice \"ghara\". Por medio de ese bulto producen un zumbido que ahuyenta a los otros machos. No les gusta pelear, porque sus mandíbulas delgadas no son lo bastante fuertes para la lucha.",
+      "captions": [
+        {
+          "label": "El cráneo del gavial",
+          "text": "Los dientes entrelazados del gavial son perfectos para sujetar peces escurridizos."
+        }
+      ],
+      "narration": "assets/es/croc/CROC02NP.mp3"
+    },
+    {
+      "id": "where-in-the-world",
+      "title": "¿En qué parte del mundo?",
+      "image": "assets/es/croc/CROC03PU.webp",
+      "text": "La familia de los cocodrilianos se extiende por todo el mundo. Esta guía te indica dónde vive cada uno.",
+      "captions": [
+        {
+          "label": "El área del aligátor",
+          "text": "Con la excepción de sus parientes chinos, los aligátores sólo viven en el sudeste de EE.UU."
+        },
+        {
+          "label": "La región del caimán o yacaré",
+          "text": "Estos parientes del aligátor son originarios de Centroamérica y Sudamérica. Algunos de los que vivían como mascotas en EE.UU. han escapado a los pantanos."
+        },
+        {
+          "label": "El territorio del gavial",
+          "text": "Estos parientes del cocodrilo, de aspecto tan raro, habitan en los ríos de India, Pakistán, Nepal y Bangladesh."
+        },
+        {
+          "label": "Tipos de cocodrilos",
+          "text": "En África, Asia y Australia viven más de diez especies de cocodrilos. Los cocodrilos americanos, originarios de EE.UU., son muy pocos hoy en día."
+        }
+      ],
+      "narration": "assets/es/croc/CROC03NP.mp3"
+    },
+    {
+      "id": "under-the-skin",
+      "title": "Bajo la piel",
+      "image": "assets/es/croc/CROC04PU.webp",
+      "text": "La piel y el esqueleto de los cocodrilianos reflejan su modo de vida acuático. La piel es dura e impermeable. Las cuencas de los ojos y las fosas nasales están encima de la cabeza para que, al flotar, éstas y los ojos sobresalgan del agua. Las patas son cortas, por lo que sobre el suelo son lentos, pero resultan perfectas para nadar, impulsándose en el agua con movimientos ondulantes de la cola.",
+      "narration": "assets/es/croc/CROC04NP.mp3"
+    },
+    {
+      "id": "titanic-terror",
+      "title": "El terror titánico",
+      "image": "assets/es/croc/CROC05PU.webp",
+      "text": "Si cuando estás nadando en el mar del Sudeste Asiático o del norte de Australia ves flotar hacia ti el tronco de un árbol, será mejor que te fijes bien en él. Podría ser un cocodrilo de estuario (o de agua salada). ¡Este enorme reptil puede llegar a medir 7 metros de longitud! A diferencia de otras bestias gigantes, como el tiburón ballena, no es amistoso. Es uno de los pocos animales a los que se puede clasificar realmente como \"devorador de hombres\".",
+      "narration": "assets/es/croc/CROC05NP.mp3"
+    },
+    {
+      "id": "crocodile-ranch",
+      "title": "\"Granja\" de cocodrilos",
+      "image": "assets/es/croc/CROC06PU.webp",
+      "text": "Durante siglos el hombre ha cazado cocodrilos y aligátores por su piel; y a veces por su carne. Como ahora su caza es ilegal en muchas partes, los que quieren pieles de cocodriliano están empezando a criarlos en cautividad, como en esta \"granja\" de cocodrilos.",
+      "narration": "assets/es/croc/CROC06NP.mp3"
+    },
+    {
+      "id": "gulp",
+      "title": "¡Me lo he tragado!",
+      "image": "assets/es/croc/CROC07PU.webp",
+      "text": "Estos indigestos objetos han sido encontrados en el estómago de cocodrilos. Algunos forman parte de una presa que se había comido (como las púas o los caparazones de tortuga), pero otros (como las pulseras) los debe haber tragado por error.",
+      "captions": [
+        {
+          "label": "El alimento más común",
+          "text": "Las cebras y los ñúes (también denominados antílopes) son el alimento habitual de los cocodrilos africanos, que atacan a estos herbívoros cuando acuden a beber."
+        }
+      ],
+      "narration": "assets/es/croc/CROC07NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/croc/CROC00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 2.22,
+            "y": 7.71,
+            "w": 6.52,
+            "h": 3.92
+          },
+          {
+            "label": "El terror titánico",
+            "to": "titanic-terror",
+            "x": 28,
+            "y": 15,
+            "w": 22,
+            "h": 4
+          },
+          {
+            "label": "Bajo la piel",
+            "to": "under-the-skin",
+            "x": 20.06,
+            "y": 21.63,
+            "w": 27.18,
+            "h": 9.36
+          },
+          {
+            "label": "Equipo de buceador",
+            "to": "diving-equipment",
+            "x": 22,
+            "y": 31,
+            "w": 22,
+            "h": 4
+          },
+          {
+            "label": "¿Mandíbulas delicadas?",
+            "to": "video",
+            "x": 16.14,
+            "y": 36.41,
+            "w": 19.67,
+            "h": 10.88
+          },
+          {
+            "label": "Un pariente de hocico delgado",
+            "to": "skinny-snouted-kin",
+            "x": 16.14,
+            "y": 43.8,
+            "w": 21.07,
+            "h": 3.49
+          },
+          {
+            "label": "¡Me lo he tragado!",
+            "to": "gulp",
+            "x": 57,
+            "y": 46,
+            "w": 12,
+            "h": 4
+          },
+          {
+            "label": "\"Granja\" de cocodrilos",
+            "to": "crocodile-ranch",
+            "x": 69.35,
+            "y": 59.67,
+            "w": 10.9,
+            "h": 4.14
+          },
+          {
+            "label": "¿En qué parte del mundo?",
+            "to": "where-in-the-world",
+            "x": 49.48,
+            "y": 81.19,
+            "w": 17.32,
+            "h": 4.14
+          }
+        ]
+      },
+      "diving-equipment": {
+        "image": "assets/es/croc/CROC01PU.webp",
+        "back": "main"
+      },
+      "skinny-snouted-kin": {
+        "image": "assets/es/croc/CROC02PU.webp",
+        "back": "main"
+      },
+      "where-in-the-world": {
+        "image": "assets/es/croc/CROC03PU.webp",
+        "back": "main"
+      },
+      "under-the-skin": {
+        "image": "assets/es/croc/CROC04PU.webp",
+        "back": "main"
+      },
+      "titanic-terror": {
+        "image": "assets/es/croc/CROC05PU.webp",
+        "back": "main"
+      },
+      "crocodile-ranch": {
+        "image": "assets/es/croc/CROC06PU.webp",
+        "back": "main"
+      },
+      "gulp": {
+        "image": "assets/es/croc/CROC07PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/croc/CROC00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/croc/clip.mp4",
+        "poster": "assets/es/croc/CROC08TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/croc/narration.mp3",
+  "sound": "assets/es/croc/CROC00AF.mp3",
+  "factsNarration": "assets/es/croc/CROC00FB.mp3",
+  "video": {
+    "title": "¿Mandíbulas delicadas?",
+    "src": "assets/es/croc/clip.mp4",
+    "poster": "assets/es/croc/poster.webp",
+    "caption": "Los cocodrilos ejercen un gran control sobre sus potentes mandíbulas. Pueden acabar con la presa triturando sus huesos, o cascar un huevo suavemente para ayudar a una cría a salir de él. Y cuando mamá cocodrilo quiere que las crías estén seguras, abre la boca para que se refugien en ella."
+  }
+}
