@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Make favicon / Apple-touch / OG images from the Oceans title screen.
-Source: DATA/ART_TTOV/TITL/TITL01KK.DIB (the clean octopus title). Outputs
+Source: DATA/ART_TTOV/TITL/TITL00N0.DIB (octopus title, no "Demonstration" label). Outputs
 public/{favicon.png, apple-touch-icon.png, og-cover.jpg}. Run with the venv Python (Pillow).
 """
 import os, sys, tempfile, subprocess
@@ -31,7 +31,7 @@ def dib_img(dib):
 
 def main():
     os.makedirs(PUB, exist_ok=True)
-    title = dib_img(os.path.join(TITL, "TITL01KK.DIB"))   # 640x408 clean octopus title
+    title = dib_img(os.path.join(TITL, "TITL00N0.DIB"))   # 640x408 octopus title, no "Demonstration" label
     W, H = title.size
 
     # favicon / apple-touch: a centered square on the octopus
