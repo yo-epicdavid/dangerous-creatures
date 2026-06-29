@@ -96,8 +96,8 @@ const pool = listEntries()
   .game .sub { color: var(--ink-soft); margin: 0 0 16px; }
   .scorebar { display: flex; justify-content: center; gap: 26px; font-weight: 700; color: var(--gold); margin: 0 0 18px; }
   .riddle { font-size: clamp(20px, 3.4vw, 28px); line-height: 1.4; background: linear-gradient(180deg, var(--panel), var(--panel-2)); border: 1px solid var(--line); border-radius: var(--radius); padding: 26px 22px; box-shadow: var(--shadow); min-height: 96px; display: flex; align-items: center; justify-content: center; }
-  .options { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 18px 0; }
-  .opt { appearance: none; cursor: pointer; border: 2px solid var(--line); background: var(--panel-2); color: var(--ink); padding: 16px; border-radius: 14px; font-size: 18px; font-weight: 600; transition: .12s; }
+  .options { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 20px 0; }
+  .opt { appearance: none; cursor: pointer; border: 2px solid var(--line); background: var(--panel-2); color: var(--ink); padding: 24px 20px; border-radius: 16px; font-size: clamp(19px, 2.4vw, 24px); font-weight: 700; min-height: 84px; line-height: 1.25; transition: .12s; }
   .opt:hover:not(:disabled) { border-color: var(--gold); transform: translateY(-2px); }
   .opt:disabled { cursor: default; opacity: .85; }
   .opt.correct { background: var(--green); color: #06251c; border-color: transparent; }
