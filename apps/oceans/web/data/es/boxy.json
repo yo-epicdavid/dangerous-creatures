@@ -1,0 +1,181 @@
+{
+  "id": "boxy",
+  "code": "BOXY",
+  "name": "El pez cofre",
+  "category": "creature",
+  "scientificName": "Ostracion meleagris",
+  "needsScientificVerify": false,
+  "tagline": "¡El pez que nada como un aerodeslizante y lleva su armadura puesta!",
+  "zones": [
+    "Arrecife de coral"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/boxy/BOXY00AA.webp",
+    "alt": "El pez cofre"
+  },
+  "intro": "El pez cofre pertenece a una de las variedades más coloridas de peces del océano y es uno de los favoritos de los acuarios. Realmente tiene forma de caja y una gran variedad de colores, como amarillo brillante, negro y blanco, o violeta con diseños de puntos amarillos. Este pequeño pez, debido a que su cuerpo está cubierto de escamas rígidas y protectoras, tiene un estilo único de nadar, lo que ha aumentado su popularidad y le ha dado además otro nombre: ¡pez aerodeslizante!",
+  "facts": [
+    {
+      "label": "Apodo",
+      "value": "pez aerodeslizante"
+    },
+    {
+      "label": "Dieta",
+      "value": "algas, gusanos y caracoles"
+    },
+    {
+      "label": "Defensa",
+      "value": "Segrega una sustancia venenosa que hace que no resulte sabroso para algunos de sus predadores"
+    },
+    {
+      "label": "Cuerpo",
+      "value": "Completamente encerrado en escamas rígidas y pegadas que le impiden mover el cuerpo"
+    },
+    {
+      "label": "Alimentación",
+      "value": "Lanza chorros de agua en los arrecifes para remover organismos y alimentarse"
+    },
+    {
+      "label": "Apareamiento",
+      "value": "El macho se mueve alrededor de la hembra para seducirla; algunos científicos creen que después ambos nadan hacia la superficie, donde el macho emite un sonido a modo de canción mientras fertiliza los huevos"
+    }
+  ],
+  "topics": [
+    {
+      "id": "always-kissing",
+      "title": "Siempre besando",
+      "image": "assets/es/boxy/BOXY01PU.webp",
+      "text": "En lugar de boca, los peces cofre poseen un pico duro que está permanentemente fruncido. ¡Da la impresión de que están nadando y besando su mundo oceánico! En realidad, los peces cofre utilizan estos picos para absorber su dieta de algas, gusanos y caracoles.\n\nCompatriotas del loro\nEl loro, el pez loro dentón y el pez cofre poseen picos de una forma similar.\n\nUn consumidor de coral\nOtro personaje colorido, el pez loro dentón, ¡tiene un pico tan duro que puede comer coral!",
+      "captions": [
+        {
+          "label": "Pez cofre espinoso",
+          "text": "Chilomycterus schoepfi"
+        },
+        {
+          "label": "Pez loro dentón",
+          "text": "Calotomus japonicus"
+        }
+      ],
+      "narration": "assets/es/boxy/BOXY01JN.mp3"
+    },
+    {
+      "id": "you-call-this-swimming",
+      "title": "¿Y a esto le llamas nadar?",
+      "image": "assets/es/boxy/BOXY02PU.webp",
+      "text": "El torito cornudo –llamado así, a causa de las protuberancias en forma de cuerno que tiene sobre los ojos y por su cara parecida a un toro– es un perseverante y extraño nadador, como los demás miembros de la familia de peces cofre.\n\n¿De este modo?\nLas escamas duras y fusionadas hacen que el cuerpo del torito cornudo sea tan rígido que no se puede mover en absoluto.\n\n¿De qué modo?\nUn caballito de mar tiene un cuerpo blindado, ¡avanzar es todo un esfuerzo!\n\n¿O de este otro?\nComo no puede flexionar su cuerpo, el torito cornudo tiene que servirse del poder de su aleta. Bate las aletas y corrige la dirección rizando la cola.",
+      "captions": [
+        {
+          "label": "Torito cornudo",
+          "text": "Lactoria cornuta"
+        },
+        {
+          "label": "Caballito de mar amarillo",
+          "text": "Hippocampus kuda"
+        }
+      ],
+      "narration": "assets/es/boxy/BOXY02JN.mp3"
+    },
+    {
+      "id": "uptight-and-protected",
+      "title": "Tensos y protegidos",
+      "image": "assets/es/boxy/BOXY03PU.webp",
+      "text": "Algunos animales tienen cubiertas o caparazones muy cerrados para protegerse de los agresores.\n\nSeguro y sólido\nEl armadillo está recubierto de placas óseas duras. Posee articulaciones flexibles en medio de su cuerpo, lo que le permite moverse.\n\nMetido en una caja\nEl pez cofre está completamente encerrado dentro de escamas muy pegadas y no puede mover el cuerpo. También segrega una sustancia venenosa como mecanismo complementario de defensa. Esta sustancia hace que el pez cofre no resulte sabroso para algunos de sus predadores.",
+      "captions": [
+        {
+          "label": "Pez cofre",
+          "text": "Ostracion meleagris"
+        }
+      ],
+      "narration": "assets/es/boxy/BOXY03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Los colores",
+      "to": "colr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/boxy/BOXY00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Siempre besando",
+            "to": "always-kissing",
+            "x": 3,
+            "y": 70,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "¿Y a esto le llamas nadar?",
+            "to": "you-call-this-swimming",
+            "x": 27,
+            "y": 85,
+            "w": 32,
+            "h": 5
+          },
+          {
+            "label": "Tensos y protegidos",
+            "to": "uptight-and-protected",
+            "x": 56,
+            "y": 40,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "La canción del pez cofre",
+            "to": "video",
+            "x": 56,
+            "y": 73,
+            "w": 25,
+            "h": 5
+          }
+        ]
+      },
+      "always-kissing": {
+        "image": "assets/es/boxy/BOXY01PU.webp",
+        "back": "main"
+      },
+      "you-call-this-swimming": {
+        "image": "assets/es/boxy/BOXY02PU.webp",
+        "back": "main"
+      },
+      "uptight-and-protected": {
+        "image": "assets/es/boxy/BOXY03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/boxy/clip.mp4",
+        "poster": "assets/es/boxy/BOXY04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/boxy/BOXY00JN.mp3",
+  "sound": "assets/es/boxy/BOXY00IX.mp3",
+  "video": {
+    "title": "La canción del pez cofre",
+    "src": "assets/es/boxy/clip.mp4",
+    "poster": "assets/es/boxy/poster.webp",
+    "caption": "El pez cofre posee unos hábitos asombrosos para ser un pez tan pequeño y rígido. Algunas especies de peces cofre han ganado su reputación de aerodeslizantes lanzando chorros de agua en los arrecifes, con el objeto de remover organismos para alimentarse. Cuando los peces cofre se aparean, el macho se mueve alrededor de la hembra para seducirla. Algunos científicos creen que después ambos nadan hacia la superficie, donde el macho emite un sonido a modo de canción mientras fertiliza los huevos.",
+    "narration": "assets/es/boxy/BOXY04JN.mp3"
+  }
+}

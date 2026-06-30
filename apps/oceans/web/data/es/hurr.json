@@ -1,0 +1,153 @@
+{
+  "id": "hurr",
+  "code": "HURR",
+  "name": "Los huracanes",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Vientos tan poderosos como cientos de bombas atómicas!",
+  "zones": [
+    "Mar abierto",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/hurr/HURR00AA.webp",
+    "alt": "Los huracanes"
+  },
+  "intro": "Los huracanes, con sus vientos violentos y sus olas ciclónicas, son una de las fuerzas naturales más destructivas del planeta. En el océano Pacífico se llaman tifones; en el océano Índico, ciclones; y en el norte de Australia, corrientes violentas. Un solo huracán puede liberar la energía equivalente a varios centenares de bombas atómicas.",
+  "facts": [
+    {
+      "label": "Energía",
+      "value": "Un solo huracán puede liberar la energía equivalente a varios centenares de bombas atómicas."
+    },
+    {
+      "label": "Velocidad",
+      "value": "Cuando los vientos alcanzan una velocidad de 121 km por hora, una tormenta tropical se califica de huracán."
+    },
+    {
+      "label": "El ojo",
+      "value": "El ojo del huracán puede tener varios cientos de kilómetros de ancho y entre 15 y 25 de alto."
+    },
+    {
+      "label": "Víctimas",
+      "value": "En 1970 murieron más de medio millón de personas por una ola ciclónica causada por un tifón en Bangladesh."
+    },
+    {
+      "label": "Daños",
+      "value": "En 1992, el huracán Andrew, y la inundación que causó, produjo más de 30.000 millones de dólares de daños en Florida, el desastre natural más costoso de la historia de Estados Unidos."
+    },
+    {
+      "label": "Nombres",
+      "value": "En el océano Pacífico se llaman tifones; en el océano Índico, ciclones; y en el norte de Australia, corrientes violentas."
+    }
+  ],
+  "topics": [
+    {
+      "id": "how-they-form",
+      "title": "Cómo se forman",
+      "image": "assets/es/hurr/HURR01PU.webp",
+      "text": "Los huracanes se forman sobre el agua cálida del océano tropical. El vapor de agua caliente se eleva con el calor del sol, formando cúmulo-nimbos cargados de humedad. Estas nubes se mezclan, creando formaciones de nubes en espiral de baja presión, o ciclones tropicales, que obtienen energía del agua caliente mientras soplan sobre ella y se convierten más tarde en tormentas tropicales. Cuando los vientos alcanzan una velocidad de 121 km por hora, esta tormenta es calificada de huracán.",
+      "captions": [
+        {
+          "label": "Un ojo en el cielo",
+          "text": "Cuando se eleva el vapor de agua, la presión atmosférica continúa descendiendo, formándose entonces el centro u ojo del huracán. Este puede tener varios cientos de kilómetros de ancho y entre 15 y 25 de alto."
+        },
+        {
+          "label": "Zonas de formación",
+          "text": "La mayoría de los huracanes de Estados Unidos nacen frente a las costas de África y barren el Atlántico. Aquí puedes ver las nubes en remolino del huracán Allen sobre el golfo de México."
+        }
+      ],
+      "narration": "assets/es/hurr/HURR01JN.mp3"
+    },
+    {
+      "id": "tracking-and-predicting",
+      "title": "Seguir la pista y predecirlos",
+      "image": "assets/es/hurr/HURR02PU.webp",
+      "text": "Seguir la pista de un huracán es una tarea complicada. Primero, los satélites meteorológicos localizan un ciclón tropical. Aviones de observación sobrevuelan la tormenta para reunir datos sobre la presión, la temperatura, la velocidad y la dirección del viento y la lluvia. El radar terrestre capta entonces la tormenta y predice su curso y lugar de aterrizaje. Seguir la pista de las tormentas puede salvar vidas y reducir los daños materiales al avisar con anterioridad a los habitantes de las costas.",
+      "captions": [
+        {
+          "label": "Una rotura extraña",
+          "text": "Una gran ola procedente de una tormenta violenta fue a romper contra el Faro Eddystone, en Inglaterra, en 1840. Su puerta, sólidamente cerrada, fue hecha pedazos desde dentro, no por la fuerza de la ola que la golpeó sino por su retirada. Los científicos llaman acción neumática a esta repentina liberación de presión."
+        }
+      ],
+      "narration": "assets/es/hurr/HURR02JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Las olas",
+      "to": "wave"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/hurr/HURR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 9,
+            "h": 8
+          },
+          {
+            "label": "La destrucción en todo el mundo",
+            "to": "video",
+            "x": 56,
+            "y": 25,
+            "w": 34,
+            "h": 10
+          },
+          {
+            "label": "Seguir la pista y predecirlos",
+            "to": "tracking-and-predicting",
+            "x": 50,
+            "y": 57,
+            "w": 32,
+            "h": 8
+          },
+          {
+            "label": "Cómo se forman",
+            "to": "how-they-form",
+            "x": 4,
+            "y": 82,
+            "w": 24,
+            "h": 7
+          }
+        ]
+      },
+      "how-they-form": {
+        "image": "assets/es/hurr/HURR01PU.webp",
+        "back": "main"
+      },
+      "tracking-and-predicting": {
+        "image": "assets/es/hurr/HURR02PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/hurr/clip.mp4",
+        "poster": "assets/es/hurr/HURR03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/hurr/HURR00JN.mp3",
+  "sound": "assets/es/hurr/HURR00IX.mp3",
+  "video": {
+    "title": "La destrucción en todo el mundo",
+    "src": "assets/es/hurr/clip.mp4",
+    "poster": "assets/es/hurr/poster.webp",
+    "caption": "Imágenes de la devastación causada por huracanes, ciclones y tifones en todo el mundo, incluyendo los efectos del tifón Nina en las islas Filipinas y del huracán Andrew en Florida.",
+    "narration": "assets/es/hurr/HURR03JN.mp3"
+  }
+}

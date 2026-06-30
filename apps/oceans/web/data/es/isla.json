@@ -1,0 +1,252 @@
+{
+  "id": "isla",
+  "code": "ISLA",
+  "name": "Las islas",
+  "category": "habitat",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Cada isla es un mundo secreto que los volcanes y el mar construyeron juntos!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Arrecife de coral"
+  ],
+  "oceans": [
+    "Océano Pacífico",
+    "Océano Atlántico"
+  ],
+  "hero": {
+    "image": "assets/es/isla/ISLA00AA.webp",
+    "alt": "Las islas"
+  },
+  "intro": "Existen más de medio millón de islas esparcidas en los océanos de todo el mundo. Cada una constituye un ecosistema único y extremadamente frágil. No hay dos islas que tengan exactamente las mismas plantas y animales. Algunas son paraísos tranquilos hechos de fragmentos de coral, mientras que otras todavía muestran signos de un origen volcánico violento.",
+  "facts": [
+    {
+      "label": "Número de islas",
+      "value": "Existen más de medio millón de islas esparcidas en los océanos de todo el mundo."
+    },
+    {
+      "label": "Origen volcánico",
+      "value": "Muchas islas son creadas por los volcanes, que inyectan lava desde zonas calientes del manto terrestre."
+    },
+    {
+      "label": "Atolones",
+      "value": "Cuando el volcán desaparece bajo la superficie, el círculo de arrecifes de coral que queda se llama atolón; la mayoría se encuentra en el Pacífico occidental y central."
+    },
+    {
+      "label": "Darwin",
+      "value": "Charles Darwin recogió datos sobre la evolución observando a los animales de las islas Galápagos como naturalista en la década de 1830."
+    },
+    {
+      "label": "Especie endémica",
+      "value": "El cormorán mancón sólo vive en las islas Galápagos; como allí no hay ningún predador nativo, ha perdido su necesidad de volar."
+    },
+    {
+      "label": "Arena negra",
+      "value": "La arena negra de las playas volcánicas está hecha de pedazos diminutos de minerales negros y verdes."
+    }
+  ],
+  "topics": [
+    {
+      "id": "mainland-orphans",
+      "title": "Huérfanas de tierra firme",
+      "image": "assets/es/isla/ISLA01PU.webp",
+      "text": "Las rocas de algunas islas revelan que en otra época formaron parte de un continente. Madagascar es un fragmento de tierra que quedó solo cuando otros continentes se separaron. Muchas islas situadas a poca distancia de la costa, como las islas Británicas, se formaron en el último periodo glaciar. Cuando el clima se calentó y se fundieron los glaciares, se elevó el nivel del mar. Algunas zonas de tierras bajas a lo largo de la costa europea se inundaron, y las elevaciones más altas siguieron emergiendo sobre el agua como islas. También existen barreras de islas, que se forman cuando las corrientes sustraen la arena de las costas y la depositan mar adentro, en largos bancos de arena. La costa atlántica de Estados Unidos tiene muchas islas de este tipo.",
+      "narration": "assets/es/isla/ISLA01JN.mp3"
+    },
+    {
+      "id": "born-of-fire",
+      "title": "Nacidas del fuego",
+      "image": "assets/es/isla/ISLA02PU.webp",
+      "text": "Muchas islas son creadas por los volcanes.",
+      "captions": [
+        {
+          "label": "Zona caliente",
+          "text": "Una «zona caliente» estacionaria de magma en el manto terrestre inyecta ocasionalmente lava en medio de las placas de la corteza terrestre. Como las placas están siempre en movimiento, se producirá una erupción en una zona diferente de la superficie cada vez que se active el volcán."
+        },
+        {
+          "label": "Línea central de expansión",
+          "text": "Las placas oceánicas se separan formando dorsales centro oceánicas. Una enorme corteza se incrusta en la grieta dejada, se injerta en los bordes de las placas móviles y se separa de la línea central de expansión."
+        },
+        {
+          "label": "Arcos isleños",
+          "text": "Los arcos isleños, como Japón, se forman allí donde una placa oceánica es presionada bajo una placa continental. Cuando la placa subducida se funde surge el magma, formando volcanes en la superficie."
+        }
+      ],
+      "narration": "assets/es/isla/ISLA02JN.mp3"
+    },
+    {
+      "id": "coral-jewels",
+      "title": "Joyas de coral",
+      "image": "assets/es/isla/ISLA03PU.webp",
+      "text": "Los arrecifes prosperan en aguas cálidas poco profundas en las orillas de las islas volcánicas. El volcán puede hundirse posteriormente bajo su propio peso o puede que suba el nivel del mar, pero el arrecife que está creciendo puede hacerlo al mismo ritmo que el nivel del agua. Cuando desaparece el volcán bajo la superficie, la zona central se llena de agua salada y se convierte en una laguna; el círculo de arrecifes que queda se llama atolón. La mayoría de las islas de este tipo se encuentra en el océano Pacífico occidental y central.",
+      "narration": "assets/es/isla/ISLA03JN.mp3"
+    },
+    {
+      "id": "unique-isolated-worlds",
+      "title": "Mundos únicos y aislados",
+      "image": "assets/es/isla/ISLA04PU.webp",
+      "text": "El aislamiento de las islas hace que éstas desarrollen sus propias plantas y animales endémicos. Las islas que estaban unidas en otra época a los continentes poseen especies que descienden de la flora y de la fauna de tierra firme. Los primeros animales que llegaron a las islas volcánicas tuvieron que hacer viajes largos y peligrosos, para llegar nadando, flotando o volando a su nuevo hogar. Una vez allí, tuvieron que adaptarse a las nuevas condiciones.",
+      "captions": [
+        {
+          "label": "Un ojo muy fino",
+          "text": "Charles Darwin recogió muchos datos para su teoría sobre la evolución observando a los animales de las islas Galápagos. Pasó un tiempo allí como naturalista en la década de 1830."
+        },
+        {
+          "label": "Marinero de agua dulce",
+          "text": "El cormorán mancón sólo vive en las islas Galápagos. Como allí no hay ningún predador nativo, esta especie ha perdido su necesidad de volar."
+        }
+      ],
+      "narration": "assets/es/isla/ISLA04JN.mp3"
+    },
+    {
+      "id": "fierce-invaders",
+      "title": "Fieros invasores",
+      "image": "assets/es/isla/ISLA05PU.webp",
+      "text": "Cuando las personas llegan a las islas, las especies nativas desaparecen, aunque el impacto no sea voluntario. La vegetación nativa se destruye cuando se aclara la tierra para cultivar, crear pastos o buscar combustible. Los nuevos animales y plantas traídos por los colonos pueden sustituir rápidamente a las especies nativas. Sólo en la década de los años 70, cuando los científicos estudiaron los fósiles de animales isleños, se dieron cuenta de lo mucho que habían sido alterados estos mundos frágiles; normalmente sólo sobreviven algunos restos de las especies originales.",
+      "captions": [
+        {
+          "label": "Signos de cambio",
+          "text": "Cuando los seres humanos llegan a una isla, su influencia siempre altera el medio ambiente natural, a veces con resultados desastrosos."
+        },
+        {
+          "label": "Problemas de fiebre aftosa",
+          "text": "Las cabras y otros animales domésticos fueron introducidos por los colonos como una fuente de alimentación. Estos animales pisotean y comen las plantas nativas, dejando muy poco para los animales que habitaban originalmente la isla."
+        }
+      ],
+      "narration": "assets/es/isla/ISLA05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Las iguanas marinas",
+      "to": "igua"
+    },
+    {
+      "label": "Las olas",
+      "to": "wave"
+    },
+    {
+      "label": "Los exploradores del sur del Pacífico",
+      "to": "sout"
+    },
+    {
+      "label": "Los arrecifes de coral",
+      "to": "reef"
+    },
+    {
+      "label": "Cocodrilos de agua salada",
+      "to": "croc"
+    },
+    {
+      "label": "World Wide Fund for Nature",
+      "to": "wwfd"
+    },
+    {
+      "label": "Tough Choices"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/isla/ISLA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 7,
+            "h": 4
+          },
+          {
+            "label": "Huérfanas de tierra firme",
+            "to": "mainland-orphans",
+            "x": 22,
+            "y": 47,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Nacidas del fuego",
+            "to": "born-of-fire",
+            "x": 11,
+            "y": 55,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Joyas de coral",
+            "to": "coral-jewels",
+            "x": 49,
+            "y": 42,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Fieros invasores",
+            "to": "fierce-invaders",
+            "x": 63,
+            "y": 57,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "El nacimiento de una playa",
+            "to": "video",
+            "x": 16,
+            "y": 77,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Mundos únicos y aislados",
+            "to": "unique-isolated-worlds",
+            "x": 56,
+            "y": 77,
+            "w": 23,
+            "h": 5
+          }
+        ]
+      },
+      "mainland-orphans": {
+        "image": "assets/es/isla/ISLA01PU.webp",
+        "back": "main"
+      },
+      "born-of-fire": {
+        "image": "assets/es/isla/ISLA02PU.webp",
+        "back": "main"
+      },
+      "coral-jewels": {
+        "image": "assets/es/isla/ISLA03PU.webp",
+        "back": "main"
+      },
+      "unique-isolated-worlds": {
+        "image": "assets/es/isla/ISLA04PU.webp",
+        "back": "main"
+      },
+      "fierce-invaders": {
+        "image": "assets/es/isla/ISLA05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/isla/clip.mp4",
+        "poster": "assets/es/isla/ISLA06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/isla/ISLA00JN.mp3",
+  "sound": "assets/es/isla/ISLA00IX.mp3",
+  "video": {
+    "title": "El nacimiento de una playa",
+    "src": "assets/es/isla/clip.mp4",
+    "poster": "assets/es/isla/poster.webp",
+    "caption": "Cuando en una isla erupciona un volcán, la fuerza de la gravedad conduce la lava hacia el mar. La materia caliente se enfría convirtiéndose en roca, por lo que la isla crece. Con el tiempo, las olas golpean el río de lava, erosionándolo y convirtiéndolo en fragmentos de roca y posteriormente en granos de arena que forman una playa. Esta arena negra está hecha de pedazos diminutos de minerales negros y verdes.",
+    "narration": "assets/es/isla/ISLA06JN.mp3"
+  }
+}

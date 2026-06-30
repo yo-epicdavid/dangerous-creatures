@@ -1,0 +1,193 @@
+{
+  "id": "angl",
+  "code": "ANGL",
+  "name": "El pez sapo",
+  "category": "creature",
+  "scientificName": "Borophryne apogon",
+  "needsScientificVerify": false,
+  "tagline": "¡El maestro de las trampas del océano convierte su propio cuerpo en señuelo!",
+  "zones": [
+    "Mar abierto",
+    "Mar profundo",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/angl/ANGL00AA.webp",
+    "alt": "El pez sapo"
+  },
+  "intro": "¡A veces se necesita un pez para pescar a otro! El pez sapo usa unas púas móviles, similares a una caña de pescar, colgando un cebo que atrae peces más pequeños. Algunos viven en aguas poco profundas y están camuflados para parecer una inofensiva masa de algas marinas. El rape de profundidad atrae a sus presas con un cebo que brilla en la oscura zona abisal.",
+  "facts": [
+    {
+      "label": "Señuelo",
+      "value": "Usa púas móviles similares a una caña de pescar para atraer peces más pequeños."
+    },
+    {
+      "label": "Camuflaje",
+      "value": "Algunos se entierran en la arena del fondo del océano o se esconden entre las rocas para confundirse con el entorno."
+    },
+    {
+      "label": "Bioluminiscencia",
+      "value": "El rape de profundidad usa un cebo que brilla en la oscuridad para atraer presas en la zona abisal."
+    },
+    {
+      "label": "Tamaño del macho",
+      "value": "El diminuto pez macho puede ser 20 veces más pequeño que la hembra."
+    },
+    {
+      "label": "Apareamiento",
+      "value": "El macho se funde físicamente con el cuerpo de la hembra; una sola hembra puede llevar varios machos pegados a ella."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "La capacidad especial de brillar en la oscuridad se llama bioluminiscencia, y muchos predadores marinos la usan para atraer presas o pareja."
+    }
+  ],
+  "topics": [
+    {
+      "id": "master-of-disguise",
+      "title": "Maestro del disfraz",
+      "image": "assets/es/angl/ANGL01PU.webp",
+      "text": "El pez sapo no sólo intenta engañar a sus presas con sus trampas incorporadas especiales, sino que también se confunde perfectamente con el entorno. Algunos se entierran en la arena del fondo del océano o se esconden entre las rocas. Este pez de sargazo es difícil de encontrar en su medio ambiente natural, ya que flota entre algas de sargazo cerca de la superficie del Atlántico. Un pez poco cauto nada hacia arriba para esconderse entre las algas y recibe una sorpresa: es tragado por este maestro del disfraz.",
+      "captions": [
+        {
+          "label": "Pez de sargazo",
+          "text": "Histrio histrio"
+        }
+      ],
+      "narration": "assets/es/angl/ANGL01JN.mp3"
+    },
+    {
+      "id": "together-forever",
+      "title": "Juntos para siempre",
+      "image": "assets/es/angl/ANGL02PU.webp",
+      "text": "Este rape de profundidad tiene una de las formas más extraordinarias de apareamiento que la ciencia conoce. El diminuto pez macho sigue el olor de una hembra, que puede ser 20 veces más grande que él. Cuando la encuentra, se agarra a ella con unos dientes especiales. Su cuerpo se funde con el de ella y, desde ese momento, forma parte de la hembra. A veces, una sola hembra tiene pegada a ella varias de estas \"protuberancias\" masculinas.",
+      "captions": [
+        {
+          "label": "Rape de profundidad hembra con machos pegados",
+          "text": "Borophryne apogon"
+        }
+      ],
+      "narration": "assets/es/angl/ANGL02JN.mp3"
+    },
+    {
+      "id": "just-a-little-closer",
+      "title": "Sólo un poco más cerca",
+      "image": "assets/es/angl/ANGL03PU.webp",
+      "text": "Antes de que los humanos inventasen las cañas de pescar y los cebos, muchas especies de animales ya los utilizaban. He aquí un par de maneras diferentes de cómo los animales engañan a sus presas para que se acerquen.\n\nLa trampa de la cola\nLa víbora es una venenosa serpiente de tierra que tiene un cuerpo grueso y una punta pequeña y escuálida en su cola. Mantiene su cuerpo inmóvil y agita la punta de la cola frente a su cabeza para parecer un gusano retorciéndose. Si la trampa funciona, un lagarto intentará comerse el \"gusano\", pero en vez de ello será engullido por la serpiente.\n\nAtraídos por la luz\nProbablemente hayas observado que muchas polillas son atraídas de noche por la luz. Igual les ocurre a muchas criaturas que viven en las profundidades del océano. Algunos predadores marinos se aprovechan de este hecho iluminando algunas partes de su cuerpo para atraer a una pareja. Esta capacidad especial de brillar en la oscuridad se llama bioluminiscencia.",
+      "captions": [
+        {
+          "label": "Víbora mortal australiana",
+          "text": "Acanthophis antarcticus"
+        },
+        {
+          "label": "Pez hacha abisal",
+          "text": "Órganos luminosos en la parte inferior"
+        }
+      ],
+      "narration": "assets/es/angl/ANGL03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "La zona abisal",
+      "to": "abys"
+    },
+    {
+      "label": "El rascacio",
+      "to": "scor"
+    },
+    {
+      "label": "Caballitos y mulas de mar",
+      "to": "pipe"
+    },
+    {
+      "label": "Aquarium Game"
+    },
+    {
+      "label": "Marine Mosaic"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/angl/ANGL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 2,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "Sólo un poco más cerca",
+            "to": "just-a-little-closer",
+            "x": 63,
+            "y": 16,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Juntos para siempre",
+            "to": "together-forever",
+            "x": 54,
+            "y": 47,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Maestro del disfraz",
+            "to": "master-of-disguise",
+            "x": 58,
+            "y": 59,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "¡Atención!",
+            "to": "video",
+            "x": 3,
+            "y": 71,
+            "w": 11,
+            "h": 6
+          }
+        ]
+      },
+      "master-of-disguise": {
+        "image": "assets/es/angl/ANGL01PU.webp",
+        "back": "main"
+      },
+      "together-forever": {
+        "image": "assets/es/angl/ANGL02PU.webp",
+        "back": "main"
+      },
+      "just-a-little-closer": {
+        "image": "assets/es/angl/ANGL03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/angl/clip.mp4",
+        "poster": "assets/es/angl/ANGL04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/angl/ANGL00JN.mp3",
+  "sound": "assets/es/angl/ANGL00IX.mp3",
+  "video": {
+    "title": "¡Atención!",
+    "src": "assets/es/angl/clip.mp4",
+    "poster": "assets/es/angl/poster.webp",
+    "caption": "Si fueras un pequeño pez, deberías estar alerta. Una roca amarilla, un montoncito de arena en el fondo del océano, una luz que brilla en la oscuridad o un gusano que baila en medio de las corrientes ¡podrían ser un pez más grande que pretende comerte!",
+    "narration": "assets/es/angl/ANGL04JN.mp3"
+  }
+}

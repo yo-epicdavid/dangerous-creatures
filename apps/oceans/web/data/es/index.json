@@ -1,0 +1,560 @@
+[
+  {
+    "id": "clam",
+    "name": "Almejas, ostras y vieiras",
+    "category": "creature",
+    "thumb": "assets/es/clam/CLAM00AA.webp"
+  },
+  {
+    "id": "powr",
+    "name": "Asombrosos poderes",
+    "category": "concept",
+    "thumb": "assets/es/powr/POWR00AA.webp"
+  },
+  {
+    "id": "lake",
+    "name": "Aves de lagos y costas",
+    "category": "creature",
+    "thumb": "assets/es/lake/LAKE00AA.webp"
+  },
+  {
+    "id": "bird",
+    "name": "Aves marinas voladoras",
+    "category": "creature",
+    "thumb": "assets/es/bird/BIRD00AA.webp"
+  },
+  {
+    "id": "pipe",
+    "name": "Caballitos y mulas de mar",
+    "category": "creature",
+    "thumb": "assets/es/pipe/PIPE00AA.webp"
+  },
+  {
+    "id": "fear",
+    "name": "Caras espantosas",
+    "category": "concept",
+    "thumb": "assets/es/fear/FEAR00AA.webp"
+  },
+  {
+    "id": "croc",
+    "name": "Cocodrilos de agua salada",
+    "category": "creature",
+    "thumb": "assets/es/croc/CROC00AA.webp"
+  },
+  {
+    "id": "dolp",
+    "name": "Delfines y marsopas",
+    "category": "creature",
+    "thumb": "assets/es/dolp/DOLP00AA.webp"
+  },
+  {
+    "id": "disa",
+    "name": "Desastres marítimos",
+    "category": "concept",
+    "thumb": "assets/es/disa/DISA00AA.webp"
+  },
+  {
+    "id": "squi",
+    "name": "El calamar y la sepia",
+    "category": "creature",
+    "thumb": "assets/es/squi/SQUI00AA.webp"
+  },
+  {
+    "id": "shri",
+    "name": "El camarón",
+    "category": "creature",
+    "thumb": "assets/es/shri/SHRI00AA.webp"
+  },
+  {
+    "id": "wcyc",
+    "name": "El ciclo del agua",
+    "category": "concept",
+    "thumb": "assets/es/wcyc/WCYC00AA.webp"
+  },
+  {
+    "id": "cora",
+    "name": "El coral",
+    "category": "creature",
+    "thumb": "assets/es/cora/CORA00AA.webp"
+  },
+  {
+    "id": "oflr",
+    "name": "El fondo marino",
+    "category": "concept",
+    "thumb": "assets/es/oflr/OFLR00AA.webp"
+  },
+  {
+    "id": "futu",
+    "name": "El futuro de los océanos",
+    "category": "concept",
+    "thumb": "assets/es/futu/FUTU00AA.webp"
+  },
+  {
+    "id": "shor",
+    "name": "El litoral",
+    "category": "habitat",
+    "thumb": "assets/es/shor/SHOR00AA.webp"
+  },
+  {
+    "id": "medi",
+    "name": "El mar Mediterráneo",
+    "category": "place",
+    "thumb": "assets/es/medi/MEDI00AA.webp"
+  },
+  {
+    "id": "anta",
+    "name": "El océano Antártico",
+    "category": "place",
+    "thumb": "assets/es/anta/ANTA00AA.webp"
+  },
+  {
+    "id": "atla",
+    "name": "El océano Atlántico",
+    "category": "place",
+    "thumb": "assets/es/atla/ATLA00AA.webp"
+  },
+  {
+    "id": "paci",
+    "name": "El océano Pacífico",
+    "category": "place",
+    "thumb": "assets/es/paci/PACI00AA.webp"
+  },
+  {
+    "id": "arct",
+    "name": "El océano Ártico",
+    "category": "place",
+    "thumb": "assets/es/arct/ARCT00AA.webp"
+  },
+  {
+    "id": "indn",
+    "name": "El océano Índico",
+    "category": "place",
+    "thumb": "assets/es/indn/INDN00AA.webp"
+  },
+  {
+    "id": "boxy",
+    "name": "El pez cofre",
+    "category": "creature",
+    "thumb": "assets/es/boxy/BOXY00AA.webp"
+  },
+  {
+    "id": "angl",
+    "name": "El pez sapo",
+    "category": "creature",
+    "thumb": "assets/es/angl/ANGL00AA.webp"
+  },
+  {
+    "id": "plan",
+    "name": "El plancton",
+    "category": "concept",
+    "thumb": "assets/es/plan/PLAN00AA.webp"
+  },
+  {
+    "id": "octo",
+    "name": "El pulpo",
+    "category": "creature",
+    "thumb": "assets/es/octo/OCTO00AA.webp"
+  },
+  {
+    "id": "scor",
+    "name": "El rascacio",
+    "category": "creature",
+    "thumb": "assets/es/scor/SCOR00AA.webp"
+  },
+  {
+    "id": "east",
+    "name": "Exploradores del Mediterráneo oriental",
+    "category": "human",
+    "thumb": "assets/es/east/EAST00AA.webp"
+  },
+  {
+    "id": "slug",
+    "name": "La babosa marina",
+    "category": "creature",
+    "thumb": "assets/es/slug/SLUG00AA.webp"
+  },
+  {
+    "id": "webl",
+    "name": "La cadena de la vida",
+    "category": "concept",
+    "thumb": "assets/es/webl/WEBL00AA.webp"
+  },
+  {
+    "id": "mpln",
+    "name": "La flora marina",
+    "category": "concept",
+    "thumb": "assets/es/mpln/MPLN00AA.webp"
+  },
+  {
+    "id": "urch",
+    "name": "La holoturia y el erizo de mar",
+    "category": "creature",
+    "thumb": "assets/es/urch/URCH00AA.webp"
+  },
+  {
+    "id": "walr",
+    "name": "La morsa",
+    "category": "creature",
+    "thumb": "assets/es/walr/WALR00AA.webp"
+  },
+  {
+    "id": "weat",
+    "name": "La máquina climática",
+    "category": "concept",
+    "thumb": "assets/es/weat/WEAT00AA.webp"
+  },
+  {
+    "id": "navi",
+    "name": "La navegación",
+    "category": "concept",
+    "thumb": "assets/es/navi/NAVI00AA.webp"
+  },
+  {
+    "id": "ottr",
+    "name": "La nutria marina",
+    "category": "creature",
+    "thumb": "assets/es/ottr/OTTR00AA.webp"
+  },
+  {
+    "id": "fish",
+    "name": "La pesca y la caza de ballenas",
+    "category": "human",
+    "thumb": "assets/es/fish/FISH00AA.webp"
+  },
+  {
+    "id": "rays",
+    "name": "La raya",
+    "category": "creature",
+    "thumb": "assets/es/rays/RAYS00AA.webp"
+  },
+  {
+    "id": "snak",
+    "name": "La serpiente marina",
+    "category": "creature",
+    "thumb": "assets/es/snak/SNAK00AA.webp"
+  },
+  {
+    "id": "turt",
+    "name": "La tortuga marina",
+    "category": "creature",
+    "thumb": "assets/es/turt/TURT00AA.webp"
+  },
+  {
+    "id": "abys",
+    "name": "La zona abisal",
+    "category": "habitat",
+    "thumb": "assets/es/abys/ABYS00AA.webp"
+  },
+  {
+    "id": "eels",
+    "name": "Las anguilas",
+    "category": "creature",
+    "thumb": "assets/es/eels/EELS00AA.webp"
+  },
+  {
+    "id": "anem",
+    "name": "Las anémonas",
+    "category": "creature",
+    "thumb": "assets/es/anem/ANEM00AA.webp"
+  },
+  {
+    "id": "arts",
+    "name": "Las artes y la literatura del mar",
+    "category": "human",
+    "thumb": "assets/es/arts/ARTS00AA.webp"
+  },
+  {
+    "id": "sqrt",
+    "name": "Las ascidias",
+    "category": "creature",
+    "thumb": "assets/es/sqrt/SQRT00AA.webp"
+  },
+  {
+    "id": "whlb",
+    "name": "Las ballenas",
+    "category": "creature",
+    "thumb": "assets/es/whlb/WHLB00AA.webp"
+  },
+  {
+    "id": "curr",
+    "name": "Las corrientes",
+    "category": "concept",
+    "thumb": "assets/es/curr/CURR00AA.webp"
+  },
+  {
+    "id": "spon",
+    "name": "Las esponjas marinas",
+    "category": "creature",
+    "thumb": "assets/es/spon/SPON00AA.webp"
+  },
+  {
+    "id": "star",
+    "name": "Las estrellas de mar",
+    "category": "creature",
+    "thumb": "assets/es/star/STAR00AA.webp"
+  },
+  {
+    "id": "seal",
+    "name": "Las focas y el león marino",
+    "category": "creature",
+    "thumb": "assets/es/seal/SEAL00AA.webp"
+  },
+  {
+    "id": "igua",
+    "name": "Las iguanas marinas",
+    "category": "creature",
+    "thumb": "assets/es/igua/IGUA00AA.webp"
+  },
+  {
+    "id": "isla",
+    "name": "Las islas",
+    "category": "habitat",
+    "thumb": "assets/es/isla/ISLA00AA.webp"
+  },
+  {
+    "id": "lobs",
+    "name": "Las langostas",
+    "category": "creature",
+    "thumb": "assets/es/lobs/LOBS00AA.webp"
+  },
+  {
+    "id": "tide",
+    "name": "Las mareas",
+    "category": "concept",
+    "thumb": "assets/es/tide/TIDE00AA.webp"
+  },
+  {
+    "id": "jell",
+    "name": "Las medusas y las fragatas portuguesas",
+    "category": "creature",
+    "thumb": "assets/es/jell/JELL00AA.webp"
+  },
+  {
+    "id": "wave",
+    "name": "Las olas",
+    "category": "concept",
+    "thumb": "assets/es/wave/WAVE00AA.webp"
+  },
+  {
+    "id": "reef",
+    "name": "Los arrecifes de coral",
+    "category": "habitat",
+    "thumb": "assets/es/reef/REEF00AA.webp"
+  },
+  {
+    "id": "shal",
+    "name": "Los bajíos",
+    "category": "habitat",
+    "thumb": "assets/es/shal/SHAL00AA.webp"
+  },
+  {
+    "id": "barn",
+    "name": "Los balanos",
+    "category": "creature",
+    "thumb": "assets/es/barn/BARN00AA.webp"
+  },
+  {
+    "id": "sail",
+    "name": "Los barcos de vela",
+    "category": "human",
+    "thumb": "assets/es/sail/SAIL00AA.webp"
+  },
+  {
+    "id": "powe",
+    "name": "Los barcos propulsados",
+    "category": "human",
+    "thumb": "assets/es/powe/POWE00AA.webp"
+  },
+  {
+    "id": "moss",
+    "name": "Los briozoos",
+    "category": "creature",
+    "thumb": "assets/es/moss/MOSS00AA.webp"
+  },
+  {
+    "id": "crab",
+    "name": "Los cangrejos",
+    "category": "creature",
+    "thumb": "assets/es/crab/CRAB00AA.webp"
+  },
+  {
+    "id": "spir",
+    "name": "Los caracoles marinos",
+    "category": "concept",
+    "thumb": "assets/es/spir/SPIR00AA.webp"
+  },
+  {
+    "id": "colr",
+    "name": "Los colores",
+    "category": "concept",
+    "thumb": "assets/es/colr/COLR00AA.webp"
+  },
+  {
+    "id": "toot",
+    "name": "Los dientes más temidos",
+    "category": "concept",
+    "thumb": "assets/es/toot/TOOT00AA.webp"
+  },
+  {
+    "id": "mili",
+    "name": "Los ejércitos en el mar",
+    "category": "human",
+    "thumb": "assets/es/mili/MILI00AA.webp"
+  },
+  {
+    "id": "chin",
+    "name": "Los exploradores chinos",
+    "category": "human",
+    "thumb": "assets/es/chin/CHIN00AA.webp"
+  },
+  {
+    "id": "west",
+    "name": "Los exploradores de Europa occidental",
+    "category": "human",
+    "thumb": "assets/es/west/WEST00AA.webp"
+  },
+  {
+    "id": "sout",
+    "name": "Los exploradores del sur del Pacífico",
+    "category": "human",
+    "thumb": "assets/es/sout/SOUT00AA.webp"
+  },
+  {
+    "id": "hurr",
+    "name": "Los huracanes",
+    "category": "concept",
+    "thumb": "assets/es/hurr/HURR00AA.webp"
+  },
+  {
+    "id": "pret",
+    "name": "Los impostores",
+    "category": "concept",
+    "thumb": "assets/es/pret/PRET00AA.webp"
+  },
+  {
+    "id": "mana",
+    "name": "Los manatíes y los dugones",
+    "category": "creature",
+    "thumb": "assets/es/mana/MANA00AA.webp"
+  },
+  {
+    "id": "whlt",
+    "name": "Los odontocetos",
+    "category": "creature",
+    "thumb": "assets/es/whlt/WHLT00AA.webp"
+  },
+  {
+    "id": "peng",
+    "name": "Los pingüinos",
+    "category": "creature",
+    "thumb": "assets/es/peng/PENG00AA.webp"
+  },
+  {
+    "id": "pira",
+    "name": "Los piratas",
+    "category": "human",
+    "thumb": "assets/es/pira/PIRA00AA.webp"
+  },
+  {
+    "id": "sens",
+    "name": "Los sentidos del mar",
+    "category": "concept",
+    "thumb": "assets/es/sens/SENS00AA.webp"
+  },
+  {
+    "id": "shar",
+    "name": "Los temibles tiburones",
+    "category": "creature",
+    "thumb": "assets/es/shar/SHAR00AA.webp"
+  },
+  {
+    "id": "flat",
+    "name": "Los turbelarios",
+    "category": "creature",
+    "thumb": "assets/es/flat/FLAT00AA.webp"
+  },
+  {
+    "id": "mine",
+    "name": "Minerales del mar",
+    "category": "concept",
+    "thumb": "assets/es/mine/MINE00AA.webp"
+  },
+  {
+    "id": "myst",
+    "name": "Misteriosas relaciones",
+    "category": "concept",
+    "thumb": "assets/es/myst/MYST00AA.webp"
+  },
+  {
+    "id": "myth",
+    "name": "Mitos y leyendas",
+    "category": "concept",
+    "thumb": "assets/es/myth/MYTH00AA.webp"
+  },
+  {
+    "id": "infl",
+    "name": "Peces inflables",
+    "category": "creature",
+    "thumb": "assets/es/infl/INFL00AA.webp"
+  },
+  {
+    "id": "divi",
+    "name": "Submarinismo",
+    "category": "human",
+    "thumb": "assets/es/divi/DIVI00AA.webp"
+  },
+  {
+    "id": "robo",
+    "name": "Submarinos y robots",
+    "category": "human",
+    "thumb": "assets/es/robo/ROBO00AA.webp"
+  },
+  {
+    "id": "buri",
+    "name": "Tesoros en el fondo del mar",
+    "category": "concept",
+    "thumb": "assets/es/buri/BURI00AA.webp"
+  },
+  {
+    "id": "fasc",
+    "name": "Tiburones fascinantes",
+    "category": "creature",
+    "thumb": "assets/es/fasc/FASC00AA.webp"
+  },
+  {
+    "id": "fanw",
+    "name": "Tubícolas y poliquetos",
+    "category": "creature",
+    "thumb": "assets/es/fanw/FANW00AA.webp"
+  },
+  {
+    "id": "help",
+    "name": "Uso de Océanos de Microsoft",
+    "category": "concept",
+    "thumb": "assets/es/help/HELP00AA.webp"
+  },
+  {
+    "id": "fant",
+    "name": "Viajes fantásticos",
+    "category": "human",
+    "thumb": "assets/es/fant/FANT00AA.webp"
+  },
+  {
+    "id": "wwfd",
+    "name": "World Wide Fund for Nature",
+    "category": "human",
+    "thumb": "assets/es/wwfd/WWFD00AA.webp"
+  },
+  {
+    "id": "ocea",
+    "name": "¿Qué es la oceanografía?",
+    "category": "concept",
+    "thumb": "assets/es/ocea/OCEA00AA.webp"
+  },
+  {
+    "id": "what",
+    "name": "¿Qué es un pez?",
+    "category": "concept",
+    "thumb": "assets/es/what/WHAT00AA.webp"
+  }
+]

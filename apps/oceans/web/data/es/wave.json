@@ -1,0 +1,168 @@
+{
+  "id": "wave",
+  "code": "WAVE",
+  "name": "Las olas",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Del suave vaivén a las olas gigantes: descubre el poder que mueve los océanos!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Mar abierto"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/wave/WAVE00AA.webp",
+    "alt": "Las olas"
+  },
+  "intro": "El agua de los océanos jamás se está quieta: los movimientos del viento y del fondo marino la impulsan a formar continuas olas. Las olas son benéficas: su constante vaivén proporciona los nutrientes y el oxígeno tan esenciales para la vida establecida en la orilla o el fondo del mar. Sin embargo, también pueden ser mortales. Las enormes olas llamadas maremotos llegan a sepultar barcos y ciudades costeras. Las olas serán siempre objeto de fascinación para el ser humano, con ese rítmico y poderoso movimiento que nadie puede predecir del todo.",
+  "facts": [
+    {
+      "label": "Récord de altura",
+      "value": "Las olas levantadas por una tormenta en el océano Atlántico, en 1991, alcanzaron un récord de 46 m de altura."
+    },
+    {
+      "label": "Altura de tsunami",
+      "value": "Las olas de un maremoto pueden alcanzar los 30 m de altura y barrer localidades costeras enteras."
+    },
+    {
+      "label": "Frecuencia",
+      "value": "Se produce un maremoto en algún lugar del mundo con una periodicidad de una al año."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "El primer signo de un maremoto puede ser el rápido descenso del nivel de agua de un puerto."
+    },
+    {
+      "label": "Olas traicioneras",
+      "value": "Cuando la cresta y la base de varias ondas se combinan, forman «olas traicioneras» de descomunal altura, responsables de la misteriosa desaparición de grandes buques en altamar."
+    },
+    {
+      "label": "Causa principal",
+      "value": "La mayor parte de los maremotos se debe al desplazamiento del fondo marino por un terremoto, en zonas de subducción que bordean el océano Pacífico."
+    }
+  ],
+  "topics": [
+    {
+      "id": "how-waves-work",
+      "title": "El funcionamiento de las olas",
+      "image": "assets/es/wave/WAVE01PU.webp",
+      "text": "Las olas nacen al soplar el viento sobre una extensión de agua. A medida que la ola se desplaza, su energía la impulsa hacia delante, lo que no ocurre con las partículas de agua en sí mismas. Aunque las partículas no cambian de sitio, suben y bajan con un movimiento circular. Es como la energía que se produce al sacudir una toalla o cuando el viento agita un campo de trigo. Cuando las olas alcanzan las aguas poco profundas de la orilla, la parte inferior de uno de esos invisibles círculos de movimiento choca contra el fondo, mientras la parte superior sigue avanzando, produciéndose el rompimiento de la ola.",
+      "captions": [
+        {
+          "label": "Anatomía de una ola",
+          "text": "Longitud de la ola, Altura de la ola, Cresta, Base"
+        }
+      ],
+      "narration": "assets/es/wave/WAVE01JN.mp3"
+    },
+    {
+      "id": "tsunami",
+      "title": "¡Que viene un maremoto!",
+      "image": "assets/es/wave/WAVE03PU.webp",
+      "text": "Los maremotos o tsunamis, también conocidos como olas de marea, no tienen en realidad nada que ver con las mareas. Están causados por un abrupto movimiento del suelo del océano, como un terremoto. La mayoría de los terremotos que producen maremotos ocurren en zonas de subducción. Muchas de estas zonas bordean el océano Pacífico, por lo que áreas como Japón, Indonesia, Alaska y Chile son susceptibles de sufrir maremotos. Estas gigantescas olas surgen en algún lugar del mundo, con una periodicidad de una al año. Son difíciles de predecir, y suelen estrellarse contra la costa antes de que los científicos las detecten. El primer signo de un maremoto puede ser el rápido descenso del nivel de agua de un puerto. Las olas que siguen a continuación pueden alcanzar los 30 m de altura y barrer localidades costeras enteras.",
+      "captions": [
+        {
+          "label": "Alaska, 1964",
+          "text": "Daños producidos por un maremoto; terremoto de 1964 en Alaska"
+        }
+      ],
+      "narration": "assets/es/wave/WAVE03JN.mp3"
+    },
+    {
+      "id": "what-causes-tsunamis",
+      "title": "¿Qué causa un maremoto?",
+      "image": "assets/es/wave/WAVE04PU.webp",
+      "text": "El avance de un maremoto suele quedar oculto por el movimiento de las olas. Sólo en el instante en que una de estas gigantescas olas se aproxima a la orilla, el mar se levanta a una inmensa altura. Los maremotos se deben a accidentes naturales, como terremotos, desplazamientos de tierra o erupciones volcánicas. La mayor parte se debe al desplazamiento del fondo marino por un terremoto. Al moverse el suelo, desplaza la enorme cantidad de agua que tiene encima, poniendo en movimiento un mecanismo mortal.",
+      "narration": "assets/es/wave/WAVE04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Las mareas",
+      "to": "tide"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/wave/WAVE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 8,
+            "w": 9,
+            "h": 5
+          },
+          {
+            "label": "El funcionamiento de las olas",
+            "to": "how-waves-work",
+            "x": 56,
+            "y": 16,
+            "w": 28,
+            "h": 7
+          },
+          {
+            "label": "Un inmenso poder",
+            "to": "video",
+            "x": 57,
+            "y": 28,
+            "w": 24,
+            "h": 7
+          },
+          {
+            "label": "¡Que viene un maremoto!",
+            "to": "tsunami",
+            "x": 54,
+            "y": 61,
+            "w": 17,
+            "h": 7
+          },
+          {
+            "label": "¿Qué causa un maremoto?",
+            "to": "what-causes-tsunamis",
+            "x": 46,
+            "y": 72,
+            "w": 33,
+            "h": 7
+          }
+        ]
+      },
+      "how-waves-work": {
+        "image": "assets/es/wave/WAVE01PU.webp",
+        "back": "main"
+      },
+      "tsunami": {
+        "image": "assets/es/wave/WAVE03PU.webp",
+        "back": "main"
+      },
+      "what-causes-tsunamis": {
+        "image": "assets/es/wave/WAVE04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/wave/clip.mp4",
+        "poster": "assets/es/wave/WAVE02PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/wave/WAVE00JN.mp3",
+  "sound": "assets/es/wave/WAVE00IX.mp3",
+  "video": {
+    "title": "Un inmenso poder",
+    "src": "assets/es/wave/clip.mp4",
+    "poster": "assets/es/wave/poster.webp",
+    "caption": "El tamaño de una ola depende de tres cosas: la fuerza, la longitud y el ángulo, o traída, del viento. Las olas levantadas por una tormenta en el océano Atlántico, en 1991, alcanzaron un récord de 46 m de altura. En raras ocasiones, la cresta y la base de varias ondas se combinan y acumulan produciendo «olas traicioneras» de descomunal altura. Se piensa que estas monstruosas olas son las responsables de la misteriosa desaparición de grandes buques en altamar.",
+    "narration": "assets/es/wave/WAVE02JN.mp3"
+  }
+}

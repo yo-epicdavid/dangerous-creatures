@@ -1,0 +1,234 @@
+{
+  "id": "wcyc",
+  "code": "WCYC",
+  "name": "El ciclo del agua",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡El agua que bebes hoy quizá fue océano, nube o nieve hace miles de años!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Mar abierto",
+    "Mares polares",
+    "Ríos y estuarios"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/wcyc/WCYC00AA.webp",
+    "alt": "El ciclo del agua"
+  },
+  "intro": "El agua está en todas partes: en las gotas de lluvia, los glaciares, los océanos, los bancos de niebla... y en todo ser vivo. El agua, en sus distintos estados, circula constantemente entre la superficie terrestre y la atmósfera. El movimiento de las moléculas de agua entre estos dos medio ambientes es similar al de los copos de nieve al agitar una esfera de cristal. El vapor del agua que llevan las nubes se enfría y se condensa alrededor de las partículas de polvo precipitándose en forma de lluvia o nieve. El agua en estado líquido abandona la corteza terrestre y pasa a formar parte de ríos, que a la larga la devuelven al mar. Finalmente el agua vuelve a la atmósfera a través de la evaporación, al transformarse de nuevo en vapor por obra del sol y del viento.",
+  "facts": [
+    {
+      "label": "Tres estados",
+      "value": "La Tierra es el único planeta del sistema solar en el que el agua puede existir en tres estados diferentes: vapor, líquido y sólido."
+    },
+    {
+      "label": "Hielo polar",
+      "value": "Cuando el agua polar se congela, la sal es expulsada del hielo. El agua restante se vuelve más salada, fría y pesada, y se hunde hacia el fondo del mar flotando lentamente hacia el ecuador."
+    },
+    {
+      "label": "Desalinización",
+      "value": "Es posible quitarle la sal al agua del mar mediante desalinización para obtener agua dulce, pero el proceso es costoso ya que requiere de mucha energía."
+    },
+    {
+      "label": "Venus",
+      "value": "Venus debió tener agua en otro tiempo. Pero, de ser así, hace mucho que sus océanos se evaporaron por el efecto invernadero extremo de sus nubes de bióxido de carbono."
+    },
+    {
+      "label": "Cambios climáticos",
+      "value": "Si aumentara la temperatura en el planeta, el ciclo del agua se intensificaría: habría más evaporación, más nubes, más precipitaciones y más huracanes."
+    },
+    {
+      "label": "Bosques y agua",
+      "value": "Las plantas liberan vapor y oxígeno a la atmósfera mediante la transpiración. Al talar o quemar bosques, esa cantidad disminuye y aumenta el bióxido de carbono del aire, contribuyendo al efecto invernadero."
+    }
+  ],
+  "topics": [
+    {
+      "id": "drinking-seawater",
+      "title": "El agua potable del mar",
+      "image": "assets/es/wcyc/WCYC01PU.webp",
+      "text": "Es posible quitarle la sal al agua del mar mediante un proceso llamado desalinización. El resultado es agua dulce, que se utiliza para beber y para otros fines. Sin embargo, es un proceso costoso ya que requiere de mucha energía.\n\nZonas áridas\nEl Medio Oriente es una región árida rodeada de mares salobres. Este área recibe poca lluvia y tiene pocos lagos, por lo que sus recursos de agua dulce son limitados. Sin embargo, al tener muchos campos petrolíferos, los costos energéticos son relativamente bajos y la desalinización es realmente rentable.\n\nFábricas de agua\nLa desalinización sólo es práctica en las zonas en las que escasea el agua y el costo energético es bajo, como Arabia Saudí, donde se encuentra esta planta.",
+      "captions": [
+        {
+          "label": "Planta de desalinización, Arabia Saudí",
+          "text": "La desalinización sólo es práctica en las zonas en las que escasea el agua y el costo energético es bajo, como Arabia Saudí, donde se encuentra esta planta."
+        }
+      ],
+      "narration": "assets/es/wcyc/WCYC01JN.mp3"
+    },
+    {
+      "id": "with-ice-please",
+      "title": "Con hielo, por favor",
+      "image": "assets/es/wcyc/WCYC02PU.webp",
+      "text": "Cuando el agua del mar se congela, afecta tanto a las características químicas como a las físicas del océano.\n\nAguas revueltas\nCuando el agua polar se congela en bloques de hielo, la sal es expulsada, al no encajar en la estructura cristalina del hielo. El resto del agua se vuelve más salada, fría y pesada, por lo que se hunde hacia el fondo del mar y flota lentamente hacia el ecuador.\n\nBébeme\nLos témpanos y los icebergs, al desalinizarse el agua mediante el proceso de congelación, han sido una fuente de agua fresca para los pueblos nativos del Ártico. Algún día podría resultar económicamente factible remolcar esos contenedores naturales de agua dulce a regiones desérticas, como Australia o el Medio Oriente.",
+      "captions": [
+        {
+          "label": "Témpano, área de Grise Fjord",
+          "text": "Los témpanos y los icebergs, al desalinizarse el agua mediante el proceso de congelación, han sido una fuente de agua fresca para los pueblos nativos del Ártico."
+        }
+      ],
+      "narration": "assets/es/wcyc/WCYC02JN.mp3"
+    },
+    {
+      "id": "only-on-earth",
+      "title": "Sólo en la Tierra",
+      "image": "assets/es/wcyc/WCYC03PU.webp",
+      "text": "Nuestro planeta es el único de todo el sistema solar en el que el agua puede existir en tres estados diferentes: vapor, líquido y sólido.\n\nUn terrible horno\nEn este mapa de Venus generado por computadora vemos a través de sus espesas nubes de bióxido de carbono. Las nubes atrapan la energía solar, convirtiendo el planeta en el más caluroso de todo el sistema. Ejemplo extremo del efecto invernadero, Venus debió tener agua en otro tiempo. Pero, de ser así, hace mucho que sus océanos se evaporaron.\n\nUn reluciente globo\nEl sistema único de temperaturas y presiones de nuestro planeta, permite al agua existir en formas tan variadas como la sólida masa de un iceberg, el líquido del resplandeciente océano y el sutil vapor de una nube.",
+      "captions": [
+        {
+          "label": "Perspectiva por computadora del monte Maat, el mayor volcán de Venus",
+          "text": "En este mapa de Venus generado por computadora vemos a través de sus espesas nubes de bióxido de carbono. Las nubes atrapan la energía solar, convirtiendo el planeta en el más caluroso de todo el sistema."
+        },
+        {
+          "label": "La tierra desde la nave espacial Apollo 17, 1972",
+          "text": "El sistema único de temperaturas y presiones de nuestro planeta, permite al agua existir en formas tan variadas como la sólida masa de un iceberg, el líquido del resplandeciente océano y el sutil vapor de una nube."
+        }
+      ],
+      "narration": "assets/es/wcyc/WCYC03JN.mp3"
+    },
+    {
+      "id": "a-chainsaw-reaction",
+      "title": "Una reacción en cadena",
+      "image": "assets/es/wcyc/WCYC04PU.webp",
+      "text": "Cuando se desestabiliza de alguna forma el delicado equilibrio atmosférico del planeta, a la larga se termina estableciendo un nuevo equilibrio. Sin embargo, la ecología del planeta puede transformarse seriamente.\n\nEn el mar\nLa tierra se erosiona con mayor facilidad cuantos menos árboles haya, y aumenta el número de sedimentos que va a parar a los ríos y los océanos. Los sedimentos, además de asfixiar a los arrecifes coralinos, matan a los peces al reducir la cantidad de oxígeno del agua.\n\nTala y desertización\nLas plantas liberan vapor de agua a la atmósfera en un proceso llamado transpiración. La cantidad de vapor y oxígeno que se recicla y vuelve al aire disminuye a medida que se talan o queman más bosques. Los bosques quemados aumentan la cantidad de bióxido de carbono del aire, que atrapa el calor y contribuye a provocar el efecto invernadero.",
+      "captions": [
+        {
+          "label": "Foto satélite del delta del Ganges",
+          "text": "La tierra se erosiona con mayor facilidad cuantos menos árboles haya, y aumenta el número de sedimentos que va a parar a los ríos y los océanos. Los sedimentos, además de asfixiar a los arrecifes coralinos, matan a los peces al reducir la cantidad de oxígeno del agua."
+        }
+      ],
+      "narration": "assets/es/wcyc/WCYC04JN.mp3"
+    },
+    {
+      "id": "changing-climate",
+      "title": "Cambios climáticos",
+      "image": "assets/es/wcyc/WCYC05PU.webp",
+      "text": "¿Qué ocurriría si aumentara la temperatura en el planeta? En primer lugar, el agua del océano se expandiría y elevaría. Llegado un punto, los casquetes polares se derritirían, elevando aún más el nivel del mar. De no controlarse, el ciclo del agua se intensificaría: habría más evaporación, más nubes, más precipitaciones y más huracanes.\n\nUna terrible pérdida\nSi se elevara el nivel del mar, las islas situadas a baja altura, como las Maldivas en el océano Índico, serían cubiertas por las aguas o erosionadas por la mayor frecuencia de las tormentas. El agua dulce subterránea de las islas se contaminaría probablemente con agua del mar.\n\nPeligrosos arrozales\nSi subiese el nivel del mar, las áreas costeras se inundarían. Estas regiones reúnen gran parte de las tierras fértiles cultivables, así como numerosas poblaciones.",
+      "captions": [
+        {
+          "label": "Islas Maldivas",
+          "text": "Si se elevara el nivel del mar, las islas situadas a baja altura, como las Maldivas en el océano Índico, serían cubiertas por las aguas o erosionadas por la mayor frecuencia de las tormentas."
+        },
+        {
+          "label": "Arrozales, Indonesia",
+          "text": "Si subiese el nivel del mar, las áreas costeras se inundarían. Estas regiones reúnen gran parte de las tierras fértiles cultivables, así como numerosas poblaciones."
+        }
+      ],
+      "narration": "assets/es/wcyc/WCYC05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "La cadena de la vida",
+      "to": "webl"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/wcyc/WCYC00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 4,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "Una reacción en cadena",
+            "to": "a-chainsaw-reaction",
+            "x": 57,
+            "y": 8,
+            "w": 30,
+            "h": 7
+          },
+          {
+            "label": "Cambios climáticos",
+            "to": "changing-climate",
+            "x": 59,
+            "y": 27,
+            "w": 27,
+            "h": 7
+          },
+          {
+            "label": "Sólo en la Tierra",
+            "to": "only-on-earth",
+            "x": 53,
+            "y": 46,
+            "w": 25,
+            "h": 7
+          },
+          {
+            "label": "Con hielo, por favor",
+            "to": "with-ice-please",
+            "x": 57,
+            "y": 63,
+            "w": 25,
+            "h": 7
+          },
+          {
+            "label": "Interrelaciones",
+            "to": "video",
+            "x": 2,
+            "y": 87,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "El agua potable del mar",
+            "to": "drinking-seawater",
+            "x": 27,
+            "y": 88,
+            "w": 27,
+            "h": 7
+          }
+        ]
+      },
+      "drinking-seawater": {
+        "image": "assets/es/wcyc/WCYC01PU.webp",
+        "back": "main"
+      },
+      "with-ice-please": {
+        "image": "assets/es/wcyc/WCYC02PU.webp",
+        "back": "main"
+      },
+      "only-on-earth": {
+        "image": "assets/es/wcyc/WCYC03PU.webp",
+        "back": "main"
+      },
+      "a-chainsaw-reaction": {
+        "image": "assets/es/wcyc/WCYC04PU.webp",
+        "back": "main"
+      },
+      "changing-climate": {
+        "image": "assets/es/wcyc/WCYC05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/wcyc/clip.mp4",
+        "poster": "assets/es/wcyc/WCYC06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/wcyc/WCYC00JN.mp3",
+  "sound": "assets/es/wcyc/WCYC00IX.mp3",
+  "video": {
+    "title": "Interrelaciones",
+    "src": "assets/es/wcyc/clip.mp4",
+    "poster": "assets/es/wcyc/poster.webp",
+    "caption": "El ciclo del agua la desplaza constantemente del mar a la atmósfera, de allí a la tierra y de vuelta al mar. Los residuos químicos que vertemos en la tierra y en los ríos van a parar al océano. Desde allí, los componentes que no se degradan pueden volver a la atmósfera y, de la atmósfera, al agua potable. Aunque el sistema hidráulico del planeta es gigantesco, es el único que tenemos. Tenemos que asegurarnos de que siempre habrá agua limpia para todos los seres del planeta.",
+    "narration": "assets/es/wcyc/WCYC06JN.mp3"
+  }
+}

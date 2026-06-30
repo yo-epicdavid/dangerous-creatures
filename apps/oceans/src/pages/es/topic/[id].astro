@@ -1,0 +1,10 @@
+---
+import TopicView from '../../../components/TopicView.astro';
+import { listEntries } from '../../../lib/data.js';
+
+export function getStaticPaths() {
+  return listEntries('es').map((d) => ({ params: { id: d.id }, props: { d } }));
+}
+const { d } = Astro.props;
+---
+<TopicView d={d} locale="es" />

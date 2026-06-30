@@ -1,0 +1,192 @@
+{
+  "id": "reef",
+  "code": "REEF",
+  "name": "Los arrecifes de coral",
+  "category": "habitat",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡El rascacielos del océano, construido por animales diminutos!",
+  "zones": [
+    "Arrecife de coral"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/reef/REEF00AA.webp",
+    "alt": "Los arrecifes de coral"
+  },
+  "intro": "¿Cómo se forma un arrecife? Como podrás adivinar, los animales del coral son los fundadores del vecindario. Para poder sobrevivir, los corales necesitan la luz del Sol que permite la fotosíntesis de las algas de sus interiores, además de aguas templadas y limpias de las que puedan filtrar el plancton del que se alimentan. Con el tiempo, los corales sanos pueden formar grandes arrecifes que proporcionan refugio y comida a multitud de animales. Si perdiésemos todos los arrecifes del planeta, miles de especies de animales desaparecerían para siempre.",
+  "facts": [
+    {
+      "label": "Visible desde el espacio",
+      "value": "El Arrecife de la Gran Barrera es tan grande que los astronautas pueden verlo desde el espacio."
+    },
+    {
+      "label": "Construcción",
+      "value": "Los corales toman calcio del agua marina y lo utilizan para formar un duro caparazón a su alrededor; millones de esqueletos acumulados forman arrecifes e incluso islas."
+    },
+    {
+      "label": "Formación",
+      "value": "Los arrecifes coralinos naturales tardan cientos y hasta miles de años en formarse."
+    },
+    {
+      "label": "Depredador",
+      "value": "La estrella coronada de espinas puede terminar con arrecifes de coral enteros, devorando todos los corales vivos y dejando detrás sólo esqueletos."
+    },
+    {
+      "label": "Amenaza principal",
+      "value": "El ateramiento y otras fuentes de contaminación de origen terrestre son las primeras causas de destrucción de los arrecifes."
+    },
+    {
+      "label": "Diversidad",
+      "value": "Numerosas especies de peces y seres tropicales sólo se encuentran en los alrededores de los arrecifes de coral; si el arrecife desapareciese, ellos no podrían sobrevivir."
+    }
+  ],
+  "topics": [
+    {
+      "id": "home-for-many",
+      "title": "Un hogar para todos",
+      "image": "assets/es/reef/REEF01PU.webp",
+      "text": "El arrecife coralino es un medio ambiente muy especial, habitado por muchas más plantas y animales de lo que a simple vista parece. Los científicos te pueden decir que se tarda muchos años en entender las complejas relaciones que existen entre sus moradores.\n\nUn refugio para los peces: Hay numerosas especies de peces y seres tropicales que sólo se encuentran en los alrededores de los arrecifes de coral. Si desapareciese el arrecife, ellos no podrían sobrevivir.\n\nEscondites para las anguilas: Los huecos y las cuevas de los arrecifes son los escondites favoritos de las morenas. Si exploras un arrecife, no metas los dedos ni el pie en los agujeros. Podrías tener un encuentro sorpresa con una morena.",
+      "captions": [
+        {
+          "label": "Morena verde",
+          "text": "Gymnothorax funebris"
+        }
+      ],
+      "narration": "assets/es/reef/REEF01JN.mp3"
+    },
+    {
+      "id": "biggest-on-earth",
+      "title": "El mayor del planeta",
+      "image": "assets/es/reef/REEF02PU.webp",
+      "text": "Necesitarías un equipo de buceo autónomo y una excavadora submarina para construir una isla en el océano, pero los diminutos corales pueden hacerlo por sí solos. De hecho, los corales han construido el Arrecife de la Gran Barrera, una estructura tan grande que los astronautas pueden verla desde el espacio. ¿Cómo se las arreglan los diminutos animales del coral? Toman calcio del agua marina y lo utilizan para formar un duro caparazón a su alrededor. Finalmente, millones de estos duros esqueletos de coral se acumulan hasta formar arrecifes e incluso islas. Por supuesto que crear islas y arrecifes lleva muchos, muchos años.",
+      "narration": "assets/es/reef/REEF02JN.mp3",
+      "captions": [
+        {
+          "label": "Isla Lady Musgrave",
+          "text": "una pequeña parte del Arrecife de la Gran Barrera"
+        }
+      ]
+    },
+    {
+      "id": "manmade-reefs",
+      "title": "Arrecifes artificiales",
+      "image": "assets/es/reef/REEF03PU.webp",
+      "text": "Las cavidades y los salientes de los arrecifes de coral proporcionan refugio y protección a numerosos tipos de animales. Pero los arrecifes coralinos naturales tardan cientos y hasta miles de años en formarse. En ciertos lugares han surgido arrecifes artificiales al reunirse los peces y otros animales alrededor de un barco hundido o algún otro objeto de fabricación humana sumergido en el fondo del océano. En estos casos, el tipo de arrecife resultante es distinto al creado por los animales del coral, pero proporciona superficies estables para las plantas, las anémonas y los balanos; así como un refugio para los peces frente a los predadores.",
+      "narration": "assets/es/reef/REEF03JN.mp3"
+    },
+    {
+      "id": "coral-eater",
+      "title": "Comedores de coral",
+      "image": "assets/es/reef/REEF04PU.webp",
+      "text": "Los corales, al igual que los demás animales, se tienen que preocupar por los predadores que quieren comérselos. Uno de los peores enemigos del coral es la estrella coronada de espinas, la cual come el coral blando de los pólipos. En algunos lugares, estas estrellas de mar han terminado con arrecifes de coral enteros, devorando todos los corales vivos y dejando detrás sólo esqueletos. Los científicos no están seguros de si se trata de un ciclo natural, del que el coral terminará por recuperarse, o de una señal de desastre ecológico.",
+      "narration": "assets/es/reef/REEF04JN.mp3",
+      "captions": [
+        {
+          "label": "Estrella coronada de espinas",
+          "text": "comiendo coral"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Las anguilas",
+      "to": "eels"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/reef/REEF00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 2,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "Arrecifes en peligro",
+            "to": "video",
+            "x": 63,
+            "y": 22,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Un hogar para todos",
+            "to": "home-for-many",
+            "x": 50,
+            "y": 40,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "El mayor del planeta",
+            "to": "biggest-on-earth",
+            "x": 61,
+            "y": 57,
+            "w": 25,
+            "h": 6
+          },
+          {
+            "label": "Comedores de coral",
+            "to": "coral-eater",
+            "x": 20,
+            "y": 62,
+            "w": 17,
+            "h": 6
+          },
+          {
+            "label": "Arrecifes artificiales",
+            "to": "manmade-reefs",
+            "x": 29,
+            "y": 74,
+            "w": 19,
+            "h": 6
+          }
+        ]
+      },
+      "home-for-many": {
+        "image": "assets/es/reef/REEF01PU.webp",
+        "back": "main"
+      },
+      "biggest-on-earth": {
+        "image": "assets/es/reef/REEF02PU.webp",
+        "back": "main"
+      },
+      "manmade-reefs": {
+        "image": "assets/es/reef/REEF03PU.webp",
+        "back": "main"
+      },
+      "coral-eater": {
+        "image": "assets/es/reef/REEF04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/reef/clip.mp4",
+        "poster": "assets/es/reef/REEF05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/reef/REEF00JN.mp3",
+  "sound": "assets/es/reef/REEF00IX.mp3",
+  "video": {
+    "title": "Arrecifes en peligro",
+    "src": "assets/es/reef/clip.mp4",
+    "poster": "assets/es/reef/poster.webp",
+    "caption": "Imágenes que documentan el impacto del hombre sobre los arrecifes: derrames de petróleo, extracción de coral por buzos para venderlo o usarlo como material de construcción, uso de dinamita y veneno por pescadores, y la erosión causada por el limo arrastrado desde tierra.",
+    "narration": "assets/es/reef/REEF05JN.mp3"
+  }
+}

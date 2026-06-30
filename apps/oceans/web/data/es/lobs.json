@@ -1,0 +1,190 @@
+{
+  "id": "lobs",
+  "code": "LOBS",
+  "name": "Las langostas",
+  "category": "creature",
+  "scientificName": "Homarus americanus",
+  "needsScientificVerify": false,
+  "tagline": "¡Con diez patas, armadura de caparazón y cien años de vida, las langostas son las auténticas reinas del fondo del mar!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Arrecife de coral",
+    "Mar profundo"
+  ],
+  "oceans": [
+    "Océano Atlántico",
+    "Océano Pacífico",
+    "Océano Índico"
+  ],
+  "hero": {
+    "image": "assets/es/lobs/LOBS00AA.webp",
+    "alt": "Las langostas"
+  },
+  "intro": "Las langostas pertenecen a un gran grupo de invertebrados marinos llamados crustáceos, de los cuales existen en todo el mundo más de 30.000 familias diferentes. Los crustáceos son animales resistentes, que poseen un fuerte esqueleto externo, un cuerpo segmentado y patas emparejadas. Las langostas o decápodos, llamados así junto con los cangrejos y las quisquillas porque tienen diez patas, buscan comida en el fondo del océano entre la carroña o los peces vivos. Se sabe que las langostas recorren distancias de más de 15 km y que algunas han vivido unos 50 años. De hecho, una langosta llegó hasta los 100. ¡Hay algo en su estilo de vida que debe sentarles bien!",
+  "facts": [
+    {
+      "label": "Familias",
+      "value": "Existen en todo el mundo más de 30.000 familias de crustáceos"
+    },
+    {
+      "label": "Patas",
+      "value": "Las langostas son decápodos: tienen diez patas, igual que los cangrejos y las quisquillas"
+    },
+    {
+      "label": "Distancia",
+      "value": "Las langostas recorren distancias de más de 15 km"
+    },
+    {
+      "label": "Longevidad",
+      "value": "Algunas langostas han vivido unos 50 años; una llegó hasta los 100"
+    },
+    {
+      "label": "Migración",
+      "value": "Grupos de hasta 60 langostas espinosas emprenden marchas migratorias en fila india por el fondo del océano"
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Los copépodos, parientes crustáceos de las langostas, son los animales más abundantes del mundo"
+    }
+  ],
+  "topics": [
+    {
+      "id": "lovely-lobsters",
+      "title": "Adorables langostas",
+      "image": "assets/es/lobs/LOBS01PU.webp",
+      "text": "Al menos seis clases de langosta deambulan por el fondo del mar, pero sólo una, la especie de la familia Homaridae, tiene un par de pinzas grandes. En fila india: Las langostas espinosas como ésta, viven en las aguas tropicales atlánticas, desde las islas Bermudas hasta Brasil, alrededor de Sudáfrica y a lo largo de la costa de California. ¡A veces, grupos de hasta 60 langostas espinosas emprenden marchas migratorias, en fila india, a lo largo del fondo del océano! Sin antenas: Las cigarras tienen dos placas redondas en la cabeza, en lugar de tener antenas como otras langostas. A estas langostas les gusta esconderse en la grietas y cuevas de los arrecifes volcánicos profundos.",
+      "captions": [
+        {
+          "label": "Cigarra",
+          "text": "Scyllarides sp."
+        },
+        {
+          "label": "Langosta coloreada",
+          "text": "Panulirus versicolor"
+        }
+      ],
+      "narration": "assets/es/lobs/LOBS01JN.mp3"
+    },
+    {
+      "id": "tiny-but-important",
+      "title": "Pequeño pero importante",
+      "image": "assets/es/lobs/LOBS02PU.webp",
+      "text": "Los copépodos, a menudo llamados \"insectos del mar\", comprenden más de 180 familias de crustáceos, que proporcionan comida a una gran variedad de animales marinos. La red trófica: En los océanos, lo mismo que en la tierra, la red trófica es la serie entrelazada de relaciones de la que dependen los animales y las plantas, y en la que compiten entre sí por la supervivencia. Un tiburón ballena es mucho más grande y poderoso que los copépodos minúsculos que come, pero también depende de ellos para su supervivencia. Este tiburón se moriría sin el alimento proporcionado por estos pequeños seres. Pequeñas mordeduras: Los copépodos son los crustáceos más abundantes del plancton: masas de animales microscópicos y plantas que van a la deriva en las corrientes oceánicas. Estos animales filtradores agitan sus patas empenachadas (maxilas) para colar el agua y separar el plancton más pequeño. Los copépodos son los animales más abundantes del mundo.",
+      "narration": "assets/es/lobs/LOBS02JN.mp3"
+    },
+    {
+      "id": "eyes-on-stalks",
+      "title": "Ojos pedunculares",
+      "image": "assets/es/lobs/LOBS03PU.webp",
+      "text": "La mayoría de los crustáceos poseen ojos pedunculares que son muy parecidos a los ojos de los insectos. Muchos ángulos: Los crustáceos tienen ojos compuestos que enfocan la luz desde muchos ángulos, a través de un recorrido central que llega hasta el nervio óptico y el cerebro. La langosta tiene el ojo compuesto más grande de todos los invertebrados marinos. Ojos laterales: Este pez martillo tiene una perspectiva extraordinaria. Los ojos de este pez martillo, situados a ambos lados de la cabeza, le proporcionan un gran campo de visión frontal. Ojos privados: Estos animales pueden retraer sus ojos dentro del caparazón, cuando se sienten amenazados, o sacarlos como periscopios para observar objetos grandes.",
+      "captions": [
+        {
+          "label": "Pez martillo gigante",
+          "text": "Sphyrna mokarran"
+        }
+      ],
+      "narration": "assets/es/lobs/LOBS03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Los bajíos",
+      "to": "shal"
+    },
+    {
+      "label": "Los cangrejos",
+      "to": "crab"
+    },
+    {
+      "label": "El plancton",
+      "to": "plan"
+    },
+    {
+      "label": "El camarón",
+      "to": "shri"
+    },
+    {
+      "label": "Aquarium Game"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/lobs/LOBS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Ojos pedunculares",
+            "to": "eyes-on-stalks",
+            "x": 65,
+            "y": 40,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Pequeño pero importante",
+            "to": "tiny-but-important",
+            "x": 57,
+            "y": 55,
+            "w": 25,
+            "h": 6
+          },
+          {
+            "label": "Adorables langostas",
+            "to": "lovely-lobsters",
+            "x": 46,
+            "y": 76,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Reducción de existencias",
+            "to": "video",
+            "x": 10,
+            "y": 77,
+            "w": 22,
+            "h": 6
+          }
+        ]
+      },
+      "lovely-lobsters": {
+        "image": "assets/es/lobs/LOBS01PU.webp",
+        "back": "main"
+      },
+      "tiny-but-important": {
+        "image": "assets/es/lobs/LOBS02PU.webp",
+        "back": "main"
+      },
+      "eyes-on-stalks": {
+        "image": "assets/es/lobs/LOBS03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/lobs/clip.mp4",
+        "poster": "assets/es/lobs/LOBS04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/lobs/LOBS00JN.mp3",
+  "sound": "assets/es/lobs/LOBS00IX.mp3",
+  "video": {
+    "title": "Reducción de existencias",
+    "src": "assets/es/lobs/clip.mp4",
+    "poster": "assets/es/lobs/poster.webp",
+    "caption": "Las langostas se han convertido en un platillo tan codiciado que estamos agotando nuestra provisión oceánica: los bogavantes se capturan frente a la costa con jaulas-trampa de red en las que la langosta puede entrar pero no puede salir, se pesca al arrastre en aguas más profundas, y algunas personas están intentando cultivar langostas, aunque no se sabe si será posible.",
+    "narration": "assets/es/lobs/LOBS04JN.mp3"
+  }
+}

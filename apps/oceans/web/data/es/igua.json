@@ -1,0 +1,131 @@
+{
+  "id": "igua",
+  "code": "IGUA",
+  "name": "Las iguanas marinas",
+  "category": "creature",
+  "scientificName": "Amblyrhynchus cristatus",
+  "needsScientificVerify": false,
+  "tagline": "El único lagarto del mundo que bucea en el océano para sobrevivir.",
+  "zones": [
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "Océano Pacífico"
+  ],
+  "hero": {
+    "image": "assets/es/igua/IGUA00AA.webp",
+    "alt": "Las iguanas marinas"
+  },
+  "intro": "Seguro que has oído hablar de personas que han naufragado en islas desiertas, pero ¿has oído hablar de reptiles naufragados? Los científicos creen que estas iguanas marinas fueron llevadas accidentalmente, por \"balsas\" de vegetación a la deriva, desde Suramérica hasta las volcánicas islas Galápagos. Las iguanas regresaron al mar y bucearon en las aguas frías para alimentarse de algas, ya que la comida era escasa en esas islas. La iguana marina es el único lagarto que depende totalmente del mar para su supervivencia.",
+  "facts": [
+    {
+      "label": "Dieta",
+      "value": "Algas que halla bajo los arrecifes submarinos o arranca de las rocas en la superficie del agua."
+    },
+    {
+      "label": "Hábitat",
+      "value": "Las volcánicas islas Galápagos, frente a la costa de Ecuador."
+    },
+    {
+      "label": "Adaptación",
+      "value": "Glándulas especializadas situadas en la nariz ayudan a eliminar la sal de su cuerpo."
+    },
+    {
+      "label": "Comportamiento",
+      "value": "Después de nadar, se sube a las rocas y estornuda el agua salada del mar."
+    },
+    {
+      "label": "Termorregulación",
+      "value": "Absorbe el calor del sol tropical antes de sumergirse bajo el agua para alimentarse."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Es el único lagarto que depende totalmente del mar para su supervivencia."
+    }
+  ],
+  "topics": [
+    {
+      "id": "grazing-underwater",
+      "title": "Pastar bajo el agua",
+      "image": "assets/es/igua/IGUA01PU.webp",
+      "text": "La iguana marina come algas que se hallan bajo los arrecifes submarinos o las arranca de las rocas en la superficie del agua. Sin embargo, como les ocurre a otros reptiles, sus riñones no pueden asimilar el alto contenido de sal de una dieta marina. ¡Ningún problema! Las glándulas especializadas situadas en la nariz de la iguana marina ayudan a eliminar la sal de su cuerpo. Después de nadar, este lagarto se sube a las rocas y estornuda el agua salada del mar.",
+      "captions": [
+        {
+          "label": "Prisioneras de las islas",
+          "text": "Situadas frente a la costa de Ecuador, las islas Galápagos poseen un clima seco que dificulta la erosión de las rocas para convertirse en suelo. Esto limita el número de formas de vida que pueden vivir allí. La mayoría de los habitantes son reptiles y aves."
+        }
+      ],
+      "narration": "assets/es/igua/IGUA01JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Cocodrilos de agua salada",
+      "to": "croc"
+    },
+    {
+      "label": "Los turbelarios",
+      "to": "flat"
+    },
+    {
+      "label": "La tortuga marina",
+      "to": "turt"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/igua/IGUA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Sol, natación y supervivencia",
+            "to": "video",
+            "x": 51,
+            "y": 17,
+            "w": 41,
+            "h": 6
+          },
+          {
+            "label": "Pastar bajo el agua",
+            "to": "grazing-underwater",
+            "x": 22,
+            "y": 62,
+            "w": 31,
+            "h": 6
+          }
+        ]
+      },
+      "grazing-underwater": {
+        "image": "assets/es/igua/IGUA01PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/igua/clip.mp4",
+        "poster": "assets/es/igua/IGUA02PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/igua/IGUA00JN.mp3",
+  "sound": "assets/es/igua/IGUA00IX.mp3",
+  "video": {
+    "title": "Sol, natación y supervivencia",
+    "src": "assets/es/igua/clip.mp4",
+    "poster": "assets/es/igua/poster.webp",
+    "caption": "La iguana marina toma el sol sobre las rocas para absorber el calor del sol tropical antes de sumergirse bajo el agua para alimentarse.",
+    "narration": "assets/es/igua/IGUA02JN.mp3"
+  }
+}

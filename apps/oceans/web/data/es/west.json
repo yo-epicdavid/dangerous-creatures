@@ -1,0 +1,237 @@
+{
+  "id": "west",
+  "code": "WEST",
+  "name": "Los exploradores de Europa occidental",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Valientes marineros que cruzaron océanos imposibles y descubrieron mundos que nadie conocía!",
+  "zones": [
+    "Mar abierto"
+  ],
+  "oceans": [
+    "Océano Atlántico",
+    "Océano Pacífico",
+    "Océano Ártico"
+  ],
+  "hero": {
+    "image": "assets/es/west/WEST00AA.webp",
+    "alt": "Los exploradores de Europa occidental"
+  },
+  "intro": "Desde el siglo VIII al XVIII, los europeos iniciaron increíbles viajes surcando inmensas distancias oceánicas. Afrontaron enfermedades, privaciones y climas extremos. Algunos buscaban el conocimiento y la aventura, a otros sólo les guiaba el afán de lucro. Pero todos tenían un rasgo en común: el valor. El Atlántico puede ser muy inhóspito y en aquellos tiempos el Pacífico era casi inalcanzable. Pero lo consiguieron (intencionadamente o por accidente). Y el resultado fue el descubrimiento de nuevos mundos.",
+  "facts": [
+    {
+      "label": "Época",
+      "value": "Del siglo VIII al XVIII los europeos realizaron sus grandes expediciones oceánicas."
+    },
+    {
+      "label": "Carabelas de Colón",
+      "value": "Colón navegó a bordo de tres famosas carabelas: la Pinta, la Niña y la Santa María."
+    },
+    {
+      "label": "Hazaña de Magallanes",
+      "value": "La tripulación de Magallanes navegó alrededor de cien días sin alimento ni agua potable; ¡hasta tuvieron que comer cuero!"
+    },
+    {
+      "label": "Vikingos",
+      "value": "Desde el siglo octavo al doce, los vikingos surcaron los mares hasta llegar tan lejos como Groenlandia y el este de Canadá, estableciendo así la primera colonia europea de América del Norte."
+    },
+    {
+      "label": "James Cook",
+      "value": "En 1768, el rey Jorge III de Inglaterra envió a Cook al Pacífico central para que siguiera la trayectoria de Venus al cruzar el Sol."
+    },
+    {
+      "label": "Fin de Cook",
+      "value": "Las aventuras de Cook acabaron en tragedia: murió a manos de los isleños hawaianos en 1779."
+    }
+  ],
+  "topics": [
+    {
+      "id": "indies-or-america",
+      "title": "¿Las Indias o América?",
+      "image": "assets/es/west/WEST02PU.webp",
+      "text": "Después de que el príncipe Enrique de Portugal preparara el terreno para las grandes expediciones, fundando una escuela de navegación y fomentando la exploración en la primera mitad del siglo XV, Colón recibió el respaldo financiero de España y puso rumbo oeste para hallar una ruta marítima hacia las Indias. Los vientos imperantes empujaron a Colón en dirección oeste a bordo de sus famosas carabelas: la Pinta, la Niña y la Santa María. Al avistar las costas del Caribe, pensó que había llegado a Oriente. Colón trajo a su vuelta numerosos y exóticos tesoros, y hasta a algunos nativos del Nuevo Mundo.",
+      "captions": [
+        {
+          "label": "Colón en la Corte Real española en Barcelona",
+          "text": "\"Colón en la Corte Real española en Barcelona\", por Victor A. Searles."
+        }
+      ],
+      "narration": "assets/es/west/WEST02JN.mp3"
+    },
+    {
+      "id": "slave-trade",
+      "title": "El tráfico de esclavos",
+      "image": "assets/es/west/WEST03PU.webp",
+      "text": "Los exploradores europeos llevaron la enfermedad y la guerra al Nuevo Mundo, causando la muerte de numerosos nativos. Los españoles transportaban en sus barcos a nativos africanos para trabajar en las plantaciones de azúcar de América del Sur. Los ingleses, los franceses y los portugueses se unieron al negocio de la esclavitud, haciéndolo extensivo a América del Norte.\n\nLa cruz como estandarte: Muchos traficantes de esclavos justificaban sus actividades alegando que su objetivo era convertir paganos al cristianismo y salvar sus almas.\n\nMisteriosos barcos: Los barcos esclavistas eran apestosos armatostes en los que se marcaba con hierro a las víctimas y se les hacinaba como mercancías. Los africanos solían saltar y ahogarse, para evitar su terrible destino.",
+      "captions": [
+        {
+          "label": "Diagrama de esclavos en barco",
+          "text": "Diagrama de cómo se hacinaban los esclavos en un barco"
+        },
+        {
+          "label": "Cruz española del Tolosa",
+          "text": "Cruz española recuperada en el naufragio del Tolosa"
+        }
+      ],
+      "narration": "assets/es/west/WEST03JN.mp3"
+    },
+    {
+      "id": "miserable-conditions",
+      "title": "Condiciones miserables",
+      "image": "assets/es/west/WEST04PU.webp",
+      "text": "Recorrer en barco las grandes distancias que separaban a Europa de América no resultaba un crucero de lujo para nadie en la edad del descubrimiento.\n\n¡Ratas! Las ratas eran inoportunos pero asiduos polizones de los viajes por alta mar.\n\nEl escorbuto: La falta de fruta fresca y verduras producía el escorbuto entre la tripulación. La falta de vitaminas hacía que los marineros perdieran los dientes y se les deformaran las extremidades.",
+      "captions": [
+        {
+          "label": "Encías hinchadas por el escorbuto",
+          "text": "Encías hinchadas por el escorbuto"
+        }
+      ],
+      "narration": "assets/es/west/WEST04JN.mp3"
+    },
+    {
+      "id": "wild-experiences",
+      "title": "Experiencias terribles",
+      "image": "assets/es/west/WEST05PU.webp",
+      "text": "Magallanes atravesó el estrecho que lleva su nombre para aventurarse en el océano Pacífico en 1520. Su tripulación navegó alrededor de cien días sin alimento ni agua potable. ¡Hasta tuvieron que comer cuero! Pero en premio a sus esfuerzos, fueron los primeros en circunnavegar el globo.\n\nGrandes bolas de fuego: Durante la travesía avistaron el fuego de San Telmo, un fenómeno de electricidad estática, en lo alto de los mástiles; ¡y pensaron que llegaba el fin del mundo!\n\n¿Peces en el aire? La tripulación de Magallanes se sintió aterrada al presenciar los saltos de los peces voladores por encima de cubierta. Atribuyeron el asombroso espectáculo a los demonios de las aguas.",
+      "captions": [
+        {
+          "label": "Fuego de San Telmo",
+          "text": "Fuego de San Telmo"
+        },
+        {
+          "label": "Peces voladores",
+          "text": "Peces voladores Exocoetus volitans"
+        }
+      ],
+      "narration": "assets/es/west/WEST05JN.mp3"
+    },
+    {
+      "id": "mission-venus",
+      "title": "Objetivo: Venus",
+      "image": "assets/es/west/WEST06PU.webp",
+      "text": "El capitán James Cook perseguía el conocimiento, no la riqueza. En 1768, el rey Jorge III de Inglaterra lo envió al Pacífico central para que siguiera la trayectoria de Venus al cruzar el Sol.\n\nExtraños animales: La tripulación de Cook, a lo largo de tres épicos viajes, reunió insectos y muestras de plantas, regresando con lo que iba a convertirse en el primer dibujo publicado de un canguro.\n\nMás al sur que nunca: Cook zarpó rumbo a Tahití, cartografió las costas de Nueva Zelanda y Australia, rodeó el hielo del Antártico y llegó más al sur de lo que nadie había llegado nunca. Sus sencillos y curiosos informes sobre estos viajes tuvieron una gran divulgación. Pero las aventuras de Cook acabaron en tragedia: murió a manos de los isleños hawaianos en 1779.",
+      "captions": [
+        {
+          "label": "Canguro gris",
+          "text": "Canguro gris"
+        },
+        {
+          "label": "Iceberg antártico",
+          "text": "Iceberg antártico"
+        }
+      ],
+      "narration": "assets/es/west/WEST06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Los piratas",
+      "to": "pira"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/west/WEST00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 6,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Objetivo: Venus",
+            "to": "mission-venus",
+            "x": 73,
+            "y": 20,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Condiciones miserables",
+            "to": "miserable-conditions",
+            "x": 70,
+            "y": 33,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "¿Las Indias o América?",
+            "to": "indies-or-america",
+            "x": 2,
+            "y": 56,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "El tráfico de esclavos",
+            "to": "slave-trade",
+            "x": 38,
+            "y": 61,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Los corsarios del norte",
+            "to": "video",
+            "x": 2,
+            "y": 68,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Experiencias terribles",
+            "to": "wild-experiences",
+            "x": 2,
+            "y": 78,
+            "w": 19,
+            "h": 6
+          }
+        ]
+      },
+      "indies-or-america": {
+        "image": "assets/es/west/WEST02PU.webp",
+        "back": "main"
+      },
+      "slave-trade": {
+        "image": "assets/es/west/WEST03PU.webp",
+        "back": "main"
+      },
+      "miserable-conditions": {
+        "image": "assets/es/west/WEST04PU.webp",
+        "back": "main"
+      },
+      "wild-experiences": {
+        "image": "assets/es/west/WEST05PU.webp",
+        "back": "main"
+      },
+      "mission-venus": {
+        "image": "assets/es/west/WEST06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/west/clip.mp4",
+        "poster": "assets/es/west/WEST01PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/west/WEST00JN.mp3",
+  "sound": "assets/es/west/WEST00IX.mp3",
+  "video": {
+    "title": "Los corsarios del norte",
+    "src": "assets/es/west/clip.mp4",
+    "poster": "assets/es/west/poster.webp",
+    "caption": "Los vikingos eran altos y rubios moradores del mar Báltico y la costa atlántica de Escandinavia. Acostumbrados al helado clima del norte, estaban preparados para soportar duras travesías por los fríos mares y eran intrépidos guerreros. Desde el siglo octavo al doce, surcaron los mares hasta llegar tan lejos como Groenlandia y el este de Canadá, estableciendo así la primera colonia europea de América del Norte. Los exploradores vikingos dejaron tras ellos cientos de piedras conmemorativas dando testimonio de sus viajes.",
+    "narration": "assets/es/west/WEST01JN.mp3"
+  }
+}

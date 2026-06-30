@@ -1,0 +1,239 @@
+{
+  "id": "crab",
+  "code": "CRAB",
+  "name": "Los cangrejos",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Armados con pinzas y un caparazón de armadura, los cangrejos se aventuran desde las profundidades del océano hasta las copas de los árboles!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Arrecife de coral",
+    "Mar abierto",
+    "Mar profundo",
+    "Mares polares"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/crab/CRAB00AA.webp",
+    "alt": "Los cangrejos"
+  },
+  "intro": "El cangrejo, al igual que los demás crustáceos, tiene un caparazón externo articulado llamado exoesqueleto. Hay cangrejos en las profundidades de los mares polares, en los atolones tropicales de aguas poco profundas, en las charcas de marea, en las playas, ¡e incluso en los árboles! Los cangrejos pueden ser de muchos tamaños. El cangrejo guisante, que vive dentro de las valvas de los mejillones, es uno de los más pequeños. ¡Los más grandes tienen patas que llegan a medir más de 8 m!",
+  "facts": [
+    {
+      "label": "Tamaño máximo",
+      "value": "Las patas del cangrejo araña japonés pueden medir más de 8 m con las patas extendidas"
+    },
+    {
+      "label": "Pariente inesperado",
+      "value": "El cangrejo herradura no es un cangrejo: está más emparentado con las arañas, los ácaros y los escorpiones"
+    },
+    {
+      "label": "Antigüedad",
+      "value": "Los trilobites, parientes fósiles del cangrejo herradura, se extinguieron al final del periodo pérmico, hace unos 245 millones de años"
+    },
+    {
+      "label": "Dieta",
+      "value": "La mayoría de los cangrejos son carroñeros y comen cualquier tipo de animal o de planta, por muy podridos que estén"
+    },
+    {
+      "label": "Arma secreta",
+      "value": "El cangrejo boxeador lleva anémonas vivas en sus pinzas para blandirlas como armas frente a los intrusos"
+    },
+    {
+      "label": "Sin caparazón propio",
+      "value": "Los cangrejos ermitaños no tienen caparazón duro y viven en los caparazones de otros animales, o incluso en botellas de vidrio"
+    }
+  ],
+  "topics": [
+    {
+      "id": "crabs-in-name-only",
+      "title": "Cangrejos, pero sólo de nombre",
+      "image": "assets/es/crab/CRAB01PU.webp",
+      "text": "El cangrejo herradura está lejos de serlo. Este extraño ser blindado está más cerca de las arañas, los ácaros y los escorpiones. Pasa la mayor parte del tiempo en la arena o el fango del fondo del océano, buscando gusanos, algas o pequeños mariscos.\n\nUn antiguo antepasado\n¿Ves la semejanza que hay entre este antiguo fósil y el cangrejo herradura actual? Los trilobites nadaron en los océanos de la Tierra antes de que aparecieran los dinosaurios, pero se extinguieron al final del periodo pérmico, hace unos 245 millones de años. Como muchas especies diferentes de trilobites vivieron en distintos periodos de tiempo, los científicos se sirven de los trilobites fósiles para determinar la edad de las rocas.",
+      "captions": [
+        {
+          "label": "Cangrejo herradura",
+          "text": "Limulus polyphemus"
+        }
+      ],
+      "narration": "assets/es/crab/CRAB01JN.mp3"
+    },
+    {
+      "id": "colossal-crustacean",
+      "title": "Crustáceo colosal",
+      "image": "assets/es/crab/CRAB02PU.webp",
+      "text": "Si pidieras para comer un cangrejo araña japonés, ¡podría ocupar toda la mesa! Según algunos récords, el mayor de estos cangrejos puede alcanzar 8 metros con las patas extendidas. Aquí se muestra un cangrejo comestible de talla media. No tienes que preocuparte por la posibilidad de que un cangrejo araña te ataque en la playa: este crustáceo es un gigante amable que vive en aguas profundas y oscuras.",
+      "narration": "assets/es/crab/CRAB02JN.mp3",
+      "captions": [
+        {
+          "label": "Cangrejo araña japonés",
+          "text": "Macrocheira kaempferi"
+        }
+      ]
+    },
+    {
+      "id": "anemone-lovers",
+      "title": "Amantes de las anémonas",
+      "image": "assets/es/crab/CRAB03PU.webp",
+      "text": "Algunos cangrejos establecen relaciones especiales con las anémonas, utilizándolas como lugar para vivir o como arma.\n\nUn lugar animado para vivir\nComo las pulgas en el perro, estos cangrejos diminutos viven sobre otra criatura: una anémona. Pero al contrario que las pulgas, los cangrejos no muerden a la anémona ni la dañan en modo alguno. Sólo se sirven de los tentáculos urticantes como protección contra los predadores. La anémona incluso puede beneficiarse, comiendo los restos de la comida del cangrejo.\n\n¡Déjame tranquilo!\nAl cangrejo boxeador le gusta llevar anémonas en sus pinzas para blandirlas como armas frente a los intrusos. ¡A las anémonas no las consulta!",
+      "captions": [
+        {
+          "label": "Cangrejo boxeador",
+          "text": "Lybia tessellata"
+        },
+        {
+          "label": "Cangrejo de las anémonas",
+          "text": "Neopetrolisthes ohshimai"
+        }
+      ],
+      "narration": "assets/es/crab/CRAB03JN.mp3"
+    },
+    {
+      "id": "long-legged-fighter",
+      "title": "Un luchador de patas largas",
+      "image": "assets/es/crab/CRAB04PU.webp",
+      "text": "El cangrejo araña, de rostro afilado, con patas largas y un cuerpo alargado, se parece mucho a una araña. Este cangrejo come gusanos de todas clases, desmenuzándolos con sus afiladas pinzas, antes de meter a toda prisa los pedazos en la boca. Este animal pendenciero ni siquiera se lleva bien con los cangrejos vecinos de rostro afilado. Luchan por el territorio y el ganador habitualmente destroza y devora al perdedor.\n\n¡Arrástrate para salvar la vida!\nUn poliqueto como éste podría convertirse rápidamente en la comida de un cangrejo araña de rostro afilado que deambule en busca de presa.",
+      "captions": [
+        {
+          "label": "Cangrejo araña de rostro afilado del Caribe",
+          "text": "Stenorhynchus seticornis"
+        },
+        {
+          "label": "Poliqueto (sobre un coral cerebro)",
+          "text": "Hermodice carunculata"
+        }
+      ],
+      "narration": "assets/es/crab/CRAB04JN.mp3"
+    },
+    {
+      "id": "hermit-crabs",
+      "title": "Cangrejos ermitaños",
+      "image": "assets/es/crab/CRAB05PU.webp",
+      "text": "Existen muchos tipos diferentes de cangrejos ermitaños, pero comparten una característica: no tienen caparazón duro protector en el cuerpo y, por ello, viven en los caparazones de otros animales. Si no pueden encontrar uno del tamaño adecuado, se deslizan en botellas de vidrio, pedazos huecos de coral o cualquier objeto que les convenga.",
+      "narration": "assets/es/crab/CRAB05JN.mp3",
+      "captions": [
+        {
+          "label": "Cangrejo ermitaño",
+          "text": "fuera de un caparazón"
+        },
+        {
+          "label": "Cangrejos ermitaños en hidropólipos",
+          "text": "Manucomplanus varians"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "El camarón",
+      "to": "shri"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/crab/CRAB00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 2,
+            "w": 9,
+            "h": 7
+          },
+          {
+            "label": "Cangrejos, pero sólo de nombre",
+            "to": "crabs-in-name-only",
+            "x": 54,
+            "y": 16,
+            "w": 35,
+            "h": 6
+          },
+          {
+            "label": "La patrulla de la basura",
+            "to": "video",
+            "x": 54,
+            "y": 24,
+            "w": 27,
+            "h": 6
+          },
+          {
+            "label": "Crustáceo colosal",
+            "to": "colossal-crustacean",
+            "x": 54,
+            "y": 33,
+            "w": 32,
+            "h": 6
+          },
+          {
+            "label": "Cangrejos ermitaños",
+            "to": "hermit-crabs",
+            "x": 1,
+            "y": 60,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Amantes de las anémonas",
+            "to": "anemone-lovers",
+            "x": 28,
+            "y": 84,
+            "w": 23,
+            "h": 7
+          },
+          {
+            "label": "Un luchador de patas largas",
+            "to": "long-legged-fighter",
+            "x": 51,
+            "y": 84,
+            "w": 30,
+            "h": 7
+          }
+        ]
+      },
+      "crabs-in-name-only": {
+        "image": "assets/es/crab/CRAB01PU.webp",
+        "back": "main"
+      },
+      "colossal-crustacean": {
+        "image": "assets/es/crab/CRAB02PU.webp",
+        "back": "main"
+      },
+      "anemone-lovers": {
+        "image": "assets/es/crab/CRAB03PU.webp",
+        "back": "main"
+      },
+      "long-legged-fighter": {
+        "image": "assets/es/crab/CRAB04PU.webp",
+        "back": "main"
+      },
+      "hermit-crabs": {
+        "image": "assets/es/crab/CRAB05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/crab/clip.mp4",
+        "poster": "assets/es/crab/CRAB06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/crab/CRAB00JN.mp3",
+  "sound": "assets/es/crab/CRAB00IX.mp3",
+  "video": {
+    "title": "La patrulla de la basura",
+    "src": "assets/es/crab/clip.mp4",
+    "poster": "assets/es/crab/poster.webp",
+    "caption": "En algunos lugares, es posible ver cientos de diminutos cangrejos soldados patrullando por la playa, en busca de los trocitos de comida que haya en la arena.",
+    "narration": "assets/es/crab/CRAB06JN.mp3"
+  }
+}

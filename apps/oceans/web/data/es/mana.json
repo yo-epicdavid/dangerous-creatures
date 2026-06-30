@@ -1,0 +1,214 @@
+{
+  "id": "mana",
+  "code": "MANA",
+  "name": "Los manatíes y los dugones",
+  "category": "creature",
+  "scientificName": "Trichechus manatus",
+  "needsScientificVerify": false,
+  "tagline": "¡Las «vacas del mar» que casi confundieron a los marineros con sirenas!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Ríos y estuarios"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/mana/MANA00AA.webp",
+    "alt": "Los manatíes y los dugones"
+  },
+  "intro": "¡Resulta difícil creer que los marineros de la Antigüedad confundieran a los dugones con ágiles sirenas! Los dugones y los manatíes son herbívoros y se alimentan de plantas acuáticas en las aguas tropicales poco profundas. Aunque sus hábitos de alimentación y su envergadura voluminosa les ha hecho merecedores del nombre de \"vacas de mar\", estos dóciles monstruos gigantes de piel gruesa están realmente más relacionados biológicamente con los elefantes. Por esta razón a veces se les llama \"paquidermos marinos\".",
+  "facts": [
+    {
+      "label": "Familia",
+      "value": "Pertenecen a la familia Sirenia, el mismo nombre que las legendarias sirenas de los marineros"
+    },
+    {
+      "label": "Dieta",
+      "value": "Herbívoros; se alimentan de plantas acuáticas en aguas tropicales poco profundas"
+    },
+    {
+      "label": "Parientes",
+      "value": "Están emparentados con los elefantes y los damanes, no con otros mamíferos marinos"
+    },
+    {
+      "label": "Ahorro de energía",
+      "value": "Gastan a veces solo un tercio de la energía que gastan los mamíferos de su mismo peso"
+    },
+    {
+      "label": "Extinción rápida",
+      "value": "La vaca marina de Stellar tardó solo 27 años en extinguirse tras su descubrimiento en 1741"
+    },
+    {
+      "label": "Lealtad",
+      "value": "No abandonan a un compañero herido o muerto, lo que los convierte fácilmente en la segunda presa"
+    }
+  ],
+  "topics": [
+    {
+      "id": "mermaids",
+      "title": "¿Sirenas?",
+      "image": "assets/es/mana/MANA01PU.webp",
+      "text": "Los manatíes y los dugones pertenecen a la familia Sirenia. Se les puso este nombre por las legendarias sirenas de las que se cuenta que seducían a los marineros para que se acercasen a la costa, de forma que sus barcos se rompían en muchos trozos al estrellarse contra las rocas.\n\n¡Qué imaginación!\nColón fue uno de los primeros exploradores que vio una \"sirena\". Su diario la describió como menos bella de lo que había sido pintada. Y no es de extrañar ¡pues probablemente se trataba de un dugón!\n\nDanza lenta\nLos sirénidos gastan poca energía; a veces un tercio de la que gastan los mamíferos del mismo peso. Algunos marinos han podido pensar que eran sirenas por causa de sus movimientos lánguidos.",
+      "captions": [
+        {
+          "label": "Dugón",
+          "text": "Dugong dugon"
+        }
+      ],
+      "narration": "assets/es/mana/MANA01JN.mp3"
+    },
+    {
+      "id": "unlikely-looking-relatives",
+      "title": "Parientes, aunque no lo parezcan",
+      "image": "assets/es/mana/MANA02PU.webp",
+      "text": "Por extraño que parezca, los manatíes y los dugones están emparentados con los elefantes y los damanes.\n\nTragones de hierba\nOtro primo de los sirénidos, el damán roquero, tiene también una dieta vegetariana y quema energía lentamente. Este marinero de agua dulce parece una marmota sin rabo y habita en algunas zonas de África y del Medio Oriente.\n\nLas tareas de las trompas\nEl elefante es un pariente de los sirénidos, aunque no se parece a ellos. Pero una inspección más detallada revela que también posee un morro o trompa muscular activa y colmillos que se parecen a los grandes incisivos de los dugones machos. Los elefantes tienen también dieta herbívora, un ritmo lento de gestación y sólo dan a luz una cría en cada ocasión.",
+      "captions": [
+        {
+          "label": "Damanes roqueros africanos",
+          "text": "Heterohyrax brucei"
+        },
+        {
+          "label": "Elefante africano",
+          "text": "Loxodonta africana"
+        }
+      ],
+      "narration": "assets/es/mana/MANA02JN.mp3"
+    },
+    {
+      "id": "threats",
+      "title": "Las amenazas",
+      "image": "assets/es/mana/MANA03PU.webp",
+      "text": "Hay cualidades que no son muy útiles para la supervivencia: tener una carne sabrosa, un índice bajo de reproducción, una naturaleza apacible o movimientos perezosos. Los manatíes y los dugones son blancos fáciles para los cazadores humanos y otros predadores y a menudo muestran horribles llagas producidas por choques con las lanchas rápidas. Se encuentran entre los animales más amenazados de todos los animales marinos.\n\nAmenazas dentadas\nA los tiburones también les gustan estos animales apacibles.",
+      "captions": [
+        {
+          "label": "Manatí y lancha rápida",
+          "text": "Manatí y lancha rápida"
+        },
+        {
+          "label": "Tiburón blanco",
+          "text": "Carcharodon carcharias"
+        }
+      ],
+      "narration": "assets/es/mana/MANA03JN.mp3"
+    },
+    {
+      "id": "extinct-in-a-blink",
+      "title": "Extinguidas en un abrir y cerrar de ojos",
+      "image": "assets/es/mana/MANA04PU.webp",
+      "text": "La vaca marina de Stellar, el más grande de los sirénidos, fue descubierta en 1741, pero hacia 1768 casi había desaparecido. Los cazadores la mataban por su piel, su carne y su grasa. Sólo tardaron 27 años en exterminar toda una especie. Actualmente, muchas otras especies de animales están en peligro de extinción en todo el mundo.\n\nAhora o nunca\nTodos los tigres están en peligro de extinción. Sólo quedan 200 tigres de Siberia en libertad. Ellos también serán extinguidos si no les protegemos.\n\nPrecio a su cabeza\nEn otra época, el lobo marsupial, o tilacino, poblaba Australia y Nueva Zelanda. Hacia 1888 sólo habitaba en Tasmania. Las recompensas por su caza casi terminaron con él hacia 1909 y, poco después de 1930, quedó totalmente extinguido.",
+      "captions": [
+        {
+          "label": "Vaca marina de Stellar",
+          "text": "Hydrodamalis gigas"
+        },
+        {
+          "label": "Tigre de Siberia",
+          "text": "Panthera tigris altaica"
+        },
+        {
+          "label": "Lobo marsupial o tilacino",
+          "text": "Lobo marsupial o tilacino"
+        }
+      ],
+      "narration": "assets/es/mana/MANA04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dolphins & Porpoises"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/mana/MANA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "¿Sirenas?",
+            "to": "mermaids",
+            "x": 63,
+            "y": 27,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Las amenazas",
+            "to": "threats",
+            "x": 63,
+            "y": 35,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Extinguidas en un abrir y cerrar de ojos",
+            "to": "extinct-in-a-blink",
+            "x": 2,
+            "y": 44,
+            "w": 18,
+            "h": 9
+          },
+          {
+            "label": "Amigos fieles",
+            "to": "video",
+            "x": 28,
+            "y": 81,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Parientes, aunque no lo parezcan",
+            "to": "unlikely-looking-relatives",
+            "x": 24,
+            "y": 87,
+            "w": 30,
+            "h": 5
+          }
+        ]
+      },
+      "mermaids": {
+        "image": "assets/es/mana/MANA01PU.webp",
+        "back": "main"
+      },
+      "unlikely-looking-relatives": {
+        "image": "assets/es/mana/MANA02PU.webp",
+        "back": "main"
+      },
+      "threats": {
+        "image": "assets/es/mana/MANA03PU.webp",
+        "back": "main"
+      },
+      "extinct-in-a-blink": {
+        "image": "assets/es/mana/MANA04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/mana/clip.mp4",
+        "poster": "assets/es/mana/MANA05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/mana/MANA00JN.mp3",
+  "sound": "assets/es/mana/MANA00IX.mp3",
+  "video": {
+    "title": "Amigos fieles",
+    "src": "assets/es/mana/clip.mp4",
+    "poster": "assets/es/mana/poster.webp",
+    "caption": "Manatíes, río Cristal, Florida",
+    "narration": "assets/es/mana/MANA05JN.mp3"
+  }
+}

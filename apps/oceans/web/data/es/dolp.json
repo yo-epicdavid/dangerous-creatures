@@ -1,0 +1,236 @@
+{
+  "id": "dolp",
+  "code": "DOLP",
+  "name": "Delfines y marsopas",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Hermosos, inteligentes y sociables: los auténticos reyes del océano!",
+  "zones": [
+    "Mar abierto",
+    "Costa y charcas de marea",
+    "Mares polares"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/dolp/DOLP00AA.webp",
+    "alt": "Delfines y marsopas"
+  },
+  "intro": "¿Sabías que cetáceo –nombre dado a la familia de los mamíferos marinos que incluye a las ballenas, los delfines y las marsopas– procede de la palabra griega y latina que significa «monstruo marino»? Lejos de ser «monstruos», los delfines y las marsopas son realmente animales hermosos, inteligentes y sociables que los pueblos de todo el mundo han admirado desde hace siglos.",
+  "facts": [
+    {
+      "label": "Origen del nombre",
+      "value": "«Cetáceo» procede de una palabra griega y latina que significa «monstruo marino»."
+    },
+    {
+      "label": "Velocidad",
+      "value": "El dorado puede nadar con aceleraciones repentinas de hasta 60 km por hora."
+    },
+    {
+      "label": "Cría",
+      "value": "El delfín mula no pone huevos: da a luz a sus crías vivas y las amamanta y cuida."
+    },
+    {
+      "label": "Dieta de la orca",
+      "value": "Las orcas cazan en grupos familiares o manadas, alimentándose de aves, delfines más pequeños, peces y focas."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Una orca que atacó a un surfista lo escupió vivo al darse cuenta de su error."
+    },
+    {
+      "label": "Amenaza",
+      "value": "La marsopa común ha desaparecido en gran medida del mar Mediterráneo, el Báltico y el mar Negro por la contaminación y el exceso de pesca."
+    }
+  ],
+  "topics": [
+    {
+      "id": "billed-as-killers",
+      "title": "Etiquetadas como asesinas",
+      "image": "assets/es/dolp/DOLP01PU.webp",
+      "text": "Las ballenas asesinas –u orcas– han sido etiquetadas como asesinas pero en realidad no son más mortíferas que cualquier otro predador. Algunos científicos las clasifican no cómo ballenas pequeñas, sino cómo los delfines más grandes. Las orcas cazan en grupos familiares o manadas, alimentándose de aves, delfines más pequeños, peces y focas. En la Antártida, se sabe que golpean los témpanos de hielo, ¡para hacer caer a las focas al agua! Sin embargo, las orcas nunca atacan a los seres humanos. Existe un ejemplo de una orca que atacó a un surfista, pero al darse cuenta de su error le escupió... ¡vivo!",
+      "captions": [
+        {
+          "label": "Orca",
+          "text": "Orcinus orca"
+        }
+      ],
+      "narration": "assets/es/dolp/DOLP01JN.mp3"
+    },
+    {
+      "id": "fish-or-mammal",
+      "title": "¿Peces o mamíferos?",
+      "image": "assets/es/dolp/DOLP02PU.webp",
+      "text": "¿Qué es lo que tiene una nariz chata, es un extraordinario nadador y da impresionantes saltos en el agua? El dorado, que a veces actúa como un delfín mula, pero que en realidad es un pez y no un mamífero. El delfín mula es un mamífero. Respira aire a través de un espiráculo y no pone huevos, sino que da a luz a sus crías, a las que después amamanta y cuida. ¡El dorado puede nadar con aceleraciones repentinas de hasta 60 km por hora! El dorado habita en los mares abiertos, donde pesca peces voladores o se esconde bajo desechos flotantes. A los pescadores deportivos les gusta este pez porque les representa un gran desafío y también porque su carne es muy sabrosa.",
+      "captions": [
+        {
+          "label": "Dorado",
+          "text": "Coryphaena hippurus"
+        }
+      ],
+      "narration": "assets/es/dolp/DOLP02JN.mp3"
+    },
+    {
+      "id": "surfers",
+      "title": "Surfistas",
+      "image": "assets/es/dolp/DOLP03PU.webp",
+      "text": "Tal vez no te des cuenta, ¡pero existe una semejanza real entre estos dos surfistas! ¡Encima de la ola! Uno de los mayores placeres en la vida de un delfín es precipitarse hacia la proa de un barco grande y montar sobre su ola de proa. Descubre ese lugar especial de la ola en la que no tiene que nadar, sino dejarse llevar. Si no fuera por el ruido de las máquinas, podrías escuchar sus agudos gritos de placer. ¡Tomar la ola! Los surfistas tienen que encontrar el lugar exacto en la ola. ¡En caso contrario la caída está asegurada!",
+      "narration": "assets/es/dolp/DOLP03JN.mp3"
+    },
+    {
+      "id": "funny-or-fatal",
+      "title": "Divertido o fatal",
+      "image": "assets/es/dolp/DOLP04PU.webp",
+      "text": "Como los delfines se encuentran entre los seres más inteligentes del mar, existe la costumbre de cazarlos, entrenarlos y ponerlos a trabajar en los parques de atracciones marinos. Pero tras estos espectáculos existen algunas duras realidades. El estrellato tiene un precio: el delfín mula puede ser entrenado para jugar a la pelota, saltar a través de aros y otras muchas habilidades. Pero mientras este delfín nos proporciona la oportunidad de apreciar sus talentos, al imitar el «juego» humano suele ser desviado de su comportamiento natural. Mantenerlo en cautividad es un tema que cada vez está más sometido a debate crítico. El delfín mula parece pasarlo bien en los parques marinos, pero con frecuencia muere al verse en cautiverio.",
+      "narration": "assets/es/dolp/DOLP04JN.mp3"
+    },
+    {
+      "id": "how-smart-are-they",
+      "title": "¿Hasta qué punto son inteligentes?",
+      "image": "assets/es/dolp/DOLP05PU.webp",
+      "text": "Es difícil medir la inteligencia de los delfines, o la de cualquier otra especie animal, con criterios humanos. Sin embargo, los científicos han inventado algunos métodos ingeniosos para descubrir todo lo que se pueda sobre este tema. Los transmisores de pilas instalados en algunos delfines envían señales a los satélites espaciales, que siguen sus movimientos en pleno océano. A otros delfines mula se les ha colocado tarjetas con sus nombres y distintivos, para identificarlos según su especie. Los registradores fijados sobre sus aletas miden la profundidad de sus inmersiones. Los micrófonos sumergibles registran las llamadas que se hacen entre sí bajo el agua, tanto en cautiverio como libres, para que los científicos puedan estudiar su sistema de comunicación.",
+      "narration": "assets/es/dolp/DOLP05JN.mp3"
+    },
+    {
+      "id": "porpoise-or-dolphin",
+      "title": "¿Marsopa o delfín mula?",
+      "image": "assets/es/dolp/DOLP06PU.webp",
+      "text": "¿Cómo puedes distinguir al delfín mula de la marsopa? Una de las formas es observar el pico pronunciado, que es un rasgo fundamental del delfín mula. El tamaño es otro dato: el delfín mula suele ser más grande que la marsopa. Su comportamiento ofrece una última pista: el delfín mula es por lo general más juguetón y fácil de entrenar que la marsopa. ¡Pero atención! Existen muchas excepciones a estas reglas. Como lucios saltando: el delfín manchado es un gran actor. Puede hacer de todo: saltos gigantes, vuelos y giros. Observa que su cuerpo es más aerodinámico que el de la marsopa. En otro tiempo era una marsopa común: la marsopa de los puertos, también llamada marsopa común, abundaba en otra época en la mayoría de las costas del hemisferio norte. Hoy en día ha desaparecido en gran medida en el mar Mediterráneo, el mar Báltico y el mar Negro y está en peligro de extinción en muchos otros lugares, debido a la contaminación y al exceso de pesca.",
+      "captions": [
+        {
+          "label": "Delfín manchado",
+          "text": "Stenella dubia"
+        },
+        {
+          "label": "Marsopa",
+          "text": "Phocoena phocoena"
+        }
+      ],
+      "narration": "assets/es/dolp/DOLP06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "¿Qué es un pez?",
+      "to": "what"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/dolp/DOLP00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 4,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "¿Marsopa o delfín mula?",
+            "to": "porpoise-or-dolphin",
+            "x": 56,
+            "y": 25,
+            "w": 34,
+            "h": 6
+          },
+          {
+            "label": "¿Hasta qué punto son inteligentes?",
+            "to": "how-smart-are-they",
+            "x": 56,
+            "y": 38,
+            "w": 34,
+            "h": 6
+          },
+          {
+            "label": "Supervivencia",
+            "to": "video",
+            "x": 57,
+            "y": 51,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Surfistas",
+            "to": "surfers",
+            "x": 8,
+            "y": 56,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Etiquetadas como asesinas",
+            "to": "billed-as-killers",
+            "x": 8,
+            "y": 66,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "¿Peces o mamíferos?",
+            "to": "fish-or-mammal",
+            "x": 19,
+            "y": 77,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Divertido o fatal",
+            "to": "funny-or-fatal",
+            "x": 20,
+            "y": 87,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "billed-as-killers": {
+        "image": "assets/es/dolp/DOLP01PU.webp",
+        "back": "main"
+      },
+      "fish-or-mammal": {
+        "image": "assets/es/dolp/DOLP02PU.webp",
+        "back": "main"
+      },
+      "surfers": {
+        "image": "assets/es/dolp/DOLP03PU.webp",
+        "back": "main"
+      },
+      "funny-or-fatal": {
+        "image": "assets/es/dolp/DOLP04PU.webp",
+        "back": "main"
+      },
+      "how-smart-are-they": {
+        "image": "assets/es/dolp/DOLP05PU.webp",
+        "back": "main"
+      },
+      "porpoise-or-dolphin": {
+        "image": "assets/es/dolp/DOLP06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/dolp/clip.mp4",
+        "poster": "assets/es/dolp/DOLP07PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/dolp/DOLP00JN.mp3",
+  "sound": "assets/es/dolp/DOLP00IX.mp3",
+  "video": {
+    "title": "Supervivencia",
+    "src": "assets/es/dolp/clip.mp4",
+    "poster": "assets/es/dolp/poster.webp",
+    "caption": "El delfín mula nada junto con los atunes en pleno océano y se asfixia cuando es capturado en redes diseñadas para pescar atunes u otros peces. También adquiere enfermedades graves provocadas por la contaminación del océano, y muchas naciones capturan gran número de delfines para comerlos.",
+    "narration": "assets/es/dolp/DOLP07JN.mp3"
+  }
+}

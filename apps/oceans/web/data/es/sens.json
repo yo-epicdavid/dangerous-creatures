@@ -1,0 +1,216 @@
+{
+  "id": "sens",
+  "code": "SENS",
+  "name": "Los sentidos del mar",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Los animales del océano tienen superpoderes para ver, oír, oler y sentir bajo el agua!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Arrecife de coral",
+    "Mar abierto",
+    "Mar profundo"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/sens/SENS00AA.webp",
+    "alt": "Los sentidos del mar"
+  },
+  "intro": "Los animales marinos, al igual que los animales terrestres, dependen de sus sentidos para la supervivencia. Muchos han evolucionado desarrollando especialmente uno o más de los sentidos (vista, oído, olor y tacto). Además, la mayor parte de los animales marinos puede detectar hasta el cambio más pequeño de presión del agua. Todos los peces, por ejemplo, tienen una serie de poros sensoriales, conocidos como línea lateral, que les permiten detectar la presión de las olas en el agua.",
+  "facts": [
+    {
+      "label": "Línea lateral",
+      "value": "Todos los peces tienen poros sensoriales llamados línea lateral que les permiten detectar la presión de las olas en el agua."
+    },
+    {
+      "label": "Olfato del tiburón",
+      "value": "El tiburón puede detectar una cucharadita de sangre diluida en el agua y acudir en manada hacia ese lugar."
+    },
+    {
+      "label": "Ecodetección",
+      "value": "Los delfines y algunas ballenas actúan como un sonar: emiten ondas sonoras y las escuchan cuando rebotan de vuelta para localizar a sus presas."
+    },
+    {
+      "label": "Ojos móviles",
+      "value": "La platija nace con un ojo a cada lado de la cabeza, pero de adulta uno de los ojos se desplaza para que ambos queden en el mismo lado."
+    },
+    {
+      "label": "Feromonas",
+      "value": "Ciertos tipos de langostas intercambian mensajes químicos llamados feromonas durante su época de apareamiento."
+    },
+    {
+      "label": "Campo eléctrico",
+      "value": "La raya eléctrica crea una especie de «campo eléctrico» a su alrededor; cuando algo lo interrumpe, lanza una fuerte descarga para paralizar al intruso."
+    }
+  ],
+  "topics": [
+    {
+      "id": "sight",
+      "title": "La vista",
+      "image": "assets/es/sens/SENS01PU.webp",
+      "text": "El sentido de la vista es fundamental para muchos animales marinos. Un vista muy primitiva: Los turbelarios tienen órganos visuales muy primitivos y sólo distinguen entre luz y oscuridad. Ojos complejos: Los crustáceos poseen ojos multifacéticos que les permiten detectar la luz y el movimiento. Ojos móviles: Este lenguado ha nacido con un ojo a cada lado de la cabeza. Pero, cuando yace de costado en el fondo, como corresponde a un adulto, uno de los ojos se mueve de sitio para que ambos estén «arriba». Curioso, ¿verdad?",
+      "captions": [
+        {
+          "label": "Turbelario de Bedford",
+          "text": "Pseudoceros bedfordi"
+        },
+        {
+          "label": "Platija",
+          "text": "Pleuronectes flesus"
+        },
+        {
+          "label": "Cangrejo araña de rostro afilado caribeño",
+          "text": "Stenorhynchus seticornis"
+        }
+      ],
+      "narration": "assets/es/sens/SENS01JN.mp3"
+    },
+    {
+      "id": "echolocation",
+      "title": "La ecodetección",
+      "image": "assets/es/sens/SENS02PU.webp",
+      "text": "El delfín y algunas ballenas dependen del sonido para detectar el entorno y localizar a su presa. Estos animales actúan como un sonar: emiten ondas sonoras que escuchan cuando rebotan de vuelta. Si detectan alguna irregularidad en el sonido que la onda devuelve, comprenden que un animal o un obstáculo está frente a ellos. En la tierra, los murciélagos utilizan la ecodetección para buscar insectos con los que alimentarse.",
+      "captions": [
+        {
+          "label": "Delfín con peces",
+          "text": "Tursiops truncatus"
+        }
+      ],
+      "narration": "assets/es/sens/SENS02JN.mp3"
+    },
+    {
+      "id": "smell",
+      "title": "El olfato",
+      "image": "assets/es/sens/SENS04PU.webp",
+      "text": "Los seres humanos sólo pueden detectar olores en el aire, pero muchos animales marinos son capaces de detectar hasta el más sutil aroma bajo el agua. Amigos por el olor: Los científicos han descubierto que cierto tipo de langostas intercambian mensajes químicos en su época de apareamiento. Las sustancias químicas utilizadas para este tipo de comunicación reciben el nombre de feromonas. Cuestión de olfato: Si se trata de oler, el tiburón tiene uno de los olfatos más finos del mar. Se le ha visto acudir en manada hacia un lugar del agua en el que apenas se había vertido una cucharadita de sangre.",
+      "captions": [
+        {
+          "label": "Bogavante",
+          "text": "Homarus americanus"
+        },
+        {
+          "label": "Tiburón blanco",
+          "text": "Carcharodon carcharias"
+        }
+      ],
+      "narration": "assets/es/sens/SENS04JN.mp3"
+    },
+    {
+      "id": "touch",
+      "title": "El tacto",
+      "image": "assets/es/sens/SENS05PU.webp",
+      "text": "Ciertos animales marinos tienen un sentido del tacto muy desarrollado. ¡No me toques!: Ciertos filtradores, como estos balanos, retraen sus cirros nada más entrar en contacto con algo mayor que el plancton. Brazos maternales: El pulpo tiene un sentido del tacto tan delicado que la hembra puede trasladar sus huevos fácilmente, de uno en uno, con sus tentáculos.",
+      "captions": [
+        {
+          "label": "Balanos",
+          "text": "con los cirros extendidos"
+        },
+        {
+          "label": "Pulpo",
+          "text": "con huevos"
+        }
+      ],
+      "narration": "assets/es/sens/SENS05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What Was That?"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/sens/SENS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "El tacto",
+            "to": "touch",
+            "x": 57,
+            "y": 50,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Pulsaciones eléctricas",
+            "to": "video",
+            "x": 46,
+            "y": 57,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "La ecodetección",
+            "to": "echolocation",
+            "x": 59,
+            "y": 63,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "La vista",
+            "to": "sight",
+            "x": 56,
+            "y": 70,
+            "w": 10,
+            "h": 5
+          },
+          {
+            "label": "El olfato",
+            "to": "smell",
+            "x": 50,
+            "y": 78,
+            "w": 10,
+            "h": 5
+          }
+        ]
+      },
+      "sight": {
+        "image": "assets/es/sens/SENS01PU.webp",
+        "back": "main"
+      },
+      "echolocation": {
+        "image": "assets/es/sens/SENS02PU.webp",
+        "back": "main"
+      },
+      "smell": {
+        "image": "assets/es/sens/SENS04PU.webp",
+        "back": "main"
+      },
+      "touch": {
+        "image": "assets/es/sens/SENS05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/sens/clip.mp4",
+        "poster": "assets/es/sens/SENS03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/sens/SENS00JN.mp3",
+  "sound": "assets/es/sens/SENS00IX.mp3",
+  "video": {
+    "title": "Pulsaciones eléctricas",
+    "src": "assets/es/sens/clip.mp4",
+    "poster": "assets/es/sens/poster.webp",
+    "caption": "Todos los seres vivientes emiten pulsaciones eléctricas de baja intensidad, pero algunos animales marinos pueden utilizarlas en su provecho. El pez martillo es incluso capaz de detectar las pulsaciones eléctricas de una presa oculta bajo la arena o el cieno. La raya eléctrica crea una especie de «campo eléctrico» a su alrededor; cuando algo lo interrumpe, lanza una fuerte descarga para paralizar al intruso.",
+    "narration": "assets/es/sens/SENS03JN.mp3"
+  }
+}

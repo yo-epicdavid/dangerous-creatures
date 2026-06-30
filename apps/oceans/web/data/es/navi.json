@@ -1,0 +1,287 @@
+{
+  "id": "navi",
+  "code": "NAVI",
+  "name": "La navegación",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡De las estrellas a los satélites: así encuentran el camino los marineros en alta mar!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Mar abierto"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/navi/NAVI00AA.webp",
+    "alt": "La navegación"
+  },
+  "intro": "Los faros proyectan una luz brillante que puede verse a gran distancia. Situados en islas y costas especialmente peligrosas, permiten conocer a los navegantes su posición frente a la costa. Pero para cruzar el océano hay que encontrar el rumbo a través de una gran extensión, sin ver la línea costera. Al principio, los marinos utilizaban las estrellas para fijar el rumbo. Después inventaron instrumentos de navegación, como el sextante y la brújula. La navegación ha evolucionado hasta tal punto, que hoy en día se utilizan los satélites, el radar y el sonar para localizar barcos en cualquier parte del mundo o para cartografiar las profundidades marinas.",
+  "facts": [
+    {
+      "label": "Canal de Suez",
+      "value": "170 km de largo; construido en 1869, une el mar Rojo con el mar Mediterráneo."
+    },
+    {
+      "label": "Canal de Panamá",
+      "value": "Construido en 1914, tiene seis esclusas que elevan los barcos 26 m para salvar la diferencia de altitud entre los océanos."
+    },
+    {
+      "label": "El sextante",
+      "value": "Sustituyó al astrolabio en el siglo XVIII; calcula la latitud midiendo el ángulo entre una estrella y el horizonte."
+    },
+    {
+      "label": "La brújula",
+      "value": "De origen chino; utiliza la fuerza magnética de la Tierra para indicar el rumbo."
+    },
+    {
+      "label": "SONAR",
+      "value": "Sound Navigation and Ranging: emite ondas sonoras para detectar el fondo submarino y evitar encallar."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "En 1572 los mapas eran tan imprecisos que incluían monstruos marinos donde los cartógrafos desconocían el terreno."
+    }
+  ],
+  "topics": [
+    {
+      "id": "traditional-tools",
+      "title": "Instrumentos tradicionales",
+      "image": "assets/es/navi/NAVI01PU.webp",
+      "text": "Los marinos de la Antigüedad diseñaron ingeniosos métodos para señalar su posición en mar abierto. Muchos de esos instrumentos siguen utilizándose en la actualidad.",
+      "captions": [
+        {
+          "label": "El sextante",
+          "text": "El sextante, que los navegantes siguen utilizando hoy en día, sustituyó al astrolabio en el siglo XVIII. Calcula la latitud midiendo el ángulo entre una estrella y el horizonte o entre dos puntos de posición determinada."
+        },
+        {
+          "label": "La brújula",
+          "text": "La brújula, de origen chino, utiliza la fuerza magnética de la tierra para indicar el rumbo. Los exploradores medievales europeos diseñaron el astrolabio, que ayudaba a determinar la posición de las estrellas."
+        },
+        {
+          "label": "El cronómetro",
+          "text": "El cronómetro marcaba el tiempo a cualquier temperatura y se usaba para determinar la longitud."
+        }
+      ],
+      "narration": "assets/es/navi/NAVI01JN.mp3"
+    },
+    {
+      "id": "marking-the-coasts",
+      "title": "Señalización costera",
+      "image": "assets/es/navi/NAVI02PU.webp",
+      "text": "Hoy en día, un preciso sistema de luces y boyas ayuda a los barcos a encontrar el rumbo sorteando los peligros de la costa y a salir y entrar de bahías y puertos.",
+      "captions": [
+        {
+          "label": "Flotando en la superficie",
+          "text": "Las boyas son señales de acero ancladas al fondo del mar, de una bahía o de un río. Avisan de la existencia de bancos de arena y canales de navegación. Muchas boyas tienen luces y campanas, para que puedan verse de noche y oírse en la niebla. Los distintos colores advierten al navegante si debe dejarlas a su izquierda (babor) o a su derecha (estribor). Las boyas también sirven de lugar de descanso para aves y leones marinos."
+        },
+        {
+          "label": "De poco fiar",
+          "text": "Como podrás constatar por este mapa de 1572, los antiguos exploradores no eran demasiado precisos cartografiando líneas costeras o extensiones oceánicas. ¡Y fíjate en los monstruos que aguardaban al navegante! Los marinos de la Antigüedad eran realmente intrépidos."
+        }
+      ],
+      "narration": "assets/es/navi/NAVI02JN.mp3"
+    },
+    {
+      "id": "space-age-sightings",
+      "title": "Observatorios de la era espacial",
+      "image": "assets/es/navi/NAVI03PU.webp",
+      "text": "En la actualidad, sofisticados sistemas que utilizan satélites y señales de radio calculan la posición de los barcos, incluso en las peores marejadas. El Sistema de Posición Global (SPG), también utilizado en aviación y por los militares, incluye toda una serie de satélites girando alrededor de la Tierra. Al transmitir y recibir señales, el usuario puede determinar la posición exacta de un barco en cualquier lugar del mundo. El sistema Loran (navegación de altura), desarrollado por los aliados para su utilización en el Atlántico durante la Segunda Guerra Mundial, se ha extendido hasta convertirse en una red mundial de transmisores. Al escuchar las señales de radio perfectamente sincronizadas del Loran, los barcos y los aviones pueden determinar su posición en el mar.",
+      "captions": [
+        {
+          "label": "Satélite de comunicaciones en órbita",
+          "text": "Satélite de comunicaciones en órbita"
+        }
+      ],
+      "narration": "assets/es/navi/NAVI03JN.mp3"
+    },
+    {
+      "id": "slicing-through-land",
+      "title": "Cortando por tierra",
+      "image": "assets/es/navi/NAVI04PU.webp",
+      "text": "Los principales canales construidos por el ser humano ahorran miles de kilómetros de travesía a los barcos, eliminando largas rutas que suponían rodear continentes enteros.",
+      "captions": [
+        {
+          "label": "Rumbo al este o al oeste",
+          "text": "El canal de Suez, que aparece aquí tal como se ve por satélite, mide 170 km de largo. Construido en 1869, une el mar Rojo con el mar Mediterráneo. Lo utilizan constantemente los barcos que viajan entre Europa y Extremo Oriente."
+        },
+        {
+          "label": "Cerrado por fuera y por dentro",
+          "text": "El canal de Panamá, construido en 1914, comunica el océano Atlántico con el Pacífico, y evita a los barcos el tener que rodear la punta meridional de América del Sur, en el cabo de Hornos, una de las travesías más peligrosas del océano. Los barcos que utilizan el canal de Panamá tienen que atravesar seis esclusas, que los elevan a 26 m para salvar la diferencia de altitud entre los océanos y el canal."
+        }
+      ],
+      "narration": "assets/es/navi/NAVI04JN.mp3"
+    },
+    {
+      "id": "traffic-jams",
+      "title": "Congestionamientos en el mar",
+      "image": "assets/es/navi/NAVI05PU.webp",
+      "text": "Los océanos se están llenando de buques de carga, petroleros y barcos cisterna que transportan mercancías y pasajeros de un extremo a otro del mundo. El radar permite conocer en todo momento la posición de unos y otros. Los transmisores emiten poderosas ondas de energía que se reflejan en los objetos y vuelven al punto de observación, formando una imagen de los mismos en la pantalla. ¡Pero sigue siendo importante mantener un vigía en cubierta!",
+      "narration": "assets/es/navi/NAVI05JN.mp3"
+    },
+    {
+      "id": "can-you-hear-the-bottom",
+      "title": "¿Oyes el fondo?",
+      "image": "assets/es/navi/NAVI06PU.webp",
+      "text": "Las ondas sonoras o SONAR (Sound Navigation and Ranging) pueden detectar el fondo submarino y sus peligros. El sonar emite breves ondas sonoras mientras registra datos visuales en una pantalla o papel. El capitán del barco puede localizar los canales y evitar encallar, familiarizándose con el relieve del fondo marino. Evitar accidentes marítimos es de especial importancia en nuestros días, ya que los barcos mercantes llevan a menudo cargas tóxicas que pueden contaminar las playas y acabar con la vida marina.",
+      "captions": [
+        {
+          "label": "Goleta hundida en el fondo del mar y detectada por sonar",
+          "text": "Goleta hundida en el fondo del mar y detectada por sonar"
+        }
+      ],
+      "narration": "assets/es/navi/NAVI06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Los barcos propulsados",
+      "to": "powe"
+    },
+    {
+      "label": "Los bajíos",
+      "to": "shal"
+    },
+    {
+      "label": "¿Qué es la oceanografía?",
+      "to": "ocea"
+    },
+    {
+      "label": "Submarinos y robots",
+      "to": "robo"
+    },
+    {
+      "label": "El mar Mediterráneo",
+      "to": "medi"
+    },
+    {
+      "label": "Viajes fantásticos",
+      "to": "fant"
+    },
+    {
+      "label": "Los sentidos del mar",
+      "to": "sens"
+    },
+    {
+      "label": "El océano Pacífico",
+      "to": "paci"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/navi/NAVI00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 7,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Cortando por tierra",
+            "to": "slicing-through-land",
+            "x": 52,
+            "y": 5,
+            "w": 29,
+            "h": 5
+          },
+          {
+            "label": "Congestionamientos en el mar",
+            "to": "traffic-jams",
+            "x": 58,
+            "y": 37,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Señalización costera",
+            "to": "marking-the-coasts",
+            "x": 12,
+            "y": 72,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Observatorios de la era espacial",
+            "to": "space-age-sightings",
+            "x": 12,
+            "y": 79,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "¿Oyes el fondo?",
+            "to": "can-you-hear-the-bottom",
+            "x": 37,
+            "y": 72,
+            "w": 28,
+            "h": 9
+          },
+          {
+            "label": "Instrumentos tradicionales",
+            "to": "traditional-tools",
+            "x": 60,
+            "y": 84,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "¿Dónde estamos?",
+            "to": "video",
+            "x": 2,
+            "y": 89,
+            "w": 22,
+            "h": 6
+          }
+        ]
+      },
+      "traditional-tools": {
+        "image": "assets/es/navi/NAVI01PU.webp",
+        "back": "main"
+      },
+      "marking-the-coasts": {
+        "image": "assets/es/navi/NAVI02PU.webp",
+        "back": "main"
+      },
+      "space-age-sightings": {
+        "image": "assets/es/navi/NAVI03PU.webp",
+        "back": "main"
+      },
+      "slicing-through-land": {
+        "image": "assets/es/navi/NAVI04PU.webp",
+        "back": "main"
+      },
+      "traffic-jams": {
+        "image": "assets/es/navi/NAVI05PU.webp",
+        "back": "main"
+      },
+      "can-you-hear-the-bottom": {
+        "image": "assets/es/navi/NAVI06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/navi/clip.mp4",
+        "poster": "assets/es/navi/NAVI07PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/navi/NAVI00JN.mp3",
+  "sound": "assets/es/navi/NAVI00IX.mp3",
+  "video": {
+    "title": "¿Dónde estamos?",
+    "src": "assets/es/navi/clip.mp4",
+    "poster": "assets/es/navi/poster.webp",
+    "caption": "Isla de las Maldivas, océano Índico",
+    "narration": "assets/es/navi/NAVI07JN.mp3"
+  }
+}

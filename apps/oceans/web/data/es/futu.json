@@ -1,0 +1,248 @@
+{
+  "id": "futu",
+  "code": "FUTU",
+  "name": "El futuro de los océanos",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "El planeta está en nuestras manos.",
+  "zones": [
+    "Costa y charcas de marea",
+    "Mar abierto"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/futu/FUTU00AA.webp",
+    "alt": "El futuro de los océanos"
+  },
+  "intro": "Los océanos cubren el 71 por ciento de la superficie de nuestro planeta. De ellos dependemos para renovar nuestra provisión de agua dulce y para suavizar la temperatura, además de proporcionarnos alimento y un medio de transporte y de ocio. Actualmente, todos los océanos del mundo tienen problemas con la contaminación y el exceso de pesca. ¿Cuál es el futuro de nuestros océanos? Depende de nosotros. El planeta está en nuestras manos.",
+  "facts": [
+    {
+      "label": "Cobertura",
+      "value": "Los océanos cubren el 71 por ciento de la superficie de nuestro planeta."
+    },
+    {
+      "label": "Desperdicio",
+      "value": "La industria pesquera arroja hasta un 25 por ciento de su captura."
+    },
+    {
+      "label": "Población",
+      "value": "Cada año existen 90 millones más de personas que necesitan alimento, agua y un lugar para vivir."
+    },
+    {
+      "label": "Zona marina",
+      "value": "El UNCLOS otorga a las naciones derechos sobre los recursos marinos dentro de las 200 millas de sus costas."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Las granjas marinas crean contaminación orgánica: es como tener muchas vacas en un pequeño pastizal."
+    }
+  ],
+  "topics": [
+    {
+      "id": "pristine-or-polluted",
+      "title": "¿Prístinos o contaminados?",
+      "image": "assets/es/futu/FUTU01PU.webp",
+      "text": "Como los océanos son tan vastos, los seres humanos creyeron en otra época que era virtualmente imposible contaminar estas masas tan enormes de agua. Durante décadas, hemos utilizado los océanos como vertederos de nuestras aguas fecales, basuras, desechos químicos e incluso radiactivos. Como también utilizamos los océanos para el transporte, muchos accidentes de navegación han resultado contaminantes. Para proteger la vida marina y la salud de nuestro planeta, debemos encontrar soluciones a estos problemas.",
+      "captions": [
+        {
+          "label": "Cormorán",
+          "text": "Este cormorán cubierto de petróleo probablemente no sobrevivirá"
+        },
+        {
+          "label": "Playa",
+          "text": "La basura destruye el medio ambiente de la playa en muchos lugares"
+        }
+      ],
+      "narration": "assets/es/futu/FUTU01JN.mp3"
+    },
+    {
+      "id": "bountiful-or-barren",
+      "title": "¿Exuberante o árido?",
+      "image": "assets/es/futu/FUTU02PU.webp",
+      "text": "En otra época pensábamos que los océanos contenían una provisión inagotable de alimentos, agua y minerales. Hoy en día, sabemos que, con la tecnología moderna, los seres humanos tenemos el poder de eliminar gran parte de la vida de los océanos. Actualmente, la industria pesquera arroja hasta un 25 por ciento de su captura, ¡lo que es un increíble desperdicio de vida marina! Debemos aprender a vivir en armonía con la naturaleza lo mismo que hacen los demás animales, tomando sólo lo que necesitamos y utilizando todo lo que tomamos.",
+      "narration": "assets/es/futu/FUTU02JN.mp3",
+      "captions": [
+        {
+          "label": "Pesca",
+          "text": "Pesca comercial, Islandia"
+        }
+      ]
+    },
+    {
+      "id": "wild-or-cultivated",
+      "title": "¿Naturales o criados?",
+      "image": "assets/es/futu/FUTU03PU.webp",
+      "text": "Algunas personas creen que la solución a la sobreexplotación de los océanos es criar y cultivar animales y plantas marinos. Esta práctica, llamada maricultura, también plantea sus problemas. Las plantas cultivadas y los animales criados son más débiles y más susceptibles a las enfermedades que la mayoría de sus congéneres naturales. Y nunca es una buena idea aislar muchas especies en favor de una sola: si esta especie desaparece a causa de una plaga, ¡no queda nada! Las granjas marinas también crean contaminación orgánica: es como tener muchas vacas en un pequeño pastizal. La maricultura a pequeña escala puede ser un buen negocio, pero no puede sustituir a los ecosistemas naturales.",
+      "narration": "assets/es/futu/FUTU03JN.mp3",
+      "captions": [
+        {
+          "label": "Maricultura",
+          "text": "Cría de peces, New Brunswick, Canadá"
+        }
+      ]
+    },
+    {
+      "id": "room-for-whom",
+      "title": "¿Para quién hay sitio?",
+      "image": "assets/es/futu/FUTU04PU.webp",
+      "text": "Existen aproximadamente 5.300 millones de personas en este planeta. Cada día nacen 250.000 personas más que el día anterior, lo que significa que cada año existen 90 millones más de personas que necesitan alimento, agua y un lugar para vivir. Pero otros animales y plantas necesitan también estos recursos, tanto en la tierra como en el océano. El medio ambiente de las líneas costeras está especialmente en peligro, debido a que los seres humanos ocupan las playas que necesitan las focas, los pájaros, las tortugas marinas y otros animales y contaminan las aguas poco profundas en las que se desarrolla gran parte de la vida del océano.",
+      "captions": [
+        {
+          "label": "Manglares",
+          "text": "Cada año se destruyen muchos hábitats de pantanos o manglares"
+        },
+        {
+          "label": "Costa",
+          "text": "Los astilleros y los edificios ocupan progresivamente las líneas costeras"
+        }
+      ],
+      "narration": "assets/es/futu/FUTU04JN.mp3"
+    },
+    {
+      "id": "who-gets-to-decide",
+      "title": "¿Quién decide?",
+      "image": "assets/es/futu/FUTU05PU.webp",
+      "text": "Los océanos conectan todas las masas de tierra del planeta, de forma que cualquier problema oceánico es una cuestión internacional. The United Nations Convention on Law of the Sea (UNCLOS, \"Convenio sobre la Ley del Mar de las Naciones Unidas\") es la columna vertebral del derecho marítimo internacional. Ratificado por unos 60 países, otorga a las naciones derechos sobre los recursos marinos que se encuentran dentro de las 200 millas de sus costas. El Convenio de Londres sobre Vertidos (LDC en la abreviatura inglesa), ratificado por esos países, restringe el vertido de algunas sustancias tóxicas a los océanos y prohíbe el de otras. Estos son pasos importantes para la protección de nuestros océanos, pero queda mucho trabajo por hacer.",
+      "narration": "assets/es/futu/FUTU05JN.mp3",
+      "captions": [
+        {
+          "label": "ONU",
+          "text": "Edificio de las Naciones Unidas, Nueva York"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "El litoral",
+      "to": "shor"
+    },
+    {
+      "label": "El océano Pacífico",
+      "to": "paci"
+    },
+    {
+      "label": "La cadena de la vida",
+      "to": "webl"
+    },
+    {
+      "label": "Las islas",
+      "to": "isla"
+    },
+    {
+      "label": "Los ejércitos en el mar",
+      "to": "mili"
+    },
+    {
+      "label": "Misteriosas relaciones",
+      "to": "myst"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/futu/FUTU00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 7,
+            "h": 6
+          },
+          {
+            "label": "¿Quién decide?",
+            "to": "who-gets-to-decide",
+            "x": 55,
+            "y": 8,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "¿Para quién hay sitio?",
+            "to": "room-for-whom",
+            "x": 81,
+            "y": 17,
+            "w": 17,
+            "h": 7
+          },
+          {
+            "label": "Decisiones de vida o muerte",
+            "to": "video",
+            "x": 8,
+            "y": 65,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "¿Naturales o criados?",
+            "to": "wild-or-cultivated",
+            "x": 10,
+            "y": 72,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "¿Exuberante o árido?",
+            "to": "bountiful-or-barren",
+            "x": 10,
+            "y": 79,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "¿Prístinos o contaminados?",
+            "to": "pristine-or-polluted",
+            "x": 10,
+            "y": 86,
+            "w": 24,
+            "h": 5
+          }
+        ]
+      },
+      "pristine-or-polluted": {
+        "image": "assets/es/futu/FUTU01PU.webp",
+        "back": "main"
+      },
+      "bountiful-or-barren": {
+        "image": "assets/es/futu/FUTU02PU.webp",
+        "back": "main"
+      },
+      "wild-or-cultivated": {
+        "image": "assets/es/futu/FUTU03PU.webp",
+        "back": "main"
+      },
+      "room-for-whom": {
+        "image": "assets/es/futu/FUTU04PU.webp",
+        "back": "main"
+      },
+      "who-gets-to-decide": {
+        "image": "assets/es/futu/FUTU05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/futu/clip.mp4",
+        "poster": "assets/es/futu/FUTU06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/futu/FUTU00JN.mp3",
+  "sound": "assets/es/futu/FUTU00IX.mp3",
+  "video": {
+    "title": "Decisiones de vida o muerte",
+    "src": "assets/es/futu/clip.mp4",
+    "poster": "assets/es/futu/poster.webp",
+    "caption": "El océano está lleno de vida. Pero las plantas y los animales que viven en él corren un grave peligro. Su mundo es mucho menos saludable que hace unas décadas, por culpa nuestra. ¿Continuaremos sobreexplotando y contaminando nuestros océanos? Para millones de seres marinos no es una decisión trivial: es una cuestión de vida o muerte.",
+    "narration": "assets/es/futu/FUTU06JN.mp3"
+  }
+}

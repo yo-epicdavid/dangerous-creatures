@@ -1,0 +1,181 @@
+{
+  "id": "tide",
+  "code": "TIDE",
+  "name": "Las mareas",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡El océano sube y baja dos veces al día... movido por la Luna!",
+  "zones": [
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/tide/TIDE00AA.webp",
+    "alt": "Las mareas"
+  },
+  "intro": "Las mareas son el ascenso y descenso periódico de la superficie del mar con respecto a la orilla. Causadas por los complejos movimientos de la Luna alrededor de la Tierra y de la Tierra alrededor del Sol, las mareas también están influidas por la geografía de la costa y del suelo marino. Las mareas mezclan las aguas de los océanos, limpiándolas de contaminación y aportando oxígeno y nutrientes a la vida marina. En la mayoría de las zonas costeras, la marea sube y baja dos veces al día. Sin embargo, existen zonas en las que lo hace una sola vez y otras, como los mares cerrados como el Mediterráneo, que casi no tienen mareas.",
+  "facts": [
+    {
+      "label": "Ciclo diario",
+      "value": "En la mayoría de las zonas costeras, la marea sube y baja dos veces al día."
+    },
+    {
+      "label": "Récord mundial",
+      "value": "La bahía de Fundy, al este de Canadá, tiene las mareas de mayor alcance del planeta: hasta 15 m."
+    },
+    {
+      "label": "Ola de marea",
+      "value": "Las olas o frentes de marea del río Fuch'un, al este de China, llegaban a alcanzar hasta 8 m de altura."
+    },
+    {
+      "label": "Mareas vivas",
+      "value": "Se producen cuando la Luna y el Sol están alineados con la Tierra, combinándose sus fuerzas gravitatorias."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "El Mediterráneo, al ser un mar cerrado, casi no tiene mareas."
+    }
+  ],
+  "topics": [
+    {
+      "id": "how-tides-work",
+      "title": "El funcionamiento de las mareas",
+      "image": "assets/es/tide/TIDE01PU.webp",
+      "text": "Las mareas se producen por la atracción gravitatoria de la Luna y, hasta cierto punto, del Sol. La gravedad lunar atrae la superficie del océano directamente desde la Luna, mientras que, al otro lado de la Tierra, se produce un fenómeno similar de abultamiento, debido a la fuerza centrífuga, que impide que la Tierra y la Luna choquen. Las mareas más fuertes, conocidas como mareas vivas, se producen cuando la Luna y el Sol están alineados con la Tierra, combinándose sus fuerzas gravitatorias. Las mareas más suaves, o mareas muertas, se producen cuando el Sol está en ángulo recto respecto a la Luna.",
+      "narration": "assets/es/tide/TIDE01JN.mp3"
+    },
+    {
+      "id": "high-and-low",
+      "title": "Alta y baja",
+      "image": "assets/es/tide/TIDE02PU.webp",
+      "text": "¿Por qué sólo se producen cambios drásticos de marea en determinadas zonas del planeta? Las mayores diferencias de marea, o del nivel de la misma, suceden en lugares donde las aguas suben hasta el borde de las bahías estrechas. El récord mundial: La bahía de Fundy, al este de Canadá, tiene las mareas de mayor alcance del planeta: hasta 15 m.",
+      "captions": [
+        {
+          "label": "Marea baja",
+          "text": "islas Five, bahía de Fundy, Nueva Escocia"
+        },
+        {
+          "label": "Marea alta",
+          "text": "islas Five, bahía de Fundy, Nueva Escocia"
+        }
+      ],
+      "narration": "assets/es/tide/TIDE02JN.mp3"
+    },
+    {
+      "id": "how-boring",
+      "title": "¡Cómo me aburro!",
+      "image": "assets/es/tide/TIDE03PU.webp",
+      "text": "Al contrario, ¡contemplar las olas del mar es asombroso! Una ola de marea, que sólo puede producirse en zonas con mareas de amplio espectro, es una turbulenta pared de agua forzada a rebasar el angosto canal de un río o una bahía por una fuerte marea entrante. Las olas o frentes de marea del río Fuch'un, al este de China, llegaban a alcanzar hasta 8 m de altura, cobrando muchas vidas. Sin embargo, los avezados capitanes ponían su barco a cubierto tras una barrera cuando se acercaba una de estas olas; después sacaban el barco y iban tras ella, dejando que la fuerte succión de la ola lo arrastrase río arriba.",
+      "captions": [
+        {
+          "label": "Ola de marea",
+          "text": "en el puerto de Minas, Nueva Escocia, Canadá"
+        }
+      ],
+      "narration": "assets/es/tide/TIDE03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Tough Choices"
+    },
+    {
+      "label": "Las corrientes",
+      "to": "curr"
+    },
+    {
+      "label": "El litoral",
+      "to": "shor"
+    },
+    {
+      "label": "El ciclo del agua",
+      "to": "wcyc"
+    },
+    {
+      "label": "Jellyfish & Men of War"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/tide/TIDE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "La vida en la zona intermareal",
+            "to": "video",
+            "x": 27,
+            "y": 43,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "El funcionamiento de las mareas",
+            "to": "how-tides-work",
+            "x": 55,
+            "y": 51,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Alta y baja",
+            "to": "high-and-low",
+            "x": 2,
+            "y": 76,
+            "w": 17,
+            "h": 6
+          },
+          {
+            "label": "¡Cómo me aburro!",
+            "to": "how-boring",
+            "x": 55,
+            "y": 76,
+            "w": 18,
+            "h": 6
+          }
+        ]
+      },
+      "how-tides-work": {
+        "image": "assets/es/tide/TIDE01PU.webp",
+        "back": "main"
+      },
+      "high-and-low": {
+        "image": "assets/es/tide/TIDE02PU.webp",
+        "back": "main"
+      },
+      "how-boring": {
+        "image": "assets/es/tide/TIDE03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/tide/clip.mp4",
+        "poster": "assets/es/tide/TIDE04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/tide/TIDE00JN.mp3",
+  "sound": "assets/es/tide/TIDE00IX.mp3",
+  "video": {
+    "title": "La vida en la zona intermareal",
+    "src": "assets/es/tide/clip.mp4",
+    "poster": "assets/es/tide/poster.webp",
+    "caption": "Erizos de mar en una charca de marea",
+    "narration": "assets/es/tide/TIDE04JN.mp3"
+  }
+}

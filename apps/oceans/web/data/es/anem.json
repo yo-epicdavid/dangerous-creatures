@@ -1,0 +1,206 @@
+{
+  "id": "anem",
+  "code": "ANEM",
+  "name": "Las anémonas",
+  "category": "creature",
+  "scientificName": "Radianthus ritteri",
+  "needsScientificVerify": false,
+  "tagline": "¡Parecen flores relucientes, pero sus tentáculos son trampas mortales!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Arrecife de coral"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/anem/ANEM00AA.webp",
+    "alt": "Las anémonas"
+  },
+  "intro": "Aunque parecen flores relucientes bajo el agua, están recubiertas de tentáculos urticantes en lugar de pétalos suaves. En el centro de sus \"flores\" hay enormes bocas. No son extrañas flores de otro planeta: son animales que viven aquí en la Tierra. ¡Son las anémonas de mar!",
+  "facts": [
+    {
+      "label": "Grupo",
+      "value": "Pertenecen al grupo de los cnidarios, junto con las medusas, los corales y los abanicos de mar."
+    },
+    {
+      "label": "Arma",
+      "value": "Tienen células urticantes llamadas nematocistos que usan para matar a sus presas."
+    },
+    {
+      "label": "Cuerpo",
+      "value": "Sus cuerpos simples están compuestos fundamentalmente de agua."
+    },
+    {
+      "label": "Forma",
+      "value": "Son pólipos con forma de tubo que se fijan a las rocas con sus ventosas inferiores; algunos pueden deslizarse e incluso huir nadando del peligro."
+    },
+    {
+      "label": "Adaptación",
+      "value": "Fuera del agua retraen sus tentáculos y se convierten en botones «aterciopelados» sobre las rocas; cuando sube la marea los extienden para filtrar partículas alimenticias."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "El cangrejo de porcelana manchado vive entre los tentáculos urticantes de la anémona y filtra plancton del agua con unos «brazos» especiales llamados maxilípedos."
+    }
+  ],
+  "topics": [
+    {
+      "id": "the-cnidarian-group",
+      "title": "El grupo de los cnidarios",
+      "image": "assets/es/anem/ANEM01PU.webp",
+      "text": "Las anémonas pertenecen al grupo de los cnidarios. Este grupo comprende las medusas, los corales y los abanicos de mar. ¿Qué tienen en común todos estos seres? Sus cuerpos simples están compuestos fundamentalmente de agua y todos ellos tienen células urticantes, llamadas nematocistos, que usan para matar a sus presas. Los cnidarios se dividen en dos formas básicas: la forma de medusa y la de pólipo.\n\nLa forma de pólipo: Las anémonas son pólipos con forma de tubo. Se fijan a las rocas o a los caparazones con sus ventosas inferiores. Pero no todos los pólipos están fijos: ¡algunos pueden deslizarse e incluso huir nadando del peligro!\n\nLa forma de medusa: Esta es una medusa adulta, una forma de cnidario que flota libremente. Pero las medusas pasan parte de su vida como pólipos sedentarios durante el periodo de su desarrollo.\n\nLa forma básica: Todos los cnidarios poseen un cuerpo simple y simétrico, con tentáculos dispuestos alrededor de una boca que se halla en el centro.",
+      "captions": [
+        {
+          "label": "Acalefo dorado",
+          "text": "Chrysaora melanaster"
+        }
+      ],
+      "narration": "assets/es/anem/ANEM01JN.mp3"
+    },
+    {
+      "id": "odd-couples",
+      "title": "Extrañas parejas",
+      "image": "assets/es/anem/ANEM02PU.webp",
+      "text": "Muchas anémonas comen peces pequeños. Entonces, ¿cómo se libran estos peces payaso que viven entre los tentáculos urticantes de la anémona? Algunos científicos creen que el pez payaso está protegido por una capa de mucosidad; otros creen que despide una sustancia química que previene a la anémona para que no lo ataque. En cualquier caso es un buen trato para el pez payaso, ya que está protegido de los predadores y además tiene la oportunidad de robar comida a la anémona. Todavía no está claro cuáles son los beneficios que la anémona obtiene de la relación.",
+      "narration": "assets/es/anem/ANEM02JN.mp3",
+      "captions": [
+        {
+          "label": "Pez payaso",
+          "text": "Amphiprion sp."
+        }
+      ]
+    },
+    {
+      "id": "colorful-cousins",
+      "title": "Primos coloridos",
+      "image": "assets/es/anem/ANEM03PU.webp",
+      "text": "Mira estas anémonas primas. Es fácil ver por qué algunos científicos llaman \"animales florales\" a estas criaturas.\n\nLa pluma de mar: Una pluma de mar no es realmente una sola criatura... ¡Es una colonia entera de pólipos que viven y trabajan juntos! Cada pólipo tiene su propia tarea, ya sea mantener la fijación al suelo del océano o capturar comida para la colonia.\n\nEl coral: Los corales son animales que tienen mucho en común con las anémonas de mar, pero viven en grandes colonias.\n\nNo están realmente relacionados: Estas plantas floridas también se llaman anémonas, pero no están relacionadas con las anémonas de mar. La gente probablemente puso el nombre a estas coloridas criaturas marinas por su parecido con estas flores.",
+      "captions": [
+        {
+          "label": "Pluma de mar",
+          "text": "Ptilosarcus undulatus"
+        },
+        {
+          "label": "Coral cuero",
+          "text": "Sarcophyton trocheliophorum"
+        },
+        {
+          "label": "Anémona azul",
+          "text": "Anemone oregana"
+        }
+      ],
+      "narration": "assets/es/anem/ANEM03JN.mp3"
+    },
+    {
+      "id": "life-on-an-anemone",
+      "title": "La vida sobre una anémona",
+      "image": "assets/es/anem/ANEM04PU.webp",
+      "text": "Aunque las anémonas a veces matan y comen crustáceos, este pequeño cangrejo tiene su hogar entre los tentáculos urticantes de la anémona. Los cangrejos de porcelana manchados se alimentan de plancton, que filtran del agua con unos \"brazos\" periféricos especiales llamados maxilípedos.",
+      "narration": "assets/es/anem/ANEM04JN.mp3",
+      "captions": [
+        {
+          "label": "Cangrejo de porcelana manchado",
+          "text": "Porcellana sayana"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Beach Walk"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/anem/ANEM00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 9,
+            "h": 6
+          },
+          {
+            "label": "La vida sobre una anémona",
+            "to": "life-on-an-anemone",
+            "x": 52,
+            "y": 11,
+            "w": 29,
+            "h": 6
+          },
+          {
+            "label": "Extrañas parejas",
+            "to": "odd-couples",
+            "x": 59,
+            "y": 41,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "El grupo de los cnidarios",
+            "to": "the-cnidarian-group",
+            "x": 24,
+            "y": 53,
+            "w": 30,
+            "h": 6
+          },
+          {
+            "label": "Condiciones cambiantes",
+            "to": "video",
+            "x": 4,
+            "y": 61,
+            "w": 29,
+            "h": 6
+          },
+          {
+            "label": "Primos coloridos",
+            "to": "colorful-cousins",
+            "x": 44,
+            "y": 66,
+            "w": 22,
+            "h": 6
+          }
+        ]
+      },
+      "the-cnidarian-group": {
+        "image": "assets/es/anem/ANEM01PU.webp",
+        "back": "main"
+      },
+      "odd-couples": {
+        "image": "assets/es/anem/ANEM02PU.webp",
+        "back": "main"
+      },
+      "colorful-cousins": {
+        "image": "assets/es/anem/ANEM03PU.webp",
+        "back": "main"
+      },
+      "life-on-an-anemone": {
+        "image": "assets/es/anem/ANEM04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/anem/clip.mp4",
+        "poster": "assets/es/anem/ANEM05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/anem/ANEM00JN.mp3",
+  "sound": "assets/es/anem/ANEM00IX.mp3",
+  "video": {
+    "title": "Condiciones cambiantes",
+    "src": "assets/es/anem/clip.mp4",
+    "poster": "assets/es/anem/poster.webp",
+    "caption": "Las anémonas que viven a lo largo de la costa deben sobrevivir tanto dentro como fuera del agua. Para protegerse cuando están expuestas al aire, las anémonas retiran sus tentáculos, convirtiéndose en una especie de botones «aterciopelados» sobre las rocas. Cuando sube la marea, extienden sus tentáculos para filtrar partículas alimenticias del agua. ¡Son unos seres sorprendentes y adaptables!",
+    "narration": "assets/es/anem/ANEM05JN.mp3"
+  }
+}

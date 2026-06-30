@@ -1,0 +1,187 @@
+{
+  "id": "moss",
+  "code": "MOSS",
+  "name": "Los briozoos",
+  "category": "creature",
+  "scientificName": "Bryozoa spp.",
+  "needsScientificVerify": false,
+  "tagline": "¿Planta o animal? ¡Los briozoos te sorprenderán!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Arrecife de coral",
+    "Bosques de algas y praderas marinas"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/moss/MOSS00AA.webp",
+    "alt": "Los briozoos"
+  },
+  "intro": "Aunque los briozoos pueden parecer plantas, son realmente animales que forman colonias sobre las rocas, la madera, las algas, los cascos de barcos o sobre cualquier superficie dura que se halle bajo el agua. Los miembros de algunas colonias cumplen funciones especializadas. Algunos agitan el agua con unas estructuras diminutas como pelos (cilios), que se hallan en sus tentáculos, atrapando el plancton y otros organismos microscópicos para que la colonia pueda comer. Otros se encargan de tareas como la protección, la limpieza y el cuidado de los embriones en desarrollo. ¡Esto es un verdadero trabajo de equipo!",
+  "facts": [
+    {
+      "label": "Tamaño",
+      "value": "Tan pequeños que necesitarías un microscopio para verlos individualmente"
+    },
+    {
+      "label": "Hábitat",
+      "value": "Forman colonias sobre rocas, madera, algas y cascos de barcos bajo el agua"
+    },
+    {
+      "label": "Alimentación",
+      "value": "Usan cilios en sus tentáculos para atrapar plancton y organismos microscópicos"
+    },
+    {
+      "label": "Construcción",
+      "value": "Construyen hogares comunitarios de carbonato de calcio o de otra materia gelatinosa"
+    },
+    {
+      "label": "Arrecife",
+      "value": "Sus esqueletos de calcio pueden crear un arrecife, de igual modo que hacen los corales"
+    },
+    {
+      "label": "Respiración",
+      "value": "Respiran a través de la superficie blanda de sus tentáculos; no tienen cabeza ni pulmones"
+    }
+  ],
+  "topics": [
+    {
+      "id": "animal-or-plant",
+      "title": "¿Animal o planta?",
+      "image": "assets/es/moss/MOSS01PU.webp",
+      "text": "Algunos briozoos se asemejan extraordinariamente a algunos musgos y hongos terrestres. Pueden parecer un encaje o ser planos, desarrollarse en forma de abanico, ¡o incluso parecer un repollo!\n\nEl animal\nEste briozoo tiene unos tentáculos escondidos entre unas estructuras parecidas a una hoja, que utiliza para filtrar comida del agua. Para reproducirse, la mayoría de los briozoos producen huevos y esperma. Se crían soltando ambos en el agua.\n\nLa planta\nEste organismo es un hongo, que debe absorber sus nutrientes a través de sus raíces, parecidas a pelos. Para su reproducción dispara esporas que se convierten en nuevas plantas.",
+      "captions": [
+        {
+          "label": "Briozoo, Alaska",
+          "text": "Cryptosula pallasiana"
+        },
+        {
+          "label": "Hongo gigante naranja pudriendo una madera",
+          "text": "Olympic National Park, Washington"
+        }
+      ],
+      "narration": "assets/es/moss/MOSS01JN.mp3"
+    },
+    {
+      "id": "nibble-nibble",
+      "title": "Mordisco tras mordisco...",
+      "image": "assets/es/moss/MOSS02PU.webp",
+      "text": "Los animales que están fijos en un lugar difícilmente pueden escapar de los predadores que quieren morderles. Los briozoos pueden retraer los tentáculos, pero el resto de su cuerpo sigue siendo vulnerable al ataque.\n\nUna lengua para tantear\nLa babosa marina (nudibranquio), al igual que las babosas de tierra y los caracoles, tiene una lengua rasposa que utiliza para rascar tejidos vivos de las esponjas, los corales y los briozoos.\n\nUn pico mordedor\nLos loros dentones muerden a los corales y los briozoos con su pico duro, parecido al de un pájaro. Suelen dormir en bolsas de mucosidad que ellos mismos crean. Los científicos no están seguros de por qué lo hacen. Tal vez sea para ocultar su olor de los predadores o tal vez la bolsa sirva como un primer sistema de aviso de que algo se acerca.",
+      "captions": [
+        {
+          "label": "Nudibranquio",
+          "text": "Chromodoris doridacea"
+        },
+        {
+          "label": "Pez loro",
+          "text": "Scarus gibbus"
+        }
+      ],
+      "narration": "assets/es/moss/MOSS02JN.mp3"
+    },
+    {
+      "id": "on-closer-inspection",
+      "title": "Un examen más detenido",
+      "image": "assets/es/moss/MOSS03PU.webp",
+      "text": "Si pudieras observar una colonia de briozoos en el momento de comer, verías a cada animal agitando sus tentáculos en las corrientes. Los briozoos son individualmente muy pequeños, tanto que necesitarías un microscopio para verlos. Pero juntos construyen un hogar comunitario a partir del carbonato de calcio o de otra materia gelatinosa, y cada animal tiene su propia envoltura protectora dentro de la estructura general. Con el tiempo, los esqueletos de calcio de algunos briozoos pueden crear un arrecife, de igual modo que hacen los corales.",
+      "narration": "assets/es/moss/MOSS03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Las anémonas",
+      "to": "anem"
+    },
+    {
+      "label": "Misteriosas relaciones",
+      "to": "myst"
+    },
+    {
+      "label": "Creature Closeups"
+    },
+    {
+      "label": "Sea Urchins & Sea Cucumbers"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/moss/MOSS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 12,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Un examen más detenido",
+            "to": "on-closer-inspection",
+            "x": 54,
+            "y": 6,
+            "w": 36,
+            "h": 7
+          },
+          {
+            "label": "Tentáculos multiuso",
+            "to": "video",
+            "x": 3,
+            "y": 75,
+            "w": 38,
+            "h": 7
+          },
+          {
+            "label": "¿Animal o planta?",
+            "to": "animal-or-plant",
+            "x": 3,
+            "y": 83,
+            "w": 30,
+            "h": 7
+          },
+          {
+            "label": "Mordisco tras mordisco...",
+            "to": "nibble-nibble",
+            "x": 63,
+            "y": 74,
+            "w": 30,
+            "h": 7
+          }
+        ]
+      },
+      "animal-or-plant": {
+        "image": "assets/es/moss/MOSS01PU.webp",
+        "back": "main"
+      },
+      "nibble-nibble": {
+        "image": "assets/es/moss/MOSS02PU.webp",
+        "back": "main"
+      },
+      "on-closer-inspection": {
+        "image": "assets/es/moss/MOSS03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/moss/clip.mp4",
+        "poster": "assets/es/moss/MOSS04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/moss/MOSS00JN.mp3",
+  "sound": "assets/es/moss/MOSS00IX.mp3",
+  "video": {
+    "title": "Tentáculos multiuso",
+    "src": "assets/es/moss/clip.mp4",
+    "poster": "assets/es/moss/poster.webp",
+    "caption": "Un briozoo de encaje despliega y retrae sus tentáculos para alimentarse y respirar bajo el agua.",
+    "narration": "assets/es/moss/MOSS04JN.mp3"
+  }
+}

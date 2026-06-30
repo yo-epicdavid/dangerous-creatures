@@ -1,0 +1,227 @@
+{
+  "id": "barn",
+  "code": "BARN",
+  "name": "Los balanos",
+  "category": "creature",
+  "scientificName": "Pollicipes polymerus",
+  "needsScientificVerify": false,
+  "tagline": "¡Se pegan a todo —barcos, ballenas, cangrejos— y no hay quién se los quite!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Mar abierto"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/barn/BARN00AA.webp",
+    "alt": "Los balanos"
+  },
+  "intro": "Si mencionas los balanos a cualquier marinero, será mejor que te tapes los oídos, ¡o escucharás un montón de palabras malsonantes! Los balanos se adhieren a cualquier cosa que no pueda sacudírselos de encima. Son los causantes de la reducción de la velocidad de las barcas, de que se encasquille el equipo y de la infelicidad de otros animales. Pero no es que los balanos quieran molestar; simplemente intentan sobrevivir, como las demás criaturas.",
+  "facts": [
+    {
+      "label": "Familia",
+      "value": "Los balanos pertenecen a la familia de los crustáceos, igual que los cangrejos y las quisquillas."
+    },
+    {
+      "label": "Cómo comen",
+      "value": "Agitan unas patas especiales llamadas cirros —como peines con dientes finos— para filtrar el plancton y la rocalla del agua."
+    },
+    {
+      "label": "Truco de supervivencia",
+      "value": "Cuando baja la marea, se encierran en sus caparazones y esperan a que vuelvan las olas; cuando vuelven, es hora de comer."
+    },
+    {
+      "label": "Viajeros",
+      "value": "Se adhieren a la aleta de una ballena jorobada y recorren grandes distancias con ella, que probablemente hubiera preferido recorrerla sin compañía."
+    },
+    {
+      "label": "Tamaño sorpresa",
+      "value": "El balano que crece sobre el caparazón de un cangrejo puede llegar a ser tan grande como el propio cangrejo."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Durante siglos, los propietarios de barcos de madera de los muelles portuarios han utilizado el alquitrán, el cobre y las pinturas con pimienta para mantener a los balanos alejados de sus propiedades."
+    }
+  ],
+  "topics": [
+    {
+      "id": "bothersome-barnacles",
+      "title": "Balanos molestos",
+      "image": "assets/es/barn/BARN01PU.webp",
+      "text": "Cualquiera que haya pasado un tiempo cerca del agua salada sabe que los balanos pueden pegarse rápidamente a la madera, cemento, fibra de vidrio, ladrillos, caparazones... ¡o a cualquier cosa! De hecho, el trabajo de algunas personas consiste en eliminarlos o de pensar en la forma de impedir que puedan adherirse.\n\nGusanos taladradores de la madera\nAdemás de los balanos, los propietarios de barcos de madera de los muelles portuarios tienen que preocuparse de los gusanos marinos que taladran la madera. Durante siglos, han utilizado el alquitrán, el cobre y las pinturas con pimienta para mantener a los balanos y a los gusanos alejados de sus propiedades.",
+      "captions": [
+        {
+          "label": "Esta cuerda no tiene arreglo",
+          "text": "Estos balanos han crecido sobre una cuerda de ancla. Los balanos han sido una plaga para los propietarios de barcos desde que se construyó el primero."
+        }
+      ],
+      "narration": "assets/es/barn/BARN01JN.mp3"
+    },
+    {
+      "id": "world-travelers",
+      "title": "Viajeros del mundo",
+      "image": "assets/es/barn/BARN02PU.webp",
+      "text": "Los balanos se adhieren a cualquier clase de animal que se mueva lentamente. Aunque puede no ser agradable para el animal huésped, es un buen trato para los balanos, que extraen alimento del agua al mismo tiempo que son transportados. Cuando están fijos en un lugar tienen que golpear el agua con sus patas especiales, llamadas cirros, para remover su comida.\n\nAdheridos a una aleta\nLos balanos se han adherido a la aleta de esta ballena jorobada. Recorrerán grandes distancias con ella, que probablemente hubiera preferido recorrerla sin compañía.",
+      "captions": [
+        {
+          "label": "Un cangrejo como casa",
+          "text": "Este pobre cangrejo tiene que transportar una pesada carga... ¡el balano que está sobre su caparazón puede ser tan grande como él!"
+        }
+      ],
+      "narration": "assets/es/barn/BARN02JN.mp3"
+    },
+    {
+      "id": "crustacean-cousins",
+      "title": "Primos de los crustáceos",
+      "image": "assets/es/barn/BARN03PU.webp",
+      "text": "Como los balanos adultos tienen caparazones gruesos, parecidos a los de la almeja, tal vez creas que forman parte de la familia de los moluscos. Pero en sus diferentes fases, una cría de balano se parece a una pulga de agua, a una quisquilla y a un cangrejo. De hecho, todos estos animales pertenecen a la familia de los crustáceos.",
+      "captions": [
+        {
+          "label": "Quisquilla",
+          "text": "¿Puedes creer que este balano tiene esta apariencia recién salido del huevo? A medida que el balano crece, desarrolla las patas, hasta que finalmente se asienta en alguna parte y forma un caparazón. Entonces es fácil diferenciarlo a un balano de una quisquilla."
+        },
+        {
+          "label": "Cangrejo",
+          "text": "Cuando las crías de los balanos salen de sus huevos, tienen seis patas, lo mismo que este cangrejo. Pero nunca desarrolla grandes pinzas, como este ejemplar."
+        }
+      ],
+      "narration": "assets/es/barn/BARN03JN.mp3"
+    },
+    {
+      "id": "filter-feeders",
+      "title": "Filtradores",
+      "image": "assets/es/barn/BARN04PU.webp",
+      "text": "Los balanos se mantienen sobre la cabeza y agitan en el agua sus patas especiales, llamadas cirros, con el objeto de remover el plancton y la rocalla para comer. Los cirros son como peines con dientes finos que filtran partículas de alimentos. En el océano no se considera que ésta sea una extraña forma de comer. Muchas clases de animales son filtradores, incluidas algunas ballenas a las que se adhieren los balanos.\n\nLa anémona cazadora\nLas anémonas no sólo comen partículas finas, sino también casi todo animal que caiga en sus tentáculos. Las anémonas paralizan a sus presas con células urticantes.",
+      "captions": [
+        {
+          "label": "Empenachado",
+          "text": "El gusano empenachado puede extender sus ligeros tentáculos para alimentarse, o replegarlos en su tubo para protegerse."
+        },
+        {
+          "label": "Parte del menú",
+          "text": "Esto es lo que los filtradores están esperando: ¡plancton! El plancton no es una especie de animal; es un grupo de minúsculas plantas y animales que flotan libremente en el mar. Cuando los balanos son crías, también forman parte del plancton."
+        }
+      ],
+      "narration": "assets/es/barn/BARN04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "El plancton",
+      "to": "plan"
+    },
+    {
+      "label": "Las anémonas",
+      "to": "anem"
+    },
+    {
+      "label": "El pez cofre",
+      "to": "boxy"
+    },
+    {
+      "label": "Las langostas",
+      "to": "lobs"
+    },
+    {
+      "label": "Las iguanas marinas",
+      "to": "igua"
+    },
+    {
+      "label": "Las olas",
+      "to": "wave"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/barn/BARN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 5,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Fuera y dentro",
+            "to": "video",
+            "x": 6,
+            "y": 39,
+            "w": 16,
+            "h": 7
+          },
+          {
+            "label": "Balanos molestos",
+            "to": "bothersome-barnacles",
+            "x": 26,
+            "y": 47,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "Primos de los crustáceos",
+            "to": "crustacean-cousins",
+            "x": 62,
+            "y": 26,
+            "w": 25,
+            "h": 6
+          },
+          {
+            "label": "Viajeros del mundo",
+            "to": "world-travelers",
+            "x": 61,
+            "y": 67,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Filtradores",
+            "to": "filter-feeders",
+            "x": 61,
+            "y": 75,
+            "w": 19,
+            "h": 6
+          }
+        ]
+      },
+      "bothersome-barnacles": {
+        "image": "assets/es/barn/BARN01PU.webp",
+        "back": "main"
+      },
+      "world-travelers": {
+        "image": "assets/es/barn/BARN02PU.webp",
+        "back": "main"
+      },
+      "crustacean-cousins": {
+        "image": "assets/es/barn/BARN03PU.webp",
+        "back": "main"
+      },
+      "filter-feeders": {
+        "image": "assets/es/barn/BARN04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/barn/clip.mp4",
+        "poster": "assets/es/barn/BARN05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/barn/BARN00JN.mp3",
+  "sound": "assets/es/barn/BARN00IX.mp3",
+  "video": {
+    "title": "Fuera y dentro",
+    "src": "assets/es/barn/clip.mp4",
+    "poster": "assets/es/barn/poster.webp",
+    "caption": "Los balanos son seres muy adaptables. ¿Que baja la marea? ¡Ningún problema! Se encierran en sus caparazones y esperan a que vuelvan las olas. ¿Que vuelve la marea? ¡Estupendo! Para el balano, el agua sobre la cabeza significa comer: el momento de filtrar las corrientes en busca de comida. Si un predador nada cerca, los balanos se retiran al interior de sus caparazones y los cierran para protegerse.",
+    "narration": "assets/es/barn/BARN05JN.mp3"
+  }
+}

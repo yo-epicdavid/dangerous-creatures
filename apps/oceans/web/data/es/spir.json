@@ -1,0 +1,288 @@
+{
+  "id": "spir",
+  "code": "SPIR",
+  "name": "Los caracoles marinos",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Construyen sus casas en espiral usando sólo el agua del mar!",
+  "zones": [
+    "Arrecife de coral",
+    "Mar abierto",
+    "Mar profundo"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/spir/SPIR00AA.webp",
+    "alt": "Los caracoles marinos"
+  },
+  "intro": "Si alguien te pide que fabriques un caparazón usando sólo agua del mar, no sabrás cómo empezar, ¿verdad? Y, sin embargo, muchos de los más simples seres marinos lo hacen de esta manera. Y no necesitan aprender, ya que les guía el instinto. Las dos hermosas caracolas que ves aquí tienen que admirarse mutuamente por su artesanía: están en el proceso de apareamiento.",
+  "facts": [
+    {
+      "label": "Tamaño",
+      "value": "La caracola gigante alcanza una longitud media de 45,5 cm."
+    },
+    {
+      "label": "Veneno",
+      "value": "Los conos están provistos de dardos que pueden perforar la piel, inyectando un fuerte veneno. Si un buzo agarra a uno de estos animales, el resultado podría ser la muerte del buzo."
+    },
+    {
+      "label": "Origen",
+      "value": "El nautilo moderno es descendiente de antiguos animales llamados ammonites, que abundaban en los mares incluso antes de la aparición de los dinosaurios."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "El nautilo no es un caracol, sino un cefalópodo emparentado con el pulpo, el calamar y la sepia."
+    },
+    {
+      "label": "Caparazón",
+      "value": "La spirula es un caparazón en espiral que sólo puede hallarse en el interior de un calamar de altura; este tipo de caparazón «interno» es único."
+    },
+    {
+      "label": "Coleccionismo",
+      "value": "Los caparazones de caurí se cuentan entre los más valorados por el ser humano, pero los cauríes vivos deben valorarlos mucho más."
+    }
+  ],
+  "topics": [
+    {
+      "id": "pretty-deadly",
+      "title": "Pequeñas pero mortíferas",
+      "image": "assets/es/spir/SPIR01PU.webp",
+      "text": "¿Quién iba a pensar que un diminuto ser con caparazón, como éste, podría herir o incluso matar a una persona? Pero es cierto. Los conos están provistos de dardos que pueden perforar la piel, inyectando un fuerte veneno. Los conos utilizan normalmente estas armas para apresar y paralizar a su presa. Pero si un buzo agarra a una de estos bellos animales, el cono usará sus armas como defensa y el resultado podría ser la muerte del buzo. Objeto de coleccionista: La hermosa caracola que deja este animal a su muerte tiene un gran valor en el mercado.",
+      "captions": [
+        {
+          "label": "Cono principesco",
+          "text": "Conus princeps"
+        },
+        {
+          "label": "Cono marmóreo",
+          "text": "Conus marmoreus"
+        },
+        {
+          "label": "Cono geógrafo con animal vivo",
+          "text": "Conus geographus"
+        }
+      ],
+      "narration": "assets/es/spir/SPIR01JN.mp3"
+    },
+    {
+      "id": "underwater-architect",
+      "title": "Arquitectura submarina",
+      "image": "assets/es/spir/SPIR02PU.webp",
+      "text": "¿Cómo se forma una caracola? Si fueras un nautilo, ni siquiera te lo plantearías. Simplemente te pondrías manos a la obra. La historia de una caracola: Cuando el nautilo es pequeño, fabrica una sola cámara. Cuando el espacio le queda pequeño, le añade otra «estancia» de mayor tamaño y se traslada a ella, sellando la cámara. El nautilo construye en espiral, en vez de construir a partir de un plano rectangular como la mayoría de los arquitectos humanos. Comprenderás la razón de que algunas personas lo llamen nautilo «de cámara». ¡No soy un caracol! El nautilo no es un caracol, sino un cefalópodo emparentado con el pulpo, el calamar y la sepia. El nautilo moderno es descendiente de antiguos animales llamados ammonites, que abundaban en los mares incluso antes de la aparición de los dinosaurios.",
+      "captions": [
+        {
+          "label": "Nautilo nacarado",
+          "text": "Nautilus pompilius"
+        },
+        {
+          "label": "Caracola de nautilo nacarado",
+          "text": "Nautilus pompilius"
+        }
+      ],
+      "narration": "assets/es/spir/SPIR02JN.mp3"
+    },
+    {
+      "id": "looks-like-a-shell",
+      "title": "Parece un caparazón...",
+      "image": "assets/es/spir/SPIR03PU.webp",
+      "text": "Estos objetos, que parecen caparazones de caracol, y hasta reciben el nombre de spirulas, no están en el exterior de ningún ser vivo. El único sitio donde podrás hallarlos es en el interior de un calamar de altura. Este tipo de caparazón «interno» es único. Homónimos: Observa el parecido entre la spirula y los cuernos de este carnero.",
+      "captions": [
+        {
+          "label": "Spirulas",
+          "text": "Spirula spirula"
+        },
+        {
+          "label": "Calamar",
+          "text": "Spirula spirula"
+        },
+        {
+          "label": "Muflón canadiense",
+          "text": "Ovis canadensis"
+        }
+      ],
+      "narration": "assets/es/spir/SPIR03JN.mp3"
+    },
+    {
+      "id": "spectacular-spirals",
+      "title": "Espectaculares espirales",
+      "image": "assets/es/spir/SPIR04PU.webp",
+      "text": "Algunos animales de caparazón en espiral alcanzan un tamaño considerable. Aquí tienes a un par de impresionantes ejemplares. Devoradores de estrellas de mar: La caracola gigante es uno de los pocos seres capaces de comerse a la estrella coronada de espinas, una gran predadora del coral. La caracola gigante alcanza una longitud media de 45,5 cm. ¿Qué miras? Si miras fijamente una caracola, lo más probable es que el animal te mire a su vez desde el interior del caparazón. Sí, ¡hasta los moluscos tienen ojos! Las caracolas alcanzan una longitud media de unos 30 cm y son muy apreciadas. Mucha gente come filetes y sopa de caracola; los caparazones se coleccionan por su belleza y se utilizan para hacer cuernos.",
+      "captions": [
+        {
+          "label": "Ojos de caracola",
+          "text": "Charonia tritonis"
+        },
+        {
+          "label": "Caracola gigante, Nueva Guinea",
+          "text": "Charonia tritonis"
+        }
+      ],
+      "narration": "assets/es/spir/SPIR04JN.mp3"
+    },
+    {
+      "id": "colorful-cowries",
+      "title": "Los coloridos cauríes",
+      "image": "assets/es/spir/SPIR05PU.webp",
+      "text": "Si sólo conoces a los cauríes por el caparazón, te sorprenderá saber lo distintos que pueden ser los animales del interior. La parte carnosa del animal, llamada manto, puede tener un aspecto brillante y ocultar por completo el caparazón que hay bajo el cuerpo. Los caparazones de caurí se cuentan entre los más valorados por el ser humano, pero los cauríes vivos deben valorarlos mucho más.",
+      "narration": "assets/es/spir/SPIR05JN.mp3",
+      "captions": [
+        {
+          "label": "Caparazón de caurí mapa",
+          "text": "Cypraea mappa"
+        },
+        {
+          "label": "Caparazón de caurí topo",
+          "text": "Cypraea talpa"
+        },
+        {
+          "label": "Caparazón de caurí ocelado",
+          "text": "Cypraea argus"
+        },
+        {
+          "label": "Caparazón de caurí tortuga",
+          "text": "Cypraea testudinaria"
+        },
+        {
+          "label": "Caurí con animal vivo",
+          "text": "Cypraea sp."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "La babosa marina",
+      "to": "slug"
+    },
+    {
+      "label": "Cocodrilos de agua salada",
+      "to": "croc"
+    },
+    {
+      "label": "Fanworms & Bristleworms"
+    },
+    {
+      "label": "Los impostores",
+      "to": "pret"
+    },
+    {
+      "label": "Almejas, ostras y vieiras",
+      "to": "clam"
+    },
+    {
+      "label": "Minerales del mar",
+      "to": "mine"
+    },
+    {
+      "label": "El pulpo",
+      "to": "octo"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/spir/SPIR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 14,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "Espectaculares espirales",
+            "to": "spectacular-spirals",
+            "x": 62,
+            "y": 13,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Pequeñas pero mortíferas",
+            "to": "pretty-deadly",
+            "x": 29,
+            "y": 42,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Parece un caparazón...",
+            "to": "looks-like-a-shell",
+            "x": 58,
+            "y": 65,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Arquitectura submarina",
+            "to": "underwater-architect",
+            "x": 56,
+            "y": 72,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Los coleccionistas",
+            "to": "video",
+            "x": 3,
+            "y": 85,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Los coloridos cauríes",
+            "to": "colorful-cowries",
+            "x": 31,
+            "y": 85,
+            "w": 18,
+            "h": 6
+          }
+        ]
+      },
+      "pretty-deadly": {
+        "image": "assets/es/spir/SPIR01PU.webp",
+        "back": "main"
+      },
+      "underwater-architect": {
+        "image": "assets/es/spir/SPIR02PU.webp",
+        "back": "main"
+      },
+      "looks-like-a-shell": {
+        "image": "assets/es/spir/SPIR03PU.webp",
+        "back": "main"
+      },
+      "spectacular-spirals": {
+        "image": "assets/es/spir/SPIR04PU.webp",
+        "back": "main"
+      },
+      "colorful-cowries": {
+        "image": "assets/es/spir/SPIR05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/spir/clip.mp4",
+        "poster": "assets/es/spir/SPIR06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/spir/SPIR00JN.mp3",
+  "sound": "assets/es/spir/SPIR00IX.mp3",
+  "video": {
+    "title": "Los coleccionistas",
+    "src": "assets/es/spir/clip.mp4",
+    "poster": "assets/es/spir/poster.webp",
+    "caption": "Todos los años, el ser humano mata muchos moluscos por su caparazón. En la mayoría de los casos, no sabemos si los caparazones en venta proceden de animales vivos o de la playa. La única forma de asegurarte de no estar promoviendo la matanza de seres vivos es recoger tus propias caracolas en la playa. Además, ¡es mucho más divertido que comprarlas en las tiendas!",
+    "narration": "assets/es/spir/SPIR06JN.mp3"
+  }
+}

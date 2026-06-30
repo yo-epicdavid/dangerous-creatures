@@ -1,0 +1,181 @@
+{
+  "id": "chin",
+  "code": "CHIN",
+  "name": "Los exploradores chinos",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Antes que nadie, los chinos navegaron hasta el fin del mundo!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Mar abierto"
+  ],
+  "oceans": [
+    "Océano Índico",
+    "Océano Pacífico"
+  ],
+  "hero": {
+    "image": "assets/es/chin/CHIN00AA.webp",
+    "alt": "Los exploradores chinos"
+  },
+  "intro": "Los chinos pertenecen a una de las civilizaciones más antiguas del globo y poseen una vasta historia de navegación marítima. Ellos construyeron la variedad más grande de barcos de vela, siendo el junco uno de los barcos más útiles que jamás se hayan construido. Los marinos chinos habían desarrollado la brújula mucho antes que Occidente hubiera encontrado una alternativa para navegar que no fuera guiándose por el sol y las estrellas. Los exploradores y comerciantes chinos cruzaban los océanos Índico y Pacífico, para llegar a otros continentes, mil años antes de la era europea de los Descubrimientos.",
+  "facts": [
+    {
+      "label": "Pioneros del mar",
+      "value": "Los exploradores chinos cruzaban los océanos Índico y Pacífico mil años antes de la era europea de los Descubrimientos."
+    },
+    {
+      "label": "La brújula",
+      "value": "Los marinos chinos desarrollaron la brújula mucho antes que Occidente encontrara una alternativa para navegar que no fuera guiándose por el sol y las estrellas."
+    },
+    {
+      "label": "Comercio antiguo",
+      "value": "Los chinos comerciaban seda con el Imperio romano ya en el año 74 d. de C."
+    },
+    {
+      "label": "Siete expediciones",
+      "value": "El almirante Cheng Ho realizó siete expediciones entre 1405 y 1433, acompañado por 10.000 hombres."
+    },
+    {
+      "label": "Distancia recorrida",
+      "value": "Cheng Ho visitó 30 países y recorrió más de 120.000 km."
+    },
+    {
+      "label": "Porcelana",
+      "value": "La porcelana, cerámica translúcida blanca, fue inventada por los chinos; por eso se la llama «porcelana china» en todo el mundo."
+    }
+  ],
+  "topics": [
+    {
+      "id": "trade-tycoons",
+      "title": "Magnates del comercio",
+      "image": "assets/es/chin/CHIN01PU.webp",
+      "text": "En primer lugar, los chinos eran activos comerciantes y, en segundo, exploradores. Comerciaban seda con el Imperio romano ya en el año 74 d. de C.; intercambiaron especias y plata por pieles y marfil en Constantinopla y Bagdad desde el año 500 al año 1100; establecieron un comercio activo con los venecianos en el 1200; y en el 1500 empezaron a comerciar con los portugueses.\n\nPorcelana china\nLa porcelana, un tipo de cerámica translúcida blanca, fue inventada por los chinos. Esta es la razón por la que a veces la llamamos «porcelana china», con independencia de dónde haya sido fabricada.\n\nSiete sagas\nEl gran almirante Cheng Ho llevó a cabo siete expediciones, entre los años 1405 y 1433, para comerciar y establecer influencias en la región del océano Índico. Acompañado por 10.000 hombres, ¡visitó 30 países y recorrió más de 120.000 km!",
+      "captions": [
+        {
+          "label": "Bandeja del siglo XVIII de la dinastía Ching",
+          "text": "Bandeja del siglo XVIII de la dinastía Ching"
+        },
+        {
+          "label": "Rutas comerciales chinas",
+          "text": "Rutas comerciales chinas"
+        }
+      ],
+      "narration": "assets/es/chin/CHIN01JN.mp3"
+    },
+    {
+      "id": "bringing-it-home",
+      "title": "Llevárselo a casa",
+      "image": "assets/es/chin/CHIN02PU.webp",
+      "text": "Los comerciantes chinos cambiaban sus productos en muchas naciones por tesoros exóticos como éstos.\n\nDe África\nLos antiguos comerciantes chinos importaron de África cuernos de rinoceronte y colmillos de marfil de elefante. Muchas partes de los animales, como los cuernos de los rinocerontes y los huesos de los tigres, todavía se utilizan en las medicinas asiáticas, lo que resulta problemático: estos animales están ahora en peligro de extinción y comerciar con partes de su cuerpo es ilegal en la mayoría de los países.\n\nDe la India\nLos comerciantes chinos regresaban con plumas de pavo real y perlas de la India.",
+      "captions": [
+        {
+          "label": "Plumas de pavo real",
+          "text": "Plumas de pavo real"
+        },
+        {
+          "label": "Collar de perlas",
+          "text": "Collar de perlas"
+        },
+        {
+          "label": "Cuerno de rinoceronte a escala",
+          "text": "Cuerno de rinoceronte a escala"
+        }
+      ],
+      "narration": "assets/es/chin/CHIN02JN.mp3"
+    },
+    {
+      "id": "fish-eyes",
+      "title": "Ojos de pez",
+      "image": "assets/es/chin/CHIN03PU.webp",
+      "text": "El pez es un animal muy importante en la cultura china. Los chinos creen que, como nunca cierra los ojos, está alerta y puede ser útil para advertir de una desgracia.\n\nUn pez muy alerta\n¡Este pez sería un excelente guardián! Estos enormes ojos pertenecen a un pez hacha abisal.\n\nOjos en los barcos\nDesde la Antigüedad, los chinos pintaban ojos de pez en las proas de los juncos como símbolo de buena suerte. En los juncos de pesca los globos oculares se colocan en la parte inferior, como si estuvieran buscando peces.",
+      "narration": "assets/es/chin/CHIN03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Los barcos de vela",
+      "to": "sail"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/chin/CHIN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "Magnates del comercio",
+            "to": "trade-tycoons",
+            "x": 52,
+            "y": 2,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Ciudades flotantes",
+            "to": "video",
+            "x": 71,
+            "y": 26,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "Ojos de pez",
+            "to": "fish-eyes",
+            "x": 2,
+            "y": 79,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Llevárselo a casa",
+            "to": "bringing-it-home",
+            "x": 2,
+            "y": 87,
+            "w": 24,
+            "h": 6
+          }
+        ]
+      },
+      "trade-tycoons": {
+        "image": "assets/es/chin/CHIN01PU.webp",
+        "back": "main"
+      },
+      "bringing-it-home": {
+        "image": "assets/es/chin/CHIN02PU.webp",
+        "back": "main"
+      },
+      "fish-eyes": {
+        "image": "assets/es/chin/CHIN03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/chin/clip.mp4",
+        "poster": "assets/es/chin/CHIN04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/chin/CHIN00JN.mp3",
+  "sound": "assets/es/chin/CHIN00IX.mp3",
+  "video": {
+    "title": "Ciudades flotantes",
+    "src": "assets/es/chin/clip.mp4",
+    "poster": "assets/es/chin/poster.webp",
+    "caption": "En las zonas costeras de toda Asia hay ciudades flotantes hechas de juncos y otras pequeñas embarcaciones unidas entre sí. Familias enteras viven y trabajan en estas comunidades, que tienen sus propias escuelas, clínicas y tiendas. Los residentes son principalmente pescadores y comerciantes.",
+    "narration": "assets/es/chin/CHIN04JN.mp3"
+  }
+}

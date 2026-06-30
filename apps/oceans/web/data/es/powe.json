@@ -1,0 +1,234 @@
+{
+  "id": "powe",
+  "code": "POWE",
+  "name": "Los barcos propulsados",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "De un tronco flotante a los gigantes del mar: ¡la historia de cómo los humanos conquistaron los océanos!",
+  "zones": [
+    "Mar abierto",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/powe/POWE00AA.webp",
+    "alt": "Los barcos propulsados"
+  },
+  "intro": "Los seres humanos no siempre han sabido nadar. Es una habilidad aprendida, que no nace con la persona. En la prehistoria era más fácil saltar a un tronco flotante que arriesgarse a nadar con la corriente. Los primeros ejemplos de barcos propulsados fueron troncos que la gente dirigía con la mano o con un palo. El ser humano ha recorrido un largo trecho desde esas simples canoas hasta llegar a los buques de carga, los aerodeslizadores y las motos acuáticas de la actualidad.",
+  "facts": [
+    {
+      "label": "Eslora máxima",
+      "value": "Los superpetroleros pueden medir más de 457 m de eslora."
+    },
+    {
+      "label": "Potencia",
+      "value": "Los motores de los grandes buques son mil veces más potentes que el de un automóvil."
+    },
+    {
+      "label": "Temperatura",
+      "value": "El gas líquido de los superpetroleros debe enfriarse a -163 °C para mantenerse líquido."
+    },
+    {
+      "label": "Velocidad récord",
+      "value": "Los hidroplanos pueden alcanzar hasta 354 km por hora."
+    },
+    {
+      "label": "Motos acuáticas",
+      "value": "Las motos acuáticas pueden atravesar el agua a hasta 84 km por hora."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "En 1819, al avistar el primer vapor de paletas desde la costa de Irlanda tras cruzar el Atlántico, la gente pensó que estaba en llamas."
+    }
+  ],
+  "topics": [
+    {
+      "id": "people-power",
+      "title": "El ingenio humano",
+      "image": "assets/es/powe/POWE01PU.webp",
+      "text": "Hay dos tipos de barcos que aún se utilizan hoy en día y que son un ejemplo de embarcaciones de remo sencillas y bien diseñadas.",
+      "captions": [
+        {
+          "label": "De fácil manejo",
+          "text": "El kayak de los esquimales, construido con pieles de foca o lona extendidas sobre un armazón hecho con madera de deriva, es fácilmente maniobrable y está bien diseñado para la caza."
+        },
+        {
+          "label": "Silenciosas canoas",
+          "text": "En África, América del Sur, el sur del Pacífico y parte de Asia, se utilizan canoas labradas en troncos para la pesca, el comercio y hasta el contrabando. Su diseño varía muy poco del de las primeras canoas."
+        }
+      ],
+      "narration": "assets/es/powe/POWE01JN.mp3"
+    },
+    {
+      "id": "between-sail-and-power",
+      "title": "Entre la vela y el motor",
+      "image": "assets/es/powe/POWE02PU.webp",
+      "text": "El siglo XIX trajo la transición de la vela al vapor. Durante un tiempo, los barcos fueron una curiosa mezcla de ambas cosas. Los vapores de ruedas de paletas tenían que llevar velas porque los motores no eran fiables. Las chimeneas se situaban en los ángulos para que las chispas no saltasen a las velas. Cuando el primer vapor de paletas fue avistado desde la costa de Irlanda, tras cruzar el Atlántico en 1819, la gente pensó que estaba en llamas. Al mejorar los motores, las velas fueron disminuyendo de tamaño, hasta desaparecer gradualmente con la sustitución de la rueda de paletas por la hélice.",
+      "narration": "assets/es/powe/POWE02JN.mp3"
+    },
+    {
+      "id": "rats-or-riches",
+      "title": "Dinero o ratas",
+      "image": "assets/es/powe/POWE03PU.webp",
+      "text": "Al principio, en los transatlánticos de vapor, los ricos y los pobres viajaban en condiciones muy distintas.",
+      "captions": [
+        {
+          "label": "Viajar en tercera",
+          "text": "A los emigrantes que viajaban a América del Norte a principios de 1900, se les amontonaba bajo cubierta en lo que se conocía como tercera clase. Dormían sobre camastros en compartimentos llenos de basura y ratas. El cólera, la fiebre amarilla, la viruela y la disentería causaban estragos. ¡A veces el ganado iba en el mismo sitio, como carga humana!"
+        },
+        {
+          "label": "Camarotes de lujo",
+          "text": "Las condiciones de los viajeros de primera clase mejoraron con el tiempo, incluyendo recintos con palmeras, piscinas y lujosos restaurantes. Toda persona importante cruzó el Atlántico en los años 20, ¡desde Charlie Chaplin al vaquero de la pantalla, Tom Mix, con su caballo!"
+        }
+      ],
+      "narration": "assets/es/powe/POWE03JN.mp3"
+    },
+    {
+      "id": "sea-giants",
+      "title": "Gigantes marinos",
+      "image": "assets/es/powe/POWE04PU.webp",
+      "text": "Los buques de carga y los superpetroleros a menudo tienen motores mil veces más potentes que el de un automóvil. Esos inmensos barcos pueden medir más de 457 m de eslora y necesitan varios kilómetros para virar o pararse.",
+      "captions": [
+        {
+          "label": "Enormes superpetroleros",
+          "text": "Los superpetroleros transportan petróleo o gas en estado líquido. Para mantenerse líquido, el gas debe enfriarse a -163°C. El tanque está aislado, para que el gas helado no rompa el casco del buque."
+        },
+        {
+          "label": "Pilas de mercancía",
+          "text": "Los buques de carga transportan su mercancía en enormes cajones o contenedores que se trasladan con grúas a los trenes y los camiones del puerto. Un buque de carga completamente cargado es más alto que un edificio de cinco pisos."
+        }
+      ],
+      "narration": "assets/es/powe/POWE04JN.mp3"
+    },
+    {
+      "id": "built-for-speed",
+      "title": "Hechos para correr",
+      "image": "assets/es/powe/POWE05PU.webp",
+      "text": "Hay muchos tipos de lanchas diseñadas para navegar, esquiar y competir.",
+      "captions": [
+        {
+          "label": "Veloces como el rayo",
+          "text": "Los hidroplanos pueden alcanzar una velocidad de hasta 354 km por hora, pero los accidentes son frecuentes y pueden ser mortales. La mayoría de la gente prefiere dejar esa velocidad a los expertos. Si sólo quieres salir al mar y sentir la brisa en el pelo, cualquier otro modelo te servirá."
+        },
+        {
+          "label": "Motociclismo acuático",
+          "text": "Las motos acuáticas son cada vez más populares. Estas máquinas pueden atravesar el agua a una velocidad de hasta 84 km por hora. Cuando vas tan deprisa, tienes que tener cuidado con los esquiadores, barcos, bañistas y demás peligros potenciales. También debes ser un nadador resistente. Pero no debes preocuparte por quedarte sin moto al caer: el motor se para automáticamente cuando te caes."
+        }
+      ],
+      "narration": "assets/es/powe/POWE05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Los ejércitos en el mar",
+      "to": "mili"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/powe/POWE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 7,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "Hechos para correr",
+            "to": "built-for-speed",
+            "x": 57,
+            "y": 11,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "El ingenio humano",
+            "to": "people-power",
+            "x": 47,
+            "y": 27,
+            "w": 21,
+            "h": 6
+          },
+          {
+            "label": "Dinero o ratas",
+            "to": "rats-or-riches",
+            "x": 58,
+            "y": 35,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Ciudades en el mar",
+            "to": "video",
+            "x": 10,
+            "y": 71,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Entre la vela y el motor",
+            "to": "between-sail-and-power",
+            "x": 7,
+            "y": 78,
+            "w": 25,
+            "h": 10
+          },
+          {
+            "label": "Gigantes marinos",
+            "to": "sea-giants",
+            "x": 8,
+            "y": 88,
+            "w": 16,
+            "h": 6
+          }
+        ]
+      },
+      "people-power": {
+        "image": "assets/es/powe/POWE01PU.webp",
+        "back": "main"
+      },
+      "between-sail-and-power": {
+        "image": "assets/es/powe/POWE02PU.webp",
+        "back": "main"
+      },
+      "rats-or-riches": {
+        "image": "assets/es/powe/POWE03PU.webp",
+        "back": "main"
+      },
+      "sea-giants": {
+        "image": "assets/es/powe/POWE04PU.webp",
+        "back": "main"
+      },
+      "built-for-speed": {
+        "image": "assets/es/powe/POWE05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/powe/clip.mp4",
+        "poster": "assets/es/powe/POWE06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/powe/POWE00JN.mp3",
+  "sound": "assets/es/powe/POWE00IX.mp3",
+  "video": {
+    "title": "Ciudades en el mar",
+    "src": "assets/es/powe/clip.mp4",
+    "poster": "assets/es/powe/poster.webp",
+    "caption": "Muchos barcos de hoy son tan grandes que ofrecen todas las ventajas de una ciudad pequeña, incluso piscinas, comercios, casinos, instalaciones deportivas y auditorios, además de camarotes y comedores para miles de personas. Los portaaviones no son sólo ciudades en el mar, sino también aeropuertos marítimos equipados con ascensores, hangares para los aviones y pistas de aterrizaje. Las alas de los cazas de combate se doblan, para facilitar la carga a bordo.",
+    "narration": "assets/es/powe/POWE06JN.mp3"
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "id": "colr",
+  "code": "COLR",
+  "name": "Los colores",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "El océano esconde un arcoíris de secretos: cada color es un mensaje.",
+  "zones": [
+    "Arrecife de coral",
+    "Mar abierto",
+    "Mar profundo"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/colr/COLR00AA.webp",
+    "alt": "Los colores"
+  },
+  "intro": "¿Por qué tienen los animales colores diferentes? Algunos intentan llamar la atención para atraer a su pareja. Otros intentan esconderse de los predadores o de las presas. Y también los hay que previenen a los demás para que se mantengan alejados. Los animales oceánicos, lo mismo que los terrestres, son de diferentes colores por distintas razones.",
+  "facts": [
+    {
+      "label": "Color más visible",
+      "value": "El azul brillante es el color más visible en las profundidades del océano."
+    },
+    {
+      "label": "Veneno mortal",
+      "value": "El pulpo de anillos azules tiene una mordedura venenosa que causa la muerte en pocos minutos."
+    },
+    {
+      "label": "Cambio de color",
+      "value": "Los pulpos y las sepias cambian de color expandiendo o contrayendo minúsculas bolsas de pigmento que hay en su piel."
+    },
+    {
+      "label": "Camuflaje bicolor",
+      "value": "El tiburón tiene el lomo oscuro para camuflarse visto desde arriba y la parte inferior clara para camuflarse visto desde abajo."
+    },
+    {
+      "label": "Transparencia total",
+      "value": "El ctenóforo es completamente transparente para confundirse con el agua que le rodea."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "El pez mariposa esconde su verdadero ojo tras una banda negra y muestra un falso ojo en la cola para despistar a sus depredadores."
+    }
+  ],
+  "topics": [
+    {
+      "id": "disappearing-colors",
+      "title": "Colores que desaparecen",
+      "image": "assets/es/colr/COLR01PU.webp",
+      "text": "Algunos colores, como el amarillo o el naranja brillante, son más visibles a la luz del sol. Sin embargo, bajo la superficie del océano no se aplican las mismas leyes, porque la luz no se refleja de la misma forma que en la superficie terrestre. ¿Habrías adivinado que el azul brillante es el color más visible en las profundidades?",
+      "captions": [
+        {
+          "label": "El azul significa: retrocede",
+          "text": "Los brillantes anillos azules de este pulpo son un aviso. Este pequeño animal tiene una mordedura venenosa que causa la muerte en pocos minutos. Muchos animales marinos de colores brillantes segregan veneno para matar a sus presas."
+        }
+      ],
+      "narration": "assets/es/colr/COLR01JN.mp3"
+    },
+    {
+      "id": "quick-change-artist",
+      "title": "Artistas del transformismo rápido",
+      "image": "assets/es/colr/COLR02PU.webp",
+      "text": "Bastantes animales marinos pueden cambiar de color para manifestar su estado de ánimo o para esconderse de los predadores o de las presas. Los pulpos y las sepias son dos verdaderos maestros: cambian de color expandiendo o contrayendo minúsculas bolsas de pigmento que hay en su piel. ¡Bonito truco! ¿no?",
+      "captions": [
+        {
+          "label": "Preparado para enrojecer",
+          "text": "¡Confundirse con este fondo de corales de un rojo brillante no es un problema para este maestro del disfraz!"
+        },
+        {
+          "label": "El gris y el blanco parecen colores adecuados",
+          "text": "Muchos predadores no podrán ver esta sepia, confundida con la arena moteada."
+        }
+      ],
+      "narration": "assets/es/colr/COLR02JN.mp3"
+    },
+    {
+      "id": "butterflies-of-the-sea",
+      "title": "Las mariposas del mar",
+      "image": "assets/es/colr/COLR03PU.webp",
+      "text": "¿Imaginabas que un paisaje submarino era sólo azul o verde? En este caso mira con detalle todo lo que vive bajo las olas del océano.",
+      "captions": [
+        {
+          "label": "El fabuloso turbelario",
+          "text": "¡Tendrás una visión completamente diferente de los gusanos cuando veas muchos seres como éste nadando en el fondo del océano!"
+        },
+        {
+          "label": "¿Es ésta una babosa marina?",
+          "text": "Sí, las babosas marinas –llamadas también nudibranquios– no poseen colores apagados como las babosas que vemos en tierra. ¿Ves ahora por qué algunos buceadores llaman a estos preciosos moluscos las mariposas del mar?"
+        }
+      ],
+      "narration": "assets/es/colr/COLR03JN.mp3"
+    },
+    {
+      "id": "color-tricks",
+      "title": "Colores engañosos",
+      "image": "assets/es/colr/COLR04PU.webp",
+      "text": "Muchos animales marinos, lo mismo que los animales terrestres, han desarrollado por evolución colores y dibujos que confunden a sus predadores o a sus presas.",
+      "captions": [
+        {
+          "label": "Camuflaje en dos tonos",
+          "text": "Este lomo oscuro del tiburón se confunde con las profundidades del océano cuando se observa desde arriba. Cuando se ve desde abajo, la parte inferior clara del tiburón es difícil de distinguir a contraluz de la superficie. Esta coloración ayuda al tiburón a caer sobre su presa sin ser visto, o a escabullirse de tiburones más grandes."
+        },
+        {
+          "label": "Cubierto totalmente de rayas",
+          "text": "Estos peces rayados, al igual que las cebras de África, confían en que al predador le sea muy difícil distinguir dónde acaba un pez y dónde empieza el otro. Las rayas sirven para camuflar a los animales que se desplazan en grandes grupos o se esconden entre las algas alargadas."
+        }
+      ],
+      "narration": "assets/es/colr/COLR04JN.mp3"
+    },
+    {
+      "id": "nearly-invisible",
+      "title": "Casi invisible",
+      "image": "assets/es/colr/COLR05PU.webp",
+      "text": "La coloración de algunos animales marinos está diseñada para confundirse con el agua que les rodea. Un cazador corto de vista podría seguir hambriento buscando a estos dos animales.",
+      "captions": [
+        {
+          "label": "Un filamento de plata",
+          "text": "La piel plateada y el cuerpo delgado de un pez aguja le ayudan a confundirse con los reflejos del sol en el agua."
+        },
+        {
+          "label": "Totalmente transparente",
+          "text": "Si realmente quieres confundirte con tu entorno la clave puede estar en ser transparente. ¡Puedes ver perfectamente a través de esta medusa!"
+        }
+      ],
+      "narration": "assets/es/colr/COLR05JN.mp3"
+    },
+    {
+      "id": "which-end-is-which",
+      "title": "¿Dónde acaba cada cuál?",
+      "image": "assets/es/colr/COLR06PU.webp",
+      "text": "Cuando se vive en un mundo en el que es fácil ser devorado, atraer a los predadores hacia la cola y no hacia la cabeza es una buena estrategia. Los dibujos de estos peces están diseñados para confundir.",
+      "captions": [
+        {
+          "label": "¿Hay uno o más peces?",
+          "text": "El pez ballesta payaso posee rayas y manchas multicolores. Esto puede hacer que a un predador le sea más difícil ver su contorno y, por lo tanto, reconocerlo como un potencial alimento."
+        },
+        {
+          "label": "Encuentra el ojo",
+          "text": "El verdadero ojo de este pez está escondido tras una banda negra. El dibujo de su falso ojo puede hacerle perder la cola, pero tiene más probabilidades de sobrevivir a un ataque por detrás que por delante."
+        }
+      ],
+      "narration": "assets/es/colr/COLR06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "El calamar y la sepia",
+      "to": "squi"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/colr/COLR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 2,
+            "w": 9,
+            "h": 8
+          },
+          {
+            "label": "Colores que desaparecen",
+            "to": "disappearing-colors",
+            "x": 47,
+            "y": 4,
+            "w": 30,
+            "h": 8
+          },
+          {
+            "label": "Un mundo de color",
+            "to": "video",
+            "x": 59,
+            "y": 27,
+            "w": 25,
+            "h": 8
+          },
+          {
+            "label": "Casi invisible",
+            "to": "nearly-invisible",
+            "x": 57,
+            "y": 39,
+            "w": 27,
+            "h": 8
+          },
+          {
+            "label": "Colores engañosos",
+            "to": "color-tricks",
+            "x": 57,
+            "y": 64,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "Las mariposas del mar",
+            "to": "butterflies-of-the-sea",
+            "x": 5,
+            "y": 67,
+            "w": 34,
+            "h": 7
+          },
+          {
+            "label": "¿Dónde acaba cada cuál?",
+            "to": "which-end-is-which",
+            "x": 5,
+            "y": 76,
+            "w": 32,
+            "h": 7
+          },
+          {
+            "label": "Artistas del transformismo rápido",
+            "to": "quick-change-artist",
+            "x": 5,
+            "y": 87,
+            "w": 30,
+            "h": 7
+          }
+        ]
+      },
+      "disappearing-colors": {
+        "image": "assets/es/colr/COLR01PU.webp",
+        "back": "main"
+      },
+      "quick-change-artist": {
+        "image": "assets/es/colr/COLR02PU.webp",
+        "back": "main"
+      },
+      "butterflies-of-the-sea": {
+        "image": "assets/es/colr/COLR03PU.webp",
+        "back": "main"
+      },
+      "color-tricks": {
+        "image": "assets/es/colr/COLR04PU.webp",
+        "back": "main"
+      },
+      "nearly-invisible": {
+        "image": "assets/es/colr/COLR05PU.webp",
+        "back": "main"
+      },
+      "which-end-is-which": {
+        "image": "assets/es/colr/COLR06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/colr/clip.mp4",
+        "poster": "assets/es/colr/COLR07PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/colr/COLR00JN.mp3",
+  "sound": "assets/es/colr/COLR00IX.mp3",
+  "video": {
+    "title": "Un mundo de color",
+    "src": "assets/es/colr/clip.mp4",
+    "poster": "assets/es/colr/poster.webp",
+    "caption": "En la superficie, el océano suele parecer uniformemente gris, verde o azul. Esto ocurre porque el agua refleja el cielo y éste adquiere colores brillantes sólo al amanecer y a la puesta de sol. Pero lo mismo que en la tierra y bajo el cielo habitan llamativos pájaros y animales coloridos, criaturas de colores brillantes embellecen también el mundo que hay bajo las olas.",
+    "narration": "assets/es/colr/COLR07JN.mp3"
+  }
+}

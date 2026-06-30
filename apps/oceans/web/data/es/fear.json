@@ -1,0 +1,221 @@
+{
+  "id": "fear",
+  "code": "FEAR",
+  "name": "Caras espantosas",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Los peces del océano esconden las caras más asombrosas, terroríficas y sorprendentes del mundo marino!",
+  "zones": [
+    "Arrecife de coral",
+    "Mar abierto",
+    "Mar profundo",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/fear/FEAR00AA.webp",
+    "alt": "Caras espantosas"
+  },
+  "intro": "Los peces tienen una sorprendente variedad de caras y expresiones, que a veces consideramos feas, hermosas, terroríficas, risueñas o tristes. Examina la cara de este pez hacha abisal. Una criatura muy respetada, sin duda, por los demás peces de su especie.",
+  "facts": [
+    {
+      "label": "Olfato",
+      "value": "La raya no respira aire, pero caza por el olfato y su nariz es muy sensible."
+    },
+    {
+      "label": "Arma",
+      "value": "El pez sierra usa su sierra afilada para acuchillar bandadas de peces y después regresa nadando a devorar a las víctimas heridas."
+    },
+    {
+      "label": "Cuerno",
+      "value": "El pez unicornio sólo utiliza su cuerno para impresionar a los de su misma especie."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "La galera se entierra en la arena, espera a sus presas y ataca con una gran pinza que despliega como una navaja; se le ha puesto el apodo de «rompededos»."
+    },
+    {
+      "label": "Piel",
+      "value": "El ñato carece de escamas y tiene una textura de terciopelo."
+    },
+    {
+      "label": "Camuflaje",
+      "value": "El rascacio jorobado es casi del mismo color que lo que le rodea, lo que le permite camuflarse para emboscar a sus presas."
+    }
+  ],
+  "topics": [
+    {
+      "id": "happy-or-sad",
+      "title": "¿Contento o triste?",
+      "image": "assets/es/fear/FEAR01PU.webp",
+      "text": "La parte inferior de esta raya parece una cara, pero los \"ojos\" son en realidad parte de sus fosas nasales. La raya no respira aire, pero caza por el olfato y su nariz es muy sensible. Los verdaderos ojos de la raya están en la parte superior de su cuerpo plano, así que sólo puede ver el mundo que se encuentra sobre ella. Aquí estás viendo su boca, que es de cuerno y está adaptada para desmenuzar marisco. ¡Las aberturas que se hallan bajo la boca son las branquias, no un elegante collar!",
+      "narration": "assets/es/fear/FEAR01JN.mp3"
+    },
+    {
+      "id": "faces-on-the-floor",
+      "title": "Rostros en el fondo",
+      "image": "assets/es/fear/FEAR02PU.webp",
+      "text": "Algunos peces se esconden en el fondo del océano, ¡y apenas puedes ver su cara!\n\n¡Crac!\n¿Cocodrilo o pez? Es difícil acertar. El chato cocodrilo puede parecer que está en estado de letargo, pero ataca como un relámpago si hay una presa cerca.\n\n¡Guau!\nDe pronto lo ves y de pronto no. Este rascacio jorobado es casi del mismo color que lo que le rodea, lo que le permite camuflarse. Este predador no está descansando, está esperando, inmóvil, a que pase cerca una quisquilla o un pez más pequeño. Entonces, su cara cobrará vida y atacará como un relámpago.",
+      "captions": [
+        {
+          "label": "Chato cocodrilo",
+          "text": "Platycephalus crocodilus"
+        },
+        {
+          "label": "Rascacio jorobado",
+          "text": "Scorpaenopsis gibbosus"
+        }
+      ],
+      "narration": "assets/es/fear/FEAR02JN.mp3"
+    },
+    {
+      "id": "head-weapons",
+      "title": "Cabezas armadas",
+      "image": "assets/es/fear/FEAR03PU.webp",
+      "text": "Algunos peces tienen verdaderas armas en la cabeza. ¡Otros sólo parece que las tienen!\n\n¡En guardia!\n¡Podrías tomar lecciones de esgrima de este animal! El pez sierra –miembro de la familia de la raya– tiene una sierra afilada que utiliza para acuchillar bandadas de peces. Después regresa nadando y devora a las víctimas heridas.\n\n¡Vaya cuerno!\nPor otra parte, ¡el pez unicornio sólo utiliza su cuerno para impresionar a los de su misma especie!",
+      "captions": [
+        {
+          "label": "Pez sierra",
+          "text": "Pristis pectinata"
+        },
+        {
+          "label": "Pez unicornio",
+          "text": "Naso unicornis"
+        }
+      ],
+      "narration": "assets/es/fear/FEAR03JN.mp3"
+    },
+    {
+      "id": "bug-eyes",
+      "title": "Ojos de pulga",
+      "image": "assets/es/fear/FEAR04PU.webp",
+      "text": "No es una mantis religiosa que te está mirando, es una galera. Sus ojos son pedúnculos móviles y puede retraerlos cuando se siente amenazada. La galera es un excelente cazador. Se entierra en la arena, espera a sus presas y después echa rápidamente el guante a gusanos y otras pequeñas criaturas marinas con una gran pinza que despliega como una navaja. ¡Esta galera es tan fiera que se le ha puesto el apodo de \"rompededos\"!",
+      "narration": "assets/es/fear/FEAR04JN.mp3",
+      "captions": [
+        {
+          "label": "Galera",
+          "text": "Odontodactylus scyllarus"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Creature Closeups"
+    },
+    {
+      "label": "Timeline of Evolution"
+    },
+    {
+      "label": "El fondo marino",
+      "to": "oflr"
+    },
+    {
+      "label": "El pez sapo",
+      "to": "angl"
+    },
+    {
+      "label": "Almejas, ostras y vieiras",
+      "to": "clam"
+    },
+    {
+      "label": "Las ascidias",
+      "to": "sqrt"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/fear/FEAR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "¿Contento o triste?",
+            "to": "happy-or-sad",
+            "x": 5,
+            "y": 50,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Extraño rostro",
+            "to": "video",
+            "x": 5,
+            "y": 80,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "Cabezas armadas",
+            "to": "head-weapons",
+            "x": 66,
+            "y": 27,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Rostros en el fondo",
+            "to": "faces-on-the-floor",
+            "x": 63,
+            "y": 54,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Ojos de pulga",
+            "to": "bug-eyes",
+            "x": 67,
+            "y": 76,
+            "w": 17,
+            "h": 6
+          }
+        ]
+      },
+      "happy-or-sad": {
+        "image": "assets/es/fear/FEAR01PU.webp",
+        "back": "main"
+      },
+      "faces-on-the-floor": {
+        "image": "assets/es/fear/FEAR02PU.webp",
+        "back": "main"
+      },
+      "head-weapons": {
+        "image": "assets/es/fear/FEAR03PU.webp",
+        "back": "main"
+      },
+      "bug-eyes": {
+        "image": "assets/es/fear/FEAR04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/fear/clip.mp4",
+        "poster": "assets/es/fear/FEAR05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/fear/FEAR00JN.mp3",
+  "sound": "assets/es/fear/FEAR00IX.mp3",
+  "video": {
+    "title": "Extraño rostro",
+    "src": "assets/es/fear/clip.mp4",
+    "poster": "assets/es/fear/poster.webp",
+    "caption": "El ñato (Callorhinchus milii), también llamado pez elefante, muestra su peculiar nariz-trompa mientras nada por los fondos arenosos y fangosos del hemisferio sur.",
+    "narration": "assets/es/fear/FEAR05JN.mp3"
+  }
+}

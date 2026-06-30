@@ -1,0 +1,267 @@
+{
+  "id": "curr",
+  "code": "CURR",
+  "name": "Las corrientes",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡El océano nunca está quieto! Las corrientes mueven calor, vida y hasta patos de plástico por todo el mundo.",
+  "zones": [
+    "Mar abierto",
+    "Costa y charcas de marea",
+    "Mares polares"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/curr/CURR00AA.webp",
+    "alt": "Las corrientes"
+  },
+  "intro": "Los diferentes niveles de agua del océano están continuamente ascendiendo, descendiendo y mezclándose. Esta circulación aporta oxígeno a las profundidades y nutrientes vitalizadores a la superficie. El calor de los océanos tropicales es distribuido por las corrientes a otras partes del globo, suavizando la temperatura y el clima de la tierra. A su vez, los vientos ayudan a mover las corrientes, continuando la compleja interacción entre los océanos y la atmósfera.",
+  "facts": [
+    {
+      "label": "Velocidad",
+      "value": "Los icebergs antárticos derivan a una velocidad media de unos 13 km por día"
+    },
+    {
+      "label": "Efecto Coriolis",
+      "value": "La rotación de la Tierra hace que las corrientes del hemisferio norte formen una espiral en el sentido de las agujas del reloj, y las del sur en sentido contrario"
+    },
+    {
+      "label": "Patos de plástico",
+      "value": "En enero de 1992, unos 29.000 patos y tortugas de plástico caídos al mar en el Pacífico Norte ayudaron a los investigadores a trazar las corrientes oceánicas"
+    },
+    {
+      "label": "Corriente del Golfo",
+      "value": "Benjamín Franklin trazó un mapa de la corriente del Golfo para acortar el tiempo de navegación a vela desde y hasta Inglaterra"
+    },
+    {
+      "label": "Afloramientos",
+      "value": "Las zonas de afloramiento, donde corrientes frías del fondo ascienden a la superficie, suelen ser reservas ricas de pesca"
+    }
+  ],
+  "topics": [
+    {
+      "id": "oceans-in-motion",
+      "title": "Océanos en movimiento",
+      "image": "assets/es/curr/CURR01PU.webp",
+      "text": "Existen muchas corrientes en la superficie de los océanos, algunas cálidas y otras frías, que transportan calor, oxígeno y vida marina.",
+      "captions": [
+        {
+          "label": "Mapa mundial",
+          "text": "Corrientes oceánicas superficiales del mundo"
+        }
+      ],
+      "narration": "assets/es/curr/CURR01JN.mp3"
+    },
+    {
+      "id": "a-sinking-feeling",
+      "title": "Una sensación de que todo se va a pique",
+      "image": "assets/es/curr/CURR03PU.webp",
+      "text": "Las corrientes profundas y superficiales de agua mezclan las aguas de los océanos.\n\nCorrientes de las profundidades\nPor debajo de las corrientes superficiales existe un sistema de corrientes profundas que se mueve más lentamente que las corrientes que están sobre ellas y, a menudo, en direcciones opuestas. Estas corrientes más profundas son causadas por las diferencias de temperatura y salinidad del agua.\n\nEl ascenso y el descenso\nCuando las corrientes emergen a la superficie cerca de los Polos, parte de su agua se hiela. El agua restante se vuelve más fría, más salada y más pesada, hundiéndose hasta el fondo. Después, esta corriente de agua del océano profundo se desliza muy despacio por el fondo del mar hasta volver al Ecuador. De regreso a los trópicos, se calienta lentamente y fluye de nuevo hacia los Polos como una corriente superficial.",
+      "captions": [
+        {
+          "label": "Diagrama",
+          "text": "Principales corrientes profundas de agua"
+        }
+      ],
+      "narration": "assets/es/curr/CURR03JN.mp3"
+    },
+    {
+      "id": "dangerous-drifters",
+      "title": "Objetos peligrosos a la deriva",
+      "image": "assets/es/curr/CURR04PU.webp",
+      "text": "Los icebergs están más afectados por las corrientes que por los vientos, porque la mayor parte de su masa se halla bajo la superficie del agua.\n\nCorrientes vertiginosas\nDespués de desprenderse de la capa de hielo continental, los icebergs antárticos derivan hacia el oeste sobre las corrientes circumpolares a una velocidad media de unos 13 km por día. Si no quedan encallados en alguna bahía, llegan hasta la Zona de Convergencia Antártica, límite norte de la mayoría de los icebergs del sur. Allí las corrientes invierten la dirección de los icebergs medio fundidos y los empujan de oeste a este.\n\nAlgunos atraviesan la línea\nLa mayoría de los icebergs del norte se desprenden de los glaciares de Groenlandia. Después son empujados por las corrientes hacia el sur hasta las latitudes inferiores, donde se vuelven peligrosos para la navegación del Atlántico Norte.",
+      "captions": [
+        {
+          "label": "Mapa ártico",
+          "text": "Alcance meridional de los icebergs septentrionales"
+        }
+      ],
+      "narration": "assets/es/curr/CURR04JN.mp3"
+    },
+    {
+      "id": "flotsam-and-jetsam",
+      "title": "Pecios y derrames arrojados por la borda",
+      "image": "assets/es/curr/CURR05PU.webp",
+      "text": "¿Qué sucede con lo que cae por la borda? Depende de la dirección de los vientos y de las corrientes superficiales.\n\nVíctima de la corriente\nEste pájaro cubierto de petróleo murió cuando falló el timón del petrolero Amoco Cádiz, provocando que el petróleo se esparciera por las costas de Francia en 1978.\n\nDistribución mortal\nLas corrientes que van hacia el oeste esparcieron el petróleo derramado por el Exxon Valdez, en 1989, en el estrecho Prince William de Alaska.\n\nFlotadores de juguete\nEn enero de 1992, unos 29.000 patos y tortugas de plástico, así como otros juguetes, se cayeron de un barco carguero durante una tormenta en el Pacífico Norte. Unos 400 de éstos se hallaron en la costa de Alaska, ayudando a los investigadores a trazar los vientos y las corrientes oceánicas, para prever futuros derrames.",
+      "captions": [
+        {
+          "label": "Petróleo en el mar",
+          "text": "Mancha de petróleo del Exxon Valdez, en el estrecho Prince William, Alaska"
+        },
+        {
+          "label": "Rastro de juguetes",
+          "text": "Rastros de patos de plástico del derrame de enero de 1992"
+        }
+      ],
+      "narration": "assets/es/curr/CURR05JN.mp3"
+    },
+    {
+      "id": "take-the-expressway",
+      "title": "Toma la autopista",
+      "image": "assets/es/curr/CURR06PU.webp",
+      "text": "El político americano Benjamín Franklin y su primo, un capitán ballenero de Nantucket, trazaron un mapa de la corriente del Golfo para acortar el tiempo de navegación a vela desde y hasta Inglaterra. El mapa publicado aconsejaba a los capitanes que navegaran dentro de la fuerte corriente superficial cuando se dirigían hacia Europa, pero que la evitasen en su viaje de regreso a América, cuando tenían que navegar contra corriente. Las anguilas y las tortugas migratorias se han servido desde hace tiempo de esta corriente rápida.",
+      "captions": [
+        {
+          "label": "Tortuga boba",
+          "text": "Tortuga boba / Caretta caretta"
+        },
+        {
+          "label": "Mapa Atlántico",
+          "text": "Corriente del Golfo"
+        }
+      ],
+      "narration": "assets/es/curr/CURR06JN.mp3"
+    },
+    {
+      "id": "a-complex-system",
+      "title": "Un sistema complejo",
+      "image": "assets/es/curr/CURR07PU.webp",
+      "text": "Todos los grandes sistemas de corrientes son originados por los vientos. En el océano Pacífico, los vientos arrastran las corrientes de superficie, aunque la dirección de las corrientes de agua es desviada por la rotación de la Tierra. Este fenómeno, llamado efecto Coriolis, hace que las corrientes del hemisferio norte giren hacia la derecha de la dirección del viento y formen una espiral en el sentido de las agujas del reloj, mientras que las corrientes del hemisferio sur giran hacia la izquierda, formando una espiral en el sentido contrario a las agujas del reloj.",
+      "narration": "assets/es/curr/CURR07JN.mp3"
+    },
+    {
+      "id": "rip-tides",
+      "title": "Aguas turbulentas",
+      "image": "assets/es/curr/CURR08PU.webp",
+      "text": "Las aguas turbulentas no son mareas: son corrientes de superficie muy rápidas y estrechas que pueden formarse rápidamente y fluir desde la costa hacia mar abierto. Se forman cuando el agua transportada por las corrientes costeras, que discurren paralelas a la costa, se unen y producen una corriente para devolver el agua sobrante al mar. Si te ves atrapado por aguas turbulentas, ¡no intentes nadar hacia la costa contracorriente! Nada en la dirección de la corriente a lo largo de la costa. Una vez que te hayas liberado de ella, nada de regreso a la costa.",
+      "narration": "assets/es/curr/CURR08JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "El mar Mediterráneo",
+      "to": "medi"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/curr/CURR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 14,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Un sistema complejo",
+            "to": "a-complex-system",
+            "x": 11,
+            "y": 52,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Una sensación de que todo se va a pique",
+            "to": "a-sinking-feeling",
+            "x": 63,
+            "y": 52,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Objetos peligrosos a la deriva",
+            "to": "dangerous-drifters",
+            "x": 3,
+            "y": 63,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Océanos en movimiento",
+            "to": "oceans-in-motion",
+            "x": 62,
+            "y": 63,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Pecios y derrames arrojados por la borda",
+            "to": "flotsam-and-jetsam",
+            "x": 3,
+            "y": 74,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Ríos abundantes en el mar",
+            "to": "video",
+            "x": 53,
+            "y": 74,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Toma la autopista",
+            "to": "take-the-expressway",
+            "x": 17,
+            "y": 86,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Aguas turbulentas",
+            "to": "rip-tides",
+            "x": 52,
+            "y": 87,
+            "w": 12,
+            "h": 5
+          }
+        ]
+      },
+      "oceans-in-motion": {
+        "image": "assets/es/curr/CURR01PU.webp",
+        "back": "main"
+      },
+      "a-sinking-feeling": {
+        "image": "assets/es/curr/CURR03PU.webp",
+        "back": "main"
+      },
+      "dangerous-drifters": {
+        "image": "assets/es/curr/CURR04PU.webp",
+        "back": "main"
+      },
+      "flotsam-and-jetsam": {
+        "image": "assets/es/curr/CURR05PU.webp",
+        "back": "main"
+      },
+      "take-the-expressway": {
+        "image": "assets/es/curr/CURR06PU.webp",
+        "back": "main"
+      },
+      "a-complex-system": {
+        "image": "assets/es/curr/CURR07PU.webp",
+        "back": "main"
+      },
+      "rip-tides": {
+        "image": "assets/es/curr/CURR08PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/curr/clip.mp4",
+        "poster": "assets/es/curr/CURR02PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/curr/CURR00JN.mp3",
+  "sound": "assets/es/curr/CURR00IX.mp3",
+  "video": {
+    "title": "Ríos abundantes en el mar",
+    "src": "assets/es/curr/clip.mp4",
+    "poster": "assets/es/curr/poster.webp",
+    "caption": "Pelícano pardo y pez saltando fuera del agua",
+    "narration": "assets/es/curr/CURR02JN.mp3"
+  }
+}

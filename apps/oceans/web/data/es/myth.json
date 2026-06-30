@@ -1,0 +1,228 @@
+{
+  "id": "myth",
+  "code": "MYTH",
+  "name": "Mitos y leyendas",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "El mar guarda secretos que han fascinado a marineros durante siglos.",
+  "zones": [
+    "Mar abierto"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/myth/MYTH00AA.webp",
+    "alt": "Mitos y leyendas"
+  },
+  "intro": "La inmensidad del mar siempre ha estimulado la mente y el ingenio del ser humano. Cuando se cruza el océano hay infinidad de tiempo para dejar correr la imaginación. Así, durante siglos, el mar ha sido una rica fuente de creencias espirituales y religiosas, cuentos y leyendas, supersticiones, mitos, relatos de sirenas y monstruos y hasta escalofriantes historias sobre fantasmas.",
+  "facts": [
+    {
+      "label": "Pez cinta",
+      "value": "El pez cinta crestado puede medir más de 12 m de largo."
+    },
+    {
+      "label": "Calamar gigante",
+      "value": "Los calamares gigantes llegan a medir hasta 18,3 m de largo."
+    },
+    {
+      "label": "Barco fantasma",
+      "value": "El Fannie E. Wolston recorrió 8.695 millas en tres años sin guía alguno."
+    },
+    {
+      "label": "Avistamientos",
+      "value": "El Fannie E. Wolston fue avistado 46 veces antes de acercarse solo a la costa de Newport, Rhode Island."
+    },
+    {
+      "label": "Sirenas griegas",
+      "value": "Para los griegos, las sirenas eran monstruos mitad mujer y mitad pez que atraían a los navegantes hacia la muerte con su irresistible canto."
+    },
+    {
+      "label": "Tritones vikingos",
+      "value": "Según las leyendas vikingas, los tritones habitaban bajo las aguas y eran responsables de muchas catástrofes en el mar."
+    }
+  ],
+  "topics": [
+    {
+      "id": "siren-songs",
+      "title": "El canto de las sirenas",
+      "image": "assets/es/myth/MYTH01PU.webp",
+      "text": "Las mujeres siempre han desempeñado un papel central en la mitología del mar. Para los griegos, las sirenas eran terribles monstruos, mitad mujer y mitad pez, que atraían a los navegantes hacia una muerte segura con su irresistible canto. En posteriores leyendas, las sirenas pierden la apariencia monstruosa pero mantienen los mortíferos hábitos.",
+      "narration": "assets/es/myth/MYTH01JN.mp3"
+    },
+    {
+      "id": "lively-legends",
+      "title": "Leyendas que siguen vivas",
+      "image": "assets/es/myth/MYTH02PU.webp",
+      "text": "El océano ha inspirado innumerables leyendas: es decir, historias que van pasando de generación en generación. En Las mil y una noches, Simbad el Marino lleva a cabo siete viajes llenos de aventuras, enfrentándose a piratas, caníbales, monstruos y otras increíbles criaturas y personajes. La leyenda de Simbad tiene su origen en la cultura árabe, pero sus aventuras se han publicado en numerosos idiomas en todo el mundo.",
+      "narration": "assets/es/myth/MYTH02JN.mp3",
+      "captions": [
+        {
+          "label": "Simbad y el Viejo del mar",
+          "text": "Simbad y el Viejo del mar"
+        }
+      ]
+    },
+    {
+      "id": "mermaids-and-mermen",
+      "title": "Sirenas y tritones",
+      "image": "assets/es/myth/MYTH03PU.webp",
+      "text": "Navegantes de distintos orígenes contaban que habían visto sirenas: criaturas marinas mitad mujer y mitad pez. Los vikingos no sólo creían en las sirenas, sino también en los tritones. Según sus leyendas, los tritones (un pueblo de feroces criaturas) habitaban bajo las aguas y eran responsables de muchas de las catástrofes que ocurrían en el mar.",
+      "narration": "assets/es/myth/MYTH03JN.mp3"
+    },
+    {
+      "id": "unexplained-disappearances",
+      "title": "Desapariciones inexplicables",
+      "image": "assets/es/myth/MYTH04PU.webp",
+      "text": "Abundan las historias de barcos y tripulaciones desaparecidos. Cuentan que el Fannie E. Wolston recorrió 8.695 millas en tres años sin guía alguno. Fue avistado 46 veces hasta que se aproximó a la costa, en la década de 1750, junto a Newport, en Rhode Island, con un perro y un gato a bordo, la mesa puesta y comida haciéndose en la cocina, pero sin rastro de la tripulación. En 1900, los encargados del faro de una isla deshabitada frente a las costas de Escocia desaparecieron sin dejar huella, a pesar de que habían anotado en su diario que el tiempo había sido tranquilo el día anterior.",
+      "narration": "assets/es/myth/MYTH04JN.mp3"
+    },
+    {
+      "id": "still-out-there",
+      "title": "Aún siguen ahí",
+      "image": "assets/es/myth/MYTH05PU.webp",
+      "text": "Muchos mitos y leyendas están basados en referencias de los antiguos navegantes sobre criaturas reales. Al saberse poco sobre el mundo submarino, el simple hecho de ver un animal de gran tamaño bastaba para que le tomaran por un monstruo.",
+      "captions": [
+        {
+          "label": "Grande pero inofensivo",
+          "text": "La imagen de un pez tan grande y extraño como este pez cinta crestado, que puede medir más de 12 m de largo, probablemente haya suscitado más de una historia sobre monstruos."
+        },
+        {
+          "label": "Monstruos rondando",
+          "text": "Los encuentros con peregrinos han asustado a muchos navegantes. Estos gigantescos filtradores suelen nadar cerca de la superficie, donde abunda el plancton. Los peregrinos chocan a veces con los barcos."
+        }
+      ],
+      "narration": "assets/es/myth/MYTH05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Los manatíes y los dugones",
+      "to": "mana"
+    },
+    {
+      "label": "Arts & Literature of the Sea"
+    },
+    {
+      "label": "Cocodrilos de agua salada",
+      "to": "croc"
+    },
+    {
+      "label": "Desastres marítimos",
+      "to": "disa"
+    },
+    {
+      "label": "El pulpo",
+      "to": "octo"
+    },
+    {
+      "label": "Las estrellas de mar",
+      "to": "star"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/myth/MYTH00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 9,
+            "h": 8
+          },
+          {
+            "label": "Aún siguen ahí",
+            "to": "still-out-there",
+            "x": 28,
+            "y": 17,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Sirenas y tritones",
+            "to": "mermaids-and-mermen",
+            "x": 57,
+            "y": 11,
+            "w": 27,
+            "h": 6
+          },
+          {
+            "label": "Desapariciones inexplicables",
+            "to": "unexplained-disappearances",
+            "x": 54,
+            "y": 27,
+            "w": 30,
+            "h": 6
+          },
+          {
+            "label": "Monstruos de muchos brazos",
+            "to": "video",
+            "x": 57,
+            "y": 82,
+            "w": 26,
+            "h": 7
+          },
+          {
+            "label": "Leyendas que siguen vivas",
+            "to": "lively-legends",
+            "x": 3,
+            "y": 73,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "El canto de las sirenas",
+            "to": "siren-songs",
+            "x": 3,
+            "y": 82,
+            "w": 14,
+            "h": 6
+          }
+        ]
+      },
+      "siren-songs": {
+        "image": "assets/es/myth/MYTH01PU.webp",
+        "back": "main"
+      },
+      "lively-legends": {
+        "image": "assets/es/myth/MYTH02PU.webp",
+        "back": "main"
+      },
+      "mermaids-and-mermen": {
+        "image": "assets/es/myth/MYTH03PU.webp",
+        "back": "main"
+      },
+      "unexplained-disappearances": {
+        "image": "assets/es/myth/MYTH04PU.webp",
+        "back": "main"
+      },
+      "still-out-there": {
+        "image": "assets/es/myth/MYTH05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/myth/clip.mp4",
+        "poster": "assets/es/myth/MYTH06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/myth/MYTH00JN.mp3",
+  "sound": "assets/es/myth/MYTH00IX.mp3",
+  "video": {
+    "title": "Monstruos de muchos brazos",
+    "src": "assets/es/myth/clip.mp4",
+    "poster": "assets/es/myth/poster.webp",
+    "caption": "Muchas culturas distintas han inventado historias de gigantescos monstruos con múltiples brazos que surgen de las profundidades para atrapar a los barcos. Una de esas criaturas es conocida como hidra en la leyenda griega. Este monstruo recibe el nombre de kraken en las leyendas escandinavas. Las historias pueden tener un origen real en relatos exagerados de calamares gigantes, que llegan a medir hasta 18,3 m de largo, aunque nunca se ha demostrado que atacasen un barco.",
+    "narration": "assets/es/myth/MYTH06JN.mp3"
+  }
+}
