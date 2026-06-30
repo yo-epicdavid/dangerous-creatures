@@ -1,0 +1,124 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Topbar from './Topbar.astro';
+import { listEntries, asset, lp } from '../lib/data.js';
+
+const { locale = 'en' } = Astro.props;
+const es = locale === 'es';
+const altHref = es ? '/games' : '/es/games';
+
+// Hide the creature's own name (and simple singular/plural stems) inside its clue. Accent-aware
+// so Spanish names like "Tiburón" are redacted too.
+function redact(name, clue) {
+  let out = clue;
+  for (let w of name.split(/\s+/)) {
+    w = w.replace(/[^A-Za-zÀ-ÿ]/g, '');
+    for (const s of [w, w.replace(/es$/i, ''), w.replace(/s$/i, '')]) {
+      if (s.length >= 4) out = out.replace(new RegExp(s, 'ig'), '•••');
+    }
+  }
+  return out;
+}
+const pool = listEntries(locale)
+  .filter((d) => d.category === 'creature' && d.tagline && d.hero?.image)
+  .map((d) => ({ id: d.id, name: d.name, thumb: asset(d.hero.image), clue: redact(d.name, d.tagline) }));
+
+const STRINGS = {
+  en: { title: 'Sea Riddles', sub: 'Read the clue and guess the sea creature. How long a streak can you make?',
+    score: 'Score: ', streak: '🔥 Streak: ', next: 'Next riddle', allTopics: 'All topics',
+    yes: '✓ Yes — <b>%N%</b>!', was: '✗ It was <b>%N%</b>' },
+  es: { title: 'Adivinanzas del mar', sub: 'Lee la pista y adivina la criatura marina. ¿Qué racha consigues?',
+    score: 'Puntuación: ', streak: '🔥 Racha: ', next: 'Otra adivinanza', allTopics: 'Todos los temas',
+    yes: '✓ ¡Sí, <b>%N%</b>!', was: '✗ Era <b>%N%</b>' },
+};
+const STR = STRINGS[locale] || STRINGS.en;
+---
+<Layout title={`${STR.title} — Microsoft Oceans`} desc={STR.sub} lang={locale} bilingual={true}>
+  <Topbar brandHref={lp(locale, '/')} locale={locale} altHref={altHref}>
+    <a slot="right" class="btn" href={lp(locale, '/')}><span class="arrow" aria-hidden="true">←</span> {STR.allTopics}</a>
+  </Topbar>
+
+  <main id="main-content" class="wrap" tabindex="-1">
+    <div class="game">
+      <h1>{STR.title}</h1>
+      <p class="sub">{STR.sub}</p>
+      <div class="scorebar"><span id="score">{STR.score}0</span><span id="streak">{STR.streak}0</span></div>
+
+      <div class="riddle" id="riddle"></div>
+      <div class="options" id="options"></div>
+
+      <div class="reveal" id="reveal" hidden>
+        <img id="revealImg" alt="" />
+        <p id="revealName"></p>
+        <button class="btn btn--play" id="next">{STR.next} <span class="arrow" aria-hidden="true">→</span></button>
+      </div>
+    </div>
+  </main>
+
+  <audio id="sfxRight" src="/assets/games/right.mp3" preload="auto"></audio>
+  <audio id="sfxWrong" src="/assets/games/wrong.mp3" preload="auto"></audio>
+
+  <script define:vars={{ pool, STR }}>
+    const POOL = pool;
+    const $ = (id) => document.getElementById(id);
+    let score = 0, streak = 0, answered = false, cur = null;
+    const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+
+    function newRound() {
+      answered = false;
+      $('reveal').hidden = true;
+      cur = POOL[Math.floor(Math.random() * POOL.length)];
+      $('riddle').textContent = '“' + cur.clue + '”';
+      const others = shuffle(POOL.filter((p) => p.id !== cur.id)).slice(0, 3);
+      const opts = shuffle([cur, ...others]);
+      const box = $('options');
+      box.innerHTML = '';
+      for (const o of opts) {
+        const b = document.createElement('button');
+        b.className = 'opt';
+        b.textContent = o.name;
+        b.addEventListener('click', () => choose(o, opts));
+        box.append(b);
+      }
+    }
+    function choose(o, opts) {
+      if (answered) return;
+      answered = true;
+      const correct = o.id === cur.id;
+      document.querySelectorAll('.opt').forEach((b, i) => {
+        if (opts[i].id === cur.id) b.classList.add('correct');
+        else if (opts[i].id === o.id) b.classList.add('wrong');
+        b.disabled = true;
+      });
+      const sfx = $(correct ? 'sfxRight' : 'sfxWrong');
+      if (sfx) { sfx.currentTime = 0; sfx.play().catch(() => {}); }
+      if (correct) { score++; streak++; } else { streak = 0; }
+      $('score').textContent = STR.score + score;
+      $('streak').textContent = STR.streak + streak;
+      $('revealImg').src = cur.thumb;
+      $('revealImg').alt = cur.name;
+      $('revealName').innerHTML = (correct ? STR.yes : STR.was).replace('%N%', cur.name);
+      $('reveal').hidden = false;
+    }
+    $('next').addEventListener('click', newRound);
+    newRound();
+  </script>
+</Layout>
+
+<style is:global>
+  .game { max-width: 720px; margin: 14px auto 80px; text-align: center; }
+  .game h1 { font-family: var(--font-display); font-size: clamp(34px, 6vw, 58px); margin: 6px 0 4px; }
+  .game .sub { color: var(--ink-soft); margin: 0 0 16px; }
+  .scorebar { display: flex; justify-content: center; gap: 26px; font-weight: 700; color: var(--gold); margin: 0 0 18px; }
+  .riddle { font-size: clamp(20px, 3.4vw, 28px); line-height: 1.4; background: linear-gradient(180deg, var(--panel), var(--panel-2)); border: 1px solid var(--line); border-radius: var(--radius); padding: 26px 22px; box-shadow: var(--shadow); min-height: 96px; display: flex; align-items: center; justify-content: center; }
+  .options { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 20px 0; }
+  .opt { appearance: none; cursor: pointer; border: 2px solid var(--line); background: var(--panel-2); color: var(--ink); padding: 14px 16px; border-radius: 12px; font: inherit; font-weight: 600; line-height: 1.25; transition: .12s; }
+  .opt:hover:not(:disabled) { border-color: var(--gold); transform: translateY(-2px); }
+  .opt:disabled { cursor: default; opacity: .85; }
+  .opt.correct { background: var(--green); color: #06251c; border-color: transparent; }
+  .opt.wrong { background: var(--rust); color: #fff; border-color: transparent; }
+  .reveal { margin: 8px 0; }
+  .reveal img { width: 100%; max-width: 460px; border-radius: var(--radius); border: 1px solid var(--line); box-shadow: var(--shadow); margin: 0 auto; }
+  .reveal p { font-size: 22px; margin: 12px 0 14px; }
+  @media (max-width: 520px) { .options { grid-template-columns: 1fr; } }
+</style>

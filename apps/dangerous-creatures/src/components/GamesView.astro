@@ -1,0 +1,216 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Topbar from './Topbar.astro';
+import { readJSON, lp } from '../lib/data.js';
+
+const { locale = 'en' } = Astro.props;
+const es = locale === 'es';
+const EYES = readJSON('games_eyes.json', locale);
+const QUIZ = readJSON('quiz.json', locale);
+const loc = es ? '/es' : '';
+const altHref = es ? '/games' : '/es/games';
+
+const STRINGS = {
+  en: {
+    title: 'Games', sub: 'Test your dangerous-creature smarts.',
+    eyesTitle: 'Whose Eyes Are These?', eyesDesc: 'Guess the animal from a close-up of its eyes — the classic challenge, with the original photos.',
+    quizTitle: 'Survival Quiz', quizDesc: 'Ten quick questions on who’s who, how they attack, and where they live. Endlessly replayable.',
+    back: 'Games', allCreatures: 'All creatures', question: 'Question %N% of %T%', score: 'Score: %S%',
+    correct: 'Correct! 🎉', nope: "Nope — it's the %A%.", meetThe: 'Meet the %A% <span class="arrow" aria-hidden="true">→</span>',
+    next: 'Next <span class="arrow" aria-hidden="true">→</span>', seeResults: 'See results', playAgain: 'Play again', otherGames: 'Other games',
+    apex: 'Apex predator! 🦁', notbad: 'Not bad, explorer.', watch: 'Watch your step out there…',
+    whoseEyes: 'Whose eyes are these?', whichCreature: 'Which creature is this?',
+    howAttack: 'How does the <b>%A%</b> mainly attack or defend?', whereFind: 'Where would you find the <b>%A%</b>?',
+  },
+  es: {
+    title: 'Juegos', sub: 'Pon a prueba lo que sabes sobre los animales peligrosos.',
+    eyesTitle: '¿De quién son estos ojos?', eyesDesc: 'Adivina el animal a partir de un primer plano de sus ojos — el desafío clásico, con las fotos originales.',
+    quizTitle: 'Cuestionario de supervivencia', quizDesc: 'Diez preguntas rápidas sobre quién es quién, cómo atacan y dónde viven. Para jugar una y otra vez.',
+    back: 'Juegos', allCreatures: 'Todos los animales', question: 'Pregunta %N% de %T%', score: 'Puntuación: %S%',
+    correct: '¡Correcto! 🎉', nope: 'No — es %A%.', meetThe: 'Conoce a %A% <span class="arrow" aria-hidden="true">→</span>',
+    next: 'Siguiente <span class="arrow" aria-hidden="true">→</span>', seeResults: 'Ver resultados', playAgain: 'Jugar otra vez', otherGames: 'Otros juegos',
+    apex: '¡Superdepredador! 🦁', notbad: 'No está mal, explorador.', watch: 'Ten cuidado ahí fuera…',
+    whoseEyes: '¿De quién son estos ojos?', whichCreature: '¿Qué animal es este?',
+    howAttack: '¿Cómo ataca o se defiende principalmente <b>%A%</b>?', whereFind: '¿Dónde encontrarías a <b>%A%</b>?',
+  },
+};
+const STR = STRINGS[locale] || STRINGS.en;
+---
+<Layout title={`${STR.title} — Dangerous Creatures`} desc={STR.sub} lang={locale} bilingual={true}>
+  <Topbar brandHref={lp(locale, '/')} locale={locale} altHref={altHref}>
+    <a slot="right" class="btn" href={lp(locale, '/')}><span class="arrow" aria-hidden="true">←</span> {STR.allCreatures}</a>
+  </Topbar>
+
+  <main id="main-content" class="wrap" tabindex="-1"><p class="loading">…</p></main>
+  <audio id="sfx-win" src="/assets/games/winner.mp3" preload="auto"></audio>
+  <audio id="sfx-lose" src="/assets/games/loser.mp3" preload="auto"></audio>
+
+  <script define:vars={{ EYES, QUIZ, STR, loc }}>
+    const params = new URLSearchParams(location.search);
+    const game = params.get('game');
+    const ROUNDS = 10;
+    const fmt = (s, v) => s.replace(/%(\w+)%/g, (_, k) => v[k]);
+    const el = (t, p = {}, ...k) => { const n = Object.assign(document.createElement(t), p); for (const c of k) n.append(c); return n; };
+    const app = document.getElementById('main-content');
+    const win = document.getElementById('sfx-win'), lose = document.getElementById('sfx-lose');
+    const asset = (p) => (!p ? p : p.startsWith('/') ? p : '/' + p);
+    const shuffle = (a) => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+    const sample = (arr, n, exclude = []) => shuffle(arr.filter((x) => !exclude.includes(x))).slice(0, n);
+
+    if (game === 'eyes') startEyes();
+    else if (game === 'quiz') startQuiz();
+    else renderMenu();
+
+    function renderMenu() {
+      app.innerHTML = '';
+      const head = el('div', { className: 'games-head' });
+      head.append(el('h1', { textContent: STR.title }), el('p', { textContent: STR.sub }));
+      app.append(head);
+      const menu = el('div', { className: 'game-menu' });
+      menu.append(
+        gameCard('👁️', STR.eyesTitle, STR.eyesDesc, '?game=eyes'),
+        gameCard('🧠', STR.quizTitle, STR.quizDesc, '?game=quiz'),
+      );
+      app.append(menu);
+    }
+    function gameCard(emoji, title, desc, href) {
+      const a = el('a', { className: 'game-card', href });
+      a.append(el('div', { className: 'emoji', textContent: emoji }), el('h2', { textContent: title }), el('p', { textContent: desc }));
+      return a;
+    }
+
+    function runGame(rounds, opts = {}) {
+      let idx = 0, score = 0;
+      function render() {
+        const r = rounds[idx];
+        app.innerHTML = '';
+        const root = el('div', { className: 'game' });
+        app.append(root);
+        root.append(el('a', { className: 'btn', href: loc + '/games', innerHTML: '<span class="arrow" aria-hidden="true">←</span> ' + STR.back }));
+        const bar = el('div', { className: 'scorebar' });
+        bar.append(el('span', { textContent: fmt(STR.question, { N: idx + 1, T: rounds.length }) }), el('span', { className: 'grow' }),
+          el('span', { textContent: fmt(STR.score, { S: score }) }), el('progress', { max: rounds.length, value: idx, ariaLabel: fmt(STR.question, { N: idx + 1, T: rounds.length }) }));
+        root.append(bar);
+        const q = el('div', { className: 'q' });
+        q.append(el('p', { className: 'q__prompt', innerHTML: r.prompt }));
+        if (r.image) { const m = el('div', { className: 'q__media' }); m.append(el('img', { src: r.image, alt: '?' })); q.append(m); }
+        const choices = el('div', { className: 'choices' });
+        for (const c of r.choices) {
+          const b = el('button', { className: 'choice', textContent: c.label });
+          b.addEventListener('click', () => answer(b, c, r, q, choices));
+          choices.append(b);
+        }
+        q.append(choices);
+        root.append(q);
+      }
+      function answer(btn, choice, r, q, choices) {
+        [...choices.children].forEach((b) => { b.disabled = true; if (b.textContent === r.answer) b.classList.add('correct'); });
+        const right = choice.label === r.answer;
+        if (!right) btn.classList.add('wrong');
+        (right ? win : lose).play().catch(() => {});
+        if (right) score++;
+        const rev = el('div', { className: 'reveal', role: 'status' });
+        rev.append(el('div', { className: `verdict ${right ? 'yes' : 'no'}`, textContent: right ? STR.correct : fmt(STR.nope, { A: r.answer }) }));
+        if (r.revealImage) rev.append(el('img', { src: r.revealImage, alt: r.answer }));
+        if (r.revealHTML) rev.append(el('p', { innerHTML: r.revealHTML }));
+        const next = el('button', { className: 'btn btn--play', innerHTML: idx + 1 < rounds.length ? STR.next : STR.seeResults });
+        next.style.marginTop = '16px';
+        next.addEventListener('click', () => { idx++; idx < rounds.length ? render() : end(); });
+        rev.append(el('div', {}, next));
+        q.append(rev);
+      }
+      function end() {
+        app.innerHTML = '';
+        const c = el('div', { className: 'game' });
+        const card = el('div', { className: 'endcard' });
+        const pct = Math.round((score / rounds.length) * 100);
+        const msg = pct >= 80 ? STR.apex : pct >= 50 ? STR.notbad : STR.watch;
+        card.append(el('div', { className: 'big', textContent: `${score}/${rounds.length}` }), el('p', { textContent: msg, style: 'font-size:20px' }));
+        const again = el('button', { className: 'btn btn--play', textContent: STR.playAgain });
+        again.addEventListener('click', opts.restart);
+        const menu = el('a', { className: 'btn', href: loc + '/games', textContent: STR.otherGames });
+        menu.style.marginLeft = '10px';
+        card.append(el('div', { style: 'margin-top:18px' }, again, menu));
+        c.append(card); app.append(c);
+      }
+      render();
+    }
+
+    function startEyes() {
+      const all = EYES.puzzles.map((p) => p.answer);
+      const build = () => shuffle(EYES.puzzles.slice()).slice(0, ROUNDS).map((p) => {
+        const opts = shuffle([p.answer, ...sample(all, 3, [p.answer])]);
+        const link = p.slug ? ` <a href="${loc}/animal/${p.slug}">${fmt(STR.meetThe, { A: p.answer })}</a>` : '';
+        return { prompt: STR.whoseEyes, image: asset(p.clue), answer: p.answer, choices: opts.map((o) => ({ label: o })), revealImage: asset(p.reveal), revealHTML: link };
+      });
+      const go = () => runGame(build(), { restart: go });
+      go();
+    }
+
+    function startQuiz() {
+      const animals = QUIZ.filter((a) => a.name);
+      const ALL_W = [...new Set(animals.flatMap((a) => a.weapons))];
+      const ALL_H = [...new Set(animals.flatMap((a) => a.habitats))];
+      const names = animals.map((a) => a.name);
+      function makeRound() {
+        const a = animals[Math.floor(Math.random() * animals.length)];
+        const types = [];
+        if (a.photo) types.push('id');
+        if (a.weapons.length) types.push('weapon');
+        if (a.habitats.length) types.push('habitat');
+        if (!types.length) return makeRound();
+        const type = types[Math.floor(Math.random() * types.length)];
+        if (type === 'id') {
+          const ans = a.name, opts = shuffle([ans, ...sample(names, 3, [ans])]);
+          return { prompt: STR.whichCreature, image: asset(a.photo), answer: ans, choices: opts.map((o) => ({ label: o })) };
+        }
+        if (type === 'weapon') {
+          const ans = a.weapons[Math.floor(Math.random() * a.weapons.length)];
+          const opts = shuffle([ans, ...sample(ALL_W, 3, a.weapons)]);
+          return { prompt: fmt(STR.howAttack, { A: a.name }), answer: ans, choices: opts.map((o) => ({ label: o })) };
+        }
+        const ans = a.habitats[Math.floor(Math.random() * a.habitats.length)];
+        const opts = shuffle([ans, ...sample(ALL_H, 3, a.habitats)]);
+        return { prompt: fmt(STR.whereFind, { A: a.name }), answer: ans, choices: opts.map((o) => ({ label: o })) };
+      }
+      const build = () => Array.from({ length: ROUNDS }, makeRound);
+      const go = () => runGame(build(), { restart: go });
+      go();
+    }
+  </script>
+</Layout>
+
+<style is:global>
+  /* global because the game UI is built by client JS (scoped styles wouldn't match) */
+  .games-head { text-align: center; padding: 26px 20px 4px; }
+  .games-head h1 { font-family: var(--font-display); font-size: clamp(34px, 6vw, 60px); margin: 0; }
+  .games-head p { color: var(--ink-soft); margin: 8px 0 0; font-size: 18px; }
+  .game-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin: 30px 0 70px; }
+  .game-card { display: block; text-decoration: none; color: var(--ink); background: linear-gradient(180deg, var(--panel), var(--panel-2)); border: 1px solid var(--line); border-radius: var(--radius); padding: 28px 24px; box-shadow: var(--shadow); transition: .15s; }
+  .game-card:hover { border-color: var(--gold); transform: translateY(-3px); }
+  .game-card .emoji { font-size: 44px; }
+  .game-card h2 { font-family: var(--font-display); color: var(--gold); margin: 10px 0 6px; font-size: 28px; }
+  .game-card p { color: var(--ink-soft); margin: 0; }
+  .game { max-width: 720px; margin: 10px auto 70px; }
+  .scorebar { display: flex; align-items: center; gap: 14px; color: var(--ink-soft); font-size: 14px; margin-bottom: 14px; }
+  .scorebar .grow { flex: 1; }
+  .scorebar progress { width: 140px; height: 8px; accent-color: var(--rust); }
+  .q { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 22px; text-align: center; }
+  .q__prompt { font-size: 22px; font-weight: 700; margin: 0 0 16px; }
+  .q__media { max-width: 360px; margin: 0 auto 18px; border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #0c0a08; }
+  .q__media img { width: 100%; display: block; }
+  .choices { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  @media (max-width: 520px) { .choices { grid-template-columns: 1fr; } }
+  .choice { appearance: none; cursor: pointer; font: inherit; font-weight: 600; padding: 14px 16px; border-radius: 12px; border: 1px solid #ffffff22; background: var(--panel-2); color: var(--ink); transition: .12s; }
+  .choice:hover:not(:disabled) { border-color: var(--gold); }
+  .choice.correct { background: #2f6b35; border-color: #7fae52; color: #fff; }
+  .choice.wrong { background: #7a2d22; border-color: var(--rust); color: #fff; }
+  .choice:disabled { cursor: default; opacity: .9; }
+  .reveal { margin-top: 18px; }
+  .reveal img { max-width: 320px; border-radius: 12px; border: 1px solid var(--line); }
+  .reveal .verdict { font-size: 20px; font-weight: 700; margin: 8px 0; }
+  .reveal .verdict.yes { color: var(--green); }
+  .reveal .verdict.no { color: var(--rust); }
+  .endcard { text-align: center; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 40px 24px; box-shadow: var(--shadow); }
+  .endcard .big { font-family: var(--font-display); font-size: 56px; color: var(--gold); }
+</style>
