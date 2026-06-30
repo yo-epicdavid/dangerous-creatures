@@ -13,8 +13,9 @@ const catLabel = CAT_LABEL[d.category] || 'Dinosaur';
 const PERIODS = ['Triassic', 'Jurassic', 'Cretaceous'];
 const periodGroup = PERIODS.find((p) => (d.period || '').toLowerCase().includes(p.toLowerCase()));
 const crosslinks = (d.crosslinks || []).filter((c) => c.to);
+const ogImage = `/assets/${d.id}/og.jpg`;
 ---
-<Layout title={`${d.name} — Microsoft Dinosaurs`} desc={d.tagline}>
+<Layout title={`${d.name} — Microsoft Dinosaurs`} desc={d.tagline} ogImage={ogImage}>
   <Topbar>
     <div slot="center" class="modeswitch" id="modeswitch" role="group" aria-label="View mode">
       <button data-mode="modern" aria-pressed="true">Modern</button>
