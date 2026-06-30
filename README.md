@@ -9,11 +9,18 @@ in progress.
 
 ## The editions
 
-| Edition | Disc | Entries | Live |
-|---|---|---|---|
-| **Dangerous Creatures** | 1994 | 66 animals | https://dangerous-creatures.pages.dev |
-| **Oceans** | 1995 | 93 (sea life, habitats, ocean science, seas & people) | https://oceans-2s9.pages.dev |
-| **Dinosaurs** | 1993 | 166 (69 dinosaurs, 28 prehistoric creatures, 69 concepts) | https://dinosaurs.pages.dev |
+| Edition | Disc | Entries | Languages | Live |
+|---|---|---|---|---|
+| **Dangerous Creatures** | 1994 | 66 animals | EN · ES | https://dangerous-creatures.pages.dev |
+| **Oceans** | 1995 | 93 (sea life, habitats, ocean science, seas & people) | EN · ES | https://oceans-2s9.pages.dev |
+| **Dinosaurs** | 1993 | 166 (69 dinosaurs, 28 prehistoric creatures, 69 concepts) | EN · ES&nbsp;* | https://dinosaurs.pages.dev |
+
+All three are **bilingual** — English at `/`, Castilian Spanish under `/es/`, with an EN·ES switcher.
+Dangerous Creatures and Oceans are **authentic** Spanish editions, liberated from the *real Spanish
+retail discs* («Animales Peligrosos de Microsoft», «Océanos de Microsoft») — Spanish text **and**
+Spanish screens/audio/video. **\* Dinosaurs never shipped in Spanish** (only EN/FR/JA), so its `/es/`
+is a clearly-labeled **AI fan translation** of the English text; the media stays English. Guided
+tours/games/credits/making-of remain English-only in every edition.
 
 Each site has a **Modern** view (liberated text, responsive, accessible) and a **Classic** view
 that rebuilds the original composite screens 1:1 with working clickable hotspots
