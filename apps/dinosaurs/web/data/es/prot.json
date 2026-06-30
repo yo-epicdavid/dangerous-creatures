@@ -1,0 +1,217 @@
+{
+  "id": "prot",
+  "code": "PROT",
+  "name": "Protoceratops",
+  "category": "dinosaur",
+  "scientificName": "Protoceratops",
+  "needsScientificVerify": false,
+  "pronunciation": "pro-toe-SER-a-tops",
+  "meaning": "Primera cara cornuda",
+  "period": "Cretácico superior",
+  "diet": "Herbívoro",
+  "tagline": "La primera cara cornuda: un dinosaurio de pequeño tamaño que eclosionaba en nidos familiares y demostró que los dinosaurios ponían huevos.",
+  "hero": {
+    "image": "assets/prot/PROT00AA.webp",
+    "alt": "Protoceratops"
+  },
+  "intro": "Aunque no tenía cuernos verdaderos, este dinosaurio recibió el nombre de Protoceratops, o «primera cara cornuda», porque se cree que fue uno de los primeros dinosaurios cornudos, llamados ceratópsidos. Se han encontrado fósiles de crías, juveniles y adultos de Protoceratops muy juntos, lo que sugiere que podrían haber vivido en grupos familiares. Esta escena familiar muestra crías de Protoceratops en distintas etapas: algunas eclosionando, otras dando sus primeros pasos y otras luchando por salir de la arena.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Asia"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Primera cara cornuda"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Ceratópsido"
+    },
+    {
+      "label": "Longitud",
+      "value": "1,8 m (6 pies)"
+    },
+    {
+      "label": "Peso",
+      "value": "400 libras"
+    }
+  ],
+  "topics": [
+    {
+      "id": "nest-building-dinosaurs",
+      "title": "Dinosaurios que construían nidos",
+      "image": "assets/prot/PROT01PU.webp",
+      "text": "Los huevos de este nido de arena pertenecían al Protoceratops. Es posible que varias hembras pusieran sus huevos en círculo en el mismo nido. Luego los habrían cubierto con tierra o arena para protegerlos hasta que eclosionaran.",
+      "captions": [
+        {
+          "label": "Variedad de huevos",
+          "text": "Se han encontrado huevos de dinosaurio fosilizados de muchos tamaños. El huevo de dinosaurio más grande medía unos treinta centímetros de largo. Los huevos de Protoceratops medían tan solo unos veinte centímetros de largo."
+        }
+      ]
+    },
+    {
+      "id": "the-smallest-horned-dinosaur",
+      "title": "El dinosaurio cornudo más pequeño",
+      "image": "assets/prot/PROT02PU.webp",
+      "text": "Aquí aparece el Protoceratops junto a algunos de sus parientes cornudos. Como puedes ver, no todos los ceratópsidos eran tan pequeños como el Protoceratops. Todos los ceratópsidos vivieron durante el Cretácico Superior; sin embargo, se considera que el Protoceratops era más primitivo que los parientes posteriores que aparecen aquí.",
+      "captions": [
+        {
+          "label": "Centrosaurus",
+          "text": "Este dinosaurio tenía dos púas que se curvaban hacia delante para proteger las «ventanas» del cráneo del dinosaurio."
+        },
+        {
+          "label": "Protoceratops",
+          "text": "¡Este Protoceratops adulto parece una cría comparado con sus primos cornudos!"
+        },
+        {
+          "label": "Chasmosaurus",
+          "text": "El volante de este dinosaurio se extendía hasta la mitad de su espalda. Cuando el animal bajaba la cabeza, el gran volante habría dado una apariencia impresionante."
+        },
+        {
+          "label": "Styracosaurus",
+          "text": "El nombre de este dinosaurio significa «lagarto con pinchos». Tenía seis largas púas que sobresalían de su volante nucal."
+        }
+      ]
+    },
+    {
+      "id": "different-frills-for-different-ages",
+      "title": "Distintos volantes según la edad",
+      "image": "assets/prot/PROT03PU.webp",
+      "text": "Los ceratópsidos tenían picos ganchudos, dientes finos y afilados, y poderosos músculos mandibulares que les permitían alimentarse de plantas muy duras. A medida que los Protoceratops crecían, la forma de su cráneo cambiaba.",
+      "captions": [
+        {
+          "label": "Cráneos a lo largo del tiempo",
+          "text": "Como se muestra aquí, los adultos tenían crestas nasales más altas y volantes más grandes que los Protoceratops jóvenes. Los volantes servían como punto de anclaje para los poderosos músculos mandibulares de los dinosaurios, además de como protección."
+        }
+      ]
+    },
+    {
+      "id": "a-frilly-face",
+      "title": "Una cara con volante",
+      "image": "assets/prot/PROT04PU.webp",
+      "text": "Los dinosaurios tenían caras muy distintas. Cuando observas al Protoceratops frente a frente con otros dinosaurios, ves la prominencia de su volante y su pico.",
+      "captions": [
+        {
+          "label": "Estegosaurio",
+          "text": "Aunque el cuerpo de este dinosaurio era grande, tenía una cabeza pequeña."
+        },
+        {
+          "label": "Eudimorphodon",
+          "text": "Esta boca llena de dientes pertenecía a un reptil volador, no a un dinosaurio."
+        },
+        {
+          "label": "Euoplocephalus",
+          "text": "La cara de este dinosaurio parece esculpida en piedra."
+        }
+      ]
+    },
+    {
+      "id": "a-hard-egg-to-crack",
+      "title": "Un huevo difícil de romper",
+      "image": "assets/prot/PROT05PU.webp",
+      "text": "Los huevos puestos por el Protoceratops eran más alargados que los de las aves. Descubiertos en Mongolia en la década de 1920, los huevos de Protoceratops fueron la primera prueba de que los dinosaurios ponían huevos en nidos. Las duras cáscaras, con su áspera superficie granulada, protegían un interior líquido en el que la cría se desarrollaba. Las cáscaras tenían diminutos tubos que comunicaban el interior del huevo con el aire exterior, permitiendo que los embriones de dinosaurio respiraran.",
+      "captions": [
+        {
+          "label": "Huevo de codorniz",
+          "text": "Este huevo de codorniz contiene una cría que se convertiría en un pequeño pájaro, mientras que el huevo de Protoceratops contenía una criatura que crecería hasta ser del tamaño de un coche. Los huevos de dinosaurio no podían ser tan grandes como cabría esperar: un huevo gigantesco necesitaría una cáscara tan gruesa que el aire no podría entrar y la cría no podría salir."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Faces from the Past",
+      "to": "ftfb"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/prot/PROT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Una cara con volante",
+            "to": "a-frilly-face",
+            "x": 64,
+            "y": 8,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Distintos volantes según la edad",
+            "to": "different-frills-for-different-ages",
+            "x": 60,
+            "y": 32,
+            "w": 30,
+            "h": 7
+          },
+          {
+            "label": "El dinosaurio cornudo más pequeño",
+            "to": "the-smallest-horned-dinosaur",
+            "x": 64,
+            "y": 48,
+            "w": 25,
+            "h": 7
+          },
+          {
+            "label": "Dinosaurios que construían nidos",
+            "to": "nest-building-dinosaurs",
+            "x": 64,
+            "y": 62,
+            "w": 24,
+            "h": 7
+          },
+          {
+            "label": "Un huevo difícil de romper",
+            "to": "a-hard-egg-to-crack",
+            "x": 28,
+            "y": 83,
+            "w": 20,
+            "h": 7
+          }
+        ]
+      },
+      "nest-building-dinosaurs": {
+        "image": "assets/prot/PROT01PU.webp",
+        "back": "main"
+      },
+      "the-smallest-horned-dinosaur": {
+        "image": "assets/prot/PROT02PU.webp",
+        "back": "main"
+      },
+      "different-frills-for-different-ages": {
+        "image": "assets/prot/PROT03PU.webp",
+        "back": "main"
+      },
+      "a-frilly-face": {
+        "image": "assets/prot/PROT04PU.webp",
+        "back": "main"
+      },
+      "a-hard-egg-to-crack": {
+        "image": "assets/prot/PROT05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/prot/PROT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/prot/PROT00AP.mp3",
+  "narration": "assets/prot/PROT00AJ.mp3",
+  "fanTranslation": true
+}

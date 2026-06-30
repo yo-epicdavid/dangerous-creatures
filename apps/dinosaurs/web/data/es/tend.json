@@ -1,0 +1,169 @@
+{
+  "id": "tend",
+  "code": "TEND",
+  "name": "La Expedición de Tendaguru",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "ten-duh-GOO-roo",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Una de las mayores excavaciones de dinosaurios de la historia desenterró gigantes que sacudieron el mundo prehistórico.",
+  "hero": {
+    "image": "assets/tend/TEND00AA.webp",
+    "alt": "La Expedición de Tendaguru"
+  },
+  "intro": "Una de las mayores excavaciones de dinosaurios de la historia tuvo lugar en África entre 1909 y 1912. En Tendaguru, Tanzania, se recogieron más de 250 toneladas de huesos de dinosaurio. Sacar los huesos de aquel lugar tan remoto fue todo un reto: los trabajadores tuvieron que transportarlos a pie casi cuarenta millas hasta el puerto más cercano, desde donde fueron enviados a Alemania. Se realizaron más de 5.000 viajes desde el yacimiento hasta el puerto, pero el esfuerzo y el gasto merecieron la pena. La expedición sacó a la luz muchos dinosaurios nuevos, entre ellos el Barosaurio, el Kentrosaurio y el gigantesco Braquiosaurio.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Tendaguru, Tanzania"
+    },
+    {
+      "label": "Años",
+      "value": "1909–1912"
+    },
+    {
+      "label": "Huesos recogidos",
+      "value": "Más de 250 toneladas"
+    },
+    {
+      "label": "Viajes al puerto",
+      "value": "Más de 5.000"
+    },
+    {
+      "label": "Distancia al puerto",
+      "value": "Casi cuarenta millas"
+    },
+    {
+      "label": "Dinosaurios hallados",
+      "value": "Barosaurio, Kentrosaurio, Braquiosaurio"
+    }
+  ],
+  "topics": [
+    {
+      "id": "dinosaur-variety-pack",
+      "title": "Gran variedad de dinosaurios",
+      "image": "assets/tend/TEND01PU.webp",
+      "text": "La expedición tanzana sacó a la luz una gran variedad de dinosaurios, sumando emoción a la fiebre de los dinosaurios que se vivía en todo el mundo.",
+      "captions": [
+        {
+          "label": "Braquiosaurio",
+          "text": "El hallazgo más espectacular de la expedición de Tendaguru fue el Braquiosaurio, que resultó ser el dinosaurio más grande encontrado hasta entonces con un esqueleto razonablemente completo."
+        },
+        {
+          "label": "Kentrosaurio",
+          "text": "Este estegosaurio solo se ha encontrado en Tendaguru. Es único entre los estegosaurios por tener pinchos sobre sus patas traseras y a lo largo de su lomo."
+        },
+        {
+          "label": "Barosaurio",
+          "text": "Al igual que el Braquiosaurio, este saurópodo más pequeño fue excavado en el yacimiento tanzano. Aunque no era tan alto ni tan pesado como el Braquiosaurio, ¡el Barosaurio medía más de setenta y cinco pies de largo!"
+        }
+      ]
+    },
+    {
+      "id": "difficult-discoveries",
+      "title": "Descubrimientos difíciles",
+      "image": "assets/tend/TEND02PU.webp",
+      "text": "Excavar en busca de dinosaurios en Tendaguru era un trabajo muy duro. El yacimiento se encontraba en una jungla remota, lejos de la civilización y de la maquinaria.",
+      "captions": [
+        {
+          "label": "Paleontología primitiva",
+          "text": "Esta fotografía del yacimiento muestra las condiciones primitivas en las que trabajaba el equipo. En esta zona concreta se encontró un esqueleto de Braquiosaurio."
+        },
+        {
+          "label": "Esqueleto espectacular",
+          "text": "Cuando se montó este esqueleto de Braquiosaurio con los huesos desenterrados en Tendaguru, resultó ser aún más grande que el Diplodocus norteamericano, que hasta entonces ostentaba el récord mundial del dinosaurio más grande."
+        }
+      ]
+    },
+    {
+      "id": "assembling-the-crew",
+      "title": "Formando el equipo",
+      "image": "assets/tend/TEND03PU.webp",
+      "text": "La expedición de Tendaguru fue iniciada y dirigida por paleontólogos alemanes, aunque se contrató a trabajadores africanos para realizar todo el trabajo pesado.",
+      "captions": [
+        {
+          "label": "Fotografía del equipo",
+          "text": "En esta imagen, detrás de un enorme hueso del muslo de un dinosaurio, aparecen el líder de la expedición, Werner Janensch, y parte del equipo de trabajo."
+        },
+        {
+          "label": "Transportando los huesos",
+          "text": "Un hueso de dinosaurio fosilizado es muy pesado, ¡al fin y al cabo, es roca sólida! Cada hueso grande requería varios portadores africanos para transportarlo."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Important Dinosaur Sites",
+      "to": "site"
+    },
+    {
+      "label": "Barosaurus",
+      "to": "baro"
+    },
+    {
+      "label": "The Biggest Dinosaurs",
+      "to": "tall"
+    },
+    {
+      "label": "Digging up Dinosaurs",
+      "to": "digg"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/tend/TEND00AA.webp",
+        "hotspots": [
+          {
+            "label": "Formando el equipo",
+            "to": "assembling-the-crew",
+            "x": 59,
+            "y": 67,
+            "w": 31,
+            "h": 6
+          },
+          {
+            "label": "Gran variedad de dinosaurios",
+            "to": "dinosaur-variety-pack",
+            "x": 57,
+            "y": 76,
+            "w": 33,
+            "h": 6
+          },
+          {
+            "label": "Descubrimientos difíciles",
+            "to": "difficult-discoveries",
+            "x": 59,
+            "y": 85,
+            "w": 31,
+            "h": 6
+          }
+        ]
+      },
+      "dinosaur-variety-pack": {
+        "image": "assets/tend/TEND01PU.webp",
+        "back": "main"
+      },
+      "difficult-discoveries": {
+        "image": "assets/tend/TEND02PU.webp",
+        "back": "main"
+      },
+      "assembling-the-crew": {
+        "image": "assets/tend/TEND03PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/tend/TEND00AP.mp3",
+  "narration": "assets/tend/TEND00AJ.mp3",
+  "fanTranslation": true
+}

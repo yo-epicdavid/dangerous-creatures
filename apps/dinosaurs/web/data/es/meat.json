@@ -1,0 +1,213 @@
+{
+  "id": "meat",
+  "code": "MEAT",
+  "name": "Carnívoros",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "Carnívoro",
+  "tagline": "Garras afiladas, mandíbulas temibles: los depredadores prehistóricos por excelencia.",
+  "hero": {
+    "image": "assets/meat/MEAT00AA.webp",
+    "alt": "Carnívoros"
+  },
+  "intro": "Los dinosaurios comían distintos tipos de alimento. Los herbívoros, o comedores de plantas, se alimentaban de hojas y brotes. Los dinosaurios carnívoros se alimentaban de otros animales. Algunos carnívoros cazaban a otros dinosaurios, otros comían pequeños insectos, y otros —los carroñeros— se alimentaban de los restos de cadáveres abandonados por otros cazadores. Algunos carnívoros eran tan grandes como una casa, y otros tan pequeños como un perro. Todos tenían en común el gusto por la carne, además de mandíbulas fuertes y dientes afilados diseñados para desgarrar y masticar la carne.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "all-in-the-family",
+      "title": "Todos de la misma familia",
+      "image": "assets/meat/MEAT01PU.webp",
+      "text": "Todos los dinosaurios carnívoros que caminaban sobre dos patas pertenecían a un grupo llamado terópodos, que significa «pies de bestia». Los grandes dinosaurios carnívoros reciben tradicionalmente el nombre de carnosaurios, o «lagartos de carne». Aunque eran de gran tamaño, los carnosaurios probablemente eran animales lentos. Tenían cabezas grandes, patas poderosas y manos relativamente pequeñas, como el Tiranosaurio rex.",
+      "captions": [
+        {
+          "label": "Primos carnívoros",
+          "text": "Los carnívoros más pequeños eran conocidos como celurosaúridos, o «lagartos de cola hueca». Tenían una complexión ligera, eran corredores ágiles con brazos estrechos y prensiles y mandíbulas largas y estrechas, como este Deinonychus."
+        }
+      ]
+    },
+    {
+      "id": "king-of-the-carnosaurs",
+      "title": "El rey de los carnosaurios",
+      "image": "assets/meat/MEAT02PU.webp",
+      "text": "El Tiranosaurio rex debió de ser el cazador más temible del mundo prehistórico. ¡Sus afilados dientes eran del tamaño de un plátano! Con doce metros de longitud, el Tiranosaurio rex pudo haber sido el animal carnívoro más grande que jamás haya pisado la Tierra."
+    },
+    {
+      "id": "tiny-terror",
+      "title": "Pequeño terror",
+      "image": "assets/meat/MEAT03PU.webp",
+      "text": "No todos los carnívoros eran gigantes. Aunque no eran más grandes que una persona, las temibles garras de sus patas, combinadas con su velocidad, hacían del Troodon, el Deinonychus y el Velociraptor unos depredadores de temer.",
+      "captions": [
+        {
+          "label": "Cuidado, voladores",
+          "text": "El Ornitholestes, o «ladrón de pájaros», era un ejemplo típico de los dinosaurios pequeños y ágiles. Es posible que comiera cualquier bocado que pudiera atrapar: insectos, ranas, lagartos, ¡e incluso crías de dinosaurio!"
+        }
+      ]
+    },
+    {
+      "id": "slashing-claws",
+      "title": "Garras cortantes",
+      "image": "assets/meat/MEAT04PU.webp",
+      "text": "El Deinonychus era de pequeño tamaño, pero estaba bien armado con afiladas garras. Probablemente sujetaba a su presa con sus tres dedos con garras mientras desgarraba a la desafortunada víctima con las garras en forma de hoz de sus patas.",
+      "captions": [
+        {
+          "label": "Garras mortales",
+          "text": "El hueso principal de la garra de cada pata medía casi trece centímetros de largo y era curvo como una hoz. Cuando el Deinonychus no utilizaba estas garras, probablemente las mantenía levantadas para conservarlas bien afiladas. Al atacar, podía bajar la garra de golpe para desgarrar a su presa."
+        }
+      ]
+    },
+    {
+      "id": "eating-their-own-young",
+      "title": "¿Comían a sus propias crías?",
+      "image": "assets/meat/MEAT05PU.webp",
+      "text": "Algunos dinosaurios podrían haber devorado a sus propias crías. Este Coelophysis fosilizado conserva en su vientre los restos parcialmente digeridos de sus pequeños. Por ello, los expertos creen que debió de ser caníbal."
+    },
+    {
+      "id": "meat-eating-teeth",
+      "title": "Dientes carnívoros",
+      "image": "assets/meat/MEAT06PU.webp",
+      "text": "Un rasgo que todos los carnívoros tenían en común eran los dientes afilados inclinados hacia la parte posterior de la boca. Este tipo de dientes permitía al carnívoro sujetar a su víctima con mayor firmeza entre las mandíbulas. Muchos carnívoros también tenían dientes serrados, lo que les facilitaba desgarrar y arrancar la carne."
+    },
+    {
+      "id": "egg-thieves",
+      "title": "Ladrones de huevos",
+      "image": "assets/meat/MEAT07PU.webp",
+      "text": "Algunos dinosaurios pequeños, como el Oviraptor, podrían haber robado y comido huevos de los nidos de otros dinosaurios. Durante una expedición en la década de 1920, los buscadores de fósiles descubrieron los restos de un Oviraptor cerca de un nido perteneciente a un Protoceratops. Dado que el Oviraptor era carnívoro, es muy posible que estuviera tras los huevos o las crías de dinosaurio."
+    },
+    {
+      "id": "relentless-hunters",
+      "title": "Cazadores implacables",
+      "image": "assets/meat/MEAT08PU.webp",
+      "text": "Al igual que una manada de lobos, un grupo de Deinonychus podía atacar a dinosaurios mucho más grandes que ellos. Sus garras en forma de hoz y su dentellada firme agotaban a la víctima, proporcionando alimento para todos. Las huellas fósiles nos indican que los pequeños dinosaurios carnívoros pudieron haber cazado de esta manera.",
+      "captions": [
+        {
+          "label": "Lobo solitario",
+          "text": "Los carnosaurios como el Tiranosaurio rex parece que viajaban en solitario. Tras realizar una captura o encontrar un cadáver para carroñear, estos grandes carnívoros necesitaban comer rápidamente o ahuyentar a la competencia. El olor de la carne fresca habría atraído a otros carnívoros desde kilómetros a la redonda."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Plant-eaters",
+      "to": "plan"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/meat/MEAT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Todos de la misma familia",
+            "to": "all-in-the-family",
+            "x": 57,
+            "y": 29,
+            "w": 36,
+            "h": 5
+          },
+          {
+            "label": "Cazadores implacables",
+            "to": "relentless-hunters",
+            "x": 57,
+            "y": 37,
+            "w": 36,
+            "h": 5
+          },
+          {
+            "label": "El rey de los carnosaurios",
+            "to": "king-of-the-carnosaurs",
+            "x": 55,
+            "y": 45,
+            "w": 39,
+            "h": 5
+          },
+          {
+            "label": "Dientes carnívoros",
+            "to": "meat-eating-teeth",
+            "x": 55,
+            "y": 56,
+            "w": 38,
+            "h": 5
+          },
+          {
+            "label": "¿Comían a sus propias crías?",
+            "to": "eating-their-own-young",
+            "x": 50,
+            "y": 65,
+            "w": 43,
+            "h": 5
+          },
+          {
+            "label": "Garras cortantes",
+            "to": "slashing-claws",
+            "x": 12,
+            "y": 51,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Pequeño terror",
+            "to": "tiny-terror",
+            "x": 8,
+            "y": 62,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Ladrones de huevos",
+            "to": "egg-thieves",
+            "x": 8,
+            "y": 73,
+            "w": 25,
+            "h": 5
+          }
+        ]
+      },
+      "all-in-the-family": {
+        "image": "assets/meat/MEAT01PU.webp",
+        "back": "main"
+      },
+      "king-of-the-carnosaurs": {
+        "image": "assets/meat/MEAT02PU.webp",
+        "back": "main"
+      },
+      "tiny-terror": {
+        "image": "assets/meat/MEAT03PU.webp",
+        "back": "main"
+      },
+      "slashing-claws": {
+        "image": "assets/meat/MEAT04PU.webp",
+        "back": "main"
+      },
+      "eating-their-own-young": {
+        "image": "assets/meat/MEAT05PU.webp",
+        "back": "main"
+      },
+      "meat-eating-teeth": {
+        "image": "assets/meat/MEAT06PU.webp",
+        "back": "main"
+      },
+      "egg-thieves": {
+        "image": "assets/meat/MEAT07PU.webp",
+        "back": "main"
+      },
+      "relentless-hunters": {
+        "image": "assets/meat/MEAT08PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/meat/MEAT00AP.mp3",
+  "narration": "assets/meat/MEAT00AJ.mp3",
+  "sound": "assets/meat/MEAT00SA.mp3",
+  "fanTranslation": true
+}

@@ -1,0 +1,145 @@
+{
+  "id": "foot",
+  "code": "FOOT",
+  "name": "Huellas",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "FOOT-prints",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Las huellas de los dinosaurios cuentan la historia de cómo vivían, se movían y cazaban estos gigantes hace millones de años.",
+  "hero": {
+    "image": "assets/foot/FOOT00AA.webp",
+    "alt": "Huellas"
+  },
+  "intro": "Los huesos no son las únicas cosas que pueden convertirse en fósiles. Las señales que dejan los animales a su paso —sus huellas y los surcos que arrastran sus colas— también se fosilizan con frecuencia. Se han encontrado muchas huellas de dinosaurios en todo el mundo. Al principio, la gente pensaba que las habían dejado gigantes, dioses o «los cuervos de Noé». Pero cuando los científicos comprendieron que los dinosaurios habían existido, las huellas pudieron explicarse.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "from-footprints-to-fossils",
+      "title": "De las huellas a los fósiles",
+      "image": "assets/foot/FOOT01PU.webp",
+      "text": "Los dinosaurios dejaban sus huellas originales al pisar barro o arena blandos, probablemente de camino a un río u otro abrevadero para beber. Después, el sol secaba la superficie hasta endurecerla, fijando las huellas. Con el paso del tiempo, las huellas quedaban enterradas bajo arena u otra capa de barro, y finalmente se convertían en piedra.",
+      "captions": [
+        {
+          "label": "Dejando una huella profunda",
+          "text": "Aquí se muestra una buena huella fosilizada de la pata de un gran dinosaurio de tres dedos llamado Iguanodón. La pata del Iguanodón debía de ser muy resistente para soportar su peso. Es posible que el Iguanodón caminara sobre las puntas de los dedos, como hacen hoy los gatos y los perros."
+        }
+      ]
+    },
+    {
+      "id": "the-story-in-a-print",
+      "title": "La historia en una huella",
+      "image": "assets/foot/FOOT02PU.webp",
+      "text": "Es muy difícil saber qué criatura dejó cada huella. A partir de las huellas podemos averiguar no solo el tamaño y el peso aproximados de un animal, sino también si caminaba o corría cuando la dejó, si viajaba en grupo o solo, y la longitud de su zancada. Con esa medida y una idea de su tamaño, podemos calcular la velocidad de un animal en un período concreto."
+    },
+    {
+      "id": "a-lonely-hunter",
+      "title": "Un cazador solitario",
+      "image": "assets/foot/FOOT03PU.webp",
+      "text": "Se han descubierto huellas del tipo Tiranosaurio rex en varios lugares. A diferencia de las huellas de los carnívoros más pequeños, solo aparecen uno o dos conjuntos a la vez, por lo que los grandes carnívoros podrían haber viajado solos o en parejas."
+    },
+    {
+      "id": "wheres-the-tail",
+      "title": "¿Dónde está la cola?",
+      "image": "assets/foot/FOOT04PU.webp",
+      "text": "Aunque los dinosaurios que dejaron estas huellas tenían colas largas, los hallazgos de huellas de dinosaurios raramente muestran señales de surcos de cola. Esto se debe a que la mayoría de los dinosaurios caminaban con la cola levantada del suelo.",
+      "captions": [
+        {
+          "label": "Moviéndose en grupo",
+          "text": "Numerosos conjuntos de huellas similares dejados al mismo tiempo sugieren que los dinosaurios viajaban a veces en manadas. En Texas, veintitrés conjuntos de huellas de 120 millones de años de antigüedad fueron dejados probablemente por grandes herbívoros como el Apatosaurio. Junto a las huellas de los herbívoros también se encuentran con frecuencia huellas de dinosaurios carnívoros, que podrían haber cazado a los herbívoros en manada."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What is a Fossil?",
+      "to": "foss"
+    },
+    {
+      "label": "What You Need to Find a Fossil",
+      "to": "find"
+    },
+    {
+      "label": "The Story in a Skull",
+      "to": "stor"
+    },
+    {
+      "label": "Tyrannosaurus rex",
+      "to": "tyra"
+    },
+    {
+      "label": "Apatosaurus",
+      "to": "apat"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/foot/FOOT00AA.webp",
+        "hotspots": [
+          {
+            "label": "La historia en una huella",
+            "to": "the-story-in-a-print",
+            "x": 46,
+            "y": 8,
+            "w": 28,
+            "h": 6
+          },
+          {
+            "label": "¿Dónde está la cola?",
+            "to": "wheres-the-tail",
+            "x": 8,
+            "y": 70,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "De las huellas a los fósiles",
+            "to": "from-footprints-to-fossils",
+            "x": 24,
+            "y": 79,
+            "w": 27,
+            "h": 6
+          },
+          {
+            "label": "Un cazador solitario",
+            "to": "a-lonely-hunter",
+            "x": 57,
+            "y": 82,
+            "w": 20,
+            "h": 6
+          }
+        ]
+      },
+      "from-footprints-to-fossils": {
+        "image": "assets/foot/FOOT01PU.webp",
+        "back": "main"
+      },
+      "the-story-in-a-print": {
+        "image": "assets/foot/FOOT02PU.webp",
+        "back": "main"
+      },
+      "a-lonely-hunter": {
+        "image": "assets/foot/FOOT03PU.webp",
+        "back": "main"
+      },
+      "wheres-the-tail": {
+        "image": "assets/foot/FOOT04PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/foot/FOOT00AP.mp3",
+  "narration": "assets/foot/FOOT00AJ.mp3",
+  "sound": "assets/foot/FOOT00SA.mp3",
+  "fanTranslation": true
+}

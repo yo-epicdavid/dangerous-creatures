@@ -1,0 +1,133 @@
+{
+  "id": "coth",
+  "code": "COTH",
+  "name": "Celacanto",
+  "category": "creature",
+  "scientificName": "Latimeria",
+  "needsScientificVerify": false,
+  "pronunciation": "SEE-luh-kanth",
+  "meaning": "Espinas huecas",
+  "period": "Devónico-Actualidad",
+  "diet": "",
+  "tagline": "¡Un pez fósil viviente que nadó junto a los dinosaurios... y que sigue nadando hoy en día!",
+  "hero": {
+    "image": "assets/coth/COTH00AA.webp",
+    "alt": "Celacanto"
+  },
+  "intro": "El más famoso de todos los fósiles vivientes es el celacanto. Los fósiles de celacanto se han fechado hasta el período Devónico, hace 345 millones de años, y los celacantos vivieron a lo largo de toda la Era de los Dinosaurios. Los expertos creían que habían desaparecido junto con los dinosaurios en el período Cretácico, hasta que en 1938 se capturó un celacanto vivo frente a las costas de Sudáfrica. Desde entonces, varios ejemplares vivos más han sido fotografiados o capturados.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "África"
+    },
+    {
+      "label": "Época",
+      "value": "Devónico-Actualidad"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Espinas huecas"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Pez prehistórico"
+    },
+    {
+      "label": "Longitud",
+      "value": "1,8 m (6 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "out-of-the-past",
+      "title": "Del pasado",
+      "image": "assets/coth/COTH01PU.webp",
+      "text": "Los celacantos tienen una cola con tres lóbulos muy característica y aletas con huesos en la base que recuerdan a los de un brazo. El registro fósil nos indica que los celacantos han sobrevivido prácticamente sin cambios desde el pasado más remoto hasta el presente.",
+      "captions": [
+        {
+          "label": "Celacanto fosilizado",
+          "text": "Celacanto fosilizado"
+        }
+      ]
+    },
+    {
+      "id": "historic-discovery",
+      "title": "Un descubrimiento histórico",
+      "image": "assets/coth/COTH02PU.webp",
+      "text": "Varios celacantos han sido capturados y otros fotografiados con vida frente a las Islas Comoras, situadas al noreste de la isla de Madagascar. El descubrimiento del hogar de este «fósil viviente» ha quedado inmortalizado en un plato de Wedgwood y en sellos de correos.",
+      "captions": [
+        {
+          "label": "Plato devónico",
+          "text": "Este es un plato de Wedgwood en conmemoración de la captura de un celacanto vivo."
+        },
+        {
+          "label": "Sellos prehistóricos",
+          "text": "Estos son ejemplos de sellos conmemorativos de las Islas Comoras."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What is Paleontology?",
+      "to": "pale"
+    },
+    {
+      "label": "Life Before Dinosaurs",
+      "to": "befr"
+    },
+    {
+      "label": "Living Fossils",
+      "to": "ddec"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/coth/COTH00AA.webp",
+        "hotspots": [
+          {
+            "label": "Del pasado",
+            "to": "out-of-the-past",
+            "x": 72,
+            "y": 42,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Un descubrimiento histórico",
+            "to": "historic-discovery",
+            "x": 64,
+            "y": 69,
+            "w": 26,
+            "h": 5
+          }
+        ]
+      },
+      "out-of-the-past": {
+        "image": "assets/coth/COTH01PU.webp",
+        "back": "main"
+      },
+      "historic-discovery": {
+        "image": "assets/coth/COTH02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/coth/COTH50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/coth/COTH00AP.mp3",
+  "narration": "assets/coth/COTH00AJ.mp3",
+  "fanTranslation": true
+}

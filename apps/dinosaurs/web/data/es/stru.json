@@ -1,0 +1,127 @@
+{
+  "id": "stru",
+  "code": "STRU",
+  "name": "Struthiomimus",
+  "category": "dinosaur",
+  "scientificName": "Struthiomimus",
+  "needsScientificVerify": false,
+  "pronunciation": "stroo-thee-oh-MY-mus",
+  "meaning": "Imitador del avestruz",
+  "period": "Cretácico superior",
+  "diet": "Omnívoro",
+  "tagline": "Con la figura de un avestruz y veloz como el viento, este dinosaurio sin dientes fue una de las criaturas más rápidas de su época.",
+  "hero": {
+    "image": "assets/stru/STRU00AA.webp",
+    "alt": "Struthiomimus"
+  },
+  "intro": "Este pequeño dinosaurio recibe el nombre de «imitador del avestruz» por razones evidentes: tiene un aspecto muy parecido al de un pájaro. El Struthiomimus, al igual que su homónimo, tenía una cabeza pequeña, un cuello largo, patas fuertes y un pico sin dientes. Probablemente era capaz de correr a gran velocidad para perseguir a los pequeños lagartos y demás presas que comía.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "América del Norte"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Imitador del avestruz"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Terópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "3,5 m (12 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "compare-for-yourself",
+      "title": "Compruébalo tú mismo",
+      "image": "assets/stru/STRU01PU.webp",
+      "text": "Este dibujo muestra el gran parecido entre el Struthiomimus y un avestruz moderno. El Struthiomimus medía aproximadamente dos metros de altura, más o menos el mismo tamaño que un avestruz. Las principales diferencias son que el Struthiomimus no tenía plumas, tenía una larga cola ósea y tenía manos con garras en lugar de alas. Quizá así entiendas por qué algunos expertos creen que las aves evolucionaron a partir de los dinosaurios."
+    },
+    {
+      "id": "bird-like-faces",
+      "title": "Caras de pájaro",
+      "image": "assets/stru/STRU02PU.webp",
+      "text": "Los dinosaurios tenían caras muy diferentes entre sí. Aunque estos animales vivieron en distintas partes del mundo y en distintas épocas, todos vivieron durante la era Mesozoica, la Era de los Dinosaurios.",
+      "captions": [
+        {
+          "label": "Cara de volador",
+          "text": "Aunque sus caras se parecen a la del Struthiomimus, tanto el Eudimorphodon como el Archaeopteryx eran reptiles alados. Muchos creen que el Archaeopteryx fue el pájaro conocido más antiguo."
+        },
+        {
+          "label": "Primos carnívoros",
+          "text": "El Struthiomimus y el Troodon tenían muchas similitudes. No solo se parecían en la cara, sino que ambos eran pequeños y veloces comedores de carne."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Gallimimus",
+      "to": "gall"
+    },
+    {
+      "label": "Coelophysis",
+      "to": "coel"
+    },
+    {
+      "label": "Troodon",
+      "to": "troo"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/stru/STRU00AA.webp",
+        "hotspots": [
+          {
+            "label": "Caras de pájaro",
+            "to": "bird-like-faces",
+            "x": 63,
+            "y": 23,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Compruébalo tú mismo",
+            "to": "compare-for-yourself",
+            "x": 5,
+            "y": 70,
+            "w": 22,
+            "h": 6
+          }
+        ]
+      },
+      "compare-for-yourself": {
+        "image": "assets/stru/STRU01PU.webp",
+        "back": "main"
+      },
+      "bird-like-faces": {
+        "image": "assets/stru/STRU02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/stru/STRU50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/stru/STRU00AP.mp3",
+  "narration": "assets/stru/STRU00AJ.mp3",
+  "fanTranslation": true
+}

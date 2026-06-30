@@ -1,0 +1,187 @@
+{
+  "id": "weir",
+  "code": "WEIR",
+  "name": "Los dinosaurios más extraños",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "De unicornios con cuernos en el hocico a bestias marinas de cuello serpenteante: la era Mesozoica fue el experimento más salvaje de la naturaleza.",
+  "hero": {
+    "image": "assets/weir/WEIR00AA.webp",
+    "alt": "Los dinosaurios más extraños"
+  },
+  "intro": "Los dinosaurios nos resultan muy extraños. Al fin y al cabo, eran reptiles gigantes, y vivimos en una época en la que los mamíferos son las criaturas más grandes de la Tierra. Los dinosaurios fueron experimentos de la naturaleza, que evolucionaban sin cesar hacia nuevas formas y desarrollaban nuevas características para adaptarse al cambiante entorno de la era Mesozoica. Algunas de las adaptaciones de aspecto más extraño, al menos para nuestros ojos, fueron los cuernos parecidos a los de un unicornio, las crestas en forma de disco, los globos de piel hinchables, los picos y jetas con forma de ave, los cuellos serpenteantes y las placas de armadura corporal. ¿Llegarán algún día los seres humanos a desarrollar semejante variedad de características?",
+  "facts": [],
+  "topics": [
+    {
+      "id": "the-big-frill",
+      "title": "El gran collarín",
+      "image": "assets/weir/WEIR01PU.webp",
+      "text": "Chasmosaurus era el herbívoro con cuernos que tenía el collarín más grande. Este collarín con forma de corazón presentaba grandes aberturas en el hueso donde se insertaban sus poderosos músculos mandibulares. El perímetro del collarín estaba bordeado de cuernos cortos. Esta poderosa criatura también tenía un cuerno nasal y dos cuernos sobre las cejas.",
+      "captions": [
+        {
+          "label": "¿Cerebro o músculo?",
+          "text": "El cráneo del Triceratops es muchas veces más largo que el de un ser humano. Sin embargo, la mayor parte del cráneo humano está ocupada por el cerebro, mientras que el del Triceratops estaba lleno de músculos y tenía un cerebro muy pequeño."
+        },
+        {
+          "label": "Triceratops",
+          "text": "El Triceratops, de largo collarín, tenía un esqueleto robusto para soportar su gran peso. Este herbívoro cuadrúpedo llevaba una enorme cabeza armada con un cuerno nasal y dos grandes cuernos sobre las cejas. El peso de la cabeza estaba sostenido por tres vértebras cervicales fusionadas en un único hueso sólido y resistente. Ocho vértebras, en lugar de las cinco habituales, se unían a la pelvis para sostener mejor su considerable peso corporal."
+        }
+      ]
+    },
+    {
+      "id": "sounding-off",
+      "title": "Haciendo sonar la voz",
+      "image": "assets/weir/WEIR02PU.webp",
+      "text": "La cresta puntiaguda en la cabeza de Saurolophus pudo haber sostenido un pliegue de piel hinchable en su cabeza. El cráneo de esta criatura estaba aplanado por ambos lados. En la parte superior se encontraban pliegues de piel que colgaban como un globo vacío. Al hincharse, esta bolsa de piel habría amplificado los sonidos emitidos por Saurolophus. Algunas ranas hacen lo mismo cuando inflan su garganta. Esto significa que Saurolophus pudo haber sido capaz de comunicarse con otros de su especie.",
+      "captions": [
+        {
+          "label": "El bramido de la extraña cabeza",
+          "text": "El dinosaurio de pico de pato Parasaurolophus tenía una larga cresta hueca en la parte superior de su cabeza, desde la que podía emitir fuertes sonidos de bramido o mugido para comunicarse. Esta cresta medía hasta dos metros de longitud."
+        }
+      ]
+    },
+    {
+      "id": "dinosaur-unicorn",
+      "title": "¿Dinosaurio unicornio?",
+      "image": "assets/weir/WEIR03PU.webp",
+      "text": "Tsintaosaurus tenía un cuerno hueco y apuntando hacia delante en su frente. Este dinosaurio de pico de pato procedente de China pudo haber tenido un pliegue de piel parecido a un globo sobre su hocico, que podría haberse inflado para servir de señal o para hacer su llamada aún más ruidosa."
+    },
+    {
+      "id": "hard-headed",
+      "title": "Cabeza dura",
+      "image": "assets/weir/WEIR04PU.webp",
+      "text": "Prenocephale tenía huesos grandes, duros y con forma de casco en la parte superior de su cráneo. Los machos rivales de Prenocephale participaban en combates de topetazos para conquistar a las hembras. Los cráneos de huesos gruesos actuaban como cascos protectores para el cerebro durante estos enfrentamientos.",
+      "captions": [
+        {
+          "label": "Ankylosaurus",
+          "text": "El dinosaurio acorazado Ankylosaurus era un herbívoro cuadrúpedo con placas blindadas en la cabeza y pinchos corporales para protegerse de los depredadores. También tenía una cola en forma de maza que podía asestar un golpe demoledor al cuerpo de cualquier carnívoro que se acercase demasiado."
+        },
+        {
+          "label": "Euoplocephalus",
+          "text": "Pariente de Ankylosaurus, Euoplocephalus era el dinosaurio acorazado más común. Ambos tenían pinchos y grandes capas de armadura ósea a lo largo del lomo. A diferencia de Ankylosaurus, Euoplocephalus tenía dos grandes pinchos a cada lado de la cabeza para una protección adicional contra los depredadores."
+        }
+      ]
+    },
+    {
+      "id": "snake-necks",
+      "title": "Cuellos de serpiente",
+      "image": "assets/weir/WEIR05PU.webp",
+      "text": "Elasmosaurus, un reptil marino, tenía un largo cuello que medía más de la mitad de su longitud total de trece metros. Nadando cerca de la superficie, lanzaba su cabeza hacia los peces de forma serpentina para atraparlos con sus afilados dientes. Elasmosaurus recuerda a las descripciones tanto de los antiguos monstruos marinos como a criaturas como el moderno «monstruo del lago Ness».",
+      "captions": [
+        {
+          "label": "Mamenchisaurus",
+          "text": "El gigantesco herbívoro Mamenchisaurus tenía el cuello más largo jamás conocido, con unos diez metros de longitud. Podía comer hojas de las copas de los árboles más altos. ¡Si Mamenchisaurus viviera hoy en día, podría asomarse a las ventanas de un edificio de cuatro plantas!"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Parasaurolophus",
+      "to": "para"
+    },
+    {
+      "label": "How to Recognize Ceratopsians",
+      "to": "hcer"
+    },
+    {
+      "label": "Saurolophus",
+      "to": "saur"
+    },
+    {
+      "label": "Tsintaosaurus",
+      "to": "tsin"
+    },
+    {
+      "label": "Dinosaurs in Armor",
+      "to": "armr"
+    },
+    {
+      "label": "Reptiles of the Sea",
+      "to": "rsea"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/weir/WEIR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Haciendo sonar la voz",
+            "to": "sounding-off",
+            "x": 70,
+            "y": 13,
+            "w": 23,
+            "h": 7
+          },
+          {
+            "label": "El gran collarín",
+            "to": "the-big-frill",
+            "x": 72,
+            "y": 33,
+            "w": 21,
+            "h": 7
+          },
+          {
+            "label": "Cabeza dura",
+            "to": "hard-headed",
+            "x": 72,
+            "y": 43,
+            "w": 20,
+            "h": 7
+          },
+          {
+            "label": "¿Dinosaurio unicornio?",
+            "to": "dinosaur-unicorn",
+            "x": 4,
+            "y": 72,
+            "w": 28,
+            "h": 7
+          },
+          {
+            "label": "Cuellos de serpiente",
+            "to": "snake-necks",
+            "x": 33,
+            "y": 76,
+            "w": 18,
+            "h": 7
+          }
+        ]
+      },
+      "the-big-frill": {
+        "image": "assets/weir/WEIR01PU.webp",
+        "back": "main"
+      },
+      "sounding-off": {
+        "image": "assets/weir/WEIR02PU.webp",
+        "back": "main"
+      },
+      "dinosaur-unicorn": {
+        "image": "assets/weir/WEIR03PU.webp",
+        "back": "main"
+      },
+      "hard-headed": {
+        "image": "assets/weir/WEIR04PU.webp",
+        "back": "main"
+      },
+      "snake-necks": {
+        "image": "assets/weir/WEIR05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/weir/WEIR00AP.mp3",
+  "narration": "assets/weir/WEIR00AJ.mp3",
+  "sound": "assets/weir/WEIR00SA.mp3",
+  "fanTranslation": true
+}

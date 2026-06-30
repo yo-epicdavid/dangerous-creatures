@@ -1,0 +1,148 @@
+{
+  "id": "claw",
+  "code": "CLAW",
+  "name": "Garras",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "CLAWZ",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Cada hueso fósil de garra cuenta una historia sobre el dinosaurio al que perteneció.",
+  "hero": {
+    "image": "assets/claw/CLAW00AA.webp",
+    "alt": "Garras"
+  },
+  "intro": "Si observas con detenimiento a los animales que nos rodean, notarás que la mayoría tienen garras que usan para defenderse o para agarrar, trepar o cavar. Los dinosaurios también tenían todo tipo de garras y, como estas eran gruesas y resistentes, muchos huesos de garras de dinosaurio se han conservado como fósiles. Cada hueso fósil de garra puede contarnos mucho sobre el estilo de vida del dinosaurio al que perteneció.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "hook-line-or-claw",
+      "title": "¿Anzuelo, sedal o garra?",
+      "image": "assets/claw/CLAW01PU.webp",
+      "text": "Se han encontrado escamas fósiles del pez prehistórico Lepidotes junto a los restos de Baryonyx, lo que ha llevado a los paleontólogos a especular que este dinosaurio podría haber pescado con sus enormes garras en forma de gancho. Solo se ha hallado un hueso de garra de unos treinta centímetros, pero el dinosaurio probablemente tenía al menos dos en cada «mano». Estas grandes garras curvas le dan a Baryonyx el apodo de «Garras»."
+    },
+    {
+      "id": "egg-stealing-claws",
+      "title": "Garras ladronas de huevos",
+      "image": "assets/claw/CLAW02PU.webp",
+      "text": "Sobre un nido perteneciente a Protoceratops se hallaron los restos de Oviraptor. ¿Usaba este veloz dinosaurio sus dedos con garras para romper los huevos de otros dinosaurios? Parece probable. Oviraptor, cuyo nombre significa «ladrón de huevos», tenía mandíbulas fuertes y dos afilados salientes en el paladar que habrían sido perfectos para perforar huevos."
+    },
+    {
+      "id": "thumb-spikes",
+      "title": "Pinchos en el pulgar",
+      "image": "assets/claw/CLAW03PU.webp",
+      "text": "El Iguanodón tenía en las «manos» inusuales pinchos afilados en lugar de garras. Aunque este dinosaurio podía erguirse sobre dos patas, los paleontólogos creen que probablemente caminaba a cuatro patas la mayor parte del tiempo, ya que las «manos» del Iguanodón incluían tres dedos terminados en pezuñas que no podían usarse para agarrar alimento. Los pinchos quizás se usaban para cavar o para defenderse."
+    },
+    {
+      "id": "claws-of-a-killer",
+      "title": "Las garras de un asesino",
+      "image": "assets/claw/CLAW04PU.webp",
+      "text": "Los principales huesos de las garras de las patas de Deinonychus eran afilados como cuchillas, medían unos doce centímetros y tenían forma de hoz. Cuando este dinosaurio perseguía a su presa a toda velocidad, mantenía estas garras levantadas del suelo. Tras dar alcance a su desafortunada víctima, el depredador saltaba y golpeaba con las patas traseras. Al atacar, Deinonychus giraba las garras en forma de hoz hacia abajo con movimientos de desgarro capaces de provocar heridas mortales. No es de extrañar que este dinosaurio recibiera el nombre de «garra terrible»."
+    },
+    {
+      "id": "collection-of-claws",
+      "title": "Una colección de garras",
+      "image": "assets/claw/CLAW05PU.webp",
+      "text": "Cada hueso fósil de garra tiene una historia que contar sobre su dueño. Los dinosaurios carnívoros tenían garras afiladas, similares a las de un rapaz, que podían usar para sujetar o matar a otros dinosaurios; los herbívoros tenían garras más anchas y aplanadas, con forma de pezuña, que podían usarse para defenderse o para desenterrar alimento.",
+      "captions": [
+        {
+          "label": "Garra de Ornithomimus",
+          "text": "Aunque Ornithomimus era descendiente de carnívoros, sus garras eran bastante planas y no habrían servido de mucho para atacar. Es más probable que se utilizaran únicamente para sujetar el alimento o para hurgar en el suelo."
+        },
+        {
+          "label": "Garra de Apatosaurio",
+          "text": "Esta enorme garra pertenecía a un saurópodo llamado Apatosaurio. Las demás garras de este herbívoro eran cortas y parecidas a pezuñas. El Apatosaurio pudo haber utilizado esta garra puntiaguda, situada en la parte interior de su pata delantera, para desenterrar alimento o para defenderse de un atacante."
+        },
+        {
+          "label": "Garra de Massospondylus",
+          "text": "Esta garra pertenecía a un inusual dinosaurio prosaurópodo que tenía «manos» de cinco dedos y varios tipos de dientes. Como Massospondylus parece haber sido herbívoro, estas garras se utilizaban probablemente solo para defenderse o para rebuscar alimento."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Two Feet or Four?",
+      "to": "twof"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/claw/CLAW00AA.webp",
+        "hotspots": [
+          {
+            "label": "Las garras de un asesino",
+            "to": "claws-of-a-killer",
+            "x": 7,
+            "y": 82,
+            "w": 19,
+            "h": 7
+          },
+          {
+            "label": "Pinchos en el pulgar",
+            "to": "thumb-spikes",
+            "x": 32,
+            "y": 82,
+            "w": 14,
+            "h": 7
+          },
+          {
+            "label": "Garras ladronas de huevos",
+            "to": "egg-stealing-claws",
+            "x": 54,
+            "y": 53,
+            "w": 17,
+            "h": 7
+          },
+          {
+            "label": "¿Anzuelo, sedal o garra?",
+            "to": "hook-line-or-claw",
+            "x": 60,
+            "y": 62,
+            "w": 21,
+            "h": 7
+          },
+          {
+            "label": "Una colección de garras",
+            "to": "collection-of-claws",
+            "x": 73,
+            "y": 76,
+            "w": 17,
+            "h": 8
+          }
+        ]
+      },
+      "hook-line-or-claw": {
+        "image": "assets/claw/CLAW01PU.webp",
+        "back": "main"
+      },
+      "egg-stealing-claws": {
+        "image": "assets/claw/CLAW02PU.webp",
+        "back": "main"
+      },
+      "thumb-spikes": {
+        "image": "assets/claw/CLAW03PU.webp",
+        "back": "main"
+      },
+      "claws-of-a-killer": {
+        "image": "assets/claw/CLAW04PU.webp",
+        "back": "main"
+      },
+      "collection-of-claws": {
+        "image": "assets/claw/CLAW05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/claw/CLAW00AP.mp3",
+  "narration": "assets/claw/CLAW00AJ.mp3",
+  "fanTranslation": true
+}

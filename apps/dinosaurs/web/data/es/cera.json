@@ -1,0 +1,101 @@
+{
+  "id": "cera",
+  "code": "CERA",
+  "name": "Ceratosaurio",
+  "category": "dinosaur",
+  "scientificName": "Ceratosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "seh-RAT-oh-SOR-us",
+  "meaning": "Lagarto cornudo",
+  "period": "Jurásico superior",
+  "diet": "Carnívoro",
+  "tagline": "Construido para morder: este depredador de cuatro dedos tenía unas mandíbulas que podían abrirse de par en par y cerrarse de golpe como una trampa.",
+  "hero": {
+    "image": "assets/cera/CERA00AA.webp",
+    "alt": "Ceratosaurio"
+  },
+  "intro": "El Ceratosaurio, o «lagarto cornudo», era un dinosaurio terópodo similar al Alosaurio, pero de apenas la mitad de su tamaño. Es posible que fuera un feroz depredador y debe su nombre al bulto que tenía en el hocico, que probablemente no era un cuerno de verdad, sino una pequeña cresta recubierta de piel. A diferencia de los terópodos más modernos, que tenían tres dedos con un segundo dedo más largo, o incluso solo dos dedos, el Ceratosaurio tenía cuatro dedos en cada «mano».",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "África, América del Norte"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico Tardío"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Lagarto cornudo"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Terópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "8 m (20 pies)"
+    },
+    {
+      "label": "Peso",
+      "value": "1 tonelada"
+    }
+  ],
+  "topics": [
+    {
+      "id": "the-better-to-bite-with",
+      "title": "Para morder mejor",
+      "image": "assets/cera/CERA01PU.webp",
+      "text": "Este dinosaurio estaba construido para morder. La mandíbula inferior del Ceratosaurio se extendía casi a lo largo de todo el cráneo. Potentes músculos mandibulares se proyectaban hacia arriba, detrás del ojo, desde la zona posterior de sus dientes. El robusto cuello del Ceratosaurio era flexible, lo que le permitía abalanzarse sobre sus presas y atacarlas con fuerza con sus feroces mandíbulas.",
+      "captions": [
+        {
+          "label": "Cabeza enorme",
+          "text": "El cráneo medía casi un metro y diez centímetros de largo. Articuladas por la parte trasera, las mandíbulas podían abrirse de par en par y cerrarse con una feroz dentellada."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaur National Monument",
+      "to": "dnmu"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/cera/CERA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Para morder mejor",
+            "to": "the-better-to-bite-with",
+            "x": 72,
+            "y": 52,
+            "w": 24,
+            "h": 11
+          }
+        ]
+      },
+      "the-better-to-bite-with": {
+        "image": "assets/cera/CERA01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/cera/CERA50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/cera/CERA00AP.mp3",
+  "narration": "assets/cera/CERA00AJ.mp3",
+  "fanTranslation": true
+}

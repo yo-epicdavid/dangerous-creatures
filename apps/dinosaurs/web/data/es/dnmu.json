@@ -1,0 +1,175 @@
+{
+  "id": "dnmu",
+  "code": "DNMU",
+  "name": "Monumento Nacional de los Dinosaurios",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "DIE-nuh-sor NASH-uh-nul MON-yuh-ment",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Más de 5.000 huesos de dinosaurio enterrados en los áridos badlands de Utah y Colorado — esperando ser descubiertos.",
+  "hero": {
+    "image": "assets/dnmu/DNMU00AA.webp",
+    "alt": "Monumento Nacional de los Dinosaurios"
+  },
+  "intro": "Los badlands del oeste americano han demostrado ser una rica fuente de huesos de dinosaurio. El escarpado cañón del río Green, que serpentea por el norte de Utah y Colorado, es una de las zonas más ricas. Aquí se encuentra el Monumento Nacional de los Dinosaurios, donde se han descubierto más de 5.000 huesos de dinosaurio entre las escarpadas colinas.",
+  "facts": [
+    {
+      "label": "Ubicación",
+      "value": "Utah/Colorado"
+    },
+    {
+      "label": "Huesos descubiertos",
+      "value": "Más de 5.000"
+    },
+    {
+      "label": "Principal excavador",
+      "value": "Earl Douglass"
+    },
+    {
+      "label": "Institución",
+      "value": "Museo Carnegie de Historia Natural, Pittsburgh"
+    },
+    {
+      "label": "Período de excavación",
+      "value": "Quince años"
+    },
+    {
+      "label": "Dinosaurios desenterrados",
+      "value": "Apatosaurus, Estegosaurio, Alosaurio, Diplodocus, Camarasaurus, Barosaurus y Camptosaurus"
+    }
+  ],
+  "topics": [
+    {
+      "id": "the-discoverer",
+      "title": "El Descubridor",
+      "image": "assets/dnmu/DNMU01PU.webp",
+      "text": "En 1908, el coleccionista de fósiles estadounidense Earl Douglass viajó a las escarpadas y áridas montañas de Utah en busca de huesos de dinosaurio. Douglass, miembro del personal del Museo Carnegie de Historia Natural de Pittsburgh, fue enviado al oeste para buscar fósiles para el museo. Lo que encontró fue uno de los yacimientos de fósiles de dinosaurio más ricos del mundo. Douglass excavó el yacimiento en las montañas Uinta durante los quince años siguientes, desenterrando huesos de Apatosaurus, Estegosaurio, Alosaurio, Diplodocus, Camarasaurus, Barosaurus y Camptosaurus. Douglass trabajó para preservar el lugar como monumento nacional.",
+      "captions": [
+        {
+          "label": "Earl Douglass con el esqueleto de un Apatosaurus",
+          "text": "Earl Douglass con el esqueleto de un Apatosaurus"
+        }
+      ]
+    },
+    {
+      "id": "sauropod-herds",
+      "title": "Manadas de Saurópodos",
+      "image": "assets/dnmu/DNMU02PU.webp",
+      "text": "En el período Jurásico Superior, manadas de Apatosaurus, Diplodocus, Camarasaurus y Barosaurus recorrían lo que hoy es el oeste de los Estados Unidos, bebiendo en las orillas fangosas de los ríos como los elefantes en un abrevadero.",
+      "captions": [
+        {
+          "label": "Huellas famosas",
+          "text": "Estas huellas de saurópodo, encontradas cerca de Glen Rose (Texas), ayudaron a demostrar que los dinosaurios caminaban sobre sus dos patas traseras, y no se arrastraban como un lagarto. Otras huellas fosilizadas han demostrado que los saurópodos viajaban juntos en manadas para protegerse."
+        }
+      ]
+    },
+    {
+      "id": "terrible-tyrant",
+      "title": "El Terrible Tirano",
+      "image": "assets/dnmu/DNMU03PU.webp",
+      "text": "Todos los herbívoros tenían un enemigo común: el Alosaurio. Durante el período Jurásico, este carnívoro fue el depredador más grande y abundante que vivió en esta llanura. Ni siquiera los enormes y lentos saurópodos estaban a salvo."
+    },
+    {
+      "id": "difficult-but-rewarding-work",
+      "title": "Un Trabajo Duro pero Gratificante",
+      "image": "assets/dnmu/DNMU04PU.webp",
+      "text": "Earl Douglass y su equipo recuperaron muchos esqueletos casi completos de las laderas de la zona. Muchos tuvieron que ser transportados en carretas tiradas por caballos.",
+      "captions": [
+        {
+          "label": "Excavaciones verticales",
+          "text": "En una pared rocosa sobre el río Green que se inclinaba 215 pies, el cazador de dinosaurios Earl Douglass y su equipo descubrieron los restos de dinosaurios, hueso a hueso."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Making of a Fossil",
+      "to": "makf"
+    },
+    {
+      "label": "The American Dinosaur Rush",
+      "to": "amer"
+    },
+    {
+      "label": "Footprints",
+      "to": "foot"
+    },
+    {
+      "label": "Allosaurus",
+      "to": "allo"
+    },
+    {
+      "label": "Digging up Dinosaurs",
+      "to": "digg"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/dnmu/DNMU00AA.webp",
+        "hotspots": [
+          {
+            "label": "Manadas de Saurópodos",
+            "to": "sauropod-herds",
+            "x": 8,
+            "y": 52,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "El Terrible Tirano",
+            "to": "terrible-tyrant",
+            "x": 7,
+            "y": 62,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Un Trabajo Duro pero Gratificante",
+            "to": "difficult-but-rewarding-work",
+            "x": 56,
+            "y": 45,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "El Descubridor",
+            "to": "the-discoverer",
+            "x": 55,
+            "y": 56,
+            "w": 18,
+            "h": 5
+          }
+        ]
+      },
+      "the-discoverer": {
+        "image": "assets/dnmu/DNMU01PU.webp",
+        "back": "main"
+      },
+      "sauropod-herds": {
+        "image": "assets/dnmu/DNMU02PU.webp",
+        "back": "main"
+      },
+      "terrible-tyrant": {
+        "image": "assets/dnmu/DNMU03PU.webp",
+        "back": "main"
+      },
+      "difficult-but-rewarding-work": {
+        "image": "assets/dnmu/DNMU04PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/dnmu/DNMU00AP.mp3",
+  "narration": "assets/dnmu/DNMU00AJ.mp3",
+  "fanTranslation": true
+}

@@ -1,0 +1,151 @@
+{
+  "id": "pach",
+  "code": "PACH",
+  "name": "Pachycephalosaurus",
+  "category": "dinosaur",
+  "scientificName": "Pachycephalosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "pak-ee-SEF-ah-low-SOR-us",
+  "meaning": "Lagarto de cabeza gruesa",
+  "period": "Cretácico superior",
+  "diet": "Herbívoro",
+  "tagline": "¡El dinosaurio de cúpula ósea que usaba su cráneo como un ariete!",
+  "hero": {
+    "image": "assets/pach/PACH00AA.webp",
+    "alt": "Pachycephalosaurus"
+  },
+  "intro": "«Cabezones» es el apodo de la familia a la que pertenece este dinosaurio. La cúpula en lo alto del cráneo del Pachycephalosaurus tenía casi treinta centímetros de grosor de hueso macizo, y es posible que se usara en combates de topetazos con otros dinosaurios.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Lagarto de cabeza gruesa"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Ornitópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "4,8 m (15 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "hitting-their-heads-together",
+      "title": "Chocando sus cabezas",
+      "image": "assets/pach/PACH01PU.webp",
+      "text": "Al igual que estos carneros de cuernos grandes usan sus cuernos para chocar sus cabezas, el Pachycephalosaurus pudo haber usado la cúpula en lo alto de su cabeza para golpear a un rival. Estos combates de topetazos podrían haber establecido los derechos sobre un territorio o una pareja.",
+      "captions": [
+        {
+          "label": "Primos cabezones",
+          "text": "Otro dinosaurio que practicaba los combates de cabezazos era el Prenocephale. Como un casco protector, su cráneo óseo protegía el cerebro del animal de los impactos durante los enfrentamientos de topetazos."
+        }
+      ]
+    },
+    {
+      "id": "other-peculiar-heads",
+      "title": "Otras cabezas peculiares",
+      "image": "assets/pach/PACH02PU.webp",
+      "text": "Muchos dinosaurios tenían cabezas que hoy nos parecen muy extrañas. El Pachycephalosaurus aparece aquí junto a cuatro hadrosaurios, dinosaurios de pico de pato famosos por sus cabezas de formas tan peculiares. Aunque similares en ese aspecto, el Pachycephalosaurus no era un hadrosaurio, sino que pertenece a una familia que lleva su nombre: los paquicefalosáuridos."
+    },
+    {
+      "id": "a-head-like-a-helmet",
+      "title": "Una cabeza como un casco",
+      "image": "assets/pach/PACH03PU.webp",
+      "text": "Pachycephalosaurus significa «reptil de cabeza gruesa». El cráneo de este dinosaurio medía unos noventa centímetros de longitud, y su parte superior estaba hecha de hueso macizo. Si ese grueso cráneo no era protección suficiente, el Pachycephalosaurus también tenía pinchos óseos en el hocico para ahuyentar a rivales y depredadores.",
+      "captions": [
+        {
+          "label": "Choques del Cretácico",
+          "text": "¡El ruido que producían los paquicefalosaurios al chocar sus cabezas debía de sonar como el golpe de dos bates de béisbol chocando entre sí!"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaur Provincial Park",
+      "to": "park"
+    },
+    {
+      "label": "Gobi Desert Expeditions",
+      "to": "gobi"
+    },
+    {
+      "label": "Parasaurolophus",
+      "to": "para"
+    },
+    {
+      "label": "Faces from the Past",
+      "to": "ftfb"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/pach/PACH00AA.webp",
+        "hotspots": [
+          {
+            "label": "Una cabeza como un casco",
+            "to": "a-head-like-a-helmet",
+            "x": 88,
+            "y": 29,
+            "w": 12,
+            "h": 8
+          },
+          {
+            "label": "Chocando sus cabezas",
+            "to": "hitting-their-heads-together",
+            "x": 70,
+            "y": 41,
+            "w": 29,
+            "h": 5
+          },
+          {
+            "label": "Otras cabezas peculiares",
+            "to": "other-peculiar-heads",
+            "x": 51,
+            "y": 63,
+            "w": 23,
+            "h": 5
+          }
+        ]
+      },
+      "hitting-their-heads-together": {
+        "image": "assets/pach/PACH01PU.webp",
+        "back": "main"
+      },
+      "other-peculiar-heads": {
+        "image": "assets/pach/PACH02PU.webp",
+        "back": "main"
+      },
+      "a-head-like-a-helmet": {
+        "image": "assets/pach/PACH03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/pach/PACH50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/pach/PACH00AP.mp3",
+  "narration": "assets/pach/PACH00AJ.mp3",
+  "fanTranslation": true
+}

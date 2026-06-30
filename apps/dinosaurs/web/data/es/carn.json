@@ -1,0 +1,165 @@
+{
+  "id": "carn",
+  "code": "CARN",
+  "name": "Cráneos de carnívoros",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Mandíbulas poderosas, dientes serrados y una fuerza capaz de triturar huesos: los cráneos de los carnosaurios revelan depredadores letales.",
+  "hero": {
+    "image": "assets/carn/CARN00AA.webp",
+    "alt": "Cráneos de carnívoros"
+  },
+  "intro": "Cuando sabes qué buscar, puedes reconocer fácilmente el cráneo de un animal carnívoro. Estos cráneos, que pertenecieron a grandes dinosaurios carnívoros llamados carnosaurios, tienen mandíbulas inferiores pesadas y dientes afilados y puntiagudos, lo que indica que estos dinosaurios desgarraban y arrancaban la carne.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "tyrannosaurus-rex-the-king",
+      "title": "Tiranosaurio Rex, el Rey",
+      "image": "assets/carn/CARN01PU.webp",
+      "text": "Quizás el más famoso de todos los dinosaurios, y uno de los últimos, fue el Tiranosaurio, también llamado Tyrannosaurus rex. Fue el animal carnívoro más grande que jamás haya vivido en tierra. Se han encontrado muy pocos ejemplares de Tyrannosaurus rex, y existen algunas dudas sobre la estructura exacta de su poderosa cola y la función de sus diminutas extremidades anteriores.",
+      "captions": [
+        {
+          "label": "Lo mío, con carne",
+          "text": "No hay duda sobre la dieta de este dinosaurio. Hay indicios claros de que es un carnívoro. Este cráneo tiene una poderosa estructura de mandíbula y dientes afilados y puntiagudos, ¡de hasta dieciocho centímetros de largo!"
+        }
+      ]
+    },
+    {
+      "id": "allosaurus",
+      "title": "Alosaurio",
+      "image": "assets/carn/CARN02PU.webp",
+      "text": "Este carnosaurio era casi tan grande como el Tyrannosaurus rex, y igual de feroz. Las filas dentadas de dientes curvados y serrados de este cráneo son típicas de los carnívoros. Las «ventanas» del macizo cráneo ayudaban a reducir su peso.",
+      "captions": [
+        {
+          "label": "Gran cavidad frente al ojo para los músculos de la mandíbula",
+          "text": "Gran cavidad frente al ojo para los músculos de la mandíbula"
+        },
+        {
+          "label": "Cuenca del ojo",
+          "text": "Cuenca del ojo"
+        },
+        {
+          "label": "Dientes grandes y serrados",
+          "text": "Dientes grandes y serrados"
+        },
+        {
+          "label": "Mandíbula inferior poderosa",
+          "text": "Mandíbula inferior poderosa"
+        }
+      ]
+    },
+    {
+      "id": "killers-by-land-and-by-sea",
+      "title": "Asesinos en tierra y en el mar",
+      "image": "assets/carn/CARN03PU.webp",
+      "text": "No todos los carnívoros prehistóricos vivían en tierra. Compara la mandíbula y los dientes del Albertosaurio, un carnosaurio, con los de un mosasaurio, un reptil marino que vivió durante la Era de los Dinosaurios.",
+      "captions": [
+        {
+          "label": "Mandíbula de mosasaurio",
+          "text": "Muchos dientes se han perdido de esta mandíbula fósil de mosasaurio. Pero puedes ver que los que se han conservado son muy puntiagudos, para atrapar y sujetar a las presas."
+        },
+        {
+          "label": "Mosasaurio",
+          "text": "Este lagarto marino llegaba a medir hasta nueve metros de largo, ¡el tamaño de un camión! Con su boca similar a la de un cocodrilo, podía zamparse todo tipo de criaturas marinas, incluidos los amonites de caparazón duro."
+        },
+        {
+          "label": "Mandíbula de carnosaurio",
+          "text": "Este hueso de mandíbula perteneció a un dinosaurio llamado Albertosaurio, y muestra todas las características clásicas de un carnívoro. La mandíbula es pesada, y los dientes son puntiagudos, tienen bordes serrados y se curvan ligeramente hacia atrás para ayudar a sujetar la comida."
+        }
+      ]
+    },
+    {
+      "id": "dual-diets",
+      "title": "Dietas mixtas",
+      "image": "assets/carn/CARN04PU.webp",
+      "text": "Algunos dinosaurios no encajan perfectamente en la categoría de carnívoro ni de herbívoro, sino que se sitúan en un punto intermedio. Los animales que pueden comer una variedad de alimentos se llaman omnívoros.",
+      "captions": [
+        {
+          "label": "Cráneo de Massospondylus",
+          "text": "Este cráneo perteneció a un dinosaurio llamado Massospondylus. Sus dientes eran pequeños y de bordes rugosos, ni afilados y serrados como los de un carnívoro, ni en forma de rastrillo o de muela como los de los herbívoros más modernos."
+        },
+        {
+          "label": "Massospondylus",
+          "text": "Aunque este dinosaurio tenía dientes para comer tanto plantas como carne, su cuerpo tiene forma de barril como el de un herbívoro, por lo que su dieta probablemente consistía principalmente en plantas."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Skulls of Plant-eaters",
+      "to": "vega"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/carn/CARN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Tiranosaurio Rex, el Rey",
+            "to": "tyrannosaurus-rex-the-king",
+            "x": 38,
+            "y": 17,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Asesinos en tierra y en el mar",
+            "to": "killers-by-land-and-by-sea",
+            "x": 22,
+            "y": 32,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Dietas mixtas",
+            "to": "dual-diets",
+            "x": 3,
+            "y": 42,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Alosaurio",
+            "to": "allosaurus",
+            "x": 22,
+            "y": 79,
+            "w": 15,
+            "h": 5
+          }
+        ]
+      },
+      "tyrannosaurus-rex-the-king": {
+        "image": "assets/carn/CARN01PU.webp",
+        "back": "main"
+      },
+      "allosaurus": {
+        "image": "assets/carn/CARN02PU.webp",
+        "back": "main"
+      },
+      "killers-by-land-and-by-sea": {
+        "image": "assets/carn/CARN03PU.webp",
+        "back": "main"
+      },
+      "dual-diets": {
+        "image": "assets/carn/CARN04PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/carn/CARN00AP.mp3",
+  "narration": "assets/carn/CARN00AJ.mp3",
+  "sound": "assets/carn/CARN00SA.mp3",
+  "fanTranslation": true
+}

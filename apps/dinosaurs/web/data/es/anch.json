@@ -1,0 +1,131 @@
+{
+  "id": "anch",
+  "code": "ANCH",
+  "name": "Anchisaurus",
+  "category": "dinosaur",
+  "scientificName": "Anchisaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "ANG-kih-SOR-us",
+  "meaning": "lagarto próximo",
+  "period": "Jurásico inferior",
+  "diet": "Herbívoro",
+  "tagline": "Uno de los primeros dinosaurios: tan pequeño que cabía en las manos, pero construido como los gigantes que estaban por llegar.",
+  "hero": {
+    "image": "assets/anch/ANCH00AA.webp",
+    "alt": "Anchisaurus"
+  },
+  "intro": "El Anchisaurus pertenecía a uno de los grupos más tempranos de dinosaurios, los prosaurópodos. Estos dinosaurios eran parientes de los gigantescos saurópodos herbívoros. De hecho, en el Anchisaurus se pueden apreciar muchas de las características de los saurópodos: una larga cola musculosa, un cuerpo grande en forma de barril, un cuello largo y una cabeza relativamente pequeña. El Anchisaurus, con sus cinco dedos, y sus primos prosaurópodos fueron los primeros dinosaurios de gran tamaño capaces de alimentarse de las copas de los árboles, además de comer plantas pequeñas y arbustos.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "África, América del Norte"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico Temprano"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto próximo"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Prosaurópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "2 m (7 pies)"
+    },
+    {
+      "label": "Peso",
+      "value": "60 lbs"
+    }
+  ],
+  "topics": [
+    {
+      "id": "small-head-huge-body",
+      "title": "Cabeza pequeña, cuerpo enorme",
+      "image": "assets/anch/ANCH01PU.webp",
+      "text": "El Anchisaurus tenía un cráneo bastante pequeño y ligero. Poseía dientes con serrado grueso que usaba para cortar tallos y hojas. Como otros miembros de la familia de los prosaurópodos, el Anchisaurus tenía una cabeza muy pequeña en proporción al resto de su cuerpo."
+    },
+    {
+      "id": "prosauropod-relatives",
+      "title": "Parientes prosaurópodos",
+      "image": "assets/anch/ANCH02PU.webp",
+      "text": "Aquí se muestra al Anchisaurus junto con algunos de sus parientes prosaurópodos de mayor tamaño. Los prosaurópodos se encuentran entre los primeros dinosaurios herbívoros de gran tamaño. Algunos expertos afirman que estos herbívoros crecieron tanto porque los comedores de plantas necesitaban sistemas digestivos más grandes que los carnívoros del mismo período.",
+      "captions": [
+        {
+          "label": "Massospondylus",
+          "text": "Este dinosaurio puede tener una constitución similar a la de uno de los grandes saurópodos, pero solo medía dieciséis pies de longitud. La cola del Diplodocus, uno de los saurópodos más grandes, medía cuarenta y cinco pies, ¡aproximadamente el triple de la longitud de un Massospondylus!"
+        },
+        {
+          "label": "Plateosaurus",
+          "text": "Este fue uno de los primeros dinosaurios, que vivió hace unos 200 millones de años."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Plant-eaters",
+      "to": "plan"
+    },
+    {
+      "label": "Dinosaur Diets",
+      "to": "diet"
+    },
+    {
+      "label": "Massospondylus",
+      "to": "mass"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/anch/ANCH00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cabeza pequeña, cuerpo enorme",
+            "to": "small-head-huge-body",
+            "x": 72,
+            "y": 35,
+            "w": 25,
+            "h": 10
+          },
+          {
+            "label": "Parientes prosaurópodos",
+            "to": "prosauropod-relatives",
+            "x": 28,
+            "y": 78,
+            "w": 28,
+            "h": 8
+          }
+        ]
+      },
+      "small-head-huge-body": {
+        "image": "assets/anch/ANCH01PU.webp",
+        "back": "main"
+      },
+      "prosauropod-relatives": {
+        "image": "assets/anch/ANCH02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/anch/ANCH50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/anch/ANCH00AP.mp3",
+  "narration": "assets/anch/ANCH00AJ.mp3",
+  "fanTranslation": true
+}

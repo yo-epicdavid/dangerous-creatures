@@ -1,0 +1,206 @@
+{
+  "id": "ftfa",
+  "code": "FTFA",
+  "name": "Cara a cara",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "FACE to FACE",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Nadie ha mirado jamás a un dinosaurio a los ojos, ¡pero las caras fosilizadas son lo más parecido que existe!",
+  "hero": {
+    "image": "assets/ftfa/FTFA00AA.webp",
+    "alt": "Cara a cara"
+  },
+  "intro": "Nadie ha visto jamás un dinosaurio vivo. Los dinosaurios se extinguieron hace 65 millones de años. Sin embargo, sus huesos, dientes, huellas e incluso moldes de su piel han quedado conservados en la roca como fósiles. Los paleontólogos han estudiado estos restos fosilizados y han reconstruido la imagen de estos extraños animales que dominaron nuestro mundo durante más de 150 millones de años. Aquí tienes algunas recreaciones artísticas de rostros del pasado más remoto.",
+  "facts": [
+    {
+      "label": "Extinción",
+      "value": "hace 65 millones de años"
+    },
+    {
+      "label": "Dominaron la Tierra durante",
+      "value": "más de 150 millones de años"
+    },
+    {
+      "label": "Conservados como",
+      "value": "huesos, dientes, huellas e incluso moldes de piel en la roca como fósiles"
+    },
+    {
+      "label": "Estudiados por",
+      "value": "paleontólogos"
+    }
+  ],
+  "topics": [
+    {
+      "id": "corythosaurus",
+      "title": "Corythosaurus",
+      "image": "assets/ftfa/FTFA01PU.webp",
+      "text": "Este dinosaurio de pico de pato lucía una cresta de aspecto majestuoso. Se han desarrollado numerosas teorías para intentar explicar el extraño adorno cefálico de los hadrosaurios como Corythosaurus."
+    },
+    {
+      "id": "chasmosaurus",
+      "title": "Chasmosaurus",
+      "image": "assets/ftfa/FTFA02PU.webp",
+      "text": "Un largo collarín cervical hacía destacar a este dinosaurio con cuernos entre los demás. Puede que tuviera un aspecto amenazador, pero, al igual que otros ceratopsios, Chasmosaurus se alimentaba de plantas."
+    },
+    {
+      "id": "parasaurolophus",
+      "title": "Parasaurolophus",
+      "image": "assets/ftfa/FTFA03PU.webp",
+      "text": "Este hadrosaurio lucía una característica cresta larga y hueca. Las evidencias fósiles nos indican que los hadrosaurios (dinosaurios de pico de pato) quizás vivían en manadas para protegerse de los depredadores."
+    },
+    {
+      "id": "styracosaurus",
+      "title": "Styracosaurus",
+      "image": "assets/ftfa/FTFA04PU.webp",
+      "text": "Un collar de pinchos era el rasgo más llamativo de este dinosaurio con cuernos. Los ceratopsios como Styracosaurus fueron algunos de los últimos dinosaurios en recorrer la Tierra, pues vivieron durante el Cretácico Superior."
+    },
+    {
+      "id": "struthiomimus",
+      "title": "Struthiomimus",
+      "image": "assets/ftfa/FTFA05PU.webp",
+      "text": "Este veloz dinosaurio tenía una constitución muy parecida a la de un avestruz, y probablemente corría por el paisaje igual que los avestruces de hoy en día. Tenía unos ojos excepcionalmente grandes y un cerebro relativamente desarrollado, lo que lo convertía en un cazador muy eficiente."
+    },
+    {
+      "id": "iguanodon",
+      "title": "Iguanodón",
+      "image": "assets/ftfa/FTFA06PU.webp",
+      "text": "Este gran herbívoro habitó en muchas partes del mundo. Al ser uno de los primeros dinosaurios identificados, se convirtió rápidamente en uno de los más famosos, aunque muchas de nuestras primeras imágenes de los dinosaurios como bestias cornudas similares a elefantes estaban muy lejos de la realidad."
+    },
+    {
+      "id": "hypsilophodon",
+      "title": "Hypsilophodon",
+      "image": "assets/ftfa/FTFA07PU.webp",
+      "text": "Un velocista que corría sobre dos patas, este dinosaurio era pequeño pero ágil. Hypsilophodon pertenece a uno de los dos grandes grupos de dinosaurios —los ornitisquios herbívoros— que existieron desde el Jurásico Superior hasta el final del Cretácico, sobreviviendo durante más de 100 millones de años."
+    },
+    {
+      "id": "apatosaurus",
+      "title": "Apatosaurio",
+      "image": "assets/ftfa/FTFA08PU.webp",
+      "text": "Este gigante de cuello largo arrancaba hojas de las copas de los árboles. Apatosaurio, o «lagarto engañoso», recibió un segundo nombre que ya no se utiliza pero que quizás resulta más apropiado: «lagarto del trueno», o Brontosaurio."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Story in a Skull",
+      "to": "stor"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/ftfa/FTFA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Struthiomimus",
+            "to": "struthiomimus",
+            "x": 2,
+            "y": 66,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Corythosaurus",
+            "to": "corythosaurus",
+            "x": 19,
+            "y": 42,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "Hypsilophodon",
+            "to": "hypsilophodon",
+            "x": 19,
+            "y": 62,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Iguanodón",
+            "to": "iguanodon",
+            "x": 8,
+            "y": 76,
+            "w": 15,
+            "h": 6
+          },
+          {
+            "label": "Parasaurolophus",
+            "to": "parasaurolophus",
+            "x": 61,
+            "y": 30,
+            "w": 21,
+            "h": 6
+          },
+          {
+            "label": "Styracosaurus",
+            "to": "styracosaurus",
+            "x": 43,
+            "y": 79,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Apatosaurio",
+            "to": "apatosaurus",
+            "x": 60,
+            "y": 58,
+            "w": 17,
+            "h": 6
+          },
+          {
+            "label": "Chasmosaurus",
+            "to": "chasmosaurus",
+            "x": 72,
+            "y": 47,
+            "w": 18,
+            "h": 6
+          }
+        ]
+      },
+      "corythosaurus": {
+        "image": "assets/ftfa/FTFA01PU.webp",
+        "back": "main"
+      },
+      "chasmosaurus": {
+        "image": "assets/ftfa/FTFA02PU.webp",
+        "back": "main"
+      },
+      "parasaurolophus": {
+        "image": "assets/ftfa/FTFA03PU.webp",
+        "back": "main"
+      },
+      "styracosaurus": {
+        "image": "assets/ftfa/FTFA04PU.webp",
+        "back": "main"
+      },
+      "struthiomimus": {
+        "image": "assets/ftfa/FTFA05PU.webp",
+        "back": "main"
+      },
+      "iguanodon": {
+        "image": "assets/ftfa/FTFA06PU.webp",
+        "back": "main"
+      },
+      "hypsilophodon": {
+        "image": "assets/ftfa/FTFA07PU.webp",
+        "back": "main"
+      },
+      "apatosaurus": {
+        "image": "assets/ftfa/FTFA08PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/ftfa/FTFA00AP.mp3",
+  "narration": "assets/ftfa/FTFA00AJ.mp3",
+  "sound": "assets/ftfa/FTFA00SA.mp3",
+  "fanTranslation": true
+}

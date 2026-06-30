@@ -1,0 +1,279 @@
+{
+  "id": "cent",
+  "code": "CENT",
+  "name": "Centrosaurus",
+  "category": "dinosaur",
+  "scientificName": "Centrosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "sen-troh-SOR-us",
+  "meaning": "lagarto de punta afilada",
+  "period": "Cretácico superior",
+  "diet": "Herbívoro",
+  "tagline": "¡El dinosaurio con gorguera de pinchos que formaba estampidas en manadas por Canadá!",
+  "hero": {
+    "image": "assets/cent/CENT00AA.webp",
+    "alt": "Centrosaurus"
+  },
+  "intro": "El Centrosaurus, o «lagarto de punta afilada», recibió su nombre por los numerosos pinchos cortos que rodean el borde de su gorguera cervical. Dos pinchos más grandes se curvaban hacia delante sobre unas «ventanas», que eran orificios en el hueso de la gorguera cubiertos de piel. Estas «ventanas» ayudaban a aligerar la cabeza del dinosaurio. Este dinosaurio también ha sido conocido con los nombres de Monoclonius y Eucentrosaurus.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto de punta afilada"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Ceratopsio"
+    },
+    {
+      "label": "Longitud",
+      "value": "6 m (20 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "canadian-stampede",
+      "title": "La estampida canadiense",
+      "image": "assets/cent/CENT01PU.webp",
+      "text": "Los esqueletos fósiles de toda una manada de Centrosaurus se han conservado en un único yacimiento de huesos en Alberta, Canadá. Los huesos hallados pertenecían a animales jóvenes y adultos, y algunos están rotos y aplastados como si hubieran sufrido una estampida. Al parecer, murieron cuando la manada intentaba cruzar un río embravecido; algunos fueron arrastrados por la corriente o pisoteados por los otros Centrosaurus que los rodeaban."
+    },
+    {
+      "id": "ceratopsian-family-portrait",
+      "title": "Retrato de familia de los ceratopsios",
+      "image": "assets/cent/CENT02PU.webp",
+      "text": "Los dinosaurios con cuernos, o ceratopsios, fueron uno de los últimos grupos de dinosaurios en evolucionar. Aquí aparece el Centrosaurus junto a algunos de sus parientes con cuernos. Sus gorgueras servían para anclar poderosos músculos mandibulares, necesarios para masticar su dura alimentación. Sus cráneos y gorgueras eran tan resistentes que muchos de estos fósiles han sobrevivido en buen estado a lo largo de los milenios.",
+      "captions": [
+        {
+          "label": "Chasmosaurus",
+          "text": "La gorguera de este dinosaurio era larga y ancha. Las enormes «ventanas» bajo la piel hacían que el cráneo de este dinosaurio pareciese partido por la mitad."
+        },
+        {
+          "label": "Protoceratops",
+          "text": "Este miembro asiático del grupo de los ceratopsios es considerablemente más pequeño que sus primos norteamericanos con cuernos. Se han encontrado nidos enteros de Protoceratops en Mongolia."
+        },
+        {
+          "label": "Styracosaurus",
+          "text": "Este «lagarto con púas» tenía seis largos pinchos que sobresalían de su gorguera cervical. Es posible que su cuerno nasal se usara como arma."
+        }
+      ]
+    },
+    {
+      "id": "a-tough-beak-for-tough-plants",
+      "title": "Un pico resistente para plantas resistentes",
+      "image": "assets/cent/CENT03PU.webp",
+      "text": "Algunos expertos creen que los dinosaurios ceratopsios, como el Centrosaurus, desarrollaron la capacidad especial de comer plantas duras. Con sus poderosas mandíbulas, sus duros picos y sus afilados dientes, es posible que comieran las hojas de las cícadas e incluso que se atreviesen con las piñas."
+    },
+    {
+      "id": "frilled-faces",
+      "title": "Caras con gorguera",
+      "image": "assets/cent/CENT04PU.webp",
+      "text": "Las gorgueras óseas de los dinosaurios con cuernos presentaban diferentes formas y tamaños. Las gorgueras anclaban enormes músculos que discurrían por los espacios del cráneo, detrás de los cuernos del arco supraorbital, hasta las mandíbulas. Estas gorgueras óseas también protegían el cuello cuando la cabeza se levantaba. Cuando bajaban la cabeza, las gorgueras se alzaban por encima del suelo. Los demás dinosaurios las veían y se mantenían a distancia.",
+      "captions": [
+        {
+          "label": "Pentaceratops",
+          "text": "El nombre de este dinosaurio significa «cara de cinco cuernos»."
+        },
+        {
+          "label": "Torosaurus",
+          "text": "Este dinosaurio tenía el cráneo más largo de todos. Medía casi dos metros y medio. ¡Eso es lo mismo que un coche pequeño!"
+        },
+        {
+          "label": "Styracosaurus",
+          "text": "El pincho nasal de este dinosaurio era sin duda un arma, pero la función de sus pinchos cervicales es menos clara. Podrían haberse usado para asustar a un enemigo o para impresionar a una posible pareja."
+        },
+        {
+          "label": "Centrosaurus",
+          "text": "Este dinosaurio tenía dos pinchos que se curvaban hacia delante, protegiendo presumiblemente las dos «ventanas» de su cráneo."
+        }
+      ]
+    },
+    {
+      "id": "horned-heads",
+      "title": "Cabezas con cuernos",
+      "image": "assets/cent/CENT05PU.webp",
+      "text": "Además de ser útil para la defensa, el Centrosaurus pudo haber usado su cuerno nasal para luchar con otros miembros de su misma especie. Muchos animales con cuernos hacen esto hoy en día, como el carnero de las Rocosas. Estas «peleas» establecen quién es el líder de la manada o quién tiene derecho a aparearse con las hembras."
+    },
+    {
+      "id": "built-for-strength",
+      "title": "Construido para la fuerza",
+      "image": "assets/cent/CENT06PU.webp",
+      "text": "Los esqueletos de los ceratopsios, o dinosaurios con cuernos, estaban especialmente adaptados para soportar su gran peso. Los tres primeros huesos del cuello situados tras el cráneo estaban fusionados en un único hueso sólido y resistente. Ocho vértebras estaban unidas a la pelvis, en lugar de las cinco habituales. Los ceratopsios eran dinosaurios de caderas de ave; la mayoría caminaba sobre cuatro robustas patas.",
+      "captions": [
+        {
+          "label": "Cabezas gruesas",
+          "text": "Un cráneo humano parece diminuto comparado con el del Triceratops. Los cráneos y gorgueras de los ceratopsios eran tan masivos y sólidos que estos fósiles se encuentran a menudo en un estado casi perfecto. ¡Imagínate los músculos del cuello que hacían falta para mover un cráneo tan grande!"
+        }
+      ]
+    },
+    {
+      "id": "not-so-weird",
+      "title": "No tan extraños",
+      "image": "assets/cent/CENT07PU.webp",
+      "text": "Los dinosaurios pueden parecer extraños con todas sus gorgueras y pinchos, pero muchas de estas características también pueden encontrarse en animales actuales.",
+      "captions": [
+        {
+          "label": "Gorgueras de lujo",
+          "text": "Algunos reptiles modernos tienen cuernos y gorgueras muy llamativos. Esta lagartija cornuda regia usa sus cuernos para intimidar a sus enemigos."
+        },
+        {
+          "label": "Furiosos al atacar",
+          "text": "Esta lagartija australiana de gorguera puede erizar su collarín cuando un depredador la sorprende. Su gorguera mide más de cuatro veces el ancho de su cuerpo."
+        },
+        {
+          "label": "¿Rinoceronte o dinosaurio?",
+          "text": "Un rinoceronte tiene la misma forma general y el mismo cuerno nasal que un dinosaurio ceratopsio. Al igual que el Centrosaurus, el feroz rinoceronte es también un herbívoro."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Horns",
+      "to": "horn"
+    },
+    {
+      "label": "Dinosaur Provincial Park",
+      "to": "park"
+    },
+    {
+      "label": "Styracosaurus",
+      "to": "styr"
+    },
+    {
+      "label": "Teeth of Plant-eaters",
+      "to": "ptee"
+    },
+    {
+      "label": "Faces from the Past",
+      "to": "ftfb"
+    },
+    {
+      "label": "Pachycephalosaurus",
+      "to": "pach"
+    },
+    {
+      "label": "Triceratops",
+      "to": "tric"
+    },
+    {
+      "label": "Iguana",
+      "to": "igna"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/cent/CENT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cabezas con cuernos",
+            "to": "horned-heads",
+            "x": 68,
+            "y": 22,
+            "w": 26,
+            "h": 7
+          },
+          {
+            "label": "Caras con gorguera",
+            "to": "frilled-faces",
+            "x": 70,
+            "y": 33,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Retrato de familia de los ceratopsios",
+            "to": "ceratopsian-family-portrait",
+            "x": 65,
+            "y": 44,
+            "w": 30,
+            "h": 7
+          },
+          {
+            "label": "Un pico resistente para plantas resistentes",
+            "to": "a-tough-beak-for-tough-plants",
+            "x": 60,
+            "y": 55,
+            "w": 35,
+            "h": 7
+          },
+          {
+            "label": "Construido para la fuerza",
+            "to": "built-for-strength",
+            "x": 68,
+            "y": 66,
+            "w": 28,
+            "h": 7
+          },
+          {
+            "label": "La estampida canadiense",
+            "to": "canadian-stampede",
+            "x": 2,
+            "y": 62,
+            "w": 26,
+            "h": 7
+          },
+          {
+            "label": "No tan extraños",
+            "to": "not-so-weird",
+            "x": 2,
+            "y": 78,
+            "w": 18,
+            "h": 7
+          }
+        ]
+      },
+      "canadian-stampede": {
+        "image": "assets/cent/CENT01PU.webp",
+        "back": "main"
+      },
+      "ceratopsian-family-portrait": {
+        "image": "assets/cent/CENT02PU.webp",
+        "back": "main"
+      },
+      "a-tough-beak-for-tough-plants": {
+        "image": "assets/cent/CENT03PU.webp",
+        "back": "main"
+      },
+      "frilled-faces": {
+        "image": "assets/cent/CENT04PU.webp",
+        "back": "main"
+      },
+      "horned-heads": {
+        "image": "assets/cent/CENT05PU.webp",
+        "back": "main"
+      },
+      "built-for-strength": {
+        "image": "assets/cent/CENT06PU.webp",
+        "back": "main"
+      },
+      "not-so-weird": {
+        "image": "assets/cent/CENT07PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/cent/CENT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/cent/CENT00AP.mp3",
+  "narration": "assets/cent/CENT00AJ.mp3",
+  "fanTranslation": true
+}

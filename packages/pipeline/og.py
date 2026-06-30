@@ -125,8 +125,9 @@ def render_card(web, hero_rel, name, subtitle, wordmark, palette, out):
     return out
 
 
-def make_all(web, data_dir, wordmark, palette, subtitle_fn, only=None, skip=DEFAULT_SKIP):
-    """Render og.jpg for every entry under data_dir (skips index/browse/quiz/etc.)."""
+def make_all(web, data_dir, wordmark, palette, subtitle_fn, only=None, skip=DEFAULT_SKIP, out_name="og.jpg"):
+    """Render og.jpg for every entry under data_dir (skips index/browse/quiz/etc.).
+    out_name lets a fan-translation locale write og-es.jpg next to the shared English media."""
     only = only or []
     n = 0
     for f in sorted(glob.glob(os.path.join(data_dir, "*.json"))):
@@ -137,7 +138,7 @@ def make_all(web, data_dir, wordmark, palette, subtitle_fn, only=None, skip=DEFA
             continue
         if only and d["id"] not in only:
             continue
-        out = os.path.join(os.path.dirname(os.path.join(web, d["hero"]["image"])), "og.jpg")
+        out = os.path.join(os.path.dirname(os.path.join(web, d["hero"]["image"])), out_name)
         render_card(web, d["hero"]["image"], d["name"], subtitle_fn(d), wordmark, palette, out)
         n += 1
     print(f"wrote {n} OG images -> {data_dir}")

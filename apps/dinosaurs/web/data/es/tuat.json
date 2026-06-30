@@ -1,0 +1,159 @@
+{
+  "id": "tuat",
+  "code": "TUAT",
+  "name": "Tuátara",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "TOO-uh-TAH-rah",
+  "meaning": "Lomo espinoso",
+  "period": "Actualidad",
+  "diet": "",
+  "tagline": "¡El único superviviente de la era de los dinosaurios: un reptil de lomo espinoso que puede vivir más de 120 años!",
+  "hero": {
+    "image": "assets/tuat/TUAT00AA.webp",
+    "alt": "Tuátara"
+  },
+  "intro": "El tuátara es el único superviviente de un grupo de reptiles que apareció junto a los dinosaurios hace unos 200 millones de años. Los tuátaras solo se encuentran en algunas pequeñas islas de la costa de Nueva Zelanda. La estructura de su cráneo y la cresta de pequeñas espinas que recorre toda la longitud de su lomo hacen que el tuátara esté más emparentado con los dinosaurios que con los lagartos actuales.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Nueva Zelanda"
+    },
+    {
+      "label": "Época",
+      "value": "Presente"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Lomo espinoso"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Lagarto moderno"
+    },
+    {
+      "label": "Longitud",
+      "value": "60 cm (2 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "skull-structure",
+      "title": "Estructura del cráneo",
+      "image": "assets/tuat/TUAT01PU.webp",
+      "text": "La estructura del cráneo del tuátara es lo que lo distingue de los lagartos modernos. El tuátara tiene dos arcos óseos en la parte posterior del cráneo, similares a los de un cocodrilo. En la mayoría de los lagartos modernos, uno o ambos arcos están ausentes.",
+      "captions": [
+        {
+          "label": "Cráneo de tuátara",
+          "text": "Cráneo de tuátara"
+        },
+        {
+          "label": "Tuátara",
+          "text": "Tuátara"
+        }
+      ]
+    },
+    {
+      "id": "a-long-slow-lifestyle",
+      "title": "Una vida larga y tranquila",
+      "image": "assets/tuat/TUAT02PU.webp",
+      "text": "Los tuátaras macho alcanzan una longitud de unos dos pies; las hembras son algo más pequeñas. Tienen una velocidad de crecimiento extremadamente lenta y, a veces, siguen creciendo a los cincuenta o sesenta años. Los tuátaras alcanzan la madurez sexual hacia los veinte años de edad. ¡Pueden vivir más de 120 años!\n\nIncubación prolongada\nTras el apareamiento, la hembra almacena el esperma durante diez o doce meses y luego pone entre cinco y quince huevos en una madriguera poco profunda. Los huevos tardan otros quince meses en eclosionar, lo que constituye el período de incubación más largo conocido de cualquier reptil.",
+      "captions": [
+        {
+          "label": "Tuátara macho",
+          "text": "Tuátara macho"
+        },
+        {
+          "label": "Tuátara hembra",
+          "text": "Tuátara hembra"
+        }
+      ]
+    },
+    {
+      "id": "other-differences-from-lizards",
+      "title": "Otras diferencias respecto a los lagartos",
+      "image": "assets/tuat/TUAT03PU.webp",
+      "text": "Los tuátaras nacen con un órgano especial en lo alto de la cabeza que parece un tercer «ojo». Este órgano es sensible a la luz y puede actuar como termostato para regular la temperatura corporal o como reloj biológico para controlar diversos procesos a lo largo de la vida del animal. A medida que el tuátara crece, la piel se espesa sobre este órgano y lo oculta a la vista."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Iguana",
+      "to": "igna"
+    },
+    {
+      "label": "Dimetrodon",
+      "to": "dime"
+    },
+    {
+      "label": "Birth and Growth",
+      "to": "birt"
+    },
+    {
+      "label": "Living Fossils",
+      "to": "ddec"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/tuat/TUAT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Estructura del cráneo",
+            "to": "skull-structure",
+            "x": 5,
+            "y": 55,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Otras diferencias respecto a los lagartos",
+            "to": "other-differences-from-lizards",
+            "x": 28,
+            "y": 38,
+            "w": 33,
+            "h": 5
+          },
+          {
+            "label": "Una vida larga y tranquila",
+            "to": "a-long-slow-lifestyle",
+            "x": 22,
+            "y": 74,
+            "w": 27,
+            "h": 5
+          }
+        ]
+      },
+      "skull-structure": {
+        "image": "assets/tuat/TUAT01PU.webp",
+        "back": "main"
+      },
+      "a-long-slow-lifestyle": {
+        "image": "assets/tuat/TUAT02PU.webp",
+        "back": "main"
+      },
+      "other-differences-from-lizards": {
+        "image": "assets/tuat/TUAT03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/tuat/TUAT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/tuat/TUAT00AP.mp3",
+  "narration": "assets/tuat/TUAT00AJ.mp3",
+  "fanTranslation": true
+}

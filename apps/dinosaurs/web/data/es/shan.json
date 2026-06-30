@@ -1,0 +1,141 @@
+{
+  "id": "shan",
+  "code": "SHAN",
+  "name": "Shantungosaurus",
+  "category": "dinosaur",
+  "scientificName": "Shantungosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "shan-TUNG-oh-SOR-us",
+  "meaning": "Reptil de Shandong",
+  "period": "Cretácico superior",
+  "diet": "Herbívoro",
+  "tagline": "¡El dinosaurio de pico de pato más grande jamás descubierto, tan alto que podría asomarse por encima de un edificio de tres plantas!",
+  "hero": {
+    "image": "assets/shan/SHAN00AA.webp",
+    "alt": "Shantungosaurus"
+  },
+  "intro": "Con unos quince metros de longitud, el Shantungosaurus es el dinosaurio de pico de pato más grande que se conoce. ¡De pie sobre sus patas traseras, habría podido asomarse por encima de un edificio de tres plantas! El Shantungosaurus pesaba hasta cinco toneladas. Su cola, que mantenía estirada y rígida mientras caminaba, representaba casi la mitad de su longitud total y probablemente le servía para contrarrestar el peso de su enorme cuerpo.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Asia"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Reptil de Shandong"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Ornitópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "18 m (52 ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "from-a-big-family",
+      "title": "De una gran familia",
+      "image": "assets/shan/SHAN01PU.webp",
+      "text": "El Shantungosaurus es un miembro chino de la familia de los hadrosaurios, dinosaurios herbívoros de gran tamaño. Los hadrosaurios eran conocidos no solo por sus picos similares al de un pato y su gran cantidad de dientes, sino también por las peculiares crestas en la cabeza que lucían muchos de ellos.",
+      "captions": [
+        {
+          "label": "Corythosaurus",
+          "text": "Este hadrosaurio tenía una cresta en forma de abanico sobre la cabeza. Viajaba en manadas y era un animal muy frecuente en Norteamérica durante el período Cretácico."
+        },
+        {
+          "label": "Saurolophus",
+          "text": "Este dinosaurio probablemente tenía un pliegue de piel sobre la cabeza que podía inflar como un globo."
+        },
+        {
+          "label": "Shantungosaurus",
+          "text": "Este dinosaurio parece bastante corriente en comparación con sus primos hadrosaurios."
+        },
+        {
+          "label": "Parasaurolophus",
+          "text": "Este dinosaurio tenía una larga cresta craneal hueca. Probablemente la usaba como resonador para amplificar su voz."
+        }
+      ]
+    },
+    {
+      "id": "born-to-chew",
+      "title": "Nacido para masticar",
+      "image": "assets/shan/SHAN02PU.webp",
+      "text": "Los dinosaurios de pico de pato tenían mandíbulas diseñadas para triturar y aplastar plantas, igual que hacen hoy en día las vacas y los caballos. El Shantungosaurus, como otros hadrosaurios, tenía hileras de dientes en forma de diamante que se solapaban entre sí y le permitían machacar la vegetación más dura. Un dinosaurio de pico de pato no masticaba moviendo las mandíbulas de lado a lado como una vaca. En cambio, al cerrar las mandíbulas, la mandíbula inferior empujaba hacia afuera ambos lados de la mandíbula superior, haciendo que las hileras de dientes se frotaran entre sí y triturando todo lo que hubiera en la boca del hadrosaurio.",
+      "captions": [
+        {
+          "label": "Dientes de recambio",
+          "text": "Aquí se pueden ver las hileras de dientes superpuestos. Los hadrosaurios tenían cientos de dientes en su boca. Cuando un diente se desgastaba o caía, el dinosaurio simplemente hacía crecer uno nuevo en su lugar."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "A Tale of Tails",
+      "to": "tale"
+    },
+    {
+      "label": "Parasaurolophus",
+      "to": "para"
+    },
+    {
+      "label": "Plant-eaters",
+      "to": "plan"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/shan/SHAN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Nacido para masticar",
+            "to": "born-to-chew",
+            "x": 76,
+            "y": 40,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "De una gran familia",
+            "to": "from-a-big-family",
+            "x": 8,
+            "y": 82,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "from-a-big-family": {
+        "image": "assets/shan/SHAN01PU.webp",
+        "back": "main"
+      },
+      "born-to-chew": {
+        "image": "assets/shan/SHAN02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/shan/SHAN50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/shan/SHAN00AP.mp3",
+  "narration": "assets/shan/SHAN00AJ.mp3",
+  "fanTranslation": true
+}

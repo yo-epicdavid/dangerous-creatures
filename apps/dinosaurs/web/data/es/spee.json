@@ -1,0 +1,154 @@
+{
+  "id": "spee",
+  "code": "SPEE",
+  "name": "Dinosaurios veloces",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "SPEE-dee DY-nuh-SORS",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "¡Más de la mitad de todos los dinosaurios estaban diseñados para correr rápido, lanzándose a la carrera sobre dos patas para perseguir a sus presas o escapar del peligro!",
+  "hero": {
+    "image": "assets/spee/SPEE00AA.webp",
+    "alt": "Dinosaurios veloces"
+  },
+  "intro": "La gente suele imaginarse a los dinosaurios como criaturas gigantescas, lentas y torpes. Pero en realidad, más de la mitad de todos los dinosaurios eran animales pequeños, y muchos estaban diseñados para correr rápido, ya fuera para huir de sus atacantes o para perseguir a sus presas. A diferencia de los animales más rápidos de hoy en día, que tienen cuatro patas, los dinosaurios más veloces corrían todos sobre dos patas y tendían a tener un aspecto bastante similar.",
+  "facts": [
+    {
+      "label": "Patas para correr",
+      "value": "Estos huesos de las patas, que pertenecieron a un pequeño dinosaurio llamado Hipsilofodón, nos muestran las características especiales de los dinosaurios que se movían rápido. Los huesos principales de las patas son esbeltos pero resistentes, y tienen zonas especiales de inserción ósea para músculos potentes. Los pies son bastante estrechos."
+    }
+  ],
+  "topics": [
+    {
+      "id": "dinosaur-derby",
+      "title": "La carrera de los dinosaurios",
+      "image": "assets/spee/SPEE01PU.webp",
+      "text": "Midiendo sus huellas, sus zancadas, sus patas y comparando sus formas con las de los animales modernos, los expertos pueden estimar las velocidades a las que corrían los dinosaurios.",
+      "captions": [
+        {
+          "label": "Reptiles veloces",
+          "text": "Algunos científicos han calculado que los dinosaurios veloces, como el Gálimimo, pudieron alcanzar velocidades de hasta unos cincuenta y seis kilómetros por hora, ¡casi tan rápido como un caballo de carreras!"
+        },
+        {
+          "label": "Hasta la línea de meta",
+          "text": "Estos caballos de pura sangre son algunos de los animales más rápidos que existen hoy en día. Si se celebrara una carrera entre un Gálimimo y un caballo de carreras, ¿quién crees que ganaría?"
+        }
+      ]
+    },
+    {
+      "id": "ostrich-dinosaurs",
+      "title": "Dinosaurios avestruz",
+      "image": "assets/spee/SPEE02PU.webp",
+      "text": "Un grupo de dinosaurios bastante pequeños y veloces es conocido como los «dinosaurios avestruz», por su evidente parecido con el ave actual. Todos los dinosaurios avestruz eran carnívoros que caminaban sobre dos patas.",
+      "captions": [
+        {
+          "label": "El primero en llegar",
+          "text": "El nombre de Struthiomimus significa «imitador del avestruz». Con sus largas patas, su largo cuello, su pequeña cabeza y sus mandíbulas sin dientes en forma de pico, este dinosaurio de casi dos metros de altura tenía un aspecto notablemente similar en tamaño y forma, y probablemente podía correr tan rápido como un avestruz: casi cincuenta kilómetros por hora."
+        }
+      ]
+    },
+    {
+      "id": "nimble-hunters",
+      "title": "Cazadores ágiles",
+      "image": "assets/spee/SPEE03PU.webp",
+      "text": "Ornitholestes, cuyo nombre significa «ladrón de pájaros», era típico de los pequeños y ágiles dinosaurios que comían todo lo que podían atrapar: insectos, ranas, lagartos, ¡incluso una cría de dinosaurio! A menudo se representa a Ornitholestes persiguiendo al Archaeopteryx, que se cree que fue el ave más antigua conocida y probablemente no podía volar bien."
+    },
+    {
+      "id": "running-from-danger",
+      "title": "Huyendo del peligro",
+      "image": "assets/spee/SPEE04PU.webp",
+      "text": "Si los depredadores de dos patas podían correr rápido, los pequeños herbívoros necesitaban correr aún más deprisa para no ser devorados. El Hipsilofodón, un pequeño herbívoro, no tenía nada más que su velocidad para defenderse. Su constitución sugiere que simplemente huía del peligro. Su esqueleto esbelto y su cola rígida son características de los dinosaurios velocistas."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Deinonychus",
+      "to": "dein"
+    },
+    {
+      "label": "Gallimimus",
+      "to": "gall"
+    },
+    {
+      "label": "Dromiceiomimus",
+      "to": "drom"
+    },
+    {
+      "label": "Velociraptor",
+      "to": "velo"
+    },
+    {
+      "label": "Lesothosaurus",
+      "to": "leso"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/spee/SPEE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cazadores ágiles",
+            "to": "nimble-hunters",
+            "x": 65,
+            "y": 32,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Huyendo del peligro",
+            "to": "running-from-danger",
+            "x": 60,
+            "y": 44,
+            "w": 25,
+            "h": 7
+          },
+          {
+            "label": "Dinosaurios avestruz",
+            "to": "ostrich-dinosaurs",
+            "x": 10,
+            "y": 72,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "La carrera de los dinosaurios",
+            "to": "dinosaur-derby",
+            "x": 42,
+            "y": 72,
+            "w": 18,
+            "h": 6
+          }
+        ]
+      },
+      "dinosaur-derby": {
+        "image": "assets/spee/SPEE01PU.webp",
+        "back": "main"
+      },
+      "ostrich-dinosaurs": {
+        "image": "assets/spee/SPEE02PU.webp",
+        "back": "main"
+      },
+      "nimble-hunters": {
+        "image": "assets/spee/SPEE03PU.webp",
+        "back": "main"
+      },
+      "running-from-danger": {
+        "image": "assets/spee/SPEE04PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/spee/SPEE00AP.mp3",
+  "narration": "assets/spee/SPEE00AJ.mp3",
+  "sound": "assets/spee/SPEE00SA.mp3",
+  "fanTranslation": true
+}

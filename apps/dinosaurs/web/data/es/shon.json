@@ -1,0 +1,181 @@
+{
+  "id": "shon",
+  "code": "SHON",
+  "name": "Shonisaurus",
+  "category": "creature",
+  "scientificName": "Shonisaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "show-nih-SOR-us",
+  "meaning": "Lagarto oculto",
+  "period": "Triásico",
+  "diet": "Carnívoro",
+  "tagline": "Un gigantesco reptil marino que tenía el aspecto de un delfín, pero que era mucho más antiguo y mortífero.",
+  "hero": {
+    "image": "assets/shon/SHON00AA.webp",
+    "alt": "Shonisaurus"
+  },
+  "intro": "Imagina un delfín más largo que ocho hombres juntos, con una boca estrecha y puntiaguda llena de dientes afilados, y sabrás cómo era el Shonisaurus. Al igual que una enorme marsopa prehistórica, el Shonisaurus surcaba los océanos en busca de peces y otras presas.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Triásico"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Lagarto oculto"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Ictiosaurio"
+    },
+    {
+      "label": "Longitud",
+      "value": "15 m (50 pies)"
+    },
+    {
+      "label": "Nota",
+      "value": "El ictiosaurio más grande del que se tiene registro, el Shonisaurus era un nadador extraordinario."
+    }
+  ],
+  "topics": [
+    {
+      "id": "streamlined-swimmer",
+      "title": "Nadador Hidrodinámico",
+      "image": "assets/shon/SHON01PU.webp",
+      "text": "Al igual que los delfines y marsopas actuales, el Shonisaurus, con su cuerpo hidrodinámico, sus aletas y su cola, estaba perfectamente adaptado a la vida en el agua. Sin embargo, el Shonisaurus era un reptil marino, un ictiosaurio, mientras que los delfines que conocemos hoy son mamíferos.",
+      "captions": [
+        {
+          "label": "Remadores escamosos",
+          "text": "El Shonisaurus usaba sus aletas para impulsarse por los mares, igual que hacen los delfines hoy en día. Sus aletas eran palas rígidas cubiertas de escamas, tal y como muestra esta impresión."
+        }
+      ]
+    },
+    {
+      "id": "preserved-for-posterity",
+      "title": "Conservado para la posteridad",
+      "image": "assets/shon/SHON02PU.webp",
+      "text": "Este espécimen de ictiosaurio jurásico, de extraordinario detalle, muestra el contorno de los tejidos blandos del reptil, así como todos los huesos del esqueleto."
+    },
+    {
+      "id": "what-a-lot-of-teeth",
+      "title": "¡Qué cantidad de dientes!",
+      "image": "assets/shon/SHON03PU.webp",
+      "text": "Los ictiosaurios como el Shonisaurus tenían las mandíbulas repletas de dientes pequeños y afilados. Sus poderosos músculos mandibulares podían cerrarse con rapidez sobre un pez o un molusco, y los dientes puntiagudos retenían a la presa en su sitio.",
+      "captions": [
+        {
+          "label": "Terror dentudo",
+          "text": "Este cráneo fosilizado de ictiosaurio muestra claramente el impresionante conjunto de dientes que el animal marino utilizaba para perforar a sus presas."
+        },
+        {
+          "label": "Hallazgo fósil",
+          "text": "Estos son los dientes fosilizados de un ictiosaurio como el Shonisaurus. Estos dientes perforantes no habrían tenido ningún problema para aplastar la dura concha de un amonites. Con frecuencia, los dientes y los huesos son los únicos restos que se encuentran de los animales prehistóricos."
+        }
+      ]
+    },
+    {
+      "id": "uncovering-an-ichthyosaur",
+      "title": "Descubriendo un ictiosaurio",
+      "image": "assets/shon/SHON04PU.webp",
+      "text": "Los acantilados de la costa sur de Inglaterra contienen abundantes fósiles de animales que vivieron en el mar durante el Jurásico. Entre 1810 y 1812, la cazadora de fósiles Mary Anning (1799-1847) y su hermano excavaron un ictiosaurio completo cerca de la localidad de Lyme Regis. En aquel momento pensaron que el esqueleto pertenecía a un cocodrilo antiguo."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Triassic Period",
+      "to": "tria"
+    },
+    {
+      "label": "Life After Dinosaurs",
+      "to": "aftr"
+    },
+    {
+      "label": "What is a Fossil?",
+      "to": "foss"
+    },
+    {
+      "label": "Eryops",
+      "to": "eryo"
+    },
+    {
+      "label": "Early Dinosaur Detectives",
+      "to": "edet"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/shon/SHON00AA.webp",
+        "hotspots": [
+          {
+            "label": "Nadador Hidrodinámico",
+            "to": "streamlined-swimmer",
+            "x": 5,
+            "y": 57,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "¡Qué cantidad de dientes!",
+            "to": "what-a-lot-of-teeth",
+            "x": 67,
+            "y": 38,
+            "w": 27,
+            "h": 6
+          },
+          {
+            "label": "Conservado para la posteridad",
+            "to": "preserved-for-posterity",
+            "x": 63,
+            "y": 56,
+            "w": 30,
+            "h": 6
+          },
+          {
+            "label": "Descubriendo un ictiosaurio",
+            "to": "uncovering-an-ichthyosaur",
+            "x": 58,
+            "y": 72,
+            "w": 34,
+            "h": 6
+          }
+        ]
+      },
+      "streamlined-swimmer": {
+        "image": "assets/shon/SHON01PU.webp",
+        "back": "main"
+      },
+      "preserved-for-posterity": {
+        "image": "assets/shon/SHON02PU.webp",
+        "back": "main"
+      },
+      "what-a-lot-of-teeth": {
+        "image": "assets/shon/SHON03PU.webp",
+        "back": "main"
+      },
+      "uncovering-an-ichthyosaur": {
+        "image": "assets/shon/SHON04PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/shon/SHON50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/shon/SHON00AP.mp3",
+  "narration": "assets/shon/SHON00AJ.mp3",
+  "fanTranslation": true
+}

@@ -1,0 +1,199 @@
+{
+  "id": "vega",
+  "code": "VEGA",
+  "name": "Cráneos de los herbívoros",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Desde dientes finos como lápices hasta picos de loro, los herbívoros encontraron todos los trucos posibles para masticar las plantas prehistóricas.",
+  "hero": {
+    "image": "assets/vega/VEGA00AA.webp",
+    "alt": "Cráneos de los herbívoros"
+  },
+  "intro": "Muchos dinosaurios eran pacíficos herbívoros que ramoneaban entre las copas de los árboles o arrancaban plantas cerca del suelo. ¿Cómo podemos saber si un dinosaurio se alimentaba de plantas? Un cuerpo con forma de barril es una pista: se necesita un gran estómago para digerir los vegetales. Un cuello largo para alcanzar los árboles es otra, aunque no todos los herbívoros tenían el cuello largo. Pero la mayoría de las pistas sobre qué comía un dinosaurio y cómo lo hacía se encuentran en su cráneo y sus dientes.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "diplodocus",
+      "title": "Diplodocus",
+      "image": "assets/vega/VEGA01PU.webp",
+      "text": "Aunque el cráneo del Diplodocus se parece al de un caballo, y ambos animales eran herbívoros, tenían formas muy distintas de comer y digerir las plantas.",
+      "captions": [
+        {
+          "label": "Arrancador de plantas",
+          "text": "En la parte delantera de la boca del Diplodocus se encuentran todos sus dientes finos, como lápices. Este dinosaurio no podía masticar con esos dientes, sino que los usaba como un rastrillo para recoger agujas de pino y hojas. Para desmenuzar la materia vegetal más dura, el dinosaurio tragaba piedras que trituraban el alimento en su estómago."
+        },
+        {
+          "label": "Masticador de plantas",
+          "text": "Los distintos tipos de dientes en esta mandíbula de caballo nos indican cómo come el animal. Con los incisivos de la parte delantera, el caballo arranca bocados de hierba; luego, con los anchos molares traseros, tritura la materia vegetal antes de tragarla. Los seres humanos comemos de manera muy similar: arrancamos trozos de comida y luego los masticamos hasta hacerlos pequeños antes de tragar."
+        }
+      ]
+    },
+    {
+      "id": "edmontosaurus",
+      "title": "Edmontosaurus",
+      "image": "assets/vega/VEGA02PU.webp",
+      "text": "Como todos los hadrosaurios, el Edmontosaurus tenía un pico parecido al de un pato en la parte delantera de la boca, en lugar de dientes. En la parte trasera, el dinosaurio contaba con cientos de dientes dispuestos en filas. A medida que los dientes viejos se desgastaban, crecían otros nuevos para reemplazarlos. Siempre había disponible un conjunto de dientes frescos y afilados, lo que permitía al dinosaurio triturar incluso las plantas más duras. Esta disposición otorgaba a los hadrosaurios una ventaja sobre otros herbívoros y puede ayudar a explicar por qué fueron de los últimos dinosaurios en extinguirse."
+    },
+    {
+      "id": "strange-shapes",
+      "title": "Formas extrañas",
+      "image": "assets/vega/VEGA03PU.webp",
+      "text": "No todos los dinosaurios herbívoros tenían el aspecto del Edmontosaurus o el Diplodocus. Los dinosaurios herbívoros existían en muchos tamaños y formas, con tipos de cráneos muy distintos.",
+      "captions": [
+        {
+          "label": "Parasaurolophus",
+          "text": "Lo que hacía este dinosaurio con su singular cresta cefálica sigue siendo un misterio. Tal vez la estructura ósea hueca le permitía emitir mugidos o bramidos inconfundibles, o quizá simplemente sostenía un pliegue de piel."
+        },
+        {
+          "label": "Pachycephalosaurus",
+          "text": "¡Este dinosaurio de «cabeza dura» tenía un cráneo grueso con forma de casco de fútbol americano! Es posible que usara esa gruesa cabeza en combates a topetazos con otros de su especie."
+        },
+        {
+          "label": "Camarasaurus",
+          "text": "Aunque este dinosaurio era un saurópodo como el Edmontosaurus y el Diplodocus, tenía un cráneo redondeado y la boca llena de dientes cortantes."
+        }
+      ]
+    },
+    {
+      "id": "bird-like-beaks",
+      "title": "Picos de pájaro",
+      "image": "assets/vega/VEGA04PU.webp",
+      "text": "No solo algunos dinosaurios tenían picos parecidos al de un pato, como el Edmontosaurus, sino que unos pocos tenían picos afilados y curvados, ¡como los loros!",
+      "captions": [
+        {
+          "label": "Psittacosaurus",
+          "text": "Es fácil entender por qué los paleontólogos eligieron el nombre de «lagarto loro» para este dinosaurio. El Psittacosaurus usaba su afilado pico para cortar tallos leñosos. Sin embargo, a diferencia de un loro, el dinosaurio también tenía dientes para masticar el alimento. Hallado en Asia, fue el antepasado de los grandes dinosaurios con cuernos de América del Norte."
+        },
+        {
+          "label": "Triceratops",
+          "text": "Los expertos creen que los dinosaurios ceratopsios como el Triceratops pueden haber evolucionado para alimentarse de las plantas más duras que crecían en su entorno. El Triceratops cortaba hojas y tallos resistentes con su pico ganchudo y luego usaba sus dientes en forma de tijera para triturar la vegetación."
+        }
+      ]
+    },
+    {
+      "id": "dumbbells",
+      "title": "¿Cabezas huecas?",
+      "image": "assets/vega/VEGA05PU.webp",
+      "text": "Para calcular la inteligencia, los paleontólogos miden el tamaño de la cavidad craneal de un cráneo y luego comparan el tamaño del cerebro con el tamaño total del animal. Según los resultados de esta prueba, algunos dinosaurios puede que no fueran muy listos, pero otros eran tan inteligentes como algunos pájaros actuales. Puede que estos gigantes no fueran demasiado espabilados, pero es evidente que tenían la inteligencia necesaria para sobrevivir en su entorno. Sobrevivieron durante millones de años, mucho más tiempo del que los seres humanos llevamos existiendo en la Tierra.",
+      "captions": [
+        {
+          "label": "¿Estegosaurios tontos?",
+          "text": "¡Los dinosaurios con placas, como el Estegosaurio y el Tuojiangosaurus, tenían cerebros del tamaño de una nuez!"
+        },
+        {
+          "label": "¿Era el Diplodocus el más tonto?",
+          "text": "Según algunos expertos, este saurópodo tenía la menor proporción de cerebro respecto al cuerpo de todos los dinosaurios. ¿Significa esto que era el más tonto de todos? Aun así, seguía siendo más inteligente que los reptiles actuales."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Heterodontosaurus",
+      "to": "hete"
+    },
+    {
+      "label": "How to Recognize Sauropods",
+      "to": "hsau"
+    },
+    {
+      "label": "Edmontosaurus",
+      "to": "edmo"
+    },
+    {
+      "label": "Face to Face",
+      "to": "ftfa"
+    },
+    {
+      "label": "Psittacosaurus",
+      "to": "psit"
+    },
+    {
+      "label": "How to Recognize Stegosaurs",
+      "to": "hstg"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/vega/VEGA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Diplodocus",
+            "to": "diplodocus",
+            "x": 33,
+            "y": 36,
+            "w": 12,
+            "h": 4
+          },
+          {
+            "label": "Edmontosaurus",
+            "to": "edmontosaurus",
+            "x": 15,
+            "y": 73,
+            "w": 14,
+            "h": 4
+          },
+          {
+            "label": "Formas extrañas",
+            "to": "strange-shapes",
+            "x": 57,
+            "y": 59,
+            "w": 13,
+            "h": 4
+          },
+          {
+            "label": "Picos de pájaro",
+            "to": "bird-like-beaks",
+            "x": 40,
+            "y": 70,
+            "w": 13,
+            "h": 4
+          },
+          {
+            "label": "¿Cabezas huecas?",
+            "to": "dumbbells",
+            "x": 72,
+            "y": 57,
+            "w": 10,
+            "h": 4
+          }
+        ]
+      },
+      "diplodocus": {
+        "image": "assets/vega/VEGA01PU.webp",
+        "back": "main"
+      },
+      "edmontosaurus": {
+        "image": "assets/vega/VEGA02PU.webp",
+        "back": "main"
+      },
+      "strange-shapes": {
+        "image": "assets/vega/VEGA03PU.webp",
+        "back": "main"
+      },
+      "bird-like-beaks": {
+        "image": "assets/vega/VEGA04PU.webp",
+        "back": "main"
+      },
+      "dumbbells": {
+        "image": "assets/vega/VEGA05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/vega/VEGA00AP.mp3",
+  "narration": "assets/vega/VEGA00AJ.mp3",
+  "sound": "assets/vega/VEGA00SA.mp3",
+  "fanTranslation": true
+}

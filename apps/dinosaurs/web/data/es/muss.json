@@ -1,0 +1,137 @@
+{
+  "id": "muss",
+  "code": "MUSS",
+  "name": "Mussaurus",
+  "category": "dinosaur",
+  "scientificName": "Mussaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "moo-SOR-us",
+  "meaning": "lagarto ratón",
+  "period": "Triásico superior",
+  "diet": "Herbívoro",
+  "tagline": "¡El dinosaurio más pequeño jamás registrado... y los expertos creen que es solo una cría!",
+  "hero": {
+    "image": "assets/muss/MUSS00AA.webp",
+    "alt": "Mussaurus"
+  },
+  "intro": "Mucha gente imagina los dinosaurios como gigantes, pero los había de todas las formas y tamaños. El Mussaurus era tan pequeño que recibió el nombre de «lagarto ratón». Este dinosaurio, de menos de veinticinco centímetros de longitud de la cabeza a la cola, fue hallado en un nido junto con huevos de dinosaurio, por lo que los científicos creen que probablemente era una cría de prosauropodo, un herbívoro primitivo que llegó a medir varios metros de longitud.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "América del Sur"
+    },
+    {
+      "label": "Época",
+      "value": "Triásico tardío"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Lagarto ratón"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Prosauropodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "2 m (6,5 pies)"
+    },
+    {
+      "label": "Nota",
+      "value": "Es el dinosaurio más pequeño del registro fósil; los expertos creen que es solo una cría."
+    }
+  ],
+  "topics": [
+    {
+      "id": "why-so-small",
+      "title": "¿Por qué tan pequeño?",
+      "image": "assets/muss/MUSS01PU.webp",
+      "text": "Ser pequeño tiene sus ventajas. Los dinosaurios pequeños eran rápidos y podían esconderse fácilmente de los depredadores. Además, necesitaban comer menos para mantenerse activos y podían calentarse o enfriarse con mayor rapidez que un dinosaurio grande.",
+      "captions": [
+        {
+          "label": "Pequeñín",
+          "text": "Al igual que el Mussaurus, el Hypsilophodon era un dinosaurio pequeño y tenía poca defensa ante los depredadores salvo la velocidad. Estos pequeños dinosaurios quizás viajaban en grupo para protegerse, alertándose mutuamente y saliendo corriendo ante el peligro."
+        },
+        {
+          "label": "Megalosaurio",
+          "text": "Este gran carnívoro bípedo fue el primer dinosaurio en ser descrito científicamente, por William Buckland en 1824."
+        }
+      ]
+    },
+    {
+      "id": "dinosaur-nests",
+      "title": "Nidos de dinosaurio",
+      "image": "assets/muss/MUSS02PU.webp",
+      "text": "Algunos restos de Mussaurus han sido hallados en un nido. Los dinosaurios ponían sus huevos en nidos excavados en el suelo. El nido arenoso que aparece aquí perteneció al Protoceratops. Los paleontólogos creen que varias hembras de Protoceratops pusieron huevos en círculo en el mismo nido.",
+      "captions": [
+        {
+          "label": "Una criatura emerge",
+          "text": "Esta cáscara de huevo fosilizada contiene un dinosaurio de pico de pato llamado Maiasaura. Aunque a menudo alcanzaban grandes tamaños, las crías de dinosaurio eran muy pequeñas al nacer."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Birth and Growth",
+      "to": "birt"
+    },
+    {
+      "label": "Megalosaurus",
+      "to": "mega"
+    },
+    {
+      "label": "Maiasaura",
+      "to": "maia"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/muss/MUSS00AA.webp",
+        "hotspots": [
+          {
+            "label": "¿Por qué tan pequeño?",
+            "to": "why-so-small",
+            "x": 5,
+            "y": 70,
+            "w": 21,
+            "h": 6
+          },
+          {
+            "label": "Nidos de dinosaurio",
+            "to": "dinosaur-nests",
+            "x": 67,
+            "y": 73,
+            "w": 25,
+            "h": 6
+          }
+        ]
+      },
+      "why-so-small": {
+        "image": "assets/muss/MUSS01PU.webp",
+        "back": "main"
+      },
+      "dinosaur-nests": {
+        "image": "assets/muss/MUSS02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/muss/MUSS50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/muss/MUSS00AP.mp3",
+  "narration": "assets/muss/MUSS00AJ.mp3",
+  "fanTranslation": true
+}

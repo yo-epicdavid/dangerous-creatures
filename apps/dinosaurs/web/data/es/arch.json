@@ -1,0 +1,283 @@
+{
+  "id": "arch",
+  "code": "ARCH",
+  "name": "Archaeopteryx",
+  "category": "dinosaur",
+  "scientificName": "Archaeopteryx",
+  "needsScientificVerify": false,
+  "pronunciation": "ar-kee-OP-ter-iks",
+  "meaning": "Ala antigua",
+  "period": "Jurásico superior",
+  "diet": "Carnívoro",
+  "tagline": "¡Mitad dinosaurio, mitad ave — el Archaeopteryx fue el experimento más asombroso de la naturaleza!",
+  "hero": {
+    "image": "assets/arch/ARCH00AA.webp",
+    "alt": "Archaeopteryx"
+  },
+  "intro": "El descubrimiento del Archaeopteryx planteó muchas preguntas. A diferencia de otros animales de su época, el Archaeopteryx tenía plumas. ¿Significa esto que fue el primer ave? Algunos expertos dicen que sí. Otros, señalando las llamativas similitudes entre el Archaeopteryx y pequeños dinosaurios carnívoros como el Coelophysis, afirman que el Archaeopteryx era un dinosaurio emplumado. La mayoría cree que el Archaeopteryx es el eslabón evolutivo entre los dinosaurios y las aves. Lo que sí sabemos con certeza es que el Archaeopteryx tenía el tamaño de un cuervo, con un cerebro grande, ojos grandes, plumas y un hueso de la suerte como el de las aves actuales.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Europa"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico Tardío"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Ala antigua"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Terópodo"
+    }
+  ],
+  "topics": [
+    {
+      "id": "treasured-find",
+      "title": "Hallazgo precioso",
+      "image": "assets/arch/ARCH01PU.webp",
+      "text": "Los fósiles del Archaeopteryx, todos encontrados en Alemania incrustados en piedra caliza, están considerados en general como los fósiles más valiosos del mundo. El fósil que se muestra aquí se conserva en el Museo Humboldt de Historia Natural de Berlín.",
+      "captions": [
+        {
+          "label": "Identidad equivocada",
+          "text": "Solo se han encontrado seis fósiles de Archaeopteryx y, aunque este fue desenterrado en 1855, en un principio se creyó que era un pterosaurio. No fue hasta 1973 cuando se reconoció como Archaeopteryx."
+        },
+        {
+          "label": "Gran detalle",
+          "text": "A diferencia de otros fósiles, este muestra con claridad la cabeza y el cuello del Archaeopteryx. El grano fino de la piedra caliza preservó los detalles más pequeños, incluso las impresiones de las plumas del animal."
+        }
+      ]
+    },
+    {
+      "id": "the-skeleton-of-a-bird-or-dinosaur",
+      "title": "¿El esqueleto de un ave o de un dinosaurio?",
+      "image": "assets/arch/ARCH02PU.webp",
+      "text": "Un profesor americano que estudió el Archaeopteryx descubrió que compartía más de veinte características esqueléticas con pequeños carnívoros como el Compsognathus y el Coelophysis.",
+      "captions": [
+        {
+          "label": "Primos cercanos",
+          "text": "Al igual que el Archaeopteryx, el Coelophysis era ligero, ágil y tenía tres dedos con garras en cada mano."
+        },
+        {
+          "label": "Constitución similar",
+          "text": "El esqueleto del Archaeopteryx es similar al del Compsognathus. Fíjate en las largas patas traseras para correr y en el cuello y la cola esbeltos y flexibles. Esto es una buena prueba de que las aves y los dinosaurios compartían antepasados comunes."
+        }
+      ]
+    },
+    {
+      "id": "clawed-wings",
+      "title": "Alas con garras",
+      "image": "assets/arch/ARCH03PU.webp",
+      "text": "El ala del Archaeopteryx tenía tres dedos separados con garras en la punta. Solo un ave actual tiene garras en las alas: las crías del hoatzín de América del Sur. Quizás el Archaeopteryx, al igual que las crías del hoatzín, usaba sus garras para trepar por los árboles. Aparte de las garras, las alas del Archaeopteryx eran muy similares a las de las aves actuales, con grandes plumas que proporcionaban una superficie amplia e impermeable al aire para un vuelo eficaz."
+    },
+    {
+      "id": "toothed-beak",
+      "title": "Pico con dientes",
+      "image": "assets/arch/ARCH04PU.webp",
+      "text": "A diferencia de cualquier ave viva en la actualidad, el Archaeopteryx tenía pequeños dientes puntiagudos en el pico. Probablemente eran un vestigio de su ascendencia dinosaurio. Sin embargo, los dientes también habrían sido útiles para mantener un firme agarre sobre las presas que se debatían."
+    },
+    {
+      "id": "bird-feet",
+      "title": "Patas de ave",
+      "image": "assets/arch/ARCH05PU.webp",
+      "text": "Las patas del Archaeopteryx eran largas y fuertes, similares a las patas de las aves modernas que pasan gran parte de su tiempo en el suelo. Y al igual que estas aves, el Archaeopteryx probablemente podía correr y saltar bien.",
+      "captions": [
+        {
+          "label": "Escamas reptilianas",
+          "text": "Las escamas de las patas y los pies de las aves modernas sugieren un vínculo con los reptiles del pasado. El Archaeopteryx también tenía escamas en esas zonas. El primero de sus cuatro dedos apuntaba hacia atrás, lo que sugiere que el Archaeopteryx podría haber agarrado una rama y posado exactamente como hacen las aves hoy en día."
+        }
+      ]
+    },
+    {
+      "id": "dragonfly-dinner",
+      "title": "Cena de libélula",
+      "image": "assets/arch/ARCH06PU.webp",
+      "text": "El Archaeopteryx pudo haberse posado entre plantas dispersas parecidas a árboles desde las que podía lanzarse en picado tras insectos y otras pequeñas criaturas. Probablemente podía batir las alas, pero no volar con la potencia de un ave moderna. La mayoría de los insectos que comía los habría cazado durante el vuelo."
+    },
+    {
+      "id": "could-archaeopteryx-fly",
+      "title": "¿Podía volar el Archaeopteryx?",
+      "image": "assets/arch/ARCH07PU.webp",
+      "text": "Las aves modernas tienen huesos ligeros, una columna vertebral rígida y un fuerte hueso de la suerte. El Archaeopteryx tenía un pequeño hueso de la suerte, una columna vertebral flexible y una estructura esquelética bastante pesada. Esto podría significar que el Archaeopteryx era mejor planeador que volador. Puede que trepara a los árboles y luego planeara hasta el suelo. O quizás corría rápido por el suelo persiguiendo alimento y batiendo sus alas.",
+      "captions": [
+        {
+          "label": "Volar para escapar",
+          "text": "Numerosos dinosaurios estaban listos para abalanzarse sobre el Archaeopteryx. La necesidad de escapar de los depredadores pudo haber llevado a la evolución del vuelo en las aves."
+        }
+      ]
+    },
+    {
+      "id": "bird-face",
+      "title": "Cara de ave",
+      "image": "assets/arch/ARCH08PU.webp",
+      "text": "Con su pico lleno de dientes y sus grandes ojos, el Archaeopteryx parece un cruce entre un dinosaurio y un ave. Pero el Archaeopteryx no fue la única criatura que compartía características de dinosaurio y rasgos similares a los de las aves. Por ejemplo, fíjate en las similitudes de aspecto entre el Archaeopteryx y el Struthiomimus, otro pequeño dinosaurio.",
+      "captions": [
+        {
+          "label": "Dinosaurio avestruz",
+          "text": "El Struthiomimus, aunque definitivamente era un dinosaurio, se parece en muchos aspectos a otra criatura: ¡el avestruz moderno!"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Birds and Dinosaurs",
+      "to": "bird"
+    },
+    {
+      "label": "Museums of North America",
+      "to": "muse"
+    },
+    {
+      "label": "Compsognathus",
+      "to": "comp"
+    },
+    {
+      "label": "Pteranodon",
+      "to": "pten"
+    },
+    {
+      "label": "Faces from the Past",
+      "to": "ftfb"
+    },
+    {
+      "label": "Reptiles of the Air",
+      "to": "rair"
+    },
+    {
+      "label": "Dinosaur Diets",
+      "to": "diet"
+    },
+    {
+      "label": "Ornitholestes",
+      "to": "orni"
+    },
+    {
+      "label": "Struthiomimus",
+      "to": "stru"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/arch/ARCH00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cara de ave",
+            "to": "bird-face",
+            "x": 46,
+            "y": 26,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "Pico con dientes",
+            "to": "toothed-beak",
+            "x": 36,
+            "y": 46,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Cena de libélula",
+            "to": "dragonfly-dinner",
+            "x": 26,
+            "y": 65,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "¿El esqueleto de un ave o de un dinosaurio?",
+            "to": "the-skeleton-of-a-bird-or-dinosaur",
+            "x": 57,
+            "y": 22,
+            "w": 34,
+            "h": 8
+          },
+          {
+            "label": "Hallazgo precioso",
+            "to": "treasured-find",
+            "x": 62,
+            "y": 36,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "¿Podía volar el Archaeopteryx?",
+            "to": "could-archaeopteryx-fly",
+            "x": 57,
+            "y": 50,
+            "w": 32,
+            "h": 7
+          },
+          {
+            "label": "Alas con garras",
+            "to": "clawed-wings",
+            "x": 55,
+            "y": 64,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Patas de ave",
+            "to": "bird-feet",
+            "x": 60,
+            "y": 74,
+            "w": 13,
+            "h": 5
+          }
+        ]
+      },
+      "treasured-find": {
+        "image": "assets/arch/ARCH01PU.webp",
+        "back": "main"
+      },
+      "the-skeleton-of-a-bird-or-dinosaur": {
+        "image": "assets/arch/ARCH02PU.webp",
+        "back": "main"
+      },
+      "clawed-wings": {
+        "image": "assets/arch/ARCH03PU.webp",
+        "back": "main"
+      },
+      "toothed-beak": {
+        "image": "assets/arch/ARCH04PU.webp",
+        "back": "main"
+      },
+      "bird-feet": {
+        "image": "assets/arch/ARCH05PU.webp",
+        "back": "main"
+      },
+      "dragonfly-dinner": {
+        "image": "assets/arch/ARCH06PU.webp",
+        "back": "main"
+      },
+      "could-archaeopteryx-fly": {
+        "image": "assets/arch/ARCH07PU.webp",
+        "back": "main"
+      },
+      "bird-face": {
+        "image": "assets/arch/ARCH08PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/arch/ARCH50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/arch/ARCH00AP.mp3",
+  "narration": "assets/arch/ARCH00AJ.mp3",
+  "fanTranslation": true
+}

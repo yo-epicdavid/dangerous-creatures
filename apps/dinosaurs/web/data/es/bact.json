@@ -1,0 +1,97 @@
+{
+  "id": "bact",
+  "code": "BACT",
+  "name": "Bactrosaurus",
+  "category": "dinosaur",
+  "scientificName": "Bactrosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "bak-troh-SOR-us",
+  "meaning": "lagarto bactriano",
+  "period": "Cretácico",
+  "diet": "Herbívoro",
+  "tagline": "Uno de los primeros picos de pato, con cientos de dientes trituradores apretados en unas poderosas mandíbulas.",
+  "hero": {
+    "image": "assets/bact/BACT00AA.webp",
+    "alt": "Bactrosaurus"
+  },
+  "intro": "El Bactrosaurus fue uno de los primeros hadrosaurios o «dinosaurios pico de pato». Esta familia de dinosaurios debe su apodo al «pico de pato» por su ancho pico sin dientes. El pico del Bactrosaurus tenía una cubierta córnea y lo usaba para arrancar ramitas y hojas. Con unos seis metros de longitud, el Bactrosaurus era pequeño para ser un hadrosaurio.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Asia"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Lagarto bactriano"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Ornitópodo"
+    }
+  ],
+  "topics": [
+    {
+      "id": "grinding-and-grating",
+      "title": "Triturar y moler",
+      "image": "assets/bact/BACT01PU.webp",
+      "text": "Los dinosaurios pico de pato tenían mandíbulas diseñadas para triturar y machacar plantas, igual que hacen hoy en día las vacas y los caballos. Sin embargo, a diferencia de vacas y caballos, los dinosaurios pico de pato no masticaban moviendo las mandíbulas de un lado al otro. En cambio, cuando los hadrosaurios cerraban las mandíbulas, ambos lados de la mandíbula superior se abrían hacia afuera para que los dientes superiores rozaran contra los inferiores, triturando así el alimento que había entre ellos.",
+      "captions": [
+        {
+          "label": "Una multitud de dientes",
+          "text": "Filas de dientes superpuestos, apretados en grandes superficies trituradoras de plantas, reducían fácilmente ramitas, frutos y semillas a una pulpa blanda."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Cretaceous Period",
+      "to": "cret"
+    },
+    {
+      "label": "Teeth of Plant-eaters",
+      "to": "ptee"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/bact/BACT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Triturar y moler",
+            "to": "grinding-and-grating",
+            "x": 73,
+            "y": 42,
+            "w": 22,
+            "h": 10
+          }
+        ]
+      },
+      "grinding-and-grating": {
+        "image": "assets/bact/BACT01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/bact/BACT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/bact/BACT00AP.mp3",
+  "narration": "assets/bact/BACT00AJ.mp3",
+  "fanTranslation": true
+}

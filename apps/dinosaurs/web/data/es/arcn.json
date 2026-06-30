@@ -1,0 +1,217 @@
+{
+  "id": "arcn",
+  "code": "ARCN",
+  "name": "Archelon",
+  "category": "creature",
+  "scientificName": "Archelon",
+  "needsScientificVerify": false,
+  "pronunciation": "AR-keh-lon",
+  "meaning": "tortuga marina",
+  "period": "Cretácico superior",
+  "diet": "Carnívoro",
+  "tagline": "¡Esta tortuga marina era tan grande como un coche!",
+  "hero": {
+    "image": "assets/arcn/ARCN00AA.webp",
+    "alt": "Archelon"
+  },
+  "intro": "¡Imagina una tortuga de cuatro metros de largo! La gigantesca tortuga del Cretácico, Archelon, vivió al mismo tiempo que los dinosaurios. Las tortugas son uno de los grupos de reptiles más antiguos que han sobrevivido y han cambiado muy poco a lo largo de los siglos. Archelon tenía enormes aletas en forma de remo para impulsar su enorme cuerpo a través del agua.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "tortuga marina"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Tortuga prehistórica"
+    }
+  ],
+  "topics": [
+    {
+      "id": "a-variety-of-turtles",
+      "title": "Una gran variedad de tortugas",
+      "image": "assets/arcn/ARCN01PU.webp",
+      "text": "Cuando la mayoría de la gente piensa en tortugas, imagina un animal con caparazón duro como este. Sin embargo, las tortugas existen en todas las formas y tamaños. Hoy en día existen entre 250 y 350 especies de tortugas.",
+      "captions": [
+        {
+          "label": "Galápago de caparazón duro",
+          "text": "Los galápagos de estanque, como este, son principalmente herbívoros y pasan la mayor parte del tiempo en el agua."
+        },
+        {
+          "label": "Tortuga de caparazón blando",
+          "text": "No todas las tortugas tienen el caparazón duro. Esta tortuga de caparazón blando suele encontrarse enterrada en el barro de ríos y estanques."
+        },
+        {
+          "label": "Tortuga laúd",
+          "text": "Los expertos creen que Archelon se parecía más a esta tortuga laúd. Este gigante es la tortuga viva más grande de todas y puede llegar a pesar más de 900 kilos. Al igual que Archelon, la dieta de la tortuga laúd se compone principalmente de medusas."
+        }
+      ]
+    },
+    {
+      "id": "reptiles-of-the-sea",
+      "title": "Reptiles del mar",
+      "image": "assets/arcn/ARCN02PU.webp",
+      "text": "No hubo dinosaurios que vivieran en el mar, pero cuando los dinosaurios dominaban la tierra, los mares estaban llenos de reptiles nadadores de todas las formas y tamaños. Junto a tortugas como Archelon nadaban reptiles marinos divididos en cuatro grupos principales: ictiosaurios, pliosaurios, plesiosaurios y mosasaurios.",
+      "captions": [
+        {
+          "label": "Plesiosaurios",
+          "text": "Estos reptiles tenían cuatro extremidades en forma de remo, colas puntiagudas, cuellos largos y cabezas pequeñas."
+        },
+        {
+          "label": "Pliosaurios",
+          "text": "Estos reptiles eran similares a los plesiosaurios, pero tenían cabezas más grandes y cuellos más cortos."
+        },
+        {
+          "label": "Ictiosaurios",
+          "text": "Estos reptiles tenían formas aerodinámicas, brazos en forma de aleta y una cola parecida a la de un pez."
+        },
+        {
+          "label": "Mosasaurios",
+          "text": "Estos feroces reptiles marinos tenían dientes afilados en forma de colmillos y una cola parecida a la de un cocodrilo. Vivieron hacia el final de la Era de los Dinosaurios."
+        }
+      ]
+    },
+    {
+      "id": "jellyfish-chewer",
+      "title": "Devorador de medusas",
+      "image": "assets/arcn/ARCN03PU.webp",
+      "text": "Archelon tenía un pico duro y ganchudo, mandíbulas débiles y ningún diente. Es posible que utilizara su pico óseo para romper los caparazones de mariscos, pero las suaves medusas eran probablemente su alimento favorito.",
+      "captions": [
+        {
+          "label": "Nadadores ancestrales",
+          "text": "Las criaturas marinas de cuerpo blando se encuentran entre los animales más antiguos que conocemos. ¡Las medusas existen desde la era Precámbrica, hace más de 600 millones de años!"
+        }
+      ]
+    },
+    {
+      "id": "egg-layers",
+      "title": "Ponedoras de huevos",
+      "image": "assets/arcn/ARCN05PU.webp",
+      "text": "Las tortugas marinas modernas ponen sus huevos en tierra, aunque viven en el mar. Las distintas especies de tortugas ponen sus huevos en hábitats diferentes: algunas los ponen en la arena, otras entre hojas caídas, y otras los ponen en las madrigueras de otros animales.",
+      "captions": [
+        {
+          "label": "A docenas",
+          "text": "El número de huevos que puede poner una tortuga depende en gran medida de su tamaño. Las tortugas marinas gigantes pueden poner hasta 100 huevos. Los expertos no saben con certeza cuántos huevos podía poner Archelon."
+        },
+        {
+          "label": "Formas de los huevos",
+          "text": "Estos huevos de tortuga son más redondos que los de muchos de sus equivalentes dinosaurios."
+        },
+        {
+          "label": "Cáscaras de los huevos",
+          "text": "Los huevos de tortuga contienen líquido y tienen cáscaras correosas para protegerse. Al igual que ocurre con los cocodrilos, el sexo de las tortugas bebé viene determinado a menudo por la temperatura de incubación. Antes de nacer, el embrión de tortuga se desarrolla hasta convertirse en un animal capaz de respirar aire y vivir en tierra."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Life Before Dinosaurs",
+      "to": "befr"
+    },
+    {
+      "label": "Living Fossils",
+      "to": "ddec"
+    },
+    {
+      "label": "Mosasaurus",
+      "to": "mosa"
+    },
+    {
+      "label": "Ammonite",
+      "to": "ammo"
+    },
+    {
+      "label": "Nests and Eggs",
+      "to": "nest"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/arcn/ARCN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Rebuilding Archelon",
+            "x": 10,
+            "y": 52,
+            "w": 23,
+            "h": 5,
+            "disabled": true
+          },
+          {
+            "label": "Reptiles del mar",
+            "to": "reptiles-of-the-sea",
+            "x": 3,
+            "y": 72,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Devorador de medusas",
+            "to": "jellyfish-chewer",
+            "x": 42,
+            "y": 81,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Una gran variedad de tortugas",
+            "to": "a-variety-of-turtles",
+            "x": 60,
+            "y": 52,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Ponedoras de huevos",
+            "to": "egg-layers",
+            "x": 67,
+            "y": 37,
+            "w": 15,
+            "h": 5
+          }
+        ]
+      },
+      "a-variety-of-turtles": {
+        "image": "assets/arcn/ARCN01PU.webp",
+        "back": "main"
+      },
+      "reptiles-of-the-sea": {
+        "image": "assets/arcn/ARCN02PU.webp",
+        "back": "main"
+      },
+      "jellyfish-chewer": {
+        "image": "assets/arcn/ARCN03PU.webp",
+        "back": "main"
+      },
+      "egg-layers": {
+        "image": "assets/arcn/ARCN05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/arcn/ARCN50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/arcn/ARCN00AP.mp3",
+  "narration": "assets/arcn/ARCN00AJ.mp3",
+  "fanTranslation": true
+}

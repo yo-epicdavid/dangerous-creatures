@@ -1,0 +1,97 @@
+{
+  "id": "leae",
+  "code": "LEAE",
+  "name": "Leaellynasaura",
+  "category": "dinosaur",
+  "scientificName": "Leaellynasaura",
+  "needsScientificVerify": false,
+  "pronunciation": "lee-EL-in-uh-SOR-uh",
+  "meaning": "lagarto de Leaellyn",
+  "period": "Cretácico inferior",
+  "diet": "Herbívoro",
+  "tagline": "¡Un dinosaurio diminuto con ojos enormes adaptados para sobrevivir en la oscuridad!",
+  "hero": {
+    "image": "assets/leae/LEAE00AA.webp",
+    "alt": "Leaellynasaura"
+  },
+  "intro": "Pat Vickers-Rich y Tom Rich, que descubrieron los huesos de este dinosaurio en Australia, le pusieron el nombre de «lagarto de Leaellyn», en honor a su hija. La Leaellynasaura era un pequeño herbívoro con ojos enormes para hacer frente a la oscuridad del invierno, ya que en su época, hace 110 millones de años, Australia se encontraba dentro del Círculo Polar Antártico.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Australia"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Temprano"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto de Leaellyn"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Ornitópodo"
+    }
+  ],
+  "topics": [
+    {
+      "id": "what-color-was-its-skin",
+      "title": "¿De qué color era su piel?",
+      "image": "assets/leae/LEAE01PU.webp",
+      "text": "Aunque sabemos algo sobre la textura de la piel de los dinosaurios gracias a las impresiones fósiles conservadas en roca, no tenemos forma de saber de qué color eran, ni si eran de un solo color, a rayas o con manchas. A la hora de dibujar dinosaurios, suponemos que pudieron tener colores y patrones similares a los que encontramos en los reptiles actuales.",
+      "captions": [
+        {
+          "label": "¡Mírame!",
+          "text": "El color y los patrones de la piel de una iguana suelen hacer que este lagarto destaque de su entorno. Muchos lagartos tienen colores y patrones en la piel diseñados para llamar la atención de posibles parejas o para advertir a los enemigos que se mantengan alejados."
+        },
+        {
+          "label": "Coloreada para el camuflaje",
+          "text": "El color y las marcas de esta víbora del Gabón le permiten mimetizarse con su entorno. Tumbada sobre hojas secas, la serpiente resulta casi invisible entre la luz moteada de los bosques tropicales africanos. Al sacarla de su fondo natural, los geométricos patrones de la piel de la víbora destacan vivamente."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaur Cove",
+      "to": "cove"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/leae/LEAE00AA.webp",
+        "hotspots": [
+          {
+            "label": "¿De qué color era su piel?",
+            "to": "what-color-was-its-skin",
+            "x": 9,
+            "y": 52,
+            "w": 29,
+            "h": 4
+          }
+        ]
+      },
+      "what-color-was-its-skin": {
+        "image": "assets/leae/LEAE01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/leae/LEAE50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/leae/LEAE00AP.mp3",
+  "narration": "assets/leae/LEAE00AJ.mp3",
+  "fanTranslation": true
+}

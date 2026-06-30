@@ -1,0 +1,141 @@
+{
+  "id": "befr",
+  "code": "BEFR",
+  "name": "La vida antes de los dinosaurios",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Mucho antes de que los dinosaurios dominasen la Tierra, un fascinante desfile de criaturas antiguas llenó los mares, se aventuró en tierra firme y preparó el terreno para todo lo que vendría después.",
+  "hero": {
+    "image": "assets/befr/BEFR00AA.webp",
+    "alt": "La vida antes de los dinosaurios"
+  },
+  "intro": "Antes de que los dinosaurios hicieran su aparición, una gran variedad de seres vivos habitaba la Tierra. Peces y mariscos vivían en antiguos océanos y pantanos, enormes insectos zumbaban por el húmedo aire o se arrastraban por el suelo, y anfibios y reptiles primitivos deambulaban entre la exuberante vegetación que dominaba la era Paleozoica.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "early-life-in-the-seas",
+      "title": "La vida primitiva en los mares",
+      "image": "assets/befr/BEFR01PU.webp",
+      "text": "Entre hace 570 millones y 430 millones de años, el fondo del océano estaba repleto de mariscos, camarones, gusanos marinos y enormes escorpiones de mar. Los corales construían sus arrecifes en las aguas someras iluminadas por el sol. Las medusas pulsaban por el agua cálida, y los crinoideos y las esponjas agitaban sus brazos para alimentarse de las pequeñas criaturas que pasaban arrastradas por las corrientes submarinas."
+    },
+    {
+      "id": "the-age-of-fishes",
+      "title": "La era de los peces",
+      "image": "assets/befr/BEFR02PU.webp",
+      "text": "Los primeros peces comenzaron a aparecer hace más de 430 millones de años. Hace 345 millones de años, numerosas especies se habían extendido por todos los mares.\n\nTiburones\nLos restos de tiburones prehistóricos como el Cladoselache nos indican que estos animales han cambiado muy poco desde que aparecieron por primera vez en la Tierra.\n\nDunkleosteus\nDepredador marino de casi cuatro metros de longitud, el Dunkleosteus fue uno de los primeros peces en tener mandíbulas y pares de aletas.",
+      "captions": [
+        {
+          "label": "Celacanto",
+          "text": "Una de las especies más antiguas que siguen con vida, este pez ha habitado nuestros océanos desde antes de que los dinosaurios aparecieran en la Tierra."
+        }
+      ]
+    },
+    {
+      "id": "new-life-on-land",
+      "title": "Nueva vida en tierra firme",
+      "image": "assets/befr/BEFR03PU.webp",
+      "text": "Durante millones de años, el paisaje de la Tierra era rocoso y árido, ya que en un principio no existía una atmósfera capaz de sustentar a los animales que respiran aire ni de protegerlos de la radiación solar. Más tarde, después de que las algas verdeazules de los océanos produjeran oxígeno y gases que filtraban la radiación, las plantas y los animales primitivos comenzaron a invadir la tierra.\n\nCooksonia\nLa planta más antigua que conocemos fue la Cooksonia, que medía apenas cinco centímetros de altura y tenía sacos de esporas esféricos, pero no tenía hojas ni raíces. Los licopodios, los colas de caballo, los helechos y los helechos con semillas fueron evolucionando poco a poco.\n\nLos primeros insectos gigantes\nLos milpiés, como el que aparece en la imagen, y los escorpiones fueron algunos de los primeros carnívoros en tierra firme. ¡Algunas especies llegaron a medir más de metro y medio de longitud!\n\nLas cucarachas\nUno de los animales con mayor éxito en toda la historia, las cucarachas llevan arrastrándose por la Tierra desde tiempos prehistóricos."
+    },
+    {
+      "id": "amphibian-beginnings",
+      "title": "Los comienzos de los anfibios",
+      "image": "assets/befr/BEFR04PU.webp",
+      "text": "Al mismo tiempo que las plantas y los insectos colonizaban la tierra firme, algunos animales marinos cambiaron las aletas por patas y salieron del agua para aventurarse en tierra seca.\n\nIchthyostega\nEste es el animal cuadrúpedo más antiguo que se conoce. El Ichthyostega todavía tenía escamas similares a las de los peces y una cola pisciforme.\n\nSeymouria\nLos orificios que hay detrás de cada ojo en el cráneo de este anfibio demuestran que los oídos y la capacidad auditiva evolucionaron muy pronto en los animales terrestres.\n\nEryops\nEste anfibio tenía las patas más robustas y el esqueleto más pesado que otros tipos primitivos.\n\nDiadectes\nCon dientes adaptados para cortar y triturar, el Diadectes fue uno de los primeros animales herbívoros."
+    },
+    {
+      "id": "reptile-rulers",
+      "title": "Los reptiles dominantes",
+      "image": "assets/befr/BEFR05PU.webp",
+      "text": "Los dinosaurios son los reptiles prehistóricos más famosos, pero no los únicos. Tras la aparición de los anfibios, una gran variedad de arcosaurios evolucionó rápidamente.\n\nDimetrodon\nEste reptil primitivo utilizaba probablemente su gran vela dorsal para regular la temperatura de su cuerpo.\n\nMoschops\nCon más de cinco metros de longitud, este terápsido fue uno de los más grandes que precedieron a los dinosaurios.\n\nHylonomus\nEste activo depredador tenía aspecto de lagarto, pero en realidad pertenecía a un grupo de reptiles diferente."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Triassic Period",
+      "to": "tria"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/befr/BEFR00AA.webp",
+        "hotspots": [
+          {
+            "label": "La vida primitiva en los mares",
+            "to": "early-life-in-the-seas",
+            "x": 5,
+            "y": 75,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "La era de los peces",
+            "to": "the-age-of-fishes",
+            "x": 23,
+            "y": 35,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Nueva vida en tierra firme",
+            "to": "new-life-on-land",
+            "x": 40,
+            "y": 62,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Los comienzos de los anfibios",
+            "to": "amphibian-beginnings",
+            "x": 57,
+            "y": 73,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Los reptiles dominantes",
+            "to": "reptile-rulers",
+            "x": 68,
+            "y": 28,
+            "w": 16,
+            "h": 5
+          }
+        ]
+      },
+      "early-life-in-the-seas": {
+        "image": "assets/befr/BEFR01PU.webp",
+        "back": "main"
+      },
+      "the-age-of-fishes": {
+        "image": "assets/befr/BEFR02PU.webp",
+        "back": "main"
+      },
+      "new-life-on-land": {
+        "image": "assets/befr/BEFR03PU.webp",
+        "back": "main"
+      },
+      "amphibian-beginnings": {
+        "image": "assets/befr/BEFR04PU.webp",
+        "back": "main"
+      },
+      "reptile-rulers": {
+        "image": "assets/befr/BEFR05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/befr/BEFR00AP.mp3",
+  "narration": "assets/befr/BEFR00AJ.mp3",
+  "sound": "assets/befr/BEFR00SA.mp3",
+  "fanTranslation": true
+}

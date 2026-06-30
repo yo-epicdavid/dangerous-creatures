@@ -1,0 +1,217 @@
+{
+  "id": "ammo",
+  "code": "AMMO",
+  "name": "Amonita",
+  "category": "creature",
+  "scientificName": "Ammonoidea",
+  "needsScientificVerify": false,
+  "pronunciation": "AM-uh-nyte",
+  "meaning": "Cuerno de Amón",
+  "period": "Devónico - Cretácico",
+  "diet": "Carnívoro",
+  "tagline": "¡Maestras de la concha con propulsión a chorro que surcaron los mares prehistóricos… y acabaron siendo cazadas ellas mismas!",
+  "hero": {
+    "image": "assets/ammo/AMMO00AA.webp",
+    "alt": "Amonita"
+  },
+  "intro": "Las amonitas desarrollaron elaboradas conchas enrolladas para proteger sus blandos cuerpos, parecidos a los de un calamar. Depredadoras activas, las amonitas flotaban en el mar y expulsaban agua mediante una especie de propulsión a chorro cuando necesitaban moverse rápidamente. Aunque la forma de la concha de una amonita puede recordar a la de un caracol moderno, las amonitas no eran necesariamente pequeñas: algunas eran auténticas gigantes que llegaban a medir más de metro y medio de diámetro.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Mares prehistóricos"
+    },
+    {
+      "label": "Época",
+      "value": "Cámbrico"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Cuerno de Amón"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Cefalópodo"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ammonite-legacy",
+      "title": "El legado de las amonitas",
+      "image": "assets/ammo/AMMO01PU.webp",
+      "text": "Aunque las amonitas llevan millones de años extintas, estas criaturas prehistóricas han dejado una huella innegable en la sociedad humana.",
+      "captions": [
+        {
+          "label": "Piedras serpiente",
+          "text": "En Inglaterra, se creyó durante mucho tiempo que las amonitas eran los restos de serpientes enrolladas convertidas en piedra en el siglo VII por santa Hilda. Incluso se tallaron cabezas en algunas amonitas para reforzar esta creencia."
+        }
+      ]
+    },
+    {
+      "id": "shells-of-all-sizes",
+      "title": "Conchas de todos los tamaños",
+      "image": "assets/ammo/AMMO02PU.webp",
+      "text": "Las amonitas variaban de tamaño: desde unos pocos centímetros hasta más de metro y medio de diámetro, más grande que la estatura de la mayoría de los hombres.",
+      "captions": [
+        {
+          "label": "Muy apretadas",
+          "text": "A juzgar por la cantidad de fósiles encontrados, estos animales debían de ser muy abundantes en los mares prehistóricos."
+        }
+      ]
+    },
+    {
+      "id": "ocean-jewels",
+      "title": "Joyas del océano",
+      "image": "assets/ammo/AMMO03PU.webp",
+      "text": "La dura concha de la amonita estaba formada por un mineral calcáreo llamado aragonito, con una vistosa capa exterior de nácar. Esta amonita se ha conservado en un estado casi original.",
+      "captions": [
+        {
+          "label": "Tesoros dorados",
+          "text": "Estas amonitas adquirieron un color dorado cuando el mineral aragonito de sus conchas fue sustituido por pirita de hierro durante el proceso de fosilización. La pirita de hierro también se conoce como «oro de los tontos», porque los buscadores de minerales inexpertos la han confundido con frecuencia con oro de verdad."
+        }
+      ]
+    },
+    {
+      "id": "inside-the-shell",
+      "title": "El interior de la concha",
+      "image": "assets/ammo/AMMO04PU.webp",
+      "text": "Las amonitas desarrollaron complejas conchas divididas en una serie de cámaras. La amonita viva solo ocupaba la cámara más próxima a la abertura. A medida que crecía y necesitaba más espacio, avanzaba y formaba una nueva pared divisoria, llamada septo, en la parte trasera de la nueva cámara. El animal usaba un tubo, llamado sifúnculo, para llenar las cámaras más antiguas de la espiral con líquido o gas. Cuando quería ascender o descender en el agua, la amonita cambiaba la proporción de líquido y gas en el interior de su concha para hacerla más ligera o más pesada.",
+      "captions": [
+        {
+          "label": "Un pariente enrollado",
+          "text": "El nautilo, un pariente vivo de las amonitas, fabrica una concha muy similar a la de las amonitas antiguas. Fíjate en las cámaras parecidas de estas conchas de nautiloides fosilizadas."
+        },
+        {
+          "label": "Cazador nocturno",
+          "text": "El nautilo es un animal nocturno, activo solo de noche. Vive en el océano Pacífico a profundidades de entre 5 y 550 metros. Se alimenta de peces y crustáceos, que devora con su duro pico."
+        }
+      ]
+    },
+    {
+      "id": "unlikely-couples",
+      "title": "Una pareja desigual",
+      "image": "assets/ammo/AMMO05PU.webp",
+      "text": "A diferencia de la mayoría de los moluscos, los machos y las hembras de las amonitas no tenían la misma forma ni el mismo tamaño. Las hembras eran más grandes que los machos. Además, la forma de la concha alrededor de la abertura era diferente en los machos que en las hembras.",
+      "captions": [
+        {
+          "label": "Espirales irregulares",
+          "text": "Las conchas de la mayoría de las amonitas están enrolladas apretadamente en un mismo plano, con cada vuelta tocando la siguiente. Algunas, sin embargo, recuerdan a las de los caracoles; otras están parcialmente desenrolladas. En algunas conchas poco comunes, las espirales cambian de dirección."
+        }
+      ]
+    },
+    {
+      "id": "both-predator-and-prey",
+      "title": "Depredadora y presa a la vez",
+      "image": "assets/ammo/AMMO06PU.webp",
+      "text": "Como depredadoras, las amonitas cazaban peces y mariscos. Pero cada amonita tenía que estar alerta ante cazadores más grandes, como el reptil marino mosasaurio, que las veía como una posible presa.",
+      "captions": [
+        {
+          "label": "Sonrisa de cocodrilo",
+          "text": "Los mosasaurios tenían mandíbulas similares a las de los cocodrilos y colas aplanadas, y llegaban a medir hasta nueve metros de longitud. Con sus bocas llenas de dientes afilados, fueron algunos de los cazadores más temibles entre los reptiles del mar."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Life Before Dinosaurs",
+      "to": "befr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/ammo/AMMO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Joyas del océano",
+            "to": "ocean-jewels",
+            "x": 63,
+            "y": 18,
+            "w": 18,
+            "h": 7
+          },
+          {
+            "label": "Una pareja desigual",
+            "to": "unlikely-couples",
+            "x": 38,
+            "y": 33,
+            "w": 18,
+            "h": 7
+          },
+          {
+            "label": "El interior de la concha",
+            "to": "inside-the-shell",
+            "x": 63,
+            "y": 42,
+            "w": 18,
+            "h": 7
+          },
+          {
+            "label": "Conchas de todos los tamaños",
+            "to": "shells-of-all-sizes",
+            "x": 20,
+            "y": 42,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Depredadora y presa a la vez",
+            "to": "both-predator-and-prey",
+            "x": 55,
+            "y": 70,
+            "w": 26,
+            "h": 7
+          },
+          {
+            "label": "El legado de las amonitas",
+            "to": "ammonite-legacy",
+            "x": 14,
+            "y": 70,
+            "w": 22,
+            "h": 7
+          }
+        ]
+      },
+      "ammonite-legacy": {
+        "image": "assets/ammo/AMMO01PU.webp",
+        "back": "main"
+      },
+      "shells-of-all-sizes": {
+        "image": "assets/ammo/AMMO02PU.webp",
+        "back": "main"
+      },
+      "ocean-jewels": {
+        "image": "assets/ammo/AMMO03PU.webp",
+        "back": "main"
+      },
+      "inside-the-shell": {
+        "image": "assets/ammo/AMMO04PU.webp",
+        "back": "main"
+      },
+      "unlikely-couples": {
+        "image": "assets/ammo/AMMO05PU.webp",
+        "back": "main"
+      },
+      "both-predator-and-prey": {
+        "image": "assets/ammo/AMMO06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/ammo/AMMO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/ammo/AMMO00AP.mp3",
+  "narration": "assets/ammo/AMMO00AJ.mp3",
+  "fanTranslation": true
+}

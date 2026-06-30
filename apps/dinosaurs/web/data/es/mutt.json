@@ -1,0 +1,151 @@
+{
+  "id": "mutt",
+  "code": "MUTT",
+  "name": "Muttaburrasaurus",
+  "category": "dinosaur",
+  "scientificName": "Muttaburrasaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "MUT-ah-BUR-ah-SOR-us",
+  "meaning": "lagarto de Muttaburra",
+  "period": "Cretácico",
+  "diet": "Herbívoro",
+  "tagline": "¡El dinosaurio más extraño de Australia tenía una nariz abultada y una espina letal en el pulgar!",
+  "hero": {
+    "image": "assets/mutt/MUTT00AA.webp",
+    "alt": "Muttaburrasaurus"
+  },
+  "intro": "Un pico y una nariz extraña y protuberante hacían del Muttaburrasaurus un dinosaurio de aspecto muy peculiar. El Muttaburrasaurus es el fósil de dinosaurio más completo encontrado hasta ahora en Australia, y pertenecía al mismo grupo que el Iguanodón, otro famoso dinosaurio.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Australia"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto de Muttaburra"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Ornitópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "7 m (23 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "iguanodon-look-alike",
+      "title": "Parecido al Iguanodón",
+      "image": "assets/mutt/MUTT01PU.webp",
+      "text": "En cuanto a su estructura, el Muttaburrasaurus es muy similar al Iguanodón. Probablemente pertenecen al mismo grupo de dinosaurios: los iguanodontes. Pero a diferencia del Muttaburrasaurus, que solo se ha encontrado en Australia, el Iguanodón es un dinosaurio muy conocido cuyos restos han sido hallados en todo el mundo.",
+      "captions": [
+        {
+          "label": "Espina del pulgar",
+          "text": "Tanto el Muttaburrasaurus como el Iguanodón tenían grandes espinas en el pulgar. Estas espinas eran probablemente armas muy eficaces, además de útiles herramientas para excavar."
+        }
+      ]
+    },
+    {
+      "id": "dinosaur-from-down-under",
+      "title": "Un dinosaurio de las antípodas",
+      "image": "assets/mutt/MUTT02PU.webp",
+      "text": "El Muttaburrasaurus recibió su nombre del lugar donde fue descubierto por primera vez: Muttaburra, en Queensland, Australia. Aunque Australia tiene una extensión casi igual a la de Estados Unidos, en ese territorio se han encontrado muy pocos dinosaurios."
+    },
+    {
+      "id": "other-bumpy-nosed-beasts",
+      "title": "Otras criaturas de nariz abultada",
+      "image": "assets/mutt/MUTT03PU.webp",
+      "text": "La cresta ósea del hocico del Muttaburrasaurus se parece mucho a las narices abultadas de los hadrosaurios Kritosaurus y Maiasaura.",
+      "captions": [
+        {
+          "label": "¿Una nariz para pelear?",
+          "text": "Se ha especulado con que el Muttaburrasaurus pudo haber usado su hocico óseo en combates de cabezazos, de modo similar al Prenocephale. Estos combates servían presumiblemente para establecer la dominancia entre los machos en la búsqueda de pareja."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaur Cove",
+      "to": "cove"
+    },
+    {
+      "label": "Iguanodon",
+      "to": "igua"
+    },
+    {
+      "label": "Important Dinosaur Sites",
+      "to": "site"
+    },
+    {
+      "label": "Pachycephalosaurus",
+      "to": "pach"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mutt/MUTT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Un dinosaurio de las antípodas",
+            "to": "dinosaur-from-down-under",
+            "x": 20,
+            "y": 50,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Parecido al Iguanodón",
+            "to": "iguanodon-look-alike",
+            "x": 3,
+            "y": 72,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Otras criaturas de nariz abultada",
+            "to": "other-bumpy-nosed-beasts",
+            "x": 67,
+            "y": 27,
+            "w": 24,
+            "h": 5
+          }
+        ]
+      },
+      "iguanodon-look-alike": {
+        "image": "assets/mutt/MUTT01PU.webp",
+        "back": "main"
+      },
+      "dinosaur-from-down-under": {
+        "image": "assets/mutt/MUTT02PU.webp",
+        "back": "main"
+      },
+      "other-bumpy-nosed-beasts": {
+        "image": "assets/mutt/MUTT03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/mutt/MUTT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/mutt/MUTT00AP.mp3",
+  "narration": "assets/mutt/MUTT00AJ.mp3",
+  "fanTranslation": true
+}

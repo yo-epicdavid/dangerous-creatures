@@ -1,0 +1,109 @@
+{
+  "id": "hcer",
+  "code": "HCER",
+  "name": "Cómo reconocer a los ceratopsios",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "ser-uh-TOP-see-unz",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Cuernos, gorgueras y pico: los ceratopsios eran los trituradores de plantas acorazados del mundo de los dinosaurios.",
+  "hero": {
+    "image": "assets/hcer/HCER00AA.webp",
+    "alt": "Cómo reconocer a los ceratopsios"
+  },
+  "intro": "Los ceratopsios eran los rinocerontes gigantes del mundo de los dinosaurios: tenían cráneos enormes y pesados, imponentes gorgueras en el cuello bordeadas de afiladas púas, e impresionantes cuernos en el hocico y la frente. A pesar de su aspecto amenazador, los ceratopsios eran apacibles herbívoros que solo se alimentaban de plantas duras, no de otros animales. Los paleontólogos creen que algunos dinosaurios ceratopsios vivían en manadas para protegerse de los depredadores.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "horns-beaks-and-frills",
+      "title": "Cuernos, picos y gorgueras",
+      "image": "assets/hcer/HCER01PU.webp",
+      "text": "Es posible que los dinosaurios ceratopsios desarrollaran sus cráneos y picos extraordinariamente resistentes para alimentarse de materiales vegetales especialmente duros que otros dinosaurios no podían masticar. Los cuernos servían para exhibición o para defensa.",
+      "captions": [
+        {
+          "label": "Cuernos amenazadores",
+          "text": "Los ceratopsios tenían cuernos, o al menos protuberancias óseas en el hocico. Muchos también tenían cuernos sobre las cejas y alrededor de las gorgueras del cuello. Al formar un círculo con las cabezas mirando hacia afuera, una manada de ceratopsios presentaría una fachada erizada de picos que pocos depredadores se atreverían a desafiar."
+        },
+        {
+          "label": "Gorgueras del cuello",
+          "text": "Aunque las gorgueras del cuello de los ceratopsios eran impresionantes como exhibición y servían de escudo para el cuello de los dinosaurios, es probable que esos cuellos óseos evolucionaran como punto de anclaje para los enormes músculos necesarios para mover las poderosas mandíbulas de los dinosaurios con cuernos."
+        },
+        {
+          "label": "Picos óseos",
+          "text": "Los picos de los dinosaurios con cuernos eran resistentes y óseos, y estaban recubiertos por una vaina córnea parecida a una uña. A diferencia del pico de un ave, el pico de un ceratopsio podía cortar tallos y ramitas muy duros. Detrás del pico había dientes afilados que trituraban el alimento en pequeños trozos fáciles de digerir."
+        }
+      ]
+    },
+    {
+      "id": "bird-hips-and-elephant-feet",
+      "title": "Caderas de ave y pies de elefante",
+      "image": "assets/hcer/HCER02PU.webp",
+      "text": "Aunque los dinosaurios ceratopsios no se parecían en nada a las aves, forman parte del grupo de los ornitisquios, o dinosaurios de cadera de ave. La estructura de sus caderas, patas y pies estaba bien diseñada para soportar sus enormes cuerpos.",
+      "captions": [
+        {
+          "label": "Repartiendo el peso",
+          "text": "Al igual que un elefante, las patas de los dinosaurios ceratopsios estaban construidas para soportar toneladas de peso. Las patas delanteras tenían que ser especialmente resistentes para aguantar el pesado cráneo y la gorguera del cuello, además de los hombros del dinosaurio. Los pies debían ser anchos y estar bien acolchados. Es probable que estos pesados dinosaurios no pudieran correr muy rápido."
+        },
+        {
+          "label": "Dos tipos de caderas",
+          "text": "Los paleontólogos llevan mucho tiempo utilizando la estructura de las caderas para ayudar a clasificar a los dinosaurios. Los dinosaurios de cadera de lagarto tenían una estructura de cadera en la que uno de los dos huesos pélvicos inferiores apuntaba hacia delante y el otro hacia atrás, como ocurre en los lagartos actuales. Los dinosaurios de cadera de ave, en cambio, tenían una estructura de cadera como la que se encuentra en las aves actuales: dos huesos pélvicos inferiores que apuntaban hacia atrás y hacia abajo."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Triceratops",
+      "to": "tric"
+    },
+    {
+      "label": "What is a Dinosaur?",
+      "to": "what"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/hcer/HCER00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuernos, picos y gorgueras",
+            "to": "horns-beaks-and-frills",
+            "x": 3,
+            "y": 52,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Caderas de ave y pies de elefante",
+            "to": "bird-hips-and-elephant-feet",
+            "x": 2,
+            "y": 70,
+            "w": 30,
+            "h": 5
+          }
+        ]
+      },
+      "horns-beaks-and-frills": {
+        "image": "assets/hcer/HCER01PU.webp",
+        "back": "main"
+      },
+      "bird-hips-and-elephant-feet": {
+        "image": "assets/hcer/HCER02PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/hcer/HCER00AP.mp3",
+  "narration": "assets/hcer/HCER00AJ.mp3",
+  "sound": "assets/hcer/HCER00SA.mp3",
+  "fanTranslation": true
+}

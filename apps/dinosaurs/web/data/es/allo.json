@@ -1,0 +1,309 @@
+{
+  "id": "allo",
+  "code": "ALLO",
+  "name": "Alosaurio",
+  "category": "dinosaur",
+  "scientificName": "Allosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "AL-oh-SOR-us",
+  "meaning": "Lagarto diferente",
+  "period": "Jurásico superior",
+  "diet": "Carnívoro",
+  "tagline": "El depredador más temido del Jurásico... antes de que el T. rex llegara al mundo.",
+  "hero": {
+    "image": "assets/allo/ALLO00AA.webp",
+    "alt": "Alosaurio"
+  },
+  "intro": "Con unas mandíbulas enormes y dientes aserrados como cuchillos, el Alosaurio fue uno de los carnívoros más grandes y temidos de su época. Este enorme carnosaurio utilizaba las poderosas garras de sus manos de tres dedos para sujetar y desgarrar a sus presas. El Alosaurio fue el dinosaurio depredador más común durante el Jurásico Superior en lo que hoy se conoce como América del Norte.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "África, América del Norte"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Lagarto diferente"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Terópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "11 m (36 pies)"
+    },
+    {
+      "label": "Peso",
+      "value": "1,5 toneladas"
+    }
+  ],
+  "topics": [
+    {
+      "id": "a-mighty-predator",
+      "title": "Un poderoso depredador",
+      "image": "assets/allo/ALLO01PU.webp",
+      "text": "Se han encontrado vértebras de Apatosaurio con marcas de dientes de Alosaurio. Los científicos no saben con certeza si el gigantesco saurópodo fue cazado por el Alosaurio, o si murió de forma natural y el hambriento carnosaurio simplemente lo encontró.",
+      "captions": [
+        {
+          "label": "La defensa del gigante",
+          "text": "Si el tamaño por sí solo no conseguía ahuyentar a un hambriento Alosaurio, los gigantescos saurópodos solo contaban con un arma: una cola larga y poderosa, similar a un látigo."
+        }
+      ]
+    },
+    {
+      "id": "skull-story",
+      "title": "La historia del cráneo",
+      "image": "assets/allo/ALLO02PU.webp",
+      "text": "Los cráneos pueden contarnos mucho sobre lo que comía un dinosaurio en vida. El estudio de las mandíbulas y los dientes nos ofrece las pistas más importantes.",
+      "captions": [
+        {
+          "label": "Cráneo de carnívoro",
+          "text": "La poderosa mandíbula inferior y las temibles hileras de dientes curvos y aserrados de este cráneo de Alosaurio son características típicas de los carnívoros. Los animales de boca grande como el Alosaurio tenían grandes músculos para cerrar sus mandíbulas."
+        },
+        {
+          "label": "Cráneo de herbívoro",
+          "text": "Este cráneo pertenecía a un enorme dinosaurio herbívoro llamado Diplodocus. Obsérvese que todos sus dientes finos y alargados, parecidos a lápices, se encuentran en la parte delantera de la boca, lo que indica que este dinosaurio no podía masticar y simplemente usaba sus dientes como un rastrillo para recoger agujas de coníferas y hojas."
+        }
+      ]
+    },
+    {
+      "id": "a-massive-skull",
+      "title": "Un cráneo colosal",
+      "image": "assets/allo/ALLO03PU.webp",
+      "text": "El cráneo del Alosaurio medía más de noventa centímetros de longitud. Este enorme cráneo tenía grandes espacios, o «ventanas», entre los huesos, lo que lo hacía ligero pero resistente.",
+      "captions": [
+        {
+          "label": "Un cazador de vista aguda",
+          "text": "Las grandes cuencas oculares indican que el Alosaurio podría haber tenido ojos grandes, quizás más grandes que los del mayor carnívoro, el Tiranosaurio rex."
+        },
+        {
+          "label": "Protuberancias extrañas",
+          "text": "El Alosaurio tenía una rugosa protuberancia ósea sobre cada ojo. Es posible que estas le protegieran los ojos del sol o le ayudaran a reconocer a otros Alosaurios."
+        },
+        {
+          "label": "Los dientes de un asesino",
+          "text": "Más de setenta dientes recorrían las mandíbulas del Alosaurio. Medían hasta diez centímetros de longitud, con bordes aserrados como cuchillos de carne para cortar la carne. Los dientes se curvaban hacia la parte trasera de la boca para impedir que la comida se escapara. A medida que los dientes se desgastaban o se rompían, nuevos dientes crecían en su lugar."
+        },
+        {
+          "label": "Una máquina de comer",
+          "text": "A excepción de las mandíbulas, los huesos del cráneo están unidos de forma muy sólida en la mayoría de los animales. Sin embargo, varias articulaciones del cráneo del Alosaurio eran laxas y flexibles, lo que le permitía abrir la boca muchísimo para engullir enormes trozos de carne."
+        }
+      ]
+    },
+    {
+      "id": "meat-eating-dinosaurs",
+      "title": "Dinosaurios carnívoros",
+      "image": "assets/allo/ALLO04PU.webp",
+      "text": "El Alosaurio fue uno de los grandes dinosaurios carnívoros. Llegó a alcanzar un tamaño enorme, en ocasiones tan grande como el rey de los carnívoros, el Tiranosaurio rex.",
+      "captions": [
+        {
+          "label": "Gran comedor",
+          "text": "Se han encontrado restos fósiles de varios dinosaurios herbívoros junto a los esqueletos de Alosaurio, entre ellos los de Camptosaurio y el enorme Camarasaurio. Esto significa que el Alosaurio probablemente se alimentaba de animales incluso más grandes que él."
+        },
+        {
+          "label": "Uno de los primeros carnosaurios",
+          "text": "El Dilofosaurio, con su distintiva cresta, fue uno de los grandes carnívoros más antiguos que se conocen."
+        }
+      ]
+    },
+    {
+      "id": "thick-legs-and-bird-like-hands",
+      "title": "Patas robustas y manos parecidas a las de las aves",
+      "image": "assets/allo/ALLO05PU.webp",
+      "text": "Los huesos de las patas del Alosaurio eran gruesos y resistentes. A veces medían más de un metro desde la cadera hasta el tobillo. El Alosaurio puede que no fuera el dinosaurio más veloz, pero como depredador era suficientemente rápido para atrapar herbívoros con sus poderosas mandíbulas.",
+      "captions": [
+        {
+          "label": "Manos de ave",
+          "text": "Los brazos y las manos, pequeños pero robustos, ayudaban al Alosaurio a sujetar a sus presas. Sus manos de tres dedos tenían garras afiladas capaces de desgarrar la carne. Los carnívoros como el Alosaurio necesitaban estar bien armados para cazar."
+        }
+      ]
+    },
+    {
+      "id": "useless-toe",
+      "title": "Un dedo inútil",
+      "image": "assets/allo/ALLO07PU.webp",
+      "text": "Tres dedos orientados hacia delante en cada una de las grandes patas del Alosaurio soportaban el peso de este gigantesco carnívoro. Un cuarto dedo apuntaba hacia atrás y puede que en ocasiones tocara el suelo. Cada dedo tenía una afilada garra. Un quinto dedo que colgaba bajo la articulación del tobillo era corto e inútil para caminar o correr."
+    },
+    {
+      "id": "the-tale-of-the-tail",
+      "title": "La historia de la cola",
+      "image": "assets/allo/ALLO08PU.webp",
+      "text": "La larga cola del Alosaurio, formada por aproximadamente cincuenta vértebras, puede que ayudara a contrarrestar el peso del enorme cuerpo del dinosaurio cuando se lanzaba hacia delante. Las espinas verticales y horizontales albergaban los músculos que movían el esqueleto. Los chevrones en forma de Y situados bajo las vértebras caudales rodeaban los principales vasos sanguíneos de la cola."
+    },
+    {
+      "id": "allosaurus-skeleton",
+      "title": "Esqueleto del Alosaurio",
+      "image": "assets/allo/ALLO09PU.webp",
+      "text": "El Alosaurio fue uno de los tipos de carnosaurios más comunes, los grandes carnívoros del mundo de los dinosaurios. Los huesos de más de sesenta Alosaurios se han encontrado en una sola cantera de Utah.",
+      "captions": [
+        {
+          "label": "Una cabeza poderosa",
+          "text": "El cuello curvado del Alosaurio tenía que ser fuerte y flexible para sostener su pesada cabeza. Nueve vértebras formaban un cuello corto y musculoso. Las superficies rugosas de la columna vertebral muestran a los científicos dónde se insertaban los músculos."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Meat-eaters",
+      "to": "meat"
+    },
+    {
+      "label": "Apatosaurus",
+      "to": "apat"
+    },
+    {
+      "label": "The Story in a Skull",
+      "to": "stor"
+    },
+    {
+      "label": "Teeth",
+      "to": "teet"
+    },
+    {
+      "label": "Dilophosaurus",
+      "to": "dilo"
+    },
+    {
+      "label": "Claws",
+      "to": "claw"
+    },
+    {
+      "label": "What is a Fossil?",
+      "to": "foss"
+    },
+    {
+      "label": "Reconstructing Dinosaurs",
+      "to": "reco"
+    },
+    {
+      "label": "Piatnitzkysaurus",
+      "to": "piat"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/allo/ALLO00AA.webp",
+        "hotspots": [
+          {
+            "label": "La historia del cráneo",
+            "to": "skull-story",
+            "x": 72,
+            "y": 17,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Un cráneo colosal",
+            "to": "a-massive-skull",
+            "x": 72,
+            "y": 29,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Dinosaurios carnívoros",
+            "to": "meat-eating-dinosaurs",
+            "x": 63,
+            "y": 42,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Patas robustas y manos parecidas a las de las aves",
+            "to": "thick-legs-and-bird-like-hands",
+            "x": 55,
+            "y": 56,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Esqueleto del Alosaurio",
+            "to": "allosaurus-skeleton",
+            "x": 2,
+            "y": 50,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Un poderoso depredador",
+            "to": "a-mighty-predator",
+            "x": 2,
+            "y": 65,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "La historia de la cola",
+            "to": "the-tale-of-the-tail",
+            "x": 13,
+            "y": 79,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Un dedo inútil",
+            "to": "useless-toe",
+            "x": 60,
+            "y": 79,
+            "w": 12,
+            "h": 5
+          }
+        ]
+      },
+      "a-mighty-predator": {
+        "image": "assets/allo/ALLO01PU.webp",
+        "back": "main"
+      },
+      "skull-story": {
+        "image": "assets/allo/ALLO02PU.webp",
+        "back": "main"
+      },
+      "a-massive-skull": {
+        "image": "assets/allo/ALLO03PU.webp",
+        "back": "main"
+      },
+      "meat-eating-dinosaurs": {
+        "image": "assets/allo/ALLO04PU.webp",
+        "back": "main"
+      },
+      "thick-legs-and-bird-like-hands": {
+        "image": "assets/allo/ALLO05PU.webp",
+        "back": "main"
+      },
+      "useless-toe": {
+        "image": "assets/allo/ALLO07PU.webp",
+        "back": "main"
+      },
+      "the-tale-of-the-tail": {
+        "image": "assets/allo/ALLO08PU.webp",
+        "back": "main"
+      },
+      "allosaurus-skeleton": {
+        "image": "assets/allo/ALLO09PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/allo/ALLO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/allo/ALLO00AP.mp3",
+  "narration": "assets/allo/ALLO00AJ.mp3",
+  "fanTranslation": true
+}

@@ -1,0 +1,225 @@
+{
+  "id": "amer",
+  "code": "AMER",
+  "name": "La fiebre americana de los dinosaurios",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "¡Dos científicos rivales desencadenaron una frenética carrera para desenterrar los huesos de dinosaurio más grandes del oeste americano!",
+  "hero": {
+    "image": "assets/amer/AMER00AA.webp",
+    "alt": "La fiebre americana de los dinosaurios"
+  },
+  "intro": "A mediados de la década de 1850 se descubrieron dinosaurios en Norteamérica, ¡y la fiebre comenzó! Los hallazgos provocaron un frenesí de actividad durante los siguientes cincuenta años, similar a las fiebres del oro de la época. Los científicos americanos Edward Drinker Cope, paleontólogo de Filadelfia, y Othniel Charles Marsh, conservador del museo de la Universidad de Yale, compitieron entre sí en lo que se conoció como las «guerras de los dinosaurios». Cada uno aspiraba a convertirse en el mayor experto mundial en dinosaurios. Tanto Cope como Marsh financiaron numerosos equipos de cazadores de fósiles que recorrieron Colorado, Montana y Wyoming en una carrera por encontrar los huesos más espectaculares de los Estados Unidos.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "transatlantic-trend",
+      "title": "La moda transatlántica",
+      "image": "assets/amer/AMER01PU.webp",
+      "text": "El escultor británico Benjamin Waterhouse Hawkins se convirtió en una celebridad tras crear una serie de modelos de dinosaurios en el Palacio de Cristal de Londres. Sin querer quedarse atrás, los comisarios del Central Park de Nueva York contrataron a Hawkins en 1868 para construir modelos de dinosaurios de tamaño natural en hormigón para un proyectado Museo del Paleozoico dentro del parque. Se construyeron varios modelos para el museo, pero unos corruptos funcionarios municipales, miembros de la infame Sociedad Tammany, echaron abajo el proyecto. Ordenaron que los modelos fueran destrozados y enterrados. A pesar de todo ello, la fascinación por los dinosaurios en los Estados Unidos no dejó de crecer."
+    },
+    {
+      "id": "making-bones",
+      "title": "Huesos de la discordia",
+      "image": "assets/amer/AMER02PU.webp",
+      "text": "Cope y Marsh eran rivales acérrimos. En 1868, Cope describió un nuevo reptil marino fósil conocido como Elasmosaurus, y sugirió que era muy peculiar por la inusual estructura de su columna vertebral. Marsh examinó los hallazgos de Cope y señaló que este había colocado la cabeza del animal en el extremo de su cola. Marsh resultó tener razón. Cope quedó en ridículo."
+    },
+    {
+      "id": "fossil-miners",
+      "title": "Los mineros de fósiles",
+      "image": "assets/amer/AMER03PU.webp",
+      "text": "Marsh contrató al maestro de escuela de Colorado Arthur Lakes para excavar huesos de dinosaurio cerca de Morrison, Colorado. A su vez, Cope contrató al amigo y compañero docente de Lakes, O.W. Lucas, que encontró huesos cerca de Canyon City, Colorado. La carrera había comenzado. Decenas de hombres cavaron en aquellas colinas ricas en fósiles. Los huesos de dinosaurio brotaban casi a raudales de la tierra.",
+      "captions": [
+        {
+          "label": "Error de imprenta",
+          "text": "Marsh y Cope enviaron equipos de cazadores de dinosaurios a recorrer las laderas del Oeste en busca de huesos. En su afán por superar al otro, los científicos se apresuraban constantemente a ser los primeros en publicar. Marsh describió el Apatosaurus en 1877 y el Brontosaurus en 1879, pero se trataba del mismo dinosaurio. Como un dinosaurio no puede tener dos nombres, el animal se conoce ahora por su nombre más antiguo, Apatosaurus."
+        }
+      ]
+    },
+    {
+      "id": "cope-springs-eternal",
+      "title": "La esperanza eterna de Cope",
+      "image": "assets/amer/AMER05PU.webp",
+      "text": "La rivalidad entre Cope y Marsh se mantuvo hasta la muerte de ambos. Cope falleció en 1897 y Marsh en 1899. Aunque Marsh describió más dinosaurios que Cope, los intereses de Cope en paleontología eran más amplios y su contribución fue mayor. Pero quizás el mayor legado de los dos científicos fueron sus aportaciones a las técnicas de prospección, excavación, registro y transporte de grandes huesos fosilizados."
+    },
+    {
+      "id": "the-best-dinosaur-money-could-buy",
+      "title": "El mejor dinosaurio que el dinero podía comprar",
+      "image": "assets/amer/AMER06PU.webp",
+      "text": "Hacia finales del siglo XIX, el magnate del acero Andrew Carnegie desarrolló una fascinación por los dinosaurios. Decidió que quería uno para el museo de historia natural que estaba financiando en Pittsburgh. Carnegie sufragó una expedición a Wyoming, donde se desenterraron dos esqueletos parciales de dinosaurio de la misma especie. Los huesos se combinaron para formar un esqueleto de casi veintiséis metros de longitud al que se dio el nombre de Diplodocus.",
+      "captions": [
+        {
+          "label": "Earl Douglass, cazador de dinosaurios",
+          "text": "Earl Douglass fue uno de los detectives de dinosaurios más productivos que exploraron el Oeste americano. Durante una expedición financiada por Carnegie, Douglass descubrió zonas de Utah y Colorado extraordinariamente ricas en restos de dinosaurios. De 1909 a 1924, excavó esqueletos de Apatosaurus, Estegosaurio, Alosaurio, Diplodocus, Camarasaurus, Barosaurus y Camptosaurus. El lugar se convirtió más tarde en el Monumento Nacional Dinosaur."
+        }
+      ]
+    },
+    {
+      "id": "the-biggest-dinosaur",
+      "title": "¿El dinosaurio más grande?",
+      "image": "assets/amer/AMER07PU.webp",
+      "text": "En Norteamérica se han encontrado huesos de algunos de los dinosaurios más grandes que jamás han existido. El Brachiosaurus, con unos veintitrés metros de longitud, doce metros de altura y ochenta toneladas de peso, eclipsaba al Diplodocus, más común, con sus veinte toneladas. Pero recientes descubrimientos de tres nuevos saurópodos indican que estos podrían haber sido aún más grandes que el Brachiosaurus.",
+      "captions": [
+        {
+          "label": "Especialista en supersaurópodos",
+          "text": "Jim Jensen, un paleontólogo que descubrió tanto el Supersaurus como el Ultrasauros en Colorado, aparece aquí junto a un hueso del hombro de un Supersaurus. Algunos paleontólogos creen que ambos gigantescos saurópodos de Jensen podrían ser ejemplares de gran tamaño de Brachiosaurus."
+        },
+        {
+          "label": "¿Excavando el más grande de todos?",
+          "text": "David Gillette aparece aquí junto a huesos del Seismosaurus, en plena excavación en Nuevo México. Según las mediciones preliminares, el Seismosaurus podría resultar ser el dinosaurio más grande de todos."
+        }
+      ]
+    },
+    {
+      "id": "meanwhile-across-the-border",
+      "title": "Mientras tanto, al otro lado de la frontera...",
+      "image": "assets/amer/AMER08PU.webp",
+      "text": "Barnum Brown, un cazador de dinosaurios americano que trabajaba para el Museo Americano de Historia Natural, descubrió una enorme cantidad de fósiles de dinosaurios en los badlands junto al río Red Deer, en Alberta. Transportaba los pesados huesos río abajo en balsas. Los canadienses pronto se dieron cuenta de que sus tesoros prehistóricos estaban siendo expoliados, y se apresuraron a enviar sus propios equipos de coleccionistas.",
+      "captions": [
+        {
+          "label": "Sternberg e hijos",
+          "text": "Charles Hazelius Sternberg tomó prestada la técnica de Barnum Brown de transportar fósiles por agua. Sternberg y sus hijos —Charles, Levi y George— recogieron numerosos ejemplares de gran valor en la zona que se convertiría en el Dinosaur Provincial Park. En esta fotografía, C. H. Sternberg aparece excavando fósiles junto al investigador canadiense Lawrence Lambe. Otros canadienses, George Dawson y George Tyrrell, también descubrieron y describieron numerosos dinosaurios en la zona."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaur National Monument",
+      "to": "dnmu"
+    },
+    {
+      "label": "Museums of North America",
+      "to": "muse"
+    },
+    {
+      "label": "Elasmosaurus",
+      "to": "elas"
+    },
+    {
+      "label": "What is Paleontology?",
+      "to": "pale"
+    },
+    {
+      "label": "What You Need to Find a Fossil",
+      "to": "find"
+    },
+    {
+      "label": "Diplodocus",
+      "to": "dipl"
+    },
+    {
+      "label": "Dinosaur Society"
+    },
+    {
+      "label": "Early Dinosaur Detectives",
+      "to": "edet"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/amer/AMER00AA.webp",
+        "hotspots": [
+          {
+            "label": "Mientras tanto, al otro lado de la frontera...",
+            "to": "meanwhile-across-the-border",
+            "x": 25,
+            "y": 45,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Huesos de la discordia",
+            "to": "making-bones",
+            "x": 60,
+            "y": 42,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "La esperanza eterna de Cope",
+            "to": "cope-springs-eternal",
+            "x": 16,
+            "y": 52,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Los mineros de fósiles",
+            "to": "fossil-miners",
+            "x": 57,
+            "y": 52,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "¿El dinosaurio más grande?",
+            "to": "the-biggest-dinosaur",
+            "x": 18,
+            "y": 62,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "La moda transatlántica",
+            "to": "transatlantic-trend",
+            "x": 56,
+            "y": 62,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "El mejor dinosaurio que el dinero podía comprar",
+            "to": "the-best-dinosaur-money-could-buy",
+            "x": 12,
+            "y": 71,
+            "w": 26,
+            "h": 5
+          }
+        ]
+      },
+      "transatlantic-trend": {
+        "image": "assets/amer/AMER01PU.webp",
+        "back": "main"
+      },
+      "making-bones": {
+        "image": "assets/amer/AMER02PU.webp",
+        "back": "main"
+      },
+      "fossil-miners": {
+        "image": "assets/amer/AMER03PU.webp",
+        "back": "main"
+      },
+      "cope-springs-eternal": {
+        "image": "assets/amer/AMER05PU.webp",
+        "back": "main"
+      },
+      "the-best-dinosaur-money-could-buy": {
+        "image": "assets/amer/AMER06PU.webp",
+        "back": "main"
+      },
+      "the-biggest-dinosaur": {
+        "image": "assets/amer/AMER07PU.webp",
+        "back": "main"
+      },
+      "meanwhile-across-the-border": {
+        "image": "assets/amer/AMER08PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/amer/AMER00AP.mp3",
+  "narration": "assets/amer/AMER00AJ.mp3",
+  "fanTranslation": true
+}

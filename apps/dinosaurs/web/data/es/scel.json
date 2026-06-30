@@ -1,0 +1,105 @@
+{
+  "id": "scel",
+  "code": "SCEL",
+  "name": "Scelidosaurus",
+  "category": "dinosaur",
+  "scientificName": "Scelidosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "ske-LID-oh-SOR-us",
+  "meaning": "lagarto de las extremidades",
+  "period": "Jurásico inferior",
+  "diet": "Herbívoro",
+  "tagline": "Con una sólida armadura y una cola a modo de látigo, el Scelidosaurus fue uno de los primeros anquilosaurios.",
+  "hero": {
+    "image": "assets/scel/SCEL00AA.webp",
+    "alt": "Scelidosaurus"
+  },
+  "intro": "Una impresionante armadura de huesos protegía al Scelidosaurus de la mayoría de sus depredadores. Sin embargo, si algún dinosaurio carnívoro se empeñaba en amenazar a este pequeño ornitisquio, el Scelidosaurus también podía agitar su larga y musculosa cola como un látigo para asustar al atacante. Los científicos debaten si el Scelidosaurus es un estegosaurio o un anquilosaurio.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Europa"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico Temprano"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto de las extremidades"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Anquilosaurio"
+    },
+    {
+      "label": "Longitud",
+      "value": "4 m (13 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "something-afoot",
+      "title": "¿Algo que ver con los pies?",
+      "image": "assets/scel/SCEL01PU.webp",
+      "text": "Este es el pie trasero completo del Scelidosaurus. Es fuerte y ancho, con tres dedos poderosos que sostenían el pesado cuerpo. El primer dedo, más pequeño, apenas habría tocado el suelo cuando el dinosaurio estaba de pie.",
+      "captions": [
+        {
+          "label": "Primer dedo",
+          "text": "Primer dedo"
+        },
+        {
+          "label": "Huesos del tobillo",
+          "text": "Huesos del tobillo"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaurs in Armor",
+      "to": "armr"
+    },
+    {
+      "label": "Footprints",
+      "to": "foot"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/scel/SCEL00AA.webp",
+        "hotspots": [
+          {
+            "label": "¿Algo que ver con los pies?",
+            "to": "something-afoot",
+            "x": 13,
+            "y": 68,
+            "w": 22,
+            "h": 6
+          }
+        ]
+      },
+      "something-afoot": {
+        "image": "assets/scel/SCEL01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/scel/SCEL50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/scel/SCEL00AP.mp3",
+  "narration": "assets/scel/SCEL00AJ.mp3",
+  "fanTranslation": true
+}

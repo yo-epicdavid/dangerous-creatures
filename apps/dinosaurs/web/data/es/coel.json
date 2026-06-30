@@ -1,0 +1,251 @@
+{
+  "id": "coel",
+  "code": "COEL",
+  "name": "Coelophysis",
+  "category": "dinosaur",
+  "scientificName": "Coelophysis",
+  "needsScientificVerify": false,
+  "pronunciation": "SEE-lo-FY-sis",
+  "meaning": "Forma hueca",
+  "period": "Triásico superior",
+  "diet": "Carnívoro",
+  "tagline": "¡Este pequeño cazador bípedo puede que se comiera a sus propias crías!",
+  "hero": {
+    "image": "assets/coel/COEL00AA.webp",
+    "alt": "Coelophysis"
+  },
+  "intro": "No todos los dinosaurios carnívoros eran gigantes. Los dinosaurios rápidos y de constitución ligera, como el Coelophysis, estaban perfectamente adaptados para cazar a otros dinosaurios más pequeños, así como lagartijas e insectos. Aunque el Coelophysis medía tan solo tres metros de hocico a cola y pesaba unos veintisiete kilos, tenía garras y dientes afilados y era un cazador muy ágil.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Triásico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Forma hueca"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Terópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "3 m (10 ft)"
+    },
+    {
+      "label": "Peso",
+      "value": "60 lb"
+    }
+  ],
+  "topics": [
+    {
+      "id": "skeleton-story",
+      "title": "Historia del esqueleto",
+      "image": "assets/coel/COEL01PU.webp",
+      "text": "Coelophysis significa «forma hueca», nombre que se dio a este dinosaurio porque tenía un esqueleto ligero con huesos huecos y un cráneo aligerado por varias «ventanas». Como puedes ver, el Coelophysis tenía patas largas y esbeltas y una cola delicada. Esta estructura le permitía correr a gran velocidad.",
+      "captions": [
+        {
+          "label": "Huesos antiguos",
+          "text": "Los fósiles de este dinosaurio se remontan al período Triásico, hace más de 200 millones de años, lo que convierte al Coelophysis en uno de los dinosaurios carnívoros más antiguos."
+        }
+      ]
+    },
+    {
+      "id": "the-carnivore-club",
+      "title": "El club de los carnívoros",
+      "image": "assets/coel/COEL02PU.webp",
+      "text": "Aquí puedes comparar al Alosaurio, uno de los carnívoros más grandes, con el Coelophysis, uno de los más pequeños. Aunque muy diferentes en tamaño y peso, ambos corrían sobre dos patas y tenían manos pequeñas pero fuertes, con garras."
+    },
+    {
+      "id": "one-of-the-smallest-meat-eaters",
+      "title": "Uno de los carnívoros más pequeños",
+      "image": "assets/coel/COEL03PU.webp",
+      "text": "Aunque estos carnívoros difieren en tamaño, se parecen en muchos aspectos. Todos tienen dientes y garras afilados para desgarrar y cortar la dura piel escamosa. Sus mandíbulas son fuertes y tienen dientes curvados hacia atrás para empujar grandes trozos de carne hacia la boca.",
+      "captions": [
+        {
+          "label": "Coelophysis",
+          "text": "Aunque pequeño en comparación con la mayoría de los demás dinosaurios carnívoros, el Coelophysis no era una amenaza menor para los animales de los que se alimentaba."
+        },
+        {
+          "label": "Deinonychus",
+          "text": "Uno de los cazadores más letales, cazaba dinosaurios mucho más grandes que él y puede que lo hiciera en manada."
+        },
+        {
+          "label": "Dilophosaurus",
+          "text": "Uno de los primeros grandes carnívoros, este dinosaurio vivió 50 millones de años antes que su primo carnosauro, el Alosaurio."
+        },
+        {
+          "label": "Troodon",
+          "text": "Este listo de tres dedos tenía un cerebro muy grande y ojos enormes, lo que lo convertía en un buen cazador tanto de día como de noche."
+        }
+      ]
+    },
+    {
+      "id": "cannibals",
+      "title": "¿Caníbales?",
+      "image": "assets/coel/COEL04PU.webp",
+      "text": "Este esqueleto de Coelophysis fue encontrado en Ghost Ranch, en Nuevo México, junto con muchos otros. En su vientre pueden verse huesos que son en realidad los restos de ejemplares jóvenes de la misma especie. Eran demasiado grandes para ser crías no nacidas, por lo que parece que los adultos comían en ocasiones a sus propias crías.",
+      "captions": [
+        {
+          "label": "Huesos de cría",
+          "text": "Bajo la caja torácica se pueden ver los huesos de una cría de Coelophysis, aparentemente devorada por un adulto por razones desconocidas."
+        }
+      ]
+    },
+    {
+      "id": "two-legged-racer",
+      "title": "Corredor bípedo",
+      "image": "assets/coel/COEL05PU.webp",
+      "text": "El Coelophysis tenía patas y pies largos, un cuerpo esbelto, una larga cola que le servía de contrapeso y huesos ligeros y huecos. Todo ello apunta a que era una criatura que corría a gran velocidad. Corría sobre sus patas traseras, sobre tres de sus cuatro dedos, reservando los brazos y las manos para capturar lagartijas y otros animales pequeños de los que se alimentaba.",
+      "captions": [
+        {
+          "label": "En el grupo de los terópodos",
+          "text": "Todos los dinosaurios carnívoros eran terópodos, caminaban sobre dos patas y tenían las mandíbulas repletas de dientes afilados y cortantes."
+        }
+      ]
+    },
+    {
+      "id": "relatives-of-birds",
+      "title": "¿Parientes de las aves?",
+      "image": "assets/coel/COEL06PU.webp",
+      "text": "El Coelophysis compartía muchas características con el Archaeopteryx, considerado por muchos como el ave conocida más antigua. Ambos tenían una constitución ligera, pequeños dientes, un cuello delgado y flexible, patas largas, dedos con garras y un cuerpo corto.",
+      "captions": [
+        {
+          "label": "¿Dinosaurio con plumas?",
+          "text": "Tanto el Coelophysis como el Archaeopteryx eran terópodos, pero el Archaeopteryx estaba cubierto de plumas. ¿Era el único dinosaurio emplumado, o el Coelophysis compartía esta característica? Los científicos no pueden estar seguros."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Compsognathus",
+      "to": "comp"
+    },
+    {
+      "label": "Speedy Dinosaurs",
+      "to": "spee"
+    },
+    {
+      "label": "Allosaurus",
+      "to": "allo"
+    },
+    {
+      "label": "The Smallest Dinosaurs",
+      "to": "smal"
+    },
+    {
+      "label": "Meat-eaters",
+      "to": "meat"
+    },
+    {
+      "label": "Warm-blooded or Cold-blooded?",
+      "to": "warm"
+    },
+    {
+      "label": "Archaeopteryx",
+      "to": "arch"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/coel/COEL00AA.webp",
+        "hotspots": [
+          {
+            "label": "El club de los carnívoros",
+            "to": "the-carnivore-club",
+            "x": 60,
+            "y": 36,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Historia del esqueleto",
+            "to": "skeleton-story",
+            "x": 28,
+            "y": 52,
+            "w": 18,
+            "h": 7
+          },
+          {
+            "label": "¿Caníbales?",
+            "to": "cannibals",
+            "x": 65,
+            "y": 54,
+            "w": 14,
+            "h": 7
+          },
+          {
+            "label": "¿Parientes de las aves?",
+            "to": "relatives-of-birds",
+            "x": 12,
+            "y": 63,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Uno de los carnívoros más pequeños",
+            "to": "one-of-the-smallest-meat-eaters",
+            "x": 5,
+            "y": 75,
+            "w": 30,
+            "h": 7
+          },
+          {
+            "label": "Corredor bípedo",
+            "to": "two-legged-racer",
+            "x": 59,
+            "y": 74,
+            "w": 20,
+            "h": 7
+          }
+        ]
+      },
+      "skeleton-story": {
+        "image": "assets/coel/COEL01PU.webp",
+        "back": "main"
+      },
+      "the-carnivore-club": {
+        "image": "assets/coel/COEL02PU.webp",
+        "back": "main"
+      },
+      "one-of-the-smallest-meat-eaters": {
+        "image": "assets/coel/COEL03PU.webp",
+        "back": "main"
+      },
+      "cannibals": {
+        "image": "assets/coel/COEL04PU.webp",
+        "back": "main"
+      },
+      "two-legged-racer": {
+        "image": "assets/coel/COEL05PU.webp",
+        "back": "main"
+      },
+      "relatives-of-birds": {
+        "image": "assets/coel/COEL06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/coel/COEL50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/coel/COEL00AP.mp3",
+  "narration": "assets/coel/COEL00AJ.mp3",
+  "fanTranslation": true
+}

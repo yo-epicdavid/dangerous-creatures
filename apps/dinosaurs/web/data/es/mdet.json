@@ -1,0 +1,208 @@
+{
+  "id": "mdet",
+  "code": "MDET",
+  "name": "Detectives modernos de dinosaurios",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Los científicos que descubren los secretos de los dinosaurios fósil a fósil.",
+  "hero": {
+    "image": "assets/mdet/MDET00AA.webp",
+    "alt": "Detectives modernos de dinosaurios"
+  },
+  "intro": "Casi la mitad de todos los dinosaurios que conocemos han sido descubiertos en las últimas dos décadas. Estos nuevos hallazgos han traído consigo formas radicalmente nuevas de entender el desarrollo, el comportamiento y la inteligencia de estas criaturas prehistóricas. Los detectives de dinosaurios de hoy están mucho mejor formados y preparados que sus predecesores, y sus teorías sobre los orígenes, la vida y la extinción de los dinosaurios son a veces controvertidas.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "unorthodox-thinkers",
+      "title": "Pensadores heterodoxos",
+      "image": "assets/mdet/MDET01PU.webp",
+      "text": "Gracias a las nuevas teorías, las ideas sobre el aspecto y el modo de vida de los dinosaurios cambian constantemente.",
+      "captions": [
+        {
+          "label": "Robert Bakker",
+          "text": "Robert Bakker sacudió las convenciones de la paleontología en 1968 cuando afirmó que los dinosaurios eran criaturas rápidas, ágiles y activas, como los mamíferos modernos de sangre caliente. Sostiene que los dinosaurios viven hoy en día... ¡en forma de aves!"
+        },
+        {
+          "label": "Sankar Chatterjee",
+          "text": "El paleontólogo indio Sankar Chatterjee trabaja en la Universidad Tecnológica de Texas, en Lubbock. En 1986, Chatterjee encontró indicios de lo que podría ser el ave más antigua conocida del mundo, el Protoavis, que según él existió al menos ochenta y cinco millones de años antes que el Archaeopteryx. Otros científicos no están tan seguros."
+        }
+      ]
+    },
+    {
+      "id": "chinese-studies",
+      "title": "Estudios en China",
+      "image": "assets/mdet/MDET02PU.webp",
+      "text": "A lo largo del siglo pasado, las regiones áridas de China han deparado numerosos y emocionantes descubrimientos de dinosaurios.",
+      "captions": [
+        {
+          "label": "Philip J. Currie",
+          "text": "El paleontólogo canadiense Philip J. Currie está considerado un experto en dinosaurios carnívoros. A finales de la década de 1980, él y el paleontólogo Dale Russell encabezaron una expedición científica conjunta canadiense-china. Se descubrieron fósiles extraordinarios, entre ellos raros dinosaurios bebé y el dinosaurio más grande hallado jamás en Asia."
+        },
+        {
+          "label": "Dong Zhiming",
+          "text": "El paleontólogo chino Dong Zhiming es el detective de dinosaurios más prolífico del mundo. ¡Dong nombró diecinueve dinosaurios chinos en las décadas de 1970 y 1980!"
+        }
+      ]
+    },
+    {
+      "id": "defining-duckbilled-dinosaurs",
+      "title": "Definiendo a los dinosaurios pico de pato",
+      "image": "assets/mdet/MDET03PU.webp",
+      "text": "Los hadrosaurios, con sus cabezas de formas extrañas y sus picos similares a los del pato, llevan mucho tiempo fascinando a los paleontólogos.",
+      "captions": [
+        {
+          "label": "David Weishampel",
+          "text": "El paleontólogo estadounidense David Weishampel ha realizado investigaciones innovadoras sobre la anatomía y el comportamiento de los dinosaurios pico de pato, que llevaron a la conclusión de que las crestas de estos dinosaurios podían emitir mensajes de baja frecuencia a kilómetros de distancia, de forma similar a como se comunican los elefantes hoy en día."
+        },
+        {
+          "label": "Jack Horner",
+          "text": "El paleontólogo del Museo de las Rocosas Jack Horner identificó los primeros nidos de dinosaurios de Norteamérica. Horner y su amigo Robert Makela excavaron los nidos del dinosaurio pico de pato Maiasaura en el oeste de Montana en 1978. Las pruebas halladas en los nidos, muy pisoteados, indicaban que estos dinosaurios cuidaban a sus crías mucho tiempo después del nacimiento."
+        },
+        {
+          "label": "Peter Dodson",
+          "text": "Peter Dodson es profesor de anatomía en la Universidad de Pensilvania. En 1975, Dodson demostró que las numerosas especies de dinosaurios pico de pato con cresta eran en realidad los machos, las hembras y las crías de unas pocas especies. Redujo trece especies a dos: Lambeosaurus y Parasaurolophus."
+        }
+      ]
+    },
+    {
+      "id": "sauropod-specialists",
+      "title": "Especialistas en saurópodos",
+      "image": "assets/mdet/MDET04PU.webp",
+      "text": "Los huesos de dinosaurio más grandes jamás excavados pertenecen a la enorme familia de los herbívoros: los saurópodos.",
+      "captions": [
+        {
+          "label": "Jim Jensen",
+          "text": "El antiguo prospector de la Universidad Brigham Young, Jim Jensen, desenterró miles de huesos de dinosaurio a lo largo de su carrera. Jensen, apodado «Jim el Dinosaurio», sacó a la luz los huesos de los dinosaurios más grandes descubiertos hasta entonces, Ultrasauros y Supersaurus, en las tierras baldías de Utah y Colorado durante la década de 1970."
+        },
+        {
+          "label": "David Gillette",
+          "text": "El paleontólogo del Estado de Utah David Gillette comenzó la excavación del Seismosaurus en Nuevo México en 1985. Aunque se dice que este dinosaurio es el más largo descubierto hasta la fecha, es posible que el esqueleto completo no llegue nunca a desenterrarse. ¡Gillette calcula que el lagarto que hacía temblar la tierra medía unos 37 metros de longitud!"
+        },
+        {
+          "label": "John McIntosh",
+          "text": "El físico y paleontólogo estadounidense John McIntosh contribuyó a definir la familia de los grandes herbívoros conocidos como diplodócidos a finales de la década de 1970. En el proceso, McIntosh y su colega David Berman descubrieron que la cabeza de un Camarasaurus había sido colocada sobre el cuerpo de un Apatosaurus. El dinosaurio había sido clasificado anteriormente como «Brontosaurus» por el paleontólogo del siglo XIX O. C. Marsh."
+        }
+      ]
+    },
+    {
+      "id": "expert-on-early-dinosaurs",
+      "title": "Experto en los primeros dinosaurios",
+      "image": "assets/mdet/MDET05PU.webp",
+      "text": "El paleontólogo estadounidense Paul Sereno ha tenido un gran éxito encontrando fósiles en todo el mundo. En 1988, descubrió un cráneo de Herrerasaurus, uno de los dinosaurios primitivos más antiguos de Argentina.",
+      "captions": [
+        {
+          "label": "El más antiguo hasta ahora",
+          "text": "En 1991, Sereno encabezó una expedición argentino-estadounidense que descubrió el dinosaurio más primitivo conocido, el Eoraptor. La criatura es un carnívoro de 228 millones de años de antigüedad, de un tamaño aproximado al de un pastor alemán."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaur Society"
+    },
+    {
+      "label": "Warm-blooded or Cold-blooded?",
+      "to": "warm"
+    },
+    {
+      "label": "How to Recognize Theropods",
+      "to": "hthr"
+    },
+    {
+      "label": "Shantungosaurus",
+      "to": "shan"
+    },
+    {
+      "label": "The Brontosaurus Mix-up",
+      "to": "bron"
+    },
+    {
+      "label": "Staurikosaurus",
+      "to": "stau"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mdet/MDET00AA.webp",
+        "hotspots": [
+          {
+            "label": "Pensadores heterodoxos",
+            "to": "unorthodox-thinkers",
+            "x": 13,
+            "y": 62,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Definiendo a los dinosaurios pico de pato",
+            "to": "defining-duckbilled-dinosaurs",
+            "x": 36,
+            "y": 44,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Especialistas en saurópodos",
+            "to": "sauropod-specialists",
+            "x": 68,
+            "y": 34,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Estudios en China",
+            "to": "chinese-studies",
+            "x": 55,
+            "y": 69,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Experto en los primeros dinosaurios",
+            "to": "expert-on-early-dinosaurs",
+            "x": 13,
+            "y": 78,
+            "w": 24,
+            "h": 6
+          }
+        ]
+      },
+      "unorthodox-thinkers": {
+        "image": "assets/mdet/MDET01PU.webp",
+        "back": "main"
+      },
+      "chinese-studies": {
+        "image": "assets/mdet/MDET02PU.webp",
+        "back": "main"
+      },
+      "defining-duckbilled-dinosaurs": {
+        "image": "assets/mdet/MDET03PU.webp",
+        "back": "main"
+      },
+      "sauropod-specialists": {
+        "image": "assets/mdet/MDET04PU.webp",
+        "back": "main"
+      },
+      "expert-on-early-dinosaurs": {
+        "image": "assets/mdet/MDET05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/mdet/MDET00AP.mp3",
+  "narration": "assets/mdet/MDET00AJ.mp3",
+  "sound": "assets/mdet/MDET00SA.mp3",
+  "fanTranslation": true
+}

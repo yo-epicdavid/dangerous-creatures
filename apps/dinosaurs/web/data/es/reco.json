@@ -1,0 +1,180 @@
+{
+  "id": "reco",
+  "code": "RECO",
+  "name": "La reconstrucción de los dinosaurios",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "De los duros fósiles a un dinosaurio a tamaño real: sigue el minucioso camino que recorren los científicos para devolver la vida a los huesos prehistóricos.",
+  "hero": {
+    "image": "assets/reco/RECO00AA.webp",
+    "alt": "La reconstrucción de los dinosaurios"
+  },
+  "intro": "Tras el duro trabajo de excavación, los fósiles se trasladan al laboratorio para su preparación, estudio y exposición. Todo este proceso puede llevar años de minucioso trabajo.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "freeing-the-fossils",
+      "title": "La liberación de los fósiles",
+      "image": "assets/reco/RECO01PU.webp",
+      "text": "Los investigadores separan cuidadosamente los fósiles de los materiales de embalaje utilizados para protegerlos durante el transporte. A continuación, eliminan la roca que todavía los rodea con herramientas especiales como cuchillos, cinceles, agujas, martillos neumáticos en miniatura y discos de corte de alta velocidad similares a los que usan los cirujanos. Es importante no dañar la superficie del fósil, ya que las muescas y los arañazos pueden confundirse con las crestas naturales donde se insertaban los músculos y los ligamentos.",
+      "captions": [
+        {
+          "label": "Baños ácidos",
+          "text": "En ocasiones se emplean baños de ácido para disolver ciertos tipos de roca circundante sin dañar los fósiles que contienen."
+        }
+      ]
+    },
+    {
+      "id": "recording-the-fossils",
+      "title": "El registro de los fósiles",
+      "image": "assets/reco/RECO02PU.webp",
+      "text": "Una vez extraído y restaurado un fósil, un ilustrador científico dibuja la pieza desde distintos ángulos. Un buen dibujo de línea puede resaltar detalles que una cámara no captaría, y además se reproduce con mayor claridad en libros y revistas científicas."
+    },
+    {
+      "id": "identification-of-fossils",
+      "title": "La identificación de los fósiles",
+      "image": "assets/reco/RECO03PU.webp",
+      "text": "Identificar un fósil puede requerir mucho estudio. Sin embargo, el análisis minucioso de los fósiles, en especial de los huesos, puede revelarnos mucho. Para un ojo experto, este hueso del pie de un Iguanodon ofrece numerosas pistas. En el extremo superior izquierdo, la superficie está rugosa donde se insertaba el cartílago de la articulación del tobillo. A lo largo del hueso aparecen las cicatrices de los ligamentos que lo unían a otros huesos. La zona rugosa en la parte inferior es la superficie articular de cartílago correspondiente al dedo central."
+    },
+    {
+      "id": "reassembly-of-bones",
+      "title": "El ensamblaje de los huesos",
+      "image": "assets/reco/RECO04PU.webp",
+      "text": "Un paleontólogo toma los huesos fósiles y los coloca en su posición siguiendo notas y bocetos. Las piezas que faltan se esculpen en escayola o plástico, tomando como modelo otro hueso del mismo animal o copiándolas de un dinosaurio similar. En ocasiones se sustituyen todos los huesos fósiles por réplicas de plástico o escayola, ya que los fósiles son piedra y resultan muy pesados y difíciles de manejar.",
+      "captions": [
+        {
+          "label": "¿Hueco natural o hueso perdido?",
+          "text": "Los cráneos de los dinosaurios están formados por muchos huesos independientes, que a veces tienen espacios entre sí. Es difícil saber si realmente había un hueco o si falta algún hueso."
+        },
+        {
+          "label": "Manteniéndolo todo en su sitio",
+          "text": "Se utilizan varillas de plástico o metal para mantener los huesos pesados en su posición. Andamios y cables del techo sostienen las partes más altas."
+        }
+      ]
+    },
+    {
+      "id": "adding-the-flesh",
+      "title": "Añadiendo la carne",
+      "image": "assets/reco/RECO05PU.webp",
+      "text": "Una vez montado el esqueleto, los científicos pueden intentar reconstruir el cuerpo del dinosaurio. Este trabajo suele implicar la colaboración de un artista científico y un experto en construcción de maquetas. Aquí se pueden ver los modelos esqueléticos del Tyrannosaurus rex. El Museo Americano de Historia Natural de Nueva York utiliza estos modelos para reconstruir nuevos ejemplares de T. rex.",
+      "captions": [
+        {
+          "label": "Dibujando músculos y piel",
+          "text": "Para construir una maqueta, el trabajo comienza con un dibujo del esqueleto completo. Estudiando las «cicatrices musculares» de los huesos, los científicos determinan dónde insertar los músculos, y el artista los añade al dibujo. Una vez que el dinosaurio ha sido «rellenado de carne», el artista añade la piel."
+        },
+        {
+          "label": "El toque final",
+          "text": "La maqueta terminada de Tyrannosaurus rex que se muestra aquí se encuentra en el Utah Fieldhouse of Natural History State Park. Esta maqueta a tamaño real es el resultado de muchas horas de trabajo de campo y de laboratorio por parte de científicos y artistas."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The American Dinosaur Rush",
+      "to": "amer"
+    },
+    {
+      "label": "What is a Fossil?",
+      "to": "foss"
+    },
+    {
+      "label": "What You Need to Find a Fossil",
+      "to": "find"
+    },
+    {
+      "label": "Bernissart Dinosaur Mine",
+      "to": "mine"
+    },
+    {
+      "label": "The Brontosaurus Mix-up",
+      "to": "bron"
+    },
+    {
+      "label": "Museums of North America",
+      "to": "muse"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/reco/RECO00AA.webp",
+        "hotspots": [
+          {
+            "label": "La liberación de los fósiles",
+            "to": "freeing-the-fossils",
+            "x": 5,
+            "y": 30,
+            "w": 20,
+            "h": 8
+          },
+          {
+            "label": "El registro de los fósiles",
+            "to": "recording-the-fossils",
+            "x": 20,
+            "y": 68,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "La identificación de los fósiles",
+            "to": "identification-of-fossils",
+            "x": 52,
+            "y": 30,
+            "w": 25,
+            "h": 8
+          },
+          {
+            "label": "El ensamblaje de los huesos",
+            "to": "reassembly-of-bones",
+            "x": 55,
+            "y": 42,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "Añadiendo la carne",
+            "to": "adding-the-flesh",
+            "x": 42,
+            "y": 62,
+            "w": 20,
+            "h": 8
+          }
+        ]
+      },
+      "freeing-the-fossils": {
+        "image": "assets/reco/RECO01PU.webp",
+        "back": "main"
+      },
+      "recording-the-fossils": {
+        "image": "assets/reco/RECO02PU.webp",
+        "back": "main"
+      },
+      "identification-of-fossils": {
+        "image": "assets/reco/RECO03PU.webp",
+        "back": "main"
+      },
+      "reassembly-of-bones": {
+        "image": "assets/reco/RECO04PU.webp",
+        "back": "main"
+      },
+      "adding-the-flesh": {
+        "image": "assets/reco/RECO05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/reco/RECO00AP.mp3",
+  "narration": "assets/reco/RECO00AJ.mp3",
+  "fanTranslation": true
+}

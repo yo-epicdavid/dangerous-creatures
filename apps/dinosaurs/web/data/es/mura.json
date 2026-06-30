@@ -1,0 +1,133 @@
+{
+  "id": "mura",
+  "code": "MURA",
+  "name": "Muraenosaurus",
+  "category": "creature",
+  "scientificName": "Muraeonosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "myoo-REE-oh-no-SOR-us",
+  "meaning": "lagarto anguila",
+  "period": "Jurásico superior",
+  "diet": "Carnívoro",
+  "tagline": "¡Este reptil marino de cuello largo tragaba guijarros para poder sumergirse bajo las olas!",
+  "hero": {
+    "image": "assets/mura/MURA00AA.webp",
+    "alt": "Muraenosaurus"
+  },
+  "intro": "Al tener los pulmones llenos de aire, los plesiosaurios como Muraenosaurus flotaban con facilidad en la superficie del agua, pero no les resultaba tan sencillo sumergirse bajo el mar. Al igual que los buceadores de profundidad, necesitaban peso para mantenerse bajo el agua, por eso tragaban guijarros, tal como hacen los cocodrilos hoy en día.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Europa"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico tardío"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto anguila"
+    },
+    {
+      "label": "Caderas",
+      "value": "No aplica"
+    },
+    {
+      "label": "Familia",
+      "value": "Plesiosaurio"
+    },
+    {
+      "label": "Longitud",
+      "value": "6 m (20 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "paddle-power",
+      "title": "El poder de las aletas",
+      "image": "assets/mura/MURA01PU.webp",
+      "text": "Los plesiosaurios como Muraenosaurus tenían grandes extremidades en forma de aleta, tal como se ilustra aquí con esta aleta de plesiosaurio fosilizada. Al igual que una tortuga, el plesiosaurio batía sus aletas de arriba abajo para impulsarse por el agua.",
+      "captions": [
+        {
+          "label": "Adaptación acuática",
+          "text": "Los huesos de una aleta se parecen un poco a los huesos de nuestras propias manos, ¿verdad? Los seres humanos compartimos similitudes esqueléticas con muchos otros animales."
+        }
+      ]
+    },
+    {
+      "id": "fossil-finds",
+      "title": "Hallazgos fósiles",
+      "image": "assets/mura/MURA02PU.webp",
+      "text": "Los fósiles son los restos o evidencias de animales o plantas que se han conservado de forma natural. Como son duros y se fosilizan con facilidad, los huesos y los dientes son a menudo los únicos restos que quedan de un animal.",
+      "captions": [
+        {
+          "label": "Diente punzante de un depredador",
+          "text": "Este diente afilado, que data del período Jurásico, perteneció a un plesiosaurio."
+        },
+        {
+          "label": "Alimento fosilizado",
+          "text": "Los plesiosaurios y otros reptiles marinos se alimentaban de los numerosos tipos de peces óseos que nadaban en los mares prehistóricos. Aquí se muestra un ejemplar fosilizado de Gryodus, un pez que vivió al mismo tiempo que Muraenosaurus."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Elasmosaurus",
+      "to": "elas"
+    },
+    {
+      "label": "Archelon",
+      "to": "arcn"
+    },
+    {
+      "label": "Plesiosaurus",
+      "to": "ples"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mura/MURA00AA.webp",
+        "hotspots": [
+          {
+            "label": "El poder de las aletas",
+            "to": "paddle-power",
+            "x": 63,
+            "y": 40,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Hallazgos fósiles",
+            "to": "fossil-finds",
+            "x": 61,
+            "y": 65,
+            "w": 20,
+            "h": 5
+          }
+        ]
+      },
+      "paddle-power": {
+        "image": "assets/mura/MURA01PU.webp",
+        "back": "main"
+      },
+      "fossil-finds": {
+        "image": "assets/mura/MURA02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/mura/MURA50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/mura/MURA00AP.mp3",
+  "narration": "assets/mura/MURA00AJ.mp3",
+  "fanTranslation": true
+}

@@ -1,0 +1,246 @@
+{
+  "id": "bird",
+  "code": "BIRD",
+  "name": "Aves y dinosaurios",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "berdz and DY-no-SORZ",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "¿Podrían las aves ser realmente dinosaurios vivientes? ¡Las pistas se esconden en sus huesos!",
+  "hero": {
+    "image": "assets/bird/BIRD00AA.webp",
+    "alt": "Aves y dinosaurios"
+  },
+  "intro": "¿Son las aves descendientes de los dinosaurios? La mayoría de los científicos creen que las aves evolucionaron a partir de dinosaurios pequeños y carnívoros que podían correr erguidos sobre dos largas patas traseras. Los esqueletos de estos dinosaurios se parecen mucho a los de las aves: tenían huesos pélvicos inferiores orientados hacia atrás y hacia abajo, igual que los de las aves. Poseían patas largas y esbeltas, pies similares a los de las aves, largos cuellos y colas óseos, dedos con garras y dientes afilados y puntiagudos. El Archaeopteryx —un terópodo del tamaño aproximado de un cuervo— tenía plumas que cubrían sus alas y su cola. Vivía en los árboles y es posible que fuera capaz de volar activamente. Pero el Archaeopteryx puede que no haya sido el único dinosaurio cubierto de plumas, y desde luego no fue el único en adoptar un comportamiento similar al de las aves.",
+  "facts": [
+    {
+      "label": "Tamaño del Archaeopteryx",
+      "value": "aproximadamente el tamaño de un cuervo"
+    },
+    {
+      "label": "Envergadura del Pteranodón",
+      "value": "unos veintitrés pies"
+    },
+    {
+      "label": "Velocidad del Gallimimus",
+      "value": "hasta treinta y cinco millas por hora"
+    }
+  ],
+  "topics": [
+    {
+      "id": "not-well-suited-for-flight",
+      "title": "Poco adaptado al vuelo",
+      "image": "assets/bird/BIRD01PU.webp",
+      "text": "Los huesos de las aves actuales son ligeros. Además, tienen grandes esternones con quilla y columnas vertebrales rígidas, que hacen sus esqueletos más resistentes en los puntos donde se anclan los potentes músculos que agitan las alas. Los huesos del Archaeopteryx carecían de estas características, aunque sí tenía plumas unidas a las alas y a la cola. Los científicos creen ahora que pudo ser capaz de volar activamente, si bien de forma lenta y torpe. También puede que batiera las alas y planeara mientras corría velozmente por el suelo en busca de alimento."
+    },
+    {
+      "id": "sharp-teeth",
+      "title": "Dientes afilados",
+      "image": "assets/bird/BIRD02PU.webp",
+      "text": "Aunque el Archaeopteryx tenía un cerebro grande y unos ojos más parecidos a los de las aves que a los de los reptiles, su pico presentaba dientes afilados, a diferencia del pico de las aves actuales.",
+      "captions": [
+        {
+          "label": "Sordes",
+          "text": "Este pterosaurio también tenía un pico con dientes afilados, muy útil para atrapar peces del mar. Pariente de los dinosaurios, el Sordes tenía alas en forma de gaviota hechas de piel. Su cuerpo estaba cubierto por una gruesa capa de pelaje."
+        }
+      ]
+    },
+    {
+      "id": "read-their-hips",
+      "title": "Sus caderas lo cuentan todo",
+      "image": "assets/bird/BIRD03PU.webp",
+      "text": "Según la forma y posición de sus huesos de la cadera, los dinosaurios se clasifican en uno de dos grupos: los dinosaurios «con cadera de ave» u ornitisquios tenían dos huesos pélvicos inferiores orientados hacia atrás y hacia abajo, de forma similar a la disposición de la cadera en las aves; los dinosaurios «con cadera de lagarto» o saurisquios tenían dos huesos de la cadera bifurcados bajo el acetábulo —uno apuntaba hacia delante y el otro hacia atrás—, que es la disposición habitual en los reptiles."
+    },
+    {
+      "id": "featherless-wings",
+      "title": "Alas sin plumas",
+      "image": "assets/bird/BIRD04PU.webp",
+      "text": "Los pterosaurios estaban estrechamente emparentados con los dinosaurios. Sus correosas alas estaban sostenidas por un cuarto dedo enormemente alargado, al que se unían membranas carnosas y elásticas que contenían delgadas láminas de músculo. El Pteranodón tenía garras y un pico sin dientes. A diferencia del Archaeopteryx, carecía de plumas y estaba cubierto por una capa de pelaje fino. El Pteranodón, uno de los animales voladores más grandes que han existido, tenía una envergadura de unos veintitrés pies.",
+      "captions": [
+        {
+          "label": "Mamífero volador",
+          "text": "El ala de un murciélago está sostenida por un «pulgar» y cuatro largos dedos. La piel fina y elástica entre los dedos forma una excelente superficie de vuelo. El pulgar tiene una garra que permite al murciélago sujetar alimento o desplazarse reptando."
+        }
+      ]
+    },
+    {
+      "id": "bones-of-contention",
+      "title": "Huesos en disputa",
+      "image": "assets/bird/BIRD05PU.webp",
+      "text": "El esqueleto del Archaeopteryx es tan similar al del Compsognathus que, cuando se descubrieron por primera vez los fósiles de esta criatura emplumada, algunos científicos creyeron que pertenecían al pequeño dinosaurio bípedo o a un pterosaurio.",
+      "captions": [
+        {
+          "label": "¿Siguen vivos los dinosaurios hoy?",
+          "text": "Las similitudes entre todos estos tipos de esqueleto constituyen una buena prueba de que las aves y los dinosaurios compartían antepasados comunes. Sin embargo, las aves actuales han desarrollado grandes esternones."
+        }
+      ]
+    },
+    {
+      "id": "reptiles-that-soared",
+      "title": "Reptiles que surcaron el cielo",
+      "image": "assets/bird/BIRD06PU.webp",
+      "text": "Aunque a menudo se les llama «dinosaurios voladores», los pterosaurios no eran en realidad dinosaurios, sino reptiles estrechamente emparentados con ellos. Sus correosas alas eran largas y tenían la forma de las de una gaviota. Los científicos pensaron en un principio que los pterosaurios eran planeadores con alas anchas parecidas a las de un murciélago. Sin embargo, evidencias recientes demuestran que estas criaturas tenían músculos potentes y podían batir las alas como un pájaro. Un pterosaurio, el Cearadactylus, se parecía en cierta medida a un ave marina moderna, con su cabeza lisa y redondeada y su largo pico.",
+      "captions": [
+        {
+          "label": "¿Volar o planear?",
+          "text": "El Archaeopteryx no tenía esternón, ni los fuertes músculos de vuelo que las aves actuales tienen unidos a él. Sin embargo, sus plumas de las alas eran asimétricas, como las de las aves modernas, lo que proporciona sustentación al ala. Así pues, aunque el primer pájaro conocido era capaz de volar activamente, probablemente usaba sus alas más para planear que para volar."
+        }
+      ]
+    },
+    {
+      "id": "bird-face",
+      "title": "Cara de ave",
+      "image": "assets/bird/BIRD07PU.webp",
+      "text": "Los picos y los ojos parecidos a los de las aves no eran raros entre los dinosaurios. Por su cara con pico parecida a la de un loro, a este dinosaurio se le llamó Psittacosaurus, que significa «lagarto loro».",
+      "captions": [
+        {
+          "label": "Struthiomimus",
+          "text": "Este dinosaurio se parecía mucho a un avestruz, salvo que carecía de plumas."
+        },
+        {
+          "label": "Gallimimus",
+          "text": "Uno de los dinosaurios más rápidos, este «dinosaurio avestruz» podía correr hasta treinta y cinco millas por hora, casi tan rápido como un caballo de carreras moderno. Tanto el Gallimimus como el Struthiomimus fueron clasificados como ornitomimosaurios, que significa «lagartos que imitan a las aves»."
+        },
+        {
+          "label": "Archaeopteryx",
+          "text": "Esta criatura es el ave más antigua conocida. Aunque su cabeza tenía una forma muy parecida a la de las aves actuales, su pico presentaba dientes afilados como los de muchos dinosaurios."
+        }
+      ]
+    },
+    {
+      "id": "ostrich-dinosaurs",
+      "title": "Dinosaurios avestruz",
+      "image": "assets/bird/BIRD08PU.webp",
+      "text": "Al igual que el avestruz, el Gallimimus se desplazaba sobre dos largas patas traseras. Estaba diseñado para la velocidad y podía correr más rápido que la mayoría de los demás dinosaurios.",
+      "captions": [
+        {
+          "label": "Avestruz moderno",
+          "text": "El avestruz moderno se parece mucho a su primo dinosaurio, el Gallimimus. Ambos están diseñados para correr velozmente sobre largas y esbeltas patas traseras. Al igual que el Gallimimus, el avestruz tiene pies estrechos adaptados a la velocidad. Las únicas partes del pie que tocan el suelo son los dedos, para que ningún depredador (ni presa) pueda atraparlos «con el pie plano»."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "How to Recognize Theropods",
+      "to": "hthr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/bird/BIRD00AA.webp",
+        "hotspots": [
+          {
+            "label": "Poco adaptado al vuelo",
+            "to": "not-well-suited-for-flight",
+            "x": 66,
+            "y": 17,
+            "w": 28,
+            "h": 8
+          },
+          {
+            "label": "Dientes afilados",
+            "to": "sharp-teeth",
+            "x": 42,
+            "y": 30,
+            "w": 20,
+            "h": 7
+          },
+          {
+            "label": "Reptiles que surcaron el cielo",
+            "to": "reptiles-that-soared",
+            "x": 66,
+            "y": 38,
+            "w": 26,
+            "h": 7
+          },
+          {
+            "label": "Huesos en disputa",
+            "to": "bones-of-contention",
+            "x": 66,
+            "y": 49,
+            "w": 26,
+            "h": 7
+          },
+          {
+            "label": "Cara de ave",
+            "to": "bird-face",
+            "x": 28,
+            "y": 46,
+            "w": 16,
+            "h": 7
+          },
+          {
+            "label": "Sus caderas lo cuentan todo",
+            "to": "read-their-hips",
+            "x": 66,
+            "y": 60,
+            "w": 24,
+            "h": 7
+          },
+          {
+            "label": "Alas sin plumas",
+            "to": "featherless-wings",
+            "x": 14,
+            "y": 72,
+            "w": 24,
+            "h": 7
+          },
+          {
+            "label": "Dinosaurios avestruz",
+            "to": "ostrich-dinosaurs",
+            "x": 37,
+            "y": 81,
+            "w": 24,
+            "h": 7
+          }
+        ]
+      },
+      "not-well-suited-for-flight": {
+        "image": "assets/bird/BIRD01PU.webp",
+        "back": "main"
+      },
+      "sharp-teeth": {
+        "image": "assets/bird/BIRD02PU.webp",
+        "back": "main"
+      },
+      "read-their-hips": {
+        "image": "assets/bird/BIRD03PU.webp",
+        "back": "main"
+      },
+      "featherless-wings": {
+        "image": "assets/bird/BIRD04PU.webp",
+        "back": "main"
+      },
+      "bones-of-contention": {
+        "image": "assets/bird/BIRD05PU.webp",
+        "back": "main"
+      },
+      "reptiles-that-soared": {
+        "image": "assets/bird/BIRD06PU.webp",
+        "back": "main"
+      },
+      "bird-face": {
+        "image": "assets/bird/BIRD07PU.webp",
+        "back": "main"
+      },
+      "ostrich-dinosaurs": {
+        "image": "assets/bird/BIRD08PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/bird/BIRD00AP.mp3",
+  "narration": "assets/bird/BIRD00AJ.mp3",
+  "sound": "assets/bird/BIRD00SA.mp3",
+  "fanTranslation": true
+}

@@ -1,0 +1,199 @@
+{
+  "id": "para",
+  "code": "PARA",
+  "name": "Parasaurolophus",
+  "category": "dinosaur",
+  "scientificName": "Parasaurolophus",
+  "needsScientificVerify": false,
+  "pronunciation": "par-uh-SOR-oh-LOH-fus",
+  "meaning": "Junto al Saurolophus",
+  "period": "Cretácico superior",
+  "diet": "Herbívoro",
+  "tagline": "Su cresta hueca era un instrumento musical incorporado: ¡podía bramar y emitir potentes sonidos!",
+  "hero": {
+    "image": "assets/para/PARA00AA.webp",
+    "alt": "Parasaurolophus"
+  },
+  "intro": "El Parasaurolophus es famoso por su inusual cresta, que era larga y delgada. ¡En algunos casos, su cresta era tan larga como un ser humano adulto! Este dinosaurio pertenece al grupo de los hadrosaurios, o dinosaurios de pico de pato, conocidos no solo por sus picos sin dientes parecidos a los de un pato, sino también por la extraña forma de sus cabezas.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "América del Norte"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Junto al Saurolophus"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Ornitópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "10 m (33 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "duckbill-dinner-habits",
+      "title": "Los hábitos alimenticios de los pico de pato",
+      "image": "assets/para/PARA01PU.webp",
+      "text": "Debido a que los hadrosaurios tenían picos sin dientes, a menudo se los imaginaba adentrándose en pantanos y alimentándose de plantas acuáticas blandas. Pero en realidad eran principalmente comedores terrestres y podían con la dura vegetación de los árboles, triturándola con sus poderosas mandíbulas.",
+      "captions": [
+        {
+          "label": "Fronda de cica",
+          "text": "Las cicas eran abundantes durante la mayor parte del reinado de los dinosaurios y aún existen hoy en día, aunque no son tan fáciles de encontrar."
+        },
+        {
+          "label": "Festín de abeto",
+          "text": "Los dinosaurios herbívoros (comedores de plantas) tenían mucha vegetación entre la que elegir. Los dinosaurios de pico de pato como el Parasaurolophus podían con las plantas más duras gracias a sus poderosas mandíbulas y dientes. Incluso las agujas de los abetos les resultaban fáciles de comer."
+        }
+      ]
+    },
+    {
+      "id": "inside-its-head",
+      "title": "Dentro de su cabeza",
+      "image": "assets/para/PARA02PU.webp",
+      "text": "En este cráneo de Parasaurolophus, obsérvese el pico parecido al de un pato, que precedía a la batería de numerosos dientes pequeños. Estas son características propias de los cráneos de los hadrosaurios. La larga cresta era hueca por dentro.",
+      "captions": [
+        {
+          "label": "¿Un vistoso pliegue?",
+          "text": "La larga cresta del Parasaurolophus pudo haber servido de anclaje para un pliegue de piel de vivos colores que colgaba holgadamente sobre el lomo del dinosaurio."
+        },
+        {
+          "label": "Dientes trituradores",
+          "text": "Sus dientes comienzan muy adentro de la mandíbula y pueden ascender a cientos. Estas hileras de dientes formaban superficies rugosas para triturar plantas duras. Cuando un hadrosaurio perdía un diente, le crecía otro en su lugar."
+        }
+      ]
+    },
+    {
+      "id": "giving-a-hoot",
+      "title": "El sonido de su llamada",
+      "image": "assets/para/PARA03PU.webp",
+      "text": "La larga cresta hueca del cráneo del Parasaurolophus ha desconcertado a los expertos durante años. Al principio se pensaba que era un «tubo de respiración», o una reserva de aire que el animal usaba cuando se alimentaba bajo el agua. O quizás era una prolongación de las fosas nasales que mejoraba el sentido del olfato del animal. Ahora sabemos que el tubo hueco era probablemente un «resonador», a través del cual el dinosaurio podía bramar o emitir sonidos graves de forma característica. Las hembras de esta especie tenían crestas más pequeñas y menos llamativas que los machos."
+    },
+    {
+      "id": "curious-crests",
+      "title": "Crestas curiosas",
+      "image": "assets/para/PARA04PU.webp",
+      "text": "El Parasaurolophus aparece aquí en medio de un grupo de dinosaurios con cabezas peculiares. Al igual que el Parasaurolophus, los hadrosaurios Tsintaosaurus, Saurolophus y Corythosaurus también lucían crestas en la cabeza.",
+      "captions": [
+        {
+          "label": "Tsintaosaurus",
+          "text": "Este dinosaurio «unicornio» pudo tener un pliegue de piel con forma de globo sobre el morro."
+        },
+        {
+          "label": "Saurolophus",
+          "text": "Este animal, como otros hadrosaurios, tenía los ojos grandes para ser un dinosaurio. Su cresta no era hueca como la de otros hadrosaurios."
+        },
+        {
+          "label": "Parasaurolophus",
+          "text": "Un científico llamado David Weishampel creó una grabación de cómo podría haber sonado este dinosaurio."
+        },
+        {
+          "label": "Corythosaurus",
+          "text": "Este hadrosaurio tenía una cresta con forma de plato."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Tsintaosaurus",
+      "to": "tsin"
+    },
+    {
+      "label": "Dinosaur Landscape",
+      "to": "dlan"
+    },
+    {
+      "label": "Teeth of Plant-eaters",
+      "to": "ptee"
+    },
+    {
+      "label": "Saurolophus",
+      "to": "saur"
+    },
+    {
+      "label": "Corythosaurus",
+      "to": "cory"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/para/PARA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Los hábitos alimenticios de los pico de pato",
+            "to": "duckbill-dinner-habits",
+            "x": 9,
+            "y": 69,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Dentro de su cabeza",
+            "to": "inside-its-head",
+            "x": 54,
+            "y": 23,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "El sonido de su llamada",
+            "to": "giving-a-hoot",
+            "x": 66,
+            "y": 56,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Crestas curiosas",
+            "to": "curious-crests",
+            "x": 73,
+            "y": 23,
+            "w": 18,
+            "h": 6
+          }
+        ]
+      },
+      "duckbill-dinner-habits": {
+        "image": "assets/para/PARA01PU.webp",
+        "back": "main"
+      },
+      "inside-its-head": {
+        "image": "assets/para/PARA02PU.webp",
+        "back": "main"
+      },
+      "giving-a-hoot": {
+        "image": "assets/para/PARA03PU.webp",
+        "back": "main"
+      },
+      "curious-crests": {
+        "image": "assets/para/PARA04PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/para/PARA50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/para/PARA00AP.mp3",
+  "narration": "assets/para/PARA00AJ.mp3",
+  "fanTranslation": true
+}

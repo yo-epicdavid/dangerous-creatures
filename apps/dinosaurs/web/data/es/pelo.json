@@ -1,0 +1,129 @@
+{
+  "id": "pelo",
+  "code": "PELO",
+  "name": "Peloneustes",
+  "category": "creature",
+  "scientificName": "Peloneustes",
+  "needsScientificVerify": false,
+  "pronunciation": "pel-oh-NYOO-steez",
+  "meaning": "Nadador de arcilla",
+  "period": "Jurásico superior",
+  "diet": "Carnívoro",
+  "tagline": "Un pequeño depredador de emboscada oceánico con dientes irregulares y una gran afición por los moluscos enrollados",
+  "hero": {
+    "image": "assets/pelo/PELO00AA.webp",
+    "alt": "Peloneustes"
+  },
+  "intro": "Este reptil marino probablemente cazaba escondiéndose y esperando a que su presa pasara nadando cerca, para luego abalanzarse rápidamente y atrapar a la víctima con sus dientes irregulares. El Peloneustes era un pliosaurio pequeño —de apenas tres metros de longitud— con cuatro poderosas aletas y un cuello corto.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Europa"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico Tardío"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Nadador de arcilla"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Plesiosaurio"
+    },
+    {
+      "label": "Longitud",
+      "value": "3 m (10 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ammonite-eater",
+      "title": "Devorador de amonites",
+      "image": "assets/pelo/PELO01PU.webp",
+      "text": "Los amonites, o moluscos enrollados, eran el alimento favorito de pliosaurios como el Peloneustes. Los científicos han deducido esto estudiando conchas fósiles con agujeros perforados por los afilados dientes de los pliosaurios.",
+      "captions": [
+        {
+          "label": "Condiciones de aglomeración",
+          "text": "Los amonites abundaban durante la Era de los Dinosaurios. En su momento vivieron en grandes cantidades, lo que explica por qué aquí aparecen tan juntos."
+        }
+      ]
+    },
+    {
+      "id": "long-heads-short-necks",
+      "title": "Cabezas largas, cuellos cortos",
+      "image": "assets/pelo/PELO02PU.webp",
+      "text": "Aquí se muestran otros dos miembros de la familia de los pliosaurios, el Kronosaurus y el Macroplata. Al igual que el Peloneustes, tenían poderosas aletas en forma de remo que utilizaban para impulsarse por el agua.",
+      "captions": [
+        {
+          "label": "Pliosaurios frente a plesiosaurios",
+          "text": "Los pliosaurios tienen cabezas más largas y cuellos más cortos que los plesiosaurios, otro tipo de reptil marino. El Muraeonosaurus, un plesiosaurio, flotaba fácilmente en el mar gracias a sus pulmones llenos de aire. A diferencia de los pliosaurios, los plesiosaurios tenían un cuello largo rematado por una cabeza pequeña."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Shonisaurus",
+      "to": "shon"
+    },
+    {
+      "label": "Mosasaurus",
+      "to": "mosa"
+    },
+    {
+      "label": "Macroplata",
+      "to": "macr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/pelo/PELO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Devorador de amonites",
+            "to": "ammonite-eater",
+            "x": 57,
+            "y": 29,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Cabezas largas, cuellos cortos",
+            "to": "long-heads-short-necks",
+            "x": 35,
+            "y": 51,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "ammonite-eater": {
+        "image": "assets/pelo/PELO01PU.webp",
+        "back": "main"
+      },
+      "long-heads-short-necks": {
+        "image": "assets/pelo/PELO02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/pelo/PELO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/pelo/PELO00AP.mp3",
+  "narration": "assets/pelo/PELO00AJ.mp3",
+  "fanTranslation": true
+}

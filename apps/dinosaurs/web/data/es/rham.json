@@ -1,0 +1,133 @@
+{
+  "id": "rham",
+  "code": "RHAM",
+  "name": "Rhamphorhynchus",
+  "category": "creature",
+  "scientificName": "Rhamphorhynchus",
+  "needsScientificVerify": false,
+  "pronunciation": "ram-fo-RINK-us",
+  "meaning": "Pico de proa",
+  "period": "Jurásico superior",
+  "diet": "Carnívoro",
+  "tagline": "Este reptil volador de dientes afilados atrapaba peces directamente de los mares prehistóricos con su dentado pico.",
+  "hero": {
+    "image": "assets/rham/RHAM00AA.webp",
+    "alt": "Rhamphorhynchus"
+  },
+  "intro": "Se han encontrado numerosos fósiles muy bien conservados de Rhamphorhynchus en Alemania. Este reptil alado sobrevolaba los mares prehistóricos, escudriñando las aguas en busca de presas. Cuando divisaba un pez cerca de la superficie, Rhamphorhynchus podía lanzarse en picado y atrapar a su víctima con el pico, repleto de dientes irregulares que apuntaban hacia fuera.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "África, Europa"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico tardío"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Pico de proa"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Pterosaurio"
+    },
+    {
+      "label": "Longitud",
+      "value": "1 m (3 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "staying-on-course",
+      "title": "Manteniendo el rumbo",
+      "image": "assets/rham/RHAM01PU.webp",
+      "text": "Al igual que el timón de la cola de un avión, algunos pterosaurios utilizaban el colgajo en forma de rombo del extremo de su cola para ayudarles a desplazarse en línea recta por el aire.",
+      "captions": [
+        {
+          "label": "Un parecido de alas de cuero",
+          "text": "Desde su estrecho pico dentado hasta su larga cola con timón, Rhamphorhynchus se parecía mucho a otro pterosaurio, Eudimorphodon, que vivió en el mismo periodo."
+        },
+        {
+          "label": "Comedores de peces",
+          "text": "Voladores como estos pterosaurios podían lanzarse en picado para alimentarse de peces y otros animales pequeños. Los celacantos podrían haber sido presas habituales de estos gigantes alados."
+        }
+      ]
+    },
+    {
+      "id": "of-claws-and-wings",
+      "title": "De garras y alas",
+      "image": "assets/rham/RHAM02PU.webp",
+      "text": "A diferencia de la mayoría de las aves modernas, Rhamphorhynchus tenía garras en las alas. Parece probable que las aves perdieran las garras alares a lo largo de millones de años de evolución. Archaeopteryx, considerado por muchos expertos como el ave conocida más antigua, tenía tres dedos con garra en cada ala. Un ave moderna, el hoazín sudamericano, tiene garras similares a las de Archaeopteryx.",
+      "captions": [
+        {
+          "label": "Alas con dedos",
+          "text": "Como se puede ver aquí, los murciélagos modernos tienen dedos, pero estos sostienen las membranosas alas del murciélago."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Pteranodon",
+      "to": "pten"
+    },
+    {
+      "label": "Eudimorphodon",
+      "to": "eudi"
+    },
+    {
+      "label": "Living Fossils",
+      "to": "ddec"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/rham/RHAM00AA.webp",
+        "hotspots": [
+          {
+            "label": "Manteniendo el rumbo",
+            "to": "staying-on-course",
+            "x": 10,
+            "y": 50,
+            "w": 22,
+            "h": 4
+          },
+          {
+            "label": "De garras y alas",
+            "to": "of-claws-and-wings",
+            "x": 63,
+            "y": 57,
+            "w": 25,
+            "h": 4
+          }
+        ]
+      },
+      "staying-on-course": {
+        "image": "assets/rham/RHAM01PU.webp",
+        "back": "main"
+      },
+      "of-claws-and-wings": {
+        "image": "assets/rham/RHAM02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/rham/RHAM50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/rham/RHAM00AP.mp3",
+  "narration": "assets/rham/RHAM00AJ.mp3",
+  "fanTranslation": true
+}

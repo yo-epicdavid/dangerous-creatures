@@ -1,0 +1,153 @@
+{
+  "id": "cove",
+  "code": "COVE",
+  "name": "Cueva de los Dinosaurios",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "¡Una cantera en los acantilados de la costa australiana donde los científicos volaron roca sólida… y encontraron dentro una guardería de dinosaurios!",
+  "hero": {
+    "image": "assets/cove/COVE00AA.webp",
+    "alt": "Cueva de los Dinosaurios"
+  },
+  "intro": "La Cueva de los Dinosaurios, situada en la costa marítima cerca de Melbourne, Victoria, es uno de los pocos yacimientos de Australia que ha proporcionado abundantes huesos de dinosaurios. Con sus pronunciados acantilados y su dura arenisca, la cueva era un lugar difícil de excavar, pero el agotador trabajo mereció la pena. El equipo de excavación descubrió los restos de numerosos dinosaurios de pequeño tamaño. ¡La Cueva de los Dinosaurios podría haber sido una guardería de dinosaurios!",
+  "facts": [],
+  "topics": [
+    {
+      "id": "hard-rock-mining",
+      "title": "Minería en roca dura",
+      "image": "assets/cove/COVE01PU.webp",
+      "text": "El equipo de la Cueva de los Dinosaurios se vio obligado con frecuencia a volar con dinamita y a utilizar pesados equipos de perforación para abrirse paso en los duros acantilados de arenisca. ¡Los cascos de seguridad eran parte indispensable del equipo en esta excavación de dinosaurios!",
+      "captions": [
+        {
+          "label": "Atlascopcosaurus",
+          "text": "Uno de los hallazgos, el Atlascopcosaurus, recibió su nombre en honor a la empresa Atlas Copco Drilling Company, que participó en el proyecto de la Cueva de los Dinosaurios. Hasta ahora solo se ha encontrado un fragmento de mandíbula de este animal. Sus dientes revelan que era un herbívoro."
+        }
+      ]
+    },
+    {
+      "id": "dinosaurs-no-bigger-than-kangaroos",
+      "title": "Dinosaurios no más grandes que canguros",
+      "image": "assets/cove/COVE02PU.webp",
+      "text": "En la Cueva de los Dinosaurios, los paleontólogos Tom Rich y Pat Vickers-Rich identificaron los huesos de un pequeño dinosaurio. Llamaron al nuevo y pequeño dinosaurio Leaellynasaura en honor a su hija, Leaellyn. Más de la mitad de los huesos encontrados pertenecían a ejemplares juveniles, por lo que los Rich creen que la zona pudo haber sido una guardería de dinosaurios.",
+      "captions": [
+        {
+          "label": "Leaellynasaura",
+          "text": "Una característica notable del Leaellynasaura son los grandes ojos de este pequeño herbívoro, que probablemente eran una adaptación a los oscuros días de invierno. En la época en que existió este dinosaurio, la masa de tierra que hoy conocemos como Australia estaba unida a la Antártida dentro del círculo polar antártico. Durante el invierno, cuando el sol se encontraba cerca del ecuador, los animales de la Antártida habrían experimentado largas jornadas de oscuridad casi total."
+        },
+        {
+          "label": "Trabajo duro",
+          "text": "La paleontología en el campo es un trabajo duro y agotador, y la Cueva de los Dinosaurios era un yacimiento especialmente difícil. Aquí Tom Rich trabaja en un espacio muy reducido dentro de uno de los túneles."
+        }
+      ]
+    },
+    {
+      "id": "other-dinos-from-down-under",
+      "title": "Otros dinos de las antípodas",
+      "image": "assets/cove/COVE03PU.webp",
+      "text": "Además del Leaellynasaura, solo unos pocos dinosaurios más han sido desenterrados en Australia. Aunque los paleontólogos han identificado únicamente algunos individuos, estos dinosaurios representan una gran variedad de tipos.",
+      "captions": [
+        {
+          "label": "Alosaurio",
+          "text": "Este gigantesco carnívoro está emparentado con el Tiranosaurio rex. El Alosaurio fue descubierto cerca de Melbourne, Victoria."
+        },
+        {
+          "label": "Rhoetosaurus",
+          "text": "Este saurópodo de unos diecisiete metros de longitud fue descubierto en 1924 en Queensland."
+        },
+        {
+          "label": "Minmi",
+          "text": "Este pequeño anquilosaurio, descubierto en Queensland, tenía pequeñas placas de armadura por todo el cuerpo."
+        },
+        {
+          "label": "Muttaburrasaurus",
+          "text": "Primo del Iguanodón, el Muttaburrasaurus tenía un pico similar al de un pato y un hocico prominente. El dinosaurio recibe su extraño nombre del lugar donde fue hallado, cerca de Muttaburra, en Queensland."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Modern Dinosaur Detectives",
+      "to": "mdet"
+    },
+    {
+      "label": "What You Need to Find a Fossil",
+      "to": "find"
+    },
+    {
+      "label": "The Shifting Earth",
+      "to": "shft"
+    },
+    {
+      "label": "Muttaburrasaurus",
+      "to": "mutt"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/cove/COVE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Minería en roca dura",
+            "to": "hard-rock-mining",
+            "x": 63,
+            "y": 18,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Otros dinos de las antípodas",
+            "to": "other-dinos-from-down-under",
+            "x": 33,
+            "y": 46,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Dinosaur Cove",
+            "x": 12,
+            "y": 68,
+            "w": 16,
+            "h": 5,
+            "disabled": true
+          },
+          {
+            "label": "Dinosaurios no más grandes que canguros",
+            "to": "dinosaurs-no-bigger-than-kangaroos",
+            "x": 3,
+            "y": 82,
+            "w": 36,
+            "h": 5
+          }
+        ]
+      },
+      "hard-rock-mining": {
+        "image": "assets/cove/COVE01PU.webp",
+        "back": "main"
+      },
+      "dinosaurs-no-bigger-than-kangaroos": {
+        "image": "assets/cove/COVE02PU.webp",
+        "back": "main"
+      },
+      "other-dinos-from-down-under": {
+        "image": "assets/cove/COVE03PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/cove/COVE00AP.mp3",
+  "narration": "assets/cove/COVE00AJ.mp3",
+  "sound": "assets/cove/COVE00SA.mp3",
+  "fanTranslation": true
+}

@@ -1,0 +1,217 @@
+{
+  "id": "mass",
+  "code": "MASS",
+  "name": "Massospondylus",
+  "category": "dinosaur",
+  "scientificName": "Massospondylus",
+  "needsScientificVerify": false,
+  "pronunciation": "MAS-oh-SPON-dih-lus",
+  "meaning": "Vértebras masivas",
+  "period": "Jurásico inferior",
+  "diet": "Herbívoro",
+  "tagline": "¡Este gigante de cuerpo tonel se tragaba piedras para digerir su comida!",
+  "hero": {
+    "image": "assets/mass/MASS00AA.webp",
+    "alt": "Massospondylus"
+  },
+  "intro": "En su época, este prosaurópodo era un gigante entre los dinosaurios. Aunque este reptil de cinco dedos vivió unos 50 millones de años antes que sus parientes, los saurópodos, comparte muchas similitudes con los grandes herbívoros. El Massospondylus tenía un cuello largo rematado por una cabeza diminuta, una cola larga y poderosa, y un cuerpo voluminoso con forma de tonel. Como la mayoría de los herbívoros pesados, el Massospondylus pasaba la mayor parte del tiempo caminando a cuatro patas, y solo de vez en cuando se erguía sobre sus patas traseras para alimentarse.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "África, Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico temprano"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Vértebras masivas"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Prosaurópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "4,9 m (16 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "dual-diet-dinosaur",
+      "title": "Dinosaurio de dieta doble",
+      "image": "assets/mass/MASS01PU.webp",
+      "text": "Este cráneo pertenecía al Massospondylus. Sus dientes no son ni aserrados y cortantes como los de los carnívoros, ni en forma de rastrillo ni molares como los de los herbívoros. Estos dientes son pequeños y de bordes rugosos: un tipo de dientes «multiusos» que podían masticar tanto carne como plantas. Los animales que pueden comer tanto plantas como carne se llaman omnívoros.",
+      "captions": [
+        {
+          "label": "Muela humana",
+          "text": "Al igual que el Massospondylus, los seres humanos somos omnívoros. Nuestros dientes están bien adaptados para triturar materia vegetal y para comer carne."
+        }
+      ]
+    },
+    {
+      "id": "gravel-guts",
+      "title": "Tripas de grava",
+      "image": "assets/mass/MASS02PU.webp",
+      "text": "Digerir plantas no era una tarea sencilla para todos los dinosaurios. Por ejemplo, el Massospondylus no tenía mandíbulas ni dientes bien diseñados para triturar plantas. En su lugar, se tragaba piedras —llamadas gastrolitos— y dependía de ellas para desmenuzar las partes más duras pero nutritivas de las plantas en su estómago. Cuando estas piedras se volvían demasiado lisas para ser eficaces, el dinosaurio probablemente las regurgitaba y tragaba piedras nuevas y más rugosas."
+    },
+    {
+      "id": "bare-bones",
+      "title": "Huesos al descubierto",
+      "image": "assets/mass/MASS03PU.webp",
+      "text": "Esta ilustración del esqueleto de un Massospondylus muestra cómo el dinosaurio pudo haberse erguido sobre sus patas traseras para buscar alimento entre los árboles. Algunos expertos sostienen que los prosaurópodos como el Massospondylus evolucionaron con ese cuello tan largo precisamente para eso: para alimentarse donde otros dinosaurios no podían, entre las copas de los árboles.",
+      "captions": [
+        {
+          "label": "Yo prefiero las acacias",
+          "text": "Al igual que el Massospondylus, la jirafa lleva ventaja a otros herbívoros gracias a su cuello. Puede pastar entre las copas de los árboles más altos, donde hay muy poca competencia por la comida."
+        }
+      ]
+    },
+    {
+      "id": "proof-of-continental-drift",
+      "title": "Prueba de la deriva continental",
+      "image": "assets/mass/MASS04PU.webp",
+      "text": "Hasta 1975, los restos fósiles del Massospondylus solo se habían descubierto en el sur de África. Pero el hallazgo de huesos de Massospondylus en Arizona demuestra que los continentes de Norteamérica y África debieron de estar unidos en algún momento. De otro modo, no habría forma de que este dinosaurio africano hubiera vivido en ambos continentes. Así es como pudo haber lucido la Tierra durante el período del Jurásico temprano en el que vivió el Massospondylus."
+    },
+    {
+      "id": "claws-for-thumbs",
+      "title": "Garras como pulgares",
+      "image": "assets/mass/MASS05PU.webp",
+      "text": "El Massospondylus era un dinosaurio de cinco dedos. Tenía una garra como esta en cada mano. Quizás usaba estas garras del pulgar para defenderse de depredadores más grandes, o simplemente para desenterrar alimento."
+    },
+    {
+      "id": "discovered-by-sir-richard-owen",
+      "title": "Descubierto por Sir Richard Owen",
+      "image": "assets/mass/MASS06PU.webp",
+      "text": "El Massospondylus fue nombrado por Sir Richard Owen, uno de los paleontólogos de dinosaurios más famosos de la historia. Fue Sir Richard Owen quien, en la década de 1840, acuñó el nombre «dinosaurios», que significa «lagartos terribles», para designar a todo el grupo de estos gigantescos reptiles. Owen también supervisó la construcción de modelos a tamaño real de dinosaurios y otras criaturas prehistóricas. Estos modelos fueron creados por el escultor Benjamin Waterhouse Hawkins y se convirtieron en una célebre exposición en el Crystal Palace Park de Inglaterra."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Plateosaurus",
+      "to": "plat"
+    },
+    {
+      "label": "The Story in a Skull",
+      "to": "stor"
+    },
+    {
+      "label": "Dinosaur Diets",
+      "to": "diet"
+    },
+    {
+      "label": "Anchisaurus",
+      "to": "anch"
+    },
+    {
+      "label": "The Shifting Earth",
+      "to": "shft"
+    },
+    {
+      "label": "Iguanodon",
+      "to": "igua"
+    },
+    {
+      "label": "Early Dinosaur Detectives",
+      "to": "edet"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mass/MASS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Tripas de grava",
+            "to": "gravel-guts",
+            "x": 38,
+            "y": 33,
+            "w": 14,
+            "h": 6
+          },
+          {
+            "label": "Huesos al descubierto",
+            "to": "bare-bones",
+            "x": 63,
+            "y": 29,
+            "w": 13,
+            "h": 6
+          },
+          {
+            "label": "Dinosaurio de dieta doble",
+            "to": "dual-diet-dinosaur",
+            "x": 22,
+            "y": 41,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Descubierto por Sir Richard Owen",
+            "to": "discovered-by-sir-richard-owen",
+            "x": 2,
+            "y": 52,
+            "w": 27,
+            "h": 6
+          },
+          {
+            "label": "Garras como pulgares",
+            "to": "claws-for-thumbs",
+            "x": 68,
+            "y": 60,
+            "w": 17,
+            "h": 6
+          },
+          {
+            "label": "Prueba de la deriva continental",
+            "to": "proof-of-continental-drift",
+            "x": 10,
+            "y": 70,
+            "w": 23,
+            "h": 6
+          }
+        ]
+      },
+      "dual-diet-dinosaur": {
+        "image": "assets/mass/MASS01PU.webp",
+        "back": "main"
+      },
+      "gravel-guts": {
+        "image": "assets/mass/MASS02PU.webp",
+        "back": "main"
+      },
+      "bare-bones": {
+        "image": "assets/mass/MASS03PU.webp",
+        "back": "main"
+      },
+      "proof-of-continental-drift": {
+        "image": "assets/mass/MASS04PU.webp",
+        "back": "main"
+      },
+      "claws-for-thumbs": {
+        "image": "assets/mass/MASS05PU.webp",
+        "back": "main"
+      },
+      "discovered-by-sir-richard-owen": {
+        "image": "assets/mass/MASS06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/mass/MASS50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/mass/MASS00AP.mp3",
+  "narration": "assets/mass/MASS00AJ.mp3",
+  "fanTranslation": true
+}

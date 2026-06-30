@@ -1,0 +1,273 @@
+{
+  "id": "edet",
+  "code": "EDET",
+  "name": "Los primeros detectives de los dinosaurios",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Conoce a los valientes cazadores de fósiles que descubrieron por primera vez el mundo de los dinosaurios.",
+  "hero": {
+    "image": "assets/edet/EDET00AA.webp",
+    "alt": "Los primeros detectives de los dinosaurios"
+  },
+  "intro": "Los huesos de dinosaurio llevan millones de años en la tierra, pero hasta el siglo pasado nadie sabía realmente nada sobre estas extraordinarias criaturas. Algunas personas pensaban que los enormes huesos eran los restos de humanos gigantes o de dragones. Pero en el siglo XIX, unos pocos intrépidos pioneros de la paleontología nos presentaron a los «terribles lagartos» que hoy llamamos dinosaurios.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "imagining-the-beasts",
+      "title": "Imaginando a las bestias",
+      "image": "assets/edet/EDET01PU.webp",
+      "text": "La fiebre de los dinosaurios comenzó en Inglaterra y se extendió rápidamente al resto del mundo. Ya en la década de 1820, los cazadores de fósiles recopilaban y describían fósiles de dinosaurios. Más tarde, las exposiciones y las conferencias sobre los antiguos gigantes se fueron haciendo habituales.",
+      "captions": [
+        {
+          "label": "Recreando escenas prehistóricas",
+          "text": "El escultor Benjamin Waterhouse Hawkins, aquí mostrado junto a su esqueleto montado de un hadrosaurio, creó exposiciones de dinosaurios tanto en Inglaterra como en Estados Unidos. Su obra dio «vida» a los dinosaurios."
+        },
+        {
+          "label": "Poniendo nombre a los gigantes",
+          "text": "En 1842, el científico sir Richard Owen acuñó el término «Dinosauria» («terribles lagartos») para describir a los enormes animales terrestres que tenían una extraña combinación de características físicas. Owen observó que los fósiles que salían de las canteras de Inglaterra mostraban rasgos combinados de lagartos, aves, mamíferos y cocodrilos."
+        }
+      ]
+    },
+    {
+      "id": "marine-reptile-miners",
+      "title": "Los buscadores de reptiles marinos",
+      "image": "assets/edet/EDET02PU.webp",
+      "text": "Los primeros entusiastas de los fósiles no solo nos presentaron a los dinosaurios, sino también a otras criaturas prehistóricas que vivieron durante la Era de los Dinosaurios.",
+      "captions": [
+        {
+          "label": "Mary Anning",
+          "text": "Esta cazadora de fósiles es famosa por los ejemplares que recopiló cerca de su casa en Lyme Regis, en la costa sur de Inglaterra. Los acantilados de allí contienen abundantes fósiles de animales marinos que vivieron durante el período Jurásico. Entre 1810 y 1812, Mary Anning y su hermano excavaron un ictiosaurio completo, que en aquella época se creía que era un cocodrilo gigante."
+        }
+      ]
+    },
+    {
+      "id": "americans-in-the-dinosaur-rush",
+      "title": "Los americanos en la fiebre de los dinosaurios",
+      "image": "assets/edet/EDET03PU.webp",
+      "text": "A finales del siglo XIX y principios del XX, los coleccionistas de fósiles de Estados Unidos libraron una «guerra de huesos» en la que equipos rivales competían por encontrar fósiles de dinosaurios. La fiebre se extendió también al otro lado de la frontera, hasta Canadá.",
+      "captions": [
+        {
+          "label": "Edward Drinker Cope",
+          "text": "La fortuna de este nativo de Filadelfia le permitió seguir activamente su obsesión por encontrar dinosaurios. En las décadas de 1870 y 1880, Cope compitió con O. C. Marsh para encontrar y describir por escrito los fósiles de dinosaurio más grandes y mejores. Tanto Cope como Marsh realizaron aportaciones importantes al campo de la paleontología."
+        },
+        {
+          "label": "Othniel Charles Marsh",
+          "text": "Apoyado en su trabajo de campo por el Museo Peabody de Yale, O. C. Marsh se esforzó por superar a Edward Drinker Cope en el descubrimiento de la mayor cantidad y los mejores dinosaurios. Aunque cometió algunos errores en el camino, como dar dos nombres distintos al mismo dinosaurio, al final logró describir más dinosaurios que Cope."
+        }
+      ]
+    },
+    {
+      "id": "more-american-adventurers",
+      "title": "Más aventureros americanos",
+      "image": "assets/edet/EDET04PU.webp",
+      "text": "",
+      "captions": [
+        {
+          "label": "Earl Douglass",
+          "text": "El cazador de dinosaurios americano Earl Douglass, aquí mostrado junto a huesos fosilizados de Apatosaurus, excavó yacimientos en las estribaciones de las montañas Uinta de Utah. Durante una expedición financiada por el industrial Andrew Carnegie, Douglass encontró una pared de capas de roca inclinadas muy rica en restos de dinosaurios. Explotó con éxito el área de 1909 a 1924, hallando esqueletos de Apatosaurus, Estegosaurio, Alosaurio, Diplodocus, Camarasaurus, Barosaurus y Camptosaurus. El yacimiento se convirtió más tarde en el Monumento Nacional de los Dinosaurios."
+        },
+        {
+          "label": "Roy Chapman (R.C.) Andrews",
+          "text": "En la década de 1920, R. C. Andrews dirigió una expedición del Museo Americano de Historia Natural que exploró el desierto del Gobi en Mongolia. El equipo de Andrews realizó numerosos descubrimientos inusuales: dinosaurios ceratopsianos, Oviraptor, grandes herbívoros y huevos y nidos de dinosaurios."
+        }
+      ]
+    },
+    {
+      "id": "canadian-competitors",
+      "title": "Los competidores canadienses",
+      "image": "assets/edet/EDET05PU.webp",
+      "text": "Algunos de los yacimientos de dinosaurios más importantes de América del Norte se encuentran en Canadá. Para evitar que los estadounidenses sacasen fósiles del país y se llevasen todo el mérito de los descubrimientos, los canadienses formaron sus propios equipos a finales del siglo XIX.",
+      "captions": [
+        {
+          "label": "George Dawson",
+          "text": "A principios de la década de 1870, el topógrafo canadiense George Mercer Dawson descubrió huesos de dinosaurio en Saskatchewan mientras trazaba la frontera entre Canadá y Estados Unidos. El ayudante de Dawson, George B. Tyrrell, encontró un cráneo parcial de un gran dinosaurio carnívoro en 1884. Como fue hallado en Alberta, la criatura recibió el nombre de Albertosaurus."
+        },
+        {
+          "label": "Charles Hazelius Sternberg y Lawrence Lambe",
+          "text": "De origen estadounidense, Sternberg y sus hijos coleccionistas de fósiles —Charles, Levi y George— trabajaron durante muchos años para el Servicio Geológico de Canadá con gran éxito. Aquí se muestra a Sternberg junto al investigador canadiense Lawrence Lambe, excavando una tortuga prehistórica en lo que sería el Parque Provincial de los Dinosaurios."
+        }
+      ]
+    },
+    {
+      "id": "european-pioneers",
+      "title": "Los pioneros europeos",
+      "image": "assets/edet/EDET06PU.webp",
+      "text": "Europa alberga algunos de los fósiles más extraordinarios jamás descubiertos. Los excavadores ingleses y belgas contribuyeron a forjar las primeras ideas sobre los dinosaurios.",
+      "captions": [
+        {
+          "label": "Gideon y Mary Ann Mantell",
+          "text": "Médico de profesión, Gideon Mantell (aquí mostrado) dedicaba gran parte de su tiempo libre a coleccionar rocas y fósiles. Su extraña afición se hizo conocida, y los trabajadores de las canteras del cercano bosque de Tilgate enviaban cantidades de fósiles al hogar de los Mantell. Su casa fue adquiriendo el aspecto de un museo a medida que su colección crecía. En 1820, Mantell y su esposa Mary Ann descubrieron un diente de dinosaurio. El doctor Mantell llamó a su antiguo propietario Iguanodon, creyendo que la criatura era el pariente extinto de la iguana."
+        },
+        {
+          "label": "Louis Dollo",
+          "text": "Este científico belga, ayudante del Museo Real de Historia Natural de Bruselas en 1878, recibió el encargo de describir reptiles fósiles. Dollo demostró que el Iguanodon podía caminar erguido sobre sus poderosas patas traseras y que la estructura de su cadera se parecía mucho a la de un ave. También señaló correctamente que el afilado hueso cónico que Gideon Mantell había colocado en la nariz de los primeros modelos de Iguanodon pertenecía en realidad al pulgar del dinosaurio."
+        }
+      ]
+    },
+    {
+      "id": "african-adventure",
+      "title": "La aventura africana",
+      "image": "assets/edet/EDET07PU.webp",
+      "text": "En 1909, el doctor Werner Janensch dirigió una expedición alemana hacia lo que hoy es Tanzania. La expedición de Tendaguru empleó a más trabajadores que ninguna excavación de dinosaurios anterior y proporcionó los huesos de numerosos grandes dinosaurios saurópodos.",
+      "captions": [
+        {
+          "label": "Parte del equipo",
+          "text": "El doctor Janensch aparece aquí detrás de un enorme fémur de dinosaurio junto a algunos de los trabajadores."
+        },
+        {
+          "label": "Los fósiles en marcha",
+          "text": "Todos los huesos tuvieron que ser transportados por los trabajadores casi sesenta y cinco kilómetros hasta el puerto más cercano, desde donde fueron enviados a Alemania. Desde el yacimiento hasta el puerto se realizaron más de 5.000 viajes."
+        }
+      ]
+    },
+    {
+      "id": "american-abroad",
+      "title": "Un americano en el extranjero",
+      "image": "assets/edet/EDET08PU.webp",
+      "text": "En la década de 1880 se descubrieron importantes fósiles de dinosaurios en Alberta, Canadá, pero recoger los fósiles en aquel terreno de badlands era difícil. En 1910, Barnum Brown, un elegante coleccionista del Museo Americano de Historia Natural de Nueva York, concibió la idea de hacer flotar una gran balsa en el río Red Deer. La balsa transportaba el equipo y servía de campamento móvil. Brown, apodado «el señor Huesos» por su equipo, solía recoger esqueletos completos de dinosaurios a lo largo del río."
+    },
+    {
+      "id": "first-find",
+      "title": "El primer hallazgo",
+      "image": "assets/edet/EDET09PU.webp",
+      "text": "En 1824, William Buckland, profesor de la Universidad de Oxford, dedujo que el fósil de una mandíbula parcial pertenecía a un lagarto gigante, al que llamó Megalosaurus. La descripción de Buckland del Megalosaurus fue uno de los primeros estudios científicos sobre dinosaurios jamás publicados."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Important Dinosaur Sites",
+      "to": "site"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/edet/EDET00AA.webp",
+        "hotspots": [
+          {
+            "label": "Un americano en el extranjero",
+            "to": "american-abroad",
+            "x": 3,
+            "y": 38,
+            "w": 16,
+            "h": 4
+          },
+          {
+            "label": "Más aventureros americanos",
+            "to": "more-american-adventurers",
+            "x": 27,
+            "y": 40,
+            "w": 22,
+            "h": 4
+          },
+          {
+            "label": "La aventura africana",
+            "to": "african-adventure",
+            "x": 25,
+            "y": 46,
+            "w": 16,
+            "h": 4
+          },
+          {
+            "label": "Los americanos en la fiebre de los dinosaurios",
+            "to": "americans-in-the-dinosaur-rush",
+            "x": 58,
+            "y": 37,
+            "w": 30,
+            "h": 4
+          },
+          {
+            "label": "Los competidores canadienses",
+            "to": "canadian-competitors",
+            "x": 64,
+            "y": 52,
+            "w": 22,
+            "h": 4
+          },
+          {
+            "label": "Los buscadores de reptiles marinos",
+            "to": "marine-reptile-miners",
+            "x": 62,
+            "y": 60,
+            "w": 22,
+            "h": 4
+          },
+          {
+            "label": "El primer hallazgo",
+            "to": "first-find",
+            "x": 52,
+            "y": 68,
+            "w": 10,
+            "h": 4
+          },
+          {
+            "label": "Los pioneros europeos",
+            "to": "european-pioneers",
+            "x": 9,
+            "y": 74,
+            "w": 19,
+            "h": 4
+          },
+          {
+            "label": "Imaginando a las bestias",
+            "to": "imagining-the-beasts",
+            "x": 55,
+            "y": 77,
+            "w": 20,
+            "h": 4
+          }
+        ]
+      },
+      "imagining-the-beasts": {
+        "image": "assets/edet/EDET01PU.webp",
+        "back": "main"
+      },
+      "marine-reptile-miners": {
+        "image": "assets/edet/EDET02PU.webp",
+        "back": "main"
+      },
+      "americans-in-the-dinosaur-rush": {
+        "image": "assets/edet/EDET03PU.webp",
+        "back": "main"
+      },
+      "more-american-adventurers": {
+        "image": "assets/edet/EDET04PU.webp",
+        "back": "main"
+      },
+      "canadian-competitors": {
+        "image": "assets/edet/EDET05PU.webp",
+        "back": "main"
+      },
+      "european-pioneers": {
+        "image": "assets/edet/EDET06PU.webp",
+        "back": "main"
+      },
+      "african-adventure": {
+        "image": "assets/edet/EDET07PU.webp",
+        "back": "main"
+      },
+      "american-abroad": {
+        "image": "assets/edet/EDET08PU.webp",
+        "back": "main"
+      },
+      "first-find": {
+        "image": "assets/edet/EDET09PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/edet/EDET00AP.mp3",
+  "narration": "assets/edet/EDET00AJ.mp3",
+  "sound": "assets/edet/EDET00SA.mp3",
+  "fanTranslation": true
+}

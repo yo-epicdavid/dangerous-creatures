@@ -1,0 +1,113 @@
+{
+  "id": "spin",
+  "code": "SPIN",
+  "name": "Espinosaurio",
+  "category": "dinosaur",
+  "scientificName": "Spinosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "SPY-nuh-SOR-us",
+  "meaning": "lagarto espinoso",
+  "period": "Cretácico superior",
+  "diet": "Carnívoro",
+  "tagline": "¡La vela dorsal de este reptil era más alta que un hombre!",
+  "hero": {
+    "image": "assets/spin/SPIN00AA.webp",
+    "alt": "Espinosaurio"
+  },
+  "intro": "Del lomo del Espinosaurio emergía una hilera de espinas altas, con piel tensada entre ellas como una enorme vela. Esta gran vela —de hasta dos metros y medio de altura— pudo haber servido a este carnívoro egipcio para absorber los rayos del sol y calentarse, o para desprender el calor corporal y enfriarse.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "África"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto espinoso"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Terópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "12 m (40 pies)"
+    },
+    {
+      "label": "Peso",
+      "value": "7 toneladas"
+    }
+  ],
+  "topics": [
+    {
+      "id": "radiating-reptiles",
+      "title": "Reptiles irradiadores",
+      "image": "assets/spin/SPIN01PU.webp",
+      "text": "Tener una vela, placa o aleta en el lomo para controlar la temperatura corporal no es exclusivo del Espinosaurio. El Dimetrodon, un reptil que vivió mucho antes que el Espinosaurio, los estegosaurios y el Ouranosaurus, un dinosaurio africano herbívoro, todos poseían estructuras diseñadas para irradiar calor.",
+      "captions": [
+        {
+          "label": "¿Por qué una vela tan grande?",
+          "text": "Nadie sabe con certeza para qué servía la vela de dos metros y medio del Espinosaurio. La regulación del calor es solo una de las ideas que han tenido los científicos."
+        },
+        {
+          "label": "Dimetrodon",
+          "text": "Las velas en el lomo del Dimetrodon y el Espinosaurio quizás no servían para la regulación del calor en absoluto. Los científicos especulan que las velas pudieron haber servido como exhibición para resultar impresionantes ante posibles parejas o rivales."
+        },
+        {
+          "label": "Placas del estegosaurio",
+          "text": "Estas grandes placas estaban llenas de pequeños agujeros y, mientras el dinosaurio vivía, probablemente estaban recorridas por diminutos vasos sanguíneos. El estegosaurio pudo haber utilizado estas placas como un sistema de calefacción central. Estar de pie con la brisa habría enfriado la sangre, mientras que tomar el sol la habría calentado."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Two Feet or Four?",
+      "to": "twof"
+    },
+    {
+      "label": "Dravidosaurus",
+      "to": "davi"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/spin/SPIN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Reptiles irradiadores",
+            "to": "radiating-reptiles",
+            "x": 57,
+            "y": 22,
+            "w": 26,
+            "h": 5
+          }
+        ]
+      },
+      "radiating-reptiles": {
+        "image": "assets/spin/SPIN01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/spin/SPIN50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/spin/SPIN00AP.mp3",
+  "narration": "assets/spin/SPIN00AJ.mp3",
+  "fanTranslation": true
+}

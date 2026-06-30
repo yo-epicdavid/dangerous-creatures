@@ -1,0 +1,307 @@
+{
+  "id": "bary",
+  "code": "BARY",
+  "name": "Baryonyx",
+  "category": "dinosaur",
+  "scientificName": "Baryonyx walkeri",
+  "needsScientificVerify": false,
+  "pronunciation": "BARE-ee-ON-iks",
+  "meaning": "Garra pesada",
+  "period": "Cretácico inferior",
+  "diet": "Carnívoro",
+  "tagline": "Apodado «Garras» por sus enormes púas de 30 centímetros en las manos, el Baryonyx fue uno de los pocos dinosaurios que se alimentaba de peces.",
+  "hero": {
+    "image": "assets/bary/BARY00AA.webp",
+    "alt": "Baryonyx"
+  },
+  "intro": "«Garras» es el apodo que recibe el Baryonyx, uno de los dinosaurios «más recientes». Desenterrado a principios de los años ochenta en Inglaterra, el Baryonyx fue el ejemplar más completo de dinosaurio terópodo hallado en Gran Bretaña durante el siglo XX. Los científicos creen que este dinosaurio de aspecto tan peculiar pudo haber usado sus poderosos brazos, sus pesadas garras y sus mandíbulas de cocodrilo para atrapar peces.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Europa"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Temprano"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Garra pesada"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Terópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "10 m (33 ft)"
+    },
+    {
+      "label": "Peso",
+      "value": "2 toneladas"
+    }
+  ],
+  "topics": [
+    {
+      "id": "two-legs-or-four",
+      "title": "¿Dos patas o cuatro?",
+      "image": "assets/bary/BARY01PU.webp",
+      "text": "Dos robustas patas traseras eran suficientemente fuertes para soportar el peso del Baryonyx, pero sus brazos eran más musculosos que los que suelen tener los carnívoros. Quizás usaba tanto las patas como los brazos cuando estaba quieto o caminaba despacio, y solo las patas traseras cuando se desplazaba rápidamente."
+    },
+    {
+      "id": "unusual-head",
+      "title": "Una cabeza peculiar",
+      "image": "assets/bary/BARY02PU.webp",
+      "text": "Mientras que dinosaurios como el Alosaurio y el Tiranosaurio rex tenían cabezas cortas y profundas, la del Baryonyx era muy distinta. Era larga y plana, con un pequeño bulto en la parte superior. Una mandíbula inferior larga y de aspecto muy frágil le daba una forma insólita y desconcertante."
+    },
+    {
+      "id": "magnificent-claws",
+      "title": "Garras magníficas",
+      "image": "assets/bary/BARY03PU.webp",
+      "text": "Como sugiere su apodo, el Baryonyx es famoso sobre todo por sus extrañas manos con garras.",
+      "captions": [
+        {
+          "label": "Dos garras son mejor que una",
+          "text": "Los científicos creen que el Baryonyx tenía al menos dos garras, siendo las más grandes las del «dedo» interior de cada mano."
+        },
+        {
+          "label": "¿Aparejos de pesca?",
+          "text": "El tamaño y la forma extraordinarios de sus garras le valieron al Baryonyx el apodo de «Garras». Este enorme hueso de garra mide treinta centímetros y habría sido un arpón muy eficaz para el Baryonyx al pescar su alimento."
+        }
+      ]
+    },
+    {
+      "id": "skeleton",
+      "title": "Esqueleto",
+      "image": "assets/bary/BARY04PU.webp",
+      "text": "Esto muestra la mejor aproximación de los científicos sobre el aspecto que tendría el esqueleto completo del Baryonyx."
+    },
+    {
+      "id": "jigsaw-puzzle",
+      "title": "Puzle",
+      "image": "assets/bary/BARY05PU.webp",
+      "text": "Reconstruir un dinosaurio a partir de huesos fosilizados es muy parecido a montar un puzle al que le faltan algunas piezas.",
+      "captions": [
+        {
+          "label": "El puzle del esqueleto",
+          "text": "Se encontró menos de la mitad del esqueleto del Baryonyx, como se muestra aquí. Es posible que algunos de sus huesos no se fosilizaran, mientras que otros han sido destruidos. Lo que queda es un puzle de piezas."
+        },
+        {
+          "label": "Pistas y suposiciones",
+          "text": "Como los huesos de un lado del esqueleto deben coincidir con los del otro, se puede hacer una copia o modelo de los huesos existentes. Solo se conservan unos pocos huesos de la cola del Baryonyx, pero son suficientes para que los científicos construyan una réplica."
+        }
+      ]
+    },
+    {
+      "id": "tail-to-nose",
+      "title": "De la cola al hocico",
+      "image": "assets/bary/BARY06PU.webp",
+      "text": "De la nariz a la punta de la cola, el Baryonyx medía más de nueve metros de longitud. Eso equivale aproximadamente a dos coches aparcados en fila. Su cuello curvado y su cuerpo musculoso eran similares a los de otros grandes carnívoros. Unas pocas vértebras y espinas inferiores de la cola son todo lo que tenemos para demostrar que la cola servía para equilibrar el cuerpo."
+    },
+    {
+      "id": "crocodile-smile",
+      "title": "Sonrisa de cocodrilo",
+      "image": "assets/bary/BARY07PU.webp",
+      "text": "Treinta y dos dientes afilados y dentados como una sierra bordeaban cada lado de la mandíbula inferior del Baryonyx, y es posible que hubiera otros tantos en la mandíbula superior. El número de dientes y la curiosa línea curva de la boca del Baryonyx son muy similares a los de un cocodrilo, otro reptil perfectamente adaptado para pescar.",
+      "captions": [
+        {
+          "label": "Dientes de cocodrilo",
+          "text": "Los cocodrilos tienen mandíbulas largas llenas de dientes que terminan en el hocico con un amplio abanico dentado. Los dientes de los cocodrilos son muy puntiagudos, pero no tienen filo cortante. En lugar de morder, los cocodrilos usan sus dientes para aferrar a sus escurridizas presas. Una vez que la presa está inmovilizada, los cocodrilos arrancan grandes trozos de carne o se tragan a sus víctimas enteras."
+        }
+      ]
+    },
+    {
+      "id": "pillar-legs",
+      "title": "Patas como columnas",
+      "image": "assets/bary/BARY08PU.webp",
+      "text": "Las patas del Baryonyx eran como columnas para soportar su peso. Al caminar sobre dos patas, el Baryonyx habría alcanzado casi cuatro metros de altura. Como otros dinosaurios carnívoros, probablemente era capaz de romper a correr en distancias cortas."
+    },
+    {
+      "id": "in-death-throes",
+      "title": "En sus últimos instantes",
+      "image": "assets/bary/BARY09PU.webp",
+      "text": "Aquí se muestra al Baryonyx tal como tenía que haber quedado tras su muerte. Se hundió en el fondo de un lago, donde fue fosilizándose poco a poco. Este modelo tan realista demuestra cómo pueden combinarse con gran efecto los conocimientos de los científicos y la habilidad de los modelistas. La postura en que yace el dinosaurio se dedujo de la posición en que se encontraron los huesos."
+    },
+    {
+      "id": "bones-bones-bones",
+      "title": "Huesos, huesos, huesos",
+      "image": "assets/bary/BARY10PU.webp",
+      "text": "El hueso de la garra fue el primer fósil del Baryonyx que se encontró. Lo descubrió un coleccionista aficionado llamado Bill Walker y, aunque el dinosaurio es conocido popularmente como «Garras», su nombre completo es Baryonyx walkeri en honor a su descubridor.",
+      "captions": [
+        {
+          "label": "Hueso del cuello",
+          "text": "Este hueso del cuello también pertenecía al Baryonyx. Debido a su complicada forma y a que estaba encerrado en una roca muy dura, tardó mucho tiempo en extraerse de su yacimiento. Los tenues arañazos que pueden verse indican dónde queda roca por limpiar."
+        }
+      ]
+    },
+    {
+      "id": "fish-eater",
+      "title": "Comedor de peces",
+      "image": "assets/bary/BARY11PU.webp",
+      "text": "El Baryonyx era un dinosaurio poco corriente: ¡era comedor de peces! Los expertos lo creen así porque el Baryonyx tenía una cabeza parecida a la de un cocodrilo piscívoro, y en su caja torácica se encontraron escamas del pez Lepidotes. Es posible que el Baryonyx pescara, tal como se muestra aquí, vigilando las ondas y burbujas reveladoras, listo para arponer a un pez que pasara con sus largas y curvas garras."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Rhamphorhynchus",
+      "to": "rham"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/bary/BARY00AA.webp",
+        "hotspots": [
+          {
+            "label": "Huesos, huesos, huesos",
+            "to": "bones-bones-bones",
+            "x": 14,
+            "y": 42,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Esqueleto",
+            "to": "skeleton",
+            "x": 6,
+            "y": 52,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "En sus últimos instantes",
+            "to": "in-death-throes",
+            "x": 6,
+            "y": 62,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "De la cola al hocico",
+            "to": "tail-to-nose",
+            "x": 4,
+            "y": 72,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "¿Dos patas o cuatro?",
+            "to": "two-legs-or-four",
+            "x": 28,
+            "y": 77,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Patas como columnas",
+            "to": "pillar-legs",
+            "x": 23,
+            "y": 84,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Puzle",
+            "to": "jigsaw-puzzle",
+            "x": 55,
+            "y": 77,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Una cabeza peculiar",
+            "to": "unusual-head",
+            "x": 82,
+            "y": 25,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Sonrisa de cocodrilo",
+            "to": "crocodile-smile",
+            "x": 82,
+            "y": 42,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Comedor de peces",
+            "to": "fish-eater",
+            "x": 77,
+            "y": 55,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Garras magníficas",
+            "to": "magnificent-claws",
+            "x": 72,
+            "y": 80,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "two-legs-or-four": {
+        "image": "assets/bary/BARY01PU.webp",
+        "back": "main"
+      },
+      "unusual-head": {
+        "image": "assets/bary/BARY02PU.webp",
+        "back": "main"
+      },
+      "magnificent-claws": {
+        "image": "assets/bary/BARY03PU.webp",
+        "back": "main"
+      },
+      "skeleton": {
+        "image": "assets/bary/BARY04PU.webp",
+        "back": "main"
+      },
+      "jigsaw-puzzle": {
+        "image": "assets/bary/BARY05PU.webp",
+        "back": "main"
+      },
+      "tail-to-nose": {
+        "image": "assets/bary/BARY06PU.webp",
+        "back": "main"
+      },
+      "crocodile-smile": {
+        "image": "assets/bary/BARY07PU.webp",
+        "back": "main"
+      },
+      "pillar-legs": {
+        "image": "assets/bary/BARY08PU.webp",
+        "back": "main"
+      },
+      "in-death-throes": {
+        "image": "assets/bary/BARY09PU.webp",
+        "back": "main"
+      },
+      "bones-bones-bones": {
+        "image": "assets/bary/BARY10PU.webp",
+        "back": "main"
+      },
+      "fish-eater": {
+        "image": "assets/bary/BARY11PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/bary/BARY50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/bary/BARY00AP.mp3",
+  "narration": "assets/bary/BARY00AJ.mp3",
+  "fanTranslation": true
+}

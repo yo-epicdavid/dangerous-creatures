@@ -1,0 +1,201 @@
+{
+  "id": "pter",
+  "code": "PTER",
+  "name": "Pterodáctilo",
+  "category": "creature",
+  "scientificName": "Pterodactylus",
+  "needsScientificVerify": false,
+  "pronunciation": "teh-roh-DAK-til-us",
+  "meaning": "Dedo alado",
+  "period": "Jurásico superior",
+  "diet": "Carnívoro",
+  "tagline": "El reptil alado que surcó los cielos jurásicos junto a los dinosaurios",
+  "hero": {
+    "image": "assets/pter/PTER00AA.webp",
+    "alt": "Pterodáctilo"
+  },
+  "intro": "Surcando el cielo como un murciélago gigante, el reptil volador Pterodáctilo vivió al mismo tiempo que los dinosaurios y compartió muchas características con aquellos gigantes. Este pterosaurio, o reptil alado, tenía un pico lleno de dientes, una cola muy corta, una envergadura de unos cincuenta centímetros y, quizás, un cuerpo cubierto de pelaje.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "África, Europa"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico tardío"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Dedo alado"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Pterosaurio"
+    },
+    {
+      "label": "Tamaño",
+      "value": "~75 cm (2,5 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "dragonfly-diet",
+      "title": "Dieta de libélulas",
+      "image": "assets/pter/PTER01PU.webp",
+      "text": "Una parte importante de la dieta del Pterodáctilo eran probablemente las libélulas gigantes, que abundaban en la prehistoria.",
+      "captions": [
+        {
+          "label": "Un insecto del pasado",
+          "text": "Este fósil de libélula data de hace 140 millones de años. De hecho, a las libélulas se las puede llamar «fósiles vivientes», ya que surcaban los cielos hace 320 millones de años y han sobrevivido a lo largo de los siglos prácticamente sin cambios."
+        }
+      ]
+    },
+    {
+      "id": "preserved-in-time",
+      "title": "Conservado en el tiempo",
+      "image": "assets/pter/PTER02PU.webp",
+      "text": "En este esqueleto fósil de Pterodáctilo extraordinariamente bien conservado se pueden distinguir claramente los dientes del pico, los tres dedos con garras en la parte superior de las alas y el largo hueso del cuarto «dedo» que sostenía sus alas de piel."
+    },
+    {
+      "id": "of-pterosaurs-and-tails",
+      "title": "Los pterosaurios y sus colas",
+      "image": "assets/pter/PTER03PU.webp",
+      "text": "Los pterosaurios surcaron los cielos durante la misma época en que los dinosaurios dominaban la tierra. Algunos pterosaurios eran del tamaño de un gorrión, mientras que otros alcanzaban el tamaño de un avión pequeño.",
+      "captions": [
+        {
+          "label": "Dos familias",
+          "text": "Los pterosaurios se dividen en dos grandes grupos. Un grupo, los ramforincoideos, tenía colas largas, como este Rhamphorhynchus. El grupo del Pterodáctilo, los pterodactiloideos, tenía colas muy cortas o carecía de ellas por completo."
+        }
+      ]
+    },
+    {
+      "id": "fingers-on-the-wings",
+      "title": "Dedos en las alas",
+      "image": "assets/pter/PTER04PU.webp",
+      "text": "Los pterosaurios tenían alas de piel sostenidas por los huesos del brazo y la mano, y por un hueso enormemente largo del cuarto dedo. Esta disposición dejaba los tres primeros dedos, provistos de garras afiladas, a mitad del borde delantero de las alas.",
+      "captions": [
+        {
+          "label": "Soporte del ala",
+          "text": "Este largo hueso de dedo perteneció al Pteranodon, un pariente del Pterodáctilo."
+        }
+      ]
+    },
+    {
+      "id": "furry-flyer",
+      "title": "¿Volador peludo?",
+      "image": "assets/pter/PTER05PU.webp",
+      "text": "Los reptiles están normalmente cubiertos de escamas, los mamíferos de pelo y las aves de plumas. En Kazajistán se han descubierto varios esqueletos de pterosaurios con impresiones parecidas al pelo. Esto podría indicar que los pterosaurios eran de sangre caliente y usaban el pelaje como aislante, de forma similar a un pariente moderno: el murciélago."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Reptiles of the Air",
+      "to": "rair"
+    },
+    {
+      "label": "Living Fossils",
+      "to": "ddec"
+    },
+    {
+      "label": "The Making of a Fossil",
+      "to": "makf"
+    },
+    {
+      "label": "Rhamphorhynchus",
+      "to": "rham"
+    },
+    {
+      "label": "Archaeopteryx",
+      "to": "arch"
+    },
+    {
+      "label": "Warm-blooded or Cold-blooded?",
+      "to": "warm"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/pter/PTER00AA.webp",
+        "hotspots": [
+          {
+            "label": "Dedos en las alas",
+            "to": "fingers-on-the-wings",
+            "x": 14,
+            "y": 43,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "¿Volador peludo?",
+            "to": "furry-flyer",
+            "x": 65,
+            "y": 33,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Conservado en el tiempo",
+            "to": "preserved-in-time",
+            "x": 63,
+            "y": 43,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Los pterosaurios y sus colas",
+            "to": "of-pterosaurs-and-tails",
+            "x": 59,
+            "y": 53,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Dieta de libélulas",
+            "to": "dragonfly-diet",
+            "x": 28,
+            "y": 76,
+            "w": 19,
+            "h": 5
+          }
+        ]
+      },
+      "dragonfly-diet": {
+        "image": "assets/pter/PTER01PU.webp",
+        "back": "main"
+      },
+      "preserved-in-time": {
+        "image": "assets/pter/PTER02PU.webp",
+        "back": "main"
+      },
+      "of-pterosaurs-and-tails": {
+        "image": "assets/pter/PTER03PU.webp",
+        "back": "main"
+      },
+      "fingers-on-the-wings": {
+        "image": "assets/pter/PTER04PU.webp",
+        "back": "main"
+      },
+      "furry-flyer": {
+        "image": "assets/pter/PTER05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/pter/PTER50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/pter/PTER00AP.mp3",
+  "narration": "assets/pter/PTER00AJ.mp3",
+  "fanTranslation": true
+}

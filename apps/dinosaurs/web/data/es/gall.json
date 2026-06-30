@@ -1,0 +1,183 @@
+{
+  "id": "gall",
+  "code": "GALL",
+  "name": "Gallimimus",
+  "category": "dinosaur",
+  "scientificName": "Gallimimus",
+  "needsScientificVerify": false,
+  "pronunciation": "GAL-ih-MY-mus",
+  "meaning": "Imitador de ave de corral",
+  "period": "Cretácico superior",
+  "diet": "Omnívoro",
+  "tagline": "¡Este veloz dinosaurio con aspecto de ave podía correr más rápido que un caballo de carreras!",
+  "hero": {
+    "image": "assets/gall/GALL00AA.webp",
+    "alt": "Gallimimus"
+  },
+  "intro": "No todos los dinosaurios eran grandes y lentos. El Gallimimus es uno de los mayores «dinosaurios avestruz», u ornitomímidos. Esta criatura se parecía más a un ave sin vuelo que a un reptil. El Gallimimus estaba diseñado para la velocidad, con sus largas patas, cuerpo ligero y un cuello y cola equilibrados.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Asia"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Imitador de ave de corral"
+    },
+    {
+      "label": "Caderas",
+      "value": "Tipo lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Terópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "4 m (13 pies)"
+    },
+    {
+      "label": "Velocidad máxima",
+      "value": "30 millas por hora"
+    }
+  ],
+  "topics": [
+    {
+      "id": "the-beak-of-a-bird",
+      "title": "El pico de un ave",
+      "image": "assets/gall/GALL01PU.webp",
+      "text": "El Gallimimus tenía un pico sin dientes, muy parecido al de las aves modernas. Probablemente se alimentaba de plantas, complementadas con insectos y lagartijas. Algunos científicos especulan con que el Gallimimus podría haber desenterrado y comido los huevos de otros dinosaurios.",
+      "captions": [
+        {
+          "label": "¿Siguen vivos los dinosaurios hoy en día?",
+          "text": "¡Algunos expertos dicen que sí: nuestros cielos están llenos de sus descendientes, las aves!"
+        }
+      ]
+    },
+    {
+      "id": "an-ostrich-dinosaur",
+      "title": "Un dinosaurio avestruz",
+      "image": "assets/gall/GALL02PU.webp",
+      "text": "Aunque tenía piel escamosa, manos y brazos con garras y una larga cola, el Gallimimus se parecía en su aspecto general a un avestruz. Al igual que el Gallimimus, los avestruces modernos no pueden volar, sino que huyen corriendo de sus depredadores.",
+      "captions": [
+        {
+          "label": "Pariente cercano",
+          "text": "Todos los dinosaurios avestruz se parecen entre sí. Aquí se muestra el Struthiomimus, un primo del Gallimimus."
+        }
+      ]
+    },
+    {
+      "id": "fatal-feet",
+      "title": "¿Patas mortales?",
+      "image": "assets/gall/GALL03PU.webp",
+      "text": "Como un avestruz moderno, las patas y los estrechos pies del Gallimimus eran fuertes y musculosos. Aunque el Gallimimus probablemente habría podido asestar una patada mortal a un pequeño atacante, utilizaba su velocidad como principal defensa.",
+      "captions": [
+        {
+          "label": "Un agarre deficiente",
+          "text": "Las manos de tres dedos del Gallimimus no estaban diseñadas para atrapar presas ni para desgarrar carne."
+        }
+      ]
+    },
+    {
+      "id": "fast-as-a-racehorse",
+      "title": "Tan rápido como un caballo de carreras",
+      "image": "assets/gall/GALL04PU.webp",
+      "text": "El Gallimimus podía salir disparado para escapar de sus perseguidores, adelantando a la mayoría de los demás dinosaurios. Los expertos calculan que algunos de estos ágiles dinosaurios podían correr tan rápido como un caballo de carreras, alcanzando velocidades superiores a las treinta millas por hora."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Hypsilophodon",
+      "to": "hyps"
+    },
+    {
+      "label": "Face to Face",
+      "to": "ftfa"
+    },
+    {
+      "label": "Dromiceiomimus",
+      "to": "drom"
+    },
+    {
+      "label": "Dinosaur Defense",
+      "to": "ddef"
+    },
+    {
+      "label": "Warm-blooded or Cold-blooded?",
+      "to": "warm"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/gall/GALL00AA.webp",
+        "hotspots": [
+          {
+            "label": "El pico de un ave",
+            "to": "the-beak-of-a-bird",
+            "x": 65,
+            "y": 17,
+            "w": 21,
+            "h": 6
+          },
+          {
+            "label": "Un dinosaurio avestruz",
+            "to": "an-ostrich-dinosaur",
+            "x": 63,
+            "y": 42,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "¿Patas mortales?",
+            "to": "fatal-feet",
+            "x": 63,
+            "y": 67,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Tan rápido como un caballo de carreras",
+            "to": "fast-as-a-racehorse",
+            "x": 1,
+            "y": 58,
+            "w": 23,
+            "h": 6
+          }
+        ]
+      },
+      "the-beak-of-a-bird": {
+        "image": "assets/gall/GALL01PU.webp",
+        "back": "main"
+      },
+      "an-ostrich-dinosaur": {
+        "image": "assets/gall/GALL02PU.webp",
+        "back": "main"
+      },
+      "fatal-feet": {
+        "image": "assets/gall/GALL03PU.webp",
+        "back": "main"
+      },
+      "fast-as-a-racehorse": {
+        "image": "assets/gall/GALL04PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/gall/GALL50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/gall/GALL00AP.mp3",
+  "narration": "assets/gall/GALL00AJ.mp3",
+  "fanTranslation": true
+}

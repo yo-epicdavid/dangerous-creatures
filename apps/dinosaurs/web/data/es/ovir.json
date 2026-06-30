@@ -1,0 +1,147 @@
+{
+  "id": "ovir",
+  "code": "OVIR",
+  "name": "Oviraptor",
+  "category": "dinosaur",
+  "scientificName": "Oviraptor",
+  "needsScientificVerify": false,
+  "pronunciation": "oh-vih-RAP-tor",
+  "meaning": "Ladrón de huevos",
+  "period": "Cretácico superior",
+  "diet": "Carnívoro",
+  "tagline": "Ningún nido de dinosaurio estaba a salvo de este ágil ladrón de huevos.",
+  "hero": {
+    "image": "assets/ovir/OVIR00AA.webp",
+    "alt": "Oviraptor"
+  },
+  "intro": "Las dinosaurias madre debían de estar muy alerta cuando el Oviraptor andaba cerca. El nombre de este dinosaurio significa «ladrón de huevos» y se le ha acusado de robar y comerse los huevos de los nidos de otros dinosaurios. Con sus ágiles dedos con garras y su afilado pico, el Oviraptor podía romper fácilmente las cáscaras de los huevos y sorber su contenido.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Asia"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Ladrón de huevos"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Terópodo"
+    }
+  ],
+  "topics": [
+    {
+      "id": "a-small-but-dangerous-predator",
+      "title": "Un depredador pequeño pero peligroso",
+      "image": "assets/ovir/OVIR01PU.webp",
+      "text": "El Oviraptor era un dinosaurio pequeño, de apenas tres metros de longitud, pero poseía un afilado pico, dos espinas parecidas a las de una serpiente en el paladar superior, dedos con garras y unas patas perfectas para correr. Al igual que otros pequeños dinosaurios carnívoros, el Oviraptor era probablemente un cazador rápido y temible.",
+      "captions": [
+        {
+          "label": "Dinosaurios del tamaño de un perro",
+          "text": "Aquí puedes ver el tamaño del Oviraptor y el Protoceratops comparados con una persona. ¡Son casi tan pequeños como para tenerlos de mascotas!"
+        }
+      ]
+    },
+    {
+      "id": "toothless-danger",
+      "title": "Un peligro sin dientes",
+      "image": "assets/ovir/OVIR02PU.webp",
+      "text": "Aunque el Oviraptor no tenía dientes en su robusto pico, sí disponía de unas mandíbulas muy fuertes y dos afiladas espinas en el paladar. Esto le habría permitido romper o perforar fácilmente los huevos de otros dinosaurios y vaciar su contenido para darse un suculento festín. Sin embargo, sus mandíbulas eran lo bastante poderosas como para triturar huesos y conchas de moluscos, por lo que este dinosaurio probablemente cazaba algo más que simples huevos."
+    },
+    {
+      "id": "why-is-it-accused-of-eating-eggs",
+      "title": "¿Por qué se le acusa de comer huevos?",
+      "image": "assets/ovir/OVIR03PU.webp",
+      "text": "El primer esqueleto de Oviraptor fue encontrado junto a un nido de huevos de Protoceratops, lo que llevó a los científicos a pensar que el Oviraptor estaba saqueando el nido cuando quedó repentinamente sepultado por una tormenta de arena.",
+      "captions": [
+        {
+          "label": "Cría de Protoceratops",
+          "text": "Las crías de Protoceratops debían de medir menos de veinte centímetros al nacer. ¡Pero un Protoceratops adulto llegaba a medir casi dos metros de longitud!"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dilophosaurus",
+      "to": "dilo"
+    },
+    {
+      "label": "Deinonychus",
+      "to": "dein"
+    },
+    {
+      "label": "Face to Face",
+      "to": "ftfa"
+    },
+    {
+      "label": "Protoceratops",
+      "to": "prot"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/ovir/OVIR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Un depredador pequeño pero peligroso",
+            "to": "a-small-but-dangerous-predator",
+            "x": 10,
+            "y": 62,
+            "w": 35,
+            "h": 6
+          },
+          {
+            "label": "Un peligro sin dientes",
+            "to": "toothless-danger",
+            "x": 72,
+            "y": 44,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "¿Por qué se le acusa de comer huevos?",
+            "to": "why-is-it-accused-of-eating-eggs",
+            "x": 60,
+            "y": 72,
+            "w": 35,
+            "h": 10
+          }
+        ]
+      },
+      "a-small-but-dangerous-predator": {
+        "image": "assets/ovir/OVIR01PU.webp",
+        "back": "main"
+      },
+      "toothless-danger": {
+        "image": "assets/ovir/OVIR02PU.webp",
+        "back": "main"
+      },
+      "why-is-it-accused-of-eating-eggs": {
+        "image": "assets/ovir/OVIR03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/ovir/OVIR50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/ovir/OVIR00AP.mp3",
+  "narration": "assets/ovir/OVIR00AJ.mp3",
+  "fanTranslation": true
+}

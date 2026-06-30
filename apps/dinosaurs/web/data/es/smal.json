@@ -1,0 +1,188 @@
+{
+  "id": "smal",
+  "code": "SMAL",
+  "name": "Los dinosaurios más pequeños",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "¡Algunos dinosaurios no eran más grandes que una gallina... y podían correr tan rápido como un caballo de carreras!",
+  "hero": {
+    "image": "assets/smal/SMAL00AA.webp",
+    "alt": "Los dinosaurios más pequeños"
+  },
+  "intro": "Los dinosaurios existieron en toda clase de formas y tamaños. Los había desde gigantes más altos que una casa, hasta criaturas ágiles que no eran más grandes que las gallinas actuales. El Troodon, que se muestra aquí, medía cerca de dos metros de la nariz a la cola. El dinosaurio medio no era más grande que un coche. Ser pequeño tenía sus ventajas en el mundo de los dinosaurios. Los dinosaurios pequeños podían esconderse entre las plantas o en las grietas de las rocas. Sin embargo, los dinosaurios pequeños llevaban mucha desventaja a la hora de fosilizarse. Los huesos diminutos son difíciles de conservar y aún más difíciles de encontrar como fósiles, por lo que puede que haya habido muchos más dinosaurios pequeños de los que hemos descubierto hasta ahora.",
+  "facts": [
+    {
+      "label": "Dinosaurio destacado",
+      "value": "Troodon"
+    },
+    {
+      "label": "Longitud del Troodon",
+      "value": "cerca de dos metros de la nariz a la cola"
+    },
+    {
+      "label": "Esqueleto más pequeño conocido",
+      "value": "Mussaurus — solo unos veinte centímetros de largo"
+    },
+    {
+      "label": "Velocidad máxima",
+      "value": "más de cincuenta kilómetros por hora (Velociraptor)"
+    },
+    {
+      "label": "Longitud del Saltopus",
+      "value": "unos sesenta centímetros"
+    },
+    {
+      "label": "Peso del Saltopus",
+      "value": "alrededor de un kilo"
+    },
+    {
+      "label": "Longitud del Lesothosaurus",
+      "value": "alrededor de noventa centímetros"
+    },
+    {
+      "label": "Longitud del Compsognathus",
+      "value": "poco más de sesenta centímetros de la nariz a la punta de la cola"
+    }
+  ],
+  "topics": [
+    {
+      "id": "mouse-sized-plant-eater",
+      "title": "El herbívoro del tamaño de un ratón",
+      "image": "assets/smal/SMAL01PU.webp",
+      "text": "¡El esqueleto del Mussaurus, cuyo nombre significa «reptil ratón», medía tan solo unos veinte centímetros de largo! Los restos fósiles de este minidinosauro se encontraron en un nido con huevos, por lo que los expertos creen que este Mussaurus era probablemente una cría de prosauropodo."
+    },
+    {
+      "id": "chicken-sized-carnivore",
+      "title": "El carnívoro del tamaño de una gallina",
+      "image": "assets/smal/SMAL02PU.webp",
+      "text": "El Compsognathus, un dinosaurio terópodo, tenía el tamaño aproximado de un gallo grande. Y al igual que una gallina campera, este pequeño y veloz depredador probablemente comía todo lo que podía atrapar: insectos, lagartos y ranas."
+    },
+    {
+      "id": "fast-as-a-racehorse",
+      "title": "Tan rápido como un caballo de carreras",
+      "image": "assets/smal/SMAL03PU.webp",
+      "text": "El nombre de Velociraptor significa «ladrón veloz». Este carnívoro bípedo estaba hecho para la velocidad, con patas largas y musculosas, un cuerpo ligero y un cuello y cola bien equilibrados. Algunos paleontólogos calculan que ciertos dinosaurios ágiles podían correr tan rápido como un caballo de carreras, alcanzando velocidades superiores a los cincuenta kilómetros por hora."
+    },
+    {
+      "id": "tiny-and-toothy",
+      "title": "Pequeño y con muchos dientes",
+      "image": "assets/smal/SMAL04PU.webp",
+      "text": "El Heterodontosaurus, un herbívoro de unos noventa centímetros de largo, era famoso por tener tres tipos distintos de dientes. Sus dientes traseros eran molares altos para triturar; más hacia delante tenía largos dientes caninos curvados, como los de un lobo; y en la parte delantera, el Heterodontosaurus tenía pequeños dientes puntiagudos arriba y un pico óseo abajo.",
+      "captions": [
+        {
+          "label": "Un depredador diminuto",
+          "text": "El Saltopus, no más grande que un gato adulto, era otro dinosaurio lleno de energía que quizás cazaba insectos y pequeños lagartos para alimentarse. Los fósiles de este poco conocido dinosaurio solo se han encontrado en Escocia."
+        }
+      ]
+    },
+    {
+      "id": "how-small-were-they",
+      "title": "¿Cómo de pequeños eran?",
+      "image": "assets/smal/SMAL05PU.webp",
+      "text": "Si estuvieran vivos hoy en día, muchos de estos pequeños dinosaurios no te llegarían a las rodillas. ¡Tendrías que tener cuidado de no pisarlos!",
+      "captions": [
+        {
+          "label": "Saltopus",
+          "text": "Este dinosaurio de unos sesenta centímetros de largo era muy ligero y pesaba solo alrededor de un kilo."
+        },
+        {
+          "label": "Lesothosaurus",
+          "text": "El gigante entre los dinosaurios enanos, el Lesothosaurus medía alrededor de noventa centímetros. Sus fósiles se encontraron en África, donde los expertos creen que pudo haber vivido en condiciones desérticas."
+        },
+        {
+          "label": "Compsognathus",
+          "text": "Este pequeño velocista medía poco más de sesenta centímetros desde la nariz hasta la punta de la cola."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Record Breakers",
+      "to": "recb"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/smal/SMAL00AA.webp",
+        "hotspots": [
+          {
+            "label": "¿Cómo de pequeños eran?",
+            "to": "how-small-were-they",
+            "x": 18,
+            "y": 54,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Pequeño y con muchos dientes",
+            "to": "tiny-and-toothy",
+            "x": 2,
+            "y": 63,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Tan rápido como un caballo de carreras",
+            "to": "fast-as-a-racehorse",
+            "x": 2,
+            "y": 73,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "El carnívoro del tamaño de una gallina",
+            "to": "chicken-sized-carnivore",
+            "x": 47,
+            "y": 59,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "El herbívoro del tamaño de un ratón",
+            "to": "mouse-sized-plant-eater",
+            "x": 47,
+            "y": 73,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "mouse-sized-plant-eater": {
+        "image": "assets/smal/SMAL01PU.webp",
+        "back": "main"
+      },
+      "chicken-sized-carnivore": {
+        "image": "assets/smal/SMAL02PU.webp",
+        "back": "main"
+      },
+      "fast-as-a-racehorse": {
+        "image": "assets/smal/SMAL03PU.webp",
+        "back": "main"
+      },
+      "tiny-and-toothy": {
+        "image": "assets/smal/SMAL04PU.webp",
+        "back": "main"
+      },
+      "how-small-were-they": {
+        "image": "assets/smal/SMAL05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/smal/SMAL00AP.mp3",
+  "narration": "assets/smal/SMAL00AJ.mp3",
+  "sound": "assets/smal/SMAL00SA.mp3",
+  "fanTranslation": true
+}

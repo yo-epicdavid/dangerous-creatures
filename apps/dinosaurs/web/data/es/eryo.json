@@ -1,0 +1,129 @@
+{
+  "id": "eryo",
+  "code": "ERYO",
+  "name": "Eryops",
+  "category": "creature",
+  "scientificName": "Eryops",
+  "needsScientificVerify": false,
+  "pronunciation": "EE-ree-ops",
+  "meaning": "Cara alargada",
+  "period": "Pérmico inferior",
+  "diet": "Carnívoro",
+  "tagline": "Mitad en tierra, mitad en agua — este gigante ancestral dominó los pantanos mucho antes de que llegaran los dinosaurios.",
+  "hero": {
+    "image": "assets/eryo/ERYO00AA.webp",
+    "alt": "Eryops"
+  },
+  "intro": "El Eryops era un anfibio prehistórico que probablemente cazaba tanto en el agua como en tierra. Merodeaba por los pantanos durante el Pérmico Temprano en las zonas de los Estados Unidos conocidas hoy como Texas, Oklahoma y Nuevo México.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Pérmico"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Cara alargada"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Anfibio prehistórico"
+    },
+    {
+      "label": "Longitud",
+      "value": "1,5 m (5 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "strong-skeleton",
+      "title": "Esqueleto Robusto",
+      "image": "assets/eryo/ERYO01PU.webp",
+      "text": "Este magnífico esqueleto de Eryops muestra que el anfibio tenía una constitución muy robusta, con huesos muy fuertes, una cabeza enorme y pesada, y los dientes afilados propios de un carnívoro.",
+      "captions": [
+        {
+          "label": "El Eryops en su hábitat",
+          "text": "El Eryops alcanzaba casi dos metros de longitud. Se cree que tenía un estilo de vida similar al de los cocodrilos y caimanes actuales, repartiendo su tiempo entre el agua y la tierra."
+        }
+      ]
+    },
+    {
+      "id": "the-age-of-amphibians",
+      "title": "La Era de los Anfibios",
+      "image": "assets/eryo/ERYO02PU.webp",
+      "text": "Hace 300 millones de años, antes de la Era de los Dinosaurios, anfibios como el Eryops dominaban los pantanos. Eran más fuertes que los primeros anfibios y fueron volviéndose más independientes del agua. Sin embargo, seguían teniendo que volver al agua para poner sus huevos, como hacen los anfibios hoy en día.",
+      "captions": [
+        {
+          "label": "¿Parientes modernos?",
+          "text": "Los restos del Eryops se encontraron en el sur de los Estados Unidos. El caimán, habitante actual de los pantanos de esa misma zona, se le parece muchísimo, ¿verdad?"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Life Before Dinosaurs",
+      "to": "befr"
+    },
+    {
+      "label": "Dimetrodon",
+      "to": "dime"
+    },
+    {
+      "label": "Dinosaur Descendants",
+      "to": "desc"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/eryo/ERYO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Esqueleto Robusto",
+            "to": "strong-skeleton",
+            "x": 67,
+            "y": 38,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "La Era de los Anfibios",
+            "to": "the-age-of-amphibians",
+            "x": 7,
+            "y": 72,
+            "w": 28,
+            "h": 5
+          }
+        ]
+      },
+      "strong-skeleton": {
+        "image": "assets/eryo/ERYO01PU.webp",
+        "back": "main"
+      },
+      "the-age-of-amphibians": {
+        "image": "assets/eryo/ERYO02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/eryo/ERYO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/eryo/ERYO00AP.mp3",
+  "narration": "assets/eryo/ERYO00AJ.mp3",
+  "fanTranslation": true
+}

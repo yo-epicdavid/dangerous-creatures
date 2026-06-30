@@ -1,0 +1,306 @@
+{
+  "id": "what",
+  "code": "WHAT",
+  "name": "¿Qué es un dinosaurio?",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "lagartos terribles",
+  "period": "",
+  "diet": "",
+  "tagline": "No todo reptil prehistórico era un dinosaurio — descubre qué es lo que los distingue de verdad.",
+  "hero": {
+    "image": "assets/what/WHAT00AA.webp",
+    "alt": "¿Qué es un dinosaurio?"
+  },
+  "intro": "Los dinosaurios fueron criaturas asombrosas que vivieron durante la era Mesozoica, desde el período Triásico Temprano (hace 235 millones de años) hasta el final del período Cretácico (hace 65 millones de años). Pero muchos otros animales prehistóricos también caminaron por la Tierra al mismo tiempo que los dinosaurios. ¿Qué diferencia a un dinosaurio de un pterosaurio, un lagarto antiguo o un mamífero prehistórico? Varias características separan a los dinosaurios de otros animales antiguos. Durante mucho tiempo, los dinosaurios se han agrupado con los reptiles, como la iguana que aparece aquí. Pero a diferencia de los reptiles, las patas de los dinosaurios se colocaban justo debajo del cuerpo para sostener su peso. Caminaban erguidos, no de forma reptante como este lagarto. Además, los dinosaurios vivían en tierra firme, y no surcaban el cielo ni nadaban por las profundidades de los océanos.",
+  "facts": [
+    {
+      "label": "Era",
+      "value": "Mesozoica"
+    },
+    {
+      "label": "Período",
+      "value": "Hace 235 a 65 millones de años"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagartos terribles"
+    },
+    {
+      "label": "Supervivencia",
+      "value": "más de 160 millones de años"
+    }
+  ],
+  "topics": [
+    {
+      "id": "terrible-lizards",
+      "title": "Lagartos Terribles",
+      "image": "assets/what/WHAT01PU.webp",
+      "text": "Los dinosaurios fueron identificados por primera vez como grupo a principios del siglo XIX. En 1820, en Inglaterra, Gideon y Mary Ann Mantell encontraron unos grandes dientes. Pensaron que esos dientes pertenecieron a un enorme reptil, al que llamaron Iguanodon. En esa época, nadie había imaginado nunca que la Tierra estuvo gobernada por estas bestias gigantes.",
+      "captions": [
+        {
+          "label": "Un nombre definitivo",
+          "text": "Poco después se descubrieron más restos de reptiles gigantes y, en 1842, un eminente científico llamado Sir Richard Owen declaró que los reptiles gigantes debían llamarse «dinosaurios», que significa «lagartos terribles»."
+        }
+      ]
+    },
+    {
+      "id": "not-necessarily-giants",
+      "title": "No Necesariamente Gigantes",
+      "image": "assets/what/WHAT02PU.webp",
+      "text": "Aunque muchos dinosaurios eran gigantes, el gran tamaño no es necesariamente una característica de los dinosaurios. Los dinosaurios variaban en tamaño desde el diminuto Mussaurus, de apenas unos 25 centímetros de longitud desde el hocico hasta la punta de la cola, hasta el gigantesco Diplodocus, que medía unos 26 metros de largo.",
+      "captions": [
+        {
+          "label": "El dinosaurio más largo",
+          "text": "Aunque el Diplodocus era el dinosaurio más largo, su peso era solo una cuarta parte del del gigantesco Brachiosaurus."
+        },
+        {
+          "label": "Un corredor veloz",
+          "text": "El Compsognathus quizá fuera pequeño, pero era muy rápido. Perseguía insectos y lagartos para alimentarse."
+        }
+      ]
+    },
+    {
+      "id": "two-hip-groups",
+      "title": "Dos Grupos según la Cadera",
+      "image": "assets/what/WHAT03PU.webp",
+      "text": "Los dinosaurios se dividen en dos grandes grupos según la estructura de sus huesos de la cadera. Los dinosaurios saurisquios, o de «cadera de lagarto», tenían la cadera con los dos huesos inferiores apuntando en direcciones opuestas, igual que los lagartos. Los dinosaurios terópodos carnívoros, como el Tiranosaurio rex, y los gigantescos herbívoros, como el Brachiosaurus, tienen «cadera de lagarto». Los dinosaurios ornitisquios, o de «cadera de ave», tenían los dos huesos inferiores de la cadera juntos detrás de las patas traseras, como en las aves. Los dinosaurios de pico de pato y los iguanodontes son dos tipos de dinosaurios de «cadera de ave»."
+    },
+    {
+      "id": "living-dinosaur",
+      "title": "¿Un Dinosaurio Vivo?",
+      "image": "assets/what/WHAT04PU.webp",
+      "text": "El tuátara, un raro reptil de Nueva Zelanda, no es un dinosaurio, pero sí el único miembro vivo de un grupo de reptiles que vivió durante la Era de los Dinosaurios. Nadie sabe realmente por qué este lagarto ha sobrevivido. Sus parientes más cercanos se extinguieron hace millones de años."
+    },
+    {
+      "id": "from-a-sprawl-to-walking-tall",
+      "title": "Del Arrastre al Porte Erguido",
+      "image": "assets/what/WHAT05PU.webp",
+      "text": "Una de las formas en que los dinosaurios se diferenciaban de otros reptiles era que sus patas se mantenían rectas debajo del cuerpo en lugar de extenderse hacia los lados. Este cambio probablemente tuvo lugar muy despacio, por etapas.",
+      "captions": [
+        {
+          "label": "Lagartos",
+          "text": "Entonces, como ahora, los lagartos se desplazaban contoneándose sobre patas dobladas y extendidas hacia los lados."
+        },
+        {
+          "label": "Arcosaurios primitivos",
+          "text": "Estos precursores de los dinosaurios tenían patas menos dobladas y más recogidas bajo el cuerpo."
+        },
+        {
+          "label": "Dinosaurios",
+          "text": "Todos los dinosaurios, tanto si caminaban sobre dos patas como sobre cuatro, tenían las patas bien recogidas bajo el cuerpo."
+        }
+      ]
+    },
+    {
+      "id": "not-of-the-air-nor-of-the-sea",
+      "title": "Ni del Aire ni del Mar",
+      "image": "assets/what/WHAT06PU.webp",
+      "text": "Los dinosaurios eran animales terrestres. Los pterosaurios —los lagartos voladores— y los pliosaurios, plesiosaurios, mosasaurios e ictiosaurios —lagartos marinos— eran todos grupos de reptiles prehistóricos, pero no eran dinosaurios.",
+      "captions": [
+        {
+          "label": "Pteranodon",
+          "text": "Mientras los dinosaurios dominaban la tierra, el Pteranodon y otros pterosaurios eran los guardianes reptiles de los cielos. Este Pteranodon probablemente sobrevolaba los mares, usando su largo pico sin dientes para atrapar peces."
+        },
+        {
+          "label": "Superviviente",
+          "text": "Este plesiosaurio de cuello largo, Elasmosaurus, encaja con la descripción del famoso monstruo marino, el monstruo del lago Ness. Algunos creen que el Elasmosaurus ha sobrevivido a los siglos y aún nada en los mares actuales."
+        }
+      ]
+    },
+    {
+      "id": "the-age-of-dinosaurs",
+      "title": "La Era de los Dinosaurios",
+      "image": "assets/what/WHAT07PU.webp",
+      "text": "Los dinosaurios vivieron únicamente durante la era Mesozoica —los períodos Triásico, Jurásico y Cretácico—. Pero no te dejes engañar pensando que existieron poco tiempo en la Tierra. Los dinosaurios vivieron durante más de 160 millones de años. Los seres humanos, en cambio, llevamos en la Tierra apenas uno o dos millones de años. ¿Sobrevivirá nuestra especie tanto tiempo como los dinosaurios?",
+      "captions": [
+        {
+          "label": "Período Triásico",
+          "text": "Hace 245 a 208 millones de años"
+        },
+        {
+          "label": "Período Jurásico",
+          "text": "Hace 208 a 145 millones de años"
+        },
+        {
+          "label": "Período Cretácico",
+          "text": "Hace 145 a 65 millones de años"
+        }
+      ]
+    },
+    {
+      "id": "scales-and-claws-in-common",
+      "title": "Escamas y Garras en Común",
+      "image": "assets/what/WHAT08PU.webp",
+      "text": "Uno de los primeros dinosaurios en ser descubiertos recibió su nombre de la iguana. De hecho, los lagartos actuales comparten varias características con los dinosaurios, como la textura de la piel, las espinas y crestas en el lomo, y las afiladas garras.",
+      "captions": [
+        {
+          "label": "Un animal llamativo",
+          "text": "Al igual que esta iguana, los dinosaurios pudieron tener colores muy vivos."
+        },
+        {
+          "label": "Herramienta de pesca",
+          "text": "Esta afilada garra perteneció al Baryonyx. Dado que sabemos que el Baryonyx se alimentaba de peces, puede que usara esta garra como un arpón para ensartar a su presa."
+        },
+        {
+          "label": "Escamas de Diplodocus",
+          "text": "Este fósil muestra que el Diplodocus tenía escamas muy juntas entre sí. Al igual que en los reptiles modernos, estas escamas tenían bordes flexibles en los puntos de contacto, que actuaban como bisagras para facilitar el movimiento."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Warm-blooded or Cold-blooded?",
+      "to": "warm"
+    },
+    {
+      "label": "Early Dinosaur Detectives",
+      "to": "edet"
+    },
+    {
+      "label": "Diplodocus",
+      "to": "dipl"
+    },
+    {
+      "label": "Birds and Dinosaurs",
+      "to": "bird"
+    },
+    {
+      "label": "Living Fossils",
+      "to": "ddec"
+    },
+    {
+      "label": "Moschops",
+      "to": "mosc"
+    },
+    {
+      "label": "Cearadactylus",
+      "to": "cdac"
+    },
+    {
+      "label": "Marching to Extinction",
+      "to": "extt"
+    },
+    {
+      "label": "Claws",
+      "to": "claw"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/what/WHAT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Del Arrastre al Porte Erguido",
+            "to": "from-a-sprawl-to-walking-tall",
+            "x": 2,
+            "y": 43,
+            "w": 31,
+            "h": 4
+          },
+          {
+            "label": "No Necesariamente Gigantes",
+            "to": "not-necessarily-giants",
+            "x": 2,
+            "y": 49,
+            "w": 26,
+            "h": 4
+          },
+          {
+            "label": "Escamas y Garras en Común",
+            "to": "scales-and-claws-in-common",
+            "x": 2,
+            "y": 55,
+            "w": 29,
+            "h": 4
+          },
+          {
+            "label": "La Era de los Dinosaurios",
+            "to": "the-age-of-dinosaurs",
+            "x": 2,
+            "y": 64,
+            "w": 25,
+            "h": 4
+          },
+          {
+            "label": "Lagartos Terribles",
+            "to": "terrible-lizards",
+            "x": 43,
+            "y": 52,
+            "w": 18,
+            "h": 4
+          },
+          {
+            "label": "¿Un Dinosaurio Vivo?",
+            "to": "living-dinosaur",
+            "x": 39,
+            "y": 65,
+            "w": 19,
+            "h": 4
+          },
+          {
+            "label": "Ni del Aire ni del Mar",
+            "to": "not-of-the-air-nor-of-the-sea",
+            "x": 67,
+            "y": 37,
+            "w": 31,
+            "h": 4
+          },
+          {
+            "label": "Dos Grupos según la Cadera",
+            "to": "two-hip-groups",
+            "x": 68,
+            "y": 49,
+            "w": 18,
+            "h": 4
+          }
+        ]
+      },
+      "terrible-lizards": {
+        "image": "assets/what/WHAT01PU.webp",
+        "back": "main"
+      },
+      "not-necessarily-giants": {
+        "image": "assets/what/WHAT02PU.webp",
+        "back": "main"
+      },
+      "two-hip-groups": {
+        "image": "assets/what/WHAT03PU.webp",
+        "back": "main"
+      },
+      "living-dinosaur": {
+        "image": "assets/what/WHAT04PU.webp",
+        "back": "main"
+      },
+      "from-a-sprawl-to-walking-tall": {
+        "image": "assets/what/WHAT05PU.webp",
+        "back": "main"
+      },
+      "not-of-the-air-nor-of-the-sea": {
+        "image": "assets/what/WHAT06PU.webp",
+        "back": "main"
+      },
+      "the-age-of-dinosaurs": {
+        "image": "assets/what/WHAT07PU.webp",
+        "back": "main"
+      },
+      "scales-and-claws-in-common": {
+        "image": "assets/what/WHAT08PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/what/WHAT00AP.mp3",
+  "narration": "assets/what/WHAT00AJ.mp3",
+  "sound": "assets/what/WHAT00SA.mp3",
+  "fanTranslation": true
+}

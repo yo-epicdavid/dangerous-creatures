@@ -1,0 +1,275 @@
+{
+  "id": "dein",
+  "code": "DEIN",
+  "name": "Deinonychus",
+  "category": "dinosaur",
+  "scientificName": "Deinonychus",
+  "needsScientificVerify": false,
+  "pronunciation": "dye-NON-ih-kus",
+  "meaning": "Garra terrible",
+  "period": "Cretácico inferior",
+  "diet": "Carnívoro",
+  "tagline": "¡Este depredador que cazaba en manada tenía una mortífera garra en forma de hoz en cada pie, capaz de desgarrar casi cualquier cosa!",
+  "hero": {
+    "image": "assets/dein/DEIN00AA.webp",
+    "alt": "Deinonychus"
+  },
+  "intro": "«Garra terrible» es el apodo que se le ha dado al Deinonychus, por sus mortíferas garras curvas en el segundo dedo de cada pie. El descubrimiento del Deinonychus hizo reflexionar a los expertos. Por aquel entonces, la mayoría de la gente consideraba a los dinosaurios como criaturas lentas, torpes y poco inteligentes. Pero los fósiles del Deinonychus muestran que probablemente era todo lo contrario: un cazador rápido, ágil e inteligente.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Inferior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Garra terrible"
+    },
+    {
+      "label": "Caderas",
+      "value": "Con caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Terópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "3 m (10 pies)"
+    },
+    {
+      "label": "Peso",
+      "value": "150 lb"
+    }
+  ],
+  "topics": [
+    {
+      "id": "in-pursuit-of-prey",
+      "title": "En busca de presas",
+      "image": "assets/dein/DEIN01PU.webp",
+      "text": "Con sus potentes mandíbulas y sus terribles garras, el Deinonychus era uno de los dinosaurios carnívoros más letales. Aunque algunos dinosaurios carnívoros eran gigantes, como el Tiranosaurio rex, muchos depredadores eran de pequeño tamaño.",
+      "captions": [
+        {
+          "label": "Troodon",
+          "text": "Este dinosaurio del tamaño de un hombre tenía un cerebro grande y ojos enormes. Era un buen cazador, incluso de noche."
+        },
+        {
+          "label": "Coelophysis",
+          "text": "Este pequeño dinosaurio era de constitución ligera y rapidísimo. Podía atrapar dinosaurios más pequeños, además de insectos y lagartijas."
+        }
+      ]
+    },
+    {
+      "id": "a-stiff-tail-for-steering",
+      "title": "Una cola rígida para maniobrar",
+      "image": "assets/dein/DEIN02PU.webp",
+      "text": "La cola era flexible en la base, donde se unía al cuerpo. Pero a lo largo de casi toda su longitud, los huesos estaban reforzados por largas varillas óseas que podían mantener la cola recta. La cola actuaba como contrapeso al correr, y es posible que la balanceara hacia un lado para ayudar al Deinonychus a maniobrar cuando corría a gran velocidad."
+    },
+    {
+      "id": "claws-that-could-kill",
+      "title": "Garras capaces de matar",
+      "image": "assets/dein/DEIN03PU.webp",
+      "text": "El hueso principal de la garra de cada pie del Deinonychus medía casi cinco pulgadas de longitud, era fino y curvado como una hoz. Estaría recubierto por una vaina córnea. Cuando no se utilizaba, probablemente se mantenía levantado para conservar su filo de navaja.",
+      "captions": [
+        {
+          "label": "Un arma impresionante",
+          "text": "Para hacer los pies del Deinonychus aún más peligrosos, las garras curvas podían pivotarse hacia abajo para infligir profundas heridas a su presa."
+        }
+      ]
+    },
+    {
+      "id": "giant-killers",
+      "title": "Cazadores de gigantes",
+      "image": "assets/dein/DEIN04PU.webp",
+      "text": "Una manada de Deinonychus en movimiento podía enfrentarse a dinosaurios mucho más grandes que ellos, como el lento Tenontosaurus que se muestra aquí. Las garras desgarradoras y una mordedura firme acababan pronto con la víctima.",
+      "captions": [
+        {
+          "label": "¿Cómo lo sabemos?",
+          "text": "¿Cómo podemos afirmar que el Deinonychus se desplazaba en manadas cazando dinosaurios más grandes? Como de costumbre, los fósiles son la base de estas suposiciones. Se han encontrado huesos de varios individuos de Deinonychus juntos, por lo que se supone que formaban un grupo cuando murieron. En varios lugares se han hallado huesos de Tenontosaurus junto a, o muy cerca de, un grupo de Deinonychus fosilizados."
+        }
+      ]
+    },
+    {
+      "id": "deadly-embrace",
+      "title": "Un abrazo mortal",
+      "image": "assets/dein/DEIN05PU.webp",
+      "text": "Los huesos de los brazos son largos y robustos, lo que sugiere que los brazos y las muñecas podían torcerse. Quizás el Deinonychus rodeaba a su presa con los brazos y la sujetaba mientras la apuñalaba con los pies. Las tres afiladas garras curvas de cada mano son una prueba más de esta hipótesis."
+    },
+    {
+      "id": "jaws-that-snap-shut-and-hang-on",
+      "title": "Mandíbulas que se cierran de golpe y no sueltan",
+      "image": "assets/dein/DEIN06PU.webp",
+      "text": "El Deinonychus tenía más de setenta dientes largos, afilados y orientados hacia atrás. Los músculos que mantenían las mandíbulas cerradas eran especialmente grandes. Después de inutilizar a su presa con las garras de los pies, es posible que cerrara las mandíbulas de golpe y se aferrara hasta arrancar un bocado de carne."
+    },
+    {
+      "id": "high-kicking-back-legs",
+      "title": "Patas traseras de poderosas patadas",
+      "image": "assets/dein/DEIN07PU.webp",
+      "text": "Los huesos y articulaciones de las patas, así como las marcas en los huesos donde se insertaban los músculos, demuestran que el Deinonychus podía dar patadas con gran fuerza mientras desgarraba con las garras de sus pies. Probablemente pateaba con una pata, equilibrándose sobre la otra con la ayuda de la cola. Ningún reptil moderno es tan ágil."
+    },
+    {
+      "id": "quick-thinking-fast-moving",
+      "title": "Rápido de mente y de movimientos",
+      "image": "assets/dein/DEIN08PU.webp",
+      "text": "Los restos del Deinonychus, descubiertos en la década de 1960 en las tierras baldías de Montana, demuestran que este dinosaurio estaba diseñado para la velocidad y los movimientos rápidos de ataque. Algunos científicos creen que el Deinonychus debía de ser de sangre caliente para mantener su elevado nivel de actividad."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Tarbosaurus",
+      "to": "tarb"
+    },
+    {
+      "label": "Troodon",
+      "to": "troo"
+    },
+    {
+      "label": "A Tale of Tails",
+      "to": "tale"
+    },
+    {
+      "label": "Dinosaur Defense",
+      "to": "ddef"
+    },
+    {
+      "label": "Important Dinosaur Sites",
+      "to": "site"
+    },
+    {
+      "label": "How to Recognize Theropods",
+      "to": "hthr"
+    },
+    {
+      "label": "Teeth of Meat-eaters",
+      "to": "mete"
+    },
+    {
+      "label": "Claws",
+      "to": "claw"
+    },
+    {
+      "label": "Coelophysis",
+      "to": "coel"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/dein/DEIN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Mandíbulas que se cierran de golpe y no sueltan",
+            "to": "jaws-that-snap-shut-and-hang-on",
+            "x": 63,
+            "y": 24,
+            "w": 28,
+            "h": 9
+          },
+          {
+            "label": "En busca de presas",
+            "to": "in-pursuit-of-prey",
+            "x": 62,
+            "y": 36,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Una cola rígida para maniobrar",
+            "to": "a-stiff-tail-for-steering",
+            "x": 1,
+            "y": 45,
+            "w": 29,
+            "h": 5
+          },
+          {
+            "label": "Cazadores de gigantes",
+            "to": "giant-killers",
+            "x": 1,
+            "y": 55,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Patas traseras de poderosas patadas",
+            "to": "high-kicking-back-legs",
+            "x": 1,
+            "y": 66,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Un abrazo mortal",
+            "to": "deadly-embrace",
+            "x": 58,
+            "y": 55,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Garras capaces de matar",
+            "to": "claws-that-could-kill",
+            "x": 53,
+            "y": 65,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Rápido de mente y de movimientos",
+            "to": "quick-thinking-fast-moving",
+            "x": 24,
+            "y": 76,
+            "w": 37,
+            "h": 5
+          }
+        ]
+      },
+      "in-pursuit-of-prey": {
+        "image": "assets/dein/DEIN01PU.webp",
+        "back": "main"
+      },
+      "a-stiff-tail-for-steering": {
+        "image": "assets/dein/DEIN02PU.webp",
+        "back": "main"
+      },
+      "claws-that-could-kill": {
+        "image": "assets/dein/DEIN03PU.webp",
+        "back": "main"
+      },
+      "giant-killers": {
+        "image": "assets/dein/DEIN04PU.webp",
+        "back": "main"
+      },
+      "deadly-embrace": {
+        "image": "assets/dein/DEIN05PU.webp",
+        "back": "main"
+      },
+      "jaws-that-snap-shut-and-hang-on": {
+        "image": "assets/dein/DEIN06PU.webp",
+        "back": "main"
+      },
+      "high-kicking-back-legs": {
+        "image": "assets/dein/DEIN07PU.webp",
+        "back": "main"
+      },
+      "quick-thinking-fast-moving": {
+        "image": "assets/dein/DEIN08PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/dein/DEIN50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/dein/DEIN00AP.mp3",
+  "narration": "assets/dein/DEIN00AJ.mp3",
+  "fanTranslation": true
+}

@@ -1,0 +1,373 @@
+{
+  "id": "dipl",
+  "code": "DIPL",
+  "name": "Diplodocus",
+  "category": "dinosaur",
+  "scientificName": "Diplodocus",
+  "needsScientificVerify": false,
+  "pronunciation": "dih-PLOD-uh-kus",
+  "meaning": "Doble viga",
+  "period": "Jurásico superior",
+  "diet": "Herbívoro",
+  "tagline": "¡Más largo que tres pistas de baloncesto, este gentil gigante podía hacer chasquear su cola como un látigo con el estruendo de un trueno!",
+  "hero": {
+    "image": "assets/dipl/DIPL00AA.webp",
+    "alt": "Diplodocus"
+  },
+  "intro": "Con un cuello parecido al de una serpiente de hasta ocho metros de longitud, un cuerpo de hasta casi cinco metros y una cola de hasta catorce metros, el Diplodocus ocupaba mucho espacio en los bosques del Jurásico. La longitud media de un esqueleto de Diplodocus ronda los veintiséis metros, con algunos ejemplares que miden casi veintiocho metros de la cabeza a la cola. ¡Imagina un grupo de dinosaurios más largos que varias pistas de baloncesto!",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico Tardío"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Doble viga"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Saurópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "26 m (85 pies)"
+    },
+    {
+      "label": "Peso",
+      "value": "12 toneladas"
+    }
+  ],
+  "topics": [
+    {
+      "id": "well-known-bones",
+      "title": "Huesos famosos",
+      "image": "assets/dipl/DIPL01PU.webp",
+      "text": "Con su largo cuello y cola, y una cabeza diminuta en comparación con el resto de su cuerpo, este dinosaurio tenía un aspecto extraordinario. El Diplodocus es uno de los dinosaurios más conocidos del mundo. Réplicas de su esqueleto se exponen en museos de muchos países de todo el globo."
+    },
+    {
+      "id": "peaceful-plant-eaters",
+      "title": "Herbívoros pacíficos",
+      "image": "assets/dipl/DIPL02PU.webp",
+      "text": "El Diplodocus es uno de los muchos dinosaurios de la familia de los saurópodos. Si era atacado por un carnívoro, la única defensa de un saurópodo era su impresionante tamaño y su larga cola en forma de látigo.",
+      "captions": [
+        {
+          "label": "Mamenchisaurus",
+          "text": "Este dinosaurio tenía el cuello más largo de todos los saurópodos."
+        },
+        {
+          "label": "Apatosaurus",
+          "text": "Durante muchos años, los paleontólogos usaron el cráneo del Camarasaurus para completar el esqueleto de este dinosaurio. En 1979, los expertos acordaron que el Apatosaurus tenía un cráneo más alargado, más parecido al del Diplodocus."
+        },
+        {
+          "label": "Camarasaurus",
+          "text": "Comparado con otros saurópodos, este dinosaurio tenía un cuello corto y un cráneo redondeado."
+        },
+        {
+          "label": "Elefante africano",
+          "text": "Este es el animal terrestre más grande que existe en la actualidad, pero es pequeño comparado con un saurópodo gigante."
+        }
+      ]
+    },
+    {
+      "id": "long-but-light",
+      "title": "Largo pero ligero",
+      "image": "assets/dipl/DIPL03PU.webp",
+      "text": "Aunque el Diplodocus es uno de los dinosaurios más largos registrados hasta ahora, gran parte de su longitud correspondía a su cola. ¡Con casi catorce metros, su cola era tan larga como tres coches juntos!",
+      "captions": [
+        {
+          "label": "El más ligero",
+          "text": "El Diplodocus era un peso ligero comparado con algunos saurópodos. Solo pesaba doce toneladas, es decir, la cuarta parte del peso del gigantesco Braquiosaurio. Aunque el Braquiosaurio fue el animal más pesado que jamás ha caminado sobre tierra, el récord del animal más grande que ha existido en cualquier lugar lo ostenta una criatura que sigue viviendo hoy en día: la ballena azul."
+        }
+      ]
+    },
+    {
+      "id": "sauropod-skin",
+      "title": "La piel de los saurópodos",
+      "image": "assets/dipl/DIPL04PU.webp",
+      "text": "Esta huella de piel escamosa pertenecía a un dinosaurio saurópodo como el Diplodocus. La piel no era ósea y habría ofrecido poca protección ante los ataques. Aunque estaban muy juntas, las escamas tenían bordes flexibles en los puntos de contacto, que actuaban como «bisagras» para permitir el movimiento con facilidad. En esta huella se puede apreciar que las escamas variaban de tamaño: las más pequeñas aparecían donde la piel tenía que doblarse mucho.",
+      "captions": [
+        {
+          "label": "Piel de lagarto",
+          "text": "Este lagarto también tiene escamas que varían de tamaño. Las escamas alrededor de los ojos son bastante pequeñas porque la piel en esa zona tiene que doblarse mucho. Al igual que este lagarto, los dinosaurios podrían haber tenido colores vivos."
+        }
+      ]
+    },
+    {
+      "id": "whats-in-a-skull",
+      "title": "¿Qué nos dice un cráneo?",
+      "image": "assets/dipl/DIPL05PU.webp",
+      "text": "Un cráneo puede decirnos mucho sobre su propietario original: qué tipo de ojos y oídos tenía la criatura para percibir su entorno, o qué tipo de dientes y mandíbulas utilizaba para ingerir alimentos. Estos cráneos pertenecen a animales muy diferentes. El Alosaurio era un feroz carnosaurio, mucho más pequeño que el Diplodocus, un pacífico herbívoro.",
+      "captions": [
+        {
+          "label": "Alosaurio",
+          "text": "Unos dientes afilados y curvados hacia atrás como estos indican que este dinosaurio se alimentaba de la carne de otros animales. Aunque los saurópodos adultos eran demasiado grandes para atacarlos, el Alosaurio pudo haberse alimentado de las crías de dinosaurios herbívoros como el Diplodocus."
+        },
+        {
+          "label": "Diplodocus",
+          "text": "Este enorme herbívoro no podía masticar con estos dientes finos como lápices, sino que los usaba a modo de rastrillo para recoger agujas de pino y hojas."
+        }
+      ]
+    },
+    {
+      "id": "diplodocus-dinner",
+      "title": "La cena del Diplodocus",
+      "image": "assets/dipl/DIPL06PU.webp",
+      "text": "El Diplodocus podría haber barrido su comida con el hocico como si usara un rastrillo. Como masticaba muy poco, el dinosaurio probablemente se tragaba piedras llamadas gastrolitos, que trituraban la materia vegetal y permitían al saurópodo digerir los alimentos en su estómago.",
+      "captions": [
+        {
+          "label": "Comida favorita",
+          "text": "Los helechos eran una comida habitual para los dinosaurios herbívoros como el Diplodocus."
+        }
+      ]
+    },
+    {
+      "id": "the-longest-neck",
+      "title": "El cuello más largo",
+      "image": "assets/dipl/DIPL07PU.webp",
+      "text": "El premio al cuello más largo no pertenece al Diplodocus, sino al Mamenchisaurus. ¡Este dinosaurio chino tenía un cuello de asombrosos diez metros! A diferencia del Diplodocus, el cuello del Mamenchisaurus no estaba contrarrestado por una larga cola."
+    },
+    {
+      "id": "balancing-act",
+      "title": "Cuestión de equilibrio",
+      "image": "assets/dipl/DIPL08PU.webp",
+      "text": "Muchos científicos han pensado que los saurópodos solo podían mantenerse en cuatro patas. Pero algunos expertos que han estudiado el tamaño y la fuerza de las patas, así como la estructura de la cola, creen que los saurópodos podrían haberse erguido sobre las patas traseras para alimentarse.",
+      "captions": [
+        {
+          "label": "La cena de la jirafa",
+          "text": "Al estirar su largo cuello para alimentarse en las copas de los árboles, el Diplodocus se parecía mucho a una jirafa moderna. Sin embargo, a diferencia del dinosaurio, la jirafa puede masticar su comida, por lo que no necesita un vientre tan grande."
+        }
+      ]
+    },
+    {
+      "id": "tail-bones",
+      "title": "Los huesos de la cola",
+      "image": "assets/dipl/DIPL09PU.webp",
+      "text": "La fina cola en forma de látigo del Diplodocus, con un total de setenta y tres vértebras, solía llevarse levantada del suelo. Si su tamaño y volumen no bastaban para ahuyentar a los atacantes, los saurópodos usaban sus largas colas como látigo para defenderse de los depredadores. ¡Imagina el espacio que podría haber despejado el Diplodocus con sus catorce metros de cola!",
+      "captions": [
+        {
+          "label": "Camarasaurus",
+          "text": "Este dinosaurio tenía una de las colas más cortas de todos los grandes saurópodos. Estaba formada por solo cincuenta y tres vértebras."
+        },
+        {
+          "label": "Apatosaurus",
+          "text": "La cola de este dinosaurio era más corta que la del Diplodocus, pero tenía más vértebras: un total de ochenta y dos."
+        }
+      ]
+    },
+    {
+      "id": "chevron-comparison",
+      "title": "Comparación de los huesos en chevron",
+      "image": "assets/dipl/DIPL10PU.webp",
+      "text": "Todos los dinosaurios tenían huesos en chevron en la cola, igual que los reptiles actuales. Los chevrones eran alargados cerca de las caderas para sostener los músculos. Se iban aplastando a lo largo de la cola y, hacia la punta, los huesos en chevron desaparecían por completo a medida que la cola se volvía fina como un látigo. Este tipo de huesos en chevron podrían haber actuado como patines para proteger la parte inferior de la cola.",
+      "captions": [
+        {
+          "label": "Cada vez más planos y pequeños",
+          "text": "Hacia la mitad de la cola, los chevrones se volvían más aplanados, como este."
+        },
+        {
+          "label": "Protegiendo el suministro de sangre",
+          "text": "La parte bifurcada del hueso alojaba un gran vaso sanguíneo que discurría justo por debajo de la columna vertebral."
+        },
+        {
+          "label": "El extremo de la cola",
+          "text": "Como no tenían que sostener mucha musculatura, los huesos en la punta de la cola del Diplodocus eran cilindros estrechos. Esto convertía la cola en un látigo eficaz con el que el dinosaurio podía asestar un golpe contundente."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Record Breakers",
+      "to": "recb"
+    },
+    {
+      "label": "Museums of North America",
+      "to": "muse"
+    },
+    {
+      "label": "Dinosaur Landscape",
+      "to": "dlan"
+    },
+    {
+      "label": "Brachiosaurus",
+      "to": "brac"
+    },
+    {
+      "label": "Iguana",
+      "to": "igna"
+    },
+    {
+      "label": "Skulls of Plant-eaters",
+      "to": "vega"
+    },
+    {
+      "label": "Dinosaur Diets",
+      "to": "diet"
+    },
+    {
+      "label": "Mamenchisaurus",
+      "to": "mame"
+    },
+    {
+      "label": "Two Feet or Four?",
+      "to": "twof"
+    },
+    {
+      "label": "A Tale of Tails",
+      "to": "tale"
+    },
+    {
+      "label": "What You Need to Find a Fossil",
+      "to": "find"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/dipl/DIPL00AA.webp",
+        "hotspots": [
+          {
+            "label": "¿Qué nos dice un cráneo?",
+            "to": "whats-in-a-skull",
+            "x": 62,
+            "y": 11,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "La cena del Diplodocus",
+            "to": "diplodocus-dinner",
+            "x": 54,
+            "y": 20,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Huesos famosos",
+            "to": "well-known-bones",
+            "x": 40,
+            "y": 28,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Largo pero ligero",
+            "to": "long-but-light",
+            "x": 68,
+            "y": 33,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "El cuello más largo",
+            "to": "the-longest-neck",
+            "x": 78,
+            "y": 38,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "La piel de los saurópodos",
+            "to": "sauropod-skin",
+            "x": 11,
+            "y": 37,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Comparación de los huesos en chevron",
+            "to": "chevron-comparison",
+            "x": 5,
+            "y": 52,
+            "w": 21,
+            "h": 6
+          },
+          {
+            "label": "Los huesos de la cola",
+            "to": "tail-bones",
+            "x": 5,
+            "y": 63,
+            "w": 13,
+            "h": 6
+          },
+          {
+            "label": "Cuestión de equilibrio",
+            "to": "balancing-act",
+            "x": 7,
+            "y": 72,
+            "w": 15,
+            "h": 6
+          },
+          {
+            "label": "Herbívoros pacíficos",
+            "to": "peaceful-plant-eaters",
+            "x": 55,
+            "y": 70,
+            "w": 22,
+            "h": 6
+          }
+        ]
+      },
+      "well-known-bones": {
+        "image": "assets/dipl/DIPL01PU.webp",
+        "back": "main"
+      },
+      "peaceful-plant-eaters": {
+        "image": "assets/dipl/DIPL02PU.webp",
+        "back": "main"
+      },
+      "long-but-light": {
+        "image": "assets/dipl/DIPL03PU.webp",
+        "back": "main"
+      },
+      "sauropod-skin": {
+        "image": "assets/dipl/DIPL04PU.webp",
+        "back": "main"
+      },
+      "whats-in-a-skull": {
+        "image": "assets/dipl/DIPL05PU.webp",
+        "back": "main"
+      },
+      "diplodocus-dinner": {
+        "image": "assets/dipl/DIPL06PU.webp",
+        "back": "main"
+      },
+      "the-longest-neck": {
+        "image": "assets/dipl/DIPL07PU.webp",
+        "back": "main"
+      },
+      "balancing-act": {
+        "image": "assets/dipl/DIPL08PU.webp",
+        "back": "main"
+      },
+      "tail-bones": {
+        "image": "assets/dipl/DIPL09PU.webp",
+        "back": "main"
+      },
+      "chevron-comparison": {
+        "image": "assets/dipl/DIPL10PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/dipl/DIPL50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/dipl/DIPL00AP.mp3",
+  "narration": "assets/dipl/DIPL00AJ.mp3",
+  "fanTranslation": true
+}

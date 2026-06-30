@@ -1,0 +1,195 @@
+{
+  "id": "digg",
+  "code": "DIGG",
+  "name": "Desenterrando dinosaurios",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "DIG-ing up DY-nuh-sorz",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Desvelando a los antiguos gigantes enterrados en la roca, con paciencia y precisión, excavación a excavación.",
+  "hero": {
+    "image": "assets/digg/DIGG00AA.webp",
+    "alt": "Desenterrando dinosaurios"
+  },
+  "intro": "Cuando los restos de los dinosaurios quedaron enterrados y poco a poco se fueron convirtiendo en roca, se transformaron en fósiles. Como los dinosaurios eran tan grandes, dejaron muchos fósiles en las rocas. El problema está en cómo encontrar esos fósiles y extraerlos para poder aprender sobre el pasado.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "rock-removal",
+      "title": "Eliminación de la roca",
+      "image": "assets/digg/DIGG01PU.webp",
+      "text": "Los grandes bloques de tierra y roca pueden moverse con máquinas excavadoras, pero a medida que los fósiles van quedando al descubierto, el trabajo se realiza con mayor cuidado, usando palas, taladros, martillos y cinceles. Cualquier pieza suelta que parezca formar parte del hallazgo se etiqueta y se guarda para estudiarla en el laboratorio.",
+      "captions": [
+        {
+          "label": "Trabajo peligroso",
+          "text": "Al igual que los obreros de la construcción actuales, los equipos de excavación usan cascos de seguridad y dispositivos de perforación eléctricos para atravesar la roca. Las máscaras de gas son necesarias cuando el aire se llena de polvo de roca."
+        }
+      ]
+    },
+    {
+      "id": "keeping-records",
+      "title": "Registro de la excavación",
+      "image": "assets/digg/DIGG02PU.webp",
+      "text": "Antes de extraer los fósiles, se miden y se cartografían. El equipo de excavación toma notas y fotografías, y dibuja bocetos de todas las piezas tal y como fueron encontradas. Llevar un registro preciso es fundamental, ya que ayuda a los científicos a ensamblar correctamente las piezas más adelante en el laboratorio."
+    },
+    {
+      "id": "preparing-the-fossils-for-transport",
+      "title": "Preparación de los fósiles para el transporte",
+      "image": "assets/digg/DIGG03PU.webp",
+      "text": "Las secciones de fósiles pequeñas pueden colocarse en cajas o bolsas acolchadas. Los fósiles más grandes pueden ser muy frágiles, y los paleontólogos a menudo los rocían con espuma de endurecimiento rápido o los envuelven en vendas de escayola antes de retirarlos del yacimiento.",
+      "captions": [
+        {
+          "label": "Protección con escayola",
+          "text": "El uso de envueltas de escayola para proteger los fósiles durante el transporte garantiza un modelo más completo cuando el animal se reconstruye en el laboratorio."
+        }
+      ]
+    },
+    {
+      "id": "transport-to-the-laboratory",
+      "title": "Transporte al laboratorio",
+      "image": "assets/digg/DIGG04PU.webp",
+      "text": "Los fósiles suelen encontrarse en lugares remotos y de difícil acceso, y pueden necesitarse métodos especiales para trasladarlos desde el yacimiento hasta el laboratorio.",
+      "captions": [
+        {
+          "label": "La fuerza de las personas",
+          "text": "Los miembros del equipo de excavación pueden tener que usar un trineo, un carro o una carretilla para mover los fósiles más pequeños hasta un camión que los espera."
+        },
+        {
+          "label": "El poder de las poleas",
+          "text": "Los fósiles grandes pueden ser muy pesados y difíciles de manejar. Pueden necesitarse poleas y otro equipamiento especial para levantarlos de su lugar de reposo."
+        }
+      ]
+    },
+    {
+      "id": "tools-of-the-trade",
+      "title": "Herramientas del oficio",
+      "image": "assets/digg/DIGG05PU.webp",
+      "text": "Los paleontólogos utilizan muchas herramientas especiales para excavar fósiles.",
+      "captions": [
+        {
+          "label": "Cinceles",
+          "text": "Junto con los martillos, los paleontólogos utilizan diferentes tipos de cinceles para desprender trozos de roca y llegar a zonas de difícil acceso a las que no se puede llegar solo con un martillo."
+        },
+        {
+          "label": "Martillos geológicos",
+          "text": "Los científicos utilizan distintos tipos de martillos en el campo. El martillo de cabeza recta es ideal para partir rocas duras, y el de cabeza curva se usa para romper rocas más blandas, como la arcilla. El mazo se emplea para clavar los cinceles en la roca."
+        },
+        {
+          "label": "Pinceles, pegamento y escayola",
+          "text": "El equipo de excavación puede usar pinceles para retirar el polvo de los fósiles. A medida que se expone un fósil, se suele aplicar un endurecedor, como pegamento, para fijar los fragmentos sueltos. Antes de transportar el fósil, puede envolverse en escayola para protegerlo."
+        },
+        {
+          "label": "Bolsas y tablillas de escritura",
+          "text": "Los fragmentos rotos y las muestras de roca se recogen en bolsas de plástico o de tela para analizarlos más tarde en el laboratorio. Los científicos siempre necesitan una tablilla de escritura, papel y lápiz o bolígrafo para registrar todos los detalles del hallazgo y dibujar un mapa del yacimiento."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Extinction",
+      "to": "exti"
+    },
+    {
+      "label": "What is a Fossil?",
+      "to": "foss"
+    },
+    {
+      "label": "The Making of a Fossil",
+      "to": "makf"
+    },
+    {
+      "label": "Reconstructing Dinosaurs",
+      "to": "reco"
+    },
+    {
+      "label": "Antarctica Expedition",
+      "to": "anta"
+    },
+    {
+      "label": "Modern Dinosaur Detectives",
+      "to": "mdet"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/digg/DIGG00AA.webp",
+        "hotspots": [
+          {
+            "label": "Eliminación de la roca",
+            "to": "rock-removal",
+            "x": 2,
+            "y": 40,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Registro de la excavación",
+            "to": "keeping-records",
+            "x": 2,
+            "y": 62,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Transporte al laboratorio",
+            "to": "transport-to-the-laboratory",
+            "x": 47,
+            "y": 28,
+            "w": 29,
+            "h": 5
+          },
+          {
+            "label": "Preparación de los fósiles para el transporte",
+            "to": "preparing-the-fossils-for-transport",
+            "x": 27,
+            "y": 76,
+            "w": 36,
+            "h": 5
+          },
+          {
+            "label": "Herramientas del oficio",
+            "to": "tools-of-the-trade",
+            "x": 73,
+            "y": 62,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "rock-removal": {
+        "image": "assets/digg/DIGG01PU.webp",
+        "back": "main"
+      },
+      "keeping-records": {
+        "image": "assets/digg/DIGG02PU.webp",
+        "back": "main"
+      },
+      "preparing-the-fossils-for-transport": {
+        "image": "assets/digg/DIGG03PU.webp",
+        "back": "main"
+      },
+      "transport-to-the-laboratory": {
+        "image": "assets/digg/DIGG04PU.webp",
+        "back": "main"
+      },
+      "tools-of-the-trade": {
+        "image": "assets/digg/DIGG05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/digg/DIGG00AP.mp3",
+  "narration": "assets/digg/DIGG00AJ.mp3",
+  "sound": "assets/digg/DIGG00SA.mp3",
+  "fanTranslation": true
+}

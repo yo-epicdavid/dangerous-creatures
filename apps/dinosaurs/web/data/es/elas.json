@@ -1,0 +1,144 @@
+{
+  "id": "elas",
+  "code": "ELAS",
+  "name": "Elasmosaurio",
+  "category": "creature",
+  "scientificName": "Elasmosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "eh-LAZ-moh-SOR-us",
+  "meaning": "lagarto de placas delgadas",
+  "period": "Cretácico superior",
+  "diet": "Carnívoro",
+  "tagline": "¡El gigante marino de cuello largo que pudo haber inspirado la leyenda del Monstruo del Lago Ness!",
+  "hero": {
+    "image": "assets/elas/ELAS00AA.webp",
+    "alt": "Elasmosaurio"
+  },
+  "intro": "Algunos dinosaurios cruzaban pantanos, otros podían nadar por lagos y ríos, pero que sepamos, ningún dinosaurio vivía en el mar. Sin embargo, al mismo tiempo que los dinosaurios dominaban la tierra, grandes reptiles marinos como el Elasmosaurio dominaban las olas. El Elasmosaurio era un tipo de plesiosaurio de cuello largo, es decir, un reptil nadador. Tenía una cabeza pequeña y dientes muy afilados, y puede que se alimentara lanzando el cuello de un lado a otro para atrapar peces cerca de la superficie del mar.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Asia, América del Norte"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Nombre significa",
+      "value": "lagarto de placas delgadas"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Plesiosaurio"
+    },
+    {
+      "label": "Longitud",
+      "value": "13 m (43 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "loch-ness-monster",
+      "title": "¿El Monstruo del Lago Ness?",
+      "image": "assets/elas/ELAS01PU.webp",
+      "text": "¿Sigue vivo el Elasmosaurio hoy en día? Hay personas que afirman haber visto un animal muy parecido al Elasmosaurio merodeando por las aguas del lago Ness, en Escocia. El monstruo del lago Ness se describe como un gigante de cuello largo que a veces sube a la superficie a echar un vistazo. Los plesiosaurios de cuello largo como el Elasmosaurio encajan con la descripción tanto de los antiguos monstruos marinos como del moderno «Nessie»."
+    },
+    {
+      "id": "striking-like-a-snake",
+      "title": "Golpeando como una serpiente",
+      "image": "assets/elas/ELAS02PU.webp",
+      "text": "El Elasmosaurio era el más largo de los plesiosaurios, ¡y más de la mitad de sus trece metros de longitud correspondían al cuello! Es posible que usara ese largo cuello como una serpiente para abalanzarse sobre los peces. Sin duda, habría podido trazar un amplio camino acuático balanceando el cuello lentamente de un lado a otro mientras pastaba bajo el agua. Imagina topar con este enorme y elegante nadador mientras se desplazaba silenciosa y velozmente por los mares en busca de peces o amonites para comer."
+    },
+    {
+      "id": "powerful-paddler",
+      "title": "Poderoso remero",
+      "image": "assets/elas/ELAS03PU.webp",
+      "text": "Los plesiosaurios como el Elasmosaurio tenían grandes extremidades en forma de aleta, tal y como ilustra esta aleta de plesiosaurio fosilizada. Al igual que una tortuga o un pingüino, el plesiosaurio probablemente las agitaba de arriba abajo cuando nadaba.",
+      "captions": [
+        {
+          "label": "Primos cercanos",
+          "text": "Los cuellos largos y musculosos y las cabezas pequeñas eran características de los plesiosaurios como el Elasmosaurio. Aquí aparecen dos plesiosaurios usando sus aletas para impulsar sus enormes cuerpos a través del agua."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Reptiles of the Sea",
+      "to": "rsea"
+    },
+    {
+      "label": "Myths and Legends",
+      "to": "myth"
+    },
+    {
+      "label": "Muraenosaurus"
+    },
+    {
+      "label": "Archelon",
+      "to": "arcn"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/elas/ELAS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Poderoso remero",
+            "to": "powerful-paddler",
+            "x": 45,
+            "y": 33,
+            "w": 27,
+            "h": 7
+          },
+          {
+            "label": "Golpeando como una serpiente",
+            "to": "striking-like-a-snake",
+            "x": 3,
+            "y": 54,
+            "w": 27,
+            "h": 7
+          },
+          {
+            "label": "¿El Monstruo del Lago Ness?",
+            "to": "loch-ness-monster",
+            "x": 28,
+            "y": 71,
+            "w": 24,
+            "h": 7
+          }
+        ]
+      },
+      "loch-ness-monster": {
+        "image": "assets/elas/ELAS01PU.webp",
+        "back": "main"
+      },
+      "striking-like-a-snake": {
+        "image": "assets/elas/ELAS02PU.webp",
+        "back": "main"
+      },
+      "powerful-paddler": {
+        "image": "assets/elas/ELAS03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/elas/ELAS50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/elas/ELAS00AP.mp3",
+  "narration": "assets/elas/ELAS00AJ.mp3",
+  "fanTranslation": true
+}

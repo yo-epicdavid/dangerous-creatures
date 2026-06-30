@@ -1,0 +1,198 @@
+{
+  "id": "find",
+  "code": "FIND",
+  "name": "Lo que necesitas para encontrar un fósil",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "¡Descubre las herramientas y los trucos que usan los paleontólogos para desenterrar huesos de dinosaurio sin romperlos!",
+  "hero": {
+    "image": "assets/find/FIND00AA.webp",
+    "alt": "Lo que necesitas para encontrar un fósil"
+  },
+  "intro": "Si vas a salir a buscar fósiles, tienes que saber qué estás buscando y llevar las herramientas adecuadas. Los cazadores de dinosaurios tienen mucho cuidado de no dañar estas valiosas pistas del pasado.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "hammer-time",
+      "title": "A golpe de martillo",
+      "image": "assets/find/FIND01PU.webp",
+      "text": "Los paleontólogos utilizan dinamita, palancas y una gran variedad de martillos para partir la roca que contiene fósiles. Los martillos van desde los enormes y pesados mazos de demolición, que requieren mucha fuerza para manejarlos, hasta pequeños instrumentos de precisión. Los martillos de filo recto son ideales para partir roca dura. Los martillos de cabeza curvada funcionan bien para romper la roca en trozos pequeños y eliminar materiales más blandos como la arcilla. Los mazos de cara plana se utilizan para clavar cinceles en la roca."
+    },
+    {
+      "id": "protective-gear",
+      "title": "Equipo de protección",
+      "image": "assets/find/FIND02PU.webp",
+      "text": "Los fósiles se encuentran con frecuencia en lugares muy accidentados, como desiertos azotados por el viento o laderas de montaña escarpadas. Los detectives de fósiles no solo tienen que lidiar con el clima y la dificultad del terreno, sino que además extraer fósiles puede ser un trabajo peligroso, por lo que conviene llevar el equipo de protección adecuado. Los trabajadores usan guantes para protegerse las manos mientras martillan y cincelan la roca. Las gafas protectoras los protegen de las esquirlas de piedra que salen volando. Y siempre es buena idea llevar casco, sobre todo si el trabajo se realiza en una pared de roca, donde las piedras podrían caer inesperadamente sobre los excavadores."
+    },
+    {
+      "id": "uncovering-the-find",
+      "title": "Al descubierto",
+      "image": "assets/find/FIND03PU.webp",
+      "text": "Cuando se detectan indicios de un fósil en la superficie del terreno, los paleontólogos analizan el material rocoso circundante y determinan qué herramientas son necesarias. Si el sedimento que rodea al fósil no es demasiado duro, los trabajadores usan palas para excavar lenta y cuidadosamente alrededor de él, retirando plantas, piedrecillas sueltas y fragmentos de roca. Si la zona que rodea al fósil es roca sólida, es el momento de sacar los martillos de geólogo y ponerse a picar. En situaciones realmente difíciles, se utilizan explosivos como la dinamita para arrancar un bloque de piedra que está por encima del fósil. Los trabajadores cartografían la ubicación de cada hueso que encuentran para conocer las circunstancias de la muerte y el enterramiento del dinosaurio. Después fotografían cualquier pieza que parezca ser un fósil, preparando sus descubrimientos para su posterior estudio en el laboratorio."
+    },
+    {
+      "id": "wrapping-up-the-bones",
+      "title": "Envolviendo los huesos",
+      "image": "assets/find/FIND04PU.webp",
+      "text": "Los fósiles de dinosaurio tienen millones de años de antigüedad. Sería una lástima dañar estas valiosas piezas al transportarlas al laboratorio, por lo que los trabajadores se esfuerzan mucho en protegerlas. En el campo, todos los fósiles pueden endurecerse con pegamentos especiales. Las secciones pequeñas se colocan en cajas o bolsas acolchadas. Las secciones más grandes, aunque pueden parecer duras, son igual de delicadas, por lo que se envuelven en «vendajes» de escayola. Cuando uno de los lados del fósil enyesado está seco, se le da la vuelta y se envuelve el otro lado. Una vez que la escayola está seca por todos lados, el fósil puede trasladarse con seguridad."
+    },
+    {
+      "id": "getting-the-brush-off",
+      "title": "A pinceladas",
+      "image": "assets/find/FIND05PU.webp",
+      "text": "En el campo o en el laboratorio, la mayoría de los paleontólogos llevan pinceles en los bolsillos. Es importante preservar los detalles más pequeños de cada fósil, por lo que los paleontólogos usan pinceles en lugar de herramientas afiladas para retirar las últimas capas de polvo y fragmentos de roca del fósil. Una vez que el fósil queda completamente al descubierto, a menudo se aplica sobre él pegamento u otro endurecedor penetrante para fijar los fragmentos sueltos y consolidar el hueso."
+    },
+    {
+      "id": "taking-note-of-the-situation",
+      "title": "Tomando nota de la situación",
+      "image": "assets/find/FIND06PU.webp",
+      "text": "Trabajar en una excavación de dinosaurios es como ser un detective en la escena de un crimen. Los trabajadores no solo necesitan recoger todas las pruebas, sino que también tienen que trazar un cuadro completo de la ubicación. Con un portapapeles y una cinta métrica en mano, toman notas y esbozan la posición y el aspecto del fósil, y dibujan un mapa detallado del yacimiento. Esta información es fundamental a la hora de intentar ensamblar un esqueleto más adelante en el laboratorio. Sin estos registros, con frecuencia sería imposible determinar detalles importantes, como si un fragmento de hueso formaba parte de una costilla o si un hueso del dedo del pie pertenecía a una pata delantera o trasera."
+    },
+    {
+      "id": "back-in-the-laboratory",
+      "title": "De vuelta al laboratorio",
+      "image": "assets/find/FIND07PU.webp",
+      "text": "Una vez que los fragmentos de fósil se extraen y se reparan, hay que limpiarlos y estudiarlos. El proceso de preparación lleva mucho tiempo: ¡limpiar un solo hueso puede llevar dos años! Las piezas de un hallazgo suelen fotografiarse para un catálogo. A veces también las ilustra desde distintos ángulos un experto en ilustración científica: un buen dibujo de líneas puede resaltar mejor los detalles que una cámara podría perderse, y además se reproduce con más claridad en libros y revistas científicas. Utilizando alambre y, en ocasiones, incluso varillas de acero y sopletes de soldadura, los fósiles se reensamblan tal y como estaban en vida. Años de preparación y estudio de los fósiles pueden culminar en un esqueleto listo para ser expuesto. Para obtener una representación más realista, en este punto entran en juego los escultores científicos, que añaden músculos y piel para recrear el dinosaurio."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Footprints",
+      "to": "foot"
+    },
+    {
+      "label": "The Making of a Fossil",
+      "to": "makf"
+    },
+    {
+      "label": "Digging up Dinosaurs",
+      "to": "digg"
+    },
+    {
+      "label": "Dinosaur Provincial Park",
+      "to": "park"
+    },
+    {
+      "label": "What is a Fossil?",
+      "to": "foss"
+    },
+    {
+      "label": "Reconstructing Dinosaurs",
+      "to": "reco"
+    },
+    {
+      "label": "What is Paleontology?",
+      "to": "pale"
+    },
+    {
+      "label": "Museums of North America",
+      "to": "muse"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/find/FIND00AA.webp",
+        "hotspots": [
+          {
+            "label": "Equipo de protección",
+            "to": "protective-gear",
+            "x": 9,
+            "y": 35,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "A golpe de martillo",
+            "to": "hammer-time",
+            "x": 41,
+            "y": 28,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Al descubierto",
+            "to": "uncovering-the-find",
+            "x": 72,
+            "y": 28,
+            "w": 20,
+            "h": 8
+          },
+          {
+            "label": "A pinceladas",
+            "to": "getting-the-brush-off",
+            "x": 73,
+            "y": 45,
+            "w": 17,
+            "h": 8
+          },
+          {
+            "label": "Tomando nota de la situación",
+            "to": "taking-note-of-the-situation",
+            "x": 3,
+            "y": 56,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Envolviendo los huesos",
+            "to": "wrapping-up-the-bones",
+            "x": 47,
+            "y": 55,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "De vuelta al laboratorio",
+            "to": "back-in-the-laboratory",
+            "x": 49,
+            "y": 65,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "hammer-time": {
+        "image": "assets/find/FIND01PU.webp",
+        "back": "main"
+      },
+      "protective-gear": {
+        "image": "assets/find/FIND02PU.webp",
+        "back": "main"
+      },
+      "uncovering-the-find": {
+        "image": "assets/find/FIND03PU.webp",
+        "back": "main"
+      },
+      "wrapping-up-the-bones": {
+        "image": "assets/find/FIND04PU.webp",
+        "back": "main"
+      },
+      "getting-the-brush-off": {
+        "image": "assets/find/FIND05PU.webp",
+        "back": "main"
+      },
+      "taking-note-of-the-situation": {
+        "image": "assets/find/FIND06PU.webp",
+        "back": "main"
+      },
+      "back-in-the-laboratory": {
+        "image": "assets/find/FIND07PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/find/FIND00AP.mp3",
+  "narration": "assets/find/FIND00AJ.mp3",
+  "fanTranslation": true
+}

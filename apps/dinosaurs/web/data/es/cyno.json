@@ -1,0 +1,125 @@
+{
+  "id": "cyno",
+  "code": "CYNO",
+  "name": "Cynognathus",
+  "category": "creature",
+  "scientificName": "Cynognathus",
+  "needsScientificVerify": false,
+  "pronunciation": "sy-NOG-nah-thus",
+  "meaning": "Mandíbula de perro",
+  "period": "Triásico inferior",
+  "diet": "Carnívoro",
+  "tagline": "Mitad reptil, mitad mamífero: este antiguo depredador del tamaño de un lobo difuminó la frontera entre dos mundos.",
+  "hero": {
+    "image": "assets/cyno/CYNO00AA.webp",
+    "alt": "Cynognathus"
+  },
+  "intro": "El Cynognathus, un reptil del tamaño de un lobo que vivió hace 250 millones de años, pudo haber tenido pelaje y ser de sangre caliente, como un mamífero. Tenía dientes similares a los de los mamíferos, así como extremidades situadas debajo del cuerpo. Solo la disposición de los huesos de su mandíbula y oído lo mantiene clasificado como reptil.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "África, América del Sur"
+    },
+    {
+      "label": "Época",
+      "value": "Triásico Temprano"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Mandíbula de perro"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Terapsido"
+    },
+    {
+      "label": "Longitud",
+      "value": "1,5 m (5 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "jaws-like-a-dog",
+      "title": "Mandíbulas como las de un perro",
+      "image": "assets/cyno/CYNO01PU.webp",
+      "text": "Este cráneo fósil de Cynognathus guarda ciertas similitudes con los cráneos de los perros. Sin embargo, el Cynognathus está clasificado como reptil. Los reptiles con características de mamífero, llamados terapsidos, dominaron la fauna terrestre durante gran parte de los periodos Pérmico y Triásico. Fue de este grupo de reptiles del que evolucionaron los mamíferos hace más de 200 millones de años.",
+      "captions": [
+        {
+          "label": "Dientes similares a los de un perro",
+          "text": "Dientes similares a los de un perro"
+        }
+      ]
+    },
+    {
+      "id": "unlikely-looking-relative",
+      "title": "Un pariente de aspecto inesperado",
+      "image": "assets/cyno/CYNO02PU.webp",
+      "text": "El Moschops vivió al mismo tiempo que el Cynognathus. Ambos están clasificados como terapsidos. Los paleontólogos creen que los mamíferos evolucionaron a partir del grupo de reptiles terapsidos. El Moschops fue uno de los animales más grandes de su época, con un apetito acorde a su tamaño. Su enorme cuerpo debía de albergar un estómago gigantesco para fermentar las duras plantas de las que se alimentaba.",
+      "captions": [
+        {
+          "label": "Moschops",
+          "text": "Moschops"
+        },
+        {
+          "label": "Cynognathus",
+          "text": "Cynognathus"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Warm-blooded or Cold-blooded?",
+      "to": "warm"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/cyno/CYNO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Mandíbulas como las de un perro",
+            "to": "jaws-like-a-dog",
+            "x": 8,
+            "y": 70,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Un pariente de aspecto inesperado",
+            "to": "unlikely-looking-relative",
+            "x": 64,
+            "y": 46,
+            "w": 26,
+            "h": 5
+          }
+        ]
+      },
+      "jaws-like-a-dog": {
+        "image": "assets/cyno/CYNO01PU.webp",
+        "back": "main"
+      },
+      "unlikely-looking-relative": {
+        "image": "assets/cyno/CYNO02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/cyno/CYNO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/cyno/CYNO00AP.mp3",
+  "narration": "assets/cyno/CYNO00AJ.mp3",
+  "fanTranslation": true
+}
