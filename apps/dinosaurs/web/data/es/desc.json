@@ -1,0 +1,149 @@
+{
+  "id": "desc",
+  "code": "DESC",
+  "name": "Descendientes de los dinosaurios",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "die-NO-sor de-SEN-dants",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Los dinosaurios desaparecieron... ¿pero dejaron algún pariente vivo?",
+  "hero": {
+    "image": "assets/desc/DESC00AA.webp",
+    "alt": "Descendientes de los dinosaurios"
+  },
+  "intro": "¿«Viven» los dinosaurios de alguna forma? ¿Dejaron algún descendiente? ¿Son algunas de las criaturas actuales sus «tataratataranietos»? Intenta adivinar qué grupos de animales vertebrados modernos son los parientes vivos más cercanos de los dinosaurios.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "fish",
+      "title": "Peces",
+      "image": "assets/desc/DESC01PU.webp",
+      "text": "Millones de años antes de que los dinosaurios aparecieran en la Tierra, peces primitivos ya nadaban en los mares. Como los peces aparecieron mucho antes que los dinosaurios, no pueden ser sus descendientes. Sin embargo, sabemos que varios peces que viven hoy en día, entre ellos el celacanto, vivían al mismo tiempo que los dinosaurios."
+    },
+    {
+      "id": "amphibians",
+      "title": "Anfibios",
+      "image": "assets/desc/DESC02PU.webp",
+      "text": "Los anfibios aparecieron durante el período Devónico, mucho antes que los dinosaurios. Por tanto, los anfibios no pueden ser descendientes de los dinosaurios.",
+      "captions": [
+        {
+          "label": "Seymouria",
+          "text": "Los orificios situados detrás de cada ojo en el cráneo de este anfibio muestran que los oídos y el sentido del oído evolucionaron muy pronto en los animales terrestres."
+        },
+        {
+          "label": "Ichthyostega",
+          "text": "Es el animal cuadrúpedo más antiguo que se conoce, y aún conservaba escamas parecidas a las de los peces y una cola pisciforme."
+        },
+        {
+          "label": "Diadectes",
+          "text": "Con dientes diseñados para cortar y triturar, Diadectes fue uno de los primeros animales herbívoros."
+        }
+      ]
+    },
+    {
+      "id": "mammals",
+      "title": "Mamíferos",
+      "image": "assets/desc/DESC03PU.webp",
+      "text": "Algunos mamíferos son grandes, y algunos tienen cuernos como los dinosaurios, pero hay varias razones por las que los mamíferos no pueden descender de los dinosaurios. Los mamíferos tienen pelaje o pelo, paren crías y las alimentan con leche. Los dinosaurios tenían piel escamosa y sus crías nacían de huevos. Pero lo más importante es que los mamíferos surgieron al mismo tiempo que los dinosaurios, por lo que no pueden ser sus descendientes."
+    },
+    {
+      "id": "birds",
+      "title": "Aves",
+      "image": "assets/desc/DESC04PU.webp",
+      "text": "¿Evolucionaron ciertos dinosaurios hasta convertirse en aves? Es posible. Los esqueletos de las aves se parecen mucho a los de algunos dinosaurios pequeños, como el Compsognathus. Sus cráneos también son similares: ambos tienen un orificio, o cavidad nasal, delante de la cuenca ocular. Las aves grandes que viven hoy en día, como los avestruces y los emúes, guardan un asombroso parecido con los «dinosaurios avestruz», como el Struthiomimus. Así pues, sí: las aves podrían perfectamente ser los descendientes de pequeños dinosaurios carnívoros."
+    },
+    {
+      "id": "reptiles",
+      "title": "Reptiles",
+      "image": "assets/desc/DESC05PU.webp",
+      "text": "Los dinosaurios eran reptiles, entonces ¿no serían sus parientes vivos más cercanos también reptiles? ¡No necesariamente! Reptiles como Moschops evolucionaron hace casi 300 millones de años, antes que los dinosaurios, y se dividieron en muchos grupos distintos. Un grupo de reptiles, los cocodrilos, son muy similares a los dinosaurios. Así pues, los cocodrilos podrían ser parientes vivos de los dinosaurios, pero no sus descendientes."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Life After Dinosaurs",
+      "to": "aftr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/desc/DESC00AA.webp",
+        "hotspots": [
+          {
+            "label": "Reptiles",
+            "to": "reptiles",
+            "x": 3,
+            "y": 68,
+            "w": 13,
+            "h": 7
+          },
+          {
+            "label": "Aves",
+            "to": "birds",
+            "x": 25,
+            "y": 47,
+            "w": 10,
+            "h": 6
+          },
+          {
+            "label": "Peces",
+            "to": "fish",
+            "x": 43,
+            "y": 70,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Mamíferos",
+            "to": "mammals",
+            "x": 76,
+            "y": 54,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Anfibios",
+            "to": "amphibians",
+            "x": 62,
+            "y": 73,
+            "w": 18,
+            "h": 7
+          }
+        ]
+      },
+      "fish": {
+        "image": "assets/desc/DESC01PU.webp",
+        "back": "main"
+      },
+      "amphibians": {
+        "image": "assets/desc/DESC02PU.webp",
+        "back": "main"
+      },
+      "mammals": {
+        "image": "assets/desc/DESC03PU.webp",
+        "back": "main"
+      },
+      "birds": {
+        "image": "assets/desc/DESC04PU.webp",
+        "back": "main"
+      },
+      "reptiles": {
+        "image": "assets/desc/DESC05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/desc/DESC00AP.mp3",
+  "narration": "assets/desc/DESC00AJ.mp3",
+  "sound": "assets/desc/DESC00SA.mp3",
+  "fanTranslation": true
+}

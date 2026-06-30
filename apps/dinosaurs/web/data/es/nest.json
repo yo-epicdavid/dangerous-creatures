@@ -1,0 +1,170 @@
+{
+  "id": "nest",
+  "code": "NEST",
+  "name": "Nidos y huevos",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Desde diminutas cáscaras rotas hasta guarderías comunales, los huevos de dinosaurio nos revelan la sorprendente vida familiar de los gigantes de la antigüedad.",
+  "hero": {
+    "image": "assets/nest/NEST00AA.webp",
+    "alt": "Nidos y huevos"
+  },
+  "intro": "Los dinosaurios, como los reptiles y las aves actuales, ponían huevos de cáscara dura. Se han encontrado nidos y huevos fósiles de dinosaurio en muchas partes del mundo. Algunos huevos fósiles incluso conservan en su interior embriones de crías de dinosaurio. Los nidos hallados con crías fosilizadas y restos de los adultos cerca nos indican que algunas crías de dinosaurio, al igual que los polluelos de los pájaros, permanecían en el nido esperando a que sus progenitores regresasen con alimento. Es posible que algunos dinosaurios compartieran nidos y construyeran guarderías comunales donde criar a sus pequeños.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "the-shells-the-secret",
+      "title": "El secreto está en la cáscara",
+      "image": "assets/nest/NEST01PU.webp",
+      "text": "Los dinosaurios, como los reptiles y las aves, se reproducían poniendo huevos en tierra firme. Esto daba a los reptiles una ventaja sobre los anfibios, que podían vivir en tierra pero tenían que volver al agua para poner sus huevos.",
+      "captions": [
+        {
+          "label": "La historia del huevo",
+          "text": "Al igual que los huevos de las aves, los huevos de los reptiles tienen una cáscara que protege a la cría en desarrollo, pero que también le permite respirar. La cáscara está compuesta por una capa exterior frágil sobre una capa interior flexible. Bajo esta se encuentra la membrana amniótica rellena de líquido, un entorno protegido para el embrión en crecimiento."
+        },
+        {
+          "label": "El tamaño desproporcionado de la cáscara",
+          "text": "El huevo de dinosaurio más grande que se ha encontrado medía tan solo unos treinta centímetros de longitud. Compara el tamaño de este huevo de codorniz con este huevo de dinosaurio. Los huevos de dinosaurio no eran tan grandes como cabría esperar: si hubiesen guardado proporción con el tamaño de algunos dinosaurios adultos, sus cáscaras habrían sido demasiado gruesas para dejar entrar el oxígeno y para que las crías pudieran salir."
+        }
+      ]
+    },
+    {
+      "id": "fossil-find",
+      "title": "Hallazgo fósil",
+      "image": "assets/nest/NEST02PU.webp",
+      "text": "Los huevos de este nido arenoso fosilizado pertenecían a un hadrosaurio. Las evidencias indican que varias madres pudieron haber puesto sus huevos en círculo dentro del mismo nido, que podía contener hasta treinta huevos. Después los cubrirían con tierra o arena para protegerlos hasta su eclosión. Algunos nidos de dinosaurio tenían bordes elevados, lo que sugiere que las madres pudieron haberse echado sobre sus huevos, igual que las gallinas cluecas."
+    },
+    {
+      "id": "tough-eggs",
+      "title": "Huevos resistentes",
+      "image": "assets/nest/NEST03PU.webp",
+      "text": "Se han desenterrado numerosos fragmentos fósiles de huevos de dinosaurio. Las piezas que se muestran aquí revelan las texturas de las resistentes cáscaras exteriores que protegían los huevos de la desecación. Muchos reptiles actuales tienen huevos bastante peculiares. Los huevos de la derecha pertenecen todos a criaturas actuales.",
+      "captions": [
+        {
+          "label": "Cáscaras de saurópodo",
+          "text": "Estos fragmentos proceden de huevos grandes y redondos que pusieron enormes dinosaurios saurópodos."
+        },
+        {
+          "label": "Cáscaras de Protoceratops",
+          "text": "La superficie rugosa y granulosa de estos fragmentos de cáscara de Protoceratops es característica de muchos huevos de dinosaurio."
+        },
+        {
+          "label": "Varano del Nilo",
+          "text": "Este huevo de varano del Nilo incuba en el nido durante nueve o diez meses antes de eclosionar."
+        },
+        {
+          "label": "Pitón",
+          "text": "El huevo de esta pitón apenas parece un huevo. Como la mayoría de los huevos de serpiente, tiene una cáscara parecida al pergamino."
+        },
+        {
+          "label": "Matamata",
+          "text": "Esta tortuga sudamericana pone huevos que parecen pelotas de ping-pong."
+        }
+      ]
+    },
+    {
+      "id": "egg-raider",
+      "title": "El ladrón de huevos",
+      "image": "assets/nest/NEST04PU.webp",
+      "text": "Los huevos de dinosaurio eran una nutritiva fuente de alimento, siempre que el ladrón de nidos lograra encontrarlos, desenterrarlos y escabullirse ante los adultos que los vigilaban. En un nido fósil de dinosaurio se encontraron restos de Oviraptor. Los expertos creen que este pequeño y veloz carnívoro pudo haberse alimentado de los huevos de otros dinosaurios.",
+      "captions": [
+        {
+          "label": "Comedores de huevos actuales",
+          "text": "Comer huevos es una práctica habitual entre los reptiles actuales. Esta serpiente africana está a punto de tragarse un huevo que dobla el ancho de su propio cuerpo."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Birth and Growth",
+      "to": "birt"
+    },
+    {
+      "label": "Protoceratops",
+      "to": "prot"
+    },
+    {
+      "label": "Maiasaura",
+      "to": "maia"
+    },
+    {
+      "label": "Eryops",
+      "to": "eryo"
+    },
+    {
+      "label": "Oviraptor",
+      "to": "ovir"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/nest/NEST00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hallazgo fósil",
+            "to": "fossil-find",
+            "x": 5,
+            "y": 53,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "El ladrón de huevos",
+            "to": "egg-raider",
+            "x": 5,
+            "y": 79,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "El secreto está en la cáscara",
+            "to": "the-shells-the-secret",
+            "x": 37,
+            "y": 80,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Huevos resistentes",
+            "to": "tough-eggs",
+            "x": 72,
+            "y": 57,
+            "w": 18,
+            "h": 5
+          }
+        ]
+      },
+      "the-shells-the-secret": {
+        "image": "assets/nest/NEST01PU.webp",
+        "back": "main"
+      },
+      "fossil-find": {
+        "image": "assets/nest/NEST02PU.webp",
+        "back": "main"
+      },
+      "tough-eggs": {
+        "image": "assets/nest/NEST03PU.webp",
+        "back": "main"
+      },
+      "egg-raider": {
+        "image": "assets/nest/NEST04PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/nest/NEST00AP.mp3",
+  "narration": "assets/nest/NEST00AJ.mp3",
+  "fanTranslation": true
+}

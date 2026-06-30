@@ -1,0 +1,284 @@
+{
+  "id": "rair",
+  "code": "RAIR",
+  "name": "Reptiles del Aire",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "REP-tilz of thuh AIR",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "¡Antes de que las aves dominaran los cielos, los pterosaurios surcaban el aire con alas formadas por un único dedo gigantesco!",
+  "hero": {
+    "image": "assets/rair/RAIR00AA.webp",
+    "alt": "Reptiles del Aire"
+  },
+  "intro": "Mientras los dinosaurios conquistaban la tierra, los pterosaurios dominaban el aire. Los pterosaurios no tenían plumas, sino alas de piel flexible que se extendían desde su cuerpo hasta la punta de su alargado cuarto dedo —el dedo alar—. Impulsándose desde terrenos elevados, como acantilados que dominan el mar, los pterosaurios podían planear aprovechando las corrientes de aire ascendentes; pero sus poderosos músculos y sus alas semejantes a las de una gaviota también les permitían batirlas y volar como las aves actuales.",
+  "facts": [
+    {
+      "label": "Envergadura máxima",
+      "value": "cuarenta pies de punta a punta (Quetzalcoatlus)"
+    },
+    {
+      "label": "Peso máximo",
+      "value": "alrededor de 190 libras (Quetzalcoatlus)"
+    },
+    {
+      "label": "Envergadura del Pteranodón",
+      "value": "veintitrés pies"
+    },
+    {
+      "label": "Peso del Pteranodón",
+      "value": "poco más de cuarenta libras"
+    },
+    {
+      "label": "Envergadura del Dimorfodón",
+      "value": "unos cuatro pies"
+    },
+    {
+      "label": "Envergadura del Pterodaustro",
+      "value": "unos cuatro pies"
+    }
+  ],
+  "topics": [
+    {
+      "id": "no-tail",
+      "title": "Sin cola",
+      "image": "assets/rair/RAIR01PU.webp",
+      "text": "El Pterodáctilo era un pterosaurio pequeño. Algunos eran apenas del tamaño de un gorrión, mientras que otros llegaban a ser tan grandes como un gallo. El Pterodáctilo no tenía cola, pero sí un cuello largo y flexible y una cabeza alargada. En tierra firme, esta criatura probablemente caminaba sobre sus pies de dedos afilados, plegando las alas junto al cuerpo."
+    },
+    {
+      "id": "largest-and-heaviest",
+      "title": "El más grande y pesado",
+      "image": "assets/rair/RAIR02PU.webp",
+      "text": "El Quetzalcoatlus era el pterosaurio más grande conocido, ¡con las alas extendidas midiendo cuarenta pies de punta a punta! Los huesos de los pterosaurios eran extraordinariamente delicados, con cavidades huecas llenas de aire para hacerlos ligeros. ¡Aunque esta criatura era tan grande como una avioneta, pesaba únicamente alrededor de 190 libras!"
+    },
+    {
+      "id": "eating-was-a-strain",
+      "title": "Comer era todo un esfuerzo",
+      "image": "assets/rair/RAIR03PU.webp",
+      "text": "El Pterodaustro tenía numerosos dientes en forma de peine en sus largas mandíbulas curvadas hacia arriba. Probablemente sobrevolaba la superficie del mar, filtrando el agua a través de sus dientes con la esperanza de atrapar algunas pequeñas criaturas para alimentarse. El Pterodaustro tenía una envergadura de unos cuatro pies."
+    },
+    {
+      "id": "hairy-pterosaur",
+      "title": "El pterosaurio peludo",
+      "image": "assets/rair/RAIR04PU.webp",
+      "text": "Los fósiles indican que el Sordes tenía una espesa capa de pelaje que le mantenía caliente durante sus largos vuelos. Los reptiles suelen estar cubiertos de escamas, pero nuevas evidencias demuestran que algunos pterosaurios desarrollaron cierta cantidad de pelaje como aislamiento térmico."
+    },
+    {
+      "id": "tail-rudders",
+      "title": "Colas a modo de timón",
+      "image": "assets/rair/RAIR05PU.webp",
+      "text": "El Rhamphorhynchus y el Eudimorphodon tenían largas colas con extremos en forma de cometa que pudieron actuar como timones para dirigirse en el vuelo. Los científicos pensaron en un principio que estos reptiles voladores solo podían planear, lanzándose desde lo alto de los acantilados y aprovechando las corrientes de aire ascendentes para ganar altura, como los practicantes de ala delta. Ahora creen que estas criaturas eran voladoras activas. Con cola larga y cuello corto, estos pterosaurios primitivos también tenían dientes diseñados para recoger y filtrar pequeños animales del agua del mar.",
+      "captions": [
+        {
+          "label": "Rhamphorhynchus",
+          "text": "Rhamphorhynchus"
+        },
+        {
+          "label": "Eudimorphodon",
+          "text": "Eudimorphodon"
+        }
+      ]
+    },
+    {
+      "id": "flying-fisher",
+      "title": "El pescador volador",
+      "image": "assets/rair/RAIR06PU.webp",
+      "text": "El Pteranodón probablemente volaba sobre los mares, usando su largo pico sin dientes para atrapar peces. Con un peso de poco más de cuarenta libras y una envergadura de veintitrés pies, podía planear con facilidad por los cielos prehistóricos. La cabeza del Pteranodón tenía una larga cresta ósea que pudo actuar como timón durante el vuelo."
+    },
+    {
+      "id": "dimorphodon",
+      "title": "Dimorfodón",
+      "image": "assets/rair/RAIR07PU.webp",
+      "text": "El Dimorfodón probablemente tenía un gran pico multicolor que recordaba al de un frailecillo actual. Su larga cola en forma de bastón pudo servir para equilibrar su gran cabeza mientras caminaba o corría por el suelo. También pudo aferrarse como un murciélago a lo alto de los acantilados o a las ramas con sus dedos y dedos de los pies provistos de garras. Pero el Dimorfodón también volaba. Al planear sobre los acantilados, su envergadura medía unos cuatro pies."
+    },
+    {
+      "id": "fingers-to-fly-with",
+      "title": "Dedos para volar",
+      "image": "assets/rair/RAIR08PU.webp",
+      "text": "Las alas de los pterosaurios estaban sostenidas por los huesos del brazo y la mano. Cada mano tenía cuatro dedos, tres de los cuales terminaban en afiladas garras en la parte delantera de las alas. El cuarto dedo se desarrolló hasta convertirse en un soporte alar de longitud enorme, dando a las alas una forma larga, estrechada y elegante, similar a las alas de una gaviota actual.",
+      "captions": [
+        {
+          "label": "Pteranodón",
+          "text": "Pteranodón"
+        }
+      ]
+    },
+    {
+      "id": "first-bird",
+      "title": "¿El primer pájaro?",
+      "image": "assets/rair/RAIR09PU.webp",
+      "text": "Los pterosaurios eran reptiles voladores, no aves. Sin embargo, las aves y los reptiles están estrechamente emparentados, y se cree que un pequeño animal emplumado llamado Archaeopteryx fue el eslabón entre los pequeños dinosaurios carnívoros y las aves. Los fósiles del Archaeopteryx demuestran que esta asombrosa criatura tenía plumas y que quizás podía volar. No obstante, el Archaeopteryx también tenía dientes, garras y una larga cola, como los demás reptiles primitivos. Los seis fósiles conocidos del Archaeopteryx fueron hallados en la misma zona de extracción de piedra caliza en Alemania."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Archaeopteryx",
+      "to": "arch"
+    },
+    {
+      "label": "Pterodactylus",
+      "to": "pter"
+    },
+    {
+      "label": "Quetzalcoatlus",
+      "to": "quet"
+    },
+    {
+      "label": "Dinosaur Diets",
+      "to": "diet"
+    },
+    {
+      "label": "Sordes",
+      "to": "sord"
+    },
+    {
+      "label": "Rhamphorhynchus",
+      "to": "rham"
+    },
+    {
+      "label": "Pteranodon",
+      "to": "pten"
+    },
+    {
+      "label": "Dinosaur Descendants",
+      "to": "desc"
+    },
+    {
+      "label": "Claws",
+      "to": "claw"
+    },
+    {
+      "label": "Birds and Dinosaurs",
+      "to": "bird"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/rair/RAIR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Comer era todo un esfuerzo",
+            "to": "eating-was-a-strain",
+            "x": 34,
+            "y": 23,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "El más grande y pesado",
+            "to": "largest-and-heaviest",
+            "x": 65,
+            "y": 21,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Colas a modo de timón",
+            "to": "tail-rudders",
+            "x": 70,
+            "y": 36,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Sin cola",
+            "to": "no-tail",
+            "x": 52,
+            "y": 47,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "El pterosaurio peludo",
+            "to": "hairy-pterosaur",
+            "x": 8,
+            "y": 56,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Dedos para volar",
+            "to": "fingers-to-fly-with",
+            "x": 8,
+            "y": 64,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "¿El primer pájaro?",
+            "to": "first-bird",
+            "x": 8,
+            "y": 72,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "El pescador volador",
+            "to": "flying-fisher",
+            "x": 36,
+            "y": 78,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Dimorfodón",
+            "to": "dimorphodon",
+            "x": 71,
+            "y": 65,
+            "w": 17,
+            "h": 5
+          }
+        ]
+      },
+      "no-tail": {
+        "image": "assets/rair/RAIR01PU.webp",
+        "back": "main"
+      },
+      "largest-and-heaviest": {
+        "image": "assets/rair/RAIR02PU.webp",
+        "back": "main"
+      },
+      "eating-was-a-strain": {
+        "image": "assets/rair/RAIR03PU.webp",
+        "back": "main"
+      },
+      "hairy-pterosaur": {
+        "image": "assets/rair/RAIR04PU.webp",
+        "back": "main"
+      },
+      "tail-rudders": {
+        "image": "assets/rair/RAIR05PU.webp",
+        "back": "main"
+      },
+      "flying-fisher": {
+        "image": "assets/rair/RAIR06PU.webp",
+        "back": "main"
+      },
+      "dimorphodon": {
+        "image": "assets/rair/RAIR07PU.webp",
+        "back": "main"
+      },
+      "fingers-to-fly-with": {
+        "image": "assets/rair/RAIR08PU.webp",
+        "back": "main"
+      },
+      "first-bird": {
+        "image": "assets/rair/RAIR09PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/rair/RAIR00AP.mp3",
+  "narration": "assets/rair/RAIR00AJ.mp3",
+  "sound": "assets/rair/RAIR00SA.mp3",
+  "fanTranslation": true
+}

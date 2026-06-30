@@ -1,0 +1,148 @@
+{
+  "id": "htro",
+  "code": "HTRO",
+  "name": "Cómo reconocer a los ornitópodos",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "or-NITH-oh-pods",
+  "meaning": "pie de pájaro",
+  "period": "",
+  "diet": "",
+  "tagline": "Herbívoros de caderas de pájaro que caminaban a dos patas... ¡o a veces a cuatro!",
+  "hero": {
+    "image": "assets/htro/HTRO00AA.webp",
+    "alt": "Cómo reconocer a los ornitópodos"
+  },
+  "intro": "El grupo de los ornitópodos es amplio y abarca una gran variedad de dinosaurios herbívoros. Todos los ornitópodos, o dinosaurios de «pie de pájaro», poseían estructuras esqueléticas que les permitían sostenerse sobre dos patas. Sin embargo, algunas familias de ornitópodos, como los hadrosaurios, tenían «manos» y pies diferentes, y es posible que pasaran la mayor parte del tiempo a cuatro patas.",
+  "facts": [
+    {
+      "label": "Grupo",
+      "value": "Ornitópodos"
+    },
+    {
+      "label": "Significado",
+      "value": "pie de pájaro"
+    },
+    {
+      "label": "Dieta",
+      "value": "Herbívoros"
+    },
+    {
+      "label": "Orden",
+      "value": "Ornithischia (caderas de pájaro)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "skulls-of-plant-eaters",
+      "title": "Cráneos de los herbívoros",
+      "image": "assets/htro/HTRO01PU.webp",
+      "text": "Aunque los cráneos de los ornitópodos eran muy diferentes entre sí, todos compartían una característica: sus mandíbulas y dientes estaban diseñados para comer plantas. Las depresiones en los laterales de las mandíbulas indican que estos dinosaurios quizá fueron los primeros en tener carrillos carnosos para retener la comida en la boca.",
+      "captions": [
+        {
+          "label": "Cabezas de hadrosaurio",
+          "text": "Todos los hadrosaurios tenían picos parecidos a los de los patos en la parte delantera e impresionantes conjuntos de dientes trituradores en la parte trasera de la boca. Muchos de estos dinosaurios de pico de pato tenían además espectaculares crestas óseas en la cabeza."
+        },
+        {
+          "label": "Cabeza de hipsilofodonte",
+          "text": "Esta cabeza pertenecía a un pequeño herbívoro muy veloz."
+        }
+      ]
+    },
+    {
+      "id": "bird-like-feet-and-legs",
+      "title": "Patas y pies similares a los de las aves",
+      "image": "assets/htro/HTRO02PU.webp",
+      "text": "Todos los ornitópodos tienen estructuras de cadera muy parecidas a las de las aves, y por ello pertenecen al orden de los dinosaurios ornitisquios («de caderas de pájaro»).",
+      "captions": [
+        {
+          "label": "Ágiles y veloces",
+          "text": "Como indica su nombre, que significa «pie de pájaro», los ornitópodos tenían pies muy parecidos a los de las aves actuales. Los paleontólogos creen que la mayoría de los ornitópodos podían caminar sobre dos patas, y que algunos eran corredores muy rápidos."
+        },
+        {
+          "label": "Caderas elevadas",
+          "text": "Los esqueletos de los ornitisquios, o dinosaurios de «caderas de pájaro», tienen dos huesos pélvicos inferiores que apuntan hacia atrás y hacia abajo. En todos los ornitisquios, las patas traseras son más largas que las delanteras, independientemente de si el dinosaurio caminaba a dos o cuatro patas."
+        }
+      ]
+    },
+    {
+      "id": "five-fingered-hands",
+      "title": "Manos de cinco dedos",
+      "image": "assets/htro/HTRO03PU.webp",
+      "text": "Casi todos los ornitópodos tenían manos de cinco dedos, aunque algunos las usaban principalmente para caminar y otros para agarrar objetos. Algunos ornitópodos, como el Iguanodón, también tenían púas en el pulgar que podrían haber servido para defenderse."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Two Feet or Four?",
+      "to": "twof"
+    },
+    {
+      "label": "The Story in a Skull",
+      "to": "stor"
+    },
+    {
+      "label": "Dinosaur Descendants",
+      "to": "desc"
+    },
+    {
+      "label": "Dinosaur Defense",
+      "to": "ddef"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/htro/HTRO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cráneos de los herbívoros",
+            "to": "skulls-of-plant-eaters",
+            "x": 58,
+            "y": 20,
+            "w": 28,
+            "h": 6
+          },
+          {
+            "label": "Manos de cinco dedos",
+            "to": "five-fingered-hands",
+            "x": 5,
+            "y": 63,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Patas y pies similares a los de las aves",
+            "to": "bird-like-feet-and-legs",
+            "x": 18,
+            "y": 72,
+            "w": 25,
+            "h": 6
+          }
+        ]
+      },
+      "skulls-of-plant-eaters": {
+        "image": "assets/htro/HTRO01PU.webp",
+        "back": "main"
+      },
+      "bird-like-feet-and-legs": {
+        "image": "assets/htro/HTRO02PU.webp",
+        "back": "main"
+      },
+      "five-fingered-hands": {
+        "image": "assets/htro/HTRO03PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/htro/HTRO00AP.mp3",
+  "narration": "assets/htro/HTRO00AJ.mp3",
+  "sound": "assets/htro/HTRO00SA.mp3",
+  "fanTranslation": true
+}

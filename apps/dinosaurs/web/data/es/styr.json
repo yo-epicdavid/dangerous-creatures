@@ -1,0 +1,199 @@
+{
+  "id": "styr",
+  "code": "STYR",
+  "name": "Estiracosaurio",
+  "category": "dinosaur",
+  "scientificName": "Styracosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "sty-RAK-uh-SOR-us",
+  "meaning": "lagarto espinoso",
+  "period": "Cretácico superior",
+  "diet": "Herbívoro",
+  "tagline": "Seis púas, un enorme cuerno y ninguna gana de que nadie se meta con él.",
+  "hero": {
+    "image": "assets/styr/STYR00AA.webp",
+    "alt": "Estiracosaurio"
+  },
+  "intro": "El Estiracosaurio recibió el nombre de «lagarto espinoso» con toda la razón. Este dinosaurio tenía un impresionante collar natural de púas alrededor del cuello: seis largas púas en la parte superior, bordeadas por púas más cortas en los bordes de su gorguera. Para completar su aspecto erizado, el Estiracosaurio también tenía un enorme cuerno en el hocico.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Nombre significa",
+      "value": "lagarto espinoso"
+    },
+    {
+      "label": "Caderas",
+      "value": "Tipo ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Ceratopsio"
+    },
+    {
+      "label": "Longitud",
+      "value": "5,5 m (18 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "portrait-of-a-frilled-family",
+      "title": "Retrato de una familia con gorguera",
+      "image": "assets/styr/STYR01PU.webp",
+      "text": "El Estiracosaurio pertenece a una familia de dinosaurios con gorgueras: los ceratopsios, o dinosaurios con cuernos. Como puedes ver, los cuernos y las púas no eran exclusivos del Estiracosaurio, sino que eran un rasgo común de los ceratopsios.",
+      "captions": [
+        {
+          "label": "Pentaceratops",
+          "text": "Como todos los ceratopsios, este dinosaurio tenía un pico similar al de un ave, muy útil para mordisquear la vegetación."
+        },
+        {
+          "label": "Centrosaurio",
+          "text": "Dos cuernos curvados hacia delante protegían las «ventanas» del enorme cráneo del Centrosaurio."
+        },
+        {
+          "label": "Torosaurio",
+          "text": "Este ceratopsio tenía la gorguera más grande de todos. Medía hasta unos dos metros y medio, ¡aproximadamente la longitud de un coche pequeño!"
+        }
+      ]
+    },
+    {
+      "id": "modern-frills-spikes-and-horns",
+      "title": "Gorgueras, púas y cuernos modernos",
+      "image": "assets/styr/STYR02PU.webp",
+      "text": "Las características de las gorgueras cervicales, las púas y los cuernos no desaparecieron con los dinosaurios. Muchas criaturas actuales, como las que se muestran aquí, han conservado estos eficaces mecanismos de defensa.",
+      "captions": [
+        {
+          "label": "En guardia",
+          "text": "Este lagarto de gorguera australiano normalmente mantiene su gorguera cervical aplastada. Cuando un depredador le sobresalta, la eriza formando un cuello en forma de lechuguilla que mide más de cuatro veces el ancho de su cuerpo."
+        },
+        {
+          "label": "Carga del rinoceronte",
+          "text": "Este rinoceronte tiene cuernos similares a los de los dinosaurios ceratopsios. Herbívoro como ellos, el rinoceronte usa sus cuernos para defenderse de los carnívoros depredadores."
+        },
+        {
+          "label": "Tuátara",
+          "text": "Este lagarto espinoso está considerado un fósil viviente."
+        }
+      ]
+    },
+    {
+      "id": "dont-mess-with-us",
+      "title": "¡No os metáis con nosotros!",
+      "image": "assets/styr/STYR03PU.webp",
+      "text": "Dado que ceratopsios como el Estiracosaurio eran herbívoros, sus púas y cuernos pudieron haberles servido para defenderse de los dinosaurios depredadores. Una manada de ceratopsios podría haber formado un círculo cuando era atacada, presentando a un carnívoro una imponente barrera de cuernos. También pudieron haber cargado contra sus enemigos o luchado con rivales de su propio grupo, amenazando a los oponentes con los cuernos en posición baja, de manera similar a como lo hacen los animales con cuernos en la actualidad."
+    },
+    {
+      "id": "the-horned-dinosaurs",
+      "title": "Los dinosaurios con cuernos",
+      "image": "assets/styr/STYR04PU.webp",
+      "text": "Los ceratopsios fueron uno de los últimos grandes grupos de dinosaurios. Uno de los primeros y más pequeños representantes fue el Protoceratops, hallado en el desierto del Gobi, en Mongolia.",
+      "captions": [
+        {
+          "label": "Un hallazgo asombroso",
+          "text": "En 1922 se descubrió un nido de Protoceratops. Los restos fosilizados indican que las crías de Protoceratops medían menos de veinte centímetros de longitud, aunque su cuerpo podía alcanzar más de metro ochenta en la edad adulta."
+        },
+        {
+          "label": "Caras feroces",
+          "text": "Incorporaciones posteriores al grupo, como el Casmosaurio, eran mucho más grandes. Aunque los ceratopsios tenían un aspecto muy feroz, eran tranquilos herbívoros. Sus cuernos y púas servían principalmente para exhibirse o para defenderse, y sus elaboradas gorgueras se desarrollaron probablemente para anclar los potentes músculos mandibulares necesarios para masticar las duras plantas que componían su dieta."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "How to Recognize Ceratopsians",
+      "to": "hcer"
+    },
+    {
+      "label": "Centrosaurus",
+      "to": "cent"
+    },
+    {
+      "label": "Tuatara",
+      "to": "tuat"
+    },
+    {
+      "label": "Horns",
+      "to": "horn"
+    },
+    {
+      "label": "Gobi Desert Expeditions",
+      "to": "gobi"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/styr/STYR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Los dinosaurios con cuernos",
+            "to": "the-horned-dinosaurs",
+            "x": 65,
+            "y": 13,
+            "w": 28,
+            "h": 6
+          },
+          {
+            "label": "Retrato de una familia con gorguera",
+            "to": "portrait-of-a-frilled-family",
+            "x": 63,
+            "y": 40,
+            "w": 30,
+            "h": 6
+          },
+          {
+            "label": "Gorgueras, púas y cuernos modernos",
+            "to": "modern-frills-spikes-and-horns",
+            "x": 3,
+            "y": 64,
+            "w": 37,
+            "h": 6
+          },
+          {
+            "label": "¡No os metáis con nosotros!",
+            "to": "dont-mess-with-us",
+            "x": 3,
+            "y": 74,
+            "w": 25,
+            "h": 6
+          }
+        ]
+      },
+      "portrait-of-a-frilled-family": {
+        "image": "assets/styr/STYR01PU.webp",
+        "back": "main"
+      },
+      "modern-frills-spikes-and-horns": {
+        "image": "assets/styr/STYR02PU.webp",
+        "back": "main"
+      },
+      "dont-mess-with-us": {
+        "image": "assets/styr/STYR03PU.webp",
+        "back": "main"
+      },
+      "the-horned-dinosaurs": {
+        "image": "assets/styr/STYR04PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/styr/STYR50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/styr/STYR00AP.mp3",
+  "narration": "assets/styr/STYR00AJ.mp3",
+  "fanTranslation": true
+}

@@ -1,0 +1,137 @@
+{
+  "id": "shft",
+  "code": "SHFT",
+  "name": "La Tierra en Movimiento",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "the SHIF-ting URTH",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Los continentes de nuestro planeta llevan miles de millones de años a la deriva y chocando entre sí... ¡y siguen moviéndose hoy en día!",
+  "hero": {
+    "image": "assets/shft/SHFT00AA.webp",
+    "alt": "La Tierra en Movimiento"
+  },
+  "intro": "La Tierra que fue el hogar de los dinosaurios es muy distinta de la que conocemos hoy. Desde que nuestro planeta se formó, hace unos 4500 millones de años, ha estado cambiando constantemente. Enormes masas de tierra, llamadas placas, se han desplazado y chocado entre sí, formando nuevos continentes con cordilleras, lagos, llanuras y desiertos. La mayor parte del tiempo estos movimientos ocurrieron de forma muy gradual, pero los desplazamientos bruscos de las placas provocaron terremotos, erupciones volcánicas e incluso inundaciones. Hoy en día nuestros continentes siguen moviéndose, aunque solo a razón de unos pocos centímetros por año.",
+  "facts": [
+    {
+      "label": "Saurópodos dispersos",
+      "value": "Dinosaurios saurópodos como el Rhoetosaurus australiano han sido encontrados en América del Norte, Asia, América del Sur, África y Australia, lo que indica que estos dinosaurios recorrieron el globo antes de que los continentes se separaran por completo."
+    }
+  ],
+  "topics": [
+    {
+      "id": "triassic-continents",
+      "title": "Los continentes en el Triásico",
+      "image": "assets/shft/SHFT01PU.webp",
+      "text": "Los dinosaurios aparecieron por primera vez durante el período Triásico, hace unos 235 millones de años. En aquel entonces, los continentes estaban unidos en un único «supercontinente» llamado Pangea. Los dinosaurios podían desplazarse por tierra sin que los mares les bloquearan el paso. Pero al final del período Triásico, Pangea se estaba dividiendo en dos masas de tierra —Laurasia y Gondwana— y los territorios de los dinosaurios por todo el mundo empezaron a dividirse en áreas más pequeñas."
+    },
+    {
+      "id": "jurassic-continents",
+      "title": "Los continentes en el Jurásico",
+      "image": "assets/shft/SHFT02PU.webp",
+      "text": "Hace unos 145 millones de años, cerca del final del período Jurásico, los continentes del norte empezaron a alejarse de los del sur. Es posible que India comenzara a desplazarse hacia el norte. Comenzaron a aparecer mares poco profundos entre África y América del Norte y Europa, que aún estaban unidas, y entre América del Norte y Asia."
+    },
+    {
+      "id": "cretaceous-continents",
+      "title": "Los continentes en el Cretácico",
+      "image": "assets/shft/SHFT03PU.webp",
+      "text": "En la parte inicial del período Cretácico, las separaciones entre los nuevos continentes se iban ampliando. Muchos de los mares eran poco profundos y no duraron mucho a medida que los continentes seguían desplazándose. El nivel del agua alcanzó máximos históricos al final del Cretácico Inferior, hace 100 millones de años. El océano Atlántico empezó a ensancharse desde el sur. La Antártida y Australia se alejaban ahora de América del Sur y África."
+    },
+    {
+      "id": "modern-world",
+      "title": "El mundo actual",
+      "image": "assets/shft/SHFT04PU.webp",
+      "text": "Desde que la Era de los Dinosaurios terminó hace 65 millones de años, los continentes del mundo se han desplazado hasta sus posiciones actuales. India «chocó» con Asia, empujando hacia arriba la cordillera del Himalaya, y el mar poco profundo de África se secó para formar el desierto del Sáhara. Incluso hoy en día, la faz de la Tierra sigue cambiando. Cada vez que un sismógrafo registra un terremoto, cada vez que un volcán entra en erupción, vemos evidencias de que, dentro de millones de años, este planeta puede ser muy diferente de la Tierra que conocemos hoy."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Rhoetosaurus",
+      "to": "rhoe"
+    },
+    {
+      "label": "Life Before Dinosaurs",
+      "to": "befr"
+    },
+    {
+      "label": "The Jurassic Period",
+      "to": "jurr"
+    },
+    {
+      "label": "The Cretaceous Period",
+      "to": "cret"
+    },
+    {
+      "label": "Important Dinosaur Sites",
+      "to": "site"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/shft/SHFT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Los continentes en el Triásico",
+            "to": "triassic-continents",
+            "x": 57,
+            "y": 20,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Los continentes en el Jurásico",
+            "to": "jurassic-continents",
+            "x": 54,
+            "y": 31,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Los continentes en el Cretácico",
+            "to": "cretaceous-continents",
+            "x": 51,
+            "y": 42,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "El mundo actual",
+            "to": "modern-world",
+            "x": 19,
+            "y": 72,
+            "w": 16,
+            "h": 5
+          }
+        ]
+      },
+      "triassic-continents": {
+        "image": "assets/shft/SHFT01PU.webp",
+        "back": "main"
+      },
+      "jurassic-continents": {
+        "image": "assets/shft/SHFT02PU.webp",
+        "back": "main"
+      },
+      "cretaceous-continents": {
+        "image": "assets/shft/SHFT03PU.webp",
+        "back": "main"
+      },
+      "modern-world": {
+        "image": "assets/shft/SHFT04PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/shft/SHFT00AP.mp3",
+  "narration": "assets/shft/SHFT00AJ.mp3",
+  "fanTranslation": true
+}

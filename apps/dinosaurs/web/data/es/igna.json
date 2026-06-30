@@ -1,0 +1,123 @@
+{
+  "id": "igna",
+  "code": "IGNA",
+  "name": "Iguana",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "ih-GWAH-nuh",
+  "meaning": "Desconocido",
+  "period": "Actualidad",
+  "diet": "",
+  "tagline": "¡La iguana actual es la pista viviente que resolvió el misterio de los dinosaurios!",
+  "hero": {
+    "image": "assets/igna/IGNA00AA.webp",
+    "alt": "Iguana"
+  },
+  "intro": "Aunque los dinosaurios se extinguieron hace mucho tiempo, muchos de sus parientes todavía conviven con nosotros en forma de lagartos. La iguana, por ejemplo, parece tener mucho en común con los dinosaurios prehistóricos: tiene la piel escamosa, garras en las patas y espinas a lo largo del lomo. De hecho, cuando en 1820 se desenterraron los primeros fósiles de dinosaurio, su descubridor, Gideon Mantell, creyó haber encontrado los restos de una iguana gigante.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "América del Sur, América del Norte"
+    },
+    {
+      "label": "Época",
+      "value": "Actualidad"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Desconocido"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Lagarto moderno"
+    },
+    {
+      "label": "Longitud",
+      "value": "1,2 m (4 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "dinosaur-differences",
+      "title": "Diferencias con los dinosaurios",
+      "image": "assets/igna/IGNA01PU.webp",
+      "text": "Las patas de la iguana, como las de todos los lagartos, se extienden hacia los lados. Las patas de los dinosaurios, en cambio, estaban situadas bajo su cuerpo para sostener su gran peso. Esto hacía a los dinosaurios más ágiles que sus parientes lagartos.\n\nLa iguana, al igual que muchos dinosaurios, tiene la piel escamosa y espinas a lo largo del lomo. Aunque podemos ver que la piel de la iguana es verde, nadie sabe con seguridad de qué color eran los dinosaurios. Tenemos impresiones fósiles de la textura de la piel, pero nunca se ha conservado piel de dinosaurio."
+    },
+    {
+      "id": "a-giant-discovery",
+      "title": "Un descubrimiento gigantesco",
+      "image": "assets/igna/IGNA02PU.webp",
+      "text": "Gideon Mantell imaginó así su hallazgo: un lagarto gigante muy parecido a una iguana. Su dibujo muestra al reptil posado sobre la rama de un árbol, muy similar a su homónimo más pequeño. Al dinosaurio que había descubierto lo bautizó como «Iguanodon», que significa «diente de iguana».",
+      "captions": [
+        {
+          "label": "Garras en común",
+          "text": "Al igual que los dinosaurios, la iguana tiene garras en los dedos. Las garras de la iguana no sirven para atrapar presas, sino para ayudarle a trepar por árboles y arbustos."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What is a Dinosaur?",
+      "to": "what"
+    },
+    {
+      "label": "Tuatara",
+      "to": "tuat"
+    },
+    {
+      "label": "Iguanodon",
+      "to": "igua"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/igna/IGNA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Un descubrimiento gigantesco",
+            "to": "a-giant-discovery",
+            "x": 26,
+            "y": 54,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Diferencias con los dinosaurios",
+            "to": "dinosaur-differences",
+            "x": 35,
+            "y": 64,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "dinosaur-differences": {
+        "image": "assets/igna/IGNA01PU.webp",
+        "back": "main"
+      },
+      "a-giant-discovery": {
+        "image": "assets/igna/IGNA02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/igna/IGNA50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/igna/IGNA00AP.mp3",
+  "narration": "assets/igna/IGNA00AJ.mp3",
+  "fanTranslation": true
+}

@@ -1,0 +1,238 @@
+{
+  "id": "rsea",
+  "code": "RSEA",
+  "name": "Reptiles del mar",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Los antiguos reptiles marinos dominaban los océanos mientras los dinosaurios dominaban la tierra.",
+  "hero": {
+    "image": "assets/rsea/RSEA00AA.webp",
+    "alt": "Reptiles del mar"
+  },
+  "intro": "Durante la Era de los Dinosaurios, muchos grandes reptiles eligieron vivir en el mar. Reptiles marinos como los ictiosaurios, plesiosaurios, pliosaurios y tortugas marinas fueron algunos de los animales más grandes y feroces de los mares. Al igual que los dinosaurios terrestres, estas criaturas respiraban aire, lo que significaba que tenían que salir a la superficie para llenar sus pulmones. Luego se zambullían en el agua para alimentarse de peces y otros animales marinos. Casi todas estas criaturas marinas desaparecieron misteriosamente hace 65 millones de años junto con sus parientes terrestres, los dinosaurios.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "in-the-depths",
+      "title": "En las profundidades",
+      "image": "assets/rsea/RSEA01PU.webp",
+      "text": "Liopleurodon tenía un cuello corto y probablemente vivía en aguas más profundas que sus parientes de cuello largo. Esta criatura tenía dientes en forma de daga de unos diez centímetros de longitud y se alimentaba de tortugas y moluscos. Liopleurodon medía hasta doce metros de largo.",
+      "captions": [
+        {
+          "label": "Dada por muerta",
+          "text": "Al parecer, los informes sobre la extinción del celacanto fueron muy exagerados. Los científicos creían que este animal marino había desaparecido durante el período Cretácico, pero en 1938 y de nuevo en 1952 se capturaron ejemplares de este pez frente a las costas de Sudáfrica. Desde entonces, otros celacantos han sido fotografiados en las profundas aguas frente a las costas de Madagascar."
+        }
+      ]
+    },
+    {
+      "id": "mollusks",
+      "title": "Moluscos",
+      "image": "assets/rsea/RSEA02PU.webp",
+      "text": "Los moluscos antiguos, como los amonites, eran muy abundantes en la antigüedad. ¡Algunos amonites llegaban a medir más de metro y medio de diámetro! Al igual que el moderno nautilo, los amonites tenían conchas enrolladas divididas en una serie de cámaras. Solo la cámara más cercana a la abertura estaba ocupada por el animal. Las demás cámaras se llenaban de líquido y gas, que podían desplazarse a través de un canal. Al cambiar las proporciones de líquido y gas, el animal podía controlar si flotaba más alto o se hundía más en el agua."
+    },
+    {
+      "id": "dolphin-look-alike",
+      "title": "El doble del delfín",
+      "image": "assets/rsea/RSEA03PU.webp",
+      "text": "Aunque el Ictiosaurio está clasificado como reptil, comparte muchas similitudes con un mamífero actual: el delfín. Al igual que el delfín, el Ictiosaurio tenía un cuerpo estilizado, aletas en forma de remo, una aleta dorsal y debía salir a la superficie para respirar aire. En lugar de poner huevos como sus primos reptiles, es posible que el Ictiosaurio diera a luz crías vivas, tal como hacen los mamíferos hoy en día.",
+      "captions": [
+        {
+          "label": "El equipo de los delfines",
+          "text": "Los delfines actuales son animales muy inteligentes. Con entrenamiento, pueden realizar tareas difíciles e incluso «hablar» con sus entrenadores. ¿Crees que el Ictiosaurio enviaba mensajes a sus amigos bajo el agua?"
+        }
+      ]
+    },
+    {
+      "id": "the-longest-lizard",
+      "title": "El lagarto más largo",
+      "image": "assets/rsea/RSEA04PU.webp",
+      "text": "Con nueve metros de longitud, el Mosasaurio fue el lagarto más largo que jamás haya existido. Con su enorme boca podía devorar casi cualquier cosa que pudiera atrapar. Los fósiles de conchas de amonites perforadas indican que estos moluscos eran probablemente un alimento básico en la dieta del Mosasaurio.",
+      "captions": [
+        {
+          "label": "Breve pero exitoso",
+          "text": "Los mosasaurios, el grupo de lagartos que toma su nombre del Mosasaurio, se consideran una rama del grupo al que pertenecen los actuales varanos. Los mosasaurios vivieron únicamente durante el período Cretácico tardío y se extinguieron al mismo tiempo que los dinosaurios. Se han encontrado varios restos de mosasaurios en Kansas."
+        }
+      ]
+    },
+    {
+      "id": "pebbles-for-breakfast",
+      "title": "Guijarros para desayunar",
+      "image": "assets/rsea/RSEA05PU.webp",
+      "text": "Plesiosaurios como el Muraenosaurio flotaban con facilidad en el mar gracias a sus pulmones llenos de aire. Pero bucear no les resultaba tan fácil. Necesitaban más peso para mantenerse bajo el agua, así que se tragaban guijarros, igual que hacen los cocodrilos hoy en día.",
+      "captions": [
+        {
+          "label": "Poner huevos en tierra",
+          "text": "Aunque los reptiles nadadores pasaban la mayor parte de su vida en el mar, probablemente tenían que volver a tierra para poner sus huevos. La mayoría de los reptiles nacen de huevos."
+        }
+      ]
+    },
+    {
+      "id": "paddle-power",
+      "title": "La fuerza de las aletas",
+      "image": "assets/rsea/RSEA07PU.webp",
+      "text": "Los plesiosaurios y los pliosaurios tenían cuatro potentes aletas que usaban junto con sus colas para desplazarse velozmente por el agua.",
+      "captions": [
+        {
+          "label": "Aguantando la respiración",
+          "text": "Como todos los reptiles nadadores, el pliosaurio Macroplata respiraba aire, lo que significaba que tenía que salir a la superficie cada vez que necesitaba tomar aire."
+        },
+        {
+          "label": "Cuello de serpiente",
+          "text": "El Elasmosaurio fue el plesiosaurio más largo del mar; su cuello representaba la mitad de sus trece metros de longitud. Con su pequeña cabeza en forma de serpiente, se lanzaba tras los peces cerca de la superficie, atrapándolos con sus afilados dientes."
+        }
+      ]
+    },
+    {
+      "id": "the-oldest-reptiles",
+      "title": "Los reptiles más antiguos",
+      "image": "assets/rsea/RSEA08PU.webp",
+      "text": "Las tortugas son los reptiles más antiguos que han sobrevivido hasta hoy. Aparecieron hace unos 220 millones de años. El Archelon era una tortuga antigua de tamaño gigantesco, que medía casi cuatro metros de longitud, y vivió cerca del final del reinado de los dinosaurios. Es posible que utilizara su pico ganchudo para atrapar medusas y triturar moluscos.",
+      "captions": [
+        {
+          "label": "Gigantes modernos",
+          "text": "La tortuga laúd es la tortuga más grande que existe en la actualidad. ¡Una sola tortuga laúd puede pesar una tonelada! Al igual que el Archelon, las tortugas laúd se alimentan de medusas."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Reptiles of the Air",
+      "to": "rair"
+    },
+    {
+      "label": "Living Fossils",
+      "to": "ddec"
+    },
+    {
+      "label": "Ammonite",
+      "to": "ammo"
+    },
+    {
+      "label": "Macroplata",
+      "to": "macr"
+    },
+    {
+      "label": "Mosasaurus",
+      "to": "mosa"
+    },
+    {
+      "label": "Muraenosaurus"
+    },
+    {
+      "label": "Long Necks",
+      "to": "long"
+    },
+    {
+      "label": "Archelon",
+      "to": "arcn"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/rsea/RSEA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Los reptiles más antiguos",
+            "to": "the-oldest-reptiles",
+            "x": 55,
+            "y": 14,
+            "w": 28,
+            "h": 7
+          },
+          {
+            "label": "El lagarto más largo",
+            "to": "the-longest-lizard",
+            "x": 57,
+            "y": 26,
+            "w": 27,
+            "h": 7
+          },
+          {
+            "label": "El doble del delfín",
+            "to": "dolphin-look-alike",
+            "x": 47,
+            "y": 54,
+            "w": 27,
+            "h": 7
+          },
+          {
+            "label": "En las profundidades",
+            "to": "in-the-depths",
+            "x": 36,
+            "y": 67,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Guijarros para desayunar",
+            "to": "pebbles-for-breakfast",
+            "x": 3,
+            "y": 52,
+            "w": 27,
+            "h": 7
+          },
+          {
+            "label": "La fuerza de las aletas",
+            "to": "paddle-power",
+            "x": 3,
+            "y": 65,
+            "w": 20,
+            "h": 7
+          },
+          {
+            "label": "Moluscos",
+            "to": "mollusks",
+            "x": 3,
+            "y": 78,
+            "w": 15,
+            "h": 7
+          }
+        ]
+      },
+      "in-the-depths": {
+        "image": "assets/rsea/RSEA01PU.webp",
+        "back": "main"
+      },
+      "mollusks": {
+        "image": "assets/rsea/RSEA02PU.webp",
+        "back": "main"
+      },
+      "dolphin-look-alike": {
+        "image": "assets/rsea/RSEA03PU.webp",
+        "back": "main"
+      },
+      "the-longest-lizard": {
+        "image": "assets/rsea/RSEA04PU.webp",
+        "back": "main"
+      },
+      "pebbles-for-breakfast": {
+        "image": "assets/rsea/RSEA05PU.webp",
+        "back": "main"
+      },
+      "paddle-power": {
+        "image": "assets/rsea/RSEA07PU.webp",
+        "back": "main"
+      },
+      "the-oldest-reptiles": {
+        "image": "assets/rsea/RSEA08PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/rsea/RSEA00AP.mp3",
+  "narration": "assets/rsea/RSEA00AJ.mp3",
+  "sound": "assets/rsea/RSEA00SA.mp3",
+  "fanTranslation": true
+}

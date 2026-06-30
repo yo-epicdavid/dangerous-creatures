@@ -1,0 +1,137 @@
+{
+  "id": "baro",
+  "code": "BARO",
+  "name": "Barosaurus",
+  "category": "dinosaur",
+  "scientificName": "Barosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "bar-oh-SOR-us",
+  "meaning": "lagarto pesado",
+  "period": "Jurásico superior",
+  "diet": "Herbívoro",
+  "tagline": "¡Un gigante apacible con un cuello de nueve metros que podía alcanzar las copas de los árboles más altos!",
+  "hero": {
+    "image": "assets/baro/BARO00AA.webp",
+    "alt": "Barosaurus"
+  },
+  "intro": "¡Imagina tener un cuello de nueve metros de largo! El Barosaurus podía estirar su cuello para comer hojas de las copas de los árboles, lo que le daba ventaja sobre los dinosaurios más bajos. Para alcanzar aún más alto, es posible que este gigantesco saurópodo se pusiera de pie sobre sus patas traseras, usando su larga cola, parecida a un látigo, como apoyo y equilibrio adicional. El Barosaurus pesaba más que ocho elefantes y necesitaba comer enormes cantidades de vegetación cada día para saciar su gran apetito.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "África, Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico tardío"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto pesado"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Saurópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "27 m (90 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "on-display",
+      "title": "En exposición",
+      "image": "assets/baro/BARO01PU.webp",
+      "text": "El Museo Americano de Historia Natural de Nueva York cuenta con esta espectacular exposición, que muestra a una madre Barosaurus encabritándose para defender a su cría de un Alosaurio que la ataca.",
+      "captions": [
+        {
+          "label": "En busca del almuerzo",
+          "text": "El Alosaurio era un gran dinosaurio carnívoro que cazaba o carroñeaba animales herbívoros como el Barosaurus."
+        },
+        {
+          "label": "Protegiendo a la cría",
+          "text": "La cría de Barosaurus podría haberse escondido entre las patas de su madre y su larga cola, parecida a un látigo."
+        }
+      ]
+    },
+    {
+      "id": "two-types-of-dinos",
+      "title": "Dos tipos de dinosaurios",
+      "image": "assets/baro/BARO02PU.webp",
+      "text": "Los dinosaurios se dividen en dos grandes grupos según la forma y posición de sus huesos de la cadera. Este es el criterio más importante para clasificar a los dinosaurios. El Barosaurus es un dinosaurio con caderas de lagarto.",
+      "captions": [
+        {
+          "label": "Caderas de ave",
+          "text": "Los ornitisquios o dinosaurios de «caderas de ave» tenían los dos huesos inferiores de la pelvis apuntando hacia atrás y hacia abajo, igual que la estructura ósea de las aves actuales. Todos los dinosaurios de caderas de ave eran herbívoros."
+        },
+        {
+          "label": "Caderas de lagarto",
+          "text": "Los saurisquios o dinosaurios de «caderas de lagarto» tenían uno de los dos huesos inferiores de la pelvis apuntando hacia delante y el otro hacia atrás, una estructura característica de los lagartos actuales. El grupo de caderas de lagarto incluye tanto dinosaurios herbívoros como carnívoros."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Long Necks",
+      "to": "long"
+    },
+    {
+      "label": "Museums of North America",
+      "to": "muse"
+    },
+    {
+      "label": "How to Recognize Sauropods",
+      "to": "hsau"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/baro/BARO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Dos tipos de dinosaurios",
+            "to": "two-types-of-dinos",
+            "x": 63,
+            "y": 51,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "En exposición",
+            "to": "on-display",
+            "x": 18,
+            "y": 63,
+            "w": 13,
+            "h": 5
+          }
+        ]
+      },
+      "on-display": {
+        "image": "assets/baro/BARO01PU.webp",
+        "back": "main"
+      },
+      "two-types-of-dinos": {
+        "image": "assets/baro/BARO02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/baro/BARO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/baro/BARO00AP.mp3",
+  "narration": "assets/baro/BARO00AJ.mp3",
+  "fanTranslation": true
+}

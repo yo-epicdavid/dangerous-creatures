@@ -1,0 +1,331 @@
+{
+  "id": "steg",
+  "code": "STEG",
+  "name": "Estegosaurio",
+  "category": "dinosaur",
+  "scientificName": "Stegosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "STEG-oh-SOR-us",
+  "meaning": "lagarto techado",
+  "period": "Jurásico superior",
+  "diet": "Herbívoro",
+  "tagline": "¡El gigante de espalda espinosa con un cerebro del tamaño de una nuez!",
+  "hero": {
+    "image": "assets/steg/STEG00AA.webp",
+    "alt": "Estegosaurio"
+  },
+  "intro": "Cuando se encontraron los primeros fósiles del Estegosaurio, los expertos creyeron que sus grandes placas óseas descansaban planas sobre su espalda, como las tejas de un tejado. Por eso su nombre significa «lagarto techado». Después alguien propuso que las placas estaban de canto en dos filas, una junto a la otra. Ahora nuevas evidencias apuntan a que quizás solo había una única fila de placas.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico Tardío"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Lagarto techado"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Estegosáurido"
+    },
+    {
+      "label": "Longitud",
+      "value": "9 m (30 pies)"
+    },
+    {
+      "label": "Peso",
+      "value": "2 toneladas"
+    }
+  ],
+  "topics": [
+    {
+      "id": "purpose-of-the-plates",
+      "title": "Para qué servían las placas",
+      "image": "assets/steg/STEG01PU.webp",
+      "text": "¿Por qué tenía el Estegosaurio unas placas tan extrañas a lo largo de su espalda? No eran puntiagudas para servir de defensa. Ni siquiera estaban unidas al esqueleto, sino que simplemente sobresalían de la piel. Los científicos creen ahora que las placas ayudaban al Estegosaurio a regular su temperatura corporal. Las placas estaban llenas de orificios en forma de panal, quizás para los vasos sanguíneos. De cara al sol, las placas absorbían el calor, como paneles solares, y calentaban la sangre. De cara a la brisa o en la sombra, las placas ayudaban a enfriar al dinosaurio."
+    },
+    {
+      "id": "the-bones-beneath-the-plates",
+      "title": "Los huesos bajo las placas",
+      "image": "assets/steg/STEG02PU.webp",
+      "text": "Así es como tenía el aspecto un estegosáurido sin su carne ni su piel. Las placas óseas de su espalda no estaban unidas a su esqueleto, sino simplemente incrustadas en su gruesa piel."
+    },
+    {
+      "id": "rebuilding-a-dinosaur",
+      "title": "Reconstruyendo un dinosaurio",
+      "image": "assets/steg/STEG03PU.webp",
+      "text": "Imagina reconstruir un dinosaurio desde cero. Sería como hacer un puzle gigante, con algunas piezas que faltan y otras rotas. En esta imagen, un equipo de trabajadores parece diminuto mientras encajan los huesos para reconstruir el esqueleto de un Estegosaurio.",
+      "captions": [
+        {
+          "label": "Sujetando el esqueleto",
+          "text": "Los huesos fósiles son roca sólida y muy pesados, por lo que los trabajadores usan varillas de plástico o metal para mantenerlos en posición. Andamios y cables del techo sujetan y sostienen las partes más altas del esqueleto."
+        }
+      ]
+    },
+    {
+      "id": "lethal-weapon",
+      "title": "Arma letal",
+      "image": "assets/steg/STEG04PU.webp",
+      "text": "Muchos dinosaurios herbívoros dependían de sus colas para defenderse. Así es como habrían tenido el aspecto las púas de la cola del Estegosaurio. La cola era tan musculosa y poderosa que no era muy flexible, salvo en la punta de movimiento rápido, donde estaban las púas.",
+      "captions": [
+        {
+          "label": "Cola en maza",
+          "text": "Muchos anquilosaurios tenían mazas óseas al final de sus colas. Con hasta casi un metro de diámetro, estas mazas podían asestar golpes tremendamente dolorosos."
+        },
+        {
+          "label": "Púa fósil",
+          "text": "Esta púa de la cola del Estegosaurio habría estado recubierta por una dura capa de cuerno cuando el dinosaurio estaba vivo, y tenía una punta muy afilada. Si la golpeaba contra el vientre blando de un carnívoro, habría causado una herida terrible e incapacitante. Las púas de la cola llegaban a medir hasta casi un metro de largo."
+        }
+      ]
+    },
+    {
+      "id": "early-error",
+      "title": "Un error temprano",
+      "image": "assets/steg/STEG05PU.webp",
+      "text": "Este grabado muestra uno de los primeros intentos de reconstruir un dinosaurio con placas, ¡con púas como las de un puercoespín en lugar de placas óseas! Es poco probable que los estegosáuridos pudiesen caminar sobre dos patas: sus patas delanteras no servían para nada más que para caminar.",
+      "captions": [
+        {
+          "label": "¿Saurópodos nadadores?",
+          "text": "La historia del descubrimiento de los dinosaurios está repleta de ideas equivocadas. En un tiempo se creyó que los saurópodos como este eran acuáticos. Aunque los saurópodos probablemente eran excelentes nadadores, vivían principalmente en tierra firme."
+        }
+      ]
+    },
+    {
+      "id": "the-largest-plated-dinosaur",
+      "title": "El dinosaurio con placas más grande",
+      "image": "assets/steg/STEG06PU.webp",
+      "text": "El Estegosaurio, de casi ocho metros de largo y con un peso de hasta dos toneladas, es el mayor y más conocido de todos los dinosaurios con placas. Sus placas óseas en la espalda alcanzaban hasta unos setenta y cinco centímetros de altura.",
+      "captions": [
+        {
+          "label": "Un estegosáurido más pequeño",
+          "text": "El Kentrosaurus era diminuto comparado con el Estegosaurio, y sus placas eran más puntiagudas que las de muchos otros estegosáuridos."
+        }
+      ]
+    },
+    {
+      "id": "large-body-tiny-brain",
+      "title": "Gran cuerpo, cerebro diminuto",
+      "image": "assets/steg/STEG07PU.webp",
+      "text": "El cerebro del Estegosaurio medía menos de cinco centímetros de largo, solo del tamaño de una nuez o un huevo, por lo que el dinosaurio probablemente no era muy listo. Sin embargo, el Estegosaurio sobrevivió durante millones de años, así que era evidentemente lo bastante inteligente para la época en que vivió.",
+      "captions": [
+        {
+          "label": "Un pico débil",
+          "text": "El Estegosaurio tenía dientes en forma de hoja en la parte trasera de la boca, pero solo un «pico» sin dientes en la parte delantera. También tenía músculos mandibulares débiles, por lo que probablemente solo podía masticar plantas blandas para alimentarse."
+        }
+      ]
+    },
+    {
+      "id": "feeding-on-ferns",
+      "title": "Alimentándose de helechos",
+      "image": "assets/steg/STEG08PU.webp",
+      "text": "Caminando a cuatro patas, el Estegosaurio usaba su pico para alimentarse de la vegetación baja, como los helechos. Con sus características placas en la espalda, el Estegosaurio debía de ser fácilmente reconocido por otros dinosaurios en la llanura de inundación.",
+      "captions": [
+        {
+          "label": "Fronda común",
+          "text": "Los helechos como este eran frecuentes durante toda la Era de los Dinosaurios."
+        }
+      ]
+    },
+    {
+      "id": "straight-or-bent",
+      "title": "¿Recto o doblado?",
+      "image": "assets/steg/STEG09PU.webp",
+      "text": "Las patas delanteras del Estegosaurio eran más cortas que las traseras, lo que hacía que su columna vertebral se inclinase hacia delante, acercando su cabeza al suelo para pastar. Pero ¿eran las patas rectas o dobladas? Los expertos no están seguros."
+    },
+    {
+      "id": "feet-like-an-elephant",
+      "title": "Patas como las de un elefante",
+      "image": "assets/steg/STEG10PU.webp",
+      "text": "El Estegosaurio tenía fuertes patas traseras, casi el doble de largas que las delanteras. Sus patas planas tenían tres dedos grandes y uno muy pequeño, diseñadas para soportar peso, no para ir a gran velocidad.",
+      "captions": [
+        {
+          "label": "Pies grandes modernos",
+          "text": "Al igual que el Estegosaurio, este elefante africano tiene las patas anchas y con almohadillas gruesas."
+        }
+      ]
+    },
+    {
+      "id": "solar-powered-animals",
+      "title": "Animales de energía solar",
+      "image": "assets/steg/STEG11PU.webp",
+      "text": "Hay otras criaturas aparte de los estegosáuridos que han utilizado placas y velas para absorber los rayos del sol.",
+      "captions": [
+        {
+          "label": "Hermana con vela",
+          "text": "El Espinosaurio tenía una vela de hasta unos dos metros y medio de altura. Vivió hace unos 100 millones de años."
+        },
+        {
+          "label": "Dimetrodón",
+          "text": "Un reptil prehistórico llamado Dimetrodón vivió antes que los dinosaurios. Probablemente usaba la gran vela de su espalda para absorber el calor del sol en los días fríos y así calentar su cuerpo."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Reconstructing Dinosaurs",
+      "to": "reco"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/steg/STEG00AA.webp",
+        "hotspots": [
+          {
+            "label": "El dinosaurio con placas más grande",
+            "to": "the-largest-plated-dinosaur",
+            "x": 55,
+            "y": 17,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Para qué servían las placas",
+            "to": "purpose-of-the-plates",
+            "x": 57,
+            "y": 24,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Animales de energía solar",
+            "to": "solar-powered-animals",
+            "x": 56,
+            "y": 31,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Los huesos bajo las placas",
+            "to": "the-bones-beneath-the-plates",
+            "x": 58,
+            "y": 40,
+            "w": 28,
+            "h": 8
+          },
+          {
+            "label": "Un error temprano",
+            "to": "early-error",
+            "x": 66,
+            "y": 51,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Arma letal",
+            "to": "lethal-weapon",
+            "x": 65,
+            "y": 59,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Reconstruyendo un dinosaurio",
+            "to": "rebuilding-a-dinosaur",
+            "x": 2,
+            "y": 38,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Gran cuerpo, cerebro diminuto",
+            "to": "large-body-tiny-brain",
+            "x": 2,
+            "y": 46,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "¿Recto o doblado?",
+            "to": "straight-or-bent",
+            "x": 2,
+            "y": 54,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Patas como las de un elefante",
+            "to": "feet-like-an-elephant",
+            "x": 2,
+            "y": 61,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Alimentándose de helechos",
+            "to": "feeding-on-ferns",
+            "x": 35,
+            "y": 70,
+            "w": 21,
+            "h": 5
+          }
+        ]
+      },
+      "purpose-of-the-plates": {
+        "image": "assets/steg/STEG01PU.webp",
+        "back": "main"
+      },
+      "the-bones-beneath-the-plates": {
+        "image": "assets/steg/STEG02PU.webp",
+        "back": "main"
+      },
+      "rebuilding-a-dinosaur": {
+        "image": "assets/steg/STEG03PU.webp",
+        "back": "main"
+      },
+      "lethal-weapon": {
+        "image": "assets/steg/STEG04PU.webp",
+        "back": "main"
+      },
+      "early-error": {
+        "image": "assets/steg/STEG05PU.webp",
+        "back": "main"
+      },
+      "the-largest-plated-dinosaur": {
+        "image": "assets/steg/STEG06PU.webp",
+        "back": "main"
+      },
+      "large-body-tiny-brain": {
+        "image": "assets/steg/STEG07PU.webp",
+        "back": "main"
+      },
+      "feeding-on-ferns": {
+        "image": "assets/steg/STEG08PU.webp",
+        "back": "main"
+      },
+      "straight-or-bent": {
+        "image": "assets/steg/STEG09PU.webp",
+        "back": "main"
+      },
+      "feet-like-an-elephant": {
+        "image": "assets/steg/STEG10PU.webp",
+        "back": "main"
+      },
+      "solar-powered-animals": {
+        "image": "assets/steg/STEG11PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/steg/STEG50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/steg/STEG00AP.mp3",
+  "narration": "assets/steg/STEG00AJ.mp3",
+  "fanTranslation": true
+}

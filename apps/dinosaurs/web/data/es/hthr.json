@@ -1,0 +1,113 @@
+{
+  "id": "hthr",
+  "code": "HTHR",
+  "name": "Cómo reconocer a los terópodos",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Dientes afilados, garras desgarradoras y dos patas para perseguirte: ¡eso es un terópodo!",
+  "hero": {
+    "image": "assets/hthr/HTHR00AA.webp",
+    "alt": "Cómo reconocer a los terópodos"
+  },
+  "intro": "Todos los dinosaurios carnívoros eran terópodos. Algunos, como el Tiranosaurio rex, eran gigantes de hasta quince metros de longitud. Otros, como el Saltopus, medían apenas sesenta centímetros de la nariz a la punta de la cola. Aunque los dinosaurios terópodos tenían muy distintos tamaños, todos poseían dientes afilados, garras amenazadoras y apetito por la carne.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "two-legged-runners-with-lizard-hips",
+      "title": "Corredores bípedos con caderas de lagarto",
+      "image": "assets/hthr/HTHR01PU.webp",
+      "text": "Los dinosaurios se dividen en dos grandes grupos principales según la forma y posición de sus huesos de la cadera. Todos los terópodos eran saurisquios, o dinosaurios de «caderas de lagarto», y se desplazaban sobre dos patas.",
+      "captions": [
+        {
+          "label": "Corredores bípedos erguidos",
+          "text": "Todos los terópodos caminaban erguidos sobre dos patas largas, reservando sus pequeñas «manos» para atrapar a sus presas. Los expertos creen que muchos terópodos podían ser muy veloces."
+        },
+        {
+          "label": "Caderas de ave frente a caderas de lagarto",
+          "text": "En los dinosaurios de caderas de ave, los dos huesos pélvicos inferiores apuntaban hacia atrás y hacia abajo, igual que la estructura ósea de las aves actuales. En los dinosaurios de caderas de lagarto, uno de los dos huesos pélvicos inferiores apuntaba hacia delante y el otro hacia atrás, una estructura característica de los lagartos modernos."
+        }
+      ]
+    },
+    {
+      "id": "teeth-and-claws",
+      "title": "Dientes y garras",
+      "image": "assets/hthr/HTHR02PU.webp",
+      "text": "Los terópodos eran todos dinosaurios carnívoros que se alimentaban de otras criaturas. Los comedores de carne, a menos que sean carroñeros, necesitan capturar, matar y despedazar a sus presas, y la mayoría están bien equipados para ello.",
+      "captions": [
+        {
+          "label": "Garras desgarradoras",
+          "text": "La mayoría de los terópodos tenían garras tanto en las manos como en los pies con las que podían herir a sus víctimas. El Deinonychus tenía garras en forma de hoz en los pies con las que podía abrir cortes letales. Las garras de las manos servían principalmente para agarrar y sujetar a las desafortunadas presas."
+        },
+        {
+          "label": "Cazadores sin dientes",
+          "text": "Algunos de los terópodos más pequeños no tenían dientes, pero seguían siendo carnívoros que atrapaban lagartos, insectos y otras presas pequeñas, igual que hacen muchas aves hoy en día. El Gallimimus, que se muestra aquí, era un ágil cazador parecido a un ave con un pico sin dientes."
+        },
+        {
+          "label": "Cazadores con dientes letales",
+          "text": "Todos los terópodos más grandes, llamados carnosaurios, tenían la boca llena de dientes afilados como cuchillas especialmente diseñados para desgarrar carne."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Baryonyx",
+      "to": "bary"
+    },
+    {
+      "label": "Speedy Dinosaurs",
+      "to": "spee"
+    },
+    {
+      "label": "Deinonychus",
+      "to": "dein"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/hthr/HTHR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Dientes y garras",
+            "to": "teeth-and-claws",
+            "x": 12,
+            "y": 43,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Corredores bípedos con caderas de lagarto",
+            "to": "two-legged-runners-with-lizard-hips",
+            "x": 5,
+            "y": 55,
+            "w": 33,
+            "h": 5
+          }
+        ]
+      },
+      "two-legged-runners-with-lizard-hips": {
+        "image": "assets/hthr/HTHR01PU.webp",
+        "back": "main"
+      },
+      "teeth-and-claws": {
+        "image": "assets/hthr/HTHR02PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/hthr/HTHR00AP.mp3",
+  "narration": "assets/hthr/HTHR00AJ.mp3",
+  "sound": "assets/hthr/HTHR00SA.mp3",
+  "fanTranslation": true
+}

@@ -1,0 +1,117 @@
+{
+  "id": "stau",
+  "code": "STAU",
+  "name": "Staurikosaurus",
+  "category": "dinosaur",
+  "scientificName": "Staurikosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "staw-RIK-oh-SOR-us",
+  "meaning": "lagarto de la Cruz del Sur",
+  "period": "Triásico superior",
+  "diet": "Carnívoro",
+  "tagline": "Uno de los primeros dinosaurios: un veloz corredor de dientes afilados del alba de la era de los dinosaurios.",
+  "hero": {
+    "image": "assets/stau/STAU00AA.webp",
+    "alt": "Staurikosaurus"
+  },
+  "intro": "Del período Triásico Tardío, el Staurikosaurus fue uno de los primeros dinosaurios, y uno de los más primitivos. Era un pequeño carnívoro de constitución ligera, con mandíbulas fuertes y dientes afilados. La capacidad del Staurikosaurus de correr sobre dos patas le daba ventaja sobre otros reptiles de la época.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "América del Sur"
+    },
+    {
+      "label": "Época",
+      "value": "Triásico"
+    },
+    {
+      "label": "Nombre",
+      "value": "lagarto de la Cruz del Sur"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Terópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "1,8 m (6 pies)"
+    },
+    {
+      "label": "Peso",
+      "value": "66 libras"
+    }
+  ],
+  "topics": [
+    {
+      "id": "triassic-terrors",
+      "title": "Terrores del Triásico",
+      "image": "assets/stau/STAU01PU.webp",
+      "text": "En la prehistoria, los depredadores existían en todas las formas y tamaños, y no todos eran dinosaurios. Todos estos cazadores vivieron durante el período Triásico, hace más de 200 millones de años.",
+      "captions": [
+        {
+          "label": "Depredador bípedo",
+          "text": "El Coelophysis reunía todas las características de un cazador veloz. Este dinosaurio terópodo de tres metros de longitud probablemente se alimentaba de insectos, lagartos y todo lo que pudiera atrapar."
+        },
+        {
+          "label": "Terror en el cielo",
+          "text": "El Eudimorphodon se lanzaba en picado para atrapar peces desprevenidos del agua que había debajo."
+        },
+        {
+          "label": "Cazador de peces",
+          "text": "El Shonisaurus, un ictiosaurio, buscaba peces en los mares primitivos."
+        },
+        {
+          "label": "Cazador de aspecto mamífero",
+          "text": "El Cynognathus era un miembro de los terápsidos, un grupo especial de reptiles considerado precursor de los mamíferos."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Triassic Period",
+      "to": "tria"
+    },
+    {
+      "label": "Cynognathus",
+      "to": "cyno"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/stau/STAU00AA.webp",
+        "hotspots": [
+          {
+            "label": "Terrores del Triásico",
+            "to": "triassic-terrors",
+            "x": 76,
+            "y": 49,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "triassic-terrors": {
+        "image": "assets/stau/STAU01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/stau/STAU50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/stau/STAU00AP.mp3",
+  "narration": "assets/stau/STAU00AJ.mp3",
+  "fanTranslation": true
+}

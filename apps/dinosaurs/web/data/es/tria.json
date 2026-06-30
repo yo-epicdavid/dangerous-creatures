@@ -1,0 +1,196 @@
+{
+  "id": "tria",
+  "code": "TRIA",
+  "name": "El Período Triásico",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "try-ASS-ik",
+  "meaning": "",
+  "period": "Triásico",
+  "diet": "",
+  "tagline": "El amanecer de la Era de los Dinosaurios, cuando toda la Tierra era un único continente gigantesco.",
+  "hero": {
+    "image": "assets/tria/TRIA00AA.webp",
+    "alt": "El Período Triásico"
+  },
+  "intro": "Cuando el período Triásico comenzó hace más de 240 millones de años, el clima era cálido y la Tierra tenía un solo continente. Alrededor de las charcas de agua crecían helechos, cícadas y colas de caballo, y en el interior, bosques de ginkgos y coníferas prosperaban en condiciones casi desérticas. Así era el escenario al alba de la Era de los Dinosaurios. Los primeros dinosaurios aparecieron a finales del período Triásico, evolucionando a partir de arcosaurios más primitivos, un grupo de reptiles del que también surgieron los cocodrilos y los pterosaurios.",
+  "facts": [
+    {
+      "label": "Inicio",
+      "value": "hace más de 240 millones de años"
+    },
+    {
+      "label": "Supercontinente",
+      "value": "Pangea"
+    },
+    {
+      "label": "Clima",
+      "value": "cálido y casi desértico en el interior"
+    },
+    {
+      "label": "Precedido por",
+      "value": "período Pérmico"
+    },
+    {
+      "label": "Primeros dinosaurios",
+      "value": "aparecieron a finales del período Triásico"
+    }
+  ],
+  "topics": [
+    {
+      "id": "a-different-world",
+      "title": "Un mundo diferente",
+      "image": "assets/tria/TRIA01PU.webp",
+      "text": "Al comienzo del período Triásico, todos los continentes estaban unidos en un único «supercontinente» llamado Pangea. Sin grandes mares que bloquearan su camino, los dinosaurios y otras criaturas prehistóricas podían desplazarse por toda la tierra. Hacia el final del período Triásico, Pangea comenzaba a dividirse en dos masas de tierra: Laurasia y Gondwana."
+    },
+    {
+      "id": "earlier-reptile-rulers",
+      "title": "Los reptiles dominantes de antaño",
+      "image": "assets/tria/TRIA02PU.webp",
+      "text": "Los dinosaurios fueron el último grupo de reptiles «dominantes» en gobernar la Tierra. Aquí puedes ver representantes de otros grupos de reptiles que vivieron durante el período Pérmico, que precedió a la Era de los Dinosaurios.",
+      "captions": [
+        {
+          "label": "Eryops",
+          "text": "Este anfibio llegó a medir más de metro ochenta de longitud. Sus descendientes, los sapos y ranas modernos, ocupan mucho menos espacio."
+        },
+        {
+          "label": "Dimetrodon",
+          "text": "La gran «aleta» de su lomo puede haber contribuido a regular la temperatura corporal de este reptil de unos tres metros de longitud. Hasta la fecha, se han identificado dos dinosaurios con estructuras similares en forma de vela en el dorso. Quizás estas espinosas innovaciones les permitían también refrescarse."
+        },
+        {
+          "label": "Moschops",
+          "text": "Aunque su aspecto no era muy adorable y seguía clasificado como reptil, el Moschops es un antepasado directo de los mamíferos actuales. ¡Tu perro o tu gato tiene a este lejano pariente en su árbol genealógico!"
+        }
+      ]
+    },
+    {
+      "id": "plant-life",
+      "title": "La vida vegetal",
+      "image": "assets/tria/TRIA03PU.webp",
+      "text": "Las plantas se adaptaron a la vida en tierra antes que los animales, y, al igual que ellos, han empleado múltiples mecanismos para evolucionar ante condiciones cambiantes. Las plantas prehistóricas han tenido más éxito que los dinosaurios: muchas especies vegetales primitivas siguen sobreviviendo hoy en día.",
+      "captions": [
+        {
+          "label": "Araucaria",
+          "text": "Algunas de las árboles más altos del Triásico eran coníferas primitivas como la araucaria, que aún puede verse hoy en día. ¡Habría que ser un dinosaurio muy resistente para masticar una de estas ramas!"
+        },
+        {
+          "label": "Ginkgo",
+          "text": "Estos árboles estaban mucho más extendidos en el Triásico que en la actualidad. Se reconocen con facilidad, tanto en fósiles como en plantas vivas, por sus hojas en forma de abanico. Hoy en día, los ginkgos también se conocen como árboles de cabello de doncella."
+        },
+        {
+          "label": "Cola de caballo",
+          "text": "Allí donde había agua, las colas de caballo abundaban, aportando una vegetación blanda que los reptiles podían comer. Los registros fósiles indican que algunas colas de caballo prehistóricas alcanzaban los dieciocho metros de altura. Las colas de caballo modernas no superan el metro y medio."
+        }
+      ]
+    },
+    {
+      "id": "early-dinosaurs",
+      "title": "Los primeros dinosaurios",
+      "image": "assets/tria/TRIA04PU.webp",
+      "text": "Aunque grandes para los estándares actuales, los primeros dinosaurios no eran los gigantes que vemos en las películas y los museos de hoy. Cada año se excavan e identifican dinosaurios pequeños y primitivos, especialmente en América del Sur.",
+      "captions": [
+        {
+          "label": "Staurikosaurus",
+          "text": "Datado del Triásico tardío, el Staurikosaurus, de casi dos metros de longitud, es uno de los dinosaurios más antiguos que conocemos. Su capacidad para correr sobre dos patas le daba ventaja sobre los demás reptiles de la época."
+        },
+        {
+          "label": "Herrerasaurus",
+          "text": "Este pequeño dinosaurio sudamericano era un carnívoro bípedo muy primitivo, de unos tres metros de longitud."
+        },
+        {
+          "label": "Massospondylus",
+          "text": "Los dientes de este dinosaurio no eran ni serrados y afilados como los de los carnívoros, ni parecidos a rastrillos o trituradores como los de los herbívoros. Los dientes del Massospondylus eran dientes «multiusos» capaces de masticar tanto carne como plantas."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Jurassic Period",
+      "to": "jurr"
+    },
+    {
+      "label": "The Shifting Earth",
+      "to": "shft"
+    },
+    {
+      "label": "Life Before Dinosaurs",
+      "to": "befr"
+    },
+    {
+      "label": "Dinosaur Diets",
+      "to": "diet"
+    },
+    {
+      "label": "Herrerasaurus",
+      "to": "herr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/tria/TRIA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Un mundo diferente",
+            "to": "a-different-world",
+            "x": 3,
+            "y": 51,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Los reptiles dominantes de antaño",
+            "to": "earlier-reptile-rulers",
+            "x": 3,
+            "y": 66,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "La vida vegetal",
+            "to": "plant-life",
+            "x": 52,
+            "y": 37,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Los primeros dinosaurios",
+            "to": "early-dinosaurs",
+            "x": 47,
+            "y": 81,
+            "w": 19,
+            "h": 5
+          }
+        ]
+      },
+      "a-different-world": {
+        "image": "assets/tria/TRIA01PU.webp",
+        "back": "main"
+      },
+      "earlier-reptile-rulers": {
+        "image": "assets/tria/TRIA02PU.webp",
+        "back": "main"
+      },
+      "plant-life": {
+        "image": "assets/tria/TRIA03PU.webp",
+        "back": "main"
+      },
+      "early-dinosaurs": {
+        "image": "assets/tria/TRIA04PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/tria/TRIA00AP.mp3",
+  "narration": "assets/tria/TRIA00AJ.mp3",
+  "sound": "assets/tria/TRIA00SA.mp3",
+  "fanTranslation": true
+}

@@ -1,0 +1,218 @@
+{
+  "id": "foss",
+  "code": "FOSS",
+  "name": "¿Qué es un fósil?",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "FOZ-ul",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Vida atrapada en piedra: restos antiguos que nos permiten retroceder millones de años en el tiempo.",
+  "hero": {
+    "image": "assets/foss/FOSS00AA.webp",
+    "alt": "¿Qué es un fósil?"
+  },
+  "intro": "Un fósil son los restos de una planta o un animal que vivió hace millones de años. Tras la muerte, los tejidos blandos se pudrieron o fueron devorados por otros animales. Las partes duras, como los huesos, los dientes y las conchas de los animales, o la madera de las plantas, quedaron cubiertas por el agua y se enterraron en capas de arena o barro antes de que pudieran descomponerse. Con el paso del tiempo, el agua retrocedió y el sedimento se convirtió en roca. Los restos duros del animal a veces cambiaron químicamente y se transformaron en piedra. Otras veces, se conservaron prácticamente sin alteraciones. La capa de roca se plegó y quedó expuesta al viento y al agua en la superficie terrestre. Al cabo de muchos millones de años, la roca se erosionó y dejó al descubierto los fósiles.",
+  "facts": [
+    {
+      "label": "Duración del folclore",
+      "value": "Durante 10 000 años, el folclore atribuyó poderes especiales a los fósiles"
+    },
+    {
+      "label": "Redescubrimiento del celacanto",
+      "value": "En 1938, frente a las costas de Sudáfrica"
+    },
+    {
+      "label": "Especies de trilobites",
+      "value": "Más de 10 000"
+    },
+    {
+      "label": "Fósiles de Archaeopteryx conocidos",
+      "value": "Uno de los únicos seis encontrados"
+    }
+  ],
+  "topics": [
+    {
+      "id": "fossil-folklore",
+      "title": "El folclore de los fósiles",
+      "image": "assets/foss/FOSS01PU.webp",
+      "text": "Muchos fósiles se creyeron en otro tiempo de origen mágico o divino. Durante 10 000 años, el folclore les atribuyó poderes especiales. Se creía que las amonitas halladas en Inglaterra eran restos de serpientes enrolladas convertidas en piedra por la abadesa del siglo VII, santa Hilda. Los artesanos a veces tallaban cabezas de serpiente en los fósiles para reforzar esta creencia.",
+      "captions": [
+        {
+          "label": "Piedras mágicas",
+          "text": "Los erizos de mar fosilizados se creyeron en otro tiempo «piedras del trueno» que caían del cielo durante las tormentas. Se pensaba que podían evitar que la leche se agriase."
+        },
+        {
+          "label": "El cuerno del unicornio",
+          "text": "Durante muchos años, el colmillo de una pequeña ballena llamada narval fue identificado como el cuerno de un unicornio, hasta que alrededor de 1600 se descubrieron colmillos de mamut fosilizados. Los numerosos colmillos se interpretaron entonces como los únicos cuernos verdaderos del animal mítico, y se les dio el nombre de Unicornum verum."
+        }
+      ]
+    },
+    {
+      "id": "fossil-discovery",
+      "title": "El descubrimiento de fósiles",
+      "image": "assets/foss/FOSS02PU.webp",
+      "text": "Los descubrimientos de dinosaurios son poco frecuentes. Los fósiles suelen quedar enterrados entre capas de roca hasta que quedan al descubierto gracias a la excavación o la erosión.",
+      "captions": [
+        {
+          "label": "Las primeras señales",
+          "text": "Las primeras señales de un esqueleto de dinosaurio fosilizado pueden ser tan solo unos fragmentos de huesos rotos que asoman entre la roca, mientras el resto del esqueleto permanece enterrado en su interior. Extraer los huesos intactos exige un trabajo lento y cuidadoso. Es posible que no se puedan recuperar todos los huesos; algunos pueden tener que recogerse todavía envueltos en roca."
+        },
+        {
+          "label": "Registrando cada detalle",
+          "text": "Los científicos registran la posición de cada hueso descubierto mediante fotografías, mapas y diagramas. Cada detalle es importante. A continuación, cada hueso se envuelve en escayola y se lleva a un laboratorio donde puede examinarse con más detenimiento. Allí, los científicos intentan identificar qué son los huesos y cuál es su lugar en el esqueleto. Incluso puede ser posible determinar cómo murió el dinosaurio y cómo se convirtió en fósil."
+        }
+      ]
+    },
+    {
+      "id": "turned-to-stone",
+      "title": "Convertido en piedra",
+      "image": "assets/foss/FOSS03PU.webp",
+      "text": "Cuando se descubrieron los primeros fósiles de Archaeopteryx, los científicos creyeron que eran los restos del pequeño dinosaurio Compsognathus. Cuando se encontraron fósiles similares de mayor calidad, revelaron claramente las impresiones de las plumas. Este fósil de Archaeopteryx, una criatura intermedia entre los pequeños dinosaurios carnívoros y las aves, es muy raro. Uno de los únicos seis encontrados de este antiquísimo pájaro, es uno de los fósiles más valiosos del mundo."
+    },
+    {
+      "id": "trilobites",
+      "title": "Trilobites",
+      "image": "assets/foss/FOSS04PU.webp",
+      "text": "El trilobite recibió su nombre porque su duro exoesqueleto está dividido en tres partes diferenciadas, o lóbulos. Como los cuerpos externos de los trilobites estaban compuestos por el mineral calcita, eran resistentes a la descomposición. Existieron muchos tipos distintos de trilobites que vivieron solo durante periodos de tiempo concretos, por lo que los fósiles de trilobites se utilizan a menudo para determinar la edad de las rocas."
+    },
+    {
+      "id": "presumed-dead",
+      "title": "Dado por muerto",
+      "image": "assets/foss/FOSS05PU.webp",
+      "text": "El celacanto, un antiguo pez de tres lóbulos que se creía extinto desde hacía millones de años, fue encontrado vivo en 1938 por un pescador frente a las costas de Sudáfrica. El hallazgo causó un gran revuelo en los círculos científicos. Desde entonces se han capturado otros celacantos, y algunos han sido fotografiados vivos en aguas de entre 60 y 400 metros de profundidad frente a las islas Comoras, cerca de la isla de Madagascar."
+    },
+    {
+      "id": "hard-shell",
+      "title": "Caparazón duro",
+      "image": "assets/foss/FOSS06PU.webp",
+      "text": "Como los exoesqueletos de los trilobites contenían el mineral calcita, eran resistentes a la descomposición. Las patas y las partes blandas de la cara inferior de los animales rara vez se conservaban, pero los duros exoesqueletos de estos antiguos animales marinos se fosilizaron en abundancia. Estos restos ayudaron a los paleontólogos a determinar que existieron más de 10 000 especies de esta criatura extinta.",
+      "captions": [
+        {
+          "label": "Amonita nacarada",
+          "text": "Hoy extintas, las amonitas tenían conchas formadas por un material duro y calcáreo llamado aragonito. La capa exterior era de nácar, lo que otorgaba a la concha un aspecto colorido y translúcido. Esta amonita se conservó casi en su estado original."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Bernissart Dinosaur Mine",
+      "to": "mine"
+    },
+    {
+      "label": "Myths and Legends",
+      "to": "myth"
+    },
+    {
+      "label": "Dinosaur Society"
+    },
+    {
+      "label": "Archaeopteryx",
+      "to": "arch"
+    },
+    {
+      "label": "Trilobite",
+      "to": "tril"
+    },
+    {
+      "label": "Living Fossils",
+      "to": "ddec"
+    },
+    {
+      "label": "Extinction",
+      "to": "exti"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/foss/FOSS00AA.webp",
+        "hotspots": [
+          {
+            "label": "El descubrimiento de fósiles",
+            "to": "fossil-discovery",
+            "x": 22,
+            "y": 38,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "El folclore de los fósiles",
+            "to": "fossil-folklore",
+            "x": 31,
+            "y": 52,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Dado por muerto",
+            "to": "presumed-dead",
+            "x": 57,
+            "y": 38,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Caparazón duro",
+            "to": "hard-shell",
+            "x": 72,
+            "y": 50,
+            "w": 11,
+            "h": 5
+          },
+          {
+            "label": "Convertido en piedra",
+            "to": "turned-to-stone",
+            "x": 5,
+            "y": 64,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Trilobites",
+            "to": "trilobites",
+            "x": 54,
+            "y": 63,
+            "w": 10,
+            "h": 5
+          }
+        ]
+      },
+      "fossil-folklore": {
+        "image": "assets/foss/FOSS01PU.webp",
+        "back": "main"
+      },
+      "fossil-discovery": {
+        "image": "assets/foss/FOSS02PU.webp",
+        "back": "main"
+      },
+      "turned-to-stone": {
+        "image": "assets/foss/FOSS03PU.webp",
+        "back": "main"
+      },
+      "trilobites": {
+        "image": "assets/foss/FOSS04PU.webp",
+        "back": "main"
+      },
+      "presumed-dead": {
+        "image": "assets/foss/FOSS05PU.webp",
+        "back": "main"
+      },
+      "hard-shell": {
+        "image": "assets/foss/FOSS06PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/foss/FOSS00AP.mp3",
+  "narration": "assets/foss/FOSS00AJ.mp3",
+  "fanTranslation": true
+}

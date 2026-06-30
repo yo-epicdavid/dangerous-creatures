@@ -1,0 +1,206 @@
+{
+  "id": "warm",
+  "code": "WARM",
+  "name": "¿De sangre caliente o de sangre fría?",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "WARM-blud-ed or KOLD-blud-ed",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "¿Eran los dinosaurios de sangre caliente o fría? ¡Los científicos siguen debatiendo la respuesta!",
+  "hero": {
+    "image": "assets/warm/WARM00AA.webp",
+    "alt": "¿De sangre caliente o de sangre fría?"
+  },
+  "intro": "¿Eran los dinosaurios de sangre caliente, como los mamíferos y las aves, o de sangre fría, como los lagartos y las serpientes? Los expertos siguen debatiendo esta cuestión. Los animales de sangre caliente mantienen su temperatura corporal elevada (en torno a 95°-100°F o 35°-40°C) «quemando» alimentos para generar calor. Un animal de sangre caliente puede moverse con rapidez y mantenerse activo tanto si el entorno está caliente como si está frío. Sin embargo, para conseguirlo, un animal de sangre caliente necesita ingerir mucha comida.",
+  "facts": [
+    {
+      "label": "Sensibles a la temperatura",
+      "value": "Los animales de sangre fría, como los lagartos y las serpientes, necesitan mucho menos alimento, pero dependen más de su entorno. Para que un animal de sangre fría esté activo, debe absorber el calor del sol o de rocas calientes para subir su temperatura. Cuando el entorno está frío, un animal de sangre fría se mueve muy despacio o permanece completamente inmóvil."
+    }
+  ],
+  "topics": [
+    {
+      "id": "the-lives-of-cold-blooded-creatures",
+      "title": "La vida de los animales de sangre fría",
+      "image": "assets/warm/WARM01PU.webp",
+      "text": "La temperatura de los animales de sangre fría varía con la de su entorno. Deben protegerse tanto del calor extremo como del frío extremo.",
+      "captions": [
+        {
+          "label": "Enfriarse",
+          "text": "Los animales de sangre fría no pueden sudar para refrescarse. Cuando el aire se vuelve demasiado caluroso, buscan la sombra para bajar su temperatura."
+        },
+        {
+          "label": "Calentarse",
+          "text": "Los animales deben estar calientes para ser activos y digerir la comida. Para calentarse cuando el aire está fresco, los animales de sangre fría como este lagarto suelen tomar el sol."
+        }
+      ]
+    },
+    {
+      "id": "bones-under-the-microscope",
+      "title": "Huesos bajo el microscopio",
+      "image": "assets/warm/WARM02PU.webp",
+      "text": "Los huesos de los animales de sangre caliente, como los mamíferos y las aves, están repletos de canales para los vasos sanguíneos. Algunos expertos han descubierto que los huesos de los dinosaurios contienen orificios similares, lo que sugiere que los dinosaurios, especialmente los más jóvenes, eran de sangre caliente."
+    },
+    {
+      "id": "big-hearted-reptiles",
+      "title": "Reptiles de corazón grande",
+      "image": "assets/warm/WARM03PU.webp",
+      "text": "Todos los corazones bombean sangre a través de dos circuitos: uno hacia los pulmones y otro hacia el resto del cuerpo. El circuito que pasa por los pulmones debe tener una presión sanguínea razonablemente baja: demasiada presión reventaría los capilares pulmonares. Cada circuito pasa por una cámara separada del corazón, y es dentro del corazón donde se hace evidente la diferencia entre los animales de sangre fría y los de sangre caliente.",
+      "captions": [
+        {
+          "label": "Corazón semidividido de sangre fría",
+          "text": "El corazón de los reptiles modernos permite que la sangre se filtre entre las dos cavidades cardiacas. Esto no supone ningún problema para los reptiles, ya que ambos circuitos sanguíneos tienen la misma presión."
+        },
+        {
+          "label": "Corazón totalmente dividido de sangre caliente",
+          "text": "En los dinosaurios grandes, el circuito hacia los pulmones debía estar a una presión bastante baja para no dañarlos, pero la presión del circuito que distribuía la sangre por todo el cuerpo debía ser muy alta para llevar la sangre a todas las partes de sus enormes cuerpos. Debido a esta diferencia de presión entre los dos circuitos sanguíneos, los dinosaurios necesitaban un corazón totalmente dividido, como el de los animales de sangre caliente."
+        }
+      ]
+    },
+    {
+      "id": "keeping-the-brain-warm",
+      "title": "Mantener el cerebro caliente",
+      "image": "assets/warm/WARM04PU.webp",
+      "text": "Algunos dinosaurios, como el Alosaurio, tenían cerebros bastante grandes. Un cerebro grande es muy delicado y necesita una temperatura constante y un abundante suministro de sangre para funcionar con eficiencia. Ser de sangre caliente satisfaría estas necesidades mejor que ser de sangre fría."
+    },
+    {
+      "id": "bigger-means-warmer",
+      "title": "Cuanto más grande, más caliente",
+      "image": "assets/warm/WARM05PU.webp",
+      "text": "Los animales grandes pierden calor más despacio que los pequeños. Si los dinosaurios eran de sangre fría, quizás por eso algunos llegaron a ser tan grandes. Los dinosaurios grandes absorberían calor durante el día y se enfriarían despacio por la noche."
+    },
+    {
+      "id": "solar-panels",
+      "title": "Paneles solares",
+      "image": "assets/warm/WARM06PU.webp",
+      "text": "Algunos dinosaurios y otros reptiles tenían placas y velas en la espalda que podían usar para absorber el calor del sol. Los vasos sanguíneos recorrían estos «paneles solares» y distribuían el calor por el resto del cuerpo, lo que les permitía calentarse más rápido que otros reptiles.",
+      "captions": [
+        {
+          "label": "Dimetrodón",
+          "text": "Este reptil tenía una enorme vela para absorber o liberar calor."
+        },
+        {
+          "label": "Tuojiangosaurus",
+          "text": "Las placas de la espalda de este estegosaurio estaban repletas de vasos sanguíneos."
+        }
+      ]
+    },
+    {
+      "id": "advantages-of-being-warm-blooded",
+      "title": "Ventajas de ser de sangre caliente",
+      "image": "assets/warm/WARM07PU.webp",
+      "text": "Los animales de sangre caliente pueden mantenerse activos tanto si el aire está caliente como si está frío, y tanto de día como de noche. Los animales de sangre caliente son ágiles: los depredadores pueden capturar fácilmente a presas de sangre fría cuando el entorno está fresco y la víctima se mueve despacio. La desventaja de ser de sangre caliente es que los animales necesitan comer con frecuencia para mantenerse calientes. Si los dinosaurios eran completamente de sangre caliente, probablemente eran animales ágiles que consumían mucha comida."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Speedy Dinosaurs",
+      "to": "spee"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/warm/WARM00AA.webp",
+        "hotspots": [
+          {
+            "label": "Ventajas de ser de sangre caliente",
+            "to": "advantages-of-being-warm-blooded",
+            "x": 2,
+            "y": 28,
+            "w": 32,
+            "h": 5
+          },
+          {
+            "label": "La vida de los animales de sangre fría",
+            "to": "the-lives-of-cold-blooded-creatures",
+            "x": 2,
+            "y": 36,
+            "w": 26,
+            "h": 8
+          },
+          {
+            "label": "Huesos bajo el microscopio",
+            "to": "bones-under-the-microscope",
+            "x": 2,
+            "y": 51,
+            "w": 29,
+            "h": 5
+          },
+          {
+            "label": "Cuanto más grande, más caliente",
+            "to": "bigger-means-warmer",
+            "x": 2,
+            "y": 65,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Reptiles de corazón grande",
+            "to": "big-hearted-reptiles",
+            "x": 35,
+            "y": 78,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Mantener el cerebro caliente",
+            "to": "keeping-the-brain-warm",
+            "x": 60,
+            "y": 27,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Paneles solares",
+            "to": "solar-panels",
+            "x": 65,
+            "y": 33,
+            "w": 18,
+            "h": 5
+          }
+        ]
+      },
+      "the-lives-of-cold-blooded-creatures": {
+        "image": "assets/warm/WARM01PU.webp",
+        "back": "main"
+      },
+      "bones-under-the-microscope": {
+        "image": "assets/warm/WARM02PU.webp",
+        "back": "main"
+      },
+      "big-hearted-reptiles": {
+        "image": "assets/warm/WARM03PU.webp",
+        "back": "main"
+      },
+      "keeping-the-brain-warm": {
+        "image": "assets/warm/WARM04PU.webp",
+        "back": "main"
+      },
+      "bigger-means-warmer": {
+        "image": "assets/warm/WARM05PU.webp",
+        "back": "main"
+      },
+      "solar-panels": {
+        "image": "assets/warm/WARM06PU.webp",
+        "back": "main"
+      },
+      "advantages-of-being-warm-blooded": {
+        "image": "assets/warm/WARM07PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/warm/WARM00AP.mp3",
+  "narration": "assets/warm/WARM00AJ.mp3",
+  "sound": "assets/warm/WARM00SA.mp3",
+  "fanTranslation": true
+}

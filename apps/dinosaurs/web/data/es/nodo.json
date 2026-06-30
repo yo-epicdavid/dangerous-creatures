@@ -1,0 +1,175 @@
+{
+  "id": "nodo",
+  "code": "NODO",
+  "name": "Nodosaurus",
+  "category": "dinosaur",
+  "scientificName": "Nodosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "noh-doh-SOR-us",
+  "meaning": "lagarto nudoso",
+  "period": "Cretácico superior",
+  "diet": "Herbívoro",
+  "tagline": "¡El lagarto nudoso que llevaba una armadura ósea de la cabeza a la cola!",
+  "hero": {
+    "image": "assets/nodo/NODO00AA.webp",
+    "alt": "Nodosaurus"
+  },
+  "intro": "A este dinosaurio se le llama «lagarto nudoso» por razones evidentes: ¡tenía protuberancias por todo el cuerpo! El Nodosaurus pertenecía al grupo de los nodosáuridos, un conjunto de dinosaurios acorazados sin maza en la cola, que se movían despacio y torpemente, con mandíbulas pequeñas y dientes débiles para comer plantas blandas.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto nudoso"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Anquilosaurio"
+    }
+  ],
+  "topics": [
+    {
+      "id": "lumps-and-bumps",
+      "title": "Protuberancias y bultos",
+      "image": "assets/nodo/NODO01PU.webp",
+      "text": "La armadura del Nodosaurus consistía en protuberancias óseas dispuestas en hileras ordenadas, con bultos grandes que alternaban con otros pequeños. Esto proporcionaba una buena protección, pero también permitía que la piel se doblara con facilidad cuando el animal se movía.",
+      "captions": [
+        {
+          "label": "Nódulo de anquilosaurio",
+          "text": "Muchas de las protuberancias de los anquilosaurios se formaban a partir de nódulos óseos como este. En vida, este bulto estaba cubierto por una escama córnea parecida a una uña."
+        }
+      ]
+    },
+    {
+      "id": "long-in-back-short-in-front",
+      "title": "Largo por detrás, corto por delante",
+      "image": "assets/nodo/NODO02PU.webp",
+      "text": "Las patas traseras del Nodosaurus eran más largas que las delanteras, lo que hacía que su cabeza se inclinara hacia el suelo. Las largas patas traseras indican que los anquilosaurios eran probablemente descendientes de los primeros dinosaurios con caderas de ave, que caminaban sobre dos patas.",
+      "captions": [
+        {
+          "label": "Pegado al suelo",
+          "text": "El estudio de las articulaciones y los puntos de inserción muscular del Nodosaurus revela que probablemente podía «sentarse» para proteger su vientre blando, dejando expuesta únicamente su armadura. Un atacante habría tenido muchas dificultades para volcarle debido a su gran peso."
+        }
+      ]
+    },
+    {
+      "id": "armadillo-dinosaur",
+      "title": "¿El dinosaurio armadillo?",
+      "image": "assets/nodo/NODO04PU.webp",
+      "text": "Tanto en su forma corporal general como en su armadura, el Nodosaurus se parece al armadillo moderno. Al igual que el Nodosaurus, los armadillos se agachan contra el suelo cuando se sienten amenazados. Pocos depredadores consiguen agarrarse a sus resistentes cuerpos."
+    },
+    {
+      "id": "families-of-ankylosaurs",
+      "title": "Las familias de los anquilosaurios",
+      "image": "assets/nodo/NODO05PU.webp",
+      "text": "El gran grupo, o suborden, de los anquilosaurios se divide habitualmente en dos familias: los nodosáuridos y los anquilosáuridos, representadas aquí por los dinosaurios Nodosaurus y Euoplocephalus. Ambas familias tenían la misma estructura ósea y la misma forma general, y ambas estaban protegidas por algún tipo de armadura corporal, pero las dos familias tenían colas distintas.",
+      "captions": [
+        {
+          "label": "Clasificados por sus colas",
+          "text": "El Nodosaurus es representativo de la familia que no tenía armas en el extremo de la cola; estos se denominan nodosáuridos. El Euoplocephalus es un ejemplo de la otra familia, que tenía púas en el cuerpo y mazas óseas al final de la cola; pertenecen a la familia de los anquilosáuridos."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Minmi",
+      "to": "minm"
+    },
+    {
+      "label": "Dinosaurs in Armor",
+      "to": "armr"
+    },
+    {
+      "label": "How to Recognize Ankylosaurs",
+      "to": "hank"
+    },
+    {
+      "label": "Dinosaur Descendants",
+      "to": "desc"
+    },
+    {
+      "label": "Pinacosaurus",
+      "to": "pina"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/nodo/NODO00AA.webp",
+        "hotspots": [
+          {
+            "label": "¿El dinosaurio armadillo?",
+            "to": "armadillo-dinosaur",
+            "x": 57,
+            "y": 32,
+            "w": 26,
+            "h": 7
+          },
+          {
+            "label": "Protuberancias y bultos",
+            "to": "lumps-and-bumps",
+            "x": 61,
+            "y": 42,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Largo por detrás, corto por delante",
+            "to": "long-in-back-short-in-front",
+            "x": 50,
+            "y": 55,
+            "w": 33,
+            "h": 7
+          },
+          {
+            "label": "Las familias de los anquilosaurios",
+            "to": "families-of-ankylosaurs",
+            "x": 4,
+            "y": 75,
+            "w": 28,
+            "h": 7
+          }
+        ]
+      },
+      "lumps-and-bumps": {
+        "image": "assets/nodo/NODO01PU.webp",
+        "back": "main"
+      },
+      "long-in-back-short-in-front": {
+        "image": "assets/nodo/NODO02PU.webp",
+        "back": "main"
+      },
+      "armadillo-dinosaur": {
+        "image": "assets/nodo/NODO04PU.webp",
+        "back": "main"
+      },
+      "families-of-ankylosaurs": {
+        "image": "assets/nodo/NODO05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/nodo/NODO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/nodo/NODO00AP.mp3",
+  "narration": "assets/nodo/NODO00AJ.mp3",
+  "fanTranslation": true
+}

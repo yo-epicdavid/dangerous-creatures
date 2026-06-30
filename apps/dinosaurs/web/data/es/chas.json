@@ -1,0 +1,145 @@
+{
+  "id": "chas",
+  "code": "CHAS",
+  "name": "Chasmosaurus",
+  "category": "dinosaur",
+  "scientificName": "Chasmosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "KAZ-moh-SOR-us",
+  "meaning": "lagarto hendido",
+  "period": "Cretácico superior",
+  "diet": "Herbívoro",
+  "tagline": "¡Su enorme gorguera cervical medía casi la mitad de su cuerpo... y era casi todo aire!",
+  "hero": {
+    "image": "assets/chas/CHAS00AA.webp",
+    "alt": "Chasmosaurus"
+  },
+  "intro": "Cuando el Chasmosaurus bajaba la cabeza, los demás dinosaurios debían de sentirse intimidados ante su espectacular gorguera cervical. Formando un escudo de hasta dos metros y medio de longitud, la gorguera alcanzaba casi la mitad del cuerpo del dinosaurio. La gorguera cervical tenía una larga estructura ósea en el centro, con dos «ventanas» o espacios abiertos a cada lado, bajo la piel. Este aspecto hendido le valió al Chasmosaurus el nombre de «lagarto hendido».",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Lagarto hendido"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Ceratopsiano"
+    },
+    {
+      "label": "Longitud",
+      "value": "5 m (17 pies)"
+    },
+    {
+      "label": "Peso",
+      "value": "2,5 toneladas"
+    },
+    {
+      "label": "Dieta",
+      "value": "A pesar de su aspecto feroz, este dinosaurio se alimentaba únicamente de plantas."
+    }
+  ],
+  "topics": [
+    {
+      "id": "window-frames-in-the-frill",
+      "title": "Marcos de ventana en la gorguera",
+      "image": "assets/chas/CHAS01PU.webp",
+      "text": "La gorguera cervical del Chasmosaurus tiene más espacio que hueso. Las dos «ventanas» hacían la gorguera más ligera, de modo que el dinosaurio podía moverse con mayor facilidad. Las gorgueras de los dinosaurios ceratopsianos servían como impresionantes exhibiciones visuales, como protección frente a los depredadores y como punto de anclaje para sus poderosos músculos mandibulares.",
+      "captions": [
+        {
+          "label": "¿Cabeza ligera?",
+          "text": "Los huecos del cráneo del Chasmosaurus eran «ventanas» cubiertas de piel. Las gorgueras de los ceratopsianos podían ser enormes, incluso más altas que un ser humano adulto. ¡Imagina lo pesada que sería la cabeza del Chasmosaurus si su cráneo fuera de hueso macizo!"
+        }
+      ]
+    },
+    {
+      "id": "horns-and-frills-for-defense",
+      "title": "Cuernos y gorgueras para la defensa",
+      "image": "assets/chas/CHAS02PU.webp",
+      "text": "Los dinosaurios con cuernos, como el Chasmosaurus, tenían un aspecto amenazador, pero eran herbívoros, no cazadores de otros dinosaurios. Cuando se sentían amenazados, los ceratopsianos podían agruparse de esta forma, con los cuernos apuntando hacia fuera como protección, tal como hacen hoy en día los bueyes almizcleros.",
+      "captions": [
+        {
+          "label": "Centrosaurus",
+          "text": "Este dinosaurio pertenecía a un grupo de dinosaurios con cuernos y gorgueras cortas, que vivieron antes que los de gorgueras largas. Se han encontrado cientos de fósiles de Centrosaurus en Canadá."
+        },
+        {
+          "label": "Protoceratops",
+          "text": "Este pequeño dinosaurio, de apenas dos metros de longitud, recibe el nombre de «primera cara cornuda» porque en su día se pensó que era el ancestro de los dinosaurios con cuernos que aparecen aquí."
+        },
+        {
+          "label": "Styracosaurus",
+          "text": "Las largas y amenazadoras púas cervicales de este dinosaurio habrían ahuyentado a la mayoría de los depredadores. De la punta de su nariz cornuda hasta el extremo de su cola, el Styracosaurus medía unos cinco metros y medio de longitud."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Weirdest Dinosaurs",
+      "to": "weir"
+    },
+    {
+      "label": "Face to Face",
+      "to": "ftfa"
+    },
+    {
+      "label": "Horns",
+      "to": "horn"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/chas/CHAS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Marcos de ventana en la gorguera",
+            "to": "window-frames-in-the-frill",
+            "x": 54,
+            "y": 6,
+            "w": 32,
+            "h": 6
+          },
+          {
+            "label": "Cuernos y gorgueras para la defensa",
+            "to": "horns-and-frills-for-defense",
+            "x": 62,
+            "y": 52,
+            "w": 30,
+            "h": 7
+          }
+        ]
+      },
+      "window-frames-in-the-frill": {
+        "image": "assets/chas/CHAS01PU.webp",
+        "back": "main"
+      },
+      "horns-and-frills-for-defense": {
+        "image": "assets/chas/CHAS02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/chas/CHAS50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/chas/CHAS00AP.mp3",
+  "narration": "assets/chas/CHAS00AJ.mp3",
+  "fanTranslation": true
+}

@@ -1,0 +1,295 @@
+{
+  "id": "hyps",
+  "code": "HYPS",
+  "name": "Hypsilophodon",
+  "category": "dinosaur",
+  "scientificName": "Hypsilophodon",
+  "needsScientificVerify": false,
+  "pronunciation": "hip-SIL-oh-FOH-don",
+  "meaning": "Diente de cresta alta",
+  "period": "Cretácico inferior",
+  "diet": "Herbívoro",
+  "tagline": "Este corredor veloz, parecido a una gacela, fue uno de los dinosaurios que más tiempo sobrevivió... ¡y uno de los más rápidos!",
+  "hero": {
+    "image": "assets/hyps/HYPS00AA.webp",
+    "alt": "Hypsilophodon"
+  },
+  "intro": "Los hipsilofodóntidos, uno de los grupos de dinosaurios que más tiempo sobrevivieron, recibieron su nombre de este pequeño herbívoro, cuyos fósiles fueron hallados en Inglaterra hace más de un siglo. Los hipsilofodóntidos aparecieron por primera vez hace unos 150 millones de años y se extinguieron junto con los últimos dinosaurios, hace aproximadamente 65 millones de años. Con un cuerpo diseñado para correr a gran velocidad, el Hypsilophodon ha sido comparado con la gacela moderna.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Europa, América del Norte"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Inferior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Diente de cresta alta"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Ornitópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "1,5 m (5 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "tree-dweller",
+      "title": "¿Habitante de los árboles?",
+      "image": "assets/hyps/HYPS01PU.webp",
+      "text": "Cuando se descubrió el Hypsilophodon por primera vez, se pensó que vivía en los árboles. De hecho, se creía que era el equivalente dinosaurio de un canguro arborícola que vive en Papúa Nueva Guinea. Los científicos pensaban que su larga cola le ayudaba a mantener el equilibrio entre los árboles, mientras que los dedos afilados y especiales de sus patas le permitían aferrarse a las ramas. Hoy en día, sin embargo, esta teoría ha sido demostrada incorrecta. En realidad, el Hypsilophodon era un dinosaurio terrestre que usaba su rígida cola como estabilizador al correr."
+    },
+    {
+      "id": "retreating-from-danger",
+      "title": "Huyendo del peligro",
+      "image": "assets/hyps/HYPS02PU.webp",
+      "text": "El pequeño Hypsilophodon, herbívoro, tenía pocas defensas contra grandes depredadores como el Megalosaurio. La complexión de este diminuto dinosaurio sugiere que simplemente huía del peligro.",
+      "captions": [
+        {
+          "label": "El amenazante Megalosaurio",
+          "text": "La simple visión de este gigantesco terópodo habría hecho huir a toda una manada de Hypsilophodons en busca de cobijo."
+        }
+      ]
+    },
+    {
+      "id": "legs-built-for-speed",
+      "title": "Patas diseñadas para la velocidad",
+      "image": "assets/hyps/HYPS03PU.webp",
+      "text": "Un vistazo a las patas del Hypsilophodon nos muestra las características especiales de los dinosaurios rápidos. Los huesos principales de las patas son esbeltos pero resistentes, y presentan zonas de inserción ósea para potentes músculos. Las articulaciones están bien formadas y los pies son estrechos."
+    },
+    {
+      "id": "smallfry-in-the-dinosaur-world",
+      "title": "Pequeño en el mundo de los dinosaurios",
+      "image": "assets/hyps/HYPS04PU.webp",
+      "text": "El Hypsilophodon medía por término medio entre cinco y siete pies de largo, mientras que algunos dinosaurios eran catorce veces más grandes que un elefante. Compara el tamaño del fémur (hueso del muslo superior) del Hypsilophodon con el del Apatosaurio, un gran dinosaurio saurópodo."
+    },
+    {
+      "id": "champion-sprinters",
+      "title": "Campeones de la velocidad",
+      "image": "assets/hyps/HYPS05PU.webp",
+      "text": "Los dinosaurios pequeños, ágiles y herbívoros como el Hypsilophodon se encontraban entre los corredores más veloces. Probablemente necesitaban correr rápido para escapar de depredadores igualmente veloces. Algunas personas creen que estos dinosaurios podían alcanzar velocidades de hasta treinta millas por hora."
+    },
+    {
+      "id": "hatch-and-run",
+      "title": "Nacer y correr",
+      "image": "assets/hyps/HYPS06PU.webp",
+      "text": "Los expertos pueden aprender mucho sobre un dinosaurio cuando encuentran su nido o incluso fragmentos de sus cáscaras. En varios nidos, los fragmentos de cáscara son pequeños. Algunos creen que esto significa que las crías permanecían en el nido o cerca de él durante algún tiempo. Probablemente las cáscaras quedaban aplastadas en pequeños trozos por el movimiento de las crías dentro del nido tras la eclosión.",
+      "captions": [
+        {
+          "label": "Abandonando el nido",
+          "text": "En otros casos, como el de los huevos de hipsilofodóntido, las cáscaras aparecen en pocos fragmentos grandes. Los expertos creen que esto indica que estos dinosaurios probablemente abandonaban el nido en cuanto eclosionaban."
+        }
+      ]
+    },
+    {
+      "id": "a-common-face",
+      "title": "Una cara conocida",
+      "image": "assets/hyps/HYPS07PU.webp",
+      "text": "Las caras de los dinosaurios son muy distintas entre sí. A veces, las más aterradoras, como la del Chasmosaurus, no pertenecían a depredadores. Al igual que el Hypsilophodon, el Chasmosaurus era un dinosaurio herbívoro. Sin embargo, su aspecto feroz ahuyentaba a muchos carnívoros.",
+      "captions": [
+        {
+          "label": "Chasmosaurus",
+          "text": "¡El cráneo de este dinosaurio era casi tan largo como el Hypsilophodon medido de la cabeza a la cola! Pero por grande y feroz que parezca este dinosaurio, solo comía plantas, no otros animales."
+        }
+      ]
+    },
+    {
+      "id": "trotting-together",
+      "title": "Trotando juntos",
+      "image": "assets/hyps/HYPS08PU.webp",
+      "text": "En esta escena del Cretácico, un grupo de dinosaurios Hypsilophodon atraviesa a toda prisa la llanura fangosa cercana al mar en dirección a tierras más secas. Trotando sobre sus patas de dedos largos y deteniéndose para mordisquear helechos jóvenes, estos pequeños dinosaurios estaban siempre atentos a cualquier señal de peligro."
+    },
+    {
+      "id": "south-pole-skeleton",
+      "title": "El esqueleto del Polo Sur",
+      "image": "assets/hyps/HYPS09PU.webp",
+      "text": "Pocos esqueletos de dinosaurio han sido hallados en la Antártida. Encontrar fósiles allí es un trabajo difícil y a veces peligroso. Un ejemplar encontrado en 1989 en la isla James Ross se parece mucho al Hypsilophodon.",
+      "captions": [
+        {
+          "label": "Continentes a la deriva",
+          "text": "Los continentes de la Antártida y Australia estuvieron unidos en otro tiempo formando una gran masa de tierra."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Extinction",
+      "to": "exti"
+    },
+    {
+      "label": "Myths and Legends",
+      "to": "myth"
+    },
+    {
+      "label": "Dinosaur Defense",
+      "to": "ddef"
+    },
+    {
+      "label": "Speedy Dinosaurs",
+      "to": "spee"
+    },
+    {
+      "label": "Apatosaurus",
+      "to": "apat"
+    },
+    {
+      "label": "The Smallest Dinosaurs",
+      "to": "smal"
+    },
+    {
+      "label": "Birth and Growth",
+      "to": "birt"
+    },
+    {
+      "label": "Chasmosaurus",
+      "to": "chas"
+    },
+    {
+      "label": "The Cretaceous Period",
+      "to": "cret"
+    },
+    {
+      "label": "Important Dinosaur Sites",
+      "to": "site"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/hyps/HYPS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Nacer y correr",
+            "to": "hatch-and-run",
+            "x": 52,
+            "y": 27,
+            "w": 15,
+            "h": 4
+          },
+          {
+            "label": "Una cara conocida",
+            "to": "a-common-face",
+            "x": 79,
+            "y": 27,
+            "w": 15,
+            "h": 6
+          },
+          {
+            "label": "¿Habitante de los árboles?",
+            "to": "tree-dweller",
+            "x": 79,
+            "y": 42,
+            "w": 14,
+            "h": 4
+          },
+          {
+            "label": "Pequeño en el mundo de los dinosaurios",
+            "to": "smallfry-in-the-dinosaur-world",
+            "x": 2,
+            "y": 42,
+            "w": 24,
+            "h": 4
+          },
+          {
+            "label": "Huyendo del peligro",
+            "to": "retreating-from-danger",
+            "x": 2,
+            "y": 54,
+            "w": 19,
+            "h": 4
+          },
+          {
+            "label": "Trotando juntos",
+            "to": "trotting-together",
+            "x": 61,
+            "y": 60,
+            "w": 17,
+            "h": 4
+          },
+          {
+            "label": "El esqueleto del Polo Sur",
+            "to": "south-pole-skeleton",
+            "x": 7,
+            "y": 70,
+            "w": 17,
+            "h": 4
+          },
+          {
+            "label": "Patas diseñadas para la velocidad",
+            "to": "legs-built-for-speed",
+            "x": 16,
+            "y": 78,
+            "w": 18,
+            "h": 4
+          },
+          {
+            "label": "Campeones de la velocidad",
+            "to": "champion-sprinters",
+            "x": 51,
+            "y": 78,
+            "w": 18,
+            "h": 4
+          }
+        ]
+      },
+      "tree-dweller": {
+        "image": "assets/hyps/HYPS01PU.webp",
+        "back": "main"
+      },
+      "retreating-from-danger": {
+        "image": "assets/hyps/HYPS02PU.webp",
+        "back": "main"
+      },
+      "legs-built-for-speed": {
+        "image": "assets/hyps/HYPS03PU.webp",
+        "back": "main"
+      },
+      "smallfry-in-the-dinosaur-world": {
+        "image": "assets/hyps/HYPS04PU.webp",
+        "back": "main"
+      },
+      "champion-sprinters": {
+        "image": "assets/hyps/HYPS05PU.webp",
+        "back": "main"
+      },
+      "hatch-and-run": {
+        "image": "assets/hyps/HYPS06PU.webp",
+        "back": "main"
+      },
+      "a-common-face": {
+        "image": "assets/hyps/HYPS07PU.webp",
+        "back": "main"
+      },
+      "trotting-together": {
+        "image": "assets/hyps/HYPS08PU.webp",
+        "back": "main"
+      },
+      "south-pole-skeleton": {
+        "image": "assets/hyps/HYPS09PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/hyps/HYPS50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/hyps/HYPS00AP.mp3",
+  "narration": "assets/hyps/HYPS00AJ.mp3",
+  "fanTranslation": true
+}

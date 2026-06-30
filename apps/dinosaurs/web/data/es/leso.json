@@ -1,0 +1,133 @@
+{
+  "id": "leso",
+  "code": "LESO",
+  "name": "Lesothosaurus",
+  "category": "dinosaur",
+  "scientificName": "Lesothosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "le-SO-tho-SOR-us",
+  "meaning": "lagarto de Lesoto",
+  "period": "Jurásico inferior",
+  "diet": "Herbívoro",
+  "tagline": "Diminuto pero veloz como el rayo, este pequeño herbívoro fue uno de los dinosaurios más pequeños jamás descubiertos.",
+  "hero": {
+    "image": "assets/leso/LESO00AA.webp",
+    "alt": "Lesothosaurus"
+  },
+  "intro": "Lesothosaurus era un pequeño y ágil herbívoro que corría sobre dos patas. El color rojo de las rocas donde se encontró puede indicar que el clima era caluroso y seco durante la época en que vivió, hace 200 millones de años. Algunos científicos creen que este dinosaurio pudo haber descansado durante las épocas de sequía, cuando escaseaba el alimento.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "África"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico Temprano"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto de Lesoto"
+    },
+    {
+      "label": "Caderas",
+      "value": "Con caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Ornitópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "90 cm (3 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "one-of-the-smallest-dinosaurs",
+      "title": "Uno de los dinosaurios más pequeños",
+      "image": "assets/leso/LESO01PU.webp",
+      "text": "Los dinosaurios que se muestran aquí vivieron en distintas épocas y en lugares diferentes, pero tienen algo en común: están entre los más pequeños descubiertos hasta ahora.",
+      "captions": [
+        {
+          "label": "Saltopus",
+          "text": "El nombre de este dinosaurio significa «pie saltador» y medía apenas unos 60 centímetros de largo."
+        },
+        {
+          "label": "Lesothosaurus",
+          "text": "Con sus 90 centímetros de longitud, este dinosaurio es el gigante del grupo."
+        },
+        {
+          "label": "Compsognathus",
+          "text": "Este veloz dinosaurio era a menudo del tamaño de un pollo."
+        },
+        {
+          "label": "Doble amenaza",
+          "text": "Saltopus y Compsognathus eran carnívoros. El Lesothosaurus se alimentaba probablemente de plantas."
+        }
+      ]
+    },
+    {
+      "id": "leaf-hunter",
+      "title": "¿Cazador de hojas?",
+      "image": "assets/leso/LESO02PU.webp",
+      "text": "El Lesothosaurus tenía dientes planos con forma de hoja y un pico en la parte delantera de la boca. Una boca y unos dientes así están diseñados para masticar vegetación, no para desgarrar carne.",
+      "captions": [
+        {
+          "label": "Escapando del peligro",
+          "text": "El Lesothosaurus se valía sin duda de su tamaño y velocidad para defenderse. Un dinosaurio tan pequeño debió de parecer un apetitoso bocado para un gran carnívoro."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Heterodontosaurus",
+      "to": "hete"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/leso/LESO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Uno de los dinosaurios más pequeños",
+            "to": "one-of-the-smallest-dinosaurs",
+            "x": 12,
+            "y": 56,
+            "w": 35,
+            "h": 5
+          },
+          {
+            "label": "¿Cazador de hojas?",
+            "to": "leaf-hunter",
+            "x": 80,
+            "y": 67,
+            "w": 17,
+            "h": 4
+          }
+        ]
+      },
+      "one-of-the-smallest-dinosaurs": {
+        "image": "assets/leso/LESO01PU.webp",
+        "back": "main"
+      },
+      "leaf-hunter": {
+        "image": "assets/leso/LESO02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/leso/LESO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/leso/LESO00AP.mp3",
+  "narration": "assets/leso/LESO00AJ.mp3",
+  "fanTranslation": true
+}

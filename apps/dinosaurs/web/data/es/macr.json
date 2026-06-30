@@ -1,0 +1,137 @@
+{
+  "id": "macr",
+  "code": "MACR",
+  "name": "Macroplata",
+  "category": "creature",
+  "scientificName": "Macroplata",
+  "needsScientificVerify": false,
+  "pronunciation": "mak-roh-PLAH-tah",
+  "meaning": "Placas grandes",
+  "period": "Jurásico inferior",
+  "diet": "Carnívoro",
+  "tagline": "Como un pingüino submarino, este carnívoro marino usaba sus aletas para volar por el agua.",
+  "hero": {
+    "image": "assets/macr/MACR00AA.webp",
+    "alt": "Macroplata"
+  },
+  "intro": "Macroplata surcaba el agua como un pingüino. Este pliosaurio carnívoro, que vivió durante el Jurásico Temprano, tenía cuatro potentes aletas en forma de remo que se movían hacia arriba y hacia abajo, impulsando su estilizado cuerpo entre las olas. Los pliosaurios y otros reptiles marinos abundaban durante la Era de los Dinosaurios, pero todos se extinguieron junto con los dinosaurios al final del período Cretácico, hace unos 65 millones de años.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Europa"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico Temprano"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Placas grandes"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/D"
+    },
+    {
+      "label": "Familia",
+      "value": "Pliosaurio"
+    },
+    {
+      "label": "Longitud",
+      "value": "4,5 m (15 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "pliosaur-penguin",
+      "title": "El pliosaurio pingüino",
+      "image": "assets/macr/MACR01PU.webp",
+      "text": "Macroplata tenía cuatro potentes aletas que podía mover hacia arriba y hacia abajo. En lugar de remar por el agua, este reptil marino surcaba los mares como un pingüino.",
+      "captions": [
+        {
+          "label": "Cazador de moluscos",
+          "text": "Los expertos han encontrado conchas fósiles de ammonites con agujeros perforados por dientes afilados, como los de los pliosaurios. A partir de esta información, ahora creemos que los ammonites eran el alimento preferido de pliosaurios como Macroplata."
+        }
+      ]
+    },
+    {
+      "id": "marine-relatives",
+      "title": "Parientes marinos",
+      "image": "assets/macr/MACR02PU.webp",
+      "text": "Aquí se muestra a Macroplata junto a otras criaturas que compartían su mundo acuático. Los pliosaurios, como Macroplata, tienen cabezas más largas y cuellos más cortos que los plesiosaurios, otro tipo de reptil marino que vivió en la misma época.",
+      "captions": [
+        {
+          "label": "Peloneustes",
+          "text": "Este pliosaurio debía de parecer un enano comparado con sus primos acuáticos. Peloneustes medía tan solo tres metros de la nariz hasta la punta de la cola."
+        },
+        {
+          "label": "Kronosaurus",
+          "text": "Con hasta diecisiete metros de longitud, este pliosaurio era verdaderamente un gigante marino."
+        },
+        {
+          "label": "Un plesiosaurio",
+          "text": "Muraenosaurus es un plesiosaurio. Fíjate en que tiene un cuello mucho más largo y una cabeza más pequeña que Kronosaurus o Peloneustes."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Ichthyosaurus",
+      "to": "icht"
+    },
+    {
+      "label": "Ammonite",
+      "to": "ammo"
+    },
+    {
+      "label": "Plesiosaurus",
+      "to": "ples"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/macr/MACR00AA.webp",
+        "hotspots": [
+          {
+            "label": "El pliosaurio pingüino",
+            "to": "pliosaur-penguin",
+            "x": 60,
+            "y": 54,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Parientes marinos",
+            "to": "marine-relatives",
+            "x": 59,
+            "y": 76,
+            "w": 20,
+            "h": 5
+          }
+        ]
+      },
+      "pliosaur-penguin": {
+        "image": "assets/macr/MACR01PU.webp",
+        "back": "main"
+      },
+      "marine-relatives": {
+        "image": "assets/macr/MACR02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/macr/MACR50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/macr/MACR00AP.mp3",
+  "narration": "assets/macr/MACR00AJ.mp3",
+  "fanTranslation": true
+}

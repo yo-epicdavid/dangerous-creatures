@@ -1,0 +1,133 @@
+{
+  "id": "drom",
+  "code": "DROM",
+  "name": "Dromiceiomimus",
+  "category": "dinosaur",
+  "scientificName": "Dromiceiomimus",
+  "needsScientificVerify": false,
+  "pronunciation": "droh-MIS-ee-oh-MY-mus",
+  "meaning": "Imitador del emú",
+  "period": "Cretácico superior",
+  "diet": "Omnívoro",
+  "tagline": "El más veloz del Cretácico: este dinosaurio, parecido al emú, podía correr más rápido que casi cualquier otro dinosaurio.",
+  "hero": {
+    "image": "assets/drom/DROM00AA.webp",
+    "alt": "Dromiceiomimus"
+  },
+  "intro": "Se cree que el Dromiceiomimus fue uno de los dinosaurios más veloces. Probablemente corría a gran velocidad sobre sus patas traseras, alerta y con los ojos muy abiertos, sirviéndose de su rapidez para escapar de dinosaurios más grandes y para perseguir los insectos y pequeños lagartos de los que se alimentaba. Debido a su pequeño tamaño y a su elevado nivel de actividad, algunos expertos piensan que el Dromiceiomimus pudo haber sido de sangre caliente.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Imitador del emú"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Terópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "3 m (10 ft)"
+    },
+    {
+      "label": "Peso",
+      "value": "175 lbs."
+    }
+  ],
+  "topics": [
+    {
+      "id": "emu-mimic",
+      "title": "Imitador del emú",
+      "image": "assets/drom/DROM01PU.webp",
+      "text": "Dromiceiomimus significa «imitador del emú». Este pequeño dinosaurio recibió su nombre por su evidente parecido con el emú, un ave no voladora de Australia.",
+      "captions": [
+        {
+          "label": "Emú",
+          "text": "El emú alcanza entre metro y medio y casi dos metros de altura y es un corredor muy veloz."
+        }
+      ]
+    },
+    {
+      "id": "ostrich-dinosaurs",
+      "title": "Dinosaurios avestruz",
+      "image": "assets/drom/DROM02PU.webp",
+      "text": "El Dromiceiomimus pertenece a un grupo de dinosaurios pequeños y veloces que se parecen sorprendentemente a un avestruz moderno. Esta similitud estructural lleva a los científicos a concluir que estos pequeños dinosaurios podrían haber corrido tan rápido como un avestruz, a más de cincuenta kilómetros por hora.",
+      "captions": [
+        {
+          "label": "Struthiomimus",
+          "text": "Este pequeño y veloz dinosaurio era primo del Dromiceiomimus. Ambos eran terópodos pequeños que debían de servirse de su velocidad como principal defensa para escapar del peligro."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Velociraptor",
+      "to": "velo"
+    },
+    {
+      "label": "Gallimimus",
+      "to": "gall"
+    },
+    {
+      "label": "Birds and Dinosaurs",
+      "to": "bird"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/drom/DROM00AA.webp",
+        "hotspots": [
+          {
+            "label": "Imitador del emú",
+            "to": "emu-mimic",
+            "x": 74,
+            "y": 55,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Dinosaurios avestruz",
+            "to": "ostrich-dinosaurs",
+            "x": 22,
+            "y": 77,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "emu-mimic": {
+        "image": "assets/drom/DROM01PU.webp",
+        "back": "main"
+      },
+      "ostrich-dinosaurs": {
+        "image": "assets/drom/DROM02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/drom/DROM50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/drom/DROM00AP.mp3",
+  "narration": "assets/drom/DROM00AJ.mp3",
+  "fanTranslation": true
+}

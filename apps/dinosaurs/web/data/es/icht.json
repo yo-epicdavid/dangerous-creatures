@@ -1,0 +1,267 @@
+{
+  "id": "icht",
+  "code": "ICHT",
+  "name": "Ictiosaurio",
+  "category": "creature",
+  "scientificName": "Ichthyosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "ICK-thee-oh-SOR-us",
+  "meaning": "lagarto pez",
+  "period": "Jurásico",
+  "diet": "Carnívoro",
+  "tagline": "¡Este antiguo reptil marino se parecía tanto a un delfín que nunca adivinarías que era un gigante prehistórico, y vivió antes de que existiera la mayoría de los dinosaurios!",
+  "hero": {
+    "image": "assets/icht/ICHT00AA.webp",
+    "alt": "Ictiosaurio"
+  },
+  "intro": "El Ictiosaurio no era un dinosaurio, sino un reptil nadador que vivía en el mar. Como el resto de los reptiles, el Ictiosaurio respiraba aire, así que tenía que salir a la superficie con frecuencia para tomar aliento. Gracias a que se han encontrado numerosos fósiles suyos, el Ictiosaurio es uno de los reptiles marinos más conocidos de la Era de los Dinosaurios.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Europa, América del Norte"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto pez"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Ictiosaurio"
+    },
+    {
+      "label": "Longitud",
+      "value": "9 m (30 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "dolphin-double",
+      "title": "Doble del delfín",
+      "image": "assets/icht/ICHT01PU.webp",
+      "text": "Con su cuerpo hidrodinámico, sus aletas y su cola, el Ictiosaurio estaba admirablemente adaptado a la vida en el agua, igual que el delfín actual. Sin embargo, los delfines que conocemos hoy son mamíferos, mientras que el Ictiosaurio era un reptil. Los delfines actuales quedarían empequeñecidos ante este gigante marino prehistórico. ¡Algunos ictiosaurios llegaron a medir hasta nueve metros de longitud!"
+    },
+    {
+      "id": "acrobats-of-the-sea",
+      "title": "Acróbatas del mar",
+      "image": "assets/icht/ICHT02PU.webp",
+      "text": "Con sus cuerpos similares a los de los delfines y sus aletas, los ictiosaurios eran los acróbatas de los mares prehistóricos. Podían lanzarse a toda velocidad entre las olas, sumergiéndose tras sus presas y usando sus «paletas» como timones para maniobrar.",
+      "captions": [
+        {
+          "label": "Aleta conservada",
+          "text": "He aquí un magnífico fósil de la aleta de un ictiosaurio. El Ictiosaurio usaba sus aletas como paletas para impulsarse por el agua."
+        }
+      ]
+    },
+    {
+      "id": "older-than-dinosaurs",
+      "title": "Más antiguo que los dinosaurios",
+      "image": "assets/icht/ICHT03PU.webp",
+      "text": "Los ictiosaurios existieron desde el período Triásico, antes que la mayoría de los dinosaurios. Estos reptiles nadadores fueron especialmente abundantes durante el período Jurásico y finalmente se extinguieron en el Cretácico tardío, justo antes del final de la Era de los Dinosaurios.",
+      "captions": [
+        {
+          "label": "Ictiosaurio",
+          "text": "apareció hace aproximadamente 300 millones de años, durante la era Paleozoica."
+        },
+        {
+          "label": "Staurikosaurus",
+          "text": "fue uno de los primeros dinosaurios, y vivió hace aproximadamente 225 millones de años."
+        },
+        {
+          "label": "Saurópodos",
+          "text": "fueron comunes durante el período Jurásico."
+        },
+        {
+          "label": "Ceratopsios",
+          "text": "se extinguieron junto con los últimos dinosaurios, hace unos 65 millones de años."
+        }
+      ]
+    },
+    {
+      "id": "life-in-the-seas",
+      "title": "Vida en los mares",
+      "image": "assets/icht/ICHT04PU.webp",
+      "text": "En tiempos prehistóricos, una gran variedad de reptiles marinos compartían los mares: veloces ictiosaurios, plesiosaurios y pliosaurios de largo cuello, feroces mosasaurios y tortugas gigantes.",
+      "captions": [
+        {
+          "label": "Macroplata",
+          "text": "Este pliosaurio usaba sus cuatro potentes aletas para propulsarse bajo el agua. Estos reptiles marinos se movían por el mar como si volaran, igual que los pingüinos."
+        },
+        {
+          "label": "Archelon",
+          "text": "Las tortugas actuales se parecen mucho a sus antepasados prehistóricos, que vivieron hace más de 220 millones de años."
+        },
+        {
+          "label": "Mosasaurio",
+          "text": "Este lagarto marino llegó a medir casi nueve metros de longitud, lo que lo convierte en el lagarto más grande conocido en la Tierra."
+        }
+      ]
+    },
+    {
+      "id": "live-babies",
+      "title": "Crías vivas",
+      "image": "assets/icht/ICHT05PU.webp",
+      "text": "Por norma general, los reptiles y los dinosaurios ponían huevos. Estos huevos de dinosaurio fueron puestos por un Protoceratops. Los ictiosaurios eran una excepción a esta regla.",
+      "captions": [
+        {
+          "label": "Parto en el mar",
+          "text": "Aunque los ictiosaurios eran reptiles, no ponían huevos como un reptil o un dinosaurio, sino que daban a luz crías vivas en el mar. Se han encontrado fósiles de ictiosaurios con esqueletos de crías en su interior o justo en la parte trasera del cuerpo, lo que sugiere que daban a luz de manera similar a como lo hacen hoy en día los delfines y las ballenas."
+        }
+      ]
+    },
+    {
+      "id": "fine-fossils",
+      "title": "Fósiles extraordinarios",
+      "image": "assets/icht/ICHT06PU.webp",
+      "text": "Se han encontrado numerosos y espléndidos fósiles de ictiosaurios. Este magnífico ejemplar del Jurásico muestra el contorno de los tejidos blandos, además de todos los huesos del esqueleto. Las vértebras del cuello estaban muy juntas, de modo que la cabeza se unía al cuerpo de forma continua. Esta estructura ósea es característica de los depredadores que nadan a gran velocidad, y también se observa en los delfines modernos.",
+      "captions": [
+        {
+          "label": "Colas peculiares",
+          "text": "Los ictiosaurios nadaban moviendo sus poderosas colas. Cuando los científicos descubrieron por primera vez los esqueletos de ictiosaurios, creyeron que las colas estaban rotas, pero tras un estudio más detallado se determinó que la columna vertebral del ictiosaurio se curvaba de forma natural hacia abajo, hacia la parte inferior de la aleta caudal. Al igual que muchos animales acuáticos actuales, los ictiosaurios usaban sus aletas dorsales y sus paletas para orientarse y mantener la estabilidad."
+        }
+      ]
+    },
+    {
+      "id": "jaws-packed-with-teeth",
+      "title": "Mandíbulas repletas de dientes",
+      "image": "assets/icht/ICHT07PU.webp",
+      "text": "Las largas mandíbulas del Ictiosaurio estaban repletas de dientes cortos y afilados. Los ictiosaurios tenían ojos muy grandes, y los paleontólogos creen que el anillo de huesos que rodeaba las cuencas oculares mejoraba su capacidad de enfoque. Sus orificios nasales se encontraban muy atrás, en la parte superior del cráneo, una característica que comparte con los delfines y las ballenas actuales."
+    },
+    {
+      "id": "famous-female-fossil-hunter",
+      "title": "La famosa cazadora de fósiles",
+      "image": "assets/icht/ICHT08PU.webp",
+      "text": "Mary Anning (1799-1847) es famosa por los fósiles que recolectó cerca de su casa en Lyme Regis, en la costa sur de Inglaterra. Los acantilados de aquella zona contienen abundantes fósiles de animales que vivieron en el mar durante la época Jurásica. Entre 1810 y 1812, Mary y su hermano excavaron un ictiosaurio completo (que en aquel entonces se creyó que era un cocodrilo) y lo vendieron por 23 libras, una suma considerable para la época."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Reptiles of the Sea",
+      "to": "rsea"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/icht/ICHT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Doble del delfín",
+            "to": "dolphin-double",
+            "x": 19,
+            "y": 42,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "La famosa cazadora de fósiles",
+            "to": "famous-female-fossil-hunter",
+            "x": 10,
+            "y": 52,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Acróbatas del mar",
+            "to": "acrobats-of-the-sea",
+            "x": 8,
+            "y": 61,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Fósiles extraordinarios",
+            "to": "fine-fossils",
+            "x": 9,
+            "y": 74,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Crías vivas",
+            "to": "live-babies",
+            "x": 73,
+            "y": 42,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Vida en los mares",
+            "to": "life-in-the-seas",
+            "x": 71,
+            "y": 52,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Más antiguo que los dinosaurios",
+            "to": "older-than-dinosaurs",
+            "x": 68,
+            "y": 61,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Mandíbulas repletas de dientes",
+            "to": "jaws-packed-with-teeth",
+            "x": 64,
+            "y": 74,
+            "w": 25,
+            "h": 5
+          }
+        ]
+      },
+      "dolphin-double": {
+        "image": "assets/icht/ICHT01PU.webp",
+        "back": "main"
+      },
+      "acrobats-of-the-sea": {
+        "image": "assets/icht/ICHT02PU.webp",
+        "back": "main"
+      },
+      "older-than-dinosaurs": {
+        "image": "assets/icht/ICHT03PU.webp",
+        "back": "main"
+      },
+      "life-in-the-seas": {
+        "image": "assets/icht/ICHT04PU.webp",
+        "back": "main"
+      },
+      "live-babies": {
+        "image": "assets/icht/ICHT05PU.webp",
+        "back": "main"
+      },
+      "fine-fossils": {
+        "image": "assets/icht/ICHT06PU.webp",
+        "back": "main"
+      },
+      "jaws-packed-with-teeth": {
+        "image": "assets/icht/ICHT07PU.webp",
+        "back": "main"
+      },
+      "famous-female-fossil-hunter": {
+        "image": "assets/icht/ICHT08PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/icht/ICHT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/icht/ICHT00AP.mp3",
+  "narration": "assets/icht/ICHT00AJ.mp3",
+  "fanTranslation": true
+}

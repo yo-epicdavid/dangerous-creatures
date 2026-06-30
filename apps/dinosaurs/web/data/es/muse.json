@@ -1,0 +1,414 @@
+{
+  "id": "muse",
+  "code": "MUSE",
+  "name": "Museos de Norteamérica",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "myoo-ZEE-umz of NORTH uh-MER-ih-kuh",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "¡Descubre dónde encontrar huesos de dinosaurio de verdad cerca de ti!",
+  "hero": {
+    "image": "assets/muse/MUSE00AA.webp",
+    "alt": "Museos de Norteamérica"
+  },
+  "intro": "Los dinosaurios han desaparecido, pero todavía puedes ver fósiles y maquetas en exposiciones de museos de todo el mundo. Este mapa muestra los museos de Canadá y Estados Unidos que cuentan con grandes colecciones de fósiles de dinosaurios. Sin embargo, muchas colecciones de museos incluyen algunos ejemplares de dinosaurios: ¡no dejes de consultar los museos de tu zona para ver huesos o huellas de animales prehistóricos!",
+  "facts": [],
+  "topics": [
+    {
+      "id": "academy-of-natural-sciences",
+      "title": "Academia de Ciencias Naturales",
+      "image": "assets/muse/MUSE01PU.webp",
+      "text": "Situada en Filadelfia, Pensilvania. En exposición se encuentran Deinonychus, Supersaurus, Avaceratops, Brachyceratops, Tenontosaurus, Corythosaurus y Hadrosaurus.",
+      "captions": [
+        {
+          "label": "Experto de la Academia",
+          "text": "El Dr. Joseph Leidy, mostrado aquí con un hueso de la pata de Hadrosaurus, fue el paleontólogo del museo a mediados del siglo XIX. El Dr. Leidy fue uno de los primeros en proponer que algunos dinosaurios pudieron haber caminado sobre dos patas."
+        },
+        {
+          "label": "Famoso artista de dinosaurios",
+          "text": "En esta ilustración, el escultor británico Benjamin Waterhouse Hawkins aparece frente al esqueleto de Hadrosaurus que creó para la Academia de Ciencias Naturales en 1868. Fue el primer montaje en pie de un dinosaurio en el mundo. Hawkins se dio a conocer entre los aficionados a los dinosaurios cuando colaboró con sir Richard Owen para crear una exposición de criaturas prehistóricas en el Crystal Palace de Londres, Inglaterra."
+        }
+      ]
+    },
+    {
+      "id": "american-museum-of-natural-history",
+      "title": "Museo Americano de Historia Natural",
+      "image": "assets/muse/MUSE02PU.webp",
+      "text": "Situado en la ciudad de Nueva York. Alberga la mayor colección de fósiles de dinosaurios del mundo, con huevos, huellas e impresiones de piel. Su colección incluye esqueletos de Albertosaurus, Alosaurio, Coelophysis, Ornitholestes, Struthiomimus, Tiranosaurio rex, Plateosaurus, Apatosaurus, Corythosaurus, Edmontosaurus, Lambeosaurus, Saurolophus y muchos más.",
+      "captions": [
+        {
+          "label": "Lagartos tiranos en exposición",
+          "text": "Tiranosaurio rex significa «rey lagarto tirano». Como puedes apreciar en esta exposición, la característica más llamativa de este dinosaurio era su enorme cabeza y sus afilados dientes. ¡Cualquier herbívoro habría echado a correr al ver a este monstruo acercarse!"
+        },
+        {
+          "label": "Expediciones exóticas",
+          "text": "A lo largo de los años, el museo ha patrocinado numerosas expediciones, entre ellas las realizadas al desierto de Gobi, en Mongolia, en la década de 1920. Los exploradores encontraron varios esqueletos únicos de dinosaurios, así como nidos y huevos fosilizados. Aquí puedes ver la caravana de camellos de la expedición."
+        }
+      ]
+    },
+    {
+      "id": "carnegie-museum-of-natural-history",
+      "title": "Museo Carnegie de Historia Natural",
+      "image": "assets/muse/MUSE03PU.webp",
+      "text": "Situado en Pittsburgh, Pensilvania. Se exhiben los carnívoros Alosaurio y Tiranosaurio rex; los grandes herbívoros Apatosaurus, Camarasaurus y Diplodocus; los ornitópodos Camptosaurus, Corythosaurus y Dryosaurus; el Estegosaurio de placas y el cornudo Protoceratops.",
+      "captions": [
+        {
+          "label": "Esqueletos espectaculares",
+          "text": "Hay tantos esqueletos de dinosaurios en esta sala que parece que pudieran estirarse y atraparte. ¡Mira bien por dónde pisas en este lugar: los dinosaurios están por todas partes!"
+        },
+        {
+          "label": "Famoso cazador de fósiles",
+          "text": "Muchas de las piezas de este museo fueron excavadas por Earl Douglass, mostrado aquí junto a fósiles de Apatosaurus en el campo. Douglass, financiado por el museo a principios del siglo XX, encontró numerosos huesos de dinosaurios en la zona que hoy se conoce como el Monumento Nacional de los Dinosaurios."
+        }
+      ]
+    },
+    {
+      "id": "denver-museum-of-natural-history",
+      "title": "Museo de Historia Natural de Denver",
+      "image": "assets/muse/MUSE04PU.webp",
+      "text": "Situado en Denver, Colorado. La colección incluye ejemplares de Diplodocus, Estegosaurio, Edmontosaurus, Denversaurus y Tiranosaurio rex.",
+      "captions": [
+        {
+          "label": "Un monstruo en maqueta",
+          "text": "Incluso el esqueleto del Tiranosaurio rex resulta intimidante. Para ver el aspecto del dinosaurio completo, puedes fijarte en el cuadro de la pared del fondo."
+        },
+        {
+          "label": "Trabajo de campo",
+          "text": "Antes de que un dinosaurio aparezca en un museo, sus fósiles deben ser excavados en el terreno. Esta fotografía muestra un famoso hallazgo de 1916. Los huesos del primer plano pertenecen a Diplodocus, uno de los saurópodos más grandes. ¡Ya ves que los esqueletos de dinosaurios no aparecen ordenados y listos para montar!"
+        }
+      ]
+    },
+    {
+      "id": "dinosaur-national-monument",
+      "title": "Monumento Nacional de los Dinosaurios",
+      "image": "assets/muse/MUSE05PU.webp",
+      "text": "Situado en Jensen, Utah. Dentro del parque hay un Centro de Visitantes de la Cantera cubierto donde se pueden ver huesos de dinosaurios incrustados en capas de roca del Jurásico Superior. Este yacimiento produjo esqueletos de los carnívoros Alosaurio y Ceratosaurus; los saurópodos Apatosaurus, Camarasaurus y Diplodocus; los ornitópodos Camptosaurus y Dryosaurus; y el Estegosaurio de placas.",
+      "captions": [
+        {
+          "label": "Terreno difícil",
+          "text": "Muchos fósiles del Monumento Nacional de los Dinosaurios estaban incrustados en laderas y tuvieron que ser transportados en carros tirados por caballos."
+        },
+        {
+          "label": "Famoso coleccionista y escalador",
+          "text": "Earl Douglass, mostrado aquí escalando un acantilado del parque, encontró su primer dinosaurio aquí en 1909 y pasó los quince años siguientes excavando dinosaurios en la zona."
+        }
+      ]
+    },
+    {
+      "id": "dinosaur-valley-state-park",
+      "title": "Parque Estatal del Valle de los Dinosaurios",
+      "image": "assets/muse/MUSE06PU.webp",
+      "text": "Situado en Glen Rose, Texas. Un vecino observador descubrió enormes huellas en el lecho del río local. Los obreros represaron parte del río y extrajeron algunas huellas; otras permanecen donde fueron halladas. Las huellas pertenecían a un dinosaurio saurópodo y a un terópodo que lo seguía. La proximidad entre las huellas del pie derecho y el izquierdo prueba que los dinosaurios caminaban sobre patas erguidas, y no con las extremidades abiertas como los lagartos."
+    },
+    {
+      "id": "field-museum-of-natural-history",
+      "title": "Museo Field de Historia Natural",
+      "image": "assets/muse/MUSE07PU.webp",
+      "text": "Situado en Chicago, Illinois. Aquí puedes contemplar Albertosaurus, Apatosaurus, Lambeosaurus, Protoceratops y cráneos de dinosaurios cornudos.",
+      "captions": [
+        {
+          "label": "En el campo",
+          "text": "Ningún esqueleto de dinosaurio entró por su propio pie en un museo. Todos los huesos aparecen mezclados y enterrados en formaciones rocosas. Este trabajador aparece junto a un hueso del muslo de Brachiosaurus. ¡Imagina levantar un fósil tan grande!"
+        },
+        {
+          "label": "«Illinois Jones»",
+          "text": "Paul Sereno ha saltado a la fama en varias ocasiones por sus increíbles descubrimientos de dinosaurios. Más recientemente, Sereno ocupó las portadas de periódicos de todo el mundo por el hallazgo de uno de los dinosaurios más primitivos conocidos: el Eoraptor. Sereno es paleontólogo en la Universidad de Chicago."
+        }
+      ]
+    },
+    {
+      "id": "earth-sciences-museum",
+      "title": "Museo de Ciencias de la Tierra",
+      "image": "assets/muse/MUSE08PU.webp",
+      "text": "Situado en la Universidad Brigham Young, en Provo, Utah. En exposición se encuentran restos de Supersaurus y Ultrasauros, además de esqueletos completos de Alosaurio y Camptosaurus.",
+      "captions": [
+        {
+          "label": "Uno de los más grandes hasta ahora",
+          "text": "Aquí aparece el Dr. James Jensen con los huesos de las patas de Ultrasauros, un saurópodo cuyos fósiles descubrió Jensen. ¡Imagina el tamaño que tendría el dinosaurio completo!"
+        },
+        {
+          "label": "Hueso del hombro superior",
+          "text": "Este es solo un hueso del hombro de un enorme saurópodo llamado Supersaurus. El paleontólogo James Jensen, quien encontró los fósiles del dinosaurio, aparece junto a él."
+        }
+      ]
+    },
+    {
+      "id": "museum-of-the-rockies",
+      "title": "Museo de las Montañas Rocosas",
+      "image": "assets/muse/MUSE09PU.webp",
+      "text": "Situado en Bozeman, Montana. Entre los ejemplares expuestos se encuentran la Maiasaura, constructora de nidos, y el carnívoro Tiranosaurio rex.",
+      "captions": [
+        {
+          "label": "Experto residente",
+          "text": "El paleontólogo Jack Horner, reconocido por sus estudios sobre huevos y nidos de dinosaurios, es el conservador de paleontología del museo."
+        },
+        {
+          "label": "Pruebas con huevos",
+          "text": "¡Los huevos de dinosaurio encontrados en Montana contenían embriones de dinosaurio fosilizados! Esta maqueta muestra cómo eran."
+        },
+        {
+          "label": "Madre e hijo de Maiasaura",
+          "text": "A este dinosaurio se le llamó «buen lagarto madre» porque los fósiles indican que los adultos pudieron haber cuidado de las crías en lugar de abandonarlas."
+        },
+        {
+          "label": "Reconstruyendo a las bestias",
+          "text": "Aquí, un trabajador reconstruye un dinosaurio mientras el público observa."
+        }
+      ]
+    },
+    {
+      "id": "national-museum-of-natural-history",
+      "title": "Museo Nacional de Historia Natural",
+      "image": "assets/muse/MUSE10PU.webp",
+      "text": "Situado en la Institución Smithsoniana de Washington D. C. El museo alberga una importante colección de terópodos: Albertosaurus, Alosaurio, Ceratosaurus y el cráneo del Tiranosaurio rex. También se exponen los saurópodos Camarasaurus y Diplodocus; los ornitópodos Camptosaurus, Corythosaurus, Edmontosaurus, Heterodontosaurus, Maiasaura y Thescelosaurus; los cornudos Brachyceratops, Monoclonius y Triceratops; y el Estegosaurio de placas."
+    },
+    {
+      "id": "peabody-museum-of-natural-history",
+      "title": "Museo Peabody de Historia Natural",
+      "image": "assets/muse/MUSE11PU.webp",
+      "text": "Situado en la Universidad de Yale, en New Haven, Connecticut. Se exhiben muchos de los primeros esqueletos de dinosaurios norteamericanos encontrados, entre ellos Deinonychus, Apatosaurus, Camarasaurus, Tenontosaurus, Camptosaurus, Claosaurus, Edmontosaurus, Monoclonius y Estegosaurio.",
+      "captions": [
+        {
+          "label": "Personaje ilustre",
+          "text": "Entre mediados y finales del siglo XIX, Othniel Charles Marsh compitió con su rival, el cazador de dinosaurios estadounidense Edward Drinker Cope, por ver quién encontraba más dinosaurios. Aunque Marsh cometió algunos errores embarazosos por el camino, al final de la «fiebre de los dinosaurios» había descrito un mayor número de dinosaurios que Cope. El trabajo de Marsh fue financiado por el Museo Peabody."
+        }
+      ]
+    },
+    {
+      "id": "utah-field-house-of-natural-history-state-park",
+      "title": "Parque Estatal Casa de Campo de Historia Natural de Utah",
+      "image": "assets/muse/MUSE12PU.webp",
+      "text": "Situado en Vernal, Utah, cerca del Monumento Nacional de los Dinosaurios. Aquí puedes pasear entre maquetas a tamaño real de animales prehistóricos.",
+      "captions": [
+        {
+          "label": "Diplodocus y Rhamphorhynchus",
+          "text": "Mientras los saurópodos como Diplodocus pastaban en el suelo, los pterosaurios como Rhamphorhynchus surcaban los cielos."
+        },
+        {
+          "label": "Paleontólogo del estado de Utah",
+          "text": "El Dr. David Gillette, mostrado aquí enyesando un fósil de estegosaurio, supervisa los proyectos de investigación sobre dinosaurios del estado de Utah. Uno de los descubrimientos más emocionantes de Gillette es el Seismosaurus, cuyos fósiles aún no han sido completamente excavados. ¡El Seismosaurus podría ser el dinosaurio más grande jamás encontrado!"
+        }
+      ]
+    },
+    {
+      "id": "page-museum-and-la-brea-tar-pits",
+      "title": "Museo Page y Pozos de Alquitrán de La Brea",
+      "image": "assets/muse/MUSE13PU.webp",
+      "text": "Situado en Los Ángeles, California. Los pozos de alquitrán de La Brea llevan atrapando animales desde hace 20.000 años. Los dinosaurios se extinguieron millones de años antes de ese momento, pero las exposiciones incluyen numerosos animales prehistóricos como mamíferos y gatos de dientes de sable."
+    },
+    {
+      "id": "royal-tyrrell-museum-of-paleontology",
+      "title": "Museo Real Tyrrell de Paleontología",
+      "image": "assets/muse/MUSE14PU.webp",
+      "text": "Situado en Drumheller, Alberta. Las exposiciones incluyen esqueletos montados de los carnívoros Alosaurio, Albertosaurus, Tiranosaurio rex, Coelophysis, Dromaeosaurus, Ornitholestes y Struthiomimus; el gran herbívoro Camarasaurus; los de pico de pato Corythosaurus, Hadrosaurus, Hypacrosaurus, Lambeosaurus y Maiasaura; el Estegosaurio de placas; y los cornudos Triceratops, Centrosaurus y Chasmosaurus.",
+      "captions": [
+        {
+          "label": "Territorio accidentado",
+          "text": "Los dinosaurios del museo fueron excavados en el Parque Provincial de Dinosaurios, cuyas tierras áridas son increíblemente ricas en fósiles de dinosaurios."
+        },
+        {
+          "label": "Triceratops",
+          "text": "¡Imagina encontrarte cara a cara con este enorme dinosaurio cornudo! La Tierra era un lugar muy diferente cuando los dinosaurios la dominaban."
+        },
+        {
+          "label": "Un líder en su campo",
+          "text": "El Dr. Philip Currie, conservador del museo, es muy conocido por sus estudios sobre los dinosaurios carnívoros, así como por sus descubrimientos en Canadá y China."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Modern Dinosaur Detectives",
+      "to": "mdet"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/muse/MUSE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Museo Real Tyrrell de Paleontología",
+            "to": "royal-tyrrell-museum-of-paleontology",
+            "x": 2,
+            "y": 28,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Museo de las Montañas Rocosas",
+            "to": "museum-of-the-rockies",
+            "x": 2,
+            "y": 37,
+            "w": 18,
+            "h": 4
+          },
+          {
+            "label": "Parque Estatal Casa de Campo de Historia Natural de Utah",
+            "to": "utah-field-house-of-natural-history-state-park",
+            "x": 2,
+            "y": 44,
+            "w": 28,
+            "h": 8
+          },
+          {
+            "label": "Museo de Ciencias de la Tierra",
+            "to": "earth-sciences-museum",
+            "x": 2,
+            "y": 54,
+            "w": 18,
+            "h": 4
+          },
+          {
+            "label": "Monumento Nacional de los Dinosaurios",
+            "to": "dinosaur-national-monument",
+            "x": 2,
+            "y": 60,
+            "w": 21,
+            "h": 4
+          },
+          {
+            "label": "Museo Page y Pozos de Alquitrán de La Brea",
+            "to": "page-museum-and-la-brea-tar-pits",
+            "x": 2,
+            "y": 66,
+            "w": 21,
+            "h": 6
+          },
+          {
+            "label": "Museo de Historia Natural de Denver",
+            "to": "denver-museum-of-natural-history",
+            "x": 2,
+            "y": 75,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Museo Field de Historia Natural",
+            "to": "field-museum-of-natural-history",
+            "x": 67,
+            "y": 24,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Museo Peabody de Historia Natural",
+            "to": "peabody-museum-of-natural-history",
+            "x": 70,
+            "y": 32,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Museo Americano de Historia Natural",
+            "to": "american-museum-of-natural-history",
+            "x": 70,
+            "y": 40,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Museo Carnegie de Historia Natural",
+            "to": "carnegie-museum-of-natural-history",
+            "x": 68,
+            "y": 48,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Academia de Ciencias Naturales",
+            "to": "academy-of-natural-sciences",
+            "x": 68,
+            "y": 55,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "Museo Nacional de Historia Natural",
+            "to": "national-museum-of-natural-history",
+            "x": 66,
+            "y": 62,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Parque Estatal del Valle de los Dinosaurios",
+            "to": "dinosaur-valley-state-park",
+            "x": 66,
+            "y": 73,
+            "w": 21,
+            "h": 4
+          }
+        ]
+      },
+      "academy-of-natural-sciences": {
+        "image": "assets/muse/MUSE01PU.webp",
+        "back": "main"
+      },
+      "american-museum-of-natural-history": {
+        "image": "assets/muse/MUSE02PU.webp",
+        "back": "main"
+      },
+      "carnegie-museum-of-natural-history": {
+        "image": "assets/muse/MUSE03PU.webp",
+        "back": "main"
+      },
+      "denver-museum-of-natural-history": {
+        "image": "assets/muse/MUSE04PU.webp",
+        "back": "main"
+      },
+      "dinosaur-national-monument": {
+        "image": "assets/muse/MUSE05PU.webp",
+        "back": "main"
+      },
+      "dinosaur-valley-state-park": {
+        "image": "assets/muse/MUSE06PU.webp",
+        "back": "main"
+      },
+      "field-museum-of-natural-history": {
+        "image": "assets/muse/MUSE07PU.webp",
+        "back": "main"
+      },
+      "earth-sciences-museum": {
+        "image": "assets/muse/MUSE08PU.webp",
+        "back": "main"
+      },
+      "museum-of-the-rockies": {
+        "image": "assets/muse/MUSE09PU.webp",
+        "back": "main"
+      },
+      "national-museum-of-natural-history": {
+        "image": "assets/muse/MUSE10PU.webp",
+        "back": "main"
+      },
+      "peabody-museum-of-natural-history": {
+        "image": "assets/muse/MUSE11PU.webp",
+        "back": "main"
+      },
+      "utah-field-house-of-natural-history-state-park": {
+        "image": "assets/muse/MUSE12PU.webp",
+        "back": "main"
+      },
+      "page-museum-and-la-brea-tar-pits": {
+        "image": "assets/muse/MUSE13PU.webp",
+        "back": "main"
+      },
+      "royal-tyrrell-museum-of-paleontology": {
+        "image": "assets/muse/MUSE14PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/muse/MUSE00AP.mp3",
+  "narration": "assets/muse/MUSE00AJ.mp3",
+  "fanTranslation": true
+}

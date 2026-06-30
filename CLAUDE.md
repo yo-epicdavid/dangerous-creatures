@@ -9,9 +9,9 @@ hotspots (`?mode=classic`).
 
 ```
 apps/
-  dangerous-creatures/   # 1994 · 66 animals · BILINGUAL (en at /, Castilian es at /es/)
-  oceans/                # 1995 · 93 entries
-  dinosaurs/             # 1993 · 166 entries
+  dangerous-creatures/   # 1994 · 66 animals · bilingual EN/ES (authentic Spanish disc)
+  oceans/                # 1995 · 93 entries · bilingual EN/ES (authentic Spanish disc)
+  dinosaurs/             # 1993 · 166 entries · bilingual EN/ES (ES = AI fan translation; no Spanish disc)
   dangerous-creatures-reimagined/  # WIP spike (see `reimagined` branch)
 packages/
   pipeline/              # shared disc→site Python tooling (see below)
@@ -41,12 +41,22 @@ under `/Volumes/...`; raw extracts/ISOs live in gitignored `_source/`.
   it. Per-app page background/chrome are tokens (`--body-bg`, `--body-attach`, `--topbar-bg`).
   Change shared look-and-feel in `base.css`; theme per app via tokens. Don't re-duplicate styles.
 
-## i18n (Dangerous Creatures)
+## i18n — all three editions are bilingual
 
-Astro i18n, `prefixDefaultLocale:false` (en at `/`, es under `/es/`). Page bodies live in shared
-view components (`HomeView`/`AnimalView`/`BrowseView`) with thin per-locale route wrappers; UI
-strings in `src/i18n/ui.js`; Spanish content in `web/data/es/` + media in `web/assets/es/`
-(`build_data_es.py`). Oceans/Dinosaurs are English-only.
+Astro i18n, `prefixDefaultLocale:false` (en at `/`, es under `/es/`). Each app: page bodies in shared
+view components (`HomeView`/`AnimalView`(DC)/`TopicView`(Oceans)/`DinoView`(Dino)/`BrowseView`) with
+thin per-locale route wrappers; UI strings in `src/i18n/ui.js`; EN·ES switcher; `build_data_es.py`
+overlays Spanish text on the English structure. Two flavors:
+
+- **Authentic (DC, Oceans):** liberated from the *real Spanish discs*. Spanish media lives in
+  `web/data/es/` + `web/assets/es/`; `build_data_es` relocates asset paths to `assets/es/`.
+- **Fan translation (Dinosaurs):** no Spanish disc exists, so the ES text is an AI translation
+  (`gen_workflow_es.py` is a translator, not an OCR liberator). It **reuses the English media** —
+  `build_data_es` does NOT relocate assets; pages carry a `fanTranslation` flag + a visible
+  `.fan-note` banner; OG cards are `og-es.jpg` next to the shared English assets. **Never present it
+  as official.** If a real Spanish Dinosaurs disc ever surfaces, redo it as an authentic edition.
+
+Guided tours / games / credits / making-of stay English-only in every ES edition.
 
 ## Build & deploy
 

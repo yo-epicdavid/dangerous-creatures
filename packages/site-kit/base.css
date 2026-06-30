@@ -217,6 +217,10 @@ img { max-width: 100%; display: block; }
 .siblings a { color: var(--gold); font-weight: 700; text-decoration: none; white-space: nowrap; }
 .siblings a:hover { text-decoration: underline; }
 
+/* ---------- fan-translation banner (e.g. Dinosaurs ES — an unofficial AI translation) ---------- */
+.fan-note { max-width: var(--maxw); margin: 12px auto 0; padding: 9px 16px; font-size: 13px; line-height: 1.45; color: var(--ink-soft); background: #00000033; border: 1px dashed var(--line); border-radius: 10px; text-align: center; }
+.fan-note b { color: var(--gold); font-weight: 700; }
+
 /* ---------- browse chips on the animal page ---------- */
 .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 4px; align-items: center; }
 .chips .chips__label { font-size: 12px; letter-spacing: 1px; text-transform: uppercase; color: var(--ink-soft); margin-right: 2px; }

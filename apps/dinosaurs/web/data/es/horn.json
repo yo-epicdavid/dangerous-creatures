@@ -1,0 +1,178 @@
+{
+  "id": "horn",
+  "code": "HORN",
+  "name": "Cuernos",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Afilados, espectaculares y sorprendentemente útiles: los cuernos fueron una de las herramientas más poderosas de la naturaleza.",
+  "hero": {
+    "image": "assets/horn/HORN00AA.webp",
+    "alt": "Cuernos"
+  },
+  "intro": "Los dinosaurios utilizaban varios métodos para ahuyentar a sus enemigos. Algunos rugían con fuerza, se erguían o inflaban solapas de piel para asustar a sus atacantes. Otros se valían de su aspecto para intimidar a los depredadores: algunos llevaban una pesada armadura corporal y otros, como los dinosaurios ceratopsios, tenían afilados cuernos. Los cuernos resultaban muy útiles en el mundo de los dinosaurios, no solo para protegerse, sino también para combatir con otros miembros de la manada por el liderazgo o por las hembras.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "modern-frills",
+      "title": "Gorgueras modernas",
+      "image": "assets/horn/HORN01PU.webp",
+      "text": "Los espectaculares despliegues de cuernos y gorgueras no desaparecieron cuando los dinosaurios se extinguieron. Aquí puedes ver algunos animales actuales que aún conservan estas características.",
+      "captions": [
+        {
+          "label": "¡No me muerdas!",
+          "text": "Al igual que los dinosaurios ceratopsios, este majestuoso lagarto cornudo está protegido por su gorguera y sus afilados cuernos."
+        },
+        {
+          "label": "¡Aléjate de mí!",
+          "text": "Uno de los despliegues más espectaculares de cualquier reptil es el del lagarto de gorguera australiano. La «gorguera» es un gran colgajo de piel suelta que normalmente queda plegado alrededor del cuello. Cuando un depredador lo sobresalta, el lagarto eriza ese collar en forma de volante, que suele ser más de cuatro veces la anchura del cuerpo del animal."
+        }
+      ]
+    },
+    {
+      "id": "locking-horns",
+      "title": "Duelo de cuernos",
+      "image": "assets/horn/HORN02PU.webp",
+      "text": "Muchos animales cornudos actuales utilizan sus cuernos en combates de empuje o lucha. Estos duelos sirven para establecer qué macho es el líder de la manada o cuál tiene derecho a aparearse con las hembras. Es posible que los dinosaurios cornudos se comportaran de manera muy similar."
+    },
+    {
+      "id": "horns-aplenty",
+      "title": "Cuernos a montones",
+      "image": "assets/horn/HORN03PU.webp",
+      "text": "Muchos dinosaurios herbívoros vivían en grupo. Al agruparse con los cuernos hacia afuera, los dinosaurios ceratopsios podían presentar a un depredador como el Tiranosaurio rex una imponente muralla de pinchos. En ocasiones, los ceratopsios podían haber formado un círculo alrededor de sus crías, mostrando únicamente un anillo de afiladas cabezas con pinchos al atacante."
+    },
+    {
+      "id": "modern-horns",
+      "title": "Cuernos modernos",
+      "image": "assets/horn/HORN04PU.webp",
+      "text": "Muchos tipos de cuernos siguen siendo visibles en el mundo animal actual, especialmente entre bovinos, ovejas, cabras y antílopes. Tanto las personas como los animales ven los cuernos como símbolos de poder: no son pocos los cazadores que guardan y exhiben los cuernos o astas de un preciado trofeo de caza.",
+      "captions": [
+        {
+          "label": "Cuernos de todas las formas",
+          "text": "Los antílopes viven en muchos lugares del mundo. Estas criaturas parecidas a las cabras tienen una gran variedad de cuernos espectaculares, con todo tipo de espirales, pinchos y curvas."
+        },
+        {
+          "label": "Cuernos habituales",
+          "text": "Muchas razas de ganado vacuno tienen cuernos. Por la seguridad y la comodidad de los ganaderos, algunas razas han sido seleccionadas para no tenerlos. Además, muchos propietarios de ganado recortan los cuernos de sus animales para que no se hagan daño entre sí ni lastimen a las personas que los cuidan."
+        },
+        {
+          "label": "El codiciado cuerno",
+          "text": "En lugar de servir como protección, el cuerno del rinoceronte ha puesto en peligro su vida. Muchos rinocerontes africanos han sido cazados furtivamente por sus cuernos, muy preciados en algunas culturas orientales por sus supuestos poderes «medicinales»."
+        }
+      ]
+    },
+    {
+      "id": "mistaken-horn",
+      "title": "Un cuerno equivocado",
+      "image": "assets/horn/HORN05PU.webp",
+      "text": "Cuando el doctor Gideon Mantell empezó a reconstruir un dinosaurio llamado Iguanodón, colocó por error un gran cuerno en el hocico del animal. Los paleontólogos saben ahora que ese «cuerno» era en realidad una espiga del pulgar que pertenecía a una de las manos del Iguanodón."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Triceratops",
+      "to": "tric"
+    },
+    {
+      "label": "Tuatara",
+      "to": "tuat"
+    },
+    {
+      "label": "Pachycephalosaurus",
+      "to": "pach"
+    },
+    {
+      "label": "Dinosaur Defense",
+      "to": "ddef"
+    },
+    {
+      "label": "Life After Dinosaurs",
+      "to": "aftr"
+    },
+    {
+      "label": "Myths and Legends",
+      "to": "myth"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/horn/HORN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Un cuerno equivocado",
+            "to": "mistaken-horn",
+            "x": 24,
+            "y": 44,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Cuernos a montones",
+            "to": "horns-aplenty",
+            "x": 49,
+            "y": 43,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Duelo de cuernos",
+            "to": "locking-horns",
+            "x": 53,
+            "y": 62,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Gorgueras modernas",
+            "to": "modern-frills",
+            "x": 13,
+            "y": 69,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Cuernos modernos",
+            "to": "modern-horns",
+            "x": 59,
+            "y": 78,
+            "w": 13,
+            "h": 5
+          }
+        ]
+      },
+      "modern-frills": {
+        "image": "assets/horn/HORN01PU.webp",
+        "back": "main"
+      },
+      "locking-horns": {
+        "image": "assets/horn/HORN02PU.webp",
+        "back": "main"
+      },
+      "horns-aplenty": {
+        "image": "assets/horn/HORN03PU.webp",
+        "back": "main"
+      },
+      "modern-horns": {
+        "image": "assets/horn/HORN04PU.webp",
+        "back": "main"
+      },
+      "mistaken-horn": {
+        "image": "assets/horn/HORN05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/horn/HORN00AP.mp3",
+  "narration": "assets/horn/HORN00AJ.mp3",
+  "fanTranslation": true
+}

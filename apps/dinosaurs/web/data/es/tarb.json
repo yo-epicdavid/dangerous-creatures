@@ -1,0 +1,123 @@
+{
+  "id": "tarb",
+  "code": "TARB",
+  "name": "Tarbosaurus",
+  "category": "dinosaur",
+  "scientificName": "Tarbosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "tar-BOH-sor-us",
+  "meaning": "lagarto alarmante",
+  "period": "Cretácico superior",
+  "diet": "Carnívoro",
+  "tagline": "¡El aterrador gemelo asiático del T. rex!",
+  "hero": {
+    "image": "assets/tarb/TARB00AA.webp",
+    "alt": "Tarbosaurus"
+  },
+  "intro": "Con una longitud de hasta nueve metros, el Tarbosaurus era casi tan gigantesco como su aterrador primo, el Tyrannosaurus rex. Ambos eran feroces dinosaurios carnívoros, con patas y colas potentes, enormes cabezas con dientes afilados y diminutos brazos que terminaban en manos de dos dedos. De hecho, los dos grandes carnosaurios se parecen tanto entre sí que algunos científicos creen que son especies hermanas de un mismo tipo de dinosaurio.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Asia"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico tardío"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto alarmante"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Terópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "12,3 m (40 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "discovered-in-mongolia",
+      "title": "Descubierto en Mongolia",
+      "image": "assets/tarb/TARB01PU.webp",
+      "text": "Se han desenterrado al menos trece esqueletos de Tarbosaurus en el desierto del Gobi, en Mongolia (China). Uno de ellos era un esqueleto casi completo y prácticamente perfecto de un Tarbosaurus joven, conservado exactamente tal y como murió hace 80 millones de años. Como los huesos iban a extraerse de la roca, se realizó una réplica exacta en escayola del hallazgo para su exposición.",
+      "captions": [
+        {
+          "label": "Un gran trabajo",
+          "text": "Excavar un hallazgo fósil como este puede llevar semanas, pero el trabajo no termina ahí. Los huesos se trasladan después a un laboratorio, donde restaurar y reconstruir el esqueleto puede llevar años."
+        }
+      ]
+    },
+    {
+      "id": "linked-by-an-ancient-land-bridge",
+      "title": "Unidos por un antiguo puente de tierra",
+      "image": "assets/tarb/TARB02PU.webp",
+      "text": "Existen muchas similitudes entre los esqueletos de Tyrannosaurus rex de América del Norte y los hallazgos de Tarbosaurus en Mongolia. También hay parecidos entre otros dinosaurios de las mismas regiones, como el Euoplocephalus de América del Norte y el Pinacosaurus de Asia. Estas evidencias sugieren que los dos continentes pudieron haber estado unidos, tal como se muestra aquí, durante el Cretácico tardío."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Tyrannosaurus rex",
+      "to": "tyra"
+    },
+    {
+      "label": "Gobi Desert Expeditions",
+      "to": "gobi"
+    },
+    {
+      "label": "The Shifting Earth",
+      "to": "shft"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/tarb/TARB00AA.webp",
+        "hotspots": [
+          {
+            "label": "Unidos por un antiguo puente de tierra",
+            "to": "linked-by-an-ancient-land-bridge",
+            "x": 5,
+            "y": 76,
+            "w": 33,
+            "h": 5
+          },
+          {
+            "label": "Descubierto en Mongolia",
+            "to": "discovered-in-mongolia",
+            "x": 53,
+            "y": 81,
+            "w": 36,
+            "h": 5
+          }
+        ]
+      },
+      "discovered-in-mongolia": {
+        "image": "assets/tarb/TARB01PU.webp",
+        "back": "main"
+      },
+      "linked-by-an-ancient-land-bridge": {
+        "image": "assets/tarb/TARB02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/tarb/TARB50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/tarb/TARB00AP.mp3",
+  "narration": "assets/tarb/TARB00AJ.mp3",
+  "fanTranslation": true
+}

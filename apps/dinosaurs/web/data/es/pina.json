@@ -1,0 +1,209 @@
+{
+  "id": "pina",
+  "code": "PINA",
+  "name": "Pinacosaurus",
+  "category": "dinosaur",
+  "scientificName": "Pinacosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "pin-AK-oh-SOR-us",
+  "meaning": "lagarto tablón",
+  "period": "Cretácico superior",
+  "diet": "Herbívoro",
+  "tagline": "Un caballero medieval del mundo de los dinosaurios: blindado con protuberancias óseas y blandiendo una cola con maza de hueso.",
+  "hero": {
+    "image": "assets/pina/PINA00AA.webp",
+    "alt": "Pinacosaurus"
+  },
+  "intro": "Como un caballero medieval, el Pinacosaurus llevaba armadura y portaba una maza para protegerse. Como armadura, el Pinacosaurus tenía protuberancias óseas por todo el cuerpo, igual que todos sus parientes anquilosaurios. Su maza consistía en dos pesados bultos de hueso unidos al extremo de la poderosa cola del dinosaurio.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Asia"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado",
+      "value": "lagarto tablón"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Anquilosaurio"
+    },
+    {
+      "label": "Longitud",
+      "value": "5,3 m (14 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "time-for-dinner",
+      "title": "¿Hora de cenar?",
+      "image": "assets/pina/PINA01PU.webp",
+      "text": "Esta era probablemente una escena habitual durante el período Cretácico. Muestra a un dinosaurio carnívoro alzándose sobre su presa, un anquilosaurio bien acorazado. Los anquilosaurios se agachaban en el suelo para proteger sus blandos vientres y dependían de su armadura cutánea y sus espinas para defenderse."
+    },
+    {
+      "id": "terrifying-tails",
+      "title": "Colas aterradoras",
+      "image": "assets/pina/PINA02PU.webp",
+      "text": "Muchos dinosaurios usaban sus colas en la batalla. La cola del Pinacosaurus era un arma poderosa con la que podía golpear a sus atacantes.",
+      "captions": [
+        {
+          "label": "Una amenaza con pinchos",
+          "text": "Otros dinosaurios llevaban pinchos en las colas para protegerse de los depredadores que querían comérselos. Un solo golpe de esta cola de estegosaurio habría causado heridas terribles."
+        }
+      ]
+    },
+    {
+      "id": "more-bumpy-beasts",
+      "title": "Más bestias con protuberancias",
+      "image": "assets/pina/PINA03PU.webp",
+      "text": "El Pinacosaurus no era el único dinosaurio con armadura corporal. Todos los anquilosaurios tenían placas óseas incrustadas en su piel, formando bultos y protuberancias. El Polacanthus, que se muestra aquí, es otro anquilosaurio típico.",
+      "captions": [
+        {
+          "label": "Piel con armadura",
+          "text": "Este nódulo de anquilosaurio estaba aplanado en la base y unido al lomo del animal."
+        },
+        {
+          "label": "Piel sin armadura",
+          "text": "Esta impresión de la piel del Diplodocus, un saurópodo, es bastante lisa comparada con la piel de los anquilosaurios. La piel de la mayoría de los saurópodos habría ofrecido poca protección frente a los dientes y las garras de un depredador."
+        }
+      ]
+    },
+    {
+      "id": "proof-of-a-land-bridge",
+      "title": "Prueba de un puente terrestre",
+      "image": "assets/pina/PINA04PU.webp",
+      "text": "Los dinosaurios acorazados que vivieron en el Cretácico Superior, como el Pinacosaurus y el Euoplocephalus, solo se encuentran en el este de Asia, el oeste de América del Norte y Australia. Esto sugiere que durante el Cretácico Superior los dinosaurios podían cruzar desde el oeste de América del Norte hasta el este de Asia y Australia a través de un «puente» terrestre, pero no podían adentrarse en otras partes del mundo debido a la expansión de los mares."
+    },
+    {
+      "id": "tooth-tale",
+      "title": "La historia de los dientes",
+      "image": "assets/pina/PINA05PU.webp",
+      "text": "Los anquilosaurios como el Pinacosaurus tenían dientes pequeños y triangulares como el que se muestra aquí. Los dientes de esta forma están hechos para masticar plantas blandas como los helechos.",
+      "captions": [
+        {
+          "label": "Dientes de monstruo",
+          "text": "Este afilado diente pertenecía al carnívoro Megalosaurio. Sus bordes son dentados como un cuchillo para desgarrar la carne."
+        },
+        {
+          "label": "Dientes en forma de clavija",
+          "text": "Estos dientes con forma de clavija pertenecían a un enorme saurópodo. Eran eficaces para mordisquear plantas duras."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaurs in Armor",
+      "to": "armr"
+    },
+    {
+      "label": "The Jurassic Period",
+      "to": "jurr"
+    },
+    {
+      "label": "Stegosaurus",
+      "to": "steg"
+    },
+    {
+      "label": "Saltasaurus",
+      "to": "salt"
+    },
+    {
+      "label": "Life After Dinosaurs",
+      "to": "aftr"
+    },
+    {
+      "label": "Megalosaurus",
+      "to": "mega"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/pina/PINA00AA.webp",
+        "hotspots": [
+          {
+            "label": "¿Hora de cenar?",
+            "to": "time-for-dinner",
+            "x": 5,
+            "y": 42,
+            "w": 20,
+            "h": 7
+          },
+          {
+            "label": "Más bestias con protuberancias",
+            "to": "more-bumpy-beasts",
+            "x": 57,
+            "y": 27,
+            "w": 25,
+            "h": 7
+          },
+          {
+            "label": "Colas aterradoras",
+            "to": "terrifying-tails",
+            "x": 69,
+            "y": 48,
+            "w": 20,
+            "h": 7
+          },
+          {
+            "label": "La historia de los dientes",
+            "to": "tooth-tale",
+            "x": 4,
+            "y": 77,
+            "w": 14,
+            "h": 7
+          },
+          {
+            "label": "Prueba de un puente terrestre",
+            "to": "proof-of-a-land-bridge",
+            "x": 42,
+            "y": 77,
+            "w": 26,
+            "h": 7
+          }
+        ]
+      },
+      "time-for-dinner": {
+        "image": "assets/pina/PINA01PU.webp",
+        "back": "main"
+      },
+      "terrifying-tails": {
+        "image": "assets/pina/PINA02PU.webp",
+        "back": "main"
+      },
+      "more-bumpy-beasts": {
+        "image": "assets/pina/PINA03PU.webp",
+        "back": "main"
+      },
+      "proof-of-a-land-bridge": {
+        "image": "assets/pina/PINA04PU.webp",
+        "back": "main"
+      },
+      "tooth-tale": {
+        "image": "assets/pina/PINA05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/pina/PINA50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/pina/PINA00AP.mp3",
+  "narration": "assets/pina/PINA00AJ.mp3",
+  "fanTranslation": true
+}

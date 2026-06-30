@@ -1,0 +1,117 @@
+{
+  "id": "tsin",
+  "code": "TSIN",
+  "name": "Tsintaosaurus",
+  "category": "dinosaur",
+  "scientificName": "Tsintaosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "sin-TAO-sor-us",
+  "meaning": "lagarto de Tsintao",
+  "period": "Cretácico superior",
+  "diet": "Herbívoro",
+  "tagline": "El dinosaurio unicornio con un cuerno hueco que quizás lo hacía más ruidoso... o más vistoso.",
+  "hero": {
+    "image": "assets/tsin/TSIN00AA.webp",
+    "alt": "Tsintaosaurus"
+  },
+  "intro": "Con una cresta larga y estrecha que le sobresalía justo entre los ojos, ¡el Tsintaosaurus parecía un dinosaurio unicornio! La cresta tubular era hueca y puede que fuera un dispositivo para amplificar los bramidos del dinosaurio, o quizás sujetaba un pliegue de piel que el Tsintaosaurus podía inflar. Sea cual fuera su función, esta cresta tan peculiar hacía que fuera fácil distinguir a este dinosaurio de los demás.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Asia"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto de Tsintao"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Ornitópodo"
+    }
+  ],
+  "topics": [
+    {
+      "id": "conspicuous-crests",
+      "title": "Crestas llamativas",
+      "image": "assets/tsin/TSIN01PU.webp",
+      "text": "Varios dinosaurios, además del Tsintaosaurus, tenían crestas o cuernos insólitos en la cabeza. Los científicos han desarrollado múltiples teorías sobre la función de estas estructuras. Probablemente las más extendidas son que las crestas servían para amplificar los sonidos; otra plantea que eran simplemente un recurso para llamar la atención y atraer pareja.",
+      "captions": [
+        {
+          "label": "¿Puedes oírme?",
+          "text": "El Lambeosaurus fue uno de los hadrosaurios con casco más grandes, ¡de unos quince metros de longitud! Al igual que el Tsintaosaurus, tenía una extraña cresta en lo alto de la cabeza. La parte delantera de la cresta contenía tubos huecos que llegaban hasta las fosas nasales del dinosaurio y, según se cree, servían para amplificar su voz."
+        }
+      ]
+    },
+    {
+      "id": "hadrosaur-eating-habits",
+      "title": "Hábitos alimenticios de los hadrosaurios",
+      "image": "assets/tsin/TSIN02PU.webp",
+      "text": "Un espécimen fósil de hadrosaurio tenía agujas de pino y ramitas conservadas en la zona del estómago, por lo que se supone que estas plantas leñosas formaban al menos parte de la dieta de los hadrosaurios. El Tsintaosaurus también pudo alimentarse de magnolias y otras plantas con flores.",
+      "captions": [
+        {
+          "label": "Supervivientes",
+          "text": "Aunque los dinosaurios están extintos, algunas plantas prehistóricas —helechos, pinos, magnolias y colas de caballo— han sobrevivido a lo largo de los siglos."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Shantungosaurus",
+      "to": "shan"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/tsin/TSIN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Crestas llamativas",
+            "to": "conspicuous-crests",
+            "x": 63,
+            "y": 40,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Hábitos alimenticios de los hadrosaurios",
+            "to": "hadrosaur-eating-habits",
+            "x": 60,
+            "y": 52,
+            "w": 30,
+            "h": 6
+          }
+        ]
+      },
+      "conspicuous-crests": {
+        "image": "assets/tsin/TSIN01PU.webp",
+        "back": "main"
+      },
+      "hadrosaur-eating-habits": {
+        "image": "assets/tsin/TSIN02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/tsin/TSIN50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/tsin/TSIN00AP.mp3",
+  "narration": "assets/tsin/TSIN00AJ.mp3",
+  "fanTranslation": true
+}

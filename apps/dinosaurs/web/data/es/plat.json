@@ -1,0 +1,191 @@
+{
+  "id": "plat",
+  "code": "PLAT",
+  "name": "Plateosaurio",
+  "category": "dinosaur",
+  "scientificName": "Plateosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "plat-ee-oh-SOR-us",
+  "meaning": "lagarto plano",
+  "period": "Triásico",
+  "diet": "Herbívoro",
+  "tagline": "El primer gran herbívoro de la Tierra: ¡el Plateosaurio dominó Europa mucho antes de que existieran la mayoría de los dinosaurios!",
+  "hero": {
+    "image": "assets/plat/PLAT00AA.webp",
+    "alt": "Plateosaurio"
+  },
+  "intro": "El Plateosaurio recorrió la Tierra mucho antes que muchos de sus parientes y fue uno de los primeros dinosaurios de gran tamaño en ser descubiertos. Era un prosaurópodo, pariente de los gigantescos saurópodos como el Diplodocus. Este dinosaurio vivió en Europa hace unos 200 millones de años, cuando el clima allí era cálido y árido, como un desierto.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Europa"
+    },
+    {
+      "label": "Época",
+      "value": "Triásico"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto plano"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de reptil"
+    },
+    {
+      "label": "Familia",
+      "value": "Prosaurópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "8 m (26 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "one-of-the-first",
+      "title": "Uno de los primeros",
+      "image": "assets/plat/PLAT01PU.webp",
+      "text": "El Plateosaurio vivió durante el Triásico Superior, antes que la mayoría de los dinosaurios. Este gran herbívoro medía unos ocho metros de longitud y podía erguirse sobre sus patas traseras para alcanzar las hojas de lo alto de los árboles.",
+      "captions": [
+        {
+          "label": "Plateosaurio",
+          "text": "Uno de los primeros dinosaurios herbívoros de gran tamaño del período Triásico."
+        },
+        {
+          "label": "Apatosaurio",
+          "text": "Uno de los dinosaurios más comunes del período Jurásico."
+        },
+        {
+          "label": "Dravidosaurus",
+          "text": "El último estegosaurio conocido que sobrevivió hasta el Cretácico Superior."
+        },
+        {
+          "label": "Uno de los últimos",
+          "text": "El Dravidosaurus, un dinosaurio con placas en el lomo procedente de India, se extinguió durante el Cretácico Superior, hace unos 88 millones de años."
+        }
+      ]
+    },
+    {
+      "id": "hand-or-foot",
+      "title": "¿Mano o pie?",
+      "image": "assets/plat/PLAT02PU.webp",
+      "text": "Sabemos que este fósil de Plateosaurio es una «mano» por las garras afiladas y estrechas que utilizaba para agarrar cosas o para arrancar hojas de los árboles. El Plateosaurio se alimentaba de plantas al ras del suelo a cuatro patas y luego se erguía sobre sus patas traseras para alcanzar las copas de los árboles. Las articulaciones entre los huesos permitían doblar la mano hacia atrás a la altura de la «muñeca» cuando el Plateosaurio caminaba a cuatro patas.",
+      "captions": [
+        {
+          "label": "Échame una mano",
+          "text": "Aquí puedes ver las garras de la mano del Plateosaurio. Fíjate en lo fácilmente que se dobla la muñeca."
+        }
+      ]
+    },
+    {
+      "id": "leaves-for-lunch",
+      "title": "Hojas para comer",
+      "image": "assets/plat/PLAT03PU.webp",
+      "text": "El Plateosaurio probablemente se alimentaba de hojas, triturando algunas con sus hileras de pequeños dientes y otras con piedras en el estómago que guardaba en su molleja. Puede que también utilizara sus patas delanteras, dotadas de garras afiladas, para recoger alimento o para defenderse.",
+      "captions": [
+        {
+          "label": "Un enigma antiguo",
+          "text": "Las araucarias vivas como esta son parientes de las que florecieron mucho antes de que los dinosaurios pisaran la Tierra."
+        }
+      ]
+    },
+    {
+      "id": "death-by-drowning",
+      "title": "¿Muerte por ahogamiento?",
+      "image": "assets/plat/PLAT04PU.webp",
+      "text": "Se han encontrado esqueletos de numerosos Plateosaurios en Trossingen, Alemania. Muchos de estos fósiles aparecen en grupo, lo que podría indicar que viajaban en manadas. Quizás quedaron atrapados en una riada, o tal vez murieron al hundirse en un lodazal."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Marching to Extinction",
+      "to": "extt"
+    },
+    {
+      "label": "Dravidosaurus",
+      "to": "davi"
+    },
+    {
+      "label": "Rhoetosaurus",
+      "to": "rhoe"
+    },
+    {
+      "label": "Dinosaur Landscape",
+      "to": "dlan"
+    },
+    {
+      "label": "Extinction",
+      "to": "exti"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/plat/PLAT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hojas para comer",
+            "to": "leaves-for-lunch",
+            "x": 60,
+            "y": 12,
+            "w": 25,
+            "h": 7
+          },
+          {
+            "label": "¿Mano o pie?",
+            "to": "hand-or-foot",
+            "x": 63,
+            "y": 34,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Uno de los primeros",
+            "to": "one-of-the-first",
+            "x": 5,
+            "y": 53,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "¿Muerte por ahogamiento?",
+            "to": "death-by-drowning",
+            "x": 43,
+            "y": 73,
+            "w": 27,
+            "h": 7
+          }
+        ]
+      },
+      "one-of-the-first": {
+        "image": "assets/plat/PLAT01PU.webp",
+        "back": "main"
+      },
+      "hand-or-foot": {
+        "image": "assets/plat/PLAT02PU.webp",
+        "back": "main"
+      },
+      "leaves-for-lunch": {
+        "image": "assets/plat/PLAT03PU.webp",
+        "back": "main"
+      },
+      "death-by-drowning": {
+        "image": "assets/plat/PLAT04PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/plat/PLAT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/plat/PLAT00AP.mp3",
+  "narration": "assets/plat/PLAT00AJ.mp3",
+  "fanTranslation": true
+}

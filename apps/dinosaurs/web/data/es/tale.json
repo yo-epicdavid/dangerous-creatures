@@ -1,0 +1,166 @@
+{
+  "id": "tale",
+  "code": "TALE",
+  "name": "La historia de las colas",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "¡Las colas de los dinosaurios eran herramientas para alcanzar el alimento, orientarse a toda velocidad y repeler a los atacantes!",
+  "hero": {
+    "image": "assets/tale/TALE00AA.webp",
+    "alt": "La historia de las colas"
+  },
+  "intro": "Las colas pueden tener un número sorprendente de usos. Los dinosaurios saurópodos como el Diplodocus se apoyaban con frecuencia en sus colas al alimentarse. Los dinosaurios bípedos de movimientos rápidos utilizaban la cola para mantener el equilibrio y orientarse mientras corrían de un lugar a otro. Otros dinosaurios empleaban la cola para defenderse de sus atacantes.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "balancing-act",
+      "title": "Equilibristas",
+      "image": "assets/tale/TALE01PU.webp",
+      "text": "Los grandes herbívoros como el Diplodocus se apoyaban a veces sobre la cola y las patas traseras para estirar el cuello hasta lo más alto de las copas de los árboles y arrancar las hojas más jugosas. Esta técnica les permitía ampliar considerablemente su alcance."
+    },
+    {
+      "id": "threatening-tails",
+      "title": "Colas amenazantes",
+      "image": "assets/tale/TALE02PU.webp",
+      "text": "Algunos dinosaurios llevaban armas temibles en sus musculosas colas. Un depredador hambriento que se acercase por detrás podía llevarse una dolorosa sorpresa al atacar a uno de estos dinosaurios bien armados.",
+      "captions": [
+        {
+          "label": "Mazas",
+          "text": "Algunos dinosaurios acorazados como el Euoplocephalus tenían colas que terminaban en enormes bloques de hueso. Una maza caudal como esta podía medir casi un metro de diámetro, ¡un arma verdaderamente formidable!"
+        },
+        {
+          "label": "Púas",
+          "text": "¿Qué dinosaurio querría enfrentarse a la cola del Estegosaurio, que terminaba en cuatro largas púas? Cuando el dinosaurio agitaba la cola, el extremo con las púas se convertía en la parte que se movía más deprisa y podía causar graves heridas a cualquier atacante."
+        }
+      ]
+    },
+    {
+      "id": "steering-mechanisms",
+      "title": "Mecanismos de dirección",
+      "image": "assets/tale/TALE03PU.webp",
+      "text": "Los dinosaurios bípedos y otros reptiles prehistóricos veloces utilizaban la cola para orientarse y mantener el equilibrio.",
+      "captions": [
+        {
+          "label": "Dirección en el aire",
+          "text": "El Ramphorhynchus, un reptil volador que vivió al mismo tiempo que los dinosaurios, tenía una larga cola con una aleta de piel en forma de rombo en el extremo. Esta cola actuaba como timón para mantener el rumbo del pterosaurio, del mismo modo que el timón de un avión o un barco dirige esas máquinas."
+        },
+        {
+          "label": "Dirección en tierra",
+          "text": "El Struthiomimus, uno de los «dinosaurios avestruz», tenía una cola rígida formada por huesos ligeros. Al correr, el Struthiomimus mantenía la cola levantada en el aire."
+        }
+      ]
+    },
+    {
+      "id": "the-inside-story",
+      "title": "Lo que hay dentro",
+      "image": "assets/tale/TALE04PU.webp",
+      "text": "A partir de la forma y el tamaño de los huesos de la cola, los científicos pueden averiguar dónde se insertaban los músculos, lo que ofrece una imagen más completa de cómo eran los dinosaurios en vida y cómo vivían.",
+      "captions": [
+        {
+          "label": "Vértebra bifurcada",
+          "text": "Este hueso en chevron perteneció a un saurópodo llamado Camarasaurus. Los huesos en chevron se situaban en la parte inferior de la cola, cerca de las caderas del dinosaurio. Los músculos se insertaban en la larga y estrecha apófisis de la parte inferior del hueso en chevron, y un gran vaso sanguíneo discurría entre las dos horquillas de la parte superior."
+        },
+        {
+          "label": "Vértebra caudal",
+          "text": "Este hueso caudal perteneció a un dinosaurio con cuernos. Las dos proyecciones eran puntos de anclaje para fuertes músculos y tendones que recorrían los flancos de la cola del dinosaurio."
+        },
+        {
+          "label": "Chevron aplanado",
+          "text": "Hacia la parte central de la cola, un dinosaurio como el Diplodocus tenía huesos en chevron aplanados, que probablemente protegían la cara inferior de la cola."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Digging up Dinosaurs",
+      "to": "digg"
+    },
+    {
+      "label": "Diplodocus",
+      "to": "dipl"
+    },
+    {
+      "label": "Euoplocephalus",
+      "to": "euop"
+    },
+    {
+      "label": "Struthiomimus",
+      "to": "stru"
+    },
+    {
+      "label": "Reconstructing Dinosaurs",
+      "to": "reco"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/tale/TALE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Mecanismos de dirección",
+            "to": "steering-mechanisms",
+            "x": 40,
+            "y": 29,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Equilibristas",
+            "to": "balancing-act",
+            "x": 62,
+            "y": 38,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Colas amenazantes",
+            "to": "threatening-tails",
+            "x": 36,
+            "y": 72,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Lo que hay dentro",
+            "to": "the-inside-story",
+            "x": 2,
+            "y": 77,
+            "w": 18,
+            "h": 5
+          }
+        ]
+      },
+      "balancing-act": {
+        "image": "assets/tale/TALE01PU.webp",
+        "back": "main"
+      },
+      "threatening-tails": {
+        "image": "assets/tale/TALE02PU.webp",
+        "back": "main"
+      },
+      "steering-mechanisms": {
+        "image": "assets/tale/TALE03PU.webp",
+        "back": "main"
+      },
+      "the-inside-story": {
+        "image": "assets/tale/TALE04PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/tale/TALE00AP.mp3",
+  "narration": "assets/tale/TALE00AJ.mp3",
+  "fanTranslation": true
+}

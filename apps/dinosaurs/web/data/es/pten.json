@@ -1,0 +1,199 @@
+{
+  "id": "pten",
+  "code": "PTEN",
+  "name": "Pteranodón",
+  "category": "creature",
+  "scientificName": "Pteranodon",
+  "needsScientificVerify": false,
+  "pronunciation": "teh-RAN-oh-don",
+  "meaning": "Alado sin dientes",
+  "period": "Cretácico superior",
+  "diet": "Carnívoro",
+  "tagline": "¡Un gigante sin dientes de los cielos prehistóricos, con alas más anchas que un autobús escolar!",
+  "hero": {
+    "image": "assets/pten/PTEN00AA.webp",
+    "alt": "Pteranodón"
+  },
+  "intro": "Proyectando una enorme sombra con su envergadura de más de seis metros, el Pteranodón debía de ser un terror en el cielo. Este reptil volador, o pterosaurio, planeaba largas distancias sobre los mares prehistóricos, recogiendo peces con su largo pico sin dientes.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Europa, Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Alado sin dientes"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Pterosaurio"
+    },
+    {
+      "label": "Envergadura",
+      "value": "7 m (23 pies)"
+    },
+    {
+      "label": "Peso",
+      "value": "33 libras"
+    }
+  ],
+  "topics": [
+    {
+      "id": "fingered-wings",
+      "title": "Alas con dedos",
+      "image": "assets/pten/PTEN01PU.webp",
+      "text": "El Pteranodón, como otros reptiles voladores, usaba los huesos de sus manos y dedos para sostener sus alas de piel correosa. Los tres primeros dedos terminaban en garras y sobresalían por la parte delantera del ala, pero el hueso del cuarto dedo se extendía hasta la mismísima punta del ala. ¡En el caso del Pteranodón, eso suponía un dedo muy largo!"
+    },
+    {
+      "id": "flying-fish-catcher",
+      "title": "Cazador de peces volador",
+      "image": "assets/pten/PTEN02PU.webp",
+      "text": "Los científicos creen que el Pteranodón prefería el pescado como alimento. Podría haberlos recogido con su largo pico, y es posible que también tuviese una bolsa gular como la del pelícano para guardar su captura. Como el Pteranodón no tenía dientes, debía de tragarse los peces enteros."
+    },
+    {
+      "id": "ancient-albatross",
+      "title": "¿Un albatros prehistórico?",
+      "image": "assets/pten/PTEN03PU.webp",
+      "text": "Con su enorme tamaño y su capacidad para planear largas distancias sobre el océano, el Pteranodón se parecía al albatros actual.",
+      "captions": [
+        {
+          "label": "El ave voladora más grande de hoy en día",
+          "text": "Un albatros grande puede tener una envergadura de tres a cuatro metros, la mayor de cualquier ave que existe hoy en la Tierra. El albatros puede planear sobre las corrientes de aire durante largos períodos sin mover las alas."
+        }
+      ]
+    },
+    {
+      "id": "fur-feathers-or-scales",
+      "title": "¿Pelo, plumas o escamas?",
+      "image": "assets/pten/PTEN04PU.webp",
+      "text": "Algunos pterosaurios fósiles descubiertos en Kazajistán tenían impresiones similares a pelo alrededor de su cuerpo, lo que llevó a los paleontólogos a pensar que quizás tuvieran pelo. Si lo tenían, esto podría indicar que eran de sangre caliente y usaban el pelo como aislante. No sabemos con certeza qué tipo de piel tenía el Pteranodón.",
+      "captions": [
+        {
+          "label": "Pelo en los cielos actuales",
+          "text": "Es fácil ver la similitud entre el murciélago y el Pteranodón. Ambos tienen alas largas y correosas y cuerpos peludos. Los murciélagos se remontan al período Eoceno, hace aproximadamente 55 millones de años."
+        }
+      ]
+    },
+    {
+      "id": "a-well-balanced-flyer",
+      "title": "Un volador bien equilibrado",
+      "image": "assets/pten/PTEN05PU.webp",
+      "text": "La cresta ósea de la cabeza del Pteranodón contrarrestaba el peso de su largo pico sin dientes. La cresta también podría haber servido de timón para guiar y equilibrar al reptil en vuelo."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What is a Dinosaur?",
+      "to": "what"
+    },
+    {
+      "label": "Reptiles of the Air",
+      "to": "rair"
+    },
+    {
+      "label": "Baryonyx",
+      "to": "bary"
+    },
+    {
+      "label": "Birds and Dinosaurs",
+      "to": "bird"
+    },
+    {
+      "label": "Warm-blooded or Cold-blooded?",
+      "to": "warm"
+    },
+    {
+      "label": "Quetzalcoatlus",
+      "to": "quet"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/pten/PTEN00AA.webp",
+        "hotspots": [
+          {
+            "label": "¿Pelo, plumas o escamas?",
+            "to": "fur-feathers-or-scales",
+            "x": 65,
+            "y": 10,
+            "w": 25,
+            "h": 7
+          },
+          {
+            "label": "Alas con dedos",
+            "to": "fingered-wings",
+            "x": 33,
+            "y": 33,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Un volador bien equilibrado",
+            "to": "a-well-balanced-flyer",
+            "x": 61,
+            "y": 41,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "¿Un albatros prehistórico?",
+            "to": "ancient-albatross",
+            "x": 4,
+            "y": 49,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Cazador de peces volador",
+            "to": "flying-fish-catcher",
+            "x": 32,
+            "y": 67,
+            "w": 21,
+            "h": 6
+          }
+        ]
+      },
+      "fingered-wings": {
+        "image": "assets/pten/PTEN01PU.webp",
+        "back": "main"
+      },
+      "flying-fish-catcher": {
+        "image": "assets/pten/PTEN02PU.webp",
+        "back": "main"
+      },
+      "ancient-albatross": {
+        "image": "assets/pten/PTEN03PU.webp",
+        "back": "main"
+      },
+      "fur-feathers-or-scales": {
+        "image": "assets/pten/PTEN04PU.webp",
+        "back": "main"
+      },
+      "a-well-balanced-flyer": {
+        "image": "assets/pten/PTEN05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/pten/PTEN50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/pten/PTEN00AP.mp3",
+  "narration": "assets/pten/PTEN00AJ.mp3",
+  "fanTranslation": true
+}

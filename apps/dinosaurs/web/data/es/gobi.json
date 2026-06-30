@@ -1,0 +1,244 @@
+{
+  "id": "gobi",
+  "code": "GOBI",
+  "name": "Expediciones al desierto del Gobi",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "GO-bee DEH-zert ex-peh-DIH-shunz",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "¡Un vasto y abrasador desierto donde valientes exploradores descubrieron los primeros huevos de dinosaurio del mundo!",
+  "hero": {
+    "image": "assets/gobi/GOBI00AA.webp",
+    "alt": "Expediciones al desierto del Gobi"
+  },
+  "intro": "El desierto del Gobi, en Mongolia, es una enorme extensión de roca y arena por la que el viento y las tormentas de arena barren las laderas de las montañas y los fondos de los valles. En invierno, la temperatura puede bajar hasta los -75 °C, ¡y en verano puede superar los 56 °C! En la década de 1920, varias expediciones patrocinadas por el Museo Americano de Historia Natural se aventuraron en esta inhóspita región. La primera expedición buscaba el origen del ser humano. En lugar de restos humanos, ¡encontraron los primeros huevos de dinosaurio! Desde 1963, muchas otras expediciones en busca de dinosaurios han recorrido la zona de punta a punta, realizando hallazgos cada vez más espectaculares. Cada expedición ha sido una aventura única.",
+  "facts": [
+    {
+      "label": "Ubicación",
+      "value": "Mongolia"
+    },
+    {
+      "label": "Temperatura en invierno",
+      "value": "hasta -75 °C"
+    },
+    {
+      "label": "Temperatura en verano",
+      "value": "más de 56 °C"
+    },
+    {
+      "label": "Primeras expediciones",
+      "value": "Década de 1920, patrocinadas por el Museo Americano de Historia Natural"
+    },
+    {
+      "label": "Descubrimiento destacado",
+      "value": "Los primeros huevos de dinosaurio descubiertos jamás"
+    },
+    {
+      "label": "Expediciones modernas",
+      "value": "Desde 1963"
+    }
+  ],
+  "topics": [
+    {
+      "id": "a-perfect-find",
+      "title": "Un hallazgo perfecto",
+      "image": "assets/gobi/GOBI01PU.webp",
+      "text": "Uno de los hallazgos más asombrosos fue un esqueleto casi completo de Tarbosaurus, conservado de forma casi perfecta desde su muerte hace 80 millones de años. Los antiguos chinos creían que los huesos de dinosaurio pertenecían a dragones que habían bajado del cielo.",
+      "captions": [
+        {
+          "label": "Molde de escayola",
+          "text": "Como los huesos iban a extraerse de la roca, se realizó una réplica exacta en escayola del hallazgo para su exposición."
+        },
+        {
+          "label": "¿Tarbosaurus o Tiranosaurio rex?",
+          "text": "El Tarbosaurus es tan parecido al Tiranosaurio rex que los expertos creen que podrían ser el mismo tipo de dinosaurio, con un territorio que abarcaba desde Asia hasta Norteamérica. Hasta ahora, se han encontrado al menos trece esqueletos de Tarbosaurus en la cuenca de Nemegt, en Mongolia. ¡El más grande medía casi doce metros de longitud!"
+        }
+      ]
+    },
+    {
+      "id": "arms-only",
+      "title": "Solo los brazos",
+      "image": "assets/gobi/GOBI02PU.webp",
+      "text": "Todo lo que sabemos de un dinosaurio llamado Deinocheirus es que tenía brazos de casi dos metros y medio de longitud. ¿Quizás era tan grande como el Tiranosaurio rex, pero con brazos largos? No se ha encontrado ninguna otra parte del esqueleto, así que nadie lo sabe con certeza.",
+      "captions": [
+        {
+          "label": "Un hallazgo en la arena",
+          "text": "En un día de lluvia, unos trabajadores vieron los huesos del Deinocheirus asomando entre la arena suelta en lo alto de una pequeña colina. Encontraron huesos del hombro, brazos, garras y algunos fragmentos de costillas y vértebras. ¡Siempre merece la pena estar atento por si aparecen huesos de dinosaurio!"
+        }
+      ]
+    },
+    {
+      "id": "ancient-eggs",
+      "title": "Huevos ancestrales",
+      "image": "assets/gobi/GOBI03PU.webp",
+      "text": "Entre los asombrosos descubrimientos de la década de 1920 se encontraban cincuenta huevos de Protoceratops en nidos fosilizados, y esqueletos de Protoceratops de todos los tamaños, desde crías recién nacidas hasta adultos. Fue una de las primeras pruebas sólidas de que los dinosaurios ponían huevos.",
+      "captions": [
+        {
+          "label": "Huevos asiáticos",
+          "text": "En esta imagen se ve a R. C. Andrews examinando los huevos de Protoceratops descubiertos en el desierto del Gobi."
+        },
+        {
+          "label": "Huevos de dinosaurio americanos",
+          "text": "En Montana, el paleontólogo Jack Horner descubrió numerosos nidos y huevos de dinosaurio pertenecientes a un dinosaurio de pico de pato llamado Maiasaura. El lugar recibió, con toda la razón, el nombre de Montaña del Huevo."
+        }
+      ]
+    },
+    {
+      "id": "egg-headed-dinosaur",
+      "title": "El dinosaurio de cabeza en forma de huevo",
+      "image": "assets/gobi/GOBI04PU.webp",
+      "text": "Si no te fijaras bien, podrías confundir este cráneo de Prenocephale con un enorme huevo fosilizado. Este cráneo fósil de un dinosaurio de cabeza ósea fue encontrado en arenisca blanda en el desierto del Gobi. El interior del cráneo estaba tan bien conservado que pueden verse a la perfección los finos huesos de la caja craneal, con sus orificios para los nervios y los vasos sanguíneos.",
+      "captions": [
+        {
+          "label": "Choques cabeza con cabeza",
+          "text": "El Prenocephale tenía una cúpula con forma de huevo en la cabeza de casi treinta centímetros de grosor. Al igual que un casco protector, este grueso cráneo pudo proteger al Prenocephale cuando el dinosaurio participaba en combates de cabezazos con machos rivales."
+        }
+      ]
+    },
+    {
+      "id": "andrews-and-crew",
+      "title": "Andrews y su equipo",
+      "image": "assets/gobi/GOBI05PU.webp",
+      "text": "Roy Chapman (R. C.) Andrews dirigió algunas de las expediciones de la década de 1920. Muchos paleontólogos consideran que Andrews era más un aventurero que un científico riguroso.",
+      "captions": [
+        {
+          "label": "Transporte tradicional",
+          "text": "Más de 100 camellos transportaban los suministros del campamento y la gasolina para los coches. Los animales también servían como medio de transporte por los alrededores del campamento. En esta imagen se ve al jefe de expedición R. C. Andrews regresando al campamento después de una excursión."
+        },
+        {
+          "label": "Caravana motorizada",
+          "text": "Las expediciones utilizaban una flota de coches para transportar al equipo desde su base en Pekín y de regreso a ella. El calor del desierto obligaba a parar con frecuencia para dejar enfriar los motores."
+        }
+      ]
+    },
+    {
+      "id": "monstrous-mammals-too",
+      "title": "También mamíferos gigantescos",
+      "image": "assets/gobi/GOBI06PU.webp",
+      "text": "Esta fotografía, tomada en 1928, muestra a un equipo excavando los huesos de un animal prehistórico al que llamaron «El Monstruo». Este animal era un mamífero primitivo parecido a un rinoceronte, de casi nueve metros de altura a la cruz, que vivió hace entre 10 y 15 millones de años. En el desierto del Gobi se han descubierto restos de muchos tipos distintos de animales prehistóricos."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What is Paleontology?",
+      "to": "pale"
+    },
+    {
+      "label": "Tarbosaurus",
+      "to": "tarb"
+    },
+    {
+      "label": "The Making of a Fossil",
+      "to": "makf"
+    },
+    {
+      "label": "Nests and Eggs",
+      "to": "nest"
+    },
+    {
+      "label": "The Story in a Skull",
+      "to": "stor"
+    },
+    {
+      "label": "Early Dinosaur Detectives",
+      "to": "edet"
+    },
+    {
+      "label": "Cynognathus",
+      "to": "cyno"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/gobi/GOBI00AA.webp",
+        "hotspots": [
+          {
+            "label": "Un hallazgo perfecto",
+            "to": "a-perfect-find",
+            "x": 2,
+            "y": 72,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Andrews y su equipo",
+            "to": "andrews-and-crew",
+            "x": 14,
+            "y": 82,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "También mamíferos gigantescos",
+            "to": "monstrous-mammals-too",
+            "x": 60,
+            "y": 51,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "El dinosaurio de cabeza en forma de huevo",
+            "to": "egg-headed-dinosaur",
+            "x": 66,
+            "y": 60,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Huevos ancestrales",
+            "to": "ancient-eggs",
+            "x": 66,
+            "y": 68,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Solo los brazos",
+            "to": "arms-only",
+            "x": 63,
+            "y": 82,
+            "w": 15,
+            "h": 5
+          }
+        ]
+      },
+      "a-perfect-find": {
+        "image": "assets/gobi/GOBI01PU.webp",
+        "back": "main"
+      },
+      "arms-only": {
+        "image": "assets/gobi/GOBI02PU.webp",
+        "back": "main"
+      },
+      "ancient-eggs": {
+        "image": "assets/gobi/GOBI03PU.webp",
+        "back": "main"
+      },
+      "egg-headed-dinosaur": {
+        "image": "assets/gobi/GOBI04PU.webp",
+        "back": "main"
+      },
+      "andrews-and-crew": {
+        "image": "assets/gobi/GOBI05PU.webp",
+        "back": "main"
+      },
+      "monstrous-mammals-too": {
+        "image": "assets/gobi/GOBI06PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/gobi/GOBI00AP.mp3",
+  "narration": "assets/gobi/GOBI00AJ.mp3",
+  "sound": "assets/gobi/GOBI00SA.mp3",
+  "fanTranslation": true
+}

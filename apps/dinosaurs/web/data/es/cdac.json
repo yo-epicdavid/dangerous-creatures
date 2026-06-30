@@ -1,0 +1,105 @@
+{
+  "id": "cdac",
+  "code": "CDAC",
+  "name": "Cearadactylus",
+  "category": "creature",
+  "scientificName": "Cearadactylus",
+  "needsScientificVerify": false,
+  "pronunciation": "see-AR-ah-DAK-til-us",
+  "meaning": "dedo de Ceará",
+  "period": "Cretácico inferior",
+  "diet": "Carnívoro",
+  "tagline": "Un cazador del cielo con dientes irregulares cuya envergadura superaba la de dos águilas calvas ala con ala.",
+  "hero": {
+    "image": "assets/cdac/CDAC00AA.webp",
+    "alt": "Cearadactylus"
+  },
+  "intro": "El Cearadactylus tenía una envergadura de casi cuatro metros, ¡el doble que la de un águila calva! Su cuerpo compacto y sus alas bien equilibradas le permitían lanzarse en picado y atrapar peces desprevenidos con su dentado pico. El largo y puntiagudo pico del Cearadactylus estaba repleto de dientes curvos e irregulares, que impedían que sus mandíbulas se cerraran del todo. Quizás esto le permitía al pterosaurio sujetar bien a su presa mientras el agua y el cieno se escurrían.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "América del Sur"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico tardío"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "dedo de Ceará"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Pterosaurio"
+    },
+    {
+      "label": "Longitud",
+      "value": "4,1 m (13,5 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "shrinking-wingspans",
+      "title": "Envergaduras en declive",
+      "image": "assets/cdac/CDAC01PU.webp",
+      "text": "La mayoría de las criaturas voladoras modernas son relativamente pequeñas. El mayor volador conocido en la actualidad es el albatros, con una envergadura de hasta tres metros y medio.",
+      "captions": [
+        {
+          "label": "Albatros moderno",
+          "text": "Albatros moderno"
+        },
+        {
+          "label": "Gigantes prehistóricos",
+          "text": "En la prehistoria, muchos pterosaurios con enormes envergaduras surcaban los cielos. El Quetzalcoatlus, por ejemplo, ¡tenía una envergadura tan grande como la de un avión pequeño!"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dimorphodon",
+      "to": "dimo"
+    },
+    {
+      "label": "Quetzalcoatlus",
+      "to": "quet"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/cdac/CDAC00AA.webp",
+        "hotspots": [
+          {
+            "label": "Envergaduras en declive",
+            "to": "shrinking-wingspans",
+            "x": 49,
+            "y": 84,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "shrinking-wingspans": {
+        "image": "assets/cdac/CDAC01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/cdac/CDAC50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/cdac/CDAC00AP.mp3",
+  "narration": "assets/cdac/CDAC00AJ.mp3",
+  "fanTranslation": true
+}

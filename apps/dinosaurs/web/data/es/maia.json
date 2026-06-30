@@ -1,0 +1,145 @@
+{
+  "id": "maia",
+  "code": "MAIA",
+  "name": "Maiasaura",
+  "category": "dinosaur",
+  "scientificName": "Maiasaura",
+  "needsScientificVerify": false,
+  "pronunciation": "my-ah-SOR-ah",
+  "meaning": "lagarto buena madre",
+  "period": "Cretácico superior",
+  "diet": "Herbívoro",
+  "tagline": "¡El dinosaurio que construía nidos y se quedaba para criar a sus crías!",
+  "hero": {
+    "image": "assets/maia/MAIA00AA.webp",
+    "alt": "Maiasaura"
+  },
+  "intro": "Aunque algunos dinosaurios podían abandonar sus huevos, los expertos creen que una madre Maiasaura cuidaba a sus crías incluso después de que eclosionaran. En Montana se descubrió una guardería de Maiasaura con varios nidos, cada uno con diecinueve o más huevos. Estos nidos se encontraban separados unos siete metros entre sí —la longitud de un Maiasaura adulto—. Esto indica que los Maiasaura probablemente anidaban en colonias para proteger a sus crías, acorde con su nombre, que significa «lagarto buena madre».",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Lagarto buena madre"
+    },
+    {
+      "label": "Caderas",
+      "value": "Con caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Ornitópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "9 m (30 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "the-hadrosaur-heritage",
+      "title": "La herencia de los hadrosaurios",
+      "image": "assets/maia/MAIA01PU.webp",
+      "text": "Maiasaura pertenecía a la familia de dinosaurios conocidos como hadrosaurios o dinosaurios con pico de pato. Los hadrosaurinos con pico de pato, como Maiasaura, no tenían crestas en la cabeza. Los lambeosaurinos con pico de pato tenían extrañas crestas huecas, además de sus característicos picos similares a los de un pato.",
+      "captions": [
+        {
+          "label": "Nada fuera de lo común",
+          "text": "Sin ninguna cresta que lucir, el Shantungosaurus tenía un rostro bastante sencillo comparado con el de muchos de sus parientes hadrosaurios."
+        },
+        {
+          "label": "Corona majestuosa",
+          "text": "La cresta redondeada del Corythosaurus hacía que este hadrosaurio pareciera llevar una corona."
+        },
+        {
+          "label": "Un cuerno para llamar",
+          "text": "La cresta con forma de cuerno del lambeosaurino Parasaurolophus era posiblemente un dispositivo que amplificaba las llamadas del dinosaurio."
+        },
+        {
+          "label": "Nariz de globo",
+          "text": "El Saurolophus tenía un pliegue de piel en el hocico que posiblemente inflaba como un globo."
+        }
+      ]
+    },
+    {
+      "id": "born-in-a-bowl",
+      "title": "Nacido en un cuenco",
+      "image": "assets/maia/MAIA02PU.webp",
+      "text": "En Montana, el paleontólogo Jack Horner encontró quince bebés de Maiasaura fosilizados dentro y alrededor de un montículo de unos dos metros de diámetro. Probablemente, la madre amontonaba arena con las patas y después vaciaba el centro para poner sus huevos.",
+      "captions": [
+        {
+          "label": "Detective de dinosaurios",
+          "text": "Jack Horner, fotografiado aquí en la Montaña del Huevo en Montana, ha contribuido mucho a cambiar nuestra idea de cómo los dinosaurios adultos podían haber cuidado a sus crías."
+        },
+        {
+          "label": "Conservado tal como emergió",
+          "text": "Esta cáscara de huevo fosilizada contiene un embrión de Maiasaura. El huevo es lo suficientemente pequeño como para caber en la mano de un adulto."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Nests and Eggs",
+      "to": "nest"
+    },
+    {
+      "label": "Shantungosaurus",
+      "to": "shan"
+    },
+    {
+      "label": "Modern Dinosaur Detectives",
+      "to": "mdet"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/maia/MAIA00AA.webp",
+        "hotspots": [
+          {
+            "label": "La herencia de los hadrosaurios",
+            "to": "the-hadrosaur-heritage",
+            "x": 5,
+            "y": 66,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Nacido en un cuenco",
+            "to": "born-in-a-bowl",
+            "x": 71,
+            "y": 76,
+            "w": 20,
+            "h": 5
+          }
+        ]
+      },
+      "the-hadrosaur-heritage": {
+        "image": "assets/maia/MAIA01PU.webp",
+        "back": "main"
+      },
+      "born-in-a-bowl": {
+        "image": "assets/maia/MAIA02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/maia/MAIA50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/maia/MAIA00AP.mp3",
+  "narration": "assets/maia/MAIA00AJ.mp3",
+  "fanTranslation": true
+}

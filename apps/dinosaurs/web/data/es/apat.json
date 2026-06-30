@@ -1,0 +1,335 @@
+{
+  "id": "apat",
+  "code": "APAT",
+  "name": "Apatosaurio",
+  "category": "dinosaur",
+  "scientificName": "Apatosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "ah-PAT-oh-SOR-us",
+  "meaning": "Lagarto engañoso",
+  "period": "Jurásico superior",
+  "diet": "Herbívoro",
+  "tagline": "¡Un gigante apacible capaz de ahuyentar a los depredadores con su poderosa cola de ochenta y dos huesos!",
+  "hero": {
+    "image": "assets/apat/APAT00AA.webp",
+    "alt": "Apatosaurio"
+  },
+  "intro": "Aunque llegó a medir más de veintiún metros de largo y pesó más de treinta toneladas, el Apatosaurio era un dinosaurio apacible que se alimentaba de árboles y otras plantas. Cada día necesitaba toneladas de hojas y ramitas para nutrir su enorme cuerpo. Los dientes del Apatosaurio eran pequeños y débiles, y los científicos creen que tragaba piedras para triturar los alimentos dentro de su estómago.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico Tardío"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Lagarto engañoso"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Saurópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "21 m (70 pies)"
+    },
+    {
+      "label": "Peso",
+      "value": "33 toneladas"
+    }
+  ],
+  "topics": [
+    {
+      "id": "footprints",
+      "title": "Huellas",
+      "image": "assets/apat/APAT01PU.webp",
+      "text": "No todos los fósiles son huesos. En muchos lugares también se han hallado rastros del paso de los animales, como huellas fosilizadas y surcos dejados por colas que arrastraban por el suelo. En Texas se han encontrado veintitrés conjuntos de huellas con más de 120 millones de años de antigüedad. Los expertos creen que estas huellas fueron dejadas probablemente por un animal como el Apatosaurio, y la gran cantidad de huellas juntas sugiere que estos herbívoros viajaban en grandes grupos.",
+      "captions": [
+        {
+          "label": "Pies enormes",
+          "text": "Las huellas del Apatosaurio eran enormes. ¡Algunas eran tan grandes y profundas que podían contener una bañera llena de agua!"
+        },
+        {
+          "label": "¿Y la cola?",
+          "text": "Cada huella es enorme —unos noventa centímetros de largo—, pero aunque el Apatosaurio tenía una cola muy larga, no hay rastro de surcos de cola. Quizás caminaban por el agua con la cola flotando o la mantenían levantada del suelo."
+        },
+        {
+          "label": "Depredadores a la caza",
+          "text": "Por debajo y por encima de las huellas del Apatosaurio aparecen las pisadas de una manada de dinosaurios carnívoros de tres dedos. Es posible que estuvieran cazando al Apatosaurio."
+        }
+      ]
+    },
+    {
+      "id": "brontosaurus-mix-up",
+      "title": "La confusión con el Brontosaurio",
+      "image": "assets/apat/APAT02PU.webp",
+      "text": "La historia del Apatosaurio es bastante confusa. Durante casi un siglo se documentaron dos saurópodos muy similares: el Apatosaurio y el Brontosaurio. A finales de la década de 1970, un paleontólogo demostró que estos dos animales eran el mismo dinosaurio. Como «Brontosaurio» fue el segundo nombre dado al dinosaurio, hoy en día este animal se conoce únicamente por su nombre original, Apatosaurio.\n\nPara añadir más confusión, las exposiciones de los museos habían mostrado al Apatosaurio con el cráneo de otro saurópodo, el Camarasaurio, cuyos restos habían sido encontrados cerca. Así que durante décadas, el Apatosaurio apareció en los museos con el cráneo corto y redondeado del Camarasaurio en lugar de su cabeza auténtica, que era estrecha y tenía grandes cuencas oculares."
+    },
+    {
+      "id": "clawed-feet",
+      "title": "Pies con garras",
+      "image": "assets/apat/APAT03PU.webp",
+      "text": "El Apatosaurio caminaba sobre cuatro patas similares a columnas y tenía pies redondeados, como los de un elefante. La mayoría de sus garras eran cortas y parecidas a pezuñas, salvo la del dedo interior del pie delantero. Esta garra pudo haberse utilizado para cavar o incluso como defensa.",
+      "captions": [
+        {
+          "label": "Iguanodonte",
+          "text": "Otro animal con un espolón pulgar pronunciado es el Iguanodonte. Los expertos creen que este dinosaurio usaba dicho espolón principalmente para defenderse."
+        }
+      ]
+    },
+    {
+      "id": "gentle-giants",
+      "title": "Gigantes apacibles",
+      "image": "assets/apat/APAT04PU.webp",
+      "text": "Aunque los saurópodos fueron algunos de los dinosaurios más grandes, eran herbívoros apacibles, es decir, comedores de plantas. Sus largos cuellos les permitían alcanzar alimento en los árboles más altos, donde otros dinosaurios no podían llegar."
+    },
+    {
+      "id": "traveling-in-herds",
+      "title": "Viaje en manada",
+      "image": "assets/apat/APAT05PU.webp",
+      "text": "En el Monumento Nacional de los Dinosaurios se han hallado fósiles de Apatosaurio, Diplodocus, Camarasaurio y Barosaurus, que vagaban por Utah durante el Jurásico Tardío. Sus numerosas huellas indican que viajaban en manadas."
+    },
+    {
+      "id": "useful-tails",
+      "title": "Colas útiles",
+      "image": "assets/apat/APAT06PU.webp",
+      "text": "Las colas de todos los saurópodos eran armas muy útiles. El Apatosaurio tenía una cola muy larga —ochenta y dos huesos— para compensar el peso de su largo cuello. Cuando era atacado por detrás, el Apatosaurio podía sorprender e herir a un depredador con el latigazo de su musculosa cola, que funcionaba como un látigo.",
+      "captions": [
+        {
+          "label": "Cola en el aire",
+          "text": "La larga y delgada cola a modo de látigo del Diplodocus tenía setenta y tres vértebras."
+        },
+        {
+          "label": "Equilibrio en acción",
+          "text": "Agitada de un lado a otro en el aire o barriendo el suelo, la enorme cola del Apatosaurio compensaba el peso de su largo cuello y ayudaba al dinosaurio a mantener el equilibrio."
+        }
+      ]
+    },
+    {
+      "id": "defensive-tactics",
+      "title": "Tácticas defensivas",
+      "image": "assets/apat/APAT07PU.webp",
+      "text": "Si su tamaño por sí solo no bastaba para ahuyentar a los depredadores, los saurópodos tenían otras formas de protegerse. Un ataque frontal podía repelerse si el saurópodo se erguía sobre sus patas traseras y la cola para golpear y pisotear al enemigo.",
+      "captions": [
+        {
+          "label": "Una cola como un látigo",
+          "text": "Al atacar por detrás, incluso el depredador más feroz podía llevarse una sorpresa con el latigazo de la musculosa cola del Apatosaurio, mientras el no tan indefenso saurópodo mantenía a raya a su enemigo. Pero incluso con su tamaño, su poderosa cola y sus garras, a veces el Apatosaurio caía víctima de temibles carnívoros. Se han encontrado restos de Apatosaurio con marcas de dientes de Alosaurio, lo que indica que el Apatosaurio era cazado o carroñado por dinosaurios carnívoros."
+        },
+        {
+          "label": "¡Cuidado con esos pies!",
+          "text": "Cada pata tenía una afilada garra interior, y una patada contundente probablemente haría huir al atacante en busca de refugio."
+        }
+      ]
+    },
+    {
+      "id": "the-face-of-a-sauropod",
+      "title": "El rostro de un saurópodo",
+      "image": "assets/apat/APAT08PU.webp",
+      "text": "Aunque era un gigante, el Apatosaurio tenía un rostro apacible comparado con el del Estiracosaurio. Sin embargo, estos dos dinosaurios nunca llegaron a verse las caras, ya que el Apatosaurio se extinguió decenas de millones de años antes de que el Estiracosaurio apareciera en la Tierra."
+    },
+    {
+      "id": "plant-eaters",
+      "title": "Comedores de plantas",
+      "image": "assets/apat/APAT09PU.webp",
+      "text": "Los grandes dinosaurios herbívoros, los saurópodos, fueron muy abundantes. El Apatosaurio pastaba en manadas. Sus dientes tenían forma de cuchara para arrancar bocados o forma de clavija para recoger hojas.",
+      "captions": [
+        {
+          "label": "Vientre de piedra",
+          "text": "Los saurópodos apenas masticaban; simplemente tragaban la vegetación que recogían. En el estómago, el alimento pudo haberse triturado con «piedras de molleja» (gastrólitos) tragadas deliberadamente, y fermentado por bacterias, igual que en el estómago de una vaca."
+        },
+        {
+          "label": "Una larga comida",
+          "text": "Estos dinosaurios debían de comer durante muchas horas al día para digerir las toneladas de hojas y ramitas necesarias para mantener sus enormes cuerpos. En ocasiones, los saurópodos podían apoyarse sobre sus patas traseras y su fuerte cola para alcanzar aún más lejos y alimentarse de las copas de los árboles, como el Diplodocus que se muestra aquí."
+        }
+      ]
+    },
+    {
+      "id": "fantastic-femur",
+      "title": "Un fémur fantástico",
+      "image": "assets/apat/APAT10PU.webp",
+      "text": "Este hombre está examinando un fémur de Apatosaurio de un metro ochenta y ocho centímetros de largo.",
+      "captions": [
+        {
+          "label": "Huesos enormes",
+          "text": "Mucha gente imagina a los dinosaurios como criaturas colosales capaces de alcanzar las copas de los árboles. En el caso de los saurópodos, esto es cierto: fueron los seres vivos más grandes que jamás caminaron sobre la Tierra. Pero no todos los dinosaurios eran gigantes: algunos eran tan pequeños que no te llegarían ni a la rodilla."
+        },
+        {
+          "label": "No todos eran gigantes",
+          "text": "Aquí se ha colocado el fémur de un dinosaurio del tamaño de un pollo, el Hipsilofodonte, sobre el fémur de un Apatosaurio. Mientras que el fémur del Apatosaurio mide un metro noventa y ocho centímetros de largo, el del Hipsilofodonte mide apenas diez centímetros."
+        }
+      ]
+    },
+    {
+      "id": "mixed-up-head",
+      "title": "Una cabeza equivocada",
+      "image": "assets/apat/APAT11PU.webp",
+      "text": "Durante casi 100 años, los científicos usaron el cráneo corto y redondeado de otro saurópodo, el Camarasaurio, para completar el esqueleto. No fue hasta 1979 cuando los científicos concluyeron que el Apatosaurio tenía un cráneo más alargado, parecido al del Diplodocus."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Brontosaurus Mix-up",
+      "to": "bron"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/apat/APAT00AA.webp",
+        "hotspots": [
+          {
+            "label": "El rostro de un saurópodo",
+            "to": "the-face-of-a-sauropod",
+            "x": 56,
+            "y": 19,
+            "w": 19,
+            "h": 4
+          },
+          {
+            "label": "La confusión con el Brontosaurio",
+            "to": "brontosaurus-mix-up",
+            "x": 41,
+            "y": 22,
+            "w": 17,
+            "h": 4
+          },
+          {
+            "label": "Una cabeza equivocada",
+            "to": "mixed-up-head",
+            "x": 78,
+            "y": 27,
+            "w": 14,
+            "h": 4
+          },
+          {
+            "label": "Un fémur fantástico",
+            "to": "fantastic-femur",
+            "x": 11,
+            "y": 32,
+            "w": 15,
+            "h": 4
+          },
+          {
+            "label": "Tácticas defensivas",
+            "to": "defensive-tactics",
+            "x": 9,
+            "y": 42,
+            "w": 15,
+            "h": 4
+          },
+          {
+            "label": "Comedores de plantas",
+            "to": "plant-eaters",
+            "x": 74,
+            "y": 45,
+            "w": 13,
+            "h": 4
+          },
+          {
+            "label": "Colas útiles",
+            "to": "useful-tails",
+            "x": 3,
+            "y": 52,
+            "w": 13,
+            "h": 4
+          },
+          {
+            "label": "Gigantes apacibles",
+            "to": "gentle-giants",
+            "x": 74,
+            "y": 55,
+            "w": 13,
+            "h": 4
+          },
+          {
+            "label": "Viaje en manada",
+            "to": "traveling-in-herds",
+            "x": 72,
+            "y": 63,
+            "w": 18,
+            "h": 4
+          },
+          {
+            "label": "Pies con garras",
+            "to": "clawed-feet",
+            "x": 16,
+            "y": 73,
+            "w": 13,
+            "h": 4
+          },
+          {
+            "label": "Huellas",
+            "to": "footprints",
+            "x": 77,
+            "y": 73,
+            "w": 11,
+            "h": 4
+          }
+        ]
+      },
+      "footprints": {
+        "image": "assets/apat/APAT01PU.webp",
+        "back": "main"
+      },
+      "brontosaurus-mix-up": {
+        "image": "assets/apat/APAT02PU.webp",
+        "back": "main"
+      },
+      "clawed-feet": {
+        "image": "assets/apat/APAT03PU.webp",
+        "back": "main"
+      },
+      "gentle-giants": {
+        "image": "assets/apat/APAT04PU.webp",
+        "back": "main"
+      },
+      "traveling-in-herds": {
+        "image": "assets/apat/APAT05PU.webp",
+        "back": "main"
+      },
+      "useful-tails": {
+        "image": "assets/apat/APAT06PU.webp",
+        "back": "main"
+      },
+      "defensive-tactics": {
+        "image": "assets/apat/APAT07PU.webp",
+        "back": "main"
+      },
+      "the-face-of-a-sauropod": {
+        "image": "assets/apat/APAT08PU.webp",
+        "back": "main"
+      },
+      "plant-eaters": {
+        "image": "assets/apat/APAT09PU.webp",
+        "back": "main"
+      },
+      "fantastic-femur": {
+        "image": "assets/apat/APAT10PU.webp",
+        "back": "main"
+      },
+      "mixed-up-head": {
+        "image": "assets/apat/APAT11PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/apat/APAT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/apat/APAT00AP.mp3",
+  "narration": "assets/apat/APAT00AJ.mp3",
+  "fanTranslation": true
+}

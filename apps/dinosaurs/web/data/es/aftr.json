@@ -1,0 +1,268 @@
+{
+  "id": "aftr",
+  "code": "AFTR",
+  "name": "La vida después de los dinosaurios",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Cuando los dinosaurios desaparecieron, la vida en la Tierra floreció hasta dar lugar al mundo que conocemos hoy.",
+  "hero": {
+    "image": "assets/aftr/AFTR00AA.webp",
+    "alt": "La vida después de los dinosaurios"
+  },
+  "intro": "Aunque el reinado de los dinosaurios llegó a su fin con su extinción hace unos 65 millones de años, la vida en la Tierra continuó bajo múltiples formas. En los océanos, siguió el desarrollo de peces, moluscos y otros animales marinos. En tierra, las plantas con flores extendieron su dominio sobre los tipos de vegetación más primitivos. Los anfibios como las salamandras y las ranas siguieron viviendo en zonas pantanosas. Los reptiles también sobrevivieron y se diversificaron en serpientes, lagartos y cocodrilos. Los avances más destacados fueron la diversificación de las aves y la rápida evolución de los mamíferos hasta alcanzar la gran cantidad de especies que conocemos hoy.",
+  "facts": [
+    {
+      "label": "Extinción de los dinosaurios",
+      "value": "hace 65 millones de años"
+    },
+    {
+      "label": "Primeras plantas con flores",
+      "value": "hace casi 100 millones de años"
+    },
+    {
+      "label": "Primeros mamuts",
+      "value": "hace casi 2 millones de años"
+    },
+    {
+      "label": "Longitud de los colmillos de mamut",
+      "value": "más de cuatro metros de longitud"
+    },
+    {
+      "label": "Existencia de los gatos dientes de sable",
+      "value": "desde hace 35 millones de años hasta hace solo 10.000 años"
+    }
+  ],
+  "topics": [
+    {
+      "id": "flowering-plants",
+      "title": "Plantas con flores",
+      "image": "assets/aftr/AFTR01PU.webp",
+      "text": "Nuestro mundo está dominado por las plantas con flores, las angiospermas o plantas de «semilla encerrada», cuyas semillas se encuentran dentro de frutos, nueces u otras envolturas protectoras. En la antigüedad, las flores y los frutos sustentaban una gran variedad de insectos y animales, entre ellos mariposas, polillas, mamíferos y aves, tal como ocurre hoy. Las plantas con flores comenzaron a aparecer en la Tierra hace casi 100 millones de años. En la actualidad, cuatro de cada cinco plantas pertenecen a este grupo."
+    },
+    {
+      "id": "winged-wonders",
+      "title": "Maravillas aladas",
+      "image": "assets/aftr/AFTR02PU.webp",
+      "text": "Los pterosaurios, los reptiles alados, se extinguieron al mismo tiempo que los dinosaurios. Las aves verdaderas con plumas evolucionaron hasta dar lugar a miles de especies, y un tipo de mamífero volador evolucionó y ha sobrevivido durante millones de años: el murciélago.",
+      "captions": [
+        {
+          "label": "Ichthyornis",
+          "text": "Gran volador, el Ichthyornis probablemente se lanzaba en picado para atrapar peces como una gaviota o un charrán. Fue una de las primeras aves conocidas con un esternón que fijaba los músculos para el aleteo, una característica de todas las aves modernas."
+        },
+        {
+          "label": "Icaronycteris",
+          "text": "Al igual que los murciélagos actuales, el Icaronycteris, el murciélago más antiguo conocido, dormía colgado boca abajo y capturaba insectos en vuelo. Sus alas eran más cortas que las de los murciélagos modernos, tenía una cola larga y carecía de la membrana de piel que une la cola con las patas."
+        },
+        {
+          "label": "Diatryma",
+          "text": "Esta enorme ave no podía volar, pero podía perseguir a otros animales con sus musculosas patas y despedazarlos con su enorme pico en forma de loro. Hoy todavía existen algunas aves grandes incapaces de volar, como el avestruz en África, el emú en Australia y el ñandú en América del Sur."
+        }
+      ]
+    },
+    {
+      "id": "large-hoofed-herbivores",
+      "title": "Grandes herbívoros con pezuñas",
+      "image": "assets/aftr/AFTR03PU.webp",
+      "text": "Unos 30 millones de años después de la desaparición de los dinosaurios, el clima de la Tierra comenzó a cambiar y se fue volviendo más seco. Las plantas de pantanos y bosques fueron sustituidas por hierbas, que podían resistir la sequía. A medida que evolucionaron las plantas, también lo hicieron los animales que se alimentaban de ellas.",
+      "captions": [
+        {
+          "label": "Caballos ancestrales",
+          "text": "Los primeros caballos primitivos aparecieron hace más de 30 millones de años. Los caballos primitivos como el diminuto Hyracotherium (de unos 38 centímetros de altura) y su pariente mayor, el Hipparion, tenían tres dedos. Con el tiempo, esos tres dedos evolucionaron hasta convertirse en el único dedo, o pezuña, que vemos en los caballos modernos."
+        },
+        {
+          "label": "Bisonte gigante",
+          "text": "Los cuernos del bisonte gigante medían más de dos metros de lado a lado. Este animal vagaba por toda América del Norte y sin duda fue el ancestro del búfalo que conocemos hoy."
+        }
+      ]
+    },
+    {
+      "id": "large-predators",
+      "title": "Grandes depredadores",
+      "image": "assets/aftr/AFTR04PU.webp",
+      "text": "La naturaleza tiene su forma de equilibrar las cosas. A medida que aumentó el número de grandes herbívoros, también creció el número de animales depredadores que se alimentaban de ellos. Aquí se muestran algunos de esos animales depredadores, todos ellos con parientes vivos en la actualidad.",
+      "captions": [
+        {
+          "label": "Gatos dientes de sable",
+          "text": "Los gatos dientes de sable existieron desde hace 35 millones de años hasta hace solo 10.000 años."
+        },
+        {
+          "label": "Osos de las cavernas",
+          "text": "Se han encontrado muchos huesos de osos de las cavernas en Europa."
+        },
+        {
+          "label": "Lobos terribles",
+          "text": "Las manadas de lobos terribles cazaban animales herbívoros y carroñeaban las presas de otros depredadores."
+        }
+      ]
+    },
+    {
+      "id": "mammoths",
+      "title": "Mamuts",
+      "image": "assets/aftr/AFTR05PU.webp",
+      "text": "Estos gigantescos mamíferos aparecieron hace casi 2 millones de años y fueron muy comunes durante la última Edad de Hielo. No es de extrañar que la palabra «mamut» haya llegado a significar «gigantesco». ¡Un solo colmillo puede medir más de cuatro metros de longitud!",
+      "captions": [
+        {
+          "label": "Pelo largo para protegerse",
+          "text": "Gracias a que los científicos han encontrado cuerpos de mamut congelados, sabemos cómo era su pelo y su color. El pelaje que cubría sus cuerpos era de color marrón rojizo y estaba salpicado de largos y gruesos «pelos de guarda» de color más oscuro."
+        },
+        {
+          "label": "Atrapados en el tiempo",
+          "text": "Durante más de 20.000 años, el alquitrán ha ido aflorando de forma natural a la superficie en las fosas de alquitrán de La Brea, en Los Ángeles, California. Las excavaciones en las capas más antiguas de alquitrán han revelado huesos de mamuts y de gatos dientes de sable."
+        }
+      ]
+    },
+    {
+      "id": "small-mammals",
+      "title": "Pequeños mamíferos",
+      "image": "assets/aftr/AFTR06PU.webp",
+      "text": "Los pequeños mamíferos aparecieron hacia el comienzo de la Era de los Dinosaurios, pero no prosperaron hasta mucho después de que los dinosaurios se extinguieran. Hoy podemos encontrar fácilmente a sus descendientes a nuestro alrededor: ratones, ratas, hámsters, ardillas, jerbos, monos y muchos más.",
+      "captions": [
+        {
+          "label": "Uno de los primeros primates",
+          "text": "Este diminuto mamífero de los últimos tiempos de los dinosaurios solo se conoce por sus dientes fósiles, que indican que fue uno de los primeros primates, el grupo que incluye a los monos, los simios y los seres humanos."
+        },
+        {
+          "label": "Corredores veloces",
+          "text": "Los huesos fósiles del Leptictidium indican que era un veloz corredor bípedo."
+        }
+      ]
+    },
+    {
+      "id": "humans",
+      "title": "Los seres humanos",
+      "image": "assets/aftr/AFTR07PU.webp",
+      "text": "Los biólogos clasifican a los seres humanos junto con los simios en un grupo llamado homininos. A partir de los fósiles, sabemos que distintos tipos de homininos evolucionaron y se extinguieron a lo largo de los últimos millones de años. A nuestra propia rama superviviente la llamamos Homo sapiens, que significa «hombre sabio».",
+      "captions": [
+        {
+          "label": "Homo habilis",
+          "text": "(Desde hace 3 millones de años hasta hace 1,5 millones de años) Estos homininos africanos crearon herramientas primitivas. El nombre significa «hombre hábil»."
+        },
+        {
+          "label": "Australopithecus",
+          "text": "(Desde hace 4 millones de años hasta hace 1 millón de años) El cerebro del Australopithecus, que vivió en África, era bastante pequeño."
+        },
+        {
+          "label": "Homo erectus",
+          "text": "(Desde hace 1,5 millones de años hasta hace 300.000 años) Los restos fosilizados y las herramientas del «hombre erguido» se han encontrado en Europa, Asia y África."
+        },
+        {
+          "label": "Homo sapiens",
+          "text": "(Desde hace 500.000 años hasta hoy) Nuestro propio grupo creó herramientas y arte cada vez mejores, y evolucionó desde una cultura primitiva hasta el mundo moderno en el que vivimos."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Extinction",
+      "to": "exti"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/aftr/AFTR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Grandes herbívoros con pezuñas",
+            "to": "large-hoofed-herbivores",
+            "x": 16,
+            "y": 57,
+            "w": 25,
+            "h": 4
+          },
+          {
+            "label": "Maravillas aladas",
+            "to": "winged-wonders",
+            "x": 56,
+            "y": 57,
+            "w": 18,
+            "h": 4
+          },
+          {
+            "label": "Plantas con flores",
+            "to": "flowering-plants",
+            "x": 7,
+            "y": 62,
+            "w": 18,
+            "h": 4
+          },
+          {
+            "label": "Mamuts",
+            "to": "mammoths",
+            "x": 73,
+            "y": 62,
+            "w": 13,
+            "h": 4
+          },
+          {
+            "label": "Pequeños mamíferos",
+            "to": "small-mammals",
+            "x": 16,
+            "y": 68,
+            "w": 17,
+            "h": 4
+          },
+          {
+            "label": "Grandes depredadores",
+            "to": "large-predators",
+            "x": 7,
+            "y": 73,
+            "w": 17,
+            "h": 4
+          },
+          {
+            "label": "Los seres humanos",
+            "to": "humans",
+            "x": 59,
+            "y": 72,
+            "w": 11,
+            "h": 4
+          }
+        ]
+      },
+      "flowering-plants": {
+        "image": "assets/aftr/AFTR01PU.webp",
+        "back": "main"
+      },
+      "winged-wonders": {
+        "image": "assets/aftr/AFTR02PU.webp",
+        "back": "main"
+      },
+      "large-hoofed-herbivores": {
+        "image": "assets/aftr/AFTR03PU.webp",
+        "back": "main"
+      },
+      "large-predators": {
+        "image": "assets/aftr/AFTR04PU.webp",
+        "back": "main"
+      },
+      "mammoths": {
+        "image": "assets/aftr/AFTR05PU.webp",
+        "back": "main"
+      },
+      "small-mammals": {
+        "image": "assets/aftr/AFTR06PU.webp",
+        "back": "main"
+      },
+      "humans": {
+        "image": "assets/aftr/AFTR07PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/aftr/AFTR00AP.mp3",
+  "narration": "assets/aftr/AFTR00AJ.mp3",
+  "sound": "assets/aftr/AFTR00SA.mp3",
+  "fanTranslation": true
+}

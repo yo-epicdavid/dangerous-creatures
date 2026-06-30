@@ -1,0 +1,179 @@
+{
+  "id": "plan",
+  "code": "PLAN",
+  "name": "Herbívoros",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "PLANT-EE-terz",
+  "meaning": "",
+  "period": "",
+  "diet": "Herbívoro",
+  "tagline": "Desde los saurópodos que tragaban piedras hasta los ceratópsidos con sus poderosos picos, ¡los dinosaurios herbívoros inventaron todos los trucos para enfrentarse a la vegetación más resistente!",
+  "hero": {
+    "image": "assets/plan/PLAN00AA.webp",
+    "alt": "Herbívoros"
+  },
+  "intro": "Muchos dinosaurios herbívoros evolucionaron hasta convertirse en criaturas gigantescas de cuello largo y cuerpo en forma de barril. Un enorme aparato digestivo les ayudaba a digerir cantidades ingentes de alimento. Un saurópodo, por ejemplo, podía comer toneladas de follaje al día y necesitaba un vientre descomunal para fermentar y triturar su comida. El cuello largo también era una ventaja en el mundo de los dinosaurios, ya que permitía a su dueño alimentarse de las copas de árboles muy altos, como las coníferas. Herbívoros como Diplodocus tenían dientes pequeños, romos y en forma de peine para arrancar las agujas y las hojas de las coníferas. Como no podían masticar, simplemente tragaban lo que rastrillaban.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "stone-swallowers",
+      "title": "Tragadores de piedras",
+      "image": "assets/plan/PLAN01PU.webp",
+      "text": "La mayoría de los herbívoros, como Massospondylus, no tenían dientes trituradores para pulverizar el alimento que ingerían, por lo que tragaban pequeñas piedras que se alojaban en su molleja. Estas piedras gástricas, o gastrólitos, trituraban las hojas y ramitas que comían hasta convertirlas en una pulpa que podía ser digerida en el intestino. Con el paso del tiempo, las piedras se volvían lisas y pulidas."
+    },
+    {
+      "id": "great-grinder",
+      "title": "El gran triturador",
+      "image": "assets/plan/PLAN02PU.webp",
+      "text": "Uno de los últimos dinosaurios en sobrevivir, Edmontosaurus era un dinosaurio de pico de pato con cientos de dientes en forma de rombo en sus mandíbulas superior e inferior, unos dientes que utilizaba para triturar su dieta de árboles y arbustos. Como miembro de la familia de los hadrosáuridos de pico de pato, Edmontosaurus no necesitaba molleja para pulverizar su alimento, a diferencia de muchos otros herbívoros.",
+      "captions": [
+        {
+          "label": "Autoafilables",
+          "text": "La superficie de trituración formada por la batería de dientes de Edmontosaurus actuaba como un rallador vegetal que se afilaba a sí mismo. A medida que los dientes del animal se desgastaban por masticar vegetación dura, nuevos dientes crecían para reemplazarlos."
+        },
+        {
+          "label": "Mandíbula de caballo",
+          "text": "Esta es la mandíbula de un triturador moderno: el caballo. Aunque sus dientes delanteros son eficaces mordisqueadores que arrancan la hierba del suelo, sus dientes traseros son muelas trituradoras, ideales para pulverizar el material vegetal."
+        }
+      ]
+    },
+    {
+      "id": "tough-and-stringy",
+      "title": "Duras y fibrosas",
+      "image": "assets/plan/PLAN03PU.webp",
+      "text": "Muchas plantas primitivas, como las cícadas de aspecto palmáceo, eran duras y fibrosas y necesitaban descomponerse antes de que los dinosaurios herbívoros pudieran digerirlas. Es posible que Triceratops evolucionara específicamente para comer estas plantas tan resistentes. ¡Incluso pudo haber consumido piñas!",
+      "captions": [
+        {
+          "label": "Nacidos para masticar",
+          "text": "Los dinosaurios ceratópsidos tenían mandíbulas poderosas y dientes afilados para ayudarles a consumir plantas duras. Triceratops usaba su gran pico, parecido al de un loro, para cortar las plantas, que luego troceaba con dientes afilados como tijeras. Su mandíbula estaba impulsada por enormes músculos que se unían a la gorguera que tenía detrás de la cabeza."
+        }
+      ]
+    },
+    {
+      "id": "cropping-beaks",
+      "title": "Picos cortadores",
+      "image": "assets/plan/PLAN04PU.webp",
+      "text": "Los picos de los dinosaurios ceratópsidos eran ideales para cortar plantas duras. Los surcos y fosas rugosas marcan los lugares donde se unía la cubierta córnea de queratina. La parte inferior y más ancha del hueso (llamada predentario) encajaba firmemente con la mandíbula inferior.",
+      "captions": [
+        {
+          "label": "Pico de loro",
+          "text": "Psittacosaurus tenía un pico afilado y curvado hacia abajo, semejante al de un loro. Aunque no tenía muchos dientes, su pico podía cortar hojas duras y tallos leñosos."
+        },
+        {
+          "label": "Cráneo de Triceratops",
+          "text": "El cráneo de Triceratops muestra lo bien adaptado que estaba para cortar y devorar las plantas duras y fibrosas que componían su dieta. El pico, similar al de un loro, enganchaba las plantas, que eran arrancadas con el movimiento de la poderosa mandíbula inferior del animal. Las plantas eran entonces troceadas en pequeños fragmentos por los dientes afilados de la parte trasera de la mandíbula."
+        }
+      ]
+    },
+    {
+      "id": "food-for-thought",
+      "title": "Comida para reflexionar",
+      "image": "assets/plan/PLAN05PU.webp",
+      "text": "Mientras los herbívoros devoraban las cícadas, las hierbas y los bosques de coníferas durante la última etapa del reinado de los dinosaurios, evolucionó un nuevo tipo de vegetación: las plantas con flores, que pueden reproducirse mucho más rápido que otros tipos de plantas. Estas plantas de floración tardía, también conocidas como angiospermas, acabaron dominando las comunidades vegetales de todo el mundo, cambiando drásticamente la dieta de los dinosaurios."
+    },
+    {
+      "id": "changing-landscape",
+      "title": "Un paisaje cambiante",
+      "image": "assets/plan/PLAN06PU.webp",
+      "text": "La vida vegetal cambió considerablemente a lo largo de los 160 millones de años que duró el reinado de los dinosaurios. Pero cuando la gran masa de tierra de la Tierra comenzó a fragmentarse, los cambios climáticos influyeron en los tipos de plantas que crecían. A lo largo de millones de años, las plantas evolucionaron desde los arbustos bajos, semejantes a helechos, que dominaban inicialmente el paisaje, hasta inmensos bosques de coníferas y frondosas arboledas de cícadas."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Teeth",
+      "to": "teet"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/plan/PLAN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Comida para reflexionar",
+            "to": "food-for-thought",
+            "x": 63,
+            "y": 28,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Un paisaje cambiante",
+            "to": "changing-landscape",
+            "x": 14,
+            "y": 59,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Duras y fibrosas",
+            "to": "tough-and-stringy",
+            "x": 13,
+            "y": 72,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Tragadores de piedras",
+            "to": "stone-swallowers",
+            "x": 57,
+            "y": 58,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "El gran triturador",
+            "to": "great-grinder",
+            "x": 59,
+            "y": 70,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Picos cortadores",
+            "to": "cropping-beaks",
+            "x": 44,
+            "y": 84,
+            "w": 17,
+            "h": 5
+          }
+        ]
+      },
+      "stone-swallowers": {
+        "image": "assets/plan/PLAN01PU.webp",
+        "back": "main"
+      },
+      "great-grinder": {
+        "image": "assets/plan/PLAN02PU.webp",
+        "back": "main"
+      },
+      "tough-and-stringy": {
+        "image": "assets/plan/PLAN03PU.webp",
+        "back": "main"
+      },
+      "cropping-beaks": {
+        "image": "assets/plan/PLAN04PU.webp",
+        "back": "main"
+      },
+      "food-for-thought": {
+        "image": "assets/plan/PLAN05PU.webp",
+        "back": "main"
+      },
+      "changing-landscape": {
+        "image": "assets/plan/PLAN06PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/plan/PLAN00AP.mp3",
+  "narration": "assets/plan/PLAN00AJ.mp3",
+  "sound": "assets/plan/PLAN00SA.mp3",
+  "fanTranslation": true
+}

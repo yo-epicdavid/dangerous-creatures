@@ -1,0 +1,121 @@
+{
+  "id": "anta",
+  "code": "ANTA",
+  "name": "Expedición a la Antártida",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "ant-ARK-tih-kuh ex-peh-DIH-shun",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Dinosaurios sobre el hielo: la Antártida guarda secretos prehistóricos congelados bajo glaciares y nieve.",
+  "hero": {
+    "image": "assets/anta/ANTA00AA.webp",
+    "alt": "Expedición a la Antártida"
+  },
+  "intro": "¡Imagina excavar en busca de dinosaurios entre los glaciares y mantos de hielo de la Antártida! Hasta ahora, solo se han encontrado unos pocos dinosaurios en las escasas formaciones rocosas expuestas de este gélido continente. Probablemente haya muchos más restos de criaturas prehistóricas ocultos bajo el hielo y la nieve.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "anonymous-ankylosaur",
+      "title": "Anquilosaurio anónimo",
+      "image": "assets/anta/ANTA01PU.webp",
+      "text": "En 1988, los científicos encontraron el primer dinosaurio antártico en la zona de la isla James Ross. El dinosaurio todavía no ha recibido un nombre, pero se sabe que es un anquilosaurio, es decir, un dinosaurio acorazado."
+    },
+    {
+      "id": "connected-continents",
+      "title": "Continentes conectados",
+      "image": "assets/anta/ANTA02PU.webp",
+      "text": "Los dinosaurios hallados en la Antártida son similares a algunos de los grupos de dinosaurios encontrados en Australia. Estos dos continentes estaban originalmente unidos y no se separaron hasta hace unos 40 millones de años.",
+      "captions": [
+        {
+          "label": "Contorno de la Antártida actual",
+          "text": "Contorno de la Antártida actual"
+        },
+        {
+          "label": "Contorno de la Australia actual",
+          "text": "Contorno de la Australia actual"
+        }
+      ]
+    },
+    {
+      "id": "nameless-neighbor",
+      "title": "Vecino sin nombre",
+      "image": "assets/anta/ANTA03PU.webp",
+      "text": "En 1989 se encontró un segundo dinosaurio cerca de la isla James Ross. Los científicos del Museo de Historia Natural de Londres han ido separando los huesos del dinosaurio de la roca que los rodeaba, y han determinado que el esqueleto pertenece a un pariente de Hypsilophodon, un dinosaurio pequeño y ágil."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What is Paleontology?",
+      "to": "pale"
+    },
+    {
+      "label": "How to Recognize Ankylosaurs",
+      "to": "hank"
+    },
+    {
+      "label": "The Shifting Earth",
+      "to": "shft"
+    },
+    {
+      "label": "Dryosaurus",
+      "to": "dryo"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/anta/ANTA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Anquilosaurio anónimo",
+            "to": "anonymous-ankylosaur",
+            "x": 2,
+            "y": 50,
+            "w": 43,
+            "h": 43
+          },
+          {
+            "label": "Continentes conectados",
+            "to": "connected-continents",
+            "x": 40,
+            "y": 12,
+            "w": 52,
+            "h": 44
+          },
+          {
+            "label": "Vecino sin nombre",
+            "to": "nameless-neighbor",
+            "x": 52,
+            "y": 50,
+            "w": 42,
+            "h": 38
+          }
+        ]
+      },
+      "anonymous-ankylosaur": {
+        "image": "assets/anta/ANTA01PU.webp",
+        "back": "main"
+      },
+      "connected-continents": {
+        "image": "assets/anta/ANTA02PU.webp",
+        "back": "main"
+      },
+      "nameless-neighbor": {
+        "image": "assets/anta/ANTA03PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/anta/ANTA00AP.mp3",
+  "narration": "assets/anta/ANTA00AJ.mp3",
+  "sound": "assets/anta/ANTA00SA.mp3",
+  "fanTranslation": true
+}

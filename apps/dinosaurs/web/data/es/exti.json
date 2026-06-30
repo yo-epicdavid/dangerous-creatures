@@ -1,0 +1,188 @@
+{
+  "id": "exti",
+  "code": "EXTI",
+  "name": "Extinción",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "ex-TINK-shun",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Hace 65 millones de años, los dinosaurios desaparecieron... pero nadie sabe exactamente por qué.",
+  "hero": {
+    "image": "assets/exti/EXTI00AA.webp",
+    "alt": "Extinción"
+  },
+  "intro": "Los dinosaurios están extintos. Los últimos dinosaurios desaparecieron de la Tierra hace unos 65 millones de años. No solo desaparecieron los dinosaurios, sino que junto a ellos se extinguieron muchos reptiles marinos y otras criaturas del mar como las amonitas, y los reptiles voladores —los pterosaurios— sufrieron el mismo destino. Esta extinción masiva resulta aún más difícil de explicar por el hecho de que otros animales como las aves, las tortugas, las ranas, los cocodrilos de agua dulce y los mamíferos sobrevivieron al misterioso cataclismo.",
+  "facts": [
+    {
+      "label": "Acontecimiento",
+      "value": "Extinción masiva"
+    },
+    {
+      "label": "Fecha",
+      "value": "Hace 65 millones de años"
+    },
+    {
+      "label": "También extintos",
+      "value": "Amonitas, mosasaurios, plesiosaurios, ictiosaurios, pterosaurios"
+    },
+    {
+      "label": "Supervivientes",
+      "value": "Aves, tortugas, ranas, cocodrilos de agua dulce, mamíferos"
+    }
+  ],
+  "topics": [
+    {
+      "id": "mass-extinction",
+      "title": "Extinción masiva",
+      "image": "assets/exti/EXTI01PU.webp",
+      "text": "Muchas otras criaturas desaparecieron al mismo tiempo que los dinosaurios. Lo que ocurrió pareció afectar a unas criaturas y dejar a otras ilesas. Las amonitas se extinguieron, al igual que los mosasaurios, los plesiosaurios y los ictiosaurios, todos grupos de reptiles marinos carnívoros. Los cocodrilos marinos desaparecieron, pero los cocodrilos de río continuaron. Los reptiles voladores, los pterosaurios, desaparecieron, pero las aves no se vieron afectadas."
+    },
+    {
+      "id": "death-from-the-sky",
+      "title": "¿Muerte desde el cielo?",
+      "image": "assets/exti/EXTI02PU.webp",
+      "text": "Según una teoría, la Tierra podría haber sido golpeada por un enorme meteorito o asteroide. 1 El impacto del meteorito Los científicos han descubierto una capa de roca con 65 millones de años de antigüedad que contiene iridio, una sustancia escasa en nuestro planeta pero común en los meteoritos. Un meteorito de casi diez kilómetros de diámetro pudo haber chocado contra la Tierra. 2 El polvo tapa el sol El polvo lanzado al aire por el impacto del meteorito habría tapado el sol durante años. Las plantas habrían muerto, y muchos animales habrían muerto de hambre o de frío. 3 El clima cambia de frío a calor Cuando el polvo fue asentándose a lo largo de los años, el vapor de agua habría atrapado el calor al filtrarse de nuevo los rayos del sol. Los animales que sobrevivieron al frío podrían haber muerto entonces por el calor.",
+      "captions": [
+        {
+          "label": "Fragmento de meteorito de hierro",
+          "text": "Fragmento de meteorito de hierro"
+        },
+        {
+          "label": "Fragmento de meteorito pétreo",
+          "text": "Fragmento de meteorito pétreo"
+        }
+      ]
+    },
+    {
+      "id": "a-change-in-the-weather",
+      "title": "¿Un cambio en el tiempo?",
+      "image": "assets/exti/EXTI03PU.webp",
+      "text": "Algunos expertos sugieren que, hacia el final de la era de los dinosaurios, el clima del mundo estaba cambiando debido al desplazamiento de los continentes. Los veranos más calurosos y los inviernos más fríos podrían haber acabado con los dinosaurios, incapaces de adaptarse a estas variaciones.",
+      "captions": [
+        {
+          "label": "Cambio de hábitats y nuevas enfermedades",
+          "text": "Hacia el final del período Cretácico, los mares poco profundos que habían cubierto grandes extensiones de la mayoría de los continentes se secaron. Las criaturas que habían vivido cerca de esas zonas acuáticas, como los dinosaurios, perdieron sus hábitats. La aparición de tierra firme permitió a los animales desplazarse a nuevas zonas, llevando consigo enfermedades, tal como hacen hoy las especies migratorias."
+        }
+      ]
+    },
+    {
+      "id": "poisoned-by-plants",
+      "title": "¿Envenenados por las plantas?",
+      "image": "assets/exti/EXTI04PU.webp",
+      "text": "Muchos dinosaurios eran herbívoros. Es posible que los nuevos tipos de plantas con flores que aparecieron resultaran venenosos para los dinosaurios. Al morir los dinosaurios herbívoros, los carnívoros también habrían muerto de hambre poco a poco. Sin embargo, no tenemos pruebas que respalden tales afirmaciones."
+    },
+    {
+      "id": "did-the-egg-stealers-win",
+      "title": "¿Ganaron los ladrones de huevos?",
+      "image": "assets/exti/EXTI05PU.webp",
+      "text": "Muchas criaturas actuales, como los mamíferos y las aves, se comen los huevos de los reptiles. ¿Podría ser que los pequeños mamíferos de hace 65 millones de años se volvieran demasiado hábiles robando y comiendo huevos de dinosaurio? Eran activos de noche, cuando los «padres» dinosaurios habrían tenido demasiado frío y se habrían movido con demasiada lentitud para impedírselo."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Museums of North America",
+      "to": "muse"
+    },
+    {
+      "label": "Marching to Extinction",
+      "to": "extt"
+    },
+    {
+      "label": "Dinosaur Landscape",
+      "to": "dlan"
+    },
+    {
+      "label": "The Cretaceous Period",
+      "to": "cret"
+    },
+    {
+      "label": "Dinosaur Diets",
+      "to": "diet"
+    },
+    {
+      "label": "Oviraptor",
+      "to": "ovir"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/exti/EXTI00AA.webp",
+        "hotspots": [
+          {
+            "label": "¿Muerte desde el cielo?",
+            "to": "death-from-the-sky",
+            "x": 46,
+            "y": 3,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "¿Un cambio en el tiempo?",
+            "to": "a-change-in-the-weather",
+            "x": 36,
+            "y": 9,
+            "w": 29,
+            "h": 5
+          },
+          {
+            "label": "¿Envenenados por las plantas?",
+            "to": "poisoned-by-plants",
+            "x": 71,
+            "y": 54,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "¿Ganaron los ladrones de huevos?",
+            "to": "did-the-egg-stealers-win",
+            "x": 3,
+            "y": 80,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "Extinción masiva",
+            "to": "mass-extinction",
+            "x": 70,
+            "y": 88,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "mass-extinction": {
+        "image": "assets/exti/EXTI01PU.webp",
+        "back": "main"
+      },
+      "death-from-the-sky": {
+        "image": "assets/exti/EXTI02PU.webp",
+        "back": "main"
+      },
+      "a-change-in-the-weather": {
+        "image": "assets/exti/EXTI03PU.webp",
+        "back": "main"
+      },
+      "poisoned-by-plants": {
+        "image": "assets/exti/EXTI04PU.webp",
+        "back": "main"
+      },
+      "did-the-egg-stealers-win": {
+        "image": "assets/exti/EXTI05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/exti/EXTI00AP.mp3",
+  "narration": "assets/exti/EXTI00AJ.mp3",
+  "sound": "assets/exti/EXTI00SA.mp3",
+  "fanTranslation": true
+}

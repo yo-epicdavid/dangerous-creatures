@@ -1,0 +1,111 @@
+{
+  "id": "pale",
+  "code": "PALE",
+  "name": "¿Qué es la paleontología?",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "pay-lee-on-TOL-uh-jee",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "",
+  "hero": {
+    "image": "assets/pale/PALE00AA.webp",
+    "alt": "¿Qué es la paleontología?"
+  },
+  "intro": "La paleontología es el estudio científico de los fósiles, y los científicos que estudian estos fósiles se llaman paleontólogos. Estos científicos son también historiadores que registran la historia de la vida en la Tierra, desde la aparición de los primeros organismos celulares simples hasta el periodo de los dinosaurios, de 160 millones de años, y más allá. Aunque buscar huesos de dinosaurio en los rincones más remotos del planeta es emocionante, requiere mucho trabajo, paciencia y dedicación. Incluso después de muchos años de estudio y graduación, puede resultar difícil encontrar empleo. Algunos paleontólogos trabajan para empresas petrolíferas, pero su prioridad principal es buscar petróleo, no dinosaurios. Unos pocos afortunados son contratados por universidades y museos, donde pueden enseñar el arte y la ciencia del estudio de los dinosaurios.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "in-the-classroom",
+      "title": "En el aula",
+      "image": "assets/pale/PALE01PU.webp",
+      "text": "Para convertirse en paleontólogo, un estudiante debe estudiar geología, el estudio científico del origen, la historia y la estructura de la Tierra, y zoología, el estudio biológico de los animales. Los estudiantes deben obtener una licenciatura de cuatro años en una de esas disciplinas, adquiriendo al mismo tiempo una amplia formación en la otra. Después, deben continuar sus estudios para obtener un doctorado en paleontología, lo que a menudo supone ocho o nueve años de trabajo en laboratorio, museo y campo. Hacen falta muchos conocimientos para saber cómo encontrar e identificar huesos de dinosaurio."
+    },
+    {
+      "id": "in-the-field",
+      "title": "En el campo",
+      "image": "assets/pale/PALE02PU.webp",
+      "text": "Encontrar un fósil es emocionante, pero es solo el comienzo del trabajo. Los paleontólogos y sus estudiantes deben trabajar en el lugar donde se descubrieron los huesos fosilizados, ¡aunque sea en la ladera de una montaña! Con picos y palas, los excavadores retiran grandes cantidades de roca. El trabajo se realiza al aire libre, a menudo sin protección frente al calor abrasador o el frío glacial. Las condiciones también suelen ser sucias y estar plagadas de insectos. Aun así, los trabajadores deben avanzar despacio y con cuidado, documentando y etiquetando cada fragmento de fósil que encuentran. Los huesos se envuelven en papel de seda húmedo y vendas empapadas en yeso para poder transportarlos al laboratorio, donde se lleva a cabo una investigación más detallada."
+    },
+    {
+      "id": "in-the-laboratory",
+      "title": "En el laboratorio",
+      "image": "assets/pale/PALE03PU.webp",
+      "text": "Los estudiantes de paleontología pasan muchas horas aprendiendo a identificar fósiles bajo el microscopio. En el laboratorio, aprenden a retirar con cuidado la roca que aún queda adherida al fósil usando fresas dentales, bolígrafos de grabado y pinceles suaves. Observan los detalles más pequeños a través de microscopios de gran potencia. En ocasiones, incluso se aplican ácidos para disolver fragmentos de roca. Una vez extraída e identificada cada pieza, los fósiles se consolidan con plásticos líquidos y se unen con pegamento."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What is a Fossil?",
+      "to": "foss"
+    },
+    {
+      "label": "Modern Dinosaur Detectives",
+      "to": "mdet"
+    },
+    {
+      "label": "Digging up Dinosaurs",
+      "to": "digg"
+    },
+    {
+      "label": "Reconstructing Dinosaurs",
+      "to": "reco"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/pale/PALE00AA.webp",
+        "hotspots": [
+          {
+            "label": "En el aula",
+            "to": "in-the-classroom",
+            "x": 66,
+            "y": 61,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "En el laboratorio",
+            "to": "in-the-laboratory",
+            "x": 36,
+            "y": 71,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "En el campo",
+            "to": "in-the-field",
+            "x": 21,
+            "y": 79,
+            "w": 13,
+            "h": 6
+          }
+        ]
+      },
+      "in-the-classroom": {
+        "image": "assets/pale/PALE01PU.webp",
+        "back": "main"
+      },
+      "in-the-field": {
+        "image": "assets/pale/PALE02PU.webp",
+        "back": "main"
+      },
+      "in-the-laboratory": {
+        "image": "assets/pale/PALE03PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/pale/PALE00AP.mp3",
+  "narration": "assets/pale/PALE00AJ.mp3",
+  "sound": "assets/pale/PALE00SA.mp3",
+  "fanTranslation": true
+}

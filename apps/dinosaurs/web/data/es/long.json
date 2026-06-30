@@ -1,0 +1,165 @@
+{
+  "id": "long",
+  "code": "LONG",
+  "name": "Cuellos Largos",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Algunos dinosaurios tenían cuellos tan largos que podían alcanzar las copas de los árboles — ¡descubre cómo lo conseguían!",
+  "hero": {
+    "image": "assets/long/LONG00AA.webp",
+    "alt": "Cuellos Largos"
+  },
+  "intro": "Uno de los dinosaurios herbívoros más grandes, el Diplodocus tenía un cuello extraordinariamente largo que le permitía alimentarse en las copas de las coníferas y las cícadas más altas. Las vértebras (el Diplodocus tenía quince) estaban huecas en algunas zonas, lo que hacía el cuello fuerte pero ligero, de modo que el dinosaurio podía moverlo con facilidad. Estas vértebras estaban unidas por potentes articulaciones que le daban al cuello flexibilidad y resistencia a la vez. Para contrarrestar el peso de semejante cuello, el Diplodocus tenía una larga cola a modo de látigo, y un cuerpo grande y poderoso con huesos de las patas muy robustos para sostener las quince toneladas que pesaba el animal. Estos huesos, junto con los sólidos huesos de los hombros y las caderas, formaban una estructura pesada que sustentaba la columna vertebral, de manera similar a los contrafuertes de un puente colgante moderno.",
+  "facts": [
+    {
+      "label": "Vértebras cervicales del Diplodocus",
+      "value": "15"
+    },
+    {
+      "label": "Peso del Diplodocus",
+      "value": "15 toneladas"
+    },
+    {
+      "label": "Vértebras cervicales del Mamenchisaurus",
+      "value": "19"
+    },
+    {
+      "label": "Longitud del cuello del Mamenchisaurus",
+      "value": "33 pies"
+    },
+    {
+      "label": "Longitud total del Elasmosaurus",
+      "value": "43 pies"
+    }
+  ],
+  "topics": [
+    {
+      "id": "longest-neck",
+      "title": "El cuello más largo",
+      "image": "assets/long/LONG01PU.webp",
+      "text": "Con diecinueve vértebras, el Mamenchisaurus tenía un cuello de treinta y tres pies de longitud — el cuello más largo que ha existido jamás. Pero al contrario que el del Diplodocus, su cuello era rígido, no flexible, y tampoco estaba equilibrado por una cola larga."
+    },
+    {
+      "id": "advantages-of-a-long-neck",
+      "title": "Las ventajas de un cuello largo",
+      "image": "assets/long/LONG02PU.webp",
+      "text": "La mayoría de los dinosaurios eran herbívoros, y debía de haber mucha competencia por la comida. Los saurópodos como el Diplodocus llevaban ventaja sobre otros dinosaurios herbívoros. Con su largo cuello y su pequeña cabeza, podían ramonear entre los árboles más altos que crecían en aquella época. Para alcanzar todavía más alto, el Diplodocus podría haberse erguido sobre sus patas traseras.",
+      "captions": [
+        {
+          "label": "Jirafa",
+          "text": "Una jirafa actual puede alimentarse de las hojas en las copas de los árboles a las que otros animales herbívoros no pueden llegar, igual que el Diplodocus. Sin embargo, una jirafa no puede alcanzar ni de lejos la altura que conseguía el dinosaurio."
+        }
+      ]
+    },
+    {
+      "id": "hollow-places",
+      "title": "Zonas huecas",
+      "image": "assets/long/LONG03PU.webp",
+      "text": "Los huesos del cuello del Diplodocus tenían zonas excavadas para hacerlos más ligeros, y aun así eran muy resistentes.",
+      "captions": [
+        {
+          "label": "Lagarto con cámaras",
+          "text": "El Camarasaurus también tenía cámaras huecas en el interior de sus vértebras para reducir su peso. Camarasaurus significa «lagarto con cámaras». ¡Pese a esta reducción de peso, este dinosaurio probablemente llegaba a pesar veinte toneladas!"
+        }
+      ]
+    },
+    {
+      "id": "not-only-land-dwellers",
+      "title": "No solo vivían en tierra",
+      "image": "assets/long/LONG04PU.webp",
+      "text": "Al igual que el Diplodocus, el animal marino Elasmosaurus tenía un cuello largo y una cabeza pequeña. Más de la mitad de los cuarenta y tres pies de longitud total del Elasmosaurus era cuello. Este plesiosaurio probablemente perseguía peces cerca de la superficie del agua y los atrapaba con sus afilados dientes. Como sus primos reptiles terrestres, el Elasmosaurus respiraba aire, lo que significaba que tenía que salir a la superficie para llenar sus pulmones."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Diplodocus",
+      "to": "dipl"
+    },
+    {
+      "label": "Mamenchisaurus",
+      "to": "mame"
+    },
+    {
+      "label": "Plant-eaters",
+      "to": "plan"
+    },
+    {
+      "label": "Camarasaurus",
+      "to": "cama"
+    },
+    {
+      "label": "Elasmosaurus",
+      "to": "elas"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/long/LONG00AA.webp",
+        "hotspots": [
+          {
+            "label": "Las ventajas de un cuello largo",
+            "to": "advantages-of-a-long-neck",
+            "x": 22,
+            "y": 70,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Zonas huecas",
+            "to": "hollow-places",
+            "x": 57,
+            "y": 54,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "El cuello más largo",
+            "to": "longest-neck",
+            "x": 60,
+            "y": 68,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "No solo vivían en tierra",
+            "to": "not-only-land-dwellers",
+            "x": 10,
+            "y": 80,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "longest-neck": {
+        "image": "assets/long/LONG01PU.webp",
+        "back": "main"
+      },
+      "advantages-of-a-long-neck": {
+        "image": "assets/long/LONG02PU.webp",
+        "back": "main"
+      },
+      "hollow-places": {
+        "image": "assets/long/LONG03PU.webp",
+        "back": "main"
+      },
+      "not-only-land-dwellers": {
+        "image": "assets/long/LONG04PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/long/LONG00AP.mp3",
+  "narration": "assets/long/LONG00AJ.mp3",
+  "fanTranslation": true
+}

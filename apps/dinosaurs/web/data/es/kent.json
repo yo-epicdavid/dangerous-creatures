@@ -1,0 +1,218 @@
+{
+  "id": "kent",
+  "code": "KENT",
+  "name": "Kentrosaurus",
+  "category": "dinosaur",
+  "scientificName": "Kentrosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "KEN-troh-SOR-us",
+  "meaning": "Lagarto espinoso",
+  "period": "Jurásico superior",
+  "diet": "Herbívoro",
+  "tagline": "El doble de pinchos, el doble de peligro: ¡este pequeño estegosaurio no era tan inofensivo!",
+  "hero": {
+    "image": "assets/kent/KENT00AA.webp",
+    "alt": "Kentrosaurus"
+  },
+  "intro": "Un pariente del famoso Estegosaurio, el Kentrosaurus solo se ha encontrado en Tendaguru, en Tanzania. Las placas del Kentrosaurus son mucho más puntiagudas que las de otros estegosaurios. Si todos los pinchos de su espalda no bastaban para ahuyentar a los depredadores, ¡este dinosaurio incluso tenía un par de pinchos adicionales encima de sus patas traseras!",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "África"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico tardío"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Lagarto espinoso"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Estegosaurio"
+    },
+    {
+      "label": "Longitud",
+      "value": "5 m (17 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "a-dumb-dinosaur",
+      "title": "¿Un dinosaurio poco inteligente?",
+      "image": "assets/kent/KENT01PU.webp",
+      "text": "Como la mayoría de los estegosaurios, el Kentrosaurus tenía un cerebro muy pequeño en relación con su tamaño corporal. Sin embargo, la inteligencia no lo era todo, porque los estegosaurios fueron una especie de gran éxito, abundante durante más de 70 millones de años."
+    },
+    {
+      "id": "one-of-the-smaller-stegosaurs",
+      "title": "Uno de los estegosaurios más pequeños",
+      "image": "assets/kent/KENT02PU.webp",
+      "text": "Con unos cinco metros de longitud, el Kentrosaurus es uno de los estegosaurios más pequeños, considerablemente menor que el Tuojiangosaurus y apenas la mitad del tamaño del famoso Estegosaurio. Aunque pequeño para ser un dinosaurio, el Kentrosaurus medía tanto como un coche grande."
+    },
+    {
+      "id": "watch-that-tail",
+      "title": "¡Cuidado con la cola!",
+      "image": "assets/kent/KENT03PU.webp",
+      "text": "La cola de un dinosaurio era a menudo su mejor defensa frente a los carnívoros depredadores. Como la mayoría de los estegosaurios, el Kentrosaurus usaba los pinchos de su cola para mantener a raya a sus depredadores.",
+      "captions": [
+        {
+          "label": "La historia del pincho",
+          "text": "Este pincho de estegosaurio habría estado cubierto por una capa resistente de queratina, algo parecido a una uña, cuando el dinosaurio estaba vivo."
+        },
+        {
+          "label": "Una cola con pinchos",
+          "text": "La cola de un estegosaurio, cuando se balanceaba de lado a lado, podía causar mucho daño. El extremo, donde estaban los pinchos, era la parte que se movía más deprisa, por lo que un golpe rápido podía herir gravemente a un atacante."
+        },
+        {
+          "label": "Un latigazo",
+          "text": "No todas las colas tenían que parecer aterradoras para ser eficaces. La cola de este saurópodo estaba diseñada específicamente para golpear con fuerza y causar golpes dolorosos. ¡Y como los saurópodos eran tan grandes, sus colas abarcaban una gran superficie!"
+        }
+      ]
+    },
+    {
+      "id": "discovered-in-a-big-dig",
+      "title": "Descubierto en una gran excavación",
+      "image": "assets/kent/KENT04PU.webp",
+      "text": "El Kentrosaurus fue descubierto en una de las excavaciones de dinosaurios más grandes de todos los tiempos, que tuvo lugar en Tendaguru, Tanzania, entre 1909 y 1912. Los trabajadores recogieron hasta 250 toneladas de huesos de dinosaurio. Los hallazgos no pertenecían solo al Kentrosaurus, sino también a los gigantescos saurópodos Brachiosaurus y Barosaurus, entre otros. Los huesos tuvieron que transportarse hasta el puerto más cercano. Los trabajadores realizaron más de 5.000 viajes desde el yacimiento hasta el puerto. Desde allí, los huesos fueron enviados a Alemania."
+    },
+    {
+      "id": "thermodynamic-plates",
+      "title": "Placas termodinámicas",
+      "image": "assets/kent/KENT05PU.webp",
+      "text": "Las placas dorsales del Kentrosaurus podrían haber ayudado al dinosaurio a regular su temperatura corporal. Cuando el Kentrosaurus se orientaba hacia el sol, las placas absorbían calor (como paneles solares) y calentaban la sangre; cuando se orientaba hacia la brisa o estaba a la sombra, las placas desprendían calor y enfriaban su cuerpo."
+    },
+    {
+      "id": "side-spikes",
+      "title": "Pinchos laterales",
+      "image": "assets/kent/KENT06PU.webp",
+      "text": "El Kentrosaurus era único entre los estegosaurios porque no solo tenía pinchos a lo largo de su espalda y en la cola, sino también un par de pinchos adicionales encima de sus patas traseras. Estos pinchos laterales podrían haber servido para repeler a los atacantes que se acercaban por los flancos."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Tendaguru Expedition"
+    },
+    {
+      "label": "Dravidosaurus",
+      "to": "davi"
+    },
+    {
+      "label": "Tuojiangosaurus",
+      "to": "tuoj"
+    },
+    {
+      "label": "Camarasaurus",
+      "to": "cama"
+    },
+    {
+      "label": "Digging up Dinosaurs",
+      "to": "digg"
+    },
+    {
+      "label": "Spinosaurus",
+      "to": "spin"
+    },
+    {
+      "label": "Polacanthus",
+      "to": "pola"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/kent/KENT00AA.webp",
+        "hotspots": [
+          {
+            "label": "¡Cuidado con la cola!",
+            "to": "watch-that-tail",
+            "x": 2,
+            "y": 38,
+            "w": 16,
+            "h": 8
+          },
+          {
+            "label": "Pinchos laterales",
+            "to": "side-spikes",
+            "x": 20,
+            "y": 27,
+            "w": 14,
+            "h": 7
+          },
+          {
+            "label": "Placas termodinámicas",
+            "to": "thermodynamic-plates",
+            "x": 62,
+            "y": 18,
+            "w": 24,
+            "h": 7
+          },
+          {
+            "label": "¿Un dinosaurio poco inteligente?",
+            "to": "a-dumb-dinosaur",
+            "x": 76,
+            "y": 38,
+            "w": 18,
+            "h": 9
+          },
+          {
+            "label": "Descubierto en una gran excavación",
+            "to": "discovered-in-a-big-dig",
+            "x": 9,
+            "y": 68,
+            "w": 24,
+            "h": 8
+          },
+          {
+            "label": "Uno de los estegosaurios más pequeños",
+            "to": "one-of-the-smaller-stegosaurs",
+            "x": 62,
+            "y": 62,
+            "w": 28,
+            "h": 10
+          }
+        ]
+      },
+      "a-dumb-dinosaur": {
+        "image": "assets/kent/KENT01PU.webp",
+        "back": "main"
+      },
+      "one-of-the-smaller-stegosaurs": {
+        "image": "assets/kent/KENT02PU.webp",
+        "back": "main"
+      },
+      "watch-that-tail": {
+        "image": "assets/kent/KENT03PU.webp",
+        "back": "main"
+      },
+      "discovered-in-a-big-dig": {
+        "image": "assets/kent/KENT04PU.webp",
+        "back": "main"
+      },
+      "thermodynamic-plates": {
+        "image": "assets/kent/KENT05PU.webp",
+        "back": "main"
+      },
+      "side-spikes": {
+        "image": "assets/kent/KENT06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/kent/KENT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/kent/KENT00AP.mp3",
+  "narration": "assets/kent/KENT00AJ.mp3",
+  "fanTranslation": true
+}

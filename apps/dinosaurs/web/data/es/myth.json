@@ -1,0 +1,188 @@
+{
+  "id": "myth",
+  "code": "MYTH",
+  "name": "Mitos y leyendas",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Los huesos de dinosaurio inspiraron leyendas de dragones y avistamientos de monstruos marinos, pero los animales reales eran aún más extraordinarios.",
+  "hero": {
+    "image": "assets/myth/MYTH00AA.webp",
+    "alt": "Mitos y leyendas"
+  },
+  "intro": "Desde que se descubrieron por primera vez los huesos de dinosaurio, la gente relacionó a estas enormes criaturas con los aterradores monstruos de los mitos y las leyendas. Poco se sabía sobre los dinosaurios, y se cometieron muchos errores sobre su aspecto. Los huesos se ensamblaban de forma incorrecta o se mezclaban con los de otros dinosaurios. Hoy en día, los malentendidos siguen siendo abundantes. ¡Algunos visitantes de museos creen que los dinosaurios caminaban como esqueletos vivientes! Aunque en su día se pensó que eran torpes, aburridos y estúpidos, esas ideas no tienen nada que ver con la realidad. Los dinosaurios estuvieron entre los animales más impresionantes y sofisticados que la Tierra ha conocido jamás. Sobrevivieron durante casi 160 millones de años, 75 veces más tiempo del que los seres humanos llevan viviendo en la Tierra.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "loch-ness-monster",
+      "title": "El monstruo del lago Ness",
+      "image": "assets/myth/MYTH01PU.webp",
+      "text": "Durante siglos, muchos de los que vivían cerca del lago Ness, en Escocia, afirmaron haber visto un monstruo en sus aguas. Las descripciones, ilustraciones e incluso fotografías del supuesto monstruo muestran un animal acuático que se parece mucho al antiguo reptil Plesiosaurus. Los científicos creen que es muy poco probable que semejante criatura pueda seguir existiendo. Sin embargo, también se pensó en su día que el antiguo pez celacanto llevaba mucho tiempo extinto, hasta que en 1938 y 1952 se capturaron celacantos vivos frente a la costa meridional de África."
+    },
+    {
+      "id": "brontosaurus",
+      "title": "Brontosaurio",
+      "image": "assets/myth/MYTH02PU.webp",
+      "text": "Durante la frenética carrera de los dinosaurios de la década de 1850, dos paleontólogos protagonizaron una feroz competición por ser reconocidos como el mayor experto mundial en dinosaurios. En su afán de fama, O. C. Marsh describió el Apatosaurus en 1877 y el Brontosaurus en 1879. Más tarde se descubrió que en realidad se trataba del mismo dinosaurio. Hoy se llama Apatosaurus, ya que ese fue el primer nombre que se le asignó."
+    },
+    {
+      "id": "dragons",
+      "title": "Dragones",
+      "image": "assets/myth/MYTH03PU.webp",
+      "text": "Cuando se descubrieron por primera vez fósiles de dinosaurio, hace unos 2000 años, se pensó que eran los restos de dragones. Algunas representaciones de dragones mitológicos se parecen bastante a los dinosaurios. En China, los dientes de dinosaurio fosilizados se denominan «dientes de dragón» y se cree que tienen propiedades curativas cuando se muelen en polvo y se utilizan como medicamentos."
+    },
+    {
+      "id": "of-cave-men-and-dinosaurs",
+      "title": "Los hombres de las cavernas y los dinosaurios",
+      "image": "assets/myth/MYTH04PU.webp",
+      "text": "Aunque los dinosaurios se extinguieron hace hasta 65 millones de años —unos 61 millones de años antes de que aparecieran los primeros seres humanos—, algunas películas y dibujos animados dan la impresión de que estas antiguas criaturas compartieron la tierra con los primeros hombres de las cavernas. Sin embargo, los científicos tienen la certeza de que ningún ser humano ha visto jamás un dinosaurio vivo."
+    },
+    {
+      "id": "tree-dinosaur",
+      "title": "¿Dinosaurio trepador?",
+      "image": "assets/myth/MYTH05PU.webp",
+      "text": "El Hypsilophodon, un pequeño herbívoro ágil, se creyó en un principio que vivía en los árboles. Los científicos pensaban que la criatura usaba su larga cola para aferrarse a las ramas. Esta teoría ha quedado refutada desde entonces. El Hypsilophodon era en realidad un dinosaurio terrestre que usaba su larga y rígida cola para mantener el equilibrio mientras corría.",
+      "captions": [
+        {
+          "label": "Habitante de los árboles",
+          "text": "A principios de la década de 1820, el médico inglés Gideon Mantell descubrió varios huesos y dientes de dinosaurio fosilizados. Mantell imaginó que la criatura a la que pertenecían era un lagarto gigantesco parecido a una iguana. Dibujó a la criatura posada en una rama de árbol, con una espiga en el hocico. La espiga resultó ser el pulgar del Iguanodon, lo que ilustra que, a medida que se reúne más conocimiento sobre los dinosaurios, las ideas sobre ellos tienden a modificarse."
+        }
+      ]
+    },
+    {
+      "id": "snake-stones",
+      "title": "Piedras serpiente",
+      "image": "assets/myth/MYTH06PU.webp",
+      "text": "Los fósiles de amonites, que son los restos de antiguos moluscos, se creyeron en su día los restos de antiguas serpientes convertidas en piedra por la abadesa del siglo VII, santa Hilda. Algunos artesanos tallaban cabezas en ciertos amonites para fomentar esta creencia.",
+      "captions": [
+        {
+          "label": "¿Pariente del amonite?",
+          "text": "Este nautilo moderno es muy parecido al antiguo amonite. Otras criaturas que viven hoy en el mar, como las estrellas de mar y algunas especies de cangrejos, se asemejan a fósiles antiguos."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The American Dinosaur Rush",
+      "to": "amer"
+    },
+    {
+      "label": "Living Fossils",
+      "to": "ddec"
+    },
+    {
+      "label": "Reconstructing Dinosaurs",
+      "to": "reco"
+    },
+    {
+      "label": "Teeth",
+      "to": "teet"
+    },
+    {
+      "label": "The Triassic Period",
+      "to": "tria"
+    },
+    {
+      "label": "Dinosaur Society"
+    },
+    {
+      "label": "Ammonite",
+      "to": "ammo"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/myth/MYTH00AA.webp",
+        "hotspots": [
+          {
+            "label": "Piedras serpiente",
+            "to": "snake-stones",
+            "x": 72,
+            "y": 17,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "El monstruo del lago Ness",
+            "to": "loch-ness-monster",
+            "x": 66,
+            "y": 24,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Dragones",
+            "to": "dragons",
+            "x": 3,
+            "y": 63,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "¿Dinosaurio trepador?",
+            "to": "tree-dinosaur",
+            "x": 3,
+            "y": 70,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Brontosaurio",
+            "to": "brontosaurus",
+            "x": 42,
+            "y": 60,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Los hombres de las cavernas y los dinosaurios",
+            "to": "of-cave-men-and-dinosaurs",
+            "x": 36,
+            "y": 67,
+            "w": 26,
+            "h": 5
+          }
+        ]
+      },
+      "loch-ness-monster": {
+        "image": "assets/myth/MYTH01PU.webp",
+        "back": "main"
+      },
+      "brontosaurus": {
+        "image": "assets/myth/MYTH02PU.webp",
+        "back": "main"
+      },
+      "dragons": {
+        "image": "assets/myth/MYTH03PU.webp",
+        "back": "main"
+      },
+      "of-cave-men-and-dinosaurs": {
+        "image": "assets/myth/MYTH04PU.webp",
+        "back": "main"
+      },
+      "tree-dinosaur": {
+        "image": "assets/myth/MYTH05PU.webp",
+        "back": "main"
+      },
+      "snake-stones": {
+        "image": "assets/myth/MYTH06PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/myth/MYTH00AP.mp3",
+  "narration": "assets/myth/MYTH00AJ.mp3",
+  "sound": "assets/myth/MYTH00SA.mp3",
+  "fanTranslation": true
+}

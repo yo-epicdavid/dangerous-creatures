@@ -1,0 +1,145 @@
+{
+  "id": "mosa",
+  "code": "MOSA",
+  "name": "Mosasaurio",
+  "category": "creature",
+  "scientificName": "Mosasaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "MOH-zah-SOR-us",
+  "meaning": "lagarto del Mosa",
+  "period": "Cretácico superior",
+  "diet": "Carnívoro",
+  "tagline": "Nadando velozmente por las aguas, este reptil atrapaba a sus presas entre sus enormes y abiertas fauces.",
+  "hero": {
+    "image": "assets/mosa/MOSA00AA.webp",
+    "alt": "Mosasaurio"
+  },
+  "intro": "Los primeros descubridores creyeron que era una especie de monstruo marino, pero el Mosasaurio alcanzaba más de nueve metros de longitud y tenía una boca similar a la de un cocodrilo, repleta de feroces dientes. El Mosasaurio no era un dinosaurio, sino un tipo de lagarto perfectamente adaptado para nadar en el mar, con aletas en lugar de patas. Al igual que otros lagartos, el Mosasaurio tenía que volver a tierra para poner sus huevos.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Océanos"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto del Mosa"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/D"
+    },
+    {
+      "label": "Familia",
+      "value": "Mosasáurido"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ammonite-eater",
+      "title": "Cazador de ammonites",
+      "image": "assets/mosa/MOSA01PU.webp",
+      "text": "Se han encontrado fósiles de ammonites antiguos con perforaciones, probablemente hechas por los dientes de un mosasaurio.",
+      "captions": [
+        {
+          "label": "Dientes de mosasaurio",
+          "text": "Este enorme lagarto marino tenía dientes afilados y puntiagudos, muy adecuados para romper las conchas de moluscos como los ammonites."
+        },
+        {
+          "label": "Conchas y más conchas",
+          "text": "Los fósiles de ammonites son abundantes y variados. Algunos ammonites alcanzaron tamaños gigantescos. Aunque este ejemplar mide solo unos treinta centímetros de diámetro, algunos superaban el metro y medio."
+        }
+      ]
+    },
+    {
+      "id": "fossil-jaws",
+      "title": "Mandíbulas fósiles",
+      "image": "assets/mosa/MOSA02PU.webp",
+      "text": "En este fragmento de mandíbula de mosasaurio se aprecian tres dientes puntiagudos. Este lagarto marino era probablemente un depredador de movimientos lentos. Los mosasaurios existieron durante un periodo relativamente corto en la historia geológica, únicamente en el Cretácico Superior."
+    },
+    {
+      "id": "lizard-relations",
+      "title": "Parientes lagartos",
+      "image": "assets/mosa/MOSA03PU.webp",
+      "text": "Aunque vivían en el mar, los mosasaurios estaban estrechamente emparentados con los varanos actuales. Los varanos son lagartos terrestres que habitan en el Hemisferio Oriental. El mayor de ellos es el dragón de Komodo de Indonesia, que puede alcanzar aproximadamente tres metros de longitud."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Ichthyosaurus",
+      "to": "icht"
+    },
+    {
+      "label": "Ammonite",
+      "to": "ammo"
+    },
+    {
+      "label": "Trilobite",
+      "to": "tril"
+    },
+    {
+      "label": "Tuatara",
+      "to": "tuat"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mosa/MOSA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Parientes lagartos",
+            "to": "lizard-relations",
+            "x": 72,
+            "y": 34,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Mandíbulas fósiles",
+            "to": "fossil-jaws",
+            "x": 46,
+            "y": 63,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Cazador de ammonites",
+            "to": "ammonite-eater",
+            "x": 57,
+            "y": 74,
+            "w": 18,
+            "h": 6
+          }
+        ]
+      },
+      "ammonite-eater": {
+        "image": "assets/mosa/MOSA01PU.webp",
+        "back": "main"
+      },
+      "fossil-jaws": {
+        "image": "assets/mosa/MOSA02PU.webp",
+        "back": "main"
+      },
+      "lizard-relations": {
+        "image": "assets/mosa/MOSA03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/mosa/MOSA50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/mosa/MOSA00AP.mp3",
+  "narration": "assets/mosa/MOSA00AJ.mp3",
+  "fanTranslation": true
+}

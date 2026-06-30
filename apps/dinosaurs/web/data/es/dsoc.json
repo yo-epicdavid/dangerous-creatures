@@ -1,0 +1,185 @@
+{
+  "id": "dsoc",
+  "code": "DSOC",
+  "name": "La Sociedad del Dinosaurio",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "dy-nuh-SOR suh-SY-uh-tee",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "¡El club que sigue cada nuevo descubrimiento de dinosaurios — uno cada siete semanas!",
+  "hero": {
+    "image": "assets/dsoc/DSOC00AA.webp",
+    "alt": "La Sociedad del Dinosaurio"
+  },
+  "intro": "¿Sabías que se descubre un nuevo tipo de dinosaurio cada siete semanas? ¿Cómo puede seguir el ritmo un entusiasta de los dinosaurios? Compartir información sobre los últimos descubrimientos es un problema tanto para los paleontólogos profesionales como para los cazadores de dinosaurios aficionados. Para atender las necesidades de ambos grupos, se fundó La Sociedad del Dinosaurio.",
+  "facts": [
+    {
+      "label": "Fundada por",
+      "value": "Dino Don Lessem"
+    },
+    {
+      "label": "Tipo",
+      "value": "Organización sin ánimo de lucro para la ciencia y la educación sobre dinosaurios"
+    },
+    {
+      "label": "Publicación infantil",
+      "value": "DINO TIMES — un periódico mensual repleto de nuevos descubrimientos de dinosaurios, juegos y concursos"
+    },
+    {
+      "label": "Publicación para adultos",
+      "value": "THE DINOSAUR REPORT — un boletín trimestral"
+    },
+    {
+      "label": "Teléfono",
+      "value": "1-800-DINO-DON"
+    },
+    {
+      "label": "Dirección",
+      "value": "200 Carleton Ave, East Islip, NY 11730"
+    }
+  ],
+  "topics": [
+    {
+      "id": "updating-and-educating",
+      "title": "Información y educación",
+      "image": "assets/dsoc/DSOC01PU.webp",
+      "text": "La Sociedad del Dinosaurio publica todas las últimas noticias de interés para los aficionados a los dinosaurios, desde las numerosas y distintas opiniones de los expertos hasta las descripciones de los fósiles más recientes excavados en el campo. La Sociedad del Dinosaurio financia proyectos de investigación, ayudando a los paleontólogos a continuar sus exploraciones en busca de dinosaurios en todo el mundo. Apoyar a los artistas especializados en dinosaurios y los proyectos educativos también es una prioridad del grupo. ¡Tanto para expertos como para principiantes, La Sociedad del Dinosaurio da vida a los dinosaurios!"
+    },
+    {
+      "id": "whos-leading-this-group",
+      "title": "¿Quién dirige este grupo?",
+      "image": "assets/dsoc/DSOC02PU.webp",
+      "text": "Los organizadores de La Sociedad del Dinosaurio incluyen a los principales paleontólogos de dinosaurios de todo el mundo, algunos de los cuales aparecen aquí. Dino Don Lessem, nuestro guía, es el fundador."
+    },
+    {
+      "id": "dinosaur-news-for-readers-of-all-ages",
+      "title": "Noticias sobre dinosaurios para lectores de todas las edades",
+      "image": "assets/dsoc/DSOC03PU.webp",
+      "text": "Para los niños, La Sociedad del Dinosaurio publica DINO TIMES, un periódico mensual repleto de nuevos descubrimientos de dinosaurios, juegos y concursos. Para los adultos, THE DINOSAUR REPORT, el boletín trimestral de la Sociedad, ofrece todos los últimos avances en una ciencia en constante cambio.",
+      "captions": [
+        {
+          "label": "¡Aprobado por los dinosaurios!",
+          "text": "Existen cientos de libros, videojuegos y juguetes sobre dinosaurios, pero la mayoría están desactualizados. ¿Cómo encontrar los que son fiables? Busca el sello de aprobación de La Sociedad del Dinosaurio en los productos científicamente correctos. La Sociedad del Dinosaurio te dirá qué es real y qué es ficción."
+        }
+      ]
+    },
+    {
+      "id": "dig-your-own-dinosaur",
+      "title": "Excava tu propio dinosaurio",
+      "image": "assets/dsoc/DSOC04PU.webp",
+      "text": "¿Has querido alguna vez excavar huevos, buscar saurópodos o sacar a la luz un Braquiosaurio? ¡Conviértete en un detective de dinosaurios! La Sociedad del Dinosaurio patrocina excavaciones para niños y adultos en el oeste americano y en todo el mundo."
+    },
+    {
+      "id": "join-in-the-fun",
+      "title": "Únete a la diversión",
+      "image": "assets/dsoc/DSOC05PU.webp",
+      "text": "La Sociedad del Dinosaurio es la única organización sin ánimo de lucro dedicada a la ciencia y la educación sobre dinosaurios. Hacerse socio es muy sencillo. Para más información, llama al 1-800-DINO-DON o escribe a:"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Myths and Legends",
+      "to": "myth"
+    },
+    {
+      "label": "Dinosaur Provincial Park",
+      "to": "park"
+    },
+    {
+      "label": "Modern Dinosaur Detectives",
+      "to": "mdet"
+    },
+    {
+      "label": "What is Paleontology?",
+      "to": "pale"
+    },
+    {
+      "label": "What You Need to Find a Fossil",
+      "to": "find"
+    },
+    {
+      "label": "Museums of North America",
+      "to": "muse"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/dsoc/DSOC00AA.webp",
+        "hotspots": [
+          {
+            "label": "Únete a la diversión",
+            "to": "join-in-the-fun",
+            "x": 70,
+            "y": 9,
+            "w": 25,
+            "h": 7
+          },
+          {
+            "label": "Información y educación",
+            "to": "updating-and-educating",
+            "x": 3,
+            "y": 41,
+            "w": 28,
+            "h": 6
+          },
+          {
+            "label": "Noticias sobre dinosaurios para lectores de todas las edades",
+            "to": "dinosaur-news-for-readers-of-all-ages",
+            "x": 3,
+            "y": 50,
+            "w": 28,
+            "h": 10
+          },
+          {
+            "label": "Excava tu propio dinosaurio",
+            "to": "dig-your-own-dinosaur",
+            "x": 3,
+            "y": 62,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "¿Quién dirige este grupo?",
+            "to": "whos-leading-this-group",
+            "x": 3,
+            "y": 71,
+            "w": 26,
+            "h": 6
+          }
+        ]
+      },
+      "updating-and-educating": {
+        "image": "assets/dsoc/DSOC01PU.webp",
+        "back": "main"
+      },
+      "whos-leading-this-group": {
+        "image": "assets/dsoc/DSOC02PU.webp",
+        "back": "main"
+      },
+      "dinosaur-news-for-readers-of-all-ages": {
+        "image": "assets/dsoc/DSOC03PU.webp",
+        "back": "main"
+      },
+      "dig-your-own-dinosaur": {
+        "image": "assets/dsoc/DSOC04PU.webp",
+        "back": "main"
+      },
+      "join-in-the-fun": {
+        "image": "assets/dsoc/DSOC05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/dsoc/DSOC00AP.mp3",
+  "narration": "assets/dsoc/DSOC00AJ.mp3",
+  "fanTranslation": true
+}

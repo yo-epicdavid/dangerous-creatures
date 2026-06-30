@@ -1,0 +1,163 @@
+{
+  "id": "mega",
+  "code": "MEGA",
+  "name": "Megalosaurio",
+  "category": "dinosaur",
+  "scientificName": "Megalosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "MEG-ah-lo-SOR-us",
+  "meaning": "Gran lagarto",
+  "period": "Jurásico",
+  "diet": "Carnívoro",
+  "tagline": "¡El primer dinosaurio descrito científicamente... y que en su día se confundió con un hombre gigante!",
+  "hero": {
+    "image": "assets/mega/MEGA00AA.webp",
+    "alt": "Megalosaurio"
+  },
+  "intro": "El Megalosaurio tiene una historia muy confusa. No solo sus restos han sido confundidos con los de otros dinosaurios, sino que un fragmento de su fémur llegó a tomarse por parte de un hombre gigante. Estos errores son comprensibles, ya que el Megalosaurio fue descrito en 1824, antes de que los científicos supieran que los dinosaurios habían existido.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Asia, Europa, América del Sur"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Gran lagarto"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Terópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "9 m (30 pies)"
+    },
+    {
+      "label": "Peso",
+      "value": "1 tonelada"
+    }
+  ],
+  "topics": [
+    {
+      "id": "gnashing-teeth",
+      "title": "Dientes desgarradores",
+      "image": "assets/mega/MEGA01PU.webp",
+      "text": "Los dientes que se muestran aquí pertenecieron al Megalosaurio. Los dientes se curvan hacia atrás para que el dinosaurio pueda aferrar a sus presas con mayor facilidad, y los bordes afilados y serrados están diseñados para cortar la carne. Las grietas del diente grande se produjeron durante el proceso de fosilización.",
+      "captions": [
+        {
+          "label": "Mandíbula jurásica",
+          "text": "Esta mandíbula perteneció al Megalosaurio. Aunque el Megalosaurio fue uno de los primeros dinosaurios en ser descubierto, vivió durante el período Jurásico, por lo que no es uno de los dinosaurios más antiguos que conocemos."
+        },
+        {
+          "label": "Dientes de recambio",
+          "text": "Los dientes de un dinosaurio carnívoro no dejaban de crecer y se renovaban continuamente a lo largo de la vida del animal. El diente más pequeño es uno «nuevo»."
+        }
+      ]
+    },
+    {
+      "id": "early-dinosaur-discoveries",
+      "title": "Los primeros descubrimientos de dinosaurios",
+      "image": "assets/mega/MEGA02PU.webp",
+      "text": "Los restos del Megalosaurio fueron desenterrados en 1824 por William Buckland en Stonesfield, en Oxfordshire, Inglaterra, y esta criatura se convirtió en el primer dinosaurio descrito científicamente. Buckland era profesor de geología en la Universidad de Oxford. La palabra «dinosaurio», que significa «lagarto terrible», no se acuñó hasta 1842, de la mano de sir Richard Owen."
+    },
+    {
+      "id": "dinosaur-countryside",
+      "title": "El paisaje de los dinosaurios",
+      "image": "assets/mega/MEGA03PU.webp",
+      "text": "Durante la época en que vivió el Megalosaurio, el territorio que hoy forma el sureste de Inglaterra, el norte de Francia y el norte de Bélgica era una llanura baja y plana. Las plantas de marisma crecían tupidas en los terrenos pantanosos y los animales vivían entre ellas.",
+      "captions": [
+        {
+          "label": "Huyendo del peligro",
+          "text": "El Hipsilofodón habría sido un sabroso bocado para el gigantesco Megalosaurio. Por suerte, estos pequeños dinosaurios eran muy rápidos y podían dejar atrás fácilmente al gran depredador."
+        },
+        {
+          "label": "Manos diminutas, patas poderosas",
+          "text": "Como muchos grandes carnívoros, el Megalosaurio tenía manos diminutas que resultaban desproporcionadas en comparación con sus gruesas y poderosas patas."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Meat-eaters",
+      "to": "meat"
+    },
+    {
+      "label": "Skulls of Meat-eaters",
+      "to": "carn"
+    },
+    {
+      "label": "Important Dinosaur Sites",
+      "to": "site"
+    },
+    {
+      "label": "The Jurassic Period",
+      "to": "jurr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mega/MEGA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Dientes desgarradores",
+            "to": "gnashing-teeth",
+            "x": 68,
+            "y": 50,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Los primeros descubrimientos de dinosaurios",
+            "to": "early-dinosaur-discoveries",
+            "x": 3,
+            "y": 63,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "El paisaje de los dinosaurios",
+            "to": "dinosaur-countryside",
+            "x": 55,
+            "y": 79,
+            "w": 20,
+            "h": 5
+          }
+        ]
+      },
+      "gnashing-teeth": {
+        "image": "assets/mega/MEGA01PU.webp",
+        "back": "main"
+      },
+      "early-dinosaur-discoveries": {
+        "image": "assets/mega/MEGA02PU.webp",
+        "back": "main"
+      },
+      "dinosaur-countryside": {
+        "image": "assets/mega/MEGA03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/mega/MEGA50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/mega/MEGA00AP.mp3",
+  "narration": "assets/mega/MEGA00AJ.mp3",
+  "fanTranslation": true
+}

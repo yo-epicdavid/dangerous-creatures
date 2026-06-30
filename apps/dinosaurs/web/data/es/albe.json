@@ -1,0 +1,187 @@
+{
+  "id": "albe",
+  "code": "ALBE",
+  "name": "Albertosaurus",
+  "category": "dinosaur",
+  "scientificName": "Albertosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "al-BER-toe-SOR-us",
+  "meaning": "lagarto de Alberta",
+  "period": "Cretácico superior",
+  "diet": "Carnívoro",
+  "tagline": "El primo más pequeño pero más veloz del T. rex, ¡un feroz cazador de la antigua Canadá!",
+  "hero": {
+    "image": "assets/albe/ALBE00AA.webp",
+    "alt": "Albertosaurus"
+  },
+  "intro": "El Albertosaurus recibió su nombre de Alberta, Canadá, donde antaño vagaba por los deltas de la zona que hoy domina el río Red Deer. Este dinosaurio pertenecía a la misma familia que el Tyrannosaurus rex y, al igual que su primo mayor, era un temible depredador carnívoro. Como todos los tiranosáuridos, el Albertosaurus tenía costillas adicionales a lo largo del vientre. Este conjunto extra de costillas pudo haber servido para proteger los órganos internos del dinosaurio.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto de Alberta"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Terópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "8 m (26 pies)"
+    },
+    {
+      "label": "Peso",
+      "value": "2 toneladas"
+    }
+  ],
+  "topics": [
+    {
+      "id": "carnivore-cousins",
+      "title": "Primos carnívoros",
+      "image": "assets/albe/ALBE01PU.webp",
+      "text": "El Albertosaurus y el Tyrannosaurus rex tenían mucho en común. Ambos eran temibles carnívoros que caminaban sobre sus patas traseras y tenían brazos y manos diminutos.\n\n¿Más pequeño pero más rápido?\nEl Albertosaurus era más pequeño en comparación, con una longitud media de veintiséis pies. Aunque más pequeño que el Tyrannosaurus rex, este dinosaurio era más rápido y bien pudo haber aterrorizado a los herbívoros menos agresivos.\n\nEl más grande\n¡El Tyrannosaurus rex fue el dinosaurio carnívoro mejor conocido de mayor tamaño, alcanzando una longitud de más de cuarenta y cinco pies!"
+    },
+    {
+      "id": "a-park-resident",
+      "title": "Un habitante del parque",
+      "image": "assets/albe/ALBE02PU.webp",
+      "text": "Se han encontrado casi 350 esqueletos de dinosaurios en esta franja de badlands de Alberta, Canadá. En el Parque Provincial de los Dinosaurios se han hallado más especies de dinosaurios que en cualquier otro yacimiento del mundo.",
+      "captions": [
+        {
+          "label": "Preparando el hallazgo",
+          "text": "Esta imagen muestra a una persona trabajando con un Albertosaurus fosilizado encontrado en el Parque Provincial de los Dinosaurios. Aquí se están extrayendo los fósiles de la roca que los envuelve. Observa lo grande que era la cabeza del dinosaurio y lo bien conservados que están sus dientes. Gracias a que las cabezas de estos animales eran tan gruesas y grandes, varios cráneos han llegado hasta nosotros intactos."
+        }
+      ]
+    },
+    {
+      "id": "not-so-peaceful-neighborhood",
+      "title": "Un vecindario nada tranquilo",
+      "image": "assets/albe/ALBE03PU.webp",
+      "text": "El Albertosaurus no era el único dinosaurio descubierto en el Parque Provincial de los Dinosaurios. Los paleontólogos también han encontrado restos de Euoplocephalus, Centrosaurus y Lambeosaurus, por nombrar solo algunos. Esto significa que estos dinosaurios debieron de compartir el mismo territorio. Sin embargo, probablemente había poca tranquilidad para estos gigantes menos temibles. Todos eran herbívoros y sin duda constituían sabrosas presas para el feroz Albertosaurus.",
+      "captions": [
+        {
+          "label": "Euoplocephalus",
+          "text": "Este dinosaurio acorazado podría parecer temible, pero todas sus armas eran defensivas. El Euoplocephalus era un apacible herbívoro, no un dinosaurio depredador."
+        },
+        {
+          "label": "Lambeosaurus",
+          "text": "Era uno de los hadrosáuridos más grandes, la familia de los dinosaurios pico de pato. Como muchos hadrosáuridos, el Lambeosaurus tenía una cabeza peculiar. La gran cresta, con una larga espiga apuntando hacia atrás, encerraba tubos huecos que llegaban hasta sus fosas nasales. El Lambeosaurus podía usar su cresta para emitir fuertes sonidos con los que señalarse entre sí."
+        }
+      ]
+    },
+    {
+      "id": "dangerous-hands-and-feet",
+      "title": "Manos y pies peligrosos",
+      "image": "assets/albe/ALBE04PU.webp",
+      "text": "Como muchos otros carnívoros, el Albertosaurus no solo tenía terribles dientes, sino también amenazantes garras tanto en las manos como en los pies.",
+      "captions": [
+        {
+          "label": "Garras afiladas",
+          "text": "Sus pequeñas manos de dos dedos terminaban en largas garras muy aptas para atrapar y sujetar a sus presas."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaur Provincial Park",
+      "to": "park"
+    },
+    {
+      "label": "Tyrannosaurus rex",
+      "to": "tyra"
+    },
+    {
+      "label": "Digging up Dinosaurs",
+      "to": "digg"
+    },
+    {
+      "label": "Euoplocephalus",
+      "to": "euop"
+    },
+    {
+      "label": "Deinonychus",
+      "to": "dein"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/albe/ALBE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Primos carnívoros",
+            "to": "carnivore-cousins",
+            "x": 68,
+            "y": 17,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "Manos y pies peligrosos",
+            "to": "dangerous-hands-and-feet",
+            "x": 39,
+            "y": 43,
+            "w": 30,
+            "h": 6
+          },
+          {
+            "label": "Un habitante del parque",
+            "to": "a-park-resident",
+            "x": 35,
+            "y": 52,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Un vecindario nada tranquilo",
+            "to": "not-so-peaceful-neighborhood",
+            "x": 28,
+            "y": 64,
+            "w": 36,
+            "h": 5
+          }
+        ]
+      },
+      "carnivore-cousins": {
+        "image": "assets/albe/ALBE01PU.webp",
+        "back": "main"
+      },
+      "a-park-resident": {
+        "image": "assets/albe/ALBE02PU.webp",
+        "back": "main"
+      },
+      "not-so-peaceful-neighborhood": {
+        "image": "assets/albe/ALBE03PU.webp",
+        "back": "main"
+      },
+      "dangerous-hands-and-feet": {
+        "image": "assets/albe/ALBE04PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/albe/ALBE50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/albe/ALBE00AP.mp3",
+  "narration": "assets/albe/ALBE00AJ.mp3",
+  "fanTranslation": true
+}

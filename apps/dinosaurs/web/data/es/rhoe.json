@@ -1,0 +1,169 @@
+{
+  "id": "rhoe",
+  "code": "RHOE",
+  "name": "Rhoetosaurus",
+  "category": "dinosaur",
+  "scientificName": "Rhoetosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "ree-EE-toh-SOR-us",
+  "meaning": "lagarto de Rhoetos",
+  "period": "Jurásico",
+  "diet": "Herbívoro",
+  "tagline": "¡Uno de los primeros gigantes de la Tierra, este saurópodo australiano recorrió los continentes antes de que se separasen!",
+  "hero": {
+    "image": "assets/rhoe/RHOE00AA.webp",
+    "alt": "Rhoetosaurus"
+  },
+  "intro": "Para ser un saurópodo, el Rhoetosaurus era pequeño. Aun así, este dinosaurio australiano era tres veces más alto que una persona y medía unos diecisiete metros de longitud. Se han encontrado fósiles de saurópodos en Estados Unidos y en África, por lo que los expertos creen que estos dinosaurios existieron antes de que las masas de tierra se separasen para formar los continentes que conocemos hoy.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Australia"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto de Rhoetos"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Saurópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "18 m (56 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "one-of-the-first-sauropods",
+      "title": "Uno de los primeros saurópodos",
+      "image": "assets/rhoe/RHOE01PU.webp",
+      "text": "El Rhoetosaurus vivió hace unos 180 millones de años, lo que lo convierte en uno de los primeros dinosaurios saurópodos que pisaron la Tierra.",
+      "captions": [
+        {
+          "label": "Herrerasaurus",
+          "text": "Un carnívoro bípedo que ha sido clasificado como un dinosaurio primitivo."
+        },
+        {
+          "label": "Rhoetosaurus",
+          "text": "Pequeño para ser un saurópodo, fue uno de los primeros saurópodos del período Jurásico."
+        },
+        {
+          "label": "Tiranosaurio rex",
+          "text": "Este carnosauro puede que fuera el más feroz de los dinosaurios del Cretácico tardío."
+        },
+        {
+          "label": "¿Uno de los últimos?",
+          "text": "El Braquiosaurio, en cambio, vivió bien entrado el período Cretácico, extinguiéndose hace unos 128 millones de años."
+        }
+      ]
+    },
+    {
+      "id": "from-a-big-family",
+      "title": "De una gran familia",
+      "image": "assets/rhoe/RHOE02PU.webp",
+      "text": "La familia de los dinosaurios saurópodos era un grupo de animales muy grandes. Como puedes ver, el Rhoetosaurus era pequeño en comparación con sus parientes.",
+      "captions": [
+        {
+          "label": "Parecido familiar",
+          "text": "El Rhoetosaurus tenía mucho en común con sus primos saurópodos más famosos, como el Apatosaurio. Ambos tenían colas poderosas como látigos, cuerpos en forma de barril y cuellos largos rematados por cabezas diminutas."
+        }
+      ]
+    },
+    {
+      "id": "peaceful-plant-eater",
+      "title": "Un tranquilo herbívoro",
+      "image": "assets/rhoe/RHOE03PU.webp",
+      "text": "Aunque los saurópodos como el Rhoetosaurus eran criaturas enormes, eran herbívoros apacibles, es decir, comedores de plantas. Tenían dientes romos y redondeados, en lugar de los dientes afilados que se necesitan para comer carne.",
+      "captions": [
+        {
+          "label": "Comedores incansables",
+          "text": "Los saurópodos, como el Diplodocus, probablemente pasaban la mayor parte del día buscando alimento. Comían grandes cantidades de comida cada día solo para mantener sus enormes cuerpos."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "How to Recognize Sauropods",
+      "to": "hsau"
+    },
+    {
+      "label": "The Jurassic Period",
+      "to": "jurr"
+    },
+    {
+      "label": "The Biggest Dinosaurs",
+      "to": "tall"
+    },
+    {
+      "label": "Barosaurus",
+      "to": "baro"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/rhoe/RHOE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Un tranquilo herbívoro",
+            "to": "peaceful-plant-eater",
+            "x": 72,
+            "y": 20,
+            "w": 24,
+            "h": 8
+          },
+          {
+            "label": "De una gran familia",
+            "to": "from-a-big-family",
+            "x": 2,
+            "y": 47,
+            "w": 18,
+            "h": 9
+          },
+          {
+            "label": "Uno de los primeros saurópodos",
+            "to": "one-of-the-first-sauropods",
+            "x": 55,
+            "y": 73,
+            "w": 28,
+            "h": 8
+          }
+        ]
+      },
+      "one-of-the-first-sauropods": {
+        "image": "assets/rhoe/RHOE01PU.webp",
+        "back": "main"
+      },
+      "from-a-big-family": {
+        "image": "assets/rhoe/RHOE02PU.webp",
+        "back": "main"
+      },
+      "peaceful-plant-eater": {
+        "image": "assets/rhoe/RHOE03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/rhoe/RHOE50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/rhoe/RHOE00AP.mp3",
+  "narration": "assets/rhoe/RHOE00AJ.mp3",
+  "fanTranslation": true
+}

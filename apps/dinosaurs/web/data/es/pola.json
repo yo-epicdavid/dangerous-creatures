@@ -1,0 +1,161 @@
+{
+  "id": "pola",
+  "code": "POLA",
+  "name": "Polacanthus",
+  "category": "dinosaur",
+  "scientificName": "Polacanthus",
+  "needsScientificVerify": false,
+  "pronunciation": "po-la-KAN-thus",
+  "meaning": "Muchas espinas",
+  "period": "Cretácico inferior",
+  "diet": "Herbívoro",
+  "tagline": "Este acorazado lleno de pinchos es uno de los grandes misterios de la historia de los dinosaurios: ¡nadie sabe exactamente dónde van todas sus espinas!",
+  "hero": {
+    "image": "assets/pola/POLA00AA.webp",
+    "alt": "Polacanthus"
+  },
+  "intro": "El aspecto real del Polacanthus sigue siendo un misterio. Sabemos que este dinosaurio tenía la piel acorazada y muchas espinas protectoras afiladas, pero los expertos solo pueden intuir dónde se situaban exactamente en su cuerpo. Por este motivo, es posible que veas dibujos de Polacanthus que tienen un aspecto muy distinto al de este.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Europa"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Inferior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Muchas espinas"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Anquilosaurio"
+    },
+    {
+      "label": "Longitud",
+      "value": "4,1 m (14 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "bony-skin",
+      "title": "Piel ósea",
+      "image": "assets/pola/POLA01PU.webp",
+      "text": "Esta impresión de piel y este nódulo óseo pertenecieron al Polacanthus. Los nódulos óseos «flotaban» en la piel bajo las escamas del dinosaurio, igual que ocurre en los reptiles actuales. Esta piel acorazada, junto con sus afiladas espinas, habría disuadido a los carnívoros hambrientos de atacar al Polacanthus.",
+      "captions": [
+        {
+          "label": "¿Piel de cocodrilo?",
+          "text": "El Polacanthus tenía una piel similar a la de los cocodrilos actuales. Tanto el Polacanthus como el cocodrilo son reptiles adaptados a las condiciones en tierra firme."
+        },
+        {
+          "label": "Nódulo aislado",
+          "text": "Nódulos óseos como este se intercalaban entre las placas superpuestas de la piel del Polacanthus."
+        }
+      ]
+    },
+    {
+      "id": "packing-a-weapon",
+      "title": "Un arma formidable",
+      "image": "assets/pola/POLA02PU.webp",
+      "text": "A diferencia de algunos anquilosaurios como el Euoplocephalus, la cola del Polacanthus estaba llena de pinchos y era flexible como un látigo, pero no terminaba en una maza ósea. Sin embargo, los pinchos probablemente eran una defensa muy eficaz contra los ataques.",
+      "captions": [
+        {
+          "label": "Armado y peligroso",
+          "text": "La maza ósea de la cola del Euoplocephalus pudo haber sido un arma eficaz contra los depredadores que veían a este dinosaurio acorazado como un suculento manjar."
+        }
+      ]
+    },
+    {
+      "id": "fern-feeder",
+      "title": "Comedor de helechos",
+      "image": "assets/pola/POLA03PU.webp",
+      "text": "Aunque tenían un aspecto intimidante, los anquilosaurios no eran cazadores. Tenían dientes pequeños y redondeados que solo servían para comer plantas blandas.",
+      "captions": [
+        {
+          "label": "Paisaje prehistórico",
+          "text": "Los helechos como estos eran habituales en la época en que vivió el Polacanthus. Debían de constituir una parte importante de la dieta de este dinosaurio."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Kentrosaurus",
+      "to": "kent"
+    },
+    {
+      "label": "Saltasaurus",
+      "to": "salt"
+    },
+    {
+      "label": "Euoplocephalus",
+      "to": "euop"
+    },
+    {
+      "label": "Plant-eaters",
+      "to": "plan"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/pola/POLA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Comedor de helechos",
+            "to": "fern-feeder",
+            "x": 22,
+            "y": 75,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Un arma formidable",
+            "to": "packing-a-weapon",
+            "x": 63,
+            "y": 25,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Piel ósea",
+            "to": "bony-skin",
+            "x": 63,
+            "y": 35,
+            "w": 12,
+            "h": 5
+          }
+        ]
+      },
+      "bony-skin": {
+        "image": "assets/pola/POLA01PU.webp",
+        "back": "main"
+      },
+      "packing-a-weapon": {
+        "image": "assets/pola/POLA02PU.webp",
+        "back": "main"
+      },
+      "fern-feeder": {
+        "image": "assets/pola/POLA03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/pola/POLA50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/pola/POLA00AP.mp3",
+  "narration": "assets/pola/POLA00AJ.mp3",
+  "fanTranslation": true
+}

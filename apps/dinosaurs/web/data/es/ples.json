@@ -1,0 +1,115 @@
+{
+  "id": "ples",
+  "code": "PLES",
+  "name": "Plesiosaurio",
+  "category": "creature",
+  "scientificName": "Plesiosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "PLEE-zee-oh-SOR-us",
+  "meaning": "lagarto próximo",
+  "period": "Jurásico inferior",
+  "diet": "Carnívoro",
+  "tagline": "¡Un cazador marino de cuello de serpiente que atacaba desde la superficie del agua!",
+  "hero": {
+    "image": "assets/ples/PLES00AA.webp",
+    "alt": "Plesiosaurio"
+  },
+  "intro": "Con su largo cuello de serpiente, el Plesiosaurio probablemente nadaba con la cabeza por encima del agua. Al divisar un pez bajo la superficie, este reptil marino hundía de repente la cabeza en el agua y atrapaba a su asustada presa con sus afilados dientes.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Europa"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico Temprano"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto próximo"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Plesiosaurio"
+    },
+    {
+      "label": "Longitud",
+      "value": "2,3 m (7,5 ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "fossil-clues",
+      "title": "Pistas fósiles",
+      "image": "assets/ples/PLES01PU.webp",
+      "text": "Este afilado diente fósil perteneció a un plesiosaurio que vivió durante el período Jurásico. Unos dientes tan largos y afilados como estos podían romper fácilmente la concha de un molusco, proporcionando un sabroso festín al plesiosaurio.",
+      "captions": [
+        {
+          "label": "Los supervivientes más probables",
+          "text": "Los dientes y los huesos son las partes más duras de un animal, por eso son los restos que con más frecuencia se conservan como fósiles."
+        }
+      ]
+    },
+    {
+      "id": "fish-for-food",
+      "title": "Peces como alimento",
+      "image": "assets/ples/PLES02PU.webp",
+      "text": "Muchos tipos de peces óseos, como el fósil de Gryodus que aquí se muestra, servían de alimento a los plesiosaurios y otros reptiles marinos."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Reptiles of the Sea",
+      "to": "rsea"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/ples/PLES00AA.webp",
+        "hotspots": [
+          {
+            "label": "Peces como alimento",
+            "to": "fish-for-food",
+            "x": 61,
+            "y": 32,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Pistas fósiles",
+            "to": "fossil-clues",
+            "x": 24,
+            "y": 50,
+            "w": 14,
+            "h": 5
+          }
+        ]
+      },
+      "fossil-clues": {
+        "image": "assets/ples/PLES01PU.webp",
+        "back": "main"
+      },
+      "fish-for-food": {
+        "image": "assets/ples/PLES02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/ples/PLES50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/ples/PLES00AP.mp3",
+  "narration": "assets/ples/PLES00AJ.mp3",
+  "fanTranslation": true
+}

@@ -1,0 +1,125 @@
+{
+  "id": "velo",
+  "code": "VELO",
+  "name": "Velociraptor",
+  "category": "dinosaur",
+  "scientificName": "Velociraptor",
+  "needsScientificVerify": false,
+  "pronunciation": "veh-LOS-ih-RAP-tor",
+  "meaning": "Saqueador veloz",
+  "period": "Cretácico superior",
+  "diet": "Carnívoro",
+  "tagline": "Un veloz cazador de garras en hoz que pateaba como una pesadilla.",
+  "hero": {
+    "image": "assets/velo/VELO00AA.webp",
+    "alt": "Velociraptor"
+  },
+  "intro": "En Mongolia, los científicos hicieron un hallazgo extraordinario al descubrir dos esqueletos de dinosaurios fosilizados en pleno combate. Los fósiles mostraban claramente a Velociraptor sujetando la cabeza de un Protoceratops con sus manos. Velociraptor también tenía las patas traseras en posición de ataque, como si estuviera a punto de golpear a su desafortunada víctima.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Asia"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Saqueador veloz"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Terópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "1,8 m (6 pies)"
+    },
+    {
+      "label": "Nota",
+      "value": "Este dinosaurio estaba diseñado para la velocidad; algunos expertos creen que pudo haber sido de sangre caliente."
+    }
+  ],
+  "topics": [
+    {
+      "id": "wicked-claws",
+      "title": "Garras letales",
+      "image": "assets/velo/VELO01PU.webp",
+      "text": "Velociraptor tenía garras en forma de hoz en sus patas traseras, muy parecidas a las de su pariente Deinonychus. Las evidencias sugieren que estos dinosaurios golpeaban con sus patas traseras, desgarrando a sus víctimas con las afiladas garras.",
+      "captions": [
+        {
+          "label": "Garras",
+          "text": "Garras"
+        }
+      ]
+    },
+    {
+      "id": "raptor-relative",
+      "title": "Pariente raptor",
+      "image": "assets/velo/VELO02PU.webp",
+      "text": "Velociraptor significa «ladrón veloz». Otro dinosaurio muy parecido a Velociraptor en muchos aspectos, y también un ágil depredador, era Oviraptor, cuyo nombre significa «ladrón de huevos».",
+      "captions": [
+        {
+          "label": "Oviraptor",
+          "text": "Oviraptor"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Teeth of Meat-eaters",
+      "to": "mete"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/velo/VELO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Pariente raptor",
+            "to": "raptor-relative",
+            "x": 12,
+            "y": 72,
+            "w": 19,
+            "h": 4
+          },
+          {
+            "label": "Garras letales",
+            "to": "wicked-claws",
+            "x": 68,
+            "y": 63,
+            "w": 16,
+            "h": 4
+          }
+        ]
+      },
+      "wicked-claws": {
+        "image": "assets/velo/VELO01PU.webp",
+        "back": "main"
+      },
+      "raptor-relative": {
+        "image": "assets/velo/VELO02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/velo/VELO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/velo/VELO00AP.mp3",
+  "narration": "assets/velo/VELO00AJ.mp3",
+  "fanTranslation": true
+}

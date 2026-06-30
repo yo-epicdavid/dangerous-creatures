@@ -1,0 +1,252 @@
+{
+  "id": "brac",
+  "code": "BRAC",
+  "name": "Braquiosaurio",
+  "category": "dinosaur",
+  "scientificName": "Brachiosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "BRACK-ee-oh-SOR-us",
+  "meaning": "lagarto de brazos",
+  "period": "Jurásico superior",
+  "diet": "Herbívoro",
+  "tagline": "El gigante de cuatro plantas cuyo cuello alcanzaba las copas de los árboles que ningún otro dinosaurio podía tocar.",
+  "hero": {
+    "image": "assets/brac/BRAC00AA.webp",
+    "alt": "Braquiosaurio"
+  },
+  "intro": "El Braquiosaurio fue verdaderamente un gigante entre los saurópodos: alcanzaba la altura de un edificio de cuatro plantas y pesaba bastante más de cincuenta toneladas. Dado su tamaño, el Braquiosaurio debía de estar a salvo incluso del más hambriento de los carnívoros. Con sus largas patas delanteras y su largo cuello, el Braquiosaurio estaba hecho para ramonear las hojas más altas de los árboles, muy parecido a una jirafa. Una persona de estatura media situada junto a un Braquiosaurio apenas le llegaría a la rodilla.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "África, Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Lagarto de brazos"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Saurópodo"
+    },
+    {
+      "label": "Altura",
+      "value": "23 m (75 pies)"
+    },
+    {
+      "label": "Peso",
+      "value": "89 toneladas"
+    }
+  ],
+  "topics": [
+    {
+      "id": "the-sauropods",
+      "title": "Los saurópodos",
+      "image": "assets/brac/BRAC01PU.webp",
+      "text": "Las criaturas más grandes que jamás han caminado sobre la Tierra fueron los saurópodos, todos ellos herbívoros. Tenían cuerpos relativamente cortos, pesados y con forma de barril, cuellos largos, cabezas pequeñas, y se desplazaban a cuatro patas.",
+      "captions": [
+        {
+          "label": "Un grupo de gigantes",
+          "text": "Durante muchos años, el Braquiosaurio fue el dinosaurio más pesado conocido por los paleontólogos. Ahora, los excavadores han desenterrado los huesos de otros tres gigantes apodados Supersaurus, Ultrasaurus y Seismosaurus. Se necesitan esqueletos más completos para ensamblarlos y clasificarlos, pero el tamaño de los huesos hallados hasta ahora indica que estos dinosaurios podrían haber sido incluso más grandes que el Braquiosaurio. Aunque todos los saurópodos eran lentos y de cerebro pequeño, los depredadores no tendrían muchas ganas de atacar a criaturas tan enormes."
+        },
+        {
+          "label": "Máquinas comedoras de hojas",
+          "text": "Sus largos cuellos permitían a los saurópodos arrancar hojas de las ramas más altas, a las que otros dinosaurios no llegaban. Sus dientes no estaban hechos para masticar; la mayoría de los científicos creen que digerían los montones de comida que ingerían cada día tragando piedras para ayudar a triturar el alimento en su estómago."
+        }
+      ]
+    },
+    {
+      "id": "connected-continents",
+      "title": "Continentes conectados",
+      "image": "assets/brac/BRAC02PU.webp",
+      "text": "Entre los hallazgos de dinosaurios del Jurásico Superior en el oeste de Estados Unidos, los grandes saurópodos Barosaurus y Braquiosaurio son muy conocidos. Estos dinosaurios también se han encontrado al otro lado del mundo, en Tanzania, África. Dado que los dinosaurios no podían cruzar los océanos, debieron de seguir una ruta terrestre antes de que los continentes se separaran.",
+      "captions": [
+        {
+          "label": "Excavación en Tanzania",
+          "text": "Esta fotografía muestra a miembros del equipo sacando huesos de dinosaurio del lugar de excavación. Aunque huesos como estos pueden tardar horas o incluso días en extraerse de la roca circundante, eso es solo el principio. Reconstruir un dinosaurio puede llevar años."
+        }
+      ]
+    },
+    {
+      "id": "giant-dinosaur-excavation",
+      "title": "La gran excavación de dinosaurios",
+      "image": "assets/brac/BRAC03PU.webp",
+      "text": "Una de las mayores excavaciones de dinosaurios tuvo lugar en Tendaguru, Tanzania, entre 1909 y 1912, cuando se recogieron más de 224 toneladas de huesos de dinosaurio bajo la supervisión de científicos alemanes. Los dinosaurios descubiertos incluían los grandes saurópodos Braquiosaurio y Barosaurus, y el estegosaurio Kentrosaurus. Una sola omóplato de dinosaurio podía requerir hasta 160 horas de excavación. Los trabajadores tuvieron que realizar más de 5.000 viajes al puerto más cercano; desde allí, los huesos fueron enviados a Alemania."
+    },
+    {
+      "id": "giraffe-like-skeleton",
+      "title": "Un esqueleto parecido al de la jirafa",
+      "image": "assets/brac/BRAC04PU.webp",
+      "text": "Las patas delanteras del Braquiosaurio eran más largas que las traseras, y todo el cuerpo se inclinaba hacia abajo desde los hombros, muy parecido a la jirafa moderna. El largo cuello, que representaba más de la mitad de su altura, funcionaba de manera muy similar a una grúa mecánica."
+    },
+    {
+      "id": "a-sea-monster",
+      "title": "¿Un monstruo marino?",
+      "image": "assets/brac/BRAC05PU.webp",
+      "text": "En su día, los científicos pensaron que el Braquiosaurio era demasiado grande y pesado para haber vivido en tierra firme. Debido a que sus fosas nasales estaban en lo alto de su cabeza y tenía un cuello largo, creían que pasaba sus días bajo el agua, manteniendo la cabeza en la superficie. Sin embargo, con sus altas patas delanteras y su apetito por gran cantidad de hojas, el Braquiosaurio era un ramoneador amante de la tierra.",
+      "captions": [
+        {
+          "label": "Estirarse para respirar",
+          "text": "Aunque la hipótesis original de los científicos sobre un hábitat acuático era errónea en el caso del Braquiosaurio, sí existieron enormes criaturas marinas en la época de los dinosaurios. Por ejemplo, el reptil marino prehistórico Elasmosaurus vivía en el agua y estiraba su largo cuello para respirar en la superficie."
+        }
+      ]
+    },
+    {
+      "id": "heaviest-dinosaur",
+      "title": "El dinosaurio más pesado",
+      "image": "assets/brac/BRAC06PU.webp",
+      "text": "El Braquiosaurio fue el dinosaurio más pesado registrado hasta ahora por los científicos. ¡Esta criatura pesaba más que catorce elefantes! Imagina lo profundas que habrían sido sus huellas. El Apatosaurio era un saurópodo más pequeño que el Braquiosaurio, pero los científicos han descubierto que sus huellas eran lo suficientemente profundas como para contener tanta agua como una bañera."
+    },
+    {
+      "id": "biggest-ever",
+      "title": "¿El más grande de todos?",
+      "image": "assets/brac/BRAC07PU.webp",
+      "text": "Aunque el Braquiosaurio fue el animal terrestre más grande que jamás ha existido, el animal más grande que jamás ha vivido en la Tierra sigue entre nosotros hoy en día. La ballena azul mide hasta 30 metros de longitud y pesa más que veinte elefantes, es decir, unas 225 toneladas."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Record Breakers",
+      "to": "recb"
+    },
+    {
+      "label": "Mamenchisaurus",
+      "to": "mame"
+    },
+    {
+      "label": "The Shifting Earth",
+      "to": "shft"
+    },
+    {
+      "label": "Tendaguru Expedition"
+    },
+    {
+      "label": "Rhoetosaurus",
+      "to": "rhoe"
+    },
+    {
+      "label": "Elasmosaurus",
+      "to": "elas"
+    },
+    {
+      "label": "Apatosaurus",
+      "to": "apat"
+    },
+    {
+      "label": "Life After Dinosaurs",
+      "to": "aftr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/brac/BRAC00AA.webp",
+        "hotspots": [
+          {
+            "label": "Un esqueleto parecido al de la jirafa",
+            "to": "giraffe-like-skeleton",
+            "x": 61,
+            "y": 18,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Los saurópodos",
+            "to": "the-sauropods",
+            "x": 62,
+            "y": 29,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "¿El más grande de todos?",
+            "to": "biggest-ever",
+            "x": 59,
+            "y": 41,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "La gran excavación de dinosaurios",
+            "to": "giant-dinosaur-excavation",
+            "x": 56,
+            "y": 52,
+            "w": 36,
+            "h": 5
+          },
+          {
+            "label": "Continentes conectados",
+            "to": "connected-continents",
+            "x": 59,
+            "y": 63,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "El dinosaurio más pesado",
+            "to": "heaviest-dinosaur",
+            "x": 1,
+            "y": 81,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "¿Un monstruo marino?",
+            "to": "a-sea-monster",
+            "x": 26,
+            "y": 81,
+            "w": 21,
+            "h": 6
+          }
+        ]
+      },
+      "the-sauropods": {
+        "image": "assets/brac/BRAC01PU.webp",
+        "back": "main"
+      },
+      "connected-continents": {
+        "image": "assets/brac/BRAC02PU.webp",
+        "back": "main"
+      },
+      "giant-dinosaur-excavation": {
+        "image": "assets/brac/BRAC03PU.webp",
+        "back": "main"
+      },
+      "giraffe-like-skeleton": {
+        "image": "assets/brac/BRAC04PU.webp",
+        "back": "main"
+      },
+      "a-sea-monster": {
+        "image": "assets/brac/BRAC05PU.webp",
+        "back": "main"
+      },
+      "heaviest-dinosaur": {
+        "image": "assets/brac/BRAC06PU.webp",
+        "back": "main"
+      },
+      "biggest-ever": {
+        "image": "assets/brac/BRAC07PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/brac/BRAC50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/brac/BRAC00AP.mp3",
+  "narration": "assets/brac/BRAC00AJ.mp3",
+  "fanTranslation": true
+}
