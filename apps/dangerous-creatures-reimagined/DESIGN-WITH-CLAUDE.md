@@ -2,9 +2,10 @@
 
 A practical guide + paste-ready prompts for using **Claude Design** (Anthropic Labs) to shape the
 visual and interaction language of the Reimagined *Exploration* Edition — the explorable,
-discovery-driven rebuild of **Dangerous Creatures**, **Oceans**, and **Dinosaurs**. Pairs with
-[`REIMAGINED.md`](./REIMAGINED.md); this is the **design half of Phase 2 (§5)** — the style bible +
-interaction design you do *before* generating final assets.
+discovery-driven rebuild of **Dangerous Creatures**, **Oceans**, and **Dinosaurs**, shipping as a web
+app *and* an installable native app. Pairs with [`REIMAGINED.md`](./REIMAGINED.md); this is the
+**design half of Phase 2 (§5)** — the style bible + interaction design you do *before* generating
+final assets.
 
 ---
 
@@ -27,7 +28,7 @@ the **Claude Desktop** sidebar. **Plans:** Pro / Max / Team / Enterprise (resear
 | Surface | Role |
 |---|---|
 | **Claude Design** (web or Desktop) | Diverge on directions, design the key screens on the canvas, build a clickable prototype of the discovery loop. |
-| **Claude Code** (this repo) + `/design-sync` | Receive the handoff bundle, build it into the real Astro app, keep the component library synced. |
+| **Claude Code** (this repo) + `/design-sync` | Receive the handoff bundle, build it into the real app, keep the component library synced. |
 
 > The loop: **design in Claude Design → "Handoff to Claude Code" → I build it → `/design-sync` keeps
 > both sides in step.**
@@ -61,7 +62,8 @@ the **Claude Desktop** sidebar. **Plans:** Pro / Max / Team / Enterprise (resear
 6. **Feed it real content.** Use an actual creature + real facts from `web/data` so the design
    survives true text lengths, not lorem.
 7. **Hand off to Claude Code.** When you love it, use **Handoff to Claude Code**, bring the bundle
-   here, and I'll build it into the reimagined Astro app, themed per world, iterating on device.
+   here, and I'll build it into the reimagined app, theme it per world, and **wrap it natively** for
+   the app stores (next section).
 
 **Best practices (per the docs):** import the *complete* system; start simple, then layer
 complexity; request **2–3 variations** to compare; ask Claude Design to **review accessibility**.
@@ -81,7 +83,7 @@ the tension on purpose:
 - **Gentle, visible progress.** The Field Journal fills like an adventure log, not a chore tracker;
   no shame for blanks.
 - **Low text, high image, bite-size knowledge.** A snippet you *earn* beats a paragraph you're handed.
-- **Multisensory reveals.** Motion + sound + (on mobile) haptics make discovery feel physical.
+- **Multisensory reveals.** Motion + sound + (on mobile/native) haptics make discovery feel physical.
 - **Calm by default.** No stress timers; challenge is opt-in.
 - **Accessibility is a toggle, not a tax.** Reveal-all-spots, keyboard nav, reduced-motion — designed
   to *coexist* with the mystery, per §5.
@@ -102,15 +104,53 @@ Same components, same discovery loop, same journal — different palette, creatu
 
 ---
 
+## Platforms & form factors
+
+This isn't only a website — it ships as an **installable native app** too, so it lands in the stores
+where kids and parents actually look. The goal is *maximum reach for kids on the devices they have*:
+
+| Store | Devices | How |
+|---|---|---|
+| **Apple App Store** | iPhone, iPad | one web build wrapped with **Capacitor** |
+| **Google Play** | Android phones & tablets | the same build, Android shell |
+| **Amazon Appstore** | **Fire tablets** (Fire OS = Android) | the Android build, no Google-Play-Services deps |
+| **The web** | any browser | the same Astro app, also installable as a PWA |
+
+**One offline-capable web codebase → web + iOS + Android + Fire.** That's *why* the plan stays Astro +
+client island (§5): **Capacitor** reuses ~all of it and adds the native bits (haptics, local storage,
+audio, share) behind a thin layer that falls back to web APIs in the browser — instead of rebuilding
+the whole thing in React Native/Flutter. Fire tablets run Fire OS (an Android fork), so the Android
+build goes to the **Amazon Appstore**; just avoid hard Google-Play-Services dependencies.
+
+**What this means for the *design*:**
+- **Many shapes.** Design responsive or **pannable** scenes — a fixed composition crops badly between
+  a tall phone (~19.5:9) and a 4:3 iPad. Tablets are the sweet spot (often landscape); phones lean
+  portrait (the vertical "expedition" flow).
+- **Safe areas.** Keep tappable things and the journal clear of notches, rounded corners, and the
+  home indicator.
+- **Low-end hardware is the floor, not the ceiling.** Fire tablets are cheap and slow — budget the
+  motion/media to stay smooth *there* and degrade gracefully. (This is exactly why the prototype must
+  be tested on a real low-end tablet, not just an iPad.)
+- **Fully offline.** Assets bundle with the app (or download on first run); no network needed to play.
+- **Kids-store compliant by design.** No third-party ads, tracking, analytics, data collection, or
+  sign-in walls; external links / purchases (if any) sit behind a parent gate. (Apple Kids Category,
+  Google Play Families, Amazon kids policies.) The project's no-ads / non-commercial posture already
+  fits — keep it that way in the UI.
+- **Store assets are design work too** — app icon, splash screen, store screenshots. Claude Design
+  makes those (Prompt 5).
+
+---
+
 ## The prompts — paste into Claude Design, in order
 
-Run Prompt 0 once when you start the project, then 1 → 2 → 3 → 4.
+Run Prompt 0 once when you start the project, then 1 → 2 → 3 → 4 → 5.
 
 ### Prompt 0 · The brief (paste once, first)
 
 ```text
-I'm designing a web game for kids (~7–11) called the Exploration Edition — a modern reimagining of
-the 1990s Microsoft Home CD-ROMs Dangerous Creatures, Oceans, and Dinosaurs.
+I'm designing a game for kids (~7–11) called the Exploration Edition — a modern reimagining of the
+1990s Microsoft Home CD-ROMs Dangerous Creatures, Oceans, and Dinosaurs. It ships BOTH as a web app
+and as an installable NATIVE app (see PLATFORMS).
 
 THE FEELING: exploration, discovery, mystery, wonder. Kids should WANT to click everything to see
 what's hidden. The original's magic was that you never knew what a click would do — a video, a fact,
@@ -125,11 +165,21 @@ Mini-games appear AS discoveries, not as a separate menu.
 PROGRESSION: the Field Journal fills as you discover (creatures found, habitats explored, badges) —
 gentle goals, never a chore. You unlock snippets of knowledge and new creatures by exploring.
 
-CONSTRAINTS: mobile / tablet / desktop, touch-first; static site (Astro), works offline; accessible
-(big touch targets, WCAG contrast, keyboard nav, prefers-reduced-motion, plus a "reveal all
-interactive spots" toggle); no stress timers, no dark patterns; all-new / openly-licensed art (so
-DESCRIBE art, don't copy the originals). This is a NEW visual language — bolder and more playful
-than our existing archival site — so don't inherit a restrained museum look.
+PLATFORMS: ships as a web app AND an installable native app — Apple App Store (iPhone, iPad), Google
+Play (Android phones & tablets), and the Amazon Appstore (Fire tablets) — from ONE offline-capable
+web build wrapped natively (Capacitor). So design for phones AND tablets across many aspect ratios
+(tall phones ~19.5:9, iPad ~4:3, Fire/Android tablets ~16:10): habitat scenes must be responsive or
+PANNABLE, never a fixed composition that crops. Respect device safe areas (notches, home
+indicators). It must run SMOOTHLY ON LOW-END HARDWARE (cheap Fire tablets) — keep motion and media
+light, degrade gracefully. Native feel: haptics on reveal, no browser chrome, fully offline.
+
+CONSTRAINTS: touch-first; accessible (big touch targets, WCAG contrast, keyboard nav,
+prefers-reduced-motion, plus a "reveal all interactive spots" toggle); KIDS-APP COMPLIANT — no
+third-party ads, tracking, analytics, data collection, sign-in walls, or unguarded external links /
+purchases (Apple Kids Category, Google Play Families, Amazon kids policies); no stress timers, no
+dark patterns; all-new / openly-licensed art (DESCRIBE art, don't copy the originals). This is a NEW
+visual language — bolder and more playful than our existing archival site — so don't inherit a
+restrained museum look.
 
 Don't design yet — confirm you've got it and ask me anything that would sharpen the design.
 ```
@@ -145,14 +195,15 @@ Make them genuinely different in mood and visual language — for example: (1) E
 (tactile paper, sketches, stamps), (2) Naturalist's Atlas (painterly maps & plates), (3) Cabinet of
 Curiosities (museum-after-dark, drawers & specimens), (4) Living Diorama (a lush illustrated habitat
 you peer into). For each: a one-line concept name, a 2-sentence rationale, and a note on how MYSTERY
-shows up in it. Kid audience; accessible; touch-first.
+shows up in it. Kid audience; accessible; touch-first; must scale from a phone to a tablet.
 ```
 
 ### Prompt 2 · Converge (key screens in the winning direction)
 
 ```text
 I'm choosing direction #N: [name]. Keep that EXACT visual language and design system. Design these
-screens on the canvas, one at a time (I'll refine each with comments before we move on):
+screens on the canvas, one at a time (I'll refine each with comments before we move on), and show
+each at BOTH a phone (portrait) and a tablet (landscape) size:
   1. the world map / hub (choose a world to enter; shows journal progress)
   2. a habitat scene with 3–4 creatures HIDDEN in it (show the hidden state + a hover/idle hint)
   3. the reveal moment (a creature resolving out of hiding — describe the motion)
@@ -168,8 +219,9 @@ Build an interactive prototype of the core loop in this visual language: a singl
 3 hidden creatures. I can hunt for them (hover/tap to find a hidden hotspot), tap to REVEAL (animate
 it in + show a one-line fact), and watch them get RECORDED into a Field Journal counter ("2 of 3
 discovered"). Include the "reveal all interactive spots" accessibility toggle and a
-prefers-reduced-motion path. Use placeholder shapes for the art. The point is to FEEL the
-spot → reveal → record joy — make the reveal satisfying.
+prefers-reduced-motion path. It must feel right with TOUCH on a tablet and a phone. Use placeholder
+shapes for the art and keep the animation lightweight (it has to be smooth on a cheap Fire tablet).
+The point is to FEEL the spot → reveal → record joy — make the reveal satisfying.
 ```
 
 ### Prompt 4 · Ready it for build + hand off
@@ -179,10 +231,24 @@ This is the direction. Get it build-ready:
   (a) express everything with reusable design-system components and tokens — color (including the 3
       per-world palettes: Dangerous Creatures, Oceans, Dinosaurs), type scale, spacing, radii,
       shadow, motion durations/easings;
-  (b) review the whole thing for accessibility and touch ergonomics and fix issues;
-  (c) then HAND OFF TO CLAUDE CODE so I can build it into the Astro app.
+  (b) review the whole thing for accessibility, touch ergonomics, safe-area handling, and how it
+      reflows between a phone and a tablet — and fix issues;
+  (c) then HAND OFF TO CLAUDE CODE so I can build it into the app and wrap it natively.
 In the handoff notes, summarize the token set and a component inventory (hotspot, reveal card,
 journal stamp, progress meter, map node, nav chrome) with their states: hidden → hinted → revealed.
+```
+
+### Prompt 5 · App identity & store assets
+
+```text
+We're also shipping this as a native app on the App Store, Google Play, and the Amazon Appstore.
+Design the app/store identity in this same visual language:
+  - an APP ICON that reads at small sizes and works as an adaptive icon (one iconic motif — e.g. the
+    explorer's journal, or a hidden-creature silhouette);
+  - a SPLASH / launch screen (calm, on-brand, works on phone + tablet, respects safe areas);
+  - 3–5 STORE SCREENSHOTS that sell the discovery feeling (a hero line + one key screen each), sized
+    for iPhone, iPad, and an Android / Fire tablet.
+Keep it kid-friendly and parent-trustworthy (no ads / in-app-purchase vibes).
 ```
 
 ---
@@ -190,10 +256,13 @@ journal stamp, progress meter, map node, nav chrome) with their states: hidden �
 ## Then bring it back here
 
 Use **Handoff to Claude Code** in Claude Design, then on the `reimagined` branch I'll: take the
-bundle, stand the design up in the real reimagined Astro app, build the scene/hotspot **engine**
-(§5) against real `web/data`, theme it per world, and run **`/design-sync`** to keep the component
-library and your Claude Design project in step. Then we playtest a one-habitat **vertical slice**
-(§8) before scaling.
+bundle, stand the design up in the real reimagined Astro app, build the scene/hotspot **engine** (§5)
+against real `web/data`, theme it per world, and **wrap it with Capacitor** so the *same* build ships
+to the App Store, Google Play, and the Amazon Appstore (Fire) — plus the web/PWA. I'll run
+**`/design-sync`** to keep the component library and your Claude Design project in step. Then we
+playtest a one-habitat **vertical slice** (§8) on real devices — *including a cheap Fire tablet* —
+before scaling.
 
 > `REIMAGINED.md` says it best: *map the original, then build one habitat until it feels like magic.*
-> Claude Design is where you find that magic; the handoff is how it becomes real.
+> Claude Design is where you find that magic; the handoff — and the native wrap — is how it reaches
+> every kid, on whatever device they've got.
