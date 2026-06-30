@@ -43,6 +43,10 @@ body {
   margin: 0;
   font-family: var(--font);
   color: var(--ink);
+  /* Fill the whole viewport (incl. the iOS safe-area) so the page background never
+     leaves a flat rectangle below short pages where the body box would otherwise end. */
+  min-height: 100vh;
+  min-height: 100dvh;
   background: var(--body-bg);
   background-attachment: var(--body-attach);
   line-height: 1.6;
