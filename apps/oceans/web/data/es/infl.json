@@ -1,0 +1,171 @@
+{
+  "id": "infl",
+  "code": "INFL",
+  "name": "Peces inflables",
+  "category": "creature",
+  "scientificName": "Diodon hystrix",
+  "needsScientificVerify": false,
+  "tagline": "¡Traga agua, hínchate y ponles las espinas de punta a tus enemigos!",
+  "zones": [
+    "Arrecife de coral",
+    "Mar abierto"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/infl/INFL00AA.webp",
+    "alt": "Peces inflables"
+  },
+  "intro": "¡Imagínate tragando agua e inflándote como una pelota de playa para defenderte de tus enemigos! Algunos tamboriles pueden inflarse, tragando agua y llenando una bolsa expansible que llevan en el vientre, hasta alcanzar cuatro veces su talla normal. Algunos, como este pez erizo, están cubiertos de espinas que les hacen todavía menos apetitosos para los predadores. Existen unas 90 especies de globos tamboriles en las aguas de todo el mundo.",
+  "facts": [
+    {
+      "label": "Inflación",
+      "value": "Pueden alcanzar hasta cuatro veces su talla normal al inflarse tragando agua"
+    },
+    {
+      "label": "Especies",
+      "value": "Existen unas 90 especies de globos tamboriles en las aguas de todo el mundo"
+    },
+    {
+      "label": "Veneno",
+      "value": "El veneno del tamboril es 500 veces más tóxico que el cianuro"
+    },
+    {
+      "label": "Espinas",
+      "value": "Las púas del erizo de mar son tan afiladas que pisar uno puede ser como caminar sobre un carbón ardiendo"
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "En Japón el fugu, plato a base de tamboril, solo puede prepararlo un chef con título especial; aun así, muchas personas se envenenan cada año"
+    }
+  ],
+  "topics": [
+    {
+      "id": "puffy-and-poisonous",
+      "title": "Hinchable y venenoso",
+      "image": "assets/es/infl/INFL01PU.webp",
+      "text": "Algunos tamboriles son extremadamente peligrosos como alimento, aunque su carne se considera como una exquisitez en algunos países. El veneno de este pez es 500 veces más tóxico que el cianuro y cualquier parte del pez que tenga contacto con los órganos que producen el veneno también se vuelve tóxica. En Japón, el fugu, un plato especial a base de tamboril, es preparado por chefs que han sacado un título en una escuela especial. Sin embargo, muchas personas se envenenan cada año. Las víctimas de envenenamiento por tamboril a veces permanecen conscientes, aunque su parálisis hace que parezcan muertos. ¡Se cuenta la historia de un hombre al que se introdujo en su ataúd antes de que recuperara de repente la consciencia y saliera de él dando alaridos!",
+      "narration": "assets/es/infl/INFL01JN.mp3"
+    },
+    {
+      "id": "bigger-bullies",
+      "title": "Grandes matones",
+      "image": "assets/es/infl/INFL02PU.webp",
+      "text": "Para algunos animales, intentar parecer más grandes es un mecanismo de defensa. Un gato callejero ordinario y un lagarto adornado pueden engañar a un atacante, ¡haciéndoles pensar que son más grandes de lo que realmente son!",
+      "captions": [
+        {
+          "label": "¡Terrible erizamiento!",
+          "text": "Cuando está asustado, este gato puede \"cambiar de tamaño\" arqueando su lomo y erizando la piel."
+        },
+        {
+          "label": "¡Cuidado con los adornos!",
+          "text": "En condiciones normales, este lagarto no parece intimidante. Pero cuando es amenazado, emite silbidos, da coletazos y alza su collar correoso para asustar a los predadores."
+        }
+      ],
+      "narration": "assets/es/infl/INFL02JN.mp3"
+    },
+    {
+      "id": "spiny-defenses",
+      "title": "Defensas de espinas",
+      "image": "assets/es/infl/INFL03PU.webp",
+      "text": "Utilizar espinas como defensa no es una idea nueva. Muchas criaturas han dependido de ellas desde la era de los Dinosaurios.",
+      "captions": [
+        {
+          "label": "La defensa del dinosaurio",
+          "text": "Las placas y las espinas del styracosaurus le protegían mientras pacía entre los helechos y matorrales bajos."
+        },
+        {
+          "label": "Supererizado de espinas",
+          "text": "Las púas de un erizo de mar no son de broma. Son suficientemente afiladas para atravesar la carne y pisar sobre uno de ellos puede ser como caminar sobre un carbón ardiendo, porque las espinas de algunos erizos están provistas de un poderoso veneno."
+        }
+      ],
+      "narration": "assets/es/infl/INFL03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Sea Urchins & Sea Cucumbers"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/infl/INFL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 7,
+            "h": 6
+          },
+          {
+            "label": "Defensas de espinas",
+            "to": "spiny-defenses",
+            "x": 51,
+            "y": 30,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Grandes matones",
+            "to": "bigger-bullies",
+            "x": 50,
+            "y": 43,
+            "w": 19,
+            "h": 7
+          },
+          {
+            "label": "Hinchable y venenoso",
+            "to": "puffy-and-poisonous",
+            "x": 3,
+            "y": 77,
+            "w": 25,
+            "h": 6
+          },
+          {
+            "label": "Peces erizo bajo el agua",
+            "to": "video",
+            "x": 3,
+            "y": 86,
+            "w": 28,
+            "h": 6
+          }
+        ]
+      },
+      "puffy-and-poisonous": {
+        "image": "assets/es/infl/INFL01PU.webp",
+        "back": "main"
+      },
+      "bigger-bullies": {
+        "image": "assets/es/infl/INFL02PU.webp",
+        "back": "main"
+      },
+      "spiny-defenses": {
+        "image": "assets/es/infl/INFL03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/infl/clip.mp4",
+        "poster": "assets/es/infl/INFL04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/infl/INFL00JN.mp3",
+  "sound": "assets/es/infl/INFL00IX.mp3",
+  "video": {
+    "title": "Peces erizo bajo el agua",
+    "src": "assets/es/infl/clip.mp4",
+    "poster": "assets/es/infl/poster.webp",
+    "caption": "Cuando un tamboril se infla, sus puntiagudas defensas sobresalen como las del pez erizo. Los atacantes no pueden tragárselo ya que está cubierto de espinas. Como es muy difícil para una pelota llena de púas huir, estos peces permanecen inflados mientras dura el peligro.",
+    "narration": "assets/es/infl/INFL04JN.mp3"
+  }
+}

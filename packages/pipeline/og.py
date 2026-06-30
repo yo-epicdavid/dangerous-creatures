@@ -100,7 +100,11 @@ def render_card(web, hero_rel, name, subtitle, wordmark, palette, out):
 
     # left text block, vertically centered
     lx, lmax = 66, sx - 44 - 66
-    kf = _font(F_SANS, 25, SANS_BOLD)
+    # fit the tracked wordmark within the left panel (long localized wordmarks need shrinking)
+    ksize = 25
+    while ksize > 15 and (sum(draw.textlength(ch, font=_font(F_SANS, ksize, SANS_BOLD)) for ch in wordmark) + 5 * (len(wordmark) - 1)) > lmax:
+        ksize -= 1
+    kf = _font(F_SANS, ksize, SANS_BOLD)
     nfont, lines = _fit_name(draw, name, lmax)
     sub = (subtitle or "").strip()
     subsize = 29

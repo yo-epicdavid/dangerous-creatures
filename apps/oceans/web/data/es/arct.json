@@ -1,0 +1,243 @@
+{
+  "id": "arct",
+  "code": "ARCT",
+  "name": "El océano Ártico",
+  "category": "place",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡El océano más pequeño del mundo oculta un mundo helado lleno de sorpresas bajo sus témpanos de hielo!",
+  "zones": [
+    "Mares polares"
+  ],
+  "oceans": [
+    "Océano Ártico"
+  ],
+  "hero": {
+    "image": "assets/es/arct/ARCT00AA.webp",
+    "alt": "El océano Ártico"
+  },
+  "intro": "El océano Ártico es el más pequeño del mundo y está rodeado casi por completo por los continentes de Norteamérica, Europa y Asia. La mayor parte de sus aguas están cubiertas por témpanos de hielo, una corteza helada que mantiene a algunas comunidades de animales e influye en el clima global. El verano ártico atrae animales migradores, como las ballenas, que se alimentan del abundante plancton estacional.",
+  "facts": [
+    {
+      "label": "Tamaño",
+      "value": "El más pequeño de los océanos del mundo, con un tamaño similar al del continente antártico"
+    },
+    {
+      "label": "Profundidad",
+      "value": "El punto más profundo está a unos 5.182 metros"
+    },
+    {
+      "label": "Cobertura de hielo",
+      "value": "Dos tercios del océano están permanentemente cubiertos de hielo"
+    },
+    {
+      "label": "Icebergs",
+      "value": "Sólo la octava parte de un iceberg es visible sobre el agua; el resto está sumergido"
+    },
+    {
+      "label": "El Paso del Noroeste",
+      "value": "Los europeos buscaron esta ruta en vano durante 400 años; fue atravesada por primera vez en 1906 por Roald Amundsen"
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Las aguas del norte de Norteamérica están libres de hielo sólo unos tres meses al año"
+    }
+  ],
+  "topics": [
+    {
+      "id": "a-sea-encircled-by-land",
+      "title": "Un mar rodeado de tierra",
+      "image": "assets/es/arct/ARCT01PU.webp",
+      "text": "Muy por debajo del hielo ártico se encuentra un mundo oculto de vastas llanuras y accidentadas dorsales oceánicas submarinas. Presenta plataformas continentales muy amplias que se extienden abarcando casi un tercio de su área total. Estas regiones poco profundas contienen grandes bancos de peces y depósitos subterráneos de gas y de petróleo. El océano Ártico tiene aproximadamente el tamaño del continente antártico, su homólogo polar en la punta opuesta del globo. Por extraña coincidencia, el punto más profundo del océano Ártico, a unos 5.182 metros, casi iguala la altura de la montaña más alta de la Antártida.",
+      "narration": "assets/es/arct/ARCT01JN.mp3"
+    },
+    {
+      "id": "the-bottom-at-the-top-of-the-world",
+      "title": "El fondo en la superficie",
+      "image": "assets/es/arct/ARCT02PU.webp",
+      "text": "Una gran variedad de bacterias y de invertebrados tiene su hogar en el Ártico, algunas de cuyas especies, como las arañas de mar y las esponjas, alcanzan un tamaño enorme. Las pocas especies de peces que viven aquí ponen sus huevos en el suelo del océano para evitar el hielo. Las larvas del pez hacha son largas y bien desarrolladas, lo que le ayuda a sobrevivir en un clima severo. Existen muchos animales en el océano Ártico, pero no muchas variedades, probablemente porque hay pocos nichos ecológicos en este duro medio ambiente. Esto significa que la destrucción de una especie afecta mucho a las demás.",
+      "captions": [
+        {
+          "label": "Medusa ártica",
+          "text": "Medusa ártica"
+        },
+        {
+          "label": "Ofiura",
+          "text": "Ofiura"
+        }
+      ],
+      "narration": "assets/es/arct/ARCT02JN.mp3"
+    },
+    {
+      "id": "trapped-in-the-ice",
+      "title": "Atrapados en el hielo",
+      "image": "assets/es/arct/ARCT03PU.webp",
+      "text": "Dos tercios del océano Ártico están permanentemente cubiertos de hielo. Fortalezas flotantes: Sólo la octava parte de un iceberg es visible sobre el agua. Los icebergs se desprenden, o desglajan, de glaciares que se han formado en tierra, y por ello están hechos de agua dulce. La mayoría de los icebergs árticos se han desprendido de glaciares de Groenlandia. Tienen formas irregulares y contienen a menudo tierra y piedras. Los icebergs derivan con las corrientes de la superficie, a diferencia de los témpanos, que son empujados por el viento. ¡Atrapados! Los témpanos de hielo pueden formarse rápidamente y atrapar animales o barcos. Empiezan como cristales de hielo casi líquido que se congelan en finas capas. Los vientos y las corrientes rompen el hielo en miles de placas, a las que se llama tortas de hielo porque sus formas son redondeadas por un continuo golpeteo. Estas tortas de hielo se congelan juntas, formando los témpanos.",
+      "captions": [
+        {
+          "label": "Ballenas grises atrapadas por el hielo",
+          "text": "Eschrichtius robustus"
+        }
+      ],
+      "narration": "assets/es/arct/ARCT03JN.mp3"
+    },
+    {
+      "id": "human-impact",
+      "title": "El impacto humano",
+      "image": "assets/es/arct/ARCT04PU.webp",
+      "text": "Los marinos y balleneros comerciales han exterminado a muchos animales del Ártico en los últimos siglos en contraste con el número limitado que han cazado los pueblos nativos. Hoy en día, muchas ballenas y especies de foca están protegidas. Sin embargo, otras influencias humanas amenazan el área. La contaminación del aire se dirige hacia el norte para acabar en el Polo, donde se han encontrado sustancias químicas tóxicas, como DDT y PCB, en peces y en mamíferos marinos.",
+      "captions": [
+        {
+          "label": "Balleneros holandeses del siglo XVII",
+          "text": "Balleneros holandeses del siglo XVII"
+        },
+        {
+          "label": "Una vida tradicional",
+          "text": "Los pueblos nativos están todavía autorizados a cazar mamíferos marinos."
+        }
+      ],
+      "narration": "assets/es/arct/ARCT04JN.mp3"
+    },
+    {
+      "id": "the-northwest-passage",
+      "title": "El Paso del Noroeste",
+      "image": "assets/es/arct/ARCT06PU.webp",
+      "text": "Durante siglos, los exploradores buscaron una ruta septentrional cerca de América del Norte. Los europeos buscaron en vano durante 400 años, deseosos de encontrar una ruta comercial más corta entre Europa y Asia. Error de cálculo: Las aguas que bordean la costa septentrional de Norteamérica están libres de hielo sólo unos tres meses al año y los barcos quedan a menudo atrapados por témpanos de hielo. Este hielo, que es el resultado de una compleja combinación de temperatura, viento y corrientes, puede formarse rápidamente. Descubierto al fin: El Paso del Noroeste fue atravesado finalmente en 1906. El explorador noruego Roald Amundsen necesitó tres años para completar este difícil viaje.",
+      "narration": "assets/es/arct/ARCT06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Las focas y el león marino",
+      "to": "seal"
+    },
+    {
+      "label": "El calamar y la sepia",
+      "to": "squi"
+    },
+    {
+      "label": "Las esponjas marinas",
+      "to": "spon"
+    },
+    {
+      "label": "El ciclo del agua",
+      "to": "wcyc"
+    },
+    {
+      "label": "El océano Atlántico",
+      "to": "atla"
+    },
+    {
+      "label": "Los piratas",
+      "to": "pira"
+    },
+    {
+      "label": "Las estrellas de mar",
+      "to": "star"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/arct/ARCT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "Un mar rodeado de tierra",
+            "to": "a-sea-encircled-by-land",
+            "x": 57,
+            "y": 36,
+            "w": 32,
+            "h": 6
+          },
+          {
+            "label": "El impacto humano",
+            "to": "human-impact",
+            "x": 54,
+            "y": 49,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "El fondo en la superficie",
+            "to": "the-bottom-at-the-top-of-the-world",
+            "x": 2,
+            "y": 57,
+            "w": 38,
+            "h": 6
+          },
+          {
+            "label": "Atrapados en el hielo",
+            "to": "trapped-in-the-ice",
+            "x": 54,
+            "y": 63,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "El Paso del Noroeste",
+            "to": "the-northwest-passage",
+            "x": 22,
+            "y": 69,
+            "w": 28,
+            "h": 6
+          },
+          {
+            "label": "Predadores y presas",
+            "to": "video",
+            "x": 2,
+            "y": 82,
+            "w": 27,
+            "h": 6
+          }
+        ]
+      },
+      "a-sea-encircled-by-land": {
+        "image": "assets/es/arct/ARCT01PU.webp",
+        "back": "main"
+      },
+      "the-bottom-at-the-top-of-the-world": {
+        "image": "assets/es/arct/ARCT02PU.webp",
+        "back": "main"
+      },
+      "trapped-in-the-ice": {
+        "image": "assets/es/arct/ARCT03PU.webp",
+        "back": "main"
+      },
+      "human-impact": {
+        "image": "assets/es/arct/ARCT04PU.webp",
+        "back": "main"
+      },
+      "the-northwest-passage": {
+        "image": "assets/es/arct/ARCT06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/arct/clip.mp4",
+        "poster": "assets/es/arct/ARCT05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/arct/ARCT00JN.mp3",
+  "sound": "assets/es/arct/ARCT00IX.mp3",
+  "video": {
+    "title": "Predadores y presas",
+    "src": "assets/es/arct/clip.mp4",
+    "poster": "assets/es/arct/poster.webp",
+    "caption": "Los osos polares son inteligentes cazadores. A veces nadan bajo un témpano de hielo que transporta a una foca medio dormida, emergen después a la superficie por debajo de ella y la hacen caer de un golpe. Una vez que está en el agua, el oso la mata con un simple zarpazo de su poderosa pezuña. Los osos polares también vigilarán un lugar en espera de que una foca respire por un agujero. Cuando una foca emerge nadando para tomar aire, el oso está listo para atacar.",
+    "narration": "assets/es/arct/ARCT05JN.mp3"
+  }
+}

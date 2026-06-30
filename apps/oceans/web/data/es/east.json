@@ -1,0 +1,243 @@
+{
+  "id": "east",
+  "code": "EAST",
+  "name": "Exploradores del Mediterráneo oriental",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Los audaces marineros que convirtieron el Mediterráneo en su mar y se atrevieron a cruzar el mundo!",
+  "zones": [
+    "Mar abierto",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "Mar Mediterráneo",
+    "Mar Rojo",
+    "Océano Índico",
+    "Océano Atlántico"
+  ],
+  "hero": {
+    "image": "assets/es/east/EAST00AA.webp",
+    "alt": "Exploradores del Mediterráneo oriental"
+  },
+  "intro": "Con frecuencia se ha dicho que el Mediterráneo \"es la cuna de la civilización\". Es un mar interior cálido y apacible, virtualmente libre de mareas y niebla y fácil de navegar. Algunas de las primeras ciudades del mundo florecieron en sus costas, a medida que los antiguos exploradores –egipcios, fenicios, árabes, griegos y romanos– surcaban sus aguas en busca de conocimientos, poder y comercio.",
+  "facts": [
+    {
+      "label": "Egipcios en el mar",
+      "value": "Hacia el año 3000 a. de C., los egipcios empezaron a navegar con fines comerciales por el Mar Rojo y el Mediterráneo."
+    },
+    {
+      "label": "Primer pueblo estelar",
+      "value": "Los fenicios fueron el primer pueblo conocido que navegó guiándose por la estrella polar, lo cual les permitió viajar por la noche, ya en el año 900 a. de C."
+    },
+    {
+      "label": "Cálculo asombroso",
+      "value": "En el año 200 a. de C., el griego Eratóstenes calculó la circunferencia del globo y sólo se equivocó en un cuatro por ciento."
+    },
+    {
+      "label": "Imperio romano",
+      "value": "El Imperio romano permaneció aproximadamente desde el siglo III a. de C. hasta el siglo V d. de C."
+    },
+    {
+      "label": "La dawa árabe",
+      "value": "El barco árabe —la dawa— poseía una vela latina triangular y podía navegar en la misma dirección del viento, mejor que el sistema de vela cuadrada. Fue el modelo de los veleros actuales."
+    },
+    {
+      "label": "Heyerdahl",
+      "value": "Thor Heyerdahl atravesó el Atlántico en embarcaciones de junco de papiro en 1969 y 1970."
+    }
+  ],
+  "topics": [
+    {
+      "id": "exotic-egyptians",
+      "title": "Los exóticos egipcios",
+      "image": "assets/es/east/EAST01PU.webp",
+      "text": "Los egipcios establecieron tal vez la primera civilización del mundo. Crearon un calendario solar, estudiaron las estrellas, perfeccionaron la vela cuadrada y desarrollaron la primera quilla para reforzar sus barcos. Hacia el año 3000 a. de C., empezaron a navegar con fines comerciales por el Mar Rojo y el Mediterráneo.",
+      "captions": [
+        {
+          "label": "Las grandes pirámides",
+          "text": "En las enormes tumbas egipcias llamadas pirámides se almacenaron objetos de arte, alimentos y otros bienes, incluidas barcas, para que los nobles y los faraones pudieran continuar el viaje de su vida en «primera clase» después de su muerte."
+        },
+        {
+          "label": "Las primeras pistas",
+          "text": "Encontramos pruebas de las primeras barcas en las maquetas, cerámicas y pinturas de las tumbas."
+        }
+      ],
+      "narration": "assets/es/east/EAST01JN.mp3"
+    },
+    {
+      "id": "arab-adventurers",
+      "title": "Los aventureros árabes",
+      "image": "assets/es/east/EAST02PU.webp",
+      "text": "Los árabes fueron marinos y ávidos comerciantes que viajaron por todo el mar Mediterráneo y el océano Índico.",
+      "captions": [
+        {
+          "label": "Comerciantes de esclavos",
+          "text": "Algunos árabes participaron en el comercio de esclavos, entregando africanos cautivos a los barcos de los mercaderes europeos."
+        },
+        {
+          "label": "Capitán y chófer",
+          "text": "El barco árabe –la dawa– poseía una vela latina triangular y podía navegar en la misma dirección del viento, mejor que el sistema de vela cuadrada. Fue el modelo de los veleros actuales. En el siglo XV, el navegante árabe Ibn Majid escribió algunos manuales de navegación y proporcionó a los portugueses los mapas completos para llegar desde África hasta la India. ¡En una ocasión, incluso los llevó personalmente!"
+        }
+      ],
+      "narration": "assets/es/east/EAST02JN.mp3"
+    },
+    {
+      "id": "fantastic-phoenicians",
+      "title": "Los fantásticos fenicios",
+      "image": "assets/es/east/EAST03PU.webp",
+      "text": "Los fenicios fueron navegantes excelentes, que se aventuraron por aguas distantes e inexploradas ya en el año 900 a. de C. Fueron el primer pueblo conocido que navegó guiándose por la estrella polar, lo cual les permitió viajar por la noche.",
+      "captions": [
+        {
+          "label": "Rutas de exploración",
+          "text": "Los fenicios atravesaron el mar Rojo y el océano Índico, dieron la vuelta a África, cruzaron por alta mar hasta Gran Bretaña y quizás haya sido el primer pueblo en probar el hielo de las proximidades del Círculo Ártico."
+        }
+      ],
+      "narration": "assets/es/east/EAST03JN.mp3"
+    },
+    {
+      "id": "amazing-greeks",
+      "title": "Los sorprendentes griegos",
+      "image": "assets/es/east/EAST04PU.webp",
+      "text": "A pesar de que a los griegos nunca les gustó el mar, se convirtieron en importantes mercaderes, comerciantes y guerreros en todo el Mediterráneo. En el año 200 a. de C., un griego llamado Eratóstenes calculó la circunferencia del globo y sólo se equivocó en un cuatro por ciento.",
+      "captions": [
+        {
+          "label": "La tarea de Jasón",
+          "text": "Los comerciantes griegos establecieron asentamientos en la costa del mar Negro, una región conocida por su trigo y por el oro que con pieles de oveja podía extraerse de sus ríos. De aquí nació la leyenda de Jasón y los Argonautas, con su búsqueda del vellocino de oro."
+        },
+        {
+          "label": "Galeones griegos",
+          "text": "Los griegos construyeron las trirremes, poderosos barcos de guerra movidos por remos, y fueron los primeros maestros en la construcción naval."
+        }
+      ],
+      "narration": "assets/es/east/EAST04JN.mp3"
+    },
+    {
+      "id": "powerful-romans",
+      "title": "Los poderosos romanos",
+      "image": "assets/es/east/EAST05PU.webp",
+      "text": "Los exploradores romanos fueron esencialmente guerreros que fundaron un imperio poderoso, que permaneció aproximadamente desde el siglo III a. de C. hasta el siglo V d. de C.",
+      "captions": [
+        {
+          "label": "Todos a una",
+          "text": "Los romanos pusieron nombre a ocho direcciones de los vientos que, combinadas con la posición del sol y las estrellas, les permitían navegar. Sus trirremes tenían tres filas de remos en cada lado del barco."
+        },
+        {
+          "label": "Navegación y conquista",
+          "text": "Los romanos dominaron el Mediterráneo desde Asia hasta África. Cruzaron el tormentoso Atlántico Norte para establecer puestos avanzados en las islas británicas."
+        }
+      ],
+      "narration": "assets/es/east/EAST05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Los exploradores de Europa occidental",
+      "to": "west"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/east/EAST00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "Los aventureros árabes",
+            "to": "arab-adventurers",
+            "x": 52,
+            "y": 8,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Los fantásticos fenicios",
+            "to": "fantastic-phoenicians",
+            "x": 49,
+            "y": 31,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Los exóticos egipcios",
+            "to": "exotic-egyptians",
+            "x": 52,
+            "y": 41,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Los poderosos romanos",
+            "to": "powerful-romans",
+            "x": 65,
+            "y": 56,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Los sorprendentes griegos",
+            "to": "amazing-greeks",
+            "x": 46,
+            "y": 67,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Siguiendo las tradiciones",
+            "to": "video",
+            "x": 4,
+            "y": 77,
+            "w": 27,
+            "h": 6
+          }
+        ]
+      },
+      "exotic-egyptians": {
+        "image": "assets/es/east/EAST01PU.webp",
+        "back": "main"
+      },
+      "arab-adventurers": {
+        "image": "assets/es/east/EAST02PU.webp",
+        "back": "main"
+      },
+      "fantastic-phoenicians": {
+        "image": "assets/es/east/EAST03PU.webp",
+        "back": "main"
+      },
+      "amazing-greeks": {
+        "image": "assets/es/east/EAST04PU.webp",
+        "back": "main"
+      },
+      "powerful-romans": {
+        "image": "assets/es/east/EAST05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/east/clip.mp4",
+        "poster": "assets/es/east/EAST06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/east/EAST00JN.mp3",
+  "sound": "assets/es/east/EAST00IX.mp3",
+  "video": {
+    "title": "Siguiendo las tradiciones",
+    "src": "assets/es/east/clip.mp4",
+    "poster": "assets/es/east/poster.webp",
+    "caption": "Thor Heyerdahl y su tripulación atravesaron el Atlántico en embarcaciones de junco de papiro en 1969 y 1970, demostrando que los pueblos antiguos podían haber navegado en embarcaciones similares desde África hasta el Nuevo Mundo.",
+    "narration": "assets/es/east/EAST06JN.mp3"
+  }
+}

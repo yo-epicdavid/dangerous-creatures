@@ -1,0 +1,189 @@
+{
+  "id": "divi",
+  "code": "DIVI",
+  "name": "Submarinismo",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Respira bajo el mar y descubre un mundo que pocos humanos han pisado!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Arrecife de coral",
+    "Mar abierto",
+    "Mar profundo"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/divi/DIVI00AA.webp",
+    "alt": "Submarinismo"
+  },
+  "intro": "El mundo que se halla bajo las olas ha fascinado siempre al ser humano. Es un medio ambiente en el que los animales que respiran aire son intrusos alienígenas. A lo largo de los siglos, los inventores han intentado crear artefactos para poder respirar bajo el agua. Ninguno de estos inventos tuvo éxito hasta el siglo XX. Sólo en las últimas décadas la tecnología nos ha permitido explorar las profundidades del océano. Incluso hoy en día, muchas regiones submarinas parecen envueltas en el misterio ¡La aventura acaba de empezar!",
+  "facts": [
+    {
+      "label": "Primer intento",
+      "value": "En el año 323 a. de C., Alejandro Magno descendió al fondo del mar en un barril de cristal."
+    },
+    {
+      "label": "Profundidad récord",
+      "value": "Sylvia Earle caminó por el fondo del océano a 381 m de profundidad en 1979."
+    },
+    {
+      "label": "Invención SCUBA",
+      "value": "Jacques-Yves Cousteau y Emile Gagnan perfeccionaron el Aqua-Lung en 1943."
+    },
+    {
+      "label": "Presión del aire",
+      "value": "Las botellas de oxígeno contienen aire comprimido aproximadamente a 531 kg por centímetro cuadrado."
+    },
+    {
+      "label": "Traje Jim",
+      "value": "Fuera del agua, los trajes Jim pesan casi media tonelada, aunque resultan extraordinariamente ligeros en las profundidades."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "El aire está constituido por un 21 por ciento de oxígeno y un 78 por ciento de nitrógeno; ascender demasiado rápido puede causar una embolia gaseosa dolorosa y a veces mortal."
+    }
+  ],
+  "topics": [
+    {
+      "id": "early-attempts",
+      "title": "Los primeros intentos",
+      "image": "assets/es/divi/DIVI01PU.webp",
+      "text": "El hombre ya intentaba explorar las profundidades del océano en el año 323 a. de C. Según antiguos testimonios, fue entonces cuando Alejandro Magno descendió al fondo del mar en un barril de cristal. El experimento fue sin duda muy corto, porque el barril tenía una reserva limitada de aire. Siglos más tarde se inventaron formas de utilizar mangueras con objeto de bombear aire para los buceadores.",
+      "narration": "assets/es/divi/DIVI01JN.mp3",
+      "captions": [
+        {
+          "label": "Dispositivo de Alejandro Magno",
+          "text": "Dispositivo de Alejandro Magno"
+        }
+      ]
+    },
+    {
+      "id": "sea-spacesuits",
+      "title": "Trajes espaciales submarinos",
+      "image": "assets/es/divi/DIVI03PU.webp",
+      "text": "La científica Sylvia Earle caminó por el fondo del océano, a una profundidad de 381 m, en 1979. La invención que hizo posible esta hazaña fue el traje de buzo Jim que protege a los buceadores de los efectos de la presión del agua.",
+      "captions": [
+        {
+          "label": "Un asunto arriesgado",
+          "text": "Las antiguas escafandras de bucear, como éstas, eran incómodas y los buceadores dependían totalmente de un compresor de superficie para aprovisionarse de aire. Por el contrario, un moderno traje Jim lleva su propia reserva de aire. El casco tiene incorporado un micrófono y auriculares y un cable telefónico comunica al buceador con la superficie."
+        },
+        {
+          "label": "Artefacto de alta tecnología",
+          "text": "A causa de los controles ajustables de flotación, los trajes Jim pueden ser extraordinariamente ligeros en las profundidades. Sin embargo, ¡fuera del agua estos trajes pesan casi media tonelada!"
+        }
+      ],
+      "narration": "assets/es/divi/DIVI03JN.mp3"
+    },
+    {
+      "id": "danger-the-bends",
+      "title": "Peligro: embolia gaseosa",
+      "image": "assets/es/divi/DIVI04PU.webp",
+      "text": "El aire comprimido y la presión del agua son una mezcla peligrosa. En el nivel del mar, el aire está constituido por un 21 por ciento de oxígeno y un 78 por ciento de nitrógeno. La presión de las profundidades del océano aumenta el porcentaje de oxígeno haciendo que el nitrógeno se disuelva en la sangre. Demasiado oxígeno puede producir convulsiones; demasiado nitrógeno causa una confusión llamada narcosis del nitrógeno, o \"embriaguez de las profundidades\". Si un buceador con botellas de oxígeno asciende muy deprisa de las profundidades, se forman burbujas de aire en la sangre y en los tejidos, produciendo un estado doloroso y a veces mortal llamado apoplejía por embolia gaseosa. Por eso, los buceadores que ascienden a la superficie hacen varias pausas, para que sus cuerpos se adapten a los cambios de presión.",
+      "narration": "assets/es/divi/DIVI04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Fanworms & Bristleworms"
+    },
+    {
+      "label": "Exploradores del Mediterráneo oriental",
+      "to": "east"
+    },
+    {
+      "label": "¿Qué es la oceanografía?",
+      "to": "ocea"
+    },
+    {
+      "label": "Submarinos y robots",
+      "to": "robo"
+    },
+    {
+      "label": "Los odontocetos",
+      "to": "whlt"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/divi/DIVI00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 9,
+            "h": 6
+          },
+          {
+            "label": "Los primeros intentos",
+            "to": "early-attempts",
+            "x": 52,
+            "y": 15,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Botellas de oxígeno",
+            "to": "video",
+            "x": 57,
+            "y": 29,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Trajes espaciales submarinos",
+            "to": "sea-spacesuits",
+            "x": 55,
+            "y": 47,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Peligro: embolia gaseosa",
+            "to": "danger-the-bends",
+            "x": 35,
+            "y": 83,
+            "w": 27,
+            "h": 5
+          }
+        ]
+      },
+      "early-attempts": {
+        "image": "assets/es/divi/DIVI01PU.webp",
+        "back": "main"
+      },
+      "sea-spacesuits": {
+        "image": "assets/es/divi/DIVI03PU.webp",
+        "back": "main"
+      },
+      "danger-the-bends": {
+        "image": "assets/es/divi/DIVI04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/divi/clip.mp4",
+        "poster": "assets/es/divi/DIVI02PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/divi/DIVI00JN.mp3",
+  "sound": "assets/es/divi/DIVI00IX.mp3",
+  "video": {
+    "title": "Botellas de oxígeno",
+    "src": "assets/es/divi/clip.mp4",
+    "poster": "assets/es/divi/poster.webp",
+    "caption": "Jacques-Yves Cousteau y Emile Gagnan perfeccionaron el Aqua-Lung en 1943. Esta escafandra SCUBA Self-Contained Underwater Breathing Apparatus (\"aparato autónomo de respiración bajo el agua\" o escafandra de buceo autónomo) dio libertad a los buceadores, aportándoles una reserva de aire transportable. Las botellas de oxígeno suelen contener aire normal comprimido aproximadamente a 531 kg por centímetro cuadrado. Un regulador controla el flujo de aire que pasa de las botellas a la boca del buceador, cambiando la presión del aire hasta un nivel de respiración seguro.",
+    "narration": "assets/es/divi/DIVI02JN.mp3"
+  }
+}

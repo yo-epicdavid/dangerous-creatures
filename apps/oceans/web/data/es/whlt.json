@@ -1,0 +1,192 @@
+{
+  "id": "whlt",
+  "code": "WHLT",
+  "name": "Los odontocetos",
+  "category": "creature",
+  "scientificName": "Odontoceti",
+  "needsScientificVerify": false,
+  "tagline": "¡Conoce a las ballenas con dientes más increíbles del océano!",
+  "zones": [
+    "Mar abierto",
+    "Mares polares",
+    "Ríos y estuarios",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/whlt/WHLT00AA.webp",
+    "alt": "Los odontocetos"
+  },
+  "intro": "¿Qué es una ballena? Las ballenas pertenecen a un grupo de animales llamados cetáceos, que son mamíferos y pasan la mayor parte del tiempo en el agua. Los delfines y las marsopas también son cetáceos. En términos generales, la palabra \"ballena\" se utiliza para denominar a todo cetáceo de más de 3 m de longitud. Estos animales se dividen en dos grandes categorías: los que filtran la comida a través de barbas, de donde les viene el nombre, y aquellos que agarran a su presa con los dientes, llamados odontocetos. Como puedes ver, esta orca es una ballena de la segunda especie.",
+  "facts": [
+    {
+      "label": "Tamaño mínimo",
+      "value": "Se llama ballena a todo cetáceo de más de 3 m de longitud"
+    },
+    {
+      "label": "El más grande",
+      "value": "El cachalote macho puede alcanzar los 20m de longitud"
+    },
+    {
+      "label": "Colmillo",
+      "value": "El colmillo en espiral del narval macho puede medir hasta 3m de largo"
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Las ballenas blancas gorjean, silban, chillan y gritan tanto que algunos las llaman «los canarios del mar»"
+    },
+    {
+      "label": "Crías",
+      "value": "Las crías de ballena blanca nacen de un color azulado y se vuelven blancas entre los 5 y los 12 años"
+    },
+    {
+      "label": "Ámbar gris",
+      "value": "El ámbar gris, una sustancia resinosa usada para hacer perfumes, se extrae del sistema digestivo del cachalote"
+    }
+  ],
+  "topics": [
+    {
+      "id": "underwater-unicorns",
+      "title": "Unicornios marinos",
+      "image": "assets/es/whlt/WHLT01PU.webp",
+      "text": "El narval es uno de los odontocetos más conocidos y habita en las aguas del Ártico. Todo narval nace con varios brotes de dientes en la boca. En las hembras, estos brotes no se desarrollan, pero en los narvales macho, el brote izquierdo superior se convierte en un largo colmillo en espiral que puede medir hasta 3m de largo. Los machos entablan peleas con sus colmillos a veces, pero la mayor parte del tiempo sólo parecen usarlo para ahuyentar a los peces del fondo marino.",
+      "captions": [
+        {
+          "label": "Narval",
+          "text": "Monodon monoceros"
+        }
+      ],
+      "narration": "assets/es/whlt/WHLT01JN.mp3"
+    },
+    {
+      "id": "not-really-a-killer",
+      "title": "En verdad inocente",
+      "image": "assets/es/whlt/WHLT03PU.webp",
+      "text": "¿Por qué se le llama «ballena asesina» a la orca? Después de todo, muchas otras ballenas, como la ballena blanca, el cachalote y la ballena piloto (sólo por nombrar a algunas), cazan y matan a otros animales marinos para alimentarse. Quizá sea porque la vista de la aleta de una orca cortando las aguas nos recuerda a un tiburón que ataca; o porque las orcas cazan a menudo en grupo, rodeando a las focas o los peces que desean apresar. En cualquier caso, estos bellos y sociables mamíferos no son más «asesinos» que una estrella de mar o un pelícano.",
+      "captions": [
+        {
+          "label": "Orca abriéndose paso",
+          "text": "Orcinus orca"
+        }
+      ],
+      "narration": "assets/es/whlt/WHLT03JN.mp3"
+    },
+    {
+      "id": "the-biggest",
+      "title": "El mayor de todos",
+      "image": "assets/es/whlt/WHLT04PU.webp",
+      "text": "El odontoceto de mayor tamaño es el cachalote macho, que puede alcanzar los 20m de longitud. Los pescadores de ballenas estuvieron a punto de terminar con esta especie matando a cientos de miles de estos animales desde principios de 1700 hasta la década de 1980. Se perseguía a los cachalotes por su grasa, por la «resina» de esperma que se extrae de su cabeza rectangular y por el ámbar gris, una sustancia resinosa que se utiliza para hacer perfumes. El ámbar gris se extrae en el sistema digestivo del cachalote para protegerlo del indigesto pico de los pulpos y calamares que forman parte de su alimento.",
+      "captions": [
+        {
+          "label": "Cachalote",
+          "text": "Physeter macrocephalus o Physeter catodon"
+        }
+      ],
+      "narration": "assets/es/whlt/WHLT04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Los manatíes y los dugones",
+      "to": "mana"
+    },
+    {
+      "label": "La morsa",
+      "to": "walr"
+    },
+    {
+      "label": "El pulpo",
+      "to": "octo"
+    },
+    {
+      "label": "Los temibles tiburones",
+      "to": "shar"
+    },
+    {
+      "label": "La tortuga marina",
+      "to": "turt"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/whlt/WHLT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 3,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Unicornios marinos",
+            "to": "underwater-unicorns",
+            "x": 60,
+            "y": 27,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "La ballena blanca",
+            "to": "video",
+            "x": 60,
+            "y": 43,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "En verdad inocente",
+            "to": "not-really-a-killer",
+            "x": 8,
+            "y": 62,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "El mayor de todos",
+            "to": "the-biggest",
+            "x": 60,
+            "y": 83,
+            "w": 17,
+            "h": 6
+          }
+        ]
+      },
+      "underwater-unicorns": {
+        "image": "assets/es/whlt/WHLT01PU.webp",
+        "back": "main"
+      },
+      "not-really-a-killer": {
+        "image": "assets/es/whlt/WHLT03PU.webp",
+        "back": "main"
+      },
+      "the-biggest": {
+        "image": "assets/es/whlt/WHLT04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/whlt/clip.mp4",
+        "poster": "assets/es/whlt/WHLT02PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/whlt/WHLT00JN.mp3",
+  "sound": "assets/es/whlt/WHLT00IX.mp3",
+  "video": {
+    "title": "La ballena blanca",
+    "src": "assets/es/whlt/clip.mp4",
+    "poster": "assets/es/whlt/poster.webp",
+    "caption": "La ballena blanca gorjea, silba, chilla y grita tanto que algunos la llaman «el canario del mar». Se muestra su zona de distribución mundial y su especial vulnerabilidad a la contaminación por residuos artificiales.",
+    "narration": "assets/es/whlt/WHLT02JN.mp3"
+  }
+}

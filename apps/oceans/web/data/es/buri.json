@@ -1,0 +1,218 @@
+{
+  "id": "buri",
+  "code": "BURI",
+  "name": "Tesoros en el fondo del mar",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Joyas, galeones y ciudades perdidas aguardan bajo las olas!",
+  "zones": [
+    "Mar abierto",
+    "Arrecife de coral",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "Océano Atlántico",
+    "Mar Mediterráneo",
+    "Mar Caribe"
+  ],
+  "hero": {
+    "image": "assets/es/buri/BURI00AA.webp",
+    "alt": "Tesoros en el fondo del mar"
+  },
+  "intro": "Los tesoros hundidos constituyen una parte importante de la historia marítima de la humanidad. Joyas, monedas antiguas y otras reliquias procedentes de barcos naufragados están esparcidas en el fondo del océano y a veces se encuentran incluso en la playa, arrastradas por el mar. Descubrir tesoros es emocionante, pero una cosa es apoderarse de ellos por codicia y otra, muy distinta, estudiar los objetos culturales enterrados en el mar. Este es un campo apasionante conocido con el nombre de arqueología marina.",
+  "facts": [
+    {
+      "label": "Tesoro español",
+      "value": "Los galeones españoles transportaron tesoros por valor de unos ocho mil millones de dólares entre 1500 y 1820"
+    },
+    {
+      "label": "El Vasa",
+      "value": "El navío real Vasa se hundió en pocos minutos al salir del puerto de Estocolmo en 1715 y fue rescatado del fondo del océano en 1961"
+    },
+    {
+      "label": "Atlántida",
+      "value": "Los expertos creen que la leyenda de la Atlántida pudo originarse en la erupción volcánica que destruyó la civilización minoica en la isla de Creta entre 1500 y 1450 a. de C."
+    },
+    {
+      "label": "Mediterráneo",
+      "value": "El Mediterráneo está sembrado de restos de barcos naufragados procedentes de culturas egipcia, fenicia, persa, griega y romana"
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Los buceadores sienten un escalofrío especial cuando tocan algo que fue utilizado hace 2.000 años"
+    }
+  ],
+  "topics": [
+    {
+      "id": "fatal-attraction",
+      "title": "Atracción fatal",
+      "image": "assets/es/buri/BURI01PU.webp",
+      "text": "Las Bermudas y el Caribe han sido el escenario de muchos naufragios a causa del intenso tráfico de barcos, de los vientos, las corrientes peligrosas y los arrecifes de coral. Los galeones españoles, entre 1500 y 1820, cruzaron el océano desde el Caribe hasta España transportando unos tesoros por valor de unos ocho mil millones de dólares. Se refugiaban en los puertos de las colonias del Caribe, aunque naufragaban en muchas ocasiones o eran atacados por los piratas. Los arqueólogos y los cazadores de tesoros han localizado muchos naufragios en esta zona.",
+      "captions": [
+        {
+          "label": "Galeón Tolosa",
+          "text": "Buceador trabajando en el naufragio del galeón Tolosa"
+        }
+      ],
+      "narration": "assets/es/buri/BURI01JN.mp3"
+    },
+    {
+      "id": "legend-of-the-lost",
+      "title": "La leyenda de la civilización perdida",
+      "image": "assets/es/buri/BURI02PU.webp",
+      "text": "Tanto los buceadores como los cazadores de tesoros y los arqueólogos están fascinados por las leyendas de civilizaciones submarinas perdidas. No hay ninguna ciudad hundida más famosa que la Atlántida. Nadie sabe dónde estaba localizada originalmente, ni siquiera si realmente existió. Los expertos especulan sobre la posibilidad de que la leyenda empezara con la violenta erupción volcánica que destruyó la civilización minoica en la isla de Creta, entre los años 1500 y 1450 a. de C.",
+      "captions": [
+        {
+          "label": "Atlántida",
+          "text": "La ciudad perdida de la Atlántida imaginada por un artista"
+        }
+      ],
+      "narration": "assets/es/buri/BURI02JN.mp3"
+    },
+    {
+      "id": "windy-wrecks",
+      "title": "Naufragios causados por el viento",
+      "image": "assets/es/buri/BURI03PU.webp",
+      "text": "Muchos barcos se han hundido a causa de fuertes vientos. En 1715 el navío real Vasa iniciaba su primer viaje saliendo del puerto de Estocolmo (Suecia). Había muchas personas a bordo, incluidas mujeres y niños. De repente, una ráfaga de viento golpeó el barco y se hundió en pocos minutos. En 1961, un equipo lo sacó con éxito del fondo del océano... los buscadores de tesoros se alegraron mucho de esta hazaña.",
+      "captions": [
+        {
+          "label": "Restos del Vasa",
+          "text": "Restos del Vasa"
+        }
+      ],
+      "narration": "assets/es/buri/BURI03JN.mp3"
+    },
+    {
+      "id": "big-digs",
+      "title": "Grandes excavaciones",
+      "image": "assets/es/buri/BURI04PU.webp",
+      "text": "Un barco hundido puede contener una carga comercial, monedas, armas u otros objetos y puede servir como una cápsula de tiempo para conocer un período histórico. El Mediterráneo está sembrado de restos de barcos naufragados procedentes de muchas culturas —egipcia, fenicia, persa, griega y romana— por lo que representa un tesoro para los arqueólogos. Los buceadores cuentan que sienten un escalofrío especial cuando tocan algo que fue utilizado hace 2.000 años. Después de cartografiar un lugar, suelen utilizar martillos y escoplos para retirar las piezas grandes incrustadas en la piedra caliza, que después son restauradas con mucha dedicación. Es un trabajo muy delicado y puede dar lugar a muchas sorpresas.",
+      "captions": [
+        {
+          "label": "Excavación submarina",
+          "text": "Un arqueólogo encuentra un pulpo mientras está rescatando objetos de un barco naufragado"
+        }
+      ],
+      "narration": "assets/es/buri/BURI04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "El océano Atlántico",
+      "to": "atla"
+    },
+    {
+      "label": "Los exploradores de Europa occidental",
+      "to": "west"
+    },
+    {
+      "label": "La zona abisal",
+      "to": "abys"
+    },
+    {
+      "label": "La navegación",
+      "to": "navi"
+    },
+    {
+      "label": "Submarinismo",
+      "to": "divi"
+    },
+    {
+      "label": "El futuro de los océanos",
+      "to": "futu"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/buri/BURI00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 3,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Grandes excavaciones",
+            "to": "big-digs",
+            "x": 63,
+            "y": 38,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "Naufragios causados por el viento",
+            "to": "windy-wrecks",
+            "x": 60,
+            "y": 52,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Atracción fatal",
+            "to": "fatal-attraction",
+            "x": 58,
+            "y": 65,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Batallas acuáticas",
+            "to": "video",
+            "x": 3,
+            "y": 74,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "La leyenda de la civilización perdida",
+            "to": "legend-of-the-lost",
+            "x": 3,
+            "y": 85,
+            "w": 20,
+            "h": 5
+          }
+        ]
+      },
+      "fatal-attraction": {
+        "image": "assets/es/buri/BURI01PU.webp",
+        "back": "main"
+      },
+      "legend-of-the-lost": {
+        "image": "assets/es/buri/BURI02PU.webp",
+        "back": "main"
+      },
+      "windy-wrecks": {
+        "image": "assets/es/buri/BURI03PU.webp",
+        "back": "main"
+      },
+      "big-digs": {
+        "image": "assets/es/buri/BURI04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/buri/clip.mp4",
+        "poster": "assets/es/buri/BURI05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/buri/BURI00JN.mp3",
+  "sound": "assets/es/buri/BURI00IX.mp3",
+  "video": {
+    "title": "Batallas acuáticas",
+    "src": "assets/es/buri/clip.mp4",
+    "poster": "assets/es/buri/poster.webp",
+    "caption": "Los desacuerdos entre cazadores de tesoros, arqueólogos marinos y conservacionistas: mientras los primeros reclaman derecho a lo que encuentran en cualquier naufragio, los arqueólogos advierten de la destrucción irresponsable de lugares históricos y los conservacionistas temen el daño a los ecosistemas. Algunos países regulan el trabajo submarino, pero muchas zonas siguen sin protección legislativa.",
+    "narration": "assets/es/buri/BURI05JN.mp3"
+  }
+}

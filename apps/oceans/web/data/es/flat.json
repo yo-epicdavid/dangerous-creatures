@@ -1,0 +1,165 @@
+{
+  "id": "flat",
+  "code": "FLAT",
+  "name": "Los turbelarios",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Planos como una hoja y tan coloridos como las mariposas!",
+  "zones": [
+    "Arrecife de coral",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/flat/FLAT00AA.webp",
+    "alt": "Los turbelarios"
+  },
+  "intro": "Algunos turbelarios son parásitos que se pegan a otros seres vivos y se alimentan de sus tejidos. Pero el océano también es el hogar de otros, pequeños y tan coloridos como las mariposas. La mayoría de los turbelarios son cazadores que se deslizan con elegancia sobre los arrecifes, rocas y lechos marítimos de arena en busca de tunicados, briozoos y otros animales sedentarios con los que prepararse un banquete.",
+  "facts": [
+    {
+      "label": "Tamaño",
+      "value": "la mayoría miden menos de 5 cm de largo"
+    },
+    {
+      "label": "Locomoción",
+      "value": "se desplazan 'caminando' sobre pequeños cilios localizados en la parte inferior de su cuerpo; también pueden nadar lanzándose al agua y ondeando los bordes de su cuerpo para avanzar"
+    },
+    {
+      "label": "Dieta",
+      "value": "tunicados, briozoos y otros animales sedentarios"
+    },
+    {
+      "label": "Reproducción",
+      "value": "son hermafroditas: poseen órganos sexuales masculinos y femeninos, pero no pueden tener crías por sí mismos; para ello necesitan intercambiar esperma y huevos con otro turbelario de su misma especie"
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "pueden agarrarse a cualquier superficie, de forma que a menudo pueden encontrarse en las partes inferiores de los caparazones de rocas y corales"
+    }
+  ],
+  "topics": [
+    {
+      "id": "butterflies-of-the-sea",
+      "title": "Mariposas marinas",
+      "image": "assets/es/flat/FLAT01PU.webp",
+      "text": "A pesar de sus colores y dibujos brillantes, la mayoría de los buzos nunca ven turbelarios como éstos. ¿Por qué? Para empezar, porque la mayoría de los turbelarios miden menos de 5 cm de largo y viven entre otros muchos animales de colores. También pueden agarrarse a cualquier superficie, de forma que a menudo pueden encontrarse en las partes inferiores de los caparazones de rocas y corales.",
+      "narration": "assets/es/flat/FLAT01JN.mp3",
+      "captions": [
+        {
+          "label": "Turbelario de Bedford",
+          "text": "Pseudoceros zebra"
+        },
+        {
+          "label": "Turbelario acebrado",
+          "text": "Pseudoceros bedfordi"
+        }
+      ]
+    },
+    {
+      "id": "a-flat-life",
+      "title": "Una vida plana",
+      "image": "assets/es/flat/FLAT02PU.webp",
+      "text": "Los turbelarios son tan finos que si miras uno de lado casi es invisible. Estos otros seres marinos también se benefician de ser planos.\n\nEl lenguado\nAlgunos peces, como el lenguado y la platija, se pegan al lecho del océano para esconderse. Como alevines, nadan con toda libertad y tienen un ojo a cada lado de la cabeza. A medida que crecen, uno de los ojos se desplaza, hasta que ambos quedan al mismo lado de la cabeza. Esto permite a los peces adultos ver con ambos ojos mientras yacen en el fondo.\n\nBabosa marina escuálida\nEste minúsculo gasterópodo, llamado babosa marina o nudibranquio, sólo es unos centímetros más largo que la mayoría de los turbelarios y tiene el cuerpo algo más grueso.",
+      "captions": [
+        {
+          "label": "Lenguado",
+          "text": "Solea solea"
+        },
+        {
+          "label": "Babosa marina escuálida",
+          "text": "Chromodoris coi"
+        }
+      ],
+      "narration": "assets/es/flat/FLAT02JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Las ascidias",
+      "to": "sqrt"
+    },
+    {
+      "label": "Las langostas",
+      "to": "lobs"
+    },
+    {
+      "label": "La raya",
+      "to": "rays"
+    },
+    {
+      "label": "La babosa marina",
+      "to": "slug"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/flat/FLAT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 6,
+            "w": 7,
+            "h": 4
+          },
+          {
+            "label": "Una vida plana",
+            "to": "a-flat-life",
+            "x": 26,
+            "y": 43,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Gusanos maravillosos",
+            "to": "video",
+            "x": 63,
+            "y": 36,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Mariposas marinas",
+            "to": "butterflies-of-the-sea",
+            "x": 34,
+            "y": 67,
+            "w": 26,
+            "h": 5
+          }
+        ]
+      },
+      "butterflies-of-the-sea": {
+        "image": "assets/es/flat/FLAT01PU.webp",
+        "back": "main"
+      },
+      "a-flat-life": {
+        "image": "assets/es/flat/FLAT02PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/flat/clip.mp4",
+        "poster": "assets/es/flat/FLAT03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/flat/FLAT00JN.mp3",
+  "sound": "assets/es/flat/FLAT00IX.mp3",
+  "video": {
+    "title": "Gusanos maravillosos",
+    "src": "assets/es/flat/clip.mp4",
+    "poster": "assets/es/flat/poster.webp",
+    "caption": "Los turbelarios se desplazan 'caminando' sobre pequeños cilios localizados en la parte inferior de su cuerpo; también pueden nadar lanzándose al agua y ondeando los bordes de su cuerpo para avanzar. Como hermafroditas, poseen órganos sexuales masculinos y femeninos, pero no pueden tener crías por sí mismos: necesitan intercambiar esperma y huevos con otro turbelario de su misma especie.",
+    "narration": "assets/es/flat/FLAT03JN.mp3"
+  }
+}

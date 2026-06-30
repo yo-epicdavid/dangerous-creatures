@@ -1,0 +1,224 @@
+{
+  "id": "fant",
+  "code": "FANT",
+  "name": "Viajes fantásticos",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Solos contra el océano: las aventuras más valientes de la historia!",
+  "zones": [
+    "Mar abierto"
+  ],
+  "oceans": [
+    "Océano Atlántico",
+    "Océano Pacífico"
+  ],
+  "hero": {
+    "image": "assets/es/fant/FANT00AA.webp",
+    "alt": "Viajes fantásticos"
+  },
+  "intro": "Hombres y mujeres han realizado peligrosos viajes trasatlánticos e incluso circunnavegaciones del globo en toda clase de embarcaciones, frecuentemente en solitario. Lo hacen para ver nuevos lugares y establecer nuevos récords, pero sobre todo lo hacen para probarse a sí mismos. Por ejemplo, Ann Davison descubrió una extraordinaria fuerza interna durante su viaje en solitario a través del Atlántico. Estuvo atrapada en la zona ecuatorial de calmas durante 23 días, sin poder ir a ningún sitio. Los momentos de lasitud pueden poner a prueba la resistencia de un navegante tanto como los momentos apasionantes.",
+  "facts": [
+    {
+      "label": "Navegante más joven",
+      "value": "Lee Graham tenía 16 años cuando se convirtió en el navegante más joven en dar la vuelta al mundo en solitario, habiendo recorrido más de 32.180 km de océano."
+    },
+    {
+      "label": "Días a la deriva",
+      "value": "Steven Callahan sobrevivió 76 días en una balsa salvavidas inflable de 1,7 m en el Atlántico, comiendo pescado crudo y ahuyentando tiburones."
+    },
+    {
+      "label": "Récord de remo",
+      "value": "George Harbo y Frank Samuelson cruzaron el Atlántico a remo en 55 agotadores días, haciendo una media de 80,5 km por día en un esquife de 5,5 m."
+    },
+    {
+      "label": "Sin dormir",
+      "value": "Mary Patten dirigió su clipper de 1.616 toneladas durante 55 días sin poder dormir una sola noche entera, enfrentando los vendavales del Pacífico."
+    },
+    {
+      "label": "Zona de calmas",
+      "value": "Ann Davison estuvo atrapada en la zona ecuatorial de calmas durante 23 días, sin poder ir a ningún sitio."
+    },
+    {
+      "label": "Autodidacta",
+      "value": "Tom Drake no sabía nada de barcos: juntó unos tablones, construyó una goleta y circunnavegó el globo él solo."
+    }
+  ],
+  "topics": [
+    {
+      "id": "solo-at-16",
+      "title": "En solitario a los 16 años",
+      "image": "assets/es/fant/FANT01PU.webp",
+      "text": "Lee Graham empezó a navegar a los 10 años y había recorrido más de 32.180 km de océano en solitario cuando tenía 16. En 1966 Graham inició una vuelta al mundo en una balandra de 7,3 m acompañado sólo por algunos gatos. Llevaba consigo una biblioteca de mapas, cartas de navegación y libros de estudio. Sigue siendo el navegante más joven que haya dado la vuelta al mundo.",
+      "narration": "assets/es/fant/FANT01JN.mp3"
+    },
+    {
+      "id": "record-rowing",
+      "title": "Récord de remo",
+      "image": "assets/es/fant/FANT02PU.webp",
+      "text": "En 1896 los inmigrantes noruegos George Harbo y Frank Samuelson fueron los primeros hombres en atravesar el Atlántico a remo. Salieron de la ciudad de Nueva York en un esquife de 5,5 m, con una provisión de 250 huevos, 45,4 kg de galletas, 227 litros de agua y una gran cantidad de harina de avena. Remaban desde las ocho de la mañana hasta las ocho de la tarde, permaneciendo siempre un hombre al remo mientras el otro dormía. Hicieron una media de 80,5 km por día y llegaron a Gran Bretaña después de 55 agotadores días.",
+      "narration": "assets/es/fant/FANT02JN.mp3"
+    },
+    {
+      "id": "clipper-queen",
+      "title": "La reina del clipper",
+      "image": "assets/es/fant/FANT03PU.webp",
+      "text": "Antes de que las mujeres fueran aceptadas como miembros de las tripulaciones marítimas, una mujer tenía a veces que tomar el mando de un barco para impedir un desastre. La valiente Mary Patten se encontró en una situación de vida o muerte. Cuando Joshua Patten, marido de Mary y el capitán de un clipper de 66 m enfermó y murió frente al cabo de Hornos en 1856, ella se enfrentó a un motín y tomó el mando de un barco de 1.616 toneladas en el que había cundido el desaliento. Sin poder dormir una sola noche entera durante 55 días, afrontó los vendavales del Pacífico y llegó a su hogar, el puerto de San Francisco, 134 días después.",
+      "narration": "assets/es/fant/FANT03JN.mp3"
+    },
+    {
+      "id": "sea-survival",
+      "title": "Supervivencia en el mar",
+      "image": "assets/es/fant/FANT04PU.webp",
+      "text": "Existen ocasiones en que ocurre lo inimaginable. Un barco se hunde dejándote sin nada en medio del océano. La lucha por la supervivencia depende de los elementos, el azar y tu voluntad de vivir. Cuando su balandra se hundió en su primer intento de atravesar el Atlántico en solitario, Steven Callahan pasó 76 días en una balsa salvavidas inflable de 1,7 m. Luchó para ahuyentar a los tiburones, quemado por el sol y congelado por la espuma del agua, comió pescado crudo y resistió el dolor, la sed y la pérdida de peso, pero sobrevivió.",
+      "captions": [
+        {
+          "label": "Comida voladora",
+          "text": "Callahan podía considerarse muy feliz si un pez volador aterrizaba en su balsa y podía comérselo."
+        }
+      ],
+      "narration": "assets/es/fant/FANT04JN.mp3"
+    },
+    {
+      "id": "self-reliance",
+      "title": "Confianza en uno mismo",
+      "image": "assets/es/fant/FANT05PU.webp",
+      "text": "Tom Drake no sabía nada de barcos, pero su deseo de navegar era tan intenso que aprendió por sí mismo lo que necesitaba saber. Juntó unos tablones, construyó una goleta y navegó solo alrededor del mundo. Tras una difícil travesía por el Atlántico, Tom llegó a Inglaterra y remontó el río Támesis hasta un elegante club de yates, su primer puerto después de pasar bastantes semanas en el mar. Pero estaba sin afeitar y tan mugriento que la dirección del club se negó a dejarle atracar en el muelle. Piensa en la vergüenza que pasaron cuando se enteraron de que, ¡habían rechazado al navegante que acababa de circunnavegar el globo!",
+      "narration": "assets/es/fant/FANT05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Los huracanes",
+      "to": "hurr"
+    },
+    {
+      "label": "Las islas",
+      "to": "isla"
+    },
+    {
+      "label": "Las iguanas marinas",
+      "to": "igua"
+    },
+    {
+      "label": "Los piratas",
+      "to": "pira"
+    },
+    {
+      "label": "Los dientes más temidos",
+      "to": "toot"
+    },
+    {
+      "label": "Submarinos y robots",
+      "to": "robo"
+    },
+    {
+      "label": "Los exploradores de Europa occidental",
+      "to": "west"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/fant/FANT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "La reina del clipper",
+            "to": "clipper-queen",
+            "x": 33,
+            "y": 68,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Récord de remo",
+            "to": "record-rowing",
+            "x": 35,
+            "y": 75,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Confianza en uno mismo",
+            "to": "self-reliance",
+            "x": 70,
+            "y": 46,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Carreras",
+            "to": "video",
+            "x": 70,
+            "y": 55,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "En solitario a los 16 años",
+            "to": "solo-at-16",
+            "x": 70,
+            "y": 64,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Supervivencia en el mar",
+            "to": "sea-survival",
+            "x": 70,
+            "y": 74,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "solo-at-16": {
+        "image": "assets/es/fant/FANT01PU.webp",
+        "back": "main"
+      },
+      "record-rowing": {
+        "image": "assets/es/fant/FANT02PU.webp",
+        "back": "main"
+      },
+      "clipper-queen": {
+        "image": "assets/es/fant/FANT03PU.webp",
+        "back": "main"
+      },
+      "sea-survival": {
+        "image": "assets/es/fant/FANT04PU.webp",
+        "back": "main"
+      },
+      "self-reliance": {
+        "image": "assets/es/fant/FANT05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/fant/clip.mp4",
+        "poster": "assets/es/fant/FANT06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/fant/FANT00JN.mp3",
+  "sound": "assets/es/fant/FANT00IX.mp3",
+  "video": {
+    "title": "Carreras",
+    "src": "assets/es/fant/clip.mp4",
+    "poster": "assets/es/fant/poster.webp",
+    "caption": "Allí donde hay gente y agua, hay carreras de embarcaciones. Los amantes del kayak y los piraguistas confían en el poder de los músculos; las lanchas rápidas y las hidroalas dependen de los motores más modernos; y los navegantes a vela tienen que servirse del viento de la forma más efectiva.",
+    "narration": "assets/es/fant/FANT06JN.mp3"
+  }
+}

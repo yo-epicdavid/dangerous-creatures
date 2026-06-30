@@ -1,0 +1,212 @@
+{
+  "id": "pret",
+  "code": "PRET",
+  "name": "Los impostores",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "En el fondo del mar, nada es lo que parece: ¡rocas que muerden, flores que nadan y pescadores con escamas!",
+  "zones": [
+    "Arrecife de coral",
+    "Bosques de algas y praderas marinas",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/pret/PRET00AA.webp",
+    "alt": "Los impostores"
+  },
+  "intro": "En el medio ambiente submarino es aconsejable examinar el paisaje cuidadosamente. Esas rocas del fondo o esas plantas que flotan con la corriente podrían transformarse en algo completamente distinto. Asegúrate de que ese pez de aspecto tan familiar es realmente lo que tú piensas y no un impostor. Aquí abajo, las cosas no siempre son lo que parecen.",
+  "facts": [
+    {
+      "label": "El engaño",
+      "value": "El blenio de diente de sable es idéntico al lábrido limpiador de la cabeza a la cola: atrae a los clientes culebreando y después les pega un mordisco."
+    },
+    {
+      "label": "Postura única",
+      "value": "El pez quisquilla nada cabeza abajo en posición vertical y se cuelga entre las espinas de un erizo de mar para pasar desapercibido de noche."
+    },
+    {
+      "label": "Papá incubador",
+      "value": "En el pez fantasma acicular, el macho guarda los huevos en una bolsa y los incuba él mismo, quedando «preñado»."
+    },
+    {
+      "label": "Veneno letal",
+      "value": "El rascacio jorobado se confunde con las rocas del fondo —a menudo solo se le ven los ojos— y su veneno es letal."
+    },
+    {
+      "label": "Caña viva",
+      "value": "El pez sapo «lanza» y «retrae» su aleta dorsal con músculos especiales usándola como caña de pescar para engullir a sus presas."
+    }
+  ],
+  "topics": [
+    {
+      "id": "little-villains",
+      "title": "Pequeños, pero traidores",
+      "image": "assets/es/pret/PRET01PU.webp",
+      "text": "¿Estás familiarizado con el lábrido limpiador? Este práctico ser se alimenta de parásitos de otros peces, que se convierten en clientes regulares de sus \"servicios de limpieza\". Pasemos al blenio de diente de sable: parece idéntico al lábrido, de la cabeza a la cola. El blenio se sitúa y atrae a la clientela culebreando, como hacen los lábridos. Cuando el incauto cliente se dispone a que lo limpien, el blenio de diente de sable le pega un mordisco.",
+      "narration": "assets/es/pret/PRET01JN.mp3",
+      "captions": [
+        {
+          "label": "Blenio de diente de sable",
+          "text": "Aspidontus taeniatus"
+        },
+        {
+          "label": "Morena y lábrido limpiador",
+          "text": "Gymnothorax undulatus con Labroides bicolor"
+        }
+      ]
+    },
+    {
+      "id": "animal-or-vegetable",
+      "title": "¿Animal o vegetal?",
+      "image": "assets/es/pret/PRET02PU.webp",
+      "text": "El pez quisquilla ha ideado un ingenioso sistema para ocultarse de noche de los predadores: se cuelga cabeza abajo entre las plantas o las espinas de un erizo de mar. Su rayado, escuálido y largo cuerpo, así como su desdentado hocico, son casi transparentes, lo que le ayuda a confundirse con el entorno. El pez quisquilla incluso nada cabeza abajo en posición vertical. \"Oye, ¡que no todos los peces somos iguales!\", parece decir.",
+      "narration": "assets/es/pret/PRET02JN.mp3",
+      "captions": [
+        {
+          "label": "Pez quisquilla",
+          "text": "Aeolisous strigatus"
+        }
+      ]
+    },
+    {
+      "id": "fish-or-flower",
+      "title": "¿Pez o flor?",
+      "image": "assets/es/pret/PRET03PU.webp",
+      "text": "Puede que sea pequeña, pero la mula es capaz de realizar las más increíbles proezas. De hecho, el macho se las arregla para quedar \"preñado\". Está dotado de una bolsa en la que guarda los huevos, que incuba él mismo. El pez fantasma acicular tiene además el don de esfumarse repentinamente.",
+      "captions": [
+        {
+          "label": "Pez fantasma acicular",
+          "text": "Solenostomus paradoxus"
+        },
+        {
+          "label": "Un fantasma verde",
+          "text": "¡Este pez se parece mucho a las algas en las que habita! Pez fantasma acicular (Solenostomus cyanopterus)"
+        },
+        {
+          "label": "Un fantasma de colores",
+          "text": "El pez fantasma acicular puede camuflarse entre la plantas marinas. ¿Eres capaz de distinguirlo?"
+        }
+      ],
+      "narration": "assets/es/pret/PRET03JN.mp3"
+    },
+    {
+      "id": "fake-rocks",
+      "title": "Falsas rocas",
+      "image": "assets/es/pret/PRET04PU.webp",
+      "text": "¡Ciertos peces no tienen vergüenza! Imagínate haciéndote pasar por una roca... ¡y encima venenosa! Sapo y coral: Este pez sapo de hermosos colores se camufla hasta adquirir exactamente el mismo aspecto que los corales o las algas flotantes del golfo en el que habita. Hasta tiene unas protuberancias con aspecto de ramas en el morro y en el cuerpo. Permanece casi toda la vida inmóvil, esperando la ocasión de devorar a los peces que pasan. Piedras venenosas: Su apariencia es grotesca y su veneno letal. ¿Y si tu vida dependiese de distinguirlos? El rascacio jorobado se parece tanto a las rocas del fondo que a menudo sólo se le ven los ojos. Este estupendo método de camuflaje es una estratagema para cazar: el rascacio jorobado destroza a la desprevenida presa con su gran y poderosa boca.",
+      "captions": [
+        {
+          "label": "Rascacio jorobado",
+          "text": "Scorpaenopsis gibbosus"
+        },
+        {
+          "label": "Pez sapo",
+          "text": "Antennatus tuberosus"
+        }
+      ],
+      "narration": "assets/es/pret/PRET04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "¿Qué es un pez?",
+      "to": "what"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/pret/PRET00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 12,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "¿Pez o pescador?",
+            "to": "video",
+            "x": 6,
+            "y": 42,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "¿Animal o vegetal?",
+            "to": "animal-or-vegetable",
+            "x": 11,
+            "y": 54,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "¿Pez o flor?",
+            "to": "fish-or-flower",
+            "x": 9,
+            "y": 66,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Pequeños, pero traidores",
+            "to": "little-villains",
+            "x": 56,
+            "y": 27,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Falsas rocas",
+            "to": "fake-rocks",
+            "x": 61,
+            "y": 57,
+            "w": 13,
+            "h": 5
+          }
+        ]
+      },
+      "little-villains": {
+        "image": "assets/es/pret/PRET01PU.webp",
+        "back": "main"
+      },
+      "animal-or-vegetable": {
+        "image": "assets/es/pret/PRET02PU.webp",
+        "back": "main"
+      },
+      "fish-or-flower": {
+        "image": "assets/es/pret/PRET03PU.webp",
+        "back": "main"
+      },
+      "fake-rocks": {
+        "image": "assets/es/pret/PRET04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/pret/clip.mp4",
+        "poster": "assets/es/pret/PRET05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/pret/PRET00JN.mp3",
+  "sound": "assets/es/pret/PRET00IX.mp3",
+  "video": {
+    "title": "¿Pez o pescador?",
+    "src": "assets/es/pret/clip.mp4",
+    "poster": "assets/es/pret/poster.webp",
+    "caption": "El pez sapo lanza y retrae su aleta dorsal como si fuera una caña de pescar para atraer a peces pequeños y engullirlos.",
+    "narration": "assets/es/pret/PRET05JN.mp3"
+  }
+}

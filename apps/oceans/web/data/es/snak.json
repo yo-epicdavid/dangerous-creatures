@@ -1,0 +1,184 @@
+{
+  "id": "snak",
+  "code": "SNAK",
+  "name": "La serpiente marina",
+  "category": "creature",
+  "scientificName": "Pelamis platurus",
+  "needsScientificVerify": false,
+  "tagline": "¡Escamas, veneno y cola de timón: las serpientes del océano son más sorprendentes de lo que crees!",
+  "zones": [
+    "Arrecife de coral",
+    "Costa y charcas de marea",
+    "Mar abierto"
+  ],
+  "oceans": [
+    "Océano Índico",
+    "Océano Pacífico"
+  ],
+  "hero": {
+    "image": "assets/es/snak/SNAK00AA.webp",
+    "alt": "La serpiente marina"
+  },
+  "intro": "Hay más de cincuenta especies de serpientes venenosas en el océano. Las serpientes marinas son buenas nadadoras, pues poseen una cola aplanada que utilizan de timón, pero como los demás reptiles, respiran aire y necesitan salir a menudo a la superficie para sobrevivir. La mayoría de las serpientes marinas vive en el océano Índico y en el Pacífico occidental, al norte de Australia. Sin embargo, esta serpiente es la que habita una zona más extensa del océano: la zona comprendida entre la costa oriental de África y el canal de Panamá. Afortunadamente, la mayor parte de las serpientes marinas sólo quieren que las dejen tranquilas.",
+  "facts": [
+    {
+      "label": "Especies",
+      "value": "Hay más de cincuenta especies de serpientes venenosas en el océano."
+    },
+    {
+      "label": "Distribución",
+      "value": "La mayoría vive en el océano Índico y en el Pacífico occidental, al norte de Australia."
+    },
+    {
+      "label": "Veneno",
+      "value": "Algunas serpientes marinas tienen un veneno cincuenta veces más potente que el de una cobra."
+    },
+    {
+      "label": "Dieta",
+      "value": "Comen peces y devoran anguilas que se refugian en los arrecifes de coral."
+    },
+    {
+      "label": "Adaptación",
+      "value": "Poseen una cola aplanada que usan de timón, pero deben salir a la superficie a respirar aire."
+    },
+    {
+      "label": "Amenaza",
+      "value": "Las serpientes de cola ancha son cazadas por su hermosa piel y sabrosa carne, considerada un bocado exquisito en muchos países asiáticos."
+    }
+  ],
+  "topics": [
+    {
+      "id": "landlubber-cousins",
+      "title": "Familiares de agua dulce",
+      "image": "assets/es/snak/SNAK01PU.webp",
+      "text": "Al principio, todas las serpientes vivían en tierra firme, pero por alguna razón un grupo de ellas decidió trasladarse al mar. Aquí hay un par de serpientes de tierra que pertenecen a la misma familia de serpientes venenosas que sus parientes marinos.\n\nMuy peligrosa\nLa serpiente coral es una pequeña serpiente terrestre con colmillos de pequeño tamaño, por lo que le sería difícil morder a una persona en otro sitio que no fuera un dedo. En cualquier caso, nunca es buena idea molestar a una serpiente, ya sea en la tierra o en el mar.\n\nPariente de las cobras\nLas cobras son peligrosas debido a su veneno mortífero. Pero algunas serpientes marinas tienen un veneno cincuenta veces más potente que el de una cobra. Pese a eso, ninguno de esos dos reptiles representan un peligro para el ser humano si se las deja en paz.",
+      "captions": [
+        {
+          "label": "Serpiente coral de Costa Rica",
+          "text": "Micrurus nigrocinctus"
+        },
+        {
+          "label": "Cobra",
+          "text": "Naja haje"
+        }
+      ],
+      "narration": "assets/es/snak/SNAK01JN.mp3"
+    },
+    {
+      "id": "slithering-snacks",
+      "title": "Serpientes escurridizas",
+      "image": "assets/es/snak/SNAK02PU.webp",
+      "text": "Todas las serpientes marinas comen peces y muchas devoran a las pequeñas anguilas que se refugian en los arrecifes de coral. Las serpientes pueden perseguir a las anguilas hasta el interior de sus madrigueras gracias a su largo y esbelto cuerpo. Un rápido mordisco y la anguila quedará paralizada por el veneno de la serpiente. No hay escape posible para una anguila cuando la persigue una serpiente marina.",
+      "narration": "assets/es/snak/SNAK02JN.mp3",
+      "captions": [
+        {
+          "label": "Morena azul listada",
+          "text": "Rhinomuraena ambionensis"
+        }
+      ]
+    },
+    {
+      "id": "snakelike-swimmers",
+      "title": "Serpenteantes nadadores",
+      "image": "assets/es/snak/SNAK03PU.webp",
+      "text": "A primera vista, puede ser difícil distinguir a una serpiente de una anguila e incluso de una mula o aguja. Si tienes la más mínima duda de cuál es cuál, ¡será mejor que te alejes de estos animales!\n\nPiel de escamas\nComo todos los reptiles, las serpientes marinas están cubiertas de escamas. Limítate a mirar, ¡no la toques!\n\nSerpiente marina anillada\nEsta serpiente tiene branquias y una piel suave sin escamas. También tiene afilados dientes, por lo que harías mejor en no acercarte a comprobarlo.",
+      "captions": [
+        {
+          "label": "Serpiente marina anillada",
+          "text": "Leiuranus semicinctus"
+        },
+        {
+          "label": "Serpiente marina anillada",
+          "text": "Laticauda sp."
+        }
+      ],
+      "narration": "assets/es/snak/SNAK03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "El rascacio",
+      "to": "scor"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/snak/SNAK00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 8,
+            "h": 10
+          },
+          {
+            "label": "Dentro y fuera del agua",
+            "to": "video",
+            "x": 32,
+            "y": 50,
+            "w": 24,
+            "h": 7
+          },
+          {
+            "label": "Serpenteantes nadadores",
+            "to": "snakelike-swimmers",
+            "x": 64,
+            "y": 43,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "Familiares de agua dulce",
+            "to": "landlubber-cousins",
+            "x": 13,
+            "y": 69,
+            "w": 19,
+            "h": 8
+          },
+          {
+            "label": "Serpientes escurridizas",
+            "to": "slithering-snacks",
+            "x": 44,
+            "y": 69,
+            "w": 18,
+            "h": 8
+          }
+        ]
+      },
+      "landlubber-cousins": {
+        "image": "assets/es/snak/SNAK01PU.webp",
+        "back": "main"
+      },
+      "slithering-snacks": {
+        "image": "assets/es/snak/SNAK02PU.webp",
+        "back": "main"
+      },
+      "snakelike-swimmers": {
+        "image": "assets/es/snak/SNAK03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/snak/clip.mp4",
+        "poster": "assets/es/snak/SNAK04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/snak/SNAK00JN.mp3",
+  "sound": "assets/es/snak/SNAK00IX.mp3",
+  "video": {
+    "title": "Dentro y fuera del agua",
+    "src": "assets/es/snak/clip.mp4",
+    "poster": "assets/es/snak/poster.webp",
+    "caption": "Una serpiente marina de cola ancha (Laticauda colubrina) que pasa la mayor parte del tiempo en la orilla, metiéndose en el agua sólo para obtener comida. Estas serpientes viven en Asia y prefieren ocultarse en las cuevas y grietas de las rocas durante el día. El hecho de vivir en la orilla las convierte en presa fácil para el ser humano, quien las caza por su hermosa piel y sabrosa carne, considerada un bocado exquisito en muchos países asiáticos.",
+    "narration": "assets/es/snak/SNAK04JN.mp3"
+  }
+}

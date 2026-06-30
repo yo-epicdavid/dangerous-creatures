@@ -1,0 +1,182 @@
+{
+  "id": "fanw",
+  "code": "FANW",
+  "name": "Tubícolas y poliquetos",
+  "category": "creature",
+  "scientificName": "Sabella melanostigma",
+  "needsScientificVerify": false,
+  "tagline": "¡Los gusanos más listos del mar viven escondidos dentro de sus propios tubos!",
+  "zones": [
+    "Arrecife de coral",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/fanw/FANW00AA.webp",
+    "alt": "Tubícolas y poliquetos"
+  },
+  "intro": "Si es una criatura con un cuerpo blando como un gusano, más vale pensar en una forma de protegerse. Los gusanos marinos, presentan algunas defensas interesantes. Considera por ejemplo a los tubícolas: los delicados penachos que ves aquí son en realidad tentáculos de alimentación de los gusanos. Sus cuerpos blandos están encerrados y seguros en tubos calcáreos que están enterrados en un lecho de coral. ¡Unos gusanos bastante inteligentes!",
+  "facts": [
+    {
+      "label": "Protección",
+      "value": "Los tubícolas encierran sus cuerpos blandos en tubos calcáreos enterrados en lechos de coral."
+    },
+    {
+      "label": "Tentáculos",
+      "value": "Los delicados penachos de los tubícolas son en realidad tentáculos de alimentación."
+    },
+    {
+      "label": "Gusanos de fuego",
+      "value": "Algunos poliquetos tienen púas afiladas unidas a glándulas venenosas; cualquier roce produce una sensación de quemazón."
+    },
+    {
+      "label": "Dieta",
+      "value": "Los tubícolas se alimentan de plancton y desechos orgánicos recogidos con sus tentáculos empenachados."
+    },
+    {
+      "label": "Constructor",
+      "value": "El gusano empenachado extrae calcio del agua de mar para construir su tubo protector."
+    },
+    {
+      "label": "Parásito",
+      "value": "Un pequeño animal con muchas tenias puede morir de hambre aunque coma mucho."
+    }
+  ],
+  "topics": [
+    {
+      "id": "bristling-relatives",
+      "title": "Parientes irritados",
+      "image": "assets/es/fanw/FANW01PU.webp",
+      "text": "Los tubícolas son anélidos: gusanos con cuerpos segmentados. Estos poliquetos son anélidos también, pero con un estilo de vida diferente. La mayoría de los anélidos se oculta en los suelos arenosos o fangosos del océano, saliendo sólo cuando huelen la comida. A algunos poliquetos se les llama \"gusanos de fuego\" porque sus púas afiladas están unidas a glándulas venenosas y cualquier roce con ellos produce una sensación de quemazón. Esto protege a los gusanos de algunos predadores, pero la mayoría de los peces se los traga enteros con púas y todo.",
+      "captions": [
+        {
+          "label": "Ratón de mar, Escocia",
+          "text": "Aphrodite aculeata"
+        },
+        {
+          "label": "Poliqueto, mar Caribe",
+          "text": "Hermodice carunculata"
+        }
+      ],
+      "narration": "assets/es/fanw/FANW01JN.mp3"
+    },
+    {
+      "id": "feathery-feeders",
+      "title": "El alimento de los empenachados",
+      "image": "assets/es/fanw/FANW02PU.webp",
+      "text": "¿Qué come un tubícola? Plancton y desechos orgánicos que recoge con sus tentáculos de alimentación empenachados. Siempre que veas a un tubícola agitando sus tentáculos en las corrientes, el agua está llena de alimentos, aunque no la puedas ver a simple vista. Sus tentáculos tienen frecuentemente forma de abanico y \"abanican\" su comida hacia la boca, que está en el centro de los tentáculos.",
+      "captions": [
+        {
+          "label": "Gusanos empenachados, Caribe",
+          "text": "Sabella melanostigma"
+        }
+      ],
+      "narration": "assets/es/fanw/FANW02JN.mp3"
+    },
+    {
+      "id": "oh-yuck",
+      "title": "¡Qué asco!",
+      "image": "assets/es/fanw/FANW03PU.webp",
+      "text": "Entre los gusanos hay muchos que algunos calificarían de asquerosos. He aquí dos que muchas personas preferirían no tocar.\n\nUn comedor nada melindroso\nEsta gusana, que es un anélido, come los desperdicios que encuentra cuando cava en la arena y el fango. Algunas gusanas también viven dentro de los caparazones de otros animales, para poder robar parte de los alimentos del propietario del caparazón.\n\nParásito\nLa tenia vive dentro de otros animales, incluidos los peces. En lugar de trabajar para conseguir comida, simplemente come la de su huésped. Un animal que tenga una tenia puede no darse cuenta, pero un pequeño animal con muchas tenias puede morir de hambre, aunque coma mucho. Las personas que comen carne cruda o mariscos corren el riesgo de atrapar una tenia.",
+      "captions": [
+        {
+          "label": "Tenia, dentro de la cabeza",
+          "text": "Taenia scolex"
+        },
+        {
+          "label": "Gusana",
+          "text": "Nereis virens"
+        }
+      ],
+      "narration": "assets/es/fanw/FANW03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Los turbelarios",
+      "to": "flat"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/fanw/FANW00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 2,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "¡Qué asco!",
+            "to": "oh-yuck",
+            "x": 72,
+            "y": 27,
+            "w": 14,
+            "h": 6
+          },
+          {
+            "label": "Parientes irritados",
+            "to": "bristling-relatives",
+            "x": 20,
+            "y": 51,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "La vida en un tubo",
+            "to": "video",
+            "x": 12,
+            "y": 60,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "El alimento de los empenachados",
+            "to": "feathery-feeders",
+            "x": 20,
+            "y": 69,
+            "w": 26,
+            "h": 5
+          }
+        ]
+      },
+      "bristling-relatives": {
+        "image": "assets/es/fanw/FANW01PU.webp",
+        "back": "main"
+      },
+      "feathery-feeders": {
+        "image": "assets/es/fanw/FANW02PU.webp",
+        "back": "main"
+      },
+      "oh-yuck": {
+        "image": "assets/es/fanw/FANW03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/fanw/clip.mp4",
+        "poster": "assets/es/fanw/FANW04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/fanw/FANW00JN.mp3",
+  "sound": "assets/es/fanw/FANW00IX.mp3",
+  "video": {
+    "title": "La vida en un tubo",
+    "src": "assets/es/fanw/clip.mp4",
+    "poster": "assets/es/fanw/poster.webp",
+    "caption": "El gusano empenachado extrae calcio del agua de mar y utiliza este mineral para construir su tubo protector. Confía en sus frágiles tentáculos para alimentarse y respirar y, por lo tanto, se retira al interior de su tubo a la menor señal de peligro. Este gusano vive habitualmente entre otros filtradores, como los corales, los balanos y las anémonas. Y aunque los corales se llevan normalmente la fama de ser los constructores de los arrecifes, este gusano aporta su colaboración, contribuyendo a estas estructuras con su tubo como caparazón.",
+    "narration": "assets/es/fanw/FANW04JN.mp3"
+  }
+}

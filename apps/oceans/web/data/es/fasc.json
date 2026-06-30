@@ -1,0 +1,264 @@
+{
+  "id": "fasc",
+  "code": "FASC",
+  "name": "Tiburones fascinantes",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡El depredador más temido del océano es también uno de sus seres más fascinantes!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Mar abierto",
+    "Arrecife de coral",
+    "Mar profundo"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/fasc/FASC00AA.webp",
+    "alt": "Tiburones fascinantes"
+  },
+  "intro": "Si oyes el grito de \"¡tiburón!\" en una playa oceánica, verás a la gente salir disparada del agua con la rapidez de los pingüinos. Las películas y los libros describen a los tiburones como predadores voraces que con frecuencia persiguen al hombre como presa. Y no hay que negarlo: cada año, unas cuantas personas son mordidas por tiburones. Pero se corre mucho más riesgo de sufrir un accidente de circulación que de ser atacado por un tiburón, aunque se pase mucho tiempo nadando en el océano. Hay tiburones de todos los tamaños, formas y colores, y la mayoría resultan más fascinantes que temibles.",
+  "facts": [
+    {
+      "label": "Tamaño",
+      "value": "El tiburón ballena puede desarrollarse hasta alcanzar más de 18 m de longitud, convirtiéndolo en el mayor pez de la tierra."
+    },
+    {
+      "label": "Dieta",
+      "value": "El inmenso tiburón ballena sólo come plancton, quisquillas y peces diminutos."
+    },
+    {
+      "label": "El 2.º más grande",
+      "value": "El tiburón peregrino puede medir más de 15 m de largo y nada cerca de la superficie del agua."
+    },
+    {
+      "label": "Historia",
+      "value": "Los tiburones ya existían mucho antes de que los dinosaurios aparecieran sobre la tierra."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Se corre mucho más riesgo de sufrir un accidente de circulación que de ser atacado por un tiburón, aunque se pase mucho tiempo nadando en el océano."
+    },
+    {
+      "label": "Gestación",
+      "value": "El cascarón del tiburón hinchado puede tardar entre 7 y 10 meses en abrirse, según la calidad del agua."
+    }
+  ],
+  "topics": [
+    {
+      "id": "a-whale-of-a-shark",
+      "title": "Un tiburón como una ballena",
+      "image": "assets/es/fasc/FASC01PU.webp",
+      "text": "El mayor pez de la tierra es un tiburón; un tiburón ballena, para ser exactos. Los científicos no están seguros de la dimensión que puede alcanzar un tiburón ballena, porque se han medido muy pocos. Sencillamente, ¡estos gigantes no se están quietos mientras un buceador nada de una punta a otra con una cinta métrica! Los expertos calculan que estos tiburones pueden desarrollarse hasta alcanzar más de 18 m de longitud. Tal vez pienses que un tiburón de este tamaño podría devorar a un animal grande, como una foca o un delfín, de un solo bocado, pero este inmenso animal sólo come plancton, quisquillas y peces diminutos.",
+      "narration": "assets/es/fasc/FASC01JN.mp3",
+      "captions": [
+        {
+          "label": "Tiburón ballena",
+          "text": "Rhincodon typus"
+        }
+      ]
+    },
+    {
+      "id": "shark-or-ray",
+      "title": "¿Tiburón o raya?",
+      "image": "assets/es/fasc/FASC02PU.webp",
+      "text": "La raya es un pez plano con grandes aletas pectorales que salen del cuerpo como alas. Algunos tiburones, como los angelotes y los tiburones sierra, también son planos y \"alados\". Entonces, ¿cómo puedes distinguir a una raya de estos tiburones? En primer lugar, comprueba las branquias: los tiburones tienen las branquias a ambos lados de la cabeza, mientras que las rayas las tienen a ambos lados del cuerpo. Después, comprueba las aletas pectorales de ambos lados: las aletas de los tiburones están unidas a la parte posterior de las branquias, mientras que las aletas de las rayas están unidas a ambos lados de la cabeza.",
+      "captions": [
+        {
+          "label": "Angelote",
+          "text": "Squatina australis"
+        },
+        {
+          "label": "Raya látigo americana, Gran Caimán, Indias británicas occidentales",
+          "text": "Dasyatis americana"
+        }
+      ],
+      "narration": "assets/es/fasc/FASC02JN.mp3"
+    },
+    {
+      "id": "dont-step-on-this-rug",
+      "title": "¡No pises esta alfombra!",
+      "image": "assets/es/fasc/FASC03PU.webp",
+      "text": "El tapicero borlado tiene dibujos complejos, borlas y bordes en la piel del cuerpo, lo que le da el aspecto de una exótica alfombra oriental. Estos toques decorativos le ayudan a romper la configuración del cuerpo y le permiten camuflarse, al confundirse con el lecho del océano, donde yace a la espera de que nade cerca un pez digno de ser devorado. Normalmente los tapiceros borlados son pacíficos, pero se sabe que han atacado cuando han sido acosados o heridos por buceadores.",
+      "narration": "assets/es/fasc/FASC03JN.mp3",
+      "captions": [
+        {
+          "label": "Tapicero borlado",
+          "text": "Orectolobus ogilbyi"
+        }
+      ]
+    },
+    {
+      "id": "eggs-and-babies",
+      "title": "Huevos y crías",
+      "image": "assets/es/fasc/FASC04PU.webp",
+      "text": "Algunos embriones de tiburón están herméticamente encerrados en los cascarones primorosos de los huevos y escondidos entre las hierbas o las rocas hasta que son capaces de eclosionar. Otros embriones de tiburón se desarrollan dentro de la madre. Con frecuencia, una cría come a otra para alimentarse. ¡Esto es llevar demasiado lejos la rivalidad entre hermanos! Una cría en una bolsa: Mientras está dentro de su cascarón, esta cría de tiburón hinchado se alimenta de la yema de huevo. Si un predador no halla el cascarón, la cría lo romperá en el periodo comprendido entre 7 y 10 meses, según la calidad del agua. Los tiburones hinchados se llaman así por su costumbre de mantenerse como una cuña entre las rocas, hinchando su estómago de agua. Cascarones en espiral: El dormilón cornudo madre lleva estos sorprendentes cascarones de huevo en su boca, mientras busca dónde esconderlos.",
+      "captions": [
+        {
+          "label": "Cachorro de tiburón hinchado",
+          "text": "Cephaloscyllium ventriosum"
+        },
+        {
+          "label": "Cascarón de huevo del dormilón cornudo",
+          "text": "Heterodontus francisci"
+        }
+      ],
+      "narration": "assets/es/fasc/FASC04JN.mp3"
+    },
+    {
+      "id": "open-wide",
+      "title": "¡Totalmente abierta!",
+      "image": "assets/es/fasc/FASC05PU.webp",
+      "text": "Algunos tiburones simplemente nadan con la boca bien abierta filtrando el krill del agua y los pequeños peces en lugar de perseguir y atacar a los grandes. Podrían sin duda asustar a un buceador, pero estos animales no son una amenaza para el hombre. El segundo pez más grande: El tiburón peregrino es el segundo pez más grande del mundo, después del tiburón ballena. Este monstruo bíblico puede medir más de 15 m de largo y le gusta nadar cerca de la superficie del agua. Extraño tiburón: Sólo se han identificado claramente dos animales de esta especie; uno, en el sur de Hawai, y otro, frente a las costas de California. Los científicos creen que el tiburón bocudo vive normalmente en aguas profundas.",
+      "captions": [
+        {
+          "label": "Tiburón peregrino",
+          "text": "Cetorhinus maximus"
+        },
+        {
+          "label": "Tiburón bocudo",
+          "text": "Megachasma pelagios"
+        }
+      ],
+      "narration": "assets/es/fasc/FASC05JN.mp3"
+    },
+    {
+      "id": "protection-for-sharks",
+      "title": "La protección de los tiburones",
+      "image": "assets/es/fasc/FASC06PU.webp",
+      "text": "Mucho antes de que los dinosaurios aparecieran sobre la tierra, ya había tiburones. Actualmente, algunas especies están amenazadas de extinción porque los hombres los estamos comiendo en una tasa superior a la de su capacidad de reproducción. Tiburones sin aletas: Estas aletas de tiburón están destinadas a ser vendidas en Asia. Algunos pescadores capturan tiburones, les cortan las aletas y los arrojan vivos al agua. Pero sin sus aletas, un tiburón no puede nadar bien ni capturar presas, por lo que termina muriendo de hambre. Tiburón y patatas fritas: El pez perro, una especie de tiburón, se vende como pescado con patatas fritas. En Asia comen sopa de aleta de tiburón. Tiburones en tubo: El aceite de tiburón se utilizaba para fabricar barras de labios y píldoras vitamínicas, hoy se usan sustitutos hechos por el hombre.",
+      "narration": "assets/es/fasc/FASC06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Timeline of Evolution"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/fasc/FASC00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 7,
+            "h": 8
+          },
+          {
+            "label": "Timeline of Evolution",
+            "x": 84,
+            "y": 1,
+            "w": 14,
+            "h": 11,
+            "disabled": true
+          },
+          {
+            "label": "Un tiburón como una ballena",
+            "to": "a-whale-of-a-shark",
+            "x": 53,
+            "y": 28,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "¿Tiburón o raya?",
+            "to": "shark-or-ray",
+            "x": 52,
+            "y": 50,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "¡Totalmente abierta!",
+            "to": "open-wide",
+            "x": 7,
+            "y": 54,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Bellos tiburones",
+            "to": "video",
+            "x": 2,
+            "y": 72,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Huevos y crías",
+            "to": "eggs-and-babies",
+            "x": 57,
+            "y": 62,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "¡No pises esta alfombra!",
+            "to": "dont-step-on-this-rug",
+            "x": 47,
+            "y": 68,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "La protección de los tiburones",
+            "to": "protection-for-sharks",
+            "x": 26,
+            "y": 74,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "a-whale-of-a-shark": {
+        "image": "assets/es/fasc/FASC01PU.webp",
+        "back": "main"
+      },
+      "shark-or-ray": {
+        "image": "assets/es/fasc/FASC02PU.webp",
+        "back": "main"
+      },
+      "dont-step-on-this-rug": {
+        "image": "assets/es/fasc/FASC03PU.webp",
+        "back": "main"
+      },
+      "eggs-and-babies": {
+        "image": "assets/es/fasc/FASC04PU.webp",
+        "back": "main"
+      },
+      "open-wide": {
+        "image": "assets/es/fasc/FASC05PU.webp",
+        "back": "main"
+      },
+      "protection-for-sharks": {
+        "image": "assets/es/fasc/FASC06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/fasc/clip.mp4",
+        "poster": "assets/es/fasc/FASC07PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/fasc/FASC00JN.mp3",
+  "sound": "assets/es/fasc/FASC00IX.mp3",
+  "video": {
+    "title": "Bellos tiburones",
+    "src": "assets/es/fasc/clip.mp4",
+    "poster": "assets/es/fasc/poster.webp",
+    "caption": "Con su cuerpo esbelto y aerodinámico, es uno de los peces más elegantes. En términos de evolución, parece que la Naturaleza logró el máximo nivel a la primera: desde los dinosaurios hasta ahora, el diseño básico de los tiburones ha cambiado muy poco, aunque a lo largo del tiempo se han desarrollado muchas especies diferentes. Muchos tiburones poseen hoy en día manchas, colores atractivos y hermosas formas.",
+    "narration": "assets/es/fasc/FASC07JN.mp3"
+  }
+}

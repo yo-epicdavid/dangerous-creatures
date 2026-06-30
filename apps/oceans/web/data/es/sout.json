@@ -1,0 +1,222 @@
+{
+  "id": "sout",
+  "code": "SOUT",
+  "name": "Los exploradores del sur del Pacífico",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Los mejores navegantes del mundo conquistaron el inmenso Pacífico guiándose solo por las estrellas!",
+  "zones": [
+    "Mar abierto"
+  ],
+  "oceans": [
+    "Océano Pacífico"
+  ],
+  "hero": {
+    "image": "assets/es/sout/SOUT00AA.webp",
+    "alt": "Los exploradores del sur del Pacífico"
+  },
+  "intro": "Hace cuatro mil años, los pueblos asentados en las costas del Sudeste Asiático partieron rumbo a lejanas tierras. Estos pueblos, con el paso de los siglos, cubrieron enormes distancias en el Pacífico Sur, convirtiéndose en unos de los mejores navegantes de la Historia. Construyeron las primeras canoas de navegación por mar del planeta y desarrollaron la ciencia de navegar guiándose por las estrellas.",
+  "facts": [
+    {
+      "label": "Origen",
+      "value": "Hace cuatro mil años partieron de las costas del Sudeste Asiático"
+    },
+    {
+      "label": "Llegada a Hawái",
+      "value": "Alrededor del 100 d. de C."
+    },
+    {
+      "label": "Tahití",
+      "value": "Llegaron unos 200 años después de Hawái"
+    },
+    {
+      "label": "Isla de Pascua",
+      "value": "Rapa Nui fue ocupada por los polinesios alrededor del 400 d. de C."
+    },
+    {
+      "label": "Navegación",
+      "value": "Localizaban las corrientes midiendo la temperatura del agua con la mano"
+    },
+    {
+      "label": "Tatuajes",
+      "value": "Comenzaban a tatuarse en la infancia y seguían hasta completar la labor"
+    }
+  ],
+  "topics": [
+    {
+      "id": "life-on-board",
+      "title": "La vida a bordo",
+      "image": "assets/es/sout/SOUT01PU.webp",
+      "text": "A los exploradores del Pacífico Sur les fue bien en sus travesías por el océano, pero los exploradores europeos posteriores sufrieron el escorbuto debido a la dieta alimentaria.\n\nCon la barbacoa a cuestas\nLos polinesios almacenaban el agua en recipientes de bambú y bebían refrescante leche de coco. Durante los primeros días del viaje, comían papas dulces, taro y bananas, después cambiaban la dieta a ñames, frutos secos y pescado. También llevaban consigo pollos y una cerda preñada para tener carne fresca, que cocinaban en un pequeño horno colocado en la popa.",
+      "captions": [
+        {
+          "label": "Pájaros guía",
+          "text": "El último cargamento vivo era un pájaro fragata que viajaba en una jaula. Llegado el momento preciso, los marinos polinesios lo soltaban para que su vuelo los guiara a tierra."
+        }
+      ],
+      "narration": "assets/es/sout/SOUT01JN.mp3"
+    },
+    {
+      "id": "exquisite-artwork",
+      "title": "Exquisita artesanía",
+      "image": "assets/es/sout/SOUT02PU.webp",
+      "text": "El arte era una forma de vida para los isleños del sur del Pacífico. Cada grupo de islas había desarrollado sus propias tradiciones.\n\nLos tatuajes\nPara los polinesios el arte del tatuaje era un regalo de los dioses. Comenzaban a tatuarse en la infancia y seguían hasta completar la labor. Primero se hacía el dibujo en madera, después lo grababan en la piel con un instrumento punzante y un pequeño martillo.\n\nHermosos barcos\nLos dibujos tallados en la proa de las canoas suponían una poderosa protección contra tormentas y naufragios.",
+      "captions": [
+        {
+          "label": "Tallas intrincadas",
+          "text": "en la proa de una canoa de guerra, Nueva Zelanda"
+        }
+      ],
+      "narration": "assets/es/sout/SOUT02JN.mp3"
+    },
+    {
+      "id": "steering-by-the-stars",
+      "title": "Guiados por las estrellas",
+      "image": "assets/es/sout/SOUT03PU.webp",
+      "text": "Los isleños del Pacífico Sur tenían habilidades y sentidos altamente desarrollados que utilizaban para guiar su rumbo por las aguas. Memorizaban la posición de las estrellas y localizaban las corrientes midiendo la temperatura del agua con la mano.\n\nMapas de madera\nLos navegantes del Pacífico Sur registraban los movimientos del mar en mapas de madera. Los caparazones de caurí representaban islas.",
+      "captions": [
+        {
+          "label": "Vigilancia nocturna",
+          "text": "Las constelaciones son más visibles en los trópicos que en cualquier otra parte del mundo. Este mapa muestra las principales estrellas que se utilizan para navegar."
+        }
+      ],
+      "narration": "assets/es/sout/SOUT03JN.mp3"
+    },
+    {
+      "id": "jewels-of-the-sea",
+      "title": "Los tesoros de los mares",
+      "image": "assets/es/sout/SOUT04PU.webp",
+      "text": "Mientras que los exploradores europeos perseguían el lucro, los exploradores del Pacífico Sur sólo buscaban la aventura.\n\nEl embrujo de las islas\nDebía inspirarles la belleza y variedad de las islas frondosas, verdes y escarpadas; o atolones de blanca arena coralina azotados por el viento. Hay muy poca tierra firme en esa extensa región del Pacífico. Algunas islas, como la de Palau, apenas han cambiado desde la llegada de los primeros colonos.",
+      "captions": [
+        {
+          "label": "¡Rumbo al este!",
+          "text": "Navegaron en dirección este hasta alcanzar las islas Hawai alrededor del 100 d. de C., y Tahití unos 200 años más tarde. Alrededor del 650 d. de C., habían explorado todas las islas polinesias y, un siglo después, llegaron a Nueva Zelanda."
+        }
+      ],
+      "narration": "assets/es/sout/SOUT04JN.mp3"
+    },
+    {
+      "id": "distinctive-statues",
+      "title": "Misteriosas estatuas",
+      "image": "assets/es/sout/SOUT05PU.webp",
+      "text": "Los antiguos polinesios dejaron estatuas representando a sus dioses en muchas de las islas que visitaron. Los nativos de estas islas todavía continúan pensando que las estatuas están habitadas por poderosos espíritus.\n\nTiki\nLas esculturas en piedra de tamaño pequeño reciben el nombre de tiki. Los tikis, dependiendo de la isla de procedencia, pueden representar a dioses o a ancestros. Algunos son realmente pequeños y se utilizan para hacer collares.",
+      "captions": [
+        {
+          "label": "Cabezas de todos los tamaños",
+          "text": "Rapa Nui, también conocida como la Isla de Pascua, fue ocupada por los polinesios alrededor del 400 d. de C. Esculpieron estas magníficas estatuas en blanda roca volcánica, ya que la madera escaseaba en la isla."
+        }
+      ],
+      "narration": "assets/es/sout/SOUT05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Arts & Literature of the Sea"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/sout/SOUT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 9,
+            "h": 6
+          },
+          {
+            "label": "Guiados por las estrellas",
+            "to": "steering-by-the-stars",
+            "x": 27,
+            "y": 41,
+            "w": 32,
+            "h": 5
+          },
+          {
+            "label": "Canoas sagradas",
+            "to": "video",
+            "x": 14,
+            "y": 52,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Los tesoros de los mares",
+            "to": "jewels-of-the-sea",
+            "x": 3,
+            "y": 62,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Exquisita artesanía",
+            "to": "exquisite-artwork",
+            "x": 72,
+            "y": 36,
+            "w": 25,
+            "h": 6
+          },
+          {
+            "label": "La vida a bordo",
+            "to": "life-on-board",
+            "x": 72,
+            "y": 50,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Misteriosas estatuas",
+            "to": "distinctive-statues",
+            "x": 67,
+            "y": 62,
+            "w": 28,
+            "h": 8
+          }
+        ]
+      },
+      "life-on-board": {
+        "image": "assets/es/sout/SOUT01PU.webp",
+        "back": "main"
+      },
+      "exquisite-artwork": {
+        "image": "assets/es/sout/SOUT02PU.webp",
+        "back": "main"
+      },
+      "steering-by-the-stars": {
+        "image": "assets/es/sout/SOUT03PU.webp",
+        "back": "main"
+      },
+      "jewels-of-the-sea": {
+        "image": "assets/es/sout/SOUT04PU.webp",
+        "back": "main"
+      },
+      "distinctive-statues": {
+        "image": "assets/es/sout/SOUT05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/sout/clip.mp4",
+        "poster": "assets/es/sout/SOUT06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/sout/SOUT00JN.mp3",
+  "sound": "assets/es/sout/SOUT00IX.mp3",
+  "video": {
+    "title": "Canoas sagradas",
+    "src": "assets/es/sout/clip.mp4",
+    "poster": "assets/es/sout/poster.webp",
+    "caption": "Polinesios modernos navegan una canoa tradicional en el mar, mostrando el arte ancestral de construcción y navegación que los antiguos isleños consideraban una práctica sagrada.",
+    "narration": "assets/es/sout/SOUT06JN.mp3"
+  }
+}

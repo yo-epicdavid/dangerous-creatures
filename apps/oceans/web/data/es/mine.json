@@ -1,0 +1,226 @@
+{
+  "id": "mine",
+  "code": "MINE",
+  "name": "Minerales del mar",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "El fondo del océano esconde un tesoro de oro, diamantes y petróleo esperando ser descubiertos.",
+  "zones": [
+    "Costa y charcas de marea",
+    "Mar abierto",
+    "Mar profundo"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/mine/MINE00AA.webp",
+    "alt": "Minerales del mar"
+  },
+  "intro": "En el fondo del mar hay un tesoro: minerales de gran valor, como oro, y recursos como petróleo, arena y grava, tanto en las playas como en las profundidades del océano. Pero encontrar y recuperar estos depósitos no es fácil, y a menudo resulta más barato explotar yacimientos similares en tierra. Además, son necesarias máquinas especiales para afrontar las condiciones peligrosas causadas por las olas, la profundidad del agua y la presión.",
+  "facts": [
+    {
+      "label": "Sal del mundo",
+      "value": "Aproximadamente un tercio de la sal del mundo se extrae del mar."
+    },
+    {
+      "label": "Nódulos",
+      "value": "Los nódulos de manganeso contienen cobre, cobalto, níquel, manganeso y otros minerales; se forman en el profundo fondo oceánico."
+    },
+    {
+      "label": "Petróleo",
+      "value": "Las plataformas continentales poco profundas contienen la mayor parte del gas y petróleo de los océanos."
+    },
+    {
+      "label": "Tesoros costeros",
+      "value": "Los diamantes y el oro procedentes de yacimientos terrestres son arrastrados al océano por los ríos y concentrados en ciertas playas."
+    },
+    {
+      "label": "Agua dulce",
+      "value": "Sólo podemos vivir unos pocos días sin agua; la desalinización permite obtenerla del mar, aunque suele ser cara."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Las playas del suroeste africano se rastrean en busca de diminutos diamantes; las antiguas playas hoy emergidas también los contienen."
+    }
+  ],
+  "topics": [
+    {
+      "id": "ready-for-delivery",
+      "title": "Listos para la entrega",
+      "image": "assets/es/mine/MINE02PU.webp",
+      "text": "Algunos lugares del fondo del mar contienen minerales útiles. En alguna de estas zonas pueden ser extraídos actualmente, pero otras son demasiado profundas... ¡y tendrán que ser inspeccionadas por los futuros exploradores!\n\nPepitas preciosas\nLos nódulos de manganeso se encuentran en ciertas zonas del profundo fondo oceánico. Estos conglomerados de metal contienen cobre, cobalto, níquel, manganeso y otros minerales. Se desarrollan lentamente en el agua de mar de la misma forma que lo hacen los huesos, como sustancias químicas, formando capas alrededor de un núcleo.\n\nDragado perjudicial\nLa arena y la grava de las plataformas continentales se recogen para utilizarlas como material de construcción. Sin embargo, este proceso puede destruir los hábitats y agitar nubes de sedimentos, que reducen la fotosíntesis y matan a los organismos que viven en los arrecifes. También pueden alterarse los patrones locales de olas y corrientes aumentando la erosión costera.",
+      "captions": [
+        {
+          "label": "Nódulo de manganeso",
+          "text": "Nódulo de manganeso"
+        },
+        {
+          "label": "Jaiba de las piedras",
+          "text": "Jaiba de las piedras, California Cancer gracilis"
+        }
+      ],
+      "narration": "assets/es/mine/MINE02JN.mp3"
+    },
+    {
+      "id": "the-birth-of-minerals",
+      "title": "El nacimiento de los minerales",
+      "image": "assets/es/mine/MINE03PU.webp",
+      "text": "En ciertos lugares de las dorsales centro oceánicas, existen chimeneas hidrotermales, en las que se desarrollan seres extraños en la helada oscuridad. A medida que se rompe el lecho marítimo en estas dorsales, el agua de mar se cuela por las grietas recién abiertas. Esta agua es calentada por el magma subterráneo y vuelve a emerger al lecho del océano cargada ya de minerales. Estos minerales forman altas chimeneas a través de las que el agua es bombeada de nuevo al agua fría del océano. Los gusanos tubícolas y las almejas gigantes se suman al misterio de este extraño medio ambiente.",
+      "narration": "assets/es/mine/MINE03JN.mp3"
+    },
+    {
+      "id": "basic-needs",
+      "title": "Las necesidades básicas",
+      "image": "assets/es/mine/MINE04PU.webp",
+      "text": "¿Qué es lo que hay en el agua de mar? Entre otras cosas, agua dulce y sal, sustancias que a menudo consideramos garantizadas. Sin embargo, sólo podemos vivir unos pocos días sin agua, y la sal hace que nuestra vida sea mucho más fácil en muchos terrenos.\n\nFábricas de agua\nLa obtención de agua dulce a partir del agua de mar a través de la desalinización es generalmente más cara que conseguir agua de otras fuentes. Sin embargo, en algunas zonas, la ausencia de cualquier agua disponible hace que valga la pena pagar el precio.\n\nPor favor, pásame la sal\nAproximadamente, un tercio de la sal del mundo se extrae del mar. La sal permite la tracción en las superficies de las carreteras, conserva los alimentos y condimenta nuestra comida.",
+      "captions": [
+        {
+          "label": "Recogida de sal",
+          "text": "Recogida de sal en Columbia"
+        },
+        {
+          "label": "Tráfico en Nueva York",
+          "text": "Tráfico en la ciudad de Nueva York, Estados Unidos"
+        }
+      ],
+      "narration": "assets/es/mine/MINE04JN.mp3"
+    },
+    {
+      "id": "sifting-the-sands",
+      "title": "Cribar la arena",
+      "image": "assets/es/mine/MINE05PU.webp",
+      "text": "Los diamantes, el oro y otros minerales procedentes de yacimientos terrestres son arrastrados con frecuencia al océano por los ríos. Las corrientes que bordean las costas mezclan estos minerales con la arena de las playas y concentran estas partículas preciosas en ciertas áreas.\n\nEl descubrimiento del oro\nDurante el siglo pasado, hordas de mineros acamparon en las playas heladas de Nome, Alaska, y se dedicaron a cribar la arena en busca de oro.\n\nDiamantes en bruto\nLas playas de la costa del suroeste africano se rastrean en busca de diminutos diamantes. Las zonas que fueron en otro tiempo playas, pero que actualmente se encuentran por encima de la línea del mar, a menudo contienen también diamantes.",
+      "captions": [
+        {
+          "label": "Mineros en Nome",
+          "text": "Mineros cribando en busca de oro en Nome, Alaska"
+        },
+        {
+          "label": "Pepitas de oro",
+          "text": "Pepitas de oro"
+        }
+      ],
+      "narration": "assets/es/mine/MINE05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Tesoros en el fondo del mar",
+      "to": "buri"
+    },
+    {
+      "label": "Submarinos y robots",
+      "to": "robo"
+    },
+    {
+      "label": "Las islas",
+      "to": "isla"
+    },
+    {
+      "label": "El ciclo del agua",
+      "to": "wcyc"
+    },
+    {
+      "label": "Los piratas",
+      "to": "pira"
+    },
+    {
+      "label": "La nutria marina",
+      "to": "ottr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/mine/MINE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 2,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Las necesidades básicas",
+            "to": "basic-needs",
+            "x": 57,
+            "y": 20,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Listos para la entrega",
+            "to": "ready-for-delivery",
+            "x": 73,
+            "y": 12,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "El nacimiento de los minerales",
+            "to": "the-birth-of-minerals",
+            "x": 43,
+            "y": 46,
+            "w": 16,
+            "h": 8
+          },
+          {
+            "label": "Petróleo y agua",
+            "to": "video",
+            "x": 63,
+            "y": 51,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Cribar la arena",
+            "to": "sifting-the-sands",
+            "x": 62,
+            "y": 67,
+            "w": 14,
+            "h": 8
+          }
+        ]
+      },
+      "ready-for-delivery": {
+        "image": "assets/es/mine/MINE02PU.webp",
+        "back": "main"
+      },
+      "the-birth-of-minerals": {
+        "image": "assets/es/mine/MINE03PU.webp",
+        "back": "main"
+      },
+      "basic-needs": {
+        "image": "assets/es/mine/MINE04PU.webp",
+        "back": "main"
+      },
+      "sifting-the-sands": {
+        "image": "assets/es/mine/MINE05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/mine/clip.mp4",
+        "poster": "assets/es/mine/MINE01PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/mine/MINE00JN.mp3",
+  "sound": "assets/es/mine/MINE00IX.mp3",
+  "video": {
+    "title": "Petróleo y agua",
+    "src": "assets/es/mine/clip.mp4",
+    "poster": "assets/es/mine/poster.webp",
+    "caption": "El petróleo y el gas se crean a partir de los restos de plantas y animales que al morir, hace muchísimo tiempo, quedaron depositados en el fondo del océano y fueron cubiertos por sedimentos. Con el tiempo, la presión y el calor los transformaron en petróleo. Las plataformas continentales poco profundas contienen la mayor parte del gas y petróleo de los océanos. Aunque los necesitamos para el transporte y la industria, deben ser explotados con cuidado para que no contaminen el mar y dañen a las criaturas que viven en él.",
+    "narration": "assets/es/mine/MINE01JN.mp3"
+  }
+}

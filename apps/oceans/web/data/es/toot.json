@@ -1,0 +1,163 @@
+{
+  "id": "toot",
+  "code": "TOOT",
+  "name": "Los dientes más temidos",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Cuidado con las mandíbulas más peligrosas del océano!",
+  "zones": [
+    "Mar abierto",
+    "Mar profundo",
+    "Arrecife de coral",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/toot/TOOT00AA.webp",
+    "alt": "Los dientes más temidos"
+  },
+  "intro": "Los peces como la barracuda y el tiburón blanco tienen enormes dientes y suelen ser predadores terriblemente feroces. Pero otros peces de enormes mandíbulas tienen una mala reputación completamente injustificada. En cualquier caso, lo mejor es no provocar a ninguno de estos poderosos habitantes de las aguas.",
+  "facts": [
+    {
+      "label": "Velocidad",
+      "value": "La barracuda alcanza hasta 43,2 km por hora; el ser humano nada a unos 8 km por hora."
+    },
+    {
+      "label": "Dientes",
+      "value": "Los tiburones tienen filas de dientes de repuesto: cuando los frontales se desgastan, la siguiente fila ocupa su puesto."
+    },
+    {
+      "label": "Peces abisales",
+      "value": "Los peces de los abismos poseen enormes fauces, pero la mayoría apenas mide unos centímetros de largo."
+    },
+    {
+      "label": "Cocodrilos",
+      "value": "Los cocodrilos de agua salada pueden compartir la playa con los bañistas al sudeste de Asia, al norte de Australia y en algunas islas del sur del Pacífico."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Con las barracudas lo mejor es quedarse inmóvil: las ráfagas de color atraen aún más su atención."
+    }
+  ],
+  "topics": [
+    {
+      "id": "tigers-of-the-sea",
+      "title": "Los tigres del mar",
+      "image": "assets/es/toot/TOOT01PU.webp",
+      "text": "Algunos buzos temen más a las barracudas que a los tiburones.\n\nHermosa pero letal\nEste animal está en forma. La barracuda es esbelta, musculosa y veloz. Sus afilados dientes están hechos para cortar y desgarrar. Si te encuentras con una, no intentes escapar: las ráfagas de color atraen aún más su atención. El ser humano puede nadar a una velocidad de unos 8 km por hora; la barracuda alcanza hasta 43,2 km por hora. Aunque resulte difícil, ante estas criaturas lo mejor es quedarse inmóvil.\n\nProfundas fauces\nMuchos peces de los abismos, al haber tan poca luz en las profundidades, poseen enormes fauces y dientes que les permiten atrapar velozmente a su presa sin necesidad de verla. Afortunadamente, la mayoría de los peces de tan temible aspecto apenas mide unos centímetros de largo.",
+      "captions": [
+        {
+          "label": "Barracuda",
+          "text": "Sphyraena barracuda"
+        }
+      ],
+      "narration": "assets/es/toot/TOOT01JN.mp3"
+    },
+    {
+      "id": "emergency",
+      "title": "¡Socorro!",
+      "image": "assets/es/toot/TOOT02PU.webp",
+      "text": "Los tiburones viven en los océanos de aguas templadas y cálidas y la mayoría de ellos son inofensivos. Sin embargo, estos dos ejemplares han atacado en ocasiones al ser humano.\n\n¿Temibles o inofensivos?\nEn algunos lugares del mundo, el tiburón de arena está considerado una seria amenaza para los bañistas. En otras zonas, en cambio, se le considera un tiburón completamente inofensivo.\n\nLa muerte blanca\nLa mayor parte de los tiburones tienen los dientes afilados como navajas y serrados (o mellados) como un cuchillo de cortar carne. Suelen utilizar los dientes delanteros, pero detrás de esa fila tienen otros nuevos y en continuo crecimiento. Cuando los dientes frontales se desgastan, la siguiente fila ocupa su puesto.",
+      "captions": [
+        {
+          "label": "Tiburón de arena",
+          "text": "Odontaspis taurus"
+        },
+        {
+          "label": "Tiburón blanco",
+          "text": "Carcharodon carcharias"
+        }
+      ],
+      "narration": "assets/es/toot/TOOT02JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Caras espantosas",
+      "to": "fear"
+    },
+    {
+      "label": "Las anguilas",
+      "to": "eels"
+    },
+    {
+      "label": "Los odontocetos",
+      "to": "whlt"
+    },
+    {
+      "label": "La raya",
+      "to": "rays"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/toot/TOOT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Los cocodrilos",
+            "to": "video",
+            "x": 65,
+            "y": 19,
+            "w": 18,
+            "h": 7
+          },
+          {
+            "label": "Los tigres del mar",
+            "to": "tigers-of-the-sea",
+            "x": 24,
+            "y": 66,
+            "w": 28,
+            "h": 7
+          },
+          {
+            "label": "¡Socorro!",
+            "to": "emergency",
+            "x": 64,
+            "y": 70,
+            "w": 20,
+            "h": 7
+          }
+        ]
+      },
+      "tigers-of-the-sea": {
+        "image": "assets/es/toot/TOOT01PU.webp",
+        "back": "main"
+      },
+      "emergency": {
+        "image": "assets/es/toot/TOOT02PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/toot/clip.mp4",
+        "poster": "assets/es/toot/TOOT03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/toot/TOOT00JN.mp3",
+  "sound": "assets/es/toot/TOOT00IX.mp3",
+  "video": {
+    "title": "Los cocodrilos",
+    "src": "assets/es/toot/clip.mp4",
+    "poster": "assets/es/toot/poster.webp",
+    "caption": "Clip sobre los cocodrilos de agua salada que pueden compartir la playa con los bañistas al sudeste de Asia, al norte de Australia y en algunas islas del sur del Pacífico. Si ves algo con apariencia de tronco flotando en las olas junto a la orilla, antes de entrar en el agua asegúrate de que no es un cocodrilo.",
+    "narration": "assets/es/toot/TOOT03JN.mp3"
+  }
+}

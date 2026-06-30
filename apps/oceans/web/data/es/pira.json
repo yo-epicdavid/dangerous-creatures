@@ -1,0 +1,226 @@
+{
+  "id": "pira",
+  "code": "PIRA",
+  "name": "Los piratas",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Corsarios, filibusteros y mujeres valientes: los piratas de verdad eran mucho más salvajes que en las películas!",
+  "zones": [
+    "Mar abierto",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "Océano Atlántico",
+    "Mar Caribe",
+    "Océano Índico"
+  ],
+  "hero": {
+    "image": "assets/es/pira/PIRA00AA.webp",
+    "alt": "Los piratas"
+  },
+  "intro": "Entre los siglos XII y XIX, los piratas, corsarios y filibusteros causaron estragos en alta mar. Esos canallas aterrorizaban el litoral caribeño y atlántico, además de las costas del norte de Europa, África y la India. Ganaban y perdían el favor de los gobernantes y la realeza, que a veces apreciaban la oportunidad de compartir los tesoros de los piratas.",
+  "facts": [
+    {
+      "label": "Período activo",
+      "value": "Del siglo XII al XIX"
+    },
+    {
+      "label": "Henry Morgan",
+      "value": "Se hizo a la mar con 36 barcos y 2.000 bucaneros para saquear Panamá en 1670"
+    },
+    {
+      "label": "Grace O'Malley",
+      "value": "Con más de 60 años se presentó en cubierta en camisón, pistola y espada en mano ante los españoles, asustándoles tanto que huyeron despavoridos"
+    },
+    {
+      "label": "Capitán Kidd",
+      "value": "Contratado como corsario por los ingleses en 1695; cometió el error de atacar los barcos equivocados y fue capturado y ahorcado tras un juicio injusto"
+    },
+    {
+      "label": "Piratas mujeres",
+      "value": "Anne Bonney y Mary Read vestían ropas de hombre para no ser distinguidas de sus compañeros masculinos"
+    }
+  ],
+  "topics": [
+    {
+      "id": "fierce-females",
+      "title": "Mujeres feroces",
+      "image": "assets/es/pira/PIRA01PU.webp",
+      "text": "Algunos de los piratas más feroces fueron mujeres.",
+      "captions": [
+        {
+          "label": "La veleidosa princesa Alvilda",
+          "text": "En lugar de casarse con el hombre que su padre había elegido para ella, la princesa goda Alvilda prefirió convertirse en pirata. Su tripulación, compuesta sólo por mujeres, luchaba cuerpo a cuerpo con cuchillos, a menudo forzando a los hombres cautivos a unirse a sus fuerzas. En una ocasión, Alvilda perdió una batalla naval contra el príncipe Alf, que le propuso matrimonio. ¡Resultó ser el mismo hombre que su padre había elegido para ella!"
+        },
+        {
+          "label": "La temible Grace",
+          "text": "La pirata irlandesa Grace O'Malley tuvo numerosos hijos y le cortó a uno la mano por su desobediencia. Con más de 60 años, se presentó en cubierta en camisón, pistola y espada en mano ante los españoles, asustándoles tanto que huyeron despavoridos."
+        }
+      ],
+      "narration": "assets/es/pira/PIRA01JN.mp3"
+    },
+    {
+      "id": "why-be-a-pirate",
+      "title": "¿Por qué eran piratas?",
+      "image": "assets/es/pira/PIRA02PU.webp",
+      "text": "La gente se hacía pirata por codicia o venganza, pero también para escapar de una terrible pobreza. Vivir en la Inglaterra del siglo XVIII era tan duro, que la gente a menudo cambiaba la vida en tierra por una vida en el mar. Prestamistas, borrachos, asesinos y gentes de la peor calaña se divierten en el famoso grabado Gin Lane, de William Hogarth.",
+      "narration": "assets/es/pira/PIRA02JN.mp3"
+    },
+    {
+      "id": "women-or-men",
+      "title": "¿Hombres o mujeres?",
+      "image": "assets/es/pira/PIRA03PU.webp",
+      "text": "Tanto los hombres como las mujeres buscaban riqueza y botín en alta mar. Las mujeres solían vestirse de hombres para escapar de casa o impresionar con su fuerza a la tripulación de un barco, de forma que a menudo era difícil distinguirlas de sus compañeros masculinos.",
+      "captions": [
+        {
+          "label": "La bella y la bestia",
+          "text": "En la China del siglo XIX, Hsi Kai fue capturada por el capitán pirata Ching Yih. Cuando ella intentó sacarle los ojos, él la desposó allí mismo. Tras la muerte de Yih, Hsi Kai gobernó por su cuenta un poderoso imperio pirata, destruyendo pueblos enteros a su paso."
+        },
+        {
+          "label": "Disfrazadas",
+          "text": "Las piratas del siglo dieciocho Anne Bonney y Mary Read vestían ropas de hombre, pero se casaron con compañeros de profesión. El esposo de Mary dejó la lucha en manos de su mujer y Anne dirigió unas famosas palabras de despedida a su esposo antes de ser ahorcada."
+        }
+      ],
+      "narration": "assets/es/pira/PIRA03JN.mp3"
+    },
+    {
+      "id": "queens-favorite-pirate",
+      "title": "El pirata favorito de una reina",
+      "image": "assets/es/pira/PIRA04PU.webp",
+      "text": "El Caribe era un hervidero de corsarios y bucaneros, piratas que ofrecían sus servicios a los países en guerra. El botín se dividía entre las distintas partes convirtiéndose el saqueo en un objetivo legítimo. Desgraciadamente, muchos de los primeros exploradores pusieron las bases para ese tipo de conducta. El fanfarrón Sir Francis Drake saqueó numerosos barcos españoles y fue, entre otras cosas, un maestro del robo. La reina Isabel de Inglaterra le nombró caballero por sus hazañas.",
+      "narration": "assets/es/pira/PIRA04JN.mp3"
+    },
+    {
+      "id": "famous-ransackers",
+      "title": "Famosos saqueadores",
+      "image": "assets/es/pira/PIRA05PU.webp",
+      "text": "¡La piratería era una profesión que a veces daba sorprendentes resultados!",
+      "captions": [
+        {
+          "label": "Ilustración",
+          "text": "Henry Morgan en acción contra los españoles"
+        },
+        {
+          "label": "Un saqueador sin suerte",
+          "text": "Al famoso capitán Kidd no le fue tan bien. Este pirata fue contratado como corsario por los ingleses en 1695 y cometió el error de atacar los barcos equivocados y enterrar sus tesoros. Fue capturado y ahorcado tras un juicio injusto."
+        },
+        {
+          "label": "Un cambio repentino",
+          "text": "Henry Morgan se hizo a la mar con 36 barcos y 2.000 bucaneros para saquear Panamá en 1670. La ciudad quedó reducida a cenizas. Sin embargo, al tener lugar el saqueo tras haberse firmado un tratado de paz entre Inglaterra y España, Morgan fue arrestado. Pero al mejorar las relaciones entre ambos países fue nombrado caballero y vicegobernador de Jamaica."
+        }
+      ],
+      "narration": "assets/es/pira/PIRA05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "El océano Índico",
+      "to": "indn"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/pira/PIRA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 4,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "Famosos saqueadores",
+            "to": "famous-ransackers",
+            "x": 36,
+            "y": 4,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Una vida brutal",
+            "to": "video",
+            "x": 55,
+            "y": 37,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "El pirata favorito de una reina",
+            "to": "queens-favorite-pirate",
+            "x": 52,
+            "y": 46,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "¿Por qué eran piratas?",
+            "to": "why-be-a-pirate",
+            "x": 32,
+            "y": 62,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "¿Hombres o mujeres?",
+            "to": "women-or-men",
+            "x": 22,
+            "y": 73,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Mujeres feroces",
+            "to": "fierce-females",
+            "x": 22,
+            "y": 83,
+            "w": 15,
+            "h": 5
+          }
+        ]
+      },
+      "fierce-females": {
+        "image": "assets/es/pira/PIRA01PU.webp",
+        "back": "main"
+      },
+      "why-be-a-pirate": {
+        "image": "assets/es/pira/PIRA02PU.webp",
+        "back": "main"
+      },
+      "women-or-men": {
+        "image": "assets/es/pira/PIRA03PU.webp",
+        "back": "main"
+      },
+      "queens-favorite-pirate": {
+        "image": "assets/es/pira/PIRA04PU.webp",
+        "back": "main"
+      },
+      "famous-ransackers": {
+        "image": "assets/es/pira/PIRA05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/pira/clip.mp4",
+        "poster": "assets/es/pira/PIRA06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/pira/PIRA00JN.mp3",
+  "sound": "assets/es/pira/PIRA00IX.mp3",
+  "video": {
+    "title": "Una vida brutal",
+    "src": "assets/es/pira/clip.mp4",
+    "poster": "assets/es/pira/poster.webp",
+    "caption": "Un pirata armado junto a la temida bandera Jolly Roger mientras se revela la cruda realidad a bordo: piratas crueles e incultos que infligían bárbaros castigos, pasaban el tiempo bebiendo, jugando y peleando, y cuyo destino habitual, al ser capturados, era la horca.",
+    "narration": "assets/es/pira/PIRA06JN.mp3"
+  }
+}

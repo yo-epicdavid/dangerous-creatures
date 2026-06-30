@@ -1,0 +1,234 @@
+{
+  "id": "mpln",
+  "code": "MPLN",
+  "name": "La flora marina",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Desde algas microscópicas hasta gigantescos bosques submarinos, las plantas del mar sostienen toda la vida oceánica.",
+  "zones": [
+    "Costa y charcas de marea",
+    "Arrecife de coral",
+    "Bosques de algas y praderas marinas",
+    "Mar abierto"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/mpln/MPLN00AA.webp",
+    "alt": "La flora marina"
+  },
+  "intro": "La vida vegetal de los océanos incluye desde microscópicas algas unicelulares hasta bosques flotantes de gigantescas laminarias. Por medio del proceso de fotosíntesis, las plantas convierten el agua y el dióxido de carbono en carbono orgánico, que los animales marinos pueden utilizar como alimento. Al necesitar la energía del sol para la fotosíntesis, las plantas viven en las zonas menos profundas del océano, creando a menudo hábitats de importancia vital para los animales.",
+  "facts": [
+    {
+      "label": "Profundidad",
+      "value": "Las algas rojas pueden vivir en las aguas más profundas: incluso a 250 m"
+    },
+    {
+      "label": "Crecimiento",
+      "value": "La laminaria es la planta que crece con mayor rapidez en todo el globo, hasta 30 centímetros diarios"
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "El mangle es una de las pocas plantas que dan flores y pueden vivir en el mar"
+    },
+    {
+      "label": "Usos",
+      "value": "Las algas marinas suministran alimento, fertilizantes, goma vegetal para espesar helados y pasta de dientes, y agar para cultivar bacterias"
+    },
+    {
+      "label": "Simbiosis",
+      "value": "La zooxantela, un fitoplancton, vive dentro de las células de animales como la almeja gigante y permite a los corales formar grandes arrecifes en aguas tropicales pobres en nutrientes"
+    }
+  ],
+  "topics": [
+    {
+      "id": "grasses-of-the-sea",
+      "title": "Praderas marinas",
+      "image": "assets/es/mpln/MPLN01PU.webp",
+      "text": "El fitoplancton se compone de algas unicelulares, la planta que más abunda en el mar, de muy diverso aspecto. Las diatomeas tienen intrincadas formas de sílice, una sustancia parecida al vidrio, mientras que los dinoflagelados suelen tener dos flagelos o filamentos. En los océanos del norte, el fitoplancton crece rápidamente en primavera, debido a que los días son más largos, con la ayuda de los nutrientes reconocidos por las tormentas de invierno. En los océanos tropicales, las corrientes remueven continuamente los nutrientes, por lo que las algas crecen durante todo el año.",
+      "captions": [
+        {
+          "label": "Fitoplancton y zooplancton",
+          "text": "Fitoplancton y zooplancton"
+        },
+        {
+          "label": "Imagen satélite",
+          "text": "Imagen satélite de la distribución del fitoplancton en el Atlántico occidental"
+        }
+      ],
+      "narration": "assets/es/mpln/MPLN01JN.mp3"
+    },
+    {
+      "id": "saltwater-survivors",
+      "title": "A prueba de agua salada",
+      "image": "assets/es/mpln/MPLN02PU.webp",
+      "text": "El mangle es una de las pocas plantas que dan flores y pueden vivir en el mar. Estos árboles, resistentes a la sal, protegen el litoral de la erosión y proporcionan un hábitat a numerosos animales. Sin embargo, en muchos sitios se talan los mangles para obtener combustible o para despejar la línea de la playa con otros fines.",
+      "captions": [
+        {
+          "label": "Isla Lagarto",
+          "text": "Isla Lagarto, Arrecife de la Gran Barrera, Australia"
+        }
+      ],
+      "narration": "assets/es/mpln/MPLN02JN.mp3"
+    },
+    {
+      "id": "colorful-algae",
+      "title": "Algas de colores",
+      "image": "assets/es/mpln/MPLN03PU.webp",
+      "text": "Las algas marinas se clasifican por su color, que depende de los pigmentos fotosintéticos que utilice la planta para retener la energía solar. Las verdes utilizan clorofila. Las hay de otros colores que también contienen clorofila, pero con pigmentos adicionales que enmascaran el verde. La profundidad a la que habitan ciertas algas suele depender de esos pigmentos. Las rojas pueden vivir en las aguas más profundas: incluso a 250 m. Ciertos tipos de algas, de color azul verdoso, se cuentan entre las formas de vida más primitivas.",
+      "captions": [
+        {
+          "label": "Algas verdes",
+          "text": "Algas verdes"
+        },
+        {
+          "label": "Algas púrpura",
+          "text": "Algas púrpura"
+        }
+      ],
+      "narration": "assets/es/mpln/MPLN03JN.mp3"
+    },
+    {
+      "id": "you-scratch-my-back",
+      "title": "Un buen acuerdo",
+      "image": "assets/es/mpln/MPLN04PU.webp",
+      "text": "La zooxantela, un tipo de fitoplancton de la familia de los dinoflagelados, suele vivir en las células de animales como esta almeja gigante. A través de la fotosíntesis, las algas les proporcionan nutrientes y a cambio los animales evitan que las arranque el primer zooplancton que acierte a pasar. Sin la ayuda de estas algas, algunos corales no podrían formar grandes arrecifes en las aguas tropicales con escasez de nutrientes.",
+      "captions": [
+        {
+          "label": "Almeja gigante",
+          "text": "Almeja gigante, Tridacna gigas"
+        }
+      ],
+      "narration": "assets/es/mpln/MPLN04JN.mp3"
+    },
+    {
+      "id": "versatile-seaweed",
+      "title": "La versatilidad de las algas marinas",
+      "image": "assets/es/mpln/MPLN06PU.webp",
+      "text": "Las algas marinas son plantas polifacéticas y sus nutrientes tienen muchos e innovadores usos. Proporcionan alimento a personas y animales; son efectivas como fertilizantes; y suministran goma vegetal para espesar los helados y la pasta de dientes. Las algas marinas también proporcionan agar, un medio de cultivo para las bacterias.",
+      "captions": [
+        {
+          "label": "Cultivo de bacteria en agar",
+          "text": "Cultivo de bacteria en agar"
+        },
+        {
+          "label": "Algas marinas secas",
+          "text": "Algas marinas secas, envasadas para su uso en platos asiáticos"
+        }
+      ],
+      "narration": "assets/es/mpln/MPLN06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "La nutria marina",
+      "to": "ottr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/mpln/MPLN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 2,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "La versatilidad de las algas marinas",
+            "to": "versatile-seaweed",
+            "x": 69,
+            "y": 17,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Un buen acuerdo",
+            "to": "you-scratch-my-back",
+            "x": 51,
+            "y": 39,
+            "w": 32,
+            "h": 5
+          },
+          {
+            "label": "Praderas marinas",
+            "to": "grasses-of-the-sea",
+            "x": 59,
+            "y": 70,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "A prueba de agua salada",
+            "to": "saltwater-survivors",
+            "x": 9,
+            "y": 52,
+            "w": 29,
+            "h": 5
+          },
+          {
+            "label": "Los bosques marinos",
+            "to": "video",
+            "x": 9,
+            "y": 62,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Algas de colores",
+            "to": "colorful-algae",
+            "x": 9,
+            "y": 73,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "grasses-of-the-sea": {
+        "image": "assets/es/mpln/MPLN01PU.webp",
+        "back": "main"
+      },
+      "saltwater-survivors": {
+        "image": "assets/es/mpln/MPLN02PU.webp",
+        "back": "main"
+      },
+      "colorful-algae": {
+        "image": "assets/es/mpln/MPLN03PU.webp",
+        "back": "main"
+      },
+      "you-scratch-my-back": {
+        "image": "assets/es/mpln/MPLN04PU.webp",
+        "back": "main"
+      },
+      "versatile-seaweed": {
+        "image": "assets/es/mpln/MPLN06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/mpln/clip.mp4",
+        "poster": "assets/es/mpln/MPLN05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/mpln/MPLN00JN.mp3",
+  "sound": "assets/es/mpln/MPLN00IX.mp3",
+  "video": {
+    "title": "Los bosques marinos",
+    "src": "assets/es/mpln/clip.mp4",
+    "poster": "assets/es/mpln/poster.webp",
+    "caption": "Así como la flora terrestre supone un rico hábitat para muchos animales, las plantas marinas también proporcionan refugio y alimento. Enormes lechos de laminarias, un tipo de alga marrón, flotan en las aguas de la costa de California. Mantenidas a flote por vejigas de aire, estas plantas crean maravillosos bosques submarinos habitados por peces y nutrias marinas. La laminaria es la planta que crece con mayor rapidez en todo el globo...hasta 30 centímetros diarios.",
+    "narration": "assets/es/mpln/MPLN05JN.mp3"
+  }
+}

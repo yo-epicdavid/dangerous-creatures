@@ -1,0 +1,271 @@
+{
+  "id": "webl",
+  "code": "WEBL",
+  "name": "La cadena de la vida",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "En el océano nada se desperdicia: cada ser vivo es a la vez comedor y comida.",
+  "zones": [
+    "Costa y charcas de marea",
+    "Arrecife de coral",
+    "Bosques de algas y praderas marinas",
+    "Mar abierto",
+    "Mar profundo"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/webl/WEBL00AA.webp",
+    "alt": "La cadena de la vida"
+  },
+  "intro": "Todos los seres vivos necesitan alimento para vivir. Las plantas producen nutrientes a partir de los minerales, el agua y la luz. Algunos animales comen plantas y otros comen la carne o los restos de otros animales. La gente suele calificar a la naturaleza de cruel y repugnante, pero la realidad es que no vemos nuestros hábitos predadores y de reciclaje de residuos. Un ecosistema natural y equilibrado es un buen sistema en el que nada se desaprovecha.",
+  "facts": [
+    {
+      "label": "Planta menor",
+      "value": "El fitoplancton es la planta más diminuta de todo el océano, y proporciona alimento desde el minúsculo zooplancton hasta la almeja gigante."
+    },
+    {
+      "label": "Reptil vegano",
+      "value": "La iguana marina de las Galápagos ha desarrollado un hábito poco usual para un reptil: se come las algas marinas del fondo."
+    },
+    {
+      "label": "Gigantes del plancton",
+      "value": "Las ballenas y cierto tipo de tiburones también se alimentan principalmente de plancton."
+    },
+    {
+      "label": "Carroñeros",
+      "value": "Sin los carroñeros, los cuerpos muertos se irían amontonando hasta no dejar sitio para los vivos."
+    },
+    {
+      "label": "Limpieza final",
+      "value": "En el océano, como en la tierra, el trabajo último de limpieza de residuos corresponde a las bacterias."
+    },
+    {
+      "label": "Cadena vital",
+      "value": "Si una especie extinta era la única fuente de alimento y refugio de otras, las segundas quedarán condenadas a morir al desaparecer la primera."
+    }
+  ],
+  "topics": [
+    {
+      "id": "plants",
+      "title": "Las plantas",
+      "image": "assets/es/webl/WEBL01PU.webp",
+      "text": "La base de la red trófica marina es el fitoplancton, la planta más diminuta de todo el océano. Obtiene la energía del agua y el Sol y proporciona alimento a todo tipo de animales, desde el minúsculo zooplancton a la almeja gigante. Las plantas de mayor tamaño, como las fanerógamas marinas y las laminarias, suministran comida y refugio a muchas especies de animales marinos.",
+      "captions": [
+        {
+          "label": "Fanerógamas marinas",
+          "text": "Fanerógamas marinas en charca de marea"
+        },
+        {
+          "label": "Fitoplancton",
+          "text": "Fitoplancton"
+        }
+      ],
+      "narration": "assets/es/webl/WEBL01JN.mp3"
+    },
+    {
+      "id": "plant-eaters",
+      "title": "Los devoradores de plantas",
+      "image": "assets/es/webl/WEBL02PU.webp",
+      "text": "Hay muchos animales marinos que se alimentan sólo de plantas. Aquí hay un par de ellos que posiblemente te resulten familiares.\n\nEl conejo marino\nEste nudibranquio limpia de algas el fondo del mar. También se le conoce como liebre marina, por sus largas antenas semejantes a orejas.\n\nUn lagarto vegetariano\nEsta iguana vive en las islas Galápagos, donde el alimento escasea. Ha desarrollado un hábito poco usual para un reptil: se come las algas marinas del fondo.",
+      "captions": [
+        {
+          "label": "Iguana marina",
+          "text": "Amblyrhynchus cristatus"
+        },
+        {
+          "label": "Liebre de mar",
+          "text": "Aplysia sp."
+        }
+      ],
+      "narration": "assets/es/webl/WEBL02JN.mp3"
+    },
+    {
+      "id": "plankton-eaters",
+      "title": "Los devoradores de plancton",
+      "image": "assets/es/webl/WEBL03PU.webp",
+      "text": "Los animales que están fijos en un sitio obtienen el alimento filtrando el plancton y los residuos de las aguas circundantes. Se alimentan tanto de plancton vegetal como animal y ayudan a mantener limpia el agua. Otros animales de mayor tamaño, como las ballenas y cierto tipo de tiburones, también se alimentan principalmente de plancton.",
+      "captions": [
+        {
+          "label": "Peregrino",
+          "text": "Cetorhinus maximus"
+        },
+        {
+          "label": "Esponja coralina, Arrecife de la Gran Barrera",
+          "text": "Sclerospongiae"
+        }
+      ],
+      "narration": "assets/es/webl/WEBL03JN.mp3"
+    },
+    {
+      "id": "meat-eaters",
+      "title": "Los carnívoros",
+      "image": "assets/es/webl/WEBL04PU.webp",
+      "text": "Muchos animales marinos son tanto predadores como presas: se alimentan de animales más pequeños y a su vez son devorados por animales de mayor tamaño. Si te pidieran que nombraras dos predadores marinos, probablemente dirías el tiburón y la ballena asesina. Pero los animales que aparecen aquí se cuentan entre los más voraces predadores del océano.",
+      "captions": [
+        {
+          "label": "Pulpo azulón",
+          "text": "Octopus cyanea"
+        },
+        {
+          "label": "Estrella de mar de gránulos rojos",
+          "text": "Protoreaster lincki"
+        }
+      ],
+      "narration": "assets/es/webl/WEBL04JN.mp3"
+    },
+    {
+      "id": "eaters-of-the-dead",
+      "title": "Devoradores de cadáveres",
+      "image": "assets/es/webl/WEBL05PU.webp",
+      "text": "Los carroñeros, o animales que se alimentan de los restos de animales muertos, tienen una dura tarea. Aunque no resulte un pensamiento agradable, imagina lo que sería del mar sin ellos. ¡Los cuerpos muertos se irían amontonando hasta no dejar sitio para los vivos! Los cangrejos y las quisquillas son importantes carroñeros marinos.",
+      "captions": [
+        {
+          "label": "Cangrejo araña de rostro afilado",
+          "text": "Stenorhynchus seticornis"
+        },
+        {
+          "label": "Quisquilla arlequín",
+          "text": "Hymenocera picta"
+        }
+      ],
+      "narration": "assets/es/webl/WEBL05JN.mp3"
+    },
+    {
+      "id": "waste-treatment-experts",
+      "title": "Expertos en reciclaje",
+      "image": "assets/es/webl/WEBL06PU.webp",
+      "text": "Todos los animales expulsan material de desecho de sus cuerpos. Para que el medio ambiente se conserve sano, es imprescindible procesar esos residuos. En el océano, como en la tierra, el trabajo último de limpieza de residuos corresponde a las bacterias. Pero los animales que aparecen aquí también consumen anualmente grandes cantidades de residuos.",
+      "captions": [
+        {
+          "label": "Turbelario acebrado",
+          "text": "Pseudoceros zebra"
+        },
+        {
+          "label": "Holoturia",
+          "text": "Holoturia"
+        }
+      ],
+      "narration": "assets/es/webl/WEBL06JN.mp3"
+    }
+  ],
+  "crosslinks": [],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/webl/WEBL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "Devoradores de cadáveres",
+            "to": "eaters-of-the-dead",
+            "x": 54,
+            "y": 22,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Los carnívoros",
+            "to": "meat-eaters",
+            "x": 52,
+            "y": 39,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Los devoradores de plancton",
+            "to": "plankton-eaters",
+            "x": 52,
+            "y": 47,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Todos estamos en la cadena",
+            "to": "video",
+            "x": 55,
+            "y": 62,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Los devoradores de plantas",
+            "to": "plant-eaters",
+            "x": 25,
+            "y": 65,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Las plantas",
+            "to": "plants",
+            "x": 27,
+            "y": 72,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Expertos en reciclaje",
+            "to": "waste-treatment-experts",
+            "x": 50,
+            "y": 85,
+            "w": 24,
+            "h": 5
+          }
+        ]
+      },
+      "plants": {
+        "image": "assets/es/webl/WEBL01PU.webp",
+        "back": "main"
+      },
+      "plant-eaters": {
+        "image": "assets/es/webl/WEBL02PU.webp",
+        "back": "main"
+      },
+      "plankton-eaters": {
+        "image": "assets/es/webl/WEBL03PU.webp",
+        "back": "main"
+      },
+      "meat-eaters": {
+        "image": "assets/es/webl/WEBL04PU.webp",
+        "back": "main"
+      },
+      "eaters-of-the-dead": {
+        "image": "assets/es/webl/WEBL05PU.webp",
+        "back": "main"
+      },
+      "waste-treatment-experts": {
+        "image": "assets/es/webl/WEBL06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/webl/clip.mp4",
+        "poster": "assets/es/webl/WEBL07PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/webl/WEBL00JN.mp3",
+  "sound": "assets/es/webl/WEBL00IX.mp3",
+  "video": {
+    "title": "Todos estamos en la cadena",
+    "src": "assets/es/webl/clip.mp4",
+    "poster": "assets/es/webl/poster.webp",
+    "caption": "Buzo alimentando a un pez perro con erizos de mar",
+    "narration": "assets/es/webl/WEBL07JN.mp3"
+  }
+}

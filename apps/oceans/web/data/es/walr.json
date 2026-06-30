@@ -1,0 +1,162 @@
+{
+  "id": "walr",
+  "code": "WALR",
+  "name": "La morsa",
+  "category": "creature",
+  "scientificName": "Odobenus rosmarus",
+  "needsScientificVerify": false,
+  "tagline": "¡El animal que camina con los dientes y reina en el hielo!",
+  "zones": [
+    "Mares polares",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "Océano Ártico",
+    "North Pacific Ocean"
+  ],
+  "hero": {
+    "image": "assets/es/walr/WALR00AA.webp",
+    "alt": "La morsa"
+  },
+  "intro": "La morsa quizás no sea tan elegante como otras focas, pero es de la misma familia: la de los pinnípedos o animales con patas de aleta, llamados así porque sus cuatro extremidades han evolucionado hasta adquirir esta forma. Mientras otros mamíferos acuáticos, como la ballena y manatí, han roto todo lazo con la tierra, las morsas salen a la orilla para aparearse, dar a luz y criar. En tierra, la morsa camina sobre sus aletas que en el mar hacen de ella una excelente nadadora. Su capa de grasa, junto a un sistema de circulación especialmente adaptado, le permite conservar el calor en sus largas inmersiones en las heladas aguas. ¡A la morsa le va muy bien en los dos medio ambientes!",
+  "facts": [
+    {
+      "label": "Nombre latino",
+      "value": "Odobenus rosmarus significa \"caballo marino que camina con los dientes\""
+    },
+    {
+      "label": "Colmillos",
+      "value": "Son dientes caninos muy desarrollados; las morsas los utilizan para impulsarse por el hielo"
+    },
+    {
+      "label": "Desarrollo",
+      "value": "Los colmillos aparecen cuando el animal tiene cerca de un año y medio"
+    },
+    {
+      "label": "Liderazgo",
+      "value": "La morsa más grande y con los mayores colmillos se convierte en el líder de la manada"
+    },
+    {
+      "label": "Comparación",
+      "value": "El colmillo del narval mide hasta 3 m de largo: tres quintas partes de la longitud de su cuerpo"
+    },
+    {
+      "label": "Conservación",
+      "value": "Numerosos gobiernos han ilegalizado la importación de marfil para salvar a estos animales"
+    }
+  ],
+  "topics": [
+    {
+      "id": "tuskers",
+      "title": "Provisto de colmillos",
+      "image": "assets/es/walr/WALR01PU.webp",
+      "text": "Los colmillos son en realidad dientes caninos muy desarrollados. Las morsas los utilizan para impulsarse por el hielo. El nombre latino de la morsa, Odobenus rosmarus, significa \"caballo marino que camina con los dientes\". Estas pesadas criaturas también se entretienen peleando a \"colmillazos\" entre ellas. Las peleas se vuelven más serias y peligrosas durante la época de apareamiento.\n\nOtro animal con colmillos: A los elefantes les gusta jugar a empujarse, chocando cara a cara en combate singular. En el caso de las morsas, la lucha puede resultar mortal si un colmillo atraviesa un órgano vital.\n\nDientes como tuercas: El narval es una ballena poco común cuyo único colmillo en espiral, como un unicornio, es un diente que le nace en la nariz. Mide hasta 3 m de largo: ¡tres quintas partes de la longitud del cuerpo de un narval!",
+      "captions": [
+        {
+          "label": "Elefante africano",
+          "text": "Loxodonta africana"
+        },
+        {
+          "label": "Colmillo",
+          "text": "de narval"
+        }
+      ],
+      "narration": "assets/es/walr/WALR01JN.mp3"
+    },
+    {
+      "id": "vanishing-art",
+      "title": "Un arte en extinción",
+      "image": "assets/es/walr/WALR02PU.webp",
+      "text": "El elefante, la ballena y la morsa han sido perseguidos por sus colmillos, huesos, carne y aceite. Los elefantes y las ballenas están muy amenazados por esta práctica y han desaparecido poblaciones enteras de morsas. Numerosos gobiernos, para salvar a estos animales, han ilegalizado la importación de marfil.\n\nEl arte de los cazadores de ballenas: Los cazadores de ballenas tallaban y esculpían objetos de marfil de morsa o ballena para entretenerse durante los largos recorridos por el océano. La talla del marfil fue muy popular en el siglo XIX.\n\nUna intrincada labor: El artesano utilizaba una navaja y una lezna, hecha con una aguja o alfiler marinero. En algún lugar perdido del océano, podía surgir de repente un tablero de juego, la caja de un reloj o un imaginativo estay de soporte.",
+      "captions": [
+        {
+          "label": "Tablero de juego",
+          "text": "tallado en colmillos de morsa"
+        },
+        {
+          "label": "Tallas",
+          "text": "en distintos tipos de marfil"
+        }
+      ],
+      "narration": "assets/es/walr/WALR02JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Las focas y el león marino",
+      "to": "seal"
+    },
+    {
+      "label": "Los barcos de vela",
+      "to": "sail"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/walr/WALR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 14,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "Provisto de colmillos",
+            "to": "tuskers",
+            "x": 63,
+            "y": 9,
+            "w": 17,
+            "h": 6
+          },
+          {
+            "label": "Un arte en extinción",
+            "to": "vanishing-art",
+            "x": 56,
+            "y": 46,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Un signo de triunfo",
+            "to": "video",
+            "x": 50,
+            "y": 63,
+            "w": 28,
+            "h": 6
+          }
+        ]
+      },
+      "tuskers": {
+        "image": "assets/es/walr/WALR01PU.webp",
+        "back": "main"
+      },
+      "vanishing-art": {
+        "image": "assets/es/walr/WALR02PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/walr/clip.mp4",
+        "poster": "assets/es/walr/WALR03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/walr/WALR00JN.mp3",
+  "sound": "assets/es/walr/WALR00IX.mp3",
+  "video": {
+    "title": "Un signo de triunfo",
+    "src": "assets/es/walr/clip.mp4",
+    "poster": "assets/es/walr/poster.webp",
+    "caption": "Morsas macho compitiendo con sus colmillos durante la época de apareamiento, hasta que uno reconoce su derrota y se retira",
+    "narration": "assets/es/walr/WALR03JN.mp3"
+  }
+}

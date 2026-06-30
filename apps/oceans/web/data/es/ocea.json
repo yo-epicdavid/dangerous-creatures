@@ -1,0 +1,238 @@
+{
+  "id": "ocea",
+  "code": "OCEA",
+  "name": "¿Qué es la oceanografía?",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Los océanos son el «espacio interior» de la Tierra, llenos de misterios que los científicos apenas están empezando a descubrir!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Mar abierto",
+    "Mar profundo",
+    "Mares polares"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/ocea/OCEA00AA.webp",
+    "alt": "¿Qué es la oceanografía?"
+  },
+  "intro": "La oceanografía es la exploración y el estudio científico del mar. Los océanos son el último confín de la tierra, un impresionante mundo que a menudo recibe el nombre de \"espacio interior\". Los fondos y la tecnología necesarios para explorar con detenimiento tan vastas extensiones sólo están disponibles desde el siglo XIX. Incluso en la actualidad, apenas se está empezando a descubrir la relación entre las formas de vida y los procesos oceánicos. Las fronteras entre las distintas ciencias desaparecen a medida que los científicos descubren su interrelación.",
+  "facts": [
+    {
+      "label": "Expedición pionera",
+      "value": "En 1872, el HMS Challenger emprendió un viaje de tres años y medio, la primera gran expedición oceanográfica de la historia."
+    },
+    {
+      "label": "Profundidad",
+      "value": "Las fosas marinas superan en profundidad la altura del monte Everest."
+    },
+    {
+      "label": "Historia",
+      "value": "Los fondos y la tecnología para explorar el océano con detenimiento sólo están disponibles desde el siglo XIX."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "En las profundidades del océano viven minúsculos peces transparentes con carrillos que brillan en la oscuridad."
+    },
+    {
+      "label": "Tecnología",
+      "value": "Los oceanógrafos emplean sonar, radar y batiscafos para cartografiar y explorar el fondo del mar."
+    },
+    {
+      "label": "Colaboración",
+      "value": "En este momento se realizan varias investigaciones internacionales sobre las dorsales centro oceánicas y los sedimentos marinos, la influencia de las corrientes y la química del océano en los cambios climáticos y cómo afectan éstos a la fauna marina."
+    }
+  ],
+  "topics": [
+    {
+      "id": "pioneering-voyages",
+      "title": "Viajes pioneros",
+      "image": "assets/es/ocea/OCEA01PU.webp",
+      "text": "La primera gran expedición oceanográfica se realizó con el buque británico HMS Challenger. En 1872, emprendió un viaje de tres años y medio del que regresó con sorprendentes historias sobre extrañas y hasta entonces desconocidas formas de vida en todos los niveles del océano. La oceanografía cobró un gran impulso después del estallido de la Segunda Guerra Mundial, con el desarrollo de nuevas tecnologías, como el radar y el sonar.",
+      "captions": [
+        {
+          "label": "El nuevo Challenger",
+          "text": "En los años 1960, el Glomar Challenger, buque de perforación especialmente diseñado, recogió miles de muestras de sedimentos oceánicos que revelaron numerosos secretos sobre la tectónica de placas y la edad del fondo marino."
+        },
+        {
+          "label": "El descenso a las profundidades",
+          "text": "Con batiscafos modernos como el Sea Link, los científicos pueden ahora explorar las profundidades del océano."
+        }
+      ],
+      "narration": "assets/es/ocea/OCEA01JN.mp3"
+    },
+    {
+      "id": "chemical-oceanography",
+      "title": "La oceanografía química",
+      "image": "assets/es/ocea/OCEA02PU.webp",
+      "text": "Si fueras un oceanógrafo moderno, serías quien dictaminara que los peces de un determinado mar se están ahogando porque el nivel de oxígeno ha disminuido debido a la descomposición de muchas algas. O que los delfines mueren porque una fábrica vierte sustancias químicas tóxicas. Hasta podrías avisar de que una dorsal centro oceánica está expulsando fluidos gaseosos debido al aumento repentino de ciertas sustancias químicas en las aguas de la superficie. Analizarías muestras del hielo polar y dictaminarías cómo era el clima terrestre en el pasado. Para predecir las precipitaciones en el globo, trazarías un mapa de las actuales temperaturas marítimas.",
+      "captions": [
+        {
+          "label": "Temperatura global de la superficie oceánica",
+          "text": "Mapa de computadora con la temperatura global de la superficie oceánica."
+        }
+      ],
+      "narration": "assets/es/ocea/OCEA02JN.mp3"
+    },
+    {
+      "id": "physical-oceanography",
+      "title": "La oceanografía física",
+      "image": "assets/es/ocea/OCEA03PU.webp",
+      "text": "¿Qué harías si fueses un oceanógrafo físico? Determinarías en qué dirección avanza un derrame de petróleo o dónde hay icebergs. Sabrías porqué hay sequía en Australia mientras en otras partes llueve en exceso. Te preguntarían dónde poner una central eléctrica para aprovechar las mareas, por qué un lugar es excelente para practicar el surfing o el motivo de que una playa esté perdiendo toda su arena.",
+      "captions": [
+        {
+          "label": "Iceberg estriado",
+          "text": "Iceberg estriado, la Antártida."
+        },
+        {
+          "label": "Corriente de El Niño",
+          "text": "Mapa modelo por computadora del área afectada por la corriente de El Niño."
+        }
+      ],
+      "narration": "assets/es/ocea/OCEA03JN.mp3"
+    },
+    {
+      "id": "marine-geology",
+      "title": "Geología marina",
+      "image": "assets/es/ocea/OCEA04PU.webp",
+      "text": "Como geólogo marino, cartografiarías el suelo del mar con un sonar y verías un mundo submarino de volcanes, fosas que superan en profundidad la altura del monte Everest y extensas llanuras abisales. Dragarías el fondo en busca de rocas que ayudaran a resolver el complejo rompecabezas de la tectónica de placas. ¿Se puede construir una casa en la playa de una determinada localidad? Sabrías decir cuándo no hay que hacerlo, a pesar de las maravillosas vistas.",
+      "captions": [
+        {
+          "label": "Chimenea submarina",
+          "text": "Chimenea submarina en el fondo del océano."
+        },
+        {
+          "label": "Sonógrafo de la montaña marina Taney",
+          "text": "Sonógrafo de la montaña marina Taney, frente a la costa de California."
+        }
+      ],
+      "narration": "assets/es/ocea/OCEA04JN.mp3"
+    },
+    {
+      "id": "marine-biology",
+      "title": "Biología marina",
+      "image": "assets/es/ocea/OCEA05PU.webp",
+      "text": "Si fueras un oceanógrafo biólogo, estudiarías la flora y la fauna marinas. Descubrirías cómo obtiene alimento de las bacterias un gusano tubícula gigante, aunque carezca de boca. Podrías investigar nuevos usos para las algas. O descubrir una forma mejor de limpiar las aves empapadas en petróleo tras un derrame accidental. Hasta podrías descender a las profundidades del océano en un batiscafo para estudiar los minúsculos peces transparentes con carrillos que brillan en la oscuridad.",
+      "captions": [
+        {
+          "label": "Clase de biología marina",
+          "text": "Clase de biología marina, Bates College, Maine."
+        }
+      ],
+      "narration": "assets/es/ocea/OCEA05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Las corrientes",
+      "to": "curr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/ocea/OCEA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "La oceanografía química",
+            "to": "chemical-oceanography",
+            "x": 53,
+            "y": 18,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "La oceanografía física",
+            "to": "physical-oceanography",
+            "x": 54,
+            "y": 38,
+            "w": 23,
+            "h": 7
+          },
+          {
+            "label": "Geología marina",
+            "to": "marine-geology",
+            "x": 43,
+            "y": 52,
+            "w": 17,
+            "h": 7
+          },
+          {
+            "label": "Biología marina",
+            "to": "marine-biology",
+            "x": 43,
+            "y": 63,
+            "w": 16,
+            "h": 7
+          },
+          {
+            "label": "Viajes pioneros",
+            "to": "pioneering-voyages",
+            "x": 4,
+            "y": 79,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "¿Quién estudia los océanos?",
+            "to": "video",
+            "x": 4,
+            "y": 87,
+            "w": 30,
+            "h": 6
+          }
+        ]
+      },
+      "pioneering-voyages": {
+        "image": "assets/es/ocea/OCEA01PU.webp",
+        "back": "main"
+      },
+      "chemical-oceanography": {
+        "image": "assets/es/ocea/OCEA02PU.webp",
+        "back": "main"
+      },
+      "physical-oceanography": {
+        "image": "assets/es/ocea/OCEA03PU.webp",
+        "back": "main"
+      },
+      "marine-geology": {
+        "image": "assets/es/ocea/OCEA04PU.webp",
+        "back": "main"
+      },
+      "marine-biology": {
+        "image": "assets/es/ocea/OCEA05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/ocea/clip.mp4",
+        "poster": "assets/es/ocea/OCEA06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/ocea/OCEA00JN.mp3",
+  "sound": "assets/es/ocea/OCEA00IX.mp3",
+  "video": {
+    "title": "¿Quién estudia los océanos?",
+    "src": "assets/es/ocea/clip.mp4",
+    "poster": "assets/es/ocea/poster.webp",
+    "caption": "SA Agulhas, barco de investigación sudafricano, la Antártida. Los oceanógrafos investigan las dorsales centro oceánicas y los sedimentos marinos, la influencia de las corrientes y la química del océano en los cambios climáticos y cómo afectan éstos a la fauna marina.",
+    "narration": "assets/es/ocea/OCEA06JN.mp3"
+  }
+}

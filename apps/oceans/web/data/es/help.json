@@ -1,0 +1,336 @@
+{
+  "id": "help",
+  "code": "HELP",
+  "name": "Uso de Océanos de Microsoft",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Tu guía para explorar todos los secretos de Océanos de Microsoft!",
+  "zones": [],
+  "oceans": [],
+  "hero": {
+    "image": "assets/es/help/HELP00AA.webp",
+    "alt": "Uso de Océanos de Microsoft"
+  },
+  "intro": "Haz clic en diferentes partes de la imagen inferior para conocer el funcionamiento de una pantalla típica de Océanos de Microsoft. El puntero del mouse se transformará en una mano cuando se sitúe sobre una zona interactiva. Cuando veas la mano, haz clic para abrir una ventana que describa ese rasgo.",
+  "facts": [
+    {
+      "label": "Modos de exploración",
+      "value": "Cuatro modos diferentes para explorar Océanos de Microsoft por tu cuenta, más visitas guiadas con personajes"
+    },
+    {
+      "label": "Zonas activas",
+      "value": "El puntero se convierte en una mano al situarse sobre una zona interactiva"
+    },
+    {
+      "label": "Glosario",
+      "value": "Las palabras con fondo sombreado abren su definición y permiten escuchar la pronunciación"
+    },
+    {
+      "label": "Vídeos",
+      "value": "Los textos rojos con icono de video abren clips que empiezan automáticamente"
+    },
+    {
+      "label": "Acertijo",
+      "value": "Cada pantalla tiene un acertijo con preguntas sobre el tema principal y las ventanas emergentes"
+    }
+  ],
+  "topics": [
+    {
+      "id": "back-button",
+      "title": "Botón de Atrás",
+      "image": "assets/es/help/HELP01PU.webp",
+      "text": "Haz clic en este botón para volver a la ventana que estabas viendo previamente."
+    },
+    {
+      "id": "contents-button",
+      "title": "Botón de Contenido",
+      "image": "assets/es/help/HELP02PU.webp",
+      "text": "Haz clic en este botón para abrir la pantalla de Contenido, desde la que podrás seleccionar de entre cuatro modos diferentes de explorar Océanos de Microsoft por tu cuenta, o seleccionar una visita guiada."
+    },
+    {
+      "id": "glossary-item",
+      "title": "Elemento de Glosario",
+      "image": "assets/es/help/HELP03PU.webp",
+      "text": "Haz clic en las palabras con el fondo sombreado para abrir su definición. Haz clic en el icono de sonido para escuchar su pronunciación.",
+      "captions": [
+        {
+          "label": "Término de glosario (ejemplo)",
+          "text": "predadores"
+        }
+      ]
+    },
+    {
+      "id": "guides-button",
+      "title": "Botón de Guías",
+      "image": "assets/es/help/HELP04PU.webp",
+      "text": "Haz clic en este botón para abrir la pantalla de guías, desde la que podrás seleccionar un personaje que te conducirá en una de las visitas guiadas. Durante la visita, un botón de guía sustituye al botón de salto habitual de la esquina superior derecha de la pantalla. Haz clic en el botón de guía para ir al artículo siguiente de la visita."
+    },
+    {
+      "id": "help-button",
+      "title": "Botón de Ayuda",
+      "image": "assets/es/help/HELP05PU.webp",
+      "text": "Haz clic en este botón para abrir la ventana de Ayuda principal, desde la que podrás seleccionar ayuda acerca del Uso de Océanos de Microsoft (que estás utilizando ahora), Uso del menú Opciones o Solución de Problemas. También puedes abrir la ventana Acerca de Océanos de Microsoft y los títulos de crédito."
+    },
+    {
+      "id": "index-button",
+      "title": "Botón de Índice",
+      "image": "assets/es/help/HELP06PU.webp",
+      "text": "Haz clic en este botón para abrir la pantalla de índice, desde la que podrás seleccionar cualquier artículo haciendo clic en su imagen o título. Puedes recorrer el Índice haciendo clic en los botones de flechas a izquierda o a derecha, o ir al principio de una letra haciendo clic en ella en la barra de alfabeto. Para encontrar información acerca de un tema específico, escribe las primeras letras en el recuadro Buscar:, o haz clic en el botón de Buscar y recorre la lista. Cuando veas el tema que deseas en el recuadro de la lista, haz clic en el tema y después haz clic en Aceptar para ir al artículo que deseas."
+    },
+    {
+      "id": "jump-button",
+      "title": "Botón de Salto",
+      "image": "assets/es/help/HELP07PU.webp",
+      "text": "Haz clic en este botón para ir a un artículo relacionado.",
+      "captions": [
+        {
+          "label": "Artículo de destino (ejemplo)",
+          "text": "El calamar y la sepia"
+        }
+      ]
+    },
+    {
+      "id": "marine-life-button",
+      "title": "Botón de Vida marina",
+      "image": "assets/es/help/HELP08PU.webp",
+      "text": "Haz clic en este botón para abrir la pantalla de Vida marina, desde la que podrás seleccionar un artículo que quieras explorar."
+    },
+    {
+      "id": "options-button",
+      "title": "Botón de Opciones",
+      "image": "assets/es/help/HELP09PU.webp",
+      "text": "Haz clic en este botón para abrir la ventana de Opciones, desde la que podrás elegir crear un papel tapiz para tu escritorio Windows con imágenes de la Galería de Imágenes; instalar protectores de pantalla; controlar sonidos; imprimir una pantalla; o saltar automáticamente de un artículo a otro en un orden aleatorio. Puedes obtener más información sobre estas opciones seleccionando el menú Uso de Opciones en la ventana principal de Ayuda."
+    },
+    {
+      "id": "people-the-sea-button",
+      "title": "Botón de La gente y el mar",
+      "image": "assets/es/help/HELP10PU.webp",
+      "text": "Haz clic en este botón para abrir la pantalla de La gente y el mar, desde la que podrás seleccionar una subsección y luego un artículo que quieras explorar."
+    },
+    {
+      "id": "pop-up-title",
+      "title": "Título de ventana emergente",
+      "image": "assets/es/help/HELP11PU.webp",
+      "text": "Haz clic en el texto de color rojo para abrir una ventana con información e imágenes adicionales. Al hacer clic en el texto rojo junto al que hay un icono de video se abre una ventana que contiene un video. Éste empezará automáticamente. Haz clic en el video para volverlo a ver. Para cerrar una ventana emergente y regresar a la ventana anterior, haz clic en el botón de Cerrar situado en la esquina superior derecha.",
+      "captions": [
+        {
+          "label": "Enlace rojo (ejemplo)",
+          "text": "Un mundo de color"
+        }
+      ]
+    },
+    {
+      "id": "quiz-button",
+      "title": "Botón de Acertijo",
+      "image": "assets/es/help/HELP12PU.webp",
+      "text": "Haz clic en este botón para abrir un acertijo acerca de la información contenida en la pantalla principal y en las ventanas emergentes."
+    },
+    {
+      "id": "a-world-of-water-button",
+      "title": "Botón de Un mundo de agua",
+      "image": "assets/es/help/HELP13PU.webp",
+      "text": "Haz clic en este botón para abrir la pantalla de Un mundo de agua, desde la que podrás seleccionar una subsección y después un artículo que quieras explorar."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "El calamar y la sepia",
+      "to": "squi"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/help/HELP00AA.webp",
+        "hotspots": [
+          {
+            "label": "Botón de Acertijo",
+            "to": "quiz-button",
+            "x": 13,
+            "y": 17,
+            "w": 12,
+            "h": 8
+          },
+          {
+            "label": "Título de ventana emergente",
+            "to": "pop-up-title",
+            "x": 55,
+            "y": 22,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Título de ventana emergente",
+            "to": "pop-up-title",
+            "x": 57,
+            "y": 35,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Título de ventana emergente",
+            "to": "pop-up-title",
+            "x": 13,
+            "y": 56,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Título de ventana emergente",
+            "to": "pop-up-title",
+            "x": 13,
+            "y": 64,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Botón de Salto",
+            "to": "jump-button",
+            "x": 73,
+            "y": 15,
+            "w": 14,
+            "h": 8
+          },
+          {
+            "label": "Elemento de Glosario",
+            "to": "glossary-item",
+            "x": 15,
+            "y": 33,
+            "w": 12,
+            "h": 4
+          },
+          {
+            "label": "Botón de Contenido",
+            "to": "contents-button",
+            "x": 5,
+            "y": 84,
+            "w": 11,
+            "h": 7
+          },
+          {
+            "label": "Botón de Vida marina",
+            "to": "marine-life-button",
+            "x": 17,
+            "y": 84,
+            "w": 11,
+            "h": 7
+          },
+          {
+            "label": "Botón de Un mundo de agua",
+            "to": "a-world-of-water-button",
+            "x": 29,
+            "y": 84,
+            "w": 13,
+            "h": 7
+          },
+          {
+            "label": "Botón de La gente y el mar",
+            "to": "people-the-sea-button",
+            "x": 43,
+            "y": 84,
+            "w": 13,
+            "h": 7
+          },
+          {
+            "label": "Botón de Guías",
+            "to": "guides-button",
+            "x": 57,
+            "y": 84,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "Botón de Índice",
+            "to": "index-button",
+            "x": 66,
+            "y": 84,
+            "w": 7,
+            "h": 7
+          },
+          {
+            "label": "Botón de Atrás",
+            "to": "back-button",
+            "x": 74,
+            "y": 84,
+            "w": 6,
+            "h": 7
+          },
+          {
+            "label": "Botón de Opciones",
+            "to": "options-button",
+            "x": 81,
+            "y": 84,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "Botón de Ayuda",
+            "to": "help-button",
+            "x": 90,
+            "y": 84,
+            "w": 7,
+            "h": 7
+          }
+        ]
+      },
+      "back-button": {
+        "image": "assets/es/help/HELP01PU.webp",
+        "back": "main"
+      },
+      "contents-button": {
+        "image": "assets/es/help/HELP02PU.webp",
+        "back": "main"
+      },
+      "glossary-item": {
+        "image": "assets/es/help/HELP03PU.webp",
+        "back": "main"
+      },
+      "guides-button": {
+        "image": "assets/es/help/HELP04PU.webp",
+        "back": "main"
+      },
+      "help-button": {
+        "image": "assets/es/help/HELP05PU.webp",
+        "back": "main"
+      },
+      "index-button": {
+        "image": "assets/es/help/HELP06PU.webp",
+        "back": "main"
+      },
+      "jump-button": {
+        "image": "assets/es/help/HELP07PU.webp",
+        "back": "main"
+      },
+      "marine-life-button": {
+        "image": "assets/es/help/HELP08PU.webp",
+        "back": "main"
+      },
+      "options-button": {
+        "image": "assets/es/help/HELP09PU.webp",
+        "back": "main"
+      },
+      "people-the-sea-button": {
+        "image": "assets/es/help/HELP10PU.webp",
+        "back": "main"
+      },
+      "pop-up-title": {
+        "image": "assets/es/help/HELP11PU.webp",
+        "back": "main"
+      },
+      "quiz-button": {
+        "image": "assets/es/help/HELP12PU.webp",
+        "back": "main"
+      },
+      "a-world-of-water-button": {
+        "image": "assets/es/help/HELP13PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  }
+}

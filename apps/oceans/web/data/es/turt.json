@@ -1,0 +1,253 @@
+{
+  "id": "turt",
+  "code": "TURT",
+  "name": "La tortuga marina",
+  "category": "creature",
+  "scientificName": "Eretmochelys imbricata",
+  "needsScientificVerify": false,
+  "tagline": "¡Han surcado los océanos desde la época de los dinosaurios... descubre los secretos de la tortuga marina!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Arrecife de coral",
+    "Mar abierto"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/turt/TURT00AA.webp",
+    "alt": "La tortuga marina"
+  },
+  "intro": "La tortuga ha surcado los océanos durante siglos. Sólo sale a la superficie para criar y poner huevos, por lo que desconocemos la mayor parte de sus costumbres. Estos apacibles animales han sobrevivido a los dinosaurios, pero su número disminuye anualmente. ¿Podrán sobrevivir compartiendo el planeta con los humanos?",
+  "facts": [
+    {
+      "label": "Especies",
+      "value": "Hay ocho especies de tortugas marinas, cuyo número está disminuyendo"
+    },
+    {
+      "label": "Antigüedad",
+      "value": "Hace alrededor de 200 millones de años, los reptiles dominaban la tierra, el cielo y el mar"
+    },
+    {
+      "label": "Migración",
+      "value": "La tortuga laúd se aventura hasta Islandia o Groenlandia en busca de medusas, y migra de vuelta a las playas tropicales para desovar, nadando miles de kilómetros cada año"
+    },
+    {
+      "label": "Huevos",
+      "value": "Las tortugas de mar, como los reptiles, no incuban sus huevos; los depositan en la arena caliente de playas tropicales"
+    },
+    {
+      "label": "Dieta",
+      "value": "La tortuga verde se alimenta de plantas; otras comen medusas, crustáceos y peces pequeños"
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Las bolsas de plástico, bajo el agua, parecen medusas; ingerirlas suele ser fatal para las tortugas"
+    }
+  ],
+  "topics": [
+    {
+      "id": "types-of-turtles",
+      "title": "Clases de tortugas",
+      "image": "assets/es/turt/TURT01PU.webp",
+      "text": "Hay ocho especies de tortugas marinas, cuyo número está disminuyendo. Algunas, como la tortuga lora del Atlántico, en grave peligro de extinción, son difíciles de ver. Las tortugas marinas, en especial la tortuga verde, se valoran mucho por su carne, aceite y huevos. La tortuga carey del Atlántico es perseguida por su hermoso caparazón, que se vende como \"carey\". Pero incluso las tortugas a las que el ser humano no da caza están en peligro por la pérdida de hábitats costeros, como los pantanos, que proporcionan alimento y refugio a estos animales, y a la invasión de las playas en las que anidan.",
+      "captions": [
+        {
+          "label": "Tortuga verde",
+          "text": "Chelonia mydas"
+        },
+        {
+          "label": "Tortuga boba",
+          "text": "Caretta caretta"
+        },
+        {
+          "label": "Carey",
+          "text": "Carey"
+        }
+      ],
+      "narration": "assets/es/turt/TURT01JN.mp3"
+    },
+    {
+      "id": "turtle-food",
+      "title": "El alimento de las tortugas",
+      "image": "assets/es/turt/TURT03PU.webp",
+      "text": "Las diferentes tortugas comen distintos alimentos. La verde, llamada así por su grasa y no por la piel, se alimenta de plantas. Otras se alimentan de medusas, crustáceos y peces pequeños. Desgraciadamente, muchas pierden la vida por tragar objetos artificiales.\n\nBasura peligrosa\nLa combinación de bolsas de plástico y agua de mar es mortal para muchos animales marinos, incluidas las tortugas. Las bolsas, bajo el agua, parecen medusas, que son un alimento natural. La ingestión de un plástico suele ser fatal para cualquier animal. Las tortugas también mueren al tragarse las bolas de brea que producen los vertidos de petróleo en el océano.\n\nGolosinas para tortugas\nLa mayoría de las tortugas marinas se tragaría con gusto una medusa.",
+      "captions": [
+        {
+          "label": "Cría de tortuga boba",
+          "text": "Caretta caretta"
+        },
+        {
+          "label": "Plásticos y basura en una playa",
+          "text": "Plásticos y basura en una playa"
+        }
+      ],
+      "narration": "assets/es/turt/TURT03JN.mp3"
+    },
+    {
+      "id": "reptiles-of-the-sea",
+      "title": "Los reptiles marinos",
+      "image": "assets/es/turt/TURT04PU.webp",
+      "text": "Hace alrededor de 200 millones de años, los reptiles dominaban la tierra, el cielo y el mar. Aparte de las tortugas, quedan muy pocos reptiles en el océano. Aquí tienes tres animales peligrosos.",
+      "captions": [
+        {
+          "label": "Iguanas marinas",
+          "text": "Amblyrhynchus cristatus"
+        },
+        {
+          "label": "Serpiente marina de cola ancha",
+          "text": "Laticauda colubrina"
+        },
+        {
+          "label": "Cocodrilo de agua salada",
+          "text": "Crocodylus porosus"
+        }
+      ],
+      "narration": "assets/es/turt/TURT04JN.mp3"
+    },
+    {
+      "id": "the-amazing-leatherback",
+      "title": "La asombrosa tortuga laúd",
+      "image": "assets/es/turt/TURT05PU.webp",
+      "text": "La tortuga laúd, conocida por su blando y correoso caparazón, es una asombrosa viajera. Se aventura por el norte hasta Islandia o Groenlandia en busca de las medusas que tanto le gustan. Después migra de vuelta hacia las playas tropicales, para aparearse y desovar. ¡Imagina que tuvieses que nadar miles de kilómetros todos los años!",
+      "captions": [
+        {
+          "label": "Tortuga laúd",
+          "text": "Dermochelys coriacea"
+        },
+        {
+          "label": "Ruta migratoria de las tortugas laúd",
+          "text": "Migración invernal / Migración estival"
+        }
+      ],
+      "narration": "assets/es/turt/TURT05JN.mp3"
+    },
+    {
+      "id": "nesting-beaches",
+      "title": "Playas para anidar",
+      "image": "assets/es/turt/TURT06PU.webp",
+      "text": "Las tortugas marinas anidan en las limpias costas tropicales. Necesitan playas tranquilas y en suave pendiente, para poder trepar; arena limpia y caliente, en la que desovar; y seguridad, frente a los predadores que puedan matarlas o devorar sus huevos. La salida del cascarón debe producirse en la oscuridad, pues las crías se dirigen por instinto hacia el reflejo de la luna en el agua, pero pueden confundirla con luces.",
+      "captions": [
+        {
+          "label": "Cangrejo devorando a una cría de tortuga",
+          "text": "Cangrejo devorando a una cría de tortuga"
+        },
+        {
+          "label": "Principales criaderos de tortugas",
+          "text": "Principales criaderos de tortugas"
+        }
+      ],
+      "narration": "assets/es/turt/TURT06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "El litoral",
+      "to": "shor"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/turt/TURT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 3,
+            "w": 9,
+            "h": 7
+          },
+          {
+            "label": "Clases de tortugas",
+            "to": "types-of-turtles",
+            "x": 52,
+            "y": 20,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "El alimento de las tortugas",
+            "to": "turtle-food",
+            "x": 54,
+            "y": 62,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "La asombrosa tortuga laúd",
+            "to": "the-amazing-leatherback",
+            "x": 5,
+            "y": 62,
+            "w": 30,
+            "h": 6
+          },
+          {
+            "label": "Los reptiles marinos",
+            "to": "reptiles-of-the-sea",
+            "x": 5,
+            "y": 70,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Playas para anidar",
+            "to": "nesting-beaches",
+            "x": 28,
+            "y": 77,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Huevos en peligro",
+            "to": "video",
+            "x": 5,
+            "y": 83,
+            "w": 25,
+            "h": 6
+          }
+        ]
+      },
+      "types-of-turtles": {
+        "image": "assets/es/turt/TURT01PU.webp",
+        "back": "main"
+      },
+      "turtle-food": {
+        "image": "assets/es/turt/TURT03PU.webp",
+        "back": "main"
+      },
+      "reptiles-of-the-sea": {
+        "image": "assets/es/turt/TURT04PU.webp",
+        "back": "main"
+      },
+      "the-amazing-leatherback": {
+        "image": "assets/es/turt/TURT05PU.webp",
+        "back": "main"
+      },
+      "nesting-beaches": {
+        "image": "assets/es/turt/TURT06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/turt/clip.mp4",
+        "poster": "assets/es/turt/TURT02PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/turt/TURT00JN.mp3",
+  "sound": "assets/es/turt/TURT00IX.mp3",
+  "video": {
+    "title": "Huevos en peligro",
+    "src": "assets/es/turt/clip.mp4",
+    "poster": "assets/es/turt/poster.webp",
+    "caption": "Las tortugas de mar, como los reptiles, no incuban sus huevos. Necesitan migrar a playas tropicales para depositarlos en la arena caliente. El continuo crecimiento de la población humana hace que cada año sea más difícil para las hembras encontrar la playa desierta y sin contaminar que necesitan. Fuera del agua, la tortuga marina y sus huevos están expuestos a todo tipo de predadores, especialmente, al hombre.",
+    "narration": "assets/es/turt/TURT02JN.mp3"
+  }
+}

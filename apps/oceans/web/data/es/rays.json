@@ -1,0 +1,229 @@
+{
+  "id": "rays",
+  "code": "RAYS",
+  "name": "La raya",
+  "category": "creature",
+  "scientificName": "Batoidea",
+  "needsScientificVerify": false,
+  "tagline": "¡La raya esconde corriente eléctrica, aguijón venenoso y espectaculares saltos al aire!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Arrecife de coral",
+    "Mar abierto"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/rays/RAYS00AA.webp",
+    "alt": "La raya"
+  },
+  "intro": "La raya es un pez que vive en el fondo del mar, con amplias aletas pectorales que asemejan alas. Es descendiente de los tiburones y, al igual que esos animales, tiene el esqueleto cartilaginoso. También, con excepción de la deslizante, la raya pare a sus crías, como la mayoría de los tiburones. La raya pasa la mayor parte del tiempo camuflada en la arena, ¡pero algunos de estos aerodinámicos peces son capaces de subir velozmente hasta la superficie y lanzarse al aire como un reactor!",
+  "facts": [
+    {
+      "label": "Esqueleto",
+      "value": "Cartilaginoso, como el de los tiburones"
+    },
+    {
+      "label": "Voltaje",
+      "value": "La raya eléctrica puede generar una descarga de hasta 300 voltios, suficiente para matar a un hombre"
+    },
+    {
+      "label": "Tamaño (manta)",
+      "value": "Hasta 7 m de ancho y 1 tonelada y media de peso"
+    },
+    {
+      "label": "Longitud (pez sierra)",
+      "value": "Hasta 7 m, incluida la sierra"
+    },
+    {
+      "label": "Especies",
+      "value": "Más de 450 especies de rayas y rayas deslizantes"
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Se han visto hembras de manta pariendo en mitad del aire al saltar fuera del agua"
+    }
+  ],
+  "topics": [
+    {
+      "id": "shocking-behavior",
+      "title": "Una respuesta de alto voltaje",
+      "image": "assets/es/rays/RAYS01PU.webp",
+      "text": "La raya eléctrica genera electricidad a través de una serie de prismas musculares colocados verticalmente junto a las aletas, como los platillos de una batería. Esta raya puede generar una descarga de hasta 300 voltios, ¡lo suficiente para matar a un hombre! Es un alivio saber que es una nadadora perezosa y suele permanecer cerca del fondo, esperando a los peces de los que se alimenta. Este animal dio lugar a una de las primeras descripciones de la electricidad: Aristóteles describe la descarga que produjo una raya eléctrica al picarla con una vara metálica.",
+      "narration": "assets/es/rays/RAYS01JN.mp3",
+      "captions": [
+        {
+          "label": "Tremielga chica",
+          "text": "Narcine braziliensis"
+        }
+      ]
+    },
+    {
+      "id": "spaceship",
+      "title": "¿Naves espaciales?",
+      "image": "assets/es/rays/RAYS02PU.webp",
+      "text": "La manta es la mayor de todas las rayas. Es posible que muchas historias de monstruos marinos tengan su origen en encuentros con estos majestuosos seres de increíble movilidad. La manta puede medir hasta 7 m de ancho y pesar hasta 1 tonelada y media. A veces, estos esbeltos gigantes se aventuran a subir a la superficie para realizar espectaculares saltos. ¡Lo creas o no, se han visto hembras pariendo en mitad del aire!",
+      "narration": "assets/es/rays/RAYS02JN.mp3",
+      "captions": [
+        {
+          "label": "Manta",
+          "text": "Manta birostris"
+        }
+      ]
+    },
+    {
+      "id": "nosy-rays",
+      "title": "Rayas narigudas",
+      "image": "assets/es/rays/RAYS03PU.webp",
+      "text": "¡No creo que te gustase estar cara a cara con los miembros de esta familia de rayas! Una nariz afilada: Es fácil imaginar por qué a este pez se le ha llamado pez guitarra. Puede que su puntiaguda nariz le ayude a cavar en la arena para ocultarse o localizar a otros peces. Un arma de múltiples filos: El pez sierra, de la familia de las rayas, usa su nariz en forma de sierra para abrirse paso entre las bandadas de peces y mutilar o dejar sin sentido a sus víctimas. Aunque la sierra no es más que una nariz alargada hecha de cartílago, los entre 12 y 30 pares de dientes que la bordean son afilados como navajas, ¡y la sierra es tan dura como el hueso! El pez sierra puede llegar a alcanzar la impresionante longitud de 7 m, incluida la sierra.",
+      "captions": [
+        {
+          "label": "Pez guitarra",
+          "text": "Pez guitarra"
+        },
+        {
+          "label": "Espadachín",
+          "text": "Pristis pectinata"
+        }
+      ],
+      "narration": "assets/es/rays/RAYS03JN.mp3"
+    },
+    {
+      "id": "beauty-spots",
+      "title": "Hermosas manchas",
+      "image": "assets/es/rays/RAYS04PU.webp",
+      "text": "Hay más de 450 especies de rayas y rayas deslizantes. Muchas de ellas tienen hermosos colores o aletas de extrañas formas. La pastinaca de manchas azules, que habita las profundas aguas de los océanos Pacífico e Índico, es tan grácil como un cisne, pero está armada con un aguijón en la cola y veneno.",
+      "narration": "assets/es/rays/RAYS04JN.mp3",
+      "captions": [
+        {
+          "label": "Pastinaca de manchas azules",
+          "text": "Dasyatis kuhlii"
+        }
+      ]
+    },
+    {
+      "id": "dangerous-defense",
+      "title": "Peligrosa a la defensiva",
+      "image": "assets/es/rays/RAYS05PU.webp",
+      "text": "La pastinaca tiene la elegancia de un automóvil deportivo y, cuando la dejan tranquila, es tan mansa como un gato. Pero, ¡cuidado con pisarla! Cuando la provocan, agita la cola en todas direcciones. El veneno del aguijón es muy fuerte y puede provocar grandes dolores, hinchazón y, en raras ocasiones, hasta la muerte de seres humanos y animales. Un afilado aguijón: La pastinaca sólo utiliza el afilado aguijón de la cola para la autodefensa.",
+      "captions": [
+        {
+          "label": "Pastinaca americana",
+          "text": "Dasyatis americana"
+        }
+      ],
+      "narration": "assets/es/rays/RAYS05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Asombrosos poderes",
+      "to": "powr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/rays/RAYS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Hermosas manchas",
+            "to": "beauty-spots",
+            "x": 62,
+            "y": 29,
+            "w": 17,
+            "h": 6
+          },
+          {
+            "label": "Peligrosa a la defensiva",
+            "to": "dangerous-defense",
+            "x": 16,
+            "y": 43,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "El cometido de las rayas",
+            "to": "video",
+            "x": 17,
+            "y": 57,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Una respuesta de alto voltaje",
+            "to": "shocking-behavior",
+            "x": 59,
+            "y": 52,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "¿Naves espaciales?",
+            "to": "spaceship",
+            "x": 58,
+            "y": 66,
+            "w": 14,
+            "h": 6
+          },
+          {
+            "label": "Rayas narigudas",
+            "to": "nosy-rays",
+            "x": 16,
+            "y": 69,
+            "w": 14,
+            "h": 6
+          }
+        ]
+      },
+      "shocking-behavior": {
+        "image": "assets/es/rays/RAYS01PU.webp",
+        "back": "main"
+      },
+      "spaceship": {
+        "image": "assets/es/rays/RAYS02PU.webp",
+        "back": "main"
+      },
+      "nosy-rays": {
+        "image": "assets/es/rays/RAYS03PU.webp",
+        "back": "main"
+      },
+      "beauty-spots": {
+        "image": "assets/es/rays/RAYS04PU.webp",
+        "back": "main"
+      },
+      "dangerous-defense": {
+        "image": "assets/es/rays/RAYS05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/rays/clip.mp4",
+        "poster": "assets/es/rays/RAYS06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/rays/RAYS00JN.mp3",
+  "sound": "assets/es/rays/RAYS00IX.mp3",
+  "video": {
+    "title": "El cometido de las rayas",
+    "src": "assets/es/rays/clip.mp4",
+    "poster": "assets/es/rays/poster.webp",
+    "caption": "La raya prefiere las aguas tropicales y subtropicales. Esta afortunada raya nada en las hermosas aguas turquesas de la Gran Isla Caimán, en el mar Caribe. Por lo general, son tímidos seres que ocupan la mayor parte del tiempo en su labor de carroñeros, contribuyendo a limpiar el fondo del océano y a mantener un equilibrio entre las poblaciones de distintos animales marinos dentro de la cadena trófica.",
+    "narration": "assets/es/rays/RAYS06JN.mp3"
+  }
+}

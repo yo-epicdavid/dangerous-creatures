@@ -1,0 +1,191 @@
+{
+  "id": "myst",
+  "code": "MYST",
+  "name": "Misteriosas relaciones",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¿Amigos, rivales o parásitos? En el océano, nadie sobrevive del todo solo.",
+  "zones": [
+    "Arrecife de coral",
+    "Mar abierto"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/myst/MYST00AA.webp",
+    "alt": "Misteriosas relaciones"
+  },
+  "intro": "Las distintas especies de animales y plantas dependen a menudo unas de las otras para su supervivencia. A esto se le llama simbiosis. Hay relaciones simbióticas que benefician a ambas partes; en otras, una de las partes se aprovecha de la otra. En la imagen, un diminuto lábrido limpiador come parásitos de la piel de una trucha del coral. Este arreglo supone un buen trato para ambas partes: los peces grandes se libran de molestas plagas y los limpiadores obtienen un suministro de alimento continuo y directo a domicilio. Esto se llama mutualismo.",
+  "facts": [
+    {
+      "label": "Mutualismo",
+      "value": "El lábrido limpiador come parásitos de la piel de la trucha del coral y ambas partes se benefician: el pez grande se libra de plagas y el limpiador obtiene alimento directo a domicilio."
+    },
+    {
+      "label": "Comensalismo",
+      "value": "La quisquilla vive entre las púas del erizo de mar: solo una parte sale ganando sin perjudicar a la otra, y a eso se le llama comensalismo."
+    },
+    {
+      "label": "Parasitismo",
+      "value": "Las lampreas del Pacífico son los vampiros de los océanos: se adhieren a otros peces con su boca de ventosa y absorben sus fluidos hasta que mueren."
+    },
+    {
+      "label": "Transporte gratis",
+      "value": "La rémora viaja gratis adhiriéndose a tiburones y mantas, ahorra energía y además se alimenta de los restos de comida de su compañero."
+    },
+    {
+      "label": "Casa prestada",
+      "value": "Los ermitaños introducen su cuerpo blando en caparazones, latas o trozos de coral, y cambian de casa cuando les queda pequeña."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Hasta las morenas de afilados dientes refrenan el impulso de devorar a las quisquillas limpiadoras, comprendiendo lo valioso de su servicio."
+    }
+  ],
+  "topics": [
+    {
+      "id": "along-for-the-ride",
+      "title": "Lista para el paseo",
+      "image": "assets/es/myst/MYST01PU.webp",
+      "text": "Desde un punto de vista humano, la rémora es un pez perezoso. Aunque perfectamente capaz de nadar por sus propios medios, a menudo se las arregla para viajar gratis adhiriéndose a animales de mayor tamaño, como tiburones y mantas. De esa forma, la rémora no sólo ahorra energía, también se alimenta de los restos de comida de su compañero.",
+      "captions": [
+        {
+          "label": "Cabeza con ventosas",
+          "text": "La rémora se adhiere a la piel lisa de los tiburones y las rayas con las ventosas que tiene sobre la cabeza. Esto no daña en absoluto al pez más grande, pero es probable que disminuya algo su velocidad."
+        }
+      ],
+      "narration": "assets/es/myst/MYST01JN.mp3"
+    },
+    {
+      "id": "natural-barricade",
+      "title": "Una barricada natural",
+      "image": "assets/es/myst/MYST02PU.webp",
+      "text": "Si fueras una diminuta quisquilla a la que pueden devorar numerosas criaturas, ¿qué mejor sitio para descansar que entre las púas de un erizo de mar? Pocos predadores se arriesgarían a llenarse de espinas para atraparte. Definitivamente es un buen arreglo para la quisquilla y no daña al erizo. Este tipo de relación, en la que sólo una de las partes sale ganando sin perjudicar a la otra, recibe el nombre de comensalismo.",
+      "narration": "assets/es/myst/MYST02JN.mp3"
+    },
+    {
+      "id": "squatters-rights",
+      "title": "Los derechos de los ocupantes",
+      "image": "assets/es/myst/MYST04PU.webp",
+      "text": "Los animales de cuerpo blando necesitan descansar en lugares protegidos. Cualquier sitio es bueno con tal de que haya suficiente espacio, incluso los desechos como vasijas y latas, las grietas y cavidades de los arrecifes y las estructuras creadas por otros animales.",
+      "captions": [
+        {
+          "label": "Casa del caracol",
+          "text": "Este diminuto pulpo se asoma desde la masa de huevos de un caracol de luna. La hembra los pega a la arena con mucosidades. La estructura, como una vasija de cerámica semioculta, se endurece hasta adquirir la consistencia del cuero."
+        },
+        {
+          "label": "Una casa móvil",
+          "text": "A diferencia de la mayoría de los cangrejos, los ermitaños tienen el cuerpo blando. Introducen la cola en caparazones, latas y trozos huecos de coral, llevando a espaldas su casa prestada mientras recorren el fondo. Si les queda pequeña, la cambian por otra."
+        }
+      ],
+      "narration": "assets/es/myst/MYST04JN.mp3"
+    },
+    {
+      "id": "just-one-bite",
+      "title": "Sólo un mordisco...",
+      "image": "assets/es/myst/MYST05PU.webp",
+      "text": "Las lampreas del Pacífico son los vampiros de los océanos. Se pegan a los peces con su boca de ventosa, arañando con los dientes y la áspera lengua la piel del pez hasta agujerearla. Una vez que se adhieren, absorben los fluidos del cuerpo de su presa y no la sueltan hasta que muere. Este es un terrible ejemplo de relación parasitaria, en la que unos seres (llamados parásitos) viven a expensas de otros.",
+      "narration": "assets/es/myst/MYST05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Los impostores",
+      "to": "pret"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/myst/MYST00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 3,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Una barricada natural",
+            "to": "natural-barricade",
+            "x": 52,
+            "y": 12,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Sólo un mordisco...",
+            "to": "just-one-bite",
+            "x": 71,
+            "y": 29,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Los derechos de los ocupantes",
+            "to": "squatters-rights",
+            "x": 61,
+            "y": 53,
+            "w": 19,
+            "h": 7
+          },
+          {
+            "label": "Lista para el paseo",
+            "to": "along-for-the-ride",
+            "x": 54,
+            "y": 77,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Abiertos a los negocios",
+            "to": "video",
+            "x": 5,
+            "y": 77,
+            "w": 22,
+            "h": 6
+          }
+        ]
+      },
+      "along-for-the-ride": {
+        "image": "assets/es/myst/MYST01PU.webp",
+        "back": "main"
+      },
+      "natural-barricade": {
+        "image": "assets/es/myst/MYST02PU.webp",
+        "back": "main"
+      },
+      "squatters-rights": {
+        "image": "assets/es/myst/MYST04PU.webp",
+        "back": "main"
+      },
+      "just-one-bite": {
+        "image": "assets/es/myst/MYST05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/myst/clip.mp4",
+        "poster": "assets/es/myst/MYST03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/myst/MYST00JN.mp3",
+  "sound": "assets/es/myst/MYST00IX.mp3",
+  "video": {
+    "title": "Abiertos a los negocios",
+    "src": "assets/es/myst/clip.mp4",
+    "poster": "assets/es/myst/poster.webp",
+    "caption": "Quisquillas limpiadoras anuncian sus servicios con llamativos bailes y limpian de parásitos y rocalla la piel, las branquias y la boca de grandes peces y morenas, que refrenan el impulso de devorar al personal de limpieza.",
+    "narration": "assets/es/myst/MYST03JN.mp3"
+  }
+}

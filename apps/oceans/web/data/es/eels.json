@@ -1,0 +1,271 @@
+{
+  "id": "eels",
+  "code": "EELS",
+  "name": "Las anguilas",
+  "category": "creature",
+  "scientificName": "Gymnothorax moringa",
+  "needsScientificVerify": false,
+  "tagline": "Serpientes del mar: mandíbulas abiertas, secretos increíbles.",
+  "zones": [
+    "Arrecife de coral",
+    "Mar profundo",
+    "Ríos y estuarios",
+    "Bosques de algas y praderas marinas"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/eels/EELS00AA.webp",
+    "alt": "Las anguilas"
+  },
+  "intro": "Con su cuerpo sinuoso y su mandíbula abierta llena de dientes, la anguila parece el típico malhechor nocturno. Sin embargo, a pesar de su aspecto amenazador, la morena rara vez constituye una amenaza para la gente. A menos que se le provoque, la morena suele permanecer indiferente ante la presencia de los buceadores y, a veces, incluso muestra una curiosidad parecida a la del gato hacia los visitantes humanos de sus territorios submarinos.",
+  "facts": [
+    {
+      "label": "Viaje",
+      "value": "Las anguilas adultas nadan miles de kilómetros desde Europa y Estados Unidos hasta el mar de los Sargazos para freza."
+    },
+    {
+      "label": "Crías",
+      "value": "Las crías de anguilas se llaman angulas y regresan con las corrientes hacia sus puntos de origen, volviendo al agua dulce."
+    },
+    {
+      "label": "Historia",
+      "value": "Los antiguos romanos tenían morenas como animales de compañía, y todavía son favoritas de muchos visitantes de los grandes acuarios."
+    },
+    {
+      "label": "Mandíbula",
+      "value": "El pez perro tiene dientes afilados y su mandíbula son lo bastante fuertes como para triturar un erizo de mar de un solo mordisco."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "La anguila eléctrica no es una anguila, sino un pez emparentado con la carpa que vive en ríos sudamericanos, no en el agua salada."
+    },
+    {
+      "label": "Cazadora abisal",
+      "value": "La anguila engullidora tiene una mandíbula expansible en la que caben peces enormes, aunque la mayoría de las veces absorbe bocadas de agua con organismos diminutos."
+    }
+  ],
+  "topics": [
+    {
+      "id": "incredible-journey",
+      "title": "Un viaje increíble",
+      "image": "assets/es/eels/EELS01PU.webp",
+      "text": "Las anguilas adultas de agua dulce son grandes viajeras. Cuando llega la época de reproducción nadan corriente abajo e incluso se arrastran a través de la tierra para alcanzar el mar. Una vez allí, nadan con las corrientes durante miles de kilómetros, desde Europa y Estados Unidos hasta el mar de los Sargazos, para freza. Las crías de anguilas, llamadas angulas, regresan con las corrientes hacia sus puntos de origen, volviendo posteriormente al agua dulce.",
+      "captions": [
+        {
+          "label": "Angulas (crías de anguilas)",
+          "text": "Anguilla anguilla"
+        },
+        {
+          "label": "Anguila europea",
+          "text": "Anguilla anguilla"
+        }
+      ],
+      "narration": "assets/es/eels/EELS01JN.mp3"
+    },
+    {
+      "id": "gardens-of-eels",
+      "title": "Jardines de anguilas",
+      "image": "assets/es/eels/EELS02PU.webp",
+      "text": "Después de que las anguilas de jardín hayan excavado sus madrigueras en el suelo del océano, raramente salen totalmente de su hogar protector. Simplemente sacan la cabeza para comer. A veces se estiran un poco más, para luchar contra anguilas vecinas o para aparearse, pero siempre intentan mantener al menos la cola dentro de su madriguera. Las rayas comen habitualmente anguilas de jardín, y por tanto cuando pasa la sombra de una raya sobre una colonia de anguilas todas se retiran a sus agujeros para esconderse.",
+      "captions": [
+        {
+          "label": "Anguilas de jardín",
+          "text": "Taenioconger hassi"
+        }
+      ],
+      "narration": "assets/es/eels/EELS02JN.mp3"
+    },
+    {
+      "id": "multitudes-of-morays",
+      "title": "Multitud de morenas",
+      "image": "assets/es/eels/EELS03PU.webp",
+      "text": "Como puedes ver aquí, la morena y sus parientes tienen una variedad asombrosa de tamaños, colores y modelos. Estos sorprendentes peces tropicales han sido los favoritos de los buceadores durante siglos. Los antiguos romanos los tenían como animales de compañía y todavía son los favoritos de muchos visitantes de los grandes acuarios. ¿Has visto alguna vez alguna de estas especies de anguilas?",
+      "captions": [
+        {
+          "label": "Morena azul listada",
+          "text": "Rhinomuraena ambionensis"
+        },
+        {
+          "label": "Morena",
+          "text": "Enchelycore pardalis"
+        },
+        {
+          "label": "Morena moteada",
+          "text": "Gymnothorax undulatus"
+        }
+      ],
+      "narration": "assets/es/eels/EELS03JN.mp3"
+    },
+    {
+      "id": "sea-wolves",
+      "title": "El perro de mar",
+      "image": "assets/es/eels/EELS04PU.webp",
+      "text": "¿Por qué se le dio el nombre de pez perro? No tiene en realidad el comportamiento de un perro; de hecho es muy tímido y dulce. No es en absoluto una anguila; está más cerca de los peces llamados bordas y blénidos. Pero tiene el cuerpo alargado, como una anguila, y parece terrible. Sus dientes afilados y su mandíbula son lo bastante fuertes como para triturar un erizo de mar de un solo mordisco. Este lobo gris norteamericano no se parece mucho a un pez perro, ¿verdad?, pero ambos son poderosos predadores.",
+      "captions": [
+        {
+          "label": "Lobo gris norteamericano",
+          "text": "Canis lupus"
+        },
+        {
+          "label": "Pez perro",
+          "text": "Anarrhichthys ocellatus"
+        }
+      ],
+      "narration": "assets/es/eels/EELS04JN.mp3"
+    },
+    {
+      "id": "electric-eels",
+      "title": "La anguila eléctrica",
+      "image": "assets/es/eels/EELS05PU.webp",
+      "text": "Una de las anguilas de la que no te tienes que preocupar de cruzarte con ella en cualquier océano es la anguila eléctrica. Este sorprendente animal caza sus presas en los ríos sudamericanos, no en el agua salada. Además, tampoco es una anguila, sino un pez de cuerpo alargado, emparentado con la carpa. Tal vez no haya anguilas eléctricas en el océano, pero hay rayas eléctricas. Diferentes clases de rayas pueden generar electricidad, no suficiente para matarte, ¡pero sí para darte una fuerte sacudida! Utilizan este poder sorprendente para aturdir a sus presas antes de comerlas.",
+      "captions": [
+        {
+          "label": "Anguila eléctrica",
+          "text": "Electrophorus electricus"
+        },
+        {
+          "label": "Tremielga chica, Atlántico",
+          "text": "Narcine braziliensis"
+        }
+      ],
+      "narration": "assets/es/eels/EELS05JN.mp3"
+    },
+    {
+      "id": "what-a-mouth",
+      "title": "¡Vaya boquita!",
+      "image": "assets/es/eels/EELS06PU.webp",
+      "text": "La anguila engullidora de aspecto extraño busca presas en las oscuras profundidades del océano. Allí no hay mucho que comer, pero esta anguila puede estar segura de que casi cualquier cosa que aparezca le cabrá en la boca. Tiene una mandíbula expansible en la que caben peces enormes, pero la mayoría de las veces sólo absorbe grandes bocadas de agua, a la espera de poder tragar junto con ella unos pocos organismos diminutos.",
+      "captions": [
+        {
+          "label": "Anguila engullidora abisal",
+          "text": "Saccopharyngoid sp."
+        }
+      ],
+      "narration": "assets/es/eels/EELS06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "El pez cofre",
+      "to": "boxy"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/eels/EELS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 9,
+            "h": 6
+          },
+          {
+            "label": "Multitud de morenas",
+            "to": "multitudes-of-morays",
+            "x": 57,
+            "y": 16,
+            "w": 28,
+            "h": 6
+          },
+          {
+            "label": "¡Vaya boquita!",
+            "to": "what-a-mouth",
+            "x": 62,
+            "y": 31,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "¡Qué dientes más grandes tienes!",
+            "to": "video",
+            "x": 2,
+            "y": 48,
+            "w": 27,
+            "h": 9
+          },
+          {
+            "label": "Un viaje increíble",
+            "to": "incredible-journey",
+            "x": 2,
+            "y": 61,
+            "w": 21,
+            "h": 8
+          },
+          {
+            "label": "El perro de mar",
+            "to": "sea-wolves",
+            "x": 2,
+            "y": 73,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "La anguila eléctrica",
+            "to": "electric-eels",
+            "x": 57,
+            "y": 72,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "Jardines de anguilas",
+            "to": "gardens-of-eels",
+            "x": 57,
+            "y": 82,
+            "w": 21,
+            "h": 6
+          }
+        ]
+      },
+      "incredible-journey": {
+        "image": "assets/es/eels/EELS01PU.webp",
+        "back": "main"
+      },
+      "gardens-of-eels": {
+        "image": "assets/es/eels/EELS02PU.webp",
+        "back": "main"
+      },
+      "multitudes-of-morays": {
+        "image": "assets/es/eels/EELS03PU.webp",
+        "back": "main"
+      },
+      "sea-wolves": {
+        "image": "assets/es/eels/EELS04PU.webp",
+        "back": "main"
+      },
+      "electric-eels": {
+        "image": "assets/es/eels/EELS05PU.webp",
+        "back": "main"
+      },
+      "what-a-mouth": {
+        "image": "assets/es/eels/EELS06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/eels/clip.mp4",
+        "poster": "assets/es/eels/EELS07PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/eels/EELS00JN.mp3",
+  "sound": "assets/es/eels/EELS00IX.mp3",
+  "video": {
+    "title": "¡Qué dientes más grandes tienes!",
+    "src": "assets/es/eels/clip.mp4",
+    "poster": "assets/es/eels/poster.webp",
+    "caption": "La sonrisa dentuda de una morena ha asustado a muchos buceadores, pero cuando abre y cierra su poderosa mandíbula no está alardeando de sus dientes afilados y puntiagudos: simplemente está respirando, bombeando agua por la boca y pasándola a través de las branquias. Algunos buceadores le dan de comer con la mano, pero a veces la morena no diferencia entre los dedos y la comida, así que realmente no es una buena idea.",
+    "narration": "assets/es/eels/EELS07JN.mp3"
+  }
+}

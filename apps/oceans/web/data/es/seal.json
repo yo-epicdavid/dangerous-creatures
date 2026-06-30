@@ -1,0 +1,302 @@
+{
+  "id": "seal",
+  "code": "SEAL",
+  "name": "Las focas y el león marino",
+  "category": "creature",
+  "scientificName": "Pinnipedia",
+  "needsScientificVerify": false,
+  "tagline": "¡Torpes en tierra, acróbatas en el mar!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Mar abierto",
+    "Mares polares"
+  ],
+  "oceans": [
+    "Océano Ártico",
+    "Océano Antártico",
+    "Océano Pacífico",
+    "Océano Atlántico"
+  ],
+  "hero": {
+    "image": "assets/es/seal/SEAL00AA.webp",
+    "alt": "Las focas y el león marino"
+  },
+  "intro": "Estos animales se mueven con dificultad por tierra. Pero en el agua, la foca y el león marino son de los animales más ágiles. Su cuerpo, en forma de torpedo, es tan flexible que les permite dar una vuelta completa en el espacio más reducido. Recorren largas distancias impulsándose con muy pocos golpes de sus poderosas aletas. Las aletas tienen en su interior huesos similares a los de nuestras manos y pies. Los científicos llaman pinnípedos, que significa «pies pluma», a las focas, las morsas y los leones marinos.",
+  "facts": [
+    {
+      "label": "Nombre",
+      "value": "«Pinnípedo» significa «pies pluma»"
+    },
+    {
+      "label": "Peso máximo",
+      "value": "Los elefantes marinos nórdicos llegan a pesar 2.700 kg"
+    },
+    {
+      "label": "Cuerpo",
+      "value": "En forma de torpedo, tan flexible que les permite dar una vuelta completa en el espacio más reducido"
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Las focas leopardo golpean los témpanos para hacer caer a los pingüinos al agua"
+    },
+    {
+      "label": "Única en su clase",
+      "value": "La foca del Baikal es la única foca del mundo que vive en agua dulce"
+    },
+    {
+      "label": "En peligro",
+      "value": "La foca monje del Caribe ya está extinguida; sólo quedan unas pocas focas hawaianas y mediterráneas en todo el planeta"
+    }
+  ],
+  "topics": [
+    {
+      "id": "whats-the-difference",
+      "title": "¿Cuál es la diferencia?",
+      "image": "assets/es/seal/SEAL01PU.webp",
+      "text": "¿Sabes distinguir a una foca verdadera de un león marino? Las diferencias son pequeñas, pero aquí tienes algunas pistas.\n\nEl león marino\n¿Ves las pequeñas aletas que tiene a ambos lados del cuerpo? Ahora fíjate en las aletas traseras. El león marino puede girarlas hacia delante con el objeto de «caminar» o sentarse. También se impulsa por el agua con la ayuda de estas poderosas «patas traseras».\n\nLa foca\nLa mayoría de las focas tiene una abertura en lugar de orejas, es decir, carecen de apéndices laterales en la cabeza. Tampoco tienen aletas traseras articulables como en el caso del león marino. En tierra, las focas sólo utilizan sus aletas frontales para arrastrar el resto de su cuerpo. Las focas se apoyan en la fuerza de las aletas frontales para impulsarse en el agua.",
+      "captions": [
+        {
+          "label": "León marino de California",
+          "text": "Zalophus californianus"
+        },
+        {
+          "label": "Foca común",
+          "text": "Phoca vitulina"
+        }
+      ],
+      "narration": "assets/es/seal/SEAL01JN.mp3"
+    },
+    {
+      "id": "predators-of-penguins",
+      "title": "Predadores de pingüinos",
+      "image": "assets/es/seal/SEAL02PU.webp",
+      "text": "Si los pingüinos sufren pesadillas, probablemente sus protagonistas sean las focas leopardo. En tierra, las focas leopardo son prácticamente inofensivas; a veces los pingüinos se colocan a su lado! Pero ningún pingüino desea toparse con tan feroces predadores en el agua. Las focas leopardo viven en el océano Antártico y es fácil imaginar por qué se las llama así. Al igual que los sigilosos leopardos de tierra, estas focas son expertas en abalanzarse silenciosamente sobre su presa. Se alimentan de pájaros, peces y focas más pequeñas y hasta se las ha visto golpear los témpanos para hacer caer a los pingüinos al agua.",
+      "narration": "assets/es/seal/SEAL02JN.mp3",
+      "captions": [
+        {
+          "label": "Foca leopardo",
+          "text": "Hydrurga leptonyx"
+        }
+      ]
+    },
+    {
+      "id": "arctic-drama",
+      "title": "El drama del Ártico",
+      "image": "assets/es/seal/SEAL03PU.webp",
+      "text": "Aunque las focas son predadores, a su vez son presa de los tiburones y las orcas. Las focas del Ártico no sólo deben hacer frente a los peligros en el agua, sino también en la tierra, donde deben vigilar que no haya osos polares cerca. Las focas respiran aire al igual que todos los mamíferos. Los osos polares lo saben, por lo que esperan junto a las aberturas que abren las focas en el hielo. Cuando la foca saca la cabeza para respirar, el oso polar intenta agarrarla velozmente; si la foca no es rápida, se convierte en la cena del oso.",
+      "narration": "assets/es/seal/SEAL03JN.mp3",
+      "captions": [
+        {
+          "label": "Oso polar vigilando un agujero de focas",
+          "text": "Ursus maritimus"
+        },
+        {
+          "label": "Foca",
+          "text": "Phoca hispida"
+        }
+      ]
+    },
+    {
+      "id": "fatal-fur",
+      "title": "Hermosa pero fatal",
+      "image": "assets/es/seal/SEAL04PU.webp",
+      "text": "Además de una gruesa capa de grasa bajo la piel, las focas peludas y las focas de Groenlandia tienen sedosas pieles que las resguardan del frío. Desgraciadamente, hay gente a la que le gusta abrigarse con pieles de foca, lo que ha sido la causa de que el ser humano las haya cazado durante siglos. Mientras sólo los nativos mataban focas para hacerse abrigos, no había problema. Pero, cuando se comenzó a cazar masivamente a estos animales, las focas entraron en peligro de extinción. ¿Quieres ayudarlas? No compres nada confeccionado con piel de foca.",
+      "narration": "assets/es/seal/SEAL04JN.mp3",
+      "captions": [
+        {
+          "label": "Madre y cría, foca de Groenlandia",
+          "text": "Phoca groenlandica"
+        }
+      ]
+    },
+    {
+      "id": "elephants-on-the-beach",
+      "title": "Elefantes en la playa",
+      "image": "assets/es/seal/SEAL05PU.webp",
+      "text": "¿Conoces los dos motivos por los que estos animales reciben el nombre de elefantes marinos? Probablemente te imaginarás que pueden alcanzar un tamaño enorme: ¡los elefantes marinos nórdicos llegan a pesar 2.700 kg! Los hocicos de los machos, parecidos a trompas, son fáciles de distinguir en la época de cría, ya que los inflan como globos para impresionar a las hembras.\n\nUna trompa de adorno\nEl largo hocico de los machos adultos recibe el nombre de probóscide y sólo sirve para aparentar. La foca no puede utilizarlo para atrapar cosas, como haría un elefante con su trompa.",
+      "captions": [
+        {
+          "label": "Elefantes marinos nórdicos",
+          "text": "Mirounga angustirostris"
+        }
+      ],
+      "narration": "assets/es/seal/SEAL05JN.mp3"
+    },
+    {
+      "id": "balloon-heads",
+      "title": "Cabezas como globos",
+      "image": "assets/es/seal/SEAL06PU.webp",
+      "text": "La supervivencia no es el único objetivo en el mundo animal, tener la mayor cantidad posible de crías también es importante. Por ese motivo, muchos machos tienen técnicas especiales para asustar a los otros y atraer a las hembras. A fin de atemorizar a sus rivales, la foca macho hace algo sorprendente: ¡hincha la trompa! Estos mamíferos tienen amplias fosas nasales que llenan de aire. Para conseguir ese efecto globo, cierran las ventanas nasales (cada una a un tiempo).",
+      "narration": "assets/es/seal/SEAL06JN.mp3",
+      "captions": [
+        {
+          "label": "Foca macho",
+          "text": "Cystophora cristata"
+        }
+      ]
+    },
+    {
+      "id": "rare-seals",
+      "title": "Quedan pocas",
+      "image": "assets/es/seal/SEAL07PU.webp",
+      "text": "Algunas especies de focas están en peligro de extinción. Estas dos especies necesitan nuestra protección.\n\nLa foca tropical\nLa foca monje habitaba en otra época en las regiones del Pacífico, el Caribe y el Mediterráneo. Pero los cazadores mataron a cientos de ellas por su piel. Hoy en día, la foca monje del Caribe está extinguida; sólo quedan unas pocas focas hawaianas y mediterráneas en todo el planeta.\n\nLa foca de agua dulce\nLa foca del Baikal habita en el lago Baikal, en Rusia. Es la única foca que vive en agua dulce, lo que conlleva sus propios riesgos. Este animal sufre más los efectos de la contaminación al vivir en un lago. También está más indefensa ante los cazadores que buscan su carne y su piel.",
+      "captions": [
+        {
+          "label": "Foca del Baikal",
+          "text": "Phoca sibirica"
+        },
+        {
+          "label": "Foca monje hawaiana",
+          "text": "Monachus schauinslandi"
+        }
+      ],
+      "narration": "assets/es/seal/SEAL07JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Los odontocetos",
+      "to": "whlt"
+    },
+    {
+      "label": "Cocodrilos de agua salada",
+      "to": "croc"
+    },
+    {
+      "label": "La morsa",
+      "to": "walr"
+    },
+    {
+      "label": "Aves marinas voladoras",
+      "to": "bird"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/seal/SEAL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 1,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "Quedan pocas",
+            "to": "rare-seals",
+            "x": 2,
+            "y": 42,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "¿De quién es esta playa?",
+            "to": "video",
+            "x": 25,
+            "y": 48,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Hermosa pero fatal",
+            "to": "fatal-fur",
+            "x": 25,
+            "y": 55,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Cabezas como globos",
+            "to": "balloon-heads",
+            "x": 70,
+            "y": 37,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "¿Cuál es la diferencia?",
+            "to": "whats-the-difference",
+            "x": 63,
+            "y": 44,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "El drama del Ártico",
+            "to": "arctic-drama",
+            "x": 70,
+            "y": 78,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Predadores de pingüinos",
+            "to": "predators-of-penguins",
+            "x": 56,
+            "y": 84,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Elefantes en la playa",
+            "to": "elephants-on-the-beach",
+            "x": 2,
+            "y": 83,
+            "w": 27,
+            "h": 5
+          }
+        ]
+      },
+      "whats-the-difference": {
+        "image": "assets/es/seal/SEAL01PU.webp",
+        "back": "main"
+      },
+      "predators-of-penguins": {
+        "image": "assets/es/seal/SEAL02PU.webp",
+        "back": "main"
+      },
+      "arctic-drama": {
+        "image": "assets/es/seal/SEAL03PU.webp",
+        "back": "main"
+      },
+      "fatal-fur": {
+        "image": "assets/es/seal/SEAL04PU.webp",
+        "back": "main"
+      },
+      "elephants-on-the-beach": {
+        "image": "assets/es/seal/SEAL05PU.webp",
+        "back": "main"
+      },
+      "balloon-heads": {
+        "image": "assets/es/seal/SEAL06PU.webp",
+        "back": "main"
+      },
+      "rare-seals": {
+        "image": "assets/es/seal/SEAL07PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/seal/clip.mp4",
+        "poster": "assets/es/seal/SEAL08PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/seal/SEAL00JN.mp3",
+  "sound": "assets/es/seal/SEAL00IX.mp3",
+  "video": {
+    "title": "¿De quién es esta playa?",
+    "src": "assets/es/seal/clip.mp4",
+    "poster": "assets/es/seal/poster.webp",
+    "caption": "Leones marinos de Steller se enfrentan en una disputa territorial en la orilla",
+    "narration": "assets/es/seal/SEAL08JN.mp3"
+  }
+}

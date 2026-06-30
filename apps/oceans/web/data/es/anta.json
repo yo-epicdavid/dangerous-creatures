@@ -1,0 +1,311 @@
+{
+  "id": "anta",
+  "code": "ANTA",
+  "name": "El océano Antártico",
+  "category": "place",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Un mundo helado que mantiene vivo el planeta entero",
+  "zones": [
+    "Mares polares",
+    "Mar abierto",
+    "Mar profundo"
+  ],
+  "oceans": [
+    "Océano Antártico"
+  ],
+  "hero": {
+    "image": "assets/es/anta/ANTA00AA.webp",
+    "alt": "El océano Antártico"
+  },
+  "intro": "Los procesos que influyen en este océano aislado también afectan a la vida cotidiana de cada una de las personas de nuestro planeta, de diversas formas que sólo ahora empezamos a comprender. El minúsculo krill y el fitoplancton, que lo plagan, son ingredientes clave de la red trófica oceánica. Las reservas de hielo de la región ayudan a mantener los niveles marítimos de todo el mundo y regulan el clima de la Tierra. Las corrientes frías fluyen hacia el norte para equilibrar el calor de los trópicos. Debemos proteger esta vasta región de belleza helada de los estragos de la explotación comercial y de la contaminación.",
+  "facts": [
+    {
+      "label": "Zona de convergencia",
+      "value": "La Zona de Convergencia Antártica se encuentra a unos 4.000 km al norte del Polo y tiene unos 40 km de ancho."
+    },
+    {
+      "label": "Iceberg récord",
+      "value": "En 1956 fue visto un iceberg del tamaño de Bélgica."
+    },
+    {
+      "label": "Red trófica",
+      "value": "El krill es el eslabón más importante de la red trófica antártica: alimenta a ballenas, focas, calamares, aves y peces."
+    },
+    {
+      "label": "Peces sin sangre roja",
+      "value": "Los dracos antárticos no tienen glóbulos rojos y absorben oxígeno directamente a través de las branquias."
+    },
+    {
+      "label": "Exploración",
+      "value": "El capitán James Cook fue el primero que cruzó en barco de vela el Círculo Antártico, en 1773."
+    },
+    {
+      "label": "Capa de ozono",
+      "value": "Los CFCs usados en refrigeradores y aerosoles dañan la capa de ozono y amenazan al krill y al fitoplancton, base de toda la cadena alimentaria oceánica."
+    }
+  ],
+  "topics": [
+    {
+      "id": "circling-the-globe",
+      "title": "Rodeando el globo",
+      "image": "assets/es/anta/ANTA01PU.webp",
+      "text": "Dos corrientes principales rodean el mundo en direcciones opuestas por el fondo oceánico. Cuando las frías aguas del océano Antártico fluyen hacia el norte, encuentran a su paso aguas más calientes que fluyen hacia el sur desde los trópicos. Esta zona, que se encuentra a unos 4.000 km al norte del Polo y que tiene unos 40 km de ancho, se denomina Zona de Convergencia Antártica. Es la frontera norte de las aguas prolíficas del océano Antártico. Aquí es donde las frías aguas del Antártico se hunden lentamente bajo las aguas más calientes y donde cambian bruscamente las temperaturas de las plantas, los animales, el aire y el agua, así como la química de esta última.",
+      "narration": "assets/es/anta/ANTA01JN.mp3",
+      "captions": [
+        {
+          "label": "Corriente antártica circumpolar",
+          "text": "Corriente antártica circumpolar (Deriva del viento del oeste)"
+        }
+      ]
+    },
+    {
+      "id": "an-encircling-ocean",
+      "title": "Un océano envolvente",
+      "image": "assets/es/anta/ANTA03PU.webp",
+      "text": "El fondo del océano Antártico presenta tres llanuras abisales principales. Sus plataformas continentales son las más angostas de todos los océanos y se encuentran en las mayores profundidades, tal vez debido al peso de la capa de hielo continental. La altiplanicie de Kerguelen se eleva al sur del océano Índico, sirviendo de base a la solitaria isla Kerguelen. La mayoría de las islas del océano Antártico son de origen volcánico y se encuentran cerca de la Zona de Convergencia Antártica. Estos lugares aislados son zonas ideales de cría para una gran variedad de aves y mamíferos marinos.",
+      "narration": "assets/es/anta/ANTA03JN.mp3",
+      "captions": [
+        {
+          "label": "Dorsal del Pacífico-Antártico",
+          "text": "Dorsal del Pacífico-Antártico"
+        },
+        {
+          "label": "Altiplanicie de Kerguelen",
+          "text": "Altiplanicie de Kerguelen"
+        },
+        {
+          "label": "Llanura abisal de Amundsen",
+          "text": "Llanura abisal de Amundsen"
+        },
+        {
+          "label": "Llanura abisal de Enderby",
+          "text": "Llanura abisal de Enderby"
+        },
+        {
+          "label": "Llanura abisal de Weddell",
+          "text": "Llanura abisal de Weddell"
+        }
+      ]
+    },
+    {
+      "id": "breaking-away",
+      "title": "Grandes desprendimientos",
+      "image": "assets/es/anta/ANTA04PU.webp",
+      "text": "Los típicos icebergs achatados del Antártico se desprenden de las enormes capas continentales de hielo que cubren la masa de tierra antártica. Se ha hablado de la posibilidad de remolcar algún día los icebergs antárticos hacia Australia u Oriente Medio como fuente de agua dulce. Hielo errante: Aunque los icebergs suelen disolverse cuando atraviesan al norte de la Zona de Convergencia Antártica, en algunas ocasiones se han visto tan al norte como el sur de Brasil. Estas capas de hielo suelen ser enormes: ¡en 1956 fue visto un iceberg del tamaño de Bélgica! ¡Cuidado con lo que hay debajo!: Decenas de miles de icebergs se desprenden cada año de la capa de hielo del Antártico. A principios de 1987, algunos investigadores soviéticos volvieron a su base antártica y descubrieron que había desaparecido. La localizaron varias semanas después flotando en un iceberg y cubierta de nieve.",
+      "captions": [
+        {
+          "label": "Límite septentrional medio de los icebergs antárticos",
+          "text": "Límite septentrional medio de los icebergs antárticos"
+        },
+        {
+          "label": "Islas de Georgia del Sur",
+          "text": "Islas de Georgia del Sur"
+        }
+      ],
+      "narration": "assets/es/anta/ANTA04JN.mp3"
+    },
+    {
+      "id": "some-like-it-cold",
+      "title": "Algunos lo prefieren frío",
+      "image": "assets/es/anta/ANTA05PU.webp",
+      "text": "Muchas especies de animales se hallan a sus anchas en los mares fríos del Antártico, que son ricos en oxígeno. Estas aguas heladas constituyen el hogar de la mayor variedad de especies de esponjas que jamás hayan vivido en un océano en cualquier época. Estos otros animales también se desarrollan allí. Andando con las algas: Muchos crustáceos pequeños llamados anfípodos se alimentan de las algas que se hallan bajo el hielo. No son los favoritos del vampiro: Los dracos antárticos son tan pálidos como cadáveres porque no tienen glóbulos rojos. Esta adaptación al agua fría permite a estos peces utilizar menos energía y absorber directamente oxígeno en sus tejidos a través de las branquias.",
+      "captions": [
+        {
+          "label": "Pulpo gigante antártico",
+          "text": "Pulpo gigante antártico"
+        },
+        {
+          "label": "Draco antártico",
+          "text": "Draco antártico Chaenocephalus aceratus"
+        },
+        {
+          "label": "Anfípodo",
+          "text": "Anfípodo, Eusirus sp, Estrecho de McMurdo, Antártida"
+        },
+        {
+          "label": "Cefalópodo transparente",
+          "text": "Este pequeño pulpo traslúcido mantiene un ojo alerta en busca de una sabrosa golosina."
+        }
+      ],
+      "narration": "assets/es/anta/ANTA05JN.mp3"
+    },
+    {
+      "id": "a-fragile-food-web",
+      "title": "Una cadena alimentaria frágil",
+      "image": "assets/es/anta/ANTA06PU.webp",
+      "text": "La vida marina se desarrolla en las aguas frías y fértiles que rodean la Antártida. El krill es el eslabón más importante de la red trófica antártica, pues proporciona alimento a animales marinos como las ballenas, las focas, los calamares y algunas aves y peces. No es muy normal que muchos predadores dependan de un animal, pero éstos mantienen el aprovisionamiento de krill alimentándose en diferentes áreas y en diversas épocas del año. Además, los animales se alimentan en profundidades diferentes y prefieren comer krill de distinta edad. Un animalito importante: El krill, un zooplancton parecido a la quisquilla que se alimenta de fitoplancton. Forraje helado: El fitoplancton es abundante a lo largo del año en estas aguas frías, pero se multiplica enormemente cuando aumenta la luz solar, durante la primavera antártica.",
+      "captions": [
+        {
+          "label": "Krill",
+          "text": "Krill Euphausia superba"
+        },
+        {
+          "label": "Fitoplancton",
+          "text": "Fitoplancton"
+        }
+      ],
+      "narration": "assets/es/anta/ANTA06JN.mp3"
+    },
+    {
+      "id": "the-ozone-layer",
+      "title": "La capa de ozono",
+      "image": "assets/es/anta/ANTA07PU.webp",
+      "text": "Cuando la luz del sol reacciona con el oxígeno en la parte superior de la atmósfera de la Tierra, forma una capa de moléculas de gas ozono. Estas moléculas protegen la vida sobre la tierra, filtrando la mayoría de los peligrosos rayos ultravioletas del sol. Cada primavera, el aumento de la luz solar inicia una reacción natural que daña la capa de ozono. Los productos químicos elaborados por el ser humano llamados CFCs (clorofluorocarbonos), que se utilizan para fabricar refrigeradores y aerosoles, aumentan esta destrucción. Los científicos temen que todo ello esté causando daños en el fitoplancton y en el krill, que constituyen la base de la cadena alimentaria del océano, y que a su vez esto pueda tener un enorme impacto en el resto de los animales de la Tierra.",
+      "narration": "assets/es/anta/ANTA07JN.mp3",
+      "captions": [
+        {
+          "label": "Imagen por satélite del agujero de ozono",
+          "text": "Imagen por satélite del agujero de ozono (1979, 1982, 1986, 1990)"
+        }
+      ]
+    },
+    {
+      "id": "exploring-the-southern-ocean",
+      "title": "La exploración del Sur",
+      "image": "assets/es/anta/ANTA08PU.webp",
+      "text": "Durante años, los europeos pensaron que debía existir un gran continente al sur, al que llamaron Terra Australis, para equilibrar la tierra del hemisferio norte. El capitán James Cook fue el primero que cruzó en barco de vela el Círculo Antártico, en 1773 y, aunque nunca encontró la Antártida, se quedó convencido de que debía existir un origen terrestre de todo el hielo flotante que vio. Los exploradores científicos son los equivalentes modernos de los aventureros geográficos, como Cook; muchas naciones tienen actualmente estaciones de investigación en la Antártida.",
+      "narration": "assets/es/anta/ANTA08JN.mp3",
+      "captions": [
+        {
+          "label": "Estación británica de vigilancia antártica Halley",
+          "text": "Estación británica de vigilancia antártica Halley"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "El océano Ártico",
+      "to": "arct"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/anta/ANTA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Rodeando el globo",
+            "to": "circling-the-globe",
+            "x": 13,
+            "y": 39,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "La exploración del Sur",
+            "to": "exploring-the-southern-ocean",
+            "x": 29,
+            "y": 50,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Tiempo tormentoso",
+            "to": "video",
+            "x": 37,
+            "y": 62,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Una cadena alimentaria frágil",
+            "to": "a-fragile-food-web",
+            "x": 11,
+            "y": 73,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Grandes desprendimientos",
+            "to": "breaking-away",
+            "x": 73,
+            "y": 31,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Un océano envolvente",
+            "to": "an-encircling-ocean",
+            "x": 62,
+            "y": 43,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Algunos lo prefieren frío",
+            "to": "some-like-it-cold",
+            "x": 62,
+            "y": 53,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "La capa de ozono",
+            "to": "the-ozone-layer",
+            "x": 65,
+            "y": 73,
+            "w": 18,
+            "h": 5
+          }
+        ]
+      },
+      "circling-the-globe": {
+        "image": "assets/es/anta/ANTA01PU.webp",
+        "back": "main"
+      },
+      "an-encircling-ocean": {
+        "image": "assets/es/anta/ANTA03PU.webp",
+        "back": "main"
+      },
+      "breaking-away": {
+        "image": "assets/es/anta/ANTA04PU.webp",
+        "back": "main"
+      },
+      "some-like-it-cold": {
+        "image": "assets/es/anta/ANTA05PU.webp",
+        "back": "main"
+      },
+      "a-fragile-food-web": {
+        "image": "assets/es/anta/ANTA06PU.webp",
+        "back": "main"
+      },
+      "the-ozone-layer": {
+        "image": "assets/es/anta/ANTA07PU.webp",
+        "back": "main"
+      },
+      "exploring-the-southern-ocean": {
+        "image": "assets/es/anta/ANTA08PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/anta/clip.mp4",
+        "poster": "assets/es/anta/ANTA02PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/anta/ANTA00JN.mp3",
+  "sound": "assets/es/anta/ANTA00IX.mp3",
+  "video": {
+    "title": "Tiempo tormentoso",
+    "src": "assets/es/anta/clip.mp4",
+    "poster": "assets/es/anta/poster.webp",
+    "caption": "Los vientos que descienden de los altiplanos de la Antártida chocan con el aire más caliente del océano y crean un estrecho cinturón de tormentas a lo largo de la costa que a menudo produce nubes, niebla y grandes ventiscas que pueden durar varias semanas.",
+    "narration": "assets/es/anta/ANTA02JN.mp3"
+  }
+}

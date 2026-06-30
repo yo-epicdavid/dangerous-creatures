@@ -1,0 +1,255 @@
+{
+  "id": "peng",
+  "code": "PENG",
+  "name": "Los pingüinos",
+  "category": "creature",
+  "scientificName": "Aptenodytes forsteri",
+  "needsScientificVerify": false,
+  "tagline": "¡Ni peces ni mamíferos: aves que vuelan... bajo el agua!",
+  "zones": [
+    "Mares polares",
+    "Mar abierto"
+  ],
+  "oceans": [
+    "Océano Antártico"
+  ],
+  "hero": {
+    "image": "assets/es/peng/PENG00AA.webp",
+    "alt": "Los pingüinos"
+  },
+  "intro": "Se deslizan por el hielo como focas esbeltas y baten las aletas para impulsarse en el agua como graciosas rayas. Ciertas especies de pingüinos pasan la mayor parte de su vida en el mar, recalando en tierra sólo para la muda y la cría de sus vástagos. Sus apretadas plumas se superponen como las escamas de un pez y tienen exactamente la misma función: impedir que pase el agua. Sin embargo, los pingüinos no son ni peces ni mamíferos, sino aves perfectamente adaptadas a la vida marina.",
+  "facts": [
+    {
+      "label": "Velocidad",
+      "value": "Los pingüinos pueden surcar las aguas a 24 km por hora"
+    },
+    {
+      "label": "Profundidad",
+      "value": "Se sumergen a profundidades de casi 275 m"
+    },
+    {
+      "label": "Tamaño",
+      "value": "El pingüino emperador puede llegar a medir más de 1 m de altura, y a pesar alrededor de los 30 kg"
+    },
+    {
+      "label": "El más pequeño",
+      "value": "El pingüino saltarrocas mide una media de 55 cm y pesa 2,5 kg"
+    },
+    {
+      "label": "Supervivencia",
+      "value": "Más de la mitad de las crías que nacen anualmente no sobrevive"
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Están tan bien protegidos contra el frío que enseguida sufren el calor del sol"
+    }
+  ],
+  "topics": [
+    {
+      "id": "flying-through-water",
+      "title": "Vuelo bajo el agua",
+      "image": "assets/es/peng/PENG01PU.webp",
+      "text": "Mientras la mayoría de las aves se deslizan por el aire, los pingüinos realizan su vuelo bajo las aguas. En lugar de huesos huecos como las aves voladoras, los pingüinos los tienen densos para soportar las presiones de inmersión. Sus alas no se doblan por el centro como las de las aves, sólo se articulan desde los hombros, como aletas. ¡Los pingüinos pueden surcar las aguas a 24 km por hora, y se sumergen a profundidades de casi 275 m!",
+      "narration": "assets/es/peng/PENG01JN.mp3",
+      "captions": [
+        {
+          "label": "Pingüino de las Galápagos",
+          "text": "Spheniscus mendiculus"
+        }
+      ]
+    },
+    {
+      "id": "look-out-below",
+      "title": "Peligro bajo las aguas",
+      "image": "assets/es/peng/PENG03PU.webp",
+      "text": "Muy a menudo, al borde del agua acecha la peor pesadilla de un pingüino: la foca leopardo. Viajar en grupo resulta la mejor protección contra las terribles fauces de esta especie de foca. Cientos de pingüinos se zambullen al unísono, esperando confundir con el tumulto a su enemigo.",
+      "narration": "assets/es/peng/PENG03JN.mp3",
+      "captions": [
+        {
+          "label": "Pingüinos de Adelia",
+          "text": "Pygoscelis adeliae"
+        },
+        {
+          "label": "Foca leopardo",
+          "text": "Hydrurga leptonyx"
+        }
+      ]
+    },
+    {
+      "id": "danger-from-above",
+      "title": "Peligro en tierra firme",
+      "image": "assets/es/peng/PENG04PU.webp",
+      "text": "Los pingüinos adultos suelen estar a salvo en tierra. Pero para las crías de pingüino, hasta la tierra es peligrosa cuando sus padres se alejan. Los págalos grandes y otras aves voladoras de gran tamaño devoran los huevos y las crías sin protección.",
+      "narration": "assets/es/peng/PENG04JN.mp3",
+      "captions": [
+        {
+          "label": "Págalo grande robando un huevo de pingüino",
+          "text": "Catharacta skua"
+        }
+      ]
+    },
+    {
+      "id": "growing-up",
+      "title": "La infancia de un pingüino",
+      "image": "assets/es/peng/PENG05PU.webp",
+      "text": "La vida es dura para las crías de pingüino. Las dos que vemos aquí tienen que soportar el hielo y las ventiscas de la Antártida. Hasta que les crezcan plumas de adulto no pueden nadar ni pescar para alimentarse, dependiendo por completo de la habilidad de sus progenitores para cazar y proporcionarles el sustento. Aunque la mayoría de los pingüinos son buenos padres, más de la mitad de las crías que nacen anualmente no sobrevive.",
+      "captions": [
+        {
+          "label": "Un bebé de buen tamaño",
+          "text": "El pingüino emperador puede llegar a medir más de 1 m de altura, y a pesar alrededor de los 30 kg."
+        },
+        {
+          "label": "Nadador precoz",
+          "text": "Esta cría está mudando las plumas por las de adulto. Los pingüinos saltarrocas son los pingüinos más pequeños de la Antártida, con una altura media de 55 cm, y un peso medio de 2,5 Kg."
+        }
+      ],
+      "narration": "assets/es/peng/PENG05JN.mp3"
+    },
+    {
+      "id": "at-home-in-a-refrigerator",
+      "title": "A sus anchas en una nevera",
+      "image": "assets/es/peng/PENG06PU.webp",
+      "text": "El pingüino emperador está perfectamente aislado contra el frío. Sus plumas superpuestas son impermeables y están diseñadas para retener el aire sobre la piel. Bajo la primera capa de plumas hay un revestimiento de plumón. Además, tienen una capa de grasa bajo la piel. De hecho, estas aves están tan bien protegidas contra el frío que enseguida sufren el calor del sol. Cuando esto ocurre, agitan las plumas para airearse.",
+      "narration": "assets/es/peng/PENG06JN.mp3",
+      "captions": [
+        {
+          "label": "Pingüino emperador, la Antártida",
+          "text": "Aptenodytes forsteri"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Las islas",
+      "to": "isla"
+    },
+    {
+      "label": "La raya",
+      "to": "rays"
+    },
+    {
+      "label": "El océano Ártico",
+      "to": "arct"
+    },
+    {
+      "label": "Los temibles tiburones",
+      "to": "shar"
+    },
+    {
+      "label": "Water Babies"
+    },
+    {
+      "label": "Las focas y el león marino",
+      "to": "seal"
+    },
+    {
+      "label": "La zona abisal",
+      "to": "abys"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/peng/PENG00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 2,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Una vida muy dura",
+            "to": "video",
+            "x": 72,
+            "y": 35,
+            "w": 26,
+            "h": 8
+          },
+          {
+            "label": "La infancia de un pingüino",
+            "to": "growing-up",
+            "x": 74,
+            "y": 61,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Peligro bajo las aguas",
+            "to": "look-out-below",
+            "x": 67,
+            "y": 70,
+            "w": 28,
+            "h": 9
+          },
+          {
+            "label": "Vuelo bajo el agua",
+            "to": "flying-through-water",
+            "x": 3,
+            "y": 73,
+            "w": 32,
+            "h": 5
+          },
+          {
+            "label": "A sus anchas en una nevera",
+            "to": "at-home-in-a-refrigerator",
+            "x": 3,
+            "y": 79,
+            "w": 40,
+            "h": 5
+          },
+          {
+            "label": "Peligro en tierra firme",
+            "to": "danger-from-above",
+            "x": 3,
+            "y": 85,
+            "w": 30,
+            "h": 5
+          }
+        ]
+      },
+      "flying-through-water": {
+        "image": "assets/es/peng/PENG01PU.webp",
+        "back": "main"
+      },
+      "look-out-below": {
+        "image": "assets/es/peng/PENG03PU.webp",
+        "back": "main"
+      },
+      "danger-from-above": {
+        "image": "assets/es/peng/PENG04PU.webp",
+        "back": "main"
+      },
+      "growing-up": {
+        "image": "assets/es/peng/PENG05PU.webp",
+        "back": "main"
+      },
+      "at-home-in-a-refrigerator": {
+        "image": "assets/es/peng/PENG06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/peng/clip.mp4",
+        "poster": "assets/es/peng/PENG02PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/peng/PENG00JN.mp3",
+  "sound": "assets/es/peng/PENG00IX.mp3",
+  "video": {
+    "title": "Una vida muy dura",
+    "src": "assets/es/peng/clip.mp4",
+    "poster": "assets/es/peng/poster.webp",
+    "caption": "Colonia de pingüinos reales, Islas de Georgia del Sur",
+    "narration": "assets/es/peng/PENG02JN.mp3"
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "id": "shor",
+  "code": "SHOR",
+  "name": "El litoral",
+  "category": "habitat",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Donde el mar se abraza a la tierra y la vida lucha a cada ola!",
+  "zones": [
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/shor/SHOR00AA.webp",
+    "alt": "El litoral"
+  },
+  "intro": "El litoral es el lugar donde el océano se junta con la tierra. Zona de transición entre dos mundos, este dinámico medio ambiente está sujeto tanto a cambios de mareas, olas y corrientes como a fuertes vientos, sol y temperaturas extremas. Las plantas y los animales que habitan aquí tienen que excavar su guarida en un área determinada de la zona intermareal o ser capaces de sobrevivir a una frecuente exposición al aire. La vida de estos seres es muy dura: ¡no la empeores pisándolos o molestándolos!",
+  "facts": [
+    {
+      "label": "Zona intermareal",
+      "value": "El litoral está sujeto tanto a cambios de mareas, olas y corrientes como a fuertes vientos, sol y temperaturas extremas."
+    },
+    {
+      "label": "Transformación",
+      "value": "El litoral está en continua transformación: el nivel de las aguas ha ido aumentando o descendiendo y las tierras costeras se han hundido o elevado por las presiones geológicas."
+    },
+    {
+      "label": "Fiordos",
+      "value": "Un fiordo es una entrada de mar que en otros tiempos fue un valle de origen glaciar, inundado al subir el nivel del mar cuando se derritieron los glaciares."
+    },
+    {
+      "label": "La arena",
+      "value": "Los granos de arena de una playa pueden ser turbios trozos de cuarzo de lejanas montañas, negros fragmentos de lava o blancos restos de coral de un arrecife costero."
+    },
+    {
+      "label": "Corriente costera",
+      "value": "El movimiento en zigzag de las olas produce una corriente en la zona de rompeolas —la corriente costera— que desplaza aún más la arena a lo largo de la costa."
+    },
+    {
+      "label": "Mangles",
+      "value": "Los mangles crecen en aguas cenagosas y poco profundas de regiones tropicales y subtropicales; peces y crustáceos emigran al abrigo de esos bosques para sacar adelante a sus crías."
+    }
+  ],
+  "topics": [
+    {
+      "id": "ancient-shores",
+      "title": "El antiguo litoral",
+      "image": "assets/es/shor/SHOR01PU.webp",
+      "text": "El litoral está en continua transformación. Con el paso del tiempo el nivel de las aguas ha ido aumentando o descendiendo y las tierras costeras se han hundido o elevado por las presiones geológicas.\n\nValles hundidos\nUn fiordo es una entrada de mar que en otros tiempos fue un valle de origen glaciar. Había muchos glaciares en el periodo glaciar, pero al ascender las temperaturas se derritieron y el mar subió de nivel, inundando las bocas de los valles. Si el océano se vaciase repentinamente, verías un típico valle glaciar en forma de U, de abruptas paredes de roca.\n\nAltas y secas\nLas terrazas son zonas costeras llanas y elevadas. Antes fueron playas, llanuras aluviales y plataformas continentales poco profundas que, al descender el nivel del mar, o al elevarse la tierra, se desplazaron por encima de la orilla.",
+      "captions": [
+        {
+          "label": "Valles hundidos",
+          "text": "Geiranger fjord, Noruega"
+        },
+        {
+          "label": "Altas y secas",
+          "text": "Litoral californiano"
+        }
+      ],
+      "narration": "assets/es/shor/SHOR01JN.mp3"
+    },
+    {
+      "id": "beach-or-cliff",
+      "title": "¿Playa o acantilado?",
+      "image": "assets/es/shor/SHOR02PU.webp",
+      "text": "La erosión transforma algunas costas en escabrosos acantilados, dando a otras la forma de playas de arena o cenagosos humedales. El resultado depende de que el material rocoso se desprenda de la costa o, por el contrario, se deposite en ella.\n\nFascinantes playas\nHay playas donde la roca se erosiona con facilidad y las olas y corrientes arrastran sedimentos. Cuando vayas a una, observa un puñado de arena. Los granos que la forman, ¿son turbios trozos de cuarzo traídos por la corriente desde lejanas montañas? ¿Negros fragmentos debidos a la erosión de un torrente de lava cercano? ¿O blancos restos de coral de un arrecife costero?\n\nImponentes acantilados\nDonde las rocas resisten la erosión continua de las olas, los acantilados son abruptos.",
+      "captions": [
+        {
+          "label": "Fascinantes playas",
+          "text": "Playa Lumahai, Haena, Kauai, Hawái"
+        },
+        {
+          "label": "Imponentes acantilados",
+          "text": "Parque Estatal Cabo Kiwanda, Oregón"
+        }
+      ],
+      "narration": "assets/es/shor/SHOR02JN.mp3"
+    },
+    {
+      "id": "now-you-see-it-now-you-dont",
+      "title": "Viene y va",
+      "image": "assets/es/shor/SHOR03PU.webp",
+      "text": "La arena, arrastrada por el continuo movimiento de las olas, se desplaza constantemente a lo largo de la costa. Las cortas y elevadas olas de las tormentas de invierno tienden a erosionar las playas, llevándose la arena de la orilla. Este material va formando bancos de arena frente a las costas. Durante el verano, las largas y suaves olas arrastran la arena de vuelta a la playa.\n\nArenas movedizas\nLas olas azotan la costa formando un suave ángulo respecto a la orilla. Este movimiento desplaza arena hasta la playa en sentido diagonal, mientras que la resaca arrastra la arena directamente hacia el fondo. Este movimiento en zigzag produce una corriente en la zona de rompeolas a la que llamamos corriente costera. Este tipo de corriente desplaza aún más la arena a lo largo de la costa.",
+      "narration": "assets/es/shor/SHOR03JN.mp3"
+    },
+    {
+      "id": "saviors-or-destroyers",
+      "title": "¿Salvación o destrucción?",
+      "image": "assets/es/shor/SHOR04PU.webp",
+      "text": "Los procesos que sufren las playas son muy complejos. Las soluciones precipitadas de ingeniería, unidas a prácticas imprudentes, crean más problemas de los que resuelven.\n\nSoluciones temporales\nLas barreras artificiales, como diques, espolones y rompeolas, intentan preservar las playas y proteger los puertos. Pero causan problemas en otros lugares de la costa. Por la interferencia del hombre en las corrientes costeras naturales, algunas playas se van quedando sin arena. Toda obra de ingeniería debe tener en cuenta el indomable poder de los procesos naturales.\n\nRespeta la hierba\nLas plantas son como la hierba de las playas y estabilizan las dunas. Los paseos por ella matan a esas plantas, erosionando el litoral. En lugar de atajar por las dunas: ¡utiliza los caminos!",
+      "captions": [
+        {
+          "label": "Barrilla",
+          "text": "Elymus arenarius"
+        }
+      ],
+      "narration": "assets/es/shor/SHOR04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Las anémonas",
+      "to": "anem"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/shor/SHOR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 7,
+            "h": 4
+          },
+          {
+            "label": "El antiguo litoral",
+            "to": "ancient-shores",
+            "x": 48,
+            "y": 22,
+            "w": 19,
+            "h": 4
+          },
+          {
+            "label": "Viene y va",
+            "to": "now-you-see-it-now-you-dont",
+            "x": 18,
+            "y": 43,
+            "w": 30,
+            "h": 4
+          },
+          {
+            "label": "¿Playa o acantilado?",
+            "to": "beach-or-cliff",
+            "x": 59,
+            "y": 54,
+            "w": 18,
+            "h": 4
+          },
+          {
+            "label": "¿Salvación o destrucción?",
+            "to": "saviors-or-destroyers",
+            "x": 50,
+            "y": 67,
+            "w": 24,
+            "h": 4
+          },
+          {
+            "label": "Cenagosos bosques",
+            "to": "video",
+            "x": 3,
+            "y": 82,
+            "w": 22,
+            "h": 4
+          }
+        ]
+      },
+      "ancient-shores": {
+        "image": "assets/es/shor/SHOR01PU.webp",
+        "back": "main"
+      },
+      "beach-or-cliff": {
+        "image": "assets/es/shor/SHOR02PU.webp",
+        "back": "main"
+      },
+      "now-you-see-it-now-you-dont": {
+        "image": "assets/es/shor/SHOR03PU.webp",
+        "back": "main"
+      },
+      "saviors-or-destroyers": {
+        "image": "assets/es/shor/SHOR04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/shor/clip.mp4",
+        "poster": "assets/es/shor/SHOR05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/shor/SHOR00JN.mp3",
+  "sound": "assets/es/shor/SHOR00IX.mp3",
+  "video": {
+    "title": "Cenagosos bosques",
+    "src": "assets/es/shor/clip.mp4",
+    "poster": "assets/es/shor/poster.webp",
+    "caption": "Los mangles crecen en las aguas cenagosas y poco profundas de las regiones tropicales y subtropicales. Los peces y crustáceos de los arrecifes costeros y del mar abierto emigran al abrigo de esos bosques para sacar adelante a sus crías. Las fuertes y nudosas raíces de los mangles proporcionan refugio a los más jóvenes y las mareas arrastran nutrientes desde la orilla a las cálidas aguas. Los mangles se talan muchas veces para dejar paso a empresas financieras, como hoteles o proyectos de maricultura. Esto es un grave error que puede llevar a la destrucción del hábitat animal, exponiendo la costa a la erosión de las olas.",
+    "narration": "assets/es/shor/SHOR05JN.mp3"
+  }
+}

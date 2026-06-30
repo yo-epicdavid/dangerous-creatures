@@ -1,0 +1,280 @@
+{
+  "id": "fish",
+  "code": "FISH",
+  "name": "La pesca y la caza de ballenas",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Las redes atrapan todo... y el océano se está quedando sin peces!",
+  "zones": [
+    "Mar abierto",
+    "Costa y charcas de marea",
+    "Ríos y estuarios"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/fish/FISH00AA.webp",
+    "alt": "La pesca y la caza de ballenas"
+  },
+  "intro": "Las industrias pesqueras de todo el mundo tienen un gran problema. Según la Organización para la Agricultura y la Alimentación de las Naciones Unidas, gastamos más de 54.000 millones de dólares en la pesca; más de lo que gana la industria pesquera. ¿Cómo nos metimos en este lío? Los barcos pesqueros capturan cada año menos peces. Esto ocurre porque las redes de pesca lo atrapan todo y no sólo el tipo de pez que las tripulaciones quieren pescar. La industria pesquera de todo el mundo arroja al mar un 25% de su captura total, lo que se añade a los aproximadamente 15 millones de kilos y a los miles de millones de animales muertos cada año.",
+  "facts": [
+    {
+      "label": "Gasto mundial",
+      "value": "Gastamos más de 54.000 millones de dólares en la pesca, más de lo que gana la propia industria pesquera."
+    },
+    {
+      "label": "Descarte",
+      "value": "La industria pesquera mundial arroja al mar un 25% de su captura total cada año."
+    },
+    {
+      "label": "Animales muertos",
+      "value": "Las redes matan aproximadamente 15 millones de kilos de animales al año, además de miles de millones de seres vivos."
+    },
+    {
+      "label": "Precio del atún",
+      "value": "El atún rojo se vende en Japón a más de 350 dólares por medio kilo; un solo ejemplar puede valer hasta 30.000 dólares para los pescadores."
+    },
+    {
+      "label": "Caza de ballenas",
+      "value": "Hace un siglo se masacraron cientos de miles de ballenas de todas las especies; hoy la mayoría de naciones han firmado un acuerdo para no matarlas."
+    },
+    {
+      "label": "Sabías que",
+      "value": "La tala de bosques destruye las zonas de desove del salmón y hace que el limo asfixie los huevos en los ríos."
+    }
+  ],
+  "topics": [
+    {
+      "id": "traditional-fishing",
+      "title": "La pesca tradicional",
+      "image": "assets/es/fish/FISH01PU.webp",
+      "text": "Cuando las poblaciones humanas eran pequeñas y la gente pescaba para su familia o su comunidad, la sobrepesca no era frecuente. Aunque se pescaban muchos peces en redes pequeñas o con arpones, siempre quedaban muchos para reproducirse. Hoy en día hay demasiadas personas dedicadas a la pesca y los grandes barcos comerciales utilizan kilómetros de redes para capturar todo el pescado de una zona. Cuando se dejan muy pocos peces adultos para reproducirse, no existe forma alguna de que pueda renovarse continuamente el suministro de pescado.",
+      "narration": "assets/es/fish/FISH01JN.mp3",
+      "captions": [
+        {
+          "label": "Pesca con red",
+          "text": "Pesca tradicional con red desde la costa, Indonesia"
+        },
+        {
+          "label": "Cazador esquimal",
+          "text": "Cazador esquimal con arpón, Alaska"
+        }
+      ]
+    },
+    {
+      "id": "modern-problems",
+      "title": "Los problemas actuales",
+      "image": "assets/es/fish/FISH02PU.webp",
+      "text": "Utilizando un sonar, las flotas pesqueras pueden encontrar peces fácilmente. Despliegan entonces unas grúas hidráulicas y extienden unas redes tan pesadas que ninguna tripulación humana podría levantar. Los grandes barcos factorías preparan el pescado en el mismo lugar y arrojan los restos al océano. Los seres humanos se han convertido en los predadores más eficaces.\n\nMuros de muerte\nLas redes no solo capturan los peces que las personas quieren comer; atrapan muchos otros animales, como tiburones, tortugas, cetáceos, focas y aves marinas. Las redes abandonadas pueden convertirse en barreras de muerte que a veces se extienden a lo largo de kilómetros y kilómetros.\n\nAdiós, atunes rojos\nEl atún rojo gigante es un pescado muy apreciado, especialmente en Japón, en donde lo pagan a más de 350 dólares por medio kilo. Un sólo atún rojo puede aportar a los pescadores hasta 30.000 dólares. Ahora ya sabes por qué las tripulaciones pesqueras casi han extinguido esta especie.",
+      "captions": [
+        {
+          "label": "Atunes rojos",
+          "text": "Tripulación pesquera capturando atunes rojos Thunnus thynnus"
+        },
+        {
+          "label": "Pez martillo",
+          "text": "Pez martillo asfixiado en una red Sphyrna zygaena"
+        }
+      ],
+      "narration": "assets/es/fish/FISH02JN.mp3"
+    },
+    {
+      "id": "types-of-nets",
+      "title": "Tipos de redes",
+      "image": "assets/es/fish/FISH03PU.webp",
+      "text": "Los barcos de pesca utilizan diferentes tipos de red, dependiendo de lo que intentan capturar. Una gran concentración de barcos que utilice redes eficaces puede eliminar la mayor parte de la vida marina en unos cuantos días.",
+      "narration": "assets/es/fish/FISH03JN.mp3",
+      "captions": [
+        {
+          "label": "Arrastre de la nutria",
+          "text": "Arrastre de la nutria"
+        },
+        {
+          "label": "Red de deriva",
+          "text": "Red de deriva"
+        },
+        {
+          "label": "Arte de rodeo",
+          "text": "Arte de rodeo"
+        },
+        {
+          "label": "Arrastre de timón",
+          "text": "Arrastre de timón"
+        },
+        {
+          "label": "Arrastre pelágico",
+          "text": "Arrastre pelágico (de superficie)"
+        },
+        {
+          "label": "Cerco danés",
+          "text": "Cerco danés"
+        }
+      ]
+    },
+    {
+      "id": "whaling",
+      "title": "La caza de la ballena",
+      "image": "assets/es/fish/FISH04PU.webp",
+      "text": "Hace un siglo, había una gran demanda de aceite de ballena y productos fabricados con los huesos de ésta. Se masacraban cientos de miles de todas sus especies. Hoy existen sustitutivos disponibles de todos estos productos y la mayoría de las naciones han firmado un acuerdo para no matar más ballenas. Sin embargo, Japón, Noruega e Islandia continúan cazándolas, ya sea con objetivos comerciales o de investigación.",
+      "narration": "assets/es/fish/FISH04JN.mp3",
+      "captions": [
+        {
+          "label": "Ballena troceada",
+          "text": "Troceando una ballena, Islandia"
+        },
+        {
+          "label": "Caza histórica",
+          "text": "Expedición holandesa de caza de ballenas, siglo XVII"
+        }
+      ]
+    },
+    {
+      "id": "salmon-story",
+      "title": "Historia del salmón",
+      "image": "assets/es/fish/FISH06PU.webp",
+      "text": "El salmón de la región del Pacífico Norte de Estados Unidos es actualmente escaso y algunas especies están en peligro de extinción. Esta situación se debe no sólo al exceso de pesca, sino también al transporte fluvial de troncos y a la condena de los ríos. ¡Incluso lo que hacemos en tierra afecta a la vida del océano!\n\nCómo los bosques afectan a los peces\nEl salmón adulto abandona el océano y remonta nadando los ríos y los arroyos para fresar. La tala de bosques produce dos problemas en las zonas de desove del salmón: destruye la sombra que mantiene fresca el agua y hace que el limo se diluya en las corrientes, asfixiando los huevos del salmón.\n\nSeñal de detención\n¿Cómo puede un salmón saltar una presa como ésta? Aunque los adultos puedan remontar los escalones, los pequeños peces, o crías, son a menudo aspirados por la maquinaria y mueren en su recorrido hacia el océano.",
+      "captions": [
+        {
+          "label": "Presa Oxbow Dam",
+          "text": "Presa de Oxbow Dam, río Middle Snake, Idaho"
+        },
+        {
+          "label": "Transporte de troncos",
+          "text": "Zona de transporte fluvial de troncos, montañas Olímpicas, Washington"
+        }
+      ],
+      "narration": "assets/es/fish/FISH06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "El futuro de los océanos",
+      "to": "futu"
+    },
+    {
+      "label": "La cadena de la vida",
+      "to": "webl"
+    },
+    {
+      "label": "Los barcos propulsados",
+      "to": "powe"
+    },
+    {
+      "label": "Tough Choices"
+    },
+    {
+      "label": "Las ballenas",
+      "to": "whlb"
+    },
+    {
+      "label": "El ciclo del agua",
+      "to": "wcyc"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/fish/FISH00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 9,
+            "h": 7
+          },
+          {
+            "label": "La pesca tradicional",
+            "to": "traditional-fishing",
+            "x": 73,
+            "y": 28,
+            "w": 27,
+            "h": 9
+          },
+          {
+            "label": "La caza de la ballena",
+            "to": "whaling",
+            "x": 73,
+            "y": 45,
+            "w": 25,
+            "h": 9
+          },
+          {
+            "label": "Los problemas actuales",
+            "to": "modern-problems",
+            "x": 73,
+            "y": 62,
+            "w": 26,
+            "h": 9
+          },
+          {
+            "label": "¿Qué podemos hacer?",
+            "to": "video",
+            "x": 2,
+            "y": 74,
+            "w": 24,
+            "h": 8
+          },
+          {
+            "label": "Tipos de redes",
+            "to": "types-of-nets",
+            "x": 2,
+            "y": 83,
+            "w": 19,
+            "h": 7
+          },
+          {
+            "label": "Historia del salmón",
+            "to": "salmon-story",
+            "x": 2,
+            "y": 91,
+            "w": 16,
+            "h": 7
+          }
+        ]
+      },
+      "traditional-fishing": {
+        "image": "assets/es/fish/FISH01PU.webp",
+        "back": "main"
+      },
+      "modern-problems": {
+        "image": "assets/es/fish/FISH02PU.webp",
+        "back": "main"
+      },
+      "types-of-nets": {
+        "image": "assets/es/fish/FISH03PU.webp",
+        "back": "main"
+      },
+      "whaling": {
+        "image": "assets/es/fish/FISH04PU.webp",
+        "back": "main"
+      },
+      "salmon-story": {
+        "image": "assets/es/fish/FISH06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/fish/clip.mp4",
+        "poster": "assets/es/fish/FISH05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/fish/FISH00JN.mp3",
+  "sound": "assets/es/fish/FISH00IX.mp3",
+  "video": {
+    "title": "¿Qué podemos hacer?",
+    "src": "assets/es/fish/clip.mp4",
+    "poster": "assets/es/fish/poster.webp",
+    "caption": "Pesca al cerco del arenque, Bahía de Fundy, Canadá",
+    "narration": "assets/es/fish/FISH05JN.mp3"
+  }
+}

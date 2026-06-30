@@ -1,0 +1,259 @@
+{
+  "id": "what",
+  "code": "WHAT",
+  "name": "¿Qué es un pez?",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Redondos, gigantes o diminutos: descubre qué hace pez a un pez!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Arrecife de coral",
+    "Bosques de algas y praderas marinas",
+    "Mar abierto",
+    "Mar profundo",
+    "Mares polares"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/what/WHAT00AA.webp",
+    "alt": "¿Qué es un pez?"
+  },
+  "intro": "Los peces pueden ser gigantescos o microscópicos. Los hay redondos, en forma de caja, o finos y alargados como serpientes. Algunos parecen hojas, espinas o rocas. Los hay de todos los colores del arco iris; rayados, con manchas y luminosos. Los hay con cuernos, con pico y de ojos protuberantes. De modo que, ¿cómo decides a qué le llamas pez?",
+  "facts": [
+    {
+      "label": "Peces óseos",
+      "value": "Más de 25.000 especies"
+    },
+    {
+      "label": "Cartilaginosos",
+      "value": "Más de 600 especies"
+    },
+    {
+      "label": "Sin mandíbula",
+      "value": "Menos de 50 especies"
+    },
+    {
+      "label": "Respiración",
+      "value": "Todos los peces tienen branquias formadas por muchos filamentos rígidos que absorben el oxígeno del agua para transportarlo a la sangre"
+    },
+    {
+      "label": "Supervivientes",
+      "value": "Los tiburones han sobrevivido sin alterarse casi nada"
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Los celacantos fueron considerados especie extinta hasta 1930"
+    }
+  ],
+  "topics": [
+    {
+      "id": "groups-of-fish",
+      "title": "Clases de peces",
+      "image": "assets/es/what/WHAT01PU.webp",
+      "text": "Hay tres grupos principales de peces. Los óseos, o peces con esqueleto, son el grupo mayor, con más de 25.000 especies. Los cartilaginosos, es decir peces con cartílago en lugar de huesos, ocupan el siguiente lugar, con más de 600 especies. Y, por último, los peces sin mandíbula, aquellos que en su lugar tienen ventosas, con menos de 50 especies.",
+      "captions": [
+        {
+          "label": "Lamprea del Pacífico",
+          "text": "Lampetra tridentata"
+        },
+        {
+          "label": "Pez mariposa de tenacillas, un pez óseo",
+          "text": "Forcipiger longirostris"
+        },
+        {
+          "label": "Manta",
+          "text": "un pez cartilaginoso"
+        }
+      ],
+      "narration": "assets/es/what/WHAT01JN.mp3"
+    },
+    {
+      "id": "how-to-breathe-in-water",
+      "title": "Respirar bajo el agua",
+      "image": "assets/es/what/WHAT02PU.webp",
+      "text": "Los peces, al igual que el resto de los animales, necesitan introducir continuamente oxígeno en la sangre para sobrevivir. ¿Cómo logran respirar bajo el agua? El secreto son las branquias, que poseen todos los peces. Cuando ves un pez, sólo observas la abertura y la tapadera externa de las branquias. En el interior, las branquias están formadas por muchos filamentos rígidos que absorben el oxígeno del agua para transportarlo a la sangre del pez. Dentro y fuera: Los peces abren la boca para ingerir agua y, después, cierran la boca y expulsan el agua por las branquias. Así es como «respiran».",
+      "captions": [
+        {
+          "label": "Aberturas branquiales del mayor pez que existe: un tiburón ballena",
+          "text": "Rhincodon typus"
+        }
+      ],
+      "narration": "assets/es/what/WHAT02JN.mp3"
+    },
+    {
+      "id": "fish-skin",
+      "title": "La piel de los peces",
+      "image": "assets/es/what/WHAT03PU.webp",
+      "text": "No puedes saber que un animal es pez por su piel. Hay peces con escamas superpuestas y otros, con espinas o placas óseas, llamadas escutelos; los tiburones tienen la piel cubierta de protuberancias desiguales, parecidas a diminutos dientes y existen peces completamente lisos.",
+      "captions": [
+        {
+          "label": "El pez puercoespín tiene púas",
+          "text": "Diodon hystrix"
+        },
+        {
+          "label": "Las anguilas",
+          "text": "tienen la piel lisa"
+        },
+        {
+          "label": "El pez dorado",
+          "text": "tiene escamas"
+        }
+      ],
+      "narration": "assets/es/what/WHAT03JN.mp3"
+    },
+    {
+      "id": "fish-shapes",
+      "title": "La forma de los peces",
+      "image": "assets/es/what/WHAT04PU.webp",
+      "text": "¿Se le puede llamar pez a un animal por su forma? Definitivamente no. Todos estos animales son peces.",
+      "captions": [
+        {
+          "label": "Pez luna",
+          "text": "un pez achatado"
+        },
+        {
+          "label": "Anguila encintada",
+          "text": "un pez muy alargado"
+        },
+        {
+          "label": "Pez cofre",
+          "text": "un pez rectangular"
+        }
+      ],
+      "narration": "assets/es/what/WHAT04JN.mp3"
+    },
+    {
+      "id": "strategies-for-swimming",
+      "title": "El sistema de desplazamiento",
+      "image": "assets/es/what/WHAT05PU.webp",
+      "text": "¿Puedes decir qué animales marinos son peces y cuáles no por la forma en que nadan? No. Los peces pueden moverse de cualquier forma.",
+      "captions": [
+        {
+          "label": "Estos peces",
+          "text": "apenas nadan"
+        },
+        {
+          "label": "Las rayas",
+          "text": "surcan las aguas batiendo sus «alas»"
+        },
+        {
+          "label": "El pez perro",
+          "text": "ondula la cola y el cuerpo de un lado a otro"
+        }
+      ],
+      "narration": "assets/es/what/WHAT05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Water Babies"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/what/WHAT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 7,
+            "h": 4
+          },
+          {
+            "label": "La forma de los peces",
+            "to": "fish-shapes",
+            "x": 67,
+            "y": 17,
+            "w": 15,
+            "h": 6
+          },
+          {
+            "label": "Clases de peces",
+            "to": "groups-of-fish",
+            "x": 52,
+            "y": 44,
+            "w": 17,
+            "h": 7
+          },
+          {
+            "label": "La piel de los peces",
+            "to": "fish-skin",
+            "x": 44,
+            "y": 69,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "El sistema de desplazamiento",
+            "to": "strategies-for-swimming",
+            "x": 2,
+            "y": 61,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Más antiguos que los dinosaurios",
+            "to": "video",
+            "x": 2,
+            "y": 71,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Respirar bajo el agua",
+            "to": "how-to-breathe-in-water",
+            "x": 2,
+            "y": 81,
+            "w": 32,
+            "h": 5
+          }
+        ]
+      },
+      "groups-of-fish": {
+        "image": "assets/es/what/WHAT01PU.webp",
+        "back": "main"
+      },
+      "how-to-breathe-in-water": {
+        "image": "assets/es/what/WHAT02PU.webp",
+        "back": "main"
+      },
+      "fish-skin": {
+        "image": "assets/es/what/WHAT03PU.webp",
+        "back": "main"
+      },
+      "fish-shapes": {
+        "image": "assets/es/what/WHAT04PU.webp",
+        "back": "main"
+      },
+      "strategies-for-swimming": {
+        "image": "assets/es/what/WHAT05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/what/clip.mp4",
+        "poster": "assets/es/what/WHAT06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/what/WHAT00JN.mp3",
+  "sound": "assets/es/what/WHAT00IX.mp3",
+  "video": {
+    "title": "Más antiguos que los dinosaurios",
+    "src": "assets/es/what/clip.mp4",
+    "poster": "assets/es/what/poster.webp",
+    "caption": "Mucho antes de que los dinosaurios dominaran la Tierra, ya había peces en el océano. Muchas especies han evolucionado con los siglos: por eso existen tantas. Algunas se han extinguido; en cambio, otras, como los tiburones, han sobrevivido sin alterarse casi nada. Cada cierto tiempo, los científicos descubren especies que creían extintas.",
+    "narration": "assets/es/what/WHAT06JN.mp3"
+  }
+}

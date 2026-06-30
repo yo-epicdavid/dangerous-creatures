@@ -1,0 +1,265 @@
+{
+  "id": "jell",
+  "code": "JELL",
+  "name": "Las medusas y las fragatas portuguesas",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Son casi puro agua... pero su picadura puede pararte el corazón!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Mar abierto",
+    "Arrecife de coral"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/jell/JELL00AA.webp",
+    "alt": "Las medusas y las fragatas portuguesas"
+  },
+  "intro": "Puede que estén constituidas por un 98 por ciento de agua, ¡pero pican! Las medusas pertenecen a la gran familia de los cnidarios, que comprende 10.000 especies, incluidas las anémonas y los corales. Los cnidarios poseen un cuerpo central con un sistema digestivo y tentáculos provistos de células urticantes. La mayoría de las medusas son muy móviles, a diferencia de sus parientes, que son más sedentarios. Algunas utilizan sus crestas gelatinosas como una vela. Otras nadan ondulando su cuerpo en forma de paraguas. Cualquier roce con sus tentáculos puede ser doloroso y, en casos excepcionales, ¡incluso mortal!",
+  "facts": [
+    {
+      "label": "Composición",
+      "value": "El 98 por ciento de su cuerpo es agua"
+    },
+    {
+      "label": "Familia",
+      "value": "Los cnidarios comprenden 10.000 especies, incluidas las anémonas y los corales"
+    },
+    {
+      "label": "Tentáculos",
+      "value": "Los tentáculos de la fragata portuguesa pueden estirarse hasta 50 metros"
+    },
+    {
+      "label": "Veneno",
+      "value": "El veneno de la medusa urticante australiana puede paralizar el corazón humano en tres minutos"
+    },
+    {
+      "label": "Ciclo de vida",
+      "value": "El ciclo de vida de una medusa dura de unas semanas a un año, o un poco más"
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "El nudibranquio absorbe las células urticantes de sus presas y las utiliza para su propia defensa"
+    }
+  ],
+  "topics": [
+    {
+      "id": "similar-but-not-the-same",
+      "title": "Parecidos pero no iguales",
+      "image": "assets/es/jell/JELL01PU.webp",
+      "text": "La fragata portuguesa, habitante de los mares cálidos de todo el mundo, puede parecerse a una medusa, pero no lo es. Ni siquiera es un solo animal: ¡es una colonia flotante!\n\nMuchos animales\nBajo el flotador lleno de gas de la fragata portuguesa penden cientos de animales minúsculos con tareas específicas. Algunos capturan presas, otros digieren la comida y otros se dedican a la reproducción. La colonia atrapa a las presas mediante tentáculos que pueden estirarse hasta 50 metros y encogerse hasta 152 mm. Una vez atrapado el pez, no hay salida: le inyecta un veneno que le produce una parálisis.\n\nUn solo animal\nEl acalefo dorado es un solo animal a diferencia de la fragata portuguesa. Nada contrayendo y expandiendo su cuerpo en un movimiento de ola y su picadura, aunque es dolorosa, está muy lejos de ser tan venenosa como la de la fragata.",
+      "captions": [
+        {
+          "label": "Fragata portuguesa",
+          "text": "Physalia physalis"
+        },
+        {
+          "label": "Acalefo dorado",
+          "text": "Chrysaora melanaster"
+        }
+      ],
+      "narration": "assets/es/jell/JELL01JN.mp3"
+    },
+    {
+      "id": "multiple-forms",
+      "title": "Formas múltiples",
+      "image": "assets/es/jell/JELL02PU.webp",
+      "text": "Las diferentes especies de medusa atraviesan una serie de cambios vertiginosos durante su breve ciclo de vida (de unas semanas a un año, o un poco más). Las crías de medusa (larvas) son plancton diminuto en suspensión que no se parece en absoluto a sus padres. Las larvas se fijan posteriormente en la superficie y se convierten en pólipos. Cuando éstos se desarrollan, unas capas de su cuerpo se separan y se convierten en medusas.",
+      "narration": "assets/es/jell/JELL02JN.mp3",
+      "captions": [
+        {
+          "label": "Medusa al revés",
+          "text": "Cassiopeia xamachana"
+        },
+        {
+          "label": "Pólipo de medusa",
+          "text": "Pólipo de medusa"
+        }
+      ]
+    },
+    {
+      "id": "stinging-cells",
+      "title": "Las células urticantes",
+      "image": "assets/es/jell/JELL03PU.webp",
+      "text": "Todos los cnidarios tienen cientos de células urticantes, llamadas nematocistos. Cuando algo roza el minúsculo disparador, que se halla en la parte externa de la célula, ésta dispara sobre el blanco el aguijón enrollado, parecido a un arpón, e inyecta veneno con el contacto.\n\nOtro aguijoneador\nLas ramas de este helecho marino, otro cnidario, pueden soltar un aguijón doloroso. Si un nadador toca accidentalmente un helecho marino, ¡sus heridas pueden tardar un mes en curarse!",
+      "captions": [
+        {
+          "label": "Célula urticante",
+          "text": "Nematocisto"
+        },
+        {
+          "label": "Helecho de mar urticante",
+          "text": "Lytocarpus philippinus"
+        }
+      ],
+      "narration": "assets/es/jell/JELL03JN.mp3"
+    },
+    {
+      "id": "wasps-in-the-sea",
+      "title": "Avispas en el mar",
+      "image": "assets/es/jell/JELL04PU.webp",
+      "text": "Las medusas urticantes australianas, llamadas también medusas cofre, son casi transparentes y se vuelven especialmente peligrosas en los días nubosos y sin viento, en los que tienden a aventurarse cerca de la costa en búsqueda de presas. Cualquier persona suficientemente afortunada para sobrevivir al contacto con ellas quedará con horribles marcas. ¡El veneno de la medusa urticante puede paralizar el corazón humano en tres minutos!\n\nEl terror de los trópicos\nLas medusas urticantes australianas frecuentan la costa norte de Australia.",
+      "captions": [
+        {
+          "label": "Medusa Australiana",
+          "text": "Chironex fleckeri"
+        }
+      ],
+      "narration": "assets/es/jell/JELL04JN.mp3"
+    },
+    {
+      "id": "jelly-for-lunch",
+      "title": "Medusas como aperitivo",
+      "image": "assets/es/jell/JELL05PU.webp",
+      "text": "Tal vez pienses que nadie se comería a un animal armado de células urticantes. Pero las tortugas laúd piensan que las medusas y las fragatas portuguesas son aperitivos excelentes y lo mismo opinan los dos ejemplares que se muestran aquí.\n\nUn rudo nudibranquio\nEste nudibranquio llena de aire parte de su cuerpo para poder flotar sobre la superficie del agua. ¡Y no sólo come medusas y fragatas portuguesas, sino que también absorbe las células urticantes de sus presas y las utiliza para su propia defensa!\n\nCaracoles flotantes\nOtro devorador de fragatas portuguesas es el caracol Janthina. ¡Este animal produce burbujas para formar una especie de balsa que deja suspendida al revés mientras flota a la deriva hacia su comida!",
+      "captions": [
+        {
+          "label": "Babosa glauca",
+          "text": "Glaucus atlanticus"
+        },
+        {
+          "label": "Caracol Janthina comiendo una fragata portuguesa",
+          "text": "Janthina janthina y Physalia utriculus"
+        }
+      ],
+      "narration": "assets/es/jell/JELL05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "La tortuga marina",
+      "to": "turt"
+    },
+    {
+      "label": "El calamar y la sepia",
+      "to": "squi"
+    },
+    {
+      "label": "Las anémonas",
+      "to": "anem"
+    },
+    {
+      "label": "El coral",
+      "to": "cora"
+    },
+    {
+      "label": "Los temibles tiburones",
+      "to": "shar"
+    },
+    {
+      "label": "Las focas y el león marino",
+      "to": "seal"
+    },
+    {
+      "label": "El pez sapo",
+      "to": "angl"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/jell/JELL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Formas múltiples",
+            "to": "multiple-forms",
+            "x": 73,
+            "y": 9,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "Parecidos pero no iguales",
+            "to": "similar-but-not-the-same",
+            "x": 64,
+            "y": 43,
+            "w": 32,
+            "h": 8
+          },
+          {
+            "label": "Avispas en el mar",
+            "to": "wasps-in-the-sea",
+            "x": 66,
+            "y": 61,
+            "w": 27,
+            "h": 6
+          },
+          {
+            "label": "Medusas como aperitivo",
+            "to": "jelly-for-lunch",
+            "x": 4,
+            "y": 71,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Las células urticantes",
+            "to": "stinging-cells",
+            "x": 4,
+            "y": 79,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "¿Es una medusa o no?",
+            "to": "video",
+            "x": 3,
+            "y": 86,
+            "w": 23,
+            "h": 6
+          }
+        ]
+      },
+      "similar-but-not-the-same": {
+        "image": "assets/es/jell/JELL01PU.webp",
+        "back": "main"
+      },
+      "multiple-forms": {
+        "image": "assets/es/jell/JELL02PU.webp",
+        "back": "main"
+      },
+      "stinging-cells": {
+        "image": "assets/es/jell/JELL03PU.webp",
+        "back": "main"
+      },
+      "wasps-in-the-sea": {
+        "image": "assets/es/jell/JELL04PU.webp",
+        "back": "main"
+      },
+      "jelly-for-lunch": {
+        "image": "assets/es/jell/JELL05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/jell/clip.mp4",
+        "poster": "assets/es/jell/JELL06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/jell/JELL00JN.mp3",
+  "sound": "assets/es/jell/JELL00IX.mp3",
+  "video": {
+    "title": "¿Es una medusa o no?",
+    "src": "assets/es/jell/clip.mp4",
+    "poster": "assets/es/jell/poster.webp",
+    "caption": "Buzo con cadena de salpas reproduciéndose por gemación",
+    "narration": "assets/es/jell/JELL06JN.mp3"
+  }
+}

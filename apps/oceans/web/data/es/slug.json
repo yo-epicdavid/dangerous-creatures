@@ -1,0 +1,187 @@
+{
+  "id": "slug",
+  "code": "SLUG",
+  "name": "La babosa marina",
+  "category": "creature",
+  "scientificName": "Hermissenda crassicornis",
+  "needsScientificVerify": false,
+  "tagline": "¡Olvida las babosas del jardín: las del mar son puro espectáculo de color!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Arrecife de coral",
+    "Bosques de algas y praderas marinas",
+    "Mar abierto"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/slug/SLUG00AA.webp",
+    "alt": "La babosa marina"
+  },
+  "intro": "Prueba a mencionarle a la gente las babosas, verás como te responden con un \"¡Puaj!\". Pero, la babosa de mar es muy distinta a la viscosa plaga de los jardines que llamamos babosa de tierra. Las babosas marinas, también conocidas como nudibranquios y liebres de mar, sólo miden unos centímetros. Las hay de distintos colores, con rayas, manchas y rizos de brillantes tonos. Desde el momento en que topas con estos espectaculares animales, tu idea sobre las babosas cambia.",
+  "facts": [
+    {
+      "label": "Tamaño",
+      "value": "Sólo miden unos centímetros."
+    },
+    {
+      "label": "Dieta",
+      "value": "Según la especie, comen algas, ascidias, esponjas, abanicos de mar o medusas."
+    },
+    {
+      "label": "Superpoder",
+      "value": "La babosa glauca absorbe las células venenosas de las medusas y las utiliza para defenderse de sus propios predadores."
+    },
+    {
+      "label": "Protección",
+      "value": "Su viscoso revestimiento de mucus huele y sabe mal, lo que aleja a la mayoría de sus predadores marinos."
+    },
+    {
+      "label": "Reproducción",
+      "value": "Son hermafroditas: cada ejemplar produce tanto huevos como esperma y, en algunos casos, puede fertilizarse a sí mismo."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "El caracol Janthina crea una balsa de burbujas para flotar en la superficie y cazar fragatas portuguesas."
+    }
+  ],
+  "topics": [
+    {
+      "id": "call-me-a-gastropod",
+      "title": "¡Llámame gasterópodo!",
+      "image": "assets/es/slug/SLUG01PU.webp",
+      "text": "Las babosas marinas pertenecen a un grupo de moluscos llamados gasterópodos. Tanto los de tierra como los de agua dulce o agua salada, tienen el cuerpo blando, un par de ojos y al menos un par de antenas. Estos animales pueden tener un caparazón de una pieza, normalmente en espiral, o no tenerlo. Este caracol y este cauri son gasterópodos que viven en el océano.",
+      "captions": [
+        {
+          "label": "Diminutas burbujas",
+          "text": "El caracol Janthina, un pequeño caracol marino, crea una balsa de burbujas para flotar y así poder alimentarse de animales de la superficie, como esta fragata portuguesa."
+        },
+        {
+          "label": "Un objeto de coleccionista",
+          "text": "El manto de este cauri del Mar Rojo oculta un hermoso caparazón perseguido por los coleccionistas."
+        }
+      ],
+      "narration": "assets/es/slug/SLUG01JN.mp3"
+    },
+    {
+      "id": "jellyfish-eater",
+      "title": "Devoradores de medusas",
+      "image": "assets/es/slug/SLUG02PU.webp",
+      "text": "La mayoría de las babosas marinas se arrastra por el fondo del mar, alimentándose de ascidias y otros animales sedentarios. Pero la babosa glauca ha desarrollado técnicas especiales que le permiten cazar en la superficie del océano. Este animal tiene varias vejigas que llena de aire para mantenerse a flote mientras devora medusas. Aunque las punzantes células de las medusas matarían a muchos animales, no parecen hacer ningún daño a este nudibranquio. De hecho, la babosa glauca absorbe las células venenosas y las utiliza para defenderse de sus propios predadores.",
+      "narration": "assets/es/slug/SLUG02JN.mp3"
+    },
+    {
+      "id": "algae-eaters",
+      "title": "Devoradores de algas",
+      "image": "assets/es/slug/SLUG03PU.webp",
+      "text": "Algunas babosas se han especializado en comer determinados animales, como las esponjas o los abanicos de mar, pero este ejemplar es estrictamente vegetariano: roe las algas como si fuera un conejo submarino. Esta dieta, añadida a las largas protuberancias de su cabeza, le ha valido el apodo de \"liebre marina\". La liebre de mar rara vez tiene el contraste de colores y formas de las demás babosas marinas. En lugar de eso, hace juego con las algas de las que se alimenta.",
+      "narration": "assets/es/slug/SLUG03JN.mp3"
+    },
+    {
+      "id": "beautiful-slime",
+      "title": "Una hermosa baba",
+      "image": "assets/es/slug/SLUG04PU.webp",
+      "text": "No tienen caparazón protector ni veneno para hacer frente a sus enemigos; entonces, ¿cómo se las arreglan los nudibranquios para subsistir con tan alegres colores? El secreto parece estar en su viscoso revestimiento de mucus: los seres humanos opinan que huele y sabe mal y, probablemente, le ocurre lo mismo a sus predadores marinos. Los nudibranquios no se preocupan demasiado por evitar que los devoren. Tan sólo otros nudibranquios, y algunos gusanos marinos, representan un peligro para ellos.",
+      "narration": "assets/es/slug/SLUG04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "El océano Pacífico",
+      "to": "paci"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/slug/SLUG00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "¡Llámame gasterópodo!",
+            "to": "call-me-a-gastropod",
+            "x": 62,
+            "y": 28,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "La vida de una babosa",
+            "to": "video",
+            "x": 27,
+            "y": 57,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Devoradores de medusas",
+            "to": "jellyfish-eater",
+            "x": 67,
+            "y": 61,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Una hermosa baba",
+            "to": "beautiful-slime",
+            "x": 20,
+            "y": 73,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Devoradores de algas",
+            "to": "algae-eaters",
+            "x": 44,
+            "y": 76,
+            "w": 15,
+            "h": 5
+          }
+        ]
+      },
+      "call-me-a-gastropod": {
+        "image": "assets/es/slug/SLUG01PU.webp",
+        "back": "main"
+      },
+      "jellyfish-eater": {
+        "image": "assets/es/slug/SLUG02PU.webp",
+        "back": "main"
+      },
+      "algae-eaters": {
+        "image": "assets/es/slug/SLUG03PU.webp",
+        "back": "main"
+      },
+      "beautiful-slime": {
+        "image": "assets/es/slug/SLUG04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/slug/clip.mp4",
+        "poster": "assets/es/slug/SLUG05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/slug/SLUG00JN.mp3",
+  "sound": "assets/es/slug/SLUG00IX.mp3",
+  "video": {
+    "title": "La vida de una babosa",
+    "src": "assets/es/slug/clip.mp4",
+    "poster": "assets/es/slug/poster.webp",
+    "caption": "¿Qué harías si fueras una babosa marina? Dependiendo de la especie a la que pertenecieras, te alimentarías de algas, nadarías por ahí mordisqueando esponjas o serías un cazador flotante de medusas. Pero no tendrías que preocuparte por ser macho o hembra. Las babosas marinas son hermafroditas, lo que significa que cada ejemplar crea con su cuerpo tanto huevos como esperma. La babosa de mar, para fertilizar los huevos, sólo necesita hallar a otro ejemplar de su misma especie. En algunos casos, hasta es capaz de hacerlo por sí misma.",
+    "narration": "assets/es/slug/SLUG05JN.mp3"
+  }
+}

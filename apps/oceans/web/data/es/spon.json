@@ -1,0 +1,204 @@
+{
+  "id": "spon",
+  "code": "SPON",
+  "name": "Las esponjas marinas",
+  "category": "creature",
+  "scientificName": "Aplysina verongis longissima",
+  "needsScientificVerify": false,
+  "tagline": "¡Ni plantas ni animales corrientes: las esponjas son los seres más raros del océano!",
+  "zones": [
+    "Arrecife de coral",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/spon/SPON00AA.webp",
+    "alt": "Las esponjas marinas"
+  },
+  "intro": "Hay esponjas que crecen y se extienden como el musgo; a algunas les gusta los champiñones y los cactus; otras tienen forma tubular o de abanico. Una misma especie de esponja puede crecer con distinta forma y color. Hasta un especialista encontraría difícil identificar todos los tipos de esponja existentes. El tamaño de estos animales puede ser desde microscópico hasta superior a 2 m de alto; y existen más de 5.000 especies en el planeta.",
+  "facts": [
+    {
+      "label": "Tamaño",
+      "value": "desde microscópico hasta superior a 2 m de alto"
+    },
+    {
+      "label": "Especies",
+      "value": "más de 5.000 en el planeta"
+    },
+    {
+      "label": "Esqueleto",
+      "value": "espículas de calcio y sílice mantienen erguido el cuerpo de la esponja"
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "estuvieron clasificadas como plantas hasta principios del siglo diecinueve"
+    },
+    {
+      "label": "Alimentación",
+      "value": "filtran el agua por los poros para capturar bacterias, fitoplancton y zooplancton"
+    },
+    {
+      "label": "Esponjas de baño",
+      "value": "las esponjas con fibras de espongina en lugar de espículas se han utilizado como esponjas de baño durante siglos"
+    }
+  ],
+  "topics": [
+    {
+      "id": "bath-sponges",
+      "title": "Las esponjas de baño",
+      "image": "assets/es/spon/SPON01PU.webp",
+      "text": "La mayoría de las esponjas sólo dejan, cuando mueren, las duras espículas que vuelven rígido su cuerpo. Pero un número reducido de esponjas carece de espículas, teniendo en su lugar una red de fibras proteínicas conocidas como esponginas. El \"esqueleto\" de este tipo de esponja, más blando que el anterior, se ha utilizado como esponja de baño durante siglos. Todavía se pueden encontrar esponjas de baño naturales en ciertas localidades, pero la mayor parte de las que usa la gente son artificiales, no los restos de esponjas marinas.",
+      "narration": "assets/es/spon/SPON01JN.mp3"
+    },
+    {
+      "id": "inside-sponges",
+      "title": "El interior de las esponjas",
+      "image": "assets/es/spon/SPON02PU.webp",
+      "text": "Las esponjas son animales, pero no tienen ni esqueleto ni recubrimiento externo duro. ¿Cómo se las arreglan entonces para mantenerse erguidas? El secreto está en las espículas o en las diminutas, pero fuertes, estructuras de calcio y sílice repartidas en el interior del cuerpo de una esponja. A los pocos días de morir, de una esponja sólo quedan las espículas. Otros animales, como la holoturia, también tienen espículas.",
+      "captions": [
+        {
+          "label": "Espículas de esponja y holoturia mezcladas",
+          "text": "Espículas de esponja y holoturia mezcladas"
+        },
+        {
+          "label": "Espículas de esponja vítrea",
+          "text": "Hexactinella sp."
+        }
+      ],
+      "narration": "assets/es/spon/SPON02JN.mp3"
+    },
+    {
+      "id": "all-shapes-and-sizes",
+      "title": "De todas las formas y tamaños",
+      "image": "assets/es/spon/SPON03PU.webp",
+      "text": "Las esponjas tienen gran variedad de colores, tamaños y formas, al igual que las flores de los jardines. No resulta extraño que estos sedentarios seres estuvieran clasificados como plantas hasta principios del siglo diecinueve.",
+      "captions": [
+        {
+          "label": "Esponja coralina, Arrecife de la Gran Barrera",
+          "text": "Sclerospongie sp."
+        },
+        {
+          "label": "Esponja de naranja",
+          "text": "Cozumel, México"
+        }
+      ],
+      "narration": "assets/es/spon/SPON03JN.mp3"
+    },
+    {
+      "id": "eat-and-be-eaten",
+      "title": "Comer y ser comido",
+      "image": "assets/es/spon/SPON04PU.webp",
+      "text": "Las esponjas permanecen fijas en un sitio. Además, carecen de boca. Pero se las arreglan para comer: filtran el agua por los poros, apresando cualquier sustancia nutritiva que ésta contenga. Consumen bacterias que fluyen en las corrientes, y residuos de las plantas y animales que habitan por encima de ellas.",
+      "captions": [
+        {
+          "label": "La comida de las esponjas",
+          "text": "Las esponjas se alimentan de una mezcla de fitoplancton y zooplancton. El plancton y las bacterias más diminutas le sirven de alimento a las esponjas."
+        },
+        {
+          "label": "Devoradores de esponjas",
+          "text": "Este hermoso animal es el peor enemigo de las esponjas. Se trata de un nudibranquio y las esponjas son su alimento."
+        }
+      ],
+      "narration": "assets/es/spon/SPON04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Related or Not?"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/spon/SPON00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 1,
+            "w": 9,
+            "h": 9
+          },
+          {
+            "label": "Las esponjas de baño",
+            "to": "bath-sponges",
+            "x": 57,
+            "y": 11,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "De todas las formas y tamaños",
+            "to": "all-shapes-and-sizes",
+            "x": 44,
+            "y": 29,
+            "w": 29,
+            "h": 5
+          },
+          {
+            "label": "El interior de las esponjas",
+            "to": "inside-sponges",
+            "x": 44,
+            "y": 70,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Comer y ser comido",
+            "to": "eat-and-be-eaten",
+            "x": 1,
+            "y": 80,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Los amantes de las esponjas",
+            "to": "video",
+            "x": 1,
+            "y": 88,
+            "w": 18,
+            "h": 5
+          }
+        ]
+      },
+      "bath-sponges": {
+        "image": "assets/es/spon/SPON01PU.webp",
+        "back": "main"
+      },
+      "inside-sponges": {
+        "image": "assets/es/spon/SPON02PU.webp",
+        "back": "main"
+      },
+      "all-shapes-and-sizes": {
+        "image": "assets/es/spon/SPON03PU.webp",
+        "back": "main"
+      },
+      "eat-and-be-eaten": {
+        "image": "assets/es/spon/SPON04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/spon/clip.mp4",
+        "poster": "assets/es/spon/SPON05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/spon/SPON00JN.mp3",
+  "sound": "assets/es/spon/SPON00IX.mp3",
+  "video": {
+    "title": "Los amantes de las esponjas",
+    "src": "assets/es/spon/clip.mp4",
+    "poster": "assets/es/spon/poster.webp",
+    "caption": "Muchos animales marinos mantienen una relación muy especial con las esponjas. Esta morena ha descubierto que la cavidad interna de una esponja tubular se adapta perfectamente a sus necesidades. Es el lugar idóneo para ocultarse al acecho de una buena presa. ¡Y la esponja también puede tener su parte en el banquete!",
+    "narration": "assets/es/spon/SPON05JN.mp3"
+  }
+}

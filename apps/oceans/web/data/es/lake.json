@@ -1,0 +1,253 @@
+{
+  "id": "lake",
+  "code": "LAKE",
+  "name": "Aves de lagos y costas",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Buzos, cantores nocturnos y bailarinas del agua: las aves que conquistan lagos y mares!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Ríos y estuarios"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/lake/LAKE00AA.webp",
+    "alt": "Aves de lagos y costas"
+  },
+  "intro": "Algunas aves marinas nunca abandonan las zonas oceánicas y, otras, como los patos marinos, los pelícanos y las gaviotas, van y vienen rutinariamente entre el agua dulce y el medio ambiente marino. En invierno, por ejemplo, puedes encontrar a este pato arlequín a lo largo de las costas de Asia y América. Durante el verano, puedes verlo planeando por encima de un lago interior o chapoteando en la corriente rápida de un río.",
+  "facts": [
+    {
+      "label": "Profundidad",
+      "value": "El cormorán puede sumergirse a una profundidad de 37 metros"
+    },
+    {
+      "label": "Inmersión",
+      "value": "El colimbo brande puede bucear a más de 60 m de profundidad y permanecer sumergido más de cinco minutos"
+    },
+    {
+      "label": "Velocidad",
+      "value": "El colimbo brande puede alcanzar velocidades de más de 96 km por hora en el aire"
+    },
+    {
+      "label": "Especies",
+      "value": "Los científicos han localizado 45 especies de gaviotas"
+    },
+    {
+      "label": "Flamencos",
+      "value": "Se estima que existen 6 millones de flamencos en el mundo y pueden tomar posesión de un lago hasta un millón de parejas"
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "En Asia, los pescadores entrenan a los cormoranes colocándoles una anilla en el cuello para que no puedan tragar los peces mientras la llevan puesta"
+    }
+  ],
+  "topics": [
+    {
+      "id": "bomber-jet",
+      "title": "Como un bombardero",
+      "image": "assets/es/lake/LAKE01PU.webp",
+      "text": "El pelícano pardo es un buceador experto, a pesar de su imponente pico y su cuerpo robusto. Este ave se remonta a una gran altura antes de sumergirse de cabeza en el mar. No se ha estrellado, sino que ha hecho una inmersión segura en busca de comida que ha localizado desde el aire. Cuando el pelícano golpea el agua, su buche se convierte en una especie de red que recoge los peces que se encuentran bajo la superficie. Los pelícanos pardos se están recuperando tras la reducción drástica de su número de ejemplares, causada por los pesticidas y la pérdida de su hábitat.",
+      "narration": "assets/es/lake/LAKE01JN.mp3",
+      "captions": [
+        {
+          "label": "Pelícano pardo",
+          "text": "Pelecanus occidentalis"
+        }
+      ]
+    },
+    {
+      "id": "fishing-for-a-living",
+      "title": "Pescar para vivir",
+      "image": "assets/es/lake/LAKE02PU.webp",
+      "text": "El cormorán es un devorador voraz de peces que pesca en aguas poco profundas, pero que puede sumergirse a una profundidad de 37 metros. Los cormoranes se sirven de sus patas aerodinámicas y de las fuertes membranas de sus pies para propulsarse bajo el agua. En Asia, algunos pescadores entrenan a los cormoranes para que pesquen por ellos, colocándoles una anilla alrededor del cuello, para que no puedan tragar ningún pez mientras la llevan puesta. Se ata el cormorán a una cuerda y se le lanza por la borda. Cuando efectúa una captura, le obligan a escupir su presa.",
+      "narration": "assets/es/lake/LAKE02JN.mp3",
+      "captions": [
+        {
+          "label": "Cormoranes",
+          "text": "Phalacrocorax carbo"
+        }
+      ]
+    },
+    {
+      "id": "laughing-birds",
+      "title": "Pájaros que ríen",
+      "image": "assets/es/lake/LAKE04PU.webp",
+      "text": "El colimbo brande es el maestro de la serenata nocturna. Aunque migra en invierno a las aguas del mar, se reproduce en lagos lejanos de agua dulce y en ríos de corrientes lentas. Durante el período de cortejo, el macho hace una impresionante llamada por encima del agua, que parece mitad lamento, mitad carcajada. Pero el colimbo brande no está loco en absoluto; es un atleta asombroso que puede bucear a más de 60 m de profundidad y permanecer sumergido más de cinco minutos. Cuando está en el aire, sus aleteos poderosos pueden ayudarle a alcanzar velocidades de más de 96 km por hora. Y nadie puede ganarle en la forma de transportar a sus polluelos.",
+      "narration": "assets/es/lake/LAKE04JN.mp3",
+      "captions": [
+        {
+          "label": "Colimbo brande y polluelo",
+          "text": "Gavia immer"
+        }
+      ]
+    },
+    {
+      "id": "gregarious-grebes",
+      "title": "Los zampullines gregarios",
+      "image": "assets/es/lake/LAKE05PU.webp",
+      "text": "Los zampullines machos y hembras poseen un plumaje pálido en invierno y viven en el agua del mar. En verano viven en las charcas interiores de agua dulce y aquí es donde empieza lo divertido. El plumaje del macho y de la hembra se vuelve brillante, hasta convertirse en rojo cobrizo, y de la cabeza les salen penachos encrespados. Durante el período de apareamiento, los zampullines se vuelven ostentosos: se arreglan las plumas con el pico, sacuden la cabeza, ofrecen hierbas, aletean y llevan a cabo una \"danza del pingüino\" vertical, ¡en la que se lanzan al agua con un zumbido como el de las hidroalas!",
+      "narration": "assets/es/lake/LAKE05JN.mp3",
+      "captions": [
+        {
+          "label": "Zampullín cuellirojo",
+          "text": "Podiceps auritus"
+        }
+      ]
+    },
+    {
+      "id": "plucky-ducks",
+      "title": "Los patos",
+      "image": "assets/es/lake/LAKE06PU.webp",
+      "text": "Los patos adornan el paisaje con su plumaje colorido y a veces llenan el cielo de sonidos. Sus plumas, o plumón, tienen usos comerciales.",
+      "captions": [
+        {
+          "label": "Acolchonados",
+          "text": "El eider hembra se despluma el pecho para forrar el nido. Los seres humanos también utilizan el plumaje para forrar anoraks y edredones. Este macho, que ha salido a nadar por el lago, no es tan servicial con sus plumas."
+        },
+        {
+          "label": "Alas silbantes",
+          "text": "Cuando el porrón osculado alza el vuelo, sus alas producen un fuerte silbido."
+        }
+      ],
+      "narration": "assets/es/lake/LAKE06JN.mp3"
+    },
+    {
+      "id": "the-most-familiar",
+      "title": "Lo más corriente",
+      "image": "assets/es/lake/LAKE07PU.webp",
+      "text": "Cualquiera que haya estado en el mar ha visto gaviotas y oído sus inolvidables chillidos. Las gaviotas y sus parientes, las golondrinas de mar y los págalos grandes, es algo que puede verse en todo el mundo. Los científicos han localizado 45 especies de gaviotas y casi el mismo número de especies de golondrinas de mar. Muchas gaviotas vuelan tierra adentro durante la época de crianza y anidamiento, mientras que algunas especies viven todo el año en los lagos.",
+      "narration": "assets/es/lake/LAKE07JN.mp3",
+      "captions": [
+        {
+          "label": "Gaviotas alimentándose de un capelán",
+          "text": "Terranova, Canadá"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Los pingüinos",
+      "to": "peng"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/lake/LAKE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 4,
+            "w": 9,
+            "h": 6
+          },
+          {
+            "label": "Como un bombardero",
+            "to": "bomber-jet",
+            "x": 60,
+            "y": 34,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Los patos",
+            "to": "plucky-ducks",
+            "x": 60,
+            "y": 47,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Pescar para vivir",
+            "to": "fishing-for-a-living",
+            "x": 53,
+            "y": 59,
+            "w": 38,
+            "h": 5
+          },
+          {
+            "label": "Lo más corriente",
+            "to": "the-most-familiar",
+            "x": 53,
+            "y": 69,
+            "w": 36,
+            "h": 5
+          },
+          {
+            "label": "Los zampullines gregarios",
+            "to": "gregarious-grebes",
+            "x": 5,
+            "y": 55,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Bebida rosa",
+            "to": "video",
+            "x": 4,
+            "y": 64,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Pájaros que ríen",
+            "to": "laughing-birds",
+            "x": 5,
+            "y": 75,
+            "w": 25,
+            "h": 5
+          }
+        ]
+      },
+      "bomber-jet": {
+        "image": "assets/es/lake/LAKE01PU.webp",
+        "back": "main"
+      },
+      "fishing-for-a-living": {
+        "image": "assets/es/lake/LAKE02PU.webp",
+        "back": "main"
+      },
+      "laughing-birds": {
+        "image": "assets/es/lake/LAKE04PU.webp",
+        "back": "main"
+      },
+      "gregarious-grebes": {
+        "image": "assets/es/lake/LAKE05PU.webp",
+        "back": "main"
+      },
+      "plucky-ducks": {
+        "image": "assets/es/lake/LAKE06PU.webp",
+        "back": "main"
+      },
+      "the-most-familiar": {
+        "image": "assets/es/lake/LAKE07PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/lake/clip.mp4",
+        "poster": "assets/es/lake/LAKE03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/lake/LAKE00JN.mp3",
+  "sound": "assets/es/lake/LAKE00IX.mp3",
+  "video": {
+    "title": "Bebida rosa",
+    "src": "assets/es/lake/clip.mp4",
+    "poster": "assets/es/lake/poster.webp",
+    "caption": "Para satisfacer su gran exigencia de comida, el flamenco recorre las aguas poco profundas de las costas y lagos tropicales y subtropicales. Adquiere su color por su dieta de quisquillas y algas rosas.",
+    "narration": "assets/es/lake/LAKE03JN.mp3"
+  }
+}

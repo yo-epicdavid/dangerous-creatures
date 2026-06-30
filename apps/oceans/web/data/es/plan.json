@@ -1,0 +1,231 @@
+{
+  "id": "plan",
+  "code": "PLAN",
+  "name": "El plancton",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Microscópico pero imprescindible: el plancton alimenta a los gigantes del océano!",
+  "zones": [
+    "Mar abierto",
+    "Costa y charcas de marea",
+    "Arrecife de coral"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/plan/PLAN00AA.webp",
+    "alt": "El plancton"
+  },
+  "intro": "La palabra plancton significa \"a la deriva\" o \"errante\" y denomina a todo organismo que flota con las corrientes. El plancton incluye plantas y animales, que reciben respectivamente el nombre de fitoplancton y zooplancton. También existen algunos tipos de plancton difíciles de clasificar. Por ejemplo, los dinoflagelados se consideran fitoplancton porque algunos de ellos contienen clorofila, como las plantas. Pero también están dotados de flagelos, unos apéndices parecidos a una cola, que utilizan para impulsarse de un lugar a otro, característica más propia de los animales.",
+  "facts": [
+    {
+      "label": "¿Qué significa?",
+      "value": "La palabra «plancton» significa «a la deriva» o «errante»"
+    },
+    {
+      "label": "Dónde vive",
+      "value": "El fitoplancton vive solo en las capas superiores del océano, donde llega la luz del sol"
+    },
+    {
+      "label": "Caparazón de vidrio",
+      "value": "Las diatomeas tienen caparazón de sílice, la misma sustancia que forma el vidrio"
+    },
+    {
+      "label": "Marea roja",
+      "value": "La marea roja no es una marea: es una explosión de dinoflagelados que producen una neurotoxina capaz de causar parálisis o incluso la muerte"
+    },
+    {
+      "label": "Bioluminiscencia",
+      "value": "Algunos dinoflagelados brillan en la oscuridad: si agitas el mar de noche con la mano, puede lanzar destellos"
+    },
+    {
+      "label": "Grandes comedores",
+      "value": "Ballenas, tiburones ballena y mantas nadan con la boca abierta para filtrar la mayor cantidad posible de plancton"
+    }
+  ],
+  "topics": [
+    {
+      "id": "phytoplankton",
+      "title": "El fitoplancton",
+      "image": "assets/es/plan/PLAN01PU.webp",
+      "text": "Como todas las plantas, el fitoplancton utiliza la fotosíntesis para producir hidratos de carbono a partir de agua y bióxido de carbono. Como necesita la luz del sol para realizar ese proceso, todo el fitoplancton vive en las capas superiores del océano.\n\n¿Esto es una planta?\nSi tuvieras la oportunidad de mirar a través de un microscopio electrónico, disfrutarías de panoramas tan increíbles como éste. Esta asombrosa estructura, que parece un mecanismo de alta tecnología del futuro, es una minúscula diatomea aumentada cientos de veces.\n\nHermosas plantas\nLa diatomea es un fitoplancton con caparazón de sílice, la principal sustancia que conforma el vidrio. Cuando las diatomeas mueren, sus caparazones van depositándose en el fondo, produciendo tierra de diatomeas, que filtra el agua.",
+      "captions": [
+        {
+          "label": "Diatomeas",
+          "text": "Diatomeas, ampliadas y teñidas"
+        }
+      ],
+      "narration": "assets/es/plan/PLAN01JN.mp3"
+    },
+    {
+      "id": "zooplankton",
+      "title": "El zooplancton",
+      "image": "assets/es/plan/PLAN02PU.webp",
+      "text": "El zooplancton come residuos orgánicos y fitoplancton. Sus miembros también se comen unos a otros. Algunas clases de zooplancton son protozoos; es decir, criaturas unicelulares. Otras, como las salpas y los crustáceos microscópicos, son de mayor tamaño y complejidad. Numerosos seres marinos son zooplancton antes de madurar y establecerse en una zona específica. Muchos animales marinos sólo comen plancton, en especial el formado por diminutos crustáceos como el krill y las pulgas de agua.",
+      "narration": "assets/es/plan/PLAN02JN.mp3",
+      "captions": [
+        {
+          "label": "Pulgas de agua",
+          "text": "Pulgas de agua con crías, aumentadas 20 veces"
+        },
+        {
+          "label": "Krill",
+          "text": "Krill"
+        }
+      ]
+    },
+    {
+      "id": "red-tide",
+      "title": "La marea roja",
+      "image": "assets/es/plan/PLAN03PU.webp",
+      "text": "En realidad, la marea roja no es una marea, sino el resultado de un crecimiento explosivo de dinoflagelados, es decir un tipo de fitoplancton. Éstos producen un veneno que afecta al sistema nervioso, una neurotoxina que, en forma concentrada, acaba con las almejas, los mejillones y otros peces. La ingestión de marisco contaminado con ese veneno puede causar parálisis, e incluso la muerte, por lo que, por seguridad, muchos países analizan periódicamente el marisco de sus costas. Si al morder un marisco sientes picor en los labios o en los dedos, ¡déjalo inmediatamente! Puede ser un síntoma de envenenamiento por marea roja.",
+      "narration": "assets/es/plan/PLAN03JN.mp3",
+      "captions": [
+        {
+          "label": "Marea roja en México",
+          "text": "Marea roja en México"
+        },
+        {
+          "label": "Dinoflagelados",
+          "text": "Dinoflagelados"
+        },
+        {
+          "label": "Peces muertos",
+          "text": "Peces muertos por marea roja, Florida"
+        }
+      ]
+    },
+    {
+      "id": "night-lights",
+      "title": "Luces en la noche",
+      "image": "assets/es/plan/PLAN04PU.webp",
+      "text": "Ciertas clases de plancton, como las luciérnagas marinas, son bioluminiscentes, es decir, brillan en la oscuridad. Los animales utilizan esta característica para atraer tanto a sus presas como a sus compañeros de apareamiento. Con algunas plantas sucede algo similar: si sales al mar de noche remueve el agua con la mano o con un palo: si hay dinoflagelados de ese tipo, el mar lanzará destellos.",
+      "narration": "assets/es/plan/PLAN04JN.mp3",
+      "captions": [
+        {
+          "label": "Plancton bioluminiscente",
+          "text": "Plancton bioluminiscente"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "La flora marina",
+      "to": "mpln"
+    },
+    {
+      "label": "Creature Closeups"
+    },
+    {
+      "label": "El océano Antártico",
+      "to": "anta"
+    },
+    {
+      "label": "Las corrientes",
+      "to": "curr"
+    },
+    {
+      "label": "Asombrosos poderes",
+      "to": "powr"
+    },
+    {
+      "label": "Los briozoos",
+      "to": "moss"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/plan/PLAN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 7,
+            "h": 9
+          },
+          {
+            "label": "El fitoplancton",
+            "to": "phytoplankton",
+            "x": 2,
+            "y": 60,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "La marea roja",
+            "to": "red-tide",
+            "x": 37,
+            "y": 67,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "Luces en la noche",
+            "to": "night-lights",
+            "x": 57,
+            "y": 52,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "¿Quieres plancton?",
+            "to": "video",
+            "x": 15,
+            "y": 79,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "El zooplancton",
+            "to": "zooplankton",
+            "x": 71,
+            "y": 80,
+            "w": 15,
+            "h": 5
+          }
+        ]
+      },
+      "phytoplankton": {
+        "image": "assets/es/plan/PLAN01PU.webp",
+        "back": "main"
+      },
+      "zooplankton": {
+        "image": "assets/es/plan/PLAN02PU.webp",
+        "back": "main"
+      },
+      "red-tide": {
+        "image": "assets/es/plan/PLAN03PU.webp",
+        "back": "main"
+      },
+      "night-lights": {
+        "image": "assets/es/plan/PLAN04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/plan/clip.mp4",
+        "poster": "assets/es/plan/PLAN05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/plan/PLAN00JN.mp3",
+  "sound": "assets/es/plan/PLAN00IX.mp3",
+  "video": {
+    "title": "¿Quieres plancton?",
+    "src": "assets/es/plan/clip.mp4",
+    "poster": "assets/es/plan/poster.webp",
+    "caption": "El plancton es un nutritivo caldo del que dependen numerosos animales marinos. Algunos, como los balanos, corales y briozoos, permanecen en el mismo lugar y filtran las partículas de plancton de las aguas circundantes. Otros, como las ballenas, los tiburones ballena, el peregrino, y la manta tienen más movilidad y nadan en el agua con la boca abierta para recoger la mayor cantidad posible de organismos flotantes.",
+    "narration": "assets/es/plan/PLAN05JN.mp3"
+  }
+}

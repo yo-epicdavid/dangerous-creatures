@@ -1,0 +1,223 @@
+{
+  "id": "clam",
+  "code": "CLAM",
+  "name": "Almejas, ostras y vieiras",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Dos valvas, una bisagra y mil sorpresas escondidas en el fondo del mar!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Arrecife de coral",
+    "Bosques de algas y praderas marinas"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/clam/CLAM00AA.webp",
+    "alt": "Almejas, ostras y vieiras"
+  },
+  "intro": "¿Qué es lo que tiene una pata, no tiene cabeza y casi nunca carece de bisagra? ¡La almeja, el mejillón, la vieira y la ostra! Se conocen colectivamente como bivalvos porque están encerrados en dos valvas o caparazones, unidos por una bisagra. La ostra, el mejillón y muchos otros bivalvos permanecen fijos en un lugar durante toda o casi toda su vida. Otros, incluida la almeja, utilizan una \"pata\" muscular para enterrarse en la arena o en el fango. La vieira es el correcaminos de este grupo, porque puede desplazarse de un lugar a otro agitando sus valvas en bisagra.",
+  "facts": [
+    {
+      "label": "Tamaño",
+      "value": "La almeja gigante mide de ancho más de 1 m."
+    },
+    {
+      "label": "Peso",
+      "value": "La almeja gigante puede pesar más de 250 Kg."
+    },
+    {
+      "label": "Perlas",
+      "value": "Una sola perla negra del sur del Pacífico puede costar hasta 40.000 dólares."
+    },
+    {
+      "label": "Especies",
+      "value": "En todo el mundo existen más de 400 especies de vieiras."
+    },
+    {
+      "label": "Maricultura",
+      "value": "La cría de marisco conocida como maricultura empezó hace siglos en China."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Las vieiras nadan abriendo y cerrando sus valvas de castañeo; el agua sale disparada hacia afuera, impulsándolas como un cohete."
+    }
+  ],
+  "topics": [
+    {
+      "id": "clam-up",
+      "title": "¡Cierra la boca!",
+      "image": "assets/es/clam/CLAM01PU.webp",
+      "text": "Los bivalvos tienen dos valvas simétricas, que abren y cierran mediante potentes músculos. Unas grandes branquias, dentro de estas valvas, chupan y expulsan el agua, extrayendo comida y oxígeno. Abundan las historias sobre buscadores de perlas que se han ahogado al cerrarse de golpe sobre sus piernas las valvas de una almeja gigante, pero no existen desgracias de este tipo que hayan sido confirmadas. La almeja gigante mide de ancho más de 1 m y puede pesar más de 250 Kg.",
+      "narration": "assets/es/clam/CLAM01JN.mp3",
+      "captions": [
+        {
+          "label": "Almeja gigante",
+          "text": "Tridacna gigas"
+        }
+      ]
+    },
+    {
+      "id": "moody-pearls",
+      "title": "Las caprichosas perlas",
+      "image": "assets/es/clam/CLAM02PU.webp",
+      "text": "Puede que sea difícil de creer, ¡pero las perlas son fabricadas por ostras irritadas! La perla se forma cuando una ostra segrega carbonato de calcio alrededor de un grano de arena, o de cualquier otra sustancia irritante, que ha quedado alojada entre las valvas del animal. Aunque todos los bivalvos pueden producir perlas, la más fina procede de la ostra no comestible. Algunas personas crían (o \"cultivan\") perlas, introduciendo una substancia en el interior de una ostra.",
+      "captions": [
+        {
+          "label": "Simples baratijas",
+          "text": "Las perlas más finas solían proceder del golfo Pérsico, pero las ostras que las producían están casi extintas. Una sola perla negra del sur del Pacífico puede costar hasta 40.000 dólares. ¡Imagina lo que cuesta un collar entero!"
+        }
+      ],
+      "narration": "assets/es/clam/CLAM02JN.mp3"
+    },
+    {
+      "id": "eye-see-you",
+      "title": "¡El ojo que te ve!",
+      "image": "assets/es/clam/CLAM04PU.webp",
+      "text": "Los moluscos tienen que servirse de todas las trampas que puedan para evitar ser devorados, ya que hay muchas criaturas más grandes que se alimentan de ellos. Los ojos de la vieira y la almeja son capaces de apreciar pequeños cambios de luz. Ambas cierran sus valvas, como el obturador de las lentes de una cámara, cuando sienten la presencia de un predador. ¡Mira las docenas de ojos azules que tiene esta vieira alrededor de los bordes de su caparazón!",
+      "narration": "assets/es/clam/CLAM04JN.mp3",
+      "captions": [
+        {
+          "label": "Vieira",
+          "text": "con un balano en el caparazón"
+        }
+      ]
+    },
+    {
+      "id": "harvesting-shellfish",
+      "title": "La recogida del marisco",
+      "image": "assets/es/clam/CLAM05PU.webp",
+      "text": "La cría de peces, marisco y algas marinas, conocida como maricultura, empezó hace siglos en China. Actualmente, el Sudeste Asiático todavía cultiva la mayoría de los productos de las explotaciones acuáticas, pero con la disminución de las provisiones de vida marina en todas partes, el cultivo marino se está extendiendo en todo el mundo.",
+      "captions": [
+        {
+          "label": "Peinar la playa",
+          "text": "Si estás dispuesto a cavar mucho puedes encontrar un buen alimento en la orilla del agua durante la estación de las almejas. La sopa de almejas es un plato muy apreciado en las costas del norte de Estados Unidos."
+        },
+        {
+          "label": "Criaderos de ostras",
+          "text": "La ostra se cultiva como alimento y por sus perlas. Las valvas vacías de las ostras se suspenden en el agua para atraer larvas de ostra. Se recogen una vez que se han desarrollado completamente."
+        }
+      ],
+      "narration": "assets/es/clam/CLAM05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Los exploradores chinos",
+      "to": "chin"
+    },
+    {
+      "label": "How Big Does it Get?"
+    },
+    {
+      "label": "El coral",
+      "to": "cora"
+    },
+    {
+      "label": "Caras espantosas",
+      "to": "fear"
+    },
+    {
+      "label": "Los bajíos",
+      "to": "shal"
+    },
+    {
+      "label": "Las anémonas",
+      "to": "anem"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/clam/CLAM00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 4,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "¡El ojo que te ve!",
+            "to": "eye-see-you",
+            "x": 52,
+            "y": 14,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Las caprichosas perlas",
+            "to": "moody-pearls",
+            "x": 52,
+            "y": 26,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "¡Cierra la boca!",
+            "to": "clam-up",
+            "x": 55,
+            "y": 38,
+            "w": 14,
+            "h": 6
+          },
+          {
+            "label": "La recogida del marisco",
+            "to": "harvesting-shellfish",
+            "x": 36,
+            "y": 74,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Vieiras que nadan",
+            "to": "video",
+            "x": 36,
+            "y": 83,
+            "w": 26,
+            "h": 6
+          }
+        ]
+      },
+      "clam-up": {
+        "image": "assets/es/clam/CLAM01PU.webp",
+        "back": "main"
+      },
+      "moody-pearls": {
+        "image": "assets/es/clam/CLAM02PU.webp",
+        "back": "main"
+      },
+      "eye-see-you": {
+        "image": "assets/es/clam/CLAM04PU.webp",
+        "back": "main"
+      },
+      "harvesting-shellfish": {
+        "image": "assets/es/clam/CLAM05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/clam/clip.mp4",
+        "poster": "assets/es/clam/CLAM03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/clam/CLAM00JN.mp3",
+  "sound": "assets/es/clam/CLAM00IX.mp3",
+  "video": {
+    "title": "Vieiras que nadan",
+    "src": "assets/es/clam/clip.mp4",
+    "poster": "assets/es/clam/poster.webp",
+    "caption": "Las vieiras nadan abriendo y cerrando sus valvas de castañeo; el agua sale disparada hacia afuera, impulsándolas como un cohete.",
+    "narration": "assets/es/clam/CLAM03JN.mp3"
+  }
+}

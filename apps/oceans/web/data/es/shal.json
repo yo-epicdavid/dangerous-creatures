@@ -1,0 +1,279 @@
+{
+  "id": "shal",
+  "code": "SHAL",
+  "name": "Los bajíos",
+  "category": "habitat",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡El rincón más vivo del océano está justo debajo de tus pies!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Arrecife de coral",
+    "Bosques de algas y praderas marinas",
+    "Ríos y estuarios"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/shal/SHAL00AA.webp",
+    "alt": "Los bajíos"
+  },
+  "intro": "Todas las plantas y la mayor parte de los animales marinos viven en los niveles superiores del océano, donde penetra la luz del sol. El buzo no necesita alejarse de la orilla para encontrar una gran variedad de vida. Los bajíos son el hábitat con mayor densidad de población del océano, pero al ser también las zonas más accesibles, son las que más sufren las consecuencias del contacto con el ser humano.",
+  "facts": [
+    {
+      "label": "Hábitat",
+      "value": "Los bajíos son el hábitat con mayor densidad de población de todo el océano."
+    },
+    {
+      "label": "Fitoplancton",
+      "value": "El fitoplancton puede ser microscópico, pero es la base de la red trófica."
+    },
+    {
+      "label": "Blanqueo del coral",
+      "value": "Si las algas que viven con el coral mueren, los corales pierden todo su color y acaban muriendo también; este proceso se llama \"blanqueo\"."
+    },
+    {
+      "label": "El salmón",
+      "value": "El salmón pasa su juventud en los ríos, emigra al mar cuando es adulto y vuelve al agua dulce para frezar antes de morir."
+    },
+    {
+      "label": "Zona económica",
+      "value": "La Convención del Mar de 1982 otorga a todo país costero autoridad sobre el mar hasta 200 millas náuticas de sus costas."
+    },
+    {
+      "label": "Erizo de arena",
+      "value": "El erizo de arena aplanado se pasa toda la vida medio enterrado en los bajíos, filtrando partículas del agua que lo rodea."
+    }
+  ],
+  "topics": [
+    {
+      "id": "seaside-nurseries",
+      "title": "Los criaderos de la costa",
+      "image": "assets/es/shal/SHAL01PU.webp",
+      "text": "Las marismas saladas y los pantanos de mangles son dos de los ecosistemas más ricos del litoral del planeta. Esas áreas cumplen un papel vital como criadero para muchos animales marinos, ya sean aves, peces o tortugas marinas, proporcionando a los más jóvenes alimento y refugio para crecer. También suministran comida y refugio a multitud de especies costeras adaptadas a la vida en estos humedales.",
+      "captions": [
+        {
+          "label": "Praderas de agua salada",
+          "text": "Los pantanos constan en su mayor parte de árboles; las marismas de hierba. Las marismas de agua de mar como ésta, sirven de lugar de descanso para los pájaros migratorios y de hogar permanente para multitud de otros seres"
+        },
+        {
+          "label": "Bosques de agua salada",
+          "text": "Mientras pájaros, insectos y reptiles descansan en las ramas de los mangles, los peces y las tortugas medran entre las raíces. Estos hábitats están desapareciendo con gran rapidez a medida que las costas se pueblan de más."
+        }
+      ],
+      "narration": "assets/es/shal/SHAL01JN.mp3"
+    },
+    {
+      "id": "hidden-in-mud-and-sand",
+      "title": "Ocultos bajo el cieno y la arena",
+      "image": "assets/es/shal/SHAL02PU.webp",
+      "text": "El blando fondo marino es un buen sitio para las madrigueras de los animales. Muchos de ellos encuentran refugio y comida en la arena y el cieno.",
+      "captions": [
+        {
+          "label": "Huellas de erizo",
+          "text": "La mayoría de la gente sólo ha visto las huellas o restos del erizo de arena aplanado. Estos parientes del erizo de mar se pasan toda la vida medio enterrados en los bajíos. Se mueven con las pequeñas patas tubulares y las espinas de la parte inferior de su cuerpo y se alimentan filtrando partículas del agua que los rodea."
+        },
+        {
+          "label": "Un hábitat para los gusanos",
+          "text": "Las gusanas devoran diminutas partículas de residuos orgánicos mientras se abren paso a través del cieno. A su vez, numerosos peces y crustáceos devoran a las gusanas en cuanto las ven."
+        }
+      ],
+      "narration": "assets/es/shal/SHAL02JN.mp3"
+    },
+    {
+      "id": "watery-greenhouses",
+      "title": "Húmedos invernaderos",
+      "image": "assets/es/shal/SHAL03PU.webp",
+      "text": "Las plantas sólo pueden vivir en las regiones menos profundas del océano. La razón es que necesitan la luz del sol como combustible para llevar a cabo la fotosíntesis, es decir, el proceso de transformación del agua y el anhídrido carbónico en nutritivos hidratos de carbono. También viven en esas zonas los animales que se alimentan de plantas, así como aquellos carnívoros que a su vez se alimentan de ellos.",
+      "captions": [
+        {
+          "label": "Bosques submarinos",
+          "text": "En bosques de laminarias como éste, son los peces no las aves, los que se refugian entre las ramas."
+        },
+        {
+          "label": "El más importante de todos",
+          "text": "Este fitoplancton puede ser microscópico, pero es la base de la red trófica. Estas plantas, las más diminutas que existen, sirven de alimento a los animales más pequeños, que a su vez sirven de sustento a otros animales de mayor tamaño."
+        }
+      ],
+      "narration": "assets/es/shal/SHAL03JN.mp3"
+    },
+    {
+      "id": "tropical-paradises",
+      "title": "Paraísos tropicales",
+      "image": "assets/es/shal/SHAL04PU.webp",
+      "text": "Los arrecifes coralinos tan sólo crecen en aguas cálidas y poco profundas. Muchas clases de coral cohabitan con algas, de las que dependen para fotosintetizar. Si las algas mueren, los corales pierden todo su color y acaban muriendo también. A este proceso se le llama \"blanqueo\" y puede tener su causa en un cambio de temperatura o de la química del agua.",
+      "narration": "assets/es/shal/SHAL04JN.mp3"
+    },
+    {
+      "id": "a-river-runs-to-it",
+      "title": "Río y mar",
+      "image": "assets/es/shal/SHAL05PU.webp",
+      "text": "En los estuarios, el agua dulce de los ríos se mezcla con el agua salada del mar. Los animales de estas zonas salobres se adaptan a los cambios que se producen en el nivel de sal de las aguas, al variar el cauce del río debido a las lluvias y a las mareas. Algunas especies de peces se adaptan tanto al agua dulce como a la salada: el salmón, por ejemplo, pasa su juventud en los ríos para emigrar al mar cuando es adulto. Más tarde vuelve al agua dulce de donde procede, para frezar antes de morir.",
+      "narration": "assets/es/shal/SHAL05JN.mp3"
+    },
+    {
+      "id": "how-wide-are-the-shelves",
+      "title": "El tamaño de las plataformas continentales",
+      "image": "assets/es/shal/SHAL06PU.webp",
+      "text": "Algunas costas tienen amplias plataformas continentales donde las aguas son poco profundas. Otras tienen plataformas más estrechas y el fondo del océano se sumerge a gran profundidad no lejos de la orilla.",
+      "captions": [
+        {
+          "label": "Vastas plataformas",
+          "text": "El Atlántico Norte tiene extensas plataformas continentales, en otros tiempos repletas de peces. Desgraciadamente, el ser humano ha agotado los recursos en muchas de estas zonas, por lo que la industria pesquera está en declive en todo el Atlántico."
+        },
+        {
+          "label": "Coto de pesca",
+          "text": "La Ley de Convención del Mar de 1982 estableció que todo país costero tiene autoridad sobre la superficie de mar que se extiende a 200 millas náuticas de la línea de marea baja de sus costas. El desconocimiento o la falta de acuerdo sobre la extensión de estos límites ha provocado numerosos conflictos pesqueros a nivel internacional."
+        }
+      ],
+      "narration": "assets/es/shal/SHAL06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "El coral",
+      "to": "cora"
+    },
+    {
+      "label": "Water Babies"
+    },
+    {
+      "label": "Fanworms & Bristleworms"
+    },
+    {
+      "label": "La cadena de la vida",
+      "to": "webl"
+    },
+    {
+      "label": "Ocean Match"
+    },
+    {
+      "label": "La flora marina",
+      "to": "mpln"
+    },
+    {
+      "label": "Sea Urchins & Sea Cucumbers"
+    },
+    {
+      "label": "Las mareas",
+      "to": "tide"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/shal/SHAL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Paraísos tropicales",
+            "to": "tropical-paradises",
+            "x": 52,
+            "y": 13,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "La vida en la orilla",
+            "to": "video",
+            "x": 62,
+            "y": 19,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "El tamaño de las plataformas continentales",
+            "to": "how-wide-are-the-shelves",
+            "x": 51,
+            "y": 44,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Los criaderos de la costa",
+            "to": "seaside-nurseries",
+            "x": 24,
+            "y": 62,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Río y mar",
+            "to": "a-river-runs-to-it",
+            "x": 54,
+            "y": 67,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Húmedos invernaderos",
+            "to": "watery-greenhouses",
+            "x": 2,
+            "y": 77,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Ocultos bajo el cieno y la arena",
+            "to": "hidden-in-mud-and-sand",
+            "x": 2,
+            "y": 85,
+            "w": 25,
+            "h": 5
+          }
+        ]
+      },
+      "seaside-nurseries": {
+        "image": "assets/es/shal/SHAL01PU.webp",
+        "back": "main"
+      },
+      "hidden-in-mud-and-sand": {
+        "image": "assets/es/shal/SHAL02PU.webp",
+        "back": "main"
+      },
+      "watery-greenhouses": {
+        "image": "assets/es/shal/SHAL03PU.webp",
+        "back": "main"
+      },
+      "tropical-paradises": {
+        "image": "assets/es/shal/SHAL04PU.webp",
+        "back": "main"
+      },
+      "a-river-runs-to-it": {
+        "image": "assets/es/shal/SHAL05PU.webp",
+        "back": "main"
+      },
+      "how-wide-are-the-shelves": {
+        "image": "assets/es/shal/SHAL06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/shal/clip.mp4",
+        "poster": "assets/es/shal/SHAL07PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/shal/SHAL00JN.mp3",
+  "sound": "assets/es/shal/SHAL00IX.mp3",
+  "video": {
+    "title": "La vida en la orilla",
+    "src": "assets/es/shal/clip.mp4",
+    "poster": "assets/es/shal/poster.webp",
+    "caption": "Las charcas de marea se encuentran en áreas rocosas al borde del agua o a poca distancia de la orilla. Los seres que habitan estas regiones son fuertes y adaptables. Estos animales tienen que adaptarse a un medio en constante cambio, sobreviviendo fuera del agua con las mareas bajas y trepando a las rocas cuando se producen grandes olas ciclónicas.",
+    "narration": "assets/es/shal/SHAL07JN.mp3"
+  }
+}

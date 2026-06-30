@@ -1,0 +1,196 @@
+{
+  "id": "pipe",
+  "code": "PIPE",
+  "name": "Caballitos y mulas de mar",
+  "category": "creature",
+  "scientificName": "Hippocampus breviceps",
+  "needsScientificVerify": false,
+  "tagline": "¡El único papá del mar que se queda embarazado!",
+  "zones": [
+    "Arrecife de coral",
+    "Bosques de algas y praderas marinas",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/pipe/PIPE00AA.webp",
+    "alt": "Caballitos y mulas de mar"
+  },
+  "intro": "Puede que tenga cabeza de caballo, pero no es un veloz pura sangre. Este caballito de mar y sus parientes, las mulas marinas, se dejan llevar perezosamente por las cálidas aguas tropicales como caballos en miniatura de un juego de ajedrez a cámara lenta. El caballito de mar permanece estático envolviendo su cola prensil en trozos de algas marinas. Se desplaza en el agua nadando lentamente, manteniendo muy digno su posición vertical, subiendo y bajando mediante ajustes del volumen de aire de unos diminutos sacos que reciben el nombre de vejigas natatorias. Para avanzar, agita las aletas de la espalda o aletas dorsales 3 veces y media por segundo. ¡Algunos expertos calculan que un caballito de mar tardaría 2 días y medio en recorrer 1 km!",
+  "facts": [
+    {
+      "label": "Velocidad",
+      "value": "Agita las aletas dorsales 3 veces y media por segundo para avanzar"
+    },
+    {
+      "label": "Distancia",
+      "value": "Tardaría 2 días y medio en recorrer 1 km"
+    },
+    {
+      "label": "Dieta",
+      "value": "Principalmente crustáceos, absorbidos con su boca tubular y sin dientes"
+    },
+    {
+      "label": "Gestación",
+      "value": "El macho lleva los huevos entre 10 y 45 días, dependiendo de su especie"
+    },
+    {
+      "label": "Tamaño al nacer",
+      "value": "Las crías son exactas a los adultos aunque no miden más de 1 cm"
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Es el padre, no la madre, quien lleva dentro a las futuras crías y las pare"
+    }
+  ],
+  "topics": [
+    {
+      "id": "heads-up",
+      "title": "Cabezas en alto",
+      "image": "assets/es/pipe/PIPE01PU.webp",
+      "text": "Las cabezas de estos tres animales tienen la misma forma, pero funcionan de modo muy diferente.\n\n¡Aquí te está mirando!\nAdemás de lengua, los caballos tienen dientes para mascar el trigo y el heno.\n\nParientes marinos\nLas mulas y caballitos de mar absorben el alimento con su boca tubular y sin dientes. Su dieta se compone principalmente de crustáceos. Y a diferencia de sus parientes de la superficie, los caballitos de mar tienen movilidad independiente en cada ojo.",
+      "captions": [
+        {
+          "label": "Mula marina",
+          "text": "Corythoichthys intestinalis"
+        },
+        {
+          "label": "Caballito de Mar",
+          "text": "Hippocampus erectus o Hippocampus kuda"
+        },
+        {
+          "label": "Caballo",
+          "text": "Equus przewalskii caballus"
+        }
+      ],
+      "narration": "assets/es/pipe/PIPE01JN.mp3"
+    },
+    {
+      "id": "dragons-of-the-depths",
+      "title": "Los dragones de las profundidades",
+      "image": "assets/es/pipe/PIPE02PU.webp",
+      "text": "Hay numerosas especies de caballitos de mar, algunas de exóticos colores y formas. ¿No son bonitos estos dos?\n\n¿Te parece normal?\nA esta criatura del color del arco iris se la conoce como mula común. ¡Imagínate cómo sería un ejemplar fuera de lo común!\n\nCubierto de hojas\n¡Algunos animales son tan hábiles en confundirse con su entorno que resulta difícil encontrarlos! Este caballito marino australiano tiene frondosas escamas y aletas transparentes. Parece exactamente igual que las algas marinas entre las que se esconde de los depredadores.",
+      "captions": [
+        {
+          "label": "Mula",
+          "text": "Phyllopteryx taeniolatus"
+        },
+        {
+          "label": "Caballito de mar australiano",
+          "text": "Phycodurus sp."
+        }
+      ],
+      "narration": "assets/es/pipe/PIPE02JN.mp3"
+    },
+    {
+      "id": "pregnant-daddies",
+      "title": "Machos \"preñados\"",
+      "image": "assets/es/pipe/PIPE03PU.webp",
+      "text": "Sí, es cierto. En las familias de caballitos y mulas de mar, el padre es quien lleva dentro a las futuras crías y las pare. Cuando la bolsa en la que incuban los huevos está vacía, los machos compiten para llamar la atención de las hembras cercanas. La hembra aprieta su vientre contra el macho escogido para pasarle los huevos a la bolsa de incubación. Después las hembras desaparecen y los machos quedan al cuidado de las futuras crías.",
+      "narration": "assets/es/pipe/PIPE03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Hiding Out"
+    },
+    {
+      "label": "Los briozoos",
+      "to": "moss"
+    },
+    {
+      "label": "Mitos y leyendas",
+      "to": "myth"
+    },
+    {
+      "label": "Las ascidias",
+      "to": "sqrt"
+    },
+    {
+      "label": "Asombrosos poderes",
+      "to": "powr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/pipe/PIPE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "Los dragones de las profundidades",
+            "to": "dragons-of-the-depths",
+            "x": 5,
+            "y": 27,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Cabezas en alto",
+            "to": "heads-up",
+            "x": 5,
+            "y": 40,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Machos \"preñados\"",
+            "to": "pregnant-daddies",
+            "x": 2,
+            "y": 74,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Papá ha dado a luz",
+            "to": "video",
+            "x": 38,
+            "y": 73,
+            "w": 24,
+            "h": 6
+          }
+        ]
+      },
+      "heads-up": {
+        "image": "assets/es/pipe/PIPE01PU.webp",
+        "back": "main"
+      },
+      "dragons-of-the-depths": {
+        "image": "assets/es/pipe/PIPE02PU.webp",
+        "back": "main"
+      },
+      "pregnant-daddies": {
+        "image": "assets/es/pipe/PIPE03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/pipe/clip.mp4",
+        "poster": "assets/es/pipe/PIPE04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/pipe/PIPE00JN.mp3",
+  "sound": "assets/es/pipe/PIPE00IX.mp3",
+  "video": {
+    "title": "Papá ha dado a luz",
+    "src": "assets/es/pipe/clip.mp4",
+    "poster": "assets/es/pipe/poster.webp",
+    "caption": "Un caballito de mar macho pare a sus crías desde la bolsa de incubación",
+    "narration": "assets/es/pipe/PIPE04JN.mp3"
+  }
+}

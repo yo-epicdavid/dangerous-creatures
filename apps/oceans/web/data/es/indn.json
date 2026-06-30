@@ -1,0 +1,233 @@
+{
+  "id": "indn",
+  "code": "INDN",
+  "name": "El océano Índico",
+  "category": "place",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Aguas cálidas, volcanes que crean islas y ballenas que migran desde los océanos Ártico y Antártico para refugiarse en este océano único!",
+  "zones": [
+    "Arrecife de coral",
+    "Mar abierto",
+    "Mar profundo",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "Océano Índico"
+  ],
+  "hero": {
+    "image": "assets/es/indn/INDN00AA.webp",
+    "alt": "El océano Índico"
+  },
+  "intro": "El océano Índico se halla en las latitudes calientes de los trópicos y de los subtrópicos. Aunque alberga muchos animales que se encuentran en el Pacífico, más de la mitad de sus especies son endémicas de esta región. Las islas se formaron de tres formas básicas. Los atolones, como las Maldivas, que están constituidos por arrecifes de coral. Otras islas fueron formadas por volcanes submarinos. Madagascar no es ni un atolón ni una isla volcánica, sino una masa de tierra que se desgajó de un antiguo continente llamado Gondwana.",
+  "facts": [
+    {
+      "label": "Dorsal 90 Este",
+      "value": "El Dorsal Noventa Este se extiende a lo largo de más de 2.735 km y es el mayor accidente geográfico en línea recta"
+    },
+    {
+      "label": "Krakatoa",
+      "value": "La explosión del Krakatoa en 1883 fue oída a casi 4.830 km de distancia, en Madagascar"
+    },
+    {
+      "label": "Maremoto",
+      "value": "Las olas gigantescas del maremoto de Krakatoa avanzaron a 644 km por hora y mataron a más de 36.000 personas en Java y Sumatra"
+    },
+    {
+      "label": "Celacanto",
+      "value": "El celacanto mide entre 1,5 y 2 m de largo y pesa entre 54 y 57 kg; en lugar de poner huevos, da a luz a sus crías"
+    },
+    {
+      "label": "Mar Rojo",
+      "value": "El Mar Rojo empezó a abrirse hace unos 50 ó 70 millones de años y se ensancha unos 2 cm por año"
+    },
+    {
+      "label": "Santuario",
+      "value": "El océano Índico fue declarado santuario internacional de ballenas, delfines y marsopas en 1979"
+    }
+  ],
+  "topics": [
+    {
+      "id": "underwater-scenery",
+      "title": "Paisaje submarino",
+      "image": "assets/es/indn/INDN01PU.webp",
+      "text": "El fondo del océano Índico es una combinación espectacular de montañas elevadas y vastas llanuras sin accidentes geográficos. Los poderosos ríos Indo y Ganges vierten gran cantidad de sedimentos frente a las costas de la India, formando deltas submarinos. La lava rebosa por las crestas de las cadenas montañosas submarinas, llamadas dorsales, creando un nuevo lecho oceánico. El Dorsal Noventa Este, localizado a 90° de longitud Este, es el mayor accidente geográfico en línea recta, y se extiende a lo largo de más de 2.735 km. África y la Península Arábiga se separan lentamente del golfo de Aden y del Mar Rojo, mientras que la Fosa de Java, en su extremo este, marca la zona de subducción o deslizamiento bajo el continente asiático.",
+      "narration": "assets/es/indn/INDN01JN.mp3"
+    },
+    {
+      "id": "deadly-tsunamis",
+      "title": "Maremotos mortales",
+      "image": "assets/es/indn/INDN02PU.webp",
+      "text": "La isla de Krakatoa, situada en la intersección de dos fallas gigantes al este de la Fosa de Java, fue pulverizada por una erupción volcánica en 1883. El agua salada y el magma caliente se fundieron formando el vapor que produjo una de las mayores erupciones de la historia. La explosión fue oída en Madagascar, ¡a casi 4.830 km de distancia! El gran agujero que quedó, junto con las grietas producidas por los terremotos en el lecho marítimo, provocaron maremotos gigantescos. Estas olas enormes avanzaron a una velocidad de 644 km por hora y mataron a más de 36.000 personas en las islas de Java y Sumatra.",
+      "narration": "assets/es/indn/INDN02JN.mp3"
+    },
+    {
+      "id": "not-extinct-after-all",
+      "title": "Todavía sin extinguir",
+      "image": "assets/es/indn/INDN03PU.webp",
+      "text": "Durante muchos años, los científicos creyeron que el celacanto se había extinguido. Pero, en 1938, unos pescadores capturaron en sus redes, cerca de Madagascar, uno de estos peces abisales. Desde entonces, se ha capturado otro centenar cerca de las islas Comores, en donde los nativos utilizan sus ásperas escamas como papel de lija. El celacanto es grande: mide aproximadamente entre 1,5 y 2 m de largo y puede pesar entre 54 y 57 kg. A diferencia de la mayoría de los peces que ponen huevos, estos fósiles vivientes dan a luz a sus crías. Esto apoya la teoría de que los vertebrados terrestres pueden haber evolucionado a partir del grupo de peces primitivos al que pertenece esta especie.",
+      "captions": [
+        {
+          "label": "Celacanto",
+          "text": "Latimeria chalumnae"
+        }
+      ],
+      "narration": "assets/es/indn/INDN03JN.mp3"
+    },
+    {
+      "id": "reversing-currents",
+      "title": "Corrientes inversas",
+      "image": "assets/es/indn/INDN04PU.webp",
+      "text": "El monzón causa las corrientes del norte del océano Índico y cambia de dirección dos veces por año. En invierno, los vientos del norte cruzan el continente asiático, lo que produce una temperatura seca y fría que desplaza las corrientes en dirección contraria a las manecillas del reloj. En verano, los vientos cambian y traen del sudeste aire caliente y húmedo, desde la bahía de Bengala, originando grandes lluvias en la India. Las corrientes de sentido contrario elevan las aguas más frías, aportando nutrientes a la superficie para los animales marinos de las costas de Somalia y Omán.",
+      "narration": "assets/es/indn/INDN04JN.mp3"
+    },
+    {
+      "id": "a-future-ocean",
+      "title": "Un futuro océano",
+      "image": "assets/es/indn/INDN06PU.webp",
+      "text": "El Mar Rojo empezó a abrirse hace aproximadamente unos 50 ó 70 millones de años y se ensancha unos 2 cm por año. En medio del Mar Rojo hay un centro de expansión que vomita agua volcánica caliente y cubre el lecho marítimo con fangos metálicos. Este mar profundo y salado ha sido llamado así por las abundantes algas que, de vez en cuando, provocan mareas rojas. En esta región prosperan más de 350 especies y sus extensos corales constituyen un destino muy conocido de los buzos.",
+      "captions": [
+        {
+          "label": "Coral blando",
+          "text": "Dendronephthya mucronata"
+        }
+      ],
+      "narration": "assets/es/indn/INDN06JN.mp3"
+    },
+    {
+      "id": "the-persian-gulf",
+      "title": "El Golfo Pérsico",
+      "image": "assets/es/indn/INDN07PU.webp",
+      "text": "Un mar joven, el golfo Pérsico, apareció hace 3 ó 4 millones de años. Las corrientes de estas aguas poco profundas son lentas, calientes y saladas. Por esa lentitud, se dificulta la recuperación de los estragos causados por los campos petrolíferos de la región y por el tráfico intenso de petroleros. La contaminación es un riesgo para las plantas de desalinización, las industrias pesqueras locales, la flora y la fauna, como pájaros, tortugas y dugones.",
+      "captions": [
+        {
+          "label": "Dugón",
+          "text": "Dugong dugon"
+        }
+      ],
+      "narration": "assets/es/indn/INDN07JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Las ballenas",
+      "to": "whlb"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/indn/INDN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Corrientes inversas",
+            "to": "reversing-currents",
+            "x": 64,
+            "y": 33,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Paisaje submarino",
+            "to": "underwater-scenery",
+            "x": 58,
+            "y": 41,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "El Golfo Pérsico",
+            "to": "the-persian-gulf",
+            "x": 1,
+            "y": 57,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Santuario ballenero",
+            "to": "video",
+            "x": 40,
+            "y": 55,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Todavía sin extinguir",
+            "to": "not-extinct-after-all",
+            "x": 58,
+            "y": 62,
+            "w": 31,
+            "h": 5
+          },
+          {
+            "label": "Maremotos mortales",
+            "to": "deadly-tsunamis",
+            "x": 29,
+            "y": 69,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Un futuro océano",
+            "to": "a-future-ocean",
+            "x": 48,
+            "y": 74,
+            "w": 23,
+            "h": 5
+          }
+        ]
+      },
+      "underwater-scenery": {
+        "image": "assets/es/indn/INDN01PU.webp",
+        "back": "main"
+      },
+      "deadly-tsunamis": {
+        "image": "assets/es/indn/INDN02PU.webp",
+        "back": "main"
+      },
+      "not-extinct-after-all": {
+        "image": "assets/es/indn/INDN03PU.webp",
+        "back": "main"
+      },
+      "reversing-currents": {
+        "image": "assets/es/indn/INDN04PU.webp",
+        "back": "main"
+      },
+      "a-future-ocean": {
+        "image": "assets/es/indn/INDN06PU.webp",
+        "back": "main"
+      },
+      "the-persian-gulf": {
+        "image": "assets/es/indn/INDN07PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/indn/clip.mp4",
+        "poster": "assets/es/indn/INDN05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/indn/INDN00JN.mp3",
+  "sound": "assets/es/indn/INDN00IX.mp3",
+  "video": {
+    "title": "Santuario ballenero",
+    "src": "assets/es/indn/clip.mp4",
+    "poster": "assets/es/indn/poster.webp",
+    "caption": "Ballena jorobada con ballenato",
+    "narration": "assets/es/indn/INDN05JN.mp3"
+  }
+}

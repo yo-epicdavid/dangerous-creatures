@@ -1,0 +1,191 @@
+{
+  "id": "croc",
+  "code": "CROC",
+  "name": "Cocodrilos de agua salada",
+  "category": "creature",
+  "scientificName": "Crocodylus porosus",
+  "needsScientificVerify": false,
+  "tagline": "¡El reptil más grande del mar mide 6 metros y come casi de todo... incluso personas!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Ríos y estuarios"
+  ],
+  "oceans": [
+    "Océano Índico",
+    "Océano Pacífico"
+  ],
+  "hero": {
+    "image": "assets/es/croc/CROC00AA.webp",
+    "alt": "Cocodrilos de agua salada"
+  },
+  "intro": "Los cocodrilos de agua salada (estuáricos), que son los reptiles de mayor longitud, viven en las aguas costeras salobres del Sudeste Asiático, algunas islas del Pacífico sur y en el norte de Australia. ¿Qué come un cocodrilo que mide 6 metros? Todo lo que desee: crustáceos, peces, tortugas, serpientes, aves, cocodrilos más pequeños y toda clase de mamíferos, ¡incluyendo seres humanos en algunas ocasiones!",
+  "facts": [
+    {
+      "label": "Longitud",
+      "value": "Pueden medir hasta 6 metros, siendo los reptiles de mayor longitud"
+    },
+    {
+      "label": "Dieta",
+      "value": "Crustáceos, peces, tortugas, serpientes, aves, cocodrilos más pequeños, mamíferos y, en algunas ocasiones, seres humanos"
+    },
+    {
+      "label": "Hábitat",
+      "value": "Pantanos costeros de mangles del Sudeste Asiático, norte de Australia y algunas islas del Pacífico sur"
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "El cocodrilo segrega la sal a través de unas glándulas especiales que tiene en la lengua. El aligátor y el caimán no poseen estas glándulas especiales para la sal y por tanto no pueden sobrevivir mucho tiempo en un medio ambiente oceánico."
+    },
+    {
+      "label": "Antepasados",
+      "value": "Los ictiosaurios, antepasados del cocodrilo, se extinguieron hace unos 65 millones de años"
+    }
+  ],
+  "topics": [
+    {
+      "id": "very-old-friends",
+      "title": "Muy buenos amigos",
+      "image": "assets/es/croc/CROC01PU.webp",
+      "text": "La era mesozoica, que se desarrolló hace unos 100 millones de años, también se conoce como la era de los reptiles. Los dinosaurios dominaron la tierra y muchos reptiles cruzaban el aire y los mares.",
+      "captions": [
+        {
+          "label": "Propulsión por canalete",
+          "text": "Los ictiosaurios corrían por el agua en persecución de los peces con ayuda de su poderosa cola. Este antepasado del cocodrilo se extinguió hace unos 65 millones de años."
+        },
+        {
+          "label": "¡Qué cantidad de dientes!",
+          "text": "Los ictiosaurios devoraban calamares, peces y pterosaurios parecidos a pájaros. ¡Sería necesario mucho hilo dental para limpiar todos esos dientes tan juntos!"
+        }
+      ],
+      "narration": "assets/es/croc/CROC01JN.mp3"
+    },
+    {
+      "id": "swamp-lovers",
+      "title": "Amantes de los pantanos",
+      "image": "assets/es/croc/CROC02PU.webp",
+      "text": "¿Te gustaría vivir en un sistema de raíces enfangadas azotado por un mar salado? Tal vez no sea tu ideal de un hogar confortable, pero los cocodrilos de agua salada residen satisfechos en los pantanos costeros de mangles del Sudeste Asiático, norte de Australia y algunas islas del Pacífico sur.",
+      "captions": [
+        {
+          "label": "La vida del cocodrilo",
+          "text": "Al igual que los otros cocodrilos y caimanes, el cocodrilo de agua salada toma el sol o se baña para regular su temperatura corporal, se comunica con los otros cocodrilos con rugidos y traga la comida sin masticarla. ¡Pero lo que le hace diferente de sus parientes de tierra adentro es el hecho de que tal vez comparta la playa contigo!"
+        },
+        {
+          "label": "Bosque marino",
+          "text": "Los mangles son las únicas plantas que florecen cerca de las algas marinas y de las fanerógamas que viven en el agua de mar. Estos árboles poseen un laberinto de raíces elevadas que proporcionan casa a muchos insectos, pájaros y animales marinos."
+        }
+      ],
+      "narration": "assets/es/croc/CROC02JN.mp3"
+    },
+    {
+      "id": "freshwater-friends",
+      "title": "Amigos del agua dulce",
+      "image": "assets/es/croc/CROC03PU.webp",
+      "text": "El caimán americano o del Mississipi vive en los pantanos de las tierras bajas costeras del sudeste de Estados Unidos, desde Carolina del Norte hasta Texas. Los pequeños aligátores pueden encontrarse en China. Los caimanes, que son también primos más pequeños de los aligátores, viven en México y en América Central y del Sur. Los gaviales, parientes de los cocodrilos y de aspecto singular, viven en los ríos de la India, Pakistán, Birmania, Nepal y Bangladesh.",
+      "captions": [
+        {
+          "label": "¡Vaya narizotas!",
+          "text": "Los gaviales tienen un morro largo y delgado, para engullir peces, y dientes pequeños y uniformes. Sus patas son débiles y prefieren quizás las corrientes rápidas de los ríos que caminar por tierra."
+        },
+        {
+          "label": "¡Una sonrisa para la foto!",
+          "text": "Los aligátores tienen la cabeza más ancha que los cocodrilos y carecen de los dos prominentes colmillos inferiores que éstos poseen. Probablemente no querrás acercarte mucho para comprobarlo."
+        }
+      ],
+      "narration": "assets/es/croc/CROC03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Los temibles tiburones",
+      "to": "shar"
+    },
+    {
+      "label": "La tortuga marina",
+      "to": "turt"
+    },
+    {
+      "label": "La serpiente marina",
+      "to": "snak"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/croc/CROC00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Lenguas saladas",
+            "to": "video",
+            "x": 18,
+            "y": 56,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Amigos del agua dulce",
+            "to": "freshwater-friends",
+            "x": 63,
+            "y": 21,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Amantes de los pantanos",
+            "to": "swamp-lovers",
+            "x": 28,
+            "y": 80,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Muy buenos amigos",
+            "to": "very-old-friends",
+            "x": 52,
+            "y": 80,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "very-old-friends": {
+        "image": "assets/es/croc/CROC01PU.webp",
+        "back": "main"
+      },
+      "swamp-lovers": {
+        "image": "assets/es/croc/CROC02PU.webp",
+        "back": "main"
+      },
+      "freshwater-friends": {
+        "image": "assets/es/croc/CROC03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/croc/clip.mp4",
+        "poster": "assets/es/croc/CROC04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/croc/CROC00JN.mp3",
+  "sound": "assets/es/croc/CROC00IX.mp3",
+  "video": {
+    "title": "Lenguas saladas",
+    "src": "assets/es/croc/clip.mp4",
+    "poster": "assets/es/croc/poster.webp",
+    "caption": "Todos los reptiles que viven en agua de mar tienen el mismo problema: cómo librarse del exceso de sal. La iguana marina la expulsa estornudando; la tortuga, a través de las lágrimas. El cocodrilo segrega la sal a través de unas glándulas especiales que tiene en la lengua. El aligátor y el caimán no poseen estas glándulas especiales para la sal y por tanto no pueden sobrevivir mucho tiempo en un medio ambiente oceánico.",
+    "narration": "assets/es/croc/CROC04JN.mp3"
+  }
+}

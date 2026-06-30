@@ -1,0 +1,178 @@
+{
+  "id": "shri",
+  "code": "SHRI",
+  "name": "El camarón",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Pequeños, coloridos y llenos de sorpresas: los camarones son mucho más que sopa!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Arrecife de coral",
+    "Mar abierto",
+    "Ríos y estuarios"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/shri/SHRI00AA.webp",
+    "alt": "El camarón"
+  },
+  "intro": "Cuando piensas en una quisquilla, puede que sólo la imagines en una sopa de mariscos o en cóctel. Pero este pequeño crustáceo tiene una sorprendente variedad de formas y colores y vive en medio ambientes muy distintos. Estas dos emprendedoras quisquillas han establecido un \"servicio de limpieza\" para los peces que deseen librarse de los parásitos de la piel. Los clientes aprecian tanto este servicio que refrenan cortésmente su primer impulso de devorarlas.",
+  "facts": [
+    {
+      "label": "Especies",
+      "value": "Al menos 2.000 especies de quisquillas están extendidas por todo el mundo."
+    },
+    {
+      "label": "Servicio único",
+      "value": "Algunas quisquillas limpiadoras ofrecen a los peces un «servicio de limpieza» para eliminarles los parásitos de la piel."
+    },
+    {
+      "label": "Mayor pescador",
+      "value": "China tiene el récord mundial de pesca de quisquillas, seguida por Estados Unidos, Tailandia e Indonesia."
+    },
+    {
+      "label": "Arma sonora",
+      "value": "Ciertas quisquillas utilizan el sonido para aturdir a sus presas: al cerrar su enorme y única pinza producen una poderosa onda sonora bajo el agua que, en ocasiones, hace pensar a los dueños de acuarios que el cristal se ha roto."
+    },
+    {
+      "label": "Camuflaje",
+      "value": "Algunas quisquillas son expertas en ocultarse a plena vista."
+    },
+    {
+      "label": "Población",
+      "value": "La población de quisquillas está descendiendo a nivel mundial."
+    }
+  ],
+  "topics": [
+    {
+      "id": "scrumptious-shrimp",
+      "title": "Un bocado exquisito",
+      "image": "assets/es/shri/SHRI01PU.webp",
+      "text": "Muchos animales encuentran las quisquillas deliciosas, ¡incluidos los seres humanos!\n\nEl mayor consumidor\nLos humanos quizá sean los mayores consumidores de quisquillas de todos los animales. Los barcos pueden pescar, arrastrando unas redes en forma de saco conocidas como redes de arrastre, toneladas de quisquillas en mar abierto o en la desembocadura de los ríos. El producto se congela o envasa rápidamente, para evitar que se estropee. China tiene el récord mundial de pesca de estos animales, seguida por Estados Unidos, Tailandia e Indonesia, pero la población de quisquillas está descendiendo a nivel mundial.",
+      "captions": [
+        {
+          "label": "Un banquete de quisquillas",
+          "text": "Pocos animales marinos rechazarían un sabroso bocado de quisquillas. La morena las encuentra exquisitas!"
+        }
+      ],
+      "narration": "assets/es/shri/SHRI01JN.mp3"
+    },
+    {
+      "id": "shrimp-of-all-kinds",
+      "title": "Quisquillas de todo tipo",
+      "image": "assets/es/shri/SHRI02PU.webp",
+      "text": "Los miembros de al menos 2.000 especies de quisquillas están extendidos por todo el mundo. Algunas han adoptado un determinado estilo de vida para sobrevivir.\n\nLa vida con las anémonas\nLa quisquilla de las anémonas ha elegido vivir entre los urticantes tentáculos de las anémonas marinas. Ésta resulta una curiosa forma de vida, pero ofrece a la quisquilla protección contra sus predadores.\n\n¡No me llames quisquilla!\nEste hermoso crustáceo no es una quisquilla, sino una gamba, pariente cercano de la quisquilla, aunque algo más grande.\n\nExpertas en camuflaje\n¡Algunas quisquillas son expertas en ocultarse a plena vista!",
+      "captions": [
+        {
+          "label": "Quisquilla arlequín",
+          "text": "Hymenocera picta"
+        },
+        {
+          "label": "Quisquilla de las anémonas",
+          "text": "Periclimenes sp."
+        },
+        {
+          "label": "Quisquilla",
+          "text": "Periclimenes imperator"
+        }
+      ],
+      "narration": "assets/es/shri/SHRI02JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Los balanos",
+      "to": "barn"
+    },
+    {
+      "label": "El pulpo",
+      "to": "octo"
+    },
+    {
+      "label": "La babosa marina",
+      "to": "slug"
+    },
+    {
+      "label": "Fascinating Facts"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/shri/SHRI00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 9,
+            "h": 7
+          },
+          {
+            "label": "¿Puedes oírme?",
+            "to": "video",
+            "x": 46,
+            "y": 2,
+            "w": 27,
+            "h": 7
+          },
+          {
+            "label": "Los balanos",
+            "x": 83,
+            "y": 1,
+            "w": 15,
+            "h": 14,
+            "external": "barn"
+          },
+          {
+            "label": "Quisquillas de todo tipo",
+            "to": "shrimp-of-all-kinds",
+            "x": 56,
+            "y": 38,
+            "w": 32,
+            "h": 6
+          },
+          {
+            "label": "Un bocado exquisito",
+            "to": "scrumptious-shrimp",
+            "x": 56,
+            "y": 51,
+            "w": 28,
+            "h": 6
+          }
+        ]
+      },
+      "scrumptious-shrimp": {
+        "image": "assets/es/shri/SHRI01PU.webp",
+        "back": "main"
+      },
+      "shrimp-of-all-kinds": {
+        "image": "assets/es/shri/SHRI02PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/shri/clip.mp4",
+        "poster": "assets/es/shri/SHRI03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/shri/SHRI00JN.mp3",
+  "sound": "assets/es/shri/SHRI00IX.mp3",
+  "video": {
+    "title": "¿Puedes oírme?",
+    "src": "assets/es/shri/clip.mp4",
+    "poster": "assets/es/shri/poster.webp",
+    "caption": "Ciertas quisquillas utilizan el sonido para aturdir a sus presas. Cuando uno de estos crustáceos cierra su enorme y única pinza, produce una poderosa onda sonora bajo el agua que, en ocasiones, hace pensar a los dueños de acuarios que el cristal se ha roto.",
+    "narration": "assets/es/shri/SHRI03JN.mp3"
+  }
+}

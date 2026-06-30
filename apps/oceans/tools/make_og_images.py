@@ -9,12 +9,16 @@ from og import make_all
 HERE = os.path.dirname(os.path.abspath(__file__))
 WEB = os.path.abspath(os.path.join(HERE, "..", "web"))
 ONLY = [s.strip() for s in os.environ.get("OG_ONLY", "").split(",") if s.strip()]
-WORDMARK = "MICROSOFT OCEANS"
+LOCALE = os.environ.get("LOCALE", "")          # "" = English, "es" = Castilian
+DATA = os.path.join(WEB, "data", "es") if LOCALE == "es" else os.path.join(WEB, "data")
+WORDMARK = "OCÉANOS DE MICROSOFT" if LOCALE == "es" else "MICROSOFT OCEANS"
 PALETTE = {"ink": (234, 245, 252), "ink_soft": (167, 196, 218), "gold": (65, 196, 214),
            "dark": (5, 14, 26), "scrim": (3, 10, 18)}
-CAT = {"creature": "Sea life", "habitat": "Habitat", "concept": "Ocean science",
-       "place": "Sea or region", "human": "People & the sea"}
+CAT = ({"creature": "Vida marina", "habitat": "Hábitat", "concept": "Ciencia del océano",
+        "place": "Mar o región", "human": "Las personas y el mar"} if LOCALE == "es" else
+       {"creature": "Sea life", "habitat": "Habitat", "concept": "Ocean science",
+        "place": "Sea or region", "human": "People & the sea"})
 
 if __name__ == "__main__":
-    make_all(WEB, os.path.join(WEB, "data"), WORDMARK, PALETTE,
+    make_all(WEB, DATA, WORDMARK, PALETTE,
              lambda d: d.get("scientificName") or CAT.get(d.get("category"), ""), only=ONLY)

@@ -1,0 +1,282 @@
+{
+  "id": "whlb",
+  "code": "WHLB",
+  "name": "Las ballenas",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡El animal más grande del planeta canta, viaja miles de kilómetros y tiene mucho que contarte!",
+  "zones": [
+    "Mar abierto",
+    "Mares polares",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/whlb/WHLB00AA.webp",
+    "alt": "Las ballenas"
+  },
+  "intro": "Hay dos grupos fundamentales de ballenas y puedes diferenciarlas mirándoles el interior de la boca. Los odontocetos, como su nombre indica, tienen dientes que les permiten agarrar con ellos a su presa. Las ballenas tienen densas cerdas, llamadas también ballenas, por las que filtran los organismos microscópicos, como el krill y el plancton, que flotan en el agua. ¡Algunas ballenas pueden ingerir más de una tonelada diaria de estos pequeños bocados!",
+  "facts": [
+    {
+      "label": "Tamaño",
+      "value": "La ballena azul puede alcanzar hasta 30 m de largo y pesar hasta 160 toneladas."
+    },
+    {
+      "label": "La mayor de la Tierra",
+      "value": "La ballena azul es alrededor de 25 veces más grande que el elefante africano macho."
+    },
+    {
+      "label": "Alimentación",
+      "value": "Algunas ballenas pueden ingerir más de una tonelada diaria de krill y plancton."
+    },
+    {
+      "label": "Migración",
+      "value": "Las ballenas grises recorren hasta 20.000 km anuales entre Alaska y el golfo de California."
+    },
+    {
+      "label": "Población",
+      "value": "En otro tiempo había más de 250.000 ballenas azules; hoy solo quedan unas 500."
+    },
+    {
+      "label": "Reproducción",
+      "value": "Las ballenas tardan entre 5 y 20 años en alcanzar la madurez sexual y más de un año en tener una cría."
+    }
+  ],
+  "topics": [
+    {
+      "id": "biggest-on-earth",
+      "title": "La mayor del planeta",
+      "image": "assets/es/whlb/WHLB01PU.webp",
+      "text": "La ballena azul es el mayor animal del planeta. Un adulto hembra puede alcanzar hasta 30 m de largo, y pesar hasta 160 toneladas. Esto significa que este animal es alrededor de 25 veces más grande que el mayor animal terrestre: el elefante africano macho.\n\nTrotamundos\nEn otro tiempo, más de 250.000 ballenas azules surcaban los océanos, desde el Ártico al Antártico, dando la vuelta completa al globo. Debido a la caza masiva de esta especie, sólo quedan vivas unas 500 ballenas azules.",
+      "captions": [
+        {
+          "label": "Ballena azul",
+          "text": "Balaenoptera musculus"
+        },
+        {
+          "label": "Elefante africano macho",
+          "text": "Loxodonta africana"
+        }
+      ],
+      "narration": "assets/es/whlb/WHLB01JN.mp3"
+    },
+    {
+      "id": "filter-feeders",
+      "title": "Filtradores",
+      "image": "assets/es/whlb/WHLB02PU.webp",
+      "text": "¿Te has tragado alguna vez una buena cantidad de agua al nadar? Las ballenas lo hacen constantemente, pero a propósito. Comen filtrando enormes cantidades de agua de mar con su enorme boca. El agua es expulsada entre la hilera de láminas o ballenas que cubren la boca, mientras que el krill y otras porciones de alimento permanecen en el interior, para ser ingeridos.",
+      "captions": [
+        {
+          "label": "El krill",
+          "text": "He aquí el «combustible» de una gigantesca ballena: millones de minúsculos krill."
+        },
+        {
+          "label": "Las cerdas",
+          "text": "Las cerdas de la ballena están compuestas del mismo material que nuestro pelo y uñas y crecen durante toda la vida del animal."
+        },
+        {
+          "label": "Cómo come una ballena jorobada",
+          "text": "Las ballenas jorobadas suelen nadar en círculo cerca del fondo mientras expelen burbujas, formando una «red» ascendente que concentra el krill y los peces pequeños. Luego se lanzan hacia la superficie con su enorme boca abierta, apresando la mayor cantidad posible de alimento."
+        }
+      ],
+      "narration": "assets/es/whlb/WHLB02JN.mp3"
+    },
+    {
+      "id": "whaling",
+      "title": "La caza de ballenas",
+      "image": "assets/es/whlb/WHLB03PU.webp",
+      "text": "Antes las cazaban por su carne, aceite, huesos y cerdas. Muchos cepillos son cerdas de ballena; las varillas de los paraguas son de ballena y los corsés que llevaban antes las mujeres eran rígidos gracias a ellas. Ahora hay sustitutos artificiales del aceite, las cerdas y el hueso, y muy poca necesidad de su carne. A la mayoría de las ballenas no se las declaró especie protegida hasta 1980, cuando sólo quedaba algún millar de los cientos de miles que existían. Algunos países, sin embargo, aún las cazan por su carne.",
+      "narration": "assets/es/whlb/WHLB03JN.mp3",
+      "captions": [
+        {
+          "label": "Procesamiento de rorcual común",
+          "text": "Fábrica ballenera, Islandia"
+        },
+        {
+          "label": "Cepillos",
+          "text": "con cerdas de ballena"
+        },
+        {
+          "label": "Collar",
+          "text": "con cuentas de hueso de ballena"
+        }
+      ]
+    },
+    {
+      "id": "burrowing-barnacles",
+      "title": "Polizones del mar",
+      "image": "assets/es/whlb/WHLB05PU.webp",
+      "text": "Los animales terrestres de sangre caliente tienen que soportar a parásitos como las moscas, las garrapatas y los piojos. Pensarás que las criaturas que viven bajo el agua no tendrán semejantes problemas. Pero existen también muchas plagas marinas. Los balanos horadan la piel y se agarran a las aletas de las ballenas; los piojos también forman en ellas su madriguera. Algunos científicos opinan que las ballenas saltan sobre el agua y golpean la superficie para tratar de deshacerse de esta plaga de polizones.",
+      "narration": "assets/es/whlb/WHLB05JN.mp3",
+      "captions": [
+        {
+          "label": "Piojos y balanos",
+          "text": "en ballena gris"
+        },
+        {
+          "label": "Balanos",
+          "text": "en ballena gris"
+        }
+      ]
+    },
+    {
+      "id": "great-migrations",
+      "title": "Las grandes migraciones",
+      "image": "assets/es/whlb/WHLB06PU.webp",
+      "text": "Las ballenas grises son famosas en América del Norte por sus migraciones a lo largo de la costa oeste, desde sus terrenos estivales en Alaska hasta sus criaderos de invierno en el golfo de California. Algunas ballenas recorren hasta 20.000 km anuales; otras invernan a lo largo de las costas de la Columbia Británica, Washington, Oregón y California. Un reducido número de ballenas grises atraviesa también la costa este de Asia, de Siberia a Japón. Estos animales surcaron en otra época las aguas del océano Atlántico y el Pacífico, pero las ballenas grises del Atlántico fueron exterminadas por los balleneros hace mucho.",
+      "captions": [
+        {
+          "label": "Turistas con amistosa ballena gris",
+          "text": "Eschrichtius robustus"
+        },
+        {
+          "label": "Migración de ballenas grises",
+          "text": "Por la costa del Pacífico de América del Norte"
+        }
+      ],
+      "narration": "assets/es/whlb/WHLB06JN.mp3"
+    },
+    {
+      "id": "save-the-whales",
+      "title": "¡Salvemos las ballenas!",
+      "image": "assets/es/whlb/WHLB07PU.webp",
+      "text": "Las ballenas no son peces que ponen cientos de huevos todos los años. Las ballenas son animales mamíferos que respiran aire como nosotros. Se reproducen muy lentamente; tardan en alcanzar la madurez sexual entre 5 y 20 años y, después, más de un año en tener una cría. De algunas especies, apenas quedan unos pocos cientos de ballenas. Para que este animal pueda sobrevivir en el planeta, es necesario que protejamos a todas las ballenas del exterminio. También debemos asegurarnos de que tengan el agua sin contaminar que necesitan para poder vivir.",
+      "captions": [
+        {
+          "label": "Ballena jorobada",
+          "text": "abriéndose paso"
+        },
+        {
+          "label": "Ballena franca",
+          "text": "Eubalaena sp."
+        }
+      ],
+      "narration": "assets/es/whlb/WHLB07JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Mitos y leyendas",
+      "to": "myth"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/whlb/WHLB00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 7,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Las grandes migraciones",
+            "to": "great-migrations",
+            "x": 58,
+            "y": 26,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "La mayor del planeta",
+            "to": "biggest-on-earth",
+            "x": 56,
+            "y": 37,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "El canto de las ballenas",
+            "to": "video",
+            "x": 56,
+            "y": 49,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Filtradores",
+            "to": "filter-feeders",
+            "x": 57,
+            "y": 61,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "¡Salvemos las ballenas!",
+            "to": "save-the-whales",
+            "x": 4,
+            "y": 62,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Polizones del mar",
+            "to": "burrowing-barnacles",
+            "x": 27,
+            "y": 72,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "La caza de ballenas",
+            "to": "whaling",
+            "x": 37,
+            "y": 82,
+            "w": 13,
+            "h": 5
+          }
+        ]
+      },
+      "biggest-on-earth": {
+        "image": "assets/es/whlb/WHLB01PU.webp",
+        "back": "main"
+      },
+      "filter-feeders": {
+        "image": "assets/es/whlb/WHLB02PU.webp",
+        "back": "main"
+      },
+      "whaling": {
+        "image": "assets/es/whlb/WHLB03PU.webp",
+        "back": "main"
+      },
+      "burrowing-barnacles": {
+        "image": "assets/es/whlb/WHLB05PU.webp",
+        "back": "main"
+      },
+      "great-migrations": {
+        "image": "assets/es/whlb/WHLB06PU.webp",
+        "back": "main"
+      },
+      "save-the-whales": {
+        "image": "assets/es/whlb/WHLB07PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/whlb/clip.mp4",
+        "poster": "assets/es/whlb/WHLB04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/whlb/WHLB00JN.mp3",
+  "sound": "assets/es/whlb/WHLB00IX.mp3",
+  "video": {
+    "title": "El canto de las ballenas",
+    "src": "assets/es/whlb/clip.mp4",
+    "poster": "assets/es/whlb/poster.webp",
+    "caption": "Las ballenas jorobadas se colocan boca abajo en el agua para «cantar»",
+    "narration": "assets/es/whlb/WHLB04JN.mp3"
+  }
+}

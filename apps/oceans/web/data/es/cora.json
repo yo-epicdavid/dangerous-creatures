@@ -1,0 +1,226 @@
+{
+  "id": "cora",
+  "code": "CORA",
+  "name": "El coral",
+  "category": "creature",
+  "scientificName": "Anthozoa spp.",
+  "needsScientificVerify": false,
+  "tagline": "¡Parecen flores, pero son animales que llevan 500 millones de años construyendo las mayores ciudades del océano!",
+  "zones": [
+    "Arrecife de coral",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/cora/CORA00AA.webp",
+    "alt": "El coral"
+  },
+  "intro": "El coral existe desde hace más de 500 millones de años. Algunos corales parecen ramos de flores, otros ramas de árboles y otros tienen formas de almohadilla, cactus o incluso de cerebro. Unos son machos, otros son hembras, algunos pueden cambiar de sexo cuando lo necesitan y otros reproducirse simplemente formando nuevos brotes. ¡No es de extrañar que estos extraordinarios seres ni siquiera fueran reconocidos como animales hasta principios del siglo XIX!",
+  "facts": [
+    {
+      "label": "Antigüedad",
+      "value": "Existe desde hace más de 500 millones de años"
+    },
+    {
+      "label": "Reconocimiento",
+      "value": "No fueron reconocidos como animales hasta principios del siglo XIX"
+    },
+    {
+      "label": "Arrecife más grande",
+      "value": "El Arrecife de la Gran Barrera australiano es tan grande que puede verse desde el espacio"
+    },
+    {
+      "label": "Defensa",
+      "value": "El coral aplanado lanza células urticantes llamadas nematocistos para matar el plancton que come"
+    },
+    {
+      "label": "Blanqueamiento",
+      "value": "Cuando las algas del coral mueren, el coral se vuelve blanco y también morirá"
+    },
+    {
+      "label": "Cambio de sexo",
+      "value": "Algunos corales pueden cambiar de sexo cuando lo necesitan"
+    }
+  ],
+  "topics": [
+    {
+      "id": "soft-corals",
+      "title": "Corales blandos",
+      "image": "assets/es/cora/CORA01PU.webp",
+      "text": "Nunca podrás ver joyas hechas de una pieza de coral blando, porque a diferencia de sus parientes que crecen en el arrecife, el coral blando no forma un caparazón externo duro. Dentro de su cuerpo hay filamentos de proteína y espículas, estructuras que le hacen suficientemente rígido para mantenerse en el agua y suficientemente flexible para doblarse con las olas. Como puedes ver aquí, los corales blandos son de muchas formas y colores.",
+      "captions": [
+        {
+          "label": "Gorgonia",
+          "text": "Subergorgía sp."
+        },
+        {
+          "label": "Coral cuero, Mar Rojo",
+          "text": "Sarcophyton trocheliophorum"
+        }
+      ],
+      "narration": "assets/es/cora/CORA01JN.mp3"
+    },
+    {
+      "id": "bleached-brain",
+      "title": "Cerebro blanqueado",
+      "image": "assets/es/cora/CORA02PU.webp",
+      "text": "Si has visto alguna vez el cerebro de un animal sabrás inmediatamente por qué se puso este nombre al coral cerebro. El coral cerebro sano contiene muchas algas que hacen que parezca azul, verde o de otro color. Este coral se está volviendo blanco, lo que significa que las algas están muriendo y que también morirá el coral. A veces los arrecifes de corales mueren de esta forma, privando a muchos animales de casa y comida.",
+      "captions": [
+        {
+          "label": "Coral cerebro en proceso de blanqueamiento",
+          "text": "Diploria strigosa"
+        }
+      ],
+      "narration": "assets/es/cora/CORA02JN.mp3"
+    },
+    {
+      "id": "fiery-sting",
+      "title": "Terribles células urticantes",
+      "image": "assets/es/cora/CORA03PU.webp",
+      "text": "¡Cualquiera que haya estado muy cerca de los corales sabe que estos seres están vivos y armados! Al igual que la medusa y la anémona de mar, el coral aplanado tiene células urticantes, llamadas nematocistos, que usa para matar el plancton que come. Aunque no come criaturas tan grandes como los seres humanos, este coral lanza automáticamente sus células urticantes contra cualquier cosa que le toque y los buceadores desprevenidos pueden sufrir erupciones dolorosas. El coral aplanado tiene diferentes colores y tamaños, por ello es mejor que si no eres un experto en corales, no toques ninguno de ellos.",
+      "captions": [
+        {
+          "label": "Coral aplanado",
+          "text": "Millepora complanata"
+        }
+      ],
+      "narration": "assets/es/cora/CORA03JN.mp3"
+    },
+    {
+      "id": "reef-builders",
+      "title": "Constructores de arrecifes",
+      "image": "assets/es/cora/CORA04PU.webp",
+      "text": "En las aguas tropicales, algunas especies de corales duros no sólo forman esqueletos protectores para sí mismos, sino que también construyen arrecifes de coral. De hecho, millones de corales diminutos crearon el Arrecife de la Gran Barrera australiano, ¡que es tan grande que puede verse desde el espacio!\n\nUn hogar para cada coral\nLos corales extraen calcio del agua de mar y segregan carbonato de calcio, construyendo un caparazón protector alrededor de su cuerpo blando.\n\nUn hogar para muchas criaturas\nDurante muchos años, las caparazones de calcio segregados por los corales se combinan con sustancias creadas por otros animales hasta formar un arrecife de coral. Muchas especies de seres marinos viven dentro y alrededor de los arrecifes de coral. A pesar de su apariencia sólida, este medio ambiente es tan delicado que tiene que ser protegido para poder sobrevivir.",
+      "narration": "assets/es/cora/CORA04JN.mp3"
+    },
+    {
+      "id": "wanted-dead-or-alive",
+      "title": "Se busca vivo o muerto",
+      "image": "assets/es/cora/CORA05PU.webp",
+      "text": "Durante siglos, todo el mundo ha admirado la belleza de los corales, vivos o muertos. El esqueleto de los corales negros y rojos se utiliza para realizar joyas. Los restos descoloridos de muchos corales duros son utilizados como decoración para arreglos florales o para formar paisajes en los acuarios. Es una ironía que muchos corales se maten o se extraigan de su medio ambiente natural para terminar en un acuario doméstico. Sería mucho mejor utilizar los corales artificiales en los acuarios y proteger los corales vivos en la naturaleza.",
+      "captions": [
+        {
+          "label": "Coral arborescente vivo",
+          "text": "Dendronephthya sp."
+        },
+        {
+          "label": "Esqueleto de coral muerto",
+          "text": "coral duro"
+        }
+      ],
+      "narration": "assets/es/cora/CORA05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Los briozoos",
+      "to": "moss"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/cora/CORA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 1,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Se busca vivo o muerto",
+            "to": "wanted-dead-or-alive",
+            "x": 8,
+            "y": 56,
+            "w": 41,
+            "h": 7
+          },
+          {
+            "label": "El desove de los corales",
+            "to": "video",
+            "x": 8,
+            "y": 64,
+            "w": 40,
+            "h": 8
+          },
+          {
+            "label": "Terribles células urticantes",
+            "to": "fiery-sting",
+            "x": 8,
+            "y": 73,
+            "w": 27,
+            "h": 7
+          },
+          {
+            "label": "Cerebro blanqueado",
+            "to": "bleached-brain",
+            "x": 8,
+            "y": 80,
+            "w": 34,
+            "h": 7
+          },
+          {
+            "label": "Corales blandos",
+            "to": "soft-corals",
+            "x": 72,
+            "y": 41,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Constructores de arrecifes",
+            "to": "reef-builders",
+            "x": 58,
+            "y": 86,
+            "w": 30,
+            "h": 6
+          }
+        ]
+      },
+      "soft-corals": {
+        "image": "assets/es/cora/CORA01PU.webp",
+        "back": "main"
+      },
+      "bleached-brain": {
+        "image": "assets/es/cora/CORA02PU.webp",
+        "back": "main"
+      },
+      "fiery-sting": {
+        "image": "assets/es/cora/CORA03PU.webp",
+        "back": "main"
+      },
+      "reef-builders": {
+        "image": "assets/es/cora/CORA04PU.webp",
+        "back": "main"
+      },
+      "wanted-dead-or-alive": {
+        "image": "assets/es/cora/CORA05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/cora/clip.mp4",
+        "poster": "assets/es/cora/CORA06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/cora/CORA00JN.mp3",
+  "sound": "assets/es/cora/CORA00IX.mp3",
+  "video": {
+    "title": "El desove de los corales",
+    "src": "assets/es/cora/clip.mp4",
+    "poster": "assets/es/cora/poster.webp",
+    "caption": "Un banco de coral libera sus huevos y espera a que la corriente los distribuya por los lugares adecuados.",
+    "narration": "assets/es/cora/CORA06JN.mp3"
+  }
+}
