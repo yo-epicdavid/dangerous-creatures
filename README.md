@@ -47,7 +47,9 @@ apps/
   oceans/                             # museum edition — 1995
   dinosaurs/                          # museum edition — 1993
   dangerous-creatures-reimagined/     # WIP (see the `reimagined` branch)
-packages/                            # reserved for a shared site-kit
+packages/
+  pipeline/                          # shared disc→site Python tooling (szdd, PNG→WebP, video posters)
+  site-kit/                          # shared CSS base + design tokens (base.css)
 _source/                             # raw ISOs + extracted originals — GITIGNORED
 DEPLOY.md                            # Cloudflare Pages setup for every app
 pnpm-workspace.yaml
@@ -55,6 +57,14 @@ pnpm-workspace.yaml
 
 Each app holds `src/` (Astro components/pages), `web/` (`data/` JSON + committed `assets/` media +
 `styles.css`), `tools/` (the Python pipeline), and `public/` (icons).
+
+Code shared across editions lives in **`packages/`**: **`pipeline/`** holds the media steps that
+were identical in every app (SZDD/LZSS decompress, PNG→WebP, video-frame posters) — each app's
+`tools/convert_to_webp.py` / `make_video_posters.py` is now a thin wrapper, and the `extract_*`
+tools import `szdd` from here. **`site-kit/base.css`** holds the common component styles (topbar,
+buttons, hero, fact card, topics, classic-1994 mode, hotspots, grids, chips, audio buttons); each
+app's `web/styles.css` is just its theme `:root` tokens, imported after `base.css` in `Layout.astro`.
+So a cross-cutting style or pipeline change is one edit, themed per app via tokens.
 
 A separate **`reimagined` branch** explores a from-scratch interactive rebuild of Dangerous
 Creatures with all-new, openly-licensed assets (`apps/dangerous-creatures-reimagined/`,
