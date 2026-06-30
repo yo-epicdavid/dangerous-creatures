@@ -1,0 +1,317 @@
+[
+  {
+    "id": "tour01",
+    "title": "¿Dinosaurio o no?",
+    "icon": "🦕",
+    "blurb": "Grandes, feroces y extintos, ¿verdad? No tan rápido. Descubre qué hace que un dinosaurio sea realmente un dinosaurio.",
+    "narration": [
+      "assets/guides/tour01/step01.mp3",
+      "assets/guides/tour01/step02.mp3",
+      "assets/guides/tour01/step03.mp3",
+      "assets/guides/tour01/step04.mp3",
+      "assets/guides/tour01/step05.mp3",
+      "assets/guides/tour01/step06.mp3",
+      "assets/guides/tour01/step07.mp3",
+      "assets/guides/tour01/step08.mp3",
+      "assets/guides/tour01/step09.mp3",
+      "assets/guides/tour01/step10.mp3"
+    ],
+    "stepCount": 10
+  },
+  {
+    "id": "tour02",
+    "title": "Los más temibles",
+    "icon": "🦖",
+    "blurb": "A la caza de los dinosaurios más feroces, crueles y temibles de todos. ¿Te crees lo bastante valiente?",
+    "narration": [
+      "assets/guides/tour02/step01.mp3",
+      "assets/guides/tour02/step02.mp3",
+      "assets/guides/tour02/step03.mp3",
+      "assets/guides/tour02/step04.mp3",
+      "assets/guides/tour02/step05.mp3",
+      "assets/guides/tour02/step06.mp3",
+      "assets/guides/tour02/step07.mp3",
+      "assets/guides/tour02/step08.mp3",
+      "assets/guides/tour02/step09.mp3",
+      "assets/guides/tour02/step10.mp3"
+    ],
+    "stepCount": 10
+  },
+  {
+    "id": "tour03",
+    "title": "Construye un dinosaurio mejor",
+    "icon": "🧩",
+    "blurb": "Combina piezas de dinosaurio a tu gusto: ¿cuáles elegirías y qué obtendrías al final?",
+    "narration": [
+      "assets/guides/tour03/step01.mp3",
+      "assets/guides/tour03/step02.mp3",
+      "assets/guides/tour03/step03.mp3",
+      "assets/guides/tour03/step04.mp3",
+      "assets/guides/tour03/step05.mp3",
+      "assets/guides/tour03/step06.mp3",
+      "assets/guides/tour03/step07.mp3",
+      "assets/guides/tour03/step08.mp3",
+      "assets/guides/tour03/step09.mp3",
+      "assets/guides/tour03/step10.mp3"
+    ],
+    "stepCount": 10
+  },
+  {
+    "id": "tour04",
+    "title": "Tras la pista de los dinosaurios",
+    "icon": "🤠",
+    "blurb": "Monta a caballo, vaquero: un paseo veloz tras la pista de los dinosaurios.",
+    "narration": [
+      "assets/guides/tour04/step01.mp3",
+      "assets/guides/tour04/step02.mp3",
+      "assets/guides/tour04/step03.mp3",
+      "assets/guides/tour04/step04.mp3",
+      "assets/guides/tour04/step05.mp3",
+      "assets/guides/tour04/step06.mp3",
+      "assets/guides/tour04/step07.mp3",
+      "assets/guides/tour04/step08.mp3",
+      "assets/guides/tour04/step09.mp3",
+      "assets/guides/tour04/step10.mp3",
+      "assets/guides/tour04/step11.mp3",
+      "assets/guides/tour04/step12.mp3"
+    ],
+    "stepCount": 12
+  },
+  {
+    "id": "tour05",
+    "title": "¿Listos o tontos?",
+    "icon": "🧠",
+    "blurb": "Pon a prueba tu coeficiente dinosaurio. ¿De verdad eran demasiado tontos para sobrevivir? No necesariamente…",
+    "narration": [
+      "assets/guides/tour05/step01.mp3",
+      "assets/guides/tour05/step02.mp3",
+      "assets/guides/tour05/step03.mp3",
+      "assets/guides/tour05/step04.mp3",
+      "assets/guides/tour05/step05.mp3",
+      "assets/guides/tour05/step06.mp3",
+      "assets/guides/tour05/step07.mp3",
+      "assets/guides/tour05/step08.mp3",
+      "assets/guides/tour05/step09.mp3"
+    ],
+    "stepCount": 9
+  },
+  {
+    "id": "tour06",
+    "title": "Criar a las crías",
+    "icon": "🥚",
+    "blurb": "Sigue el rastro de cascarones, pero pisa con cuidado: no queremos despertar a las crías de dinosaurio.",
+    "narration": [
+      "assets/guides/tour06/step01.mp3",
+      "assets/guides/tour06/step02.mp3",
+      "assets/guides/tour06/step03.mp3",
+      "assets/guides/tour06/step04.mp3",
+      "assets/guides/tour06/step05.mp3",
+      "assets/guides/tour06/step06.mp3",
+      "assets/guides/tour06/step07.mp3",
+      "assets/guides/tour06/step08.mp3",
+      "assets/guides/tour06/step09.mp3",
+      "assets/guides/tour06/step10.mp3",
+      "assets/guides/tour06/step11.mp3",
+      "assets/guides/tour06/step12.mp3"
+    ],
+    "stepCount": 12
+  },
+  {
+    "id": "tour07",
+    "title": "Misterios de los dinosaurios",
+    "icon": "❓",
+    "blurb": "Descubrimos un nuevo tipo de dinosaurio cada siete semanas: esto es todo lo que aún no sabemos.",
+    "narration": [
+      "assets/guides/tour07/step01.mp3",
+      "assets/guides/tour07/step02.mp3",
+      "assets/guides/tour07/step03.mp3",
+      "assets/guides/tour07/step04.mp3",
+      "assets/guides/tour07/step05.mp3",
+      "assets/guides/tour07/step06.mp3",
+      "assets/guides/tour07/step07.mp3",
+      "assets/guides/tour07/step08.mp3",
+      "assets/guides/tour07/step09.mp3",
+      "assets/guides/tour07/step10.mp3",
+      "assets/guides/tour07/step11.mp3"
+    ],
+    "stepCount": 11
+  },
+  {
+    "id": "tour08",
+    "title": "Desenterremos un dinosaurio",
+    "icon": "⛏️",
+    "blurb": "Coge tu equipo de cazafósiles: nos vamos a excavar dinosaurios.",
+    "narration": [
+      "assets/guides/tour08/step01.mp3",
+      "assets/guides/tour08/step02.mp3",
+      "assets/guides/tour08/step03.mp3",
+      "assets/guides/tour08/step04.mp3",
+      "assets/guides/tour08/step05.mp3",
+      "assets/guides/tour08/step06.mp3",
+      "assets/guides/tour08/step07.mp3",
+      "assets/guides/tour08/step08.mp3",
+      "assets/guides/tour08/step09.mp3",
+      "assets/guides/tour08/step10.mp3"
+    ],
+    "stepCount": 10
+  },
+  {
+    "id": "tour09",
+    "title": "Un día en la vida de un dinosaurio",
+    "icon": "🌅",
+    "blurb": "¿Cómo era SER un dinosaurio? Troodon, el más listo que conocemos, nos lo enseña.",
+    "narration": [
+      "assets/guides/tour09/step01.mp3",
+      "assets/guides/tour09/step02.mp3",
+      "assets/guides/tour09/step03.mp3",
+      "assets/guides/tour09/step04.mp3",
+      "assets/guides/tour09/step05.mp3",
+      "assets/guides/tour09/step06.mp3",
+      "assets/guides/tour09/step07.mp3",
+      "assets/guides/tour09/step08.mp3",
+      "assets/guides/tour09/step09.mp3"
+    ],
+    "stepCount": 9
+  },
+  {
+    "id": "tour10",
+    "title": "Voladores fabulosos y nadadores asombrosos",
+    "icon": "🪽",
+    "blurb": "Los dinosaurios no eran los únicos animales espectaculares de la época: conoce a los voladores y los nadadores.",
+    "narration": [
+      "assets/guides/tour10/step01.mp3",
+      "assets/guides/tour10/step02.mp3",
+      "assets/guides/tour10/step03.mp3",
+      "assets/guides/tour10/step04.mp3",
+      "assets/guides/tour10/step05.mp3",
+      "assets/guides/tour10/step06.mp3",
+      "assets/guides/tour10/step07.mp3",
+      "assets/guides/tour10/step08.mp3",
+      "assets/guides/tour10/step09.mp3",
+      "assets/guides/tour10/step10.mp3",
+      "assets/guides/tour10/step11.mp3",
+      "assets/guides/tour10/step12.mp3",
+      "assets/guides/tour10/step13.mp3",
+      "assets/guides/tour10/step14.mp3"
+    ],
+    "stepCount": 14
+  },
+  {
+    "id": "tour11",
+    "title": "Vecindarios de dinosaurios",
+    "icon": "🏞️",
+    "blurb": "¿Dónde vivían los dinosaurios? Donde querían, probablemente justo donde está tu casa ahora.",
+    "narration": [
+      "assets/guides/tour11/step01.mp3",
+      "assets/guides/tour11/step02.mp3",
+      "assets/guides/tour11/step03.mp3",
+      "assets/guides/tour11/step04.mp3",
+      "assets/guides/tour11/step05.mp3",
+      "assets/guides/tour11/step06.mp3",
+      "assets/guides/tour11/step07.mp3",
+      "assets/guides/tour11/step08.mp3",
+      "assets/guides/tour11/step09.mp3",
+      "assets/guides/tour11/step10.mp3",
+      "assets/guides/tour11/step11.mp3",
+      "assets/guides/tour11/step12.mp3",
+      "assets/guides/tour11/step13.mp3"
+    ],
+    "stepCount": 13
+  },
+  {
+    "id": "tour12",
+    "title": "Desfile de moda dinosaurio",
+    "icon": "✨",
+    "blurb": "De la cabeza a la cola, los dinosaurios lucían lo último en moda prehistórica. Echemos un vistazo.",
+    "narration": [
+      "assets/guides/tour12/step01.mp3",
+      "assets/guides/tour12/step02.mp3",
+      "assets/guides/tour12/step03.mp3",
+      "assets/guides/tour12/step04.mp3",
+      "assets/guides/tour12/step05.mp3",
+      "assets/guides/tour12/step06.mp3",
+      "assets/guides/tour12/step07.mp3",
+      "assets/guides/tour12/step08.mp3"
+    ],
+    "stepCount": 8
+  },
+  {
+    "id": "tour13",
+    "title": "¿Amigo o enemigo?",
+    "icon": "🤝",
+    "blurb": "Te encuentras con un dinosaurio sin meterte con nadie. ¿Sois amigos… o eres su almuerzo?",
+    "narration": [
+      "assets/guides/tour13/step01.mp3",
+      "assets/guides/tour13/step02.mp3",
+      "assets/guides/tour13/step03.mp3",
+      "assets/guides/tour13/step04.mp3",
+      "assets/guides/tour13/step05.mp3",
+      "assets/guides/tour13/step06.mp3",
+      "assets/guides/tour13/step07.mp3",
+      "assets/guides/tour13/step08.mp3",
+      "assets/guides/tour13/step09.mp3",
+      "assets/guides/tour13/step10.mp3"
+    ],
+    "stepCount": 10
+  },
+  {
+    "id": "tour14",
+    "title": "Viaje en el tiempo",
+    "icon": "⏳",
+    "blurb": "Abróchate el cinturón, viajero del tiempo: volvemos al Mesozoico.",
+    "narration": [
+      "assets/guides/tour14/step01.mp3",
+      "assets/guides/tour14/step02.mp3",
+      "assets/guides/tour14/step03.mp3",
+      "assets/guides/tour14/step04.mp3",
+      "assets/guides/tour14/step05.mp3",
+      "assets/guides/tour14/step06.mp3",
+      "assets/guides/tour14/step07.mp3",
+      "assets/guides/tour14/step08.mp3",
+      "assets/guides/tour14/step09.mp3",
+      "assets/guides/tour14/step10.mp3",
+      "assets/guides/tour14/step11.mp3",
+      "assets/guides/tour14/step12.mp3",
+      "assets/guides/tour14/step13.mp3",
+      "assets/guides/tour14/step14.mp3"
+    ],
+    "stepCount": 14
+  },
+  {
+    "id": "tour15",
+    "title": "Olimpiadas de dinosaurios",
+    "icon": "🏅",
+    "blurb": "El mayor acontecimiento deportivo en 65 millones de años: los dinosaurios más rápidos, grandes y fuertes.",
+    "narration": [
+      "assets/guides/tour15/step01.mp3",
+      "assets/guides/tour15/step02.mp3",
+      "assets/guides/tour15/step03.mp3",
+      "assets/guides/tour15/step04.mp3",
+      "assets/guides/tour15/step05.mp3",
+      "assets/guides/tour15/step06.mp3",
+      "assets/guides/tour15/step07.mp3",
+      "assets/guides/tour15/step08.mp3",
+      "assets/guides/tour15/step09.mp3"
+    ],
+    "stepCount": 9
+  },
+  {
+    "id": "tour16",
+    "title": "Dinosaurios de compañía",
+    "icon": "🐾",
+    "blurb": "¿Buscas una mascota de la era de los dinosaurios? Imagina tu propio dinosaurio vivo: ¿cuál elegirías?",
+    "narration": [
+      "assets/guides/tour16/step01.mp3",
+      "assets/guides/tour16/step02.mp3",
+      "assets/guides/tour16/step03.mp3",
+      "assets/guides/tour16/step04.mp3",
+      "assets/guides/tour16/step05.mp3",
+      "assets/guides/tour16/step06.mp3",
+      "assets/guides/tour16/step07.mp3",
+      "assets/guides/tour16/step08.mp3",
+      "assets/guides/tour16/step09.mp3",
+      "assets/guides/tour16/step10.mp3"
+    ],
+    "stepCount": 10
+  }
+]
