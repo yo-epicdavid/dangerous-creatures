@@ -9,6 +9,7 @@
     "preview": "astro preview"
   },
   "dependencies": {
+    "@ms/site-kit": "workspace:*",
     "astro": "^4.16.0"
   }
 }

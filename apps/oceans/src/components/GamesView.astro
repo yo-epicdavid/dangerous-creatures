@@ -60,7 +60,7 @@ const STR = STRINGS[locale] || STRINGS.en;
 
   <script type="application/json" id="game-data" set:html={JSON.stringify({ pool, STR, sound: 'sfx' }).replace(/</g, '\\u003c')}></script>
   <script>
-    import { initRiddleGame } from '../../../../packages/site-kit/riddle-game.js';
+    import { initRiddleGame } from '@ms/site-kit/riddle-game.js';
     initRiddleGame(JSON.parse(document.getElementById('game-data').textContent));
   </script>
 </Layout>

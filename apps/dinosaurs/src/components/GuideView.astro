@@ -45,33 +45,10 @@ const STR = es
 
   <audio id="player-audio" preload="none"></audio>
 
-  <script define:vars={{ narration, STR }}>
-    const fmt = (s, v) => s.replace(/%(\w+)%/g, (_, k) => v[k]);
-    const audio = document.getElementById('player-audio');
-    const playBtn = document.getElementById('play');
-    const playGlyph = playBtn.querySelector('.play-glyph');
-    const stepLbl = document.getElementById('step');
-    const prog = document.getElementById('prog');
-    let step = 0;
-    function setPlayState(p) {
-      playGlyph.textContent = p ? '❚❚' : '▶';
-      playBtn.setAttribute('aria-label', p ? STR.pause : STR.play);
-      playBtn.setAttribute('aria-pressed', p ? 'true' : 'false');
-    }
-    function setStep(i, autoplay) {
-      step = Math.max(0, Math.min(i, narration.length - 1));
-      audio.src = narration[step];
-      stepLbl.textContent = fmt(STR.stepOf, { N: step + 1, T: narration.length });
-      prog.value = step + 1;
-      if (autoplay) audio.play();
-    }
-    playBtn.addEventListener('click', () => { audio.paused ? audio.play() : audio.pause(); });
-    document.getElementById('prev').addEventListener('click', () => setStep(step - 1, true));
-    document.getElementById('next').addEventListener('click', () => setStep(step + 1, true));
-    audio.addEventListener('play', () => setPlayState(true));
-    audio.addEventListener('pause', () => setPlayState(false));
-    audio.addEventListener('ended', () => { if (step < narration.length - 1) setStep(step + 1, true); else setPlayState(false); });
-    if (narration.length) setStep(0, false);
+  <script type="application/json" id="player-data" set:html={JSON.stringify({ narration, STR: { stepOf: STR.stepOf, play: STR.play, pause: STR.pause } }).replace(/</g, '\\u003c')}></script>
+  <script>
+    import { initGuidePlayer } from '@ms/site-kit/guide-player.js';
+    initGuidePlayer(JSON.parse(document.getElementById('player-data').textContent));
   </script>
 </Layout>
 

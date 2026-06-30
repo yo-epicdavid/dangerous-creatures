@@ -46,7 +46,7 @@ const STR = { docTitle: ui.docTitle, suffix: locale === 'es' ? 'Océanos de Micr
 
   <script type="application/json" id="browse-data" set:html={JSON.stringify(STR).replace(/</g, '\\u003c')}></script>
   <script>
-    import { initBrowseTabs } from '../../../../packages/site-kit/browse-tabs.js';
+    import { initBrowseTabs } from '@ms/site-kit/browse-tabs.js';
     const d = document.getElementById('browse-data');
     initBrowseTabs(d ? JSON.parse(d.textContent) : {});
   </script>
