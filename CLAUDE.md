@@ -87,6 +87,10 @@ app (build `pnpm install && pnpm run <app>:build`, output `apps/<app>/dist`, `PN
 
 - Keep the **English site byte-identical** when adding locales/editions; verify with a build + grep.
 - Verify every change with a build; for CSS refactors confirm no selector is dropped.
+- **Image lightbox:** entry-page photos are tap-to-zoom. Mark an `<img>` `data-zoomable`; a native
+  `<dialog class="lightbox">` + delegated script (in each app's `Layout.astro`) opens it full-screen.
+  Styles live in `base.css`. Sub-topic images (`.topic__media img`) use `object-fit: contain` (not
+  `cover`) so the whole image shows — the cell aspect ratio varies by viewport (tablets cropped before).
 - **Git auth:** SSH when at the Mac; when on a **remote session** the SSH agent is unreachable —
   switch the remote to HTTPS+PAT and use `env -u GITHUB_TOKEN gh ...` (full-scope keyring token) for
   PR create/merge. Real gh at `/opt/homebrew/bin/gh`. Work via branch → PR → merge.
