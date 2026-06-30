@@ -1,0 +1,124 @@
+{
+  "hosts": [
+    {
+      "id": "kim",
+      "name": "Carmen",
+      "role": "Una navegante solitaria",
+      "intro": "Hola, soy Carmen. Desde que era pequeña he soñado con navegar sola alrededor del mundo. Ahora voy a intentarlo de verdad, a bordo de mi velero de nueve metros, el Serafina. Ven a compartir conmigo los momentos más destacados de mi travesía.",
+      "tours": [
+        {
+          "section": "01",
+          "title": "De Seattle a Hawai"
+        },
+        {
+          "section": "02",
+          "title": "De Hawai a Australia"
+        },
+        {
+          "section": "03",
+          "title": "De Australia a Seattle"
+        }
+      ]
+    },
+    {
+      "id": "eli",
+      "name": "Teodoro Zúñiga",
+      "role": "Marinero del siglo XVIII",
+      "intro": "¡Buenas, amigos! Me llamo Teodoro. Venid conmigo y os mostraré el mar tal como lo conocía un marinero hace doscientos años. ¡No navego solo, que no!",
+      "tours": [
+        {
+          "section": "04",
+          "title": "La partida"
+        },
+        {
+          "section": "05",
+          "title": "La vida en el mar"
+        },
+        {
+          "section": "06",
+          "title": "Navegando de vuelta a casa"
+        }
+      ]
+    },
+    {
+      "id": "curtis",
+      "name": "Carlos",
+      "role": "Rescate y salvamento",
+      "intro": "Me llamo Carlos y me dedico a rescatar personas. Cuando la gente piensa en los peligros del mar, se imagina huracanes, naufragios y tiburones: todo lo espectacular. Pero, por lo general, son las pequeñas cosas las que meten a la gente en grandes apuros. Acompáñame y te lo demostraré.",
+      "tours": [
+        {
+          "section": "07",
+          "title": "¡Veneno!"
+        },
+        {
+          "section": "08",
+          "title": "¡Hombre al agua!"
+        },
+        {
+          "section": "09",
+          "title": "Los peligros del buceo"
+        }
+      ]
+    },
+    {
+      "id": "frank",
+      "name": "Roberto",
+      "role": "Buceador principiante",
+      "intro": "Cuando me jubilé, pasaba demasiado tiempo en casa. «Búscate un hobby», me dijo mi mujer Elsie. Así que me puse a buscar algo nuevo que hacer... y elegí el buceo con escafandra. No te imaginas lo que hay ahí abajo. Ven conmigo y te lo mostraré.",
+      "tours": [
+        {
+          "section": "10",
+          "title": "Un mundo totalmente nuevo"
+        },
+        {
+          "section": "11",
+          "title": "Una inmersión profunda"
+        },
+        {
+          "section": "12",
+          "title": "Buceo nocturno"
+        }
+      ]
+    },
+    {
+      "id": "zarka",
+      "name": "Zarka",
+      "role": "Una visitante alienígena",
+      "intro": "Saludos. Soy Zarka, ciudadana del planeta Maris, un mundo donde la vida inteligente habita en océanos líquidos. Mi equipo estudia los planetas acuáticos de vuestra galaxia. Os pido que me acompañéis y me ayudéis a conocer vuestro extraordinario mar.",
+      "tours": [
+        {
+          "section": "13",
+          "title": "Postales desde la Tierra"
+        },
+        {
+          "section": "14",
+          "title": "Cartas a casa"
+        },
+        {
+          "section": "15",
+          "title": "Un planeta turbador"
+        }
+      ]
+    },
+    {
+      "id": "rebecca",
+      "name": "Rebeca",
+      "role": "Una oceanógrafa",
+      "intro": "Hola, me llamo Rebeca y soy oceanógrafa. Acompáñame, y déjame compartir contigo algunas de las cosas asombrosas que he aprendido sobre el mar.",
+      "tours": [
+        {
+          "section": "16",
+          "title": "Espacio exterior e interior"
+        },
+        {
+          "section": "17",
+          "title": "Corrientes, mareas y animales"
+        },
+        {
+          "section": "18",
+          "title": "Caminos profesionales"
+        }
+      ]
+    }
+  ]
+}

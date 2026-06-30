@@ -20,7 +20,8 @@ Dangerous Creatures and Oceans are **authentic** Spanish editions, liberated fro
 retail discs* («Animales Peligrosos de Microsoft», «Océanos de Microsoft») — Spanish text **and**
 Spanish screens/audio/video. **\* Dinosaurs never shipped in Spanish** (only EN/FR/JA), so its `/es/`
 is a clearly-labeled **AI fan translation** of the English text; the media stays English. The
-**games are bilingual on DC + Oceans** (authentic Spanish); guides, credits and the making-of are
+**games and guided tours are bilingual on DC + Oceans** (authentic Spanish — real Spanish
+narration, even the localized host names like Kim→Carmen); credits and the making-of are
 English-only for now.
 
 Each site has a **Modern** view (liberated text, responsive, accessible) and a **Classic** view

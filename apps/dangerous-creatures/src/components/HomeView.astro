@@ -22,7 +22,7 @@ const es = locale === 'es';
         <a class="btn" href={lp(locale, '/browse?tab=regions')}><span class="arrow" aria-hidden="true">🌍</span> {ui.byRegion}</a>
         <a class="btn" href={lp(locale, '/browse?tab=habitats')}><span class="arrow" aria-hidden="true">🌿</span> {ui.byHabitat}</a>
         <a class="btn" href={lp(locale, '/browse?tab=weapons')}><span class="arrow" aria-hidden="true">⚔️</span> {ui.byWeapon}</a>
-        {!es && <a class="btn btn--play" href="/guides"><span class="arrow" aria-hidden="true">🧭</span> {ui.guidedTours}</a>}
+        <a class="btn btn--play" href={lp(locale, '/guides')}><span class="arrow" aria-hidden="true">🧭</span> {ui.guidedTours}</a>
         <a class="btn btn--play" href={lp(locale, '/games')}><span class="arrow" aria-hidden="true">🎮</span> {ui.games}</a>
       </nav>
     </div>
