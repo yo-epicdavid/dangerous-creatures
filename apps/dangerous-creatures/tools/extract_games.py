@@ -9,6 +9,7 @@ import os, sys, glob, subprocess
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
+sys.path.insert(0, os.path.join(HERE, "..", "..", "..", "packages", "pipeline"))
 from szdd import expand, MAGIC
 
 DISC = "/Volumes/DANGEROUS"

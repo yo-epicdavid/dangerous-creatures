@@ -1,0 +1,70 @@
+# ms-exploration-archive — project guide
+
+Modern, accessible web recreations of three 1990s **Microsoft Home "Exploration Series"** CD-ROMs.
+A **pnpm monorepo**. Each app turns one original disc into a static Astro site with a **Modern**
+view (liberated text) and a **Classic** view that rebuilds the original screens 1:1 with working
+hotspots (`?mode=classic`).
+
+## Layout
+
+```
+apps/
+  dangerous-creatures/   # 1994 · 66 animals · BILINGUAL (en at /, Castilian es at /es/)
+  oceans/                # 1995 · 93 entries
+  dinosaurs/             # 1993 · 166 entries
+  dangerous-creatures-reimagined/  # WIP spike (see `reimagined` branch)
+packages/
+  pipeline/              # shared disc→site Python tooling (see below)
+  site-kit/base.css      # shared CSS component skeleton; themed per app via :root tokens
+```
+Each app: `src/` (Astro), `web/` (`data/*.json` + committed `assets/` media + `styles.css`),
+`tools/` (per-disc Python pipeline), `public/` (icons).
+
+## The pipeline (per app, in `tools/`)
+
+1. **Extract** original media: SZDD `.DIB` (or raw BMP on the 1993 disc) → WebP, `.AVI` → MP4, `.WAV` → MP3.
+2. **Liberate** the baked-in screen text with a multi-agent workflow (Sonnet vision OCR → adversarial
+   verify → Opus consistency) → structured per-entry JSON.
+3. **`build_data.py`** → `web/data/*.json` + browse/index; plus `build_guides`, `extract_credits`, `make_icons`.
+4. **Astro** builds a static site; Classic mode is a client island off the same data.
+
+Run tools with the project venv (needs Pillow); ffmpeg at `/opt/homebrew/bin/ffmpeg`. Discs mount
+under `/Volumes/...`; raw extracts/ISOs live in gitignored `_source/`.
+
+## Shared code — edit once
+
+- **`packages/pipeline/`**: `szdd.py` (SZDD/LZSS decompress) + `media.py` (`to_webp`, `make_posters`).
+  Each app's `convert_to_webp.py` / `make_video_posters.py` is a thin wrapper; `extract_*` import
+  `szdd` from here via a `sys.path` insert. Offline only — no effect on built sites.
+- **`packages/site-kit/base.css`**: the component skeleton shared by all editions. Each app's
+  `web/styles.css` is **just its theme `:root` tokens**; `Layout.astro` imports `base.css` **before**
+  it. Per-app page background/chrome are tokens (`--body-bg`, `--body-attach`, `--topbar-bg`).
+  Change shared look-and-feel in `base.css`; theme per app via tokens. Don't re-duplicate styles.
+
+## i18n (Dangerous Creatures)
+
+Astro i18n, `prefixDefaultLocale:false` (en at `/`, es under `/es/`). Page bodies live in shared
+view components (`HomeView`/`AnimalView`/`BrowseView`) with thin per-locale route wrappers; UI
+strings in `src/i18n/ui.js`; Spanish content in `web/data/es/` + media in `web/assets/es/`
+(`build_data_es.py`). Oceans/Dinosaurs are English-only.
+
+## Build & deploy
+
+```bash
+pnpm install
+pnpm dc:dev            # also oceans:dev, dino:dev
+pnpm dc:build          # also oceans:build, dino:build;  pnpm build = all
+```
+Each `build` runs `astro build` and copies committed `web/assets` + `web/data` into `dist/` (media
+is pre-optimized & committed — no asset step in CI). Deploy: one **Cloudflare Pages** project per
+app (build `pnpm install && pnpm run <app>:build`, output `apps/<app>/dist`, `PNPM_VERSION=11.9.0`).
+`main` auto-deploys.
+
+## Conventions
+
+- Keep the **English site byte-identical** when adding locales/editions; verify with a build + grep.
+- Verify every change with a build; for CSS refactors confirm no selector is dropped.
+- **Git auth:** SSH when at the Mac; when on a **remote session** the SSH agent is unreachable —
+  switch the remote to HTTPS+PAT and use `env -u GITHUB_TOKEN gh ...` (full-scope keyring token) for
+  PR create/merge. Real gh at `/opt/homebrew/bin/gh`. Work via branch → PR → merge.
+- Non-commercial educational preservation; ship with original media + per-disc Credits page.

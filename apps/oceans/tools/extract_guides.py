@@ -15,6 +15,7 @@ from PIL import Image
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
+sys.path.insert(0, os.path.join(HERE, "..", "..", "..", "packages", "pipeline"))
 from szdd import expand
 
 DISC = "/Volumes/MS_OCEANS/DATA/GUIDES"
