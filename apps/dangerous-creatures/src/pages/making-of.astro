@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Topbar from '../components/Topbar.astro';
 ---
-<Layout title="The Making Of — Dangerous Creatures" desc="How a 1994 CD-ROM became a modern web app: one disc, a decompressor, and a swarm of AI agents.">
+<Layout title="The Making Of — Dangerous Creatures" desc="How a 1994 CD-ROM became a modern web app: one disc, a decompressor, and a swarm of AI agents — now bilingual, with games and guided tours, and one of three restored discs.">
   <Topbar>
     <a slot="right" class="btn" href="/">Explore the creatures <span class="arrow" aria-hidden="true">→</span></a>
   </Topbar>
@@ -21,7 +21,7 @@ import Topbar from '../components/Topbar.astro';
       <div class="stat"><b>654</b><span>screens</span></div>
       <div class="stat"><b>2,183</b><span>sounds</span></div>
       <div class="stat"><b>109</b><span>film clips</span></div>
-      <div class="stat"><b>31</b><span>years asleep</span></div>
+      <div class="stat"><b>32</b><span>years asleep</span></div>
     </div>
 
     <h2>A time capsule on a disc</h2>
@@ -31,7 +31,7 @@ import Topbar from '../components/Topbar.astro';
     <p>The videos were easy — an ancient codec called Microsoft Video 1 that modern tools convert in a blink. The narration was plain audio, still crisp after all these years. But the images refused to open. Their files didn't start with the usual picture header; they started with the letters <code>SZDD</code>.</p>
     <p>That was a clue. <code>SZDD</code> is Microsoft's own compression format from the early '90s — a way of squeezing files onto disks back when every megabyte counted. Nothing on a modern Mac could read it. So the fix was to write a tiny decompressor, about forty lines long, that understood the old format and unpacked each image back into a real picture.</p>
 
-    <p class="pull">The first one we unpacked was the lion. A photo of a male lion mid&#8209;stride across golden grass — pixel&#8209;perfect, exactly as it looked in 1994. Thirty&#8209;one years asleep, and it woke up flawless.</p>
+    <p class="pull">The first one we unpacked was the lion. A photo of a male lion mid&#8209;stride across golden grass — pixel&#8209;perfect, exactly as it looked in 1994. Thirty&#8209;two years asleep, and it woke up flawless.</p>
 
     <h2>The twist: text made of pixels</h2>
     <p>Unpacking that lion screen revealed the project's central puzzle. It wasn't just a photo — it was the <i>whole page</i>: the title, the article, the little red labels you click. All of it had been <b>painted into a single image</b>. The words weren't stored as words anywhere. They were pixels.</p>
@@ -62,8 +62,31 @@ import Topbar from '../components/Topbar.astro';
     <p>When all 66 were done, one final agent read the <i>entire</i> collection at once, acting as an editor — making sure every animal used the same labels, the same voice, no duplicates. It tidied up small inconsistencies automatically. And, satisfyingly, it caught things a tired human would miss:</p>
     <p>The leopard had accidentally borrowed the jaguar's tagline. The python was called "the world's longest snake," though its species is actually the African rock python (the reticulated python is the real record&#8209;holder). The orca's "never killed a human" is only true in the wild. Each of these got flagged for a human to decide — because faithfulness to the facts matters as much as faithfulness to the original.</p>
 
+    <h2>One disc became three</h2>
+    <p>Dangerous Creatures was the first, but it wasn't alone on the shelf. The same little toolkit — the forty&#8209;line decompressor, the video converter, the swarm of reading agents — turned out to be a skeleton key for a whole family of mid&#8209;'90s Microsoft Home discs. So it woke two more: <a href="https://oceans-2s9.pages.dev"><i>Microsoft Oceans</i></a> (1995, 93 entries) and <a href="https://dinosaurs.pages.dev"><i>Microsoft Dinosaurs</i></a> (1993, 166 entries). Three sister sites now, one shared pipeline, each preserved the same way.</p>
+
+    <h2>The same creatures, in Spanish</h2>
+    <p>Then a second disc surfaced — not a sequel, but the very same encyclopedia in another language: <i>Animales Peligrosos de Microsoft</i>, the Spanish retail release. This is the part that matters: the Spanish here <b>isn't machine translation</b> laid over the English. It's the real localized disc — Spanish screens, Spanish narration, Spanish video, exactly as Spanish&#8209;speaking kids met these animals in the '90s. We pointed the same decompressor and the same agent swarm at it, freed its words too, and now <b>every creature has an authentic English and Spanish edition</b>. Flip between them with the EN&#160;·&#160;ES switch at the top of any page. (Oceans got the same treatment from <i>its</i> Spanish disc; Dinosaurs never shipped in Spanish, so there it's an honestly&#8209;labeled fan translation.)</p>
+
+    <h2>Things to play</h2>
+    <p>The disc was never <i>only</i> an encyclopedia — half the fun was poking around. So two games came back, built straight from the liberated photos and facts, and they work in whichever language you're reading:</p>
+    <div class="pipeline">
+      <ol>
+        <li><b>Whose Eyes Are These?</b> — a tight close&#8209;up of an animal's eyes. Can you name it before the reveal?</li>
+        <li><b>Survival Quiz</b> — multiple&#8209;choice rounds drawn from the creatures' own fast facts, with a running streak to chase.</li>
+        <li><b>12 guided tours</b> — short narrated journeys, each with its own host, that string the animals together by theme and play the disc's own narration.</li>
+      </ol>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><b>3</b><span>restored discs</span></div>
+      <div class="stat"><b>2</b><span>languages</span></div>
+      <div class="stat"><b>12</b><span>guided tours</span></div>
+      <div class="stat"><b>2</b><span>games</span></div>
+    </div>
+
     <h2>What you're looking at</h2>
-    <p>Everything here was reconstructed from that one disc: a forty&#8209;line decompressor woke the images, a video converter restored the films, and a swarm of agents liberated the words. The result is the encyclopedia a kid loved in 1994 — faithful when you want nostalgia, modern when you want to learn, and built to keep growing.</p>
+    <p>Everything here was reconstructed from those discs: a forty&#8209;line decompressor woke the images, a video converter restored the films, and a swarm of agents liberated the words — in two languages. The result is the encyclopedia a kid loved in 1994 — faithful when you want nostalgia, modern when you want to learn, bilingual when you want it in Spanish, playable when you want a game, and now one corner of a small archive of three restored discs. Built to keep growing.</p>
 
     <div class="legal">
       <b>About the artwork.</b> The photos, video, and original text are © 1994 Microsoft Corporation and its
