@@ -56,13 +56,18 @@ overlays Spanish text on the English structure. Two flavors:
   `.fan-note` banner; OG cards are `og-es.jpg` next to the shared English assets. **Never present it
   as official.** If a real Spanish Dinosaurs disc ever surfaces, redo it as an authentic edition.
 
-ES coverage: home + entry pages + browse on all three; **games + guided tours** are bilingual on
-DC + Oceans (authentic, from the Spanish discs). Games: `GamesView` per locale + `build_games_es.py`
-(DC). Guides: `extract_guides.py` (locale-aware, `DISC`+`LOCALE`) pulls the real Spanish narration +
-intro art; a small OCR pass reads the Spanish titles/host names off the screens (Oceans even
-renames hosts, Kim→Carmen) into `guides_meta_es.json`/`guides_ocr_es.json`; `build_guides_es.py`
-assembles `web/data/es/guides.json`; `GuideIndexView`/`GuideView` render per locale. Credits and
-making-of stay English-only for now.
+ES coverage: home + entry pages + browse + **games + guided tours** on all three. DC + Oceans are
+authentic (from the Spanish discs); **Dinosaurs games/guides are an AI fan translation** — Spanish
+text over the original English narration audio, with `.fan-note` banners (no Spanish disc). Games:
+`GamesView` per locale + `build_games_es.py` (DC); Dino *Dino Riddles* is data-driven, so its
+`GamesView` just reads the es entry pool — no extra build step. Guides on DC + Oceans:
+`extract_guides.py` (locale-aware, `DISC`+`LOCALE`) pulls the real Spanish narration + intro art; a
+small OCR pass reads the Spanish titles/host names off the screens (Oceans even renames hosts,
+Kim→Carmen) into `guides_meta_es.json`/`guides_ocr_es.json`. Dino guides are flat (16 tours, no
+hosts): `guides_meta_es.json` is an AI translation of the titles/blurbs and `build_guides_es.py`
+reuses the English narration paths verbatim. All three: `build_guides_es.py` assembles
+`web/data/es/guides.json` and `GuideIndexView`/`GuideView` render per locale. Credits and making-of
+stay English-only for now.
 
 ## Build & deploy
 

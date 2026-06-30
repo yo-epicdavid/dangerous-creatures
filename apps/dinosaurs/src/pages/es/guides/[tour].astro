@@ -1,0 +1,10 @@
+---
+import GuideView from '../../../components/GuideView.astro';
+import { readJSON } from '../../../lib/data.js';
+
+export function getStaticPaths() {
+  return readJSON('guides.json', 'es').map((g) => ({ params: { tour: g.id }, props: { g } }));
+}
+const { g } = Astro.props;
+---
+<GuideView g={g} locale="es" />

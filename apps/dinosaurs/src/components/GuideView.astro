@@ -1,0 +1,91 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Topbar from './Topbar.astro';
+import { asset, lp } from '../lib/data.js';
+import { t } from '../i18n/ui.js';
+
+const { g, locale = 'en' } = Astro.props;
+const ui = t(locale);
+const es = locale === 'es';
+const narration = (g.narration || []).map((n) => asset(n));
+const altHref = es ? `/guides/${g.id}` : `/es/guides/${g.id}`;
+const fmt = (s, v) => s.replace(/%(\w+)%/g, (_, k) => v[k]);
+const STR = es
+  ? { back: 'Todas las visitas', stepOf: 'Parada %N% de %T%', hint: 'Pulsa reproducir y tu guía te acompañará, parada a parada.',
+      play: 'Reproducir narración', pause: 'Pausar narración', prev: 'Parada anterior', next: 'Parada siguiente',
+      progress: 'Progreso de la visita', group: 'Reproductor de narración',
+      fanNote: 'Traducción no oficial hecha por aficionados (IA): la narración se reproduce en inglés, el idioma original del disco.' }
+  : { back: 'All tours', stepOf: 'Stop %N% of %T%', hint: 'Press play and your guide will walk you through, stop by stop.',
+      play: 'Play narration', pause: 'Pause narration', prev: 'Previous stop', next: 'Next stop',
+      progress: 'Tour progress', group: 'Narration player', fanNote: null };
+---
+<Layout title={`${g.title} — ${ui.guidedTours}`} desc={g.blurb} lang={locale} bilingual={true}>
+  <Topbar brandHref={lp(locale, '/')} locale={locale} altHref={altHref}>
+    <a slot="right" class="btn" href={lp(locale, '/guides')}><span class="arrow" aria-hidden="true">←</span> {STR.back}</a>
+  </Topbar>
+
+  <main id="main-content" class="wrap" tabindex="-1">
+    <div class="player">
+      <p class="tour-icon" aria-hidden="true">{g.icon}</p>
+      <h1>{g.title}</h1>
+      <p class="player__intro">{g.blurb}</p>
+
+      {es && STR.fanNote && <p class="fan-note"><b>ℹ︎</b> {STR.fanNote}</p>}
+
+      <div class="narrate-bar" role="group" aria-label={STR.group}>
+        <button class="icon-btn" id="prev" aria-label={STR.prev}><span aria-hidden="true">⏮</span></button>
+        <button class="icon-btn" id="play" aria-label={STR.play} aria-pressed="false"><span class="play-glyph" aria-hidden="true">▶</span></button>
+        <button class="icon-btn" id="next" aria-label={STR.next}><span aria-hidden="true">⏭</span></button>
+        <span class="step" id="step">{fmt(STR.stepOf, { N: 1, T: narration.length })}</span>
+        <progress id="prog" max={narration.length} value="1" aria-label={STR.progress}></progress>
+      </div>
+      <p class="hint">{STR.hint}</p>
+    </div>
+  </main>
+
+  <audio id="player-audio" preload="none"></audio>
+
+  <script define:vars={{ narration, STR }}>
+    const fmt = (s, v) => s.replace(/%(\w+)%/g, (_, k) => v[k]);
+    const audio = document.getElementById('player-audio');
+    const playBtn = document.getElementById('play');
+    const playGlyph = playBtn.querySelector('.play-glyph');
+    const stepLbl = document.getElementById('step');
+    const prog = document.getElementById('prog');
+    let step = 0;
+    function setPlayState(p) {
+      playGlyph.textContent = p ? '❚❚' : '▶';
+      playBtn.setAttribute('aria-label', p ? STR.pause : STR.play);
+      playBtn.setAttribute('aria-pressed', p ? 'true' : 'false');
+    }
+    function setStep(i, autoplay) {
+      step = Math.max(0, Math.min(i, narration.length - 1));
+      audio.src = narration[step];
+      stepLbl.textContent = fmt(STR.stepOf, { N: step + 1, T: narration.length });
+      prog.value = step + 1;
+      if (autoplay) audio.play();
+    }
+    playBtn.addEventListener('click', () => { audio.paused ? audio.play() : audio.pause(); });
+    document.getElementById('prev').addEventListener('click', () => setStep(step - 1, true));
+    document.getElementById('next').addEventListener('click', () => setStep(step + 1, true));
+    audio.addEventListener('play', () => setPlayState(true));
+    audio.addEventListener('pause', () => setPlayState(false));
+    audio.addEventListener('ended', () => { if (step < narration.length - 1) setStep(step + 1, true); else setPlayState(false); });
+    if (narration.length) setStep(0, false);
+  </script>
+</Layout>
+
+<style>
+  .player { max-width: 760px; margin: 18px auto 80px; text-align: center; }
+  .tour-icon { font-size: 64px; margin: 8px 0 0; }
+  .player h1 { font-family: var(--font-display); font-size: clamp(30px, 5vw, 48px); margin: 6px 0 6px; }
+  .player__intro { font-size: 19px; color: var(--ink-soft); max-width: 620px; margin: 0 auto 8px; }
+  .narrate-bar { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; justify-content: center; background: linear-gradient(180deg, var(--panel), var(--panel-2)); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; margin: 18px 0 6px; box-shadow: var(--shadow); }
+  .narrate-bar .step { color: var(--ink-soft); font-size: 14px; min-width: 92px; }
+  .narrate-bar progress { flex: 1; height: 8px; min-width: 120px; accent-color: var(--rust); }
+  .icon-btn { appearance: none; cursor: pointer; border: 2px solid #ffffff22; background: var(--panel-2); color: var(--ink); width: 58px; height: 58px; border-radius: 50%; font-size: 24px; transition: .15s; display: inline-flex; align-items: center; justify-content: center; line-height: 1; }
+  .icon-btn:hover { border-color: var(--gold); transform: translateY(-1px); }
+  #play { width: 78px; height: 78px; font-size: 32px; background: var(--rust); border-color: transparent; color: #fff; box-shadow: 0 4px 14px #0006; }
+  #play[aria-pressed="true"] { background: var(--green); }
+  .hint { color: var(--ink-soft); font-size: 14px; margin-top: 12px; }
+</style>
