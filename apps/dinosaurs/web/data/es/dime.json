@@ -1,0 +1,127 @@
+{
+  "id": "dime",
+  "code": "DIME",
+  "name": "Dimetrodon",
+  "category": "creature",
+  "scientificName": "Dimetrodon",
+  "needsScientificVerify": false,
+  "pronunciation": "die-MET-roh-don",
+  "meaning": "Dientes de dos medidas",
+  "period": "Pérmico",
+  "diet": "Carnívoro",
+  "tagline": "El depredador de vela dorsal que dominó la Tierra mucho antes de que el primer dinosaurio pisara el planeta.",
+  "hero": {
+    "image": "assets/dime/DIME00AA.webp",
+    "alt": "Dimetrodon"
+  },
+  "intro": "El Dimetrodon fue un reptil primitivo que vivió mucho antes que los dinosaurios. Era carnívoro, con dientes afilados y un cráneo robusto. Al igual que algunos dinosaurios con placas, el Dimetrodon probablemente utilizaba la gran vela de su espalda para regular la temperatura de su cuerpo de sangre fría.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "América del Norte"
+    },
+    {
+      "label": "Época",
+      "value": "Pérmico"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Dientes de dos medidas"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Reptil (sinápside)"
+    },
+    {
+      "label": "Longitud",
+      "value": "3 m (10 pies)"
+    },
+    {
+      "label": "Peso",
+      "value": "440 libras"
+    }
+  ],
+  "topics": [
+    {
+      "id": "reptile-radiator",
+      "title": "El radiador del reptil",
+      "image": "assets/dime/DIME01PU.webp",
+      "text": "El Dimetrodon, como todos los reptiles, no tenía una temperatura corporal constante. Sin duda, su cuerpo se enfriaba durante la noche. Por las mañanas, el Dimetrodon podía colocarse de lado frente al sol y absorber calor a través de su vela, lo que le permitía ponerse en movimiento rápidamente. Si el reptil se recalentaba demasiado, podía refugiarse a la sombra y disipar el calor a través de su vela para enfriar el cuerpo. La capacidad de regular su temperatura corporal puede haberle dado ventaja sobre sus presas, que no podían adaptarse con tanta rapidez.",
+      "captions": [
+        {
+          "label": "Parientes con vela",
+          "text": "Muchos dinosaurios tenían «radiadores» similares, aunque puede que esos dinosaurios no fueran de sangre fría. El Espinosaurio tenía una vela que podía alcanzar hasta casi dos metros y medio de altura."
+        }
+      ]
+    },
+    {
+      "id": "inside-dimetrodon",
+      "title": "El interior del Dimetrodon",
+      "image": "assets/dime/DIME02PU.webp",
+      "text": "Se han encontrado numerosos fósiles del Dimetrodon en rocas del Pérmico temprano en América del Norte. Su cráneo era bastante grande en comparación con el resto del cuerpo, y sus mandíbulas contaban tanto con dientes caninos como cortantes, propios de un depredador. El nombre Dimetrodon significa «dientes de dos clases»."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Warm-blooded or Cold-blooded?",
+      "to": "warm"
+    },
+    {
+      "label": "Spinosaurus",
+      "to": "spin"
+    },
+    {
+      "label": "Reconstructing Dinosaurs",
+      "to": "reco"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/dime/DIME00AA.webp",
+        "hotspots": [
+          {
+            "label": "El radiador del reptil",
+            "to": "reptile-radiator",
+            "x": 22,
+            "y": 42,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "El interior del Dimetrodon",
+            "to": "inside-dimetrodon",
+            "x": 12,
+            "y": 60,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "reptile-radiator": {
+        "image": "assets/dime/DIME01PU.webp",
+        "back": "main"
+      },
+      "inside-dimetrodon": {
+        "image": "assets/dime/DIME02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/dime/DIME50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/dime/DIME00AP.mp3",
+  "narration": "assets/dime/DIME00AJ.mp3",
+  "fanTranslation": true
+}

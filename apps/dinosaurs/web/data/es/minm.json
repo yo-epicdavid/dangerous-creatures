@@ -1,0 +1,155 @@
+{
+  "id": "minm",
+  "code": "MINM",
+  "name": "Minmi",
+  "category": "dinosaur",
+  "scientificName": "Minmi",
+  "needsScientificVerify": false,
+  "pronunciation": "MIN-mee",
+  "meaning": "Nombrado por una formación rocosa",
+  "period": "Cretácico inferior",
+  "diet": "Herbívoro",
+  "tagline": "El anquilosaurio acorazado de Australia, ¡incluso su vientre tenía placas óseas!",
+  "hero": {
+    "image": "assets/minm/MINM00AA.webp",
+    "alt": "Minmi"
+  },
+  "intro": "Cuando Minmi fue desenterrado en 1964, fue el primer anquilosaurio hallado en Australia. Minmi era un dinosaurio pequeño, de tan solo dos metros de longitud. Los paleontólogos quedaron fascinados al descubrir que este pequeño anquilosaurio tenía diminutas placas óseas en el vientre, además de en el lomo.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Australia"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Temprano"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Nombrado por una formación rocosa"
+    },
+    {
+      "label": "Caderas",
+      "value": "Con caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Anquilosaurio"
+    },
+    {
+      "label": "Longitud",
+      "value": "2 m (7 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "dinosaur-from-down-under",
+      "title": "Un dinosaurio de las Antípodas",
+      "image": "assets/minm/MINM01PU.webp",
+      "text": "El anquilosaurio Minmi recibió su nombre del lugar donde fue hallado: Minmi Crossing, en Queensland, Australia. En la Antártida se han excavado dos esqueletos de dinosaurio muy similares a los dinosaurios australianos. No es de extrañar que dos dinosaurios encontrados tan lejos el uno del otro sean tan parecidos: los continentes de Australia y la Antártida estuvieron unidos durante la mayor parte de la era de los dinosaurios.",
+      "captions": [
+        {
+          "label": "Un primo antártico del anquilosaurio",
+          "text": "Este anquilosaurio sin nombre fue descubierto en la gélida Antártida. Es posible que muchos más dinosaurios estén enterrados bajo los casquetes de hielo, pero buscarlos allí resulta muy difícil."
+        }
+      ]
+    },
+    {
+      "id": "ankylosaur-features",
+      "title": "Características de los anquilosaurios",
+      "image": "assets/minm/MINM02PU.webp",
+      "text": "Todos los anquilosaurios eran herbívoros bien acorazados, con una piel perfectamente adaptada a la vida terrestre. La piel de los dinosaurios era impermeable, gruesa y córnea. Una piel dura y escamosa protege al animal tanto si vadea entre vegetación pantanosa como si se desplaza por tierra arrastrando el cuerpo sobre piedras rugosas. Los dinosaurios acorazados como Minmi tenían una piel con pequeñas placas óseas o nódulos incrustados que los protegían de los depredadores.",
+      "captions": [
+        {
+          "label": "Dientes herbívoros",
+          "text": "Los anquilosaurios tenían dientes pequeños que solo servían para comer plantas blandas. Los saurópodos, en cambio, tenían dientes largos y cilíndricos, útiles para arrancar plantas más duras. Ningún dinosaurio tenía dientes planos como las muelas humanas."
+        },
+        {
+          "label": "Conservado para la posteridad",
+          "text": "Esta impresión procede de un dinosaurio acorazado llamado Polacanthus."
+        }
+      ]
+    },
+    {
+      "id": "dinosaurs-in-armor",
+      "title": "Dinosaurios con armadura",
+      "image": "assets/minm/MINM03PU.webp",
+      "text": "Los anquilosaurios, incluido Minmi, fueron algunos de los animales mejor protegidos del reino de los dinosaurios. Sus armaduras habrían resultado muy difíciles de atravesar para cualquier depredador. Algunos anquilosaurios tenían incluso dos «cráneos»: el verdadero y uno exterior, como el yelmo de una armadura. Muchos anquilosaurios, como los dos que se muestran aquí, tenían púas además de placas protectoras, y algunos, como el Euoplocephalus, tenían colas con pinchos o mazas que podían usar para defenderse."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaur Cove",
+      "to": "cove"
+    },
+    {
+      "label": "Antarctica Expedition",
+      "to": "anta"
+    },
+    {
+      "label": "Polacanthus",
+      "to": "pola"
+    },
+    {
+      "label": "Scelidosaurus",
+      "to": "scel"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/minm/MINM00AA.webp",
+        "hotspots": [
+          {
+            "label": "Un dinosaurio de las Antípodas",
+            "to": "dinosaur-from-down-under",
+            "x": 54,
+            "y": 37,
+            "w": 32,
+            "h": 6
+          },
+          {
+            "label": "Dinosaurios con armadura",
+            "to": "dinosaurs-in-armor",
+            "x": 57,
+            "y": 52,
+            "w": 27,
+            "h": 6
+          },
+          {
+            "label": "Características de los anquilosaurios",
+            "to": "ankylosaur-features",
+            "x": 1,
+            "y": 83,
+            "w": 24,
+            "h": 6
+          }
+        ]
+      },
+      "dinosaur-from-down-under": {
+        "image": "assets/minm/MINM01PU.webp",
+        "back": "main"
+      },
+      "ankylosaur-features": {
+        "image": "assets/minm/MINM02PU.webp",
+        "back": "main"
+      },
+      "dinosaurs-in-armor": {
+        "image": "assets/minm/MINM03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/minm/MINM50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/minm/MINM00AP.mp3",
+  "narration": "assets/minm/MINM00AJ.mp3",
+  "fanTranslation": true
+}

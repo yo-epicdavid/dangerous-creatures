@@ -1,0 +1,294 @@
+{
+  "id": "wasp",
+  "code": "WASP",
+  "name": "Avispa",
+  "scientificName": "Vespula vulgaris",
+  "needsScientificVerify": false,
+  "tagline": "¡Más de 100.000 tipos y cada una con su propio secreto letal!",
+  "weapons": [
+    "Veneno y ponzoña",
+    "Aguijones"
+  ],
+  "habitats": [
+    "Bosques",
+    "Ciudades y campos"
+  ],
+  "regions": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/wasp/WASP00AA.webp",
+    "alt": "Avispa"
+  },
+  "intro": "¡Hay más de 100.000 tipos de avispas! Unas que pican y otras que no. Negras y amarillas, o con los colores del arco iris. Avispas que ponen huevos sobre insectos, o dentro de los árboles. Avispas sociales y avispas solitarias. Avispas enormes del tamaño de tu pulgar o tan pequeñas que no las puedes ver sin un microscopio. ¡Y muchos miles más! ¿No te parecen sorprendentes?",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Mata con el aguijón venenoso de la cola.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Frutas, insectos, arañas, animales muertos, cigarras y otras avispas.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "¡En Estados Unidos las avispas han matado a más personas que todas las arañas, serpientes y escorpiones juntos!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 5 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Todo el mundo excepto la Antártida.",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "jewel-of-the-desert",
+      "title": "La joya del desierto",
+      "image": "assets/es/wasp/WASP01PU.webp",
+      "text": "Como la mayoría de las avispas adultas, la avispa joya solitaria se alimenta de néctar; pero sus larvas prefieren la carne a las flores, por lo que mata a la presa para dar de comer a sus crías.",
+      "captions": [
+        {
+          "label": "Asado de cucaracha",
+          "text": "La avispa joya hembra pica a una cucaracha para paralizarla. Lleva luego a la presa hasta su nido y pone un huevo encima. La cucaracha muere, pero los elementos químicos del veneno de la avispa la mantienen fresca. Cuando, unos días más tarde, la larva de la avispa sale del huevo, no necesita ir a buscar comida: ya tiene lista la cena. ¡Qué buena!"
+        },
+        {
+          "label": "Avispa joya hembra",
+          "text": "¿Te imaginas lo amenazador que puede parecer este brillante cazador desde el punto de vista de una cucaracha?"
+        }
+      ],
+      "narration": "assets/es/wasp/WASP01NP.mp3"
+    },
+    {
+      "id": "wasps-in-the-woods",
+      "title": "Avispa de los bosques",
+      "image": "assets/es/wasp/WASP02PU.webp",
+      "text": "Esa espina de aspecto tan temible de la cola del insecto grande no es un aguijón, sino un ovopositor, o tubo para la puesta de huevos. El sínfito o ilifidrido hembra lo utiliza para taladrar una fila de agujeros en un pino. Después pone en cada agujero un huevo recubierto de hongos. Muchas personas piensan que las avispas del bosque son una plaga, porque el hongo daña al árbol.",
+      "captions": [
+        {
+          "label": "Píntame de un color peligroso",
+          "text": "Como protección, este insecto inofensivo mimetiza las rayas negras y amarillas de las avispas venenosas. ¡Antes que arriesgarse a recibir una picadura dolorosa, los predadores prefieren dejarla tranquila!"
+        }
+      ],
+      "narration": "assets/es/wasp/WASP02NP.mp3"
+    },
+    {
+      "id": "master-builders",
+      "title": "Maestra albañil",
+      "image": "assets/es/wasp/WASP03PU.webp",
+      "text": "Muchas avispas no se limitan a construirse la casa: ¡también fabrican los materiales de construcción! Es un proceso realmente notable.",
+      "captions": [
+        {
+          "label": "Reina madre",
+          "text": "Una reina de la avispa común fabrica primero una serie de pequeñas celdas a partir de una fibra de madera masticada con aspecto de papel. Pone un huevo en cada celda y empieza a construir capas alrededor de éstas. Visita el nido todos los días para alimentar a las larvas con orugas e insectos previamente masticados."
+        },
+        {
+          "label": "La guardia real",
+          "text": "Cuando eclosionan, las larvas se convierten en obreras y ayudan a construir el nido. La reina sigue poniendo huevos. Durante el verano unos gusanos reciben más comida que otros y se convierten en machos y reinas. Vuelan fuera del nido, se aparean y las reinas fértiles hibernan hasta la primavera, estación en la que construyen su propio nido."
+        }
+      ],
+      "narration": "assets/es/wasp/WASP03NP.mp3"
+    },
+    {
+      "id": "sweet-tooth",
+      "title": "Golosas",
+      "image": "assets/es/wasp/WASP04PU.webp",
+      "text": "El hombre no es el único animal al que le encanta el azúcar. Numerosas avispas adultas de muchas especies no se alimentan de otra cosa que de líquidos dulces, como jugo de frutas o néctar de flores. La dieta de algunas avispas cazadoras es más repugnante: comen otros insectos, o los líquidos corporales de éstos, sobre todo en el otoño, cuando las flores escasean. A éstas de tórax amarillo les encanta la comida de la gente. Lo mismo que las hormigas, ¡suelen presentarse en nuestras comidas en el campo! Pero no son bien recibidas.",
+      "narration": "assets/es/wasp/WASP04NP.mp3"
+    },
+    {
+      "id": "a-galling-situation",
+      "title": "Unos bultos sospechosos",
+      "image": "assets/es/wasp/WASP06PU.webp",
+      "text": "¿Has visto a veces unos bultos redondos en un tallo de hierba o una rama de árbol? Estos bultos, o tumoraciones, se forman en la planta cuando dentro de ésta eclosionan los huevos de unas avispas, llamadas cinípedos, y se convierten en larvas. Pero esos bultos duros no protegen a las larvas frente a otras avispas, llamadas cálcidos, que buscan los bultos para poner los huevos. Cuando salen las larvas de la avispa parasitaria, ¡se comen las larvas de los cinípedos!",
+      "captions": [
+        {
+          "label": "Invasión de monstruos",
+          "text": "Estas larvas de cálcido se han comido las larvas del andricus, que crecían en este bulto de un brote de roble. Puedes ver la galería que el cálcido adulto está abriendo hacia la superficie."
+        }
+      ],
+      "narration": "assets/es/wasp/WASP06NP.mp3"
+    },
+    {
+      "id": "just-bluffing",
+      "title": "Sólo presumen de ser malos",
+      "image": "assets/es/wasp/WASP07PU.webp",
+      "text": "¿Te gustaría que alguno de los insectos que ves aquí aterrizara en tu piel? Da la impresión de que cualquiera de ellos podría picarte, ¿verdad? ¡No te preocupes! Parecen más peligrosos de lo que son en realidad.",
+      "captions": [
+        {
+          "label": "Avispa arbórea reina",
+          "text": "Esta avispa grandota tiene un aspecto atemorizador, pero es inofensiva para los seres humanos: su espina parece un aguijón, pero no es más que un tubo para poner los huevos."
+        },
+        {
+          "label": "Mosca abejorro",
+          "text": "Esta mosca peluda no sólo se parece a un abejorro: ¡produce el mismo zumbido! Pero no tiene aguijón."
+        },
+        {
+          "label": "Moscas cernidoras",
+          "text": "Tendrías que acercarte mucho a estas moscas para darte cuenta de que sólo tienen un par de alas (la avispa de verdad tiene dos pares). ¿Pero quién va a querer acercarse tanto?"
+        }
+      ],
+      "narration": "assets/es/wasp/WASP07NP.mp3"
+    },
+    {
+      "id": "bug-eyed-aliens",
+      "title": "Alienígenas de ojos saltones",
+      "image": "assets/es/wasp/WASP08PU.webp",
+      "text": "No es una máscara de una película de terror: sólo es un plano-detalle de una avispa. Desde el punto de vista de las avispas, esa cara es bellísima. Al fin y al cabo, ¡la belleza está en la mirada del espectador!",
+      "captions": [
+        {
+          "label": "El interior del ojo de un insecto",
+          "text": "El ojo compuesto está formado por cientos de facetas, cada una de las cuales tiene un cristalino de superficie y otro de forma cónica bajo el primero. Los cristalinos enfocan la luz en una estructura llamada rabdoma. El rabdoma está conectado con el nervio óptico, que transmite la información visual al cerebro."
+        }
+      ],
+      "narration": "assets/es/wasp/WASP08NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/wasp/WASP00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 2.99,
+            "y": 8.76,
+            "w": 13.08,
+            "h": 10.84
+          },
+          {
+            "label": "Alienígenas de ojos saltones",
+            "to": "bug-eyed-aliens",
+            "x": 38.93,
+            "y": 1.61,
+            "w": 13.7,
+            "h": 4.56
+          },
+          {
+            "label": "Avispa de los bosques",
+            "to": "wasps-in-the-woods",
+            "x": 3.15,
+            "y": 15.47,
+            "w": 26.2,
+            "h": 10.19
+          },
+          {
+            "label": "La joya del desierto",
+            "to": "jewel-of-the-desert",
+            "x": 3.15,
+            "y": 21.74,
+            "w": 23.39,
+            "h": 3.92
+          },
+          {
+            "label": "Sólo presumen de ser malos",
+            "to": "just-bluffing",
+            "x": 2,
+            "y": 51,
+            "w": 17,
+            "h": 4
+          },
+          {
+            "label": "Control de plagas",
+            "to": "video",
+            "x": 4.87,
+            "y": 60.06,
+            "w": 15.57,
+            "h": 4.13
+          },
+          {
+            "label": "Maestra albañil",
+            "to": "master-builders",
+            "x": 2,
+            "y": 71,
+            "w": 20,
+            "h": 4
+          },
+          {
+            "label": "Golosas",
+            "to": "sweet-tooth",
+            "x": 78.93,
+            "y": 62.22,
+            "w": 4.17,
+            "h": 4.13
+          },
+          {
+            "label": "Tarantula eaters",
+            "x": 73.62,
+            "y": 73.69,
+            "w": 13.54,
+            "h": 9.76,
+            "link": "animal.html?id=tran&mode=classic"
+          },
+          {
+            "label": "Unos bultos sospechosos",
+            "to": "a-galling-situation",
+            "x": 76.9,
+            "y": 79.32,
+            "w": 11.2,
+            "h": 4.56
+          }
+        ]
+      },
+      "jewel-of-the-desert": {
+        "image": "assets/es/wasp/WASP01PU.webp",
+        "back": "main"
+      },
+      "wasps-in-the-woods": {
+        "image": "assets/es/wasp/WASP02PU.webp",
+        "back": "main"
+      },
+      "master-builders": {
+        "image": "assets/es/wasp/WASP03PU.webp",
+        "back": "main"
+      },
+      "sweet-tooth": {
+        "image": "assets/es/wasp/WASP04PU.webp",
+        "back": "main"
+      },
+      "a-galling-situation": {
+        "image": "assets/es/wasp/WASP06PU.webp",
+        "back": "main"
+      },
+      "just-bluffing": {
+        "image": "assets/es/wasp/WASP07PU.webp",
+        "back": "main"
+      },
+      "bug-eyed-aliens": {
+        "image": "assets/es/wasp/WASP08PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/wasp/WASP00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/wasp/clip.mp4",
+        "poster": "assets/es/wasp/WASP09TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/wasp/narration.mp3",
+  "sound": "assets/es/wasp/WASP00AF.mp3",
+  "factsNarration": "assets/es/wasp/WASP00FB.mp3",
+  "video": {
+    "title": "Control de plagas",
+    "src": "assets/es/wasp/clip.mp4",
+    "poster": "assets/es/wasp/poster.webp",
+    "caption": "Todas las avispas hembras adultas alimentan a sus crías con otros insectos. Las que viven en grupo, como las de tórax amarillo, matan a cualquier insecto que puedan cazar. Las que viven solas, como las que ves aquí, suelen cazar una presa muy específica, como un escarabajo u oruga determinados. A veces los campesinos importan estas avispas solitarias para controlar las plagas que destruyen los cultivos."
+  }
+}

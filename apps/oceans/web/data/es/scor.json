@@ -1,0 +1,187 @@
+{
+  "id": "scor",
+  "code": "SCOR",
+  "name": "El rascacio",
+  "category": "creature",
+  "scientificName": "Scorpaenodes kelloggi",
+  "needsScientificVerify": false,
+  "tagline": "Bello, camuflado y mortal: ¡el pez que nunca deberías tocar!",
+  "zones": [
+    "Arrecife de coral",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/scor/SCOR00AA.webp",
+    "alt": "El rascacio"
+  },
+  "intro": "La familia del rascacio, hermoso y peligroso, incluye al exótico pez cebra y al rascacio jorobado, probablemente el pez marino más letal que existe. No sorprende que sus miembros reciban el nombre de Scorpaeniformes: su veneno es tan tóxico como el de los escorpiones del desierto. El rascacio tiene la cabeza grande, puntiagudas aletas venenosas, y una boca de tal tamaño que literalmente puede \"aspirar\" a su presa de un bocado.",
+  "facts": [
+    {
+      "label": "Veneno",
+      "value": "Tan tóxico como el de los escorpiones del desierto"
+    },
+    {
+      "label": "Boca",
+      "value": "Tan grande que puede \"aspirar\" a su presa de un bocado"
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Cuando el atacante entra en contacto con las espinas del pez cebra, este suelta un veneno que produce un súbito y lacerante dolor"
+    },
+    {
+      "label": "Camuflaje",
+      "value": "El rascacio jorobado yace inmóvil y camuflado en el fondo; donde ves uno, hay muchos más ocultos"
+    },
+    {
+      "label": "Peligro",
+      "value": "Una picadura puede producir una tremenda hinchazón o incluso la muerte"
+    },
+    {
+      "label": "Armas",
+      "value": "El pez cirujano tiene aletas como cuchillos a ambos lados de la cola que puede alzar en cualquier momento para infligir una herida"
+    }
+  ],
+  "topics": [
+    {
+      "id": "venom-for-defense",
+      "title": "Veneno como defensa",
+      "image": "assets/es/scor/SCOR01PU.webp",
+      "text": "El pez cebra, denominado también pez turco y pez de fuego rojo, está armado de pinchos venenosos que sólo utiliza como defensa. Tiene una boca tan grande que puede tragarse entera a su presa, aunque sea un pez del mismo tamaño. Cuando el atacante entra en contacto con sus espinas, el pez suelta un veneno que produce un súbito y lacerante dolor.",
+      "narration": "assets/es/scor/SCOR01JN.mp3"
+    },
+    {
+      "id": "hidden-dangers",
+      "title": "Peligros ocultos",
+      "image": "assets/es/scor/SCOR02PU.webp",
+      "text": "El rascacio jorobado es uno de los animales más peligrosos del océano. Está bien armado con un veneno potencialmente mortífero y tiene la mala costumbre de mantenerse inmóvil en el fondo.\n\n¡No molesten!\nEl escorpión es un animal nocturno que caza de noche y se oculta en lugares oscuros durante el día. Aunque la mayoría de los escorpiones prefiere retirarse antes que luchar, un escorpión a la defensiva no dudará en golpear con el punzante aguijón de su cola.",
+      "captions": [
+        {
+          "label": "No tocar",
+          "text": "El rascacio jorobado cuelga inmóvil en el agua o yace muy quieto en el fondo marino. También se camufla para confundirse con su entorno. Si ves un rascacio, no olvides que debe haber muchos otros ocultos."
+        }
+      ],
+      "narration": "assets/es/scor/SCOR02JN.mp3"
+    },
+    {
+      "id": "yikes-spikes",
+      "title": "Temibles pinchos",
+      "image": "assets/es/scor/SCOR03PU.webp",
+      "text": "¡Hay peces que es mejor mirarlos y no tocarlos!",
+      "captions": [
+        {
+          "label": "Armas ocultas",
+          "text": "El alegre pez cirujano tiene aletas como cuchillos a ambos lados de la cola, que puede alzar en cualquier momento para infligir una herida. Su principal uso es la defensa. No se sabe si estos peces producen veneno. Si te cortas con un pez cirujano, probablemente no necesites que te cosan la herida, ¡pero indudablemente no será una experiencia agradable!"
+        },
+        {
+          "label": "Como púas",
+          "text": "Las espinas de un pez de San Pedro no contienen veneno, pero son muy afiladas."
+        }
+      ],
+      "narration": "assets/es/scor/SCOR03JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Los caracoles marinos",
+      "to": "spir"
+    },
+    {
+      "label": "Peces inflables",
+      "to": "infl"
+    },
+    {
+      "label": "El océano Índico",
+      "to": "indn"
+    },
+    {
+      "label": "What Was That?"
+    },
+    {
+      "label": "Submarinismo",
+      "to": "divi"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/scor/SCOR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Jugar con fuego",
+            "to": "video",
+            "x": 54,
+            "y": 51,
+            "w": 34,
+            "h": 8
+          },
+          {
+            "label": "Veneno como defensa",
+            "to": "venom-for-defense",
+            "x": 57,
+            "y": 62,
+            "w": 28,
+            "h": 7
+          },
+          {
+            "label": "Peligros ocultos",
+            "to": "hidden-dangers",
+            "x": 35,
+            "y": 73,
+            "w": 23,
+            "h": 7
+          },
+          {
+            "label": "Temibles pinchos",
+            "to": "yikes-spikes",
+            "x": 17,
+            "y": 63,
+            "w": 18,
+            "h": 7
+          }
+        ]
+      },
+      "venom-for-defense": {
+        "image": "assets/es/scor/SCOR01PU.webp",
+        "back": "main"
+      },
+      "hidden-dangers": {
+        "image": "assets/es/scor/SCOR02PU.webp",
+        "back": "main"
+      },
+      "yikes-spikes": {
+        "image": "assets/es/scor/SCOR03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/scor/clip.mp4",
+        "poster": "assets/es/scor/SCOR04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/scor/SCOR00JN.mp3",
+  "sound": "assets/es/scor/SCOR00IX.mp3",
+  "video": {
+    "title": "Jugar con fuego",
+    "src": "assets/es/scor/clip.mp4",
+    "poster": "assets/es/scor/poster.webp",
+    "caption": "Buzos exploran un arrecife manteniéndose a una distancia prudente de rascacios jorobados camuflados en el fondo y de un pez cebra, recordando que una picadura puede producir una tremenda hinchazón o incluso la muerte.",
+    "narration": "assets/es/scor/SCOR04JN.mp3"
+  }
+}

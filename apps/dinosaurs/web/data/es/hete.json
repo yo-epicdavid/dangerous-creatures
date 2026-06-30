@@ -1,0 +1,173 @@
+{
+  "id": "hete",
+  "code": "HETE",
+  "name": "Heterodontosaurus",
+  "category": "dinosaur",
+  "scientificName": "Heterodontosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "heh-TAIR-oh-DON-toh-SOR-us",
+  "meaning": "Lagarto de dientes diferentes",
+  "period": "Jurásico inferior",
+  "diet": "Herbívoro",
+  "tagline": "¡Tres tipos de dientes en un diminuto dinosaurio... incluidos los colmillos!",
+  "hero": {
+    "image": "assets/hete/HETE00AA.webp",
+    "alt": "Heterodontosaurus"
+  },
+  "intro": "Mientras que la mayoría de los dinosaurios son famosos por su tamaño, sus púas o su armadura, el Heterodontosaurus es famoso por sus dientes. Los dientes traseros de este dinosaurio eran molares altos para triturar. Más hacia delante tenía largos dientes caninos curvados, como los de un lobo. ¡Y en la parte delantera, el Heterodontosaurus tenía pequeños dientes puntiagudos en la parte superior y un pico óseo en la inferior!",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "África"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico Temprano"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Lagarto de dientes diferentes"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Ornitópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "1,2 m (4 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "telltale-teeth",
+      "title": "Dientes reveladores",
+      "image": "assets/hete/HETE01PU.webp",
+      "text": "Los científicos pueden aprender mucho de los dientes encontrados en cráneos fosilizados. El tamaño y la forma de los dientes indican qué comía el animal.",
+      "captions": [
+        {
+          "label": "Todo tipo de dientes",
+          "text": "En este cráneo fosilizado puedes ver los diferentes tipos de dientes del Heterodontosaurus. Los dientes caninos inferiores del dinosaurio (los largos «colmillos» curvados cerca de la parte delantera de la boca) encajaban en un bolsillo especial de la parte superior de la mandíbula."
+        },
+        {
+          "label": "Dientes caninos",
+          "text": "El Smilodon, un felino de dientes de sable que vivió mucho después de la extinción de los dinosaurios, tenía espectaculares dientes caninos. Los largos caninos superiores curvados sobresalían por debajo de la mandíbula inferior del felino."
+        }
+      ]
+    },
+    {
+      "id": "tiny-herbivores",
+      "title": "Herbívoros diminutos",
+      "image": "assets/hete/HETE02PU.webp",
+      "text": "El Heterodontosaurus medía menos de un metro veinte de longitud y estaba hecho para correr. Los pequeños herbívoros veloces como los que se muestran aquí puede que evolucionaran como respuesta a que los dinosaurios carnívoros se volvieran cada vez más rápidos.",
+      "captions": [
+        {
+          "label": "Hypsilophodon",
+          "text": "Cuando se descubrió por primera vez el Hypsilophodon, algunos científicos pensaron que vivía en los árboles. Hoy los paleontólogos creen que era un animal terrestre capaz de correr a gran velocidad para escapar del peligro."
+        },
+        {
+          "label": "Lesothosaurus",
+          "text": "Los expertos creen que este dinosaurio africano de unos noventa centímetros de longitud puede que viviera en duras condiciones desérticas."
+        }
+      ]
+    },
+    {
+      "id": "what-did-its-skin-look-like",
+      "title": "¿Qué aspecto tenía su piel?",
+      "image": "assets/hete/HETE03PU.webp",
+      "text": "Aunque sabemos algo sobre la textura de la piel de los dinosaurios gracias a las impresiones fósiles conservadas en roca, no tenemos manera de saber de qué color eran, ni si eran de un solo color, rayados o con manchas. Al dibujar dinosaurios, suponemos que puede que tuvieran colores y patrones similares a los de los reptiles actuales.",
+      "captions": [
+        {
+          "label": "Camuflaje",
+          "text": "El color y las marcas de esta víbora del Gabón le permiten camuflarse con su entorno. Tendida sobre hojas muertas, la serpiente resulta casi invisible con la luz moteada de los bosques tropicales africanos. Cuando se la separa de su entorno natural, los patrones geométricos de la piel de la víbora resaltan vividamente."
+        },
+        {
+          "label": "Llamar la atención",
+          "text": "El color y los patrones de la piel de una iguana suelen hacer que este lagarto destaque en su entorno. Muchos lagartos tienen colores y patrones cutáneos diseñados para llamar la atención de posibles parejas, o pensados para advertir a los enemigos de que se mantengan alejados."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Cynognathus",
+      "to": "cyno"
+    },
+    {
+      "label": "The Smallest Dinosaurs",
+      "to": "smal"
+    },
+    {
+      "label": "Reconstructing Dinosaurs",
+      "to": "reco"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/hete/HETE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Dientes reveladores",
+            "to": "telltale-teeth",
+            "x": 54,
+            "y": 19,
+            "w": 21,
+            "h": 6
+          },
+          {
+            "label": "Herbívoros diminutos",
+            "to": "tiny-herbivores",
+            "x": 70,
+            "y": 46,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "¿Qué aspecto tenía su piel?",
+            "to": "what-did-its-skin-look-like",
+            "x": 51,
+            "y": 70,
+            "w": 41,
+            "h": 6
+          },
+          {
+            "label": "Dientes reveladores",
+            "to": "telltale-teeth",
+            "x": 82,
+            "y": 2,
+            "w": 16,
+            "h": 19
+          }
+        ]
+      },
+      "telltale-teeth": {
+        "image": "assets/hete/HETE01PU.webp",
+        "back": "main"
+      },
+      "tiny-herbivores": {
+        "image": "assets/hete/HETE02PU.webp",
+        "back": "main"
+      },
+      "what-did-its-skin-look-like": {
+        "image": "assets/hete/HETE03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/hete/HETE50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/hete/HETE00AP.mp3",
+  "narration": "assets/hete/HETE00AJ.mp3",
+  "fanTranslation": true
+}

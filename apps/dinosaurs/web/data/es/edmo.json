@@ -1,0 +1,237 @@
+{
+  "id": "edmo",
+  "code": "EDMO",
+  "name": "Edmontosaurus",
+  "category": "dinosaur",
+  "scientificName": "Edmontosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "ed-MON-toh-SOR-us",
+  "meaning": "lagarto de Edmonton",
+  "period": "Cretácico superior",
+  "diet": "Herbívoro",
+  "tagline": "¡Este gigante apacible podía tener cientos de dientes en sus mandíbulas… ¡todos al mismo tiempo!",
+  "hero": {
+    "image": "assets/edmo/EDMO00AA.webp",
+    "alt": "Edmontosaurus"
+  },
+  "intro": "Uno de los dinosaurios con pico de pato más grandes, el Edmontosaurus es famoso por tener varios cientos de dientes en forma de diamante que formaban grandes superficies de masticación en su boca. Los dinosaurios con pico de pato, también llamados hadrosaurios, tenían también carrillos, muy parecidos a los de los caballos y las vacas. El Edmontosaurus fue uno de los últimos dinosaurios, y habitó América del Norte durante el periodo Cretácico Superior.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "América del Norte"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto de Edmonton"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Ornitópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "13 m (42 pies)"
+    },
+    {
+      "label": "Peso",
+      "value": "3,5 toneladas"
+    }
+  ],
+  "topics": [
+    {
+      "id": "plant-eaters-versus-meat-eaters",
+      "title": "Herbívoros contra carnívoros",
+      "image": "assets/edmo/EDMO01PU.webp",
+      "text": "Las características de los cráneos y los dientes fósiles pueden decirles mucho a los paleontólogos sobre un dinosaurio. Compara la forma del cráneo del Edmontosaurus que se muestra a la izquierda con el cráneo del Tyrannosaurus rex de la derecha. Los dientes del Edmontosaurus están diseñados para triturar material vegetal duro, mientras que los del Tyrannosaurus rex son afilados y puntiagudos, para desgarrar la carne de sus víctimas.",
+      "captions": [
+        {
+          "label": "Mirada de ojos grandes",
+          "text": "Las grandes órbitas oculares de este cráneo sugieren que el Edmontosaurus tenía ojos quizás de hasta diez centímetros de diámetro. Una gran abertura en el cráneo para el nervio óptico es también un indicio de buena visión."
+        },
+        {
+          "label": "¿Un dinosaurio llorón?",
+          "text": "Algunas plantas contienen mucha sal. Muchos reptiles y aves actuales tienen «glándulas salineras» cerca de los ojos que eliminan el exceso de sal en forma de «lágrimas» saladas. El Edmontosaurus tenía concavidades en los huesos situados frente a sus ojos, donde podría haber habido glándulas salineras."
+        },
+        {
+          "label": "Dientes feroces",
+          "text": "El Tyrannosaurus rex tenía dientes afilados como cuchillos de hasta dieciocho centímetros de longitud. Las poderosas mandíbulas sujetaban fuertes músculos para agarrar y desgarrar, todos ellos indicios de un carnívoro."
+        }
+      ]
+    },
+    {
+      "id": "the-shape-of-the-brain",
+      "title": "La forma del cerebro",
+      "image": "assets/edmo/EDMO02PU.webp",
+      "text": "En algunos fósiles de Edmontosaurus, el barro llenó el espacio interior del cráneo y se convirtió en roca, proporcionándonos un molde natural de la forma del cerebro. Las partes relacionadas con la vista, el oído y el olfato estaban bien desarrolladas, lo que indica sentidos muy agudos."
+    },
+    {
+      "id": "rasp-like-jaws",
+      "title": "Mandíbulas como una escofina",
+      "image": "assets/edmo/EDMO03PU.webp",
+      "text": "Los dinosaurios con pico de pato tenían impresionantes baterías de dientes. Ambos lados de las mandíbulas superior e inferior estaban recubiertos de cientos de dientes afilados en forma de diamante, que formaban superficies de trituración muy parecidas a las escofinas que los trabajadores usan para dar forma a la madera o al metal. Los dientes nuevos crecían continuamente para reemplazar a los desgastados, como puede verse aquí, empujando hacia arriba la capa superior de dientes de esta mandíbula de Edmontosaurus."
+    },
+    {
+      "id": "one-of-the-last-dinosaurs",
+      "title": "Uno de los últimos dinosaurios",
+      "image": "assets/edmo/EDMO04PU.webp",
+      "text": "El Edmontosaurus fue uno de los últimos gigantes que deambularon por la Tierra cuando la Era de los Dinosaurios llegaba a su fin. Como su nombre indica, el Edmontosaurus debe su nombre a Edmonton, Alberta, situada en el suroeste de Canadá. Desde entonces ha sido hallado en todo el oeste de América del Norte.",
+      "captions": [
+        {
+          "label": "Staurikosaurus",
+          "text": "Uno de los dinosaurios más primitivos del periodo Triásico."
+        },
+        {
+          "label": "Apatosaurio",
+          "text": "Uno de los dinosaurios más comunes del periodo Jurásico."
+        },
+        {
+          "label": "Edmontosaurus",
+          "text": "Sobrevivió hasta el final de la era de los dinosaurios, hace unos 65 millones de años."
+        }
+      ]
+    },
+    {
+      "id": "blowing-and-bellowing",
+      "title": "Soplando y bramando",
+      "image": "assets/edmo/EDMO05PU.webp",
+      "text": "La forma de su cráneo sugiere que el Edmontosaurus tenía piel suelta en el hocico, que podría haber inflado como un globo, quizás para emitir un fuerte bramido. Si la piel era de colores vivos, también podría haberla usado para comunicarse visualmente con otros dinosaurios de la manada o para atraer a una pareja."
+    },
+    {
+      "id": "leaves-for-lunch",
+      "title": "Hojas para el almuerzo",
+      "image": "assets/edmo/EDMO06PU.webp",
+      "text": "En su día se pensó que los hadrosaurios se alimentaban de plantas acuáticas, pero se han encontrado fósiles de plantas terrestres junto a algunos esqueletos, lo que sugiere que una dieta de árboles y arbustos era más probable. Algunas de las plantas que comían los hadrosaurios (dinosaurios con pico de pato) todavía crecen hoy en día. Entre ellas se encuentran los equisetos, los helechos y los pinos."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Faces from the Past",
+      "to": "ftfb"
+    },
+    {
+      "label": "Tyrannosaurus rex",
+      "to": "tyra"
+    },
+    {
+      "label": "Skulls of Plant-eaters",
+      "to": "vega"
+    },
+    {
+      "label": "Teeth of Plant-eaters",
+      "to": "ptee"
+    },
+    {
+      "label": "Marching to Extinction",
+      "to": "extt"
+    },
+    {
+      "label": "Saurolophus",
+      "to": "saur"
+    },
+    {
+      "label": "Plant-eaters",
+      "to": "plan"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/edmo/EDMO00AA.webp",
+        "hotspots": [
+          {
+            "label": "La forma del cerebro",
+            "to": "the-shape-of-the-brain",
+            "x": 53,
+            "y": 18,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Mandíbulas como una escofina",
+            "to": "rasp-like-jaws",
+            "x": 69,
+            "y": 33,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Soplando y bramando",
+            "to": "blowing-and-bellowing",
+            "x": 62,
+            "y": 50,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Uno de los últimos dinosaurios",
+            "to": "one-of-the-last-dinosaurs",
+            "x": 50,
+            "y": 75,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Hojas para el almuerzo",
+            "to": "leaves-for-lunch",
+            "x": 9,
+            "y": 43,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Herbívoros contra carnívoros",
+            "to": "plant-eaters-versus-meat-eaters",
+            "x": 2,
+            "y": 64,
+            "w": 30,
+            "h": 5
+          }
+        ]
+      },
+      "plant-eaters-versus-meat-eaters": {
+        "image": "assets/edmo/EDMO01PU.webp",
+        "back": "main"
+      },
+      "the-shape-of-the-brain": {
+        "image": "assets/edmo/EDMO02PU.webp",
+        "back": "main"
+      },
+      "rasp-like-jaws": {
+        "image": "assets/edmo/EDMO03PU.webp",
+        "back": "main"
+      },
+      "one-of-the-last-dinosaurs": {
+        "image": "assets/edmo/EDMO04PU.webp",
+        "back": "main"
+      },
+      "blowing-and-bellowing": {
+        "image": "assets/edmo/EDMO05PU.webp",
+        "back": "main"
+      },
+      "leaves-for-lunch": {
+        "image": "assets/edmo/EDMO06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/edmo/EDMO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/edmo/EDMO00AP.mp3",
+  "narration": "assets/edmo/EDMO00AJ.mp3",
+  "fanTranslation": true
+}

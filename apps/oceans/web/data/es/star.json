@@ -1,0 +1,276 @@
+{
+  "id": "star",
+  "code": "STAR",
+  "name": "Las estrellas de mar",
+  "category": "creature",
+  "scientificName": "Asteroidea",
+  "needsScientificVerify": false,
+  "tagline": "¡Tiene las patas en los brazos y devora a sus presas vivas!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Arrecife de coral",
+    "Mar profundo"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/star/STAR00AA.webp",
+    "alt": "Las estrellas de mar"
+  },
+  "intro": "La razón de que se le llame estrella es evidente. Lo raro es el motivo de que en otras lenguas se le llame pez (en lengua inglesa es \"pez estrella\", starfish). No es un pez, sino un miembro de un grupo de invertebrados marinos de cuerpo duro, llamados equinodermos. La estrella de mar puede parecer un vistoso juguete o una pieza de arte, pero para los calamares, vieiras y ostras es un temible cazador. Aunque de pacífico aspecto, es uno de los predadores más numeroso y experto de todo el océano.",
+  "facts": [
+    {
+      "label": "Depredador",
+      "value": "Aunque de pacífico aspecto, es uno de los predadores más numeroso y experto de todo el océano."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "La estrella de mar desgarra el estómago de sus presas y las devora mientras todavía están vivas."
+    },
+    {
+      "label": "Tamaño",
+      "value": "La estrella de mar de gránulos rojos puede alcanzar hasta 30 cm de diámetro."
+    },
+    {
+      "label": "Brazos",
+      "value": "Las estrellas solares pueden tener más de 20 brazos, todos con hileras de patas tubulares."
+    },
+    {
+      "label": "Historia",
+      "value": "Los crinoideos habitaron los mares de la Prehistoria en tiempos de los dinosaurios."
+    },
+    {
+      "label": "Hábitat",
+      "value": "Se encuentran a cualquier profundidad del océano, desde la orilla hasta el fondo de las fosas más profundas."
+    }
+  ],
+  "topics": [
+    {
+      "id": "pretty-predators",
+      "title": "Bonitos predadores",
+      "image": "assets/es/star/STAR01PU.webp",
+      "text": "Imagina que eres una almeja a la que atrapa un monstruo sin cabeza con sus múltiples tentáculos, para acabar arrancándote el caparazón del cuerpo con sus cientos de ventosas diminutas. Después, la estrella de mar te desgarra el estómago y termina devorándote mientras todavía estás vivo. ¡Para un molusco, la vista de una estrella de mar hambrienta es algo aterrador!",
+      "narration": "assets/es/star/STAR01JN.mp3"
+    },
+    {
+      "id": "spine-skins",
+      "title": "Espinas por piel",
+      "image": "assets/es/star/STAR02PU.webp",
+      "text": "La especie de los equinodermos no sólo incluye a la estrella de mar, sino también al erizo, los lirios de mar, las holoturias y las ofiuras. La mayoría de los miembros de esta familia tiene espinas para defenderse y su cuerpo está dispuesto simétricamente alrededor de la boca.\n\nUn sistema hidráulico\nEl erizo, la holoturia y la estrella de mar absorben el agua por una serie de válvulas localizadas en las patas, que funcionan como un sistema hidráulico. De esta forma controlan la cantidad de succión que necesitan ejercer para comer o moverse. ¡Y en su medio nunca falta el agua!",
+      "captions": [
+        {
+          "label": "¡En marcha!",
+          "text": "El erizo de mar se desplaza \"caminando\" sobre sus espinas, equipadas con patas tubulares. El erizo de mar es simétrico, con la boca en la parte inferior del cuerpo. ¡Hasta está provisto de fuertes dientes!"
+        }
+      ],
+      "narration": "assets/es/star/STAR02JN.mp3"
+    },
+    {
+      "id": "beautiful-but-brittle",
+      "title": "Bonitas pero frágiles",
+      "image": "assets/es/star/STAR03PU.webp",
+      "text": "La ofiura y la estrella de mar son frágiles miembros de la familia de los equinodermos con un sistema propio de movimiento y alimentación.",
+      "captions": [
+        {
+          "label": "Como cestos",
+          "text": "La estrella de mar es un genio capturando a sus presas. Sus cinco tentáculos se subdividen en brazos de menor tamaño, formando una especie de red con la que rodea el alimento. Descansa durante el día. Por la noche extiende sus redes o zurrones para atrapar a su presa."
+        },
+        {
+          "label": "Ladrones de comida",
+          "text": "La ofiura puede moverse con gran rapidez. Los tentáculos le imprimen un movimiento lateral serpenteante. También le ayudan a la hora de comer, pues recogen las partículas de alimento que arrastra la corriente o arrancan bocados de peces muertos, esponjas y algas."
+        }
+      ],
+      "narration": "assets/es/star/STAR03JN.mp3"
+    },
+    {
+      "id": "rainbow-colors",
+      "title": "Los colores del arco iris",
+      "image": "assets/es/star/STAR04PU.webp",
+      "text": "Hay estrellas de mar de todos los colores del arco iris. Algunas de ellas tienen las tonalidades más bellas de todos los invertebrados marinos.",
+      "captions": [
+        {
+          "label": "Animales multicolores",
+          "text": "La estrella de mar de gránulos rojos abunda en el océano Pacífico y en el Índico. Puede alcanzar hasta 30 cm de diámetro."
+        },
+        {
+          "label": "De un azul brillante",
+          "text": "La estrella de mar azul es tan deslumbrante que casi parece una falsificación del firmamento. Este tipo de estrella vive en las aguas de Australia, Singapur, Sri Lanka, Filipinas y Fidji."
+        }
+      ],
+      "narration": "assets/es/star/STAR04JN.mp3"
+    },
+    {
+      "id": "the-better-to-grab-with",
+      "title": "Lo mejor para agarrar",
+      "image": "assets/es/star/STAR05PU.webp",
+      "text": "Los científicos llaman brazos a las extremidades de la estrella de mar. En realidad no camina con los brazos, sino sobre unos diminutos apéndices situados en la parte inferior. Estos apéndices reciben el nombre de patas tubulares. ¡Por tanto la estrella de mar tiene las patas en los brazos!",
+      "captions": [
+        {
+          "label": "Una hazaña hidráulica",
+          "text": "Las patas tubulares funcionan por la presión del agua. Penetra en la estrella por una serie de canales internos y se recoge en los depósitos de las patas. La estrella de mar puede hacer que el agua entre o salga de sus patas tubulares, extendiéndolas o contrayéndolas para producir una fuerza de succión."
+        },
+        {
+          "label": "Muchos brazos significan muchas patas",
+          "text": "Una pata tiene poca fuerza, pero al mover a un tiempo todas las patas alineadas en los cinco o más brazos de la estrella, la fuerza que ejercen es considerable. Las estrellas solares como ésta pueden tener más de 20 brazos, todos con hileras de patas tubulares."
+        }
+      ],
+      "narration": "assets/es/star/STAR05JN.mp3"
+    },
+    {
+      "id": "get-a-grip",
+      "title": "Cazador nocturno",
+      "image": "assets/es/star/STAR06PU.webp",
+      "text": "La comatula, perteneciente a la familia de los crinoideos, es hermosa pero ladrona. Se alimenta sólo de noche, extendiendo y agitando sus brazos para atrapar las partículas de alimento. Parece flexible, pero en realidad es muy frágil y sus brazos se quiebran con facilidad cuando la atacan. Afortunadamente, vuelven a crecerle con la misma facilidad. Los crinoideos habitaron los mares de la Prehistoria en tiempos de los dinosaurios. De hecho, las pequeñas rocas redondas que antiguamente usaban ciertos nativos como adornos eran en realidad fósiles, es decir, restos de antiguos crinoideos.",
+      "narration": "assets/es/star/STAR06JN.mp3",
+      "captions": [
+        {
+          "label": "Comatula",
+          "text": "Himerometra riobustipinna"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "El pulpo",
+      "to": "octo"
+    },
+    {
+      "label": "La nutria marina",
+      "to": "ottr"
+    },
+    {
+      "label": "Las langostas",
+      "to": "lobs"
+    },
+    {
+      "label": "Los turbelarios",
+      "to": "flat"
+    },
+    {
+      "label": "El plancton",
+      "to": "plan"
+    },
+    {
+      "label": "Las anémonas",
+      "to": "anem"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/star/STAR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 3,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Bonitos predadores",
+            "to": "pretty-predators",
+            "x": 55,
+            "y": 17,
+            "w": 22,
+            "h": 4
+          },
+          {
+            "label": "Lo mejor para agarrar",
+            "to": "the-better-to-grab-with",
+            "x": 44,
+            "y": 29,
+            "w": 29,
+            "h": 4
+          },
+          {
+            "label": "En todas partes",
+            "to": "video",
+            "x": 55,
+            "y": 38,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Los colores del arco iris",
+            "to": "rainbow-colors",
+            "x": 3,
+            "y": 46,
+            "w": 18,
+            "h": 4
+          },
+          {
+            "label": "Bonitas pero frágiles",
+            "to": "beautiful-but-brittle",
+            "x": 3,
+            "y": 69,
+            "w": 23,
+            "h": 4
+          },
+          {
+            "label": "Espinas por piel",
+            "to": "spine-skins",
+            "x": 36,
+            "y": 68,
+            "w": 14,
+            "h": 4
+          },
+          {
+            "label": "Cazador nocturno",
+            "to": "get-a-grip",
+            "x": 28,
+            "y": 78,
+            "w": 13,
+            "h": 4
+          }
+        ]
+      },
+      "pretty-predators": {
+        "image": "assets/es/star/STAR01PU.webp",
+        "back": "main"
+      },
+      "spine-skins": {
+        "image": "assets/es/star/STAR02PU.webp",
+        "back": "main"
+      },
+      "beautiful-but-brittle": {
+        "image": "assets/es/star/STAR03PU.webp",
+        "back": "main"
+      },
+      "rainbow-colors": {
+        "image": "assets/es/star/STAR04PU.webp",
+        "back": "main"
+      },
+      "the-better-to-grab-with": {
+        "image": "assets/es/star/STAR05PU.webp",
+        "back": "main"
+      },
+      "get-a-grip": {
+        "image": "assets/es/star/STAR06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/star/clip.mp4",
+        "poster": "assets/es/star/STAR07PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/star/STAR00JN.mp3",
+  "sound": "assets/es/star/STAR00IX.mp3",
+  "video": {
+    "title": "En todas partes",
+    "src": "assets/es/star/clip.mp4",
+    "poster": "assets/es/star/poster.webp",
+    "caption": "Las estrellas de mar son seres muy adaptables que se encuentran a cualquier profundidad del océano. Algunas especies habitan en la orilla, por lo que quedan expuestas regularmente al aire durante la marea baja. Otras especies viven en lechos de cieno o arena. Y hasta en el fondo de las fosas más profundas encontrarás estrellas de mar que se han adaptado a un medio ambiente frío y sin luz.",
+    "narration": "assets/es/star/STAR07JN.mp3"
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "id": "kbee",
+  "code": "KBEE",
+  "name": "Abeja asesina",
+  "scientificName": "Apis mellifera scutellata",
+  "needsScientificVerify": false,
+  "tagline": "¡La abeja más temida del mundo vive en enjambres furiosos y no olvida a quienes se acercan demasiado!",
+  "weapons": [
+    "Veneno y ponzoña",
+    "Aguijones"
+  ],
+  "habitats": [
+    "Praderas y sabanas",
+    "Ciudades y campos"
+  ],
+  "regions": [
+    "África",
+    "Norteamérica",
+    "Centroamérica",
+    "Sudamérica"
+  ],
+  "hero": {
+    "image": "assets/es/kbee/KBEE00AA.webp",
+    "alt": "Abeja asesina"
+  },
+  "intro": "La historia de la abeja asesina comienza en los años 50, cuando un científico brasileño buscaba razas de abejas apropiadas para climas tropicales. Sabía que las abejas africanas eran agresivas pero producían buena miel en condiciones de calor extremo. Por eso decidió cruzar abejas africanas con apacibles abejas europeas con la esperanza de obtener una abeja híbrido que produjera miel pacíficamente en Sudamérica. El experimento sólo tuvo un éxito parcial, pues aunque los híbridos producían más miel, picaban con fiereza a los colmeneros. Más tarde, estas \"abejas asesinas\" escaparon y empezaron a extenderse hacia el norte.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Se defiende con un aguijón venenoso.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Polen, néctar y miel.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Las abejas asesinas son más agresivas que las comunes. Un enjambre de estos iracundos insectos puede picar muchas veces por segundo.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "1,5 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "África, Estados Unidos, México, Centroamérica y Sudamérica",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "family-tree",
+      "title": "Árbol familiar",
+      "image": "assets/es/kbee/KBEE01PU.webp",
+      "text": "¿Sabes que la abeja es una clase de avispa? Cuando hace 100 millones de años aparecieron las plantas con flores algunas avispas cazadoras decidieron abandonar su vida aventurera para alimentarse a base de polen y néctar. Estas avispas vegetarianas fueron las primeras abejas.",
+      "captions": [
+        {
+          "label": "¿Espíritu de grupo?",
+          "text": "Como muchas avispas, las que ves aquí son insectos sociales. Otras avispas, incluidas aquellas a partir de las cuales evolucionaron las abejas, viven en solitario."
+        },
+        {
+          "label": "Comida para las crías",
+          "text": "Las avispas adultas suelen alimentarse de néctar, pero como en su mayor parte las crías son carnívoras, la madre ha de conseguirles carne. Esta avispa alhaja está picando a una cucaracha en la que pondrá su huevo, de forma que, cuando nazca, el gusano pueda comerse el insecto."
+        }
+      ],
+      "narration": "assets/es/kbee/KBEE01NP.mp3"
+    },
+    {
+      "id": "swarm-harm",
+      "title": "Enjambre dañino",
+      "image": "assets/es/kbee/KBEE02PU.webp",
+      "text": "El veneno de las abejas asesinas no es más fuerte que el de la común, pero aquellas pican más. No se puede distinguir a simple vista a las abejas asesinas de las comunes, así que para estar seguro aléjate de cualquier colmena.",
+      "captions": [
+        {
+          "label": "Defensa mortal",
+          "text": "Cuando te pica una abeja, el aguijón estriado y el saco de veneno se desprenden de su cuerpo (produciéndole la muerte) y se quedan en tu piel. El saco de veneno sigue bombeando su contenido y libera unas sustancias químicas que incitan a picar a las abejas que están próximas."
+        },
+        {
+          "label": "Punto de origen",
+          "text": "Las abejas asesinas llegaron a Brasil desde África hacia 1940. Cada año están más extendidas."
+        }
+      ],
+      "narration": "assets/es/kbee/KBEE02NP.mp3"
+    },
+    {
+      "id": "sweet-treat",
+      "title": "Un pacto dulce",
+      "image": "assets/es/kbee/KBEE03PU.webp",
+      "text": "¿Te parece extraño pensar que la abeja es un animal doméstico? Pues lo es. ¡Hace ya más de 3.000 años que el hombre fabrica colmenas y cría abejas para utilizar su miel!",
+      "narration": "assets/es/kbee/KBEE03NP.mp3"
+    },
+    {
+      "id": "danger-in-the-flowers",
+      "title": "El peligro acecha en las flores",
+      "image": "assets/es/kbee/KBEE04PU.webp",
+      "text": "Las abejas de África tienen muchos enemigos: posiblemente ésa es la razón de que sean tan agresivas. Se las comen los pájaros, lagartos, ranas, otros insectos... ¡incluso algunos mamíferos! Las que crían los apicultores europeos tienen menos enemigos, por lo que pueden ser más dóciles. No obstante, la abeja que sale a buscar alimento ha de estar alerta si quiere regresar a salvo a la colmena.",
+      "captions": [
+        {
+          "label": "Peligro oculto",
+          "text": "Incluso en los jardines americanos, un insecto ha de prestar atención a los peligros... ¡si no desea acabar como este pobre abejorro!"
+        },
+        {
+          "label": "Riesgo espinoso",
+          "text": "Mientras investiga una orquídea, una abeja puede verse apresada de pronto entre las garras de esta criatura."
+        }
+      ],
+      "narration": "assets/es/kbee/KBEE04NP.mp3"
+    },
+    {
+      "id": "bee-business",
+      "title": "Un trabajo de abeja",
+      "image": "assets/es/kbee/KBEE05PU.webp",
+      "text": "Las abejas son las primeras polinizadoras del mundo. Una abeja se impregna de polen dorado cuando visita una flor en su búsqueda del néctar dulce y energético. Al pasar a otra flor, parte de aquel polen cae en ésta y la fertiliza. Estos animales también ayudan a polinizar las plantas por su costumbre de ir de flor en flor.",
+      "captions": [
+        {
+          "label": "Mariposas",
+          "text": "La mayoría de las mariposas se alimenta del néctar de las flores; pero algunas, como esta ninfálida u oruga del Heliconio, se alimentan de polen."
+        },
+        {
+          "label": "Murciélagos",
+          "text": "Los murciélagos frugívoros o zorros voladores se alimentan de la pulpa de la fruta, aunque a algunos les gusta también el néctar y el polen de las flores."
+        },
+        {
+          "label": "Avispas",
+          "text": "Casi todas las avispas viven del néctar de las flores, igual que las abejas. Pero a algunas les gustan también otros líquidos, como el zumo de las frutas."
+        }
+      ],
+      "narration": "assets/es/kbee/KBEE05NP.mp3"
+    },
+    {
+      "id": "special-signals",
+      "title": "Señales especiales",
+      "image": "assets/es/kbee/KBEE06PU.webp",
+      "text": "Como las plantas no se mueven, algunas necesitan de las abejas y otros animales para que lleven de una a otra su material reproductivo: es decir, el polen. Con ese fin han desarrollado muchas formas de atraer a los animales (sobre todo a los insectos).",
+      "captions": [
+        {
+          "label": "Las rodillas de la abeja",
+          "text": "La abeja hembra recoge el polen pegado a su cuerpo utilizando las patas delanteras (los machos no lo recolectan). Después lo guarda en unas cestas que ha formado con los resistentes pelos de las patas traseras. Así puede llevar a la colmena el polen, rico en proteínas, y dar de comer a las larvas."
+        },
+        {
+          "label": "Pista de aterrizaje",
+          "text": "Las flores tienen unas marcas especiales, llamadas «guías de miel», que conducen al néctar. Para nosotros sólo son visibles con luz ultravioleta (como en esta fotografía), pero las abejas las ven con sus ojos."
+        }
+      ],
+      "narration": "assets/es/kbee/KBEE06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/kbee/KBEE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 6.28,
+            "y": 7.24,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Un trabajo de abeja",
+            "to": "bee-business",
+            "x": 75.49,
+            "y": 6.38,
+            "w": 10.73,
+            "h": 4.13
+          },
+          {
+            "label": "Un pacto dulce",
+            "to": "sweet-treat",
+            "x": 81.43,
+            "y": 39.28,
+            "w": 1.67,
+            "h": 3.7
+          },
+          {
+            "label": "Enjambre dañino",
+            "to": "swarm-harm",
+            "x": 63,
+            "y": 47,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Árbol familiar",
+            "to": "family-tree",
+            "x": 63,
+            "y": 54,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "¡Demasiado defensivas!",
+            "to": "video",
+            "x": 37.06,
+            "y": 61.35,
+            "w": 11.82,
+            "h": 4.13
+          },
+          {
+            "label": "El peligro acecha en las flores",
+            "to": "danger-in-the-flowers",
+            "x": 27,
+            "y": 67,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Señales especiales",
+            "to": "special-signals",
+            "x": 27,
+            "y": 75,
+            "w": 20,
+            "h": 5
+          }
+        ]
+      },
+      "family-tree": {
+        "image": "assets/es/kbee/KBEE01PU.webp",
+        "back": "main"
+      },
+      "swarm-harm": {
+        "image": "assets/es/kbee/KBEE02PU.webp",
+        "back": "main"
+      },
+      "sweet-treat": {
+        "image": "assets/es/kbee/KBEE03PU.webp",
+        "back": "main"
+      },
+      "danger-in-the-flowers": {
+        "image": "assets/es/kbee/KBEE04PU.webp",
+        "back": "main"
+      },
+      "bee-business": {
+        "image": "assets/es/kbee/KBEE05PU.webp",
+        "back": "main"
+      },
+      "special-signals": {
+        "image": "assets/es/kbee/KBEE06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/kbee/KBEE00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/kbee/clip.mp4",
+        "poster": "assets/es/kbee/KBEE07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/kbee/narration.mp3",
+  "sound": "assets/es/kbee/KBEE00AF.mp3",
+  "factsNarration": "assets/es/kbee/KBEE00FB.mp3",
+  "video": {
+    "title": "¡Demasiado defensivas!",
+    "src": "assets/es/kbee/clip.mp4",
+    "poster": "assets/es/kbee/poster.webp",
+    "caption": "A las abejas no le suele gustar el clima húmedo. Las africanas, de las que descienden las abejas asesinas, evolucionaron en un clima cálido y soportan las altas temperaturas. Por eso los científicos pensaron que se portarían bien en el Brasil tropical; pero no ha sido así: en cuanto alguien se acerca a su colmena, le atacan inmediatamente."
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "teet",
+  "code": "TEET",
+  "name": "Dientes",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Cortadores dentados y trituradores con forma de diamante: los dientes de los dinosaurios estaban perfectamente diseñados para su cometido.",
+  "hero": {
+    "image": "assets/teet/TEET00AA.webp",
+    "alt": "Dientes"
+  },
+  "intro": "Los restos fosilizados de dinosaurios pueden contarnos mucho sobre lo que comían estos animales cuando vivían. Los dinosaurios carnívoros, como el Albertosaurio o el Megalosaurio, tenían dientes enormes, muy puntiagudos y curvados hacia atrás para sujetar mejor a sus presas. Si se observan de cerca los dientes de los carnívoros, se aprecia que los bordes están serrados como cuchillos de carne. Estas sierras les ayudaban a cortar profundamente en la carne de sus víctimas. Los dinosaurios herbívoros, en cambio, tenían dientes de muy distintos tipos. Algunos, como el Diplodocus, tenían dientes finos, romos y alargados, parecidos a lápices, que usaban simplemente para barrer hojas y agujas de coníferas. El Camarasaurio tenía las mandíbulas repletas de afilados dientes recortadores con los que cortaba hojas y tallos.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "famous-tooth",
+      "title": "El diente famoso",
+      "image": "assets/teet/TEET01PU.webp",
+      "text": "Uno de los primeros descubridores de fósiles de dinosaurios fue el médico inglés Gideon Mantell. Según se cuenta, en 1820 la esposa de Mantell, Mary Ann, le trajo al doctor unos grandes dientes fosilizados. Unos trabajadores de una cantera cercana encontraron más huesos, lo que animó al doctor Mantell a investigar el hallazgo. Como el diente fosilizado se parecía mucho al diente de la iguana moderna, el doctor Mantell llegó a la conclusión de que los fósiles pertenecían a algún enorme reptil antiguo. Lo llamó Iguanodón, que significa «diente de iguana».",
+      "captions": [
+        {
+          "label": "Dientes de Iguanodón descubiertos por Gideon Mantell",
+          "text": "Dientes de Iguanodón descubiertos por Gideon Mantell"
+        }
+      ]
+    },
+    {
+      "id": "killers",
+      "title": "Depredadores",
+      "image": "assets/teet/TEET02PU.webp",
+      "text": "Los dientes afilados y puntiagudos del Tiranosaurio rex son una clara señal de que era carnívoro. Sus feroces dientes, con forma de cuchillo, ¡llegaban a medir hasta dieciocho centímetros de largo! La mordedura del Tiranosaurio rex podía arrancar enormes pedazos de carne de sus presas. Este antiguo carnívoro fue uno de los animales comedores de carne más grandes que jamás hayan vivido en tierra firme.",
+      "captions": [
+        {
+          "label": "Cráneo de Tiranosaurio rex",
+          "text": "Cráneo de Tiranosaurio rex"
+        },
+        {
+          "label": "Cortador de carne",
+          "text": "Este gran diente curvado de Megalosaurio muestra los bordes serrados que actuaban como una sierra al cortar la carne de sus presas. Los dientes siempre apuntaban hacia atrás para dificultar la huida de la víctima. Las grietas de este diente se produjeron durante la fosilización."
+        }
+      ]
+    },
+    {
+      "id": "gnashers",
+      "title": "Trituradores",
+      "image": "assets/teet/TEET03PU.webp",
+      "text": "Los dinosaurios herbívoros se adaptaron a su dieta de muy diversas maneras. Los dinosaurios de pico de pato tenían una impresionante variedad de dientes: cientos de dientes afilados con forma de diamante recubrían ambos lados de las mandíbulas superior e inferior. Estas baterías de dientes funcionaban como una raspa de madera para triturar la materia vegetal. Otros herbívoros tenían dientes con forma de cuchara, muy útiles para arrancar plantas. Los herbívoros cuadrúpedos más grandes no podían masticar su alimento. Lo recogían con dientes en forma de clavija. Su comida se aplastaba y procesaba a su paso por la molleja.",
+      "captions": [
+        {
+          "label": "Diente de saurópodo con forma de cuchara",
+          "text": "Diente de saurópodo con forma de cuchara"
+        },
+        {
+          "label": "Diente de saurópodo con forma de clavija",
+          "text": "Diente de saurópodo con forma de clavija"
+        },
+        {
+          "label": "Dientes de dinosaurio de pico de pato",
+          "text": "Dientes de dinosaurio de pico de pato"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaur Diets",
+      "to": "diet"
+    },
+    {
+      "label": "Bernissart Dinosaur Mine",
+      "to": "mine"
+    },
+    {
+      "label": "Teeth of Meat-eaters",
+      "to": "mete"
+    },
+    {
+      "label": "Teeth of Plant-eaters",
+      "to": "ptee"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/teet/TEET00AA.webp",
+        "hotspots": [
+          {
+            "label": "El diente famoso",
+            "to": "famous-tooth",
+            "x": 2,
+            "y": 74,
+            "w": 22,
+            "h": 10
+          },
+          {
+            "label": "Depredadores",
+            "to": "killers",
+            "x": 28,
+            "y": 62,
+            "w": 17,
+            "h": 9
+          },
+          {
+            "label": "Trituradores",
+            "to": "gnashers",
+            "x": 65,
+            "y": 38,
+            "w": 22,
+            "h": 9
+          }
+        ]
+      },
+      "famous-tooth": {
+        "image": "assets/teet/TEET01PU.webp",
+        "back": "main"
+      },
+      "killers": {
+        "image": "assets/teet/TEET02PU.webp",
+        "back": "main"
+      },
+      "gnashers": {
+        "image": "assets/teet/TEET03PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/teet/TEET00AP.mp3",
+  "narration": "assets/teet/TEET00AJ.mp3",
+  "sound": "assets/teet/TEET00SA.mp3",
+  "fanTranslation": true
+}

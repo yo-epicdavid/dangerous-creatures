@@ -1,0 +1,270 @@
+{
+  "id": "fsal",
+  "code": "FSAL",
+  "name": "Salamandra común",
+  "scientificName": "Salamandra salamandra",
+  "needsScientificVerify": false,
+  "tagline": "¡Sus colores negro y amarillo gritan: no me comas!",
+  "weapons": [
+    "Veneno y ponzoña"
+  ],
+  "habitats": [
+    "Bosques"
+  ],
+  "regions": [
+    "África",
+    "Asia",
+    "Europa"
+  ],
+  "hero": {
+    "image": "assets/es/fsal/FSAL00AA.webp",
+    "alt": "Salamandra común"
+  },
+  "intro": "Estas salamandras podrían ser la última comida de un predador. El veneno que rezuma de las glándulas que tienen detrás de los ojos podría matar a un animal pequeño. El hecho de que tenga los mismos colores de la avispa no es una coincidencia: los colores negro y amarillo advierten a los otros animales que es peligroso comérsela.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Se defiende lanzando veneno desde unas glándulas que tiene en la cabeza.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Insectos y gusanos",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Cuando se la molesta, una salamandra puede lanzar un chorro de veneno a más de 2 metros de distancia. ¡Si alcanza a la víctima en los ojos, se queda ciega hasta 20 minutos!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 30 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: Europa, Africa, Asia",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "whats-a-newt",
+      "title": "¿Qué es un tritón?",
+      "image": "assets/es/fsal/FSAL01PU.webp",
+      "text": "Los tritones son salamandras que viven sobre todo en el agua. Como las otras salamandras, sus colores y diseños son muy variados. Tanto vistos desde arriba como desde abajo, son realmente hermosos.",
+      "captions": [
+        {
+          "label": "Tritón de vientre de fuego",
+          "text": "China y Japón"
+        },
+        {
+          "label": "Tritón palmeado",
+          "text": "Europa occidental"
+        },
+        {
+          "label": "Tritón alpino",
+          "text": "Europa: Alpes y otras zonas"
+        },
+        {
+          "label": "Tritón crestado grande",
+          "text": "Europa"
+        },
+        {
+          "label": "Tritón italiano",
+          "text": "Europa meridional"
+        },
+        {
+          "label": "Tritón jaspeado",
+          "text": "Francia y España"
+        }
+      ],
+      "narration": "assets/es/fsal/FSAL01NP.mp3"
+    },
+    {
+      "id": "its-all-in-the-head",
+      "title": "¡Todo está en la cabeza!",
+      "image": "assets/es/fsal/FSAL02PU.webp",
+      "text": "Los grandes bultos que tiene una salamandra tras los ojos son unas glándulas que rezuman un líquido lechoso y venenoso. Este veneno quema si alcanza a un predador en los ojos o la boca. Algunas salamandras son tan venenosas que pueden matar al animal que intente comérselas.",
+      "captions": [
+        {
+          "label": "Glándulas venenosas o parótidas",
+          "text": "Glándulas venenosas o parótidas"
+        }
+      ],
+      "narration": "assets/es/fsal/FSAL02NP.mp3"
+    },
+    {
+      "id": "growing-up",
+      "title": "¡A crecer!",
+      "image": "assets/es/fsal/FSAL03PU.webp",
+      "text": "Aunque algunas salamandras (incluyendo la común) paren, la mayoría pone huevos en el agua. Pero tanto si el proceso tiene lugar en el agua como dentro del cuerpo de la madre, las salamandras jóvenes sufrirán muchos cambios antes de convertirse en adultas.",
+      "captions": [
+        {
+          "label": "Al cabo de dos meses",
+          "text": "Fíjate en las branquias plumosas que utiliza este joven tritón para respirar bajo el agua. Las patas delanteras han crecido más que las traseras y la cola empieza a cobrar forma."
+        },
+        {
+          "label": "Todavía con branquias",
+          "text": "Esta salamandra joven empieza a parecerse a un adulto. Pero todavía conserva las branquias."
+        }
+      ],
+      "narration": "assets/es/fsal/FSAL03NP.mp3"
+    },
+    {
+      "id": "feet-for-all-purposes",
+      "title": "Patas para todos los usos",
+      "image": "assets/es/fsal/FSAL04PU.webp",
+      "text": "Cada tipo de salamandra tiene unas patas distintas. Las patas de la salamandra están adaptadas a sus distintas formas de vida. Si alguien te enseña una salamandra y te pregunta dónde vive, para tener una pista lo primero que debes hacer es mirarle las patas.",
+      "captions": [
+        {
+          "label": "Salamandra mandarina",
+          "text": "Esta pata plana tiene los dedos fuertes y no está palmeada. Es ideal para excavar."
+        },
+        {
+          "label": "Ajolote o axolote tigrado",
+          "text": "Como los dedos son largos y no está palmeada, esta pata se utiliza sobre todo para caminar y excavar."
+        },
+        {
+          "label": "Tritón palmeado",
+          "text": "Si pensaste que este tritón utiliza las patas palmeadas para nadar, acertaste."
+        },
+        {
+          "label": "Tritón de cola aplanada",
+          "text": "Esta patita tiene unos dedos cortos y palmeados, lo que indica que este animal puede nadar y trepar por superficies resbaladizas."
+        }
+      ],
+      "narration": "assets/es/fsal/FSAL04NP.mp3"
+    },
+    {
+      "id": "tough-guys",
+      "title": "Chicos duros",
+      "image": "assets/es/fsal/FSAL05PU.webp",
+      "text": "La gente cree que todas las salamandras son animales apacibles, pero estas tres pegan duro.",
+      "captions": [
+        {
+          "label": "Es peligrosa, se llame como se llame",
+          "text": "Esta salamandra se conoce con los nombres de salamandra mandarina, tritón rayado naranja, tritón emperador o tritón cocodrilo. La llames como la llames: ¡es peligrosa! Cuando se enfada lanza veneno desde los bultos anaranjados de la piel."
+        },
+        {
+          "label": "La mayor de las de tierra",
+          "text": "De una longitud próxima a los 40 centímetros, el ajolote o axolote tigrado es la salamandra de tierra más grande. Este animal come cualquier cosa que le quepa en la boca."
+        },
+        {
+          "label": "Poderoso veneno",
+          "text": "El tritón californiano está repleto de uno de los venenos más potentes del mundo de las salamandras: la misma toxina mortal que en el mar tiene el pez globo."
+        }
+      ],
+      "narration": "assets/es/fsal/FSAL05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/fsal/FSAL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.02,
+            "y": 8.76,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Chicos duros",
+            "to": "tough-guys",
+            "x": 8,
+            "y": 23,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "¡A crecer!",
+            "to": "growing-up",
+            "x": 11,
+            "y": 33,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "¡Todo está en la cabeza!",
+            "to": "its-all-in-the-head",
+            "x": 53,
+            "y": 21,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "Patas para todos los usos",
+            "to": "feet-for-all-purposes",
+            "x": 78.31,
+            "y": 24.77,
+            "w": 10.89,
+            "h": 4.13
+          },
+          {
+            "label": "¿Qué es un tritón?",
+            "to": "whats-a-newt",
+            "x": 48.15,
+            "y": 75.21,
+            "w": 9.17,
+            "h": 4.13
+          },
+          {
+            "label": "Variedad de salamandras",
+            "to": "video",
+            "x": 34.09,
+            "y": 81.92,
+            "w": 10.73,
+            "h": 4.13
+          }
+        ]
+      },
+      "whats-a-newt": {
+        "image": "assets/es/fsal/FSAL01PU.webp",
+        "back": "main"
+      },
+      "its-all-in-the-head": {
+        "image": "assets/es/fsal/FSAL02PU.webp",
+        "back": "main"
+      },
+      "growing-up": {
+        "image": "assets/es/fsal/FSAL03PU.webp",
+        "back": "main"
+      },
+      "feet-for-all-purposes": {
+        "image": "assets/es/fsal/FSAL04PU.webp",
+        "back": "main"
+      },
+      "tough-guys": {
+        "image": "assets/es/fsal/FSAL05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/fsal/FSAL00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/fsal/clip.mp4",
+        "poster": "assets/es/fsal/FSAL06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/fsal/narration.mp3",
+  "sound": "assets/es/fsal/FSAL00AF.mp3",
+  "factsNarration": "assets/es/fsal/FSAL00FB.mp3",
+  "video": {
+    "title": "Variedad de salamandras",
+    "src": "assets/es/fsal/clip.mp4",
+    "poster": "assets/es/fsal/poster.webp",
+    "caption": "Las salamandras presentan una increíble variedad de dibujos y colores. Este ajolote o axolote punteado mide unos 15 centímetros de largo y vive en los bosques de Norteamérica."
+  }
+}

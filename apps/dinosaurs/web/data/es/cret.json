@@ -1,0 +1,258 @@
+{
+  "id": "cret",
+  "code": "CRET",
+  "name": "El Período Cretácico",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "kreh-TAY-shus",
+  "meaning": "",
+  "period": "Cretácico",
+  "diet": "",
+  "tagline": "Las flores florecieron, gigantes cornudos vagaban en manadas y, hace 65 millones de años, todo se apagó.",
+  "hero": {
+    "image": "assets/cret/CRET00AA.webp",
+    "alt": "El Período Cretácico"
+  },
+  "intro": "Al comienzo del periodo Cretácico, el clima empezó a secarse un poco. En las zonas del norte eran comunes los bosques de robustas coníferas, cícadas y ginkgos, y en las regiones ecuatoriales había sabanas sin árboles cubiertas de helechos y colas de caballo. Los grandes dinosaurios herbívoros del Jurásico fueron sustituidos por nuevas formas de herbívoros. Las plantas con flor aparecieron y pronto dominaron el paisaje.",
+  "facts": [
+    {
+      "label": "Fin del periodo",
+      "value": "Hace unos 65 millones de años"
+    },
+    {
+      "label": "Aparición de las angiospermas",
+      "value": "Hace unos 90 millones de años"
+    },
+    {
+      "label": "Plantas con flor en la actualidad",
+      "value": "Más de las cuatro quintas partes de las especies vegetales actuales"
+    },
+    {
+      "label": "Longitud del Deinosuchus",
+      "value": "Hasta cuarenta y nueve pies de longitud"
+    },
+    {
+      "label": "Altura de Hesperornis",
+      "value": "Aproximadamente tres pies de altura"
+    },
+    {
+      "label": "Longitud de Purgatorius",
+      "value": "Diez pulgadas"
+    },
+    {
+      "label": "Longitud de Alphadon",
+      "value": "Aproximadamente un pie de longitud"
+    }
+  ],
+  "topics": [
+    {
+      "id": "bunches-of-beasts",
+      "title": "Manadas de bestias",
+      "image": "assets/cret/CRET01PU.webp",
+      "text": "Muchos tipos diferentes de dinosaurios abundaban durante este periodo. Las huellas fósiles nos han demostrado que algunos dinosaurios vivían en manadas o se reunían en grupos para protegerse de los depredadores."
+    },
+    {
+      "id": "flower-power",
+      "title": "El poder de las flores",
+      "image": "assets/cret/CRET02PU.webp",
+      "text": "Esta es una colección de plantas que habrían existido a mediados del periodo Cretácico. Al comienzo del periodo no había plantas con flor. La vegetación principal estaba formada por gimnospermas (plantas de «semilla desnuda»), como los árboles coníferos y las cícadas, además de helechos con semillas y musgos. Hace unos 90 millones de años, las plantas con flor —conocidas como angiospermas (plantas de «semilla encerrada»)— empezaron a aparecer. Nuestro mundo actual está dominado por las angiospermas. Las plantas con flor representan hoy más de las cuatro quintas partes de las especies vegetales vivas.",
+      "captions": [
+        {
+          "label": "Una nueva alianza",
+          "text": "Las flores brindaron a los insectos la oportunidad de evolucionar. Las moscas, las abejas y las mariposas trasladaban el polen de una flor a otra, fecundando las plantas en flor. Algunas flores desarrollaron un néctar azucarado para atraer a los insectos hacia su polen."
+        }
+      ]
+    },
+    {
+      "id": "the-emergence-of-mammals",
+      "title": "La aparición de los mamíferos",
+      "image": "assets/cret/CRET03PU.webp",
+      "text": "Muchos mamíferos habían aparecido ya en el Cretácico Tardío. La mayoría eran pequeños y tímidos, y su dieta consistía en una variedad de flores, frutos, insectos y gusanos.",
+      "captions": [
+        {
+          "label": "Precursor de los mamíferos",
+          "text": "Cynognathus, un reptil de aspecto mamífero, existió durante el periodo Triásico."
+        },
+        {
+          "label": "Alphadon",
+          "text": "Una criatura parecida a una zarigüeya de aproximadamente un pie de longitud, Alphadon tenía una cola larga y dedos prensiles que le permitían vivir en los árboles."
+        },
+        {
+          "label": "Purgatorius",
+          "text": "Este mamífero de diez pulgadas de longitud solo se conoce por sus dientes fósiles, que indican que fue uno de los primeros primates —el grupo de mamíferos que incluye monos, simios y humanos—."
+        }
+      ]
+    },
+    {
+      "id": "troops-of-triceratops",
+      "title": "Manadas de Triceratops",
+      "image": "assets/cret/CRET04PU.webp",
+      "text": "Los ceratópsidos, o dinosaurios cornudos, fueron algunos de los últimos dinosaurios de la Tierra. La proximidad de los nidos fósiles nos indica que ceratópsidos como el Triceratops probablemente criaban a sus crías en grupos familiares y viajaban en manadas. Es posible que se reunieran en círculo defensivo cuando se sentían amenazados."
+    },
+    {
+      "id": "giant-crocodiles",
+      "title": "Cocodrilos gigantes",
+      "image": "assets/cret/CRET05PU.webp",
+      "text": "Deinosuchus, un cocodrilo prehistórico que pudo alcanzar hasta cuarenta y nueve pies de longitud, merodeaba por las aguas poco profundas de lagos y ríos, esperando para emboscar a los dinosaurios que se acercaban a beber. Los cocodrilos fueron reptiles muy exitosos: sobrevivieron a la extinción de los dinosaurios y, aunque hoy son más pequeños que sus primos prehistóricos, siguen existiendo en muchas partes del mundo."
+    },
+    {
+      "id": "early-birds",
+      "title": "Las primeras aves",
+      "image": "assets/cret/CRET06PU.webp",
+      "text": "En el Cretácico Tardío, muchas aves compartían el cielo con los pterosaurios, o lagartos voladores. Las aves sobrevivieron al periodo Cretácico, pero los pterosaurios no.",
+      "captions": [
+        {
+          "label": "Gran volador",
+          "text": "Ichthyornis probablemente se lanzaba en picado para atrapar peces, como un charrán moderno. Es el primer ave conocida que tenía un esternón robusto con una cresta o quilla, que servía de anclaje para los músculos que batían las alas."
+        },
+        {
+          "label": "Gran nadador",
+          "text": "Hesperornis era un ave piscívora de aproximadamente tres pies de altura, con un pico lleno de dientes para sujetar a sus escurridizas presas."
+        }
+      ]
+    },
+    {
+      "id": "end-of-the-line",
+      "title": "El final del camino",
+      "image": "assets/cret/CRET07PU.webp",
+      "text": "Al final del periodo Cretácico, hace unos 65 millones de años, todos los dinosaurios desaparecieron. Junto con los dinosaurios, los reptiles marinos y los reptiles voladores también se extinguieron. Muchas criaturas del mar, como los ammonites, también desaparecieron para siempre. ¿Qué tipo de catástrofe pudo haber causado la muerte de tantos animales? Aunque tenemos muchas teorías, no lo sabemos con certeza."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Life After Dinosaurs",
+      "to": "aftr"
+    },
+    {
+      "label": "Footprints",
+      "to": "foot"
+    },
+    {
+      "label": "Plant-eaters",
+      "to": "plan"
+    },
+    {
+      "label": "Warm-blooded or Cold-blooded?",
+      "to": "warm"
+    },
+    {
+      "label": "Nests and Eggs",
+      "to": "nest"
+    },
+    {
+      "label": "Deinosuchus",
+      "to": "dhus"
+    },
+    {
+      "label": "Reptiles of the Air",
+      "to": "rair"
+    },
+    {
+      "label": "Marching to Extinction",
+      "to": "extt"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/cret/CRET00AA.webp",
+        "hotspots": [
+          {
+            "label": "Manadas de bestias",
+            "to": "bunches-of-beasts",
+            "x": 6,
+            "y": 23,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Cocodrilos gigantes",
+            "to": "giant-crocodiles",
+            "x": 4,
+            "y": 41,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Las primeras aves",
+            "to": "early-birds",
+            "x": 4,
+            "y": 63,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "La aparición de los mamíferos",
+            "to": "the-emergence-of-mammals",
+            "x": 6,
+            "y": 71,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "El final del camino",
+            "to": "end-of-the-line",
+            "x": 66,
+            "y": 24,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Manadas de Triceratops",
+            "to": "troops-of-triceratops",
+            "x": 57,
+            "y": 57,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "El poder de las flores",
+            "to": "flower-power",
+            "x": 71,
+            "y": 67,
+            "w": 18,
+            "h": 5
+          }
+        ]
+      },
+      "bunches-of-beasts": {
+        "image": "assets/cret/CRET01PU.webp",
+        "back": "main"
+      },
+      "flower-power": {
+        "image": "assets/cret/CRET02PU.webp",
+        "back": "main"
+      },
+      "the-emergence-of-mammals": {
+        "image": "assets/cret/CRET03PU.webp",
+        "back": "main"
+      },
+      "troops-of-triceratops": {
+        "image": "assets/cret/CRET04PU.webp",
+        "back": "main"
+      },
+      "giant-crocodiles": {
+        "image": "assets/cret/CRET05PU.webp",
+        "back": "main"
+      },
+      "early-birds": {
+        "image": "assets/cret/CRET06PU.webp",
+        "back": "main"
+      },
+      "end-of-the-line": {
+        "image": "assets/cret/CRET07PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/cret/CRET00AP.mp3",
+  "narration": "assets/cret/CRET00AJ.mp3",
+  "sound": "assets/cret/CRET00SA.mp3",
+  "fanTranslation": true
+}

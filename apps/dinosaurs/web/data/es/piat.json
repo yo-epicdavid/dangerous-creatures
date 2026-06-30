@@ -1,0 +1,129 @@
+{
+  "id": "piat",
+  "code": "PIAT",
+  "name": "Piatnitzkysaurus",
+  "category": "dinosaur",
+  "scientificName": "Piatnitzkysaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "pyat-NITS-kee-SOR-us",
+  "meaning": "lagarto de Piatnitzky",
+  "period": "Jurásico superior",
+  "diet": "Carnívoro",
+  "tagline": "¡La mitad de grande que el Alosaurio, pero igual de letal! Este cazador argentino tenía dientes como cuchillos y garras mortales.",
+  "hero": {
+    "image": "assets/piat/PIAT00AA.webp",
+    "alt": "Piatnitzkysaurus"
+  },
+  "intro": "Al igual que su primo mayor el Alosaurio, el Piatnitzkysaurus era un temible carnívoro. Durante el Jurásico Medio y Superior, este dinosaurio primitivo acechaba las llanuras de lo que hoy es Argentina en busca de herbívoros que devorar.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "América del Sur"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto de Piatnitzky"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Terópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "4,3 m (14 ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "predator-and-prey",
+      "title": "Depredador y presa",
+      "image": "assets/piat/PIAT01PU.webp",
+      "text": "Cerca del Cerro Cóndor, en Argentina, los paleontólogos descubrieron tanto al Piatnitzkysaurus como a otro dinosaurio, el Patagosaurus. Como el Piatnitzkysaurus era carnívoro y el Patagosaurus era herbívoro, los expertos especulan que el Piatnitzkysaurus cazaba al más lento Patagosaurus.",
+      "captions": [
+        {
+          "label": "Lento pero seguro",
+          "text": "Los saurópodos como el Patagosaurus quizá eran lentos, pero tenían algunos trucos defensivos propios. Si su tamaño no bastaba para ahuyentar a un depredador hambriento, este dinosaurio podía golpear con su cola a modo de látigo, asestando un duro golpe a su atacante."
+        }
+      ]
+    },
+    {
+      "id": "carnivore-cousins",
+      "title": "Primos carnívoros",
+      "image": "assets/piat/PIAT02PU.webp",
+      "text": "Aunque el Piatnitzkysaurus era aproximadamente la mitad de grande que su pariente norteamericano, el Alosaurio, estos dos dinosaurios carnívoros tenían mucho en común.",
+      "captions": [
+        {
+          "label": "El temible dúo",
+          "text": "Ambos dinosaurios tenían bocas grandes, repletas de dientes en forma de cuchillo para desgarrar a sus presas, además de intimidantes garras tanto en las manos como en los pies."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Allosaurus",
+      "to": "allo"
+    },
+    {
+      "label": "Skulls of Meat-eaters",
+      "to": "carn"
+    },
+    {
+      "label": "Tarbosaurus",
+      "to": "tarb"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/piat/PIAT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Primos carnívoros",
+            "to": "carnivore-cousins",
+            "x": 71,
+            "y": 14,
+            "w": 27,
+            "h": 7
+          },
+          {
+            "label": "Depredador y presa",
+            "to": "predator-and-prey",
+            "x": 68,
+            "y": 46,
+            "w": 26,
+            "h": 7
+          }
+        ]
+      },
+      "predator-and-prey": {
+        "image": "assets/piat/PIAT01PU.webp",
+        "back": "main"
+      },
+      "carnivore-cousins": {
+        "image": "assets/piat/PIAT02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/piat/PIAT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/piat/PIAT00AP.mp3",
+  "narration": "assets/piat/PIAT00AJ.mp3",
+  "fanTranslation": true
+}

@@ -1,0 +1,250 @@
+{
+  "id": "boac",
+  "code": "BOAC",
+  "name": "Boa",
+  "scientificName": "Boa constrictor",
+  "needsScientificVerify": false,
+  "tagline": "¡Abraza tan fuerte que te deja sin aliento!",
+  "weapons": [
+    "Constricción"
+  ],
+  "habitats": [
+    "Selva tropical"
+  ],
+  "regions": [
+    "África",
+    "Asia",
+    "Sudamérica",
+    "Australia y Oceanía"
+  ],
+  "hero": {
+    "image": "assets/es/boac/BOAC00AA.webp",
+    "alt": "Boa"
+  },
+  "intro": "No todas las boas son serpientes grandes y moteadas que viven en la selva. En realidad, las aproximadamente doce serpientes grandes que llamamos \"boas constrictoras\" viven en todo tipo de medio ambiente de América, desde los casi desérticos a las selvas tropicales. Podemos encontrar todo tipo de boas en el mundo; incluso en islas. Esta bonita boa arbórea esmeralda habita en el río Amazonas, en Sudamérica.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Va apretando a su presa hasta que la asfixia.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Mamíferos y reptiles pequeños y medianos.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "La anaconda sudamericana, o boa acuática, es la serpiente más grande y pesada del mundo. Algunas pesan más de 225 kg.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 3 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: Centroamérica y Sudamérica, India, Asia, Madagascar, islas del Caribe y del Pacífico",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "putting-the-squeeze-on",
+      "title": "Dándose un abrazo",
+      "image": "assets/es/boac/BOAC01PU.webp",
+      "text": "La boa dijo suspirando: «¡Nadie quiere abrazarme! No sé por qué.»",
+      "narration": "assets/es/boac/BOAC01NP.mp3",
+      "captions": [
+        {
+          "label": "Un buen apretón",
+          "text": "Para evitar que la muerda, la serpiente sujeta la cabeza de la rata con sus largos dientes frontales y después se enrosca alrededor del roedor. Cada vez que la rata exhala, la serpiente aprieta sus anillos. Al poco la rata no puede inhalar aire y muere asfixiada."
+        },
+        {
+          "label": "¡Todo para adentro!",
+          "text": "Cada vez que la boa traga, la rata va penetrando un poco más en su cuerpo. La boa puede ensanchar sus mandíbulas porque el ligamento que conecta las dos mitades de la mandíbula inferior es elástico, como una goma."
+        }
+      ]
+    },
+    {
+      "id": "parallel-lives",
+      "title": "Vidas paralelas",
+      "image": "assets/es/boac/BOAC02PU.webp",
+      "text": "Por el aspecto, esta pitón arbórea verde de Australia podría ser la hermana gemela de la boa arbórea esmeralda de Sudamérica. Estas serpientes se parecen porque llevan una vida similar: las dos son constrictoras que viven camufladas en los árboles. Pero también hay diferencias: por ejemplo, la boa arbórea esmeralda es vivípara, mientras que la pitón arbórea verde es ovípara...",
+      "narration": "assets/es/boac/BOAC02NP.mp3"
+    },
+    {
+      "id": "giant-water-boa",
+      "title": "La boa de agua gigante o anaconda",
+      "image": "assets/es/boac/BOAC03PU.webp",
+      "text": "¡Es una de las serpientes más grandes del mundo! Los expertos no están de acuerdo en cuanto al tamaño que puede alcanzar un anaconda (boa de agua), pero probablemente las mayores puedan superar los 10 metros. Llegan a pesar 500 kilos y son tan gruesas como el muslo de un hombre.",
+      "narration": "assets/es/boac/BOAC03NP.mp3"
+    },
+    {
+      "id": "south-pacific-neighbors",
+      "title": "Los vecinos del Pacífico Sur",
+      "image": "assets/es/boac/BOAC04PU.webp",
+      "text": "Si alguna vez vas a visitar las Islas Salomón, frente a la costa de Papúa Nueva Guinea, mira bien hacia arriba: ¡podrías ver a uno de estos reptiles!",
+      "captions": [
+        {
+          "label": "El eslizón gigante",
+          "text": "Es el único miembro de su familia que vive en los árboles. Con su más de medio metro de longitud puede ser un plato delicioso: ¡tanto para el hombre como para la boa! A algunas personas les preocupa que desaparezca conforme la tala de árboles elimine su hábitat."
+        },
+        {
+          "label": "La boa del Pacífico",
+          "text": "A un eslizón no le gustaría encontrarse con esta boa, porque come lagartos (también pájaros y murciélagos). Viven en muchas islas del Pacífico Sur y reptan tanto por el suelo como por los árboles. Si se asustan sisean y atacan simulando que son serpientes venenosas."
+        }
+      ],
+      "narration": "assets/es/boac/BOAC04NP.mp3"
+    },
+    {
+      "id": "life-in-the-rain-forest",
+      "title": "La vida en la selva tropical",
+      "image": "assets/es/boac/BOAC05PU.webp",
+      "text": "Si miras a esta boa arbórea esmeralda cuando está en el suelo, verás que se confunde con las hojas; si está arriba, se confundirá con el cielo. Esto la permite lanzarse sobre su presa, como este opossum, sin ser vista, además de despistar a los predadores como el águila harpía.",
+      "captions": [
+        {
+          "label": "Boa arbórea esmeralda",
+          "text": "Longitud: de 0,9 a 2 metros"
+        }
+      ],
+      "narration": "assets/es/boac/BOAC05NP.mp3"
+    },
+    {
+      "id": "colorful-kids",
+      "title": "Una prole de muchos colores",
+      "image": "assets/es/boac/BOAC06PU.webp",
+      "text": "¿Sabes cuándo una boa esmeralda es roja? Cuando es arbórea. La boa arbórea esmeralda juvenil es rojiza para confundirse con los matorrales bajos en los que caza. Al crecer le salen unas manchas verdes que van aumentando en número y tamaño hasta que se vuelve totalmente verde esmeralda. Para entonces pasa ya la mayor parte de la vida entre las hojas verdes de los árboles más altos.",
+      "narration": "assets/es/boac/BOAC06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/boac/BOAC00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 6.28,
+            "y": 8.11,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "La vida en la selva tropical",
+            "to": "life-in-the-rain-forest",
+            "x": 34,
+            "y": 4,
+            "w": 29,
+            "h": 6
+          },
+          {
+            "label": "Dándose un abrazo",
+            "to": "putting-the-squeeze-on",
+            "x": 20.49,
+            "y": 10.7,
+            "w": 17.29,
+            "h": 3.48
+          },
+          {
+            "label": "Electric Eel",
+            "x": 89.71,
+            "y": 10.92,
+            "w": 8.08,
+            "h": 9.76,
+            "external": "animal.html?id=eeel"
+          },
+          {
+            "label": "La boa de agua gigante o anaconda",
+            "to": "giant-water-boa",
+            "x": 90.34,
+            "y": 17.41,
+            "w": 3.86,
+            "h": 9.11
+          },
+          {
+            "label": "Una prole de muchos colores",
+            "to": "colorful-kids",
+            "x": 11.43,
+            "y": 35.6,
+            "w": 12.76,
+            "h": 9.11
+          },
+          {
+            "label": "Los vecinos del Pacífico Sur",
+            "to": "south-pacific-neighbors",
+            "x": 5,
+            "y": 50,
+            "w": 28,
+            "h": 6
+          },
+          {
+            "label": "Pájaros para desayunar",
+            "to": "video",
+            "x": 5,
+            "y": 58,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Vidas paralelas",
+            "to": "parallel-lives",
+            "x": 87.52,
+            "y": 81.92,
+            "w": 2.76,
+            "h": 4.13
+          }
+        ]
+      },
+      "putting-the-squeeze-on": {
+        "image": "assets/es/boac/BOAC01PU.webp",
+        "back": "main"
+      },
+      "parallel-lives": {
+        "image": "assets/es/boac/BOAC02PU.webp",
+        "back": "main"
+      },
+      "giant-water-boa": {
+        "image": "assets/es/boac/BOAC03PU.webp",
+        "back": "main"
+      },
+      "south-pacific-neighbors": {
+        "image": "assets/es/boac/BOAC04PU.webp",
+        "back": "main"
+      },
+      "life-in-the-rain-forest": {
+        "image": "assets/es/boac/BOAC05PU.webp",
+        "back": "main"
+      },
+      "colorful-kids": {
+        "image": "assets/es/boac/BOAC06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/boac/BOAC00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/boac/clip.mp4",
+        "poster": "assets/es/boac/BOAC07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/boac/narration.mp3",
+  "sound": "assets/es/boac/BOAC00AF.mp3",
+  "factsNarration": "assets/es/boac/BOAC00FB.mp3",
+  "video": {
+    "title": "Pájaros para desayunar",
+    "src": "assets/es/boac/clip.mp4",
+    "poster": "assets/es/boac/poster.webp",
+    "caption": "La boa arbórea esmeralda adulta caza principalmente en los árboles. Come todo lo que atrapa entre las ramas: ranas y lagartos, mamíferos pequeños y, por supuesto, pájaros. Enroscan la cola en una rama para sujetarse bien mientras capturan o devoran su presa."
+  }
+}

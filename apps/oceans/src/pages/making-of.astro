@@ -1,0 +1,121 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Topbar from '../components/Topbar.astro';
+---
+<Layout title="The Making Of — Microsoft Oceans" desc="How a 1995 CD-ROM became a modern web app: a decompressor, a swarm of AI agents, an authentic Spanish twin disc, six guides, and a game." lang="en" bilingual={true}>
+  <Topbar locale="en" altHref="/es/making-of">
+    <a slot="right" class="btn" href="/">Dive back in <span class="arrow" aria-hidden="true">→</span></a>
+  </Topbar>
+
+  <main id="main-content" class="article" tabindex="-1">
+    <p class="kicker">The Making Of</p>
+    <h1>How a 1995 CD&#8209;ROM<br /><b>came back to life</b></h1>
+    <p class="dek">One disc, a decompressor, and a swarm of robots reading an undersea encyclopedia.</p>
+
+    <p><span class="first">B</span>efore the whole ocean was a search away, it lived on a CD&#8209;ROM. <i>Microsoft Oceans</i> (1995) was a multimedia tour of the sea — reefs and the crushing abyss, whales and jellyfish, tides and hurricanes, and the explorers who first charted the water. You clicked, you read, you watched grainy little films of creatures most kids would never see in person, and the deep felt a little less far away.</p>
+
+    <p>This is that disc, brought back modern and open, so <b>any kid with a browser</b> can dive in again. Here's how a three&#8209;decade&#8209;old CD&#8209;ROM became the website you're using right now.</p>
+
+    <div class="stats">
+      <div class="stat"><b>93</b><span>entries</span></div>
+      <div class="stat"><b>603</b><span>screens</span></div>
+      <div class="stat"><b>1,098</b><span>sounds</span></div>
+      <div class="stat"><b>92</b><span>film clips</span></div>
+      <div class="stat"><b>31</b><span>years asleep</span></div>
+    </div>
+
+    <h2>A time capsule on a disc</h2>
+    <p>It started with a single file: the original CD&#8209;ROM image, preserved on the <a href="https://archive.org/details/microsoft-oceans">Internet Archive</a>, frozen exactly as it shipped in 1995. Mounting it revealed a tidy little world — one folder per entry, each named by a short code like <code>REEF</code> (coral reefs), <code>ABYS</code> (the abyss), and <code>ARCT</code> (the Arctic Ocean) — and ninety&#8209;three of them, spanning four themes: <b>sea life, habitats, ocean science,</b> and <b>seas &amp; people</b>. Inside were thousands of images, films, and narrations, all tied together by a master database the original program used to know what linked to what.</p>
+
+    <h2>Cracking it open</h2>
+    <p>The films were easy — an ancient codec called Microsoft Video 1 that modern tools convert in a blink. The narration was plain audio, still clear after thirty years. But the images refused to open. Their files didn't start with the usual picture header; they started with the letters <code>SZDD</code> — Microsoft's own early&#8209;'90s compression, a way of squeezing files onto disks back when every megabyte counted. Nothing on a modern Mac could read it, so the fix was a tiny decompressor, about forty lines long, that understood the old format and unpacked each image back into a real picture.</p>
+
+    <p class="pull">The same little decompressor woke all three of these discs. Once it ran, the reefs and the open water came back pixel&#8209;perfect — thirty&#8209;one years asleep, and they woke up flawless.</p>
+
+    <h2>The twist: text made of pixels</h2>
+    <p>Unpacking the first screen revealed the project's central puzzle. It wasn't just a photo — it was the <i>whole page</i>: the title, the article, the little labels you click. All of it had been <b>painted into a single image</b>. The words weren't stored as words anywhere; they were pixels. A faithful copy would be frozen forever — fixed in size, impossible to translate, invisible to screen readers, unsearchable. Not exactly "for any kid." So the project took a different path.</p>
+
+    <h2>One disc, two faces</h2>
+    <p>Instead of choosing between old and new, this rebuild offers both — from the same restored material:</p>
+    <div class="pipeline">
+      <ol>
+        <li><b>Classic 1995</b> — the original screens, shown exactly as they were, with the clickable hotspots faithfully recreated. The dive&#8209;in feel, intact.</li>
+        <li><b>Modern</b> — the same content rebuilt as responsive, accessible web pages: real selectable text, narration you can play, video that fills the screen on any device.</li>
+      </ol>
+    </div>
+    <p>A toggle at the top of every page flips between the two. But making the Modern version meant reading the text back <i>out</i> of those flattened images — word for word, across all ninety&#8209;three entries — and turning it into structured data.</p>
+
+    <h2>187 robots read an undersea encyclopedia</h2>
+    <p>Six hundred screens of text, transcribed by hand, would have taken weeks. So the work went to a swarm of AI agents working in parallel. Each entry got its own agent that <i>looked</i> at its screens the way a person would — the main page, the sub&#8209;topics, the fast&#8209;facts box — and transcribed every word, sorting it into a clean data model: name, intro, facts, captions, and where each clickable hotspot sat. Then a <b>second</b> agent re&#8209;read the same screens to catch any slip the first one made. Ninety&#8209;three entries, checked twice.</p>
+
+    <div class="stats">
+      <div class="stat"><b>187</b><span>AI agents</span></div>
+      <div class="stat"><b>2×</b><span>checked each</span></div>
+      <div class="stat"><b>1</b><span>editor pass</span></div>
+      <div class="stat"><b>0</b><span>typing by hand</span></div>
+    </div>
+
+    <h2>Keeping it honest</h2>
+    <p>When all ninety&#8209;three were done, one final agent read the <i>entire</i> collection at once, acting as an editor — making sure every entry used the same fact labels and the same voice, with no duplicates or stray inconsistencies left behind from the per&#8209;entry passes. Faithfulness to the words on the disc, and to the facts behind them, was the whole point: nothing here is invented or rewritten, only freed.</p>
+
+    <h2>Part of a fleet of three</h2>
+    <p>Oceans didn't get rebuilt on its own. The same toolkit had already woken <a href="https://dangerous-creatures.pages.dev"><i>Microsoft Dangerous Creatures</i></a> (1994) and would go on to wake <a href="https://dinosaurs.pages.dev"><i>Microsoft Dinosaurs</i></a> (1993) — three sister sites from the same shelf of mid&#8209;'90s Microsoft Home discs, sharing one decompressor, one agent pipeline, and one look. You can hop between them from the foot of any home page.</p>
+
+    <h2>The same sea, in Spanish</h2>
+    <p>Oceans had a Spanish twin: <i>Océanos de Microsoft</i>, the localized retail disc, preserved just like the English one. So the Spanish here isn't a translation we typed on top — it's the <b>real localized disc</b>, run through the very same decompressor and agent swarm: authentic Spanish screens, Spanish narration, Spanish video. The loveliest detail is in the guided tours, where the hosts were re&#8209;cast for Spanish&#8209;speaking kids: <b>Kim became Carmen</b>, Curtis became Carlos, and the wildlife narrator Eli became <b>Teodoro Zúñiga</b> — re&#8209;voiced by Spanish actors, not subtitled. Only Zarka, the visitor from another world, kept her name. Switch between editions with the EN&#160;·&#160;ES toggle on any page.</p>
+
+    <h2>Six guides, eighteen tours, and a game</h2>
+    <p>The encyclopedia is only half of it. Oceans built its guided tours around <b>six characters</b> — a lone voyager, an old&#8209;time sailor, a sea rescuer, a scuba diver, an oceanographer, and that visitor from another world — each with <b>three narrated tours</b> of their own, eighteen in all, playing the disc's original narration in whichever language you've chosen. And there's a game built from the entries' own clues:</p>
+    <div class="pipeline">
+      <ol>
+        <li><b>Sea Riddles</b> — read a clue with the creature's name blanked out, then pick it from four. How long a streak can you make?</li>
+        <li><b>18 guided tours</b> — six hosts × three journeys each, narrated end to end, bilingual like everything else.</li>
+      </ol>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><b>2</b><span>languages</span></div>
+      <div class="stat"><b>6</b><span>character hosts</span></div>
+      <div class="stat"><b>18</b><span>guided tours</span></div>
+      <div class="stat"><b>3</b><span>sister discs</span></div>
+    </div>
+
+    <h2>What you're looking at</h2>
+    <p>Everything here was reconstructed from those discs: a forty&#8209;line decompressor woke the images, a video converter restored the films, and a swarm of agents liberated the words — in English and Spanish alike. The result is the ocean a kid explored in 1995 — faithful when you want nostalgia, modern when you want to learn. Browse by <a href="/browse?tab=zones">ocean zone</a> or <a href="/browse?tab=oceans">sea</a>, take one of six character&#8209;led <a href="/guides">guided tours</a>, or test yourself with <a href="/games">Sea Riddles</a> — in either language.</p>
+
+    <div class="legal">
+      <b>About the artwork.</b> The photos, film, and original text are © 1995 Microsoft Corporation and its
+      suppliers — the marine photographers, filmmakers, museums, and agencies named on the
+      <a href="/credits">credits page</a>. This is a <b>non&#8209;commercial, educational preservation</b>, made out of
+      love for the original — not affiliated with Microsoft, with no ads or sales, and with removal on request. The
+      words have already been freed into open text; the credit goes to the people who captured the sea in the first place.
+    </div>
+
+    <a class="btn backlink" href="/"><span class="arrow" aria-hidden="true">←</span> Back to the ocean</a>
+  </main>
+</Layout>
+
+<style>
+  .article { max-width: 760px; margin: 0 auto; padding: 0 22px 90px; }
+  .article .kicker { text-transform: uppercase; letter-spacing: 3px; font-size: 13px; color: var(--ink-soft); margin-top: 40px; }
+  .article h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(40px, 7vw, 76px); line-height: 1; margin: 8px 0 6px; }
+  .article h1 b { color: var(--rust); }
+  .article .dek { font-size: 21px; color: var(--gold); margin: 0 0 10px; }
+  .article h2 { font-family: var(--font-display); color: var(--gold); font-size: clamp(26px, 4vw, 34px); margin: 48px 0 6px; line-height: 1.1; }
+  .article p { font-size: 18px; }
+  .article p .first { font-size: 26px; }
+  .article a { color: var(--gold); }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 14px; margin: 30px 0; }
+  .stat { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px; text-align: center; box-shadow: var(--shadow); }
+  .stat b { display: block; font-family: var(--font-display); font-size: 34px; color: var(--rust); line-height: 1; }
+  .stat span { font-size: 13px; color: var(--ink-soft); text-transform: uppercase; letter-spacing: 1px; }
+  .pull { border-left: 4px solid var(--gold); padding: 6px 0 6px 20px; margin: 30px 0; font-size: 22px; color: var(--ink); font-style: italic; }
+  .pipeline { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 22px 24px; margin: 28px 0; box-shadow: var(--shadow); }
+  .pipeline ol { margin: 0; padding-left: 22px; }
+  .pipeline li { margin: 10px 0; }
+  .pipeline code { background: #00000040; padding: 2px 7px; border-radius: 6px; font-size: 14px; color: var(--green); }
+  .legal { margin-top: 56px; padding: 18px 20px; border: 1px dashed var(--line); border-radius: 14px; color: var(--ink-soft); font-size: 14px; background: #00000020; }
+  .legal b { color: var(--ink); }
+  .backlink { display: inline-block; margin-top: 36px; }
+  code { background: #00000040; padding: 2px 7px; border-radius: 6px; font-size: 14px; color: var(--green); }
+</style>

@@ -1,0 +1,228 @@
+{
+  "id": "powr",
+  "code": "POWR",
+  "name": "Asombrosos poderes",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Los animales del mar tienen superpoderes que ninguna máquina puede imitar!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Mar abierto",
+    "Mar profundo"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/powr/POWR00AA.webp",
+    "alt": "Asombrosos poderes"
+  },
+  "intro": "Muchos animales marinos hacen cosas asombrosas, para las que el ser humano necesita la ayuda de las máquinas. Pueden generar electricidad, iluminarse en la oscuridad, realizar trucos para escapar de los predadores y crear su propia casa. Lo único que necesitan es alimento y agua marina. Los animales que aparecen a continuación tienen unas células luminosas especiales, los fotóforos, que transforman la energía en luz.",
+  "facts": [
+    {
+      "label": "Voltaje de la raya",
+      "value": "Hasta 220 voltios, lo suficiente para dejar sin sentido a un ser humano"
+    },
+    {
+      "label": "Récord humano",
+      "value": "80 m de profundidad sin aparato respiratorio, permaneciendo unos 3 minutos y medio"
+    },
+    {
+      "label": "Profundidad del cachalote",
+      "value": "Puede descender hasta 1.067 m bajo el agua"
+    },
+    {
+      "label": "Apnea del cachalote",
+      "value": "Récord de permanencia de 75 minutos bajo el agua sin respirar"
+    },
+    {
+      "label": "Fotóforos",
+      "value": "Células luminosas especiales que transforman la energía en luz"
+    },
+    {
+      "label": "Caparazón",
+      "value": "La babosa extrae calcio del agua marina y lo transforma en un intrincado caparazón de carbonato de calcio"
+    }
+  ],
+  "topics": [
+    {
+      "id": "masters-of-electricity",
+      "title": "Expertos en electricidad",
+      "image": "assets/es/powr/POWR01PU.webp",
+      "text": "La raya eléctrica, también llamada raya torpedo, lanza descargas de electricidad contra presas e intrusos. Algunas de ellas pueden generar hasta 220 voltios, lo suficiente para dejar sin sentido a un ser humano. Una raya eléctrica, tras unas cuantas descargas potentes, puede tardar varios días en volver a recargar la \"batería de células\" que tiene bajo la piel y realizar nuevas descargas. Algunas rayas utilizan señales de bajo voltaje para localizar a sus presas.",
+      "narration": "assets/es/powr/POWR01JN.mp3",
+      "captions": [
+        {
+          "label": "Tremielga",
+          "text": "Torpedo marmorata"
+        }
+      ]
+    },
+    {
+      "id": "deep-sea-diver",
+      "title": "Un buzo de gran resistencia",
+      "image": "assets/es/powr/POWR02PU.webp",
+      "text": "El récord humano de inmersión sin aparato respiratorio es de 80 m de profundidad; el buzo permaneció bajo el agua unos 3 minutos y medio. El cachalote (mamífero que respira aire como nosotros) puede descender hasta 1.067 m, con un récord de permanencia de 75 minutos bajo el agua. Y jamás sufre apoplejía por embolia gaseosa, a diferencia de los seres humanos. Los científicos creen que el cachalote puede cortar el suministro de sangre a ciertas partes del cuerpo cuando realiza inmersiones a gran profundidad, reservando el oxígeno para el cerebro, el corazón y el hígado.",
+      "narration": "assets/es/powr/POWR02JN.mp3",
+      "captions": [
+        {
+          "label": "Cachalote",
+          "text": "Physeter macrocephalus o P. catadon"
+        }
+      ]
+    },
+    {
+      "id": "super-suction",
+      "title": "Supersucción",
+      "image": "assets/es/powr/POWR03PU.webp",
+      "text": "¿Has intentado alguna vez despegar una estrella de mar de una roca? ¿O lograr que un pulpo suelte algo? Es casi imposible despegar a estos animales si sólo cuentas con tus manos. Estos dos pueden generar una increíble fuerza de succión controlando la multitud de ventosas independientes que cubren sus tentáculos.",
+      "captions": [
+        {
+          "label": "El poder de una estrella",
+          "text": "La estrella de mar utiliza sus cientos de diminutas patas tubulares para agarrarse a las rocas y abrir almejas, vieiras y ostras."
+        },
+        {
+          "label": "Musculosos moluscos",
+          "text": "Un pulpo puede agarrarse a casi cualquier cosa, con los cientos de ventosas alineadas en sus ocho tentáculos."
+        }
+      ],
+      "narration": "assets/es/powr/POWR03JN.mp3"
+    },
+    {
+      "id": "home-builders",
+      "title": "Constructores de casas",
+      "image": "assets/es/powr/POWR05PU.webp",
+      "text": "¿Cómo puede producir un caparazón un animal como la babosa? Este ser tiene un sorprendente dominio de la química. Extrae calcio del agua marina y lo transforma en un intrincado caparazón de carbonato de calcio. Nace con esa capacidad y no necesita pensar para ponerla en práctica. Si los humanos fuéramos capaces de igualar esa proeza, nuestros problemas de alojamiento se terminarían.",
+      "narration": "assets/es/powr/POWR05JN.mp3",
+      "captions": [
+        {
+          "label": "Caracol de anillo púrpura",
+          "text": "Caracol de anillo púrpura"
+        },
+        {
+          "label": "Caracola tonel",
+          "text": "Tonna perdix"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "El pez sapo",
+      "to": "angl"
+    },
+    {
+      "label": "El camarón",
+      "to": "shri"
+    },
+    {
+      "label": "Los pingüinos",
+      "to": "peng"
+    },
+    {
+      "label": "Las anémonas",
+      "to": "anem"
+    },
+    {
+      "label": "Peces inflables",
+      "to": "infl"
+    },
+    {
+      "label": "Los caracoles marinos",
+      "to": "spir"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/powr/POWR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Expertos en electricidad",
+            "to": "masters-of-electricity",
+            "x": 4,
+            "y": 55,
+            "w": 27,
+            "h": 8
+          },
+          {
+            "label": "Supersucción",
+            "to": "super-suction",
+            "x": 10,
+            "y": 69,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Un buzo de gran resistencia",
+            "to": "deep-sea-diver",
+            "x": 36,
+            "y": 74,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Constructores de casas",
+            "to": "home-builders",
+            "x": 65,
+            "y": 40,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "¡Ahí va eso!",
+            "to": "video",
+            "x": 61,
+            "y": 68,
+            "w": 20,
+            "h": 6
+          }
+        ]
+      },
+      "masters-of-electricity": {
+        "image": "assets/es/powr/POWR01PU.webp",
+        "back": "main"
+      },
+      "deep-sea-diver": {
+        "image": "assets/es/powr/POWR02PU.webp",
+        "back": "main"
+      },
+      "super-suction": {
+        "image": "assets/es/powr/POWR03PU.webp",
+        "back": "main"
+      },
+      "home-builders": {
+        "image": "assets/es/powr/POWR05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/powr/clip.mp4",
+        "poster": "assets/es/powr/POWR04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/powr/POWR00JN.mp3",
+  "sound": "assets/es/powr/POWR00IX.mp3",
+  "video": {
+    "title": "¡Ahí va eso!",
+    "src": "assets/es/powr/clip.mp4",
+    "poster": "assets/es/powr/poster.webp",
+    "caption": "Pulpo del Pacífico con buzo",
+    "narration": "assets/es/powr/POWR04JN.mp3"
+  }
+}

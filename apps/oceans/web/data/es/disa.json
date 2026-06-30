@@ -1,0 +1,224 @@
+{
+  "id": "disa",
+  "code": "DISA",
+  "name": "Desastres marítimos",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Icebergs, torpedos y mareas negras: los peores desastres del mar!",
+  "zones": [
+    "Mar abierto",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/disa/DISA00AA.webp",
+    "alt": "Desastres marítimos"
+  },
+  "intro": "Desde que el ser humano empezó a construir barcos se han producido desastres marítimos. Algunos se pueden prevenir, pero no otros. Suceden por diversas razones: como la guerra, las colisiones, los fallos en el diseño, los errores de navegación, los incendios y por causas naturales, como las tormentas, la niebla y los icebergs. La pérdida de vidas y los daños al medio ambiente pueden ser terribles. Sin embargo, esas tragedias también han inspirado actos de gran heroísmo.",
+  "facts": [
+    {
+      "label": "El Titanic",
+      "value": "El 14 de abril de 1912 chocó con un iceberg; murieron aproximadamente 1.500 personas."
+    },
+    {
+      "label": "El Lusitania",
+      "value": "1.198 personas desaparecieron al ser hundido por torpedos frente a las costas de Irlanda."
+    },
+    {
+      "label": "Amoco Cádiz",
+      "value": "En 1978 derramó 223.000 toneladas de petróleo frente a las costas de Francia."
+    },
+    {
+      "label": "Piper Alpha",
+      "value": "Las llamas del incendio de 1988 en el Mar del Norte alcanzaron 122 metros de altura."
+    },
+    {
+      "label": "Doña Paz",
+      "value": "En 1987, más de 1.500 pasajeros desaparecieron al colisionar con el petrolero Victor cerca de Filipinas."
+    },
+    {
+      "label": "Exxon Valdez",
+      "value": "En 1989 derramó 34.286 toneladas de crudo en el estrecho Prince William de Alaska."
+    }
+  ],
+  "topics": [
+    {
+      "id": "iceberg",
+      "title": "¡Iceberg a la vista!",
+      "image": "assets/es/disa/DISA02PU.webp",
+      "text": "El 14 de abril de 1912, el Titanic siguió navegando a toda velocidad por el Atlántico Norte, a pesar de las advertencias sobre la existencia de icebergs. Aquella noche chocó contra uno de ellos y se hundió. Este barco de pasajeros, que supuestamente no podía hundirse, llevaba lanchas salvavidas sólo para la mitad de sus pasajeros y murieron aproximadamente 1.500 personas.",
+      "narration": "assets/es/disa/DISA02JN.mp3",
+      "captions": [
+        {
+          "label": "El Titanic",
+          "text": "El Titanic"
+        }
+      ]
+    },
+    {
+      "id": "torpedo",
+      "title": "¡Torpedo a la vista!",
+      "image": "assets/es/disa/DISA03PU.webp",
+      "text": "El Lusitania, barco de pasajeros británico, fue hundido frente a las costas de Irlanda por dos torpedos disparados por un submarino de bolsillo. Desaparecieron un total de 1.198 personas, entre hombres, mujeres y niños. Ultrajados por este incidente (en el que murieron 124 ciudadanos estadounidenses), Estados Unidos declaró la guerra a Alemania en la Primera Guerra Mundial.",
+      "narration": "assets/es/disa/DISA03JN.mp3",
+      "captions": [
+        {
+          "label": "El Lusitania",
+          "text": "El Lusitania"
+        }
+      ]
+    },
+    {
+      "id": "slick-killers",
+      "title": "Asesinos rápidos",
+      "image": "assets/es/disa/DISA04PU.webp",
+      "text": "Los derrames de petróleo pueden ser el peor de todos los posibles desastres marinos, al menos para el medio ambiente oceánico. Ha habido muchos derrames devastadores: en 1978, el Amoco Cádiz encalló frente a las costas de Francia derramando 223.000 toneladas de petróleo. Cuando el Torrey Canyon se estrelló contra las rocas de la costa inglesa, en 1967, se partió en dos, derramando al mar sus 119.000 toneladas de petróleo. En 1989, el Exxon Valdez chocó contra las rocas y derramó 34.286 toneladas de crudo en el estrecho Prince William de Alaska.",
+      "narration": "assets/es/disa/DISA04JN.mp3",
+      "captions": [
+        {
+          "label": "Naufragio del M.V. Braer, islas Shetland",
+          "text": "80.000 toneladas de petróleo vertidas"
+        }
+      ]
+    },
+    {
+      "id": "fatal-ferries",
+      "title": "Transbordadores fatales",
+      "image": "assets/es/disa/DISA05PU.webp",
+      "text": "Los barcos de transporte público se han convertido a veces en trampas mortales, debido frecuentemente a un diseño más preocupado por facilitar la carga de los automóviles que por las condiciones de navegabilidad. En 1987, desaparecieron más de 1.500 pasajeros cerca de Filipinas tras colisionar al sur de Manila el ferry Doña Paz, que estaba sobrecargado y el petrolero Victor. En 1994, naufragó el ferry Estonia en el mar Báltico. Los expertos piensan que los cierres herméticos de las puertas de carga delantera del barco estaban defectuosos. A pesar de la heroica operación de rescate, se perdieron 800 vidas.\n\nLas puertas de la muerte\nEn 1987, el ferry británico Herald of Free Enterprise naufragó y se hundió rápidamente frente a Zeebrugge, Bélgica, muriendo 188 personas. El agua se filtró a través de las puertas de carga de popa, que no habían sido cerradas adecuadamente.",
+      "captions": [
+        {
+          "label": "Herald of Free Enterprise",
+          "text": "Herald of Free Enterprise"
+        }
+      ],
+      "narration": "assets/es/disa/DISA05JN.mp3"
+    },
+    {
+      "id": "fire",
+      "title": "¡Fuego!",
+      "image": "assets/es/disa/DISA06PU.webp",
+      "text": "Trabajar en una plataforma de perforación submarina es un trabajo muy peligroso. En 1988 se declaró un fuego en la plataforma de perforación Piper Alpha, en el Mar del Norte. Las llamas se elevaron a una altura de 122 metros. Más de 100 trabajadores quedaron atrapados en aquel infierno, mientas las vigas metálicas se fundían y caían al mar. Bomberos de todo el mundo fueron aerotransportados para apagar el incendio. Durante la Guerra del Golfo Pérsico, de 1991, tuvo lugar otro desastre petrolero. Unos seis millones de barriles de crudo se derramaron en el Golfo, mientras otros muchos millones ardieron en las plataformas de perforación y contaminaron el aire.",
+      "narration": "assets/es/disa/DISA06JN.mp3",
+      "captions": [
+        {
+          "label": "Plataformas de petróleo ardiendo, Kuwait",
+          "text": "Plataformas de petróleo ardiendo, Kuwait"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "La máquina climática",
+      "to": "weat"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/disa/DISA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 8,
+            "h": 7
+          },
+          {
+            "label": "¡Torpedo a la vista!",
+            "to": "torpedo",
+            "x": 3,
+            "y": 40,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "¡Colisión!",
+            "to": "video",
+            "x": 26,
+            "y": 52,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Asesinos rápidos",
+            "to": "slick-killers",
+            "x": 2,
+            "y": 60,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "¡Fuego!",
+            "to": "fire",
+            "x": 2,
+            "y": 68,
+            "w": 10,
+            "h": 5
+          },
+          {
+            "label": "Transbordadores fatales",
+            "to": "fatal-ferries",
+            "x": 63,
+            "y": 64,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "¡Iceberg a la vista!",
+            "to": "iceberg",
+            "x": 40,
+            "y": 74,
+            "w": 16,
+            "h": 5
+          }
+        ]
+      },
+      "iceberg": {
+        "image": "assets/es/disa/DISA02PU.webp",
+        "back": "main"
+      },
+      "torpedo": {
+        "image": "assets/es/disa/DISA03PU.webp",
+        "back": "main"
+      },
+      "slick-killers": {
+        "image": "assets/es/disa/DISA04PU.webp",
+        "back": "main"
+      },
+      "fatal-ferries": {
+        "image": "assets/es/disa/DISA05PU.webp",
+        "back": "main"
+      },
+      "fire": {
+        "image": "assets/es/disa/DISA06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/disa/clip.mp4",
+        "poster": "assets/es/disa/DISA01PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/disa/DISA00JN.mp3",
+  "sound": "assets/es/disa/DISA00IX.mp3",
+  "video": {
+    "title": "¡Colisión!",
+    "src": "assets/es/disa/clip.mp4",
+    "poster": "assets/es/disa/poster.webp",
+    "caption": "El buque de pasajeros italiano Andrea Doria se hundió en 1956 frente a la costa este de Estados Unidos, luego de chocar con el barco sueco Stockholm. El capitán de otro barco, el Île de France, acudió al rescate y encendió todas las luces de su barco para dar esperanza a los pasajeros del buque siniestrado. Desaparecieron 52 pasajeros del Andrea Doria, pero fueron rescatados 1.652.",
+    "narration": "assets/es/disa/DISA01JN.mp3"
+  }
+}

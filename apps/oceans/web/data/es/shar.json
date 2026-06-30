@@ -1,0 +1,237 @@
+{
+  "id": "shar",
+  "code": "SHAR",
+  "name": "Los temibles tiburones",
+  "category": "creature",
+  "scientificName": "Carcharodon carcharias",
+  "needsScientificVerify": false,
+  "tagline": "¡Más de 250 especies surcan los océanos, pero el verdadero depredador del planeta eres tú!",
+  "zones": [
+    "Mar abierto",
+    "Costa y charcas de marea",
+    "Arrecife de coral"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/shar/SHAR00AA.webp",
+    "alt": "Los temibles tiburones"
+  },
+  "intro": "Pocas apariciones asustan más a un buzo que la de un gran tiburón nadando hacia él. Y existe una buena razón: algunos tiburones son poderosos predadores capaces de arrancar enormes trozos de carne de un sólo mordisco. Pero, existen más de 250 especies de tiburones, de las que no llegan a 40 las que han atacado alguna vez a un ser humano; y aun así, en contadas ocasiones. En realidad, los tiburones no son más feroces que otros carnívoros. De hecho, el ser humano es el predador más voraz del planeta.",
+  "facts": [
+    {
+      "label": "Especies",
+      "value": "Más de 250 especies de tiburones existen en el mundo"
+    },
+    {
+      "label": "Peligrosas",
+      "value": "Menos de 40 han atacado alguna vez a un ser humano"
+    },
+    {
+      "label": "Longitud",
+      "value": "El tiburón blanco puede alcanzar más de 6 m de longitud"
+    },
+    {
+      "label": "Esqueleto",
+      "value": "De cartílago, no de hueso, por lo que es muy flexible y veloz"
+    },
+    {
+      "label": "Dientes",
+      "value": "Ordenados en hileras y en continuo crecimiento durante toda su vida"
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Los seres humanos matan 20 veces más tiburones blancos que éstos a seres humanos"
+    }
+  ],
+  "topics": [
+    {
+      "id": "the-most-feared",
+      "title": "El más temido",
+      "image": "assets/es/shar/SHAR01PU.webp",
+      "text": "El tiburón blanco siempre ha sido la especie más temida por los buzos, mucho antes de que cobrara popularidad el cine de terror sobre este animal. Puede alcanzar más de 6 m de longitud y utiliza sus hileras de afilados dientes para atacar a otros seres de gran tamaño, como los delfines y las focas. El tiburón blanco no persigue al ser humano para atacarlo, pero resulta una desgraciada coincidencia que estos animales puedan confundir a una persona con el bañador mojado o sobre una tabla de windsurf con una foca. Aun así, los seres humanos matan 20 veces más tiburones blancos que éstos a seres humanos.",
+      "narration": "assets/es/shar/SHAR01JN.mp3",
+      "captions": [
+        {
+          "label": "Hombre mordido",
+          "text": "por tiburón blanco"
+        },
+        {
+          "label": "Tiburón blanco",
+          "text": "Carcharodon carcharias"
+        }
+      ]
+    },
+    {
+      "id": "hammerheads",
+      "title": "El pez martillo",
+      "image": "assets/es/shar/SHAR02PU.webp",
+      "text": "Cualquier tiburón con la cabeza en forma de martillo ofrece una apariencia aterradora y su costumbre de agitar la cabeza de un lado a otro puede parecer también amenazante. Cuando un pez martillo barre el fondo del océano como si fuera un detector de metales, su intención es no asustar a los buzos, sino dar caza a su alimento favorito: la pastinaca. Hay varias clases de peces martillo, de las que sólo un reducido número ha atacado alguna vez a un ser humano.",
+      "narration": "assets/es/shar/SHAR02JN.mp3",
+      "captions": [
+        {
+          "label": "Pez martillo, Galápagos",
+          "text": "Sphyrna lewini"
+        }
+      ]
+    },
+    {
+      "id": "fierce-tigers",
+      "title": "Feroces tigres",
+      "image": "assets/es/shar/SHAR03PU.webp",
+      "text": "El tiburón tigre está considerado uno de los más peligrosos tiburones tropicales. Las razones son varias: es el tiburón grande más común en muchas zonas; parece comer cualquier cosa que le quepa en la boca; y, a menudo, caza de noche en aguas poco profundas. Este tiburón se llama así por las manchas y rayas que luce en su juventud. En muchos sitios, el ser humano come la carne de este animal, curte su piel y utiliza sus dientes para fabricar collares.",
+      "narration": "assets/es/shar/SHAR03JN.mp3",
+      "captions": [
+        {
+          "label": "Tiburón tigre",
+          "text": "Galeocerdo cuvier"
+        }
+      ]
+    },
+    {
+      "id": "the-better-to-bite-with",
+      "title": "La mejor dentadura",
+      "image": "assets/es/shar/SHAR04PU.webp",
+      "text": "El tiburón ha surcado el océano durante siglos y durante ese tiempo ha cambiado muy poco. Algunas de sus características no dejan de ser sorprendentes. Por ejemplo, tiene el esqueleto de cartílago, no de hueso, por lo que es muy flexible. Además, su cuerpo es aerodinámico, lo que convierte a este animal en un ser muy veloz. Pero su característica más asombrosa probablemente son los dientes, ordenados en hileras y en continuo crecimiento durante toda su vida. El tipo de dientes varía según la clase de tiburón, pero todos están dotados de una buena dentadura.",
+      "captions": [
+        {
+          "label": "Tiburón blanco",
+          "text": "Los dientes del tiburón blanco son grandes y triangulares"
+        },
+        {
+          "label": "Tiburón de arena",
+          "text": "El tiburón de arena tiene los dientes cortantes como púas"
+        }
+      ],
+      "narration": "assets/es/shar/SHAR04JN.mp3"
+    },
+    {
+      "id": "shark-protection",
+      "title": "Precaución con los tiburones",
+      "image": "assets/es/shar/SHAR05PU.webp",
+      "text": "Tanto el ser humano como el tiburón son predadores. Si vas en barco, puedes cazar y comer tiburones. Pero si nadas en el mar, los tiburones pueden cazarte y comerte a ti. Por lo tanto, si quieres observar el fascinante mundo de los tiburones, más te vale ser cauto y tomar ciertas precauciones.",
+      "captions": [
+        {
+          "label": "Enjaulados",
+          "text": "Una jaula fuerte es la mejor protección para los que estudian a los tiburones."
+        },
+        {
+          "label": "Armadura submarina",
+          "text": "Las cotas de malla impiden al tiburón morder la carne, pero no protegen de las contusiones y los huesos rotos."
+        }
+      ],
+      "narration": "assets/es/shar/SHAR05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Tiburones fascinantes",
+      "to": "fasc"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/shar/SHAR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 3,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "El pez martillo",
+            "to": "hammerheads",
+            "x": 59,
+            "y": 17,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "El más temido",
+            "to": "the-most-feared",
+            "x": 60,
+            "y": 28,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "¡Quien avisa no es traidor!",
+            "to": "video",
+            "x": 17,
+            "y": 61,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Feroces tigres",
+            "to": "fierce-tigers",
+            "x": 38,
+            "y": 72,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Precaución con los tiburones",
+            "to": "shark-protection",
+            "x": 22,
+            "y": 79,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "La mejor dentadura",
+            "to": "the-better-to-bite-with",
+            "x": 50,
+            "y": 72,
+            "w": 23,
+            "h": 5
+          }
+        ]
+      },
+      "the-most-feared": {
+        "image": "assets/es/shar/SHAR01PU.webp",
+        "back": "main"
+      },
+      "hammerheads": {
+        "image": "assets/es/shar/SHAR02PU.webp",
+        "back": "main"
+      },
+      "fierce-tigers": {
+        "image": "assets/es/shar/SHAR03PU.webp",
+        "back": "main"
+      },
+      "the-better-to-bite-with": {
+        "image": "assets/es/shar/SHAR04PU.webp",
+        "back": "main"
+      },
+      "shark-protection": {
+        "image": "assets/es/shar/SHAR05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/shar/clip.mp4",
+        "poster": "assets/es/shar/SHAR06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/shar/SHAR00JN.mp3",
+  "sound": "assets/es/shar/SHAR00IX.mp3",
+  "video": {
+    "title": "¡Quien avisa no es traidor!",
+    "src": "assets/es/shar/clip.mp4",
+    "poster": "assets/es/shar/poster.webp",
+    "caption": "Al igual que algunos perros ladran y gruñen a los intrusos, los tiburones a menudo lanzan señales para avisarnos de que desean que nos apartemos de su camino. Si un tiburón empieza a nadar en zigzag o a comportarse de forma extraña, está avisando al intruso de que debe abandonar su territorio. La gente debería conocer las costumbres de los tiburones, de esta manera los encuentros violentos con estos animales serían mucho menos frecuentes.",
+    "narration": "assets/es/shar/SHAR06JN.mp3"
+  }
+}

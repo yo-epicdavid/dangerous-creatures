@@ -1,0 +1,202 @@
+{
+  "id": "ottr",
+  "code": "OTTR",
+  "name": "La nutria marina",
+  "category": "creature",
+  "scientificName": "Enhydra lutris",
+  "needsScientificVerify": false,
+  "tagline": "El mamífero marino más listo del océano usa herramientas... ¡y duerme flotando en el mar!",
+  "zones": [
+    "Bosques de algas y praderas marinas",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "Océano Pacífico"
+  ],
+  "hero": {
+    "image": "assets/es/ottr/OTTR00AA.webp",
+    "alt": "La nutria marina"
+  },
+  "intro": "Pocos animales oceánicos pueden resultar tan interesantes como la nutria marina, de inteligentes y vivos ojos, con su peluda cara erizada de barbas y sus ágiles patas. Sin embargo, en gran parte del mundo el ser humano se ha dedicado a cazar, casi hasta su extinción, a estos apacibles mamíferos. Actualmente y bajo protección, un reducido número de colonias de nutrias han comenzado a recuperarse, pero aún necesitan de nuestra ayuda para sobrevivir.",
+  "facts": [
+    {
+      "label": "Uso de herramientas",
+      "value": "Una de las pocas especies animales, aparte del hombre, que utiliza herramientas: escoge una roca y golpea el marisco contra ella hasta romperlo."
+    },
+    {
+      "label": "Aislamiento",
+      "value": "No tiene capa de grasa protectora; el aire atrapado en su piel es lo único que la aísla de las heladas aguas."
+    },
+    {
+      "label": "Sueño",
+      "value": "Se envuelve el cuerpo con tiras de laminarias para asegurar su posición mientras duerme y no flotar a la deriva."
+    },
+    {
+      "label": "Caza",
+      "value": "Alrededor del 1700, cuando los cazadores descubrieron su suave piel, la matanza dio comienzo."
+    },
+    {
+      "label": "Protección",
+      "value": "En 1911, Rusia, Gran Bretaña, Japón y Estados Unidos firmaron un acuerdo para la protección de la nutria, cuando quedaban con vida muy pocas."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Un vertido de petróleo puede ser mortal: las manchas cubren su piel y le quitan el aire que la mantiene caliente."
+    }
+  ],
+  "topics": [
+    {
+      "id": "life-in-a-kelp-forest",
+      "title": "La vida en un bosque de laminarias",
+      "image": "assets/es/ottr/OTTR01PU.webp",
+      "text": "¿Dónde elegiría vivir una nutria marina? Justo encima de un bosque de laminarias. Aquí la nutria encuentra marisco y otros alimentos entre las plantas. La nutria también se envuelve el cuerpo con tiras de estas algas para asegurar su posición mientras duerme; de lo contrario, acabaría flotando a la deriva.",
+      "captions": [
+        {
+          "label": "Oreja de mar",
+          "text": "Haliotis oracherodii"
+        },
+        {
+          "label": "La oreja de mar",
+          "text": "Las valvas es lo único que queda de una oreja de mar tras caer en manos de una nutria. La gente que vive del cultivo de estos y otros moluscos detestan las nutrias y, a veces, las cazan, aunque sea ilegal."
+        }
+      ],
+      "narration": "assets/es/ottr/OTTR01JN.mp3"
+    },
+    {
+      "id": "killed-for-their-coats",
+      "title": "Cazadas por sus pieles",
+      "image": "assets/es/ottr/OTTR02PU.webp",
+      "text": "El hombre se ha vestido con la piel de los animales prácticamente desde que el ser humano existe. Por eso, cuando los primeros cazadores descubrieron la suave piel de la nutria marina, alrededor del 1700, la matanza dio comienzo. En 1911, cuando Rusia, Gran Bretaña, Japón y Estados Unidos firmaron un acuerdo para la protección de la nutria, quedaban con vida muy pocas.",
+      "captions": [
+        {
+          "label": "Foca de Groenlandia",
+          "text": "Phoca groenlandica"
+        },
+        {
+          "label": "Otras víctimas",
+          "text": "La foca de Groenlandia ha sido otra víctima de la caza indiscriminada debido a su piel. Afortunadamente, la matanza de focas también está disminuyendo, al tiempo que pierde popularidad la adquisición de pieles de animales salvajes, que en muchos sitios se ha declarado ilegal."
+        }
+      ],
+      "narration": "assets/es/ottr/OTTR02JN.mp3"
+    },
+    {
+      "id": "wanted-clean-water",
+      "title": "Se busca agua sin contaminar",
+      "image": "assets/es/ottr/OTTR03PU.webp",
+      "text": "Los vertidos de petróleo tienen consecuencias catastróficas para los animales marinos y son especialmente mortíferos para la nutria de mar. A diferencia de la foca y la ballena, la nutria no está protegida del frío por una capa de grasa. El aire que atrapa su piel es lo único que la aísla de las heladas aguas. Las manchas de petróleo no sólo envenenan el hábitat y el suministro de alimento de una nutria, sino que, además pueden cubrir su piel, privándola del aire que necesita para estar caliente. Desgraciadamente, en esos casos la mayoría de las nutrias muere.",
+      "narration": "assets/es/ottr/OTTR03JN.mp3",
+      "captions": [
+        {
+          "label": "Voluntarios limpiando una nutria cubierta de petróleo",
+          "text": "Voluntarios limpiando una nutria cubierta de petróleo"
+        },
+        {
+          "label": "Derrame de petróleo en una playa, Alaska",
+          "text": "Derrame de petróleo en una playa, Alaska"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Almejas, ostras y vieiras",
+      "to": "clam"
+    },
+    {
+      "label": "Los manatíes y los dugones",
+      "to": "mana"
+    },
+    {
+      "label": "Las ballenas",
+      "to": "whlb"
+    },
+    {
+      "label": "Minerales del mar",
+      "to": "mine"
+    },
+    {
+      "label": "El pez sapo",
+      "to": "angl"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/ottr/OTTR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Se busca agua sin contaminar",
+            "to": "wanted-clean-water",
+            "x": 55,
+            "y": 42,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Un animal que usa herramientas",
+            "to": "video",
+            "x": 2,
+            "y": 60,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "La vida en un bosque de laminarias",
+            "to": "life-in-a-kelp-forest",
+            "x": 65,
+            "y": 71,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Cazadas por sus pieles",
+            "to": "killed-for-their-coats",
+            "x": 42,
+            "y": 82,
+            "w": 24,
+            "h": 5
+          }
+        ]
+      },
+      "life-in-a-kelp-forest": {
+        "image": "assets/es/ottr/OTTR01PU.webp",
+        "back": "main"
+      },
+      "killed-for-their-coats": {
+        "image": "assets/es/ottr/OTTR02PU.webp",
+        "back": "main"
+      },
+      "wanted-clean-water": {
+        "image": "assets/es/ottr/OTTR03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/ottr/clip.mp4",
+        "poster": "assets/es/ottr/OTTR04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/ottr/OTTR00JN.mp3",
+  "sound": "assets/es/ottr/OTTR00IX.mp3",
+  "video": {
+    "title": "Un animal que usa herramientas",
+    "src": "assets/es/ottr/clip.mp4",
+    "poster": "assets/es/ottr/poster.webp",
+    "caption": "Aunque la nutria tiene una fuerte mandíbula y afilados dientes, le resultaría casi imposible romper la gruesa valva de una oreja marina sirviéndose de ellos. En su lugar, escoge una roca, así como el marisco que quiere comer, y lo golpea contra la roca hasta romperlo. Aparte del hombre, hay muy pocas especies animales que utilicen herramientas, lo que demuestra la inteligencia de la nutria marina.",
+    "narration": "assets/es/ottr/OTTR04JN.mp3"
+  }
+}

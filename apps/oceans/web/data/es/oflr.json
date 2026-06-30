@@ -1,0 +1,232 @@
+{
+  "id": "oflr",
+  "code": "OFLR",
+  "name": "El fondo marino",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Bajo las olas se esconde un mundo de montañas, volcanes y abismos tan asombroso como la Tierra misma.",
+  "zones": [
+    "Costa y charcas de marea",
+    "Mar abierto",
+    "Mar profundo"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/oflr/OFLR00AA.webp",
+    "alt": "El fondo marino"
+  },
+  "intro": "Generalmente vemos el planeta como dos mundos separados: el mar y la tierra. Pero si el océano se vaciase de agua, verías que las cadenas montañosas, volcanes y cañones más abruptos están en el fondo del océano. Los científicos suelen coincidir en que el fondo marino sufre un continuo proceso de contracción y expansión, debido a que la corteza terrestre se compone de placas en constante desplazamiento. Esta teoría, conocida como tectónica de placas, explica cómo se forman los accidentes del suelo marino.",
+  "facts": [
+    {
+      "label": "Cadena más larga",
+      "value": "La dorsal centro oceánica mide 56.315 km: es la cadena montañosa más larga del mundo."
+    },
+    {
+      "label": "Tiempo de formación",
+      "value": "El volcán submarino Loihi podría emerger del Pacífico en un plazo de 10.000 a 100.000 años."
+    },
+    {
+      "label": "Zonas de subducción",
+      "value": "Cuando la placa oceánica se hunde bajo la continental, se forman profundas fosas y cadenas de volcanes llamadas arcos de islas."
+    },
+    {
+      "label": "Flora y fauna",
+      "value": "La mayoría de la flora marina y gran parte de su fauna habita en las plataformas continentales, donde abunda el sol y el alimento."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Todo el océano está habitado, incluso las heladas y oscuras profundidades y las aguas hirvientes que rodean las chimeneas oceánicas."
+    }
+  ],
+  "topics": [
+    {
+      "id": "down-down-down",
+      "title": "Cada vez más profundo",
+      "image": "assets/es/oflr/OFLR01PU.webp",
+      "text": "Las partes menos profundas del océano son las plataformas continentales, que de hecho son los bordes de los continentes. La mayoría de las plataformas son amplias llanuras en suave pendiente, cortadas a veces por cañones, que se extienden por todas partes con longitudes que varían entre apenas unos cuantos kilómetros y cientos de éstos. Esas áreas sólo representan una pequeña parte del fondo del mar, pero la mayoría de la flora marina y gran parte de su fauna habita en esas regiones con abundante sol y alimento. El talud continental es el abrupto declive que conecta la poco profunda plataforma continental con las hondas llanuras abisales.",
+      "narration": "assets/es/oflr/OFLR01JN.mp3",
+      "captions": [
+        {
+          "label": "Plataforma continental",
+          "text": "Plataforma continental"
+        },
+        {
+          "label": "Talud continental",
+          "text": "Talud continental"
+        },
+        {
+          "label": "Llanura abisal",
+          "text": "Llanura abisal"
+        }
+      ]
+    },
+    {
+      "id": "hot-spot",
+      "title": "Las manchas calientes",
+      "image": "assets/es/oflr/OFLR02PU.webp",
+      "text": "Una mancha caliente dio origen a las islas Hawai. De hecho, uno de sus futuros apéndices ya tiene nombre: el volcán submarino de Loihi puede emerger de las aguas del Pacífico en cualquier momento, en un período de tiempo comprendido entre 10.000 a 100.000 años contando a partir de ahora. De tanto en tanto, las fuentes de magma del manto terrestre inyectan lava en las placas superiores, originando islas volcánicas. Estos penachos, llamados manchas calientes, siempre permanecen en el mismo lugar. Sin embargo, al estar las placas en continuo movimiento, los volcanes formados por una mancha caliente acaban alejándose de su fuente original. Cuando la mancha caliente se active, estará situada bajo una parte distinta de la placa, dando como resultado un nuevo volcán. Este proceso crea una fila de volcanes, del más antiguo al más reciente.",
+      "captions": [
+        {
+          "label": "Imagen de satélite de las islas Hawai",
+          "text": "Imagen de satélite de las islas Hawai"
+        }
+      ],
+      "narration": "assets/es/oflr/OFLR02JN.mp3"
+    },
+    {
+      "id": "birth-of-the-ocean-floor",
+      "title": "El nacimiento del fondo marino",
+      "image": "assets/es/oflr/OFLR03PU.webp",
+      "text": "¿Cuál es la cadena montañosa más larga del mundo? La dorsal centro oceánica, sin lugar a dudas. ¡Tiene una longitud de 56.315 km! Esta inmensa cadena montañosa sube y baja serpenteando en mitad del océano, como las costuras curvas de una pelota de béisbol, originando nuevo suelo marino. A lo largo de la cadena, gigantescas corrientes de magma del interior del manto terrestre empujan hasta separar los bordes de las placas oceánicas, expulsando a la superficie el magma, que se filtra por los bordes de las placas. Al separarse las placas de la cordillera, arrastran la nueva corteza en su desplazamiento, como si fueran una gigantesca cinta transportadora.",
+      "captions": [
+        {
+          "label": "Línea central de expansión",
+          "text": "Línea central de expansión"
+        },
+        {
+          "label": "Erupción volcánica, Mt. Surtsey",
+          "text": "La isla de Surtsey, Islandia, se eleva directamente sobre los centros de expansión de la dorsal centro oceánica."
+        }
+      ],
+      "narration": "assets/es/oflr/OFLR03JN.mp3"
+    },
+    {
+      "id": "disappearing-act",
+      "title": "Casos de desaparición",
+      "image": "assets/es/oflr/OFLR04PU.webp",
+      "text": "¡Es inevitable que tantas placas de corteza desplazándose por la superficie del planeta colisionen entre ellas! Cuando una placa de roca oceánica, de mayor densidad y peso, choca con otra compuesta de roca continental más ligera, la placa oceánica se desliza bajo la placa continental, hundiéndose en el manto. Esas áreas, conocidas como zonas de subducción, están marcadas por profundos cañones llamados fosas. Cuando la placa hundida alcanza cierta profundidad, se derrite y parte del magma es expulsado de nuevo hacia la corteza. Luego erupciona violentamente en la superficie, formando una cadena curva de volcanes que recibe el nombre de arco de islas.",
+      "narration": "assets/es/oflr/OFLR04JN.mp3",
+      "captions": [
+        {
+          "label": "Zona de subducción",
+          "text": "Zona de subducción"
+        },
+        {
+          "label": "Nacimiento de una montaña submarina en el fondo del océano",
+          "text": "Nacimiento de una montaña submarina en el fondo del océano"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Minerales del mar",
+      "to": "mine"
+    },
+    {
+      "label": "El mar Mediterráneo",
+      "to": "medi"
+    },
+    {
+      "label": "Los exploradores del sur del Pacífico",
+      "to": "sout"
+    },
+    {
+      "label": "Submarinos y robots",
+      "to": "robo"
+    },
+    {
+      "label": "¿Qué es la oceanografía?",
+      "to": "ocea"
+    },
+    {
+      "label": "Los dientes más temidos",
+      "to": "toot"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/oflr/OFLR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Casos de desaparición",
+            "to": "disappearing-act",
+            "x": 24,
+            "y": 39,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Todo tipo de hábitats",
+            "to": "video",
+            "x": 56,
+            "y": 39,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "Cada vez más profundo",
+            "to": "down-down-down",
+            "x": 2,
+            "y": 47,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Las manchas calientes",
+            "to": "hot-spot",
+            "x": 24,
+            "y": 71,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "El nacimiento del fondo marino",
+            "to": "birth-of-the-ocean-floor",
+            "x": 57,
+            "y": 71,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 8,
+            "h": 6
+          }
+        ]
+      },
+      "down-down-down": {
+        "image": "assets/es/oflr/OFLR01PU.webp",
+        "back": "main"
+      },
+      "hot-spot": {
+        "image": "assets/es/oflr/OFLR02PU.webp",
+        "back": "main"
+      },
+      "birth-of-the-ocean-floor": {
+        "image": "assets/es/oflr/OFLR03PU.webp",
+        "back": "main"
+      },
+      "disappearing-act": {
+        "image": "assets/es/oflr/OFLR04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/oflr/clip.mp4",
+        "poster": "assets/es/oflr/OFLR05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/oflr/OFLR00JN.mp3",
+  "sound": "assets/es/oflr/OFLR00IX.mp3",
+  "video": {
+    "title": "Todo tipo de hábitats",
+    "src": "assets/es/oflr/clip.mp4",
+    "poster": "assets/es/oflr/poster.webp",
+    "caption": "El fondo del mar ofrece hábitats para todo tipo de seres. Los científicos han descubierto que todo el océano está habitado, incluso las heladas y oscuras profundidades y las aguas hirvientes que rodean las chimeneas oceánicas.",
+    "narration": "assets/es/oflr/OFLR05JN.mp3"
+  }
+}

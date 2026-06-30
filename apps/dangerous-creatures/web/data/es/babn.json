@@ -1,0 +1,243 @@
+{
+  "id": "babn",
+  "code": "BABN",
+  "name": "Babuino o papión",
+  "scientificName": "Papio ursinus",
+  "needsScientificVerify": false,
+  "tagline": "¡Fuertes, listos y siempre en manada: con los babuinos nadie se mete solo!",
+  "weapons": [
+    "Dientes y mandíbulas",
+    "Garras y zarpas",
+    "Ataques en grupo"
+  ],
+  "habitats": [
+    "Praderas y sabanas"
+  ],
+  "regions": [
+    "África"
+  ],
+  "hero": {
+    "image": "assets/es/babn/BABN00AA.webp",
+    "alt": "Babuino o papión"
+  },
+  "intro": "Permanecen cerca de sus padres y hermanos, aunque pueden tener amigos fuera de la familia. Pasan mucho tiempo aseándose cariñosamente unos a otros y todos acarician a los recién nacidos, pero si se sienten amenazados por algún intruso, le gritan y enseñan los dientes. ¿Conoces alguna familia que se comporte así?",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Ataca y se defiende en grupo, a mordiscos y con las uñas.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Cualquier planta comestible, liebres, langostas, escorpiones e incluso antílopes pequeños.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Los babuinos tienen en los carrillos unas bolsas grandes que pueden contener tanto alimento como su estómago.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 160 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: África",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "skull-story",
+      "title": "Cráneo revelador",
+      "image": "assets/es/babn/BABN01PU.webp",
+      "text": "Echa una vistazo a estos cráneos y entenderás por qué los científicos creen que el hombre está emparentado con los monos antropomorfos y los monos no antropomorfos.",
+      "captions": [
+        {
+          "label": "El cráneo del babuino o papión",
+          "text": "La caja del cerebro es más pequeña que la del chimpancé o la del hombre. Los enormes caninos son sobretodo para la exhibición: los babuinos o papiones los utilizan para impresionarse y amenazarse unos a otros. Hocico perruno"
+        },
+        {
+          "label": "El cráneo del chimpancé",
+          "text": "Su poderosa mandíbula no se mueve tan libremente como la del hombre."
+        }
+      ],
+      "narration": "assets/es/babn/BABN01NP.mp3"
+    },
+    {
+      "id": "childs-play",
+      "title": "Juego de niños",
+      "image": "assets/es/babn/BABN02PU.webp",
+      "text": "Las crías de los animales no juegan sólo por diversión, sino para aprender también las habilidades que necesitarán de adultos. Los animales inteligentes como el mono no antropomorfo, el mono antropomorfo, y el hombre, son capaces de jugar casi con cualquier cosa que encuentren.",
+      "captions": [
+        {
+          "label": "¿Hay alguien ahí?",
+          "text": "A los chimpancés les interesan mucho los agujeros, pues en estado salvaje encuentran en ellos su aperitivo de hormigas y termitas. No es probable que aquí haya bichos suculentos, pero este chimpancé de dos años está inspeccionando... por si acaso..."
+        },
+        {
+          "label": "¡Dame juguetes!",
+          "text": "Un bebé y un chimpancé no tienen un gran parecido, pero comparten el 99 por ciento de sus genes."
+        }
+      ],
+      "narration": "assets/es/babn/BABN02NP.mp3"
+    },
+    {
+      "id": "savanna-life",
+      "title": "Vida en la sabana",
+      "image": "assets/es/babn/BABN03PU.webp",
+      "text": "Los babuinos o papiones viven en el suelo, aunque se suben a los árboles para dormir y estar más seguros. Son principalmente vegetarianos, pero comerán también insectos, huevos o mamíferos pequeños, como una cría de gacela, siempre que los consigan con facilidad. En la sabana africana, los babuinos son uno de los alimentos preferidos por los grandes felinos, sobre todo los leopardos.",
+      "narration": "assets/es/babn/BABN03NP.mp3"
+    },
+    {
+      "id": "painted-face",
+      "title": "Cara pintada",
+      "image": "assets/es/babn/BABN04PU.webp",
+      "text": "Los mandriles machos parecen pintados con los lápices de color más vivo. (Las hembras son más pequeñas y no tienen tanto colorido.) Este pariente del babuino, el más grande de todos los monos, cuando se excita la piel se le vuelve más brillante todavía. Los científicos creen que este colorido debe estar relacionado con la comunicación. Pero no tienes que saber leer la \"escritura mandril\" para entender este aviso: \"no te acerques\"",
+      "narration": "assets/es/babn/BABN04NP.mp3"
+    },
+    {
+      "id": "backpacking-baby",
+      "title": "Crías a la espalda",
+      "image": "assets/es/babn/BABN05PU.webp",
+      "text": "Un babuino recién nacido se aferra al pecho de la madre para poder mamar cuando quiera. Al cabo de unos meses, cuando el grupo de babuinos se desplaza viaja sobre la madre. Cuando crecen, las hembras suelen quedarse en el mismo grupo, pero casi todos los machos son obligados a unirse a otro.",
+      "narration": "assets/es/babn/BABN05NP.mp3"
+    },
+    {
+      "id": "social-grooming",
+      "title": "Aseo social",
+      "image": "assets/es/babn/BABN06PU.webp",
+      "text": "Estos babuinos no sólo se están peinando unos a otros para quitarse las pulgas, el aseo en grupo es una forma de decirse: \"Te conozco y me fío de ti. Eres mi amigo\". ¡Cuando un babuino encuentra una pulga, la hace crujir en la boca!",
+      "narration": "assets/es/babn/BABN06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/babn/BABN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.02,
+            "y": 9.41,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Cráneo revelador",
+            "to": "skull-story",
+            "x": 47.06,
+            "y": 5.51,
+            "w": 15.89,
+            "h": 8.89
+          },
+          {
+            "label": "Habitantes del suelo",
+            "to": "video",
+            "x": 42.52,
+            "y": 13.09,
+            "w": 13.86,
+            "h": 4.13
+          },
+          {
+            "label": "Cara pintada",
+            "to": "painted-face",
+            "x": 58,
+            "y": 13,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Juego de niños",
+            "to": "childs-play",
+            "x": 60,
+            "y": 23,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Vida en la sabana",
+            "to": "savanna-life",
+            "x": 61,
+            "y": 32,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Crías a la espalda",
+            "to": "backpacking-baby",
+            "x": 38.46,
+            "y": 62.44,
+            "w": 15.73,
+            "h": 4.56
+          },
+          {
+            "label": "Aseo social",
+            "to": "social-grooming",
+            "x": 33,
+            "y": 70,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Leopard",
+            "x": 90.49,
+            "y": 11.57,
+            "w": 8.54,
+            "h": 3.27,
+            "external": "animal.html?id=leop"
+          }
+        ]
+      },
+      "skull-story": {
+        "image": "assets/es/babn/BABN01PU.webp",
+        "back": "main"
+      },
+      "childs-play": {
+        "image": "assets/es/babn/BABN02PU.webp",
+        "back": "main"
+      },
+      "savanna-life": {
+        "image": "assets/es/babn/BABN03PU.webp",
+        "back": "main"
+      },
+      "painted-face": {
+        "image": "assets/es/babn/BABN04PU.webp",
+        "back": "main"
+      },
+      "backpacking-baby": {
+        "image": "assets/es/babn/BABN05PU.webp",
+        "back": "main"
+      },
+      "social-grooming": {
+        "image": "assets/es/babn/BABN06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/babn/BABN00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/babn/clip.mp4",
+        "poster": "assets/es/babn/BABN07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/babn/narration.mp3",
+  "sound": "assets/es/babn/BABN00AF.mp3",
+  "factsNarration": "assets/es/babn/BABN00FB.mp3",
+  "video": {
+    "title": "Habitantes del suelo",
+    "src": "assets/es/babn/clip.mp4",
+    "poster": "assets/es/babn/poster.webp",
+    "caption": "A diferencia de la mayoría de los monos no antropomorfos, los babuinos pasan el día sobre el suelo y sólo suben a los árboles o riscos para dormir o esconderse de los predadores. En África encontrarás a los babuinos en las praderas y a los otros monos en los bosques."
+  }
+}

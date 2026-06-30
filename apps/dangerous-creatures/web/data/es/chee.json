@@ -1,0 +1,243 @@
+{
+  "id": "chee",
+  "code": "CHEE",
+  "name": "Guepardo",
+  "scientificName": "Acinonyx jubatus",
+  "needsScientificVerify": false,
+  "tagline": "¡El animal terrestre más veloz del mundo pasa de 0 a 100 en solo tres segundos!",
+  "weapons": [
+    "Dientes y mandíbulas",
+    "Garras y zarpas"
+  ],
+  "habitats": [
+    "Praderas y sabanas"
+  ],
+  "regions": [
+    "África",
+    "Asia"
+  ],
+  "hero": {
+    "image": "assets/es/chee/CHEE00AA.webp",
+    "alt": "Guepardo"
+  },
+  "intro": "A todos los felinos les gusta subirse a los sitios elevados para inspeccionar el territorio circundante. En la sabana africana, los montículos de los termiteros son un buen puesto de vigilancia para los guepardos. Si ves varios guepardos juntos, como éstos, probablemente se trata de una madre con sus cachorros o de un grupo de machos jóvenes, que comparten a veces un territorio.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Muerde, desgarra y estrangula a su presa.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Gacelas y antílopes, así como numerosos animales pequeños.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "¡En su persecución de un veloz antílope, a los guepardos se les han cronometrado velocidades de hasta 113 kilómetros por hora!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 1,8 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "África, Oriente Medio",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "savanna-cats",
+      "title": "Los felinos de la sabana",
+      "image": "assets/es/chee/CHEE01PU.webp",
+      "text": "Los guepardos viven en las praderas africanas, llamadas también sabanas. Estos dos felinos viven en la sabana. ¿Sabes algo de ellos?",
+      "captions": [
+        {
+          "label": "El serval o gato serval",
+          "text": "Los gatos servales son mucho más pequeños que los guepardos y comen animales más pequeños, como aves. Si hay una granja avícola cercana, un serval hambriento podría servirse uno o dos pollos. Este comportamiento no les hace muy queridos entre los granjeros."
+        },
+        {
+          "label": "El caracal o lince del desierto",
+          "text": "Este felino puede pesar hasta 17 kilos. Le gustan las regiones secas. En el pasado, el hombre lo domesticó y lo entrenó para la caza, de modo muy parecido a como se entrenan hoy los perros con ese fin."
+        }
+      ],
+      "narration": "assets/es/chee/CHEE01NP.mp3"
+    },
+    {
+      "id": "jaws-not-claws",
+      "title": "Mandíbulas, no garras",
+      "image": "assets/es/chee/CHEE02PU.webp",
+      "text": "El nombre nativo del guepardo significa «gato-perro». A semejanza del perro, usa las garras como tracción cuando corre. Pero un guepardo no puede retraer las garras como los demás felinos, ni mantenerlas afiladas o usarlas como arma. El guepardo oprime a su presa por el cuello hasta que la asfixia.",
+      "narration": "assets/es/chee/CHEE02NP.mp3"
+    },
+    {
+      "id": "lightweights",
+      "title": "Pesos ligeros",
+      "image": "assets/es/chee/CHEE03PU.webp",
+      "text": "Los guepardos no pueden arrastrar las presas grandes para ponerlas fuera del alcance de otros predadores; y para la pelea son un peso ligero. Su cuerpo está hecho para la carrera; no para el combate, por lo que si un león o una hiena le disputan la caza, el guepardo suele ceder sin oponerse demasiado.",
+      "narration": "assets/es/chee/CHEE03NP.mp3"
+    },
+    {
+      "id": "playing-to-hunt",
+      "title": "Jugando a cazar",
+      "image": "assets/es/chee/CHEE04PU.webp",
+      "text": "Los cachorros en estado salvaje se fortalecen y aprenden a cazar por medio del juego y la imitación. Estos guepardos jóvenes practican el salto y el acecho «cazándose» unos a otros. En cuanto puedan correr velozmente estarán preparados para encargarse de una presa auténtica.",
+      "narration": "assets/es/chee/CHEE04NP.mp3"
+    },
+    {
+      "id": "at-home-with-the-kids",
+      "title": "En casa con los niños",
+      "image": "assets/es/chee/CHEE05PU.webp",
+      "text": "La hembra de guepardo da a luz a sus cachorros tras un periodo de gestación de unos tres meses. Suele tener entre cuatro y seis cachorros, que amamantará como mínimo tres meses y hasta un máximo de seis. Después dedicará casi un año a enseñarles a cazar. Cuando tengan aproximadamente un año y medio empezarán a vivir por su cuenta; mientras la madre está lista para tener una nueva camada.",
+      "narration": "assets/es/chee/CHEE05NP.mp3"
+    },
+    {
+      "id": "african-racers",
+      "title": "Corredores africanos",
+      "image": "assets/es/chee/CHEE06PU.webp",
+      "text": "¡Los guepardos pueden alcanzar casi los 100 kilómetros por hora en tres segundos y se les ha cronometrado una velocidad punta de 115! Han de atrapar a la presa enseguida, pues son velocistas potentes, no corredores de largas distancias. Estos dos animales también son buenos velocistas.",
+      "captions": [
+        {
+          "label": "A buen paso",
+          "text": "Quizá creas que un rinoceronte es lento y torpe. ¡No apuestes por ello! En la embestida alcanza los 50 kilómetros por hora; ¡más rápido de lo que pueden correr muchos hombres!"
+        },
+        {
+          "label": "Correr en vez de volar",
+          "text": "Aunque las avestruces son las aves más grandes del mundo, están hechas para correr, no para volar. Un ejemplar adulto puede superar los 70 kilómetros por hora."
+        }
+      ],
+      "narration": "assets/es/chee/CHEE06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/chee/CHEE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.02,
+            "y": 8.11,
+            "w": 4.95,
+            "h": 3.92
+          },
+          {
+            "label": "En casa con los niños",
+            "to": "at-home-with-the-kids",
+            "x": 49.71,
+            "y": 7.89,
+            "w": 18.39,
+            "h": 4.13
+          },
+          {
+            "label": "Grassland Environments",
+            "x": 77.21,
+            "y": 10.92,
+            "w": 22.45,
+            "h": 9.98,
+            "link": "browse.html?tab=habitats#grassland-savanna"
+          },
+          {
+            "label": "Pesos ligeros",
+            "to": "lightweights",
+            "x": 53.93,
+            "y": 22.18,
+            "w": 17.29,
+            "h": 4.56
+          },
+          {
+            "label": "Mandíbulas, no garras",
+            "to": "jaws-not-claws",
+            "x": 55,
+            "y": 33,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Jugando a cazar",
+            "to": "playing-to-hunt",
+            "x": 20.34,
+            "y": 46.2,
+            "w": 17.14,
+            "h": 10.63
+          },
+          {
+            "label": "Los felinos de la sabana",
+            "to": "savanna-cats",
+            "x": 20.34,
+            "y": 47.72,
+            "w": 22.29,
+            "h": 9.11
+          },
+          {
+            "label": "¡Qué trabajo!",
+            "to": "video",
+            "x": 7.99,
+            "y": 61.79,
+            "w": 14.64,
+            "h": 4.13
+          },
+          {
+            "label": "Corredores africanos",
+            "to": "african-racers",
+            "x": 3.31,
+            "y": 71.96,
+            "w": 19.79,
+            "h": 3.7
+          }
+        ]
+      },
+      "savanna-cats": {
+        "image": "assets/es/chee/CHEE01PU.webp",
+        "back": "main"
+      },
+      "jaws-not-claws": {
+        "image": "assets/es/chee/CHEE02PU.webp",
+        "back": "main"
+      },
+      "lightweights": {
+        "image": "assets/es/chee/CHEE03PU.webp",
+        "back": "main"
+      },
+      "playing-to-hunt": {
+        "image": "assets/es/chee/CHEE04PU.webp",
+        "back": "main"
+      },
+      "at-home-with-the-kids": {
+        "image": "assets/es/chee/CHEE05PU.webp",
+        "back": "main"
+      },
+      "african-racers": {
+        "image": "assets/es/chee/CHEE06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/chee/CHEE00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/chee/clip.mp4",
+        "poster": "assets/es/chee/CHEE07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/chee/narration.mp3",
+  "sound": "assets/es/chee/CHEE00AF.mp3",
+  "factsNarration": "assets/es/chee/CHEE00FB.mp3",
+  "video": {
+    "title": "¡Qué trabajo!",
+    "src": "assets/es/chee/clip.mp4",
+    "poster": "assets/es/chee/poster.webp",
+    "caption": "Como la mayoría de los felinos, los guepardos tienen que esforzarse mucho para conseguir su comida. Cada intento de alcanzar a la presa les supone mucha energía; y casi la mitad de los intentos fracasan."
+  }
+}

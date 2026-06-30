@@ -1,0 +1,216 @@
+{
+  "id": "urch",
+  "code": "URCH",
+  "name": "La holoturia y el erizo de mar",
+  "category": "creature",
+  "scientificName": "Lytechinus variegatus",
+  "needsScientificVerify": false,
+  "tagline": "El alfiletero del océano esconde un mundo de sorpresas.",
+  "zones": [
+    "Costa y charcas de marea",
+    "Arrecife de coral",
+    "Bosques de algas y praderas marinas"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/urch/URCH00AA.webp",
+    "alt": "La holoturia y el erizo de mar"
+  },
+  "intro": "El erizo de mar y la holoturia, al igual que la estrella de mar, son invertebrados conocidos como equinodermos (o criaturas con espinas en la piel). Casi todos los erizos de mar están cubiertos de espinas defensivas que les dan el aspecto de alfileteros o pequeños puercoespines. Tienen una serie de patas blandas tubulares entre las espinas que terminan en ventosas de las que se sirven para agarrar comida u otra cosa. Este erizo utiliza sus patas tubulares para agarrarse a unas valvas con el fin de camuflarse.",
+  "facts": [
+    {
+      "label": "Tipo de animal",
+      "value": "Invertebrado equinodermo (criatura con espinas en la piel)"
+    },
+    {
+      "label": "Caparazón",
+      "value": "El duro caparazón se llama testa; al morir el erizo, las espinas caen y solo ella sobrevive"
+    },
+    {
+      "label": "Patas tubulares",
+      "value": "Terminan en ventosas y sirven para moverse, agarrar comida o camuflarse con valvas"
+    },
+    {
+      "label": "La holoturia",
+      "value": "Su cuerpo tiene cinco partes simétricas que irradian de una cavidad central"
+    },
+    {
+      "label": "Dólar de arena",
+      "value": "Es un erizo de mar sin espinas largas; vive en fondos de arena o cieno junto a la orilla"
+    },
+    {
+      "label": "Depredadores",
+      "value": "El puerco absorbe agua que expulsa en un fuerte chorro para poner boca arriba al erizo y se lanza sobre su caparazón abdominal para devorarlo"
+    }
+  ],
+  "topics": [
+    {
+      "id": "urchin-insides",
+      "title": "El interior de un erizo",
+      "image": "assets/es/urch/URCH01PU.webp",
+      "text": "Estás viendo lo que hay bajo las espinas de un erizo de mar.\n\nLa anatomía de un erizo\nEl duro caparazón, llamado testa, protege la boca y el sistema digestivo del animal, y sobre él crecen las espinas. El erizo «camina» moviendo sus diminutas patas tubulares, localizadas en la parte inferior. Es obvio por qué algunos predadores dan la vuelta a los erizos de mar: para alcanzar el punto blando y vulnerable situado en el centro del cuerpo.\n\nTodo lo que queda\nCuando un erizo de mar muere, sus espinas se desprenden, el carnoso cuerpo y las patas se pudren y todo lo que queda es una testa como la que ves aquí.",
+      "narration": "assets/es/urch/URCH01JN.mp3"
+    },
+    {
+      "id": "sea-cucumbers",
+      "title": "La holoturia",
+      "image": "assets/es/urch/URCH02PU.webp",
+      "text": "A primera vista, este animal de cuerpo apepinado no se parece mucho a la estrella de mar ni al erizo. Pero si observas con atención, descubrirás ciertas similitudes.\n\nUna lección de anatomía\nLa holoturia tiene una fila de diminutas patas tubulares a los lados que le permiten caminar. Y, al igual que el resto de los equinodermos, su cuerpo tiene cinco partes simétricas que irradian de una cavidad central.\n\nPiel curtida\nLa holoturia no tiene espinas por fuera ni esqueleto por dentro, pero está dotada de espículas como éstas, que atraviesan la carne y endurecen su cuerpo blando.",
+      "narration": "assets/es/urch/URCH02JN.mp3"
+    },
+    {
+      "id": "spineless-relatives",
+      "title": "Parientes sin espinas",
+      "image": "assets/es/urch/URCH03PU.webp",
+      "text": "El erizo de arena aplanado y el llamado dólar de arena carecen de largas espinas, pero son erizos de mar. Mucha gente no los reconoce y sólo identifica sus testas cuando encuentran alguna en la playa.\n\nMuertos\nEstas testas son todo lo que queda tras pudrirse la carne de un dólar de arena aplanado.\n\nVivos\nEstos son ejemplares vivos de erizo de arena aplanado, que se encuentran principalmente en los fondos de arena o cieno junto a la orilla.",
+      "captions": [
+        {
+          "label": "Punta de dólar de arena aplanado",
+          "text": "Punta de dólar de arena aplanado"
+        },
+        {
+          "label": "Erizo de arena aplanado, mar de Cortez, México",
+          "text": "Dendraster sp."
+        }
+      ],
+      "narration": "assets/es/urch/URCH03JN.mp3"
+    },
+    {
+      "id": "strategic-spines",
+      "title": "Espinas defensivas",
+      "image": "assets/es/urch/URCH04PU.webp",
+      "text": "El erizo de mar no es el único animal que utiliza espinas para su defensa. Todo tipo de animales, entre otros los dinosaurios, los reptiles, los insectos, los peces, e incluso los mamíferos, han adoptado este sistema de defensa en algún momento.\n\nMamíferos con espinas\nEste erizo de mar tiene afiladas espinas que pone en erección frente a sus predadores.\n\nReptiles con espinas\nComprenderás el motivo por el que la gente llama diablo espinoso o moloch a este reptil. Pocos predadores osarían hincarle el diente.",
+      "captions": [
+        {
+          "label": "Spiky moloch, Australia",
+          "text": "Moloch horridus"
+        },
+        {
+          "label": "Erizo de mar",
+          "text": "Inglaterra"
+        }
+      ],
+      "narration": "assets/es/urch/URCH04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Las estrellas de mar",
+      "to": "star"
+    },
+    {
+      "label": "El coral",
+      "to": "cora"
+    },
+    {
+      "label": "Las esponjas marinas",
+      "to": "spon"
+    },
+    {
+      "label": "Tesoros en el fondo del mar",
+      "to": "buri"
+    },
+    {
+      "label": "El rascacio",
+      "to": "scor"
+    },
+    {
+      "label": "Los cangrejos",
+      "to": "crab"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/urch/URCH00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 9,
+            "h": 5
+          },
+          {
+            "label": "El interior de un erizo",
+            "to": "urchin-insides",
+            "x": 62,
+            "y": 26,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "La holoturia",
+            "to": "sea-cucumbers",
+            "x": 28,
+            "y": 46,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Espinas defensivas",
+            "to": "strategic-spines",
+            "x": 61,
+            "y": 53,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "Parientes sin espinas",
+            "to": "spineless-relatives",
+            "x": 5,
+            "y": 74,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Los devoradores de erizos",
+            "to": "video",
+            "x": 60,
+            "y": 83,
+            "w": 22,
+            "h": 6
+          }
+        ]
+      },
+      "urchin-insides": {
+        "image": "assets/es/urch/URCH01PU.webp",
+        "back": "main"
+      },
+      "sea-cucumbers": {
+        "image": "assets/es/urch/URCH02PU.webp",
+        "back": "main"
+      },
+      "spineless-relatives": {
+        "image": "assets/es/urch/URCH03PU.webp",
+        "back": "main"
+      },
+      "strategic-spines": {
+        "image": "assets/es/urch/URCH04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/urch/clip.mp4",
+        "poster": "assets/es/urch/URCH05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/urch/URCH00JN.mp3",
+  "sound": "assets/es/urch/URCH00IX.mp3",
+  "video": {
+    "title": "Los devoradores de erizos",
+    "src": "assets/es/urch/clip.mp4",
+    "poster": "assets/es/urch/poster.webp",
+    "caption": "Un puerco (Balistes vetula) absorbe agua que expulsa en un fuerte chorro para poner boca arriba al erizo; después se lanza sobre su caparazón abdominal para devorarlo.",
+    "narration": "assets/es/urch/URCH05JN.mp3"
+  }
+}

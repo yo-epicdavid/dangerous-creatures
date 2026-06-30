@@ -1,0 +1,151 @@
+{
+  "id": "dhus",
+  "code": "DHUS",
+  "name": "Deinosuchus",
+  "category": "creature",
+  "scientificName": "Deinosuchus",
+  "needsScientificVerify": false,
+  "pronunciation": "dy-no-SOO-kus",
+  "meaning": "Cocodrilo del terror",
+  "period": "Cretácico superior",
+  "diet": "Carnívoro",
+  "tagline": "¡El cocodrilo gigante que acechaba en los pantanos para tender emboscadas a los dinosaurios!",
+  "hero": {
+    "image": "assets/dhus/DHUS00AA.webp",
+    "alt": "Deinosuchus"
+  },
+  "intro": "Probablemente el pariente más grande del cocodrilo moderno que jamás haya existido, el Deinosuchus rondaba los pantanos de agua dulce esperando agazapado para tender emboscadas a los dinosaurios y otras criaturas prehistóricas. Los expertos calculan que medía casi quince metros de longitud, ¡tan largo como un camión articulado con su remolque! Sin embargo, esta medida no es más que una estimación, ya que hasta ahora solo se ha encontrado su cráneo, que por sí solo medía casi dos metros de largo.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "América del Norte"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico tardío"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Cocodrilo del terror"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Cocodrilo prehistórico"
+    },
+    {
+      "label": "Longitud",
+      "value": "~15 m (48 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "terror-croc",
+      "title": "El cocodrilo del terror",
+      "image": "assets/dhus/DHUS01PU.webp",
+      "text": "El nombre de Deinosuchus significa «cocodrilo del terror». Si este gigantesco cocodrilo se comportaba como los cocodrilos actuales, probablemente se escondía cerca de la orilla del agua, esperando a que los dinosaurios u otras criaturas se acercasen a beber, para después atacarlos y arrastrarlos bajo el agua. ¡Un auténtico terror!"
+    },
+    {
+      "id": "guessing-its-size",
+      "title": "Estimando su tamaño",
+      "image": "assets/dhus/DHUS02PU.webp",
+      "text": "Hasta la fecha, solo se ha encontrado el cráneo del Deinosuchus. Basándose en su longitud de casi dos metros, y suponiendo que este cocodrilo prehistórico tenía las mismas proporciones corporales que los cocodrilos modernos, se estima que el Deinosuchus medía entre doce y quince metros de longitud.",
+      "captions": [
+        {
+          "label": "Los cocodrilos modernos",
+          "text": "Los cocodrilos de hoy en día son mucho más pequeños que sus primos prehistóricos. Los cocodrilos de agua dulce actuales alcanzan habitualmente una longitud de unos tres metros y medio, mientras que los cocodrilos de agua salada pueden llegar a medir hasta cuatro metros y medio."
+        }
+      ]
+    },
+    {
+      "id": "remains-the-same",
+      "title": "¿Siempre igual?",
+      "image": "assets/dhus/DHUS03PU.webp",
+      "text": "Los cocodrilos han cambiado poco en apariencia desde el período Jurásico. Al igual que sus antepasados, son depredadores sigilosos que cazan acercándose con cautela a su presa para atacarla de repente.",
+      "captions": [
+        {
+          "label": "Restos fósiles de cocodrilo",
+          "text": "Los restos de cocodrilo se encuentran a menudo en las mismas rocas que los de los dinosaurios. Aquí puedes ver un cráneo, un escudo (placa ósea protectora) y algunos dientes procedentes de un cocodrilo del Cretácico."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Cretaceous Period",
+      "to": "cret"
+    },
+    {
+      "label": "Living Fossils",
+      "to": "ddec"
+    },
+    {
+      "label": "The Story in a Skull",
+      "to": "stor"
+    },
+    {
+      "label": "Life After Dinosaurs",
+      "to": "aftr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/dhus/DHUS00AA.webp",
+        "hotspots": [
+          {
+            "label": "El cocodrilo del terror",
+            "to": "terror-croc",
+            "x": 36,
+            "y": 54,
+            "w": 13,
+            "h": 4
+          },
+          {
+            "label": "¿Siempre igual?",
+            "to": "remains-the-same",
+            "x": 16,
+            "y": 63,
+            "w": 17,
+            "h": 4
+          },
+          {
+            "label": "Estimando su tamaño",
+            "to": "guessing-its-size",
+            "x": 75,
+            "y": 77,
+            "w": 17,
+            "h": 4
+          }
+        ]
+      },
+      "terror-croc": {
+        "image": "assets/dhus/DHUS01PU.webp",
+        "back": "main"
+      },
+      "guessing-its-size": {
+        "image": "assets/dhus/DHUS02PU.webp",
+        "back": "main"
+      },
+      "remains-the-same": {
+        "image": "assets/dhus/DHUS03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/dhus/DHUS50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/dhus/DHUS00AP.mp3",
+  "narration": "assets/dhus/DHUS00AJ.mp3",
+  "fanTranslation": true
+}

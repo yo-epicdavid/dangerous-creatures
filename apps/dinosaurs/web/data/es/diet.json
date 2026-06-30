@@ -1,0 +1,169 @@
+{
+  "id": "diet",
+  "code": "DIET",
+  "name": "La alimentación de los dinosaurios",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Desde gigantescos comedores de hojas hasta aterradores depredadores, los dinosaurios se alimentaban de todas las formas imaginables.",
+  "hero": {
+    "image": "assets/diet/DIET00AA.webp",
+    "alt": "La alimentación de los dinosaurios"
+  },
+  "intro": "Había dos tipos principales de dinosaurios: los herbívoros, que se alimentaban de distintos tipos de vegetación, y los carnívoros, que comían otros animales e insectos. Los dinosaurios que comían plantas eran mucho más abundantes que los que se los comían a ellos. Algunos dinosaurios, llamados omnívoros, podían alimentarse tanto de carne como de plantas. Mientras que algunos carnívoros eran capaces de atacar y matar a sus presas, moviéndose rápidamente solos o en manada, otros se alimentaban de los restos de las carroñas que dejaban atrás. Incluso hay indicios de que algunos dinosaurios se comían a las crías de su propia especie.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "fish-hook",
+      "title": "Gancho de pesca",
+      "image": "assets/diet/DIET01PU.webp",
+      "text": "El dinosaurio pescador, Baryonyx, quizás acechaba en la orilla de los ríos, atento a cualquier agitación en el agua. A continuación, usaba sus grandes garras para enganchar a los peces que pasaban."
+    },
+    {
+      "id": "tree-toppers",
+      "title": "Las copas de los árboles",
+      "image": "assets/diet/DIET02PU.webp",
+      "text": "Los gigantescos dinosaurios herbívoros conocidos como saurópodos eran habituales en muchos de los entornos donde vivían los dinosaurios. Algunos podían alzarse para alimentarse en las copas de los árboles más altos. Este tipo de alimentación requería un cuello especial: resistente, ligero y flexible para poder levantarlo y bajarlo con facilidad. Los saurópodos solían pastar en manada, triturando las hojas con sus dientes en forma de clavija o de cuchara. Tenían la cabeza pequeña en comparación con el resto del cuerpo."
+    },
+    {
+      "id": "meat-eater",
+      "title": "Carnívoro",
+      "image": "assets/diet/DIET03PU.webp",
+      "text": "El Tiranosaurio rex era el carnívoro más grande y aterrador que ha pisado la Tierra. Esta máquina de matar se alimentaba de otros dinosaurios. Medía unos cinco metros y medio de altura y doce metros de longitud. La enorme cabeza del Tiranosaurio rex, de casi metro y medio de largo, tenía afilados dientes de hasta dieciocho centímetros de longitud. Quizás fue un feroz cazador, aunque también pudo haberse alimentado de carroña (animales ya muertos)."
+    },
+    {
+      "id": "egg-beaters",
+      "title": "Ladrones de huevos",
+      "image": "assets/diet/DIET04PU.webp",
+      "text": "Algunos dinosaurios, como el Oviraptor, puede que se especializaran en robar huevos. Sus cortas mandíbulas en forma de pico estarían bien adaptadas para romper los grandes y gruesos huevos de otros dinosaurios.",
+      "captions": [
+        {
+          "label": "Una amenaza constante",
+          "text": "Aunque tenía el tamaño de un perro grande, el Oviraptor suponía una amenaza constante para todos los dinosaurios. Con sus potentes mandíbulas y dos afiladas espinas en el paladar, el Oviraptor perforaba o aplastaba los huevos de otros dinosaurios y devoraba su contenido."
+        },
+        {
+          "label": "La serpiente comedora de huevos",
+          "text": "La serpiente africana comedora de huevos es un reptil actual especializado exclusivamente en comer huevos. Es capaz de tragarse un huevo entero del doble del ancho de su propio cuerpo. En el interior de la serpiente, unas espinas en forma de dientes trituran la cáscara. Los líquidos del huevo pasan hacia el sistema digestivo de la serpiente, mientras que los fragmentos de cáscara se compactan y se regurgitan."
+        }
+      ]
+    },
+    {
+      "id": "cannibals",
+      "title": "Caníbales",
+      "image": "assets/diet/DIET05PU.webp",
+      "text": "Los fósiles de Coelophysis hallados en Nuevo México contenían los esqueletos de sus crías. Estos esqueletos eran demasiado grandes para ser bebés no nacidos, por lo que parece que el Coelophysis se comía a sus propias crías."
+    },
+    {
+      "id": "meat-or-vegetables",
+      "title": "¿Carne o verduras?",
+      "image": "assets/diet/DIET06PU.webp",
+      "text": "Este cráneo pertenecía al Massospondylus, que quizás se alimentaba tanto de plantas como de animales. Sus dientes eran multiusos: no eran ni dentados ni en forma de rastrillo para triturar. Al contrario, eran pequeños y de bordes rugosos, por lo que podrían haberse usado para masticar tanto carne como plantas. Los animales que comen una gran variedad de alimentos se llaman omnívoros.",
+      "captions": [
+        {
+          "label": "Omnívoros actuales",
+          "text": "Hoy en día, los seres humanos solemos comer comidas que contienen elementos tanto de origen vegetal como animal. Un sándwich típico, por ejemplo, puede contener carne, que proviene de los animales, y verduras y pan, que se obtienen de las plantas."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Jurassic Period",
+      "to": "jurr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/diet/DIET00AA.webp",
+        "hotspots": [
+          {
+            "label": "Las copas de los árboles",
+            "to": "tree-toppers",
+            "x": 72,
+            "y": 23,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Gancho de pesca",
+            "to": "fish-hook",
+            "x": 9,
+            "y": 49,
+            "w": 11,
+            "h": 5
+          },
+          {
+            "label": "¿Carne o verduras?",
+            "to": "meat-or-vegetables",
+            "x": 20,
+            "y": 58,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Ladrones de huevos",
+            "to": "egg-beaters",
+            "x": 40,
+            "y": 65,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "Caníbales",
+            "to": "cannibals",
+            "x": 10,
+            "y": 77,
+            "w": 11,
+            "h": 5
+          },
+          {
+            "label": "Carnívoro",
+            "to": "meat-eater",
+            "x": 51,
+            "y": 82,
+            "w": 12,
+            "h": 5
+          }
+        ]
+      },
+      "fish-hook": {
+        "image": "assets/diet/DIET01PU.webp",
+        "back": "main"
+      },
+      "tree-toppers": {
+        "image": "assets/diet/DIET02PU.webp",
+        "back": "main"
+      },
+      "meat-eater": {
+        "image": "assets/diet/DIET03PU.webp",
+        "back": "main"
+      },
+      "egg-beaters": {
+        "image": "assets/diet/DIET04PU.webp",
+        "back": "main"
+      },
+      "cannibals": {
+        "image": "assets/diet/DIET05PU.webp",
+        "back": "main"
+      },
+      "meat-or-vegetables": {
+        "image": "assets/diet/DIET06PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/diet/DIET00AP.mp3",
+  "narration": "assets/diet/DIET00AJ.mp3",
+  "sound": "assets/diet/DIET00SA.mp3",
+  "fanTranslation": true
+}

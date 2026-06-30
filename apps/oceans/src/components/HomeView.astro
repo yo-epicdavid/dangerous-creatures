@@ -1,0 +1,70 @@
+---
+import Layout from '../layouts/Layout.astro';
+import EntryCard from './EntryCard.astro';
+import { readJSON, lp } from '../lib/data.js';
+import { t } from '../i18n/ui.js';
+
+const { locale = 'en' } = Astro.props;
+const ui = t(locale);
+const es = locale === 'es';
+const browse = readJSON('browse.json', locale);
+const categories = browse.categories || [];
+const total = readJSON('index.json', locale).length;
+const dcHref = es ? 'https://dangerous-creatures.pages.dev/es/' : 'https://dangerous-creatures.pages.dev';
+const moreWorlds = es ? 'Más mundos por explorar' : 'More worlds to explore';
+---
+<Layout title={ui.siteTitleHome} desc={ui.siteTagline} lang={locale} bilingual={true}>
+  <main id="main-content" class="wrap" tabindex="-1">
+    <div class="cover">
+      <div class="langswitch langswitch--cover" role="group" aria-label="Language · Idioma">
+        <a class:list={['lang', !es && 'is-active']} href="/" hreflang="en" lang="en" aria-current={!es ? 'true' : undefined}>English</a>
+        <a class:list={['lang', es && 'is-active']} href="/es/" hreflang="es" lang="es" aria-current={es ? 'true' : undefined}>Español</a>
+      </div>
+      <h1><b>Microsoft</b><br />Oceans</h1>
+      <p>{ui.coverLead(total)}</p>
+      <nav class="explore-nav" aria-label="Explore Oceans">
+        <a class="btn" href={lp(locale, '/browse?tab=zones')}><span class="arrow" aria-hidden="true">🌊</span> {ui.byZone}</a>
+        <a class="btn" href={lp(locale, '/browse?tab=oceans')}><span class="arrow" aria-hidden="true">🗺️</span> {ui.bySea}</a>
+        <a class="btn btn--play" href={lp(locale, '/guides')}><span class="arrow" aria-hidden="true">🧭</span> {ui.guidedTours}</a>
+        <a class="btn btn--play" href={lp(locale, '/games')}><span class="arrow" aria-hidden="true">🐚</span> {ui.games}</a>
+      </nav>
+    </div>
+
+    {categories.map((cat) => (
+      <section class="catsection">
+        <h2 class="section-head" id={cat.key}>{cat.label} <span class="count">{cat.count}</span></h2>
+        <div class="grid">
+          {cat.items.map((c) => <EntryCard id={c.id} name={c.name} thumb={c.thumb} locale={locale} />)}
+        </div>
+      </section>
+    ))}
+
+    <footer class="sitefoot">
+      <p class="siblings">{moreWorlds}:
+        <a href={dcHref}><span aria-hidden="true">🦁</span> Dangerous Creatures</a> ·
+        <a href="https://dinosaurs.pages.dev"><span aria-hidden="true">🦕</span> Dinosaurs</a>
+      </p>
+      <p class="links">
+        <a href={lp(locale, '/making-of')}><span aria-hidden="true">✦</span> {ui.makingOf}</a> &nbsp;·&nbsp;
+        <a href="/credits">{ui.creditsLong}</a>
+      </p>
+      <p class="notice"><Fragment set:html={ui.homeNotice} /> <a href="/credits">{ui.seeCredits}</a>.</p>
+    </footer>
+  </main>
+</Layout>
+
+<style>
+  .cover { text-align: center; padding: 22px 20px 14px; }
+  .langswitch--cover { display: inline-flex; gap: 2px; margin: 0 auto 24px; }
+  .cover h1 { font-family: var(--font-display); font-size: clamp(44px, 8.5vw, 92px); margin: 0; line-height: .95; font-weight: 700; }
+  .cover h1 b { color: var(--rust); }
+  .cover p { color: var(--ink-soft); font-size: 20px; max-width: 640px; margin: 14px auto 18px; }
+  .catsection { margin: 6px 0 38px; }
+  .section-head .count { color: var(--ink-soft); font-size: .6em; font-weight: 600; vertical-align: middle; }
+  .grid { margin: 10px 0 0; }
+  .sitefoot { text-align: center; padding: 6px 20px 70px; color: var(--ink-soft); }
+  .sitefoot .links { margin: 0 0 12px; font-size: 16px; }
+  .sitefoot .links a { color: var(--gold); }
+  .sitefoot .notice { margin: 0 auto; font-size: 13px; max-width: 660px; line-height: 1.5; }
+  .sitefoot .notice a { color: var(--ink-soft); text-decoration: underline; }
+</style>

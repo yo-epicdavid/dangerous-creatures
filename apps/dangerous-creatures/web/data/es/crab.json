@@ -1,0 +1,257 @@
+{
+  "id": "crab",
+  "code": "CRAB",
+  "name": "Cangrejo",
+  "scientificName": "Macrocheira kaempferi",
+  "needsScientificVerify": false,
+  "tagline": "De la orilla al fondo del océano, ¡nadie tiene unas pinzas más peligrosas!",
+  "weapons": [
+    "Pinzas"
+  ],
+  "habitats": [
+    "Océanos y arrecifes de coral"
+  ],
+  "regions": [
+    "Océanos y mares",
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/crab/CRAB00AA.webp",
+    "alt": "Cangrejo"
+  },
+  "intro": "Cuando pensamos en cangrejos, casi siempre nos acordamos de la playa, pero también viven en otros sitios: corretean por el suelo, trepan a los árboles y frecuentan las oscuras profundidades del océano. Los hay de todos los tamaños, desde el casi invisible cangrejo guisante hasta este gigantesco cangrejo araña del Japón, que puede medir hasta 3,5 metros de anchura con las patas extendidas.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Para defenderse o atacar, sujeta y corta a la víctima con las pinzas.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Plantas o animales muertos, plancton, peces vivos (la dieta varía según la especie).",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "En todo el mundo hay más de 4.500 clases de cangrejos y su tamaño es muy variable. ¡Los hay tan pequeños como una perla o cuatro veces más grandes que un hombre!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 8 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: todas las costas y zonas marinas de poca profundidad.",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "life-in-a-tidepool",
+      "title": "Vida en las corrientes",
+      "image": "assets/es/crab/CRAB01PU.webp",
+      "text": "Este cangrejo de pasta se llama así porque la parte superior del caparazón se parece a la parte de arriba de una tarta. Vive en zonas de corriente y se alimenta de crustáceos pequeños y de cualquier animal muerto que encuentra. La sensibilidad de los pelos de las patas le ayuda a abrirse camino en los lugares oscuros y resbaladizos.",
+      "captions": [
+        {
+          "label": "A la pesca del cangrejo",
+          "text": "Los cangrejos de pasta son una buena comida. ¡Pero si abusamos dejará de existir muy pronto!"
+        }
+      ],
+      "narration": "assets/es/crab/CRAB01NP.mp3"
+    },
+    {
+      "id": "bullies-on-the-block",
+      "title": "Los matones del barrio",
+      "image": "assets/es/crab/CRAB02PU.webp",
+      "text": "Para ser tan duro, el cangrejo terciopelo tiene un nombre muy suave. Es un cazador feroz que destroza todo lo que puedan capturar sus pinzas afiladas. Es el terror de las corrientes y esta hembra debe ser, sin duda, especialmente quisquillosa, pues lleva miles de huevos en el abdomen.",
+      "captions": [
+        {
+          "label": "Un tacto no tan suave",
+          "text": "Los cangrejos terciopelo reciben ese nombre por el pelo aterciopelado de la espalda. ¡Pero ten cuidado con las afiladas pinzas y las fuertes piezas bucales de su parte frontal!"
+        }
+      ],
+      "narration": "assets/es/crab/CRAB02NP.mp3"
+    },
+    {
+      "id": "freeloader",
+      "title": "Un invitado",
+      "image": "assets/es/crab/CRAB03PU.webp",
+      "text": "Si vives en un caparazón prestado, como este cangrejo ermitaño, siempre habrá otros animales que querrán irse a vivir contigo o viajar gratis. En este caso, un gusano poliqueto comparte el caparazón de este cangrejo y ha salido para conseguir un bocado del pez que el otro ha capturado.",
+      "narration": "assets/es/crab/CRAB03NP.mp3"
+    },
+    {
+      "id": "worms-with-legs",
+      "title": "Gusanos con patas",
+      "image": "assets/es/crab/CRAB04PU.webp",
+      "text": "Este nereis rey (o poliqueto rey) suele vivir en la arena del océano, aunque se sabe que también le gusta vivir gratis dentro del caparazón de un cangrejo ermitaño. Un poliqueto no utiliza esas patas planas de aspecto tan divertido – llamadas parapodias – sólo para caminar: ¡también respira por ellas! Funcionan de manera parecida a las branquias de un pez, extrayendo oxígeno del agua del mar.",
+      "captions": [
+        {
+          "label": "El gusano prodigio",
+          "text": "Algunos poliquetos rey llegan a medir casi un metro de longitud, pero si se sienten amenazados se contraen hasta un tamaño mucho menor."
+        }
+      ],
+      "narration": "assets/es/crab/CRAB04NP.mp3"
+    },
+    {
+      "id": "shell-game",
+      "title": "Un surtido de caparazones",
+      "image": "assets/es/crab/CRAB05PU.webp",
+      "text": "A diferencia de otros cangrejos, el ermitaño tiene el cuerpo blando, por lo que ha de tomar prestada una cubierta dura – normalmente la que ha abandonado otro animal marino – para protegerse de los predadores. El caparazón ideal debe ser lo bastante grande para que pueda esconderse dentro y lo bastante pequeño para que lo pueda transportar. ¡No siempre es fácil encontrar el caparazón adecuado en el momento oportuno!",
+      "narration": "assets/es/crab/CRAB05NP.mp3"
+    },
+    {
+      "id": "fiddling-or-fighting",
+      "title": "¿Tocando el violín o peleando?",
+      "image": "assets/es/crab/CRAB06PU.webp",
+      "text": "¿Te has preguntado alguna vez quién se come todos los desechos que encuentras en la playa? ¡En una buena parte, los cangrejos violinistas! Viven en madrigueras cavadas en el barro o en la arena y buscan en los alrededores cualquier cosa comestible. Incluso se introducen bolas de lodo y arena en la boca para seleccionar diminutas partículas de comida y escupir el resto.",
+      "captions": [
+        {
+          "label": "La lucha por el territorio",
+          "text": "Cada cangrejo macho controla su propio territorio y cuando es necesario combate a los cangrejos intrusos con sus grandes pinzas \"de violín\"."
+        }
+      ],
+      "narration": "assets/es/crab/CRAB06NP.mp3"
+    },
+    {
+      "id": "only-if-its-clean",
+      "title": "Sólo si está limpia",
+      "image": "assets/es/crab/CRAB07PU.webp",
+      "text": "Los cangrejos de río, relacionados con los cangrejos y las langostas, viven en el agua dulce de los ríos y lagos. Lo mismo que los de mar, tienen pinzas afiladas, llamadas quelas, que usan para conseguir comida y defenderse. El cangrejo de río sólo puede vivir en un medio ambiente limpio, por lo que si al andar sobre las rocas uno de ellos te atrapa un dedo, ¡al menos estarás seguro de que el agua no está muy contaminada!",
+      "narration": "assets/es/crab/CRAB07NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/crab/CRAB00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 4.24,
+            "y": 2.05,
+            "w": 5.89,
+            "h": 10.84
+          },
+          {
+            "label": "Gusanos con patas",
+            "to": "worms-with-legs",
+            "x": 43,
+            "y": 9,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Vida en las corrientes",
+            "to": "life-in-a-tidepool",
+            "x": 41,
+            "y": 33,
+            "w": 25,
+            "h": 6
+          },
+          {
+            "label": "Un invitado",
+            "to": "freeloader",
+            "x": 47,
+            "y": 51,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Sólo si está limpia",
+            "to": "only-if-its-clean",
+            "x": 45,
+            "y": 65,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "Un surtido de caparazones",
+            "to": "shell-game",
+            "x": 78.15,
+            "y": 78.02,
+            "w": 11.04,
+            "h": 4.56
+          },
+          {
+            "label": "¿Tocando el violín o peleando?",
+            "to": "fiddling-or-fighting",
+            "x": 7,
+            "y": 57,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Los matones del barrio",
+            "to": "bullies-on-the-block",
+            "x": 7,
+            "y": 64,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "Crustáceos locos",
+            "to": "video",
+            "x": 11.74,
+            "y": 79.32,
+            "w": 19.48,
+            "h": 3.48
+          }
+        ]
+      },
+      "life-in-a-tidepool": {
+        "image": "assets/es/crab/CRAB01PU.webp",
+        "back": "main"
+      },
+      "bullies-on-the-block": {
+        "image": "assets/es/crab/CRAB02PU.webp",
+        "back": "main"
+      },
+      "freeloader": {
+        "image": "assets/es/crab/CRAB03PU.webp",
+        "back": "main"
+      },
+      "worms-with-legs": {
+        "image": "assets/es/crab/CRAB04PU.webp",
+        "back": "main"
+      },
+      "shell-game": {
+        "image": "assets/es/crab/CRAB05PU.webp",
+        "back": "main"
+      },
+      "fiddling-or-fighting": {
+        "image": "assets/es/crab/CRAB06PU.webp",
+        "back": "main"
+      },
+      "only-if-its-clean": {
+        "image": "assets/es/crab/CRAB07PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/crab/CRAB00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/crab/clip.mp4",
+        "poster": "assets/es/crab/CRAB08TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/crab/narration.mp3",
+  "sound": "assets/es/crab/CRAB00AF.mp3",
+  "factsNarration": "assets/es/crab/CRAB00FB.mp3",
+  "video": {
+    "title": "Crustáceos locos",
+    "src": "assets/es/crab/clip.mp4",
+    "poster": "assets/es/crab/poster.webp",
+    "caption": "«Métete en su pellejo» es un dicho que significa que debes «intentar entender el modo de pensar de otra persona». ¿Podremos alguna vez entender el comportamiento de un animal como el cangrejo? Quizás no hasta que «no nos metamos en un caparazón». De momento sólo podemos observar y asombrarnos."
+  }
+}

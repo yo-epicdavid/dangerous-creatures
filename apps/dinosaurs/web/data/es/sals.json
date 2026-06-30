@@ -1,0 +1,121 @@
+{
+  "id": "sals",
+  "code": "SALS",
+  "name": "Saltopus",
+  "category": "dinosaur",
+  "scientificName": "Saltopus",
+  "needsScientificVerify": false,
+  "pronunciation": "sal-TOH-pus",
+  "meaning": "Pie saltarín",
+  "period": "Triásico superior",
+  "diet": "Carnívoro",
+  "tagline": "¡Este pequeño y veloz cazador era tan solo del tamaño de un gato doméstico!",
+  "hero": {
+    "image": "assets/sals/SALS00AA.webp",
+    "alt": "Saltopus"
+  },
+  "intro": "Los dinosaurios existían en todas las formas y tamaños. ¡Saltopus era un dinosaurio esbelto y ágil tan pequeño como un gato! Y al igual que un gato, este pequeño dinosaurio cazaba criaturas más pequeñas que él, como lagartos prehistóricos e insectos. Los fósiles de Saltopus solo se han encontrado en Escocia.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Europa"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico Temprano"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Pie saltarín"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Terópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "60 cm (2 pies)"
+    },
+    {
+      "label": "Peso",
+      "value": "2 libras"
+    }
+  ],
+  "topics": [
+    {
+      "id": "tiny-dinosaurs",
+      "title": "Dinosaurios diminutos",
+      "image": "assets/sals/SALS01PU.webp",
+      "text": "Cuando la mayoría de la gente piensa en dinosaurios, imagina reptiles gigantes y lentos. Pero los dinosaurios existían en muchos tamaños, y algunos, como estos diminutos, eran rápidos como el rayo.",
+      "captions": [
+        {
+          "label": "Un dinosaurio del tamaño de una mascota",
+          "text": "Saltopus era tan pequeño que, si viviese hoy, algunas personas podrían llegar a tenerlo como mascota."
+        },
+        {
+          "label": "Lesothosaurus",
+          "text": "Este pequeño dinosaurio medía tan solo unos noventa centímetros de longitud. Sus dientes planos en forma de hoja y su pico sugieren que probablemente se alimentaba de plantas."
+        },
+        {
+          "label": "Compsognathus",
+          "text": "El nombre de este dinosaurio significa «mandíbula bonita». Pero su sonrisa llena de dientes no habría resultado tan bonita para los pequeños animales que cazaba."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Speedy Dinosaurs",
+      "to": "spee"
+    },
+    {
+      "label": "Mussaurus",
+      "to": "muss"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/sals/SALS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Dinosaurios diminutos",
+            "to": "tiny-dinosaurs",
+            "x": 17,
+            "y": 68,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Datos",
+            "to": "facts",
+            "x": 28,
+            "y": 3,
+            "w": 4,
+            "h": 7
+          }
+        ]
+      },
+      "tiny-dinosaurs": {
+        "image": "assets/sals/SALS01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/sals/SALS50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/sals/SALS00AP.mp3",
+  "narration": "assets/sals/SALS00AJ.mp3",
+  "fanTranslation": true
+}

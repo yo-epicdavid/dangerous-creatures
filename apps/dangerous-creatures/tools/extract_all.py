@@ -13,12 +13,17 @@ import os, sys, glob, json, subprocess
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
+sys.path.insert(0, os.path.join(HERE, "..", "..", "..", "packages", "pipeline"))
 from szdd import expand
 
-DISC = "/Volumes/DANGEROUS"
+# Locale-aware: defaults extract the English disc to web/assets/. Set LOCALE=es + DISC=/Volumes/MS_Animales
+# to extract the Castilian Spanish disc to web/assets/es/ (English behavior unchanged when unset).
+DISC = os.environ.get("DISC", "/Volumes/DANGEROUS")
+LOCALE = os.environ.get("LOCALE", "")
 ANIMAL_DIR = os.path.join(DISC, "ANIMAL")
-OUT_ROOT = os.path.abspath(os.path.join(HERE, "..", "web", "assets"))
-MANIFEST = os.path.abspath(os.path.join(HERE, "..", "web", "extracted-manifest.json"))
+WEB = os.path.abspath(os.path.join(HERE, "..", "web"))
+OUT_ROOT = os.path.join(WEB, "assets", LOCALE) if LOCALE else os.path.join(WEB, "assets")
+MANIFEST = os.path.join(WEB, f"extracted-manifest-{LOCALE}.json" if LOCALE else "extracted-manifest.json")
 FFMPEG = "/opt/homebrew/bin/ffmpeg"
 
 

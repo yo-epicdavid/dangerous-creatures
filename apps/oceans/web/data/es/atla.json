@@ -1,0 +1,220 @@
+{
+  "id": "atla",
+  "code": "ATLA",
+  "name": "El océano Atlántico",
+  "category": "place",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "El océano más explorado del mundo esconde montañas gigantes, aguas misteriosas y tesoros hundidos.",
+  "zones": [
+    "Costa y charcas de marea",
+    "Arrecife de coral",
+    "Mar abierto",
+    "Mar profundo"
+  ],
+  "oceans": [
+    "Océano Atlántico"
+  ],
+  "hero": {
+    "image": "assets/es/atla/ATLA00AA.webp",
+    "alt": "El océano Atlántico"
+  },
+  "intro": "Los romanos llamaron al Atlántico \"el Mar Tenebroso\" a causa de sus muchos peligros. Sus aguas heladas del norte son unas de las más peligrosas del mundo, con un clima tormentoso, niebla, icebergs y concurridas líneas marítimas. Puesto que el Atlántico Norte ha sido estudiado más que ningún otro océano, gran parte de la ciencia moderna, que es la oceanografía, está basada en la investigación obtenida en estas aguas.",
+  "facts": [
+    {
+      "label": "Edad",
+      "value": "El Atlántico se abrió hace unos 65 millones de años"
+    },
+    {
+      "label": "Expansión",
+      "value": "Se ensancha de 2 a 4 cm cada año"
+    },
+    {
+      "label": "Dorsal atlántica",
+      "value": "La dorsal centroatlántica tiene picos que emergen 3.000 metros sobre el nivel del mar, como Islandia, Las Azores y la Isla Ascensión"
+    },
+    {
+      "label": "Mar de los Sargazos",
+      "value": "Son las aguas oceánicas más claras del mundo, ya que muy pocos nutrientes o sedimentos cubren sus profundidades"
+    },
+    {
+      "label": "Corriente del Golfo",
+      "value": "Las aguas más cálidas de la corriente del Atlántico Norte permiten que los puertos occidentales de Noruega puedan acoger barcos todo el año"
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Los romanos llamaron al Atlántico \"el Mar Tenebroso\" a causa de sus muchos peligros"
+    }
+  ],
+  "topics": [
+    {
+      "id": "young-and-restless",
+      "title": "Joven e incansable",
+      "image": "assets/es/atla/ATLA01PU.webp",
+      "text": "El Atlántico es un océano relativamente joven. Los centros de expansión bajo el agua, que marcan dónde se está creando nuevo suelo oceánico, fueron descubiertos por primera vez en este océano. La dorsal centroatlántica, la mayor cadena montañosa del mundo, serpentea por el centro de la cuenca atlántica. Picos con una altura de 3.000 metros emergen sobre el nivel del mar, como Islandia, Las Azores y la Isla Ascensión. El Atlántico tiene grandes plataformas continentales y vastas llanuras abisales cubiertas con un espeso sedimento, que ha sido depositado por los ríos y después distribuido por las corrientes oceánicas.",
+      "captions": [
+        {
+          "label": "Una fosa que crece",
+          "text": "El océano Atlántico se abrió hace unos 65 millones de años y se ensancha de 2 a 4 cm cada año."
+        }
+      ],
+      "narration": "assets/es/atla/ATLA01JN.mp3"
+    },
+    {
+      "id": "kissed-by-the-sun",
+      "title": "Acariciado por el sol",
+      "image": "assets/es/atla/ATLA03PU.webp",
+      "text": "El mar Caribe contiene muchos tesoros naturales y también cargas preciosas de los barcos hundidos hace tiempo por tormentas o piratas. Las aguas cálidas, claras y poco profundas del Caribe proporcionan un medio ambiente perfecto para los arrecifes de coral. La industria del turismo atrae personas deseosas de ver las maravillas de la región, aunque los frágiles arrecifes sufren daños por las anclas de los barcos y la contaminación del agua. El medio ambiente de los mangles y de las fanerógamas marinas están amenazados por el desarrollo de la costa y la contaminación.",
+      "captions": [
+        {
+          "label": "Sopa de marisco",
+          "text": "Las plataformas continentales del golfo de México son importantes reservas de pesca."
+        }
+      ],
+      "narration": "assets/es/atla/ATLA03JN.mp3"
+    },
+    {
+      "id": "riches-on-the-shelf",
+      "title": "Riquezas de la plataforma continental",
+      "image": "assets/es/atla/ATLA04PU.webp",
+      "text": "Las grandes plataformas continentales poco profundas del océano Atlántico proporcionan hábitats a gran parte de su vida marina convirtiéndose en zonas de pesca comercial. Las formas de vida primitiva que sobreviven hallan su lugar de descanso definitivo en estas plataformas, transformadas por el tiempo y la presión, en depósitos de gas y petróleo. Estos dos tesoros, alimento y energía, son explotados en zonas como el mar del Norte, la costa este de Canadá y el golfo de México. Sin embargo, los peligrosos mares presentan desafíos tecnológicos y la sobreexplotación pesquera ha reducido dramáticamente el número de especies de peces.",
+      "narration": "assets/es/atla/ATLA04JN.mp3"
+    },
+    {
+      "id": "clogged-coasts",
+      "title": "Las costas superpobladas",
+      "image": "assets/es/atla/ATLA05PU.webp",
+      "text": "Como mucha gente vive cerca de las costas, los océanos sufren las consecuencias de los desperdicios que generan los humanos. Las basuras de plástico quedan encalladas y asfixian la flora y la fauna. La contaminación orgánica es originada por el vertido de aguas fecales y de desechos industriales. Los nutrientes de algunas sustancias provocan las floraciones algales y un aumento de bacterias, lo que puede matar la flora y la fauna, al gastar el oxígeno del agua cuando se descomponen. Las toxinas se desarrollan en los animales marinos y debilitan sus sistemas inmunes, dificultan la reproducción y provocan el desarrollo del cáncer y la destrucción de las aletas.",
+      "narration": "assets/es/atla/ATLA05JN.mp3",
+      "captions": [
+        {
+          "label": "Pluma de vertidos de alcantarilla",
+          "text": "Pluma de vertidos de alcantarilla"
+        }
+      ]
+    },
+    {
+      "id": "warmth-in-the-water",
+      "title": "Agua caliente",
+      "image": "assets/es/atla/ATLA06PU.webp",
+      "text": "La deriva del Atlántico Norte es una corriente del océano Atlántico oriental que es más caliente que las aguas árticas que lo rodean. La combinación de aguas de diferentes temperaturas ha creado una región de niebla continua al norte de esta corriente. El movimiento del Atlántico Norte es una extensión oriental de otra corriente superficial caliente, la corriente del Golfo. Las aguas más cálidas de la corriente del Atlántico Norte permiten que los puertos occidentales de Noruega puedan acoger barcos todo el año. En cambio, los puertos de la costa este de Groenlandia están completamente congelados durante los meses de invierno.",
+      "captions": [
+        {
+          "label": "Puerto en invierno, Lofoton, Noruega",
+          "text": "Imagen de un puerto en invierno, Lofoton, Noruega"
+        }
+      ],
+      "narration": "assets/es/atla/ATLA06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Las langostas",
+      "to": "lobs"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/atla/ATLA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Acariciado por el sol",
+            "to": "kissed-by-the-sun",
+            "x": 58,
+            "y": 11,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Agua caliente",
+            "to": "warmth-in-the-water",
+            "x": 53,
+            "y": 30,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Joven e incansable",
+            "to": "young-and-restless",
+            "x": 37,
+            "y": 46,
+            "w": 21,
+            "h": 5
+          },
+          {
+            "label": "La vida en el mar de los Sargazos",
+            "to": "video",
+            "x": 16,
+            "y": 60,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Las costas superpobladas",
+            "to": "clogged-coasts",
+            "x": 57,
+            "y": 57,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Riquezas de la plataforma continental",
+            "to": "riches-on-the-shelf",
+            "x": 33,
+            "y": 72,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "young-and-restless": {
+        "image": "assets/es/atla/ATLA01PU.webp",
+        "back": "main"
+      },
+      "kissed-by-the-sun": {
+        "image": "assets/es/atla/ATLA03PU.webp",
+        "back": "main"
+      },
+      "riches-on-the-shelf": {
+        "image": "assets/es/atla/ATLA04PU.webp",
+        "back": "main"
+      },
+      "clogged-coasts": {
+        "image": "assets/es/atla/ATLA05PU.webp",
+        "back": "main"
+      },
+      "warmth-in-the-water": {
+        "image": "assets/es/atla/ATLA06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/atla/clip.mp4",
+        "poster": "assets/es/atla/ATLA02PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/atla/ATLA00JN.mp3",
+  "sound": "assets/es/atla/ATLA00IX.mp3",
+  "video": {
+    "title": "La vida en el mar de los Sargazos",
+    "src": "assets/es/atla/clip.mp4",
+    "poster": "assets/es/atla/poster.webp",
+    "caption": "El mar de los Sargazos es una región tranquila localizada dentro de un gran circuito cerrado de corrientes que se mueven en el sentido de las agujas del reloj, en el Atlántico occidental. Son las aguas oceánicas más claras del mundo, ya que muy pocos nutrientes o sedimentos cubren sus profundidades. Grandes manchas de sargazos, algas marrones, flotan en la superficie por medio de vejigas llenas de aire. Sólo pequeños animales, como los peces de sargazo y los cangrejos, viven entre las algas, camuflados por su color amarillo y marrón.",
+    "narration": "assets/es/atla/ATLA02JN.mp3"
+  }
+}

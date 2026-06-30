@@ -1,0 +1,97 @@
+{
+  "id": "kron",
+  "code": "KRON",
+  "name": "Kronosaurus",
+  "category": "creature",
+  "scientificName": "Kronosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "kro-no-SOR-us",
+  "meaning": "lagarto de Saturno",
+  "period": "Cretácico inferior",
+  "diet": "Carnívoro",
+  "tagline": "¡Un monstruo marino más grande que un autobús escolar, con unas mandíbulas repletas de enormes y afilados dientes!",
+  "hero": {
+    "image": "assets/kron/KRON00AA.webp",
+    "alt": "Kronosaurus"
+  },
+  "intro": "El Kronosaurus fue un gigantesco pliosaurio hallado en Australia. Con diecisiete metros de longitud, si este enorme reptil marino hubiese podido ponerse de pie sobre su cola, ¡habría podido asomarse al quinto piso de un edificio! Su enorme boca bien abierta estaba repleta de grandes dientes afilados, lo que le permitía enfrentarse con facilidad a casi cualquier otro animal marino. El Kronosaurus utilizaba sus enormes aletas en forma de remo para impulsarse por el agua.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Australia"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Temprano"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto de Saturno"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Pliosaurio"
+    },
+    {
+      "label": "Longitud",
+      "value": "12,8 m (42 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "of-pliosaurs-and-plesiosaurs",
+      "title": "Pliosauros y plesiosauros",
+      "image": "assets/kron/KRON01PU.webp",
+      "text": "El Kronosaurus era un pliosaurio, como el Peloneustes que aparece abajo. Ambos tienen cabezas grandes y cuellos cortos.",
+      "captions": [
+        {
+          "label": "Cuellos de serpiente",
+          "text": "El Elasmosaurus era un plesiosaurio. Su cuello representaba más de la mitad de sus trece metros de longitud."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Reptiles of the Sea",
+      "to": "rsea"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/kron/KRON00AA.webp",
+        "hotspots": [
+          {
+            "label": "Pliosauros y plesiosauros",
+            "to": "of-pliosaurs-and-plesiosaurs",
+            "x": 53,
+            "y": 77,
+            "w": 36,
+            "h": 5
+          }
+        ]
+      },
+      "of-pliosaurs-and-plesiosaurs": {
+        "image": "assets/kron/KRON01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/kron/KRON50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/kron/KRON00AP.mp3",
+  "narration": "assets/kron/KRON00AJ.mp3",
+  "fanTranslation": true
+}

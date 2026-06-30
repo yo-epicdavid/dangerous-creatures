@@ -8,13 +8,16 @@ import os, sys, glob, json, subprocess
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from szdd import expand
+sys.path.insert(0, os.path.join(HERE, "..", "..", "..", "packages", "pipeline"))
+from szdd import expand, MAGIC
 
-DISC = "/Volumes/DANGEROUS"
+DISC = os.environ.get("DISC", "/Volumes/DANGEROUS")
+LOCALE = os.environ.get("LOCALE", "")
 GUIDE = os.path.join(DISC, "AAGUIDE")
 NV = os.path.join(DISC, "ABOUT", "GUID00NV")
 WEB = os.path.abspath(os.path.join(HERE, "..", "web"))
-OUT = os.path.join(WEB, "assets", "guides")
+GP = "assets/guides/es" if LOCALE else "assets/guides"
+OUT = os.path.join(WEB, *GP.split("/"))
 FF = "/opt/homebrew/bin/ffmpeg"
 DN = subprocess.DEVNULL
 
@@ -22,7 +25,9 @@ DN = subprocess.DEVNULL
 def dib_png(dib, png):
     tmp = png[:-4] + ".bmp"
     with open(dib, "rb") as f:
-        data = expand(f.read())
+        data = f.read()
+    if data[:8] == MAGIC:          # some guide DIBs are SZDD-compressed, others are raw BMP
+        data = expand(data)
     with open(tmp, "wb") as f:
         f.write(data)
     subprocess.run(["sips", "-s", "format", "png", tmp, "--out", png], stdout=DN, stderr=DN, check=False)
@@ -47,10 +52,11 @@ def main():
             mp3 = os.path.join(tourdir, f"step{i:02d}.mp3")
             subprocess.run([FF, "-y", "-loglevel", "error", "-i", w, "-codec:a", "libmp3lame", "-q:a", "5", mp3], check=False)
             steps.append(f"step{i:02d}.mp3")
-        manifest[nn] = {"host": folder.title(), "art": f"assets/guides/tour{nn}/intro.png",
-                        "narration": [f"assets/guides/tour{nn}/{s}" for s in steps], "stepCount": len(steps)}
+        manifest[nn] = {"host": folder.title(), "art": f"{GP}/tour{nn}/intro.png",
+                        "narration": [f"{GP}/tour{nn}/{s}" for s in steps], "stepCount": len(steps)}
         print(f"tour {nn}  host={folder:6} steps={len(steps)}")
-    json.dump(manifest, open(os.path.join(WEB, "guides-manifest.json"), "w"), indent=2)
+    mname = f"guides-manifest-{LOCALE}.json" if LOCALE else "guides-manifest.json"
+    json.dump(manifest, open(os.path.join(WEB, mname), "w"), indent=2)
     print(f"\nDONE -> {os.path.join(WEB, 'guides-manifest.json')}")
 
 

@@ -1,0 +1,191 @@
+{
+  "id": "funl",
+  "code": "FUNL",
+  "name": "Araña de tela de embudo",
+  "scientificName": "Atrax robustus",
+  "needsScientificVerify": false,
+  "tagline": "¡Sus colmillos de acero inyectan un veneno capaz de matar en menos de dos horas!",
+  "weapons": [
+    "Veneno y ponzoña"
+  ],
+  "habitats": [
+    "Bosques"
+  ],
+  "regions": [
+    "Australia y Oceanía"
+  ],
+  "hero": {
+    "image": "assets/es/funl/FUNL00AA.webp",
+    "alt": "Araña de tela de embudo"
+  },
+  "intro": "Podrías morir en menos de dos horas si te pica una araña de tela de embudo australiana: dependería del tipo y el sexo de la araña. La araña macho de tela de embudo de Sydney es una de las más venenosas del mundo, ¡pero la hembra del norte es todavía más mortífera!",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Inyecta un veneno mortal por medio de los colmillos.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Insectos",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Los colmillos de la araña de tela de embudo son muy fuertes. ¡Según algunos investigadores incluso pueden atravesar los huesos!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 5 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Australia",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "another-trickster",
+      "title": "Otra tramposa",
+      "image": "assets/es/funl/FUNL01PU.webp",
+      "text": "Una araña trampa espera a que un insecto atraviese la tapa sedosa cubierta de moho que oculta su madriguera revestida de seda. En cuanto lo hace uno, la araña se lanza a por él... ¡y el insecto se convierte en historia! Aunque esta araña trampa se parece a la de tela de embudo, no es peligrosa para el hombre. Sólo utiliza su veneno con los insectos que come.",
+      "narration": "assets/es/funl/FUNL01NP.mp3"
+    },
+    {
+      "id": "the-better-to-bite-you-with",
+      "title": "Lo mejor para morder",
+      "image": "assets/es/funl/FUNL02PU.webp",
+      "text": "Las arañas de tela de embudo australianas tienen unos colmillos grandes y fuertes: tanto que pueden atravesar el cráneo de un ratón... ¡o la uña de una persona!",
+      "captions": [
+        {
+          "label": "Colmillos",
+          "text": "Partes móviles: Los colmillos de muchas arañas giran juntos de manera que la presa quede sujeta como una tablilla entre unas pinzas. Pero los de la araña de tela de embudo se parecen más a los de la tarántula, curvados hacia abajo para que la presa quede ensartada."
+        },
+        {
+          "label": "Glándula venenosa",
+          "text": "Colmillos feroces: Esta tarántula de Sri Lanka no es nada comparada con la araña de tela de embudo australiana. Las tarántulas no suelen utilizar los colmillos más que con el animal que piensan comerse. Sin embargo, las arañas de tela de embudo primero muerden y luego deciden el menú."
+        }
+      ],
+      "narration": "assets/es/funl/FUNL02NP.mp3"
+    },
+    {
+      "id": "the-eyes-have-it",
+      "title": "¡Cuántos ojos!",
+      "image": "assets/es/funl/FUNL03PU.webp",
+      "text": "Casi todas las arañas tienen dos filas de cuatro ojos cada una. ¡A ver si encuentras los ocho ojos de esta araña! Quizá pienses que con tantos ojos tendrá una vista magnífica: pues la verdad es que las arañas no suelen ver muy bien. Por suerte para ellas los pelillos de sus patas son muy sensibles a las vibraciones y el movimiento.",
+      "captions": [
+        {
+          "label": "Araña vagabunda brasileña",
+          "text": "detalle de la cabeza"
+        }
+      ],
+      "narration": "assets/es/funl/FUNL03NP.mp3"
+    },
+    {
+      "id": "deadliest-in-the-world",
+      "title": "Las más mortíferas del mundo",
+      "image": "assets/es/funl/FUNL04PU.webp",
+      "text": "La araña vagabunda brasileña tiene el record de ser la más venenosa del mundo. Algunas veces ha entrado en una casa y se ha escondido entre la ropa, pero por suerte existe un antídoto, por lo que su mordedura no es necesariamente fatal.",
+      "narration": "assets/es/funl/FUNL04NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/funl/FUNL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.18,
+            "y": 9.19,
+            "w": 4.33,
+            "h": 3.92
+          },
+          {
+            "label": "Las más mortíferas del mundo",
+            "to": "deadliest-in-the-world",
+            "x": 52.84,
+            "y": 12.44,
+            "w": 26.36,
+            "h": 9.33
+          },
+          {
+            "label": "Lo mejor para morder",
+            "to": "the-better-to-bite-you-with",
+            "x": 28,
+            "y": 24,
+            "w": 44,
+            "h": 7
+          },
+          {
+            "label": "¡Cuántos ojos!",
+            "to": "the-eyes-have-it",
+            "x": 37,
+            "y": 40,
+            "w": 28,
+            "h": 7
+          },
+          {
+            "label": "Otra tramposa",
+            "to": "another-trickster",
+            "x": 77.06,
+            "y": 45.55,
+            "w": 8.08,
+            "h": 3.92
+          },
+          {
+            "label": "¡Cazar y llevar!",
+            "to": "video",
+            "x": 8,
+            "y": 82,
+            "w": 28,
+            "h": 8
+          }
+        ]
+      },
+      "another-trickster": {
+        "image": "assets/es/funl/FUNL01PU.webp",
+        "back": "main"
+      },
+      "the-better-to-bite-you-with": {
+        "image": "assets/es/funl/FUNL02PU.webp",
+        "back": "main"
+      },
+      "the-eyes-have-it": {
+        "image": "assets/es/funl/FUNL03PU.webp",
+        "back": "main"
+      },
+      "deadliest-in-the-world": {
+        "image": "assets/es/funl/FUNL04PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/funl/FUNL00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/funl/clip.mp4",
+        "poster": "assets/es/funl/FUNL05TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/funl/narration.mp3",
+  "sound": "assets/es/funl/FUNL00AF.mp3",
+  "factsNarration": "assets/es/funl/FUNL00FB.mp3",
+  "video": {
+    "title": "¡Cazar y llevar!",
+    "src": "assets/es/funl/clip.mp4",
+    "poster": "assets/es/funl/poster.webp",
+    "caption": "Una araña que construye una telaraña en forma de embudo pasa la mayor parte del tiempo aguardando en la madriguera, en el centro de la tela. En cuanto percibe vibraciones, sale velozmente a ver quién pasa por allí. La araña paraliza al intruso con veneno y luego lo arrastra hasta la madriguera para comérselo."
+  }
+}

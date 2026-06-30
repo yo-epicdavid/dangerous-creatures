@@ -1,0 +1,105 @@
+{
+  "id": "dryo",
+  "code": "DRYO",
+  "name": "Dryosaurus",
+  "category": "dinosaur",
+  "scientificName": "Dryosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "DRY-oh-SOR-us",
+  "meaning": "lagarto del roble",
+  "period": "Jurásico superior",
+  "diet": "Herbívoro",
+  "tagline": "¡Diseñado para la velocidad, este pequeño herbívoro podía escapar del peligro a toda carrera con sus poderosas patas similares a las de un ave!",
+  "hero": {
+    "image": "assets/dryo/DRYO00AA.webp",
+    "alt": "Dryosaurus"
+  },
+  "intro": "Cuando era atacado por un depredador o amenazado por un dinosaurio herbívoro de mayor tamaño, el Dryosaurus podía usar sus largas patas para huir rápidamente. Este ornitópodo tenía una cola larga y rígida, cinco dedos en sus pequeñas manos y tres dedos en cada uno de sus pies, similares a los de un ave. Con unos tres a cuatro metros de longitud, el Dryosaurus fue uno de los dinosaurios más pequeños que vivieron durante el período Jurásico.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "África, Europa, América del Norte"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico Tardío"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto del roble"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Ornitópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "4 m (13 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "fossilized-femur",
+      "title": "Fémur fosilizado",
+      "image": "assets/dryo/DRYO01PU.webp",
+      "text": "Los restos de varios ejemplares de Dryosaurus han sido encontrados en América del Norte y en Tanzania. Un fémur fósil (hueso del muslo) como este puede revelar mucho a los expertos sobre el dinosaurio del que procede: por ejemplo, aproximadamente qué tamaño tenía, si era o no un corredor veloz, y otras cuestiones similares.",
+      "captions": [
+        {
+          "label": "Fémur de Dryosaurus",
+          "text": "Un fémur fósil (hueso del muslo) como este puede revelar mucho a los expertos sobre el dinosaurio del que procede: por ejemplo, aproximadamente qué tamaño tenía, si era o no un corredor veloz, y otras cuestiones similares."
+        },
+        {
+          "label": "Manipular con cuidado",
+          "text": "Es muy importante que los trabajadores tengan cuidado al separar los fósiles de dinosaurio de la roca. Las pequeñas marcas en los huesos pueden indicar a los científicos dónde se unían los músculos, por lo que es fundamental no rayar ni dañar el fósil."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "How to Recognize Ornithopods",
+      "to": "htro"
+    },
+    {
+      "label": "Digging up Dinosaurs",
+      "to": "digg"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/dryo/DRYO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Fémur fosilizado",
+            "to": "fossilized-femur",
+            "x": 62,
+            "y": 82,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "fossilized-femur": {
+        "image": "assets/dryo/DRYO01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/dryo/DRYO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/dryo/DRYO00AP.mp3",
+  "narration": "assets/dryo/DRYO00AJ.mp3",
+  "fanTranslation": true
+}

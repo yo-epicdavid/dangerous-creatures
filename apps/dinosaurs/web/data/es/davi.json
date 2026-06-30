@@ -1,0 +1,137 @@
+{
+  "id": "davi",
+  "code": "DAVI",
+  "name": "Dravidosaurus",
+  "category": "dinosaur",
+  "scientificName": "Dravidosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "dra-VID-oh-SOR-us",
+  "meaning": "lagarto de Dravidanadu",
+  "period": "Cretácico superior",
+  "diet": "Herbívoro",
+  "tagline": "¡El último estegosaurio de la Tierra: sobrevivió a sus primos por millones de años!",
+  "hero": {
+    "image": "assets/davi/DAVI00AA.webp",
+    "alt": "Dravidosaurus"
+  },
+  "intro": "El Dravidosaurus pertenece al grupo de los estegosaurios, junto con el Kentrosaurus y el Estegosaurio. Pero a diferencia de sus primos acorazados, este «lagarto con tejado» vivió en India mucho después de que los demás estegosaurios se hubieran extinguido. Cuando se descubrieron los estegosaurios por primera vez, los expertos creían que sus placas debían colocarse planas sobre su espalda, como las tejas de un tejado. Hoy se cree que estas placas sobresalían a lo largo del lomo de los dinosaurios y podían actuar como pequeños «radiadores», ayudando a regular la temperatura corporal de los estegosaurios.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Asia"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Tardío"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto de Dravidanadu"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Estegosaurio"
+    },
+    {
+      "label": "Longitud",
+      "value": "3 m (10 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "solar-powered-dinosaurs",
+      "title": "¿Dinosaurios con energía solar?",
+      "image": "assets/davi/DAVI01PU.webp",
+      "text": "¿Por qué tenía el Dravidosaurus unas placas tan peculiares a lo largo de su espalda? No eran afiladas para defenderse. Ni siquiera estaban unidas al esqueleto, sino simplemente clavadas en la piel.",
+      "captions": [
+        {
+          "label": "Calefacción central",
+          "text": "Las placas dorsales probablemente ayudaban a controlar la temperatura corporal de un estegosaurio como el Tuojiangosaurus que se muestra aquí. Las placas óseas estaban repletas de pequeños orificios, quizás para los vasos sanguíneos. Al dar la cara al sol, las placas absorbían el calor —como paneles solares— y calentaban la sangre. Al exponerse a la brisa o a la sombra, las placas podían ayudar a enfriar al dinosaurio."
+        }
+      ]
+    },
+    {
+      "id": "the-time-of-the-stegosaurs",
+      "title": "La época de los estegosaurios",
+      "image": "assets/davi/DAVI02PU.webp",
+      "text": "Otros estegosaurios, como el Tuojiangosaurus, el Kentrosaurus y el Estegosaurio, vivieron en el Jurásico Tardío, hace unos 145 millones de años. El Dravidosaurus vivió mucho después de que los demás se hubieran extinguido. Fue uno de los últimos dinosaurios de la Tierra, y se extinguió a finales del período Cretácico, hace unos 88 millones de años.",
+      "captions": [
+        {
+          "label": "Staurikosaurus",
+          "text": "Uno de los primeros dinosaurios conocidos, que vivió hace más de 200 millones de años."
+        },
+        {
+          "label": "Tuojiangosaurus",
+          "text": "Estos estegosaurios vivieron durante el período Jurásico y se extinguieron hace unos 140-150 millones de años."
+        },
+        {
+          "label": "Dravidosaurus",
+          "text": "Este dinosaurio fue el último estegosaurio conocido que existió en la Tierra."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Gobi Desert Expeditions",
+      "to": "gobi"
+    },
+    {
+      "label": "How to Recognize Stegosaurs",
+      "to": "hstg"
+    },
+    {
+      "label": "Herrerasaurus",
+      "to": "herr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/davi/DAVI00AA.webp",
+        "hotspots": [
+          {
+            "label": "¿Dinosaurios con energía solar?",
+            "to": "solar-powered-dinosaurs",
+            "x": 64,
+            "y": 24,
+            "w": 28,
+            "h": 6
+          },
+          {
+            "label": "La época de los estegosaurios",
+            "to": "the-time-of-the-stegosaurs",
+            "x": 57,
+            "y": 65,
+            "w": 34,
+            "h": 6
+          }
+        ]
+      },
+      "solar-powered-dinosaurs": {
+        "image": "assets/davi/DAVI01PU.webp",
+        "back": "main"
+      },
+      "the-time-of-the-stegosaurs": {
+        "image": "assets/davi/DAVI02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/davi/DAVI50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/davi/DAVI00AP.mp3",
+  "narration": "assets/davi/DAVI00AJ.mp3",
+  "fanTranslation": true
+}

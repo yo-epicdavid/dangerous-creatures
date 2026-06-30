@@ -1,0 +1,229 @@
+{
+  "id": "ftfb",
+  "code": "FTFB",
+  "name": "Caras del pasado",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Huesos, dientes y pistas fósiles ayudaron a los científicos a reconstruir los auténticos rostros de las criaturas que dominaron la Tierra durante 150 millones de años.",
+  "hero": {
+    "image": "assets/ftfb/FTFB00AA.webp",
+    "alt": "Caras del pasado"
+  },
+  "intro": "Los dinosaurios se extinguieron al final del período Cretácico, hace unos 65 millones de años. Entonces, ¿cómo sabemos qué aspecto tenían? Sus huesos, dientes, huellas e incluso impresiones de piel se han conservado como fósiles. Estudiando los restos fósiles de los dinosaurios y combinando esa información con el conocimiento actual de los reptiles modernos, los científicos han construido imágenes de estos animales únicos que dominaron la Tierra durante más de 150 millones de años. A continuación encontrarás algunas propuestas de artistas sobre cómo pudieron ser unos cuantos rostros prehistóricos.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "edmontosaurus",
+      "title": "Edmontosaurio",
+      "image": "assets/ftfb/FTFB01PU.webp",
+      "text": "Este dinosaurio de pico de pato procedía de Norteamérica. Como otros hadrosaurios, el Edmontosaurio no dejaba de generar dientes nuevos para reemplazar a los que se habían desgastado al masticar plantas leñosas."
+    },
+    {
+      "id": "eudimorphodon",
+      "title": "Eudimorphodon",
+      "image": "assets/ftfb/FTFB02PU.webp",
+      "text": "Este animal no era un dinosaurio en absoluto, sino un reptil volador, es decir, un pterosaurio. Aunque Hollywood ha producido películas en las que los pterosaurios raptan personas, estos reptiles voladores se extinguieron mucho antes de que los seres humanos aparecieran sobre la Tierra, al igual que los dinosaurios."
+    },
+    {
+      "id": "archaeopteryx",
+      "title": "Arqueoptérix",
+      "image": "assets/ftfb/FTFB03PU.webp",
+      "text": "Considerado por muchos como el ave más antigua conocida, este animal comparte también muchas similitudes con los dinosaurios. El descubrimiento del Arqueoptérix emplumado llevó a los científicos a contemplar los dinosaurios desde una perspectiva completamente nueva."
+    },
+    {
+      "id": "protoceratops",
+      "title": "Protoceratops",
+      "image": "assets/ftfb/FTFB04PU.webp",
+      "text": "Este dinosaurio del tamaño de un perro era un primo primitivo y temprano de los gigantescos dinosaurios cornudos. Las expediciones al desierto del Gobi, en Mongolia, descubrieron sorprendentes indicios de probables nidos y huevos de este dinosaurio ceratopsiano."
+    },
+    {
+      "id": "ankylosaurus",
+      "title": "Anquilosaurio",
+      "image": "assets/ftfb/FTFB05PU.webp",
+      "text": "La armadura corporal de este herbívoro lo protegía de los depredadores. Con más de nueve metros de longitud y cuatro toneladas de peso, el Anquilosaurio es el dinosaurio acorazado más pesado que se conoce hasta ahora."
+    },
+    {
+      "id": "stegosaurus",
+      "title": "Estegosaurio",
+      "image": "assets/ftfb/FTFB06PU.webp",
+      "text": "Las placas del lomo de este dinosaurio puede que regularan su temperatura. Como las placas estaban incrustadas en la piel y no unidas al esqueleto, los científicos no están seguros de cuál era su posición exacta en vida, por lo que los ejemplares de Estegosaurio han aparecido representados con diferentes disposiciones de placas."
+    },
+    {
+      "id": "euoplocephalus",
+      "title": "Euoplocephalus",
+      "image": "assets/ftfb/FTFB07PU.webp",
+      "text": "Este anquilosaurio estaba construido como un tanque blindado. Solo un depredador grande y desesperadamente hambriento arriesgaría romper sus dientes y garras contra una presa tan bien protegida."
+    },
+    {
+      "id": "centrosaurus",
+      "title": "Centrosaurio",
+      "image": "assets/ftfb/FTFB08PU.webp",
+      "text": "Las púas del cuello y el cuerno nasal daban a este ceratopsiano un aspecto amenazador. Los dinosaurios cornudos eran herbívoros cuyos robustos picos les permitían cortar plantas fibrosas que otros dinosaurios no podían comer."
+    },
+    {
+      "id": "troodon",
+      "title": "Troodon",
+      "image": "assets/ftfb/FTFB09PU.webp",
+      "text": "El más inteligente de todos los dinosaurios conocidos, el Troodon tenía un cerebro más grande en proporción a su tamaño corporal que cualquier otro animal de su época. El descubrimiento de numerosos dinosaurios pequeños y veloces como este ha llevado a los paleontólogos a especular que algunos dinosaurios pudieron haber sido de sangre caliente."
+    },
+    {
+      "id": "triceratops",
+      "title": "Triceratops",
+      "image": "assets/ftfb/FTFB10PU.webp",
+      "text": "Los tres cuernos de su cara dieron nombre a este coloso. El Triceratops fue uno de los últimos y más famosos dinosaurios cornudos (ceratopsianos) y aparece a menudo en ilustraciones y dibujos animados, así como en las estanterías de las tiendas en forma de maquetas y juguetes."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Face to Face",
+      "to": "ftfa"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/ftfb/FTFB00AA.webp",
+        "hotspots": [
+          {
+            "label": "Troodon",
+            "to": "troodon",
+            "x": 82,
+            "y": 11,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Arqueoptérix",
+            "to": "archaeopteryx",
+            "x": 76,
+            "y": 30,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Eudimorphodon",
+            "to": "eudimorphodon",
+            "x": 50,
+            "y": 25,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Triceratops",
+            "to": "triceratops",
+            "x": 77,
+            "y": 54,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Edmontosaurio",
+            "to": "edmontosaurus",
+            "x": 75,
+            "y": 82,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Centrosaurio",
+            "to": "centrosaurus",
+            "x": 13,
+            "y": 74,
+            "w": 15,
+            "h": 6
+          },
+          {
+            "label": "Euoplocephalus",
+            "to": "euoplocephalus",
+            "x": 21,
+            "y": 47,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Protoceratops",
+            "to": "protoceratops",
+            "x": 3,
+            "y": 85,
+            "w": 15,
+            "h": 6
+          },
+          {
+            "label": "Estegosaurio",
+            "to": "stegosaurus",
+            "x": 32,
+            "y": 87,
+            "w": 14,
+            "h": 6
+          },
+          {
+            "label": "Anquilosaurio",
+            "to": "ankylosaurus",
+            "x": 53,
+            "y": 87,
+            "w": 15,
+            "h": 6
+          }
+        ]
+      },
+      "edmontosaurus": {
+        "image": "assets/ftfb/FTFB01PU.webp",
+        "back": "main"
+      },
+      "eudimorphodon": {
+        "image": "assets/ftfb/FTFB02PU.webp",
+        "back": "main"
+      },
+      "archaeopteryx": {
+        "image": "assets/ftfb/FTFB03PU.webp",
+        "back": "main"
+      },
+      "protoceratops": {
+        "image": "assets/ftfb/FTFB04PU.webp",
+        "back": "main"
+      },
+      "ankylosaurus": {
+        "image": "assets/ftfb/FTFB05PU.webp",
+        "back": "main"
+      },
+      "stegosaurus": {
+        "image": "assets/ftfb/FTFB06PU.webp",
+        "back": "main"
+      },
+      "euoplocephalus": {
+        "image": "assets/ftfb/FTFB07PU.webp",
+        "back": "main"
+      },
+      "centrosaurus": {
+        "image": "assets/ftfb/FTFB08PU.webp",
+        "back": "main"
+      },
+      "troodon": {
+        "image": "assets/ftfb/FTFB09PU.webp",
+        "back": "main"
+      },
+      "triceratops": {
+        "image": "assets/ftfb/FTFB10PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/ftfb/FTFB00AA.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/ftfb/FTFB00AP.mp3",
+  "narration": "assets/ftfb/FTFB00AJ.mp3",
+  "sound": "assets/ftfb/FTFB00SA.mp3",
+  "fanTranslation": true
+}

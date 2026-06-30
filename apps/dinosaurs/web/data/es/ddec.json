@@ -1,0 +1,265 @@
+{
+  "id": "ddec",
+  "code": "DDEC",
+  "name": "Fósiles vivientes",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "LIV-ing FOS-ilz",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "¡Conoce a los animales que apenas han cambiado desde que los dinosaurios poblaban la Tierra: los auténticos supervivientes!",
+  "hero": {
+    "image": "assets/ddec/DDEC00AA.webp",
+    "alt": "Fósiles vivientes"
+  },
+  "intro": "Algunos tipos de animales y plantas no sobrevivieron mucho tiempo en la Tierra. O bien se extinguieron poco después de aparecer, o bien evolucionaron hasta adoptar nuevas formas. Pero unos pocos tipos de animales llevan existiendo millones de años, desde la Era de los Dinosaurios.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "tuatara-lizard",
+      "title": "El tuátara",
+      "image": "assets/ddec/DDEC01PU.webp",
+      "text": "El tuátara, que vive en Nueva Zelanda, comparte muchas similitudes con los reptiles que convivieron con los dinosaurios. Nadie sabe por qué este pequeño reptil ha sobrevivido cuando todos sus parientes se extinguieron hace millones de años. Unas aberturas características en su cráneo llevan a los científicos a clasificarlo como uno de los reptiles más primitivos que existen hoy en día."
+    },
+    {
+      "id": "turtles",
+      "title": "Tortugas",
+      "image": "assets/ddec/DDEC02PU.webp",
+      "text": "Estos animales acuáticos nadaban en los mares al mismo tiempo que los dinosaurios poblaban la tierra firme. El diseño básico de las tortugas modernas no ha cambiado mucho desde el del Archelon, una enorme tortuga marina que vivió ya en el período Triásico Tardío."
+    },
+    {
+      "id": "hoatzin",
+      "title": "Hoatzín",
+      "image": "assets/ddec/DDEC03PU.webp",
+      "text": "Los polluelos de esta ave sudamericana nacen con tres garras en las alas. Estas garras son similares a las de un reptil emplumado llamado Archaeopteryx, que vivió durante el período Jurásico, hace 145 millones de años."
+    },
+    {
+      "id": "coelacanth",
+      "title": "Celacanto",
+      "image": "assets/ddec/DDEC04PU.webp",
+      "text": "Este extraordinario pez, sin cambios desde hace 350.000 años, ha sido pescado en años recientes frente a las costas de África.",
+      "captions": [
+        {
+          "label": "Huella fósil",
+          "text": "Los fósiles nos ofrecen una pequeña ventana al pasado. Aquí puedes ver que el celacanto ha cambiado muy poco a lo largo de miles de siglos."
+        }
+      ]
+    },
+    {
+      "id": "elephants-and-rhinos",
+      "title": "Elefantes y rinocerontes",
+      "image": "assets/ddec/DDEC05PU.webp",
+      "text": "Ambas criaturas llevan en la Tierra unos 40 millones de años. Existieron muchas especies: algunas eran gigantescas, y otras eran tan pequeñas como ovejas o cerdos. Hoy, solo quedan dos especies de elefantes y cinco de rinocerontes en lugares aislados del mundo.",
+      "captions": [
+        {
+          "label": "¿Camino a la extinción?",
+          "text": "Tanto el rinoceronte como el elefante están considerados hoy en día especies en peligro de extinción. Depende de los seres humanos salvar a estas criaturas de la extinción."
+        }
+      ]
+    },
+    {
+      "id": "sharks",
+      "title": "Tiburones",
+      "image": "assets/ddec/DDEC06PU.webp",
+      "text": "Estos ágiles depredadores surcan los océanos desde el período Devónico, mucho antes de que existieran los dinosaurios. Son uno de los cazadores más eficaces y con mayor éxito que jamás hayan existido en la Tierra."
+    },
+    {
+      "id": "ginkgo-and-magnolia-trees",
+      "title": "Ginkgos y magnolias",
+      "image": "assets/ddec/DDEC07PU.webp",
+      "text": "Algunas plantas prehistóricas han sobrevivido a lo largo de los siglos y hoy en día pueden encontrarse en nuestros barrios.",
+      "captions": [
+        {
+          "label": "Ginkgos",
+          "text": "Los ginkgos, también llamados árboles del cabello de doncella, eran comunes y estaban muy extendidos hace 150 millones de años. Hoy, la única especie que queda, el Ginkgo biloba, es sorprendentemente similar a las primeras formas fósiles. Los ginkgos crecen de forma natural en China, pero pueden verse en jardines de todo el mundo."
+        },
+        {
+          "label": "Magnolias",
+          "text": "Las magnolias fueron uno de los primeros árboles con flores, y aparecieron hace casi 100 millones de años. Aún hoy disfrutamos de su aroma y sus flores."
+        }
+      ]
+    },
+    {
+      "id": "crocodile",
+      "title": "Cocodrilo",
+      "image": "assets/ddec/DDEC08PU.webp",
+      "text": "Estos reptiles llevan en la Tierra desde la Era de los Dinosaurios. Aunque los cocodrilos actuales son mucho más pequeños que las especies gigantes que vivieron durante el período Cretácico, su forma básica ha cambiado muy poco a lo largo de millones de años."
+    },
+    {
+      "id": "nautilus",
+      "title": "Nautilo",
+      "image": "assets/ddec/DDEC09PU.webp",
+      "text": "Estas criaturas marinas son parientes de las que existieron en tiempos prehistóricos. Los ammonites, primos de este nautilo moderno, prosperaron en multitud de tamaños y formas hace más de 500 millones de años."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaur Descendants",
+      "to": "desc"
+    },
+    {
+      "label": "Tuatara",
+      "to": "tuat"
+    },
+    {
+      "label": "Archelon",
+      "to": "arcn"
+    },
+    {
+      "label": "Archaeopteryx",
+      "to": "arch"
+    },
+    {
+      "label": "Life After Dinosaurs",
+      "to": "aftr"
+    },
+    {
+      "label": "Coelacanth",
+      "to": "coth"
+    },
+    {
+      "label": "Reptiles of the Sea",
+      "to": "rsea"
+    },
+    {
+      "label": "The Cretaceous Period",
+      "to": "cret"
+    },
+    {
+      "label": "Deinosuchus",
+      "to": "dhus"
+    },
+    {
+      "label": "Ammonite",
+      "to": "ammo"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/ddec/DDEC00AA.webp",
+        "hotspots": [
+          {
+            "label": "El tuátara",
+            "to": "tuatara-lizard",
+            "x": 10,
+            "y": 33,
+            "w": 18,
+            "h": 8
+          },
+          {
+            "label": "Cocodrilo",
+            "to": "crocodile",
+            "x": 2,
+            "y": 52,
+            "w": 12,
+            "h": 8
+          },
+          {
+            "label": "Elefantes y rinocerontes",
+            "to": "elephants-and-rhinos",
+            "x": 17,
+            "y": 67,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "Nautilo",
+            "to": "nautilus",
+            "x": 2,
+            "y": 76,
+            "w": 12,
+            "h": 8
+          },
+          {
+            "label": "Tortugas",
+            "to": "turtles",
+            "x": 38,
+            "y": 77,
+            "w": 10,
+            "h": 8
+          },
+          {
+            "label": "Ginkgos y magnolias",
+            "to": "ginkgo-and-magnolia-trees",
+            "x": 52,
+            "y": 40,
+            "w": 25,
+            "h": 8
+          },
+          {
+            "label": "Hoatzín",
+            "to": "hoatzin",
+            "x": 64,
+            "y": 52,
+            "w": 12,
+            "h": 8
+          },
+          {
+            "label": "Celacanto",
+            "to": "coelacanth",
+            "x": 62,
+            "y": 73,
+            "w": 15,
+            "h": 8
+          },
+          {
+            "label": "Tiburones",
+            "to": "sharks",
+            "x": 82,
+            "y": 33,
+            "w": 10,
+            "h": 8
+          }
+        ]
+      },
+      "tuatara-lizard": {
+        "image": "assets/ddec/DDEC01PU.webp",
+        "back": "main"
+      },
+      "turtles": {
+        "image": "assets/ddec/DDEC02PU.webp",
+        "back": "main"
+      },
+      "hoatzin": {
+        "image": "assets/ddec/DDEC03PU.webp",
+        "back": "main"
+      },
+      "coelacanth": {
+        "image": "assets/ddec/DDEC04PU.webp",
+        "back": "main"
+      },
+      "elephants-and-rhinos": {
+        "image": "assets/ddec/DDEC05PU.webp",
+        "back": "main"
+      },
+      "sharks": {
+        "image": "assets/ddec/DDEC06PU.webp",
+        "back": "main"
+      },
+      "ginkgo-and-magnolia-trees": {
+        "image": "assets/ddec/DDEC07PU.webp",
+        "back": "main"
+      },
+      "crocodile": {
+        "image": "assets/ddec/DDEC08PU.webp",
+        "back": "main"
+      },
+      "nautilus": {
+        "image": "assets/ddec/DDEC09PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/ddec/DDEC00AP.mp3",
+  "narration": "assets/ddec/DDEC00AJ.mp3",
+  "sound": "assets/ddec/DDEC00SA.mp3",
+  "fanTranslation": true
+}

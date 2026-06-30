@@ -1,0 +1,263 @@
+{
+  "id": "plat",
+  "code": "PLAT",
+  "name": "Ornitorrinco",
+  "scientificName": "Ornithorhynchus anatinus",
+  "needsScientificVerify": false,
+  "tagline": "¡Pico de pato, cola de castor y veneno en los pies... el ornitorrinco es el animal más asombroso del mundo!",
+  "weapons": [
+    "Veneno y ponzoña"
+  ],
+  "habitats": [
+    "Ríos, lagos y humedales"
+  ],
+  "regions": [
+    "Australia y Oceanía"
+  ],
+  "hero": {
+    "image": "assets/es/plat/PLAT00AA.webp",
+    "alt": "Ornitorrinco"
+  },
+  "intro": "¡Imposible, me estás engañando! Esto es lo que dice el que no ha visto nunca un ornitorrinco, cuando le hablan por primera vez de este animal. ¿Una criatura cubierta de pelo, con patas palmeadas y pico de pato? ¿Un mamífero que pone huevos pero amamanta a sus crías? Parece imposible. El ornitorrinco es uno de los animales más raros del mundo.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Para defenderse inyecta veneno con los espolones de las patas traseras.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Cangrejos de río, gusanos y pequeños animales acuáticos.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Para su tamaño, esta «máquina de comer» consume más alimento que cualquier otro mamífero terrestre. Mientras se alimenta filtra el barro y la arena a través de las ranuras del pico.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 75 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Australia Oriental, Tasmania",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "inside-a-platypus",
+      "title": "En el interior de un ornitorrinco",
+      "image": "assets/es/plat/PLAT01PU.webp",
+      "text": "Incluso el esqueleto de un ornitorrinco parece una combinación de huesos de otros animales.",
+      "captions": [
+        {
+          "label": "El esqueleto de un ornitorrinco",
+          "text": "Los huesos de las patas de un ornitorrinco parecen de la pata de una foca, lo que tiene cierto sentido: ambos utilizan las patas para nadar, no para caminar."
+        },
+        {
+          "label": "Comparando las cabezas",
+          "text": "¿Crees que el cráneo de un pato se parece al de un ornitorrinco?"
+        }
+      ],
+      "narration": "assets/es/plat/PLAT01NP.mp3"
+    },
+    {
+      "id": "ducklike-feet-and-bills",
+      "title": "Patas y pico de pato",
+      "image": "assets/es/plat/PLAT02PU.webp",
+      "text": "Las patas palmeadas y el pico de un ornitorrinco se han comparado con los de un pato. Pero estos rasgos de un ornitorrinco, ¿se parecen a los de un pato?",
+      "captions": [
+        {
+          "label": "Pico blando",
+          "text": "Como sólo habían examinado especímenes desecados, al principio los científicos creían que el pico del ornitorrinco es duro, pero ahora sabemos que tiene una cubierta correosa suave y de gran sensibilidad. Lo utiliza para excavar en el lodo en busca de gusanos, cangrejos de río y otros alimentos blandos."
+        },
+        {
+          "label": "Pata de ganso",
+          "text": "Aunque tanto los gansos como los ornitorrincos tienen patas palmeadas, las del ornitorrinco se parecen más a las de otro mamífero, la foca."
+        }
+      ],
+      "narration": "assets/es/plat/PLAT02NP.mp3"
+    },
+    {
+      "id": "platypus-life",
+      "title": "Vida de ornitorrinco",
+      "image": "assets/es/plat/PLAT03PU.webp",
+      "text": "En tierra, un ornitorrinco utiliza la vista y el oído para conocer su medio ambiente. Bajo el agua, sus ojos y oídos están protegidos por una membrana, por lo que al nadar sólo cuenta con el sentido del tacto. Utiliza el pico gomoso, muy sensible, para buscar los crustáceos, gusanos y peces que come.",
+      "narration": "assets/es/plat/PLAT03NP.mp3"
+    },
+    {
+      "id": "prickly-relative",
+      "title": "Un pariente espinoso",
+      "image": "assets/es/plat/PLAT04PU.webp",
+      "text": "El ornitorrinco es un monotrema, un tipo de mamífero ovíparo primitivo. Sólo existe otro tipo de monotrema: el equidna, con dos variedades, de hocico corto y de hocico largo.",
+      "captions": [
+        {
+          "label": "Una bola de espinas",
+          "text": "Una equidna o este erizo son animales espinosos que pueden convertirse en una bola espinosa que protege su vientre blando de los ataques, ya que los predadores no pueden tocarlos."
+        },
+        {
+          "label": "Equidna",
+          "text": "Esta extraña criatura vive en Australia y Nueva Guinea. Como el ornitorrinco, un equidna es un mamífero ovíparo. Después de la eclosión, las crías se arrastran hasta una bolsa situada en el vientre de la madre. Allí continúan su desarrollo hasta que están dispuestas a salir al mundo exterior."
+        }
+      ],
+      "narration": "assets/es/plat/PLAT04NP.mp3"
+    },
+    {
+      "id": "cute-but-not-cuddly",
+      "title": "Bonito, pero no indefenso",
+      "image": "assets/es/plat/PLAT05PU.webp",
+      "text": "Quizá te preguntes qué tiene de peligroso un ornitorrinco. Aunque siempre deberías acercarte con cuidado a cualquier animal salvaje, con un ornitorrinco macho habrás de extremar las precauciones: ¡en las patas tiene unos afilados espolones venenosos!",
+      "captions": [
+        {
+          "label": "Espolones venenosos",
+          "text": "El veneno que un ornitorrinco macho inyecta con los espolones puede matar a los animales pequeños. Al ser humano le puede producir temporalmente una parálisis parcial."
+        }
+      ],
+      "narration": "assets/es/plat/PLAT05NP.mp3"
+    },
+    {
+      "id": "odd-neighbors",
+      "title": "Extraños vecinos",
+      "image": "assets/es/plat/PLAT06PU.webp",
+      "text": "El continente de Australia, la isla australiana de Tasmania y Nueva Guinea son famosos por sus animales raros. Aquí puedes ver algunas de las extrañas criaturas que podrías encontrar en esta zona.",
+      "captions": [
+        {
+          "label": "Collares atemorizadores",
+          "text": "El impresionante lagarto de collar, capaz de correr como el rayo sobre sus patas traseras, ha sido la estrella de muchos programas de televisión."
+        },
+        {
+          "label": "Un pequeño diablo",
+          "text": "Este diablo de Tasmania es pequeño y bastante tímido, pero también es un fiero cazador que puede matar a presas mucho mayores que él."
+        },
+        {
+          "label": "Inmigrante con éxito",
+          "text": "El sapo bastón, también conocido como sapo marino gigante, fue llevado a Australia por el hombre. Ahora devora una gran cantidad de animales autóctonos."
+        }
+      ],
+      "narration": "assets/es/plat/PLAT06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/plat/PLAT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 3.46,
+            "y": 7.03,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Extraños vecinos",
+            "to": "odd-neighbors",
+            "x": 71.74,
+            "y": 7.24,
+            "w": 21.51,
+            "h": 11.27
+          },
+          {
+            "label": "No es una mascota",
+            "to": "video",
+            "x": 29.71,
+            "y": 40.79,
+            "w": 8.86,
+            "h": 3.92
+          },
+          {
+            "label": "Vida de ornitorrinco",
+            "to": "platypus-life",
+            "x": 12.37,
+            "y": 48.8,
+            "w": 10.89,
+            "h": 4.13
+          },
+          {
+            "label": "Patas y pico de pato",
+            "to": "ducklike-feet-and-bills",
+            "x": 13.77,
+            "y": 65.68,
+            "w": 18.7,
+            "h": 4.13
+          },
+          {
+            "label": "En el interior de un ornitorrinco",
+            "to": "inside-a-platypus",
+            "x": 77.06,
+            "y": 53.35,
+            "w": 10.11,
+            "h": 4.13
+          },
+          {
+            "label": "Bonito, pero no indefenso",
+            "to": "cute-but-not-cuddly",
+            "x": 68.31,
+            "y": 53.99,
+            "w": 20.89,
+            "h": 11.27
+          },
+          {
+            "label": "Un pariente espinoso",
+            "to": "prickly-relative",
+            "x": 57,
+            "y": 66,
+            "w": 20,
+            "h": 6
+          }
+        ]
+      },
+      "inside-a-platypus": {
+        "image": "assets/es/plat/PLAT01PU.webp",
+        "back": "main"
+      },
+      "ducklike-feet-and-bills": {
+        "image": "assets/es/plat/PLAT02PU.webp",
+        "back": "main"
+      },
+      "platypus-life": {
+        "image": "assets/es/plat/PLAT03PU.webp",
+        "back": "main"
+      },
+      "prickly-relative": {
+        "image": "assets/es/plat/PLAT04PU.webp",
+        "back": "main"
+      },
+      "cute-but-not-cuddly": {
+        "image": "assets/es/plat/PLAT05PU.webp",
+        "back": "main"
+      },
+      "odd-neighbors": {
+        "image": "assets/es/plat/PLAT06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/plat/PLAT00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/plat/clip.mp4",
+        "poster": "assets/es/plat/PLAT07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/plat/narration.mp3",
+  "sound": "assets/es/plat/PLAT00AF.mp3",
+  "factsNarration": "assets/es/plat/PLAT00FB.mp3",
+  "video": {
+    "title": "No es una mascota",
+    "src": "assets/es/plat/clip.mp4",
+    "poster": "assets/es/plat/poster.webp",
+    "caption": "Nos puede apetecer tener en casa algún mamífero salvaje, como el ornitorrinco. Pero son más felices en estado libre, pues pueden llevar la vida que más les conviene y encontrar la comida que necesitan. ¡Un ornitorrinco come al día varios kilos de crustáceos y gusanos vivos!"
+  }
+}

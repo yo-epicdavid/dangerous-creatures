@@ -1,0 +1,129 @@
+{
+  "id": "psit",
+  "code": "PSIT",
+  "name": "Psittacosaurus",
+  "category": "dinosaur",
+  "scientificName": "Psittacosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "sit-AK-oh-SOR-us",
+  "meaning": "lagarto loro",
+  "period": "Cretácico inferior",
+  "diet": "Herbívoro",
+  "tagline": "¡Este herbívoro con pico de loro fue uno de los primeros dinosaurios cornudos!",
+  "hero": {
+    "image": "assets/psit/PSIT00AA.webp",
+    "alt": "Psittacosaurus"
+  },
+  "intro": "¡El Psittacosaurus tenía un pico idéntico al de un loro! Este dinosaurio fue un pariente primitivo de los dinosaurios cornudos, y vivió durante el período Cretácico Inferior. Los dinosaurios cornudos primitivos solo tenían pequeños cuernos óseos en las mejillas, mientras que sus parientes más tardíos, como el Centrosaurio, tenían cuernos bien desarrollados y grandes gorgueras en el cuello. Los paleontólogos creen que, a diferencia de los dinosaurios cornudos posteriores, el Psittacosaurus pasaba la mayor parte del tiempo sobre sus dos patas traseras, quizás usando sus extremidades delanteras para agarrar las plantas que comía. Los fósiles de este dinosaurio, al igual que los de muchos otros ceratopsianos primitivos, han sido encontrados en Asia.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Asia"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Inferior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto loro"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Ceratopsiano"
+    },
+    {
+      "label": "Longitud",
+      "value": "1,2 m (6 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "prehistoric-polly",
+      "title": "¿Loro prehistórico?",
+      "image": "assets/psit/PSIT01PU.webp",
+      "text": "El nombre Psittacosaurus significa «lagarto loro», así llamado porque su pico le recordó a un loro a quien lo descubrió. Aunque algunos dinosaurios y las aves comparten muchas similitudes, en el caso del Psittacosaurus las semejanzas se limitaban al pico.",
+      "captions": [
+        {
+          "label": "Cráneo de forma peculiar",
+          "text": "Este cráneo de forma tan peculiar perteneció al Psittacosaurus. Aunque el dinosaurio no tenía muchos dientes, su profundo y afilado pico podía cortar hojas duras y tallos leñosos."
+        }
+      ]
+    },
+    {
+      "id": "more-beaked-beasts",
+      "title": "Más bestias con pico",
+      "image": "assets/psit/PSIT02PU.webp",
+      "text": "Un hueso situado bajo el pico superior del Psittacosaurus solo se ha encontrado en dinosaurios cornudos, lo que llevó a los expertos a creer que el Psittacosaurus fue uno de los ceratopsianos más primitivos. Al observar los rostros de algunos ceratopsianos que se muestran aquí, se puede comprobar que el pico no era nada inusual en esta familia de dinosaurios.",
+      "captions": [
+        {
+          "label": "Pico fosilizado de ceratopsiano",
+          "text": "Un pico como este era ideal para arrancar plantas duras."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Weirdest Dinosaurs",
+      "to": "weir"
+    },
+    {
+      "label": "Birds and Dinosaurs",
+      "to": "bird"
+    },
+    {
+      "label": "Centrosaurus",
+      "to": "cent"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/psit/PSIT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Más bestias con pico",
+            "to": "more-beaked-beasts",
+            "x": 57,
+            "y": 3,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "¿Loro prehistórico?",
+            "to": "prehistoric-polly",
+            "x": 60,
+            "y": 47,
+            "w": 22,
+            "h": 6
+          }
+        ]
+      },
+      "prehistoric-polly": {
+        "image": "assets/psit/PSIT01PU.webp",
+        "back": "main"
+      },
+      "more-beaked-beasts": {
+        "image": "assets/psit/PSIT02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/psit/PSIT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/psit/PSIT00AP.mp3",
+  "narration": "assets/psit/PSIT00AJ.mp3",
+  "fanTranslation": true
+}

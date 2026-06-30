@@ -1,0 +1,151 @@
+{
+  "id": "eudi",
+  "code": "EUDI",
+  "name": "Eudimorphodon",
+  "category": "creature",
+  "scientificName": "Eudimorphodon",
+  "needsScientificVerify": false,
+  "pronunciation": "you-die-MOR-fuh-don",
+  "meaning": "Verdaderos dientes de dos formas",
+  "period": "Triásico",
+  "diet": "Carnívoro",
+  "tagline": "Este reptil volador usaba su cola en forma de rombo para guiar su vuelo.",
+  "hero": {
+    "image": "assets/eudi/EUDI00AA.webp",
+    "alt": "Eudimorphodon"
+  },
+  "intro": "Cuando volaba, el Eudimorphodon mantenía su larga cola estirada y rígida hacia atrás. Esto ayudaba a contrarrestar el peso del cuerpo del reptil en el aire. El faldón en forma de rombo que tenía al final de la cola funcionaba como un timón, ayudando al Eudimorphodon a mantener el rumbo durante el vuelo. Este pterosaurio, o reptil volador, tenía un cuello corto y patas traseras similares a las de los dinosaurios.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Europa"
+    },
+    {
+      "label": "Época",
+      "value": "Triásico"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Verdaderos dientes de dos formas"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Pterosaurio"
+    }
+  ],
+  "topics": [
+    {
+      "id": "rudders-in-flight",
+      "title": "Timones en vuelo",
+      "image": "assets/eudi/EUDI01PU.webp",
+      "text": "El timón de la cola de un avión ayuda a mantener la aeronave volando en línea recta, igual que el timón en forma de rombo de la cola del Eudimorphodon. Cuando los pilotos quieren girar, mueven el timón accionando los mandos de la cabina. El Eudimorphodon usaba los fuertes músculos de su cola para hacer lo mismo."
+    },
+    {
+      "id": "long-tailed-flyers",
+      "title": "Voladores de cola larga",
+      "image": "assets/eudi/EUDI02PU.webp",
+      "text": "Como puedes ver aquí, el Eudimorphodon no era el único pterosaurio con cola larga.\n\nNi ave ni dinosaurio\n\nEstos voladores tenían huesos ligeros y alas como un ave, además de dientes y garras como muchos dinosaurios. Sin embargo, los pterosaurios no eran ni aves ni dinosaurios, sino un grupo único de reptiles que surcaron los cielos durante la Era de los Dinosaurios.",
+      "captions": [
+        {
+          "label": "Sordes",
+          "text": "Este pterosaurio parece haber tenido un pelaje grueso para mantenerse caliente durante el vuelo."
+        },
+        {
+          "label": "Rhamphorhynchus",
+          "text": "Se han encontrado muchos fósiles magníficos de este pterosaurio en Alemania. Su nombre significa «pico estrecho»."
+        }
+      ]
+    },
+    {
+      "id": "fish-feeders",
+      "title": "Comedores de peces",
+      "image": "assets/eudi/EUDI03PU.webp",
+      "text": "Pterosaurios como el Eudimorphodon y el Pteranodon, que aparece aquí, podían planear por el cielo y lanzarse en picado para atrapar peces. Algunos pterosaurios tenían dientes irregulares en sus picos, lo que les facilitaba agarrar a sus resbaladizas presas.",
+      "captions": [
+        {
+          "label": "Pez famoso",
+          "text": "Un pez prehistórico, el celacanto, se creía extinto hasta 1938, cuando se capturó uno frente a las costas de Sudáfrica. Desde entonces, se han encontrado celacantos en aguas profundas cerca de las Islas Comoras."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Quetzalcoatlus",
+      "to": "quet"
+    },
+    {
+      "label": "Reptiles of the Air",
+      "to": "rair"
+    },
+    {
+      "label": "Rhamphorhynchus",
+      "to": "rham"
+    },
+    {
+      "label": "Coelacanth",
+      "to": "coth"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/eudi/EUDI00AA.webp",
+        "hotspots": [
+          {
+            "label": "Timones en vuelo",
+            "to": "rudders-in-flight",
+            "x": 3,
+            "y": 70,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "Voladores de cola larga",
+            "to": "long-tailed-flyers",
+            "x": 3,
+            "y": 77,
+            "w": 17,
+            "h": 6
+          },
+          {
+            "label": "Comedores de peces",
+            "to": "fish-feeders",
+            "x": 78,
+            "y": 34,
+            "w": 18,
+            "h": 6
+          }
+        ]
+      },
+      "rudders-in-flight": {
+        "image": "assets/eudi/EUDI01PU.webp",
+        "back": "main"
+      },
+      "long-tailed-flyers": {
+        "image": "assets/eudi/EUDI02PU.webp",
+        "back": "main"
+      },
+      "fish-feeders": {
+        "image": "assets/eudi/EUDI03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/eudi/EUDI50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/eudi/EUDI00AP.mp3",
+  "narration": "assets/eudi/EUDI00AJ.mp3",
+  "fanTranslation": true
+}

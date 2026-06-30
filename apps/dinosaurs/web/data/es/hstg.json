@@ -1,0 +1,133 @@
+{
+  "id": "hstg",
+  "code": "HSTG",
+  "name": "Cómo reconocer a los estegosaurios",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "lagarto techado",
+  "period": "",
+  "diet": "",
+  "tagline": "¡Sus famosas placas dorsales eran un sistema de calefacción y refrigeración incorporado… y esas colas con púas eran armas temibles!",
+  "hero": {
+    "image": "assets/hstg/HSTG00AA.webp",
+    "alt": "Cómo reconocer a los estegosaurios"
+  },
+  "intro": "Si observas a los estegosaurios de perfil, reconocerás enseguida el rasgo más llamativo de este grupo de dinosaurios herbívoros: las hileras de placas o espinas que recorrían su cuello, su lomo y su cola, y los pares de púas en la punta de la cola. Aunque sus patas traseras eran más largas que las delanteras, los estegosaurios probablemente pasaban el día apoyados en las cuatro patas, sin poder incorporarse sobre dos patas y correr como algunos de sus parientes ornitisquios.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "impressive-plates-and-spikes",
+      "title": "Placas y púas impresionantes",
+      "image": "assets/hstg/HSTG01PU.webp",
+      "text": "Cuando se descubrieron los primeros estegosaurios, los científicos pensaban que las placas estaban tumbadas sobre el cuerpo de estos dinosaurios, como las tejas de un tejado. Por eso, el nombre «estegosaurio» significa «lagarto techado». Hoy los expertos creen que las placas estaban erguidas sobre el lomo de los estegosaurios.",
+      "captions": [
+        {
+          "label": "Sistema de calefacción central",
+          "text": "Las placas óseas no eran macizas, sino que tenían huecos y ranuras recorridos por vasos sanguíneos. El dinosaurio probablemente usaba estas placas para regular la temperatura de su cuerpo. Al sol, las placas ayudaban a calentar el resto del cuerpo; a la sombra o con brisa, enfriaban la sangre del dinosaurio."
+        },
+        {
+          "label": "Cola terrible",
+          "text": "Los estegosaurios tenían largas púas en la punta de sus musculosas colas. Estas habrían resultado armas muy intimidantes para cualquier depredador que intentara atacarles por detrás."
+        }
+      ]
+    },
+    {
+      "id": "small-skulls-and-weak-jaws",
+      "title": "Cráneos pequeños y mandíbulas débiles",
+      "image": "assets/hstg/HSTG02PU.webp",
+      "text": "Los estegosaurios tenían cráneos pequeños y estrechos que dejaban poco espacio para el cerebro. ¿Significaba eso que no eran animales especialmente listos? Sobrevivieron durante millones de años, así que la inteligencia que tenían era suficiente para el mundo en el que vivían.",
+      "captions": [
+        {
+          "label": "Picos y dientes diminutos",
+          "text": "Los dinosaurios con placas no habrían podido comer vegetación dura: solo tenían picos sin dientes en la parte delantera de las mandíbulas y dientes pequeños en la parte trasera. Los estegosaurios probablemente se alimentaban únicamente de plantas blandas y tragaban piedras para ayudar a triturar la materia vegetal dentro del estómago."
+        }
+      ]
+    },
+    {
+      "id": "long-back-legs-and-bird-like-hips",
+      "title": "Patas traseras largas y caderas similares a las de las aves",
+      "image": "assets/hstg/HSTG03PU.webp",
+      "text": "Los estegosaurios son dinosaurios ornitisquios (de caderas de ave) con patas traseras largas. A diferencia de muchos otros ornitisquios, que caminaban sobre dos patas, los dinosaurios con placas caminaban a cuatro patas, y sus largas patas traseras hacían que sus caderas quedaran más altas que los hombros.",
+      "captions": [
+        {
+          "label": "¿Un dinosaurio parecido a un ave?",
+          "text": "Es difícil imaginarse una relación entre los estegosaurios y las aves. Sin embargo, en cuanto a la estructura de la cadera, estos dos tipos de animales eran muy similares, y la estructura de la cadera es la principal forma de clasificar a los dinosaurios. En los dinosaurios de caderas de ave, los dos huesos pélvicos inferiores apuntaban hacia atrás y hacia abajo. En los saurisquios o dinosaurios «de caderas de lagarto», uno de los dos huesos pélvicos inferiores apuntaba hacia delante y el otro hacia atrás."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Stegosaurus",
+      "to": "steg"
+    },
+    {
+      "label": "Kentrosaurus",
+      "to": "kent"
+    },
+    {
+      "label": "Teeth of Plant-eaters",
+      "to": "ptee"
+    },
+    {
+      "label": "Two Feet or Four?",
+      "to": "twof"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/hstg/HSTG00AA.webp",
+        "hotspots": [
+          {
+            "label": "Placas y púas impresionantes",
+            "to": "impressive-plates-and-spikes",
+            "x": 54,
+            "y": 26,
+            "w": 40,
+            "h": 5
+          },
+          {
+            "label": "Cráneos pequeños y mandíbulas débiles",
+            "to": "small-skulls-and-weak-jaws",
+            "x": 9,
+            "y": 48,
+            "w": 36,
+            "h": 5
+          },
+          {
+            "label": "Patas traseras largas y caderas similares a las de las aves",
+            "to": "long-back-legs-and-bird-like-hips",
+            "x": 43,
+            "y": 80,
+            "w": 47,
+            "h": 5
+          }
+        ]
+      },
+      "impressive-plates-and-spikes": {
+        "image": "assets/hstg/HSTG01PU.webp",
+        "back": "main"
+      },
+      "small-skulls-and-weak-jaws": {
+        "image": "assets/hstg/HSTG02PU.webp",
+        "back": "main"
+      },
+      "long-back-legs-and-bird-like-hips": {
+        "image": "assets/hstg/HSTG03PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/hstg/HSTG00AP.mp3",
+  "narration": "assets/hstg/HSTG00AJ.mp3",
+  "sound": "assets/hstg/HSTG00SA.mp3",
+  "fanTranslation": true
+}

@@ -1,0 +1,109 @@
+{
+  "id": "dilo",
+  "code": "DILO",
+  "name": "Dilophosaurus",
+  "category": "dinosaur",
+  "scientificName": "Dilophosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "dye-LOF-oh-SOR-us",
+  "meaning": "Lagarto de dos crestas",
+  "period": "Jurásico inferior",
+  "diet": "Carnívoro",
+  "tagline": "Uno de los primeros grandes depredadores de la Tierra, este cazador de doble cresta merodeó por los continentes hace 200 millones de años.",
+  "hero": {
+    "image": "assets/dilo/DILO00AA.webp",
+    "alt": "Dilophosaurus"
+  },
+  "intro": "Uno de los primeros grandes carnívoros, el Dilophosaurus apareció hace unos 200 millones de años. Con seis metros de longitud, patas fuertes y una cola larga, el Dilophosaurus tenía unas mandíbulas más delicadas que las de la mayoría de sus parientes terópodos, lo que sugiere que este dinosaurio pudo haber sido carroñero más que depredador.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico temprano"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Lagarto de dos crestas"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Terópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "6 m (20 pies)"
+    },
+    {
+      "label": "Peso",
+      "value": "Media tonelada"
+    }
+  ],
+  "topics": [
+    {
+      "id": "family-of-flesh-eaters",
+      "title": "Familia de carnívoros",
+      "image": "assets/dilo/DILO01PU.webp",
+      "text": "Aquí se muestra al Dilophosaurus junto a dos de sus parientes terópodos. Los carnívoros más pequeños, como el Deinonychus, puede que cazaran en manada.",
+      "captions": [
+        {
+          "label": "Alosaurio",
+          "text": "Este depredador tan común, que apareció 40 millones de años después del Dilophosaurus, rara vez pasaba hambre. Se han encontrado restos fósiles del Alosaurio junto a esqueletos de Estegosaurio, Camptosaurus y el gigantesco Camarasaurus, lo que sugiere que el Alosaurio pudo haber cazado o aprovechado como carroña dinosaurios de gran tamaño."
+        },
+        {
+          "label": "Deinonychus",
+          "text": "Fue uno de los dinosaurios más letales, con todas las características de un cazador eficaz. El Deinonychus usaba sus poderosas mandíbulas, repletas de dientes serrados, y las garras curvas de ambas patas para infligir heridas mortales a sus presas."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Meat-eaters",
+      "to": "meat"
+    },
+    {
+      "label": "Deinonychus",
+      "to": "dein"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/dilo/DILO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Familia de carnívoros",
+            "to": "family-of-flesh-eaters",
+            "x": 13,
+            "y": 67,
+            "w": 25,
+            "h": 5
+          }
+        ]
+      },
+      "family-of-flesh-eaters": {
+        "image": "assets/dilo/DILO01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/dilo/DILO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/dilo/DILO00AP.mp3",
+  "narration": "assets/dilo/DILO00AJ.mp3",
+  "fanTranslation": true
+}

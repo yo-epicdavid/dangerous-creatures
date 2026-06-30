@@ -1,0 +1,121 @@
+{
+  "id": "ankl",
+  "code": "ANKL",
+  "name": "Anquilosaurio",
+  "category": "dinosaur",
+  "scientificName": "Ankylosaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "ang-KY-loh-SOR-us",
+  "meaning": "Lagarto fusionado",
+  "period": "Cretácico superior",
+  "diet": "Herbívoro",
+  "tagline": "¡Este tanque acorazado llevaba una cola en forma de maza de hueso lo bastante poderosa como para dejar inválido a un T. rex!",
+  "hero": {
+    "image": "assets/ankl/ANKL00AA.webp",
+    "alt": "Anquilosaurio"
+  },
+  "intro": "Cuando el Anquilosaurio agitaba su pesada maza caudal, los demás dinosaurios se apartaban de su camino. La «maza» era un arma impresionante, formada por dos grandes bolas de hueso fusionado incrustadas en la gruesa piel del dinosaurio y unidas al resto de los huesos de la cola. El Anquilosaurio también tenía gruesas placas de armadura y pinchos por todo el cuerpo para protegerse de los ataques.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Lagarto fusionado"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Anquilosáurido"
+    },
+    {
+      "label": "Longitud",
+      "value": "10,7 m (35 pies)"
+    },
+    {
+      "label": "Peso",
+      "value": "4 toneladas"
+    }
+  ],
+  "topics": [
+    {
+      "id": "anonymous-ankylosaur",
+      "title": "¿Anquilosaurio anónimo?",
+      "image": "assets/ankl/ANKL01PU.webp",
+      "text": "En 1988, los científicos encontraron el primer dinosaurio antártico en la zona de la isla James Ross. El ejemplar desenterrado por los equipos de exploración fue identificado como un dinosaurio acorazado."
+    },
+    {
+      "id": "watch-out-for-that-tail",
+      "title": "¡Cuidado con esa cola!",
+      "image": "assets/ankl/ANKL02PU.webp",
+      "text": "La maza caudal del Anquilosaurio medía más de tres pies de ancho. La base de la cola del dinosaurio debía de ser muy flexible y musculosa para poder agitar semejante arma. Aunque el Anquilosaurio quizá no podía competir en tamaño con un carnívoro gigante como el Tiranosaurio rex, un golpe bien dirigido habría podido dejar fuera de combate a un gran carnívoro."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dinosaur Defense",
+      "to": "ddef"
+    },
+    {
+      "label": "Antarctica Expedition",
+      "to": "anta"
+    },
+    {
+      "label": "A Tale of Tails",
+      "to": "tale"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/ankl/ANKL00AA.webp",
+        "hotspots": [
+          {
+            "label": "¡Cuidado con esa cola!",
+            "to": "watch-out-for-that-tail",
+            "x": 57,
+            "y": 34,
+            "w": 28,
+            "h": 6
+          },
+          {
+            "label": "¿Anquilosaurio anónimo?",
+            "to": "anonymous-ankylosaur",
+            "x": 5,
+            "y": 74,
+            "w": 23,
+            "h": 6
+          }
+        ]
+      },
+      "anonymous-ankylosaur": {
+        "image": "assets/ankl/ANKL01PU.webp",
+        "back": "main"
+      },
+      "watch-out-for-that-tail": {
+        "image": "assets/ankl/ANKL02PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/ankl/ANKL50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/ankl/ANKL00AP.mp3",
+  "narration": "assets/ankl/ANKL00AJ.mp3",
+  "fanTranslation": true
+}

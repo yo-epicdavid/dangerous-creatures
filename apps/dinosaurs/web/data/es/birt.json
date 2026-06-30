@@ -1,0 +1,191 @@
+{
+  "id": "birt",
+  "code": "BIRT",
+  "name": "Nacimiento y crecimiento",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "¡De diminutos huevos nacieron las criaturas que dominaron la Tierra!",
+  "hero": {
+    "image": "assets/birt/BIRT00AA.webp",
+    "alt": "Nacimiento y crecimiento"
+  },
+  "intro": "Los arcosaurios, los «reptiles dominantes» entre los que se encuentran los dinosaurios y los cocodrilos, fueron las primeras criaturas en poner sus huevos en tierra firme. Los anfibios que les precedieron podían vivir en la tierra, pero tenían que volver a estanques y lagos para poner sus huevos recubiertos de gelatina, de los que nacían renacuajos. El huevo de un reptil, sin embargo, tiene una cáscara dura e impermeable. En su interior, la cría dispone de su propio «estanque» acuoso donde desarrollarse y crecer. El desarrollo de esta cáscara significó que los reptiles podían pasar todo su tiempo en tierra firme.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "a-dinosaur-is-born",
+      "title": "Nace un dinosaurio",
+      "image": "assets/birt/BIRT01PU.webp",
+      "text": "Los restos de esta cría de Maiasaura emergiendo de su huevo nos dan una idea de cómo comenzaban la vida los dinosaurios bebé. En 1978 se encontraron varios nidos en Montana con esqueletos fosilizados de crías recién eclosionadas. Sus dientes muestran desgaste, lo que indica que la madre dinosaurio probablemente traía comida al nido."
+    },
+    {
+      "id": "communal-nest",
+      "title": "Nido comunal",
+      "image": "assets/birt/BIRT02PU.webp",
+      "text": "Los huevos de este nido fosilizado pueden pertenecer a Protoceratops. Es posible que varias hembras pusieran sus huevos en este único nido arenoso, que contenía hasta treinta huevos, lo que sugiere que estos dinosaurios vivían en grupos familiares. Los huevos estaban cubiertos de tierra o arena para protegerlos hasta que eclosionaran. Estos huevos fueron descubiertos en Mongolia en 1924."
+    },
+    {
+      "id": "dinosaur-orphans",
+      "title": "Dinosaurios huérfanos",
+      "image": "assets/birt/BIRT03PU.webp",
+      "text": "Las pruebas fósiles nos llevan a creer que las madres de Protoceratops abandonaban el nido una vez puestos los huevos. Con apenas unos veinte centímetros de longitud al nacer, la cría de Protoceratops tenía que alimentarse y protegerse por sí sola en cuanto salía del huevo. Otras crías de dinosaurio es posible que fueran cuidadas hasta que crecían."
+    },
+    {
+      "id": "a-beast-emerges",
+      "title": "Una bestia sale del cascarón",
+      "image": "assets/birt/BIRT04PU.webp",
+      "text": "Cuando la mayoría de los reptiles están listos para eclosionar, rompen la cáscara desde dentro y salen de ella lentamente. Al igual que la joven serpiente ratonera, muchos reptiles modernos y antiguos emergen de sus huevos como versiones más pequeñas, pero idénticas, de sus progenitores. No son débiles ni inmaduros y pueden empezar a valerse por sí mismos desde el momento en que abandonan el huevo. Sin embargo, las crías de los dinosaurios que conocemos tenían un aspecto muy diferente al de sus padres, con ojos y frentes muy grandes."
+    },
+    {
+      "id": "growing-up",
+      "title": "Crecer",
+      "image": "assets/birt/BIRT05PU.webp",
+      "text": "El cráneo de un Protoceratops joven tenía una gorguera corta en la parte trasera y una cresta nasal aplanada. Al crecer hasta la edad adulta, la gorguera se hacía mucho más grande. La cresta nasal también se volvía más alta, para golpear a los rivales. Aunque al nacer medía apenas unos veinte centímetros, el Protoceratops llegaba a alcanzar casi dos metros de longitud y una altura similar a la de un perro grande.",
+      "captions": [
+        {
+          "label": "Cráneo de Protoceratops joven",
+          "text": "Cráneo de Protoceratops joven"
+        },
+        {
+          "label": "Cráneo de Protoceratops adulto",
+          "text": "Cráneo de Protoceratops adulto"
+        },
+        {
+          "label": "Protoceratops",
+          "text": "Protoceratops"
+        }
+      ]
+    },
+    {
+      "id": "hard-egg",
+      "title": "El huevo de cáscara dura",
+      "image": "assets/birt/BIRT06PU.webp",
+      "text": "La dura cáscara de los huevos de Protoceratops protegía los embriones hasta el momento de la eclosión. La cáscara exterior impedía que los líquidos del interior se secaran, lo que significaba que los dinosaurios no tenían que volver al agua para poner sus huevos, como los anfibios, y así podían pasar toda su vida en tierra firme."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Life Before Dinosaurs",
+      "to": "befr"
+    },
+    {
+      "label": "Maiasaura",
+      "to": "maia"
+    },
+    {
+      "label": "Gobi Desert Expeditions",
+      "to": "gobi"
+    },
+    {
+      "label": "Mussaurus",
+      "to": "muss"
+    },
+    {
+      "label": "Nests and Eggs",
+      "to": "nest"
+    },
+    {
+      "label": "Protoceratops",
+      "to": "prot"
+    },
+    {
+      "label": "Reptiles of the Sea",
+      "to": "rsea"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/birt/BIRT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Dinosaurios huérfanos",
+            "to": "dinosaur-orphans",
+            "x": 31,
+            "y": 28,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Una bestia sale del cascarón",
+            "to": "a-beast-emerges",
+            "x": 27,
+            "y": 37,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Nace un dinosaurio",
+            "to": "a-dinosaur-is-born",
+            "x": 13,
+            "y": 44,
+            "w": 20,
+            "h": 8
+          },
+          {
+            "label": "El huevo de cáscara dura",
+            "to": "hard-egg",
+            "x": 5,
+            "y": 57,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "Crecer",
+            "to": "growing-up",
+            "x": 5,
+            "y": 63,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Nido comunal",
+            "to": "communal-nest",
+            "x": 5,
+            "y": 69,
+            "w": 18,
+            "h": 5
+          }
+        ]
+      },
+      "a-dinosaur-is-born": {
+        "image": "assets/birt/BIRT01PU.webp",
+        "back": "main"
+      },
+      "communal-nest": {
+        "image": "assets/birt/BIRT02PU.webp",
+        "back": "main"
+      },
+      "dinosaur-orphans": {
+        "image": "assets/birt/BIRT03PU.webp",
+        "back": "main"
+      },
+      "a-beast-emerges": {
+        "image": "assets/birt/BIRT04PU.webp",
+        "back": "main"
+      },
+      "growing-up": {
+        "image": "assets/birt/BIRT05PU.webp",
+        "back": "main"
+      },
+      "hard-egg": {
+        "image": "assets/birt/BIRT06PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/birt/BIRT00AP.mp3",
+  "narration": "assets/birt/BIRT00AJ.mp3",
+  "sound": "assets/birt/BIRT00SA.mp3",
+  "fanTranslation": true
+}

@@ -1,0 +1,101 @@
+{
+  "id": "dimo",
+  "code": "DIMO",
+  "name": "Dimorphodon",
+  "category": "creature",
+  "scientificName": "Dimorphodon",
+  "needsScientificVerify": false,
+  "pronunciation": "die-MOR-fuh-don",
+  "meaning": "Dientes de dos formas",
+  "period": "Jurásico inferior",
+  "diet": "Carnívoro",
+  "tagline": "¿Se sentía más cómodo este antiguo volador caminando torpemente por el suelo que planeando por el cielo?",
+  "hero": {
+    "image": "assets/dimo/DIMO00AA.webp",
+    "alt": "Dimorphodon"
+  },
+  "intro": "Los paleontólogos no se ponen de acuerdo sobre si el Dimorphodon pasaba mucho tiempo en el aire. Este pterosaurio tenía una cabeza grande y un cuerpo robusto que quizás se adaptaba mejor a caminar torpemente por el suelo o a aferrarse como un murciélago a lo alto de los acantilados y a las ramas.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Europa"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico Temprano"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Dientes de dos formas"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Pterosaurio"
+    },
+    {
+      "label": "Longitud",
+      "value": "1,2 m (4 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "prehistoric-puffin",
+      "title": "¿Frailecillo prehistórico?",
+      "image": "assets/dimo/DIMO01PU.webp",
+      "text": "La cabeza del Dimorphodon se parecía bastante a la de un ave marina moderna, el frailecillo. Algunos científicos creen que el Dimorphodon pudo haber llevado una vida de pesca en el océano similar a la del frailecillo.",
+      "captions": [
+        {
+          "label": "La vida del frailecillo",
+          "text": "Las grandes cabezas de los frailecillos los hacen algo torpes en tierra y en el aire, pero son nadadores elegantes."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Reptiles of the Air",
+      "to": "rair"
+    },
+    {
+      "label": "Sordes",
+      "to": "sord"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/dimo/DIMO00AA.webp",
+        "hotspots": [
+          {
+            "label": "¿Frailecillo prehistórico?",
+            "to": "prehistoric-puffin",
+            "x": 9,
+            "y": 55,
+            "w": 17,
+            "h": 3
+          }
+        ]
+      },
+      "prehistoric-puffin": {
+        "image": "assets/dimo/DIMO01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/dimo/DIMO50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/dimo/DIMO00AP.mp3",
+  "narration": "assets/dimo/DIMO00AJ.mp3",
+  "fanTranslation": true
+}

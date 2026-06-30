@@ -1,0 +1,244 @@
+{
+  "id": "lfsh",
+  "code": "LFSH",
+  "name": "Pez león",
+  "scientificName": "Pterois volitans",
+  "needsScientificVerify": false,
+  "tagline": "Sus brillantes colores son una trampa: ¡detrás de cada aleta se esconde una espina cargada de veneno!",
+  "weapons": [
+    "Veneno y ponzoña",
+    "Púas y espinas"
+  ],
+  "habitats": [
+    "Océanos y arrecifes de coral"
+  ],
+  "regions": [
+    "Océanos y mares"
+  ],
+  "hero": {
+    "image": "assets/es/lfsh/LFSH00AA.webp",
+    "alt": "Pez león"
+  },
+  "intro": "Este hermoso pez flota en las aguas poco profundas del trópico con las aletas extendidas en forma de abanico. ¿Y por qué no? No tiene mucho que temer, pues sus finas aletas ocultan unas espinas llenas de un poderoso veneno.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Se defiende con sus espinas venenosas.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Peces pequeños, crustáceos y gambas.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Por alguna razón, al pez león le gusta colgarse cabeza abajo de los salientes de las rocas. ¡Quizás piense que el mundo se ve mejor desde ese ángulo!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 20 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Sudoeste del Pacífico, Océano Índico, Mar Rojo.",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "in-the-groove",
+      "title": "En la estría",
+      "image": "assets/es/lfsh/LFSH01PU.webp",
+      "text": "Dentro de las aletas delicadas, como de encaje, del pez león se oculta una sorpresa letal: el radio en el que se apoya cada aleta contiene una espina venenosa. Estructura de las espinas: Cada espina contiene una glándula venenosa situada en un canal central alargado. La espina está recubierta en su totalidad por una fina capa de piel. Un veneno eficaz: La persona a la que le pica un pez león sufre fuertes dolores y puede tardar mucho tiempo en recuperarse.",
+      "narration": "assets/es/lfsh/LFSH01NP.mp3"
+    },
+    {
+      "id": "whatchamacallit",
+      "title": "¿Por qué me llaman así?",
+      "image": "assets/es/lfsh/LFSH02PU.webp",
+      "text": "El pez león pertenece al grupo de los peces cebra, que forma parte de un grupo más amplio de peces, llamados escorpénidos, razón por la que a veces se le llama pez escorpión. Pero el verdadero pez escorpión, como el de la imagen, pertenece a otro género que a su vez corresponde a los escorpénidos: los peces piedra. Por tanto el pez león es un tipo de pez cebra, que a su vez es un tipo de pez escorpión. ¿Te parece complicado?",
+      "captions": [
+        {
+          "label": "Espinas estremecedoras",
+          "text": "Un pez escorpión asustado saca sus afiladas espinas venenosas."
+        }
+      ],
+      "narration": "assets/es/lfsh/LFSH02NP.mp3"
+    },
+    {
+      "id": "stingers-in-the-sand",
+      "title": "Aguijones en la arena",
+      "image": "assets/es/lfsh/LFSH03PU.webp",
+      "text": "El pez león nada sin ocultarse, pero estos peces araña, cuyas espinas podrían traspasar tu pie, excava agujeros en el fondo oceánico y espera allí dentro a que pasen camarones, cangrejos y gusanos. ¡Así que cuidado al pisar!",
+      "captions": [
+        {
+          "label": "Ahora no hay peligro",
+          "text": "El pez está tranquilo; sus espinas están relajadas."
+        },
+        {
+          "label": "Aletas en funcionamiento",
+          "text": "Las afiladas espinas de la pequeña aleta dorsal y las espinas de cada opérculo (abertura de las agallas) contienen veneno. Cuando el pez se siente amenazado, saca las espinas como defensa."
+        }
+      ],
+      "narration": "assets/es/lfsh/LFSH03NP.mp3"
+    },
+    {
+      "id": "spiny-swimmers",
+      "title": "Nadadores con espinas",
+      "image": "assets/es/lfsh/LFSH04PU.webp",
+      "text": "Además del pez león, muchos otros peces guardan afiladas sorpresas que pueden usar en defensa propia. ¡Una espina puede resultar eficaz sin ser venenosa!",
+      "captions": [
+        {
+          "label": "Un grupo de cuidado",
+          "text": "Procura no pincharte con las afiladas y fuertes espinas dorsales e inferiores del pez de John Dory."
+        },
+        {
+          "label": "Ligeramente disfrazado",
+          "text": "¡De frente, el pez de John Dory casi no se ve! Por eso sus presas no suelen verlo hasta que es demasiado tarde."
+        },
+        {
+          "label": "Cuchilla de cirujano",
+          "text": "En cada una de las cavidades situadas a ambos lados de la cola, el pez cirujano tiene una afilada cuchilla de hueso que puede sacar y utilizar como arma."
+        }
+      ],
+      "narration": "assets/es/lfsh/LFSH04NP.mp3"
+    },
+    {
+      "id": "barbed-beauty",
+      "title": "Una belleza barbuda",
+      "image": "assets/es/lfsh/LFSH05PU.webp",
+      "text": "¿Por qué este maravilloso pez mandarín puede exhibir su belleza sin que lo devoren? Porque si la afilada espina dorsal de este pez de los arrecifes del Pacífico no asusta al predador, probablemente lo harán su sabor y olor repugnantes, pues segrega un mucus de sabor horrible con el que se recubre como protección.",
+      "narration": "assets/es/lfsh/LFSH05NP.mp3"
+    },
+    {
+      "id": "the-deadliest",
+      "title": "El más mortífero",
+      "image": "assets/es/lfsh/LFSH06PU.webp",
+      "text": "[Texto ilegible: resolución y contraste de la imagen de origen insuficientes para transcripción literal.]",
+      "narration": "assets/es/lfsh/LFSH06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/lfsh/LFSH00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.65,
+            "y": 3.99,
+            "w": 5.42,
+            "h": 9.33
+          },
+          {
+            "label": "Realmente impresionante",
+            "to": "video",
+            "x": 39.71,
+            "y": 9.19,
+            "w": 14.95,
+            "h": 4.13
+          },
+          {
+            "label": "¿Por qué me llaman así?",
+            "to": "whatchamacallit",
+            "x": 39.87,
+            "y": 9.19,
+            "w": 20.73,
+            "h": 11.06
+          },
+          {
+            "label": "El más mortífero",
+            "to": "the-deadliest",
+            "x": 8,
+            "y": 21,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Una belleza barbuda",
+            "to": "barbed-beauty",
+            "x": 2.21,
+            "y": 27.59,
+            "w": 12.45,
+            "h": 4.13
+          },
+          {
+            "label": "En la estría",
+            "to": "in-the-groove",
+            "x": 53,
+            "y": 23,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Aguijones en la arena",
+            "to": "stingers-in-the-sand",
+            "x": 55.34,
+            "y": 35.38,
+            "w": 32.92,
+            "h": 11.06
+          },
+          {
+            "label": "Nadadores con espinas",
+            "to": "spiny-swimmers",
+            "x": 54.4,
+            "y": 42.74,
+            "w": 29.79,
+            "h": 5.21
+          }
+        ]
+      },
+      "in-the-groove": {
+        "image": "assets/es/lfsh/LFSH01PU.webp",
+        "back": "main"
+      },
+      "whatchamacallit": {
+        "image": "assets/es/lfsh/LFSH02PU.webp",
+        "back": "main"
+      },
+      "stingers-in-the-sand": {
+        "image": "assets/es/lfsh/LFSH03PU.webp",
+        "back": "main"
+      },
+      "spiny-swimmers": {
+        "image": "assets/es/lfsh/LFSH04PU.webp",
+        "back": "main"
+      },
+      "barbed-beauty": {
+        "image": "assets/es/lfsh/LFSH05PU.webp",
+        "back": "main"
+      },
+      "the-deadliest": {
+        "image": "assets/es/lfsh/LFSH06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/lfsh/LFSH00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/lfsh/clip.mp4",
+        "poster": "assets/es/lfsh/LFSH07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/lfsh/narration.mp3",
+  "sound": "assets/es/lfsh/LFSH00AF.mp3",
+  "factsNarration": "assets/es/lfsh/LFSH00FB.mp3",
+  "video": {
+    "title": "Realmente impresionante",
+    "src": "assets/es/lfsh/clip.mp4",
+    "poster": "assets/es/lfsh/poster.webp",
+    "caption": "Casi todos los que han visto un pez león han quedado impresionados. Ése es el motivo de que se le hayan dado tantos nombres: por su fiereza, pez león; por las espinas, pez fuego y pez diablo; por las rayas, pez cebra. Incluso algunos le llaman pez pavo, porque despliega las aletas como un pavo que muestra con orgullo las plumas de la cola."
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "id": "mili",
+  "code": "MILI",
+  "name": "Los ejércitos en el mar",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡De los remeros griegos a los submarinos nucleares: la historia de la guerra en el mar!",
+  "zones": [
+    "Mar abierto",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/mili/MILI00AA.webp",
+    "alt": "Los ejércitos en el mar"
+  },
+  "intro": "La guerra causa sufrimientos terribles y pérdidas de vidas, tanto en la tierra como en el mar. Pero, ha impulsado también avances extraordinarios en la construcción de barcos y en la tecnología marina. Las fuerzas navales han experimentado enormes cambios desde las pequeñas barcas de remo utilizadas por los minoicos de Creta desde el año 2200 al 1450 a. C., hasta los destructores, cruceros lanzamisiles, portaaviones y submarinos nucleares de la actualidad.",
+  "facts": [
+    {
+      "label": "La trirreme",
+      "value": "Medía 40 m de eslora, tenía 170 remeros y un largo espolón en la proa"
+    },
+    {
+      "label": "Salamina",
+      "value": "En el año 480 a. C. los griegos derrotaron a los persas y establecieron su supremacía naval en el Mediterráneo"
+    },
+    {
+      "label": "Armada Invencible",
+      "value": "En 1588 los ingleses derrotaron a la Armada Invencible española usando cañones y barcos incendiados a la deriva"
+    },
+    {
+      "label": "Agamenón",
+      "value": "El navío de Nelson llevaba 64 cañones y una tripulación de unos 600 hombres"
+    },
+    {
+      "label": "Acorazados",
+      "value": "Aparecieron en 1862 durante la Guerra Civil de Estados Unidos, con placas de acero en lugar de madera"
+    },
+    {
+      "label": "Cargas de profundidad",
+      "value": "Inventadas en 1916 para hundir los submarinos de bolsillo alemanes"
+    }
+  ],
+  "topics": [
+    {
+      "id": "war-of-oars",
+      "title": "Guerra de remos",
+      "image": "assets/es/mili/MILI01PU.webp",
+      "text": "Los griegos y los romanos fomentaron el desarrollo de las naves de guerra propulsadas por remos.\n\nLa hora de la verdad en Salamina\nLa trirreme griega fue el barco más grande de su tiempo: 40 m de eslora, con un largo espolón en su proa y 170 remeros. Los griegos establecieron su supremacía naval en el Mediterráneo cuando derrotaron a los persas, en la batalla de Salamina, en el año 480 a. C.\n\nAcción en Actium\nLos romanos desarrollaron la quinquerreme, un gran navío de guerra diseñado para atacar a los barcos enemigos. Pero el jefe del ejército romano, Agripa, utilizó el libúrnico, embarcación más pequeña y ligera para navegar al costado de los barcos enemigos y romper sus remos en la Batalla de Actium, en el año 31 a. C. La victoria de Agripa sobre Marco Antonio y Cleopatra marcó el comienzo del fin de las grandes naves de combate propulsadas por remos.",
+      "captions": [
+        {
+          "label": "Trirreme griega",
+          "text": "Maqueta de la trirreme griega Argonauta"
+        },
+        {
+          "label": "Barca de Cleopatra",
+          "text": "Barca de Cleopatra"
+        }
+      ],
+      "narration": "assets/es/mili/MILI01JN.mp3"
+    },
+    {
+      "id": "famous-firepower",
+      "title": "El famoso poder de fuego",
+      "image": "assets/es/mili/MILI02PU.webp",
+      "text": "En el siglo XVI se produjeron los mayores cambios en el diseño de barcos, las tácticas de combate y el poder del fuego. Una flota cristiana aliada, compuesta por naves muy bien armadas, derrotó a los turcos en la Batalla de Lepanto en 1571. Esta fue la última gran batalla en la que participaron naves de combate propulsadas por remos y la primera en la que los cañones desempeñaron un papel fundamental. En 1588, los ingleses derrotaron a la Armada Invencible española, a pesar de que los españoles estaban armados con potentes semicañones. La flota inglesa se sirvió de los cañones para inutilizar a las naves enemigas y dejó barcos incendiados a la deriva para romper las líneas españolas.",
+      "narration": "assets/es/mili/MILI02JN.mp3",
+      "captions": [
+        {
+          "label": "Batalla de Lepanto",
+          "text": "Batalla de Lepanto"
+        }
+      ]
+    },
+    {
+      "id": "wooden-warships",
+      "title": "Buques de guerra de madera",
+      "image": "assets/es/mili/MILI03PU.webp",
+      "text": "Los buques de guerra de madera alcanzaron su cénit en la Batalla de Trafalgar, en 1805; en ella, el almirante británico Horacio Nelson terminó con las esperanzas que tenía Napoleón Bonaparte de que los franceses controlasen los mares. El navío de Nelson, Agamenón, era un típico buque de combate, que llevaba 64 cañones y una tripulación de unos 600 hombres. En 1853, una escuadrilla rusa que pretendía tener acceso al Mediterráneo abrió fuego contra la flota turca, utilizando armazones esféricos explosivos para prender fuego a los cascos de madera. Este enfrentamiento de la guerra de Crimea, conocido como la Batalla de Sinope, marcó el final de los buques de guerra de madera propulsados por velas.",
+      "narration": "assets/es/mili/MILI03JN.mp3",
+      "captions": [
+        {
+          "label": "Muerte de Nelson",
+          "text": "Muerte del almirante Nelson en la Batalla de Trafalgar"
+        }
+      ]
+    },
+    {
+      "id": "armored-and-dangerous",
+      "title": "Armados y peligrosos",
+      "image": "assets/es/mili/MILI04PU.webp",
+      "text": "La Guerra Civil de Estados Unidos supuso la aparición en 1862 de los acorazados o monitores, buques de guerra con placas de acero que marcaron la transición hacia los navíos de guerra actuales. El Merrimack y el Monitor se enfrentaron en Hampton Roads, la confluencia de tres ríos en la bahía Chesapeake de Virginia, el 9 de marzo de 1862. El ejército de la Unión primero confundió al Merrimack con un tanque de agua, y después, ¡con una enorme quesera sobre una balsa!",
+      "narration": "assets/es/mili/MILI04JN.mp3",
+      "captions": [
+        {
+          "label": "Merrimack y Monitor",
+          "text": "Batalla del Merrimack y del Monitor, Guerra Civil de los Estados Unidos"
+        }
+      ]
+    },
+    {
+      "id": "subs-and-carriers",
+      "title": "Submarinos y portaaviones",
+      "image": "assets/es/mili/MILI05PU.webp",
+      "text": "La Primera Guerra Mundial trajo consigo el desarrollo de los submarinos, con el llamado submarino de bolsillo. En la Segunda Guerra Mundial aparecieron los portaaviones.\n\nHundimiento sin previo aviso\nLos submarinos de bolsillo alemanes llevaron a cabo una política de hundir barcos sin previo aviso en la Primera Guerra Mundial. Los buques de guerra británicos no consiguieron hundir a los submarinos de bolsillo hasta que fueron inventadas las cargas de profundidad en 1916.\n\nDespejado para el despegue\nCuando los submarinos de bolsillo emprendieron la táctica de las \"manadas de lobos\" en la Primera Guerra Mundial, atacando, protegidos por la oscuridad, los convoyes de suministros y de tropas, los Aliados respondieron desarrollando el sonar, que captaba la dirección de las ondas de radio y la aviación. Los británicos fueron pioneros en la utilización del portaaviones en la Segunda Guerra Mundial. Los grandes portaaviones constituyen el núcleo fundamental en las marinas de guerra modernas.",
+      "captions": [
+        {
+          "label": "Submarinos alemanes",
+          "text": "Submarinos de bolsillo alemanes de la Segunda Guerra Mundial"
+        },
+        {
+          "label": "Carl Vinson",
+          "text": "Portaaviones estadounidense Carl Vinson"
+        }
+      ],
+      "narration": "assets/es/mili/MILI05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Desastres marítimos",
+      "to": "disa"
+    },
+    {
+      "label": "Los piratas",
+      "to": "pira"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/mili/MILI00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 6,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "Submarinos y portaaviones",
+            "to": "subs-and-carriers",
+            "x": 3,
+            "y": 46,
+            "w": 22,
+            "h": 4
+          },
+          {
+            "label": "Guerra de remos",
+            "to": "war-of-oars",
+            "x": 3,
+            "y": 55,
+            "w": 16,
+            "h": 4
+          },
+          {
+            "label": "El famoso poder de fuego",
+            "to": "famous-firepower",
+            "x": 63,
+            "y": 37,
+            "w": 23,
+            "h": 4
+          },
+          {
+            "label": "La vigilancia moderna en las costas",
+            "to": "video",
+            "x": 53,
+            "y": 49,
+            "w": 30,
+            "h": 4
+          },
+          {
+            "label": "Buques de guerra de madera",
+            "to": "wooden-warships",
+            "x": 64,
+            "y": 57,
+            "w": 20,
+            "h": 4
+          },
+          {
+            "label": "Armados y peligrosos",
+            "to": "armored-and-dangerous",
+            "x": 34,
+            "y": 70,
+            "w": 26,
+            "h": 4
+          }
+        ]
+      },
+      "war-of-oars": {
+        "image": "assets/es/mili/MILI01PU.webp",
+        "back": "main"
+      },
+      "famous-firepower": {
+        "image": "assets/es/mili/MILI02PU.webp",
+        "back": "main"
+      },
+      "wooden-warships": {
+        "image": "assets/es/mili/MILI03PU.webp",
+        "back": "main"
+      },
+      "armored-and-dangerous": {
+        "image": "assets/es/mili/MILI04PU.webp",
+        "back": "main"
+      },
+      "subs-and-carriers": {
+        "image": "assets/es/mili/MILI05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/mili/clip.mp4",
+        "poster": "assets/es/mili/MILI06PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/mili/MILI00JN.mp3",
+  "sound": "assets/es/mili/MILI00IX.mp3",
+  "video": {
+    "title": "La vigilancia moderna en las costas",
+    "src": "assets/es/mili/clip.mp4",
+    "poster": "assets/es/mili/poster.webp",
+    "caption": "Acción de rescate de un guardacostas estadounidense",
+    "narration": "assets/es/mili/MILI06JN.mp3"
+  }
+}

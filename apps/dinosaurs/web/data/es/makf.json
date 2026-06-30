@@ -1,0 +1,127 @@
+{
+  "id": "makf",
+  "code": "MAKF",
+  "name": "Cómo se forma un fósil",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "¡Los huesos muertos no desaparecen: se convierten poco a poco en piedra!",
+  "hero": {
+    "image": "assets/makf/MAKF00AA.webp",
+    "alt": "Cómo se forma un fósil"
+  },
+  "intro": "¿Cómo se forman los fósiles? Hace millones de años, cuando los dinosaurios habitaban la Tierra, muchos animales morían cerca de ríos u otras masas de agua. Las corrientes o las mareas solían enterrar los cadáveres bajo el barro y la arena antes de que se descompusieran por completo. Con el tiempo, esa capa de barro y arena se convirtió en roca. En ocasiones, la piel dura y escamosa de algunos dinosaurios duraba el tiempo suficiente para dejar su huella en el barro fino. Incluso los frágiles cascarones de los huevos de dinosaurio se convertían a veces en fósiles. Pero la carne y los demás tejidos blandos solían pudrirse, dejando solo dientes, huesos o caparazones que acababan convirtiéndose en fósiles pétreos.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "death-bed",
+      "title": "Lecho de muerte",
+      "image": "assets/makf/MAKF01PU.webp",
+      "text": "En vida, el Alosaurio se alimentaba en la orilla de un río donde crecían helechos y colas de caballo, y donde había agua abundante para beber. Cuando llegaba la muerte, ya fuera por enfermedad, ataque o ahogamiento, solía ocurrir cerca del agua. Las corrientes cubrían rápidamente el cuerpo con capas de arena y barro.",
+      "captions": [
+        {
+          "label": "Mejillón en descomposición",
+          "text": "Tras morir un mejillón, las valvas se abren en posición de «mariposa» y la carne del animal es devorada por carroñeros o se pudre, dejando solo su dura concha."
+        }
+      ]
+    },
+    {
+      "id": "bone-to-stone",
+      "title": "Del hueso a la piedra",
+      "image": "assets/makf/MAKF02PU.webp",
+      "text": "Tras miles de años enterrado en el barro y la arena, la carne del Alosaurio hace mucho que se ha descompuesto. Solo queda el esqueleto. Pasan millones de años más y todos los dinosaurios han desaparecido. Un mar cubre ahora las tierras donde vivieron. La tumba fangosa y arenosa del Alosaurio se ha convertido en roca. Los minerales de la roca endurecen los huesos del animal, convirtiéndolos en fósiles.",
+      "captions": [
+        {
+          "label": "Mejillones fosilizados",
+          "text": "Estas conchas de mejillón han quedado incrustadas en la roca, cementadas por un producto químico natural que une el sedimento a los fósiles, lo que dificulta separarlos. El color de las conchas suele perderse durante la fosilización, adoptando el color de la roca en la que quedaron atrapadas."
+        }
+      ]
+    },
+    {
+      "id": "rising-to-the-surface",
+      "title": "Saliendo a la superficie",
+      "image": "assets/makf/MAKF03PU.webp",
+      "text": "Sesenta millones de años después, el mar ha desaparecido. Los movimientos en las profundidades de la corteza terrestre han empujado hacia arriba montañas y han inclinado el antiguo lecho del río. Siglos de viento y lluvia erosionan la roca, justo bajo cuya superficie yacen los huesos del Alosaurio. La meteorización termina por exponer partes del frágil esqueleto fosilizado.",
+      "captions": [
+        {
+          "label": "Desvelando el pasado",
+          "text": "Los científicos rastrean los fragmentos de hueso fósil expuestos adentrándose en la roca con cincel y brocha para retirar cuidadosamente la piedra. A medida que se descubre cada hueso, puede ser necesario pegar los trozos rotos. El polvo de roca se criba para encontrar fragmentos más pequeños de fósil."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What You Need to Find a Fossil",
+      "to": "find"
+    },
+    {
+      "label": "Tendaguru Expedition"
+    },
+    {
+      "label": "Extinction",
+      "to": "exti"
+    },
+    {
+      "label": "What is Paleontology?",
+      "to": "pale"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/makf/MAKF00AA.webp",
+        "hotspots": [
+          {
+            "label": "Del hueso a la piedra",
+            "to": "bone-to-stone",
+            "x": 5,
+            "y": 72,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Saliendo a la superficie",
+            "to": "rising-to-the-surface",
+            "x": 38,
+            "y": 82,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Lecho de muerte",
+            "to": "death-bed",
+            "x": 68,
+            "y": 72,
+            "w": 14,
+            "h": 5
+          }
+        ]
+      },
+      "death-bed": {
+        "image": "assets/makf/MAKF01PU.webp",
+        "back": "main"
+      },
+      "bone-to-stone": {
+        "image": "assets/makf/MAKF02PU.webp",
+        "back": "main"
+      },
+      "rising-to-the-surface": {
+        "image": "assets/makf/MAKF03PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/makf/MAKF00AP.mp3",
+  "narration": "assets/makf/MAKF00AJ.mp3",
+  "fanTranslation": true
+}

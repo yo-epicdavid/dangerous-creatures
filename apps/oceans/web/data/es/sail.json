@@ -1,0 +1,221 @@
+{
+  "id": "sail",
+  "code": "SAIL",
+  "name": "Los barcos de vela",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "De las balsas prehistóricas a los yates de alta tecnología, ¡el ser humano siempre ha soñado con surcar los mares!",
+  "zones": [
+    "Mar abierto",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/sail/SAIL00AA.webp",
+    "alt": "Los barcos de vela"
+  },
+  "intro": "El primer barco, inventado en la prehistoria, fue probablemente un simple cesto. Después vino el tronco. Luego un tronco hueco. Después varios troncos atados. En algún punto del proceso, el ser humano comenzó a remar con la mano o con un palo, dando origen al remo. Poco tiempo después, el ser humano inventó la vela por accidente, al buscar cobijo tras una capa o un trozo de piel. Los veleros fueron aumentando de tamaño y velocidad, volviéndose más complejos, desde el falucho, pasando por el barco de velas cuadradas, hasta llegar a los yates de competición modernos.",
+  "facts": [
+    {
+      "label": "Velocidad clíper",
+      "value": "Los clípers podían navegar a una velocidad de entre 18 y 20 nudos."
+    },
+    {
+      "label": "Velas",
+      "value": "Algunos clípers llevaban hasta 39 velas."
+    },
+    {
+      "label": "Primera regata",
+      "value": "La primera carrera de yates conocida tuvo lugar en 1661 entre Carlos II y el Duque de York."
+    },
+    {
+      "label": "Windsurf",
+      "value": "Los windsurfistas expertos llegan a alcanzar los 80 km por hora."
+    },
+    {
+      "label": "Falucho",
+      "value": "El falucho se utiliza en el océano Índico desde el siglo IX aproximadamente."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Los clípers atravesaban el tormentoso cabo de Hornos llevando a Europa lana de Australia y té de China."
+    }
+  ],
+  "topics": [
+    {
+      "id": "not-junk",
+      "title": "En buena forma",
+      "image": "assets/es/sail/SAIL01PU.webp",
+      "text": "Dos antiguos barcos han llegado hasta nuestros días sin perder su utilidad ni sus condiciones para navegar.",
+      "captions": [
+        {
+          "label": "Viento en popa",
+          "text": "Este modelo de junco es muy sofisticado. La vela, denominada vela al tercio, se tensa con una serie de tablillas de madera o listones. Puede colocarse plana para dirigir el barco casi en la misma dirección en la que sopla el viento: a esa posición se le llama «ceñirse al viento». Los juncos son muy frecuentes en China."
+        },
+        {
+          "label": "Siglos navegando",
+          "text": "El falucho es un barco árabe que se utiliza en el océano Índico desde el siglo IX aproximadamente. Este barco también puede navegar ciñéndose al viento, con su vela latina (triangular) aparejada a la entena (de proa a popa) y una quilla profunda."
+        }
+      ],
+      "narration": "assets/es/sail/SAIL01JN.mp3"
+    },
+    {
+      "id": "square-rigged-sails",
+      "title": "Los veleros aparejados en cuadro",
+      "image": "assets/es/sail/SAIL02PU.webp",
+      "text": "Los veleros aparejados en cuadro son bonitos, pero traicioneros. Muchos viajes de exploración se hacían en ese tipo de veleros. Pero navegan mejor con el viento de popa. Para la mayoría de los exploradores europeos fue más fácil llegar al Nuevo Mundo, al prevalecer los vientos de popa, que regresar, al tener que navegar contra el viento. Además, los veleros aparejados en cuadro son difíciles de maniobrar. Si un tripulante caía al agua, lo más probable era que fuese hombre muerto. ¡Era imposible volver para rescatarlo!",
+      "narration": "assets/es/sail/SAIL02JN.mp3",
+      "captions": [
+        {
+          "label": "El Kruzenstern",
+          "text": "buque ruso aparejado en cuadro"
+        }
+      ]
+    },
+    {
+      "id": "clippers",
+      "title": "Los clípers",
+      "image": "assets/es/sail/SAIL04PU.webp",
+      "text": "Los clípers del siglo XIX eran veloces buques de velas cruzadas.",
+      "captions": [
+        {
+          "label": "¡A los mástiles!",
+          "text": "Algunos clípers llevaban hasta 39 velas y podían navegar a una velocidad de entre 18 y 20 nudos. Si soplaba una galerna, los miembros de la tripulación trepaban a los mástiles para orientar las velas, y permanecían allí hasta que la tormenta cesaba."
+        },
+        {
+          "label": "Lana sobre las olas",
+          "text": "Los clípers atravesaban frecuentemente el tormentoso cabo de Hornos llevando a Europa lana procedente de Australia y té de China. Otros llevaban mercancía europea a Asia y Australia."
+        }
+      ],
+      "narration": "assets/es/sail/SAIL04JN.mp3"
+    },
+    {
+      "id": "racing-yachts",
+      "title": "Los yates de carreras",
+      "image": "assets/es/sail/SAIL05PU.webp",
+      "text": "La primera carrera de yates que se conoce tuvo lugar en 1661 entre Carlos II y el Duque de York, en unos barcos con aspecto de barcaza. Los actuales yates son máquinas de esmerado diseño y alta tecnología, construidos con fibra de vidrio, resina, fibra de carbono y titanio. El diseño es esencial para que sean veloces, ligeros y fáciles de manejar. ¡Los yates que compiten por la Copa de América cuestan millones de dólares! Muchos de los actuales barcos de recreo son de madera, pero construir un buen yate de competición requiere materiales de la era espacial.",
+      "narration": "assets/es/sail/SAIL05JN.mp3",
+      "captions": [
+        {
+          "label": "Velero Breeze",
+          "text": "en el puerto de Auckland, Nueva Zelanda"
+        }
+      ]
+    },
+    {
+      "id": "windsurfing",
+      "title": "El windsurf",
+      "image": "assets/es/sail/SAIL06PU.webp",
+      "text": "La tabla de windsurf es la versión más reciente de las antiguas balsas, pero, ¡es un mundo aparte! Los windsurfistas salen al mar en días borrascosos, cuando los otros navegantes se quedan en casa. Se necesitan buenos músculos para sujetar la vela cuando el viento arrecia. Es un deporte divertido, pero para practicarlo es necesario ser un excelente nadador y conocer muy bien el mar. Los windsurfistas expertos llegan a alcanzar los 80 km por hora.",
+      "narration": "assets/es/sail/SAIL06JN.mp3"
+    }
+  ],
+  "crosslinks": [],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/sail/SAIL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 2,
+            "w": 9,
+            "h": 7
+          },
+          {
+            "label": "En buena forma",
+            "to": "not-junk",
+            "x": 37,
+            "y": 41,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "El windsurf",
+            "to": "windsurfing",
+            "x": 59,
+            "y": 22,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Los clípers",
+            "to": "clippers",
+            "x": 74,
+            "y": 53,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "Los yates de carreras",
+            "to": "racing-yachts",
+            "x": 72,
+            "y": 64,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Los veleros aparejados en cuadro",
+            "to": "square-rigged-sails",
+            "x": 3,
+            "y": 81,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Todos a cubierta",
+            "to": "video",
+            "x": 3,
+            "y": 88,
+            "w": 23,
+            "h": 5
+          }
+        ]
+      },
+      "not-junk": {
+        "image": "assets/es/sail/SAIL01PU.webp",
+        "back": "main"
+      },
+      "square-rigged-sails": {
+        "image": "assets/es/sail/SAIL02PU.webp",
+        "back": "main"
+      },
+      "clippers": {
+        "image": "assets/es/sail/SAIL04PU.webp",
+        "back": "main"
+      },
+      "racing-yachts": {
+        "image": "assets/es/sail/SAIL05PU.webp",
+        "back": "main"
+      },
+      "windsurfing": {
+        "image": "assets/es/sail/SAIL06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/sail/clip.mp4",
+        "poster": "assets/es/sail/SAIL03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/sail/SAIL00JN.mp3",
+  "sound": "assets/es/sail/SAIL00IX.mp3",
+  "video": {
+    "title": "Todos a cubierta",
+    "src": "assets/es/sail/clip.mp4",
+    "poster": "assets/es/sail/poster.webp",
+    "caption": "Hoy en día, en muchos países hay barcos de adiestramiento parecidos a los antiguos barcos de velas cruzadas, tanto en aspecto como en manejo. Para ser alumno en esos barcos, hay que tener buenos músculos y controlar el vértigo. Se necesitan muchas manos y mucho trabajo para manejar todas esas velas.",
+    "narration": "assets/es/sail/SAIL03JN.mp3"
+  }
+}

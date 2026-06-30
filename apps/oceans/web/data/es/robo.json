@@ -1,0 +1,277 @@
+{
+  "id": "robo",
+  "code": "ROBO",
+  "name": "Submarinos y robots",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Adéntrate en las profundidades con las máquinas más audaces del océano!",
+  "zones": [
+    "Mar profundo",
+    "Mar abierto"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/robo/ROBO00AA.webp",
+    "alt": "Submarinos y robots"
+  },
+  "intro": "¿Te imaginas estar bajo la superficie del mar, en un mundo oscuro y frío, soportando tremendas presiones? Se han diseñado vehículos para vencer esos duros elementos, permitiendo a los seres humanos descubrir las desconocidas maravillas de las profundidades. Hoy en día es posible observar la vida de los abismos marinos, acercarse a los volcanes y saber cómo se producen los maremotos. Los submarinos, batiscafos y vehículos de control remoto exploran el espacio marino y son la cumbre de una nueva era de exploración.",
+  "facts": [
+    {
+      "label": "Récord de inmersión",
+      "value": "El Trieste descendió a 10.912 m en la Fosa de las Marianas en 1960."
+    },
+    {
+      "label": "ROV más profundo",
+      "value": "El ROV japonés Kaiko desciende a 11.000 m de profundidad, el récord de estos aparatos."
+    },
+    {
+      "label": "Bajo el agua",
+      "value": "Los submarinos militares pueden permanecer hasta 111 días sumergidos."
+    },
+    {
+      "label": "Batisfera",
+      "value": "William Beebe y Otis Barton descendieron a 904 m en una esfera de acero suspendida de un barco en 1943."
+    },
+    {
+      "label": "Nautile",
+      "value": "El batiscafo francés Nautile puede sumergirse a 6.000 m de profundidad y visitó los restos del Titanic."
+    },
+    {
+      "label": "Habitat marino",
+      "value": "Cinco hombres trabajaron en el fondo del mar durante un mes en el Conshelf II, en el Mar Rojo en 1963."
+    }
+  ],
+  "topics": [
+    {
+      "id": "spheres-and-scaphs",
+      "title": "Esferas y escafos",
+      "image": "assets/es/robo/ROBO01PU.webp",
+      "text": "Ha habido numerosos intentos de explorar el mundo submarino desde Alejandro Magno y su campana de vidrio sumergible hasta nuestros días. Pero esos esfuerzos no han dado su verdadero fruto hasta el siglo veinte. La inmersión más profunda: Auguste Piccard diseñó el batiscafo, cuyo nombre deriva de los términos griegos «profundo» y «barco», en los años 40. Podía descender y ascender utilizando lastre, como un globo de aire caliente. El Trieste, de Estados Unidos, descendió a la Fosa de las Marianas, la parte más profunda del océano Pacífico, en 1960. Tiene el récord de inmersión, 10.912 m. Los batiscafos antiguos se han reemplazado por otros más modernos, llamados sumergibles, más fáciles de manejar. En una burbuja: William Beebe y Otis Barton descendieron a 904 m en su batisfera, una esfera protectora de acero suspendida de un barco por medio de un cable, en 1943.",
+      "narration": "assets/es/robo/ROBO01JN.mp3"
+    },
+    {
+      "id": "submersibles",
+      "title": "Los batiscafos",
+      "image": "assets/es/robo/ROBO02PU.webp",
+      "text": "El batiscafo debe ser transportado al lugar de inmersión por un buque nodriza y está diseñado para permanecer en el agua alrededor de ocho horas. El famoso Alvin: Este barco, botado en los años 60, quizá sea el batiscafo más famoso del mundo. Ha realizado numerosos viajes a las dorsales centro oceánicas y a los emplazamientos de chimeneas. Un vistazo al pasado: El batiscafo francés Nautile visitó los restos del Titanic. Puede sumergirse a 6.000 m de profundidad.",
+      "captions": [
+        {
+          "label": "Explorador E15",
+          "text": "Explorador E15 Nautile (Francia)"
+        },
+        {
+          "label": "Alvin",
+          "text": "Alvin (Estados Unidos)"
+        }
+      ],
+      "narration": "assets/es/robo/ROBO02JN.mp3"
+    },
+    {
+      "id": "robots-on-leashes",
+      "title": "Robots colgantes",
+      "image": "assets/es/robo/ROBO03PU.webp",
+      "text": "Los ROV (Vehículos por Control Remoto), son pequeños robots sin tripulantes unidos a la superficie de un barco con un cable de fibra óptica que permite controlarlos a distancia. Estas máquinas son los animales de carga de la investigación submarina: recogen muestras, toman fotografías y devuelven imágenes televisivas. Una vez en el agua, pueden permanecer sumergidos las 24 horas del día durante meses. El ROV japonés Kaiko desciende a 11.000 m de profundidad, estableciendo el récord de estos aparatos. El Jason Jr., propiedad del Woods Hole Oceanographic Institute de Estados Unidos, quizá sea el más conocido, por haber explorado el Titanic.",
+      "captions": [
+        {
+          "label": "Jason Jr.",
+          "text": "El Jason Jr. explora los restos del Titanic"
+        }
+      ],
+      "narration": "assets/es/robo/ROBO03JN.mp3"
+    },
+    {
+      "id": "military-submarines",
+      "title": "Los submarinos militares",
+      "image": "assets/es/robo/ROBO04PU.webp",
+      "text": "Los submarinos creados para la guerra pueden transportar a las profundidades a un gran número de pasajeros. También pueden permanecer largo tiempo bajo el agua: ¡el récord es de 111 días! Baterías de larga duración: Los submarinos de diesel tienen que subir a la superficie para recargar las baterías y reponer los sistemas de supervivencia. Los de energía nuclear no requieren oxígeno para las turbinas de vapor y pueden recorrer grandes distancias sin subir a la superficie. Más fácil de lo que piensas: Para la inmersión, se abren unas válvulas, para que el agua llene los tanques de lastre. Unas prolongaciones en forma de aleta controlan el ángulo de inmersión. Para ascender, un compresor introduce aire y expulsa el agua.",
+      "captions": [
+        {
+          "label": "Tridente",
+          "text": "Submarino nuclear Tridente, Canal Hood, Washington."
+        }
+      ],
+      "narration": "assets/es/robo/ROBO04JN.mp3"
+    },
+    {
+      "id": "underwater-motels",
+      "title": "Hoteles submarinos",
+      "image": "assets/es/robo/ROBO05PU.webp",
+      "text": "Ingeniosos diseños facilitan la adaptación del ser humano a la vida en el mar. ¿Un barco naufragando?: Este extraño barco, llamado FLIP (Plataforma Instrumental Flotante), fue diseñado para realizar pruebas acústicas en mar abierto. Los laboratorios y el espacio habitable están sobre la superficie, mientras la popa, sumergida, es la sede de los experimentos. Naves submarinas: Jacques Cousteau usó el Conshelf II para realizar estudios submarinos en el Mar Rojo en 1963. Cinco hombres trabajaron en el fondo del mar durante un mes. Estos hábitats submarinos se harán habituales como laboratorios de investigación para los científicos.",
+      "captions": [
+        {
+          "label": "Conshelf II",
+          "text": "Conshelf II (Francia)"
+        },
+        {
+          "label": "FLIP",
+          "text": "FLIP (Estados Unidos)"
+        }
+      ],
+      "narration": "assets/es/robo/ROBO05JN.mp3"
+    },
+    {
+      "id": "tour-boats",
+      "title": "Barcos de excursión",
+      "image": "assets/es/robo/ROBO06PU.webp",
+      "text": "Los submarinos han dejado de servir exclusivamente para científicos y personal militar. Algunos establecimientos costeros ofrecen excursiones submarinas como atracción turística. ¡Es estupendo que personas de todas las edades y condiciones físicas puedan explorar el fondo marino!",
+      "narration": "assets/es/robo/ROBO06JN.mp3",
+      "captions": [
+        {
+          "label": "Atlantis",
+          "text": "Submarino de pasajeros Atlantis, Gran Caimán, el Caribe"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "¿Qué es la oceanografía?",
+      "to": "ocea"
+    },
+    {
+      "label": "Timeline of Evolution"
+    },
+    {
+      "label": "Los barcos propulsados",
+      "to": "powe"
+    },
+    {
+      "label": "El fondo marino",
+      "to": "oflr"
+    },
+    {
+      "label": "El océano Atlántico",
+      "to": "atla"
+    },
+    {
+      "label": "El futuro de los océanos",
+      "to": "futu"
+    },
+    {
+      "label": "Dolphins & Porpoises"
+    },
+    {
+      "label": "La serpiente marina",
+      "to": "snak"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/robo/ROBO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 1,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "Esferas y escafos",
+            "to": "spheres-and-scaphs",
+            "x": 54,
+            "y": 2,
+            "w": 27,
+            "h": 6
+          },
+          {
+            "label": "Robots colgantes",
+            "to": "robots-on-leashes",
+            "x": 29,
+            "y": 29,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Hoteles submarinos",
+            "to": "underwater-motels",
+            "x": 58,
+            "y": 18,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Los submarinos militares",
+            "to": "military-submarines",
+            "x": 57,
+            "y": 27,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Trabajo estimulante",
+            "to": "video",
+            "x": 57,
+            "y": 64,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "Los batiscafos",
+            "to": "submersibles",
+            "x": 46,
+            "y": 80,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Barcos de excursión",
+            "to": "tour-boats",
+            "x": 19,
+            "y": 87,
+            "w": 15,
+            "h": 5
+          }
+        ]
+      },
+      "spheres-and-scaphs": {
+        "image": "assets/es/robo/ROBO01PU.webp",
+        "back": "main"
+      },
+      "submersibles": {
+        "image": "assets/es/robo/ROBO02PU.webp",
+        "back": "main"
+      },
+      "robots-on-leashes": {
+        "image": "assets/es/robo/ROBO03PU.webp",
+        "back": "main"
+      },
+      "military-submarines": {
+        "image": "assets/es/robo/ROBO04PU.webp",
+        "back": "main"
+      },
+      "underwater-motels": {
+        "image": "assets/es/robo/ROBO05PU.webp",
+        "back": "main"
+      },
+      "tour-boats": {
+        "image": "assets/es/robo/ROBO06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/robo/clip.mp4",
+        "poster": "assets/es/robo/ROBO07PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/robo/ROBO00JN.mp3",
+  "sound": "assets/es/robo/ROBO00IX.mp3",
+  "video": {
+    "title": "Trabajo estimulante",
+    "src": "assets/es/robo/clip.mp4",
+    "poster": "assets/es/robo/poster.webp",
+    "caption": "Shinkai 6500 (Japón), diseñado para sumergirse a 6.500 m",
+    "narration": "assets/es/robo/ROBO07JN.mp3"
+  }
+}

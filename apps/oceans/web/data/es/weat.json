@@ -1,0 +1,272 @@
+{
+  "id": "weat",
+  "code": "WEAT",
+  "name": "La máquina climática",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡El océano es el motor que mueve el clima de todo el planeta!",
+  "zones": [
+    "Mar abierto",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/weat/WEAT00AA.webp",
+    "alt": "La máquina climática"
+  },
+  "intro": "Nuestro planeta es una gran máquina climática en la que el océano juega el papel primordial. El agua se mueve constantemente entre el océano y la atmósfera, empujada por el almacenamiento y emisión que hace el océano de la energía calorífica captada del sol. Las corrientes desplazan el calor desde los trópicos hasta los polos, lo que explica que las diferencias de temperatura sean menores en el mar que en la tierra. Al mismo tiempo, los océanos transfieren calor a la atmósfera, lo que modera el clima en las áreas costeras. Estos procesos son complejos y entrelazados y están determinados por los vientos: las diferencias de temperatura entre la tierra y el mar influyen en la dirección del viento; y la velocidad y dirección del viento afectan a las corrientes. ¡Si los océanos sufren cambios importantes, puede alterarse el sistema meteorológico de todo el planeta!",
+  "facts": [
+    {
+      "label": "Altura máxima",
+      "value": "El agua de una tromba marina puede elevarse hasta 100 m de altura."
+    },
+    {
+      "label": "Velocidad",
+      "value": "Una tromba marina puede girar a una velocidad de hasta 80 km por hora."
+    },
+    {
+      "label": "Duración",
+      "value": "Las trombas marinas no suelen durar más de 15 minutos."
+    },
+    {
+      "label": "El Niño",
+      "value": "La catástrofe meteorológica llamada El Niño tiene lugar en un periodo comprendido entre 2 y 10 años."
+    },
+    {
+      "label": "Tormentas tropicales",
+      "value": "Las tormentas tropicales reciben el nombre de huracanes, ciclones o tifones, dependiendo de la zona en que se produzcan."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "La mayor parte de los datos sobre el Triángulo de las Bermudas resultaron erróneos o simplemente inventados; las desapariciones se atribuyen a tormentas, huracanes y errores humanos."
+    }
+  ],
+  "topics": [
+    {
+      "id": "waterspout",
+      "title": "La tromba marina",
+      "image": "assets/es/weat/WEAT01PU.webp",
+      "text": "Si ves algo parecido a un tornado en el mar, es una tromba marina.\n\nMantente a distancia\nLas trombas marinas se forman con gran rapidez y no suelen durar más de 15 minutos. Pero son peligrosas, especialmente cuando pierden fuerza y toda esa masa de agua en suspensión se precipita.\n\nLos remolinos tropicales\nLas trombas marinas se producen en días calurosos y húmedos, cuando el aire frío de los nubarrones choca con el aire templado que asciende desde el océano. De la base de la nube, desciende un remolino de aire, en forma de embudo, que al entrar en contacto con el mar aspira una columna de agua. A medida que el viento desplaza la nube, la tromba marina se arrastra tras ella. El agua puede elevarse hasta 100 m de altura y girar a una velocidad de hasta 80 km por hora.",
+      "narration": "assets/es/weat/WEAT01JN.mp3",
+      "captions": [
+        {
+          "label": "Tromba marina, golfo de México",
+          "text": "Tromba marina, golfo de México"
+        }
+      ]
+    },
+    {
+      "id": "messages-from-the-clouds",
+      "title": "Los mensajes de las nubes",
+      "image": "assets/es/weat/WEAT02PU.webp",
+      "text": "Las nubes pueden decirte lo que está ocurriendo en la atmósfera y qué tiempo va a hacer. Una vez que aprendas a leerlas, serás capaz de predecir si el tiempo va a seguir soleado o si debes asegurar las escotillas con tablas antes de que estalle la tormenta.",
+      "captions": [
+        {
+          "label": "Cúmulo-nimbos",
+          "text": "Estos elevados cúmulos de nubes con negros bordes inferiores suelen provocar fuertes lluvias."
+        },
+        {
+          "label": "Estratocúmulos",
+          "text": "Estas nubes pueden indicar que se aproximan lluvias, aunque probablemente no se precipiten hasta el día siguiente."
+        },
+        {
+          "label": "Cirroestratos",
+          "text": "Las altas capas de cirros se elevan sobre los estratos e hinchados cúmulos de nubes. Estos frentes nubosos pueden indicar que se acerca una tormenta."
+        }
+      ],
+      "narration": "assets/es/weat/WEAT02JN.mp3"
+    },
+    {
+      "id": "el-nino",
+      "title": "El Niño",
+      "image": "assets/es/weat/WEAT03PU.webp",
+      "text": "La catástrofe meteorológica llamada El Niño tiene lugar en un periodo comprendido entre 2 y 10 años.\n\nEl modelo normal\nLos vientos soplan en dirección oeste desde América del Sur, haciendo que las frías aguas, ricas en nutrientes, se eleven a la superficie frente a las costas de Perú y Ecuador. Estos vientos provocan el ascenso y acumulación de las cálidas aguas del Pacífico Oeste, aumentando la humedad y provocando monzones en las costas cercanas.\n\nEl modelo de El Niño\nLa presión del aire se eleva en el Pacífico occidental, bajando la superficie del océano, mientras bajas presiones, al este, elevan el nivel del mar. Las cálidas aguas del oeste se desplazan hacia el este, suprimiendo las frías aguas ricas en nutrientes que flotaban junto a la costa oeste de América Central y del Sur. El fitoplancton muere, lo que afecta a la cadena trófica marina. Los vientos alisios se debilitan o se invierten, produciendo lluvias torrenciales en Perú, Ecuador y California, y chubascos en Indonesia, India, norte de Australia y sur de África.",
+      "narration": "assets/es/weat/WEAT03JN.mp3"
+    },
+    {
+      "id": "using-the-wind",
+      "title": "Los usos del viento",
+      "image": "assets/es/weat/WEAT04PU.webp",
+      "text": "Diferentes cinturones de viento desplazan el aire frío y caliente a distintas zonas de la costa.\n\nCombustible gratis\nLos navegantes experimentados saben cómo aprovechar la energía del viento.\n\nLos nombres de los vientos\nEn la zona ecuatorial de calmas, de viento escaso o nulo, situada junto al ecuador, los barcos solían encallar a menudo. Los vientos alisios soplan al norte y al sur de ésta. Con sus fuertes y constantes vientos han contado los navegantes durante siglos. La zona tropical de calmas son soleados cinturones de escaso o ningún viento. En inglés se llama \"la latitud del caballo\", quizás por las historias de caballos arrojados por la borda desde los buques españoles encalmados en el mar de los Sargazos. En otras zonas los vientos soplan desde occidente. Los vientos polares del este son fríos y variables y empujan el aire desde los polos hacia las latitudes medias.",
+      "narration": "assets/es/weat/WEAT04JN.mp3"
+    },
+    {
+      "id": "coastal-weather",
+      "title": "El clima de la costa",
+      "image": "assets/es/weat/WEAT05PU.webp",
+      "text": "La diferencia de temperatura entre el océano y la tierra puede producir brumas o vientos.\n\nFresco y ventoso\nLa tierra se calienta más deprisa que el mar durante el día. El aire caliente de la corteza terrestre se eleva, arrastrando con su movimiento el aire frío del mar y produciendo una brisa marina que sopla hacia la tierra. Durante la noche, la tierra se enfría a mayor velocidad. El aire de la tierra, más fresco, eleva el aire caliente del océano, creando una brisa hacia el mar.\n\nLuces en la niebla\nLa mayoría de las nieblas se produce cuando un frente de aire templado y húmedo se desplaza sobre aguas más frías. La niebla reduce la visibilidad, dificultando la navegación. Los faros se han creado para señalar a los barcos la situación de la costa durante la noche o en caso de niebla. Hoy en día, la mayor parte de los faros son automáticos.",
+      "narration": "assets/es/weat/WEAT05JN.mp3",
+      "captions": [
+        {
+          "label": "Faro, Ilwaco, Washington",
+          "text": "Faro, Ilwaco, Washington"
+        }
+      ]
+    },
+    {
+      "id": "the-bermuda-triangle",
+      "title": "El Triángulo de las Bermudas",
+      "image": "assets/es/weat/WEAT06PU.webp",
+      "text": "El Triángulo de las Bermudas es un área al oeste del océano Atlántico limitada por imaginarias líneas que conectan las Bermudas, Florida y Puerto Rico. En la década de los 50 empezaron a circular rumores según los cuales la desaparición de barcos y aviones en esa zona se debía a OVNIs, anomalías magnéticas y gravitatorias, agujeros negros y hasta mortales rayos lanzados desde el continente sumergido de la Atlántida. Sin embargo, la mayor parte de los datos en los que se basaban estas teorías resultaron erróneos o simplemente inventados. Se piensa que las desapariciones se han debido a tormentas, huracanes y errores humanos y el número de las mismas no es tan raro para una franja tan extensa y concurrida del océano.",
+      "narration": "assets/es/weat/WEAT06JN.mp3",
+      "captions": [
+        {
+          "label": "Bombarderos perdidos en el Triángulo de las Bermudas",
+          "text": "Bombarderos perdidos en el Triángulo de las Bermudas"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "El fondo marino",
+      "to": "oflr"
+    },
+    {
+      "label": "Tough Choices"
+    },
+    {
+      "label": "La pesca y la caza de ballenas",
+      "to": "fish"
+    },
+    {
+      "label": "Las corrientes",
+      "to": "curr"
+    },
+    {
+      "label": "Los barcos de vela",
+      "to": "sail"
+    },
+    {
+      "label": "El océano Antártico",
+      "to": "anta"
+    },
+    {
+      "label": "Mitos y leyendas",
+      "to": "myth"
+    },
+    {
+      "label": "La nutria marina",
+      "to": "ottr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/weat/WEAT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 5,
+            "w": 7,
+            "h": 6
+          },
+          {
+            "label": "La tromba marina",
+            "to": "waterspout",
+            "x": 2,
+            "y": 55,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "El Triángulo de las Bermudas",
+            "to": "the-bermuda-triangle",
+            "x": 57,
+            "y": 51,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Catástrofes marinas",
+            "to": "video",
+            "x": 62,
+            "y": 66,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "El Niño",
+            "to": "el-nino",
+            "x": 43,
+            "y": 67,
+            "w": 11,
+            "h": 5
+          },
+          {
+            "label": "El clima de la costa",
+            "to": "coastal-weather",
+            "x": 62,
+            "y": 75,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Los mensajes de las nubes",
+            "to": "messages-from-the-clouds",
+            "x": 2,
+            "y": 85,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "Los usos del viento",
+            "to": "using-the-wind",
+            "x": 41,
+            "y": 85,
+            "w": 18,
+            "h": 5
+          }
+        ]
+      },
+      "waterspout": {
+        "image": "assets/es/weat/WEAT01PU.webp",
+        "back": "main"
+      },
+      "messages-from-the-clouds": {
+        "image": "assets/es/weat/WEAT02PU.webp",
+        "back": "main"
+      },
+      "el-nino": {
+        "image": "assets/es/weat/WEAT03PU.webp",
+        "back": "main"
+      },
+      "using-the-wind": {
+        "image": "assets/es/weat/WEAT04PU.webp",
+        "back": "main"
+      },
+      "coastal-weather": {
+        "image": "assets/es/weat/WEAT05PU.webp",
+        "back": "main"
+      },
+      "the-bermuda-triangle": {
+        "image": "assets/es/weat/WEAT06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/weat/clip.mp4",
+        "poster": "assets/es/weat/WEAT07PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/weat/WEAT00JN.mp3",
+  "sound": "assets/es/weat/WEAT00IX.mp3",
+  "video": {
+    "title": "Catástrofes marinas",
+    "src": "assets/es/weat/clip.mp4",
+    "poster": "assets/es/weat/poster.webp",
+    "caption": "Las tormentas tropicales reciben el nombre de huracanes, ciclones o tifones, dependiendo de la zona en que se produzcan. Estas inmensas tormentas circulares se originan en los mares tropicales y después se mueven en dirección oeste con los vientos alisios. Originan fuertes vientos, abundantes lluvias y mareas altas en zonas costeras bajas, provocando grandes catástrofes, especialmente alrededor del mar Caribe, Madagascar, sur de Asia y la costa oriental de Australia. La subida de temperaturas en el planeta podría aumentar este tipo de tormentas.",
+    "narration": "assets/es/weat/WEAT07JN.mp3"
+  }
+}

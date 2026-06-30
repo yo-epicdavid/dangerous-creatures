@@ -1,0 +1,62 @@
+---
+import Layout from '../layouts/Layout.astro';
+import CreatureCard from './CreatureCard.astro';
+import { readJSON, lp } from '../lib/data.js';
+import { t } from '../i18n/ui.js';
+
+const { locale = 'en' } = Astro.props;
+const ui = t(locale);
+const list = readJSON('index.json', locale);
+const es = locale === 'es';
+---
+<Layout title={ui.siteTitleHome} desc={ui.siteTagline} lang={locale} bilingual={true}>
+  <main id="main-content" class="wrap" tabindex="-1">
+    <div class="cover">
+      <div class="langswitch langswitch--cover" role="group" aria-label="Language · Idioma">
+        <a class:list={['lang', !es && 'is-active']} href="/" hreflang="en" lang="en" aria-current={!es ? 'true' : undefined}>English</a>
+        <a class:list={['lang', es && 'is-active']} href="/es/" hreflang="es" lang="es" aria-current={es ? 'true' : undefined}>Español</a>
+      </div>
+      <h1><b>Dangerous</b><br />Creatures</h1>
+      <p>{ui.siteTagline}</p>
+      <nav class="explore-nav" aria-label="Browse the creatures">
+        <a class="btn" href={lp(locale, '/browse?tab=regions')}><span class="arrow" aria-hidden="true">🌍</span> {ui.byRegion}</a>
+        <a class="btn" href={lp(locale, '/browse?tab=habitats')}><span class="arrow" aria-hidden="true">🌿</span> {ui.byHabitat}</a>
+        <a class="btn" href={lp(locale, '/browse?tab=weapons')}><span class="arrow" aria-hidden="true">⚔️</span> {ui.byWeapon}</a>
+        <a class="btn btn--play" href={lp(locale, '/guides')}><span class="arrow" aria-hidden="true">🧭</span> {ui.guidedTours}</a>
+        <a class="btn btn--play" href={lp(locale, '/games')}><span class="arrow" aria-hidden="true">🎮</span> {ui.games}</a>
+      </nav>
+    </div>
+
+    <div class="grid">
+      {list.map((c) => <CreatureCard id={c.id} name={c.name} thumb={c.thumb} locale={locale} />)}
+    </div>
+
+    <footer class="sitefoot">
+      <p class="siblings">{ui.moreWorlds}:
+        <a href="https://oceans-2s9.pages.dev"><span aria-hidden="true">🌊</span> Oceans</a> ·
+        <a href="https://dinosaurs.pages.dev"><span aria-hidden="true">🦕</span> Dinosaurs</a>
+      </p>
+      <p class="links">
+        <a href={lp(locale, '/making-of')}><span aria-hidden="true">✦</span> {ui.makingOf}</a> &nbsp;·&nbsp;
+        <a href="/credits">{ui.creditsLong}</a>
+      </p>
+      <p class="notice">
+        <Fragment set:html={ui.homeNotice} /> <a href="/credits">{ui.seeCredits}</a>.
+      </p>
+    </footer>
+  </main>
+</Layout>
+
+<style>
+  .cover { text-align: center; padding: 22px 20px 22px; }
+  .langswitch--cover { display: inline-flex; gap: 2px; margin: 0 auto 26px; }
+  .cover h1 { font-family: var(--font-display); font-size: clamp(44px, 8.5vw, 92px); margin: 0; line-height: .95; font-weight: 700; }
+  .cover h1 b { color: var(--rust); }
+  .cover p { color: var(--ink-soft); font-size: 20px; max-width: 620px; margin: 14px auto 18px; }
+  .grid { margin: 14px 0 60px; }
+  .sitefoot { text-align: center; padding: 6px 20px 70px; color: var(--ink-soft); }
+  .sitefoot .links { margin: 0 0 12px; font-size: 16px; }
+  .sitefoot .links a { color: var(--gold); }
+  .sitefoot .notice { margin: 0 auto; font-size: 13px; max-width: 660px; line-height: 1.5; }
+  .sitefoot .notice a { color: var(--ink-soft); text-decoration: underline; }
+</style>

@@ -1,0 +1,181 @@
+{
+  "id": "octo",
+  "code": "OCTO",
+  "name": "El pulpo",
+  "category": "creature",
+  "scientificName": "Octopus vulgaris",
+  "needsScientificVerify": false,
+  "tagline": "¡Ocho brazos, un veneno mortal y el cerebro más listo del océano!",
+  "zones": [
+    "Arrecife de coral",
+    "Costa y charcas de marea",
+    "Mar abierto"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/octo/OCTO00AA.webp",
+    "alt": "El pulpo"
+  },
+  "intro": "El pulpo es un voraz depredador. Agarra la presa con sus ocho largos tentáculos, cuyas hileras de ventosas hacen prácticamente imposible escapar de su abrazo. Tras capturar a su presa, generalmente un crustáceo, el pulpo muerde a la víctima e introduce en la herida veneno paralizante y una enzima digestiva. Finalmente absorbe la carne del crustáceo y se deshace del caparazón vacío.",
+  "facts": [
+    {
+      "label": "Tentáculos",
+      "value": "Ocho largos tentáculos con hileras de ventosas"
+    },
+    {
+      "label": "Tamaño",
+      "value": "Los pulpos gigantes del Pacífico llegan a medir hasta más de 9 m de ancho"
+    },
+    {
+      "label": "Huevos",
+      "value": "La hembra pone hasta 150.000 huevos"
+    },
+    {
+      "label": "Incubación",
+      "value": "Entre cuatro y seis semanas hasta el nacimiento de los pequeños"
+    },
+    {
+      "label": "Veneno",
+      "value": "Introduce veneno paralizante y una enzima digestiva en la herida de su presa"
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Puede cambiar el color y la textura de su piel para camuflarse e imitar el entorno"
+    }
+  ],
+  "topics": [
+    {
+      "id": "blue-poison",
+      "title": "Veneno azul",
+      "image": "assets/es/octo/OCTO02PU.webp",
+      "text": "Quizá pienses que el azul no es un color agresivo, ¡pero en la fauna marina es señal de peligro! El pulpo de anillos azules y la pastinaca de manchas del mismo color, se cuentan entre las especies más venenosas. ¡Cuidado con los animales azules!\n\nPeligrosos aguijones\nSi la pisan o agarran, esta pastinaca de manchas azules puede clavar su afilada cola en las extremidades de un ser humano e inyectarle un fuerte veneno que provoca dolor, estado de coma y hasta la muerte.\n\nMordisco azul\nCuando el pulpo de anillos azules muerde, causa profundas heridas con su picadura y segrega un veneno que paraliza o mata a su presa. Ese veneno puede resultar mortal para un ser humano en cuestión de minutos. ¡Quizá sea una buena idea que el pulpo se vuelva azul cuando se enoja y que su sangre sea de ese color en lugar de roja!!",
+      "captions": [
+        {
+          "label": "Pulpo de anillos azules",
+          "text": "Hapalochlaena lunulatus"
+        },
+        {
+          "label": "Pastinaca de manchas azules",
+          "text": "Dasyatis kuhlii"
+        }
+      ],
+      "narration": "assets/es/octo/OCTO02JN.mp3"
+    },
+    {
+      "id": "of-arms-and-eggs",
+      "title": "Los tentáculos y los huevos",
+      "image": "assets/es/octo/OCTO03PU.webp",
+      "text": "La anatomía del pulpo\nAunque el pulpo está completamente sordo y no oye el parloteo de sus compañeros, tiene una vista excepcionalmente aguda. De hecho, entre todos los invertebrados, su gran cerebro es el más parecido al del ser humano.\n\nCuando los pulpos se aparean, el macho utiliza un tentáculo especial para depositar un saco de esperma. La hembra pone hasta 150.000 huevos. Como no se alimenta hasta el nacimiento de sus pequeños, entre cuatro y seis semanas más tarde, ¡literalmente los protege con su vida! La hembra del pulpo muere de hambre a menudo.",
+      "narration": "assets/es/octo/OCTO03JN.mp3"
+    },
+    {
+      "id": "octo-tricks",
+      "title": "Trucos de pulpo",
+      "image": "assets/es/octo/OCTO04PU.webp",
+      "text": "Aunque parezca increíble, ¡los pulpos son estudiantes superdotados! En el laboratorio, son capaces de encontrar la salida de un laberinto, abrir recipientes, distinguir formas y hasta aprender trucos observando a sus compañeros. Su respuesta a otras situaciones es igualmente compleja: acuden a alimentarse, escapan si sienten miedo, arrojan tinta cuando se irritan y hasta salen trepando del acuario si alguien se aproxima. Aún queda mucho por descubrir sobre estos extraños seres, ¡que podrían convertirse en los eruditos de los mares!",
+      "narration": "assets/es/octo/OCTO04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Submarinismo",
+      "to": "divi"
+    },
+    {
+      "label": "Cocodrilos de agua salada",
+      "to": "croc"
+    },
+    {
+      "label": "Water Babies"
+    },
+    {
+      "label": "Asombrosos poderes",
+      "to": "powr"
+    },
+    {
+      "label": "How Big Does it Get?"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/octo/OCTO00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 9,
+            "h": 7
+          },
+          {
+            "label": "Trucos de pulpo",
+            "to": "octo-tricks",
+            "x": 57,
+            "y": 17,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Un cazador nocturno",
+            "to": "video",
+            "x": 26,
+            "y": 58,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Los tentáculos y los huevos",
+            "to": "of-arms-and-eggs",
+            "x": 36,
+            "y": 85,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "Veneno azul",
+            "to": "blue-poison",
+            "x": 64,
+            "y": 77,
+            "w": 17,
+            "h": 5
+          }
+        ]
+      },
+      "blue-poison": {
+        "image": "assets/es/octo/OCTO02PU.webp",
+        "back": "main"
+      },
+      "of-arms-and-eggs": {
+        "image": "assets/es/octo/OCTO03PU.webp",
+        "back": "main"
+      },
+      "octo-tricks": {
+        "image": "assets/es/octo/OCTO04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/octo/clip.mp4",
+        "poster": "assets/es/octo/OCTO01PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/octo/OCTO00JN.mp3",
+  "sound": "assets/es/octo/OCTO00IX.mp3",
+  "video": {
+    "title": "Un cazador nocturno",
+    "src": "assets/es/octo/clip.mp4",
+    "poster": "assets/es/octo/poster.webp",
+    "caption": "Un pulpo gigante del Pacífico (Octopus dofleini) nada junto a un buceador, mostrando su maestría para camuflarse, escabullirse y cazar en las profundidades nocturnas.",
+    "narration": "assets/es/octo/OCTO01JN.mp3"
+  }
+}

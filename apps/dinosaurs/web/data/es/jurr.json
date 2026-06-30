@@ -1,0 +1,203 @@
+{
+  "id": "jurr",
+  "code": "JURR",
+  "name": "El Período Jurásico",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "joo-RAS-ik PEER-ee-ud",
+  "meaning": "",
+  "period": "Jurásico",
+  "diet": "",
+  "tagline": "La era en que los dinosaurios dominaron una Tierra exuberante y rebosante de vida.",
+  "hero": {
+    "image": "assets/jurr/JURR00AA.webp",
+    "alt": "El Período Jurásico"
+  },
+  "intro": "Durante el Período Jurásico, las grandes masas de tierra se fragmentaron en continentes más pequeños, y la invasión de mares poco profundos trajo lluvias a regiones que antes habían sido desiertos. En algunas zonas el clima era cálido y húmedo, y la vegetación creció de forma exuberante. En este entorno de abundancia, los dinosaurios florecieron y se diversificaron en muchas especies nuevas. Los dinosaurios se convirtieron en los animales dominantes en tierra firme.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "lush-landscape",
+      "title": "Paisaje Exuberante",
+      "image": "assets/jurr/JURR01PU.webp",
+      "text": "Al igual que en el Período Triásico anterior, los helechos y los colas de caballo servían de cubierta vegetal habitual durante el Período Jurásico, y de alimento para muchos de los dinosaurios más pequeños. Enormes bosques de coníferas y arboledas de cícadas florecieron por doquier, y los herbívoros de cuello largo como los saurópodos evolucionaron para aprovechar este forraje de las copas de los árboles."
+    },
+    {
+      "id": "wings-and-flippers",
+      "title": "Alas y Aletas",
+      "image": "assets/jurr/JURR02PU.webp",
+      "text": "Aunque los dinosaurios dominaron la tierra durante el Período Jurásico, también existían otros tipos de reptiles. Una gran variedad de reptiles nadadores gobernaban los mares poco profundos, y los reptiles voladores llamados pterosaurios surcaban los cielos con sus alas membranosas.",
+      "captions": [
+        {
+          "label": "Muraeonosaurus",
+          "text": "Puesto que a este plesiosaurio le costaba bucear con sus pulmones llenos de aire, tragaba guijarros para aumentar su peso."
+        },
+        {
+          "label": "Cearadactylus",
+          "text": "Este volador de cabeza alargada probablemente se alimentaba pescando, usando sus largos dientes para atrapar a sus presas en la superficie del mar."
+        }
+      ]
+    },
+    {
+      "id": "tiny-thief",
+      "title": "El Pequeño Ladrón",
+      "image": "assets/jurr/JURR03PU.webp",
+      "text": "Los dinosaurios adoptaron formas muy diversas durante el Período Jurásico. No todos eran monstruos enormes. Algunos, como el Compsognathus, ¡no eran más grandes que un gallo! Aunque este dinosaurio era pequeño, seguía siendo un cazador astuto, capaz de atrapar y devorar insectos, ranas y lagartos.",
+      "captions": [
+        {
+          "label": "Un mundo en el que los reptiles se comen entre sí",
+          "text": "Se han hallado restos de este lagarto Bavisaurus en el interior de fósiles de Compsognathus. ¡Esto sugiere que el Compsognathus pudo haberse comido a este pequeño reptil!"
+        }
+      ]
+    },
+    {
+      "id": "quiet-neighbors",
+      "title": "Vecinos Tranquilos",
+      "image": "assets/jurr/JURR04PU.webp",
+      "text": "Las plantas y los animales evolucionan juntos, y la naturaleza tiene la habilidad de «inventar» una criatura capaz de comer casi cualquier tipo de vegetación. Espesos bosques de árboles altos florecieron en el Período Jurásico, de modo que parece que los dinosaurios evolucionaron para aprovechar este alimento de las alturas. Los saurópodos, un grupo de herbívoros gigantes de cuello largo, podían incluso apoyarse en sus patas traseras y la cola para alcanzar las hojas más altas. Aunque eran tan grandes que sus pisadas debían de hacer temblar el suelo al caminar, los saurópodos probablemente eran animales apacibles y nada agresivos."
+    },
+    {
+      "id": "bullies-on-the-block",
+      "title": "Los Matones del Barrio",
+      "image": "assets/jurr/JURR05PU.webp",
+      "text": "A medida que el número y la variedad de dinosaurios herbívoros aumentaban, también lo hacían los tipos y la cantidad de carnívoros. Depredadores gigantes como el Alosaurio y el Ceratosaurio podían enfrentarse incluso a los gigantescos saurópodos y a los bien acorazados estegosaurios u ornitópodos.",
+      "captions": [
+        {
+          "label": "Ceratosaurio",
+          "text": "Aunque este carnívoro era apenas la mitad de grande que el Alosaurio, seguía aterrorizando a los herbívoros de su territorio. Como otros carnívoros, el Ceratosaurio usaba sus garras curvas para sujetar a su presa mientras desgarraba a la desafortunada víctima con sus afilados y serrados dientes."
+        },
+        {
+          "label": "Alosaurio",
+          "text": "Uno de los dinosaurios carnívoros más conocidos hallados en Norteamérica, el Alosaurio medía hasta doce metros de hocico a cola, ¡tan largo como tres coches colocados uno tras otro!"
+        }
+      ]
+    },
+    {
+      "id": "survival-of-the-fittest",
+      "title": "La Supervivencia del Más Apto",
+      "image": "assets/jurr/JURR06PU.webp",
+      "text": "Durante este período, los dinosaurios herbívoros se diversificaron en muchos grupos distintos. No solo había gigantes de cuello largo que ramoneaban entre las copas de los árboles, sino también dinosaurios con armadura, cuernos y placas en el lomo. Los dinosaurios con placas, llamados estegosaurios, podrían haber sido los primeros experimentos de energía solar. Los expertos creen que los estegosaurios pudieron haber usado las placas de su lomo para absorber el calor y calentarse rápidamente."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What is a Dinosaur?",
+      "to": "what"
+    },
+    {
+      "label": "Dinosaur Landscape",
+      "to": "dlan"
+    },
+    {
+      "label": "Reptiles of the Air",
+      "to": "rair"
+    },
+    {
+      "label": "Compsognathus",
+      "to": "comp"
+    },
+    {
+      "label": "The Biggest Dinosaurs",
+      "to": "tall"
+    },
+    {
+      "label": "Meat-eaters",
+      "to": "meat"
+    },
+    {
+      "label": "How to Recognize Stegosaurs",
+      "to": "hstg"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/jurr/JURR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Paisaje Exuberante",
+            "to": "lush-landscape",
+            "x": 3,
+            "y": 44,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "Vecinos Tranquilos",
+            "to": "quiet-neighbors",
+            "x": 38,
+            "y": 35,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "La Supervivencia del Más Apto",
+            "to": "survival-of-the-fittest",
+            "x": 37,
+            "y": 53,
+            "w": 24,
+            "h": 6
+          },
+          {
+            "label": "Alas y Aletas",
+            "to": "wings-and-flippers",
+            "x": 63,
+            "y": 42,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "El Pequeño Ladrón",
+            "to": "tiny-thief",
+            "x": 73,
+            "y": 55,
+            "w": 13,
+            "h": 6
+          },
+          {
+            "label": "Los Matones del Barrio",
+            "to": "bullies-on-the-block",
+            "x": 22,
+            "y": 71,
+            "w": 22,
+            "h": 6
+          }
+        ]
+      },
+      "lush-landscape": {
+        "image": "assets/jurr/JURR01PU.webp",
+        "back": "main"
+      },
+      "wings-and-flippers": {
+        "image": "assets/jurr/JURR02PU.webp",
+        "back": "main"
+      },
+      "tiny-thief": {
+        "image": "assets/jurr/JURR03PU.webp",
+        "back": "main"
+      },
+      "quiet-neighbors": {
+        "image": "assets/jurr/JURR04PU.webp",
+        "back": "main"
+      },
+      "bullies-on-the-block": {
+        "image": "assets/jurr/JURR05PU.webp",
+        "back": "main"
+      },
+      "survival-of-the-fittest": {
+        "image": "assets/jurr/JURR06PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/jurr/JURR00AP.mp3",
+  "narration": "assets/jurr/JURR00AJ.mp3",
+  "sound": "assets/jurr/JURR00SA.mp3",
+  "fanTranslation": true
+}

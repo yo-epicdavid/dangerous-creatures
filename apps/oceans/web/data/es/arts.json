@@ -1,0 +1,231 @@
+{
+  "id": "arts",
+  "code": "ARTS",
+  "name": "Las artes y la literatura del mar",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "Del lienzo a la página, el océano ha inspirado a artistas y poetas durante miles de años.",
+  "zones": [
+    "Costa y charcas de marea",
+    "Mar abierto"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/arts/ARTS00AA.webp",
+    "alt": "Las artes y la literatura del mar"
+  },
+  "intro": "El mar no es sólo una fuente de ocio, transporte y conocimiento científico, sino que también es una gran fuente de inspiración para los artistas y escritores de todo el mundo. El vasto poder de los océanos une a la humanidad por encima de las culturas y del tiempo. El famoso cuadro La Gran Ola frente a Kanagawa, de Hokusai (1760-1849), muestra pequeñas barcas de pescadores al borde del desastre en medio de una gigantesca ola.",
+  "facts": [
+    {
+      "label": "Obra icónica",
+      "value": "La Gran Ola frente a Kanagawa, de Hokusai (1760-1849), muestra pequeñas barcas de pescadores al borde del desastre en medio de una gigantesca ola."
+    },
+    {
+      "label": "Primeros barcos",
+      "value": "Los egipcios se contaron entre los primeros pueblos que tuvieron barcos; se atribuyen al año 3200 a. C. algunos fragmentos de cerámica pintados con naves."
+    },
+    {
+      "label": "Mosaico romano",
+      "value": "El fragmento de mosaico de Pompeya fue creado antes del año 79 d. de C., cuando la ciudad fue enterrada bajo la ceniza volcánica arrojada por el vecino monte Vesubio."
+    },
+    {
+      "label": "Paciencia de pintor",
+      "value": "Winslow Homer (1836-1910) a veces esperaba todo un año hasta tener la luz adecuada para pintar un cuadro."
+    },
+    {
+      "label": "Mocha Dick",
+      "value": "Melville basó su monstruo ficticio en un cachalote real llamado Mocha Dick, que hizo naufragar muchos barcos balleneros frente a las costas de Nueva Inglaterra."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "En el fondo del océano hay volcanes submarinos y cañones más grandes que ninguno de los que existen en la superficie terrestre."
+    }
+  ],
+  "topics": [
+    {
+      "id": "transportation-to-the-world-beyond",
+      "title": "Transporte al mundo del más allá",
+      "image": "assets/es/arts/ARTS01PU.webp",
+      "text": "Los egipcios se contaron entre los primeros pueblos que tuvieron barcos y se atribuyen al año 3200 a. C. algunos fragmentos de cerámica pintados con naves. Los nobles también conservaban modelos de barcos en sus tumbas, para poder continuar el viaje de su vida después de la muerte. Observa la momia en miniatura, que sin duda representa a la persona fallecida, bajo el dosel de este modelo, que se calcula que fue creado entre el año 716 y el 332 a. de C.",
+      "narration": "assets/es/arts/ARTS01JN.mp3"
+    },
+    {
+      "id": "no-strangers-to-the-sea",
+      "title": "No eran ajenos al mar",
+      "image": "assets/es/arts/ARTS02PU.webp",
+      "text": "Como puedes ver por los detalles realistas de este mosaico de Pompeya, los antiguos romanos estaban bien familiarizados con muchas criaturas marinas. Los científicos calculan que este fragmento fue creado antes del año 79 d. de C., cuando la ciudad de Pompeya fue enterrada bajo la ceniza volcánica arrojada por el vecino monte Vesubio.",
+      "narration": "assets/es/arts/ARTS02JN.mp3"
+    },
+    {
+      "id": "dutch-traditions",
+      "title": "Tradiciones holandesas",
+      "image": "assets/es/arts/ARTS03PU.webp",
+      "text": "La escuela holandesa de pintura marina fue un grupo especial de pintores de barcos. Posteriormente influyeron en pintores de Inglaterra y de América. Willem van de Velde el Viejo (1611-1693) fue uno de los grandes pintores holandeses de barcos y del mar.",
+      "captions": [
+        {
+          "label": "Pintura",
+          "text": "Carlos II de Inglaterra en el puerto de Dordrecht"
+        }
+      ],
+      "narration": "assets/es/arts/ARTS03JN.mp3"
+    },
+    {
+      "id": "waiting-for-the-light",
+      "title": "A la espera de la luz",
+      "image": "assets/es/arts/ARTS04PU.webp",
+      "text": "Un famoso pintor americano, Winslow Homer (1836-1910), vivió solo cerca del mar y pintó paisajes marinos que describían confrontaciones heroicas entre el hombre y la naturaleza. A veces esperaba todo un año hasta tener la luz adecuada para pintar un cuadro.",
+      "captions": [
+        {
+          "label": "Pintura",
+          "text": "La red de arenques"
+        }
+      ],
+      "narration": "assets/es/arts/ARTS04JN.mp3"
+    },
+    {
+      "id": "power-and-poetry",
+      "title": "Poder y poesía",
+      "image": "assets/es/arts/ARTS05PU.webp",
+      "text": "Desde la Antigüedad hasta el momento actual, el hombre ha transformado en poesía su admiración ante el poder y la majestuosidad del océano. Un premio nobel moderno, el poeta chileno Pablo Neruda, ha escrito muchos versos inspirados por el mar. Samuel Taylor Coleridge (1772-1834), uno de los mejores poetas de Inglaterra, escribió Las rimas del viejo marino, un intenso poema de asesinato, sufrimiento y amor, escrito al estilo de una balada marinera.",
+      "captions": [
+        {
+          "label": "Ilustración",
+          "text": "El viejo marino reza"
+        }
+      ],
+      "narration": "assets/es/arts/ARTS05JN.mp3"
+    },
+    {
+      "id": "adventure-in-print",
+      "title": "La aventura en los libros",
+      "image": "assets/es/arts/ARTS06PU.webp",
+      "text": "Los vientos del océano soplan a través de las grandes obras literarias de todo el mundo. Algunos escritores fueron al mar antes de escribir sobre él; otros lo hicieron simplemente a partir de la inspiración y de la imaginación. El escritor americano Herman Melville trabajó como empleado de banco, agricultor, maestro, grumete y marinero antes de escribir su mejor novela, Moby Dick, que relata detalladamente la búsqueda, por parte del obsesionado capitán Ahab, de una legendaria ballena blanca. Melville basó su monstruo ficticio en un cachalote real llamado Mocha Dick, que hizo naufragar muchos barcos balleneros frente a las costas de Nueva Inglaterra.",
+      "narration": "assets/es/arts/ARTS06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Viajes fantásticos",
+      "to": "fant"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/arts/ARTS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 3,
+            "y": 8,
+            "w": 8,
+            "h": 5
+          },
+          {
+            "label": "Inspiración",
+            "to": "video",
+            "x": 3,
+            "y": 36,
+            "w": 13,
+            "h": 5
+          },
+          {
+            "label": "A la espera de la luz",
+            "to": "waiting-for-the-light",
+            "x": 1,
+            "y": 50,
+            "w": 17,
+            "h": 8
+          },
+          {
+            "label": "Poder y poesía",
+            "to": "power-and-poetry",
+            "x": 52,
+            "y": 40,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "Tradiciones holandesas",
+            "to": "dutch-traditions",
+            "x": 67,
+            "y": 49,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Transporte al mundo del más allá",
+            "to": "transportation-to-the-world-beyond",
+            "x": 29,
+            "y": 63,
+            "w": 33,
+            "h": 5
+          },
+          {
+            "label": "No eran ajenos al mar",
+            "to": "no-strangers-to-the-sea",
+            "x": 52,
+            "y": 72,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "La aventura en los libros",
+            "to": "adventure-in-print",
+            "x": 28,
+            "y": 80,
+            "w": 18,
+            "h": 5
+          }
+        ]
+      },
+      "transportation-to-the-world-beyond": {
+        "image": "assets/es/arts/ARTS01PU.webp",
+        "back": "main"
+      },
+      "no-strangers-to-the-sea": {
+        "image": "assets/es/arts/ARTS02PU.webp",
+        "back": "main"
+      },
+      "dutch-traditions": {
+        "image": "assets/es/arts/ARTS03PU.webp",
+        "back": "main"
+      },
+      "waiting-for-the-light": {
+        "image": "assets/es/arts/ARTS04PU.webp",
+        "back": "main"
+      },
+      "power-and-poetry": {
+        "image": "assets/es/arts/ARTS05PU.webp",
+        "back": "main"
+      },
+      "adventure-in-print": {
+        "image": "assets/es/arts/ARTS06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/arts/clip.mp4",
+        "poster": "assets/es/arts/ARTS07PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/arts/ARTS00JN.mp3",
+  "sound": "assets/es/arts/ARTS00IX.mp3",
+  "video": {
+    "title": "Inspiración",
+    "src": "assets/es/arts/clip.mp4",
+    "poster": "assets/es/arts/poster.webp",
+    "caption": "Los océanos siempre han estimulado la imaginación humana. Los pueblos antiguos creían que las profundidades estaban llenas de monstruos y de reinos mágicos. Ahora sabemos que no es verdad, pero la realidad es igualmente imponente: hay volcanes submarinos, cañones más grandes que ninguno de los que existen en la superficie terrestre y criaturas de todos los tamaños, colores y formas concebibles. Incluso las olas de la costa inspiran un sentimiento de admiración por su increíble poder y belleza. ¡Nuestro planeta oceánico es un lugar sorprendente para vivir!",
+    "narration": "assets/es/arts/ARTS07JN.mp3"
+  }
+}

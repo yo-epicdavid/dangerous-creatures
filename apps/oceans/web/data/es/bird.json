@@ -1,0 +1,178 @@
+{
+  "id": "bird",
+  "code": "BIRD",
+  "name": "Aves marinas voladoras",
+  "category": "creature",
+  "scientificName": "Fratercula arctica",
+  "needsScientificVerify": false,
+  "tagline": "¡Maestros del cielo y del mar abierto que vuelan sin límites!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Mar abierto",
+    "Mares polares"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/bird/BIRD00AA.webp",
+    "alt": "Aves marinas voladoras"
+  },
+  "intro": "Las aves marinas, como los frailecillos comunes, alcas, araos comunes y mérgulos, se parecen a los pingüinos, pero con una diferencia fundamental: casi todas pueden volar. De hecho, los albatros, las pardelas y muchas aves voladoras son expertas navegantes que recorren miles de kilómetros en mar abierto, pero encuentran su camino de regreso hasta los terrenos de crianza. Sólo en la estación de apareamiento pasan mucho tiempo en tierra firme.",
+  "facts": [
+    {
+      "label": "Envergadura",
+      "value": "El albatros tiene una envergadura de casi 3,7 metros, el mayor pájaro actualmente vivo."
+    },
+    {
+      "label": "Distancia",
+      "value": "El albatros puede recorrer más de 500 km por día y cubrir 56.350 km cada tres meses."
+    },
+    {
+      "label": "Velocidad",
+      "value": "Su velocidad normal de crucero es de 50 a 90 km por hora."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Los marineros creían que matar un albatros les traía mala suerte."
+    },
+    {
+      "label": "Cortejo",
+      "value": "La bolsa gular escarlata del macho de la fragata se infla hasta alcanzar el tamaño de la cabeza humana."
+    },
+    {
+      "label": "Depredador",
+      "value": "El págalo grande roba huevos y polluelos de pingüino durante la época de anidamiento."
+    }
+  ],
+  "topics": [
+    {
+      "id": "flying-aces",
+      "title": "Ases del vuelo",
+      "image": "assets/es/bird/BIRD01PU.webp",
+      "text": "Aviones de reacción\nSi se pusiera verticalmente sobre la punta de un ala, el albatros más grande sería aproximadamente dos veces más alto que un hombre. El albatros, con una envergadura de casi 3,7 metros, el mayor pájaro actualmente vivo, circunnavega regularmente el mundo y puede recorrer más de 500 km por día. A una velocidad normal de crucero de 50 a 90 km por hora, ¡puede cubrir una distancia de 56.350 km cada tres meses!\n\nPlaneos espectaculares\nEl albatros puede dejarse transportar durante horas por el viento sin agitar siquiera las alas y capear fácilmente los vendavales del cabo de Hornos. Los marineros solían contemplar este pájaro con un temor respetuoso y creían que matarlo les traía mala suerte.",
+      "captions": [
+        {
+          "label": "Albatros viajero",
+          "text": "Diomedea exulans"
+        }
+      ],
+      "narration": "assets/es/bird/BIRD01JN.mp3"
+    },
+    {
+      "id": "colorful-characters",
+      "title": "Personajes de colores",
+      "image": "assets/es/bird/BIRD02PU.webp",
+      "text": "Muchos pájaros marinos machos se sirven de colores brillantes para atraer a las hembras durante la estación de apareamiento.\n\n¿Quieres ser mi novia?\nLa fragata macho es un novio alado cuando llega el periodo de cortejo. ¡La bolsa de su garganta, desprovista de plumas y color escarlata, se infla, hasta alcanzar el tamaño de la cabeza humana!\n\nBarbas en celo\nEl frailecillo barbado, llamado también loro de mar, está cubierto de penachos de color paja y posee un pico que aumenta de tamaño durante el periodo de apareamiento.\n\nEl baile de los pies azules\nEl piquero camanay posee unas palmas de color azul eléctrico durante todo el año. Durante el periodo de reproducción, el macho levanta las palmas en una danza especial de apareamiento.",
+      "captions": [
+        {
+          "label": "Frailecillo barbado",
+          "text": "Lunda cirrhata"
+        },
+        {
+          "label": "Fragata",
+          "text": "Fregata magnificens"
+        },
+        {
+          "label": "Piquero camanay",
+          "text": "Sula nebouxii"
+        }
+      ],
+      "narration": "assets/es/bird/BIRD02JN.mp3"
+    },
+    {
+      "id": "birds-that-eat-birds",
+      "title": "Pájaros que comen pájaros",
+      "image": "assets/es/bird/BIRD03PU.webp",
+      "text": "Algunos tipos de pájaros se especializan en comer a otros pájaros. Los págalos grandes son parientes de las gaviotas y de las golondrinas mar. Los págalos grandes viven en las regiones árticas y antárticas, en donde comen muchos animales diferentes, incluidos peces y krill. Pero durante el periodo de anidamiento, ¡se convierten en predadores de sus congéneres! Muchos padres y madres pingüinos han perdido un huevo o un polluelo en el pico de un págalo furtivo.",
+      "narration": "assets/es/bird/BIRD03JN.mp3",
+      "captions": [
+        {
+          "label": "Págalo grande",
+          "text": "Un págalo roba un huevo de pingüino"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/bird/BIRD00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 8,
+            "h": 8
+          },
+          {
+            "label": "Pájaros que comen pájaros",
+            "to": "birds-that-eat-birds",
+            "x": 64,
+            "y": 12,
+            "w": 30,
+            "h": 9
+          },
+          {
+            "label": "Ases del vuelo",
+            "to": "flying-aces",
+            "x": 59,
+            "y": 43,
+            "w": 22,
+            "h": 9
+          },
+          {
+            "label": "Bailes de encuentro",
+            "to": "video",
+            "x": 18,
+            "y": 53,
+            "w": 22,
+            "h": 9
+          },
+          {
+            "label": "Personajes de colores",
+            "to": "colorful-characters",
+            "x": 20,
+            "y": 63,
+            "w": 24,
+            "h": 9
+          }
+        ]
+      },
+      "flying-aces": {
+        "image": "assets/es/bird/BIRD01PU.webp",
+        "back": "main"
+      },
+      "colorful-characters": {
+        "image": "assets/es/bird/BIRD02PU.webp",
+        "back": "main"
+      },
+      "birds-that-eat-birds": {
+        "image": "assets/es/bird/BIRD03PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/bird/clip.mp4",
+        "poster": "assets/es/bird/BIRD04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/bird/BIRD00JN.mp3",
+  "sound": "assets/es/bird/BIRD00IX.mp3",
+  "video": {
+    "title": "Bailes de encuentro",
+    "src": "assets/es/bird/clip.mp4",
+    "poster": "assets/es/bird/poster.webp",
+    "caption": "¿Has bailado alguna vez esta melodía? Muchos pájaros la bailan. «Pon tu pie derecho dentro, pon tu pie derecho fuera. Pon tu ala derecha dentro y muévela toda. Baila la danza del emparejamiento y date la vuelta. ¡Es lo único que hay que hacer!»",
+    "narration": "assets/es/bird/BIRD04JN.mp3"
+  }
+}

@@ -1,0 +1,268 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Topbar from './Topbar.astro';
+import { asset, catSlug, lp } from '../lib/data.js';
+import { t } from '../i18n/ui.js';
+
+const { d, locale = 'en' } = Astro.props;
+const ui = t(locale);
+const facts = d.facts || [];
+const chip = (label, tab) => ({ label, href: lp(locale, `/browse?tab=${tab}#${catSlug(label)}`) });
+const weaponChips = (d.weapons || []).map((w) => chip(w, 'weapons'));
+const habitatChips = (d.habitats || []).map((h) => chip(h, 'habitats'));
+const regionChips = (d.regions || []).map((r) => chip(r, 'regions'));
+
+// language switcher target: the same animal in the other locale
+const altHref = locale === 'es' ? `/animal/${d.id}` : `/es/animal/${d.id}`;
+const ogImage = `/assets/${locale === 'es' ? 'es/' : ''}${d.id}/og.jpg`;
+const STR = {
+  classicSuffix: locale === 'es' ? 'pantallas originales de 1994' : 'original 1994 screens',
+  showSpots: ui.showSpots,
+  hideSpots: ui.hideSpots,
+  back: ui.back,
+};
+---
+<Layout title={`${d.name} — Dangerous Creatures`} desc={d.tagline} lang={locale} bilingual={true} ogImage={ogImage}>
+  <Topbar brandHref={lp(locale, '/')} locale={locale} altHref={altHref}>
+    <div slot="center" class="modeswitch" id="modeswitch" role="group" aria-label="View mode">
+      <button data-mode="modern" aria-pressed="true">{ui.modern}</button>
+      <button data-mode="classic" aria-pressed="false">{ui.classic}</button>
+    </div>
+  </Topbar>
+
+  <main id="main-content" class="wrap" tabindex="-1">
+    <!-- MODERN (pre-rendered) -->
+    <div id="modern">
+      <section class="hero">
+        <div class="hero__media">
+          <img src={asset(d.hero.image)} alt={d.hero.alt || d.name} data-zoomable />
+          <hgroup class="hero__title">
+            <div class="name">{d.name}</div>
+            {d.scientificName && <div class="sci">{d.scientificName}</div>}
+          </hgroup>
+        </div>
+      </section>
+
+      <p class="tagline">{d.tagline}</p>
+
+      {d.sound && (
+        <p class="hear-row">
+          <button class="mini-listen sound" id="hear-sound" aria-label={ui.hear(d.name)}>🔊 {ui.hear(d.name)}</button>
+        </p>
+      )}
+
+      {(weaponChips.length || habitatChips.length || regionChips.length) && (
+        <div class="chips">
+          {weaponChips.length > 0 && <span class="chips__label">{ui.weaponsLabel}</span>}
+          {weaponChips.map((c) => <a class="chip" href={c.href}>{c.label}</a>)}
+          {habitatChips.length > 0 && <span class="chips__label">{ui.habitatLabel}</span>}
+          {habitatChips.map((c) => <a class="chip" href={c.href}>{c.label}</a>)}
+          {regionChips.length > 0 && <span class="chips__label">{ui.foundInLabel}</span>}
+          {regionChips.map((c) => <a class="chip" href={c.href}>{c.label}</a>)}
+        </div>
+      )}
+
+      <div class="layout">
+        <div class="intro"><p class="lead">{d.intro}</p></div>
+        <aside class="factcard">
+          <h2>{ui.fieldNotes}</h2>
+          {d.factsNarration && <button class="mini-listen fact-listen" data-listen={asset(d.factsNarration)} aria-label={ui.listen}><span class="arrow" aria-hidden="true">▶</span> {ui.listen}</button>}
+          <dl>
+            {facts.map((f) => (
+              <div class={f.danger ? 'danger' : ''}>
+                <dt>{f.label}</dt>
+                <dd>{f.value}</dd>
+              </div>
+            ))}
+          </dl>
+        </aside>
+      </div>
+
+      {d.topics?.length > 0 && (
+        <>
+          <h2 class="section-head">{ui.getCloser}</h2>
+          <div class="topics">
+            {d.topics.map((tp) => (
+              <article class="topic">
+                <div class="topic__media"><img src={asset(tp.image)} alt={tp.title} loading="lazy" data-zoomable /></div>
+                <div class="topic__body">
+                  <h3>{tp.title}</h3>
+                  {tp.narration && <button class="mini-listen" data-listen={asset(tp.narration)} aria-label={`${ui.listen}: ${tp.title}`}><span class="arrow" aria-hidden="true">▶</span> {ui.listen}</button>}
+                  <p>{tp.text}</p>
+                  {tp.captions?.length > 0 && (
+                    <div class="topic__captions">
+                      {tp.captions.map((c) => <div class="cap"><b>{c.label}</b>{c.text}</div>)}
+                    </div>
+                  )}
+                </div>
+              </article>
+            ))}
+          </div>
+        </>
+      )}
+
+      {d.video && (
+        <>
+          <h2 class="section-head">{ui.watch}</h2>
+          <section class="videoblock">
+            <video controls playsinline poster={asset(d.video.poster)}>
+              <source src={asset(d.video.src)} type="video/mp4" />
+            </video>
+            <p class="cap"><b>{d.video.title} — </b>{d.video.caption}</p>
+          </section>
+        </>
+      )}
+
+      {d._provenance && (
+        <p class="prov">
+          <b>{ui.sourceLabel}</b>{d._provenance.source}. {d._provenance.note}
+          {' '}<a href="/credits">{ui.creditsArrow} <span class="arrow" aria-hidden="true">→</span></a>
+        </p>
+      )}
+    </div>
+
+    <!-- CLASSIC 1994 (interactive island, built client-side from the same data) -->
+    <div id="classic" hidden></div>
+  </main>
+
+  <script define:vars={{ data: d, loc: locale === 'es' ? '/es' : '', STR }}>
+    const params = new URLSearchParams(location.search);
+    const MODE_KEY = 'dc-mode';
+    let mode = params.get('mode') || localStorage.getItem(MODE_KEY) || 'modern';
+    const el = (t, p = {}, ...k) => { const n = Object.assign(document.createElement(t), p); for (const c of k) n.append(c); return n; };
+    const asset = (p) => (!p ? p : p.startsWith('/') ? p : '/' + p);
+    const mapUrl = (u) => {
+      if (!u) return u;
+      let m = u.match(/animal\.html\?id=([a-z0-9]+)/i);
+      if (m) return loc + '/animal/' + m[1] + (/mode=classic/.test(u) ? '?mode=classic' : '');
+      m = u.match(/browse\.html(\?[^#]*)?(#.*)?$/);
+      if (m) return loc + '/browse' + (m[1] || '') + (m[2] || '');
+      return u;
+    };
+    const modern = document.getElementById('modern');
+    const classicEl = document.getElementById('classic');
+
+    document.querySelectorAll('#modeswitch button').forEach((b) =>
+      b.addEventListener('click', () => setMode(b.dataset.mode)));
+    function setMode(m) { mode = (m === 'classic' && data.classic) ? 'classic' : 'modern'; localStorage.setItem(MODE_KEY, mode); apply(); }
+    function apply() {
+      document.body.dataset.mode = mode;
+      document.querySelectorAll('#modeswitch button').forEach((b) => {
+        const active = b.dataset.mode === mode;
+        b.classList.toggle('is-active', active);
+        b.setAttribute('aria-pressed', active ? 'true' : 'false');
+      });
+      const isClassic = mode === 'classic' && !!data.classic;
+      modern.hidden = isClassic;
+      classicEl.hidden = !isClassic;
+      if (isClassic && !classicEl.dataset.rendered) { renderClassic(); classicEl.dataset.rendered = '1'; }
+      scrollTo({ top: 0 });
+    }
+
+    // the habitat/ambient sound (AT) — autoplays on entry, like the original
+    const ambient = data.ambient ? new Audio(asset(data.ambient)) : null;
+    if (ambient) { ambient.volume = 0.7; ambient.preload = 'auto'; }
+    function playAmbient() { if (ambient) { ambient.currentTime = 0; ambient.play().catch(() => {}); } }
+    // the animal's actual call (AF) — the intentional "Hear it" button
+    const sound = data.sound ? new Audio(asset(data.sound)) : null;
+    const hearBtn = document.getElementById('hear-sound');
+    if (hearBtn && sound) hearBtn.addEventListener('click', () => {
+      if (ambient) ambient.pause();
+      sound.currentTime = 0; sound.play().catch(() => {});
+    });
+
+    function renderClassic() {
+      const c = data.classic;
+      classicEl.innerHTML = '';
+      const root = el('div', { className: 'classic' });
+      const bar = el('div', { className: 'classic__bar' });
+      bar.append(el('div', { className: 'classic__title', textContent: `${data.name} — ${STR.classicSuffix}` }));
+      const reveal = el('button', { className: 'btn', textContent: STR.showSpots });
+      bar.append(reveal);
+      root.append(bar);
+      const stage = el('div', { className: 'classic__stage' });
+      root.append(stage);
+      classicEl.append(root);
+      reveal.addEventListener('click', () => { const on = stage.classList.toggle('reveal'); reveal.textContent = on ? STR.hideSpots : STR.showSpots; });
+      if (params.get('spots') === '1') { stage.classList.add('reveal'); reveal.textContent = STR.hideSpots; }
+      const history = [];
+      function show(key) {
+        const sc = c.screens[key];
+        if (!sc) return;
+        stage.innerHTML = '';
+        if (sc.video) {
+          const v = el('video', { className: 'classic__screen', controls: true, autoplay: true, playsInline: true, poster: asset(sc.poster || '') });
+          v.append(el('source', { src: asset(sc.video), type: 'video/mp4' }));
+          stage.append(v);
+        } else {
+          const frame = el('div', { className: 'classic__frame' });
+          frame.append(el('img', { className: 'classic__screen', src: asset(sc.image), alt: `${data.name} — ${key}` }));
+          for (const h of sc.hotspots || []) {
+            const b = el('button', { className: 'hotspot', title: h.label, ariaLabel: h.label });
+            Object.assign(b.style, { left: h.x + '%', top: h.y + '%', width: h.w + '%', height: h.h + '%' });
+            if (h.disabled) b.classList.add('hotspot--disabled');
+            if (h.external || h.link) b.classList.add('hotspot--link');
+            const tip = el('span', { className: 'hotspot__tip', textContent: h.label });
+            if (h.external || h.link) tip.append(el('span', { className: 'arrow', textContent: ' →', ariaHidden: 'true' }));
+            b.append(tip);
+            b.addEventListener('click', () => {
+              if (h.link) { location.href = mapUrl(h.link); return; }
+              if (h.external) { location.href = mapUrl(h.external); return; }
+              if (h.disabled) return;
+              if (h.to) { history.push(key); show(h.to); }
+            });
+            frame.append(b);
+          }
+          stage.append(frame);
+        }
+        if (key !== c.start) {
+          const back = el('button', { className: 'classic__back btn' });
+          back.append(el('span', { className: 'arrow', textContent: '‹ ', ariaHidden: 'true' }), STR.back);
+          back.addEventListener('click', () => show(history.pop() || c.start));
+          stage.append(back);
+        }
+      }
+      show(c.start);
+    }
+
+    // short-clip player: sub-topic narration + fact-box narration
+    const clip = new Audio();
+    let clipBtn = null;
+    const clearClip = () => { if (clipBtn) clipBtn.classList.remove('playing'); clipBtn = null; };
+    clip.addEventListener('ended', clearClip);
+    document.querySelectorAll('[data-listen]').forEach((b) => {
+      b.addEventListener('click', () => {
+        if (clipBtn === b && !clip.paused) { clip.pause(); clearClip(); return; }
+        if (ambient) ambient.pause();                 // don't talk over the narration
+        if (sound) sound.pause();
+        if (clipBtn) clipBtn.classList.remove('playing');
+        clip.src = b.getAttribute('data-listen');
+        clip.play().catch(() => {});
+        clipBtn = b; b.classList.add('playing');
+      });
+    });
+
+    apply();
+
+    // Greet you with the habitat's ambient sound on landing (modern view).
+    // Browsers block audio that would play *before* you interact with the page, so we
+    //   (a) try immediately — this works for returning visitors the browser already trusts; and
+    //   (b) arm a fallback so the very first tap / click / keypress *anywhere* starts it.
+    // We stay silent for reduced-motion users — unexpected audio is disruptive for them
+    // and for anyone using a screen reader, so they choose "Hear" themselves.
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const UNLOCK_EVENTS = ['pointerdown', 'keydown', 'touchstart'];
+    function onUnlock() { startAmbient(); }
+    function startAmbient() {
+      if (!ambient || mode !== 'modern' || prefersReducedMotion) return;
+      ambient.currentTime = 0;
+      ambient.play().then(() => {
+        UNLOCK_EVENTS.forEach((e) => window.removeEventListener(e, onUnlock));
+      }).catch(() => {});
+    }
+    if (ambient && mode === 'modern' && !prefersReducedMotion) {
+      UNLOCK_EVENTS.forEach((e) => window.addEventListener(e, onUnlock, { passive: true }));
+      startAmbient();
+    }
+  </script>
+</Layout>

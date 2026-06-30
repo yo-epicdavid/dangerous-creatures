@@ -1,0 +1,234 @@
+{
+  "id": "pbea",
+  "code": "PBEA",
+  "name": "Oso polar u oso blanco",
+  "scientificName": "Ursus maritimus",
+  "needsScientificVerify": false,
+  "tagline": "El gigante blanco del Ártico que caza entre témpanos y nada donde ningún otro se atrevería.",
+  "weapons": [
+    "Dientes y mandíbulas"
+  ],
+  "habitats": [
+    "Zonas polares y tundra"
+  ],
+  "regions": [
+    "Norteamérica",
+    "Regiones polares"
+  ],
+  "hero": {
+    "image": "assets/es/pbea/PBEA00AA.webp",
+    "alt": "Oso polar u oso blanco"
+  },
+  "intro": "Si fueras un oso polar el hielo te encantaría. Estos enormes carnívoros migran con los témpanos flotantes del ártico. Extienden su territorio hacia el sur durante el invierno, cuando aumenta la capa de hielo, y en verano, cuando la capa de hielo disminuye, se trasladan al norte. Cuando el hielo se rompe, ¡incluso se adentran en el mar montados en los témpanos!",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Muerde y tritura a la presa con sus potentes mandíbulas.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Focas, morsas, bueyes almicleros, renos, zorros, peces y cangrejos.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Estos osos flotan bien y son buenos nadadores. En las aguas árticas han sido vistos con sus cachorros sobre témpanos de hielo a más de 160 kilómetros de la costa.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 3,5 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Alaska, Canadá, Groenlandia y las costas eurasiáticas del Ártico",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "check-the-fridge",
+      "title": "Vigilar el frigorífico",
+      "image": "assets/es/pbea/PBEA01PU.webp",
+      "text": "Los osos polares nunca tienen que preocuparse de que se les estropee la comida: ¡viven en un frigorífico natural! Su técnica de caza favorita consiste en esperar sobre el hielo junto al agujero de una foca. Cuando ésta sale a respirar, el oso arremete contra ella; aunque muchas veces se zambulle para perseguir a su presa.",
+      "captions": [
+        {
+          "label": "Foca capuchina o foca de casco macho",
+          "text": "Foca capuchina o foca de casco macho"
+        },
+        {
+          "label": "Foca barbuda",
+          "text": "Foca barbuda"
+        }
+      ],
+      "narration": "assets/es/pbea/PBEA01NP.mp3"
+    },
+    {
+      "id": "sleeping-out",
+      "title": "Dormir al raso",
+      "image": "assets/es/pbea/PBEA02PU.webp",
+      "text": "Durante los primeros meses de vida, los cachorros de oso polar permanecen en una guarida excavada en la tierra o la nieve. Pero cuando tienen alrededor de tres meses y pesan entre 10 y 15 kilos, ya pueden viajar con la madre y conocer su mundo invernal. Se quedan junto a ella entre 28 y 30 meses.",
+      "narration": "assets/es/pbea/PBEA02NP.mp3"
+    },
+    {
+      "id": "the-waters-fine",
+      "title": "¡El agua está buena!",
+      "image": "assets/es/pbea/PBEA03PU.webp",
+      "text": "Imagínate que te encuentras un montón de osos nadando en las heladas aguas a varios kilómetros de tierra. No es inusual entre los osos polares: ¡estos bien protegidos animales han sido vistos nadando a cientos de kilómetros de la orilla! No sólo son prácticamente insumergibles, sino que además son unos nadadores expertos que pueden avanzar a casi 10 kilómetros por hora. Este oso aparece en compañía de otros dos nadadores árticos.",
+      "captions": [
+        {
+          "label": "Morsa",
+          "text": "Morsa"
+        },
+        {
+          "label": "Ballena beluga",
+          "text": "Ballena beluga"
+        }
+      ],
+      "narration": "assets/es/pbea/PBEA03NP.mp3"
+    },
+    {
+      "id": "ice-traveler",
+      "title": "Viajeros del hielo",
+      "image": "assets/es/pbea/PBEA04PU.webp",
+      "text": "Los osos polares suelen cazar focas en el borde del hielo. Esto tiene sus inconvenientes, pues el hielo tiende a romperse y separarse. ¡Pero este estilo de vida móvil no es ningún problema para estos animales! A los osos polares no les importa saltar de un témpano a otro o zambullirse de cabeza en las aguas heladas y nadar en busca de un nuevo lugar.",
+      "narration": "assets/es/pbea/PBEA04NP.mp3"
+    },
+    {
+      "id": "pesky-rival",
+      "title": "Un rival molesto",
+      "image": "assets/es/pbea/PBEA05PU.webp",
+      "text": "Es frecuente ver a un zorro ártico que sigue el rastro de un oso polar. En algunas zonas, este carnívoro astuto y pequeño subsiste casi a base de lemmings, pero la mayoría suele comer de casi todo, muerto o vivo. A menudo siguen a los lobos y a los osos polares, con la esperanza de conseguir algún bocado de la presa de estos animales más grandes.",
+      "narration": "assets/es/pbea/PBEA05NP.mp3"
+    },
+    {
+      "id": "begging-for-trouble",
+      "title": "Buscando problemas",
+      "image": "assets/es/pbea/PBEA06PU.webp",
+      "text": "Algunos osos polares se han convertido en residentes urbanos que buscan la comida entre los desperdicios de los vertederos. Este comportamiento tan poco natural no es bueno ni para los osos ni para las personas. La dieta normal de un oso polar se compone casi en un 100% de carne, y a ésta se han adaptado sus dientes y su estómago. Puede que los ocupantes de este autobús crean que ese oso es muy curioso, ¡pero en lo que probablemente piense él es en la comida que traen ellos!",
+      "narration": "assets/es/pbea/PBEA06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/pbea/PBEA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 4.4,
+            "y": 7.89,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Vigilar el frigorífico",
+            "to": "check-the-fridge",
+            "x": 38.93,
+            "y": 16.33,
+            "w": 14.64,
+            "h": 4.13
+          },
+          {
+            "label": "Un rival molesto",
+            "to": "pesky-rival",
+            "x": 50,
+            "y": 22,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Buscando problemas",
+            "to": "begging-for-trouble",
+            "x": 3,
+            "y": 27,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Dormir al raso",
+            "to": "sleeping-out",
+            "x": 2.37,
+            "y": 31.27,
+            "w": 11.04,
+            "h": 4.56
+          },
+          {
+            "label": "Viajeros del hielo",
+            "to": "ice-traveler",
+            "x": 27,
+            "y": 78,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "¡El agua está buena!",
+            "to": "the-waters-fine",
+            "x": 3.31,
+            "y": 77.15,
+            "w": 14.95,
+            "h": 4.13
+          },
+          {
+            "label": "Protección polar",
+            "to": "video",
+            "x": 69.56,
+            "y": 76.72,
+            "w": 13.54,
+            "h": 3.7
+          }
+        ]
+      },
+      "check-the-fridge": {
+        "image": "assets/es/pbea/PBEA01PU.webp",
+        "back": "main"
+      },
+      "sleeping-out": {
+        "image": "assets/es/pbea/PBEA02PU.webp",
+        "back": "main"
+      },
+      "the-waters-fine": {
+        "image": "assets/es/pbea/PBEA03PU.webp",
+        "back": "main"
+      },
+      "ice-traveler": {
+        "image": "assets/es/pbea/PBEA04PU.webp",
+        "back": "main"
+      },
+      "pesky-rival": {
+        "image": "assets/es/pbea/PBEA05PU.webp",
+        "back": "main"
+      },
+      "begging-for-trouble": {
+        "image": "assets/es/pbea/PBEA06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/pbea/PBEA00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/pbea/clip.mp4",
+        "poster": "assets/es/pbea/PBEA07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/pbea/narration.mp3",
+  "sound": "assets/es/pbea/PBEA00AF.mp3",
+  "factsNarration": "assets/es/pbea/PBEA00FB.mp3",
+  "video": {
+    "title": "Protección polar",
+    "src": "assets/es/pbea/clip.mp4",
+    "poster": "assets/es/pbea/poster.webp",
+    "caption": "Los osos polares están cubiertos de pelo de la cabeza a los pies, salvo en la punta de la nariz y en las pequeñas almohadillas de las patas. El pelaje está ahuecado, para atrapar aire en su interior. De esta manera flota en el agua y, lo mismo que las ventanas de cristal doble, la capa de aire le sirve de aislamiento entre el calor del cuerpo y el agua y el aire fríos del ártico. Las orejas de los osos son pequeñas y redondeadas para conservar mejor el calor corporal a temperaturas inferiores a los cero grados."
+  }
+}

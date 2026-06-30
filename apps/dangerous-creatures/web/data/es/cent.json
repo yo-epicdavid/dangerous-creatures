@@ -1,0 +1,260 @@
+{
+  "id": "cent",
+  "code": "CENT",
+  "name": "Ciempiés",
+  "scientificName": "Scolopendra subspinipes",
+  "needsScientificVerify": false,
+  "tagline": "¡Cien patas, un veneno y un hambre feroz!",
+  "weapons": [
+    "Veneno y ponzoña",
+    "Garras y zarpas"
+  ],
+  "habitats": [
+    "Bosques",
+    "Selva tropical"
+  ],
+  "regions": [
+    "África",
+    "Asia",
+    "Europa",
+    "Norteamérica",
+    "Centroamérica",
+    "Sudamérica"
+  ],
+  "hero": {
+    "image": "assets/es/cent/CENT00AA.webp",
+    "alt": "Ciempiés"
+  },
+  "intro": "Para un insecto o una araña, ver un ciempiés es algo terrorífico. Lo que contemplaría la víctima sería cómo se precipita sobre ella un predador de muchas patas y una cara con cuatro ojos encima de unas garras enormes que parecen colmillos. La pobre presa se daría cuenta de que los colores brillantes del ciempiés significan que se trata de un animal venenoso... sólo instantes antes de que esas garras le inyectarán el veneno paralizador.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Mata inyectando veneno mediante unas garras especiales.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Insectos, lombrices y cucarachas.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Los ciempiés tienen más de 400 millones de años de existencia: ¡son más antiguos que los dinosaurios!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 22,5 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: América entera, Europa, Asia, África",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "fearsome-fangs",
+      "title": "Unos colmillos temibles",
+      "image": "assets/es/cent/CENT01PU.webp",
+      "text": "Los ciempiés tienen cerca de la cabeza dos patas especialmente adaptadas –que reciben a veces el nombre de \"garras\" o \"colmillos\"– que son huecas y están conectadas a unas glándulas venenosas. Las utilizan para inyectar veneno a su presa y sujetarla mientras se la comen.",
+      "captions": [
+        {
+          "label": "Ciempiés tigre",
+          "text": "Este ciempiés centroamericano, que alcanza los 22 centímetros de longitud, puede comer sapos, serpientes pequeñas y ratones."
+        }
+      ],
+      "narration": "assets/es/cent/CENT01NP.mp3"
+    },
+    {
+      "id": "lots-of-legs",
+      "title": "¿Demasiadas patas?",
+      "image": "assets/es/cent/CENT02PU.webp",
+      "text": "El hecho de que un animal tenga muchas patas no significa que sea un ciempiés. Esta criatura es un nereis rey o poliqueto rey, un tipo de gusano segmentado que vive en agua salada. Los apéndices laterales en forma de flequillo no son patas auténticas: ¡las utiliza para remar e incluso respira a través de ellas!",
+      "narration": "assets/es/cent/CENT02NP.mp3"
+    },
+    {
+      "id": "moonlight-marauder",
+      "title": "Un merodeador a la luz de la luna",
+      "image": "assets/es/cent/CENT03PU.webp",
+      "text": "Los ciempiés evitan la luz, ya que se deshidratan fácilmente y la fuerte luz del sol les mataría. Pasan el día escondidos en lugares oscuros y húmedos, bajo las rocas y troncos (o en tu sótano o cuarto de baño). Pero el anochecer transforma a estos tímidos animales en fieros cazadores que atrapan arañas, caracoles e insectos con las garras venenosas y los despedazan con la boca.",
+      "captions": [
+        {
+          "label": "La tarántula",
+          "text": "Las arañas peludas son también cazadoras nocturnas."
+        },
+        {
+          "label": "El escorpión",
+          "text": "El escorpión es otro predador nocturno que puede envenenar a su presa."
+        },
+        {
+          "label": "El ciempiés común",
+          "text": "Las antenas detectan el movimiento y ayudan al ciempiés a encontrar alimento. En su mayoría, los ciempiés no son peligrosos para los seres humanos."
+        }
+      ],
+      "narration": "assets/es/cent/CENT03NP.mp3"
+    },
+    {
+      "id": "hands-off",
+      "title": "¡Manos fuera!",
+      "image": "assets/es/cent/CENT04PU.webp",
+      "text": "Los ciempiés no son amistosos. Cuando se les molesta, su primera reacción es morder y después huir. Los ciempiés tropicales suelen ser grandes y venenosos; su dolorosa picadura podría enviarte al hospital. Pero en su mayor parte la picadura de los ciempiés no es peor que la de muchas abejas. Deberías respetar a los ciempiés, porque se comen las plagas domésticas y de jardín, como las cucarachas.",
+      "captions": [
+        {
+          "label": "Cucarachas para almorzar",
+          "text": "Para un ciempiés, una cucaracha es un delicioso y crujiente aperitivo."
+        },
+        {
+          "label": "La escolopendra",
+          "text": "Su picadura es como la de un avispón: dolorosa, pero no mortal."
+        },
+        {
+          "label": "¡No lo hagas!",
+          "text": "Si tocas un ciempiés, es fácil que te pique."
+        }
+      ],
+      "narration": "assets/es/cent/CENT04NP.mp3"
+    },
+    {
+      "id": "warning-stripes",
+      "title": "Franjas de advertencia",
+      "image": "assets/es/cent/CENT05PU.webp",
+      "text": "En el mundo animal, las franjas de color normalmente quieren decir: «¡No te metas conmigo! ¡Soy peligrosa!». Los dibujos del cuerpo de esta escolopendra son un ejemplo de este mensaje. También estos animales envían esa señal.",
+      "narration": "assets/es/cent/CENT05NP.mp3"
+    },
+    {
+      "id": "rain-forest-creepy-crawler",
+      "title": "Los bichos de la selva tropical",
+      "image": "assets/es/cent/CENT06PU.webp",
+      "text": "Este animal no es un ciempiés, aunque tenga muchas patas, sino una oruga del Heliconio o ninfálida; pero tiene una cosa en común con el ciempiés: es venenosa. Se ha llenado de veneno por comer las hojas tóxicas de la pasionaria.",
+      "captions": [
+        {
+          "label": "La mariposa de la granadilla del monte o de la pasionaria",
+          "text": "La oruga del Heliconio sigue siendo venenosa cuando se transforma en mariposa. Muchos animales, como este insecto, tienen colores vivos para advertir a los predadores que es peligroso comerlos."
+        }
+      ],
+      "narration": "assets/es/cent/CENT06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/cent/CENT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 2.99,
+            "y": 1.83,
+            "w": 7.76,
+            "h": 9.54
+          },
+          {
+            "label": "Un merodeador a la luz de la luna",
+            "to": "moonlight-marauder",
+            "x": 64.56,
+            "y": 10.49,
+            "w": 20.89,
+            "h": 9.11
+          },
+          {
+            "label": "Los bichos de la selva tropical",
+            "to": "rain-forest-creepy-crawler",
+            "x": 64.4,
+            "y": 10.49,
+            "w": 30.89,
+            "h": 9.98
+          },
+          {
+            "label": "¿Milpiés o ciempiés?",
+            "to": "video",
+            "x": 45,
+            "y": 30,
+            "w": 40,
+            "h": 6
+          },
+          {
+            "label": "Franjas de advertencia",
+            "to": "warning-stripes",
+            "x": 62,
+            "y": 41,
+            "w": 27,
+            "h": 6
+          },
+          {
+            "label": "¡Manos fuera!",
+            "to": "hands-off",
+            "x": 2,
+            "y": 57,
+            "w": 17,
+            "h": 6
+          },
+          {
+            "label": "¿Demasiadas patas?",
+            "to": "lots-of-legs",
+            "x": 27,
+            "y": 59,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Unos colmillos temibles",
+            "to": "fearsome-fangs",
+            "x": 51,
+            "y": 57,
+            "w": 24,
+            "h": 6
+          }
+        ]
+      },
+      "fearsome-fangs": {
+        "image": "assets/es/cent/CENT01PU.webp",
+        "back": "main"
+      },
+      "lots-of-legs": {
+        "image": "assets/es/cent/CENT02PU.webp",
+        "back": "main"
+      },
+      "moonlight-marauder": {
+        "image": "assets/es/cent/CENT03PU.webp",
+        "back": "main"
+      },
+      "hands-off": {
+        "image": "assets/es/cent/CENT04PU.webp",
+        "back": "main"
+      },
+      "warning-stripes": {
+        "image": "assets/es/cent/CENT05PU.webp",
+        "back": "main"
+      },
+      "rain-forest-creepy-crawler": {
+        "image": "assets/es/cent/CENT06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/cent/CENT00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/cent/clip.mp4",
+        "poster": "assets/es/cent/CENT07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/cent/narration.mp3",
+  "sound": "assets/es/cent/CENT00AF.mp3",
+  "factsNarration": "assets/es/cent/CENT00FB.mp3",
+  "video": {
+    "title": "¿Milpiés o ciempiés?",
+    "src": "assets/es/cent/clip.mp4",
+    "poster": "assets/es/cent/poster.webp",
+    "caption": "¿Cómo puedes distinguir a estos dos animales? A diferencia de los ciempiés, los milpiés comen plantas, por lo que no necesitan garras venenosas. Además, los ciempiés tienen un par de patas por cada segmento del cuerpo, mientras que los milpiés tienen dos."
+  }
+}

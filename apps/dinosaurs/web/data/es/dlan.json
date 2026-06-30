@@ -1,0 +1,171 @@
+{
+  "id": "dlan",
+  "code": "DLAN",
+  "name": "Paisaje de los dinosaurios",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "DY-nuh-sor LAND-skayp",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "¡El mundo de los dinosaurios era verde y exuberante, y algunas de esas plantas antiguas siguen vivas hoy en día!",
+  "hero": {
+    "image": "assets/dlan/DLAN00AA.webp",
+    "alt": "Paisaje de los dinosaurios"
+  },
+  "intro": "Durante los 160 millones de años del reinado de los dinosaurios, el paisaje del mundo cambió considerablemente. Al principio, existía una gran masa de tierra donde las plantas bajas parecidas a los helechos dominaban el terreno. Con el paso de millones de años, esa masa de tierra se fue fragmentando y formó gradualmente los continentes que conocemos hoy. El clima también cambió. Ambos factores influyeron enormemente en los tipos de plantas que crecían. Las plantas arbustivas dieron paso a enormes bosques de coníferas y prósperos bosquecillos de cícadas. Después empezaron a aparecer las plantas con flores. Aunque los dinosaurios han desaparecido, muchas plantas que puede que los dinosaurios comieran todavía se pueden ver hoy en día.",
+  "facts": [],
+  "topics": [
+    {
+      "id": "fir-feast",
+      "title": "Festín de abetos",
+      "image": "assets/dlan/DLAN01PU.webp",
+      "text": "Los dinosaurios herbívoros podían encontrar abundante vegetación para saciar su apetito. Distintos dinosaurios se especializaron en alimentarse de diferentes plantas. Los dinosaurios de pico de pato como el Parasaurolophus podían con los árboles y arbustos más resistentes, gracias a sus potentes músculos mandibulares y a los cientos de dientes de reemplazo que tenían. Las agujas de pino no suponían ningún problema para estos campeones de la masticación.",
+      "captions": [
+        {
+          "label": "Fósil de conífera",
+          "text": "Las coníferas, o árboles con piñas, ya vivían en la época de los dinosaurios. Esta sección de madera petrificada muestra los anillos anuales de crecimiento del árbol. La araucaria, que todavía existe hoy en día, es un tipo primitivo de conífera."
+        },
+        {
+          "label": "Conífera gigante",
+          "text": "Las secuoyas gigantes son un tipo de conífera que hoy en día solo se encuentra en Norteamérica."
+        }
+      ]
+    },
+    {
+      "id": "fern-feeders",
+      "title": "Comedores de helechos",
+      "image": "assets/dlan/DLAN02PU.webp",
+      "text": "Protegidos de los depredadores por sus placas óseas y sus espinas salientes, los dinosaurios acorazados como el Polacanthus y el Hylaeosaurus se alimentaban entre los helechos de porte bajo. El alimento era abundante; alfombras de helechos cubrían las llanuras de inundación pantanosas de aquella época.",
+      "captions": [
+        {
+          "label": "Dos tipos de helechos",
+          "text": "Hoy en día existen unas 10.000 especies de helechos. En lugar de semillas, los helechos modernos tienen esporangios en la cara inferior de sus hojas. Muchos de los antiguos helechos arbóreos del período Jurásico eran helechos con semillas, parientes prehistóricos de las plantas actuales que producen semillas."
+        },
+        {
+          "label": "Registro en la roca",
+          "text": "¿Cómo sabemos que los helechos abundaban durante la Era de los Dinosaurios? Los fósiles de plantas como este helecho conservados en la roca pueden contarnos cómo era el paisaje de la era Mesozoica."
+        }
+      ]
+    },
+    {
+      "id": "the-flowering",
+      "title": "La floración",
+      "image": "assets/dlan/DLAN03PU.webp",
+      "text": "Hace unos 100 millones de años, las primeras plantas con flores comenzaron a aparecer y rápidamente dominaron el paisaje. ¿Qué diferencia a las plantas con flores de otros tipos? Las plantas con flores son angiospermas, o plantas de «semilla encerrada», en las que cubiertas protectoras como nueces o frutos encierran la semilla para protegerla. Los frutos y las nueces también animan a los animales a comer y distribuir las semillas, lo que da a las angiospermas una ventaja al permitirles dispersarse a mayores distancias. Hoy en día podemos ver una enorme variedad de angiospermas, desde rosas y tréboles hasta robles y manzanos."
+    },
+    {
+      "id": "enduring-through-the-eras",
+      "title": "Resistiendo a través de las eras",
+      "image": "assets/dlan/DLAN04PU.webp",
+      "text": "¿Son las plantas más resistentes que los animales? Aunque los dinosaurios han desaparecido, algunas plantas que vivieron junto a ellos han sobrevivido hasta nuestros días.",
+      "captions": [
+        {
+          "label": "Magnolia",
+          "text": "La próxima vez que disfrutes de la vista de una flor de magnolia o te deleites con su fragancia, podrás apreciar también la resistencia de esta planta. ¡Las magnolias llevan millones de años en el planeta! Puede que los dinosaurios comieran flores de magnolia de postre, después de sus comidas de vegetación más dura."
+        },
+        {
+          "label": "Ginkgo",
+          "text": "Este árbol es originario de China, aunque sus antepasados prehistóricos estaban mucho más extendidos. También se pueden ver ginkgos en jardines de todo el mundo. Sus hojas en forma de abanico son fáciles de reconocer. Puede que fueran el tentempié favorito de los dinosaurios herbívoros."
+        },
+        {
+          "label": "Araucaria",
+          "text": "La araucaria moderna se parece mucho a su antepasada prehistórica, que apareció por primera vez en el período Triásico. Sus hojas coriáceas, muy juntas entre sí, pueden vivir quince años antes de caer de la rama."
+        },
+        {
+          "label": "Colas de caballo",
+          "text": "Las colas de caballo se remontan al período Devónico, cuando los primeros anfibios salieron a tierra firme. ¡En aquella época, algunas alcanzaban los dieciocho metros de altura! Hoy en día crecen hasta aproximadamente metro y medio."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Triassic Period",
+      "to": "tria"
+    },
+    {
+      "label": "Dinosaur Diets",
+      "to": "diet"
+    },
+    {
+      "label": "Polacanthus",
+      "to": "pola"
+    },
+    {
+      "label": "The Cretaceous Period",
+      "to": "cret"
+    },
+    {
+      "label": "Living Fossils",
+      "to": "ddec"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/dlan/DLAN00AA.webp",
+        "hotspots": [
+          {
+            "label": "Festín de abetos",
+            "to": "fir-feast",
+            "x": 57,
+            "y": 33,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "Resistiendo a través de las eras",
+            "to": "enduring-through-the-eras",
+            "x": 27,
+            "y": 51,
+            "w": 26,
+            "h": 6
+          },
+          {
+            "label": "La floración",
+            "to": "the-flowering",
+            "x": 10,
+            "y": 76,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Comedores de helechos",
+            "to": "fern-feeders",
+            "x": 57,
+            "y": 76,
+            "w": 15,
+            "h": 6
+          }
+        ]
+      },
+      "fir-feast": {
+        "image": "assets/dlan/DLAN01PU.webp",
+        "back": "main"
+      },
+      "fern-feeders": {
+        "image": "assets/dlan/DLAN02PU.webp",
+        "back": "main"
+      },
+      "the-flowering": {
+        "image": "assets/dlan/DLAN03PU.webp",
+        "back": "main"
+      },
+      "enduring-through-the-eras": {
+        "image": "assets/dlan/DLAN04PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/dlan/DLAN00AP.mp3",
+  "narration": "assets/dlan/DLAN00AJ.mp3",
+  "sound": "assets/dlan/DLAN00SA.mp3",
+  "fanTranslation": true
+}

@@ -11,7 +11,7 @@ __pycache__/
 node_modules/
 
 # workflow intermediate output (any app)
-**/wf_result.json
+**/wf_result*.json
 
 # Astro / Node
 node_modules/

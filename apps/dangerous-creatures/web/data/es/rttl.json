@@ -1,0 +1,273 @@
+{
+  "id": "rttl",
+  "code": "RTTL",
+  "name": "Serpiente de cascabel",
+  "scientificName": "Crotalus atrox",
+  "needsScientificVerify": false,
+  "tagline": "¡La vibración de su cola es la última advertencia que escucharás!",
+  "weapons": [
+    "Veneno y ponzoña"
+  ],
+  "habitats": [
+    "Desierto",
+    "Praderas y sabanas"
+  ],
+  "regions": [
+    "Norteamérica",
+    "Centroamérica",
+    "Sudamérica"
+  ],
+  "hero": {
+    "image": "assets/es/rttl/RTTL00AA.webp",
+    "alt": "Serpiente de cascabel"
+  },
+  "intro": "Una serpiente de cascabel puede identificar y matar a su presa en una oscuridad total. Si hay un ratón cerca, sus sensores infrarrojos detectan el calor del cuerpo del roedor. Y cuando ataca, la cabeza y los colmillos son guiados con gran precisión por unos sensores de calor adicionales situados dentro de la boca. Un ratón que se encuentre con una serpiente puede convertirse en un aperitivo de medianoche sin ver siquiera a su atacante.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Mata inyectando veneno mediante los colmillos",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Roedores, lagartos y pájaros; y ocasionalmente sus huevos.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Incluso muerta puede ser peligrosa. Pues sus colmillos y músculos de la cabeza pueden seguir inyectando veneno.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 2,5 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: América entera",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "rattlesnake-eaters",
+      "title": "Comedores de serpientes de cascabel",
+      "image": "assets/es/rttl/RTTL01PU.webp",
+      "text": "Quizá pienses que a nadie le gustaría comerse a una serpiente de cascabel, pero a la serpiente reina le parece una buena comida.",
+      "captions": [
+        {
+          "label": "Serpiente real de México",
+          "text": "Esta serpiente no es peligrosa para las personas, pero puede confundirse con el coralillo, que sí lo es."
+        },
+        {
+          "label": "Culebra real de California",
+          "text": "Al igual que las demás serpientes reina, esta culebra no es venenosa. Mata a su presa – incluyendo serpientes de cascabel y de cabeza cobriza – mediante constricción."
+        }
+      ],
+      "narration": "assets/es/rttl/RTTL01NP.mp3"
+    },
+    {
+      "id": "copperhead-cousin",
+      "title": "Copperhead cousin",
+      "image": "assets/es/rttl/RTTL02PU.webp",
+      "text": "Unlike a rattlesnake, a copperhead gives no audible warning before it strikes. Its venomous bite is painful but it's rarely fatal to humans. Copperheads vary in color from brown to orange-red, and their skin patterns help them blend into dead leaves in their forest habitat. Copperheads and rattlesnakes are both North American pit vipers.",
+      "captions": [
+        {
+          "label": "Not a copperhead",
+          "text": "Because it has similar coloring and lives in many of the same places, this corn snake is sometimes mistaken for a copperhead. But a corn snake is not venomous, and it is considered a friend to farmers because it eats rodents."
+        }
+      ],
+      "narration": "assets/es/rttl/RTTL02NP.mp3"
+    },
+    {
+      "id": "fang-facts",
+      "title": "Datos sobre colmillos",
+      "image": "assets/es/rttl/RTTL03PU.webp",
+      "text": "Las mandíbulas de la serpiente de cascabel se ajustan de forma holgada mediante un ligamento parecido a una goma elástica, por eso puede abrir tanto la boca. Le es muy útil tanto para atacar como para tragarse animales enteros, pues no mastica su comida.",
+      "captions": [
+        {
+          "label": "Di iaaahhh!",
+          "text": "Los colmillos de la serpiente de cascabel suelen estar inclinados hacia el paladar de la boca. Cuando abre la mandíbula para morder, unos músculos especiales ponen los colmillos en su posición y bombea el veneno hacia la presa desde las glándulas que tiene en la cabeza."
+        }
+      ],
+      "narration": "assets/es/rttl/RTTL03NP.mp3"
+    },
+    {
+      "id": "shedding-skins",
+      "title": "Mudar la piel",
+      "image": "assets/es/rttl/RTTL04PU.webp",
+      "text": "Conforme va creciendo, la piel escamosa se le va quedando pequeña, por lo que muda con regularidad la vieja, que abandona entera e intacta. Para sustituirla, tenía ya debajo una nueva y más grande.",
+      "captions": [
+        {
+          "label": "Muda del lución o culebrilla de cristal",
+          "text": "Este reptil es un lagarto sin patas o ápodo, ¿a que te había engañado? A diferencia de las serpientes, los lagartos mudan su piel a trozos."
+        },
+        {
+          "label": "Piel de la serpiente de los prados",
+          "text": "Esta piel tiene incluso las marcas de su antiguo dueño."
+        }
+      ],
+      "narration": "assets/es/rttl/RTTL04NP.mp3"
+    },
+    {
+      "id": "early-warning-system",
+      "title": "¡Siempre avisa!",
+      "image": "assets/es/rttl/RTTL05PU.webp",
+      "text": "¡Suena que te suena! Cuando la serpiente de cascabel agita la cola, las distintas piezas que contiene entrechocan y producen ese traqueteo característico. El cascabel está hecho del mismo material que las uñas de tus dedos. Cada vez que la serpiente muda la piel, añade una nueva pieza.\n\n¡Siempre avisa! Se cree que las serpientes de cascabel hacen ruido para advertir de su presencia a los animales más grandes. Si has salido de excursión y escuchas un zumbido, mira dónde pisas: ¡una serpiente de cascabel te está avisando educadamente!",
+      "narration": "assets/es/rttl/RTTL05NP.mp3"
+    },
+    {
+      "id": "one-lungs-enough",
+      "title": "¡Basta con un pulmón!",
+      "image": "assets/es/rttl/RTTL06PU.webp",
+      "text": "Como puedes imaginarte, muchos de los órganos del cuerpo de una serpiente son largos y delgados. Sólo funciona uno de sus pulmones.",
+      "captions": [
+        {
+          "label": "Huesos sueltos",
+          "text": "Las costillas de una serpiente no están unidas al esternón y pueden apartarse para dejar sitio a una comida grande."
+        }
+      ],
+      "narration": "assets/es/rttl/RTTL06NP.mp3"
+    },
+    {
+      "id": "snake-ball",
+      "title": "Bola de serpientes",
+      "image": "assets/es/rttl/RTTL07PU.webp",
+      "text": "Durante el invierno, las serpientes de cascabel se reunen para dormir en cuevas o madrigueras subterráneas. Durante este período de hibernación, su metabolismo se ralentiza tanto que no necesitan comer nada. En ocasiones se han llegado a reunir para hibernar hasta 1.000 serpientes.",
+      "narration": "assets/es/rttl/RTTL07NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/rttl/RTTL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 4.87,
+            "y": 7.67,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Bola de serpientes",
+            "to": "snake-ball",
+            "x": 6.43,
+            "y": 8.32,
+            "w": 28.7,
+            "h": 6.51
+          },
+          {
+            "label": "Copperhead cousin",
+            "to": "copperhead-cousin",
+            "x": 20.18,
+            "y": 11.35,
+            "w": 14.01,
+            "h": 10.84
+          },
+          {
+            "label": "Comedores de serpientes de cascabel",
+            "to": "rattlesnake-eaters",
+            "x": 49.4,
+            "y": 6.81,
+            "w": 16.04,
+            "h": 4.13
+          },
+          {
+            "label": "Serpientes luchadoras",
+            "to": "video",
+            "x": 47.84,
+            "y": 6.81,
+            "w": 20.42,
+            "h": 10.19
+          },
+          {
+            "label": "¡Basta con un pulmón!",
+            "to": "one-lungs-enough",
+            "x": 50.34,
+            "y": 24.12,
+            "w": 25.26,
+            "h": 4.56
+          },
+          {
+            "label": "Datos sobre colmillos",
+            "to": "fang-facts",
+            "x": 59.87,
+            "y": 24.12,
+            "w": 15.73,
+            "h": 10.63
+          },
+          {
+            "label": "¡Siempre avisa!",
+            "to": "early-warning-system",
+            "x": 52,
+            "y": 72,
+            "w": 28,
+            "h": 5
+          },
+          {
+            "label": "Mudar la piel",
+            "to": "shedding-skins",
+            "x": 63.46,
+            "y": 75.64,
+            "w": 9.64,
+            "h": 7.59
+          }
+        ]
+      },
+      "rattlesnake-eaters": {
+        "image": "assets/es/rttl/RTTL01PU.webp",
+        "back": "main"
+      },
+      "copperhead-cousin": {
+        "image": "assets/es/rttl/RTTL02PU.webp",
+        "back": "main"
+      },
+      "fang-facts": {
+        "image": "assets/es/rttl/RTTL03PU.webp",
+        "back": "main"
+      },
+      "shedding-skins": {
+        "image": "assets/es/rttl/RTTL04PU.webp",
+        "back": "main"
+      },
+      "early-warning-system": {
+        "image": "assets/es/rttl/RTTL05PU.webp",
+        "back": "main"
+      },
+      "one-lungs-enough": {
+        "image": "assets/es/rttl/RTTL06PU.webp",
+        "back": "main"
+      },
+      "snake-ball": {
+        "image": "assets/es/rttl/RTTL07PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/rttl/RTTL00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/rttl/clip.mp4",
+        "poster": "assets/es/rttl/RTTL08TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/rttl/narration.mp3",
+  "sound": "assets/es/rttl/RTTL00AF.mp3",
+  "factsNarration": "assets/es/rttl/RTTL00FB.mp3",
+  "video": {
+    "title": "Serpientes luchadoras",
+    "src": "assets/es/rttl/clip.mp4",
+    "poster": "assets/es/rttl/poster.webp",
+    "caption": "Las serpientes de cascabel macho son territoriales: no les gusta encontrarse con otros machos en su zona de caza. Cuando dos machos se encuentran luchan enlazando los cuellos para decidir quién se queda."
+  }
+}

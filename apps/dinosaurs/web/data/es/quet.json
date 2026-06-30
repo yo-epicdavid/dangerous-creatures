@@ -1,0 +1,215 @@
+{
+  "id": "quet",
+  "code": "QUET",
+  "name": "Quetzalcoatlus",
+  "category": "creature",
+  "scientificName": "Quetzalcoatlus",
+  "needsScientificVerify": false,
+  "pronunciation": "kwet-ZAL-koh-AT-lus",
+  "meaning": "Serpiente emplumada",
+  "period": "Cretácico superior",
+  "diet": "Carnívoro",
+  "tagline": "¡La criatura voladora más grande jamás descubierta, con unas alas tan anchas como las de un avión pequeño!",
+  "hero": {
+    "image": "assets/quet/QUET00AA.webp",
+    "alt": "Quetzalcoatlus"
+  },
+  "intro": "El Quetzalcoatlus, con una envergadura de hasta doce metros, ¡era tan grande como un avión pequeño! Este pterosaurio es la criatura voladora más grande jamás descubierta. Como un buitre gigantesco, el Quetzalcoatlus surcaba los cielos prehistóricos en busca de su próxima presa.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "América del Norte"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Serpiente emplumada"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Pterosaurio"
+    },
+    {
+      "label": "Envergadura",
+      "value": "12 m (40 pies)"
+    },
+    {
+      "label": "Peso",
+      "value": "190 lb"
+    }
+  ],
+  "topics": [
+    {
+      "id": "crowded-skies",
+      "title": "Cielos concurridos",
+      "image": "assets/quet/QUET01PU.webp",
+      "text": "El Quetzalcoatlus compartía el cielo con otros reptiles voladores como los que se muestran aquí. Los pterosaurios se extinguieron al mismo tiempo que los dinosaurios, por lo que en los cielos actuales no vive ningún reptil, solo aves, murciélagos e insectos.",
+      "captions": [
+        {
+          "label": "Sordes",
+          "text": "Este pterosaurio parece haber estado cubierto de un grueso pelaje que habría ayudado al Sordes a mantenerse caliente durante sus largos vuelos."
+        },
+        {
+          "label": "Pteranodon",
+          "text": "Este volador tenía una larga cresta ósea que pudo haber funcionado como timón durante el vuelo."
+        }
+      ]
+    },
+    {
+      "id": "wing-supports",
+      "title": "El armazón de las alas",
+      "image": "assets/quet/QUET02PU.webp",
+      "text": "Las alas de los reptiles voladores como el Quetzalcoatlus estaban sostenidas por los huesos que formaban las manos y los dedos en los esqueletos de los dinosaurios. El cuarto hueso «dedo» sostenía la mayor parte del ala, extendiéndose hasta la punta. Los tres primeros «dedos» terminaban en garras que sobresalían por el centro del ala. En las aves y los murciélagos actuales, las alas están sostenidas por todos los huesos de los «dedos».",
+      "captions": [
+        {
+          "label": "Alas de dedos",
+          "text": "El ala de un murciélago moderno está sostenida principalmente por huesos de dedos largos y finos. Membranas de piel se extienden entre ellos para formar una superficie de vuelo hermética."
+        }
+      ]
+    },
+    {
+      "id": "truly-a-giant",
+      "title": "Un gigante de verdad",
+      "image": "assets/quet/QUET04PU.webp",
+      "text": "Aquí puedes ver lo grande que era el Quetzalcoatlus. Aunque era mucho más grande que una persona, el Quetzalcoatlus pesaba tan solo unas 190 libras, lo mismo que un hombre corpulento. Al igual que las aves, los pterosaurios tenían huesos muy ligeros; de lo contrario, ¡nunca habrían podido despegar del suelo!"
+    },
+    {
+      "id": "what-did-it-eat",
+      "title": "¿Qué comía?",
+      "image": "assets/quet/QUET05PU.webp",
+      "text": "Algunos pterosaurios tenían los dientes dispuestos para capturar y filtrar pequeñas criaturas del agua del mar, como este Rhamphorhynchus de afilados dientes.",
+      "captions": [
+        {
+          "label": "Un comensal sin dientes",
+          "text": "El Quetzalcoatlus no tenía dientes, por lo que los expertos especulan que tal vez tragaba los peces enteros o se alimentaba de la carne blanda de animales muertos."
+        }
+      ]
+    },
+    {
+      "id": "bird-bones",
+      "title": "Huesos de ave",
+      "image": "assets/quet/QUET06PU.webp",
+      "text": "Los pterosaurios, como el Quetzalcoatlus, tenían huesos muy ligeros, igual que las aves; de lo contrario, estos reptiles voladores no habrían podido despegar del suelo.",
+      "captions": [
+        {
+          "label": "Una garza en planeo",
+          "text": "La esbelta y majestuosa garza es una maestra del vuelo en planeo. Muchos huesos de las aves son huecos para reducir el peso, y su resistencia proviene de su diseño tubular o en forma de caja. Los huesos tubulares tienen finos refuerzos transversales en su interior que los protegen de torsiones y flexiones."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Birds and Dinosaurs",
+      "to": "bird"
+    },
+    {
+      "label": "Sordes",
+      "to": "sord"
+    },
+    {
+      "label": "Pterodactylus",
+      "to": "pter"
+    },
+    {
+      "label": "The Biggest Dinosaurs",
+      "to": "tall"
+    },
+    {
+      "label": "The Cretaceous Period",
+      "to": "cret"
+    },
+    {
+      "label": "What is a Fossil?",
+      "to": "foss"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/quet/QUET00AA.webp",
+        "hotspots": [
+          {
+            "label": "El armazón de las alas",
+            "to": "wing-supports",
+            "x": 52,
+            "y": 33,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Cielos concurridos",
+            "to": "crowded-skies",
+            "x": 12,
+            "y": 42,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "¿Qué comía?",
+            "to": "what-did-it-eat",
+            "x": 69,
+            "y": 47,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Un gigante de verdad",
+            "to": "truly-a-giant",
+            "x": 22,
+            "y": 56,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Huesos de ave",
+            "to": "bird-bones",
+            "x": 63,
+            "y": 63,
+            "w": 13,
+            "h": 5
+          }
+        ]
+      },
+      "crowded-skies": {
+        "image": "assets/quet/QUET01PU.webp",
+        "back": "main"
+      },
+      "wing-supports": {
+        "image": "assets/quet/QUET02PU.webp",
+        "back": "main"
+      },
+      "truly-a-giant": {
+        "image": "assets/quet/QUET04PU.webp",
+        "back": "main"
+      },
+      "what-did-it-eat": {
+        "image": "assets/quet/QUET05PU.webp",
+        "back": "main"
+      },
+      "bird-bones": {
+        "image": "assets/quet/QUET06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/quet/QUET50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/quet/QUET00AP.mp3",
+  "narration": "assets/quet/QUET00AJ.mp3",
+  "fanTranslation": true
+}

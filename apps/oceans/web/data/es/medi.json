@@ -1,0 +1,228 @@
+{
+  "id": "medi",
+  "code": "MEDI",
+  "name": "El mar Mediterráneo",
+  "category": "place",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡El mar que los romanos pusieron en el centro del mundo esconde leyendas, tesoros y secretos bajo sus olas!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Mar abierto",
+    "Ríos y estuarios"
+  ],
+  "oceans": [
+    "Mar Mediterráneo",
+    "Mar Negro"
+  ],
+  "hero": {
+    "image": "assets/es/medi/MEDI00AA.webp",
+    "alt": "El mar Mediterráneo"
+  },
+  "intro": "Los romanos llamaban al Mediterráneo \"el centro de la tierra\", nombre apropiado para el volumen de agua que ocupaba el centro de su mundo. En este mar, rodeado por tres de los siete continentes, se ha navegado y pescado durante miles de años. El Mediterráneo está casi enteramente rodeado por tierra, por lo que las corrientes tardan mucho tiempo en aportarle agua más limpia del océano Atlántico. Esto agrava el problema de la contaminación, que amenaza la vida animal del Mediterráneo.",
+  "facts": [
+    {
+      "label": "Nombre antiguo",
+      "value": "Los romanos llamaban al Mediterráneo «el centro de la tierra»"
+    },
+    {
+      "label": "Continentes",
+      "value": "Está rodeado por tres de los siete continentes"
+    },
+    {
+      "label": "La Atlántida",
+      "value": "La erupción del volcán de Santorini hacia el año 1450 a. de C. pudo haber inspirado la leyenda de la ciudad perdida de la Atlántida"
+    },
+    {
+      "label": "Mar Negro",
+      "value": "El Mar Negro tiene tan bajo nivel de oxígeno en sus aguas profundas del centro que gran parte de su vida ha muerto"
+    },
+    {
+      "label": "Aves",
+      "value": "Unos 3.000 millones de aves descansan y se alimentan en los humedales que bordean el Mediterráneo"
+    },
+    {
+      "label": "Naufragios",
+      "value": "Las naves y los barcos de carga de las antiguas civilizaciones griega, fenicia, romana, etrusca, bizantina y árabe permanecen enterrados en el limo del fondo del mar."
+    }
+  ],
+  "topics": [
+    {
+      "id": "go-with-the-flow",
+      "title": "Ir con la corriente",
+      "image": "assets/es/medi/MEDI01PU.webp",
+      "text": "La química impulsa las corrientes del mar Mediterráneo. Las aguas superficiales del océano Atlántico fluyen hacia el este a través del apretado estrecho de Gibraltar. Cuando se evapora el agua en este mar cálido, ésta se vuelve más salada y más densa, y se sumerge para formar una corriente que se dirige hacia el oeste por debajo de las aguas más frías que entran.\n\nCómo colarse\nLos barcos de vela normalmente tenían que esperar a que se desencadenase un viento fuerte para pasar al Atlántico, en contra de la constante corriente superficial. Se cree que los fenicios sumergían sus velas varias brazas en el agua para aprovechar la corriente saliente. Los submarinos han utilizado las corrientes saladas para deslizarse fuera del Mediterráneo sin utilizar sus máquinas.",
+      "captions": [
+        {
+          "label": "Submarinos alemanes",
+          "text": "Submarinos alemanes"
+        }
+      ],
+      "narration": "assets/es/medi/MEDI01JN.mp3"
+    },
+    {
+      "id": "the-lost-city-of-atlantis",
+      "title": "La ciudad perdida de la Atlántida",
+      "image": "assets/es/medi/MEDI02PU.webp",
+      "text": "El colapso de la civilización minoica de la antigua Creta fue probablemente acelerado por un gran maremoto que tuvo lugar en el Mediterráneo hacia el año 1450 a. de C. Esta catástrofe, causada por la erupción y derrumbamiento de un volcán en la isla cercana de Santorini (conocida ahora como Thira), puede haber contribuido a difundir la leyenda de la Atlántida, una ciudad perdida en el mar.",
+      "narration": "assets/es/medi/MEDI02JN.mp3",
+      "captions": [
+        {
+          "label": "Santorini antes",
+          "text": "Santorini antes de la explosión volcánica"
+        },
+        {
+          "label": "Santorini después",
+          "text": "Santorini después de la explosión"
+        }
+      ]
+    },
+    {
+      "id": "the-black-sea",
+      "title": "El Mar Negro",
+      "image": "assets/es/medi/MEDI03PU.webp",
+      "text": "El Mar Negro es de este color por los sedimentos de mineral que se encuentran en sus aguas. Este mar ha llegado a tener tan bajo nivel de oxígeno, especialmente en sus aguas profundas del centro, que gran parte de su vida ha muerto. Cuando los organismos muertos se descomponen, desprenden sustancias químicas que reaccionan con los minerales que hay en el agua, formando estos sedimentos negros.",
+      "narration": "assets/es/medi/MEDI03JN.mp3",
+      "captions": [
+        {
+          "label": "Castillo",
+          "text": "Castillo del Nido de las Golondrinas, en el Mar Negro"
+        }
+      ]
+    },
+    {
+      "id": "pollution-problems",
+      "title": "Los problemas de la contaminación",
+      "image": "assets/es/medi/MEDI04PU.webp",
+      "text": "El Mar Negro y el Mediterráneo contienen algunas de las aguas más contaminadas del mundo, pero los países ribereños han formado un grupo para estudiar y controlar la contaminación.\n\nAguas mortales\nLos desechos industriales, incluso en concentraciones muy pequeñas, son extremadamente tóxicos para la vida marina. Las aguas contaminadas pueden producir también brotes de hepatitis, cólera y disentería en los seres humanos.\n\nDemasiadas algas\nEl vertido de alcantarillas y fertilizantes origina un desarrollo rápido de algas llamado floraciones algales. Al principio, esto produce un aumento de la cantidad de peces en la zona. Sin embargo, cuando las algas mueren, su descomposición consume una gran cantidad de oxígeno del agua, causando posteriormente la muerte de muchos organismos.",
+      "captions": [
+        {
+          "label": "Peces muertos",
+          "text": "Peces muertos por la contaminación"
+        },
+        {
+          "label": "Floración algal",
+          "text": "Floración algal"
+        }
+      ],
+      "narration": "assets/es/medi/MEDI04JN.mp3"
+    },
+    {
+      "id": "valuable-preserves",
+      "title": "Reservas de gran valor",
+      "image": "assets/es/medi/MEDI06PU.webp",
+      "text": "Los humedales, como las marismas, los deltas y áreas herbáceas de las marismas, son hábitats cada vez más escasos para las aves y otras especies de vida marina. Las hierbas de las marismas ayudan a estabilizar la línea costera, capturando sedimentos.\n\nParada de descanso\nLos humedales de Camargue se extienden a lo largo del delta del río Ródano, en Francia. Este área sirve para preservar a muchas especies de aves migratorias y a otras muchas formas de fauna y flora.\n\nSantuarios de fango\nUnos 3.000 millones de aves descansan y se alimentan en los humedales que bordean el Mediterráneo. Este delta se halla en la boca del río Nilo, en Egipto.",
+      "narration": "assets/es/medi/MEDI06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Exploradores del Mediterráneo oriental",
+      "to": "east"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/medi/MEDI00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 7,
+            "h": 6
+          },
+          {
+            "label": "Ir con la corriente",
+            "to": "go-with-the-flow",
+            "x": 61,
+            "y": 25,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "La ciudad perdida de la Atlántida",
+            "to": "the-lost-city-of-atlantis",
+            "x": 50,
+            "y": 33,
+            "w": 30,
+            "h": 5
+          },
+          {
+            "label": "El Mar Negro",
+            "to": "the-black-sea",
+            "x": 35,
+            "y": 43,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Los problemas de la contaminación",
+            "to": "pollution-problems",
+            "x": 9,
+            "y": 49,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Un mar de antigüedades",
+            "to": "video",
+            "x": 20,
+            "y": 56,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Reservas de gran valor",
+            "to": "valuable-preserves",
+            "x": 25,
+            "y": 70,
+            "w": 20,
+            "h": 5
+          }
+        ]
+      },
+      "go-with-the-flow": {
+        "image": "assets/es/medi/MEDI01PU.webp",
+        "back": "main"
+      },
+      "the-lost-city-of-atlantis": {
+        "image": "assets/es/medi/MEDI02PU.webp",
+        "back": "main"
+      },
+      "the-black-sea": {
+        "image": "assets/es/medi/MEDI03PU.webp",
+        "back": "main"
+      },
+      "pollution-problems": {
+        "image": "assets/es/medi/MEDI04PU.webp",
+        "back": "main"
+      },
+      "valuable-preserves": {
+        "image": "assets/es/medi/MEDI06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/medi/clip.mp4",
+        "poster": "assets/es/medi/MEDI05PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/medi/MEDI00JN.mp3",
+  "sound": "assets/es/medi/MEDI00IX.mp3",
+  "video": {
+    "title": "Un mar de antigüedades",
+    "src": "assets/es/medi/clip.mp4",
+    "poster": "assets/es/medi/poster.webp",
+    "caption": "Un buceador examina los restos arqueológicos de naufragios y artefactos de antiguas civilizaciones —griega, fenicia, romana, etrusca, bizantina y árabe— enterrados en el limo del fondo del mar Mediterráneo.",
+    "narration": "assets/es/medi/MEDI05JN.mp3"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "id": "squi",
+  "code": "SQUI",
+  "name": "El calamar y la sepia",
+  "category": "creature",
+  "scientificName": "Cephalopoda decapoda",
+  "needsScientificVerify": false,
+  "tagline": "¡Maestros del disfraz con diez tentáculos y un caparazón escondido!",
+  "zones": [
+    "Mar abierto",
+    "Arrecife de coral"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/squi/SQUI00AA.webp",
+    "alt": "El calamar y la sepia"
+  },
+  "intro": "¿Qué te parecería ser una \"cabeza con patas\"? De ahí le viene el nombre a la familia de los cefalópodos. Las \"patas\" del calamar, la sepia y el pulpo son en realidad brazos o tentáculos que nacen de su cabeza. El calamar y la sepia tienen el cuerpo alargado, la cabeza y diez tentáculos (8 cortos y dos largos). Ambos animales están dotados de un diminuto caparazón interior. De hecho, puede que hayas visto el caparazón interno de una sepia en la jaula de un pájaro: es una estructura plana y blanca conocida como jibión.",
+  "facts": [
+    {
+      "label": "Tentáculos",
+      "value": "10 tentáculos: 8 cortos y 2 largos"
+    },
+    {
+      "label": "Velocidad",
+      "value": "El calamar es el invertebrado que nada más rápido"
+    },
+    {
+      "label": "Tamaño",
+      "value": "Los calamares gigantes pueden medir hasta 8 m de largo"
+    },
+    {
+      "label": "Dieta",
+      "value": "Se alimentan de crustáceos como el cangrejo, la langosta y las quisquillas"
+    },
+    {
+      "label": "Camuflaje",
+      "value": "Pueden cambiar de color repentinamente gracias a bolsas de pigmentos amarillo, naranja, marrón, rojo y negro"
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "El caparazón interno de la sepia es la estructura plana y blanca conocida como jibión, que suele verse en las jaulas de los pájaros"
+    }
+  ],
+  "topics": [
+    {
+      "id": "hungry-athletes",
+      "title": "Atleta hambriento",
+      "image": "assets/es/squi/SQUI01PU.webp",
+      "text": "El calamar es el invertebrado que nada más rápido. Envía una corriente de agua a través de su manto o cuerpo, creando un efecto de propulsión, mientras se sirve de sus aletas traseras, en forma triangular, como guías. Puede impulsarse hacia delante, para atrapar una presa, o hacia atrás, para escapar de sus predadores. Depende en gran medida de su agudo sentido de la vista. Cuando localiza un pez u otra presa, sus largos tentáculos, dotados de ventosas, se disparan y agarran fuertemente a su víctima. Acto seguido, el calamar le arranca la cabeza de un mordisco, triturándolo en sus poderosas fauces.",
+      "narration": "assets/es/squi/SQUI01JN.mp3",
+      "captions": [
+        {
+          "label": "Calamar",
+          "text": "Cephalopoda decapoda"
+        }
+      ]
+    },
+    {
+      "id": "predator-and-prey",
+      "title": "Predadores y presas",
+      "image": "assets/es/squi/SQUI02PU.webp",
+      "text": "El calamar es un gran predador. Pero tiene que andar con cautela. Está en mitad de la red trófica, lo que significa que hay multitud de seres que lo incluyen en su menú.\n\nAmantes del marisco\nEl calamar y la sepia se alimentan de crustáceos como el cangrejo, la langosta y las quisquillas.\n\nLucha de titanes\nEl cachalote devora a muchos calamares. Se cuentan historias de terribles combates entre cachalotes y calamares gigantes, que pueden medir hasta 8 m de largo... Pero jamás se han hallado restos de cachalote en el estómago de un calamar, mientras que sí se han encontrado abundantes calamares en el interior de un cachalote, por lo que queda poca duda sobre quién es el vencedor.",
+      "captions": [
+        {
+          "label": "Cangrejo de piedra",
+          "text": "Lopholithodes mandtii"
+        },
+        {
+          "label": "Cachalote",
+          "text": "Physeter macrocephalus o Physeter catodon"
+        }
+      ],
+      "narration": "assets/es/squi/SQUI02JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Los cangrejos",
+      "to": "crab"
+    },
+    {
+      "label": "Peces inflables",
+      "to": "infl"
+    },
+    {
+      "label": "Los exploradores chinos",
+      "to": "chin"
+    },
+    {
+      "label": "El pez sapo",
+      "to": "angl"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/squi/SQUI00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 2,
+            "w": 10,
+            "h": 8
+          },
+          {
+            "label": "Expertos en camuflaje",
+            "to": "video",
+            "x": 56,
+            "y": 16,
+            "w": 38,
+            "h": 7
+          },
+          {
+            "label": "Atleta hambriento",
+            "to": "hungry-athletes",
+            "x": 60,
+            "y": 34,
+            "w": 30,
+            "h": 7
+          },
+          {
+            "label": "Predadores y presas",
+            "to": "predator-and-prey",
+            "x": 5,
+            "y": 70,
+            "w": 27,
+            "h": 7
+          }
+        ]
+      },
+      "hungry-athletes": {
+        "image": "assets/es/squi/SQUI01PU.webp",
+        "back": "main"
+      },
+      "predator-and-prey": {
+        "image": "assets/es/squi/SQUI02PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/squi/clip.mp4",
+        "poster": "assets/es/squi/SQUI03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/squi/SQUI00JN.mp3",
+  "sound": "assets/es/squi/SQUI00IX.mp3",
+  "video": {
+    "title": "Expertos en camuflaje",
+    "src": "assets/es/squi/clip.mp4",
+    "poster": "assets/es/squi/poster.webp",
+    "caption": "La sepia y el calamar tienen un asombroso truco: ¡pueden cambiar de color repentinamente! En el interior de su cuerpo hay unas pequeñas bolsas con pigmentos amarillo, naranja, marrón, rojo y negro. Para lucir o esconder esos colores, contraen o expanden una serie de músculos especiales. Inmediatamente, la sepia puede confundirse con su entorno y ocultarse. A veces, un grupo entero de sepias cambia de color simultáneamente.",
+    "narration": "assets/es/squi/SQUI03JN.mp3"
+  }
+}

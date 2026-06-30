@@ -17,11 +17,15 @@ import os, sys, glob, json, subprocess
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
+sys.path.insert(0, os.path.join(HERE, "..", "..", "..", "packages", "pipeline"))
 from szdd import expand
 
-DISC = "/Volumes/MS_OCEANS/DATA"
+# Locale-aware: defaults extract the English disc to web/assets/. Set LOCALE=es +
+# DISC="/Volumes/MS Oceanos/DATA" to extract the Castilian disc to web/assets/es/.
+DISC = os.environ.get("DISC", "/Volumes/MS_OCEANS/DATA")
+LOCALE = os.environ.get("LOCALE", "")
 WEB = os.path.abspath(os.path.join(HERE, "..", "web"))
-OUT_ROOT = os.path.join(WEB, "assets")
+OUT_ROOT = os.path.join(WEB, "assets", LOCALE) if LOCALE else os.path.join(WEB, "assets")
 FF = "/opt/homebrew/bin/ffmpeg"
 DN = subprocess.DEVNULL
 
@@ -89,9 +93,10 @@ def main():
                   f"qn={len(audio['qn'])} ix={len(audio['ix'])} vid={'Y' if video else '-'}")
 
     os.makedirs(WEB, exist_ok=True)
-    with open(os.path.join(WEB, "extracted-manifest.json"), "w") as f:
+    manifest_name = f"extracted-manifest-{LOCALE}.json" if LOCALE else "extracted-manifest.json"
+    with open(os.path.join(WEB, manifest_name), "w") as f:
         json.dump(manifest, f, indent=2)
-    print(f"\nDONE: {len(manifest)} entries -> {WEB}/extracted-manifest.json")
+    print(f"\nDONE: {len(manifest)} entries -> {WEB}/{manifest_name}")
 
 
 if __name__ == "__main__":

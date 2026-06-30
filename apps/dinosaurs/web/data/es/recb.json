@@ -1,0 +1,214 @@
+{
+  "id": "recb",
+  "code": "RECB",
+  "name": "Los romperécords",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Desde el más diminuto hasta el más aterrador: conoce a los dinosaurios que batieron todos los récords.",
+  "hero": {
+    "image": "assets/recb/RECB00AA.webp",
+    "alt": "Los romperécords"
+  },
+  "intro": "El mundo de los dinosaurios era muy diverso. No todos los dinosaurios eran enormes, ni todos eran feroces. Mientras que algunos medían más de 30 metros de largo, otros apenas llegaban a los 60 centímetros de longitud. La mayoría eran pacíficos herbívoros; otros tenían que matar para alimentarse. Algunos se movían pesadamente sobre cuatro patas; otros avanzaban a gran velocidad sobre dos. Aquí se muestran algunos de los dinosaurios más excepcionales. Representan los extremos del reino de los dinosaurios. ¿Eres capaz de adivinar a qué romperécords pertenece cada imagen?",
+  "facts": [
+    {
+      "label": "Mayor carnívoro",
+      "value": "Tiranosaurio rex, casi 12 metros de largo y hasta siete toneladas de peso"
+    },
+    {
+      "label": "El más largo",
+      "value": "Seismosaurus, longitud no oficial de unos 37 metros"
+    },
+    {
+      "label": "El más pequeño",
+      "value": "Compsognathus, apenas 60 centímetros de longitud"
+    },
+    {
+      "label": "El más rápido",
+      "value": "Gallimimus, unos 48 kilómetros por hora"
+    },
+    {
+      "label": "Fósiles más comunes",
+      "value": "Iguanodon, cinco toneladas y nueve metros de longitud"
+    },
+    {
+      "label": "Cerebro más pequeño",
+      "value": "Kentrosaurus, unos cinco metros de longitud"
+    }
+  ],
+  "topics": [
+    {
+      "id": "one-of-the-meanest",
+      "title": "Uno de los más temibles",
+      "image": "assets/recb/RECB01PU.webp",
+      "text": "El carnívoro más grande que jamás pisó la Tierra fue el Tiranosaurio rex. Con casi 12 metros de largo de la cabeza a la cola, llegaba a pesar hasta siete toneladas. El Tiranosaurio rex tenía unas mandíbulas enormes y poderosas, repletas de afilados dientes con bordes aserrados de hasta 18 centímetros de longitud. Con sus cortos pero potentes músculos del cuello, podía retorcer el cuerpo y arrancar grandes pedazos de carne de sus víctimas. Aunque el Tiranosaurio rex medía unos seis metros de altura, probablemente llevaba la cabeza baja y extendía su gruesa cola como contrapeso. Sus brazos, relativamente pequeños, tenían dos garras afiladas que quizás le servían para sujetar a sus presas mientras las devoraba."
+    },
+    {
+      "id": "the-longest",
+      "title": "El más largo",
+      "image": "assets/recb/RECB02PU.webp",
+      "text": "El Diplodocus, uno de los grandes herbívoros, medía unos 26 metros de longitud y pesaba hasta 15 toneladas. Hasta hace poco, se creía que era el dinosaurio más largo que había existido. Sin embargo, unos huesos recién descubiertos en Nuevo México podrían convertir al herbívoro Seismosaurus en el dinosaurio más largo conocido, con una longitud no oficial de unos 37 metros."
+    },
+    {
+      "id": "the-most-common",
+      "title": "El más común",
+      "image": "assets/recb/RECB03PU.webp",
+      "text": "Los fósiles del Iguanodon se encuentran entre los primeros restos de dinosaurios que se descubrieron. Se han hallado muchos, a menudo en grupos. Este gran herbívoro pesaba unas cinco toneladas y medía nueve metros de longitud. Tenía un pico sin dientes, pero podía defenderse con sus pulgares en forma de espina."
+    },
+    {
+      "id": "the-smallest",
+      "title": "El más pequeño",
+      "image": "assets/recb/RECB04PU.webp",
+      "text": "Con apenas 60 centímetros de longitud, el Compsognathus era aproximadamente del tamaño y peso de una gallina. Era un corredor veloz que perseguía insectos y otras pequeñas criaturas hace 145 millones de años."
+    },
+    {
+      "id": "the-fastest",
+      "title": "El más rápido",
+      "image": "assets/recb/RECB05PU.webp",
+      "text": "El dinosaurio Gallimimus se parecía al avestruz actual. Sus largas y esbeltas patas podían propulsarlo a unos 48 kilómetros por hora. El Gallimimus vivió hace 70 millones de años en lo que hoy es Mongolia, donde se alimentaba de insectos voladores y pequeños lagartos."
+    },
+    {
+      "id": "the-dumbest",
+      "title": "El menos listo",
+      "image": "assets/recb/RECB07PU.webp",
+      "text": "El Kentrosaurus, un pariente pequeño del Estegosaurio, tenía un cerebro muy pequeño para su tamaño corporal. Este herbívoro cuadrúpedo medía unos cinco metros de longitud y tenía dos filas de placas triangulares a lo largo del cuello y los hombros, y altas y estrechas espinas sobre el cuello y la cola. La inteligencia, al parecer, no era necesaria para su supervivencia, ya que el Kentrosaurus y sus primos estegosáuridos sobrevivieron durante más de setenta millones de años."
+    },
+    {
+      "id": "the-strangest",
+      "title": "El más extraño",
+      "image": "assets/recb/RECB08PU.webp",
+      "text": "La cresta con forma de cuerno en lo alto de la cabeza del Tsintaosaurus podría haber servido de soporte para un pliegue de piel que el dinosaurio inflaba como un globo. Esta criatura no solo habría tenido un aspecto extraño con la frente inflada, sino que también debía de emitir sonidos peculiares. Los científicos creen que esta cresta pudo actuar como un «resonador» que amplificaba la voz del dinosaurio."
+    },
+    {
+      "id": "one-of-the-last",
+      "title": "Uno de los últimos",
+      "image": "assets/recb/RECB09PU.webp",
+      "text": "El Triceratops, cuyo nombre hace referencia a sus tres cuernos en la cara, vivió hace unos 65-70 millones de años, al final de la Era de los Dinosaurios. Sus cuernos y la gran gorguera ósea del cuello le proporcionaban una gran protección contra los depredadores de la época, como el Tiranosaurio rex."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Weirdest Dinosaurs",
+      "to": "weir"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/recb/RECB00AA.webp",
+        "hotspots": [
+          {
+            "label": "El más largo",
+            "to": "the-longest",
+            "x": 2,
+            "y": 56,
+            "w": 12,
+            "h": 4
+          },
+          {
+            "label": "Uno de los más temibles",
+            "to": "one-of-the-meanest",
+            "x": 38,
+            "y": 27,
+            "w": 18,
+            "h": 4
+          },
+          {
+            "label": "El más común",
+            "to": "the-most-common",
+            "x": 49,
+            "y": 36,
+            "w": 17,
+            "h": 4
+          },
+          {
+            "label": "Uno de los últimos",
+            "to": "one-of-the-last",
+            "x": 65,
+            "y": 26,
+            "w": 15,
+            "h": 4
+          },
+          {
+            "label": "El más extraño",
+            "to": "the-strangest",
+            "x": 73,
+            "y": 29,
+            "w": 14,
+            "h": 4
+          },
+          {
+            "label": "El más pequeño",
+            "to": "the-smallest",
+            "x": 18,
+            "y": 75,
+            "w": 13,
+            "h": 4
+          },
+          {
+            "label": "El más rápido",
+            "to": "the-fastest",
+            "x": 43,
+            "y": 75,
+            "w": 12,
+            "h": 4
+          },
+          {
+            "label": "El menos listo",
+            "to": "the-dumbest",
+            "x": 59,
+            "y": 74,
+            "w": 12,
+            "h": 4
+          }
+        ]
+      },
+      "one-of-the-meanest": {
+        "image": "assets/recb/RECB01PU.webp",
+        "back": "main"
+      },
+      "the-longest": {
+        "image": "assets/recb/RECB02PU.webp",
+        "back": "main"
+      },
+      "the-most-common": {
+        "image": "assets/recb/RECB03PU.webp",
+        "back": "main"
+      },
+      "the-smallest": {
+        "image": "assets/recb/RECB04PU.webp",
+        "back": "main"
+      },
+      "the-fastest": {
+        "image": "assets/recb/RECB05PU.webp",
+        "back": "main"
+      },
+      "the-dumbest": {
+        "image": "assets/recb/RECB07PU.webp",
+        "back": "main"
+      },
+      "the-strangest": {
+        "image": "assets/recb/RECB08PU.webp",
+        "back": "main"
+      },
+      "one-of-the-last": {
+        "image": "assets/recb/RECB09PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/recb/RECB00AP.mp3",
+  "narration": "assets/recb/RECB00AJ.mp3",
+  "sound": "assets/recb/RECB00SA.mp3",
+  "fanTranslation": true
+}

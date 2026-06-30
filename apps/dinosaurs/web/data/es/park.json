@@ -1,0 +1,201 @@
+{
+  "id": "park",
+  "code": "PARK",
+  "name": "Parque Provincial de los Dinosaurios",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "dy-NOH-sor pruh-VIN-shul PARK",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "Uno de los mayores cementerios de dinosaurios del mundo, enterrado en las tierras baldías de Alberta.",
+  "hero": {
+    "image": "assets/park/PARK00AA.webp",
+    "alt": "Parque Provincial de los Dinosaurios"
+  },
+  "intro": "A orillas del río Red Deer, en Alberta, Canadá, se encuentra uno de los yacimientos de dinosaurios más importantes del mundo. El río atraviesa antiguos sedimentos, dejando al descubierto formaciones rocosas y fósiles de millones de años de antigüedad. En esta zona se han recogido animales prehistóricos desde principios de siglo. Se han recopilado aquí casi 350 esqueletos de dinosaurios, y cada año se descubren nuevos restos. Los entusiastas han desenterrado dinosaurios de todo tipo, incluidos hadrosaurios, estegosaurios y anquilosaurios, así como el terrorífico carnosaurio Albertosaurus.",
+  "facts": [
+    {
+      "label": "Ubicación",
+      "value": "Alberta, Canadá"
+    },
+    {
+      "label": "Río",
+      "value": "Río Red Deer"
+    },
+    {
+      "label": "Esqueletos encontrados",
+      "value": "Casi 350"
+    }
+  ],
+  "topics": [
+    {
+      "id": "the-canadian-dinosaur-rush",
+      "title": "La fiebre canadiense de los dinosaurios",
+      "image": "assets/park/PARK01PU.webp",
+      "text": "A principios del siglo XX, los cazadores de dinosaurios de Estados Unidos y Canadá se lanzaron sobre las tierras que bordean el río Red Deer.",
+      "captions": [
+        {
+          "label": "A caballo y en balsa",
+          "text": "Los tesoros fósiles de hadrosaurios, anquilosaurios y dinosaurios cornudos fueron sacados de las tierras baldías en carros tirados por caballos o en balsas de río. El coleccionista americano Barnum Brown fue el primero en transportar fósiles flotándolos río abajo."
+        },
+        {
+          "label": "Un paleontólogo pionero",
+          "text": "Las técnicas de campo no han cambiado mucho a lo largo de un siglo. En esta fotografía de 1917, el paleontólogo Charles Hazelius Sternberg se prepara para enyesar un hueso de dinosaurio. Sternberg y sus hijos fueron responsables de la recopilación de muchos fósiles de dinosaurios de la zona."
+        }
+      ]
+    },
+    {
+      "id": "bully-on-the-block",
+      "title": "El terror del vecindario",
+      "image": "assets/park/PARK02PU.webp",
+      "text": "El Albertosaurus era uno de los dinosaurios carnívoros más comunes del Parque Provincial de los Dinosaurios. Este pariente del Tyrannosaurus rex aterrorizaba a los herbívoros de la zona, atacando a los que se quedaban rezagados en la manada.",
+      "captions": [
+        {
+          "label": "Desenterrando la evidencia",
+          "text": "¿Cómo sabemos lo que sabemos sobre el Albertosaurus? Por los fósiles, por supuesto, como el magnífico cráneo de Albertosaurus que se muestra aquí. En el laboratorio, los trabajadores separan pacientemente los huesos de la roca que los rodea."
+        }
+      ]
+    },
+    {
+      "id": "dinosaur-tunes",
+      "title": "La música de los dinosaurios",
+      "image": "assets/park/PARK03PU.webp",
+      "text": "Con casi quince metros de longitud, el Lambeosaurus era uno de los hadrosaurios más grandes de la zona. Su gran cresta y el saliente apuntando hacia atrás encerraban tubos huecos que llegaban hasta las fosas nasales. Quizás el dinosaurio usaba este peculiar tocado para emitir fuertes sonidos o llamadas a otros hadrosaurios.",
+      "captions": [
+        {
+          "label": "Nombrado en honor a su descubridor",
+          "text": "El Lambeosaurus recibió su nombre en honor al cazador de dinosaurios L. M. Lambe, al que vemos aquí recogiendo fósiles en el Parque Provincial de los Dinosaurios junto a C. H. Sternberg. Esta fotografía fue tomada en 1913."
+        }
+      ]
+    },
+    {
+      "id": "not-an-easy-job",
+      "title": "No era un trabajo fácil",
+      "image": "assets/park/PARK04PU.webp",
+      "text": "Excavar dinosaurios en el Parque Provincial de los Dinosaurios era una tarea muy dura, y transportar los pesados fósiles resultaba aún más difícil. ¡Un hueso grande de dinosaurio puede llegar a pesar una tonelada! En esta fotografía de 1914, C. H. y G. F. Sternberg se preparan para transportar un cráneo de Chasmosaurus en un carro tirado por caballos.",
+      "captions": [
+        {
+          "label": "Un tesoro acorazado",
+          "text": "El Euoplocephalus es el dinosaurio acorazado más común encontrado en esta región. Los anquilosaurios tenían gruesas capas de armadura ósea y púas óseas a lo largo del lomo. ¡El Euoplocephalus pesaba más de dos toneladas! Además, tenía una enorme maza ósea al final de la cola con la que podía golpear a otros dinosaurios."
+        }
+      ]
+    },
+    {
+      "id": "ceratopsian-stampedes",
+      "title": "Estampidas de ceratopsios",
+      "image": "assets/park/PARK05PU.webp",
+      "text": "Se han conservado los esqueletos de una manada entera de Centrosaurus (también llamado Eucentrosaurus). Los huesos pertenecen tanto a animales jóvenes como adultos, y algunos están rotos y aplastados como si hubieran participado en una estampida.",
+      "captions": [
+        {
+          "label": "El experto",
+          "text": "El paleontólogo canadiense Philip Currie ha estudiado los fósiles del Parque Provincial de los Dinosaurios. Cree que estos dinosaurios murieron cuando la manada intentaba cruzar un río desbordado; algunos fueron arrastrados por la corriente y pisoteados por los demás. Currie, que trabaja para el Museo Real Tyrrell de Paleontología en Drumheller, Alberta, también ha realizado una extensa investigación en el desierto del Gobi, en Mongolia."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Important Dinosaur Sites",
+      "to": "site"
+    },
+    {
+      "label": "The American Dinosaur Rush",
+      "to": "amer"
+    },
+    {
+      "label": "Albertosaurus",
+      "to": "albe"
+    },
+    {
+      "label": "Saurolophus",
+      "to": "saur"
+    },
+    {
+      "label": "Euoplocephalus",
+      "to": "euop"
+    },
+    {
+      "label": "Digging up Dinosaurs",
+      "to": "digg"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/park/PARK00AA.webp",
+        "hotspots": [
+          {
+            "label": "La fiebre canadiense de los dinosaurios",
+            "to": "the-canadian-dinosaur-rush",
+            "x": 5,
+            "y": 66,
+            "w": 30,
+            "h": 6
+          },
+          {
+            "label": "Estampidas de ceratopsios",
+            "to": "ceratopsian-stampedes",
+            "x": 46,
+            "y": 52,
+            "w": 27,
+            "h": 5
+          },
+          {
+            "label": "La música de los dinosaurios",
+            "to": "dinosaur-tunes",
+            "x": 42,
+            "y": 61,
+            "w": 23,
+            "h": 5
+          },
+          {
+            "label": "No era un trabajo fácil",
+            "to": "not-an-easy-job",
+            "x": 66,
+            "y": 41,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "El terror del vecindario",
+            "to": "bully-on-the-block",
+            "x": 57,
+            "y": 77,
+            "w": 24,
+            "h": 6
+          }
+        ]
+      },
+      "the-canadian-dinosaur-rush": {
+        "image": "assets/park/PARK01PU.webp",
+        "back": "main"
+      },
+      "bully-on-the-block": {
+        "image": "assets/park/PARK02PU.webp",
+        "back": "main"
+      },
+      "dinosaur-tunes": {
+        "image": "assets/park/PARK03PU.webp",
+        "back": "main"
+      },
+      "not-an-easy-job": {
+        "image": "assets/park/PARK04PU.webp",
+        "back": "main"
+      },
+      "ceratopsian-stampedes": {
+        "image": "assets/park/PARK05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/park/PARK00AP.mp3",
+  "narration": "assets/park/PARK00AJ.mp3",
+  "fanTranslation": true
+}

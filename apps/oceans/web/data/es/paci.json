@@ -1,0 +1,216 @@
+{
+  "id": "paci",
+  "code": "PACI",
+  "name": "El océano Pacífico",
+  "category": "place",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Tan enorme que cubre más de un tercio del globo, y tan furioso que Magallanes le puso el nombre equivocado!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Arrecife de coral",
+    "Mar abierto",
+    "Mar profundo"
+  ],
+  "oceans": [
+    "Océano Pacífico"
+  ],
+  "hero": {
+    "image": "assets/es/paci/PACI00AA.webp",
+    "alt": "El océano Pacífico"
+  },
+  "intro": "El océano Pacífico es inmenso. Cubre más de un tercio del globo y contiene más de la mitad del agua salada del planeta. El explorador portugués Fernando Magallanes le dio ese nombre, que significa «océano tranquilo», a partir de la palabra latina pacificus, cuando finalmente dejó atrás los traicioneros estrechos de la punta meridional de América del Sur. El nombre resulta bastante irónico, considerando que no sólo el propio Magallanes perdió la vida en una isla del Pacífico varios meses después, sino también por el hecho de que este hermoso océano es famoso por sus devastadores terremotos, volcanes y maremotos o tsunamis.",
+  "facts": [
+    {
+      "label": "Tamaño",
+      "value": "Cubre más de un tercio del globo"
+    },
+    {
+      "label": "Agua salada",
+      "value": "Contiene más de la mitad del agua salada del planeta"
+    },
+    {
+      "label": "Profundidad máxima",
+      "value": "La fosa Mariana desciende 11.708 m bajo el nivel del mar"
+    },
+    {
+      "label": "Volcán submarino",
+      "value": "El Mauna Kea mide 10.200 m desde la base submarina hasta el pico, más alto que el Everest"
+    },
+    {
+      "label": "Gran Barrera",
+      "value": "Al menos 350 especies de coral, que representan solo el 10% de la fauna que allí habita"
+    },
+    {
+      "label": "Pesca mundial",
+      "value": "El Pacífico proporciona la mitad de la pesca mundial"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ring-of-fire",
+      "title": "El anillo de fuego",
+      "image": "assets/es/paci/PACI01PU.webp",
+      "text": "El Pacífico es el mayor océano del mundo, pero podría perder su título algún día: ¡está menguando! Las placas tectónicas que conforman el suelo de ese océano están siendo empujadas bajo los continentes que las rodean. Las zonas en las que una placa se desliza bajo otra reciben el nombre de zonas de subducción.",
+      "captions": [
+        {
+          "label": "Soltando vapor",
+          "text": "A las islas volcánicas situadas sobre una zona de subducción las llamamos arco de islas. Estos volcanes a menudo explotan violentamente por la presión del vapor, ya que el magma contiene el agua de los primitivos sedimentos del fondo oceánico."
+        },
+        {
+          "label": "Hundido por la presión",
+          "text": "Cuando una placa oceánica se desliza bajo una continental, sus bordes se derriten y salen despedidos en forma de magma hacia la superficie de la zona de subducción, donde erupcionan. Estos volcanes dan lugar a islas frente a las costas o a cadenas montañosas en los bordes de los continentes y le han dado al Pacífico el sobrenombre de «El anillo de fuego». Los terremotos son otro efecto derivado de la subducción."
+        }
+      ],
+      "narration": "assets/es/paci/PACI01JN.mp3"
+    },
+    {
+      "id": "the-highest-and-the-lowest",
+      "title": "La mayor altura y profundidad",
+      "image": "assets/es/paci/PACI02PU.webp",
+      "text": "La montaña más elevada y la fosa más profunda del mundo, además de numerosas islas y volcanes submarinos, están en el océano Pacífico.",
+      "captions": [
+        {
+          "label": "Récords submarinos",
+          "text": "El volcán Mauna Kea, en la isla de Hawai, mide 10.200 m desde la base submarina hasta el pico. ¡Es más alto que el Everest! La zona más profunda del planeta está situada frente a las islas Guam, en el cañón de Challenger, el punto más profundo de la fosa Mariana. Este cañón desciende 11.708 m bajo el nivel del mar, casi seis veces la profundidad del Gran Cañón del Colorado."
+        },
+        {
+          "label": "Topografía accidentada",
+          "text": "El fondo del Pacífico tiene un estrafalario diseño salpicado de fosas submarinas, montañas e islas."
+        }
+      ],
+      "narration": "assets/es/paci/PACI02JN.mp3"
+    },
+    {
+      "id": "rising-from-the-sea-floor",
+      "title": "Elevándose del fondo marino",
+      "image": "assets/es/paci/PACI03PU.webp",
+      "text": "El Pacífico tiene miles de islas, montañas marinas, guyots y atolones. Las montañas marinas son montañas volcánicas, probablemente formadas por manchas calientes, que no han llegado a la superficie. Un guyot es una montaña marina con la punta aplanada por la erosión de las olas. Los atolones se forman cuando se acumulan arrecifes coralinos alrededor de una isla volcánica. Posteriormente, la isla se hunde por debajo del nivel del mar y el arrecife permanece, formando un atolón.",
+      "narration": "assets/es/paci/PACI03JN.mp3"
+    },
+    {
+      "id": "seen-from-the-moon",
+      "title": "Visto desde la luna",
+      "image": "assets/es/paci/PACI05PU.webp",
+      "text": "El Arrecife de la Gran Barrera, situado al nordeste de la costa de Australia, es el sistema coralino más grande del mundo. Formado por colonias de minúsculos animales, puede verse incluso desde la Luna. De hecho, ¡no fue posible cartografiarlo en su totalidad hasta que lo fotografiaron los astronautas del Apolo VII! Este increíble sistema coralino lleva miles de años creciendo, y tiene una anchura de más de cien metros. La zona tiene clima templado y una gran extensión intermareal que proporciona abundantes nutrientes, las mejores condiciones para que crezca el coral. El arrecife tiene al menos 350 especies de coral, ¡aunque sólo representan el 10 por ciento de la fauna que allí habita!",
+      "narration": "assets/es/paci/PACI05JN.mp3"
+    },
+    {
+      "id": "no-nukes",
+      "title": "Nucleares no",
+      "image": "assets/es/paci/PACI06PU.webp",
+      "text": "Durante los años 50 y 60, el gobierno de Estados Unidos hizo pruebas nucleares en el Pacífico, frente a varios atolones aislados. (En el verano de 1946, cuando comenzaron las primeras pruebas frente a las Bikini, se bautizó con ese nombre al bañador de dos piezas). Desgraciadamente, los habitantes de las Bikini, un atolón de las Islas Marshall, se vieron forzados a abandonar sus hogares y no pudieron volver hasta 1969. Las pruebas nucleares submarinas y atmosféricas están prohibidas en la actualidad, pero hay quien contempla la posibilidad de utilizar algunos atolones para depositar residuos nucleares y de otro tipo.",
+      "narration": "assets/es/paci/PACI06JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Los exploradores del sur del Pacífico",
+      "to": "sout"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/paci/PACI00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 2,
+            "y": 2,
+            "w": 7,
+            "h": 5
+          },
+          {
+            "label": "El anillo de fuego",
+            "to": "ring-of-fire",
+            "x": 3,
+            "y": 52,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Visto desde la luna",
+            "to": "seen-from-the-moon",
+            "x": 34,
+            "y": 43,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "La mayor altura y profundidad",
+            "to": "the-highest-and-the-lowest",
+            "x": 60,
+            "y": 52,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Alimentos del mar",
+            "to": "video",
+            "x": 10,
+            "y": 67,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Nucleares no",
+            "to": "no-nukes",
+            "x": 27,
+            "y": 72,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "Elevándose del fondo marino",
+            "to": "rising-from-the-sea-floor",
+            "x": 27,
+            "y": 78,
+            "w": 22,
+            "h": 5
+          }
+        ]
+      },
+      "ring-of-fire": {
+        "image": "assets/es/paci/PACI01PU.webp",
+        "back": "main"
+      },
+      "the-highest-and-the-lowest": {
+        "image": "assets/es/paci/PACI02PU.webp",
+        "back": "main"
+      },
+      "rising-from-the-sea-floor": {
+        "image": "assets/es/paci/PACI03PU.webp",
+        "back": "main"
+      },
+      "seen-from-the-moon": {
+        "image": "assets/es/paci/PACI05PU.webp",
+        "back": "main"
+      },
+      "no-nukes": {
+        "image": "assets/es/paci/PACI06PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/paci/clip.mp4",
+        "poster": "assets/es/paci/PACI04PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/paci/PACI00JN.mp3",
+  "sound": "assets/es/paci/PACI00IX.mp3",
+  "video": {
+    "title": "Alimentos del mar",
+    "src": "assets/es/paci/clip.mp4",
+    "poster": "assets/es/paci/poster.webp",
+    "caption": "El Pacífico nos da la mitad de la pesca mundial, pero las redes de arrastre y la pesca desmedida amenazan los recursos. Uno de los principales problemas es el descarte: el pescado sin valor comercial que se apresa y tira al mar.",
+    "narration": "assets/es/paci/PACI04JN.mp3"
+  }
+}

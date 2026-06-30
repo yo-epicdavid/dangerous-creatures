@@ -1,0 +1,289 @@
+{
+  "kim": {
+    "art": "assets/guides/es/kim/portrait.webp",
+    "intro": "assets/guides/es/kim/intro.mp3",
+    "tours": [
+      {
+        "section": "01",
+        "narration": [
+          "assets/guides/es/kim/01/step01.mp3",
+          "assets/guides/es/kim/01/step02.mp3",
+          "assets/guides/es/kim/01/step03.mp3",
+          "assets/guides/es/kim/01/step04.mp3",
+          "assets/guides/es/kim/01/step05.mp3",
+          "assets/guides/es/kim/01/step06.mp3",
+          "assets/guides/es/kim/01/step07.mp3",
+          "assets/guides/es/kim/01/step08.mp3"
+        ],
+        "stepCount": 8
+      },
+      {
+        "section": "02",
+        "narration": [
+          "assets/guides/es/kim/02/step01.mp3",
+          "assets/guides/es/kim/02/step02.mp3",
+          "assets/guides/es/kim/02/step03.mp3",
+          "assets/guides/es/kim/02/step04.mp3",
+          "assets/guides/es/kim/02/step05.mp3",
+          "assets/guides/es/kim/02/step06.mp3",
+          "assets/guides/es/kim/02/step07.mp3",
+          "assets/guides/es/kim/02/step08.mp3"
+        ],
+        "stepCount": 8
+      },
+      {
+        "section": "03",
+        "narration": [
+          "assets/guides/es/kim/03/step01.mp3",
+          "assets/guides/es/kim/03/step02.mp3",
+          "assets/guides/es/kim/03/step03.mp3",
+          "assets/guides/es/kim/03/step04.mp3",
+          "assets/guides/es/kim/03/step05.mp3",
+          "assets/guides/es/kim/03/step06.mp3",
+          "assets/guides/es/kim/03/step07.mp3",
+          "assets/guides/es/kim/03/step08.mp3",
+          "assets/guides/es/kim/03/step09.mp3"
+        ],
+        "stepCount": 9
+      }
+    ]
+  },
+  "eli": {
+    "art": "assets/guides/es/eli/portrait.webp",
+    "intro": "assets/guides/es/eli/intro.mp3",
+    "tours": [
+      {
+        "section": "04",
+        "narration": [
+          "assets/guides/es/eli/04/step01.mp3",
+          "assets/guides/es/eli/04/step02.mp3",
+          "assets/guides/es/eli/04/step03.mp3",
+          "assets/guides/es/eli/04/step04.mp3",
+          "assets/guides/es/eli/04/step05.mp3",
+          "assets/guides/es/eli/04/step06.mp3",
+          "assets/guides/es/eli/04/step07.mp3",
+          "assets/guides/es/eli/04/step08.mp3",
+          "assets/guides/es/eli/04/step09.mp3"
+        ],
+        "stepCount": 9
+      },
+      {
+        "section": "05",
+        "narration": [
+          "assets/guides/es/eli/05/step01.mp3",
+          "assets/guides/es/eli/05/step02.mp3",
+          "assets/guides/es/eli/05/step03.mp3",
+          "assets/guides/es/eli/05/step04.mp3",
+          "assets/guides/es/eli/05/step05.mp3",
+          "assets/guides/es/eli/05/step06.mp3",
+          "assets/guides/es/eli/05/step07.mp3"
+        ],
+        "stepCount": 7
+      },
+      {
+        "section": "06",
+        "narration": [
+          "assets/guides/es/eli/06/step01.mp3",
+          "assets/guides/es/eli/06/step02.mp3",
+          "assets/guides/es/eli/06/step03.mp3",
+          "assets/guides/es/eli/06/step04.mp3",
+          "assets/guides/es/eli/06/step05.mp3",
+          "assets/guides/es/eli/06/step06.mp3",
+          "assets/guides/es/eli/06/step07.mp3"
+        ],
+        "stepCount": 7
+      }
+    ]
+  },
+  "curtis": {
+    "art": "assets/guides/es/curtis/portrait.webp",
+    "intro": "assets/guides/es/curtis/intro.mp3",
+    "tours": [
+      {
+        "section": "07",
+        "narration": [
+          "assets/guides/es/curtis/07/step01.mp3",
+          "assets/guides/es/curtis/07/step02.mp3",
+          "assets/guides/es/curtis/07/step03.mp3",
+          "assets/guides/es/curtis/07/step04.mp3",
+          "assets/guides/es/curtis/07/step05.mp3",
+          "assets/guides/es/curtis/07/step06.mp3",
+          "assets/guides/es/curtis/07/step07.mp3",
+          "assets/guides/es/curtis/07/step08.mp3",
+          "assets/guides/es/curtis/07/step09.mp3"
+        ],
+        "stepCount": 9
+      },
+      {
+        "section": "08",
+        "narration": [
+          "assets/guides/es/curtis/08/step01.mp3",
+          "assets/guides/es/curtis/08/step02.mp3",
+          "assets/guides/es/curtis/08/step03.mp3",
+          "assets/guides/es/curtis/08/step04.mp3",
+          "assets/guides/es/curtis/08/step05.mp3",
+          "assets/guides/es/curtis/08/step06.mp3",
+          "assets/guides/es/curtis/08/step07.mp3",
+          "assets/guides/es/curtis/08/step08.mp3"
+        ],
+        "stepCount": 8
+      },
+      {
+        "section": "09",
+        "narration": [
+          "assets/guides/es/curtis/09/step01.mp3",
+          "assets/guides/es/curtis/09/step02.mp3",
+          "assets/guides/es/curtis/09/step03.mp3",
+          "assets/guides/es/curtis/09/step04.mp3",
+          "assets/guides/es/curtis/09/step05.mp3",
+          "assets/guides/es/curtis/09/step06.mp3",
+          "assets/guides/es/curtis/09/step07.mp3"
+        ],
+        "stepCount": 7
+      }
+    ]
+  },
+  "frank": {
+    "art": "assets/guides/es/frank/portrait.webp",
+    "intro": "assets/guides/es/frank/intro.mp3",
+    "tours": [
+      {
+        "section": "10",
+        "narration": [
+          "assets/guides/es/frank/10/step01.mp3",
+          "assets/guides/es/frank/10/step02.mp3",
+          "assets/guides/es/frank/10/step03.mp3",
+          "assets/guides/es/frank/10/step04.mp3",
+          "assets/guides/es/frank/10/step05.mp3",
+          "assets/guides/es/frank/10/step06.mp3",
+          "assets/guides/es/frank/10/step07.mp3"
+        ],
+        "stepCount": 7
+      },
+      {
+        "section": "11",
+        "narration": [
+          "assets/guides/es/frank/11/step01.mp3",
+          "assets/guides/es/frank/11/step02.mp3",
+          "assets/guides/es/frank/11/step03.mp3",
+          "assets/guides/es/frank/11/step04.mp3",
+          "assets/guides/es/frank/11/step05.mp3",
+          "assets/guides/es/frank/11/step06.mp3",
+          "assets/guides/es/frank/11/step07.mp3",
+          "assets/guides/es/frank/11/step08.mp3",
+          "assets/guides/es/frank/11/step09.mp3"
+        ],
+        "stepCount": 9
+      },
+      {
+        "section": "12",
+        "narration": [
+          "assets/guides/es/frank/12/step01.mp3",
+          "assets/guides/es/frank/12/step02.mp3",
+          "assets/guides/es/frank/12/step03.mp3",
+          "assets/guides/es/frank/12/step04.mp3",
+          "assets/guides/es/frank/12/step05.mp3",
+          "assets/guides/es/frank/12/step06.mp3",
+          "assets/guides/es/frank/12/step07.mp3",
+          "assets/guides/es/frank/12/step08.mp3"
+        ],
+        "stepCount": 8
+      }
+    ]
+  },
+  "zarka": {
+    "art": "assets/guides/es/zarka/portrait.webp",
+    "intro": "assets/guides/es/zarka/intro.mp3",
+    "tours": [
+      {
+        "section": "13",
+        "narration": [
+          "assets/guides/es/zarka/13/step01.mp3",
+          "assets/guides/es/zarka/13/step02.mp3",
+          "assets/guides/es/zarka/13/step03.mp3",
+          "assets/guides/es/zarka/13/step04.mp3",
+          "assets/guides/es/zarka/13/step05.mp3",
+          "assets/guides/es/zarka/13/step06.mp3",
+          "assets/guides/es/zarka/13/step07.mp3",
+          "assets/guides/es/zarka/13/step08.mp3",
+          "assets/guides/es/zarka/13/step09.mp3"
+        ],
+        "stepCount": 9
+      },
+      {
+        "section": "14",
+        "narration": [
+          "assets/guides/es/zarka/14/step01.mp3",
+          "assets/guides/es/zarka/14/step02.mp3",
+          "assets/guides/es/zarka/14/step03.mp3",
+          "assets/guides/es/zarka/14/step04.mp3",
+          "assets/guides/es/zarka/14/step05.mp3",
+          "assets/guides/es/zarka/14/step06.mp3",
+          "assets/guides/es/zarka/14/step07.mp3",
+          "assets/guides/es/zarka/14/step08.mp3",
+          "assets/guides/es/zarka/14/step09.mp3"
+        ],
+        "stepCount": 9
+      },
+      {
+        "section": "15",
+        "narration": [
+          "assets/guides/es/zarka/15/step01.mp3",
+          "assets/guides/es/zarka/15/step02.mp3",
+          "assets/guides/es/zarka/15/step03.mp3",
+          "assets/guides/es/zarka/15/step04.mp3",
+          "assets/guides/es/zarka/15/step05.mp3",
+          "assets/guides/es/zarka/15/step06.mp3",
+          "assets/guides/es/zarka/15/step07.mp3"
+        ],
+        "stepCount": 7
+      }
+    ]
+  },
+  "rebecca": {
+    "art": "assets/guides/es/rebecca/portrait.webp",
+    "intro": "assets/guides/es/rebecca/intro.mp3",
+    "tours": [
+      {
+        "section": "16",
+        "narration": [
+          "assets/guides/es/rebecca/16/step01.mp3",
+          "assets/guides/es/rebecca/16/step02.mp3",
+          "assets/guides/es/rebecca/16/step03.mp3",
+          "assets/guides/es/rebecca/16/step04.mp3",
+          "assets/guides/es/rebecca/16/step05.mp3",
+          "assets/guides/es/rebecca/16/step06.mp3",
+          "assets/guides/es/rebecca/16/step07.mp3",
+          "assets/guides/es/rebecca/16/step08.mp3"
+        ],
+        "stepCount": 8
+      },
+      {
+        "section": "17",
+        "narration": [
+          "assets/guides/es/rebecca/17/step01.mp3",
+          "assets/guides/es/rebecca/17/step02.mp3",
+          "assets/guides/es/rebecca/17/step03.mp3",
+          "assets/guides/es/rebecca/17/step04.mp3",
+          "assets/guides/es/rebecca/17/step05.mp3",
+          "assets/guides/es/rebecca/17/step06.mp3",
+          "assets/guides/es/rebecca/17/step07.mp3"
+        ],
+        "stepCount": 7
+      },
+      {
+        "section": "18",
+        "narration": [
+          "assets/guides/es/rebecca/18/step01.mp3",
+          "assets/guides/es/rebecca/18/step02.mp3",
+          "assets/guides/es/rebecca/18/step03.mp3",
+          "assets/guides/es/rebecca/18/step04.mp3",
+          "assets/guides/es/rebecca/18/step05.mp3",
+          "assets/guides/es/rebecca/18/step06.mp3",
+          "assets/guides/es/rebecca/18/step07.mp3"
+        ],
+        "stepCount": 7
+      }
+    ]
+  }
+}

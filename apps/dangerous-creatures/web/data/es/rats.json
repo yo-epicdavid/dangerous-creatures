@@ -1,0 +1,278 @@
+{
+  "id": "rats",
+  "code": "RATS",
+  "name": "Rata",
+  "scientificName": "Rattus norvegicus",
+  "needsScientificVerify": false,
+  "tagline": "¡Están en todas partes y no piensan irse!",
+  "weapons": [
+    "Transmisores de enfermedades"
+  ],
+  "habitats": [
+    "Ciudades y campos"
+  ],
+  "regions": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/rats/RATS00AA.webp",
+    "alt": "Rata"
+  },
+  "intro": "Vayas donde vayas, lo más probable es que encuentres ratas. Viven en todos los continentes excepto en la Antártida. Existen cientos de especies que se han adaptado a casi todos los climas o situaciones: hay ratas de pantano, de desierto, de ciudad, ¡hasta de árbol! ¡Será mejor que te acostumbres a ellas, porque han venido para quedarse!",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Propaga enfermedades como el tifus, la rabia y la peste bubónica.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Cualquier alimento, especialmente cereales.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "¡No son comensales refinados! Una rata urbana puede vivir a base de pasta de dientes, zapatos, jabón, plástico, alambres ¡y hasta cemento!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 45 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: casi todo el mundo",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "rat-tracks",
+      "title": "Huellas de rata",
+      "image": "assets/es/rats/RATS01PU.webp",
+      "text": "Si no estás seguro de si ese cuerpo peludo que acaba de escabullirse es una rata, comprueba sus huellas. La huella de las patas delanteras tienen marcas de cuatro dedos, y la trasera de cinco. La rata tiene glándulas sudoríparas en la planta de las patas y cuando cruza a menudo una zona suele dejar un rastro de aspecto viscoso.",
+      "narration": "assets/es/rats/RATS01NP.mp3"
+    },
+    {
+      "id": "pest-control",
+      "title": "Control de plagas",
+      "image": "assets/es/rats/RATS02PU.webp",
+      "text": "Mucha gente cree que las ratas son una plaga, porque a veces se comen la cosecha y los alimentos de los campesinos. Para controlar el número de ratas es importante tener predadores de los roedores, como éstos. En algunos lugares se ha cometido el error de matar a las serpientes de la zona, pero el aumento de la población de ratas fue peor que el problema de las serpientes.",
+      "captions": [
+        {
+          "label": "Sapo cornudo ornamentado",
+          "text": "Sudamérica"
+        },
+        {
+          "label": "Búho nival",
+          "text": "zonas árticas"
+        },
+        {
+          "label": "Boa",
+          "text": "centro y sur de América"
+        }
+      ],
+      "narration": "assets/es/rats/RATS02NP.mp3"
+    },
+    {
+      "id": "rapid-reproduction",
+      "title": "Rápida reproducción",
+      "image": "assets/es/rats/RATS03PU.webp",
+      "text": "Todos los roedores se multiplican rápidamente. Un ratón casero hembra comienza a criar cuando sólo tiene siete semanas de vida. Puede tener más de 10 camadas al año, cada una de entre tres y doce crías, que en menos de tres semanas viven por su cuenta. ¡Imagínate cuántos ratones habría en el mundo si todas sobrevivieran y tuvieran crías!",
+      "captions": [
+        {
+          "label": "Ratones recién nacidos",
+          "text": "Ratones recién nacidos"
+        },
+        {
+          "label": "De cuatro días",
+          "text": "De cuatro días"
+        },
+        {
+          "label": "De diez días",
+          "text": "De diez días"
+        }
+      ],
+      "narration": "assets/es/rats/RATS03NP.mp3"
+    },
+    {
+      "id": "gnawing-question",
+      "title": "Es cuestión de roer",
+      "image": "assets/es/rats/RATS04PU.webp",
+      "text": "Los dientes de los roedores crecen continuamente. Si no los desgastaran constantemente, tendrían colmillos que sobresaldrían de su boca. Por eso siempre están royendo algo, ya sea comida, tuberías o cables eléctricos.",
+      "captions": [
+        {
+          "label": "Rata parda (Noruega)",
+          "text": "royendo un cable eléctrico"
+        }
+      ],
+      "narration": "assets/es/rats/RATS04NP.mp3"
+    },
+    {
+      "id": "overachievers",
+      "title": "¡Lo consiguen todo!",
+      "image": "assets/es/rats/RATS05PU.webp",
+      "text": "¿Sabías que las ratas son grandes viajeras? Las ratas del Viejo Mundo se escondían en los barcos y llegaban a todos los puertos. Si para llegar a un nuevo lugar han de nadar o subir por una cuerda... no es problema: las ratas son expertas en llegar. ¡Ahora están por todas partes!",
+      "captions": [
+        {
+          "label": "Rata parda",
+          "text": "Noruega"
+        }
+      ],
+      "narration": "assets/es/rats/RATS05NP.mp3"
+    },
+    {
+      "id": "dirty-rat",
+      "title": "¿Sucia rata?",
+      "image": "assets/es/rats/RATS06PU.webp",
+      "text": "Mucha gente cree que las ratas son sucias. Es verdad que son las responsables de la propagación de algunos enfermedades terribles, como la peste bubónica. Pero en realidad no son ellas las culpables: las responsables de transmitir la enfermedad son las pulgas que tienen algunas ratas.",
+      "captions": [
+        {
+          "label": "Aseo personal",
+          "text": "Las ratas se cepillan el pelo continuamente. La verdad es que son unos animales muy limpios."
+        }
+      ],
+      "narration": "assets/es/rats/RATS06NP.mp3"
+    },
+    {
+      "id": "lab-rats",
+      "title": "Ratas de laboratorio",
+      "image": "assets/es/rats/RATS07PU.webp",
+      "text": "Las ratas cabecinegras, como éstas, se utilizan a veces en la investigación farmacéutica. Los científicos las usan para estudiar las enfermedades y los tratamientos que servirán para mejorar la vida de los hombres. La próxima vez que oigas hablar de una medicina nueva, recuerda que en el progreso del conocimiento de la salud humana las ratas juegan un importante papel.",
+      "narration": "assets/es/rats/RATS07NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/rats/RATS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.65,
+            "y": 8.11,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Control de plagas",
+            "to": "pest-control",
+            "x": 40.81,
+            "y": 4.43,
+            "w": 11.2,
+            "h": 4.13
+          },
+          {
+            "label": "Ratas de laboratorio",
+            "to": "lab-rats",
+            "x": 81.27,
+            "y": 22.18,
+            "w": 10.89,
+            "h": 4.13
+          },
+          {
+            "label": "¡Lo consiguen todo!",
+            "to": "overachievers",
+            "x": 72,
+            "y": 37,
+            "w": 16,
+            "h": 6
+          },
+          {
+            "label": "¿Sucia rata?",
+            "to": "dirty-rat",
+            "x": 38.46,
+            "y": 35.81,
+            "w": 9.32,
+            "h": 4.13
+          },
+          {
+            "label": "Huellas de rata",
+            "to": "rat-tracks",
+            "x": 30,
+            "y": 47,
+            "w": 13,
+            "h": 6
+          },
+          {
+            "label": "Es cuestión de roer",
+            "to": "gnawing-question",
+            "x": 22,
+            "y": 63,
+            "w": 19,
+            "h": 6
+          },
+          {
+            "label": "Amigas de los hombres",
+            "to": "video",
+            "x": 17,
+            "y": 72,
+            "w": 22,
+            "h": 7
+          },
+          {
+            "label": "Rápida reproducción",
+            "to": "rapid-reproduction",
+            "x": 23.77,
+            "y": 81.27,
+            "w": 15.73,
+            "h": 4.13
+          }
+        ]
+      },
+      "rat-tracks": {
+        "image": "assets/es/rats/RATS01PU.webp",
+        "back": "main"
+      },
+      "pest-control": {
+        "image": "assets/es/rats/RATS02PU.webp",
+        "back": "main"
+      },
+      "rapid-reproduction": {
+        "image": "assets/es/rats/RATS03PU.webp",
+        "back": "main"
+      },
+      "gnawing-question": {
+        "image": "assets/es/rats/RATS04PU.webp",
+        "back": "main"
+      },
+      "overachievers": {
+        "image": "assets/es/rats/RATS05PU.webp",
+        "back": "main"
+      },
+      "dirty-rat": {
+        "image": "assets/es/rats/RATS06PU.webp",
+        "back": "main"
+      },
+      "lab-rats": {
+        "image": "assets/es/rats/RATS07PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/rats/RATS00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/rats/clip.mp4",
+        "poster": "assets/es/rats/RATS08TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/rats/narration.mp3",
+  "sound": "assets/es/rats/RATS00AF.mp3",
+  "factsNarration": "assets/es/rats/RATS00FB.mp3",
+  "video": {
+    "title": "Amigas de los hombres",
+    "src": "assets/es/rats/clip.mp4",
+    "poster": "assets/es/rats/poster.webp",
+    "caption": "Quizá no pienses en las ratas como tus compañeras, pero ellas nos consideran sus anfitriones. Muchas viven gracias a nosotros, en nuestro edificio, comen nuestra basura, incluso beben de las conducciones de agua que llegan a nuestra casa. Además, a menudo destruimos a sus enemigos naturales: serpientes, perros y gatos salvajes y aves de presa. Si no hubiera tantos hombres, no habría tantas ratas."
+  }
+}

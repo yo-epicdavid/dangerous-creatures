@@ -1,0 +1,148 @@
+{
+  "id": "bron",
+  "code": "BRON",
+  "name": "La confusión del Brontosaurio",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "BRON-tuh-SOR-us MIX-up",
+  "meaning": "lagarto del trueno (Brontosaurio); lagarto engañoso (Apatosaurio)",
+  "period": "",
+  "diet": "",
+  "tagline": "El dinosaurio más famoso que nunca existió de verdad",
+  "hero": {
+    "image": "assets/bron/BRON00AA.webp",
+    "alt": "La confusión del Brontosaurio"
+  },
+  "intro": "Aunque los esqueletos de Brontosaurio estuvieron expuestos en museos e ilustraciones del Brontosaurio aparecieron en libros durante casi un siglo, este dinosaurio nunca existió de verdad. En la carrera del siglo XIX por descubrir dinosaurios americanos, un profesor llamado Othniel Charles Marsh describió un dinosaurio al que llamó Apatosaurio («lagarto engañoso») en 1877, y otro que creyó diferente al que llamó Brontosaurio («lagarto del trueno») en 1879. Más tarde se descubrió que el Apatosaurio y el Brontosaurio eran el mismo dinosaurio y, según las normas de nomenclatura científica, debía llamarse por su primer nombre: Apatosaurio.",
+  "facts": [
+    {
+      "label": "Nombrado por",
+      "value": "Othniel Charles Marsh"
+    },
+    {
+      "label": "Apatosaurio nombrado",
+      "value": "1877"
+    },
+    {
+      "label": "Brontosaurio nombrado",
+      "value": "1879"
+    },
+    {
+      "label": "Apatosaurio significa",
+      "value": "lagarto engañoso"
+    },
+    {
+      "label": "Brontosaurio significa",
+      "value": "lagarto del trueno"
+    },
+    {
+      "label": "Cráneo corregido",
+      "value": "1979"
+    }
+  ],
+  "topics": [
+    {
+      "id": "headed-the-wrong-way",
+      "title": "Con la cabeza equivocada",
+      "image": "assets/bron/BRON01PU.webp",
+      "text": "De algún modo, el cráneo redondeado de un dinosaurio llamado Camarasaurio se combinó con el cuerpo del Apatosaurio. ¡Y así surgió un nuevo dinosaurio! Por desgracia, este dinosaurio solo existió en la imaginación de los seres humanos.",
+      "captions": [
+        {
+          "label": "Camarasaurio",
+          "text": "Tanto el Camarasaurio como el Apatosaurio pertenecen al grupo de los dinosaurios saurópodos. El Camarasaurio, considerado pequeño para un saurópodo, alcanzaba unos quince metros de longitud, mientras que el Apatosaurio llegaba a medir hasta veintiún metros."
+        }
+      ]
+    },
+    {
+      "id": "correct-for-the-most-part",
+      "title": "Correcto en su mayor parte",
+      "image": "assets/bron/BRON02PU.webp",
+      "text": "En el esqueleto completo del «Brontosaurio», la mayoría de los huesos pertenecían al Apatosaurio. Solo la cabeza redondeada pertenecía a otro dinosaurio: el Camarasaurio. En 1979, los científicos acordaron que el Apatosaurio tenía un cráneo más parecido al del Diplodocus.",
+      "captions": [
+        {
+          "label": "Cráneo del Diplodocus",
+          "text": "Pariente del Apatosaurio, el Diplodocus tenía un cráneo algo parecido al de un caballo, con dientes en forma de rastrillo en la parte delantera para arrancar hojas de los árboles."
+        }
+      ]
+    },
+    {
+      "id": "confusing-science",
+      "title": "Una ciencia confusa",
+      "image": "assets/bron/BRON03PU.webp",
+      "text": "Cuando entiendes que los dinosaurios emergen del suelo como fósiles incompletos, puedes comprender cómo los científicos pueden cometer errores. A menudo, los huesos de un esqueleto son dispersados por los depredadores, y muchos fragmentos simplemente no sobreviven los siglos bajo tierra. Tras la excavación, los paleontólogos tienen que clasificar una enorme cantidad de fósiles, estudiando metódicamente y encajando un rompecabezas de restos. Los esqueletos de dinosaurio que ves en los museos son, por lo general, el resultado de años de trabajo."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The American Dinosaur Rush",
+      "to": "amer"
+    },
+    {
+      "label": "Digging up Dinosaurs",
+      "to": "digg"
+    },
+    {
+      "label": "Diplodocus",
+      "to": "dipl"
+    },
+    {
+      "label": "Reconstructing Dinosaurs",
+      "to": "reco"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/bron/BRON00AA.webp",
+        "hotspots": [
+          {
+            "label": "Con la cabeza equivocada",
+            "to": "headed-the-wrong-way",
+            "x": 63,
+            "y": 30,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "Correcto en su mayor parte",
+            "to": "correct-for-the-most-part",
+            "x": 5,
+            "y": 70,
+            "w": 28,
+            "h": 8
+          },
+          {
+            "label": "Una ciencia confusa",
+            "to": "confusing-science",
+            "x": 28,
+            "y": 80,
+            "w": 22,
+            "h": 8
+          }
+        ]
+      },
+      "headed-the-wrong-way": {
+        "image": "assets/bron/BRON01PU.webp",
+        "back": "main"
+      },
+      "correct-for-the-most-part": {
+        "image": "assets/bron/BRON02PU.webp",
+        "back": "main"
+      },
+      "confusing-science": {
+        "image": "assets/bron/BRON03PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/bron/BRON00AP.mp3",
+  "narration": "assets/bron/BRON00AJ.mp3",
+  "sound": "assets/bron/BRON00SA.mp3",
+  "fanTranslation": true
+}

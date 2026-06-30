@@ -1,0 +1,248 @@
+{
+  "id": "boct",
+  "code": "BOCT",
+  "name": "Pulpo anillado azul",
+  "scientificName": "Hapalochlaena lunulata",
+  "needsScientificVerify": false,
+  "tagline": "¡Tan pequeño como un juguete, tan peligroso como una cobra!",
+  "weapons": [
+    "Veneno y ponzoña",
+    "Dientes y mandíbulas"
+  ],
+  "habitats": [
+    "Océanos y arrecifes de coral"
+  ],
+  "regions": [
+    "Océanos y mares"
+  ],
+  "hero": {
+    "image": "assets/es/boct/BOCT00AA.webp",
+    "alt": "Pulpo anillado azul"
+  },
+  "intro": "Este pulpo tiene un veneno paralizador tan potente como el de una cobra. Se encuentra en las aguas costeras de Australia y come cangrejos a los que muerde, rocía la herida con veneno y devora. Aunque son tan pequeños que parecen de juguete, no debes jugar con ellos: ¡un solo «anillado azul» tiene suficiente veneno para paralizar a 10 personas adultas en pocos minutos!",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Se defiende mordiendo al oponente, al que mata con su saliva venenosa.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Cangrejos, peces y animales marinos pequeños.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "¡No te equivoques! El pulpo anillado azul parece inofensivo, pero su veneno es tan potente como el de una cobra.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 20 cm.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Sudoeste del Océano Pacífico",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "the-mollusk-group",
+      "title": "Los moluscos",
+      "image": "assets/es/boct/BOCT01PU.webp",
+      "text": "Estos animales no se parecen mucho a los pulpos, pero también son moluscos. Algunos son de cuerpo blando y otros tienen concha. Al igual que el pulpo anillado azul, hay muchos moluscos venenosos.",
+      "captions": [
+        {
+          "label": "El cono hebreo",
+          "text": "Los conos hebreos disparan un dardo venenoso a su presa a través de un tubo en forma de arpón. El veneno de algunas especies puede matar a un hombre."
+        },
+        {
+          "label": "La almeja gigante azul",
+          "text": "Estas almejas pueden tener hasta 1 metro de anchura. ¡A veces llegan a vivir 100 años!"
+        }
+      ],
+      "narration": "assets/es/boct/BOCT01NP.mp3"
+    },
+    {
+      "id": "suction-cup-arms",
+      "title": "Tentáculos succionadores",
+      "image": "assets/es/boct/BOCT02PU.webp",
+      "text": "Los pulpos utilizan los tentáculos no sólo para atacar a su presa. Por ejemplo los usan para caminar, aferrándose a las rocas mientras se desplazan. Cada ventosa tiene millones de minúsculos pelos para palpar las superficies, por lo que los tentáculos del pulpo son muy sensibles.",
+      "captions": [
+        {
+          "label": "Tentáculos paracaídas",
+          "text": "Cuando un pulpo nada muy deprisa lleva los tentáculos pegados al cuerpo, pero si quiere posarse en el fondo, los extiende y se hunde lentamente, como si fuera un paracaídas."
+        }
+      ],
+      "narration": "assets/es/boct/BOCT02NP.mp3"
+    },
+    {
+      "id": "blue-means-beware",
+      "title": "¡El azul significa precaución!",
+      "image": "assets/es/boct/BOCT03PU.webp",
+      "text": "Muchas criaturas venenosas del océano tienen rayas o manchas azules que sirven de advertencia a los demás animales. Puede que te parezca que el azul se confunde con el agua, pero es uno de los colores más visibles en las profundidades del océano.",
+      "captions": [
+        {
+          "label": "La raya o pastinaca moteada azul",
+          "text": "Esta raya tiene una púa venenosa en la cola. A los tiburones martillo les encantan las rayas: ¡como cena!"
+        }
+      ],
+      "narration": "assets/es/boct/BOCT03NP.mp3"
+    },
+    {
+      "id": "protective-parent",
+      "title": "Padres protectores",
+      "image": "assets/es/boct/BOCT04PU.webp",
+      "text": "La hembra del pulpo (también puedes llamarlo «octópodo») protege afanosamente sus huevos. Algunas llegan incluso a morir de hambre porque no están dispuestas a abandonar el nido para salir a cazar. Pero cuando las crías han salido del huevo tienen que vivir por su cuenta, sin buscar a mamá para que las ayude.",
+      "narration": "assets/es/boct/BOCT04NP.mp3"
+    },
+    {
+      "id": "confusing-colors",
+      "title": "Colores para confundir",
+      "image": "assets/es/boct/BOCT05PU.webp",
+      "text": "Un pulpo asustado puede esconderse en una nube de tinta o cambiar de color para confundirse con el del fondo. Este camuflaje resulta muy útil cuando se acerca una anguila o un tiburón hambrientos.",
+      "captions": [
+        {
+          "label": "Todo está en la piel",
+          "text": "Los pulpos y los calamares tienen las células del color en la piel, rodeadas de músculo. Al estirar o encoger las células, el tono de la piel se vuelve más oscuro o más claro."
+        }
+      ],
+      "narration": "assets/es/boct/BOCT05NP.mp3"
+    },
+    {
+      "id": "jetting-around",
+      "title": "Moviéndose a chorros",
+      "image": "assets/es/boct/BOCT06PU.webp",
+      "text": "Al no tener esqueleto interno, el pulpo puede introducirse en lugares muy estrechos para atacar a las presas, esconderse o construir su casa. Además, absorbiendo el agua y lanzándola por detrás para propulsarse puede moverse velozmente.",
+      "captions": [
+        {
+          "label": "Nube de confusión",
+          "text": "Para confundir a un atacante, el pulpo puede soltar una nube de tinta a la vez que se propulsa para ponerse a salvo."
+        }
+      ],
+      "narration": "assets/es/boct/BOCT06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/boct/BOCT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 1,
+            "y": 1,
+            "w": 9,
+            "h": 10
+          },
+          {
+            "label": "¡El azul significa precaución!",
+            "to": "blue-means-beware",
+            "x": 48.46,
+            "y": 13.09,
+            "w": 16.98,
+            "h": 4.13
+          },
+          {
+            "label": "Colores para confundir",
+            "to": "confusing-colors",
+            "x": 44.4,
+            "y": 22.61,
+            "w": 13.23,
+            "h": 3.48
+          },
+          {
+            "label": "Moviéndose a chorros",
+            "to": "jetting-around",
+            "x": 75,
+            "y": 16,
+            "w": 18,
+            "h": 6
+          },
+          {
+            "label": "Padres protectores",
+            "to": "protective-parent",
+            "x": 79.24,
+            "y": 38.41,
+            "w": 14.48,
+            "h": 4.13
+          },
+          {
+            "label": "Los moluscos",
+            "to": "the-mollusk-group",
+            "x": 11.27,
+            "y": 59.19,
+            "w": 15.42,
+            "h": 4.56
+          },
+          {
+            "label": "Armado y peligroso",
+            "to": "video",
+            "x": 7,
+            "y": 65,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Tentáculos succionadores",
+            "to": "suction-cup-arms",
+            "x": 6.9,
+            "y": 71.74,
+            "w": 21.67,
+            "h": 10.84
+          }
+        ]
+      },
+      "the-mollusk-group": {
+        "image": "assets/es/boct/BOCT01PU.webp",
+        "back": "main"
+      },
+      "suction-cup-arms": {
+        "image": "assets/es/boct/BOCT02PU.webp",
+        "back": "main"
+      },
+      "blue-means-beware": {
+        "image": "assets/es/boct/BOCT03PU.webp",
+        "back": "main"
+      },
+      "protective-parent": {
+        "image": "assets/es/boct/BOCT04PU.webp",
+        "back": "main"
+      },
+      "confusing-colors": {
+        "image": "assets/es/boct/BOCT05PU.webp",
+        "back": "main"
+      },
+      "jetting-around": {
+        "image": "assets/es/boct/BOCT06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/boct/BOCT00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/boct/clip.mp4",
+        "poster": "assets/es/boct/BOCT07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/boct/narration.mp3",
+  "sound": "assets/es/boct/BOCT00AF.mp3",
+  "factsNarration": "assets/es/boct/BOCT00FB.mp3",
+  "video": {
+    "title": "Armado y peligroso",
+    "src": "assets/es/boct/clip.mp4",
+    "poster": "assets/es/boct/poster.webp",
+    "caption": "Si los cangrejos sueñan, probablemente tengan pesadillas con los tentáculos de un pulpo. El pulpo enrosca los ocho tentáculos alrededor de la presa y la sujeta con sus fuertes ventosas. Después empieza a comerla con su pico afilado, inyectándole veneno y unos líquidos que inician la digestión. Termina arrancándola trozos de carne con su lengua rasposa."
+  }
+}

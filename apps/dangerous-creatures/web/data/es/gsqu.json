@@ -1,0 +1,213 @@
+{
+  "id": "gsqu",
+  "code": "GSQU",
+  "name": "Calamar gigante",
+  "scientificName": "Architeuthis dux",
+  "needsScientificVerify": false,
+  "tagline": "¡El monstruo marino que resulta ser más mito que mordisco!",
+  "weapons": [
+    "Dientes y mandíbulas"
+  ],
+  "habitats": [
+    "Océanos y arrecifes de coral"
+  ],
+  "regions": [
+    "Océanos y mares",
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/gsqu/GSQU00AA.webp",
+    "alt": "Calamar gigante"
+  },
+  "intro": "En las historias que han contado los marineros desde hace siglos, hablaban a veces de monstruos marinos de largos brazos. Todo el mundo pensaba que eran \"cuentos de pescadores\", hasta que se descubrió el calamar gigante. ¡Es casi tan alto como un edificio de seis pisos! Pero es poco probable que sea peligroso para ti…¡a menos que en el Atlántico bajes a una profundidad de 200 metros y te confunda con una langosta!",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Muerde y aplasta a su presa.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Peces, crustáceos y animales marinos de todos los tamaños.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "A juzgar por el tamaño de las cicatrices dejadas por sus ventosas en cachalotes, algunos expertos creen que los calamares gigantes pueden alcanzar hasta 61,5 m de longitud.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 18,5 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Profundidades oceánicas de todo el mundo.",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "battle-of-giants",
+      "title": "Batalla de gigantes",
+      "image": "assets/es/gsqu/GSQU01PU.webp",
+      "text": "¿Atacan los calamares gigantes a las ballenas? Los machos de cachalote común son casi tan grandes como los calamares gigantes y los persiguen hasta las frías profundidades atlánticas, de donde regresan a menudo con cicatrices producidas por las ventosas del calamar. Pero no es probable que el calamar empiece la pelea: pues se han encontrado muchos calamares dentro del vientre de ballenas pero nunca una ballena dentro de un calamar.",
+      "narration": "assets/es/gsqu/GSQU01NP.mp3"
+    },
+    {
+      "id": "quick-change-artist",
+      "title": "Un artista del transformismo",
+      "image": "assets/es/gsqu/GSQU02PU.webp",
+      "text": "De los pocos animales que cambian de color, ninguno lo hace tan rápido como los calamares y sus parientes. Esto se debe a que sus células cromáticas están reguladas por músculos controlados directamente por el sistema nervioso. Los animales cambian de color y dibujo para comunicarse y para confundirse con el entorno. Por ejemplo, si se encuentran dos calamares y uno de ellos se vuelve más oscuro, le podría estar diciendo: \"Soy un chico... ¿eres tú una chica?\".",
+      "narration": "assets/es/gsqu/GSQU02NP.mp3"
+    },
+    {
+      "id": "jet-propelled-school",
+      "title": "Bancos a propulsión",
+      "image": "assets/es/gsqu/GSQU03PU.webp",
+      "text": "¡Si los brazos te salieran de la cabeza, tu vida se parecería un poco a la de un calamar! Los calamares, pulpos y sepias tienen tentáculos que les salen de la cabeza, por lo que se denominan cefalópodos, o animales con \"pies en la cabeza\". Este banco de calamares de tamaño medio no se ha reunido para intercambiar ideas, sino para aparearse.",
+      "narration": "assets/es/gsqu/GSQU03NP.mp3"
+    },
+    {
+      "id": "in-delicious-demand",
+      "title": "Muy solicitados",
+      "image": "assets/es/gsqu/GSQU04PU.webp",
+      "text": "Si fueras un calamar, estarías muy solicitado por peces grandes como el atún y el halibut, ballenas, delfines, tiburones, focas y aves marinas; así como por el hombre, que quizás te preferiría nadando en salsa de tomate en vez de en el mar.",
+      "captions": [
+        {
+          "label": "León marino",
+          "text": "Aunque posiblemente prefiera comer pescado, el león marino no le hará ascos a almorzar uno o dos calamares."
+        },
+        {
+          "label": "Calamar",
+          "text": "La vida de los calamares es muy dura. Pasan la mayor parte del tiempo intentando sobrevivir."
+        },
+        {
+          "label": "Delfín",
+          "text": "El delfín utiliza sus filas de dientes afilados para sujetar el calamar antes de tragárselo entero."
+        },
+        {
+          "label": "Orca",
+          "text": "Algunas orcas, conocidas también como \"ballenas asesinas\", comen calamares, aunque la mayoría prefiere salmón o foca."
+        }
+      ],
+      "narration": "assets/es/gsqu/GSQU04NP.mp3"
+    },
+    {
+      "id": "egg-bed",
+      "title": "Lecho de huevos",
+      "image": "assets/es/gsqu/GSQU05PU.webp",
+      "text": "Cuando están preparados para el apareamiento, los calamares forman grandes grupos. Un calamar macho fertiliza los huevos que hay dentro de la hembra antes de que ésta los ponga en el suelo oceánico. Los huevos van envueltos en una gelatina que en el agua se endurece, formando una dura envoltura de protección. ¡A veces los lechos de huevos de calamar se miden por hectáreas!",
+      "narration": "assets/es/gsqu/GSQU05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/gsqu/GSQU00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 2,
+            "y": 2,
+            "w": 10,
+            "h": 12
+          },
+          {
+            "label": "Batalla de gigantes",
+            "to": "battle-of-giants",
+            "x": 5,
+            "y": 16,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Un artista del transformismo",
+            "to": "quick-change-artist",
+            "x": 5,
+            "y": 26,
+            "w": 24,
+            "h": 5
+          },
+          {
+            "label": "Bancos a propulsión",
+            "to": "jet-propelled-school",
+            "x": 13.62,
+            "y": 33.65,
+            "w": 16.98,
+            "h": 4.13
+          },
+          {
+            "label": "Lecho de huevos",
+            "to": "egg-bed",
+            "x": 71.28,
+            "y": 12.44,
+            "w": 8.54,
+            "h": 4.56
+          },
+          {
+            "label": "¿Monstruos marinos?",
+            "to": "video",
+            "x": 35,
+            "y": 64,
+            "w": 20,
+            "h": 6
+          },
+          {
+            "label": "Muy solicitados",
+            "to": "in-delicious-demand",
+            "x": 55,
+            "y": 77,
+            "w": 27,
+            "h": 5
+          }
+        ]
+      },
+      "battle-of-giants": {
+        "image": "assets/es/gsqu/GSQU01PU.webp",
+        "back": "main"
+      },
+      "quick-change-artist": {
+        "image": "assets/es/gsqu/GSQU02PU.webp",
+        "back": "main"
+      },
+      "jet-propelled-school": {
+        "image": "assets/es/gsqu/GSQU03PU.webp",
+        "back": "main"
+      },
+      "in-delicious-demand": {
+        "image": "assets/es/gsqu/GSQU04PU.webp",
+        "back": "main"
+      },
+      "egg-bed": {
+        "image": "assets/es/gsqu/GSQU05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/gsqu/GSQU00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/gsqu/clip.mp4",
+        "poster": "assets/es/gsqu/GSQU06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/gsqu/narration.mp3",
+  "sound": "assets/es/gsqu/GSQU00AF.mp3",
+  "factsNarration": "assets/es/gsqu/GSQU00FB.mp3",
+  "video": {
+    "title": "¿Monstruos marinos?",
+    "src": "assets/es/gsqu/clip.mp4",
+    "poster": "assets/es/gsqu/poster.webp",
+    "caption": "La mayoría de los calamares son criaturas tranquilas que no suponen ninguna amenaza para lo que sea más grande que un pez pequeño. Aunque siempre se han contado historias sobre barcos atacados por calamares gigantes, nunca fueron comprobadas. Lo más probable es que el barco zozobrara por el mal tiempo, o por chocar con una ballena, o que el narrador inventara la historia para intentar explicar un accidente marino."
+  }
+}

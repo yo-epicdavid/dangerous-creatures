@@ -1,0 +1,290 @@
+{
+  "id": "site",
+  "code": "SITE",
+  "name": "Yacimientos importantes de dinosaurios",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "¡Se han encontrado dinosaurios en todos los continentes — explora los mejores yacimientos del planeta!",
+  "hero": {
+    "image": "assets/site/SITE00AA.webp",
+    "alt": "Yacimientos importantes de dinosaurios"
+  },
+  "intro": "Se han encontrado fósiles de dinosaurios en todos los continentes del mundo, pero solo algunas regiones contienen una gran cantidad de restos. Los terrenos más productivos para la búsqueda de dinosaurios se encuentran en América del Norte y del Sur, en Asia central y oriental, y en África. Estas zonas comparten el mismo tipo de geología: sus rocas se formaron a partir de sedimentos de arena, barro o cal, depositados por el viento o el agua para cubrir los cuerpos de los dinosaurios antes de que los huesos se descompusieran. Estos sedimentos se convirtieron en roca hace entre 235 y 65 millones de años, durante la era Mesozoica. Después, los movimientos de la corteza terrestre empujaron esta roca sedimentaria hasta la superficie, donde la erosión del viento y el agua ha dejado al descubierto algunos de esos huesos.",
+  "facts": [
+    {
+      "label": "Encontrados en",
+      "value": "Todos los continentes"
+    },
+    {
+      "label": "Era",
+      "value": "Mesozoica"
+    },
+    {
+      "label": "Formación de la roca",
+      "value": "Hace entre 235 y 65 millones de años"
+    }
+  ],
+  "topics": [
+    {
+      "id": "north-american-dinosaur-sites",
+      "title": "Yacimientos de dinosaurios en América del Norte",
+      "image": "assets/site/SITE01PU.webp",
+      "text": "Gran parte de nuestro conocimiento sobre los dinosaurios procede de América del Norte. De hecho, la búsqueda de dinosaurios se hizo popular aquí desde la década de 1880, cuando tuvo lugar una «fiebre de los dinosaurios», similar a las fiebres del oro de California y Alaska. Durante más de un siglo, los paleontólogos estadounidenses y canadienses han rivalizado entre sí por encontrar e identificar dinosaurios.",
+      "captions": [
+        {
+          "label": "Parque Provincial de los Dinosaurios",
+          "text": "Aquí se han recogido casi 350 esqueletos de dinosaurios, entre ellos hadrosaurios, ceratopsios, anquilosaurios y carnosaurios."
+        },
+        {
+          "label": "Monumento Nacional de los Dinosaurios, Utah y Colorado",
+          "text": "En este escarpado paraje se han descubierto más de 5.000 huesos pertenecientes a saurópodos, estegosaurios y carnosaurios."
+        },
+        {
+          "label": "Hell Creek, Montana",
+          "text": "Aquí se han encontrado huevos fósiles de dinosaurio."
+        },
+        {
+          "label": "Como Bluff y Sheep Creek, Wyoming",
+          "text": "En este lugar se han encontrado huesos de saurópodos desde la década de 1870."
+        },
+        {
+          "label": "Ghost Ranch, Nuevo México",
+          "text": "Aquí se han desenterrado numerosos esqueletos de Coelophysis."
+        }
+      ]
+    },
+    {
+      "id": "european-dinosaur-sites",
+      "title": "Yacimientos de dinosaurios en Europa",
+      "image": "assets/site/SITE02PU.webp",
+      "text": "La fascinación por los seres prehistóricos comenzó en Europa, donde unos pocos intrépidos pioneros fueron los primeros en identificar fósiles como pertenecientes a los grandes reptiles del pasado.",
+      "captions": [
+        {
+          "label": "Lyme Regis, Inglaterra",
+          "text": "En este lugar han aparecido plesiosaurios e ictiosaurios."
+        },
+        {
+          "label": "Sussex, Inglaterra",
+          "text": "El doctor Gideon Mantell encontró aquí el primer Iguanodón."
+        },
+        {
+          "label": "Niza, Francia",
+          "text": "El Compsognathus corría por esta región."
+        },
+        {
+          "label": "Bernissart, Bélgica",
+          "text": "Aquí se desenterraron treinta y nueve ejemplares de Iguanodón en una mina de carbón."
+        },
+        {
+          "label": "Solnhofen, Alemania",
+          "text": "Esta zona proporcionó uno de los fósiles más asombrosos del mundo: el Archaeopteryx."
+        },
+        {
+          "label": "Trossingen, Alemania",
+          "text": "El Plateosaurus ha sido encontrado aquí, así como en numerosos lugares de Alemania, Francia y Suiza."
+        }
+      ]
+    },
+    {
+      "id": "south-american-dinosaur-sites",
+      "title": "Yacimientos de dinosaurios en América del Sur",
+      "image": "assets/site/SITE03PU.webp",
+      "text": "Algunos de los dinosaurios más importantes del mundo proceden de América del Sur, entre ellos uno de los más recientemente descubiertos: el Eoraptor, un pequeño dinosaurio hallado por el paleontólogo Paul Sereno. Se cree que el Eoraptor es uno de los saurisquios más primitivos encontrados hasta la fecha.",
+      "captions": [
+        {
+          "label": "El Breté, Argentina",
+          "text": "Aquí vivió el Saltasaurus, uno de los pocos saurópodos conocidos que tenía armadura."
+        },
+        {
+          "label": "Ischigualasto, Argentina",
+          "text": "Esta zona fue el hogar del Riojasaurus, el Herrerasaurus y el recién descubierto Eoraptor."
+        },
+        {
+          "label": "Santa María, Brasil",
+          "text": "El Staurikosaurus, un cazador primitivo, acechaba a sus presas en este lugar."
+        },
+        {
+          "label": "Santa Cruz, Argentina",
+          "text": "En esta región, los paleontólogos han encontrado fósiles de Piatnitzkysaurus y Mussaurus."
+        }
+      ]
+    },
+    {
+      "id": "asian-dinosaur-sites",
+      "title": "Yacimientos de dinosaurios en Asia",
+      "image": "assets/site/SITE04PU.webp",
+      "text": "Oriente ha proporcionado descubrimientos espectaculares de dinosaurios, incluidos huevos y nidos fósiles. Se han hallado dinosaurios en casi todas las provincias de China. La India, que estaba separada de Asia durante la Era de los Dinosaurios, también fue hogar de algunos gigantes prehistóricos.",
+      "captions": [
+        {
+          "label": "Desierto del Gobi, Mongolia",
+          "text": "Este inhóspito paraje albergaba los restos del Velociraptor, Protoceratops, Oviraptor y Pinacosaurus, por nombrar solo algunos."
+        },
+        {
+          "label": "Tiruchirapalli, India",
+          "text": "Un estegosaurio llamado Dravidosaurus se calentaba al sol en este lugar."
+        },
+        {
+          "label": "Meileyingzi, China",
+          "text": "El Psittacosaurus, un dinosaurio con un pico parecido al de un loro, fue descubierto en este lugar."
+        },
+        {
+          "label": "Taihezhen, China",
+          "text": "Esta región fue el hogar del Tuojiangosaurus, un estegosaurio."
+        },
+        {
+          "label": "Wujiabai, China",
+          "text": "Aquí los paleontólogos encontraron al dinosaurio con el cuello más largo, el Mamenchisaurus."
+        }
+      ]
+    },
+    {
+      "id": "african-dinosaur-sites",
+      "title": "Yacimientos de dinosaurios en África",
+      "image": "assets/site/SITE05PU.webp",
+      "text": "Mucho antes de que apareciera el primer ser humano, el continente africano fue hogar de dinosaurios de todas las formas y tamaños. Este mapa muestra algunos de los principales descubrimientos de dinosaurios.",
+      "captions": [
+        {
+          "label": "Montes Atlas, Marruecos",
+          "text": "Aquí fueron desenterrados el Spinosaurus, el dinosaurio con cresta en forma de vela, y el Cetiosaurus, un gran saurópodo."
+        },
+        {
+          "label": "Zimbabue",
+          "text": "En esta zona vivieron varios grandes saurópodos, entre ellos el Barosaurus."
+        },
+        {
+          "label": "Sudáfrica",
+          "text": "El Heterodontosaurus y varios prosauropodos interesantes han aparecido cerca del extremo del continente."
+        },
+        {
+          "label": "Bahariya, Egipto",
+          "text": "El Spinosaurus vagaba por esta zona mucho antes de que se convirtiera en un desierto."
+        },
+        {
+          "label": "Tendaguru, Tanzania",
+          "text": "Esta zona fue el escenario de una de las excavaciones de dinosaurios más famosas del mundo, donde se recogieron más de 250 toneladas de huesos."
+        },
+        {
+          "label": "Lesoto",
+          "text": "Este país da nombre a un pequeño herbívoro, el Lesothosaurus."
+        }
+      ]
+    },
+    {
+      "id": "australian-dinosaur-sites",
+      "title": "Yacimientos de dinosaurios en Australia",
+      "image": "assets/site/SITE06PU.webp",
+      "text": "Australia estuvo en otro tiempo unida a la Antártida y ubicada dentro del Círculo Polar Antártico. Solo se han encontrado unos pocos fósiles de dinosaurios en Australia.",
+      "captions": [
+        {
+          "label": "Queensland",
+          "text": "Esta región ha proporcionado los restos del Muttaburrasaurus, el Rhoetosaurus y el Minmi."
+        },
+        {
+          "label": "Melbourne, Victoria",
+          "text": "En esta zona han aparecido el diminuto Leaellynasaura, el feroz Alosaurio y un misterioso dinosaurio, el Atlascopcoasaurus."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "What You Need to Find a Fossil",
+      "to": "find"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/site/SITE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Yacimientos de dinosaurios en América del Norte",
+            "to": "north-american-dinosaur-sites",
+            "x": 4,
+            "y": 52,
+            "w": 23,
+            "h": 7
+          },
+          {
+            "label": "Yacimientos de dinosaurios en América del Sur",
+            "to": "south-american-dinosaur-sites",
+            "x": 12,
+            "y": 70,
+            "w": 24,
+            "h": 4
+          },
+          {
+            "label": "Yacimientos de dinosaurios en Europa",
+            "to": "european-dinosaur-sites",
+            "x": 63,
+            "y": 38,
+            "w": 22,
+            "h": 4
+          },
+          {
+            "label": "Yacimientos de dinosaurios en Asia",
+            "to": "asian-dinosaur-sites",
+            "x": 63,
+            "y": 46,
+            "w": 18,
+            "h": 4
+          },
+          {
+            "label": "Yacimientos de dinosaurios en África",
+            "to": "african-dinosaur-sites",
+            "x": 62,
+            "y": 56,
+            "w": 21,
+            "h": 4
+          },
+          {
+            "label": "Yacimientos de dinosaurios en Australia",
+            "to": "australian-dinosaur-sites",
+            "x": 65,
+            "y": 66,
+            "w": 22,
+            "h": 4
+          }
+        ]
+      },
+      "north-american-dinosaur-sites": {
+        "image": "assets/site/SITE01PU.webp",
+        "back": "main"
+      },
+      "european-dinosaur-sites": {
+        "image": "assets/site/SITE02PU.webp",
+        "back": "main"
+      },
+      "south-american-dinosaur-sites": {
+        "image": "assets/site/SITE03PU.webp",
+        "back": "main"
+      },
+      "asian-dinosaur-sites": {
+        "image": "assets/site/SITE04PU.webp",
+        "back": "main"
+      },
+      "african-dinosaur-sites": {
+        "image": "assets/site/SITE05PU.webp",
+        "back": "main"
+      },
+      "australian-dinosaur-sites": {
+        "image": "assets/site/SITE06PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/site/SITE00AP.mp3",
+  "narration": "assets/site/SITE00AJ.mp3",
+  "sound": "assets/site/SITE00SA.mp3",
+  "fanTranslation": true
+}

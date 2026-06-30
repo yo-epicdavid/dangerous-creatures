@@ -1,0 +1,1238 @@
+[
+  {
+    "id": "aant",
+    "name": "Hormiga guerrera",
+    "thumb": "assets/es/aant/AANT00AA.webp",
+    "photo": "assets/aant/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas",
+      "Ataques en grupo"
+    ],
+    "habitats": [
+      "Selva tropical",
+      "Praderas y sabanas"
+    ],
+    "regions": [
+      "África",
+      "Asia",
+      "Centroamérica",
+      "Sudamérica",
+      "Australia y Oceanía"
+    ],
+    "diet": "Insectos, mamíferos o reptiles de movimientos lentos y animales muertos.",
+    "kill": "Se lanzan por miles y a pequeños bocados acaban con la víctima."
+  },
+  {
+    "id": "addr",
+    "name": "Víbora europea",
+    "thumb": "assets/es/addr/ADDR00AA.webp",
+    "photo": "assets/addr/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña"
+    ],
+    "habitats": [
+      "Bosques",
+      "Praderas y sabanas"
+    ],
+    "regions": [
+      "Asia",
+      "Europa"
+    ],
+    "diet": "Lagartos, campañoles, ratones, musarañas insectos y lombrices.",
+    "kill": "Mata inyectando veneno en la presa con los colmillos."
+  },
+  {
+    "id": "alig",
+    "name": "Aligátor",
+    "thumb": "assets/es/alig/ALIG00AA.webp",
+    "photo": "assets/alig/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas"
+    ],
+    "habitats": [
+      "Ríos, lagos y humedales"
+    ],
+    "regions": [
+      "Asia",
+      "Norteamérica"
+    ],
+    "diet": "Todo lo que pueda capturar.",
+    "kill": "Sujeta la presa con las mandíbulas y presiona hasta que la ahoga."
+  },
+  {
+    "id": "arow",
+    "name": "Ranita venenosa",
+    "thumb": "assets/es/arow/AROW00AA.webp",
+    "photo": "assets/arow/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña"
+    ],
+    "habitats": [
+      "Selva tropical"
+    ],
+    "regions": [
+      "Centroamérica",
+      "Sudamérica"
+    ],
+    "diet": "Insectos pequeños, arañas y crustáceos.",
+    "kill": "Como defensa rezuma veneno por la piel."
+  },
+  {
+    "id": "babn",
+    "name": "Babuino o papión",
+    "thumb": "assets/es/babn/BABN00AA.webp",
+    "photo": "assets/babn/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas",
+      "Garras y zarpas",
+      "Ataques en grupo"
+    ],
+    "habitats": [
+      "Praderas y sabanas"
+    ],
+    "regions": [
+      "África"
+    ],
+    "diet": "Cualquier planta comestible, liebres, langostas, escorpiones e incluso antílopes pequeños.",
+    "kill": "Ataca y se defiende en grupo, a mordiscos y con las uñas."
+  },
+  {
+    "id": "bara",
+    "name": "Barracuda",
+    "thumb": "assets/es/bara/BARA00AA.webp",
+    "photo": "assets/bara/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas"
+    ],
+    "habitats": [
+      "Océanos y arrecifes de coral"
+    ],
+    "regions": [
+      "Océanos y mares"
+    ],
+    "diet": "Sardinas y otros peces pequeños.",
+    "kill": "Ataca rápidamente y muerde."
+  },
+  {
+    "id": "boac",
+    "name": "Boa",
+    "thumb": "assets/es/boac/BOAC00AA.webp",
+    "photo": "assets/boac/poster.webp",
+    "weapons": [
+      "Constricción"
+    ],
+    "habitats": [
+      "Selva tropical"
+    ],
+    "regions": [
+      "África",
+      "Asia",
+      "Sudamérica",
+      "Australia y Oceanía"
+    ],
+    "diet": "Mamíferos y reptiles pequeños y medianos.",
+    "kill": "Va apretando a su presa hasta que la asfixia."
+  },
+  {
+    "id": "boct",
+    "name": "Pulpo anillado azul",
+    "thumb": "assets/es/boct/BOCT00AA.webp",
+    "photo": "assets/boct/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña",
+      "Dientes y mandíbulas"
+    ],
+    "habitats": [
+      "Océanos y arrecifes de coral"
+    ],
+    "regions": [
+      "Océanos y mares"
+    ],
+    "diet": "Cangrejos, peces y animales marinos pequeños.",
+    "kill": "Se defiende mordiendo al oponente, al que mata con su saliva venenosa."
+  },
+  {
+    "id": "bwid",
+    "name": "Araña viuda negra",
+    "thumb": "assets/es/bwid/BWID00AA.webp",
+    "photo": "assets/bwid/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña"
+    ],
+    "habitats": [
+      "Ciudades y campos",
+      "Bosques"
+    ],
+    "regions": [
+      "África",
+      "Asia",
+      "Europa",
+      "Norteamérica",
+      "Centroamérica",
+      "Sudamérica",
+      "Australia y Oceanía"
+    ],
+    "diet": "Insectos voladores pequeños. Se sabe que la hembra se come también al macho.",
+    "kill": "Inyecta veneno por los colmillos."
+  },
+  {
+    "id": "cane",
+    "name": "Sapo bastón",
+    "thumb": "assets/es/cane/CANE00AA.webp",
+    "photo": "assets/cane/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña"
+    ],
+    "habitats": [
+      "Ríos, lagos y humedales",
+      "Ciudades y campos"
+    ],
+    "regions": [
+      "Centroamérica",
+      "Sudamérica",
+      "Australia y Oceanía"
+    ],
+    "diet": "Insectos, escarabajos, roedores, otros sapos, comida para animales domésticos y basura.",
+    "kill": "Se defiende hinchándose y segregando veneno de unas glándulas de la cabeza."
+  },
+  {
+    "id": "cbuf",
+    "name": "Búfalo africano o búfalo cafre",
+    "thumb": "assets/es/cbuf/CBUF00AA.webp",
+    "photo": "assets/cbuf/poster.webp",
+    "weapons": [
+      "Cuernos, colmillos y embestidas"
+    ],
+    "habitats": [
+      "Praderas y sabanas"
+    ],
+    "regions": [
+      "África"
+    ],
+    "diet": "Hierbas, hojas y ramas pequeñas.",
+    "kill": "Derriba a cornadas al oponente y después lo pisotea."
+  },
+  {
+    "id": "cdog",
+    "name": "Licaón o lobo pintado africano",
+    "thumb": "assets/es/cdog/CDOG00AA.webp",
+    "photo": "assets/cdog/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas",
+      "Ataques en grupo"
+    ],
+    "habitats": [
+      "Praderas y sabanas"
+    ],
+    "regions": [
+      "África"
+    ],
+    "diet": "Antílopes, búfalos, facoqueros y liebres.",
+    "kill": "Atacan en grupo y muerden a la presa."
+  },
+  {
+    "id": "cent",
+    "name": "Ciempiés",
+    "thumb": "assets/es/cent/CENT00AA.webp",
+    "photo": "assets/cent/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña",
+      "Garras y zarpas"
+    ],
+    "habitats": [
+      "Bosques",
+      "Selva tropical"
+    ],
+    "regions": [
+      "África",
+      "Asia",
+      "Europa",
+      "Norteamérica",
+      "Centroamérica",
+      "Sudamérica"
+    ],
+    "diet": "Insectos, lombrices y cucarachas.",
+    "kill": "Mata inyectando veneno mediante unas garras especiales."
+  },
+  {
+    "id": "chee",
+    "name": "Guepardo",
+    "thumb": "assets/es/chee/CHEE00AA.webp",
+    "photo": "assets/chee/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas",
+      "Garras y zarpas"
+    ],
+    "habitats": [
+      "Praderas y sabanas"
+    ],
+    "regions": [
+      "África",
+      "Asia"
+    ],
+    "diet": "Gacelas y antílopes, así como numerosos animales pequeños.",
+    "kill": "Muerde, desgarra y estrangula a su presa."
+  },
+  {
+    "id": "cobr",
+    "name": "Cobra",
+    "thumb": "assets/es/cobr/COBR00AA.webp",
+    "photo": "assets/cobr/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña"
+    ],
+    "habitats": [
+      "Praderas y sabanas",
+      "Bosques"
+    ],
+    "regions": [
+      "África",
+      "Asia"
+    ],
+    "diet": "Roedores, insectos, reptiles pequeños y huevos.",
+    "kill": "Mata y se defiende inyectando o escupiendo veneno."
+  },
+  {
+    "id": "cock",
+    "name": "Cucaracha",
+    "thumb": "assets/es/cock/COCK00AA.webp",
+    "photo": "assets/cock/poster.webp",
+    "weapons": [
+      "Transmisores de enfermedades"
+    ],
+    "habitats": [
+      "Ciudades y campos",
+      "Selva tropical",
+      "Desierto"
+    ],
+    "regions": [
+      "En todo el mundo"
+    ],
+    "diet": "Cualquier alimento, incluyendo los recipientes.",
+    "kill": "Es nocivo para el hombre porque propaga enfermedades y estropea alimentos."
+  },
+  {
+    "id": "coug",
+    "name": "Puma o león de la montaña",
+    "thumb": "assets/es/coug/COUG00AA.webp",
+    "photo": "assets/coug/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas"
+    ],
+    "habitats": [
+      "Montañas",
+      "Bosques"
+    ],
+    "regions": [
+      "Norteamérica",
+      "Sudamérica"
+    ],
+    "diet": "Ciervos, castores, puercoespines y monos.",
+    "kill": "Aguarda escondido a su presa, a la que rompe el cuello de un mordisco."
+  },
+  {
+    "id": "crab",
+    "name": "Cangrejo",
+    "thumb": "assets/es/crab/CRAB00AA.webp",
+    "photo": "assets/crab/poster.webp",
+    "weapons": [
+      "Pinzas"
+    ],
+    "habitats": [
+      "Océanos y arrecifes de coral"
+    ],
+    "regions": [
+      "Océanos y mares",
+      "En todo el mundo"
+    ],
+    "diet": "Plantas o animales muertos, plancton, peces vivos (la dieta varía según la especie).",
+    "kill": "Para defenderse o atacar, sujeta y corta a la víctima con las pinzas."
+  },
+  {
+    "id": "croc",
+    "name": "Cocodrilo",
+    "thumb": "assets/es/croc/CROC00AA.webp",
+    "photo": "assets/croc/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas"
+    ],
+    "habitats": [
+      "Ríos, lagos y humedales"
+    ],
+    "regions": [
+      "África",
+      "Asia",
+      "Norteamérica",
+      "Australia y Oceanía"
+    ],
+    "diet": "Todo lo que pueda capturar.",
+    "kill": "Sujeta la presa con las mandíbulas y la sumerge hasta ahogarla."
+  },
+  {
+    "id": "eeel",
+    "name": "Anguila eléctrica",
+    "thumb": "assets/es/eeel/EEEL00AA.webp",
+    "photo": "assets/eeel/poster.webp",
+    "weapons": [
+      "Descarga eléctrica"
+    ],
+    "habitats": [
+      "Ríos, lagos y humedales"
+    ],
+    "regions": [
+      "Sudamérica"
+    ],
+    "diet": "Peces, ranas y otros animales de río pequeños.",
+    "kill": "Se defiende aturdiendo a su presa con una descarga eléctrica."
+  },
+  {
+    "id": "elef",
+    "name": "Elefante",
+    "thumb": "assets/es/elef/ELEF00AA.webp",
+    "photo": "assets/elef/poster.webp",
+    "weapons": [
+      "Cuernos, colmillos y embestidas"
+    ],
+    "habitats": [
+      "Praderas y sabanas",
+      "Bosques"
+    ],
+    "regions": [
+      "África",
+      "Asia"
+    ],
+    "diet": "Hierbas, hojas, cortezas, raíces y frutas.",
+    "kill": "Pisotea o utiliza la trompa para golpear al oponente o tirar de él."
+  },
+  {
+    "id": "fsal",
+    "name": "Salamandra común",
+    "thumb": "assets/es/fsal/FSAL00AA.webp",
+    "photo": "assets/fsal/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña"
+    ],
+    "habitats": [
+      "Bosques"
+    ],
+    "regions": [
+      "África",
+      "Asia",
+      "Europa"
+    ],
+    "diet": "Insectos y gusanos",
+    "kill": "Se defiende lanzando veneno desde unas glándulas que tiene en la cabeza."
+  },
+  {
+    "id": "funl",
+    "name": "Araña de tela de embudo",
+    "thumb": "assets/es/funl/FUNL00AA.webp",
+    "photo": "assets/funl/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña"
+    ],
+    "habitats": [
+      "Bosques"
+    ],
+    "regions": [
+      "Australia y Oceanía"
+    ],
+    "diet": "Insectos",
+    "kill": "Inyecta un veneno mortal por medio de los colmillos."
+  },
+  {
+    "id": "gila",
+    "name": "Monstruo de Gila",
+    "thumb": "assets/es/gila/GILA00AA.webp",
+    "photo": "assets/gila/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña",
+      "Dientes y mandíbulas"
+    ],
+    "habitats": [
+      "Desierto"
+    ],
+    "regions": [
+      "Norteamérica"
+    ],
+    "diet": "Roedores, huevos, crías de aves, lagartos, ranas e insectos.",
+    "kill": "Al morder deja veneno en la herida."
+  },
+  {
+    "id": "griz",
+    "name": "Oso grizzly u oso pardo grizzly",
+    "thumb": "assets/es/griz/GRIZ00AA.webp",
+    "photo": "assets/griz/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas",
+      "Garras y zarpas"
+    ],
+    "habitats": [
+      "Bosques",
+      "Montañas"
+    ],
+    "regions": [
+      "Norteamérica"
+    ],
+    "diet": "Peces, hierba, miel, roedores, insectos, frutas y frutos secos.",
+    "kill": "Mata y se defiende a bocados y zarpazos."
+  },
+  {
+    "id": "gsqu",
+    "name": "Calamar gigante",
+    "thumb": "assets/es/gsqu/GSQU00AA.webp",
+    "photo": "assets/gsqu/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas"
+    ],
+    "habitats": [
+      "Océanos y arrecifes de coral"
+    ],
+    "regions": [
+      "Océanos y mares",
+      "En todo el mundo"
+    ],
+    "diet": "Peces, crustáceos y animales marinos de todos los tamaños.",
+    "kill": "Muerde y aplasta a su presa."
+  },
+  {
+    "id": "gwsh",
+    "name": "Gran tiburón blanco",
+    "thumb": "assets/es/gwsh/GWSH00AA.webp",
+    "photo": "assets/gwsh/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas"
+    ],
+    "habitats": [
+      "Océanos y arrecifes de coral"
+    ],
+    "regions": [
+      "Océanos y mares"
+    ],
+    "diet": "Focas, leones marinos y animales del mar.",
+    "kill": "Su mordedura arranca un gran trozo del cuerpo de la víctima."
+  },
+  {
+    "id": "hamr",
+    "name": "Tiburón martillo",
+    "thumb": "assets/es/hamr/HAMR00AA.webp",
+    "photo": "assets/hamr/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas"
+    ],
+    "habitats": [
+      "Océanos y arrecifes de coral"
+    ],
+    "regions": [
+      "Océanos y mares"
+    ],
+    "diet": "Peces, calamares y tiburones pequeños.",
+    "kill": "Mata mordiendo a su presa."
+  },
+  {
+    "id": "harp",
+    "name": "Águila harpía",
+    "thumb": "assets/es/harp/HARP00AA.webp",
+    "photo": "assets/harp/poster.webp",
+    "weapons": [
+      "Garras y zarpas"
+    ],
+    "habitats": [
+      "Selva tropical"
+    ],
+    "regions": [
+      "Norteamérica",
+      "Sudamérica"
+    ],
+    "diet": "Monos, aves, perezosos, puercoespines y reptiles.",
+    "kill": "Con el pico y las garras sujeta y despedaza a su presa."
+  },
+  {
+    "id": "hipp",
+    "name": "Hipopótamo",
+    "thumb": "assets/es/hipp/HIPP00AA.webp",
+    "photo": "assets/hipp/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas",
+      "Cuernos, colmillos y embestidas"
+    ],
+    "habitats": [
+      "Ríos, lagos y humedales"
+    ],
+    "regions": [
+      "África"
+    ],
+    "diet": "Hierba, hojas y plantas acuáticas.",
+    "kill": "Como defensa muerde y pisotea."
+  },
+  {
+    "id": "hyen",
+    "name": "Hiena",
+    "thumb": "assets/es/hyen/HYEN00AA.webp",
+    "photo": "assets/hyen/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas",
+      "Ataques en grupo"
+    ],
+    "habitats": [
+      "Praderas y sabanas"
+    ],
+    "regions": [
+      "África",
+      "Asia"
+    ],
+    "diet": "Animales muertos, cebras, ñúes y antílopes.",
+    "kill": "Atacan en grupo y muerden a la presa."
+  },
+  {
+    "id": "jagu",
+    "name": "Jaguar o tigre americano",
+    "thumb": "assets/es/jagu/JAGU00AA.webp",
+    "photo": "assets/jagu/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas"
+    ],
+    "habitats": [
+      "Selva tropical"
+    ],
+    "regions": [
+      "Norteamérica",
+      "Centroamérica",
+      "Sudamérica"
+    ],
+    "diet": "Principalmente mamíferos, pero también peces, aves, tortugas y sus huevos.",
+    "kill": "Atraviesa de un bocado el cráneo de la víctima."
+  },
+  {
+    "id": "kbee",
+    "name": "Abeja asesina",
+    "thumb": "assets/es/kbee/KBEE00AA.webp",
+    "photo": "assets/kbee/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña",
+      "Aguijones"
+    ],
+    "habitats": [
+      "Praderas y sabanas",
+      "Ciudades y campos"
+    ],
+    "regions": [
+      "África",
+      "Norteamérica",
+      "Centroamérica",
+      "Sudamérica"
+    ],
+    "diet": "Polen, néctar y miel.",
+    "kill": "Se defiende con un aguijón venenoso."
+  },
+  {
+    "id": "komd",
+    "name": "Dragón o varano de Komodo",
+    "thumb": "assets/es/komd/KOMD00AA.webp",
+    "photo": "assets/komd/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas",
+      "Transmisores de enfermedades"
+    ],
+    "habitats": [
+      "Praderas y sabanas",
+      "Bosques"
+    ],
+    "regions": [
+      "Asia"
+    ],
+    "diet": "Animales muertos, serpientes, roedores, tortugas, huevos de tortugas, ciervos, cabras y búfalos.",
+    "kill": "Muerde y desgarra a la presa; si no la mata le produce una infección."
+  },
+  {
+    "id": "leop",
+    "name": "Leopardo",
+    "thumb": "assets/es/leop/LEOP00AA.webp",
+    "photo": "assets/leop/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas"
+    ],
+    "habitats": [
+      "Praderas y sabanas",
+      "Bosques"
+    ],
+    "regions": [
+      "África",
+      "Asia"
+    ],
+    "diet": "Antílopes, cebras, facóqueros, conejos, babuinos y perros domésticos.",
+    "kill": "Mata a su presa en la garganta y mediante un giro le rompe el cuello."
+  },
+  {
+    "id": "lfsh",
+    "name": "Pez león",
+    "thumb": "assets/es/lfsh/LFSH00AA.webp",
+    "photo": "assets/lfsh/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña",
+      "Púas y espinas"
+    ],
+    "habitats": [
+      "Océanos y arrecifes de coral"
+    ],
+    "regions": [
+      "Océanos y mares"
+    ],
+    "diet": "Peces pequeños, crustáceos y gambas.",
+    "kill": "Se defiende con sus espinas venenosas."
+  },
+  {
+    "id": "lion",
+    "name": "León",
+    "thumb": "assets/es/lion/LION00AA.webp",
+    "photo": "assets/lion/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas"
+    ],
+    "habitats": [
+      "Praderas y sabanas"
+    ],
+    "regions": [
+      "África",
+      "Asia"
+    ],
+    "diet": "Cebras, ñúes, facóqueros, búfalos y jirafas.",
+    "kill": "Mordiendo en el cuello y ahogando a la presa."
+  },
+  {
+    "id": "mamb",
+    "name": "Serpiente mamba negra",
+    "thumb": "assets/es/mamb/MAMB00AA.webp",
+    "photo": "assets/mamb/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña"
+    ],
+    "habitats": [
+      "Praderas y sabanas"
+    ],
+    "regions": [
+      "África"
+    ],
+    "diet": "Pájaros, lagartos, ranas y sapos.",
+    "kill": "Inyecta veneno por los colmillos."
+  },
+  {
+    "id": "mang",
+    "name": "Serpiente de los manglares",
+    "thumb": "assets/es/mang/MANG00AA.webp",
+    "photo": "assets/mang/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña"
+    ],
+    "habitats": [
+      "Selva tropical",
+      "Ríos, lagos y humedales"
+    ],
+    "regions": [
+      "Asia"
+    ],
+    "diet": "Aves, mamíferos pequeños, ranas, lagartos y otras serpientes.",
+    "kill": "Mata inyectando veneno con los colmillos."
+  },
+  {
+    "id": "meel",
+    "name": "Morena",
+    "thumb": "assets/es/meel/MEEL00AA.webp",
+    "photo": "assets/meel/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas"
+    ],
+    "habitats": [
+      "Océanos y arrecifes de coral"
+    ],
+    "regions": [
+      "Océanos y mares"
+    ],
+    "diet": "Peces y presas pequeñas.",
+    "kill": "Mordiendo a su presa con los dientes de sierra."
+  },
+  {
+    "id": "mosq",
+    "name": "Mosquito",
+    "thumb": "assets/es/mosq/MOSQ00AA.webp",
+    "photo": "assets/mosq/poster.webp",
+    "weapons": [
+      "Transmisores de enfermedades"
+    ],
+    "habitats": [
+      "Ríos, lagos y humedales",
+      "Ciudades y campos"
+    ],
+    "regions": [
+      "En todo el mundo"
+    ],
+    "diet": "La hembra chupa la sangre de los animales.",
+    "kill": "Propaga enfermedades como la encefalitis, fiebres y la malaria."
+  },
+  {
+    "id": "mwar",
+    "name": "Fragata portuguesa",
+    "thumb": "assets/es/mwar/MWAR00AA.webp",
+    "photo": "assets/mwar/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña",
+      "Aguijones"
+    ],
+    "habitats": [
+      "Océanos y arrecifes de coral"
+    ],
+    "regions": [
+      "Océanos y mares"
+    ],
+    "diet": "Todo tipo de peces.",
+    "kill": "Pica con células venenosas."
+  },
+  {
+    "id": "orca",
+    "name": "Orca o ballena asesina",
+    "thumb": "assets/es/orca/ORCA00AA.webp",
+    "photo": "assets/orca/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas"
+    ],
+    "habitats": [
+      "Océanos y arrecifes de coral",
+      "Zonas polares y tundra"
+    ],
+    "regions": [
+      "Océanos y mares",
+      "Regiones polares"
+    ],
+    "diet": "Focas, delfines, pingüinos y peces.",
+    "kill": "Muerde a su presa o se la traga entera."
+  },
+  {
+    "id": "pbea",
+    "name": "Oso polar u oso blanco",
+    "thumb": "assets/es/pbea/PBEA00AA.webp",
+    "photo": "assets/pbea/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas"
+    ],
+    "habitats": [
+      "Zonas polares y tundra"
+    ],
+    "regions": [
+      "Norteamérica",
+      "Regiones polares"
+    ],
+    "diet": "Focas, morsas, bueyes almicleros, renos, zorros, peces y cangrejos.",
+    "kill": "Muerde y tritura a la presa con sus potentes mandíbulas."
+  },
+  {
+    "id": "pira",
+    "name": "Piraña",
+    "thumb": "assets/es/pira/PIRA00AA.webp",
+    "photo": "assets/pira/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas",
+      "Ataques en grupo"
+    ],
+    "habitats": [
+      "Ríos, lagos y humedales"
+    ],
+    "regions": [
+      "Sudamérica"
+    ],
+    "diet": "Peces pequeños y animales muertos o heridos de cualquier tamaño.",
+    "kill": "Atacan en grupo y cada pez arranca con su mordisco un trozo de la víctima."
+  },
+  {
+    "id": "plat",
+    "name": "Ornitorrinco",
+    "thumb": "assets/es/plat/PLAT00AA.webp",
+    "photo": "assets/plat/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña"
+    ],
+    "habitats": [
+      "Ríos, lagos y humedales"
+    ],
+    "regions": [
+      "Australia y Oceanía"
+    ],
+    "diet": "Cangrejos de río, gusanos y pequeños animales acuáticos.",
+    "kill": "Para defenderse inyecta veneno con los espolones de las patas traseras."
+  },
+  {
+    "id": "porc",
+    "name": "Pez puercoespín",
+    "thumb": "assets/es/porc/PORC00AA.webp",
+    "photo": "assets/porc/poster.webp",
+    "weapons": [
+      "Púas y espinas"
+    ],
+    "habitats": [
+      "Océanos y arrecifes de coral"
+    ],
+    "regions": [
+      "Océanos y mares"
+    ],
+    "diet": "Almejas, erizos de mar y cangrejos.",
+    "kill": "Como defensa se hincha y se convierte en una bola espinosa."
+  },
+  {
+    "id": "post",
+    "name": "Oruga del Heliconio o ninfálida",
+    "thumb": "assets/es/post/POST00AA.webp",
+    "photo": "assets/post/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña"
+    ],
+    "habitats": [
+      "Selva tropical"
+    ],
+    "regions": [
+      "Centroamérica",
+      "Sudamérica"
+    ],
+    "diet": "Plantas y polen, especialmente las flores de la pasionaria.",
+    "kill": "Su defensa consiste en que como es venenosa no se la pueden comer."
+  },
+  {
+    "id": "pyth",
+    "name": "Serpiente pitón",
+    "thumb": "assets/es/pyth/PYTH00AA.webp",
+    "photo": "assets/pyth/poster.webp",
+    "weapons": [
+      "Constricción"
+    ],
+    "habitats": [
+      "Selva tropical",
+      "Praderas y sabanas"
+    ],
+    "regions": [
+      "África",
+      "Asia",
+      "Australia y Oceanía"
+    ],
+    "diet": "Pequeños reptiles, pájaros, cerdos y ciervos.",
+    "kill": "Aprieta su presa hasta ahogarla."
+  },
+  {
+    "id": "rats",
+    "name": "Rata",
+    "thumb": "assets/es/rats/RATS00AA.webp",
+    "photo": "assets/rats/poster.webp",
+    "weapons": [
+      "Transmisores de enfermedades"
+    ],
+    "habitats": [
+      "Ciudades y campos"
+    ],
+    "regions": [
+      "En todo el mundo"
+    ],
+    "diet": "Cualquier alimento, especialmente cereales.",
+    "kill": "Propaga enfermedades como el tifus, la rabia y la peste bubónica."
+  },
+  {
+    "id": "rhin",
+    "name": "Rinoceronte",
+    "thumb": "assets/es/rhin/RHIN00AA.webp",
+    "photo": "assets/rhin/poster.webp",
+    "weapons": [
+      "Cuernos, colmillos y embestidas"
+    ],
+    "habitats": [
+      "Praderas y sabanas",
+      "Bosques"
+    ],
+    "regions": [
+      "África",
+      "Asia"
+    ],
+    "diet": "Ramas, hojas, juncos y hierbas.",
+    "kill": "Se defiende embistiendo con el cuerno."
+  },
+  {
+    "id": "rttl",
+    "name": "Serpiente de cascabel",
+    "thumb": "assets/es/rttl/RTTL00AA.webp",
+    "photo": "assets/rttl/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña"
+    ],
+    "habitats": [
+      "Desierto",
+      "Praderas y sabanas"
+    ],
+    "regions": [
+      "Norteamérica",
+      "Centroamérica",
+      "Sudamérica"
+    ],
+    "diet": "Roedores, lagartos y pájaros; y ocasionalmente sus huevos.",
+    "kill": "Mata inyectando veneno mediante los colmillos"
+  },
+  {
+    "id": "scor",
+    "name": "Escorpión",
+    "thumb": "assets/es/scor/SCOR00AA.webp",
+    "photo": "assets/scor/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña",
+      "Aguijones"
+    ],
+    "habitats": [
+      "Desierto",
+      "Praderas y sabanas"
+    ],
+    "regions": [],
+    "diet": "Insectos, ranas, roedores y otros escorpiones.",
+    "kill": "Mata inyectando veneno con el aguijón de la cola."
+  },
+  {
+    "id": "seas",
+    "name": "Serpiente de mar",
+    "thumb": "assets/es/seas/SEAS00AA.webp",
+    "photo": "assets/seas/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña"
+    ],
+    "habitats": [
+      "Océanos y arrecifes de coral"
+    ],
+    "regions": [
+      "Océanos y mares"
+    ],
+    "diet": "Peces, huevos de peces y pequeñas anguilas.",
+    "kill": "Mata inyectando veneno con los colmillos."
+  },
+  {
+    "id": "snap",
+    "name": "Tortuga de presa, o mordedora, americana",
+    "thumb": "assets/es/snap/SNAP00AA.webp",
+    "photo": "assets/snap/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas"
+    ],
+    "habitats": [
+      "Ríos, lagos y humedales"
+    ],
+    "regions": [
+      "Norteamérica",
+      "Centroamérica",
+      "Sudamérica"
+    ],
+    "diet": "Invertebrados, plantas, animales muertos, peces, serpientes y otras tortugas.",
+    "kill": "Ataca por sorpresa y muerde con sus poderosas mandíbulas."
+  },
+  {
+    "id": "sray",
+    "name": "Raya",
+    "thumb": "assets/es/sray/SRAY00AA.webp",
+    "photo": "assets/sray/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña",
+      "Púas y espinas"
+    ],
+    "habitats": [
+      "Océanos y arrecifes de coral",
+      "Ríos, lagos y humedales"
+    ],
+    "regions": [
+      "Sudamérica",
+      "Océanos y mares"
+    ],
+    "diet": "Crustáceos, almejas, gusanos y otros invertebrados.",
+    "kill": "Se defiende con la espina venenosa de la cola."
+  },
+  {
+    "id": "swsp",
+    "name": "Avispa de mar australiana",
+    "thumb": "assets/es/swsp/SWSP00AA.webp",
+    "photo": "assets/swsp/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña",
+      "Aguijones"
+    ],
+    "habitats": [
+      "Océanos y arrecifes de coral"
+    ],
+    "regions": [
+      "Australia y Oceanía"
+    ],
+    "diet": "Peces pequeños.",
+    "kill": "Mata picando con células venenosas."
+  },
+  {
+    "id": "tasm",
+    "name": "Diablo de Tasmania",
+    "thumb": "assets/es/tasm/TASM00AA.webp",
+    "photo": "assets/tasm/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas",
+      "Garras y zarpas"
+    ],
+    "habitats": [
+      "Bosques"
+    ],
+    "regions": [
+      "Australia y Oceanía"
+    ],
+    "diet": "Principalmente animales muertos; también insectos, uallabis y ovejas.",
+    "kill": "Mata mordiendo y desgarrando a la presa."
+  },
+  {
+    "id": "tigr",
+    "name": "Tigre",
+    "thumb": "assets/es/tigr/TIGR00AA.webp",
+    "photo": "assets/tigr/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas",
+      "Garras y zarpas"
+    ],
+    "habitats": [
+      "Selva tropical",
+      "Bosques"
+    ],
+    "regions": [
+      "Asia"
+    ],
+    "diet": "Ciervos, búfalos, cabras, jabalíes, antílopes y liebres.",
+    "kill": "Ataca por sorpresa, mordiendo y desgarrando a su víctima."
+  },
+  {
+    "id": "tran",
+    "name": "Tarántula",
+    "thumb": "assets/es/tran/TRAN00AA.webp",
+    "photo": "assets/tran/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña"
+    ],
+    "habitats": [
+      "Selva tropical",
+      "Desierto"
+    ],
+    "regions": [
+      "África",
+      "Asia",
+      "Australia y Oceanía"
+    ],
+    "diet": "Insectos, pequeños reptiles, ranas, pequeños roedores y otras arañas.",
+    "kill": "Mata inyectando veneno con los colmillos."
+  },
+  {
+    "id": "vamp",
+    "name": "Vampiro vulgar o vampiro de Azara",
+    "thumb": "assets/es/vamp/VAMP00AA.webp",
+    "photo": "assets/vamp/poster.webp",
+    "weapons": [
+      "Transmisores de enfermedades"
+    ],
+    "habitats": [
+      "Selva tropical",
+      "Ciudades y campos"
+    ],
+    "regions": [
+      "Centroamérica",
+      "Sudamérica"
+    ],
+    "diet": "Sangre de animales de sangre caliente, principalmente ganado vacuno, caballos, ovejas y cabras.",
+    "kill": "Propaga enfermedades infecciosas, especialmente la rabia."
+  },
+  {
+    "id": "vult",
+    "name": "Buitre",
+    "thumb": "assets/es/vult/VULT00AA.webp",
+    "photo": "assets/vult/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas",
+      "Garras y zarpas"
+    ],
+    "habitats": [
+      "Praderas y sabanas"
+    ],
+    "regions": [
+      "En todo el mundo"
+    ],
+    "diet": "Carroña, terneros recién nacidos, tortugas, tuétano de los huesos, placentas.",
+    "kill": "Mata con el pico y las garras y también es carroñero."
+  },
+  {
+    "id": "wart",
+    "name": "Facóquero o jabalí verrucoso",
+    "thumb": "assets/es/wart/WART00AA.webp",
+    "photo": "assets/wart/poster.webp",
+    "weapons": [
+      "Cuernos, colmillos y embestidas",
+      "Ataques en grupo"
+    ],
+    "habitats": [
+      "Praderas y sabanas"
+    ],
+    "regions": [
+      "África"
+    ],
+    "diet": "Hierba, raíces, tubérculos y juncos.",
+    "kill": "Se defiende con los colmillos y ataca en grupo."
+  },
+  {
+    "id": "wasp",
+    "name": "Avispa",
+    "thumb": "assets/es/wasp/WASP00AA.webp",
+    "photo": "assets/wasp/poster.webp",
+    "weapons": [
+      "Veneno y ponzoña",
+      "Aguijones"
+    ],
+    "habitats": [
+      "Bosques",
+      "Ciudades y campos"
+    ],
+    "regions": [
+      "En todo el mundo"
+    ],
+    "diet": "Frutas, insectos, arañas, animales muertos, cigarras y otras avispas.",
+    "kill": "Mata con el aguijón venenoso de la cola."
+  },
+  {
+    "id": "wlvr",
+    "name": "Glotón",
+    "thumb": "assets/es/wlvr/WLVR00AA.webp",
+    "photo": "assets/wlvr/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas"
+    ],
+    "habitats": [
+      "Bosques",
+      "Zonas polares y tundra",
+      "Montañas"
+    ],
+    "regions": [
+      "Asia",
+      "Europa",
+      "Norteamérica"
+    ],
+    "diet": "Animales muertos, renos, caribúes, roedores, liebres, huevos y bayas.",
+    "kill": "Mata mordiendo a la presa en el cuello; también ataca por sorpresa."
+  },
+  {
+    "id": "wolf",
+    "name": "Lobo",
+    "thumb": "assets/es/wolf/WOLF00AA.webp",
+    "photo": "assets/wolf/poster.webp",
+    "weapons": [
+      "Dientes y mandíbulas",
+      "Ataques en grupo"
+    ],
+    "habitats": [
+      "Bosques",
+      "Praderas y sabanas",
+      "Zonas polares y tundra"
+    ],
+    "regions": [
+      "Asia",
+      "Europa",
+      "Norteamérica"
+    ],
+    "diet": "Ciervos, alces, ganado vacuno, caribúes, castores y liebres.",
+    "kill": "Caza en manada y mata a su presa a mordiscos."
+  }
+]

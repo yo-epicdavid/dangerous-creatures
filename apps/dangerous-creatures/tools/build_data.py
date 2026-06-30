@@ -150,8 +150,12 @@ def main():
             regions_map.setdefault(r, []).append(slug)
         for h in habitats:
             habitats_map.setdefault(h, []).append(slug)
+        # "Which creature is this?" needs a name-free image — the 00AA thumb has the
+        # animal's name painted on. Use the clean video-frame poster when present.
+        has_poster = os.path.exists(os.path.join(WEB, "assets", slug, "poster.webp"))
         quiz_rows.append({
             "id": slug, "name": d["name"], "thumb": asset(slug, main_stem + ".webp"),
+            "photo": asset(slug, "poster.webp") if has_poster else None,
             "weapons": weapons, "habitats": habitats, "regions": regions,
             "diet": factmap.get("Favorite meals", ""), "kill": factmap.get("How it kills", ""),
         })

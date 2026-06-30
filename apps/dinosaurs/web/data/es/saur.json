@@ -1,0 +1,199 @@
+{
+  "id": "saur",
+  "code": "SAUR",
+  "name": "Saurolophus",
+  "category": "dinosaur",
+  "scientificName": "Saurolophus",
+  "needsScientificVerify": false,
+  "pronunciation": "saw-ROL-oh-fus",
+  "meaning": "lagarto con cresta",
+  "period": "Cretácico superior",
+  "diet": "Herbívoro",
+  "tagline": "¡El dinosaurio de pico de pato que puede que emitiera potentes llamadas a través de un enorme globo de piel!",
+  "hero": {
+    "image": "assets/saur/SAUR00AA.webp",
+    "alt": "Saurolophus"
+  },
+  "intro": "El Saurolophus era un dinosaurio con un «globo» en la cabeza. Los expertos creen que este dinosaurio de pico de pato podría haber inflado el globo de piel para producir un sonido fuerte, de forma muy similar a como algunas ranas actuales inflan sus sacos vocales. Esto significa que los dinosaurios podrían haberse «comunicado» entre sí.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Asia, América del Norte"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto con cresta"
+    },
+    {
+      "label": "Caderas",
+      "value": "Con caderas de ave"
+    },
+    {
+      "label": "Familia",
+      "value": "Ornitópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "9 m (30 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "strange-heads",
+      "title": "Cabezas extrañas",
+      "image": "assets/saur/SAUR01PU.webp",
+      "text": "Los dinosaurios de pico de pato como el Saurolophus son conocidos no solo por sus picos similares a los de los patos, sino también por sus cabezas de formas tan peculiares. Como puedes ver aquí, los hadrosaurios Tsintaosaurus, Parasaurolophus y Corythosaurus también tenían crestas espectaculares en la cabeza.",
+      "captions": [
+        {
+          "label": "Tsintaosaurus",
+          "text": "Este hadrosaurio tenía un cuerno hueco en la frente. Al igual que el Saurolophus, es posible que tuviera una aleta de piel parecida a un globo sobre la nariz."
+        },
+        {
+          "label": "Saurolophus",
+          "text": "La cabeza de este dinosaurio no parece tan extraña cuando se la ve junto a sus primos hadrosaurios."
+        },
+        {
+          "label": "Parasaurolophus",
+          "text": "¡La cresta de este dinosaurio podía ser tan larga como una persona adulta!"
+        },
+        {
+          "label": "Corythosaurus",
+          "text": "Los expertos creen que la cresta de este dinosaurio tenía una forma y un tamaño diferentes en las hembras de la especie."
+        }
+      ]
+    },
+    {
+      "id": "dinosaur-disease",
+      "title": "Enfermedades de los dinosaurios",
+      "image": "assets/saur/SAUR02PU.webp",
+      "text": "Los dinosaurios no eran inmunes a los accidentes ni a las enfermedades. De hecho, los dinosaurios incluso podían padecer cáncer. Esta sección de la columna vertebral de un hadrosaurio muestra una zona hinchada que corresponde a un tumor óseo canceroso.",
+      "captions": [
+        {
+          "label": "Zona hinchada de crecimiento tumoral",
+          "text": "Zona hinchada de crecimiento tumoral"
+        }
+      ]
+    },
+    {
+      "id": "a-great-grinder",
+      "title": "Un gran triturador",
+      "image": "assets/saur/SAUR03PU.webp",
+      "text": "El Saurolophus, como otros hadrosaurios, tenía un pico en la parte delantera de la boca, pero no carecía de dientes. Los hadrosaurios poseían una sorprendente batería de dientes en forma de diamante que actuaban como un rallador de autoafilado para triturar plantas resistentes como las cícadas y las coníferas.",
+      "captions": [
+        {
+          "label": "Para triturar mejor",
+          "text": "Estas filas de dientes superpuestos formaban grandes superficies de trituración de plantas, como puedes ver en esta mandíbula de hadrosaurio."
+        },
+        {
+          "label": "Fronda de cícada",
+          "text": "Fronda de cícada"
+        },
+        {
+          "label": "Rama de conífera",
+          "text": "Rama de conífera"
+        }
+      ]
+    },
+    {
+      "id": "can-you-hear-me",
+      "title": "¿Me oyes?",
+      "image": "assets/saur/SAUR04PU.webp",
+      "text": "Entre su pico de pato y su cresta puntiaguda, el cráneo del Saurolophus estaba aplanado a ambos lados. Ahí era donde descansaba su aleta de piel, como un globo vacío, cuando el Saurolophus estaba tranquilo. La aleta de piel estaba conectada a las fosas nasales del dinosaurio. Cuando el Saurolophus quería hacer un ruido fuerte, inflaba el globo de piel de esta manera."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Bactrosaurus",
+      "to": "bact"
+    },
+    {
+      "label": "Corythosaurus",
+      "to": "cory"
+    },
+    {
+      "label": "Extinction",
+      "to": "exti"
+    },
+    {
+      "label": "Teeth",
+      "to": "teet"
+    },
+    {
+      "label": "Face to Face",
+      "to": "ftfa"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/saur/SAUR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cabezas extrañas",
+            "to": "strange-heads",
+            "x": 62,
+            "y": 25,
+            "w": 20,
+            "h": 7
+          },
+          {
+            "label": "Un gran triturador",
+            "to": "a-great-grinder",
+            "x": 74,
+            "y": 44,
+            "w": 20,
+            "h": 7
+          },
+          {
+            "label": "¿Me oyes?",
+            "to": "can-you-hear-me",
+            "x": 67,
+            "y": 59,
+            "w": 23,
+            "h": 7
+          },
+          {
+            "label": "Enfermedades de los dinosaurios",
+            "to": "dinosaur-disease",
+            "x": 5,
+            "y": 71,
+            "w": 21,
+            "h": 7
+          }
+        ]
+      },
+      "strange-heads": {
+        "image": "assets/saur/SAUR01PU.webp",
+        "back": "main"
+      },
+      "dinosaur-disease": {
+        "image": "assets/saur/SAUR02PU.webp",
+        "back": "main"
+      },
+      "a-great-grinder": {
+        "image": "assets/saur/SAUR03PU.webp",
+        "back": "main"
+      },
+      "can-you-hear-me": {
+        "image": "assets/saur/SAUR04PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/saur/SAUR50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/saur/SAUR00AP.mp3",
+  "narration": "assets/saur/SAUR00AJ.mp3",
+  "fanTranslation": true
+}

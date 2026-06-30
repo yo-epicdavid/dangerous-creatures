@@ -1,0 +1,113 @@
+{
+  "id": "mosc",
+  "code": "MOSC",
+  "name": "Moschops",
+  "category": "creature",
+  "scientificName": "Moschops",
+  "needsScientificVerify": false,
+  "pronunciation": "MOS-kops",
+  "meaning": "Cara de ternero",
+  "period": "Pérmico",
+  "diet": "Herbívoro",
+  "tagline": "Un herbívoro con cuerpo de tonel que se abría paso a cabezazos por la antigua Sudáfrica.",
+  "hero": {
+    "image": "assets/mosc/MOSC00AA.webp",
+    "alt": "Moschops"
+  },
+  "intro": "Hace unos 250 millones de años, antes de la Era de los Dinosaurios, el enorme reptil herbívoro Moschops devoraba la vegetación de lo que hoy llamamos Sudáfrica. Este reptil era uno de los animales más grandes de su época, con un apetito acorde a su tamaño. Sus dientes tenían forma de cincel para cortar plantas duras. Su enorme cuerpo en forma de tonel albergaba un estómago gigantesco, en el que los alimentos vegetales más duros eran fermentados por bacterias para que el reptil pudiera absorber los nutrientes. El Moschops tenía un cráneo muy grueso con un saliente óseo en la parte superior, que los machos probablemente utilizaban en combates a cabezazos. El Moschops pertenece a un grupo de reptiles llamados terápsidos, considerados precursores de los mamíferos.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "África"
+    },
+    {
+      "label": "Época",
+      "value": "Pérmico"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Cara de ternero"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Terápsido"
+    },
+    {
+      "label": "Longitud",
+      "value": "2,5 m (8 pies)"
+    },
+    {
+      "label": "Nota",
+      "value": "Este reptil tenía las patas delanteras de un lagarto y las traseras de un dinosaurio."
+    }
+  ],
+  "topics": [
+    {
+      "id": "its-all-in-the-legs",
+      "title": "Todo está en las patas",
+      "image": "assets/mosc/MOSC01PU.webp",
+      "text": "Una de las principales diferencias entre los reptiles prehistóricos y los dinosaurios es la posición de las patas. Las patas delanteras del Moschops se abrían hacia los lados, como las de un reptil. Sus patas traseras, en cambio, estaban situadas debajo de las caderas del animal, más al estilo de un dinosaurio.",
+      "captions": [
+        {
+          "label": "Patas semierguidas",
+          "text": "Los reptiles posteriores, como este arcosaurio, tenían las patas más directamente bajo el cuerpo, lo que les permitía soportar más peso que sus predecesores."
+        },
+        {
+          "label": "Patas de lagarto",
+          "text": "El Moschops tenía las patas delanteras dobladas y abiertas hacia los lados, como las de este lagarto."
+        },
+        {
+          "label": "Patas de dinosaurio",
+          "text": "Las patas de este dinosaurio estaban recogidas bajo el cuerpo, sosteniendo por completo su enorme peso. Las patas traseras del Moschops también se situaban bien debajo de las caderas del animal, al igual que las de este dinosaurio."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Dimetrodon",
+      "to": "dime"
+    },
+    {
+      "label": "Eryops",
+      "to": "eryo"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mosc/MOSC00AA.webp",
+        "hotspots": [
+          {
+            "label": "Todo está en las patas",
+            "to": "its-all-in-the-legs",
+            "x": 63,
+            "y": 42,
+            "w": 20,
+            "h": 5
+          }
+        ]
+      },
+      "its-all-in-the-legs": {
+        "image": "assets/mosc/MOSC01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/mosc/MOSA50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/mosc/MOSC00AP.mp3",
+  "narration": "assets/mosc/MOSC00AJ.mp3",
+  "fanTranslation": true
+}

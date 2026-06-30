@@ -1,0 +1,371 @@
+{
+  "id": "cama",
+  "code": "CAMA",
+  "name": "Camarasaurio",
+  "category": "dinosaur",
+  "scientificName": "Camarasaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "cam-AH-rah-SOR-us",
+  "meaning": "lagarto con cámaras",
+  "period": "Jurásico superior",
+  "diet": "Herbívoro",
+  "tagline": "¡Uno de los gigantes más comunes del Jurásico, cuyos huesos huecos de la columna vertebral ayudaban a sostener un cuerpo más pesado que tres elefantes!",
+  "hero": {
+    "image": "assets/cama/CAMA00AA.webp",
+    "alt": "Camarasaurio"
+  },
+  "intro": "El Camarasaurio era uno de los saurópodos más comunes de Norteamérica. El nombre Camarasaurus significa «lagarto con cámaras», en referencia a las cavidades huecas de sus vértebras dorsales. Estos huecos contribuían a reducir el peso de los huesos. Aunque el Camarasaurio era uno de los dinosaurios saurópodos más pequeños, ¡aun así pesaba más que tres elefantes!",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico Tardío"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Lagarto con cámaras"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Saurópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "15 m (50 pies)"
+    },
+    {
+      "label": "Peso",
+      "value": "20 toneladas"
+    }
+  ],
+  "topics": [
+    {
+      "id": "from-a-big-family",
+      "title": "De una gran familia",
+      "image": "assets/cama/CAMA01PU.webp",
+      "text": "Los dinosaurios saurópodos fueron los más largos, altos y pesados de todos los dinosaurios. De hecho, fueron los animales terrestres más grandes que han habitado la Tierra.",
+      "captions": [
+        {
+          "label": "Apatosaurio",
+          "text": "Cuando se desenterraron los huesos del Apatosaurio, no se encontró ningún cráneo. Durante muchos años, los científicos usaron un cráneo redondeado, similar al del Camarasaurio, para completar el esqueleto. En 1979, se determinó que el Apatosaurio tenía un cráneo más alargado, parecido al del Diplodocus."
+        },
+        {
+          "label": "Mamenchisaurio",
+          "text": "Este dinosaurio ostenta el récord del cuello más largo entre todos los dinosaurios."
+        },
+        {
+          "label": "Camarasaurio",
+          "text": "Este dinosaurio puede parecer pequeño comparado con sus enormes parientes, ¡pero mira lo grande que era comparado con un elefante!"
+        },
+        {
+          "label": "Elefante africano",
+          "text": "Aunque es el animal terrestre más grande que existe hoy en día, este elefante es diminuto comparado con un saurópodo."
+        }
+      ]
+    },
+    {
+      "id": "blunt-teeth",
+      "title": "Dientes romos",
+      "image": "assets/cama/CAMA02PU.webp",
+      "text": "La diferencia entre los saurópodos herbívoros como el Camarasaurio y los carnívoros como el Megalosaurio era enorme. Por ejemplo, los dientes del Megalosaurio eran afilados y con bordes dentados, como cuchillos de carne; en cambio, los dientes del Camarasaurio eran gruesos y romos."
+    },
+    {
+      "id": "bones-as-big-as-a-man",
+      "title": "Huesos tan grandes como un hombre",
+      "image": "assets/cama/CAMA03PU.webp",
+      "text": "Las escápulas unían las patas delanteras al cuerpo y tenían que soportar gran parte del peso del dinosaurio. En el Camarasaurio, estos enormes huesos eran tan altos como un ser humano adulto.",
+      "captions": [
+        {
+          "label": "El más grande de todos",
+          "text": "Las escápulas del Ultrasauros, que vivió al mismo tiempo que el Camarasaurio, eran incluso más grandes que las de un ser humano adulto. Medían hasta casi tres metros de altura, lo que convierte al Ultrasauros en el dinosaurio más alto descubierto hasta la fecha."
+        }
+      ]
+    },
+    {
+      "id": "hollow-backbone",
+      "title": "Columna vertebral hueca",
+      "image": "assets/cama/CAMA04PU.webp",
+      "text": "El Camarasaurio tenía cavidades huecas en el interior de sus vértebras para reducir su peso al máximo. Unas proyecciones en los laterales de las vértebras ayudaban a sostener las costillas y los músculos del dinosaurio."
+    },
+    {
+      "id": "a-short-neck",
+      "title": "¿Un cuello corto?",
+      "image": "assets/cama/CAMA05PU.webp",
+      "text": "El Camarasaurio tenía un cuello bastante corto para ser un saurópodo, con un total de doce vértebras cervicales. El Mamenchisaurio, con diecinueve vértebras, extendía su cuello mucho más allá del del Camarasaurio. De hecho, el cuello del Mamenchisaurio medía aproximadamente dos tercios de la longitud total del cuerpo del Camarasaurio."
+    },
+    {
+      "id": "strong-skeleton",
+      "title": "Un esqueleto robusto",
+      "image": "assets/cama/CAMA06PU.webp",
+      "text": "Las vértebras cervicales del Camarasaurio medían cada una unos sesenta centímetros de longitud. Los músculos y ligamentos, como los cables que sostienen un puente, se extendían de hueso en hueso, y unas largas costillas se superponían a los huesos posteriores.",
+      "captions": [
+        {
+          "label": "Cuerpo en forma de barril",
+          "text": "Las costillas medían casi dos metros de longitud y eran tan gruesas como el brazo de una persona. Formaban una enorme caja alrededor del corazón, los pulmones, el estómago y otros órganos internos del dinosaurio. Ancladas en la parte superior a la columna vertebral y unidas entre sí por capas de músculo, las costillas daban forma al enorme cuerpo característico de un saurópodo."
+        }
+      ]
+    },
+    {
+      "id": "brontosaurus-mix-up",
+      "title": "La confusión del Brontosaurio",
+      "image": "assets/cama/CAMA07PU.webp",
+      "text": "Durante muchos años, el esqueleto de un dinosaurio llamado Brontosaurio apareció en museos de todo el mundo. Hoy en día, el Brontosaurio ya no existe como nombre válido. Este dinosaurio se conoce ahora con el primer nombre que se le dio: Apatosaurio. Y no solo fue bautizado dos veces, sino que, para añadir más confusión, el esqueleto original sin cabeza del Apatosaurio fue completado añadiéndole la cabeza redondeada de otro dinosaurio, el Camarasaurio. El cráneo correcto del Apatosaurio no se identificó hasta la década de 1970."
+    },
+    {
+      "id": "a-comparison-of-tails",
+      "title": "Comparación de colas",
+      "image": "assets/cama/CAMA08PU.webp",
+      "text": "Todos los saurópodos tenían colas largas y fuertes. Un latigazo de la musculosa cola de un saurópodo podía poner en fuga hasta al depredador más feroz.",
+      "captions": [
+        {
+          "label": "Apatosaurio",
+          "text": "La cola del Apatosaurio tenía ochenta y dos huesos. Los expertos creen que el Apatosaurio la llevaba levantada del suelo."
+        },
+        {
+          "label": "Camarasaurio",
+          "text": "Unas cincuenta y tres vértebras forman la corta cola del Camarasaurio, que se va estrechando hacia el extremo. Unos huesos llamados chevrones en la parte inferior de las vértebras caudales protegían los vasos sanguíneos de la cola del animal."
+        },
+        {
+          "label": "Diplodocus",
+          "text": "En comparación, la cola del Diplodocus era un largo y delgado látigo. Este saurópodo tenía una cola formada por setenta y tres vértebras, que solía llevar levantada del suelo."
+        }
+      ]
+    },
+    {
+      "id": "chevron-tail-bones",
+      "title": "Los huesos chevrón de la cola",
+      "image": "assets/cama/CAMA09PU.webp",
+      "text": "Los huesos chevrón colgaban por debajo de los huesos de la cola, muy cerca de las caderas. En la parte inferior del chevrón hay una espina larga y estrecha a la que se insertaban los músculos. La parte bifurcada del hueso en su extremo superior rodeaba un gran vaso sanguíneo que discurría justo por debajo de la columna vertebral."
+    },
+    {
+      "id": "high-feeders",
+      "title": "Comedores de las alturas",
+      "image": "assets/cama/CAMA10PU.webp",
+      "text": "Destacando por encima del resto de los dinosaurios, los saurópodos podían alcanzar lo alto de los árboles para alimentarse. Algunos quizás usaban sus largas y fuertes colas para llegar aún más lejos, apoyándose en las patas traseras para equilibrar sus enormes cuerpos en el aire.",
+      "captions": [
+        {
+          "label": "¿Dos patas o cuatro?",
+          "text": "Los saurópodos caminaban normalmente a cuatro patas. Los carnívoros, en cambio, pasaban su vida sobre dos patas, reservando las manos para atrapar a sus presas."
+        }
+      ]
+    },
+    {
+      "id": "elephant-legs",
+      "title": "Patas de elefante",
+      "image": "assets/cama/CAMA11PU.webp",
+      "text": "Los dinosaurios tenían una gran ventaja sobre otros reptiles: sus patas estaban situadas directamente bajo el cuerpo, en lugar de sobresalir hacia los lados. Como pilares que sostienen un edificio, las patas del Camarasaurio soportaban el peso del cuerpo del dinosaurio. Las patas de los elefantes están construidas para hacer lo mismo y, al igual que los elefantes, los saurópodos tenían patas anchas con plantas gruesas y acolchadas.",
+      "captions": [
+        {
+          "label": "Más grande que un elefante",
+          "text": "Este dibujo muestra la similitud de los huesos de las patas. En realidad, el Camarasaurio era mucho más grande que un elefante."
+        }
+      ]
+    },
+    {
+      "id": "skull-comparison",
+      "title": "Comparación de cráneos",
+      "image": "assets/cama/CAMA12PU.webp",
+      "text": "Aunque tanto el Diplodocus como el Camarasaurio eran saurópodos, sus cráneos tenían formas distintas.",
+      "captions": [
+        {
+          "label": "Gran olfato",
+          "text": "Pocos olores habrían escapado al Camarasaurio; tenía enormes cavidades nasales cerca de la parte delantera del cráneo."
+        },
+        {
+          "label": "Músculos de la cabeza",
+          "text": "Los grandes espacios abiertos entre los huesos del cráneo dejaban espacio para los músculos de la cabeza. Esto debía de aligerar el peso del cráneo, que el largo cuello tenía que sostener."
+        },
+        {
+          "label": "Vigilancia de depredadores",
+          "text": "Como otros saurópodos, el Camarasaurio también tenía grandes cuencas oculares a los lados del cráneo. Sin embargo, los ojos que albergaban no eran especialmente grandes."
+        },
+        {
+          "label": "Cráneo del Diplodocus",
+          "text": "Las grandes cuencas oculares están cerca de la parte posterior del cráneo. Las fosas nasales se encuentran en lo alto de la cabeza."
+        },
+        {
+          "label": "Un arrancador de hojas",
+          "text": "El Diplodocus tenía dientes delgados en forma de clavija en la parte delantera de su boca. Es posible que los usara como un peine para arrancar las hojas de las ramas."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Jurassic Period",
+      "to": "jurr"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/cama/CAMA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Comparación de cráneos",
+            "to": "skull-comparison",
+            "x": 52,
+            "y": 22,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Dientes romos",
+            "to": "blunt-teeth",
+            "x": 73,
+            "y": 16,
+            "w": 15,
+            "h": 5
+          },
+          {
+            "label": "Un esqueleto robusto",
+            "to": "strong-skeleton",
+            "x": 54,
+            "y": 32,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Columna vertebral hueca",
+            "to": "hollow-backbone",
+            "x": 27,
+            "y": 37,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "De una gran familia",
+            "to": "from-a-big-family",
+            "x": 20,
+            "y": 46,
+            "w": 18,
+            "h": 5
+          },
+          {
+            "label": "¿Un cuello corto?",
+            "to": "a-short-neck",
+            "x": 71,
+            "y": 43,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Comparación de colas",
+            "to": "a-comparison-of-tails",
+            "x": 16,
+            "y": 55,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Comedores de las alturas",
+            "to": "high-feeders",
+            "x": 69,
+            "y": 57,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Los huesos chevrón de la cola",
+            "to": "chevron-tail-bones",
+            "x": 2,
+            "y": 67,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "Patas de elefante",
+            "to": "elephant-legs",
+            "x": 22,
+            "y": 75,
+            "w": 14,
+            "h": 5
+          },
+          {
+            "label": "Huesos tan grandes como un hombre",
+            "to": "bones-as-big-as-a-man",
+            "x": 44,
+            "y": 76,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "La confusión del Brontosaurio",
+            "to": "brontosaurus-mix-up",
+            "x": 63,
+            "y": 66,
+            "w": 20,
+            "h": 5
+          }
+        ]
+      },
+      "from-a-big-family": {
+        "image": "assets/cama/CAMA01PU.webp",
+        "back": "main"
+      },
+      "blunt-teeth": {
+        "image": "assets/cama/CAMA02PU.webp",
+        "back": "main"
+      },
+      "bones-as-big-as-a-man": {
+        "image": "assets/cama/CAMA03PU.webp",
+        "back": "main"
+      },
+      "hollow-backbone": {
+        "image": "assets/cama/CAMA04PU.webp",
+        "back": "main"
+      },
+      "a-short-neck": {
+        "image": "assets/cama/CAMA05PU.webp",
+        "back": "main"
+      },
+      "strong-skeleton": {
+        "image": "assets/cama/CAMA06PU.webp",
+        "back": "main"
+      },
+      "brontosaurus-mix-up": {
+        "image": "assets/cama/CAMA07PU.webp",
+        "back": "main"
+      },
+      "a-comparison-of-tails": {
+        "image": "assets/cama/CAMA08PU.webp",
+        "back": "main"
+      },
+      "chevron-tail-bones": {
+        "image": "assets/cama/CAMA09PU.webp",
+        "back": "main"
+      },
+      "high-feeders": {
+        "image": "assets/cama/CAMA10PU.webp",
+        "back": "main"
+      },
+      "elephant-legs": {
+        "image": "assets/cama/CAMA11PU.webp",
+        "back": "main"
+      },
+      "skull-comparison": {
+        "image": "assets/cama/CAMA12PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/cama/CAMA50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/cama/CAMA00AP.mp3",
+  "narration": "assets/cama/CAMA00AJ.mp3",
+  "fanTranslation": true
+}

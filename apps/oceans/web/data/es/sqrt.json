@@ -1,0 +1,163 @@
+{
+  "id": "sqrt",
+  "code": "SQRT",
+  "name": "Las ascidias",
+  "category": "creature",
+  "scientificName": "Ascidiacea",
+  "needsScientificVerify": false,
+  "tagline": "¡Parecen sacos de colores, pero esconden un corazón!",
+  "zones": [
+    "Costa y charcas de marea",
+    "Arrecife de coral"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/sqrt/SQRT00AA.webp",
+    "alt": "Las ascidias"
+  },
+  "intro": "Las ascidias, aunque parezcan sacos de colores llenos de agua, tienen corazón, sistema circulatorio, intestinos y dos aberturas: una, para absorber los nutrientes, y otra, para expulsar el material de residuo. De hecho, en términos de evolución, las ascidias o tunicados son animales de gran complejidad. También se les conoce por su recurso defensivo de disparar un chorro de agua al ser pinchados.",
+  "facts": [
+    {
+      "label": "Defensa",
+      "value": "Disparan un chorro de agua al ser pinchadas."
+    },
+    {
+      "label": "Reproducción",
+      "value": "La mayoría de las especies producen tanto huevos como esperma, por lo que no precisan de otro para aparearse."
+    },
+    {
+      "label": "Larvas",
+      "value": "Las larvas tienen autonomía natatoria, aspecto de renacuajo y un sólo cordón nervioso de un extremo a otro del cuerpo."
+    },
+    {
+      "label": "Crecimiento",
+      "value": "El proceso de embrión a adulto puede durar apenas unos pocos días."
+    },
+    {
+      "label": "Dónde viven",
+      "value": "Algunas llegan a crecer en los cascos de los barcos y en los muelles, como los balanos."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Son animales de gran complejidad evolutiva: tienen corazón, sistema circulatorio e intestinos."
+    }
+  ],
+  "topics": [
+    {
+      "id": "sea-squirt-life",
+      "title": "La vida de una ascidia",
+      "image": "assets/es/sqrt/SQRT01PU.webp",
+      "text": "Las ascidias adultas pasan toda su vida ancladas a un mismo sitio, alimentándose de plancton y de residuos que filtran de las aguas circundantes. La mayoría de las especies producen tanto huevos como esperma, por lo que no precisan de otro para aparearse. A las ascidias que viven por su cuenta se les conoce como solitarias y a aquellas que viven en grupo como ascidias coloniales. Las ascidias son presa fácil de otros animales que \"pacen\" en ellas, como la babosa marina, debido a que permanecen fijas en un mismo sitio.",
+      "narration": "assets/es/sqrt/SQRT01JN.mp3",
+      "captions": [
+        {
+          "label": "Variedad de ascidia",
+          "text": "con helecho de mar urticante"
+        }
+      ]
+    },
+    {
+      "id": "simple-creatures",
+      "title": "Los animales cordados",
+      "image": "assets/es/sqrt/SQRT02PU.webp",
+      "text": "Los animales como las ascidias, que poseen un sólo cordón nervioso y el cuerpo cilíndrico o globular, son urocordados. Las larvas de las ascidias tienen autonomía natatoria, aspecto de renacuajo y un sólo cordón nervioso de un extremo a otro del cuerpo. Este cordón está dentro del notocordio, o primitiva espina dorsal. El notocordio desaparece al alcanzar la etapa adulta y fijarse en un sitio. Los científicos están fascinados por la rapidez con que las ascidias pasan de ser embriones a adultos, proceso que en ocasiones apenas dura unos pocos días. ¡Eso sí que es crecer deprisa! Curioso aspecto: Este extraño animal es un pariente de las ascidias y posee características similares. La salpa se pasa toda la vida nadando de un lugar a otro para obtener alimento.",
+      "captions": [
+        {
+          "label": "Ascidia solitaria",
+          "text": "Arrecife de la Gran Barrera, Polycarpa aurata"
+        },
+        {
+          "label": "Salpa con órganos luminiscentes",
+          "text": "Salpa maxima"
+        }
+      ],
+      "narration": "assets/es/sqrt/SQRT02JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Aquarium Game"
+    },
+    {
+      "label": "Los arrecifes de coral",
+      "to": "reef"
+    },
+    {
+      "label": "Related or Not?"
+    },
+    {
+      "label": "Las esponjas marinas",
+      "to": "spon"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/sqrt/SQRT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 1,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "De todos los colores y en todas partes",
+            "to": "video",
+            "x": 54,
+            "y": 23,
+            "w": 32,
+            "h": 5
+          },
+          {
+            "label": "La vida de una ascidia",
+            "to": "sea-squirt-life",
+            "x": 3,
+            "y": 69,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Los animales cordados",
+            "to": "simple-creatures",
+            "x": 24,
+            "y": 85,
+            "w": 23,
+            "h": 6
+          }
+        ]
+      },
+      "sea-squirt-life": {
+        "image": "assets/es/sqrt/SQRT01PU.webp",
+        "back": "main"
+      },
+      "simple-creatures": {
+        "image": "assets/es/sqrt/SQRT02PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/sqrt/clip.mp4",
+        "poster": "assets/es/sqrt/SQRT03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/sqrt/SQRT00JN.mp3",
+  "sound": "assets/es/sqrt/SQRT00IX.mp3",
+  "video": {
+    "title": "De todos los colores y en todas partes",
+    "src": "assets/es/sqrt/clip.mp4",
+    "poster": "assets/es/sqrt/poster.webp",
+    "caption": "Las ascidias de colores habitan en sitios muy distintos y de muy diversas formas. Algunas colonias se extienden en delgadas capas, como recubrimientos de esponjas; otras, crecen en racimos, como brillantes matas de flores. Las ascidias solitarias pueden tener el aspecto de un delicado jarrón, de un bulbo grueso o, incluso, de un cerebro. Algunas ascidias llegan a crecer en los cascos de los barcos y en los muelles, como los balanos.",
+    "narration": "assets/es/sqrt/SQRT03JN.mp3"
+  }
+}

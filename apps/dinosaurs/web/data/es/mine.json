@@ -1,0 +1,186 @@
+{
+  "id": "mine",
+  "code": "MINE",
+  "name": "La Mina de Dinosaurios de Bernissart",
+  "category": "concept",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "BUR-nih-sar DYE-nuh-sor MYN",
+  "meaning": "",
+  "period": "",
+  "diet": "",
+  "tagline": "¡Los mineros del carbón bajaron a las profundidades buscando combustible… y encontraron un tesoro lleno de huesos de dinosaurio!",
+  "hero": {
+    "image": "assets/mine/MINE00AA.webp",
+    "alt": "La Mina de Dinosaurios de Bernissart"
+  },
+  "intro": "Hace más de 110 años, en el pueblo de Bernissart, en Bélgica, unos mineros del carbón descubrieron unos objetos extraños enterrados en las profundidades de la tierra. Al principio creyeron haber encontrado trozos de madera fosilizada, pero los científicos pronto reconocieron que se trataba de huesos de animales prehistóricos. En pocos años, los equipos de trabajo habían recogido más de treinta y nueve esqueletos del dinosaurio Iguanodon.",
+  "facts": [
+    {
+      "label": "Ubicación",
+      "value": "Bernissart, Bélgica"
+    },
+    {
+      "label": "Descubierto",
+      "value": "Hace más de 110 años"
+    },
+    {
+      "label": "Dinosaurio",
+      "value": "Iguanodon"
+    },
+    {
+      "label": "Esqueletos encontrados",
+      "value": "Más de treinta y nueve"
+    }
+  ],
+  "topics": [
+    {
+      "id": "from-deep-in-the-earth",
+      "title": "Desde las profundidades de la tierra",
+      "image": "assets/mine/MINE01PU.webp",
+      "text": "Los esqueletos de Iguanodon estaban enterrados a más de 300 metros de profundidad. Los túneles de la mina eran estrechos, y las vidas de los trabajadores corrían peligro a causa de los terremotos y las inundaciones subterráneas. A medida que los huesos fosilizados se liberaban de la roca que los rodeaba, eran subidos a la superficie en los ascensores de la mina.",
+      "captions": [
+        {
+          "label": "Capa 1",
+          "text": "La mayoría de los esqueletos de Iguanodon se encontraron en una capa a unos 322 metros de profundidad, junto con cocodrilos, peces y tortugas fosilizados."
+        },
+        {
+          "label": "Capa 2",
+          "text": "Más esqueletos fueron hallados unos años después en rocas a unos 355 metros bajo la superficie. Fueron los últimos dinosaurios encontrados en la mina de Bernissart antes de que la excavación tuviera que cerrarse por las inundaciones."
+        },
+        {
+          "label": "Capas de roca",
+          "text": "Los esqueletos se encontraron en arenisca y lutita que se habían derrumbado entre las capas de caliza y carbón."
+        }
+      ]
+    },
+    {
+      "id": "buried-in-mud",
+      "title": "Enterrados en el barro",
+      "image": "assets/mine/MINE02PU.webp",
+      "text": "Los esqueletos de Iguanodon de Bernissart son famosos porque se encontraron juntos muchos esqueletos completos. Pero los dinosaurios no murieron todos al mismo tiempo: parece que hubo cuatro grupos distintos. Cuando estos dinosaurios estaban vivos, la zona estaba cubierta por un pantano o un lago, y los cuerpos debieron de quedar enterrados bajo los sedimentos poco después de que los animales murieran."
+    },
+    {
+      "id": "two-types",
+      "title": "Dos tipos",
+      "image": "assets/mine/MINE03PU.webp",
+      "text": "No todos los esqueletos de Iguanodon de Bernissart son iguales. La mayoría pertenecen a la misma especie —Iguanodon bernissartensis—, pero dos pertenecen a la especie más pequeña y esbelta Iguanodon atherfieldensis. Los científicos pensaban originalmente que el Iguanodon caminaba erguido sobre dos patas, pero hoy la mayoría de los expertos coincide en que este dinosaurio se desplazaba a cuatro patas la mayor parte del tiempo."
+    },
+    {
+      "id": "studying-the-bones",
+      "title": "El estudio de los huesos",
+      "image": "assets/mine/MINE04PU.webp",
+      "text": "Louis Dollo, científico del Real Instituto de Ciencias Naturales de Bélgica, pasó años estudiando los fósiles y ensamblando esqueletos de Iguanodon a partir del puzle de huesos descubiertos en las minas. Como las patas delanteras del Iguanodon eran más cortas que las traseras, Dollo formuló la hipótesis de que el dinosaurio caminaba sobre dos patas y no cuatro. Esto resultó ser una suposición incorrecta. Sin embargo, Dollo sí corrigió un error anterior: cuando el médico inglés Gideon Mantell dibujó por primera vez el Iguanodon muchos años antes, había colocado la espina en el hocico del dinosaurio, como si fuera un rinoceronte. Dollo dedujo correctamente que esas espinas pertenecían a las manos del animal."
+    },
+    {
+      "id": "mining-dinosaurs-instead-of-coal",
+      "title": "Extraer dinosaurios en vez de carbón",
+      "image": "assets/mine/MINE05PU.webp",
+      "text": "A medida que se iban descubriendo cada vez más fósiles de dinosaurio en distintos niveles, los mineros dejaron de extraer carbón y se centraron en excavar dinosaurios. Esta imagen muestra a los equipos de trabajadores en el yacimiento de la mina, catalogando y estudiando los huesos."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The American Dinosaur Rush",
+      "to": "amer"
+    },
+    {
+      "label": "What You Need to Find a Fossil",
+      "to": "find"
+    },
+    {
+      "label": "Marching to Extinction",
+      "to": "extt"
+    },
+    {
+      "label": "Iguanodon",
+      "to": "igua"
+    },
+    {
+      "label": "Myths and Legends",
+      "to": "myth"
+    },
+    {
+      "label": "What is a Fossil?",
+      "to": "foss"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mine/MINE00AA.webp",
+        "hotspots": [
+          {
+            "label": "Desde las profundidades de la tierra",
+            "to": "from-deep-in-the-earth",
+            "x": 68,
+            "y": 35,
+            "w": 22,
+            "h": 8
+          },
+          {
+            "label": "Dos tipos",
+            "to": "two-types",
+            "x": 70,
+            "y": 47,
+            "w": 14,
+            "h": 6
+          },
+          {
+            "label": "Extraer dinosaurios en vez de carbón",
+            "to": "mining-dinosaurs-instead-of-coal",
+            "x": 18,
+            "y": 55,
+            "w": 30,
+            "h": 8
+          },
+          {
+            "label": "El estudio de los huesos",
+            "to": "studying-the-bones",
+            "x": 55,
+            "y": 65,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Enterrados en el barro",
+            "to": "buried-in-mud",
+            "x": 36,
+            "y": 80,
+            "w": 18,
+            "h": 6
+          }
+        ]
+      },
+      "from-deep-in-the-earth": {
+        "image": "assets/mine/MINE01PU.webp",
+        "back": "main"
+      },
+      "buried-in-mud": {
+        "image": "assets/mine/MINE02PU.webp",
+        "back": "main"
+      },
+      "two-types": {
+        "image": "assets/mine/MINE03PU.webp",
+        "back": "main"
+      },
+      "studying-the-bones": {
+        "image": "assets/mine/MINE04PU.webp",
+        "back": "main"
+      },
+      "mining-dinosaurs-instead-of-coal": {
+        "image": "assets/mine/MINE05PU.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/mine/MINE00AP.mp3",
+  "narration": "assets/mine/MINE00AJ.mp3",
+  "sound": "assets/mine/MINE00SA.mp3",
+  "fanTranslation": true
+}

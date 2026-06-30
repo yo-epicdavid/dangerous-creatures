@@ -1,0 +1,224 @@
+{
+  "id": "wlvr",
+  "code": "WLVR",
+  "name": "Glotón",
+  "scientificName": "Gulo gulo",
+  "needsScientificVerify": false,
+  "tagline": "Pequeño, feroz e imparable: el glotón no le tiene miedo a nadie.",
+  "weapons": [
+    "Dientes y mandíbulas"
+  ],
+  "habitats": [
+    "Bosques",
+    "Zonas polares y tundra",
+    "Montañas"
+  ],
+  "regions": [
+    "Asia",
+    "Europa",
+    "Norteamérica"
+  ],
+  "hero": {
+    "image": "assets/es/wlvr/WLVR00AA.webp",
+    "alt": "Glotón"
+  },
+  "intro": "El invierno es la estación en la que los glotones mandan. Los dedos extendidos de los pies son perfectos para galopar por la nieve mientras los demás animales se hunden. Han llegado a atacar a presas tan grandes como el alce y el caribú. En verano, estos animalitos feroces comen carroña, huevos de pájaros, lemmings y bayas. Su voraz apetito es el que le ha hecho merecedor de su nombre.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Mata mordiendo a la presa en el cuello; también ataca por sorpresa.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Animales muertos, renos, caribúes, roedores, liebres, huevos y bayas.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "De los animales de su tamaño, es uno de los más fuertes. ¡Este intrépido comilón ha obligado a abandonar su presa incluso a osos y pumas!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 1,3 m.",
+      "danger": false
+    },
+    {
+      "label": "Región",
+      "value": "Norteamérica, Europa septentrional, Siberia",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "hunting-habits",
+      "title": "Hábitos de caza",
+      "image": "assets/es/wlvr/WLVR01PU.webp",
+      "text": "Los glotones se nutren de una amplia variedad de alimentos, desde los pequeños roedores, como los lemmings, hasta los grandes herbívoros, como el caribú, y no les importa si la pieza está viva o muerta cuando la encuentran. Corren sin cansarse, cubriendo muchos kilómetros en un día, y trepan a los árboles con la misma rapidez con la que se mueven por el suelo.",
+      "narration": "assets/es/wlvr/WLVR01NP.mp3"
+    },
+    {
+      "id": "feisty-relatives",
+      "title": "Parientes pendencieros",
+      "image": "assets/es/wlvr/WLVR02PU.webp",
+      "text": "Los glotones están emparentados con los tejones. Los tejones del Viejo Mundo (también denominados tejones eurasiáticos) viven en los bosques de Europa y Asia. Los americanos, más pequeños y de color más claro, habitan en Canadá, EE.UU. y México. Cuando se sienten amenazados, los tejones americanos gruñen. Si unimos a los gruñidos su forma agresiva de cazar roedores, insectos y reptiles, entenderemos su fama de tener mal genio.",
+      "captions": [
+        {
+          "label": "El tejón del Viejo Mundo o tejón eurasiático",
+          "text": "Es raro ver durante el día a este animal apacible. El macho suele pesar unos 12 kilos; y la hembra alrededor de los 10."
+        },
+        {
+          "label": "Huellas de tejón",
+          "text": "¿Has visto alguna vez huellas de cinco dedos como éstas? ¿No será que vive un tejón en tu vecindario?"
+        }
+      ],
+      "narration": "assets/es/wlvr/WLVR02NP.mp3"
+    },
+    {
+      "id": "carnivore-competition",
+      "title": "Competencia carnívora",
+      "image": "assets/es/wlvr/WLVR03PU.webp",
+      "text": "Los glotones no aceptan un «no» por respuesta. Aunque son unos animales relativamente pequeños, estas bestias feroces han desafiado a carnívoros mucho más grandes, como los pumas (o leones de la montaña) y los osos grizzly u osos pardos, para quitarles su presa. Cuando se han apropiado de un cadáver, lo pueden partir en pedazos, que esconden en diferentes lugares.",
+      "narration": "assets/es/wlvr/WLVR03NP.mp3"
+    },
+    {
+      "id": "strong-for-their-size",
+      "title": "Fuerte para su tamaño",
+      "image": "assets/es/wlvr/WLVR04PU.webp",
+      "text": "Los carnívoros pequeños, como los glotones, son muy fuertes para el tamaño que tienen. Pueden alejar de su presa a animales más grandes que ellos y transportar, en muchos casos, más del doble de su propio peso, incluso trepando a un árbol.",
+      "captions": [
+        {
+          "label": "La astuta comadreja",
+          "text": "Aunque este pariente del glotón suele medir menos de 25 centímetros, es un intrépido cazador. Cuando persigue a roedores, ranas y pájaros, no le importa meterse en sus madrigueras o subirse a los árboles. Esta comadreja común vive en algunas zonas de Europa."
+        },
+        {
+          "label": "El diablo australiano",
+          "text": "Como las comadrejas y los glotones, los diablos de Tasmania han merecido su fama de cazadores feroces y agresivos. ¡Sus poderosas mandíbulas pueden triturar los huesos! Los diablos de Tasmania cazan en la isla del mismo nombre, frente a la costa del continente Australiano."
+        }
+      ],
+      "narration": "assets/es/wlvr/WLVR04NP.mp3"
+    },
+    {
+      "id": "notorious-namesakes",
+      "title": "En inglés son tocayos",
+      "image": "assets/es/wlvr/WLVR05PU.webp",
+      "text": "Es sólo una curiosidad, pero te puede interesar: en inglés su nombre parece un diminutivo de lobos («wolverines» y «wolves»). Pero aparte de su ferocidad y de que viven en los mismos lugares, el parecido se queda ahí: los lobos pertenecen a la familia de los perros, o cánidos, y los glotones a la de los mustélidos, como los tejones, comadrejas y mofetas.",
+      "narration": "assets/es/wlvr/WLVR05NP.mp3",
+      "captions": [
+        {
+          "label": "El lobo",
+          "text": "Estos dos animales tan diferentes son hábiles cazadores y en EE.UU. pueden vivir en las mismas áreas. Tal vez sea ése el motivo de que los estadounidenses les hayan dado nombres similares."
+        }
+      ]
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/wlvr/WLVR00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.18,
+            "y": 8.32,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Parientes pendencieros",
+            "to": "feisty-relatives",
+            "x": 77.21,
+            "y": 29.75,
+            "w": 12.14,
+            "h": 4.13
+          },
+          {
+            "label": "Pequeño pero poderoso",
+            "to": "video",
+            "x": 15.34,
+            "y": 41.22,
+            "w": 8.23,
+            "h": 8.68
+          },
+          {
+            "label": "Fuerte para su tamaño",
+            "to": "strong-for-their-size",
+            "x": 2.84,
+            "y": 46.64,
+            "w": 16.36,
+            "h": 3.27
+          },
+          {
+            "label": "Competencia carnívora",
+            "to": "carnivore-competition",
+            "x": 3.77,
+            "y": 70.45,
+            "w": 18.39,
+            "h": 4.13
+          },
+          {
+            "label": "Hábitos de caza",
+            "to": "hunting-habits",
+            "x": 49.09,
+            "y": 82.13,
+            "w": 13.23,
+            "h": 4.56
+          },
+          {
+            "label": "En inglés son tocayos",
+            "to": "notorious-namesakes",
+            "x": 53.62,
+            "y": 79.97,
+            "w": 35.58,
+            "h": 6.3
+          }
+        ]
+      },
+      "hunting-habits": {
+        "image": "assets/es/wlvr/WLVR01PU.webp",
+        "back": "main"
+      },
+      "feisty-relatives": {
+        "image": "assets/es/wlvr/WLVR02PU.webp",
+        "back": "main"
+      },
+      "carnivore-competition": {
+        "image": "assets/es/wlvr/WLVR03PU.webp",
+        "back": "main"
+      },
+      "strong-for-their-size": {
+        "image": "assets/es/wlvr/WLVR04PU.webp",
+        "back": "main"
+      },
+      "notorious-namesakes": {
+        "image": "assets/es/wlvr/WLVR05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/wlvr/WLVR00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/wlvr/clip.mp4",
+        "poster": "assets/es/wlvr/WLVR06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/wlvr/narration.mp3",
+  "sound": "assets/es/wlvr/WLVR00AF.mp3",
+  "factsNarration": "assets/es/wlvr/WLVR00FB.mp3",
+  "video": {
+    "title": "Pequeño pero poderoso",
+    "src": "assets/es/wlvr/clip.mp4",
+    "poster": "assets/es/wlvr/poster.webp",
+    "caption": "Por la anchura de la cara y los dientes, capaces de triturar huesos, el glotón se parece más a un oso que a sus verdaderos parientes, las comadrejas. Son feroces cazadores que controlan grandes territorios. Pero estos notables animales han sido sacrificados en muchas partes del mundo. Su piel es muy apreciada por los pueblos árticos porque los cristales de hielo no se pegan a ella."
+  }
+}

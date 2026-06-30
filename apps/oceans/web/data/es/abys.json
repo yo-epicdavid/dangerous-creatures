@@ -1,0 +1,193 @@
+{
+  "id": "abys",
+  "code": "ABYS",
+  "name": "La zona abisal",
+  "category": "habitat",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡El mundo más oscuro y misterioso de la Tierra se esconde en las profundidades del océano!",
+  "zones": [
+    "Mar profundo"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/abys/ABYS00AA.webp",
+    "alt": "La zona abisal"
+  },
+  "intro": "Las partes media e inferior del océano constituyen el mayor hábitat natural de la Tierra. En ese oscuro mundo, quedan por descubrir animales que ni siquiera podemos imaginar. Los científicos consideran que todavía nos son desconocidos entre una cuarta parte y la mitad de los animales marinos. Muchos de ellos pueden parecernos extraños, pero piensa simplemente en esto: a esas criaturas, la superficie del océano a la que nosotros estamos acostumbrados les parecería un lugar terrible y espeluznante. Para ellos sería un mundo terrorífico de luz cegadora y temperaturas sofocantes con violentas olas y corrientes.",
+  "facts": [
+    {
+      "label": "Animales desconocidos",
+      "value": "Entre una cuarta parte y la mitad de los animales marinos todavía son desconocidos para la ciencia."
+    },
+    {
+      "label": "Profundidad récord",
+      "value": "La anguila engullidora ha sido vista a 8.000 metros de profundidad."
+    },
+    {
+      "label": "Tamaño",
+      "value": "La anguila engullidora mide aproximadamente un metro de largo."
+    },
+    {
+      "label": "Descubrimiento",
+      "value": "En 1977 se descubrieron formas de vida extraordinarias cerca de manantiales calientes en el fondo del mar."
+    },
+    {
+      "label": "Luz propia",
+      "value": "Muchos peces abisales tienen fotóforos, órganos que producen luz de colores para defenderse, atraer presas o aparearse."
+    },
+    {
+      "label": "¿Sabías que?",
+      "value": "Las bacterias de las chimeneas abisales viven del sulfuro de hidrógeno, una sustancia química que mataría a muchas formas de vida de nuestro planeta."
+    }
+  ],
+  "topics": [
+    {
+      "id": "binocular-eyes",
+      "title": "Ojos binoculares",
+      "image": "assets/es/abys/ABYS01PU.webp",
+      "text": "A la superficie de la zona abisal tan sólo llega una pequeña cantidad de luz que se filtra a través del agua. Muchos peces que viven en esta zona tienen en su cuerpo órganos luminosos especiales, o fotóforos. Utilizan esas luces multicolores para defenderse, y para atraer presas o para aparearse. Algunas especies de pez hacha luminoso poseen grandes ojos que enfocan hacia arriba, para vigilar las sombras de las presas sobre su cabeza. Por otra parte, los peces que viven en las zonas más profundas y oscuras suelen tener ojos más pequeños y menos fotóforos, puesto que esos órganos no resultan tan útiles en las profundidades.",
+      "captions": [
+        {
+          "label": "Pez hacha luminoso abisal",
+          "text": "Argyropelecus sp."
+        }
+      ],
+      "narration": "assets/es/abys/ABYS01JN.mp3"
+    },
+    {
+      "id": "big-mouths",
+      "title": "Bocones",
+      "image": "assets/es/abys/ABYS02PU.webp",
+      "text": "Algunos peces abisales pueden haberse adaptado a la escasez de alimentos en las profundidades del océano, desarrollando enormes mandíbulas. Como son pocas y espaciadas las ocasiones de alimentarse, ¡han de convertir en comida cualquier cosa que nade cerca! Las anguilas engullidoras poseen enormes mandíbulas unidas a un cuerpo parecido al de una serpiente, que les permiten tragar presas más grandes que ellas. Esta especie singular mide aproximadamente un metro de largo y ha sido vista a 8.000 metros de profundidad. Se sabe muy poco acerca de su dieta, pero se cree que consiste fundamentalmente en plancton y peces pequeños.",
+      "captions": [
+        {
+          "label": "Anguila engullidora",
+          "text": "Eurypharynx pelecanoides"
+        }
+      ],
+      "narration": "assets/es/abys/ABYS02JN.mp3"
+    },
+    {
+      "id": "inner-space",
+      "title": "El espacio interior",
+      "image": "assets/es/abys/ABYS04PU.webp",
+      "text": "En el fondo más profundo del océano, los animales viven en fango blando o sobre roca volcánica dura. Aquí verás sobre todo invertebrados, como la adaptable anémona, que puede encontrarse en todas las profundidades. La anatomía y el comportamiento animal suelen ser más simples en la zona abisal. Los poliquetos no tienen ojos, ni boca ni aparato digestivo. Los corales se desarrollan más aisladamente que en colonias complejas, aunque por debajo de una determinada profundidad su esqueleto de calcio no puede formarse. Las holoturias ni siquiera prosperan en las profundidades. Algunos peces viven en el fondo, como el tripodín, que se sirve de sus aletas endurecidas como zancos para levantarse sobre el fango.",
+      "captions": [
+        {
+          "label": "Medusa purpúrea",
+          "text": "Atolla sp."
+        },
+        {
+          "label": "Pez sapo de altura",
+          "text": "Chaunax pictus"
+        }
+      ],
+      "narration": "assets/es/abys/ABYS04JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Submarinos y robots",
+      "to": "robo"
+    },
+    {
+      "label": "Almejas, ostras y vieiras",
+      "to": "clam"
+    },
+    {
+      "label": "Tiburones fascinantes",
+      "to": "fasc"
+    },
+    {
+      "label": "Las estrellas de mar",
+      "to": "star"
+    },
+    {
+      "label": "Caras espantosas",
+      "to": "fear"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/abys/ABYS00AA.webp",
+        "hotspots": [
+          {
+            "label": "Cuestionario",
+            "to": "quiz",
+            "x": 1,
+            "y": 3,
+            "w": 8,
+            "h": 6
+          },
+          {
+            "label": "Ojos binoculares",
+            "to": "binocular-eyes",
+            "x": 61,
+            "y": 17,
+            "w": 33,
+            "h": 6
+          },
+          {
+            "label": "Bocones",
+            "to": "big-mouths",
+            "x": 53,
+            "y": 61,
+            "w": 28,
+            "h": 7
+          },
+          {
+            "label": "El espacio interior",
+            "to": "inner-space",
+            "x": 49,
+            "y": 73,
+            "w": 28,
+            "h": 7
+          },
+          {
+            "label": "Semilleros de actividad",
+            "to": "video",
+            "x": 7,
+            "y": 85,
+            "w": 38,
+            "h": 8
+          }
+        ]
+      },
+      "binocular-eyes": {
+        "image": "assets/es/abys/ABYS01PU.webp",
+        "back": "main"
+      },
+      "big-mouths": {
+        "image": "assets/es/abys/ABYS02PU.webp",
+        "back": "main"
+      },
+      "inner-space": {
+        "image": "assets/es/abys/ABYS04PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/abys/clip.mp4",
+        "poster": "assets/es/abys/ABYS03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/abys/ABYS00JN.mp3",
+  "sound": "assets/es/abys/ABYS00IX.mp3",
+  "video": {
+    "title": "Semilleros de actividad",
+    "src": "assets/es/abys/clip.mp4",
+    "poster": "assets/es/abys/poster.webp",
+    "caption": "Descubre las chimeneas hidrotermales del fondo del mar y los increíbles seres vivos —gusanos tubícolas gigantes, enormes almejas y cangrejos blancos— que prosperan donde nadie imaginaba que pudiera existir vida.",
+    "narration": "assets/es/abys/ABYS03JN.mp3"
+  }
+}

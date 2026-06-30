@@ -1,0 +1,157 @@
+{
+  "id": "mame",
+  "code": "MAME",
+  "name": "Mamenchisaurus",
+  "category": "dinosaur",
+  "scientificName": "Mamenchisaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "mah-MEN-chee-SOR-us",
+  "meaning": "lagarto de Mamenchi",
+  "period": "Jurásico superior",
+  "diet": "Herbívoro",
+  "tagline": "¡Más de treinta pies de sus setenta y dos pies de cuerpo eran puro cuello!",
+  "hero": {
+    "image": "assets/mame/MAME00AA.webp",
+    "alt": "Mamenchisaurus"
+  },
+  "intro": "¡Imagina un dinosaurio capaz de asomarse por la ventana más alta de un edificio de cinco plantas! Eso no sería nada difícil para el Mamenchisaurus. Este dinosaurio medía más de setenta y dos pies de longitud, ¡y más de treinta de ellos eran cuello! Como todos los saurópodos, el Mamenchisaurus era lento y voluminoso. Sin apenas otra defensa que su enorme tamaño, este dinosaurio debía de parecerle a un carnívoro hambriento una auténtica montaña de carne.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Asia"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto de Mamenchi"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Saurópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "22 m (72 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "sauropod-society",
+      "title": "La sociedad de los saurópodos",
+      "image": "assets/mame/MAME01PU.webp",
+      "text": "Los saurópodos fueron los animales terrestres más grandes que han existido jamás. Estos dinosaurios debían de pasar la mayor parte del tiempo comiendo grandes cantidades de plantas para alimentar sus gigantescos cuerpos.",
+      "captions": [
+        {
+          "label": "Apatosaurus",
+          "text": "Los grandes saurópodos como el Apatosaurus dejaban huellas de más de tres pies de longitud."
+        },
+        {
+          "label": "Mamenchisaurus",
+          "text": "En un concurso de cuellos, el Mamenchisaurus gana fácilmente frente a otros saurópodos de cuello largo."
+        },
+        {
+          "label": "Camarasaurus",
+          "text": "Este dinosaurio era uno de los saurópodos más pequeños, pero aun así parece enorme si lo comparamos con el animal terrestre más grande que existe hoy en día: el elefante africano."
+        },
+        {
+          "label": "Diplodocus",
+          "text": "Este dinosaurio era uno de los más largos del grupo de los saurópodos."
+        }
+      ]
+    },
+    {
+      "id": "sticking-out-its-neck",
+      "title": "Asomando el cuello",
+      "image": "assets/mame/MAME02PU.webp",
+      "text": "En cuanto a cuellos, el Mamenchisaurus superaba con creces al de cualquier otro animal conocido. El cuello de este dinosaurio era casi tres veces más largo que el de una jirafa. Podía alzar la cabeza a más de cincuenta y un pies sobre el suelo. Un cuello tan largo necesitaba músculos fuertes y varillas óseas a lo largo de su extensión para ayudar a sostenerlo.",
+      "captions": [
+        {
+          "label": "Largo pero poco flexible",
+          "text": "El Mamenchisaurus tenía diecinueve vértebras en su poderoso cuello. Aunque parece flexible, este cuello apenas podía doblarse, y se balanceaba de lado a lado mientras el dinosaurio recogía plantas para alimentarse."
+        }
+      ]
+    },
+    {
+      "id": "a-giraffes-life",
+      "title": "La vida de una jirafa",
+      "image": "assets/mame/MAME03PU.webp",
+      "text": "Al igual que una jirafa moderna, el cuello de treinta pies del Mamenchisaurus le daba ventaja sobre los dinosaurios de cuello más corto, permitiéndole alcanzar alimento a mucha distancia. Los saurópodos como el Mamenchisaurus y el Diplodocus que se muestran aquí necesitaban sistemas digestivos enormes. Habrían necesitado digerir grandes cantidades de vegetación cada día tan solo para mantener sus bajos niveles de energía.",
+      "captions": [
+        {
+          "label": "Pequeñín",
+          "text": "El cuello de una jirafa moderna mide tan solo unos diecisiete pies."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Weirdest Dinosaurs",
+      "to": "weir"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/mame/MAME00AA.webp",
+        "hotspots": [
+          {
+            "label": "La sociedad de los saurópodos",
+            "to": "sauropod-society",
+            "x": 6,
+            "y": 63,
+            "w": 16,
+            "h": 5
+          },
+          {
+            "label": "Asomando el cuello",
+            "to": "sticking-out-its-neck",
+            "x": 58,
+            "y": 52,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "La vida de una jirafa",
+            "to": "a-giraffes-life",
+            "x": 40,
+            "y": 81,
+            "w": 16,
+            "h": 5
+          }
+        ]
+      },
+      "sauropod-society": {
+        "image": "assets/mame/MAME01PU.webp",
+        "back": "main"
+      },
+      "sticking-out-its-neck": {
+        "image": "assets/mame/MAME02PU.webp",
+        "back": "main"
+      },
+      "a-giraffes-life": {
+        "image": "assets/mame/MAME03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/mame/MAME50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/mame/MAME00AP.mp3",
+  "narration": "assets/mame/MAME00AJ.mp3",
+  "fanTranslation": true
+}

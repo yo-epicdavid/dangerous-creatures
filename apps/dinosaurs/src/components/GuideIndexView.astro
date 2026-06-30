@@ -1,0 +1,55 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Topbar from './Topbar.astro';
+import { readJSON, lp } from '../lib/data.js';
+import { t } from '../i18n/ui.js';
+
+const { locale = 'en' } = Astro.props;
+const ui = t(locale);
+const es = locale === 'es';
+const guides = readJSON('guides.json', locale);
+const altHref = es ? '/guides' : '/es/guides';
+const STR = es
+  ? { lead: 'Dieciséis recorridos narrados por el mundo prehistórico: elige uno y deja que tu guía te lo enseñe.',
+      stops: 'paradas', back: 'Todos los dinosaurios',
+      fanNote: 'Traducción no oficial hecha por aficionados (IA): la narración de las visitas se reproduce en inglés, el idioma original del disco.' }
+  : { lead: 'Sixteen narrated journeys through the prehistoric world — pick one and let your guide show you around.',
+      stops: 'stops', back: 'All dinosaurs', fanNote: null };
+---
+<Layout title={`${ui.guidedTours} — Microsoft Dinosaurs`} desc={STR.lead} lang={locale} bilingual={true}>
+  <Topbar brandHref={lp(locale, '/')} locale={locale} altHref={altHref}>
+    <a slot="right" class="btn" href={lp(locale, '/')}><span class="arrow" aria-hidden="true">←</span> {STR.back}</a>
+  </Topbar>
+
+  <div class="guides-head">
+    <h1>{ui.guidedTours}</h1>
+    <p>{STR.lead}</p>
+  </div>
+
+  <main id="main-content" class="wrap" tabindex="-1">
+    {es && STR.fanNote && <p class="fan-note"><b>ℹ︎</b> {STR.fanNote}</p>}
+    <div class="guide-grid">
+      {guides.map((g) => (
+        <a class="guidecard" href={lp(locale, `/guides/${g.id}`)}>
+          <span class="gicon" aria-hidden="true">{g.icon}</span>
+          <span class="gtitle">{g.title}</span>
+          <span class="gblurb">{g.blurb}</span>
+          <span class="gsteps">{g.stepCount} {STR.stops}</span>
+        </a>
+      ))}
+    </div>
+  </main>
+</Layout>
+
+<style>
+  .guides-head { text-align: center; padding: 26px 20px 4px; }
+  .guides-head h1 { font-family: var(--font-display); font-size: clamp(34px, 6vw, 60px); margin: 0; }
+  .guides-head p { color: var(--ink-soft); margin: 10px auto 0; font-size: 18px; max-width: 640px; }
+  .guide-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 18px; margin: 28px 0 70px; }
+  .guidecard { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; background: linear-gradient(180deg, var(--panel), var(--panel-2)); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; text-decoration: none; color: var(--ink); box-shadow: var(--shadow); transition: transform .15s, border-color .15s; }
+  .guidecard:hover { transform: translateY(-3px); border-color: var(--gold); }
+  .gicon { font-size: 34px; line-height: 1; }
+  .gtitle { font-family: var(--font-display); font-weight: 700; font-size: 21px; }
+  .gblurb { color: var(--ink-soft); font-size: 14px; line-height: 1.45; flex: 1; }
+  .gsteps { color: var(--gold); font-weight: 600; font-size: 13px; }
+</style>

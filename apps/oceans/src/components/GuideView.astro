@@ -1,0 +1,112 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Topbar from './Topbar.astro';
+import { asset, lp } from '../lib/data.js';
+import { t } from '../i18n/ui.js';
+
+const { g, locale = 'en' } = Astro.props;
+const ui = t(locale);
+const es = locale === 'es';
+const tours = g.tours.map((tt) => ({ title: tt.title, narration: (tt.narration || []).map((n) => asset(n)) }));
+const altHref = es ? `/guides/${g.id}` : `/es/guides/${g.id}`;
+const fmt = (s, v) => s.replace(/%(\w+)%/g, (_, k) => v[k]);
+const STR = es
+  ? { chooseTour: 'Elige un recorrido', stepOf: 'Paso %N% de %T%', nowPlaying: 'Reproduciendo: %T%', allGuides: 'Todas las guías', play: 'Reproducir narración', pause: 'Pausar narración', prev: 'Paso anterior', next: 'Paso siguiente', progress: 'Progreso de la visita', group: 'Reproductor de narración' }
+  : { chooseTour: 'Choose a tour', stepOf: 'Step %N% of %T%', nowPlaying: 'Now playing: %T%', allGuides: 'All guides', play: 'Play narration', pause: 'Pause narration', prev: 'Previous step', next: 'Next step', progress: 'Tour progress', group: 'Narration player' };
+---
+<Layout title={`${g.name} — ${ui.guidedTours}`} desc={g.intro} lang={locale} bilingual={true}>
+  <Topbar brandHref={lp(locale, '/')} locale={locale} altHref={altHref}>
+    <a slot="right" class="btn" href={lp(locale, '/guides')}><span class="arrow" aria-hidden="true">←</span> {STR.allGuides}</a>
+  </Topbar>
+
+  <main id="main-content" class="wrap" tabindex="-1">
+    <div class="player">
+      <div class="player__art"><img src={asset(g.art)} alt={`${g.name}, ${g.role}`} /></div>
+      <h1>{g.name}</h1>
+      <p class="host-line">{g.role}</p>
+      <p class="player__intro">{g.intro}</p>
+
+      <h2 class="section-head">{STR.chooseTour}</h2>
+      <div class="tour-pick" id="tourpick" role="group" aria-label={STR.chooseTour}>
+        {tours.map((tt, i) => <button class="tourbtn" data-tour={i} aria-pressed={i === 0 ? 'true' : 'false'}>{tt.title}</button>)}
+      </div>
+
+      <div class="narrate-bar" role="group" aria-label={STR.group}>
+        <button class="icon-btn" id="prev" aria-label={STR.prev}><span aria-hidden="true">⏮</span></button>
+        <button class="icon-btn" id="play" aria-label={STR.play} aria-pressed="false"><span class="play-glyph" aria-hidden="true">▶</span></button>
+        <button class="icon-btn" id="next" aria-label={STR.next}><span aria-hidden="true">⏭</span></button>
+        <span class="step" id="step">{fmt(STR.stepOf, { N: 1, T: tours[0]?.narration.length || 1 })}</span>
+        <progress id="prog" max="1" value="1" aria-label={STR.progress}></progress>
+      </div>
+      <p class="now-playing" id="now"></p>
+    </div>
+  </main>
+
+  <audio id="player-audio" preload="none"></audio>
+
+  <script define:vars={{ tours, STR }}>
+    const fmt = (s, v) => s.replace(/%(\w+)%/g, (_, k) => v[k]);
+    const audio = document.getElementById('player-audio');
+    const playBtn = document.getElementById('play');
+    const playGlyph = playBtn.querySelector('.play-glyph');
+    const stepLbl = document.getElementById('step');
+    const prog = document.getElementById('prog');
+    const now = document.getElementById('now');
+    const tourBtns = Array.from(document.querySelectorAll('.tourbtn'));
+    let ti = 0, step = 0;
+
+    function setPlayState(playing) {
+      playGlyph.textContent = playing ? '❚❚' : '▶';
+      playBtn.setAttribute('aria-label', playing ? STR.pause : STR.play);
+      playBtn.setAttribute('aria-pressed', playing ? 'true' : 'false');
+    }
+    function loadStep(i, autoplay) {
+      const tour = tours[ti];
+      step = Math.max(0, Math.min(i, tour.narration.length - 1));
+      audio.src = tour.narration[step];
+      stepLbl.textContent = fmt(STR.stepOf, { N: step + 1, T: tour.narration.length });
+      prog.max = tour.narration.length;
+      prog.value = step + 1;
+      if (autoplay) audio.play();
+    }
+    function setTour(i, autoplay) {
+      ti = Math.max(0, Math.min(i, tours.length - 1));
+      tourBtns.forEach((b, j) => {
+        const active = j === ti;
+        b.classList.toggle('is-active', active);
+        b.setAttribute('aria-pressed', active ? 'true' : 'false');
+      });
+      now.textContent = fmt(STR.nowPlaying, { T: tours[ti].title });
+      loadStep(0, autoplay);
+    }
+    tourBtns.forEach((b, j) => b.addEventListener('click', () => setTour(j, true)));
+    playBtn.addEventListener('click', () => { audio.paused ? audio.play() : audio.pause(); });
+    document.getElementById('prev').addEventListener('click', () => loadStep(step - 1, true));
+    document.getElementById('next').addEventListener('click', () => loadStep(step + 1, true));
+    audio.addEventListener('play', () => setPlayState(true));
+    audio.addEventListener('pause', () => setPlayState(false));
+    audio.addEventListener('ended', () => { if (step < tours[ti].narration.length - 1) loadStep(step + 1, true); else setPlayState(false); });
+    setTour(0, false);
+  </script>
+</Layout>
+
+<style>
+  .player { max-width: 880px; margin: 8px auto 70px; }
+  .player__art { position: relative; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); box-shadow: var(--shadow); background: #0b1d2e; }
+  .player__art img { width: 100%; display: block; }
+  .player h1 { font-family: var(--font-display); font-size: clamp(30px, 5vw, 48px); margin: 18px 0 2px; }
+  .host-line { color: var(--gold); font-weight: 600; margin: 0 0 8px; }
+  .player__intro { font-size: 19px; color: var(--ink); }
+  .tour-pick { display: flex; flex-wrap: wrap; gap: 10px; margin: 6px 0 4px; }
+  .tourbtn { appearance: none; cursor: pointer; border: 1px solid var(--line); background: var(--panel-2); color: var(--ink); padding: 10px 16px; border-radius: 999px; font-size: 15px; font-weight: 600; transition: .15s; }
+  .tourbtn:hover { border-color: var(--gold); }
+  .tourbtn.is-active { background: var(--gold); color: #06222e; border-color: transparent; }
+  .narrate-bar { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; background: linear-gradient(180deg, var(--panel), var(--panel-2)); border: 1px solid var(--line); border-radius: 16px; padding: 14px 18px; margin: 16px 0 6px; box-shadow: var(--shadow); }
+  .narrate-bar .step { color: var(--ink-soft); font-size: 14px; min-width: 92px; }
+  .narrate-bar progress { flex: 1; height: 8px; min-width: 120px; accent-color: var(--rust); }
+  .icon-btn { appearance: none; cursor: pointer; border: 2px solid #ffffff22; background: var(--panel-2); color: var(--ink); width: 58px; height: 58px; border-radius: 50%; font-size: 24px; transition: .15s; display: inline-flex; align-items: center; justify-content: center; line-height: 1; }
+  .icon-btn:hover { border-color: var(--gold); transform: translateY(-1px); }
+  #play { width: 78px; height: 78px; font-size: 32px; background: var(--rust); border-color: transparent; color: #fff; box-shadow: 0 4px 14px #0006; }
+  #play[aria-pressed="true"] { background: var(--green); }
+  .now-playing { color: var(--ink-soft); font-style: italic; min-height: 1.4em; margin: 4px 0 0; }
+</style>

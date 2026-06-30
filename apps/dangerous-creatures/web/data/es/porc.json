@@ -1,0 +1,206 @@
+{
+  "id": "porc",
+  "code": "PORC",
+  "name": "Pez puercoespín",
+  "scientificName": "Diodon hystrix",
+  "needsScientificVerify": false,
+  "tagline": "¡En un segundo, de pez a balón de espinas!",
+  "weapons": [
+    "Púas y espinas"
+  ],
+  "habitats": [
+    "Océanos y arrecifes de coral"
+  ],
+  "regions": [
+    "Océanos y mares"
+  ],
+  "hero": {
+    "image": "assets/es/porc/PORC00AA.webp",
+    "alt": "Pez puercoespín"
+  },
+  "intro": "¿Morderías un balón de fútbol cubierto de espinas? El pez puercoespín está seguro de que no lo harías y de que los peces grandes también descartarán la posibilidad de convertirlo en comida. Hay varios tipos diferentes de pez puercoespín y todos –junto con su pariente, el pez globo– tienen la sorprendente capacidad de transformarse de pronto en un globo recubierto de espinas.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Como defensa se hincha y se convierte en una bola espinosa.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Almejas, erizos de mar y cangrejos.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "A diferencia de la mayoría de los peces, éste no puede flexionar el cuerpo y nada moviendo su cola y aletas diminutas.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 1 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Aguas costeras templadas, principalmente los arrecifes de coral.",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "impressive-inflation",
+      "title": "Se infla para impresionar",
+      "image": "assets/es/porc/PORC01PU.webp",
+      "text": "El pez puercoespín se infla succionando agua. Pero como a un balón recubierto de espinas no le es fácil moverse por el agua, sólo hace este truco cuando cree que otro va a comérselo. El resto del tiempo nada con un aspecto mucho más parecido al de los otros peces.",
+      "captions": [
+        {
+          "label": "También con aire",
+          "text": "Estos peces también pueden tragar aire, en lugar de agua, pero quizá no sea una buena defensa, pues entonces flota hasta la superficie, donde le pueden atacar las aves."
+        }
+      ],
+      "narration": "assets/es/porc/PORC01NP.mp3"
+    },
+    {
+      "id": "poisonous-puffers",
+      "title": "Globos venenosos",
+      "image": "assets/es/porc/PORC02PU.webp",
+      "text": "También pueden inflarse todos los tipos de pez globo o balón, que es pariente del pez puercoespín. Algunas partes del cuerpo del pez balón resultan muy venenosas si se comen. En Japón, donde este pez es un manjar carísimo llamado fugu, varias personas han muerto por comerlo. Incluso hay un tipo que recibe el nombre de «globo de la muerte».",
+      "captions": [
+        {
+          "label": "Agua dulce y salada",
+          "text": "Aunque la mayoría de los peces globo son de mar, algunos viven en ríos de África. En cambio todos los peces puercoespín viven en el océano."
+        }
+      ],
+      "narration": "assets/es/porc/PORC02NP.mp3"
+    },
+    {
+      "id": "life-in-a-box",
+      "title": "Vivir en una caja",
+      "image": "assets/es/porc/PORC03PU.webp",
+      "text": "El pez puercoespín tiene un extraño aspecto, pero el mundo marino está lleno de formas extrañas. El pez cofre posee una armadura de placas óseas adornadas con espinas. Algunos tipos reciben el nombre de pez vaca porque en la cabeza tienen dos espinas prominentes que parecen cuernos. Si la armadura y las espinas no bastan para asustar a los predadores, pueden rezumar veneno, para que el que se lo haya tragado lo escupa.",
+      "narration": "assets/es/porc/PORC03NP.mp3"
+    },
+    {
+      "id": "balls-of-spines",
+      "title": "Balones con espinas",
+      "image": "assets/es/porc/PORC04PU.webp",
+      "text": "La idea de llevar espinas para protegerse contra los predadores data de la época de los dinosaurios y todavía la utilizan muchos animales. Aquí tienes algunos animales espinosos que pocos predadores se atreverán a atacar.",
+      "narration": "assets/es/porc/PORC04NP.mp3"
+    },
+    {
+      "id": "spiky-stars",
+      "title": "Estrellas espinosas",
+      "image": "assets/es/porc/PORC05PU.webp",
+      "text": "Estas estrellas de mar espinosas son predadores marinos habilidosos. Se arrastran por el fondo del océano sobre sus diminutas patas tubulares, buscando crustáceos que comer. Como el pez puercoespín, tienen espinas para que a los animales más grandes no les apetezca comérselas.",
+      "narration": "assets/es/porc/PORC05NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/porc/PORC00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 2,
+            "y": 1,
+            "w": 10,
+            "h": 9
+          },
+          {
+            "label": "Vivir en una caja",
+            "to": "life-in-a-box",
+            "x": 58.15,
+            "y": 4.43,
+            "w": 16.51,
+            "h": 7.59
+          },
+          {
+            "label": "Balones con espinas",
+            "to": "balls-of-spines",
+            "x": 58.15,
+            "y": 5.73,
+            "w": 17.92,
+            "h": 6.3
+          },
+          {
+            "label": "Estrellas espinosas",
+            "to": "spiky-stars",
+            "x": 30.49,
+            "y": 47.28,
+            "w": 22.29,
+            "h": 3.7
+          },
+          {
+            "label": "Se infla para impresionar",
+            "to": "impressive-inflation",
+            "x": 65.65,
+            "y": 35.81,
+            "w": 32.45,
+            "h": 6.08
+          },
+          {
+            "label": "¿Cuáles son los extremos?",
+            "to": "video",
+            "x": 12,
+            "y": 87,
+            "w": 23,
+            "h": 6
+          },
+          {
+            "label": "Globos venenosos",
+            "to": "poisonous-puffers",
+            "x": 65,
+            "y": 87,
+            "w": 22,
+            "h": 6
+          }
+        ]
+      },
+      "impressive-inflation": {
+        "image": "assets/es/porc/PORC01PU.webp",
+        "back": "main"
+      },
+      "poisonous-puffers": {
+        "image": "assets/es/porc/PORC02PU.webp",
+        "back": "main"
+      },
+      "life-in-a-box": {
+        "image": "assets/es/porc/PORC03PU.webp",
+        "back": "main"
+      },
+      "balls-of-spines": {
+        "image": "assets/es/porc/PORC04PU.webp",
+        "back": "main"
+      },
+      "spiky-stars": {
+        "image": "assets/es/porc/PORC05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/porc/PORC00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/porc/clip.mp4",
+        "poster": "assets/es/porc/PORC06TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/porc/narration.mp3",
+  "sound": "assets/es/porc/PORC00AF.mp3",
+  "factsNarration": "assets/es/porc/PORC00FB.mp3",
+  "video": {
+    "title": "¿Cuáles son los extremos?",
+    "src": "assets/es/porc/clip.mp4",
+    "poster": "assets/es/porc/poster.webp",
+    "caption": "Cuando un pez puercoespín está totalmente inflado, es difícil saber que es un pez. ¿Dónde están la boca, las aletas o la cola? ¡Sólo es un balón cubierto de espinas! Naturalmente, de eso se trata: un predador se acerca pensando en un jugoso pez y en un instante el pez puercoespín se ha convertido en un globo cubierto de espinas."
+  }
+}

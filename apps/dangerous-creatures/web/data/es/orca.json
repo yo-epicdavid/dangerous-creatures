@@ -1,0 +1,237 @@
+{
+  "id": "orca",
+  "code": "ORCA",
+  "name": "Orca o ballena asesina",
+  "scientificName": "Orcinus orca",
+  "needsScientificVerify": false,
+  "tagline": "El cazador más poderoso de los océanos... ¡y también una estrella de cine!",
+  "weapons": [
+    "Dientes y mandíbulas"
+  ],
+  "habitats": [
+    "Océanos y arrecifes de coral",
+    "Zonas polares y tundra"
+  ],
+  "regions": [
+    "Océanos y mares",
+    "Regiones polares"
+  ],
+  "hero": {
+    "image": "assets/es/orca/ORCA00AA.webp",
+    "alt": "Orca o ballena asesina"
+  },
+  "intro": "De todos los predadores de la Tierra que se alimentan indistintamente de animales de sangre fría y de sangre caliente, este «asesino» es el más grande, además de ocupar la cumbre de la red alimentaria oceánica; pero no se sabe que haya atacado nunca al hombre. Estos mamíferos inteligentes y juguetones se encuentran con frecuencia en los acuarios. Algunas orcas han sido incluso estrellas de cine. Las orcas en cautividad han permitido a millones de personas apreciar la gracia e inteligencia de estos maravillosos animales.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Muerde a su presa o se la traga entera.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Focas, delfines, pingüinos y peces.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "En alguna ocasión los marineros han visto a las orcas embestir témpanos de hielo para que cayeran al agua las focas o pingüinos que había encima. Les gusta lanzar su presa al aire antes de comérsela.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 9 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Océanos Ártico y Antártico",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "little-cousins",
+      "title": "Primos lejanos",
+      "image": "assets/es/orca/ORCA01PU.webp",
+      "text": "En realidad la orca no es una ballena, sino un delfín, aunque cuando pensamos en un delfín normalmente nos imaginamos al animal que ves arriba. Como nosotros, los delfines son mamíferos: son de sangre caliente, respiran aire y amamantan a sus crías. También se nos parecen en que son ruidosos: se comunican mediante silbidos y chasquidos que a nosotros nos parecen canciones.",
+      "captions": [
+        {
+          "label": "Clientes resbaladizos",
+          "text": "Este delfín común sujeta la presa con los dientes y luego utiliza la lengua para tragársela entera."
+        },
+        {
+          "label": "Como unas tenazas",
+          "text": "Los dientes de un delfín funcionan como estas tenazas cuando sujetan un pez resbaladizo."
+        }
+      ],
+      "narration": "assets/es/orca/ORCA01NP.mp3"
+    },
+    {
+      "id": "its-after-me",
+      "title": "¡Me persigue!",
+      "image": "assets/es/orca/ORCA02PU.webp",
+      "text": "¡Esta visión podría producir pesadillas a los leones marinos y pingüinos! Algunas veces, en Sudamérica, las orcas se abalanzan sobre la orilla para atrapar su presa. Los pingüinos se zambullen todos juntos con la esperanza de confundir a un predador oculto en el agua de la orilla. Si piensas en la sonrisa de esa orca al acecho, ¿les acusarías de miedosos?",
+      "captions": [
+        {
+          "label": "Pingüino de Humboldt",
+          "text": "Los colores blancos y negros del pingüino, como los de la orca, rompen la continuidad de su perfil, por lo que a los predadores les es más difícil verlos."
+        }
+      ],
+      "narration": "assets/es/orca/ORCA02NP.mp3"
+    },
+    {
+      "id": "seafood-plate-please",
+      "title": "Un plato de marisco, por favor",
+      "image": "assets/es/orca/ORCA03PU.webp",
+      "text": "Si una orca fuese a cenar a una marisquería podría pedir el menú entero. Se alimenta de peces, tortugas marinas, calamares, pingüinos, delfines, leones marinos, focas y, de vez en cuando, hasta de ballenas grandes. Una manada de orcas suele emitir fuertes sonidos para conducir a sus presas a un lugar conveniente antes de iniciar la matanza.",
+      "narration": "assets/es/orca/ORCA03NP.mp3"
+    },
+    {
+      "id": "ancient-squid-snatcher",
+      "title": "Antiguo cazador de calamares",
+      "image": "assets/es/orca/ORCA04PU.webp",
+      "text": "¡Este animal semejante al delfín cazaba calamares hace 300 millones de años! Como los delfines modernos, el ichthyosaurio tenía grandes mandíbulas repletas de dientes que podían sujetar a los peces, a los pterosaurios (reptiles voladores) y a los calamares. Aunque se parece a un pez o a un delfín, el ichthyosaurio era en realidad un reptil.",
+      "captions": [
+        {
+          "label": "Madre marina",
+          "text": "A diferencia de la mayoría de los reptiles, el ichthyosaurio daba a luz en lugar de poner huevos."
+        }
+      ],
+      "narration": "assets/es/orca/ORCA04NP.mp3"
+    },
+    {
+      "id": "life-in-a-pod",
+      "title": "Vivir en una manada",
+      "image": "assets/es/orca/ORCA05PU.webp",
+      "text": "A los grupos de orcas se les llama manadas. Cada una puede tener hasta 50 ejemplares, que se mantienen unidos de por vida. Viajan y cazan juntas, como los lobos. Pero en lugar de utilizar el olfato y la vista para encontrar a sus presas en el agua, las orcas utilizan sobre todo la ecolocación, captando el rebote de sus sonidos en los objetos o en los otros animales, como el detector de sonar de un submarino.",
+      "narration": "assets/es/orca/ORCA05NP.mp3"
+    },
+    {
+      "id": "communicating-or-celebrating",
+      "title": "¿Comunicación o celebración?",
+      "image": "assets/es/orca/ORCA06PU.webp",
+      "text": "Si te encuentras en el lugar y el momento adecuados, tendrás la suerte de ver a una orca salir del agua de un salto, sacando primero la cabeza, para caer ruidosamente de costado. Parece que esté saltando de alegría, pero golpear el agua con la mayor fuerza posible quizás sea el mejor modo de comunicarse a larga distancia.",
+      "narration": "assets/es/orca/ORCA06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/orca/ORCA00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 4.09,
+            "y": 6.84,
+            "w": 13.88,
+            "h": 11.1
+          },
+          {
+            "label": "Antiguo cazador de calamares",
+            "to": "ancient-squid-snatcher",
+            "x": 50.26,
+            "y": 3.37,
+            "w": 39.85,
+            "h": 8.49
+          },
+          {
+            "label": "¿Comunicación o celebración?",
+            "to": "communicating-or-celebrating",
+            "x": 88.91,
+            "y": 10.97,
+            "w": 5.27,
+            "h": 6.1
+          },
+          {
+            "label": "Un plato de marisco, por favor",
+            "to": "seafood-plate-please",
+            "x": 6.76,
+            "y": 23.8,
+            "w": 10.9,
+            "h": 7.4
+          },
+          {
+            "label": "¡Me persigue!",
+            "to": "its-after-me",
+            "x": 4.09,
+            "y": 43.8,
+            "w": 13.25,
+            "h": 4.14
+          },
+          {
+            "label": "Primos lejanos",
+            "to": "little-cousins",
+            "x": 10,
+            "y": 52,
+            "w": 20,
+            "h": 5
+          },
+          {
+            "label": "¿Quién es el asesino?",
+            "to": "video",
+            "x": 4,
+            "y": 67,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Vivir en una manada",
+            "to": "life-in-a-pod",
+            "x": 56,
+            "y": 67,
+            "w": 20,
+            "h": 5
+          }
+        ]
+      },
+      "little-cousins": {
+        "image": "assets/es/orca/ORCA01PU.webp",
+        "back": "main"
+      },
+      "its-after-me": {
+        "image": "assets/es/orca/ORCA02PU.webp",
+        "back": "main"
+      },
+      "seafood-plate-please": {
+        "image": "assets/es/orca/ORCA03PU.webp",
+        "back": "main"
+      },
+      "ancient-squid-snatcher": {
+        "image": "assets/es/orca/ORCA04PU.webp",
+        "back": "main"
+      },
+      "life-in-a-pod": {
+        "image": "assets/es/orca/ORCA05PU.webp",
+        "back": "main"
+      },
+      "communicating-or-celebrating": {
+        "image": "assets/es/orca/ORCA06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/orca/ORCA00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/orca/clip.mp4",
+        "poster": "assets/es/orca/ORCA07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/orca/narration.mp3",
+  "sound": "assets/es/orca/ORCA00AF.mp3",
+  "factsNarration": "assets/es/orca/ORCA00FB.mp3",
+  "video": {
+    "title": "¿Quién es el asesino?",
+    "src": "assets/es/orca/clip.mp4",
+    "poster": "assets/es/orca/poster.webp",
+    "caption": "Se ha visto a las orcas deslizarse sobre la playa o subirse a un témpano flotante para atrapar a una foca o un león marino asustados. No por eso es más «asesina» que una rana que se lanza sobre un insecto."
+  }
+}

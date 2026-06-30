@@ -1,0 +1,238 @@
+{
+  "id": "vult",
+  "code": "VULT",
+  "name": "Buitre",
+  "scientificName": "Torgos tracheliotus",
+  "needsScientificVerify": false,
+  "tagline": "Círculos en el cielo, festín en la tierra: ¡el buitre siempre llega al banquete!",
+  "weapons": [
+    "Dientes y mandíbulas",
+    "Garras y zarpas"
+  ],
+  "habitats": [
+    "Praderas y sabanas"
+  ],
+  "regions": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/vult/VULT00AA.webp",
+    "alt": "Buitre"
+  },
+  "intro": "¡Criaturas desagradables y espeluznantes! Esto es lo que muchas personas opinan de los buitres, sólo porque les gusta comer carroña. La mayoría de los buitres no tienen garras ni picos muy fuertes; sólo algunas especies son capaces de romper la piel de los animales grandes. Aunque algunos buitres pueden cazar animales pequeños al igual que carroñear, la mayoría espera a que la putrefacción ablande un cadáver, o a que otro predador mate un animal y le desgarre el cuerpo.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Mata con el pico y las garras y también es carroñero.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Carroña, terneros recién nacidos, tortugas, tuétano de los huesos, placentas.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "¡El buitre tiene unos ojos mejores que muchos prismáticos y le permiten ver animales a más de un kilómetro y medio de distancia!",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 3 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Región: climas cálidos de todo el mundo",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "colossal-condor",
+      "title": "El colosal cóndor",
+      "image": "assets/es/vult/VULT01PU.webp",
+      "text": "Los dos buitres más grandes del mundo se han clasificado con el nombre de \"cóndor\", el cóndor andino y el cóndor de California. Ambas aves pueden tener una envergadura de más de 3 metros. ¡Por lo que algunos los han confundido a veces con un aeroplano pequeño!",
+      "captions": [
+        {
+          "label": "El cóndor andino",
+          "text": "El buitre que ves aquí es el cóndor andino, que vive en las alturas remotas de los Andes de Sudamérica. Su pariente norteamericano, el cóndor de California, está casi extinto, pero recientemente los científicos han reintroducido unos cuantos en la naturaleza."
+        }
+      ],
+      "narration": "assets/es/vult/VULT01NP.mp3"
+    },
+    {
+      "id": "skinheads",
+      "title": "Cabezas rapadas",
+      "image": "assets/es/vult/VULT02PU.webp",
+      "text": "Muchos buitres tienen la cara o la cabeza calva. Esta característica resulta muy útil, pues le permite meter la cabeza en el cadáver sin que se le ensucien las plumas. Después de todo, ¡a un ave le es muy difícil lavarse la cara!",
+      "narration": "assets/es/vult/VULT02NP.mp3"
+    },
+    {
+      "id": "the-ultimate-hang-glider",
+      "title": "La mejor ala delta",
+      "image": "assets/es/vult/VULT03PU.webp",
+      "text": "En general a los buitres no les gusta agitar las alas. Prefieren remontar el vuelo, dando vueltas lentas en las columnas térmicas (corrientes ascendentes de aire caliente) mientras buscan animales muertos en el suelo. ¡Al buitre grifón de Rupell se le ha visto en corrientes de aire a altitudes superiores a los 11.000 metros!",
+      "narration": "assets/es/vult/VULT03NP.mp3"
+    },
+    {
+      "id": "not-just-a-pretty-face",
+      "title": "No es precisamente una cara bonita",
+      "image": "assets/es/vult/VULT04PU.webp",
+      "text": "Para los cánones humanos, la mayoría de los buitres son bastante feos. ¡Pero para las aves podrían ser las más hermosas de todas!",
+      "captions": [
+        {
+          "label": "El buitre real",
+          "text": "Esta vistosa criatura carroñea desde el sur de México hasta Argentina."
+        },
+        {
+          "label": "Buitre de cuello rojo o gallinazo común",
+          "text": "Si vives en una zona rural de cualquier región de América, es probable que tarde o temprano veas un buitre pavo."
+        }
+      ],
+      "narration": "assets/es/vult/VULT04NP.mp3"
+    },
+    {
+      "id": "predator-or-scavenger",
+      "title": "¿Predador o carroñero?",
+      "image": "assets/es/vult/VULT05PU.webp",
+      "text": "Muchos buitres son tanto predadores como carroñeros. Si no encuentran carroña, matan animales pequeños, como roedores y crías de pájaros. Pero prefieren encontrar el alimento ya muerto, hasta el punto de que algunos buitres se agrupan para ahuyentar de su presa incluso a los predadores grandes, como las hienas.",
+      "narration": "assets/es/vult/VULT05NP.mp3"
+    },
+    {
+      "id": "tool-user",
+      "title": "Manipulador de herramientas",
+      "image": "assets/es/vult/VULT06PU.webp",
+      "text": "Siempre habíamos pensado que el hombre era la única criatura que usaba herramientas. Pero ahora sabemos que también las utilizan algunos animales, sobre todo los monos, sean o no antropomorfos. Este alimoche recoge piedras con el pico y las lanza sobre los huevos de avestruz para romper su duro cascarón. Los alimoches viven en toda África, el sur de Europa, Oriente Medio y la India.",
+      "narration": "assets/es/vult/VULT06NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/vult/VULT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 5.02,
+            "y": 7.67,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "No es precisamente una cara bonita",
+            "to": "not-just-a-pretty-face",
+            "x": 45.65,
+            "y": 2.26,
+            "w": 32.14,
+            "h": 9.54
+          },
+          {
+            "label": "Cabezas rapadas",
+            "to": "skinheads",
+            "x": 43,
+            "y": 9,
+            "w": 17,
+            "h": 5
+          },
+          {
+            "label": "Vampire Bat",
+            "x": 71.43,
+            "y": 6.81,
+            "w": 27.29,
+            "h": 10.63,
+            "external": "animal.html?id=vamp"
+          },
+          {
+            "label": "El colosal cóndor",
+            "to": "colossal-condor",
+            "x": 72.37,
+            "y": 26.72,
+            "w": 25.11,
+            "h": 6.95
+          },
+          {
+            "label": "¿Predador o carroñero?",
+            "to": "predator-or-scavenger",
+            "x": 10,
+            "y": 43,
+            "w": 29,
+            "h": 5
+          },
+          {
+            "label": "Manipulador de herramientas",
+            "to": "tool-user",
+            "x": 19.56,
+            "y": 51.4,
+            "w": 18.23,
+            "h": 10.84
+          },
+          {
+            "label": "¡Yo lo vi primero!",
+            "to": "video",
+            "x": 8,
+            "y": 63,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "La mejor ala delta",
+            "to": "the-ultimate-hang-glider",
+            "x": 4.56,
+            "y": 70.01,
+            "w": 23.86,
+            "h": 11.06
+          }
+        ]
+      },
+      "colossal-condor": {
+        "image": "assets/es/vult/VULT01PU.webp",
+        "back": "main"
+      },
+      "skinheads": {
+        "image": "assets/es/vult/VULT02PU.webp",
+        "back": "main"
+      },
+      "the-ultimate-hang-glider": {
+        "image": "assets/es/vult/VULT03PU.webp",
+        "back": "main"
+      },
+      "not-just-a-pretty-face": {
+        "image": "assets/es/vult/VULT04PU.webp",
+        "back": "main"
+      },
+      "predator-or-scavenger": {
+        "image": "assets/es/vult/VULT05PU.webp",
+        "back": "main"
+      },
+      "tool-user": {
+        "image": "assets/es/vult/VULT06PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/vult/VULT00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/vult/clip.mp4",
+        "poster": "assets/es/vult/VULT07TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/vult/narration.mp3",
+  "sound": "assets/es/vult/VULT00AF.mp3",
+  "factsNarration": "assets/es/vult/VULT00FB.mp3",
+  "video": {
+    "title": "¡Yo lo vi primero!",
+    "src": "assets/es/vult/clip.mp4",
+    "poster": "assets/es/vult/poster.webp",
+    "caption": "En general, para buscar la comida, los buitres trazan amplios círculos a gran altura, explorando el suelo. Si uno de ellos ve algo que le parece interesante, empieza a volar en círculos cada vez más bajos para verlo mejor. Otros buitres del área notan su comportamiento y se dirigen hacia el objetivo. Así es como descienden de pronto del cielo docenas de buitres para disputarse el mismo cadáver."
+  }
+}

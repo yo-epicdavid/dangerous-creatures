@@ -1,0 +1,283 @@
+{
+  "id": "alig",
+  "code": "ALIG",
+  "name": "Aligátor",
+  "scientificName": "Alligator mississippiensis",
+  "needsScientificVerify": false,
+  "tagline": "¡La boca más peligrosa de los pantanos tiene siempre dientes de repuesto!",
+  "weapons": [
+    "Dientes y mandíbulas"
+  ],
+  "habitats": [
+    "Ríos, lagos y humedales"
+  ],
+  "regions": [
+    "Asia",
+    "Norteamérica"
+  ],
+  "hero": {
+    "image": "assets/es/alig/ALIG00AA.webp",
+    "alt": "Aligátor"
+  },
+  "intro": "Cuanto más viejo es el aligátor, mayor es su presa. Las crías de aligátor se alimentan principalmente de insectos y crustáceos. Al ir creciendo empiezan a comer ranas, serpientes y peces. Los adultos no sólo se lanzan sobre tantos peces como puedan, sino que también tratan de capturar aves, ratas almizcleras y, de vez en cuando, incluso algún ciervo.",
+  "facts": [
+    {
+      "label": "Cómo mata",
+      "value": "Sujeta la presa con las mandíbulas y presiona hasta que la ahoga.",
+      "danger": false
+    },
+    {
+      "label": "Comida favorita",
+      "value": "Todo lo que pueda capturar.",
+      "danger": false
+    },
+    {
+      "label": "¡Cuidado!",
+      "value": "Cuando empiezan a salir del huevo, las crías del aligátor emiten una especie de gorjeo que suele alertar a la madre, que las coge con la boca y las lleva a un lugar seguro.",
+      "danger": true
+    },
+    {
+      "label": "Tamaño",
+      "value": "Hasta 6 m.",
+      "danger": false
+    },
+    {
+      "label": "Dónde vive",
+      "value": "Estados Unidos, China",
+      "danger": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "croc-or-gator",
+      "title": "¿Cocodrilo o aligátor?",
+      "image": "assets/es/alig/ALIG01PU.webp",
+      "text": "Vas de paseo junto a un río de Norteamérica o China y te encuentras un animal que parece un lagarto grandote. ¿Sabrías enseguida si se trata de un cocodrilo o de un aligátor? Es fácil: si tiene el morro puntiagudo y ves que de la mandíbula inferior sobresale un diente grande y afilado (el cuarto contando hacia atrás), se trata de un cocodrilo. Como tenga ese diente oculto, estás delante de un aligátor. ¡Pero en ninguno de los casos debes intentar hacerte su amigo!",
+      "captions": [
+        {
+          "label": "La sonrisa del cocodrilo",
+          "text": "Sabrás que es un cocodrilo porque le delata el diente que sobresale de la mandíbula inferior."
+        },
+        {
+          "label": "La sonrisa del aligátor",
+          "text": "El morro de un aligátor es más redondeado que el de un cocodrilo."
+        }
+      ],
+      "narration": "assets/es/alig/ALIG01NP.mp3"
+    },
+    {
+      "id": "caiman-cousins",
+      "title": "Sus primos los caimanes",
+      "image": "assets/es/alig/ALIG02PU.webp",
+      "text": "Los aligátores viven en Norteamérica y en China, pero en Centroamérica y Sudamérica tienen un pariente cercano: el caimán. Algunos de estos primos del aligátor se han mudado a aguas próximas a las ciudades grandes, volviéndose residentes suburbanos. No es probable que ataquen al hombre, pero son feroces cazadores de aves, peces y mamíferos pequeños.",
+      "captions": [
+        {
+          "label": "El área del caimán",
+          "text": "Los caimanes viven en los cursos de agua que hay entre Uruguay y México. También encontrarás alguno en Florida: suelen ser antiguas mascotas que los dueños soltaron."
+        },
+        {
+          "label": "Caimán adulto",
+          "text": "En las tiendas de animales podrás ver crías pequeñas, ¡pues los caimanes negros adultos llegan a los 6 metros de longitud!"
+        }
+      ],
+      "narration": "assets/es/alig/ALIG02NP.mp3"
+    },
+    {
+      "id": "tender-loving-care",
+      "title": "Amorosas atenciones",
+      "image": "assets/es/alig/ALIG03PU.webp",
+      "text": "Los aligátores y caimanes, como todos los cocodrilianos, son buenos padres. Las hembras hacen un nido para los huevos y permanecen cerca para vigilarlos. Cuando están a punto de eclosionar, los pequeños gruñen y la madre rompe suavemente el huevo para ayudarles a salir. Después los lleva al agua. Si una cría pide ayuda, cualquier aligátor adulto se apresurará a rescatarla. ¡Así que no toques ese huevo, un adulto anda cerca!",
+      "captions": [
+        {
+          "label": "La historia interior",
+          "text": "El embrión que hay dentro del cascarón está protegido por el líquido amniótico y alimentado por el saco vitelino."
+        }
+      ],
+      "narration": "assets/es/alig/ALIG03NP.mp3"
+    },
+    {
+      "id": "other-gators",
+      "title": "Otros aligátores",
+      "image": "assets/es/alig/ALIG04PU.webp",
+      "text": "Todas estas criaturas reciben también el nombre de aligátor. Sólo una es en realidad un pariente del aligátor del Mississipi.",
+      "captions": [
+        {
+          "label": "Aligátor chino",
+          "text": "Por la destrucción de su hábitat pantanoso sólo quedan unos centenares, concentrados en la parte inferior del río YangTsé, en China. El aligátor chino mide la mitad del americano y duerme durante el frío invierno."
+        },
+        {
+          "label": "\"Aligátor volador\"",
+          "text": "Esta chinche linterna debe ese apodo a la peculiar forma de su cuerpo. ¿Crees que se parece a un aligátor?"
+        },
+        {
+          "label": "Tortuga caimán o aligátor",
+          "text": "¿Cuándo un aligátor no es un aligátor? ¡Cuándo es una tortuga aligátor! Tienen algunas cosas en común con los aligátores, incluyendo sus poderosas mandíbulas y su costumbre de quedarse inmóvil en el agua esperando sorprender a un pez. ¡Es mejor que no te vayas a nadar con esta tortuga!"
+        }
+      ],
+      "narration": "assets/es/alig/ALIG04NP.mp3"
+    },
+    {
+      "id": "relatively-alike",
+      "title": "Relativamente parecidos",
+      "image": "assets/es/alig/ALIG05PU.webp",
+      "text": "¿Qué tienen en común estos animales? Todos son reptiles. Los aligátores, cocodrilos, serpientes, lagartos, tortugas y tuátaras tienen todos columna vertebral, piel escamosa y la sangre a la misma temperatura del entorno; además, casi todos ponen huevos. Los reptiles son uno de los grupos de animales de mayor éxito en la Tierra, ya que existen desde antes de los dinosaurios.",
+      "narration": "assets/es/alig/ALIG05NP.mp3"
+    },
+    {
+      "id": "real-or-mythical",
+      "title": "¿Real o mítico?",
+      "image": "assets/es/alig/ALIG06PU.webp",
+      "text": "Los chinos han contado historias de dragones desde hace siglos. ¿Los relatos de animales gigantescos de aspecto de lagarto tienen su origen en el descubrimiento de los grandes huesos de dinosaurios o fueron inspirados por los animales que todavía podemos ver?",
+      "captions": [
+        {
+          "label": "Un dragón terrenal",
+          "text": "Este lagarto de Asia es un dragón crestado acuático y puede correr erguido sobre sus dos patas traseras."
+        },
+        {
+          "label": "Un mosaico de dragones",
+          "text": "Los chinos creían que los dragones vivían en los cielos, sobre la tierra."
+        }
+      ],
+      "narration": "assets/es/alig/ALIG06NP.mp3"
+    },
+    {
+      "id": "toothy-grin",
+      "title": "Sonrisa dentona",
+      "image": "assets/es/alig/ALIG07PU.webp",
+      "text": "Bajo los dientes del aligátor le están creciendo siempre otros nuevos. Cuando se le cae uno aparece otro dispuesto a actuar. Por eso ves en su boca dientes de tamaños diferentes.",
+      "narration": "assets/es/alig/ALIG07NP.mp3"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/alig/ALIG00AA.webp",
+        "hotspots": [
+          {
+            "label": "Hechos",
+            "to": "facts",
+            "x": 4.56,
+            "y": 6.59,
+            "w": 4.17,
+            "h": 3.92
+          },
+          {
+            "label": "Relativamente parecidos",
+            "to": "relatively-alike",
+            "x": 57,
+            "y": 13,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Otros aligátores",
+            "to": "other-gators",
+            "x": 39.56,
+            "y": 29.32,
+            "w": 11.04,
+            "h": 4.56
+          },
+          {
+            "label": "Amorosas atenciones",
+            "to": "tender-loving-care",
+            "x": 39.56,
+            "y": 29.32,
+            "w": 10.73,
+            "h": 4.56
+          },
+          {
+            "label": "¿Cocodrilo o aligátor?",
+            "to": "croc-or-gator",
+            "x": 4.24,
+            "y": 36.25,
+            "w": 15.73,
+            "h": 10.41
+          },
+          {
+            "label": "Sonrisa dentona",
+            "to": "toothy-grin",
+            "x": 4.24,
+            "y": 42.09,
+            "w": 9.79,
+            "h": 4.56
+          },
+          {
+            "label": "¿Real o mítico?",
+            "to": "real-or-mythical",
+            "x": 13.46,
+            "y": 73.26,
+            "w": 14.33,
+            "h": 4.13
+          },
+          {
+            "label": "Sus primos los caimanes",
+            "to": "caiman-cousins",
+            "x": 45.34,
+            "y": 76.94,
+            "w": 14.79,
+            "h": 8.89
+          },
+          {
+            "label": "La lucha en los pantanos",
+            "to": "video",
+            "x": 45.34,
+            "y": 76.94,
+            "w": 24.17,
+            "h": 9.33
+          }
+        ]
+      },
+      "croc-or-gator": {
+        "image": "assets/es/alig/ALIG01PU.webp",
+        "back": "main"
+      },
+      "caiman-cousins": {
+        "image": "assets/es/alig/ALIG02PU.webp",
+        "back": "main"
+      },
+      "tender-loving-care": {
+        "image": "assets/es/alig/ALIG03PU.webp",
+        "back": "main"
+      },
+      "other-gators": {
+        "image": "assets/es/alig/ALIG04PU.webp",
+        "back": "main"
+      },
+      "relatively-alike": {
+        "image": "assets/es/alig/ALIG05PU.webp",
+        "back": "main"
+      },
+      "real-or-mythical": {
+        "image": "assets/es/alig/ALIG06PU.webp",
+        "back": "main"
+      },
+      "toothy-grin": {
+        "image": "assets/es/alig/ALIG07PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/es/alig/ALIG00FB.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/alig/clip.mp4",
+        "poster": "assets/es/alig/ALIG08TV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Animales Peligrosos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "ambient": "assets/es/alig/narration.mp3",
+  "sound": "assets/es/alig/ALIG00AF.mp3",
+  "factsNarration": "assets/es/alig/ALIG00FB.mp3",
+  "video": {
+    "title": "La lucha en los pantanos",
+    "src": "assets/es/alig/clip.mp4",
+    "poster": "assets/es/alig/poster.webp",
+    "caption": "Cuando un caimán y una serpiente se encuentran, es ésta la que suele convertirse en la comida del caimán, pues sus colmillos no pueden hacer nada frente a las poderosas mandíbulas de los cocodrilianos. Pero si un caimán pequeño se encuentra con una anaconda grande y musculosa, el resultado dependerá de quién atrape primero al otro."
+  }
+}

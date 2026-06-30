@@ -1,0 +1,187 @@
+{
+  "id": "wwfd",
+  "code": "WWFD",
+  "name": "World Wide Fund for Nature",
+  "category": "human",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "tagline": "¡Los océanos necesitan nuestra ayuda: descubre cómo el WWF lucha por salvarlos!",
+  "zones": [
+    "Arrecife de coral",
+    "Mar abierto",
+    "Mares polares",
+    "Costa y charcas de marea"
+  ],
+  "oceans": [
+    "En todo el mundo"
+  ],
+  "hero": {
+    "image": "assets/es/wwfd/WWFD00AA.webp",
+    "alt": "World Wide Fund for Nature"
+  },
+  "intro": "Desde hace más de tres decenios, World Wide Fund for Nature ha apoyado en todo el mundo los esfuerzos por proteger la vida natural en peligro de extinción y por salvaguardar los recursos naturales de los que depende la vida. Los proyectos aquí citados son sólo algunos de entre las numerosas iniciativas que patrocina WWF para ayudar a la conservación de nuestros océanos y del resto de hábitats acuáticos.",
+  "facts": [
+    {
+      "label": "Especies de tiburones",
+      "value": "En el mundo hay más de 370 especies diferentes de tiburones."
+    },
+    {
+      "label": "Velocidad del atún",
+      "value": "El atún puede nadar a una velocidad de hasta 88,5 km por hora."
+    },
+    {
+      "label": "Caída de población",
+      "value": "La población de atún en el Atlántico occidental ha caído un 80 por ciento en los últimos 20 años."
+    },
+    {
+      "label": "Especies de ballenas",
+      "value": "Más de 40 especies diferentes de ballenas recorren los océanos del mundo."
+    },
+    {
+      "label": "Reserva antártica",
+      "value": "La «Reserva antártica de ballenas», creada en 1994 y apoyada por WWF, protege los campos de alimentación principales de numerosas especies de ballenas."
+    },
+    {
+      "label": "Pesquerías en riesgo",
+      "value": "Aproximadamente una de cada tres pesquerías ha sido explotada en exceso."
+    }
+  ],
+  "topics": [
+    {
+      "id": "sharks",
+      "title": "Tiburones",
+      "image": "assets/es/wwfd/WWFD01PU.webp",
+      "text": "En el mundo hay más de 370 especies diferentes de tiburones. WWF ayuda a mantener el número de aquellas especies del Atlántico y del Pacífico cuya población se está reduciendo mediante el estudio de sus necesidades ecológicas y la implementación de medidas que frenen el creciente comercio internacional de aletas y otros productos extraídos del tiburón.",
+      "captions": [
+        {
+          "label": "Dormilón acebrado",
+          "text": "Heterodontus zebra"
+        }
+      ],
+      "narration": "assets/es/wwfd/WWFD01JN.mp3"
+    },
+    {
+      "id": "atlantic-bluefin-tuna",
+      "title": "Atún del Atlántico",
+      "image": "assets/es/wwfd/WWFD02PU.webp",
+      "text": "El atún puede nadar a una velocidad de hasta 88,5 km por hora y cada año realiza migraciones de varios miles de kilómetros. Por causa de la pesca excesiva, destinada a satisfacer la demanda internacional de los mercados de alimentos de lujo, la población de esta especie en el Atlántico occidental ha caído un 80 por ciento en los últimos 20 años. WWF, por la preocupación que le produce la disminución de la población de atunes, está preparando nuevas medidas tendentes a la protección de este animal en peligro de extinción.",
+      "captions": [
+        {
+          "label": "Pescadores sacando la red con atunes",
+          "text": "Pescadores sacando la red con atunes"
+        }
+      ],
+      "narration": "assets/es/wwfd/WWFD02JN.mp3"
+    },
+    {
+      "id": "whales",
+      "title": "Ballenas",
+      "image": "assets/es/wwfd/WWFD04PU.webp",
+      "text": "Más de 40 especies diferentes de ballenas recorren los océanos del mundo. World Wildlife Fund for Nature está estudiando la acumulación de sustancias tóxicas en numerosas especies de ballenas para calibrar los efectos de la contaminación en ecosistemas marinos enteros. Además de lo anterior, WWF patrocina la investigación ecológica y la identificación de las ballenas jorobadas en el Atlántico Sur con el objetivo de reunir mayor cantidad de información acerca de estos interesantes animales. La «Reserva antártica de ballenas», creada en 1994 y apoyada por WWF, protege los campos de alimentación principales de numerosas especies de ballenas.",
+      "captions": [
+        {
+          "label": "Ballena jorobada saliendo a la superficie",
+          "text": "Ballena jorobada saliendo a la superficie"
+        }
+      ],
+      "narration": "assets/es/wwfd/WWFD04JN.mp3"
+    },
+    {
+      "id": "fisheries",
+      "title": "Pesquerías",
+      "image": "assets/es/wwfd/WWFD05PU.webp",
+      "text": "Los peces marinos son un valiosísimo recurso natural de enorme valor ecológico. Las pesquerías bien gestionadas producen una significativa contribución a la economía mundial. Sin embargo, aproximadamente una de cada tres pesquerías ha sido explotada en exceso y actualmente está produciendo muy por debajo de su potencial, situación ésta que resulta insatisfactoria tanto ecológica como económicamente. WWF está elaborando reformas que mejorarán la gestión de muchas pesquerías marinas permitiendo que sean sostenibles a largo plazo.",
+      "narration": "assets/es/wwfd/WWFD05JN.mp3"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Misteriosas relaciones",
+      "to": "myst"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/es/wwfd/WWFD00AA.webp",
+        "hotspots": [
+          {
+            "label": "Arrecifes de coral",
+            "to": "video",
+            "x": 3,
+            "y": 40,
+            "w": 12,
+            "h": 6
+          },
+          {
+            "label": "Atún del Atlántico",
+            "to": "atlantic-bluefin-tuna",
+            "x": 46,
+            "y": 21,
+            "w": 21,
+            "h": 6
+          },
+          {
+            "label": "Pesquerías",
+            "to": "fisheries",
+            "x": 79,
+            "y": 23,
+            "w": 12,
+            "h": 5
+          },
+          {
+            "label": "Ballenas",
+            "to": "whales",
+            "x": 37,
+            "y": 57,
+            "w": 10,
+            "h": 5
+          },
+          {
+            "label": "Tiburones",
+            "to": "sharks",
+            "x": 68,
+            "y": 53,
+            "w": 9,
+            "h": 5
+          }
+        ]
+      },
+      "sharks": {
+        "image": "assets/es/wwfd/WWFD01PU.webp",
+        "back": "main"
+      },
+      "atlantic-bluefin-tuna": {
+        "image": "assets/es/wwfd/WWFD02PU.webp",
+        "back": "main"
+      },
+      "whales": {
+        "image": "assets/es/wwfd/WWFD04PU.webp",
+        "back": "main"
+      },
+      "fisheries": {
+        "image": "assets/es/wwfd/WWFD05PU.webp",
+        "back": "main"
+      },
+      "video": {
+        "video": "assets/es/wwfd/clip.mp4",
+        "poster": "assets/es/wwfd/WWFD03PV.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "CD-ROM «Océanos de Microsoft» (1995)",
+    "note": "Texto liberado del arte original de las pantallas; imágenes, audio y vídeo restaurados del disco. El contenido original es propiedad de Microsoft y sus proveedores — preservación educativa sin ánimo de lucro."
+  },
+  "narration": "assets/es/wwfd/WWFD00JN.mp3",
+  "sound": "assets/es/wwfd/WWFD00IX.mp3",
+  "video": {
+    "title": "Arrecifes de coral",
+    "src": "assets/es/wwfd/clip.mp4",
+    "poster": "assets/es/wwfd/poster.webp",
+    "caption": "Los arrecifes de coral son tesoros submarinos: una de las comunidades vivas más antiguas y diversas. Miles de especies marinas costeras –como morenas, calamares, loros dentones y barracudas– los necesitan para obtener alimento, refugio y campos de cría. La Coral Reef Initiative in the Caribbean Sea («Iniciativa en favor de los arrecifes de coral del Caribe») es uno de los esfuerzos de WWF para la protección de este hábitat extraordinario frente a las prácticas pesqueras nocivas, el desarrollo costero incontrolado, la erosión y los vertidos químicos producidos por la agricultura y otras actividades humanas que representan un peligro para el hábitat.",
+    "narration": "assets/es/wwfd/WWFD03JN.mp3"
+  }
+}

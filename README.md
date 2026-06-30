@@ -1,101 +1,150 @@
-# Dangerous Creatures — reborn
+# Microsoft Home: Exploration Series — reborn
 
-A modern, web-native recreation of **Microsoft Dangerous Creatures (1994)** — the classic
-multimedia wildlife explorer — so any kid can meet the planet's most fascinating animals
-in a browser.
+Modern, accessible, web-native recreations of three 1990s **Microsoft Home “Exploration
+Series”** edutainment CD-ROMs — so any kid can explore them again in a browser.
 
-## Two modes, one pipeline
+This repo began as a single rebuild of *Microsoft Dangerous Creatures (1994)* and grew into a
+**pnpm monorepo** housing three complete “museum editions,” plus a from-scratch reinterpretation
+in progress.
 
-A header toggle switches between **Modern** (liberated text, responsive, accessible) and
-**Classic 1994** (the original composite screens rendered 1:1 with recreated hotspot
-navigation). Both run off the same extracted assets and the same per-animal JSON, so adding a
-creature lights up both modes at once. Deep-link with `?mode=classic`. Classic hotspot
-coordinates are placed per-screen (by eye for the Lion; from `MSDANGER.THE` at scale).
+## The editions
 
-## Approach: hybrid rebuild
+| Edition | Disc | Entries | Languages | Live |
+|---|---|---|---|---|
+| **Dangerous Creatures** | 1994 | 66 animals | EN · ES | https://dangerous-creatures.pages.dev |
+| **Oceans** | 1995 | 93 (sea life, habitats, ocean science, seas & people) | EN · ES | https://oceans-2s9.pages.dev |
+| **Dinosaurs** | 1993 | 166 (69 dinosaurs, 28 prehistoric creatures, 69 concepts) | EN · ES&nbsp;* | https://dinosaurs.pages.dev |
 
-The original disc stores every screen as a *pre-composited bitmap* — photo, body text, and
-hotspot labels are all painted into one image, then SZDD-compressed. Our strategy:
+All three are **bilingual** — English at `/`, Castilian Spanish under `/es/`, with an EN·ES switcher.
+Dangerous Creatures and Oceans are **authentic** Spanish editions, liberated from the *real Spanish
+retail discs* («Animales Peligrosos de Microsoft», «Océanos de Microsoft») — Spanish text **and**
+Spanish screens/audio/video. **\* Dinosaurs never shipped in Spanish** (only EN/FR/JA), so its `/es/`
+is a clearly-labeled **AI fan translation** of the English text; the media stays English. The
+**games and guided tours are bilingual on all three** — authentic Spanish on DC + Oceans (real
+Spanish narration, even localized host names like Kim→Carmen), and an AI fan translation on
+Dinosaurs (Spanish titles/clues over the original English narration audio, clearly flagged).
+The **Making Of** is bilingual on all three too (each edition's article translated to Spanish);
+only the credits page is English-only for now.
 
-1. **Extract** the original media losslessly (images, narration, video).
-2. **Liberate the text** out of the screen art into structured JSON — so it becomes
-   selectable, accessible, translatable, and searchable.
-3. **Rebuild** each animal as a responsive, accessible HTML page driven by that data.
-4. **Swap media before public launch:** the original photos/clips are Microsoft + supplier
-   copyright. Because the text is already liberated, going public only requires replacing the
-   imagery with openly-licensed assets (Wikimedia, public-domain footage, CC).
+Each site has a **Modern** view (liberated text, responsive, accessible) and a **Classic** view
+that rebuilds the original composite screens 1:1 with working clickable hotspots
+(`?mode=classic`). Every edition includes:
 
-## What's on the source disc (decoded)
+- **Browse** along that disc’s own axes — DC by region/habitat/weapon · Oceans by kind/zone/sea ·
+  Dinosaurs by kind/period/diet
+- **Guided tours** with the original narration — 12 (DC) · 18 (Oceans, 6 character hosts × 3) · 16 (Dinosaurs)
+- **A game** — *Whose Eyes Are These?* + *Survival Quiz* (DC) · *Sea Riddles* (Oceans) · *Dino Riddles* (Dinosaurs)
+- Restored video, per-entry audio (incl. Dinosaurs’ **“Say it” name pronunciation**), **tap-to-zoom**
+  photos (hero + sub-topic images open full-screen in a lightbox), a **Credits** page pulled from the
+  disc, and favicon/share art from the title screen. Each edition also has a bilingual **Making-Of**.
 
-| Asset | Count | Format on disc | Pipeline |
-|---|---|---|---|
-| Animals | 66 | one folder each (`LION`, `COBR`=cobra, `GWSH`=great white…) | → one page each |
-| Images | ~3,350 | `.DIB` 256-color masters + `.BMP` 16-color twins, **SZDD-compressed** | SZDD → BMP → PNG/WebP |
-| Audio | 2,183 | `.WAV` 22 kHz mono PCM | → MP3/AAC |
-| Video | 109 | `.AVI` Microsoft Video 1 (`CRAM`) | ffmpeg → MP4/WebM |
-| Master DB | 1 | `MSDANGER.THE` — hotspot map, nav graph, captions + photo credits | → JSON (TODO) |
-| Mini-games | ~9 | `GAME/*.CJS` puzzles ("whose eyes?") | → JS games (TODO) |
+## How it works — the shared pipeline
 
-**Per-animal asset grammar:** `00AA` main article · `01–05PU` sub-topic screens (hotspots) ·
-`00FB/01FB` fact boxes · `06TV` video still + matching `.AVI`. Narration: `…AT` article,
-`…AF` facts, `…NJ`×7 hotspot jumps, `…NP` pop-ups.
+The original discs store every screen as a *pre-composited bitmap* (photo + body text + hotspot
+labels painted into one image). Each app’s `tools/` turns a disc into a site:
 
-Original nav modes to recreate: **Atlas · Weapons · Guides · Habitats · Index.**
+1. **Extract** the original media losslessly — images (SZDD-compressed `.DIB`, or raw BMP on the
+   1993 disc) → **WebP**, `.AVI` (Microsoft Video 1) → **MP4**, `.WAV` → **MP3**.
+2. **Liberate the baked-in text** with a **multi-agent AI workflow** (Claude Code: Sonnet vision
+   OCR → adversarial verify → Opus cross-entry consistency) into structured per-entry JSON.
+3. **`build_data`** emits `web/data/*.json` + browse/index; **`build_guides`**, **`extract_credits`**,
+   **`make_icons`** handle the rest.
+4. **Astro** builds a static site — Modern pre-rendered (SSG), Classic as a client island off the same data.
 
-## Project layout
+## Layout
 
 ```
-_source/            # raw ISO + extracted originals — GITIGNORED (copyright)
-tools/
-  szdd.py           # Microsoft SZDD/COMPRESS.EXE decompressor (lossless)
-web/
-  index.html        # landing / creature grid
-  animal.html       # template, reads ?id=<animal>
-  app.js            # renders one animal from its JSON
-  styles.css
-  data/<animal>.json
-  assets/<animal>/  # extracted images, narration.mp3, clip.mp4
+apps/
+  dangerous-creatures/                # museum edition — 1994
+  oceans/                             # museum edition — 1995
+  dinosaurs/                          # museum edition — 1993
+  dangerous-creatures-reimagined/     # WIP (see the `reimagined` branch)
+packages/
+  pipeline/                          # shared disc→site Python tooling (szdd, PNG→WebP, video posters)
+  site-kit/                          # shared CSS base + design tokens (base.css)
+_source/                             # raw ISOs + extracted originals — GITIGNORED
+DEPLOY.md                            # Cloudflare Pages setup for every app
+pnpm-workspace.yaml
 ```
 
-## Run locally
+Each app holds `src/` (Astro components/pages), `web/` (`data/` JSON + committed `assets/` media +
+`styles.css`), `tools/` (the Python pipeline), and `public/` (icons).
+
+Code shared across editions lives in **`packages/`**: **`pipeline/`** holds the media steps that
+were identical in every app (SZDD/LZSS decompress, PNG→WebP, video-frame posters) — each app's
+`tools/convert_to_webp.py` / `make_video_posters.py` is now a thin wrapper, and the `extract_*`
+tools import `szdd` from here. **`site-kit/base.css`** holds the common component styles (topbar,
+buttons, hero, fact card, topics, classic-1994 mode, hotspots, grids, chips, audio buttons); each
+app's `web/styles.css` is just its theme `:root` tokens, imported after `base.css` in `Layout.astro`.
+So a cross-cutting style or pipeline change is one edit, themed per app via tokens.
+
+A separate **`reimagined` branch** explores a from-scratch interactive rebuild of Dangerous
+Creatures with all-new, openly-licensed assets (`apps/dangerous-creatures-reimagined/`,
+`REIMAGINED.md`). It’s a planning/spike stage, not yet built.
+
+## Develop & build
+
+Runtimes via **mise**; package manager is **pnpm** (pinned in `package.json`).
 
 ```bash
-cd web
-python3 -m http.server 8731
-# open http://localhost:8731/  (or /animal.html?id=lion)
+pnpm install
+pnpm dc:dev          # dev server (also: oceans:dev, dino:dev)
+pnpm dc:build        # build one app (also: oceans:build, dino:build)
+pnpm build           # build all apps
 ```
-(A static server is required — the pages `fetch()` their JSON data.)
 
-## Status
+Each app’s `build` runs `astro build` and copies its committed `web/assets` + `web/data` into
+`dist/`. Media is already optimized and committed — no asset step runs in CI.
 
-- ✅ ISO acquired, mounted, fully inventoried & format-decoded
-- ✅ Lossless image pipeline (SZDD → bitmap → PNG)
-- ✅ Media transcoding (WAV→MP3, AVI→MP4)
-- ✅ Data model + responsive/accessible renderer
-- ✅ **Vertical slice: complete working Lion page** (`/animal.html?id=lion`)
-- ✅ **Dual mode: Modern + Classic 1994** with recreated hotspot navigation
-- ✅ **Batch-extracted all 66 animals** (`tools/extract_all.py`)
-- ✅ **Liberated text at scale** — 66-animal multi-agent workflow (`tools/gen_workflow.py` → `tools/build_data.py`), Opus consistency pass, validated (`tools/validate_data.py`)
-- ✅ **All 66 creatures live** in both modes; fact labels 100% normalized; cross-creature links wired
-- ✅ Verified all scientific names; resolved factual flags (crab, python, mosquito, orca) via `tools/corrections.json`
-- ✅ Browse modes: **Atlas** (region) + **Weapons** (attack) auto-derived from facts, + **Habitats** (9 environments, curated in `tools/habitats.json`) — 3-tab `browse.html` UI + creature-page chips
-- ✅ Wired all 5 cross-link Classic hotspots to Browse categories / creatures (0 disabled remaining)
-- ✅ **Guides** — all 12 narrated tours restored (real host narration audio + intro art, `tools/extract_guides.py` → `build_guides.py` → `guides.json`); `guides.html` menu (grouped by host) + tour player; geographic tours list their creatures. **All four original nav modes done: Atlas · Habitats · Weapons · Guides.**
-- ✅ **Mini-games** (`games.html`): **Whose Eyes Are These?** (faithful — original close-up/reveal photos, multiple choice, win/lose sounds) + **Survival Quiz** (data-driven, replayable, from `quiz.json`). `tools/extract_games.py` is extensible to the other disc puzzles (Tracks, Camouflage, Close-up, etc.).
-- ✅ Refined Classic hotspot coordinates via red-label detection (`tools/refine_hotspots.py` → `hotspots_refined.json`, applied by the build): 347/531 snapped tightly to their labels; the rest keep the vision estimate. (Needs Pillow + numpy.)
-- ✅ **Credits & Acknowledgements** (`tools/extract_credits.py` → `credits.json`, `web/credits.html`): 193 photographers, 12 agencies, 47 reference works pulled from `MSDANGER.THE`, plus the non-commercial / not-affiliated / removal-on-request notice; linked from the landing footer and every creature page.
-- ✅ Deploy-ready: images optimized to **WebP** (`tools/convert_to_webp.py`), `web/assets/` now committed, Cloudflare Pages config (`web/_headers`) + guide (`DEPLOY.md`, output dir = `web`)
-- ⬜ Connect the repo in the Cloudflare Pages dashboard (one-time, ~1 min)
-- ⬜ More mini-games from the disc (Tracks, Camouflage, …) using the same extractor
+## Deploy
 
-## Legal
+One **Cloudflare Pages** project per app (build command `pnpm install && pnpm run <app>:build`,
+output `apps/<app>/dist`). Full settings — including the pnpm version notes and per-app
+regeneration steps — are in **[`DEPLOY.md`](./DEPLOY.md)**.
 
-Original assets © 1994 Microsoft Corporation and its suppliers — photographers, filmmakers,
-and agencies (Photo Researchers, Animals Animals, Oxford Scientific Films, and many more;
-full list in `web/credits.html`). The raw ISO and extracted media live in `_source/` /
-`web/assets/` and are **gitignored** (never committed).
+## Source & provenance
 
-This is a **non-commercial, educational fan preservation** — not affiliated with or endorsed
-by Microsoft, no ads/sales/donations, with full attribution and removal on request. That
-posture (credit + good faith) is the basis for publishing with the original media; it is not a
-copyright license. See the notice in `web/credits.html`.
+The discs are preserved on the Internet Archive ([Dangerous Creatures](https://archive.org/details/cdrom_Microsoft_Dangerous_Creatures_-_For_Windows_3.1_Eng),
+[Oceans](https://archive.org/details/microsoft-oceans), [Dinosaurs](https://archive.org/details/microsoft-dinosaurs)).
+They are the **full retail content** — the “Demonstration” label on a title screen is a built-in
+store-kiosk slideshow mode, not a limited edition. ISOs and raw extracts live in `_source/` and are
+gitignored — the project links to the Internet Archive rather than re-hosting the discs.
+
+This is a **non-commercial, educational fan preservation** — not affiliated with or endorsed by
+Microsoft, no ads/sales/donations, with full attribution and removal on request. The optimized
+media **is committed** (so Cloudflare can serve it) and every site links a **Credits** page naming
+the original photographers, studios, museums, and agencies (extracted from each disc’s master
+`*.THE` database). Credit and good faith — not a copyright license — are the basis for publishing
+with the original media.
+
+### Original discs
+
+The source images this build was extracted from, with their Internet Archive items so anyone can
+fetch the same disc and confirm it matches. The images themselves stay **gitignored in `_source/`** —
+only these links and checksums are committed (the discs are still © Microsoft; the Internet Archive
+hosts them, this repo just points there).
+
+| Edition | Disc | Internet Archive | `_source/` file |
+|---|---|---|---|
+| Dangerous Creatures | English | [`cdrom_Microsoft_Dangerous_Creatures…`](https://archive.org/details/cdrom_Microsoft_Dangerous_Creatures_-_For_Windows_3.1_Eng) | `MSDangerousCreatures.iso` |
+| Oceans | English | [`microsoft-oceans`](https://archive.org/details/microsoft-oceans) | `MSOceans.iso` |
+| Dinosaurs | English | [`microsoft-dinosaurs`](https://archive.org/details/microsoft-dinosaurs) | `MSDinosaurs.iso` |
+| Dangerous Creatures | Spanish · «Animales Peligrosos de Microsoft» | [`MSAnimales`](https://archive.org/details/MSAnimales) | `MS_Animales.bin`+`.cue` → `MS_Animales.iso` |
+| Oceans | Spanish · «Océanos de Microsoft» | [`MSOceanos`](https://archive.org/details/MSOceanos) | not retained locally |
+
+The English discs are the `.iso` as downloaded from their items. The Spanish Dangerous Creatures
+disc is a raw **BIN/CUE** image (`MODE2/2352`) that the pipeline extracts to `MS_Animales.iso`; the
+Spanish Oceans disc was read at extraction time and not kept in `_source/`. **Dinosaurs never shipped
+in Spanish** — its `/es/` site is an AI fan translation, so there is no Spanish disc to list.
+
+Verify a fetched image against the exact bytes this build used — save as `_source/SHA256SUMS` and run
+`shasum -a 256 -c SHA256SUMS`:
+
+```text
+4dcc1178c434e7a151ad7fe15f9db8706de5521fbf92a8c8266354706d76cd00  MSDangerousCreatures.iso
+2b53a85f5170f3ab16c4439e7e955bb00992c6e474b559ef66d45d0f3b1ad2f7  MSOceans.iso
+b30a1df5b2a4e629df79f8800c5e7633930dcd0fd218db9a90cf45e0dd6678c0  MSDinosaurs.iso
+2ecc8bfdbffc2c39a566a1d14fc13fc35942a47e0af5e388377d75e2157bb5d1  MS_Animales.bin
+d414f6618fe3d76e5289fbda6407c982b95e2f19b86a7560a21dd4ceca604b7f  MS_Animales.cue
+37fc5db286969f9ed674f8e2cf1543994a7efd9454006123bbd7bcc7163c156c  MS_Animales.iso
+```

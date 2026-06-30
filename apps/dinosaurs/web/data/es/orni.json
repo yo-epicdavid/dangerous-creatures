@@ -1,0 +1,95 @@
+{
+  "id": "orni",
+  "code": "ORNI",
+  "name": "Ornitholestes",
+  "category": "dinosaur",
+  "scientificName": "Ornitholestes",
+  "needsScientificVerify": false,
+  "pronunciation": "or-NITH-oh-LES-teez",
+  "meaning": "Ladrón de pájaros",
+  "period": "Jurásico superior",
+  "diet": "Carnívoro",
+  "tagline": "El ágil y pequeño cazador del Jurásico, ¡lo bastante rápido para perseguir a un pájaro!",
+  "hero": {
+    "image": "assets/orni/ORNI00AA.webp",
+    "alt": "Ornitholestes"
+  },
+  "intro": "Con menos de dos metros de longitud, el Ornitholestes era el dinosaurio carnívoro más pequeño que merodeaba entre la vegetación del período Jurásico. Al igual que otros pequeños y ágiles depredadores, el Ornitholestes probablemente comía todo lo que podía atrapar con sus manos de tres dedos: insectos, ranas, lagartos, huevos de reptiles y aves, ¡e incluso crías de dinosaurio!",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Norteamérica"
+    },
+    {
+      "label": "Época",
+      "value": "Jurásico Tardío"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "Ladrón de pájaros"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Terópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "1,8 m (6 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "whats-in-a-name",
+      "title": "¿Qué hay en un nombre?",
+      "image": "assets/orni/ORNI01PU.webp",
+      "text": "Ornitholestes significa «ladrón de pájaros». Este veloz y pequeño carnívoro suele representarse persiguiendo al Archaeopteryx, considerado por muchos como el primer pájaro. Pero el Ornitholestes es conocido en el oeste de Norteamérica, y el Archaeopteryx, en Europa. ¡Eso sería una persecución muy larga!"
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Jurassic Period",
+      "to": "jurr"
+    },
+    {
+      "label": "Archaeopteryx",
+      "to": "arch"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/orni/ORNI00AA.webp",
+        "hotspots": [
+          {
+            "label": "¿Qué hay en un nombre?",
+            "to": "whats-in-a-name",
+            "x": 77,
+            "y": 40,
+            "w": 21,
+            "h": 5
+          }
+        ]
+      },
+      "whats-in-a-name": {
+        "image": "assets/orni/ORNI01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/orni/ORNI50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/orni/ORNI00AP.mp3",
+  "narration": "assets/orni/ORNI00AJ.mp3",
+  "fanTranslation": true
+}

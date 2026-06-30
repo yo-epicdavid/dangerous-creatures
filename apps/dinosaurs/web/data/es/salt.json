@@ -1,0 +1,169 @@
+{
+  "id": "salt",
+  "code": "SALT",
+  "name": "Saltasaurus",
+  "category": "dinosaur",
+  "scientificName": "Saltasaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "sal-tah-SOR-us",
+  "meaning": "lagarto de Salta",
+  "period": "Cretácico superior",
+  "diet": "Herbívoro",
+  "tagline": "El único saurópodo gigante lo bastante resistente para llevar armadura.",
+  "hero": {
+    "image": "assets/salt/SALT00AA.webp",
+    "alt": "Saltasaurus"
+  },
+  "intro": "El Saltasaurus fue el primer dinosaurio saurópodo conocido que tenía algún tipo de armadura. Medía unos doce metros de longitud y tenía la misma forma que otros grandes saurópodos: un cuerpo pesado y un cuello largo rematado por una cabeza diminuta. Los saurópodos, como familia, tenían la menor proporción cerebro-cuerpo de todos los dinosaurios. Esto podría significar que no eran muy listos.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "América del Sur"
+    },
+    {
+      "label": "Época",
+      "value": "Cretácico Superior"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto de Salta"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Saurópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "12 m (40 pies)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "big-hearted-reptile",
+      "title": "Un reptil de gran corazón",
+      "image": "assets/salt/SALT01PU.webp",
+      "text": "Un dinosaurio tan grande como el Saltasaurus debió de tener un corazón muy potente para bombear sangre a gran altura hasta su cabeza. Pero ¿y si su corazón tenía el mismo diseño que el de los reptiles actuales, bombeando la misma sangre hacia la cabeza, el cuerpo y los pulmones? La fuerza del corazón al bombear sangre por el cuello haría que la presión sanguínea fuera tan elevada que dañaría los delicados vasos sanguíneos de los pulmones. Sin embargo, dado que el corazón y otros órganos blandos raramente se convierten en fósiles, quizás nunca conozcamos la respuesta.",
+      "captions": [
+        {
+          "label": "¿Un corazón como el de un mamífero?",
+          "text": "Quizás su corazón se parecía más al de un mamífero o al de un ave, dividido en dos partes: una para los pulmones y otra para la cabeza, el cuerpo y las patas. Esto podría significar que el Saltasaurus era de sangre caliente."
+        },
+        {
+          "label": "¿Activo y de sangre caliente?",
+          "text": "Muchos científicos creen que los dinosaurios rápidos y activos, como el Dromiceiomimus, debían de ser de sangre caliente."
+        }
+      ]
+    },
+    {
+      "id": "well-armored",
+      "title": "Bien acorazado",
+      "image": "assets/salt/SALT02PU.webp",
+      "text": "Hasta el descubrimiento del Saltasaurus, se pensaba que solo los anquilosaurios como el Minmi tenían armadura. Aunque era un dinosaurio saurópodo, el Saltasaurus también tenía placas óseas en su gruesa espalda.",
+      "captions": [
+        {
+          "label": "Un dinosaurio de las antípodas",
+          "text": "El Minmi es uno de los pocos dinosaurios descubiertos en Australia. Como otros anquilosaurios acorazados, el Minmi habría sido una presa muy difícil para un depredador hambriento."
+        },
+        {
+          "label": "Vista de las placas",
+          "text": "La armadura estaba formada por grandes placas redondeadas de hueso y manchas de pequeños bultos óseos. En conjunto, estas placas probablemente proporcionaban protección frente a los depredadores."
+        }
+      ]
+    },
+    {
+      "id": "tail-for-defense",
+      "title": "La cola como defensa",
+      "image": "assets/salt/SALT03PU.webp",
+      "text": "La cola era un medio de defensa muy útil para muchos dinosaurios herbívoros. De hecho, el Saltasaurus no tenía más armas para defenderse que su cola y su enorme tamaño.",
+      "captions": [
+        {
+          "label": "Una cola multiusos",
+          "text": "Con sus colas a modo de látigo, los saurópodos como el Saltasaurus podían asestar golpes devastadores a sus atacantes. También es posible que usaran la cola para equilibrarse sobre las patas traseras y así alcanzar las copas de los árboles más altos."
+        },
+        {
+          "label": "Cola en forma de maza",
+          "text": "Esta es la cola de otro herbívoro, un anquilosaurio. La cola de este anquilosaurio terminaba en una enorme maza ósea. ¡Estas mazas caudales llegaban a medir casi un metro de diámetro!"
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Rhoetosaurus",
+      "to": "rhoe"
+    },
+    {
+      "label": "Dromiceiomimus",
+      "to": "drom"
+    },
+    {
+      "label": "Minmi",
+      "to": "minm"
+    },
+    {
+      "label": "Ankylosaurus",
+      "to": "ankl"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/salt/SALT00AA.webp",
+        "hotspots": [
+          {
+            "label": "Bien acorazado",
+            "to": "well-armored",
+            "x": 67,
+            "y": 20,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "Un reptil de gran corazón",
+            "to": "big-hearted-reptile",
+            "x": 67,
+            "y": 36,
+            "w": 22,
+            "h": 6
+          },
+          {
+            "label": "La cola como defensa",
+            "to": "tail-for-defense",
+            "x": 3,
+            "y": 69,
+            "w": 20,
+            "h": 6
+          }
+        ]
+      },
+      "big-hearted-reptile": {
+        "image": "assets/salt/SALT01PU.webp",
+        "back": "main"
+      },
+      "well-armored": {
+        "image": "assets/salt/SALT02PU.webp",
+        "back": "main"
+      },
+      "tail-for-defense": {
+        "image": "assets/salt/SALT03PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/salt/SALT50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/salt/SALT00AP.mp3",
+  "narration": "assets/salt/SALT00AJ.mp3",
+  "fanTranslation": true
+}

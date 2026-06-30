@@ -1,0 +1,113 @@
+{
+  "id": "herr",
+  "code": "HERR",
+  "name": "Herrerasaurus",
+  "category": "dinosaur",
+  "scientificName": "Herrerasaurus",
+  "needsScientificVerify": false,
+  "pronunciation": "heh-RARE-ah-SOR-us",
+  "meaning": "lagarto de Herrera",
+  "period": "Triásico superior",
+  "diet": "Carnívoro",
+  "tagline": "¡Este veterano fue posiblemente uno de los primeros dinosaurios carnívoros de la Tierra!",
+  "hero": {
+    "image": "assets/herr/HERR00AA.webp",
+    "alt": "Herrerasaurus"
+  },
+  "intro": "Uno de los primeros dinosaurios de la Era de los Dinosaurios, el Herrerasaurus vivió durante el período Triásico Superior, hace más de 200 millones de años. Este pequeño dinosaurio sudamericano era un carnívoro bípedo muy primitivo de unos tres metros de longitud. El Herrerasaurus se clasifica como un dinosaurio de caderas de lagarto, pero comparte solo unas pocas características con los demás miembros de ese grupo.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "América del Sur"
+    },
+    {
+      "label": "Época",
+      "value": "Triásico"
+    },
+    {
+      "label": "Significado del nombre",
+      "value": "lagarto de Herrera"
+    },
+    {
+      "label": "Caderas",
+      "value": "Caderas de lagarto"
+    },
+    {
+      "label": "Familia",
+      "value": "Terópodo"
+    },
+    {
+      "label": "Longitud",
+      "value": "3 m (10 ft)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "at-the-dawn-of-dinosaurs",
+      "title": "En los albores de los dinosaurios",
+      "image": "assets/herr/HERR01PU.webp",
+      "text": "Aquí tienes algunos de los dinosaurios que vivieron durante los primeros períodos de la Era de los Dinosaurios.",
+      "captions": [
+        {
+          "label": "Plateosaurus",
+          "text": "Este dinosaurio es uno de los fósiles encontrados con más frecuencia. El Plateosaurus era un herbívoro que llegaba a medir hasta siete metros de longitud."
+        },
+        {
+          "label": "Staurikosaurus",
+          "text": "Uno de los dinosaurios más antiguos conocidos, este pequeño depredador brasileño vivió durante el período Triásico Superior, hace 225 millones de años."
+        },
+        {
+          "label": "Coelophysis",
+          "text": "El Coelophysis data del período Triásico Superior y posee todas las características de un depredador ágil."
+        },
+        {
+          "label": "Massospondylus",
+          "text": "Este voluminoso herbívoro tenía una cabeza pequeña y un cuello y cola largos. Medía unos cinco metros de longitud."
+        }
+      ]
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "Life Before Dinosaurs",
+      "to": "befr"
+    },
+    {
+      "label": "Staurikosaurus",
+      "to": "stau"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/herr/HERR00AA.webp",
+        "hotspots": [
+          {
+            "label": "En los albores de los dinosaurios",
+            "to": "at-the-dawn-of-dinosaurs",
+            "x": 52,
+            "y": 72,
+            "w": 37,
+            "h": 6
+          }
+        ]
+      },
+      "at-the-dawn-of-dinosaurs": {
+        "image": "assets/herr/HERR01PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/herr/HERR50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/herr/HERR00AP.mp3",
+  "narration": "assets/herr/HERR00AJ.mp3",
+  "fanTranslation": true
+}

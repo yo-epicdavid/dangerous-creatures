@@ -1,0 +1,331 @@
+[
+  {
+    "id": "kim",
+    "name": "Carmen",
+    "role": "Una navegante solitaria",
+    "intro": "Hola, soy Carmen. Desde que era pequeña he soñado con navegar sola alrededor del mundo. Ahora voy a intentarlo de verdad, a bordo de mi velero de nueve metros, el Serafina. Ven a compartir conmigo los momentos más destacados de mi travesía.",
+    "art": "assets/guides/es/kim/portrait.webp",
+    "introAudio": "assets/guides/es/kim/intro.mp3",
+    "tours": [
+      {
+        "id": "01",
+        "title": "De Seattle a Hawai",
+        "narration": [
+          "assets/guides/es/kim/01/step01.mp3",
+          "assets/guides/es/kim/01/step02.mp3",
+          "assets/guides/es/kim/01/step03.mp3",
+          "assets/guides/es/kim/01/step04.mp3",
+          "assets/guides/es/kim/01/step05.mp3",
+          "assets/guides/es/kim/01/step06.mp3",
+          "assets/guides/es/kim/01/step07.mp3",
+          "assets/guides/es/kim/01/step08.mp3"
+        ],
+        "stepCount": 8
+      },
+      {
+        "id": "02",
+        "title": "De Hawai a Australia",
+        "narration": [
+          "assets/guides/es/kim/02/step01.mp3",
+          "assets/guides/es/kim/02/step02.mp3",
+          "assets/guides/es/kim/02/step03.mp3",
+          "assets/guides/es/kim/02/step04.mp3",
+          "assets/guides/es/kim/02/step05.mp3",
+          "assets/guides/es/kim/02/step06.mp3",
+          "assets/guides/es/kim/02/step07.mp3",
+          "assets/guides/es/kim/02/step08.mp3"
+        ],
+        "stepCount": 8
+      },
+      {
+        "id": "03",
+        "title": "De Australia a Seattle",
+        "narration": [
+          "assets/guides/es/kim/03/step01.mp3",
+          "assets/guides/es/kim/03/step02.mp3",
+          "assets/guides/es/kim/03/step03.mp3",
+          "assets/guides/es/kim/03/step04.mp3",
+          "assets/guides/es/kim/03/step05.mp3",
+          "assets/guides/es/kim/03/step06.mp3",
+          "assets/guides/es/kim/03/step07.mp3",
+          "assets/guides/es/kim/03/step08.mp3",
+          "assets/guides/es/kim/03/step09.mp3"
+        ],
+        "stepCount": 9
+      }
+    ]
+  },
+  {
+    "id": "eli",
+    "name": "Teodoro Zúñiga",
+    "role": "Marinero del siglo XVIII",
+    "intro": "¡Buenas, amigos! Me llamo Teodoro. Venid conmigo y os mostraré el mar tal como lo conocía un marinero hace doscientos años. ¡No navego solo, que no!",
+    "art": "assets/guides/es/eli/portrait.webp",
+    "introAudio": "assets/guides/es/eli/intro.mp3",
+    "tours": [
+      {
+        "id": "04",
+        "title": "La partida",
+        "narration": [
+          "assets/guides/es/eli/04/step01.mp3",
+          "assets/guides/es/eli/04/step02.mp3",
+          "assets/guides/es/eli/04/step03.mp3",
+          "assets/guides/es/eli/04/step04.mp3",
+          "assets/guides/es/eli/04/step05.mp3",
+          "assets/guides/es/eli/04/step06.mp3",
+          "assets/guides/es/eli/04/step07.mp3",
+          "assets/guides/es/eli/04/step08.mp3",
+          "assets/guides/es/eli/04/step09.mp3"
+        ],
+        "stepCount": 9
+      },
+      {
+        "id": "05",
+        "title": "La vida en el mar",
+        "narration": [
+          "assets/guides/es/eli/05/step01.mp3",
+          "assets/guides/es/eli/05/step02.mp3",
+          "assets/guides/es/eli/05/step03.mp3",
+          "assets/guides/es/eli/05/step04.mp3",
+          "assets/guides/es/eli/05/step05.mp3",
+          "assets/guides/es/eli/05/step06.mp3",
+          "assets/guides/es/eli/05/step07.mp3"
+        ],
+        "stepCount": 7
+      },
+      {
+        "id": "06",
+        "title": "Navegando de vuelta a casa",
+        "narration": [
+          "assets/guides/es/eli/06/step01.mp3",
+          "assets/guides/es/eli/06/step02.mp3",
+          "assets/guides/es/eli/06/step03.mp3",
+          "assets/guides/es/eli/06/step04.mp3",
+          "assets/guides/es/eli/06/step05.mp3",
+          "assets/guides/es/eli/06/step06.mp3",
+          "assets/guides/es/eli/06/step07.mp3"
+        ],
+        "stepCount": 7
+      }
+    ]
+  },
+  {
+    "id": "curtis",
+    "name": "Carlos",
+    "role": "Rescate y salvamento",
+    "intro": "Me llamo Carlos y me dedico a rescatar personas. Cuando la gente piensa en los peligros del mar, se imagina huracanes, naufragios y tiburones: todo lo espectacular. Pero, por lo general, son las pequeñas cosas las que meten a la gente en grandes apuros. Acompáñame y te lo demostraré.",
+    "art": "assets/guides/es/curtis/portrait.webp",
+    "introAudio": "assets/guides/es/curtis/intro.mp3",
+    "tours": [
+      {
+        "id": "07",
+        "title": "¡Veneno!",
+        "narration": [
+          "assets/guides/es/curtis/07/step01.mp3",
+          "assets/guides/es/curtis/07/step02.mp3",
+          "assets/guides/es/curtis/07/step03.mp3",
+          "assets/guides/es/curtis/07/step04.mp3",
+          "assets/guides/es/curtis/07/step05.mp3",
+          "assets/guides/es/curtis/07/step06.mp3",
+          "assets/guides/es/curtis/07/step07.mp3",
+          "assets/guides/es/curtis/07/step08.mp3",
+          "assets/guides/es/curtis/07/step09.mp3"
+        ],
+        "stepCount": 9
+      },
+      {
+        "id": "08",
+        "title": "¡Hombre al agua!",
+        "narration": [
+          "assets/guides/es/curtis/08/step01.mp3",
+          "assets/guides/es/curtis/08/step02.mp3",
+          "assets/guides/es/curtis/08/step03.mp3",
+          "assets/guides/es/curtis/08/step04.mp3",
+          "assets/guides/es/curtis/08/step05.mp3",
+          "assets/guides/es/curtis/08/step06.mp3",
+          "assets/guides/es/curtis/08/step07.mp3",
+          "assets/guides/es/curtis/08/step08.mp3"
+        ],
+        "stepCount": 8
+      },
+      {
+        "id": "09",
+        "title": "Los peligros del buceo",
+        "narration": [
+          "assets/guides/es/curtis/09/step01.mp3",
+          "assets/guides/es/curtis/09/step02.mp3",
+          "assets/guides/es/curtis/09/step03.mp3",
+          "assets/guides/es/curtis/09/step04.mp3",
+          "assets/guides/es/curtis/09/step05.mp3",
+          "assets/guides/es/curtis/09/step06.mp3",
+          "assets/guides/es/curtis/09/step07.mp3"
+        ],
+        "stepCount": 7
+      }
+    ]
+  },
+  {
+    "id": "frank",
+    "name": "Roberto",
+    "role": "Buceador principiante",
+    "intro": "Cuando me jubilé, pasaba demasiado tiempo en casa. «Búscate un hobby», me dijo mi mujer Elsie. Así que me puse a buscar algo nuevo que hacer... y elegí el buceo con escafandra. No te imaginas lo que hay ahí abajo. Ven conmigo y te lo mostraré.",
+    "art": "assets/guides/es/frank/portrait.webp",
+    "introAudio": "assets/guides/es/frank/intro.mp3",
+    "tours": [
+      {
+        "id": "10",
+        "title": "Un mundo totalmente nuevo",
+        "narration": [
+          "assets/guides/es/frank/10/step01.mp3",
+          "assets/guides/es/frank/10/step02.mp3",
+          "assets/guides/es/frank/10/step03.mp3",
+          "assets/guides/es/frank/10/step04.mp3",
+          "assets/guides/es/frank/10/step05.mp3",
+          "assets/guides/es/frank/10/step06.mp3",
+          "assets/guides/es/frank/10/step07.mp3"
+        ],
+        "stepCount": 7
+      },
+      {
+        "id": "11",
+        "title": "Una inmersión profunda",
+        "narration": [
+          "assets/guides/es/frank/11/step01.mp3",
+          "assets/guides/es/frank/11/step02.mp3",
+          "assets/guides/es/frank/11/step03.mp3",
+          "assets/guides/es/frank/11/step04.mp3",
+          "assets/guides/es/frank/11/step05.mp3",
+          "assets/guides/es/frank/11/step06.mp3",
+          "assets/guides/es/frank/11/step07.mp3",
+          "assets/guides/es/frank/11/step08.mp3",
+          "assets/guides/es/frank/11/step09.mp3"
+        ],
+        "stepCount": 9
+      },
+      {
+        "id": "12",
+        "title": "Buceo nocturno",
+        "narration": [
+          "assets/guides/es/frank/12/step01.mp3",
+          "assets/guides/es/frank/12/step02.mp3",
+          "assets/guides/es/frank/12/step03.mp3",
+          "assets/guides/es/frank/12/step04.mp3",
+          "assets/guides/es/frank/12/step05.mp3",
+          "assets/guides/es/frank/12/step06.mp3",
+          "assets/guides/es/frank/12/step07.mp3",
+          "assets/guides/es/frank/12/step08.mp3"
+        ],
+        "stepCount": 8
+      }
+    ]
+  },
+  {
+    "id": "zarka",
+    "name": "Zarka",
+    "role": "Una visitante alienígena",
+    "intro": "Saludos. Soy Zarka, ciudadana del planeta Maris, un mundo donde la vida inteligente habita en océanos líquidos. Mi equipo estudia los planetas acuáticos de vuestra galaxia. Os pido que me acompañéis y me ayudéis a conocer vuestro extraordinario mar.",
+    "art": "assets/guides/es/zarka/portrait.webp",
+    "introAudio": "assets/guides/es/zarka/intro.mp3",
+    "tours": [
+      {
+        "id": "13",
+        "title": "Postales desde la Tierra",
+        "narration": [
+          "assets/guides/es/zarka/13/step01.mp3",
+          "assets/guides/es/zarka/13/step02.mp3",
+          "assets/guides/es/zarka/13/step03.mp3",
+          "assets/guides/es/zarka/13/step04.mp3",
+          "assets/guides/es/zarka/13/step05.mp3",
+          "assets/guides/es/zarka/13/step06.mp3",
+          "assets/guides/es/zarka/13/step07.mp3",
+          "assets/guides/es/zarka/13/step08.mp3",
+          "assets/guides/es/zarka/13/step09.mp3"
+        ],
+        "stepCount": 9
+      },
+      {
+        "id": "14",
+        "title": "Cartas a casa",
+        "narration": [
+          "assets/guides/es/zarka/14/step01.mp3",
+          "assets/guides/es/zarka/14/step02.mp3",
+          "assets/guides/es/zarka/14/step03.mp3",
+          "assets/guides/es/zarka/14/step04.mp3",
+          "assets/guides/es/zarka/14/step05.mp3",
+          "assets/guides/es/zarka/14/step06.mp3",
+          "assets/guides/es/zarka/14/step07.mp3",
+          "assets/guides/es/zarka/14/step08.mp3",
+          "assets/guides/es/zarka/14/step09.mp3"
+        ],
+        "stepCount": 9
+      },
+      {
+        "id": "15",
+        "title": "Un planeta turbador",
+        "narration": [
+          "assets/guides/es/zarka/15/step01.mp3",
+          "assets/guides/es/zarka/15/step02.mp3",
+          "assets/guides/es/zarka/15/step03.mp3",
+          "assets/guides/es/zarka/15/step04.mp3",
+          "assets/guides/es/zarka/15/step05.mp3",
+          "assets/guides/es/zarka/15/step06.mp3",
+          "assets/guides/es/zarka/15/step07.mp3"
+        ],
+        "stepCount": 7
+      }
+    ]
+  },
+  {
+    "id": "rebecca",
+    "name": "Rebeca",
+    "role": "Una oceanógrafa",
+    "intro": "Hola, me llamo Rebeca y soy oceanógrafa. Acompáñame, y déjame compartir contigo algunas de las cosas asombrosas que he aprendido sobre el mar.",
+    "art": "assets/guides/es/rebecca/portrait.webp",
+    "introAudio": "assets/guides/es/rebecca/intro.mp3",
+    "tours": [
+      {
+        "id": "16",
+        "title": "Espacio exterior e interior",
+        "narration": [
+          "assets/guides/es/rebecca/16/step01.mp3",
+          "assets/guides/es/rebecca/16/step02.mp3",
+          "assets/guides/es/rebecca/16/step03.mp3",
+          "assets/guides/es/rebecca/16/step04.mp3",
+          "assets/guides/es/rebecca/16/step05.mp3",
+          "assets/guides/es/rebecca/16/step06.mp3",
+          "assets/guides/es/rebecca/16/step07.mp3",
+          "assets/guides/es/rebecca/16/step08.mp3"
+        ],
+        "stepCount": 8
+      },
+      {
+        "id": "17",
+        "title": "Corrientes, mareas y animales",
+        "narration": [
+          "assets/guides/es/rebecca/17/step01.mp3",
+          "assets/guides/es/rebecca/17/step02.mp3",
+          "assets/guides/es/rebecca/17/step03.mp3",
+          "assets/guides/es/rebecca/17/step04.mp3",
+          "assets/guides/es/rebecca/17/step05.mp3",
+          "assets/guides/es/rebecca/17/step06.mp3",
+          "assets/guides/es/rebecca/17/step07.mp3"
+        ],
+        "stepCount": 7
+      },
+      {
+        "id": "18",
+        "title": "Caminos profesionales",
+        "narration": [
+          "assets/guides/es/rebecca/18/step01.mp3",
+          "assets/guides/es/rebecca/18/step02.mp3",
+          "assets/guides/es/rebecca/18/step03.mp3",
+          "assets/guides/es/rebecca/18/step04.mp3",
+          "assets/guides/es/rebecca/18/step05.mp3",
+          "assets/guides/es/rebecca/18/step06.mp3",
+          "assets/guides/es/rebecca/18/step07.mp3"
+        ],
+        "stepCount": 7
+      }
+    ]
+  }
+]

@@ -1,0 +1,213 @@
+{
+  "id": "tril",
+  "code": "TRIL",
+  "name": "Trilobito",
+  "category": "creature",
+  "scientificName": "",
+  "needsScientificVerify": false,
+  "pronunciation": "TRY-loh-byt",
+  "meaning": "De tres lóbulos",
+  "period": "Cámbrico - Pérmico",
+  "diet": "",
+  "tagline": "Esta criatura marina parecida a un cangrejo tenía ojos multifacéticos, como los de una libélula.",
+  "hero": {
+    "image": "assets/tril/TRIL00AA.webp",
+    "alt": "Trilobito"
+  },
+  "intro": "¡Durante la prehistoria existieron más de 10.000 especies de trilobitos! Los trilobitos eran criaturas marinas emparentadas con los cangrejos que conocemos hoy en día. Como sabemos que ciertos tipos de trilobitos vivieron en determinados periodos, los fósiles de trilobitos son una pista importante que los científicos buscan para determinar la edad de las rocas.",
+  "facts": [
+    {
+      "label": "Lugar",
+      "value": "Mares prehistóricos"
+    },
+    {
+      "label": "Época",
+      "value": "Cámbrico - Pérmico"
+    },
+    {
+      "label": "Nombre significa",
+      "value": "De tres lóbulos"
+    },
+    {
+      "label": "Caderas",
+      "value": "N/A"
+    },
+    {
+      "label": "Familia",
+      "value": "Artrópodo"
+    },
+    {
+      "label": "Tamaño",
+      "value": "3-10 cm (1-4 pulg.)"
+    }
+  ],
+  "topics": [
+    {
+      "id": "to-see-or-not-to-see",
+      "title": "Ver o no ver",
+      "image": "assets/tril/TRIL01PU.webp",
+      "text": "Algunas especies de trilobitos se arrastraban por el fondo marino, mientras que otras flotaban o nadaban en el agua. La mayoría de las especies tenían dos ojos y probablemente veían muy bien, pero algunas especies carecían de ellos. Estos trilobitos ciegos vivían en las profundidades del océano, donde la luz solar no podía penetrar.",
+      "captions": [
+        {
+          "label": "Ojos increíbles",
+          "text": "Los ojos de los trilobitos son los sistemas visuales más antiguos que se conocen. Estaban formados por numerosas lentes individuales dispuestas juntas. Cada lente producía su propia imagen. Estas lentes se conservan a veces en los fósiles de trilobitos porque estaban compuestas del resistente mineral calcita."
+        }
+      ]
+    },
+    {
+      "id": "whats-in-a-name",
+      "title": "¿Qué hay en un nombre?",
+      "image": "assets/tril/TRIL02PU.webp",
+      "text": "Estas criaturas recibieron el nombre de trilobito, o «de tres lóbulos», porque sus exoesqueletos (caparazones exteriores) estaban divididos en tres partes bien diferenciadas, o lóbulos. Sus patas, que sobresalían por la parte inferior del exoesqueleto, y otras partes blandas de su cuerpo rara vez se fosilizaron.",
+      "captions": [
+        {
+          "label": "Excavando en la arena",
+          "text": "Las secciones fosilizadas del fondo marino muestran que los trilobitos y otros animales se enterraban en la arena y el barro. Es posible que buscaran refugio allí, o que se alimentaran de pequeños fragmentos de materia orgánica presentes en los sedimentos, igual que hacen hoy las lombrices de tierra."
+        }
+      ]
+    },
+    {
+      "id": "plentiful-fossils",
+      "title": "Fósiles en abundancia",
+      "image": "assets/tril/TRIL03PU.webp",
+      "text": "Se han encontrado millones de fósiles de trilobitos en muy diversos lugares de todo el mundo. Se han hallado trilobitos en rocas que datan del periodo Cámbrico, hace unos 570 millones de años, hasta el final del periodo Pérmico, hace unos 245 millones de años."
+    },
+    {
+      "id": "wide-variety",
+      "title": "Gran variedad",
+      "image": "assets/tril/TRIL04PU.webp",
+      "text": "Se han identificado más de 10.000 especies de trilobitos, con tamaños que van desde menos de 2,5 cm hasta unos 60 cm de longitud.",
+      "captions": [
+        {
+          "label": "Enrollarse",
+          "text": "Algunos trilobitos podían enrollarse como las cochinillas, probablemente para protegerse de los depredadores."
+        },
+        {
+          "label": "El abuelo de los trilobitos",
+          "text": "Este es uno de los trilobitos más grandes. Paradoxides data del periodo Cámbrico y alcanzaba unos 48 cm de longitud."
+        },
+        {
+          "label": "Bocados diminutos",
+          "text": "Estos trilobitos son ejemplos de Elrathia. Solían medir entre 2,5 y 10 cm de longitud."
+        },
+        {
+          "label": "Ejemplares espinosos",
+          "text": "Este trilobito, Dicranurus, destacaba por sus largas espinas, que están muy bien conservadas en este ejemplar."
+        }
+      ]
+    },
+    {
+      "id": "wiped-out-forever",
+      "title": "Extintos para siempre",
+      "image": "assets/tril/TRIL05PU.webp",
+      "text": "Al final del periodo Pérmico, hace unos 245 millones de años, se produjo la mayor extinción masiva de todos los tiempos. El noventa por ciento de todas las especies marinas, incluidos los trilobitos, desaparecieron para siempre."
+    }
+  ],
+  "crosslinks": [
+    {
+      "label": "The Triassic Period",
+      "to": "tria"
+    },
+    {
+      "label": "Ammonite",
+      "to": "ammo"
+    },
+    {
+      "label": "What is a Fossil?",
+      "to": "foss"
+    },
+    {
+      "label": "Important Dinosaur Sites",
+      "to": "site"
+    },
+    {
+      "label": "Life Before Dinosaurs",
+      "to": "befr"
+    },
+    {
+      "label": "Extinction",
+      "to": "exti"
+    }
+  ],
+  "classic": {
+    "start": "main",
+    "screens": {
+      "main": {
+        "image": "assets/tril/TRIL00AA.webp",
+        "hotspots": [
+          {
+            "label": "Extintos para siempre",
+            "to": "wiped-out-forever",
+            "x": 4,
+            "y": 45,
+            "w": 26,
+            "h": 5
+          },
+          {
+            "label": "¿Qué hay en un nombre?",
+            "to": "whats-in-a-name",
+            "x": 4,
+            "y": 58,
+            "w": 25,
+            "h": 5
+          },
+          {
+            "label": "Gran variedad",
+            "to": "wide-variety",
+            "x": 24,
+            "y": 70,
+            "w": 19,
+            "h": 5
+          },
+          {
+            "label": "Fósiles en abundancia",
+            "to": "plentiful-fossils",
+            "x": 68,
+            "y": 42,
+            "w": 22,
+            "h": 5
+          },
+          {
+            "label": "Ver o no ver",
+            "to": "to-see-or-not-to-see",
+            "x": 57,
+            "y": 59,
+            "w": 26,
+            "h": 5
+          }
+        ]
+      },
+      "to-see-or-not-to-see": {
+        "image": "assets/tril/TRIL01PU.webp",
+        "back": "main"
+      },
+      "whats-in-a-name": {
+        "image": "assets/tril/TRIL02PU.webp",
+        "back": "main"
+      },
+      "plentiful-fossils": {
+        "image": "assets/tril/TRIL03PU.webp",
+        "back": "main"
+      },
+      "wide-variety": {
+        "image": "assets/tril/TRIL04PU.webp",
+        "back": "main"
+      },
+      "wiped-out-forever": {
+        "image": "assets/tril/TRIL05PU.webp",
+        "back": "main"
+      },
+      "facts": {
+        "image": "assets/tril/TRIL50FB.webp",
+        "back": "main"
+      }
+    }
+  },
+  "_provenance": {
+    "source": "«Microsoft Dinosaurs» (1993) — traducción no oficial de aficionados",
+    "note": "Traducción al español generada con IA a partir del texto original en inglés. «Microsoft Dinosaurs» nunca se publicó en español; las imágenes, el audio y el vídeo son los originales EN INGLÉS. Preservación educativa sin ánimo de lucro; contenido original © Microsoft y sus proveedores."
+  },
+  "sayIt": "assets/tril/TRIL00AP.mp3",
+  "narration": "assets/tril/TRIL00AJ.mp3",
+  "fanTranslation": true
+}
