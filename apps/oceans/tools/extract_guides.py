@@ -18,9 +18,11 @@ sys.path.insert(0, HERE)
 sys.path.insert(0, os.path.join(HERE, "..", "..", "..", "packages", "pipeline"))
 from szdd import expand
 
-DISC = "/Volumes/MS_OCEANS/DATA/GUIDES"
+DISC = os.environ.get("DISC", "/Volumes/MS_OCEANS/DATA/GUIDES")
+LOCALE = os.environ.get("LOCALE", "")
 WEB = os.path.abspath(os.path.join(HERE, "..", "web"))
-OUT = os.path.join(WEB, "assets", "guides")
+GP = "assets/guides/es" if LOCALE else "assets/guides"
+OUT = os.path.join(WEB, *GP.split("/"))
 FF = "/opt/homebrew/bin/ffmpeg"
 DN = subprocess.DEVNULL
 HOSTS = ["KIM", "ELI", "CURTIS", "FRANK", "ZARKA", "REBECCA"]
@@ -58,13 +60,13 @@ def main():
         art = None
         if dibs:
             dib_webp(dibs[0], os.path.join(out, "portrait.webp"))
-            art = f"assets/guides/{slug}/portrait.webp"
+            art = f"{GP}/{slug}/portrait.webp"
 
         intro = None
         ins = sorted(glob.glob(os.path.join(hd, "*IN.WAV")))
         if ins:
             to_mp3(ins[0], os.path.join(out, "intro.mp3"))
-            intro = f"assets/guides/{slug}/intro.mp3"
+            intro = f"{GP}/{slug}/intro.mp3"
 
         sections = defaultdict(list)
         for w in glob.glob(os.path.join(hd, "*.WAV")):
@@ -79,14 +81,15 @@ def main():
             narration = []
             for j, (_nn, w) in enumerate(sorted(sections[ss]), 1):
                 to_mp3(w, os.path.join(sdir, f"step{j:02d}.mp3"))
-                narration.append(f"assets/guides/{slug}/{ss}/step{j:02d}.mp3")
+                narration.append(f"{GP}/{slug}/{ss}/step{j:02d}.mp3")
             tours.append({"section": ss, "narration": narration, "stepCount": len(narration)})
 
         manifest[slug] = {"art": art, "intro": intro, "tours": tours}
         print(f"{slug:8} portrait={'Y' if art else '-'} sections={[t['section'] for t in tours]} "
               f"steps={[t['stepCount'] for t in tours]}")
 
-    json.dump(manifest, open(os.path.join(WEB, "guides-manifest.json"), "w"), indent=2)
+    mname = f"guides-manifest-{LOCALE}.json" if LOCALE else "guides-manifest.json"
+    json.dump(manifest, open(os.path.join(WEB, mname), "w"), indent=2)
     print(f"wrote {WEB}/guides-manifest.json")
 
 

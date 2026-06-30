@@ -25,7 +25,7 @@ const moreWorlds = es ? 'Más mundos por explorar' : 'More worlds to explore';
       <nav class="explore-nav" aria-label="Explore Oceans">
         <a class="btn" href={lp(locale, '/browse?tab=zones')}><span class="arrow" aria-hidden="true">🌊</span> {ui.byZone}</a>
         <a class="btn" href={lp(locale, '/browse?tab=oceans')}><span class="arrow" aria-hidden="true">🗺️</span> {ui.bySea}</a>
-        {!es && <a class="btn btn--play" href="/guides"><span class="arrow" aria-hidden="true">🧭</span> {ui.guidedTours}</a>}
+        <a class="btn btn--play" href={lp(locale, '/guides')}><span class="arrow" aria-hidden="true">🧭</span> {ui.guidedTours}</a>
         <a class="btn btn--play" href={lp(locale, '/games')}><span class="arrow" aria-hidden="true">🐚</span> {ui.games}</a>
       </nav>
     </div>
