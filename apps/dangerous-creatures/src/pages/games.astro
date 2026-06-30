@@ -122,13 +122,15 @@ const QUIZ = readJSON('quiz.json');
       const names = animals.map((a) => a.name);
       function makeRound() {
         const a = animals[Math.floor(Math.random() * animals.length)];
-        const types = ['id'];
+        const types = [];
+        if (a.photo) types.push('id');                 // photo = clean video frame (no name baked in)
         if (a.weapons.length) types.push('weapon');
         if (a.habitats.length) types.push('habitat');
+        if (!types.length) return makeRound();
         const type = types[Math.floor(Math.random() * types.length)];
         if (type === 'id') {
           const ans = a.name, opts = shuffle([ans, ...sample(names, 3, [ans])]);
-          return { prompt: 'Which creature is this?', image: asset(a.thumb), answer: ans, choices: opts.map((o) => ({ label: o })) };
+          return { prompt: 'Which creature is this?', image: asset(a.photo), answer: ans, choices: opts.map((o) => ({ label: o })) };
         }
         if (type === 'weapon') {
           const ans = a.weapons[Math.floor(Math.random() * a.weapons.length)];
