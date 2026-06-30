@@ -2,8 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import Topbar from '../components/Topbar.astro';
 ---
-<Layout title="The Making Of — Microsoft Dinosaurs" desc="How a 1993 CD-ROM became a modern web app: a swarm of AI agents, sixteen guided tours, a game, and an honestly-labeled Spanish fan translation.">
-  <Topbar>
+<Layout title="The Making Of — Microsoft Dinosaurs" desc="How a 1993 CD-ROM became a modern web app: a swarm of AI agents, sixteen guided tours, a game, and an honestly-labeled Spanish fan translation." lang="en" bilingual={true}>
+  <Topbar locale="en" altHref="/es/making-of">
     <a slot="right" class="btn" href="/">Explore the dinosaurs <span class="arrow" aria-hidden="true">→</span></a>
   </Topbar>
 

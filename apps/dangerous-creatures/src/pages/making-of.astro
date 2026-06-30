@@ -2,8 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import Topbar from '../components/Topbar.astro';
 ---
-<Layout title="The Making Of — Dangerous Creatures" desc="How a 1994 CD-ROM became a modern web app: one disc, a decompressor, and a swarm of AI agents — now bilingual, with games and guided tours, and one of three restored discs.">
-  <Topbar>
+<Layout title="The Making Of — Dangerous Creatures" desc="How a 1994 CD-ROM became a modern web app: one disc, a decompressor, and a swarm of AI agents — now bilingual, with games and guided tours, and one of three restored discs." lang="en" bilingual={true}>
+  <Topbar locale="en" altHref="/es/making-of">
     <a slot="right" class="btn" href="/">Explore the creatures <span class="arrow" aria-hidden="true">→</span></a>
   </Topbar>
 

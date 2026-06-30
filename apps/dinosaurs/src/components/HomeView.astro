@@ -48,7 +48,7 @@ const moreWorlds = es ? 'Más mundos por explorar' : 'More worlds to explore';
         <a href={ocHref}><span aria-hidden="true">🌊</span> Oceans</a>
       </p>
       <p class="links">
-        {!es && <><a href="/making-of"><span aria-hidden="true">✦</span> {ui.makingOf}</a> &nbsp;·&nbsp; </>}
+        <a href={lp(locale, '/making-of')}><span aria-hidden="true">✦</span> {ui.makingOf}</a> &nbsp;·&nbsp;
         <a href="/credits">{ui.creditsLong}</a>
       </p>
       <p class="notice"><Fragment set:html={ui.homeNotice} /> <a href="/credits">{ui.seeCredits}</a>.</p>

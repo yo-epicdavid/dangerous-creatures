@@ -1,0 +1,72 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Topbar from '../../components/Topbar.astro';
+---
+<Layout title="Cómo se hizo — Microsoft Dinosaurs" desc="Cómo un CD-ROM de 1993 se convirtió en una web moderna: un enjambre de agentes de IA, dieciséis visitas guiadas, un juego y una traducción al español hecha por aficionados, claramente señalada." lang="es" bilingual={true}>
+  <Topbar brandHref="/es/" locale="es" altHref="/making-of">
+    <a slot="right" class="btn" href="/es/">Explora los dinosaurios <span class="arrow" aria-hidden="true">→</span></a>
+  </Topbar>
+
+  <main id="main-content" class="article" tabindex="-1">
+    <p class="kicker">Cómo se hizo</p>
+    <h1>Cómo un CD&#8209;ROM de 1993<br /><b>volvió a la vida</b></h1>
+    <p class="dek">Un disco y un enjambre de robots leyendo una enciclopedia infantil de dinosaurios.</p>
+
+    <p><span class="first">M</span>ucho antes de que todos los niños llevaran internet en el bolsillo, había un ordenador beige, una unidad de CD&#8209;ROM zumbando y una ventana llena de dinosaurios. <i>Microsoft Dinosaurs</i> (1993) era una enciclopedia multimedia del mundo prehistórico — Tyrannosaurus y Triceratops, amonites y pterosaurios, todo narrado, ilustrado y a un clic. Aprendías a decir <i>Albertosaurus</i> en voz alta, qué significaba «Saurischia» y por qué desaparecieron los dinosaurios.</p>
+
+    <p>Este es aquel disco, recuperado moderno y abierto, para que <b>cualquier niño con un navegador</b> pueda volver a recorrer el Mesozoico. Así es como un CD&#8209;ROM de hace tres décadas se convirtió en la web que estás usando ahora.</p>
+
+    <div class="stats">
+      <div class="stat"><b>166</b><span>dinosaurios y temas</span></div>
+      <div class="stat"><b>1.050+</b><span>pantallas</span></div>
+      <div class="stat"><b>166</b><span>pronunciaciones</span></div>
+      <div class="stat"><b>16</b><span>visitas guiadas</span></div>
+      <div class="stat"><b>333</b><span>agentes de IA</span></div>
+      <div class="stat"><b>33</b><span>años dormido</span></div>
+    </div>
+
+    <h2>Una cápsula del tiempo en un disco</h2>
+    <p>Todo empezó con un solo archivo: la imagen original del CD&#8209;ROM, conservada en el <a href="https://archive.org/details/microsoft-dinosaurs">Internet Archive</a> — 388 megabytes de 1993, congelados tal como salieron de fábrica. Al montarla apareció un pequeño mundo ordenado: 166 carpetas, una por dinosaurio o tema, con códigos de cuatro letras como <code>TYRA</code>, <code>APAT</code> (Apatosaurus) y <code>ARCH</code> (Archaeopteryx). Dentro había miles de imágenes, un clip de pronunciación del nombre por cada entrada, y una base de datos maestra que sabía qué llevaba a qué.</p>
+
+    <p>Cada «pantalla» era una sola imagen con las palabras incrustadas dentro — título, párrafos y etiquetas naranjas en las que hacer clic, todo fundido en un único mapa de bits. Precioso de ver; inútil para un buscador. Para volver a convertirlo en una web de verdad, había que liberar el texto.</p>
+
+    <h2>Leer una enciclopedia, a base de robots</h2>
+    <p>Así que apuntamos hacia él un enjambre de agentes de IA. Por cada entrada, un agente <i>miraba</i> las pantallas — la página principal, los subtemas, la caja de datos rápidos — y transcribía las palabras con exactitud, ordenándolas en un modelo de datos limpio: nombre, significado, pronunciación, época, dieta, tipo de cadera, todo. Un segundo agente releía las mismas pantallas y corregía al primero. Por último, un agente editor repasó las 166 entradas de una vez, dejando coherentes las categorías y las etiquetas.</p>
+
+    <p>Los robots fueron cuidadosos — y de vez en cuando más listos que el disco. Cuando una entrada situaba al amonites en el Cámbrico, el revisor lo marcó: los amonites no aparecieron hasta el Devónico. Corrigió la fecha y dejó una nota explicando por qué. Trescientos treinta y tres agentes, en total, leyendo una enciclopedia infantil para que nadie tuviera que reescribirla.</p>
+
+    <h2>Volver a montarlo todo</h2>
+    <p>Con las palabras liberadas, lo demás es una web moderna y accesible construida alrededor del arte original: cada dinosaurio con su imagen, su historia, sus datos rápidos y un botón para <b>oír su nombre en voz alta</b>. En cada página hay un interruptor <b>Clásico 1993</b> que reconstruye las pantallas originales con sus zonas activas. Puedes explorar por época o por dieta, hacer una de las dieciséis <a href="/es/guides">visitas guiadas</a> narradas, o ponerte a prueba con las <a href="/es/games">Adivinanzas de dinosaurios</a>.</p>
+
+    <h2>Uno de tres discos hermanos</h2>
+    <p>Dinosaurs es el más antiguo de tres discos reconstruidos con el mismo juego de herramientas. El descompresor, el enjambre de agentes lectores, la división Clásico/Moderno — todo se afinó primero en <a href="https://dangerous-creatures.pages.dev/es/"><i>Microsoft Dangerous Creatures</i></a> (1994) y <a href="https://oceans-2s9.pages.dev/es/"><i>Microsoft Oceans</i></a> (1995), y luego se apuntó de vuelta a los dinosaurios. Tres sitios hermanos, una misma cadena de montaje; puedes saltar entre ellos desde el pie de la página de inicio.</p>
+
+    <h2>Una edición en español sobre la que teníamos que ser honestos</h2>
+    <p>Aquí es donde Dinosaurs se diferencia de sus hermanos. Dangerous Creatures y Oceans tuvieron discos españoles que se vendieron en tiendas, así que sus ediciones en español son <i>auténticas</i> — liberadas de discos localizados reales, con narración en español incluida. Pero <i>Microsoft Dinosaurs</i> solo se publicó en inglés, francés y japonés. <b>No hay ningún disco en español que preservar.</b></p>
+    <p>Así que, en vez de falsificar uno, lo etiquetamos con claridad. El español que encontrarás aquí es una <b>traducción de aficionados hecha con IA</b> del texto — las entradas, las pistas de las adivinanzas, los títulos de los recorridos — superpuesta a las <b>imágenes, el audio y el vídeo originales en inglés</b>, que se quedan tal como salieron de fábrica. Cada página traducida (el inicio, cada dinosaurio, los juegos, las visitas guiadas) lleva una nota visible que lo advierte, y la narración de los recorridos en español sigue sonando en inglés, porque es la única grabación que existe. Nunca se presenta como oficial. Si algún día aparece un disco español de <i>Dinosaurs</i> de verdad, lo rehacemos como es debido — pero hasta entonces, la honestidad gana a una falsificación convincente.</p>
+
+    <h2>Qué es real y qué ha renacido</h2>
+    <p>Cada palabra, imagen y voz en inglés viene del disco de 1993 — fielmente restaurada, no regenerada; el texto en español es la única excepción, claramente señalada. Esto es un trabajo de amor sin ánimo de lucro, hecho para mantener viva una cosa antigua y maravillosa y ponerla ante una nueva generación de niños — ahora en dos idiomas, con dieciséis <a href="/es/guides">visitas guiadas</a> y una partida de <a href="/es/games">Adivinanzas de dinosaurios</a>. No tiene vínculo con Microsoft, y todo el material original pertenece a sus creadores — los museos, estudios y artistas que aparecen en los <a href="/credits">créditos</a>.</p>
+
+    <p class="signoff">Ahora ve a conocer a un dinosaurio. <a href="/es/">Empieza a explorar <span class="arrow" aria-hidden="true">→</span></a></p>
+  </main>
+</Layout>
+
+<style>
+  .article { max-width: 720px; margin: 0 auto; padding: 30px 20px 90px; font-size: 19px; line-height: 1.7; }
+  .kicker { text-transform: uppercase; letter-spacing: .18em; font-size: 13px; color: var(--gold); font-weight: 700; margin: 8px 0 6px; }
+  .article h1 { font-family: var(--font-display); font-size: clamp(36px, 7vw, 64px); line-height: 1.02; margin: 0 0 10px; font-weight: 700; }
+  .article h1 b { color: var(--rust); }
+  .dek { font-size: 22px; color: var(--ink-soft); margin: 0 0 26px; }
+  .article h2 { font-family: var(--font-display); color: var(--gold); font-size: 27px; margin: 38px 0 8px; }
+  .article p { margin: 0 0 16px; }
+  .article a { color: var(--gold); }
+  .first { float: left; font-family: var(--font-display); font-size: 64px; line-height: .8; padding: 6px 10px 0 0; color: var(--rust); }
+  code { background: var(--panel-2); border: 1px solid var(--line); border-radius: 5px; padding: 1px 6px; font-size: .85em; }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 28px 0 8px; }
+  .stat { background: linear-gradient(180deg, var(--panel), var(--panel-2)); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; text-align: center; }
+  .stat b { display: block; font-family: var(--font-display); font-size: 30px; color: var(--ink); }
+  .stat span { color: var(--ink-soft); font-size: 13px; }
+  .signoff { margin-top: 34px; font-size: 21px; font-weight: 600; }
+  @media (max-width: 520px) { .stats { grid-template-columns: repeat(2, 1fr); } }
+</style>
