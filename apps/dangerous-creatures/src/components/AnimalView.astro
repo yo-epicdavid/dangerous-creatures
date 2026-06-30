@@ -14,6 +14,7 @@ const regionChips = (d.regions || []).map((r) => chip(r, 'regions'));
 
 // language switcher target: the same animal in the other locale
 const altHref = locale === 'es' ? `/animal/${d.id}` : `/es/animal/${d.id}`;
+const ogImage = `/assets/${locale === 'es' ? 'es/' : ''}${d.id}/og.jpg`;
 const STR = {
   classicSuffix: locale === 'es' ? 'pantallas originales de 1994' : 'original 1994 screens',
   showSpots: ui.showSpots,
@@ -21,7 +22,7 @@ const STR = {
   back: ui.back,
 };
 ---
-<Layout title={`${d.name} — Dangerous Creatures`} desc={d.tagline} lang={locale} bilingual={true}>
+<Layout title={`${d.name} — Dangerous Creatures`} desc={d.tagline} lang={locale} bilingual={true} ogImage={ogImage}>
   <Topbar brandHref={lp(locale, '/')} locale={locale} altHref={altHref}>
     <div slot="center" class="modeswitch" id="modeswitch" role="group" aria-label="View mode">
       <button data-mode="modern" aria-pressed="true">{ui.modern}</button>
