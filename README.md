@@ -22,8 +22,9 @@ Spanish screens/audio/video. **\* Dinosaurs never shipped in Spanish** (only EN/
 is a clearly-labeled **AI fan translation** of the English text; the media stays English. The
 **games and guided tours are bilingual on all three** — authentic Spanish on DC + Oceans (real
 Spanish narration, even localized host names like Kim→Carmen), and an AI fan translation on
-Dinosaurs (Spanish titles/clues over the original English narration audio, clearly flagged);
-credits and the making-of are English-only for now.
+Dinosaurs (Spanish titles/clues over the original English narration audio, clearly flagged).
+The **Making Of** is bilingual on all three too (each edition's article translated to Spanish);
+only the credits page is English-only for now.
 
 Each site has a **Modern** view (liberated text, responsive, accessible) and a **Classic** view
 that rebuilds the original composite screens 1:1 with working clickable hotspots

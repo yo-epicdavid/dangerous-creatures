@@ -37,7 +37,7 @@ const es = locale === 'es';
         <a href="https://dinosaurs.pages.dev"><span aria-hidden="true">🦕</span> Dinosaurs</a>
       </p>
       <p class="links">
-        {!es && <><a href="/making-of"><span aria-hidden="true">✦</span> {ui.makingOf}</a> &nbsp;·&nbsp; </>}
+        <a href={lp(locale, '/making-of')}><span aria-hidden="true">✦</span> {ui.makingOf}</a> &nbsp;·&nbsp;
         <a href="/credits">{ui.creditsLong}</a>
       </p>
       <p class="notice">

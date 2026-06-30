@@ -1,0 +1,126 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Topbar from '../../components/Topbar.astro';
+---
+<Layout title="Cómo se hizo — Microsoft Dangerous Creatures" desc="Cómo un CD-ROM de 1994 se convirtió en una web moderna: un disco, un descompresor y un enjambre de agentes de IA — ahora bilingüe, con juegos y visitas guiadas, y uno de tres discos restaurados." lang="es" bilingual={true}>
+  <Topbar brandHref="/es/" locale="es" altHref="/making-of">
+    <a slot="right" class="btn" href="/es/">Explora los animales <span class="arrow" aria-hidden="true">→</span></a>
+  </Topbar>
+
+  <main id="main-content" class="article" tabindex="-1">
+    <p class="kicker">Cómo se hizo</p>
+    <h1>Cómo un CD&#8209;ROM de 1994<br /><b>volvió a la vida</b></h1>
+    <p class="dek">Un disco, un descompresor y un enjambre de robots leyendo una enciclopedia infantil.</p>
+
+    <p><span class="first">E</span>n algún momento de los años noventa, un niño se sentó frente a un ordenador beige y se enamoró de los animales. La ventana de la pantalla era <i>Microsoft Dangerous Creatures</i> — una enciclopedia multimedia de 1994 sobre los animales más fascinantes, feroces y venenosos del planeta. Leones, cobras, tiburones blancos, el pulpo de anillos azules. Hacías clic, leías, veías vídeos pixelados y aprendías.</p>
+
+    <p>Ese programa fue el sueño detrás de este proyecto: recuperarlo, moderno y abierto, para que <b>cualquier niño con un navegador</b> pudiera volver a conocer a esos animales. Esta es la historia de cómo un disco de hace tres décadas se convirtió en la web que estás usando ahora mismo.</p>
+
+    <div class="stats">
+      <div class="stat"><b>66</b><span>animales</span></div>
+      <div class="stat"><b>654</b><span>pantallas</span></div>
+      <div class="stat"><b>2.183</b><span>sonidos</span></div>
+      <div class="stat"><b>109</b><span>vídeos</span></div>
+      <div class="stat"><b>32</b><span>años dormido</span></div>
+    </div>
+
+    <h2>Una cápsula del tiempo en un disco</h2>
+    <p>Todo empezó con un solo archivo: la imagen original del CD&#8209;ROM, conservada en el <a href="https://archive.org/details/cdrom_Microsoft_Dangerous_Creatures_-_For_Windows_3.1_Eng">Internet Archive</a> — 607 megabytes de 1994, congelados tal como salieron de fábrica. Al montarla apareció un pequeño mundo ordenado: 66 carpetas, una por animal, con códigos de cuatro letras como <code>LION</code>, <code>COBR</code> y <code>GWSH</code> (<i>great white shark</i>, el tiburón blanco). Dentro había miles de imágenes, sonidos y vídeos, enlazados por una base de datos maestra que el programa original usaba para saber qué llevaba a qué.</p>
+
+    <h2>Cómo lo abrimos</h2>
+    <p>Los vídeos fueron fáciles: un códec antiguo llamado Microsoft Video 1 que las herramientas modernas convierten en un instante. La narración era audio normal, aún nítido después de tantos años. Pero las imágenes se negaban a abrirse. Sus archivos no empezaban con la cabecera habitual de una imagen; empezaban con las letras <code>SZDD</code>.</p>
+    <p>Era una pista. <code>SZDD</code> es el formato de compresión propio de Microsoft de principios de los noventa — una forma de meter archivos en los discos cuando cada megabyte contaba. Nada en un Mac moderno sabía leerlo. Así que la solución fue escribir un pequeño descompresor, de unas cuarenta líneas, que entendía el formato antiguo y devolvía cada imagen a una foto de verdad.</p>
+
+    <p class="pull">La primera que descomprimimos fue la del león. Una foto de un león macho a media zancada sobre la hierba dorada — perfecta píxel a píxel, exactamente como se veía en 1994. Treinta y dos años dormido, y despertó impecable.</p>
+
+    <h2>El giro: texto hecho de píxeles</h2>
+    <p>Descomprimir esa pantalla del león reveló el rompecabezas central del proyecto. No era solo una foto — era la <i>página entera</i>: el título, el artículo, las pequeñas etiquetas rojas en las que haces clic. Todo estaba <b>pintado en una sola imagen</b>. Las palabras no estaban guardadas como palabras en ninguna parte. Eran píxeles.</p>
+    <p>Eso significaba que una copia fiel quedaría congelada para siempre — de tamaño fijo, imposible de traducir, invisible para los lectores de pantalla, imposible de buscar. No precisamente «para cualquier niño». Así que el proyecto tomó otro camino.</p>
+
+    <h2>Un programa, dos caras</h2>
+    <p>En lugar de elegir entre lo viejo y lo nuevo, esta reconstrucción ofrece las dos cosas, a partir del mismo material restaurado:</p>
+    <div class="pipeline">
+      <ol>
+        <li><b>Clásico 1994</b> — las pantallas originales, tal cual eran, con las zonas activas recreadas con fidelidad. La sensación de búsqueda del tesoro, intacta.</li>
+        <li><b>Moderno</b> — el mismo contenido reconstruido como páginas web adaptables y accesibles: texto real que puedes seleccionar, narración que puedes reproducir y vídeo que llena la pantalla en cualquier dispositivo.</li>
+      </ol>
+    </div>
+    <p>Un interruptor en la parte superior de cada animal alterna entre ambas. Pero crear la versión Moderna exigía hacer con los 66 animales algo que sonaba casi imposible: volver a leer el texto <i>fuera</i> de esas imágenes aplanadas, palabra por palabra, y convertirlo en datos estructurados.</p>
+
+    <h2>133 robots leyeron una enciclopedia infantil</h2>
+    <p>Seiscientas pantallas de texto, transcritas a mano, habrían llevado semanas. Así que el trabajo se entregó a un pequeño ejército de agentes de IA trabajando en paralelo.</p>
+    <p>Cada animal tuvo su propio agente. Ese agente miraba las nueve y pico pantallas del animal como lo haría una persona — <i>viendo</i> de verdad las imágenes — y transcribía cada palabra: la introducción, las curiosidades, los subtemas, los pies de foto. Hasta calculaba dónde se situaba cada zona activa en la pantalla, para que el modo Clásico siguiera funcionando. Después, un <b>segundo</b> agente releía las mismas pantallas para cazar cualquier desliz del primero. Sesenta y seis animales, revisados dos veces.</p>
+
+    <div class="stats">
+      <div class="stat"><b>133</b><span>agentes de IA</span></div>
+      <div class="stat"><b>~52</b><span>minutos</span></div>
+      <div class="stat"><b>2×</b><span>revisado cada uno</span></div>
+      <div class="stat"><b>0</b><span>escritos a mano</span></div>
+    </div>
+
+    <h2>Fieles a los hechos</h2>
+    <p>Cuando los 66 estuvieron listos, un último agente leyó la colección <i>entera</i> de una vez, haciendo de editor — comprobando que cada animal usara las mismas etiquetas, la misma voz, sin duplicados. Corrigió pequeñas incoherencias por su cuenta. Y, para satisfacción nuestra, detectó cosas que a un humano cansado se le escaparían:</p>
+    <p>El leopardo había tomado prestado sin querer el lema del jaguar. A la pitón la llamaban «la serpiente más larga del mundo», cuando su especie es en realidad la pitón de roca africana (la verdadera plusmarquista es la pitón reticulada). El «nunca ha matado a un humano» de la orca solo es cierto en libertad. Cada uno de estos casos se marcó para que lo decidiera una persona — porque la fidelidad a los hechos importa tanto como la fidelidad al original.</p>
+
+    <h2>Un disco se convirtió en tres</h2>
+    <p>Dangerous Creatures fue el primero, pero no estaba solo en la estantería. Aquel pequeño juego de herramientas — el descompresor de cuarenta líneas, el conversor de vídeo, el enjambre de agentes lectores — resultó ser una llave maestra para toda una familia de discos de Microsoft Home de mediados de los noventa. Así que despertó dos más: <a href="https://oceans-2s9.pages.dev/es/"><i>Microsoft Oceans</i></a> (1995, 93 entradas) y <a href="https://dinosaurs.pages.dev"><i>Microsoft Dinosaurs</i></a> (1993, 166 entradas). Ahora son tres sitios hermanos, con una misma cadena de montaje, cada uno preservado igual.</p>
+
+    <h2>Los mismos animales, en español</h2>
+    <p>Entonces apareció un segundo disco — no una secuela, sino la mismísima enciclopedia en otro idioma: <i>Animales Peligrosos de Microsoft</i>, la edición española que se vendió en tiendas. Y esto es lo que importa: el español de aquí <b>no es una traducción automática</b> superpuesta al inglés. Es el disco localizado de verdad — pantallas en español, narración en español, vídeo en español, tal como los niños hispanohablantes conocieron a estos animales en los noventa. Apuntamos el mismo descompresor y el mismo enjambre de agentes hacia él, liberamos también sus palabras, y ahora <b>cada animal tiene una edición auténtica en inglés y en español</b>. Cambia de una a otra con el selector EN&#160;·&#160;ES de la parte superior de cualquier página. (Oceans recibió el mismo trato desde <i>su</i> disco español; Dinosaurs nunca se publicó en español, así que allí es una traducción de aficionados claramente señalada.)</p>
+
+    <h2>Cosas con las que jugar</h2>
+    <p>El disco nunca fue <i>solo</i> una enciclopedia — la mitad de la diversión estaba en husmear. Así que volvieron dos juegos, construidos directamente con las fotos y los datos liberados, y funcionan en el idioma que estés leyendo:</p>
+    <div class="pipeline">
+      <ol>
+        <li><b>¿De quién son estos ojos?</b> — un primer plano de los ojos de un animal. ¿Sabes decir cuál es antes de que se revele?</li>
+        <li><b>Cuestionario de supervivencia</b> — rondas de opción múltiple sacadas de los propios datos rápidos de los animales, con una racha que mantener.</li>
+        <li><b>12 visitas guiadas</b> — recorridos narrados y breves, cada uno con su propio anfitrión, que enlazan los animales por temas y reproducen la narración original del disco.</li>
+      </ol>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><b>3</b><span>discos restaurados</span></div>
+      <div class="stat"><b>2</b><span>idiomas</span></div>
+      <div class="stat"><b>12</b><span>visitas guiadas</span></div>
+      <div class="stat"><b>2</b><span>juegos</span></div>
+    </div>
+
+    <h2>Lo que estás viendo</h2>
+    <p>Todo lo que ves aquí se reconstruyó a partir de esos discos: un descompresor de cuarenta líneas despertó las imágenes, un conversor de vídeo restauró las películas y un enjambre de agentes liberó las palabras — en dos idiomas. El resultado es la enciclopedia que un niño adoró en 1994 — fiel cuando quieres nostalgia, moderna cuando quieres aprender, bilingüe cuando la quieres en español, jugable cuando te apetece un juego, y ahora un rincón de un pequeño archivo de tres discos restaurados. Hecha para seguir creciendo.</p>
+
+    <div class="legal">
+      <b>Sobre el material.</b> Las fotos, el vídeo y el texto original son © 1994 Microsoft Corporation y sus
+      proveedores — fotógrafos de naturaleza, cineastas y agencias como Oxford Scientific Films / Animals Animals
+      (cada uno aparece en la <a href="/credits">página de créditos</a>). Esto es una <b>preservación educativa y
+      sin ánimo de lucro</b>, hecha por amor al original — sin vínculo con Microsoft, sin anuncios ni ventas, y con
+      retirada a petición. Las palabras ya se han liberado en texto abierto; el mérito es de quienes capturaron a
+      estos animales en primer lugar.
+    </div>
+
+    <a class="btn backlink" href="/es/"><span class="arrow" aria-hidden="true">←</span> Volver a los animales</a>
+  </main>
+</Layout>
+
+<style>
+  .article { max-width: 760px; margin: 0 auto; padding: 0 22px 90px; }
+  .article .kicker { text-transform: uppercase; letter-spacing: 3px; font-size: 13px; color: var(--ink-soft); margin-top: 40px; }
+  .article h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(40px, 7vw, 76px); line-height: 1; margin: 8px 0 6px; }
+  .article h1 b { color: var(--rust); }
+  .article .dek { font-size: 21px; color: var(--gold); margin: 0 0 10px; }
+  .article h2 { font-family: var(--font-display); color: var(--gold); font-size: clamp(26px, 4vw, 34px); margin: 48px 0 6px; line-height: 1.1; }
+  .article p { font-size: 18px; }
+  .article p .first { font-size: 26px; }
+  .article a { color: var(--gold); }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 14px; margin: 30px 0; }
+  .stat { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px; text-align: center; box-shadow: var(--shadow); }
+  .stat b { display: block; font-family: var(--font-display); font-size: 34px; color: var(--rust); line-height: 1; }
+  .stat span { font-size: 13px; color: var(--ink-soft); text-transform: uppercase; letter-spacing: 1px; }
+  .pull { border-left: 4px solid var(--gold); padding: 6px 0 6px 20px; margin: 30px 0; font-size: 22px; color: var(--ink); font-style: italic; }
+  .pipeline { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 22px 24px; margin: 28px 0; box-shadow: var(--shadow); }
+  .pipeline ol { margin: 0; padding-left: 22px; }
+  .pipeline li { margin: 10px 0; }
+  .pipeline code { background: #00000040; padding: 2px 7px; border-radius: 6px; font-size: 14px; color: var(--green); }
+  .legal { margin-top: 56px; padding: 18px 20px; border: 1px dashed var(--line); border-radius: 14px; color: var(--ink-soft); font-size: 14px; background: #00000020; }
+  .legal b { color: var(--ink); }
+  .backlink { display: inline-block; margin-top: 36px; }
+</style>

@@ -1,0 +1,121 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Topbar from '../../components/Topbar.astro';
+---
+<Layout title="Cómo se hizo — Microsoft Oceans" desc="Cómo un CD-ROM de 1995 se convirtió en una web moderna: un descompresor, un enjambre de agentes de IA, un disco gemelo auténtico en español, seis guías y un juego." lang="es" bilingual={true}>
+  <Topbar brandHref="/es/" locale="es" altHref="/making-of">
+    <a slot="right" class="btn" href="/es/">Vuelve a sumergirte <span class="arrow" aria-hidden="true">→</span></a>
+  </Topbar>
+
+  <main id="main-content" class="article" tabindex="-1">
+    <p class="kicker">Cómo se hizo</p>
+    <h1>Cómo un CD&#8209;ROM de 1995<br /><b>volvió a la vida</b></h1>
+    <p class="dek">Un disco, un descompresor y un enjambre de robots leyendo una enciclopedia submarina.</p>
+
+    <p><span class="first">A</span>ntes de que el océano entero estuviera a una búsqueda de distancia, vivía en un CD&#8209;ROM. <i>Microsoft Oceans</i> (1995) era un recorrido multimedia por el mar — arrecifes y el abismo aplastante, ballenas y medusas, mareas y huracanes, y los exploradores que cartografiaron el agua por primera vez. Hacías clic, leías, veías películas pixeladas de criaturas que la mayoría de los niños nunca verían en persona, y las profundidades parecían un poco menos lejanas.</p>
+
+    <p>Este es aquel disco, recuperado moderno y abierto, para que <b>cualquier niño con un navegador</b> pueda volver a sumergirse. Así es como un CD&#8209;ROM de hace tres décadas se convirtió en la web que estás usando ahora mismo.</p>
+
+    <div class="stats">
+      <div class="stat"><b>93</b><span>entradas</span></div>
+      <div class="stat"><b>603</b><span>pantallas</span></div>
+      <div class="stat"><b>1.098</b><span>sonidos</span></div>
+      <div class="stat"><b>92</b><span>vídeos</span></div>
+      <div class="stat"><b>31</b><span>años dormido</span></div>
+    </div>
+
+    <h2>Una cápsula del tiempo en un disco</h2>
+    <p>Todo empezó con un solo archivo: la imagen original del CD&#8209;ROM, conservada en el <a href="https://archive.org/details/microsoft-oceans">Internet Archive</a>, congelada tal como salió de fábrica en 1995. Al montarla apareció un pequeño mundo ordenado — una carpeta por entrada, cada una con un código corto como <code>REEF</code> (los arrecifes de coral), <code>ABYS</code> (el abismo) y <code>ARCT</code> (el océano Ártico) — y noventa y tres en total, repartidas en cuatro temas: <b>vida marina, hábitats, ciencia del océano</b> y <b>mares y personas</b>. Dentro había miles de imágenes, películas y narraciones, enlazadas por una base de datos maestra que el programa original usaba para saber qué llevaba a qué.</p>
+
+    <h2>Cómo lo abrimos</h2>
+    <p>Las películas fueron fáciles — un códec antiguo llamado Microsoft Video 1 que las herramientas modernas convierten en un instante. La narración era audio normal, aún claro después de treinta años. Pero las imágenes se negaban a abrirse. Sus archivos no empezaban con la cabecera habitual de una imagen; empezaban con las letras <code>SZDD</code> — la compresión propia de Microsoft de principios de los noventa, una forma de meter archivos en los discos cuando cada megabyte contaba. Nada en un Mac moderno sabía leerlo, así que la solución fue un pequeño descompresor, de unas cuarenta líneas, que entendía el formato antiguo y devolvía cada imagen a una foto de verdad.</p>
+
+    <p class="pull">El mismo pequeño descompresor despertó los tres discos. En cuanto se ejecutó, los arrecifes y el mar abierto volvieron perfectos píxel a píxel — treinta y un años dormidos, y despertaron impecables.</p>
+
+    <h2>El giro: texto hecho de píxeles</h2>
+    <p>Descomprimir la primera pantalla reveló el rompecabezas central del proyecto. No era solo una foto — era la <i>página entera</i>: el título, el artículo, las pequeñas etiquetas en las que haces clic. Todo estaba <b>pintado en una sola imagen</b>. Las palabras no estaban guardadas como palabras en ninguna parte; eran píxeles. Una copia fiel quedaría congelada para siempre — de tamaño fijo, imposible de traducir, invisible para los lectores de pantalla, imposible de buscar. No precisamente «para cualquier niño». Así que el proyecto tomó otro camino.</p>
+
+    <h2>Un disco, dos caras</h2>
+    <p>En lugar de elegir entre lo viejo y lo nuevo, esta reconstrucción ofrece las dos cosas, a partir del mismo material restaurado:</p>
+    <div class="pipeline">
+      <ol>
+        <li><b>Clásico 1995</b> — las pantallas originales, tal cual eran, con las zonas activas recreadas con fidelidad. La sensación de zambullirse, intacta.</li>
+        <li><b>Moderno</b> — el mismo contenido reconstruido como páginas web adaptables y accesibles: texto real que puedes seleccionar, narración que puedes reproducir y vídeo que llena la pantalla en cualquier dispositivo.</li>
+      </ol>
+    </div>
+    <p>Un interruptor en la parte superior de cada página alterna entre ambas. Pero crear la versión Moderna exigía volver a leer el texto <i>fuera</i> de esas imágenes aplanadas — palabra por palabra, en las noventa y tres entradas — y convertirlo en datos estructurados.</p>
+
+    <h2>187 robots leyeron una enciclopedia submarina</h2>
+    <p>Seiscientas pantallas de texto, transcritas a mano, habrían llevado semanas. Así que el trabajo fue a parar a un enjambre de agentes de IA trabajando en paralelo. Cada entrada tuvo su propio agente que <i>miraba</i> sus pantallas como lo haría una persona — la página principal, los subtemas, la caja de datos rápidos — y transcribía cada palabra, ordenándola en un modelo de datos limpio: nombre, introducción, datos, pies de foto y dónde se situaba cada zona activa. Después, un <b>segundo</b> agente releía las mismas pantallas para cazar cualquier desliz del primero. Noventa y tres entradas, revisadas dos veces.</p>
+
+    <div class="stats">
+      <div class="stat"><b>187</b><span>agentes de IA</span></div>
+      <div class="stat"><b>2×</b><span>revisada cada una</span></div>
+      <div class="stat"><b>1</b><span>pasada de edición</span></div>
+      <div class="stat"><b>0</b><span>escritas a mano</span></div>
+    </div>
+
+    <h2>Fieles a los hechos</h2>
+    <p>Cuando las noventa y tres estuvieron listas, un último agente leyó la colección <i>entera</i> de una vez, haciendo de editor — comprobando que cada entrada usara las mismas etiquetas de datos y la misma voz, sin duplicados ni incoherencias sueltas que hubieran quedado de las pasadas individuales. La fidelidad a las palabras del disco, y a los hechos que hay detrás, era lo único que importaba: aquí nada está inventado ni reescrito, solo liberado.</p>
+
+    <h2>Parte de una flota de tres</h2>
+    <p>Oceans no se reconstruyó solo. El mismo juego de herramientas ya había despertado <a href="https://dangerous-creatures.pages.dev/es/"><i>Microsoft Dangerous Creatures</i></a> (1994) y acabaría despertando <a href="https://dinosaurs.pages.dev"><i>Microsoft Dinosaurs</i></a> (1993) — tres sitios hermanos de la misma estantería de discos de Microsoft Home de mediados de los noventa, que comparten un descompresor, una cadena de agentes y un mismo aspecto. Puedes saltar entre ellos desde el pie de cualquier página de inicio.</p>
+
+    <h2>El mismo mar, en español</h2>
+    <p>Oceans tenía un gemelo español: <i>Océanos de Microsoft</i>, el disco localizado que se vendió en tiendas, conservado igual que el inglés. Así que el español de aquí no es una traducción que pusiéramos por encima — es el <b>disco localizado de verdad</b>, pasado por el mismísimo descompresor y enjambre de agentes: pantallas en español auténticas, narración en español, vídeo en español. El detalle más bonito está en las visitas guiadas, donde los anfitriones se redoblaron para los niños hispanohablantes: <b>Kim pasó a ser Carmen</b>, Curtis pasó a ser Carlos, y el narrador de naturaleza Eli pasó a ser <b>Teodoro Zúñiga</b> — con voces de actores españoles, no subtitulados. Solo Zarka, la visitante de otro mundo, conservó su nombre. Cambia de edición con el selector EN&#160;·&#160;ES de cualquier página.</p>
+
+    <h2>Seis guías, dieciocho recorridos y un juego</h2>
+    <p>La enciclopedia es solo la mitad. Oceans construyó sus visitas guiadas en torno a <b>seis personajes</b> — una navegante solitaria, un marinero de antaño, un socorrista del mar, un buceador, una oceanógrafa y esa visitante de otro mundo — cada uno con <b>tres recorridos narrados</b> propios, dieciocho en total, que reproducen la narración original del disco en el idioma que hayas elegido. Y hay un juego hecho con las propias pistas de las entradas:</p>
+    <div class="pipeline">
+      <ol>
+        <li><b>Adivinanzas del mar</b> — lee una pista con el nombre de la criatura tapado y elígela entre cuatro. ¿Qué racha consigues?</li>
+        <li><b>18 visitas guiadas</b> — seis anfitriones × tres recorridos cada uno, narrados de principio a fin, bilingües como todo lo demás.</li>
+      </ol>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><b>2</b><span>idiomas</span></div>
+      <div class="stat"><b>6</b><span>anfitriones</span></div>
+      <div class="stat"><b>18</b><span>visitas guiadas</span></div>
+      <div class="stat"><b>3</b><span>discos hermanos</span></div>
+    </div>
+
+    <h2>Lo que estás viendo</h2>
+    <p>Todo lo que ves aquí se reconstruyó a partir de esos discos: un descompresor de cuarenta líneas despertó las imágenes, un conversor de vídeo restauró las películas y un enjambre de agentes liberó las palabras — en inglés y en español por igual. El resultado es el océano que un niño exploró en 1995 — fiel cuando quieres nostalgia, moderno cuando quieres aprender. Explora por <a href="/es/browse?tab=zones">zona del océano</a> o por <a href="/es/browse?tab=oceans">mar</a>, haz una de las seis <a href="/es/guides">visitas guiadas</a> con anfitrión, o ponte a prueba con las <a href="/es/games">Adivinanzas del mar</a> — en cualquiera de los dos idiomas.</p>
+
+    <div class="legal">
+      <b>Sobre el material.</b> Las fotos, las películas y el texto original son © 1995 Microsoft Corporation y sus
+      proveedores — los fotógrafos marinos, cineastas, museos y agencias que aparecen en la
+      <a href="/credits">página de créditos</a>. Esto es una <b>preservación educativa y sin ánimo de lucro</b>, hecha
+      por amor al original — sin vínculo con Microsoft, sin anuncios ni ventas, y con retirada a petición. Las
+      palabras ya se han liberado en texto abierto; el mérito es de quienes capturaron el mar en primer lugar.
+    </div>
+
+    <a class="btn backlink" href="/es/"><span class="arrow" aria-hidden="true">←</span> Volver al océano</a>
+  </main>
+</Layout>
+
+<style>
+  .article { max-width: 760px; margin: 0 auto; padding: 0 22px 90px; }
+  .article .kicker { text-transform: uppercase; letter-spacing: 3px; font-size: 13px; color: var(--ink-soft); margin-top: 40px; }
+  .article h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(40px, 7vw, 76px); line-height: 1; margin: 8px 0 6px; }
+  .article h1 b { color: var(--rust); }
+  .article .dek { font-size: 21px; color: var(--gold); margin: 0 0 10px; }
+  .article h2 { font-family: var(--font-display); color: var(--gold); font-size: clamp(26px, 4vw, 34px); margin: 48px 0 6px; line-height: 1.1; }
+  .article p { font-size: 18px; }
+  .article p .first { font-size: 26px; }
+  .article a { color: var(--gold); }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 14px; margin: 30px 0; }
+  .stat { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px; text-align: center; box-shadow: var(--shadow); }
+  .stat b { display: block; font-family: var(--font-display); font-size: 34px; color: var(--rust); line-height: 1; }
+  .stat span { font-size: 13px; color: var(--ink-soft); text-transform: uppercase; letter-spacing: 1px; }
+  .pull { border-left: 4px solid var(--gold); padding: 6px 0 6px 20px; margin: 30px 0; font-size: 22px; color: var(--ink); font-style: italic; }
+  .pipeline { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 22px 24px; margin: 28px 0; box-shadow: var(--shadow); }
+  .pipeline ol { margin: 0; padding-left: 22px; }
+  .pipeline li { margin: 10px 0; }
+  .pipeline code { background: #00000040; padding: 2px 7px; border-radius: 6px; font-size: 14px; color: var(--green); }
+  .legal { margin-top: 56px; padding: 18px 20px; border: 1px dashed var(--line); border-radius: 14px; color: var(--ink-soft); font-size: 14px; background: #00000020; }
+  .legal b { color: var(--ink); }
+  .backlink { display: inline-block; margin-top: 36px; }
+  code { background: #00000040; padding: 2px 7px; border-radius: 6px; font-size: 14px; color: var(--green); }
+</style>
