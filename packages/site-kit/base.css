@@ -212,6 +212,11 @@ img { max-width: 100%; display: block; }
 /* ---------- explore nav (links to browse modes) ---------- */
 .explore-nav { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin: 6px 0 8px; }
 
+/* ---------- cross-edition footer nav (hop between the museum editions) ---------- */
+.siblings { margin: 0 0 14px; font-size: 16px; color: var(--ink-soft); line-height: 1.9; }
+.siblings a { color: var(--gold); font-weight: 700; text-decoration: none; white-space: nowrap; }
+.siblings a:hover { text-decoration: underline; }
+
 /* ---------- browse chips on the animal page ---------- */
 .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 4px; align-items: center; }
 .chips .chips__label { font-size: 12px; letter-spacing: 1px; text-transform: uppercase; color: var(--ink-soft); margin-right: 2px; }
