@@ -1,55 +1,72 @@
-# Designing the Reimagined Edition with Claude
+# Designing the Reimagined Edition with Claude Design
 
-A practical guide + paste-ready prompts for using **Claude (Artifacts)** to design the visual and
-interaction language of the Reimagined *Exploration* Edition — the explorable, discovery-driven
-rebuild of **Dangerous Creatures**, **Oceans**, and **Dinosaurs**. Pairs with
-[`REIMAGINED.md`](./REIMAGINED.md) (the master plan); this is the **design half of Phase 2 (§5)** —
-the style bible + interaction design you do *before* generating a single final asset.
+A practical guide + paste-ready prompts for using **Claude Design** (Anthropic Labs) to shape the
+visual and interaction language of the Reimagined *Exploration* Edition — the explorable,
+discovery-driven rebuild of **Dangerous Creatures**, **Oceans**, and **Dinosaurs**. Pairs with
+[`REIMAGINED.md`](./REIMAGINED.md); this is the **design half of Phase 2 (§5)** — the style bible +
+interaction design you do *before* generating final assets.
 
 ---
 
-## What "designing with Claude" actually is
+## What Claude Design is
 
-There's no separate "design mode" — the surface is **Artifacts** in [claude.ai](https://claude.ai).
-You describe what you want; Claude writes a self-contained **HTML/SVG mockup** or an **interactive
-React + Tailwind prototype** that renders live beside the chat, so you can *see and click* the idea
-and refine it in plain language. Two surfaces, two jobs:
+[Claude Design](https://claude.ai/design) (Anthropic Labs · launched April 2026 · Claude Opus 4.7
+vision) is a **chat + canvas** tool: describe what you want on the left, Claude builds it live on the
+right, and you refine it conversationally. Two things make it a near-perfect fit for *this* project:
 
-| Surface | Use it for |
+- **It learns a design system from your codebase.** Point it at this repo and it reads your colors,
+  type, and components, builds every screen *with* them, and checks its own output against them.
+- **It hands off straight to Claude Code.** When a design is ready, Claude Design packages a
+  **handoff bundle** that Claude Code continues from — *not* a screenshot — closing the loop from
+  exploration → prototype → production. The **`/design-sync`** skill then keeps the local component
+  library and the Claude Design project in step, one component at a time.
+
+**Where:** [claude.ai/design](https://claude.ai/design) on the web, or the **Claude Design** entry in
+the **Claude Desktop** sidebar. **Plans:** Pro / Max / Team / Enterprise (research preview).
+
+| Surface | Role |
 |---|---|
-| **claude.ai → Artifacts** | Diverging on art directions, mocking up key screens, and building a **clickable prototype of the discovery loop** you can feel. |
-| **Claude Code** (this repo) | Turning the chosen direction into the real Astro app — the engine (§5), tokens in `site-kit`, wired to real `web/data`. |
+| **Claude Design** (web or Desktop) | Diverge on directions, design the key screens on the canvas, build a clickable prototype of the discovery loop. |
+| **Claude Code** (this repo) + `/design-sync` | Receive the handoff bundle, build it into the real Astro app, keep the component library synced. |
 
-> Rule of thumb: **explore and decide in Artifacts; build and ship in Claude Code.**
+> The loop: **design in Claude Design → "Handoff to Claude Code" → I build it → `/design-sync` keeps
+> both sides in step.**
+
+> [!IMPORTANT]
+> **New look — not the museum look.** Claude Design builds a system *from your codebase*, but the
+> codebase today is the *museum* edition (`site-kit` tokens — restrained, archival). The reimagined
+> edition wants its own bolder, playful language. So either **start a brand-new design system** for
+> this edition, or point it at the repo only to learn the **theming architecture** (how `site-kit`
+> themes per app via `:root` tokens) and ask it to design a *fresh* look that themes the same way —
+> don't let it inherit the archive's restraint.
 
 ---
 
-## The method (how to get *good* output, not just pretty output)
+## The method
 
-1. **Words before pixels.** Paste the brief (Prompt 0) first. Design follows the *feeling* and the
-   *core loop* — not "make it look nice."
-2. **Diverge before you converge.** First ask for **3–4 genuinely different** art directions, one
-   screen each. Don't let Claude polish a single idea — compare, *then* pick.
-3. **One screen at a time.** Once a direction wins, design its key screens one per message, with
-   specific critical feedback each round.
-4. **Prototype the loop, not just the look.** The real question is *"is it fun to discover?"* — only
-   a clickable prototype answers that. Build it early and cheap, with placeholder art.
-5. **Feed it real content.** Use an actual creature + real facts from `web/data` so the design
-   survives true text lengths, not lorem ipsum.
-6. **Extract a system.** When you love it, have Claude pull out **tokens + components + a11y notes**
-   — which drop straight into `site-kit`'s `:root` token pattern.
-7. **Critique like an art director.** "The mystery's too hidden — add an idle shimmer on hotspots."
-   "The journal stamp should *thunk* in as a reward." Specific beats vague, every round.
+1. **Set the context.** Start a project at claude.ai/design — either fresh (new design system) or
+   pointed at this repo for the per-world token architecture. Optionally use the **web-capture** tool
+   to grab the live museum edition as a continuity reference.
+2. **Words before pixels.** Paste the brief (Prompt 0). Design follows the *feeling* and the *core
+   loop*, not "make it nice."
+3. **Diverge first.** Ask for **2–4 distinct directions** of one key screen on the canvas (it's good
+   at variations to compare). Don't let it polish a single idea — pick one, then go deep.
+4. **Refine with the right tool for each change** (this is the canvas superpower):
+   - **Chat** for structural / broad changes ("make it darker, more mysterious").
+   - **Inline comments** for targeted tweaks (click an element → "bigger touch target here").
+   - **Adjustment knobs / direct canvas edits** for aesthetics (spacing, color, layout).
+   - Be **specific**: *"tighten spacing to 8px"* beats *"this looks off."*
+5. **Prototype the loop, not just the look.** Have it build an interactive prototype of *spot →
+   reveal → record* — the real **"is it fun?"** test — before any final art exists.
+6. **Feed it real content.** Use an actual creature + real facts from `web/data` so the design
+   survives true text lengths, not lorem.
+7. **Hand off to Claude Code.** When you love it, use **Handoff to Claude Code**, bring the bundle
+   here, and I'll build it into the reimagined Astro app, themed per world, iterating on device.
 
-**Artifacts prompting tips**
-- Say it explicitly: *"interactive React + Tailwind artifact"* for prototypes; *"one self-contained
-  HTML file"* for static mockups.
-- Always restate the constraints (kids ~7–11, big touch targets, WCAG contrast,
-  `prefers-reduced-motion`, no timers / dark patterns, runs offline as static files).
-- Ask Claude to **annotate its choices** (why this palette, why this motion) so you can steer.
-- To hold a look across screens, **paste the winning mockup's code back** and say "keep this exact
-  language, now design screen X."
-- You can **drop in reference / mood images** to anchor the art direction.
+**Best practices (per the docs):** import the *complete* system; start simple, then layer
+complexity; request **2–3 variations** to compare; ask Claude Design to **review accessibility**.
+**Beta quirks:** inline comments can occasionally vanish (use the comments view), very large repos
+can lag, and simultaneous multi-person editing is unreliable.
 
 ---
 
@@ -85,9 +102,9 @@ Same components, same discovery loop, same journal — different palette, creatu
 
 ---
 
-## The prompts — paste into claude.ai, in order
+## The prompts — paste into Claude Design, in order
 
-Each block is meant to be copied verbatim. Run Prompt 0 once, then 1 → 2 → 3 → 4.
+Run Prompt 0 once when you start the project, then 1 → 2 → 3 → 4.
 
 ### Prompt 0 · The brief (paste once, first)
 
@@ -111,30 +128,31 @@ gentle goals, never a chore. You unlock snippets of knowledge and new creatures 
 CONSTRAINTS: mobile / tablet / desktop, touch-first; static site (Astro), works offline; accessible
 (big touch targets, WCAG contrast, keyboard nav, prefers-reduced-motion, plus a "reveal all
 interactive spots" toggle); no stress timers, no dark patterns; all-new / openly-licensed art (so
-DESCRIBE art, don't copy the originals).
+DESCRIBE art, don't copy the originals). This is a NEW visual language — bolder and more playful
+than our existing archival site — so don't inherit a restrained museum look.
 
 Don't design yet — confirm you've got it and ask me anything that would sharpen the design.
 ```
 
-### Prompt 1 · Diverge (4 art directions)
+### Prompt 1 · Diverge (directions on the canvas)
 
 ```text
-Give me 4 DISTINCT art directions for this game, each as a single self-contained HTML mockup of the
-SAME one screen: a creature-entry / reveal screen for a jaguar (image area, name, one earned "did
-you know?" snippet, a "spotted!" journal stamp, and one onward thread to a related creature).
+Before refining anything, show me 3–4 DISTINCT art directions for this game as variations of ONE
+screen: a creature-entry / reveal screen for a jaguar (image area, name, one earned "did you know?"
+snippet, a "spotted!" journal stamp, and one onward thread to a related creature).
 
-Make the four genuinely different in mood and visual language — for example: (1) Explorer's Field
-Journal (tactile paper, sketches, stamps), (2) Naturalist's Atlas (painterly maps & plates), (3)
-Cabinet of Curiosities (museum-after-dark, drawers & specimens), (4) Living Diorama (a lush
-illustrated habitat you peer into). For each: a one-line concept name, a 2-sentence rationale, and a
-note on how MYSTERY shows up in it. Kid audience; accessible; touch-friendly.
+Make them genuinely different in mood and visual language — for example: (1) Explorer's Field Journal
+(tactile paper, sketches, stamps), (2) Naturalist's Atlas (painterly maps & plates), (3) Cabinet of
+Curiosities (museum-after-dark, drawers & specimens), (4) Living Diorama (a lush illustrated habitat
+you peer into). For each: a one-line concept name, a 2-sentence rationale, and a note on how MYSTERY
+shows up in it. Kid audience; accessible; touch-first.
 ```
 
 ### Prompt 2 · Converge (key screens in the winning direction)
 
 ```text
-I'm choosing direction #N: [name]. Keep that EXACT visual language. Now design these screens, one
-self-contained HTML mockup per message (I'll ask for them one at a time):
+I'm choosing direction #N: [name]. Keep that EXACT visual language and design system. Design these
+screens on the canvas, one at a time (I'll refine each with comments before we move on):
   1. the world map / hub (choose a world to enter; shows journal progress)
   2. a habitat scene with 3–4 creatures HIDDEN in it (show the hidden state + a hover/idle hint)
   3. the reveal moment (a creature resolving out of hiding — describe the motion)
@@ -146,36 +164,36 @@ Start with #1.
 ### Prompt 3 · Prototype the loop (the "is it fun?" test)
 
 ```text
-Now build an interactive React + Tailwind artifact that prototypes the core loop in this visual
-language: a single habitat scene with 3 hidden creatures. I can hunt for them (hover/tap to find a
-hidden hotspot), tap to REVEAL (animate it in + show a one-line fact), and watch them get RECORDED
-into a Field Journal counter ("2 of 3 discovered"). Include the reveal-all-spots accessibility
-toggle and a prefers-reduced-motion path. Use placeholder colored shapes for the art. The point is
-to FEEL the spot → reveal → record joy — make the reveal satisfying.
+Build an interactive prototype of the core loop in this visual language: a single habitat scene with
+3 hidden creatures. I can hunt for them (hover/tap to find a hidden hotspot), tap to REVEAL (animate
+it in + show a one-line fact), and watch them get RECORDED into a Field Journal counter ("2 of 3
+discovered"). Include the "reveal all interactive spots" accessibility toggle and a
+prefers-reduced-motion path. Use placeholder shapes for the art. The point is to FEEL the
+spot → reveal → record joy — make the reveal satisfying.
 ```
 
-### Prompt 4 · Extract the design system
+### Prompt 4 · Ready it for build + hand off
 
 ```text
-Lock this in. Produce a design-system handoff I can implement in an Astro site that themes via CSS
-:root tokens:
-  - a token set (color — including the 3 per-world palettes — type scale, spacing, radii, shadow,
-    motion durations/easings) as CSS custom properties
-  - a component inventory (hotspot, reveal card, journal stamp, progress meter, map node, nav chrome)
-    with their states: hidden → hinted → revealed
-  - motion specs for the reveal/transition
-  - accessibility notes per component
-Output the tokens as a ready-to-paste :root { … } block.
+This is the direction. Get it build-ready:
+  (a) express everything with reusable design-system components and tokens — color (including the 3
+      per-world palettes: Dangerous Creatures, Oceans, Dinosaurs), type scale, spacing, radii,
+      shadow, motion durations/easings;
+  (b) review the whole thing for accessibility and touch ergonomics and fix issues;
+  (c) then HAND OFF TO CLAUDE CODE so I can build it into the Astro app.
+In the handoff notes, summarize the token set and a component inventory (hotspot, reveal card,
+journal stamp, progress meter, map node, nav chrome) with their states: hidden → hinted → revealed.
 ```
 
 ---
 
 ## Then bring it back here
 
-Paste the winning direction + the `:root` token block into **Claude Code** on the `reimagined`
-branch and I'll: stand the design up in the real reimagined Astro app, build the scene/hotspot
-**engine** (§5) against real `web/data`, theme it per world via `site-kit` tokens, and iterate it on
-actual devices — then we playtest a one-habitat **vertical slice** (§8) before scaling.
+Use **Handoff to Claude Code** in Claude Design, then on the `reimagined` branch I'll: take the
+bundle, stand the design up in the real reimagined Astro app, build the scene/hotspot **engine**
+(§5) against real `web/data`, theme it per world, and run **`/design-sync`** to keep the component
+library and your Claude Design project in step. Then we playtest a one-habitat **vertical slice**
+(§8) before scaling.
 
 > `REIMAGINED.md` says it best: *map the original, then build one habitat until it feels like magic.*
-> This guide is how you find that magic in Artifacts before we build it for real.
+> Claude Design is where you find that magic; the handoff is how it becomes real.
