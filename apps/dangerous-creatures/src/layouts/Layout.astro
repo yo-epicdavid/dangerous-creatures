@@ -1,5 +1,5 @@
 ---
-import '../../../../packages/site-kit/base.css';
+import '@ms/site-kit/base.css';
 import '../../web/styles.css';
 import { t } from '../i18n/ui.js';
 const {
@@ -60,7 +60,7 @@ const esUrl = new URL(esPath, Astro.site).href;
       <img class="lightbox__img" alt="" />
     </dialog>
     <script>
-      import { initLightbox } from '../../../../packages/site-kit/lightbox.js';
+      import { initLightbox } from '@ms/site-kit/lightbox.js';
       initLightbox();
     </script>
   </body>

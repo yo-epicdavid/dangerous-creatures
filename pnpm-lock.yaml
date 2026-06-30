@@ -10,21 +10,32 @@ importers:
 
   apps/dangerous-creatures:
     dependencies:
+      '@ms/site-kit':
+        specifier: workspace:*
+        version: link:../../packages/site-kit
       astro:
         specifier: ^4.16.0
         version: 4.16.19(rollup@4.62.2)(typescript@5.9.3)
 
   apps/dinosaurs:
     dependencies:
+      '@ms/site-kit':
+        specifier: workspace:*
+        version: link:../../packages/site-kit
       astro:
         specifier: ^4.16.0
         version: 4.16.19(rollup@4.62.2)(typescript@5.9.3)
 
   apps/oceans:
     dependencies:
+      '@ms/site-kit':
+        specifier: workspace:*
+        version: link:../../packages/site-kit
       astro:
         specifier: ^4.16.0
         version: 4.16.19(rollup@4.62.2)(typescript@5.9.3)
+
+  packages/site-kit: {}
 
 packages:
 

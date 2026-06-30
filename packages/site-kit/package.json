@@ -1,0 +1,11 @@
+{
+  "name": "@ms/site-kit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Shared component skeleton (base.css) + client behaviors for the Exploration Series editions.",
+  "exports": {
+    "./base.css": "./base.css",
+    "./*": "./*"
+  }
+}
