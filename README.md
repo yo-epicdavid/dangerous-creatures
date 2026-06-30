@@ -104,10 +104,11 @@ regeneration steps — are in **[`DEPLOY.md`](./DEPLOY.md)**.
 
 ## Source & provenance
 
-The discs are preserved on the Internet Archive (Dangerous Creatures, [Oceans](https://archive.org/details/microsoft-oceans),
-[Dinosaurs](https://archive.org/details/microsoft-dinosaurs)). They are the **full retail
-content** — the “Demonstration” label on a title screen is a built-in store-kiosk slideshow mode,
-not a limited edition. ISOs and raw extracts live in `_source/` and are gitignored.
+The discs are preserved on the Internet Archive ([Dangerous Creatures](https://archive.org/details/cdrom_Microsoft_Dangerous_Creatures_-_For_Windows_3.1_Eng),
+[Oceans](https://archive.org/details/microsoft-oceans), [Dinosaurs](https://archive.org/details/microsoft-dinosaurs)).
+They are the **full retail content** — the “Demonstration” label on a title screen is a built-in
+store-kiosk slideshow mode, not a limited edition. ISOs and raw extracts live in `_source/` and are
+gitignored — the project links to the Internet Archive rather than re-hosting the discs.
 
 This is a **non-commercial, educational fan preservation** — not affiliated with or endorsed by
 Microsoft, no ads/sales/donations, with full attribution and removal on request. The optimized
@@ -115,3 +116,35 @@ media **is committed** (so Cloudflare can serve it) and every site links a **Cre
 the original photographers, studios, museums, and agencies (extracted from each disc’s master
 `*.THE` database). Credit and good faith — not a copyright license — are the basis for publishing
 with the original media.
+
+### Original discs
+
+The source images this build was extracted from, with their Internet Archive items so anyone can
+fetch the same disc and confirm it matches. The images themselves stay **gitignored in `_source/`** —
+only these links and checksums are committed (the discs are still © Microsoft; the Internet Archive
+hosts them, this repo just points there).
+
+| Edition | Disc | Internet Archive | `_source/` file |
+|---|---|---|---|
+| Dangerous Creatures | English | [`cdrom_Microsoft_Dangerous_Creatures…`](https://archive.org/details/cdrom_Microsoft_Dangerous_Creatures_-_For_Windows_3.1_Eng) | `MSDangerousCreatures.iso` |
+| Oceans | English | [`microsoft-oceans`](https://archive.org/details/microsoft-oceans) | `MSOceans.iso` |
+| Dinosaurs | English | [`microsoft-dinosaurs`](https://archive.org/details/microsoft-dinosaurs) | `MSDinosaurs.iso` |
+| Dangerous Creatures | Spanish · «Animales Peligrosos de Microsoft» | [`MSAnimales`](https://archive.org/details/MSAnimales) | `MS_Animales.bin`+`.cue` → `MS_Animales.iso` |
+| Oceans | Spanish · «Océanos de Microsoft» | [`MSOceanos`](https://archive.org/details/MSOceanos) | not retained locally |
+
+The English discs are the `.iso` as downloaded from their items. The Spanish Dangerous Creatures
+disc is a raw **BIN/CUE** image (`MODE2/2352`) that the pipeline extracts to `MS_Animales.iso`; the
+Spanish Oceans disc was read at extraction time and not kept in `_source/`. **Dinosaurs never shipped
+in Spanish** — its `/es/` site is an AI fan translation, so there is no Spanish disc to list.
+
+Verify a fetched image against the exact bytes this build used — save as `_source/SHA256SUMS` and run
+`shasum -a 256 -c SHA256SUMS`:
+
+```text
+4dcc1178c434e7a151ad7fe15f9db8706de5521fbf92a8c8266354706d76cd00  MSDangerousCreatures.iso
+2b53a85f5170f3ab16c4439e7e955bb00992c6e474b559ef66d45d0f3b1ad2f7  MSOceans.iso
+b30a1df5b2a4e629df79f8800c5e7633930dcd0fd218db9a90cf45e0dd6678c0  MSDinosaurs.iso
+2ecc8bfdbffc2c39a566a1d14fc13fc35942a47e0af5e388377d75e2157bb5d1  MS_Animales.bin
+d414f6618fe3d76e5289fbda6407c982b95e2f19b86a7560a21dd4ceca604b7f  MS_Animales.cue
+37fc5db286969f9ed674f8e2cf1543994a7efd9454006123bbd7bcc7163c156c  MS_Animales.iso
+```
