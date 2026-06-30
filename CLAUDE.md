@@ -56,7 +56,9 @@ overlays Spanish text on the English structure. Two flavors:
   `.fan-note` banner; OG cards are `og-es.jpg` next to the shared English assets. **Never present it
   as official.** If a real Spanish Dinosaurs disc ever surfaces, redo it as an authentic edition.
 
-Guided tours / games / credits / making-of stay English-only in every ES edition.
+ES coverage: home + entry pages + browse on all three; **games** are bilingual on DC + Oceans
+(`GamesView` reads `quiz.json`/`games_eyes.json`/the riddle pool per locale; es game data via
+`build_games_es.py` for DC). Guides, credits, and making-of stay English-only for now.
 
 ## Build & deploy
 
