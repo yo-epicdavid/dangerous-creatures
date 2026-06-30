@@ -1,8 +1,8 @@
 ---
 import '../../../../packages/site-kit/base.css';
 import '../../web/styles.css';
-const { title = 'Microsoft Dinosaurs', desc = 'The 1993 dinosaur explorer, reborn for the web — so any kid can roam the prehistoric world and its creatures.' } = Astro.props;
-const ogImage = new URL('/og-cover.jpg', Astro.site).href;
+const { title = 'Microsoft Dinosaurs', desc = 'The 1993 dinosaur explorer, reborn for the web — so any kid can roam the prehistoric world and its creatures.', ogImage = '/og-cover.jpg' } = Astro.props;
+const ogImageUrl = new URL(ogImage, Astro.site).href;
 ---
 <!doctype html>
 <html lang="en">
@@ -19,11 +19,13 @@ const ogImage = new URL('/og-cover.jpg', Astro.site).href;
     <meta property="og:title" content={title} />
     <meta property="og:description" content={desc} />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content={ogImage} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={title} />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image" content={ogImageUrl} />
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>

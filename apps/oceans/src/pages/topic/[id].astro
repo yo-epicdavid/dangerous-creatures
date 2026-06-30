@@ -17,8 +17,9 @@ const CAT_LABEL = {
 const catLabel = CAT_LABEL[d.category] || 'Ocean';
 const hearLabel = d.category === 'creature' ? `Hear the ${d.name}` : 'Hear it';
 const crosslinks = (d.crosslinks || []).filter((c) => c.to);
+const ogImage = `/assets/${d.id}/og.jpg`;
 ---
-<Layout title={`${d.name} — Microsoft Oceans`} desc={d.tagline}>
+<Layout title={`${d.name} — Microsoft Oceans`} desc={d.tagline} ogImage={ogImage}>
   <Topbar>
     <div slot="center" class="modeswitch" id="modeswitch" role="group" aria-label="View mode">
       <button data-mode="modern" aria-pressed="true">Modern</button>
