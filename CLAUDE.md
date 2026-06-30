@@ -40,6 +40,15 @@ under `/Volumes/...`; raw extracts/ISOs live in gitignored `_source/`.
   `web/styles.css` is **just its theme `:root` tokens**; `Layout.astro` imports `base.css` **before**
   it. Per-app page background/chrome are tokens (`--body-bg`, `--body-attach`, `--topbar-bg`).
   Change shared look-and-feel in `base.css`; theme per app via tokens. Don't re-duplicate styles.
+- **`packages/site-kit/*.js`**: shared client behavior, one copy for all editions —
+  `lightbox.js` (`initLightbox`), `browse-tabs.js` (`initBrowseTabs`), `riddle-game.js`
+  (`initRiddleGame`, the Oceans/Dino riddle; `sound: 'sfx'|'beep'`). Each app's `.astro` `<script>`
+  imports them by relative path (same as `base.css`) and Astro bundles them into one shared,
+  cache-friendly `_astro/hoisted.*.js` chunk per module. **Pattern for `define:vars` components:** a
+  `define:vars` script is inline and can't `import`, so instead emit the server data as
+  `<script type="application/json" id="…" set:html={JSON.stringify(data).replace(/</g,'\\u003c')}>`
+  and read it from a plain bundled `<script>` that imports the shared module. (Genuinely divergent
+  scripts stay local — DC's quiz/eyes game, the entry-view mode toggle + hotspots, the guide players.)
 
 ## i18n — all three editions are bilingual
 
@@ -87,9 +96,9 @@ app (build `pnpm install && pnpm run <app>:build`, output `apps/<app>/dist`, `PN
 
 - Keep the **English site byte-identical** when adding locales/editions; verify with a build + grep.
 - Verify every change with a build; for CSS refactors confirm no selector is dropped.
-- **Image lightbox:** entry-page photos are tap-to-zoom. Mark an `<img>` `data-zoomable`; a native
-  `<dialog class="lightbox">` + delegated script (in each app's `Layout.astro`) opens it full-screen.
-  Styles live in `base.css`. Sub-topic images (`.topic__media img`) use `object-fit: contain` (not
+- **Image lightbox:** entry-page photos are tap-to-zoom. Mark an `<img>` `data-zoomable`; the
+  `<dialog class="lightbox">` markup (localized labels) is in each app's `Layout.astro`, which calls
+  the shared `initLightbox()` from `packages/site-kit/lightbox.js`. Styles live in `base.css`. Sub-topic images (`.topic__media img`) use `object-fit: contain` (not
   `cover`) so the whole image shows — the cell aspect ratio varies by viewport (tablets cropped before).
 - **Git auth:** SSH when at the Mac; when on a **remote session** the SSH agent is unreachable —
   switch the remote to HTTPS+PAT and use `env -u GITHUB_TOKEN gh ...` (full-scope keyring token) for

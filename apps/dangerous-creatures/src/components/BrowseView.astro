@@ -44,29 +44,11 @@ const STR = { docTitle: ui.docTitle, suffix: locale === 'es' ? 'Animales Peligro
     ))}
   </main>
 
-  <script define:vars={{ STR }}>
-    const params = new URLSearchParams(location.search);
-    const valid = ['regions', 'habitats', 'weapons'];
-    let tab = valid.includes(params.get('tab')) ? params.get('tab') : 'regions';
-    const panels = document.querySelectorAll('.tabpanel');
-    const btns = document.querySelectorAll('#tabs button');
-    function setTab(t, scroll) {
-      tab = valid.includes(t) ? t : 'regions';
-      panels.forEach((p) => (p.hidden = p.dataset.tab !== tab));
-      btns.forEach((b) => {
-        const active = b.dataset.tab === tab;
-        b.classList.toggle('is-active', active);
-        b.setAttribute('aria-pressed', active ? 'true' : 'false');
-      });
-      history.replaceState(null, '', `?tab=${tab}${location.hash}`);
-      document.title = STR.docTitle[tab] + ' — ' + STR.suffix;
-      if (scroll && location.hash) {
-        const el = document.getElementById(location.hash.slice(1));
-        if (el) el.scrollIntoView({ behavior: 'smooth' });
-      }
-    }
-    btns.forEach((b) => b.addEventListener('click', () => setTab(b.dataset.tab, false)));
-    setTab(tab, true);
+  <script type="application/json" id="browse-data" set:html={JSON.stringify(STR).replace(/</g, '\\u003c')}></script>
+  <script>
+    import { initBrowseTabs } from '../../../../packages/site-kit/browse-tabs.js';
+    const d = document.getElementById('browse-data');
+    initBrowseTabs(d ? JSON.parse(d.textContent) : {});
   </script>
 </Layout>
 
