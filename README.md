@@ -34,8 +34,9 @@ that rebuilds the original composite screens 1:1 with working clickable hotspots
   Dinosaurs by kind/period/diet
 - **Guided tours** with the original narration — 12 (DC) · 18 (Oceans, 6 character hosts × 3) · 16 (Dinosaurs)
 - **A game** — *Whose Eyes Are These?* + *Survival Quiz* (DC) · *Sea Riddles* (Oceans) · *Dino Riddles* (Dinosaurs)
-- Restored video, per-entry audio (incl. Dinosaurs’ **“Say it” name pronunciation**), a **Credits**
-  page pulled from the disc, and favicon/share art from the title screen. Dinosaurs also has a **Making-Of**.
+- Restored video, per-entry audio (incl. Dinosaurs’ **“Say it” name pronunciation**), **tap-to-zoom**
+  photos (hero + sub-topic images open full-screen in a lightbox), a **Credits** page pulled from the
+  disc, and favicon/share art from the title screen. Each edition also has a bilingual **Making-Of**.
 
 ## How it works — the shared pipeline
 

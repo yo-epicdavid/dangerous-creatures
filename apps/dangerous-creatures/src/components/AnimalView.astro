@@ -35,7 +35,7 @@ const STR = {
     <div id="modern">
       <section class="hero">
         <div class="hero__media">
-          <img src={asset(d.hero.image)} alt={d.hero.alt || d.name} />
+          <img src={asset(d.hero.image)} alt={d.hero.alt || d.name} data-zoomable />
           <hgroup class="hero__title">
             <div class="name">{d.name}</div>
             {d.scientificName && <div class="sci">{d.scientificName}</div>}
@@ -84,7 +84,7 @@ const STR = {
           <div class="topics">
             {d.topics.map((tp) => (
               <article class="topic">
-                <div class="topic__media"><img src={asset(tp.image)} alt={tp.title} loading="lazy" /></div>
+                <div class="topic__media"><img src={asset(tp.image)} alt={tp.title} loading="lazy" data-zoomable /></div>
                 <div class="topic__body">
                   <h3>{tp.title}</h3>
                   {tp.narration && <button class="mini-listen" data-listen={asset(tp.narration)} aria-label={`${ui.listen}: ${tp.title}`}><span class="arrow" aria-hidden="true">▶</span> {ui.listen}</button>}
