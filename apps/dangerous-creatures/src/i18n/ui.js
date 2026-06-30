@@ -18,6 +18,7 @@ export const UI = {
     homeNotice:
       'A non-commercial, educational fan preservation of <i>Microsoft Dangerous Creatures</i> (1994). Not affiliated with Microsoft. All original media © their respective owners —',
     seeCredits: 'see credits',
+    moreWorlds: 'More worlds to explore',
     // animal page
     modern: 'Modern',
     classic: 'Classic 1994',
@@ -63,6 +64,7 @@ export const UI = {
     homeNotice:
       'Preservación educativa y sin ánimo de lucro de <i>Animales Peligrosos de Microsoft</i> (1995). Sin vínculo con Microsoft. Todo el contenido original es © de sus respectivos propietarios —',
     seeCredits: 'ver créditos',
+    moreWorlds: 'Más mundos por explorar',
     modern: 'Moderno',
     classic: 'Clásico 1994',
     hear: (n) => `Oír a ${n}`,
