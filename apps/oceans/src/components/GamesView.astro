@@ -58,50 +58,10 @@ const STR = STRINGS[locale] || STRINGS.en;
   <audio id="sfxRight" src="/assets/games/right.mp3" preload="auto"></audio>
   <audio id="sfxWrong" src="/assets/games/wrong.mp3" preload="auto"></audio>
 
-  <script define:vars={{ pool, STR }}>
-    const POOL = pool;
-    const $ = (id) => document.getElementById(id);
-    let score = 0, streak = 0, answered = false, cur = null;
-    const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
-
-    function newRound() {
-      answered = false;
-      $('reveal').hidden = true;
-      cur = POOL[Math.floor(Math.random() * POOL.length)];
-      $('riddle').textContent = '“' + cur.clue + '”';
-      const others = shuffle(POOL.filter((p) => p.id !== cur.id)).slice(0, 3);
-      const opts = shuffle([cur, ...others]);
-      const box = $('options');
-      box.innerHTML = '';
-      for (const o of opts) {
-        const b = document.createElement('button');
-        b.className = 'opt';
-        b.textContent = o.name;
-        b.addEventListener('click', () => choose(o, opts));
-        box.append(b);
-      }
-    }
-    function choose(o, opts) {
-      if (answered) return;
-      answered = true;
-      const correct = o.id === cur.id;
-      document.querySelectorAll('.opt').forEach((b, i) => {
-        if (opts[i].id === cur.id) b.classList.add('correct');
-        else if (opts[i].id === o.id) b.classList.add('wrong');
-        b.disabled = true;
-      });
-      const sfx = $(correct ? 'sfxRight' : 'sfxWrong');
-      if (sfx) { sfx.currentTime = 0; sfx.play().catch(() => {}); }
-      if (correct) { score++; streak++; } else { streak = 0; }
-      $('score').textContent = STR.score + score;
-      $('streak').textContent = STR.streak + streak;
-      $('revealImg').src = cur.thumb;
-      $('revealImg').alt = cur.name;
-      $('revealName').innerHTML = (correct ? STR.yes : STR.was).replace('%N%', cur.name);
-      $('reveal').hidden = false;
-    }
-    $('next').addEventListener('click', newRound);
-    newRound();
+  <script type="application/json" id="game-data" set:html={JSON.stringify({ pool, STR, sound: 'sfx' }).replace(/</g, '\\u003c')}></script>
+  <script>
+    import { initRiddleGame } from '../../../../packages/site-kit/riddle-game.js';
+    initRiddleGame(JSON.parse(document.getElementById('game-data').textContent));
   </script>
 </Layout>
 
