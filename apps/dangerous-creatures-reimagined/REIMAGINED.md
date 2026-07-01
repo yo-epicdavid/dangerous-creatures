@@ -159,8 +159,12 @@ already is, just richer. Build a small engine that reads a scene graph and handl
 - progressive‑disclosure logic (hidden → hinted → revealed), reduced‑motion + reveal‑all toggles.
 
 **Tech:** stay on **Astro** for the shell/SEO/static content; build the interactive "world" as a
-**client island** (vanilla or a tiny reactive lib — Svelte/Solid are great here) driving the
-engine. Keep media **lazy‑loaded, responsive (`srcset`), WebP/AVIF + streamed video.**
+**single `client:only` island in [Solid](https://www.solidjs.com/)** (via `@astrojs/solid-js`)
+driving the engine. Solid is the deliberate pick: fine-grained reactivity (no virtual-DOM diffing)
+and a ~7 KB runtime keep a game-like, animation-heavy UI smooth on **low-end Fire tablets** — where a
+heavier framework would hurt most. Astro stays the shell; Capacitor wraps whatever the build emits
+(framework-agnostic). If a single scene ever needs particles/real-time, add **Pixi.js** for that
+layer and keep the chrome in Solid. Keep media **lazy‑loaded, responsive (`srcset`), WebP/AVIF + streamed video.**
 
 **Accessibility & the mystery tension:** default to subtle/hidden; always offer (a) a "reveal
 interactive spots" toggle, (b) full keyboard navigation, (c) `prefers-reduced-motion` paths, and

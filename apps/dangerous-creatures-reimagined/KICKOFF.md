@@ -25,6 +25,17 @@ the extraction tooling we're reusing.
   read the docs and produce *everything the vertical slice needs* — and to surface the open decisions
   before it writes code.
 
+## Decisions locked (don't re-open these)
+
+- **Stack:** Astro shell + a **Solid** (`@astrojs/solid-js`) `client:only` island for the interactive
+  world; **Capacitor** for the native wrap. (See `REIMAGINED.md` §5 / §5½.)
+- **Targets:** web / PWA + native — Apple App Store, Google Play, Amazon Appstore (Fire).
+- **Scope-first:** one magical rainforest vertical slice, playtested on a real low-end Fire tablet,
+  before any scaling.
+
+**Still open** (the session should surface these): art direction (via Claude Design), asset-generation
+models, bundled-vs-download asset tiers, and orientation strategy.
+
 ---
 
 ## Paste this into a fresh Claude Code session (on the `reimagined` branch)
@@ -38,6 +49,9 @@ loop: spot → reveal → delight → record → wander on. It ships as ONE offl
 ALSO goes native to the Apple App Store, Google Play, and the Amazon Appstore (Fire tablets) via
 Capacitor — for maximum reach for kids on whatever device they have.
 
+STACK (already decided — don't re-litigate): Astro shell + a Solid (@astrojs/solid-js) client:only
+island for the interactive world + Capacitor for the native wrap.
+
 FIRST, read these in apps/dangerous-creatures-reimagined/: REIMAGINED.md (the plan, incl. §5½
 Platforms & packaging), DESIGN-WITH-CLAUDE.md (the design process), and src/lib/platform.ts (the
 web⇄native seam). Skim the museum edition (apps/dangerous-creatures, packages/site-kit,
@@ -45,8 +59,9 @@ packages/pipeline) for the data shape and the token-theming + extraction pattern
 
 THEN produce EVERYTHING needed to build one magical vertical slice — the rainforest, ~5 creatures —
 end to end, on phone + tablet + a low-end Fire tablet:
-  1. Scaffold plan: the Astro + client-island engine, the Capacitor wrap (iOS/Android/Fire), and how
-     src/lib/platform.ts gets wired — exact packages, config, and project structure.
+  1. Scaffold plan: the Astro shell + the Solid (@astrojs/solid-js) client:only engine island, the
+     Capacitor wrap (iOS/Android/Fire), and how src/lib/platform.ts gets wired — exact packages,
+     config, and project structure.
   2. Engine design: the scene-graph data model (extend the museum's classic hotspots), the
      reveal/transition system (View Transitions), the Field Journal state (persisted via
      platform.storage), and the hidden → hinted → revealed progressive-disclosure logic.
