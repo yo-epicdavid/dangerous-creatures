@@ -70,7 +70,9 @@ The workspace uses pnpm 11 syntax (`allowBuilds:` in `pnpm-workspace.yaml`, whic
 native `esbuild`/`sharp` postinstall scripts Astro needs). The root `package.json` pins
 `"packageManager": "pnpm@11.9.0"` so Cloudflare's corepack uses a matching pnpm. If a build
 errors on an ignored/!unknown build script, set a Pages **environment variable**
-`PNPM_VERSION = 11.9.0` (and `NODE_VERSION = 20` or newer).
+`PNPM_VERSION = 11.9.0`. **Node must be ≥ 22.12** (required by Astro 7) — the repo pins this with a
+root **`.node-version`** (`22.12.0`), which Cloudflare Pages reads automatically, so setting
+`NODE_VERSION` by hand is no longer needed.
 
 ## Updates
 
