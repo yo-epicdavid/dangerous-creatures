@@ -17,6 +17,8 @@ importers:
         specifier: ^7.0.4
         version: 7.0.4(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)(rollup@4.62.2)
 
+  apps/dangerous-creatures-reimagined: {}
+
   apps/dinosaurs:
     dependencies:
       '@ms/site-kit':
