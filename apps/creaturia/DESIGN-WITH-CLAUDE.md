@@ -1,9 +1,9 @@
-# Designing the Reimagined Edition with Claude Design
+# Designing Creaturia with Claude Design
 
 A practical guide + paste-ready prompts for using **Claude Design** (Anthropic Labs) to shape the
-visual and interaction language of the Reimagined *Exploration* Edition — the explorable,
+visual and interaction language of **Creaturia** — the explorable,
 discovery-driven rebuild of **Dangerous Creatures**, **Oceans**, and **Dinosaurs**, shipping as a web
-app *and* an installable native app. Pairs with [`REIMAGINED.md`](./REIMAGINED.md); this is the
+app *and* an installable native app. Pairs with [`CREATURIA.md`](./CREATURIA.md); this is the
 **design half of Phase 2 (§5)** — the style bible + interaction design you do *before* generating
 final assets.
 
@@ -34,12 +34,14 @@ the **Claude Desktop** sidebar. **Plans:** Pro / Max / Team / Enterprise (resear
 > both sides in step.**
 
 > [!IMPORTANT]
-> **New look — not the museum look.** Claude Design builds a system *from your codebase*, but the
-> codebase today is the *museum* edition (`site-kit` tokens — restrained, archival). The reimagined
-> edition wants its own bolder, playful language. So either **start a brand-new design system** for
-> this edition, or point it at the repo only to learn the **theming architecture** (how `site-kit`
-> themes per app via `:root` tokens) and ask it to design a *fresh* look that themes the same way —
-> don't let it inherit the archive's restraint.
+> **New look — not the museum look, and the art is PHOTO‑REALISTIC.** The imagery honors what made the
+> original discs feel real — *actual photos & video of the animals*, montaged — done now at modern
+> fidelity: photo‑real creatures (AI‑generated and/or real CC photos) composited into photo‑real
+> habitat scenes, with real video on reveal. So the **creatures and scenes are photographic** (not flat
+> illustration); the **UI chrome** (journal, cards, nav) is the *fresh, kid‑friendly, energetic* layer
+> over that photography — not the museum edition's archival restraint. Point Claude Design at the repo
+> only to learn the **theming architecture** (how `site-kit` themes per app via `:root` tokens) and
+> have it design a *fresh photographic* look that themes the same way.
 
 ---
 
@@ -62,7 +64,7 @@ the **Claude Desktop** sidebar. **Plans:** Pro / Max / Team / Enterprise (resear
 6. **Feed it real content.** Use an actual creature + real facts from `web/data` so the design
    survives true text lengths, not lorem.
 7. **Hand off to Claude Code.** When you love it, use **Handoff to Claude Code**, bring the bundle
-   here, and I'll build it into the reimagined app, theme it per world, and **wrap it natively** for
+   here, and I'll build it into the Creaturia app, theme it per world, and **wrap it natively** for
    the app stores (next section).
 
 **Best practices (per the docs):** import the *complete* system; start simple, then layer
@@ -157,13 +159,23 @@ what's hidden. The original's magic was that you never knew what a click would d
 a creature, a new place — and the surprise was the reward.
 
 THE CORE LOOP: spot → reveal → delight → record → wander on. You're an explorer with a Field
-Journal. From a painted world map you enter living habitat scenes that HIDE creatures; you poke
-around, a shape resolves into an animal, you tap it and it reveals (a short clip + a whispered
-fact), and it joins your journal. Some creatures lure you to a cousin or rival (cross-links).
-Mini-games appear AS discoveries, not as a separate menu.
+Journal. HOME IS A LIVING WORLD MAP — the MAIN way you explore: you pan and ZOOM across the globe into
+habitat regions (rainforest, coral reef, savanna, polar ice, desert), TRAVEL IN to a habitat scene
+that HIDES creatures, and can always go BACK to the map to roam somewhere else. In a habitat you poke
+around, a shape resolves into an animal, you tap it and it reveals (a short clip + a whispered fact),
+and it joins your journal. Some creatures lure you to a cousin or rival (cross-links). Mini-games
+appear AS discoveries, not as a separate menu.
 
 PROGRESSION: the Field Journal fills as you discover (creatures found, habitats explored, badges) —
 gentle goals, never a chore. You unlock snippets of knowledge and new creatures by exploring.
+
+GUIDES: optional narrated, hand-held journeys hosted by EXPLORERS & NATURALISTS, each leading kids
+through the habitat they're famous for. Two kinds: (a) REAL public-domain historical figures used
+directly (e.g. Charles Darwin, Alexander von Humboldt, Alfred Russel Wallace, Mary Anning), and (b)
+ORIGINAL CHARACTERS INSPIRED BY modern greats where name/likeness rights apply — an ocean-explorer
+archetype (à la Cousteau) and a great-ape naturalist (à la Goodall) — with a distinct name, look &
+backstory, NOT a portrayal. A guide is a calm, optional alternative to free roaming — never forced, no
+timers.
 
 PLATFORMS: ships as a web app AND an installable native app — Apple App Store (iPhone, iPad), Google
 Play (Android phones & tablets), and the Amazon Appstore (Fire tablets) — from ONE offline-capable
@@ -177,9 +189,12 @@ CONSTRAINTS: touch-first; accessible (big touch targets, WCAG contrast, keyboard
 prefers-reduced-motion, plus a "reveal all interactive spots" toggle); KIDS-APP COMPLIANT — no
 third-party ads, tracking, analytics, data collection, sign-in walls, or unguarded external links /
 purchases (Apple Kids Category, Google Play Families, Amazon kids policies); no stress timers, no
-dark patterns; all-new / openly-licensed art (DESCRIBE art, don't copy the originals). This is a NEW
-visual language — bolder and more playful than our existing archival site — so don't inherit a
-restrained museum look.
+dark patterns; all-new / openly-licensed art (DESCRIBE art, don't copy the originals). ART DIRECTION IS
+PHOTO-REALISTIC: the creatures and habitat scenes are PHOTOGRAPHIC — photo-real animals (AI-generated
+and/or real openly-licensed photos) composited into photo-real habitat scenes, with real video on
+reveal — honoring the original discs' real-photo/video montages, at modern fidelity. NOT flat
+illustration for the animals. The UI chrome (journal, cards, nav) is a fresh, kid-friendly, energetic
+layer OVER that photography, not our archival museum restraint.
 
 Don't design yet — confirm you've got it and ask me anything that would sharpen the design.
 ```
@@ -191,11 +206,14 @@ Before refining anything, show me 3–4 DISTINCT art directions for this game as
 screen: a creature-entry / reveal screen for a jaguar (image area, name, one earned "did you know?"
 snippet, a "spotted!" journal stamp, and one onward thread to a related creature).
 
-Make them genuinely different in mood and visual language — for example: (1) Explorer's Field Journal
-(tactile paper, sketches, stamps), (2) Naturalist's Atlas (painterly maps & plates), (3) Cabinet of
-Curiosities (museum-after-dark, drawers & specimens), (4) Living Diorama (a lush illustrated habitat
-you peer into). For each: a one-line concept name, a 2-sentence rationale, and a note on how MYSTERY
-shows up in it. Kid audience; accessible; touch-first; must scale from a phone to a tablet.
+Keep the imagery PHOTO-REALISTIC in every direction (a photo-real jaguar + a photographic habitat) —
+what should differ is how the UI CHROME frames that photography. For example: (1) Modern Field Guide
+(clean edge-to-edge photo, minimal HUD, a crisp "spotted!" stamp), (2) Explorer's Journal (the real
+photo tucked into a tactile field-notebook page with tape & handwriting), (3) Naturalist's Specimen
+Card (a photographic plate in an elegant museum-style mat & label), (4) Living Window (a full-bleed
+photographic habitat you peer into, chrome dissolving to near-nothing). For each: a one-line concept
+name, a 2-sentence rationale, and a note on how MYSTERY shows up in it. Kid audience; accessible;
+touch-first; must scale from a phone to a tablet.
 ```
 
 ### Prompt 2 · Converge (key screens in the winning direction)
@@ -204,11 +222,20 @@ shows up in it. Kid audience; accessible; touch-first; must scale from a phone t
 I'm choosing direction #N: [name]. Keep that EXACT visual language and design system. Design these
 screens on the canvas, one at a time (I'll refine each with comments before we move on), and show
 each at BOTH a phone (portrait) and a tablet (landscape) size:
-  1. the world map / hub (choose a world to enter; shows journal progress)
-  2. a habitat scene with 3–4 creatures HIDDEN in it (show the hidden state + a hover/idle hint)
+  1. THE WORLD MAP / HUB — the MAIN exploration surface: a living, ZOOMABLE world map with distinct
+     habitat regions (rainforest, coral reef, savanna, polar ice, desert) you pan/zoom and TRAVEL
+     INTO; show journal progress, a couple of "locked / coming soon" habitats as intriguing
+     silhouettes, and the entry points for the explorer GUIDES (photo-real map treatment)
+  2. a habitat scene with 3–4 creatures HIDDEN in it (show the hidden state + a hover/idle hint), plus
+     a clear "back to the map" affordance
   3. the reveal moment (a creature resolving out of hiding — describe the motion)
   4. the Field Journal (a collection filling up; locked entries shown as silhouettes)
   5. a creature entry (the Prompt-1 screen, refined)
+  6. an EXPLORER GUIDE intro — either a real public-domain figure (e.g. Charles Darwin, Alexander von
+     Humboldt) OR an original character inspired by a modern great (an ocean-explorer à la Cousteau, a
+     great-ape naturalist à la Goodall — distinct name/look, not a portrayal) inviting the kid on a
+     narrated journey through their habitat; show how their portrait/persona, name, and a "start the
+     expedition" call-to-action are framed
 Start with #1.
 ```
 
@@ -235,7 +262,8 @@ This is the direction. Get it build-ready:
       reflows between a phone and a tablet — and fix issues;
   (c) then HAND OFF TO CLAUDE CODE so I can build it into the app and wrap it natively.
 In the handoff notes, summarize the token set and a component inventory (hotspot, reveal card,
-journal stamp, progress meter, map node, nav chrome) with their states: hidden → hinted → revealed.
+journal stamp, progress meter, world-map + habitat-region node, zoom/pan + "back to map" controls,
+explorer-guide card, nav chrome) with their states: hidden → hinted → revealed.
 ```
 
 ### Prompt 5 · App identity & store assets
@@ -244,7 +272,7 @@ journal stamp, progress meter, map node, nav chrome) with their states: hidden �
 We're also shipping this as a native app on the App Store, Google Play, and the Amazon Appstore.
 Design the app/store identity in this same visual language:
   - an APP ICON that reads at small sizes and works as an adaptive icon (one iconic motif — e.g. the
-    explorer's journal, or a hidden-creature silhouette);
+    explorer's journal, a world-map compass/pin, or a hidden-creature silhouette);
   - a SPLASH / launch screen (calm, on-brand, works on phone + tablet, respects safe areas);
   - 3–5 STORE SCREENSHOTS that sell the discovery feeling (a hero line + one key screen each), sized
     for iPhone, iPad, and an Android / Fire tablet.
@@ -256,13 +284,13 @@ Keep it kid-friendly and parent-trustworthy (no ads / in-app-purchase vibes).
 ## Then bring it back here
 
 Use **Handoff to Claude Code** in Claude Design, then on the `reimagined` branch I'll: take the
-bundle, stand the design up in the real reimagined Astro app, build the scene/hotspot **engine** (§5)
+bundle, stand the design up in the real Creaturia Astro app, build the scene/hotspot **engine** (§5)
 against real `web/data`, theme it per world, and **wrap it with Capacitor** so the *same* build ships
 to the App Store, Google Play, and the Amazon Appstore (Fire) — plus the web/PWA. I'll run
 **`/design-sync`** to keep the component library and your Claude Design project in step. Then we
 playtest a one-habitat **vertical slice** (§8) on real devices — *including a cheap Fire tablet* —
 before scaling.
 
-> `REIMAGINED.md` says it best: *map the original, then build one habitat until it feels like magic.*
+> `CREATURIA.md` says it best: *map the original, then build one habitat until it feels like magic.*
 > Claude Design is where you find that magic; the handoff — and the native wrap — is how it reaches
 > every kid, on whatever device they've got.

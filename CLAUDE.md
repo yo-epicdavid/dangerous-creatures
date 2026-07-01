@@ -12,7 +12,7 @@ apps/
   dangerous-creatures/   # 1994 · 66 animals · bilingual EN/ES (authentic Spanish disc)
   oceans/                # 1995 · 93 entries · bilingual EN/ES (authentic Spanish disc)
   dinosaurs/             # 1993 · 166 entries · bilingual EN/ES (ES = AI fan translation; no Spanish disc)
-  dangerous-creatures-reimagined/  # WIP spike (see `reimagined` branch)
+  creaturia/             # WIP: Creaturia — new exploration game, inspired by the series (see `reimagined` branch)
 packages/
   pipeline/              # shared disc→site Python tooling (see below)
   site-kit/base.css      # shared CSS component skeleton; themed per app via :root tokens

@@ -1,11 +1,11 @@
-# Kickoff — starting a fresh session on the Reimagined edition
+# Kickoff — starting a fresh session on Creaturia
 
 This edition is big enough to deserve a **fresh, focused session** with full context. Everything a
 new session needs lives in this folder — point it here and let it work out the rest.
 
 ## Read these first (the source of truth)
 
-1. **[`REIMAGINED.md`](./REIMAGINED.md)** — the master plan: vision, the discovery loop, the phased
+1. **[`CREATURIA.md`](./CREATURIA.md)** — the master plan: vision, the discovery loop, the phased
    roadmap, risks, and **§5½ Platforms & packaging** (web + native via Capacitor).
 2. **[`DESIGN-WITH-CLAUDE.md`](./DESIGN-WITH-CLAUDE.md)** — how to design the look & feel in **Claude
    Design**, with paste-ready prompts (0 → 5) and the handoff-to-Claude-Code loop.
@@ -28,7 +28,7 @@ the extraction tooling we're reusing.
 ## Decisions locked (don't re-open these)
 
 - **Stack:** Astro shell + a **Solid** (`@astrojs/solid-js`) `client:only` island for the interactive
-  world; **Capacitor** for the native wrap. (See `REIMAGINED.md` §5 / §5½.)
+  world; **Capacitor** for the native wrap. (See `CREATURIA.md` §5 / §5½.)
 - **Targets:** web / PWA + native — Apple App Store, Google Play, Amazon Appstore (Fire).
 - **Scope-first:** one magical rainforest vertical slice, playtested on a real low-end Fire tablet,
   before any scaling.
@@ -41,7 +41,7 @@ models, bundled-vs-download asset tiers, and orientation strategy.
 ## Paste this into a fresh Claude Code session (on the `reimagined` branch)
 
 ```text
-You're picking up the "Reimagined (Exploration) Edition" — a kid-focused (~7–11), discovery-driven
+You're picking up **Creaturia** — a kid-focused (~7–11), discovery-driven
 rebuild of Microsoft's Dangerous Creatures / Oceans / Dinosaurs. It evokes exploration, mystery, and
 wonder: from a painted world map you enter living habitat scenes that HIDE creatures; you poke
 around, a shape resolves, you tap to reveal (clip + fact), and it joins your Field Journal. Core
@@ -52,7 +52,7 @@ Capacitor — for maximum reach for kids on whatever device they have.
 STACK (already decided — don't re-litigate): Astro shell + a Solid (@astrojs/solid-js) client:only
 island for the interactive world + Capacitor for the native wrap.
 
-FIRST, read these in apps/dangerous-creatures-reimagined/: REIMAGINED.md (the plan, incl. §5½
+FIRST, read these in apps/creaturia/: CREATURIA.md (the plan, incl. §5½
 Platforms & packaging), DESIGN-WITH-CLAUDE.md (the design process), and src/lib/platform.ts (the
 web⇄native seam). Skim the museum edition (apps/dangerous-creatures, packages/site-kit,
 packages/pipeline) for the data shape and the token-theming + extraction patterns we reuse.

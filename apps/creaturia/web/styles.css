@@ -1,0 +1,64 @@
+/* web/styles.css — Creaturia's THEME tokens + page chrome.
+ *
+ * Mirrors the museum edition's architecture (a per-app :root token block) but with a NEW, bolder,
+ * playful language — not the archive's restraint. Component styles live in src/engine/engine.css;
+ * this file is the palette + the page shell + safe-area plumbing. Themeable per world later
+ * (Dangerous Creatures / Oceans / Dinosaurs) by swapping this token block. */
+
+:root {
+  /* --- Rainforest palette (Dangerous Creatures world) --- */
+  --canopy: #0b3a26;
+  --canopy-deep: #06180f;
+  --leaf: #1f7a4d;
+  --leaf-bright: #38d17a;
+  --amber: #e8a83a;
+  --amber-bright: #ffcf6b;
+  --danger: #d9482f;
+  --mist: #cfe6d8;
+
+  --ink: #f3f7f2;
+  --ink-soft: #b9cabf;
+  --panel: #0f2c1fdd;
+  --panel-line: #2f5c44;
+
+  --font: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Trebuchet MS', var(--font);
+  --radius: 18px;
+  --shadow: 0 12px 40px #00160bcc;
+
+  /* Safe-area insets, mirrored to CSS vars so src/lib/platform.ts safeAreaInsets() can read them. */
+  --sai-top: env(safe-area-inset-top, 0px);
+  --sai-right: env(safe-area-inset-right, 0px);
+  --sai-bottom: env(safe-area-inset-bottom, 0px);
+  --sai-left: env(safe-area-inset-left, 0px);
+
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden; /* the game owns the viewport; no page scroll */
+}
+
+body {
+  font-family: var(--font);
+  color: var(--ink);
+  background:
+    radial-gradient(120% 80% at 70% 0%, #12492f 0%, transparent 60%),
+    linear-gradient(180deg, var(--canopy) 0%, var(--canopy-deep) 100%);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior: none;
+  touch-action: manipulation;
+  user-select: none;
+}
+
+/* Focus visibility for keyboard explorers (accessibility, never a tax). */
+:focus-visible {
+  outline: 3px solid var(--amber-bright);
+  outline-offset: 3px;
+  border-radius: 6px;
+}

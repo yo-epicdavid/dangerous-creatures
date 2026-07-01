@@ -1,8 +1,9 @@
-# Dangerous Creatures — Reimagined (The Exploration Edition)
+# Creaturia — a new Exploration game
 
-> A plan to rebuild the *game*, not the gallery — recreating the original's sense of
-> exploration, surprise, and wonder, with all‑new, openly‑licensed assets, so it can finally
-> belong to every kid on any device.
+> **Creaturia** is a new game *inspired by* and *continuing* Microsoft Home's Exploration Series
+> (Dangerous Creatures · Oceans · Dinosaurs) — **not a remake** of it. It recreates their sense of
+> exploration, surprise, and wonder with all‑new, openly‑licensed assets, so it can belong to every
+> kid on any device.
 
 ---
 
@@ -20,7 +21,7 @@ and the surprise *was* the reward.
 - **All‑new assets** — AI‑generated art + openly‑licensed footage + fresh prose — so the result
   is legally clean and truly public (no takedown risk, no "swap later").
 - **Mobile · tablet · desktop**, designed for touch and for wonder.
-- The museum edition stays live as the *preservation*; the Reimagined edition is a *new thing
+- The museum edition stays live as the *preservation*; **Creaturia** is a *new thing
   built beside it.*
 
 > **Design mantra:** *Reward curiosity. Hide a little. Surprise often. Never a dead end.*
@@ -74,13 +75,24 @@ because modern "good UX" (everything obvious, everything accessible) accidentall
 A concrete proposal for the shape of the game. Treat this as v0 of the design — to be sharpened
 in Phase 2 and against the walkthrough video.
 
-**You are an explorer with a field journal.** From a painted **world map**, you travel into living
-**habitat scenes** — a steaming rainforest, a coral reef, the savanna at dusk, polar ice, a desert
-at noon. Each scene is a rich illustration *hiding creatures.* You poke around; a shape resolves
+**You are an explorer with a field journal.** Your home base is a **living world map** — the *main*
+way you explore (issue #27): pan and **zoom** across the globe into **habitat regions** — a steaming
+rainforest, a coral reef, the savanna at dusk, polar ice, a desert at noon. Tap a habitat and you
+*travel in* to that living scene; you can always step **back to the map** and wander somewhere else.
+Each habitat is a rich **photographic** world *hiding creatures.* You poke around; a shape resolves
 into a jaguar; tap it and it *reveals* — a short film plays, a narrator whispers a fact, the
 creature joins your journal. Some creatures point you to a rival or cousin (the cross‑links),
-luring you deeper. **Guides** (the Annie/Fergie expeditions) offer narrated, hand‑held journeys for
-kids who want to be led. **Mini‑games** are woven in as discoveries, not a separate menu
+luring you deeper. **Guides** are recast as *explorers* (issue #27), of two kinds: **real
+public‑domain naturalists** used directly — **Alexander von Humboldt** (Amazon), **Charles Darwin**
+(islands/adaptation), **Alfred Russel Wallace**, **Mary Anning** (Dinosaurs) — and **original
+characters inspired by** modern greats where name/likeness rights apply: *Captain Mira Delmar*, an
+ocean‑explorer (à la Cousteau/Earle), and *Dr. Amara Okafor*, a great‑ape naturalist (à la Goodall,
+who died Oct 2025). Real *living* figures we feature only *with permission* (e.g. Paul Rosolie → the
+Amazon). Each hosts a narrated, hand‑held journey through their habitat — a thread that ties the three
+editions together. *(Rights rule: use PD figures directly and teach their real work; for
+living/recently‑deceased or brand‑managed figures, build an original inspired‑by character — distinct
+name, look & backstory — not a portrayal.)*
+**Mini‑games** are woven in as discoveries, not a separate menu
 ("whose eyes are these?" appears when you find a pair of eyes in the dark).
 
 - **Discovery loop:** *spot → reveal → delight → record → wander on.*
@@ -95,6 +107,39 @@ kids who want to be led. **Mini‑games** are woven in as discoveries, not a sep
 | **Mobile** | Tap to discover; vertical "expedition" flow; big touch targets | Mystery via subtle motion/parallax; haptics on reveal |
 | **Tablet** | Tap + drag to roam larger scenes; the "sweet spot" device | Pannable scenes, two‑hand play |
 | **Desktop** | Hover‑to‑hint + click; widest scenes, richest parallax | Keyboard‑navigable for accessibility |
+
+### Guides — the explorer roster (issue #27)
+
+Two kinds of guide, picked by a simple **rights rule**: use real **public‑domain** figures directly
+(and teach their real work); for **living / recently‑deceased / brand‑managed** figures, build an
+**original character inspired by** the archetype — distinct name, look & backstory, never a portrayal.
+*(Inspired‑by names below are placeholders — rename freely. The rainforest slice ships with Humboldt.)*
+
+**Real · public domain · use now**
+
+| Guide | Lived | Domain → habitat | Edition |
+|---|---|---|---|
+| **Alexander von Humboldt** | 1769–1859 | Amazon rainforest + the Andes | DC — **rainforest slice guide** |
+| **Charles Darwin** | 1809–1882 | Galápagos, islands, adaptation | DC |
+| **Alfred Russel Wallace** | 1823–1913 | rainforests; the Wallace Line (why animals live where they do) | DC |
+| **Mary Anning** | 1799–1847 | fossils, ancient seas | Dinosaurs |
+| **Roy Chapman Andrews** | 1884–1960 | Gobi desert, dinosaur eggs | DC desert · Dinosaurs |
+| **John James Audubon** | 1785–1851 | birds, forests & wetlands | DC |
+| **Amundsen / Shackleton** | 1872–1928 / 1874–1922 | polar ice (explorers of place) | DC polar |
+
+**Original · inspired‑by · use now (no permission)**
+
+| Guide *(placeholder name)* | Inspired by | Domain → habitat (kept distinct from the real person) |
+|---|---|---|
+| **Captain Mira Delmar** | Cousteau · Sylvia Earle · William Beebe | reef & open ocean — teal drysuit, boat *the Marlin* (no red cap, no *Calypso*) |
+| **Dr. Amara Okafor** | Goodall · Dian Fossey · Biruté Galdikas | great apes & forest floor — field journal, binoculars |
+
+**Real · living · only with written permission**
+
+| Guide | Domain → habitat | Note |
+|---|---|---|
+| **Paul Rosolie** (b. 1987) | the Amazon | your outreach; Humboldt / Delmar cover the slot until then |
+| **David Attenborough** (b. 1926) · **Sylvia Earle** (b. 1935) | narrator / oceans | aspirational |
 
 ---
 
@@ -143,10 +188,16 @@ a scene graph of `{ screenId, art-intent, hotspots:[{region, action, target}], t
 ## 5. Phase 2 — Design & the engine
 
 **Art direction / style bible (do this *before* generating a single final asset).**
-Define one cohesive visual language so 66 creatures × N habitats *look like one game.* Decide:
-palette, lighting, "painted‑naturalist vs. stylized‑illustrated," line vs. soft, level of realism,
-UI chrome, typography, motion vocabulary. Produce a 1–2 page style bible + a set of **anchor
-images** that every generation references. (Consistency is the #1 risk — see §9.)
+**The art direction is LOCKED: photo‑realistic.** It honors what actually made the original discs feel
+real — *real photographs and video of the animals*, composited into montage scenes with 90s tech. We
+do the same thing at modern fidelity: photo‑real creatures (AI‑generated and/or real CC photos) cut
+out and composited into photo‑real habitat plates, with real openly‑licensed video on reveal. So the
+style bible isn't "illustrated vs. painted" — it's the *photographic* language: per‑habitat
+lighting/time‑of‑day, depth‑of‑field, color grade, and how cut‑outs are matted believably into a
+scene. The one thing still open is how the **UI chrome** (journal, cards, nav) frames that photography
+— clean‑modern over photos vs. a tactile field‑guide/specimen frame (decide in Claude Design). Produce
+a 1–2 page style bible + a set of **anchor images** every generation references. (Photo‑realism makes
+*consistency & species‑accuracy* the #1 risk — see §7's reference‑photo workflow and §9.)
 
 **The engine — a data‑driven hypermedia runtime.** The game is essentially a *state machine of
 scenes with hotspots, transitions, audio, and history* — which is exactly what `classic.screens`
@@ -174,7 +225,7 @@ interactive spots" toggle, (b) full keyboard navigation, (c) `prefers-reduced-mo
 
 ## 5½. Platforms & packaging (web + native)
 
-The Reimagined edition ships **both as a web app and as an installable native app** — the goal is
+Creaturia ships **both as a web app and as an installable native app** — the goal is
 *maximum reach for kids on whatever device they have*:
 
 | Store | Devices | Build |
@@ -228,26 +279,41 @@ clean public product. **Facts are free; the exact wording isn't.** So:
 
 ## 7. Phase 4 — Asset generation (the multi‑model engine)
 
-### Images — AI generation, consistency‑first
-- **Models:** evaluate **Gemini 2.5 Flash Image ("Nano Banana")** — strong at *consistency &
-  iterative editing*, ideal for keeping a creature on‑model across poses and for editing a scene to
-  add/hide animals; **GPT‑image / GPT‑5** and **Imagen** as alternates. Use the best per task; no
-  single model wins everything.
+### Images — photo‑realistic, generated *and* sourced
+- **Two feedstocks, one photographic look (the modern montage):** (a) **AI‑generated** photo‑real
+  animals & habitat plates, and (b) **real openly‑licensed photos** — Wikimedia Commons, iNaturalist
+  (CC), Pexels/Pixabay. Compose both into layered scenes — exactly what the originals did with 90s
+  montage, now at modern fidelity.
+- **Models:** **Gemini 2.5 Flash Image ("Nano Banana")** — strong at *consistency & iterative
+  editing*, ideal for keeping a creature photo‑real & on‑model across poses and for editing a scene to
+  add/hide animals; **GPT‑image / GPT‑5** and **Imagen** as alternates. Best per task; no single model
+  wins everything.
+- **Species‑accuracy is the photo‑real catch:** a slightly‑off *stylized* jaguar reads as "art"; a
+  slightly‑off *photo‑real* jaguar reads as **wrong/uncanny**. So **condition generation on real
+  reference photos** — feed CC Commons/iNaturalist images of the actual species as img2img/editing
+  refs so the AI output stays anatomically true — rather than prompting from text alone.
 - **The consistency playbook (this is where projects fail):**
-  - Lock the **style bible** into every prompt; pass **anchor/reference images**.
-  - Generate each **creature once as a "character sheet"**, then *edit* that reference into new
-    poses/scenes (image‑editing models excel here) rather than re‑rolling from scratch.
-  - Fix seeds where supported; build scenes in **layers** (background habitat → creatures composited
-    or in‑painted) so you control placement of hotspots.
-  - A **QA loop**: a vision model (and a human) scores each asset for style‑match, anatomy,
-    on‑model‑ness; rejects route back for re‑edit. (Great fit for multi‑agent orchestration — §8.)
-- **Asset types:** habitat scenes (the explorable worlds), per‑creature art (multiple states:
+  - Lock the **style bible** into every prompt; pass **anchor/reference images** (incl. the real
+    species photos above).
+  - Generate each **creature once as a photo‑real "character sheet"**, then *edit* that reference into
+    new poses/scenes rather than re‑rolling from scratch.
+  - Fix seeds where supported; build scenes in **layers** (habitat plate → creature cut‑outs
+    composited/in‑painted) so you control hotspot placement and can matte cut‑outs believably.
+  - A **QA loop**: a vision model (and a human) scores each asset for photographic consistency,
+    **species/anatomy accuracy**, lighting‑match, and on‑model‑ness; rejects route back for re‑edit.
+    (Great fit for multi‑agent orchestration — §8.)
+  - **Label AI‑generated images as such** in the ledger (honesty + evolving kids‑store AI disclosure).
+- **Asset types:** habitat plates (the explorable worlds), per‑creature cut‑outs (multiple states:
   hidden/cameo/revealed/"action"), the world map, UI chrome & icons, transition art, journal art.
 
 ### Video — sourcing, not generating (mostly)
 - **Prefer real, openly‑licensed animal footage** — it's authentic, educational, and free of the
   consistency problems of AI video: **Pexels, Pixabay, Wikimedia Commons, iNaturalist (CC),
   Internet Archive, NASA/gov sources.** Vet each license; **log attribution** in a ledger.
+  *(License gotcha — applies to the sourced photos in §Images too: iNaturalist & Commons are licensed
+  **per item**, and much of iNaturalist is **CC‑BY‑NC or All‑Rights‑Reserved**, not CC0. We're
+  non‑commercial, so CC‑BY(‑NC) is fine **with attribution**, but filter out ARR, prefer
+  research‑grade + CC0/CC‑BY, and record the exact license per asset.)*
 - Multiple short clips per creature (your "maybe multiple YouTube videos" idea) → variety + the
   "what will I get?" surprise. Build a **sourcing + license‑tracking pipeline**.
 - **AI video (Veo / Sora)** only for short *transitions/ambiance* where real footage doesn't fit —
@@ -323,7 +389,7 @@ front. Instead:
 
 - This plan lives on the **`reimagined`** branch. `main` (the museum edition) stays the canonical
   preservation and stays deployable.
-- The reimagined game will likely live in its **own app/dir** (e.g. `game/`) so the two editions can
+- Creaturia lives in its **own app dir** (`apps/creaturia/`) so the two editions can
   coexist — perhaps even cross‑linked ("Explore the game" ↔ "View the 1994 archive").
 - Reuse `web/data` (structure/facts) and the tooling; everything *asset*‑related is new and tracked
   in the license ledger.

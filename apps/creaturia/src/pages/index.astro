@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import World from '../engine/World.tsx';
+import { rainforest } from '../data/rainforest';
+---
+
+<Layout title="Creaturia">
+  <!-- The whole game is one Solid island. Astro serializes the scene-graph and hands it over; the
+       island renders/animates it entirely client-side (client:only — no SSR of the interactive world). -->
+  <World client:only="solid" graph={rainforest} />
+</Layout>

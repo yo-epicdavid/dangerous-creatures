@@ -1,6 +1,6 @@
 // platform.ts — the thin seam between the web build and its native (Capacitor) shells.
 //
-// The Reimagined edition is ONE offline-capable web app that ALSO ships native on iOS, Android, and
+// Creaturia is ONE offline-capable web app that ALSO ships native on iOS, Android, and
 // Amazon Fire via Capacitor. Everything platform-specific lives behind this module: the engine calls
 // these helpers and they "just work" — Capacitor plugins when running natively, plain web APIs in the
 // browser. Nothing else in the app should import a Capacitor plugin directly.
@@ -9,7 +9,7 @@
 // web build never hard-depends on Capacitor. When the native shell is scaffolded, install the plugins
 // and fill in the TODOs:
 //   npm i @capacitor/core @capacitor/haptics @capacitor/preferences @capacitor/share
-// See REIMAGINED.md §5½ (Platforms & packaging).
+// See CREATURIA.md §5½ (Platforms & packaging).
 
 export type PlatformName = 'web' | 'ios' | 'android';
 
