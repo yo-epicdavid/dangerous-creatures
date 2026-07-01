@@ -1,9 +1,9 @@
 # Designing Creaturia with Claude Design
 
 A practical guide + paste-ready prompts for using **Claude Design** (Anthropic Labs) to shape the
-visual and interaction language of **Creaturia** — the explorable,
-discovery-driven rebuild of **Dangerous Creatures**, **Oceans**, and **Dinosaurs**, shipping as a web
-app *and* an installable native app. Pairs with [`CREATURIA.md`](./CREATURIA.md); this is the
+visual and interaction language of **Creaturia** — a new, discovery-driven exploration game inspired
+by and continuing **Dangerous Creatures**, **Oceans**, and **Dinosaurs** (not a remake), shipping as
+a web app *and* an installable native app. Pairs with [`CREATURIA.md`](./CREATURIA.md); this is the
 **design half of Phase 2 (§5)** — the style bible + interaction design you do *before* generating
 final assets.
 
@@ -150,9 +150,9 @@ Run Prompt 0 once when you start the project, then 1 → 2 → 3 → 4 → 5.
 ### Prompt 0 · The brief (paste once, first)
 
 ```text
-I'm designing a game for kids (~7–11) called the Exploration Edition — a modern reimagining of the
-1990s Microsoft Home CD-ROMs Dangerous Creatures, Oceans, and Dinosaurs. It ships BOTH as a web app
-and as an installable NATIVE app (see PLATFORMS).
+I'm designing a game for kids (~7–11) called CREATURIA — a NEW exploration game inspired by and
+continuing the 1990s Microsoft Home CD-ROMs Dangerous Creatures, Oceans, and Dinosaurs (not a remake
+of them). It ships BOTH as a web app and as an installable NATIVE app (see PLATFORMS).
 
 THE FEELING: exploration, discovery, mystery, wonder. Kids should WANT to click everything to see
 what's hidden. The original's magic was that you never knew what a click would do — a video, a fact,

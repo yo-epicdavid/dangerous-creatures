@@ -9,6 +9,7 @@ _source/
 __pycache__/
 *.pyc
 node_modules/
+.idea/
 
 # workflow intermediate output (any app)
 **/wf_result*.json

@@ -28,6 +28,11 @@
   color: var(--mist);
   margin: 0;
   text-shadow: 0 2px 8px #000a;
+  /* room-mates: the back button + the reveal toggle; the title yields first */
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .rf-title b { color: var(--amber-bright); }
 .rf-spacer { flex: 1; }
@@ -79,6 +84,131 @@
   inset: 0;
   pointer-events: none;
   box-shadow: inset 0 0 90px 30px #04120977;
+}
+
+/* ---------- the world map: visible markers (a map is for reading, not hunting) ---------- */
+.rf-backdrop { /* the placeholder continents + graticule, behind the markers */
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.rf-region {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 6px;
+  margin: 0;
+  border: 0;
+  border-radius: var(--radius);
+  background: transparent;
+  cursor: pointer;
+  color: var(--ink);
+}
+.rf-region::before { /* a soft breathing glow that says "alive — tap me" */
+  content: '';
+  position: absolute;
+  inset: 4%;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffffff17 0%, transparent 68%);
+  animation: rf-breathe 3.4s ease-in-out infinite;
+}
+.rf-region__art {
+  width: min(56%, 84px);
+  aspect-ratio: 1;
+  flex: 0 0 auto;
+  filter: drop-shadow(0 4px 8px #0008);
+}
+.rf-region__name {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: clamp(13px, 1.9vw, 18px);
+  text-shadow: 0 2px 6px #000c;
+}
+.rf-region__state {
+  font-size: clamp(10px, 1.4vw, 12px);
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--amber-bright);
+}
+/* locked habitats: dimmed, hazy, intriguing — mystery, not shame */
+.rf-region.is-locked::before { animation: none; opacity: 0.3; }
+.rf-region.is-locked .rf-region__art { opacity: 0.55; }
+.rf-region.is-locked .rf-region__name { color: var(--ink-soft); }
+.rf-region.is-locked .rf-region__state { color: #8fa8bd; }
+/* accessibility: "reveal spots" outlines the enterable regions (and the guide pins) */
+.rf-region.is-outlined,
+.rf-guidepin.is-outlined {
+  outline: 2px dashed var(--amber-bright);
+  outline-offset: -2px;
+  background: #ffcf6b14;
+  border-radius: var(--radius);
+}
+/* a tap on a locked habitat: the silhouette wobbles + a "coming soon" bubble */
+.rf-region.is-nudged .rf-region__art { animation: rf-wobble 0.5s ease; }
+.rf-nudge {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  white-space: nowrap;
+  pointer-events: none;
+  background: var(--panel);
+  border: 1px solid var(--panel-line);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink);
+  box-shadow: var(--shadow);
+  animation: rf-pop 300ms cubic-bezier(0.2, 1.3, 0.4, 1) both;
+}
+
+/* the explorer guide's pin: a round portrait + a name chip */
+.rf-guidepin {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  padding: 2px;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  color: var(--ink);
+  min-width: 44px;  /* touch target */
+  min-height: 44px;
+}
+.rf-guidepin__face {
+  width: min(64%, 60px);
+  aspect-ratio: 1;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 28%, #24506e, #122c42);
+  border: 2px solid var(--amber-bright);
+  box-shadow: 0 4px 12px #000a;
+}
+.rf-guidepin__name {
+  font-size: clamp(10px, 1.4vw, 13px);
+  font-weight: 800;
+  white-space: nowrap;
+  background: var(--panel);
+  border: 1px solid var(--panel-line);
+  border-radius: 999px;
+  padding: 3px 9px;
+}
+
+@keyframes rf-wobble {
+  0%, 100% { transform: rotate(0); }
+  25% { transform: rotate(-4deg); }
+  65% { transform: rotate(4deg); }
 }
 
 /* ---------- hotspots: hidden → hinted → revealed ---------- */
@@ -165,6 +295,11 @@
   color: var(--c, var(--leaf-bright));
 }
 .rf-card__art.is-clip { animation: rf-sway 2.4s ease-in-out infinite; }
+.rf-card__art--guide { /* the explorer's round portrait frame */
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 28%, #24506e, #0d2036);
+  border: 3px solid var(--c, var(--amber-bright));
+}
 .rf-kicker {
   font-size: 13px;
   font-weight: 800;
@@ -287,7 +422,8 @@
 /* ---------- reduced motion: clarity over spectacle ---------- */
 @media (prefers-reduced-motion: reduce) {
   .rf-hint, .rf-silhouette, .rf-card, .rf-scrim, .rf-stamp,
-  .rf-slot.is-found, .rf-card__art.is-clip, .rf-portrait .rf-roticon {
+  .rf-slot.is-found, .rf-card__art.is-clip, .rf-portrait .rf-roticon,
+  .rf-region::before, .rf-region.is-nudged .rf-region__art, .rf-nudge {
     animation: none !important;
   }
   .rf-hotspot.is-hinting .rf-hint,

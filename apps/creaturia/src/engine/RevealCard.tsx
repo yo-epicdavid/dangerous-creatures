@@ -7,6 +7,7 @@ const KICKER: Record<RevealKind, string> = {
   clip: 'Caught in motion',
   place: 'A new place',
   game: 'A puzzle appears',
+  guide: 'An explorer awaits', // guides get their own GuideCard; kept for the exhaustive record
 };
 
 /** The reveal payload — the surprise after a tap. Creature art + one earned fact + an onward lure. */
