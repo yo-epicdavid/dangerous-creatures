@@ -168,6 +168,46 @@ interactive spots" toggle, (b) full keyboard navigation, (c) `prefers-reduced-mo
 
 ---
 
+## 5½. Platforms & packaging (web + native)
+
+The Reimagined edition ships **both as a web app and as an installable native app** — the goal is
+*maximum reach for kids on whatever device they have*:
+
+| Store | Devices | Build |
+|---|---|---|
+| **Apple App Store** | iPhone, iPad | the web build wrapped with **Capacitor** |
+| **Google Play** | Android phones & tablets | the same build, Android shell |
+| **Amazon Appstore** | **Fire tablets** (Fire OS = Android) | the Android build, no Google‑Play‑Services deps |
+| **Web / PWA** | any browser | the same Astro app |
+
+**One offline‑capable web codebase → web + iOS + Android + Fire.** This is *why* §5 stays Astro + a
+client‑island engine: **Capacitor** reuses it wholesale and adds native capability (haptics, local
+storage, audio, share, status‑bar/safe‑area) behind a thin `platform` layer that falls back to web
+APIs in the browser — sketch in [`src/lib/platform.ts`](./src/lib/platform.ts). No second codebase,
+no React‑Native/Flutter rewrite.
+
+**Consequences that become first‑class design & engineering constraints (fold into §5/§9):**
+
+- **Form factors.** Phones *and* tablets across many aspect ratios → scenes must be responsive or
+  **pannable**, never a fixed composition that crops; honor **safe‑area insets** (notch, home bar).
+- **Low‑end is the floor, not the ceiling.** Fire tablets are cheap and slow — performance‑budget
+  motion/media, degrade gracefully, and **playtest the slice on a real Fire tablet**, not just an
+  iPad. (Promote this to a top §9 risk.)
+- **Offline‑first assets.** Bundle the slice's media; fetch later habitats **on demand** (app‑size
+  limits) — the asset pipeline (§7) emits both a *bundled* and a *remotely‑fetched* tier.
+- **Kids‑store compliance.** No third‑party ads / tracking / analytics / data collection; parent‑gate
+  any external links or purchases; ship a privacy policy. The existing no‑ads, non‑commercial posture
+  already fits — keep it that way in the UI.
+- **Release overhead** (plan for it): Apple Developer ($99/yr), Google Play ($25 once), Amazon
+  Appstore (free); per‑store review; app icon / splash / store screenshots (Claude Design — see the
+  design guide's Prompt 5).
+
+> Net: going native costs us a **thin platform layer + a packaging/release pipeline**, not a rewrite —
+> but it makes **performance, offline, and store‑compliance** first‑class from the vertical slice
+> onward, not afterthoughts.
+
+---
+
 ## 6. Phase 3 — Content (clean‑room rewrite)
 
 The museum edition transcribed Microsoft's prose *verbatim* — fine for preservation, not for a
